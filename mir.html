@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="properties.css">
+        <link rel="stylesheet" href="publications.css">
+		<link rel="stylesheet" href="mir.css">
+	  	<link rel="script" href="functions.js">
+		<title>Carlos Hern&aacutendez Oliv&aacuten</title>
+  </head>
+  <body>
+
+        <!-- Big box containing all index.html page -->
+        <div class="mirbox" id="mirboxdiv">
+
+			<!-- TOP NAV BAR -->
+			<div class="containernavtopbar">
+				<nav class="topnavbar">
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="publications.html">Publications</a>
+							<ul class="topnavbardrop">
+								<li><a href="publications.html#theses">Theses</a></li>
+							</ul>
+						</li>
+						<li><a href="machine-learning.html">Machine Learning</a></li>
+						<li><a href="mir.htm">Music Information Retrieval</a></li>
+						<li><a href="curriculum.html" class="active">Curriculum Vitae</a></li>
+					</ul>
+				</nav>
+			</div>
+
+            <div class="mir">
+                <h1>
+                Music Information Retrieval
+                </h1>
+            </div>
+
+
+            <main class="page-content">
+
+                <a href="mir.html#sources-separation">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Sources Separation</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#pitch-estimation">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Pitch Estimation</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#music-transcription">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Music Transcription</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#structure-analysis">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Music Structure Analysis</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#sound-synthesis">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Sound Synthesis</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#music-generation">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Music Generation</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mir.html#resources">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Resources</h2>
+                            <p class="copy"></p>
+                        </div>
+                    </div>
+                </a>
+
+				<footer>
+					<p class="copyright">© Carlos Hern&aacutendez Oliv&aacuten | Last update: November 2020</p>
+				</footer>
+
+            </main>
+
+
+            <!------>
+            <div class="mir">
+                <ul>
+                    <li>Presentation 25/09/2020<a href="presentations/presentacion_25-09.pdf"> Slides</a></li>
+                </ul>
+            </div>
+
+			<div class="mir" id="sources-separation">
+				<h2>Sources Separation</h2>
+                <div class="line"></div>
+
+				<img src=images/stateofart/sources_separation.png>
+
+				<p>
+					Tutorial by Ethan Manilow, Prem Seetharaman, and Justin Salamon (ISMIR 2020)
+					<a href="https://source-separation.github.io/tutorial/landing.html" class="button">Tutorial</a>
+				</p>
+
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/spleeter.jpeg alt="spleeter">
+					<p>Hennequin, R., Khlif, A., Voituret, F., & Moussallam, M. (2020). <strong>Spleeter: a fast and efficient
+						music source separation tool with pre-trained models.</strong> Journal of Open Source Software, 5(50), 2154.<br>
+						<a href="http://archives.ismir.net/ismir2019/latebreaking/000036.pdf" class="button">Paper</a>
+						<a href="https://github.com/deezer/spleeter" class="button">GitHub</a>
+						<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/0_SourcesSeparationComparison_mp3files.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+				<!------>
+				<div class="article">
+					<img src=images/stateofart/demucs.png alt="demucs">
+					<p>Défossez, A., Usunier, N., Bottou, L., & Bach, F. (2019). <strong>Demucs: Deep Extractor for Music
+						Sources with extra unlabeled data remixed.</strong> arXiv preprint arXiv:1909.01174.<br>
+						<a href="https://arxiv.org/pdf/1911.13254.pdf" class="button">Paper</a>
+						<a href="https://github.com/facebookresearch/demucs" class="button">GitHub</a>
+						<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/0_SourcesSeparationComparison_mp3files.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="pitch-estimation">
+				<h2>Pitch Estimation</h2>
+                <div class="line"></div>
+
+                <!------>
+                <h3><strong>Monophonic Pitch Estimation</strong></h3>
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/ddsppitch.png alt="ddsppitch">
+					<p>Engel, J., Swavely, R., Hantrakul, L. H., Roberts, A., & Hawthorne, C. (2020).
+						<strong>Self-supervised Pitch Detection by Inverse Audio Synthesis.</strong>
+						<br>
+						<a href="https://t.co/mILWEwoYIH?amp=1" class="button">Paper</a>
+						<a href="https://t.co/MjrSz3zIdF?amp=1" class="button">Video</a>
+						<a href="https://t.co/dDnvt8qWMl?amp=1" class="button">Web</a>
+						<a href="https://t.co/HSLnhXeffx?amp=1" class="button">Colab</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/spice.png alt="spice">
+					<p>Gfeller, B., Frank, C., Roblek, D., Sharifi, M., Tagliasacchi, M., & Velimirovi&cacute;, M. (2020).
+						<strong>SPICE: Self-supervised Pitch Estimation.</strong> IEEE/ACM Transactions on Audio, Speech,
+						and Language Processing, 28, 1118-1128.
+					</p>
+					<ul>
+						<li>Self-supervised autoencoder</li>
+						<li>Params: 2.38M</li>
+						<li>Training Database: <a href="https://github.com/andabi/music-source-separation/tree/master/dataset/mir-1k">MIR-1k</a>
+						+ SingingVoices</li>
+						<li>Testing Database: <a href="https://medleydb.weebly.com/">MedleyDB</a> and MIR-1k</li>
+					</ul>
+					<p>
+						<a href="https://arxiv.org/pdf/1910.11664.pdf" class="button">Paper</a>
+						<a href="https://www.tensorflow.org/hub/tutorials/spice" class="button">Demo</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/crepe.png alt="crepe">
+					<p>Kim, J. W., Salamon, J., Li, P., & Bello, J. P. (2018, April). <strong>CREPE: A convolutional representation
+						for pitch estimation.</strong> In 2018 IEEE International Conference on Acoustics, Speech and Signal
+						Processing (ICASSP) (pp. 161-165). IEEE.
+					</p>
+					<ul>
+						<li>Params: 487k (tinny), 22.2M (full)</li>
+						<li>Training Database: <a href="https://medleydb.weebly.com/">MedleyDB</a>,
+							<a href="https://ieeexplore.ieee.org/document/5404324">Bach10</a>,
+							<a href="https://staff.aist.go.jp/m.goto/RWC-MDB/">RWC-Synth</a> and
+							<a href="https://magenta.tensorflow.org/datasets/nsynth">NSynth</a>
+						</li>
+					</ul>
+					<p>
+						<a href="https://arxiv.org/pdf/1802.06182.pdf" class="button">Paper</a>
+						<a href="https://github.com/marl/crepe" class="button">GitHub</a>
+						<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/3_CREPE_tracking_wav_to_MIDI_colab.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<p>SWIPE</p>
+					<p>Camacho, A. and Harris, J. G. <strong>A sawtooth waveform inspired pitch estimator for speech and music.</strong>
+						The Journal of the Acoustical Society of America, 124(3):1638?1652, 2008.
+						<br>
+						<a href="https://asa.scitation.org/doi/10.1121/1.2951592" class="button">Paper</a>
+					</p>
+				</div>
+
+                <!------>
+                <h3><strong>Polyphonic Pitch Estimation</strong></h3>
+				<h4>State of the Art</h4>
+				<div class="article">
+					<img src=images/stateofart/deepsalience.png alt="deepsalience">
+					<p>Bittner, R. M., McFee, B., Salamon, J., Li, P., & Bello, J. P. (2017, October).
+						<strong>Deep Salience Representations for F0 Estimation in Polyphonic Music.</strong>
+						In ISMIR (pp. 63-70).
+						<br>
+						<a href="https://brianmcfee.net/papers/ismir2017_salience.pdf" class="button">Paper</a>
+						<a href="https://github.com/rabitt/ismir2017-deepsalience" class="button">GitHub</a>
+						<a href="tutorials/audio/DeepSalience_ISMIR2017.html" class="button">Tutorial</a>
+					</p>
+				</div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="music-transcription">
+				<h2>Music Transcription</h2>
+                <div class="line"></div>
+
+				<h4>State of the Art</h4>
+				<!------>
+				<div class="article">
+					<img src=images/stateofart/oaf.png alt="oaf">
+					<p>Hawthorne, C., Elsen, E., Song, J., Roberts, A., Simon, I., Raffel, C., ... & Eck, D. (2017).
+						<strong>Onsets and frames: Dual-objective piano transcription.</strong> arXiv preprint arXiv:1710.11153.
+					</p>
+					<ul>
+						<li>Piano transcription training database: <a href="https://magenta.tensorflow.org/datasets/maestro">Maestro</a>,
+							<a href="https://arxiv.org/pdf/1810.12247.pdf">Paper</a>
+						</li>
+						<li>Drums transcription training database: <a href="https://magenta.tensorflow.org/datasets/e-gmd">E-GMD</a>,
+							<a href="https://arxiv.org/pdf/2004.00188.pdf">Paper</a>
+						</li>
+					</ul>
+					<p>
+						<a href="https://arxiv.org/pdf/1710.11153.pdf" class="button">Paper</a>
+						<a href="https://magenta.tensorflow.org/onsets-frames" class="button">GitHub</a>
+					</p>
+				</div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="structure-analysis">
+				<h2>Music Structure Analysis</h2>
+                <div class="line"></div>
+
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/sslm.png alt="sslm">
+					<p>Grill, T., & Schluter, J. (2015, August). <strong>Music boundary detection using neural networks on
+						spectrograms and self-similarity lag matrices.</strong> In 2015 23rd European Signal Processing Conference
+						(EUSIPCO) (pp. 1296-1300). IEEE.<br>
+						<a href="https://ieeexplore.ieee.org/document/7362593" class="button">Paper</a>
+						<a href="tutorials/audio/SelfSimilarityLagMatrix-Grill_Schluter.html" class="button">Tutorial</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/ssm.png alt="ssm">
+					<p>Serra, J., Müller, M., Grosche, P., & Arcos, J. L. (2014). <strong>Unsupervised music structure
+						annotation by time series structure features and segment similarity.</strong>
+						IEEE Transactions on Multimedia, 16(5), 1229-1240.<br>
+						<a href="https://ieeexplore.ieee.org/document/6763101" class="button">Paper</a>
+						<a href="tutorials/audio/SelfSimilarityMatrix_Serra.html" class="button">Tutorial</a>
+					</p>
+				</div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="sound-synthesis">
+				<h2>Sound Synthesis</h2>
+                <div class="line"></div>
+
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/fs.png alt="fs">
+					<p>Esling, P., Masuda, N., Bardet, A., Despres, R., & Chemla-Romeu-Santos, A. (2020).
+						<strong>Flow synthesizer: Universal audio synthesizer control with normalizing flows.</strong>
+						Applied Sciences, 10(1), 302.
+						<br>
+						<a href="https://arxiv.org/pdf/1907.00971.pdf" class="button">Paper</a>
+						<a href="https://acids-ircam.github.io/flow_synthesizer/" class="button">Web</a>
+						<a href="https://github.com/acids-ircam/flow_synthesizer" class="button">GitHub</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/ddsp.png alt="ddsp">
+					<p>Engel, J., Hantrakul, L., Gu, C., & Roberts, A. (2020). <strong>Ddsp: Differentiable digital signal
+						processing.</strong> arXiv preprint arXiv:2001.04643.
+						<br>
+						<a href="https://arxiv.org/pdf/2001.04643.pdf" class="button">Paper</a>
+						<a href="https://magenta.tensorflow.org/ddsp" class="button">Web</a>
+						<a href="https://github.com/magenta/ddsp" class="button">GitHub</a>
+						<a href="https://colab.research.google.com/github/magenta/ddsp/blob/master/ddsp/colab/demos/timbre_transfer.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/nms.png alt="nms">
+					<p>Kim, J. W., Bittner, R., Kumar, A., & Bello, J. P. (2019, May). <strong>Neural music synthesis for flexible
+						timbre control.</strong> In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal
+						Processing (ICASSP) (pp. 176-180). IEEE.
+						<br>
+						<a href="http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0000176.pdf" class="button">Paper</a>
+						<a href="https://neural-music-synthesis.github.io/" class="button">Web</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/gansynth.png alt="gansynth">
+					<p>Engel, J., Agrawal, K. K., Chen, S., Gulrajani, I., Donahue, C., & Roberts, A. (2019).
+						<strong>Gansynth: Adversarial neural audio synthesis.</strong> arXiv preprint arXiv:1902.08710.
+						<br>
+						<a href="https://arxiv.org/pdf/1902.08710.pdf" class="button">Paper</a>
+						<a href="https://magenta.tensorflow.org/gansynth" class="button">Web</a>
+						<a href="https://github.com/magenta/magenta/tree/master/magenta/models/gansynth" class="button">GitHub</a>
+						<a href="https://colab.research.google.com/notebooks/magenta/gansynth/gansynth_demo.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/gts.png alt="gts">
+					<p>Esling, P., & Bitton, A. (2018). <strong>Generative timbre spaces: regularizing variational auto-encoders
+						with perceptual metrics.</strong> arXiv preprint arXiv:1805.08501.
+						<br>
+						<a href="https://arxiv.org/pdf/1805.08501.pdf" class="button">Paper</a>
+						<a href="https://github.com/acids-ircam/variational-timbre" class="button">GitHub</a>
+						<a href="https://acids-ircam.github.io/variational-timbre/" class="button">Web</a>
+					</p>
+				</div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="music-generation">
+				<h1>Music Generation</h1>
+                <div class="line"></div>
+
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/vae.png alt="vae">
+					<p>Roberts, A., Engel, J., Raffel, C., Hawthorne, C., & Eck, D. (2018). <strong>A hierarchical latent vector
+						model for learning long-term structure in music.</strong> arXiv preprint arXiv:1803.05428.
+						<br>
+						<a href="https://arxiv.org/pdf/1803.05428.pdf" class="button">Paper</a>
+						<a href="https://github.com/magenta/magenta/tree/master/magenta/models/music_vae" class="button">GitHub</a>
+						<a href="https://magenta.tensorflow.org/music-vae" class="button">Web</a>
+						<a href="https://colab.research.google.com/notebook#fileId=/v2/external/notebooks/magenta/music_vae/music_vae.ipynb" class="button">Colab</a>
+						<a href="https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c" class="button">Explanation</a>
+					</p>
+				</div>
+
+                 <!------>
+				<div class="article">
+					<p>Musenet (OpenAI) 2019<br>
+						<a href="https://openai.com/blog/musenet/" class="button">Web</a>
+					</p>
+				</div>
+
+                 <!------>
+				<div class="article">
+					<img src=images/stateofart/transformer.png alt="transformer">
+					<p>
+						Huang, C. Z. A., Vaswani, A., Uszkoreit, J., Simon, I., Hawthorne, C., Shazeer, N., ... & Eck, D.
+						(2018, September). <strong>Music transformer: Generating music with long-term structure.</strong>
+						In International Conference on Learning Representations.
+						<br>
+						<a href="https://arxiv.org/pdf/1809.04281.pdf" class="button">Paper</a>
+						<a href="https://magenta.tensorflow.org/music-transformer" class="button">Web</a>
+						<a href="https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb" class="button">Colab</a>
+					</p>
+				</div>
+
+                 <!------>
+				<div class="article">
+					<img src=images/stateofart/musegan.png alt="musegan">
+					<p>Dong, H. W., Hsiao, W. Y., Yang, L. C., & Yang, Y. H. (2017). <strong>Musegan: Multi-track sequential
+						generative adversarial networks for symbolic music generation and accompaniment.</strong>
+						arXiv preprint arXiv:1709.06298.
+						<br>
+						<a href="https://salu133445.github.io/musegan/pdf/musegan-ismir2017-lbd-paper.pdf" class="button">Paper</a>
+						<a href="https://salu133445.github.io/musegan/" class="button">Web</a>
+					</p>
+				</div>
+
+                 <!------>
+                <h3><strong>Music Accompaniment Generation</strong></h3>
+				<h4>State of the Art</h4>
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/bach.png alt="bach">
+					<p>Huang, C. Z. A., Hawthorne, C., Roberts, A., Dinculescu, M., Wexler, J., Hong, L., & Howcroft, J. (2019).
+						<strong>The bach doodle: Approachable music composition with machine learning at scale.</strong>
+						arXiv preprint arXiv:1907.06637.<br>
+						<a href="https://arxiv.org/pdf/1907.06637.pdf" class="button">Paper</a>
+					</p>
+				 </div>
+
+                <!------>
+				<div class="article">
+					<img src=images/stateofart/deepbach.png alt="deepbach">
+					<p>Hadjeres, G., Pachet, F., & Nielsen, F. (2017, July). <strong>Deepbach: a steerable model for bach
+						chorales generation.</strong> In International Conference on Machine Learning (pp. 1362-1371). PMLR.<br>
+						<a href="https://arxiv.org/pdf/1612.01010.pdf" class="button">Paper</a>
+						<a href="https://github.com/Ghadjeres/DeepBach" class="button">GitHub</a>
+					</p>
+				 </div>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+            <!------>
+			<div class="mir" id="resources">
+				<h2>Resources</h2>
+                <div class="line"></div>
+
+				<!------>
+				<h3>MIR Websites</h3>
+				<p><a href="https://www.music-ir.org/mirex/wiki/MIREX_HOME">MIREX webpage</a></p>
+				<br>
+				<p><a href="https://www.ismir.net/">ISMIR</a></p>
+
+				<h3>Tutorials</h3>
+				<p><a href="https://musicinformationretrieval.com/">Notes on Music Information Retrieval</a> by Steve Tjoa</p>
+				<br>
+				<p><a href="http://www.astroml.org/book_figures/chapter10/index.html#book-fig-chapter10">Time Series Analysis</a></p>
+				<br>
+				<p>
+					<a href="https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html">
+						Python Notebooks for Fundamentals of Music Processing
+					</a> by International Audio Laboratories Erlangen
+				</p>
+
+				<!------>
+				<h3>Colab Notebooks</h3>
+				<p>
+					<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/0_SourcesSeparationComparison_mp3files.ipynb">0. Sources Separation</a>
+					: Separate mp3 files in vocals, bass, drums and other parts with Spleeter and Demucs models.
+				</p>
+				<br>
+				<p>
+					<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/1_Librosa_wav_to_MIDI_colab.ipynb">1. Wav to MIDI with Librosa</a>
+					: Monophonic wav to MIDI transcription with Librosa library.
+				</p>
+				<br>
+				<p>
+					<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/2_CREPE_onsets_wav_to_MIDI_colab.ipynb">2.CREPE_onsets_wav_to_MIDI_colab</a>
+				</p>
+				<br>
+				<p>
+					<a href="https://colab.research.google.com/github/carlosholivan/ColabNotebooksforAudio/blob/master/3_CREPE_tracking_wav_to_MIDI_colab.ipynb">3.CREPE_tracking_wav_to_MIDI_colab</a>
+					: Monophonic wav to MIDI transcription with CREPE model.
+				</p>
+
+				<!------>
+				<h3>Research Groups and Laboratories</h3>
+				<p><a href="https://www.audiolabs-erlangen.de/fau/professor/mueller">Meinard Müller</a></p>
+				<br>
+				<p><a href="https://colinraffel.com/">Colin Raffel</a></p>
+				<br>
+				<p><a href="https://www.stevetjoa.com/">Steve Tjoa</a></p>
+				<br>
+				<p><a href="https://wp.nyu.edu/jpbello/">Juan Pablo Bello</a></p>
+				<br>
+				<p><a href="http://jblsmith.github.io/">Jordan B. L. Smith</a></p>
+				<br>
+				<p><a href="https://ccrma.stanford.edu/~urinieto/MARL/index.php">Oriol Nieto</a></p>
+				<br>
+				<p><a href="http://eita-nakamura.github.io/">Eita Nakamura</a></p>
+				<br>
+				<p><a href="https://www.francoispachet.fr/">Francois Pachet</a></p>
+				<br>
+				<p><a href="http://www.eecs.qmul.ac.uk/~emmanouilb/index.html">Emmanouil Benetos</a></p>
+				<br>
+				<p><a href="http://www.justinsalamon.com/">Justin Salamon</a></p>
+				<br>
+				<p><a href="https://grrrr.org/">Thomas Grill</a></p>
+
+				<!------>
+				<h3>Researchers</h3>
+				<p><a href="https://www.audiolabs-erlangen.de/fau/professor/mueller">Meinard Müller</a></p>
+				<br>
+				<p><a href="https://colinraffel.com/">Colin Raffel</a></p>
+				<br>
+				<p><a href="https://www.stevetjoa.com/">Steve Tjoa</a></p>
+				<br>
+				<p><a href="https://wp.nyu.edu/jpbello/">Juan Pablo Bello</a></p>
+				<br>
+				<p><a href="http://jblsmith.github.io/">Jordan B. L. Smith</a></p>
+				<br>
+				<p><a href="https://ccrma.stanford.edu/~urinieto/MARL/index.php">Oriol Nieto</a></p>
+				<br>
+				<p><a href="http://eita-nakamura.github.io/">Eita Nakamura</a></p>
+				<br>
+				<p><a href="https://www.francoispachet.fr/">Francois Pachet</a></p>
+				<br>
+				<p><a href="http://www.eecs.qmul.ac.uk/~emmanouilb/index.html">Emmanouil Benetos</a></p>
+				<br>
+				<p><a href="http://www.justinsalamon.com/">Justin Salamon</a></p>
+				<br>
+				<p><a href="https://grrrr.org/">Thomas Grill</a></p>
+
+				<!------>
+				<h3>Libraries</h3>
+				<p><a href="https://github.com/librosa/librosa">Librosa</a>: Music and Audio analysis.</p>
+				<br>
+				<p><a href="https://essentia.upf.edu/">Essentia</a>: Music and Audio analysis.</p>
+				<br>
+				<p><a href="https://github.com/craffel/mir_eval">mir_eval</a>: Evaluation metrics for MIR tasks.</p>
+				<br>
+				<p><a href="https://github.com/craffel/pretty-midi">pretty_midi</a>: MIDI handling.</p>
+				<br>
+				<p><a href="https://github.com/urinieto/msaf">msaf</a>: Music Structure Analysis Framework.</p>
+				<br>
+				<p><a href="https://github.com/tyiannak/pyAudioAnalysis">pyAudioAnalysis</a>: Music Structure Analysis Framework.</p>
+				<br>
+
+				<!---Back to Top button--->
+				<a href="mir.html#mirboxdiv"><button class="backbutton"><span>Back to Top</span></button></a>
+
+            </div>
+
+        </div>
+
+  </body>
+
+</html>

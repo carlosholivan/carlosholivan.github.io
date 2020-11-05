@@ -1,0 +1,86 @@
+/* ------------------------------------- */
+/* -----------CURRICULUM---------------- */
+/* ------------------------------------- */
+.publicationsbox {
+    background-image: url('images/background1.png');
+    background-size: 100% 100%;
+    border: 1px;
+    height: 4000px;
+    margin: 12px 12px 12px 12px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.yearbox {
+    padding-bottom: 30px;
+}
+
+.publications {
+    font-family: "Open Sans";
+    font-weight: normal;
+    padding-right: 300px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.publications h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+/* ------------YEAR------------- */
+.publications h2 {
+    font-size: 25px;
+}
+
+/* ---------ARTICLE TITLE------------- */
+.publications h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+
+/* ---------ARTICLE AUTHORS------------- */
+.publications p {
+    font-size: 15px;
+    margin:0;
+    padding:0;
+}
+
+/* ---------ARTICLE JOURNAL------------- */
+.publications p1 {
+    font-size: 15px;
+    color: #8B8B8B;
+}
+
+/* ---------ARTICLE IMAGES------------- */
+.publications img {
+    max-width: 150px;
+    max-height: 100px;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+/* ---------ARTICLE JOURNAL------------- */
+.button {
+    word-wrap: break-word;
+    border: 1px solid black;
+    color: #A279FF;
+    border-color: #A279FF;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #A279FF;
+    color: white;
+}
+
+.button a:hover {
+    color: white;
+}

@@ -1,0 +1,321 @@
+@font-face {
+    font-family: Axis;
+    src: url("Axis.otf") format("opentype");
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.bigbox {
+    background-image: url('images/background2.png');
+    background-size: 100% 100%;
+    border: 1px;
+    height: 100%;
+    margin: 12px 12px 12px 12px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+/* ------------------------------------- */
+/* --------FOOTER COPYRIGHT------------- */
+/* ------------------------------------- */
+footer {
+    position: relative;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #666666;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: center;
+    bottom:0;
+    font-family: "Open Sans";
+    }
+
+/* ------------------------------------- */
+/* -------TOP NAVIGATION BAR------------ */
+/* ------------------------------------- */
+.containernavtopbar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.line {
+    border-color: #8B8B8B;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 10px;
+    line-height: 20px;
+    text-align:center;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+.topnavbar {
+    float: right;
+}
+
+
+.topnavbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topnavbar ul li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.topnavbar ul li a {
+    color: #A279FF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Axis;
+}
+
+.topnavbar ul li a:hover {
+    color: #CF67F5;
+}
+
+.topnavbar ul li a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #CF67F5;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+.topnavbar ul li a:hover::before {
+    width: 100%;
+}
+
+/* --------DROP DOWN ITEMS-------------- */
+.topnavbar ul li ul.topnavbardrop {
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.topnavbar ul li:hover ul.topnavbardrop {
+    display: block;
+}
+
+.topnavbar ul li ul.topnavbardrop li {
+    background: white;
+    display: block;
+    margin-left: 20px;
+    width: 100%;
+    text-align: left;
+    z-index: 500;
+}
+
+.topnavbar ul li ul.topnavbardrop li a {
+    margin-top: 5px;
+    background: white;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.topnavbar ul li ul.topnavbardrop li a:hover {
+    color: #CF67F5;
+}
+
+/* ------------------------------------- */
+/* -----------PROFILE PIC--------------- */
+/* ------------------------------------- */
+. profile img {
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------- */
+/* --------------ABOUT ME--------------- */
+/* ------------------------------------- */
+
+.aboutme {
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-right: 100px;
+    position: absolute;
+
+    font-family: "Open Sans";
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.aboutme h1 {
+    font-size: 40px;
+
+    /* Fadein text animation */
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+.aboutme p {
+    font-size: 16px;
+
+    /* Fadein text animation */
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 7s; /* Firefox < 16 */
+    -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera < 12.1 */
+    animation: fadein 7s;
+}
+
+/* ------------------------------------- */
+/* ------------LINKS IN TEXT------------ */
+/* ------------------------------------- */
+a:link {
+    color: #A279FF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A279FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CF67F5;
+}
+
+/* ------------------------------------- */
+/* ---------HORIZONTAL LINE------------- */
+/* ------------------------------------- */
+hr {
+    border: 0;
+    border-top: 1px solid #8B8B8B;
+    width: 70%;
+    position: center;
+    margin-top: 50px;
+}
+
+/* ------------------------------------- */
+/* -------SOCIAL NETWORKS BAR----------- */
+/* ------------------------------------- */
+.social-nav {
+    margin-top: 40px;
+    text-align: center;
+
+    /* Fadein text animation */
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+.social-nav a {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.fa-github {
+	color: #A279FF;
+	font-size: 50px;
+}
+
+.fa-github:hover {
+	color: #CF67F5;
+}
+
+.fa-google {
+	color: #A279FF;
+	font-size: 50px;
+}
+
+.fa-google:hover {
+    color: #CF67F5;
+}
+
+.fa-linkedin {
+    color: #A279FF;
+    font-size: 50px;
+}
+
+.fa-linkedin:hover {
+    color: #CF67F5;
+}
+
+.fa-twitter {
+    color: #A279FF;
+    font-size: 50px;
+}
+
+.fa-twitter:hover {
+    color: #CF67F5;
+}
+
+.fa-envelope {
+    color: #A279FF;
+    font-size: 50px;
+}
+
+.fa-envelope:hover {
+    color: #CF67F5;
+}
+
+.ai-google-scholar {
+    color: #A279FF;
+    font-size: 50px;
+    @include social-media-icon($google-scholar-color, $icon-transition-time);
+}
+
+.ai-google-scholar:hover {
+    color: #CF67F5;
+}
+
+/* ------------------------------------- */
+/* -------TEXT FADE IN ANIMATION-------- */
+/* ------------------------------------- */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
