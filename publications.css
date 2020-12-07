@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 /* ------------------------------------- */
 /* -----------CURRICULUM---------------- */
 /* ------------------------------------- */
 .publicationsbox {
-    background-image: url('images/background1.png');
+    background-image: url('images/background.png');
     background-size: 100% 100%;
     border: 1px;
     height: 4000px;
@@ -15,7 +17,7 @@
 }
 
 .publications {
-    font-family: "Open Sans";
+    font-family: "Noto Sans";
     font-weight: normal;
     padding-right: 300px;
     padding-left: 200px;
@@ -29,36 +31,41 @@
 
 /* ------------YEAR------------- */
 .publications h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /* ---------ARTICLE TITLE------------- */
 .publications h3 {
     font-size: 18px;
     font-weight: bold;
-    margin:0;
-    padding:0;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /* ---------ARTICLE AUTHORS------------- */
 .publications p {
     font-size: 15px;
-    margin:0;
-    padding:0;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /* ---------ARTICLE JOURNAL------------- */
 .publications p1 {
     font-size: 15px;
     color: #8B8B8B;
+    margin-bottom: 0px;
 }
 
 /* ---------ARTICLE IMAGES------------- */
 .publications img {
-    max-width: 150px;
+    max-width: 500px;
     max-height: 100px;
     padding-top: 10px;
     padding-left: 0;
+}
+
+.publication {
+    margin-bottom: 50px;
 }
 
 /* ---------ARTICLE JOURNAL------------- */
@@ -74,6 +81,7 @@
     font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .button:hover {

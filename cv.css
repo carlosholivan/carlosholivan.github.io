@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 /* ------------------------------------- */
 /* -----------CURRICULUM---------------- */
 /* ------------------------------------- */
@@ -12,7 +14,7 @@
 
 
 .curriculum {
-    font-family: "Open Sans";
+    font-family: "Noto Sans";
     font-weight: normal;
     padding-right: 300px;
     padding-left: 200px;
