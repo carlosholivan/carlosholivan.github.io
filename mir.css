@@ -16,8 +16,8 @@
 .mir {
     font-family: "Noto Sans";
     font-weight: normal;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 300px;
+    padding-left: 300px;
     padding-top: 100px;
 }
 
@@ -33,18 +33,19 @@
 }
 
 .mir h3 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 .mir h4 {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 10px;
     color: #999999;
 }
 
 .mir p {
-    font-size: 15px;
+    font-size: 20px;
     margin:0;
     padding:0;
     font-family: "Noto Sans";
