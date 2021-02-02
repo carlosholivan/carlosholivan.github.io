@@ -8,15 +8,18 @@
 html, body {
     height: 100%;
     scroll-behavior: smooth;
+    background-color: rgb(227, 221, 253);
 }
 
 .bigbox {
-    background-image: url('images/background2.png');
+    /*background-image: url('images/background2.png');*/
+    background-color: rgb(6, 8, 12);
     background-size: 100% 100%;
     border: 1px;
     height: 100%;
     margin: 12px 12px 12px 12px;
     box-shadow: 2px 2px 2px 2px #888888;
+    color: white;
 }
 
 /* ------------------------------------- */
@@ -140,7 +143,7 @@ p.copyright {
 /* ------------------------------------- */
 /* -----------PROFILE PIC--------------- */
 /* ------------------------------------- */
-. profile img {
+.profile img {
     width: 20%;
     border-radius: 50%;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
@@ -155,7 +158,6 @@ p.copyright {
     margin-left: 700px;
     margin-right: 100px;
     position: absolute;
-
     text-align: justify;
 }
 
@@ -173,7 +175,7 @@ p.copyright {
 
 .aboutme p {
     font-family: "Noto Sans";
-    font-size: 20px;
+    font-size: 24px;
 
     /* Fadein text animation */
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */

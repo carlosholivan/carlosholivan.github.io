@@ -4,16 +4,19 @@
 /* ----------------MIR------------------ */
 /* ------------------------------------- */
 .mirbox {
-    background-image: url('images/background3.jpg');
+    /*background-image: url('images/background3.jpg'); */
+    background-color: rgb(6, 8, 12);
     background-size: 100% 100%;
     border: 1px;
     height: 100%;
     margin: 12px 12px 12px 12px;
     box-shadow: 2px 2px 2px 2px #888888;
+    color: white;
 
 }
 
 .mir {
+    background-color: rgb(6, 8, 12);
     font-family: "Noto Sans";
     font-weight: normal;
     padding-right: 300px;

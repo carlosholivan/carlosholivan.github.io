@@ -4,12 +4,14 @@
 /* -----------CURRICULUM---------------- */
 /* ------------------------------------- */
 .publicationsbox {
-    background-image: url('images/background.png');
+    /*background-image: url('images/background.png');*/
+    background-color: rgb(6, 8, 12);
     background-size: 100% 100%;
     border: 1px;
     height: 4000px;
     margin: 12px 12px 12px 12px;
-    box-shadow: 2px 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px 2px #e0cdff;
+    color: white;
 }
 
 .yearbox {
@@ -24,18 +26,18 @@
     padding-top: 100px;
 }
 
-.publications h1 {
+.publication h1 {
     font-size: 30px;
     margin-bottom: 0px;
 }
 
 /* ------------YEAR------------- */
-.publications h2 {
+.publication h2 {
     font-size: 30px;
 }
 
 /* ---------ARTICLE TITLE------------- */
-.publications h3 {
+.publication .title h3 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
@@ -43,21 +45,24 @@
 }
 
 /* ---------ARTICLE AUTHORS------------- */
-.publications p {
+.publication .title p {
     font-size: 15px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 /* ---------ARTICLE JOURNAL------------- */
-.publications p1 {
+.publication .title p1 {
     font-size: 15px;
-    color: #8B8B8B;
+    color: #ffc0fc;
     margin-bottom: 0px;
+    font-style: italic;
 }
 
 /* ---------ARTICLE IMAGES------------- */
 .publications img {
+    vertical-align: middle;
+    margin: auto;
     max-width: 500px;
     max-height: 100px;
     padding-top: 10px;
@@ -65,10 +70,34 @@
 }
 
 .publication {
+    margin: auto;
+    padding-top: 10px;
     margin-bottom: 50px;
+    background-size: 100% 100%;
+    border: 1px;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    background-color: #e7ebff;
+    text-align: center;
+
+}
+
+.publication .title {
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 1px;
+    background-size: 100% 100%;
+    border: 0.5px;
+    border-radius: 5px;
+    height: 45%;
+    width: 90%;
+    box-shadow: 1px 1px 1px 1px #bdbcbc;
+    background-color: #00816c;
 }
 
 /* ---------ARTICLE JOURNAL------------- */
+
 .button {
     word-wrap: break-word;
     border: 1px solid black;

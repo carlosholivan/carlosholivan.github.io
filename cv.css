@@ -4,12 +4,14 @@
 /* -----------CURRICULUM---------------- */
 /* ------------------------------------- */
 .curriculumbox {
-    background-image: url('images/background.png');
+    /*background-image: url('images/background.png');*/
+    background-color: rgb(6, 8, 12);
     background-size: 100% 100%;
     border: 1px;
-    height: 4000px;
+    height: 700%;
     margin: 12px 12px 12px 12px;
     box-shadow: 2px 2px 2px 2px #888888;
+    color: white;
 }
 
 
