@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 html, body {
     height: 100%;
@@ -162,7 +163,7 @@ p.copyright {
 }
 
 .aboutme h1 {
-    font-family: "Noto Sans";
+    font-family: "Comfortaa";
     font-size: 40px;
 
     /* Fadein text animation */
@@ -174,8 +175,9 @@ p.copyright {
 }
 
 .aboutme p {
-    font-family: "Noto Sans";
+    font-family: "Comfortaa";
     font-size: 24px;
+    line-height : 30px;
 
     /* Fadein text animation */
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
