@@ -1,0 +1,13 @@
+@article{subjectiveval22,
+  author    = {Carlos Hernandez{-}Olivan,
+               Jorge Abadias Puyuelo and
+               Jos{\'{e}} Ram{\'{o}}n Beltr{\'{a}}n},
+  title     = {Timbre Classification of Musical Instruments with a Deep Learning Multi-Head Attention-Based Model},
+  journal   = {CoRR},
+  volume    = {abs/2107.06231},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2107.06231},
+  eprinttype = {arXiv},
+  eprint    = {2203.14641},
+  doi = {10.48550/ARXIV.2203.14641},
+}
