@@ -1,0 +1,91 @@
+div .box-journal {
+    background-color: #800000;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #800000;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
+
+div .box-conference {
+    background-color: #220567;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #220567;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
+
+div .box-chapter {
+    background-color: #5F0083;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #5F0083;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
+
+div .box-workshop {
+    background-color: #168300;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #168300;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
+
+div .box-preprint {
+    background-color: #13001A;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #13001A;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
+
+
+
+div .box-type-journal {
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #800000;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: #800000;
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px 2px;
+    font-size: small;
+    display:inline;
+}
