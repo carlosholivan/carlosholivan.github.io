@@ -1,11 +1,17 @@
-@article{review22,
-  author    = {Carlos Hernandez{-}Olivan and
-               Jos{\'{e}} Ram{\'{o}}n Beltr{\'{a}}n},
-  title     = {Music Composition with Deep Learning: A Review},
-  journal   = {CoRR},
-  volume    = {abs/2108.12290},
-  year      = {2022},
-  url = {https://arxiv.org/abs/2108.12290},
-  eprinttype = {arXiv},
-  doi = {10.48550/ARXIV.2108.12290},
+@Inbook{Hernandez-Olivan2023,
+author="Hernandez-Olivan, Carlos
+and Beltr{\'a}n, Jos{\'e} R.",
+editor="Biswas, Anupam
+and Wennekes, Emile
+and Wieczorkowska, Alicja
+and Laskar, Rabul Hussain",
+title="Music Composition with Deep Learning: A Review",
+bookTitle="Advances in Speech and Music Technology: Computational Aspects and Applications",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="25--50",
+isbn="978-3-031-18444-4",
+doi="10.1007/978-3-031-18444-4_2",
+url="https://doi.org/10.1007/978-3-031-18444-4_2"
 }
