@@ -1,0 +1,315 @@
+testname: MUSHRA test for Audio Restoration
+testId: default_example
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Welcome to this MUSHRA test. In this test you will be asked to listen to audio examples and rate the quality of the audio. This test contains 3 subtests for declipping, bandwidth extension and deplipping tasks. Each test contains 5 pages. The approximate duration of the test is 15 minutes. Please use headphones for this test. 
+    - type: generic
+      id: declipping_welcome_page
+      name: Declipping Test
+      content: The next test is a declipping test performed with different methods. Please listen to the audio and rate the quality of the audio.
+    - type: mushra
+      id: trial1
+      name: MUSHRA
+      content: This is practicing part for listening test. <br> Before starting, please make sure to use headphones suitable for listening to music and adjust volume (Once you decide volume, please do not change it until end). <br> <br> Please read following description and try to evaluate each sample. <br> Please listen to each sample and Reference (original vocal) and <b> Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all).</b> <b> Please ignore noise and auditory quality and try to evaluate each sample only on extent of the audio restoration task addressed in each subtest</b>. <br> You can listen to samples many times. <br> We ask you to evaluate 3 tasks including declipping, band extension and inpainting. The first test begins from next page. Current page is demo page.
+      showWaveform: false
+      enableLooping: false 
+      reference: configs/resources/audio/ALJAMES-CQT-GT-wet.wav
+      createAnchor35: true
+      createAnchor70: true
+    - 
+          - random
+          - type: mushra
+            id: declipping_ADIZ
+            name: MUSHRA - declipping 1
+            content: Please listen to each sample and Reference (original vocal). The Reference has been declipped. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/ADIZ-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/ADIZ-CQT-clipped-SDR5-dry.wav
+                C2: configs/resources/audio/ADIZ-CQT-SDR5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/ADIZ-CQT-SDR5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/ADIZ-CQT-SDR5-RG-DC-RP-xiVar-dry.wav         
+          - type: mushra
+            id: declipping_JLEE
+            name: MUSHRA - declipping 2
+            content: Please listen to each sample and Reference (original vocal). The Reference has been declipped. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/JLEE-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/JLEE-CQT-clipped-SDR5-dry.wav
+                C2: configs/resources/audio/JLEE-CQT-SDR5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/JLEE-CQT-SDR5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/JLEE-CQT-SDR5-RG-DC-RP-xiVar-dry.wav  
+          - type: mushra
+            id: declipping_KENN
+            name: MUSHRA - declipping 3
+            content: Please listen to each sample and Reference (original vocal). The Reference has been declipped. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/KENN-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/KENN-CQT-clipped-SDR5-dry.wav
+                C2: configs/resources/audio/KENN-CQT-SDR5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/KENN-CQT-SDR5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/KENN-CQT-SDR5-RG-DC-RP-xiVar-dry.wav 
+          - type: mushra
+            id: declipping_ALJAMES
+            name: MUSHRA - declipping 4
+            content: Please listen to each sample and Reference (original vocal). The Reference has been declipped. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/ALJAMES-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/ALJAMES-CQT-clipped-SDR5-wet.wav
+                C2: configs/resources/audio/ALJAMES-CQT-SDR5-DC-PiGDM-wet.wav
+                C3: configs/resources/audio/ALJAMES-CQT-SDR5-RG-DC-xiVar-wet.wav
+                C4: configs/resources/audio/ALJAMES-CQT-SDR5-RG-DC-RP-xiVar-wet.wav 
+          - type: mushra
+            id: declipping_JULIET
+            name: MUSHRA - declipping 5
+            content: Please listen to each sample and Reference (original vocal). The Reference has been declipped. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/JULIET-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/JULIET-CQT-clipped-SDR5-wet.wav
+                C2: configs/resources/audio/JULIET-CQT-SDR5-DC-PiGDM-wet.wav
+                C3: configs/resources/audio/JULIET-CQT-SDR5-RG-DC-xiVar-wet.wav
+                C4: configs/resources/audio/JULIET-CQT-SDR5-RG-DC-RP-xiVar-wet.wav
+    - type: generic
+      id: bandwidth_welcome_page
+      name: Bandwidth Extension Test
+      content: The next test is a bandwidth extension test that follows the same logic as the previous test. Please listen to the audio and rate the quality of the audio.         
+      showWaveform: false
+      enableLooping: false 
+      reference: configs/resources/audio/ADIZ-CQT-GT-dry.wav
+      createAnchor35: true
+      createAnchor70: true
+    - 
+          - random
+          - type: mushra
+            id: band_ADIZ2
+            name: MUSHRA - bandwidth extension 1
+            content: Please listen to each sample and Reference (original vocal). The frequencies above 5kHz have been removed from Reference and then restored with each method. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/ADIZ2-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/ADIZ2-CQT-FC5-dry.wav
+                C2: configs/resources/audio/ADIZ2-CQT-FC5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/ADIZ2-CQT-FC5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/ADIZ2-CQT-FC5-RG-DC-RP-xiVar-dry.wav         
+          - type: mushra
+            id: band_JLEE2
+            name: MUSHRA - bandwidth extension 2
+            content: Please listen to each sample and Reference (original vocal). The frequencies above 5kHz have been removed from Reference and then restored with each method. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/JLEE2-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/JLEE2-CQT-FC5-dry.wav
+                C2: configs/resources/audio/JLEE2-CQT-FC5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/JLEE2-CQT-FC5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/JLEE2-CQT-FC5-RG-DC-RP-xiVar-dry.wav  
+          - type: mushra
+            id: band_KENN2
+            name: MUSHRA - bandwidth extension 3
+            content: Please listen to each sample and Reference (original vocal). The frequencies above 5kHz have been removed from Reference and then restored with each method. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/KENN2-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/KENN2-CQT-FC5-dry.wav
+                C2: configs/resources/audio/KENN2-CQT-FC5-DC-PiGDM-dry.wav
+                C3: configs/resources/audio/KENN2-CQT-FC5-RG-DC-xiVar-dry.wav
+                C4: configs/resources/audio/KENN2-CQT-FC5-RG-DC-RP-xiVar-dry.wav 
+          - type: mushra
+            id: band_BSK2
+            name: MUSHRA - bandwidth extension 4
+            content: Please listen to each sample and Reference (original vocal). The frequencies above 5kHz have been removed from Reference and then restored with each method. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/BSK2-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/BSK2-CQT-FC5-wet.wav
+                C2: configs/resources/audio/BSK2-CQT-FC5-DC-PiGDM-wet.wav
+                C3: configs/resources/audio/BSK2-CQT-FC5-RG-DC-xiVar-wet.wav
+                C4: configs/resources/audio/BSK2-CQT-FC5-RG-DC-RP-xiVar-wet.wav 
+          - type: mushra
+            id: band_CV2
+            name: MUSHRA - bandwidth extension 5
+            content: Please listen to each sample and Reference (original vocal). The frequencies above 5kHz have been removed from Reference and then restored with each method. Please, <b> evaluate how well each sample matches the reference.</b> <br> Please rate with this way (Excellent: Well restored, Good: restored, Fair: Somehow restored, Poor: Not removed, Bad: Not restored at all). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/CV2-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/CV2-CQT-FC5-wet.wav
+                C2: configs/resources/audio/CV2-CQT-FC5-DC-PiGDM-wet.wav
+                C3: configs/resources/audio/CV2-CQT-FC5-RG-DC-xiVar-wet.wav
+                C6: configs/resources/audio/CV2-CQT-FC5-RG-DC-RP-xiVar-wet.wav
+    - type: generic
+      id: inpainting_welcome_page
+      name: Inpainting Test
+      content: The next test is an inpainting test that follows the same logic as the previous test. You will rate short and long inpainting. Please listen to the audio and rate the quality of the audio.
+      showWaveform: false
+      enableLooping: false 
+      reference: #configs/resources/audio/ADIZ-CQT-GT-dry.wav
+      createAnchor35: true
+      createAnchor70: true
+    - 
+          - random
+          - type: mushra
+            id: inpaint_short_ADIZ3
+            name: MUSHRA - inpaint short 1
+            content: Please listen to each sample and Reference (original vocal). A region of 200ms has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/ADIZ3-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/ADIZ3-CQT-short-DC-PiGDM-dry.wav
+                C2: configs/resources/audio/ADIZ3-CQT-short-RG-DC-xiVar-dry.wav
+                C3: configs/resources/audio/ADIZ3-CQT-short-RG-xi035-dry.wav
+                C4: configs/resources/audio/ADIZ3-CQT-short-RG-DC-RP-xiVar-dry.wav         
+          - type: mushra
+            id: inpaint_short_JLEE3
+            name: MUSHRA - inpaint short 2
+            content: Please listen to each sample and Reference (original vocal). A region of 200ms has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/JLEE3-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/JLEE3-CQT-short-DC-PiGDM-dry.wav
+                C2: configs/resources/audio/JLEE3-CQT-short-RG-DC-xiVar-dry.wav
+                C3: configs/resources/audio/JLEE3-CQT-short-RG-xi035-dry.wav
+                C4: configs/resources/audio/JLEE3-CQT-short-RG-DC-RP-xiVar-dry.wav  
+          - type: mushra
+            id: inpaint_short_GW3
+            name: MUSHRA - inpaint short 3
+            content: Please listen to each sample and Reference (original vocal). A region of 200ms has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/GW3-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/GW3-CQT-short-DC-PiGDM-wet.wav
+                C2: configs/resources/audio/GW3-CQT-short-RG-DC-xiVar-wet.wav
+                C3: configs/resources/audio/GW3-CQT-short-RG-xi035-wet.wav
+                C4: configs/resources/audio/GW3-CQT-short-RG-DC-RP-xiVar-wet.wav
+          - type: mushra
+            id: inpaint_long_ADIZ3
+            name: MUSHRA - inpaint long 1
+            content: Please listen to each sample and Reference (original vocal). A region of 1s has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false
+            reference: configs/resources/audio/ADIZ3-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/ADIZ3-CQT-long-DC-PiGDM-dry.wav
+                C2: configs/resources/audio/ADIZ3-CQT-long-RG-DC-xiVar-dry.wav
+                C3: configs/resources/audio/ADIZ3-CQT-long-RG-xi035-dry.wav
+                C4: configs/resources/audio/ADIZ3-CQT-long-RG-DC-RP-xiVar-dry.wav         
+          - type: mushra
+            id: inpaint_long_JLEE3
+            name: MUSHRA - inpaint long 2
+            content: Please listen to each sample and Reference (original vocal). A region of 1s has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/JLEE3-CQT-GT-dry.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/JLEE3-CQT-long-DC-PiGDM-dry.wav
+                C2: configs/resources/audio/JLEE3-CQT-long-RG-DC-xiVar-dry.wav
+                C3: configs/resources/audio/JLEE3-CQT-long-RG-xi035-dry.wav
+                C4: configs/resources/audio/JLEE3-CQT-long-RG-DC-RP-xiVar-dry.wav  
+          - type: mushra
+            id: inpaint_long_GW3
+            name: MUSHRA - inpaint long 3
+            content: Please listen to each sample and Reference (original vocal). A region of 1s has been removed from Reference. Please, <b> evaluate how well the inpainted segment fits the audio sample.</b> <br> Please rate with this way (Excellent: Inpainted content fits well in the audio segment, Good: Inpainted content fits the audio segment, Fair: Inpainted content somehow fits the audio segment, Poor: Inpainted content does not fit the audio segment, Bad: Inpainted content is very far for fitting the audio segment). <br> You can listen to samples many times.
+            enableLooping: false 
+            reference: configs/resources/audio/GW3-CQT-GT-wet.wav
+            createAnchor35: false
+            createAnchor70: false
+            randomize: True
+            showWaveform: false
+            stimuli:
+                C1: configs/resources/audio/GW3-CQT-long-DC-PiGDM-wet.wav
+                C2: configs/resources/audio/GW3-CQT-long-RG-DC-xiVar-wet.wav
+                C3: configs/resources/audio/GW3-CQT-long-RG-xi035-wet.wav
+                C4: configs/resources/audio/GW3-CQT-long-RG-DC-RP-xiVar-wet.wav 
+    - type: finish
+      name: Thank you
+      content: Thank you for attending!
+      showResults: true
+      writeResults: true
+      # questionnaire:
+      #     - type: text
+      #       label: eMail
+      #       name: email
+      #     - type: number
+      #       label: Age
+      #       name: age
+      #       min: 0
+      #       max: 100
+      #       default: 30
+      #     - type: likert
+      #       name: gender
+      #       label: Gender
+      #       response:
+      #        - value: female
+      #          label: Female
+      #        - value: male
+      #          label: Male
+      #        - value: other
+      #          label: Other
