@@ -122,15 +122,17 @@
         <div id="colorlib-blog">
             <div class="row">
                 <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-                    <h1>VOCAL RESTORATION VIA SAMPLING PRE-TRAINED DIFFUSION MODELS
+                    <h1>VRDMG: VOCAL RESTORATION VIA DIFFUSION POSTERIOR SAMPLING
                         <br>WITH MULTIPLE GUIDANCE</h1>
                     <h4>Carlos Hernandez-Olivan<sup>*, &#x2020;</sup>, Koichi Saito<sup>&#x2020;</sup>, Naoki Murata<sup>&#x2020;</sup>,
                         Chieh-Hsin Lai<sup>&#x2020;</sup>, Marco A. Rammirez-Martinez<sup>&#x2020;</sup>,
-                        Wei-Hsing Liao<sup>&#x2020;</sup>, Yuki Mitsufuji<sup>&#x2020;</sup></h4>
+                        Wei-Hsing Liao<sup>&#x2020;</sup>, Yuki Mitsufuji<sup>&#x2020;</sup><sup>&#8224;</sup></h4>
                     <h4>
                         <sup>*</sup>Dept. of Electronic Engineering and Communications, University of Zaragoza, Spain
                         <br>
-                        <sup>&#x2020;</sup>Sony Research, Tokyo, Japan
+                        <sup>&#x2020;</sup>Sony AI, Tokyo, Japan
+                        <br>
+                        <sup>&#8224;</sup>Sony Group Corporation, Tokyo, Japan
                     </h4>
                     <div class="col-md-12">
                         <p class="colorlib-social-icons">
@@ -145,12 +147,12 @@
                         <div class="col-md-12">
                     <h3>Abstract</h3>
                     <p>
-                        Restoring degraded music signals is essential to enhance audio quality for downstream music manipulation. While diffusion-based music restoration methods have demonstrated impressive performance against problem-oriented models, the effectiveness of different guidance techniques in music restoration remains underexplored. This paper introduces diverse diffusion guidance methods for music restoration tasks, including time-traveling technique and pseudo-inverse guidance ($\Pi$GDM). 
-We trained two models: Constant Q-Transform (CQT) and waveform using various types of vocal data. 
-The waveform model yields comparable performance to the CQT model, boasting an 18x reduction in inference time. 
-We validated our methods for declipping and bandwidth extension tasks. 
-In declipping task, the addition of time-traveling guidance outperforms prior approaches for various levels of distortion. 
-Furthermore, $\Pi$GDM performs similarly to existing techniques for bandwidth extension task.
+                        Restoring degraded music signals is essential to enhance audio quality for downstream music manipulation. 
+Recent diffusion-based music restoration methods have demonstrated impressive performance, and among them, diffusion posterior sampling (DPS) stands out given its intrinsic properties, making it versatile across various restoration tasks.
+In this paper, we identify that there are potential issues which will degrade current DPS-based methods' performance and introduce the way to mitigate the issues inspired by diverse diffusion guidance techniques including the RePaint (RP) strategy and the Pseudoinverse-Guided Diffusion Models ($\Pi$GDM). 
+We demonstrate our methods for the vocal declipping and bandwidth extension tasks under various levels of distortion and cutoff frequency, respectively.
+In both tasks, our methods outperform the current DPS-based music restoration benchmarks. 
+We refer to <a href="http://carlosholivan.github.io/demos/audio-restoration-2023.html">http://carlosholivan.github.io/demos/audio-restoration-2023.html</a> for examples of the restored audio samples.
                     </p>
                 </div></div></div></div>
             </div>
@@ -451,6 +453,7 @@ Furthermore, $\Pi$GDM performs similarly to existing techniques for bandwidth ex
 
             <div class="container">
                 <h3>Declipping 44.1kHz</h3>
+                <p>SDR = 10dB with CQT model</p>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="table-responsive">
@@ -486,6 +489,7 @@ Furthermore, $\Pi$GDM performs similarly to existing techniques for bandwidth ex
 
                 <div class="container">
                     <h3>Bandwidth Extension 44.1kHz</h3>
+                    <p>fc = 11.025kHz to 22.05kHz with CQT model</p>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="table-responsive">
