@@ -3138,6 +3138,12 @@
 .icon-twitter:before {
   content: "\ed0d";
 }
+.icon-bibtex:before {
+  content: "\1F56E";
+}
+.icon-paper:before {
+  content: "\1F4C4";
+}
 .icon-vine:before {
   content: "\ed0e";
 }
