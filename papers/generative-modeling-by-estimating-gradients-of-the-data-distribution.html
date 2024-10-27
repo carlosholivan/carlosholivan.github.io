@@ -159,11 +159,11 @@
                                     <a href="" class="btn btn-primary btn-outline"><i class="icon-github"></i> Code</a>
                                     <a href="" class="btn btn-primary btn-outline">Blog</a>
                                 </div>
-                                <div style="padding-left: 300px;">
-                                    <p>TL;DR: ...</p>
+                                <div style="padding-left: 20px;">
+                                    <p>TL;DR: This work establishes score-based generative modeling by connecting score matching with generative modeling across multiple noise levels. It learns the score of the log data density through a score model and leverages Langevin dynamics with annealing for high-quality sampling.</p>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row" style="padding-left: 20px;">
                                 <div class="col-md-12">
                                     <div class="article animate-box">
                                         <h2 id="table-of-contents">
@@ -172,6 +172,10 @@
                                         <h4 style="padding-left: 20px;">
                                             <a href="#introduction" style="text-decoration: none; color: inherit;">1. Introduction</a>
                                         </h4>
+                                        <h4 style="padding-left: 20px;">
+                                            <a href="#langevin-dynamics" style="text-decoration: none; color: inherit;">2. Score Matching and Langevin Dynamics</a>
+                                        </h4>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -181,6 +185,29 @@
                                         <h2 id="introduction">
                                             <a href="#table-of-contents" style="text-decoration: none; color: inherit;">1. Introduction</a>
                                         </h2>
+                                        <p>
+                                            This paper introduces the following concepts:
+                                            <ul>
+                                                <li>
+                                                    <strong>Score-based generative modeling</strong>. It introduces a new generative approach by learning the score function \( \nabla_\mathbf{x} \log p(\mathbf{x}) \) of the data distribution at multiple noise levels.
+                                                    The new approach is called <i>score-based generative modeling</i> and it is based on the idea of estimating the gradient of the data distribution (log density) instead of learning directly the data distribution itself.
+                                                    This simplifies the learning process.
+                                                </li>
+                                                <li>
+                                                    <strong>Multi-level noise conditioning</strong>. Inspired by annealing processes, this work poposes to condiiton the score model on different noise scales.
+                                                    This allows to capture low data density regions and improve the quality of the samples.
+                                                </li>
+                                                <li>
+                                                    <strong>Connect score matching with generative modeling</strong>. This work leverages denoising score matching <a>[Vincent 2011]</a> by training a score network which predicts gradients of noised data densities. By iterative refinement, the model can producce high-quality samples.
+                                                    This is connected with the points above and, in addition to them, establishes the so-called <i>score-based generative modeling</i>.
+                                                </li>
+                                                <li>
+                                                    <strong>Annealed Langevin dynamics for sampling</strong>. Sampling is achieved using Langevin dynamics where noise levels are gradually reduced or annealed to guide the samples from initial random noise toward the data distribution.
+                                                    This process is called <i>annealed Langevin dynamics</i> and addresses the slow mixing issues in high-dimensional sampling.
+                                                </li>
+                                                Note: Take into ccount that this paper likely established score-based generative modeling while Denoising Diffusion Probabilistic Models (DDPM) <a>[Ho et al. 2020]</a>. While this paper proposes advances in pure score-based models, DDPM connect score-based models and diffusion processes (that is, the forward and backward learning processes) and therefore, defined the well-known <i>diffusion models</i>.
+                                            </ul>    
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -223,7 +250,7 @@
                                             \[
                                                 \frac{d\mathbf{x}}{dt} = \underbrace{-\nabla U(\mathbf{x})}_{\text{Deterministic}} + \underbrace{\gamma \mathbf{z}(t)}_{\text{Stochastic}},
                                                 \tag{Eq. 1} \label{eq:langevin-dynamics}
-                                            \] 
+                                            \]
                                             where:
                                             <ul>
                                                 <li> \( \mathbf{x} \) is the position of the particle.</li>
