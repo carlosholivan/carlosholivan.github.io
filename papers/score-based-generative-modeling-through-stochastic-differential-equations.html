@@ -44,7 +44,8 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 	</head>
 	<body>
@@ -316,6 +317,49 @@
 										</tbody>
 									</table>
 
+                                </div>
+                            </div>
+							<div class="row">
+                                <div class="col-md-12">
+                                    <div class="article animate-box">
+                                        <h2 id="sampling">
+                                            <a href="#table-of-contents" style="text-decoration: none; color: inherit;">3. Probability Flow ODE</a>
+                                        </h2>
+										<p>
+											The reverse time SDE <a>[Anderson 1982]</a> is given by:
+											\[
+											\text{d}\mathbf{x} = \left\{ \mathbf{f}(\mathbf{x},t) - \nabla \cdot [\mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T}] - \mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T} \nabla_\mathbf{x} \log p_t(\mathbf{x}) \right\} \text{d}t + \mathbf{G}(\mathbf{x},t) \text{d}\mathbf{\tilde{w}},
+											\]
+											One of the main contributions of this paper is the derivation of the <b>Probability Flow Ordinary Differential Equation (PF-ODE)</b> which is a continuous-time stochastic differential equation (SDE) that describes the evolution of the data distribution.
+											We will demonstrate that the following probability flow ODE (<a>Eq. 7</a>) induces the same marginal probability density \( p_t(\mathbf{x}) \) as the SDE giben by <a>Eq. 8</a>.
+											
+											\[
+												\text{d}\mathbf{x} = \left\{ \mathbf{f}(\mathbf{x},t) - \nabla \cdot \frac{1}{2} [\mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T}] - \frac{1}{2} \mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T} \nabla_\mathbf{x} \log p_t(\mathbf{x}) \right\} \text{d}t
+												\tag{Eq. 7} \label{eq:ode}
+											\]
+											where:
+											<ul>
+												<li>\( \mathbf{G} \)</li>
+											</ul>
+											The SDE equation can be written as:
+											\[
+												\text{d}\mathbf{x} = \mathbf{f}(\mathbf{x},t)\text{d}t + \mathbf{G}(\mathbf{x},t)\text{d}\mathbf{w},
+												\tag{Eq. 8} \label{eq:sde}
+											\]
+											<br>
+											This equation can be written as a simplified ODE:
+											\[
+												\text{d} \mathbf{x} = \mathbf{\tilde{f}}(\mathbf{x}(t), t)\text{d}t
+												\tag{Eq. X} \label{eq:ode_simplified}
+											\]
+											where:
+											\[
+												\mathbf{\tilde{f}}(\mathbf{x}(t), t) \colon= \left\{ \mathbf{f}(\mathbf{x},t) - \nabla \cdot [\mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T}] - \mathbf{G}(\mathbf{x},t) \mathbf{G}(\mathbf{x},t)^\text{T} \nabla_\mathbf{x} \log p_t(\mathbf{x}) \right\} \text{d}t + \mathbf{G}(\mathbf{x},t)
+											\]
+											
+											
+										</p>
+                                    </div>
                                 </div>
                             </div>
 							<div class="row">

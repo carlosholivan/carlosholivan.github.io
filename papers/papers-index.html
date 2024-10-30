@@ -140,24 +140,65 @@
                                         </h5>
                                         <p style="padding-left: 80px;">
                                             <a href="" style="text-decoration: none; color: inherit;">[Sohl-Dickstein et al. ICML 2015] Deep Unsupervised Learning using Nonequilibrium Thermodynamics</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                This paper introduced the idea of diffusion-based generative models. It proposed a diffusion process that gradually adds noise to the data until it becomes pure noise and then learns to reverse this process. This foundational idea later inspired the development of denoising diffusion probabilistic models (DDPMs).
+                                            </span>
                                         </p>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Song et al. UAI 2020] Sliced Score Matching: A Scalable Approach to Density and Score Estimation</a>
+                                            <a href="sliced-score-matching-a-scalable-approach-to-density-and-score-estimation.html" style="text-decoration: none; color: inherit;">[Song et al. UAI 2020] Sliced Score Matching: A Scalable Approach to Density and Score Estimation</a>
                                         </p>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Song et al. NeurIPS 2019] Generative modeling by estimating gradients of the data distribution</a>
+                                            <a href="generative-modeling-by-estimating-gradients-of-the-data-distribution.html" style="text-decoration: none; color: inherit;">[Song et al. NeurIPS 2019] Generative modeling by estimating gradients of the data distribution</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Proposed score-based generative models that estimate the gradient of the data distribution (the score function) to generate samples. Instead of using a diffusion process, this paper trained a network to model the score function at multiple noise levels. This work was crucial in establishing score-based methods as an alternative to GANs and VAEs.
+                                            </span>
                                         </p>
                                         <p style="padding-left: 80px;">
                                             <a href="" style="text-decoration: none; color: inherit;">[Ho et al. NeurIPS 2020] Denoising Diffusion Probabilistic Models</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Introduced denoising diffusion probabilistic models (DDPMs), which combined forward and reverse diffusion processes. The model learns to predict the noise at each step of the diffusion process and generates samples by iteratively denoising. This paper made diffusion models practical and demonstrated competitive image generation results.
+                                            </span>
                                         </p>
                                         <p style="padding-left: 80px;">
-                                            <a href="https://carlosholivan.github.io/papers/score-based-generative-modeling-through-stochastic-differential-equations.html" style="text-decoration: none; color: inherit;">[Song et al. 2020] Score-Based Generative Modeling through Stochastic Differential Equations</a>
+                                            <a href="score-based-generative-modeling-through-stochastic-differential-equations.html" style="text-decoration: none; color: inherit;">[Song et al. 2020] Score-Based Generative Modeling through Stochastic Differential Equations</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Unified score-based models and diffusion models under a continuous-time framework with stochastic differential equations (SDEs). This paper introduced the Probability Flow ODE, an ordinary differential equation counterpart to the SDE. This allowed for deterministic sampling paths and bridged the gap between DDPMs and score-based methods.
+                                            </span>
                                         </p>
                                         <p style="padding-left: 80px;">
                                             <a href="" style="text-decoration: none; color: inherit;">[Nichol et al. 2020] Improved Denoising Diffusion Probabilistic Models</a>
                                         </p>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Song et al. 2023] Consistency Models</a>
+                                            <a href="elucidating-the-design-space-of-diffusion-based-generative-models.html" style="text-decoration: none; color: inherit;">[Karras et al. 2022] Elucidating the Design Space of Diffusion-based Generative Models</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Provided an extensive exploration of design choices in diffusion models, offering insights on optimal hyperparameters, noise schedules, and sampling techniques. This work resulted in more stable, efficient, and high-quality diffusion models.
+                                            </span>
+                                        </p>
+                                        <p style="padding-left: 80px;">
+                                            <a href="high-resolution-image-synthesis-with-atent-diffusion-models.html" style="text-decoration: none; color: inherit;">[Rombach et al. CVPR 2022] High-Resolution Image Synthesis with Latent Diffusion Models</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Introduced Latent Diffusion Models that operate in a lower-dimensional latent space rather than the pixel space. This innovation reduced computational costs and enabled diffusion models to handle higher-resolution images and complex tasks like text-to-image generation.
+                                            </span>
+                                        </p>
+                                        <p style="padding-left: 80px;">
+                                            <a href="" style="text-decoration: none; color: inherit;">[Zhang et al. CVPR 2023] Adding conditional control to text-to-image diffusion models</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Proposed ControlNet, which conditions diffusion models on structured inputs like poses or edges, allowing for controlled and guided generation. This architecture made diffusion models like Stable Diffusion highly versatile for text-to-image generation with specific prompts and constraints.
+                                            </span>
+                                        </p>
+                                        <p style="padding-left: 80px;">
+                                            <a href="consistency-models.html" style="text-decoration: none; color: inherit;">[Song et al. ICML 2023] Consistency Models</a>
+                                            <br>
+                                            <span style="padding-left: 10px; display: block; font-size: smaller;">
+                                                Introduced consistency models, a new approach to training diffusion models with fewer denoising steps. Consistency models reduce sampling times while preserving quality, making diffusion models faster and more practical for real-time applications.
+                                            </span>
                                         </p>
                                         <p style="padding-left: 80px;">
                                             <a href="" style="text-decoration: none; color: inherit;">[Lu and Song 2024] Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models</a>
@@ -174,7 +215,7 @@
                                             <a href="" style="text-decoration: none; color: inherit;">2. Deep Learning Applications</a>
                                         </h2>
                                         <h3 style="padding-left: 20px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">12.1. Audio</a>
+                                            <a href="" style="text-decoration: none; color: inherit;">2.1. Audio</a>
                                         </h3>
                                         <h4 style="padding-left: 40px;">
                                             2.1.2. General Audio
@@ -183,26 +224,39 @@
                                             2.1.2.1. Target Sound Extraction (TSE) and Source Separation (SS)
                                         </h5>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Luo et al. TASLP 20219] Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation
+                                            <a href="" style="text-decoration: none; color: inherit;">[Luo et al. TASLP 2019] Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation
                                             </a>
                                         </p>
                                         <h5 style="padding-left: 60px;">
                                             2.1.2.2. Audio Foundation Models
                                         </h5>
+                                        <p style="padding-left: 80px;">
+                                            <a href="" style="text-decoration: none; color: inherit;">[Niizumi et al. TASLP 2024] Masked Modeling Duo: Towards a Universal Audio Pre-training Framework
+                                            </a>
+                                        </p>
                                         <h5 style="padding-left: 60px;">
                                             2.1.2.3. Deep Acoustic Imaging
                                         </h5>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Simeoni et al. NeurIPS 2019] DeepWave: A Recurrent Neural-Network for Real-Time Acoustic Imaging</a>
+                                            <a href="https://carlosholivan.github.io/papers/deepwave-a-recurrent-neural-network-for-real-time-acoustic-imaging.html" style="text-decoration: none; color: inherit;">[Simeoni et al. NeurIPS 2019] DeepWave: A Recurrent Neural-Network for Real-Time Acoustic Imaging</a>
                                         </p>
                                         <p style="padding-left: 80px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">[Roman et al. ICASSP 2024] Robust DoA Estimation from Deep Acoustic Imaging</a>
+                                            <a href="https://carlosholivan.github.io/papers/robust-doa-estimation-from-deep-acoustic-imaging.html" style="text-decoration: none; color: inherit;">[Roman et al. ICASSP 2024] Robust DoA Estimation from Deep Acoustic Imaging</a>
                                         </p>
                                         
 
                                         <h3 style="padding-left: 20px;">
-                                            <a href="" style="text-decoration: none; color: inherit;">1.1. Music</a>
+                                            <a href="" style="text-decoration: none; color: inherit;">2.2. Music</a>
                                         </h3>
+                                        <h4 style="padding-left: 40px;">
+                                            2.2.1. Music Generation
+                                        </h4>
+                                        <h5 style="padding-left: 60px;">
+                                            2.2.2.1. Symbolic Music Generation
+                                        </h5>
+                                        <p style="padding-left: 80px;">
+                                            <a href="https://carlosholivan.github.io/papers/" style="text-decoration: none; color: inherit;">[Wang et al. ICLR 2024] Whole-song hierarchical generation of symbolic music using cascaded diffusion models</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
