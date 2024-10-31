@@ -187,17 +187,72 @@
                                 <div class="col-md-12">
                                     <div class="article animate-box">
                                         <h2 id="introduction">
-                                            <a href="#table-of-contents" style="text-decoration: none; color: inherit;">2. Background</a>
+                                            <a href="#table-of-contents" style="text-decoration: none; color: inherit;">2. Model</a>
                                         </h2>
+                                        <h3>2.1 Neural Network (Denoiser): Autoencoder</h3>
                                         <p>
-                                            This paper uses an Autoencoder. An autoencoder is composed by an Encoder \( \mathcal{E} \) and a Decoder \( \mathcal{D} \). The encoder maps the input image \( x \) to a lower-dimensional latent space \( z \). The decoder maps the latent space \( z \) to the output image \( x \).
-                                            <br>
-                                            Diffusion models <a>[Shohl-Dickstein et al. 2015]</a> are a class of generative models that operate in the pixel space. They model the data distribution by iteratively applying a series of noise levels sampled from a predefined distribution to the input image, governed by a stochastic time-dependent process that dictates the transition of data distributions over time.
+                                            Diffusion models <a>[Shohl-Dickstein et al. 2015]</a> are a class of generative models that operate in the pixel space. They model the data distribution by iteratively applying a series of noise levels sampled from a predefined distribution to the input image, governed by a stochastic time-dependent process that dictates the transition of data distributions over time (<a>Fig. 1</a>).
+                                            However, pixel space is a high-dimensional space which makes them computationally expensive, specially during the reverse diffusion process or <i>denoising</i>.
+                                            This paper uses an Autoencoder, specially, a VQ-VAE to convert the pixel space into a latent space and therefore, reduce the computational complexity of the denoising process. Also, the latent space is powerful for conditional sampling.
+                                            <br><br>
+                                            An autoencoder is composed by an Encoder \( \mathcal{E} \) and a Decoder \( \mathcal{D} \). The encoder maps the input image \( x \) to a lower-dimensional latent space \( z \). The decoder maps the latent space \( z \) to the output image \( x \).
                                             This paper uses a VQ-VAE in the middle of the diffusion process, which is basically using the VQ-VAE to denoise or, in other words, to predict the noise level of the input image at each time step of the reverse diffusion process.
                                             <br>
-                                            In particular, the Autoencoder is a UNet-based VQ-VAE that predicts the noise level of the input image \( x_t \) that we want to remove. The input of the Unet is a noisy image which contains the noise-level correspondint to step time \( t \). 
+                                            In particular, the Autoencoder is a UNet-based VQ-VAE that predicts the noise level of the input image \( x_t \) that we want to remove. The input of the Unet is a noisy image which contains the noise-level correspondint to step time \( t \).
+                                            This way, we input an image in the pixel space and generate a latent space representation of it.
                                             
                                             One of the core contributions of this paper is to use the latent space of the VQ-VAE for conditional sampling.
+                                        </p>
+                                        <h3>2.2 Training</h3>
+                                        <p>
+                                            Then, we can summarize the training process in 2 steps: training the autoencoder and training the diffusion process in the latent space. These steps are trained separately.
+                                        </p>
+                                        <h4>2.2.1 Autoencoder Training</h4>
+                                        <p>
+                                            A vanilla autoencoder is trained with an input \( \mathbf{x} \) and it predicts the same image \( \mathbf{\hat{x}} \).
+                                            In this paper, to train the VQ-VAE along with the diffusion process which depends on time \( t \), the authors train the model in an adversarial manner.
+                                            A discrimiator decoder \( \mathcal{D}_\phi \) is used to discriminate the input images \( \mathbf{x} \) from the reconstructions \( \mathbf{\hat{x}} = \mathcal{D}(\mathcal{E}(\mathbf{x}))\).
+                                            <br>
+                                            The autoencoder is trained with the following loss function:
+                                            \[
+                                                \mathcal{L}_{\text{Autoencoder}} = \min_{\mathcal{E}, D} \max_{\psi} \left( \mathcal{L}_{\text{rec}}(x, D(\mathcal{E}(x))) - \mathcal{L}_{\text{adv}}(D(\mathcal{E}(x))) + \log D_{\psi}(x) + \mathcal{L}_{\text{reg}}(x; \mathcal{E}, D) \right),
+                                                \tag{Eq. 1} \label{eq:1}
+                                            \]
+                                            where:
+                                            <ul>
+                                                <li> \( \mathcal{L}_{\text{rec}}(\mathbf{x}, \mathcal{D}(\mathcal{E}(\mathbf{x}))) = \text{MSE}(\mathbf{x}, \mathcal{D}(\mathcal{E}(\mathbf{x})))\) is the reconstruction loss, which is the mean squared error between the input image and the reconstruction. It mathches the input and predicted image by the autoencoder.</li>
+                                                <li> \( \mathcal{L}_{\text{reg}}(\mathbf{x};\mathcal{E},\mathcal{D}) = \text{KL}(\mathcal{E}(\mathbf{x}, \mathcal{N}(0,1))) \) is the regularization loss, which is the commitment loss of the VQ-VAE. In short, it minimizes the difference between the latents and a normal distribution. This loss, in addition to the reconstruction loss form the vanilla VAE loss.</li>
+                                                <li>
+                                                    \( \mathcal{L}_{\text{adv}}(\mathcal{D}(\mathcal{E}(\mathbf{x}))) = - \log D_{\psi}(\mathcal{D}(\mathcal{E}(\mathbf{x})) \approx - \log D_{\psi}(\mathbf{x}) \) is the adversarial loss, which is the log probability of the discriminator decoder \( \mathcal{D}_\phi \) which classifies the input image as real or fake. So, the total adversarial loss has the form:
+                                                    \[
+                                                        \min_{\mathcal{E}, D} \max_{\psi} \left( -\log [\mathcal{D}_\psi(\mathcal{D}(\mathcal{E}(\mathbf{x}))] + \log D_{\psi}(\mathcal{D}(\mathbf{x}))) \right).
+                                                    \]
+                                                    This is done because we want the autoencoder to reconstruct images as good as possible plus generate real images (and not fake ones).
+                                                </li>
+                                            </ul>
+                                            Once we formulated the losses for the autoencoder, we will dive into the diffusion process.
+                                            A diffusion process takes an image \( \mathbf{x} \) and applies noise to it in the forward process and denoise in the backward process (<a>Fig. 1</a>). This means that <strong>the diffusion process happens in the latent space</strong>.
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
+                                                <img src="high-resolution-image-synthesis-with-atent-diffusion-models/diffusion-process.png" 
+                                                        alt="Diffusion Process" 
+                                                        style="width: 40%; height: auto; display: block; margin: 0 auto; padding: 0;">
+                                                <p style="font-size: small; margin: 0; padding: 0;">Fig. 1. Standard diffusion process.</p>
+                                            </div>
+                                            In our case, we will use an input image \( \mathbf{x} \) and pass it through the encoder to get the latents \( \mathcal{E}(\mathbf{x}) = z \). Then, we wil apply the noise to this latent (<a>Fig. 2</a>).
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
+                                                <img src="high-resolution-image-synthesis-with-atent-diffusion-models/diffusion-process-latent.png" 
+                                                        alt="Latent Diffusion Process" 
+                                                        style="width: 40%; height: auto; display: block; margin: 0 auto; padding: 0;">
+                                                <p style="font-size: small; margin: 0; padding: 0;">Fig. 2. Diffusion process in the latent space.</p>
+                                            </div>
+                                        </p>
+                                        <h4>2.2.2 Diffusion Training</h4>
+                                        <p>
+                                            During the diffusion training process, the encoder and decoder are frozen.
+                                        </p>
+                                        <h3>2.3 Conditioning Sampling</h3>
+                                        <p>
+                                            Now that we trained our model, 
                                         </p>
                                     </div>
                                 </div>

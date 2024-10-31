@@ -226,7 +226,7 @@
                                         <p>
                                             Given a large dataset, we can use principle statistical methods like score matching to train a score model to estimate the underlying score function.
                                             In order to build a genertative model, we have to find a certain approach to create new datapoints from the given vector field of score functions.
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/score-matching-intro.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
@@ -287,7 +287,7 @@
                                         </p>
                                         <h4>2.1.2. Annealed Langevin Dynamics</h4>
                                         <p></p>
-                                        <div style="text-align: center; margin: 0; padding: 0;">
+                                        <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                             <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/langevin-dynamics-score-matching.png" 
                                                  alt="Score Matching Intro" 
                                                  style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
@@ -339,7 +339,7 @@
                                             Consider the density function <a>(Fig. 3, left)</a>, the ground truth score function <a>(Fig. 3, middle)</a> and the estimated score function <a>(Fig. 3, right)</a>.
                                             If we compare the estimated and ground truth scores, we can observe how accurate are they in high density regions (green boxes).
                                             But for low data density regions, the estimated scores are not accurate at all.
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/density-regions-scores.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
@@ -351,7 +351,7 @@
                                             How to address this challenge?
                                             <br>
                                             One idea is to inject Gaussian noise to perturb our data points. After adding enough Gaussian noise, we would perturb the data points to everywhere in the space. This means the size of low data density regions becomes smaller. In the image domain, this means adding Gaussian noise to perturb each pixel of the image. We can see in <a>Fig. 4</a> how the estimated score now become accurate almost everywhere.
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/density-regions-scores-accurate.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
@@ -362,14 +362,14 @@
                                             To solve this problem, this paper proposes using multiple sequence of different noise levels. In <a>Fig. 4</a>, 3 noise levels from \( \sigma_1 \) to \( \sigma_3 \). It uses Gaussian noise with mean 0 and standard deviation from \( \sigma_1 \) to \( \sigma_3 \) to perturb the training dataset.
                                             This will give use three noisy training datasets. For each noisy dataset, there will be a corresponding noisy data density, which is denoted as \( p_{\sigma_1}(\mathbf{x}) \) to \( p_{\sigma_3}(\mathbf{x}) \).
                                             We can show this behaviour in <a>Fig. 5</a>.
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/density-regions-across-noise-levels.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
                                                 <p style="font-size: small; margin: 0; padding: 0;">Fig. 5. Density regions across different noise levels.</p>
                                             </div>
                                             In the context of images, perturbation means using multiple levels of noise wihich will give us a sequence of images like:
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/image-perturbation.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 70%; height: auto; display: block; margin: 0 auto; padding: 0;">
@@ -382,7 +382,7 @@
                                             The most naive approach is to train three neural networks so each network will estimate the score function of a single noise level. This is not a scalable solution because in practice, we might require much more noise levels.
                                             Another approach is to consider a noise conditional score model. A noise conditional score model is a simple modification of our score model which takes the noise level $\sigma$ as one additional input dimension.
                                             The output corresponds to the score function of the data density perturbed with noise level \( \sigma \).
-                                            <div style="text-align: center; margin: 0; padding: 0;">
+                                            <div style="text-align: center; margin: 0; padding: 0; margin-top: 10px; margin-bottom: 10px;">
                                                 <img src="generative-modeling-by-estimating-gradients-of-the-data-distribution/noise-conditional-score-model.png" 
                                                      alt="Score Matching Intro" 
                                                      style="width: 20%; height: 20%; display: block; margin: 0 auto; padding: 0;">
