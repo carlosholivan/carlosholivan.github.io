@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VULCANUS | C. Hernandez-Olivan</title>
+    <style>
+        :root {
+            --text-color: #333;
+            --link-color: #0071bc;
+            --bg-color: #ffffff;
+            --section-margin: 40px;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* ESTILOS DEL DESPLEGABLE */
+        .nav-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .nav-toggle span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background: var(--text-color);
+        }
+        .nav-menu {
+            position: fixed;
+            top: 0;
+            right: -250px;
+            width: 250px;
+            height: 100%;
+            background: #fff;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+            z-index: 999;
+            transition: right 0.3s ease;
+            padding-top: 80px;
+        }
+        .nav-menu.active {
+            right: 0;
+        }
+        .nav-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .nav-menu li {
+            padding: 12px 30px;
+        }
+        .nav-menu a {
+            font-size: 1.05rem;
+            color: var(--text-color);
+            text-decoration: none;
+            display: block;
+        }
+        .nav-menu a:hover {
+            color: var(--link-color);
+        }
+
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 { font-size: 2.2rem; margin: 0; }
+        h2 { font-size: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
+        h3 { font-size: 1.2rem; margin-top: 20px; }
+        
+        .index-box { background: #f4f4f4; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .index-box ul { list-style: none; padding-left: 0; } /* Sin puntos y sin sangría */
+        .index-box li { margin-bottom: 5px; }
+
+        .disclaimer {
+            background: #fff4e5;
+            padding: 15px;
+            border-left: 5px solid #ffa500;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.85rem;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="curriculum.html">CV</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="talks.html">Talks</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="community-service.html">Community Service</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>VULCANUS IN JAPAN</h1>
+        <p>Last updated: March 2026</p>
+    </header>
+
+    <section>
+        <p>After receiving many questions from students who want to apply for Vulcanus in recent years, I decided to make a blog post about my experience and opinion about the program. This post tries to uncover the “black-box” that Vulcanus is when applying to the program.</p>
+        
+        <p><strong>About me:</strong> I participated in Vulcanus 2023-2024, the last one-year program.</p>
+
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> These are my own opinions based on my experience. The information in the post does not necessarily show all the students’ feelings or thoughts about the program, since each of us had a different experience based on our conditions, company, supervisor, and life in Japan. However, I tried to write the post reflecting some opinions and feelings of some former Vulcanus colleagues. For official information about the program, refer to the official website or ask the center directly.
+        </div>
+
+        <p>Some of the most asked topics are: money, internship experience, application (CV and experience to have to be selected, letter of interest).</p>
+    </section>
+
+    <div class="index-box">
+        <strong>Index</strong>
+        <ul>
+            <li>1. <a href="#money">Money</a></li>
+            <li>2. <a href="#internship">Internship</a></li>
+            <li>3. <a href="#application">Application</a></li>
+            <li>4. <a href="#school">School</a></li>
+            <li>5. <a href="#pros-cons">Pros and Cons</a></li>
+        </ul>
+    </div>
+
+    <section id="money">
+        <h2>1. Money</h2>
+        <h3>Is the grant enough to survive in Japan?</h3>
+        <p><strong>Short answer:</strong> Yes.</p>
+        <p>In 2023-2024, we received 1.900.000 yen paid directly in Japanese Yen (as of March 2026 conversion rate is a bit less than 10.500 EUR), which was very very limited, but enough to have a comfortable stay in Japan without luxuries. After the 2023-2024 program, Vulcanus has been reduced to 8 months and it is paid directly in EUROS converted to Japanese Yen (which is very weak now), so the allowance is 9.200 EUROS for the whole program (if I am not wrong). So comparing 10.500 EUROS for 12 months with 9.200 for 8, you can guess that the grant is more than enough to live in Japan now, if for me was just enough. Consider that eating in Japan can be very cheap (4-6 EUROS in places like Matsuya, Sukiya, Yoshinoya), and in some companies, lunch is also cheap (500 yen). However, as is logical, if one goes to not cheap restaurants every day the grant will not be enough.</p>
+
+        <h3>Is it enough for traveling?</h3>
+        <p><strong>Short answer:</strong> Yes.</p>
+        <p>After 2023-2024, the grant is enough for traveling around Japan and nearby countries like China, Vietnam, Thailand, etc. However, the grant will not be enough for going on a trip every month. My own experience: I lived in Atsugi, the farthest place from the school + I lived in Nara, which was 1h away from the office during the internship. Even though I spent a lot of money on transport, I could travel to China (2 weeks) and Thailand (2 weeks) during the year.</p>
+    </section>
+
+    <section id="internship">
+        <h2>2. Internship</h2>
+        <h3>Is the internship worth it?</h3>
+        <p><strong>Short answer:</strong> It really depends on the company and supervisor.</p>
+        <p>Experiences vary a lot depending on the company and supervisor. Some students say that during Vulcanus they “did not have anything to do”, which is fine or not depending on each student's goals and expectations. If you are a student who wants to join Vulcanus only to live a different experience in a completely different culture like the Japanese one, and do not care about professional development, then some companies might fit you, but not all. There is a lack of information about the internship’s goals and expectations from the company before signing the contract, so you never know what they’ll expect from you, and that can be negative if you want to take advantage of the internship. I was busy during the internship and did not have a vacation, but other students literally had “nothing to do”; they just had a permanent vacation. Others felt lonely at the companies because everyone worked from home, others felt their supervisors did not pay attention to them so the internship was a waste of time, but they could use the time to travel around and enjoy Japan… anyway, experiences diverge too much from student to student and that is negative I would say.</p>
+        <p>My own experience: I was at NTT in Nara and I was doing a PhD, so I had clear goals of what I wanted to achieve, but 99% of the students I would say do not have them, so my experience might be a bit different from others. I was lucky to have the best supervisor I could have ever asked for. He paid a lot of attention to me so I did not feel bored during the internship and he helped me a lot to achieve the results we set at the beginning of the internship.</p>
+    </section>
+
+    <section id="application">
+        <h2>3. Application</h2>
+        <h3>3.1. CV and Experience</h3>
+        <p>The only thing that is known (to my knowledge) is that, in the first step, some experts take all the CVs and make an initial selection of candidates. The second step is, among the selected students for each company, to be selected by the company. I will try to remark on some things that can be good to have in the CV (+ for important, - for not important):</p>
+        <ul>
+            <li><strong>Advanced English level (must):</strong> This is obviously a must. One can be the best student among the candidates but if he/she does not have a decent English certificate, there is no option to be selected.</li>
+            <li><strong>(International) Experience like Internships (very important):</strong> Living in Japan is not easy, and some Vulcanus students even quit before the program ends, so if you have international experience, it will be a huge plus to your CV. If that international experience is in Japan, I would say you have many options if the rest of your CV is fine too. Having local experience at a company in your home country is enough. Not having any experience is negative in my opinion.</li>
+            <li><strong>Languages (Important):</strong> Of course having a Japanese level even if it is the basic JLPT N5 helps a lot, or even higher is better. It shows that you already are interested in Japan. Companies fear that a candidate will withdraw during the program, so showing your interest in Japan is very important.</li>
+            <li><strong>Good marks at the University (not important unless you do not have the previous points):</strong> If you have the previous points, your marks do not need to be high at all; however, if you have high marks it will be beneficial. I think experience is way more important than marks.</li>
+            <li><strong>University Degree (Not important):</strong> Not very important unless you are a PhD. If you are a Bachelor or Master student, I do not think there is a huge difference. If you are a PhD, you already got the grant because there are not many PhDs applying to Vulcanus.</li>
+        </ul>
+        <p><strong>What did I have when I applied?</strong> I was a 3rd-year PhD. I applied at NTT in Nara because it is a speech research laboratory, so I guessed that the internship topic would be aligned with my PhD (somehow). I already had a 3-month internship experience in Tokyo. I think those 2 points were the ones that gave me access to the grant.</p>
+        
+        <h3>3.2. Letter of Interest</h3>
+        <p>Maybe the least important part of the whole application, and even less nowadays as, being honest, 99% of the applicants will do it with AI. But if you do it, be careful and add your own ideas and feelings, do not be extremely enthusiastic to sound fake, just be yourself.</p>
+    </section>
+
+    <section id="school">
+        <h2>4. School</h2>
+        <p>Is the school demanding? What level can be achieved after it? <strong>Short answer:</strong> The school is the “best” part of the program. Enjoy it and do not worry about the “Japanese” language.</p>
+        <p>The school is the only period where you will be with the other students 24/7. After that, you will join the company and, depending on your conditions, you might work until 5pm, so you will not meet your colleagues as often as during the school period. The teachers are super nice.</p>
+    </section>
+
+    <section id="pros-cons">
+        <h2>5. Pros and Cons</h2>
+        <p><strong>Pros:</strong></p>
+        <ul>
+            <li>Living in a different culture will change the way you think, make you grow as a person, and open career opportunities.</li>
+            <li>You have the support of the center at any moment, so you are not alone.</li>
+            <li>You can meet many people, not only from Vulcanus but from “the world”.</li>
+            <li>Naganuma school teachers: They are among the best I have had in my life.</li>
+        </ul>
+
+        <p><strong>Cons:</strong></p>
+        <ul>
+            <li>The program is extremely unbalanced in terms of money and conditions. One student might live in Tokyo city center while another might live in Saitama, which is not bad at all, do not misunderstand me, but it is far from the school and transport is expensive from there.</li>
+            <li>Some students can have a furnished apartment (even a mansion! I promise) while others can have non-furnished apartments (unfortunately Japanese culture is like that in that sense...many apartments are unfurnished in Japan, however, is not usual in Vulcanus).</li>
+			<li>The whole experience depends a 70 % I would say on your supervisor and company. You cannot know many things about them (tasks, working remotely or not, etc) before signing the contract, so you will not know what to expect from them.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Some advice</h2>
+        <p>Before signing the contract, make sure you understand all the conditions. If I applied now and would not have some information, I would ask: Where are the office and apartment located? and Is the apartment furnished? (because transport is not included in the grant and it can be very expensive).</p>
+        <p>Applying is free, so just do it even if you are not sure about it, do not let your own thoughts or other people close that door for you. I literally applied the last day of the application period not knowing anything about the program. Good luck with the application to Vulcanus, がんばって!</p>
+		<p>Ask people from previous years who joined the company you are applying to, you might find some in LinkedIn. They will know more about it, and their experience and advice might be more relevant or go further than this post to what you would like to know.</p>
+		<p>Having a bit of extra money or savings is fine. The grant is enough to live in Japan and travel around sometimes, but having some extra savings is always recommended for emergencies or unexpected expenses.</p>
+	</section>
+
+    <footer>
+        <p>&copy; 2026 Carlos Hernandez Olivan. Last updated: March 2026.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
