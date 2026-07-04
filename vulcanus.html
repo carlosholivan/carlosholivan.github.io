@@ -4,107 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VULCANUS | C. Hernandez-Olivan</title>
+    <link rel="stylesheet" href="css/site.css">
     <style>
-        :root {
-            --text-color: #333;
-            --link-color: #0071bc;
-            --bg-color: #ffffff;
-            --section-margin: 40px;
-        }
-
-        body {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* ESTILOS DEL DESPLEGABLE */
-        .nav-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: #fff;
-            border: 1px solid #eee;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 4px;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .nav-toggle span {
-            display: block;
-            width: 25px;
-            height: 3px;
-            background: var(--text-color);
-        }
-        .nav-menu {
-            position: fixed;
-            top: 0;
-            right: -250px;
-            width: 250px;
-            height: 100%;
-            background: #fff;
-            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
-            z-index: 999;
-            transition: right 0.3s ease;
-            padding-top: 80px;
-        }
-        .nav-menu.active {
-            right: 0;
-        }
-        .nav-menu ul {
-            list-style: none;
-            padding: 0;
-        }
-        .nav-menu li {
-            padding: 12px 30px;
-        }
-        .nav-menu a {
-            font-size: 1.05rem;
-            color: var(--text-color);
-            text-decoration: none;
-            display: block;
-        }
-        .nav-menu a:hover {
-            color: var(--link-color);
-        }
-
-        header {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-        }
-
-        h1 { font-size: 2.2rem; margin: 0; }
-        h2 { font-size: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
-        h3 { font-size: 1.2rem; margin-top: 20px; }
-        
         .index-box { background: #f4f4f4; padding: 15px; border-radius: 5px; margin: 20px 0; }
-        .index-box ul { list-style: none; padding-left: 0; } /* Sin puntos y sin sangría */
+        .index-box ul { list-style: none; padding-left: 0; }
         .index-box li { margin-bottom: 5px; }
-
-        .disclaimer {
-            background: #fff4e5;
-            padding: 15px;
-            border-left: 5px solid #ffa500;
-            margin: 20px 0;
-        }
-
-        footer {
-            margin-top: 50px;
-            font-size: 0.85rem;
-            color: #777;
-            text-align: center;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
+        .disclaimer { background: #fff4e5; padding: 15px; border-left: 5px solid #ffa500; margin: 20px 0; }
+        header { border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { font-size: 2.2rem; margin: 0; }
     </style>
+<script>(function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();</script>
 </head>
 <body>
 
@@ -113,6 +22,8 @@
         <span></span>
         <span></span>
     </div>
+
+    <button class="dark-btn" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode">🌙</button>
 
     <nav class="nav-menu" id="navMenu">
         <ul>
@@ -234,6 +145,16 @@
         function toggleMenu() {
             document.getElementById('navMenu').classList.toggle('active');
         }
+        function toggleDark() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+            document.getElementById('darkBtn').textContent = isDark ? '🌙' : '☀';
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const isDark = localStorage.getItem('theme') === 'dark';
+            document.getElementById('darkBtn').textContent = isDark ? '☀' : '🌙';
+        });
     </script>
 
 </body>

@@ -4,229 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C. Hernandez-Olivan | Postdoctoral Fellow</title>
-    <style>
-        :root {
-            --text-color: #333;
-            --link-color: #0071bc;
-            --bg-color: #ffffff;
-            --section-margin: 40px;
-        }
-
-        body {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* ESTILOS DEL DESPLEGABLE */
-        .nav-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: #fff;
-            border: 1px solid #eee;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 4px;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .nav-toggle span {
-            display: block;
-            width: 25px;
-            height: 3px;
-            background: var(--text-color);
-        }
-        .nav-menu {
-            position: fixed;
-            top: 0;
-            right: -250px;
-            width: 250px;
-            height: 100%;
-            background: #fff;
-            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
-            z-index: 999;
-            transition: right 0.3s ease;
-            padding-top: 80px;
-        }
-        .nav-menu.active {
-            right: 0;
-        }
-        .nav-menu ul {
-            list-style: none;
-            padding: 0;
-        }
-        .nav-menu li {
-            padding: 12px 30px;
-        }
-        .nav-menu a {
-            font-size: 1.05rem;
-            color: var(--text-color);
-            text-decoration: none;
-            display: block;
-        }
-        .nav-menu a:hover {
-            color: var(--link-color);
-        }
-
-        header {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .header-text h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            font-weight: 500;
-        }
-
-        .profile-pic {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-left: 20px;
-        }
-
-        section {
-            margin-bottom: var(--section-margin);
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 30px;
-            color: #222;
-        }
-
-        .intro-text p {
-            margin: 10px 0;
-        }
-
-        .research-interests ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-
-        .pub-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .pub-item {
-            margin-bottom: 0px;
-            padding-left: 35px;
-            position: relative;
-            padding-top: 2px;
-            padding-bottom: 2px;
-        }
-
-        .pub-number {
-            position: absolute;
-            left: 0;
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        .pub-title {
-            color: var(--link-color);
-            text-decoration: underline;
-            font-weight: 500;
-        }
-
-        .me {
-            font-weight: bold;
-        }
-
-        .impact-factor {
-            color: #666;
-            font-size: 0.85rem;
-            font-style: italic;
-        }
-
-        .cv-item {
-            margin-bottom: 8px;
-        }
-
-        .cv-date {
-            font-weight: bold;
-            color: #555;
-            min-width: 160px;
-            display: inline-block;
-        }
-
-        .logo-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20px;
-            padding: 20px 0;
-        }
-
-        .logo-grid img {
-            height: 60px;
-            max-width: 114px;
-            object-fit: contain;
-            filter: grayscale(100%);
-            opacity: 0.7;
-            transition: all 0.3s ease;
-        }
-
-        .logo-grid img:hover {
-            filter: grayscale(0%);
-            opacity: 1;
-        }
-
-        a {
-            color: var(--link-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 50px;
-            font-size: 0.85rem;
-            color: #777;
-            text-align: center;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
-
-		.visitor-map {
-			margin: 30px auto;
-			text-align: center;
-			max-width: 400px;
-			overflow: hidden;
-		}
-
-		.visitor-map img, .visitor-map canvas, .visitor-map a {
-			max-width: 100% !important;
-			height: auto !important;
-		}
-
-        @media (max-width: 600px) {
-            header { flex-direction: column-reverse; text-align: center; }
-            .profile-pic { margin-left: 0; margin-bottom: 20px; }
-            .cv-date { display: block; margin-bottom: 2px; }
-        }
-    </style>
+    <link rel="stylesheet" href="css/site.css">
+<script>(function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();</script>
 </head>
 <body>
 
@@ -235,6 +14,8 @@
         <span></span>
         <span></span>
     </div>
+
+    <button class="dark-btn" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode">🌙</button>
 
     <nav class="nav-menu" id="navMenu">
         <ul>
@@ -404,6 +185,16 @@
         function toggleMenu() {
             document.getElementById('navMenu').classList.toggle('active');
         }
+        function toggleDark() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+            document.getElementById('darkBtn').textContent = isDark ? '🌙' : '☀';
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const isDark = localStorage.getItem('theme') === 'dark';
+            document.getElementById('darkBtn').textContent = isDark ? '☀' : '🌙';
+        });
     </script>
 
 </body>

@@ -1,0 +1,8 @@
+@inproceedings{HernandezOlivan2024vrdmg,
+  author    = {Carlos Hernandez-Olivan and Koichi Saito and Naoki Murata and Chieh-Hsin Lai and Wei Liao and Yuki Mitsufuji},
+  title     = {{VRDMG}: Vocal Restoration via Diffusion Posterior Sampling with Multiple Guidance},
+  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages     = {596--600},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2309.06934}
+}

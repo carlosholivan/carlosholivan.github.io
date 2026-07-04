@@ -1,0 +1,8 @@
+@inproceedings{HernandezOlivan2025soundbeam,
+  author    = {Carlos Hernandez-Olivan and Marc Delcroix and Tsubasa Ochiai and Daisuke Niizumi and Noboru Tawara and Tomohiro Nakatani and Shoko Araki},
+  title     = {SoundBeam meets M2D: Target Sound Extraction with Audio Foundation Model},
+  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages     = {1--5},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2409.12528}
+}
