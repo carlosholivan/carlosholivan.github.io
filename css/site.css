@@ -266,6 +266,7 @@ a:hover {
 .badge-workshop   { background: #fff3cd; color: #856404; }
 .badge-chapter    { background: #e2d9f3; color: #492992; }
 .badge-preprint   { background: #f8d7da; color: #721c24; }
+.badge-challenge  { background: #ffe0b2; color: #7c3a02; }
 .badge-q1 { background: #155724; color: #fff; font-size: 0.65rem; }
 .badge-q2 { background: #1a4f8a; color: #fff; font-size: 0.65rem; }
 .badge-q3 { background: #7a5c00; color: #fff; font-size: 0.65rem; }

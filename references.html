@@ -1,0 +1,574 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>References | C. Hernandez-Olivan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curated reference list with BibTeX entries for audio source separation and target sound extraction." />
+    <meta name="author" content="C. Hernandez-Olivan" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+.nav-toggle{position:fixed;top:20px;right:20px;z-index:10000;background:#fff;border:1px solid #eee;padding:10px;cursor:pointer;border-radius:4px;display:flex;flex-direction:column;gap:4px;}
+.nav-toggle span{display:block;width:25px;height:3px;background:#333;margin:0;}
+.nav-menu{position:fixed;top:0;right:-250px;width:250px;height:100%;background:#fff;box-shadow:-2px 0 5px rgba(0,0,0,.1);z-index:9999;transition:right .3s ease;padding-top:80px;}
+.nav-menu.active{right:0;}
+.nav-menu ul{list-style:none;padding:0;margin:0;}
+.nav-menu li{padding:12px 30px;}
+.nav-menu a{font-size:16.8px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;text-decoration:none;display:block;}
+.nav-menu a:hover{color:#0071bc;}
+.dark-btn{position:fixed;top:27px;right:77px;z-index:10001;background:none;border:none;padding:4px;cursor:pointer;font-size:18px;line-height:1;filter:grayscale(1) opacity(0.55);}
+
+/* Page layout */
+.refs-page{max-width:860px;margin:0 auto;padding:100px 20px 60px;}
+.refs-page h1{font-family:'Playfair Display',serif;font-size:2.2rem;color:#333;margin-bottom:6px;}
+.refs-page .subtitle{color:#666;font-size:1rem;margin-bottom:28px;}
+
+/* Filter bar */
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px;}
+.filter-btn{padding:6px 16px;border-radius:20px;border:1px solid #ccc;background:#fff;font-size:0.85rem;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;cursor:pointer;color:#555;transition:all .15s;}
+.filter-btn:hover{border-color:#0071bc;color:#0071bc;}
+.filter-btn.active{background:#0071bc;border-color:#0071bc;color:#fff;}
+
+/* Search */
+.search-box{width:100%;padding:9px 14px;border:1px solid #ddd;border-radius:6px;font-size:0.95rem;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;margin-bottom:18px;box-sizing:border-box;}
+.search-box:focus{outline:none;border-color:#0071bc;}
+
+/* Topic section headers */
+.topic-header{font-family:'Playfair Display',serif;font-size:1.25rem;color:#333;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #eee;}
+
+/* Reference card */
+.ref-card{background:#fff;border:1px solid #e8e8ec;border-radius:8px;padding:18px 20px;margin-bottom:12px;transition:box-shadow .15s;display:flex;gap:16px;align-items:flex-start;}
+.ref-card:hover{box-shadow:0 3px 12px rgba(0,0,0,.08);}
+.ref-num{flex-shrink:0;width:30px;text-align:right;color:#aaa;font-size:0.85rem;font-weight:600;padding-top:2px;}
+.ref-body{flex:1;min-width:0;}
+.ref-title{font-weight:600;font-size:0.95rem;color:#222;margin-bottom:4px;line-height:1.45;}
+.ref-authors{font-size:0.85rem;color:#555;margin-bottom:3px;}
+.ref-venue{font-size:0.82rem;color:#777;font-style:italic;margin-bottom:10px;}
+.ref-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;}
+.topic-tag{display:inline-block;padding:2px 9px;border-radius:10px;font-size:0.75rem;font-weight:600;letter-spacing:.4px;}
+.tag-ss   {background:#e8f4fd;color:#1a6fa8;}
+.tag-tspe {background:#fde8f0;color:#a8185a;}
+.tag-tsound{background:#e8fdf0;color:#1a7a4a;}
+.tag-data {background:#fdf6e8;color:#8a6200;}
+.btn-bibtex{padding:4px 12px;border-radius:4px;border:1px solid #0071bc;background:#fff;color:#0071bc;font-size:0.78rem;cursor:pointer;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;transition:all .15s;}
+.btn-bibtex:hover{background:#0071bc;color:#fff;}
+.btn-bibtex.copied{background:#1a7a4a;border-color:#1a7a4a;color:#fff;}
+.ref-link{font-size:0.78rem;color:#0071bc;text-decoration:none;}
+.ref-link:hover{text-decoration:underline;}
+
+/* BibTeX modal */
+.bib-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:20000;align-items:center;justify-content:center;}
+.bib-modal.open{display:flex;}
+.bib-box{background:#1e1e2e;border-radius:10px;padding:24px;max-width:640px;width:90%;position:relative;}
+.bib-box pre{color:#cdd6f4;font-size:0.82rem;line-height:1.6;white-space:pre-wrap;word-break:break-word;margin:0 0 14px;}
+.bib-close{position:absolute;top:12px;right:16px;background:none;border:none;color:#aaa;font-size:1.4rem;cursor:pointer;line-height:1;}
+.bib-close:hover{color:#fff;}
+.bib-copy-btn{padding:7px 18px;background:#0071bc;border:none;border-radius:5px;color:#fff;font-size:0.85rem;cursor:pointer;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.bib-copy-btn:hover{background:#005fa3;}
+
+/* Dark mode */
+html[data-theme="dark"] body{background-color:#1e1e1e!important;color:#d0d0d0!important;}
+html[data-theme="dark"] .nav-toggle{background:#2a2a2a!important;border-color:#444!important;}
+html[data-theme="dark"] .nav-toggle span{background:#d0d0d0!important;}
+html[data-theme="dark"] .nav-menu{background:#2a2a2a!important;}
+html[data-theme="dark"] .nav-menu a{color:#d0d0d0!important;}
+html[data-theme="dark"] .dark-btn{filter:none!important;color:#fff!important;}
+html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:#d0d0d0!important;}
+html[data-theme="dark"] .refs-page h1{color:#eaeaea!important;}
+html[data-theme="dark"] .refs-page .subtitle{color:#aaa!important;}
+html[data-theme="dark"] .topic-header{color:#d0d0d0!important;border-bottom-color:#444!important;}
+html[data-theme="dark"] .ref-card{background:#2a2a2a!important;border-color:#3a3a3a!important;}
+html[data-theme="dark"] .ref-title{color:#eaeaea!important;}
+html[data-theme="dark"] .ref-authors{color:#b0b0b0!important;}
+html[data-theme="dark"] .ref-venue{color:#888!important;}
+html[data-theme="dark"] .filter-btn{background:#2a2a2a!important;border-color:#555!important;color:#ccc!important;}
+html[data-theme="dark"] .filter-btn.active{background:#0071bc!important;color:#fff!important;}
+html[data-theme="dark"] .search-box{background:#2a2a2a!important;border-color:#555!important;color:#d0d0d0!important;}
+html[data-theme="dark"] .btn-bibtex{background:#2a2a2a!important;color:#6fb3ff!important;border-color:#6fb3ff!important;}
+html[data-theme="dark"] .btn-bibtex:hover{background:#0071bc!important;color:#fff!important;}
+html[data-theme="dark"] .ref-link{color:#6fb3ff!important;}
+html[data-theme="dark"] .tag-ss   {background:#1a3a52;color:#6fb3ff;}
+html[data-theme="dark"] .tag-tspe {background:#3a1a2a;color:#f278c2;}
+html[data-theme="dark"] .tag-tsound{background:#1a3a2a;color:#6fdc6f;}
+html[data-theme="dark"] .tag-data {background:#3a2e1a;color:#ffcf70;}
+
+.hidden{display:none!important;}
+    </style>
+    <script>(function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();</script>
+</head>
+<body>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3CDKKZRCVT"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-3CDKKZRCVT');
+</script>
+
+<div class="nav-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+</div>
+<button class="dark-btn" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode">🌙</button>
+<nav class="nav-menu" id="navMenu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="curriculum.html">CV</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="community-service.html">Community Service</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- BibTeX modal -->
+<div class="bib-modal" id="bibModal" onclick="closeModal(event)">
+    <div class="bib-box">
+        <button class="bib-close" onclick="document.getElementById('bibModal').classList.remove('open')">&#x2715;</button>
+        <pre id="modalBibtex"></pre>
+        <button class="bib-copy-btn" id="modalCopyBtn" onclick="copyFromModal()">Copy to clipboard</button>
+    </div>
+</div>
+
+<div class="refs-page">
+    <h1>References</h1>
+    <p class="subtitle">
+        Curated list of papers in audio source separation and target sound extraction.
+        Click <strong>BibTeX</strong> to view and copy an entry.
+        Download the full file: <a href="references.bib" download>references.bib</a>
+    </p>
+
+    <input class="search-box" type="text" id="searchBox" placeholder="Search by title, author, or year…" oninput="applyFilters()">
+
+    <div class="filter-bar">
+        <button class="filter-btn active" data-topic="all" onclick="setTopic('all',this)">All</button>
+        <button class="filter-btn" data-topic="ss" onclick="setTopic('ss',this)">Source Separation</button>
+        <button class="filter-btn" data-topic="tspe" onclick="setTopic('tspe',this)">Target Speech Extraction</button>
+        <button class="filter-btn" data-topic="tsound" onclick="setTopic('tsound',this)">Target Sound Extraction</button>
+        <button class="filter-btn" data-topic="data" onclick="setTopic('data',this)">Datasets</button>
+    </div>
+
+    <div id="refList"></div>
+</div>
+
+<script>
+const REFS = [
+  /* ---- Source Separation ---- */
+  {
+    n: 1, key: 'luo2019convtasnet', topic: 'ss', topicLabel: 'SS', tagClass: 'tag-ss',
+    title: 'Conv-tasnet: Surpassing ideal time–frequency magnitude masking for speech separation',
+    authors: 'Y. Luo and N. Mesgarani',
+    venue: 'IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 27, no. 8, pp. 1256–1266, 2019',
+    arxiv: '1809.07454',
+    bibtex:
+`@article{luo2019convtasnet,
+  author  = {Luo, Yi and Mesgarani, Nima},
+  title   = {Conv-tasnet: Surpassing ideal time--frequency magnitude masking for speech separation},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume  = {27},
+  number  = {8},
+  pages   = {1256--1266},
+  year    = {2019}
+}`
+  },
+  {
+    n: 2, key: 'yu2017pit', topic: 'ss', topicLabel: 'SS', tagClass: 'tag-ss',
+    title: 'Permutation invariant training of deep models for speaker-independent multi-talker speech separation',
+    authors: 'D. Yu, M. Kolbæk, Z. H. Tan, and J. Jensen',
+    venue: 'Proc. ICASSP, 2017, pp. 241–245',
+    arxiv: '1607.00325',
+    bibtex:
+`@inproceedings{yu2017pit,
+  author    = {Yu, Dong and Kolb{\\ae}k, Morten and Tan, Zheng-Hua and Jensen, Jesper},
+  title     = {Permutation invariant training of deep models for speaker-independent multi-talker speech separation},
+  booktitle = {Proc. ICASSP},
+  pages     = {241--245},
+  year      = {2017}
+}`
+  },
+  {
+    n: 3, key: 'leroux2019sdr', topic: 'ss', topicLabel: 'SS', tagClass: 'tag-ss',
+    title: 'SDR–half-baked or well done?',
+    authors: 'J. Le Roux, S. Wisdom, H. Erdogan, and J. R. Hershey',
+    venue: 'Proc. ICASSP, 2019, pp. 626–630',
+    arxiv: '1811.02508',
+    bibtex:
+`@inproceedings{leroux2019sdr,
+  author    = {Le Roux, Jonathan and Wisdom, Scott and Erdogan, Hakan and Hershey, John R.},
+  title     = {{SDR}--half-baked or well done?},
+  booktitle = {Proc. ICASSP},
+  pages     = {626--630},
+  year      = {2019}
+}`
+  },
+  {
+    n: 4, key: 'defossez2019demucs', topic: 'ss', topicLabel: 'SS', tagClass: 'tag-ss',
+    title: 'Music source separation in the waveform domain',
+    authors: 'A. Défossez, N. Usunier, L. Bottou, and F. Bach',
+    venue: 'arXiv preprint arXiv:1911.13254, 2019',
+    arxiv: '1911.13254',
+    bibtex:
+`@misc{defossez2019demucs,
+  author       = {D{\\'e}fossez, Alexandre and Usunier, Nicolas and Bottou, L{\\'e}on and Bach, Francis},
+  title        = {Music source separation in the waveform domain},
+  howpublished = {arXiv preprint arXiv:1911.13254},
+  year         = {2019}
+}`
+  },
+  {
+    n: 5, key: 'wisdom2020mixit', topic: 'ss', topicLabel: 'SS', tagClass: 'tag-ss',
+    title: 'Unsupervised sound separation using mixture invariant training',
+    authors: 'S. Wisdom, E. Tzinis, H. Erdogan, R. Weiss, K. Wilson, and J. Hershey',
+    venue: 'Adv. Neural Inf. Process. Syst., vol. 33, pp. 3846–3857, 2020',
+    arxiv: '2006.12701',
+    bibtex:
+`@article{wisdom2020mixit,
+  author  = {Wisdom, Scott and Tzinis, Efthymios and Erdogan, Hakan and Weiss, Ron and Wilson, Kevin and Hershey, John},
+  title   = {Unsupervised sound separation using mixture invariant training},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {33},
+  pages   = {3846--3857},
+  year    = {2020}
+}`
+  },
+  /* ---- Target Speaker/Speech Extraction ---- */
+  {
+    n: 6, key: 'zmolikova2019speakerbeam', topic: 'tspe', topicLabel: 'TSpeechE', tagClass: 'tag-tspe',
+    title: 'Speakerbeam: Speaker aware neural network for target speaker extraction in speech mixtures',
+    authors: 'K. Žmolíková, M. Delcroix, K. Kinoshita, T. Ochiai, T. Nakatani, L. Burget, and J. Černocký',
+    venue: 'IEEE J. Sel. Topics Signal Process., vol. 13, no. 4, pp. 800–814, 2019',
+    arxiv: null,
+    bibtex:
+`@article{zmolikova2019speakerbeam,
+  author  = {{\\v{Z}}mol{\\'i}kov{\\'a}, Kate{\\v{r}}ina and Delcroix, Marc and Kinoshita, Keisuke and Ochiai, Tsubasa and Nakatani, Tomohiro and Burget, Luk{\\'a}{\\v{s}} and {\\v{C}}ernock{\\'y}, Jan},
+  title   = {Speakerbeam: Speaker aware neural network for target speaker extraction in speech mixtures},
+  journal = {IEEE Journal of Selected Topics in Signal Processing},
+  volume  = {13},
+  number  = {4},
+  pages   = {800--814},
+  year    = {2019}
+}`
+  },
+  {
+    n: 7, key: 'wang2018voicefilter', topic: 'tspe', topicLabel: 'TSpeechE', tagClass: 'tag-tspe',
+    title: 'Voicefilter: Targeted voice separation by speaker-conditioned spectrogram masking',
+    authors: 'Q. Wang, H. Muckenhirn, K. Wilson, P. Sridhar, Z. Wu, J. Hershey, R. A. Saurous, R. J. Weiss, Y. Jia, and I. L. Moreno',
+    venue: 'arXiv preprint arXiv:1810.04826, 2018',
+    arxiv: '1810.04826',
+    bibtex:
+`@misc{wang2018voicefilter,
+  author       = {Wang, Quan and Muckenhirn, Hannah and Wilson, Kevin and Sridhar, Prashant and Wu, Zelin and Hershey, John and Saurous, Rif A. and Weiss, Ron J. and Jia, Ye and Moreno, Ignacio Lopez},
+  title        = {Voicefilter: Targeted voice separation by speaker-conditioned spectrogram masking},
+  howpublished = {arXiv preprint arXiv:1810.04826},
+  year         = {2018}
+}`
+  },
+  {
+    n: 8, key: 'delcroix2020tdspeakerbeam', topic: 'tspe', topicLabel: 'TSpeechE', tagClass: 'tag-tspe',
+    title: 'Improving speaker discrimination of target speech extraction with time-domain speakerbeam',
+    authors: 'M. Delcroix, T. Ochiai, K. Zmolikova, K. Kinoshita, N. Tawara, T. Nakatani, and S. Araki',
+    venue: 'Proc. ICASSP, 2020, pp. 691–695',
+    arxiv: null,
+    bibtex:
+`@inproceedings{delcroix2020tdspeakerbeam,
+  author    = {Delcroix, Marc and Ochiai, Tsubasa and Zmolikova, Katerina and Kinoshita, Keisuke and Tawara, Naohiro and Nakatani, Tomohiro and Araki, Shoko},
+  title     = {Improving speaker discrimination of target speech extraction with time-domain speakerbeam},
+  booktitle = {Proc. ICASSP},
+  pages     = {691--695},
+  year      = {2020}
+}`
+  },
+  /* ---- Target Sound Extraction ---- */
+  {
+    n: 9, key: 'ochiai2020universalsound', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Listen to what you want: Neural network-based universal sound selector',
+    authors: 'T. Ochiai, M. Delcroix, Y. Koizumi, H. Ito, K. Kinoshita, and S. Araki',
+    venue: 'arXiv preprint arXiv:2006.05712, 2020',
+    arxiv: '2006.05712',
+    bibtex:
+`@misc{ochiai2020universalsound,
+  author       = {Ochiai, Tsubasa and Delcroix, Marc and Koizumi, Yuma and Ito, Hiroaki and Kinoshita, Keisuke and Araki, Shoko},
+  title        = {Listen to what you want: Neural network-based universal sound selector},
+  howpublished = {arXiv preprint arXiv:2006.05712},
+  year         = {2020}
+}`
+  },
+  {
+    n: 10, key: 'delcroix2022soundbeam', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'SoundBeam: Target sound extraction conditioned on sound-class labels and enrollment clues for increased performance and continuous learning',
+    authors: 'M. Delcroix, J. B. Vázquez, T. Ochiai, K. Kinoshita, Y. Ohishi, and S. Araki',
+    venue: 'IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 31, pp. 121–136, 2022',
+    arxiv: '2204.03895',
+    bibtex:
+`@article{delcroix2022soundbeam,
+  author  = {Delcroix, Marc and V{\\'a}zquez, Jorge Benita and Ochiai, Tsubasa and Kinoshita, Keisuke and Ohishi, Yasunori and Araki, Shoko},
+  title   = {{SoundBeam}: Target sound extraction conditioned on sound-class labels and enrollment clues for increased performance and continuous learning},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume  = {31},
+  pages   = {121--136},
+  year    = {2022}
+}`
+  },
+  {
+    n: 11, key: 'veluri2023waveformer', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Real-time target sound extraction',
+    authors: 'B. Veluri, J. Chan, M. Itani, T. Chen, T. Yoshioka, and S. Gollakota',
+    venue: 'Proc. ICASSP, 2023, pp. 1–5',
+    arxiv: '2211.02250',
+    bibtex:
+`@inproceedings{veluri2023waveformer,
+  author    = {Veluri, Bandhav and Chan, Justin and Itani, Malek and Chen, Tuochao and Yoshioka, Takuya and Gollakota, Shyamnath},
+  title     = {Real-time target sound extraction},
+  booktitle = {Proc. ICASSP},
+  pages     = {1--5},
+  year      = {2023}
+}`
+  },
+  {
+    n: 12, key: 'veluri2023semantichearing', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Semantic hearing: Programming acoustic scenes with binaural hearables',
+    authors: 'B. Veluri, M. Itani, J. Chan, T. Yoshioka, and S. Gollakota',
+    venue: 'Proc. ACM UIST, 2023, pp. 1–15',
+    arxiv: '2311.00320',
+    bibtex:
+`@inproceedings{veluri2023semantichearing,
+  author    = {Veluri, Bandhav and Itani, Malek and Chan, Justin and Yoshioka, Takuya and Gollakota, Shyamnath},
+  title     = {Semantic hearing: Programming acoustic scenes with binaural hearables},
+  booktitle = {Proc. ACM UIST},
+  pages     = {1--15},
+  year      = {2023}
+}`
+  },
+  {
+    n: 13, key: 'hernandezolivan2025soundbeamm2d', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'SoundBeam meets M2D: Target sound extraction with audio foundation model',
+    authors: 'C. Hernandez-Olivan, M. Delcroix, T. Ochiai, D. Niizumi, N. Tawara, T. Nakatani, and S. Araki',
+    venue: 'Proc. ICASSP, 2025, pp. 1–5',
+    arxiv: null,
+    bibtex:
+`@inproceedings{hernandezolivan2025soundbeamm2d,
+  author    = {Hernandez-Olivan, Carlos and Delcroix, Marc and Ochiai, Tsubasa and Niizumi, Daisuke and Tawara, Naohiro and Nakatani, Tomohiro and Araki, Shoko},
+  title     = {{SoundBeam} meets {M2D}: Target sound extraction with audio foundation model},
+  booktitle = {Proc. ICASSP},
+  pages     = {1--5},
+  year      = {2025}
+}`
+  },
+  {
+    n: 14, key: 'kong2023universal', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Universal source separation with weakly labelled data',
+    authors: 'Q. Kong, K. Chen, H. Liu, X. Du, T. Berg-Kirkpatrick, S. Dubnov, and M. D. Plumbley',
+    venue: 'arXiv preprint arXiv:2305.07447, 2023',
+    arxiv: '2305.07447',
+    bibtex:
+`@misc{kong2023universal,
+  author       = {Kong, Qiuqiang and Chen, Ke and Liu, Haohe and Du, Xingjian and Berg-Kirkpatrick, Taylor and Dubnov, Shlomo and Plumbley, Mark D.},
+  title        = {Universal source separation with weakly labelled data},
+  howpublished = {arXiv preprint arXiv:2305.07447},
+  year         = {2023}
+}`
+  },
+  {
+    n: 15, key: 'liu2024audiosep', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Separate anything you describe',
+    authors: 'X. Liu, Q. Kong, Y. Zhao, H. Liu, Y. Yuan, Y. Liu, R. Xia, Y. Wang, M. D. Plumbley, and W. Wang',
+    venue: 'IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 33, pp. 458–471, 2024',
+    arxiv: '2308.05037',
+    bibtex:
+`@article{liu2024audiosep,
+  author  = {Liu, Xubo and Kong, Qiuqiang and Zhao, Yan and Liu, Haohe and Yuan, Yi and Liu, Yuzhuo and Xia, Rui and Wang, Yuxuan and Plumbley, Mark D. and Wang, Wenwu},
+  title   = {Separate anything you describe},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume  = {33},
+  pages   = {458--471},
+  year    = {2024}
+}`
+  },
+  {
+    n: 16, key: 'ma2024clapsep', topic: 'tsound', topicLabel: 'TSoundE', tagClass: 'tag-tsound',
+    title: 'Clapsep: Leveraging contrastive pre-trained model for multi-modal query-conditioned target sound extraction',
+    authors: 'H. Ma, Z. Peng, X. Li, M. Shao, X. Wu, and J. Liu',
+    venue: 'IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 32, pp. 4945–4960, 2024',
+    arxiv: null,
+    bibtex:
+`@article{ma2024clapsep,
+  author  = {Ma, Hao and Peng, Zhiyong and Li, Xu and Shao, Min and Wu, Xueliang and Liu, Jia},
+  title   = {Clapsep: Leveraging contrastive pre-trained model for multi-modal query-conditioned target sound extraction},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume  = {32},
+  pages   = {4945--4960},
+  year    = {2024}
+}`
+  },
+  /* ---- Datasets ---- */
+  {
+    n: 17, key: 'rafii2017musdb18', topic: 'data', topicLabel: 'Dataset', tagClass: 'tag-data',
+    title: 'The MUSDB18 corpus for music separation',
+    authors: 'Z. Rafii, A. Liutkus, F. R. Stöter, S. I. Mimilakis, and R. Bittner',
+    venue: '2017',
+    arxiv: null,
+    bibtex:
+`@misc{rafii2017musdb18,
+  author       = {Rafii, Zafar and Liutkus, Antoine and St{\\"o}ter, Fabian-Robert and Mimilakis, Stylianos Ioannis and Bittner, Rachel},
+  title        = {The {MUSDB18} corpus for music separation},
+  year         = {2017}
+}`
+  },
+  {
+    n: 18, key: 'wisdom2021fuss', topic: 'data', topicLabel: 'Dataset', tagClass: 'tag-data',
+    title: "What's all the fuss about free universal sound separation data?",
+    authors: 'S. Wisdom, H. Erdogan, D. P. W. Ellis, R. Serizel, N. Turpault, E. Fonseca, J. Salamon, P. Seetharaman, and J. R. Hershey',
+    venue: 'Proc. ICASSP, 2021, pp. 186–190',
+    arxiv: '2011.00803',
+    bibtex:
+`@inproceedings{wisdom2021fuss,
+  author    = {Wisdom, Scott and Erdogan, Hakan and Ellis, Daniel P. W. and Serizel, Romain and Turpault, Nicolas and Fonseca, Eduardo and Salamon, Justin and Seetharaman, Prem and Hershey, John R.},
+  title     = {What's all the fuss about free universal sound separation data?},
+  booktitle = {Proc. ICASSP},
+  pages     = {186--190},
+  year      = {2021}
+}`
+  },
+  {
+    n: 19, key: 'gemmeke2017audioset', topic: 'data', topicLabel: 'Dataset', tagClass: 'tag-data',
+    title: 'Audio set: An ontology and human-labeled dataset for audio events',
+    authors: 'J. F. Gemmeke, D. P. Ellis, D. Freedman, A. Jansen, W. Lawrence, R. C. Moore, M. Plakal, and M. Ritter',
+    venue: 'Proc. ICASSP, 2017, pp. 776–780',
+    arxiv: null,
+    bibtex:
+`@inproceedings{gemmeke2017audioset,
+  author    = {Gemmeke, Jort F. and Ellis, Daniel P. W. and Freedman, Dylan and Jansen, Aren and Lawrence, Wade and Moore, R. Channing and Plakal, Manoj and Ritter, Marvin},
+  title     = {Audio set: An ontology and human-labeled dataset for audio events},
+  booktitle = {Proc. ICASSP},
+  pages     = {776--780},
+  year      = {2017}
+}`
+  }
+];
+
+const TOPIC_ORDER = [
+  { key: 'ss',     label: 'Source Separation' },
+  { key: 'tspe',   label: 'Target Speaker / Speech Extraction' },
+  { key: 'tsound', label: 'Target Sound Extraction' },
+  { key: 'data',   label: 'Datasets' }
+];
+
+let currentTopic = 'all';
+
+function setTopic(t, btn) {
+    currentTopic = t;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+}
+
+function applyFilters() {
+    const q = document.getElementById('searchBox').value.toLowerCase().trim();
+    const list = document.getElementById('refList');
+    list.innerHTML = '';
+
+    const groups = {};
+    TOPIC_ORDER.forEach(t => { groups[t.key] = []; });
+
+    REFS.forEach(r => {
+        if (currentTopic !== 'all' && r.topic !== currentTopic) return;
+        if (q && !r.title.toLowerCase().includes(q) && !r.authors.toLowerCase().includes(q) && !r.venue.toLowerCase().includes(q) && !r.key.includes(q)) return;
+        groups[r.topic].push(r);
+    });
+
+    let any = false;
+    TOPIC_ORDER.forEach(t => {
+        if (!groups[t.key].length) return;
+        any = true;
+        const hdr = document.createElement('div');
+        hdr.className = 'topic-header';
+        hdr.textContent = t.label;
+        list.appendChild(hdr);
+        groups[t.key].forEach(r => list.appendChild(buildCard(r)));
+    });
+
+    if (!any) {
+        const empty = document.createElement('p');
+        empty.style.color = '#888';
+        empty.style.marginTop = '24px';
+        empty.textContent = 'No references match your search.';
+        list.appendChild(empty);
+    }
+}
+
+function buildCard(r) {
+    const card = document.createElement('div');
+    card.className = 'ref-card';
+    const arxivHtml = r.arxiv
+        ? `<a class="ref-link" href="https://arxiv.org/abs/${r.arxiv}" target="_blank" rel="noopener">arXiv</a>`
+        : '';
+    card.innerHTML = `
+      <div class="ref-num">[${r.n}]</div>
+      <div class="ref-body">
+        <div class="ref-title">${r.title}</div>
+        <div class="ref-authors">${r.authors}</div>
+        <div class="ref-venue">${r.venue}</div>
+        <div class="ref-actions">
+          <span class="topic-tag ${r.tagClass}">${r.topicLabel}</span>
+          <button class="btn-bibtex" id="btn-${r.key}" onclick="showBibtex('${r.key}')">BibTeX</button>
+          ${arxivHtml}
+        </div>
+      </div>`;
+    return card;
+}
+
+function showBibtex(key) {
+    const r = REFS.find(x => x.key === key);
+    if (!r) return;
+    document.getElementById('modalBibtex').textContent = r.bibtex;
+    document.getElementById('modalCopyBtn').textContent = 'Copy to clipboard';
+    document.getElementById('bibModal').classList.add('open');
+    document._currentBibtex = r.bibtex;
+}
+
+function copyFromModal() {
+    if (!document._currentBibtex) return;
+    navigator.clipboard.writeText(document._currentBibtex).then(() => {
+        const btn = document.getElementById('modalCopyBtn');
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = 'Copy to clipboard'; }, 2000);
+    });
+}
+
+function closeModal(e) {
+    if (e.target === document.getElementById('bibModal'))
+        document.getElementById('bibModal').classList.remove('open');
+}
+
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') document.getElementById('bibModal').classList.remove('open');
+});
+
+function toggleMenu(){ document.getElementById('navMenu').classList.toggle('active'); }
+function toggleDark(){
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    document.getElementById('darkBtn').textContent = isDark ? '🌙' : '☀';
+}
+document.addEventListener('DOMContentLoaded', () => {
+    const isDark = localStorage.getItem('theme') === 'dark';
+    document.getElementById('darkBtn').textContent = isDark ? '☀' : '🌙';
+    applyFilters();
+});
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
