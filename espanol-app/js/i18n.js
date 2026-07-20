@@ -41,6 +41,7 @@ const T = {
   mastered:   { en: 'Mastered', zh: '已掌握', ja: 'マスター済み' },
   beginner:   { en: 'Beginner', zh: '初学者', ja: '初級' },
   elementary: { en: 'Elementary', zh: '基础', ja: '初中級' },
+  intermediate: { en: 'Intermediate', zh: '中级', ja: '中級' },
 
   // Settings
   sourceLang: { en: 'Your language', zh: '你的语言', ja: 'あなたの言語' },

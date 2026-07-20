@@ -1,0 +1,473 @@
+[
+  {
+    "id": 1,
+    "title": {"en": "Present subjunctive", "zh": "虚拟式现在时", "ja": "接続法現在"},
+    "desc": {"en": "Wishes, emotions, and doubt", "zh": "愿望、情感和怀疑", "ja": "願望・感情・疑い"},
+    "grammar": ["que + subjunctive", "flip the vowel"],
+    "vocab": ["ojalá", "esperar que", "dudar que", "es posible que", "recomendar", "sugerir"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Quiero que vengas' — why subjunctive?", "zh": "'Quiero que vengas' — 为什么用虚拟式？", "ja": "「Quiero que vengas」— なぜ接続法？"},
+        "correct": "Different subjects (yo quiero / tú vengas)",
+        "options": ["Different subjects (yo quiero / tú vengas)", "Past tense", "It's a question", "Formal register"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Espero que ___ buen tiempo mañana.",
+        "blank": "haga",
+        "options": ["haga", "hace", "hacía", "hará"],
+        "hint": {"en": "esperar que + subjunctive (hacer → haga)", "zh": "esperar que + 虚拟式（hacer → haga）", "ja": "esperar que + 接続法（hacer → haga）"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I don't think it's true'", "zh": "翻译：'我不认为这是真的'", "ja": "翻訳：「本当だとは思わない」"},
+        "answer": "No creo que sea verdad",
+        "accept": ["No creo que sea verdad", "no creo que sea verdad"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'It's important that you study'", "zh": "组句：'你学习很重要'", "ja": "並べ替え：「勉強することが大切だ」"},
+        "words": ["Es", "importante", "que", "estudies"],
+        "answer": "Es importante que estudies"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'Creo que tiene razón' — indicative or subjunctive?", "zh": "'Creo que tiene razón' — 直陈式还是虚拟式？", "ja": "「Creo que tiene razón」— 直説法？接続法？"},
+        "correct": "Indicative (creo que = certainty)",
+        "options": ["Indicative (creo que = certainty)", "Subjunctive", "Either works", "Conditional"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me alegra que ___ bien de salud.",
+        "blank": "estés",
+        "options": ["estés", "estás", "estar", "estabas"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {"en": "Hypothetical (si + past subj)", "zh": "假设条件句", "ja": "仮定法（si + 接続法過去）"},
+    "desc": {"en": "If I were..., I would...", "zh": "如果我是……我会……", "ja": "もし〜だったら、〜するのに"},
+    "grammar": ["si + imperfect subjunctive + conditional"],
+    "vocab": ["si fuera", "si tuviera", "si pudiera", "haría", "iría", "viviría"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Si tuviera dinero, viajaría' — tuviera is...", "zh": "'Si tuviera dinero, viajaría' — tuviera是……", "ja": "「Si tuviera dinero, viajaría」— tuvieraは？"},
+        "correct": "Past subjunctive (unreal condition)",
+        "options": ["Past subjunctive (unreal condition)", "Imperfect indicative", "Present subjunctive", "Preterite"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Si ___ rico, compraría una isla.",
+        "blank": "fuera",
+        "options": ["fuera", "soy", "era", "sea"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'If I could, I would travel the world'", "zh": "翻译：'如果我能，我会环游世界'", "ja": "翻訳：「できるなら、世界を旅するのに」"},
+        "answer": "Si pudiera, viajaría por el mundo",
+        "accept": ["Si pudiera, viajaría por el mundo", "si pudiera, viajaría por el mundo", "Si pudiera, recorrería el mundo"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'If I were you, I would study more'", "zh": "组句：'如果我是你，我会多学习'", "ja": "並べ替え：「もし君だったら、もっと勉強する」"},
+        "words": ["Si", "fuera", "tú,", "estudiaría", "más"],
+        "answer": "Si fuera tú, estudiaría más"
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Qué ___ si ganaras la lotería?",
+        "blank": "harías",
+        "options": ["harías", "haces", "hiciste", "hagas"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "Formula: Si + ___ + conditional", "zh": "公式：Si + ___ + 条件式", "ja": "公式：Si + ___ + 条件法"},
+        "correct": "imperfect subjunctive",
+        "options": ["imperfect subjunctive", "present subjunctive", "present indicative", "preterite"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": {"en": "Relative clauses", "zh": "关系从句", "ja": "関係節"},
+    "desc": {"en": "que, quien, donde, lo que", "zh": "que, quien, donde, lo que", "ja": "que, quien, donde, lo que"},
+    "grammar": ["que (who/which)", "lo que (what)"],
+    "vocab": ["que", "quien", "donde", "lo que", "cuyo", "el cual"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'No entiendo lo que dices' — 'lo que' means...", "zh": "'No entiendo lo que dices' — 'lo que'的意思是……", "ja": "「No entiendo lo que dices」— 「lo que」の意味は？"},
+        "correct": "what (the thing that)",
+        "options": ["what (the thing that)", "where", "who", "whose"]
+      },
+      {
+        "type": "fill",
+        "sentence": "La persona con ___ hablé era muy amable.",
+        "blank": "quien",
+        "options": ["quien", "que", "donde", "cuyo"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'The city where I was born is small'", "zh": "翻译：'我出生的城市很小'", "ja": "翻訳：「生まれた街は小さい」"},
+        "answer": "La ciudad donde nací es pequeña",
+        "accept": ["La ciudad donde nací es pequeña", "la ciudad donde nací es pequeña"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'What I like most is music'", "zh": "组句：'我最喜欢的是音乐'", "ja": "並べ替え：「一番好きなのは音楽だ」"},
+        "words": ["Lo", "que", "más", "me", "gusta", "es", "la", "música"],
+        "answer": "Lo que más me gusta es la música"
+      },
+      {
+        "type": "fill",
+        "sentence": "El libro ___ leí ayer era muy interesante.",
+        "blank": "que",
+        "options": ["que", "quien", "donde", "lo que"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["que", {"en": "that/which/who", "zh": "（通用关系词）", "ja": "〜するところの"}],
+          ["quien", {"en": "who (after prep)", "zh": "谁（介词后）", "ja": "〜する人（前置詞後）"}],
+          ["donde", {"en": "where", "zh": "在……的地方", "ja": "〜する場所"}],
+          ["lo que", {"en": "what (thing)", "zh": "所……的事", "ja": "〜すること"}]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": {"en": "Reported speech", "zh": "间接引语", "ja": "間接話法"},
+    "desc": {"en": "He said that..., She asked if...", "zh": "他说……，她问……", "ja": "〜と言った、〜と聞いた"},
+    "grammar": ["tense backshift", "dijo que + imperfect"],
+    "vocab": ["dijo que", "preguntó si", "contó que", "explicó que", "según"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "Direct: 'Estoy cansado' → Reported:", "zh": "直接引语：'Estoy cansado' → 间接引语：", "ja": "直接話法：'Estoy cansado' → 間接話法："},
+        "correct": "Dijo que estaba cansado",
+        "options": ["Dijo que estaba cansado", "Dijo que está cansado", "Dijo que estuvo cansado", "Dijo que estoy cansado"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me preguntó si ___ ir al cine.",
+        "blank": "quería",
+        "options": ["quería", "quiero", "quise", "querría"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'She told me she had lived in Japan'", "zh": "翻译：'她告诉我她在日本住过'", "ja": "翻訳：「日本に住んでいたと話してくれた」"},
+        "answer": "Me contó que había vivido en Japón",
+        "accept": ["Me contó que había vivido en Japón", "me contó que había vivido en Japón", "Me dijo que había vivido en Japón"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'He explained that he couldn't come'", "zh": "组句：'他解释说他不能来'", "ja": "並べ替え：「来られないと説明した」"},
+        "words": ["Explicó", "que", "no", "podía", "venir"],
+        "answer": "Explicó que no podía venir"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "In reported speech, 'iré' becomes...", "zh": "在间接引语中，'iré'变成……", "ja": "間接話法で「iré」は……になる"},
+        "correct": "iría (future → conditional)",
+        "options": ["iría (future → conditional)", "iba (imperfect)", "fui (preterite)", "voy (present)"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Según el periódico, ___ a subir los precios.",
+        "blank": "iban",
+        "options": ["iban", "van", "irán", "fueron"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": {"en": "Pluperfect (had done)", "zh": "过去完成时", "ja": "過去完了"},
+    "desc": {"en": "había + past participle", "zh": "había + 过去分词", "ja": "había + 過去分詞"},
+    "grammar": ["había + -ado/-ido", "before another past event"],
+    "vocab": ["había sido", "había hecho", "había ido", "ya había", "todavía no había"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Cuando llegué, ya habían comido' — habían comido is...", "zh": "'Cuando llegué, ya habían comido' — habían comido是……", "ja": "「Cuando llegué, ya habían comido」— habían comidoは？"},
+        "correct": "Pluperfect (action before llegué)",
+        "options": ["Pluperfect (action before llegué)", "Present perfect", "Preterite", "Imperfect"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Nunca ___ viajado a Sudamérica antes de 2020.",
+        "blank": "había",
+        "options": ["había", "he", "hube", "habría"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I didn't know you had studied Spanish'", "zh": "翻译：'我不知道你学过西班牙语'", "ja": "翻訳：「スペイン語を勉強していたとは知らなかった」"},
+        "answer": "No sabía que habías estudiado español",
+        "accept": ["No sabía que habías estudiado español", "no sabía que habías estudiado español"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'They had already left when I called'", "zh": "组句：'我打电话时他们已经走了'", "ja": "並べ替え：「電話した時もう出発していた」"},
+        "words": ["Ya", "habían", "salido", "cuando", "llamé"],
+        "answer": "Ya habían salido cuando llamé"
+      },
+      {
+        "type": "fill",
+        "sentence": "Cuando empezó la película, todavía no ___ llegado.",
+        "blank": "habíamos",
+        "options": ["habíamos", "hemos", "habríamos", "hubiéramos"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "Pluperfect = había + ...", "zh": "过去完成时 = había + ……", "ja": "過去完了 = había + ……"},
+        "correct": "past participle (-ado/-ido)",
+        "options": ["past participle (-ado/-ido)", "gerund (-ando/-iendo)", "infinitive (-ar/-er/-ir)", "subjunctive"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": {"en": "Passive & impersonal se", "zh": "被动与无人称se", "ja": "受動態と非人称se"},
+    "desc": {"en": "se vende, se dice, se puede", "zh": "出售、据说、可以", "ja": "売り出し中、〜と言われている"},
+    "grammar": ["passive se (thing as subject)", "impersonal se (no subject)"],
+    "vocab": ["se vende", "se alquila", "se habla", "se dice que", "se puede", "se necesita"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Se venden pisos' — why plural 'venden'?", "zh": "'Se venden pisos' — 为什么用复数'venden'？", "ja": "「Se venden pisos」— なぜ複数「venden」？"},
+        "correct": "Pisos is the subject (passive se agrees)",
+        "options": ["Pisos is the subject (passive se agrees)", "It's impersonal", "Multiple sellers", "It's a command"]
+      },
+      {
+        "type": "fill",
+        "sentence": "En España se ___ español y catalán.",
+        "blank": "hablan",
+        "options": ["hablan", "habla", "hablando", "hable"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'They say it's going to rain'", "zh": "翻译：'据说要下雨'", "ja": "翻訳：「雨が降ると言われている」"},
+        "answer": "Se dice que va a llover",
+        "accept": ["Se dice que va a llover", "se dice que va a llover", "Dicen que va a llover"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Waiters needed' (se necesitan)", "zh": "组句：'招聘服务员'", "ja": "並べ替え：「ウェイター募集中」"},
+        "words": ["Se", "necesitan", "camareros"],
+        "answer": "Se necesitan camareros"
+      },
+      {
+        "type": "fill",
+        "sentence": "Aquí se ___ muy bien.",
+        "blank": "come",
+        "options": ["come", "comen", "comer", "comía"],
+        "hint": {"en": "impersonal se → always singular", "zh": "无人称se → 总是单数", "ja": "非人称se → 常に単数"}
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["se vende", {"en": "for sale", "zh": "出售", "ja": "売り出し中"}],
+          ["se alquila", {"en": "for rent", "zh": "出租", "ja": "賃貸中"}],
+          ["se prohíbe", {"en": "prohibited", "zh": "禁止", "ja": "禁止"}],
+          ["se necesita", {"en": "needed", "zh": "需要", "ja": "募集中"}]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": {"en": "Society & opinions", "zh": "社会与观点", "ja": "社会と意見"},
+    "desc": {"en": "Politics, rights, giving opinions", "zh": "政治、权利、表达观点", "ja": "政治・権利・意見を述べる"},
+    "grammar": ["creo que vs no creo que", "subjunctive for opinions"],
+    "vocab": ["política", "gobierno", "ley", "derecho", "sociedad", "ciudadano", "igualdad", "opinión"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Creo que la igualdad es importante' — indicative or subjunctive?", "zh": "'Creo que la igualdad es importante' — 直陈式还是虚拟式？", "ja": "「Creo que la igualdad es importante」— 直説法？接続法？"},
+        "correct": "Indicative (creo que = I believe, certainty)",
+        "options": ["Indicative (creo que = I believe, certainty)", "Subjunctive", "Conditional", "Either one"]
+      },
+      {
+        "type": "fill",
+        "sentence": "En mi opinión, el ___ debería invertir más en educación.",
+        "blank": "gobierno",
+        "options": ["gobierno", "derecho", "ciudadano", "debate"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I think everyone has the right to education'", "zh": "翻译：'我认为每个人都有受教育的权利'", "ja": "翻訳：「全員が教育を受ける権利があると思う」"},
+        "answer": "Creo que todos tienen derecho a la educación",
+        "accept": ["Creo que todos tienen derecho a la educación", "creo que todos tienen derecho a la educación"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["ley", {"en": "law", "zh": "法律", "ja": "法律"}],
+          ["derecho", {"en": "right", "zh": "权利", "ja": "権利"}],
+          ["igualdad", {"en": "equality", "zh": "平等", "ja": "平等"}],
+          ["libertad", {"en": "freedom", "zh": "自由", "ja": "自由"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "No creo que ___ suficiente libertad de prensa.",
+        "blank": "haya",
+        "options": ["haya", "hay", "había", "habrá"],
+        "hint": {"en": "no creo que → subjunctive (haber → haya)", "zh": "no creo que → 虚拟式（haber → haya）", "ja": "no creo que → 接続法（haber → haya）"}
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Citizens should participate in elections'", "zh": "组句：'公民应该参加选举'", "ja": "並べ替え：「市民は選挙に参加すべきだ」"},
+        "words": ["Los", "ciudadanos", "deberían", "participar", "en", "las", "elecciones"],
+        "answer": "Los ciudadanos deberían participar en las elecciones"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": {"en": "Environment & nature", "zh": "环境和自然", "ja": "環境と自然"},
+    "desc": {"en": "Climate change, sustainability", "zh": "气候变化、可持续发展", "ja": "気候変動・持続可能性"},
+    "grammar": ["es importante que + subjunctive", "hay que + inf"],
+    "vocab": ["cambio climático", "energía renovable", "sostenible", "contaminación", "reciclar", "proteger"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Es necesario que ___ el medio ambiente.",
+        "blank": "protejamos",
+        "options": ["protejamos", "protegemos", "proteger", "protegimos"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Climate change is a serious problem'", "zh": "翻译：'气候变化是一个严重的问题'", "ja": "翻訳：「気候変動は深刻な問題だ」"},
+        "answer": "El cambio climático es un problema grave",
+        "accept": ["El cambio climático es un problema grave", "el cambio climático es un problema grave", "El cambio climático es un problema serio"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'We should use renewable energy'", "zh": "组句：'我们应该使用可再生能源'", "ja": "並べ替え：「再生可能エネルギーを使うべきだ」"},
+        "words": ["Deberíamos", "usar", "energía", "renovable"],
+        "answer": "Deberíamos usar energía renovable"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["cambio climático", {"en": "climate change", "zh": "气候变化", "ja": "気候変動"}],
+          ["contaminación", {"en": "pollution", "zh": "污染", "ja": "汚染"}],
+          ["deforestación", {"en": "deforestation", "zh": "砍伐森林", "ja": "森林伐採"}],
+          ["sostenible", {"en": "sustainable", "zh": "可持续的", "ja": "持続可能な"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Hay que ___ más y contaminar menos.",
+        "blank": "reciclar",
+        "options": ["reciclar", "reciclando", "recicle", "recicla"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'energía renovable' means...", "zh": "'energía renovable'的意思是……", "ja": "「energía renovable」の意味は？"},
+        "correct": "renewable energy",
+        "options": ["renewable energy", "nuclear energy", "electric energy", "natural gas"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": {"en": "Technology & media", "zh": "科技和媒体", "ja": "テクノロジーとメディア"},
+    "desc": {"en": "Digital life, social media, apps", "zh": "数字生活、社交媒体、应用", "ja": "デジタルライフ・SNS・アプリ"},
+    "grammar": ["present perfect for tech actions", "se puede + inf"],
+    "vocab": ["tecnología", "red social", "aplicación", "contraseña", "descargar", "actualizar", "privacidad"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "He ___ la aplicación en mi teléfono.",
+        "blank": "descargado",
+        "options": ["descargado", "descargando", "descargar", "descargué"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'You should change your password'", "zh": "翻译：'你应该改密码'", "ja": "翻訳：「パスワードを変えるべきだ」"},
+        "answer": "Deberías cambiar tu contraseña",
+        "accept": ["Deberías cambiar tu contraseña", "deberías cambiar tu contraseña", "Debes cambiar tu contraseña"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["descargar", {"en": "to download", "zh": "下载", "ja": "ダウンロードする"}],
+          ["actualizar", {"en": "to update", "zh": "更新", "ja": "アップデートする"}],
+          ["contraseña", {"en": "password", "zh": "密码", "ja": "パスワード"}],
+          ["pantalla", {"en": "screen", "zh": "屏幕", "ja": "画面"}]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Social media can be dangerous'", "zh": "组句：'社交媒体可能很危险'", "ja": "並べ替え：「SNSは危険かもしれない」"},
+        "words": ["Las", "redes", "sociales", "pueden", "ser", "peligrosas"],
+        "answer": "Las redes sociales pueden ser peligrosas"
+      },
+      {
+        "type": "fill",
+        "sentence": "Es importante proteger nuestra ___.",
+        "blank": "privacidad",
+        "options": ["privacidad", "pantalla", "conexión", "aplicación"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'inteligencia artificial' means...", "zh": "'inteligencia artificial'的意思是……", "ja": "「inteligencia artificial」の意味は？"},
+        "correct": "artificial intelligence",
+        "options": ["artificial intelligence", "intelligent design", "virtual reality", "digital technology"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": {"en": "Relationships & feelings", "zh": "关系和感情", "ja": "人間関係と感情"},
+    "desc": {"en": "Deep relationships, trust, arguments", "zh": "深层关系、信任、争论", "ja": "深い人間関係・信頼・口論"},
+    "grammar": ["subjunctive with emotions", "echar de menos"],
+    "vocab": ["relación", "confianza", "discutir", "reconciliarse", "echar de menos", "apoyar", "respetar"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Echo de ___ a mi familia.",
+        "blank": "menos",
+        "options": ["menos", "más", "mucho", "poco"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Trust is important in a relationship'", "zh": "翻译：'信任在关系中很重要'", "ja": "翻訳：「関係において信頼は大切だ」"},
+        "answer": "La confianza es importante en una relación",
+        "accept": ["La confianza es importante en una relación", "la confianza es importante en una relación"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["discutir", {"en": "to argue", "zh": "争论", "ja": "言い争う"}],
+          ["reconciliarse", {"en": "to reconcile", "zh": "和好", "ja": "仲直りする"}],
+          ["apoyar", {"en": "to support", "zh": "支持", "ja": "支える"}],
+          ["respetar", {"en": "to respect", "zh": "尊重", "ja": "尊敬する"}]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I'm glad that they have reconciled'", "zh": "组句：'我很高兴他们和好了'", "ja": "並べ替え：「仲直りして嬉しい」"},
+        "words": ["Me", "alegra", "que", "se", "hayan", "reconciliado"],
+        "answer": "Me alegra que se hayan reconciliado"
+      },
+      {
+        "type": "fill",
+        "sentence": "Me molesta que no me ___.",
+        "blank": "respetes",
+        "options": ["respetes", "respetas", "respeta", "respetar"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'soledad' means...", "zh": "'soledad'的意思是……", "ja": "「soledad」の意味は？"},
+        "correct": "loneliness",
+        "options": ["loneliness", "solidarity", "solution", "sun"]
+      }
+    ]
+  }
+]

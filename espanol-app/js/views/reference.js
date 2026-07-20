@@ -39,6 +39,7 @@ register('reference', async (el) => {
       <div class="flex gap-8 mb-12">
         <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__refLevel('a1')">A1</button>
         <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__refLevel('a2')">A2</button>
+        <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__refLevel('b1')">B1</button>
       </div>
       ${grammar.map(g => `
         <div class="card" style="padding:16px 18px;margin-bottom:12px;cursor:pointer" onclick="window.__showGrammar('${g.id}')">
@@ -64,6 +65,7 @@ register('reference', async (el) => {
       <div class="flex gap-8 mb-12">
         <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__vocabLevel('a1')">A1</button>
         <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__vocabLevel('a2')">A2</button>
+        <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__vocabLevel('b1')">B1</button>
       </div>
       <div class="flex items-center justify-between mb-12">
         <span class="muted small">${vocab.length} ${t('words')}</span>

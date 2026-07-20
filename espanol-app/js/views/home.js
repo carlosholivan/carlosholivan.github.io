@@ -29,6 +29,7 @@ register('home', async (el) => {
     <div class="flex gap-8 mb-16">
       <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__setLevel('a1')">A1</button>
       <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__setLevel('a2')">A2</button>
+      <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__setLevel('b1')">B1</button>
     </div>
 
     <div class="lesson-tree">

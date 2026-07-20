@@ -17,7 +17,7 @@ register('daily-review', async (el) => {
     return;
   }
 
-  const allVocab = [...await loadVocab('a1'), ...await loadVocab('a2')];
+  const allVocab = [...await loadVocab('a1'), ...await loadVocab('a2'), ...await loadVocab('b1')];
   let current = 0;
   let correct = 0;
   let flipped = false;
