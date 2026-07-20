@@ -254,5 +254,21 @@
       {"es": "Los ninos son inteligentes.", "en": "The children are intelligent.", "zh": "孩子们很聪明。", "ja": "子供たちは頭がいい。"},
       {"es": "Tengo dos gatos negros.", "en": "I have two black cats.", "zh": "我有两只黑猫。", "ja": "黒い猫を2匹飼っている。"}
     ]
+  },
+  {
+    "id": "demonstratives",
+    "title": {"en": "Demonstratives", "zh": "指示代词", "ja": "指示詞"},
+    "summary": {"en": "este/ese/aquel (this/that/that over there)", "zh": "这/那/那个（远处的）", "ja": "これ/それ/あれ"},
+    "explanation": {
+      "en": "Spanish has THREE levels of distance (English has two):\n\n**ESTE/ESTA/ESTOS/ESTAS** = this/these (near me)\n- Este libro es mio (This book is mine)\n- Esta mesa es grande (This table is big)\n\n**ESE/ESA/ESOS/ESAS** = that/those (near you)\n- Ese chico es alto (That boy is tall)\n- Esa casa es bonita (That house is pretty)\n\n**AQUEL/AQUELLA/AQUELLOS/AQUELLAS** = that over there (far from both)\n- Aquel edificio es antiguo (That building over there is old)\n- Aquella montana es muy alta (That mountain over there is very tall)\n\n**Neutral forms (no gender — abstract/unknown):**\n- esto = this (thing) — ¿Que es esto? (What is this?)\n- eso = that (thing) — Eso es verdad (That's true)\n- aquello = that over there — ¿Que es aquello? (What's that over there?)\n\n**Connection to location words:**\n- este → aqui/aca (here, near me)\n- ese → ahi (there, near you)\n- aquel → alli/alla (over there, far from both)",
+      "zh": "西班牙语有三个距离层级（中文主要用"这/那"两个）：\n\n**ESTE/ESTA** = 这（靠近我的）\n- Este libro es mio（这本书是我的）\n\n**ESE/ESA** = 那（靠近你的）\n- Ese chico es alto（那个男孩很高）\n\n**AQUEL/AQUELLA** = 那个（离我们都远的）\n- Aquel edificio es antiguo（那边那栋楼很老）\n\n**中性形式（不分性别，指抽象/未知事物）：**\n- esto = 这个（东西）— ¿Que es esto?（这是什么？）\n- eso = 那个 — Eso es verdad（那是真的）\n- aquello = 那个（远处）\n\n**关联位置词：**\n- este → aqui（这里，近我）\n- ese → ahi（那里，近你）\n- aquel → alli（那边，都远）",
+      "ja": "スペイン語には3段階の距離があります（日本語の「これ/それ/あれ」と同じ！）：\n\n**ESTE/ESTA** = これ/この（私の近く）\n- Este libro es mio（この本は私のです）\n\n**ESE/ESA** = それ/その（あなたの近く）\n- Ese chico es alto（その男の子は背が高い）\n\n**AQUEL/AQUELLA** = あれ/あの（両方から遠い）\n- Aquel edificio es antiguo（あの建物は古い）\n\n**中性形（性別なし、抽象・不明なもの）：**\n- esto = これ — ¿Que es esto?（これは何？）\n- eso = それ — Eso es verdad（それは本当だ）\n- aquello = あれ — ¿Que es aquello?（あれは何？）\n\n**場所の言葉との対応（日本語と完全一致！）：**\n- este → aqui（ここ）= これ\n- ese → ahi（そこ）= それ\n- aquel → alli（あそこ）= あれ"
+    },
+    "examples": [
+      {"es": "Este coche es rapido.", "en": "This car is fast.", "zh": "这辆车很快。", "ja": "この車は速い。"},
+      {"es": "¿Que es eso?", "en": "What is that?", "zh": "那是什么？", "ja": "それは何？"},
+      {"es": "Aquel restaurante es muy bueno.", "en": "That restaurant over there is very good.", "zh": "那边那家餐厅很好。", "ja": "あのレストランはとても美味しい。"},
+      {"es": "Esto no me gusta.", "en": "I don't like this.", "zh": "我不喜欢这个。", "ja": "これは好きじゃない。"}
+    ]
   }
 ]

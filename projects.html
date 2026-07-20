@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | C. Hernandez-Olivan</title>
+    <link rel="stylesheet" href="css/site.css">
+    <script>(function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();</script>
+    <style>
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+        .project-card {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        .project-card-body {
+            padding: 20px;
+        }
+        .project-card h3 {
+            margin: 0 0 8px 0;
+            font-size: 1.15rem;
+        }
+        .project-card p {
+            margin: 0 0 14px 0;
+            font-size: 0.92rem;
+            color: #666;
+            line-height: 1.5;
+        }
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+        .project-tag {
+            background: #f0f4ff;
+            color: #0071bc;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            font-weight: 500;
+        }
+        .project-links {
+            display: flex;
+            gap: 12px;
+        }
+        .project-links a {
+            font-size: 0.88rem;
+            font-weight: 500;
+        }
+        .project-emoji {
+            font-size: 2.5rem;
+            padding: 24px 20px 0;
+        }
+        [data-theme="dark"] .project-card {
+            border-color: #333;
+        }
+        [data-theme="dark"] .project-card p {
+            color: #aaa;
+        }
+        [data-theme="dark"] .project-tag {
+            background: #1a2744;
+            color: #6dacf0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <button class="dark-btn" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode">🌙</button>
+
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="curriculum.html">CV</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="talks.html">Talks</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="community-service.html">Community Service</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Projects</h1>
+        <p>Personal and research projects.</p>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-emoji">🇪🇸</div>
+                <div class="project-card-body">
+                    <h3>Spanish Learning App</h3>
+                    <p>A free web app to learn Spanish (DELE A1, A2, B1) from English, Chinese, or Japanese. Features spaced repetition, grammar references, and Firebase-synced progress.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">Firebase</span>
+                        <span class="project-tag">SRS</span>
+                        <span class="project-tag">i18n</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://espanol-app-d8848.web.app">Live App</a>
+                        <a href="espanol-app/">GitHub Pages</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-emoji">🎵</div>
+                <div class="project-card-body">
+                    <h3>musicaiz</h3>
+                    <p>A Python library for symbolic music generation, analysis, and visualization. Published in SoftwareX (2023).</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Music AI</span>
+                        <span class="project-tag">Open Source</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/carlosholivan/musicaiz">GitHub</a>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S2352711023000614">Paper</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 C. Hernandez-Olivan.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+        function toggleDark() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+            document.getElementById('darkBtn').textContent = isDark ? '🌙' : '☀';
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const isDark = localStorage.getItem('theme') === 'dark';
+            document.getElementById('darkBtn').textContent = isDark ? '☀' : '🌙';
+        });
+    </script>
+
+</body>
+</html>
