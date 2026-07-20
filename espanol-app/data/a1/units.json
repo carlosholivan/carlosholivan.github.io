@@ -1,0 +1,3691 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "I am...",
+      "zh": "我是……",
+      "ja": "私は……です"
+    },
+    "desc": {
+      "en": "Introduce yourself with ser",
+      "zh": "用ser动词介绍自己",
+      "ja": "serで自己紹介する"
+    },
+    "grammar": [
+      "ser (yo)"
+    ],
+    "vocab": [
+      "yo",
+      "soy",
+      "me llamo"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "How do you say 'I am' in Spanish?",
+          "zh": "'我是'用西班牙语怎么说？",
+          "ja": "「私は〜です」はスペイン語で？"
+        },
+        "correct": "Yo soy",
+        "options": [
+          "Yo soy",
+          "Yo estoy",
+          "Yo tengo",
+          "Yo voy"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does 'Me llamo Carlos' mean?",
+          "zh": "'Me llamo Carlos'是什么意思？",
+          "ja": "「Me llamo Carlos」の意味は？"
+        },
+        "correct": "My name is Carlos",
+        "options": [
+          "My name is Carlos",
+          "I like Carlos",
+          "I am from Carlos",
+          "I see Carlos"
+        ],
+        "hint": {
+          "en": "llamarse = to be called",
+          "zh": "llamarse = 叫做",
+          "ja": "llamarse = ～と言う"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo ___ María.",
+        "blank": "soy",
+        "options": [
+          "soy",
+          "estoy",
+          "tengo",
+          "voy"
+        ],
+        "hint": {
+          "en": "ser = to be (identity)",
+          "zh": "ser = 是（身份）",
+          "ja": "ser = ～である（身元）"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I am Ana'",
+          "zh": "翻译：'我是Ana'",
+          "ja": "翻訳：「私はアナです」"
+        },
+        "answer": "Yo soy Ana",
+        "accept": [
+          "Yo soy Ana",
+          "Soy Ana",
+          "yo soy ana",
+          "soy ana"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'My name is Pedro'",
+          "zh": "组句：'我叫Pedro'",
+          "ja": "並べ替え：「私はペドロです」"
+        },
+        "words": [
+          "Me",
+          "llamo",
+          "Pedro"
+        ],
+        "answer": "Me llamo Pedro"
+      },
+      {
+        "type": "fill",
+        "sentence": "Me ___ Luis.",
+        "blank": "llamo",
+        "options": [
+          "llamo",
+          "soy",
+          "nombre",
+          "tengo"
+        ],
+        "hint": {
+          "en": "'Me llamo' = My name is",
+          "zh": "'Me llamo' = 我叫",
+          "ja": "「Me llamo」= 私の名前は"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Which is correct? 'I am a student'",
+          "zh": "哪个正确？'我是学生'",
+          "ja": "正しいのは？「私は学生です」"
+        },
+        "correct": "Yo soy estudiante",
+        "options": [
+          "Yo soy estudiante",
+          "Yo estoy estudiante",
+          "Yo tengo estudiante",
+          "Yo hay estudiante"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I am María'",
+          "zh": "翻译：'我是María'",
+          "ja": "翻訳：「私はマリアです」"
+        },
+        "answer": "Yo soy María",
+        "accept": [
+          "Yo soy María",
+          "Soy María",
+          "Yo soy Maria",
+          "Soy Maria",
+          "yo soy maría",
+          "yo soy maria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "You are...",
+      "zh": "你是……",
+      "ja": "あなたは……です"
+    },
+    "desc": {
+      "en": "Ask about others with ser (tú)",
+      "zh": "用ser (tú) 询问他人",
+      "ja": "ser (tú) で他人について聞く"
+    },
+    "grammar": [
+      "ser (tú)",
+      "questions"
+    ],
+    "vocab": [
+      "tú",
+      "eres",
+      "de dónde"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "How do you say 'You are' (informal)?",
+          "zh": "'你是'用西班牙语怎么说？",
+          "ja": "「君は〜だ」はスペイン語で？"
+        },
+        "correct": "Tú eres",
+        "options": [
+          "Tú eres",
+          "Tú soy",
+          "Tú estás",
+          "Tú tienes"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Tú ___ español?",
+        "blank": "eres",
+        "options": [
+          "eres",
+          "soy",
+          "es",
+          "somos"
+        ],
+        "hint": {
+          "en": "ser with tú → eres",
+          "zh": "ser搭配tú → eres",
+          "ja": "serのtú形 → eres"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'Where are you from?'",
+          "zh": "组句：'你从哪里来？'",
+          "ja": "並べ替え：「出身はどこ？」"
+        },
+        "words": [
+          "¿De",
+          "dónde",
+          "eres?"
+        ],
+        "answer": "¿De dónde eres?"
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'You are Spanish'",
+          "zh": "翻译：'你是西班牙人'",
+          "ja": "翻訳：「あなたはスペイン人です」"
+        },
+        "answer": "Tú eres español",
+        "accept": [
+          "Tú eres español",
+          "Eres español",
+          "tú eres español",
+          "eres español"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does '¿De dónde eres?' mean?",
+          "zh": "'¿De dónde eres?'是什么意思？",
+          "ja": "「¿De dónde eres?」の意味は？"
+        },
+        "correct": "Where are you from?",
+        "options": [
+          "Where are you from?",
+          "How are you?",
+          "What is your name?",
+          "How old are you?"
+        ],
+        "hint": {
+          "en": "de = from, dónde = where",
+          "zh": "de = 从, dónde = 哪里",
+          "ja": "de = から, dónde = どこ"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "¿___ dónde eres?",
+        "blank": "De",
+        "options": [
+          "De",
+          "En",
+          "A",
+          "Por"
+        ],
+        "hint": {
+          "en": "de = from (origin)",
+          "zh": "de = 来自",
+          "ja": "de = 出身の"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Are you Japanese?'",
+          "zh": "翻译：'你是日本人吗？'",
+          "ja": "翻訳：「あなたは日本人ですか？」"
+        },
+        "answer": "¿Eres japonés?",
+        "accept": [
+          "¿Eres japonés?",
+          "¿Tú eres japonés?",
+          "Eres japonés?",
+          "Tú eres japonés?",
+          "¿eres japonés?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "He/She is...",
+      "zh": "他/她是……",
+      "ja": "彼/彼女は……です"
+    },
+    "desc": {
+      "en": "Talk about others with ser (él/ella)",
+      "zh": "用ser (él/ella) 谈论他人",
+      "ja": "ser (él/ella) で他人を紹介"
+    },
+    "grammar": [
+      "ser (él/ella)",
+      "professions"
+    ],
+    "vocab": [
+      "él",
+      "ella",
+      "es",
+      "profesor",
+      "doctora",
+      "ingeniero"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'She is a doctor' — which is correct?",
+          "zh": "'她是医生' — 哪个正确？",
+          "ja": "「彼女は医者です」— 正しいのは？"
+        },
+        "correct": "Ella es doctora",
+        "options": [
+          "Ella es doctora",
+          "Ella soy doctora",
+          "Ella eres doctora",
+          "Ella está doctora"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Él ___ profesor.",
+        "blank": "es",
+        "options": [
+          "es",
+          "soy",
+          "eres",
+          "son"
+        ],
+        "hint": {
+          "en": "ser with él/ella → es",
+          "zh": "ser搭配él/ella → es",
+          "ja": "serのél/ella形 → es"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'He is an engineer'",
+          "zh": "翻译：'他是工程师'",
+          "ja": "翻訳：「彼はエンジニアです」"
+        },
+        "answer": "Él es ingeniero",
+        "accept": [
+          "Él es ingeniero",
+          "El es ingeniero",
+          "él es ingeniero",
+          "Es ingeniero"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'She is a teacher'",
+          "zh": "组句：'她是老师'",
+          "ja": "並べ替え：「彼女は先生です」"
+        },
+        "words": [
+          "Ella",
+          "es",
+          "profesora"
+        ],
+        "answer": "Ella es profesora"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does 'Él es de México' mean?",
+          "zh": "'Él es de México'是什么意思？",
+          "ja": "「Él es de México」の意味は？"
+        },
+        "correct": "He is from Mexico",
+        "options": [
+          "He is from Mexico",
+          "He is in Mexico",
+          "He likes Mexico",
+          "He goes to Mexico"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ella ___ de Japón.",
+        "blank": "es",
+        "options": [
+          "es",
+          "está",
+          "soy",
+          "eres"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "profesor",
+            {
+              "en": "teacher (m)",
+              "zh": "老师（男）",
+              "ja": "先生（男）"
+            }
+          ],
+          [
+            "doctora",
+            {
+              "en": "doctor (f)",
+              "zh": "医生（女）",
+              "ja": "医者（女）"
+            }
+          ],
+          [
+            "ingeniero",
+            {
+              "en": "engineer (m)",
+              "zh": "工程师（男）",
+              "ja": "エンジニア（男）"
+            }
+          ],
+          [
+            "estudiante",
+            {
+              "en": "student",
+              "zh": "学生",
+              "ja": "学生"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "The... (el, la)",
+      "zh": "定冠词 (el, la)",
+      "ja": "定冠詞 (el, la)"
+    },
+    "desc": {
+      "en": "Definite articles — singular",
+      "zh": "单数定冠词",
+      "ja": "単数定冠詞"
+    },
+    "grammar": [
+      "el/la",
+      "gender"
+    ],
+    "vocab": [
+      "el",
+      "la",
+      "libro",
+      "mesa",
+      "gato",
+      "casa"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Which article goes with 'libro' (book)?",
+          "zh": "'libro'（书）用哪个冠词？",
+          "ja": "「libro」（本）にはどの冠詞？"
+        },
+        "correct": "el libro",
+        "options": [
+          "el libro",
+          "la libro",
+          "un libro",
+          "los libro"
+        ],
+        "hint": {
+          "en": "libro is masculine → el",
+          "zh": "libro是阳性名词 → el",
+          "ja": "libroは男性名詞 → el"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Which article goes with 'mesa' (table)?",
+          "zh": "'mesa'（桌子）用哪个冠词？",
+          "ja": "「mesa」（テーブル）にはどの冠詞？"
+        },
+        "correct": "la mesa",
+        "options": [
+          "la mesa",
+          "el mesa",
+          "las mesa",
+          "una mesa"
+        ],
+        "hint": {
+          "en": "mesa is feminine → la",
+          "zh": "mesa是阴性名词 → la",
+          "ja": "mesaは女性名詞 → la"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "___ gato es negro.",
+        "blank": "El",
+        "options": [
+          "El",
+          "La",
+          "Los",
+          "Las"
+        ],
+        "hint": {
+          "en": "gato (cat) is masculine",
+          "zh": "gato（猫）是阳性",
+          "ja": "gato（猫）は男性名詞"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "___ casa es grande.",
+        "blank": "La",
+        "options": [
+          "La",
+          "El",
+          "Las",
+          "Los"
+        ],
+        "hint": {
+          "en": "casa (house) is feminine",
+          "zh": "casa（房子）是阴性",
+          "ja": "casa（家）は女性名詞"
+        }
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "el libro",
+            {
+              "en": "the book",
+              "zh": "那本书",
+              "ja": "その本"
+            }
+          ],
+          [
+            "la mesa",
+            {
+              "en": "the table",
+              "zh": "那张桌子",
+              "ja": "そのテーブル"
+            }
+          ],
+          [
+            "el gato",
+            {
+              "en": "the cat",
+              "zh": "那只猫",
+              "ja": "その猫"
+            }
+          ],
+          [
+            "la casa",
+            {
+              "en": "the house",
+              "zh": "那栋房子",
+              "ja": "その家"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Words ending in -o are usually...",
+          "zh": "以-o结尾的词通常是……",
+          "ja": "-oで終わる単語は通常……"
+        },
+        "correct": "masculine (el)",
+        "options": [
+          "masculine (el)",
+          "feminine (la)",
+          "both",
+          "neither"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'the cat'",
+          "zh": "翻译：'那只猫'",
+          "ja": "翻訳：「その猫」"
+        },
+        "answer": "el gato",
+        "accept": [
+          "el gato",
+          "El gato"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "The... (los, las)",
+      "zh": "定冠词复数 (los, las)",
+      "ja": "複数定冠詞 (los, las)"
+    },
+    "desc": {
+      "en": "Definite articles — plural",
+      "zh": "复数定冠词",
+      "ja": "複数定冠詞"
+    },
+    "grammar": [
+      "los/las",
+      "plural nouns"
+    ],
+    "vocab": [
+      "los",
+      "las",
+      "libros",
+      "mesas",
+      "gatos",
+      "casas"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'the books' in Spanish?",
+          "zh": "'那些书'用西班牙语怎么说？",
+          "ja": "「それらの本」はスペイン語で？"
+        },
+        "correct": "los libros",
+        "options": [
+          "los libros",
+          "las libros",
+          "el libros",
+          "la libros"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ mesas son grandes.",
+        "blank": "Las",
+        "options": [
+          "Las",
+          "Los",
+          "La",
+          "El"
+        ],
+        "hint": {
+          "en": "mesa → feminine plural → las",
+          "zh": "mesa → 阴性复数 → las",
+          "ja": "mesa → 女性複数 → las"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "How do you make 'gato' plural?",
+          "zh": "gato的复数是什么？",
+          "ja": "gatoの複数形は？"
+        },
+        "correct": "gatos",
+        "options": [
+          "gatos",
+          "gatoes",
+          "gatoes",
+          "gatoss"
+        ],
+        "hint": {
+          "en": "Add -s to words ending in vowel",
+          "zh": "元音结尾加-s",
+          "ja": "母音で終わる語には-sをつける"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "___ gatos son pequeños.",
+        "blank": "Los",
+        "options": [
+          "Los",
+          "Las",
+          "El",
+          "La"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'the houses'",
+          "zh": "翻译：'那些房子'",
+          "ja": "翻訳：「それらの家」"
+        },
+        "answer": "las casas",
+        "accept": [
+          "las casas",
+          "Las casas"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'The cats are small'",
+          "zh": "组句：'那些猫很小'",
+          "ja": "並べ替え：「猫たちは小さい」"
+        },
+        "words": [
+          "Los",
+          "gatos",
+          "son",
+          "pequeños"
+        ],
+        "answer": "Los gatos son pequeños"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "los libros",
+            {
+              "en": "the books",
+              "zh": "那些书",
+              "ja": "それらの本"
+            }
+          ],
+          [
+            "las mesas",
+            {
+              "en": "the tables",
+              "zh": "那些桌子",
+              "ja": "それらのテーブル"
+            }
+          ],
+          [
+            "los gatos",
+            {
+              "en": "the cats",
+              "zh": "那些猫",
+              "ja": "それらの猫"
+            }
+          ],
+          [
+            "las casas",
+            {
+              "en": "the houses",
+              "zh": "那些房子",
+              "ja": "それらの家"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "A... (un, una)",
+      "zh": "不定冠词 (un, una)",
+      "ja": "不定冠詞 (un, una)"
+    },
+    "desc": {
+      "en": "Indefinite articles",
+      "zh": "不定冠词",
+      "ja": "不定冠詞"
+    },
+    "grammar": [
+      "un/una/unos/unas"
+    ],
+    "vocab": [
+      "un",
+      "una",
+      "unos",
+      "unas",
+      "perro",
+      "flor"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'a book' in Spanish?",
+          "zh": "'一本书'用西班牙语怎么说？",
+          "ja": "「一冊の本」はスペイン語で？"
+        },
+        "correct": "un libro",
+        "options": [
+          "un libro",
+          "una libro",
+          "el libro",
+          "unos libro"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Hay ___ perro en el parque.",
+        "blank": "un",
+        "options": [
+          "un",
+          "una",
+          "el",
+          "unos"
+        ],
+        "hint": {
+          "en": "perro (dog) = masculine → un",
+          "zh": "perro（狗）= 阳性 → un",
+          "ja": "perro（犬）= 男性名詞 → un"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Tengo ___ flor.",
+        "blank": "una",
+        "options": [
+          "una",
+          "un",
+          "la",
+          "unas"
+        ],
+        "hint": {
+          "en": "flor (flower) = feminine → una",
+          "zh": "flor（花）= 阴性 → una",
+          "ja": "flor（花）= 女性名詞 → una"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'some dogs' in Spanish?",
+          "zh": "'一些狗'用西班牙语怎么说？",
+          "ja": "「何匹かの犬」はスペイン語で？"
+        },
+        "correct": "unos perros",
+        "options": [
+          "unos perros",
+          "unas perros",
+          "un perros",
+          "los perros"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'a house'",
+          "zh": "翻译：'一栋房子'",
+          "ja": "翻訳：「一軒の家」"
+        },
+        "answer": "una casa",
+        "accept": [
+          "una casa",
+          "Una casa"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'There is a cat'",
+          "zh": "组句：'有一只猫'",
+          "ja": "並べ替え：「猫が一匹いる」"
+        },
+        "words": [
+          "Hay",
+          "un",
+          "gato"
+        ],
+        "answer": "Hay un gato"
+      },
+      {
+        "type": "fill",
+        "sentence": "Hay ___ flores en la mesa.",
+        "blank": "unas",
+        "options": [
+          "unas",
+          "unos",
+          "una",
+          "las"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": {
+      "en": "My, your, his...",
+      "zh": "我的、你的、他的……",
+      "ja": "私の、君の、彼の……"
+    },
+    "desc": {
+      "en": "Possessive adjectives",
+      "zh": "物主形容词",
+      "ja": "所有形容詞"
+    },
+    "grammar": [
+      "mi/tu/su/nuestro"
+    ],
+    "vocab": [
+      "mi",
+      "tu",
+      "su",
+      "nuestro",
+      "familia",
+      "amigo"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'my book' in Spanish?",
+          "zh": "'我的书'用西班牙语怎么说？",
+          "ja": "「私の本」はスペイン語で？"
+        },
+        "correct": "mi libro",
+        "options": [
+          "mi libro",
+          "tu libro",
+          "su libro",
+          "yo libro"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ casa es grande.",
+        "blank": "Mi",
+        "options": [
+          "Mi",
+          "Yo",
+          "Me",
+          "Mí"
+        ],
+        "hint": {
+          "en": "mi = my (possessive)",
+          "zh": "mi = 我的（所有格）",
+          "ja": "mi = 私の（所有格）"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does 'tu amigo' mean?",
+          "zh": "'tu amigo'是什么意思？",
+          "ja": "「tu amigo」の意味は？"
+        },
+        "correct": "your friend",
+        "options": [
+          "your friend",
+          "my friend",
+          "his friend",
+          "a friend"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Dónde está ___ familia?",
+        "blank": "tu",
+        "options": [
+          "tu",
+          "tú",
+          "mi",
+          "su"
+        ],
+        "hint": {
+          "en": "tu (no accent) = your / tú (accent) = you",
+          "zh": "tu（无重音）= 你的 / tú（有重音）= 你",
+          "ja": "tu（アクセントなし）= 君の / tú（アクセントあり）= 君"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'his house'",
+          "zh": "翻译：'他的房子'",
+          "ja": "翻訳：「彼の家」"
+        },
+        "answer": "su casa",
+        "accept": [
+          "su casa",
+          "Su casa"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "mi",
+            {
+              "en": "my",
+              "zh": "我的",
+              "ja": "私の"
+            }
+          ],
+          [
+            "tu",
+            {
+              "en": "your",
+              "zh": "你的",
+              "ja": "君の"
+            }
+          ],
+          [
+            "su",
+            {
+              "en": "his/her",
+              "zh": "他/她的",
+              "ja": "彼/彼女の"
+            }
+          ],
+          [
+            "nuestro",
+            {
+              "en": "our",
+              "zh": "我们的",
+              "ja": "私たちの"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'Our cat is small'",
+          "zh": "组句：'我们的猫很小'",
+          "ja": "並べ替え：「私たちの猫は小さい」"
+        },
+        "words": [
+          "Nuestro",
+          "gato",
+          "es",
+          "pequeño"
+        ],
+        "answer": "Nuestro gato es pequeño"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": {
+      "en": "To be (location): estar",
+      "zh": "表示位置：estar",
+      "ja": "場所を表す：estar"
+    },
+    "desc": {
+      "en": "Estar for location and states",
+      "zh": "estar表示位置和状态",
+      "ja": "estarで場所と状態を表す"
+    },
+    "grammar": [
+      "estar (yo/tú/él)",
+      "location"
+    ],
+    "vocab": [
+      "estoy",
+      "estás",
+      "está",
+      "aquí",
+      "bien",
+      "en"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I am here' — which verb?",
+          "zh": "'我在这里' — 用哪个动词？",
+          "ja": "「私はここにいる」— どちらの動詞？"
+        },
+        "correct": "Yo estoy aquí",
+        "options": [
+          "Yo estoy aquí",
+          "Yo soy aquí",
+          "Yo tengo aquí",
+          "Yo voy aquí"
+        ],
+        "hint": {
+          "en": "estar = to be (location)",
+          "zh": "estar = 在（位置）",
+          "ja": "estar = いる/ある（場所）"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "El libro ___ en la mesa.",
+        "blank": "está",
+        "options": [
+          "está",
+          "es",
+          "hay",
+          "tiene"
+        ],
+        "hint": {
+          "en": "location → estar",
+          "zh": "位置 → estar",
+          "ja": "場所 → estar"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "ser or estar? 'Yo ___ profesor'",
+          "zh": "ser还是estar？'Yo ___ profesor'",
+          "ja": "serかestarか？「Yo ___ profesor」"
+        },
+        "correct": "soy (identity)",
+        "options": [
+          "soy (identity)",
+          "estoy (location)",
+          "es (he is)",
+          "son (they are)"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "ser or estar? 'Yo ___ en Madrid'",
+          "zh": "ser还是estar？'Yo ___ en Madrid'",
+          "ja": "serかestarか？「Yo ___ en Madrid」"
+        },
+        "correct": "estoy (location)",
+        "options": [
+          "estoy (location)",
+          "soy (identity)",
+          "es (he is)",
+          "está (he/she is)"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'The cat is on the table'",
+          "zh": "翻译：'猫在桌子上'",
+          "ja": "翻訳：「猫はテーブルの上にいる」"
+        },
+        "answer": "El gato está en la mesa",
+        "accept": [
+          "El gato está en la mesa",
+          "el gato está en la mesa"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Cómo ___? — Bien, gracias.",
+        "blank": "estás",
+        "options": [
+          "estás",
+          "eres",
+          "tienes",
+          "vas"
+        ],
+        "hint": {
+          "en": "¿Cómo estás? = How are you?",
+          "zh": "¿Cómo estás? = 你好吗？",
+          "ja": "¿Cómo estás? = 元気ですか？"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'She is at home'",
+          "zh": "组句：'她在家'",
+          "ja": "並べ替え：「彼女は家にいる」"
+        },
+        "words": [
+          "Ella",
+          "está",
+          "en",
+          "casa"
+        ],
+        "answer": "Ella está en casa"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": {
+      "en": "There is / There are",
+      "zh": "有 (hay)",
+      "ja": "〜がある/いる (hay)"
+    },
+    "desc": {
+      "en": "Hay for existence",
+      "zh": "hay表示存在",
+      "ja": "hayで存在を表す"
+    },
+    "grammar": [
+      "hay",
+      "hay + un/una"
+    ],
+    "vocab": [
+      "hay",
+      "parque",
+      "escuela",
+      "tienda",
+      "hospital"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "How do you say 'There is a park'?",
+          "zh": "'有一个公园'怎么说？",
+          "ja": "「公園がある」はスペイン語で？"
+        },
+        "correct": "Hay un parque",
+        "options": [
+          "Hay un parque",
+          "Es un parque",
+          "Está un parque",
+          "Tiene un parque"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ una escuela aquí.",
+        "blank": "Hay",
+        "options": [
+          "Hay",
+          "Es",
+          "Está",
+          "Tiene"
+        ],
+        "hint": {
+          "en": "hay = there is/are",
+          "zh": "hay = 有",
+          "ja": "hay = ある/いる"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'There are three cats'",
+          "zh": "翻译：'有三只猫'",
+          "ja": "翻訳：「猫が3匹いる」"
+        },
+        "answer": "Hay tres gatos",
+        "accept": [
+          "Hay tres gatos",
+          "hay tres gatos"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'hay' vs 'está' — 'The book ___ on the table'",
+          "zh": "'hay'还是'está' — '书___桌子上'",
+          "ja": "「hay」か「está」か — 「本は___テーブルの上」"
+        },
+        "correct": "está (specific thing, location)",
+        "options": [
+          "está (specific thing, location)",
+          "hay (existence)",
+          "es (identity)",
+          "son (they are)"
+        ],
+        "hint": {
+          "en": "hay = something exists / está = specific thing is somewhere",
+          "zh": "hay = 存在 / está = 某物在某处",
+          "ja": "hay = 存在する / está = 特定の物がどこかにある"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'There is a hospital here'",
+          "zh": "组句：'这里有一家医院'",
+          "ja": "並べ替え：「ここに病院がある」"
+        },
+        "words": [
+          "Hay",
+          "un",
+          "hospital",
+          "aquí"
+        ],
+        "answer": "Hay un hospital aquí"
+      },
+      {
+        "type": "fill",
+        "sentence": "No ___ tiendas en mi calle.",
+        "blank": "hay",
+        "options": [
+          "hay",
+          "están",
+          "son",
+          "tienen"
+        ],
+        "hint": {
+          "en": "no hay = there aren't",
+          "zh": "no hay = 没有",
+          "ja": "no hay = ない/いない"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'There is no school here'",
+          "zh": "翻译：'这里没有学校'",
+          "ja": "翻訳：「ここには学校がない」"
+        },
+        "answer": "No hay escuela aquí",
+        "accept": [
+          "No hay escuela aquí",
+          "No hay una escuela aquí",
+          "no hay escuela aquí"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": {
+      "en": "On, in, under...",
+      "zh": "在……上/里/下",
+      "ja": "〜の上/中/下に"
+    },
+    "desc": {
+      "en": "Prepositions of place",
+      "zh": "方位介词",
+      "ja": "場所の前置詞"
+    },
+    "grammar": [
+      "en/sobre/debajo de/al lado de"
+    ],
+    "vocab": [
+      "en",
+      "sobre",
+      "debajo de",
+      "al lado de",
+      "entre",
+      "detrás de"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "en",
+            {
+              "en": "in / on",
+              "zh": "在……里/上",
+              "ja": "〜の中/上に"
+            }
+          ],
+          [
+            "sobre",
+            {
+              "en": "on top of",
+              "zh": "在……上面",
+              "ja": "〜の上に"
+            }
+          ],
+          [
+            "debajo de",
+            {
+              "en": "under",
+              "zh": "在……下面",
+              "ja": "〜の下に"
+            }
+          ],
+          [
+            "al lado de",
+            {
+              "en": "next to",
+              "zh": "在……旁边",
+              "ja": "〜の隣に"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "El gato está ___ la mesa.",
+        "blank": "debajo de",
+        "options": [
+          "debajo de",
+          "sobre",
+          "en",
+          "al lado de"
+        ],
+        "hint": {
+          "en": "The cat is UNDER the table",
+          "zh": "猫在桌子下面",
+          "ja": "猫はテーブルの下にいる"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "El libro está ___ la mesa.",
+        "blank": "sobre",
+        "options": [
+          "sobre",
+          "debajo de",
+          "detrás de",
+          "entre"
+        ],
+        "hint": {
+          "en": "The book is ON the table",
+          "zh": "书在桌子上面",
+          "ja": "本はテーブルの上にある"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'The dog is next to the house'",
+          "zh": "翻译：'狗在房子旁边'",
+          "ja": "翻訳：「犬は家の隣にいる」"
+        },
+        "answer": "El perro está al lado de la casa",
+        "accept": [
+          "El perro está al lado de la casa",
+          "el perro está al lado de la casa"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'There is a cat under the table'",
+          "zh": "组句：'桌子下面有一只猫'",
+          "ja": "並べ替え：「テーブルの下に猫がいる」"
+        },
+        "words": [
+          "Hay",
+          "un",
+          "gato",
+          "debajo de",
+          "la",
+          "mesa"
+        ],
+        "answer": "Hay un gato debajo de la mesa"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does 'entre' mean?",
+          "zh": "'entre'是什么意思？",
+          "ja": "「entre」の意味は？"
+        },
+        "correct": "between",
+        "options": [
+          "between",
+          "behind",
+          "in front of",
+          "far from"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'The school is between the park and the hospital'",
+          "zh": "翻译：'学校在公园和医院之间'",
+          "ja": "翻訳：「学校は公園と病院の間にある」"
+        },
+        "answer": "La escuela está entre el parque y el hospital",
+        "accept": [
+          "La escuela está entre el parque y el hospital",
+          "la escuela está entre el parque y el hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": {
+      "en": "Numbers 1-20",
+      "zh": "数字 1-20",
+      "ja": "数字 1-20"
+    },
+    "desc": {
+      "en": "Count from one to twenty",
+      "zh": "从1数到20",
+      "ja": "1から20まで数える"
+    },
+    "grammar": [
+      "numbers"
+    ],
+    "vocab": [
+      "uno",
+      "dos",
+      "tres",
+      "cuatro",
+      "cinco",
+      "seis",
+      "siete",
+      "ocho",
+      "nueve",
+      "diez"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "uno",
+            {
+              "en": "1",
+              "zh": "1",
+              "ja": "1"
+            }
+          ],
+          [
+            "cinco",
+            {
+              "en": "5",
+              "zh": "5",
+              "ja": "5"
+            }
+          ],
+          [
+            "diez",
+            {
+              "en": "10",
+              "zh": "10",
+              "ja": "10"
+            }
+          ],
+          [
+            "veinte",
+            {
+              "en": "20",
+              "zh": "20",
+              "ja": "20"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What is 'seven' in Spanish?",
+          "zh": "'7'用西班牙语怎么说？",
+          "ja": "「7」はスペイン語で？"
+        },
+        "correct": "siete",
+        "options": [
+          "siete",
+          "seis",
+          "cinco",
+          "ocho"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Hay ___ gatos en el parque.",
+        "blank": "tres",
+        "options": [
+          "tres",
+          "tres.",
+          "tree",
+          "trés"
+        ],
+        "hint": {
+          "en": "3 = tres",
+          "zh": "3 = tres",
+          "ja": "3 = tres"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I have four books'",
+          "zh": "翻译：'我有四本书'",
+          "ja": "翻訳：「私は本を4冊持っている」"
+        },
+        "answer": "Tengo cuatro libros",
+        "accept": [
+          "Tengo cuatro libros",
+          "Yo tengo cuatro libros",
+          "tengo cuatro libros"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What number is 'quince'?",
+          "zh": "'quince'是数字几？",
+          "ja": "「quince」は何番？"
+        },
+        "correct": "15",
+        "options": [
+          "15",
+          "14",
+          "16",
+          "50"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Put in order: 'There are twelve students'",
+          "zh": "组句：'有十二个学生'",
+          "ja": "並べ替え：「学生が12人いる」"
+        },
+        "words": [
+          "Hay",
+          "doce",
+          "estudiantes"
+        ],
+        "answer": "Hay doce estudiantes"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "6 + 8 = ?",
+          "zh": "6 + 8 = ?",
+          "ja": "6 + 8 = ?"
+        },
+        "correct": "catorce",
+        "options": [
+          "catorce",
+          "trece",
+          "quince",
+          "dieciséis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": {
+      "en": "I have... (tener)",
+      "zh": "我有…… (tener)",
+      "ja": "〜を持っている (tener)"
+    },
+    "desc": {
+      "en": "Tener for possession and age",
+      "zh": "tener表示拥有和年龄",
+      "ja": "tenerで所有と年齢を表す"
+    },
+    "grammar": [
+      "tener (yo/tú/él)",
+      "tener + age"
+    ],
+    "vocab": [
+      "tengo",
+      "tienes",
+      "tiene",
+      "años",
+      "hambre",
+      "sed"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I have a dog' — which is correct?",
+          "zh": "'我有一条狗' — 哪个正确？",
+          "ja": "「犬を飼っている」— 正しいのは？"
+        },
+        "correct": "Tengo un perro",
+        "options": [
+          "Tengo un perro",
+          "Soy un perro",
+          "Hay un perro",
+          "Estoy un perro"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo ___ veinte años.",
+        "blank": "tengo",
+        "options": [
+          "tengo",
+          "soy",
+          "estoy",
+          "hay"
+        ],
+        "hint": {
+          "en": "In Spanish, age uses 'tener' (to have years)",
+          "zh": "西班牙语中年龄用'tener'（有几年）",
+          "ja": "スペイン語では年齢にtenerを使う（〜年ある）"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She is 25 years old'",
+          "zh": "翻译：'她25岁'",
+          "ja": "翻訳：「彼女は25歳です」"
+        },
+        "answer": "Ella tiene veinticinco años",
+        "accept": [
+          "Ella tiene veinticinco años",
+          "Tiene veinticinco años",
+          "ella tiene veinticinco años",
+          "Ella tiene 25 años",
+          "Tiene 25 años"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does 'Tengo hambre' mean?",
+          "zh": "'Tengo hambre'是什么意思？",
+          "ja": "「Tengo hambre」の意味は？"
+        },
+        "correct": "I am hungry",
+        "options": [
+          "I am hungry",
+          "I have food",
+          "I am eating",
+          "I want food"
+        ],
+        "hint": {
+          "en": "hambre = hunger (literally: I have hunger)",
+          "zh": "hambre = 饥饿（字面：我有饥饿）",
+          "ja": "hambre = 空腹（直訳：空腹を持っている）"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Cuántos años ___?",
+        "blank": "tienes",
+        "options": [
+          "tienes",
+          "tengo",
+          "tiene",
+          "eres"
+        ],
+        "hint": {
+          "en": "tienes = you have",
+          "zh": "tienes = 你有",
+          "ja": "tienes = 君は持っている"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'He has two cats'",
+          "zh": "组句：'他有两只猫'",
+          "ja": "並べ替え：「彼は猫を2匹飼っている」"
+        },
+        "words": [
+          "Él",
+          "tiene",
+          "dos",
+          "gatos"
+        ],
+        "answer": "Él tiene dos gatos"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "tengo hambre",
+            {
+              "en": "I'm hungry",
+              "zh": "我饿了",
+              "ja": "お腹がすいた"
+            }
+          ],
+          [
+            "tengo sed",
+            {
+              "en": "I'm thirsty",
+              "zh": "我渴了",
+              "ja": "喉が渇いた"
+            }
+          ],
+          [
+            "tengo frío",
+            {
+              "en": "I'm cold",
+              "zh": "我冷",
+              "ja": "寒い"
+            }
+          ],
+          [
+            "tengo sueño",
+            {
+              "en": "I'm sleepy",
+              "zh": "我困了",
+              "ja": "眠い"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": {
+      "en": "I want / I can",
+      "zh": "我想/我能",
+      "ja": "〜したい/〜できる"
+    },
+    "desc": {
+      "en": "Querer and poder + infinitive",
+      "zh": "querer和poder + 不定式",
+      "ja": "quererとpoder + 不定詞"
+    },
+    "grammar": [
+      "querer/poder + infinitive"
+    ],
+    "vocab": [
+      "quiero",
+      "quieres",
+      "puede",
+      "puedo",
+      "comer",
+      "ir"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I want to eat' in Spanish?",
+          "zh": "'我想吃'怎么说？",
+          "ja": "「食べたい」はスペイン語で？"
+        },
+        "correct": "Quiero comer",
+        "options": [
+          "Quiero comer",
+          "Puedo comer",
+          "Como quiero",
+          "Tengo comer"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo ___ ir al parque.",
+        "blank": "quiero",
+        "options": [
+          "quiero",
+          "puedo",
+          "tengo",
+          "soy"
+        ],
+        "hint": {
+          "en": "querer = to want",
+          "zh": "querer = 想要",
+          "ja": "querer = 〜したい"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Can you help me?'",
+          "zh": "翻译：'你能帮我吗？'",
+          "ja": "翻訳：「手伝ってもらえる？」"
+        },
+        "answer": "¿Puedes ayudarme?",
+        "accept": [
+          "¿Puedes ayudarme?",
+          "Puedes ayudarme?",
+          "¿puedes ayudarme?"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ella no ___ venir hoy.",
+        "blank": "puede",
+        "options": [
+          "puede",
+          "quiere",
+          "tiene",
+          "está"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'I want to go home'",
+          "zh": "组句：'我想回家'",
+          "ja": "並べ替え：「家に帰りたい」"
+        },
+        "words": [
+          "Quiero",
+          "ir",
+          "a",
+          "casa"
+        ],
+        "answer": "Quiero ir a casa"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What does '¿Puedo entrar?' mean?",
+          "zh": "'¿Puedo entrar?'是什么意思？",
+          "ja": "「¿Puedo entrar?」の意味は？"
+        },
+        "correct": "Can I come in?",
+        "options": [
+          "Can I come in?",
+          "Do I want to enter?",
+          "Should I enter?",
+          "I am entering"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "quiero",
+            {
+              "en": "I want",
+              "zh": "我想要",
+              "ja": "〜したい"
+            }
+          ],
+          [
+            "puedo",
+            {
+              "en": "I can",
+              "zh": "我能",
+              "ja": "〜できる"
+            }
+          ],
+          [
+            "quieres",
+            {
+              "en": "you want",
+              "zh": "你想要",
+              "ja": "君は〜したい"
+            }
+          ],
+          [
+            "puede",
+            {
+              "en": "can (he/she)",
+              "zh": "他/她能",
+              "ja": "彼/彼女は〜できる"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": {
+      "en": "-ar verbs: present",
+      "zh": "-ar动词现在时",
+      "ja": "-ar動詞の現在形"
+    },
+    "desc": {
+      "en": "Regular -ar verbs in present tense",
+      "zh": "规则-ar动词现在时变位",
+      "ja": "規則-ar動詞の現在形活用"
+    },
+    "grammar": [
+      "present -ar: -o, -as, -a, -amos, -áis, -an"
+    ],
+    "vocab": [
+      "hablar",
+      "estudiar",
+      "trabajar",
+      "cocinar",
+      "caminar",
+      "comprar"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I speak' — hablar (yo)?",
+          "zh": "'我说' — hablar (yo)?",
+          "ja": "「私は話す」— hablar (yo)??"
+        },
+        "correct": "hablo",
+        "options": [
+          "hablo",
+          "hablas",
+          "habla",
+          "hablamos"
+        ],
+        "hint": {
+          "en": "-ar verb, yo → -o",
+          "zh": "-ar动词, yo → -o",
+          "ja": "-ar動詞, yo → -o"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Ella ___ español muy bien.",
+        "blank": "habla",
+        "options": [
+          "habla",
+          "hablo",
+          "hablas",
+          "hablan"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'We study every day'",
+          "zh": "翻译：'我们每天学习'",
+          "ja": "翻訳：「毎日勉強する」"
+        },
+        "answer": "Estudiamos todos los días",
+        "accept": [
+          "Estudiamos todos los días",
+          "Nosotros estudiamos todos los días",
+          "estudiamos todos los dias",
+          "estudiamos todos los días"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'They work in Madrid'",
+          "zh": "组句：'他们在马德里工作'",
+          "ja": "並べ替え：「彼らはマドリードで働く」"
+        },
+        "words": [
+          "Ellos",
+          "trabajan",
+          "en",
+          "Madrid"
+        ],
+        "answer": "Ellos trabajan en Madrid"
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Tú ___ en un restaurante?",
+        "blank": "cocinas",
+        "options": [
+          "cocinas",
+          "cocina",
+          "cocino",
+          "cocinan"
+        ],
+        "hint": {
+          "en": "tú → -as",
+          "zh": "tú → -as",
+          "ja": "tú → -as"
+        }
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "hablo",
+            {
+              "en": "I speak",
+              "zh": "我说",
+              "ja": "私は話す"
+            }
+          ],
+          [
+            "hablas",
+            {
+              "en": "you speak",
+              "zh": "你说",
+              "ja": "君は話す"
+            }
+          ],
+          [
+            "habla",
+            {
+              "en": "he/she speaks",
+              "zh": "他/她说",
+              "ja": "彼/彼女は話す"
+            }
+          ],
+          [
+            "hablan",
+            {
+              "en": "they speak",
+              "zh": "他们说",
+              "ja": "彼らは話す"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Nosotros compramos' means...",
+          "zh": "'Nosotros compramos'的意思是……",
+          "ja": "「Nosotros compramos」の意味は……"
+        },
+        "correct": "We buy",
+        "options": [
+          "We buy",
+          "We sell",
+          "They buy",
+          "I buy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": {
+      "en": "-er/-ir verbs: present",
+      "zh": "-er/-ir动词现在时",
+      "ja": "-er/-ir動詞の現在形"
+    },
+    "desc": {
+      "en": "Regular -er/-ir verbs in present tense",
+      "zh": "规则-er/-ir动词现在时变位",
+      "ja": "規則-er/-ir動詞の現在形活用"
+    },
+    "grammar": [
+      "present -er: -o, -es, -e, -emos, -en",
+      "present -ir: -o, -es, -e, -imos, -en"
+    ],
+    "vocab": [
+      "comer",
+      "beber",
+      "leer",
+      "vivir",
+      "escribir",
+      "abrir"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I eat' — comer (yo)?",
+          "zh": "'我吃' — comer (yo)?",
+          "ja": "「私は食べる」— comer (yo)?"
+        },
+        "correct": "como",
+        "options": [
+          "como",
+          "comes",
+          "come",
+          "comen"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Nosotros ___ agua.",
+        "blank": "bebemos",
+        "options": [
+          "bebemos",
+          "beben",
+          "bebo",
+          "bebes"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ella ___ un libro.",
+        "blank": "lee",
+        "options": [
+          "lee",
+          "leo",
+          "lees",
+          "leen"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I live in Barcelona'",
+          "zh": "翻译：'我住在巴塞罗那'",
+          "ja": "翻訳：「バルセロナに住んでいる」"
+        },
+        "answer": "Vivo en Barcelona",
+        "accept": [
+          "Vivo en Barcelona",
+          "Yo vivo en Barcelona",
+          "vivo en Barcelona"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'They write letters'",
+          "zh": "组句：'他们写信'",
+          "ja": "並べ替え：「彼らは手紙を書く」"
+        },
+        "words": [
+          "Ellos",
+          "escriben",
+          "cartas"
+        ],
+        "answer": "Ellos escriben cartas"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What's the difference between -er and -ir in nosotros?",
+          "zh": "-er和-ir在nosotros形的区别？",
+          "ja": "-erと-irのnosotros形の違いは？"
+        },
+        "correct": "-emos vs -imos",
+        "options": [
+          "-emos vs -imos",
+          "They are the same",
+          "-amos vs -imos",
+          "-emos vs -emos"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Tú ___ la puerta?",
+        "blank": "abres",
+        "options": [
+          "abres",
+          "abro",
+          "abre",
+          "abren"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": {
+      "en": "I like... (gustar)",
+      "zh": "我喜欢…… (gustar)",
+      "ja": "〜が好き (gustar)"
+    },
+    "desc": {
+      "en": "Gustar for likes and preferences",
+      "zh": "用gustar表达喜好",
+      "ja": "gustarで好みを表す"
+    },
+    "grammar": [
+      "me/te/le gusta/gustan"
+    ],
+    "vocab": [
+      "gusta",
+      "gustan",
+      "me",
+      "te",
+      "le",
+      "mucho"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I like coffee' in Spanish?",
+          "zh": "'我喜欢咖啡'怎么说？",
+          "ja": "「コーヒーが好き」はスペイン語で？"
+        },
+        "correct": "Me gusta el café",
+        "options": [
+          "Me gusta el café",
+          "Yo gusto café",
+          "Me gustan café",
+          "Gusto el café"
+        ],
+        "hint": {
+          "en": "gusta = it pleases me (singular thing)",
+          "zh": "gusta = 让我高兴（单数事物）",
+          "ja": "gusta = 私を喜ばせる（単数のもの）"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Me ___ los gatos.",
+        "blank": "gustan",
+        "options": [
+          "gustan",
+          "gusta",
+          "gusto",
+          "gustas"
+        ],
+        "hint": {
+          "en": "gustan = plural things please me",
+          "zh": "gustan = 复数事物（让我高兴）",
+          "ja": "gustan = 複数のものが私を喜ばせる"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Do you like music?'",
+          "zh": "翻译：'你喜欢音乐吗？'",
+          "ja": "翻訳：「音楽は好き？」"
+        },
+        "answer": "¿Te gusta la música?",
+        "accept": [
+          "¿Te gusta la música?",
+          "Te gusta la música?",
+          "¿te gusta la música?",
+          "¿Te gusta la musica?"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "A ella le ___ bailar.",
+        "blank": "gusta",
+        "options": [
+          "gusta",
+          "gustan",
+          "gusto",
+          "gustas"
+        ],
+        "hint": {
+          "en": "infinitive verb = singular → gusta",
+          "zh": "不定式动词 = 单数 → gusta",
+          "ja": "不定詞 = 単数扱い → gusta"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'I like dogs a lot'",
+          "zh": "组句：'我很喜欢狗'",
+          "ja": "並べ替え：「犬がとても好き」"
+        },
+        "words": [
+          "Me",
+          "gustan",
+          "mucho",
+          "los",
+          "perros"
+        ],
+        "answer": "Me gustan mucho los perros"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Why 'me gusta' and not 'yo gusto'?",
+          "zh": "为什么说'me gusta'而不是'yo gusto'？",
+          "ja": "なぜ「me gusta」で「yo gusto」ではない？"
+        },
+        "correct": "The thing pleases me (indirect object)",
+        "options": [
+          "The thing pleases me (indirect object)",
+          "It's an irregular verb",
+          "It's a past tense",
+          "It means 'I taste'"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "me gusta",
+            {
+              "en": "I like (singular)",
+              "zh": "我喜欢（单数）",
+              "ja": "私は〜が好き（単数）"
+            }
+          ],
+          [
+            "me gustan",
+            {
+              "en": "I like (plural)",
+              "zh": "我喜欢（复数）",
+              "ja": "私は〜が好き（複数）"
+            }
+          ],
+          [
+            "te gusta",
+            {
+              "en": "you like (singular)",
+              "zh": "你喜欢（单数）",
+              "ja": "君は〜が好き（単数）"
+            }
+          ],
+          [
+            "le gusta",
+            {
+              "en": "he/she likes",
+              "zh": "他/她喜欢",
+              "ja": "彼/彼女は〜が好き"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": {
+      "en": "Colors and adjectives",
+      "zh": "颜色和形容词",
+      "ja": "色と形容詞"
+    },
+    "desc": {
+      "en": "Basic adjectives and gender agreement",
+      "zh": "基础形容词和性数一致",
+      "ja": "基本形容詞と性数一致"
+    },
+    "grammar": [
+      "adjective agreement: -o/-a, -e"
+    ],
+    "vocab": [
+      "rojo",
+      "azul",
+      "verde",
+      "grande",
+      "pequeño",
+      "bonito"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'The red house' — which is correct?",
+          "zh": "'红房子' — 哪个正确？",
+          "ja": "「赤い家」— 正しいのは？"
+        },
+        "correct": "La casa roja",
+        "options": [
+          "La casa roja",
+          "La casa rojo",
+          "El casa roja",
+          "La casa roji"
+        ],
+        "hint": {
+          "en": "casa = feminine → roja",
+          "zh": "casa = 阴性 → roja",
+          "ja": "casa = 女性名詞 → roja"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "El gato es ___.",
+        "blank": "negro",
+        "options": [
+          "negro",
+          "negra",
+          "negros",
+          "negras"
+        ],
+        "hint": {
+          "en": "gato = masculine singular → negro",
+          "zh": "gato = 阳性单数 → negro",
+          "ja": "gato = 男性単数 → negro"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'The big table' — adjective form?",
+          "zh": "'大桌子'的形容词形式？",
+          "ja": "「大きなテーブル」の形容詞の形は？"
+        },
+        "correct": "La mesa grande",
+        "options": [
+          "La mesa grande",
+          "La mesa grando",
+          "La mesa granda",
+          "La mesa grands"
+        ],
+        "hint": {
+          "en": "grande ends in -e → same for m/f",
+          "zh": "grande以-e结尾 → 阴阳性相同",
+          "ja": "grandeは-eで終わる → 男女同形"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'The blue flowers'",
+          "zh": "翻译：'蓝色的花'",
+          "ja": "翻訳：「青い花々」"
+        },
+        "answer": "Las flores azules",
+        "accept": [
+          "Las flores azules",
+          "las flores azules"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'The small dog is pretty'",
+          "zh": "组句：'小狗很漂亮'",
+          "ja": "並べ替え：「小さな犬はかわいい」"
+        },
+        "words": [
+          "El",
+          "perro",
+          "pequeño",
+          "es",
+          "bonito"
+        ],
+        "answer": "El perro pequeño es bonito"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "rojo/roja",
+            {
+              "en": "red",
+              "zh": "红色",
+              "ja": "赤い"
+            }
+          ],
+          [
+            "azul",
+            {
+              "en": "blue",
+              "zh": "蓝色",
+              "ja": "青い"
+            }
+          ],
+          [
+            "verde",
+            {
+              "en": "green",
+              "zh": "绿色",
+              "ja": "緑の"
+            }
+          ],
+          [
+            "blanco/blanca",
+            {
+              "en": "white",
+              "zh": "白色",
+              "ja": "白い"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Las flores son ___.",
+        "blank": "bonitas",
+        "options": [
+          "bonitas",
+          "bonitos",
+          "bonita",
+          "bonito"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": {
+      "en": "Days, months, time",
+      "zh": "星期、月份、时间",
+      "ja": "曜日・月・時間"
+    },
+    "desc": {
+      "en": "Days of the week and months",
+      "zh": "一周的日子和月份",
+      "ja": "曜日と月"
+    },
+    "grammar": [
+      "days (no capital)",
+      "months (no capital)"
+    ],
+    "vocab": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo",
+      "enero",
+      "hoy",
+      "mañana"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "lunes",
+            {
+              "en": "Monday",
+              "zh": "周一",
+              "ja": "月曜日"
+            }
+          ],
+          [
+            "miércoles",
+            {
+              "en": "Wednesday",
+              "zh": "周三",
+              "ja": "水曜日"
+            }
+          ],
+          [
+            "viernes",
+            {
+              "en": "Friday",
+              "zh": "周五",
+              "ja": "金曜日"
+            }
+          ],
+          [
+            "domingo",
+            {
+              "en": "Sunday",
+              "zh": "周日",
+              "ja": "日曜日"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "In Spanish, days of the week are...",
+          "zh": "在西班牙语中，星期几……",
+          "ja": "スペイン語では曜日は……"
+        },
+        "correct": "Not capitalized",
+        "options": [
+          "Not capitalized",
+          "Always capitalized",
+          "Capitalized at start of sentence only",
+          "Written with numbers"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Hoy es ___.",
+        "blank": "lunes",
+        "options": [
+          "lunes",
+          "Lunes",
+          "el lunes",
+          "a lunes"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Tomorrow is Saturday'",
+          "zh": "翻译：'明天是周六'",
+          "ja": "翻訳：「明日は土曜日です」"
+        },
+        "answer": "Mañana es sábado",
+        "accept": [
+          "Mañana es sábado",
+          "mañana es sábado",
+          "Mañana es sabado"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Which month comes first?",
+          "zh": "哪个月份排第一？",
+          "ja": "最初の月は？"
+        },
+        "correct": "enero",
+        "options": [
+          "enero",
+          "febrero",
+          "marzo",
+          "abril"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'I work on Mondays'",
+          "zh": "组句：'我周一工作'",
+          "ja": "並べ替え：「月曜日に働く」"
+        },
+        "words": [
+          "Trabajo",
+          "los",
+          "lunes"
+        ],
+        "answer": "Trabajo los lunes"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Hoy' means...",
+          "zh": "'Hoy'的意思是……",
+          "ja": "「Hoy」の意味は……"
+        },
+        "correct": "today",
+        "options": [
+          "today",
+          "tomorrow",
+          "yesterday",
+          "now"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": {
+      "en": "Food and drinks",
+      "zh": "食物和饮料",
+      "ja": "食べ物と飲み物"
+    },
+    "desc": {
+      "en": "Common food vocabulary",
+      "zh": "常见食物词汇",
+      "ja": "よく使う食べ物の語彙"
+    },
+    "grammar": [
+      "querer + food",
+      "tomar/comer/beber"
+    ],
+    "vocab": [
+      "pan",
+      "agua",
+      "café",
+      "leche",
+      "arroz",
+      "pollo",
+      "fruta",
+      "cerveza"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "pan",
+            {
+              "en": "bread",
+              "zh": "面包",
+              "ja": "パン"
+            }
+          ],
+          [
+            "agua",
+            {
+              "en": "water",
+              "zh": "水",
+              "ja": "水"
+            }
+          ],
+          [
+            "pollo",
+            {
+              "en": "chicken",
+              "zh": "鸡肉",
+              "ja": "鶏肉"
+            }
+          ],
+          [
+            "arroz",
+            {
+              "en": "rice",
+              "zh": "米饭",
+              "ja": "ご飯"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Quiero un ___, por favor.",
+        "blank": "café",
+        "options": [
+          "café",
+          "cafés",
+          "cafe",
+          "el café"
+        ],
+        "hint": {
+          "en": "un + noun (ordering)",
+          "zh": "un + 名词（点餐）",
+          "ja": "un + 名詞（注文）"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I want to drink water'",
+          "zh": "翻译：'我想喝水'",
+          "ja": "翻訳：「水が飲みたい」"
+        },
+        "answer": "Quiero beber agua",
+        "accept": [
+          "Quiero beber agua",
+          "Quiero tomar agua",
+          "quiero beber agua"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'She eats rice with chicken'",
+          "zh": "组句：'她吃鸡肉配米饭'",
+          "ja": "並べ替え：「彼女は鶏肉とご飯を食べる」"
+        },
+        "words": [
+          "Ella",
+          "come",
+          "arroz",
+          "con",
+          "pollo"
+        ],
+        "answer": "Ella come arroz con pollo"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'La cuenta, por favor' means...",
+          "zh": "'La cuenta, por favor'的意思是……",
+          "ja": "「La cuenta, por favor」の意味は……"
+        },
+        "correct": "The bill, please",
+        "options": [
+          "The bill, please",
+          "The food, please",
+          "The menu, please",
+          "A story, please"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me gusta ___ fruta.",
+        "blank": "la",
+        "options": [
+          "la",
+          "una",
+          "el",
+          "un"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Two beers, please'",
+          "zh": "翻译：'两杯啤酒，谢谢'",
+          "ja": "翻訳：「ビール2つお願いします」"
+        },
+        "answer": "Dos cervezas, por favor",
+        "accept": [
+          "Dos cervezas, por favor",
+          "dos cervezas, por favor",
+          "Dos cervezas por favor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": {
+      "en": "Going places (ir a)",
+      "zh": "去某处 (ir a)",
+      "ja": "〜に行く (ir a)"
+    },
+    "desc": {
+      "en": "Ir + a + place / ir + a + infinitive",
+      "zh": "ir + a + 地点 / ir + a + 不定式",
+      "ja": "ir + a + 場所 / ir + a + 不定詞"
+    },
+    "grammar": [
+      "ir (voy/vas/va/vamos/van)",
+      "ir a + infinitive (future)"
+    ],
+    "vocab": [
+      "voy",
+      "vas",
+      "va",
+      "vamos",
+      "van",
+      "al",
+      "a la"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I go to school' in Spanish?",
+          "zh": "'我去学校'怎么说？",
+          "ja": "「学校に行く」はスペイン語で？"
+        },
+        "correct": "Voy a la escuela",
+        "options": [
+          "Voy a la escuela",
+          "Voy en la escuela",
+          "Ir a la escuela",
+          "Estoy a la escuela"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Nosotros ___ al cine.",
+        "blank": "vamos",
+        "options": [
+          "vamos",
+          "voy",
+          "van",
+          "vas"
+        ],
+        "hint": {
+          "en": "ir: nosotros → vamos",
+          "zh": "ir: nosotros → vamos",
+          "ja": "ir: nosotros → vamos"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'al' is a contraction of...",
+          "zh": "'al'是……的缩写",
+          "ja": "「al」は何の短縮形？"
+        },
+        "correct": "a + el",
+        "options": [
+          "a + el",
+          "a + la",
+          "a + los",
+          "al is not a contraction"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'We are going to eat'",
+          "zh": "翻译：'我们去吃饭'",
+          "ja": "翻訳：「食べに行こう」"
+        },
+        "answer": "Vamos a comer",
+        "accept": [
+          "Vamos a comer",
+          "Nosotros vamos a comer",
+          "vamos a comer"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'She goes to the park'",
+          "zh": "组句：'她去公园'",
+          "ja": "並べ替え：「彼女は公園に行く」"
+        },
+        "words": [
+          "Ella",
+          "va",
+          "al",
+          "parque"
+        ],
+        "answer": "Ella va al parque"
+      },
+      {
+        "type": "fill",
+        "sentence": "Mañana ___ a estudiar.",
+        "blank": "voy",
+        "options": [
+          "voy",
+          "vamos",
+          "va",
+          "van"
+        ],
+        "hint": {
+          "en": "ir a + infinitive = going to (future)",
+          "zh": "ir a + 不定式 = 将要",
+          "ja": "ir a + 不定詞 = 〜するつもり"
+        }
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Van a la tienda' means...",
+          "zh": "'Van a la tienda'的意思是……",
+          "ja": "「Van a la tienda」の意味は……"
+        },
+        "correct": "They go to the store",
+        "options": [
+          "They go to the store",
+          "I go to the store",
+          "We go to the store",
+          "She goes to the store"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": {
+      "en": "Family",
+      "zh": "家庭",
+      "ja": "家族"
+    },
+    "desc": {
+      "en": "Family members",
+      "zh": "家庭成员",
+      "ja": "家族のメンバー"
+    },
+    "grammar": [
+      "possessives with family"
+    ],
+    "vocab": [
+      "madre",
+      "padre",
+      "hermano",
+      "hermana",
+      "hijo",
+      "hija",
+      "abuelo",
+      "abuela"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "madre",
+            {
+              "en": "mother",
+              "zh": "母亲",
+              "ja": "母"
+            }
+          ],
+          [
+            "padre",
+            {
+              "en": "father",
+              "zh": "父亲",
+              "ja": "父"
+            }
+          ],
+          [
+            "hermano",
+            {
+              "en": "brother",
+              "zh": "兄弟",
+              "ja": "兄弟"
+            }
+          ],
+          [
+            "abuela",
+            {
+              "en": "grandmother",
+              "zh": "祖母",
+              "ja": "祖母"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Mi ___ se llama Carmen.",
+        "blank": "madre",
+        "options": [
+          "madre",
+          "padre",
+          "hermano",
+          "hijo"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I have two brothers'",
+          "zh": "翻译：'我有两个兄弟'",
+          "ja": "翻訳：「兄弟が2人いる」"
+        },
+        "answer": "Tengo dos hermanos",
+        "accept": [
+          "Tengo dos hermanos",
+          "Yo tengo dos hermanos",
+          "tengo dos hermanos"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'His daughter is small'",
+          "zh": "组句：'他的女儿很小'",
+          "ja": "並べ替え：「彼の娘は小さい」"
+        },
+        "words": [
+          "Su",
+          "hija",
+          "es",
+          "pequeña"
+        ],
+        "answer": "Su hija es pequeña"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Padres' can mean...",
+          "zh": "'Padres'可以表示……",
+          "ja": "「Padres」は……の意味がある"
+        },
+        "correct": "Both 'fathers' and 'parents'",
+        "options": [
+          "Both 'fathers' and 'parents'",
+          "Only 'fathers'",
+          "Only 'parents'",
+          "Brothers"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Mis ___ viven en México.",
+        "blank": "abuelos",
+        "options": [
+          "abuelos",
+          "abuelas",
+          "abuelo",
+          "abuela"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Her sister is a doctor'",
+          "zh": "翻译：'她的姐姐是医生'",
+          "ja": "翻訳：「彼女の姉は医者です」"
+        },
+        "answer": "Su hermana es doctora",
+        "accept": [
+          "Su hermana es doctora",
+          "su hermana es doctora"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": {
+      "en": "Where? Directions",
+      "zh": "在哪里？方向",
+      "ja": "どこ？方向"
+    },
+    "desc": {
+      "en": "Asking for and giving directions",
+      "zh": "问路和指路",
+      "ja": "道を聞く・教える"
+    },
+    "grammar": [
+      "¿dónde está...?",
+      "imperatives: gira, sigue"
+    ],
+    "vocab": [
+      "derecha",
+      "izquierda",
+      "recto",
+      "calle",
+      "cerca",
+      "lejos"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Where is the bank?' in Spanish?",
+          "zh": "'银行在哪里？'怎么说？",
+          "ja": "「銀行はどこ？」はスペイン語で？"
+        },
+        "correct": "¿Dónde está el banco?",
+        "options": [
+          "¿Dónde está el banco?",
+          "¿Dónde es el banco?",
+          "¿Cuál está el banco?",
+          "¿Cómo está el banco?"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Gira a la ___.",
+        "blank": "derecha",
+        "options": [
+          "derecha",
+          "izquierda",
+          "recto",
+          "calle"
+        ],
+        "hint": {
+          "en": "Turn right",
+          "zh": "向右转",
+          "ja": "右に曲がって"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Go straight'",
+          "zh": "翻译：'直走'",
+          "ja": "翻訳：「まっすぐ行って」"
+        },
+        "answer": "Sigue recto",
+        "accept": [
+          "Sigue recto",
+          "sigue recto",
+          "Ve recto"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "derecha",
+            {
+              "en": "right",
+              "zh": "右",
+              "ja": "右"
+            }
+          ],
+          [
+            "izquierda",
+            {
+              "en": "left",
+              "zh": "左",
+              "ja": "左"
+            }
+          ],
+          [
+            "cerca",
+            {
+              "en": "near",
+              "zh": "近",
+              "ja": "近い"
+            }
+          ],
+          [
+            "lejos",
+            {
+              "en": "far",
+              "zh": "远",
+              "ja": "遠い"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'The restaurant is near here'",
+          "zh": "组句：'餐厅在这附近'",
+          "ja": "並べ替え：「レストランはここの近く」"
+        },
+        "words": [
+          "El",
+          "restaurante",
+          "está",
+          "cerca",
+          "de",
+          "aquí"
+        ],
+        "answer": "El restaurante está cerca de aquí"
+      },
+      {
+        "type": "fill",
+        "sentence": "La estación está ___ de aquí.",
+        "blank": "lejos",
+        "options": [
+          "lejos",
+          "cerca",
+          "recto",
+          "derecha"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Primera calle a la izquierda' means...",
+          "zh": "'Primera calle a la izquierda'的意思是……",
+          "ja": "「Primera calle a la izquierda」の意味は？"
+        },
+        "correct": "First street on the left",
+        "options": [
+          "First street on the left",
+          "First street on the right",
+          "Go straight to the first street",
+          "The first left turn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": {
+      "en": "Daily routine (reflexives)",
+      "zh": "日常活动（反身动词）",
+      "ja": "日課（再帰動詞）"
+    },
+    "desc": {
+      "en": "Reflexive verbs for daily activities",
+      "zh": "反身动词表示日常活动",
+      "ja": "再帰動詞で日常を表す"
+    },
+    "grammar": [
+      "reflexive: me/te/se + verb"
+    ],
+    "vocab": [
+      "levantarse",
+      "ducharse",
+      "acostarse",
+      "vestirse",
+      "despertarse"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I wake up at 7' — which is correct?",
+          "zh": "'我7点醒'哪个正确？",
+          "ja": "「7時に起きる」正しいのは？"
+        },
+        "correct": "Me despierto a las siete",
+        "options": [
+          "Me despierto a las siete",
+          "Yo despierto a las siete",
+          "Se despierta a las siete",
+          "Despierto me a las siete"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ella ___ ducha por la mañana.",
+        "blank": "se",
+        "options": [
+          "se",
+          "me",
+          "te",
+          "nos"
+        ],
+        "hint": {
+          "en": "ella → se (reflexive pronoun)",
+          "zh": "ella → se（反身代词）",
+          "ja": "ella → se（再帰代名詞）"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I go to bed at 11'",
+          "zh": "翻译：'我11点睡觉'",
+          "ja": "翻訳：「11時に寝る」"
+        },
+        "answer": "Me acuesto a las once",
+        "accept": [
+          "Me acuesto a las once",
+          "me acuesto a las once",
+          "Me acuesto a las 11"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'We get up early'",
+          "zh": "组句：'我们早起'",
+          "ja": "並べ替え：「私たちは早起きする」"
+        },
+        "words": [
+          "Nos",
+          "levantamos",
+          "temprano"
+        ],
+        "answer": "Nos levantamos temprano"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "me levanto",
+            {
+              "en": "I get up",
+              "zh": "我起床",
+              "ja": "起きる"
+            }
+          ],
+          [
+            "me ducho",
+            {
+              "en": "I shower",
+              "zh": "我洗澡",
+              "ja": "シャワーを浴びる"
+            }
+          ],
+          [
+            "me acuesto",
+            {
+              "en": "I go to bed",
+              "zh": "我睡觉",
+              "ja": "寝る"
+            }
+          ],
+          [
+            "me visto",
+            {
+              "en": "I get dressed",
+              "zh": "我穿衣服",
+              "ja": "服を着る"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿A qué hora ___ levantas?",
+        "blank": "te",
+        "options": [
+          "te",
+          "me",
+          "se",
+          "nos"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Why is it 'me levanto' not 'levanto me'?",
+          "zh": "为什么是'me levanto'而不是'levanto me'？",
+          "ja": "なぜ「me levanto」で「levanto me」ではない？"
+        },
+        "correct": "Pronoun goes before conjugated verb",
+        "options": [
+          "Pronoun goes before conjugated verb",
+          "It's always at the end",
+          "Both are correct",
+          "Only in questions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": {
+      "en": "What time? (la hora)",
+      "zh": "几点？(la hora)",
+      "ja": "何時？(la hora)"
+    },
+    "desc": {
+      "en": "Telling time in Spanish",
+      "zh": "用西班牙语说时间",
+      "ja": "スペイン語で時間を言う"
+    },
+    "grammar": [
+      "es la una / son las + number",
+      "y / menos"
+    ],
+    "vocab": [
+      "hora",
+      "y media",
+      "y cuarto",
+      "menos cuarto",
+      "en punto"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'It's 3 o'clock' in Spanish?",
+          "zh": "'三点'怎么说？",
+          "ja": "「3時」はスペイン語で？"
+        },
+        "correct": "Son las tres",
+        "options": [
+          "Son las tres",
+          "Es las tres",
+          "Son los tres",
+          "Es la tres"
+        ],
+        "hint": {
+          "en": "son las + number (except 1: es la una)",
+          "zh": "son las + 数字（1除外: es la una）",
+          "ja": "son las + 数字（1だけ: es la una）"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "___ la una.",
+        "blank": "Es",
+        "options": [
+          "Es",
+          "Son",
+          "Está",
+          "Hay"
+        ],
+        "hint": {
+          "en": "1 o'clock uses 'es' (singular)",
+          "zh": "1点用'es'（单数）",
+          "ja": "1時は「es」（単数）を使う"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'It's 5:30'",
+          "zh": "翻译：'五点半'",
+          "ja": "翻訳：「5時半」"
+        },
+        "answer": "Son las cinco y media",
+        "accept": [
+          "Son las cinco y media",
+          "son las cinco y media"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'Son las diez menos cuarto' means...",
+          "zh": "'Son las diez menos cuarto'的意思是……",
+          "ja": "「Son las diez menos cuarto」は……"
+        },
+        "correct": "It's 9:45",
+        "options": [
+          "It's 9:45",
+          "It's 10:15",
+          "It's 10:45",
+          "It's 9:15"
+        ],
+        "hint": {
+          "en": "menos cuarto = minus a quarter",
+          "zh": "menos cuarto = 差一刻",
+          "ja": "menos cuarto = 15分前"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'It's 2:15'",
+          "zh": "组句：'两点十五'",
+          "ja": "並べ替え：「2時15分」"
+        },
+        "words": [
+          "Son",
+          "las",
+          "dos",
+          "y",
+          "cuarto"
+        ],
+        "answer": "Son las dos y cuarto"
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Qué ___ es?",
+        "blank": "hora",
+        "options": [
+          "hora",
+          "tiempo",
+          "día",
+          "fecha"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'At what time?'",
+          "zh": "翻译：'几点？'",
+          "ja": "翻訳：「何時に？」"
+        },
+        "answer": "¿A qué hora?",
+        "accept": [
+          "¿A qué hora?",
+          "A qué hora?",
+          "¿a qué hora?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": {
+      "en": "Weather and seasons",
+      "zh": "天气和季节",
+      "ja": "天気と季節"
+    },
+    "desc": {
+      "en": "Describing the weather",
+      "zh": "描述天气",
+      "ja": "天気を表現する"
+    },
+    "grammar": [
+      "hace + noun",
+      "está + adjective"
+    ],
+    "vocab": [
+      "hace calor",
+      "hace frío",
+      "llueve",
+      "nieva",
+      "sol",
+      "nublado",
+      "primavera",
+      "verano"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'It's hot' in Spanish?",
+          "zh": "'天气热'怎么说？",
+          "ja": "「暑い」はスペイン語で？"
+        },
+        "correct": "Hace calor",
+        "options": [
+          "Hace calor",
+          "Está calor",
+          "Es calor",
+          "Tiene calor"
+        ],
+        "hint": {
+          "en": "Weather uses 'hacer': hace calor/frío/sol/viento",
+          "zh": "天气用'hacer': hace calor/frío/sol/viento",
+          "ja": "天気は「hacer」を使う: hace calor/frío/sol/viento"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Hoy ___ mucho sol.",
+        "blank": "hace",
+        "options": [
+          "hace",
+          "es",
+          "está",
+          "hay"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'It's raining'",
+          "zh": "翻译：'下雨了'",
+          "ja": "翻訳：「雨が降っている」"
+        },
+        "answer": "Llueve",
+        "accept": [
+          "Llueve",
+          "llueve",
+          "Está lloviendo"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "hace calor",
+            {
+              "en": "it's hot",
+              "zh": "热",
+              "ja": "暑い"
+            }
+          ],
+          [
+            "hace frío",
+            {
+              "en": "it's cold",
+              "zh": "冷",
+              "ja": "寒い"
+            }
+          ],
+          [
+            "llueve",
+            {
+              "en": "it's raining",
+              "zh": "下雨",
+              "ja": "雨が降る"
+            }
+          ],
+          [
+            "nieva",
+            {
+              "en": "it's snowing",
+              "zh": "下雪",
+              "ja": "雪が降る"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'In summer it's very hot'",
+          "zh": "组句：'夏天很热'",
+          "ja": "並べ替え：「夏はとても暑い」"
+        },
+        "words": [
+          "En",
+          "verano",
+          "hace",
+          "mucho",
+          "calor"
+        ],
+        "answer": "En verano hace mucho calor"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Why 'hace frío' and not 'está frío'?",
+          "zh": "为什么说'hace frío'而不是'está frío'？",
+          "ja": "なぜ「hace frío」で「está frío」ではない？"
+        },
+        "correct": "Weather uses hacer (impersonal)",
+        "options": [
+          "Weather uses hacer (impersonal)",
+          "Both are correct",
+          "frío is a noun here",
+          "It's an exception"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Está ___ hoy, no hay sol.",
+        "blank": "nublado",
+        "options": [
+          "nublado",
+          "calor",
+          "frío",
+          "llueve"
+        ]
+      }
+    ]
+  }
+]

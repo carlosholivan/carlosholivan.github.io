@@ -1,0 +1,262 @@
+[
+  {
+    "id": "preterite",
+    "title": {"en": "Preterite (simple past)", "zh": "简单过去时", "ja": "点過去"},
+    "summary": {"en": "Completed actions in the past", "zh": "过去完成的动作", "ja": "過去に完了した動作"},
+    "explanation": {
+      "en": "For completed, one-time past actions:\n\n**-AR (hablar):** -e, -aste, -o, -amos, -aron\n**-ER/-IR (comer):** -i, -iste, -io, -imos, -ieron\n\n**When to use:**\n- Completed: Ayer comi pizza\n- Specific time: Llego a las 3\n- Chain of events: Me levante, desayune y sali\n\n**Key irregulars:**\n- ser/ir -> fui, fuiste, fue, fuimos, fueron\n- tener -> tuve, tuviste, tuvo...\n- hacer -> hice, hiciste, hizo...\n- estar -> estuve, estuviste, estuvo...",
+      "zh": "用于过去一次性完成的动作：\n\n**-AR:** -e, -aste, -o, -amos, -aron\n**-ER/-IR:** -i, -iste, -io, -imos, -ieron\n\n**什么时候用？**\n- 完成的动作：Ayer comi pizza（昨天我吃了披萨）\n- 明确时间：Llego a las 3（3点到的）\n- 连续事件：Me levante, desayune y sali\n\n**中文对比：** 相当于'了'：我吃了=Comi / 她走了=Se fue\n\n**不规则：** ser/ir->fui / tener->tuve / hacer->hice",
+      "ja": "過去に完了した一度きりの動作に使います：\n\n**-AR:** -e, -aste, -o, -amos, -aron\n**-ER/-IR:** -i, -iste, -io, -imos, -ieron\n\n**いつ使う？**\n- 完了した動作：Ayer comi pizza（昨日ピザを食べた）\n- 特定の時間：Llego a las 3（3時に着いた）\n- 連続する出来事：Me levante, desayune y sali\n\n**日本語との対応：** 「～した」に近い\n\n**不規則：** ser/ir->fui / tener->tuve / hacer->hice"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hable", "tu": "hablaste", "el/ella": "hablo", "nosotros": "hablamos", "ellos": "hablaron"},
+      "comer": {"yo": "comi", "tu": "comiste", "el/ella": "comio", "nosotros": "comimos", "ellos": "comieron"},
+      "ir/ser": {"yo": "fui", "tu": "fuiste", "el/ella": "fue", "nosotros": "fuimos", "ellos": "fueron"}
+    },
+    "examples": [
+      {"es": "Ayer comi paella.", "en": "Yesterday I ate paella.", "zh": "昨天我吃了海鲜饭。", "ja": "昨日パエリアを食べた。"},
+      {"es": "Fuimos al cine.", "en": "We went to the cinema.", "zh": "我们去了电影院。", "ja": "映画館に行った。"}
+    ]
+  },
+  {
+    "id": "imperfect",
+    "title": {"en": "Imperfect tense", "zh": "未完成过去时", "ja": "線過去"},
+    "summary": {"en": "Habits and descriptions in the past", "zh": "过去的习惯和描述", "ja": "過去の習慣・描写"},
+    "explanation": {
+      "en": "For ongoing, habitual, or background past actions:\n\n**-AR:** -aba, -abas, -aba, -abamos, -aban\n**-ER/-IR:** -ia, -ias, -ia, -iamos, -ian\n\nOnly 3 irregulars! ser(era), ir(iba), ver(veia)\n\n**When to use:**\n- Habits: Siempre comia a las 2 (I always used to eat at 2)\n- Descriptions: Era alto (He was tall)\n- Background: Llovia cuando sali (It was raining when I left)\n- Age/time: Tenia 10 anos / Eran las 3\n\n**Preterite + Imperfect together:**\nImperfect = scene/background | Preterite = event\nLlovia (scene) cuando sali (event)",
+      "zh": "用于过去持续、习惯性、或背景性的动作：\n\n**-AR:** -aba, -abas, -aba, -abamos, -aban\n**-ER/-IR:** -ia, -ias, -ia, -iamos, -ian\n\n只有3个不规则！ser(era), ir(iba), ver(veia)\n\n**什么时候用？**\n- 习惯：Siempre comia a las 2（以前总是2点吃）\n- 描述：Era alto（他很高）\n- 背景：Llovia cuando sali（我出门时在下雨）\n\n**中文对比：**\n- '以前常常...' = 未完成过去时\n- '当时在...' = 未完成过去时\n\n**简单过去+未完成一起用：**\n未完成=背景 | 简单过去=事件",
+      "ja": "過去に継続・習慣・背景だった動作を描きます：\n\n**-AR:** -aba, -abas, -aba, -abamos, -aban\n**-ER/-IR:** -ia, -ias, -ia, -iamos, -ian\n\n不規則はたった3つ！ser(era), ir(iba), ver(veia)\n\n**いつ使う？**\n- 習慣：Siempre comia a las 2（いつも2時に食べていた）\n- 描写：Era alto（背が高かった）\n- 背景：Llovia cuando sali（出かけた時雨が降っていた）\n\n**日本語との対応：**\n「～していた」「～だった」に近い\n\n**点過去+線過去を一緒に：**\n線過去=背景 | 点過去=出来事"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablaba", "tu": "hablabas", "el/ella": "hablaba", "nosotros": "hablabamos", "ellos": "hablaban"},
+      "comer": {"yo": "comia", "tu": "comias", "el/ella": "comia", "nosotros": "comiamos", "ellos": "comian"},
+      "ser": {"yo": "era", "tu": "eras", "el/ella": "era", "nosotros": "eramos", "ellos": "eran"}
+    },
+    "examples": [
+      {"es": "Cuando era nino, jugaba mucho.", "en": "When I was a child, I used to play a lot.", "zh": "小时候经常玩。", "ja": "子供の頃よく遊んだ。"},
+      {"es": "Llovia cuando sali.", "en": "It was raining when I left.", "zh": "出门时在下雨。", "ja": "出かけた時雨が降っていた。"}
+    ]
+  },
+  {
+    "id": "por-vs-para",
+    "title": {"en": "Por vs Para", "zh": "Por 与 Para", "ja": "Por と Para"},
+    "summary": {"en": "Two prepositions meaning 'for'", "zh": "两个表示'为了'的介词", "ja": "2つの「～のために」"},
+    "explanation": {
+      "en": "Both mean 'for' but different logic:\n\n**PARA** = purpose, recipient, deadline, destination\n- Purpose: Estudio para aprender (to learn)\n- Recipient: Es para ti (for you)\n- Deadline: Para el lunes (by Monday)\n- Opinion: Para mi, es facil (for me, it's easy)\n\n**POR** = cause, exchange, through, duration, means\n- Cause: Gracias por tu ayuda (thanks for help)\n- Exchange: Lo compre por 10 euros (for 10 euros)\n- Duration: Vivi alli por 3 anos (for 3 years)\n- Through: Camine por el parque (through the park)\n- Means: Hable por telefono (by phone)\n\n**Quick test:** 'in order to' -> PARA | 'because of' -> POR",
+      "zh": "两个都能翻译成'为了'，但逻辑不同：\n\n**PARA** = 目的、接收者、截止时间\n- 目的：Estudio para aprender（为了学会）\n- 接收者：Es para ti（给你的）\n- 截止时间：Para el lunes（周一之前）\n\n**POR** = 原因、交换、经过、持续时间\n- 原因：Gracias por tu ayuda（谢谢帮助）\n- 交换：Lo compre por 10 euros（花10欧买的）\n- 经过：Camine por el parque（穿过公园）\n\n**快速判断：**\n- 为了达到目的 -> PARA\n- 因为某个原因 -> POR",
+      "ja": "両方「～のために」と訳せますが論理が違います：\n\n**PARA** = 目的、受取人、期限\n- 目的：Estudio para aprender（学ぶために）\n- 受取人：Es para ti（君のため）\n- 期限：Para el lunes（月曜までに）\n\n**POR** = 原因、交換、通過、期間\n- 原因：Gracias por tu ayuda（助けてくれて感謝）\n- 交換：Lo compre por 10 euros（10ユーロで買った）\n- 通過：Camine por el parque（公園を通って）\n\n**見分け方：**\n- 「～するために」（目的）-> PARA\n- 「～のおかげで」（原因）-> POR"
+    },
+    "examples": [
+      {"es": "Estudio para el examen.", "en": "I study for the exam.", "zh": "为考试而学。", "ja": "試験のために勉強する。"},
+      {"es": "Gracias por venir.", "en": "Thanks for coming.", "zh": "谢谢你来。", "ja": "来てくれてありがとう。"}
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "title": {"en": "Present Perfect", "zh": "现在完成时", "ja": "現在完了"},
+    "summary": {"en": "haber + past participle", "zh": "haber + 过去分词", "ja": "haber + 過去分詞"},
+    "explanation": {
+      "en": "For recent past or experiences connected to the present:\n\n**Structure:** haber (conjugated) + past participle\n- he, has, ha, hemos, habeis, han + -ado/-ido\n\n**Participle:** -ar -> -ado / -er/-ir -> -ido\n- hablar -> hablado / comer -> comido / vivir -> vivido\n\n**Irregulars:** hecho (hacer), dicho (decir), escrito (escribir), visto (ver), puesto (poner), vuelto (volver), abierto (abrir), roto (romper)\n\n**When to use:**\n- Today/this week: Hoy he comido arroz\n- Experience (ever): Has visitado Espana?\n- Recent: Acabo de llegar (I've just arrived)\n\n**vs Preterite:** Present perfect = connected to now / Preterite = finished, distant",
+      "zh": "表达最近发生的、或与现在有关的过去动作：\n\n**结构：** haber (变位) + 过去分词\n- he, has, ha, hemos, han + -ado/-ido\n\n**分词：** -ar -> -ado / -er/-ir -> -ido\n- hablar -> hablado / comer -> comido\n\n**不规则分词：** hecho, dicho, escrito, visto, puesto, vuelto, abierto, roto\n\n**什么时候用？**\n- 今天/本周：Hoy he comido arroz（今天吃了米饭）\n- 经历：Has visitado Espana?（你去过西班牙吗？）\n\n**中文对比：** '过'表经历：你去过= Has ido\n'了'表完成：我做完了 = Lo he hecho",
+      "ja": "最近の過去や、現在に関連する経験を表します：\n\n**構造：** haber (活用) + 過去分詞\n- he, has, ha, hemos, han + -ado/-ido\n\n**分詞：** -ar -> -ado / -er/-ir -> -ido\n- hablar -> hablado / comer -> comido\n\n**不規則分詞：** hecho, dicho, escrito, visto, puesto, vuelto, abierto, roto\n\n**いつ使う？**\n- 今日/今週：Hoy he comido arroz（今日米を食べた）\n- 経験：Has visitado Espana?（スペインに行ったことある？）\n\n**日本語との対応：**\n「～したことがある」= 経験\n「もう～した」= 完了"
+    },
+    "conjugation": {
+      "haber": {"yo": "he", "tu": "has", "el/ella": "ha", "nosotros": "hemos", "ellos": "han"}
+    },
+    "examples": [
+      {"es": "He comido mucho hoy.", "en": "I've eaten a lot today.", "zh": "我今天吃了很多。", "ja": "今日たくさん食べた。"},
+      {"es": "Has estado en Mexico?", "en": "Have you been to Mexico?", "zh": "你去过墨西哥吗？", "ja": "メキシコに行ったことある？"},
+      {"es": "Hemos terminado el trabajo.", "en": "We've finished the work.", "zh": "我们完成了工作。", "ja": "仕事を終えた。"}
+    ]
+  },
+  {
+    "id": "comparatives",
+    "title": {"en": "Comparatives & Superlatives", "zh": "比较级和最高级", "ja": "比較級・最上級"},
+    "summary": {"en": "mas que, menos que, tan como, el mas", "zh": "比……更、不如……、和……一样、最……", "ja": "〜より、〜ほど〜ない、同じくらい、最も"},
+    "explanation": {
+      "en": "**Comparatives:**\n- mas + adj + que = more...than (Es mas alto que yo)\n- menos + adj + que = less...than (Es menos caro que ese)\n- tan + adj + como = as...as (Es tan grande como mi casa)\n- tanto/a/os/as + noun + como = as much/many...as\n\n**Irregulars:**\n- bueno -> mejor (better), not 'mas bueno'\n- malo -> peor (worse)\n- grande -> mayor (older)\n- pequeno -> menor (younger)\n\n**Superlatives:**\n- el/la mas + adj = the most... (Es el mas alto)\n- el/la menos + adj = the least...\n- -isimo/a = extremely (grandisimo = very big)",
+      "zh": "**比较级：**\n- mas + 形容词 + que = 比……更（Es mas alto que yo 他比我高）\n- menos + 形容词 + que = 比……不如\n- tan + 形容词 + como = 和……一样（tan grande como）\n\n**不规则：**\n- bueno -> mejor（更好）\n- malo -> peor（更差）\n- grande -> mayor（更大/年长）\n- pequeno -> menor（更小/年幼）\n\n**最高级：**\n- el/la mas + 形容词 = 最……（Es el mas alto 他最高）\n- -isimo/a = 非常（grandisimo = 非常大）\n\n**和中文类似：** 比+adj = mas...que / 最+adj = el mas...",
+      "ja": "**比較級：**\n- mas + 形容詞 + que = 〜より…（Es mas alto que yo 彼は私より高い）\n- menos + 形容詞 + que = 〜ほど…ない\n- tan + 形容詞 + como = 〜と同じくらい\n\n**不規則：**\n- bueno -> mejor（より良い）\n- malo -> peor（より悪い）\n- grande -> mayor（より大きい/年上）\n- pequeno -> menor（より小さい/年下）\n\n**最上級：**\n- el/la mas + 形容詞 = 最も…（Es el mas alto 一番背が高い）\n- -isimo/a = とても（grandisimo = とても大きい）\n\n**日本語との対応：** 「〜より」= que / 「一番〜」= el mas..."
+    },
+    "examples": [
+      {"es": "Madrid es mas grande que Valencia.", "en": "Madrid is bigger than Valencia.", "zh": "马德里比瓦伦西亚大。", "ja": "マドリードはバレンシアより大きい。"},
+      {"es": "Este restaurante es mejor que ese.", "en": "This restaurant is better than that one.", "zh": "这家餐厅比那家好。", "ja": "このレストランはあれより良い。"},
+      {"es": "Es la ciudad mas bonita de Espana.", "en": "It's the most beautiful city in Spain.", "zh": "这是西班牙最美的城市。", "ja": "スペインで一番美しい街だ。"}
+    ]
+  },
+  {
+    "id": "object-pronouns",
+    "title": {"en": "Object Pronouns", "zh": "宾语代词", "ja": "目的語代名詞"},
+    "summary": {"en": "lo, la, le, me, te, nos", "zh": "直接宾语和间接宾语代词", "ja": "直接・間接目的語代名詞"},
+    "explanation": {
+      "en": "Replace repeated nouns with pronouns:\n\n**Direct Object (what?):** me, te, lo/la, nos, os, los/las\n- Compro el libro -> Lo compro (I buy it)\n- Veo a Maria -> La veo (I see her)\n\n**Indirect Object (to whom?):** me, te, le, nos, os, les\n- Doy el libro a Juan -> Le doy el libro (I give him the book)\n\n**Both together:** indirect FIRST, then direct\n- Doy el libro a Juan -> Se lo doy (le+lo = se lo)\n\n**Position:**\n- Before conjugated verb: Lo quiero\n- Attached to infinitive: Quiero comprarlo\n- Attached to gerund: Estoy haciendolo\n- Attached to command: Dimelo!",
+      "zh": "用代词替换重复的名词：\n\n**直接宾语（什么？）：** me, te, lo/la, nos, los/las\n- Compro el libro -> Lo compro（我买它）\n- Veo a Maria -> La veo（我看见她）\n\n**间接宾语（给谁？）：** me, te, le, nos, les\n- Doy el libro a Juan -> Le doy el libro（我给他书）\n\n**两个一起用：** 间接在前，直接在后\n- le + lo = se lo：Se lo doy（我给他它）\n\n**位置：** 变位动词前面 / 不定式后面\n- Lo quiero = Quiero comprarlo",
+      "ja": "繰り返す名詞を代名詞で置き換えます：\n\n**直接目的語（何を？）：** me, te, lo/la, nos, los/las\n- Compro el libro -> Lo compro（それを買う）\n- Veo a Maria -> La veo（彼女を見る）\n\n**間接目的語（誰に？）：** me, te, le, nos, les\n- Doy el libro a Juan -> Le doy el libro（彼に本をあげる）\n\n**両方一緒：** 間接が先、直接が後\n- le + lo = se lo：Se lo doy（それを彼にあげる）\n\n**位置：** 活用動詞の前 / 不定詞の後\n- Lo quiero = Quiero comprarlo"
+    },
+    "examples": [
+      {"es": "Lo compre ayer.", "en": "I bought it yesterday.", "zh": "我昨天买了它。", "ja": "昨日それを買った。"},
+      {"es": "Le di el regalo a Maria.", "en": "I gave the gift to Maria.", "zh": "我把礼物给了Maria。", "ja": "マリアにプレゼントをあげた。"},
+      {"es": "Se lo dije.", "en": "I told him/her.", "zh": "我告诉他/她了。", "ja": "彼/彼女に言った。"}
+    ]
+  },
+  {
+    "id": "future-simple",
+    "title": {"en": "Simple Future", "zh": "简单将来时", "ja": "単純未来"},
+    "summary": {"en": "hablar-e, hablar-as, hablar-a...", "zh": "动词+将来时词尾", "ja": "不定詞+未来語尾"},
+    "explanation": {
+      "en": "Add endings to the FULL infinitive (no stem needed!):\n\n**All verbs:** -e, -as, -a, -emos, -eis, -an\n- hablare, hablaras, hablara, hablaremos, hablareis, hablaran\n- comere, comeras, comera...\n- vivire, viviras, vivira...\n\n**Irregulars (different stem, same endings):**\n- tener -> tendr- (tendre, tendras...)\n- poder -> podr-\n- hacer -> har-\n- decir -> dir-\n- salir -> saldr-\n- venir -> vendr-\n- poner -> pondr-\n- saber -> sabr-\n- querer -> querr-\n\n**Uses:** predictions, promises, future plans\n- Manana llovera (It will rain tomorrow)\n- Te llamare (I'll call you)",
+      "zh": "将来时词尾加在完整不定式后面：\n\n**所有动词：** -e, -as, -a, -emos, -an\n- hablare, hablaras, hablara, hablaremos, hablaran\n\n**不规则（词干变，词尾不变）：**\n- tener -> tendr- / poder -> podr-\n- hacer -> har- / decir -> dir-\n- salir -> saldr- / venir -> vendr-\n\n**用法：** 预测、承诺、将来计划\n- Manana llovera（明天会下雨）\n- Te llamare（我会打给你）\n\n**和中文对比：**\n中文用'会/将'：我会去 = Ire\n但日常口语中 ir a + inf 更常用",
+      "ja": "不定詞の後ろに語尾を付けます（語幹不要！）：\n\n**全動詞共通：** -e, -as, -a, -emos, -an\n- hablare, hablaras, hablara, hablaremos, hablaran\n\n**不規則（語幹が変わる、語尾は同じ）：**\n- tener -> tendr- / poder -> podr-\n- hacer -> har- / decir -> dir-\n- salir -> saldr- / venir -> vendr-\n\n**用法：** 予測、約束、将来の計画\n- Manana llovera（明日雨が降るだろう）\n- Te llamare（電話するよ）\n\n**注意：** 日常会話ではir a + 不定詞の方がよく使われます。未来形はフォーマルな感じ。"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablare", "tu": "hablaras", "el/ella": "hablara", "nosotros": "hablaremos", "ellos": "hablaran"},
+      "tener (irreg)": {"yo": "tendre", "tu": "tendras", "el/ella": "tendra", "nosotros": "tendremos", "ellos": "tendran"},
+      "hacer (irreg)": {"yo": "hare", "tu": "haras", "el/ella": "hara", "nosotros": "haremos", "ellos": "haran"}
+    },
+    "examples": [
+      {"es": "Manana llovera.", "en": "It will rain tomorrow.", "zh": "明天会下雨。", "ja": "明日雨が降るだろう。"},
+      {"es": "El ano que viene viajaremos a Mexico.", "en": "Next year we'll travel to Mexico.", "zh": "明年我们会去墨西哥旅行。", "ja": "来年メキシコに旅行するだろう。"},
+      {"es": "Tendre mas tiempo la semana que viene.", "en": "I'll have more time next week.", "zh": "下周我会有更多时间。", "ja": "来週はもっと時間があるだろう。"}
+    ]
+  },
+  {
+    "id": "conditional",
+    "title": {"en": "Conditional", "zh": "条件式", "ja": "条件法"},
+    "summary": {"en": "would: hablar-ia, comer-ia...", "zh": "会/想要：动词+条件式词尾", "ja": "〜だろう：不定詞+条件法語尾"},
+    "explanation": {
+      "en": "Like future but with different endings. = 'would':\n\n**All verbs:** -ia, -ias, -ia, -iamos, -iais, -ian\n(added to full infinitive, just like future!)\n- hablaria, hablarias, hablaria...\n- comeria, comerias...\n\n**Same irregulars as future:**\n- tener -> tendria / poder -> podria\n- hacer -> haria / decir -> diria\n- salir -> saldria / venir -> vendria\n\n**Uses:**\n- Polite requests: Me gustaria un cafe (I'd like a coffee)\n- Hypothetical: Yo compraria esa casa (I would buy that house)\n- Advice: Yo que tu, estudiaria mas (If I were you, I'd study more)\n- Desire: Me encantaria ir (I'd love to go)",
+      "zh": "和将来时类似但词尾不同。相当于'会/想要'：\n\n**所有动词：** -ia, -ias, -ia, -iamos, -ian\n（加在完整不定式后面）\n- hablaria, comerias, viviria...\n\n**不规则和将来时相同：**\n- tener -> tendria / poder -> podria\n- hacer -> haria / decir -> diria\n\n**用法：**\n- 礼貌请求：Me gustaria un cafe（我想要一杯咖啡）\n- 假设：Compraria esa casa（我会买那栋房子）\n- 建议：Yo que tu, estudiaria mas（我如果是你会多学习）\n\n**和中文对比：** '会/想' = 条件式\n你会怎么做？= Que harias?",
+      "ja": "未来形に似ていますが語尾が違います。「〜だろう」「〜したい」：\n\n**全動詞共通：** -ia, -ias, -ia, -iamos, -ian\n（不定詞の後ろに付ける）\n- hablaria, comeria, viviria...\n\n**不規則は未来形と同じ：**\n- tener -> tendria / poder -> podria\n- hacer -> haria / decir -> diria\n\n**用法：**\n- 丁寧な依頼：Me gustaria un cafe（コーヒーをいただきたいのですが）\n- 仮定：Compraria esa casa（あの家を買うだろう）\n- アドバイス：Yo que tu, estudiaria mas\n\n**日本語との対応：**\n「〜したいのですが」= Me gustaria...\n「〜するだろう」= -ria"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablaria", "tu": "hablarias", "el/ella": "hablaria", "nosotros": "hablariamos", "ellos": "hablarian"},
+      "tener (irreg)": {"yo": "tendria", "tu": "tendrias", "el/ella": "tendria", "nosotros": "tendriamos", "ellos": "tendrian"}
+    },
+    "examples": [
+      {"es": "Me gustaria un cafe.", "en": "I'd like a coffee.", "zh": "我想要一杯咖啡。", "ja": "コーヒーをいただきたいです。"},
+      {"es": "Que harias tu?", "en": "What would you do?", "zh": "你会怎么做？", "ja": "君ならどうする？"},
+      {"es": "Podrias ayudarme?", "en": "Could you help me?", "zh": "你能帮我吗？", "ja": "手伝ってもらえますか？"}
+    ]
+  },
+  {
+    "id": "stem-changing",
+    "title": {"en": "Stem-Changing Verbs", "zh": "词干变化动词", "ja": "語幹変化動詞"},
+    "summary": {"en": "e->ie, o->ue, e->i boot verbs", "zh": "e->ie, o->ue, e->i 靴形动词", "ja": "e->ie, o->ue, e->i ブーツ動詞"},
+    "explanation": {
+      "en": "The vowel in the stem changes EXCEPT in nosotros/vosotros (boot shape!):\n\n**e -> ie:** querer, pensar, entender, preferir, empezar\n- quiero, quieres, quiere, queremos, quieren\n\n**o -> ue:** poder, dormir, volver, encontrar, recordar\n- puedo, puedes, puede, podemos, pueden\n\n**e -> i:** pedir, seguir, repetir, servir\n- pido, pides, pide, pedimos, piden\n\n**Why 'boot'?** Draw the conjugation table:\n  quiEro  | querEmos\n  quiEres | querEis\n  quiEre  | quiEren\nThe changed forms make a boot shape!\n\nNote: jugar is special: u -> ue (juego, juegas, juega, jugamos, juegan)",
+      "zh": "词干元音在特定人称中变化（nosotros/vosotros除外）：\n\n**e -> ie:** querer, pensar, entender, preferir, empezar\n- quiero, quieres, quiere, queremos, quieren\n\n**o -> ue:** poder, dormir, volver, encontrar, recordar\n- puedo, puedes, puede, podemos, pueden\n\n**e -> i:** pedir, seguir, repetir, servir\n- pido, pides, pide, pedimos, piden\n\n**为什么叫'靴形'？** 画变位表：变化的形式构成一个靴子的形状！\n\n**和中文对比：** 中文动词不变形，所以这纯粹需要记忆。\n好消息：规律明确，只要记住哪些动词是变化的。",
+      "ja": "語幹の母音がnosotros/vosotros以外で変化します（ブーツ型！）：\n\n**e -> ie:** querer, pensar, entender, preferir, empezar\n- quiero, quieres, quiere, queremos, quieren\n\n**o -> ue:** poder, dormir, volver, encontrar, recordar\n- puedo, puedes, puede, podemos, pueden\n\n**e -> i:** pedir, seguir, repetir, servir\n- pido, pides, pide, pedimos, piden\n\n**なぜ「ブーツ」？** 活用表を見ると変化する形がブーツの形になる！\n\n**日本語話者へ：** 日本語の活用（五段・上一段など）と似た「パターン」として覚えましょう。"
+    },
+    "conjugation": {
+      "querer (e->ie)": {"yo": "quiero", "tu": "quieres", "el/ella": "quiere", "nosotros": "queremos", "ellos": "quieren"},
+      "poder (o->ue)": {"yo": "puedo", "tu": "puedes", "el/ella": "puede", "nosotros": "podemos", "ellos": "pueden"},
+      "pedir (e->i)": {"yo": "pido", "tu": "pides", "el/ella": "pide", "nosotros": "pedimos", "ellos": "piden"}
+    },
+    "examples": [
+      {"es": "Quiero ir al cine.", "en": "I want to go to the cinema.", "zh": "我想去看电影。", "ja": "映画館に行きたい。"},
+      {"es": "No puedo dormir.", "en": "I can't sleep.", "zh": "我睡不着。", "ja": "眠れない。"},
+      {"es": "Siempre pido pasta.", "en": "I always order pasta.", "zh": "我总是点意面。", "ja": "いつもパスタを頼む。"}
+    ]
+  },
+  {
+    "id": "connectors",
+    "title": {"en": "Connectors & Conjunctions", "zh": "连接词", "ja": "接続詞"},
+    "summary": {"en": "pero, porque, cuando, aunque, sin embargo", "zh": "但是、因为、当、虽然、然而", "ja": "しかし、なぜなら、〜の時、〜だけど"},
+    "explanation": {
+      "en": "Link your sentences and sound more natural:\n\n**Basic:**\n- y = and (Hablo espanol y frances)\n- o = or (Cafe o te?)\n- pero = but (Es caro pero bonito)\n- porque = because (Estudio porque quiero aprender)\n\n**Contrast:**\n- aunque = although (Aunque llueve, salgo)\n- sin embargo = however (Es dificil; sin embargo, me gusta)\n- en cambio = on the other hand\n\n**Cause/Effect:**\n- por eso = that's why (Estoy cansado, por eso no salgo)\n- entonces = so/then\n- asi que = so (No tengo dinero, asi que no compro)\n\n**Time:**\n- cuando = when (Cuando llego, como)\n- mientras = while (Leo mientras como)\n- antes de + inf = before\n- despues de + inf = after",
+      "zh": "用连接词让句子更自然流畅：\n\n**基础：**\n- y = 和（Hablo espanol y frances）\n- o = 或者（Cafe o te?）\n- pero = 但是（Es caro pero bonito）\n- porque = 因为（Estudio porque quiero aprender）\n\n**转折：**\n- aunque = 虽然（Aunque llueve, salgo）\n- sin embargo = 然而\n\n**因果：**\n- por eso = 所以（Estoy cansado, por eso no salgo）\n- entonces = 那么\n- asi que = 所以\n\n**时间：**\n- cuando = 当（Cuando llego, como）\n- mientras = 当……的时候\n- antes de = 在……之前\n- despues de = 在……之后",
+      "ja": "接続詞で文を繋いで自然に話しましょう：\n\n**基本：**\n- y = そして（Hablo espanol y frances）\n- o = または（Cafe o te?）\n- pero = しかし（Es caro pero bonito）\n- porque = なぜなら（Estudio porque quiero aprender）\n\n**対比：**\n- aunque = ～だけど（Aunque llueve, salgo）\n- sin embargo = しかしながら\n\n**原因・結果：**\n- por eso = だから（Estoy cansado, por eso no salgo）\n- entonces = それで\n- asi que = なので\n\n**時間：**\n- cuando = ～の時（Cuando llego, como）\n- mientras = ～の間\n- antes de = ～の前に\n- despues de = ～の後に"
+    },
+    "examples": [
+      {"es": "Me gusta, pero es muy caro.", "en": "I like it, but it's very expensive.", "zh": "我喜欢，但太贵了。", "ja": "好きだけど、高すぎる。"},
+      {"es": "Estudio espanol porque me gusta.", "en": "I study Spanish because I like it.", "zh": "我学西班牙语因为我喜欢。", "ja": "好きだからスペイン語を勉強している。"},
+      {"es": "Aunque esta lloviendo, vamos al parque.", "en": "Although it's raining, let's go to the park.", "zh": "虽然在下雨，我们去公园吧。", "ja": "雨が降っているけど、公園に行こう。"}
+    ]
+  },
+  {
+    "id": "imperative",
+    "title": {"en": "Imperative (Commands)", "zh": "命令式", "ja": "命令法"},
+    "summary": {"en": "Giving orders and instructions", "zh": "给出命令和指示", "ja": "命令・指示を出す"},
+    "explanation": {
+      "en": "Give orders, advice, and instructions:\n\n**Affirmative tu (informal):**\n- -AR: habla, canta, mira (= el/ella present form)\n- -ER: come, bebe, lee\n- -IR: escribe, abre, vive\n\n**8 Irregulars (tu):**\ndi (decir), haz (hacer), ve (ir), pon (poner), sal (salir), se (ser), ten (tener), ven (venir)\n\n**Usted (formal):** flip the vowel\n- -AR -> -e: hable, cante, mire\n- -ER/-IR -> -a: coma, escriba, abra\n\n**Vosotros:** infinitive with -d\n- hablad, comed, escribid\n\n**Negative:** no + subjunctive\n- No hables, No comas, No escribas\n\n**With pronouns:** attached after affirmative\n- Dimelo! (Tell me!) / Sientate (Sit down)",
+      "zh": "给出命令、建议和指示：\n\n**tu（非正式）：**\n- -AR: habla, canta（和他/她现在时一样）\n- -ER: come, bebe\n- -IR: escribe, abre\n\n**8个不规则（tu）：**\ndi, haz, ve, pon, sal, se, ten, ven\n\n**usted（正式）：** 元音交换\n- -AR -> -e: hable, cante\n- -ER/-IR -> -a: coma, escriba\n\n**否定命令：** no + 虚拟式\n- No hables, No comas\n\n**和中文对比：** 中文用语气表达命令\n'说！'= Habla! / '请说'= Hable (usted)",
+      "ja": "命令・アドバイス・指示を出します：\n\n**tu（カジュアル）：**\n- -AR: habla, canta（el/ellaの現在形と同じ）\n- -ER: come, bebe\n- -IR: escribe, abre\n\n**8つの不規則（tu）：**\ndi, haz, ve, pon, sal, se, ten, ven\n\n**usted（フォーマル）：** 母音を入れ替える\n- -AR -> -e: hable, cante\n- -ER/-IR -> -a: coma, escriba\n\n**否定命令：** no + 接続法\n- No hables, No comas\n\n**日本語との対応：**\n「話せ！」= Habla!\n「話してください」= Hable (usted)"
+    },
+    "conjugation": {
+      "hablar": {"tu": "habla", "usted": "hable", "vosotros": "hablad", "ustedes": "hablen"},
+      "comer": {"tu": "come", "usted": "coma", "vosotros": "comed", "ustedes": "coman"},
+      "decir (irreg)": {"tu": "di", "usted": "diga", "vosotros": "decid", "ustedes": "digan"}
+    },
+    "examples": [
+      {"es": "Habla mas despacio, por favor.", "en": "Speak more slowly, please.", "zh": "请说慢一点。", "ja": "もっとゆっくり話してください。"},
+      {"es": "Ven aqui!", "en": "Come here!", "zh": "过来！", "ja": "こっちに来て！"},
+      {"es": "No comas tan rapido.", "en": "Don't eat so fast.", "zh": "别吃那么快。", "ja": "そんなに速く食べないで。"}
+    ]
+  },
+  {
+    "id": "estar-gerundio",
+    "title": {"en": "Present Progressive", "zh": "现在进行时", "ja": "現在進行形"},
+    "summary": {"en": "estar + -ando/-iendo", "zh": "estar + -ando/-iendo", "ja": "estar + -ando/-iendo"},
+    "explanation": {
+      "en": "For actions happening RIGHT NOW:\n\n**Structure:** estar (conjugated) + gerund\n- -AR -> -ando: hablando, cantando, mirando\n- -ER/-IR -> -iendo: comiendo, viviendo, bebiendo\n\n**estar:** estoy, estas, esta, estamos, estais, estan\n\n**Irregulars:**\n- dormir -> durmiendo (o->u)\n- leer -> leyendo (vowel+vowel -> y)\n- decir -> diciendo (e->i)\n- ir -> yendo\n- pedir -> pidiendo\n\n**Uses:**\n- Right now: Estoy comiendo (I'm eating)\n- Temporary: Estoy viviendo en Madrid\n- Emphasis on ongoing: Estan hablando mucho\n\n**vs Present simple:**\n- Hablo espanol = I speak Spanish (general)\n- Estoy hablando espanol = I'm speaking Spanish (now)",
+      "zh": "表达正在发生的动作：\n\n**结构：** estar (变位) + 动名词\n- -AR -> -ando: hablando, cantando\n- -ER/-IR -> -iendo: comiendo, viviendo\n\n**不规则：**\n- dormir -> durmiendo / leer -> leyendo\n- decir -> diciendo / ir -> yendo\n\n**用法：**\n- 正在：Estoy comiendo（我正在吃）\n- 临时：Estoy viviendo en Madrid\n\n**和中文对比：**\n中文用'正在'：我正在吃 = Estoy comiendo\n中文'呢'也可以：你做什么呢？= Que estas haciendo?",
+      "ja": "今まさに起きている動作を表します：\n\n**構造：** estar (活用) + ジェルンディオ\n- -AR -> -ando: hablando, cantando\n- -ER/-IR -> -iendo: comiendo, viviendo\n\n**不規則：**\n- dormir -> durmiendo / leer -> leyendo\n- decir -> diciendo / ir -> yendo\n\n**用法：**\n- 今まさに：Estoy comiendo（食べている）\n- 一時的：Estoy viviendo en Madrid\n\n**日本語との対応：**\n「～している」= estar + gerundio\n「食べている」= Estoy comiendo"
+    },
+    "conjugation": {
+      "hablar": {"yo": "estoy hablando", "tu": "estas hablando", "el/ella": "esta hablando", "nosotros": "estamos hablando", "ellos": "estan hablando"},
+      "comer": {"yo": "estoy comiendo", "tu": "estas comiendo", "el/ella": "esta comiendo", "nosotros": "estamos comiendo", "ellos": "estan comiendo"}
+    },
+    "examples": [
+      {"es": "Estoy estudiando espanol.", "en": "I'm studying Spanish.", "zh": "我正在学西班牙语。", "ja": "スペイン語を勉強している。"},
+      {"es": "Que estas haciendo?", "en": "What are you doing?", "zh": "你在做什么？", "ja": "何をしているの？"},
+      {"es": "Esta lloviendo.", "en": "It's raining.", "zh": "在下雨。", "ja": "雨が降っている。"}
+    ]
+  },
+  {
+    "id": "perifrasis",
+    "title": {"en": "Verbal Periphrases", "zh": "动词迂回结构", "ja": "動詞迂言法"},
+    "summary": {"en": "tener que, hay que, acabar de, ir a, volver a", "zh": "不得不、刚刚、将要、再次", "ja": "〜しなければ、〜したばかり、〜するつもり"},
+    "explanation": {
+      "en": "Verb + preposition + infinitive constructions:\n\n**Obligation:**\n- tener que + inf = have to (personal)\n  Tengo que estudiar (I have to study)\n- hay que + inf = one must (impersonal)\n  Hay que practicar (One must practice)\n- deber + inf = should/must\n  Debes comer mas (You should eat more)\n\n**Recent past:**\n- acabar de + inf = to have just done\n  Acabo de llegar (I've just arrived)\n\n**Future:**\n- ir a + inf = going to\n  Voy a comer (I'm going to eat)\n\n**Repetition:**\n- volver a + inf = to do again\n  Vuelvo a intentar (I'll try again)\n\n**Start/Stop:**\n- empezar a + inf = to start doing\n- dejar de + inf = to stop doing",
+      "zh": "动词+介词+不定式结构：\n\n**义务：**\n- tener que + inf = 必须（个人）\n  Tengo que estudiar（我必须学习）\n- hay que + inf = 必须（通用）\n  Hay que practicar（必须练习）\n- deber + inf = 应该\n  Debes comer mas（你应该多吃）\n\n**刚刚：**\n- acabar de + inf = 刚刚做了\n  Acabo de llegar（我刚到）\n\n**将来：**\n- ir a + inf = 将要\n  Voy a comer（我要去吃）\n\n**再次：**\n- volver a + inf = 再做一次\n  Vuelvo a intentar（我再试一次）\n\n**中文对比：** '得/要/该' = tener que/ir a/deber",
+      "ja": "動詞＋前置詞＋不定詞の構造：\n\n**義務：**\n- tener que + inf = 〜しなければならない\n  Tengo que estudiar（勉強しなきゃ）\n- hay que + inf = 〜すべき（一般的）\n  Hay que practicar（練習すべきだ）\n- deber + inf = 〜すべき\n  Debes comer mas（もっと食べるべき）\n\n**直近の過去：**\n- acabar de + inf = 〜したばかり\n  Acabo de llegar（着いたばかり）\n\n**未来：**\n- ir a + inf = 〜するつもり\n  Voy a comer（食べるつもり）\n\n**繰り返し：**\n- volver a + inf = また〜する\n  Vuelvo a intentar（もう一度やってみる）\n\n**日本語との対応：**\n「〜なければ」= tener que\n「〜したばかり」= acabar de"
+    },
+    "examples": [
+      {"es": "Tengo que ir al medico.", "en": "I have to go to the doctor.", "zh": "我得去看医生。", "ja": "医者に行かなきゃ。"},
+      {"es": "Acabo de comer.", "en": "I've just eaten.", "zh": "我刚吃完。", "ja": "食べたばかりだ。"},
+      {"es": "Voy a estudiar esta noche.", "en": "I'm going to study tonight.", "zh": "今晚我要学习。", "ja": "今夜勉強するつもり。"},
+      {"es": "Hay que reservar con antelacion.", "en": "You need to book in advance.", "zh": "必须提前预订。", "ja": "事前に予約すべきだ。"}
+    ]
+  },
+  {
+    "id": "adverbs",
+    "title": {"en": "Adverbs (-mente)", "zh": "副词（-mente）", "ja": "副詞（-mente）"},
+    "summary": {"en": "Forming adverbs from adjectives", "zh": "从形容词构成副词", "ja": "形容詞から副詞を作る"},
+    "explanation": {
+      "en": "Turn adjectives into adverbs with -mente:\n\n**Rule:** feminine form of adjective + -mente\n- rapido -> rapida -> rapidamente (quickly)\n- lento -> lenta -> lentamente (slowly)\n- facil -> facilmente (easy -> easily)\n- normal -> normalmente (normally)\n\n**Common adverbs:**\n- frecuentemente (frequently)\n- generalmente (generally)\n- perfectamente (perfectly)\n- totalmente (totally)\n- tranquilamente (calmly)\n\n**Frequency adverbs (no -mente):**\n- siempre, nunca, a veces, casi siempre\n- normalmente, generalmente\n- de vez en cuando, todos los dias\n\n**Position:** usually after the verb\n- Habla rapidamente (She speaks quickly)\n- Siempre llego tarde (I always arrive late)",
+      "zh": "用-mente把形容词变成副词：\n\n**规则：** 形容词阴性形式 + -mente\n- rapido -> rapida -> rapidamente（快地）\n- lento -> lenta -> lentamente（慢地）\n- facil -> facilmente（容易地）\n\n**常见副词：**\n- normalmente（通常）\n- generalmente（一般来说）\n- perfectamente（完美地）\n\n**频率副词（不用-mente）：**\n- siempre（总是）, nunca（从不）\n- a veces（有时）, de vez en cuando（偶尔）\n\n**和中文对比：** 中文用'地'：快速地 = rapidamente",
+      "ja": "形容詞を副詞に変えるには-menteを付けます：\n\n**ルール：** 形容詞の女性形 + -mente\n- rapido -> rapida -> rapidamente（速く）\n- lento -> lenta -> lentamente（遅く）\n- facil -> facilmente（簡単に）\n\n**よく使う副詞：**\n- normalmente（普通に）\n- generalmente（一般的に）\n- perfectamente（完璧に）\n\n**頻度副詞（-menteなし）：**\n- siempre（いつも）, nunca（一度も〜ない）\n- a veces（時々）, de vez en cuando（たまに）\n\n**日本語との対応：**\n「速く」= rapidamente\n日本語の「〜く/〜に」に相当"
+    },
+    "examples": [
+      {"es": "Habla lentamente, por favor.", "en": "Speak slowly, please.", "zh": "请说慢一点。", "ja": "ゆっくり話してください。"},
+      {"es": "Normalmente desayuno a las 8.", "en": "I normally have breakfast at 8.", "zh": "我通常8点吃早餐。", "ja": "普段8時に朝食を食べる。"},
+      {"es": "Lo hizo perfectamente.", "en": "He/she did it perfectly.", "zh": "他/她做得很好。", "ja": "完璧にやった。"}
+    ]
+  },
+  {
+    "id": "double-negation",
+    "title": {"en": "Negation & Double Negatives", "zh": "否定与双重否定", "ja": "否定と二重否定"},
+    "summary": {"en": "no...nada, nadie, nunca, tampoco", "zh": "不……什么都没有/没有人/从不", "ja": "何も〜ない、誰も〜ない、一度も〜ない"},
+    "explanation": {
+      "en": "In Spanish, double negatives are CORRECT and required!\n\n**Negative words:**\n- nada = nothing\n- nadie = nobody\n- nunca/jamas = never\n- ninguno/a = none/no (adj)\n- tampoco = neither/not either\n- ni...ni = neither...nor\n\n**Two positions:**\n1. Before verb (no 'no' needed):\n   Nadie habla (Nobody speaks)\n   Nunca como eso (I never eat that)\n\n2. After verb (needs 'no' before verb):\n   No habla nadie (Nobody speaks)\n   No como eso nunca (I never eat that)\n\n**Key patterns:**\n- No tengo nada (I don't have anything)\n- No conozco a nadie (I don't know anyone)\n- No voy nunca al gym (I never go to the gym)\n- Yo tampoco (Me neither)\n- No quiero ni cafe ni te (I want neither coffee nor tea)",
+      "zh": "在西班牙语中，双重否定是正确的！\n\n**否定词：**\n- nada = 什么都没有\n- nadie = 没有人\n- nunca/jamas = 从不\n- ninguno/a = 没有一个\n- tampoco = 也不\n- ni...ni = 既不……也不\n\n**两种位置：**\n1. 动词前（不需要no）：\n   Nadie habla（没人说话）\n\n2. 动词后（需要no）：\n   No habla nadie（没人说话）\n\n**中文对比：**\n中文不用双重否定：'什么都没有' = No tengo nada\n注意：双重否定在西班牙语中不是肯定！",
+      "ja": "スペイン語では二重否定が正しい文法です！\n\n**否定語：**\n- nada = 何もない\n- nadie = 誰もいない\n- nunca/jamas = 一度も〜ない\n- ninguno/a = 一つもない\n- tampoco = 〜もない\n- ni...ni = 〜も〜もない\n\n**2つの位置：**\n1. 動詞の前（noは不要）：\n   Nadie habla（誰も話さない）\n\n2. 動詞の後（noが必要）：\n   No habla nadie（誰も話さない）\n\n**日本語との対応：**\n「何もない」= No tengo nada\n「誰も知らない」= No conozco a nadie\n日本語の「何も〜ない」と構造が似ている！"
+    },
+    "examples": [
+      {"es": "No tengo nada.", "en": "I don't have anything.", "zh": "我什么都没有。", "ja": "何も持っていない。"},
+      {"es": "No conozco a nadie aqui.", "en": "I don't know anyone here.", "zh": "我这里谁都不认识。", "ja": "ここでは誰も知らない。"},
+      {"es": "Nunca he estado en Japon.", "en": "I've never been to Japan.", "zh": "我从没去过日本。", "ja": "日本に行ったことがない。"},
+      {"es": "Yo tampoco.", "en": "Me neither.", "zh": "我也不。", "ja": "私も（〜ない）。"}
+    ]
+  }
+]

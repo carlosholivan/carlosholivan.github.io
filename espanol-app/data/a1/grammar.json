@@ -1,0 +1,258 @@
+[
+  {
+    "id": "ser-vs-estar",
+    "title": {"en": "Ser vs Estar", "zh": "Ser 与 Estar", "ja": "Ser と Estar"},
+    "summary": {"en": "Two verbs for 'to be'", "zh": "两个表示'是/在'的动词", "ja": "2つの「～です/いる」動詞"},
+    "explanation": {
+      "en": "English only has 'to be', so this is tricky. Spanish splits it:\n\n**SER** = permanent/inherent traits: identity, origin, profession, time\n- Yo soy espanol (I am Spanish)\n- Ella es doctora (She is a doctor)\n- Son las tres (It's 3 o'clock)\n\n**ESTAR** = temporary states, locations, emotions\n- Estoy en Madrid (I am in Madrid)\n- Estoy cansado (I am tired)\n- La puerta esta abierta (The door is open)\n\n**Key trick**: If it can change -> ESTAR. If it defines what something IS -> SER.",
+      "zh": "中文有 是(shi) 和 在(zai)，这能帮你理解：\n\n**SER = 是(shi)** — 身份、本质\n- Yo soy espanol = 我是西班牙人\n- Ella es doctora = 她是医生\n\n**ESTAR = 在(zai) / 处于某状态** — 位置、临时状态\n- Estoy en Madrid = 我在马德里\n- Estoy cansado = 我累了\n\n**判断技巧：**\n- 如果用'是'能说通 -> SER\n- 如果用'在'或描述状态 -> ESTAR",
+      "ja": "日本語には「です」と「いる/ある」があるので近い概念です：\n\n**SER = 「～です」（本質・定義）**\n- Yo soy espanol = スペイン人です\n- Ella es doctora = 医者です\n\n**ESTAR = 「～にいる/ある」「～の状態だ」**\n- Estoy en Madrid = マドリードにいます\n- Estoy cansado = 疲れている\n\n**見分け方：**\n- 「何であるか」を定義する -> SER\n- 「どこにいるか」「今どんな状態か」 -> ESTAR"
+    },
+    "conjugation": {
+      "ser": {"yo": "soy", "tu": "eres", "el/ella": "es", "nosotros": "somos", "vosotros": "sois", "ellos": "son"},
+      "estar": {"yo": "estoy", "tu": "estas", "el/ella": "esta", "nosotros": "estamos", "vosotros": "estais", "ellos": "estan"}
+    },
+    "examples": [
+      {"es": "Yo soy profesor.", "en": "I am a teacher.", "zh": "我是老师。", "ja": "私は先生です。"},
+      {"es": "Ella esta cansada.", "en": "She is tired.", "zh": "她累了。", "ja": "彼女は疲れている。"},
+      {"es": "El libro esta en la mesa.", "en": "The book is on the table.", "zh": "书在桌子上。", "ja": "本はテーブルの上にある。"}
+    ]
+  },
+  {
+    "id": "articles",
+    "title": {"en": "Articles (el/la/los/las)", "zh": "冠词", "ja": "冠詞"},
+    "summary": {"en": "Definite and indefinite articles", "zh": "定冠词和不定冠词", "ja": "定冠詞と不定冠詞"},
+    "explanation": {
+      "en": "Spanish articles match gender AND number:\n\n**Definite (the):**\nel libro (m.sg) / la mesa (f.sg) / los libros (m.pl) / las mesas (f.pl)\n\n**Indefinite (a/some):**\nun libro / una mesa / unos libros / unas mesas\n\n**Quantifier determiners:**\n- algun/alguno/alguna = some/any (positive)\n  Algun dia ire a Espana (Some day I'll go to Spain)\n  Alguna pregunta? (Any questions?)\n- ningun/ninguno/ninguna = no/none (negative)\n  No tengo ningun problema (I have no problem)\n  Ninguna persona lo sabe (Nobody knows it)\nNote: algun/ningun before masculine nouns (drops -o), alguna/ninguna before feminine.\n\n**Gender rules:**\n- -o ending -> masculine (el libro)\n- -a ending -> feminine (la casa)\n- Exceptions: el dia, el mapa, la mano, la radio\n- -ion -> feminine (la estacion)\n- -dad -> feminine (la ciudad)\n\n**Contraction:** a + el = al / de + el = del",
+      "zh": "中文没有冠词，这是新概念。西班牙语冠词必须与名词性数一致：\n\n**定冠词：**\nel libro (阳性单) / la mesa (阴性单) / los libros (阳性复) / las mesas (阴性复)\n\n**不定冠词：**\nun libro / una mesa / unos libros / unas mesas\n\n**限定词：**\n- algun/alguno/alguna = 某个/一些（肯定）\n  Algun dia ire a Espana（总有一天我会去西班牙）\n- ningun/ninguno/ninguna = 没有一个（否定）\n  No tengo ningun problema（我没有任何问题）\n注意：阳性名词前用 algun/ningun（去掉-o），阴性用 alguna/ninguna。\n\n**性别判断：**\n- -o结尾 -> 阳性\n- -a结尾 -> 阴性\n- 例外：el dia, el mapa, la mano\n\n**重要区别：**\n- 中文'我喜欢猫'，西班牙语 Me gustan LOS gatos（泛指加冠词）",
+      "ja": "日本語にも冠詞がないので新概念です：\n\n**定冠詞（その）：**\nel libro (男性単) / la mesa (女性単) / los libros (男性複) / las mesas (女性複)\n\n**不定冠詞（一つの）：**\nun libro / una mesa / unos libros / unas mesas\n\n**限定詞：**\n- algun/alguno/alguna = ある/いくつかの（肯定）\n  Algun dia ire a Espana（いつかスペインに行く）\n- ningun/ninguno/ninguna = 一つも〜ない（否定）\n  No tengo ningun problema（問題はない）\n男性名詞の前：algun/ningun（-oが落ちる）、女性：alguna/ninguna\n\n**性の見分け方：**\n- -oで終わる -> 男性名詞\n- -aで終わる -> 女性名詞\n- 例外：el dia, el mapa, la mano\n\n**日本語話者へ：**\n- 「猫が好き」= Me gustan LOS gatos（一般論でも定冠詞が必要）"
+    },
+    "examples": [
+      {"es": "El gato esta en la casa.", "en": "The cat is in the house.", "zh": "猫在房子里。", "ja": "猫は家の中にいる。"},
+      {"es": "Quiero un cafe.", "en": "I want a coffee.", "zh": "我想要一杯咖啡。", "ja": "コーヒーが欲しい。"}
+    ]
+  },
+  {
+    "id": "present-tense",
+    "title": {"en": "Present Tense", "zh": "现在时", "ja": "現在形"},
+    "summary": {"en": "Regular -ar, -er, -ir verbs", "zh": "规则-ar, -er, -ir动词", "ja": "規則-ar, -er, -ir動詞"},
+    "explanation": {
+      "en": "Remove the infinitive ending and add person suffixes:\n\n**-AR (hablar):** -o, -as, -a, -amos, -ais, -an\nyo hablo, tu hablas, el habla, nosotros hablamos, ellos hablan\n\n**-ER (comer):** -o, -es, -e, -emos, -eis, -en\nyo como, tu comes, el come, nosotros comemos, ellos comen\n\n**-IR (vivir):** -o, -es, -e, -imos, -is, -en\nyo vivo, tu vives, el vive, nosotros vivimos, ellos viven\n\nYou usually DON'T need the pronoun - the ending tells you who:\nHablo espanol = I speak Spanish (no 'yo' needed)",
+      "zh": "去掉不定式词尾，加人称后缀：\n\n**-AR (hablar):** -o, -as, -a, -amos, -an\nyo hablo, tu hablas, el habla, nosotros hablamos, ellos hablan\n\n**-ER (comer):** -o, -es, -e, -emos, -en\n\n**-IR (vivir):** -o, -es, -e, -imos, -en\n\n**和中文的区别：**\n中文动词不变形（我吃、你吃、他吃都是'吃'），西班牙语每个人称都有不同词尾。\n好消息：因为词尾表明了主语，经常可以省略主语代词。\n\n**记忆：** yo总是-o / tu总有-s / ellos总是-n",
+      "ja": "不定詞の語尾を取って人称接尾辞を付けます：\n\n**-AR (hablar):** -o, -as, -a, -amos, -an\n**-ER (comer):** -o, -es, -e, -emos, -en\n**-IR (vivir):** -o, -es, -e, -imos, -en\n\n**日本語との比較：**\n日本語も活用がある（食べる→食べます）ので概念は似ています。\n共通点：主語をよく省略する！\nHablo espanol = スペイン語を話します（yoは不要）\n\n**覚え方：** yoは常に-o / tuは常に-s / ellosは常に-n"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablo", "tu": "hablas", "el/ella": "habla", "nosotros": "hablamos", "ellos": "hablan"},
+      "comer": {"yo": "como", "tu": "comes", "el/ella": "come", "nosotros": "comemos", "ellos": "comen"},
+      "vivir": {"yo": "vivo", "tu": "vives", "el/ella": "vive", "nosotros": "vivimos", "ellos": "viven"}
+    },
+    "examples": [
+      {"es": "Hablo espanol.", "en": "I speak Spanish.", "zh": "我说西班牙语。", "ja": "スペイン語を話します。"},
+      {"es": "Ella come arroz.", "en": "She eats rice.", "zh": "她吃米饭。", "ja": "彼女はご飯を食べる。"},
+      {"es": "Vivimos en Madrid.", "en": "We live in Madrid.", "zh": "我们住在马德里。", "ja": "マドリードに住んでいる。"}
+    ]
+  },
+  {
+    "id": "gustar",
+    "title": {"en": "Gustar (to like)", "zh": "Gustar（喜欢）", "ja": "Gustar（好き）"},
+    "summary": {"en": "Reversed structure for expressing likes", "zh": "表达喜好的反向结构", "ja": "「好き」の逆構造"},
+    "explanation": {
+      "en": "Gustar works BACKWARDS compared to English:\n\nEnglish: I like coffee (I = subject)\nSpanish: Me gusta el cafe (coffee = subject, pleases ME)\n\n**Structure:** [pronoun] + gusta/gustan + [thing]\n- me gusta(n) = I like\n- te gusta(n) = you like\n- le gusta(n) = he/she likes\n- nos gusta(n) = we like\n- les gusta(n) = they like\n\n**GUSTA** + singular/infinitive: Me gusta el cafe / Me gusta leer\n**GUSTAN** + plural: Me gustan los perros",
+      "zh": "Gustar的用法跟中文'喜欢'完全不同！\n\n中文：我喜欢咖啡（我=主语）\n西班牙语：Me gusta el cafe = 咖啡让我高兴（咖啡=主语！）\n\n**结构：** [间接宾语代词] + gusta/gustan + [事物]\n- me gusta(n) = 我喜欢\n- te gusta(n) = 你喜欢\n- le gusta(n) = 他/她喜欢\n\n**Gusta** + 单数/动词不定式：Me gusta el cafe\n**Gustan** + 复数：Me gustan los perros",
+      "ja": "Gustarは構文が特殊ですが、実は日本語に近い！\n\n日本語：私は猫**が**好きです（猫が=主語的）\nスペイン語：Me gustan los gatos（los gatos=主語）\n\n**構造：** [間接目的語] + gusta/gustan + [もの]\n- me gusta(n) = 私は～が好き\n- te gusta(n) = 君は～が好き\n- le gusta(n) = 彼/彼女は～が好き\n\n**日本語話者ヒント：**\n「コーヒーが好き」-> Me gusta el cafe\n「が」の感覚でgustaの主語を考えるとわかりやすい！"
+    },
+    "examples": [
+      {"es": "Me gusta la musica.", "en": "I like music.", "zh": "我喜欢音乐。", "ja": "音楽が好きです。"},
+      {"es": "Te gustan los perros?", "en": "Do you like dogs?", "zh": "你喜欢狗吗？", "ja": "犬は好き？"},
+      {"es": "A ella le gusta bailar.", "en": "She likes to dance.", "zh": "她喜欢跳舞。", "ja": "彼女は踊るのが好き。"}
+    ]
+  },
+  {
+    "id": "hay",
+    "title": {"en": "Hay (there is/are)", "zh": "Hay（有）", "ja": "Hay（ある/いる）"},
+    "summary": {"en": "Expressing existence", "zh": "表达存在", "ja": "存在を表す"},
+    "explanation": {
+      "en": "**Hay** = there is / there are (never changes!):\n- Hay un gato (there is a cat)\n- Hay tres gatos (there are three cats)\n- No hay leche (there is no milk)\n\n**HAY vs ESTA:**\n- HAY = something EXISTS (use with un/una/numbers)\n- ESTA = SPECIFIC thing is SOMEWHERE (use with el/la)\n\n'Is there a...?' = Hay un...?\n'Where is the...?' = Donde esta el...?",
+      "zh": "**Hay** 相当于中文的'有'：\n- Hay un gato = 有一只猫\n- Hay tres gatos = 有三只猫\n- No hay leche = 没有牛奶\n\n不管单复数都用hay。\n\n**Hay vs Esta — 像中文的'有'和'在'：**\n- HAY = 有（存在）\n- ESTA = 在（位置）\n\n规则：不确定的+hay / 确定的+esta",
+      "ja": "**Hay** は「～がある/いる」：\n- Hay un gato = 猫がいる\n- Hay tres gatos = 猫が3匹いる\n- No hay leche = 牛乳がない\n\n単数でも複数でも形は変わりません。\n\n**Hay vs Esta：**\n- HAY = 存在する（不特定）\n- ESTA = 特定のものがどこかに\n\n「～はありますか？」= Hay un...?\n「～はどこですか？」= Donde esta el...?"
+    },
+    "examples": [
+      {"es": "Hay un parque cerca.", "en": "There is a park nearby.", "zh": "附近有公园。", "ja": "近くに公園がある。"},
+      {"es": "No hay wifi.", "en": "There is no wifi.", "zh": "没有wifi。", "ja": "wifiがない。"}
+    ]
+  },
+  {
+    "id": "reflexive-verbs",
+    "title": {"en": "Reflexive Verbs", "zh": "反身动词", "ja": "再帰動詞"},
+    "summary": {"en": "me levanto, te duchas, se viste...", "zh": "me levanto, te duchas, se viste...", "ja": "me levanto, te duchas, se viste..."},
+    "explanation": {
+      "en": "The subject does the action TO THEMSELVES:\n\n**Structure:** reflexive pronoun + verb\n- me levanto (I get up)\n- te duchas (you shower)\n- se viste (he/she gets dressed)\n- nos acostamos (we go to bed)\n\n**Pronouns:** me, te, se, nos, os, se\n\n**Common:** levantarse, acostarse, ducharse, vestirse, llamarse\n- Me llamo Ana = My name is Ana (lit: I call myself Ana)\n\n**Position:** Before conjugated verb OR attached to infinitive:\n- Me quiero duchar = Quiero ducharme",
+      "zh": "反身动词表示主语对自己施加动作：\n\n**结构：** 反身代词 + 动词\n- me levanto (我起床)\n- te duchas (你洗澡)\n- se viste (他/她穿衣)\n\n**代词：** me, te, se, nos, se\n\n**常见：** levantarse, acostarse, ducharse, vestirse, llamarse\n- Me llamo Ana = 我叫Ana\n\n**中文对比：**\n中文没有反身动词，但可以这样理解：\n- 我洗（别人）= Lavo -> 我洗自己 = Me lavo",
+      "ja": "主語が自分自身に行う動作：\n\n**構造：** 再帰代名詞 + 動詞\n- me levanto (起きる)\n- te duchas (シャワーを浴びる)\n- se viste (服を着る)\n\n**代名詞：** me, te, se, nos, se\n\n**よく使う：** levantarse, acostarse, ducharse, vestirse, llamarse\n- Me llamo Ana = 私はアナです\n\n**日本語との比較：**\n自動詞・他動詞の区別に似ている：\n- levantar = 起こす -> levantarse = 起きる"
+    },
+    "examples": [
+      {"es": "Me levanto a las siete.", "en": "I get up at seven.", "zh": "我七点起床。", "ja": "7時に起きる。"},
+      {"es": "Como te llamas?", "en": "What's your name?", "zh": "你叫什么？", "ja": "名前は？"}
+    ]
+  },
+  {
+    "id": "possessives",
+    "title": {"en": "Possessive Adjectives", "zh": "物主形容词", "ja": "所有形容詞"},
+    "summary": {"en": "mi, tu, su, nuestro...", "zh": "mi, tu, su, nuestro...", "ja": "mi, tu, su, nuestro..."},
+    "explanation": {
+      "en": "Possessives go BEFORE the noun:\n\n- mi/mis = my (mi libro / mis libros)\n- tu/tus = your informal (tu casa / tus amigos)\n- su/sus = his/her/your formal/their\n- nuestro/a/os/as = our\n- vuestro/a/os/as = your (plural Spain)\n\n**Key points:**\n- They agree in NUMBER with the thing owned: mi libro / mis libros\n- Only nuestro/vuestro also agree in GENDER: nuestro coche / nuestra casa\n- 'su' is ambiguous - clarify with 'de el/ella/usted/ellos':\n  Su libro = his/her/your/their book\n  El libro de ella = HER book",
+      "zh": "物主形容词放在名词前面：\n\n- mi/mis = 我的（mi libro / mis libros）\n- tu/tus = 你的（tu casa / tus amigos）\n- su/sus = 他的/她的/您的/他们的\n- nuestro/a/os/as = 我们的\n\n**重要：**\n- 和所修饰名词的数一致：mi libro / mis libros\n- 只有nuestro还要跟性一致：nuestro coche / nuestra casa\n- su很模糊，可以加 de el/ella 来说明",
+      "ja": "所有形容詞は名詞の前に置きます：\n\n- mi/mis = 私の（mi libro / mis libros）\n- tu/tus = 君の（tu casa / tus amigos）\n- su/sus = 彼の/彼女の/あなたの/彼らの\n- nuestro/a/os/as = 私たちの\n\n**ポイント：**\n- 所有するものの数に一致：mi libro / mis libros\n- nuestroだけ性も一致：nuestro coche / nuestra casa\n- suは曖昧 - de el/ella で明確にする"
+    },
+    "examples": [
+      {"es": "Mi casa es grande.", "en": "My house is big.", "zh": "我的房子很大。", "ja": "私の家は大きい。"},
+      {"es": "Tus amigos son simpaticos.", "en": "Your friends are nice.", "zh": "你的朋友们很友好。", "ja": "君の友達は親切だ。"},
+      {"es": "Nuestra profesora es espanola.", "en": "Our teacher is Spanish.", "zh": "我们的老师是西班牙人。", "ja": "私たちの先生はスペイン人です。"}
+    ]
+  },
+  {
+    "id": "interrogatives",
+    "title": {"en": "Question Words", "zh": "疑问词", "ja": "疑問詞"},
+    "summary": {"en": "que, quien, donde, cuando, como, cuanto", "zh": "什么、谁、哪里、何时、怎样、多少", "ja": "何、誰、どこ、いつ、どう、いくつ"},
+    "explanation": {
+      "en": "All question words have an accent mark:\n\n- Que? = What? (Que quieres?)\n- Quien? = Who? (Quien es?)\n- Donde? = Where? (Donde vives?)\n- Cuando? = When? (Cuando llegas?)\n- Como? = How? (Como estas?)\n- Cuanto/a/os/as? = How much/many? (Cuanto cuesta?)\n- Por que? = Why? (Por que estudias?)\n- Cual? = Which one? (Cual prefieres?)\n\n**Word order:** Question word + verb + subject (optional)\nDonde vives (tu)? / Que come ella?\n\n**Yes/No questions:** Just intonation change or invert:\nTienes hambre? = Are you hungry?",
+      "zh": "西班牙语疑问词都有重音符号：\n\n- Que? = 什么？（Que quieres? 你想要什么？）\n- Quien? = 谁？（Quien es? 他是谁？）\n- Donde? = 哪里？（Donde vives? 你住哪？）\n- Cuando? = 什么时候？（Cuando llegas?）\n- Como? = 怎样？（Como estas? 你好吗？）\n- Cuanto? = 多少？（Cuanto cuesta? 多少钱？）\n- Por que? = 为什么？\n\n**和中文对比：**\n中文疑问词位置不变，西班牙语疑问词放句首：\n你住在哪里？-> Donde vives?",
+      "ja": "スペイン語の疑問詞にはアクセント記号がつきます：\n\n- Que? = 何？（Que quieres? 何が欲しい？）\n- Quien? = 誰？（Quien es? 誰ですか？）\n- Donde? = どこ？（Donde vives? どこに住んでる？）\n- Cuando? = いつ？（Cuando llegas?）\n- Como? = どう？（Como estas? 元気？）\n- Cuanto? = いくつ/いくら？（Cuanto cuesta?）\n- Por que? = なぜ？\n\n**日本語との比較：**\n日本語は疑問詞が文中に来るが、スペイン語は文頭：\nどこに住んでいますか？-> Donde vives?"
+    },
+    "examples": [
+      {"es": "Donde esta el bano?", "en": "Where is the bathroom?", "zh": "洗手间在哪里？", "ja": "トイレはどこですか？"},
+      {"es": "Cuantos anos tienes?", "en": "How old are you?", "zh": "你多大了？", "ja": "何歳ですか？"},
+      {"es": "Por que estudias espanol?", "en": "Why do you study Spanish?", "zh": "你为什么学西班牙语？", "ja": "なぜスペイン語を勉強しているの？"}
+    ]
+  },
+  {
+    "id": "ir-a-infinitive",
+    "title": {"en": "Ir a + infinitive (Future)", "zh": "Ir a + 不定式（将来）", "ja": "Ir a + 不定詞（未来）"},
+    "summary": {"en": "Going to do something", "zh": "打算做某事", "ja": "〜するつもり"},
+    "explanation": {
+      "en": "Like English 'going to', express future plans:\n\n**Structure:** ir (conjugated) + a + infinitive\n- Voy a comer = I'm going to eat\n- Vas a estudiar = You're going to study\n- Vamos a viajar = We're going to travel\n\n**Ir conjugation:** voy, vas, va, vamos, vais, van\n\nThis is MUCH more common than the simple future in daily speech.\n\n**Time expressions:**\n- manana (tomorrow)\n- la semana que viene (next week)\n- esta noche (tonight)\n- el proximo mes (next month)",
+      "zh": "像中文的'要/打算/去'表示将来：\n\n**结构：** ir (变位) + a + 不定式\n- Voy a comer = 我要吃（我打算吃）\n- Vas a estudiar = 你要学习\n- Vamos a viajar = 我们要旅行\n\n**Ir变位：** voy, vas, va, vamos, van\n\n这比将来时常见得多！\n\n**和中文类似：**\n中文也用'去'来表将来：我去吃饭 = Voy a comer\n但西班牙语'ir a'是固定表达将来的结构",
+      "ja": "英語の'going to'と同じ、未来の予定を表す：\n\n**構造：** ir (活用) + a + 不定詞\n- Voy a comer = 食べるつもり\n- Vas a estudiar = 勉強するつもり\n- Vamos a viajar = 旅行する予定\n\n**Ir活用：** voy, vas, va, vamos, van\n\n日常会話では単純未来形よりずっとよく使います。\n\n**時間表現：**\n- manana（明日）\n- la semana que viene（来週）\n- esta noche（今夜）"
+    },
+    "conjugation": {
+      "ir": {"yo": "voy", "tu": "vas", "el/ella": "va", "nosotros": "vamos", "vosotros": "vais", "ellos": "van"}
+    },
+    "examples": [
+      {"es": "Voy a estudiar espanol.", "en": "I'm going to study Spanish.", "zh": "我要学习西班牙语。", "ja": "スペイン語を勉強するつもりです。"},
+      {"es": "Vamos a comer a las dos.", "en": "We're going to eat at two.", "zh": "我们两点去吃饭。", "ja": "2時に食べる予定です。"},
+      {"es": "Que vas a hacer manana?", "en": "What are you going to do tomorrow?", "zh": "你明天打算做什么？", "ja": "明日何をするつもり？"}
+    ]
+  },
+  {
+    "id": "tener-que",
+    "title": {"en": "Tener que + infinitive", "zh": "Tener que（必须）", "ja": "Tener que（〜しなければ）"},
+    "summary": {"en": "Expressing obligation: have to", "zh": "表达必须/不得不", "ja": "義務を表す"},
+    "explanation": {
+      "en": "Express obligation (have to / must):\n\n**Structure:** tener (conjugated) + que + infinitive\n- Tengo que estudiar = I have to study\n- Tienes que comer = You have to eat\n- Tenemos que ir = We have to go\n\n**Tener conjugation:** tengo, tienes, tiene, tenemos, teneis, tienen\n\n**Hay que** = impersonal 'one must' (no specific person):\n- Hay que estudiar = One must study / You have to study (general)\n\n**Difference:**\n- Tengo que ir = I (specifically) have to go\n- Hay que ir = One has to go / You have to go (anyone)",
+      "zh": "表达义务（必须/不得不）：\n\n**结构：** tener (变位) + que + 不定式\n- Tengo que estudiar = 我必须学习\n- Tienes que comer = 你必须吃\n- Tenemos que ir = 我们必须去\n\n**Tener变位：** tengo, tienes, tiene, tenemos, tienen\n\n**Hay que** = 无人称（泛指'人们必须'）：\n- Hay que estudiar = 得学习（泛指）\n\n**区别：**\n- Tengo que ir = 我得去（我个人）\n- Hay que ir = 得去（一般性）",
+      "ja": "義務を表す（〜しなければならない）：\n\n**構造：** tener (活用) + que + 不定詞\n- Tengo que estudiar = 勉強しなければならない\n- Tienes que comer = 食べなければならない\n- Tenemos que ir = 行かなければならない\n\n**Tener活用：** tengo, tienes, tiene, tenemos, tienen\n\n**Hay que** = 非人称（一般的に「〜すべき」）：\n- Hay que estudiar = 勉強すべきだ（一般論）\n\n**区別：**\n- Tengo que ir = 私は行かなければ（個人的）\n- Hay que ir = 行かなければならない（一般的）"
+    },
+    "examples": [
+      {"es": "Tengo que trabajar manana.", "en": "I have to work tomorrow.", "zh": "我明天必须工作。", "ja": "明日仕事しなければならない。"},
+      {"es": "Hay que practicar mucho.", "en": "You have to practice a lot.", "zh": "必须多练习。", "ja": "たくさん練習しなければならない。"},
+      {"es": "Tienes que dormir mas.", "en": "You need to sleep more.", "zh": "你需要多睡觉。", "ja": "もっと寝なきゃ。"}
+    ]
+  },
+  {
+    "id": "irregular-verbs",
+    "title": {"en": "Common Irregular Verbs", "zh": "常见不规则动词", "ja": "よく使う不規則動詞"},
+    "summary": {"en": "ir, tener, hacer, querer, poder", "zh": "ir, tener, hacer, querer, poder", "ja": "ir, tener, hacer, querer, poder"},
+    "explanation": {
+      "en": "These are the most important irregular verbs at A1:\n\n**IR (to go):** voy, vas, va, vamos, vais, van\n**TENER (to have):** tengo, tienes, tiene, tenemos, teneis, tienen\n**HACER (to do/make):** hago, haces, hace, hacemos, haceis, hacen\n**QUERER (to want):** quiero, quieres, quiere, queremos, quereis, quieren\n**PODER (to be able):** puedo, puedes, puede, podemos, podeis, pueden\n\n**Patterns to notice:**\n- Yo often gets special treatment: tengo, hago, pongo, salgo\n- Stem change e->ie: quiero, tienes, tiene (but querEMOS stays!)\n- Stem change o->ue: puedo, puedes, puede (but podEMOS stays!)",
+      "zh": "A1最重要的不规则动词：\n\n**IR (去):** voy, vas, va, vamos, van\n**TENER (有):** tengo, tienes, tiene, tenemos, tienen\n**HACER (做):** hago, haces, hace, hacemos, hacen\n**QUERER (想要):** quiero, quieres, quiere, queremos, quieren\n**PODER (能):** puedo, puedes, puede, podemos, pueden\n\n**规律：**\n- Yo经常特殊：tengo, hago, pongo, salgo\n- 词干变化e->ie：quiero, tienes, tiene（但querEMOS不变！）\n- 词干变化o->ue：puedo, puedes, puede（但podEMOS不变！）\n\n变化只发生在重音落在词干上的人称（nosotros/vosotros除外）",
+      "ja": "A1で最も重要な不規則動詞：\n\n**IR (行く):** voy, vas, va, vamos, van\n**TENER (持つ):** tengo, tienes, tiene, tenemos, tienen\n**HACER (する):** hago, haces, hace, hacemos, hacen\n**QUERER (欲しい):** quiero, quieres, quiere, queremos, quieren\n**PODER (できる):** puedo, puedes, puede, podemos, pueden\n\n**パターン：**\n- yoは特殊になりがち：tengo, hago, pongo, salgo\n- 語幹変化e->ie：quiero, tienes（但しquerEMOSは変わらない！）\n- 語幹変化o->ue：puedo, puedes（但しpodEMOSは変わらない！）\n\n「靴型」：nosotros/vosotros以外が変化する"
+    },
+    "conjugation": {
+      "ir": {"yo": "voy", "tu": "vas", "el/ella": "va", "nosotros": "vamos", "ellos": "van"},
+      "tener": {"yo": "tengo", "tu": "tienes", "el/ella": "tiene", "nosotros": "tenemos", "ellos": "tienen"},
+      "hacer": {"yo": "hago", "tu": "haces", "el/ella": "hace", "nosotros": "hacemos", "ellos": "hacen"},
+      "querer": {"yo": "quiero", "tu": "quieres", "el/ella": "quiere", "nosotros": "queremos", "ellos": "quieren"},
+      "poder": {"yo": "puedo", "tu": "puedes", "el/ella": "puede", "nosotros": "podemos", "ellos": "pueden"}
+    },
+    "examples": [
+      {"es": "Voy al supermercado.", "en": "I'm going to the supermarket.", "zh": "我去超市。", "ja": "スーパーに行く。"},
+      {"es": "Quiero un cafe, por favor.", "en": "I want a coffee, please.", "zh": "我想要一杯咖啡。", "ja": "コーヒーをください。"},
+      {"es": "No puedo dormir.", "en": "I can't sleep.", "zh": "我睡不着。", "ja": "眠れない。"}
+    ]
+  },
+  {
+    "id": "prepositions",
+    "title": {"en": "Prepositions of Place", "zh": "方位介词", "ja": "場所の前置詞"},
+    "summary": {"en": "en, sobre, debajo, al lado, delante, detras", "zh": "在里面、上面、下面、旁边、前面、后面", "ja": "中に、上に、下に、隣に、前に、後ろに"},
+    "explanation": {
+      "en": "**Location prepositions:**\n- en = in/on/at (Estoy en casa / en la mesa)\n- sobre / encima de = on top of\n- debajo de = under\n- delante de = in front of\n- detras de = behind\n- al lado de = next to\n- entre = between\n- cerca de = near\n- lejos de = far from\n- dentro de = inside\n- fuera de = outside\n\n**'EN' is special — it means both 'inside' and 'on top of':**\n- en la caja = dentro de la caja (inside the box)\n- en la mesa = encima de la mesa (on the table)\nThe key is the surface: flat/large surfaces → 'en' = on top. Containers → 'en' = inside.\n- El libro esta en la mesa (on the table — flat surface)\n- La ropa esta en el armario (in the wardrobe — container)\n- Estoy en el parque (at/in the park — enclosed space)\nUse 'dentro de' or 'encima de' only when you need to be explicit.\n\n**Important:** These all use ESTAR (not ser!) for location:\nEl gato esta debajo de la mesa.\n\n**a + el = al:** Voy al parque (NOT a el parque)\n**de + el = del:** Vengo del cine (NOT de el cine)",
+      "zh": "**方位介词：**\n- en = 在……里/上（Estoy en casa）\n- sobre / encima de = 在……上面\n- debajo de = 在……下面\n- delante de = 在……前面\n- detras de = 在……后面\n- al lado de = 在……旁边\n- entre = 在……之间\n- cerca de = 在……附近\n- lejos de = 离……远\n- dentro de = 在……里面\n- fuera de = 在……外面\n\n**'EN' 既表示'在里面'又表示'在上面'：**\n- en la caja = dentro de la caja（在箱子里）\n- en la mesa = encima de la mesa（在桌子上）\n平面/大表面 → en = 在上面。容器 → en = 在里面。\n- El libro esta en la mesa（在桌上——平面）\n- La ropa esta en el armario（在衣柜里——容器）\n只有需要强调时才用 dentro de 或 encima de。\n\n**重要：** 表示位置永远用ESTAR！\nEl gato esta debajo de la mesa.\n\n**缩合：** a + el = al / de + el = del",
+      "ja": "**場所の前置詞：**\n- en = ～に/～で（Estoy en casa）\n- sobre / encima de = ～の上に\n- debajo de = ～の下に\n- delante de = ～の前に\n- detras de = ～の後ろに\n- al lado de = ～の隣に\n- entre = ～の間に\n- cerca de = ～の近くに\n- lejos de = ～から遠くに\n- dentro de = ～の中に\n- fuera de = ～の外に\n\n**「en」は「中に」と「上に」の両方の意味がある：**\n- en la caja = dentro de la caja（箱の中に）\n- en la mesa = encima de la mesa（テーブルの上に）\n平面・大きな表面 → en = 上に。容器 → en = 中に。\n- El libro esta en la mesa（テーブルの上——平面）\n- La ropa esta en el armario（クローゼットの中——容器）\n日本語の「に」も場所で「上」「中」両方使えるので感覚は近い！\n明確にしたい時だけ dentro de / encima de を使う。\n\n**重要：** 場所はいつもESTAR！\nEl gato esta debajo de la mesa.\n\n**縮約：** a + el = al / de + el = del"
+    },
+    "examples": [
+      {"es": "El gato esta debajo de la mesa.", "en": "The cat is under the table.", "zh": "猫在桌子下面。", "ja": "猫はテーブルの下にいる。"},
+      {"es": "La farmacia esta cerca del parque.", "en": "The pharmacy is near the park.", "zh": "药店在公园附近。", "ja": "薬局は公園の近くにある。"},
+      {"es": "Vivo al lado de la escuela.", "en": "I live next to the school.", "zh": "我住在学校旁边。", "ja": "学校の隣に住んでいる。"}
+    ]
+  },
+  {
+    "id": "demonstratives",
+    "title": {"en": "Demonstratives", "zh": "指示代词", "ja": "指示詞"},
+    "summary": {"en": "este, ese, aquel (this, that, that over there)", "zh": "这个、那个、那个（远）", "ja": "これ、それ、あれ"},
+    "explanation": {
+      "en": "Three levels of distance:\n\n**ESTE/A** = this (near me)\n- este libro (m) / esta mesa (f)\n- estos libros (m.pl) / estas mesas (f.pl)\n\n**ESE/A** = that (near you)\n- ese libro / esa mesa\n- esos libros / esas mesas\n\n**AQUEL/LA** = that (far from both)\n- aquel libro / aquella mesa\n- aquellos libros / aquellas mesas\n\nThey agree in gender and number with the noun.",
+      "zh": "三个距离层次（和中文的'这/那'类似，但多一个）：\n\n**ESTE/A** = 这个（离我近）\n- este libro (阳) / esta mesa (阴)\n- estos libros (阳复) / estas mesas (阴复)\n\n**ESE/A** = 那个（离你近）\n- ese libro / esa mesa\n\n**AQUEL/LA** = 那个（离双方都远）\n- aquel libro / aquella mesa\n\n**和中文对比：**\n中文只有'这/那'两个，西班牙语有三个：\n这个(este) / 那个-近(ese) / 那个-远(aquel)",
+      "ja": "三段階の距離（日本語の「こそあ」にぴったり対応！）：\n\n**ESTE/A** = これ/この（私の近く）= こ\n- este libro / esta mesa\n\n**ESE/A** = それ/その（あなたの近く）= そ\n- ese libro / esa mesa\n\n**AQUEL/LA** = あれ/あの（両方から遠い）= あ\n- aquel libro / aquella mesa\n\n**日本語話者の強み：**\nこれ・それ・あれ = este/ese/aquel\n日本語と同じ3段階なので覚えやすい！"
+    },
+    "examples": [
+      {"es": "Este libro es interesante.", "en": "This book is interesting.", "zh": "这本书很有趣。", "ja": "この本は面白い。"},
+      {"es": "Quiero esa camisa.", "en": "I want that shirt.", "zh": "我想要那件衬衫。", "ja": "そのシャツが欲しい。"},
+      {"es": "Aquella casa es de mi abuelo.", "en": "That house over there is my grandfather's.", "zh": "那栋（远处的）房子是我爷爷的。", "ja": "あの家は祖父のです。"}
+    ]
+  },
+  {
+    "id": "negation",
+    "title": {"en": "Negation", "zh": "否定", "ja": "否定"},
+    "summary": {"en": "no, nunca, nada, nadie, tampoco", "zh": "不、从不、什么也不、没有人、也不", "ja": "いいえ、決して〜ない、何も〜ない"},
+    "explanation": {
+      "en": "**Basic negation:** Put NO before the verb:\n- No hablo frances = I don't speak French\n- No tengo hambre = I'm not hungry\n\n**Negative words:**\n- nunca = never (No voy nunca / Nunca voy)\n- nada = nothing (No quiero nada)\n- nadie = nobody (No hay nadie)\n- tampoco = neither/either (Yo tampoco)\n- ni...ni = neither...nor (Ni cafe ni te)\n\n**Double negative is CORRECT in Spanish!**\n- No tengo nada = I don't have nothing (= I have nothing)\n- No veo a nadie = I don't see nobody (= I see nobody)\n\nIn English this is wrong, in Spanish it's required!",
+      "zh": "**基本否定：** 把NO放在动词前面：\n- No hablo frances = 我不说法语\n- No tengo hambre = 我不饿\n\n**否定词：**\n- nunca = 从不（No voy nunca / Nunca voy）\n- nada = 什么也不（No quiero nada）\n- nadie = 没有人（No hay nadie）\n- tampoco = 也不（Yo tampoco）\n\n**双重否定在西班牙语是正确的！**\n- No tengo nada = 我什么都没有\n- 中文也类似：什么也不要 = No quiero nada\n\n如果否定词在动词前，不需要no：\nNunca como carne = 我从不吃肉",
+      "ja": "**基本否定：** 動詞の前にNOを置く：\n- No hablo frances = フランス語を話さない\n- No tengo hambre = お腹がすいていない\n\n**否定語：**\n- nunca = 決して〜ない\n- nada = 何も〜ない\n- nadie = 誰も〜ない\n- tampoco = 〜もない\n\n**二重否定がスペイン語では正しい！**\n- No tengo nada = 何も持っていない\n- No veo a nadie = 誰も見えない\n\n英語では間違いだが、スペイン語では必須！\n日本語も「何も〜ない」と二重否定するので感覚は近い。"
+    },
+    "examples": [
+      {"es": "No tengo dinero.", "en": "I don't have money.", "zh": "我没有钱。", "ja": "お金がない。"},
+      {"es": "Nunca como carne.", "en": "I never eat meat.", "zh": "我从不吃肉。", "ja": "肉は絶対に食べない。"},
+      {"es": "No hay nadie en casa.", "en": "There's nobody at home.", "zh": "家里没有人。", "ja": "家に誰もいない。"}
+    ]
+  },
+  {
+    "id": "numbers-time",
+    "title": {"en": "Numbers and Time", "zh": "数字和时间", "ja": "数字と時間"},
+    "summary": {"en": "Counting and telling time", "zh": "数数和表达时间", "ja": "数える・時間を言う"},
+    "explanation": {
+      "en": "**Numbers 1-20:** uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince, dieciseis, diecisiete, dieciocho, diecinueve, veinte\n\n**21-29:** veintiuno, veintidos... veintinueve\n**30, 40, 50...:** treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa\n**31+:** treinta y uno, treinta y dos...\n**100, 200...:** cien, doscientos, trescientos\n\n**Telling time:**\n- Es la una = It's 1:00 (singular!)\n- Son las dos/tres/cuatro = It's 2/3/4:00\n- Son las tres y media = 3:30\n- Son las cuatro menos cuarto = 3:45",
+      "zh": "**数字1-20:** uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince, dieciseis...\n\n**21-29:** veintiuno, veintidos...\n**30, 40, 50...:** treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa\n**31+:** treinta y uno, treinta y dos...\n\n**表达时间：**\n- Es la una = 一点（注意用单数）\n- Son las dos = 两点\n- Son las tres y media = 三点半\n- Son las cuatro menos cuarto = 三点四十五",
+      "ja": "**数字1-20:** uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince, dieciseis...\n\n**21-29:** veintiuno, veintidos...\n**30, 40, 50...:** treinta, cuarenta, cincuenta...\n**31+:** treinta y uno, treinta y dos...\n\n**時間の言い方：**\n- Es la una = 1時（単数！）\n- Son las dos = 2時\n- Son las tres y media = 3時半\n- Son las cuatro menos cuarto = 3時45分"
+    },
+    "examples": [
+      {"es": "Son las diez y cuarto.", "en": "It's 10:15.", "zh": "十点十五。", "ja": "10時15分です。"},
+      {"es": "Tengo veinticinco anos.", "en": "I'm 25 years old.", "zh": "我25岁。", "ja": "25歳です。"},
+      {"es": "Cuesta treinta euros.", "en": "It costs 30 euros.", "zh": "要三十欧元。", "ja": "30ユーロです。"}
+    ]
+  },
+  {
+    "id": "gender-number",
+    "title": {"en": "Gender and Number Agreement", "zh": "性数一致", "ja": "性・数の一致"},
+    "summary": {"en": "Adjectives match their noun", "zh": "形容词与名词一致", "ja": "形容詞は名詞に一致"},
+    "explanation": {
+      "en": "Everything must agree in gender (m/f) and number (sg/pl):\n\n**Adjective forms:**\n- -o/-a/-os/-as: alto/alta/altos/altas\n- -e (invariable): inteligente / inteligentes\n- consonant: facil / faciles\n\n**Rules:**\n- El chico alto / La chica alta\n- Los chicos altos / Las chicas altas\n- Mixed group = masculine: El chico y la chica son altos\n\n**Plural formation:**\n- Vowel ending: +s (libro -> libros)\n- Consonant ending: +es (ciudad -> ciudades)\n- -z ending: -z -> -ces (feliz -> felices)\n\n**Position:** Most adjectives go AFTER the noun:\nUna casa grande (not una grande casa)",
+      "zh": "名词、形容词、冠词必须在性（阳/阴）和数（单/复）上保持一致：\n\n**形容词变形：**\n- -o/-a/-os/-as: alto/alta/altos/altas\n- -e（不变）: inteligente / inteligentes\n\n**规则：**\n- El chico alto / La chica alta\n- 混合组=阳性：El chico y la chica son altos\n\n**复数：**\n- 元音结尾: +s（libro -> libros）\n- 辅音结尾: +es（ciudad -> ciudades）\n\n**对中文学习者：** 中文没有性数变化，这是最大区别之一。记住：每个名词都有固定的性，形容词要跟着变。",
+      "ja": "名詞・形容詞・冠詞は性（男/女）と数（単/複）を一致させます：\n\n**形容詞の変化：**\n- -o/-a/-os/-as: alto/alta/altos/altas\n- -e（不変）: inteligente / inteligentes\n\n**ルール：**\n- El chico alto / La chica alta\n- 混合グループ=男性形：El chico y la chica son altos\n\n**複数形：**\n- 母音語尾: +s（libro -> libros）\n- 子音語尾: +es（ciudad -> ciudades）\n\n**日本語話者へ：** 日本語には性・数の一致がないので新しい概念です。名詞にはすべて固有の性があり、形容詞はそれに合わせて変化します。"
+    },
+    "examples": [
+      {"es": "La casa blanca es bonita.", "en": "The white house is pretty.", "zh": "白色的房子很漂亮。", "ja": "白い家はきれいだ。"},
+      {"es": "Los ninos son inteligentes.", "en": "The children are intelligent.", "zh": "孩子们很聪明。", "ja": "子供たちは頭がいい。"},
+      {"es": "Tengo dos gatos negros.", "en": "I have two black cats.", "zh": "我有两只黑猫。", "ja": "黒い猫を2匹飼っている。"}
+    ]
+  }
+]

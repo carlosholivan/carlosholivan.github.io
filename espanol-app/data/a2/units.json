@@ -1,0 +1,2030 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Past tense: -ar verbs",
+      "zh": "过去时：-ar动词",
+      "ja": "過去形：-ar動詞"
+    },
+    "desc": {
+      "en": "Regular preterite for -ar verbs",
+      "zh": "-ar动词的简单过去时",
+      "ja": "-ar動詞の点過去"
+    },
+    "grammar": [
+      "pretérito -ar"
+    ],
+    "vocab": [
+      "hablé",
+      "hablaste",
+      "habló",
+      "hablamos",
+      "hablaron",
+      "ayer"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I spoke' — which form?",
+          "zh": "'我说了' — 哪种形式？",
+          "ja": "「私は話した」— どの形？"
+        },
+        "correct": "hablé",
+        "options": [
+          "hablé",
+          "hablo",
+          "hablaré",
+          "hablaba"
+        ],
+        "hint": {
+          "en": "Preterite yo: -ar → -é",
+          "zh": "简单过去时 yo: -ar → -é",
+          "ja": "点過去 yo: -ar → -é"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Ayer yo ___ con María.",
+        "blank": "hablé",
+        "options": [
+          "hablé",
+          "hablo",
+          "hablar",
+          "hablando"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'She ate' (comer → past) — which form?",
+          "zh": "'她吃了' — 哪种形式？",
+          "ja": "「彼女は食べた」— どの形？"
+        },
+        "correct": "comió",
+        "options": [
+          "comió",
+          "come",
+          "comerá",
+          "comía"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'Yesterday I studied Spanish'",
+          "zh": "组句：'昨天我学了西班牙语'",
+          "ja": "並べ替え：「昨日スペイン語を勉強した」"
+        },
+        "words": [
+          "Ayer",
+          "estudié",
+          "español"
+        ],
+        "answer": "Ayer estudié español"
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'We talked yesterday'",
+          "zh": "翻译：'我们昨天聊了'",
+          "ja": "翻訳：「昨日私たちは話した」"
+        },
+        "answer": "Hablamos ayer",
+        "accept": [
+          "Hablamos ayer",
+          "Ayer hablamos",
+          "hablamos ayer",
+          "ayer hablamos"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ellos ___ en el parque.",
+        "blank": "jugaron",
+        "options": [
+          "jugaron",
+          "juegan",
+          "jugarán",
+          "jugaban"
+        ],
+        "hint": {
+          "en": "ellos preterite: -ar → -aron",
+          "zh": "ellos过去时: -ar → -aron",
+          "ja": "ellos点過去: -ar → -aron"
+        }
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "hablé",
+            {
+              "en": "I spoke",
+              "zh": "我说了",
+              "ja": "私は話した"
+            }
+          ],
+          [
+            "hablaste",
+            {
+              "en": "you spoke",
+              "zh": "你说了",
+              "ja": "君は話した"
+            }
+          ],
+          [
+            "habló",
+            {
+              "en": "he/she spoke",
+              "zh": "他/她说了",
+              "ja": "彼/彼女は話した"
+            }
+          ],
+          [
+            "hablaron",
+            {
+              "en": "they spoke",
+              "zh": "他们说了",
+              "ja": "彼らは話した"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Past tense: -er/-ir",
+      "zh": "过去时：-er/-ir动词",
+      "ja": "過去形：-er/-ir動詞"
+    },
+    "desc": {
+      "en": "Regular preterite for -er/-ir verbs",
+      "zh": "-er/-ir动词的简单过去时",
+      "ja": "-er/-ir動詞の点過去"
+    },
+    "grammar": [
+      "pretérito -er/-ir"
+    ],
+    "vocab": [
+      "comí",
+      "comiste",
+      "comió",
+      "viví",
+      "escribí",
+      "anoche"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I ate' — which form?",
+          "zh": "'我吃了' — 哪种形式？",
+          "ja": "「私は食べた」— どの形？"
+        },
+        "correct": "comí",
+        "options": [
+          "comí",
+          "como",
+          "comeré",
+          "comía"
+        ],
+        "hint": {
+          "en": "Preterite yo: -er → -í",
+          "zh": "简单过去时 yo: -er → -í",
+          "ja": "点過去 yo: -er → -í"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Anoche ___ una carta.",
+        "blank": "escribí",
+        "options": [
+          "escribí",
+          "escribo",
+          "escribir",
+          "escribiendo"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She lived in Spain'",
+          "zh": "翻译：'她住在西班牙'",
+          "ja": "翻訳：「彼女はスペインに住んでいた」"
+        },
+        "answer": "Ella vivió en España",
+        "accept": [
+          "Ella vivió en España",
+          "Vivió en España",
+          "ella vivió en España"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'Last night we ate pizza'",
+          "zh": "组句：'昨晚我们吃了披萨'",
+          "ja": "並べ替え：「昨夜ピザを食べた」"
+        },
+        "words": [
+          "Anoche",
+          "comimos",
+          "pizza"
+        ],
+        "answer": "Anoche comimos pizza"
+      },
+      {
+        "type": "fill",
+        "sentence": "Tú ___ el libro ayer.",
+        "blank": "leíste",
+        "options": [
+          "leíste",
+          "lees",
+          "leerás",
+          "leías"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "What ending does 'él' get in preterite -er verbs?",
+          "zh": "él在-er动词过去时中的词尾是？",
+          "ja": "él の-er動詞点過去の語尾は？"
+        },
+        "correct": "-ió",
+        "options": [
+          "-ió",
+          "-í",
+          "-iste",
+          "-ieron"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Irregular past: ir, ser",
+      "zh": "不规则过去时：ir, ser",
+      "ja": "不規則過去：ir, ser"
+    },
+    "desc": {
+      "en": "Ir and ser share the same past form",
+      "zh": "ir和ser共用相同的过去式",
+      "ja": "irとserは同じ過去形を共有する"
+    },
+    "grammar": [
+      "ir/ser pretérito"
+    ],
+    "vocab": [
+      "fui",
+      "fuiste",
+      "fue",
+      "fuimos",
+      "fueron"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I went' in Spanish?",
+          "zh": "'我去了'怎么说？",
+          "ja": "「私は行った」はスペイン語で？"
+        },
+        "correct": "Fui",
+        "options": [
+          "Fui",
+          "Iba",
+          "Iré",
+          "Voy"
+        ],
+        "hint": {
+          "en": "ir in preterite: fui, fuiste, fue...",
+          "zh": "ir的过去式: fui, fuiste, fue...",
+          "ja": "irの点過去: fui, fuiste, fue..."
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Ayer ___ al cine.",
+        "blank": "fui",
+        "options": [
+          "fui",
+          "voy",
+          "iré",
+          "iba"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She went to school'",
+          "zh": "翻译：'她去了学校'",
+          "ja": "翻訳：「彼女は学校に行った」"
+        },
+        "answer": "Ella fue a la escuela",
+        "accept": [
+          "Ella fue a la escuela",
+          "Fue a la escuela",
+          "ella fue a la escuela"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Curious fact: 'fui' can mean...",
+          "zh": "有趣的事实：'fui'可以表示……",
+          "ja": "面白い事実：「fui」は……の意味がある"
+        },
+        "correct": "Both 'I went' and 'I was'",
+        "options": [
+          "Both 'I went' and 'I was'",
+          "Only 'I went'",
+          "Only 'I was'",
+          "I will go"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'We went to the park'",
+          "zh": "组句：'我们去了公园'",
+          "ja": "並べ替え：「私たちは公園に行った」"
+        },
+        "words": [
+          "Fuimos",
+          "al",
+          "parque"
+        ],
+        "answer": "Fuimos al parque"
+      },
+      {
+        "type": "fill",
+        "sentence": "La fiesta ___ muy divertida.",
+        "blank": "fue",
+        "options": [
+          "fue",
+          "era",
+          "es",
+          "está"
+        ],
+        "hint": {
+          "en": "ser preterite (completed event)",
+          "zh": "ser过去时（已完成事件）",
+          "ja": "ser点過去（完了した出来事）"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "Irregular past: tener, hacer",
+      "zh": "不规则过去时：tener, hacer",
+      "ja": "不規則過去：tener, hacer"
+    },
+    "desc": {
+      "en": "Common irregular preterites",
+      "zh": "常见不规则过去时",
+      "ja": "よくある不規則過去形"
+    },
+    "grammar": [
+      "tuve/hice preterite"
+    ],
+    "vocab": [
+      "tuve",
+      "tuviste",
+      "tuvo",
+      "hice",
+      "hiciste",
+      "hizo"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I had' (tener past)?",
+          "zh": "'我有了' (tener过去时)?",
+          "ja": "「持っていた」(tener過去形)?"
+        },
+        "correct": "tuve",
+        "options": [
+          "tuve",
+          "tenía",
+          "tení",
+          "tengo"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Ayer ___ mucho trabajo.",
+        "blank": "tuve",
+        "options": [
+          "tuve",
+          "tengo",
+          "tení",
+          "tenía"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'What did you do?'",
+          "zh": "翻译：'你做了什么？'",
+          "ja": "翻訳：「何をした？」"
+        },
+        "answer": "¿Qué hiciste?",
+        "accept": [
+          "¿Qué hiciste?",
+          "Qué hiciste?",
+          "¿qué hiciste?"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'She made dinner'",
+          "zh": "组句：'她做了晚饭'",
+          "ja": "並べ替え：「彼女は夕食を作った」"
+        },
+        "words": [
+          "Ella",
+          "hizo",
+          "la",
+          "cena"
+        ],
+        "answer": "Ella hizo la cena"
+      },
+      {
+        "type": "fill",
+        "sentence": "Él no ___ tiempo.",
+        "blank": "tuvo",
+        "options": [
+          "tuvo",
+          "tuve",
+          "tiene",
+          "tenía"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "tuve",
+            {
+              "en": "I had",
+              "zh": "我有了",
+              "ja": "私は持っていた"
+            }
+          ],
+          [
+            "hice",
+            {
+              "en": "I did/made",
+              "zh": "我做了",
+              "ja": "私はした/作った"
+            }
+          ],
+          [
+            "tuvo",
+            {
+              "en": "he/she had",
+              "zh": "他/她有了",
+              "ja": "彼/彼女は持っていた"
+            }
+          ],
+          [
+            "hizo",
+            {
+              "en": "he/she did",
+              "zh": "他/她做了",
+              "ja": "彼/彼女はした"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Imperfect tense (was doing)",
+      "zh": "未完成过去时",
+      "ja": "線過去（不完了過去）"
+    },
+    "desc": {
+      "en": "Imperfect for habits and descriptions",
+      "zh": "未完成过去时表示习惯和描述",
+      "ja": "線過去で習慣と描写"
+    },
+    "grammar": [
+      "imperfect -ar: -aba",
+      "imperfect -er/-ir: -ía"
+    ],
+    "vocab": [
+      "hablaba",
+      "comía",
+      "vivía",
+      "era",
+      "tenía",
+      "siempre",
+      "cuando"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I used to speak' — which tense?",
+          "zh": "'我过去常说' — 哪个时态？",
+          "ja": "「よく話していた」— どの時制？"
+        },
+        "correct": "hablaba (imperfect)",
+        "options": [
+          "hablaba (imperfect)",
+          "hablé (preterite)",
+          "hablo (present)",
+          "hablaré (future)"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Cuando era niño, ___ mucho.",
+        "blank": "jugaba",
+        "options": [
+          "jugaba",
+          "jugué",
+          "juego",
+          "jugaré"
+        ],
+        "hint": {
+          "en": "Imperfect for habitual past actions",
+          "zh": "未完成过去时表示习惯性动作",
+          "ja": "線過去は習慣的な過去の動作"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She lived in Paris'",
+          "zh": "翻译：'她以前住在巴黎'",
+          "ja": "翻訳：「彼女はパリに住んでいた」"
+        },
+        "answer": "Vivía en París",
+        "accept": [
+          "Vivía en París",
+          "Ella vivía en París",
+          "vivía en París",
+          "Ella vivia en Paris"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'We always ate at 2'",
+          "zh": "组句：'我们总是两点吃饭'",
+          "ja": "並べ替え：「いつも2時に食べていた」"
+        },
+        "words": [
+          "Siempre",
+          "comíamos",
+          "a",
+          "las",
+          "dos"
+        ],
+        "answer": "Siempre comíamos a las dos"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Preterite vs Imperfect: 'I ate' (one event)?",
+          "zh": "简单过去时 vs 未完成过去时：'我吃了'（一次事件）？",
+          "ja": "点過去 vs 線過去：「食べた」（一回の出来事）？"
+        },
+        "correct": "comí (preterite — completed)",
+        "options": [
+          "comí (preterite — completed)",
+          "comía (imperfect — ongoing)",
+          "como (present)",
+          "comeré (future)"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "De niña, ___ feliz.",
+        "blank": "era",
+        "options": [
+          "era",
+          "fue",
+          "es",
+          "está"
+        ],
+        "hint": {
+          "en": "ser imperfect (description) → era",
+          "zh": "ser未完成过去时（描述）→ era",
+          "ja": "ser線過去（描写）→ era"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "Comparisons",
+      "zh": "比较",
+      "ja": "比較"
+    },
+    "desc": {
+      "en": "More/less than, as...as",
+      "zh": "比……多/少，和……一样",
+      "ja": "〜より多い/少ない、〜と同じくらい"
+    },
+    "grammar": [
+      "más/menos + adj + que",
+      "tan + adj + como"
+    ],
+    "vocab": [
+      "más",
+      "menos",
+      "que",
+      "tan",
+      "como",
+      "mejor",
+      "peor"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'bigger than' in Spanish?",
+          "zh": "'比……大'怎么说？",
+          "ja": "「〜より大きい」は？"
+        },
+        "correct": "más grande que",
+        "options": [
+          "más grande que",
+          "grande más que",
+          "más que grande",
+          "mayor de"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Madrid es ___ grande que Barcelona.",
+        "blank": "más",
+        "options": [
+          "más",
+          "menos",
+          "tan",
+          "muy"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She is taller than me'",
+          "zh": "翻译：'她比我高'",
+          "ja": "翻訳：「彼女は私より背が高い」"
+        },
+        "answer": "Ella es más alta que yo",
+        "accept": [
+          "Ella es más alta que yo",
+          "ella es más alta que yo",
+          "Es más alta que yo"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'This book is as good as that one'",
+          "zh": "组句：'这本书和那本一样好'",
+          "ja": "並べ替え：「この本はあれと同じくらい良い」"
+        },
+        "words": [
+          "Este",
+          "libro",
+          "es",
+          "tan",
+          "bueno",
+          "como",
+          "ese"
+        ],
+        "answer": "Este libro es tan bueno como ese"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'mejor' is the comparative of...",
+          "zh": "'mejor'是……的比较级",
+          "ja": "「mejor」は……の比較級"
+        },
+        "correct": "bueno (good → better)",
+        "options": [
+          "bueno (good → better)",
+          "malo (bad → worse)",
+          "grande (big → bigger)",
+          "pequeño (small → smaller)"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Este café es ___ que el agua.",
+        "blank": "peor",
+        "options": [
+          "peor",
+          "mejor",
+          "más",
+          "menos"
+        ],
+        "hint": {
+          "en": "peor = worse (irregular comparative of malo)",
+          "zh": "peor = 更差（malo的不规则比较级）",
+          "ja": "peor = より悪い（maloの不規則比較級）"
+        }
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "más...que",
+            {
+              "en": "more...than",
+              "zh": "比……更",
+              "ja": "〜より多い"
+            }
+          ],
+          [
+            "menos...que",
+            {
+              "en": "less...than",
+              "zh": "比……少",
+              "ja": "〜より少ない"
+            }
+          ],
+          [
+            "tan...como",
+            {
+              "en": "as...as",
+              "zh": "和……一样",
+              "ja": "〜と同じくらい"
+            }
+          ],
+          [
+            "mejor",
+            {
+              "en": "better",
+              "zh": "更好",
+              "ja": "より良い"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": {
+      "en": "Object pronouns (lo, la, le)",
+      "zh": "宾语代词 (lo, la, le)",
+      "ja": "目的語代名詞 (lo, la, le)"
+    },
+    "desc": {
+      "en": "Direct and indirect object pronouns",
+      "zh": "直接宾语和间接宾语代词",
+      "ja": "直接目的語と間接目的語代名詞"
+    },
+    "grammar": [
+      "lo/la/los/las",
+      "le/les",
+      "position before verb"
+    ],
+    "vocab": [
+      "lo",
+      "la",
+      "los",
+      "las",
+      "le",
+      "les"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I see it (the book)' — which pronoun?",
+          "zh": "'我看到它了（那本书）' — 用哪个代词？",
+          "ja": "「それ（本）を見る」— どの代名詞？"
+        },
+        "correct": "Lo veo",
+        "options": [
+          "Lo veo",
+          "La veo",
+          "Le veo",
+          "Los veo"
+        ],
+        "hint": {
+          "en": "libro = masculine → lo",
+          "zh": "libro = 阳性 → lo",
+          "ja": "libro = 男性名詞 → lo"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "¿La manzana? ___ como.",
+        "blank": "La",
+        "options": [
+          "La",
+          "Lo",
+          "Le",
+          "Las"
+        ],
+        "hint": {
+          "en": "manzana = feminine → la",
+          "zh": "manzana = 阴性 → la",
+          "ja": "manzana = 女性名詞 → la"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I give it to her' (le + lo)",
+          "zh": "翻译：'我把它给她'",
+          "ja": "翻訳：「それを彼女にあげる」"
+        },
+        "answer": "Se lo doy",
+        "accept": [
+          "Se lo doy",
+          "se lo doy",
+          "Yo se lo doy"
+        ],
+        "hint": {
+          "en": "le + lo → se lo",
+          "zh": "le + lo → se lo",
+          "ja": "le + lo → se lo"
+        }
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'I read them (the books)'",
+          "zh": "组句：'我读它们（那些书）'",
+          "ja": "並べ替え：「それら（本）を読む」"
+        },
+        "words": [
+          "Los",
+          "leo"
+        ],
+        "answer": "Los leo"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "Where does the pronoun go?",
+          "zh": "代词放在哪里？",
+          "ja": "代名詞はどこに置く？"
+        },
+        "correct": "Before the conjugated verb",
+        "options": [
+          "Before the conjugated verb",
+          "After the conjugated verb",
+          "After the subject",
+          "At the end of the sentence"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo ___ llamo por teléfono.",
+        "blank": "le",
+        "options": [
+          "le",
+          "lo",
+          "la",
+          "se"
+        ],
+        "hint": {
+          "en": "llamar a alguien → indirect object → le",
+          "zh": "打电话给某人 → 间接宾语 → le",
+          "ja": "〜に電話する → 間接目的語 → le"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": {
+      "en": "Future: going to / will",
+      "zh": "将来时",
+      "ja": "未来形"
+    },
+    "desc": {
+      "en": "Ir a + infinitive and simple future",
+      "zh": "ir a + 不定式和简单将来时",
+      "ja": "ir a + 不定詞と単純未来"
+    },
+    "grammar": [
+      "ir a + inf (informal future)",
+      "future: -é, -ás, -á, -emos, -án"
+    ],
+    "vocab": [
+      "hablaré",
+      "comeré",
+      "viviré",
+      "haré",
+      "tendré",
+      "iré"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'I will speak' in simple future?",
+          "zh": "'我将说'的简单将来时？",
+          "ja": "「話すだろう」の単純未来形は？"
+        },
+        "correct": "hablaré",
+        "options": [
+          "hablaré",
+          "hablé",
+          "hablaba",
+          "hablo"
+        ],
+        "hint": {
+          "en": "Future = infinitive + -é (yo)",
+          "zh": "将来时 = 不定式 + -é (yo)",
+          "ja": "未来形 = 不定詞 + -é (yo)"
+        }
+      },
+      {
+        "type": "fill",
+        "sentence": "Mañana ___ paella.",
+        "blank": "comeré",
+        "options": [
+          "comeré",
+          "comí",
+          "como",
+          "comía"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'She will come tomorrow'",
+          "zh": "翻译：'她明天会来'",
+          "ja": "翻訳：「彼女は明日来るだろう」"
+        },
+        "answer": "Ella vendrá mañana",
+        "accept": [
+          "Ella vendrá mañana",
+          "Vendrá mañana",
+          "ella vendrá mañana"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'We will travel to Spain'",
+          "zh": "组句：'我们将去西班牙旅行'",
+          "ja": "並べ替え：「スペインに旅行するだろう」"
+        },
+        "words": [
+          "Viajaremos",
+          "a",
+          "España"
+        ],
+        "answer": "Viajaremos a España"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'haré' is the future of...",
+          "zh": "'haré'是……的将来时",
+          "ja": "「haré」は……の未来形"
+        },
+        "correct": "hacer (irregular stem: har-)",
+        "options": [
+          "hacer (irregular stem: har-)",
+          "haber (irregular)",
+          "ir (irregular)",
+          "hablar (regular)"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "hablaré",
+            {
+              "en": "I will speak",
+              "zh": "我将说",
+              "ja": "話すだろう"
+            }
+          ],
+          [
+            "tendré",
+            {
+              "en": "I will have",
+              "zh": "我将有",
+              "ja": "持つだろう"
+            }
+          ],
+          [
+            "haré",
+            {
+              "en": "I will do",
+              "zh": "我将做",
+              "ja": "するだろう"
+            }
+          ],
+          [
+            "iré",
+            {
+              "en": "I will go",
+              "zh": "我将去",
+              "ja": "行くだろう"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Qué ___ este fin de semana?",
+        "blank": "harás",
+        "options": [
+          "harás",
+          "haces",
+          "hiciste",
+          "hacías"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": {
+      "en": "Giving advice (should)",
+      "zh": "给建议（应该）",
+      "ja": "アドバイス（〜すべき）"
+    },
+    "desc": {
+      "en": "Conditional for advice and politeness",
+      "zh": "条件式用于建议和礼貌",
+      "ja": "条件法で助言と丁寧表現"
+    },
+    "grammar": [
+      "deberías + inf",
+      "conditional: -ía"
+    ],
+    "vocab": [
+      "debería",
+      "deberías",
+      "podría",
+      "me gustaría",
+      "sería"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'You should study more' — which form?",
+          "zh": "'你应该多学习' — 哪种形式？",
+          "ja": "「もっと勉強すべき」— どの形？"
+        },
+        "correct": "Deberías estudiar más",
+        "options": [
+          "Deberías estudiar más",
+          "Debes estudiar más",
+          "Debieras estudiar más",
+          "Debías estudiar más"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo ___ viajar a Japón.",
+        "blank": "me gustaría",
+        "options": [
+          "me gustaría",
+          "me gusta",
+          "me gustó",
+          "me gustará"
+        ],
+        "hint": {
+          "en": "me gustaría = I would like",
+          "zh": "me gustaría = 我想要",
+          "ja": "me gustaría = 〜したいのですが"
+        }
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'Could you help me?'",
+          "zh": "翻译：'你能帮我吗？（礼貌）'",
+          "ja": "翻訳：「手伝っていただけますか？」"
+        },
+        "answer": "¿Podrías ayudarme?",
+        "accept": [
+          "¿Podrías ayudarme?",
+          "Podrías ayudarme?",
+          "¿podrías ayudarme?"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'It would be good'",
+          "zh": "组句：'那会很好'",
+          "ja": "並べ替え：「良いだろう」"
+        },
+        "words": [
+          "Sería",
+          "bueno"
+        ],
+        "answer": "Sería bueno"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "The conditional is formed by...",
+          "zh": "条件式的构成方式是……",
+          "ja": "条件法の作り方は……"
+        },
+        "correct": "infinitive + -ía, -ías, -ía, -íamos, -ían",
+        "options": [
+          "infinitive + -ía, -ías, -ía, -íamos, -ían",
+          "stem + -aba",
+          "stem + -é, -aste",
+          "infinitive + -é, -ás"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ ir al cine esta noche.",
+        "blank": "Podríamos",
+        "options": [
+          "Podríamos",
+          "Podemos",
+          "Pudimos",
+          "Podremos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": {
+      "en": "At the store / shopping",
+      "zh": "在商店/购物",
+      "ja": "お店で/買い物"
+    },
+    "desc": {
+      "en": "Shopping vocabulary and interactions",
+      "zh": "购物词汇和对话",
+      "ja": "買い物の語彙と会話"
+    },
+    "grammar": [
+      "¿cuánto cuesta?",
+      "quisiera/me da"
+    ],
+    "vocab": [
+      "cuesta",
+      "barato",
+      "caro",
+      "talla",
+      "efectivo",
+      "tarjeta"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'How much does it cost?' in Spanish?",
+          "zh": "'多少钱？'怎么说？",
+          "ja": "「いくらですか？」はスペイン語で？"
+        },
+        "correct": "¿Cuánto cuesta?",
+        "options": [
+          "¿Cuánto cuesta?",
+          "¿Cómo cuesta?",
+          "¿Cuál cuesta?",
+          "¿Dónde cuesta?"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Es muy ___. No tengo dinero.",
+        "blank": "caro",
+        "options": [
+          "caro",
+          "barato",
+          "grande",
+          "bueno"
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": {
+          "en": "Translate: 'I would like this one, please'",
+          "zh": "翻译：'我想要这个，谢谢'",
+          "ja": "翻訳：「これをお願いします」"
+        },
+        "answer": "Quisiera este, por favor",
+        "accept": [
+          "Quisiera este, por favor",
+          "Me gustaría este, por favor",
+          "quisiera este, por favor",
+          "Quisiera éste, por favor"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "caro",
+            {
+              "en": "expensive",
+              "zh": "贵",
+              "ja": "高い"
+            }
+          ],
+          [
+            "barato",
+            {
+              "en": "cheap",
+              "zh": "便宜",
+              "ja": "安い"
+            }
+          ],
+          [
+            "efectivo",
+            {
+              "en": "cash",
+              "zh": "现金",
+              "ja": "現金"
+            }
+          ],
+          [
+            "tarjeta",
+            {
+              "en": "card",
+              "zh": "卡",
+              "ja": "カード"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": {
+          "en": "Build: 'Do you have a smaller size?'",
+          "zh": "组句：'有小一号的吗？'",
+          "ja": "並べ替え：「小さいサイズはありますか？」"
+        },
+        "words": [
+          "¿Tiene",
+          "una",
+          "talla",
+          "más",
+          "pequeña?"
+        ],
+        "answer": "¿Tiene una talla más pequeña?"
+      },
+      {
+        "type": "choose",
+        "prompt": {
+          "en": "'¿Pago con tarjeta o en efectivo?' means...",
+          "zh": "'¿Pago con tarjeta o en efectivo?'的意思是……",
+          "ja": "「¿Pago con tarjeta o en efectivo?」の意味は？"
+        },
+        "correct": "Do I pay by card or cash?",
+        "options": [
+          "Do I pay by card or cash?",
+          "Is it expensive or cheap?",
+          "Can I have a receipt?",
+          "Where do I pay?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": {"en": "Daily routine", "zh": "日常作息", "ja": "日課"},
+    "desc": {"en": "Routine verbs and frequency adverbs", "zh": "日常动词和频率副词", "ja": "日常の動詞と頻度副詞"},
+    "grammar": ["reflexive verbs in context", "frequency adverbs"],
+    "vocab": ["despertarse", "ducharse", "desayunar", "cenar", "acostarse", "siempre", "nunca", "a veces", "normalmente"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'I always wake up at 7' — which adverb?", "zh": "'我总是7点起床' — 哪个副词？", "ja": "「いつも7時に起きる」— どの副詞？"},
+        "correct": "siempre",
+        "options": ["siempre", "nunca", "a veces", "casi nunca"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me ___ a las 7 de la mañana.",
+        "blank": "despierto",
+        "options": ["despierto", "despertarse", "despierta", "despiertas"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I normally have breakfast at 8'", "zh": "组句：'我通常8点吃早餐'", "ja": "並べ替え：「普段8時に朝食を食べる」"},
+        "words": ["Normalmente", "desayuno", "a", "las", "ocho"],
+        "answer": "Normalmente desayuno a las ocho"
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'She goes to bed late'", "zh": "翻译：'她睡得很晚'", "ja": "翻訳：「彼女は遅く寝る」"},
+        "answer": "Se acuesta tarde",
+        "accept": ["Se acuesta tarde", "se acuesta tarde", "Ella se acuesta tarde"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["siempre", {"en": "always", "zh": "总是", "ja": "いつも"}],
+          ["a veces", {"en": "sometimes", "zh": "有时", "ja": "時々"}],
+          ["nunca", {"en": "never", "zh": "从不", "ja": "一度も〜ない"}],
+          ["de vez en cuando", {"en": "from time to time", "zh": "偶尔", "ja": "たまに"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ nunca como comida rápida.",
+        "blank": "Casi",
+        "options": ["Casi", "Muy", "Mucho", "Más"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": {"en": "Family & relationships", "zh": "家庭和关系", "ja": "家族と人間関係"},
+    "desc": {"en": "Extended family and relationship status", "zh": "大家庭和婚姻状况", "ja": "大家族と婚姻状況"},
+    "grammar": ["ser + status", "llevarse bien/mal"],
+    "vocab": ["soltero", "casado", "divorciado", "suegro", "cuñado", "nieto", "novio", "pareja", "llevarse bien"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "Your spouse's mother is your...", "zh": "你配偶的母亲是你的……", "ja": "配偶者の母親は……"},
+        "correct": "suegra",
+        "options": ["suegra", "cuñada", "nuera", "madrastra"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Mi hermano está ___. Se casó el año pasado.",
+        "blank": "casado",
+        "options": ["casado", "soltero", "divorciado", "viudo"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I get along well with my sister-in-law'", "zh": "翻译：'我和我嫂子相处得很好'", "ja": "翻訳：「義姉と仲が良い」"},
+        "answer": "Me llevo bien con mi cuñada",
+        "accept": ["Me llevo bien con mi cuñada", "me llevo bien con mi cuñada"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["suegro", {"en": "father-in-law", "zh": "岳父/公公", "ja": "義父"}],
+          ["cuñado", {"en": "brother-in-law", "zh": "大伯/小叔", "ja": "義兄弟"}],
+          ["nieto", {"en": "grandson", "zh": "孙子", "ja": "孫"}],
+          ["yerno", {"en": "son-in-law", "zh": "女婿", "ja": "婿"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'Está divorciada' means...", "zh": "'Está divorciada'的意思是……", "ja": "「Está divorciada」の意味は？"},
+        "correct": "She is divorced",
+        "options": ["She is divorced", "She is married", "She is single", "She is widowed"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'My grandchildren live in Madrid'", "zh": "组句：'我的孙子们住在马德里'", "ja": "並べ替え：「孫たちはマドリードに住んでいる」"},
+        "words": ["Mis", "nietos", "viven", "en", "Madrid"],
+        "answer": "Mis nietos viven en Madrid"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": {"en": "Health & doctor", "zh": "健康和看医生", "ja": "健康と医者"},
+    "desc": {"en": "Symptoms, body parts, doctor visits", "zh": "症状、身体部位、看医生", "ja": "症状、体の部位、診察"},
+    "grammar": ["doler (like gustar)", "tener + symptom"],
+    "vocab": ["dolor de cabeza", "tos", "gripe", "receta", "pastilla", "farmacia", "médico", "urgencias"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Me duele la cabeza' means...", "zh": "'Me duele la cabeza'的意思是……", "ja": "「Me duele la cabeza」の意味は？"},
+        "correct": "My head hurts",
+        "options": ["My head hurts", "I have a cold", "I feel sick", "I need medicine"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Tengo mucha ___ y me duele la garganta.",
+        "blank": "tos",
+        "options": ["tos", "fiebre", "gripe", "receta"],
+        "hint": {"en": "tos = cough", "zh": "tos = 咳嗽", "ja": "tos = 咳"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I need to go to the pharmacy'", "zh": "翻译：'我需要去药店'", "ja": "翻訳：「薬局に行かなければならない」"},
+        "answer": "Necesito ir a la farmacia",
+        "accept": ["Necesito ir a la farmacia", "Tengo que ir a la farmacia", "necesito ir a la farmacia"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'The doctor gave me a prescription'", "zh": "组句：'医生给了我处方'", "ja": "並べ替え：「医者が処方箋をくれた」"},
+        "words": ["El", "médico", "me", "dio", "una", "receta"],
+        "answer": "El médico me dio una receta"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["fiebre", {"en": "fever", "zh": "发烧", "ja": "熱"}],
+          ["tos", {"en": "cough", "zh": "咳嗽", "ja": "咳"}],
+          ["gripe", {"en": "flu", "zh": "流感", "ja": "インフルエンザ"}],
+          ["alergia", {"en": "allergy", "zh": "过敏", "ja": "アレルギー"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "El médico me recetó unas ___.",
+        "blank": "pastillas",
+        "options": ["pastillas", "recetas", "farmacias", "alergias"]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": {"en": "Housing & home", "zh": "住房", "ja": "住居"},
+    "desc": {"en": "Renting, housing vocabulary", "zh": "租房和住房词汇", "ja": "賃貸・住宅用語"},
+    "grammar": ["hay + noun", "es/está + description"],
+    "vocab": ["alquiler", "hipoteca", "terraza", "ascensor", "avería", "fianza", "calefacción", "mueble"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'fianza' in a rental context means...", "zh": "'fianza'在租房中的意思是……", "ja": "賃貸での「fianza」の意味は？"},
+        "correct": "security deposit",
+        "options": ["security deposit", "monthly rent", "mortgage", "insurance"]
+      },
+      {
+        "type": "fill",
+        "sentence": "El piso tiene ___ y aire acondicionado.",
+        "blank": "calefacción",
+        "options": ["calefacción", "alquiler", "fianza", "hipoteca"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'There is an elevator in my building'", "zh": "翻译：'我的楼里有电梯'", "ja": "翻訳：「私のビルにはエレベーターがある」"},
+        "answer": "Hay ascensor en mi edificio",
+        "accept": ["Hay ascensor en mi edificio", "hay ascensor en mi edificio", "En mi edificio hay ascensor"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I need to pay the deposit'", "zh": "组句：'我需要付押金'", "ja": "並べ替え：「敷金を払わなければならない」"},
+        "words": ["Tengo", "que", "pagar", "la", "fianza"],
+        "answer": "Tengo que pagar la fianza"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["alquiler", {"en": "rent", "zh": "房租", "ja": "家賃"}],
+          ["hipoteca", {"en": "mortgage", "zh": "房贷", "ja": "住宅ローン"}],
+          ["avería", {"en": "breakdown", "zh": "故障", "ja": "故障"}],
+          ["terraza", {"en": "terrace", "zh": "露台", "ja": "テラス"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'Me he mudado' means...", "zh": "'Me he mudado'的意思是……", "ja": "「Me he mudado」の意味は？"},
+        "correct": "I've moved (house)",
+        "options": ["I've moved (house)", "I've cleaned", "I've redecorated", "I've rented"]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": {"en": "Education & studies", "zh": "教育和学习", "ja": "教育と勉強"},
+    "desc": {"en": "School, exams, and academic vocabulary", "zh": "学校、考试和学术词汇", "ja": "学校・試験・学術用語"},
+    "grammar": ["acabar de + inf", "tener que + inf"],
+    "vocab": ["examen", "aprobar", "suspender", "nota", "deberes", "biblioteca", "matrícula", "curso"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Aprobé el examen' means...", "zh": "'Aprobé el examen'的意思是……", "ja": "「Aprobé el examen」の意味は？"},
+        "correct": "I passed the exam",
+        "options": ["I passed the exam", "I failed the exam", "I took the exam", "I studied for the exam"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Tengo que hacer los ___ para mañana.",
+        "blank": "deberes",
+        "options": ["deberes", "exámenes", "cursos", "notas"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I just signed up for a Spanish course'", "zh": "翻译：'我刚报名了西班牙语课程'", "ja": "翻訳：「スペイン語のコースに申し込んだばかりだ」"},
+        "answer": "Acabo de apuntarme a un curso de español",
+        "accept": ["Acabo de apuntarme a un curso de español", "acabo de apuntarme a un curso de español", "Me acabo de apuntar a un curso de español"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I need to study in the library'", "zh": "组句：'我需要在图书馆学习'", "ja": "並べ替え：「図書館で勉強しなければならない」"},
+        "words": ["Necesito", "estudiar", "en", "la", "biblioteca"],
+        "answer": "Necesito estudiar en la biblioteca"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["aprobar", {"en": "to pass", "zh": "及格", "ja": "合格する"}],
+          ["suspender", {"en": "to fail", "zh": "不及格", "ja": "不合格になる"}],
+          ["nota", {"en": "grade", "zh": "成绩", "ja": "成績"}],
+          ["matrícula", {"en": "enrollment", "zh": "注册", "ja": "入学登録"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Saqué muy buena ___ en el examen.",
+        "blank": "nota",
+        "options": ["nota", "curso", "deberes", "matrícula"]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": {"en": "Leisure & culture", "zh": "休闲和文化", "ja": "レジャーと文化"},
+    "desc": {"en": "Hobbies, entertainment, free time", "zh": "爱好、娱乐、空闲时间", "ja": "趣味・娯楽・自由時間"},
+    "grammar": ["gustar + inf", "soler + inf"],
+    "vocab": ["cine", "película", "serie", "deporte", "entrenar", "museo", "teatro", "afición", "ocio"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'¿Cuál es tu afición?' means...", "zh": "'¿Cuál es tu afición?'的意思是……", "ja": "「¿Cuál es tu afición?」の意味は？"},
+        "correct": "What's your hobby?",
+        "options": ["What's your hobby?", "What's your job?", "What's your name?", "What's your plan?"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me gusta ver ___ en el cine.",
+        "blank": "películas",
+        "options": ["películas", "novelas", "deportes", "museos"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I usually go to the gym'", "zh": "翻译：'我通常去健身房'", "ja": "翻訳：「普段ジムに行く」"},
+        "answer": "Suelo ir al gimnasio",
+        "accept": ["Suelo ir al gimnasio", "suelo ir al gimnasio", "Normalmente voy al gimnasio"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'We went to the museum yesterday'", "zh": "组句：'我们昨天去了博物馆'", "ja": "並べ替え：「昨日博物館に行った」"},
+        "words": ["Ayer", "fuimos", "al", "museo"],
+        "answer": "Ayer fuimos al museo"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["cine", {"en": "cinema", "zh": "电影院", "ja": "映画館"}],
+          ["teatro", {"en": "theater", "zh": "剧院", "ja": "劇場"}],
+          ["exposición", {"en": "exhibition", "zh": "展览", "ja": "展覧会"}],
+          ["novela", {"en": "novel", "zh": "小说", "ja": "小説"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "En mi tiempo libre me gusta ___.",
+        "blank": "pasear",
+        "options": ["pasear", "paseando", "paseo", "paseé"]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": {"en": "Eating out", "zh": "外出就餐", "ja": "外食"},
+    "desc": {"en": "Restaurant vocabulary and ordering", "zh": "餐厅词汇和点餐", "ja": "レストランの語彙と注文"},
+    "grammar": ["quisiera + noun", "para mí / de primero"],
+    "vocab": ["menú del día", "primer plato", "postre", "cuenta", "propina", "camarero", "reservar mesa"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'De primero, quiero sopa' means...", "zh": "'De primero, quiero sopa'的意思是……", "ja": "「De primero, quiero sopa」の意味は？"},
+        "correct": "For the first course, I want soup",
+        "options": ["For the first course, I want soup", "First, I want to leave", "The first soup is mine", "I want soup first thing in the morning"]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Nos puede traer la ___, por favor?",
+        "blank": "cuenta",
+        "options": ["cuenta", "propina", "mesa", "cocina"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I'd like to reserve a table for two'", "zh": "翻译：'我想订一张两人桌'", "ja": "翻訳：「2人用のテーブルを予約したいです」"},
+        "answer": "Quisiera reservar una mesa para dos",
+        "accept": ["Quisiera reservar una mesa para dos", "Me gustaría reservar una mesa para dos", "quisiera reservar una mesa para dos"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'The daily menu costs 12 euros'", "zh": "组句：'今日套餐12欧元'", "ja": "並べ替え：「日替わりメニューは12ユーロです」"},
+        "words": ["El", "menú", "del", "día", "cuesta", "12", "euros"],
+        "answer": "El menú del día cuesta 12 euros"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["primer plato", {"en": "first course", "zh": "第一道菜", "ja": "前菜"}],
+          ["segundo plato", {"en": "main course", "zh": "主菜", "ja": "メイン"}],
+          ["postre", {"en": "dessert", "zh": "甜点", "ja": "デザート"}],
+          ["cuenta", {"en": "bill", "zh": "账单", "ja": "勘定"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "De ___, quiero helado.",
+        "blank": "postre",
+        "options": ["postre", "primero", "segundo", "bebida"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": {"en": "Travel & transport", "zh": "旅行和交通", "ja": "旅行と交通"},
+    "desc": {"en": "Getting around, booking, at the station", "zh": "出行、预订、在车站", "ja": "移動・予約・駅で"},
+    "grammar": ["ir a + place", "present perfect for travel"],
+    "vocab": ["billete sencillo", "ida y vuelta", "andén", "retraso", "equipaje de mano", "alojamiento", "hotel"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Un billete de ida y vuelta' means...", "zh": "'Un billete de ida y vuelta'的意思是……", "ja": "「Un billete de ida y vuelta」の意味は？"},
+        "correct": "A round-trip ticket",
+        "options": ["A round-trip ticket", "A one-way ticket", "A first-class ticket", "A student ticket"]
+      },
+      {
+        "type": "fill",
+        "sentence": "El tren sale del ___ 5.",
+        "blank": "andén",
+        "options": ["andén", "retraso", "horario", "billete"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'The flight has a two-hour delay'", "zh": "翻译：'航班延误两小时'", "ja": "翻訳：「フライトは2時間遅れている」"},
+        "answer": "El vuelo tiene dos horas de retraso",
+        "accept": ["El vuelo tiene dos horas de retraso", "el vuelo tiene dos horas de retraso", "El vuelo tiene un retraso de dos horas"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I have already booked the hotel'", "zh": "组句：'我已经订好了酒店'", "ja": "並べ替え：「もうホテルを予約した」"},
+        "words": ["Ya", "he", "reservado", "el", "hotel"],
+        "answer": "Ya he reservado el hotel"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["salida", {"en": "departure", "zh": "出发", "ja": "出発"}],
+          ["llegada", {"en": "arrival", "zh": "到达", "ja": "到着"}],
+          ["equipaje", {"en": "luggage", "zh": "行李", "ja": "荷物"}],
+          ["alojamiento", {"en": "accommodation", "zh": "住宿", "ja": "宿泊"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Tengo que hacer ___ en la próxima estación.",
+        "blank": "transbordo",
+        "options": ["transbordo", "embarque", "retraso", "llegada"]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": {"en": "Weather & environment", "zh": "天气和环境", "ja": "天気と環境"},
+    "desc": {"en": "Weather, climate, environment", "zh": "天气、气候、环境", "ja": "天気・気候・環境"},
+    "grammar": ["impersonal verbs: llueve, nieva", "hacer + weather"],
+    "vocab": ["llover", "nevar", "nublado", "soleado", "tormenta", "viento", "contaminación", "reciclar"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Está nublado' means...", "zh": "'Está nublado'的意思是……", "ja": "「Está nublado」の意味は？"},
+        "correct": "It's cloudy",
+        "options": ["It's cloudy", "It's sunny", "It's raining", "It's windy"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Mañana va a ___ mucho.",
+        "blank": "llover",
+        "options": ["llover", "llueve", "lloviendo", "llovió"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'We should recycle more'", "zh": "翻译：'我们应该多回收'", "ja": "翻訳：「もっとリサイクルすべきだ」"},
+        "answer": "Deberíamos reciclar más",
+        "accept": ["Deberíamos reciclar más", "Debemos reciclar más", "Hay que reciclar más", "deberíamos reciclar más"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Today it's very hot and sunny'", "zh": "组句：'今天很热，天气晴朗'", "ja": "並べ替え：「今日はとても暑くて晴れている」"},
+        "words": ["Hoy", "hace", "mucho", "calor", "y", "está", "soleado"],
+        "answer": "Hoy hace mucho calor y está soleado"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["llover", {"en": "to rain", "zh": "下雨", "ja": "雨が降る"}],
+          ["nevar", {"en": "to snow", "zh": "下雪", "ja": "雪が降る"}],
+          ["tormenta", {"en": "storm", "zh": "暴风雨", "ja": "嵐"}],
+          ["viento", {"en": "wind", "zh": "风", "ja": "風"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'La contaminación es un problema' — contaminación means...", "zh": "'La contaminación es un problema' — contaminación的意思是……", "ja": "「La contaminación es un problema」— contaminaciónの意味は？"},
+        "correct": "pollution",
+        "options": ["pollution", "contamination of food", "weather", "temperature"]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": {"en": "Emotions & feelings", "zh": "情感和感受", "ja": "感情と気持ち"},
+    "desc": {"en": "Expressing how you feel", "zh": "表达你的感受", "ja": "気持ちを表す"},
+    "grammar": ["estar + emotion", "sentirse + adj"],
+    "vocab": ["nervioso", "preocupado", "sorprendido", "aburrido", "emocionado", "enfadado", "tranquilo", "llorar", "reír"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Estoy preocupado' means...", "zh": "'Estoy preocupado'的意思是……", "ja": "「Estoy preocupado」の意味は？"},
+        "correct": "I'm worried",
+        "options": ["I'm worried", "I'm bored", "I'm angry", "I'm scared"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Estoy muy ___ por el examen.",
+        "blank": "nervioso",
+        "options": ["nervioso", "tranquilo", "aburrido", "orgulloso"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'She was surprised'", "zh": "翻译：'她很惊讶'", "ja": "翻訳：「彼女は驚いた」"},
+        "answer": "Estaba sorprendida",
+        "accept": ["Estaba sorprendida", "Ella estaba sorprendida", "estaba sorprendida"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Don't be angry with me'", "zh": "组句：'别对我生气'", "ja": "並べ替え：「怒らないで」"},
+        "words": ["No", "estés", "enfadado", "conmigo"],
+        "answer": "No estés enfadado conmigo"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["nervioso", {"en": "nervous", "zh": "紧张", "ja": "緊張した"}],
+          ["aburrido", {"en": "bored", "zh": "无聊", "ja": "退屈した"}],
+          ["emocionado", {"en": "excited", "zh": "兴奋", "ja": "ワクワクした"}],
+          ["enfadado", {"en": "angry", "zh": "生气", "ja": "怒った"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "La película era tan triste que empecé a ___.",
+        "blank": "llorar",
+        "options": ["llorar", "reír", "sonreír", "cantar"]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": {"en": "Government & admin", "zh": "政府和行政", "ja": "行政手続き"},
+    "desc": {"en": "Documents, offices, bureaucracy", "zh": "文件、办公室、行政", "ja": "書類・役所・手続き"},
+    "grammar": ["necesitar + inf", "tener que + inf for obligations"],
+    "vocab": ["DNI", "NIE", "cita previa", "formulario", "solicitud", "ayuntamiento", "firmar", "empadronarse"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "To register your address in Spain, you need to...", "zh": "在西班牙登记住址需要……", "ja": "スペインで住所登録するには……"},
+        "correct": "empadronarse",
+        "options": ["empadronarse", "firmar", "renovar", "solicitar"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Necesito pedir ___ en el ayuntamiento.",
+        "blank": "cita previa",
+        "options": ["cita previa", "un formulario", "un DNI", "una solicitud"],
+        "hint": {"en": "cita previa = prior appointment", "zh": "cita previa = 预约", "ja": "cita previa = 事前予約"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I have to renew my ID card'", "zh": "翻译：'我需要更新我的身份证'", "ja": "翻訳：「身分証を更新しなければならない」"},
+        "answer": "Tengo que renovar mi DNI",
+        "accept": ["Tengo que renovar mi DNI", "tengo que renovar mi DNI", "Necesito renovar mi DNI"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'You need to fill out the form'", "zh": "组句：'你需要填写表格'", "ja": "並べ替え：「書類に記入する必要がある」"},
+        "words": ["Tienes", "que", "rellenar", "el", "formulario"],
+        "answer": "Tienes que rellenar el formulario"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["ayuntamiento", {"en": "city hall", "zh": "市政厅", "ja": "市役所"}],
+          ["comisaría", {"en": "police station", "zh": "警察局", "ja": "警察署"}],
+          ["embajada", {"en": "embassy", "zh": "大使馆", "ja": "大使館"}],
+          ["consulado", {"en": "consulate", "zh": "领事馆", "ja": "領事館"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "NIE is...", "zh": "NIE是……", "ja": "NIEとは……"},
+        "correct": "Foreigner ID number in Spain",
+        "options": ["Foreigner ID number in Spain", "A bank account", "A work permit", "A visa"]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": {"en": "Commands (imperative)", "zh": "命令式", "ja": "命令法"},
+    "desc": {"en": "Giving instructions and orders", "zh": "给出指令和命令", "ja": "指示と命令を出す"},
+    "grammar": ["tú imperative regular", "tú imperative irregular"],
+    "vocab": ["habla", "come", "escribe", "di", "haz", "pon", "ven", "siéntate", "cállate"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Habla más despacio' — what form is 'habla'?", "zh": "'Habla más despacio' — 'habla'是什么形式？", "ja": "「Habla más despacio」— 「habla」は何形？"},
+        "correct": "Imperative (tú)",
+        "options": ["Imperative (tú)", "Present (él)", "Preterite (él)", "Subjunctive"]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ aquí, por favor!",
+        "blank": "Ven",
+        "options": ["Ven", "Viene", "Venir", "Vienes"],
+        "hint": {"en": "venir → ven (irregular imperative)", "zh": "venir → ven（不规则命令式）", "ja": "venir → ven（不規則命令形）"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Tell me the truth'", "zh": "翻译：'告诉我真相'", "ja": "翻訳：「本当のことを言って」"},
+        "answer": "Dime la verdad",
+        "accept": ["Dime la verdad", "dime la verdad", "Di la verdad"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Sit down and be quiet'", "zh": "组句：'坐下，安静'", "ja": "並べ替え：「座って静かにして」"},
+        "words": ["Siéntate", "y", "cállate"],
+        "answer": "Siéntate y cállate"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["di", {"en": "say/tell (tú)", "zh": "说（你）", "ja": "言って"}],
+          ["haz", {"en": "do/make (tú)", "zh": "做（你）", "ja": "して"}],
+          ["pon", {"en": "put (tú)", "zh": "放（你）", "ja": "置いて"}],
+          ["sal", {"en": "go out (tú)", "zh": "出去（你）", "ja": "出て"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "Negative command: 'Don't eat that' = ...", "zh": "否定命令：'别吃那个' = ……", "ja": "否定命令：「それを食べないで」= ……"},
+        "correct": "No comas eso",
+        "options": ["No comas eso", "No come eso", "No comer eso", "No comes eso"]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": {"en": "Negation & indefinites", "zh": "否定和不定代词", "ja": "否定と不定代名詞"},
+    "desc": {"en": "Double negatives, algo/nada, alguien/nadie", "zh": "双重否定、某物/什么都没有", "ja": "二重否定、何か/何も〜ない"},
+    "grammar": ["no...nada/nadie/nunca", "algo/alguien vs nada/nadie"],
+    "vocab": ["nada", "nadie", "nunca", "tampoco", "algo", "alguien", "también", "todavía"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'No tengo nada' means...", "zh": "'No tengo nada'的意思是……", "ja": "「No tengo nada」の意味は？"},
+        "correct": "I don't have anything",
+        "options": ["I don't have anything", "I have nothing left", "I don't have enough", "I have something"]
+      },
+      {
+        "type": "fill",
+        "sentence": "No conozco a ___ en esta ciudad.",
+        "blank": "nadie",
+        "options": ["nadie", "alguien", "nada", "algo"],
+        "hint": {"en": "nadie = nobody (after no)", "zh": "nadie = 没有人（在no之后）", "ja": "nadie = 誰もいない（noの後）"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I've never been to Mexico'", "zh": "翻译：'我从没去过墨西哥'", "ja": "翻訳：「メキシコに行ったことがない」"},
+        "answer": "Nunca he estado en México",
+        "accept": ["Nunca he estado en México", "No he estado nunca en México", "nunca he estado en México"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I don't want anything either'", "zh": "组句：'我也什么都不想要'", "ja": "並べ替え：「私も何もいらない」"},
+        "words": ["Yo", "tampoco", "quiero", "nada"],
+        "answer": "Yo tampoco quiero nada"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["algo", {"en": "something", "zh": "某物", "ja": "何か"}],
+          ["nada", {"en": "nothing", "zh": "什么都没有", "ja": "何もない"}],
+          ["alguien", {"en": "someone", "zh": "某人", "ja": "誰か"}],
+          ["nadie", {"en": "nobody", "zh": "没有人", "ja": "誰もいない"}]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "Are double negatives correct in Spanish?", "zh": "双重否定在西班牙语中正确吗？", "ja": "スペイン語で二重否定は正しい？"},
+        "correct": "Yes, they are required",
+        "options": ["Yes, they are required", "No, they are grammatically wrong", "Only in informal speech", "Only in writing"]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": {"en": "Present progressive", "zh": "现在进行时", "ja": "現在進行形"},
+    "desc": {"en": "estar + gerund for right now", "zh": "estar + 动名词表示正在", "ja": "estar + ジェルンディオで「今」"},
+    "grammar": ["estar + -ando/-iendo", "irregular gerunds"],
+    "vocab": ["rápidamente", "lentamente", "perfectamente", "tranquilamente"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Estoy comiendo' means...", "zh": "'Estoy comiendo'的意思是……", "ja": "「Estoy comiendo」の意味は？"},
+        "correct": "I am eating (right now)",
+        "options": ["I am eating (right now)", "I ate", "I will eat", "I used to eat"]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Qué estás ___?",
+        "blank": "haciendo",
+        "options": ["haciendo", "haces", "hacer", "hecho"],
+        "hint": {"en": "hacer → haciendo (gerund)", "zh": "hacer → haciendo（动名词）", "ja": "hacer → haciendo（ジェルンディオ）"}
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'It's raining right now'", "zh": "翻译：'现在正在下雨'", "ja": "翻訳：「今雨が降っている」"},
+        "answer": "Está lloviendo ahora",
+        "accept": ["Está lloviendo ahora", "está lloviendo ahora", "Está lloviendo", "Ahora está lloviendo"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'The children are playing in the park'", "zh": "组句：'孩子们正在公园玩'", "ja": "並べ替え：「子供たちが公園で遊んでいる」"},
+        "words": ["Los", "niños", "están", "jugando", "en", "el", "parque"],
+        "answer": "Los niños están jugando en el parque"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "Gerund of 'dormir'?", "zh": "'dormir'的动名词是？", "ja": "「dormir」のジェルンディオは？"},
+        "correct": "durmiendo (o→u)",
+        "options": ["durmiendo (o→u)", "dormiendo", "durmando", "dormiando"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Estamos ___ español perfectamente.",
+        "blank": "hablando",
+        "options": ["hablando", "hablar", "hablamos", "hablado"]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": {"en": "Work & employment", "zh": "工作和就业", "ja": "仕事と雇用"},
+    "desc": {"en": "Job search, workplace, schedules", "zh": "找工作、工作场所、工作时间", "ja": "就活・職場・勤務時間"},
+    "grammar": ["present perfect for work experience", "conditional for polite requests"],
+    "vocab": ["paro", "currículum", "formación", "compañero de trabajo", "jornada completa", "despedir", "contratar"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Estoy en paro' means...", "zh": "'Estoy en paro'的意思是……", "ja": "「Estoy en paro」の意味は？"},
+        "correct": "I'm unemployed",
+        "options": ["I'm unemployed", "I'm at a park", "I'm on break", "I've stopped"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Trabajo a ___ completa, de 9 a 5.",
+        "blank": "jornada",
+        "options": ["jornada", "turno", "media", "horario"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I've sent my CV to three companies'", "zh": "翻译：'我把简历发给了三家公司'", "ja": "翻訳：「3社に履歴書を送った」"},
+        "answer": "He enviado mi currículum a tres empresas",
+        "accept": ["He enviado mi currículum a tres empresas", "he enviado mi currículum a tres empresas", "He mandado mi currículum a tres empresas"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'My coworker works the night shift'", "zh": "组句：'我同事上夜班'", "ja": "並べ替え：「同僚は夜勤だ」"},
+        "words": ["Mi", "compañero", "trabaja", "en", "el", "turno", "de", "noche"],
+        "answer": "Mi compañero trabaja en el turno de noche"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["contratar", {"en": "to hire", "zh": "雇用", "ja": "雇う"}],
+          ["despedir", {"en": "to fire", "zh": "解雇", "ja": "解雇する"}],
+          ["cobrar", {"en": "to get paid", "zh": "领工资", "ja": "給料をもらう"}],
+          ["fichar", {"en": "to clock in", "zh": "打卡", "ja": "出勤打刻する"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "La empresa va a ___ a dos personas nuevas.",
+        "blank": "contratar",
+        "options": ["contratar", "despedir", "cobrar", "fichar"]
+      }
+    ]
+  }
+]
