@@ -17,6 +17,14 @@ if (S.dark) document.body.classList.add('dark');
 window.__nav = (view) => go(view);
 window.__back = () => { import('./router.js').then(r => r.back()); };
 
+function goToApp() {
+  if (shouldShowDailyReview()) {
+    go('daily-review');
+  } else {
+    go('home');
+  }
+}
+
 if (isConfigured()) {
   initFirebase();
   onAuthChange(async (user) => {
@@ -29,23 +37,11 @@ if (isConfigured()) {
           await saveStateToCloud(S);
         }
       } catch (e) {}
-      if (shouldShowDailyReview()) {
-        go('daily-review');
-      } else {
-        go('home');
-      }
+      goToApp();
+    } else {
+      go('auth', { mode: 'login' });
     }
   });
-
-  if (shouldShowDailyReview()) {
-    go('daily-review');
-  } else {
-    go('home');
-  }
 } else {
-  if (shouldShowDailyReview()) {
-    go('daily-review');
-  } else {
-    go('home');
-  }
+  go('auth', { mode: 'login' });
 }

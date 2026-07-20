@@ -162,5 +162,90 @@
       {"es": "Aunque llueva manana, iremos a la playa.", "en": "Even if it rains tomorrow, we'll go to the beach.", "zh": "即使明天下雨，我们也去海滩。", "ja": "たとえ明日雨が降っても、ビーチに行く。"},
       {"es": "Por mucho que intento, no lo consigo.", "en": "No matter how much I try, I can't do it.", "zh": "无论我怎么尝试都做不到。", "ja": "いくら頑張っても、できない。"}
     ]
+  },
+  {
+    "id": "conditional",
+    "title": {"en": "Conditional Tense", "zh": "条件式", "ja": "条件法"},
+    "summary": {"en": "I would do, you would go", "zh": "我会做、你会去", "ja": "〜するだろう、〜するのに"},
+    "explanation": {
+      "en": "Express hypothetical actions, polite requests, and advice:\n\n**Formation:** infinitive + endings\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n- hablar → hablaría, hablarías, hablaría...\n- comer → comería...\n- vivir → viviría...\n\n**Irregular stems (same as future):**\n- tener → tendr-ía | poder → podr-ía\n- hacer → har-ía | decir → dir-ía\n- querer → querr-ía | saber → sabr-ía\n- salir → saldr-ía | venir → vendr-ía\n- haber → habr-ía | poner → pondr-ía\n\n**Uses:**\n- Hypothetical: Me gustaría viajar (I'd like to travel)\n- Advice: Yo que tú, estudiaría más (If I were you, I'd study more)\n- Polite: ¿Podrías ayudarme? (Could you help me?)\n- Reported future: Dijo que vendría (He said he would come)\n- Si clauses: Si tuviera dinero, viajaría (If I had money, I'd travel)",
+      "zh": "表达假设动作、礼貌请求和建议：\n\n**构成：** 不定式 + 词尾\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n**不规则词干（和将来时相同）：**\ntener→tendría | poder→podría | hacer→haría\ndecir→diría | querer→querría | saber→sabría\n\n**用法：**\n- 假设：Me gustaría viajar（我想去旅行）\n- 建议：Yo que tú, estudiaría más（我要是你，会多学习）\n- 礼貌：¿Podrías ayudarme?（你能帮我吗？）\n- 转述将来：Dijo que vendría（他说他会来）",
+      "ja": "仮定的な行動、丁寧な依頼、アドバイスを表します：\n\n**作り方：** 不定詞 + 語尾\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n**不規則語幹（未来形と同じ）：**\ntener→tendría | poder→podría | hacer→haría\ndecir→diría | querer→querría | saber→sabría\n\n**用法：**\n- 仮定：Me gustaría viajar（旅行したいなあ）\n- アドバイス：Yo que tú, estudiaría más（君だったら、もっと勉強する）\n- 丁寧：¿Podrías ayudarme?（手伝っていただけますか？）\n- 伝聞の未来：Dijo que vendría（来ると言っていた）"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablaría", "tú": "hablarías", "él/ella": "hablaría", "nosotros": "hablaríamos", "ellos": "hablarían"},
+      "tener": {"yo": "tendría", "tú": "tendrías", "él/ella": "tendría", "nosotros": "tendríamos", "ellos": "tendrían"},
+      "poder": {"yo": "podría", "tú": "podrías", "él/ella": "podría", "nosotros": "podríamos", "ellos": "podrían"}
+    },
+    "examples": [
+      {"es": "Me gustaría vivir en España.", "en": "I'd like to live in Spain.", "zh": "我想住在西班牙。", "ja": "スペインに住みたいなあ。"},
+      {"es": "¿Podrías repetir, por favor?", "en": "Could you repeat, please?", "zh": "请你能重复一下吗？", "ja": "もう一度言っていただけますか？"},
+      {"es": "Yo que tú, no iría.", "en": "If I were you, I wouldn't go.", "zh": "我要是你，就不去。", "ja": "君だったら、行かないな。"}
+    ]
+  },
+  {
+    "id": "future-tense",
+    "title": {"en": "Future Tense", "zh": "简单将来时", "ja": "未来形"},
+    "summary": {"en": "I will do, you will go (haré, irá)", "zh": "我将做、你将去", "ja": "〜するだろう（推量・予定）"},
+    "explanation": {
+      "en": "Express future plans, predictions, and probability:\n\n**Formation:** infinitive + endings\n-é, -ás, -á, -emos, -éis, -án\n\n- hablar → hablaré, hablarás, hablará...\n- comer → comeré...\n- vivir → viviré...\n\n**Irregular stems (same as conditional):**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | querer→querré | saber→sabré\nsalir→saldré | venir→vendré | haber→habrá\nponer→pondré | caber→cabré | valer→valdré\n\n**Uses:**\n- Predictions: Mañana lloverá (It will rain tomorrow)\n- Plans: El año que viene iré a Japón (Next year I'll go to Japan)\n- Promises: Te lo devolveré mañana (I'll return it tomorrow)\n- Probability (present): ¿Qué hora será? (What time could it be? / I wonder what time it is)\n- Serán las tres (It's probably three o'clock)\n\n**Future of probability:** Very common in spoken Spanish!\n- ¿Dónde estará Juan? = Where could Juan be?\n- Tendrá unos 30 años = He must be around 30\n\n**ir a + infinitive vs future:** ir a = planned/imminent, future simple = predictions/distant",
+      "zh": "表达未来计划、预测和猜测：\n\n**构成：** 不定式 + 词尾\n-é, -ás, -á, -emos, -éis, -án\n\n**不规则词干：**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | saber→sabré | salir→saldré\n\n**用法：**\n- 预测：Mañana lloverá（明天会下雨）\n- 计划：El año que viene iré a Japón（明年去日本）\n- 猜测（现在的）：¿Qué hora será?（现在几点？大概几点？）\n- Tendrá unos 30 años（他大概30岁左右）\n\n**猜测用法在口语中很常见！**\n和中文对比：'大概是……'= será...",
+      "ja": "未来の計画、予測、推量を表します：\n\n**作り方：** 不定詞 + 語尾\n-é, -ás, -á, -emos, -éis, -án\n\n**不規則語幹：**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | saber→sabré | salir→saldré\n\n**用法：**\n- 予測：Mañana lloverá（明日は雨だろう）\n- 計画：El año que viene iré a Japón（来年日本に行く）\n- 推量（現在の）：¿Qué hora será?（今何時だろう？）\n- Tendrá unos 30 años（30歳くらいだろう）\n\n**推量の未来形は会話で非常によく使われます！**\n日本語の「〜だろう」「〜でしょう」に近い"
+    },
+    "conjugation": {
+      "hablar": {"yo": "hablaré", "tú": "hablarás", "él/ella": "hablará", "nosotros": "hablaremos", "ellos": "hablarán"},
+      "hacer": {"yo": "haré", "tú": "harás", "él/ella": "hará", "nosotros": "haremos", "ellos": "harán"},
+      "tener": {"yo": "tendré", "tú": "tendrás", "él/ella": "tendrá", "nosotros": "tendremos", "ellos": "tendrán"}
+    },
+    "examples": [
+      {"es": "El año que viene iré a España.", "en": "Next year I'll go to Spain.", "zh": "明年我会去西班牙。", "ja": "来年スペインに行く。"},
+      {"es": "¿Qué hora será? Serán las tres.", "en": "What time could it be? It's probably three.", "zh": "现在几点？大概三点。", "ja": "何時だろう？3時くらいかな。"},
+      {"es": "Mañana hará buen tiempo.", "en": "Tomorrow the weather will be nice.", "zh": "明天天气会好的。", "ja": "明日はいい天気だろう。"}
+    ]
+  },
+  {
+    "id": "por-para",
+    "title": {"en": "Por vs Para", "zh": "por与para的区别", "ja": "por vs para"},
+    "summary": {"en": "Two words for 'for' with different uses", "zh": "两个'for'的不同用法", "ja": "「〜のために」の使い分け"},
+    "explanation": {
+      "en": "Both mean 'for' but are NOT interchangeable:\n\n**PARA** (destination/purpose/deadline):\n- Purpose: Estudio para aprender (I study to learn)\n- Recipient: Este regalo es para ti (This gift is for you)\n- Destination: Salgo para Madrid (I'm leaving for Madrid)\n- Deadline: Lo necesito para el lunes (I need it by Monday)\n- Opinion: Para mí, es importante (For me, it's important)\n- Comparison: Para un niño, habla muy bien (For a child, he speaks well)\n\n**POR** (cause/exchange/duration/through):\n- Cause/reason: Estudio por necesidad (I study out of necessity)\n- Exchange: Te lo cambio por esto (I'll trade it for this)\n- Duration: Viví allí por tres años (I lived there for three years)\n- Through/along: Pasé por tu casa (I went by your house)\n- Per: Tres veces por semana (Three times per week)\n- Agent: Fue escrito por Cervantes (It was written by Cervantes)\n- Means: Hablamos por teléfono (We talked by phone)\n- On behalf: Lo hice por ti (I did it for you / on your behalf)\n\n**Trick:** PARA = forward-looking (goal) | POR = backward-looking (cause)",
+      "zh": "两个都是'for'但不能互换：\n\n**PARA**（目的/方向/截止日期）：\n- 目的：Estudio para aprender（为了学习而学习）\n- 接收者：Este regalo es para ti（这礼物给你）\n- 方向：Salgo para Madrid（我出发去马德里）\n- 截止：Lo necesito para el lunes（周一前需要）\n- 观点：Para mí, es importante（对我来说很重要）\n\n**POR**（原因/交换/持续/经过）：\n- 原因：Estudio por necesidad（出于需要而学习）\n- 交换：Te lo cambio por esto（拿这个跟你换）\n- 持续：Viví allí por tres años（在那住了三年）\n- 经过：Pasé por tu casa（路过你家）\n- 每：Tres veces por semana（每周三次）\n\n**口诀：** PARA看前方（目标）| POR看后方（原因）",
+      "ja": "どちらも「〜のために」ですが、交換不可です：\n\n**PARA**（目的/方向/期限）：\n- 目的：Estudio para aprender（学ぶために勉強する）\n- 受取人：Este regalo es para ti（このプレゼントは君に）\n- 方向：Salgo para Madrid（マドリードに向けて出発する）\n- 期限：Lo necesito para el lunes（月曜日までに必要）\n- 意見：Para mí, es importante（私にとって大切）\n\n**POR**（原因/交換/期間/経由）：\n- 原因：Estudio por necesidad（必要に迫られて勉強する）\n- 交換：Te lo cambio por esto（これと交換する）\n- 期間：Viví allí por tres años（3年間住んだ）\n- 通過：Pasé por tu casa（家の前を通った）\n- 〜につき：Tres veces por semana（週3回）\n\n**コツ：** PARA=前を向く（目標）| POR=後ろを向く（原因）"
+    },
+    "examples": [
+      {"es": "Estudio español para trabajar en España.", "en": "I study Spanish to work in Spain.", "zh": "我学西班牙语是为了在西班牙工作。", "ja": "スペインで働くためにスペイン語を勉強する。"},
+      {"es": "Gracias por ayudarme.", "en": "Thanks for helping me.", "zh": "谢谢你帮我。", "ja": "手伝ってくれてありがとう。"},
+      {"es": "Pagué 50 euros por la cena.", "en": "I paid 50 euros for dinner.", "zh": "晚饭花了50欧。", "ja": "夕食に50ユーロ払った。"}
+    ]
+  },
+  {
+    "id": "combined-pronouns",
+    "title": {"en": "Combined Object Pronouns", "zh": "双宾语代词", "ja": "目的語代名詞の組み合わせ"},
+    "summary": {"en": "se lo dije, me lo dio (indirect + direct)", "zh": "se lo dije, me lo dio（间接+直接）", "ja": "se lo dije, me lo dio（間接+直接）"},
+    "explanation": {
+      "en": "When you have TWO object pronouns (indirect + direct):\n\n**Order:** Indirect BEFORE direct, both BEFORE the verb\n- Me lo dijo (He told it to me) — me=to me, lo=it\n- Te la envío (I'll send it to you) — te=to you, la=it(f)\n- Nos los trajo (She brought them to us)\n\n**LE/LES → SE before lo/la/los/las:**\n- Le di el libro → Se lo di (NOT *le lo)\n- Les compré flores → Se las compré\n\n**With infinitive/gerund — can attach to end:**\n- Quiero dártelo / Te lo quiero dar (I want to give it to you)\n- Está diciéndomelo / Me lo está diciendo (He's telling me it)\n\n**With commands — must attach to end (affirmative):**\n- ¡Dímelo! (Tell me it!) ¡Dáselo! (Give it to him!)\n- But negative: ¡No me lo digas! (Don't tell me!)\n\n**Full pronoun chart:**\nme + lo/la/los/las\nte + lo/la/los/las\nse + lo/la/los/las (from le/les)\nnos + lo/la/los/las",
+      "zh": "两个宾语代词（间接+直接）：\n\n**顺序：** 间接在前，直接在后，都在动词前\n- Me lo dijo（他告诉了我——me=给我，lo=它）\n- Te la envío（我寄给你——te=给你，la=它(阴)）\n\n**LE/LES在lo/la前变SE：**\n- Le di el libro → Se lo di（不能说*le lo）\n- Les compré flores → Se las compré\n\n**和不定式/副动词连用——可以放后面：**\n- Quiero dártelo = Te lo quiero dar\n\n**和命令式——肯定必须放后面：**\n- ¡Dímelo!（告诉我！）\n- 否定：¡No me lo digas!",
+      "ja": "目的語代名詞が2つある場合（間接+直接）：\n\n**順序：** 間接が先、直接が後、両方動詞の前\n- Me lo dijo（私に言った——me=私に、lo=それを）\n- Te la envío（君に送る——te=君に、la=それを(女)）\n\n**LE/LESはlo/laの前でSEに変わる：**\n- Le di el libro → Se lo di（*le loとは言えない）\n- Les compré flores → Se las compré\n\n**不定詞/現在分詞と——後ろに付けられる：**\n- Quiero dártelo = Te lo quiero dar\n\n**命令形と——肯定は必ず後ろ：**\n- ¡Dímelo!（教えて！）\n- 否定：¡No me lo digas!"
+    },
+    "examples": [
+      {"es": "¿Me lo puedes explicar?", "en": "Can you explain it to me?", "zh": "你能给我解释一下吗？", "ja": "説明してもらえますか？"},
+      {"es": "Se lo dije ayer.", "en": "I told him/her yesterday.", "zh": "我昨天告诉他了。", "ja": "昨日彼に言った。"},
+      {"es": "¡Dámelo! / ¡No me lo des!", "en": "Give it to me! / Don't give it to me!", "zh": "给我！/不要给我！", "ja": "くれ！/くれるな！"}
+    ]
+  },
+  {
+    "id": "comparatives-superlatives",
+    "title": {"en": "Comparatives & Superlatives", "zh": "比较级与最高级", "ja": "比較級と最上級"},
+    "summary": {"en": "más/menos que, el más, tan...como", "zh": "更/最/和……一样", "ja": "より〜、最も〜、〜と同じくらい"},
+    "explanation": {
+      "en": "Compare things and express extremes:\n\n**Comparatives:**\n- más + adj + que = more...than: Madrid es más grande que Toledo\n- menos + adj + que = less...than: Es menos caro que el otro\n- tan + adj + como = as...as: Es tan alto como su padre\n- tanto/a/os/as + noun + como = as much/many as: Tiene tantos libros como yo\n- más/menos + noun + que: Tiene más dinero que yo\n- verb + más/menos que: Trabaja más que yo\n\n**Irregular comparatives:**\n- bueno → mejor (NOT *más bueno): Este es mejor que ese\n- malo → peor: El tiempo está peor hoy\n- grande → mayor (age/importance): Es mayor que yo\n- pequeño → menor (age): Es mi hermana menor\n\n**Superlatives:**\n- el/la/los/las + más/menos + adj: Es el más alto de la clase\n- el mejor/peor/mayor/menor: Es la mejor película del año\n\n**Absolute superlative (-ísimo):**\n- guapo → guapísimo (extremely handsome)\n- bueno → buenísimo\n- fácil → facilísimo\n- rico → riquísimo (note: c→qu)",
+      "zh": "比较事物和表达极端：\n\n**比较级：**\n- más + 形容词 + que = 比……更：Madrid es más grande que Toledo\n- menos + 形容词 + que = 比……更少\n- tan + 形容词 + como = 和……一样：Es tan alto como su padre\n- tanto/a + 名词 + como = 和……一样多\n\n**不规则比较级：**\n- bueno→mejor（更好）| malo→peor（更差）\n- grande→mayor（更大/年长）| pequeño→menor（更小/年幼）\n\n**最高级：**\n- el/la más + 形容词：Es el más alto de la clase（班上最高的）\n\n**绝对最高级（-ísimo）：**\n- guapo→guapísimo | bueno→buenísimo",
+      "ja": "比較と最上級：\n\n**比較級：**\n- más + 形容詞 + que = 〜より：Madrid es más grande que Toledo\n- menos + 形容詞 + que = 〜より少ない\n- tan + 形容詞 + como = 〜と同じくらい：Es tan alto como su padre\n- tanto/a + 名詞 + como = 〜と同じくらい多い\n\n**不規則比較級：**\n- bueno→mejor（より良い）| malo→peor（より悪い）\n- grande→mayor（より大きい/年上）| pequeño→menor（より小さい/年下）\n\n**最上級：**\n- el/la más + 形容詞：Es el más alto de la clase（クラスで一番背が高い）\n\n**絶対最上級（-ísimo）：**\n- guapo→guapísimo | bueno→buenísimo"
+    },
+    "examples": [
+      {"es": "María es más inteligente que yo.", "en": "María is more intelligent than me.", "zh": "María比我聪明。", "ja": "マリアは私より賢い。"},
+      {"es": "Es la mejor película que he visto.", "en": "It's the best movie I've seen.", "zh": "这是我看过的最好的电影。", "ja": "今まで見た中で最高の映画だ。"},
+      {"es": "Es tan importante como el otro.", "en": "It's as important as the other one.", "zh": "和另一个一样重要。", "ja": "もう一方と同じくらい重要だ。"}
+    ]
   }
 ]

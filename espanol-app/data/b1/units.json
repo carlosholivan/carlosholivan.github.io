@@ -469,5 +469,722 @@
         "options": ["loneliness", "solidarity", "solution", "sun"]
       }
     ]
+  },
+  {
+    "id": 11,
+    "title": {"en": "Conditional tense", "zh": "条件式", "ja": "条件法"},
+    "desc": {"en": "I would do, could you...?", "zh": "我会做、你能……吗？", "ja": "〜するだろう、〜していただけますか"},
+    "grammar": ["infinitive + -ía endings", "irregular stems"],
+    "vocab": ["hablaría", "tendría", "podría", "me gustaría", "debería"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "How do you form the conditional?", "zh": "条件式怎么构成？", "ja": "条件法の作り方は？"},
+        "correct": "Infinitive + -ía, -ías, -ía, -íamos, -ían",
+        "options": ["Infinitive + -ía, -ías, -ía, -íamos, -ían", "Stem + -ara, -aras", "Infinitive + -é, -ás, -á", "Stem + -aba, -abas"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Me ___ vivir en la playa.",
+        "blank": "gustaría",
+        "options": ["gustaría", "gusta", "gustó", "gustaba"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Could you help me?'", "zh": "翻译：'你能帮我吗？'", "ja": "翻訳：「手伝っていただけますか？」"},
+        "answer": "¿Podrías ayudarme?",
+        "accept": ["¿Podrías ayudarme?", "Podrías ayudarme", "podrías ayudarme"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Yo que tú, ___ más.",
+        "blank": "estudiaría",
+        "options": ["estudiaría", "estudio", "estudié", "estudie"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'He said he would come'", "zh": "组句：'他说他会来'", "ja": "並べ替え：「来ると言っていた」"},
+        "words": ["Dijo", "que", "vendría"],
+        "answer": "Dijo que vendría"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'tener' in conditional → ?", "zh": "'tener'的条件式→？", "ja": "「tener」の条件法→？"},
+        "correct": "tendría (irregular stem tendr-)",
+        "options": ["tendría (irregular stem tendr-)", "tenería", "tenaría", "tenía"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": {"en": "Future tense", "zh": "简单将来时", "ja": "未来形"},
+    "desc": {"en": "I will do, predictions, probability", "zh": "我将做、预测、猜测", "ja": "〜するだろう、予測・推量"},
+    "grammar": ["infinitive + -é endings", "future of probability"],
+    "vocab": ["hablaré", "tendré", "haré", "sabré", "el año que viene"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Mañana ___ buen tiempo.",
+        "blank": "hará",
+        "options": ["hará", "hace", "hizo", "hacía"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'¿Qué hora será?' expresses...", "zh": "'¿Qué hora será?' 表达……", "ja": "「¿Qué hora será?」は何を表す？"},
+        "correct": "Probability/wondering (what time could it be?)",
+        "options": ["Probability/wondering (what time could it be?)", "A question about the future", "Past tense", "A command"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Next year I will travel to Spain'", "zh": "翻译：'明年我将去西班牙旅行'", "ja": "翻訳：「来年スペインに旅行する」"},
+        "answer": "El año que viene viajaré a España",
+        "accept": ["El año que viene viajaré a España", "el año que viene viajaré a España"]
+      },
+      {
+        "type": "fill",
+        "sentence": "___ unos 30 años. (He must be around 30)",
+        "blank": "Tendrá",
+        "options": ["Tendrá", "Tiene", "Tenía", "Tendría"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I will tell you tomorrow'", "zh": "组句：'明天我会告诉你'", "ja": "並べ替え：「明日君に言う」"},
+        "words": ["Te", "lo", "diré", "mañana"],
+        "answer": "Te lo diré mañana"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["haré", {"en": "I will do", "zh": "我将做", "ja": "するだろう"}],
+          ["sabré", {"en": "I will know", "zh": "我将知道", "ja": "知るだろう"}],
+          ["podré", {"en": "I will be able", "zh": "我将能", "ja": "できるだろう"}],
+          ["saldré", {"en": "I will leave", "zh": "我将出去", "ja": "出るだろう"}]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": {"en": "Por vs Para", "zh": "por与para", "ja": "por vs para"},
+    "desc": {"en": "Two words for 'for'", "zh": "两个'为了'的区别", "ja": "「〜のために」の使い分け"},
+    "grammar": ["para = purpose/destination", "por = cause/exchange/through"],
+    "vocab": ["para que", "por eso", "por supuesto", "sin embargo", "además"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Estudio español ___ trabajar en España.",
+        "blank": "para",
+        "options": ["para", "por", "de", "con"],
+        "hint": {"en": "para = purpose/goal", "zh": "para = 目的", "ja": "para = 目的"}
+      },
+      {
+        "type": "fill",
+        "sentence": "Gracias ___ tu ayuda.",
+        "blank": "por",
+        "options": ["por", "para", "de", "con"],
+        "hint": {"en": "por = cause/reason", "zh": "por = 原因", "ja": "por = 理由"}
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'Este regalo es ___ ti' — por or para?", "zh": "'Este regalo es ___ ti' — por还是para？", "ja": "「Este regalo es ___ ti」— porかparaか？"},
+        "correct": "para (recipient/destination)",
+        "options": ["para (recipient/destination)", "por (cause)", "por (exchange)", "para (duration)"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I paid 20 euros for the book'", "zh": "翻译：'我花了20欧买这本书'", "ja": "翻訳：「その本に20ユーロ払った」"},
+        "answer": "Pagué 20 euros por el libro",
+        "accept": ["Pagué 20 euros por el libro", "pagué 20 euros por el libro"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Pasamos ___ tu casa ayer.",
+        "blank": "por",
+        "options": ["por", "para", "en", "a"],
+        "hint": {"en": "por = through/by", "zh": "por = 经过", "ja": "por = 〜を通って"}
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["por eso", {"en": "that's why", "zh": "所以", "ja": "だから"}],
+          ["por supuesto", {"en": "of course", "zh": "当然", "ja": "もちろん"}],
+          ["por fin", {"en": "finally", "zh": "终于", "ja": "ついに"}],
+          ["por cierto", {"en": "by the way", "zh": "顺便说", "ja": "ところで"}]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": {"en": "Combined pronouns", "zh": "双宾语代词", "ja": "目的語代名詞の組合せ"},
+    "desc": {"en": "me lo, se lo, dímelo", "zh": "me lo, se lo, dímelo", "ja": "me lo, se lo, dímelo"},
+    "grammar": ["indirect + direct order", "le/les → se before lo/la"],
+    "vocab": ["me lo", "te lo", "se lo", "dímelo", "dáselo"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": {"en": "'Le di el libro' with pronouns becomes...", "zh": "'Le di el libro' 用代词变成……", "ja": "「Le di el libro」を代名詞にすると？"},
+        "correct": "Se lo di (le → se before lo)",
+        "options": ["Se lo di (le → se before lo)", "Le lo di", "Lo le di", "Lo se di"]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿___ puedes explicar? (it to me)",
+        "blank": "Me lo",
+        "options": ["Me lo", "Lo me", "Se lo", "Te lo"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Tell me!' (informal command)", "zh": "翻译：'告诉我！'（非正式命令）", "ja": "翻訳：「教えて！」（くだけた命令）"},
+        "answer": "¡Dímelo!",
+        "accept": ["¡Dímelo!", "Dímelo", "dímelo"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I told it to her yesterday'", "zh": "组句：'昨天我告诉她了'", "ja": "並べ替え：「昨日彼女に言った」"},
+        "words": ["Se", "lo", "dije", "ayer"],
+        "answer": "Se lo dije ayer"
+      },
+      {
+        "type": "fill",
+        "sentence": "No ___ ___ digas a nadie. (it to him)",
+        "blank": "se lo",
+        "options": ["se lo", "le lo", "lo se", "me lo"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "With affirmative commands, pronouns go...", "zh": "肯定命令式中，代词放在……", "ja": "肯定の命令では代名詞は……"},
+        "correct": "Attached to the end (dímelo)",
+        "options": ["Attached to the end (dímelo)", "Before the verb (me lo di)", "Between words", "Either position"]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": {"en": "Comparatives & superlatives", "zh": "比较级与最高级", "ja": "比較級と最上級"},
+    "desc": {"en": "más que, mejor, el más, -ísimo", "zh": "更、最好、最、-ísimo", "ja": "より〜、一番、最も、-ísimo"},
+    "grammar": ["más/menos que", "irregular: mejor, peor, mayor, menor"],
+    "vocab": ["mejor", "peor", "mayor", "menor", "tan...como", "buenísimo"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "España es más grande ___ Portugal.",
+        "blank": "que",
+        "options": ["que", "de", "como", "tan"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'bueno' comparative → ?", "zh": "'bueno'的比较级→？", "ja": "「bueno」の比較級→？"},
+        "correct": "mejor (NOT más bueno)",
+        "options": ["mejor (NOT más bueno)", "más bueno", "buenísimo", "lo bueno"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'She is as tall as her father'", "zh": "翻译：'她和她爸爸一样高'", "ja": "翻訳：「彼女はお父さんと同じくらい背が高い」"},
+        "answer": "Es tan alta como su padre",
+        "accept": ["Es tan alta como su padre", "Ella es tan alta como su padre"]
+      },
+      {
+        "type": "fill",
+        "sentence": "Es la ___ película que he visto.",
+        "blank": "mejor",
+        "options": ["mejor", "más buena", "buenísima", "mayor"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'He is the tallest in the class'", "zh": "组句：'他是班上最高的'", "ja": "並べ替え：「クラスで一番背が高い」"},
+        "words": ["Es", "el", "más", "alto", "de", "la", "clase"],
+        "answer": "Es el más alto de la clase"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["mejor", {"en": "better/best", "zh": "更好/最好", "ja": "より良い"}],
+          ["peor", {"en": "worse/worst", "zh": "更差/最差", "ja": "より悪い"}],
+          ["mayor", {"en": "older/bigger", "zh": "更大/年长", "ja": "年上の"}],
+          ["menor", {"en": "younger/smaller", "zh": "更小/年幼", "ja": "年下の"}]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": {"en": "Work & career", "zh": "工作和事业", "ja": "仕事とキャリア"},
+    "desc": {"en": "Jobs, interviews, workplace", "zh": "工作、面试、职场", "ja": "仕事・面接・職場"},
+    "grammar": ["conditional for polite requests", "future for plans"],
+    "vocab": ["empresa", "jefe", "sueldo", "contrato", "entrevista", "currículum"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Tengo una ___ de trabajo mañana.",
+        "blank": "entrevista",
+        "options": ["entrevista", "empresa", "reunión", "experiencia"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I would like to apply for this job'", "zh": "翻译：'我想申请这份工作'", "ja": "翻訳：「この仕事に応募したいのですが」"},
+        "answer": "Me gustaría solicitar este trabajo",
+        "accept": ["Me gustaría solicitar este trabajo", "me gustaría solicitar este trabajo", "Me gustaría solicitar este puesto"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["sueldo", {"en": "salary", "zh": "工资", "ja": "給料"}],
+          ["contrato", {"en": "contract", "zh": "合同", "ja": "契約"}],
+          ["desempleo", {"en": "unemployment", "zh": "失业", "ja": "失業"}],
+          ["jubilarse", {"en": "to retire", "zh": "退休", "ja": "退職する"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Le ___ porque llegaba tarde todos los días.",
+        "blank": "despidieron",
+        "options": ["despidieron", "solicitaron", "jubilaron", "contrataron"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I need to update my CV'", "zh": "组句：'我需要更新我的简历'", "ja": "並べ替え：「履歴書を更新しないと」"},
+        "words": ["Necesito", "actualizar", "mi", "currículum"],
+        "answer": "Necesito actualizar mi currículum"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'sueldo' means...", "zh": "'sueldo'的意思是……", "ja": "「sueldo」の意味は？"},
+        "correct": "salary",
+        "options": ["salary", "boss", "office", "contract"]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": {"en": "Health & body (advanced)", "zh": "健康和身体（进阶）", "ja": "健康と体（応用）"},
+    "desc": {"en": "Symptoms, treatment, emergencies", "zh": "症状、治疗、急诊", "ja": "症状・治療・緊急"},
+    "grammar": ["me duele/n", "conditional for advice"],
+    "vocab": ["síntoma", "enfermedad", "tratamiento", "urgencias", "recuperarse"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Me ___ mucho la cabeza.",
+        "blank": "duele",
+        "options": ["duele", "duelen", "dolor", "dolía"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'You should go to the emergency room'", "zh": "翻译：'你应该去急诊室'", "ja": "翻訳：「救急に行くべきだ」"},
+        "answer": "Deberías ir a urgencias",
+        "accept": ["Deberías ir a urgencias", "deberías ir a urgencias"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["síntoma", {"en": "symptom", "zh": "症状", "ja": "症状"}],
+          ["receta", {"en": "prescription", "zh": "处方", "ja": "処方箋"}],
+          ["alergia", {"en": "allergy", "zh": "过敏", "ja": "アレルギー"}],
+          ["sangre", {"en": "blood", "zh": "血", "ja": "血"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "El médico me dio un ___ para la infección.",
+        "blank": "tratamiento",
+        "options": ["tratamiento", "síntoma", "operación", "sangre"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I feel dizzy and nauseous'", "zh": "组句：'我头晕想吐'", "ja": "並べ替え：「めまいがして吐き気がする」"},
+        "words": ["Me", "mareo", "y", "tengo", "náuseas"],
+        "answer": "Me mareo y tengo náuseas"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'recuperarse' means...", "zh": "'recuperarse'的意思是……", "ja": "「recuperarse」の意味は？"},
+        "correct": "to recover",
+        "options": ["to recover", "to faint", "to operate", "to prescribe"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": {"en": "Travel & geography", "zh": "旅行和地理", "ja": "旅行と地理"},
+    "desc": {"en": "Countries, landscapes, tourism", "zh": "国家、风景、旅游", "ja": "国・風景・観光"},
+    "grammar": ["future for travel plans", "comparatives for places"],
+    "vocab": ["frontera", "paisaje", "isla", "costa", "alojamiento", "equipaje"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "El ___ de esta región es impresionante.",
+        "blank": "paisaje",
+        "options": ["paisaje", "equipaje", "vuelo", "turismo"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I will book a flight to Barcelona'", "zh": "翻译：'我会预订一个去巴塞罗那的航班'", "ja": "翻訳：「バルセロナ行きのフライトを予約する」"},
+        "answer": "Reservaré un vuelo a Barcelona",
+        "accept": ["Reservaré un vuelo a Barcelona", "reservaré un vuelo a Barcelona", "Voy a reservar un vuelo a Barcelona"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["isla", {"en": "island", "zh": "岛", "ja": "島"}],
+          ["selva", {"en": "jungle", "zh": "丛林", "ja": "ジャングル"}],
+          ["desierto", {"en": "desert", "zh": "沙漠", "ja": "砂漠"}],
+          ["costa", {"en": "coast", "zh": "海岸", "ja": "海岸"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "¿Has facturado ya el ___?",
+        "blank": "equipaje",
+        "options": ["equipaje", "paisaje", "alojamiento", "vuelo"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Spain has more coast than France'", "zh": "组句：'西班牙的海岸比法国多'", "ja": "並べ替え：「スペインはフランスより海岸線が長い」"},
+        "words": ["España", "tiene", "más", "costa", "que", "Francia"],
+        "answer": "España tiene más costa que Francia"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'alojamiento' means...", "zh": "'alojamiento'的意思是……", "ja": "「alojamiento」の意味は？"},
+        "correct": "accommodation",
+        "options": ["accommodation", "luggage", "flight", "landscape"]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": {"en": "Media & press", "zh": "媒体和新闻", "ja": "メディアと報道"},
+    "desc": {"en": "News, journalism, opinions", "zh": "新闻、记者、观点", "ja": "ニュース・ジャーナリズム・意見"},
+    "grammar": ["reported speech with media", "passive se for news"],
+    "vocab": ["noticia", "periodista", "prensa", "publicidad", "titular"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Según la ___, habrá elecciones en marzo.",
+        "blank": "prensa",
+        "options": ["prensa", "noticia", "publicidad", "emisora"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'The journalist reported that the president resigned'", "zh": "翻译：'记者报道总统辞职了'", "ja": "翻訳：「記者は大統領が辞任したと報じた」"},
+        "answer": "El periodista informó que el presidente dimitió",
+        "accept": ["El periodista informó que el presidente dimitió", "el periodista informó que el presidente dimitió"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["noticia", {"en": "news item", "zh": "新闻", "ja": "ニュース"}],
+          ["titular", {"en": "headline", "zh": "标题", "ja": "見出し"}],
+          ["cadena", {"en": "TV channel", "zh": "电视台", "ja": "テレビ局"}],
+          ["publicidad", {"en": "advertising", "zh": "广告", "ja": "広告"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "El ___ de hoy dice que subirán los impuestos.",
+        "blank": "titular",
+        "options": ["titular", "periodista", "cadena", "emisora"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'It is said that the economy will improve'", "zh": "组句：'据说经济会好转'", "ja": "並べ替え：「経済は改善すると言われている」"},
+        "words": ["Se", "dice", "que", "la", "economía", "mejorará"],
+        "answer": "Se dice que la economía mejorará"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'opinar' means...", "zh": "'opinar'的意思是……", "ja": "「opinar」の意味は？"},
+        "correct": "to give an opinion",
+        "options": ["to give an opinion", "to operate", "to open", "to optimize"]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": {"en": "Cooking & food", "zh": "烹饪和食物", "ja": "料理と食べ物"},
+    "desc": {"en": "Recipes, cooking verbs, flavors", "zh": "食谱、烹饪动词、味道", "ja": "レシピ・調理法・味"},
+    "grammar": ["imperative for recipes", "se + verb for instructions"],
+    "vocab": ["freír", "hervir", "asar", "mezclar", "picar", "sabor"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Primero, ___ la cebolla en trozos pequeños.",
+        "blank": "pica",
+        "options": ["pica", "hierve", "asa", "fríe"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'Boil the water and add salt'", "zh": "翻译：'把水烧开然后加盐'", "ja": "翻訳：「水を沸かして塩を入れて」"},
+        "answer": "Hierve el agua y añade sal",
+        "accept": ["Hierve el agua y añade sal", "hierve el agua y añade sal"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["freír", {"en": "to fry", "zh": "煎/炸", "ja": "揚げる"}],
+          ["hervir", {"en": "to boil", "zh": "煮", "ja": "沸かす"}],
+          ["asar", {"en": "to roast", "zh": "烤", "ja": "焼く"}],
+          ["mezclar", {"en": "to mix", "zh": "混合", "ja": "混ぜる"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Esta sopa está muy ___. Le falta sal.",
+        "blank": "sosa",
+        "options": ["sosa", "picante", "rica", "dulce"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'Put it in the oven for 20 minutes'", "zh": "组句：'放入烤箱20分钟'", "ja": "並べ替え：「オーブンに20分入れて」"},
+        "words": ["Ponlo", "en", "el", "horno", "20", "minutos"],
+        "answer": "Ponlo en el horno 20 minutos"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'sartén' is...", "zh": "'sartén'是……", "ja": "「sartén」は？"},
+        "correct": "frying pan",
+        "options": ["frying pan", "oven", "pot", "knife"]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": {"en": "Education & studies", "zh": "教育和学习", "ja": "教育と学問"},
+    "desc": {"en": "University, exams, degrees", "zh": "大学、考试、学位", "ja": "大学・試験・学位"},
+    "grammar": ["present perfect for achievements", "subjunctive for wishes"],
+    "vocab": ["carrera", "beca", "aprobar", "suspender", "tesis", "investigación"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "He ___ todas las asignaturas este semestre.",
+        "blank": "aprobado",
+        "options": ["aprobado", "suspendido", "matriculado", "investigado"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'I hope I get the scholarship'", "zh": "翻译：'我希望能拿到奖学金'", "ja": "翻訳：「奨学金をもらえるといいな」"},
+        "answer": "Espero que me den la beca",
+        "accept": ["Espero que me den la beca", "espero que me den la beca", "Ojalá me den la beca"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["aprobar", {"en": "to pass (exam)", "zh": "及格", "ja": "合格する"}],
+          ["suspender", {"en": "to fail (exam)", "zh": "不及格", "ja": "落ちる"}],
+          ["beca", {"en": "scholarship", "zh": "奖学金", "ja": "奨学金"}],
+          ["tesis", {"en": "thesis", "zh": "论文", "ja": "論文"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Estoy haciendo un ___ en lingüística.",
+        "blank": "máster",
+        "options": ["máster", "beca", "asignatura", "matrícula"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'She is doing research on climate change'", "zh": "组句：'她在做关于气候变化的研究'", "ja": "並べ替え：「気候変動の研究をしている」"},
+        "words": ["Está", "haciendo", "investigación", "sobre", "el", "cambio", "climático"],
+        "answer": "Está haciendo investigación sobre el cambio climático"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'matrícula' means...", "zh": "'matrícula'的意思是……", "ja": "「matrícula」の意味は？"},
+        "correct": "enrollment/tuition",
+        "options": ["enrollment/tuition", "thesis", "scholarship", "subject"]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": {"en": "Law & justice", "zh": "法律与司法", "ja": "法律と司法"},
+    "desc": {"en": "Crime, trials, legal system", "zh": "犯罪、审判、法律制度", "ja": "犯罪・裁判・法制度"},
+    "grammar": ["passive se in legal context", "past tenses for events"],
+    "vocab": ["juicio", "delito", "abogado", "juez", "culpable", "inocente"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "El ___ declaró al acusado inocente.",
+        "blank": "juez",
+        "options": ["juez", "abogado", "testigo", "delito"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'The lawyer says his client is innocent'", "zh": "翻译：'律师说他的当事人是无辜的'", "ja": "翻訳：「弁護士は依頼人は無罪だと言っている」"},
+        "answer": "El abogado dice que su cliente es inocente",
+        "accept": ["El abogado dice que su cliente es inocente", "el abogado dice que su cliente es inocente"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["juicio", {"en": "trial", "zh": "审判", "ja": "裁判"}],
+          ["delito", {"en": "crime", "zh": "犯罪", "ja": "犯罪"}],
+          ["multa", {"en": "fine/ticket", "zh": "罚款", "ja": "罰金"}],
+          ["testigo", {"en": "witness", "zh": "证人", "ja": "証人"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Puse una ___ en la policía por el robo.",
+        "blank": "denuncia",
+        "options": ["denuncia", "multa", "juicio", "delito"]
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'culpable' is the opposite of...", "zh": "'culpable'的反义词是……", "ja": "「culpable」の反対は？"},
+        "correct": "inocente",
+        "options": ["inocente", "abogado", "testigo", "juez"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'They reported the theft to the police'", "zh": "组句：'他们向警方报告了盗窃'", "ja": "並べ替え：「警察に盗難を届け出た」"},
+        "words": ["Denunciaron", "el", "robo", "a", "la", "policía"],
+        "answer": "Denunciaron el robo a la policía"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": {"en": "Arts & culture", "zh": "艺术和文化", "ja": "芸術と文化"},
+    "desc": {"en": "Theater, literature, exhibitions", "zh": "戏剧、文学、展览", "ja": "演劇・文学・展覧会"},
+    "grammar": ["subjunctive for recommendations", "superlatives for reviews"],
+    "vocab": ["exposición", "espectáculo", "novela", "obra de teatro", "estreno"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Te recomiendo que ___ a ver esa exposición.",
+        "blank": "vayas",
+        "options": ["vayas", "vas", "irás", "ibas"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'It's the best novel I've ever read'", "zh": "翻译：'这是我读过的最好的小说'", "ja": "翻訳：「今まで読んだ中で最高の小説だ」"},
+        "answer": "Es la mejor novela que he leído",
+        "accept": ["Es la mejor novela que he leído", "es la mejor novela que he leído"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["exposición", {"en": "exhibition", "zh": "展览", "ja": "展覧会"}],
+          ["estreno", {"en": "premiere", "zh": "首映", "ja": "初演"}],
+          ["poesía", {"en": "poetry", "zh": "诗歌", "ja": "詩"}],
+          ["patrimonio", {"en": "heritage", "zh": "遗产", "ja": "遺産"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "El ___ de la película fue un éxito total.",
+        "blank": "estreno",
+        "options": ["estreno", "director", "espectáculo", "patrimonio"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I suggest you read this novel'", "zh": "组句：'我建议你读这本小说'", "ja": "並べ替え：「この小説を読むことを勧める」"},
+        "words": ["Te", "sugiero", "que", "leas", "esta", "novela"],
+        "answer": "Te sugiero que leas esta novela"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'obra de teatro' means...", "zh": "'obra de teatro'的意思是……", "ja": "「obra de teatro」の意味は？"},
+        "correct": "play (theater)",
+        "options": ["play (theater)", "sculpture", "exhibition", "movie"]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": {"en": "Social issues", "zh": "社会问题", "ja": "社会問題"},
+    "desc": {"en": "Poverty, volunteering, solidarity", "zh": "贫穷、志愿服务、团结", "ja": "貧困・ボランティア・連帯"},
+    "grammar": ["subjunctive for wishes about society", "conditional for proposals"],
+    "vocab": ["voluntariado", "ONG", "pobreza", "desigualdad", "refugiado", "paz"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Ojalá hubiera menos ___ en el mundo.",
+        "blank": "desigualdad",
+        "options": ["desigualdad", "solidaridad", "voluntariado", "paz"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'We should help refugees'", "zh": "翻译：'我们应该帮助难民'", "ja": "翻訳：「難民を助けるべきだ」"},
+        "answer": "Deberíamos ayudar a los refugiados",
+        "accept": ["Deberíamos ayudar a los refugiados", "deberíamos ayudar a los refugiados"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["pobreza", {"en": "poverty", "zh": "贫穷", "ja": "貧困"}],
+          ["solidaridad", {"en": "solidarity", "zh": "团结", "ja": "連帯"}],
+          ["injusticia", {"en": "injustice", "zh": "不公正", "ja": "不正"}],
+          ["donar", {"en": "to donate", "zh": "捐赠", "ja": "寄付する"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Colaboro con una ___ que ayuda a niños.",
+        "blank": "ONG",
+        "options": ["ONG", "paz", "pobreza", "multa"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I would like there to be more peace'", "zh": "组句：'我希望有更多和平'", "ja": "並べ替え：「もっと平和であればいいのに」"},
+        "words": ["Me", "gustaría", "que", "hubiera", "más", "paz"],
+        "answer": "Me gustaría que hubiera más paz"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'voluntariado' means...", "zh": "'voluntariado'的意思是……", "ja": "「voluntariado」の意味は？"},
+        "correct": "volunteering",
+        "options": ["volunteering", "volunteer army", "voluntary exam", "tourism"]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": {"en": "Housing & moving", "zh": "住房和搬家", "ja": "住居と引越し"},
+    "desc": {"en": "Renting, buying, neighborhoods", "zh": "租房、买房、街区", "ja": "賃貸・購入・地区"},
+    "grammar": ["se vende/se alquila", "conditional for preferences"],
+    "vocab": ["mudarse", "alquiler", "hipoteca", "piso", "barrio", "propietario"],
+    "exercises": [
+      {
+        "type": "fill",
+        "sentence": "Quiero ___ a un barrio más tranquilo.",
+        "blank": "mudarme",
+        "options": ["mudarme", "alquilar", "reformar", "compartir"]
+      },
+      {
+        "type": "translate",
+        "prompt": {"en": "Translate: 'The apartment is furnished and close to the center'", "zh": "翻译：'这公寓带家具并且靠近市中心'", "ja": "翻訳：「そのマンションは家具付きで中心部に近い」"},
+        "answer": "El piso está amueblado y cerca del centro",
+        "accept": ["El piso está amueblado y cerca del centro", "el piso está amueblado y cerca del centro"]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          ["alquiler", {"en": "rent", "zh": "租金", "ja": "家賃"}],
+          ["hipoteca", {"en": "mortgage", "zh": "房贷", "ja": "住宅ローン"}],
+          ["propietario", {"en": "owner/landlord", "zh": "房东", "ja": "大家"}],
+          ["inquilino", {"en": "tenant", "zh": "租户", "ja": "入居者"}]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "Se ___ piso de dos habitaciones.",
+        "blank": "alquila",
+        "options": ["alquila", "alquilan", "vende", "compra"]
+      },
+      {
+        "type": "order",
+        "prompt": {"en": "Build: 'I would prefer a quieter neighborhood'", "zh": "组句：'我更喜欢一个更安静的街区'", "ja": "並べ替え：「もっと静かな地区がいいのだけど」"},
+        "words": ["Preferiría", "un", "barrio", "más", "tranquilo"],
+        "answer": "Preferiría un barrio más tranquilo"
+      },
+      {
+        "type": "choose",
+        "prompt": {"en": "'compartir piso' means...", "zh": "'compartir piso'的意思是……", "ja": "「compartir piso」の意味は？"},
+        "correct": "to share a flat",
+        "options": ["to share a flat", "to buy a flat", "to sell a flat", "to clean a flat"]
+      }
+    ]
   }
 ]
