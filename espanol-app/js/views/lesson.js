@@ -15,6 +15,33 @@ register('lesson', async (el, params) => {
   let current = 0;
   let hearts = 3;
   let correct = 0;
+  const lang = S.lang || 'en';
+
+  if (unit.grammarIntro) {
+    renderGrammarIntro();
+  } else {
+    renderExercise();
+  }
+
+  function renderGrammarIntro() {
+    const intro = unit.grammarIntro[lang] || unit.grammarIntro.en;
+    const vocabHtml = (unit.newVocab || []).map(v => {
+      const tr = v[lang] || v.en;
+      return `<span class="vocab-pill"><span class="es">${v.word}</span><span class="tr">${tr}</span></span>`;
+    }).join('');
+
+    el.innerHTML = `<div class="grammar-page fade">
+      <div class="flex items-center gap-12 mb-16">
+        <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
+        <div class="grow"><span class="h3">${unit.title[lang] || unit.title.en}</span></div>
+      </div>
+      ${vocabHtml ? `<div class="muted small mb-8" style="font-weight:600">${t('newWords')}</div><div class="vocab-pills">${vocabHtml}</div>` : ''}
+      <div class="grammar-section">${intro}</div>
+      <button class="btn" onclick="window.__startExercises()">${t('startExercises')}</button>
+    </div>`;
+  }
+
+  window.__startExercises = () => renderExercise();
 
   function renderExercise() {
     if (current >= exercises.length) {

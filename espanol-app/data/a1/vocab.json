@@ -1,295 +1,3372 @@
 [
-  {"word":"hola","m":{"en":"hello","zh":"你好","ja":"こんにちは"},"gender":null,"unit":1},
-  {"word":"adiós","m":{"en":"goodbye","zh":"再见","ja":"さようなら"},"gender":null,"unit":1},
-  {"word":"buenos días","m":{"en":"good morning","zh":"早上好","ja":"おはようございます"},"gender":null,"unit":1},
-  {"word":"buenas noches","m":{"en":"good night","zh":"晚上好","ja":"こんばんは"},"gender":null,"unit":1},
-  {"word":"gracias","m":{"en":"thank you","zh":"谢谢","ja":"ありがとう"},"gender":null,"unit":1},
-  {"word":"por favor","m":{"en":"please","zh":"请","ja":"お願いします"},"gender":null,"unit":1},
-  {"word":"yo","m":{"en":"I","zh":"我","ja":"私"},"gender":null,"unit":1},
-  {"word":"soy","m":{"en":"I am (ser)","zh":"我是","ja":"〜です（ser）"},"gender":null,"unit":1},
-  {"word":"tú","m":{"en":"you (informal)","zh":"你","ja":"君"},"gender":null,"unit":2},
-  {"word":"usted","m":{"en":"you (formal)","zh":"您","ja":"あなた（敬語）"},"gender":null,"unit":2},
-  {"word":"eres","m":{"en":"you are (ser)","zh":"你是","ja":"〜です（ser/tú）"},"gender":null,"unit":2},
-  {"word":"él","m":{"en":"he","zh":"他","ja":"彼"},"gender":"m","unit":3},
-  {"word":"ella","m":{"en":"she","zh":"她","ja":"彼女"},"gender":"f","unit":3},
-  {"word":"nosotros","m":{"en":"we","zh":"我们","ja":"私たち"},"gender":"m","unit":3},
-  {"word":"ellos","m":{"en":"they","zh":"他们","ja":"彼ら"},"gender":"m","unit":3},
-  {"word":"es","m":{"en":"is (ser)","zh":"是","ja":"〜です（ser/él/ella）"},"gender":null,"unit":3},
-  {"word":"profesor","m":{"en":"teacher (m)","zh":"老师（男）","ja":"先生（男）"},"gender":"m","unit":3},
-  {"word":"profesora","m":{"en":"teacher (f)","zh":"老师（女）","ja":"先生（女）"},"gender":"f","unit":3},
-  {"word":"doctor","m":{"en":"doctor (m)","zh":"医生（男）","ja":"医者（男）"},"gender":"m","unit":3},
-  {"word":"doctora","m":{"en":"doctor (f)","zh":"医生（女）","ja":"医者（女）"},"gender":"f","unit":3},
-  {"word":"ingeniero","m":{"en":"engineer (m)","zh":"工程师（男）","ja":"エンジニア（男）"},"gender":"m","unit":3},
-  {"word":"estudiante","m":{"en":"student","zh":"学生","ja":"学生"},"gender":null,"unit":3},
-  {"word":"abogado","m":{"en":"lawyer","zh":"律师","ja":"弁護士"},"gender":"m","unit":3},
-  {"word":"camarero","m":{"en":"waiter","zh":"服务员","ja":"ウェイター"},"gender":"m","unit":3},
-  {"word":"enfermero","m":{"en":"nurse (m)","zh":"护士（男）","ja":"看護師（男）"},"gender":"m","unit":3},
-  {"word":"policía","m":{"en":"police officer","zh":"警察","ja":"警察"},"gender":null,"unit":3},
-  {"word":"el","m":{"en":"the (m)","zh":"定冠词（阳性）","ja":"定冠詞（男性）"},"gender":"m","unit":4},
-  {"word":"la","m":{"en":"the (f)","zh":"定冠词（阴性）","ja":"定冠詞（女性）"},"gender":"f","unit":4},
-  {"word":"libro","m":{"en":"book","zh":"书","ja":"本"},"gender":"m","unit":4},
-  {"word":"mesa","m":{"en":"table","zh":"桌子","ja":"テーブル"},"gender":"f","unit":4},
-  {"word":"silla","m":{"en":"chair","zh":"椅子","ja":"椅子"},"gender":"f","unit":4},
-  {"word":"gato","m":{"en":"cat","zh":"猫","ja":"猫"},"gender":"m","unit":4},
-  {"word":"casa","m":{"en":"house","zh":"房子","ja":"家"},"gender":"f","unit":4},
-  {"word":"puerta","m":{"en":"door","zh":"门","ja":"ドア"},"gender":"f","unit":4},
-  {"word":"ventana","m":{"en":"window","zh":"窗户","ja":"窓"},"gender":"f","unit":4},
-  {"word":"los","m":{"en":"the (m. plural)","zh":"定冠词（阳性复数）","ja":"定冠詞（男性複数）"},"gender":"m","unit":5},
-  {"word":"las","m":{"en":"the (f. plural)","zh":"定冠词（阴性复数）","ja":"定冠詞（女性複数）"},"gender":"f","unit":5},
-  {"word":"un","m":{"en":"a (m)","zh":"一个（阳性）","ja":"一つの（男性）"},"gender":"m","unit":6},
-  {"word":"una","m":{"en":"a (f)","zh":"一个（阴性）","ja":"一つの（女性）"},"gender":"f","unit":6},
-  {"word":"perro","m":{"en":"dog","zh":"狗","ja":"犬"},"gender":"m","unit":6},
-  {"word":"flor","m":{"en":"flower","zh":"花","ja":"花"},"gender":"f","unit":6},
-  {"word":"coche","m":{"en":"car","zh":"汽车","ja":"車"},"gender":"m","unit":6},
-  {"word":"teléfono","m":{"en":"phone","zh":"电话","ja":"電話"},"gender":"m","unit":6},
-  {"word":"mi","m":{"en":"my","zh":"我的","ja":"私の"},"gender":null,"unit":7},
-  {"word":"tu","m":{"en":"your","zh":"你的","ja":"君の"},"gender":null,"unit":7},
-  {"word":"su","m":{"en":"his/her/their","zh":"他/她/他们的","ja":"彼/彼女の"},"gender":null,"unit":7},
-  {"word":"nuestro","m":{"en":"our","zh":"我们的","ja":"私たちの"},"gender":"m","unit":7},
-  {"word":"familia","m":{"en":"family","zh":"家庭","ja":"家族"},"gender":"f","unit":7},
-  {"word":"padre","m":{"en":"father","zh":"父亲","ja":"父"},"gender":"m","unit":7},
-  {"word":"madre","m":{"en":"mother","zh":"母亲","ja":"母"},"gender":"f","unit":7},
-  {"word":"hijo","m":{"en":"son","zh":"儿子","ja":"息子"},"gender":"m","unit":7},
-  {"word":"hija","m":{"en":"daughter","zh":"女儿","ja":"娘"},"gender":"f","unit":7},
-  {"word":"hermano","m":{"en":"brother","zh":"兄弟","ja":"兄弟"},"gender":"m","unit":7},
-  {"word":"hermana","m":{"en":"sister","zh":"姐妹","ja":"姉妹"},"gender":"f","unit":7},
-  {"word":"abuelo","m":{"en":"grandfather","zh":"祖父","ja":"祖父"},"gender":"m","unit":7},
-  {"word":"abuela","m":{"en":"grandmother","zh":"祖母","ja":"祖母"},"gender":"f","unit":7},
-  {"word":"tío","m":{"en":"uncle","zh":"叔叔","ja":"おじ"},"gender":"m","unit":7},
-  {"word":"tía","m":{"en":"aunt","zh":"阿姨","ja":"おば"},"gender":"f","unit":7},
-  {"word":"primo","m":{"en":"cousin (m)","zh":"表兄弟","ja":"いとこ（男）"},"gender":"m","unit":7},
-  {"word":"amigo","m":{"en":"friend (m)","zh":"朋友（男）","ja":"友達（男）"},"gender":"m","unit":7},
-  {"word":"esposo","m":{"en":"husband","zh":"丈夫","ja":"夫"},"gender":"m","unit":7},
-  {"word":"esposa","m":{"en":"wife","zh":"妻子","ja":"妻"},"gender":"f","unit":7},
-  {"word":"estoy","m":{"en":"I am (estar)","zh":"我在/我（状态）","ja":"〜にいる（estar/yo）"},"gender":null,"unit":8},
-  {"word":"estás","m":{"en":"you are (estar)","zh":"你在/你（状态）","ja":"〜にいる（estar/tú）"},"gender":null,"unit":8},
-  {"word":"está","m":{"en":"is (estar)","zh":"在/（状态）","ja":"〜にある/いる（estar）"},"gender":null,"unit":8},
-  {"word":"aquí","m":{"en":"here","zh":"这里","ja":"ここ"},"gender":null,"unit":8},
-  {"word":"allí","m":{"en":"there","zh":"那里","ja":"あそこ"},"gender":null,"unit":8},
-  {"word":"bien","m":{"en":"well/fine","zh":"好","ja":"元気/よい"},"gender":null,"unit":8},
-  {"word":"mal","m":{"en":"bad/badly","zh":"不好","ja":"悪い"},"gender":null,"unit":8},
-  {"word":"contento","m":{"en":"happy","zh":"高兴","ja":"嬉しい"},"gender":"m","unit":8},
-  {"word":"triste","m":{"en":"sad","zh":"伤心","ja":"悲しい"},"gender":null,"unit":8},
-  {"word":"cansado","m":{"en":"tired","zh":"累","ja":"疲れた"},"gender":"m","unit":8},
-  {"word":"enfermo","m":{"en":"sick","zh":"生病","ja":"病気の"},"gender":"m","unit":8},
-  {"word":"hay","m":{"en":"there is/are","zh":"有","ja":"〜がある/いる"},"gender":null,"unit":9},
-  {"word":"parque","m":{"en":"park","zh":"公园","ja":"公園"},"gender":"m","unit":9},
-  {"word":"escuela","m":{"en":"school","zh":"学校","ja":"学校"},"gender":"f","unit":9},
-  {"word":"tienda","m":{"en":"shop","zh":"商店","ja":"店"},"gender":"f","unit":9},
-  {"word":"hospital","m":{"en":"hospital","zh":"医院","ja":"病院"},"gender":"m","unit":9},
-  {"word":"restaurante","m":{"en":"restaurant","zh":"餐厅","ja":"レストラン"},"gender":"m","unit":9},
-  {"word":"supermercado","m":{"en":"supermarket","zh":"超市","ja":"スーパー"},"gender":"m","unit":9},
-  {"word":"banco","m":{"en":"bank","zh":"银行","ja":"銀行"},"gender":"m","unit":9},
-  {"word":"farmacia","m":{"en":"pharmacy","zh":"药店","ja":"薬局"},"gender":"f","unit":9},
-  {"word":"calle","m":{"en":"street","zh":"街道","ja":"通り"},"gender":"f","unit":9},
-  {"word":"plaza","m":{"en":"square","zh":"广场","ja":"広場"},"gender":"f","unit":9},
-  {"word":"iglesia","m":{"en":"church","zh":"教堂","ja":"教会"},"gender":"f","unit":9},
-  {"word":"museo","m":{"en":"museum","zh":"博物馆","ja":"美術館"},"gender":"m","unit":9},
-  {"word":"sobre","m":{"en":"on top of","zh":"在……上面","ja":"〜の上に"},"gender":null,"unit":10},
-  {"word":"debajo de","m":{"en":"under","zh":"在……下面","ja":"〜の下に"},"gender":null,"unit":10},
-  {"word":"al lado de","m":{"en":"next to","zh":"在……旁边","ja":"〜の隣に"},"gender":null,"unit":10},
-  {"word":"entre","m":{"en":"between","zh":"在……之间","ja":"〜の間に"},"gender":null,"unit":10},
-  {"word":"detrás de","m":{"en":"behind","zh":"在……后面","ja":"〜の後ろに"},"gender":null,"unit":10},
-  {"word":"delante de","m":{"en":"in front of","zh":"在……前面","ja":"〜の前に"},"gender":null,"unit":10},
-  {"word":"dentro de","m":{"en":"inside","zh":"在……里面","ja":"〜の中に"},"gender":null,"unit":10},
-  {"word":"fuera de","m":{"en":"outside","zh":"在……外面","ja":"〜の外に"},"gender":null,"unit":10},
-  {"word":"cerca de","m":{"en":"near","zh":"在……附近","ja":"〜の近くに"},"gender":null,"unit":10},
-  {"word":"lejos de","m":{"en":"far from","zh":"在……远处","ja":"〜から遠くに"},"gender":null,"unit":10},
-  {"word":"uno","m":{"en":"one","zh":"一","ja":"1"},"gender":null,"unit":11},
-  {"word":"dos","m":{"en":"two","zh":"二","ja":"2"},"gender":null,"unit":11},
-  {"word":"tres","m":{"en":"three","zh":"三","ja":"3"},"gender":null,"unit":11},
-  {"word":"cuatro","m":{"en":"four","zh":"四","ja":"4"},"gender":null,"unit":11},
-  {"word":"cinco","m":{"en":"five","zh":"五","ja":"5"},"gender":null,"unit":11},
-  {"word":"seis","m":{"en":"six","zh":"六","ja":"6"},"gender":null,"unit":11},
-  {"word":"siete","m":{"en":"seven","zh":"七","ja":"7"},"gender":null,"unit":11},
-  {"word":"ocho","m":{"en":"eight","zh":"八","ja":"8"},"gender":null,"unit":11},
-  {"word":"nueve","m":{"en":"nine","zh":"九","ja":"9"},"gender":null,"unit":11},
-  {"word":"diez","m":{"en":"ten","zh":"十","ja":"10"},"gender":null,"unit":11},
-  {"word":"veinte","m":{"en":"twenty","zh":"二十","ja":"20"},"gender":null,"unit":11},
-  {"word":"treinta","m":{"en":"thirty","zh":"三十","ja":"30"},"gender":null,"unit":11},
-  {"word":"cien","m":{"en":"one hundred","zh":"一百","ja":"100"},"gender":null,"unit":11},
-  {"word":"mil","m":{"en":"one thousand","zh":"一千","ja":"1000"},"gender":null,"unit":11},
-  {"word":"tengo","m":{"en":"I have","zh":"我有","ja":"持っている（yo）"},"gender":null,"unit":12},
-  {"word":"tienes","m":{"en":"you have","zh":"你有","ja":"持っている（tú）"},"gender":null,"unit":12},
-  {"word":"tiene","m":{"en":"has","zh":"有","ja":"持っている（él/ella）"},"gender":null,"unit":12},
-  {"word":"años","m":{"en":"years (age)","zh":"岁","ja":"歳"},"gender":"m","unit":12},
-  {"word":"hambre","m":{"en":"hunger","zh":"饿","ja":"空腹"},"gender":"f","unit":12},
-  {"word":"sed","m":{"en":"thirst","zh":"渴","ja":"喉の渇き"},"gender":"f","unit":12},
-  {"word":"frío","m":{"en":"cold (feeling)","zh":"冷","ja":"寒さ"},"gender":"m","unit":12},
-  {"word":"calor","m":{"en":"heat (feeling)","zh":"热","ja":"暑さ"},"gender":"m","unit":12},
-  {"word":"sueño","m":{"en":"sleepiness","zh":"困","ja":"眠気"},"gender":"m","unit":12},
-  {"word":"miedo","m":{"en":"fear","zh":"害怕","ja":"恐怖"},"gender":"m","unit":12},
-  {"word":"quiero","m":{"en":"I want","zh":"我想要","ja":"欲しい（yo）"},"gender":null,"unit":13},
-  {"word":"puedo","m":{"en":"I can","zh":"我能","ja":"できる（yo）"},"gender":null,"unit":13},
-  {"word":"necesito","m":{"en":"I need","zh":"我需要","ja":"必要だ（yo）"},"gender":null,"unit":13},
-  {"word":"hablar","m":{"en":"to speak","zh":"说","ja":"話す"},"gender":null,"unit":14},
-  {"word":"comer","m":{"en":"to eat","zh":"吃","ja":"食べる"},"gender":null,"unit":14},
-  {"word":"beber","m":{"en":"to drink","zh":"喝","ja":"飲む"},"gender":null,"unit":14},
-  {"word":"vivir","m":{"en":"to live","zh":"住","ja":"住む"},"gender":null,"unit":14},
-  {"word":"trabajar","m":{"en":"to work","zh":"工作","ja":"働く"},"gender":null,"unit":14},
-  {"word":"estudiar","m":{"en":"to study","zh":"学习","ja":"勉強する"},"gender":null,"unit":14},
-  {"word":"comprar","m":{"en":"to buy","zh":"买","ja":"買う"},"gender":null,"unit":14},
-  {"word":"escuchar","m":{"en":"to listen","zh":"听","ja":"聞く"},"gender":null,"unit":14},
-  {"word":"mirar","m":{"en":"to look","zh":"看","ja":"見る"},"gender":null,"unit":14},
-  {"word":"llamar","m":{"en":"to call","zh":"打电话","ja":"電話する"},"gender":null,"unit":14},
-  {"word":"leer","m":{"en":"to read","zh":"读","ja":"読む"},"gender":null,"unit":15},
-  {"word":"escribir","m":{"en":"to write","zh":"写","ja":"書く"},"gender":null,"unit":15},
-  {"word":"abrir","m":{"en":"to open","zh":"打开","ja":"開ける"},"gender":null,"unit":15},
-  {"word":"aprender","m":{"en":"to learn","zh":"学","ja":"学ぶ"},"gender":null,"unit":15},
-  {"word":"entender","m":{"en":"to understand","zh":"理解","ja":"理解する"},"gender":null,"unit":15},
-  {"word":"gusta","m":{"en":"pleases (gustar)","zh":"喜欢","ja":"好き（gustar）"},"gender":null,"unit":16},
-  {"word":"gustan","m":{"en":"please (plural)","zh":"喜欢（复数）","ja":"好き（複数）"},"gender":null,"unit":16},
-  {"word":"mucho","m":{"en":"a lot","zh":"很多","ja":"たくさん"},"gender":null,"unit":16},
-  {"word":"también","m":{"en":"also","zh":"也","ja":"も"},"gender":null,"unit":16},
-  {"word":"música","m":{"en":"music","zh":"音乐","ja":"音楽"},"gender":"f","unit":16},
-  {"word":"deporte","m":{"en":"sport","zh":"运动","ja":"スポーツ"},"gender":"m","unit":16},
-  {"word":"película","m":{"en":"film","zh":"电影","ja":"映画"},"gender":"f","unit":16},
-  {"word":"rojo","m":{"en":"red","zh":"红色","ja":"赤"},"gender":"m","unit":17},
-  {"word":"azul","m":{"en":"blue","zh":"蓝色","ja":"青"},"gender":null,"unit":17},
-  {"word":"verde","m":{"en":"green","zh":"绿色","ja":"緑"},"gender":null,"unit":17},
-  {"word":"amarillo","m":{"en":"yellow","zh":"黄色","ja":"黄色"},"gender":"m","unit":17},
-  {"word":"blanco","m":{"en":"white","zh":"白色","ja":"白"},"gender":"m","unit":17},
-  {"word":"negro","m":{"en":"black","zh":"黑色","ja":"黒"},"gender":"m","unit":17},
-  {"word":"naranja","m":{"en":"orange","zh":"橙色","ja":"オレンジ"},"gender":null,"unit":17},
-  {"word":"rosa","m":{"en":"pink","zh":"粉色","ja":"ピンク"},"gender":null,"unit":17},
-  {"word":"marrón","m":{"en":"brown","zh":"棕色","ja":"茶色"},"gender":null,"unit":17},
-  {"word":"gris","m":{"en":"grey","zh":"灰色","ja":"灰色"},"gender":null,"unit":17},
-  {"word":"grande","m":{"en":"big","zh":"大","ja":"大きい"},"gender":null,"unit":17},
-  {"word":"pequeño","m":{"en":"small","zh":"小","ja":"小さい"},"gender":"m","unit":17},
-  {"word":"lunes","m":{"en":"Monday","zh":"星期一","ja":"月曜日"},"gender":"m","unit":18},
-  {"word":"martes","m":{"en":"Tuesday","zh":"星期二","ja":"火曜日"},"gender":"m","unit":18},
-  {"word":"miércoles","m":{"en":"Wednesday","zh":"星期三","ja":"水曜日"},"gender":"m","unit":18},
-  {"word":"jueves","m":{"en":"Thursday","zh":"星期四","ja":"木曜日"},"gender":"m","unit":18},
-  {"word":"viernes","m":{"en":"Friday","zh":"星期五","ja":"金曜日"},"gender":"m","unit":18},
-  {"word":"sábado","m":{"en":"Saturday","zh":"星期六","ja":"土曜日"},"gender":"m","unit":18},
-  {"word":"domingo","m":{"en":"Sunday","zh":"星期日","ja":"日曜日"},"gender":"m","unit":18},
-  {"word":"hoy","m":{"en":"today","zh":"今天","ja":"今日"},"gender":null,"unit":18},
-  {"word":"mañana","m":{"en":"tomorrow","zh":"明天","ja":"明日"},"gender":null,"unit":18},
-  {"word":"ayer","m":{"en":"yesterday","zh":"昨天","ja":"昨日"},"gender":null,"unit":18},
-  {"word":"semana","m":{"en":"week","zh":"星期","ja":"週"},"gender":"f","unit":18},
-  {"word":"mes","m":{"en":"month","zh":"月","ja":"月"},"gender":"m","unit":18},
-  {"word":"agua","m":{"en":"water","zh":"水","ja":"水"},"gender":"f","unit":19},
-  {"word":"pan","m":{"en":"bread","zh":"面包","ja":"パン"},"gender":"m","unit":19},
-  {"word":"leche","m":{"en":"milk","zh":"牛奶","ja":"牛乳"},"gender":"f","unit":19},
-  {"word":"café","m":{"en":"coffee","zh":"咖啡","ja":"コーヒー"},"gender":"m","unit":19},
-  {"word":"cerveza","m":{"en":"beer","zh":"啤酒","ja":"ビール"},"gender":"f","unit":19},
-  {"word":"carne","m":{"en":"meat","zh":"肉","ja":"肉"},"gender":"f","unit":19},
-  {"word":"pescado","m":{"en":"fish","zh":"鱼","ja":"魚"},"gender":"m","unit":19},
-  {"word":"arroz","m":{"en":"rice","zh":"米饭","ja":"ご飯"},"gender":"m","unit":19},
-  {"word":"fruta","m":{"en":"fruit","zh":"水果","ja":"果物"},"gender":"f","unit":19},
-  {"word":"verdura","m":{"en":"vegetable","zh":"蔬菜","ja":"野菜"},"gender":"f","unit":19},
-  {"word":"huevo","m":{"en":"egg","zh":"鸡蛋","ja":"卵"},"gender":"m","unit":19},
-  {"word":"queso","m":{"en":"cheese","zh":"奶酪","ja":"チーズ"},"gender":"m","unit":19},
-  {"word":"ensalada","m":{"en":"salad","zh":"沙拉","ja":"サラダ"},"gender":"f","unit":19},
-  {"word":"sopa","m":{"en":"soup","zh":"汤","ja":"スープ"},"gender":"f","unit":19},
-  {"word":"pollo","m":{"en":"chicken","zh":"鸡肉","ja":"鶏肉"},"gender":"m","unit":19},
-  {"word":"manzana","m":{"en":"apple","zh":"苹果","ja":"りんご"},"gender":"f","unit":19},
-  {"word":"voy","m":{"en":"I go","zh":"我去","ja":"行く（yo）"},"gender":null,"unit":20},
-  {"word":"vas","m":{"en":"you go","zh":"你去","ja":"行く（tú）"},"gender":null,"unit":20},
-  {"word":"va","m":{"en":"goes","zh":"去","ja":"行く（él/ella）"},"gender":null,"unit":20},
-  {"word":"vamos","m":{"en":"we go","zh":"我们去","ja":"行く（nosotros）"},"gender":null,"unit":20},
-  {"word":"autobús","m":{"en":"bus","zh":"公共汽车","ja":"バス"},"gender":"m","unit":20},
-  {"word":"tren","m":{"en":"train","zh":"火车","ja":"電車"},"gender":"m","unit":20},
-  {"word":"avión","m":{"en":"plane","zh":"飞机","ja":"飛行機"},"gender":"m","unit":20},
-  {"word":"bicicleta","m":{"en":"bicycle","zh":"自行车","ja":"自転車"},"gender":"f","unit":20},
-  {"word":"aeropuerto","m":{"en":"airport","zh":"机场","ja":"空港"},"gender":"m","unit":20},
-  {"word":"estación","m":{"en":"station","zh":"车站","ja":"駅"},"gender":"f","unit":20},
-  {"word":"marido","m":{"en":"husband","zh":"丈夫","ja":"夫"},"gender":"m","unit":21},
-  {"word":"mujer","m":{"en":"woman/wife","zh":"女人/妻子","ja":"女性/妻"},"gender":"f","unit":21},
-  {"word":"hombre","m":{"en":"man","zh":"男人","ja":"男性"},"gender":"m","unit":21},
-  {"word":"niño","m":{"en":"boy/child","zh":"男孩/孩子","ja":"男の子/子供"},"gender":"m","unit":21},
-  {"word":"niña","m":{"en":"girl","zh":"女孩","ja":"女の子"},"gender":"f","unit":21},
-  {"word":"bebé","m":{"en":"baby","zh":"婴儿","ja":"赤ちゃん"},"gender":"m","unit":21},
-  {"word":"novio","m":{"en":"boyfriend","zh":"男朋友","ja":"彼氏"},"gender":"m","unit":21},
-  {"word":"derecha","m":{"en":"right","zh":"右边","ja":"右"},"gender":"f","unit":22},
-  {"word":"izquierda","m":{"en":"left","zh":"左边","ja":"左"},"gender":"f","unit":22},
-  {"word":"recto","m":{"en":"straight","zh":"直走","ja":"まっすぐ"},"gender":"m","unit":22},
-  {"word":"norte","m":{"en":"north","zh":"北","ja":"北"},"gender":"m","unit":22},
-  {"word":"sur","m":{"en":"south","zh":"南","ja":"南"},"gender":"m","unit":22},
-  {"word":"lejos","m":{"en":"far","zh":"远","ja":"遠い"},"gender":null,"unit":22},
-  {"word":"cerca","m":{"en":"near","zh":"近","ja":"近い"},"gender":null,"unit":22},
-  {"word":"levantarse","m":{"en":"to get up","zh":"起床","ja":"起きる"},"gender":null,"unit":23},
-  {"word":"ducharse","m":{"en":"to shower","zh":"洗澡","ja":"シャワーを浴びる"},"gender":null,"unit":23},
-  {"word":"vestirse","m":{"en":"to get dressed","zh":"穿衣服","ja":"着替える"},"gender":null,"unit":23},
-  {"word":"acostarse","m":{"en":"to go to bed","zh":"睡觉","ja":"寝る"},"gender":null,"unit":23},
-  {"word":"despertarse","m":{"en":"to wake up","zh":"醒来","ja":"目覚める"},"gender":null,"unit":23},
-  {"word":"lavarse","m":{"en":"to wash oneself","zh":"洗","ja":"洗う"},"gender":null,"unit":23},
-  {"word":"peinarse","m":{"en":"to comb hair","zh":"梳头","ja":"髪をとかす"},"gender":null,"unit":23},
-  {"word":"hora","m":{"en":"hour/time","zh":"小时/时间","ja":"時間"},"gender":"f","unit":24},
-  {"word":"minuto","m":{"en":"minute","zh":"分钟","ja":"分"},"gender":"m","unit":24},
-  {"word":"mañana","m":{"en":"morning","zh":"早上","ja":"朝"},"gender":"f","unit":24},
-  {"word":"tarde","m":{"en":"afternoon","zh":"下午","ja":"午後"},"gender":"f","unit":24},
-  {"word":"noche","m":{"en":"night","zh":"晚上","ja":"夜"},"gender":"f","unit":24},
-  {"word":"temprano","m":{"en":"early","zh":"早","ja":"早い"},"gender":null,"unit":24},
-  {"word":"siempre","m":{"en":"always","zh":"总是","ja":"いつも"},"gender":null,"unit":24},
-  {"word":"nunca","m":{"en":"never","zh":"从不","ja":"決して〜ない"},"gender":null,"unit":24},
-  {"word":"a veces","m":{"en":"sometimes","zh":"有时","ja":"時々"},"gender":null,"unit":24},
-  {"word":"sol","m":{"en":"sun","zh":"太阳","ja":"太陽"},"gender":"m","unit":25},
-  {"word":"lluvia","m":{"en":"rain","zh":"雨","ja":"雨"},"gender":"f","unit":25},
-  {"word":"nieve","m":{"en":"snow","zh":"雪","ja":"雪"},"gender":"f","unit":25},
-  {"word":"viento","m":{"en":"wind","zh":"风","ja":"風"},"gender":"m","unit":25},
-  {"word":"nube","m":{"en":"cloud","zh":"云","ja":"雲"},"gender":"f","unit":25},
-  {"word":"hace calor","m":{"en":"it's hot","zh":"天气热","ja":"暑い"},"gender":null,"unit":25},
-  {"word":"hace frío","m":{"en":"it's cold","zh":"天气冷","ja":"寒い"},"gender":null,"unit":25},
-  {"word":"llueve","m":{"en":"it's raining","zh":"下雨","ja":"雨が降っている"},"gender":null,"unit":25},
-  {"word":"nieva","m":{"en":"it's snowing","zh":"下雪","ja":"雪が降っている"},"gender":null,"unit":25},
-  {"word":"cabeza","m":{"en":"head","zh":"头","ja":"頭"},"gender":"f","unit":12},
-  {"word":"mano","m":{"en":"hand","zh":"手","ja":"手"},"gender":"f","unit":12},
-  {"word":"ojo","m":{"en":"eye","zh":"眼睛","ja":"目"},"gender":"m","unit":12},
-  {"word":"boca","m":{"en":"mouth","zh":"嘴","ja":"口"},"gender":"f","unit":12},
-  {"word":"pelo","m":{"en":"hair","zh":"头发","ja":"髪"},"gender":"m","unit":12},
-  {"word":"pierna","m":{"en":"leg","zh":"腿","ja":"脚"},"gender":"f","unit":12},
-  {"word":"brazo","m":{"en":"arm","zh":"胳膊","ja":"腕"},"gender":"m","unit":12},
-  {"word":"pie","m":{"en":"foot","zh":"脚","ja":"足"},"gender":"m","unit":12},
-  {"word":"cocina","m":{"en":"kitchen","zh":"厨房","ja":"キッチン"},"gender":"f","unit":9},
-  {"word":"dormitorio","m":{"en":"bedroom","zh":"卧室","ja":"寝室"},"gender":"m","unit":9},
-  {"word":"baño","m":{"en":"bathroom","zh":"浴室","ja":"バスルーム"},"gender":"m","unit":9},
-  {"word":"salón","m":{"en":"living room","zh":"客厅","ja":"リビング"},"gender":"m","unit":9},
-  {"word":"jardín","m":{"en":"garden","zh":"花园","ja":"庭"},"gender":"m","unit":9},
-  {"word":"camisa","m":{"en":"shirt","zh":"衬衫","ja":"シャツ"},"gender":"f","unit":17},
-  {"word":"pantalón","m":{"en":"trousers","zh":"裤子","ja":"ズボン"},"gender":"m","unit":17},
-  {"word":"zapatos","m":{"en":"shoes","zh":"鞋子","ja":"靴"},"gender":"m","unit":17},
-  {"word":"vestido","m":{"en":"dress","zh":"裙子","ja":"ドレス"},"gender":"m","unit":17},
-  {"word":"chaqueta","m":{"en":"jacket","zh":"夹克","ja":"ジャケット"},"gender":"f","unit":17},
-  {"word":"falda","m":{"en":"skirt","zh":"裙子","ja":"スカート"},"gender":"f","unit":17},
-  {"word":"camiseta","m":{"en":"t-shirt","zh":"T恤","ja":"Tシャツ"},"gender":"f","unit":17},
-  {"word":"bonito","m":{"en":"pretty","zh":"漂亮","ja":"きれい"},"gender":"m","unit":17},
-  {"word":"feo","m":{"en":"ugly","zh":"丑","ja":"醜い"},"gender":"m","unit":17},
-  {"word":"nuevo","m":{"en":"new","zh":"新","ja":"新しい"},"gender":"m","unit":17},
-  {"word":"viejo","m":{"en":"old","zh":"旧/老","ja":"古い/老いた"},"gender":"m","unit":17},
-  {"word":"joven","m":{"en":"young","zh":"年轻","ja":"若い"},"gender":null,"unit":21},
-  {"word":"alto","m":{"en":"tall","zh":"高","ja":"高い/背が高い"},"gender":"m","unit":21},
-  {"word":"bajo","m":{"en":"short","zh":"矮","ja":"背が低い"},"gender":"m","unit":21},
-  {"word":"delgado","m":{"en":"thin","zh":"瘦","ja":"痩せた"},"gender":"m","unit":21},
-  {"word":"gordo","m":{"en":"fat","zh":"胖","ja":"太った"},"gender":"m","unit":21},
-  {"word":"guapo","m":{"en":"handsome","zh":"帅","ja":"かっこいい"},"gender":"m","unit":21},
-  {"word":"simpático","m":{"en":"nice/friendly","zh":"友好","ja":"親切な"},"gender":"m","unit":21},
-  {"word":"inteligente","m":{"en":"intelligent","zh":"聪明","ja":"頭がいい"},"gender":null,"unit":21},
-  {"word":"España","m":{"en":"Spain","zh":"西班牙","ja":"スペイン"},"gender":"f","unit":3},
-  {"word":"español","m":{"en":"Spanish","zh":"西班牙语","ja":"スペイン語"},"gender":"m","unit":3},
-  {"word":"México","m":{"en":"Mexico","zh":"墨西哥","ja":"メキシコ"},"gender":"m","unit":3},
-  {"word":"país","m":{"en":"country","zh":"国家","ja":"国"},"gender":"m","unit":3},
-  {"word":"ciudad","m":{"en":"city","zh":"城市","ja":"都市"},"gender":"f","unit":9},
-  {"word":"dinero","m":{"en":"money","zh":"钱","ja":"お金"},"gender":"m","unit":19},
-  {"word":"cuenta","m":{"en":"bill/check","zh":"账单","ja":"お会計"},"gender":"f","unit":19},
-  {"word":"menú","m":{"en":"menu","zh":"菜单","ja":"メニュー"},"gender":"m","unit":19},
-  {"word":"desayuno","m":{"en":"breakfast","zh":"早餐","ja":"朝食"},"gender":"m","unit":19},
-  {"word":"comida","m":{"en":"lunch/food","zh":"午餐/食物","ja":"昼食/食べ物"},"gender":"f","unit":19},
-  {"word":"cena","m":{"en":"dinner","zh":"晚餐","ja":"夕食"},"gender":"f","unit":19},
-  {"word":"enero","m":{"en":"January","zh":"一月","ja":"1月"},"gender":"m","unit":18},
-  {"word":"febrero","m":{"en":"February","zh":"二月","ja":"2月"},"gender":"m","unit":18},
-  {"word":"marzo","m":{"en":"March","zh":"三月","ja":"3月"},"gender":"m","unit":18},
-  {"word":"abril","m":{"en":"April","zh":"四月","ja":"4月"},"gender":"m","unit":18},
-  {"word":"mayo","m":{"en":"May","zh":"五月","ja":"5月"},"gender":"m","unit":18},
-  {"word":"junio","m":{"en":"June","zh":"六月","ja":"6月"},"gender":"m","unit":18},
-  {"word":"julio","m":{"en":"July","zh":"七月","ja":"7月"},"gender":"m","unit":18},
-  {"word":"agosto","m":{"en":"August","zh":"八月","ja":"8月"},"gender":"m","unit":18},
-  {"word":"septiembre","m":{"en":"September","zh":"九月","ja":"9月"},"gender":"m","unit":18},
-  {"word":"octubre","m":{"en":"October","zh":"十月","ja":"10月"},"gender":"m","unit":18},
-  {"word":"noviembre","m":{"en":"November","zh":"十一月","ja":"11月"},"gender":"m","unit":18},
-  {"word":"diciembre","m":{"en":"December","zh":"十二月","ja":"12月"},"gender":"m","unit":18},
-  {"word":"primavera","m":{"en":"spring","zh":"春天","ja":"春"},"gender":"f","unit":25},
-  {"word":"verano","m":{"en":"summer","zh":"夏天","ja":"夏"},"gender":"m","unit":25},
-  {"word":"otoño","m":{"en":"autumn","zh":"秋天","ja":"秋"},"gender":"m","unit":25},
-  {"word":"invierno","m":{"en":"winter","zh":"冬天","ja":"冬"},"gender":"m","unit":25}
+  {
+    "word": "hola",
+    "m": {
+      "en": "hello",
+      "zh": "你好",
+      "ja": "こんにちは"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "adiós",
+    "m": {
+      "en": "goodbye",
+      "zh": "再见",
+      "ja": "さようなら"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "buenos días",
+    "m": {
+      "en": "good morning",
+      "zh": "早上好",
+      "ja": "おはようございます"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "buenas tardes",
+    "m": {
+      "en": "good afternoon",
+      "zh": "下午好",
+      "ja": "こんにちは"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "buenas noches",
+    "m": {
+      "en": "good evening / good night",
+      "zh": "晚上好 / 晚安",
+      "ja": "こんばんは / おやすみなさい"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "me llamo",
+    "m": {
+      "en": "my name is",
+      "zh": "我叫",
+      "ja": "私の名前は"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "gracias",
+    "m": {
+      "en": "thank you",
+      "zh": "谢谢",
+      "ja": "ありがとう"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "por favor",
+    "m": {
+      "en": "please",
+      "zh": "请",
+      "ja": "お願いします"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "yo",
+    "m": {
+      "en": "I",
+      "zh": "我",
+      "ja": "私"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "tú",
+    "m": {
+      "en": "you (informal)",
+      "zh": "你",
+      "ja": "君"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "él",
+    "m": {
+      "en": "he",
+      "zh": "他",
+      "ja": "彼"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "ella",
+    "m": {
+      "en": "she",
+      "zh": "她",
+      "ja": "彼女"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "usted",
+    "m": {
+      "en": "you (formal)",
+      "zh": "您",
+      "ja": "あなた（丁寧）"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "nosotros",
+    "m": {
+      "en": "we",
+      "zh": "我们",
+      "ja": "私たち"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "vosotros",
+    "m": {
+      "en": "you all (Spain)",
+      "zh": "你们（西班牙）",
+      "ja": "君たち（スペイン）"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "ellos",
+    "m": {
+      "en": "they (masc.)",
+      "zh": "他们",
+      "ja": "彼ら"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "ellas",
+    "m": {
+      "en": "they (fem.)",
+      "zh": "她们",
+      "ja": "彼女ら"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "ustedes",
+    "m": {
+      "en": "you all (formal)",
+      "zh": "您们",
+      "ja": "あなたたち（丁寧）"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "soy",
+    "m": {
+      "en": "I am (ser)",
+      "zh": "我是(ser)",
+      "ja": "私は〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "eres",
+    "m": {
+      "en": "you are (ser)",
+      "zh": "你是(ser)",
+      "ja": "君は〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "es",
+    "m": {
+      "en": "he/she is (ser)",
+      "zh": "他/她是(ser)",
+      "ja": "彼/彼女は〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "somos",
+    "m": {
+      "en": "we are (ser)",
+      "zh": "我们是(ser)",
+      "ja": "私たちは〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "sois",
+    "m": {
+      "en": "you all are (ser)",
+      "zh": "你们是(ser)",
+      "ja": "君たちは〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "son",
+    "m": {
+      "en": "they are (ser)",
+      "zh": "他们是(ser)",
+      "ja": "彼らは〜です(ser)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "estoy",
+    "m": {
+      "en": "I am (estar)",
+      "zh": "我在/我处于(estar)",
+      "ja": "私は〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "estás",
+    "m": {
+      "en": "you are (estar)",
+      "zh": "你在/你处于(estar)",
+      "ja": "君は〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "está",
+    "m": {
+      "en": "he/she is (estar)",
+      "zh": "他/她在/处于(estar)",
+      "ja": "彼/彼女は〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "estamos",
+    "m": {
+      "en": "we are (estar)",
+      "zh": "我们在/处于(estar)",
+      "ja": "私たちは〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "estáis",
+    "m": {
+      "en": "you all are (estar)",
+      "zh": "你们在/处于(estar)",
+      "ja": "君たちは〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "están",
+    "m": {
+      "en": "they are (estar)",
+      "zh": "他们在/处于(estar)",
+      "ja": "彼らは〜いる(estar)"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "bien",
+    "m": {
+      "en": "well / fine",
+      "zh": "好",
+      "ja": "元気 / 良い"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "mal",
+    "m": {
+      "en": "bad / unwell",
+      "zh": "不好 / 不舒服",
+      "ja": "悪い / 具合が悪い"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "cansado",
+    "m": {
+      "en": "tired",
+      "zh": "累的",
+      "ja": "疲れた"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "contento",
+    "m": {
+      "en": "happy / content",
+      "zh": "高兴的 / 满足的",
+      "ja": "満足した / 嬉しい"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "aquí",
+    "m": {
+      "en": "here",
+      "zh": "这里",
+      "ja": "ここ"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "allí",
+    "m": {
+      "en": "there",
+      "zh": "那里",
+      "ja": "あそこ"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "el",
+    "m": {
+      "en": "the (masc. sing.)",
+      "zh": "（阳性单数定冠词）",
+      "ja": "（男性単数定冠詞）"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "la",
+    "m": {
+      "en": "the (fem. sing.)",
+      "zh": "（阴性单数定冠词）",
+      "ja": "（女性単数定冠詞）"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "los",
+    "m": {
+      "en": "the (masc. plural)",
+      "zh": "（阳性复数定冠词）",
+      "ja": "（男性複数定冠詞）"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "las",
+    "m": {
+      "en": "the (fem. plural)",
+      "zh": "（阴性复数定冠词）",
+      "ja": "（女性複数定冠詞）"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "libro",
+    "m": {
+      "en": "book",
+      "zh": "书",
+      "ja": "本"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "mesa",
+    "m": {
+      "en": "table",
+      "zh": "桌子",
+      "ja": "テーブル"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "silla",
+    "m": {
+      "en": "chair",
+      "zh": "椅子",
+      "ja": "椅子"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "puerta",
+    "m": {
+      "en": "door",
+      "zh": "门",
+      "ja": "ドア"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "ventana",
+    "m": {
+      "en": "window",
+      "zh": "窗户",
+      "ja": "窓"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "gato",
+    "m": {
+      "en": "cat",
+      "zh": "猫",
+      "ja": "猫"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "perro",
+    "m": {
+      "en": "dog",
+      "zh": "狗",
+      "ja": "犬"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "casa",
+    "m": {
+      "en": "house",
+      "zh": "房子",
+      "ja": "家"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "este",
+    "m": {
+      "en": "this (masc.)",
+      "zh": "这个（阳性）",
+      "ja": "この（男性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "esta",
+    "m": {
+      "en": "this (fem.)",
+      "zh": "这个（阴性）",
+      "ja": "この（女性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "estos",
+    "m": {
+      "en": "these (masc.)",
+      "zh": "这些（阳性）",
+      "ja": "これらの（男性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "estas",
+    "m": {
+      "en": "these (fem.)",
+      "zh": "这些（阴性）",
+      "ja": "これらの（女性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "ese",
+    "m": {
+      "en": "that (masc.)",
+      "zh": "那个（阳性）",
+      "ja": "その（男性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "esa",
+    "m": {
+      "en": "that (fem.)",
+      "zh": "那个（阴性）",
+      "ja": "その（女性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "aquel",
+    "m": {
+      "en": "that over there (masc.)",
+      "zh": "那边那个（阳性）",
+      "ja": "あの（男性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "aquella",
+    "m": {
+      "en": "that over there (fem.)",
+      "zh": "那边那个（阴性）",
+      "ja": "あの（女性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "esto",
+    "m": {
+      "en": "this (neutral)",
+      "zh": "这个（中性）",
+      "ja": "これ（中性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "eso",
+    "m": {
+      "en": "that (neutral)",
+      "zh": "那个（中性）",
+      "ja": "それ（中性）"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "tengo",
+    "m": {
+      "en": "I have",
+      "zh": "我有",
+      "ja": "私は持っている"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "tienes",
+    "m": {
+      "en": "you have",
+      "zh": "你有",
+      "ja": "君は持っている"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "tiene",
+    "m": {
+      "en": "he/she has",
+      "zh": "他/她有",
+      "ja": "彼/彼女は持っている"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "tenemos",
+    "m": {
+      "en": "we have",
+      "zh": "我们有",
+      "ja": "私たちは持っている"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "años",
+    "m": {
+      "en": "years (age)",
+      "zh": "岁 / 年",
+      "ja": "歳 / 年"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "hambre",
+    "m": {
+      "en": "hunger (tener hambre = to be hungry)",
+      "zh": "饥饿（tener hambre = 饿）",
+      "ja": "空腹（tener hambre = お腹が空いている）"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "sed",
+    "m": {
+      "en": "thirst (tener sed = to be thirsty)",
+      "zh": "渴（tener sed = 渴）",
+      "ja": "渇き（tener sed = のどが渇いている）"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "frío",
+    "m": {
+      "en": "cold (tener frío = to be cold)",
+      "zh": "冷（tener frío = 冷）",
+      "ja": "寒さ（tener frío = 寒い）"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "calor",
+    "m": {
+      "en": "heat (tener calor = to be hot)",
+      "zh": "热（tener calor = 热）",
+      "ja": "暑さ（tener calor = 暑い）"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "sueño",
+    "m": {
+      "en": "sleep (tener sueño = to be sleepy)",
+      "zh": "睡意（tener sueño = 困）",
+      "ja": "眠気（tener sueño = 眠い）"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "mi",
+    "m": {
+      "en": "my",
+      "zh": "我的",
+      "ja": "私の"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "tu",
+    "m": {
+      "en": "your (informal)",
+      "zh": "你的",
+      "ja": "君の"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "su",
+    "m": {
+      "en": "his/her/your (formal)",
+      "zh": "他的/她的/您的",
+      "ja": "彼の/彼女の/あなたの"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "nuestro",
+    "m": {
+      "en": "our (masc.)",
+      "zh": "我们的（阳性）",
+      "ja": "私たちの（男性）"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "padre",
+    "m": {
+      "en": "father",
+      "zh": "父亲",
+      "ja": "父"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "madre",
+    "m": {
+      "en": "mother",
+      "zh": "母亲",
+      "ja": "母"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "hermano",
+    "m": {
+      "en": "brother",
+      "zh": "兄弟",
+      "ja": "兄弟"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "hermana",
+    "m": {
+      "en": "sister",
+      "zh": "姐妹",
+      "ja": "姉妹"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "hijo",
+    "m": {
+      "en": "son",
+      "zh": "儿子",
+      "ja": "息子"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "hija",
+    "m": {
+      "en": "daughter",
+      "zh": "女儿",
+      "ja": "娘"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "abuelo",
+    "m": {
+      "en": "grandfather",
+      "zh": "祖父 / 外祖父",
+      "ja": "祖父"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "abuela",
+    "m": {
+      "en": "grandmother",
+      "zh": "祖母 / 外祖母",
+      "ja": "祖母"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "tío",
+    "m": {
+      "en": "uncle",
+      "zh": "叔叔 / 伯伯",
+      "ja": "おじ"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "tía",
+    "m": {
+      "en": "aunt",
+      "zh": "阿姨 / 姑姑",
+      "ja": "おば"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "primo",
+    "m": {
+      "en": "cousin (masc.)",
+      "zh": "堂/表兄弟",
+      "ja": "いとこ（男）"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "familia",
+    "m": {
+      "en": "family",
+      "zh": "家庭",
+      "ja": "家族"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "uno",
+    "m": {
+      "en": "one",
+      "zh": "一",
+      "ja": "1"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "dos",
+    "m": {
+      "en": "two",
+      "zh": "二",
+      "ja": "2"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "tres",
+    "m": {
+      "en": "three",
+      "zh": "三",
+      "ja": "3"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "cuatro",
+    "m": {
+      "en": "four",
+      "zh": "四",
+      "ja": "4"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "cinco",
+    "m": {
+      "en": "five",
+      "zh": "五",
+      "ja": "5"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "seis",
+    "m": {
+      "en": "six",
+      "zh": "六",
+      "ja": "6"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "siete",
+    "m": {
+      "en": "seven",
+      "zh": "七",
+      "ja": "7"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "ocho",
+    "m": {
+      "en": "eight",
+      "zh": "八",
+      "ja": "8"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "nueve",
+    "m": {
+      "en": "nine",
+      "zh": "九",
+      "ja": "9"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "diez",
+    "m": {
+      "en": "ten",
+      "zh": "十",
+      "ja": "10"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "once",
+    "m": {
+      "en": "eleven",
+      "zh": "十一",
+      "ja": "11"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "doce",
+    "m": {
+      "en": "twelve",
+      "zh": "十二",
+      "ja": "12"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "trece",
+    "m": {
+      "en": "thirteen",
+      "zh": "十三",
+      "ja": "13"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "catorce",
+    "m": {
+      "en": "fourteen",
+      "zh": "十四",
+      "ja": "14"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "quince",
+    "m": {
+      "en": "fifteen",
+      "zh": "十五",
+      "ja": "15"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "dieciséis",
+    "m": {
+      "en": "sixteen",
+      "zh": "十六",
+      "ja": "16"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "diecisiete",
+    "m": {
+      "en": "seventeen",
+      "zh": "十七",
+      "ja": "17"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "dieciocho",
+    "m": {
+      "en": "eighteen",
+      "zh": "十八",
+      "ja": "18"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "diecinueve",
+    "m": {
+      "en": "nineteen",
+      "zh": "十九",
+      "ja": "19"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "veinte",
+    "m": {
+      "en": "twenty",
+      "zh": "二十",
+      "ja": "20"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "lunes",
+    "m": {
+      "en": "Monday",
+      "zh": "星期一",
+      "ja": "月曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "martes",
+    "m": {
+      "en": "Tuesday",
+      "zh": "星期二",
+      "ja": "火曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "miércoles",
+    "m": {
+      "en": "Wednesday",
+      "zh": "星期三",
+      "ja": "水曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "jueves",
+    "m": {
+      "en": "Thursday",
+      "zh": "星期四",
+      "ja": "木曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "viernes",
+    "m": {
+      "en": "Friday",
+      "zh": "星期五",
+      "ja": "金曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "sábado",
+    "m": {
+      "en": "Saturday",
+      "zh": "星期六",
+      "ja": "土曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "domingo",
+    "m": {
+      "en": "Sunday",
+      "zh": "星期日",
+      "ja": "日曜日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "enero",
+    "m": {
+      "en": "January",
+      "zh": "一月",
+      "ja": "1月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "febrero",
+    "m": {
+      "en": "February",
+      "zh": "二月",
+      "ja": "2月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "marzo",
+    "m": {
+      "en": "March",
+      "zh": "三月",
+      "ja": "3月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "abril",
+    "m": {
+      "en": "April",
+      "zh": "四月",
+      "ja": "4月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "mayo",
+    "m": {
+      "en": "May",
+      "zh": "五月",
+      "ja": "5月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "junio",
+    "m": {
+      "en": "June",
+      "zh": "六月",
+      "ja": "6月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "julio",
+    "m": {
+      "en": "July",
+      "zh": "七月",
+      "ja": "7月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "agosto",
+    "m": {
+      "en": "August",
+      "zh": "八月",
+      "ja": "8月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "septiembre",
+    "m": {
+      "en": "September",
+      "zh": "九月",
+      "ja": "9月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "octubre",
+    "m": {
+      "en": "October",
+      "zh": "十月",
+      "ja": "10月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "noviembre",
+    "m": {
+      "en": "November",
+      "zh": "十一月",
+      "ja": "11月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "diciembre",
+    "m": {
+      "en": "December",
+      "zh": "十二月",
+      "ja": "12月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "hoy",
+    "m": {
+      "en": "today",
+      "zh": "今天",
+      "ja": "今日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "mañana",
+    "m": {
+      "en": "tomorrow",
+      "zh": "明天",
+      "ja": "明日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "ayer",
+    "m": {
+      "en": "yesterday",
+      "zh": "昨天",
+      "ja": "昨日"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "semana",
+    "m": {
+      "en": "week",
+      "zh": "周",
+      "ja": "週"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "mes",
+    "m": {
+      "en": "month",
+      "zh": "月",
+      "ja": "月"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "hora",
+    "m": {
+      "en": "hour / time",
+      "zh": "小时/时间",
+      "ja": "時間/時刻"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "minuto",
+    "m": {
+      "en": "minute",
+      "zh": "分钟",
+      "ja": "分"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "y media",
+    "m": {
+      "en": "half past",
+      "zh": "半",
+      "ja": "半"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "y cuarto",
+    "m": {
+      "en": "quarter past",
+      "zh": "一刻",
+      "ja": "15分"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "menos cuarto",
+    "m": {
+      "en": "quarter to",
+      "zh": "差一刻",
+      "ja": "15分前"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "en punto",
+    "m": {
+      "en": "on the dot / sharp",
+      "zh": "整点",
+      "ja": "ちょうど"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "de la mañana",
+    "m": {
+      "en": "in the morning",
+      "zh": "早上",
+      "ja": "午前"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "de la tarde",
+    "m": {
+      "en": "in the afternoon",
+      "zh": "下午",
+      "ja": "午後"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "de la noche",
+    "m": {
+      "en": "at night",
+      "zh": "晚上",
+      "ja": "夜"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "dentro de",
+    "m": {
+      "en": "inside",
+      "zh": "在……里面",
+      "ja": "〜の中に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "en",
+    "m": {
+      "en": "in / on / at",
+      "zh": "在……里/上/处",
+      "ja": "〜に/〜の上に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "al lado de",
+    "m": {
+      "en": "next to",
+      "zh": "在……旁边",
+      "ja": "〜の隣に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "encima de",
+    "m": {
+      "en": "on top of",
+      "zh": "在……上面",
+      "ja": "〜の上に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "debajo de",
+    "m": {
+      "en": "under",
+      "zh": "在……下面",
+      "ja": "〜の下に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "cerca de",
+    "m": {
+      "en": "near",
+      "zh": "在……附近",
+      "ja": "〜の近くに"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "lejos de",
+    "m": {
+      "en": "far from",
+      "zh": "离……远",
+      "ja": "〜から遠くに"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "delante de",
+    "m": {
+      "en": "in front of",
+      "zh": "在……前面",
+      "ja": "〜の前に"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "detrás de",
+    "m": {
+      "en": "behind",
+      "zh": "在……后面",
+      "ja": "〜の後ろに"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "banco",
+    "m": {
+      "en": "bank",
+      "zh": "银行",
+      "ja": "銀行"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "farmacia",
+    "m": {
+      "en": "pharmacy",
+      "zh": "药店",
+      "ja": "薬局"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "biblioteca",
+    "m": {
+      "en": "library",
+      "zh": "图书馆",
+      "ja": "図書館"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "supermercado",
+    "m": {
+      "en": "supermarket",
+      "zh": "超市",
+      "ja": "スーパーマーケット"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "hospital",
+    "m": {
+      "en": "hospital",
+      "zh": "医院",
+      "ja": "病院"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "parque",
+    "m": {
+      "en": "park",
+      "zh": "公园",
+      "ja": "公園"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "escuela",
+    "m": {
+      "en": "school",
+      "zh": "学校",
+      "ja": "学校"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "tienda",
+    "m": {
+      "en": "shop / store",
+      "zh": "商店",
+      "ja": "店"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "hay",
+    "m": {
+      "en": "there is / there are",
+      "zh": "有",
+      "ja": "〜がある/いる"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "un",
+    "m": {
+      "en": "a (masculine)",
+      "zh": "一个（阳性）",
+      "ja": "一つの（男性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "una",
+    "m": {
+      "en": "a (feminine)",
+      "zh": "一个（阴性）",
+      "ja": "一つの（女性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "unos",
+    "m": {
+      "en": "some (masculine)",
+      "zh": "一些（阳性）",
+      "ja": "いくつかの（男性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "unas",
+    "m": {
+      "en": "some (feminine)",
+      "zh": "一些（阴性）",
+      "ja": "いくつかの（女性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "qué",
+    "m": {
+      "en": "what",
+      "zh": "什么",
+      "ja": "何"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "quién",
+    "m": {
+      "en": "who",
+      "zh": "谁",
+      "ja": "誰"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "dónde",
+    "m": {
+      "en": "where",
+      "zh": "哪里",
+      "ja": "どこ"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "cuándo",
+    "m": {
+      "en": "when",
+      "zh": "什么时候",
+      "ja": "いつ"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "cómo",
+    "m": {
+      "en": "how",
+      "zh": "怎么",
+      "ja": "どのように"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "por qué",
+    "m": {
+      "en": "why",
+      "zh": "为什么",
+      "ja": "なぜ"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "cuál",
+    "m": {
+      "en": "which",
+      "zh": "哪个",
+      "ja": "どれ"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "cuánto",
+    "m": {
+      "en": "how much / how many",
+      "zh": "多少",
+      "ja": "いくら/いくつ"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "no",
+    "m": {
+      "en": "no / not",
+      "zh": "不/没有",
+      "ja": "いいえ/〜ない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "nada",
+    "m": {
+      "en": "nothing",
+      "zh": "什么都没有",
+      "ja": "何もない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "nadie",
+    "m": {
+      "en": "nobody",
+      "zh": "没有人",
+      "ja": "誰もいない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "nunca",
+    "m": {
+      "en": "never",
+      "zh": "从不",
+      "ja": "決して〜ない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "tampoco",
+    "m": {
+      "en": "neither / not either",
+      "zh": "也不",
+      "ja": "〜もまた〜ない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "ni...ni",
+    "m": {
+      "en": "neither...nor",
+      "zh": "既不……也不",
+      "ja": "〜も〜もない"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "ningún",
+    "m": {
+      "en": "no (before masc. noun)",
+      "zh": "没有（阳性名词前）",
+      "ja": "一つもない（男性名詞の前）"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "ninguno",
+    "m": {
+      "en": "none (masculine)",
+      "zh": "一个也没有（阳性）",
+      "ja": "一つもない（男性、単独）"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "ninguna",
+    "m": {
+      "en": "no / none (feminine)",
+      "zh": "没有/一个也没有（阴性）",
+      "ja": "一つもない（女性）"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "algún",
+    "m": {
+      "en": "some / any (before masc. noun)",
+      "zh": "一些/任何（阳性名词前）",
+      "ja": "いくつかの（男性名詞の前）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "alguno",
+    "m": {
+      "en": "some / any one (masculine)",
+      "zh": "一些/某个（阳性）",
+      "ja": "いくつかの（男性、単独）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "alguna",
+    "m": {
+      "en": "some / any (feminine)",
+      "zh": "一些/任何（阴性）",
+      "ja": "いくつかの（女性）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "algunos",
+    "m": {
+      "en": "some (masculine plural)",
+      "zh": "一些（阳性复数）",
+      "ja": "いくつかの（男性複数）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "algunas",
+    "m": {
+      "en": "some (feminine plural)",
+      "zh": "一些（阴性复数）",
+      "ja": "いくつかの（女性複数）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "algo",
+    "m": {
+      "en": "something",
+      "zh": "某物",
+      "ja": "何か"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "mucho/a",
+    "m": {
+      "en": "much / a lot",
+      "zh": "很多",
+      "ja": "たくさん"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "poco/a",
+    "m": {
+      "en": "little / few",
+      "zh": "很少",
+      "ja": "少し"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "manzana",
+    "m": {
+      "en": "apple",
+      "zh": "苹果",
+      "ja": "りんご"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "naranja",
+    "m": {
+      "en": "orange",
+      "zh": "橙子",
+      "ja": "オレンジ"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "plátano",
+    "m": {
+      "en": "banana",
+      "zh": "香蕉",
+      "ja": "バナナ"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "fresa",
+    "m": {
+      "en": "strawberry",
+      "zh": "草莓",
+      "ja": "いちご"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "uva",
+    "m": {
+      "en": "grape",
+      "zh": "葡萄",
+      "ja": "ぶどう"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "limón",
+    "m": {
+      "en": "lemon",
+      "zh": "柠檬",
+      "ja": "レモン"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "fruta",
+    "m": {
+      "en": "fruit",
+      "zh": "水果",
+      "ja": "果物"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "hacer",
+    "m": {
+      "en": "to do / to make",
+      "zh": "做/制作",
+      "ja": "する・作る"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "hago",
+    "m": {
+      "en": "I do / I make",
+      "zh": "我做",
+      "ja": "私はする"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "haces",
+    "m": {
+      "en": "you do / you make",
+      "zh": "你做",
+      "ja": "君はする"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "hace",
+    "m": {
+      "en": "he/she does",
+      "zh": "他/她做",
+      "ja": "彼/彼女はする"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "maleta",
+    "m": {
+      "en": "suitcase",
+      "zh": "行李箱",
+      "ja": "スーツケース"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "deberes",
+    "m": {
+      "en": "homework",
+      "zh": "作业",
+      "ja": "宿題"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "cama",
+    "m": {
+      "en": "bed",
+      "zh": "床",
+      "ja": "ベッド"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "comida",
+    "m": {
+      "en": "food / meal",
+      "zh": "食物/餐",
+      "ja": "食べ物・食事"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "compra",
+    "m": {
+      "en": "shopping / purchase",
+      "zh": "购物",
+      "ja": "買い物"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "ejercicio",
+    "m": {
+      "en": "exercise",
+      "zh": "锻炼",
+      "ja": "運動"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "voy",
+    "m": {
+      "en": "I go",
+      "zh": "我去",
+      "ja": "私は行く"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "vas",
+    "m": {
+      "en": "you go",
+      "zh": "你去",
+      "ja": "君は行く"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "va",
+    "m": {
+      "en": "he/she goes",
+      "zh": "他/她去",
+      "ja": "彼/彼女は行く"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "vamos",
+    "m": {
+      "en": "we go",
+      "zh": "我们去",
+      "ja": "私たちは行く"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "van",
+    "m": {
+      "en": "they go",
+      "zh": "他们去",
+      "ja": "彼らは行く"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "al",
+    "m": {
+      "en": "to the (a+el)",
+      "zh": "去（a+el缩合）",
+      "ja": "〜へ（a+el）"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "comprar",
+    "m": {
+      "en": "to buy",
+      "zh": "买",
+      "ja": "買う"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "cine",
+    "m": {
+      "en": "cinema",
+      "zh": "电影院",
+      "ja": "映画館"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "playa",
+    "m": {
+      "en": "beach",
+      "zh": "海滩",
+      "ja": "ビーチ"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "restaurante",
+    "m": {
+      "en": "restaurant",
+      "zh": "餐厅",
+      "ja": "レストラン"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "viejo/a",
+    "m": {
+      "en": "old",
+      "zh": "旧的/老的",
+      "ja": "古い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "nuevo/a",
+    "m": {
+      "en": "new",
+      "zh": "新的",
+      "ja": "新しい"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "feo/a",
+    "m": {
+      "en": "ugly",
+      "zh": "丑的",
+      "ja": "醜い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "bonito/a",
+    "m": {
+      "en": "pretty",
+      "zh": "漂亮的",
+      "ja": "きれいな"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "dulce",
+    "m": {
+      "en": "sweet",
+      "zh": "甜的",
+      "ja": "甘い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "salado/a",
+    "m": {
+      "en": "salty",
+      "zh": "咸的",
+      "ja": "しょっぱい"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "grande",
+    "m": {
+      "en": "big",
+      "zh": "大的",
+      "ja": "大きい"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "pequeño/a",
+    "m": {
+      "en": "small",
+      "zh": "小的",
+      "ja": "小さい"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "rojo/a",
+    "m": {
+      "en": "red",
+      "zh": "红色",
+      "ja": "赤い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "azul",
+    "m": {
+      "en": "blue",
+      "zh": "蓝色",
+      "ja": "青い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "verde",
+    "m": {
+      "en": "green",
+      "zh": "绿色",
+      "ja": "緑"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "amarillo/a",
+    "m": {
+      "en": "yellow",
+      "zh": "黄色",
+      "ja": "黄色い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "blanco/a",
+    "m": {
+      "en": "white",
+      "zh": "白色",
+      "ja": "白い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "negro/a",
+    "m": {
+      "en": "black",
+      "zh": "黑色",
+      "ja": "黒い"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "marrón",
+    "m": {
+      "en": "brown",
+      "zh": "棕色",
+      "ja": "茶色"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "alto/a",
+    "m": {
+      "en": "tall",
+      "zh": "高的",
+      "ja": "背が高い"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "bajo/a",
+    "m": {
+      "en": "short",
+      "zh": "矮的",
+      "ja": "背が低い"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "gordo/a",
+    "m": {
+      "en": "fat",
+      "zh": "胖的",
+      "ja": "太った"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "delgado/a",
+    "m": {
+      "en": "thin",
+      "zh": "瘦的",
+      "ja": "やせた"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "guapo/a",
+    "m": {
+      "en": "handsome/pretty",
+      "zh": "帅/漂亮",
+      "ja": "ハンサム/きれい"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "inteligente",
+    "m": {
+      "en": "intelligent",
+      "zh": "聪明的",
+      "ja": "賢い"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "joven",
+    "m": {
+      "en": "young",
+      "zh": "年轻的",
+      "ja": "若い"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "simpático/a",
+    "m": {
+      "en": "nice/friendly",
+      "zh": "友善的",
+      "ja": "感じのよい"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "feliz",
+    "m": {
+      "en": "happy",
+      "zh": "幸福的",
+      "ja": "幸せな"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "triste",
+    "m": {
+      "en": "sad",
+      "zh": "悲伤的",
+      "ja": "悲しい"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "pájaro",
+    "m": {
+      "en": "bird",
+      "zh": "鸟",
+      "ja": "鳥"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "pez",
+    "m": {
+      "en": "fish",
+      "zh": "鱼",
+      "ja": "魚"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "caballo",
+    "m": {
+      "en": "horse",
+      "zh": "马",
+      "ja": "馬"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "vaca",
+    "m": {
+      "en": "cow",
+      "zh": "牛",
+      "ja": "牛"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "ratón",
+    "m": {
+      "en": "mouse",
+      "zh": "老鼠",
+      "ja": "ネズミ"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "conejo",
+    "m": {
+      "en": "rabbit",
+      "zh": "兔子",
+      "ja": "うさぎ"
+    },
+    "gender": null,
+    "unit": 21
+  },
+  {
+    "word": "profesor/a",
+    "m": {
+      "en": "teacher",
+      "zh": "老师",
+      "ja": "先生"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "doctor/a",
+    "m": {
+      "en": "doctor",
+      "zh": "医生",
+      "ja": "医者"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "ingeniero/a",
+    "m": {
+      "en": "engineer",
+      "zh": "工程师",
+      "ja": "エンジニア"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "abogado/a",
+    "m": {
+      "en": "lawyer",
+      "zh": "律师",
+      "ja": "弁護士"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "enfermero/a",
+    "m": {
+      "en": "nurse",
+      "zh": "护士",
+      "ja": "看護師"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "camarero/a",
+    "m": {
+      "en": "waiter/waitress",
+      "zh": "服务员",
+      "ja": "ウェイター"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "policía",
+    "m": {
+      "en": "police officer",
+      "zh": "警察",
+      "ja": "警察官"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "estudiante",
+    "m": {
+      "en": "student",
+      "zh": "学生",
+      "ja": "学生"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "cocinero/a",
+    "m": {
+      "en": "cook",
+      "zh": "厨师",
+      "ja": "料理人"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "músico/a",
+    "m": {
+      "en": "musician",
+      "zh": "音乐家",
+      "ja": "音楽家"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "artista",
+    "m": {
+      "en": "artist",
+      "zh": "艺术家",
+      "ja": "芸術家"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "bombero/a",
+    "m": {
+      "en": "firefighter",
+      "zh": "消防员",
+      "ja": "消防士"
+    },
+    "gender": null,
+    "unit": 22
+  },
+  {
+    "word": "llamarse",
+    "m": {
+      "en": "to be called",
+      "zh": "叫做",
+      "ja": "～という名前である"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "vivir",
+    "m": {
+      "en": "to live",
+      "zh": "生活/居住",
+      "ja": "住む・生きる"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "hablar",
+    "m": {
+      "en": "to speak",
+      "zh": "说话",
+      "ja": "話す"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "trabajar",
+    "m": {
+      "en": "to work",
+      "zh": "工作",
+      "ja": "働く"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "estudiar",
+    "m": {
+      "en": "to study",
+      "zh": "学习",
+      "ja": "勉強する"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "venir",
+    "m": {
+      "en": "to come",
+      "zh": "来",
+      "ja": "来る"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "querer",
+    "m": {
+      "en": "to want",
+      "zh": "想要",
+      "ja": "～したい"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "poder",
+    "m": {
+      "en": "to be able to",
+      "zh": "能够",
+      "ja": "～できる"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "comer",
+    "m": {
+      "en": "to eat",
+      "zh": "吃",
+      "ja": "食べる"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "beber",
+    "m": {
+      "en": "to drink",
+      "zh": "喝",
+      "ja": "飲む"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "ir",
+    "m": {
+      "en": "to go",
+      "zh": "去",
+      "ja": "行く"
+    },
+    "gender": null,
+    "unit": 23
+  },
+  {
+    "word": "hablo",
+    "m": {
+      "en": "I speak",
+      "zh": "我说",
+      "ja": "私は話す"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "hablas",
+    "m": {
+      "en": "you speak",
+      "zh": "你说",
+      "ja": "君は話す"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "habla",
+    "m": {
+      "en": "he/she speaks",
+      "zh": "他/她说",
+      "ja": "彼/彼女は話す"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "como",
+    "m": {
+      "en": "I eat",
+      "zh": "我吃",
+      "ja": "私は食べる"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "comes",
+    "m": {
+      "en": "you eat",
+      "zh": "你吃",
+      "ja": "君は食べる"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "come",
+    "m": {
+      "en": "he/she eats",
+      "zh": "他/她吃",
+      "ja": "彼/彼女は食べる"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "vivo",
+    "m": {
+      "en": "I live",
+      "zh": "我住",
+      "ja": "私は住む"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "vives",
+    "m": {
+      "en": "you live",
+      "zh": "你住",
+      "ja": "君は住む"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "vive",
+    "m": {
+      "en": "he/she lives",
+      "zh": "他/她住",
+      "ja": "彼/彼女は住む"
+    },
+    "gender": null,
+    "unit": 24
+  },
+  {
+    "word": "a veces",
+    "m": {
+      "en": "sometimes",
+      "zh": "有时",
+      "ja": "時々"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "siempre",
+    "m": {
+      "en": "always",
+      "zh": "总是",
+      "ja": "いつも"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "pronto",
+    "m": {
+      "en": "soon",
+      "zh": "很快",
+      "ja": "すぐに"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "tarde",
+    "m": {
+      "en": "late",
+      "zh": "晚",
+      "ja": "遅く"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "temprano",
+    "m": {
+      "en": "early",
+      "zh": "早",
+      "ja": "早く"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "ya",
+    "m": {
+      "en": "already",
+      "zh": "已经",
+      "ja": "もう"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "todavía",
+    "m": {
+      "en": "still / yet",
+      "zh": "仍然",
+      "ja": "まだ"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "normalmente",
+    "m": {
+      "en": "normally",
+      "zh": "通常",
+      "ja": "普通は"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "muchas veces",
+    "m": {
+      "en": "many times / often",
+      "zh": "经常",
+      "ja": "よく"
+    },
+    "gender": null,
+    "unit": 25
+  },
+  {
+    "word": "y",
+    "m": {
+      "en": "and",
+      "zh": "和",
+      "ja": "と・そして"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "pero",
+    "m": {
+      "en": "but",
+      "zh": "但是",
+      "ja": "でも"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "porque",
+    "m": {
+      "en": "because",
+      "zh": "因为",
+      "ja": "なぜなら"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "también",
+    "m": {
+      "en": "also / too",
+      "zh": "也",
+      "ja": "〜も"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "o",
+    "m": {
+      "en": "or",
+      "zh": "或者",
+      "ja": "または"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "ni",
+    "m": {
+      "en": "neither / nor",
+      "zh": "既不",
+      "ja": "〜も〜もない"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "sin embargo",
+    "m": {
+      "en": "however",
+      "zh": "然而",
+      "ja": "しかしながら"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "además",
+    "m": {
+      "en": "moreover / besides",
+      "zh": "此外",
+      "ja": "さらに"
+    },
+    "gender": null,
+    "unit": 26
+  },
+  {
+    "word": "gusta",
+    "m": {
+      "en": "pleases (singular)",
+      "zh": "喜欢（单数）",
+      "ja": "好き（単数）"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "gustan",
+    "m": {
+      "en": "pleases (plural)",
+      "zh": "喜欢（复数）",
+      "ja": "好き（複数）"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "me",
+    "m": {
+      "en": "me (indirect)",
+      "zh": "我（间接宾语）",
+      "ja": "私に"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "te",
+    "m": {
+      "en": "you (indirect)",
+      "zh": "你（间接宾语）",
+      "ja": "君に"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "le",
+    "m": {
+      "en": "him/her/you formal (indirect)",
+      "zh": "他/她/您（间接宾语）",
+      "ja": "彼/彼女に"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "nos",
+    "m": {
+      "en": "us (indirect)",
+      "zh": "我们（间接宾语）",
+      "ja": "私たちに"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "les",
+    "m": {
+      "en": "them/you all (indirect)",
+      "zh": "他们/你们（间接宾语）",
+      "ja": "彼らに"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "encanta",
+    "m": {
+      "en": "loves / is delighted by",
+      "zh": "非常喜欢",
+      "ja": "大好き"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "chocolate",
+    "m": {
+      "en": "chocolate",
+      "zh": "巧克力",
+      "ja": "チョコレート"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "bailar",
+    "m": {
+      "en": "to dance",
+      "zh": "跳舞",
+      "ja": "踊る"
+    },
+    "gender": null,
+    "unit": 27
+  },
+  {
+    "word": "ducharse",
+    "m": {
+      "en": "to shower",
+      "zh": "洗澡",
+      "ja": "シャワーを浴びる"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "levantarse",
+    "m": {
+      "en": "to get up",
+      "zh": "起床",
+      "ja": "起きる"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "acostarse",
+    "m": {
+      "en": "to go to bed",
+      "zh": "上床睡觉",
+      "ja": "寝る"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "vestirse",
+    "m": {
+      "en": "to get dressed",
+      "zh": "穿衣服",
+      "ja": "服を着る"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "despertarse",
+    "m": {
+      "en": "to wake up",
+      "zh": "醒来",
+      "ja": "目が覚める"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "lavarse",
+    "m": {
+      "en": "to wash oneself",
+      "zh": "洗",
+      "ja": "洗う"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "peinarse",
+    "m": {
+      "en": "to comb one's hair",
+      "zh": "梳头",
+      "ja": "髪をとかす"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "sentarse",
+    "m": {
+      "en": "to sit down",
+      "zh": "坐下",
+      "ja": "座る"
+    },
+    "gender": null,
+    "unit": 28
+  },
+  {
+    "word": "hablando",
+    "m": {
+      "en": "speaking",
+      "zh": "正在说",
+      "ja": "話している"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "comiendo",
+    "m": {
+      "en": "eating",
+      "zh": "正在吃",
+      "ja": "食べている"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "viviendo",
+    "m": {
+      "en": "living",
+      "zh": "正在住",
+      "ja": "住んでいる"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "estudiando",
+    "m": {
+      "en": "studying",
+      "zh": "正在学习",
+      "ja": "勉強している"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "trabajando",
+    "m": {
+      "en": "working",
+      "zh": "正在工作",
+      "ja": "働いている"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "leyendo",
+    "m": {
+      "en": "reading",
+      "zh": "正在读",
+      "ja": "読んでいる"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "durmiendo",
+    "m": {
+      "en": "sleeping",
+      "zh": "正在睡",
+      "ja": "寝ている"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "haciendo",
+    "m": {
+      "en": "doing / making",
+      "zh": "正在做",
+      "ja": "している"
+    },
+    "gender": null,
+    "unit": 29
+  },
+  {
+    "word": "esta noche",
+    "m": {
+      "en": "tonight",
+      "zh": "今晚",
+      "ja": "今夜"
+    },
+    "gender": null,
+    "unit": 30
+  },
+  {
+    "word": "la semana que viene",
+    "m": {
+      "en": "next week",
+      "zh": "下周",
+      "ja": "来週"
+    },
+    "gender": null,
+    "unit": 30
+  },
+  {
+    "word": "el próximo mes",
+    "m": {
+      "en": "next month",
+      "zh": "下个月",
+      "ja": "来月"
+    },
+    "gender": null,
+    "unit": 30
+  },
+  {
+    "word": "el año que viene",
+    "m": {
+      "en": "next year",
+      "zh": "明年",
+      "ja": "来年"
+    },
+    "gender": null,
+    "unit": 30
+  },
+  {
+    "word": "tengo que",
+    "m": {
+      "en": "I have to",
+      "zh": "我必须",
+      "ja": "私は〜しなければならない"
+    },
+    "gender": null,
+    "unit": 31
+  },
+  {
+    "word": "hay que",
+    "m": {
+      "en": "one has to / it's necessary to",
+      "zh": "需要/必须（无人称）",
+      "ja": "〜しなければならない（一般的）"
+    },
+    "gender": null,
+    "unit": 31
+  },
+  {
+    "word": "dormir",
+    "m": {
+      "en": "to sleep",
+      "zh": "睡觉",
+      "ja": "寝る"
+    },
+    "gender": null,
+    "unit": 31
+  },
+  {
+    "word": "limpiar",
+    "m": {
+      "en": "to clean",
+      "zh": "打扫",
+      "ja": "掃除する"
+    },
+    "gender": null,
+    "unit": 31
+  },
+  {
+    "word": "cocinar",
+    "m": {
+      "en": "to cook",
+      "zh": "做饭",
+      "ja": "料理する"
+    },
+    "gender": null,
+    "unit": 31
+  },
+  {
+    "word": "hace calor",
+    "m": {
+      "en": "it's hot",
+      "zh": "天气热",
+      "ja": "暑い"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "hace frío",
+    "m": {
+      "en": "it's cold",
+      "zh": "天气冷",
+      "ja": "寒い"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "hace sol",
+    "m": {
+      "en": "it's sunny",
+      "zh": "天气晴朗",
+      "ja": "晴れ"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "hace viento",
+    "m": {
+      "en": "it's windy",
+      "zh": "有风",
+      "ja": "風が強い"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "llueve",
+    "m": {
+      "en": "it rains",
+      "zh": "下雨",
+      "ja": "雨が降る"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "nieva",
+    "m": {
+      "en": "it snows",
+      "zh": "下雪",
+      "ja": "雪が降る"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "está nublado",
+    "m": {
+      "en": "it's cloudy",
+      "zh": "多云",
+      "ja": "曇り"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "primavera",
+    "m": {
+      "en": "spring",
+      "zh": "春天",
+      "ja": "春"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "verano",
+    "m": {
+      "en": "summer",
+      "zh": "夏天",
+      "ja": "夏"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "otoño",
+    "m": {
+      "en": "autumn / fall",
+      "zh": "秋天",
+      "ja": "秋"
+    },
+    "gender": null,
+    "unit": 32
+  },
+  {
+    "word": "invierno",
+    "m": {
+      "en": "winter",
+      "zh": "冬天",
+      "ja": "冬"
+    },
+    "gender": null,
+    "unit": 32
+  }
 ]

@@ -70,6 +70,11 @@ const T = {
 
   // Grammar explanations header
   grammarTip: { en: 'Grammar tip', zh: '语法提示', ja: '文法ヒント' },
+  grammarIntro: { en: 'Grammar', zh: '语法', ja: '文法' },
+  newWords: { en: 'New vocabulary', zh: '新词汇', ja: '新しい語彙' },
+  startExercises: { en: 'Start exercises', zh: '开始练习', ja: '練習を始める' },
+  tipLabel: { en: 'Tip', zh: '提示', ja: 'ヒント' },
+  warningLabel: { en: 'Watch out!', zh: '注意！', ja: '注意！' },
 
   // Reference
   reference:  { en: 'Reference', zh: '参考', ja: '参考' },
