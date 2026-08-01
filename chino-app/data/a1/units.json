@@ -1,0 +1,5770 @@
+[
+  {
+    "id": 1,
+    "title": "Saludos",
+    "desc": "Aprende a saludar y despedirte en chino mandarín",
+    "grammarIntro": "<h3>Los saludos en chino mandarín</h3><p>En chino, los saludos son bastante sencillos y directos. A diferencia del español, donde cambiamos el saludo según la hora del día (buenos días, buenas tardes, buenas noches), en chino el saludo universal <strong>你好 (nǐ hǎo)</strong> se puede usar en cualquier momento.</p><h4>Saludos básicos</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>你好</td><td>nǐ hǎo</td><td>Hola</td></tr><tr><td>早上好</td><td>zǎoshang hǎo</td><td>Buenos días</td></tr><tr><td>晚上好</td><td>wǎnshang hǎo</td><td>Buenas noches</td></tr><tr><td>再见</td><td>zàijiàn</td><td>Adiós</td></tr></table><div class=\"example\"><p><strong>你好！</strong> (nǐ hǎo!) — ¡Hola!</p><p><strong>再见！</strong> (zàijiàn!) — ¡Adiós!</p></div><h4>Expresiones de cortesía</h4><p>La cortesía es fundamental en la cultura china. Estas expresiones te ayudarán en cualquier situación:</p><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>谢谢</td><td>xièxie</td><td>Gracias</td></tr><tr><td>不客气</td><td>bú kèqi</td><td>De nada</td></tr><tr><td>对不起</td><td>duìbuqǐ</td><td>Lo siento / Perdón</td></tr><tr><td>没关系</td><td>méi guānxi</td><td>No pasa nada</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> 你好 (nǐ hǎo) literalmente significa \"tú bien\". Es una forma abreviada de preguntar \"¿estás bien?\". En chino, muchos saludos se construyen con 好 (hǎo, bien).</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> No confundas 不客气 (bú kèqi, de nada) con 对不起 (duìbuqǐ, lo siento). Son expresiones muy diferentes aunque ambas sean de cortesía.</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "你好",
+        "pinyin": "nǐ hǎo",
+        "es": "hola"
+      },
+      {
+        "hanzi": "再见",
+        "pinyin": "zàijiàn",
+        "es": "adiós"
+      },
+      {
+        "hanzi": "谢谢",
+        "pinyin": "xièxie",
+        "es": "gracias"
+      },
+      {
+        "hanzi": "不客气",
+        "pinyin": "bú kèqi",
+        "es": "de nada"
+      },
+      {
+        "hanzi": "对不起",
+        "pinyin": "duìbuqǐ",
+        "es": "lo siento, perdón"
+      },
+      {
+        "hanzi": "没关系",
+        "pinyin": "méi guānxi",
+        "es": "no pasa nada"
+      },
+      {
+        "hanzi": "早上好",
+        "pinyin": "zǎoshang hǎo",
+        "es": "buenos días"
+      },
+      {
+        "hanzi": "晚上好",
+        "pinyin": "wǎnshang hǎo",
+        "es": "buenas noches"
+      }
+    ],
+    "grammar": [
+      "你好 = hola (literalmente: tú bien)",
+      "再见 = adiós (literalmente: de nuevo ver)",
+      "谢谢 = gracias (se repite el carácter 谢)",
+      "不客气 = de nada (literalmente: no seas cortés)",
+      "对不起 = lo siento (literalmente: no puedo enfrentar)",
+      "没关系 = no pasa nada (literalmente: no tiene relación)"
+    ],
+    "vocab": [
+      "你好",
+      "再见",
+      "谢谢",
+      "不客气",
+      "对不起",
+      "没关系",
+      "早上好",
+      "晚上好"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'hola' en chino?",
+        "correct": "你好",
+        "options": [
+          "你好",
+          "再见",
+          "谢谢",
+          "对不起"
+        ],
+        "hint": "Saludo básico y universal en chino"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "你好",
+            "hola"
+          ],
+          [
+            "再见",
+            "adiós"
+          ],
+          [
+            "谢谢",
+            "gracias"
+          ],
+          [
+            "对不起",
+            "lo siento"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 不客气?",
+        "correct": "de nada",
+        "options": [
+          "de nada",
+          "lo siento",
+          "hola",
+          "adiós"
+        ],
+        "hint": "Se dice después de que alguien te da las gracias"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Gracias",
+        "answer": "谢谢",
+        "accept": [
+          "谢谢",
+          "xiexie",
+          "xièxie"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___上好",
+        "blank": "早",
+        "options": [
+          "早",
+          "晚",
+          "你",
+          "再"
+        ],
+        "hint": "Saludo de la mañana"
+      },
+      {
+        "type": "choose",
+        "prompt": "Alguien te dice 对不起. ¿Qué respondes?",
+        "correct": "没关系",
+        "options": [
+          "没关系",
+          "谢谢",
+          "再见",
+          "你好"
+        ],
+        "hint": "Significa 'no pasa nada'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Adiós",
+        "answer": "再见",
+        "accept": [
+          "再见",
+          "zaijian",
+          "zàijiàn"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "早上好",
+            "buenos días"
+          ],
+          [
+            "晚上好",
+            "buenas noches"
+          ],
+          [
+            "不客气",
+            "de nada"
+          ],
+          [
+            "没关系",
+            "no pasa nada"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pronombres personales",
+    "desc": "Aprende los pronombres personales en chino mandarín",
+    "grammarIntro": "<h3>Los pronombres personales en chino</h3><p>Los pronombres personales en chino son mucho más simples que en español. No hay conjugaciones verbales, así que el pronombre es la única forma de indicar quién realiza la acción.</p><h4>Pronombres singulares</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>我</td><td>wǒ</td><td>Yo</td></tr><tr><td>你</td><td>nǐ</td><td>Tú</td></tr><tr><td>他</td><td>tā</td><td>Él</td></tr><tr><td>她</td><td>tā</td><td>Ella</td></tr><tr><td>它</td><td>tā</td><td>Ello (animales/cosas)</td></tr></table><h4>Pronombres plurales</h4><p>Para formar el plural, simplemente se añade <strong>们 (men)</strong> al pronombre singular:</p><table><tr><th>Singular</th><th>Plural</th><th>Significado</th></tr><tr><td>我 (wǒ)</td><td>我们 (wǒmen)</td><td>Nosotros/as</td></tr><tr><td>你 (nǐ)</td><td>你们 (nǐmen)</td><td>Vosotros/as, ustedes</td></tr><tr><td>他 (tā)</td><td>他们 (tāmen)</td><td>Ellos/as</td></tr></table><div class=\"example\"><p><strong>我</strong> → <strong>我们</strong> (yo → nosotros)</p><p><strong>你</strong> → <strong>你们</strong> (tú → vosotros)</p><p><strong>他</strong> → <strong>他们</strong> (él → ellos)</p></div><div class=\"tip\"><p><strong>Consejo:</strong> Observa que 他 (él), 她 (ella) y 它 (ello) se pronuncian exactamente igual: <em>tā</em>. La diferencia solo existe en la escritura. En la conversación oral, el contexto te dirá a quién se refiere.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> A diferencia del español, en chino no puedes omitir el pronombre. En español decimos \"soy estudiante\", pero en chino siempre debes decir <strong>我是学生</strong> (wǒ shì xuéshēng, yo soy estudiante).</p></div><h4>Comparación con el español</h4><p>En español tenemos muchas formas pronominales (yo, me, mí, conmigo...). En chino, <strong>我</strong> sirve para todas esas funciones. El contexto y la posición en la frase determinan su papel gramatical.</p>",
+    "newVocab": [
+      {
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "es": "yo"
+      },
+      {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "es": "tú"
+      },
+      {
+        "hanzi": "他",
+        "pinyin": "tā",
+        "es": "él"
+      },
+      {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "es": "ella"
+      },
+      {
+        "hanzi": "它",
+        "pinyin": "tā",
+        "es": "ello (cosas/animales)"
+      },
+      {
+        "hanzi": "我们",
+        "pinyin": "wǒmen",
+        "es": "nosotros/as"
+      },
+      {
+        "hanzi": "你们",
+        "pinyin": "nǐmen",
+        "es": "vosotros/as, ustedes"
+      },
+      {
+        "hanzi": "他们",
+        "pinyin": "tāmen",
+        "es": "ellos/as"
+      }
+    ],
+    "grammar": [
+      "我 (wǒ) = yo — pronombre de primera persona singular",
+      "你 (nǐ) = tú — pronombre de segunda persona singular",
+      "他/她/它 (tā) = él/ella/ello — se pronuncian igual",
+      "们 (men) = sufijo que convierte el pronombre en plural",
+      "我们 = 我 + 们 = nosotros",
+      "你们 = 你 + 们 = vosotros/ustedes",
+      "他们 = 他 + 们 = ellos"
+    ],
+    "vocab": [
+      "我",
+      "你",
+      "他",
+      "她",
+      "它",
+      "我们",
+      "你们",
+      "他们"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el pronombre para 'yo' en chino?",
+        "correct": "我",
+        "options": [
+          "我",
+          "你",
+          "他",
+          "她"
+        ],
+        "hint": "Primera persona singular"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "我",
+            "yo"
+          ],
+          [
+            "你",
+            "tú"
+          ],
+          [
+            "他",
+            "él"
+          ],
+          [
+            "她",
+            "ella"
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___们",
+        "blank": "我",
+        "options": [
+          "我",
+          "好",
+          "见",
+          "谢"
+        ],
+        "hint": "Pronombre singular + 们 = nosotros"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'vosotros' o 'ustedes' en chino?",
+        "correct": "你们",
+        "options": [
+          "你们",
+          "我们",
+          "他们",
+          "她们"
+        ],
+        "hint": "Tú (你) + sufijo de plural (们)"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: nosotros",
+        "answer": "我们",
+        "accept": [
+          "我们",
+          "women",
+          "wǒmen"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "他, 她 y 它 se pronuncian...",
+        "correct": "exactamente igual: tā",
+        "options": [
+          "exactamente igual: tā",
+          "de forma diferente",
+          "solo 他 y 她 igual",
+          "ninguno igual"
+        ],
+        "hint": "Los tres tienen el mismo sonido"
+      },
+      {
+        "type": "fill",
+        "sentence": "他___",
+        "blank": "们",
+        "options": [
+          "们",
+          "好",
+          "见",
+          "谢"
+        ],
+        "hint": "Sufijo que indica plural"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "我们",
+            "nosotros"
+          ],
+          [
+            "你们",
+            "vosotros"
+          ],
+          [
+            "他们",
+            "ellos"
+          ],
+          [
+            "它",
+            "ello"
+          ]
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ellos",
+        "answer": "他们",
+        "accept": [
+          "他们",
+          "tamen",
+          "tāmen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Estructura SVO y 是",
+    "desc": "Aprende la estructura básica de las frases chinas y el verbo ser/estar",
+    "grammarIntro": "<h3>La estructura SVO en chino</h3><p>El chino utiliza el orden <strong>Sujeto + Verbo + Objeto (SVO)</strong>, igual que el español. Esta es una buena noticia para los hispanohablantes, ya que el orden básico de las frases es el mismo.</p><div class=\"example\"><p>Español: <strong>Yo</strong> (S) <strong>como</strong> (V) <strong>arroz</strong> (O)</p><p>Chino: <strong>我</strong> (S) <strong>吃</strong> (V) <strong>米饭</strong> (O)</p></div><h4>El verbo 是 (shì) — Ser / Estar</h4><p>El verbo <strong>是 (shì)</strong> es uno de los más importantes del chino. Equivale a \"ser\" o \"estar\" en español, pero se usa principalmente para <strong>identificar</strong> o <strong>clasificar</strong>.</p><table><tr><th>Chino</th><th>Pinyin</th><th>Español</th></tr><tr><td>我是学生</td><td>wǒ shì xuéshēng</td><td>Yo soy estudiante</td></tr><tr><td>你是老师</td><td>nǐ shì lǎoshī</td><td>Tú eres profesor/a</td></tr><tr><td>他是中国人</td><td>tā shì zhōngguó rén</td><td>Él es chino</td></tr><tr><td>她是西班牙人</td><td>tā shì xībānyá rén</td><td>Ella es española</td></tr></table><h4>Vocabulario clave</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>是</td><td>shì</td><td>ser, estar</td></tr><tr><td>学生</td><td>xuéshēng</td><td>estudiante</td></tr><tr><td>老师</td><td>lǎoshī</td><td>profesor/a</td></tr><tr><td>中国人</td><td>zhōngguó rén</td><td>persona china</td></tr><tr><td>西班牙人</td><td>xībānyá rén</td><td>persona española</td></tr></table><h4>La negación con 不 (bù)</h4><p>Para negar con 是, se coloca <strong>不 (bù)</strong> delante:</p><div class=\"example\"><p><strong>我不是老师。</strong> (wǒ bú shì lǎoshī) — Yo no soy profesor.</p><p><strong>他不是学生。</strong> (tā bú shì xuéshēng) — Él no es estudiante.</p></div><div class=\"tip\"><p><strong>Consejo:</strong> Observa que 不 cambia de tono antes de un cuarto tono: 不是 se pronuncia <em>bú shì</em> (segundo tono + cuarto tono), aunque 不 normalmente es cuarto tono (bù).</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> En chino NO se usa 是 para describir adjetivos. No se dice *我是高 (yo soy alto). Se dice 我很高 (wǒ hěn gāo). 是 solo se usa para identificar: yo soy [sustantivo].</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "是",
+        "pinyin": "shì",
+        "es": "ser, estar"
+      },
+      {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "es": "no (negación)"
+      },
+      {
+        "hanzi": "学生",
+        "pinyin": "xuéshēng",
+        "es": "estudiante"
+      },
+      {
+        "hanzi": "老师",
+        "pinyin": "lǎoshī",
+        "es": "profesor/a"
+      },
+      {
+        "hanzi": "中国人",
+        "pinyin": "zhōngguó rén",
+        "es": "persona china"
+      },
+      {
+        "hanzi": "西班牙人",
+        "pinyin": "xībānyá rén",
+        "es": "persona española"
+      },
+      {
+        "hanzi": "朋友",
+        "pinyin": "péngyou",
+        "es": "amigo/a"
+      },
+      {
+        "hanzi": "医生",
+        "pinyin": "yīshēng",
+        "es": "médico/a"
+      }
+    ],
+    "grammar": [
+      "Estructura SVO: Sujeto + Verbo + Objeto (igual que en español)",
+      "我是学生 = Yo soy estudiante (我 + 是 + 学生)",
+      "不 + 是 = no ser → 我不是老师 (yo no soy profesor)",
+      "是 solo se usa con sustantivos, NO con adjetivos",
+      "不 cambia a segundo tono (bú) antes de cuarto tono: 不是 → bú shì"
+    ],
+    "vocab": [
+      "是",
+      "不",
+      "学生",
+      "老师",
+      "中国人",
+      "西班牙人",
+      "朋友",
+      "医生"
+    ],
+    "exercises": [
+      {
+        "type": "order",
+        "prompt": "Ordena: Yo soy estudiante",
+        "words": [
+          "我",
+          "是",
+          "学生"
+        ],
+        "answer": "我是学生"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 是?",
+        "correct": "ser/estar",
+        "options": [
+          "ser/estar",
+          "tener",
+          "ir",
+          "hacer"
+        ],
+        "hint": "Verbo de identidad"
+      },
+      {
+        "type": "fill",
+        "sentence": "我___学生",
+        "blank": "是",
+        "options": [
+          "是",
+          "不",
+          "好",
+          "们"
+        ],
+        "hint": "Verbo que significa 'ser'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Él es profesor",
+        "answer": "他是老师",
+        "accept": [
+          "他是老师",
+          "ta shi laoshi",
+          "tā shì lǎoshī"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Yo no soy médico",
+        "words": [
+          "我",
+          "不",
+          "是",
+          "医生"
+        ],
+        "answer": "我不是医生"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se niega con 是?",
+        "correct": "不是",
+        "options": [
+          "不是",
+          "没是",
+          "无是",
+          "非是"
+        ],
+        "hint": "Se usa 不 delante de 是"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "学生",
+            "estudiante"
+          ],
+          [
+            "老师",
+            "profesor"
+          ],
+          [
+            "医生",
+            "médico"
+          ],
+          [
+            "朋友",
+            "amigo"
+          ]
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Ella es española",
+        "answer": "她是西班牙人",
+        "accept": [
+          "她是西班牙人"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Tú eres mi amigo",
+        "words": [
+          "你",
+          "是",
+          "我的",
+          "朋友"
+        ],
+        "answer": "你是我的朋友"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Los tonos del chino",
+    "desc": "Domina los cuatro tonos y el tono neutro del mandarín",
+    "grammarIntro": "<h3>Los tonos del chino mandarín</h3><p>El chino mandarín es una <strong>lengua tonal</strong>. Esto significa que la misma sílaba pronunciada con diferente tono tiene un significado completamente distinto. El mandarín tiene <strong>4 tonos principales</strong> y un <strong>tono neutro</strong> (ligero).</p><h4>Los cuatro tonos</h4><table><tr><th>Tono</th><th>Marca</th><th>Descripción</th><th>Ejemplo</th></tr><tr><td>1.º tono</td><td>ā (macron)</td><td>Alto y sostenido, como cantar una nota larga</td><td>妈 (mā) = mamá</td></tr><tr><td>2.º tono</td><td>á (acento agudo)</td><td>Ascendente, como cuando preguntas \"¿eh?\"</td><td>麻 (má) = cáñamo</td></tr><tr><td>3.º tono</td><td>ǎ (carón)</td><td>Baja y sube, como un valle: empieza medio, baja, y sube</td><td>马 (mǎ) = caballo</td></tr><tr><td>4.º tono</td><td>à (acento grave)</td><td>Descendente y brusco, como una orden: \"¡No!\"</td><td>骂 (mà) = insultar</td></tr><tr><td>Neutro</td><td>ma (sin marca)</td><td>Ligero y breve, sin énfasis</td><td>吗 (ma) = partícula de pregunta</td></tr></table><div class=\"example\"><p><strong>El ejemplo clásico con mā:</strong></p><p>妈 (mā) = mamá &nbsp;|&nbsp; 麻 (má) = cáñamo &nbsp;|&nbsp; 马 (mǎ) = caballo &nbsp;|&nbsp; 骂 (mà) = insultar &nbsp;|&nbsp; 吗 (ma) = ¿?</p></div><h4>Representación visual de los tonos</h4><p>Imagina los tonos como movimientos musicales:</p><div class=\"example\"><p>1.º tono: ——— (línea recta alta)</p><p>2.º tono: ／ (subida)</p><p>3.º tono: ＼／ (bajada y subida)</p><p>4.º tono: ＼ (bajada brusca)</p></div><h4>Regla del cambio de tono del tercer tono</h4><p>Cuando dos terceros tonos van seguidos, el primero cambia a segundo tono:</p><div class=\"example\"><p>你好 = nǐ + hǎo → se pronuncia <em>ní hǎo</em></p></div><div class=\"tip\"><p><strong>Consejo:</strong> No intentes memorizar los tonos de forma aislada. Aprende las palabras completas con su tono, como si fueran melodías. Con la práctica, los tonos se volverán naturales.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> Los tonos NO son opcionales. Cambiar el tono cambia el significado por completo. 买 (mǎi, comprar) y 卖 (mài, vender) solo se diferencian por el tono. ¡Imagina la confusión!</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "妈",
+        "pinyin": "mā",
+        "es": "mamá (1.er tono)"
+      },
+      {
+        "hanzi": "麻",
+        "pinyin": "má",
+        "es": "cáñamo (2.º tono)"
+      },
+      {
+        "hanzi": "马",
+        "pinyin": "mǎ",
+        "es": "caballo (3.er tono)"
+      },
+      {
+        "hanzi": "骂",
+        "pinyin": "mà",
+        "es": "insultar (4.º tono)"
+      },
+      {
+        "hanzi": "吗",
+        "pinyin": "ma",
+        "es": "partícula de pregunta (tono neutro)"
+      },
+      {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "es": "comprar"
+      },
+      {
+        "hanzi": "卖",
+        "pinyin": "mài",
+        "es": "vender"
+      },
+      {
+        "hanzi": "四",
+        "pinyin": "sì",
+        "es": "cuatro"
+      }
+    ],
+    "grammar": [
+      "1.er tono (ā): alto y sostenido — 妈 (mā, mamá)",
+      "2.º tono (á): ascendente — 麻 (má, cáñamo)",
+      "3.er tono (ǎ): baja y sube — 马 (mǎ, caballo)",
+      "4.º tono (à): descendente y brusco — 骂 (mà, insultar)",
+      "Tono neutro: ligero y breve — 吗 (ma, partícula interrogativa)",
+      "Regla: 3.er tono + 3.er tono → el primero cambia a 2.º tono (你好 → ní hǎo)"
+    ],
+    "vocab": [
+      "妈",
+      "麻",
+      "马",
+      "骂",
+      "吗",
+      "买",
+      "卖",
+      "四"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuántos tonos principales tiene el chino mandarín?",
+        "correct": "4 tonos (más el tono neutro)",
+        "options": [
+          "4 tonos (más el tono neutro)",
+          "3 tonos",
+          "5 tonos",
+          "2 tonos"
+        ],
+        "hint": "Más un tono ligero adicional"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 妈 (mā, primer tono)?",
+        "correct": "mamá",
+        "options": [
+          "mamá",
+          "caballo",
+          "cáñamo",
+          "insultar"
+        ],
+        "hint": "Primer tono: alto y sostenido"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "妈 (mā)",
+            "mamá"
+          ],
+          [
+            "麻 (má)",
+            "cáñamo"
+          ],
+          [
+            "马 (mǎ)",
+            "caballo"
+          ],
+          [
+            "骂 (mà)",
+            "insultar"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "El segundo tono (á) es un tono...",
+        "correct": "ascendente",
+        "options": [
+          "ascendente",
+          "descendente",
+          "alto y sostenido",
+          "que baja y sube"
+        ],
+        "hint": "Como cuando preguntas \"¿eh?\""
+      },
+      {
+        "type": "fill",
+        "sentence": "买 (mǎi) significa ___ y 卖 (mài) significa ___",
+        "blank": "comprar / vender",
+        "options": [
+          "comprar / vender",
+          "vender / comprar",
+          "ir / venir",
+          "dar / recibir"
+        ],
+        "hint": "Solo cambia el tono: 3.er vs 4.º"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué ocurre cuando dos terceros tonos van seguidos?",
+        "correct": "El primero cambia a segundo tono",
+        "options": [
+          "El primero cambia a segundo tono",
+          "Se mantienen igual",
+          "El segundo cambia a primer tono",
+          "Ambos cambian"
+        ],
+        "hint": "Ejemplo: 你好 (nǐ hǎo → ní hǎo)"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Para qué sirve 吗 (ma, tono neutro)?",
+        "correct": "Convertir una frase en pregunta",
+        "options": [
+          "Convertir una frase en pregunta",
+          "Negar una frase",
+          "Indicar pasado",
+          "Indicar futuro"
+        ],
+        "hint": "Se añade al final de la frase"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "1.er tono (ā)",
+            "alto y sostenido"
+          ],
+          [
+            "2.º tono (á)",
+            "ascendente"
+          ],
+          [
+            "3.er tono (ǎ)",
+            "baja y sube"
+          ],
+          [
+            "4.º tono (à)",
+            "descendente"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Números 1-10",
+    "desc": "Aprende a contar del uno al diez en chino mandarín",
+    "grammarIntro": "<h3>Los números del 1 al 10 en chino</h3><p>Los números del 1 al 10 son la base de todo el sistema numérico chino. Una vez que los domines, podrás formar cualquier número.</p><h4>Tabla de números</h4><table><tr><th>Número</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>1</td><td>一</td><td>yī</td></tr><tr><td>2</td><td>二</td><td>èr</td></tr><tr><td>3</td><td>三</td><td>sān</td></tr><tr><td>4</td><td>四</td><td>sì</td></tr><tr><td>5</td><td>五</td><td>wǔ</td></tr><tr><td>6</td><td>六</td><td>liù</td></tr><tr><td>7</td><td>七</td><td>qī</td></tr><tr><td>8</td><td>八</td><td>bā</td></tr><tr><td>9</td><td>九</td><td>jiǔ</td></tr><tr><td>10</td><td>十</td><td>shí</td></tr></table><h4>Los caracteres como trazos</h4><p>Algunos números chinos son muy fáciles de recordar por su forma:</p><div class=\"example\"><p><strong>一</strong> (yī) = 1 — Un trazo horizontal = uno</p><p><strong>二</strong> (èr) = 2 — Dos trazos horizontales = dos</p><p><strong>三</strong> (sān) = 3 — Tres trazos horizontales = tres</p><p><strong>十</strong> (shí) = 10 — Una cruz, como el número romano X</p></div><div class=\"tip\"><p><strong>Consejo:</strong> El número 4 (四, sì) suena similar a 死 (sǐ, muerte), por lo que se considera un número de mala suerte en la cultura china. Muchos edificios no tienen piso 4.</p></div><div class=\"tip\"><p><strong>Consejo:</strong> El número 8 (八, bā) suena similar a 发 (fā, prosperar), por lo que se considera muy afortunado. Los Juegos Olímpicos de Pekín comenzaron el 08/08/08 a las 8:08 PM.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> El número 一 (yī) cambia de tono según la palabra que le sigue: antes de un 4.º tono se pronuncia <em>yí</em> (2.º tono), y antes de otros tonos se pronuncia <em>yì</em> (4.º tono).</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "一",
+        "pinyin": "yī",
+        "es": "uno (1)"
+      },
+      {
+        "hanzi": "二",
+        "pinyin": "èr",
+        "es": "dos (2)"
+      },
+      {
+        "hanzi": "三",
+        "pinyin": "sān",
+        "es": "tres (3)"
+      },
+      {
+        "hanzi": "四",
+        "pinyin": "sì",
+        "es": "cuatro (4)"
+      },
+      {
+        "hanzi": "五",
+        "pinyin": "wǔ",
+        "es": "cinco (5)"
+      },
+      {
+        "hanzi": "六",
+        "pinyin": "liù",
+        "es": "seis (6)"
+      },
+      {
+        "hanzi": "七",
+        "pinyin": "qī",
+        "es": "siete (7)"
+      },
+      {
+        "hanzi": "八",
+        "pinyin": "bā",
+        "es": "ocho (8)"
+      },
+      {
+        "hanzi": "九",
+        "pinyin": "jiǔ",
+        "es": "nueve (9)"
+      },
+      {
+        "hanzi": "十",
+        "pinyin": "shí",
+        "es": "diez (10)"
+      }
+    ],
+    "grammar": [
+      "一 (yī) = 1, 二 (èr) = 2, 三 (sān) = 3",
+      "四 (sì) = 4, 五 (wǔ) = 5, 六 (liù) = 6",
+      "七 (qī) = 7, 八 (bā) = 8, 九 (jiǔ) = 9, 十 (shí) = 10",
+      "一 cambia de tono: yí (antes de 4.º tono), yì (antes de otros tonos)",
+      "4 (四) es número de mala suerte, 8 (八) es de buena suerte"
+    ],
+    "vocab": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "一",
+            "1"
+          ],
+          [
+            "二",
+            "2"
+          ],
+          [
+            "三",
+            "3"
+          ],
+          [
+            "四",
+            "4"
+          ],
+          [
+            "五",
+            "5"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el carácter para el número 7?",
+        "correct": "七",
+        "options": [
+          "七",
+          "九",
+          "六",
+          "八"
+        ],
+        "hint": "Se pronuncia qī"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 5 en chino",
+        "answer": "五",
+        "accept": [
+          "五",
+          "wu",
+          "wǔ"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "六",
+            "6"
+          ],
+          [
+            "七",
+            "7"
+          ],
+          [
+            "八",
+            "8"
+          ],
+          [
+            "九",
+            "9"
+          ],
+          [
+            "十",
+            "10"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número se considera de mala suerte en China?",
+        "correct": "四 (4)",
+        "options": [
+          "四 (4)",
+          "七 (7)",
+          "三 (3)",
+          "九 (9)"
+        ],
+        "hint": "Suena similar a la palabra 'muerte'"
+      },
+      {
+        "type": "fill",
+        "sentence": "一, 二, 三, ___, 五",
+        "blank": "四",
+        "options": [
+          "四",
+          "六",
+          "七",
+          "八"
+        ],
+        "hint": "El número 4"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 10 en chino",
+        "answer": "十",
+        "accept": [
+          "十",
+          "shi",
+          "shí"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena los números de menor a mayor: 5, 2, 8",
+        "words": [
+          "二",
+          "五",
+          "八"
+        ],
+        "answer": "二五八"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número se considera de buena suerte en China?",
+        "correct": "八 (8)",
+        "options": [
+          "八 (8)",
+          "四 (4)",
+          "三 (3)",
+          "六 (6)"
+        ],
+        "hint": "Suena similar a 'prosperar'"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Números 11-100",
+    "desc": "Aprende a formar números compuestos y a contar hasta cien",
+    "grammarIntro": "<h3>Números del 11 al 100</h3><p>El sistema numérico chino es extremadamente lógico y regular. Una vez que conoces los números del 1 al 10, puedes construir todos los demás siguiendo reglas simples.</p><h4>Números del 11 al 19</h4><p>Se forman con <strong>十 (shí, diez) + unidad</strong>:</p><table><tr><th>Número</th><th>Formación</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>11</td><td>10 + 1</td><td>十一</td><td>shíyī</td></tr><tr><td>12</td><td>10 + 2</td><td>十二</td><td>shí'èr</td></tr><tr><td>13</td><td>10 + 3</td><td>十三</td><td>shísān</td></tr><tr><td>14</td><td>10 + 4</td><td>十四</td><td>shísì</td></tr><tr><td>15</td><td>10 + 5</td><td>十五</td><td>shíwǔ</td></tr><tr><td>16</td><td>10 + 6</td><td>十六</td><td>shíliù</td></tr><tr><td>17</td><td>10 + 7</td><td>十七</td><td>shíqī</td></tr><tr><td>18</td><td>10 + 8</td><td>十八</td><td>shíbā</td></tr><tr><td>19</td><td>10 + 9</td><td>十九</td><td>shíjiǔ</td></tr></table><h4>Las decenas</h4><p>Se forman con <strong>unidad + 十 (shí, diez)</strong>:</p><table><tr><th>Número</th><th>Formación</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>20</td><td>2 × 10</td><td>二十</td><td>èrshí</td></tr><tr><td>30</td><td>3 × 10</td><td>三十</td><td>sānshí</td></tr><tr><td>40</td><td>4 × 10</td><td>四十</td><td>sìshí</td></tr><tr><td>50</td><td>5 × 10</td><td>五十</td><td>wǔshí</td></tr><tr><td>60</td><td>6 × 10</td><td>六十</td><td>liùshí</td></tr><tr><td>70</td><td>7 × 10</td><td>七十</td><td>qīshí</td></tr><tr><td>80</td><td>8 × 10</td><td>八十</td><td>bāshí</td></tr><tr><td>90</td><td>9 × 10</td><td>九十</td><td>jiǔshí</td></tr></table><h4>Números compuestos (decena + unidad)</h4><div class=\"example\"><p><strong>25</strong> = 二十五 (èrshíwǔ) → 2 × 10 + 5</p><p><strong>47</strong> = 四十七 (sìshíqī) → 4 × 10 + 7</p><p><strong>99</strong> = 九十九 (jiǔshíjiǔ) → 9 × 10 + 9</p></div><h4>El número 100</h4><p><strong>一百 (yì bǎi)</strong> = 100. 百 (bǎi) es la unidad de centena.</p><div class=\"tip\"><p><strong>Consejo:</strong> El sistema es puramente matemático. Para decir cualquier número de dos cifras, piensa: ¿cuántas decenas? + ¿cuántas unidades? Ejemplo: 63 = seis decenas y tres = 六十三.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> No confundas 十四 (shísì, 14) con 四十 (sìshí, 40). El orden importa: 十 + número = 10 + algo; número + 十 = algo × 10.</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "十一",
+        "pinyin": "shíyī",
+        "es": "once (11)"
+      },
+      {
+        "hanzi": "二十",
+        "pinyin": "èrshí",
+        "es": "veinte (20)"
+      },
+      {
+        "hanzi": "三十",
+        "pinyin": "sānshí",
+        "es": "treinta (30)"
+      },
+      {
+        "hanzi": "五十",
+        "pinyin": "wǔshí",
+        "es": "cincuenta (50)"
+      },
+      {
+        "hanzi": "九十九",
+        "pinyin": "jiǔshíjiǔ",
+        "es": "noventa y nueve (99)"
+      },
+      {
+        "hanzi": "一百",
+        "pinyin": "yì bǎi",
+        "es": "cien (100)"
+      },
+      {
+        "hanzi": "百",
+        "pinyin": "bǎi",
+        "es": "cien, centena"
+      },
+      {
+        "hanzi": "零",
+        "pinyin": "líng",
+        "es": "cero (0)"
+      }
+    ],
+    "grammar": [
+      "11-19: 十 + unidad → 十一 (11), 十二 (12)...",
+      "Decenas: unidad + 十 → 二十 (20), 三十 (30)...",
+      "Compuestos: decena + 十 + unidad → 二十五 (25)",
+      "100 = 一百 (yì bǎi) — 百 es la unidad de centena",
+      "零 (líng) = cero"
+    ],
+    "vocab": [
+      "十一",
+      "十二",
+      "二十",
+      "三十",
+      "四十",
+      "五十",
+      "九十九",
+      "一百",
+      "百",
+      "零"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 20 en chino?",
+        "correct": "二十",
+        "options": [
+          "二十",
+          "十二",
+          "二百",
+          "二零"
+        ],
+        "hint": "2 × 10"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 15 en chino",
+        "answer": "十五",
+        "accept": [
+          "十五",
+          "shiwu",
+          "shíwǔ"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número es 四十七?",
+        "correct": "47",
+        "options": [
+          "47",
+          "74",
+          "14",
+          "40"
+        ],
+        "hint": "4 × 10 + 7"
+      },
+      {
+        "type": "fill",
+        "sentence": "三___六",
+        "blank": "十",
+        "options": [
+          "十",
+          "百",
+          "千",
+          "零"
+        ],
+        "hint": "Treinta y seis: 3 × ___ + 6"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 88 en chino",
+        "answer": "八十八",
+        "accept": [
+          "八十八",
+          "bashiba",
+          "bāshíbā"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la diferencia entre 十四 y 四十?",
+        "correct": "十四 = 14, 四十 = 40",
+        "options": [
+          "十四 = 14, 四十 = 40",
+          "十四 = 40, 四十 = 14",
+          "Son iguales",
+          "十四 = 4, 四十 = 10"
+        ],
+        "hint": "El orden de los caracteres cambia el valor"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 100 en chino",
+        "answer": "一百",
+        "accept": [
+          "一百",
+          "yibai",
+          "yì bǎi"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "十一",
+            "11"
+          ],
+          [
+            "二十",
+            "20"
+          ],
+          [
+            "五十",
+            "50"
+          ],
+          [
+            "九十九",
+            "99"
+          ],
+          [
+            "一百",
+            "100"
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Forma el número 63 en chino",
+        "words": [
+          "六",
+          "十",
+          "三"
+        ],
+        "answer": "六十三"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Días y meses",
+    "desc": "Aprende los días de la semana y los meses del año en chino",
+    "grammarIntro": "<h3>Días de la semana y meses del año</h3><p>En chino, los días de la semana y los meses se forman de manera muy lógica usando los números que ya conoces.</p><h4>Días de la semana (星期, xīngqī)</h4><p>Los días de la semana se forman con <strong>星期 (xīngqī, semana) + número</strong>:</p><table><tr><th>Día</th><th>Hanzi</th><th>Pinyin</th><th>Literal</th></tr><tr><td>Lunes</td><td>星期一</td><td>xīngqīyī</td><td>Semana-1</td></tr><tr><td>Martes</td><td>星期二</td><td>xīngqī'èr</td><td>Semana-2</td></tr><tr><td>Miércoles</td><td>星期三</td><td>xīngqīsān</td><td>Semana-3</td></tr><tr><td>Jueves</td><td>星期四</td><td>xīngqīsì</td><td>Semana-4</td></tr><tr><td>Viernes</td><td>星期五</td><td>xīngqīwǔ</td><td>Semana-5</td></tr><tr><td>Sábado</td><td>星期六</td><td>xīngqīliù</td><td>Semana-6</td></tr><tr><td>Domingo</td><td>星期日 / 星期天</td><td>xīngqīrì / xīngqītiān</td><td>Semana-sol / Semana-cielo</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> El domingo es el único día que no usa un número. Tiene dos formas: 星期日 (más formal) y 星期天 (más coloquial). Ambas son correctas.</p></div><h4>Los meses (月, yuè)</h4><p>Los meses se forman con <strong>número + 月 (yuè, mes/luna)</strong>:</p><table><tr><th>Mes</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>Enero</td><td>一月</td><td>yīyuè</td></tr><tr><td>Febrero</td><td>二月</td><td>èryuè</td></tr><tr><td>Marzo</td><td>三月</td><td>sānyuè</td></tr><tr><td>Abril</td><td>四月</td><td>sìyuè</td></tr><tr><td>Mayo</td><td>五月</td><td>wǔyuè</td></tr><tr><td>Junio</td><td>六月</td><td>liùyuè</td></tr><tr><td>Julio</td><td>七月</td><td>qīyuè</td></tr><tr><td>Agosto</td><td>八月</td><td>bāyuè</td></tr><tr><td>Septiembre</td><td>九月</td><td>jiǔyuè</td></tr><tr><td>Octubre</td><td>十月</td><td>shíyuè</td></tr><tr><td>Noviembre</td><td>十一月</td><td>shíyīyuè</td></tr><tr><td>Diciembre</td><td>十二月</td><td>shí'èryuè</td></tr></table><h4>Palabras temporales básicas</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>今天</td><td>jīntiān</td><td>Hoy</td></tr><tr><td>明天</td><td>míngtiān</td><td>Mañana</td></tr><tr><td>昨天</td><td>zuótiān</td><td>Ayer</td></tr></table><div class=\"example\"><p><strong>今天是星期一。</strong> (jīntiān shì xīngqīyī) — Hoy es lunes.</p><p><strong>明天是星期二。</strong> (míngtiān shì xīngqī'èr) — Mañana es martes.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> En chino, la semana empieza el lunes (星期一), no el domingo. Además, 月 (yuè) significa tanto \"mes\" como \"luna\".</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "星期",
+        "pinyin": "xīngqī",
+        "es": "semana"
+      },
+      {
+        "hanzi": "星期一",
+        "pinyin": "xīngqīyī",
+        "es": "lunes"
+      },
+      {
+        "hanzi": "星期二",
+        "pinyin": "xīngqī'èr",
+        "es": "martes"
+      },
+      {
+        "hanzi": "星期三",
+        "pinyin": "xīngqīsān",
+        "es": "miércoles"
+      },
+      {
+        "hanzi": "星期日",
+        "pinyin": "xīngqīrì",
+        "es": "domingo"
+      },
+      {
+        "hanzi": "月",
+        "pinyin": "yuè",
+        "es": "mes, luna"
+      },
+      {
+        "hanzi": "今天",
+        "pinyin": "jīntiān",
+        "es": "hoy"
+      },
+      {
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
+        "es": "mañana"
+      },
+      {
+        "hanzi": "昨天",
+        "pinyin": "zuótiān",
+        "es": "ayer"
+      }
+    ],
+    "grammar": [
+      "Días de la semana: 星期 + número (1-6) → 星期一 (lunes)... 星期六 (sábado)",
+      "Domingo: 星期日 (formal) o 星期天 (coloquial) — no usa número",
+      "Meses: número + 月 → 一月 (enero)... 十二月 (diciembre)",
+      "今天 = hoy, 明天 = mañana, 昨天 = ayer",
+      "月 (yuè) significa tanto 'mes' como 'luna'"
+    ],
+    "vocab": [
+      "星期",
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六",
+      "星期日",
+      "月",
+      "一月",
+      "今天",
+      "明天",
+      "昨天"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'lunes' en chino?",
+        "correct": "星期一",
+        "options": [
+          "星期一",
+          "一月",
+          "星期日",
+          "星期二"
+        ],
+        "hint": "Semana + 1"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "星期一",
+            "lunes"
+          ],
+          [
+            "星期三",
+            "miércoles"
+          ],
+          [
+            "星期五",
+            "viernes"
+          ],
+          [
+            "星期日",
+            "domingo"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'marzo' en chino?",
+        "correct": "三月",
+        "options": [
+          "三月",
+          "星期三",
+          "三十",
+          "十三"
+        ],
+        "hint": "Número 3 + mes"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Hoy es viernes",
+        "answer": "今天是星期五",
+        "accept": [
+          "今天是星期五"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "___天是星期六",
+        "blank": "明",
+        "options": [
+          "明",
+          "今",
+          "昨",
+          "星"
+        ],
+        "hint": "Si hoy es viernes, ___ es sábado"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué es especial del domingo en chino?",
+        "correct": "No usa número, se dice 星期日 o 星期天",
+        "options": [
+          "No usa número, se dice 星期日 o 星期天",
+          "Se dice 星期七",
+          "Se dice 星期零",
+          "Se dice 日期星"
+        ],
+        "hint": "Es el único día diferente"
+      },
+      {
+        "type": "order",
+        "prompt": "Forma la frase: Mañana es martes",
+        "words": [
+          "明天",
+          "是",
+          "星期二"
+        ],
+        "answer": "明天是星期二"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "一月",
+            "enero"
+          ],
+          [
+            "六月",
+            "junio"
+          ],
+          [
+            "十月",
+            "octubre"
+          ],
+          [
+            "十二月",
+            "diciembre"
+          ]
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ayer",
+        "answer": "昨天",
+        "accept": [
+          "昨天",
+          "zuotian",
+          "zuótiān"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "La hora",
+    "desc": "Aprende a preguntar y decir la hora en chino mandarín",
+    "grammarIntro": "<h3>Cómo decir la hora en chino</h3><p>Decir la hora en chino sigue una estructura lógica y predecible. La unidad principal es <strong>点 (diǎn)</strong>, que equivale a \"en punto\" u \"hora\".</p><h4>Vocabulario esencial</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>几点</td><td>jǐ diǎn</td><td>¿Qué hora?</td></tr><tr><td>现在</td><td>xiànzài</td><td>Ahora</td></tr><tr><td>点</td><td>diǎn</td><td>Hora / en punto</td></tr><tr><td>半</td><td>bàn</td><td>Media (y media)</td></tr><tr><td>分</td><td>fēn</td><td>Minuto</td></tr><tr><td>上午</td><td>shàngwǔ</td><td>Mañana (AM)</td></tr><tr><td>下午</td><td>xiàwǔ</td><td>Tarde (PM)</td></tr></table><h4>Estructura para decir la hora</h4><p>La estructura básica es: <strong>número + 点 (diǎn)</strong></p><div class=\"example\"><p><strong>三点</strong> (sān diǎn) = 3:00 (las tres en punto)</p><p><strong>七点</strong> (qī diǎn) = 7:00 (las siete en punto)</p><p><strong>十二点</strong> (shí'èr diǎn) = 12:00 (las doce en punto)</p></div><h4>Con minutos</h4><p>Estructura: <strong>número + 点 + número + 分</strong></p><div class=\"example\"><p><strong>三点十五分</strong> (sān diǎn shíwǔ fēn) = 3:15</p><p><strong>八点三十分</strong> (bā diǎn sānshí fēn) = 8:30</p><p><strong>九点四十五分</strong> (jiǔ diǎn sìshíwǔ fēn) = 9:45</p></div><h4>Con 半 (y media)</h4><p>Para la media hora, se usa <strong>半 (bàn)</strong> en lugar de 三十分:</p><div class=\"example\"><p><strong>六点半</strong> (liù diǎn bàn) = 6:30 (las seis y media)</p><p><strong>十点半</strong> (shí diǎn bàn) = 10:30 (las diez y media)</p></div><h4>Preguntar la hora</h4><div class=\"example\"><p><strong>现在几点？</strong> (xiànzài jǐ diǎn?) = ¿Qué hora es ahora?</p><p><strong>现在三点半。</strong> (xiànzài sān diǎn bàn.) = Ahora son las tres y media.</p></div><h4>AM y PM</h4><p>En chino, el indicador AM/PM va <strong>antes</strong> de la hora:</p><div class=\"example\"><p><strong>上午九点</strong> (shàngwǔ jiǔ diǎn) = 9:00 AM</p><p><strong>下午三点</strong> (xiàwǔ sān diǎn) = 3:00 PM</p></div><div class=\"tip\"><p><strong>Consejo:</strong> 几 (jǐ) es una palabra interrogativa que significa \"cuántos/cuántas\" para números pequeños. 几点 literalmente pregunta \"¿cuántas horas?\" = \"¿qué hora es?\".</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> El orden en chino es diferente al español. En español decimos \"las 3 de la tarde\", pero en chino el AM/PM va primero: 下午三点 (tarde + tres + hora). Piensa en el orden de mayor a menor: periodo del día → hora → minutos.</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "几点",
+        "pinyin": "jǐ diǎn",
+        "es": "¿qué hora?"
+      },
+      {
+        "hanzi": "现在",
+        "pinyin": "xiànzài",
+        "es": "ahora"
+      },
+      {
+        "hanzi": "点",
+        "pinyin": "diǎn",
+        "es": "hora, en punto"
+      },
+      {
+        "hanzi": "半",
+        "pinyin": "bàn",
+        "es": "media, y media"
+      },
+      {
+        "hanzi": "分",
+        "pinyin": "fēn",
+        "es": "minuto"
+      },
+      {
+        "hanzi": "上午",
+        "pinyin": "shàngwǔ",
+        "es": "mañana (AM)"
+      },
+      {
+        "hanzi": "下午",
+        "pinyin": "xiàwǔ",
+        "es": "tarde (PM)"
+      },
+      {
+        "hanzi": "几",
+        "pinyin": "jǐ",
+        "es": "¿cuántos? (número pequeño)"
+      }
+    ],
+    "grammar": [
+      "Hora en punto: número + 点 → 三点 (3:00)",
+      "Con minutos: número + 点 + número + 分 → 三点十五分 (3:15)",
+      "Y media: número + 点 + 半 → 六点半 (6:30)",
+      "Preguntar: 现在几点？ = ¿Qué hora es ahora?",
+      "AM/PM va antes de la hora: 上午九点 (9 AM), 下午三点 (3 PM)",
+      "几 (jǐ) = ¿cuántos? (para cantidades pequeñas)"
+    ],
+    "vocab": [
+      "几点",
+      "现在",
+      "点",
+      "半",
+      "分",
+      "上午",
+      "下午",
+      "几"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se pregunta '¿Qué hora es?' en chino?",
+        "correct": "现在几点？",
+        "options": [
+          "现在几点？",
+          "几点现在？",
+          "什么点？",
+          "今天几？"
+        ],
+        "hint": "Ahora + ¿cuántas horas?"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice '3:00' en chino?",
+        "correct": "三点",
+        "options": [
+          "三点",
+          "三分",
+          "三半",
+          "三时"
+        ],
+        "hint": "Número + 点"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: las seis y media",
+        "answer": "六点半",
+        "accept": [
+          "六点半",
+          "liu dian ban",
+          "liù diǎn bàn"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Forma la frase: Ahora son las 8",
+        "words": [
+          "现在",
+          "八",
+          "点"
+        ],
+        "answer": "现在八点"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "点",
+            "hora/en punto"
+          ],
+          [
+            "半",
+            "y media"
+          ],
+          [
+            "分",
+            "minuto"
+          ],
+          [
+            "现在",
+            "ahora"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice '3:15 PM' en chino?",
+        "correct": "下午三点十五分",
+        "options": [
+          "下午三点十五分",
+          "三点十五分下午",
+          "上午三点十五分",
+          "十五分三点下午"
+        ],
+        "hint": "En chino el AM/PM va antes de la hora"
+      },
+      {
+        "type": "fill",
+        "sentence": "现在十点___",
+        "blank": "半",
+        "options": [
+          "半",
+          "分",
+          "点",
+          "几"
+        ],
+        "hint": "Las diez y ___"
+      },
+      {
+        "type": "order",
+        "prompt": "Forma: las 9 de la mañana",
+        "words": [
+          "上午",
+          "九",
+          "点"
+        ],
+        "answer": "上午九点"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ¿Qué hora es ahora?",
+        "answer": "现在几点",
+        "accept": [
+          "现在几点",
+          "现在几点？",
+          "xianzai ji dian",
+          "xiànzài jǐ diǎn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "La familia",
+    "desc": "Miembros de la familia en chino",
+    "grammarIntro": "<h3>La familia en chino</h3><p>La familia es un pilar fundamental de la cultura china. Los términos familiares en chino son muy específicos y distinguen entre hermanos mayores y menores, algo que no ocurre en español.</p><table><thead><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr></thead><tbody><tr><td>爸爸</td><td>bàba</td><td>papá</td></tr><tr><td>妈妈</td><td>māma</td><td>mamá</td></tr><tr><td>哥哥</td><td>gēge</td><td>hermano mayor</td></tr><tr><td>姐姐</td><td>jiějie</td><td>hermana mayor</td></tr><tr><td>弟弟</td><td>dìdi</td><td>hermano menor</td></tr><tr><td>妹妹</td><td>mèimei</td><td>hermana menor</td></tr><tr><td>儿子</td><td>érzi</td><td>hijo</td></tr><tr><td>女儿</td><td>nǚ'ér</td><td>hija</td></tr><tr><td>家</td><td>jiā</td><td>casa / familia</td></tr></tbody></table><div class=\"tip\"><strong>Consejo:</strong> En chino se distingue entre hermano/hermana <em>mayor</em> y <em>menor</em>. No existe una palabra general para \"hermano\" como en español. 哥哥 y 姐姐 son los mayores; 弟弟 y 妹妹 son los menores.</div><div class=\"example\"><p><strong>她是我妈妈。</strong> (Tā shì wǒ māma.) — Ella es mi mamá.</p><p><strong>他是我爸爸。</strong> (Tā shì wǒ bàba.) — Él es mi papá.</p><p><strong>我有一个哥哥。</strong> (Wǒ yǒu yí gè gēge.) — Tengo un hermano mayor.</p></div><div class=\"warning\"><strong>Atención:</strong> La palabra 家 (jiā) puede significar tanto \"casa\" como \"familia\", dependiendo del contexto. 回家 (huí jiā) = volver a casa; 我的家 (wǒ de jiā) = mi familia / mi hogar.</div>",
+    "newVocab": [
+      {
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
+        "es": "papá"
+      },
+      {
+        "hanzi": "妈妈",
+        "pinyin": "māma",
+        "es": "mamá"
+      },
+      {
+        "hanzi": "哥哥",
+        "pinyin": "gēge",
+        "es": "hermano mayor"
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiějie",
+        "es": "hermana mayor"
+      },
+      {
+        "hanzi": "弟弟",
+        "pinyin": "dìdi",
+        "es": "hermano menor"
+      },
+      {
+        "hanzi": "妹妹",
+        "pinyin": "mèimei",
+        "es": "hermana menor"
+      },
+      {
+        "hanzi": "儿子",
+        "pinyin": "érzi",
+        "es": "hijo"
+      },
+      {
+        "hanzi": "女儿",
+        "pinyin": "nǚ'ér",
+        "es": "hija"
+      },
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "es": "casa / familia"
+      }
+    ],
+    "grammar": [
+      "爸爸 (bàba) = papá",
+      "妈妈 (māma) = mamá",
+      "哥哥/姐姐 = hermano/hermana mayor",
+      "弟弟/妹妹 = hermano/hermana menor",
+      "儿子 = hijo, 女儿 = hija",
+      "家 = casa / familia"
+    ],
+    "vocab": [
+      "爸爸",
+      "妈妈",
+      "哥哥",
+      "姐姐",
+      "弟弟",
+      "妹妹",
+      "儿子",
+      "女儿",
+      "家"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "爸爸",
+            "papá"
+          ],
+          [
+            "妈妈",
+            "mamá"
+          ],
+          [
+            "哥哥",
+            "hermano mayor"
+          ],
+          [
+            "姐姐",
+            "hermana mayor"
+          ],
+          [
+            "弟弟",
+            "hermano menor"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'hermana menor' en chino?",
+        "correct": "妹妹",
+        "options": [
+          "姐姐",
+          "妹妹",
+          "女儿",
+          "妈妈"
+        ],
+        "hint": "Menor = 妹, mayor = 姐"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 儿子?",
+        "correct": "hijo",
+        "options": [
+          "hijo",
+          "hija",
+          "hermano menor",
+          "papá"
+        ],
+        "hint": "儿 (ér) se asocia con masculino en este contexto"
+      },
+      {
+        "type": "fill",
+        "sentence": "她是我的___。(Ella es mi mamá.)",
+        "blank": "妈妈",
+        "options": [
+          "妈妈",
+          "爸爸",
+          "哥哥",
+          "姐姐"
+        ],
+        "hint": "Mamá en chino"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él es mi papá",
+        "answer": "他是我爸爸",
+        "accept": [
+          "他是我爸爸",
+          "他是我的爸爸"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella es mi hermana mayor",
+        "words": [
+          "她",
+          "是",
+          "我的",
+          "姐姐"
+        ],
+        "answer": "她是我的姐姐"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué palabra significa 'casa' o 'familia'?",
+        "correct": "家",
+        "options": [
+          "家",
+          "哥哥",
+          "儿子",
+          "弟弟"
+        ],
+        "hint": "Una sola sílaba: jiā"
+      },
+      {
+        "type": "fill",
+        "sentence": "他有一个___和一个妹妹。(Él tiene un hermano mayor y una hermana menor.)",
+        "blank": "哥哥",
+        "options": [
+          "哥哥",
+          "弟弟",
+          "姐姐",
+          "爸爸"
+        ],
+        "hint": "Hermano mayor"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Tengo una hija",
+        "answer": "我有一个女儿",
+        "accept": [
+          "我有一个女儿",
+          "我有女儿"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Posesivos con 的",
+    "desc": "La partícula posesiva 的 y cuándo se puede omitir",
+    "grammarIntro": "<h3>La partícula posesiva 的 (de)</h3><p>En chino, la posesión se expresa con la partícula <strong>的</strong> (de), que funciona de manera similar al \"de\" en español pero se coloca entre el poseedor y lo poseído.</p><h4>Estructura básica</h4><table><thead><tr><th>Poseedor</th><th>+</th><th>的</th><th>+</th><th>Cosa poseída</th><th>Significado</th></tr></thead><tbody><tr><td>我</td><td></td><td>的</td><td></td><td>书</td><td>mi libro</td></tr><tr><td>你</td><td></td><td>的</td><td></td><td>猫</td><td>tu gato</td></tr><tr><td>他</td><td></td><td>的</td><td></td><td>名字</td><td>su nombre (de él)</td></tr><tr><td>她</td><td></td><td>的</td><td></td><td>朋友</td><td>su amiga (de ella)</td></tr></tbody></table><div class=\"example\"><p><strong>我的书</strong> (wǒ de shū) — mi libro</p><p><strong>你的名字</strong> (nǐ de míngzi) — tu nombre</p><p><strong>他的老师</strong> (tā de lǎoshī) — su profesor (de él)</p><p><strong>她的猫</strong> (tā de māo) — su gato (de ella)</p></div><h4>¿Cuándo se puede omitir 的?</h4><p>Con relaciones cercanas (familia, amigos íntimos) y pronombres personales, <strong>的</strong> puede omitirse:</p><div class=\"example\"><p><strong>我妈妈</strong> = 我的妈妈 (mi mamá) — ambas formas son correctas</p><p><strong>你爸爸</strong> = 你的爸爸 (tu papá)</p><p><strong>他哥哥</strong> = 他的哥哥 (su hermano mayor)</p></div><div class=\"tip\"><strong>Consejo:</strong> Omitir 的 con familiares suena más natural y coloquial en chino. Sin embargo, con objetos (我的书, 你的手机) NO se debe omitir.</div><div class=\"warning\"><strong>Atención:</strong> A diferencia del español, en chino 他的 y 她的 suenan exactamente igual (tā de), aunque se escriben diferente. El contexto determina si es \"de él\" o \"de ella\".</div>",
+    "newVocab": [
+      {
+        "hanzi": "的",
+        "pinyin": "de",
+        "es": "partícula posesiva (de)"
+      },
+      {
+        "hanzi": "我的",
+        "pinyin": "wǒ de",
+        "es": "mi / mío"
+      },
+      {
+        "hanzi": "你的",
+        "pinyin": "nǐ de",
+        "es": "tu / tuyo"
+      },
+      {
+        "hanzi": "他的",
+        "pinyin": "tā de",
+        "es": "su / suyo (de él)"
+      },
+      {
+        "hanzi": "她的",
+        "pinyin": "tā de",
+        "es": "su / suyo (de ella)"
+      },
+      {
+        "hanzi": "书",
+        "pinyin": "shū",
+        "es": "libro"
+      },
+      {
+        "hanzi": "名字",
+        "pinyin": "míngzi",
+        "es": "nombre"
+      },
+      {
+        "hanzi": "朋友",
+        "pinyin": "péngyou",
+        "es": "amigo/a"
+      }
+    ],
+    "grammar": [
+      "我的 (wǒ de) = mi, mío",
+      "你的 (nǐ de) = tu, tuyo",
+      "他的/她的 (tā de) = su, suyo (de él/ella)",
+      "Poseedor + 的 + cosa poseída",
+      "Se puede omitir 的 con familia: 我妈妈 = 我的妈妈",
+      "No omitir 的 con objetos: 我的书 (correcto)"
+    ],
+    "vocab": [
+      "的",
+      "我的",
+      "你的",
+      "他的",
+      "她的",
+      "书",
+      "名字",
+      "朋友"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'mi libro' en chino?",
+        "correct": "我的书",
+        "options": [
+          "我的书",
+          "我书",
+          "你的书",
+          "他的书"
+        ],
+        "hint": "No se puede omitir 的 con objetos"
+      },
+      {
+        "type": "fill",
+        "sentence": "这是___名字。(Este es tu nombre.)",
+        "blank": "你的",
+        "options": [
+          "你的",
+          "我的",
+          "他的",
+          "她的"
+        ],
+        "hint": "Segunda persona posesiva"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: su amigo (de ella)",
+        "answer": "她的朋友",
+        "accept": [
+          "她的朋友"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Este es mi libro",
+        "words": [
+          "这",
+          "是",
+          "我的",
+          "书"
+        ],
+        "answer": "这是我的书"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál de estas formas es INCORRECTA?",
+        "correct": "我书",
+        "options": [
+          "我的书",
+          "我妈妈",
+          "我的妈妈",
+          "我书"
+        ],
+        "hint": "Con objetos no se puede omitir 的"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "我的",
+            "mi / mío"
+          ],
+          [
+            "你的",
+            "tu / tuyo"
+          ],
+          [
+            "他的",
+            "su (de él)"
+          ],
+          [
+            "她的",
+            "su (de ella)"
+          ],
+          [
+            "朋友",
+            "amigo/a"
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "她是___妈妈。(Ella es mi mamá.)",
+        "blank": "我",
+        "options": [
+          "我",
+          "我的",
+          "你",
+          "你的"
+        ],
+        "hint": "Con familia se puede omitir 的"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Cuál es tu nombre?",
+        "answer": "你的名字是什么",
+        "accept": [
+          "你的名字是什么",
+          "你叫什么名字"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Demostrativos 这/那",
+    "desc": "Pronombres demostrativos: esto, eso, estos, esos",
+    "grammarIntro": "<h3>Demostrativos en chino: 这 y 那</h3><p>Los demostrativos en chino se construyen a partir de dos raíces: <strong>这</strong> (zhè, esto/este) para lo cercano y <strong>那</strong> (nà, eso/ese/aquel) para lo lejano.</p><h4>Demostrativos singulares y plurales</h4><table><thead><tr><th>Chino</th><th>Pinyin</th><th>Significado</th><th>Uso</th></tr></thead><tbody><tr><td>这</td><td>zhè</td><td>esto/este</td><td>solo, como pronombre</td></tr><tr><td>那</td><td>nà</td><td>eso/ese/aquel</td><td>solo, como pronombre</td></tr><tr><td>这个</td><td>zhège</td><td>este/esta (+ sustantivo)</td><td>con clasificador 个</td></tr><tr><td>那个</td><td>nàge</td><td>ese/esa/aquel (+ sustantivo)</td><td>con clasificador 个</td></tr><tr><td>这些</td><td>zhèxiē</td><td>estos/estas</td><td>plural cercano</td></tr><tr><td>那些</td><td>nàxiē</td><td>esos/esas/aquellos</td><td>plural lejano</td></tr></tbody></table><div class=\"example\"><p><strong>这是书。</strong> (Zhè shì shū.) — Esto es un libro.</p><p><strong>那是猫。</strong> (Nà shì māo.) — Eso es un gato.</p><p><strong>这个人是我爸爸。</strong> (Zhège rén shì wǒ bàba.) — Esta persona es mi papá.</p><p><strong>那些是我的朋友。</strong> (Nàxiē shì wǒ de péngyou.) — Esos son mis amigos.</p></div><div class=\"tip\"><strong>Consejo:</strong> 个 (ge) es el clasificador más común en chino. Cuando dices \"este/esa + sustantivo\" necesitas un clasificador entre el demostrativo y el sustantivo. 个 funciona como clasificador \"comodín\" para la mayoría de los sustantivos.</div><div class=\"warning\"><strong>Atención:</strong> A diferencia del español, en chino NO hay tres niveles de distancia (este/ese/aquel). Solo hay dos: 这 (cercano) y 那 (lejano). Tanto \"ese\" como \"aquel\" se traducen como 那.</div>",
+    "newVocab": [
+      {
+        "hanzi": "这",
+        "pinyin": "zhè",
+        "es": "esto / este"
+      },
+      {
+        "hanzi": "那",
+        "pinyin": "nà",
+        "es": "eso / ese / aquel"
+      },
+      {
+        "hanzi": "这个",
+        "pinyin": "zhège",
+        "es": "este / esta"
+      },
+      {
+        "hanzi": "那个",
+        "pinyin": "nàge",
+        "es": "ese / esa"
+      },
+      {
+        "hanzi": "这些",
+        "pinyin": "zhèxiē",
+        "es": "estos / estas"
+      },
+      {
+        "hanzi": "那些",
+        "pinyin": "nàxiē",
+        "es": "esos / esas / aquellos"
+      },
+      {
+        "hanzi": "个",
+        "pinyin": "gè",
+        "es": "clasificador general"
+      },
+      {
+        "hanzi": "人",
+        "pinyin": "rén",
+        "es": "persona"
+      }
+    ],
+    "grammar": [
+      "这 (zhè) = esto/este (cercano)",
+      "那 (nà) = eso/ese/aquel (lejano)",
+      "这个/那个 = este/ese + clasificador 个",
+      "这些/那些 = estos/esos (plural, con 些)",
+      "Estructura: 这/那 + 个 + sustantivo",
+      "这是... = Esto es... / 那是... = Eso es..."
+    ],
+    "vocab": [
+      "这",
+      "那",
+      "这个",
+      "那个",
+      "这些",
+      "那些",
+      "个",
+      "人"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'esto es un libro' en chino?",
+        "correct": "这是书",
+        "options": [
+          "这是书",
+          "那是书",
+          "这个书",
+          "这些书"
+        ],
+        "hint": "Cercano + 是 + sustantivo"
+      },
+      {
+        "type": "fill",
+        "sentence": "___人是我爸爸。(Esa persona es mi papá.)",
+        "blank": "那个",
+        "options": [
+          "这个",
+          "那个",
+          "这些",
+          "那些"
+        ],
+        "hint": "Lejano + clasificador"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Estos son mis amigos",
+        "answer": "这些是我的朋友",
+        "accept": [
+          "这些是我的朋友",
+          "这些是我朋友"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "这",
+            "esto / este"
+          ],
+          [
+            "那",
+            "eso / ese"
+          ],
+          [
+            "这个",
+            "este (+ sustantivo)"
+          ],
+          [
+            "那些",
+            "esos / aquellos"
+          ],
+          [
+            "这些",
+            "estos / estas"
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Esa persona es mi mamá",
+        "words": [
+          "那个",
+          "人",
+          "是",
+          "我",
+          "妈妈"
+        ],
+        "answer": "那个人是我妈妈"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el plural de 这?",
+        "correct": "这些",
+        "options": [
+          "这个",
+          "这些",
+          "那些",
+          "那个"
+        ],
+        "hint": "Se añade 些 (xiē) para el plural"
+      },
+      {
+        "type": "fill",
+        "sentence": "___是什么？(¿Qué es eso?)",
+        "blank": "那",
+        "options": [
+          "这",
+          "那",
+          "这个",
+          "那些"
+        ],
+        "hint": "Lejano, sin clasificador"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Este libro es mío",
+        "answer": "这个书是我的",
+        "accept": [
+          "这个书是我的",
+          "这本书是我的"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "El verbo 有 (tener/haber)",
+    "desc": "Expresar posesión y existencia con 有 y su negación 没有",
+    "grammarIntro": "<h3>El verbo 有 (yǒu): tener y haber</h3><p>El verbo <strong>有</strong> (yǒu) es uno de los más importantes en chino. Tiene dos significados principales: <em>tener</em> (posesión) y <em>haber</em> (existencia).</p><h4>1. 有 como \"tener\" (posesión)</h4><div class=\"example\"><p><strong>我有一个哥哥。</strong> (Wǒ yǒu yí gè gēge.) — Tengo un hermano mayor.</p><p><strong>你有猫吗？</strong> (Nǐ yǒu māo ma?) — ¿Tienes un gato?</p><p><strong>她有很多朋友。</strong> (Tā yǒu hěn duō péngyou.) — Ella tiene muchos amigos.</p></div><h4>2. 有 como \"haber\" (existencia)</h4><div class=\"example\"><p><strong>这里有人。</strong> (Zhèlǐ yǒu rén.) — Aquí hay alguien.</p><p><strong>桌子上有书。</strong> (Zhuōzi shang yǒu shū.) — Hay un libro sobre la mesa.</p></div><h4>Negación: 没有 (méiyǒu)</h4><p>La negación de 有 es siempre <strong>没有</strong> (méiyǒu), NUNCA 不有.</p><table><thead><tr><th>Afirmativo</th><th>Negativo</th><th>Significado</th></tr></thead><tbody><tr><td>我有猫</td><td>我没有猫</td><td>Tengo / No tengo gato</td></tr><tr><td>这里有人</td><td>这里没有人</td><td>Aquí hay / no hay nadie</td></tr></tbody></table><div class=\"warning\"><strong>Atención:</strong> NUNCA digas 不有 (bù yǒu). La negación de 有 siempre es 没有 (méiyǒu). Esta es una excepción importante en chino.</div><h4>Preguntar con 有没有</h4><p>Para preguntar si alguien tiene algo, se puede usar la estructura afirmativa-negativa:</p><div class=\"example\"><p><strong>你有没有哥哥？</strong> (Nǐ yǒu méiyǒu gēge?) — ¿Tienes hermano mayor?</p><p><strong>这里有没有猫？</strong> (Zhèlǐ yǒu méiyǒu māo?) — ¿Hay gato aquí?</p></div><div class=\"tip\"><strong>Consejo:</strong> Hay dos formas de preguntar: con 吗 (你有猫吗？) o con la estructura afirmativa-negativa (你有没有猫？). Ambas son correctas e intercambiables.</div>",
+    "newVocab": [
+      {
+        "hanzi": "有",
+        "pinyin": "yǒu",
+        "es": "tener / haber"
+      },
+      {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "es": "no tener / no haber"
+      },
+      {
+        "hanzi": "没",
+        "pinyin": "méi",
+        "es": "no (para 有 y pasado)"
+      },
+      {
+        "hanzi": "猫",
+        "pinyin": "māo",
+        "es": "gato"
+      },
+      {
+        "hanzi": "狗",
+        "pinyin": "gǒu",
+        "es": "perro"
+      },
+      {
+        "hanzi": "很多",
+        "pinyin": "hěn duō",
+        "es": "mucho/muchos"
+      },
+      {
+        "hanzi": "这里",
+        "pinyin": "zhèlǐ",
+        "es": "aquí"
+      }
+    ],
+    "grammar": [
+      "有 (yǒu) = tener / haber",
+      "没有 (méiyǒu) = no tener / no haber",
+      "NUNCA se dice 不有, siempre 没有",
+      "你有没有...？ = ¿Tienes...? (estructura A-no-A)",
+      "有 para posesión: 我有猫 (Tengo un gato)",
+      "有 para existencia: 这里有人 (Aquí hay alguien)"
+    ],
+    "vocab": [
+      "有",
+      "没有",
+      "没",
+      "猫",
+      "狗",
+      "很多",
+      "这里"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la negación correcta de 有?",
+        "correct": "没有",
+        "options": [
+          "不有",
+          "没有",
+          "不是",
+          "没是"
+        ],
+        "hint": "有 tiene una negación especial"
+      },
+      {
+        "type": "fill",
+        "sentence": "我___一个弟弟。(Tengo un hermano menor.)",
+        "blank": "有",
+        "options": [
+          "有",
+          "是",
+          "没",
+          "不"
+        ],
+        "hint": "Verbo de posesión"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: No tengo gato",
+        "answer": "我没有猫",
+        "accept": [
+          "我没有猫"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: ¿Tienes perro? (estructura A-no-A)",
+        "words": [
+          "你",
+          "有没有",
+          "狗"
+        ],
+        "answer": "你有没有狗"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "有",
+            "tener / haber"
+          ],
+          [
+            "没有",
+            "no tener / no haber"
+          ],
+          [
+            "猫",
+            "gato"
+          ],
+          [
+            "狗",
+            "perro"
+          ],
+          [
+            "很多",
+            "mucho/muchos"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Aquí hay gente'?",
+        "correct": "这里有人",
+        "options": [
+          "这里有人",
+          "这里是人",
+          "这里没有人",
+          "人有这里"
+        ],
+        "hint": "Existencia con 有"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella tiene muchos amigos",
+        "answer": "她有很多朋友",
+        "accept": [
+          "她有很多朋友"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "你___猫吗？(¿Tienes gato?)",
+        "blank": "有",
+        "options": [
+          "有",
+          "是",
+          "没有",
+          "不"
+        ],
+        "hint": "Pregunta de posesión con 吗"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Preguntas con 吗",
+    "desc": "Formar preguntas sí/no añadiendo 吗 al final",
+    "grammarIntro": "<h3>Preguntas con 吗 (ma)</h3><p>En chino, la forma más sencilla de hacer una pregunta de sí/no es añadir la partícula <strong>吗</strong> (ma) al final de una afirmación. El orden de las palabras NO cambia, solo se añade 吗.</p><h4>Estructura</h4><table><thead><tr><th>Afirmación</th><th>Pregunta con 吗</th><th>Significado</th></tr></thead><tbody><tr><td>你好。</td><td>你好吗？</td><td>¿Cómo estás? (lit. ¿Tú bien?)</td></tr><tr><td>你是学生。</td><td>你是学生吗？</td><td>¿Eres estudiante?</td></tr><tr><td>他有猫。</td><td>他有猫吗？</td><td>¿Tiene gato?</td></tr><tr><td>她是老师。</td><td>她是老师吗？</td><td>¿Ella es profesora?</td></tr></tbody></table><div class=\"example\"><p><strong>你是中国人吗？</strong> (Nǐ shì Zhōngguó rén ma?) — ¿Eres chino?</p><p><strong>这是你的书吗？</strong> (Zhè shì nǐ de shū ma?) — ¿Es este tu libro?</p><p><strong>你有弟弟吗？</strong> (Nǐ yǒu dìdi ma?) — ¿Tienes un hermano menor?</p></div><h4>Cómo responder</h4><div class=\"example\"><p>— 你是学生吗？ — ¿Eres estudiante?</p><p>— <strong>是</strong>，我是学生。 — Sí, soy estudiante.</p><p>— <strong>不是</strong>，我不是学生。 — No, no soy estudiante.</p></div><div class=\"tip\"><strong>Consejo:</strong> En chino no existe una palabra exacta para \"sí\". Se responde repitiendo el verbo de la pregunta: 是 (sí, con 是), 有 (sí, con 有), 好 (sí/bien, con 好). Para \"no\" se usa la negación del verbo: 不是, 没有, 不好.</div><div class=\"warning\"><strong>Atención:</strong> Nunca uses 吗 en una pregunta que ya tiene una palabra interrogativa (什么, 谁, 哪里, etc.). 你是谁？ (correcto) vs. 你是谁吗？ (incorrecto).</div>",
+    "newVocab": [
+      {
+        "hanzi": "吗",
+        "pinyin": "ma",
+        "es": "partícula interrogativa (¿?)"
+      },
+      {
+        "hanzi": "学生",
+        "pinyin": "xuéshēng",
+        "es": "estudiante"
+      },
+      {
+        "hanzi": "老师",
+        "pinyin": "lǎoshī",
+        "es": "profesor/a"
+      },
+      {
+        "hanzi": "中国",
+        "pinyin": "Zhōngguó",
+        "es": "China"
+      },
+      {
+        "hanzi": "中国人",
+        "pinyin": "Zhōngguó rén",
+        "es": "chino/a (persona)"
+      },
+      {
+        "hanzi": "对",
+        "pinyin": "duì",
+        "es": "correcto / sí"
+      }
+    ],
+    "grammar": [
+      "Afirmación + 吗 = pregunta sí/no",
+      "你好吗？ = ¿Cómo estás?",
+      "你是学生吗？ = ¿Eres estudiante?",
+      "Respuesta afirmativa: repetir el verbo (是/有/好)",
+      "Respuesta negativa: negar el verbo (不是/没有/不好)",
+      "No usar 吗 con palabras interrogativas"
+    ],
+    "vocab": [
+      "吗",
+      "学生",
+      "老师",
+      "中国",
+      "中国人",
+      "对"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se pregunta '¿Eres estudiante?' en chino?",
+        "correct": "你是学生吗？",
+        "options": [
+          "你是学生吗？",
+          "你学生是吗？",
+          "是你学生吗？",
+          "吗你是学生？"
+        ],
+        "hint": "吗 va al final de la oración"
+      },
+      {
+        "type": "fill",
+        "sentence": "她是老师___？(¿Ella es profesora?)",
+        "blank": "吗",
+        "options": [
+          "吗",
+          "的",
+          "了",
+          "是"
+        ],
+        "hint": "Partícula interrogativa al final"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Eres chino?",
+        "answer": "你是中国人吗",
+        "accept": [
+          "你是中国人吗",
+          "你是中国人吗？"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: ¿Esto es tu libro?",
+        "words": [
+          "这",
+          "是",
+          "你的",
+          "书",
+          "吗"
+        ],
+        "answer": "这是你的书吗"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la respuesta correcta a '你是学生吗？' si la respuesta es sí?",
+        "correct": "是，我是学生。",
+        "options": [
+          "是，我是学生。",
+          "吗，我是学生。",
+          "有，我是学生。",
+          "好，我是学生。"
+        ],
+        "hint": "Se repite el verbo de la pregunta"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "吗",
+            "partícula interrogativa"
+          ],
+          [
+            "学生",
+            "estudiante"
+          ],
+          [
+            "老师",
+            "profesor/a"
+          ],
+          [
+            "中国人",
+            "chino/a (persona)"
+          ],
+          [
+            "对",
+            "correcto / sí"
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "你有狗___？(¿Tienes perro?)",
+        "blank": "吗",
+        "options": [
+          "吗",
+          "的",
+          "有",
+          "没"
+        ],
+        "hint": "Partícula para convertir en pregunta"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Cómo estás?",
+        "answer": "你好吗",
+        "accept": [
+          "你好吗",
+          "你好吗？"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Palabras interrogativas",
+    "desc": "什么, 谁, 哪里, 几, 多少, 怎么, 为什么",
+    "grammarIntro": "<h3>Palabras interrogativas en chino</h3><p>Las palabras interrogativas en chino se colocan en la posición donde iría la respuesta, a diferencia del español donde van al principio. El orden de la oración no cambia.</p><h4>Las principales palabras interrogativas</h4><table><thead><tr><th>Chino</th><th>Pinyin</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody><tr><td>什么</td><td>shénme</td><td>qué</td><td>这是什么？ (¿Qué es esto?)</td></tr><tr><td>谁</td><td>shéi / shuí</td><td>quién</td><td>他是谁？ (¿Quién es él?)</td></tr><tr><td>哪里 / 哪儿</td><td>nǎlǐ / nǎr</td><td>dónde</td><td>你在哪里？ (¿Dónde estás?)</td></tr><tr><td>几</td><td>jǐ</td><td>cuántos (1-10)</td><td>你几岁？ (¿Cuántos años tienes?)</td></tr><tr><td>多少</td><td>duōshǎo</td><td>cuánto/cuántos (>10)</td><td>多少钱？ (¿Cuánto cuesta?)</td></tr><tr><td>怎么</td><td>zěnme</td><td>cómo</td><td>怎么说？ (¿Cómo se dice?)</td></tr><tr><td>为什么</td><td>wèishénme</td><td>por qué</td><td>为什么？ (¿Por qué?)</td></tr></tbody></table><div class=\"example\"><p><strong>你叫什么名字？</strong> (Nǐ jiào shénme míngzi?) — ¿Cómo te llamas?</p><p><strong>她是谁？</strong> (Tā shì shéi?) — ¿Quién es ella?</p><p><strong>你在哪里？</strong> (Nǐ zài nǎlǐ?) — ¿Dónde estás?</p><p><strong>你有几个哥哥？</strong> (Nǐ yǒu jǐ gè gēge?) — ¿Cuántos hermanos mayores tienes?</p></div><div class=\"tip\"><strong>Consejo:</strong> 几 se usa para cantidades pequeñas (generalmente del 1 al 10) y necesita un clasificador después. 多少 se usa para cantidades grandes o cuando no se tiene idea de la cantidad, y NO necesita clasificador.</div><div class=\"warning\"><strong>Atención:</strong> Recuerda que cuando usas palabras interrogativas, NO se añade 吗 al final. La palabra interrogativa ya indica que es una pregunta: 你是谁？ (correcto) — 你是谁吗？ (incorrecto).</div>",
+    "newVocab": [
+      {
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "es": "qué"
+      },
+      {
+        "hanzi": "谁",
+        "pinyin": "shéi",
+        "es": "quién"
+      },
+      {
+        "hanzi": "哪里",
+        "pinyin": "nǎlǐ",
+        "es": "dónde"
+      },
+      {
+        "hanzi": "哪儿",
+        "pinyin": "nǎr",
+        "es": "dónde (coloquial)"
+      },
+      {
+        "hanzi": "几",
+        "pinyin": "jǐ",
+        "es": "cuántos (1-10)"
+      },
+      {
+        "hanzi": "多少",
+        "pinyin": "duōshǎo",
+        "es": "cuánto / cuántos"
+      },
+      {
+        "hanzi": "怎么",
+        "pinyin": "zěnme",
+        "es": "cómo"
+      },
+      {
+        "hanzi": "为什么",
+        "pinyin": "wèishénme",
+        "es": "por qué"
+      },
+      {
+        "hanzi": "岁",
+        "pinyin": "suì",
+        "es": "años (edad)"
+      },
+      {
+        "hanzi": "钱",
+        "pinyin": "qián",
+        "es": "dinero"
+      }
+    ],
+    "grammar": [
+      "什么 (shénme) = qué — va donde iría la respuesta",
+      "谁 (shéi) = quién",
+      "哪里/哪儿 (nǎlǐ/nǎr) = dónde",
+      "几 (jǐ) = cuántos (1-10, necesita clasificador)",
+      "多少 (duōshǎo) = cuántos (>10, sin clasificador)",
+      "怎么 (zěnme) = cómo",
+      "为什么 (wèishénme) = por qué",
+      "No usar 吗 con palabras interrogativas"
+    ],
+    "vocab": [
+      "什么",
+      "谁",
+      "哪里",
+      "哪儿",
+      "几",
+      "多少",
+      "怎么",
+      "为什么",
+      "岁",
+      "钱"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "什么",
+            "qué"
+          ],
+          [
+            "谁",
+            "quién"
+          ],
+          [
+            "哪里",
+            "dónde"
+          ],
+          [
+            "怎么",
+            "cómo"
+          ],
+          [
+            "为什么",
+            "por qué"
+          ],
+          [
+            "多少",
+            "cuánto/cuántos"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se pregunta '¿Qué es esto?' en chino?",
+        "correct": "这是什么？",
+        "options": [
+          "这是什么？",
+          "什么这是？",
+          "这什么是？",
+          "这是什么吗？"
+        ],
+        "hint": "La palabra interrogativa va donde iría la respuesta"
+      },
+      {
+        "type": "fill",
+        "sentence": "她是___？(¿Quién es ella?)",
+        "blank": "谁",
+        "options": [
+          "谁",
+          "什么",
+          "哪里",
+          "怎么"
+        ],
+        "hint": "Preguntamos por una persona"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Dónde estás?",
+        "answer": "你在哪里",
+        "accept": [
+          "你在哪里",
+          "你在哪里？",
+          "你在哪儿",
+          "你在哪儿？"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: ¿Cómo te llamas?",
+        "words": [
+          "你",
+          "叫",
+          "什么",
+          "名字"
+        ],
+        "answer": "你叫什么名字"
+      },
+      {
+        "type": "choose",
+        "prompt": "Para preguntar la edad (menos de 10 años), ¿qué palabra interrogativa se usa?",
+        "correct": "几",
+        "options": [
+          "几",
+          "多少",
+          "什么",
+          "怎么"
+        ],
+        "hint": "Cantidades pequeñas"
+      },
+      {
+        "type": "fill",
+        "sentence": "___钱？(¿Cuánto cuesta?)",
+        "blank": "多少",
+        "options": [
+          "多少",
+          "几",
+          "什么",
+          "怎么"
+        ],
+        "hint": "Preguntamos por una cantidad (posiblemente grande)"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Por qué?",
+        "answer": "为什么",
+        "accept": [
+          "为什么",
+          "为什么？"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál de estas preguntas es INCORRECTA?",
+        "correct": "你是谁吗？",
+        "options": [
+          "你是谁？",
+          "你是谁吗？",
+          "这是什么？",
+          "他在哪里？"
+        ],
+        "hint": "No se mezcla 吗 con palabras interrogativas"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Negación con 不 y 没",
+    "desc": "Diferencias entre 不 y 没 para negar en chino",
+    "grammarIntro": "<h3>Negación en chino: 不 y 没</h3><p>En chino existen dos partículas principales de negación: <strong>不</strong> (bù) y <strong>没</strong> (méi). Cada una tiene usos específicos y no son intercambiables.</p><h4>不 (bù): negación general</h4><p><strong>不</strong> se usa para negar en presente, futuro, hábitos y estados permanentes:</p><div class=\"example\"><p><strong>我不是学生。</strong> (Wǒ bú shì xuéshēng.) — No soy estudiante.</p><p><strong>他不好。</strong> (Tā bù hǎo.) — Él no está bien.</p><p><strong>我不喝咖啡。</strong> (Wǒ bù hē kāfēi.) — No bebo café (hábito).</p><p><strong>她不想去。</strong> (Tā bù xiǎng qù.) — Ella no quiere ir.</p></div><h4>没 (méi): negación del pasado y de 有</h4><p><strong>没</strong> se usa para negar acciones pasadas completadas y SIEMPRE con 有:</p><div class=\"example\"><p><strong>我没有猫。</strong> (Wǒ méiyǒu māo.) — No tengo gato.</p><p><strong>他没去。</strong> (Tā méi qù.) — Él no fue.</p><p><strong>我没吃。</strong> (Wǒ méi chī.) — No comí.</p></div><h4>Comparación 不 vs 没</h4><table><thead><tr><th>Uso</th><th>不 (bù)</th><th>没 (méi)</th></tr></thead><tbody><tr><td>Con 是</td><td>不是 (no es)</td><td>---</td></tr><tr><td>Con 有</td><td>---</td><td>没有 (no tiene/hay)</td></tr><tr><td>Presente/futuro</td><td>不去 (no va/irá)</td><td>---</td></tr><tr><td>Pasado</td><td>---</td><td>没去 (no fue)</td></tr><tr><td>Hábitos</td><td>不吃肉 (no come carne)</td><td>---</td></tr><tr><td>Adjetivos</td><td>不好 (no bueno)</td><td>---</td></tr></tbody></table><div class=\"tip\"><strong>Consejo sobre el tono:</strong> 不 normalmente se pronuncia con cuarto tono (bù), pero cuando va seguido de otro cuarto tono cambia a segundo tono: 不是 se pronuncia \"bú shì\", no \"bù shì\".</div><div class=\"warning\"><strong>Atención:</strong> NUNCA digas 不有. La negación de 有 siempre es 没有. Por otro lado, NUNCA digas 没是. La negación de 是 siempre es 不是.</div>",
+    "newVocab": [
+      {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "es": "no (presente/futuro)"
+      },
+      {
+        "hanzi": "没",
+        "pinyin": "méi",
+        "es": "no (pasado / con 有)"
+      },
+      {
+        "hanzi": "不是",
+        "pinyin": "bú shì",
+        "es": "no es / no ser"
+      },
+      {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "es": "no tener / no haber"
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "es": "querer / pensar"
+      },
+      {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "es": "ir"
+      },
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "es": "comer"
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "es": "beber"
+      }
+    ],
+    "grammar": [
+      "不 (bù) = negación de presente, futuro, hábitos",
+      "没 (méi) = negación del pasado y de 有",
+      "不是 (bú shì) = no es/no ser — NUNCA 没是",
+      "没有 (méiyǒu) = no tener/haber — NUNCA 不有",
+      "不 cambia a bú antes de cuarto tono",
+      "不 + adjetivo: 不好, 不大"
+    ],
+    "vocab": [
+      "不",
+      "没",
+      "不是",
+      "没有",
+      "想",
+      "去",
+      "吃",
+      "喝"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'No soy estudiante'?",
+        "correct": "我不是学生",
+        "options": [
+          "我不是学生",
+          "我没是学生",
+          "我没有学生",
+          "我不有学生"
+        ],
+        "hint": "Con 是 siempre se usa 不"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'No tengo gato'?",
+        "correct": "我没有猫",
+        "options": [
+          "我不有猫",
+          "我没有猫",
+          "我不是猫",
+          "我没猫是"
+        ],
+        "hint": "Con 有 siempre se usa 没"
+      },
+      {
+        "type": "fill",
+        "sentence": "她___想去。(Ella no quiere ir.)",
+        "blank": "不",
+        "options": [
+          "不",
+          "没",
+          "没有",
+          "不是"
+        ],
+        "hint": "Negación de presente/futuro"
+      },
+      {
+        "type": "fill",
+        "sentence": "他___吃。(Él no comió.)",
+        "blank": "没",
+        "options": [
+          "不",
+          "没",
+          "不是",
+          "没有"
+        ],
+        "hint": "Negación de acción pasada"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: No bebo café",
+        "answer": "我不喝咖啡",
+        "accept": [
+          "我不喝咖啡"
+        ]
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "不是",
+            "no es / no ser"
+          ],
+          [
+            "没有",
+            "no tener / no haber"
+          ],
+          [
+            "不想",
+            "no querer"
+          ],
+          [
+            "没去",
+            "no fue (pasado)"
+          ],
+          [
+            "不去",
+            "no va / no irá"
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Él no fue a China",
+        "words": [
+          "他",
+          "没",
+          "去",
+          "中国"
+        ],
+        "answer": "他没去中国"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál de estas oraciones es CORRECTA?",
+        "correct": "我没有钱",
+        "options": [
+          "我不有钱",
+          "我没是学生",
+          "我没有钱",
+          "我不有猫"
+        ],
+        "hint": "Recuerda las reglas de 不 y 没"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Adjetivos y colores",
+    "desc": "Adjetivos básicos, colores y predicados adjetivales con 很",
+    "grammarIntro": "<h3>Adjetivos y colores en chino</h3><p>En chino, los adjetivos funcionan de manera diferente al español. Un adjetivo puede ser el predicado de la oración sin necesidad de un verbo \"ser\".</p><h4>Adjetivos básicos</h4><table><thead><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th><th>Opuesto</th></tr></thead><tbody><tr><td>大</td><td>dà</td><td>grande</td><td>小 (xiǎo) pequeño</td></tr><tr><td>好</td><td>hǎo</td><td>bueno</td><td>坏 (huài) malo</td></tr><tr><td>多</td><td>duō</td><td>mucho</td><td>少 (shǎo) poco</td></tr><tr><td>长</td><td>cháng</td><td>largo</td><td>短 (duǎn) corto</td></tr></tbody></table><h4>Colores</h4><table><thead><tr><th>Hanzi</th><th>Pinyin</th><th>Color</th></tr></thead><tbody><tr><td>红</td><td>hóng</td><td>rojo</td></tr><tr><td>蓝</td><td>lán</td><td>azul</td></tr><tr><td>绿</td><td>lǜ</td><td>verde</td></tr><tr><td>黄</td><td>huáng</td><td>amarillo</td></tr><tr><td>白</td><td>bái</td><td>blanco</td></tr><tr><td>黑</td><td>hēi</td><td>negro</td></tr></tbody></table><h4>Predicados adjetivales con 很</h4><p>En chino, para decir \"algo ES [adjetivo]\", NO se usa 是. En su lugar, se usa <strong>很</strong> (hěn, muy) + adjetivo como predicado:</p><div class=\"example\"><p><strong>这个很大。</strong> (Zhège hěn dà.) — Esto es grande. (lit. Esto muy grande.)</p><p><strong>她很好。</strong> (Tā hěn hǎo.) — Ella está bien / es buena.</p><p><strong>那个猫很小。</strong> (Nàge māo hěn xiǎo.) — Ese gato es pequeño.</p><p><strong>花是红的。</strong> (Huā shì hóng de.) — La flor es roja.</p></div><div class=\"tip\"><strong>Consejo:</strong> Cuando 很 va delante de un adjetivo como predicado, muchas veces no tiene un significado fuerte de \"muy\". Es simplemente necesario gramaticalmente. Si quieres enfatizar \"muy\", usa 非常 (fēicháng) o repite 很: 很好很好。</div><div class=\"warning\"><strong>Atención:</strong> NO digas 这个是大 para \"Esto es grande\". En chino, con adjetivos NO se usa 是 como predicado (excepto con colores + 的: 花是红的). Lo correcto es: 这个很大。</div><h4>Colores como adjetivos modificadores</h4><p>Cuando un color modifica a un sustantivo, se usa la estructura: color + 的 + sustantivo:</p><div class=\"example\"><p><strong>红的花</strong> (hóng de huā) — flor roja</p><p><strong>蓝的书</strong> (lán de shū) — libro azul</p><p><strong>黑猫</strong> (hēi māo) — gato negro (monosílabo, 的 opcional)</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "大",
+        "pinyin": "dà",
+        "es": "grande"
+      },
+      {
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "es": "pequeño"
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "es": "bueno / bien"
+      },
+      {
+        "hanzi": "坏",
+        "pinyin": "huài",
+        "es": "malo"
+      },
+      {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "es": "rojo"
+      },
+      {
+        "hanzi": "蓝",
+        "pinyin": "lán",
+        "es": "azul"
+      },
+      {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "es": "verde"
+      },
+      {
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "es": "amarillo"
+      },
+      {
+        "hanzi": "白",
+        "pinyin": "bái",
+        "es": "blanco"
+      },
+      {
+        "hanzi": "黑",
+        "pinyin": "hēi",
+        "es": "negro"
+      },
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "es": "muy"
+      },
+      {
+        "hanzi": "花",
+        "pinyin": "huā",
+        "es": "flor"
+      }
+    ],
+    "grammar": [
+      "很 + adjetivo = predicado (no se usa 是)",
+      "这个很大 = Esto es grande (NO 这个是大)",
+      "大/小 = grande/pequeño, 好/坏 = bueno/malo",
+      "Colores: 红蓝绿黄白黑 = rojo, azul, verde, amarillo, blanco, negro",
+      "Color + 的 + sustantivo: 红的花 = flor roja",
+      "Con monosílabos, 的 es opcional: 黑猫 = gato negro"
+    ],
+    "vocab": [
+      "大",
+      "小",
+      "好",
+      "坏",
+      "红",
+      "蓝",
+      "绿",
+      "黄",
+      "白",
+      "黑",
+      "很",
+      "花"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "红",
+            "rojo"
+          ],
+          [
+            "蓝",
+            "azul"
+          ],
+          [
+            "绿",
+            "verde"
+          ],
+          [
+            "黄",
+            "amarillo"
+          ],
+          [
+            "白",
+            "blanco"
+          ],
+          [
+            "黑",
+            "negro"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Esto es grande' en chino?",
+        "correct": "这个很大",
+        "options": [
+          "这个很大",
+          "这个是大",
+          "这个大是",
+          "大这个很"
+        ],
+        "hint": "No se usa 是 con adjetivos como predicado"
+      },
+      {
+        "type": "fill",
+        "sentence": "那个猫___小。(Ese gato es pequeño.)",
+        "blank": "很",
+        "options": [
+          "很",
+          "是",
+          "不",
+          "有"
+        ],
+        "hint": "Se necesita esta palabra antes del adjetivo"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: La flor es roja",
+        "answer": "花是红的",
+        "accept": [
+          "花是红的",
+          "花很红"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: El gato negro es pequeño",
+        "words": [
+          "黑",
+          "猫",
+          "很",
+          "小"
+        ],
+        "answer": "黑猫很小"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el opuesto de 大 (grande)?",
+        "correct": "小",
+        "options": [
+          "小",
+          "坏",
+          "黑",
+          "少"
+        ],
+        "hint": "Piensa en el par grande/pequeño"
+      },
+      {
+        "type": "fill",
+        "sentence": "这是___的花。(Esta es una flor azul.)",
+        "blank": "蓝",
+        "options": [
+          "蓝",
+          "红",
+          "绿",
+          "黄"
+        ],
+        "hint": "El color del cielo"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ese libro es muy bueno",
+        "answer": "那个书很好",
+        "accept": [
+          "那个书很好",
+          "那本书很好"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál de estas oraciones es INCORRECTA?",
+        "correct": "猫是小",
+        "options": [
+          "猫很小",
+          "猫是小",
+          "黑猫很小",
+          "那个猫很大"
+        ],
+        "hint": "Recuerda: no se usa 是 con adjetivos"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Comida y bebida",
+    "desc": "Vocabulario esencial de alimentos y bebidas en chino",
+    "grammarIntro": "<h3>Comida y bebida (食物和饮料)</h3><p>En esta unidad aprenderás el vocabulario básico para hablar de comida y bebida en chino. Los verbos fundamentales son <strong>吃 (chī)</strong> = comer y <strong>喝 (hē)</strong> = beber.</p><h4>Estructura básica</h4><p>En chino, la estructura para expresar comer o beber algo es muy sencilla:</p><div class=\"example\"><p><strong>Sujeto + 吃/喝 + Objeto</strong></p><p>我吃米饭。(Wǒ chī mǐfàn.) — Yo como arroz.</p><p>她喝茶。(Tā hē chá.) — Ella bebe té.</p><p>我们喝咖啡。(Wǒmen hē kāfēi.) — Nosotros bebemos café.</p></div><h4>Vocabulario de comida</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th></tr><tr><td>米饭</td><td>mǐfàn</td><td>arroz cocido</td></tr><tr><td>面条</td><td>miàntiáo</td><td>fideos</td></tr><tr><td>鸡蛋</td><td>jīdàn</td><td>huevo</td></tr><tr><td>水果</td><td>shuǐguǒ</td><td>fruta</td></tr></table><h4>Vocabulario de bebida</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th></tr><tr><td>水</td><td>shuǐ</td><td>agua</td></tr><tr><td>茶</td><td>chá</td><td>té</td></tr><tr><td>咖啡</td><td>kāfēi</td><td>café</td></tr><tr><td>牛奶</td><td>niúnǎi</td><td>leche</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> Fíjate que 水果 (shuǐguǒ, fruta) contiene el carácter 水 (shuǐ, agua) y 果 (guǒ, fruto). ¡Es una forma fácil de recordarlo!</p></div><div class=\"warning\"><p><strong>Atención:</strong> 吃 (chī) solo se usa para comida sólida. Para líquidos siempre se usa 喝 (hē). En chino NO se dice *吃水 para \"beber agua\".</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "水",
+        "pinyin": "shuǐ",
+        "es": "agua"
+      },
+      {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "es": "té"
+      },
+      {
+        "hanzi": "咖啡",
+        "pinyin": "kāfēi",
+        "es": "café"
+      },
+      {
+        "hanzi": "米饭",
+        "pinyin": "mǐfàn",
+        "es": "arroz cocido"
+      },
+      {
+        "hanzi": "面条",
+        "pinyin": "miàntiáo",
+        "es": "fideos"
+      },
+      {
+        "hanzi": "鸡蛋",
+        "pinyin": "jīdàn",
+        "es": "huevo"
+      },
+      {
+        "hanzi": "牛奶",
+        "pinyin": "niúnǎi",
+        "es": "leche"
+      },
+      {
+        "hanzi": "水果",
+        "pinyin": "shuǐguǒ",
+        "es": "fruta"
+      },
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "es": "comer"
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "es": "beber"
+      }
+    ],
+    "grammar": [
+      "吃 (chī) = comer → 我吃米饭 (Yo como arroz)",
+      "喝 (hē) = beber → 我喝水 (Yo bebo agua)",
+      "Estructura: Sujeto + 吃/喝 + Objeto",
+      "吃 solo para sólidos, 喝 solo para líquidos"
+    ],
+    "vocab": [
+      "水",
+      "茶",
+      "咖啡",
+      "米饭",
+      "面条",
+      "鸡蛋",
+      "牛奶",
+      "水果",
+      "吃",
+      "喝"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Qué verbo se usa para 'beber' en chino?",
+        "correct": "喝",
+        "options": [
+          "吃",
+          "喝",
+          "看",
+          "说"
+        ],
+        "hint": "Recuerda: uno es para comida sólida y otro para líquidos"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "水",
+            "agua"
+          ],
+          [
+            "茶",
+            "té"
+          ],
+          [
+            "咖啡",
+            "café"
+          ],
+          [
+            "牛奶",
+            "leche"
+          ],
+          [
+            "米饭",
+            "arroz cocido"
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "我___咖啡。(Yo bebo café.)",
+        "blank": "喝",
+        "options": [
+          "吃",
+          "喝",
+          "看",
+          "做"
+        ],
+        "hint": "El café es un líquido, así que necesitas el verbo para beber"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo como fideos.",
+        "answer": "我吃面条",
+        "accept": [
+          "我吃面条。",
+          "我吃面条"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella bebe té.",
+        "words": [
+          "她",
+          "喝",
+          "茶"
+        ],
+        "answer": "她喝茶"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 鸡蛋 (jīdàn)?",
+        "correct": "huevo",
+        "options": [
+          "leche",
+          "huevo",
+          "fruta",
+          "agua"
+        ],
+        "hint": "鸡 significa pollo y 蛋 significa huevo"
+      },
+      {
+        "type": "fill",
+        "sentence": "他们___水果。(Ellos comen fruta.)",
+        "blank": "吃",
+        "options": [
+          "喝",
+          "吃",
+          "说",
+          "买"
+        ],
+        "hint": "La fruta es un alimento sólido"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Nosotros bebemos leche.",
+        "answer": "我们喝牛奶",
+        "accept": [
+          "我们喝牛奶。",
+          "我们喝牛奶"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Clasificadores (量词)",
+    "desc": "Los clasificadores: el concepto gramatical más importante del chino",
+    "grammarIntro": "<h3>Clasificadores (量词 liàngcí)</h3><p>Los <strong>clasificadores</strong> (también llamados \"palabras de medida\") son uno de los conceptos más importantes y únicos del chino. En español decimos \"un vaso <em>de</em> agua\" o \"una hoja <em>de</em> papel\", pero en chino <strong>todos los sustantivos</strong> necesitan un clasificador cuando van con un número o un demostrativo.</p><h4>Estructura básica</h4><div class=\"example\"><p><strong>Número + Clasificador + Sustantivo</strong></p><p>一个人 (yī gè rén) — una persona</p><p>三本书 (sān běn shū) — tres libros</p><p>两杯茶 (liǎng bēi chá) — dos tazas de té</p></div><div class=\"warning\"><p><strong>¡Importante!</strong> En chino NUNCA se puede decir directamente 一人 o 三书. Siempre hace falta el clasificador entre el número y el sustantivo. Es un error muy común entre hispanohablantes.</p></div><h4>Clasificadores principales</h4><table><tr><th>Clasificador</th><th>Pinyin</th><th>Se usa para</th><th>Ejemplo</th></tr><tr><td>个</td><td>gè</td><td>General (personas, objetos comunes)</td><td>一个人 (una persona)</td></tr><tr><td>本</td><td>běn</td><td>Libros, revistas, cuadernos</td><td>一本书 (un libro)</td></tr><tr><td>只</td><td>zhī</td><td>Animales pequeños</td><td>一只猫 (un gato)</td></tr><tr><td>杯</td><td>bēi</td><td>Vasos, tazas (bebidas)</td><td>一杯水 (un vaso de agua)</td></tr><tr><td>瓶</td><td>píng</td><td>Botellas</td><td>一瓶水 (una botella de agua)</td></tr><tr><td>块</td><td>kuài</td><td>Trozos, pedazos; moneda yuan</td><td>一块蛋糕 (un trozo de pastel)</td></tr><tr><td>张</td><td>zhāng</td><td>Objetos planos (papel, mesa, foto)</td><td>一张纸 (una hoja de papel)</td></tr><tr><td>条</td><td>tiáo</td><td>Objetos largos y delgados (pantalones, peces, caminos)</td><td>一条鱼 (un pez)</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> 个 (gè) es el clasificador más común y \"comodín\". Si no recuerdas qué clasificador usar, puedes usar 个 en la mayoría de los casos y te entenderán, aunque no sea formalmente correcto.</p></div><h4>Con demostrativos</h4><div class=\"example\"><p>Los demostrativos (这/那) también requieren clasificador:</p><p>这个人 (zhè gè rén) — esta persona</p><p>那本书 (nà běn shū) — ese libro</p><p>这杯茶 (zhè bēi chá) — esta taza de té</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "个",
+        "pinyin": "gè",
+        "es": "clasificador general"
+      },
+      {
+        "hanzi": "本",
+        "pinyin": "běn",
+        "es": "clasificador para libros"
+      },
+      {
+        "hanzi": "只",
+        "pinyin": "zhī",
+        "es": "clasificador para animales"
+      },
+      {
+        "hanzi": "杯",
+        "pinyin": "bēi",
+        "es": "clasificador para vasos/tazas"
+      },
+      {
+        "hanzi": "瓶",
+        "pinyin": "píng",
+        "es": "clasificador para botellas"
+      },
+      {
+        "hanzi": "块",
+        "pinyin": "kuài",
+        "es": "clasificador para trozos/yuanes"
+      },
+      {
+        "hanzi": "张",
+        "pinyin": "zhāng",
+        "es": "clasificador para objetos planos"
+      },
+      {
+        "hanzi": "条",
+        "pinyin": "tiáo",
+        "es": "clasificador para objetos largos"
+      }
+    ],
+    "grammar": [
+      "Estructura: Número + Clasificador + Sustantivo",
+      "个 (gè) = clasificador general (personas, objetos comunes)",
+      "本 (běn) = libros, revistas → 一本书",
+      "只 (zhī) = animales pequeños → 一只猫",
+      "杯 (bēi) = vasos, tazas → 一杯水",
+      "瓶 (píng) = botellas → 一瓶水",
+      "块 (kuài) = trozos, yuanes → 一块钱",
+      "张 (zhāng) = objetos planos → 一张纸",
+      "条 (tiáo) = objetos largos → 一条鱼"
+    ],
+    "vocab": [
+      "个",
+      "本",
+      "只",
+      "杯",
+      "瓶",
+      "块",
+      "张",
+      "条"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Qué clasificador se usa para libros?",
+        "correct": "本",
+        "options": [
+          "个",
+          "本",
+          "只",
+          "张"
+        ],
+        "hint": "Piensa en objetos encuadernados con páginas"
+      },
+      {
+        "type": "fill",
+        "sentence": "三___猫 (tres gatos)",
+        "blank": "只",
+        "options": [
+          "个",
+          "本",
+          "只",
+          "条"
+        ],
+        "hint": "Se necesita el clasificador para animales pequeños"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "一个人",
+            "una persona"
+          ],
+          [
+            "一本书",
+            "un libro"
+          ],
+          [
+            "一杯水",
+            "un vaso de agua"
+          ],
+          [
+            "一瓶牛奶",
+            "una botella de leche"
+          ],
+          [
+            "一张纸",
+            "una hoja de papel"
+          ]
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: dos tazas de café",
+        "words": [
+          "两",
+          "杯",
+          "咖啡"
+        ],
+        "answer": "两杯咖啡"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué clasificador usarías para una mesa (objeto plano)?",
+        "correct": "张",
+        "options": [
+          "条",
+          "块",
+          "张",
+          "瓶"
+        ],
+        "hint": "Este clasificador se usa para objetos con superficies planas"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: una botella de agua",
+        "answer": "一瓶水",
+        "accept": [
+          "一瓶水"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "这___书很好。(Este libro es muy bueno.)",
+        "blank": "本",
+        "options": [
+          "个",
+          "本",
+          "张",
+          "条"
+        ],
+        "hint": "Necesitas el clasificador para libros"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué clasificador se usa para objetos largos y delgados como fideos o peces?",
+        "correct": "条",
+        "options": [
+          "块",
+          "瓶",
+          "条",
+          "杯"
+        ],
+        "hint": "Piensa en la forma: largo y delgado"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: cinco personas",
+        "words": [
+          "五",
+          "个",
+          "人"
+        ],
+        "answer": "五个人"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Ir a lugares con 去",
+    "desc": "Expresar movimiento hacia y desde lugares",
+    "grammarIntro": "<h3>Ir a lugares con 去 (qù) y 来 (lái)</h3><p>En esta unidad aprenderás a expresar movimiento usando los verbos <strong>去 (qù)</strong> = ir y <strong>来 (lái)</strong> = venir, junto con vocabulario de lugares comunes.</p><h4>去 vs 来</h4><div class=\"example\"><p><strong>去 (qù)</strong> — ir (alejarse del hablante)</p><p><strong>来 (lái)</strong> — venir (acercarse al hablante)</p><p>我去学校。(Wǒ qù xuéxiào.) — Yo voy a la escuela.</p><p>他来我家。(Tā lái wǒ jiā.) — Él viene a mi casa.</p></div><h4>Estructura</h4><div class=\"example\"><p><strong>Sujeto + 去/来 + Lugar</strong></p><p>她去医院。(Tā qù yīyuàn.) — Ella va al hospital.</p><p>我们去餐厅。(Wǒmen qù cāntīng.) — Nosotros vamos al restaurante.</p><p>你来学校。(Nǐ lái xuéxiào.) — Tú vienes a la escuela.</p></div><div class=\"warning\"><p><strong>Atención:</strong> En chino NO se necesita preposición como \"a\" o \"al\" antes del lugar. Se dice directamente 去学校 (ir escuela), no *去到学校. La estructura es más simple que en español.</p></div><h4>Lugares importantes</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th></tr><tr><td>学校</td><td>xuéxiào</td><td>escuela</td></tr><tr><td>医院</td><td>yīyuàn</td><td>hospital</td></tr><tr><td>商店</td><td>shāngdiàn</td><td>tienda</td></tr><tr><td>餐厅</td><td>cāntīng</td><td>restaurante</td></tr><tr><td>银行</td><td>yínháng</td><td>banco</td></tr><tr><td>机场</td><td>jīchǎng</td><td>aeropuerto</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> Muchos lugares en chino se forman combinando caracteres con significado lógico. Por ejemplo: 学校 = 学 (estudiar) + 校 (escuela), 医院 = 医 (medicina) + 院 (institución), 机场 = 机 (máquina) + 场 (campo) = aeropuerto.</p></div><h4>Preguntar a dónde va alguien</h4><div class=\"example\"><p>你去哪儿？(Nǐ qù nǎr?) — ¿A dónde vas?</p><p>你去哪里？(Nǐ qù nǎlǐ?) — ¿A dónde vas? (más formal)</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "es": "ir"
+      },
+      {
+        "hanzi": "来",
+        "pinyin": "lái",
+        "es": "venir"
+      },
+      {
+        "hanzi": "学校",
+        "pinyin": "xuéxiào",
+        "es": "escuela"
+      },
+      {
+        "hanzi": "医院",
+        "pinyin": "yīyuàn",
+        "es": "hospital"
+      },
+      {
+        "hanzi": "商店",
+        "pinyin": "shāngdiàn",
+        "es": "tienda"
+      },
+      {
+        "hanzi": "餐厅",
+        "pinyin": "cāntīng",
+        "es": "restaurante"
+      },
+      {
+        "hanzi": "银行",
+        "pinyin": "yínháng",
+        "es": "banco"
+      },
+      {
+        "hanzi": "机场",
+        "pinyin": "jīchǎng",
+        "es": "aeropuerto"
+      }
+    ],
+    "grammar": [
+      "去 (qù) = ir (alejarse del hablante)",
+      "来 (lái) = venir (acercarse al hablante)",
+      "Estructura: Sujeto + 去/来 + Lugar",
+      "No se necesita preposición 'a' antes del lugar",
+      "你去哪儿？= ¿A dónde vas?"
+    ],
+    "vocab": [
+      "去",
+      "来",
+      "学校",
+      "医院",
+      "商店",
+      "餐厅",
+      "银行",
+      "机场"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'ir' en chino?",
+        "correct": "去",
+        "options": [
+          "来",
+          "去",
+          "在",
+          "到"
+        ],
+        "hint": "Es el verbo que indica alejarse del hablante"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "学校",
+            "escuela"
+          ],
+          [
+            "医院",
+            "hospital"
+          ],
+          [
+            "商店",
+            "tienda"
+          ],
+          [
+            "餐厅",
+            "restaurante"
+          ],
+          [
+            "银行",
+            "banco"
+          ]
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo voy al hospital.",
+        "answer": "我去医院",
+        "accept": [
+          "我去医院。",
+          "我去医院"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Nosotros vamos al restaurante.",
+        "words": [
+          "我们",
+          "去",
+          "餐厅"
+        ],
+        "answer": "我们去餐厅"
+      },
+      {
+        "type": "fill",
+        "sentence": "她___学校。(Ella va a la escuela.)",
+        "blank": "去",
+        "options": [
+          "来",
+          "去",
+          "在",
+          "有"
+        ],
+        "hint": "Necesitas el verbo 'ir' (alejarse del hablante)"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 机场 (jīchǎng)?",
+        "correct": "aeropuerto",
+        "options": [
+          "estación",
+          "aeropuerto",
+          "hospital",
+          "banco"
+        ],
+        "hint": "机 significa máquina (avión) y 场 significa campo/lugar"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él viene a la tienda.",
+        "answer": "他来商店",
+        "accept": [
+          "他来商店。",
+          "他来商店"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "你___哪儿？(¿A dónde vas?)",
+        "blank": "去",
+        "options": [
+          "来",
+          "去",
+          "在",
+          "是"
+        ],
+        "hint": "Se pregunta con el verbo de movimiento hacia afuera"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Querer y poder",
+    "desc": "Diferencias entre 想, 要, 能, 可以 y 会",
+    "grammarIntro": "<h3>Querer y poder (想, 要, 能, 可以, 会)</h3><p>En chino hay varios verbos modales que expresan deseo, voluntad y capacidad. Entender las diferencias entre ellos es fundamental para comunicarse correctamente.</p><h4>Verbos de deseo/voluntad</h4><table><tr><th>Verbo</th><th>Pinyin</th><th>Significado</th><th>Matiz</th></tr><tr><td>想</td><td>xiǎng</td><td>querer, pensar</td><td>Deseo suave, \"me gustaría\"</td></tr><tr><td>要</td><td>yào</td><td>querer, ir a</td><td>Deseo firme, determinación, futuro</td></tr></table><div class=\"example\"><p><strong>想 (xiǎng) — deseo suave:</strong></p><p>我想喝水。(Wǒ xiǎng hē shuǐ.) — Quiero beber agua. / Me gustaría beber agua.</p><p>我想去中国。(Wǒ xiǎng qù Zhōngguó.) — Quiero ir a China.</p><p><strong>要 (yào) — deseo firme / futuro:</strong></p><p>我要喝水！(Wǒ yào hē shuǐ!) — ¡Quiero beber agua! (determinación)</p><p>我要去学校。(Wǒ yào qù xuéxiào.) — Voy a ir a la escuela. (futuro)</p></div><div class=\"warning\"><p><strong>Atención:</strong> 想 es más educado y suave que 要. En un restaurante, es mejor decir 我想要一杯茶 (quisiera un té) que 我要一杯茶 (quiero un té), que suena más directo.</p></div><h4>Verbos de capacidad/posibilidad</h4><table><tr><th>Verbo</th><th>Pinyin</th><th>Significado</th><th>Matiz</th></tr><tr><td>能</td><td>néng</td><td>poder, ser capaz</td><td>Capacidad física, circunstancial</td></tr><tr><td>可以</td><td>kěyǐ</td><td>poder, se puede</td><td>Permiso, autorización</td></tr><tr><td>会</td><td>huì</td><td>saber (hacer), poder</td><td>Habilidad aprendida, probabilidad</td></tr></table><div class=\"example\"><p><strong>能 (néng) — capacidad / circunstancia:</strong></p><p>我能跑五公里。(Wǒ néng pǎo wǔ gōnglǐ.) — Puedo correr 5 km. (capacidad física)</p><p>今天我不能去。(Jīntiān wǒ bù néng qù.) — Hoy no puedo ir. (circunstancia)</p><p><strong>可以 (kěyǐ) — permiso:</strong></p><p>我可以进来吗？(Wǒ kěyǐ jìnlái ma?) — ¿Puedo entrar? (pedir permiso)</p><p>这里可以吃东西。(Zhèlǐ kěyǐ chī dōngxi.) — Aquí se puede comer.</p><p><strong>会 (huì) — habilidad aprendida:</strong></p><p>我会说中文。(Wǒ huì shuō Zhōngwén.) — Sé hablar chino. (habilidad aprendida)</p><p>她会做饭。(Tā huì zuòfàn.) — Ella sabe cocinar.</p></div><div class=\"tip\"><p><strong>Resumen rápido:</strong> 能 = puedo (físicamente/por circunstancias), 可以 = puedo (tengo permiso), 会 = puedo (sé hacerlo porque lo aprendí). Ejemplo: 我会游泳 (sé nadar - lo aprendí), 我能游泳 (puedo nadar - tengo la capacidad ahora), 这里可以游泳 (aquí se puede nadar - está permitido).</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "es": "querer, pensar"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "es": "querer, ir a"
+      },
+      {
+        "hanzi": "能",
+        "pinyin": "néng",
+        "es": "poder (capacidad)"
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "es": "poder (permiso)"
+      },
+      {
+        "hanzi": "会",
+        "pinyin": "huì",
+        "es": "saber hacer, poder (habilidad)"
+      }
+    ],
+    "grammar": [
+      "想 (xiǎng) = querer (deseo suave) → 我想喝水",
+      "要 (yào) = querer (deseo firme) / ir a (futuro) → 我要去",
+      "能 (néng) = poder (capacidad física/circunstancial) → 我能跑",
+      "可以 (kěyǐ) = poder (permiso) → 我可以进来吗？",
+      "会 (huì) = saber hacer (habilidad aprendida) → 我会说中文",
+      "Estructura: Sujeto + modal + Verbo + Objeto"
+    ],
+    "vocab": [
+      "想",
+      "要",
+      "能",
+      "可以",
+      "会"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "Quieres pedir permiso para entrar. ¿Qué verbo modal usas?",
+        "correct": "可以",
+        "options": [
+          "能",
+          "可以",
+          "会",
+          "要"
+        ],
+        "hint": "Necesitas el verbo que indica permiso o autorización"
+      },
+      {
+        "type": "choose",
+        "prompt": "Quieres decir que sabes hablar chino (lo aprendiste). ¿Qué verbo usas?",
+        "correct": "会",
+        "options": [
+          "能",
+          "可以",
+          "会",
+          "想"
+        ],
+        "hint": "Es una habilidad que se adquiere mediante aprendizaje"
+      },
+      {
+        "type": "fill",
+        "sentence": "我___喝一杯茶。(Me gustaría beber una taza de té.)",
+        "blank": "想",
+        "options": [
+          "想",
+          "能",
+          "会",
+          "在"
+        ],
+        "hint": "Es un deseo suave y educado, como 'me gustaría'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo sé hablar chino.",
+        "answer": "我会说中文",
+        "accept": [
+          "我会说中文。",
+          "我会说中文",
+          "我会说汉语。",
+          "我会说汉语"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: ¿Puedo entrar? (pedir permiso)",
+        "words": [
+          "我",
+          "可以",
+          "进来",
+          "吗"
+        ],
+        "answer": "我可以进来吗"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "想",
+            "querer (deseo suave)"
+          ],
+          [
+            "要",
+            "querer (deseo firme)"
+          ],
+          [
+            "能",
+            "poder (capacidad)"
+          ],
+          [
+            "可以",
+            "poder (permiso)"
+          ],
+          [
+            "会",
+            "saber hacer"
+          ]
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "今天我不___去学校。(Hoy no puedo ir a la escuela. - por circunstancias)",
+        "blank": "能",
+        "options": [
+          "想",
+          "会",
+          "能",
+          "要"
+        ],
+        "hint": "No puedes por una circunstancia, no por falta de permiso ni habilidad"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella quiere ir al restaurante. (deseo suave)",
+        "answer": "她想去餐厅",
+        "accept": [
+          "她想去餐厅。",
+          "她想去餐厅"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Posición con 在",
+    "desc": "Expresiones de ubicación y posición espacial",
+    "grammarIntro": "<h3>Posición y ubicación con 在 (zài)</h3><p>La partícula <strong>在 (zài)</strong> es fundamental para expresar ubicación en chino. Significa \"estar en\" y se combina con palabras de posición para indicar dónde se encuentra algo.</p><h4>Estructura básica de ubicación</h4><div class=\"example\"><p><strong>Sujeto + 在 + Lugar</strong></p><p>我在家。(Wǒ zài jiā.) — Estoy en casa.</p><p>他在学校。(Tā zài xuéxiào.) — Él está en la escuela.</p><p>猫在这儿。(Māo zài zhèr.) — El gato está aquí.</p></div><h4>Palabras de posición (方位词)</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th><th>Ejemplo</th></tr><tr><td>上</td><td>shàng</td><td>encima, arriba</td><td>桌子上 (encima de la mesa)</td></tr><tr><td>下</td><td>xià</td><td>debajo, abajo</td><td>桌子下 (debajo de la mesa)</td></tr><tr><td>里</td><td>lǐ</td><td>dentro</td><td>房间里 (dentro de la habitación)</td></tr><tr><td>前</td><td>qián</td><td>delante</td><td>学校前 (delante de la escuela)</td></tr><tr><td>后</td><td>hòu</td><td>detrás</td><td>学校后 (detrás de la escuela)</td></tr><tr><td>左</td><td>zuǒ</td><td>izquierda</td><td>左边 (lado izquierdo)</td></tr><tr><td>右</td><td>yòu</td><td>derecha</td><td>右边 (lado derecho)</td></tr><tr><td>旁边</td><td>pángbiān</td><td>al lado</td><td>银行旁边 (al lado del banco)</td></tr></table><h4>Estructura completa con posición</h4><div class=\"example\"><p><strong>Sujeto + 在 + Referencia + Posición</strong></p><p>书在桌子上。(Shū zài zhuōzi shàng.) — El libro está encima de la mesa.</p><p>猫在椅子下。(Māo zài yǐzi xià.) — El gato está debajo de la silla.</p><p>银行在学校旁边。(Yínháng zài xuéxiào pángbiān.) — El banco está al lado de la escuela.</p><p>他在我前面。(Tā zài wǒ qiánmiàn.) — Él está delante de mí.</p></div><div class=\"tip\"><p><strong>Consejo:</strong> Las palabras de posición a menudo se expanden añadiendo 面 (miàn) o 边 (biān): 上面, 下面, 里面, 前面, 后面, 左边, 右边. Las formas cortas y largas son intercambiables en la mayoría de los casos.</p></div><div class=\"warning\"><p><strong>Atención:</strong> En chino el orden es inverso al español. Donde en español decimos \"encima <em>de</em> la mesa\", en chino se dice 桌子上 (mesa + encima). ¡El punto de referencia va primero!</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "es": "estar en, en"
+      },
+      {
+        "hanzi": "上",
+        "pinyin": "shàng",
+        "es": "encima, arriba"
+      },
+      {
+        "hanzi": "下",
+        "pinyin": "xià",
+        "es": "debajo, abajo"
+      },
+      {
+        "hanzi": "里",
+        "pinyin": "lǐ",
+        "es": "dentro"
+      },
+      {
+        "hanzi": "前",
+        "pinyin": "qián",
+        "es": "delante"
+      },
+      {
+        "hanzi": "后",
+        "pinyin": "hòu",
+        "es": "detrás"
+      },
+      {
+        "hanzi": "左",
+        "pinyin": "zuǒ",
+        "es": "izquierda"
+      },
+      {
+        "hanzi": "右",
+        "pinyin": "yòu",
+        "es": "derecha"
+      },
+      {
+        "hanzi": "旁边",
+        "pinyin": "pángbiān",
+        "es": "al lado"
+      }
+    ],
+    "grammar": [
+      "在 (zài) = estar en → 我在家 (Estoy en casa)",
+      "Estructura: Sujeto + 在 + Lugar",
+      "Estructura con posición: Sujeto + 在 + Referencia + Posición",
+      "上/下/里/前/后/左/右/旁边 = palabras de posición",
+      "El punto de referencia va ANTES de la posición: 桌子上 = encima de la mesa"
+    ],
+    "vocab": [
+      "在",
+      "上",
+      "下",
+      "里",
+      "前",
+      "后",
+      "左",
+      "右",
+      "旁边"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'dentro' en chino?",
+        "correct": "里",
+        "options": [
+          "上",
+          "下",
+          "里",
+          "后"
+        ],
+        "hint": "Es la palabra de posición para indicar el interior de algo"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "上",
+            "encima"
+          ],
+          [
+            "下",
+            "debajo"
+          ],
+          [
+            "里",
+            "dentro"
+          ],
+          [
+            "前",
+            "delante"
+          ],
+          [
+            "后",
+            "detrás"
+          ]
+        ]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: El libro está encima de la mesa.",
+        "answer": "书在桌子上",
+        "accept": [
+          "书在桌子上。",
+          "书在桌子上",
+          "书在桌子上面。",
+          "书在桌子上面"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: El gato está debajo de la silla.",
+        "words": [
+          "猫",
+          "在",
+          "椅子",
+          "下"
+        ],
+        "answer": "猫在椅子下"
+      },
+      {
+        "type": "fill",
+        "sentence": "银行在学校___。(El banco está al lado de la escuela.)",
+        "blank": "旁边",
+        "options": [
+          "上",
+          "里",
+          "旁边",
+          "前"
+        ],
+        "hint": "Significa 'al lado de'"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 左?",
+        "correct": "izquierda",
+        "options": [
+          "derecha",
+          "izquierda",
+          "delante",
+          "detrás"
+        ],
+        "hint": "Es lo opuesto a 右 (yòu)"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él está en la escuela.",
+        "answer": "他在学校",
+        "accept": [
+          "他在学校。",
+          "他在学校"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "他在我___面。(Él está detrás de mí.)",
+        "blank": "后",
+        "options": [
+          "前",
+          "后",
+          "左",
+          "上"
+        ],
+        "hint": "Es la posición opuesta a 前 (delante)"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Profesiones",
+    "desc": "Nombres de profesiones y cómo hablar de trabajos",
+    "grammarIntro": "<h3>Profesiones (职业 zhíyè)</h3><p>En esta unidad aprenderás las profesiones más comunes en chino y cómo expresar a qué te dedicas.</p><h4>Vocabulario de profesiones</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th></tr><tr><td>老师</td><td>lǎoshī</td><td>profesor/a</td></tr><tr><td>学生</td><td>xuéshēng</td><td>estudiante</td></tr><tr><td>医生</td><td>yīshēng</td><td>médico/a</td></tr><tr><td>工人</td><td>gōngrén</td><td>obrero/a, trabajador/a</td></tr><tr><td>经理</td><td>jīnglǐ</td><td>gerente, director/a</td></tr><tr><td>司机</td><td>sījī</td><td>conductor/a, chófer</td></tr><tr><td>服务员</td><td>fúwùyuán</td><td>camarero/a, empleado/a de servicio</td></tr></table><h4>Decir tu profesión con 是</h4><div class=\"example\"><p><strong>Sujeto + 是 + Profesión</strong></p><p>我是老师。(Wǒ shì lǎoshī.) — Soy profesor.</p><p>她是医生。(Tā shì yīshēng.) — Ella es médica.</p><p>他是学生。(Tā shì xuéshēng.) — Él es estudiante.</p></div><h4>Preguntar por la profesión</h4><div class=\"example\"><p>你是做什么工作的？(Nǐ shì zuò shénme gōngzuò de?) — ¿A qué te dedicas?</p><p>你做什么工作？(Nǐ zuò shénme gōngzuò?) — ¿Qué trabajo haces?</p></div><h4>Usar 做 (zuò) con profesiones</h4><div class=\"example\"><p><strong>做 (zuò)</strong> significa \"hacer\" y se usa para hablar del trabajo:</p><p>他做老师。(Tā zuò lǎoshī.) — Él trabaja de profesor.</p><p>我做什么？(Wǒ zuò shénme?) — ¿Qué hago? / ¿En qué trabajo?</p></div><div class=\"tip\"><p><strong>Consejo sobre caracteres:</strong> Fíjate en los patrones: 学生 (xuéshēng, estudiante) contiene 学 (xué, estudiar). 医生 (yīshēng, médico) contiene 医 (yī, medicina). El sufijo 员 (yuán) indica \"miembro\" o \"empleado\": 服务员 (personal de servicio).</p></div><div class=\"warning\"><p><strong>Atención:</strong> En chino no se usan artículos. Se dice 我是老师 (Soy profesor), no *我是一个老师, aunque esta última forma también es gramaticalmente correcta, es menos natural en contextos cotidianos.</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "老师",
+        "pinyin": "lǎoshī",
+        "es": "profesor/a"
+      },
+      {
+        "hanzi": "学生",
+        "pinyin": "xuéshēng",
+        "es": "estudiante"
+      },
+      {
+        "hanzi": "医生",
+        "pinyin": "yīshēng",
+        "es": "médico/a"
+      },
+      {
+        "hanzi": "工人",
+        "pinyin": "gōngrén",
+        "es": "obrero/a, trabajador/a"
+      },
+      {
+        "hanzi": "经理",
+        "pinyin": "jīnglǐ",
+        "es": "gerente"
+      },
+      {
+        "hanzi": "司机",
+        "pinyin": "sījī",
+        "es": "conductor/a"
+      },
+      {
+        "hanzi": "服务员",
+        "pinyin": "fúwùyuán",
+        "es": "camarero/a"
+      }
+    ],
+    "grammar": [
+      "是 (shì) + Profesión → 我是老师 (Soy profesor)",
+      "做 (zuò) + Profesión → 他做医生 (Él trabaja de médico)",
+      "你做什么工作？= ¿A qué te dedicas?",
+      "Sufijo 员 (yuán) = miembro/empleado → 服务员"
+    ],
+    "vocab": [
+      "老师",
+      "学生",
+      "医生",
+      "工人",
+      "经理",
+      "司机",
+      "服务员"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "老师",
+            "profesor/a"
+          ],
+          [
+            "学生",
+            "estudiante"
+          ],
+          [
+            "医生",
+            "médico/a"
+          ],
+          [
+            "司机",
+            "conductor/a"
+          ],
+          [
+            "服务员",
+            "camarero/a"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'gerente' en chino?",
+        "correct": "经理",
+        "options": [
+          "老师",
+          "经理",
+          "工人",
+          "司机"
+        ],
+        "hint": "经 significa gestionar y 理 significa razonar/administrar"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo soy estudiante.",
+        "answer": "我是学生",
+        "accept": [
+          "我是学生。",
+          "我是学生",
+          "我是一个学生。",
+          "我是一个学生"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella es médica.",
+        "words": [
+          "她",
+          "是",
+          "医生"
+        ],
+        "answer": "她是医生"
+      },
+      {
+        "type": "fill",
+        "sentence": "你做什么___？(¿Qué trabajo haces?)",
+        "blank": "工作",
+        "options": [
+          "工作",
+          "名字",
+          "东西",
+          "地方"
+        ],
+        "hint": "Significa 'trabajo'"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 服务员 (fúwùyuán)?",
+        "correct": "camarero/a",
+        "options": [
+          "profesor/a",
+          "médico/a",
+          "camarero/a",
+          "conductor/a"
+        ],
+        "hint": "服务 significa servicio y 员 significa empleado"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él trabaja de conductor.",
+        "answer": "他做司机",
+        "accept": [
+          "他做司机。",
+          "他做司机",
+          "他是司机。",
+          "他是司机"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "我___老师。(Soy profesor.)",
+        "blank": "是",
+        "options": [
+          "是",
+          "做",
+          "有",
+          "在"
+        ],
+        "hint": "Se usa el verbo 'ser' para declarar la profesión"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Verbos de acción comunes",
+    "desc": "Los 10 verbos de acción más usados en chino",
+    "grammarIntro": "<h3>Verbos de acción comunes (常用动词)</h3><p>En esta unidad aprenderás los verbos de acción más frecuentes del chino. Estos verbos son esenciales para la comunicación diaria.</p><h4>Los 10 verbos esenciales</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Español</th><th>Ejemplo</th></tr><tr><td>看</td><td>kàn</td><td>ver, mirar, leer</td><td>看书 (leer un libro)</td></tr><tr><td>听</td><td>tīng</td><td>escuchar, oír</td><td>听音乐 (escuchar música)</td></tr><tr><td>说</td><td>shuō</td><td>hablar, decir</td><td>说中文 (hablar chino)</td></tr><tr><td>读</td><td>dú</td><td>leer (en voz alta)</td><td>读课文 (leer el texto en voz alta)</td></tr><tr><td>写</td><td>xiě</td><td>escribir</td><td>写字 (escribir caracteres)</td></tr><tr><td>学</td><td>xué</td><td>estudiar, aprender</td><td>学中文 (estudiar chino)</td></tr><tr><td>做</td><td>zuò</td><td>hacer</td><td>做作业 (hacer la tarea)</td></tr><tr><td>买</td><td>mǎi</td><td>comprar</td><td>买东西 (comprar cosas)</td></tr><tr><td>卖</td><td>mài</td><td>vender</td><td>卖水果 (vender fruta)</td></tr><tr><td>给</td><td>gěi</td><td>dar</td><td>给你 (darte a ti)</td></tr></table><div class=\"warning\"><p><strong>¡Cuidado con 买 y 卖!</strong> Estos dos caracteres son muy parecidos visualmente pero significan lo opuesto: <strong>买 (mǎi, 3er tono)</strong> = comprar y <strong>卖 (mài, 4to tono)</strong> = vender. Fíjate que 卖 tiene un trazo extra arriba (十). Un truco: el que vende tiene \"más\" (más trazos) porque tiene mercancía.</p></div><div class=\"tip\"><p><strong>Consejo sobre 看 vs 读:</strong> 看 (kàn) es \"ver/mirar/leer\" en general (leer en silencio, ver la televisión). 读 (dú) es \"leer en voz alta\" o \"estudiar\" formalmente. 看书 = leer un libro (en silencio), 读书 = leer/estudiar (más formal, a menudo en voz alta).</p></div><h4>Estructura con 给</h4><div class=\"example\"><p><strong>给 (gěi)</strong> tiene un uso especial como verbo \"dar\" y como preposición \"a/para\":</p><p>他给我一本书。(Tā gěi wǒ yī běn shū.) — Él me da un libro.</p><p>我给你买咖啡。(Wǒ gěi nǐ mǎi kāfēi.) — Te compro un café. (compro café para ti)</p></div><h4>Estructura básica</h4><div class=\"example\"><p><strong>Sujeto + Verbo + Objeto</strong></p><p>我看书。(Wǒ kàn shū.) — Leo un libro.</p><p>她写字。(Tā xiě zì.) — Ella escribe caracteres.</p><p>我们学中文。(Wǒmen xué Zhōngwén.) — Nosotros estudiamos chino.</p><p>他买东西。(Tā mǎi dōngxi.) — Él compra cosas.</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "es": "ver, mirar, leer"
+      },
+      {
+        "hanzi": "听",
+        "pinyin": "tīng",
+        "es": "escuchar, oír"
+      },
+      {
+        "hanzi": "说",
+        "pinyin": "shuō",
+        "es": "hablar, decir"
+      },
+      {
+        "hanzi": "读",
+        "pinyin": "dú",
+        "es": "leer (en voz alta)"
+      },
+      {
+        "hanzi": "写",
+        "pinyin": "xiě",
+        "es": "escribir"
+      },
+      {
+        "hanzi": "学",
+        "pinyin": "xué",
+        "es": "estudiar, aprender"
+      },
+      {
+        "hanzi": "做",
+        "pinyin": "zuò",
+        "es": "hacer"
+      },
+      {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "es": "comprar"
+      },
+      {
+        "hanzi": "卖",
+        "pinyin": "mài",
+        "es": "vender"
+      },
+      {
+        "hanzi": "给",
+        "pinyin": "gěi",
+        "es": "dar"
+      }
+    ],
+    "grammar": [
+      "Estructura: Sujeto + Verbo + Objeto",
+      "看 (kàn) = ver/leer en silencio ≠ 读 (dú) = leer en voz alta",
+      "买 (mǎi, 3er tono) = comprar ≠ 卖 (mài, 4to tono) = vender",
+      "给 (gěi) = dar / para → 给你一本书 (darte un libro)",
+      "给 como preposición: 我给你买 = compro para ti"
+    ],
+    "vocab": [
+      "看",
+      "听",
+      "说",
+      "读",
+      "写",
+      "学",
+      "做",
+      "买",
+      "卖",
+      "给"
+    ],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "看",
+            "ver, mirar"
+          ],
+          [
+            "听",
+            "escuchar"
+          ],
+          [
+            "说",
+            "hablar"
+          ],
+          [
+            "写",
+            "escribir"
+          ],
+          [
+            "买",
+            "comprar"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la diferencia entre 买 (mǎi) y 卖 (mài)?",
+        "correct": "买 = comprar, 卖 = vender",
+        "options": [
+          "买 = comprar, 卖 = vender",
+          "买 = vender, 卖 = comprar",
+          "Significan lo mismo",
+          "买 = dar, 卖 = recibir"
+        ],
+        "hint": "Fíjate en los tonos: 3er tono vs 4to tono"
+      },
+      {
+        "type": "fill",
+        "sentence": "我们___中文。(Nosotros estudiamos chino.)",
+        "blank": "学",
+        "options": [
+          "学",
+          "做",
+          "给",
+          "看"
+        ],
+        "hint": "Es el verbo que significa estudiar o aprender"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella escribe caracteres chinos.",
+        "answer": "她写汉字",
+        "accept": [
+          "她写汉字。",
+          "她写汉字",
+          "她写字。",
+          "她写字"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Él me da un libro.",
+        "words": [
+          "他",
+          "给",
+          "我",
+          "一本书"
+        ],
+        "answer": "他给我一本书"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué verbo usarías para 'escuchar música'?",
+        "correct": "听",
+        "options": [
+          "看",
+          "听",
+          "说",
+          "读"
+        ],
+        "hint": "Es el verbo relacionado con el oído"
+      },
+      {
+        "type": "fill",
+        "sentence": "他___东西。(Él compra cosas.)",
+        "blank": "买",
+        "options": [
+          "买",
+          "卖",
+          "给",
+          "做"
+        ],
+        "hint": "Es el verbo 'comprar' (3er tono), no 'vender'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo leo un libro.",
+        "answer": "我看书",
+        "accept": [
+          "我看书。",
+          "我看书",
+          "我看一本书。",
+          "我看一本书"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Nosotros hablamos chino.",
+        "words": [
+          "我们",
+          "说",
+          "中文"
+        ],
+        "answer": "我们说中文"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "La partícula 了 (pasado/cambio)",
+    "desc": "Expresar acciones completadas y cambios de estado con 了",
+    "grammarIntro": "<h3>La partícula 了 (le)</h3><p>La partícula <strong>了 (le)</strong> es una de las más importantes y frecuentes del chino. Tiene <strong>dos usos principales</strong> que los principiantes deben conocer.</p><h4>Uso 1: Acción completada (动态助词了)</h4><p>Cuando 了 se coloca <strong>después del verbo</strong>, indica que la acción se ha completado.</p><div class=\"example\"><p><strong>Sujeto + Verbo + 了 + Objeto</strong></p><p>我吃了。(Wǒ chī le.) — He comido. / Comí.</p><p>他买了一本书。(Tā mǎi le yī běn shū.) — Él compró un libro.</p><p>她喝了三杯咖啡。(Tā hē le sān bēi kāfēi.) — Ella bebió tres tazas de café.</p><p>我们去了学校。(Wǒmen qù le xuéxiào.) — Fuimos a la escuela.</p></div><div class=\"warning\"><p><strong>¡Importante!</strong> 了 NO es un \"tiempo pasado\" como en español. Indica que una acción está <strong>completada</strong>, no necesariamente que ocurrió en el pasado. La acción puede ser futura si el contexto lo indica: 你吃了饭再去 (Come primero y luego ve) — aquí 了 indica que la acción de comer se completará antes de ir.</p></div><h4>Uso 2: Cambio de estado (语气助词了)</h4><p>Cuando 了 se coloca <strong>al final de la oración</strong>, indica un <strong>cambio de estado</strong> o una <strong>situación nueva</strong>.</p><div class=\"example\"><p><strong>Oración + 了</strong></p><p>他是老师了。(Tā shì lǎoshī le.) — (Ahora) es profesor. (antes no lo era)</p><p>我会说中文了。(Wǒ huì shuō Zhōngwén le.) — Ya sé hablar chino. (antes no sabía)</p><p>下雨了。(Xià yǔ le.) — Ha empezado a llover. (cambio: antes no llovía)</p><p>我不想吃了。(Wǒ bù xiǎng chī le.) — Ya no quiero comer. (cambio de opinión)</p></div><div class=\"tip\"><p><strong>Resumen de las dos funciones:</strong></p><p>1. <strong>Verbo + 了</strong> = acción completada → 我吃了饭 (comí / he comido)</p><p>2. <strong>Oración + 了</strong> = cambio de estado → 我会了 (ya sé / ahora sé)</p><p>A veces aparecen ambos: 我吃了饭了 (ya he comido — acción completada + situación nueva).</p></div><h4>Negación con 没(有)</h4><div class=\"example\"><p>Para negar acciones completadas, se usa <strong>没 (méi)</strong> o <strong>没有 (méiyǒu)</strong>, y se <strong>quita 了</strong>:</p><p>我没吃。(Wǒ méi chī.) — No he comido.</p><p>他没有买书。(Tā méiyǒu mǎi shū.) — Él no compró libros.</p></div><div class=\"warning\"><p><strong>Atención:</strong> Cuando se niega con 没/没有, NO se usa 了. Es incorrecto decir *我没吃了. La forma correcta es 我没吃 o 我没有吃。</p></div>",
+    "newVocab": [
+      {
+        "hanzi": "了",
+        "pinyin": "le",
+        "es": "partícula de acción completada / cambio de estado"
+      },
+      {
+        "hanzi": "没",
+        "pinyin": "méi",
+        "es": "no (para negar acción completada)"
+      },
+      {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "es": "no haber / no (para negar acción completada)"
+      }
+    ],
+    "grammar": [
+      "Verbo + 了 = acción completada → 我吃了 (He comido)",
+      "Oración + 了 = cambio de estado → 他是老师了 (Ahora es profesor)",
+      "了 NO es 'tiempo pasado', indica acción completada",
+      "Negación: 没/没有 + Verbo (sin 了) → 我没吃",
+      "No se puede usar 没 y 了 juntos: *我没吃了 es INCORRECTO"
+    ],
+    "vocab": [
+      "了",
+      "没",
+      "没有"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Qué indica 了 después de un verbo?",
+        "correct": "Que la acción se ha completado",
+        "options": [
+          "Que la acción es futura",
+          "Que la acción se ha completado",
+          "Que la acción es habitual",
+          "Que la acción es continua"
+        ],
+        "hint": "了 tras el verbo señala que la acción ya se realizó o se terminó"
+      },
+      {
+        "type": "fill",
+        "sentence": "他买___一本书。(Él compró un libro.)",
+        "blank": "了",
+        "options": [
+          "了",
+          "的",
+          "吗",
+          "呢"
+        ],
+        "hint": "Necesitas la partícula que indica acción completada"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo comí arroz.",
+        "answer": "我吃了米饭",
+        "accept": [
+          "我吃了米饭。",
+          "我吃了米饭",
+          "我吃了饭。",
+          "我吃了饭"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se niega una acción completada?",
+        "correct": "没/没有 + verbo (sin 了)",
+        "options": [
+          "不 + verbo + 了",
+          "没/没有 + verbo (sin 了)",
+          "不 + verbo",
+          "没 + verbo + 了"
+        ],
+        "hint": "Con 没 no se puede usar 了"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella bebió tres tazas de café.",
+        "words": [
+          "她",
+          "喝",
+          "了",
+          "三杯",
+          "咖啡"
+        ],
+        "answer": "她喝了三杯咖啡"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él no compró el libro.",
+        "answer": "他没买书",
+        "accept": [
+          "他没买书。",
+          "他没买书",
+          "他没有买书。",
+          "他没有买书"
+        ]
+      },
+      {
+        "type": "fill",
+        "sentence": "我会说中文___。(Ya sé hablar chino. - cambio de estado)",
+        "blank": "了",
+        "options": [
+          "了",
+          "的",
+          "吗",
+          "吧"
+        ],
+        "hint": "Al final de la oración, esta partícula indica un cambio de estado"
+      },
+      {
+        "type": "choose",
+        "prompt": "我是老师了 significa...",
+        "correct": "Ahora soy profesor (antes no lo era)",
+        "options": [
+          "Soy profesor (siempre)",
+          "Ahora soy profesor (antes no lo era)",
+          "Fui profesor (ya no lo soy)",
+          "Seré profesor (en el futuro)"
+        ],
+        "hint": "了 al final indica un cambio de estado: algo nuevo ha ocurrido"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Nosotros fuimos a la escuela.",
+        "answer": "我们去了学校",
+        "accept": [
+          "我们去了学校。",
+          "我们去了学校"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Experiencia con 过",
+    "desc": "Hablar de experiencias pasadas con la partícula 过",
+    "grammarIntro": "<h3>La partícula experiencial 过 (guò)</h3><p>En chino, la partícula <strong>过</strong> se coloca después del verbo para indicar que algo se ha experimentado alguna vez en el pasado. Es equivalente al español <em>\"haber + participio alguna vez\"</em>.</p><h4>Estructura afirmativa</h4><table><tr><th>Sujeto</th><th>Verbo</th><th>过</th><th>Objeto</th></tr><tr><td>我 (wǒ)</td><td>去 (qù)</td><td>过</td><td>中国 (Zhōngguó)</td></tr><tr><td>Yo</td><td>ir</td><td>(experiencia)</td><td>China</td></tr></table><div class=\"example\">我去过中国。(Wǒ qù guò Zhōngguó.) — He ido a China (alguna vez).<br>她吃过北京烤鸭。(Tā chī guò Běijīng kǎoyā.) — Ella ha comido pato laqueado de Pekín.</div><h4>Estructura interrogativa</h4><p>Para preguntar si alguien ha tenido una experiencia, se añade <strong>吗</strong> al final:</p><div class=\"example\">你去过中国吗？(Nǐ qù guò Zhōngguó ma?) — ¿Has ido a China alguna vez?<br>你看过这个电影吗？(Nǐ kàn guò zhège diànyǐng ma?) — ¿Has visto esta película?</div><h4>Estructura negativa con 没</h4><p>Para negar la experiencia, se usa <strong>没(有)</strong> antes del verbo. Nota: <strong>过</strong> se mantiene después del verbo.</p><table><tr><th>Sujeto</th><th>没(有)</th><th>Verbo</th><th>过</th><th>Objeto</th></tr><tr><td>我</td><td>没</td><td>去</td><td>过</td><td>中国</td></tr></table><div class=\"example\">我没去过中国。(Wǒ méi qù guò Zhōngguó.) — No he ido nunca a China.<br>他没吃过寿司。(Tā méi chī guò shòusī.) — Él nunca ha comido sushi.</div><div class=\"warning\">¡Cuidado! No se usa 不 para negar experiencias con 过. Siempre se usa 没: ✗ 我不去过中国 → ✓ 我没去过中国</div><div class=\"tip\">La partícula 过 expresa experiencia vital, no una acción completada recientemente. Para acciones completadas usa 了. Compara: 我吃了饭 (He comido / Ya comí) vs. 我吃过北京烤鸭 (He comido pato laqueado alguna vez en mi vida).</div>",
+    "newVocab": [
+      {
+        "hanzi": "过",
+        "pinyin": "guò",
+        "es": "partícula de experiencia"
+      },
+      {
+        "hanzi": "中国",
+        "pinyin": "Zhōngguó",
+        "es": "China"
+      },
+      {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "es": "ir"
+      },
+      {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "es": "ver, mirar"
+      },
+      {
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
+        "es": "película"
+      },
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "es": "comer"
+      },
+      {
+        "hanzi": "听",
+        "pinyin": "tīng",
+        "es": "escuchar"
+      },
+      {
+        "hanzi": "没",
+        "pinyin": "méi",
+        "es": "no (negación de experiencia/pasado)"
+      },
+      {
+        "hanzi": "北京",
+        "pinyin": "Běijīng",
+        "es": "Pekín"
+      },
+      {
+        "hanzi": "日本",
+        "pinyin": "Rìběn",
+        "es": "Japón"
+      }
+    ],
+    "grammar": [
+      "过 = experiencia pasada",
+      "没 + verbo + 过 = nunca haber hecho algo"
+    ],
+    "vocab": [
+      "过",
+      "中国",
+      "去",
+      "看",
+      "电影",
+      "吃",
+      "听",
+      "没",
+      "北京",
+      "日本"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'He ido a China' en chino?",
+        "correct": "我去过中国",
+        "options": [
+          "我去了中国",
+          "我去过中国",
+          "我不去中国",
+          "我在去中国"
+        ],
+        "hint": "Usa la partícula 过 después del verbo para indicar experiencia."
+      },
+      {
+        "type": "fill",
+        "sentence": "你去___中国吗？",
+        "blank": "过",
+        "options": [
+          "了",
+          "过",
+          "在",
+          "的"
+        ],
+        "hint": "¿Qué partícula se usa para preguntar por experiencias pasadas?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Nunca he visto esta película.",
+        "answer": "我没看过这个电影",
+        "accept": [
+          "我没看过这个电影",
+          "我没有看过这个电影"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella ha comido sushi.",
+        "words": [
+          "她",
+          "吃",
+          "过",
+          "寿司"
+        ],
+        "answer": "她吃过寿司"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "去过",
+            "haber ido"
+          ],
+          [
+            "吃过",
+            "haber comido"
+          ],
+          [
+            "看过",
+            "haber visto"
+          ],
+          [
+            "听过",
+            "haber escuchado"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la forma correcta de negar una experiencia con 过?",
+        "correct": "我没去过日本",
+        "options": [
+          "我不去过日本",
+          "我没去过日本",
+          "我没去了日本",
+          "我不了去日本"
+        ],
+        "hint": "La negación de experiencias siempre usa 没, no 不."
+      },
+      {
+        "type": "fill",
+        "sentence": "他___吃过北京烤鸭。",
+        "blank": "没",
+        "options": [
+          "不",
+          "没",
+          "别",
+          "过"
+        ],
+        "hint": "Para negar experiencias pasadas se usa esta palabra antes del verbo."
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Has escuchado esta canción alguna vez?",
+        "answer": "你听过这首歌吗",
+        "accept": [
+          "你听过这首歌吗",
+          "你听过这首歌吗？"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Él nunca ha ido a Japón.",
+        "words": [
+          "他",
+          "没",
+          "去",
+          "过",
+          "日本"
+        ],
+        "answer": "他没去过日本"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Progresivo con 在...呢",
+    "desc": "Expresar acciones en curso con 在...呢",
+    "grammarIntro": "<h3>La forma progresiva: 在...呢 (zài...ne)</h3><p>Para expresar que una acción está ocurriendo en este momento (como el español <em>\"estar + gerundio\"</em>), el chino usa la estructura <strong>在 + verbo + 呢</strong>.</p><h4>Estructura básica</h4><table><tr><th>Sujeto</th><th>在</th><th>Verbo</th><th>(Objeto)</th><th>呢</th></tr><tr><td>我 (wǒ)</td><td>在</td><td>吃 (chī)</td><td>饭 (fàn)</td><td>呢</td></tr><tr><td>Yo</td><td>(progresivo)</td><td>comer</td><td>comida</td><td>(partícula)</td></tr></table><div class=\"example\">我在吃饭呢。(Wǒ zài chī fàn ne.) — Estoy comiendo.<br>她在看书呢。(Tā zài kàn shū ne.) — Ella está leyendo.<br>他们在打篮球呢。(Tāmen zài dǎ lánqiú ne.) — Ellos están jugando al baloncesto.</div><h4>Variantes de la estructura</h4><p>En el habla cotidiana se pueden usar versiones reducidas:</p><ul><li><strong>在 + verbo</strong> (sin 呢): 我在吃饭。</li><li><strong>verbo + 呢</strong> (sin 在): 我吃饭呢。</li><li><strong>在 + verbo + 呢</strong> (forma completa): 我在吃饭呢。</li></ul><div class=\"tip\">La forma completa con 在...呢 es la más estándar y clara. En la conversación informal, puedes omitir 在 o 呢, pero nunca ambos a la vez.</div><h4>Forma negativa</h4><p>Para negar una acción en progreso, se usa <strong>没(有)在</strong>:</p><div class=\"example\">我没在看电视。(Wǒ méi zài kàn diànshì.) — No estoy viendo la televisión.<br>他没在睡觉。(Tā méi zài shuì jiào.) — Él no está durmiendo.</div><h4>Forma interrogativa</h4><div class=\"example\">你在做什么呢？(Nǐ zài zuò shénme ne?) — ¿Qué estás haciendo?<br>你在看书吗？(Nǐ zài kàn shū ma?) — ¿Estás leyendo?</div><div class=\"warning\">¡Cuidado! No confundas 在 (progresivo) con 在 (estar en un lugar). Contexto: 我在家 (Estoy en casa) vs. 我在吃饭 (Estoy comiendo).</div>",
+    "newVocab": [
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "es": "estar (haciendo), partícula progresiva"
+      },
+      {
+        "hanzi": "呢",
+        "pinyin": "ne",
+        "es": "partícula de acción en progreso"
+      },
+      {
+        "hanzi": "吃饭",
+        "pinyin": "chī fàn",
+        "es": "comer (una comida)"
+      },
+      {
+        "hanzi": "看书",
+        "pinyin": "kàn shū",
+        "es": "leer (un libro)"
+      },
+      {
+        "hanzi": "睡觉",
+        "pinyin": "shuì jiào",
+        "es": "dormir"
+      },
+      {
+        "hanzi": "做",
+        "pinyin": "zuò",
+        "es": "hacer"
+      },
+      {
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "es": "qué"
+      },
+      {
+        "hanzi": "打电话",
+        "pinyin": "dǎ diànhuà",
+        "es": "hablar por teléfono"
+      },
+      {
+        "hanzi": "写",
+        "pinyin": "xiě",
+        "es": "escribir"
+      },
+      {
+        "hanzi": "电视",
+        "pinyin": "diànshì",
+        "es": "televisión"
+      }
+    ],
+    "grammar": [
+      "在 + verbo + 呢 = estar + gerundio",
+      "没在 + verbo = no estar + gerundio"
+    ],
+    "vocab": [
+      "在",
+      "呢",
+      "吃饭",
+      "看书",
+      "睡觉",
+      "做",
+      "什么",
+      "打电话",
+      "写",
+      "电视"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Estoy comiendo' en chino?",
+        "correct": "我在吃饭呢",
+        "options": [
+          "我吃饭了",
+          "我在吃饭呢",
+          "我要吃饭",
+          "我吃过饭"
+        ],
+        "hint": "Usa la estructura 在 + verbo + 呢 para indicar una acción en curso."
+      },
+      {
+        "type": "fill",
+        "sentence": "她___看书呢。",
+        "blank": "在",
+        "options": [
+          "在",
+          "了",
+          "过",
+          "要"
+        ],
+        "hint": "¿Qué palabra marca que la acción está ocurriendo ahora?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: ¿Qué estás haciendo?",
+        "answer": "你在做什么呢",
+        "accept": [
+          "你在做什么呢",
+          "你在做什么呢？",
+          "你在做什么",
+          "你做什么呢"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Él está durmiendo.",
+        "words": [
+          "他",
+          "在",
+          "睡觉",
+          "呢"
+        ],
+        "answer": "他在睡觉呢"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "在吃饭呢",
+            "estar comiendo"
+          ],
+          [
+            "在看书呢",
+            "estar leyendo"
+          ],
+          [
+            "在睡觉呢",
+            "estar durmiendo"
+          ],
+          [
+            "在写呢",
+            "estar escribiendo"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la forma negativa correcta de '她在看电视'?",
+        "correct": "她没在看电视",
+        "options": [
+          "她不在看电视",
+          "她没在看电视",
+          "她没看在电视",
+          "她在不看电视"
+        ],
+        "hint": "La negación del progresivo usa 没在."
+      },
+      {
+        "type": "fill",
+        "sentence": "他们在___篮球呢。",
+        "blank": "打",
+        "options": [
+          "打",
+          "做",
+          "看",
+          "吃"
+        ],
+        "hint": "El verbo para 'jugar' deportes de pelota en chino es 打."
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella está hablando por teléfono.",
+        "answer": "她在打电话呢",
+        "accept": [
+          "她在打电话呢",
+          "她在打电话"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Futuro con 要/会",
+    "desc": "Expresar intenciones y predicciones futuras",
+    "grammarIntro": "<h3>Expresar el futuro: 要 (yào) y 会 (huì)</h3><p>El chino no tiene conjugaciones verbales para el futuro. En su lugar, se usan palabras auxiliares como <strong>要</strong> y <strong>会</strong> antes del verbo.</p><h4>要 (yào) — Intención o plan</h4><p>Se usa para expresar una intención, un plan o algo que va a ocurrir pronto. Equivale al español <em>\"ir a + infinitivo\"</em> o <em>\"querer\"</em>.</p><table><tr><th>Sujeto</th><th>要</th><th>Verbo</th><th>Objeto</th></tr><tr><td>我</td><td>要</td><td>去</td><td>中国</td></tr><tr><td>Yo</td><td>voy a</td><td>ir a</td><td>China</td></tr></table><div class=\"example\">我要去中国。(Wǒ yào qù Zhōngguó.) — Voy a ir a China.<br>他要学中文。(Tā yào xué Zhōngwén.) — Él va a estudiar chino.<br>我们明天要去买东西。(Wǒmen míngtiān yào qù mǎi dōngxi.) — Mañana vamos a ir de compras.</div><h4>会 (huì) — Predicción o posibilidad</h4><p>Se usa para predicciones o cosas que probablemente pasarán. Equivale a <em>\"probablemente\"</em> o al futuro simple en español.</p><div class=\"example\">明天会下雨。(Míngtiān huì xià yǔ.) — Mañana lloverá.<br>她会来的。(Tā huì lái de.) — Ella vendrá.<br>这个很难，你不会忘记。(Zhège hěn nán, nǐ bú huì wàngjì.) — Esto es muy difícil, no lo olvidarás.</div><h4>Negación</h4><p>La negación es diferente para cada uno:</p><table><tr><th>Auxiliar</th><th>Negación</th><th>Ejemplo</th><th>Significado</th></tr><tr><td>要</td><td>不要 / 不想</td><td>我不想去。</td><td>No quiero ir.</td></tr><tr><td>会</td><td>不会</td><td>明天不会下雨。</td><td>Mañana no lloverá.</td></tr></table><div class=\"warning\">¡Cuidado! 不要 (bú yào) también puede significar \"no hagas\" (imperativo negativo): 不要说话！(¡No hables!). 不想 (bù xiǎng) es más suave para expresar \"no querer\".</div><div class=\"tip\">Recuerda: 会 también puede significar \"saber hacer algo\" (habilidad): 我会说中文 (Sé hablar chino). El contexto te dirá si se refiere al futuro o a una habilidad.</div>",
+    "newVocab": [
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "es": "ir a, querer (futuro/intención)"
+      },
+      {
+        "hanzi": "会",
+        "pinyin": "huì",
+        "es": "probablemente, saber hacer"
+      },
+      {
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
+        "es": "mañana"
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "es": "llover"
+      },
+      {
+        "hanzi": "来",
+        "pinyin": "lái",
+        "es": "venir"
+      },
+      {
+        "hanzi": "学",
+        "pinyin": "xué",
+        "es": "estudiar, aprender"
+      },
+      {
+        "hanzi": "中文",
+        "pinyin": "Zhōngwén",
+        "es": "chino (idioma)"
+      },
+      {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "es": "comprar"
+      },
+      {
+        "hanzi": "东西",
+        "pinyin": "dōngxi",
+        "es": "cosas"
+      },
+      {
+        "hanzi": "不想",
+        "pinyin": "bù xiǎng",
+        "es": "no querer"
+      }
+    ],
+    "grammar": [
+      "要 + verbo = ir a / querer",
+      "会 + verbo = predicción futura",
+      "不要 / 不想 = negación de 要",
+      "不会 = negación de 会"
+    ],
+    "vocab": [
+      "要",
+      "会",
+      "明天",
+      "下雨",
+      "来",
+      "学",
+      "中文",
+      "买",
+      "东西",
+      "不想"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Mañana lloverá' en chino?",
+        "correct": "明天会下雨",
+        "options": [
+          "明天要下雨",
+          "明天会下雨",
+          "明天在下雨",
+          "明天下雨了"
+        ],
+        "hint": "Para predicciones del clima se usa 会."
+      },
+      {
+        "type": "fill",
+        "sentence": "我___去中国。",
+        "blank": "要",
+        "options": [
+          "要",
+          "了",
+          "过",
+          "在"
+        ],
+        "hint": "¿Qué palabra expresa la intención de hacer algo en el futuro cercano?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Él va a estudiar chino.",
+        "answer": "他要学中文",
+        "accept": [
+          "他要学中文",
+          "他要学中文。"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Mañana no lloverá.",
+        "words": [
+          "明天",
+          "不",
+          "会",
+          "下雨"
+        ],
+        "answer": "明天不会下雨"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "要去",
+            "ir a ir"
+          ],
+          [
+            "会来",
+            "vendrá"
+          ],
+          [
+            "要学",
+            "ir a estudiar"
+          ],
+          [
+            "不会下雨",
+            "no lloverá"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la diferencia principal entre 要 y 会?",
+        "correct": "要 expresa intención, 会 expresa predicción",
+        "options": [
+          "要 es pasado, 会 es futuro",
+          "要 expresa intención, 会 expresa predicción",
+          "要 es formal, 会 es informal",
+          "No hay diferencia"
+        ],
+        "hint": "Piensa en 'quiero ir' vs. 'probablemente lloverá'."
+      },
+      {
+        "type": "fill",
+        "sentence": "她___来的。",
+        "blank": "会",
+        "options": [
+          "要",
+          "会",
+          "在",
+          "了"
+        ],
+        "hint": "Se predice que ella vendrá. ¿Qué auxiliar se usa para predicciones?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: No quiero ir.",
+        "answer": "我不想去",
+        "accept": [
+          "我不想去",
+          "我不要去"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Nosotros mañana vamos a ir de compras.",
+        "words": [
+          "我们",
+          "明天",
+          "要",
+          "去",
+          "买",
+          "东西"
+        ],
+        "answer": "我们明天要去买东西"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Comparaciones con 比",
+    "desc": "Comparar personas y cosas usando 比, 没有 y 一样",
+    "grammarIntro": "<h3>Comparaciones en chino</h3><p>El chino tiene varias formas de hacer comparaciones, similares al español \"más... que\", \"menos... que\" y \"tan... como\".</p><h4>1. Comparativo con 比 (bǐ): \"más... que\"</h4><table><tr><th>A</th><th>比</th><th>B</th><th>Adjetivo</th></tr><tr><td>他 (tā)</td><td>比</td><td>我 (wǒ)</td><td>高 (gāo)</td></tr><tr><td>Él</td><td>más que</td><td>yo</td><td>alto</td></tr></table><div class=\"example\">他比我高。(Tā bǐ wǒ gāo.) — Él es más alto que yo.<br>今天比昨天冷。(Jīntiān bǐ zuótiān lěng.) — Hoy hace más frío que ayer.<br>中文比英文难。(Zhōngwén bǐ Yīngwén nán.) — El chino es más difícil que el inglés.</div><h4>2. Comparativo negativo con 没有 (méiyǒu): \"no tan... como\"</h4><table><tr><th>A</th><th>没有</th><th>B</th><th>Adjetivo</th></tr><tr><td>我</td><td>没有</td><td>他</td><td>高</td></tr><tr><td>Yo</td><td>no tan</td><td>él</td><td>alto</td></tr></table><div class=\"example\">我没有他高。(Wǒ méiyǒu tā gāo.) — Yo no soy tan alto como él.<br>今天没有昨天热。(Jīntiān méiyǒu zuótiān rè.) — Hoy no hace tanto calor como ayer.</div><h4>3. Igualdad con 一样 (yīyàng): \"tan... como\" / \"igual que\"</h4><table><tr><th>A</th><th>和/跟</th><th>B</th><th>一样</th><th>Adjetivo</th></tr><tr><td>我</td><td>和</td><td>他</td><td>一样</td><td>高</td></tr><tr><td>Yo</td><td>con</td><td>él</td><td>igual de</td><td>alto</td></tr></table><div class=\"example\">我和他一样高。(Wǒ hé tā yīyàng gāo.) — Yo soy tan alto como él.<br>这个和那个一样贵。(Zhège hé nàge yīyàng guì.) — Este es tan caro como ese.</div><div class=\"warning\">¡Cuidado! En la estructura con 比, NO se usa 很 antes del adjetivo: ✗ 他比我很高 → ✓ 他比我高。Pero sí puedes usar 更 (gèng, aún más): 他比我更高。</div><div class=\"tip\">Para expresar cuánto más, añade la cantidad después del adjetivo: 他比我高五厘米 (Él es 5 cm más alto que yo).</div>",
+    "newVocab": [
+      {
+        "hanzi": "比",
+        "pinyin": "bǐ",
+        "es": "comparar, más que"
+      },
+      {
+        "hanzi": "高",
+        "pinyin": "gāo",
+        "es": "alto"
+      },
+      {
+        "hanzi": "一样",
+        "pinyin": "yīyàng",
+        "es": "igual, lo mismo"
+      },
+      {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "es": "no tener, no tan... como"
+      },
+      {
+        "hanzi": "大",
+        "pinyin": "dà",
+        "es": "grande, mayor (edad)"
+      },
+      {
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "es": "pequeño, menor (edad)"
+      },
+      {
+        "hanzi": "贵",
+        "pinyin": "guì",
+        "es": "caro"
+      },
+      {
+        "hanzi": "便宜",
+        "pinyin": "piányi",
+        "es": "barato"
+      },
+      {
+        "hanzi": "难",
+        "pinyin": "nán",
+        "es": "difícil"
+      },
+      {
+        "hanzi": "昨天",
+        "pinyin": "zuótiān",
+        "es": "ayer"
+      }
+    ],
+    "grammar": [
+      "A 比 B + adj = A es más adj que B",
+      "A 没有 B + adj = A no es tan adj como B",
+      "A 和 B 一样 + adj = A es tan adj como B"
+    ],
+    "vocab": [
+      "比",
+      "高",
+      "一样",
+      "没有",
+      "大",
+      "小",
+      "贵",
+      "便宜",
+      "难",
+      "昨天"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Él es más alto que yo'?",
+        "correct": "他比我高",
+        "options": [
+          "他比我高",
+          "他很高我",
+          "他和我高",
+          "他没有我高"
+        ],
+        "hint": "Usa la estructura A 比 B + adjetivo."
+      },
+      {
+        "type": "fill",
+        "sentence": "今天___昨天冷。",
+        "blank": "比",
+        "options": [
+          "比",
+          "和",
+          "很",
+          "没"
+        ],
+        "hint": "¿Qué palabra se usa para comparar 'más que'?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo soy tan alto como él.",
+        "answer": "我和他一样高",
+        "accept": [
+          "我和他一样高",
+          "我跟他一样高"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: El chino es más difícil que el inglés.",
+        "words": [
+          "中文",
+          "比",
+          "英文",
+          "难"
+        ],
+        "answer": "中文比英文难"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "比我高",
+            "más alto que yo"
+          ],
+          [
+            "没有他大",
+            "no tan grande como él"
+          ],
+          [
+            "一样贵",
+            "igual de caro"
+          ],
+          [
+            "比昨天冷",
+            "más frío que ayer"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la forma correcta de 'Hoy no hace tanto calor como ayer'?",
+        "correct": "今天没有昨天热",
+        "options": [
+          "今天不比昨天热",
+          "今天没有昨天热",
+          "今天比昨天不热",
+          "今天和昨天热"
+        ],
+        "hint": "Usa 没有 para decir 'no tan... como'."
+      },
+      {
+        "type": "fill",
+        "sentence": "这个和那个___贵。",
+        "blank": "一样",
+        "options": [
+          "比",
+          "一样",
+          "没有",
+          "很"
+        ],
+        "hint": "Para expresar igualdad se usa esta palabra entre el segundo elemento y el adjetivo."
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Este es más barato que ese.",
+        "answer": "这个比那个便宜",
+        "accept": [
+          "这个比那个便宜"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Complemento de grado 得",
+    "desc": "Describir cómo de bien se realiza una acción con 得",
+    "grammarIntro": "<h3>El complemento de grado con 得 (de)</h3><p>En chino, para describir <em>cómo</em> se realiza una acción (bien, rápido, bonito, etc.), se usa la partícula <strong>得</strong> después del verbo, seguida de un adjetivo o una frase descriptiva.</p><h4>Estructura básica</h4><table><tr><th>Sujeto</th><th>Verbo</th><th>得</th><th>Descripción</th></tr><tr><td>他 (tā)</td><td>说 (shuō)</td><td>得</td><td>很好 (hěn hǎo)</td></tr><tr><td>Él</td><td>habla</td><td>(grado)</td><td>muy bien</td></tr></table><div class=\"example\">他说得很好。(Tā shuō de hěn hǎo.) — Él habla muy bien.<br>她唱得很好听。(Tā chàng de hěn hǎotīng.) — Ella canta muy bonito.<br>你跑得很快。(Nǐ pǎo de hěn kuài.) — Tú corres muy rápido.</div><h4>Forma negativa</h4><p>La negación se coloca en la parte descriptiva (después de 得), usando <strong>不</strong>:</p><div class=\"example\">我写得不好。(Wǒ xiě de bù hǎo.) — Yo no escribo bien.<br>他跑得不快。(Tā pǎo de bú kuài.) — Él no corre rápido.<br>她说得不太清楚。(Tā shuō de bú tài qīngchu.) — Ella no habla muy claro.</div><h4>Con objeto</h4><p>Cuando hay un objeto, el verbo se repite:</p><table><tr><th>Sujeto</th><th>Verbo</th><th>Objeto</th><th>Verbo</th><th>得</th><th>Descripción</th></tr><tr><td>他</td><td>说</td><td>中文</td><td>说</td><td>得</td><td>很好</td></tr></table><div class=\"example\">他说中文说得很好。(Tā shuō Zhōngwén shuō de hěn hǎo.) — Él habla chino muy bien.<br>她写汉字写得很漂亮。(Tā xiě hànzì xiě de hěn piàoliang.) — Ella escribe caracteres muy bonitos.</div><div class=\"warning\">¡Cuidado! No confundas las tres partículas \"de\": 的 (posesivo: 我的书), 地 (modifica verbos: 慢慢地走), 得 (complemento de grado: 说得好). Se pronuncian igual pero se escriben diferente.</div><div class=\"tip\">El complemento con 得 siempre describe el resultado o la calidad de la acción. Si quieres describir cómo vas a hacer algo (antes de hacerlo), no uses 得.</div>",
+    "newVocab": [
+      {
+        "hanzi": "得",
+        "pinyin": "de",
+        "es": "partícula de complemento de grado"
+      },
+      {
+        "hanzi": "说",
+        "pinyin": "shuō",
+        "es": "hablar, decir"
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "es": "bien, bueno"
+      },
+      {
+        "hanzi": "快",
+        "pinyin": "kuài",
+        "es": "rápido"
+      },
+      {
+        "hanzi": "慢",
+        "pinyin": "màn",
+        "es": "lento"
+      },
+      {
+        "hanzi": "唱",
+        "pinyin": "chàng",
+        "es": "cantar"
+      },
+      {
+        "hanzi": "跑",
+        "pinyin": "pǎo",
+        "es": "correr"
+      },
+      {
+        "hanzi": "好听",
+        "pinyin": "hǎotīng",
+        "es": "agradable al oído, bonito (sonido)"
+      },
+      {
+        "hanzi": "漂亮",
+        "pinyin": "piàoliang",
+        "es": "bonito, hermoso"
+      },
+      {
+        "hanzi": "清楚",
+        "pinyin": "qīngchu",
+        "es": "claro"
+      }
+    ],
+    "grammar": [
+      "verbo + 得 + adjetivo = descripción de grado",
+      "verbo + 得 + 不 + adj = negación de grado",
+      "verbo + objeto + verbo + 得 + adj = con objeto"
+    ],
+    "vocab": [
+      "得",
+      "说",
+      "好",
+      "快",
+      "慢",
+      "唱",
+      "跑",
+      "好听",
+      "漂亮",
+      "清楚"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Él habla muy bien' en chino?",
+        "correct": "他说得很好",
+        "options": [
+          "他说很好",
+          "他说得很好",
+          "他很好说",
+          "他得说很好"
+        ],
+        "hint": "Usa la estructura verbo + 得 + descripción."
+      },
+      {
+        "type": "fill",
+        "sentence": "她唱___很好听。",
+        "blank": "得",
+        "options": [
+          "的",
+          "得",
+          "地",
+          "了"
+        ],
+        "hint": "¿Qué partícula se usa después del verbo para describir la calidad de la acción?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo no escribo bien.",
+        "answer": "我写得不好",
+        "accept": [
+          "我写得不好"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Tú corres muy rápido.",
+        "words": [
+          "你",
+          "跑",
+          "得",
+          "很",
+          "快"
+        ],
+        "answer": "你跑得很快"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "说得很好",
+            "hablar muy bien"
+          ],
+          [
+            "写得不好",
+            "no escribir bien"
+          ],
+          [
+            "跑得很快",
+            "correr muy rápido"
+          ],
+          [
+            "唱得好听",
+            "cantar bonito"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la forma correcta de negar 'Él corre rápido'?",
+        "correct": "他跑得不快",
+        "options": [
+          "他不跑得快",
+          "他跑不得快",
+          "他跑得不快",
+          "他没跑得快"
+        ],
+        "hint": "La negación va después de 得, antes del adjetivo."
+      },
+      {
+        "type": "fill",
+        "sentence": "他跑得很___。",
+        "blank": "慢",
+        "options": [
+          "好",
+          "快",
+          "慢",
+          "大"
+        ],
+        "hint": "El opuesto de 快 (rápido) es..."
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella no habla muy claro.",
+        "answer": "她说得不太清楚",
+        "accept": [
+          "她说得不太清楚",
+          "她说得不清楚"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ella escribe caracteres muy bonitos.",
+        "words": [
+          "她",
+          "写",
+          "汉字",
+          "写",
+          "得",
+          "很",
+          "漂亮"
+        ],
+        "answer": "她写汉字写得很漂亮"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Conjunciones",
+    "desc": "Conectar ideas con conjunciones chinas",
+    "grammarIntro": "<h3>Conjunciones en chino</h3><p>Las conjunciones permiten conectar ideas y construir oraciones más complejas. En chino, muchas conjunciones vienen en pares.</p><h4>1. 和 (hé) — \"y\"</h4><p>Se usa para unir sustantivos o pronombres, <strong>no oraciones completas</strong>.</p><div class=\"example\">我和他是朋友。(Wǒ hé tā shì péngyou.) — Él y yo somos amigos.<br>苹果和香蕉都很好吃。(Píngguǒ hé xiāngjiāo dōu hěn hǎochī.) — Las manzanas y los plátanos son deliciosos.</div><div class=\"warning\">¡Cuidado! A diferencia del español, 和 NO se usa para unir dos oraciones: ✗ 我去商店和他去学校 → ✓ 我去商店，他去学校。</div><h4>2. 但是 / 可是 (dànshì / kěshì) — \"pero\"</h4><div class=\"example\">中文很难，但是很有意思。(Zhōngwén hěn nán, dànshì hěn yǒu yìsi.) — El chino es difícil, pero muy interesante.<br>他很聪明，可是不努力。(Tā hěn cōngming, kěshì bù nǔlì.) — Él es inteligente, pero no se esfuerza.</div><h4>3. 因为...所以... (yīnwèi...suǒyǐ...) — \"porque...por eso...\"</h4><p>El chino suele usar ambas palabras juntas, aunque se puede omitir una de ellas.</p><div class=\"example\">因为下雨，所以我不去。(Yīnwèi xià yǔ, suǒyǐ wǒ bú qù.) — Porque llueve, por eso no voy.<br>因为他很忙，所以没来。(Yīnwèi tā hěn máng, suǒyǐ méi lái.) — Porque está muy ocupado, por eso no vino.</div><h4>4. 虽然...但是... (suīrán...dànshì...) — \"aunque...pero...\"</h4><div class=\"example\">虽然很贵，但是质量很好。(Suīrán hěn guì, dànshì zhìliàng hěn hǎo.) — Aunque es caro, la calidad es muy buena.</div><h4>5. 如果...就... (rúguǒ...jiù...) — \"si...entonces...\"</h4><div class=\"example\">如果明天下雨，我就不去。(Rúguǒ míngtiān xià yǔ, wǒ jiù bú qù.) — Si mañana llueve, entonces no voy.</div><h4>6. 还是 / 或者 (háishi / huòzhě) — \"o\"</h4><p><strong>还是</strong> se usa en preguntas; <strong>或者</strong> en afirmaciones.</p><div class=\"example\">你喝茶还是咖啡？(Nǐ hē chá háishi kāfēi?) — ¿Bebes té o café?<br>你可以喝茶或者咖啡。(Nǐ kěyǐ hē chá huòzhě kāfēi.) — Puedes beber té o café.</div><div class=\"tip\">Recuerda que en chino muchas conjunciones van en pares: 因为...所以..., 虽然...但是..., 如果...就... Usar las dos partes hace la oración más clara y natural.</div>",
+    "newVocab": [
+      {
+        "hanzi": "和",
+        "pinyin": "hé",
+        "es": "y (une sustantivos)"
+      },
+      {
+        "hanzi": "但是",
+        "pinyin": "dànshì",
+        "es": "pero"
+      },
+      {
+        "hanzi": "可是",
+        "pinyin": "kěshì",
+        "es": "pero (coloquial)"
+      },
+      {
+        "hanzi": "因为",
+        "pinyin": "yīnwèi",
+        "es": "porque"
+      },
+      {
+        "hanzi": "所以",
+        "pinyin": "suǒyǐ",
+        "es": "por eso, así que"
+      },
+      {
+        "hanzi": "虽然",
+        "pinyin": "suīrán",
+        "es": "aunque"
+      },
+      {
+        "hanzi": "如果",
+        "pinyin": "rúguǒ",
+        "es": "si (condicional)"
+      },
+      {
+        "hanzi": "就",
+        "pinyin": "jiù",
+        "es": "entonces, en ese caso"
+      },
+      {
+        "hanzi": "还是",
+        "pinyin": "háishi",
+        "es": "o (en preguntas)"
+      },
+      {
+        "hanzi": "或者",
+        "pinyin": "huòzhě",
+        "es": "o (en afirmaciones)"
+      }
+    ],
+    "grammar": [
+      "和 = y (solo sustantivos)",
+      "但是/可是 = pero",
+      "因为...所以... = porque...por eso...",
+      "虽然...但是... = aunque...pero...",
+      "如果...就... = si...entonces...",
+      "还是 (preguntas) / 或者 (afirmaciones) = o"
+    ],
+    "vocab": [
+      "和",
+      "但是",
+      "可是",
+      "因为",
+      "所以",
+      "虽然",
+      "如果",
+      "就",
+      "还是",
+      "或者"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Qué conjunción se usa para unir sustantivos, como 'manzanas y plátanos'?",
+        "correct": "和",
+        "options": [
+          "但是",
+          "和",
+          "或者",
+          "所以"
+        ],
+        "hint": "Es la conjunción copulativa para unir nombres."
+      },
+      {
+        "type": "fill",
+        "sentence": "___下雨，___我不去。",
+        "blank": "因为...所以",
+        "options": [
+          "因为...所以",
+          "虽然...但是",
+          "如果...就",
+          "和...也"
+        ],
+        "hint": "Expresa causa y consecuencia: 'Porque llueve, por eso no voy.'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: El chino es difícil, pero muy interesante.",
+        "answer": "中文很难，但是很有意思",
+        "accept": [
+          "中文很难，但是很有意思",
+          "中文很难，可是很有意思",
+          "中文很难但是很有意思"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Si mañana llueve, entonces no voy.",
+        "words": [
+          "如果",
+          "明天",
+          "下雨",
+          "我",
+          "就",
+          "不去"
+        ],
+        "answer": "如果明天下雨我就不去"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "因为...所以...",
+            "porque...por eso..."
+          ],
+          [
+            "虽然...但是...",
+            "aunque...pero..."
+          ],
+          [
+            "如果...就...",
+            "si...entonces..."
+          ],
+          [
+            "还是",
+            "o (en preguntas)"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Bebes té o café? — ¿Qué palabra se usa para 'o' en esta pregunta?",
+        "correct": "还是",
+        "options": [
+          "或者",
+          "还是",
+          "和",
+          "但是"
+        ],
+        "hint": "En preguntas, 'o' se dice de forma diferente que en afirmaciones."
+      },
+      {
+        "type": "fill",
+        "sentence": "___很贵，___质量很好。",
+        "blank": "虽然...但是",
+        "options": [
+          "因为...所以",
+          "虽然...但是",
+          "如果...就",
+          "不但...而且"
+        ],
+        "hint": "Expresa concesión: 'Aunque es caro, la calidad es buena.'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Puedes beber té o café.",
+        "answer": "你可以喝茶或者咖啡",
+        "accept": [
+          "你可以喝茶或者咖啡",
+          "你可以喝茶或者喝咖啡"
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la diferencia entre 还是 y 或者?",
+        "correct": "还是 se usa en preguntas, 或者 en afirmaciones",
+        "options": [
+          "还是 es formal, 或者 es informal",
+          "还是 se usa en preguntas, 或者 en afirmaciones",
+          "还是 es para personas, 或者 para cosas",
+          "No hay diferencia"
+        ],
+        "hint": "Uno aparece en preguntas y el otro en oraciones afirmativas."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Adverbios de tiempo y frecuencia",
+    "desc": "Expresar cuándo y con qué frecuencia ocurren las acciones",
+    "grammarIntro": "<h3>Adverbios de tiempo y frecuencia</h3><p>Los adverbios de frecuencia y tiempo en chino se colocan generalmente <strong>antes del verbo</strong> (y después del sujeto), igual que en español en muchos casos.</p><h4>Adverbios de frecuencia (de más a menos)</h4><table><tr><th>Chino</th><th>Pinyin</th><th>Español</th></tr><tr><td>总是</td><td>zǒngshì</td><td>siempre</td></tr><tr><td>经常 / 常常</td><td>jīngcháng / chángcháng</td><td>frecuentemente / a menudo</td></tr><tr><td>有时候</td><td>yǒu shíhou</td><td>a veces</td></tr><tr><td>很少</td><td>hěn shǎo</td><td>raramente, pocas veces</td></tr><tr><td>从不 / 从来不</td><td>cóng bù / cónglái bù</td><td>nunca</td></tr></table><div class=\"example\">我总是八点起床。(Wǒ zǒngshì bā diǎn qǐ chuáng.) — Siempre me levanto a las ocho.<br>她经常看电影。(Tā jīngcháng kàn diànyǐng.) — Ella ve películas frecuentemente.<br>我有时候去公园。(Wǒ yǒu shíhou qù gōngyuán.) — A veces voy al parque.<br>他很少吃肉。(Tā hěn shǎo chī ròu.) — Él raramente come carne.<br>我从不喝酒。(Wǒ cóng bù hē jiǔ.) — Yo nunca bebo alcohol.</div><h4>Adverbios de tiempo puntual</h4><table><tr><th>Chino</th><th>Pinyin</th><th>Español</th></tr><tr><td>已经</td><td>yǐjīng</td><td>ya</td></tr><tr><td>刚才</td><td>gāngcái</td><td>hace un momento</td></tr><tr><td>马上</td><td>mǎshàng</td><td>enseguida, ahora mismo</td></tr></table><div class=\"example\">我已经吃了。(Wǒ yǐjīng chī le.) — Ya he comido.<br>他刚才来了。(Tā gāngcái lái le.) — Él vino hace un momento.<br>我马上来！(Wǒ mǎshàng lái!) — ¡Voy enseguida!</div><div class=\"warning\">¡Cuidado! 已经 suele ir acompañado de 了 al final de la oración: 我已经吃了 (Ya he comido). Sin 了 la oración queda incompleta.</div><div class=\"tip\">Posición del adverbio: Sujeto + adverbio de frecuencia/tiempo + verbo + objeto. El adverbio SIEMPRE va antes del verbo en chino, nunca después: ✗ 我吃经常 → ✓ 我经常吃。</div>",
+    "newVocab": [
+      {
+        "hanzi": "总是",
+        "pinyin": "zǒngshì",
+        "es": "siempre"
+      },
+      {
+        "hanzi": "经常",
+        "pinyin": "jīngcháng",
+        "es": "frecuentemente"
+      },
+      {
+        "hanzi": "常常",
+        "pinyin": "chángcháng",
+        "es": "a menudo"
+      },
+      {
+        "hanzi": "有时候",
+        "pinyin": "yǒu shíhou",
+        "es": "a veces"
+      },
+      {
+        "hanzi": "很少",
+        "pinyin": "hěn shǎo",
+        "es": "raramente, pocas veces"
+      },
+      {
+        "hanzi": "从不",
+        "pinyin": "cóng bù",
+        "es": "nunca"
+      },
+      {
+        "hanzi": "已经",
+        "pinyin": "yǐjīng",
+        "es": "ya"
+      },
+      {
+        "hanzi": "刚才",
+        "pinyin": "gāngcái",
+        "es": "hace un momento"
+      },
+      {
+        "hanzi": "马上",
+        "pinyin": "mǎshàng",
+        "es": "enseguida, ahora mismo"
+      },
+      {
+        "hanzi": "起床",
+        "pinyin": "qǐ chuáng",
+        "es": "levantarse"
+      }
+    ],
+    "grammar": [
+      "adverbio de frecuencia + verbo (posición antes del verbo)",
+      "已经...了 = ya (acción completada)",
+      "刚才 = hace un momento",
+      "马上 = enseguida"
+    ],
+    "vocab": [
+      "总是",
+      "经常",
+      "常常",
+      "有时候",
+      "很少",
+      "从不",
+      "已经",
+      "刚才",
+      "马上",
+      "起床"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el orden correcto de frecuencia de mayor a menor?",
+        "correct": "总是 > 经常 > 有时候 > 很少 > 从不",
+        "options": [
+          "总是 > 经常 > 有时候 > 很少 > 从不",
+          "经常 > 总是 > 很少 > 有时候 > 从不",
+          "从不 > 很少 > 有时候 > 经常 > 总是",
+          "总是 > 有时候 > 经常 > 从不 > 很少"
+        ],
+        "hint": "Piensa: siempre > frecuentemente > a veces > raramente > nunca."
+      },
+      {
+        "type": "fill",
+        "sentence": "我___八点起床。",
+        "blank": "总是",
+        "options": [
+          "总是",
+          "已经",
+          "刚才",
+          "马上"
+        ],
+        "hint": "¿Qué adverbio significa 'siempre'?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Ella ve películas frecuentemente.",
+        "answer": "她经常看电影",
+        "accept": [
+          "她经常看电影",
+          "她常常看电影"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ya he comido.",
+        "words": [
+          "我",
+          "已经",
+          "吃",
+          "了"
+        ],
+        "answer": "我已经吃了"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "总是",
+            "siempre"
+          ],
+          [
+            "有时候",
+            "a veces"
+          ],
+          [
+            "从不",
+            "nunca"
+          ],
+          [
+            "马上",
+            "enseguida"
+          ],
+          [
+            "已经",
+            "ya"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Dónde se coloca el adverbio de frecuencia en la oración china?",
+        "correct": "Antes del verbo",
+        "options": [
+          "Después del verbo",
+          "Al final de la oración",
+          "Antes del verbo",
+          "Al principio de la oración"
+        ],
+        "hint": "En chino: sujeto + adverbio + verbo + objeto."
+      },
+      {
+        "type": "fill",
+        "sentence": "他___来了。",
+        "blank": "刚才",
+        "options": [
+          "总是",
+          "刚才",
+          "从不",
+          "有时候"
+        ],
+        "hint": "¿Qué adverbio significa 'hace un momento'?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Yo nunca bebo alcohol.",
+        "answer": "我从不喝酒",
+        "accept": [
+          "我从不喝酒",
+          "我从来不喝酒"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: ¡Voy enseguida!",
+        "words": [
+          "我",
+          "马上",
+          "来"
+        ],
+        "answer": "我马上来"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "El clima",
+    "desc": "Hablar del tiempo atmosférico en chino",
+    "grammarIntro": "<h3>Hablar del clima (天气 tiānqì)</h3><p>Hablar del clima es una de las conversaciones más comunes en cualquier idioma. En chino, se usa una estructura simple para describir el tiempo.</p><h4>Preguntar por el clima</h4><div class=\"example\">今天天气怎么样？(Jīntiān tiānqì zěnmeyàng?) — ¿Cómo está el clima hoy?<br>明天天气好吗？(Míngtiān tiānqì hǎo ma?) — ¿Hará buen tiempo mañana?</div><h4>Vocabulario del clima</h4><table><tr><th>Chino</th><th>Pinyin</th><th>Español</th></tr><tr><td>天气</td><td>tiānqì</td><td>clima, tiempo atmosférico</td></tr><tr><td>冷</td><td>lěng</td><td>frío</td></tr><tr><td>热</td><td>rè</td><td>caluroso, caliente</td></tr><tr><td>下雨</td><td>xià yǔ</td><td>llover</td></tr><tr><td>下雪</td><td>xià xuě</td><td>nevar</td></tr><tr><td>风</td><td>fēng</td><td>viento</td></tr><tr><td>晴天</td><td>qíngtiān</td><td>día despejado/soleado</td></tr><tr><td>阴天</td><td>yīntiān</td><td>día nublado</td></tr></table><h4>Estructuras comunes</h4><div class=\"example\">今天很冷。(Jīntiān hěn lěng.) — Hoy hace frío.<br>今天很热。(Jīntiān hěn rè.) — Hoy hace calor.<br>外面下雨了。(Wàimiàn xià yǔ le.) — Afuera está lloviendo.<br>今天是晴天。(Jīntiān shì qíngtiān.) — Hoy está despejado.<br>风很大。(Fēng hěn dà.) — Hace mucho viento (el viento es fuerte).</div><h4>Describir el clima con más detalle</h4><div class=\"example\">今天天气很好。(Jīntiān tiānqì hěn hǎo.) — Hoy el clima es muy bueno.<br>今天天气不好。(Jīntiān tiānqì bù hǎo.) — Hoy el clima no es bueno.<br>昨天下了一天的雨。(Zuótiān xià le yī tiān de yǔ.) — Ayer llovió todo el día.</div><div class=\"tip\">En chino, para decir 'hace viento' se dice 刮风 (guā fēng) o 风很大 (fēng hěn dà, literalmente 'el viento es grande'). Para 'hace sol' se dice 出太阳了 (chū tàiyáng le, literalmente 'salió el sol').</div><div class=\"warning\">¡Cuidado! En chino 'llover' es literalmente 'caer lluvia' (下雨) y 'nevar' es 'caer nieve' (下雪). El verbo 下 (xià, caer/bajar) se combina con el tipo de precipitación.</div>",
+    "newVocab": [
+      {
+        "hanzi": "天气",
+        "pinyin": "tiānqì",
+        "es": "clima, tiempo atmosférico"
+      },
+      {
+        "hanzi": "冷",
+        "pinyin": "lěng",
+        "es": "frío"
+      },
+      {
+        "hanzi": "热",
+        "pinyin": "rè",
+        "es": "caluroso, caliente"
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "es": "llover"
+      },
+      {
+        "hanzi": "下雪",
+        "pinyin": "xià xuě",
+        "es": "nevar"
+      },
+      {
+        "hanzi": "风",
+        "pinyin": "fēng",
+        "es": "viento"
+      },
+      {
+        "hanzi": "晴天",
+        "pinyin": "qíngtiān",
+        "es": "día despejado, soleado"
+      },
+      {
+        "hanzi": "阴天",
+        "pinyin": "yīntiān",
+        "es": "día nublado"
+      },
+      {
+        "hanzi": "怎么样",
+        "pinyin": "zěnmeyàng",
+        "es": "cómo, qué tal"
+      },
+      {
+        "hanzi": "外面",
+        "pinyin": "wàimiàn",
+        "es": "afuera"
+      }
+    ],
+    "grammar": [
+      "今天天气怎么样？= ¿Cómo está el clima hoy?",
+      "很冷/很热 = hace frío/calor",
+      "下雨/下雪 = llover/nevar",
+      "是晴天/是阴天 = está despejado/nublado"
+    ],
+    "vocab": [
+      "天气",
+      "冷",
+      "热",
+      "下雨",
+      "下雪",
+      "风",
+      "晴天",
+      "阴天",
+      "怎么样",
+      "外面"
+    ],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se pregunta '¿Cómo está el clima hoy?' en chino?",
+        "correct": "今天天气怎么样？",
+        "options": [
+          "今天天气怎么样？",
+          "今天天气好不好？",
+          "天气今天怎么？",
+          "今天是什么天气？"
+        ],
+        "hint": "Usa 怎么样 para preguntar 'cómo está'."
+      },
+      {
+        "type": "fill",
+        "sentence": "今天很___。",
+        "blank": "冷",
+        "options": [
+          "冷",
+          "下雨",
+          "晴天",
+          "风"
+        ],
+        "hint": "¿Qué adjetivo se usa para decir que hace frío?"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Afuera está lloviendo.",
+        "answer": "外面下雨了",
+        "accept": [
+          "外面下雨了",
+          "外面在下雨"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Hoy el clima es muy bueno.",
+        "words": [
+          "今天",
+          "天气",
+          "很",
+          "好"
+        ],
+        "answer": "今天天气很好"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          [
+            "冷",
+            "frío"
+          ],
+          [
+            "热",
+            "caluroso"
+          ],
+          [
+            "下雨",
+            "llover"
+          ],
+          [
+            "下雪",
+            "nevar"
+          ],
+          [
+            "晴天",
+            "día soleado"
+          ]
+        ]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'Hace mucho viento' en chino?",
+        "correct": "风很大",
+        "options": [
+          "风很大",
+          "很风",
+          "大风了",
+          "有风很"
+        ],
+        "hint": "Literalmente: 'el viento es grande'."
+      },
+      {
+        "type": "fill",
+        "sentence": "今天是___。",
+        "blank": "阴天",
+        "options": [
+          "晴天",
+          "阴天",
+          "下雨",
+          "冷"
+        ],
+        "hint": "Un día nublado se llama..."
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce: Mañana nevará.",
+        "answer": "明天会下雪",
+        "accept": [
+          "明天会下雪",
+          "明天要下雪"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Ayer hizo mucho calor.",
+        "words": [
+          "昨天",
+          "很",
+          "热"
+        ],
+        "answer": "昨天很热"
+      }
+    ]
+  }
+]

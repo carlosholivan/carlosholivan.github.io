@@ -1,0 +1,1382 @@
+[
+  {
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "es": "hola",
+    "unit": 1
+  },
+  {
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "es": "adiós",
+    "unit": 1
+  },
+  {
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "es": "gracias",
+    "unit": 1
+  },
+  {
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "es": "de nada",
+    "unit": 1
+  },
+  {
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "es": "lo siento, perdón",
+    "unit": 1
+  },
+  {
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "es": "no pasa nada",
+    "unit": 1
+  },
+  {
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "es": "buenos días",
+    "unit": 1
+  },
+  {
+    "hanzi": "晚上好",
+    "pinyin": "wǎnshang hǎo",
+    "es": "buenas noches",
+    "unit": 1
+  },
+  {
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "es": "yo",
+    "unit": 2
+  },
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "es": "tú",
+    "unit": 2
+  },
+  {
+    "hanzi": "他",
+    "pinyin": "tā",
+    "es": "él",
+    "unit": 2
+  },
+  {
+    "hanzi": "她",
+    "pinyin": "tā",
+    "es": "ella",
+    "unit": 2
+  },
+  {
+    "hanzi": "它",
+    "pinyin": "tā",
+    "es": "ello (cosas/animales)",
+    "unit": 2
+  },
+  {
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "es": "nosotros/as",
+    "unit": 2
+  },
+  {
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "es": "vosotros/as, ustedes",
+    "unit": 2
+  },
+  {
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "es": "ellos/as",
+    "unit": 2
+  },
+  {
+    "hanzi": "是",
+    "pinyin": "shì",
+    "es": "ser, estar",
+    "unit": 3
+  },
+  {
+    "hanzi": "不",
+    "pinyin": "bù",
+    "es": "no (negación)",
+    "unit": 3
+  },
+  {
+    "hanzi": "学生",
+    "pinyin": "xuéshēng",
+    "es": "estudiante",
+    "unit": 3
+  },
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "es": "profesor/a",
+    "unit": 3
+  },
+  {
+    "hanzi": "中国人",
+    "pinyin": "zhōngguó rén",
+    "es": "persona china",
+    "unit": 3
+  },
+  {
+    "hanzi": "西班牙人",
+    "pinyin": "xībānyá rén",
+    "es": "persona española",
+    "unit": 3
+  },
+  {
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "es": "amigo/a",
+    "unit": 3
+  },
+  {
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "es": "médico/a",
+    "unit": 3
+  },
+  {
+    "hanzi": "妈",
+    "pinyin": "mā",
+    "es": "mamá (1.er tono)",
+    "unit": 4
+  },
+  {
+    "hanzi": "麻",
+    "pinyin": "má",
+    "es": "cáñamo (2.º tono)",
+    "unit": 4
+  },
+  {
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "es": "caballo (3.er tono)",
+    "unit": 4
+  },
+  {
+    "hanzi": "骂",
+    "pinyin": "mà",
+    "es": "insultar (4.º tono)",
+    "unit": 4
+  },
+  {
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "es": "partícula de pregunta (tono neutro)",
+    "unit": 4
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "es": "comprar",
+    "unit": 4
+  },
+  {
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "es": "vender",
+    "unit": 4
+  },
+  {
+    "hanzi": "四",
+    "pinyin": "sì",
+    "es": "cuatro",
+    "unit": 4
+  },
+  {
+    "hanzi": "一",
+    "pinyin": "yī",
+    "es": "uno (1)",
+    "unit": 5
+  },
+  {
+    "hanzi": "二",
+    "pinyin": "èr",
+    "es": "dos (2)",
+    "unit": 5
+  },
+  {
+    "hanzi": "三",
+    "pinyin": "sān",
+    "es": "tres (3)",
+    "unit": 5
+  },
+  {
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "es": "cinco (5)",
+    "unit": 5
+  },
+  {
+    "hanzi": "六",
+    "pinyin": "liù",
+    "es": "seis (6)",
+    "unit": 5
+  },
+  {
+    "hanzi": "七",
+    "pinyin": "qī",
+    "es": "siete (7)",
+    "unit": 5
+  },
+  {
+    "hanzi": "八",
+    "pinyin": "bā",
+    "es": "ocho (8)",
+    "unit": 5
+  },
+  {
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "es": "nueve (9)",
+    "unit": 5
+  },
+  {
+    "hanzi": "十",
+    "pinyin": "shí",
+    "es": "diez (10)",
+    "unit": 5
+  },
+  {
+    "hanzi": "十一",
+    "pinyin": "shíyī",
+    "es": "once (11)",
+    "unit": 6
+  },
+  {
+    "hanzi": "二十",
+    "pinyin": "èrshí",
+    "es": "veinte (20)",
+    "unit": 6
+  },
+  {
+    "hanzi": "三十",
+    "pinyin": "sānshí",
+    "es": "treinta (30)",
+    "unit": 6
+  },
+  {
+    "hanzi": "五十",
+    "pinyin": "wǔshí",
+    "es": "cincuenta (50)",
+    "unit": 6
+  },
+  {
+    "hanzi": "九十九",
+    "pinyin": "jiǔshíjiǔ",
+    "es": "noventa y nueve (99)",
+    "unit": 6
+  },
+  {
+    "hanzi": "一百",
+    "pinyin": "yì bǎi",
+    "es": "cien (100)",
+    "unit": 6
+  },
+  {
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "es": "cien, centena",
+    "unit": 6
+  },
+  {
+    "hanzi": "零",
+    "pinyin": "líng",
+    "es": "cero (0)",
+    "unit": 6
+  },
+  {
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "es": "semana",
+    "unit": 7
+  },
+  {
+    "hanzi": "星期一",
+    "pinyin": "xīngqīyī",
+    "es": "lunes",
+    "unit": 7
+  },
+  {
+    "hanzi": "星期二",
+    "pinyin": "xīngqī'èr",
+    "es": "martes",
+    "unit": 7
+  },
+  {
+    "hanzi": "星期三",
+    "pinyin": "xīngqīsān",
+    "es": "miércoles",
+    "unit": 7
+  },
+  {
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "es": "domingo",
+    "unit": 7
+  },
+  {
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "es": "mes, luna",
+    "unit": 7
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "es": "hoy",
+    "unit": 7
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "es": "mañana",
+    "unit": 7
+  },
+  {
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "es": "ayer",
+    "unit": 7
+  },
+  {
+    "hanzi": "几点",
+    "pinyin": "jǐ diǎn",
+    "es": "¿qué hora?",
+    "unit": 8
+  },
+  {
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "es": "ahora",
+    "unit": 8
+  },
+  {
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "es": "hora, en punto",
+    "unit": 8
+  },
+  {
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "es": "media, y media",
+    "unit": 8
+  },
+  {
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "es": "minuto",
+    "unit": 8
+  },
+  {
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "es": "mañana (AM)",
+    "unit": 8
+  },
+  {
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "es": "tarde (PM)",
+    "unit": 8
+  },
+  {
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "es": "¿cuántos? (número pequeño)",
+    "unit": 8
+  },
+  {
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "es": "papá",
+    "unit": 9
+  },
+  {
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "es": "mamá",
+    "unit": 9
+  },
+  {
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "es": "hermano mayor",
+    "unit": 9
+  },
+  {
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "es": "hermana mayor",
+    "unit": 9
+  },
+  {
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "es": "hermano menor",
+    "unit": 9
+  },
+  {
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "es": "hermana menor",
+    "unit": 9
+  },
+  {
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "es": "hijo",
+    "unit": 9
+  },
+  {
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "es": "hija",
+    "unit": 9
+  },
+  {
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "es": "casa / familia",
+    "unit": 9
+  },
+  {
+    "hanzi": "的",
+    "pinyin": "de",
+    "es": "partícula posesiva (de)",
+    "unit": 10
+  },
+  {
+    "hanzi": "我的",
+    "pinyin": "wǒ de",
+    "es": "mi / mío",
+    "unit": 10
+  },
+  {
+    "hanzi": "你的",
+    "pinyin": "nǐ de",
+    "es": "tu / tuyo",
+    "unit": 10
+  },
+  {
+    "hanzi": "他的",
+    "pinyin": "tā de",
+    "es": "su / suyo (de él)",
+    "unit": 10
+  },
+  {
+    "hanzi": "她的",
+    "pinyin": "tā de",
+    "es": "su / suyo (de ella)",
+    "unit": 10
+  },
+  {
+    "hanzi": "书",
+    "pinyin": "shū",
+    "es": "libro",
+    "unit": 10
+  },
+  {
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "es": "nombre",
+    "unit": 10
+  },
+  {
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "es": "esto / este",
+    "unit": 11
+  },
+  {
+    "hanzi": "那",
+    "pinyin": "nà",
+    "es": "eso / ese / aquel",
+    "unit": 11
+  },
+  {
+    "hanzi": "这个",
+    "pinyin": "zhège",
+    "es": "este / esta",
+    "unit": 11
+  },
+  {
+    "hanzi": "那个",
+    "pinyin": "nàge",
+    "es": "ese / esa",
+    "unit": 11
+  },
+  {
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "es": "estos / estas",
+    "unit": 11
+  },
+  {
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "es": "esos / esas / aquellos",
+    "unit": 11
+  },
+  {
+    "hanzi": "个",
+    "pinyin": "gè",
+    "es": "clasificador general",
+    "unit": 11
+  },
+  {
+    "hanzi": "人",
+    "pinyin": "rén",
+    "es": "persona",
+    "unit": 11
+  },
+  {
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "es": "tener / haber",
+    "unit": 12
+  },
+  {
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "es": "no tener / no haber",
+    "unit": 12
+  },
+  {
+    "hanzi": "没",
+    "pinyin": "méi",
+    "es": "no (para 有 y pasado)",
+    "unit": 12
+  },
+  {
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "es": "gato",
+    "unit": 12
+  },
+  {
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "es": "perro",
+    "unit": 12
+  },
+  {
+    "hanzi": "很多",
+    "pinyin": "hěn duō",
+    "es": "mucho/muchos",
+    "unit": 12
+  },
+  {
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "es": "aquí",
+    "unit": 12
+  },
+  {
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "es": "China",
+    "unit": 13
+  },
+  {
+    "hanzi": "对",
+    "pinyin": "duì",
+    "es": "correcto / sí",
+    "unit": 13
+  },
+  {
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "es": "qué",
+    "unit": 14
+  },
+  {
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "es": "quién",
+    "unit": 14
+  },
+  {
+    "hanzi": "哪里",
+    "pinyin": "nǎlǐ",
+    "es": "dónde",
+    "unit": 14
+  },
+  {
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "es": "dónde (coloquial)",
+    "unit": 14
+  },
+  {
+    "hanzi": "多少",
+    "pinyin": "duōshǎo",
+    "es": "cuánto / cuántos",
+    "unit": 14
+  },
+  {
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "es": "cómo",
+    "unit": 14
+  },
+  {
+    "hanzi": "为什么",
+    "pinyin": "wèishénme",
+    "es": "por qué",
+    "unit": 14
+  },
+  {
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "es": "años (edad)",
+    "unit": 14
+  },
+  {
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "es": "dinero",
+    "unit": 14
+  },
+  {
+    "hanzi": "不是",
+    "pinyin": "bú shì",
+    "es": "no es / no ser",
+    "unit": 15
+  },
+  {
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "es": "querer / pensar",
+    "unit": 15
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "es": "ir",
+    "unit": 15
+  },
+  {
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "es": "comer",
+    "unit": 15
+  },
+  {
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "es": "beber",
+    "unit": 15
+  },
+  {
+    "hanzi": "大",
+    "pinyin": "dà",
+    "es": "grande",
+    "unit": 16
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "es": "pequeño",
+    "unit": 16
+  },
+  {
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "es": "bueno / bien",
+    "unit": 16
+  },
+  {
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "es": "malo",
+    "unit": 16
+  },
+  {
+    "hanzi": "红",
+    "pinyin": "hóng",
+    "es": "rojo",
+    "unit": 16
+  },
+  {
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "es": "azul",
+    "unit": 16
+  },
+  {
+    "hanzi": "绿",
+    "pinyin": "lǜ",
+    "es": "verde",
+    "unit": 16
+  },
+  {
+    "hanzi": "黄",
+    "pinyin": "huáng",
+    "es": "amarillo",
+    "unit": 16
+  },
+  {
+    "hanzi": "白",
+    "pinyin": "bái",
+    "es": "blanco",
+    "unit": 16
+  },
+  {
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "es": "negro",
+    "unit": 16
+  },
+  {
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "es": "muy",
+    "unit": 16
+  },
+  {
+    "hanzi": "花",
+    "pinyin": "huā",
+    "es": "flor",
+    "unit": 16
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "es": "agua",
+    "unit": 17
+  },
+  {
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "es": "té",
+    "unit": 17
+  },
+  {
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "es": "café",
+    "unit": 17
+  },
+  {
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "es": "arroz cocido",
+    "unit": 17
+  },
+  {
+    "hanzi": "面条",
+    "pinyin": "miàntiáo",
+    "es": "fideos",
+    "unit": 17
+  },
+  {
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "es": "huevo",
+    "unit": 17
+  },
+  {
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "es": "leche",
+    "unit": 17
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "es": "fruta",
+    "unit": 17
+  },
+  {
+    "hanzi": "本",
+    "pinyin": "běn",
+    "es": "clasificador para libros",
+    "unit": 18
+  },
+  {
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "es": "clasificador para animales",
+    "unit": 18
+  },
+  {
+    "hanzi": "杯",
+    "pinyin": "bēi",
+    "es": "clasificador para vasos/tazas",
+    "unit": 18
+  },
+  {
+    "hanzi": "瓶",
+    "pinyin": "píng",
+    "es": "clasificador para botellas",
+    "unit": 18
+  },
+  {
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "es": "clasificador para trozos/yuanes",
+    "unit": 18
+  },
+  {
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "es": "clasificador para objetos planos",
+    "unit": 18
+  },
+  {
+    "hanzi": "条",
+    "pinyin": "tiáo",
+    "es": "clasificador para objetos largos",
+    "unit": 18
+  },
+  {
+    "hanzi": "来",
+    "pinyin": "lái",
+    "es": "venir",
+    "unit": 19
+  },
+  {
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "es": "escuela",
+    "unit": 19
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "es": "hospital",
+    "unit": 19
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "es": "tienda",
+    "unit": 19
+  },
+  {
+    "hanzi": "餐厅",
+    "pinyin": "cāntīng",
+    "es": "restaurante",
+    "unit": 19
+  },
+  {
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "es": "banco",
+    "unit": 19
+  },
+  {
+    "hanzi": "机场",
+    "pinyin": "jīchǎng",
+    "es": "aeropuerto",
+    "unit": 19
+  },
+  {
+    "hanzi": "要",
+    "pinyin": "yào",
+    "es": "querer, ir a",
+    "unit": 20
+  },
+  {
+    "hanzi": "能",
+    "pinyin": "néng",
+    "es": "poder (capacidad)",
+    "unit": 20
+  },
+  {
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "es": "poder (permiso)",
+    "unit": 20
+  },
+  {
+    "hanzi": "会",
+    "pinyin": "huì",
+    "es": "saber hacer, poder (habilidad)",
+    "unit": 20
+  },
+  {
+    "hanzi": "在",
+    "pinyin": "zài",
+    "es": "estar en, en",
+    "unit": 21
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "es": "encima, arriba",
+    "unit": 21
+  },
+  {
+    "hanzi": "下",
+    "pinyin": "xià",
+    "es": "debajo, abajo",
+    "unit": 21
+  },
+  {
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "es": "dentro",
+    "unit": 21
+  },
+  {
+    "hanzi": "前",
+    "pinyin": "qián",
+    "es": "delante",
+    "unit": 21
+  },
+  {
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "es": "detrás",
+    "unit": 21
+  },
+  {
+    "hanzi": "左",
+    "pinyin": "zuǒ",
+    "es": "izquierda",
+    "unit": 21
+  },
+  {
+    "hanzi": "右",
+    "pinyin": "yòu",
+    "es": "derecha",
+    "unit": 21
+  },
+  {
+    "hanzi": "旁边",
+    "pinyin": "pángbiān",
+    "es": "al lado",
+    "unit": 21
+  },
+  {
+    "hanzi": "工人",
+    "pinyin": "gōngrén",
+    "es": "obrero/a, trabajador/a",
+    "unit": 22
+  },
+  {
+    "hanzi": "经理",
+    "pinyin": "jīnglǐ",
+    "es": "gerente",
+    "unit": 22
+  },
+  {
+    "hanzi": "司机",
+    "pinyin": "sījī",
+    "es": "conductor/a",
+    "unit": 22
+  },
+  {
+    "hanzi": "服务员",
+    "pinyin": "fúwùyuán",
+    "es": "camarero/a",
+    "unit": 22
+  },
+  {
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "es": "ver, mirar, leer",
+    "unit": 23
+  },
+  {
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "es": "escuchar, oír",
+    "unit": 23
+  },
+  {
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "es": "hablar, decir",
+    "unit": 23
+  },
+  {
+    "hanzi": "读",
+    "pinyin": "dú",
+    "es": "leer (en voz alta)",
+    "unit": 23
+  },
+  {
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "es": "escribir",
+    "unit": 23
+  },
+  {
+    "hanzi": "学",
+    "pinyin": "xué",
+    "es": "estudiar, aprender",
+    "unit": 23
+  },
+  {
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "es": "hacer",
+    "unit": 23
+  },
+  {
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "es": "dar",
+    "unit": 23
+  },
+  {
+    "hanzi": "了",
+    "pinyin": "le",
+    "es": "partícula de acción completada / cambio de estado",
+    "unit": 24
+  },
+  {
+    "hanzi": "过",
+    "pinyin": "guò",
+    "es": "partícula de experiencia",
+    "unit": 25
+  },
+  {
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "es": "película",
+    "unit": 25
+  },
+  {
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "es": "Pekín",
+    "unit": 25
+  },
+  {
+    "hanzi": "日本",
+    "pinyin": "Rìběn",
+    "es": "Japón",
+    "unit": 25
+  },
+  {
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "es": "partícula de acción en progreso",
+    "unit": 26
+  },
+  {
+    "hanzi": "吃饭",
+    "pinyin": "chī fàn",
+    "es": "comer (una comida)",
+    "unit": 26
+  },
+  {
+    "hanzi": "看书",
+    "pinyin": "kàn shū",
+    "es": "leer (un libro)",
+    "unit": 26
+  },
+  {
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "es": "dormir",
+    "unit": 26
+  },
+  {
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "es": "hablar por teléfono",
+    "unit": 26
+  },
+  {
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "es": "televisión",
+    "unit": 26
+  },
+  {
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "es": "llover",
+    "unit": 27
+  },
+  {
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "es": "chino (idioma)",
+    "unit": 27
+  },
+  {
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "es": "cosas",
+    "unit": 27
+  },
+  {
+    "hanzi": "不想",
+    "pinyin": "bù xiǎng",
+    "es": "no querer",
+    "unit": 27
+  },
+  {
+    "hanzi": "比",
+    "pinyin": "bǐ",
+    "es": "comparar, más que",
+    "unit": 28
+  },
+  {
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "es": "alto",
+    "unit": 28
+  },
+  {
+    "hanzi": "一样",
+    "pinyin": "yīyàng",
+    "es": "igual, lo mismo",
+    "unit": 28
+  },
+  {
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "es": "caro",
+    "unit": 28
+  },
+  {
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "es": "barato",
+    "unit": 28
+  },
+  {
+    "hanzi": "难",
+    "pinyin": "nán",
+    "es": "difícil",
+    "unit": 28
+  },
+  {
+    "hanzi": "得",
+    "pinyin": "de",
+    "es": "partícula de complemento de grado",
+    "unit": 29
+  },
+  {
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "es": "rápido",
+    "unit": 29
+  },
+  {
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "es": "lento",
+    "unit": 29
+  },
+  {
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "es": "cantar",
+    "unit": 29
+  },
+  {
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "es": "correr",
+    "unit": 29
+  },
+  {
+    "hanzi": "好听",
+    "pinyin": "hǎotīng",
+    "es": "agradable al oído, bonito (sonido)",
+    "unit": 29
+  },
+  {
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "es": "bonito, hermoso",
+    "unit": 29
+  },
+  {
+    "hanzi": "清楚",
+    "pinyin": "qīngchu",
+    "es": "claro",
+    "unit": 29
+  },
+  {
+    "hanzi": "和",
+    "pinyin": "hé",
+    "es": "y (une sustantivos)",
+    "unit": 30
+  },
+  {
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "es": "pero",
+    "unit": 30
+  },
+  {
+    "hanzi": "可是",
+    "pinyin": "kěshì",
+    "es": "pero (coloquial)",
+    "unit": 30
+  },
+  {
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "es": "porque",
+    "unit": 30
+  },
+  {
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "es": "por eso, así que",
+    "unit": 30
+  },
+  {
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "es": "aunque",
+    "unit": 30
+  },
+  {
+    "hanzi": "如果",
+    "pinyin": "rúguǒ",
+    "es": "si (condicional)",
+    "unit": 30
+  },
+  {
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "es": "entonces, en ese caso",
+    "unit": 30
+  },
+  {
+    "hanzi": "还是",
+    "pinyin": "háishi",
+    "es": "o (en preguntas)",
+    "unit": 30
+  },
+  {
+    "hanzi": "或者",
+    "pinyin": "huòzhě",
+    "es": "o (en afirmaciones)",
+    "unit": 30
+  },
+  {
+    "hanzi": "总是",
+    "pinyin": "zǒngshì",
+    "es": "siempre",
+    "unit": 31
+  },
+  {
+    "hanzi": "经常",
+    "pinyin": "jīngcháng",
+    "es": "frecuentemente",
+    "unit": 31
+  },
+  {
+    "hanzi": "常常",
+    "pinyin": "chángcháng",
+    "es": "a menudo",
+    "unit": 31
+  },
+  {
+    "hanzi": "有时候",
+    "pinyin": "yǒu shíhou",
+    "es": "a veces",
+    "unit": 31
+  },
+  {
+    "hanzi": "很少",
+    "pinyin": "hěn shǎo",
+    "es": "raramente, pocas veces",
+    "unit": 31
+  },
+  {
+    "hanzi": "从不",
+    "pinyin": "cóng bù",
+    "es": "nunca",
+    "unit": 31
+  },
+  {
+    "hanzi": "已经",
+    "pinyin": "yǐjīng",
+    "es": "ya",
+    "unit": 31
+  },
+  {
+    "hanzi": "刚才",
+    "pinyin": "gāngcái",
+    "es": "hace un momento",
+    "unit": 31
+  },
+  {
+    "hanzi": "马上",
+    "pinyin": "mǎshàng",
+    "es": "enseguida, ahora mismo",
+    "unit": 31
+  },
+  {
+    "hanzi": "起床",
+    "pinyin": "qǐ chuáng",
+    "es": "levantarse",
+    "unit": 31
+  },
+  {
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "es": "clima, tiempo atmosférico",
+    "unit": 32
+  },
+  {
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "es": "frío",
+    "unit": 32
+  },
+  {
+    "hanzi": "热",
+    "pinyin": "rè",
+    "es": "caluroso, caliente",
+    "unit": 32
+  },
+  {
+    "hanzi": "下雪",
+    "pinyin": "xià xuě",
+    "es": "nevar",
+    "unit": 32
+  },
+  {
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "es": "viento",
+    "unit": 32
+  },
+  {
+    "hanzi": "晴天",
+    "pinyin": "qíngtiān",
+    "es": "día despejado, soleado",
+    "unit": 32
+  },
+  {
+    "hanzi": "阴天",
+    "pinyin": "yīntiān",
+    "es": "día nublado",
+    "unit": 32
+  },
+  {
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "es": "cómo, qué tal",
+    "unit": 32
+  },
+  {
+    "hanzi": "外面",
+    "pinyin": "wàimiàn",
+    "es": "afuera",
+    "unit": 32
+  }
+]
