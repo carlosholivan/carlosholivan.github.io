@@ -2,6 +2,8 @@ import { register as registerView, go } from '../router.js';
 import { header } from '../ui/components.js';
 import { t } from '../i18n.js';
 import { registerUser, loginUser, resetPassword } from '../firebase-auth.js';
+import { update } from '../state.js';
+import { enterApp } from './welcome.js';
 
 let authMode = 'login';
 
@@ -20,6 +22,10 @@ registerView('auth', (el, params = {}) => {
       </div>
 
       <div id="auth-error" style="display:none;color:var(--no);background:var(--no-bg);padding:10px;border-radius:8px;margin-bottom:12px;font-size:14px"></div>
+
+      ${isLogin ? '' : `<label class="muted small" style="display:block;margin-bottom:4px">${t('yourName')}</label>
+      <input id="auth-name" type="text" maxlength="30" autocomplete="given-name" placeholder="${t('namePlaceholder')}"
+        style="width:100%;padding:12px;border:2px solid var(--border);border-radius:10px;font-size:16px;margin-bottom:12px;box-sizing:border-box;background:var(--bg);color:var(--text)">`}
 
       <label class="muted small" style="display:block;margin-bottom:4px">${t('email')}</label>
       <input id="auth-email" type="email" placeholder="email@example.com"
@@ -54,10 +60,12 @@ registerView('auth', (el, params = {}) => {
 window.__authSubmit = async () => {
   const email = document.getElementById('auth-email').value.trim();
   const pass = document.getElementById('auth-pass').value;
+  const nameEl = document.getElementById('auth-name');
+  const name = nameEl ? nameEl.value.trim() : null;
   const errEl = document.getElementById('auth-error');
   const btn = document.getElementById('auth-submit');
 
-  if (!email || !pass) {
+  if (!email || !pass || name === '') {
     errEl.textContent = t('fillFields');
     errEl.style.display = 'block';
     return;
@@ -76,6 +84,7 @@ window.__authSubmit = async () => {
     if (authMode === 'login') {
       await loginUser(email, pass);
     } else {
+      update({ name, welcomed: false });
       await registerUser(email, pass);
     }
   } catch (e) {
@@ -119,5 +128,5 @@ window.__forgotPass = async () => {
 };
 
 window.__skipAuth = () => {
-  go('home');
+  enterApp();
 };

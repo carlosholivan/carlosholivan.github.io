@@ -1,0 +1,646 @@
+[
+  {
+    "id": 1,
+    "title": "Saludos",
+    "desc": "Aprende a saludar y despedirte en chino mandarín",
+    "grammarIntro": "<h3>Los saludos en chino mandarín</h3><p>En chino, los saludos son bastante sencillos y directos. A diferencia del español, donde cambiamos el saludo según la hora del día (buenos días, buenas tardes, buenas noches), en chino el saludo universal <strong>你好 (nǐ hǎo)</strong> se puede usar en cualquier momento.</p><h4>Saludos básicos</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>你好</td><td>nǐ hǎo</td><td>Hola</td></tr><tr><td>早上好</td><td>zǎoshang hǎo</td><td>Buenos días</td></tr><tr><td>晚上好</td><td>wǎnshang hǎo</td><td>Buenas noches</td></tr><tr><td>再见</td><td>zàijiàn</td><td>Adiós</td></tr></table><div class=\"example\"><p><strong>你好！</strong> (nǐ hǎo!) — ¡Hola!</p><p><strong>再见！</strong> (zàijiàn!) — ¡Adiós!</p></div><h4>Expresiones de cortesía</h4><p>La cortesía es fundamental en la cultura china. Estas expresiones te ayudarán en cualquier situación:</p><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>谢谢</td><td>xièxie</td><td>Gracias</td></tr><tr><td>不客气</td><td>bú kèqi</td><td>De nada</td></tr><tr><td>对不起</td><td>duìbuqǐ</td><td>Lo siento / Perdón</td></tr><tr><td>没关系</td><td>méi guānxi</td><td>No pasa nada</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> 你好 (nǐ hǎo) literalmente significa \"tú bien\". Es una forma abreviada de preguntar \"¿estás bien?\". En chino, muchos saludos se construyen con 好 (hǎo, bien).</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> No confundas 不客气 (bú kèqi, de nada) con 对不起 (duìbuqǐ, lo siento). Son expresiones muy diferentes aunque ambas sean de cortesía.</p></div>",
+    "newVocab": [
+      {"hanzi": "你好", "pinyin": "nǐ hǎo", "es": "hola"},
+      {"hanzi": "再见", "pinyin": "zàijiàn", "es": "adiós"},
+      {"hanzi": "谢谢", "pinyin": "xièxie", "es": "gracias"},
+      {"hanzi": "不客气", "pinyin": "bú kèqi", "es": "de nada"},
+      {"hanzi": "对不起", "pinyin": "duìbuqǐ", "es": "lo siento, perdón"},
+      {"hanzi": "没关系", "pinyin": "méi guānxi", "es": "no pasa nada"},
+      {"hanzi": "早上好", "pinyin": "zǎoshang hǎo", "es": "buenos días"},
+      {"hanzi": "晚上好", "pinyin": "wǎnshang hǎo", "es": "buenas noches"}
+    ],
+    "grammar": [
+      "你好 = hola (literalmente: tú bien)",
+      "再见 = adiós (literalmente: de nuevo ver)",
+      "谢谢 = gracias (se repite el carácter 谢)",
+      "不客气 = de nada (literalmente: no seas cortés)",
+      "对不起 = lo siento (literalmente: no puedo enfrentar)",
+      "没关系 = no pasa nada (literalmente: no tiene relación)"
+    ],
+    "vocab": ["你好", "再见", "谢谢", "不客气", "对不起", "没关系", "早上好", "晚上好"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'hola' en chino?",
+        "correct": "你好",
+        "options": ["你好", "再见", "谢谢", "对不起"],
+        "hint": "Saludo básico y universal en chino"
+      },
+      {
+        "type": "match",
+        "pairs": [["你好", "hola"], ["再见", "adiós"], ["谢谢", "gracias"], ["对不起", "lo siento"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 不客气?",
+        "correct": "de nada",
+        "options": ["de nada", "lo siento", "hola", "adiós"],
+        "hint": "Se dice después de que alguien te da las gracias"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Gracias",
+        "answer": "谢谢",
+        "accept": ["谢谢", "xiexie", "xièxie"]
+      },
+      {
+        "type": "fill",
+        "sentence": "___上好",
+        "blank": "早",
+        "options": ["早", "晚", "你", "再"],
+        "hint": "Saludo de la mañana"
+      },
+      {
+        "type": "choose",
+        "prompt": "Alguien te dice 对不起. ¿Qué respondes?",
+        "correct": "没关系",
+        "options": ["没关系", "谢谢", "再见", "你好"],
+        "hint": "Significa 'no pasa nada'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Adiós",
+        "answer": "再见",
+        "accept": ["再见", "zaijian", "zàijiàn"]
+      },
+      {
+        "type": "match",
+        "pairs": [["早上好", "buenos días"], ["晚上好", "buenas noches"], ["不客气", "de nada"], ["没关系", "no pasa nada"]]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pronombres personales",
+    "desc": "Aprende los pronombres personales en chino mandarín",
+    "grammarIntro": "<h3>Los pronombres personales en chino</h3><p>Los pronombres personales en chino son mucho más simples que en español. No hay conjugaciones verbales, así que el pronombre es la única forma de indicar quién realiza la acción.</p><h4>Pronombres singulares</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>我</td><td>wǒ</td><td>Yo</td></tr><tr><td>你</td><td>nǐ</td><td>Tú</td></tr><tr><td>他</td><td>tā</td><td>Él</td></tr><tr><td>她</td><td>tā</td><td>Ella</td></tr><tr><td>它</td><td>tā</td><td>Ello (animales/cosas)</td></tr></table><h4>Pronombres plurales</h4><p>Para formar el plural, simplemente se añade <strong>们 (men)</strong> al pronombre singular:</p><table><tr><th>Singular</th><th>Plural</th><th>Significado</th></tr><tr><td>我 (wǒ)</td><td>我们 (wǒmen)</td><td>Nosotros/as</td></tr><tr><td>你 (nǐ)</td><td>你们 (nǐmen)</td><td>Vosotros/as, ustedes</td></tr><tr><td>他 (tā)</td><td>他们 (tāmen)</td><td>Ellos/as</td></tr></table><div class=\"example\"><p><strong>我</strong> → <strong>我们</strong> (yo → nosotros)</p><p><strong>你</strong> → <strong>你们</strong> (tú → vosotros)</p><p><strong>他</strong> → <strong>他们</strong> (él → ellos)</p></div><div class=\"tip\"><p><strong>Consejo:</strong> Observa que 他 (él), 她 (ella) y 它 (ello) se pronuncian exactamente igual: <em>tā</em>. La diferencia solo existe en la escritura. En la conversación oral, el contexto te dirá a quién se refiere.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> A diferencia del español, en chino no puedes omitir el pronombre. En español decimos \"soy estudiante\", pero en chino siempre debes decir <strong>我是学生</strong> (wǒ shì xuéshēng, yo soy estudiante).</p></div><h4>Comparación con el español</h4><p>En español tenemos muchas formas pronominales (yo, me, mí, conmigo...). En chino, <strong>我</strong> sirve para todas esas funciones. El contexto y la posición en la frase determinan su papel gramatical.</p>",
+    "newVocab": [
+      {"hanzi": "我", "pinyin": "wǒ", "es": "yo"},
+      {"hanzi": "你", "pinyin": "nǐ", "es": "tú"},
+      {"hanzi": "他", "pinyin": "tā", "es": "él"},
+      {"hanzi": "她", "pinyin": "tā", "es": "ella"},
+      {"hanzi": "它", "pinyin": "tā", "es": "ello (cosas/animales)"},
+      {"hanzi": "我们", "pinyin": "wǒmen", "es": "nosotros/as"},
+      {"hanzi": "你们", "pinyin": "nǐmen", "es": "vosotros/as, ustedes"},
+      {"hanzi": "他们", "pinyin": "tāmen", "es": "ellos/as"}
+    ],
+    "grammar": [
+      "我 (wǒ) = yo — pronombre de primera persona singular",
+      "你 (nǐ) = tú — pronombre de segunda persona singular",
+      "他/她/它 (tā) = él/ella/ello — se pronuncian igual",
+      "们 (men) = sufijo que convierte el pronombre en plural",
+      "我们 = 我 + 们 = nosotros",
+      "你们 = 你 + 们 = vosotros/ustedes",
+      "他们 = 他 + 们 = ellos"
+    ],
+    "vocab": ["我", "你", "他", "她", "它", "我们", "你们", "他们"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el pronombre para 'yo' en chino?",
+        "correct": "我",
+        "options": ["我", "你", "他", "她"],
+        "hint": "Primera persona singular"
+      },
+      {
+        "type": "match",
+        "pairs": [["我", "yo"], ["你", "tú"], ["他", "él"], ["她", "ella"]]
+      },
+      {
+        "type": "fill",
+        "sentence": "___们",
+        "blank": "我",
+        "options": ["我", "好", "见", "谢"],
+        "hint": "Pronombre singular + 们 = nosotros"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'vosotros' o 'ustedes' en chino?",
+        "correct": "你们",
+        "options": ["你们", "我们", "他们", "她们"],
+        "hint": "Tú (你) + sufijo de plural (们)"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: nosotros",
+        "answer": "我们",
+        "accept": ["我们", "women", "wǒmen"]
+      },
+      {
+        "type": "choose",
+        "prompt": "他, 她 y 它 se pronuncian...",
+        "correct": "exactamente igual: tā",
+        "options": ["exactamente igual: tā", "de forma diferente", "solo 他 y 她 igual", "ninguno igual"],
+        "hint": "Los tres tienen el mismo sonido"
+      },
+      {
+        "type": "fill",
+        "sentence": "他___",
+        "blank": "们",
+        "options": ["们", "好", "见", "谢"],
+        "hint": "Sufijo que indica plural"
+      },
+      {
+        "type": "match",
+        "pairs": [["我们", "nosotros"], ["你们", "vosotros"], ["他们", "ellos"], ["它", "ello"]]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ellos",
+        "answer": "他们",
+        "accept": ["他们", "tamen", "tāmen"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Estructura SVO y 是",
+    "desc": "Aprende la estructura básica de las frases chinas y el verbo ser/estar",
+    "grammarIntro": "<h3>La estructura SVO en chino</h3><p>El chino utiliza el orden <strong>Sujeto + Verbo + Objeto (SVO)</strong>, igual que el español. Esta es una buena noticia para los hispanohablantes, ya que el orden básico de las frases es el mismo.</p><div class=\"example\"><p>Español: <strong>Yo</strong> (S) <strong>como</strong> (V) <strong>arroz</strong> (O)</p><p>Chino: <strong>我</strong> (S) <strong>吃</strong> (V) <strong>米饭</strong> (O)</p></div><h4>El verbo 是 (shì) — Ser / Estar</h4><p>El verbo <strong>是 (shì)</strong> es uno de los más importantes del chino. Equivale a \"ser\" o \"estar\" en español, pero se usa principalmente para <strong>identificar</strong> o <strong>clasificar</strong>.</p><table><tr><th>Chino</th><th>Pinyin</th><th>Español</th></tr><tr><td>我是学生</td><td>wǒ shì xuéshēng</td><td>Yo soy estudiante</td></tr><tr><td>你是老师</td><td>nǐ shì lǎoshī</td><td>Tú eres profesor/a</td></tr><tr><td>他是中国人</td><td>tā shì zhōngguó rén</td><td>Él es chino</td></tr><tr><td>她是西班牙人</td><td>tā shì xībānyá rén</td><td>Ella es española</td></tr></table><h4>Vocabulario clave</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>是</td><td>shì</td><td>ser, estar</td></tr><tr><td>学生</td><td>xuéshēng</td><td>estudiante</td></tr><tr><td>老师</td><td>lǎoshī</td><td>profesor/a</td></tr><tr><td>中国人</td><td>zhōngguó rén</td><td>persona china</td></tr><tr><td>西班牙人</td><td>xībānyá rén</td><td>persona española</td></tr></table><h4>La negación con 不 (bù)</h4><p>Para negar con 是, se coloca <strong>不 (bù)</strong> delante:</p><div class=\"example\"><p><strong>我不是老师。</strong> (wǒ bú shì lǎoshī) — Yo no soy profesor.</p><p><strong>他不是学生。</strong> (tā bú shì xuéshēng) — Él no es estudiante.</p></div><div class=\"tip\"><p><strong>Consejo:</strong> Observa que 不 cambia de tono antes de un cuarto tono: 不是 se pronuncia <em>bú shì</em> (segundo tono + cuarto tono), aunque 不 normalmente es cuarto tono (bù).</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> En chino NO se usa 是 para describir adjetivos. No se dice *我是高 (yo soy alto). Se dice 我很高 (wǒ hěn gāo). 是 solo se usa para identificar: yo soy [sustantivo].</p></div>",
+    "newVocab": [
+      {"hanzi": "是", "pinyin": "shì", "es": "ser, estar"},
+      {"hanzi": "不", "pinyin": "bù", "es": "no (negación)"},
+      {"hanzi": "学生", "pinyin": "xuéshēng", "es": "estudiante"},
+      {"hanzi": "老师", "pinyin": "lǎoshī", "es": "profesor/a"},
+      {"hanzi": "中国人", "pinyin": "zhōngguó rén", "es": "persona china"},
+      {"hanzi": "西班牙人", "pinyin": "xībānyá rén", "es": "persona española"},
+      {"hanzi": "朋友", "pinyin": "péngyou", "es": "amigo/a"},
+      {"hanzi": "医生", "pinyin": "yīshēng", "es": "médico/a"}
+    ],
+    "grammar": [
+      "Estructura SVO: Sujeto + Verbo + Objeto (igual que en español)",
+      "我是学生 = Yo soy estudiante (我 + 是 + 学生)",
+      "不 + 是 = no ser → 我不是老师 (yo no soy profesor)",
+      "是 solo se usa con sustantivos, NO con adjetivos",
+      "不 cambia a segundo tono (bú) antes de cuarto tono: 不是 → bú shì"
+    ],
+    "vocab": ["是", "不", "学生", "老师", "中国人", "西班牙人", "朋友", "医生"],
+    "exercises": [
+      {
+        "type": "order",
+        "prompt": "Ordena: Yo soy estudiante",
+        "words": ["我", "是", "学生"],
+        "answer": "我是学生"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 是?",
+        "correct": "ser/estar",
+        "options": ["ser/estar", "tener", "ir", "hacer"],
+        "hint": "Verbo de identidad"
+      },
+      {
+        "type": "fill",
+        "sentence": "我___学生",
+        "blank": "是",
+        "options": ["是", "不", "好", "们"],
+        "hint": "Verbo que significa 'ser'"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Él es profesor",
+        "answer": "他是老师",
+        "accept": ["他是老师", "ta shi laoshi", "tā shì lǎoshī"]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Yo no soy médico",
+        "words": ["我", "不", "是", "医生"],
+        "answer": "我不是医生"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se niega con 是?",
+        "correct": "不是",
+        "options": ["不是", "没是", "无是", "非是"],
+        "hint": "Se usa 不 delante de 是"
+      },
+      {
+        "type": "match",
+        "pairs": [["学生", "estudiante"], ["老师", "profesor"], ["医生", "médico"], ["朋友", "amigo"]]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Ella es española",
+        "answer": "她是西班牙人",
+        "accept": ["她是西班牙人"]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: Tú eres mi amigo",
+        "words": ["你", "是", "我的", "朋友"],
+        "answer": "你是我的朋友"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Los tonos del chino",
+    "desc": "Domina los cuatro tonos y el tono neutro del mandarín",
+    "grammarIntro": "<h3>Los tonos del chino mandarín</h3><p>El chino mandarín es una <strong>lengua tonal</strong>. Esto significa que la misma sílaba pronunciada con diferente tono tiene un significado completamente distinto. El mandarín tiene <strong>4 tonos principales</strong> y un <strong>tono neutro</strong> (ligero).</p><h4>Los cuatro tonos</h4><table><tr><th>Tono</th><th>Marca</th><th>Descripción</th><th>Ejemplo</th></tr><tr><td>1.er tono</td><td>ā (macron)</td><td>Alto y sostenido, como cantar una nota larga</td><td>妈 (mā) = mamá</td></tr><tr><td>2.º tono</td><td>á (acento agudo)</td><td>Ascendente, como cuando preguntas \"¿eh?\"</td><td>麻 (má) = cáñamo</td></tr><tr><td>3.er tono</td><td>ǎ (carón)</td><td>Baja y sube, como un valle: empieza medio, baja, y sube</td><td>马 (mǎ) = caballo</td></tr><tr><td>4.º tono</td><td>à (acento grave)</td><td>Descendente y brusco, como una orden: \"¡No!\"</td><td>骂 (mà) = insultar</td></tr><tr><td>Neutro</td><td>ma (sin marca)</td><td>Ligero y breve, sin énfasis</td><td>吗 (ma) = partícula de pregunta</td></tr></table><div class=\"example\"><p><strong>El ejemplo clásico con mā:</strong></p><p>妈 (mā) = mamá | 麻 (má) = cáñamo | 马 (mǎ) = caballo | 骂 (mà) = insultar | 吗 (ma) = ¿?</p></div><h4>Representación visual de los tonos</h4><p>Imagina los tonos como movimientos musicales:</p><div class=\"example\"><p>1.er tono: ——— (línea recta alta)</p><p>2.º tono: ／ (subida)</p><p>3.er tono: ＼／ (bajada y subida)</p><p>4.º tono: ＼ (bajada brusca)</p></div><h4>Regla del cambio de tono del tercer tono</h4><p>Cuando dos terceros tonos van seguidos, el primero cambia a segundo tono:</p><div class=\"example\"><p>你好 = nǐ + hǎo → se pronuncia <em>ní hǎo</em></p></div><div class=\"tip\"><p><strong>Consejo:</strong> No intentes memorizar los tonos de forma aislada. Aprende las palabras completas con su tono, como si fueran melodías. Con la práctica, los tonos se volverán naturales.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> Los tonos NO son opcionales. Cambiar el tono cambia el significado por completo. 买 (mǎi, comprar) y 卖 (mài, vender) solo se diferencian por el tono. ¡Imagina la confusión!</p></div>",
+    "newVocab": [
+      {"hanzi": "妈", "pinyin": "mā", "es": "mamá (1.er tono)"},
+      {"hanzi": "麻", "pinyin": "má", "es": "cáñamo (2.º tono)"},
+      {"hanzi": "马", "pinyin": "mǎ", "es": "caballo (3.er tono)"},
+      {"hanzi": "骂", "pinyin": "mà", "es": "insultar (4.º tono)"},
+      {"hanzi": "吗", "pinyin": "ma", "es": "partícula de pregunta (tono neutro)"},
+      {"hanzi": "买", "pinyin": "mǎi", "es": "comprar"},
+      {"hanzi": "卖", "pinyin": "mài", "es": "vender"},
+      {"hanzi": "四", "pinyin": "sì", "es": "cuatro"}
+    ],
+    "grammar": [
+      "1.er tono (ā): alto y sostenido — 妈 (mā, mamá)",
+      "2.º tono (á): ascendente — 麻 (má, cáñamo)",
+      "3.er tono (ǎ): baja y sube — 马 (mǎ, caballo)",
+      "4.º tono (à): descendente y brusco — 骂 (mà, insultar)",
+      "Tono neutro: ligero y breve — 吗 (ma, partícula interrogativa)",
+      "Regla: 3.er tono + 3.er tono → el primero cambia a 2.º tono (你好 → ní hǎo)"
+    ],
+    "vocab": ["妈", "麻", "马", "骂", "吗", "买", "卖", "四"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cuántos tonos principales tiene el chino mandarín?",
+        "correct": "4 tonos (más el tono neutro)",
+        "options": ["4 tonos (más el tono neutro)", "3 tonos", "5 tonos", "2 tonos"],
+        "hint": "Más un tono ligero adicional"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué significa 妈 (mā, primer tono)?",
+        "correct": "mamá",
+        "options": ["mamá", "caballo", "cáñamo", "insultar"],
+        "hint": "Primer tono: alto y sostenido"
+      },
+      {
+        "type": "match",
+        "pairs": [["妈 (mā)", "mamá"], ["麻 (má)", "cáñamo"], ["马 (mǎ)", "caballo"], ["骂 (mà)", "insultar"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "El segundo tono (á) es un tono...",
+        "correct": "ascendente",
+        "options": ["ascendente", "descendente", "alto y sostenido", "que baja y sube"],
+        "hint": "Como cuando preguntas \"¿eh?\""
+      },
+      {
+        "type": "fill",
+        "sentence": "买 (mǎi) significa ___ y 卖 (mài) significa ___",
+        "blank": "comprar / vender",
+        "options": ["comprar / vender", "vender / comprar", "ir / venir", "dar / recibir"],
+        "hint": "Solo cambia el tono: 3.er vs 4.º"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué ocurre cuando dos terceros tonos van seguidos?",
+        "correct": "El primero cambia a segundo tono",
+        "options": ["El primero cambia a segundo tono", "Se mantienen igual", "El segundo cambia a primer tono", "Ambos cambian"],
+        "hint": "Ejemplo: 你好 (nǐ hǎo → ní hǎo)"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Para qué sirve 吗 (ma, tono neutro)?",
+        "correct": "Convertir una frase en pregunta",
+        "options": ["Convertir una frase en pregunta", "Negar una frase", "Indicar pasado", "Indicar futuro"],
+        "hint": "Se añade al final de la frase"
+      },
+      {
+        "type": "match",
+        "pairs": [["1.er tono (ā)", "alto y sostenido"], ["2.º tono (á)", "ascendente"], ["3.er tono (ǎ)", "baja y sube"], ["4.º tono (à)", "descendente"]]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Números 1-10",
+    "desc": "Aprende a contar del uno al diez en chino mandarín",
+    "grammarIntro": "<h3>Los números del 1 al 10 en chino</h3><p>Los números del 1 al 10 son la base de todo el sistema numérico chino. Una vez que los domines, podrás formar cualquier número.</p><h4>Tabla de números</h4><table><tr><th>Número</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>1</td><td>一</td><td>yī</td></tr><tr><td>2</td><td>二</td><td>èr</td></tr><tr><td>3</td><td>三</td><td>sān</td></tr><tr><td>4</td><td>四</td><td>sì</td></tr><tr><td>5</td><td>五</td><td>wǔ</td></tr><tr><td>6</td><td>六</td><td>liù</td></tr><tr><td>7</td><td>七</td><td>qī</td></tr><tr><td>8</td><td>八</td><td>bā</td></tr><tr><td>9</td><td>九</td><td>jiǔ</td></tr><tr><td>10</td><td>十</td><td>shí</td></tr></table><h4>Los caracteres como trazos</h4><p>Algunos números chinos son muy fáciles de recordar por su forma:</p><div class=\"example\"><p><strong>一</strong> (yī) = 1 — Un trazo horizontal = uno</p><p><strong>二</strong> (èr) = 2 — Dos trazos horizontales = dos</p><p><strong>三</strong> (sān) = 3 — Tres trazos horizontales = tres</p><p><strong>十</strong> (shí) = 10 — Una cruz, como el número romano X</p></div><div class=\"tip\"><p><strong>Consejo:</strong> El número 4 (四, sì) suena similar a 死 (sǐ, muerte), por lo que se considera un número de mala suerte en la cultura china. Muchos edificios no tienen piso 4.</p></div><div class=\"tip\"><p><strong>Consejo:</strong> El número 8 (八, bā) suena similar a 发 (fā, prosperar), por lo que se considera muy afortunado. Los Juegos Olímpicos de Pekín comenzaron el 08/08/08 a las 8:08 PM.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> El número 一 (yī) cambia de tono según la palabra que le sigue: antes de un 4.º tono se pronuncia <em>yí</em> (2.º tono), y antes de otros tonos se pronuncia <em>yì</em> (4.º tono).</p></div>",
+    "newVocab": [
+      {"hanzi": "一", "pinyin": "yī", "es": "uno (1)"},
+      {"hanzi": "二", "pinyin": "èr", "es": "dos (2)"},
+      {"hanzi": "三", "pinyin": "sān", "es": "tres (3)"},
+      {"hanzi": "四", "pinyin": "sì", "es": "cuatro (4)"},
+      {"hanzi": "五", "pinyin": "wǔ", "es": "cinco (5)"},
+      {"hanzi": "六", "pinyin": "liù", "es": "seis (6)"},
+      {"hanzi": "七", "pinyin": "qī", "es": "siete (7)"},
+      {"hanzi": "八", "pinyin": "bā", "es": "ocho (8)"},
+      {"hanzi": "九", "pinyin": "jiǔ", "es": "nueve (9)"},
+      {"hanzi": "十", "pinyin": "shí", "es": "diez (10)"}
+    ],
+    "grammar": [
+      "一 (yī) = 1, 二 (èr) = 2, 三 (sān) = 3",
+      "四 (sì) = 4, 五 (wǔ) = 5, 六 (liù) = 6",
+      "七 (qī) = 7, 八 (bā) = 8, 九 (jiǔ) = 9, 十 (shí) = 10",
+      "一 cambia de tono: yí (antes de 4.º tono), yì (antes de otros tonos)",
+      "4 (四) es número de mala suerte, 8 (八) es de buena suerte"
+    ],
+    "vocab": ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"],
+    "exercises": [
+      {
+        "type": "match",
+        "pairs": [["一", "1"], ["二", "2"], ["三", "3"], ["四", "4"], ["五", "5"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es el carácter para el número 7?",
+        "correct": "七",
+        "options": ["七", "九", "六", "八"],
+        "hint": "Se pronuncia qī"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 5 en chino",
+        "answer": "五",
+        "accept": ["五", "wu", "wǔ"]
+      },
+      {
+        "type": "match",
+        "pairs": [["六", "6"], ["七", "7"], ["八", "8"], ["九", "9"], ["十", "10"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número se considera de mala suerte en China?",
+        "correct": "四 (4)",
+        "options": ["四 (4)", "七 (7)", "三 (3)", "九 (9)"],
+        "hint": "Suena similar a la palabra 'muerte'"
+      },
+      {
+        "type": "fill",
+        "sentence": "一, 二, 三, ___, 五",
+        "blank": "四",
+        "options": ["四", "六", "七", "八"],
+        "hint": "El número 4"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 10 en chino",
+        "answer": "十",
+        "accept": ["十", "shi", "shí"]
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena los números de menor a mayor: 5, 2, 8",
+        "words": ["二", "五", "八"],
+        "answer": "二五八"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número se considera de buena suerte en China?",
+        "correct": "八 (8)",
+        "options": ["八 (8)", "四 (4)", "三 (3)", "六 (6)"],
+        "hint": "Suena similar a 'prosperar'"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Números 11-100",
+    "desc": "Aprende a formar números compuestos y a contar hasta cien",
+    "grammarIntro": "<h3>Números del 11 al 100</h3><p>El sistema numérico chino es extremadamente lógico y regular. Una vez que conoces los números del 1 al 10, puedes construir todos los demás siguiendo reglas simples.</p><h4>Números del 11 al 19</h4><p>Se forman con <strong>十 (shí, diez) + unidad</strong>:</p><table><tr><th>Número</th><th>Formación</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>11</td><td>10 + 1</td><td>十一</td><td>shíyī</td></tr><tr><td>12</td><td>10 + 2</td><td>十二</td><td>shí'èr</td></tr><tr><td>13</td><td>10 + 3</td><td>十三</td><td>shísān</td></tr><tr><td>14</td><td>10 + 4</td><td>十四</td><td>shísì</td></tr><tr><td>15</td><td>10 + 5</td><td>十五</td><td>shíwǔ</td></tr><tr><td>16</td><td>10 + 6</td><td>十六</td><td>shíliù</td></tr><tr><td>17</td><td>10 + 7</td><td>十七</td><td>shíqī</td></tr><tr><td>18</td><td>10 + 8</td><td>十八</td><td>shíbā</td></tr><tr><td>19</td><td>10 + 9</td><td>十九</td><td>shíjiǔ</td></tr></table><h4>Las decenas</h4><p>Se forman con <strong>unidad + 十 (shí, diez)</strong>:</p><table><tr><th>Número</th><th>Formación</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>20</td><td>2 × 10</td><td>二十</td><td>èrshí</td></tr><tr><td>30</td><td>3 × 10</td><td>三十</td><td>sānshí</td></tr><tr><td>40</td><td>4 × 10</td><td>四十</td><td>sìshí</td></tr><tr><td>50</td><td>5 × 10</td><td>五十</td><td>wǔshí</td></tr><tr><td>60</td><td>6 × 10</td><td>六十</td><td>liùshí</td></tr><tr><td>70</td><td>7 × 10</td><td>七十</td><td>qīshí</td></tr><tr><td>80</td><td>8 × 10</td><td>八十</td><td>bāshí</td></tr><tr><td>90</td><td>9 × 10</td><td>九十</td><td>jiǔshí</td></tr></table><h4>Números compuestos (decena + unidad)</h4><div class=\"example\"><p><strong>25</strong> = 二十五 (èrshíwǔ) → 2 × 10 + 5</p><p><strong>47</strong> = 四十七 (sìshíqī) → 4 × 10 + 7</p><p><strong>99</strong> = 九十九 (jiǔshíjiǔ) → 9 × 10 + 9</p></div><h4>El número 100</h4><p><strong>一百 (yì bǎi)</strong> = 100. 百 (bǎi) es la unidad de centena.</p><div class=\"tip\"><p><strong>Consejo:</strong> El sistema es puramente matemático. Para decir cualquier número de dos cifras, piensa: ¿cuántas decenas? + ¿cuántas unidades? Ejemplo: 63 = seis decenas y tres = 六十三.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> No confundas 十四 (shísì, 14) con 四十 (sìshí, 40). El orden importa: 十 + número = 10 + algo; número + 十 = algo × 10.</p></div>",
+    "newVocab": [
+      {"hanzi": "十一", "pinyin": "shíyī", "es": "once (11)"},
+      {"hanzi": "二十", "pinyin": "èrshí", "es": "veinte (20)"},
+      {"hanzi": "三十", "pinyin": "sānshí", "es": "treinta (30)"},
+      {"hanzi": "五十", "pinyin": "wǔshí", "es": "cincuenta (50)"},
+      {"hanzi": "九十九", "pinyin": "jiǔshíjiǔ", "es": "noventa y nueve (99)"},
+      {"hanzi": "一百", "pinyin": "yì bǎi", "es": "cien (100)"},
+      {"hanzi": "百", "pinyin": "bǎi", "es": "cien, centena"},
+      {"hanzi": "零", "pinyin": "líng", "es": "cero (0)"}
+    ],
+    "grammar": [
+      "11-19: 十 + unidad → 十一 (11), 十二 (12)...",
+      "Decenas: unidad + 十 → 二十 (20), 三十 (30)...",
+      "Compuestos: decena + 十 + unidad → 二十五 (25)",
+      "100 = 一百 (yì bǎi) — 百 es la unidad de centena",
+      "零 (líng) = cero"
+    ],
+    "vocab": ["十一", "十二", "二十", "三十", "四十", "五十", "九十九", "一百", "百", "零"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 20 en chino?",
+        "correct": "二十",
+        "options": ["二十", "十二", "二百", "二零"],
+        "hint": "2 × 10"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 15 en chino",
+        "answer": "十五",
+        "accept": ["十五", "shiwu", "shíwǔ"]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué número es 四十七?",
+        "correct": "47",
+        "options": ["47", "74", "14", "40"],
+        "hint": "4 × 10 + 7"
+      },
+      {
+        "type": "fill",
+        "sentence": "三___六",
+        "blank": "十",
+        "options": ["十", "百", "千", "零"],
+        "hint": "Treinta y seis: 3 × ___ + 6"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 88 en chino",
+        "answer": "八十八",
+        "accept": ["八十八", "bashiba", "bāshíbā"]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cuál es la diferencia entre 十四 y 四十?",
+        "correct": "十四 = 14, 四十 = 40",
+        "options": ["十四 = 14, 四十 = 40", "十四 = 40, 四十 = 14", "Son iguales", "十四 = 4, 四十 = 10"],
+        "hint": "El orden de los caracteres cambia el valor"
+      },
+      {
+        "type": "translate",
+        "prompt": "Escribe el número 100 en chino",
+        "answer": "一百",
+        "accept": ["一百", "yibai", "yì bǎi"]
+      },
+      {
+        "type": "match",
+        "pairs": [["十一", "11"], ["二十", "20"], ["五十", "50"], ["九十九", "99"], ["一百", "100"]]
+      },
+      {
+        "type": "order",
+        "prompt": "Forma el número 63 en chino",
+        "words": ["六", "十", "三"],
+        "answer": "六十三"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Días y meses",
+    "desc": "Aprende los días de la semana y los meses del año en chino",
+    "grammarIntro": "<h3>Días de la semana y meses del año</h3><p>En chino, los días de la semana y los meses se forman de manera muy lógica usando los números que ya conoces.</p><h4>Días de la semana (星期, xīngqī)</h4><p>Los días de la semana se forman con <strong>星期 (xīngqī, semana) + número</strong>:</p><table><tr><th>Día</th><th>Hanzi</th><th>Pinyin</th><th>Literal</th></tr><tr><td>Lunes</td><td>星期一</td><td>xīngqīyī</td><td>Semana-1</td></tr><tr><td>Martes</td><td>星期二</td><td>xīngqī'èr</td><td>Semana-2</td></tr><tr><td>Miércoles</td><td>星期三</td><td>xīngqīsān</td><td>Semana-3</td></tr><tr><td>Jueves</td><td>星期四</td><td>xīngqīsì</td><td>Semana-4</td></tr><tr><td>Viernes</td><td>星期五</td><td>xīngqīwǔ</td><td>Semana-5</td></tr><tr><td>Sábado</td><td>星期六</td><td>xīngqīliù</td><td>Semana-6</td></tr><tr><td>Domingo</td><td>星期日 / 星期天</td><td>xīngqīrì / xīngqītiān</td><td>Semana-sol / Semana-cielo</td></tr></table><div class=\"tip\"><p><strong>Consejo:</strong> El domingo es el único día que no usa un número. Tiene dos formas: 星期日 (más formal) y 星期天 (más coloquial). Ambas son correctas.</p></div><h4>Los meses (月, yuè)</h4><p>Los meses se forman con <strong>número + 月 (yuè, mes/luna)</strong>:</p><table><tr><th>Mes</th><th>Hanzi</th><th>Pinyin</th></tr><tr><td>Enero</td><td>一月</td><td>yīyuè</td></tr><tr><td>Febrero</td><td>二月</td><td>èryuè</td></tr><tr><td>Marzo</td><td>三月</td><td>sānyuè</td></tr><tr><td>Abril</td><td>四月</td><td>sìyuè</td></tr><tr><td>Mayo</td><td>五月</td><td>wǔyuè</td></tr><tr><td>Junio</td><td>六月</td><td>liùyuè</td></tr><tr><td>Julio</td><td>七月</td><td>qīyuè</td></tr><tr><td>Agosto</td><td>八月</td><td>bāyuè</td></tr><tr><td>Septiembre</td><td>九月</td><td>jiǔyuè</td></tr><tr><td>Octubre</td><td>十月</td><td>shíyuè</td></tr><tr><td>Noviembre</td><td>十一月</td><td>shíyīyuè</td></tr><tr><td>Diciembre</td><td>十二月</td><td>shí'èryuè</td></tr></table><h4>Palabras temporales básicas</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>今天</td><td>jīntiān</td><td>Hoy</td></tr><tr><td>明天</td><td>míngtiān</td><td>Mañana</td></tr><tr><td>昨天</td><td>zuótiān</td><td>Ayer</td></tr></table><div class=\"example\"><p><strong>今天是星期一。</strong> (jīntiān shì xīngqīyī) — Hoy es lunes.</p><p><strong>明天是星期二。</strong> (míngtiān shì xīngqī'èr) — Mañana es martes.</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> En chino, la semana empieza el lunes (星期一), no el domingo. Además, 月 (yuè) significa tanto \"mes\" como \"luna\".</p></div>",
+    "newVocab": [
+      {"hanzi": "星期", "pinyin": "xīngqī", "es": "semana"},
+      {"hanzi": "星期一", "pinyin": "xīngqīyī", "es": "lunes"},
+      {"hanzi": "星期二", "pinyin": "xīngqī'èr", "es": "martes"},
+      {"hanzi": "星期三", "pinyin": "xīngqīsān", "es": "miércoles"},
+      {"hanzi": "星期日", "pinyin": "xīngqīrì", "es": "domingo"},
+      {"hanzi": "月", "pinyin": "yuè", "es": "mes, luna"},
+      {"hanzi": "今天", "pinyin": "jīntiān", "es": "hoy"},
+      {"hanzi": "明天", "pinyin": "míngtiān", "es": "mañana"},
+      {"hanzi": "昨天", "pinyin": "zuótiān", "es": "ayer"}
+    ],
+    "grammar": [
+      "Días de la semana: 星期 + número (1-6) → 星期一 (lunes)... 星期六 (sábado)",
+      "Domingo: 星期日 (formal) o 星期天 (coloquial) — no usa número",
+      "Meses: número + 月 → 一月 (enero)... 十二月 (diciembre)",
+      "今天 = hoy, 明天 = mañana, 昨天 = ayer",
+      "月 (yuè) significa tanto 'mes' como 'luna'"
+    ],
+    "vocab": ["星期", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日", "月", "一月", "今天", "明天", "昨天"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'lunes' en chino?",
+        "correct": "星期一",
+        "options": ["星期一", "一月", "星期日", "星期二"],
+        "hint": "Semana + 1"
+      },
+      {
+        "type": "match",
+        "pairs": [["星期一", "lunes"], ["星期三", "miércoles"], ["星期五", "viernes"], ["星期日", "domingo"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice 'marzo' en chino?",
+        "correct": "三月",
+        "options": ["三月", "星期三", "三十", "十三"],
+        "hint": "Número 3 + mes"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: Hoy es viernes",
+        "answer": "今天是星期五",
+        "accept": ["今天是星期五"]
+      },
+      {
+        "type": "fill",
+        "sentence": "___天是星期六",
+        "blank": "明",
+        "options": ["明", "今", "昨", "星"],
+        "hint": "Si hoy es viernes, ___ es sábado"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Qué es especial del domingo en chino?",
+        "correct": "No usa número, se dice 星期日 o 星期天",
+        "options": ["No usa número, se dice 星期日 o 星期天", "Se dice 星期七", "Se dice 星期零", "Se dice 日期星"],
+        "hint": "Es el único día diferente"
+      },
+      {
+        "type": "order",
+        "prompt": "Forma la frase: Mañana es martes",
+        "words": ["明天", "是", "星期二"],
+        "answer": "明天是星期二"
+      },
+      {
+        "type": "match",
+        "pairs": [["一月", "enero"], ["六月", "junio"], ["十月", "octubre"], ["十二月", "diciembre"]]
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ayer",
+        "answer": "昨天",
+        "accept": ["昨天", "zuotian", "zuótiān"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "La hora",
+    "desc": "Aprende a preguntar y decir la hora en chino mandarín",
+    "grammarIntro": "<h3>Cómo decir la hora en chino</h3><p>Decir la hora en chino sigue una estructura lógica y predecible. La unidad principal es <strong>点 (diǎn)</strong>, que equivale a \"en punto\" u \"hora\".</p><h4>Vocabulario esencial</h4><table><tr><th>Hanzi</th><th>Pinyin</th><th>Significado</th></tr><tr><td>几点</td><td>jǐ diǎn</td><td>¿Qué hora?</td></tr><tr><td>现在</td><td>xiànzài</td><td>Ahora</td></tr><tr><td>点</td><td>diǎn</td><td>Hora / en punto</td></tr><tr><td>半</td><td>bàn</td><td>Media (y media)</td></tr><tr><td>分</td><td>fēn</td><td>Minuto</td></tr><tr><td>上午</td><td>shàngwǔ</td><td>Mañana (AM)</td></tr><tr><td>下午</td><td>xiàwǔ</td><td>Tarde (PM)</td></tr></table><h4>Estructura para decir la hora</h4><p>La estructura básica es: <strong>número + 点 (diǎn)</strong></p><div class=\"example\"><p><strong>三点</strong> (sān diǎn) = 3:00 (las tres en punto)</p><p><strong>七点</strong> (qī diǎn) = 7:00 (las siete en punto)</p><p><strong>十二点</strong> (shí'èr diǎn) = 12:00 (las doce en punto)</p></div><h4>Con minutos</h4><p>Estructura: <strong>número + 点 + número + 分</strong></p><div class=\"example\"><p><strong>三点十五分</strong> (sān diǎn shíwǔ fēn) = 3:15</p><p><strong>八点三十分</strong> (bā diǎn sānshí fēn) = 8:30</p><p><strong>九点四十五分</strong> (jiǔ diǎn sìshíwǔ fēn) = 9:45</p></div><h4>Con 半 (y media)</h4><p>Para la media hora, se usa <strong>半 (bàn)</strong> en lugar de 三十分:</p><div class=\"example\"><p><strong>六点半</strong> (liù diǎn bàn) = 6:30 (las seis y media)</p><p><strong>十点半</strong> (shí diǎn bàn) = 10:30 (las diez y media)</p></div><h4>Preguntar la hora</h4><div class=\"example\"><p><strong>现在几点？</strong> (xiànzài jǐ diǎn?) = ¿Qué hora es ahora?</p><p><strong>现在三点半。</strong> (xiànzài sān diǎn bàn.) = Ahora son las tres y media.</p></div><h4>AM y PM</h4><p>En chino, el indicador AM/PM va <strong>antes</strong> de la hora:</p><div class=\"example\"><p><strong>上午九点</strong> (shàngwǔ jiǔ diǎn) = 9:00 AM</p><p><strong>下午三点</strong> (xiàwǔ sān diǎn) = 3:00 PM</p></div><div class=\"tip\"><p><strong>Consejo:</strong> 几 (jǐ) es una palabra interrogativa que significa \"cuántos/cuántas\" para números pequeños. 几点 literalmente pregunta \"¿cuántas horas?\" = \"¿qué hora es?\".</p></div><div class=\"warning\"><p><strong>¡Cuidado!</strong> El orden en chino es diferente al español. En español decimos \"las 3 de la tarde\", pero en chino el AM/PM va primero: 下午三点 (tarde + tres + hora). Piensa en el orden de mayor a menor: periodo del día → hora → minutos.</p></div>",
+    "newVocab": [
+      {"hanzi": "几点", "pinyin": "jǐ diǎn", "es": "¿qué hora?"},
+      {"hanzi": "现在", "pinyin": "xiànzài", "es": "ahora"},
+      {"hanzi": "点", "pinyin": "diǎn", "es": "hora, en punto"},
+      {"hanzi": "半", "pinyin": "bàn", "es": "media, y media"},
+      {"hanzi": "分", "pinyin": "fēn", "es": "minuto"},
+      {"hanzi": "上午", "pinyin": "shàngwǔ", "es": "mañana (AM)"},
+      {"hanzi": "下午", "pinyin": "xiàwǔ", "es": "tarde (PM)"},
+      {"hanzi": "几", "pinyin": "jǐ", "es": "¿cuántos? (número pequeño)"}
+    ],
+    "grammar": [
+      "Hora en punto: número + 点 → 三点 (3:00)",
+      "Con minutos: número + 点 + número + 分 → 三点十五分 (3:15)",
+      "Y media: número + 点 + 半 → 六点半 (6:30)",
+      "Preguntar: 现在几点？ = ¿Qué hora es ahora?",
+      "AM/PM va antes de la hora: 上午九点 (9 AM), 下午三点 (3 PM)",
+      "几 (jǐ) = ¿cuántos? (para cantidades pequeñas)"
+    ],
+    "vocab": ["几点", "现在", "点", "半", "分", "上午", "下午", "几"],
+    "exercises": [
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se pregunta '¿Qué hora es?' en chino?",
+        "correct": "现在几点？",
+        "options": ["现在几点？", "几点现在？", "什么点？", "今天几？"],
+        "hint": "Ahora + ¿cuántas horas?"
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice '3:00' en chino?",
+        "correct": "三点",
+        "options": ["三点", "三分", "三半", "三时"],
+        "hint": "Número + 点"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: las seis y media",
+        "answer": "六点半",
+        "accept": ["六点半", "liu dian ban", "liù diǎn bàn"]
+      },
+      {
+        "type": "order",
+        "prompt": "Forma la frase: Ahora son las 8",
+        "words": ["现在", "八", "点"],
+        "answer": "现在八点"
+      },
+      {
+        "type": "match",
+        "pairs": [["点", "hora/en punto"], ["半", "y media"], ["分", "minuto"], ["现在", "ahora"]]
+      },
+      {
+        "type": "choose",
+        "prompt": "¿Cómo se dice '3:15 PM' en chino?",
+        "correct": "下午三点十五分",
+        "options": ["下午三点十五分", "三点十五分下午", "上午三点十五分", "十五分三点下午"],
+        "hint": "En chino el AM/PM va antes de la hora"
+      },
+      {
+        "type": "fill",
+        "sentence": "现在十点___",
+        "blank": "半",
+        "options": ["半", "分", "点", "几"],
+        "hint": "Las diez y ___"
+      },
+      {
+        "type": "order",
+        "prompt": "Forma: las 9 de la mañana",
+        "words": ["上午", "九", "点"],
+        "answer": "上午九点"
+      },
+      {
+        "type": "translate",
+        "prompt": "Traduce al chino: ¿Qué hora es ahora?",
+        "answer": "现在几点",
+        "accept": ["现在几点", "现在几点？", "xianzai ji dian", "xiànzài jǐ diǎn"]
+      }
+    ]
+  }
+]

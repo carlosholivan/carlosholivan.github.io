@@ -1,0 +1,1692 @@
+[
+  {
+    "word": "haya llegado",
+    "m": {
+      "en": "(that) he/she has arrived",
+      "zh": "（他/她）已经到了",
+      "ja": "（彼・彼女が）着いた"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "hayas visto",
+    "m": {
+      "en": "(that) you have seen",
+      "zh": "（你）看过了",
+      "ja": "（君が）見た"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "hayamos terminado",
+    "m": {
+      "en": "(that) we have finished",
+      "zh": "（我们）已经做完了",
+      "ja": "（私たちが）終えた"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "me alegro de que",
+    "m": {
+      "en": "I'm glad that",
+      "zh": "我很高兴……",
+      "ja": "〜してうれしい"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "es probable que",
+    "m": {
+      "en": "it's likely that",
+      "zh": "很可能……",
+      "ja": "〜だろう（可能性が高い）"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "no creo que",
+    "m": {
+      "en": "I don't think that",
+      "zh": "我不认为……",
+      "ja": "〜とは思わない"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "lamentar que",
+    "m": {
+      "en": "to regret that",
+      "zh": "对……感到遗憾",
+      "ja": "〜を残念に思う"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "es una pena que",
+    "m": {
+      "en": "it's a pity that",
+      "zh": "真遗憾……",
+      "ja": "〜は残念だ"
+    },
+    "gender": null,
+    "unit": 1
+  },
+  {
+    "word": "hubiera sabido",
+    "m": {
+      "en": "(if) I had known",
+      "zh": "（如果）我早知道",
+      "ja": "（もし）知っていたら"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "habría venido",
+    "m": {
+      "en": "would have come",
+      "zh": "（就）会来了",
+      "ja": "来ただろうに"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "ojalá hubiera",
+    "m": {
+      "en": "I wish I had…",
+      "zh": "要是当时……就好了",
+      "ja": "〜していればなあ"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "hubiese",
+    "m": {
+      "en": "had (‑se form of hubiera)",
+      "zh": "hubiera 的 -se 形式",
+      "ja": "hubiera の -se 形"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "arrepentirse",
+    "m": {
+      "en": "to regret",
+      "zh": "后悔",
+      "ja": "後悔する"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "aprovechar",
+    "m": {
+      "en": "to take advantage of",
+      "zh": "利用；抓住",
+      "ja": "生かす・利用する"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "la oportunidad",
+    "m": {
+      "en": "opportunity, chance",
+      "zh": "机会",
+      "ja": "チャンス・機会"
+    },
+    "gender": "f",
+    "unit": 2
+  },
+  {
+    "word": "a tiempo",
+    "m": {
+      "en": "on time, in time",
+      "zh": "按时；及时",
+      "ja": "時間通りに・間に合って"
+    },
+    "gender": null,
+    "unit": 2
+  },
+  {
+    "word": "de haberlo sabido",
+    "m": {
+      "en": "had I known (it)",
+      "zh": "早知道的话",
+      "ja": "知っていたら"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "de ser así",
+    "m": {
+      "en": "if that is the case",
+      "zh": "如果是这样的话",
+      "ja": "もしそうなら"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "de tener tiempo",
+    "m": {
+      "en": "if I had time",
+      "zh": "要是有时间的话",
+      "ja": "時間があれば"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "a estas horas",
+    "m": {
+      "en": "by now, at this time",
+      "zh": "这个时候；此刻",
+      "ja": "今ごろ"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "en tu lugar",
+    "m": {
+      "en": "in your place, if I were you",
+      "zh": "我要是你；在你的位置",
+      "ja": "あなたの立場なら"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "hoy en día",
+    "m": {
+      "en": "nowadays",
+      "zh": "如今",
+      "ja": "今日では"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "el título",
+    "m": {
+      "en": "degree, title",
+      "zh": "学位；标题",
+      "ja": "学位・タイトル"
+    },
+    "gender": "m",
+    "unit": 3
+  },
+  {
+    "word": "aceptar",
+    "m": {
+      "en": "to accept",
+      "zh": "接受",
+      "ja": "受け入れる・引き受ける"
+    },
+    "gender": null,
+    "unit": 3
+  },
+  {
+    "word": "alguien que sepa",
+    "m": {
+      "en": "someone who knows",
+      "zh": "一个会……的人",
+      "ja": "〜ができる人"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "no hay nadie que",
+    "m": {
+      "en": "there's nobody who",
+      "zh": "没有人……",
+      "ja": "〜する人は誰もいない"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "lo que quieras",
+    "m": {
+      "en": "whatever you want",
+      "zh": "你想要的（任何东西）",
+      "ja": "何でも好きなもの"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "como quieras",
+    "m": {
+      "en": "as you wish, however you like",
+      "zh": "随你",
+      "ja": "お好きなように"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "donde prefieras",
+    "m": {
+      "en": "wherever you prefer",
+      "zh": "你喜欢在哪儿都行",
+      "ja": "好きなところで"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "cualquier",
+    "m": {
+      "en": "any",
+      "zh": "任何",
+      "ja": "どんな〜でも"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "ningún",
+    "m": {
+      "en": "no, not any (before m. noun)",
+      "zh": "没有任何一个（阳性名词前）",
+      "ja": "一つも〜ない（男性名詞の前）"
+    },
+    "gender": null,
+    "unit": 4
+  },
+  {
+    "word": "el requisito",
+    "m": {
+      "en": "requirement",
+      "zh": "要求；条件",
+      "ja": "必要条件"
+    },
+    "gender": "m",
+    "unit": 4
+  },
+  {
+    "word": "en cuanto",
+    "m": {
+      "en": "as soon as",
+      "zh": "一……就……",
+      "ja": "〜したらすぐ"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "hasta que",
+    "m": {
+      "en": "until",
+      "zh": "直到",
+      "ja": "〜まで"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "antes de que",
+    "m": {
+      "en": "before (+ subjunctive)",
+      "zh": "在……之前",
+      "ja": "〜する前に"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "después de que",
+    "m": {
+      "en": "after (+ clause)",
+      "zh": "在……之后",
+      "ja": "〜した後で"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "para que",
+    "m": {
+      "en": "so that",
+      "zh": "为了让……",
+      "ja": "〜するように"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "sin que",
+    "m": {
+      "en": "without (someone doing)",
+      "zh": "没让（某人）……",
+      "ja": "（誰かが）〜することなく"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "mientras",
+    "m": {
+      "en": "while",
+      "zh": "在……期间；当……时",
+      "ja": "〜する間"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "a menos que",
+    "m": {
+      "en": "unless",
+      "zh": "除非",
+      "ja": "〜でない限り"
+    },
+    "gender": null,
+    "unit": 5
+  },
+  {
+    "word": "habrá llegado",
+    "m": {
+      "en": "he/she has probably arrived; will have arrived",
+      "zh": "大概已经到了；（届时）将已到达",
+      "ja": "もう着いたのだろう／着いているだろう"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "habrá salido",
+    "m": {
+      "en": "he/she has probably left",
+      "zh": "大概已经出去了",
+      "ja": "もう出かけたのだろう"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "habría salido",
+    "m": {
+      "en": "he/she had probably left",
+      "zh": "（当时）可能已经出去了",
+      "ja": "（その時）もう出かけていたのだろう"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "para entonces",
+    "m": {
+      "en": "by then",
+      "zh": "到那时",
+      "ja": "その頃には"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "a lo mejor",
+    "m": {
+      "en": "maybe, perhaps",
+      "zh": "也许",
+      "ja": "たぶん・もしかすると"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "probablemente",
+    "m": {
+      "en": "probably",
+      "zh": "很可能",
+      "ja": "おそらく"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "se habrá olvidado",
+    "m": {
+      "en": "he/she has probably forgotten",
+      "zh": "大概忘了",
+      "ja": "忘れたのだろう"
+    },
+    "gender": null,
+    "unit": 6
+  },
+  {
+    "word": "el atasco",
+    "m": {
+      "en": "traffic jam",
+      "zh": "堵车",
+      "ja": "渋滞"
+    },
+    "gender": "m",
+    "unit": 6
+  },
+  {
+    "word": "construir",
+    "m": {
+      "en": "to build",
+      "zh": "建造",
+      "ja": "建てる"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "inaugurar",
+    "m": {
+      "en": "to open, inaugurate",
+      "zh": "落成；开幕",
+      "ja": "開通させる・落成させる"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "fundar",
+    "m": {
+      "en": "to found",
+      "zh": "创立；建立",
+      "ja": "創設する"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "destruir",
+    "m": {
+      "en": "to destroy",
+      "zh": "摧毁",
+      "ja": "破壊する"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "descubrir",
+    "m": {
+      "en": "to discover",
+      "zh": "发现",
+      "ja": "発見する"
+    },
+    "gender": null,
+    "unit": 7
+  },
+  {
+    "word": "el ayuntamiento",
+    "m": {
+      "en": "town hall, city council",
+      "zh": "市政厅",
+      "ja": "市役所"
+    },
+    "gender": "m",
+    "unit": 7
+  },
+  {
+    "word": "el puente",
+    "m": {
+      "en": "bridge",
+      "zh": "桥",
+      "ja": "橋"
+    },
+    "gender": "m",
+    "unit": 7
+  },
+  {
+    "word": "la catedral",
+    "m": {
+      "en": "cathedral",
+      "zh": "大教堂",
+      "ja": "大聖堂"
+    },
+    "gender": "f",
+    "unit": 7
+  },
+  {
+    "word": "llevar + gerundio",
+    "m": {
+      "en": "to have been doing (for X time)",
+      "zh": "已经……（多长时间）了",
+      "ja": "（〜の間）ずっと〜している"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "seguir + gerundio",
+    "m": {
+      "en": "to keep on / still be doing",
+      "zh": "仍然；继续",
+      "ja": "まだ〜し続けている"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "dejar de",
+    "m": {
+      "en": "to stop (doing)",
+      "zh": "停止；不再",
+      "ja": "〜するのをやめる"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "ponerse a",
+    "m": {
+      "en": "to start (doing) suddenly",
+      "zh": "（突然）开始",
+      "ja": "（急に）〜し始める"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "volver a",
+    "m": {
+      "en": "to do again",
+      "zh": "再次；又",
+      "ja": "また〜する"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "acabar + gerundio",
+    "m": {
+      "en": "to end up doing",
+      "zh": "最后（结果）……",
+      "ja": "結局〜することになる"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "acabar de",
+    "m": {
+      "en": "to have just (done)",
+      "zh": "刚刚……",
+      "ja": "〜したばかり"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "todavía",
+    "m": {
+      "en": "still, yet",
+      "zh": "还；仍然",
+      "ja": "まだ"
+    },
+    "gender": null,
+    "unit": 8
+  },
+  {
+    "word": "ponerse",
+    "m": {
+      "en": "to become (sudden, temporary)",
+      "zh": "变得（突然、暂时）",
+      "ja": "（一時的に）〜になる"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "volverse",
+    "m": {
+      "en": "to become (deep personality change)",
+      "zh": "变得（性格深刻变化）",
+      "ja": "（性格が）〜になる"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "hacerse",
+    "m": {
+      "en": "to become (by choice or effort)",
+      "zh": "成为（主动、努力）",
+      "ja": "（意志・努力で）〜になる"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "quedarse",
+    "m": {
+      "en": "to end up, be left (result)",
+      "zh": "（结果）变成……",
+      "ja": "（結果として）〜になる"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "convertirse en",
+    "m": {
+      "en": "to turn into",
+      "zh": "变成",
+      "ja": "〜に変わる・〜と化す"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "llegar a ser",
+    "m": {
+      "en": "to (eventually) become",
+      "zh": "最终成为",
+      "ja": "（ついに）〜になる"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "nervioso",
+    "m": {
+      "en": "nervous",
+      "zh": "紧张的",
+      "ja": "緊張した"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "embarazada",
+    "m": {
+      "en": "pregnant",
+      "zh": "怀孕的",
+      "ja": "妊娠している"
+    },
+    "gender": null,
+    "unit": 9
+  },
+  {
+    "word": "pedir que",
+    "m": {
+      "en": "to ask (someone) to",
+      "zh": "请求（某人）做……",
+      "ja": "〜してくれと頼む"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "rogar que",
+    "m": {
+      "en": "to beg (someone) to",
+      "zh": "恳求",
+      "ja": "懇願する"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "aconsejar que",
+    "m": {
+      "en": "to advise (someone) to",
+      "zh": "建议（某人）……",
+      "ja": "〜するよう勧める"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "ordenar que",
+    "m": {
+      "en": "to order (someone) to",
+      "zh": "命令（某人）……",
+      "ja": "〜するよう命じる"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "insistir en que",
+    "m": {
+      "en": "to insist that",
+      "zh": "坚持要",
+      "ja": "〜するよう言い張る"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "al día siguiente",
+    "m": {
+      "en": "the next day",
+      "zh": "第二天",
+      "ja": "翌日"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "el día anterior",
+    "m": {
+      "en": "the day before",
+      "zh": "前一天",
+      "ja": "前日"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "aquel día",
+    "m": {
+      "en": "that day",
+      "zh": "那天",
+      "ja": "その日"
+    },
+    "gender": null,
+    "unit": 10
+  },
+  {
+    "word": "pensar en",
+    "m": {
+      "en": "to think about",
+      "zh": "想（某人/某事）",
+      "ja": "〜のことを考える"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "soñar con",
+    "m": {
+      "en": "to dream about",
+      "zh": "梦见；梦想",
+      "ja": "〜の夢を見る"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "depender de",
+    "m": {
+      "en": "to depend on",
+      "zh": "取决于；依靠",
+      "ja": "〜次第だ"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "confiar en",
+    "m": {
+      "en": "to trust",
+      "zh": "信任",
+      "ja": "〜を信頼する"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "acordarse de",
+    "m": {
+      "en": "to remember",
+      "zh": "记得",
+      "ja": "〜を覚えている"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "tardar en",
+    "m": {
+      "en": "to take (time) to",
+      "zh": "花（时间）才……",
+      "ja": "〜するのに時間がかかる"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "consistir en",
+    "m": {
+      "en": "to consist of",
+      "zh": "在于；包括",
+      "ja": "〜から成る"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "contar con",
+    "m": {
+      "en": "to count on",
+      "zh": "指望；依靠",
+      "ja": "〜を頼りにする"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "enamorarse de",
+    "m": {
+      "en": "to fall in love with",
+      "zh": "爱上",
+      "ja": "〜に恋をする"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "insistir en",
+    "m": {
+      "en": "to insist on",
+      "zh": "坚持",
+      "ja": "〜を主張する・言い張る"
+    },
+    "gender": null,
+    "unit": 11
+  },
+  {
+    "word": "el que",
+    "m": {
+      "en": "the one that / which (m.)",
+      "zh": "……的那个（阳性）",
+      "ja": "〜するもの・人（男性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "la que",
+    "m": {
+      "en": "the one that / which (f.)",
+      "zh": "……的那个（阴性）",
+      "ja": "〜するもの・人（女性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "el cual",
+    "m": {
+      "en": "which / who (formal, m.)",
+      "zh": "……的那个（正式，阳性）",
+      "ja": "〜するところの（硬い・男性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "la cual",
+    "m": {
+      "en": "which / who (formal, f.)",
+      "zh": "……的那个（正式，阴性）",
+      "ja": "〜するところの（硬い・女性）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "quien",
+    "m": {
+      "en": "who (people)",
+      "zh": "……的人",
+      "ja": "〜する人"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "cuyo",
+    "m": {
+      "en": "whose",
+      "zh": "……的（所属）",
+      "ja": "その〜が（所有の関係詞）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "donde",
+    "m": {
+      "en": "where (relative)",
+      "zh": "在那里（关系副词）",
+      "ja": "〜する場所（関係副詞）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "lo cual",
+    "m": {
+      "en": "which (refers to a whole idea)",
+      "zh": "这一点（指前句）",
+      "ja": "そのこと（前文を受ける）"
+    },
+    "gender": null,
+    "unit": 12
+  },
+  {
+    "word": "la razón",
+    "m": {
+      "en": "the reason",
+      "zh": "原因；理由",
+      "ja": "理由"
+    },
+    "gender": "f",
+    "unit": 12
+  },
+  {
+    "word": "sin embargo",
+    "m": {
+      "en": "however",
+      "zh": "然而",
+      "ja": "しかし"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "no obstante",
+    "m": {
+      "en": "nevertheless (formal)",
+      "zh": "然而（正式）",
+      "ja": "しかしながら"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "por lo tanto",
+    "m": {
+      "en": "therefore",
+      "zh": "因此",
+      "ja": "したがって"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "así que",
+    "m": {
+      "en": "so (consequence)",
+      "zh": "所以",
+      "ja": "だから"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "en cambio",
+    "m": {
+      "en": "on the other hand, whereas",
+      "zh": "而；相反",
+      "ja": "一方"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "además",
+    "m": {
+      "en": "moreover, besides",
+      "zh": "而且；此外",
+      "ja": "さらに・しかも"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "de hecho",
+    "m": {
+      "en": "in fact",
+      "zh": "事实上",
+      "ja": "実際・実は"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "es decir",
+    "m": {
+      "en": "that is, in other words",
+      "zh": "也就是说",
+      "ja": "つまり"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "aun así",
+    "m": {
+      "en": "even so",
+      "zh": "尽管如此",
+      "ja": "それでも"
+    },
+    "gender": null,
+    "unit": 13
+  },
+  {
+    "word": "lo bueno",
+    "m": {
+      "en": "the good thing",
+      "zh": "好的方面",
+      "ja": "良いところ"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo malo",
+    "m": {
+      "en": "the bad thing",
+      "zh": "坏处",
+      "ja": "悪い点"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo mejor",
+    "m": {
+      "en": "the best thing",
+      "zh": "最好的是",
+      "ja": "一番いいこと"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo peor",
+    "m": {
+      "en": "the worst thing",
+      "zh": "最糟的是",
+      "ja": "最悪なこと"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo importante",
+    "m": {
+      "en": "the important thing",
+      "zh": "重要的是",
+      "ja": "大事なこと"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo que",
+    "m": {
+      "en": "what, the thing that",
+      "zh": "……的（东西/事）",
+      "ja": "〜すること・もの"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo de",
+    "m": {
+      "en": "the matter of, the business about",
+      "zh": "……的那件事",
+      "ja": "〜の件"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "lo raro",
+    "m": {
+      "en": "the strange thing",
+      "zh": "奇怪的是",
+      "ja": "変なこと"
+    },
+    "gender": null,
+    "unit": 14
+  },
+  {
+    "word": "se me olvidó",
+    "m": {
+      "en": "I forgot (accidentally)",
+      "zh": "我忘了",
+      "ja": "（うっかり）忘れた"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se le cayó",
+    "m": {
+      "en": "he/she dropped",
+      "zh": "他/她（不小心）掉了",
+      "ja": "（うっかり）落とした"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se nos rompió",
+    "m": {
+      "en": "we broke (by accident)",
+      "zh": "我们不小心弄坏了",
+      "ja": "（私たちの）〜が壊れてしまった"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se te ha perdido",
+    "m": {
+      "en": "you have lost",
+      "zh": "你丢了",
+      "ja": "（君は）なくしてしまった"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se me ocurrió",
+    "m": {
+      "en": "it occurred to me",
+      "zh": "我想到了",
+      "ja": "思いついた"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se nos acabó",
+    "m": {
+      "en": "we ran out of",
+      "zh": "我们的……用完了",
+      "ja": "（私たちの）〜が切れた"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "se les estropeó",
+    "m": {
+      "en": "theirs broke down",
+      "zh": "他们的……坏了",
+      "ja": "（彼らの）〜が故障した"
+    },
+    "gender": null,
+    "unit": 15
+  },
+  {
+    "word": "el jarrón",
+    "m": {
+      "en": "vase",
+      "zh": "花瓶",
+      "ja": "花瓶"
+    },
+    "gender": "m",
+    "unit": 15
+  },
+  {
+    "word": "la cartera",
+    "m": {
+      "en": "wallet",
+      "zh": "钱包",
+      "ja": "財布"
+    },
+    "gender": "f",
+    "unit": 15
+  },
+  {
+    "word": "listo",
+    "m": {
+      "en": "clever (ser) / ready (estar)",
+      "zh": "聪明（ser）/ 准备好（estar）",
+      "ja": "賢い（ser）／準備ができた（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "malo",
+    "m": {
+      "en": "bad (ser) / ill (estar)",
+      "zh": "坏（ser）/ 生病（estar）",
+      "ja": "悪い（ser）／具合が悪い（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "rico",
+    "m": {
+      "en": "rich (ser) / tasty (estar)",
+      "zh": "有钱（ser）/ 好吃（estar）",
+      "ja": "金持ち（ser）／おいしい（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "verde",
+    "m": {
+      "en": "green (ser) / unripe (estar)",
+      "zh": "绿色（ser）/ 没熟（estar）",
+      "ja": "緑色（ser）／熟していない（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "aburrido",
+    "m": {
+      "en": "boring (ser) / bored (estar)",
+      "zh": "无聊的（ser）/ 感到无聊（estar）",
+      "ja": "退屈な（ser）／退屈している（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "despierto",
+    "m": {
+      "en": "sharp (ser) / awake (estar)",
+      "zh": "机灵（ser）/ 醒着（estar）",
+      "ja": "頭の回転が速い（ser）／起きている（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "atento",
+    "m": {
+      "en": "considerate (ser) / attentive (estar)",
+      "zh": "体贴（ser）/ 专心（estar）",
+      "ja": "気配りができる（ser）／注意している（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "orgulloso",
+    "m": {
+      "en": "arrogant (ser) / proud of (estar)",
+      "zh": "骄傲自大（ser）/ 自豪（estar）",
+      "ja": "傲慢な（ser）／誇りに思う（estar）"
+    },
+    "gender": null,
+    "unit": 16
+  },
+  {
+    "word": "tomar el pelo",
+    "m": {
+      "en": "to pull someone's leg",
+      "zh": "耍人；开玩笑",
+      "ja": "からかう"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "estar hasta las narices",
+    "m": {
+      "en": "to be fed up",
+      "zh": "受够了",
+      "ja": "うんざりしている"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "meter la pata",
+    "m": {
+      "en": "to put your foot in it",
+      "zh": "说错话；捅娄子",
+      "ja": "ドジを踏む"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "ser pan comido",
+    "m": {
+      "en": "to be a piece of cake",
+      "zh": "小菜一碟",
+      "ja": "朝飯前だ"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "costar un ojo de la cara",
+    "m": {
+      "en": "to cost an arm and a leg",
+      "zh": "贵得要命",
+      "ja": "目玉が飛び出るほど高い"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "no tener pelos en la lengua",
+    "m": {
+      "en": "not to mince words",
+      "zh": "心直口快",
+      "ja": "歯に衣着せぬ"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "estar en las nubes",
+    "m": {
+      "en": "to be daydreaming",
+      "zh": "心不在焉",
+      "ja": "上の空だ"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "echar una mano",
+    "m": {
+      "en": "to give a hand",
+      "zh": "帮一把",
+      "ja": "手を貸す"
+    },
+    "gender": null,
+    "unit": 17
+  },
+  {
+    "word": "estimado",
+    "m": {
+      "en": "dear (formal greeting)",
+      "zh": "尊敬的（书信称呼）",
+      "ja": "〜様（手紙の宛名）"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "le agradecería que",
+    "m": {
+      "en": "I would be grateful if you",
+      "zh": "烦请您……；如能……不胜感激",
+      "ja": "〜していただけますと幸いです"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "quedo a la espera",
+    "m": {
+      "en": "I look forward to",
+      "zh": "期待（您的回复）",
+      "ja": "お待ちしております"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "adjunto",
+    "m": {
+      "en": "attached; I attach",
+      "zh": "随附；附上",
+      "ja": "添付の；添付します"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "atentamente",
+    "m": {
+      "en": "yours sincerely",
+      "zh": "此致敬礼",
+      "ja": "敬具"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "la solicitud",
+    "m": {
+      "en": "application",
+      "zh": "申请",
+      "ja": "申請・応募"
+    },
+    "gender": "f",
+    "unit": 18
+  },
+  {
+    "word": "la entrevista",
+    "m": {
+      "en": "interview",
+      "zh": "面试",
+      "ja": "面接"
+    },
+    "gender": "f",
+    "unit": 18
+  },
+  {
+    "word": "a la mayor brevedad",
+    "m": {
+      "en": "as soon as possible",
+      "zh": "尽快",
+      "ja": "至急・できるだけ早く"
+    },
+    "gender": null,
+    "unit": 18
+  },
+  {
+    "word": "el currículum",
+    "m": {
+      "en": "CV, résumé",
+      "zh": "简历",
+      "ja": "履歴書"
+    },
+    "gender": "m",
+    "unit": 18
+  },
+  {
+    "word": "se calcula que",
+    "m": {
+      "en": "it is estimated that",
+      "zh": "据估计",
+      "ja": "〜と推定される"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "el estudio",
+    "m": {
+      "en": "study",
+      "zh": "研究",
+      "ja": "研究・調査"
+    },
+    "gender": "m",
+    "unit": 19
+  },
+  {
+    "word": "la encuesta",
+    "m": {
+      "en": "survey",
+      "zh": "调查",
+      "ja": "アンケート調査"
+    },
+    "gender": "f",
+    "unit": 19
+  },
+  {
+    "word": "el porcentaje",
+    "m": {
+      "en": "percentage",
+      "zh": "百分比",
+      "ja": "割合・パーセンテージ"
+    },
+    "gender": "m",
+    "unit": 19
+  },
+  {
+    "word": "la mitad",
+    "m": {
+      "en": "half",
+      "zh": "一半",
+      "ja": "半分"
+    },
+    "gender": "f",
+    "unit": 19
+  },
+  {
+    "word": "el doble",
+    "m": {
+      "en": "double, twice as much",
+      "zh": "两倍",
+      "ja": "2倍"
+    },
+    "gender": "m",
+    "unit": 19
+  },
+  {
+    "word": "el aumento",
+    "m": {
+      "en": "increase",
+      "zh": "增加；上涨",
+      "ja": "増加・上昇"
+    },
+    "gender": "m",
+    "unit": 19
+  },
+  {
+    "word": "la disminución",
+    "m": {
+      "en": "decrease",
+      "zh": "减少",
+      "ja": "減少"
+    },
+    "gender": "f",
+    "unit": 19
+  },
+  {
+    "word": "la investigación",
+    "m": {
+      "en": "research",
+      "zh": "研究",
+      "ja": "研究"
+    },
+    "gender": "f",
+    "unit": 19
+  },
+  {
+    "word": "según",
+    "m": {
+      "en": "according to",
+      "zh": "根据",
+      "ja": "〜によると"
+    },
+    "gender": null,
+    "unit": 19
+  },
+  {
+    "word": "en mi opinión",
+    "m": {
+      "en": "in my opinion",
+      "zh": "在我看来",
+      "ja": "私の意見では"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "a mi juicio",
+    "m": {
+      "en": "in my view",
+      "zh": "依我看",
+      "ja": "私の判断では"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "creo que",
+    "m": {
+      "en": "I think that (+ indicative)",
+      "zh": "我认为（+ 陈述式）",
+      "ja": "〜と思う（+ 直説法）"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "no creo que",
+    "m": {
+      "en": "I don't think that (+ subjunctive)",
+      "zh": "我不认为（+ 虚拟式）",
+      "ja": "〜とは思わない（+ 接続法）"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "dudo que",
+    "m": {
+      "en": "I doubt that (+ subjunctive)",
+      "zh": "我怀疑（+ 虚拟式）",
+      "ja": "〜とは思えない（+ 接続法）"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "estar de acuerdo",
+    "m": {
+      "en": "to agree",
+      "zh": "同意",
+      "ja": "賛成する"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "tener razón",
+    "m": {
+      "en": "to be right",
+      "zh": "说得对；有道理",
+      "ja": "正しい・言う通りだ"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "aunque",
+    "m": {
+      "en": "although / even if",
+      "zh": "虽然；即使",
+      "ja": "〜けれども／たとえ〜ても"
+    },
+    "gender": null,
+    "unit": 20
+  },
+  {
+    "word": "por un lado",
+    "m": {
+      "en": "on the one hand",
+      "zh": "一方面",
+      "ja": "一方では"
+    },
+    "gender": null,
+    "unit": 20
+  }
+]

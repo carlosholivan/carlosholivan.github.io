@@ -1,6 +1,5 @@
 import { S, mergeCloudState } from './state.js';
 import { go } from './router.js';
-import { shouldShowDailyReview } from './engine/mastery.js';
 import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud } from './firebase-auth.js';
 
 import './views/home.js';
@@ -11,19 +10,14 @@ import './views/settings.js';
 import './views/reference.js';
 import './views/daily-review.js';
 import './views/auth.js';
+import './views/texts.js';
+import './views/drills.js';
+import { enterApp } from './views/welcome.js';
 
 if (S.dark) document.body.classList.add('dark');
 
 window.__nav = (view) => go(view);
 window.__back = () => { import('./router.js').then(r => r.back()); };
-
-function goToApp() {
-  if (shouldShowDailyReview()) {
-    go('daily-review');
-  } else {
-    go('home');
-  }
-}
 
 if (isConfigured()) {
   initFirebase();
@@ -37,7 +31,7 @@ if (isConfigured()) {
           await saveStateToCloud(S);
         }
       } catch (e) {}
-      goToApp();
+      enterApp();
     } else {
       go('auth', { mode: 'login' });
     }

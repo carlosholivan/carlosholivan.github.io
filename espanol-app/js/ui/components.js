@@ -6,6 +6,7 @@ export function bottomNav(active) {
   const items = [
     { id: 'home', icon: 'home', label: t('home') },
     { id: 'reference', icon: 'book', label: t('reference') },
+    { id: 'texts', icon: 'doc', label: t('texts') },
     { id: 'review', icon: 'star', label: t('review') },
     { id: 'progress', icon: 'chart', label: t('progress') },
     { id: 'settings', icon: 'gear', label: t('settings') },

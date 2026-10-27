@@ -1,6 +1,7 @@
 import { S, save } from '../state.js';
 import { register, go } from '../router.js';
 import { loadVocab } from '../data.js';
+import { LEVELS as CEFR } from '../levels.js';
 import { getDailyReviewWords, markDailyReviewShown, LEVELS, getWordLevel } from '../engine/mastery.js';
 import { recordAnswer } from '../engine/srs.js';
 import { progressBar } from '../ui/components.js';
@@ -17,7 +18,7 @@ register('daily-review', async (el) => {
     return;
   }
 
-  const allVocab = [...await loadVocab('a1'), ...await loadVocab('a2'), ...await loadVocab('b1')];
+  const allVocab = (await Promise.all(CEFR.map(l => loadVocab(l).catch(() => [])))).flat();
   let current = 0;
   let correct = 0;
   let flipped = false;

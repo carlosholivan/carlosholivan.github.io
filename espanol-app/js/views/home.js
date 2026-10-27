@@ -4,6 +4,7 @@ import { loadUnits } from '../data.js';
 import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { t } from '../i18n.js';
+import { levelChips } from '../levels.js';
 
 register('home', async (el) => {
   const units = await loadUnits(S.level);
@@ -26,11 +27,8 @@ register('home', async (el) => {
       ${progressBar(pct)}
     </div>
 
-    <div class="flex gap-8 mb-16">
-      <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__setLevel('a1')">A1</button>
-      <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__setLevel('a2')">A2</button>
-      <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__setLevel('b1')">B1</button>
-    </div>
+    ${levelChips(S.level, '__setLevel')}
+    <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>Práctica de gramática</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
 
     <div class="lesson-tree">
       ${units.map((u, i) => {

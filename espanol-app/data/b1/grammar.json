@@ -1,251 +1,1135 @@
 [
   {
-    "id": "subjunctive-present",
-    "title": {"en": "Present Subjunctive", "zh": "虚拟式现在时", "ja": "接続法現在"},
-    "summary": {"en": "Wishes, doubts, emotions: que + subjunctive", "zh": "愿望、怀疑、情感：que + 虚拟式", "ja": "願望・疑い・感情：que + 接続法"},
+    "id": "tenses-overview",
+    "unit": null,
+    "title": {
+      "en": "Tenses overview (B1)",
+      "zh": "时态总览（B1）",
+      "ja": "時制の全体像（B1）"
+    },
+    "summary": {
+      "en": "All indicative and subjunctive tenses up to B1, timeline and the perfect family",
+      "zh": "B1 为止的所有陈述式和虚拟式时态、时间轴和完成时家族",
+      "ja": "B1 までの直説法・接続法の全時制、タイムライン、完了形ファミリー"
+    },
     "explanation": {
-      "en": "The subjunctive expresses subjectivity — wishes, doubts, emotions, requests:\n\n**Formation:** Flip the vowel!\n- -AR verbs → -e endings: hable, hables, hable, hablemos, hablen\n- -ER/-IR verbs → -a endings: coma, comas, coma, comamos, coman\n\n**Irregulars (DISHES):** dar(de), ir(vaya), ser(sea), haber(haya), estar(este), saber(sepa)\n\n**When to use (always after QUE):**\n- Wishes: Quiero que vengas (I want you to come)\n- Emotions: Me alegra que estes bien (I'm glad you're OK)\n- Doubt: No creo que sea verdad (I don't think it's true)\n- Requests: Te pido que me ayudes (I ask you to help me)\n- Impersonal: Es importante que estudies (It's important that you study)\n\n**Key rule:** Different subjects! Quiero ir (I want to go — same subject, no subjunctive) vs. Quiero que vayas (I want you to go — different subjects, subjunctive)",
-      "zh": "虚拟式表达主观性——愿望、怀疑、情感、请求：\n\n**构成：** 交换元音！\n- -AR动词 → -e词尾：hable, hables, hable, hablemos, hablen\n- -ER/-IR动词 → -a词尾：coma, comas, coma, comamos, coman\n\n**不规则（DISHES）：** dar(de), ir(vaya), ser(sea), haber(haya), estar(este), saber(sepa)\n\n**什么时候用（总在QUE之后）：**\n- 愿望：Quiero que vengas（我要你来）\n- 情感：Me alegra que estes bien（你没事我很高兴）\n- 怀疑：No creo que sea verdad（我不认为是真的）\n- 请求：Te pido que me ayudes（我请你帮我）\n\n**关键规则：** 两个不同主语才用！\n- Quiero ir（我想去——同主语，不用虚拟式）\n- Quiero que vayas（我要你去——不同主语，用虚拟式）",
-      "ja": "接続法は主観性を表します——願望・疑い・感情・依頼：\n\n**作り方：** 母音を入れ替える！\n- -AR動詞 → -e語尾：hable, hables, hable, hablemos, hablen\n- -ER/-IR動詞 → -a語尾：coma, comas, coma, comamos, coman\n\n**不規則（DISHES）：** dar(de), ir(vaya), ser(sea), haber(haya), estar(este), saber(sepa)\n\n**いつ使う（常にQUEの後）：**\n- 願望：Quiero que vengas（来てほしい）\n- 感情：Me alegra que estes bien（元気で嬉しい）\n- 疑い：No creo que sea verdad（本当だとは思わない）\n- 依頼：Te pido que me ayudes（手伝ってほしい）\n\n**重要ルール：** 主語が違う時だけ！\n- Quiero ir（行きたい——同じ主語→不定詞）\n- Quiero que vayas（君に行ってほしい——違う主語→接続法）"
+      "en": "This page is your **map of the Spanish verb system up to B1**. Come back to it whenever you hesitate between two tenses.\n\n**1. All the tenses you know (or are learning) at B1**\n\n<table><tr><th>Tense</th><th>Structure</th><th>Example</th><th>When</th></tr><tr><td><strong>Presente</strong></td><td>habl==o==, com==o==, viv==o==</td><td>Trabajo en un banco.</td><td>now, habits, general truths, fixed future</td></tr><tr><td><strong>Presente continuo</strong></td><td>==estar== + gerundio</td><td>Estoy comiendo.</td><td>in progress right now</td></tr><tr><td><strong>Imperativo</strong></td><td>habla / no habl==es==</td><td>Abre la ventana. No la abras.</td><td>orders, advice, instructions</td></tr><tr><td><strong>Pretérito perfecto (compuesto)</strong></td><td>==he== + participio</td><td>Hoy he comido paella.</td><td>Spain: time unit that includes now (hoy, este año), ya / todavía no / nunca</td></tr><tr><td><strong>Pretérito indefinido (perfecto simple)</strong></td><td>habl==é==, com==í==</td><td>Ayer comí paella.</td><td>finished time: ayer, en 2019, hace dos años</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>habl==aba==, com==ía==</td><td>De niño comía mucho.</td><td>description, background, past habits</td></tr><tr><td><strong>estaba + gerundio</strong></td><td>==estaba== + gerundio</td><td>Estaba duchándome cuando llamaste.</td><td>action in progress interrupted in the past</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había== + participio</td><td>Cuando llegué, ya se había ido.</td><td>past before another past</td></tr><tr><td><strong>ir a + infinitivo</strong></td><td>==voy a== + infinitivo</td><td>Voy a llamar a Ana.</td><td>plans, intentions, visible evidence</td></tr><tr><td><strong>Futuro simple</strong></td><td>hablar==é==, ==tendr==é</td><td>Mañana lloverá. Serán las tres.</td><td>predictions, promises, probability now</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré== + participio</td><td>A las diez ya habré terminado. Habrá salido.</td><td>done before a future point; probability about a recent past</td></tr><tr><td><strong>Condicional</strong></td><td>hablar==ía==, ==tendr==ía</td><td>¿Podrías ayudarme? Serían las tres.</td><td>courtesy, advice, hypothesis, probability in the past, future in the past</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría== + participio</td><td>Yo no lo habría dicho.</td><td>what would have happened (B2: si hubiera…)</td></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>habl==e==, com==a==, ==teng==a</td><td>Quiero que vengas. Cuando llegues, llámame.</td><td>wishes, emotions, doubt, purpose; cuando + future</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya== + participio</td><td>Espero que hayas dormido bien.</td><td>subjunctive trigger + completed action</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>habla==ra== / habla==se==</td><td>Si tuviera tiempo, iría.</td><td>past triggers, unreal si-clauses, ojalá (unlikely)</td></tr></table>\n\n**2. Timeline**\n\n<table><tr><th>before the past</th><th>past</th><th>present (time unit that includes now)</th><th>now</th><th>future</th></tr><tr><td>había hecho</td><td>hice (event) / hacía (background) / estaba haciendo</td><td>he hecho (hoy, esta semana, nunca, ya)</td><td>hago / estoy haciendo</td><td>voy a hacer / haré / habré hecho</td></tr><tr><td>Ya había cenado…</td><td>…cuando llamaste. Llovía.</td><td>Hoy he cenado tarde.</td><td>Ceno a las nueve.</td><td>Mañana voy a cenar fuera.</td></tr></table>\n\n**3. The perfect family: haber + participle**\nOnce you know the participle (hablado, comido, vivido; irregular: hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto, muerto), every compound tense is just **haber in another tense + the same participle**:\n\n<table><tr><th>haber</th><th>+ participle</th><th>Name</th><th>Meaning</th></tr><tr><td>==he==, has, ha, hemos, habéis, han</td><td>hecho</td><td><strong>pretérito perfecto</strong></td><td>have done (Spain: today / experience)</td></tr><tr><td>==había==, habías, había, habíamos, habíais, habían</td><td>hecho</td><td><strong>pluscuamperfecto</strong></td><td>had done</td></tr><tr><td>==habré==, habrás, habrá, habremos, habréis, habrán</td><td>hecho</td><td><strong>futuro perfecto</strong></td><td>will have done / must have done</td></tr><tr><td>==habría==, habrías, habría, habríamos, habríais, habrían</td><td>hecho</td><td><strong>condicional compuesto</strong></td><td>would have done / must have done (then)</td></tr><tr><td>==haya==, hayas, haya, hayamos, hayáis, hayan</td><td>hecho</td><td><strong>pretérito perfecto de subjuntivo</strong></td><td>(that) … has done (after a trigger)</td></tr></table>\n\n**4. Spain: perfecto vs indefinido (recap)**\n- ==he hecho== = time unit that **includes now**: hoy, esta mañana, esta semana, este verano, este año, hace un rato, and with ya / todavía no / nunca / alguna vez. → Hoy ==he desayunado== tarde. Este verano ==hemos ido== a Italia. ¿==Has estado== alguna vez en México?\n- ==hice== = time unit that is **over**: ayer, anoche, el lunes pasado, en 2019, hace dos años. → Ayer ==desayuné== tarde.\n- In most of Latin America and in the Canary Islands (partly also Galicia and Asturias) people say Hoy ==desayuné== tarde. Both are correct Spanish; in Spain, use the perfecto for today.\n- Terminology: RAE «pretérito perfecto compuesto» = he hecho; «pretérito perfecto simple» = «pretérito indefinido» = hice.\n\n**5. Three quick decision rules**\n- Past event vs past background? → indefinido (llegó) vs imperfecto (llovía).\n- Something even earlier in a past story? → pluscuamperfecto (había llegado).\n- After querer que, ojalá, para que, cuando (future)… → subjunctive.\n\n**For English speakers**\n- English present perfect ≠ Spanish perfecto. «I saw him this morning» → Spain: Lo ==he visto== esta mañana. «I have lived here for 3 years» → ==Vivo== aquí desde hace 3 años / ==Llevo== 3 años viviendo aquí (~~He vivido aquí por 3 años~~ suggests you no longer live here).\n- «will» is not always the futuro: «I'll get it!» → ¡Ya ==voy==! / Lo ==cojo== yo. «Will you open the window?» → ¿==Abres== la ventana?\n- «would» for past habits = imperfecto: «We would go to the beach every summer» → ==Íbamos== a la playa cada verano (~~iríamos~~).\n- Spanish uses the progressive much less: «I'm leaving tomorrow» → ==Me voy== mañana.\n\n**Common mistakes**\n- ~~Ayer he ido al cine~~ → Ayer ==fui== al cine.\n- ~~Cuando llegaré, te llamo~~ → Cuando ==llegue==, te llamo.\n- ~~Si tendría tiempo~~ → Si ==tuviera== tiempo.\n- ~~Quiero que tú vienes~~ → Quiero que ==vengas==.",
+      "zh": "这一页是你到 B1 为止的**西班牙语动词时态地图**。犹豫用哪个时态时，就回来看看。\n\n**1. B1 阶段的所有时态**\n\n<table><tr><th>时态</th><th>构成</th><th>例句</th><th>什么时候用</th></tr><tr><td><strong>Presente</strong></td><td>habl==o==, com==o==, viv==o==</td><td>Trabajo en un banco.</td><td>现在、习惯、普遍事实、已定的将来</td></tr><tr><td><strong>Presente continuo</strong></td><td>==estar== + gerundio</td><td>Estoy comiendo.</td><td>此刻正在进行</td></tr><tr><td><strong>Imperativo</strong></td><td>habla / no habl==es==</td><td>Abre la ventana. No la abras.</td><td>命令、建议、指示</td></tr><tr><td><strong>Pretérito perfecto (compuesto)</strong></td><td>==he== + participio</td><td>Hoy he comido paella.</td><td>西班牙：包含现在的时间段（hoy, este año）、经历</td></tr><tr><td><strong>Pretérito indefinido (perfecto simple)</strong></td><td>habl==é==, com==í==</td><td>Ayer comí paella.</td><td>已结束的时间：ayer, en 2019</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>habl==aba==, com==ía==</td><td>De niño comía mucho.</td><td>过去的描写、背景、习惯</td></tr><tr><td><strong>estaba + gerundio</strong></td><td>==estaba== + gerundio</td><td>Estaba duchándome cuando llamaste.</td><td>过去某刻正在进行（被打断）</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había== + participio</td><td>Cuando llegué, ya se había ido.</td><td>过去的过去</td></tr><tr><td><strong>ir a + infinitivo</strong></td><td>==voy a== + infinitivo</td><td>Voy a llamar a Ana.</td><td>计划、打算、有迹象的将来</td></tr><tr><td><strong>Futuro simple</strong></td><td>hablar==é==, ==tendr==é</td><td>Mañana lloverá. Serán las tres.</td><td>预测、承诺、对现在的推测</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré== + participio</td><td>A las diez ya habré terminado. Habrá salido.</td><td>将来某点前完成；对刚过去的推测</td></tr><tr><td><strong>Condicional</strong></td><td>hablar==ía==, ==tendr==ía</td><td>¿Podrías ayudarme? Serían las tres.</td><td>礼貌、建议、假设、对过去的推测、过去的将来</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría== + participio</td><td>Yo no lo habría dicho.</td><td>本来会…（B2 详学）</td></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>habl==e==, com==a==, ==teng==a</td><td>Quiero que vengas. Cuando llegues, llámame.</td><td>愿望、情感、怀疑、目的；cuando + 将来</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya== + participio</td><td>Espero que hayas dormido bien.</td><td>触发词 + 已完成的动作</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>habla==ra== / habla==se==</td><td>Si tuviera tiempo, iría.</td><td>过去的触发词、非真实条件、ojalá</td></tr></table>\n\n**2. 时间轴**\n\n<table><tr><th>过去的过去</th><th>过去</th><th>包含现在的时间段</th><th>现在</th><th>将来</th></tr><tr><td>había hecho</td><td>hice（事件）/ hacía（背景）/ estaba haciendo</td><td>he hecho (hoy, esta semana, nunca, ya)</td><td>hago / estoy haciendo</td><td>voy a hacer / haré / habré hecho</td></tr><tr><td>Ya había cenado…</td><td>…cuando llamaste. Llovía.</td><td>Hoy he cenado tarde.</td><td>Ceno a las nueve.</td><td>Mañana voy a cenar fuera.</td></tr></table>\n\n**3. 完成时家族：haber + 过去分词**\n记住分词（hablado, comido, vivido；不规则：hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto, muerto），所有复合时态都只是 **haber 的不同时态 + 同一个分词**：\n\n<table><tr><th>haber</th><th>+ 分词</th><th>名称</th><th>意义</th></tr><tr><td>==he==, has, ha, hemos, habéis, han</td><td>hecho</td><td><strong>pretérito perfecto</strong></td><td>做过/做了（西班牙：今天、经历）</td></tr><tr><td>==había==, habías, había, habíamos, habíais, habían</td><td>hecho</td><td><strong>pluscuamperfecto</strong></td><td>（那时）已经做了</td></tr><tr><td>==habré==, habrás, habrá, habremos, habréis, habrán</td><td>hecho</td><td><strong>futuro perfecto</strong></td><td>（届时）将已做完 / 大概已经做了</td></tr><tr><td>==habría==, habrías, habría, habríamos, habríais, habrían</td><td>hecho</td><td><strong>condicional compuesto</strong></td><td>本来会做 / （那时）大概已经做了</td></tr><tr><td>==haya==, hayas, haya, hayamos, hayáis, hayan</td><td>hecho</td><td><strong>pretérito perfecto de subjuntivo</strong></td><td>（触发词后）已做了</td></tr></table>\n\n**4. 西班牙：perfecto 与 indefinido（复习）**\n- ==he hecho== = **包含现在**的时间段：hoy, esta mañana, esta semana, este verano, este año, hace un rato，以及 ya / todavía no / nunca / alguna vez。→ Hoy ==he desayunado== tarde.（今天早饭吃得晚。）¿==Has estado== alguna vez en México?（你去过墨西哥吗？）\n- ==hice== = **已经结束**的时间段：ayer, anoche, el lunes pasado, en 2019, hace dos años。→ Ayer ==desayuné== tarde.\n- 拉丁美洲大部分地区和加那利群岛（以及部分加利西亚、阿斯图里亚斯）说 Hoy ==desayuné== tarde。两种都是正确的西班牙语；在西班牙，说“今天”要用 perfecto。\n- 术语：RAE 的 «pretérito perfecto compuesto» = he hecho；«pretérito perfecto simple» = «pretérito indefinido» = hice。\n\n**5. 三条快速判断规则**\n- 过去的事件还是背景？→ indefinido（llegó）/ imperfecto（llovía）。\n- 故事里更早发生的事？→ pluscuamperfecto（había llegado）。\n- 在 querer que, ojalá, para que, cuando（指将来）之后 → 虚拟式。\n\n**给中文母语者的提示**\n- 中文动词没有变位，时间靠“了、过、着、在、会、要”和时间词表达；西班牙语则把**人称和时态都放在词尾**，所以主语常常省略：==Comí== = 我吃了。\n- “了”≠ 总是 indefinido：今天吃了 → Hoy ==he comido==（西班牙）；昨天吃了 → Ayer ==comí==；我饿了 → ==Tengo== hambre（现在时！）。\n- “过”表示经历 → 现在完成时：我去过西班牙 → ==He estado== en España。\n- “在/正在” → estar + 现在分词：我在吃饭 → ==Estoy comiendo==。\n- “会/要” → futuro 或 ir a：明天会下雨 → Mañana ==lloverá== / ==va a llover==。\n- “大概/应该”推测现在 → 将来时：他应该在家 → ==Estará== en casa。\n\n**常见错误**\n- ~~Ayer he ido al cine~~ → Ayer ==fui== al cine.\n- ~~Cuando llegaré, te llamo~~ → Cuando ==llegue==, te llamo.\n- ~~Si tendría tiempo~~ → Si ==tuviera== tiempo.\n- ~~Quiero que tú vienes~~ → Quiero que ==vengas==.",
+      "ja": "このページは B1 までの**スペイン語の時制マップ**です。どの時制を使うか迷ったら、ここに戻ってきてください。\n\n**1. B1 までに学ぶすべての時制**\n\n<table><tr><th>時制</th><th>形</th><th>例</th><th>いつ使う</th></tr><tr><td><strong>Presente</strong></td><td>habl==o==, com==o==, viv==o==</td><td>Trabajo en un banco.</td><td>現在・習慣・一般的事実・確定した未来</td></tr><tr><td><strong>Presente continuo</strong></td><td>==estar== + gerundio</td><td>Estoy comiendo.</td><td>今まさに進行中</td></tr><tr><td><strong>Imperativo</strong></td><td>habla / no habl==es==</td><td>Abre la ventana. No la abras.</td><td>命令・助言・指示</td></tr><tr><td><strong>Pretérito perfecto (compuesto)</strong></td><td>==he== + participio</td><td>Hoy he comido paella.</td><td>スペイン：今を含む時間（hoy, este año）・経験</td></tr><tr><td><strong>Pretérito indefinido (perfecto simple)</strong></td><td>habl==é==, com==í==</td><td>Ayer comí paella.</td><td>終わった時間：ayer, en 2019</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>habl==aba==, com==ía==</td><td>De niño comía mucho.</td><td>過去の描写・背景・習慣</td></tr><tr><td><strong>estaba + gerundio</strong></td><td>==estaba== + gerundio</td><td>Estaba duchándome cuando llamaste.</td><td>過去のある時点で進行中</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había== + participio</td><td>Cuando llegué, ya se había ido.</td><td>過去より前の過去</td></tr><tr><td><strong>ir a + infinitivo</strong></td><td>==voy a== + infinitivo</td><td>Voy a llamar a Ana.</td><td>予定・意図・兆候のある未来</td></tr><tr><td><strong>Futuro simple</strong></td><td>hablar==é==, ==tendr==é</td><td>Mañana lloverá. Serán las tres.</td><td>予測・約束・現在の推量</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré== + participio</td><td>A las diez ya habré terminado. Habrá salido.</td><td>未来のある時点までに完了・直前の過去の推量</td></tr><tr><td><strong>Condicional</strong></td><td>hablar==ía==, ==tendr==ía</td><td>¿Podrías ayudarme? Serían las tres.</td><td>丁寧・助言・仮定・過去の推量・過去から見た未来</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría== + participio</td><td>Yo no lo habría dicho.</td><td>〜しただろうに（B2で詳しく）</td></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>habl==e==, com==a==, ==teng==a</td><td>Quiero que vengas. Cuando llegues, llámame.</td><td>願望・感情・疑い・目的・cuando + 未来</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya== + participio</td><td>Espero que hayas dormido bien.</td><td>接続法の引き金 ＋ 完了した行為</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>habla==ra== / habla==se==</td><td>Si tuviera tiempo, iría.</td><td>過去の引き金・非現実の si・ojalá</td></tr></table>\n\n**2. タイムライン**\n\n<table><tr><th>過去より前</th><th>過去</th><th>今を含む時間</th><th>今</th><th>未来</th></tr><tr><td>había hecho</td><td>hice（出来事）/ hacía（背景）/ estaba haciendo</td><td>he hecho (hoy, esta semana, nunca, ya)</td><td>hago / estoy haciendo</td><td>voy a hacer / haré / habré hecho</td></tr><tr><td>Ya había cenado…</td><td>…cuando llamaste. Llovía.</td><td>Hoy he cenado tarde.</td><td>Ceno a las nueve.</td><td>Mañana voy a cenar fuera.</td></tr></table>\n\n**3. 完了形ファミリー：haber ＋ 過去分詞**\n過去分詞（hablado, comido, vivido／不規則：hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto, muerto）さえ覚えれば、複合時制はすべて **haber の時制を変える ＋ 同じ過去分詞** です：\n\n<table><tr><th>haber</th><th>+ 過去分詞</th><th>名称</th><th>意味</th></tr><tr><td>==he==, has, ha, hemos, habéis, han</td><td>hecho</td><td><strong>pretérito perfecto</strong></td><td>〜した・〜したことがある（スペイン：今日・経験）</td></tr><tr><td>==había==, habías, había, habíamos, habíais, habían</td><td>hecho</td><td><strong>pluscuamperfecto</strong></td><td>（その時）すでに〜していた</td></tr><tr><td>==habré==, habrás, habrá, habremos, habréis, habrán</td><td>hecho</td><td><strong>futuro perfecto</strong></td><td>〜し終えているだろう／〜したのだろう</td></tr><tr><td>==habría==, habrías, habría, habríamos, habríais, habrían</td><td>hecho</td><td><strong>condicional compuesto</strong></td><td>〜しただろうに／（その時）〜していたのだろう</td></tr><tr><td>==haya==, hayas, haya, hayamos, hayáis, hayan</td><td>hecho</td><td><strong>pretérito perfecto de subjuntivo</strong></td><td>（引き金の後で）〜したこと</td></tr></table>\n\n**4. スペイン：perfecto と indefinido（おさらい）**\n- ==he hecho== = **今を含む**時間：hoy, esta mañana, esta semana, este verano, este año, hace un rato、そして ya / todavía no / nunca / alguna vez。→ Hoy ==he desayunado== tarde.（今日は朝食が遅かった。）¿==Has estado== alguna vez en México?（メキシコに行ったことある？）\n- ==hice== = **もう終わった**時間：ayer, anoche, el lunes pasado, en 2019, hace dos años。→ Ayer ==desayuné== tarde.\n- 中南米の大部分とカナリア諸島（ガリシア・アストゥリアスの一部も）では Hoy ==desayuné== tarde と言います。どちらも正しいスペイン語ですが、スペインでは「今日」に perfecto を使います。\n- 用語：RAE の «pretérito perfecto compuesto» = he hecho、«pretérito perfecto simple» = «pretérito indefinido» = hice。\n\n**5. すぐ使える判断ルール**\n- 過去の出来事か背景か？→ indefinido（llegó）/ imperfecto（llovía）。\n- 過去の話の中で、さらに前に起きたこと？→ pluscuamperfecto（había llegado）。\n- querer que, ojalá, para que, cuando（未来）の後 → 接続法。\n\n**日本語話者のためのポイント**\n- 日本語の「た」は過去も完了も表しますが、スペイン語は区別します：今日食べた → Hoy ==he comido==（スペイン）、昨日食べた → Ayer ==comí==。\n- 「〜たことがある」= 経験 → 現在完了：スペインに行ったことがある → ==He estado== en España。\n- 「〜ている」は必ずしも estar + 現在分詞ではありません：食べている → ==Estoy comiendo==（進行）ですが、結婚している → ==Está casado==、知っている → ==Sé==（状態）。\n- 「〜ていた」も同じ：寝ていた → ==Estaba durmiendo==、もう出かけていた → Ya ==había salido==（過去完了）。\n- 日本語には未来形がなく「る」形で済ませますが、スペイン語は未来形・ir a・現在形を使い分けます。「〜だろう／でしょう」の推量は未来形：家にいるだろう → ==Estará== en casa。\n\n**よくある間違い**\n- ~~Ayer he ido al cine~~ → Ayer ==fui== al cine.\n- ~~Cuando llegaré, te llamo~~ → Cuando ==llegue==, te llamo.\n- ~~Si tendría tiempo~~ → Si ==tuviera== tiempo.\n- ~~Quiero que tú vienes~~ → Quiero que ==vengas==."
     },
     "conjugation": {
-      "hablar": {"yo": "hable", "tu": "hables", "el/ella": "hable", "nosotros": "hablemos", "ellos": "hablen"},
-      "comer": {"yo": "coma", "tu": "comas", "el/ella": "coma", "nosotros": "comamos", "ellos": "coman"},
-      "ir": {"yo": "vaya", "tu": "vayas", "el/ella": "vaya", "nosotros": "vayamos", "ellos": "vayan"},
-      "ser": {"yo": "sea", "tu": "seas", "el/ella": "sea", "nosotros": "seamos", "ellos": "sean"}
+      "hablar (presente)": {
+        "yo": "hablo",
+        "tú": "hablas",
+        "él/ella/usted": "habla",
+        "nosotros": "hablamos",
+        "vosotros": "habláis",
+        "ellos/ustedes": "hablan"
+      },
+      "hablar (indefinido)": {
+        "yo": "hablé",
+        "tú": "hablaste",
+        "él/ella/usted": "habló",
+        "nosotros": "hablamos",
+        "vosotros": "hablasteis",
+        "ellos/ustedes": "hablaron"
+      },
+      "hablar (imperfecto)": {
+        "yo": "hablaba",
+        "tú": "hablabas",
+        "él/ella/usted": "hablaba",
+        "nosotros": "hablábamos",
+        "vosotros": "hablabais",
+        "ellos/ustedes": "hablaban"
+      },
+      "hablar (futuro)": {
+        "yo": "hablaré",
+        "tú": "hablarás",
+        "él/ella/usted": "hablará",
+        "nosotros": "hablaremos",
+        "vosotros": "hablaréis",
+        "ellos/ustedes": "hablarán"
+      },
+      "hablar (condicional)": {
+        "yo": "hablaría",
+        "tú": "hablarías",
+        "él/ella/usted": "hablaría",
+        "nosotros": "hablaríamos",
+        "vosotros": "hablaríais",
+        "ellos/ustedes": "hablarían"
+      },
+      "hablar (presente de subjuntivo)": {
+        "yo": "hable",
+        "tú": "hables",
+        "él/ella/usted": "hable",
+        "nosotros": "hablemos",
+        "vosotros": "habléis",
+        "ellos/ustedes": "hablen"
+      },
+      "hablar (imperfecto de subjuntivo)": {
+        "yo": "hablara",
+        "tú": "hablaras",
+        "él/ella/usted": "hablara",
+        "nosotros": "habláramos",
+        "vosotros": "hablarais",
+        "ellos/ustedes": "hablaran"
+      }
     },
     "examples": [
-      {"es": "Quiero que vengas a la fiesta.", "en": "I want you to come to the party.", "zh": "我想让你来参加派对。", "ja": "パーティーに来てほしい。"},
-      {"es": "No creo que sea verdad.", "en": "I don't think it's true.", "zh": "我不认为这是真的。", "ja": "本当だとは思わない。"},
-      {"es": "Es importante que practiques.", "en": "It's important that you practice.", "zh": "你练习很重要。", "ja": "練習することが大切だ。"}
+      {
+        "es": "Hoy he desayunado tarde, pero ayer desayuné a las siete.",
+        "en": "Today I had breakfast late, but yesterday I had breakfast at seven.",
+        "zh": "今天早饭吃得晚，但昨天七点就吃了。",
+        "ja": "今日は朝食が遅かったが、昨日は7時に食べた。"
+      },
+      {
+        "es": "Cuando llegué a la estación, el tren ya había salido.",
+        "en": "When I got to the station, the train had already left.",
+        "zh": "我到车站的时候，火车已经开走了。",
+        "ja": "駅に着いた時、電車はもう出ていた。"
+      },
+      {
+        "es": "Llovía y no había nadie en la calle.",
+        "en": "It was raining and there was nobody in the street.",
+        "zh": "当时在下雨，街上一个人都没有。",
+        "ja": "雨が降っていて、通りには誰もいなかった。"
+      },
+      {
+        "es": "—¿Dónde está Marta? —Estará en casa.",
+        "en": "—Where's Marta? —She must be at home.",
+        "zh": "——玛尔塔在哪儿？——应该在家吧。",
+        "ja": "「マルタはどこ？」「家にいるんじゃないかな。」"
+      },
+      {
+        "es": "Dijo que vendría, pero no ha venido.",
+        "en": "He said he would come, but he hasn't come.",
+        "zh": "他说会来，可是（到现在）还没来。",
+        "ja": "来ると言ったのに、まだ来ていない。"
+      },
+      {
+        "es": "Cuando termines, llámame.",
+        "en": "When you finish, call me.",
+        "zh": "你做完了就给我打电话。",
+        "ja": "終わったら電話して。"
+      },
+      {
+        "es": "Si tuviera más tiempo, aprendería japonés.",
+        "en": "If I had more time, I would learn Japanese.",
+        "zh": "要是我有更多时间，就会学日语。",
+        "ja": "もっと時間があれば、日本語を勉強するのに。"
+      }
     ]
   },
   {
-    "id": "subjunctive-triggers",
-    "title": {"en": "Subjunctive Triggers", "zh": "虚拟式触发词", "ja": "接続法トリガー"},
-    "summary": {"en": "Expressions that require subjunctive", "zh": "需要虚拟式的表达", "ja": "接続法を要求する表現"},
+    "id": "subjunctive-present",
+    "unit": 1,
+    "title": {
+      "en": "Present subjunctive",
+      "zh": "虚拟式现在时",
+      "ja": "接続法現在"
+    },
+    "summary": {
+      "en": "Formed from the yo form; sea, esté, vaya, haya, sepa, dé; WEIRDO triggers; cuando + subjunctive",
+      "zh": "由 yo 形构成；sea, esté, vaya, haya, sepa, dé；WEIRDO 触发词；cuando + 虚拟式",
+      "ja": "yo 形から作る・sea, esté, vaya, haya, sepa, dé・WEIRDO・cuando ＋ 接続法"
+    },
     "explanation": {
-      "en": "Learn which expressions trigger subjunctive:\n\n**Wishes/Desires:** querer que, desear que, esperar que, preferir que, necesitar que\n\n**Emotions:** me alegra que, me molesta que, me sorprende que, me da miedo que, es una pena que\n\n**Doubt/Denial:** no creo que, dudo que, no es verdad que, no es cierto que, es posible que, puede que\n\n**Requests/Orders:** pedir que, decir que (=tell to), recomendar que, sugerir que, aconsejar que\n\n**Impersonal:** es importante que, es necesario que, es mejor que, es normal que, es raro que\n\n**Purpose:** para que (so that)\n\n**NOT subjunctive (certainty):** creo que, es verdad que, es cierto que, es obvio que → INDICATIVE\n\nCreo que tiene razon (I think he's right — indicative)\nNo creo que tenga razon (I don't think he's right — subjunctive)",
-      "zh": "学习哪些表达触发虚拟式：\n\n**愿望：** querer que, desear que, esperar que, preferir que\n\n**情感：** me alegra que, me molesta que, me sorprende que, es una pena que\n\n**怀疑/否定：** no creo que, dudo que, es posible que, puede que\n\n**请求/命令：** pedir que, recomendar que, sugerir que, aconsejar que\n\n**无人称：** es importante que, es necesario que, es mejor que\n\n**目的：** para que（为了）\n\n**不用虚拟式（确定性）：** creo que, es verdad que → 直陈式\n\n关键区别：\n- Creo que tiene razon（我认为他对——确定→直陈式）\n- No creo que tenga razon（我不认为他对——怀疑→虚拟式）",
-      "ja": "接続法を引き起こす表現を覚えましょう：\n\n**願望：** querer que, desear que, esperar que, preferir que\n\n**感情：** me alegra que, me molesta que, me sorprende que, es una pena que\n\n**疑い/否定：** no creo que, dudo que, es posible que, puede que\n\n**依頼/命令：** pedir que, recomendar que, sugerir que, aconsejar que\n\n**非人称：** es importante que, es necesario que, es mejor que\n\n**目的：** para que（〜するために）\n\n**接続法を使わない（確実性）：** creo que, es verdad que → 直説法\n\n重要な区別：\n- Creo que tiene razon（正しいと思う——確信→直説法）\n- No creo que tenga razon（正しいと思わない——疑い→接続法）"
+      "en": "**Form: take the yo of the present, drop -o, swap the vowel**\n-ar verbs take **-e**, -er/-ir verbs take **-a** (the «opposite» vowel).\n\n<table><tr><th>Infinitive</th><th>yo (presente)</th><th>stem</th><th>subjunctive (yo)</th></tr><tr><td>hablar</td><td>habl-o</td><td>habl-</td><td>habl==e==</td></tr><tr><td>comer</td><td>com-o</td><td>com-</td><td>com==a==</td></tr><tr><td>vivir</td><td>viv-o</td><td>viv-</td><td>viv==a==</td></tr><tr><td>tener</td><td>ten==g==-o</td><td>teng-</td><td>teng==a==</td></tr><tr><td>hacer</td><td>ha==g==-o</td><td>hag-</td><td>hag==a==</td></tr><tr><td>conocer</td><td>cono==zc==-o</td><td>conozc-</td><td>conozc==a==</td></tr><tr><td>decir</td><td>di==g==-o</td><td>dig-</td><td>dig==a==</td></tr><tr><td>ver</td><td>ve-o</td><td>ve-</td><td>ve==a==</td></tr></table>\n\n<table><tr><th>Person</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr><tr><td>yo</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>tú</td><td>habl==es==</td><td>com==as==</td><td>viv==as==</td><td>teng==as==</td></tr><tr><td>él/ella/usted</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>nosotros/as</td><td>habl==emos==</td><td>com==amos==</td><td>viv==amos==</td><td>teng==amos==</td></tr><tr><td>vosotros/as</td><td>habl==éis==</td><td>com==áis==</td><td>viv==áis==</td><td>teng==áis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habl==en==</td><td>com==an==</td><td>viv==an==</td><td>teng==an==</td></tr></table>\n\nBecause it comes from yo, all yo-irregularities pass to every person: tengo → ==tenga, tengas, tengamos==; conozco → ==conozcamos==; pongo → ==ponga==; salgo → ==salga==.\n- **Stem-changing verbs** change like the present (not in nosotros/vosotros): quiera, quieras, ==queramos==; pueda, ==podamos==. -ir verbs keep a small change in nosotros: pedir → ==pidamos==, dormir → ==durmamos==, sentir → ==sintamos==.\n- **Spelling**: buscar → ==busque==, llegar → ==llegue==, empezar → ==empiece==, coger → ==coja==.\n\n**The six irregulars (yo does not end in -o)**\n\n<table><tr><th>Infinitive</th><th>yo</th><th>tú</th><th>nosotros</th><th>ellos</th></tr><tr><td>ser</td><td>==sea==</td><td>seas</td><td>seamos</td><td>sean</td></tr><tr><td>estar</td><td>==esté==</td><td>estés</td><td>estemos</td><td>estén</td></tr><tr><td>ir</td><td>==vaya==</td><td>vayas</td><td>vayamos</td><td>vayan</td></tr><tr><td>haber</td><td>==haya==</td><td>hayas</td><td>hayamos</td><td>hayan</td></tr><tr><td>saber</td><td>==sepa==</td><td>sepas</td><td>sepamos</td><td>sepan</td></tr><tr><td>dar</td><td>==dé==</td><td>des</td><td>demos</td><td>den</td></tr></table>\n\n**When to use it: two different subjects + a trigger (WEIRDO)**\n\n<table><tr><th>W·E·I·R·D·O</th><th>Triggers</th><th>Example</th></tr><tr><td>**W**ishes</td><td>querer que, esperar que, preferir que</td><td>Quiero que ==vengas==.</td></tr><tr><td>**E**motions</td><td>me alegro de que, me molesta que, siento que, me encanta que</td><td>Me alegro de que ==estés== aquí.</td></tr><tr><td>**I**mpersonal expressions</td><td>es importante que, es normal que, es una pena que, es posible que</td><td>Es importante que ==sepáis== la verdad.</td></tr><tr><td>**R**ecommendations / requests</td><td>recomendar que, pedir que, aconsejar que, decir que (= order)</td><td>Te recomiendo que ==vayas== al médico.</td></tr><tr><td>**D**oubt / denial</td><td>no creo que, dudo que, no es verdad que, no pienso que</td><td>No creo que ==sea== verdad.</td></tr><tr><td>**O**jalá</td><td>ojalá (que)</td><td>Ojalá ==haga== sol mañana.</td></tr></table>\n\n- **Same subject → infinitive**: Quiero ==ir== (I want to go) vs Quiero que ==vayas== (I want you to go).\n- **Belief vs doubt**: Creo que ==es== verdad (indicative) vs No creo que ==sea== verdad (subjunctive).\n- **Always subjunctive**: para que, antes de que, sin que: Te lo explico para que lo ==entiendas==.\n\n**cuando + subjunctive for the future**\n- Future → subjunctive: Cuando ==llegues==, llámame. Cuando ==sea== mayor, seré médica.\n- Habit or past → indicative: Cuando ==llego== a casa, ceno. Cuando ==llegué==, cené.\nThe same with en cuanto, hasta que, después de que: En cuanto ==sepa== algo, te aviso.\n\n**For English speakers**\n- English uses an infinitive: «I want you to come» → Quiero que ==vengas== (~~Quiero tú venir~~ / ~~Quiero que vienes~~). «She asked me to help» → Me pidió que la ==ayudara==.\n- English «when» + present for the future = Spanish cuando + **subjunctive**: «When you arrive» → Cuando ==llegues==.\n- English «I hope it's sunny» → Ojalá ==haga== sol / Espero que ==haga== sol.\n\n**Common mistakes**\n- ~~Espero que vienes~~ → Espero que ==vengas==.\n- ~~Cuando llegarás~~ → Cuando ==llegues==.\n- ~~No creo que es verdad~~ → No creo que ==sea== verdad.\n- ~~Quiero que voy~~ → Quiero ==ir==.",
+      "zh": "**构成：取现在时 yo 形，去掉 -o，换元音**\n-ar 动词换成 **-e**，-er/-ir 动词换成 **-a**（“对面的”元音）。\n\n<table><tr><th>不定式</th><th>yo（现在时）</th><th>词干</th><th>虚拟式（yo）</th></tr><tr><td>hablar</td><td>habl-o</td><td>habl-</td><td>habl==e==</td></tr><tr><td>comer</td><td>com-o</td><td>com-</td><td>com==a==</td></tr><tr><td>vivir</td><td>viv-o</td><td>viv-</td><td>viv==a==</td></tr><tr><td>tener</td><td>ten==g==-o</td><td>teng-</td><td>teng==a==</td></tr><tr><td>hacer</td><td>ha==g==-o</td><td>hag-</td><td>hag==a==</td></tr><tr><td>conocer</td><td>cono==zc==-o</td><td>conozc-</td><td>conozc==a==</td></tr><tr><td>decir</td><td>di==g==-o</td><td>dig-</td><td>dig==a==</td></tr><tr><td>ver</td><td>ve-o</td><td>ve-</td><td>ve==a==</td></tr></table>\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr><tr><td>yo</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>tú</td><td>habl==es==</td><td>com==as==</td><td>viv==as==</td><td>teng==as==</td></tr><tr><td>él/ella/usted</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>nosotros/as</td><td>habl==emos==</td><td>com==amos==</td><td>viv==amos==</td><td>teng==amos==</td></tr><tr><td>vosotros/as</td><td>habl==éis==</td><td>com==áis==</td><td>viv==áis==</td><td>teng==áis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habl==en==</td><td>com==an==</td><td>viv==an==</td><td>teng==an==</td></tr></table>\n\n因为来自 yo 形，yo 的不规则会带到所有人称：tengo → ==tenga, tengas, tengamos==；conozco → ==conozcamos==；pongo → ==ponga==；salgo → ==salga==。\n- **词干变化动词**和现在时一样变（nosotros/vosotros 不变）：quiera, quieras, ==queramos==；pueda, ==podamos==。-ir 动词在 nosotros 中有小变化：pedir → ==pidamos==，dormir → ==durmamos==，sentir → ==sintamos==。\n- **拼写变化**：buscar → ==busque==，llegar → ==llegue==，empezar → ==empiece==，coger → ==coja==。\n\n**六个不规则动词（yo 不以 -o 结尾）**\n\n<table><tr><th>不定式</th><th>yo</th><th>tú</th><th>nosotros</th><th>ellos</th></tr><tr><td>ser</td><td>==sea==</td><td>seas</td><td>seamos</td><td>sean</td></tr><tr><td>estar</td><td>==esté==</td><td>estés</td><td>estemos</td><td>estén</td></tr><tr><td>ir</td><td>==vaya==</td><td>vayas</td><td>vayamos</td><td>vayan</td></tr><tr><td>haber</td><td>==haya==</td><td>hayas</td><td>hayamos</td><td>hayan</td></tr><tr><td>saber</td><td>==sepa==</td><td>sepas</td><td>sepamos</td><td>sepan</td></tr><tr><td>dar</td><td>==dé==</td><td>des</td><td>demos</td><td>den</td></tr></table>\n\n**什么时候用：两个不同主语 + 触发词（WEIRDO）**\n\n<table><tr><th>W·E·I·R·D·O</th><th>触发词</th><th>例句</th></tr><tr><td>**W** 愿望</td><td>querer que, esperar que, preferir que</td><td>Quiero que ==vengas==.</td></tr><tr><td>**E** 情感</td><td>me alegro de que, me molesta que, siento que, me encanta que</td><td>Me alegro de que ==estés== aquí.</td></tr><tr><td>**I** 无人称评价</td><td>es importante que, es normal que, es una pena que, es posible que</td><td>Es importante que ==sepáis== la verdad.</td></tr><tr><td>**R** 建议/请求</td><td>recomendar que, pedir que, aconsejar que, decir que （= 命令）</td><td>Te recomiendo que ==vayas== al médico.</td></tr><tr><td>**D** 怀疑/否定</td><td>no creo que, dudo que, no es verdad que, no pienso que</td><td>No creo que ==sea== verdad.</td></tr><tr><td>**O** ojalá</td><td>ojalá (que)</td><td>Ojalá ==haga== sol mañana.</td></tr></table>\n\n- **主语相同 → 不定式**：Quiero ==ir==（我想去）/ Quiero que ==vayas==（我想让你去）。\n- **相信与怀疑**：Creo que ==es== verdad（陈述式）/ No creo que ==sea== verdad（虚拟式）。\n- **总是虚拟式**：para que, antes de que, sin que：Te lo explico para que lo ==entiendas==.\n\n**cuando + 虚拟式表示将来**\n- 将来 → 虚拟式：Cuando ==llegues==, llámame.（你到了就给我打电话。）Cuando ==sea== mayor, seré médica.\n- 习惯或过去 → 陈述式：Cuando ==llego== a casa, ceno. Cuando ==llegué==, cené.\nen cuanto, hasta que, después de que 也一样：En cuanto ==sepa== algo, te aviso.\n\n**给中文母语者的提示**\n- 中文没有“语气”的变位：“我希望你来”和“我知道你来”里的“来”一模一样。西班牙语里，主句动词表示愿望、情感、怀疑时，que 后面的动词要用虚拟式：Espero que ==vengas== / Sé que ==vienes==。\n- “让/叫某人做某事” → querer / pedir / decir que + 虚拟式：妈妈叫我回家 → Mi madre me dice que ==vuelva== a casa。\n- “……的时候”“等……以后”指将来 → cuando + 虚拟式：等你有时间 → cuando ==tengas== tiempo。\n- “但愿/希望” → ojalá + 虚拟式：但愿明天不下雨 → Ojalá no ==llueva== mañana。\n\n**常见错误**\n- ~~Espero que vienes~~ → Espero que ==vengas==.\n- ~~Cuando llegarás~~ → Cuando ==llegues==.\n- ~~No creo que es verdad~~ → No creo que ==sea== verdad.\n- ~~Quiero que voy~~ → Quiero ==ir==.",
+      "ja": "**形：現在形 yo から -o を取り、母音を入れ替える**\n-ar 動詞は **-e**、-er/-ir 動詞は **-a**（「反対の」母音）になります。\n\n<table><tr><th>不定詞</th><th>yo（現在形）</th><th>語幹</th><th>接続法（yo）</th></tr><tr><td>hablar</td><td>habl-o</td><td>habl-</td><td>habl==e==</td></tr><tr><td>comer</td><td>com-o</td><td>com-</td><td>com==a==</td></tr><tr><td>vivir</td><td>viv-o</td><td>viv-</td><td>viv==a==</td></tr><tr><td>tener</td><td>ten==g==-o</td><td>teng-</td><td>teng==a==</td></tr><tr><td>hacer</td><td>ha==g==-o</td><td>hag-</td><td>hag==a==</td></tr><tr><td>conocer</td><td>cono==zc==-o</td><td>conozc-</td><td>conozc==a==</td></tr><tr><td>decir</td><td>di==g==-o</td><td>dig-</td><td>dig==a==</td></tr><tr><td>ver</td><td>ve-o</td><td>ve-</td><td>ve==a==</td></tr></table>\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr><tr><td>yo</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>tú</td><td>habl==es==</td><td>com==as==</td><td>viv==as==</td><td>teng==as==</td></tr><tr><td>él/ella/usted</td><td>habl==e==</td><td>com==a==</td><td>viv==a==</td><td>teng==a==</td></tr><tr><td>nosotros/as</td><td>habl==emos==</td><td>com==amos==</td><td>viv==amos==</td><td>teng==amos==</td></tr><tr><td>vosotros/as</td><td>habl==éis==</td><td>com==áis==</td><td>viv==áis==</td><td>teng==áis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habl==en==</td><td>com==an==</td><td>viv==an==</td><td>teng==an==</td></tr></table>\n\nyo 形から作るので、yo の不規則はすべての人称に引き継がれます：tengo → ==tenga, tengas, tengamos==、conozco → ==conozcamos==、pongo → ==ponga==、salgo → ==salga==。\n- **語幹母音変化動詞**は現在形と同じように変化（nosotros/vosotros は変化なし）：quiera, quieras, ==queramos==、pueda, ==podamos==。-ir 動詞は nosotros でも少し変化：pedir → ==pidamos==、dormir → ==durmamos==、sentir → ==sintamos==。\n- **綴りの変化**：buscar → ==busque==、llegar → ==llegue==、empezar → ==empiece==、coger → ==coja==。\n\n**6つの不規則動詞（yo が -o で終わらない）**\n\n<table><tr><th>不定詞</th><th>yo</th><th>tú</th><th>nosotros</th><th>ellos</th></tr><tr><td>ser</td><td>==sea==</td><td>seas</td><td>seamos</td><td>sean</td></tr><tr><td>estar</td><td>==esté==</td><td>estés</td><td>estemos</td><td>estén</td></tr><tr><td>ir</td><td>==vaya==</td><td>vayas</td><td>vayamos</td><td>vayan</td></tr><tr><td>haber</td><td>==haya==</td><td>hayas</td><td>hayamos</td><td>hayan</td></tr><tr><td>saber</td><td>==sepa==</td><td>sepas</td><td>sepamos</td><td>sepan</td></tr><tr><td>dar</td><td>==dé==</td><td>des</td><td>demos</td><td>den</td></tr></table>\n\n**いつ使うか：主語が2つ ＋ 引き金（WEIRDO）**\n\n<table><tr><th>W·E·I·R·D·O</th><th>引き金になる表現</th><th>例</th></tr><tr><td>**W** 願望</td><td>querer que, esperar que, preferir que</td><td>Quiero que ==vengas==.</td></tr><tr><td>**E** 感情</td><td>me alegro de que, me molesta que, siento que, me encanta que</td><td>Me alegro de que ==estés== aquí.</td></tr><tr><td>**I** 非人称の評価</td><td>es importante que, es normal que, es una pena que, es posible que</td><td>Es importante que ==sepáis== la verdad.</td></tr><tr><td>**R** 勧め・依頼</td><td>recomendar que, pedir que, aconsejar que, decir que （= 命令）</td><td>Te recomiendo que ==vayas== al médico.</td></tr><tr><td>**D** 疑い・否定</td><td>no creo que, dudo que, no es verdad que, no pienso que</td><td>No creo que ==sea== verdad.</td></tr><tr><td>**O** ojalá</td><td>ojalá (que)</td><td>Ojalá ==haga== sol mañana.</td></tr></table>\n\n- **主語が同じ → 不定詞**：Quiero ==ir==（私は行きたい）／Quiero que ==vayas==（君に行ってほしい）。\n- **確信と疑い**：Creo que ==es== verdad（直説法）／No creo que ==sea== verdad（接続法）。\n- **常に接続法**：para que, antes de que, sin que：Te lo explico para que lo ==entiendas==.\n\n**cuando ＋ 接続法で未来を表す**\n- 未来 → 接続法：Cuando ==llegues==, llámame.（着いたら電話して。）Cuando ==sea== mayor, seré médica.\n- 習慣・過去 → 直説法：Cuando ==llego== a casa, ceno. Cuando ==llegué==, cené.\nen cuanto, hasta que, después de que も同じ：En cuanto ==sepa== algo, te aviso.\n\n**日本語話者のためのポイント**\n- 「〜てほしい」= querer que ＋ 接続法：来てほしい → Quiero que ==vengas==。「〜てください」と頼んだことを伝えるとき → Me pide que ==venga==。\n- 「〜たら」「〜とき」が未来を指すなら cuando ＋ 接続法：大人になったら → Cuando ==sea== mayor。習慣なら直説法：家に帰ると → Cuando ==llego== a casa。\n- 「〜とは思わない」→ No creo que ＋ 接続法。日本語では「思う」「思わない」で後ろの動詞は変わりませんが、スペイン語は変わります。\n- 「〜といいな」→ Ojalá ＋ 接続法：晴れるといいな → Ojalá ==haga== sol。\n\n**よくある間違い**\n- ~~Espero que vienes~~ → Espero que ==vengas==.\n- ~~Cuando llegarás~~ → Cuando ==llegues==.\n- ~~No creo que es verdad~~ → No creo que ==sea== verdad.\n- ~~Quiero que voy~~ → Quiero ==ir==."
+    },
+    "conjugation": {
+      "hablar (presente de subjuntivo)": {
+        "yo": "hable",
+        "tú": "hables",
+        "él/ella/usted": "hable",
+        "nosotros": "hablemos",
+        "vosotros": "habléis",
+        "ellos/ustedes": "hablen"
+      },
+      "tener (presente de subjuntivo)": {
+        "yo": "tenga",
+        "tú": "tengas",
+        "él/ella/usted": "tenga",
+        "nosotros": "tengamos",
+        "vosotros": "tengáis",
+        "ellos/ustedes": "tengan"
+      },
+      "ser (presente de subjuntivo)": {
+        "yo": "sea",
+        "tú": "seas",
+        "él/ella/usted": "sea",
+        "nosotros": "seamos",
+        "vosotros": "seáis",
+        "ellos/ustedes": "sean"
+      },
+      "ir (presente de subjuntivo)": {
+        "yo": "vaya",
+        "tú": "vayas",
+        "él/ella/usted": "vaya",
+        "nosotros": "vayamos",
+        "vosotros": "vayáis",
+        "ellos/ustedes": "vayan"
+      },
+      "estar (presente de subjuntivo)": {
+        "yo": "esté",
+        "tú": "estés",
+        "él/ella/usted": "esté",
+        "nosotros": "estemos",
+        "vosotros": "estéis",
+        "ellos/ustedes": "estén"
+      },
+      "dar (presente de subjuntivo)": {
+        "yo": "dé",
+        "tú": "des",
+        "él/ella/usted": "dé",
+        "nosotros": "demos",
+        "vosotros": "deis",
+        "ellos/ustedes": "den"
+      }
     },
     "examples": [
-      {"es": "Espero que te mejores pronto.", "en": "I hope you get better soon.", "zh": "希望你快点好起来。", "ja": "早く良くなるといいね。"},
-      {"es": "Me molesta que llegues tarde.", "en": "It bothers me that you arrive late.", "zh": "你迟到让我烦。", "ja": "遅刻されると困る。"},
-      {"es": "Te recomiendo que vayas al medico.", "en": "I recommend you go to the doctor.", "zh": "我建议你去看医生。", "ja": "医者に行くことをお勧めする。"}
+      {
+        "es": "Quiero que vengas a mi cumpleaños.",
+        "en": "I want you to come to my birthday.",
+        "zh": "我希望你来参加我的生日会。",
+        "ja": "誕生日に来てほしい。"
+      },
+      {
+        "es": "Me alegro de que estés mejor.",
+        "en": "I'm glad you're better.",
+        "zh": "很高兴你好些了。",
+        "ja": "具合が良くなってよかった。"
+      },
+      {
+        "es": "No creo que sea tan difícil.",
+        "en": "I don't think it's that difficult.",
+        "zh": "我不认为有那么难。",
+        "ja": "そんなに難しいとは思わない。"
+      },
+      {
+        "es": "Es importante que sepáis la verdad.",
+        "en": "It's important that you all know the truth.",
+        "zh": "你们知道真相很重要。",
+        "ja": "君たちが真実を知ることは大切だ。"
+      },
+      {
+        "es": "Cuando llegues a Madrid, llámame.",
+        "en": "When you get to Madrid, call me.",
+        "zh": "你到了马德里就给我打电话。",
+        "ja": "マドリードに着いたら電話して。"
+      },
+      {
+        "es": "Ojalá no llueva el sábado.",
+        "en": "I hope it doesn't rain on Saturday.",
+        "zh": "但愿星期六别下雨。",
+        "ja": "土曜日、雨が降らないといいな。"
+      },
+      {
+        "es": "Te lo repito para que no se te olvide.",
+        "en": "I'm repeating it so that you don't forget.",
+        "zh": "我再说一遍，免得你忘了。",
+        "ja": "忘れないようにもう一度言うね。"
+      }
     ]
   },
   {
     "id": "past-subjunctive",
-    "title": {"en": "Past Subjunctive (Imperfect)", "zh": "虚拟式过去时", "ja": "接続法過去"},
-    "summary": {"en": "si yo fuera, si tuviera... (if I were)", "zh": "如果我是……如果我有……", "ja": "もし〜だったら、もし〜があれば"},
+    "unit": 2,
+    "title": {
+      "en": "Imperfect (past) subjunctive",
+      "zh": "虚拟式过去时",
+      "ja": "接続法過去"
+    },
+    "summary": {
+      "en": "From ellos (indefinido): hablaran/hablasen, tuviera, fuera; si + imperf. subj. + conditional",
+      "zh": "由简单过去时 ellos 形构成：hablaran/hablasen, tuviera, fuera；si + 虚拟式过去时 + 条件式",
+      "ja": "点過去 ellos 形から：hablaran/hablasen, tuviera, fuera・si ＋ 接続法過去 ＋ 過去未来"
+    },
     "explanation": {
-      "en": "For hypothetical/unreal conditions and past wishes:\n\n**Formation:** From ellos preterite, remove -ron, add:\n-ra, -ras, -ra, -ramos, -ran\n\n- hablar: hablaron → habla-ra, habla-ras, habla-ra...\n- comer: comieron → comie-ra, comie-ras...\n- tener: tuvieron → tuvie-ra, tuvie-ras...\n- ser/ir: fueron → fue-ra, fue-ras...\n\n**Uses:**\n- Si clauses (unreal): Si tuviera dinero, viajaria (If I had money, I'd travel)\n- Past wishes: Queria que vinieras (I wanted you to come)\n- Polite: Quisiera un cafe (I'd like a coffee)\n\n**Si + past subjunctive + conditional:**\nSi fuera rico, compraria una casa\n(If I were rich, I would buy a house)",
-      "zh": "用于假设/不现实的条件和过去的愿望：\n\n**构成：** 从ellos过去时去掉-ron，加：\n-ra, -ras, -ra, -ramos, -ran\n\n- hablar: hablaron → hablara\n- tener: tuvieron → tuviera\n- ser/ir: fueron → fuera\n\n**用法：**\n- Si条件句（不现实）：Si tuviera dinero, viajaria（如果我有钱，我会旅行）\n- 过去的愿望：Queria que vinieras（我想让你来）\n- 礼貌：Quisiera un cafe（我想要一杯咖啡）\n\n**公式：Si + 虚拟式过去 + 条件式**\nSi fuera rico, compraria una casa\n（如果我有钱，我会买房子）",
-      "ja": "仮定・非現実の条件と過去の願望に使います：\n\n**作り方：** ellosの点過去から-ronを取り、以下を付ける：\n-ra, -ras, -ra, -ramos, -ran\n\n- hablar: hablaron → hablara\n- tener: tuvieron → tuviera\n- ser/ir: fueron → fuera\n\n**用法：**\n- Si条件文（非現実）：Si tuviera dinero, viajaria（お金があったら旅行するのに）\n- 過去の願望：Queria que vinieras（来てほしかった）\n- 丁寧：Quisiera un cafe（コーヒーをいただきたいのですが）\n\n**公式：Si + 接続法過去 + 条件法**\nSi fuera rico, compraria una casa\n（金持ちだったら家を買うのに）"
+      "en": "**Form: 3rd person plural of the indefinido – -ron + -ra / -se**\nIf you know «ellos hablaron, tuvieron, fueron», you know the imperfect subjunctive. Every irregularity of the indefinido is kept.\n\n<table><tr><th>Infinitive</th><th>ellos (indefinido)</th><th>-ra</th><th>-se</th></tr><tr><td>hablar</td><td>habla==ron==</td><td>habla==ra==</td><td>habla==se==</td></tr><tr><td>comer</td><td>comie==ron==</td><td>comie==ra==</td><td>comie==se==</td></tr><tr><td>vivir</td><td>vivie==ron==</td><td>vivie==ra==</td><td>vivie==se==</td></tr><tr><td>tener</td><td>==tuvie==ron</td><td>tuvie==ra==</td><td>tuvie==se==</td></tr><tr><td>hacer</td><td>==hicie==ron</td><td>hicie==ra==</td><td>hicie==se==</td></tr><tr><td>ser / ir</td><td>==fue==ron</td><td>fue==ra==</td><td>fue==se==</td></tr><tr><td>decir</td><td>==dije==ron</td><td>dije==ra==</td><td>dije==se==</td></tr><tr><td>pedir</td><td>==pidie==ron</td><td>pidie==ra==</td><td>pidie==se==</td></tr><tr><td>dormir</td><td>==durmie==ron</td><td>durmie==ra==</td><td>durmie==se==</td></tr><tr><td>estar / poder / saber</td><td>==estuvie==ron / ==pudie==ron / ==supie==ron</td><td>estuviera / pudiera / supiera</td><td>estuviese / pudiese / supiese</td></tr></table>\n\n<table><tr><th>Person</th><th>hablar (-ra)</th><th>tener (-ra)</th><th>ser/ir (-ra)</th><th>hablar (-se)</th></tr><tr><td>yo</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>tú</td><td>habla==ras==</td><td>tuvie==ras==</td><td>fue==ras==</td><td>habla==ses==</td></tr><tr><td>él/ella/usted</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>nosotros/as</td><td>hablá==ramos==</td><td>tuvié==ramos==</td><td>fué==ramos==</td><td>hablá==semos==</td></tr><tr><td>vosotros/as</td><td>habla==rais==</td><td>tuvie==rais==</td><td>fue==rais==</td><td>habla==seis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habla==ran==</td><td>tuvie==ran==</td><td>fue==ran==</td><td>habla==sen==</td></tr></table>\n\n- **nosotros always has an accent**: habl==á==ramos, tuvi==é==ramos, fu==é==ramos.\n- **-ra and -se are equivalent**: si tuviera = si tuviese. -ra is more common in speech everywhere; -se is still very alive in Spain, especially in writing. Only -ra is used in polite quisiera / debiera.\n- ser and ir share the same form (fuera): context decides. Si ==fuera== rico (ser) / Si ==fuera== a Madrid (ir).\n\n**When to use it**\n\n<table><tr><th>Use</th><th>Example</th></tr><tr><td>Trigger in the PAST (sequence of tenses)</td><td>Quiero que ==vengas== → Quería que ==vinieras==. Me pidió que la ==ayudara==.</td></tr><tr><td>Unreal condition: si + imperf. subj. → conditional</td><td>Si ==tuviera== tiempo, iría contigo. Si ==fuera== tú, no lo haría.</td></tr><tr><td>Unlikely / impossible wish</td><td>Ojalá ==estuvieras== aquí. Ojalá ==tuviera== veinte años menos.</td></tr><tr><td>como si (as if)</td><td>Habla ==como si lo supiera== todo.</td></tr><tr><td>Polite request</td><td>==Quisiera== hablar con usted un momento.</td></tr></table>\n\n**si-clauses at B1**\n- Real/possible: Si ==tengo== tiempo, ==iré== (si + presente → futuro/presente/imperativo).\n- Unreal or unlikely in the present/future: Si ==tuviera== tiempo, ==iría== (si + imperf. subj. → conditional).\n- Never conditional or present subjunctive after si: ~~si tendría~~, ~~si tenga~~.\n\n**Ojalá: three degrees**\nOjalá ==venga== (possible) – Ojalá ==viniera== (unlikely) – Ojalá ==hubiera venido== (past, too late; B2).\n\n**For English speakers**\n- «If I were / If I had» → Si ==fuera== / Si ==tuviera== (not «would»: ~~si sería~~).\n- «I wanted you to come» → Quería que ==vinieras== (English keeps the infinitive; Spanish needs que + subjunctive in the past).\n- «I wish you were here» → Ojalá ==estuvieras== aquí; «as if he knew» → como si ==supiera==.\n\n**Common mistakes**\n- ~~Si tendría dinero, viajaría~~ → Si ==tuviera== dinero, viajaría.\n- ~~Quería que vengas~~ → Quería que ==vinieras==.\n- ~~tenieran / hacieran~~ → use the indefinido stem: ==tuvieran==, ==hicieran==.\n- ~~hablaramos~~ → ==habláramos==.",
+      "zh": "**构成：简单过去时第三人称复数 – 去掉 -ron + -ra / -se**\n只要会 ellos hablaron, tuvieron, fueron，就会虚拟式过去时。简单过去时的所有不规则都保留。\n\n<table><tr><th>不定式</th><th>ellos（简单过去时）</th><th>-ra</th><th>-se</th></tr><tr><td>hablar</td><td>habla==ron==</td><td>habla==ra==</td><td>habla==se==</td></tr><tr><td>comer</td><td>comie==ron==</td><td>comie==ra==</td><td>comie==se==</td></tr><tr><td>vivir</td><td>vivie==ron==</td><td>vivie==ra==</td><td>vivie==se==</td></tr><tr><td>tener</td><td>==tuvie==ron</td><td>tuvie==ra==</td><td>tuvie==se==</td></tr><tr><td>hacer</td><td>==hicie==ron</td><td>hicie==ra==</td><td>hicie==se==</td></tr><tr><td>ser / ir</td><td>==fue==ron</td><td>fue==ra==</td><td>fue==se==</td></tr><tr><td>decir</td><td>==dije==ron</td><td>dije==ra==</td><td>dije==se==</td></tr><tr><td>pedir</td><td>==pidie==ron</td><td>pidie==ra==</td><td>pidie==se==</td></tr><tr><td>dormir</td><td>==durmie==ron</td><td>durmie==ra==</td><td>durmie==se==</td></tr><tr><td>estar / poder / saber</td><td>==estuvie==ron / ==pudie==ron / ==supie==ron</td><td>estuviera / pudiera / supiera</td><td>estuviese / pudiese / supiese</td></tr></table>\n\n<table><tr><th>人称</th><th>hablar (-ra)</th><th>tener (-ra)</th><th>ser/ir (-ra)</th><th>hablar (-se)</th></tr><tr><td>yo</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>tú</td><td>habla==ras==</td><td>tuvie==ras==</td><td>fue==ras==</td><td>habla==ses==</td></tr><tr><td>él/ella/usted</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>nosotros/as</td><td>hablá==ramos==</td><td>tuvié==ramos==</td><td>fué==ramos==</td><td>hablá==semos==</td></tr><tr><td>vosotros/as</td><td>habla==rais==</td><td>tuvie==rais==</td><td>fue==rais==</td><td>habla==seis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habla==ran==</td><td>tuvie==ran==</td><td>fue==ran==</td><td>habla==sen==</td></tr></table>\n\n- **nosotros 总有重音符号**：habl==á==ramos, tuvi==é==ramos, fu==é==ramos。\n- **-ra 和 -se 意义相同**：si tuviera = si tuviese。各地口语都多用 -ra；在西班牙 -se 依然很常用，尤其在书面语。礼貌用语 quisiera 只用 -ra。\n- ser 和 ir 形式相同（fuera），靠上下文区分：Si ==fuera== rico（ser）/ Si ==fuera== a Madrid（ir）。\n\n**什么时候用**\n\n<table><tr><th>用法</th><th>例句</th></tr><tr><td>主句是过去时（时态配合）</td><td>Quiero que ==vengas== → Quería que ==vinieras==. Me pidió que la ==ayudara==.</td></tr><tr><td>非真实条件：si + 虚拟式过去时 → 条件式</td><td>Si ==tuviera== tiempo, iría contigo. Si ==fuera== tú, no lo haría.</td></tr><tr><td>不太可能 / 不可能的愿望</td><td>Ojalá ==estuvieras== aquí. Ojalá ==tuviera== veinte años menos.</td></tr><tr><td>como si（好像）</td><td>Habla ==como si lo supiera== todo.</td></tr><tr><td>礼貌请求</td><td>==Quisiera== hablar con usted un momento.</td></tr></table>\n\n**B1 的 si 条件句**\n- 真实/可能：Si ==tengo== tiempo, ==iré==.（si + 现在时 → 将来时/现在时/命令式）\n- 现在或将来不真实、不太可能：Si ==tuviera== tiempo, ==iría==.（si + 虚拟式过去时 → 条件式）\n- si 后面绝不用条件式或虚拟式现在时：~~si tendría~~，~~si tenga~~。\n\n**Ojalá 的三个程度**\nOjalá ==venga==（有可能）– Ojalá ==viniera==（不太可能）– Ojalá ==hubiera venido==（过去的、已经晚了；B2）。\n\n**给中文母语者的提示**\n- 中文“要是/如果……就……”不分真假；西班牙语要判断：可能发生 → si + 现在时；不可能或纯属想象 → si + 虚拟式过去时 + 条件式。要是我是你 → Si yo ==fuera== tú。\n- 主句动词是过去时（quería, pedí, me alegré），que 后面就用虚拟式过去时：他叫我帮他 → Me pidió que lo ==ayudara==。\n- “好像……一样” → como si + 虚拟式过去时：他说得好像什么都知道 → Habla como si lo ==supiera== todo。\n\n**常见错误**\n- ~~Si tendría dinero, viajaría~~ → Si ==tuviera== dinero, viajaría.\n- ~~Quería que vengas~~ → Quería que ==vinieras==.\n- ~~tenieran / hacieran~~ → 用简单过去时词干：==tuvieran==, ==hicieran==。\n- ~~hablaramos~~ → ==habláramos==.",
+      "ja": "**形：点過去3人称複数から -ron を取り ＋ -ra / -se**\nellos hablaron, tuvieron, fueron を知っていれば、接続法過去も作れます。点過去の不規則はすべてそのまま。\n\n<table><tr><th>不定詞</th><th>ellos（点過去）</th><th>-ra</th><th>-se</th></tr><tr><td>hablar</td><td>habla==ron==</td><td>habla==ra==</td><td>habla==se==</td></tr><tr><td>comer</td><td>comie==ron==</td><td>comie==ra==</td><td>comie==se==</td></tr><tr><td>vivir</td><td>vivie==ron==</td><td>vivie==ra==</td><td>vivie==se==</td></tr><tr><td>tener</td><td>==tuvie==ron</td><td>tuvie==ra==</td><td>tuvie==se==</td></tr><tr><td>hacer</td><td>==hicie==ron</td><td>hicie==ra==</td><td>hicie==se==</td></tr><tr><td>ser / ir</td><td>==fue==ron</td><td>fue==ra==</td><td>fue==se==</td></tr><tr><td>decir</td><td>==dije==ron</td><td>dije==ra==</td><td>dije==se==</td></tr><tr><td>pedir</td><td>==pidie==ron</td><td>pidie==ra==</td><td>pidie==se==</td></tr><tr><td>dormir</td><td>==durmie==ron</td><td>durmie==ra==</td><td>durmie==se==</td></tr><tr><td>estar / poder / saber</td><td>==estuvie==ron / ==pudie==ron / ==supie==ron</td><td>estuviera / pudiera / supiera</td><td>estuviese / pudiese / supiese</td></tr></table>\n\n<table><tr><th>人称</th><th>hablar (-ra)</th><th>tener (-ra)</th><th>ser/ir (-ra)</th><th>hablar (-se)</th></tr><tr><td>yo</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>tú</td><td>habla==ras==</td><td>tuvie==ras==</td><td>fue==ras==</td><td>habla==ses==</td></tr><tr><td>él/ella/usted</td><td>habla==ra==</td><td>tuvie==ra==</td><td>fue==ra==</td><td>habla==se==</td></tr><tr><td>nosotros/as</td><td>hablá==ramos==</td><td>tuvié==ramos==</td><td>fué==ramos==</td><td>hablá==semos==</td></tr><tr><td>vosotros/as</td><td>habla==rais==</td><td>tuvie==rais==</td><td>fue==rais==</td><td>habla==seis==</td></tr><tr><td>ellos/ellas/ustedes</td><td>habla==ran==</td><td>tuvie==ran==</td><td>fue==ran==</td><td>habla==sen==</td></tr></table>\n\n- **nosotros には必ずアクセント記号**：habl==á==ramos, tuvi==é==ramos, fu==é==ramos。\n- **-ra と -se は同じ意味**：si tuviera = si tuviese。会話ではどこでも -ra が多いですが、スペインでは -se も特に書き言葉で生きています。丁寧な quisiera は -ra のみ。\n- ser と ir は同じ形（fuera）。文脈で判断：Si ==fuera== rico（ser）／Si ==fuera== a Madrid（ir）。\n\n**いつ使うか**\n\n<table><tr><th>用法</th><th>例</th></tr><tr><td>主節が過去（時制の一致）</td><td>Quiero que ==vengas== → Quería que ==vinieras==. Me pidió que la ==ayudara==.</td></tr><tr><td>非現実の条件：si ＋ 接続法過去 → 過去未来</td><td>Si ==tuviera== tiempo, iría contigo. Si ==fuera== tú, no lo haría.</td></tr><tr><td>実現しにくい・不可能な願望</td><td>Ojalá ==estuvieras== aquí. Ojalá ==tuviera== veinte años menos.</td></tr><tr><td>como si（まるで〜のように）</td><td>Habla ==como si lo supiera== todo.</td></tr><tr><td>丁寧な依頼</td><td>==Quisiera== hablar con usted un momento.</td></tr></table>\n\n**B1 の si 条件文**\n- 現実・可能：Si ==tengo== tiempo, ==iré==.（si ＋ 現在形 → 未来・現在・命令）\n- 現在・未来の非現実、実現しにくいこと：Si ==tuviera== tiempo, ==iría==.（si ＋ 接続法過去 → 過去未来）\n- si の後に過去未来や接続法現在は使いません：~~si tendría~~、~~si tenga~~。\n\n**Ojalá の3段階**\nOjalá ==venga==（可能性あり）– Ojalá ==viniera==（実現しにくい）– Ojalá ==hubiera venido==（過去・もう遅い、B2）。\n\n**日本語話者のためのポイント**\n- 日本語の「〜ば」「〜たら」は現実・非現実を形で区別しませんが、スペイン語は区別します：「時間があったら行く」（可能）→ Si ==tengo== tiempo, iré。「時間があれば行くのに」（非現実）→ Si ==tuviera== tiempo, ==iría==。「〜のに」は非現実のサインです。\n- 主節が過去（quería, pedí）なら、que の後も過去に：手伝ってと頼まれた → Me pidió que la ==ayudara==。日本語は「手伝って」のままでも、スペイン語は時制を合わせます。\n- 「まるで〜かのように」→ como si ＋ 接続法過去。\n\n**よくある間違い**\n- ~~Si tendría dinero, viajaría~~ → Si ==tuviera== dinero, viajaría.\n- ~~Quería que vengas~~ → Quería que ==vinieras==.\n- ~~tenieran / hacieran~~ → 点過去の語幹で：==tuvieran==, ==hicieran==。\n- ~~hablaramos~~ → ==habláramos==."
     },
     "conjugation": {
-      "hablar": {"yo": "hablara", "tu": "hablaras", "el/ella": "hablara", "nosotros": "hablaramos", "ellos": "hablaran"},
-      "tener": {"yo": "tuviera", "tu": "tuvieras", "el/ella": "tuviera", "nosotros": "tuvieramos", "ellos": "tuvieran"},
-      "ser/ir": {"yo": "fuera", "tu": "fueras", "el/ella": "fuera", "nosotros": "fueramos", "ellos": "fueran"}
+      "hablar (imperfecto de subjuntivo -ra)": {
+        "yo": "hablara",
+        "tú": "hablaras",
+        "él/ella/usted": "hablara",
+        "nosotros": "habláramos",
+        "vosotros": "hablarais",
+        "ellos/ustedes": "hablaran"
+      },
+      "hablar (imperfecto de subjuntivo -se)": {
+        "yo": "hablase",
+        "tú": "hablases",
+        "él/ella/usted": "hablase",
+        "nosotros": "hablásemos",
+        "vosotros": "hablaseis",
+        "ellos/ustedes": "hablasen"
+      },
+      "tener (imperfecto de subjuntivo)": {
+        "yo": "tuviera",
+        "tú": "tuvieras",
+        "él/ella/usted": "tuviera",
+        "nosotros": "tuviéramos",
+        "vosotros": "tuvierais",
+        "ellos/ustedes": "tuvieran"
+      },
+      "ser / ir (imperfecto de subjuntivo)": {
+        "yo": "fuera",
+        "tú": "fueras",
+        "él/ella/usted": "fuera",
+        "nosotros": "fuéramos",
+        "vosotros": "fuerais",
+        "ellos/ustedes": "fueran"
+      },
+      "hacer (imperfecto de subjuntivo)": {
+        "yo": "hiciera",
+        "tú": "hicieras",
+        "él/ella/usted": "hiciera",
+        "nosotros": "hiciéramos",
+        "vosotros": "hicierais",
+        "ellos/ustedes": "hicieran"
+      }
     },
     "examples": [
-      {"es": "Si tuviera mas tiempo, estudiaria mas.", "en": "If I had more time, I'd study more.", "zh": "如果我有更多时间，我会多学习。", "ja": "もっと時間があれば、もっと勉強するのに。"},
-      {"es": "Si fuera tu, no iria.", "en": "If I were you, I wouldn't go.", "zh": "如果我是你，我不会去。", "ja": "もし君だったら、行かないな。"},
-      {"es": "Ojala pudiera volar.", "en": "I wish I could fly.", "zh": "要是我能飞就好了。", "ja": "飛べたらいいのに。"}
+      {
+        "es": "Si tuviera tiempo, iría contigo.",
+        "en": "If I had time, I'd go with you.",
+        "zh": "要是我有时间，就跟你去了。",
+        "ja": "時間があれば一緒に行くのに。"
+      },
+      {
+        "es": "Si fuera tú, aceptaría el trabajo.",
+        "en": "If I were you, I'd accept the job.",
+        "zh": "我要是你，就接受这份工作。",
+        "ja": "私が君なら、その仕事を受けるよ。"
+      },
+      {
+        "es": "Mis padres querían que estudiara Medicina.",
+        "en": "My parents wanted me to study Medicine.",
+        "zh": "我父母想让我学医。",
+        "ja": "両親は私に医学を勉強してほしがっていた。"
+      },
+      {
+        "es": "Me pidió que le ayudase con la mudanza.",
+        "en": "He asked me to help him with the move.",
+        "zh": "他请我帮他搬家。",
+        "ja": "引っ越しを手伝ってほしいと頼まれた。"
+      },
+      {
+        "es": "Ojalá estuvieras aquí.",
+        "en": "I wish you were here.",
+        "zh": "要是你在这儿就好了。",
+        "ja": "君がここにいればいいのに。"
+      },
+      {
+        "es": "Habla como si lo supiera todo.",
+        "en": "He talks as if he knew everything.",
+        "zh": "他说话好像什么都知道似的。",
+        "ja": "彼はまるで何でも知っているかのように話す。"
+      },
+      {
+        "es": "Quisiera hacerle una pregunta.",
+        "en": "I'd like to ask you a question.",
+        "zh": "我想问您一个问题。",
+        "ja": "一つ質問させていただきたいのですが。"
+      }
     ]
   },
   {
     "id": "relative-clauses",
-    "title": {"en": "Relative Clauses", "zh": "关系从句", "ja": "関係節"},
-    "summary": {"en": "que, quien, donde, el/la cual", "zh": "que, quien, donde, el/la cual", "ja": "que, quien, donde, el/la cual"},
+    "unit": 3,
+    "title": {
+      "en": "Relative Clauses",
+      "zh": "关系从句",
+      "ja": "関係節"
+    },
+    "summary": {
+      "en": "que, quien, donde, el/la cual",
+      "zh": "que, quien, donde, el/la cual",
+      "ja": "que, quien, donde, el/la cual"
+    },
     "explanation": {
       "en": "Connect sentences with relative pronouns:\n\n**QUE** = that/which/who (most common, works for everything)\n- La chica que habla espanol (The girl who speaks Spanish)\n- El libro que lei (The book that I read)\n\n**QUIEN/QUIENES** = who (only for people, after preposition)\n- La persona con quien hable (The person I spoke with)\n- Los amigos a quienes invite (The friends I invited)\n\n**DONDE** = where\n- La ciudad donde naci (The city where I was born)\n\n**EL/LA QUE, LOS/LAS QUE** = the one who/which\n- El que llego primero gana (The one who arrives first wins)\n\n**LO QUE** = what (the thing that)\n- No entiendo lo que dices (I don't understand what you say)\n- Lo que me gusta es la musica (What I like is music)\n\n**CUYO/A** = whose (formal)\n- El autor cuyo libro lei (The author whose book I read)",
       "zh": "用关系代词连接句子：\n\n**QUE** = 最常用（代替人和物）\n- La chica que habla espanol（说西班牙语的女孩）\n- El libro que lei（我读的那本书）\n\n**QUIEN** = 谁（只用于人，介词后面）\n- La persona con quien hable（我跟谁说话的那个人）\n\n**DONDE** = 在哪里\n- La ciudad donde naci（我出生的城市）\n\n**LO QUE** = ……的事情（所……的）\n- No entiendo lo que dices（我不明白你说的）\n\n**和中文对比：**\n中文用'的'：我读的书 = el libro que lei\n说西班牙语的女孩 = la chica que habla espanol",
       "ja": "関係代名詞で文を繋ぎます：\n\n**QUE** = 最も一般的（人にも物にも使える）\n- La chica que habla espanol（スペイン語を話す女の子）\n- El libro que lei（私が読んだ本）\n\n**QUIEN** = 誰（人のみ、前置詞の後）\n- La persona con quien hable（話した人）\n\n**DONDE** = 〜の場所\n- La ciudad donde naci（生まれた街）\n\n**LO QUE** = 〜すること/もの\n- No entiendo lo que dices（言っていることがわからない）\n\n**日本語との対応：**\n日本語の「〜した本」「〜する人」= el libro que... / la persona que...\n修飾節が前に来る日本語と違い、スペイン語は後ろに来る！"
     },
     "examples": [
-      {"es": "El libro que me prestaste es muy bueno.", "en": "The book you lent me is very good.", "zh": "你借给我的那本书很好看。", "ja": "貸してくれた本はとても良い。"},
-      {"es": "No entiendo lo que dices.", "en": "I don't understand what you're saying.", "zh": "我不明白你说的。", "ja": "言っていることがわからない。"},
-      {"es": "La ciudad donde vivo es pequena.", "en": "The city where I live is small.", "zh": "我住的城市很小。", "ja": "住んでいる街は小さい。"}
+      {
+        "es": "El libro que me prestaste es muy bueno.",
+        "en": "The book you lent me is very good.",
+        "zh": "你借给我的那本书很好看。",
+        "ja": "貸してくれた本はとても良い。"
+      },
+      {
+        "es": "No entiendo lo que dices.",
+        "en": "I don't understand what you're saying.",
+        "zh": "我不明白你说的。",
+        "ja": "言っていることがわからない。"
+      },
+      {
+        "es": "La ciudad donde vivo es pequena.",
+        "en": "The city where I live is small.",
+        "zh": "我住的城市很小。",
+        "ja": "住んでいる街は小さい。"
+      }
     ]
   },
   {
     "id": "reported-speech",
-    "title": {"en": "Reported Speech", "zh": "间接引语", "ja": "間接話法"},
-    "summary": {"en": "He said that..., She told me that...", "zh": "他说……，她告诉我……", "ja": "彼は〜と言った、彼女は〜と言った"},
+    "unit": 4,
+    "title": {
+      "en": "Reported Speech",
+      "zh": "间接引语",
+      "ja": "間接話法"
+    },
+    "summary": {
+      "en": "He said that..., She told me that...",
+      "zh": "他说……，她告诉我……",
+      "ja": "彼は〜と言った、彼女は〜と言った"
+    },
     "explanation": {
       "en": "Report what someone said:\n\n**Direct → Indirect:**\n- 'Estoy cansado' → Dijo que estaba cansado (He said he was tired)\n- 'Voy a ir' → Dijo que iba a ir (He said he was going to go)\n\n**Tense changes (backshift):**\n- presente → imperfecto: como → comia\n- preterito → pluscuamperfecto: comi → habia comido\n- futuro → condicional: ire → iria\n- imperativo → subjuntivo: ven → que viniera\n\n**Reporting verbs:**\n- decir que = to say that\n- contar que = to tell/narrate that\n- preguntar si/que = to ask if/what\n- explicar que = to explain that\n- responder que = to answer that\n\n**Questions:** preguntar si (yes/no) / preguntar que/donde/cuando...\n- '¿Vienes?' → Me pregunto si venia\n- '¿Donde vives?' → Me pregunto donde vivia",
       "zh": "转述别人说的话：\n\n**直接→间接：**\n- 'Estoy cansado' → Dijo que estaba cansado（他说他累了）\n- 'Voy a ir' → Dijo que iba a ir（他说他要去）\n\n**时态退后：**\n- 现在时 → 未完成过去时：como → comia\n- 过去时 → 过去完成时：comi → habia comido\n- 将来时 → 条件式：ire → iria\n\n**引述动词：**\n- decir que = 说\n- preguntar si = 问是否\n- contar que = 讲述\n\n**和中文对比：** 中文不需要改时态！\n他说'我累了' → 他说他累了（中文不变）\n但西班牙语需要退后一个时态！",
       "ja": "人が言ったことを伝えます：\n\n**直接→間接：**\n- 'Estoy cansado' → Dijo que estaba cansado（疲れていると言った）\n- 'Voy a ir' → Dijo que iba a ir（行くつもりだと言った）\n\n**時制の後退：**\n- 現在形 → 線過去：como → comia\n- 点過去 → 過去完了：comi → habia comido\n- 未来形 → 条件法：ire → iria\n\n**伝達動詞：**\n- decir que = 〜と言う\n- preguntar si = 〜かどうか聞く\n- contar que = 〜と話す\n\n**日本語との対応：**\n「疲れている」→「疲れていると言った」\n日本語も「〜と言った」と間接的に伝える構造がある！"
     },
     "examples": [
-      {"es": "Dijo que estaba cansado.", "en": "He said he was tired.", "zh": "他说他累了。", "ja": "疲れていると言った。"},
-      {"es": "Me pregunto si queria ir al cine.", "en": "He asked me if I wanted to go to the cinema.", "zh": "他问我是否想去看电影。", "ja": "映画に行きたいかと聞かれた。"},
-      {"es": "Me conto que habia vivido en Japon.", "en": "She told me she had lived in Japan.", "zh": "她告诉我她在日本住过。", "ja": "日本に住んでいたと話してくれた。"}
+      {
+        "es": "Dijo que estaba cansado.",
+        "en": "He said he was tired.",
+        "zh": "他说他累了。",
+        "ja": "疲れていると言った。"
+      },
+      {
+        "es": "Me pregunto si queria ir al cine.",
+        "en": "He asked me if I wanted to go to the cinema.",
+        "zh": "他问我是否想去看电影。",
+        "ja": "映画に行きたいかと聞かれた。"
+      },
+      {
+        "es": "Me conto que habia vivido en Japon.",
+        "en": "She told me she had lived in Japan.",
+        "zh": "她告诉我她在日本住过。",
+        "ja": "日本に住んでいたと話してくれた。"
+      }
     ]
   },
   {
     "id": "pluperfect",
-    "title": {"en": "Pluperfect (Past Perfect)", "zh": "过去完成时", "ja": "過去完了"},
-    "summary": {"en": "habia + participle (had done)", "zh": "habia + 分词（已经做了）", "ja": "habia + 分詞（〜していた）"},
+    "unit": 5,
+    "title": {
+      "en": "Pluperfect: había hecho",
+      "zh": "过去完成时：había hecho",
+      "ja": "過去完了：había hecho"
+    },
+    "summary": {
+      "en": "había + participle: the past before another past; vs indefinido in narration",
+      "zh": "había + 过去分词：过去的过去；叙述中与 indefinido 的区别",
+      "ja": "había ＋ 過去分詞：過去より前の過去・物語での indefinido との違い"
+    },
     "explanation": {
-      "en": "For actions completed BEFORE another past action:\n\n**Structure:** habia/habias/habia/habiamos/habian + past participle\n\n**Use:** Something happened before another past event\n- Cuando llegue, ya habian comido (When I arrived, they had already eaten)\n- Nunca habia visto el mar (I had never seen the sea — before that moment)\n- No sabia que habias estado en Mexico (I didn't know you had been to Mexico)\n\n**Timeline:**\n[habia comido] ←→ [llegue] ←→ [NOW]\n  past perfect      preterite      present\n\n**Key words:** ya (already), todavia no (not yet), nunca (never — before then)\n\n**vs Present Perfect:** He comido (I have eaten — connected to now) vs. Habia comido (I had eaten — before another past event)",
-      "zh": "表达在另一个过去动作之前已经完成的事：\n\n**结构：** habia/habias/habia/habiamos/habian + 过去分词\n\n**用法：** 在另一个过去事件之前发生的事\n- Cuando llegue, ya habian comido（我到的时候，他们已经吃过了）\n- Nunca habia visto el mar（我从没见过大海——在那之前）\n\n**时间线：**\n[habia comido] ←→ [llegue] ←→ [现在]\n  过去完成        简单过去      现在\n\n**和中文对比：** '已经……了'在过去：\n我到的时候，他们已经吃了 = Cuando llegue, ya habian comido",
-      "ja": "別の過去の出来事より前に完了していたことを表します：\n\n**構造：** habia/habias/habia/habiamos/habian + 過去分詞\n\n**用法：** 別の過去の出来事の前に起きたこと\n- Cuando llegue, ya habian comido（着いた時、もう食べ終わっていた）\n- Nunca habia visto el mar（それまで海を見たことがなかった）\n\n**タイムライン：**\n[habia comido] ←→ [llegue] ←→ [今]\n  過去完了        点過去      現在\n\n**日本語との対応：**\n「〜していた」「〜したことがなかった」\n大過去に相当する「〜してしまっていた」の感覚"
+      "en": "**Form: imperfect of haber + past participle**\n\n<table><tr><th>Person</th><th>haber (imperfecto)</th><th>+ participle</th></tr><tr><td>yo</td><td>==había==</td><td>llegado</td></tr><tr><td>tú</td><td>==habías==</td><td>comido</td></tr><tr><td>él/ella/usted</td><td>==había==</td><td>salido</td></tr><tr><td>nosotros/as</td><td>==habíamos==</td><td>hecho</td></tr><tr><td>vosotros/as</td><td>==habíais==</td><td>visto</td></tr><tr><td>ellos/ellas/ustedes</td><td>==habían==</td><td>dicho</td></tr></table>\n\n<table><tr><th>Infinitive</th><th>Participle</th></tr><tr><td>hablar / comer / vivir</td><td>habl==ado== / com==ido== / viv==ido==</td></tr><tr><td>hacer / decir / ver</td><td>==hecho== / ==dicho== / ==visto==</td></tr><tr><td>poner / escribir / volver</td><td>==puesto== / ==escrito== / ==vuelto==</td></tr><tr><td>abrir / romper / morir</td><td>==abierto== / ==roto== / ==muerto==</td></tr><tr><td>descubrir / resolver / ser / ir</td><td>==descubierto== / ==resuelto== / sido / ido</td></tr></table>\n\nThe participle never changes after haber (~~habían salidos~~), and nothing goes between haber and the participle: ya, nunca, todavía go before: ==Ya había salido==. Object pronouns go before haber: ==Se lo había dicho==.\n\n**When to use it**\n- An action **completed before another past moment** (the «past of the past»): Cuando llegué a la estación, el tren ==ya había salido==.\n- **Experience up to a past moment** with nunca / todavía no / ya: Hasta ese verano ==nunca había visto== el mar. A las diez ==todavía no había llegado==.\n- **Explaining the cause** of a past situation: Estaba cansado porque ==había dormido== mal.\n- **Reported speech** of a past action: «He perdido las llaves» → Dijo que ==había perdido== las llaves.\n- Surprise about something new: ¡Nunca ==había probado== algo tan rico! (= this is the first time).\n\n**Pluscuamperfecto vs indefinido in a narration**\nWhen you tell events **in the order they happened**, you only need the indefinido: Me levanté, desayuné y salí. The pluscuamperfecto is for **jumping back** in time:\n\n<table><tr><th>Sentence</th><th>Order of events</th></tr><tr><td>Cuando llegué, Juan ==se fue==.</td><td>I arrived → then he left</td></tr><tr><td>Cuando llegué, Juan ya ==se había ido==.</td><td>he left → then I arrived (I didn't see him)</td></tr></table>\n\nWith antes de / después de the order is already clear, so the indefinido is normal: Cené y después ==salí== / Salí después de ==cenar==. Background descriptions still go in the imperfecto: ==Llovía== y la calle estaba vacía; alguien ==había roto== la farola.\n\n**For English speakers**\n- había + participle = had + participle, so the form is easy. The problem is that English often uses the simple past where Spanish needs the pluscuamperfecto: «I didn't know he left» → No sabía que ==se había ido== (~~se fue~~ sounds like an unrelated event).\n- «had been doing» → había estado + gerundio or simply the imperfecto: «I had been waiting for an hour» → ==Llevaba== una hora esperando / ==Había estado== esperando una hora.\n- «had» alone is not always this tense: «I had a car» = ==Tenía== un coche.\n\n**Common mistakes**\n- ~~Cuando llegué, ya salieron~~ → Cuando llegué, ya ==habían salido==.\n- ~~Había ya comido~~ → ==Ya había comido==.\n- ~~Habían hechos los deberes~~ → Habían ==hecho== los deberes.\n- ~~Nunca he visto el mar hasta 2015~~ → Hasta 2015 ==nunca había visto== el mar.",
+      "zh": "**构成：haber 的未完成过去时 + 过去分词**\n\n<table><tr><th>人称</th><th>haber（未完成过去时）</th><th>+ 过去分词</th></tr><tr><td>yo</td><td>==había==</td><td>llegado</td></tr><tr><td>tú</td><td>==habías==</td><td>comido</td></tr><tr><td>él/ella/usted</td><td>==había==</td><td>salido</td></tr><tr><td>nosotros/as</td><td>==habíamos==</td><td>hecho</td></tr><tr><td>vosotros/as</td><td>==habíais==</td><td>visto</td></tr><tr><td>ellos/ellas/ustedes</td><td>==habían==</td><td>dicho</td></tr></table>\n\n<table><tr><th>不定式</th><th>过去分词</th></tr><tr><td>hablar / comer / vivir</td><td>habl==ado== / com==ido== / viv==ido==</td></tr><tr><td>hacer / decir / ver</td><td>==hecho== / ==dicho== / ==visto==</td></tr><tr><td>poner / escribir / volver</td><td>==puesto== / ==escrito== / ==vuelto==</td></tr><tr><td>abrir / romper / morir</td><td>==abierto== / ==roto== / ==muerto==</td></tr><tr><td>descubrir / resolver / ser / ir</td><td>==descubierto== / ==resuelto== / sido / ido</td></tr></table>\n\nhaber 后面的分词永远不变（~~habían salidos~~），haber 和分词之间不能插词：ya, nunca, todavía 放在前面：==Ya había salido==。宾格代词放在 haber 前：==Se lo había dicho==。\n\n**什么时候用**\n- 在**另一个过去时间点之前**已经完成的动作（“过去的过去”）：Cuando llegué a la estación, el tren ==ya había salido==.（我到车站时，火车已经开走了。）\n- **到过去某时为止的经历**，常与 nunca / todavía no / ya 连用：Hasta ese verano ==nunca había visto== el mar.（那年夏天以前我从没见过海。）\n- **解释过去状况的原因**：Estaba cansado porque ==había dormido== mal.（我很累，因为（前一晚）没睡好。）\n- **转述**过去的动作：«He perdido las llaves» → Dijo que ==había perdido== las llaves.\n- 表示第一次的惊讶：¡Nunca ==había probado== algo tan rico!（我从来没吃过这么好吃的！）\n\n**叙述中：pluscuamperfecto 与 indefinido**\n按**发生顺序**讲故事时，用 indefinido 就够了：Me levanté, desayuné y salí. 只有**往回跳**到更早的事时，才用 pluscuamperfecto：\n\n<table><tr><th>句子</th><th>事件顺序</th></tr><tr><td>Cuando llegué, Juan ==se fue==.</td><td>我到了 → 然后他走了</td></tr><tr><td>Cuando llegué, Juan ya ==se había ido==.</td><td>他先走了 → 我才到（没见到他）</td></tr></table>\n\n有 antes de / después de 时，顺序已经很清楚，常用 indefinido：Salí después de terminar。背景描写还是用 imperfecto：==Llovía== y la calle estaba vacía; alguien ==había roto== la farola.\n\n**给中文母语者的提示**\n- 中文用“已经……了”“之前”“早就”来表示先后，动词本身不变：我到的时候，他已经走了。西班牙语必须换成 ==se había ido==，否则 Cuando llegué, se fue 意思变成“我到了以后他才走”。\n- “了”不能决定时态：他已经走了（现在）→ Ya ==se ha ido==；（那时）他已经走了 → Ya ==se había ido==。关键是参照点是现在还是过去。\n- “过”放在过去的参照点里 → había + 分词：我那时候没去过中国 → No ==había estado== nunca en China.\n- 西班牙语句子里通常有两个动作：一个 indefinido 或 imperfecto 作参照，一个 pluscuamperfecto 表示更早。\n\n**常见错误**\n- ~~Cuando llegué, ya salieron~~ → Cuando llegué, ya ==habían salido==.\n- ~~Había ya comido~~ → ==Ya había comido==.\n- ~~Habían hechos los deberes~~ → Habían ==hecho== los deberes.\n- ~~Nunca he visto el mar hasta 2015~~ → Hasta 2015 ==nunca había visto== el mar.",
+      "ja": "**形：haber の線過去 ＋ 過去分詞**\n\n<table><tr><th>人称</th><th>haber（線過去）</th><th>+ 過去分詞</th></tr><tr><td>yo</td><td>==había==</td><td>llegado</td></tr><tr><td>tú</td><td>==habías==</td><td>comido</td></tr><tr><td>él/ella/usted</td><td>==había==</td><td>salido</td></tr><tr><td>nosotros/as</td><td>==habíamos==</td><td>hecho</td></tr><tr><td>vosotros/as</td><td>==habíais==</td><td>visto</td></tr><tr><td>ellos/ellas/ustedes</td><td>==habían==</td><td>dicho</td></tr></table>\n\n<table><tr><th>不定詞</th><th>過去分詞</th></tr><tr><td>hablar / comer / vivir</td><td>habl==ado== / com==ido== / viv==ido==</td></tr><tr><td>hacer / decir / ver</td><td>==hecho== / ==dicho== / ==visto==</td></tr><tr><td>poner / escribir / volver</td><td>==puesto== / ==escrito== / ==vuelto==</td></tr><tr><td>abrir / romper / morir</td><td>==abierto== / ==roto== / ==muerto==</td></tr><tr><td>descubrir / resolver / ser / ir</td><td>==descubierto== / ==resuelto== / sido / ido</td></tr></table>\n\nhaber の後の過去分詞は変化しません（~~habían salidos~~）。haber と分詞の間には何も入れず、ya, nunca, todavía は前に置きます：==Ya había salido==。目的格代名詞も haber の前：==Se lo había dicho==。\n\n**いつ使うか**\n- **過去のある時点より前に**完了していたこと（「過去の過去」）：Cuando llegué a la estación, el tren ==ya había salido==.（駅に着いた時、電車はもう出ていた。）\n- **過去のある時点までの経験**（nunca / todavía no / ya と一緒に）：Hasta ese verano ==nunca había visto== el mar.（その夏まで海を見たことがなかった。）\n- 過去の状況の**原因の説明**：Estaba cansado porque ==había dormido== mal.（よく眠れなかったので疲れていた。）\n- 過去の出来事の**間接話法**：«He perdido las llaves» → Dijo que ==había perdido== las llaves.\n- 初めての驚き：¡Nunca ==había probado== algo tan rico!（こんなにおいしいもの、初めて食べた！）\n\n**物語の中での pluscuamperfecto と indefinido**\n出来事を**起きた順に**語るときは indefinido だけで十分です：Me levanté, desayuné y salí. 時間を**さかのぼる**ときに pluscuamperfecto を使います：\n\n<table><tr><th>文</th><th>出来事の順番</th></tr><tr><td>Cuando llegué, Juan ==se fue==.</td><td>私が着いた → その後彼が出た</td></tr><tr><td>Cuando llegué, Juan ya ==se había ido==.</td><td>彼が先に出た → 私が着いた（会えなかった）</td></tr></table>\n\nantes de / después de があれば順序がはっきりするので、indefinido が普通です：Salí después de terminar。背景描写は imperfecto：==Llovía== y la calle estaba vacía; alguien ==había roto== la farola.\n\n**日本語話者のためのポイント**\n- 日本語の従属節の時制は相対的です（「着いたとき、彼は出かけていた」）。スペイン語では「〜ていた」が何を表すかで形が変わります：進行なら ==estaba saliendo==、すでに完了していたなら ==había salido==。\n- 「〜てしまっていた」「もう〜していた」「それまで〜したことがなかった」は pluscuamperfecto の典型です。\n- 「た」一つで済む日本語と違い、Cuando llegué, se fue（私が着いてから彼が出た）と Cuando llegué, se había ido（着く前に出ていた）は意味が逆になるので注意。\n- 「〜たことがある」を過去の時点に移すと había ＋ 分詞：その時までスペインに行ったことがなかった → No ==había estado== nunca en España.\n\n**よくある間違い**\n- ~~Cuando llegué, ya salieron~~ → Cuando llegué, ya ==habían salido==.\n- ~~Había ya comido~~ → ==Ya había comido==.\n- ~~Habían hechos los deberes~~ → Habían ==hecho== los deberes.\n- ~~Nunca he visto el mar hasta 2015~~ → Hasta 2015 ==nunca había visto== el mar."
     },
     "conjugation": {
-      "haber (imperfect)": {"yo": "habia", "tu": "habias", "el/ella": "habia", "nosotros": "habiamos", "ellos": "habian"}
+      "haber (imperfecto)": {
+        "yo": "había",
+        "tú": "habías",
+        "él/ella/usted": "había",
+        "nosotros": "habíamos",
+        "vosotros": "habíais",
+        "ellos/ustedes": "habían"
+      },
+      "salir (pluscuamperfecto)": {
+        "yo": "había salido",
+        "tú": "habías salido",
+        "él/ella/usted": "había salido",
+        "nosotros": "habíamos salido",
+        "vosotros": "habíais salido",
+        "ellos/ustedes": "habían salido"
+      },
+      "hacer (pluscuamperfecto)": {
+        "yo": "había hecho",
+        "tú": "habías hecho",
+        "él/ella/usted": "había hecho",
+        "nosotros": "habíamos hecho",
+        "vosotros": "habíais hecho",
+        "ellos/ustedes": "habían hecho"
+      }
     },
     "examples": [
-      {"es": "Cuando llegue, ya habian salido.", "en": "When I arrived, they had already left.", "zh": "我到的时候他们已经走了。", "ja": "着いた時、もう出発していた。"},
-      {"es": "Nunca habia comido paella antes.", "en": "I had never eaten paella before.", "zh": "我之前从没吃过海鲜饭。", "ja": "それまでパエリアを食べたことがなかった。"},
-      {"es": "No sabia que habias estudiado espanol.", "en": "I didn't know you had studied Spanish.", "zh": "我不知道你学过西班牙语。", "ja": "スペイン語を勉強していたとは知らなかった。"}
+      {
+        "es": "Cuando llegué, Juan ya había salido.",
+        "en": "When I arrived, Juan had already left.",
+        "zh": "我到的时候，胡安已经出去了。",
+        "ja": "私が着いた時、フアンはもう出かけていた。"
+      },
+      {
+        "es": "Cuando llegué, Juan salió.",
+        "en": "When I arrived, Juan left (after I arrived).",
+        "zh": "我到了以后，胡安就出去了。",
+        "ja": "私が着くと、フアンは出ていった。"
+      },
+      {
+        "es": "Hasta ese viaje nunca había visto el mar.",
+        "en": "Until that trip I had never seen the sea.",
+        "zh": "那次旅行之前我从没见过大海。",
+        "ja": "その旅行まで海を見たことがなかった。"
+      },
+      {
+        "es": "Estaba agotada porque había trabajado diez horas.",
+        "en": "She was exhausted because she had worked ten hours.",
+        "zh": "她累坏了，因为她已经工作了十个小时。",
+        "ja": "10時間働いたので、彼女はくたくただった。"
+      },
+      {
+        "es": "Me dijo que había perdido las llaves.",
+        "en": "He told me he had lost his keys.",
+        "zh": "他告诉我他把钥匙丢了。",
+        "ja": "鍵をなくしたと彼は言った。"
+      },
+      {
+        "es": "No sabía que ya os habíais conocido.",
+        "en": "I didn't know you had already met.",
+        "zh": "我不知道你们早就认识了。",
+        "ja": "君たちがもう知り合っていたとは知らなかった。"
+      },
+      {
+        "es": "¡Nunca había comido un jamón tan bueno!",
+        "en": "I had never eaten such good ham!",
+        "zh": "我从没吃过这么好的火腿！",
+        "ja": "こんなにおいしいハムは初めて食べた！"
+      }
     ]
   },
   {
-    "id": "ser-estar-advanced",
-    "title": {"en": "Ser vs Estar: Adjectives", "zh": "ser与estar：形容词变义", "ja": "ser vs estar：形容詞の意味変化"},
-    "summary": {"en": "Same adjective, different meaning with ser/estar", "zh": "同一形容词搭配ser/estar意思不同", "ja": "同じ形容詞でser/estarで意味が変わる"},
+    "id": "perfect-family",
+    "unit": 5,
+    "title": {
+      "en": "The perfect family: haber + participle",
+      "zh": "完成时家族：haber + 过去分词",
+      "ja": "完了形ファミリー：haber ＋ 過去分詞"
+    },
+    "summary": {
+      "en": "he / había / habré / habría / haya hecho: one participle, five meanings",
+      "zh": "he / había / habré / habría / haya hecho：一个分词，五种意义",
+      "ja": "he / había / habré / habría / haya hecho：同じ分詞で5つの意味"
+    },
     "explanation": {
-      "en": "Some adjectives change meaning depending on ser/estar:\n\n**ser aburrido** = to be boring (personality) ↔ **estar aburrido** = to be bored (feeling)\n**ser listo** = to be clever ↔ **estar listo** = to be ready\n**ser malo** = to be bad/evil ↔ **estar malo** = to be sick\n**ser bueno** = to be good (person) ↔ **estar bueno** = to taste good / look hot\n**ser rico** = to be rich ↔ **estar rico** = to taste delicious\n**ser verde** = to be green (color) ↔ **estar verde** = to be unripe/inexperienced\n**ser abierto** = to be open-minded ↔ **estar abierto** = to be open (door/shop)\n**ser vivo** = to be clever/sharp ↔ **estar vivo** = to be alive\n**ser organizado** = to be organized (personality) ↔ **estar organizado** = to be organized (event)\n\n**Rule of thumb:** SER = inherent quality | ESTAR = current state/condition",
-      "zh": "有些形容词搭配ser和estar意思不同：\n\n**ser aburrido** = 无聊的人 ↔ **estar aburrido** = 感到无聊\n**ser listo** = 聪明 ↔ **estar listo** = 准备好了\n**ser malo** = 坏人 ↔ **estar malo** = 生病\n**ser bueno** = 好人 ↔ **estar bueno** = 好吃/好看\n**ser rico** = 有钱 ↔ **estar rico** = 好吃\n**ser verde** = 绿色的 ↔ **estar verde** = 没熟/没经验\n**ser abierto** = 开放的人 ↔ **estar abierto** = 门开着/营业中\n**ser vivo** = 精明的 ↔ **estar vivo** = 活着的\n\n**规则：** SER = 本质 | ESTAR = 当前状态",
-      "ja": "同じ形容詞でもser/estarで意味が変わります：\n\n**ser aburrido** = つまらない人 ↔ **estar aburrido** = 退屈している\n**ser listo** = 賢い ↔ **estar listo** = 準備ができている\n**ser malo** = 悪い人 ↔ **estar malo** = 体調が悪い\n**ser bueno** = 良い人 ↔ **estar bueno** = 美味しい/魅力的\n**ser rico** = 金持ち ↔ **estar rico** = 美味しい\n**ser verde** = 緑色 ↔ **estar verde** = 未熟/経験不足\n**ser abierto** = オープンな性格 ↔ **estar abierto** = 開いている\n**ser vivo** = 抜け目ない ↔ **estar vivo** = 生きている\n\n**法則：** SER = 本質 | ESTAR = 現在の状態"
+      "en": "All Spanish compound tenses are built the same way: **haber + past participle**. Only haber changes; the participle (hecho) stays the same.\n\n<table><tr><th>Person</th><th>presente</th><th>imperfecto</th><th>futuro</th><th>condicional</th><th>pres. subjuntivo</th></tr><tr><td>yo</td><td>he</td><td>había</td><td>habré</td><td>habría</td><td>haya</td></tr><tr><td>tú</td><td>has</td><td>habías</td><td>habrás</td><td>habrías</td><td>hayas</td></tr><tr><td>él/ella/usted</td><td>ha</td><td>había</td><td>habrá</td><td>habría</td><td>haya</td></tr><tr><td>nosotros/as</td><td>hemos</td><td>habíamos</td><td>habremos</td><td>habríamos</td><td>hayamos</td></tr><tr><td>vosotros/as</td><td>habéis</td><td>habíais</td><td>habréis</td><td>habríais</td><td>hayáis</td></tr><tr><td>ellos/ellas/ustedes</td><td>han</td><td>habían</td><td>habrán</td><td>habrían</td><td>hayan</td></tr></table>\n\n**What each one means**\n\n<table><tr><th>Form</th><th>Example</th><th>Meaning</th></tr><tr><td><strong>he hecho</strong></td><td>Esta semana ==he trabajado== mucho.</td><td>finished, but in a time unit that includes now (Spain) / experience</td></tr><tr><td><strong>había hecho</strong></td><td>Cuando llamaste, ya ==había cenado==.</td><td>finished before another past moment</td></tr><tr><td><strong>habré hecho</strong></td><td>Para junio ==habré terminado==. / ==Habrá salido==.</td><td>finished before a future moment / guess about the recent past</td></tr><tr><td><strong>habría hecho</strong></td><td>Yo no lo ==habría hecho==. / ==Habría bebido== demasiado.</td><td>would have done / guess about a moment before a past point</td></tr><tr><td><strong>haya hecho</strong></td><td>Me alegro de que ==hayas venido==.</td><td>completed action after a subjunctive trigger</td></tr></table>\n\n**Three golden rules**\n- The participle is **invariable** after haber: Las cartas, las ==he escrito== yo (~~escritas~~).\n- **Nothing in between**: ~~He ya comido~~ → ==Ya he comido==. ~~Habían no llegado~~ → ==No habían llegado==.\n- **Pronouns before haber**: ==Me lo ha dicho==. (With an infinitive: Tengo que ==habérselo dicho== antes.)\n\n**Spain: perfecto vs indefinido (recap)**\n- Time unit that **includes now** → ==he hecho==: hoy, esta mañana, este mes, este año, hace un rato, ya, todavía no, nunca, alguna vez. Hoy ==he desayunado== tarde. Este verano ==hemos ido== a Italia.\n- Finished time unit → ==hice==: ayer, anoche, el lunes pasado, en 2019, hace dos años. Ayer ==desayuné== tarde.\n- Latin America and the Canary Islands often use hice for today too: Hoy desayuné tarde.\n\n**Probability with the perfect family**\n- About **now**: futuro → ==Estará== en casa.\n- About **the recent past**: futuro perfecto → ==Habrá salido== (= probablemente ha salido).\n- About **a past moment**: condicional → ==Serían== las tres (= probablemente eran).\n- About **before a past moment**: condicional compuesto → ==Habría perdido== el tren (= probablemente había perdido).\n\n**For English speakers**\n- he hecho ≈ have done, había hecho ≈ had done, habré hecho ≈ will have done, habría hecho ≈ would have done. But English «have done» covers duration up to now: «I have lived here for years» → ==Vivo== aquí desde hace años.\n- «He must have left» → ==Habrá salido== (or Debe de haber salido), not a modal verb.\n\n**Common mistakes**\n- ~~He ya terminado~~ → ==Ya he terminado==.\n- ~~Ayer he visto a Ana~~ → Ayer ==vi== a Ana.\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien.",
+      "zh": "西班牙语所有的复合时态构成方式都一样：**haber + 过去分词**。只变 haber，分词（hecho）不变。\n\n<table><tr><th>人称</th><th>现在时</th><th>未完成过去时</th><th>将来时</th><th>条件式</th><th>虚拟式现在时</th></tr><tr><td>yo</td><td>he</td><td>había</td><td>habré</td><td>habría</td><td>haya</td></tr><tr><td>tú</td><td>has</td><td>habías</td><td>habrás</td><td>habrías</td><td>hayas</td></tr><tr><td>él/ella/usted</td><td>ha</td><td>había</td><td>habrá</td><td>habría</td><td>haya</td></tr><tr><td>nosotros/as</td><td>hemos</td><td>habíamos</td><td>habremos</td><td>habríamos</td><td>hayamos</td></tr><tr><td>vosotros/as</td><td>habéis</td><td>habíais</td><td>habréis</td><td>habríais</td><td>hayáis</td></tr><tr><td>ellos/ellas/ustedes</td><td>han</td><td>habían</td><td>habrán</td><td>habrían</td><td>hayan</td></tr></table>\n\n**各自的意义**\n\n<table><tr><th>形式</th><th>例句</th><th>意义</th></tr><tr><td><strong>he hecho</strong></td><td>Esta semana ==he trabajado== mucho.</td><td>已完成，但在包含现在的时间段（西班牙）/ 经历</td></tr><tr><td><strong>había hecho</strong></td><td>Cuando llamaste, ya ==había cenado==.</td><td>在另一过去时刻之前完成</td></tr><tr><td><strong>habré hecho</strong></td><td>Para junio ==habré terminado==. / ==Habrá salido==.</td><td>在将来某时之前完成 / 推测刚发生的事</td></tr><tr><td><strong>habría hecho</strong></td><td>Yo no lo ==habría hecho==. / ==Habría bebido== demasiado.</td><td>本来会做 / 推测过去某时之前的事</td></tr><tr><td><strong>haya hecho</strong></td><td>Me alegro de que ==hayas venido==.</td><td>触发虚拟式的词之后的已完成动作</td></tr></table>\n\n**三条铁律**\n- haber 后的分词**不变**：Las cartas, las ==he escrito== yo（~~escritas~~）。\n- **中间不插词**：~~He ya comido~~ → ==Ya he comido==；~~Habían no llegado~~ → ==No habían llegado==。\n- **代词放在 haber 前**：==Me lo ha dicho==。\n\n**西班牙：perfecto 与 indefinido（复习）**\n- **包含现在**的时间段 → ==he hecho==：hoy, esta mañana, este mes, este año, hace un rato, ya, todavía no, nunca, alguna vez。Hoy ==he desayunado== tarde. Este verano ==hemos ido== a Italia.\n- 已结束的时间段 → ==hice==：ayer, anoche, el lunes pasado, en 2019, hace dos años。Ayer ==desayuné== tarde.\n- 拉丁美洲和加那利群岛说“今天”也常用 hice：Hoy desayuné tarde。\n\n**完成时家族的推测用法**\n- 推测**现在**：将来时 → ==Estará== en casa.（他应该在家。）\n- 推测**刚刚过去**：将来完成时 → ==Habrá salido==.（他大概已经出去了。）\n- 推测**过去某时**：条件式 → ==Serían== las tres.（那时大概三点。）\n- 推测**过去某时之前**：条件完成时 → ==Habría perdido== el tren.（他大概是错过了火车。）\n\n**给中文母语者的提示**\n- 中文的“已经……了”“过”“大概……了”都不改变动词；西班牙语要看参照点：现在 → he hecho，过去 → había hecho，将来 → habré hecho，假设 → habría hecho，愿望/情感 → haya hecho。\n- “他大概走了”不需要“大概”这个词：==Habrá salido== 本身就表示推测。\n\n**常见错误**\n- ~~He ya terminado~~ → ==Ya he terminado==.\n- ~~Ayer he visto a Ana~~ → Ayer ==vi== a Ana.\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien.",
+      "ja": "スペイン語の複合時制は、すべて **haber ＋ 過去分詞** という同じ作り方です。変わるのは haber だけで、過去分詞（hecho）はそのままです。\n\n<table><tr><th>人称</th><th>現在</th><th>線過去</th><th>未来</th><th>過去未来</th><th>接続法現在</th></tr><tr><td>yo</td><td>he</td><td>había</td><td>habré</td><td>habría</td><td>haya</td></tr><tr><td>tú</td><td>has</td><td>habías</td><td>habrás</td><td>habrías</td><td>hayas</td></tr><tr><td>él/ella/usted</td><td>ha</td><td>había</td><td>habrá</td><td>habría</td><td>haya</td></tr><tr><td>nosotros/as</td><td>hemos</td><td>habíamos</td><td>habremos</td><td>habríamos</td><td>hayamos</td></tr><tr><td>vosotros/as</td><td>habéis</td><td>habíais</td><td>habréis</td><td>habríais</td><td>hayáis</td></tr><tr><td>ellos/ellas/ustedes</td><td>han</td><td>habían</td><td>habrán</td><td>habrían</td><td>hayan</td></tr></table>\n\n**それぞれの意味**\n\n<table><tr><th>形</th><th>例</th><th>意味</th></tr><tr><td><strong>he hecho</strong></td><td>Esta semana ==he trabajado== mucho.</td><td>完了・今を含む時間（スペイン）／経験</td></tr><tr><td><strong>había hecho</strong></td><td>Cuando llamaste, ya ==había cenado==.</td><td>過去のある時点より前に完了</td></tr><tr><td><strong>habré hecho</strong></td><td>Para junio ==habré terminado==. / ==Habrá salido==.</td><td>未来のある時点までに完了／直前の過去の推量</td></tr><tr><td><strong>habría hecho</strong></td><td>Yo no lo ==habría hecho==. / ==Habría bebido== demasiado.</td><td>〜しただろうに／過去の時点より前の推量</td></tr><tr><td><strong>haya hecho</strong></td><td>Me alegro de que ==hayas venido==.</td><td>接続法の引き金の後の完了</td></tr></table>\n\n**3つの鉄則**\n- haber の後の過去分詞は**変化しない**：Las cartas, las ==he escrito== yo（~~escritas~~）。\n- **間に何も入れない**：~~He ya comido~~ → ==Ya he comido==、~~Habían no llegado~~ → ==No habían llegado==。\n- **代名詞は haber の前**：==Me lo ha dicho==。\n\n**スペイン：perfecto と indefinido（おさらい）**\n- **今を含む**時間 → ==he hecho==：hoy, esta mañana, este mes, este año, hace un rato, ya, todavía no, nunca, alguna vez。Hoy ==he desayunado== tarde. Este verano ==hemos ido== a Italia.\n- 終わった時間 → ==hice==：ayer, anoche, el lunes pasado, en 2019, hace dos años。Ayer ==desayuné== tarde.\n- 中南米やカナリア諸島では「今日」にも hice をよく使います：Hoy desayuné tarde。\n\n**完了形ファミリーで推量する**\n- **今**について：未来 → ==Estará== en casa.（家にいるだろう。）\n- **直前の過去**について：未来完了 → ==Habrá salido==.（出かけたのだろう。）\n- **過去のある時点**について：過去未来 → ==Serían== las tres.（3時ごろだっただろう。）\n- **過去の時点より前**について：過去未来完了 → ==Habría perdido== el tren.（電車に乗り遅れたのだろう。）\n\n**日本語話者のためのポイント**\n- 「〜た」「〜ていた」「〜ているだろう」「〜ただろう」は、スペイン語では基準となる時点で選びます：今 → he hecho、過去 → había hecho、未来 → habré hecho、仮定 → habría hecho、願望・感情 → haya hecho。\n- 「〜たのだろう」は「だろう」に当たる単語を足さず、==Habrá salido== の形だけで推量になります。\n\n**よくある間違い**\n- ~~He ya terminado~~ → ==Ya he terminado==.\n- ~~Ayer he visto a Ana~~ → Ayer ==vi== a Ana.\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien."
+    },
+    "conjugation": {
+      "haber (presente)": {
+        "yo": "he",
+        "tú": "has",
+        "él/ella/usted": "ha",
+        "nosotros": "hemos",
+        "vosotros": "habéis",
+        "ellos/ustedes": "han"
+      },
+      "haber (futuro)": {
+        "yo": "habré",
+        "tú": "habrás",
+        "él/ella/usted": "habrá",
+        "nosotros": "habremos",
+        "vosotros": "habréis",
+        "ellos/ustedes": "habrán"
+      },
+      "haber (condicional)": {
+        "yo": "habría",
+        "tú": "habrías",
+        "él/ella/usted": "habría",
+        "nosotros": "habríamos",
+        "vosotros": "habríais",
+        "ellos/ustedes": "habrían"
+      },
+      "haber (presente de subjuntivo)": {
+        "yo": "haya",
+        "tú": "hayas",
+        "él/ella/usted": "haya",
+        "nosotros": "hayamos",
+        "vosotros": "hayáis",
+        "ellos/ustedes": "hayan"
+      }
     },
     "examples": [
-      {"es": "La pelicula es aburrida, y yo estoy aburrido.", "en": "The movie is boring, and I'm bored.", "zh": "电影很无聊，我感到无聊。", "ja": "映画はつまらない、そして私は退屈している。"},
-      {"es": "Juan es listo. ¿Estas listo para salir?", "en": "Juan is clever. Are you ready to leave?", "zh": "Juan很聪明。你准备好出发了吗？", "ja": "フアンは賢い。出発の準備はできた？"},
-      {"es": "Esta paella esta muy rica.", "en": "This paella is delicious.", "zh": "这个海鲜饭太好吃了。", "ja": "このパエリアはとても美味しい。"}
+      {
+        "es": "Esta mañana he ido al médico.",
+        "en": "I went to the doctor this morning.",
+        "zh": "今天上午我去看医生了。",
+        "ja": "今朝、医者に行った。"
+      },
+      {
+        "es": "Cuando me llamaste, ya me había acostado.",
+        "en": "When you called me, I had already gone to bed.",
+        "zh": "你给我打电话的时候，我已经睡下了。",
+        "ja": "君が電話してきた時、もう寝ていた。"
+      },
+      {
+        "es": "Para el viernes habré terminado el informe.",
+        "en": "By Friday I will have finished the report.",
+        "zh": "到周五我就会把报告写完。",
+        "ja": "金曜日までには報告書を書き終えているだろう。"
+      },
+      {
+        "es": "No contesta; habrá salido.",
+        "en": "He isn't answering; he must have gone out.",
+        "zh": "他不接电话，大概出去了。",
+        "ja": "出ない。出かけたのだろう。"
+      },
+      {
+        "es": "Yo, en tu lugar, no lo habría dicho.",
+        "en": "If I were you, I wouldn't have said it.",
+        "zh": "换作是我，我就不会说。",
+        "ja": "私だったら、そんなことは言わなかっただろう。"
+      },
+      {
+        "es": "Me alegro de que hayas aprobado.",
+        "en": "I'm glad you've passed.",
+        "zh": "真高兴你考过了。",
+        "ja": "合格してよかったね。"
+      }
     ]
   },
   {
     "id": "passive-impersonal",
-    "title": {"en": "Passive & Impersonal Se", "zh": "被动与无人称se", "ja": "受動態と非人称se"},
-    "summary": {"en": "se vende, se habla, se dice", "zh": "出售、人们说、据说", "ja": "売られている、話される、言われている"},
+    "unit": 6,
+    "title": {
+      "en": "Passive & Impersonal Se",
+      "zh": "被动与无人称se",
+      "ja": "受動態と非人称se"
+    },
+    "summary": {
+      "en": "se vende, se habla, se dice",
+      "zh": "出售、人们说、据说",
+      "ja": "売られている、話される、言われている"
+    },
     "explanation": {
       "en": "Spanish avoids the passive voice. Instead, use SE:\n\n**Passive SE** (things as subject — agrees in number):\n- Se vende esta casa = This house is for sale\n- Se habla espanol aqui = Spanish is spoken here\n- Se venden pisos = Apartments are sold\n- Se necesitan camareros = Waiters needed\n\n**Impersonal SE** (no specific subject — always singular):\n- Se dice que... = It is said that... / People say...\n- Se puede aparcar aqui? = Can one park here?\n- Se vive bien en Espana = One lives well in Spain\n- Aqui se come muy bien = The food is great here\n\n**Difference:** passive SE has a thing as subject (agrees), impersonal SE has no subject.\n- Se vende un piso (passive — piso is the subject)\n- Se vive bien (impersonal — no subject)\n\n**Other impersonal forms:** la gente dice, dicen que, uno puede...",
       "zh": "西班牙语避免使用被动语态，用SE代替：\n\n**被动SE**（事物做主语——数需一致）：\n- Se vende esta casa = 这房子出售（被卖）\n- Se habla espanol aqui = 这里说西班牙语\n- Se venden pisos = 公寓出售中\n\n**无人称SE**（没有特定主语——总是单数）：\n- Se dice que... = 据说……/人们说……\n- Se puede aparcar aqui? = 这里可以停车吗？\n- Se vive bien en Espana = 在西班牙生活得好\n\n**和中文对比：**\n中文也经常省略主语：'据说……'='Se dice que...'\n'这里卖房子'='Aqui se venden pisos'",
       "ja": "スペイン語は受動態を避け、代わりにSEを使います：\n\n**受動のSE**（物が主語——数が一致）：\n- Se vende esta casa = この家は売りに出ている\n- Se habla espanol aqui = ここではスペイン語が話される\n- Se venden pisos = マンション販売中\n\n**非人称SE**（特定の主語なし——常に単数）：\n- Se dice que... = 〜と言われている\n- Se puede aparcar aqui? = ここに駐車できますか？\n- Se vive bien en Espana = スペインでは良い暮らしができる\n\n**日本語との対応：**\n「売られている」「話されている」= 受動SE\n「言われている」「住みやすい」= 非人称SE"
     },
     "examples": [
-      {"es": "Se habla espanol en 20 paises.", "en": "Spanish is spoken in 20 countries.", "zh": "20个国家说西班牙语。", "ja": "20カ国でスペイン語が話されている。"},
-      {"es": "Se dice que va a llover.", "en": "They say it's going to rain.", "zh": "据说要下雨。", "ja": "雨が降ると言われている。"},
-      {"es": "Aqui se come muy bien.", "en": "The food is great here.", "zh": "这里吃得很好。", "ja": "ここは食事が美味しい。"}
+      {
+        "es": "Se habla espanol en 20 paises.",
+        "en": "Spanish is spoken in 20 countries.",
+        "zh": "20个国家说西班牙语。",
+        "ja": "20カ国でスペイン語が話されている。"
+      },
+      {
+        "es": "Se dice que va a llover.",
+        "en": "They say it's going to rain.",
+        "zh": "据说要下雨。",
+        "ja": "雨が降ると言われている。"
+      },
+      {
+        "es": "Aqui se come muy bien.",
+        "en": "The food is great here.",
+        "zh": "这里吃得很好。",
+        "ja": "ここは食事が美味しい。"
+      }
     ]
   },
   {
-    "id": "cuando-subjunctive",
-    "title": {"en": "Future with Subjunctive", "zh": "将来时间+虚拟式", "ja": "未来の時を表す接続法"},
-    "summary": {"en": "cuando + subjunctive for future events", "zh": "cuando + 虚拟式表示将来事件", "ja": "cuando + 接続法で未来の出来事"},
+    "id": "subjunctive-triggers",
+    "unit": 7,
+    "title": {
+      "en": "Subjunctive Triggers",
+      "zh": "虚拟式触发词",
+      "ja": "接続法トリガー"
+    },
+    "summary": {
+      "en": "Expressions that require subjunctive",
+      "zh": "需要虚拟式的表达",
+      "ja": "接続法を要求する表現"
+    },
     "explanation": {
-      "en": "When talking about FUTURE events, time clauses need subjunctive:\n\n**cuando** (when) + subjunctive = future event not yet happened\n- Cuando llegue a casa, te llamo (When I get home, I'll call you)\n- Cuando tenga dinero, viajare (When I have money, I'll travel)\n\n**Other time connectors + subjunctive (future):**\n- en cuanto (as soon as): En cuanto termine, salimos\n- hasta que (until): Espera hasta que llegue\n- antes de que (before): Antes de que se vaya, dimelo\n- despues de que (after): Despues de que comas, descansa\n\n**BUT with past/habitual = indicative!**\n- Cuando llego a casa, como (When I get home, I eat — habitual)\n- Cuando llegue a casa, comi (When I got home, I ate — past)\n\n**Rule:** Future/uncertain → subjunctive | Past/habitual → indicative",
-      "zh": "谈论将来事件时，时间从句需要虚拟式：\n\n**cuando** + 虚拟式 = 还没发生的将来事件\n- Cuando llegue a casa, te llamo（我到家时给你打电话）\n- Cuando tenga dinero, viajare（等我有钱了就旅行）\n\n**其他时间连接词 + 虚拟式（将来）：**\n- en cuanto（一……就）：En cuanto termine, salimos\n- hasta que（直到）：Espera hasta que llegue\n- antes de que（在……之前）：Antes de que se vaya, dimelo\n\n**但过去/习惯 = 直陈式！**\n- Cuando llego a casa, como（我到家就吃——习惯）\n- Cuando llegue a casa, comi（我到家后吃了——过去）\n\n**规则：** 将来/不确定→虚拟式 | 过去/习惯→直陈式",
-      "ja": "未来の出来事について話す時、時間節は接続法が必要です：\n\n**cuando** + 接続法 = まだ起きていない未来の出来事\n- Cuando llegue a casa, te llamo（家に着いたら電話する）\n- Cuando tenga dinero, viajare（お金ができたら旅行する）\n\n**他の時間接続詞 + 接続法（未来）：**\n- en cuanto（〜するとすぐ）：En cuanto termine, salimos\n- hasta que（〜まで）：Espera hasta que llegue\n- antes de que（〜する前に）：Antes de que se vaya, dimelo\n\n**でも過去/習慣 = 直説法！**\n- Cuando llego a casa, como（帰ったら食べる——習慣）\n- Cuando llegue a casa, comi（帰宅して食べた——過去）\n\n**ルール：** 未来/不確実→接続法 | 過去/習慣→直説法"
+      "en": "Learn which expressions trigger subjunctive:\n\n**Wishes/Desires:** querer que, desear que, esperar que, preferir que, necesitar que\n\n**Emotions:** me alegra que, me molesta que, me sorprende que, me da miedo que, es una pena que\n\n**Doubt/Denial:** no creo que, dudo que, no es verdad que, no es cierto que, es posible que, puede que\n\n**Requests/Orders:** pedir que, decir que (=tell to), recomendar que, sugerir que, aconsejar que\n\n**Impersonal:** es importante que, es necesario que, es mejor que, es normal que, es raro que\n\n**Purpose:** para que (so that)\n\n**NOT subjunctive (certainty):** creo que, es verdad que, es cierto que, es obvio que → INDICATIVE\n\nCreo que tiene razon (I think he's right — indicative)\nNo creo que tenga razon (I don't think he's right — subjunctive)",
+      "zh": "学习哪些表达触发虚拟式：\n\n**愿望：** querer que, desear que, esperar que, preferir que\n\n**情感：** me alegra que, me molesta que, me sorprende que, es una pena que\n\n**怀疑/否定：** no creo que, dudo que, es posible que, puede que\n\n**请求/命令：** pedir que, recomendar que, sugerir que, aconsejar que\n\n**无人称：** es importante que, es necesario que, es mejor que\n\n**目的：** para que（为了）\n\n**不用虚拟式（确定性）：** creo que, es verdad que → 直陈式\n\n关键区别：\n- Creo que tiene razon（我认为他对——确定→直陈式）\n- No creo que tenga razon（我不认为他对——怀疑→虚拟式）",
+      "ja": "接続法を引き起こす表現を覚えましょう：\n\n**願望：** querer que, desear que, esperar que, preferir que\n\n**感情：** me alegra que, me molesta que, me sorprende que, es una pena que\n\n**疑い/否定：** no creo que, dudo que, es posible que, puede que\n\n**依頼/命令：** pedir que, recomendar que, sugerir que, aconsejar que\n\n**非人称：** es importante que, es necesario que, es mejor que\n\n**目的：** para que（〜するために）\n\n**接続法を使わない（確実性）：** creo que, es verdad que → 直説法\n\n重要な区別：\n- Creo que tiene razon（正しいと思う——確信→直説法）\n- No creo que tenga razon（正しいと思わない——疑い→接続法）"
     },
     "examples": [
-      {"es": "Cuando llegue a Madrid, te llamo.", "en": "When I arrive in Madrid, I'll call you.", "zh": "我到马德里就给你打电话。", "ja": "マドリードに着いたら電話する。"},
-      {"es": "Espera hasta que pare de llover.", "en": "Wait until it stops raining.", "zh": "等雨停了再走。", "ja": "雨が止むまで待って。"},
-      {"es": "En cuanto termine el trabajo, salimos.", "en": "As soon as I finish work, we'll leave.", "zh": "一下班我们就走。", "ja": "仕事が終わったらすぐ出よう。"}
-    ]
-  },
-  {
-    "id": "aunque-concessive",
-    "title": {"en": "Concessive Clauses", "zh": "让步从句", "ja": "譲歩節"},
-    "summary": {"en": "aunque + indicative/subjunctive", "zh": "aunque + 直陈式/虚拟式", "ja": "aunque + 直説法/接続法"},
-    "explanation": {
-      "en": "AUNQUE (although/even if) changes mood based on certainty:\n\n**Aunque + indicative** = although (fact, I know it's true)\n- Aunque llueve, salgo (Although it's raining [I can see it], I'm going out)\n- Aunque es caro, lo compro (Although it's expensive [I know the price], I'll buy it)\n\n**Aunque + subjunctive** = even if (hypothetical, I don't know yet)\n- Aunque llueva, saldré (Even if it rains [maybe it will], I'll go out)\n- Aunque sea caro, lo comprare (Even if it's expensive [I don't know yet], I'll buy it)\n\n**Other concessive connectors:**\n- a pesar de que = despite the fact that\n- por mucho que + subjunctive = no matter how much\n- por mas que + subjunctive = however much\n\nPor mucho que estudie, no apruebo (No matter how much I study, I don't pass)",
-      "zh": "AUNQUE（虽然/即使）根据确定性改变语气：\n\n**Aunque + 直陈式** = 虽然（事实，我知道）\n- Aunque llueve, salgo（虽然在下雨[我看到了]，我还是出去）\n\n**Aunque + 虚拟式** = 即使（假设，还不确定）\n- Aunque llueva, saldré（即使下雨[可能会]，我也出去）\n\n**规则：**\n- 我确定这是事实 → 直陈式\n- 我不确定/假设 → 虚拟式\n\n**其他让步连接词：**\n- a pesar de que = 尽管\n- por mucho que + 虚拟式 = 无论多少",
-      "ja": "AUNQUE（〜だけど/たとえ〜でも）確実性によって法が変わります：\n\n**Aunque + 直説法** = 〜だけど（事実、知っている）\n- Aunque llueve, salgo（雨が降っている[見える]けど、出かける）\n\n**Aunque + 接続法** = たとえ〜でも（仮定、まだわからない）\n- Aunque llueva, saldré（たとえ雨が降っても[降るかも]、出かける）\n\n**ルール：**\n- 事実だと確信 → 直説法\n- 不確実/仮定 → 接続法\n\n**他の譲歩接続詞：**\n- a pesar de que = 〜にもかかわらず\n- por mucho que + 接続法 = いくら〜しても"
-    },
-    "examples": [
-      {"es": "Aunque llueve, voy a salir.", "en": "Although it's raining, I'm going out.", "zh": "虽然在下雨，我还是出去。", "ja": "雨が降っているけど、出かける。"},
-      {"es": "Aunque llueva manana, iremos a la playa.", "en": "Even if it rains tomorrow, we'll go to the beach.", "zh": "即使明天下雨，我们也去海滩。", "ja": "たとえ明日雨が降っても、ビーチに行く。"},
-      {"es": "Por mucho que intento, no lo consigo.", "en": "No matter how much I try, I can't do it.", "zh": "无论我怎么尝试都做不到。", "ja": "いくら頑張っても、できない。"}
+      {
+        "es": "Espero que te mejores pronto.",
+        "en": "I hope you get better soon.",
+        "zh": "希望你快点好起来。",
+        "ja": "早く良くなるといいね。"
+      },
+      {
+        "es": "Me molesta que llegues tarde.",
+        "en": "It bothers me that you arrive late.",
+        "zh": "你迟到让我烦。",
+        "ja": "遅刻されると困る。"
+      },
+      {
+        "es": "Te recomiendo que vayas al medico.",
+        "en": "I recommend you go to the doctor.",
+        "zh": "我建议你去看医生。",
+        "ja": "医者に行くことをお勧めする。"
+      }
     ]
   },
   {
     "id": "conditional",
-    "title": {"en": "Conditional Tense", "zh": "条件式", "ja": "条件法"},
-    "summary": {"en": "I would do, you would go", "zh": "我会做、你会去", "ja": "〜するだろう、〜するのに"},
+    "unit": 11,
+    "title": {
+      "en": "Conditional (condicional simple)",
+      "zh": "条件式（condicional simple）",
+      "ja": "過去未来（condicional simple）"
+    },
+    "summary": {
+      "en": "hablaría, tendría: courtesy, advice, hypothesis, probability in the past, future in the past",
+      "zh": "hablaría, tendría：礼貌、建议、假设、对过去的推测、过去的将来",
+      "ja": "hablaría, tendría：丁寧・助言・仮定・過去の推量・過去から見た未来"
+    },
     "explanation": {
-      "en": "Express hypothetical actions, polite requests, and advice:\n\n**Formation:** infinitive + endings\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n- hablar → hablaría, hablarías, hablaría...\n- comer → comería...\n- vivir → viviría...\n\n**Irregular stems (same as future):**\n- tener → tendr-ía | poder → podr-ía\n- hacer → har-ía | decir → dir-ía\n- querer → querr-ía | saber → sabr-ía\n- salir → saldr-ía | venir → vendr-ía\n- haber → habr-ía | poner → pondr-ía\n\n**Uses:**\n- Hypothetical: Me gustaría viajar (I'd like to travel)\n- Advice: Yo que tú, estudiaría más (If I were you, I'd study more)\n- Polite: ¿Podrías ayudarme? (Could you help me?)\n- Reported future: Dijo que vendría (He said he would come)\n- Si clauses: Si tuviera dinero, viajaría (If I had money, I'd travel)",
-      "zh": "表达假设动作、礼貌请求和建议：\n\n**构成：** 不定式 + 词尾\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n**不规则词干（和将来时相同）：**\ntener→tendría | poder→podría | hacer→haría\ndecir→diría | querer→querría | saber→sabría\n\n**用法：**\n- 假设：Me gustaría viajar（我想去旅行）\n- 建议：Yo que tú, estudiaría más（我要是你，会多学习）\n- 礼貌：¿Podrías ayudarme?（你能帮我吗？）\n- 转述将来：Dijo que vendría（他说他会来）",
-      "ja": "仮定的な行動、丁寧な依頼、アドバイスを表します：\n\n**作り方：** 不定詞 + 語尾\n-ía, -ías, -ía, -íamos, -íais, -ían\n\n**不規則語幹（未来形と同じ）：**\ntener→tendría | poder→podría | hacer→haría\ndecir→diría | querer→querría | saber→sabría\n\n**用法：**\n- 仮定：Me gustaría viajar（旅行したいなあ）\n- アドバイス：Yo que tú, estudiaría más（君だったら、もっと勉強する）\n- 丁寧：¿Podrías ayudarme?（手伝っていただけますか？）\n- 伝聞の未来：Dijo que vendría（来ると言っていた）"
+      "en": "**Form: infinitive + -ía endings** (the imperfect endings of -er/-ir verbs, added to the whole infinitive)\n\n<table><tr><th>Person</th><th>hablar</th><th>comer</th><th>vivir</th><th>ending</th></tr><tr><td>yo</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>tú</td><td>hablar==ías==</td><td>comer==ías==</td><td>vivir==ías==</td><td>-ías</td></tr><tr><td>él/ella/usted</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>nosotros/as</td><td>hablar==íamos==</td><td>comer==íamos==</td><td>vivir==íamos==</td><td>-íamos</td></tr><tr><td>vosotros/as</td><td>hablar==íais==</td><td>comer==íais==</td><td>vivir==íais==</td><td>-íais</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==ían==</td><td>comer==ían==</td><td>vivir==ían==</td><td>-ían</td></tr></table>\n\n**Irregular stems = the same as the future**\n\n<table><tr><th>Infinitive</th><th>Stem</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendría</td><td>saldríamos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podría</td><td>querríamos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haría</td><td>diríamos</td></tr></table>\n\n**Five uses**\n\n<table><tr><th>Use</th><th>Example</th></tr><tr><td>Courtesy (softens requests and wishes)</td><td>¿==Podrías== cerrar la ventana? ==Me gustaría== reservar una mesa. ==Querría== hablar con el director.</td></tr><tr><td>Advice</td><td>==Deberías== descansar. Yo que tú, ==iría== al médico. Yo, en tu lugar, no lo ==compraría==.</td></tr><tr><td>Hypothesis (unreal present)</td><td>Si tuviera dinero, ==viajaría== por todo el mundo. Con más tiempo, ==aprendería== a tocar la guitarra.</td></tr><tr><td>Probability in the past</td><td>—¿Qué hora era cuando volviste? —==Serían== las tres. ==Tendría== unos veinte años en aquella foto.</td></tr><tr><td>Future in the past (reported speech)</td><td>«Vendré mañana» → Dijo que ==vendría== al día siguiente. Sabía que ==ganaríamos==.</td></tr></table>\n\n**Probability: future → now, conditional → past**\n\n<table><tr><th>Certain</th><th>Guess</th><th>Time</th></tr><tr><td>Son las tres.</td><td>==Serán== las tres.</td><td>now</td></tr><tr><td>Eran las tres.</td><td>==Serían== las tres.</td><td>past moment</td></tr></table>\n\n**Unreal conditions: si + imperfect subjunctive → conditional**\nSi ==tuviera== tiempo, te ==ayudaría==. The conditional goes in the RESULT, never after si: ~~Si tendría tiempo~~. The order can change: Te ==ayudaría== si ==tuviera== tiempo.\n\n**Conditional vs imperfect vs future**\n- Courtesy: ==Quería== / ==Querría== / ==Quisiera== un café: all polite; the imperfect is very common in Spanish shops.\n- Future in the past: Dijo que ==vendría== (conditional), never ~~dijo que vendrá~~ if the coming is also past. If it is still in the future, both are possible: Dijo que ==vendrá== mañana.\n\n**For English speakers**\n- «would» = conditional only for hypothesis/courtesy. «would» for **past habits** = imperfecto: «When I was a child, I would play in the street» → ==Jugaba== en la calle (~~jugaría~~).\n- «wouldn't» as refusal = no querer: «He wouldn't listen» → ==No quiso== escuchar / No había manera de que escuchara.\n- «could» = podría (hypothetical), pude (managed), podía (was able, background): ¿==Podrías== ayudarme? / No ==pude== dormir / De joven ==podía== correr horas.\n- «should» = debería: ==Deberías== llamarla. «must have been» about the past = ==sería== / ==habría sido==.\n\n**Common mistakes**\n- ~~Si tendría dinero~~ → Si ==tuviera== dinero.\n- ~~podería~~ → ==podría==; ~~saliría~~ → ==saldría==; ~~hacería~~ → ==haría==.\n- ~~Cuando era pequeño, iría al parque~~ → ==iba== al parque.\n- ~~Dijo que vendrá ayer~~ → Dijo que ==vendría==.",
+      "zh": "**构成：不定式 + -ía 词尾**（就是 -er/-ir 动词未完成过去时的词尾，加在整个不定式后）\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>词尾</th></tr><tr><td>yo</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>tú</td><td>hablar==ías==</td><td>comer==ías==</td><td>vivir==ías==</td><td>-ías</td></tr><tr><td>él/ella/usted</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>nosotros/as</td><td>hablar==íamos==</td><td>comer==íamos==</td><td>vivir==íamos==</td><td>-íamos</td></tr><tr><td>vosotros/as</td><td>hablar==íais==</td><td>comer==íais==</td><td>vivir==íais==</td><td>-íais</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==ían==</td><td>comer==ían==</td><td>vivir==ían==</td><td>-ían</td></tr></table>\n\n**不规则词干 = 和将来时一样**\n\n<table><tr><th>不定式</th><th>词干</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendría</td><td>saldríamos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podría</td><td>querríamos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haría</td><td>diríamos</td></tr></table>\n\n**五种用法**\n\n<table><tr><th>用法</th><th>例句</th></tr><tr><td>礼貌（使请求和愿望更委婉）</td><td>¿==Podrías== cerrar la ventana? ==Me gustaría== reservar una mesa. ==Querría== hablar con el director.</td></tr><tr><td>建议</td><td>==Deberías== descansar. Yo que tú, ==iría== al médico. Yo, en tu lugar, no lo ==compraría==.</td></tr><tr><td>假设（与现在事实相反）</td><td>Si tuviera dinero, ==viajaría== por todo el mundo. Con más tiempo, ==aprendería== a tocar la guitarra.</td></tr><tr><td>对过去的推测</td><td>—¿Qué hora era cuando volviste? —==Serían== las tres. ==Tendría== unos veinte años en aquella foto.</td></tr><tr><td>过去的将来（转述）</td><td>«Vendré mañana» → Dijo que ==vendría== al día siguiente. Sabía que ==ganaríamos==.</td></tr></table>\n\n**推测：将来时 → 现在，条件式 → 过去**\n\n<table><tr><th>确定</th><th>推测</th><th>时间</th></tr><tr><td>Son las tres.</td><td>==Serán== las tres.</td><td>现在</td></tr><tr><td>Eran las tres.</td><td>==Serían== las tres.</td><td>过去某时</td></tr></table>\n\n**非真实条件：si + 虚拟式过去时 → 条件式**\nSi ==tuviera== tiempo, te ==ayudaría==.（要是我有时间，就会帮你。）条件式放在**结果**里，绝不放在 si 后：~~Si tendría tiempo~~。语序可以换：Te ==ayudaría== si ==tuviera== tiempo。\n\n**条件式、未完成过去时与将来时**\n- 礼貌：==Quería== / ==Querría== / ==Quisiera== un café 都很礼貌；在西班牙的商店里 imperfecto 非常常见。\n- 过去的将来：Dijo que ==vendría==（他说他会来）。如果那件事现在仍在将来，也可以说 Dijo que ==vendrá== mañana。\n\n**给中文母语者的提示**\n- 中文“会”既可指将来，也可指过去的将来或假设；西班牙语要分开：明天会来 → ==vendrá==；他说过会来 → dijo que ==vendría==；要是…就会… → si + 虚拟式, ==vendría==。\n- “要是……就……”“如果……的话”指不真实的情况 → si + 虚拟式过去时 + 条件式。\n- 礼貌用语：“能不能……？”“可以……吗？”→ ¿==Podrías==…? / ¿==Podría== usted…?；“我想……”→ ==Me gustaría==…\n- “应该”表示建议 → ==deberías==；表示推测过去 → 条件式：那时大概三点 → ==Serían== las tres。\n- 过去的习惯（“以前常常……”）用未完成过去时，不用条件式：小时候我常去公园 → ==Iba== al parque。\n\n**常见错误**\n- ~~Si tendría dinero~~ → Si ==tuviera== dinero.\n- ~~podería~~ → ==podría==；~~saliría~~ → ==saldría==；~~hacería~~ → ==haría==。\n- ~~Dijo que vendrá ayer~~ → Dijo que ==vendría==.",
+      "ja": "**形：不定詞 ＋ -ía 語尾**（-er/-ir 動詞の線過去の語尾を不定詞全体につける）\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>語尾</th></tr><tr><td>yo</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>tú</td><td>hablar==ías==</td><td>comer==ías==</td><td>vivir==ías==</td><td>-ías</td></tr><tr><td>él/ella/usted</td><td>hablar==ía==</td><td>comer==ía==</td><td>vivir==ía==</td><td>-ía</td></tr><tr><td>nosotros/as</td><td>hablar==íamos==</td><td>comer==íamos==</td><td>vivir==íamos==</td><td>-íamos</td></tr><tr><td>vosotros/as</td><td>hablar==íais==</td><td>comer==íais==</td><td>vivir==íais==</td><td>-íais</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==ían==</td><td>comer==ían==</td><td>vivir==ían==</td><td>-ían</td></tr></table>\n\n**不規則な語幹 = 未来形と同じ**\n\n<table><tr><th>不定詞</th><th>語幹</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendría</td><td>saldríamos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podría</td><td>querríamos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haría</td><td>diríamos</td></tr></table>\n\n**5つの用法**\n\n<table><tr><th>用法</th><th>例</th></tr><tr><td>丁寧（依頼・希望をやわらげる）</td><td>¿==Podrías== cerrar la ventana? ==Me gustaría== reservar una mesa. ==Querría== hablar con el director.</td></tr><tr><td>助言</td><td>==Deberías== descansar. Yo que tú, ==iría== al médico. Yo, en tu lugar, no lo ==compraría==.</td></tr><tr><td>仮定（現在の非現実）</td><td>Si tuviera dinero, ==viajaría== por todo el mundo. Con más tiempo, ==aprendería== a tocar la guitarra.</td></tr><tr><td>過去の推量</td><td>—¿Qué hora era cuando volviste? —==Serían== las tres. ==Tendría== unos veinte años en aquella foto.</td></tr><tr><td>過去から見た未来（間接話法）</td><td>«Vendré mañana» → Dijo que ==vendría== al día siguiente. Sabía que ==ganaríamos==.</td></tr></table>\n\n**推量：未来形 → 今、過去未来 → 過去**\n\n<table><tr><th>確実</th><th>推量</th><th>時</th></tr><tr><td>Son las tres.</td><td>==Serán== las tres.</td><td>今</td></tr><tr><td>Eran las tres.</td><td>==Serían== las tres.</td><td>過去のある時点</td></tr></table>\n\n**非現実の条件：si ＋ 接続法過去 → 過去未来**\nSi ==tuviera== tiempo, te ==ayudaría==.（時間があれば手伝うのに。）過去未来は**帰結節**に置き、si の後には決して使いません：~~Si tendría tiempo~~。語順は逆でもOK：Te ==ayudaría== si ==tuviera== tiempo。\n\n**過去未来・線過去・未来形**\n- 丁寧：==Quería== / ==Querría== / ==Quisiera== un café はどれも丁寧。スペインの店では imperfecto がとてもよく使われます。\n- 過去から見た未来：Dijo que ==vendría==（来ると言った）。それがまだ未来なら Dijo que ==vendrá== mañana も可。\n\n**日本語話者のためのポイント**\n- 「〜ていただけますか」「〜てもらえる？」のような依頼は ¿==Podría== usted…? / ¿==Podrías==…? で。丁寧さは敬語ではなく、時制（過去未来）と usted で表します。\n- 「〜たいのですが」→ ==Me gustaría== / ==Querría==…\n- 「〜したほうがいい」→ ==Deberías==…、「私だったら〜する」→ Yo que tú, ==iría==…\n- 「〜ば…のに」「もし〜なら…だろう」（非現実）→ si ＋ 接続法過去 ＋ 過去未来。\n- 「〜だっただろう」（過去の推量）→ 過去未来：その時3時ごろだっただろう → ==Serían== las tres。\n- 「来ると言った」の「来る」は過去から見た未来 → ==vendría==。日本語は「来る」のままですが、スペイン語は形を変えます。\n\n**よくある間違い**\n- ~~Si tendría dinero~~ → Si ==tuviera== dinero.\n- ~~podería~~ → ==podría==、~~saliría~~ → ==saldría==、~~hacería~~ → ==haría==。\n- ~~Dijo que vendrá ayer~~ → Dijo que ==vendría==."
     },
     "conjugation": {
-      "hablar": {"yo": "hablaría", "tú": "hablarías", "él/ella": "hablaría", "nosotros": "hablaríamos", "ellos": "hablarían"},
-      "tener": {"yo": "tendría", "tú": "tendrías", "él/ella": "tendría", "nosotros": "tendríamos", "ellos": "tendrían"},
-      "poder": {"yo": "podría", "tú": "podrías", "él/ella": "podría", "nosotros": "podríamos", "ellos": "podrían"}
+      "hablar (condicional)": {
+        "yo": "hablaría",
+        "tú": "hablarías",
+        "él/ella/usted": "hablaría",
+        "nosotros": "hablaríamos",
+        "vosotros": "hablaríais",
+        "ellos/ustedes": "hablarían"
+      },
+      "poder (condicional)": {
+        "yo": "podría",
+        "tú": "podrías",
+        "él/ella/usted": "podría",
+        "nosotros": "podríamos",
+        "vosotros": "podríais",
+        "ellos/ustedes": "podrían"
+      },
+      "tener (condicional)": {
+        "yo": "tendría",
+        "tú": "tendrías",
+        "él/ella/usted": "tendría",
+        "nosotros": "tendríamos",
+        "vosotros": "tendríais",
+        "ellos/ustedes": "tendrían"
+      },
+      "hacer (condicional)": {
+        "yo": "haría",
+        "tú": "harías",
+        "él/ella/usted": "haría",
+        "nosotros": "haríamos",
+        "vosotros": "haríais",
+        "ellos/ustedes": "harían"
+      }
     },
     "examples": [
-      {"es": "Me gustaría vivir en España.", "en": "I'd like to live in Spain.", "zh": "我想住在西班牙。", "ja": "スペインに住みたいなあ。"},
-      {"es": "¿Podrías repetir, por favor?", "en": "Could you repeat, please?", "zh": "请你能重复一下吗？", "ja": "もう一度言っていただけますか？"},
-      {"es": "Yo que tú, no iría.", "en": "If I were you, I wouldn't go.", "zh": "我要是你，就不去。", "ja": "君だったら、行かないな。"}
+      {
+        "es": "¿Podrías ayudarme con las maletas?",
+        "en": "Could you help me with the suitcases?",
+        "zh": "你能帮我拿一下行李箱吗？",
+        "ja": "スーツケース、手伝ってもらえる？"
+      },
+      {
+        "es": "Me gustaría reservar una mesa para dos.",
+        "en": "I'd like to book a table for two.",
+        "zh": "我想订一张两人桌。",
+        "ja": "2人用のテーブルを予約したいのですが。"
+      },
+      {
+        "es": "Yo que tú, hablaría con ella.",
+        "en": "If I were you, I'd talk to her.",
+        "zh": "换作是我，我会跟她谈谈。",
+        "ja": "私だったら彼女と話すよ。"
+      },
+      {
+        "es": "Si tuviera más tiempo, haría más deporte.",
+        "en": "If I had more time, I'd do more sport.",
+        "zh": "要是有更多时间，我会多运动。",
+        "ja": "もっと時間があれば、もっと運動するのに。"
+      },
+      {
+        "es": "Cuando llegué a casa serían las tres.",
+        "en": "It must have been about three when I got home.",
+        "zh": "我到家的时候大概三点了。",
+        "ja": "家に着いたのは3時ごろだっただろう。"
+      },
+      {
+        "es": "Me dijo que vendría a la fiesta.",
+        "en": "She told me she would come to the party.",
+        "zh": "她跟我说她会来聚会。",
+        "ja": "パーティーに来ると彼女は言った。"
+      },
+      {
+        "es": "Deberías dormir más.",
+        "en": "You should sleep more.",
+        "zh": "你应该多睡点。",
+        "ja": "もっと寝たほうがいいよ。"
+      }
     ]
   },
   {
     "id": "future-tense",
-    "title": {"en": "Future Tense", "zh": "简单将来时", "ja": "未来形"},
-    "summary": {"en": "I will do, you will go (haré, irá)", "zh": "我将做、你将去", "ja": "〜するだろう（推量・予定）"},
+    "unit": 12,
+    "title": {
+      "en": "Future tense (futuro simple) and future of probability",
+      "zh": "将来时与推测将来时",
+      "ja": "未来形と推量の未来"
+    },
+    "summary": {
+      "en": "hablaré, tendré, haré; futuro vs ir a vs presente; Serán las tres / Estará en casa",
+      "zh": "hablaré, tendré, haré；将来时、ir a 与现在时；Serán las tres / Estará en casa",
+      "ja": "hablaré, tendré, haré・未来形 vs ir a vs 現在形・Serán las tres / Estará en casa"
+    },
     "explanation": {
-      "en": "Express future plans, predictions, and probability:\n\n**Formation:** infinitive + endings\n-é, -ás, -á, -emos, -éis, -án\n\n- hablar → hablaré, hablarás, hablará...\n- comer → comeré...\n- vivir → viviré...\n\n**Irregular stems (same as conditional):**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | querer→querré | saber→sabré\nsalir→saldré | venir→vendré | haber→habrá\nponer→pondré | caber→cabré | valer→valdré\n\n**Uses:**\n- Predictions: Mañana lloverá (It will rain tomorrow)\n- Plans: El año que viene iré a Japón (Next year I'll go to Japan)\n- Promises: Te lo devolveré mañana (I'll return it tomorrow)\n- Probability (present): ¿Qué hora será? (What time could it be? / I wonder what time it is)\n- Serán las tres (It's probably three o'clock)\n\n**Future of probability:** Very common in spoken Spanish!\n- ¿Dónde estará Juan? = Where could Juan be?\n- Tendrá unos 30 años = He must be around 30\n\n**ir a + infinitive vs future:** ir a = planned/imminent, future simple = predictions/distant",
-      "zh": "表达未来计划、预测和猜测：\n\n**构成：** 不定式 + 词尾\n-é, -ás, -á, -emos, -éis, -án\n\n**不规则词干：**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | saber→sabré | salir→saldré\n\n**用法：**\n- 预测：Mañana lloverá（明天会下雨）\n- 计划：El año que viene iré a Japón（明年去日本）\n- 猜测（现在的）：¿Qué hora será?（现在几点？大概几点？）\n- Tendrá unos 30 años（他大概30岁左右）\n\n**猜测用法在口语中很常见！**\n和中文对比：'大概是……'= será...",
-      "ja": "未来の計画、予測、推量を表します：\n\n**作り方：** 不定詞 + 語尾\n-é, -ás, -á, -emos, -éis, -án\n\n**不規則語幹：**\ntener→tendré | poder→podré | hacer→haré\ndecir→diré | saber→sabré | salir→saldré\n\n**用法：**\n- 予測：Mañana lloverá（明日は雨だろう）\n- 計画：El año que viene iré a Japón（来年日本に行く）\n- 推量（現在の）：¿Qué hora será?（今何時だろう？）\n- Tendrá unos 30 años（30歳くらいだろう）\n\n**推量の未来形は会話で非常によく使われます！**\n日本語の「〜だろう」「〜でしょう」に近い"
+      "en": "**Form: infinitive + endings** (the same endings for -ar, -er, -ir)\n\n<table><tr><th>Person</th><th>hablar</th><th>comer</th><th>vivir</th><th>ending</th></tr><tr><td>yo</td><td>hablar==é==</td><td>comer==é==</td><td>vivir==é==</td><td>-é</td></tr><tr><td>tú</td><td>hablar==ás==</td><td>comer==ás==</td><td>vivir==ás==</td><td>-ás</td></tr><tr><td>él/ella/usted</td><td>hablar==á==</td><td>comer==á==</td><td>vivir==á==</td><td>-á</td></tr><tr><td>nosotros/as</td><td>hablar==emos==</td><td>comer==emos==</td><td>vivir==emos==</td><td>-emos</td></tr><tr><td>vosotros/as</td><td>hablar==éis==</td><td>comer==éis==</td><td>vivir==éis==</td><td>-éis</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==án==</td><td>comer==án==</td><td>vivir==án==</td><td>-án</td></tr></table>\n\nAll forms except nosotros carry an accent: hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán.\n\n**Irregular stems** (same endings; the same stems are used in the conditional)\n\n<table><tr><th>Infinitive</th><th>Stem</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendré</td><td>saldremos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podré</td><td>querremos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haré</td><td>diremos</td></tr></table>\n\nCompounds keep the irregularity: proponer → propondré, mantener → mantendré, deshacer → desharé. But decir's compounds bendecir/maldecir are regular.\n\n**When to use it**\n- **Predictions**: Mañana ==hará== sol. En 2050 ==habrá== más coches eléctricos.\n- **Promises and decisions**: Te ==llamaré== esta noche. No ==volveré== a hacerlo.\n- **Conditions with si + presente**: Si ==llueve==, nos ==quedaremos== en casa (never ~~si lloverá~~).\n- **Futuro de probabilidad**: a guess about the PRESENT. —¿Qué hora es? —==Serán== las tres (= probablemente son las tres). —¿Dónde está Ana? —==Estará== en casa. ¿Quién ==será== a estas horas? ==Tendrá== unos cuarenta años.\n- **Concession**: ==Será== muy caro, pero vale la pena (= it may be expensive, but…).\n\n**Futuro vs ir a vs presente**\n\n<table><tr><th>Form</th><th>Use</th><th>Example</th></tr><tr><td>presente</td><td>timetable / arranged fact</td><td>El tren ==sale== a las ocho. Mañana ==trabajo==.</td></tr><tr><td>ir a + infinitivo</td><td>plan, intention, visible evidence (most common in speech in Spain)</td><td>Este verano ==voy a hacer== un curso. ¡Mira, ==va a llover==!</td></tr><tr><td>futuro simple</td><td>prediction, promise, decision, formal; probability now</td><td>Mañana ==lloverá== en el norte. Te lo ==devolveré==. ==Serán== las tres.</td></tr></table>\n\nAfter **cuando, en cuanto, hasta que** + future idea, Spanish uses the subjunctive, not the future: Cuando ==llegues==, llámame (~~cuando llegarás~~).\n\n**For English speakers**\n- «will» is not always the futuro. Spontaneous offers are often present: «I'll get it!» → ¡Ya ==voy==! / Lo ==cojo== yo. Requests use the present or poder: «Will you help me?» → ¿Me ==ayudas==? / ¿==Puedes== ayudarme?\n- «won't» = refusal → no querer: «The door won't open» → La puerta ==no se abre== / no hay manera de abrirla.\n- «He must be at home» (guess) → ==Estará== en casa; «I wonder who it is» → ¿Quién ==será==?\n- «I'm meeting Ana tomorrow» → ==He quedado== con Ana mañana / ==Voy a ver== a Ana mañana (not ~~estoy viendo~~).\n\n**Common mistakes**\n- ~~saleré~~ → ==saldré==; ~~teneré~~ → ==tendré==; ~~haceré~~ → ==haré==; ~~deciré~~ → ==diré==.\n- ~~Cuando tendré tiempo~~ → Cuando ==tenga== tiempo.\n- ~~Si vendrás, te lo enseño~~ → Si ==vienes==, te lo enseño.\n- ~~hablarémos~~ → ==hablaremos== (no written accent in nosotros).",
+      "zh": "**构成：不定式 + 词尾**（-ar, -er, -ir 词尾都一样）\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>词尾</th></tr><tr><td>yo</td><td>hablar==é==</td><td>comer==é==</td><td>vivir==é==</td><td>-é</td></tr><tr><td>tú</td><td>hablar==ás==</td><td>comer==ás==</td><td>vivir==ás==</td><td>-ás</td></tr><tr><td>él/ella/usted</td><td>hablar==á==</td><td>comer==á==</td><td>vivir==á==</td><td>-á</td></tr><tr><td>nosotros/as</td><td>hablar==emos==</td><td>comer==emos==</td><td>vivir==emos==</td><td>-emos</td></tr><tr><td>vosotros/as</td><td>hablar==éis==</td><td>comer==éis==</td><td>vivir==éis==</td><td>-éis</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==án==</td><td>comer==án==</td><td>vivir==án==</td><td>-án</td></tr></table>\n\n除 nosotros 外都有重音符号：hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán。\n\n**不规则词干**（词尾不变；条件式用同样的词干）\n\n<table><tr><th>不定式</th><th>词干</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendré</td><td>saldremos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podré</td><td>querremos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haré</td><td>diremos</td></tr></table>\n\n派生词保持不规则：proponer → propondré, mantener → mantendré, deshacer → desharé。\n\n**什么时候用**\n- **预测**：Mañana ==hará== sol.（明天会是晴天。）\n- **承诺与决定**：Te ==llamaré== esta noche.（我今晚给你打电话。）\n- **si + 现在时 的条件句**：Si ==llueve==, nos ==quedaremos== en casa.（如果下雨，我们就待在家里。）绝不能说 ~~si lloverá~~。\n- **推测将来时（futuro de probabilidad）**：对**现在**的猜测。——¿Qué hora es? ——==Serán== las tres.（大概三点吧。）——¿Dónde está Ana? ——==Estará== en casa.（应该在家吧。）¿Quién ==será== a estas horas?（这么晚了会是谁呢？）==Tendrá== unos cuarenta años.（他大概四十岁左右。）\n- **让步**：==Será== muy caro, pero vale la pena.（也许是很贵，但值得。）\n\n**将来时、ir a 和现在时**\n\n<table><tr><th>形式</th><th>用法</th><th>例句</th></tr><tr><td>presente</td><td>时刻表 / 已安排好的事</td><td>El tren ==sale== a las ocho. Mañana ==trabajo==.</td></tr><tr><td>ir a + infinitivo</td><td>计划、打算、有迹象（西班牙口语最常用）</td><td>Este verano ==voy a hacer== un curso. ¡Mira, ==va a llover==!</td></tr><tr><td>futuro simple</td><td>预测、承诺、正式；对现在的推测</td><td>Mañana ==lloverá== en el norte. Te lo ==devolveré==. ==Serán== las tres.</td></tr></table>\n\n在 **cuando, en cuanto, hasta que** 后面指将来时，要用虚拟式：Cuando ==llegues==, llámame.（~~cuando llegarás~~）\n\n**给中文母语者的提示**\n- 中文“会/要/将”不变形；西班牙语将来时有六个人称词尾，主语往往省略：==Iremos== = 我们会去。\n- “要”常常是计划 → ir a：我明天要去马德里 → Mañana ==voy a ir== a Madrid（或 Mañana ==voy== a Madrid）。\n- “会”表示预测 → 将来时：明天会下雨 → Mañana ==lloverá==。\n- “大概/应该/可能……吧”猜测现在 → 用将来时就够了，不必加 probablemente：他应该在办公室吧 → ==Estará== en la oficina。\n- “……的时候”指将来 → cuando + 虚拟式，而不是将来时：你到的时候 → cuando ==llegues==。\n\n**常见错误**\n- ~~saleré~~ → ==saldré==；~~teneré~~ → ==tendré==；~~haceré~~ → ==haré==；~~deciré~~ → ==diré==。\n- ~~Cuando tendré tiempo~~ → Cuando ==tenga== tiempo.\n- ~~Si vendrás, te lo enseño~~ → Si ==vienes==, te lo enseño.\n- ~~hablarémos~~ → ==hablaremos==（nosotros 没有重音符号）。",
+      "ja": "**形：不定詞 ＋ 語尾**（-ar, -er, -ir すべて同じ語尾）\n\n<table><tr><th>人称</th><th>hablar</th><th>comer</th><th>vivir</th><th>語尾</th></tr><tr><td>yo</td><td>hablar==é==</td><td>comer==é==</td><td>vivir==é==</td><td>-é</td></tr><tr><td>tú</td><td>hablar==ás==</td><td>comer==ás==</td><td>vivir==ás==</td><td>-ás</td></tr><tr><td>él/ella/usted</td><td>hablar==á==</td><td>comer==á==</td><td>vivir==á==</td><td>-á</td></tr><tr><td>nosotros/as</td><td>hablar==emos==</td><td>comer==emos==</td><td>vivir==emos==</td><td>-emos</td></tr><tr><td>vosotros/as</td><td>hablar==éis==</td><td>comer==éis==</td><td>vivir==éis==</td><td>-éis</td></tr><tr><td>ellos/ellas/ustedes</td><td>hablar==án==</td><td>comer==án==</td><td>vivir==án==</td><td>-án</td></tr></table>\n\nnosotros 以外はアクセント記号がつきます：hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán。\n\n**不規則な語幹**（語尾は同じ。過去未来も同じ語幹を使います）\n\n<table><tr><th>不定詞</th><th>語幹</th><th>yo</th><th>nosotros</th></tr><tr><td>tener / poner / salir / venir / valer</td><td>==tendr==- / ==pondr==- / ==saldr==- / ==vendr==- / ==valdr==-</td><td>tendré</td><td>saldremos</td></tr><tr><td>poder / saber / haber / caber / querer</td><td>==podr==- / ==sabr==- / ==habr==- / ==cabr==- / ==querr==-</td><td>podré</td><td>querremos</td></tr><tr><td>hacer / decir</td><td>==har==- / ==dir==-</td><td>haré</td><td>diremos</td></tr></table>\n\n派生語も同じく不規則：proponer → propondré, mantener → mantendré, deshacer → desharé。\n\n**いつ使うか**\n- **予測**：Mañana ==hará== sol.（明日は晴れるだろう。）\n- **約束・決意**：Te ==llamaré== esta noche.（今夜電話するよ。）\n- **si ＋ 現在形の条件文**：Si ==llueve==, nos ==quedaremos== en casa.（雨なら家にいよう。）~~si lloverá~~ とは言いません。\n- **推量の未来（futuro de probabilidad）**：**現在**についての推測。「¿Qué hora es?」「==Serán== las tres.」（3時ごろでしょう。）「¿Dónde está Ana?」「==Estará== en casa.」（家にいるんじゃないかな。）¿Quién ==será== a estas horas?（こんな時間に誰だろう？）==Tendrá== unos cuarenta años.（40歳ぐらいだろう。）\n- **譲歩**：==Será== muy caro, pero vale la pena.（高いかもしれないが、その価値はある。）\n\n**未来形・ir a・現在形**\n\n<table><tr><th>形</th><th>用法</th><th>例</th></tr><tr><td>presente</td><td>時刻表・確定した予定</td><td>El tren ==sale== a las ocho. Mañana ==trabajo==.</td></tr><tr><td>ir a + infinitivo</td><td>予定・意図・兆候（スペインの会話で最も普通）</td><td>Este verano ==voy a hacer== un curso. ¡Mira, ==va a llover==!</td></tr><tr><td>futuro simple</td><td>予測・約束・改まった文体・現在の推量</td><td>Mañana ==lloverá== en el norte. Te lo ==devolveré==. ==Serán== las tres.</td></tr></table>\n\n**cuando, en cuanto, hasta que** の後で未来を表すときは接続法：Cuando ==llegues==, llámame.（~~cuando llegarás~~）\n\n**日本語話者のためのポイント**\n- 日本語には未来形がなく、「明日行く」のように「る」形で未来を表します。スペイン語では、確定した予定は現在形（Mañana ==voy==）、意図・予定は ir a（==Voy a ir==）、予測・約束は未来形（==Iré==）と使い分けます。\n- 「〜だろう／〜でしょう／〜かな」は未来形そのもので表せます：今ごろ家にいるだろう → ==Estará== en casa。「〜だろうか」→ ¿Quién ==será==?\n- 「〜たら」（未来の条件・時）は cuando ＋ 接続法：着いたら電話して → Cuando ==llegues==, llámame。\n- 「〜します」（丁寧形）は時制ではありません。Lo haré は「やります（約束）」で、丁寧さは usted で表します。\n\n**よくある間違い**\n- ~~saleré~~ → ==saldré==、~~teneré~~ → ==tendré==、~~haceré~~ → ==haré==、~~deciré~~ → ==diré==。\n- ~~Cuando tendré tiempo~~ → Cuando ==tenga== tiempo.\n- ~~Si vendrás, te lo enseño~~ → Si ==vienes==, te lo enseño.\n- ~~hablarémos~~ → ==hablaremos==（nosotros にはアクセント記号なし）。"
     },
     "conjugation": {
-      "hablar": {"yo": "hablaré", "tú": "hablarás", "él/ella": "hablará", "nosotros": "hablaremos", "ellos": "hablarán"},
-      "hacer": {"yo": "haré", "tú": "harás", "él/ella": "hará", "nosotros": "haremos", "ellos": "harán"},
-      "tener": {"yo": "tendré", "tú": "tendrás", "él/ella": "tendrá", "nosotros": "tendremos", "ellos": "tendrán"}
+      "hablar (futuro)": {
+        "yo": "hablaré",
+        "tú": "hablarás",
+        "él/ella/usted": "hablará",
+        "nosotros": "hablaremos",
+        "vosotros": "hablaréis",
+        "ellos/ustedes": "hablarán"
+      },
+      "tener (futuro)": {
+        "yo": "tendré",
+        "tú": "tendrás",
+        "él/ella/usted": "tendrá",
+        "nosotros": "tendremos",
+        "vosotros": "tendréis",
+        "ellos/ustedes": "tendrán"
+      },
+      "hacer (futuro)": {
+        "yo": "haré",
+        "tú": "harás",
+        "él/ella/usted": "hará",
+        "nosotros": "haremos",
+        "vosotros": "haréis",
+        "ellos/ustedes": "harán"
+      },
+      "decir (futuro)": {
+        "yo": "diré",
+        "tú": "dirás",
+        "él/ella/usted": "dirá",
+        "nosotros": "diremos",
+        "vosotros": "diréis",
+        "ellos/ustedes": "dirán"
+      }
     },
     "examples": [
-      {"es": "El año que viene iré a España.", "en": "Next year I'll go to Spain.", "zh": "明年我会去西班牙。", "ja": "来年スペインに行く。"},
-      {"es": "¿Qué hora será? Serán las tres.", "en": "What time could it be? It's probably three.", "zh": "现在几点？大概三点。", "ja": "何時だろう？3時くらいかな。"},
-      {"es": "Mañana hará buen tiempo.", "en": "Tomorrow the weather will be nice.", "zh": "明天天气会好的。", "ja": "明日はいい天気だろう。"}
+      {
+        "es": "Mañana hará buen tiempo en Madrid.",
+        "en": "The weather will be good in Madrid tomorrow.",
+        "zh": "明天马德里天气会很好。",
+        "ja": "明日のマドリードは天気がいいだろう。"
+      },
+      {
+        "es": "Te prometo que te lo devolveré el lunes.",
+        "en": "I promise I'll give it back to you on Monday.",
+        "zh": "我保证周一还给你。",
+        "ja": "月曜日に返すと約束するよ。"
+      },
+      {
+        "es": "—¿Qué hora es? —No sé, serán las tres.",
+        "en": "—What time is it? —I don't know, it must be about three.",
+        "zh": "——几点了？——不知道，大概三点吧。",
+        "ja": "「何時？」「さあ、3時ごろだろう。」"
+      },
+      {
+        "es": "No contesta al teléfono. Estará en casa durmiendo.",
+        "en": "She isn't answering the phone. She's probably at home asleep.",
+        "zh": "她不接电话，大概在家睡觉吧。",
+        "ja": "電話に出ない。家で寝ているんだろう。"
+      },
+      {
+        "es": "¿Quién será a estas horas?",
+        "en": "Who can it be at this time?",
+        "zh": "这么晚了会是谁呢？",
+        "ja": "こんな時間に誰だろう？"
+      },
+      {
+        "es": "Si mañana llueve, no saldremos.",
+        "en": "If it rains tomorrow, we won't go out.",
+        "zh": "如果明天下雨，我们就不出去了。",
+        "ja": "明日雨なら出かけないよ。"
+      },
+      {
+        "es": "Este verano vamos a hacer el Camino de Santiago.",
+        "en": "This summer we're going to do the Camino de Santiago.",
+        "zh": "今年夏天我们打算走圣地亚哥之路。",
+        "ja": "この夏はサンティアゴ巡礼路を歩くつもりだ。"
+      }
     ]
   },
   {
     "id": "por-para",
-    "title": {"en": "Por vs Para", "zh": "por与para的区别", "ja": "por vs para"},
-    "summary": {"en": "Two words for 'for' with different uses", "zh": "两个'for'的不同用法", "ja": "「〜のために」の使い分け"},
+    "unit": 13,
+    "title": {
+      "en": "Por vs para (B1 advanced)",
+      "zh": "por 与 para（B1 进阶）",
+      "ja": "por と para（B1 上級）"
+    },
+    "summary": {
+      "en": "Minimal pairs, estar por / estar para, por + infinitive, deadlines, passive, por si acaso, para colmo, por lo visto",
+      "zh": "最小对立句、estar por / estar para、por + 不定式、期限、被动、por si acaso、para colmo、por lo visto",
+      "ja": "ミニマルペア・estar por / estar para・por ＋ 不定詞・期限・受動・por si acaso・para colmo・por lo visto"
+    },
     "explanation": {
-      "en": "Both mean 'for' but are NOT interchangeable:\n\n**PARA** (destination/purpose/deadline):\n- Purpose: Estudio para aprender (I study to learn)\n- Recipient: Este regalo es para ti (This gift is for you)\n- Destination: Salgo para Madrid (I'm leaving for Madrid)\n- Deadline: Lo necesito para el lunes (I need it by Monday)\n- Opinion: Para mí, es importante (For me, it's important)\n- Comparison: Para un niño, habla muy bien (For a child, he speaks well)\n\n**POR** (cause/exchange/duration/through):\n- Cause/reason: Estudio por necesidad (I study out of necessity)\n- Exchange: Te lo cambio por esto (I'll trade it for this)\n- Duration: Viví allí por tres años (I lived there for three years)\n- Through/along: Pasé por tu casa (I went by your house)\n- Per: Tres veces por semana (Three times per week)\n- Agent: Fue escrito por Cervantes (It was written by Cervantes)\n- Means: Hablamos por teléfono (We talked by phone)\n- On behalf: Lo hice por ti (I did it for you / on your behalf)\n\n**Trick:** PARA = forward-looking (goal) | POR = backward-looking (cause)",
-      "zh": "两个都是'for'但不能互换：\n\n**PARA**（目的/方向/截止日期）：\n- 目的：Estudio para aprender（为了学习而学习）\n- 接收者：Este regalo es para ti（这礼物给你）\n- 方向：Salgo para Madrid（我出发去马德里）\n- 截止：Lo necesito para el lunes（周一前需要）\n- 观点：Para mí, es importante（对我来说很重要）\n\n**POR**（原因/交换/持续/经过）：\n- 原因：Estudio por necesidad（出于需要而学习）\n- 交换：Te lo cambio por esto（拿这个跟你换）\n- 持续：Viví allí por tres años（在那住了三年）\n- 经过：Pasé por tu casa（路过你家）\n- 每：Tres veces por semana（每周三次）\n\n**口诀：** PARA看前方（目标）| POR看后方（原因）",
-      "ja": "どちらも「〜のために」ですが、交換不可です：\n\n**PARA**（目的/方向/期限）：\n- 目的：Estudio para aprender（学ぶために勉強する）\n- 受取人：Este regalo es para ti（このプレゼントは君に）\n- 方向：Salgo para Madrid（マドリードに向けて出発する）\n- 期限：Lo necesito para el lunes（月曜日までに必要）\n- 意見：Para mí, es importante（私にとって大切）\n\n**POR**（原因/交換/期間/経由）：\n- 原因：Estudio por necesidad（必要に迫られて勉強する）\n- 交換：Te lo cambio por esto（これと交換する）\n- 期間：Viví allí por tres años（3年間住んだ）\n- 通過：Pasé por tu casa（家の前を通った）\n- 〜につき：Tres veces por semana（週3回）\n\n**コツ：** PARA=前を向く（目標）| POR=後ろを向く（原因）"
+      "en": "At A2 you learnt the basics: **para** looks forward (purpose, destination, recipient, deadline) and **por** looks back or through (cause, exchange, route, means, «per»). At B1 the difficulty is in fixed structures and minimal pairs, where changing one word changes the meaning.\n\n**1. Minimal pairs**\n\n<table><tr><th>POR</th><th>PARA</th><th>Difference</th></tr><tr><td>Lo hice ==por== ti.</td><td>Lo hice ==para== ti.</td><td>because of you / on your behalf vs as a gift to you</td></tr><tr><td>Trabajo ==por== mi familia.</td><td>Trabajo ==para== una multinacional.</td><td>my reason vs my employer</td></tr><tr><td>Pasamos ==por== Toledo.</td><td>Salimos ==para== Toledo.</td><td>through / via vs towards (destination)</td></tr><tr><td>Estudio ==por== la mañana.</td><td>Lo necesito ==para== mañana.</td><td>in the morning (vague time) vs by tomorrow (deadline)</td></tr><tr><td>La cama está ==por== hacer.</td><td>El tren está ==para== salir.</td><td>still to be done vs about to happen</td></tr><tr><td>Me quedo en casa ==por== estar cansado.</td><td>Me quedo en casa ==para== descansar.</td><td>reason (because I'm tired) vs purpose (in order to rest)</td></tr><tr><td>==Por== mí, vale.</td><td>==Para== mí, es un error.</td><td>as far as I'm concerned (I don't mind) vs in my opinion</td></tr></table>\n\n**2. Advanced structures**\n\n<table><tr><th>Structure</th><th>Meaning</th><th>Example</th></tr><tr><td>estar ==por== + infinitivo</td><td>still to be done (something pending)</td><td>Los platos están ==por== fregar.</td></tr><tr><td>estar ==por== + infinitivo (persona)</td><td>(feeling) inclined to do</td><td>Estoy ==por== llamarla y decírselo todo.</td></tr><tr><td>estar ==para== + infinitivo</td><td>about to (Spain: a punto de is more common)</td><td>El avión está ==para== despegar.</td></tr><tr><td>(no) estar ==para== + nombre</td><td>(not) in the mood for</td><td>Hoy no estoy ==para== bromas.</td></tr><tr><td>==por== + infinitivo</td><td>cause (because of doing)</td><td>Le multaron ==por== aparcar mal.</td></tr><tr><td>quedar ... ==por== + infinitivo</td><td>still to do / remaining</td><td>Me quedan dos capítulos ==por== leer.</td></tr><tr><td>==para== + infinitivo</td><td>purpose</td><td>Ahorro ==para== comprarme un piso.</td></tr><tr><td>==para== + fecha</td><td>deadline</td><td>Entregadlo ==para== el viernes.</td></tr><tr><td>==por== + tiempo / lugar</td><td>approximate time / place</td><td>Nos vemos ==por== Navidad. Vive ==por== aquí.</td></tr><tr><td>ser + participio + ==por==</td><td>agent in the passive</td><td>El puente fue diseñado ==por== Calatrava.</td></tr></table>\n\n**3. Expressions you must know**\n\n<table><tr><th>Expression</th><th>Meaning</th><th>Example</th></tr><tr><td>==por si acaso==</td><td>just in case</td><td>Llévate el paraguas ==por si acaso==.</td></tr><tr><td>==para colmo==</td><td>to top it all (something bad)</td><td>Perdí el tren y, ==para colmo==, empezó a llover.</td></tr><tr><td>==por lo visto==</td><td>apparently, it seems</td><td>==Por lo visto==, van a cerrar la tienda.</td></tr><tr><td>==por fin==</td><td>at last</td><td>¡==Por fin== es viernes!</td></tr><tr><td>==por cierto==</td><td>by the way</td><td>==Por cierto==, ¿has hablado con Luis?</td></tr><tr><td>==por supuesto==</td><td>of course</td><td>—¿Me ayudas? —==Por supuesto==.</td></tr><tr><td>==por lo menos==</td><td>at least</td><td>Llama ==por lo menos== una vez a la semana.</td></tr><tr><td>==para nada==</td><td>not at all</td><td>—¿Te molesta? —==Para nada==.</td></tr><tr><td>==para siempre==</td><td>forever</td><td>Te querré ==para siempre==.</td></tr></table>\n\n**4. Time: por, para, durante**\n- **para** + date = deadline: Lo quiero ==para== el lunes.\n- **por** + part of the day / vague time: ==por== la tarde, ==por== Navidad, ==por== el verano.\n- **Duration**: in Spain, use **durante** or nothing: Viví en Londres ==durante== tres años / Viví tres años en Londres. «==por== tres años» exists but sounds Latin American or translated from English.\n\n**5. Gracias por, pagar por, cambiar por**\nGracias ==por== + noun/infinitive: Gracias ==por== venir. Pagué 20 euros ==por== la camiseta. Te cambio mi bocadillo ==por== tu manzana.\n\n**For English speakers**\n- «for» is not a reliable guide. «Thanks for» = gracias ==por==; «I'm leaving for Madrid» = salgo ==para== Madrid; «for three years» = ==durante== tres años (~~para tres años~~).\n- «by» in the passive = ==por==; «by Friday» (deadline) = ==para== el viernes; «by car» = ==en== coche (not por/para).\n- «to» of purpose = ==para== + infinitive: «I came to see you» → Vine ==para== verte (after verbs of movement, ==a== is also common: Vine ==a== verte).\n\n**Common mistakes**\n- ~~Gracias para todo~~ → Gracias ==por== todo.\n- ~~Estudio para la mañana~~ → Estudio ==por== la mañana.\n- ~~Es por ti~~ (gift) → Es ==para== ti.\n- ~~Viví allí para tres años~~ → Viví allí ==durante== tres años.",
+      "zh": "在 A2 你学过基础：**para** 向前看（目的、目的地、接受者、期限），**por** 向后看或“经过”（原因、交换、路线、方式、“每”）。B1 的难点在于固定结构和**最小对立句**——换一个词，意思就完全不同。\n\n**1. 最小对立句**\n\n<table><tr><th>POR</th><th>PARA</th><th>区别</th></tr><tr><td>Lo hice ==por== ti.</td><td>Lo hice ==para== ti.</td><td>因为你/替你 vs 给你的</td></tr><tr><td>Trabajo ==por== mi familia.</td><td>Trabajo ==para== una multinacional.</td><td>原因（为了家人）vs 雇主（在公司工作）</td></tr><tr><td>Pasamos ==por== Toledo.</td><td>Salimos ==para== Toledo.</td><td>经过 vs 前往（目的地）</td></tr><tr><td>Estudio ==por== la mañana.</td><td>Lo necesito ==para== mañana.</td><td>上午（大概时间）vs 明天之前（期限）</td></tr><tr><td>La cama está ==por== hacer.</td><td>El tren está ==para== salir.</td><td>还没做 vs 马上要发生</td></tr><tr><td>Me quedo en casa ==por== estar cansado.</td><td>Me quedo en casa ==para== descansar.</td><td>原因（因为累）vs 目的（为了休息）</td></tr><tr><td>==Por== mí, vale.</td><td>==Para== mí, es un error.</td><td>我没意见 vs 在我看来</td></tr></table>\n\n**2. 进阶结构**\n\n<table><tr><th>结构</th><th>意义</th><th>例句</th></tr><tr><td>estar ==por== + infinitivo</td><td>还没做（待完成）</td><td>Los platos están ==por== fregar.</td></tr><tr><td>estar ==por== + infinitivo (persona)</td><td>倾向于、想要做</td><td>Estoy ==por== llamarla y decírselo todo.</td></tr><tr><td>estar ==para== + infinitivo</td><td>即将（西班牙更常说 a punto de）</td><td>El avión está ==para== despegar.</td></tr><tr><td>(no) estar ==para== + nombre</td><td>（没）心情做</td><td>Hoy no estoy ==para== bromas.</td></tr><tr><td>==por== + infinitivo</td><td>原因（因为做了……）</td><td>Le multaron ==por== aparcar mal.</td></tr><tr><td>quedar ... ==por== + infinitivo</td><td>还剩……没做</td><td>Me quedan dos capítulos ==por== leer.</td></tr><tr><td>==para== + infinitivo</td><td>目的</td><td>Ahorro ==para== comprarme un piso.</td></tr><tr><td>==para== + fecha</td><td>期限</td><td>Entregadlo ==para== el viernes.</td></tr><tr><td>==por== + tiempo / lugar</td><td>大概的时间/地点</td><td>Nos vemos ==por== Navidad. Vive ==por== aquí.</td></tr><tr><td>ser + participio + ==por==</td><td>被动句中的施动者</td><td>El puente fue diseñado ==por== Calatrava.</td></tr></table>\n\n**3. 必须掌握的表达**\n\n<table><tr><th>表达</th><th>意义</th><th>例句</th></tr><tr><td>==por si acaso==</td><td>以防万一</td><td>Llévate el paraguas ==por si acaso==.</td></tr><tr><td>==para colmo==</td><td>更糟的是</td><td>Perdí el tren y, ==para colmo==, empezó a llover.</td></tr><tr><td>==por lo visto==</td><td>看来、据说</td><td>==Por lo visto==, van a cerrar la tienda.</td></tr><tr><td>==por fin==</td><td>终于</td><td>¡==Por fin== es viernes!</td></tr><tr><td>==por cierto==</td><td>顺便说一下</td><td>==Por cierto==, ¿has hablado con Luis?</td></tr><tr><td>==por supuesto==</td><td>当然</td><td>—¿Me ayudas? —==Por supuesto==.</td></tr><tr><td>==por lo menos==</td><td>至少</td><td>Llama ==por lo menos== una vez a la semana.</td></tr><tr><td>==para nada==</td><td>一点也不</td><td>—¿Te molesta? —==Para nada==.</td></tr><tr><td>==para siempre==</td><td>永远</td><td>Te querré ==para siempre==.</td></tr></table>\n\n**4. 时间：por, para, durante**\n- **para** + 日期 = 期限：Lo quiero ==para== el lunes.（我周一前要。）\n- **por** + 一天中的时段 / 大概时间：==por== la tarde, ==por== Navidad, ==por== el verano。\n- **持续时间**：在西班牙用 **durante** 或不用介词：Viví en Londres ==durante== tres años / Viví tres años en Londres。«==por== tres años» 也存在，但听起来像拉美用法或英语直译。\n\n**5. Gracias por, pagar por, cambiar por**\nGracias ==por== + 名词/不定式：Gracias ==por== venir. Pagué 20 euros ==por== la camiseta. Te cambio mi bocadillo ==por== tu manzana.\n\n**给中文母语者的提示**\n- 中文“为了”可以表示目的（→ para），也可以表示原因或为某人（→ por）：为了学西班牙语来西班牙 → Vine ==para== aprender español；为了你我什么都愿意做 → Haría cualquier cosa ==por== ti。\n- “因为” → por + 名词/不定式：因为下雨取消了 → Se canceló ==por== la lluvia。\n- “给……” → para：这是给你的 → Es ==para== ti。\n- “被……” → por：被警察抓了 → Fue detenido ==por== la policía。\n- “……之前要” → para：明天之前 → ==para== mañana；“在……左右/一带” → por：在这附近 → ==por== aquí。\n\n**常见错误**\n- ~~Gracias para todo~~ → Gracias ==por== todo.\n- ~~Estudio para la mañana~~ → Estudio ==por== la mañana.\n- ~~Es por ti~~（礼物）→ Es ==para== ti.\n- ~~Viví allí para tres años~~ → Viví allí ==durante== tres años.",
+      "ja": "A2 では基本を学びました：**para** は前を向く（目的・目的地・受け手・期限）、**por** は後ろを向く・通り抜ける（原因・交換・経路・手段・「〜につき」）。B1 で難しいのは、決まった構文と**ミニマルペア**（一語変えるだけで意味が変わる文）です。\n\n**1. ミニマルペア**\n\n<table><tr><th>POR</th><th>PARA</th><th>違い</th></tr><tr><td>Lo hice ==por== ti.</td><td>Lo hice ==para== ti.</td><td>君のせいで・代わりに vs 君にあげるため</td></tr><tr><td>Trabajo ==por== mi familia.</td><td>Trabajo ==para== una multinacional.</td><td>理由（家族のために）vs 雇い主（会社で働く）</td></tr><tr><td>Pasamos ==por== Toledo.</td><td>Salimos ==para== Toledo.</td><td>〜を通って vs 〜へ向けて（目的地）</td></tr><tr><td>Estudio ==por== la mañana.</td><td>Lo necesito ==para== mañana.</td><td>午前中に（漠然とした時）vs 明日までに（期限）</td></tr><tr><td>La cama está ==por== hacer.</td><td>El tren está ==para== salir.</td><td>まだ〜していない vs もうすぐ〜する</td></tr><tr><td>Me quedo en casa ==por== estar cansado.</td><td>Me quedo en casa ==para== descansar.</td><td>理由（疲れているから）vs 目的（休むために）</td></tr><tr><td>==Por== mí, vale.</td><td>==Para== mí, es un error.</td><td>私は構わない vs 私の意見では</td></tr></table>\n\n**2. 上級の構文**\n\n<table><tr><th>構文</th><th>意味</th><th>例</th></tr><tr><td>estar ==por== + infinitivo</td><td>まだ〜されていない（未完了）</td><td>Los platos están ==por== fregar.</td></tr><tr><td>estar ==por== + infinitivo (persona)</td><td>〜したい気がする</td><td>Estoy ==por== llamarla y decírselo todo.</td></tr><tr><td>estar ==para== + infinitivo</td><td>まもなく〜する（スペインでは a punto de が普通）</td><td>El avión está ==para== despegar.</td></tr><tr><td>(no) estar ==para== + nombre</td><td>〜する気分（ではない）</td><td>Hoy no estoy ==para== bromas.</td></tr><tr><td>==por== + infinitivo</td><td>原因（〜したせいで）</td><td>Le multaron ==por== aparcar mal.</td></tr><tr><td>quedar ... ==por== + infinitivo</td><td>まだ〜すべきものが残っている</td><td>Me quedan dos capítulos ==por== leer.</td></tr><tr><td>==para== + infinitivo</td><td>目的</td><td>Ahorro ==para== comprarme un piso.</td></tr><tr><td>==para== + fecha</td><td>期限</td><td>Entregadlo ==para== el viernes.</td></tr><tr><td>==por== + tiempo / lugar</td><td>おおよその時・場所</td><td>Nos vemos ==por== Navidad. Vive ==por== aquí.</td></tr><tr><td>ser + participio + ==por==</td><td>受動文の行為者</td><td>El puente fue diseñado ==por== Calatrava.</td></tr></table>\n\n**3. 必ず覚えたい表現**\n\n<table><tr><th>表現</th><th>意味</th><th>例</th></tr><tr><td>==por si acaso==</td><td>念のため</td><td>Llévate el paraguas ==por si acaso==.</td></tr><tr><td>==para colmo==</td><td>おまけに（悪いことが重なる）</td><td>Perdí el tren y, ==para colmo==, empezó a llover.</td></tr><tr><td>==por lo visto==</td><td>どうやら〜らしい</td><td>==Por lo visto==, van a cerrar la tienda.</td></tr><tr><td>==por fin==</td><td>やっと</td><td>¡==Por fin== es viernes!</td></tr><tr><td>==por cierto==</td><td>ところで</td><td>==Por cierto==, ¿has hablado con Luis?</td></tr><tr><td>==por supuesto==</td><td>もちろん</td><td>—¿Me ayudas? —==Por supuesto==.</td></tr><tr><td>==por lo menos==</td><td>少なくとも</td><td>Llama ==por lo menos== una vez a la semana.</td></tr><tr><td>==para nada==</td><td>全然〜ない</td><td>—¿Te molesta? —==Para nada==.</td></tr><tr><td>==para siempre==</td><td>永遠に</td><td>Te querré ==para siempre==.</td></tr></table>\n\n**4. 時間：por, para, durante**\n- **para** ＋ 日付 = 期限：Lo quiero ==para== el lunes.（月曜日までに欲しい。）\n- **por** ＋ 一日の時間帯・漠然とした時：==por== la tarde, ==por== Navidad, ==por== el verano。\n- **期間**：スペインでは **durante** か前置詞なし：Viví en Londres ==durante== tres años / Viví tres años en Londres。«==por== tres años» もありますが、中南米的または英語の直訳に聞こえます。\n\n**5. Gracias por, pagar por, cambiar por**\nGracias ==por== ＋ 名詞・不定詞：Gracias ==por== venir. Pagué 20 euros ==por== la camiseta. Te cambio mi bocadillo ==por== tu manzana.\n\n**日本語話者のためのポイント**\n- 「〜のために」には2つの意味があります：目的（勉強するために → ==para== estudiar）と、人のため・原因（家族のために働く → Trabajo ==por== mi familia、病気のために休んだ → Falté ==por== estar enfermo）。\n- 「〜のせいで」「〜によって（受け身）」→ por。「〜まで（期限）」→ para：金曜日までに → ==para== el viernes（「金曜日まで（継続）」は hasta el viernes）。\n- 「〜あたり」「〜ごろ」→ por：この辺 → ==por== aquí、クリスマスごろ → ==por== Navidad。\n- 「〜にとって」→ para：私にとって → ==para== mí。「私は（それで）いいよ」→ ==Por== mí, vale。\n\n**よくある間違い**\n- ~~Gracias para todo~~ → Gracias ==por== todo.\n- ~~Estudio para la mañana~~ → Estudio ==por== la mañana.\n- ~~Es por ti~~（プレゼント）→ Es ==para== ti.\n- ~~Viví allí para tres años~~ → Viví allí ==durante== tres años."
     },
     "examples": [
-      {"es": "Estudio español para trabajar en España.", "en": "I study Spanish to work in Spain.", "zh": "我学西班牙语是为了在西班牙工作。", "ja": "スペインで働くためにスペイン語を勉強する。"},
-      {"es": "Gracias por ayudarme.", "en": "Thanks for helping me.", "zh": "谢谢你帮我。", "ja": "手伝ってくれてありがとう。"},
-      {"es": "Pagué 50 euros por la cena.", "en": "I paid 50 euros for dinner.", "zh": "晚饭花了50欧。", "ja": "夕食に50ユーロ払った。"}
+      {
+        "es": "Lo hice por ti, no para ti.",
+        "en": "I did it because of you / on your behalf, not as a present for you.",
+        "zh": "我是为了你才做的，不是做给你的。",
+        "ja": "君のためにやったのであって、君へのプレゼントではない。"
+      },
+      {
+        "es": "La casa está por limpiar y los invitados están para llegar.",
+        "en": "The house is still to be cleaned and the guests are about to arrive.",
+        "zh": "房子还没打扫，客人就快到了。",
+        "ja": "家はまだ掃除していないのに、客はもうすぐ来る。"
+      },
+      {
+        "es": "Hoy no estoy para fiestas.",
+        "en": "I'm not in the mood for parties today.",
+        "zh": "今天我没心情参加聚会。",
+        "ja": "今日はパーティーの気分じゃない。"
+      },
+      {
+        "es": "Le pusieron una multa por aparcar en doble fila.",
+        "en": "He got a fine for double parking.",
+        "zh": "他因为并排停车被罚款了。",
+        "ja": "二重駐車で罰金を取られた。"
+      },
+      {
+        "es": "Necesito el informe para el jueves.",
+        "en": "I need the report by Thursday.",
+        "zh": "我周四前需要这份报告。",
+        "ja": "木曜日までに報告書が必要だ。"
+      },
+      {
+        "es": "Llévate una chaqueta por si acaso.",
+        "en": "Take a jacket just in case.",
+        "zh": "带件外套，以防万一。",
+        "ja": "念のため上着を持っていって。"
+      },
+      {
+        "es": "Llegué tarde y, para colmo, me dejé el móvil en casa.",
+        "en": "I arrived late and, to top it all, I left my phone at home.",
+        "zh": "我迟到了，更糟的是还把手机忘在家里了。",
+        "ja": "遅刻したうえに、おまけに携帯を家に忘れた。"
+      },
+      {
+        "es": "Por lo visto, el museo cierra los lunes.",
+        "en": "Apparently the museum is closed on Mondays.",
+        "zh": "看来博物馆周一闭馆。",
+        "ja": "どうやら美術館は月曜休みらしい。"
+      }
     ]
   },
   {
     "id": "combined-pronouns",
-    "title": {"en": "Combined Object Pronouns", "zh": "双宾语代词", "ja": "目的語代名詞の組み合わせ"},
-    "summary": {"en": "se lo dije, me lo dio (indirect + direct)", "zh": "se lo dije, me lo dio（间接+直接）", "ja": "se lo dije, me lo dio（間接+直接）"},
+    "unit": 14,
+    "title": {
+      "en": "Combined Object Pronouns",
+      "zh": "双宾语代词",
+      "ja": "目的語代名詞の組み合わせ"
+    },
+    "summary": {
+      "en": "se lo dije, me lo dio (indirect + direct)",
+      "zh": "se lo dije, me lo dio（间接+直接）",
+      "ja": "se lo dije, me lo dio（間接+直接）"
+    },
     "explanation": {
       "en": "When you have TWO object pronouns (indirect + direct):\n\n**Order:** Indirect BEFORE direct, both BEFORE the verb\n- Me lo dijo (He told it to me) — me=to me, lo=it\n- Te la envío (I'll send it to you) — te=to you, la=it(f)\n- Nos los trajo (She brought them to us)\n\n**LE/LES → SE before lo/la/los/las:**\n- Le di el libro → Se lo di (NOT *le lo)\n- Les compré flores → Se las compré\n\n**With infinitive/gerund — can attach to end:**\n- Quiero dártelo / Te lo quiero dar (I want to give it to you)\n- Está diciéndomelo / Me lo está diciendo (He's telling me it)\n\n**With commands — must attach to end (affirmative):**\n- ¡Dímelo! (Tell me it!) ¡Dáselo! (Give it to him!)\n- But negative: ¡No me lo digas! (Don't tell me!)\n\n**Full pronoun chart:**\nme + lo/la/los/las\nte + lo/la/los/las\nse + lo/la/los/las (from le/les)\nnos + lo/la/los/las",
       "zh": "两个宾语代词（间接+直接）：\n\n**顺序：** 间接在前，直接在后，都在动词前\n- Me lo dijo（他告诉了我——me=给我，lo=它）\n- Te la envío（我寄给你——te=给你，la=它(阴)）\n\n**LE/LES在lo/la前变SE：**\n- Le di el libro → Se lo di（不能说*le lo）\n- Les compré flores → Se las compré\n\n**和不定式/副动词连用——可以放后面：**\n- Quiero dártelo = Te lo quiero dar\n\n**和命令式——肯定必须放后面：**\n- ¡Dímelo!（告诉我！）\n- 否定：¡No me lo digas!",
       "ja": "目的語代名詞が2つある場合（間接+直接）：\n\n**順序：** 間接が先、直接が後、両方動詞の前\n- Me lo dijo（私に言った——me=私に、lo=それを）\n- Te la envío（君に送る——te=君に、la=それを(女)）\n\n**LE/LESはlo/laの前でSEに変わる：**\n- Le di el libro → Se lo di（*le loとは言えない）\n- Les compré flores → Se las compré\n\n**不定詞/現在分詞と——後ろに付けられる：**\n- Quiero dártelo = Te lo quiero dar\n\n**命令形と——肯定は必ず後ろ：**\n- ¡Dímelo!（教えて！）\n- 否定：¡No me lo digas!"
     },
     "examples": [
-      {"es": "¿Me lo puedes explicar?", "en": "Can you explain it to me?", "zh": "你能给我解释一下吗？", "ja": "説明してもらえますか？"},
-      {"es": "Se lo dije ayer.", "en": "I told him/her yesterday.", "zh": "我昨天告诉他了。", "ja": "昨日彼に言った。"},
-      {"es": "¡Dámelo! / ¡No me lo des!", "en": "Give it to me! / Don't give it to me!", "zh": "给我！/不要给我！", "ja": "くれ！/くれるな！"}
+      {
+        "es": "¿Me lo puedes explicar?",
+        "en": "Can you explain it to me?",
+        "zh": "你能给我解释一下吗？",
+        "ja": "説明してもらえますか？"
+      },
+      {
+        "es": "Se lo dije ayer.",
+        "en": "I told him/her yesterday.",
+        "zh": "我昨天告诉他了。",
+        "ja": "昨日彼に言った。"
+      },
+      {
+        "es": "¡Dámelo! / ¡No me lo des!",
+        "en": "Give it to me! / Don't give it to me!",
+        "zh": "给我！/不要给我！",
+        "ja": "くれ！/くれるな！"
+      }
     ]
   },
   {
     "id": "comparatives-superlatives",
-    "title": {"en": "Comparatives & Superlatives", "zh": "比较级与最高级", "ja": "比較級と最上級"},
-    "summary": {"en": "más/menos que, el más, tan...como", "zh": "更/最/和……一样", "ja": "より〜、最も〜、〜と同じくらい"},
+    "unit": 15,
+    "title": {
+      "en": "Comparatives & Superlatives",
+      "zh": "比较级与最高级",
+      "ja": "比較級と最上級"
+    },
+    "summary": {
+      "en": "más/menos que, el más, tan...como",
+      "zh": "更/最/和……一样",
+      "ja": "より〜、最も〜、〜と同じくらい"
+    },
     "explanation": {
       "en": "Compare things and express extremes:\n\n**Comparatives:**\n- más + adj + que = more...than: Madrid es más grande que Toledo\n- menos + adj + que = less...than: Es menos caro que el otro\n- tan + adj + como = as...as: Es tan alto como su padre\n- tanto/a/os/as + noun + como = as much/many as: Tiene tantos libros como yo\n- más/menos + noun + que: Tiene más dinero que yo\n- verb + más/menos que: Trabaja más que yo\n\n**Irregular comparatives:**\n- bueno → mejor (NOT *más bueno): Este es mejor que ese\n- malo → peor: El tiempo está peor hoy\n- grande → mayor (age/importance): Es mayor que yo\n- pequeño → menor (age): Es mi hermana menor\n\n**Superlatives:**\n- el/la/los/las + más/menos + adj: Es el más alto de la clase\n- el mejor/peor/mayor/menor: Es la mejor película del año\n\n**Absolute superlative (-ísimo):**\n- guapo → guapísimo (extremely handsome)\n- bueno → buenísimo\n- fácil → facilísimo\n- rico → riquísimo (note: c→qu)",
       "zh": "比较事物和表达极端：\n\n**比较级：**\n- más + 形容词 + que = 比……更：Madrid es más grande que Toledo\n- menos + 形容词 + que = 比……更少\n- tan + 形容词 + como = 和……一样：Es tan alto como su padre\n- tanto/a + 名词 + como = 和……一样多\n\n**不规则比较级：**\n- bueno→mejor（更好）| malo→peor（更差）\n- grande→mayor（更大/年长）| pequeño→menor（更小/年幼）\n\n**最高级：**\n- el/la más + 形容词：Es el más alto de la clase（班上最高的）\n\n**绝对最高级（-ísimo）：**\n- guapo→guapísimo | bueno→buenísimo",
       "ja": "比較と最上級：\n\n**比較級：**\n- más + 形容詞 + que = 〜より：Madrid es más grande que Toledo\n- menos + 形容詞 + que = 〜より少ない\n- tan + 形容詞 + como = 〜と同じくらい：Es tan alto como su padre\n- tanto/a + 名詞 + como = 〜と同じくらい多い\n\n**不規則比較級：**\n- bueno→mejor（より良い）| malo→peor（より悪い）\n- grande→mayor（より大きい/年上）| pequeño→menor（より小さい/年下）\n\n**最上級：**\n- el/la más + 形容詞：Es el más alto de la clase（クラスで一番背が高い）\n\n**絶対最上級（-ísimo）：**\n- guapo→guapísimo | bueno→buenísimo"
     },
     "examples": [
-      {"es": "María es más inteligente que yo.", "en": "María is more intelligent than me.", "zh": "María比我聪明。", "ja": "マリアは私より賢い。"},
-      {"es": "Es la mejor película que he visto.", "en": "It's the best movie I've seen.", "zh": "这是我看过的最好的电影。", "ja": "今まで見た中で最高の映画だ。"},
-      {"es": "Es tan importante como el otro.", "en": "It's as important as the other one.", "zh": "和另一个一样重要。", "ja": "もう一方と同じくらい重要だ。"}
+      {
+        "es": "María es más inteligente que yo.",
+        "en": "María is more intelligent than me.",
+        "zh": "María比我聪明。",
+        "ja": "マリアは私より賢い。"
+      },
+      {
+        "es": "Es la mejor película que he visto.",
+        "en": "It's the best movie I've seen.",
+        "zh": "这是我看过的最好的电影。",
+        "ja": "今まで見た中で最高の映画だ。"
+      },
+      {
+        "es": "Es tan importante como el otro.",
+        "en": "It's as important as the other one.",
+        "zh": "和另一个一样重要。",
+        "ja": "もう一方と同じくらい重要だ。"
+      }
+    ]
+  },
+  {
+    "id": "ser-estar-advanced",
+    "unit": null,
+    "title": {
+      "en": "Ser vs Estar: Adjectives",
+      "zh": "ser与estar：形容词变义",
+      "ja": "ser vs estar：形容詞の意味変化"
+    },
+    "summary": {
+      "en": "Same adjective, different meaning with ser/estar",
+      "zh": "同一形容词搭配ser/estar意思不同",
+      "ja": "同じ形容詞でser/estarで意味が変わる"
+    },
+    "explanation": {
+      "en": "Some adjectives change meaning depending on ser/estar:\n\n**ser aburrido** = to be boring (personality) ↔ **estar aburrido** = to be bored (feeling)\n**ser listo** = to be clever ↔ **estar listo** = to be ready\n**ser malo** = to be bad/evil ↔ **estar malo** = to be sick\n**ser bueno** = to be good (person) ↔ **estar bueno** = to taste good / look hot\n**ser rico** = to be rich ↔ **estar rico** = to taste delicious\n**ser verde** = to be green (color) ↔ **estar verde** = to be unripe/inexperienced\n**ser abierto** = to be open-minded ↔ **estar abierto** = to be open (door/shop)\n**ser vivo** = to be clever/sharp ↔ **estar vivo** = to be alive\n**ser organizado** = to be organized (personality) ↔ **estar organizado** = to be organized (event)\n\n**Rule of thumb:** SER = inherent quality | ESTAR = current state/condition",
+      "zh": "有些形容词搭配ser和estar意思不同：\n\n**ser aburrido** = 无聊的人 ↔ **estar aburrido** = 感到无聊\n**ser listo** = 聪明 ↔ **estar listo** = 准备好了\n**ser malo** = 坏人 ↔ **estar malo** = 生病\n**ser bueno** = 好人 ↔ **estar bueno** = 好吃/好看\n**ser rico** = 有钱 ↔ **estar rico** = 好吃\n**ser verde** = 绿色的 ↔ **estar verde** = 没熟/没经验\n**ser abierto** = 开放的人 ↔ **estar abierto** = 门开着/营业中\n**ser vivo** = 精明的 ↔ **estar vivo** = 活着的\n\n**规则：** SER = 本质 | ESTAR = 当前状态",
+      "ja": "同じ形容詞でもser/estarで意味が変わります：\n\n**ser aburrido** = つまらない人 ↔ **estar aburrido** = 退屈している\n**ser listo** = 賢い ↔ **estar listo** = 準備ができている\n**ser malo** = 悪い人 ↔ **estar malo** = 体調が悪い\n**ser bueno** = 良い人 ↔ **estar bueno** = 美味しい/魅力的\n**ser rico** = 金持ち ↔ **estar rico** = 美味しい\n**ser verde** = 緑色 ↔ **estar verde** = 未熟/経験不足\n**ser abierto** = オープンな性格 ↔ **estar abierto** = 開いている\n**ser vivo** = 抜け目ない ↔ **estar vivo** = 生きている\n\n**法則：** SER = 本質 | ESTAR = 現在の状態"
+    },
+    "examples": [
+      {
+        "es": "La pelicula es aburrida, y yo estoy aburrido.",
+        "en": "The movie is boring, and I'm bored.",
+        "zh": "电影很无聊，我感到无聊。",
+        "ja": "映画はつまらない、そして私は退屈している。"
+      },
+      {
+        "es": "Juan es listo. ¿Estas listo para salir?",
+        "en": "Juan is clever. Are you ready to leave?",
+        "zh": "Juan很聪明。你准备好出发了吗？",
+        "ja": "フアンは賢い。出発の準備はできた？"
+      },
+      {
+        "es": "Esta paella esta muy rica.",
+        "en": "This paella is delicious.",
+        "zh": "这个海鲜饭太好吃了。",
+        "ja": "このパエリアはとても美味しい。"
+      }
+    ]
+  },
+  {
+    "id": "cuando-subjunctive",
+    "unit": null,
+    "title": {
+      "en": "Future with Subjunctive",
+      "zh": "将来时间+虚拟式",
+      "ja": "未来の時を表す接続法"
+    },
+    "summary": {
+      "en": "cuando + subjunctive for future events",
+      "zh": "cuando + 虚拟式表示将来事件",
+      "ja": "cuando + 接続法で未来の出来事"
+    },
+    "explanation": {
+      "en": "When talking about FUTURE events, time clauses need subjunctive:\n\n**cuando** (when) + subjunctive = future event not yet happened\n- Cuando llegue a casa, te llamo (When I get home, I'll call you)\n- Cuando tenga dinero, viajare (When I have money, I'll travel)\n\n**Other time connectors + subjunctive (future):**\n- en cuanto (as soon as): En cuanto termine, salimos\n- hasta que (until): Espera hasta que llegue\n- antes de que (before): Antes de que se vaya, dimelo\n- despues de que (after): Despues de que comas, descansa\n\n**BUT with past/habitual = indicative!**\n- Cuando llego a casa, como (When I get home, I eat — habitual)\n- Cuando llegue a casa, comi (When I got home, I ate — past)\n\n**Rule:** Future/uncertain → subjunctive | Past/habitual → indicative",
+      "zh": "谈论将来事件时，时间从句需要虚拟式：\n\n**cuando** + 虚拟式 = 还没发生的将来事件\n- Cuando llegue a casa, te llamo（我到家时给你打电话）\n- Cuando tenga dinero, viajare（等我有钱了就旅行）\n\n**其他时间连接词 + 虚拟式（将来）：**\n- en cuanto（一……就）：En cuanto termine, salimos\n- hasta que（直到）：Espera hasta que llegue\n- antes de que（在……之前）：Antes de que se vaya, dimelo\n\n**但过去/习惯 = 直陈式！**\n- Cuando llego a casa, como（我到家就吃——习惯）\n- Cuando llegue a casa, comi（我到家后吃了——过去）\n\n**规则：** 将来/不确定→虚拟式 | 过去/习惯→直陈式",
+      "ja": "未来の出来事について話す時、時間節は接続法が必要です：\n\n**cuando** + 接続法 = まだ起きていない未来の出来事\n- Cuando llegue a casa, te llamo（家に着いたら電話する）\n- Cuando tenga dinero, viajare（お金ができたら旅行する）\n\n**他の時間接続詞 + 接続法（未来）：**\n- en cuanto（〜するとすぐ）：En cuanto termine, salimos\n- hasta que（〜まで）：Espera hasta que llegue\n- antes de que（〜する前に）：Antes de que se vaya, dimelo\n\n**でも過去/習慣 = 直説法！**\n- Cuando llego a casa, como（帰ったら食べる——習慣）\n- Cuando llegue a casa, comi（帰宅して食べた——過去）\n\n**ルール：** 未来/不確実→接続法 | 過去/習慣→直説法"
+    },
+    "examples": [
+      {
+        "es": "Cuando llegue a Madrid, te llamo.",
+        "en": "When I arrive in Madrid, I'll call you.",
+        "zh": "我到马德里就给你打电话。",
+        "ja": "マドリードに着いたら電話する。"
+      },
+      {
+        "es": "Espera hasta que pare de llover.",
+        "en": "Wait until it stops raining.",
+        "zh": "等雨停了再走。",
+        "ja": "雨が止むまで待って。"
+      },
+      {
+        "es": "En cuanto termine el trabajo, salimos.",
+        "en": "As soon as I finish work, we'll leave.",
+        "zh": "一下班我们就走。",
+        "ja": "仕事が終わったらすぐ出よう。"
+      }
+    ]
+  },
+  {
+    "id": "aunque-concessive",
+    "unit": null,
+    "title": {
+      "en": "Concessive Clauses",
+      "zh": "让步从句",
+      "ja": "譲歩節"
+    },
+    "summary": {
+      "en": "aunque + indicative/subjunctive",
+      "zh": "aunque + 直陈式/虚拟式",
+      "ja": "aunque + 直説法/接続法"
+    },
+    "explanation": {
+      "en": "AUNQUE (although/even if) changes mood based on certainty:\n\n**Aunque + indicative** = although (fact, I know it's true)\n- Aunque llueve, salgo (Although it's raining [I can see it], I'm going out)\n- Aunque es caro, lo compro (Although it's expensive [I know the price], I'll buy it)\n\n**Aunque + subjunctive** = even if (hypothetical, I don't know yet)\n- Aunque llueva, saldré (Even if it rains [maybe it will], I'll go out)\n- Aunque sea caro, lo comprare (Even if it's expensive [I don't know yet], I'll buy it)\n\n**Other concessive connectors:**\n- a pesar de que = despite the fact that\n- por mucho que + subjunctive = no matter how much\n- por mas que + subjunctive = however much\n\nPor mucho que estudie, no apruebo (No matter how much I study, I don't pass)",
+      "zh": "AUNQUE（虽然/即使）根据确定性改变语气：\n\n**Aunque + 直陈式** = 虽然（事实，我知道）\n- Aunque llueve, salgo（虽然在下雨[我看到了]，我还是出去）\n\n**Aunque + 虚拟式** = 即使（假设，还不确定）\n- Aunque llueva, saldré（即使下雨[可能会]，我也出去）\n\n**规则：**\n- 我确定这是事实 → 直陈式\n- 我不确定/假设 → 虚拟式\n\n**其他让步连接词：**\n- a pesar de que = 尽管\n- por mucho que + 虚拟式 = 无论多少",
+      "ja": "AUNQUE（〜だけど/たとえ〜でも）確実性によって法が変わります：\n\n**Aunque + 直説法** = 〜だけど（事実、知っている）\n- Aunque llueve, salgo（雨が降っている[見える]けど、出かける）\n\n**Aunque + 接続法** = たとえ〜でも（仮定、まだわからない）\n- Aunque llueva, saldré（たとえ雨が降っても[降るかも]、出かける）\n\n**ルール：**\n- 事実だと確信 → 直説法\n- 不確実/仮定 → 接続法\n\n**他の譲歩接続詞：**\n- a pesar de que = 〜にもかかわらず\n- por mucho que + 接続法 = いくら〜しても"
+    },
+    "examples": [
+      {
+        "es": "Aunque llueve, voy a salir.",
+        "en": "Although it's raining, I'm going out.",
+        "zh": "虽然在下雨，我还是出去。",
+        "ja": "雨が降っているけど、出かける。"
+      },
+      {
+        "es": "Aunque llueva manana, iremos a la playa.",
+        "en": "Even if it rains tomorrow, we'll go to the beach.",
+        "zh": "即使明天下雨，我们也去海滩。",
+        "ja": "たとえ明日雨が降っても、ビーチに行く。"
+      },
+      {
+        "es": "Por mucho que intento, no lo consigo.",
+        "en": "No matter how much I try, I can't do it.",
+        "zh": "无论我怎么尝试都做不到。",
+        "ja": "いくら頑張っても、できない。"
+      }
     ]
   }
 ]

@@ -4,6 +4,7 @@ import { loadGrammar, loadVocab } from '../data.js';
 import { bottomNav, header } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { t } from '../i18n.js';
+import { levelChips } from '../levels.js';
 import { getWordLevel, LEVELS, getWordStats } from '../engine/mastery.js';
 
 register('reference', async (el) => {
@@ -36,14 +37,14 @@ register('reference', async (el) => {
   async function renderGrammar(box) {
     const grammar = await loadGrammar(S.level);
     box.innerHTML = `<div class="slideup">
-      <div class="flex gap-8 mb-12">
-        <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__refLevel('a1')">A1</button>
-        <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__refLevel('a2')">A2</button>
-        <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__refLevel('b1')">B1</button>
-      </div>
+      ${levelChips(S.level, '__refLevel')}
+      <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>Práctica de gramática</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
       ${grammar.map(g => `
-        <div class="card" style="padding:16px 18px;margin-bottom:12px;cursor:pointer" onclick="window.__showGrammar('${g.id}')">
-          <div style="font-weight:600;font-size:15px">${g.title[S.lang] || g.title.en}</div>
+        <div class="card ref-topic" onclick="window.__showGrammar('${g.id}')">
+          <div class="flex items-center gap-8">
+            <span class="unit-badge ${g.unit ? '' : 'extra'}">${g.unit ? `${t('unit')} ${g.unit}` : '+'}</span>
+            <div style="font-weight:600;font-size:15px">${g.title[S.lang] || g.title.en}</div>
+          </div>
           <div class="muted small">${g.summary[S.lang] || g.summary.en}</div>
         </div>
       `).join('')}
@@ -62,11 +63,7 @@ register('reference', async (el) => {
   async function renderVocabList(box) {
     const vocab = await loadVocab(S.level);
     box.innerHTML = `<div class="slideup">
-      <div class="flex gap-8 mb-12">
-        <button class="chip ${S.level === 'a1' ? 'on' : ''}" onclick="window.__vocabLevel('a1')">A1</button>
-        <button class="chip ${S.level === 'a2' ? 'on' : ''}" onclick="window.__vocabLevel('a2')">A2</button>
-        <button class="chip ${S.level === 'b1' ? 'on' : ''}" onclick="window.__vocabLevel('b1')">B1</button>
-      </div>
+      ${levelChips(S.level, '__vocabLevel')}
       <div class="flex items-center justify-between mb-12">
         <span class="muted small">${vocab.length} ${t('words')}</span>
         <div class="flex gap-8" style="font-size:11px">
@@ -99,40 +96,63 @@ register('reference', async (el) => {
   };
 
   function renderConjugation(box) {
-    const verbs = [
-      { inf: 'ser', type: 'irregular', present: { yo:'soy', tú:'eres', 'él':'es', nosotros:'somos', vosotros:'sois', ellos:'son' }, pret: { yo:'fui', tú:'fuiste', 'él':'fue', nosotros:'fuimos', vosotros:'fuisteis', ellos:'fueron' } },
-      { inf: 'estar', type: 'irregular', present: { yo:'estoy', tú:'estás', 'él':'está', nosotros:'estamos', vosotros:'estáis', ellos:'están' }, pret: { yo:'estuve', tú:'estuviste', 'él':'estuvo', nosotros:'estuvimos', vosotros:'estuvisteis', ellos:'estuvieron' } },
-      { inf: 'tener', type: 'irregular', present: { yo:'tengo', tú:'tienes', 'él':'tiene', nosotros:'tenemos', vosotros:'tenéis', ellos:'tienen' }, pret: { yo:'tuve', tú:'tuviste', 'él':'tuvo', nosotros:'tuvimos', vosotros:'tuvisteis', ellos:'tuvieron' } },
-      { inf: 'ir', type: 'irregular', present: { yo:'voy', tú:'vas', 'él':'va', nosotros:'vamos', vosotros:'vais', ellos:'van' }, pret: { yo:'fui', tú:'fuiste', 'él':'fue', nosotros:'fuimos', vosotros:'fuisteis', ellos:'fueron' } },
-      { inf: 'hacer', type: 'irregular', present: { yo:'hago', tú:'haces', 'él':'hace', nosotros:'hacemos', vosotros:'hacéis', ellos:'hacen' }, pret: { yo:'hice', tú:'hiciste', 'él':'hizo', nosotros:'hicimos', vosotros:'hicisteis', ellos:'hicieron' } },
-      { inf: 'poder', type: 'irregular', present: { yo:'puedo', tú:'puedes', 'él':'puede', nosotros:'podemos', vosotros:'podéis', ellos:'pueden' }, pret: { yo:'pude', tú:'pudiste', 'él':'pudo', nosotros:'pudimos', vosotros:'pudisteis', ellos:'pudieron' } },
-      { inf: 'querer', type: 'irregular', present: { yo:'quiero', tú:'quieres', 'él':'quiere', nosotros:'queremos', vosotros:'queréis', ellos:'quieren' }, pret: { yo:'quise', tú:'quisiste', 'él':'quiso', nosotros:'quisimos', vosotros:'quisisteis', ellos:'quisieron' } },
-      { inf: 'hablar', type: '-ar regular', present: { yo:'hablo', tú:'hablas', 'él':'habla', nosotros:'hablamos', vosotros:'habláis', ellos:'hablan' }, pret: { yo:'hablé', tú:'hablaste', 'él':'habló', nosotros:'hablamos', vosotros:'hablasteis', ellos:'hablaron' } },
-      { inf: 'comer', type: '-er regular', present: { yo:'como', tú:'comes', 'él':'come', nosotros:'comemos', vosotros:'coméis', ellos:'comen' }, pret: { yo:'comí', tú:'comiste', 'él':'comió', nosotros:'comimos', vosotros:'comisteis', ellos:'comieron' } },
-      { inf: 'vivir', type: '-ir regular', present: { yo:'vivo', tú:'vives', 'él':'vive', nosotros:'vivimos', vosotros:'vivís', ellos:'viven' }, pret: { yo:'viví', tú:'viviste', 'él':'vivió', nosotros:'vivimos', vosotros:'vivisteis', ellos:'vivieron' } },
+    const P = ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos'];
+    const groups = [
+      { label: { en: 'Regular', zh: '规则动词', ja: '規則動詞' }, verbs: [
+        ['hablar', '-ar', 'habl==o== habl==as== habl==a== habl==amos== habl==áis== habl==an=='],
+        ['comer', '-er', 'com==o== com==es== com==e== com==emos== com==éis== com==en=='],
+        ['vivir', '-ir', 'viv==o== viv==es== viv==e== viv==imos== viv==ís== viv==en=='],
+      ]},
+      { label: { en: 'Stem change o → ue (not nosotros/vosotros)', zh: '词干 o → ue（nosotros/vosotros 不变）', ja: '語幹 o → ue（nosotros/vosotros は変化なし）' }, verbs: [
+        ['poder', 'o→ue', 'p==ue==do p==ue==des p==ue==de podemos podéis p==ue==den'],
+        ['dormir', 'o→ue', 'd==ue==rmo d==ue==rmes d==ue==rme dormimos dormís d==ue==rmen'],
+        ['volver', 'o→ue', 'v==ue==lvo v==ue==lves v==ue==lve volvemos volvéis v==ue==lven'],
+        ['jugar', 'u→ue', 'j==ue==go j==ue==gas j==ue==ga jugamos jugáis j==ue==gan'],
+      ]},
+      { label: { en: 'Stem change e → ie', zh: '词干 e → ie', ja: '語幹 e → ie' }, verbs: [
+        ['querer', 'e→ie', 'qu==ie==ro qu==ie==res qu==ie==re queremos queréis qu==ie==ren'],
+        ['pensar', 'e→ie', 'p==ie==nso p==ie==nsas p==ie==nsa pensamos pensáis p==ie==nsan'],
+        ['empezar', 'e→ie', 'emp==ie==zo emp==ie==zas emp==ie==za empezamos empezáis emp==ie==zan'],
+      ]},
+      { label: { en: 'Stem change e → i (-ir verbs)', zh: '词干 e → i（-ir 动词）', ja: '語幹 e → i（-ir 動詞）' }, verbs: [
+        ['pedir', 'e→i', 'p==i==do p==i==des p==i==de pedimos pedís p==i==den'],
+        ['repetir', 'e→i', 'rep==i==to rep==i==tes rep==i==te repetimos repetís rep==i==ten'],
+      ]},
+      { label: { en: 'Irregular "yo" only (-go, -zco…)', zh: '只有 yo 不规则（-go、-zco…）', ja: 'yo だけ不規則（-go・-zco…）' }, verbs: [
+        ['hacer', 'yo-go', 'ha==go== haces hace hacemos hacéis hacen'],
+        ['poner', 'yo-go', 'pon==go== pones pone ponemos ponéis ponen'],
+        ['salir', 'yo-go', 'sal==go== sales sale salimos salís salen'],
+        ['conocer', '-zco', 'cono==zco== conoces conoce conocemos conocéis conocen'],
+        ['saber', 'yo', '==sé== sabes sabe sabemos sabéis saben'],
+        ['ver', 'yo', 'v==eo== ves ve vemos veis ven'],
+      ]},
+      { label: { en: 'Yo-go + stem change', zh: 'yo-go + 词干变化', ja: 'yo-go ＋ 語幹変化' }, verbs: [
+        ['tener', 'go + e→ie', 'ten==go== t==ie==nes t==ie==ne tenemos tenéis t==ie==nen'],
+        ['venir', 'go + e→ie', 'ven==go== v==ie==nes v==ie==ne venimos venís v==ie==nen'],
+        ['decir', 'go + e→i', 'di==go== d==i==ces d==i==ce decimos decís d==i==cen'],
+      ]},
+      { label: { en: 'Totally irregular', zh: '完全不规则', ja: '完全な不規則' }, verbs: [
+        ['ser', '', 'soy eres es somos sois son'],
+        ['estar', '', 'est==oy== est==á==s est==á== estamos estáis est==á==n'],
+        ['ir', '', 'voy vas va vamos vais van'],
+      ]},
     ];
+    const L = S.lang || 'en';
 
     box.innerHTML = `<div class="slideup">
-      ${verbs.map(v => `
-        <div class="card" style="padding:16px 18px;margin-bottom:12px;cursor:pointer" onclick="window.__toggleVerb(this)">
-          <div class="flex items-center justify-between">
-            <div>
-              <span style="font-weight:600;font-size:16px">${v.inf}</span>
-              <span class="muted small" style="margin-left:8px">${v.type}</span>
+      ${groups.map(g => `
+        <div class="h3 mt-16 mb-8">${g.label[L] || g.label.en}</div>
+        ${g.verbs.map(([inf, tag, forms]) => `
+          <div class="card" style="padding:14px 18px;margin-bottom:10px;cursor:pointer" onclick="window.__toggleVerb(this)">
+            <div class="flex items-center justify-between">
+              <div><span style="font-weight:600;font-size:16px">${inf}</span>
+                ${tag ? `<span class="muted small" style="margin-left:8px">${tag}</span>` : ''}</div>
+              <span class="muted">▼</span>
             </div>
-            <span class="muted">▼</span>
-          </div>
-          <div class="verb-detail" style="display:none;margin-top:12px">
-            <div class="small muted mb-8" style="font-weight:600">${t('present')}</div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:14px;margin-bottom:12px">
-              ${Object.entries(v.present).map(([p,f]) => `<div><span class="muted">${p}</span> <strong>${f}</strong></div>`).join('')}
+            <div class="verb-detail" style="display:none;margin-top:12px">
+              <div class="conj-grid">${forms.split(' ').map((f, i) => `<div><span class="muted">${P[i]}</span> <strong>${hl(f)}</strong></div>`).join('')}</div>
             </div>
-            <div class="small muted mb-8" style="font-weight:600">${t('preterite')}</div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:14px">
-              ${Object.entries(v.pret).map(([p,f]) => `<div><span class="muted">${p}</span> <strong>${f}</strong></div>`).join('')}
-            </div>
-          </div>
-        </div>
+          </div>`).join('')}
       `).join('')}
     </div>`;
   }
@@ -165,7 +185,7 @@ register('grammar-detail', async (el, params) => {
           <div style="margin-bottom:14px">
             <div style="font-weight:600;margin-bottom:6px">${verb}</div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:14px">
-              ${Object.entries(forms).map(([p,f]) => `<div><span class="muted">${p}</span> <strong>${f}</strong></div>`).join('')}
+              ${Object.entries(forms).map(([p,f]) => `<div><span class="muted">${p}</span> <strong>${hl(f)}</strong></div>`).join('')}
             </div>
           </div>
         `).join('')}
@@ -186,8 +206,15 @@ register('grammar-detail', async (el, params) => {
   </div>`;
 });
 
+// ==x== highlights the changing letters; ~~x~~ marks a wrong form.
+function hl(text) {
+  return String(text)
+    .replace(/==(.+?)==/g, '<mark class="hl">$1</mark>')
+    .replace(/~~(.+?)~~/g, '<s class="wrong">$1</s>');
+}
+
 function formatExplanation(text) {
-  return text
+  return hl(text)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br>');
 }

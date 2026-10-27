@@ -3368,5 +3368,205 @@
     },
     "gender": null,
     "unit": 32
+  },
+  {
+    "word": "pasa",
+    "m": {
+      "en": "come in! (tú)",
+      "zh": "请进（对 tú）",
+      "ja": "どうぞ入って（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "toma",
+    "m": {
+      "en": "here you are / take (tú)",
+      "zh": "给你、拿着（对 tú）",
+      "ja": "はい、どうぞ・取って（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "siéntate",
+    "m": {
+      "en": "sit down (tú)",
+      "zh": "坐吧、请坐（对 tú）",
+      "ja": "座って（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "ven",
+    "m": {
+      "en": "come! (tú, venir)",
+      "zh": "来！（tú，venir）",
+      "ja": "来て（tú、venir）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "pon",
+    "m": {
+      "en": "put! (tú, poner)",
+      "zh": "放！（tú，poner）",
+      "ja": "置いて（tú、poner）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "dime",
+    "m": {
+      "en": "tell me (tú)",
+      "zh": "告诉我、你说（对 tú）",
+      "ja": "言って・教えて（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "gira a la derecha",
+    "m": {
+      "en": "turn right (tú)",
+      "zh": "向右转（对 tú）",
+      "ja": "右に曲がって（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "sigue recto",
+    "m": {
+      "en": "go straight on (tú)",
+      "zh": "一直往前走（对 tú）",
+      "ja": "まっすぐ行って（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "añade",
+    "m": {
+      "en": "add (tú)",
+      "zh": "加入（对 tú）",
+      "ja": "加えて（tú）"
+    },
+    "gender": null,
+    "unit": 33
+  },
+  {
+    "word": "receta",
+    "m": {
+      "en": "recipe",
+      "zh": "食谱、菜谱",
+      "ja": "レシピ"
+    },
+    "gender": "f",
+    "unit": 33
+  },
+  {
+    "word": "esta mañana",
+    "m": {
+      "en": "this morning",
+      "zh": "今天早上",
+      "ja": "今朝"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "esta semana",
+    "m": {
+      "en": "this week",
+      "zh": "这周",
+      "ja": "今週"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "este año",
+    "m": {
+      "en": "this year",
+      "zh": "今年",
+      "ja": "今年"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "hace un rato",
+    "m": {
+      "en": "a little while ago",
+      "zh": "刚才",
+      "ja": "さっき"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "todavía no",
+    "m": {
+      "en": "not yet",
+      "zh": "还没",
+      "ja": "まだ〜ない"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "alguna vez",
+    "m": {
+      "en": "ever",
+      "zh": "曾经（问经历）",
+      "ja": "今までに（〜したことがある？）"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "dicho",
+    "m": {
+      "en": "said (decir)",
+      "zh": "说了（decir 的过去分词）",
+      "ja": "言った（decir の過去分詞）"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "hecho",
+    "m": {
+      "en": "done / made (hacer)",
+      "zh": "做了（hacer 的过去分词）",
+      "ja": "した・作った（hacer の過去分詞）"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "visto",
+    "m": {
+      "en": "seen (ver)",
+      "zh": "看见了（ver 的过去分词）",
+      "ja": "見た（ver の過去分詞）"
+    },
+    "gender": null,
+    "unit": 34
+  },
+  {
+    "word": "escrito",
+    "m": {
+      "en": "written (escribir)",
+      "zh": "写了（escribir 的过去分词）",
+      "ja": "書いた（escribir の過去分詞）"
+    },
+    "gender": null,
+    "unit": 34
   }
 ]

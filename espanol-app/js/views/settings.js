@@ -33,6 +33,14 @@ register('settings', (el) => {
     ${accountSection}
 
     <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">${t('yourName')}</div>
+      <div class="flex gap-8">
+        <input id="settings-name" type="text" maxlength="30" value="${(S.name || '').replace(/"/g, '&quot;')}" placeholder="${t('namePlaceholder')}">
+        <button class="btn btn-small" onclick="window.__saveSettingsName()">${t('save')}</button>
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
       <div class="h3 mb-16">${t('sourceLang')}</div>
       <div class="flex gap-8">
         ${langs.map(l => `
@@ -64,6 +72,11 @@ register('settings', (el) => {
     </div>
   </div>${bottomNav('settings')}`;
 });
+
+window.__saveSettingsName = () => {
+  const name = document.getElementById('settings-name').value.trim();
+  if (name) { update({ name }); go('settings'); }
+};
 
 window.__setLang = (lang) => {
   update({ lang });

@@ -1,0 +1,759 @@
+[
+  {
+    "id": "tenses-overview",
+    "unit": null,
+    "title": {
+      "en": "Tenses overview (B2)",
+      "zh": "时态总览（B2）",
+      "ja": "時制の全体像（B2）"
+    },
+    "summary": {
+      "en": "All indicative and subjunctive tenses, timeline, sequence of tenses and si-clauses",
+      "zh": "所有陈述式和虚拟式时态、时间轴、时态配合与 si 条件句",
+      "ja": "直説法・接続法の全時制、タイムライン、時制の一致、si 条件文"
+    },
+    "explanation": {
+      "en": "Your **map of the whole Spanish verb system at B2**. New at this level: the **perfect subjunctive** (haya hecho), the **pluperfect subjunctive** (hubiera hecho), full use of the **future perfect** and **conditional perfect**, and the **sequence of tenses** (concordancia temporal).\n\n**1. Indicative**\n\n<table><tr><th>Tense</th><th>hacer</th><th>Example</th><th>When</th></tr><tr><td><strong>Presente</strong></td><td>==hago==</td><td>Hago deporte los lunes.</td><td>now, habits</td></tr><tr><td><strong>Pretérito perfecto</strong></td><td>==he hecho==</td><td>Hoy he hecho la compra.</td><td>Spain: time including now, experience</td></tr><tr><td><strong>Pretérito indefinido</strong></td><td>==hice==</td><td>Ayer hice la compra.</td><td>finished time, events</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>==hacía==</td><td>Hacía frío. De niño hacía judo.</td><td>background, habits in the past</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había hecho==</td><td>Ya había hecho la cena.</td><td>before another past</td></tr><tr><td><strong>Futuro simple</strong></td><td>==haré==</td><td>Lo haré mañana. Serán las tres.</td><td>future; probability now</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré hecho==</td><td>Para mayo habré terminado. Habrá salido.</td><td>before a future point; probability about the recent past</td></tr><tr><td><strong>Condicional simple</strong></td><td>==haría==</td><td>Yo lo haría. Serían las tres.</td><td>hypothesis, courtesy, probability in the past, future in the past</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría hecho==</td><td>Yo lo habría hecho. Habría perdido el tren.</td><td>unreal past result; probability before a past point</td></tr></table>\n\n**2. Subjunctive**\n\n<table><tr><th>Tense</th><th>hacer</th><th>Example</th><th>When</th></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>==haga==</td><td>Quiero que lo hagas.</td><td>trigger in present/future</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya hecho==</td><td>Me alegro de que lo hayas hecho.</td><td>completed action, trigger in present/future</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>==hiciera / hiciese==</td><td>Quería que lo hicieras. Si lo hiciera…</td><td>trigger in the past; unreal present</td></tr><tr><td><strong>Pretérito pluscuamperfecto de subjuntivo</strong></td><td>==hubiera / hubiese hecho==</td><td>Si lo hubiera hecho… Ojalá lo hubieras visto.</td><td>unreal past; completed action before a past trigger</td></tr></table>\n\n**3. Timeline: every tense is relative to a reference point**\n\n<table><tr><th></th><th>before a reference point</th><th>at the reference point</th><th>after the reference point</th></tr><tr><td>reference = NOW</td><td>he hecho / hice</td><td>hago</td><td>haré / voy a hacer</td></tr><tr><td>reference = PAST</td><td>había hecho</td><td>hice / hacía</td><td>haría (dijo que lo haría)</td></tr><tr><td>reference = FUTURE</td><td>habré hecho</td><td>haré</td><td>—</td></tr></table>\n\n**4. Sequence of tenses (concordancia temporal)**\nThe tense of the main verb decides the tense of the subjunctive:\n\n<table><tr><th>Main verb</th><th>Simultaneous / later</th><th>Earlier (completed)</th></tr><tr><td>**Present / future / imperative / perfect**</td><td>→ presente de subjuntivo</td><td>→ perfecto de subjuntivo</td></tr><tr><td>Quiero que…</td><td>Quiero que ==vengas==.</td><td>—</td></tr><tr><td>Me alegro de que…</td><td>Me alegro de que ==vengas==.</td><td>Me alegro de que ==hayas venido==.</td></tr><tr><td>**Past (indefinido, imperfecto, pluscuamperfecto) / conditional**</td><td>→ imperfecto de subjuntivo</td><td>→ pluscuamperfecto de subjuntivo</td></tr><tr><td>Quería que…</td><td>Quería que ==vinieras==.</td><td>—</td></tr><tr><td>Me alegré de que…</td><td>Me alegré de que ==vinieras==.</td><td>Me alegré de que ==hubieras venido==.</td></tr><tr><td>Me gustaría que…</td><td>Me gustaría que ==vinieras==.</td><td>Me habría gustado que ==hubieras venido==.</td></tr></table>\n\nPresent or future main verbs can also take the imperfect subjunctive when the subordinate action is past: Me sorprende que ==dijera== eso ayer (= that he said that yesterday).\n\n**5. si-clauses**\n\n<table><tr><th>Type</th><th>si +</th><th>result</th><th>Example</th></tr><tr><td>real / possible</td><td>presente</td><td>futuro / presente / imperativo</td><td>Si ==llueve==, ==nos quedamos==.</td></tr><tr><td>unreal present / unlikely future</td><td>imperf. subj.</td><td>condicional</td><td>Si ==lloviera==, ==nos quedaríamos==.</td></tr><tr><td>unreal past</td><td>plusc. subj.</td><td>cond. compuesto (o hubiera)</td><td>Si ==hubiera llovido==, ==nos habríamos quedado==.</td></tr><tr><td>mixed (past → present)</td><td>plusc. subj.</td><td>condicional</td><td>Si ==hubiera estudiado==, ahora ==sería== médico.</td></tr></table>\n\n**6. Spain: perfecto vs indefinido (still the key!)**\n- Time that includes now → ==he hecho==: Hoy ==he hablado== con ella. Este año ==hemos viajado== mucho. ¿==Has estado== alguna vez en México?\n- Finished time → ==hice==: Ayer ==hablé== con ella. En 2019 ==viajamos== mucho.\n- Latin America and the Canary Islands: Hoy ==hablé== con ella is normal. Both are correct; be consistent.\n- The same split appears in the subjunctive: Me alegro de que ==hayas venido== hoy / No creo que ==viniera== ayer.\n\n**For English speakers**\n- English has no subjunctive sequence; «I wanted him to come» → Quería que ==viniera==; «I'm glad you came» → Me alegro de que ==hayas venido== (today) / ==vinieras== (earlier).\n- «would have + participle» = ==habría== + participio; «had + participle» after if = ==hubiera== + participio (~~si habría~~).\n- «must have done» = ==habrá hecho== (recent) / ==habría hecho== (before a past point) / debe de haber hecho.\n\n**Common mistakes**\n- ~~Me alegré de que vengas~~ → Me alegré de que ==vinieras==.\n- ~~Si habría sabido~~ → Si ==hubiera sabido==.\n- ~~Espero que lo has terminado~~ → Espero que lo ==hayas terminado==.",
+      "zh": "这是 B2 阶段**整个西班牙语动词系统的地图**。本级新内容：**虚拟式现在完成时**（haya hecho）、**虚拟式过去完成时**（hubiera hecho）、**将来完成时**和**条件完成时**的全部用法，以及**时态配合**（concordancia temporal）。\n\n**1. 陈述式**\n\n<table><tr><th>时态</th><th>hacer</th><th>例句</th><th>什么时候用</th></tr><tr><td><strong>Presente</strong></td><td>==hago==</td><td>Hago deporte los lunes.</td><td>现在、习惯</td></tr><tr><td><strong>Pretérito perfecto</strong></td><td>==he hecho==</td><td>Hoy he hecho la compra.</td><td>西班牙：包含现在的时间、经历</td></tr><tr><td><strong>Pretérito indefinido</strong></td><td>==hice==</td><td>Ayer hice la compra.</td><td>已结束的时间、事件</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>==hacía==</td><td>Hacía frío. De niño hacía judo.</td><td>背景、过去的习惯</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había hecho==</td><td>Ya había hecho la cena.</td><td>过去的过去</td></tr><tr><td><strong>Futuro simple</strong></td><td>==haré==</td><td>Lo haré mañana. Serán las tres.</td><td>将来；推测现在</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré hecho==</td><td>Para mayo habré terminado. Habrá salido.</td><td>将来某时前完成；推测刚过去的事</td></tr><tr><td><strong>Condicional simple</strong></td><td>==haría==</td><td>Yo lo haría. Serían las tres.</td><td>假设、礼貌、推测过去、过去的将来</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría hecho==</td><td>Yo lo habría hecho. Habría perdido el tren.</td><td>过去不真实的结果；推测过去某时之前</td></tr></table>\n\n**2. 虚拟式**\n\n<table><tr><th>时态</th><th>hacer</th><th>例句</th><th>什么时候用</th></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>==haga==</td><td>Quiero que lo hagas.</td><td>主句为现在/将来</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya hecho==</td><td>Me alegro de que lo hayas hecho.</td><td>已完成的动作，主句为现在/将来</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>==hiciera / hiciese==</td><td>Quería que lo hicieras. Si lo hiciera…</td><td>主句为过去；现在的非真实条件</td></tr><tr><td><strong>Pretérito pluscuamperfecto de subjuntivo</strong></td><td>==hubiera / hubiese hecho==</td><td>Si lo hubiera hecho… Ojalá lo hubieras visto.</td><td>过去的非真实条件；过去触发词之前已完成</td></tr></table>\n\n**3. 时间轴：每个时态都相对于一个参照点**\n\n<table><tr><th></th><th>参照点之前</th><th>与参照点同时</th><th>参照点之后</th></tr><tr><td>参照点 = 现在</td><td>he hecho / hice</td><td>hago</td><td>haré / voy a hacer</td></tr><tr><td>参照点 = 过去</td><td>había hecho</td><td>hice / hacía</td><td>haría (dijo que lo haría)</td></tr><tr><td>参照点 = 将来</td><td>habré hecho</td><td>haré</td><td>—</td></tr></table>\n\n**4. 时态配合（concordancia temporal）**\n主句动词的时态决定虚拟式的时态：\n\n<table><tr><th>主句动词</th><th>同时 / 之后</th><th>之前（已完成）</th></tr><tr><td>**现在时 / 将来时 / 命令式 / 现在完成时**</td><td>→ presente de subjuntivo</td><td>→ perfecto de subjuntivo</td></tr><tr><td>Quiero que…</td><td>Quiero que ==vengas==.</td><td>—</td></tr><tr><td>Me alegro de que…</td><td>Me alegro de que ==vengas==.</td><td>Me alegro de que ==hayas venido==.</td></tr><tr><td>**过去时（indefinido, imperfecto, pluscuamperfecto）/ 条件式**</td><td>→ imperfecto de subjuntivo</td><td>→ pluscuamperfecto de subjuntivo</td></tr><tr><td>Quería que…</td><td>Quería que ==vinieras==.</td><td>—</td></tr><tr><td>Me alegré de que…</td><td>Me alegré de que ==vinieras==.</td><td>Me alegré de que ==hubieras venido==.</td></tr><tr><td>Me gustaría que…</td><td>Me gustaría que ==vinieras==.</td><td>Me habría gustado que ==hubieras venido==.</td></tr></table>\n\n主句是现在时，但从句动作发生在过去时，也可以用虚拟式过去时：Me sorprende que ==dijera== eso ayer.（他昨天说了那种话，让我很吃惊。）\n\n**5. si 条件句**\n\n<table><tr><th>类型</th><th>si +</th><th>结果</th><th>例句</th></tr><tr><td>真实 / 可能</td><td>presente</td><td>futuro / presente / imperativo</td><td>Si ==llueve==, ==nos quedamos==.</td></tr><tr><td>现在不真实 / 将来不太可能</td><td>imperf. subj.</td><td>condicional</td><td>Si ==lloviera==, ==nos quedaríamos==.</td></tr><tr><td>过去不真实</td><td>plusc. subj.</td><td>cond. compuesto (o hubiera)</td><td>Si ==hubiera llovido==, ==nos habríamos quedado==.</td></tr><tr><td>混合（过去 → 现在）</td><td>plusc. subj.</td><td>condicional</td><td>Si ==hubiera estudiado==, ahora ==sería== médico.</td></tr></table>\n\n**6. 西班牙：perfecto 与 indefinido（依然是关键！）**\n- 包含现在的时间 → ==he hecho==：Hoy ==he hablado== con ella. Este año ==hemos viajado== mucho. ¿==Has estado== alguna vez en México?\n- 已结束的时间 → ==hice==：Ayer ==hablé== con ella. En 2019 ==viajamos== mucho.\n- 拉丁美洲和加那利群岛常说 Hoy ==hablé== con ella。两种都正确，但要前后一致。\n- 虚拟式里也有同样的区分：Me alegro de que ==hayas venido== hoy / No creo que ==viniera== ayer.\n\n**给中文母语者的提示**\n- 中文没有时态配合：“我希望你来”“我那时希望你来”里“来”都不变。西班牙语主句一变成过去，从句也要变：Espero que ==vengas== → Esperaba que ==vinieras==。\n- “要是当时……就好了 / 就会……了”→ si + hubiera + 分词 → habría + 分词：要是我早知道，就来了 → Si lo ==hubiera sabido==, ==habría venido==。\n- “大概已经……了”→ 将来完成时：他大概已经到了 → ==Habrá llegado==。\n\n**常见错误**\n- ~~Me alegré de que vengas~~ → Me alegré de que ==vinieras==.\n- ~~Si habría sabido~~ → Si ==hubiera sabido==.\n- ~~Espero que lo has terminado~~ → Espero que lo ==hayas terminado==.",
+      "ja": "B2 での**スペイン語動詞システム全体の地図**です。このレベルで新しく加わるのは：**接続法現在完了**（haya hecho）、**接続法過去完了**（hubiera hecho）、**未来完了**と**過去未来完了**の全用法、そして**時制の一致**（concordancia temporal）。\n\n**1. 直説法**\n\n<table><tr><th>時制</th><th>hacer</th><th>例</th><th>いつ使う</th></tr><tr><td><strong>Presente</strong></td><td>==hago==</td><td>Hago deporte los lunes.</td><td>現在・習慣</td></tr><tr><td><strong>Pretérito perfecto</strong></td><td>==he hecho==</td><td>Hoy he hecho la compra.</td><td>スペイン：今を含む時間・経験</td></tr><tr><td><strong>Pretérito indefinido</strong></td><td>==hice==</td><td>Ayer hice la compra.</td><td>終わった時間・出来事</td></tr><tr><td><strong>Pretérito imperfecto</strong></td><td>==hacía==</td><td>Hacía frío. De niño hacía judo.</td><td>背景・過去の習慣</td></tr><tr><td><strong>Pluscuamperfecto</strong></td><td>==había hecho==</td><td>Ya había hecho la cena.</td><td>過去より前</td></tr><tr><td><strong>Futuro simple</strong></td><td>==haré==</td><td>Lo haré mañana. Serán las tres.</td><td>未来・現在の推量</td></tr><tr><td><strong>Futuro perfecto</strong></td><td>==habré hecho==</td><td>Para mayo habré terminado. Habrá salido.</td><td>未来の時点までの完了・直前の過去の推量</td></tr><tr><td><strong>Condicional simple</strong></td><td>==haría==</td><td>Yo lo haría. Serían las tres.</td><td>仮定・丁寧・過去の推量・過去から見た未来</td></tr><tr><td><strong>Condicional compuesto</strong></td><td>==habría hecho==</td><td>Yo lo habría hecho. Habría perdido el tren.</td><td>過去の非現実の帰結・過去より前の推量</td></tr></table>\n\n**2. 接続法**\n\n<table><tr><th>時制</th><th>hacer</th><th>例</th><th>いつ使う</th></tr><tr><td><strong>Presente de subjuntivo</strong></td><td>==haga==</td><td>Quiero que lo hagas.</td><td>主節が現在・未来</td></tr><tr><td><strong>Pretérito perfecto de subjuntivo</strong></td><td>==haya hecho==</td><td>Me alegro de que lo hayas hecho.</td><td>完了した行為・主節が現在・未来</td></tr><tr><td><strong>Pretérito imperfecto de subjuntivo</strong></td><td>==hiciera / hiciese==</td><td>Quería que lo hicieras. Si lo hiciera…</td><td>主節が過去・現在の非現実</td></tr><tr><td><strong>Pretérito pluscuamperfecto de subjuntivo</strong></td><td>==hubiera / hubiese hecho==</td><td>Si lo hubiera hecho… Ojalá lo hubieras visto.</td><td>過去の非現実・過去の引き金より前の完了</td></tr></table>\n\n**3. タイムライン：時制はすべて基準点からの相対的な位置**\n\n<table><tr><th></th><th>基準点より前</th><th>基準点と同時</th><th>基準点より後</th></tr><tr><td>基準 = 今</td><td>he hecho / hice</td><td>hago</td><td>haré / voy a hacer</td></tr><tr><td>基準 = 過去</td><td>había hecho</td><td>hice / hacía</td><td>haría (dijo que lo haría)</td></tr><tr><td>基準 = 未来</td><td>habré hecho</td><td>haré</td><td>—</td></tr></table>\n\n**4. 時制の一致（concordancia temporal）**\n主節の動詞の時制が、接続法の時制を決めます：\n\n<table><tr><th>主節の動詞</th><th>同時・後</th><th>前（完了）</th></tr><tr><td>**現在 / 未来 / 命令 / 現在完了**</td><td>→ presente de subjuntivo</td><td>→ perfecto de subjuntivo</td></tr><tr><td>Quiero que…</td><td>Quiero que ==vengas==.</td><td>—</td></tr><tr><td>Me alegro de que…</td><td>Me alegro de que ==vengas==.</td><td>Me alegro de que ==hayas venido==.</td></tr><tr><td>**過去（indefinido, imperfecto, pluscuamperfecto）/ 過去未来**</td><td>→ imperfecto de subjuntivo</td><td>→ pluscuamperfecto de subjuntivo</td></tr><tr><td>Quería que…</td><td>Quería que ==vinieras==.</td><td>—</td></tr><tr><td>Me alegré de que…</td><td>Me alegré de que ==vinieras==.</td><td>Me alegré de que ==hubieras venido==.</td></tr><tr><td>Me gustaría que…</td><td>Me gustaría que ==vinieras==.</td><td>Me habría gustado que ==hubieras venido==.</td></tr></table>\n\n主節が現在でも、従属節の行為が過去なら接続法過去も使えます：Me sorprende que ==dijera== eso ayer.（彼が昨日そんなことを言ったなんて驚きだ。）\n\n**5. si 条件文**\n\n<table><tr><th>タイプ</th><th>si ＋</th><th>帰結</th><th>例</th></tr><tr><td>現実・可能</td><td>presente</td><td>futuro / presente / imperativo</td><td>Si ==llueve==, ==nos quedamos==.</td></tr><tr><td>現在の非現実・未来の可能性が低い</td><td>imperf. subj.</td><td>condicional</td><td>Si ==lloviera==, ==nos quedaríamos==.</td></tr><tr><td>過去の非現実</td><td>plusc. subj.</td><td>cond. compuesto (o hubiera)</td><td>Si ==hubiera llovido==, ==nos habríamos quedado==.</td></tr><tr><td>混合（過去 → 現在）</td><td>plusc. subj.</td><td>condicional</td><td>Si ==hubiera estudiado==, ahora ==sería== médico.</td></tr></table>\n\n**6. スペイン：perfecto と indefinido（今でも一番大事！）**\n- 今を含む時間 → ==he hecho==：Hoy ==he hablado== con ella. Este año ==hemos viajado== mucho. ¿==Has estado== alguna vez en México?\n- 終わった時間 → ==hice==：Ayer ==hablé== con ella. En 2019 ==viajamos== mucho.\n- 中南米とカナリア諸島では Hoy ==hablé== con ella が普通。どちらも正しいですが、一貫させましょう。\n- 接続法にも同じ区別があります：Me alegro de que ==hayas venido== hoy / No creo que ==viniera== ayer.\n\n**日本語話者のためのポイント**\n- 日本語には時制の一致がありません（「来てほしいと思っていた」の「来て」は変わらない）。スペイン語では主節が過去になると従属節も過去に：Quiero que ==vengas== → Quería que ==vinieras==。\n- 「〜していたら…しただろうに」→ si ＋ hubiera ＋ 分詞 → habría ＋ 分詞。「〜ていれば、今ごろ…なのに」（混合）→ si ＋ hubiera ＋ 分詞 → 過去未来。\n- 「もう〜しただろう」→ 未来完了：もう着いただろう → ==Habrá llegado==。\n\n**よくある間違い**\n- ~~Me alegré de que vengas~~ → Me alegré de que ==vinieras==.\n- ~~Si habría sabido~~ → Si ==hubiera sabido==.\n- ~~Espero que lo has terminado~~ → Espero que lo ==hayas terminado==."
+    },
+    "conjugation": {
+      "haber (presente de subjuntivo)": {
+        "yo": "haya",
+        "tú": "hayas",
+        "él/ella/usted": "haya",
+        "nosotros": "hayamos",
+        "vosotros": "hayáis",
+        "ellos/ustedes": "hayan"
+      },
+      "haber (pluscuamperfecto de subjuntivo)": {
+        "yo": "hubiera",
+        "tú": "hubieras",
+        "él/ella/usted": "hubiera",
+        "nosotros": "hubiéramos",
+        "vosotros": "hubierais",
+        "ellos/ustedes": "hubieran"
+      },
+      "haber (futuro)": {
+        "yo": "habré",
+        "tú": "habrás",
+        "él/ella/usted": "habrá",
+        "nosotros": "habremos",
+        "vosotros": "habréis",
+        "ellos/ustedes": "habrán"
+      },
+      "haber (condicional)": {
+        "yo": "habría",
+        "tú": "habrías",
+        "él/ella/usted": "habría",
+        "nosotros": "habríamos",
+        "vosotros": "habríais",
+        "ellos/ustedes": "habrían"
+      }
+    },
+    "examples": [
+      {
+        "es": "Quiero que vengas a la cena.",
+        "en": "I want you to come to dinner.",
+        "zh": "我希望你来吃晚饭。",
+        "ja": "夕食に来てほしい。"
+      },
+      {
+        "es": "Quería que vinieras a la cena.",
+        "en": "I wanted you to come to dinner.",
+        "zh": "我（当时）希望你来吃晚饭。",
+        "ja": "夕食に来てほしかった。"
+      },
+      {
+        "es": "Me alegro de que hayas venido.",
+        "en": "I'm glad you've come.",
+        "zh": "很高兴你来了。",
+        "ja": "来てくれてうれしい。"
+      },
+      {
+        "es": "Me alegré mucho de que hubieras venido.",
+        "en": "I was very glad that you had come.",
+        "zh": "你（之前）来了，我当时很高兴。",
+        "ja": "君が来てくれていて、とてもうれしかった。"
+      },
+      {
+        "es": "Para el verano ya habré terminado la tesis.",
+        "en": "By the summer I will have finished my thesis.",
+        "zh": "到夏天我就已经写完论文了。",
+        "ja": "夏までには論文を書き終えているだろう。"
+      },
+      {
+        "es": "Si me hubieras avisado, te habría esperado.",
+        "en": "If you had told me, I would have waited for you.",
+        "zh": "要是你早告诉我，我就等你了。",
+        "ja": "知らせてくれていたら、待っていたのに。"
+      },
+      {
+        "es": "No contesta; se habrá quedado sin batería.",
+        "en": "He isn't answering; his battery must have died.",
+        "zh": "他不接电话，大概手机没电了。",
+        "ja": "出ない。電池が切れたのだろう。"
+      }
+    ]
+  },
+  {
+    "id": "b2-present-perfect-subjunctive",
+    "unit": 1,
+    "title": {
+      "en": "Present perfect subjunctive",
+      "zh": "虚拟式现在完成时",
+      "ja": "接続法現在完了"
+    },
+    "summary": {
+      "en": "haya + participle after subjunctive triggers; cuando hayas terminado; haya hecho vs hiciera",
+      "zh": "虚拟式触发词 + haya + 过去分词；cuando hayas terminado；haya hecho 与 hiciera",
+      "ja": "接続法の引き金 ＋ haya ＋ 過去分詞・cuando hayas terminado・haya hecho と hiciera"
+    },
+    "explanation": {
+      "en": "**Form: present subjunctive of haber + participle**\n\n<table><tr><th>Person</th><th>haber (pres. subj.)</th><th>+ participle</th></tr><tr><td>yo</td><td>==haya==</td><td>llegado</td></tr><tr><td>tú</td><td>==hayas==</td><td>visto</td></tr><tr><td>él/ella/usted</td><td>==haya==</td><td>hecho</td></tr><tr><td>nosotros/as</td><td>==hayamos==</td><td>terminado</td></tr><tr><td>vosotros/as</td><td>==hayáis==</td><td>dicho</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hayan==</td><td>vuelto</td></tr></table>\n\n**When to use it**\nIt is the subjunctive partner of the pretérito perfecto (he hecho): use it after the **same triggers as the present subjunctive** (wishes, emotions, doubt, value judgements, ojalá) when the action is **already completed** from the point of view of now or of a future moment.\n- **Completed action + present trigger**: Espero que ==hayas llegado== bien. Me alegro de que ==hayáis venido==. Es una pena que no ==hayan aprobado==.\n- **Doubt about a past action (with time including now)**: No creo que ==haya terminado== todavía. Dudo que lo ==haya hecho== él.\n- **Future completed point**: Cuando ==hayas terminado==, llámame. Avísame en cuanto ==hayan llegado==. No te vayas hasta que lo ==hayas leído==.\n- **Ojalá with a recent past you don't know about**: Ojalá ==haya aprobado== (the exam is done; I don't know the result).\n- **Relative clauses with an unknown antecedent**: Busco a alguien que ==haya vivido== en Japón.\n\n**Indicative vs subjunctive**\n\n<table><tr><th>Indicative</th><th>Subjunctive</th><th>Why</th></tr><tr><td>Creo que ==ha llegado==.</td><td>No creo que ==haya llegado==.</td><td>belief vs doubt</td></tr><tr><td>Sé que ==has aprobado==.</td><td>Me alegro de que ==hayas aprobado==.</td><td>fact vs emotion</td></tr><tr><td>Cuando ==he terminado==, salgo. (habit)</td><td>Cuando ==hayas terminado==, avísame.</td><td>future point: cuando + subj.</td></tr><tr><td>—</td><td>Es raro que no ==haya llamado== hoy / que no ==llamara== ayer.</td><td>now/recent vs earlier past</td></tr></table>\n\n**haya hecho vs hiciera**\nThe Spain rule of the perfecto applies here too: time including now → ==haya hecho== (No creo que ==haya llamado== hoy); finished time → ==hiciera== (No creo que ==llamara== ayer). After a PAST main verb, use hubiera hecho instead: No creía que ==hubiera llamado==.\n\n**For English speakers**\n- English «has done» never changes, but Spanish switches: I think he has left → Creo que ==se ha ido==; I don't think he has left → No creo que ==se haya ido==.\n- English «when you have finished» = Cuando ==hayas terminado== (~~cuando habrás terminado~~ / ~~cuando has terminado~~ for a future).\n- «I hope you've had a good trip» → Espero que ==hayas tenido== buen viaje.\n\n**Common mistakes**\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien.\n- ~~Cuando habrás acabado~~ → Cuando ==hayas acabado==.\n- ~~Me alegro que hayas venido~~ is common in speech, but the standard is Me alegro ==de que== hayas venido.\n- ~~haya hechos~~ → ==haya hecho== (participle invariable).",
+      "zh": "**构成：haber 的虚拟式现在时 + 过去分词**\n\n<table><tr><th>人称</th><th>haber（虚拟式现在时）</th><th>+ 过去分词</th></tr><tr><td>yo</td><td>==haya==</td><td>llegado</td></tr><tr><td>tú</td><td>==hayas==</td><td>visto</td></tr><tr><td>él/ella/usted</td><td>==haya==</td><td>hecho</td></tr><tr><td>nosotros/as</td><td>==hayamos==</td><td>terminado</td></tr><tr><td>vosotros/as</td><td>==hayáis==</td><td>dicho</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hayan==</td><td>vuelto</td></tr></table>\n\n**什么时候用**\n它是现在完成时（he hecho）的虚拟式“搭档”：在**与虚拟式现在时相同的触发词**（愿望、情感、怀疑、评价、ojalá）之后，从现在或将来某一时刻看，动作**已经完成**时使用。\n- **已完成的动作 + 现在的触发词**：Espero que ==hayas llegado== bien.（希望你已经平安到了。）Me alegro de que ==hayáis venido==. Es una pena que no ==hayan aprobado==.\n- **怀疑过去（包含现在的时间）的动作**：No creo que ==haya terminado== todavía.（我不认为他已经做完了。）\n- **将来某时已完成**：Cuando ==hayas terminado==, llámame.（等你做完了给我打电话。）No te vayas hasta que lo ==hayas leído==.\n- **ojalá + 不知结果的刚刚过去的事**：Ojalá ==haya aprobado==.（考试已经考完了，但愿他通过了。）\n- **先行词不确定的关系从句**：Busco a alguien que ==haya vivido== en Japón.\n\n**陈述式与虚拟式**\n\n<table><tr><th>陈述式</th><th>虚拟式</th><th>原因</th></tr><tr><td>Creo que ==ha llegado==.</td><td>No creo que ==haya llegado==.</td><td>相信 vs 怀疑</td></tr><tr><td>Sé que ==has aprobado==.</td><td>Me alegro de que ==hayas aprobado==.</td><td>事实 vs 情感</td></tr><tr><td>Cuando ==he terminado==, salgo. （习惯）</td><td>Cuando ==hayas terminado==, avísame.</td><td>将来的时间点：cuando + 虚拟式</td></tr><tr><td>—</td><td>Es raro que no ==haya llamado== hoy / que no ==llamara== ayer.</td><td>现在/刚才 vs 更早的过去</td></tr></table>\n\n**haya hecho 与 hiciera**\n西班牙的 perfecto 规则在这里同样适用：包含现在的时间 → ==haya hecho==（No creo que ==haya llamado== hoy）；已结束的时间 → ==hiciera==（No creo que ==llamara== ayer）。主句是过去时，则用 hubiera hecho：No creía que ==hubiera llamado==.\n\n**给中文母语者的提示**\n- 中文“已经……了”在“我觉得”“我不觉得”“我希望”“真高兴”之后形式都一样；西班牙语要换：我觉得他已经走了 → Creo que ==se ha ido==；我不觉得他已经走了 → No creo que ==se haya ido==。\n- “等……完了以后”指将来 → cuando + haya + 分词：等你看完了 → cuando lo ==hayas leído==。\n- “但愿他已经……了”→ Ojalá ==haya==……：但愿他已经到了 → Ojalá ==haya llegado==。\n\n**常见错误**\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien.\n- ~~Cuando habrás acabado~~ → Cuando ==hayas acabado==.\n- ~~Me alegro que hayas venido~~ 口语常见，标准说法是 Me alegro ==de que== hayas venido。\n- ~~haya hechos~~ → ==haya hecho==（分词不变）。",
+      "ja": "**形：haber の接続法現在 ＋ 過去分詞**\n\n<table><tr><th>人称</th><th>haber（接続法現在）</th><th>+ 過去分詞</th></tr><tr><td>yo</td><td>==haya==</td><td>llegado</td></tr><tr><td>tú</td><td>==hayas==</td><td>visto</td></tr><tr><td>él/ella/usted</td><td>==haya==</td><td>hecho</td></tr><tr><td>nosotros/as</td><td>==hayamos==</td><td>terminado</td></tr><tr><td>vosotros/as</td><td>==hayáis==</td><td>dicho</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hayan==</td><td>vuelto</td></tr></table>\n\n**いつ使うか**\n現在完了（he hecho）の接続法版です。**接続法現在と同じ引き金**（願望・感情・疑い・評価・ojalá）の後で、今または未来のある時点から見て**すでに完了している**行為に使います。\n- **完了した行為 ＋ 現在の引き金**：Espero que ==hayas llegado== bien.（無事に着いているといいな。）Me alegro de que ==hayáis venido==. Es una pena que no ==hayan aprobado==.\n- **（今を含む時間の）過去の行為への疑い**：No creo que ==haya terminado== todavía.（まだ終わっていないと思う。）\n- **未来の時点での完了**：Cuando ==hayas terminado==, llámame.（終わったら電話して。）No te vayas hasta que lo ==hayas leído==.\n- **結果をまだ知らない直前の過去 ＋ ojalá**：Ojalá ==haya aprobado==.（試験は終わった。合格しているといいな。）\n- **先行詞が不特定の関係節**：Busco a alguien que ==haya vivido== en Japón.\n\n**直説法と接続法**\n\n<table><tr><th>直説法</th><th>接続法</th><th>理由</th></tr><tr><td>Creo que ==ha llegado==.</td><td>No creo que ==haya llegado==.</td><td>確信 vs 疑い</td></tr><tr><td>Sé que ==has aprobado==.</td><td>Me alegro de que ==hayas aprobado==.</td><td>事実 vs 感情</td></tr><tr><td>Cuando ==he terminado==, salgo. （習慣）</td><td>Cuando ==hayas terminado==, avísame.</td><td>未来の時点：cuando ＋ 接続法</td></tr><tr><td>—</td><td>Es raro que no ==haya llamado== hoy / que no ==llamara== ayer.</td><td>今・最近 vs それより前の過去</td></tr></table>\n\n**haya hecho と hiciera**\nスペインの perfecto のルールはここでも有効です：今を含む時間 → ==haya hecho==（No creo que ==haya llamado== hoy）、終わった時間 → ==hiciera==（No creo que ==llamara== ayer）。主節が過去なら hubiera hecho：No creía que ==hubiera llamado==.\n\n**日本語話者のためのポイント**\n- 「〜たと思う」「〜たとは思わない」「〜たといいな」「〜てくれてうれしい」の「た」は日本語では同じですが、スペイン語では引き金によって ==ha llegado== / ==haya llegado== が変わります。\n- 「〜し終わったら」（未来）→ cuando ＋ haya ＋ 分詞：読み終わったら → cuando lo ==hayas leído==。\n- 「〜てくれてありがとう／うれしい」→ Me alegro de que ＋ haya ＋ 分詞。\n\n**よくある間違い**\n- ~~Espero que has dormido bien~~ → Espero que ==hayas dormido== bien.\n- ~~Cuando habrás acabado~~ → Cuando ==hayas acabado==.\n- ~~Me alegro que hayas venido~~ は会話ではよく聞きますが、規範的には Me alegro ==de que== hayas venido。\n- ~~haya hechos~~ → ==haya hecho==（分詞は不変）。"
+    },
+    "conjugation": {
+      "haber (presente de subjuntivo)": {
+        "yo": "haya",
+        "tú": "hayas",
+        "él/ella/usted": "haya",
+        "nosotros": "hayamos",
+        "vosotros": "hayáis",
+        "ellos/ustedes": "hayan"
+      },
+      "llegar (perfecto de subjuntivo)": {
+        "yo": "haya llegado",
+        "tú": "hayas llegado",
+        "él/ella/usted": "haya llegado",
+        "nosotros": "hayamos llegado",
+        "vosotros": "hayáis llegado",
+        "ellos/ustedes": "hayan llegado"
+      }
+    },
+    "examples": [
+      {
+        "es": "Espero que hayas llegado bien.",
+        "en": "I hope you've arrived safely.",
+        "zh": "希望你已经平安到了。",
+        "ja": "無事に着いているといいな。"
+      },
+      {
+        "es": "No creo que lo haya visto todavía.",
+        "en": "I don't think he has seen it yet.",
+        "zh": "我不认为他已经看过了。",
+        "ja": "彼がもうそれを見たとは思わない。"
+      },
+      {
+        "es": "Me alegro de que hayáis venido.",
+        "en": "I'm glad you (all) have come.",
+        "zh": "很高兴你们来了。",
+        "ja": "君たちが来てくれてうれしい。"
+      },
+      {
+        "es": "Cuando hayas terminado, llámame.",
+        "en": "When you've finished, call me.",
+        "zh": "你做完了就给我打电话。",
+        "ja": "終わったら電話して。"
+      },
+      {
+        "es": "Ojalá haya aprobado el examen.",
+        "en": "I hope she has passed the exam.",
+        "zh": "但愿她考试通过了。",
+        "ja": "試験に受かっているといいな。"
+      },
+      {
+        "es": "Busco a alguien que haya trabajado en Japón.",
+        "en": "I'm looking for someone who has worked in Japan.",
+        "zh": "我在找一个在日本工作过的人。",
+        "ja": "日本で働いたことがある人を探している。"
+      }
+    ]
+  },
+  {
+    "id": "b2-past-hypothetical",
+    "unit": 2,
+    "title": {
+      "en": "Past hypothesis: si hubiera… habría…",
+      "zh": "过去的假设：si hubiera… habría…",
+      "ja": "過去の仮定：si hubiera… habría…"
+    },
+    "summary": {
+      "en": "Pluperfect subjunctive + conditional perfect; mixed conditionals; de haberlo sabido; ojalá hubiera",
+      "zh": "虚拟式过去完成时 + 条件完成时；混合条件句；de haberlo sabido；ojalá hubiera",
+      "ja": "接続法過去完了 ＋ 過去未来完了・混合条件文・de haberlo sabido・ojalá hubiera"
+    },
+    "explanation": {
+      "en": "**Form**\n\n<table><tr><th>Person</th><th>pluperf. subj. (-ra / -se)</th><th>conditional perfect</th></tr><tr><td>yo</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>tú</td><td>==hubieras== / ==hubieses== sabido</td><td>==habrías== venido</td></tr><tr><td>él/ella/usted</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>nosotros/as</td><td>==hubiéramos== / ==hubiésemos== sabido</td><td>==habríamos== venido</td></tr><tr><td>vosotros/as</td><td>==hubierais== / ==hubieseis== sabido</td><td>==habríais== venido</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hubieran== / ==hubiesen== sabido</td><td>==habrían== venido</td></tr></table>\n\nhubiera and hubiese are equivalent (-se is more written, very alive in Spain). Note the accent in hub==ié==ramos / hub==ié==semos.\n\n**Uses**\n\n<table><tr><th>Use</th><th>Example</th></tr><tr><td><strong>unreal past → unreal past result</strong></td><td>Si lo ==hubiera sabido==, ==habría venido==.</td></tr><tr><td><strong>unreal past → present result (mixed)</strong></td><td>Si ==hubiera estudiado== Medicina, ahora ==sería== médico.</td></tr><tr><td><strong>permanent condition → past result (mixed)</strong></td><td>Si ==fuera== más organizado, no ==habría perdido== las llaves.</td></tr><tr><td><strong>colloquial/literary: hubiera in both parts</strong></td><td>Si lo ==hubiera sabido==, ==hubiera venido==.</td></tr><tr><td><strong>de + perfect infinitive (= si…)</strong></td><td>==De haberlo sabido==, no habría dicho nada.</td></tr><tr><td><strong>regret about the past</strong></td><td>Ojalá ==hubiera aprovechado== aquella oportunidad. ==Ojalá no se lo hubiera dicho==.</td></tr><tr><td><strong>as if (earlier action)</strong></td><td>Me miró como si ==hubiera visto== un fantasma.</td></tr><tr><td><strong>past trigger + earlier action</strong></td><td>Me molestó que no me ==hubieras avisado==.</td></tr></table>\n\n**The basic pattern: si + hubiera + participle → habría + participle**\nIt describes a situation that **did not happen** in the past, and its imaginary consequence: Si ==hubieras salido== antes, no ==habrías perdido== el tren (you didn't leave earlier, you did miss it).\n- Order is free: No ==habrías perdido== el tren si ==hubieras salido== antes.\n- **Never** conditional after si: ~~Si habría sabido~~ → Si ==hubiera sabido==.\n- In speech (and in literature) **hubiera** often replaces habría in the result: Si lo hubiera sabido, ==hubiera venido==. Both are correct; **hubiese** is not used in the result.\n\n**Mixed conditionals**\n- Past condition → present result: Si ==hubiera aceptado== aquel trabajo, ahora ==viviría== en Londres.\n- Present condition (a permanent fact) → past result: Si no ==fuera== tan tímido, ==habría hablado== con ella.\n\n**Other ways to express the past hypothesis**\n- **de + haber + participle**: ==De haberlo sabido==, te habría llamado.\n- **Ojalá / quién + plusc. subj.** (impossible wish about the past): Ojalá no ==hubiera dicho== nada. ¡Quién ==hubiera estado== allí!\n- **Yo que tú / en tu lugar** + conditional perfect: Yo, en tu lugar, ==habría protestado==.\n- **Con / sin + noun**: Sin tu ayuda, no lo ==habría conseguido==.\n\n**For English speakers**\n- English «if I had known» → si ==hubiera sabido==; «I would have come» → ==habría venido==; «I wish I had…» → ojalá ==hubiera==…\n- «could have» → ==podría haber== / ==habría podido== hecho; «should have» → ==debería haber== hecho / ==tendría que haber== hecho.\n- English often drops «if»: «Had I known…» → ==De haberlo sabido==… / ==Si lo hubiera sabido==…\n\n**Common mistakes**\n- ~~Si habría estudiado, habría aprobado~~ → Si ==hubiera estudiado==, habría aprobado.\n- Si estudiaba más, aprobaba is colloquial in Spain; in careful speech and writing: Si ==hubiera estudiado== más, ==habría aprobado==.\n- ~~Ojalá tuviera ido~~ → Ojalá ==hubiera ido==.\n- For regret, ~~Debería de haberlo hecho~~ → ==Debería haberlo hecho== (deber de = probability).",
+      "zh": "**构成**\n\n<table><tr><th>人称</th><th>虚拟式过去完成时 (-ra / -se)</th><th>条件完成时</th></tr><tr><td>yo</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>tú</td><td>==hubieras== / ==hubieses== sabido</td><td>==habrías== venido</td></tr><tr><td>él/ella/usted</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>nosotros/as</td><td>==hubiéramos== / ==hubiésemos== sabido</td><td>==habríamos== venido</td></tr><tr><td>vosotros/as</td><td>==hubierais== / ==hubieseis== sabido</td><td>==habríais== venido</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hubieran== / ==hubiesen== sabido</td><td>==habrían== venido</td></tr></table>\n\nhubiera 和 hubiese 意义相同（-se 更书面，在西班牙仍很常用）。注意重音：hub==ié==ramos / hub==ié==semos。\n\n**用法**\n\n<table><tr><th>用法</th><th>例句</th></tr><tr><td><strong>过去不真实 → 过去的结果</strong></td><td>Si lo ==hubiera sabido==, ==habría venido==.</td></tr><tr><td><strong>过去不真实 → 现在的结果（混合）</strong></td><td>Si ==hubiera estudiado== Medicina, ahora ==sería== médico.</td></tr><tr><td><strong>现在的特点 → 过去的结果（混合）</strong></td><td>Si ==fuera== más organizado, no ==habría perdido== las llaves.</td></tr><tr><td><strong>口语/文学：两部分都用 hubiera</strong></td><td>Si lo ==hubiera sabido==, ==hubiera venido==.</td></tr><tr><td><strong>de + 完成不定式（= si…）</strong></td><td>==De haberlo sabido==, no habría dicho nada.</td></tr><tr><td><strong>对过去的遗憾</strong></td><td>Ojalá ==hubiera aprovechado== aquella oportunidad. ==Ojalá no se lo hubiera dicho==.</td></tr><tr><td><strong>好像（更早的动作）</strong></td><td>Me miró como si ==hubiera visto== un fantasma.</td></tr><tr><td><strong>过去的触发词 + 更早的动作</strong></td><td>Me molestó que no me ==hubieras avisado==.</td></tr></table>\n\n**基本句型：si + hubiera + 分词 → habría + 分词**\n描述过去**没有发生**的情况及其想象中的结果：Si ==hubieras salido== antes, no ==habrías perdido== el tren.（要是你早点出门，就不会错过火车了。——实际上你没早出门，也错过了火车。）\n- 语序自由：No ==habrías perdido== el tren si ==hubieras salido== antes.\n- si 后**绝不**用条件式：~~Si habría sabido~~ → Si ==hubiera sabido==。\n- 口语（以及文学）中，结果部分常用 **hubiera** 代替 habría：Si lo hubiera sabido, ==hubiera venido==。两种都对；结果部分不用 **hubiese**。\n\n**混合条件句**\n- 过去的条件 → 现在的结果：Si ==hubiera aceptado== aquel trabajo, ahora ==viviría== en Londres.（要是当年接受了那份工作，我现在就住在伦敦了。）\n- 现在（长期）的特点 → 过去的结果：Si no ==fuera== tan tímido, ==habría hablado== con ella.\n\n**表达过去假设的其他方式**\n- **de + haber + 分词**：==De haberlo sabido==, te habría llamado.\n- **Ojalá / quién + 虚拟式过去完成时**（对过去不可能的愿望）：Ojalá no ==hubiera dicho== nada.（真希望我当时什么都没说。）\n- **Yo que tú / en tu lugar** + 条件完成时：Yo, en tu lugar, ==habría protestado==.\n- **Con / sin + 名词**：Sin tu ayuda, no lo ==habría conseguido==.\n\n**给中文母语者的提示**\n- 中文“要是……就……了”“早知道……就……”可以指过去，动词不变；西班牙语必须用 si + hubiera + 分词 和 habría + 分词：早知道就不来了 → Si lo ==hubiera sabido==, no ==habría venido==。\n- “本来应该……”→ ==debería haber== + 分词 / ==tendría que haber== + 分词：你本来应该告诉我 → ==Deberías haberme avisado==。\n- “真后悔……”“当时要是……就好了”→ Ojalá ==hubiera==……\n\n**常见错误**\n- ~~Si habría estudiado, habría aprobado~~ → Si ==hubiera estudiado==, habría aprobado.\n- ~~Ojalá tuviera ido~~ → Ojalá ==hubiera ido==.\n- 表示遗憾时 ~~Debería de haberlo hecho~~ → ==Debería haberlo hecho==（deber de 表示推测）。",
+      "ja": "**形**\n\n<table><tr><th>人称</th><th>接続法過去完了 (-ra / -se)</th><th>過去未来完了</th></tr><tr><td>yo</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>tú</td><td>==hubieras== / ==hubieses== sabido</td><td>==habrías== venido</td></tr><tr><td>él/ella/usted</td><td>==hubiera== / ==hubiese== sabido</td><td>==habría== venido</td></tr><tr><td>nosotros/as</td><td>==hubiéramos== / ==hubiésemos== sabido</td><td>==habríamos== venido</td></tr><tr><td>vosotros/as</td><td>==hubierais== / ==hubieseis== sabido</td><td>==habríais== venido</td></tr><tr><td>ellos/ellas/ustedes</td><td>==hubieran== / ==hubiesen== sabido</td><td>==habrían== venido</td></tr></table>\n\nhubiera と hubiese は同じ意味（-se はより書き言葉的ですが、スペインではよく使われます）。hub==ié==ramos / hub==ié==semos のアクセントに注意。\n\n**用法**\n\n<table><tr><th>用法</th><th>例</th></tr><tr><td><strong>過去の非現実 → 過去の帰結</strong></td><td>Si lo ==hubiera sabido==, ==habría venido==.</td></tr><tr><td><strong>過去の非現実 → 現在の帰結（混合）</strong></td><td>Si ==hubiera estudiado== Medicina, ahora ==sería== médico.</td></tr><tr><td><strong>現在の性質 → 過去の帰結（混合）</strong></td><td>Si ==fuera== más organizado, no ==habría perdido== las llaves.</td></tr><tr><td><strong>口語・文語：両方に hubiera</strong></td><td>Si lo ==hubiera sabido==, ==hubiera venido==.</td></tr><tr><td><strong>de ＋ 完了不定詞（= si…）</strong></td><td>==De haberlo sabido==, no habría dicho nada.</td></tr><tr><td><strong>過去への後悔</strong></td><td>Ojalá ==hubiera aprovechado== aquella oportunidad. ==Ojalá no se lo hubiera dicho==.</td></tr><tr><td><strong>まるで〜したかのように</strong></td><td>Me miró como si ==hubiera visto== un fantasma.</td></tr><tr><td><strong>過去の引き金 ＋ それより前の行為</strong></td><td>Me molestó que no me ==hubieras avisado==.</td></tr></table>\n\n**基本形：si ＋ hubiera ＋ 分詞 → habría ＋ 分詞**\n過去に**実際には起こらなかった**ことと、その想像上の結果を表します：Si ==hubieras salido== antes, no ==habrías perdido== el tren.（もっと早く出ていれば、電車に乗り遅れなかったのに。——実際は早く出なかったし、乗り遅れた。）\n- 語順は自由：No ==habrías perdido== el tren si ==hubieras salido== antes.\n- si の後に過去未来は**絶対に**使いません：~~Si habría sabido~~ → Si ==hubiera sabido==。\n- 会話（と文学）では、帰結節でも **hubiera** をよく使います：Si lo hubiera sabido, ==hubiera venido==。どちらも正しいですが、帰結節に **hubiese** は使いません。\n\n**混合条件文**\n- 過去の条件 → 現在の結果：Si ==hubiera aceptado== aquel trabajo, ahora ==viviría== en Londres.（あの仕事を受けていたら、今ごろロンドンに住んでいるだろう。）\n- 現在の（変わらない）性質 → 過去の結果：Si no ==fuera== tan tímido, ==habría hablado== con ella.\n\n**過去の仮定を表すほかの方法**\n- **de ＋ haber ＋ 分詞**：==De haberlo sabido==, te habría llamado.\n- **Ojalá / quién ＋ 接続法過去完了**（過去についての叶わない願い）：Ojalá no ==hubiera dicho== nada.（何も言わなければよかった。）\n- **Yo que tú / en tu lugar** ＋ 過去未来完了：Yo, en tu lugar, ==habría protestado==.\n- **Con / sin ＋ 名詞**：Sin tu ayuda, no lo ==habría conseguido==.\n\n**日本語話者のためのポイント**\n- 「〜ていたら…したのに」「〜ばよかった」の「のに」「よかった」は、過去の非現実のサインです → si ＋ hubiera ＋ 分詞、ojalá ＋ hubiera ＋ 分詞。\n- 「〜すべきだった」→ ==debería haber== ＋ 分詞：言ってくれればよかったのに → ==Deberías habérmelo dicho==。\n- 「〜していれば、今ごろ…」は混合型：si ＋ hubiera ＋ 分詞 → 過去未来（==sería==, ==viviría==）。\n\n**よくある間違い**\n- ~~Si habría estudiado, habría aprobado~~ → Si ==hubiera estudiado==, habría aprobado.\n- ~~Ojalá tuviera ido~~ → Ojalá ==hubiera ido==.\n- 後悔を表すとき ~~Debería de haberlo hecho~~ → ==Debería haberlo hecho==（deber de は推量）。"
+    },
+    "conjugation": {
+      "haber (pluscuamperfecto de subjuntivo -ra)": {
+        "yo": "hubiera",
+        "tú": "hubieras",
+        "él/ella/usted": "hubiera",
+        "nosotros": "hubiéramos",
+        "vosotros": "hubierais",
+        "ellos/ustedes": "hubieran"
+      },
+      "haber (pluscuamperfecto de subjuntivo -se)": {
+        "yo": "hubiese",
+        "tú": "hubieses",
+        "él/ella/usted": "hubiese",
+        "nosotros": "hubiésemos",
+        "vosotros": "hubieseis",
+        "ellos/ustedes": "hubiesen"
+      },
+      "haber (condicional)": {
+        "yo": "habría",
+        "tú": "habrías",
+        "él/ella/usted": "habría",
+        "nosotros": "habríamos",
+        "vosotros": "habríais",
+        "ellos/ustedes": "habrían"
+      }
+    },
+    "examples": [
+      {
+        "es": "Si lo hubiera sabido, habría venido.",
+        "en": "If I had known, I would have come.",
+        "zh": "要是我早知道，就来了。",
+        "ja": "知っていたら来たのに。"
+      },
+      {
+        "es": "Si hubieras salido antes, no habrías perdido el tren.",
+        "en": "If you had left earlier, you wouldn't have missed the train.",
+        "zh": "要是你早点出门，就不会错过火车了。",
+        "ja": "もっと早く出ていれば、電車に乗り遅れなかったのに。"
+      },
+      {
+        "es": "Si hubiera estudiado Medicina, ahora sería médico.",
+        "en": "If I had studied Medicine, I'd be a doctor now.",
+        "zh": "要是当初学了医，我现在就是医生了。",
+        "ja": "医学を勉強していたら、今ごろ医者だろう。"
+      },
+      {
+        "es": "De haberlo sabido, no habría dicho nada.",
+        "en": "Had I known, I wouldn't have said anything.",
+        "zh": "早知道的话，我什么都不会说。",
+        "ja": "知っていたら、何も言わなかっただろう。"
+      },
+      {
+        "es": "Ojalá hubiera aprovechado aquella oportunidad.",
+        "en": "I wish I had taken that opportunity.",
+        "zh": "真希望我当时抓住了那个机会。",
+        "ja": "あのチャンスを生かしていればよかった。"
+      },
+      {
+        "es": "Sin tu ayuda, no lo habría conseguido.",
+        "en": "Without your help, I wouldn't have managed it.",
+        "zh": "没有你的帮助，我不可能成功。",
+        "ja": "君の助けがなければ、できなかっただろう。"
+      },
+      {
+        "es": "Deberías habérmelo dicho antes.",
+        "en": "You should have told me earlier.",
+        "zh": "你本该早点告诉我。",
+        "ja": "もっと早く言ってくれればよかったのに。"
+      }
+    ]
+  },
+  {
+    "id": "b2-subjunctive-relative-time",
+    "unit": 4,
+    "title": {
+      "en": "Subjunctive in relative and time clauses",
+      "zh": "关系从句与时间从句中的虚拟式",
+      "ja": "関係節・時の節の接続法"
+    },
+    "summary": {
+      "en": "Unknown antecedents; future time; para que, sin que, antes de que",
+      "zh": "未知的先行词；将来的时间；para que, sin que, antes de que",
+      "ja": "未知の先行詞／未来の時／para que, sin que, antes de que"
+    },
+    "explanation": {
+      "en": "**Relative clauses:** known antecedent → indicative; unknown or non-existent → subjunctive.\n- Tengo un amigo que **sabe** chino. / Busco a alguien que **sepa** chino.\n- No hay nadie que **sepa** la respuesta. Haz lo que **quieras**.\n\n**Time clauses** (cuando, en cuanto, hasta que, después de que): habitual/past → indicative; future → subjunctive. Cuando **llegue**, te llamo. Never *cuando llegaré.\n\n**Always subjunctive:** antes de que, para que, sin que, a menos que. Same subject → infinitive: sin despedirse, para aprender.\n\n**English tip:** if you can add “any… at all”, it's subjunctive; English “when I arrive” (present) = cuando llegue (subjunctive).",
+      "zh": "**关系从句：** 先行词已知 → 直陈式；未知或不存在 → 虚拟式。\n- Tengo un amigo que **sabe** chino.（我有个会中文的朋友。）/ Busco a alguien que **sepa** chino.（我在找会中文的人。）\n- No hay nadie que **sepa** la respuesta. Haz lo que **quieras**.（想做什么就做什么。）\n\n**时间从句**（cuando, en cuanto, hasta que, después de que）：习惯/过去 → 直陈式；将来 → 虚拟式。Cuando **llegue**, te llamo.（等我到了给你打电话。）\n\n**永远用虚拟式：** antes de que, para que, sin que, a menos que。主语相同 → 原形：sin despedirse。\n\n**中文提示：** 能加“任何”“随便”的用虚拟式；“等……的时候”指将来时用虚拟式。",
+      "ja": "**関係節：** 先行詞が既知 → 直説法、未知・存在しない → 接続法。\n- Tengo un amigo que **sabe** chino.（中国語ができる友達がいる。）/ Busco a alguien que **sepa** chino.（中国語ができる人を探している。）\n- No hay nadie que **sepa** la respuesta. Haz lo que **quieras**.（好きなようにして。）\n\n**時の節**（cuando, en cuanto, hasta que, después de que）：習慣・過去 → 直説法、未来 → 接続法。Cuando **llegue**, te llamo.（着いたら電話する。）\n\n**常に接続法：** antes de que, para que, sin que, a menos que。主語が同じなら不定詞：sin despedirse。\n\n**日本語話者へ：** 「〜なら誰でも」「何でも」と言えるなら接続法。「〜たら」が未来なら接続法。"
+    },
+    "examples": [
+      {
+        "es": "Busco un piso que tenga terraza.",
+        "en": "I'm looking for a flat that has a terrace.",
+        "zh": "我在找一套有露台的公寓。",
+        "ja": "テラスのあるマンションを探している。"
+      },
+      {
+        "es": "Te llamaré en cuanto llegue.",
+        "en": "I'll call you as soon as I arrive.",
+        "zh": "我一到就给你打电话。",
+        "ja": "着いたらすぐ電話するよ。"
+      },
+      {
+        "es": "Salió sin que nadie lo viera.",
+        "en": "He left without anyone seeing him.",
+        "zh": "他出去时没有人看见。",
+        "ja": "彼は誰にも見られずに出て行った。"
+      }
+    ]
+  },
+  {
+    "id": "b2-perfect-probability",
+    "unit": 6,
+    "title": {
+      "en": "Future perfect and conditional perfect",
+      "zh": "将来完成时与条件完成时",
+      "ja": "未来完了と過去未来完了"
+    },
+    "summary": {
+      "en": "habrá llegado, habría salido: completion and guesses",
+      "zh": "habrá llegado、habría salido：完成与推测",
+      "ja": "habrá llegado、habría salido：完了と推量"
+    },
+    "explanation": {
+      "en": "**Future perfect:** hab==ré==, hab==rás==, hab==rá==, hab==remos==, hab==réis==, hab==rán== + participle.\n**Conditional perfect:** hab==ría==, hab==rías==… + participle.\n\n**1. Completed by a future time:** Para el viernes habré terminado.\n**2. Probability** (one tense “forward”):\n- now: está → **estará**\n- recent: ha salido → **habrá salido**\n- past: salió → **saldría**\n- earlier past: había salido → **habría salido**\n\n**English tip:** “He must have / he'll have left by now” = Habrá salido. “Where can he be?” = ¿Dónde estará?",
+      "zh": "**将来完成时：** hab==ré==, hab==rás==, hab==rá==, hab==remos==, hab==réis==, hab==rán== + 过去分词。\n**条件完成时：** hab==ría==, hab==rías==… + 过去分词。\n\n**1. 将来某时之前完成：** Para el viernes habré terminado.（到周五我就做完了。）\n**2. 推测**（时态“往前推一格”）：\n- 现在：está → **estará**\n- 刚刚：ha salido → **habrá salido**（大概已经出去了）\n- 过去：salió → **saldría**\n- 更早的过去：había salido → **habría salido**\n\n**中文提示：** 不需要“大概、估计”，时态本身就表示推测；这里的将来时不是“将要”。",
+      "ja": "**未来完了：** hab==ré==, hab==rás==, hab==rá==, hab==remos==, hab==réis==, hab==rán== ＋ 過去分詞。\n**過去未来完了：** hab==ría==, hab==rías==… ＋ 過去分詞。\n\n**1. 未来の時点までに完了：** Para el viernes habré terminado.（金曜までには終わっているだろう。）\n**2. 推量**（時制を「一段階先」にずらす）：\n- 現在：está → **estará**\n- 直前：ha salido → **habrá salido**（もう出かけたのだろう）\n- 過去：salió → **saldría**\n- それ以前：había salido → **habría salido**\n\n**日本語話者へ：** 「〜だろう」は文末ではなく動詞の時制で表す。未来形を「これから〜する」と訳さないこと。"
+    },
+    "conjugation": {
+      "haber (future)": {
+        "yo": "habré",
+        "tú": "habrás",
+        "él/ella": "habrá",
+        "nosotros": "habremos",
+        "vosotros": "habréis",
+        "ellos": "habrán"
+      }
+    },
+    "examples": [
+      {
+        "es": "No contesta; habrá salido ya.",
+        "en": "He's not answering; he's probably gone out.",
+        "zh": "他不接电话，大概已经出门了。",
+        "ja": "電話に出ない。もう出かけたのだろう。"
+      },
+      {
+        "es": "Para entonces habremos terminado.",
+        "en": "By then we will have finished.",
+        "zh": "到那时我们就做完了。",
+        "ja": "その頃には終わっているだろう。"
+      },
+      {
+        "es": "Cuando llegamos, ya se habría ido.",
+        "en": "When we arrived, he had probably already left.",
+        "zh": "我们到的时候，他可能已经走了。",
+        "ja": "私たちが着いたとき、彼はもう帰っていたのだろう。"
+      }
+    ]
+  },
+  {
+    "id": "b2-passive-voice",
+    "unit": 7,
+    "title": {
+      "en": "Passive voice",
+      "zh": "被动语态",
+      "ja": "受動態"
+    },
+    "summary": {
+      "en": "ser + participle vs se + verb",
+      "zh": "ser + 过去分词 与 se + 动词",
+      "ja": "ser ＋ 過去分詞 と se ＋ 動詞"
+    },
+    "explanation": {
+      "en": "**ser + participle** (agrees with subject) + **por** + agent. Formal, written:\n- La catedral fue construid==a== en el siglo XIII.\n- Los puentes fueron construid==os== por ingenieros romanos.\n\n**Pasiva refleja:** se + 3rd person verb agreeing with the noun; no agent; everyday style:\n- Se construy==ó== el puente. / Se construy==eron== muchos edificios.\n\n**estar + participle** = resulting state: La puerta estaba cerrada.\n\n**English tip:** English “was closed” = fue cerrada (action) or estaba cerrada (state). Don't use se with por + agent.",
+      "zh": "**ser + 过去分词**（与主语性数一致）+ **por** + 施动者。正式、书面：\n- La catedral fue construid==a== en el siglo XIII.\n- Los puentes fueron construid==os== por ingenieros romanos.\n\n**自复被动：** se + 第三人称动词，与名词单复数一致；不带施动者；日常用语：\n- Se construy==ó== el puente. / Se construy==eron== muchos edificios.\n\n**estar + 分词** = 结果状态：La puerta estaba cerrada.（门是关着的。）\n\n**中文提示：** 中文很多被动不用“被”（“桥建于1890年”），西语必须用被动形式；注意分词的性数变化。",
+      "ja": "**ser ＋ 過去分詞**（主語と性数一致）＋ **por** ＋ 動作主。硬い書き言葉：\n- La catedral fue construid==a== en el siglo XIII.\n- Los puentes fueron construid==os== por ingenieros romanos.\n\n**再帰受動：** se ＋ 3人称動詞（名詞の数に一致）。動作主なし、日常的：\n- Se construy==ó== el puente. / Se construy==eron== muchos edificios.\n\n**estar ＋ 過去分詞** ＝ 結果の状態：La puerta estaba cerrada.（ドアは閉まっていた。）\n\n**日本語話者へ：** 「閉まっている」（状態）は estar、「閉められた」（動作）は ser。過去分詞は性・数で変化する。"
+    },
+    "examples": [
+      {
+        "es": "La ciudad fue fundada por los romanos.",
+        "en": "The city was founded by the Romans.",
+        "zh": "这座城市是罗马人建立的。",
+        "ja": "その町はローマ人によって建設された。"
+      },
+      {
+        "es": "Se construyeron muchos edificios nuevos.",
+        "en": "Many new buildings were built.",
+        "zh": "建了许多新楼。",
+        "ja": "新しい建物がたくさん建てられた。"
+      },
+      {
+        "es": "La puerta estaba cerrada.",
+        "en": "The door was closed.",
+        "zh": "门是关着的。",
+        "ja": "ドアは閉まっていた。"
+      }
+    ]
+  },
+  {
+    "id": "b2-periphrases-change",
+    "unit": 8,
+    "title": {
+      "en": "Verbal periphrases and verbs of change",
+      "zh": "动词迂说式与表示变化的动词",
+      "ja": "迂言表現と変化の動詞"
+    },
+    "summary": {
+      "en": "llevar, seguir, dejar de, volver a…; ponerse, volverse, hacerse, quedarse…",
+      "zh": "llevar, seguir, dejar de, volver a…；ponerse, volverse, hacerse, quedarse…",
+      "ja": "llevar, seguir, dejar de, volver a…／ponerse, volverse, hacerse, quedarse…"
+    },
+    "explanation": {
+      "en": "**Periphrases:**\n- llevar + time + gerund: Llevo una hora esperando (I've been waiting for an hour).\n- seguir + gerund: Sigo pensando… (still)\n- dejar **de** / ponerse **a** / volver **a** / acabar **de** + infinitive\n- acabar + gerund: Acabamos cenando en casa (ended up).\n\n**Verbs of change (English “become/get/go”):**\n- **ponerse** + adj: sudden, temporary (se puso rojo)\n- **volverse** + adj: deep personality change (se volvió loco)\n- **hacerse** + noun/adj: effort, choice (se hizo médico)\n- **quedarse** + adj: result (se quedó sordo, embarazada)\n- **convertirse en** + noun; **llegar a ser** (achievement)",
+      "zh": "**迂说式：**\n- llevar + 时间 + 副动词：Llevo una hora esperando（我已经等了一个小时了）。\n- seguir + 副动词：仍然、继续\n- dejar **de**（不再）/ ponerse **a**（……起来）/ volver **a**（又、再）/ acabar **de**（刚刚）+ 原形\n- acabar + 副动词：最后（结果）……\n\n**表示变化的动词（中文的“变/成为”）：**\n- **ponerse** + 形容词：突然、暂时（se puso rojo 脸红了）\n- **volverse** + 形容词：性格深刻变化（se volvió loco）\n- **hacerse** + 名词/形容词：努力、主动（se hizo médico）\n- **quedarse** + 形容词：结果（se quedó sordo 聋了）\n- **convertirse en** + 名词；**llegar a ser**（最终成为）",
+      "ja": "**迂言表現：**\n- llevar ＋ 期間 ＋ 現在分詞：Llevo una hora esperando（1時間待っている）。\n- seguir ＋ 現在分詞：まだ〜し続けている\n- dejar **de**（やめる）／ ponerse **a**（〜し出す）／ volver **a**（また〜する）／ acabar **de**（〜したばかり）＋ 不定詞\n- acabar ＋ 現在分詞：結局〜することになる\n\n**変化の動詞（日本語の「なる」）：**\n- **ponerse** ＋ 形容詞：一時的（se puso rojo 赤くなった）\n- **volverse** ＋ 形容詞：性格の根本的変化（se volvió loco）\n- **hacerse** ＋ 名詞・形容詞：意志・努力（se hizo médico）\n- **quedarse** ＋ 形容詞：結果（se quedó sordo）\n- **convertirse en** ＋ 名詞／**llegar a ser**（ついに〜になる）"
+    },
+    "examples": [
+      {
+        "es": "Llevo dos años viviendo en Valencia.",
+        "en": "I've been living in Valencia for two years.",
+        "zh": "我在瓦伦西亚已经住了两年了。",
+        "ja": "バレンシアに住んで2年になる。"
+      },
+      {
+        "es": "Ha dejado de fumar.",
+        "en": "He has stopped smoking.",
+        "zh": "他戒烟了。",
+        "ja": "彼はたばこをやめた。"
+      },
+      {
+        "es": "Se puso nervioso antes del examen.",
+        "en": "He got nervous before the exam.",
+        "zh": "考试前他紧张起来了。",
+        "ja": "試験の前に彼は緊張した。"
+      },
+      {
+        "es": "La pequeña empresa se convirtió en una multinacional.",
+        "en": "The small company became a multinational.",
+        "zh": "那家小公司变成了跨国公司。",
+        "ja": "その小さな会社は多国籍企業になった。"
+      }
+    ]
+  },
+  {
+    "id": "b2-reported-commands",
+    "unit": 10,
+    "title": {
+      "en": "Reported commands and questions",
+      "zh": "转述命令与疑问",
+      "ja": "命令・質問の間接話法"
+    },
+    "summary": {
+      "en": "me pidió que + imperfect subjunctive; preguntó si…; time shifts",
+      "zh": "me pidió que + 虚拟式过去时；preguntó si…；时间词变化",
+      "ja": "me pidió que ＋ 接続法過去／preguntó si…／時の表現の変化"
+    },
+    "explanation": {
+      "en": "**Commands/requests → que + subjunctive:**\n- Dice que veng==as== (present reporting verb → present subjunctive)\n- Me pidió que la ayud==ara== (past → imperfect subjunctive)\n\n**Questions:** yes/no → **si**; otherwise keep the question word: Me preguntó dónde viv==ía==.\n\n**Shifts:** vivo → vivía; he visto → había visto; vendré → vendría; hoy → aquel día; mañana → al día siguiente; ayer → el día anterior; aquí → allí.\n\n**English tip:** “She asked me to help” is NOT *me pidió ayudar: use que + subjunctive. Dijo que venía (information) ≠ Dijo que viniera (order).",
+      "zh": "**命令/请求 → que + 虚拟式：**\n- Dice que veng==as==（转述动词现在时 → 虚拟式现在时）\n- Me pidió que la ayud==ara==（过去时 → 虚拟式过去时）\n\n**疑问句：** 一般疑问 → **si**；特殊疑问保留疑问词：Me preguntó dónde viv==ía==.\n\n**变化：** vivo → vivía；he visto → había visto；vendré → vendría；hoy → aquel día；mañana → al día siguiente；ayer → el día anterior；aquí → allí。\n\n**中文提示：** 中文转述时动词和“明天”常常不变；西语要同时改人称、时态和时间地点词。“让/请某人做” = pedir/decir que + 虚拟式。",
+      "ja": "**命令・依頼 → que ＋ 接続法：**\n- Dice que veng==as==（伝達動詞が現在 → 接続法現在）\n- Me pidió que la ayud==ara==（過去 → 接続法過去）\n\n**疑問文：** はい・いいえ → **si**、疑問詞はそのまま：Me preguntó dónde viv==ía==.\n\n**変化：** vivo → vivía、he visto → había visto、vendré → vendría、hoy → aquel día、mañana → al día siguiente、ayer → el día anterior、aquí → allí。\n\n**日本語話者へ：** 日本語は引用内の時制が変わらないが、スペイン語では一つ過去にずらす。「来るように言った」＝ dijo que viniera、「来ると言った」＝ dijo que venía。"
+    },
+    "examples": [
+      {
+        "es": "Me pidió que lo llamara al día siguiente.",
+        "en": "He asked me to call him the next day.",
+        "zh": "他让我第二天给他打电话。",
+        "ja": "翌日電話してくれと頼まれた。"
+      },
+      {
+        "es": "Me preguntó si había visto la película.",
+        "en": "She asked me if I had seen the film.",
+        "zh": "她问我有没有看过那部电影。",
+        "ja": "その映画を見たかと聞かれた。"
+      },
+      {
+        "es": "Dijo que vendría al día siguiente.",
+        "en": "He said he would come the next day.",
+        "zh": "他说他第二天会来。",
+        "ja": "翌日来ると言った。"
+      }
+    ]
+  },
+  {
+    "id": "b2-prepositional-verbs",
+    "unit": 11,
+    "title": {
+      "en": "Verbs with a fixed preposition",
+      "zh": "带固定介词的动词",
+      "ja": "前置詞と結びつく動詞"
+    },
+    "summary": {
+      "en": "pensar en, soñar con, depender de, acordarse de...",
+      "zh": "pensar en、soñar con、depender de、acordarse de……",
+      "ja": "pensar en、soñar con、depender de、acordarse de…"
+    },
+    "explanation": {
+      "en": "Some verbs always take the same preposition. Learn them as one unit:\n\n- pensar **en** (think about) · soñar **con** (dream about)\n- depender **de** (depend on) · confiar **en** (trust)\n- acordarse **de** (remember) · enamorarse **de** (fall in love with)\n- tardar + time + **en** (take time to) · consistir **en** (consist of)\n- contar **con** (count on) · insistir **en** (insist on)\n\n**For English speakers:** the English preposition is often different (depend *on* → **de**, consist *of* → **en**) or missing (trust → confiar **en**). Spanish never strands a preposition: **¿En qué** piensas? not *¿Qué piensas en?\n\n**Before que-clauses** the preposition stays: Insisto **en que** vengas.\n**con + mí/ti** → con==migo==, con==tigo==.",
+      "zh": "有些动词总是带固定介词，要整体记忆：\n\n- pensar **en**（想）· soñar **con**（梦见）\n- depender **de**（取决于）· confiar **en**（信任）\n- acordarse **de**（记得）· enamorarse **de**（爱上）\n- tardar + 时间 + **en**（花时间才……）· consistir **en**（在于）\n- contar **con**（指望）· insistir **en**（坚持）\n\n**给中文母语者：** 中文“想你、信任她、记得他”都不用介词，所以容易漏掉 en/de/con。“花了两小时才到”= **Tardamos** dos horas **en** llegar。\n\n**疑问句：** 介词放在疑问词前：**¿En qué** piensas?\n**con + mí/ti** → con==migo==、con==tigo==。",
+      "ja": "決まった前置詞をとる動詞はセットで覚えます：\n\n- pensar **en**（〜のことを考える）· soñar **con**（〜の夢を見る）\n- depender **de**（〜次第）· confiar **en**（〜を信頼する）\n- acordarse **de**（〜を覚えている）· enamorarse **de**（〜に恋する）\n- tardar + 時間 + **en**（〜するのに時間がかかる）· consistir **en**（〜から成る）\n- contar **con**（〜を頼りにする）· insistir **en**（〜を言い張る）\n\n**日本語話者へ：** 助詞「を・の・に」と前置詞は対応しません（「を信頼する」= confiar **en**）。前置詞は名詞の前、疑問文では文頭：**¿En qué** piensas?\n**con + mí/ti** → con==migo==、con==tigo==。"
+    },
+    "examples": [
+      {
+        "es": "Siempre pienso en mi familia.",
+        "en": "I always think about my family.",
+        "zh": "我总是想着我的家人。",
+        "ja": "いつも家族のことを考えている。"
+      },
+      {
+        "es": "¿De qué depende el precio?",
+        "en": "What does the price depend on?",
+        "zh": "价格取决于什么？",
+        "ja": "値段は何によって決まるの？"
+      },
+      {
+        "es": "Tardé un año en aprender a conducir.",
+        "en": "It took me a year to learn to drive.",
+        "zh": "我花了一年才学会开车。",
+        "ja": "運転を覚えるのに1年かかった。"
+      },
+      {
+        "es": "Insisto en que te quedes a cenar.",
+        "en": "I insist that you stay for dinner.",
+        "zh": "我坚持要你留下来吃晚饭。",
+        "ja": "ぜひ夕食を食べていって。"
+      }
+    ]
+  },
+  {
+    "id": "b2-relative-pronouns",
+    "unit": 12,
+    "title": {
+      "en": "Relative pronouns",
+      "zh": "关系代词",
+      "ja": "関係詞"
+    },
+    "summary": {
+      "en": "que, el/la que, el/la cual, quien, cuyo, donde, lo cual",
+      "zh": "que、el/la que、el/la cual、quien、cuyo、donde、lo cual",
+      "ja": "que、el/la que、el/la cual、quien、cuyo、donde、lo cual"
+    },
+    "explanation": {
+      "en": "**que** is the default relative: el libro **que** leo.\n\n**After a preposition:** preposition + **el/la/los/las que** or **el/la cual, los/las cuales** (more formal), agreeing with the noun: la empresa para **la que** trabajo.\n\n**quien(es):** people only, after a preposition or between commas. Never in a plain defining clause (✗ el chico quien vino).\n\n**cuy==o==/cuy==a==/cuy==os==/cuy==as==** (whose) agrees with the possessed thing: un autor cuy==as== novelas.\n\n**donde** = en el que (places).\n\n**lo cual / lo que** after a comma refer to the whole previous idea (English *which*).\n\n**For English speakers:** never drop the relative and never end with a preposition: el amigo **con el que** fui.",
+      "zh": "**que** 是最基本的关系代词：el libro **que** leo（我读的书）。\n\n**介词后：** 介词 + **el/la/los/las que** 或 **el/la cual, los/las cuales**（较正式），与先行词性数一致：la empresa para **la que** trabajo。\n\n**quien(es)：** 只指人，用在介词后或逗号之间。\n\n**cuy==o==/cuy==a==/cuy==os==/cuy==as==**（……的）与被拥有的名词一致：un autor cuy==as== novelas。\n\n**donde** = en el que（地点）。\n\n**lo cual / lo que** 在逗号后指前面整句话（“这一点”）。\n\n**给中文母语者：** 中文用“的”把定语放在名词前，西班牙语把从句放在名词后，并且介词要放在关系词前：el amigo **con el que** fui。",
+      "ja": "**que** が基本の関係詞：el libro **que** leo（私が読んでいる本）。\n\n**前置詞の後：** 前置詞 + **el/la/los/las que** または **el/la cual, los/las cuales**（硬い）。先行詞に性数一致：la empresa para **la que** trabajo。\n\n**quien(es)：** 人のみ。前置詞の後かコンマの間で。\n\n**cuy==o==/cuy==a==/cuy==os==/cuy==as==**（その〜が）は持たれる名詞に一致：un autor cuy==as== novelas。\n\n**donde** = en el que（場所）。\n\n**lo cual / lo que** はコンマの後で前の文全体を受ける。\n\n**日本語話者へ：** 日本語は修飾が名詞の前、スペイン語は後。「一緒に行った」の「一緒に」は前置詞として関係詞の前に：el amigo **con el que** fui。"
+    },
+    "examples": [
+      {
+        "es": "La ciudad donde vivo es pequeña.",
+        "en": "The city where I live is small.",
+        "zh": "我住的城市很小。",
+        "ja": "私が住んでいる町は小さい。"
+      },
+      {
+        "es": "Es una actriz cuyo trabajo admiro.",
+        "en": "She is an actress whose work I admire.",
+        "zh": "她是一位我很欣赏其作品的演员。",
+        "ja": "私が作品を尊敬している女優だ。"
+      },
+      {
+        "es": "No me llamó, lo cual me extrañó.",
+        "en": "He didn't call me, which surprised me.",
+        "zh": "他没给我打电话，这让我很奇怪。",
+        "ja": "彼は電話してこなかった。それが不思議だった。"
+      },
+      {
+        "es": "Las personas con quienes trabajo son muy amables.",
+        "en": "The people I work with are very kind.",
+        "zh": "和我一起工作的人都很友善。",
+        "ja": "一緒に働いている人たちはとても親切だ。"
+      }
+    ]
+  },
+  {
+    "id": "b2-neuter-lo",
+    "unit": 14,
+    "title": {
+      "en": "The neuter article lo",
+      "zh": "中性冠词 lo",
+      "ja": "中性冠詞 lo"
+    },
+    "summary": {
+      "en": "lo bueno, lo que, lo de, lo difícil que es",
+      "zh": "lo bueno、lo que、lo de、lo difícil que es",
+      "ja": "lo bueno、lo que、lo de、lo difícil que es"
+    },
+    "explanation": {
+      "en": "**lo + masc. sing. adjective** = the ... thing/part: **lo** bueno, **lo** mejor, **lo** importante.\nel bueno = the good one; lo bueno = the good thing.\n\n**lo + adjective/adverb + que** = how (intensity). The adjective agrees with the noun:\n- No sabes lo difícil que es.\n- lo cansad==os== que están mis hijos · lo car==as== que eran las entradas\n- lo bien que canta (adverb: no agreement)\n\n**lo que** = what / the thing that: Lo que necesito es tiempo.\n**lo de** = the matter of: lo de Marta, lo de ayer.\n\n**For English speakers:** English needs *thing/part/what/how*; Spanish uses **lo**. Not *cómo difícil*, but **lo difícil que**.",
+      "zh": "**lo + 阳性单数形容词** = ……的方面/……的是：**lo** bueno、**lo** mejor、**lo** importante。\nel bueno = 好的那个；lo bueno = 好的方面。\n\n**lo + 形容词/副词 + que** = 多么……（强调程度），形容词要与名词性数一致：\n- No sabes lo difícil que es.（你不知道有多难）\n- lo cansad==os== que están mis hijos · lo car==as== que eran las entradas\n- lo bien que canta（副词不变）\n\n**lo que** = ……的（东西）：Lo que necesito es tiempo.\n**lo de** = ……那件事：lo de Marta、lo de ayer。\n\n**给中文母语者：** “的”字结构和 lo 很像，但别把 lo 写成 el，也别忘了形容词变化。",
+      "ja": "**lo + 男性単数形容詞** =「〜なこと・〜な点」：**lo** bueno、**lo** mejor、**lo** importante。\nel bueno = 良いほう（もの・人）、lo bueno = 良いこと。\n\n**lo + 形容詞/副詞 + que** =「どれほど〜か」。形容詞は名詞に一致：\n- No sabes lo difícil que es.\n- lo cansad==os== que están mis hijos · lo car==as== que eran las entradas\n- lo bien que canta（副詞は不変）\n\n**lo que** =「〜すること・もの」：Lo que necesito es tiempo.\n**lo de** =「〜の件」：lo de Marta、lo de ayer。\n\n**日本語話者へ：** 「〜なのは」「〜の件」の「の・こと」が lo にあたります。"
+    },
+    "examples": [
+      {
+        "es": "Lo peor fue el viaje de vuelta.",
+        "en": "The worst part was the journey back.",
+        "zh": "最糟的是回程。",
+        "ja": "最悪だったのは帰りの旅だった。"
+      },
+      {
+        "es": "No te imaginas lo contenta que estoy.",
+        "en": "You can't imagine how happy I am.",
+        "zh": "你想象不到我有多高兴。",
+        "ja": "私がどんなに嬉しいか想像できないでしょう。"
+      },
+      {
+        "es": "Lo de tu hermano me parece injusto.",
+        "en": "That business with your brother seems unfair to me.",
+        "zh": "你哥哥那件事我觉得不公平。",
+        "ja": "お兄さんの件は不公平だと思う。"
+      }
+    ]
+  },
+  {
+    "id": "b2-involuntary-se",
+    "unit": 15,
+    "title": {
+      "en": "Involuntary se (accidents)",
+      "zh": "表示意外的 se",
+      "ja": "無意志の se（うっかり構文）"
+    },
+    "summary": {
+      "en": "se + me/te/le + verb: se me olvidó, se le cayó",
+      "zh": "se + me/te/le + 动词：se me olvidó、se le cayó",
+      "ja": "se + me/te/le + 動詞：se me olvidó、se le cayó"
+    },
+    "explanation": {
+      "en": "Unplanned events: **se + indirect pronoun + verb + thing**.\n\n- Se **me** olvid==ó== el paraguas. / Se **me** olvid==aron== las llaves.\n- A Juan se **le** cayó el móvil.\n- Se **nos** rompió el jarrón. Se **les** estropeó el coche.\n\n**Rules:** se always first (✗ me se); the verb agrees with the THING (subject); the person is me/te/le/nos/os/les (+ a + person to clarify).\n\nCommon verbs: olvidarse, caerse, romperse, perderse, ocurrirse, acabarse, estropearse, quemarse.\n\n**For English speakers:** Rompí el jarrón = I broke it (my fault); Se me rompió el jarrón = it broke (accident). No need for *accidentally*.",
+      "zh": "意外/无意的事：**se + 间接宾语代词 + 动词 + 东西**。\n\n- Se **me** olvid==ó== el paraguas. / Se **me** olvid==aron== las llaves.\n- A Juan se **le** cayó el móvil.\n- Se **nos** rompió el jarrón. Se **les** estropeó el coche.\n\n**规则：** se 在最前（✗ me se）；动词与“东西”（主语）一致；人用 me/te/le/nos/os/les 表示（可加 a + 人）。\n\n常用动词：olvidarse、caerse、romperse、perderse、ocurrirse、acabarse、estropearse、quemarse。\n\n**给中文母语者：** 和中文“手机掉了”“钥匙忘带了”一样把东西当主语；Rompí el jarrón 听起来像故意的。",
+      "ja": "うっかり起きたこと：**se + 間接目的語代名詞 + 動詞 + 物**。\n\n- Se **me** olvid==ó== el paraguas. / Se **me** olvid==aron== las llaves.\n- A Juan se **le** cayó el móvil.\n- Se **nos** rompió el jarrón. Se **les** estropeó el coche.\n\n**ルール：** se が先頭（✗ me se）、動詞は「物」（主語）に一致、人は me/te/le/nos/os/les（a + 人で明確化）。\n\nよく使う動詞：olvidarse、caerse、romperse、perderse、ocurrirse、acabarse、estropearse、quemarse。\n\n**日本語話者へ：** 自動詞＋「〜てしまう」（割れてしまった）の発想。Rompí el jarrón は「割った」で責任・意図を感じさせます。"
+    },
+    "examples": [
+      {
+        "es": "Se me olvidó llamarte.",
+        "en": "I forgot to call you.",
+        "zh": "我忘了给你打电话。",
+        "ja": "電話するのを忘れちゃった。"
+      },
+      {
+        "es": "Se nos acabaron las ideas.",
+        "en": "We ran out of ideas.",
+        "zh": "我们没主意了。",
+        "ja": "アイデアが尽きた。"
+      },
+      {
+        "es": "A Lucía se le perdió el pasaporte en el aeropuerto.",
+        "en": "Lucía lost her passport at the airport.",
+        "zh": "露西娅在机场把护照弄丢了。",
+        "ja": "ルシアは空港でパスポートをなくした。"
+      }
+    ]
+  },
+  {
+    "id": "b2-ser-estar-meaning",
+    "unit": 16,
+    "title": {
+      "en": "Ser/estar with change of meaning",
+      "zh": "ser/estar 导致词义变化",
+      "ja": "ser/estar で意味が変わる形容詞"
+    },
+    "summary": {
+      "en": "ser listo (clever) vs estar listo (ready)...",
+      "zh": "ser listo（聪明）与 estar listo（准备好）……",
+      "ja": "ser listo（賢い）と estar listo（準備OK）…"
+    },
+    "explanation": {
+      "en": "**ser** = quality/character; **estar** = state. Some adjectives change meaning:\n\n- listo: ser = clever · estar = ready\n- malo: ser = bad · estar = ill / gone off\n- rico: ser = rich · estar = delicious\n- verde: ser = green · estar = unripe / inexperienced\n- aburrido: ser = boring · estar = bored\n- despierto: ser = sharp · estar = awake\n- atento: ser = considerate · estar = paying attention\n- orgulloso: ser = arrogant · estar (de) = proud of\n\n**For English speakers:** English changes the adjective (boring/bored); Spanish changes the verb. Soy aburrido = I'm a boring person!\nAgreement still applies: estamos list==os==, está ric==a==.",
+      "zh": "**ser** = 本质/性格；**estar** = 状态。有些形容词意思会变：\n\n- listo：ser 聪明 · estar 准备好\n- malo：ser 坏 · estar 生病/变质\n- rico：ser 有钱 · estar 好吃\n- verde：ser 绿色 · estar 没熟/没经验\n- aburrido：ser 无聊的 · estar 感到无聊\n- despierto：ser 机灵 · estar 醒着\n- atento：ser 体贴 · estar 专心\n- orgulloso：ser 自大 · estar (de) 自豪\n\n**给中文母语者：** 中文能加“了”的（准备好了、熟了、醒了、病了）多用 estar。\n性数一致：estamos list==os==、está ric==a==。",
+      "ja": "**ser** = 性質・性格、**estar** = 状態。意味が変わる形容詞：\n\n- listo：ser 賢い · estar 準備OK\n- malo：ser 悪い · estar 具合が悪い／傷んでいる\n- rico：ser 金持ち · estar おいしい\n- verde：ser 緑色 · estar 熟していない／未熟\n- aburrido：ser 退屈な · estar 退屈している\n- despierto：ser 頭の回転が速い · estar 起きている\n- atento：ser 気配りができる · estar 注意している\n- orgulloso：ser 傲慢 · estar (de) 誇りに思う\n\n**日本語話者へ：** 「〜ている」で言える状態は estar、「〜な人だ」は ser。\n性数一致：estamos list==os==、está ric==a==。"
+    },
+    "examples": [
+      {
+        "es": "Es un chico muy despierto para su edad.",
+        "en": "He's a very sharp boy for his age.",
+        "zh": "这孩子在他这个年纪算很机灵。",
+        "ja": "年の割にとても頭の回転が速い子だ。"
+      },
+      {
+        "es": "Estad atentos, que esto entra en el examen.",
+        "en": "Pay attention, this will be in the exam.",
+        "zh": "注意听，这个考试要考。",
+        "ja": "よく聞いて、これは試験に出るよ。"
+      },
+      {
+        "es": "Todavía está verde para dirigir el equipo.",
+        "en": "He's still too inexperienced to lead the team.",
+        "zh": "他还太嫩，带不了团队。",
+        "ja": "チームを率いるにはまだ未熟だ。"
+      }
+    ]
+  },
+  {
+    "id": "b2-impersonal-style",
+    "unit": 19,
+    "title": {
+      "en": "Impersonal style: se, uno, nominalisation",
+      "zh": "无人称文体：se、uno、名词化",
+      "ja": "無人称の文体：se・uno・名詞化"
+    },
+    "summary": {
+      "en": "se calcula que, se han publicado, uno se acostumbra, el aumento",
+      "zh": "se calcula que、se han publicado、uno se acostumbra、el aumento",
+      "ja": "se calcula que、se han publicado、uno se acostumbra、el aumento"
+    },
+    "explanation": {
+      "en": "**Impersonal se** + 3rd sing.: En España se cena tarde. Se calcula que…\n**Passive se**: verb agrees with the thing: Se ha publicado un estudio / Se ha==n== publicado muchos estudios.\n**uno** + verb when the verb is already reflexive: Cuando uno se acostumbra…\n\n**Nominalisation:** aumentar → el aumento, disminuir → la disminución, investigar → la investigación, desarrollar → el desarrollo.\n\n**Statistics:** **el** 40 % de…, **la** mitad de…, el doble, uno de cada tres, según…\n\n**For English speakers:** *it is estimated / has been published* → se calcula / se ha publicado, not *es estimado*. Don't forget the article before percentages.",
+      "zh": "**无人称 se** + 第三人称单数：En España se cena tarde. Se calcula que……（据估计……）\n**被动 se**：动词与“东西”一致：Se ha publicado un estudio / Se ha==n== publicado muchos estudios.\n**uno** + 动词：动词本身已带 se 时用：Cuando uno se acostumbra……\n\n**名词化：** aumentar → el aumento，disminuir → la disminución，investigar → la investigación，desarrollar → el desarrollo。\n\n**统计：** **el** 40 % de……、**la** mitad de……、el doble、uno de cada tres、según……\n\n**给中文母语者：** 中文无主句很像 se 结构，但要注意单复数一致和百分数前的冠词。",
+      "ja": "**無人称の se** + 3人称単数：En España se cena tarde. Se calcula que…（〜と推定される）\n**受け身の se**：動詞は物に一致：Se ha publicado un estudio / Se ha==n== publicado muchos estudios.\n**uno** + 動詞：再帰動詞のとき：Cuando uno se acostumbra…\n\n**名詞化：** aumentar → el aumento、disminuir → la disminución、investigar → la investigación、desarrollar → el desarrollo。\n\n**統計：** **el** 40 % de…、**la** mitad de…、el doble、uno de cada tres（3人に1人）、según…\n\n**日本語話者へ：** 「〜とされる」の感覚で使えますが、数の一致とパーセントの前の冠詞を忘れずに。"
+    },
+    "examples": [
+      {
+        "es": "Se han detectado nuevos casos en Europa.",
+        "en": "New cases have been detected in Europe.",
+        "zh": "欧洲发现了新病例。",
+        "ja": "ヨーロッパで新たな症例が確認された。"
+      },
+      {
+        "es": "El 60 % de los encuestados prefiere trabajar desde casa.",
+        "en": "60% of respondents prefer to work from home.",
+        "zh": "60%的受访者更喜欢在家工作。",
+        "ja": "回答者の60％が在宅勤務を好んでいる。"
+      },
+      {
+        "es": "La disminución del paro ha sido menor de lo esperado.",
+        "en": "The drop in unemployment has been smaller than expected.",
+        "zh": "失业率的下降幅度低于预期。",
+        "ja": "失業率の低下は予想を下回った。"
+      }
+    ]
+  },
+  {
+    "id": "b2-opinion-mood",
+    "unit": 20,
+    "title": {
+      "en": "Opinions and aunque: indicative or subjunctive",
+      "zh": "观点与 aunque：陈述式还是虚拟式",
+      "ja": "意見と aunque：直説法か接続法か"
+    },
+    "summary": {
+      "en": "creo que es / no creo que sea; aunque llueve / aunque llueva",
+      "zh": "creo que es / no creo que sea；aunque llueve / aunque llueva",
+      "ja": "creo que es / no creo que sea；aunque llueve / aunque llueva"
+    },
+    "explanation": {
+      "en": "**Affirming → indicative:** creo que / pienso que / me parece que / es evidente que + **es, tiene, ha cambiado**.\n**Denying or doubting → subjunctive:** no creo que / dudo que / no es cierto que + s==ea==, teng==a==, hay==a== cambiado.\n**Value judgements → subjunctive:** es importante / necesario / lógico que + subjunctive.\n\n**aunque + indicative** = although (fact): Aunque llov==ía==, salimos.\n**aunque + subjunctive** = even if (hypothesis): Aunque lluev==a==, saldremos.\n\n**Agreeing:** estar de acuerdo (con), tener razón, en mi opinión, a mi juicio, por un lado… por otro…\n\n**For English speakers:** *I don't think it is* keeps *is* in English, but Spanish switches: no creo que **sea**. *Although/even if* = one word, aunque + mood.",
+      "zh": "**肯定 → 陈述式：** creo que / pienso que / me parece que / es evidente que + **es、tiene、ha cambiado**。\n**否定或怀疑 → 虚拟式：** no creo que / dudo que / no es cierto que + s==ea==、teng==a==、hay==a== cambiado。\n**价值判断 → 虚拟式：** es importante / necesario / lógico que + 虚拟式。\n\n**aunque + 陈述式** = 虽然（事实）：Aunque llov==ía==, salimos.\n**aunque + 虚拟式** = 即使（假设）：Aunque lluev==a==, saldremos.\n\n**表态：** estar de acuerdo（同意）、tener razón（说得对）、en mi opinión、a mi juicio、por un lado… por otro…\n\n**给中文母语者：** “虽然”用陈述式，“即使/就算”用虚拟式；aunque 后不加 pero。",
+      "ja": "**肯定 → 直説法：** creo que / pienso que / me parece que / es evidente que + **es、tiene、ha cambiado**。\n**否定・疑い → 接続法：** no creo que / dudo que / no es cierto que + s==ea==、teng==a==、hay==a== cambiado。\n**価値判断 → 接続法：** es importante / necesario / lógico que + 接続法。\n\n**aunque + 直説法** =「〜けれども」（事実）：Aunque llov==ía==, salimos.\n**aunque + 接続法** =「たとえ〜ても」（仮定）：Aunque lluev==a==, saldremos.\n\n**賛否：** estar de acuerdo（賛成する）、tener razón（言う通りだ）、en mi opinión、a mi juicio、por un lado… por otro…\n\n**日本語話者へ：** 「〜ても」と言いたいときは接続法。"
+    },
+    "examples": [
+      {
+        "es": "No creo que la situación mejore pronto.",
+        "en": "I don't think the situation will improve soon.",
+        "zh": "我不认为情况会很快好转。",
+        "ja": "状況がすぐに良くなるとは思わない。"
+      },
+      {
+        "es": "Es necesario que el Gobierno actúe ya.",
+        "en": "It is necessary for the Government to act now.",
+        "zh": "政府必须马上采取行动。",
+        "ja": "政府が今すぐ行動する必要がある。"
+      },
+      {
+        "es": "Aunque no esté de acuerdo, respeto tu opinión.",
+        "en": "Even if I don't agree, I respect your opinion.",
+        "zh": "即使我不同意，我也尊重你的看法。",
+        "ja": "たとえ賛成できなくても、君の意見は尊重する。"
+      }
+    ]
+  }
+]
