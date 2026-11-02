@@ -36,6 +36,10 @@ export async function loadDrills(level) {
   try { return await loadJSON(`data/${level}/drills.json`); } catch (e) { return []; }
 }
 
+export async function loadExtra(level) {
+  return loadJSON(`data/${level}/extra.json`);
+}
+
 export async function loadUnits(level) {
   return loadJSON(`data/${level}/units.json`);
 }

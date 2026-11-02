@@ -1,30 +1,30 @@
-import { S, mergeCloudState, reset, save } from './state.js?v=202611021344';
-import { go } from './router.js?v=202611021344';
-import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611021344';
+import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611021754';
+import { go } from './router.js?v=202611021754';
+import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611021754';
 
-import './views/home.js?v=202611021344';
-import './views/lesson.js?v=202611021344';
-import './views/review.js?v=202611021344';
-import './views/progress.js?v=202611021344';
-import './views/settings.js?v=202611021344';
-import './views/reference.js?v=202611021344';
-import './views/daily-review.js?v=202611021344';
-import './views/auth.js?v=202611021344';
-import './views/texts.js?v=202611021344';
-import './views/drills.js?v=202611021344';
-import './views/hanzi.js?v=202611021344';
-import './views/pron.js?v=202611021344';
-import './views/vocablist.js?v=202611021344';
-import { enterApp } from './views/welcome.js?v=202611021344';
-import { applyPinyinPref } from './zh.js?v=202611021344';
+import './views/home.js?v=202611021754';
+import './views/lesson.js?v=202611021754';
+import './views/review.js?v=202611021754';
+import './views/progress.js?v=202611021754';
+import './views/settings.js?v=202611021754';
+import './views/reference.js?v=202611021754';
+import './views/daily-review.js?v=202611021754';
+import './views/auth.js?v=202611021754';
+import './views/texts.js?v=202611021754';
+import './views/drills.js?v=202611021754';
+import './views/hanzi.js?v=202611021754';
+import './views/pron.js?v=202611021754';
+import './views/vocablist.js?v=202611021754';
+import { enterApp } from './views/welcome.js?v=202611021754';
+import { applyPinyinPref } from './zh.js?v=202611021754';
 
 if (S.dark) document.body.classList.add('dark');
 applyPinyinPref();
 window.__go = (v, p) => go(v, p);
-window.__sylPlay = (c) => import('./audio.js?v=202611021344').then(a => a.speak(c));
+window.__sylPlay = (c) => import('./audio.js?v=202611021754').then(a => a.speak(c));
 
 window.__nav = (view) => go(view);
-window.__back = () => { import('./router.js?v=202611021344').then(r => r.back()); };
+window.__back = () => { import('./router.js?v=202611021754').then(r => r.back()); };
 
 // Loads and merges the account's progress. Local progress from a different account is discarded first.
 window.__signedIn = async (user) => {
@@ -35,7 +35,7 @@ window.__signedIn = async (user) => {
     const cloud = await loadStateFromCloud();
     if (cloud) mergeCloudState(cloud);
     await saveStateToCloud(S);
-  } catch (e) {}
+  } catch (e) { cloudError(e); }
   enterApp();
 };
 

@@ -1,10 +1,10 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611021344';
-import { register, go } from '../router.js?v=202611021344';
-import { loadUnits } from '../data.js?v=202611021344';
-import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js?v=202611021344';
-import { icon } from '../ui/icons.js?v=202611021344';
-import { t } from '../i18n.js?v=202611021344';
-import { levelChips, levelLabel } from '../levels.js?v=202611021344';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611021754';
+import { register, go } from '../router.js?v=202611021754';
+import { loadUnits } from '../data.js?v=202611021754';
+import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js?v=202611021754';
+import { icon } from '../ui/icons.js?v=202611021754';
+import { t } from '../i18n.js?v=202611021754';
+import { levelChips, levelLabel } from '../levels.js?v=202611021754';
 
 register('home', async (el) => {
   const units = await loadUnits(S.level);
@@ -47,6 +47,7 @@ register('home', async (el) => {
           <div class="grow">
             <div style="font-weight:600;font-size:15px">${u.title[S.lang] || u.title.en}</div>
             <div class="muted small">${u.desc[S.lang] || u.desc.en}</div>
+            ${done ? setChips(num) : ''}
           </div>
           ${!unlocked ? icon('lock', 18, 'var(--ink2)') : ''}
         </div>`;
@@ -64,3 +65,12 @@ window.__setLevel = (lvl) => {
 window.__startUnit = (num) => {
   go('lesson', { level: S.level, unit: num });
 };
+
+// Completed lessons offer optional sets 2–7 (set 1 is the lesson itself).
+function setChips(num) {
+  const got = new Set((S.sets || {})[`${S.level}-${num}`] || []);
+  return `<div class="set-chips" title="${t('extraSets')}"><span class="muted small">${t('extraSet')}:</span>${[2, 3, 4, 5, 6, 7].map(n =>
+    `<button class="set-chip ${got.has(n) ? 'done' : ''}" onclick="event.stopPropagation();window.__startSet(${num},${n})">${n}</button>`).join('')}</div>`;
+}
+
+window.__startSet = (num, set) => go('lesson', { level: S.level, unit: num, set });

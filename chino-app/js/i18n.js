@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611021344';
-import EXTRA from './i18n-extra.js?v=202611021344';
+import { S } from './state.js?v=202611021754';
+import EXTRA from './i18n-extra.js?v=202611021754';
 
 const T = {
   // Navigation
@@ -227,6 +227,13 @@ const T = {
   loggedInAs:   { es: 'Sesión iniciada como', en: 'Logged in as', ja: 'ログイン中：', ko: '로그인 계정:' },
   account:      { es: 'Cuenta', en: 'Account', ja: 'アカウント', ko: '계정' },
   synced:       { es: 'Progreso sincronizado en la nube', en: 'Progress synced to cloud', ja: '進捗はクラウドに同期済み', ko: '진도가 클라우드에 동기화됨' },
+  extraSet:     { es: 'Tanda', en: 'Set' },
+  extraSets:    { es: 'Tandas extra (opcionales)', en: 'Extra sets (optional)' },
+  setDone:      { es: '¡Tanda {n} completada!', en: 'Set {n} completed!' },
+  nextSet:      { es: 'Siguiente tanda', en: 'Next set' },
+  syncNow:      { es: 'Sincronizar ahora', en: 'Sync now' },
+  syncPending:  { es: 'Aún no se ha sincronizado en esta sesión', en: 'Not synced yet this session' },
+  syncNotVerified: { es: 'Email sin verificar: no se guarda en la nube', en: 'Email not verified: progress is not saved to the cloud' },
 };
 
 Object.assign(T, EXTRA);

@@ -1,9 +1,9 @@
-import { S, update, reset, flushCloud } from '../state.js?v=202611021344';
-import { register, go } from '../router.js?v=202611021344';
-import { bottomNav, header } from '../ui/components.js?v=202611021344';
-import { t } from '../i18n.js?v=202611021344';
-import { applyPinyinPref } from '../zh.js?v=202611021344';
-import { isConfigured, getUser, logoutUser } from '../firebase-auth.js?v=202611021344';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611021754';
+import { register, go } from '../router.js?v=202611021754';
+import { bottomNav, header } from '../ui/components.js?v=202611021754';
+import { t } from '../i18n.js?v=202611021754';
+import { applyPinyinPref } from '../zh.js?v=202611021754';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611021754';
 
 register('settings', (el) => {
   const langs = [
@@ -20,7 +20,8 @@ register('settings', (el) => {
       <div class="h3 mb-16">${t('account')}</div>
       ${user ? `
         <div class="muted small mb-12">${t('loggedInAs')} ${user.email}</div>
-        <div class="muted small mb-12" style="color:var(--yes)">✓ ${t('synced')}</div>
+        <div class="small mb-12" id="sync-status">${syncLine()}</div>
+        <button class="btn btn-soft btn-small mb-12" onclick="window.__syncNow(this)">☁️ ${t('syncNow')}</button>
         <button class="btn btn-ghost" onclick="window.__logout()">${t('logout')}</button>
       ` : `
         <div class="muted small mb-12">${t('continueWithout')}</div>
@@ -123,6 +124,28 @@ window.__resetData = () => {
 
 window.__goAuth = () => {
   go('auth', { mode: 'login' });
+};
+
+function syncLine() {
+  const u = getUser();
+  if (u && !u.emailVerified) return `<span style="color:var(--no)">✗ ${t('syncNotVerified')}</span>`;
+  if (syncInfo.err) return `<span style="color:var(--no)">✗ ${syncInfo.err}</span>`;
+  if (syncInfo.ok) return `<span style="color:var(--yes)">✓ ${t('synced')} · ${new Date(syncInfo.ok).toLocaleTimeString()}</span>`;
+  return `<span class="muted">${t('syncPending')}</span>`;
+}
+
+// Uploads now and reads the copy back, so the user sees what the cloud actually holds.
+window.__syncNow = async (btn) => {
+  btn.disabled = true;
+  const el = document.getElementById('sync-status');
+  await flushCloud();
+  let extra = '';
+  try {
+    const c = await loadStateFromCloud();
+    extra = c ? ` · ☁️ ${c.xp || 0} XP, ${Object.keys(c.completed || {}).length} ${t('lessons')}` : ' · ☁️ ∅';
+  } catch (e) { syncInfo.err = e.code || e.message; }
+  if (el) el.innerHTML = syncLine() + extra;
+  btn.disabled = false;
 };
 
 window.__logout = async () => {

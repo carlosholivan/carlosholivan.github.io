@@ -41,6 +41,12 @@ def collect_texts():
                 for k in ("answer", "text"):
                     if isinstance(ex.get(k), str): texts.add(ex[k])
                 if ex.get("type") == "fill": texts.add(ex["sentence"].replace("___", ex["blank"]))
+        # Optional practice sets 2–7 (tools/gen_extra.py).
+        for x in load(f"data/{lv}/extra.json").values():
+            for ex in (e for st in x["sets"] for e in st):
+                for k in ("answer", "correct"):
+                    if isinstance(ex.get(k), str): texts.add(ex[k])
+                if ex.get("type") == "fill": texts.add(ex["sentence"].replace("___", ex["blank"]))
     for s in load("data/syllables.json"):
         texts.update(f["c"] for f in s["t"].values())
     # Example characters/words hard-coded in the pronunciation view.

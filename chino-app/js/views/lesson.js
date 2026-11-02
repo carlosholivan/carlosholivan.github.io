@@ -1,15 +1,15 @@
-import { S, completeUnit, update } from '../state.js?v=202611021344';
-import { buildReview } from '../engine/review.js?v=202611021344';
-import { addCards } from '../engine/anki.js?v=202611021344';
-import { register, go } from '../router.js?v=202611021344';
-import { loadUnit, loadVocab } from '../data.js?v=202611021344';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611021344';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611021344';
-import { recordAnswer } from '../engine/srs.js?v=202611021344';
-import { progressBar } from '../ui/components.js?v=202611021344';
-import { icon } from '../ui/icons.js?v=202611021344';
-import { t } from '../i18n.js?v=202611021344';
-import { speak, stop as stopAudio } from '../audio.js?v=202611021344';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611021754';
+import { buildReview } from '../engine/review.js?v=202611021754';
+import { addCards } from '../engine/anki.js?v=202611021754';
+import { register, go } from '../router.js?v=202611021754';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611021754';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611021754';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611021754';
+import { recordAnswer } from '../engine/srs.js?v=202611021754';
+import { progressBar } from '../ui/components.js?v=202611021754';
+import { icon } from '../ui/icons.js?v=202611021754';
+import { t } from '../i18n.js?v=202611021754';
+import { speak, stop as stopAudio } from '../audio.js?v=202611021754';
 
 const MAX_HEARTS = 5;
 
@@ -39,10 +39,18 @@ register('lesson', async (el, params) => {
       <button class="btn" onclick="window.__nav('home')">${t('continue')}</button></div>`;
     return;
   }
-  const unit = review
+  let unit = review
     ? { title: { es: 'Repaso', en: 'Review', ja: '復習', ko: '복습' }, exercises: [] }
     : await loadUnit(params.level, params.unit);
   if (!unit) { go('home'); return; }
+  // Sets 2–7 are optional extra practice: different sentences and a different slice of the unit's vocabulary.
+  const setNo = review ? 1 : Math.max(1, +params.set || 1);
+  if (setNo > 1) {
+    let x = null;
+    try { x = (await loadExtra(params.level))[String(params.unit)]; } catch (e) {}
+    if (!x || !x.sets[setNo - 2]) { go('home'); return; }
+    unit = { ...unit, exercises: x.sets[setNo - 2], newVocab: x.words[setNo - 2] };
+  }
 
   let levelVocab = [];
   if (!review) try { levelVocab = await loadVocab(params.level); } catch (e) {}
@@ -459,8 +467,28 @@ register('lesson', async (el, params) => {
     </div>`;
   }
 
+  function finishSet() {
+    const rank = new Map(levelVocab.map(v => [v.word, v.q]));
+    addCards(words.map(w => w.word), 'v', w => rank.get(w) ?? 99999);
+    completeSet(params.level, params.unit, setNo);
+    const accuracy = total ? firstTryCorrect / total : 1;
+    const stars = mistakes === 0 ? 3 : accuracy >= 0.8 ? 2 : 1;
+    const next = setNo < 7 ? setNo + 1 : 0;
+    el.innerHTML = `<div class="fade center" style="padding-top:60px">
+      <div style="font-size:60px;margin-bottom:16px">${'⭐'.repeat(stars)}</div>
+      <div class="h1 mb-8">${t('setDone').replace('{n}', setNo)}</div>
+      <div class="muted mb-16">${firstTryCorrect}/${total} ${t('correctCount')} · ${mistakes} ${t('mistakes')}</div>
+      <div class="card" style="padding:20px;margin-bottom:20px">
+        <div class="flex items-center justify-between"><span>${t('xpEarned')}</span><strong>+5</strong></div>
+      </div>
+      ${next ? `<button class="btn mb-12" onclick="window.__go('lesson',{level:'${params.level}',unit:${params.unit},set:${next}})">${t('nextSet')} (${next}/7) →</button>` : ''}
+      <button class="btn ${next ? 'btn-ghost' : ''}" onclick="window.__nav('home')">${t('continue')}</button>
+    </div>`;
+  }
+
   function finish() {
     if (review) { finishReview(); return; }
+    if (setNo > 1) { finishSet(); return; }
     // The unit's new words first, then the rest of its frequency band, ordered by frequency.
     const rank = new Map(levelVocab.map(v => [v.word, v.q]));
     addCards([...words.map(w => w.word), ...(unit.vocab || [])], 'v', w => rank.get(w) ?? 99999);
@@ -481,7 +509,7 @@ register('lesson', async (el, params) => {
     </div>`;
   }
 
-  const start = review ? 'practice' : params.start;
+  const start = review || setNo > 1 ? 'practice' : params.start;
   if (start === 'practice') startPractice();
   else if (start === 'vocab' && words.length) startVocab();
   else if (grammarHtml) renderGrammar();

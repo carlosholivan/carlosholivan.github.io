@@ -15,7 +15,7 @@ import {
   getDoc,
   setDoc
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611021344';
+import firebaseConfig from './firebase-config.js?v=202611021754';
 
 let app = null;
 let auth = null;
@@ -84,7 +84,8 @@ export function getUser() {
 }
 
 export async function saveStateToCloud(state) {
-  if (!db || !isVerified()) return;
+  if (!db || !currentUser) return;
+  if (!isVerified()) throw new Error('email-not-verified');
   const ref = doc(db, 'users', currentUser.uid);
   // Same Firebase project as the Spanish app; this app's progress lives in its own field,
   // replaced whole (mergeFields) so resets sync without touching the Spanish data.

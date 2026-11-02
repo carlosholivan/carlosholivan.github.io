@@ -1,6 +1,20 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611021344';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611021754';
 
 const STORAGE_KEY = 'chino_state';
+
+// Older versions (or the Spanish app's data) may have left a level this app doesn't have, e.g. 'a1'.
+const LEVEL_IDS = ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6', 'hsk7'];
+function fixLevel(s) {
+  if (!LEVEL_IDS.includes(s.level)) { s.level = 'hsk1'; s.unit = 1; }
+  // Drop lesson keys from other apps (e.g. Spanish 'a1-3') that an old version copied in.
+  for (const f of ['completed', 'sets']) {
+    if (s[f] && Object.keys(s[f]).some(k => !/^hsk[1-7]-\d+$/.test(k))) {
+      s[f] = Object.fromEntries(Object.entries(s[f]).filter(([k]) => /^hsk[1-7]-\d+$/.test(k)));
+    }
+  }
+  s.recent = (s.recent || []).filter(k => /^hsk[1-7]-\d+$/.test(k));
+  return s;
+}
 
 const DEFAULT_STATE = {
   lang: 'es',        // user's language: es, en, ja, ko
@@ -22,6 +36,7 @@ const DEFAULT_STATE = {
   lastReview: null,  // date of the last review lesson
   xp: 0,
   completed: {},     // { "a1-1": true, "a1-2": true, ... }
+  sets: {},          // optional practice sets 2–7: { 'hsk1-3': [2, 5] }
   vocab: {},         // { word: { seen, correct, lastSeen, interval } }
   cards: {},         // Anki deck: { word: { s, step, due, ivl, ef, reps, lapses, added } }
   settings: {
@@ -33,7 +48,7 @@ const DEFAULT_STATE = {
 export function load() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return { ...DEFAULT_STATE, ...JSON.parse(raw) };
+    if (raw) return fixLevel({ ...DEFAULT_STATE, ...JSON.parse(raw) });
   } catch(e) {}
   return { ...DEFAULT_STATE };
 }
@@ -52,7 +67,24 @@ export function flushCloud() {
   clearTimeout(cloudTimer);
   cloudTimer = null;
   if (!isConfigured()) return Promise.resolve();
-  return saveStateToCloud(S).catch(() => {});
+  return saveStateToCloud(S).then(() => { syncInfo.ok = Date.now(); syncInfo.err = null; }, cloudError);
+}
+
+export const syncInfo = { ok: null, err: null };
+
+// Cloud errors were previously swallowed; show them so sync problems are visible.
+export function cloudError(e) {
+  console.error('Cloud sync failed:', e);
+  syncInfo.err = (e && (e.code || e.message)) || String(e);
+  let el = document.getElementById('cloud-err');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'cloud-err';
+    el.style.cssText = 'position:fixed;left:8px;right:8px;top:8px;z-index:9999;background:#c62828;color:#fff;padding:8px 12px;border-radius:8px;font-size:13px';
+    el.onclick = () => el.remove();
+    document.body.appendChild(el);
+  }
+  el.textContent = '☁️ ' + (e && (e.code || e.message) || e);
 }
 addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && cloudTimer) flushCloud(); });
 addEventListener('pagehide', () => { if (cloudTimer) flushCloud(); });
@@ -61,6 +93,7 @@ export function reset() {
   localStorage.removeItem(STORAGE_KEY);
   Object.assign(S, DEFAULT_STATE);
   S.completed = {};
+  S.sets = {};
   S.vocab = {};
   S.cards = {};
   S.hcards = {};
@@ -92,6 +125,8 @@ export function mergeCloudState(cloudState) {
     if (cd && (!ld || cd.date > ld.date || (cd.date === ld.date && cd.n > ld.n))) merged[k] = cd;
   }
   merged.completed = { ...S.completed, ...(cloudState.completed || {}) };
+  merged.sets = { ...(cloudState.sets || {}) };
+  for (const [k, v] of Object.entries(S.sets || {})) merged.sets[k] = [...new Set([...(merged.sets[k] || []), ...v])].sort((a, b) => a - b);
   for (const d of ['cards', 'hcards']) {
     merged[d] = { ...(cloudState[d] || {}) };
     for (const [w, c] of Object.entries(S[d] || {})) {
@@ -106,6 +141,7 @@ export function mergeCloudState(cloudState) {
       merged.vocab[word] = data;
     }
   }
+  fixLevel(merged);
   Object.assign(S, merged);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(S));
 }
@@ -160,4 +196,14 @@ export function touchActive() {
   S.lastActive = now;
   save(S);
   return daysAway;
+}
+
+export function completeSet(level, unit, set) {
+  const k = `${level}-${unit}`;
+  const sets = { ...(S.sets || {}) };
+  sets[k] = [...new Set([...(sets[k] || []), set])].sort((a, b) => a - b);
+  S.sets = sets;
+  S.xp += 5;
+  updateStreak();
+  save(S);
 }

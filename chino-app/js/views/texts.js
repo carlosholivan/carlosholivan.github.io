@@ -1,13 +1,13 @@
-import { S, update, isUnitDone } from '../state.js?v=202611021344';
-import { register, go } from '../router.js?v=202611021344';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611021344';
-import { bottomNav, header } from '../ui/components.js?v=202611021344';
-import { t } from '../i18n.js?v=202611021344';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611021344';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611021344';
-import { speak, stop } from '../audio.js?v=202611021344';
-import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611021344';
-import { addCards } from '../engine/anki.js?v=202611021344';
+import { S, update, isUnitDone } from '../state.js?v=202611021754';
+import { register, go } from '../router.js?v=202611021754';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611021754';
+import { bottomNav, header } from '../ui/components.js?v=202611021754';
+import { t } from '../i18n.js?v=202611021754';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611021754';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611021754';
+import { speak, stop } from '../audio.js?v=202611021754';
+import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611021754';
+import { addCards } from '../engine/anki.js?v=202611021754';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
