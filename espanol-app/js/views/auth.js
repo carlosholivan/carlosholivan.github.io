@@ -1,7 +1,7 @@
 import { register as registerView, go } from '../router.js';
 import { header } from '../ui/components.js';
 import { t } from '../i18n.js';
-import { registerUser, loginUser, resetPassword } from '../firebase-auth.js';
+import { registerUser, loginUser, resetPassword, getUser, sendVerification, refreshVerified, logoutUser } from '../firebase-auth.js';
 import { update } from '../state.js';
 import { enterApp } from './welcome.js';
 
@@ -119,7 +119,7 @@ window.__forgotPass = async () => {
   }
   try {
     await resetPassword(email);
-    errEl.style.cssText = 'display:block;color:var(--yes)';
+    errEl.style.cssText = 'display:block;color:var(--ok)';
     errEl.textContent = t('resetSent');
   } catch (e) {
     errEl.textContent = t('userNotFound');
@@ -130,3 +130,52 @@ window.__forgotPass = async () => {
 window.__skipAuth = () => {
   enterApp();
 };
+
+registerView('verify', (el) => {
+  const email = (getUser() || {}).email || '';
+  el.innerHTML = `<div class="fade">
+    <div class="card" style="padding:24px;margin-top:24px;text-align:center">
+      <div style="font-size:48px;margin-bottom:8px">✉️</div>
+      <div class="h2 mb-8">${t('verifyTitle')}</div>
+      <div class="muted mb-16">${t('verifySent').replace('{e}', `<b>${email.replace(/[<>&"]/g, '')}</b>`)}</div>
+      <div id="verify-msg" class="small mb-12" style="display:none"></div>
+      <button class="btn btn-primary" style="width:100%;padding:14px;font-size:16px" onclick="window.__verifyCheck(this)">${t('verifyDone')}</button>
+      <button class="btn btn-ghost mt-12" style="width:100%" onclick="window.__verifyResend(this)">${t('verifyResend')}</button>
+      <a href="#" class="muted small" style="display:inline-block;margin-top:16px" onclick="window.__verifyLogout();return false">${t('logout')}</a>
+    </div>
+  </div>`;
+});
+
+function verifyMsg(text, ok) {
+  const m = document.getElementById('verify-msg');
+  if (!m) return;
+  m.style.cssText = `display:block;color:var(${ok ? '--ok' : '--no'})`;
+  m.textContent = text;
+}
+
+window.__verifyCheck = async (btn) => {
+  btn.disabled = true;
+  try {
+    if (await refreshVerified()) return window.__signedIn(getUser());
+    verifyMsg(t('verifyNotYet'), false);
+  } catch (e) { verifyMsg(e.message, false); }
+  btn.disabled = false;
+};
+
+window.__verifyResend = async (btn) => {
+  btn.disabled = true;
+  try { await sendVerification(); verifyMsg(t('verifyResent'), true); }
+  catch (e) { verifyMsg(e.code === 'auth/too-many-requests' ? t('tooManyRequests') : e.message, false); }
+  setTimeout(() => { btn.disabled = false; }, 30000);
+};
+
+window.__verifyLogout = async () => {
+  await logoutUser();
+  go('auth', { mode: 'login' });
+};
+
+// Coming back to the tab after clicking the link: check automatically.
+document.addEventListener('visibilitychange', async () => {
+  if (document.visibilityState !== 'visible' || !document.getElementById('verify-msg')) return;
+  try { if (await refreshVerified()) window.__signedIn(getUser()); } catch (e) {}
+});

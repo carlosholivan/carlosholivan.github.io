@@ -1,5 +1,6 @@
 import { S, completeUnit, update } from '../state.js';
 import { buildReview } from '../engine/review.js';
+import { addCards } from '../engine/anki.js';
 import { register, go } from '../router.js';
 import { loadUnit, loadVocab } from '../data.js';
 import { generateExercises, unitVocab, reshuffle, tr } from '../engine/exercises.js';
@@ -363,8 +364,7 @@ register('lesson', async (el, params) => {
         if (perfect) firstTryCorrect++;
         solved++;
         queue.shift();
-        resetExerciseState();
-        setTimeout(renderExercise, 600);
+        setTimeout(() => { resetExerciseState(); renderExercise(); }, 600);
       }
     } else {
       matchErrors++;
@@ -455,6 +455,7 @@ register('lesson', async (el, params) => {
 
   function finish() {
     if (review) { finishReview(); return; }
+    addCards(words.map(w => w.word));
     const accuracy = total ? firstTryCorrect / total : 1;
     const stars = mistakes === 0 ? 3 : accuracy >= 0.8 ? 2 : 1;
     completeUnit(params.level, params.unit);

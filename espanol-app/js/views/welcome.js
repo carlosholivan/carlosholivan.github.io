@@ -2,7 +2,9 @@ import { S, update } from '../state.js';
 import { register, go } from '../router.js';
 import { t } from '../i18n.js';
 import { speak } from '../audio.js';
-import { shouldShowDailyReview } from '../engine/mastery.js';
+import { deckStats } from '../engine/anki.js';
+import { failedWords } from '../engine/srs.js';
+import { allVocab } from './review.js';
 import { loadUnits } from '../data.js';
 import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js';
 import { textsWithRecommendation } from './texts.js';
@@ -142,8 +144,10 @@ register('study-pick', async (el) => {
     ['vocab', '🗂️', 'Vocabulario', t('stepVocab')],
     ['practice', '✍️', 'Ejercicios', t('stepPractice')],
   ];
-  const review = shouldShowDailyReview();
+  const deck = deckStats();
   const history = hasHistory();
+  let nFailed = 0;
+  try { nFailed = failedWords(new Set((await allVocab()).keys()), 999).length; } catch (e) {}
   const away = daysAway >= 2;
   const info = history ? awayInfo() : '';
   const { rec } = await textsWithRecommendation(S.level);
@@ -176,9 +180,14 @@ register('study-pick', async (el) => {
       <div class="grow" style="text-align:left"><div class="study-es">Práctica de gramática</div><div class="muted small">${t('grammarPractice')}</div></div>
       <span class="muted">›</span>
     </button>
-    ${review ? `<button class="card study-opt" style="animation-delay:.32s" onclick="window.__nav('daily-review')">
-      <span class="study-ic">🔁</span>
-      <div class="grow" style="text-align:left"><div class="study-es">Tarjetas de vocabulario</div><div class="muted small">${t('dailyReviewTr')}</div></div>
+    ${deck.total || history ? `<button class="card study-opt" style="animation-delay:.32s" onclick="window.__nav('review')">
+      <span class="study-ic">🗂️</span>
+      <div class="grow" style="text-align:left"><div class="study-es">Repaso de vocabulario</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
+      <span class="muted">›</span>
+    </button>` : ''}
+    ${nFailed ? `<button class="card study-opt" style="animation-delay:.36s" onclick="window.__go('review', {mode:'failed'})">
+      <span class="study-ic">❌</span>
+      <div class="grow" style="text-align:left"><div class="study-es">Palabras falladas</div><div class="muted small">${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="btn-link muted small mt-16" onclick="window.__nav('home')">${t('goToMap')}</button>

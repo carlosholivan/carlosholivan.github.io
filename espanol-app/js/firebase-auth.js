@@ -5,7 +5,9 @@ import {
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
-  sendPasswordResetEmail
+  sendPasswordResetEmail,
+  sendEmailVerification,
+  reload
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js';
 import {
   getFirestore,
@@ -41,6 +43,7 @@ export function onAuthChange(callback) {
 
 export async function registerUser(email, password) {
   const cred = await createUserWithEmailAndPassword(auth, email, password);
+  await sendVerification(cred.user);
   return cred.user;
 }
 
@@ -58,23 +61,43 @@ export async function resetPassword(email) {
   await sendPasswordResetEmail(auth, email);
 }
 
+export async function sendVerification(user = currentUser) {
+  if (!user) return;
+  auth.languageCode = document.documentElement.lang || 'es';
+  await sendEmailVerification(user, { url: location.origin + location.pathname });
+}
+
+// Reloads the user from Firebase; returns true once the email link has been clicked.
+export async function refreshVerified() {
+  if (!currentUser) return false;
+  await reload(currentUser);
+  if (currentUser.emailVerified) await currentUser.getIdToken(true);
+  return currentUser.emailVerified;
+}
+
+export function isVerified(user = currentUser) {
+  return !!user && (user.emailVerified || !user.providerData.some(p => p.providerId === 'password'));
+}
+
 export function getUser() {
   return currentUser;
 }
 
 export async function saveStateToCloud(state) {
-  if (!db || !currentUser) return;
+  if (!db || !isVerified()) return;
   const ref = doc(db, 'users', currentUser.uid);
-  const { settings, ...rest } = state;
-  await setDoc(ref, {
+  const { settings, uid, ...rest } = state;
+  const data = {
     ...rest,
     settings: settings || { sound: true, haptics: true },
     updatedAt: Date.now()
-  }, { merge: true });
+  };
+  // mergeFields replaces each top-level field whole (so resets/deletions sync) without touching other apps' fields.
+  await setDoc(ref, data, { mergeFields: Object.keys(data) });
 }
 
 export async function loadStateFromCloud() {
-  if (!db || !currentUser) return null;
+  if (!db || !isVerified()) return null;
   const ref = doc(db, 'users', currentUser.uid);
   const snap = await getDoc(ref);
   if (snap.exists()) return snap.data();

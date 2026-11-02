@@ -1,31 +1,38 @@
-import { S } from '../state.js';
-import { icon } from './icons.js';
+import { icon } from './icons.js?v=202611021344';
+import { S } from '../state.js?v=202611021344';
+import { t } from '../i18n.js?v=202611021344';
 
-export function header(title) {
-  return `<div class="flex items-center justify-between" style="padding:16px 0 12px">
-    <div class="h1">${title}</div>
-  </div>`;
+export function bottomNav(active) {
+  const items = [
+    { id: 'home', icon: 'home', label: t('home') },
+    { id: 'hanzi', icon: 'han', label: t('navHanzi') },
+    { id: 'pron', icon: 'sound', label: t('navPron') },
+    { id: 'reference', icon: 'book', label: t('reference') },
+    { id: 'texts', icon: 'doc', label: t('texts') },
+    { id: 'review', icon: 'star', label: t('review') },
+    { id: 'progress', icon: 'chart', label: t('progress') },
+    { id: 'settings', icon: 'gear', label: t('settings') },
+  ];
+  return `<nav class="bottomnav">${items.map(it => `
+    <button class="navitem ${active === it.id ? 'on' : ''}" onclick="window.__nav('${it.id}')">
+      ${icon(it.icon, 22, active === it.id ? 'var(--accent)' : 'var(--ink2)')}
+      <span>${it.label}</span>
+    </button>`).join('')}</nav>`;
 }
 
 export function progressBar(pct) {
-  return `<div class="progbar"><div class="progfill" style="width:${pct}%"></div></div>`;
+  return `<div class="progbar"><div class="progfill" style="width:${Math.min(100, Math.max(0, pct))}%"></div></div>`;
 }
 
 export function streakBadge() {
   if (!S.streak) return '';
-  return `<span class="streak">🔥 ${S.streak}</span>`;
+  return `<span class="streak">${icon('flame', 14, '#fff')} ${S.streak}</span>`;
 }
 
-export function bottomNav(active) {
-  const items = [
-    { id: 'home', label: 'Inicio', icon: 'home' },
-    { id: 'progress', label: 'Progreso', icon: 'chart' },
-    { id: 'settings', label: 'Ajustes', icon: 'gear' },
-  ];
-  return `<nav class="bottomnav">${items.map(it =>
-    `<div class="navitem ${active === it.id ? 'on' : ''}" onclick="window.__nav('${it.id}')">
-      ${icon(it.icon, 24, active === it.id ? 'var(--accent)' : 'var(--ink2)')}
-      <span>${it.label}</span>
-    </div>`
-  ).join('')}</nav>`;
+export function header(title, showBack = false) {
+  const backBtn = showBack ? `<button onclick="window.__back()" style="padding:8px">${icon('back', 20, 'var(--ink)')}</button>` : '';
+  return `<div class="flex items-center justify-between" style="padding:16px 0 12px">
+    <div class="flex items-center gap-12">${backBtn}<span class="h3">${title}</span></div>
+    ${streakBadge()}
+  </div>`;
 }

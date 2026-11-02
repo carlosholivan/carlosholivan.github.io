@@ -21,6 +21,7 @@ const DEFAULT_STATE = {
   xp: 0,
   completed: {},     // { "a1-1": true, "a1-2": true, ... }
   vocab: {},         // { word: { seen, correct, lastSeen, interval } }
+  cards: {},         // Anki deck: { word: { s, step, due, ivl, ef, reps, lapses, added } }
   settings: {
     sound: true,
     haptics: true
@@ -35,18 +36,31 @@ export function load() {
   return { ...DEFAULT_STATE };
 }
 
+// Local save is immediate; the cloud copy is debounced and flushed when the tab is hidden or closed.
+let cloudTimer = null;
 export function save(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   if (isConfigured()) {
-    saveStateToCloud(state).catch(() => {});
+    clearTimeout(cloudTimer);
+    cloudTimer = setTimeout(flushCloud, 3000);
   }
 }
+
+export function flushCloud() {
+  clearTimeout(cloudTimer);
+  cloudTimer = null;
+  if (!isConfigured()) return Promise.resolve();
+  return saveStateToCloud(S).catch(() => {});
+}
+addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && cloudTimer) flushCloud(); });
+addEventListener('pagehide', () => { if (cloudTimer) flushCloud(); });
 
 export function reset() {
   localStorage.removeItem(STORAGE_KEY);
   Object.assign(S, DEFAULT_STATE);
   S.completed = {};
   S.vocab = {};
+  S.cards = {};
   S.settings = { sound: true, haptics: true };
 }
 
@@ -69,7 +83,16 @@ export function mergeCloudState(cloudState) {
   if ((cloudState.lastActive || 0) > (S.lastActive || 0)) merged.lastActive = cloudState.lastActive;
   if (cloudState.levelChosen) merged.levelChosen = true;
   if (!(S.recent || []).length && cloudState.recent) merged.recent = cloudState.recent;
+  if ((cloudState.lastReview || '') > (S.lastReview || '')) merged.lastReview = cloudState.lastReview;
+  const cd = cloudState.cardsDay, ld = S.cardsDay;
+  if (cd && (!ld || cd.date > ld.date || (cd.date === ld.date && cd.n > ld.n))) merged.cardsDay = cd;
   merged.completed = { ...S.completed, ...(cloudState.completed || {}) };
+  merged.cards = { ...(cloudState.cards || {}) };
+  for (const [w, c] of Object.entries(S.cards || {})) {
+    if (!merged.cards[w] || (c.reps || 0) >= (merged.cards[w].reps || 0)) merged.cards[w] = c;
+  }
+  if (cloudState.cardsSeeded) merged.cardsSeeded = true;
+  merged.vocab = { ...(S.vocab || {}) };
   const cloudVocab = cloudState.vocab || {};
   for (const [word, data] of Object.entries(cloudVocab)) {
     if (!merged.vocab[word] || (data.lastSeen || 0) > (merged.vocab[word].lastSeen || 0)) {

@@ -278,3 +278,24 @@ s.wrong { color: var(--no); opacity: .8 }
 .review-opt.hot { animation: reviewPulse 1.8s ease-in-out 3; }
 @keyframes reviewPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(230,126,34,.0); } 50% { box-shadow: 0 0 0 6px rgba(230,126,34,.25); } }
 .review-src { display: inline-block; padding: 3px 10px; border-radius: 999px; background: rgba(52,152,219,.12); color: #2a7bb8; font-weight: 600; }
+
+/* Dialogue: one speaker per line */
+.dl { display: block; }
+.dl.turn { margin-top: 6px; padding-left: 1.1em; text-indent: -1.1em; }
+.dl.turn:first-child { margin-top: 0; }
+
+/* Anki deck */
+.deck-stats { display: grid; grid-template-columns: repeat(5, 1fr); padding: 12px 6px; text-align: center; }
+.deck-stats b { display: block; font-size: 20px; }
+.deck-stats span { font-size: 11px; color: var(--ink2); }
+.anki-card { position: relative; min-height: 230px; padding: 46px 20px 24px; text-align: center; cursor: pointer; display: flex; flex-direction: column; justify-content: center; }
+.anki-front { font-size: 32px; font-weight: 700; }
+.anki-sep { height: 1px; background: var(--line, #ddd); margin: 18px 0; }
+.anki-ans { font-size: 20px; }
+.anki-spk { position: absolute; top: 12px; right: 14px; font-size: 20px; }
+.anki-tag { position: absolute; top: 14px; left: 14px; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; color: #fff; }
+.anki-tag.new { background: #3498db; } .anki-tag.learn { background: #e67e22; } .anki-tag.due { background: var(--ok); } .anki-tag.forgot { background: var(--no); }
+.anki-btns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 16px; }
+.anki-btn { padding: 10px 4px; border-radius: 12px; font-weight: 700; font-size: 14px; color: #fff; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.anki-btn .ivl { font-size: 11px; font-weight: 500; opacity: .9; }
+.anki-btn.again { background: #e74c3c; } .anki-btn.hard { background: #e67e22; } .anki-btn.good { background: #27ae60; } .anki-btn.easy { background: #3498db; }

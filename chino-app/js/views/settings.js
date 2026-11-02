@@ -1,40 +1,135 @@
-import { S, save, reset } from '../state.js';
-import { register, go } from '../router.js';
-import { bottomNav, header } from '../ui/components.js';
+import { S, update, reset, flushCloud } from '../state.js?v=202611021344';
+import { register, go } from '../router.js?v=202611021344';
+import { bottomNav, header } from '../ui/components.js?v=202611021344';
+import { t } from '../i18n.js?v=202611021344';
+import { applyPinyinPref } from '../zh.js?v=202611021344';
+import { isConfigured, getUser, logoutUser } from '../firebase-auth.js?v=202611021344';
 
-register('settings', async (el) => {
-  const dark = S.dark;
+register('settings', (el) => {
+  const langs = [
+    { id: 'es', label: 'Español' },
+    { id: 'en', label: 'English' },
+    { id: 'ja', label: '日本語' },
+    { id: 'ko', label: '한국어' },
+  ];
+
+  const user = isConfigured() ? getUser() : null;
+
+  const accountSection = isConfigured() ? `
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">${t('account')}</div>
+      ${user ? `
+        <div class="muted small mb-12">${t('loggedInAs')} ${user.email}</div>
+        <div class="muted small mb-12" style="color:var(--yes)">✓ ${t('synced')}</div>
+        <button class="btn btn-ghost" onclick="window.__logout()">${t('logout')}</button>
+      ` : `
+        <div class="muted small mb-12">${t('continueWithout')}</div>
+        <button class="btn btn-primary" style="width:100%" onclick="window.__goAuth()">${t('login')} / ${t('createAccount')}</button>
+      `}
+    </div>
+  ` : '';
 
   el.innerHTML = `<div class="fade">
-    ${header('Ajustes')}
+    ${header(t('settings'))}
+
+    ${accountSection}
+
     <div class="card" style="padding:20px;margin-bottom:16px">
-      <div class="flex items-center justify-between">
-        <div>
-          <div style="font-weight:600">Modo oscuro</div>
-          <div class="muted small">Cambia la apariencia</div>
-        </div>
-        <div class="toggle ${dark ? 'on' : ''}" id="dark-toggle"></div>
+      <div class="h3 mb-16">${t('yourName')}</div>
+      <div class="flex gap-8">
+        <input id="settings-name" type="text" maxlength="30" value="${(S.name || '').replace(/"/g, '&quot;')}" placeholder="${t('namePlaceholder')}">
+        <button class="btn btn-small" onclick="window.__saveSettingsName()">${t('save')}</button>
       </div>
     </div>
-    <div class="card" style="padding:20px;margin-bottom:16px">
-      <div style="font-weight:600;margin-bottom:8px">Reiniciar progreso</div>
-      <div class="muted small mb-12">Esto borrará todo tu progreso</div>
-      <button class="btn" style="background:var(--no)" onclick="window.__resetProgress()">Reiniciar</button>
-    </div>
-  </div>
-  ${bottomNav('settings')}`;
 
-  document.getElementById('dark-toggle').addEventListener('click', (e) => {
-    S.dark = !S.dark;
-    save(S);
-    e.currentTarget.classList.toggle('on', S.dark);
-    document.body.classList.toggle('dark', S.dark);
-  });
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">${t('sourceLang')}</div>
+      <div class="flex gap-8">
+        ${langs.map(l => `
+          <button class="chip ${S.lang === l.id ? 'on' : ''}" onclick="window.__setLang('${l.id}')">${l.label}</button>
+        `).join('')}
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">拼音 · Pinyin</div>
+      <div class="flex items-center justify-between">
+        <span>${t('showPinyin')}</span>
+        <div class="toggle ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePinyin()"></div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">${t('appearance')}</div>
+      <div class="flex items-center justify-between">
+        <span>${t('darkMode')}</span>
+        <div class="toggle ${S.dark ? 'on' : ''}" onclick="window.__toggleDark()"></div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-16">${t('sound')}</div>
+      <div class="flex items-center justify-between">
+        <span>${t('soundFx')}</span>
+        <div class="toggle ${S.settings.sound ? 'on' : ''}" onclick="window.__toggleSound()"></div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px">
+      <div class="h3 mb-16">${t('data')}</div>
+      <div class="muted small mb-12">XP: ${S.xp} | ${t('streak')}: ${S.streak} | ${t('wordsSeen')}: ${Object.keys(S.vocab).length}</div>
+      <button class="btn btn-ghost" style="color:var(--no);border-color:var(--no)" onclick="window.__resetData()">${t('resetAll')}</button>
+    </div>
+  </div>${bottomNav('settings')}`;
 });
 
-window.__resetProgress = () => {
-  if (confirm('¿Seguro que quieres reiniciar todo tu progreso?')) {
+window.__saveSettingsName = () => {
+  const name = document.getElementById('settings-name').value.trim();
+  if (name) { update({ name }); go('settings'); }
+};
+
+window.__setLang = (lang) => {
+  update({ lang });
+  go('settings');
+};
+
+window.__togglePinyin = () => {
+  update({ pinyin: S.pinyin === false });
+  applyPinyinPref();
+  go('settings');
+};
+
+window.__toggleDark = () => {
+  S.dark = !S.dark;
+  document.body.classList.toggle('dark', S.dark);
+  update({ dark: S.dark });
+  go('settings');
+};
+
+window.__toggleSound = () => {
+  S.settings.sound = !S.settings.sound;
+  update({ settings: S.settings });
+  go('settings');
+};
+
+window.__resetData = () => {
+  if (confirm(t('confirmReset'))) {
+    const uid = S.uid;
     reset();
-    go('home');
+    if (uid) S.uid = uid;
+    flushCloud().then(() => location.reload());
   }
+};
+
+window.__goAuth = () => {
+  go('auth', { mode: 'login' });
+};
+
+window.__logout = async () => {
+  try {
+    await flushCloud();
+    await logoutUser();
+    reset();
+    location.reload();
+  } catch (e) {}
 };

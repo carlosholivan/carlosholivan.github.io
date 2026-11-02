@@ -1,4 +1,4 @@
-import { S, update, reset } from '../state.js';
+import { S, update, reset, flushCloud } from '../state.js';
 import { register, go } from '../router.js';
 import { bottomNav, header } from '../ui/components.js';
 import { t } from '../i18n.js';
@@ -98,8 +98,10 @@ window.__toggleSound = () => {
 
 window.__resetData = () => {
   if (confirm(t('confirmReset'))) {
+    const uid = S.uid;
     reset();
-    location.reload();
+    if (uid) S.uid = uid;
+    flushCloud().then(() => location.reload());
   }
 };
 
@@ -109,7 +111,9 @@ window.__goAuth = () => {
 
 window.__logout = async () => {
   try {
+    await flushCloud();
     await logoutUser();
-    go('settings');
+    reset();
+    location.reload();
   } catch (e) {}
 };

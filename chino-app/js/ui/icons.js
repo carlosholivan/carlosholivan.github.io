@@ -1,13 +1,23 @@
-const icons = {
-  home: '<path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/>',
-  book: '<path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>',
-  chart: '<path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>',
-  gear: '<path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.573-1.066z"/><circle cx="12" cy="12" r="3"/>',
-  check: '<path d="M5 13l4 4L19 7"/>',
-  lock: '<path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>',
-  back: '<path d="M15 19l-7-7 7-7"/>',
-};
+export function icon(name, size = 24, color = 'var(--accent)') {
+  const s = `width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"`;
 
-export function icon(name, size = 24, color = 'currentColor') {
-  return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${icons[name] || ''}</svg>`;
+  const icons = {
+    home: `<svg ${s}><path d="M3 12l9-8 9 8"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-5h4v5h4a1 1 0 0 0 1-1v-9"/></svg>`,
+    book: `<svg ${s}><path d="M5 4h6a2 2 0 0 1 2 2v13a1.5 1.5 0 0 0-1.5-1.5H5z" fill="${color}" fill-opacity=".1"/><path d="M19 4h-6a2 2 0 0 0-2 2v13a1.5 1.5 0 0 1 1.5-1.5H19z"/></svg>`,
+    doc: `<svg ${s}><path d="M6 3h9l4 4v14H6z" fill="${color}" fill-opacity=".1"/><path d="M6 3h9l4 4v14H6z"/><line x1="9" y1="11" x2="16" y2="11"/><line x1="9" y1="15" x2="16" y2="15"/></svg>`,
+    star: `<svg ${s}><path d="M12 4l2.2 4.8 5.2.5-3.9 3.5 1.1 5.1L12 15.8 7.4 18.4l1.1-5.1L4.6 9.8l5.2-.5z" fill="${color}" fill-opacity=".15"/></svg>`,
+    flame: `<svg ${s}><path d="M12 3c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1.5.6-2.5 1.2-3.3C9.8 9 10 10 11 10.5c-.3-2 .4-5 1-7.5z" fill="${color}" fill-opacity=".15"/></svg>`,
+    gear: `<svg ${s}><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-2.82 1.18V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1.08-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 3 15.5V15a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9.82a1.65 1.65 0 0 0-.33-1.82L4.2 7.94a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a2 2 0 0 1 0 4h-.09c-.67.18-1.14.75-1.14 1.41z"/></svg>`,
+    check: `<svg ${s}><polyline points="20 6 9 17 4 12"/></svg>`,
+    lock: `<svg ${s}><rect x="5" y="11" width="14" height="10" rx="2" fill="${color}" fill-opacity=".08"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>`,
+    arrow: `<svg ${s}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
+    back: `<svg ${s}><polyline points="15 18 9 12 15 6"/></svg>`,
+    trophy: `<svg ${s}><path d="M7 4h10v4a5 5 0 0 1-10 0V4z" fill="${color}" fill-opacity=".12"/><path d="M7 5H5a2 2 0 0 0 2 3M17 5h2a2 2 0 0 1-2 3"/><path d="M12 13v3M9 20h6"/></svg>`,
+    han: `<svg ${s}><rect x="3" y="3" width="18" height="18" rx="3" fill="${color}" fill-opacity=".1"/><text x="12" y="17" text-anchor="middle" font-size="13" font-weight="700" fill="${color}" stroke="none">字</text></svg>`,
+    sound: `<svg ${s}><path d="M4 9v6h4l5 4V5L8 9z" fill="${color}" fill-opacity=".1"/><path d="M16 9a4 4 0 0 1 0 6"/><path d="M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg>`,
+    chart: `<svg ${s}><line x1="4" y1="20" x2="20" y2="20"/><rect x="6" y="12" width="3" height="8" rx=".5" fill="${color}" fill-opacity=".15"/><rect x="11" y="8" width="3" height="12" rx=".5" fill="${color}" fill-opacity=".25"/><rect x="16" y="14" width="3" height="6" rx=".5" fill="${color}" fill-opacity=".15"/></svg>`,
+    spain: `<svg width="${size}" height="${size}" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2" fill="#c60b1e"/><rect x="2" y="8.5" width="20" height="7" fill="#ffc400"/></svg>`,
+  };
+
+  return icons[name] || '';
 }

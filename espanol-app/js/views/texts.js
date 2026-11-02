@@ -10,6 +10,28 @@ import { speak, stop } from '../audio.js';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 
+// Puts each dialogue turn on its own line: a dash after end punctuation followed by a capital,
+// ¿, ¡ or « starts a new speaker (lower-case "—dijo" is a narrator aside and stays inline).
+// Only whitespace is swapped for "\n", so character offsets (verb/note annotations) stay valid.
+const TURN = /([.!?…»"”])([ \t]+)(?=—[¿¡«A-ZÁÉÍÓÚÑ])/g;
+export function splitTurns(s) {
+  return s.replace(TURN, (_, punct, sp) => punct + '\n' + sp.slice(1));
+}
+// Same for translations, which quote dialogue as "…" "…", “…”“…”, 「…」「…」 or with dashes.
+function splitTurnsTr(s) {
+  return s
+    .replace(/(["”])[ \t]+(?=["“])/g, '$1\n')
+    .replace(/([”」』])(。)?(?=[“「『])/g, '$1$2\n')
+    .replace(/([.!?…"”])[ \t]+(?=—[A-Z¿¡"“])/g, '$1\n')
+    .replace(/([。？！…”」.!?])[ \t]*(?=(——|――))/g, '$1\n');
+}
+// Wraps each line of already-escaped HTML; dialogue lines get their own style.
+function lines(html) {
+  const parts = html.split('\n');
+  if (parts.length === 1) return html;
+  return parts.map(l => `<span class="${/^\s*(<[^>]+>)?\s*([—―“「『]|&quot;)/.test(l) ? 'dl turn' : 'dl'}">${l}</span>`).join('');
+}
+
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
@@ -106,6 +128,7 @@ register('text', async (el, params) => {
 
   // Wrap every word in a span; words inside a "difficult" expression get class "dw".
   function renderParagraph(p, pi) {
+    p = splitTurns(p);
     const lower = p.toLowerCase();
     const diffRanges = [];
     for (const d of difficult) {
@@ -125,7 +148,7 @@ register('text', async (el, params) => {
       out += `<span class="${cls}" data-p="${pi}" data-i="${wi++}"${v ? ` data-v="${v[2]}"` : ''}${n ? ` data-n="${n[2]}"` : ''}>${esc(m[0])}</span>`;
       last = m.index + m[0].length;
     }
-    return out + esc(p.slice(last));
+    return lines(out + esc(p.slice(last)));
   }
 
   function shell(body) {
@@ -160,7 +183,7 @@ register('text', async (el, params) => {
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
           <p>${renderParagraph(p, i)}</p>
-          ${view.showTr ? `<p class="para-tr">${esc(tx.translation[S.lang]?.[i] || tx.translation.en[i])}</p>` : ''}
+          ${view.showTr ? `<p class="para-tr">${lines(esc(splitTurnsTr(tx.translation[S.lang]?.[i] || tx.translation.en[i] || '')))}</p>` : ''}
         </div>`).join('')}
       </div>
       ${view.showDiff ? `<div class="card" style="padding:16px 18px">
@@ -283,7 +306,7 @@ register('text', async (el, params) => {
     if (qi >= tx.questions.length) return finishQuestions();
     const q = tx.questions[qi];
     shell(`<details class="card peek mb-12"><summary>📖 ${t('showText')}</summary>
-        ${tx.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</details>
+        ${tx.paragraphs.map(p => `<p>${lines(esc(splitTurns(p)))}</p>`).join('')}</details>
       <div class="muted small mb-8">${qi + 1} / ${tx.questions.length}</div>
       <div class="h3 mb-4">${esc(q.q.es)}</div>
       <div class="muted small mb-16">${esc(tr(q.q))}</div>
@@ -325,7 +348,7 @@ register('text', async (el, params) => {
   }
 
   // ── Fill the gaps ──
-  const full = tx.paragraphs.join('\n');
+  const full = tx.paragraphs.map(splitTurns).join('\n');
   const gapPos = [];
   { let pos = 0; for (const a of tx.gaps.items) { const j = full.indexOf(a, pos); if (j >= 0) { gapPos.push([j, a]); pos = j + a.length; } } }
   let filled, bank, active, checked;
