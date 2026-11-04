@@ -1,10 +1,10 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611021754';
-import { register, go } from '../router.js?v=202611021754';
-import { loadUnits } from '../data.js?v=202611021754';
-import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js?v=202611021754';
-import { icon } from '../ui/icons.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { levelChips, levelLabel } from '../levels.js?v=202611021754';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611041029';
+import { register, go } from '../router.js?v=202611041029';
+import { loadUnits } from '../data.js?v=202611041029';
+import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js?v=202611041029';
+import { icon } from '../ui/icons.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { levelChips, levelLabel } from '../levels.js?v=202611041029';
 
 register('home', async (el) => {
   const units = await loadUnits(S.level);

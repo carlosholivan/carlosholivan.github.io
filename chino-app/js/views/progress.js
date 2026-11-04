@@ -1,9 +1,11 @@
-import { S, isUnitDone } from '../state.js?v=202611021754';
-import { register } from '../router.js?v=202611021754';
-import { loadUnits } from '../data.js?v=202611021754';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { LEVELS, LEVEL_NAME, levelLabel } from '../levels.js?v=202611021754';
+import { S, isUnitDone } from '../state.js?v=202611041029';
+import { register } from '../router.js?v=202611041029';
+import { loadUnits } from '../data.js?v=202611041029';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611041029';
+import { allVocab } from './review.js?v=202611041029';
+import { wordStatus } from '../engine/status.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { LEVELS, LEVEL_NAME, levelLabel } from '../levels.js?v=202611041029';
 
 register('progress', async (el) => {
   const levels = await Promise.all(LEVELS.map(async l => {
@@ -11,8 +13,14 @@ register('progress', async (el) => {
     return { l, total: units.length, done: units.filter((_, i) => isUnitDone(l, i + 1)).length };
   }));
 
-  const totalWords = Object.keys(S.vocab).length;
-  const masteredWords = Object.values(S.vocab).filter(v => v.correct >= 3 && v.interval >= 7).length;
+  // Counted over real HSK words only, combining lessons (S.vocab) and the card deck (S.cards).
+  const vm = await allVocab();
+  let totalWords = 0, masteredWords = 0;
+  for (const w of vm.keys()) {
+    const st = wordStatus(w);
+    if (st !== 'unseen') totalWords++;
+    if (st === 'master') masteredWords++;
+  }
 
   el.innerHTML = `<div class="fade">
     ${header(t('progress'))}

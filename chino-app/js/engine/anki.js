@@ -2,7 +2,7 @@
 // Two decks: 'v' = vocabulary (S.cards[word]), 'h' = characters (S.hcards[char]).
 // card = { s: 'new'|'learn'|'review'|'relearn'|'known', step, due (ms), ivl (days), ef, reps, lapses, added, r (frequency rank) }
 // 'known' = marked as learned by the user: never shown.
-import { S, save } from '../state.js?v=202611021754';
+import { S, save } from '../state.js?v=202611041029';
 
 const MIN = 60 * 1000, DAY = 86400000;
 const LEARN_STEPS = [1, 10];      // minutes
@@ -104,17 +104,31 @@ function newLeftToday(d = 'v') {
 }
 
 // Session queue: forgotten first, then learning/review due (most overdue first), then today's new cards.
-export function buildQueue(d = 'v', limit = 40, now = Date.now(), inDeck = null) {
-  const due = [], fresh = [];
+// mode: 'all' (due + new), 'due' (only words already seen), 'new' (only today's new words),
+// 'extra' (practice ahead: seen words that are not due yet, soonest first; never empty while there are seen cards).
+export function buildQueue(d = 'v', limit = 40, now = Date.now(), inDeck = null, mode = 'all') {
+  const due = [], fresh = [], ahead = [];
   for (const [w, card] of Object.entries(cards(d))) {
     if (card.s === 'known' || (inDeck && !inDeck(w))) continue;
     if (card.s === 'new') fresh.push([w, card]);
     else if (card.due <= now) due.push([w, card]);
+    else ahead.push([w, card]);
+  }
+  if (mode === 'extra') {
+    // Weakest first (lapses, short intervals), then the ones due soonest; shuffled a bit so sessions differ.
+    ahead.push(...due);
+    ahead.sort((a, b) => ((b[1].lapses || 0) - (a[1].lapses || 0)) || ((a[1].ivl || 0) - (b[1].ivl || 0)) || (a[1].due - b[1].due));
+    const top = ahead.slice(0, limit * 2).map(x => x[0]);
+    for (let i = top.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [top[i], top[j]] = [top[j], top[i]]; }
+    return top.slice(0, limit);
   }
   due.sort((a, b) => (isForgotten(b[1], now) - isForgotten(a[1], now)) || (a[1].due - b[1].due));
   // New cards: most frequent first (cards without a rank keep the order they were added).
   fresh.sort((a, b) => ((a[1].r ?? 1e9) - (b[1].r ?? 1e9)) || (a[1].added - b[1].added));
-  return [...due.map(x => x[0]), ...fresh.slice(0, newLeftToday(d)).map(x => x[0])].slice(0, limit);
+  const dueW = due.map(x => x[0]), newW = fresh.slice(0, newLeftToday(d)).map(x => x[0]);
+  if (mode === 'due') return dueW.slice(0, limit);
+  if (mode === 'new') return newW.slice(0, limit);
+  return [...dueW, ...newW].slice(0, limit);
 }
 
 // Returns a copy of the card after answering with rating 1 (again) .. 4 (easy).

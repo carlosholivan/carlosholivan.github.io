@@ -1,15 +1,15 @@
-import { S, update } from '../state.js?v=202611021754';
-import { register, go } from '../router.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { speak } from '../audio.js?v=202611021754';
-import { deckStats } from '../engine/anki.js?v=202611021754';
-import { failedWords } from '../engine/srs.js?v=202611021754';
-import { allVocab } from './review.js?v=202611021754';
-import { loadUnits } from '../data.js?v=202611021754';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611021754';
-import { textsWithRecommendation } from './texts.js?v=202611021754';
-import { ruby, pyReady } from '../zh.js?v=202611021754';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611021754';
+import { S, update } from '../state.js?v=202611041029';
+import { register, go } from '../router.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { speak } from '../audio.js?v=202611041029';
+import { deckStats } from '../engine/anki.js?v=202611041029';
+import { failedWords } from '../engine/srs.js?v=202611041029';
+import { allVocab } from './review.js?v=202611041029';
+import { loadUnits } from '../data.js?v=202611041029';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611041029';
+import { textsWithRecommendation } from './texts.js?v=202611041029';
+import { ruby, pyReady } from '../zh.js?v=202611041029';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611041029';
 
 const zh = (s) => ruby(s);
 
@@ -91,7 +91,7 @@ window.__saveName = () => {
 register('welcome', async (el) => {
   await pyReady;
   const returning = !!S.welcomed;
-  const hello = `你好，${S.name}！`;
+  const hello = `你好，${String(S.name).replace(/[<>&"']/g, '')}！`;
   const away = returning ? awayLine() : null;
   const lineZh = away ? away.es : returning ? '欢迎回来！' : '很高兴认识你！';
   const line = zh(lineZh);

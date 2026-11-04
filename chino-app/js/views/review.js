@@ -1,14 +1,15 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update } from '../state.js?v=202611021754';
-import { register, go } from '../router.js?v=202611021754';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611021754';
-import { LEVELS, levelLabel } from '../levels.js?v=202611021754';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611021754';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611021754';
-import { speak } from '../audio.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611021754';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611021754';
+import { S, update, touchStreak } from '../state.js?v=202611041029';
+import { register, go } from '../router.js?v=202611041029';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611041029';
+import { LEVELS, levelLabel } from '../levels.js?v=202611041029';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611041029';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611041029';
+import { speak } from '../audio.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611041029';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611041029';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611041029';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -196,19 +197,20 @@ function runFailed(el, vm) {
   render();
 }
 
-function freqPanel() {
+function freqPanel(lvFix) {
   const on = S.freqStudy !== false;
   return `<div class="card mb-16" style="padding:14px">
     <div class="flex items-center justify-between"><b>📈 ${t('freqStudy')}</b>
       <div class="toggle ${on ? 'on' : ''}" onclick="window.__freqToggle()"></div></div>
-    <div class="muted small mt-8">${t('freqStudyHint').replace('{l}', levelLabel(deckLevel('v') === 'all' ? S.level : deckLevel('v')))}</div>
+    <div class="muted small mt-8">${t('freqStudyHint').replace('{l}', (lvFix ? 'HSK 1–6' : levelLabel(deckLevel('v') === 'all' ? S.level : deckLevel('v'))))}</div>
     ${on ? `<div class="flex items-center gap-8 mt-8 small">${t('newPerDay')}:
       ${[5, 10, 15, 20, 30, 50].map(n => `<button class="chip ${(S.newPerDay || 15) === n ? 'on' : ''}" style="padding:2px 10px" onclick="window.__newPerDay(${n})">${n}</button>`).join('')}</div>` : ''}
     <button class="btn btn-ghost mt-12" style="width:100%" onclick="window.__go('vocab-list')">📋 ${t('vocabList')}</button>
   </div>`;
 }
-window.__freqToggle = () => { update({ freqStudy: S.freqStudy === false }); window.__go('review', { deck: 'v' }); };
-window.__newPerDay = (n) => { update({ newPerDay: n }); window.__go('review', { deck: 'v' }); };
+let lastSelf = 'review';
+window.__freqToggle = () => { update({ freqStudy: S.freqStudy === false }); window.__go(lastSelf, { deck: 'v' }); };
+window.__newPerDay = (n) => { update({ newPerDay: n }); window.__go(lastSelf, { deck: 'v' }); };
 
 function deckTabs(d) {
   const sv = deckStats('v'), sh = deckStats('h');
@@ -246,37 +248,57 @@ function hanziBack(h, vm, lang) {
     <button class="btn btn-soft btn-small mt-12" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(h.c)}',back:'review'})">✍️ ${t('strokeOrder')}</button>`;
 }
 
-register('review', async (el, params = {}) => {
+// "Tarjetas": a fixed cumulative HSK 1–6 vocabulary deck with the learning-status colours of the vocab list.
+const CARDS_LV = 'hsk6';
+register('cards', (el, params = {}) => reviewView(el, { ...params, deck: 'v', lv: CARDS_LV, self: 'cards' }));
+
+async function statusPanel(vm, upto) {
+  const counts = {}, words = [...vm.values()].filter(v => LEVELS.indexOf(v.lv) <= LEVELS.indexOf(upto));
+  for (const v of words) { const k = wordStatus(v.w); counts[k] = (counts[k] || 0) + 1; }
+  const bar = ['master', 'review', 'learning', 'ghost', 'unseen'].map(k =>
+    `<i style="width:${(counts[k] || 0) / words.length * 100}%;background:${STATUS[k].color}"></i>`).join('');
+  return `<div class="card mb-16" style="padding:14px 16px"><div class="flex justify-between mb-8"><b>HSK 1–6</b><span class="muted small">${words.length} ${t('deckWords')}</span></div>
+    <div class="st-bar">${bar}</div>${statusLegend(counts)}</div>`;
+}
+
+register('review', (el, params = {}) => reviewView(el, params));
+async function reviewView(el, params = {}) {
   await pyReady; await sylReady;
   if (params.mode === 'failed') return runFailed(el, await allVocab());
   const d = params.deck || S.lastDeck || 'v';
-  if (S.lastDeck !== d) update({ lastDeck: d });
+  const self = params.self || 'review';
+  const lvFix = params.lv || null;
+  lastSelf = self;
+  if (self === 'review' && S.lastDeck !== d) update({ lastDeck: d });
   const vm = await allVocab();
   const hm = d === 'h' ? await allHanzi() : null;
   await seed();
-  if (d === 'v') await feedByFrequency(); else await feedHanzi();
-  const inDeck = await deckFilter(d);
-  const decks = await levelDecks(d);
+  if (d === 'v') await feedByFrequency(lvFix || undefined); else await feedHanzi();
+  const inDeck = await deckFilter(d, lvFix || undefined);
+  const decks = lvFix ? await statusPanel(vm, lvFix) : await levelDecks(d);
+  const tabs = lvFix ? '' : deckTabs(d);
   const st = deckStats(d, Date.now(), inDeck);
-  const title = d === 'h' ? t('hanziReview') : t('vocabReview');
+  const title = lvFix ? t('cardsDeck') : d === 'h' ? t('hanziReview') : t('vocabReview');
 
-  if (!st.pending) {
+  if (!st.pending && !params.start) {
     el.innerHTML = `<div class="fade">
-      ${header(title)}${deckTabs(d)}${decks}
+      ${header(title)}${tabs}${decks}
       ${deckSummary(st)}
-      ${d === 'v' ? failedBtn(failedWords(new Set(vm.keys()), 999).length) + freqPanel() : ''}
+      ${d === 'v' ? failedBtn(failedWords(new Set(vm.keys()), 999).length) + freqPanel(lvFix) : ''}
+      ${st.total - st.new ? extraBtn() : ''}
       <div class="center" style="padding-top:30px">
         <div style="font-size:48px;margin-bottom:16px">${st.total ? '🎉' : '🗂️'}</div>
         <div class="h3 mb-8">${st.total ? t('allDone') : t('deckEmpty')}</div>
         <div class="muted">${st.total ? t('noDue') : (d === 'h' ? t('deckEmptyHintH') : t('deckEmptyHint'))}</div>
         <button class="btn mt-24" onclick="window.__nav('${d === 'h' ? 'hanzi' : 'home'}')">${t('keepLearn')}</button>
       </div>
-    </div>${bottomNav('review')}`;
+    </div>${bottomNav(self)}`;
     return;
   }
 
-  let queue = buildQueue(d, 40, Date.now(), inDeck);
-  const total = queue.length;
+  let mode = 'due';
+  let queue = [];
+  let total = 0;
   let done = 0, again = 0;
   const lang = S.lang || 'es';
   const revKey = d === 'h' ? 'hcardsReverse' : 'cardsReverse';
@@ -285,7 +307,7 @@ register('review', async (el, params = {}) => {
 
   function render() {
     if (!queue.length) {
-      const back = buildQueue(d, 20, Date.now() + 10 * 60 * 1000, inDeck).filter(w => store()[w].s !== 'new' && store()[w].s !== 'review');
+      const back = mode === 'extra' ? [] : buildQueue(d, 20, Date.now() + 10 * 60 * 1000, inDeck).filter(w => store()[w].s !== 'new' && store()[w].s !== 'review');
       if (back.length) queue = back; else return finish();
     }
     const w = queue[0];
@@ -300,14 +322,16 @@ register('review', async (el, params = {}) => {
       front = reverse ? `<div class="anki-mean">${esc(mean(v.m, lang))}</div>` : `<div class="anki-hz word">${esc(w)}</div>`;
       backHtml = (reverse ? `<div class="anki-hz word">${esc(w)}</div>` : '') + vocabBack(v, lang);
     }
-    const tag = card.s === 'new' ? ['new', t('cardNew')] : isForgotten(card) ? ['forgot', t('cardForgotten')] : card.s === 'review' ? ['due', t('cardDue')] : ['learn', t('cardLearning')];
+    const stc = d === 'v' ? STATUS[wordStatus(w)] : null;
+    const tag = mode === 'extra' && card.s === 'review' ? ['learn', t('extraPractice')] : card.s === 'new' ? ['new', t('cardNew')] : isForgotten(card) ? ['forgot', t('cardForgotten')] : card.s === 'review' ? ['due', t('cardDue')] : ['learn', t('cardLearning')];
     el.innerHTML = `<div class="fade" style="padding-top:16px">
       <div class="flex items-center gap-12 mb-12">
-        <button onclick="window.__go('review',{deck:'${d}'})" style="padding:4px">←</button>
+        <button onclick="window.__go('${self}',{deck:'${d}'})" style="padding:4px">←</button>
         <div class="grow">${progressBar(done / Math.max(total, done + queue.length) * 100)}</div>
         <button class="chip" style="font-size:12px;padding:4px 10px" onclick="window.__flipDir()">${reverse ? '🌐 → 中' : '中 → 🌐'}</button>
       </div>
-      <div class="card anki-card" id="anki-card" onclick="window.__ankiShow()">
+      <div class="card anki-card" id="anki-card" onclick="window.__ankiShow()"${stc ? ` style="border-top:5px solid ${stc.color}"` : ''}>
+        ${stc ? `<span class="anki-st" style="color:${stc.color}"><i class="st-dot" style="background:${stc.color}"></i> ${t(stc.key)}</span>` : ''}
         <span class="anki-tag ${tag[0]}">${tag[1]}</span>
         ${card.s === 'new' ? `<button class="anki-known" onclick="event.stopPropagation();window.__ankiKnown()">✓ ${t('iKnowIt')}</button>` : ''}
         <button class="anki-spk" onclick="event.stopPropagation();window.__ankiSpeak()">🔊</button>
@@ -319,7 +343,7 @@ register('review', async (el, params = {}) => {
       </div>
       <div id="anki-btns" class="anki-btns" style="visibility:hidden">
         ${[[1, 'again', t('ankiAgain')], [2, 'hard', t('ankiHard')], [3, 'good', t('ankiGood')], [4, 'easy', t('ankiEasy')]].map(([r, c, l]) =>
-          `<button class="anki-btn ${c}" onclick="window.__ankiRate(${r})"><span class="ivl">${previewLabel(card, r)}</span>${l}</button>`).join('')}
+          `<button class="anki-btn ${c}" onclick="window.__ankiRate(${r})"><span class="ivl">${mode === 'extra' && r > 1 && card.s === 'review' ? '=' : previewLabel(card, r)}</span>${l}</button>`).join('')}
       </div>
       <div class="muted small center mt-12">${t('cardsLeft')}: ${queue.length}</div>
     </div>`;
@@ -336,7 +360,10 @@ register('review', async (el, params = {}) => {
   };
   window.__ankiRate = (r) => {
     const w = queue.shift();
+    // Extra practice doesn't push intervals forward (like Anki's "review ahead" without rescheduling); a miss still counts.
+    if (mode === 'extra' && r > 1 && store()[w].s === 'review') { done++; return render(); }
     const c = answer(w, r, d);
+    touchStreak();
     if (r === 1) again++;
     if (c.s !== 'review') queue.splice(Math.min(queue.length, 4), 0, w);
     else done++;
@@ -348,13 +375,13 @@ register('review', async (el, params = {}) => {
     setKnown([w], true, d);
     if (S.freqStudy !== false) {
       const before = new Set(Object.keys(store()));
-      (d === 'v' ? feedByFrequency() : feedHanzi()).then(() => {
+      (d === 'v' ? feedByFrequency(lvFix || undefined) : feedHanzi()).then(() => {
         for (const x of Object.keys(store())) if (!before.has(x) && store()[x].s === 'new') queue.push(x);
         render();
       });
     } else render();
   };
-  window.__flipDir = () => { update({ [revKey]: !S[revKey] }); go('review', { deck: d }); };
+  window.__flipDir = () => { update({ [revKey]: !S[revKey] }); go(self, { deck: d }); };
   window.__ankiKeys = (e) => {
     if (!document.getElementById('anki-card')) return document.removeEventListener('keydown', window.__ankiKeys);
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); window.__ankiShow(); }
@@ -369,16 +396,30 @@ register('review', async (el, params = {}) => {
       <div class="h2 mb-8">${t('reviewDone')}</div>
       <div class="muted mb-16">${done} ${t('cardsStudied')} · ${again} × ${t('ankiAgain')}</div>
       ${deckSummary(deckStats(d, Date.now(), inDeck))}
+      ${extraBtn()}
       <button class="btn mt-16" onclick="window.__nav('home')">${t('continue')}</button>
-    </div>${bottomNav('review')}`;
+    </div>${bottomNav(self)}`;
   }
 
   el.innerHTML = `<div class="fade">
-    ${header(title)}${deckTabs(d)}${decks}
+    ${header(title)}${tabs}${decks}
     ${deckSummary(st)}
     <div class="muted small mb-16">${d === 'h' ? t('ankiExplainH') : t('ankiExplain')}</div>
-    <button class="btn" onclick="window.__ankiStart()">${t('startReview')} (${total})</button>
-    ${d === 'v' ? `<div class="mt-16">${failedBtn(failedWords(new Set(vm.keys()), 999).length)}${freqPanel()}</div>` : ''}
-  </div>${bottomNav('review')}`;
-  window.__ankiStart = render;
-});
+    ${st.learn + st.due ? `<button class="btn mb-12" style="width:100%" onclick="window.__ankiStart('due')">🔁 ${t('reviewSeen')} (${st.learn + st.due})</button>` : `<div class="muted small mb-12">✓ ${t('noDue')}</div>`}
+    ${st.newToday ? `<button class="btn btn-soft mb-12" style="width:100%" onclick="window.__ankiStart('new')">🆕 ${t('learnNew')} (${st.newToday})</button>` : ''}
+    ${st.total - st.new ? extraBtn() : ''}
+    ${d === 'v' ? `<div class="mt-16">${failedBtn(failedWords(new Set(vm.keys()), 999).length)}${freqPanel(lvFix)}</div>` : ''}
+  </div>${bottomNav(self)}`;
+  window.__ankiStart = (m = 'due') => {
+    mode = m;
+    queue = buildQueue(d, m === 'extra' ? 20 : 40, Date.now(), inDeck, m);
+    total = queue.length; done = 0; again = 0;
+    if (!queue.length) return params.start ? null : go(self, { deck: d });
+    render();
+  };
+  function extraBtn() {
+    return `<button class="btn btn-ghost mb-12" style="width:100%" onclick="window.__go('${self}',{deck:'${d}',start:'extra'})">♾️ ${t('extraPractice')}</button>
+      <div class="muted small mb-12">${t('extraPracticeHint')}</div>`;
+  }
+  if (params.start) window.__ankiStart(params.start);
+}

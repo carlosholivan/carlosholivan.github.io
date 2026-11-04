@@ -424,3 +424,14 @@ body.nopy rt { display: none; }
 .set-chips { display: flex; align-items: center; gap: 6px; margin-top: 6px; flex-wrap: wrap }
 .set-chip { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line); background: transparent; color: var(--ink2); font-size: 12px; font-weight: 700; cursor: pointer; padding: 0 }
 .set-chip.done { border-color: var(--ok); background: var(--ok); color: #fff }
+/* Cards deck: status bar and per-card status */
+.st-bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--line); margin-bottom: 8px }
+.st-bar i { display: block; height: 100% }
+.anki-st { position: absolute; bottom: 12px; left: 14px; font-size: 11px; font-weight: 700; display: inline-flex; align-items: center; gap: 5px }
+/* Ranking */
+.rk-row { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-bottom: 1px solid var(--line) }
+.rk-row:last-child { border-bottom: 0 }
+.rk-row.me { background: color-mix(in srgb, var(--accent) 10%, var(--bg2)); border-radius: 10px }
+.rk-pos { width: 30px; text-align: center; font-weight: 800; color: var(--ink2) }
+.rk-xp { font-weight: 800; color: var(--accent) }
+.rk-break { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; font-size: 13px }

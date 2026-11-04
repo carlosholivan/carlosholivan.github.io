@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611021754';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611041029';
 
 const STORAGE_KEY = 'chino_state';
 
@@ -63,11 +63,12 @@ export function save(state) {
   }
 }
 
+export const afterSync = [];
 export function flushCloud() {
   clearTimeout(cloudTimer);
   cloudTimer = null;
   if (!isConfigured()) return Promise.resolve();
-  return saveStateToCloud(S).then(() => { syncInfo.ok = Date.now(); syncInfo.err = null; }, cloudError);
+  return saveStateToCloud(S).then(() => { syncInfo.ok = Date.now(); syncInfo.err = null; afterSync.forEach(f => f()); }, cloudError);
 }
 
 export const syncInfo = { ok: null, err: null };
@@ -158,6 +159,13 @@ export function completeUnit(level, unit) {
   S.xp += 10;
   updateStreak();
   save(S);
+}
+
+// Any study (lessons, sets, cards) keeps the streak alive.
+export function touchStreak() {
+  const before = S.lastDay;
+  updateStreak();
+  if (S.lastDay !== before) save(S);
 }
 
 function updateStreak() {

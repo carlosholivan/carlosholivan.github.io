@@ -1,14 +1,14 @@
 // Vocabulary list per HSK level, ordered by frequency, with single/multiple selection to mark words as learned.
-import { S, update } from '../state.js?v=202611021754';
-import { register } from '../router.js?v=202611021754';
-import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611021754';
-import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611021754';
-import { bottomNav, header } from '../ui/components.js?v=202611021754';
-import { speak } from '../audio.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { esc, mean, tonedPinyin, sylReady } from '../zh.js?v=202611021754';
-import { allVocab } from './review.js?v=202611021754';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611021754';
+import { S, update } from '../state.js?v=202611041029';
+import { register } from '../router.js?v=202611041029';
+import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611041029';
+import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611041029';
+import { bottomNav, header } from '../ui/components.js?v=202611041029';
+import { speak } from '../audio.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { esc, mean, tonedPinyin, sylReady } from '../zh.js?v=202611041029';
+import { allVocab } from './review.js?v=202611041029';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611041029';
 
 const PAGE = 100;
 const sel = new Set();

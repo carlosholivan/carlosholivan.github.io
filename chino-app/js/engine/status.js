@@ -1,8 +1,8 @@
 // Learning status of a word, combining the Anki deck (S.cards) with lesson mastery (S.vocab).
-import { S } from '../state.js?v=202611021754';
-import { isForgotten } from './anki.js?v=202611021754';
-import { getWordLevel } from './mastery.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
+import { S } from '../state.js?v=202611041029';
+import { isForgotten } from './anki.js?v=202611041029';
+import { getWordLevel } from './mastery.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
 
 export const STATUS = {
   unseen:   { color: '#95a5a6', key: 'stUnseen' },
@@ -22,7 +22,7 @@ export function wordStatus(w) {
     if (c.s === 'learn' || c.s === 'relearn') return 'learning';
   }
   const m = S.vocab?.[w] ? getWordLevel(w) : 'new';
-  return { new: c ? 'learning' : 'unseen', beginner: 'learning', intermediate: 'review', master: 'master', ghost: 'ghost' }[m];
+  return { new: c && c.s !== 'new' ? 'learning' : 'unseen', beginner: 'learning', intermediate: 'review', master: 'master', ghost: 'ghost' }[m];
 }
 
 export const statusLegend = (counts) => `<div class="st-legend">${STATUS_ORDER.map(k =>

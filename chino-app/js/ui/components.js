@@ -1,15 +1,15 @@
-import { icon } from './icons.js?v=202611021754';
-import { S } from '../state.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
+import { icon } from './icons.js?v=202611041029';
+import { S } from '../state.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
 
 export function bottomNav(active) {
   const items = [
     { id: 'home', icon: 'home', label: t('home') },
-    { id: 'hanzi', icon: 'han', label: t('navHanzi') },
-    { id: 'pron', icon: 'sound', label: t('navPron') },
     { id: 'reference', icon: 'book', label: t('reference') },
     { id: 'texts', icon: 'doc', label: t('texts') },
     { id: 'review', icon: 'star', label: t('review') },
+    { id: 'cards', icon: 'han', label: t('cardsNav') },
+    { id: 'ranking', icon: 'trophy', label: t('ranking') },
     { id: 'progress', icon: 'chart', label: t('progress') },
     { id: 'settings', icon: 'gear', label: t('settings') },
   ];

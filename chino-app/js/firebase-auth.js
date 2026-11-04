@@ -13,9 +13,16 @@ import {
   getFirestore,
   doc,
   getDoc,
-  setDoc
+  setDoc,
+  collection,
+  query,
+  orderBy,
+  limit,
+  where,
+  getDocs,
+  getCountFromServer
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611021754';
+import firebaseConfig from './firebase-config.js?v=202611041029';
 
 let app = null;
 let auth = null;
@@ -101,4 +108,20 @@ export async function loadStateFromCloud() {
   const snap = await getDoc(ref);
   if (snap.exists()) return snap.data().chino || null;
   return null;
+}
+
+// Public leaderboard: one small doc per user (name + points), readable by every verified user.
+const RANK = 'ranking_chino';
+export async function publishRank(entry) {
+  if (!db || !currentUser || !isVerified()) return false;
+  await setDoc(doc(db, RANK, currentUser.uid), { ...entry, t: Date.now() });
+  return true;
+}
+export async function loadRanking(n = 50) {
+  const snap = await getDocs(query(collection(db, RANK), orderBy('score', 'desc'), limit(n)));
+  return snap.docs.map(d => ({ uid: d.id, ...d.data() }));
+}
+export async function rankPosition(score) {
+  const c = await getCountFromServer(query(collection(db, RANK), where('score', '>', score)));
+  return c.data().count + 1;
 }

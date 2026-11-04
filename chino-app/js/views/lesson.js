@@ -1,15 +1,15 @@
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611021754';
-import { buildReview } from '../engine/review.js?v=202611021754';
-import { addCards } from '../engine/anki.js?v=202611021754';
-import { register, go } from '../router.js?v=202611021754';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611021754';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611021754';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611021754';
-import { recordAnswer } from '../engine/srs.js?v=202611021754';
-import { progressBar } from '../ui/components.js?v=202611021754';
-import { icon } from '../ui/icons.js?v=202611021754';
-import { t } from '../i18n.js?v=202611021754';
-import { speak, stop as stopAudio } from '../audio.js?v=202611021754';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611041029';
+import { buildReview } from '../engine/review.js?v=202611041029';
+import { addCards } from '../engine/anki.js?v=202611041029';
+import { register, go } from '../router.js?v=202611041029';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611041029';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611041029';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611041029';
+import { recordAnswer } from '../engine/srs.js?v=202611041029';
+import { progressBar } from '../ui/components.js?v=202611041029';
+import { icon } from '../ui/icons.js?v=202611041029';
+import { t } from '../i18n.js?v=202611041029';
+import { speak, stop as stopAudio } from '../audio.js?v=202611041029';
 
 const MAX_HEARTS = 5;
 
@@ -56,6 +56,7 @@ register('lesson', async (el, params) => {
   if (!review) try { levelVocab = await loadVocab(params.level); } catch (e) {}
 
   const lang = S.lang || 'en';
+  const vocabSet = new Set(levelVocab.map(v => v.word));
   const words = review ? [] : unitVocab(unit, levelVocab);
   const grammarHtml = unit.grammarIntro
     ? tr(unit.grammarIntro, lang)
@@ -391,7 +392,8 @@ register('lesson', async (el, params) => {
 
   function answered(isCorrect, correctAnswer, srsKey, note = '', html = false) {
     const ex = current();
-    recordAnswer(srsKey, isCorrect);
+    // Only vocabulary words count as "seen" (not whole sentences or translations).
+    if (srsKey && (ex.vocab || vocabSet.has(srsKey))) recordAnswer(srsKey, isCorrect);
     if (isCorrect) {
       solved++;
       if (!ex.retry) firstTryCorrect++;
@@ -491,7 +493,8 @@ register('lesson', async (el, params) => {
     if (setNo > 1) { finishSet(); return; }
     // The unit's new words first, then the rest of its frequency band, ordered by frequency.
     const rank = new Map(levelVocab.map(v => [v.word, v.q]));
-    addCards([...words.map(w => w.word), ...(unit.vocab || [])], 'v', w => rank.get(w) ?? 99999);
+    // Only the words taught in the lesson go to the deck; the rest of the band arrives as new cards via "Aprender palabras nuevas".
+    addCards(words.map(w => w.word), 'v', w => rank.get(w) ?? 99999);
     const accuracy = total ? firstTryCorrect / total : 1;
     const stars = mistakes === 0 ? 3 : accuracy >= 0.8 ? 2 : 1;
     completeUnit(params.level, params.unit);
