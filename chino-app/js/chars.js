@@ -1,6 +1,6 @@
 // Per-character glosses for flashcards: each hanzi/kanji of a word gets its meaning in small type
 // above it and links to its character sheet ('hanzi-detail').
-import { S } from './state.js?v=202611122130';
+import { S } from './state.js?v=202611130800';
 
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export const isCJK = ch => /[㐀-鿿豈-﫿々]/.test(ch);
