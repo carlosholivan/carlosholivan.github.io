@@ -1,15 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611041029';
-import { register, go } from '../router.js?v=202611041029';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611041029';
-import { LEVELS, levelLabel } from '../levels.js?v=202611041029';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611041029';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611041029';
-import { speak } from '../audio.js?v=202611041029';
-import { t } from '../i18n.js?v=202611041029';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611041029';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611041029';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611041029';
+import { S, update, touchStreak } from '../state.js?v=202611122130';
+import { register, go } from '../router.js?v=202611122130';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611122130';
+import { LEVELS, levelLabel } from '../levels.js?v=202611122130';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611122130';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611122130';
+import { speak } from '../audio.js?v=202611122130';
+import { t } from '../i18n.js?v=202611122130';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611122130';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611122130';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611122130';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611122130';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -114,12 +115,13 @@ window.__deckLv = (d, l) => { update({ deckLv: { ...(S.deckLv || {}), [d]: l } }
 
 function failedBtn(n) {
   return n ? `<button class="card study-opt mt-12" style="width:100%" onclick="window.__go('review', {mode:'failed'})">
-      <span class="study-ic">❌</span>
+      <span class="kbadge sm">错</span>
       <div class="grow" style="text-align:left"><div class="study-es">${t('failedReview')}</div><div class="muted small">${t('failedReviewTr')} · <b style="color:var(--no)">${n}</b></div></div>
       <span class="muted">›</span></button>` : '';
 }
 
 // Words failed in previous lessons: meaning → recall hanzi + pinyin, until each is known on first sight.
+let hmFailed = null;
 function runFailed(el, vm) {
   let queue = failedWords(new Set(vm.keys()));
   const lang = S.lang || 'es';
@@ -150,7 +152,7 @@ function runFailed(el, vm) {
         <button class="anki-spk" onclick="event.stopPropagation();window.__ankiSpeak()">🔊</button>
         <div class="anki-front"><div class="anki-mean">${esc(mean(v.m, lang))}</div></div>
         <div class="anki-back" id="anki-back" style="display:none">
-          <div class="anki-sep"></div><div class="anki-hz word">${esc(w)}</div>${vocabBack(v, lang)}
+          <div class="anki-sep"></div>${charWord(w, hmFailed)}${vocabBack(v, lang)}
         </div>
         <div class="muted small mt-16" id="anki-hint">${t('tapToReveal')}</div>
       </div>
@@ -245,7 +247,7 @@ function hanziBack(h, vm, lang) {
     <div class="anki-ans">${esc(mean(h.m, lang))}</div>
     ${hanziExtra(h, lang)}
     ${words.length ? `<div class="hz-words mt-12">${words.map(w => `<span class="vocab-pill"><span class="es">${esc(w.w)}</span><span class="tr">${esc(w.p)} · ${esc(mean(w.m, lang))}</span></span>`).join('')}</div>` : ''}
-    <button class="btn btn-soft btn-small mt-12" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(h.c)}',back:'review'})">✍️ ${t('strokeOrder')}</button>`;
+    <button class="btn btn-soft btn-small mt-12" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(h.c)}',back:'review'})">${t('charSheet')} →</button>`;
 }
 
 // "Tarjetas": a fixed cumulative HSK 1–6 vocabulary deck with the learning-status colours of the vocab list.
@@ -264,14 +266,14 @@ async function statusPanel(vm, upto) {
 register('review', (el, params = {}) => reviewView(el, params));
 async function reviewView(el, params = {}) {
   await pyReady; await sylReady;
-  if (params.mode === 'failed') return runFailed(el, await allVocab());
+  if (params.mode === 'failed') { hmFailed = await allHanzi(); return runFailed(el, await allVocab()); }
   const d = params.deck || S.lastDeck || 'v';
   const self = params.self || 'review';
   const lvFix = params.lv || null;
   lastSelf = self;
   if (self === 'review' && S.lastDeck !== d) update({ lastDeck: d });
   const vm = await allVocab();
-  const hm = d === 'h' ? await allHanzi() : null;
+  const hm = await allHanzi();
   await seed();
   if (d === 'v') await feedByFrequency(lvFix || undefined); else await feedHanzi();
   const inDeck = await deckFilter(d, lvFix || undefined);
@@ -313,14 +315,20 @@ async function reviewView(el, params = {}) {
     const w = queue[0];
     const card = store()[w];
     let front, backHtml;
+    window.__ankiGloss = null;
     if (d === 'h') {
       const h = hm.get(w) || { c: w, m: {} };
       front = reverse ? `<div class="anki-mean">${esc(mean(h.m, lang))}</div><div class="muted small">${tonedPinyin(h.p || '')}</div>` : `<div class="anki-hz">${esc(w)}</div>`;
       backHtml = (reverse ? `<div class="anki-hz">${esc(w)}</div>` : '') + hanziBack(h, vm, lang);
     } else {
       const v = vm.get(w) || { w, p: '', m: {} };
-      front = reverse ? `<div class="anki-mean">${esc(mean(v.m, lang))}</div>` : `<div class="anki-hz word">${esc(w)}</div>`;
-      backHtml = (reverse ? `<div class="anki-hz word">${esc(w)}</div>` : '') + vocabBack(v, lang);
+      // New words show each character's meaning above it (tap → character sheet); seen words reveal it on the back.
+      const isNew = card.s === 'new';
+      const plain = `<div class="anki-hz word" style="--wsize:${wordSize(w)}px">${esc(w)}</div>`;
+      const glossed = hasChars(w, hm) ? charWord(w, hm, { back: self }) : plain;
+      front = reverse ? `<div class="anki-mean">${esc(mean(v.m, lang))}</div>` : `<div id="anki-word">${isNew ? glossed : plain}</div>`;
+      backHtml = (reverse ? glossed : '') + vocabBack(v, lang) + (hasChars(w, hm) ? `<div class="cg-tip">${t('tapCharHint')}</div>` : '');
+      window.__ankiGloss = !reverse && !isNew && glossed !== plain ? glossed : null;
     }
     const stc = d === 'v' ? STATUS[wordStatus(w)] : null;
     const tag = mode === 'extra' && card.s === 'review' ? ['learn', t('extraPractice')] : card.s === 'new' ? ['new', t('cardNew')] : isForgotten(card) ? ['forgot', t('cardForgotten')] : card.s === 'review' ? ['due', t('cardDue')] : ['learn', t('cardLearning')];
@@ -356,6 +364,8 @@ async function reviewView(el, params = {}) {
     back.style.display = 'block';
     document.getElementById('anki-hint').style.display = 'none';
     document.getElementById('anki-btns').style.visibility = 'visible';
+    const wordEl = document.getElementById('anki-word');
+    if (wordEl && window.__ankiGloss) wordEl.innerHTML = window.__ankiGloss;
     speak(queue[0]);
   };
   window.__ankiRate = (r) => {

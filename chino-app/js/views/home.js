@@ -1,41 +1,64 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611041029';
-import { register, go } from '../router.js?v=202611041029';
-import { loadUnits } from '../data.js?v=202611041029';
-import { bottomNav, header, progressBar, streakBadge } from '../ui/components.js?v=202611041029';
-import { icon } from '../ui/icons.js?v=202611041029';
-import { t } from '../i18n.js?v=202611041029';
-import { levelChips, levelLabel } from '../levels.js?v=202611041029';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611122130';
+import { register, go } from '../router.js?v=202611122130';
+import { loadUnits } from '../data.js?v=202611122130';
+import { bottomNav, progressBar } from '../ui/components.js?v=202611122130';
+import { icon } from '../ui/icons.js?v=202611122130';
+import { mascot } from '../ui/mascot.js?v=202611122130';
+import { t } from '../i18n.js?v=202611122130';
+import { LEVELS, levelLabel } from '../levels.js?v=202611122130';
+import { deckStats } from '../engine/anki.js?v=202611122130';
+import { CFG } from '../app-config.js?v=202611122130';
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 register('home', async (el) => {
   const units = await loadUnits(S.level);
   const totalDone = units.filter((_, i) => isUnitDone(S.level, i + 1)).length;
-  const pct = Math.round((totalDone / units.length) * 100);
+  const pct = units.length ? Math.round((totalDone / units.length) * 100) : 0;
+  const next = units.findIndex((_, i) => !isUnitDone(S.level, i + 1));
+  const due = deckStats('v').pending;
+  const levelPct = {};
+  await Promise.all(LEVELS.map(async l => {
+    const us = await loadUnits(l).catch(() => []);
+    levelPct[l] = us.length ? Math.round(us.filter((_, i) => isUnitDone(l, i + 1)).length / us.length * 100) : 0;
+  }));
+  const msg = due ? t('mascotDue').replace('{n}', due) : S.streak ? t('mascotStreak').replace('{n}', S.streak) : t('mascotStart');
 
   el.innerHTML = `<div class="fade">
-    ${header('中文 · ' + t('chinese'))}
-    <div class="card" style="padding:20px;margin-bottom:20px">
-      <div class="flex items-center justify-between mb-8">
-        <div>
-          <div class="h2">${levelLabel(S.level)}</div>
-          <div class="muted small">${totalDone}/${units.length} ${t('lessons')}</div>
-        </div>
-        <div style="text-align:right">
-          ${streakBadge()}
-          <div class="muted small mt-8">${S.xp} XP</div>
-        </div>
+    <div class="home-top">
+      <div><div class="home-hi">${CFG.hello}</div><div class="h2">${esc(S.name || t('hello'))}</div></div>
+      <button class="card icon-btn" onclick="window.__nav('settings')" aria-label="${t('settings')}">${icon('gear', 22)}</button>
+    </div>
+
+    <div class="card mascot-card">
+      <div>${mascot(S.streak > 0 ? 'proud' : 'happy', 68)}</div>
+      <div class="grow"><div class="mc-t">${t('mascotHi')} ${icon('dango', 18)}</div><div class="mc-s">${msg}</div></div>
+    </div>
+
+    <div class="stat-row">
+      <div class="card" onclick="window.__nav('progress')">${icon('flame', 24)}<b>${S.streak || 0}</b><span>${t('curStreak')}</span></div>
+      <div class="card" onclick="window.__nav('review')">${icon('cards', 24)}<b>${due}</b><span>${t('cardsNav')}</span></div>
+      <div class="card" onclick="window.__nav('ranking')">${icon('trophy', 24)}<b>${S.xp || 0}</b><span>XP</span></div>
+    </div>
+
+    <div class="card lvl-card">
+      <div class="flex justify-between" style="align-items:baseline;margin-bottom:6px">
+        <div class="lvl-k">${t('levelNow').toUpperCase()} · ${levelLabel(S.level)}</div>
+        <div class="lvl-p">${pct}%</div>
       </div>
       ${progressBar(pct)}
+      <div class="muted small mt-8">${totalDone}/${units.length} ${t('levelProg')}</div>
+      ${next >= 0 ? `<button class="btn mt-16" onclick="window.__startUnit(${next + 1})">${t('keepGoing')} · ${next + 1}. ${esc((units[next].title || {})[S.lang] || (units[next].title || {}).es || '')}</button>` : ''}
     </div>
 
-    ${levelChips(S.level, '__setLevel')}
-    <div class="home-banners">
-      <div class="card drill-banner" onclick="window.__nav('vocab-list')">📋 <strong>词汇</strong> <span class="muted small">· ${t('vocabList')}</span><span class="grow"></span>›</div>
-      <div class="card drill-banner" onclick="window.__nav('hanzi')">✍️ <strong>汉字</strong> <span class="muted small">· ${t('hanzi')}</span><span class="grow"></span>›</div>
-      <div class="card drill-banner" onclick="window.__nav('pron')">🗣️ <strong>发音</strong> <span class="muted small">· ${t('pronunciation')}</span><span class="grow"></span>›</div>
-      <div class="card drill-banner" onclick="window.__nav('pinyin-chart')">🔤 <strong>拼音</strong> <span class="muted small">· ${t('sylChart')}</span><span class="grow"></span>›</div>
-      <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>语法练习</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
-    </div>
+    <div class="sec-label">${t('changeLevel')}</div>
+    <div class="lvl-row">${LEVELS.map(l => `<div class="card ${l === S.level ? 'on' : ''}" onclick="window.__setLevel('${l}')"><b>${levelLabel(l)}</b><span>${levelPct[l]}%</span></div>`).join('')}</div>
 
+    <div class="sec-label">${t('toolsLabel')}</div>
+    <div class="menu-grid">${CFG.tools.map(([b, k, sub, view]) => `<button class="card lvlcard" onclick="window.__nav('${view}')">
+      <div class="kbadge sm">${b}</div><div class="grow"><div class="lc-t">${t(k)}</div><div class="lc-s">${t(sub)}</div></div></button>`).join('')}</div>
+
+    <div class="sec-label">${t('lessonsLabel')}</div>
     <div class="lesson-tree">
       ${units.map((u, i) => {
         const num = i + 1;
@@ -45,8 +68,8 @@ register('home', async (el) => {
         return `<div class="lesson-node" onclick="${unlocked ? `window.__startUnit(${num})` : ''}">
           <div class="lesson-circle ${status}">${done ? icon('check', 20, '#fff') : num}</div>
           <div class="grow">
-            <div style="font-weight:600;font-size:15px">${u.title[S.lang] || u.title.en}</div>
-            <div class="muted small">${u.desc[S.lang] || u.desc.en}</div>
+            <div style="font-weight:600;font-size:15px;font-family:var(--serif)">${esc(u.title[S.lang] || u.title.en || u.title.es)}</div>
+            <div class="muted small">${esc((u.desc || {})[S.lang] || (u.desc || {}).en || (u.desc || {}).es || '')}</div>
             ${done ? setChips(num) : ''}
           </div>
           ${!unlocked ? icon('lock', 18, 'var(--ink2)') : ''}

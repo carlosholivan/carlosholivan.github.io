@@ -1,0 +1,248 @@
+{
+"何": {
+"es": "qué (なに / なん)",
+"form": "何 + を／が… ・ 何 + です／の／counter",
+"nuance": "Se lee なん delante de です, の, contadores y sonidos t/d/n (何歳, 何時); en los demás casos, なに (何を食べますか).",
+"tip": "何歳ですか = ¿cuántos años tienes?"
+},
+"いくつ": {
+"es": "cuántos; cuántos años",
+"form": "いくつ ですか",
+"nuance": "Pregunta por cantidades contadas con つ (ひとつ, ふたつ…) y, de forma cortés con お, por la edad: おいくつですか.",
+"tip": "Hasta 9 se cuenta ひとつ…ここのつ; el 10 es とお."
+},
+"これ": {
+"es": "esto / eso / aquello (pronombres)",
+"form": "これ・それ・あれ・どれ + は／が…",
+"nuance": "これ = cerca de mí, それ = cerca de ti, あれ = lejos de los dos, どれ = ¿cuál? Funcionan solos, sin sustantivo.",
+"tip": "これは本です。 = Esto es un libro."
+},
+"この": {
+"es": "este / ese / aquel + sustantivo",
+"form": "この・その・あの・どの + N",
+"nuance": "Siempre van seguidos de un sustantivo: この本, その傘, あの人. No pueden ir solos.",
+"tip": "この本 (correcto) — × この は本です."
+},
+"いつ": {
+"es": "cuándo",
+"form": "いつ + V／です か",
+"nuance": "Pregunta general por el momento. Normalmente no lleva に.",
+"tip": "誕生日はいつですか。"
+},
+"何日": {
+"es": "qué día (del mes)",
+"form": "何日 ・ 何曜日 ・ 何月",
+"nuance": "Los días 1-10, 14, 20 y 24 tienen lecturas especiales: ついたち, ふつか, みっか… はつか.",
+"tip": "何曜日 = qué día de la semana."
+},
+"ください": {
+"es": "deme…, por favor",
+"form": "N を ください ・ N を 数 ください",
+"nuance": "Para pedir cosas en tiendas o restaurantes. Con cantidad, el número va después de を: コーヒーを二つください.",
+"tip": "Para pedir acciones se usa ～てください."
+},
+"杯": {
+"es": "contador de vasos y tazas",
+"form": "数 + 杯 (はい・ばい・ぱい)",
+"nuance": "一杯 (いっぱい), 二杯 (にはい), 三杯 (さんばい), 六杯 (ろっぱい)… El sonido cambia según el número.",
+"tip": "何杯 = ¿cuántos vasos?"
+},
+"いくら": {
+"es": "cuánto (cuesta)",
+"form": "N は いくら ですか",
+"nuance": "Pregunta por el precio. Respuesta: 百円です.",
+"tip": "全部でいくらですか = ¿cuánto es en total?"
+},
+"個": {
+"es": "contadores (個, 枚, 本, 冊, 台, 匹)",
+"form": "数 + contador",
+"nuance": "個: objetos pequeños; 枚: cosas planas; 本: alargadas; 冊: libros; 台: máquinas y vehículos; 匹: animales pequeños.",
+"tip": "Con 本 y 匹 cambia el sonido: いっぽん, さんぼん, いっぴき, さんびき."
+},
+"～くない": {
+"es": "negativo de adjetivos -い",
+"form": "Aい → Aくない (です) ・ pasado Aくなかった",
+"nuance": "Se cambia la い final por くない. Excepción: いい → よくない.",
+"tip": "高くないです = no es caro."
+},
+"な": {
+"es": "adjetivos -な",
+"form": "Aな + N ・ Aです ・ negativo Aじゃありません",
+"nuance": "Llevan な delante de un sustantivo (静かな部屋) y se comportan como sustantivos con です.",
+"tip": "綺麗 y 嫌い parecen -い, pero son -な."
+},
+"～くなる": {
+"es": "volverse, ponerse (cambio)",
+"form": "Aい → Aくなる ・ Aな／N + になる",
+"nuance": "Expresa un cambio de estado: 寒くなる (empieza a hacer frío), 元気になる.",
+"tip": "段々暑くなりました = poco a poco ha ido haciendo calor."
+},
+"でしょう": {
+"es": "probablemente",
+"form": "V／A／N + でしょう",
+"nuance": "Suposición, muy típica en el parte del tiempo. Con entonación ascendente pide confirmación: ～でしょう？",
+"tip": "明日は雨が降るでしょう。"
+},
+"尊敬語": {
+"es": "lenguaje honorífico (尊敬語)",
+"form": "お＋Vます＋になる ・ verbos especiales: いらっしゃる, おっしゃる, なさる, 召し上がる, ごらんになる, くださる",
+"nuance": "Eleva las acciones de otra persona (clientes, jefes). Nunca se usa para uno mismo.",
+"tip": "社長がいらっしゃいます = viene el presidente."
+},
+"謙譲語": {
+"es": "lenguaje humilde (謙譲語)",
+"form": "お＋Vます＋する ・ verbos especiales: 参る, 申す, 致す, おる, 伺う, 拝見する, 頂く, 差し上げる",
+"nuance": "Rebaja tus propias acciones para mostrar respeto al otro.",
+"tip": "田中と申します = me llamo Tanaka (humilde)."
+},
+"あげる": {
+"es": "dar (yo/otro → otro)",
+"form": "A は B に N を あげる ・ ～てあげる",
+"nuance": "El que da es el sujeto y el receptor no soy yo. Con superiores: 差し上げる.",
+"tip": "友達に本をあげました。"
+},
+"くれる": {
+"es": "darme (otro → yo / los míos)",
+"form": "A は 私 に N を くれる ・ ～てくれる",
+"nuance": "El receptor soy yo o alguien de mi grupo. Con superiores: くださる.",
+"tip": "母がケーキをくれました。"
+},
+"もらう": {
+"es": "recibir",
+"form": "私 は A に／から N を もらう ・ ～てもらう",
+"nuance": "El sujeto es quien recibe. Con superiores: 頂く.",
+"tip": "先生に辞書をもらいました。"
+},
+"～ので": {
+"es": "porque, como (causa)",
+"form": "V／Aい + ので ・ Aな／N + なので",
+"nuance": "Más suave y objetivo que から; muy usado para explicar o disculparse.",
+"tip": "雨なので、行きません。"
+},
+"～そうだ (oído)": {
+"es": "dicen que (información oída)",
+"form": "forma simple + そうだ",
+"nuance": "Transmite información que has oído o leído. La fuente suele ir con ～によると.",
+"tip": "No confundir con 降りそうだ (parece que va a llover)."
+},
+"～て (causa)": {
+"es": "forma -te como causa",
+"form": "V-て ・ Aくて ・ Aな／N + で",
+"nuance": "Une una causa con un sentimiento o resultado: 会えて嬉しい, 悲しくて泣いた.",
+"tip": "La segunda parte no puede ser una orden o petición."
+},
+"すると": {
+"es": "conectores: entonces, por eso, sin embargo",
+"form": "すると (entonces, a continuación) ・ それで (por eso) ・ けれど (pero)",
+"nuance": "すると: lo que pasó justo después. それで: consecuencia. けれど: contraste, algo más suave que でも.",
+"tip": "ドアを開けた。すると、猫がいた。"
+},
+"～ながら": {
+"es": "mientras (a la vez)",
+"form": "Vます + ながら",
+"nuance": "Dos acciones simultáneas del mismo sujeto; la principal va al final.",
+"tip": "音楽を聞きながら勉強する。"
+},
+"～はずだ": {
+"es": "debería (seguramente)",
+"form": "forma simple + はずだ ・ Aな + なはず ・ N + のはず",
+"nuance": "Conclusión lógica basada en datos: el hablante está bastante seguro.",
+"tip": "もう着いたはずです = ya debería haber llegado."
+},
+"決して～ない": {
+"es": "nunca, jamás",
+"form": "決して + V-ない",
+"nuance": "Negación enfática, frecuente en normas y promesas.",
+"tip": "決して忘れません = nunca lo olvidaré."
+},
+"～ばかり": {
+"es": "solo; acabar de",
+"form": "N + ばかり ・ V-た + ばかり",
+"nuance": "N + ばかり: no hay más que eso. V-たばかり: acabar de hacer algo.",
+"tip": "来たばかりです = acabo de llegar."
+},
+"こう": {
+"es": "así (こう・そう・ああ・どう)",
+"form": "こう／そう／ああ／どう + V",
+"nuance": "Adverbios de modo de la serie こ・そ・あ・ど: こう書きます = se escribe así.",
+"tip": "こんな・そんな・あんな + N = un N así."
+},
+"～わけ": {
+"es": "razón, motivo; no es que…",
+"form": "forma simple + わけだ ・ ～わけではない",
+"nuance": "わけ = motivo. ～わけではない niega una conclusión: no es que…",
+"tip": "嫌いなわけじゃない = no es que no me guste."
+},
+"ここ": {
+"es": "aquí / ahí / allí / dónde",
+"form": "ここ・そこ・あそこ・どこ ・ cortés: こちら・そちら・あちら・どちら",
+"nuance": "Demostrativos de lugar. La serie こちら… es más educada y también sirve para dirección y personas.",
+"tip": "トイレはどこですか。 — あそこです。"
+},
+"好き": {
+"es": "gustar / odiar",
+"form": "N が 好き／嫌い です",
+"nuance": "Son adjetivos -な: la cosa que gusta lleva が, no を. 大好き = encantar.",
+"tip": "肉が好きです (× 肉を好きです)."
+},
+"かかる": {
+"es": "tardar / costar",
+"form": "時間／お金 が かかる",
+"nuance": "Indica el tiempo o dinero necesario: 三十分かかります.",
+"tip": "どのくらいかかりますか = ¿cuánto se tarda?"
+},
+"着る": {
+"es": "verbos de vestir",
+"form": "着る (cuerpo) ・ はく (piernas, pies) ・ かぶる (cabeza) ・ 掛ける (gafas) ・ 締める (corbata) ・ quitarse: 脱ぐ／外す",
+"nuance": "El japonés usa un verbo distinto según la parte del cuerpo. Con ～ている expresa lo que llevas puesto.",
+"tip": "眼鏡を掛けています = lleva gafas."
+},
+"上手": {
+"es": "hábil / torpe",
+"form": "N が 上手／下手 です",
+"nuance": "Adjetivos -な para habilidades ajenas. Para hablar de uno mismo se prefiere 得意 o modestia.",
+"tip": "日本語が上手ですね。 — いいえ、まだまだです。"
+},
+"～て": {
+"es": "forma -te para encadenar acciones",
+"form": "V-て、V-て、V",
+"nuance": "Une acciones en orden temporal; el tiempo verbal lo marca el último verbo.",
+"tip": "起きて、顔を洗って、朝ご飯を食べました。"
+},
+"どうして": {
+"es": "por qué",
+"form": "どうして／なぜ ～か ・ respuesta: ～から",
+"nuance": "どうして es más coloquial; なぜ más formal. Se responde con ～からです.",
+"tip": "どうして遅れたんですか。"
+},
+"初めて": {
+"es": "por primera vez",
+"form": "初めて + V",
+"nuance": "Adverbio. No confundir con 初め (el principio) ni con はじめまして.",
+"tip": "初めて日本に来ました。"
+},
+"～てある": {
+"es": "estar hecho (resultado de una acción intencionada)",
+"form": "N が V(transitivo)-てある",
+"nuance": "Describe el estado que alguien dejó preparado: 窓が開けてある (alguien la abrió).",
+"tip": "Compárese con 窓が開いている (simplemente está abierta)."
+},
+"～ほど～ない": {
+"es": "no tan … como",
+"form": "A は B ほど + adjetivo negativo",
+"nuance": "Comparación negativa: A no llega al grado de B.",
+"tip": "今日は昨日ほど寒くない。"
+},
+"～し": {
+"es": "y además (enumerar razones)",
+"form": "forma simple + し、～し",
+"nuance": "Enumera varias razones o características, dando a entender que hay más.",
+"tip": "安いし、美味しいし、いい店です。"
+},
+"～ても": {
+"es": "aunque",
+"form": "V-ても ・ Aくても ・ Aな／N + でも",
+"nuance": "Concesión: el resultado no cambia aunque se cumpla la condición.",
+"tip": "雨が降っても行きます。"
+}
+}

@@ -1,5 +1,6 @@
-import { S } from './state.js?v=202611041029';
-import EXTRA from './i18n-extra.js?v=202611041029';
+import { S } from './state.js?v=202611122130';
+import EXTRA from './i18n-extra.js?v=202611122130';
+import UI from './i18n-ui.js?v=202611122130';
 
 const T = {
   // Navigation
@@ -257,7 +258,7 @@ const T = {
   syncNotVerified: { es: 'Email sin verificar: no se guarda en la nube', en: 'Email not verified: progress is not saved to the cloud' },
 };
 
-Object.assign(T, EXTRA);
+Object.assign(T, EXTRA, UI);
 
 export function t(key) {
   const entry = T[key];

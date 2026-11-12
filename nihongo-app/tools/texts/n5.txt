@@ -1,0 +1,488 @@
+# Format: "## n | título es | title en | descripción es | gramática (patrones separados por coma)"
+#         "### título japonés | título es"   (one text; several per unit allowed)
+#         "? pregunta es | opción / *correcta / opción"
+#         "japonés = español"  (blank line = new paragraph)
+
+## 1 | Presentarse | Introductions | Decir tu nombre, de dónde eres y qué haces con です, は, か y の. | です,は,か,の
+### はじめまして | Encantado de conocerte
+? ¿De dónde es Ana? | 日本 / *スペイン / 中国
+? ¿Qué es el señor Tanaka? | 学生 / *先生 / 医者
+先生：皆さん、こんにちは。私は田中です。 = Profesor: Hola a todos. Soy Tanaka.
+先生：私は日本人です。この大学の先生です。 = Profesor: Soy japonés. Soy profesor de esta universidad.
+アナ：はじめまして。私の名前はアナです。 = Ana: Encantada. Me llamo Ana.
+アナ：スペインから来ました。留学生です。 = Ana: Vengo de España. Soy estudiante extranjera.
+先生：アナさんはどこの国の方ですか。 = Profesor: Ana, ¿de qué país es usted?
+アナ：スペインです。どうぞよろしく。 = Ana: De España. Mucho gusto.
+
+ワン：私はワンです。中国人です。 = Wang: Soy Wang. Soy china.
+アナ：ワンさんも学生ですか。 = Ana: Wang, ¿tú también eres estudiante?
+ワン：ええ、そうです。大学の学生です。 = Wang: Sí, así es. Soy estudiante de la universidad.
+アナ：あの方はどなたですか。 = Ana: ¿Quién es esa persona?
+ワン：あの人はキムさんです。キムさんも外国人です。 = Wang: Esa persona es Kim. Kim también es extranjera.
+アナ：誰の先生ですか。 = Ana: ¿De quién es profesor?
+ワン：いいえ、先生ではありません。高校の生徒です。 = Wang: No, no es profesora. Es alumna de instituto.
+アナ：はい、分かりました。どうも。 = Ana: Vale, entendido. Gracias.
+
+## 2 | Números y edad | Numbers and age | Contar del cero al diez mil y preguntar la edad con いくつ y 何歳. | 何,いくつ
+### 何歳ですか | ¿Cuántos años tienes?
+? ¿Cuántos años tiene la hermana de Kenta? | 七歳 / *二十歳 / 十九歳
+? ¿Cuántos libros tiene Kenta? | *千冊 / 百冊 / 十冊
+ケン：アナさんはいくつですか。 = Ken: Ana, ¿cuántos años tienes?
+アナ：私は十九歳です。ケンさんは？ = Ana: Tengo diecinueve. ¿Y tú, Ken?
+ケン：二十歳です。姉も二十歳ですよ。 = Ken: Tengo veinte. Mi hermana también tiene veinte.
+アナ：え？お姉さんも？ = Ana: ¿Eh? ¿Tu hermana también?
+ケン：はい、私たちは同じ日に生まれました。 = Ken: Sí, nacimos el mismo día.
+
+一、二、三、四、五、六、七、八、九、十。 = Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.
+零はゼロとも言います。 = Al 零 también se le llama «cero» (ゼロ).
+四は「し」と「よん」、七は「しち」と「なな」、九は「きゅう」と「く」と読みます。 = 四 se lee «shi» y «yon», 七 «shichi» y «nana», 九 «kyū» y «ku».
+百、千、万は大きい数です。 = Cien, mil y diez mil son números grandes.
+ケンさんの家には本が千冊ぐらいあります。 = En casa de Ken hay unos mil libros.
+全部で何冊ですか。 = ¿Cuántos son en total?
+一万円の本もあります。 = También hay un libro de diez mil yenes.
+
+## 3 | Esto, eso, aquello | This, that and that over there | Señalar cosas con これ・それ・あれ y この・その・あの, y preguntar de quién son. | これ,それ,あれ,この,その,あの
+### これは何ですか | ¿Qué es esto?
+? ¿De quién es el paraguas? | 先生 / アナ / *ケン
+? ¿Qué hay en la cartera de Ana? | *お金とカード / 鍵 / 切手
+アナ：ケンさん、これは何ですか。 = Ana: Ken, ¿qué es esto?
+ケン：それは辞書です。字引とも言います。 = Ken: Eso es un diccionario. También se dice «jibiki».
+アナ：その本は誰のですか。 = Ana: ¿De quién es ese libro?
+ケン：これは私の本です。あの雑誌と新聞も私のです。 = Ken: Este libro es mío. Aquella revista y el periódico también son míos.
+アナ：あれは誰の傘ですか。 = Ana: ¿De quién es aquel paraguas?
+ケン：あれも私のです。あ、あの鍵も！ = Ken: Aquel también es mío. ¡Ah, y aquella llave!
+
+机の上に色々な物があります。 = Sobre la mesa hay muchas cosas diferentes.
+鉛筆とペンとボールペンがあります。 = Hay un lápiz, una pluma y un bolígrafo.
+ノートと紙と封筒もあります。 = También hay un cuaderno, papel y un sobre.
+この切手と葉書は先生のです。 = Este sello y esta postal son del profesor.
+その手紙は母からです。 = Esa carta es de mi madre.
+アナの財布には、お金とカードが入っています。 = En la cartera de Ana hay dinero y una tarjeta.
+あちらの時計は誰のですか。 = ¿De quién es el reloj de allí?
+こちらは先生の眼鏡と帽子です。 = Esto de aquí son las gafas y el sombrero del profesor.
+ケン：どれがアナさんのかばんですか。 = Ken: ¿Cuál es tu bolso, Ana?
+アナ：その黒いのです。 = Ana: Ese negro.
+
+## 4 | ¿Dónde está? | Where is it? | Preguntar por lugares con ここ・そこ・あそこ・どこ y decir qué hay con あります・います. | あります/います,ここ,そこ,あそこ,どこ
+### 駅はどこですか | ¿Dónde está la estación?
+? ¿Dónde está la oficina de correos? | 駅の前 / *銀行の隣 / 公園の中
+? ¿Quién está en la caseta de policía? | 先生 / *おまわりさん / 子供
+アナ：すみません、駅はどこですか。 = Ana: Perdone, ¿dónde está la estación?
+女の人：駅はあそこです。あの白い建物の向こうです。 = Mujer: La estación está allí. Al otro lado de aquel edificio blanco.
+アナ：この辺に郵便局がありますか。 = Ana: ¿Hay una oficina de correos por esta zona?
+女の人：ええ、銀行の隣にあります。 = Mujer: Sí, está al lado del banco.
+アナ：銀行はどちらですか。 = Ana: ¿Por dónde está el banco?
+女の人：そちらです。デパートの前です。 = Mujer: Por ahí. Delante de los grandes almacenes.
+
+この町には何でもあります。 = En esta ciudad hay de todo.
+駅の近くに図書館と病院があります。 = Cerca de la estación hay una biblioteca y un hospital.
+公園の中に池があります。 = Dentro del parque hay un estanque.
+交番にはおまわりさんがいます。警官は親切です。 = En la caseta de policía hay un policía. El agente es amable.
+大使館の横に有名なホテルがあります。 = Al lado de la embajada hay un hotel famoso.
+映画館の後ろに喫茶店と食堂があります。 = Detrás del cine hay una cafetería y un comedor.
+そこのレストランの入口は右です。出口は左です。 = La entrada de ese restaurante está a la derecha. La salida, a la izquierda.
+店の中に誰かいますか。 = ¿Hay alguien dentro de la tienda?
+はい、店の人がいます。 = Sí, está el dependiente.
+こっちですか、そっちですか、あっちですか。 = ¿Es por aquí, por ahí o por allá?
+ここです！ = ¡Es aquí!
+
+## 5 | Un día normal | An ordinary day | Contar tu rutina con ～ます, ～ません y ～ました, y decir la hora con 時 y 分. | ～ます,～ません,～ました,に
+### 私の一日 | Mi día
+? ¿A qué hora se levanta Ana? | *六時半 / 七時 / 八時
+? ¿Qué hace Ana antes de dormir? | テレビを見る / *お風呂に入る / 散歩する
+私は毎朝六時半に起きます。 = Me levanto todas las mañanas a las seis y media.
+顔を洗って、歯を磨きます。 = Me lavo la cara y me cepillo los dientes.
+時々シャワーを浴びます。 = A veces me ducho.
+七時に朝御飯を食べます。 = A las siete desayuno.
+朝はパンとコーヒーです。 = Por la mañana tomo pan y café.
+八時に家を出ます。 = A las ocho salgo de casa.
+午前は大学で勉強します。 = Por la mañana estudio en la universidad.
+
+十二時に昼御飯を食べます。昼は食堂へ行きます。 = A las doce como. A mediodía voy al comedor.
+午後一時から授業があります。 = Por la tarde tengo clase desde la una.
+五時ごろ家に帰ります。 = Vuelvo a casa hacia las cinco.
+夕方、少し散歩します。 = Al atardecer doy un pequeño paseo.
+七時に晩御飯を食べます。夕飯は自分で作ります。 = A las siete ceno. La cena la hago yo misma.
+毎晩お風呂に入ります。 = Todas las noches me doy un baño.
+十一時に寝ます。 = Me acuesto a las once.
+
+昨日は日曜日でした。 = Ayer fue domingo.
+朝は九時に起きました。 = Por la mañana me levanté a las nueve.
+大学へは行きませんでした。 = No fui a la universidad.
+昨夜は十二時十五分に寝ました。 = Anoche me acosté a las doce y cuarto.
+今朝はとても眠かったです。 = Esta mañana tenía mucho sueño.
+
+## 6 | Días y fechas | Days and dates | Los días de la semana, los días del mes y expresiones de tiempo. | いつ,何日,何曜日
+### 誕生日はいつですか | ¿Cuándo es tu cumpleaños?
+? ¿Cuándo es el cumpleaños de Ana? | 三日 / *十日 / 二十日
+? ¿Qué día de la semana es la fiesta? | 金曜日 / *土曜日 / 日曜日
+ケン：アナさんの誕生日はいつですか。 = Ken: Ana, ¿cuándo es tu cumpleaños?
+アナ：来月の十日です。 = Ana: El día diez del mes que viene.
+ケン：何曜日ですか。 = Ken: ¿Qué día de la semana es?
+アナ：土曜日です。パーティーをします。 = Ana: Es sábado. Voy a hacer una fiesta.
+ケン：いいですね。私の誕生日は先月の二十日でした。 = Ken: ¡Qué bien! Mi cumpleaños fue el veinte del mes pasado.
+
+一週間は七日です。 = Una semana tiene siete días.
+月曜日、火曜日、水曜日、木曜日、金曜日、土曜日、日曜日。 = Lunes, martes, miércoles, jueves, viernes, sábado, domingo.
+月の一日は「ついたち」と読みます。 = El día uno del mes se lee «tsuitachi».
+二日、三日、四日、五日、六日、七日、八日、九日、十日。 = Día dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.
+今日は火曜日です。明日は水曜日です。 = Hoy es martes. Mañana es miércoles.
+明後日はテストがあります。一昨日は休みでした。 = Pasado mañana hay examen. Anteayer fue fiesta.
+今週は忙しいです。先週も忙しかったです。 = Esta semana estoy ocupada. La semana pasada también lo estuve.
+来週は暇です。 = La semana que viene estoy libre.
+毎週、水曜日に日本語の授業があります。 = Cada semana, los miércoles, hay clase de japonés.
+今月は九月です。 = Este mes es septiembre.
+ひと月は四週間ぐらいです。 = Un mes son unas cuatro semanas.
+今年、私は日本へ来ました。去年はスペインにいました。 = Este año vine a Japón. El año pasado estaba en España.
+来年とさ来年も日本にいます。 = El año que viene y el siguiente también estaré en Japón.
+おととしは何をしましたか。 = ¿Qué hiciste hace dos años?
+毎月、毎年、同じことをします。 = Cada mes y cada año hago lo mismo.
+
+## 7 | Comer y beber | Food and drink | Hablar de comida y bebida con を y decir qué te gusta. | を,好き,嫌い
+### 何が好きですか | ¿Qué te gusta?
+? ¿Qué no le gusta a Ken? | 魚 / *牛乳 / 果物
+? ¿Qué toma Ana con el café? | *砂糖 / 塩 / 醤油
+アナ：ケンさんは何が好きですか。 = Ana: Ken, ¿qué te gusta?
+ケン：肉が好きです。牛肉も豚肉も鶏肉も大好きです。 = Ken: Me gusta la carne. Me encantan la de ternera, la de cerdo y el pollo.
+アナ：魚は？ = Ana: ¿Y el pescado?
+ケン：魚も好きです。でも、牛乳は嫌いです。 = Ken: El pescado también me gusta. Pero odio la leche.
+アナ：私は野菜と果物が好きです。 = Ana: A mí me gustan la verdura y la fruta.
+
+朝、私はパンとバターと卵を食べます。 = Por la mañana como pan, mantequilla y huevo.
+飲み物はコーヒーです。 = De bebida, café.
+コーヒーに砂糖を入れます。 = Le pongo azúcar al café.
+ケンさんは紅茶やお茶をよく飲みます。 = Ken bebe a menudo té negro y té verde.
+昼はカレーを食べました。とても辛かったです。 = A mediodía comí curry. Picaba mucho.
+水を沢山飲みました。冷たい水は美味しいです。 = Bebí mucha agua. El agua fría está buena.
+晩は御飯と魚です。醤油と塩を少し使います。 = Por la noche, arroz y pescado. Uso un poco de salsa de soja y sal.
+父はお酒を飲みます。 = Mi padre bebe sake.
+このケーキは甘いです。でも、このお茶はまずいです。 = Este pastel es dulce. Pero este té está malo.
+日本の食べ物は美味しいですね。 = La comida japonesa está buena, ¿verdad?
+
+## 8 | En la cafetería | At the café | Pedir en un restaurante con ～をください y contar vasos y platos. | ください,杯
+### 喫茶店で | En la cafetería
+? ¿Cuántas tazas de café piden? | 一杯 / *二杯 / 三杯
+? ¿Qué falta en la mesa? | お皿 / *フォーク / 箸
+店の人：いらっしゃいませ。何にしますか。 = Camarero: Bienvenidos. ¿Qué van a tomar?
+アナ：コーヒーを二杯ください。 = Ana: Dos tazas de café, por favor.
+店の人：はい。お菓子はいかがですか。 = Camarero: Muy bien. ¿Qué tal unos dulces?
+ケン：じゃ、ケーキを一つください。 = Ken: Entonces, un pastel, por favor.
+アナ：すみません、フォークがありません。 = Ana: Perdone, no hay tenedor.
+店の人：あ、すみません。どうぞ。スプーンとナイフもどうぞ。 = Camarero: Ah, perdone. Aquí tiene. También cuchara y cuchillo.
+
+テーブルの上にお皿とコップとカップがあります。 = Sobre la mesa hay platos, vasos y tazas.
+日本では箸で御飯を食べます。 = En Japón se come el arroz con palillos.
+御飯は茶碗に入れます。 = El arroz se pone en un cuenco.
+アナは飴をなめます。 = Ana chupa un caramelo.
+明日はお弁当を持って、公園へ行きます。 = Mañana iré al parque con la fiambrera.
+灰皿はいりません。私はたばこを吸いません。 = No necesito cenicero. Yo no fumo.
+マッチもいりません。 = Tampoco necesito cerillas.
+
+## 9 | De compras | Shopping | Preguntar precios con いくら y contar cosas con 個, 枚, 本, 冊, 台 y 匹. | いくら,個,枚,冊,台,匹,本
+### 八百屋で | En la verdulería
+? ¿Cuánto cuesta una manzana? | *百円 / 二百円 / 千円
+? ¿Cuántas manzanas compra Ana? | 三個 / *五つ / 十個
+アナ：すみません、このりんごはいくらですか。 = Ana: Perdone, ¿cuánto cuesta esta manzana?
+店の人：一個百円です。 = Dependiente: Cien yenes cada una.
+アナ：安いですね。五つください。 = Ana: Qué barato. Cinco, por favor.
+店の人：はい、五百円です。 = Dependiente: Muy bien, son quinientos yenes.
+アナ：あの野菜は？ = Ana: ¿Y esa verdura?
+店の人：あれは少し高いです。一つ三百円です。 = Dependiente: Esa es un poco cara. Trescientos yenes la unidad.
+アナ：じゃ、それは要りません。 = Ana: Entonces, esa no la necesito.
+
+今日は買い物の日です。 = Hoy es día de compras.
+八百屋の次に、デパートへ行きました。 = Después de la verdulería fui a los grandes almacenes.
+デパートでシャツを二枚と本を三冊買いました。 = En los grandes almacenes compré dos camisas y tres libros.
+鉛筆を六本と切手を十枚買いました。 = Compré seis lápices y diez sellos.
+電気屋にはテレビが四台ありました。 = En la tienda de electrónica había cuatro televisores.
+ペットの店には犬が二匹と猫が三匹いました。 = En la tienda de mascotas había dos perros y tres gatos.
+一つ、二つ、三つ、四つ、五つ、六つ、七つ、八つ、九つ、十。 = Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez (cosas).
+全部で八千円でした。 = En total fueron ocho mil yenes.
+店の人はこの店で古い物も売ります。 = El dependiente también vende cosas viejas en esta tienda.
+
+## 10 | La familia | Family | Hablar de tu familia y la de otros: 父・母 frente a お父さん・お母さん. | ～ている,の
+### 私の家族 | Mi familia
+? ¿Cuántas personas hay en la familia de Ana? | 四人 / *五人 / 六人
+? ¿Dónde trabaja el padre de Ana? | 病院 / *会社 / 学校
+私の家族は五人です。両親と兄と妹と私です。 = Mi familia somos cinco: mis padres, mi hermano mayor, mi hermana menor y yo.
+父は会社に勤めています。毎日遅くまで働きます。 = Mi padre trabaja en una empresa. Trabaja hasta tarde todos los días.
+母は医者です。病院で仕事をしています。 = Mi madre es médica. Trabaja en un hospital.
+兄は二十五歳で、もう結婚しています。 = Mi hermano tiene veinticinco años y ya está casado.
+兄の奥さんはとても可愛い人です。 = La mujer de mi hermano es muy guapa.
+妹はまだ子供です。いつも元気です。 = Mi hermana todavía es una niña. Siempre está llena de energía.
+弟はいません。 = No tengo hermano menor.
+祖父と祖母、つまりおじいさんとおばあさんは村に住んでいます。 = Mis abuelos viven en un pueblo.
+伯父さんと伯母さんも近くに住んでいます。 = Mis tíos también viven cerca.
+
+ケン：アナさんのお父さんとお母さんはお元気ですか。 = Ken: Ana, ¿cómo están tu padre y tu madre?
+アナ：はい、元気です。ケンさんは兄弟がいますか。 = Ana: Sí, están bien. Ken, ¿tienes hermanos?
+ケン：お兄さんみたいな姉が一人います。 = Ken: Tengo una hermana mayor que es como un hermano.
+ケン：家には男は父と私の二人だけです。 = Ken: En casa los únicos hombres somos mi padre y yo.
+アナ：私の家庭はにぎやかです。大勢の人が来ます。 = Ana: Mi casa es muy animada. Viene mucha gente.
+公園で男の子と女の子が遊んでいます。 = En el parque juegan un niño y una niña.
+大人も子供もみんな楽しそうです。 = Adultos y niños, todos parecen contentos.
+私の母はまだ若いです。 = Mi madre todavía es joven.
+
+## 11 | ¿Cómo es? | Describing things | Describir con adjetivos -い y -な, y negarlos con ～くない y ～じゃない. | ～くない,な
+### 新しい部屋 | La habitación nueva
+? ¿Cómo es la nueva habitación de Ken? | 狭くて暗い / *広くて明るい / 古くて汚い
+? ¿Qué problema tiene el edificio? | 遠い / *うるさい / 高い
+アナ：ケンさんの新しい部屋はどうですか。 = Ana: Ken, ¿qué tal tu habitación nueva?
+ケン：広くて明るいです。前の部屋は狭くて暗かったです。 = Ken: Es amplia y luminosa. La anterior era estrecha y oscura.
+アナ：駅から遠いですか。 = Ana: ¿Está lejos de la estación?
+ケン：いいえ、近いです。とても便利です。 = Ken: No, está cerca. Es muy práctico.
+ケン：でも、隣の人がうるさいです。 = Ken: Pero el vecino es ruidoso.
+アナ：それは大変ですね。 = Ana: Vaya, eso es un problema.
+ケン：建物は古いですが、りっぱです。 = Ken: El edificio es viejo, pero es magnífico.
+ケン：部屋は綺麗で、静かです。夜はあまりうるさくないです。 = Ken: La habitación está limpia y es tranquila. De noche no hay mucho ruido.
+
+この箱は大きくて重いです。あの箱は小さくて軽いです。 = Esta caja es grande y pesada. Aquella es pequeña y ligera.
+大きな木の下に小さな花があります。 = Bajo un gran árbol hay una flor pequeña.
+この本は厚いですが、あの本は薄いです。 = Este libro es grueso, pero aquel es fino.
+この道は長いです。あの道は短いです。 = Este camino es largo. Aquel es corto.
+父の腕は太いです。妹の指は細いです。 = Los brazos de mi padre son gruesos. Los dedos de mi hermana son finos.
+月は丸いです。 = La luna es redonda.
+この机は汚いです。掃除しましょう。 = Esta mesa está sucia. Vamos a limpiarla.
+兄は背が高くて、私は背が低いです。 = Mi hermano es alto y yo soy bajo.
+この映画は面白いです。でも、あの映画はつまらないです。 = Esta película es interesante. Pero aquella es aburrida.
+日本語は難しいですか。いいえ、易しいです。 = ¿Es difícil el japonés? No, es fácil.
+このバスは遅いです。電車の方が速いです。 = Este autobús es lento. El tren es más rápido.
+朝早く起きるのは楽しくないです。 = Levantarse temprano no es divertido.
+この道は危ないです。車が多いです。 = Esta calle es peligrosa. Hay muchos coches.
+今日は人が少ないです。 = Hoy hay poca gente.
+強い人も弱い人もいます。 = Hay gente fuerte y gente débil.
+ケンさんの犬は悪い犬じゃありません。いい犬です。 = El perro de Ken no es un perro malo. Es un buen perro.
+
+## 12 | El tiempo y las estaciones | Weather and seasons | Hablar del tiempo y las estaciones, y de cambios con ～くなる. | ～くなる,でしょう
+### 日本の四季 | Las cuatro estaciones de Japón
+? ¿Cuál es la estación preferida de Ana? | 春 / 夏 / *秋
+? ¿Qué tiempo hace hoy? | 晴れ / *曇り / 雪
+日本には春、夏、秋、冬があります。 = En Japón hay primavera, verano, otoño e invierno.
+春は暖かいです。桜の花が咲きます。 = La primavera es templada. Florecen los cerezos.
+夏はとても暑いです。夏休みには海で泳ぎます。 = El verano es muy caluroso. En las vacaciones de verano nado en el mar.
+秋は涼しいです。私は秋が一番好きです。 = El otoño es fresco. El otoño es mi estación preferida.
+冬は寒いです。雪が降ります。 = El invierno es frío. Nieva.
+冬は家でストーブをつけます。 = En invierno encendemos la estufa en casa.
+
+今日の天気は曇りです。空が暗いです。 = Hoy está nublado. El cielo está oscuro.
+朝は晴れていましたが、午後は曇りました。 = Por la mañana hacía sol, pero por la tarde se nubló.
+風も強く吹いています。 = También sopla un viento fuerte.
+夜は雨が降るでしょう。傘を差して出かけます。 = Por la noche lloverá. Saldré con el paraguas abierto.
+明日は晴れるでしょう。 = Mañana hará sol.
+段々寒くなりました。 = Poco a poco ha ido haciendo frío.
+熱いお茶が飲みたいです。 = Quiero beber un té caliente.
+このお茶は温いです。もう熱くないです。 = Este té está tibio. Ya no está caliente.
+雨の後、空がまた青くなりました。 = Después de la lluvia, el cielo volvió a ponerse azul.
+夕方には雲が消えました。 = Al atardecer desaparecieron las nubes.
+
+## 13 | Ir de un sitio a otro | Getting around | Medios de transporte con で, direcciones con へ・に y cuánto se tarda con かかる. | へ,で,かかる
+### 道を教えてください | Indíqueme el camino
+? ¿Cómo va Ana a la universidad? | 自転車で / *地下鉄で / バスで
+? ¿Cuánto se tarda a pie hasta el museo? | 五分 / *十五分 / 一時間
+アナ：すみません、美術館へ行きたいんですが。 = Ana: Perdone, quiero ir al museo.
+男の人：この道をまっすぐ行って、二つ目の交差点を右に曲ってください。 = Hombre: Siga recto por esta calle y gire a la derecha en el segundo cruce.
+男の人：角に銀行があります。橋を渡ると、美術館です。 = Hombre: En la esquina hay un banco. Al cruzar el puente está el museo.
+アナ：歩いてどのくらいかかりますか。 = Ana: ¿Cuánto se tarda andando?
+男の人：十五分ぐらいです。タクシーなら五分です。 = Hombre: Unos quince minutos. En taxi, cinco.
+アナ：地図を見せてください。…ありがとうございます。 = Ana: Enséñeme el mapa, por favor. …Muchas gracias.
+
+私は毎日地下鉄で大学へ行きます。 = Todos los días voy a la universidad en metro.
+駅で切符を買って、電車に乗ります。 = Compro el billete en la estación y subo al tren.
+三つ目の駅で降ります。 = Me bajo en la tercera estación.
+家から大学まで三十分かかります。 = De casa a la universidad tardo treinta minutos.
+ケンさんは自転車で来ます。ケンさんの家は近いです。 = Ken viene en bicicleta. Su casa está cerca.
+父は自動車で会社へ行きます。 = Mi padre va a la empresa en coche.
+バスはよく遅れます。時々、バス停でずっと待ちます。 = El autobús llega tarde a menudo. A veces espero un buen rato en la parada.
+駅の前で車が止まりました。 = El coche se paró delante de la estación.
+空港まで走りました。飛行機は九時に出ます。 = Corrí hasta el aeropuerto. El avión sale a las nueve.
+飛行機が空を飛んでいます。 = Un avión vuela por el cielo.
+大阪に着きました。東京の西にあります。 = Llegué a Osaka. Está al oeste de Tokio.
+北海道は北、沖縄は南、千葉は東にあります。 = Hokkaido está al norte, Okinawa al sur y Chiba al este.
+
+## 14 | Mi casa | My home | Describir una casa, ordenar y pedir que se abra o cierre algo. | ～てください,に
+### アナのアパート | El apartamento de Ana
+? ¿En qué piso vive Ana? | 二階 / *五階 / 十階
+? ¿Qué hay en la cocina? | ベッド / *冷蔵庫 / 本棚
+私のアパートは五階にあります。 = Mi apartamento está en el quinto piso.
+エレベーターがありますが、時々階段を使います。 = Hay ascensor, pero a veces uso las escaleras.
+玄関で靴を脱ぎます。 = En la entrada me quito los zapatos.
+玄関の右に台所があります。台所には冷蔵庫があります。 = A la derecha de la entrada está la cocina. En la cocina hay una nevera.
+廊下の左にトイレとお風呂があります。 = A la izquierda del pasillo están el váter y el baño.
+お手洗いの石鹸はいい匂いがします。 = El jabón del aseo huele bien.
+部屋にはベッドと椅子と本棚があります。 = En la habitación hay una cama, una silla y una estantería.
+窓のそばに花瓶を置きました。 = Puse un jarrón junto a la ventana.
+本棚に本を並べました。 = Coloqué los libros en la estantería.
+門の外に小さな庭があります。 = Fuera de la verja hay un jardín pequeño.
+
+ケン：暑いですね。窓を開けてもいいですか。 = Ken: Hace calor, ¿verdad? ¿Puedo abrir la ventana?
+アナ：どうぞ。ドアも開けてください。 = Ana: Adelante. Abre también la puerta, por favor.
+ケン：あ、戸が開きません。 = Ken: Ah, la puerta (corredera) no se abre.
+アナ：右側を押してください。 = Ana: Empuja el lado derecho.
+ケン：開きました！ = Ken: ¡Se ha abierto!
+アナ：寒くなったら、窓を閉めてください。 = Ana: Si hace frío, cierra la ventana, por favor.
+アナ：夜は電気をつけて、出かける時は消します。 = Ana: Por la noche enciendo la luz, y cuando salgo la apago.
+アナ：店は九時に閉まります。 = Ana: Las tiendas cierran a las nueve.
+アナ：日曜日は掃除と洗濯をします。 = Ana: Los domingos limpio y hago la colada.
+駅の前に人が並んでいます。 = Delante de la estación hay gente haciendo cola.
+
+## 15 | Ropa y colores | Clothes and colours | Verbos de ponerse ropa (着る, はく, かぶる, 掛ける, 締める) y colores. | ～ている,着る,はく
+### 何を着ていますか | ¿Qué llevas puesto?
+? ¿Qué lleva puesto el padre de Ken? | セーター / *背広 / コート
+? ¿De qué color es la falda de Ana? | 黒 / *青 / 黄色
+今日、父は背広を着て、ネクタイを締めています。 = Hoy mi padre lleva traje y corbata.
+シャツは白です。ワイシャツの方がいいと言います。 = La camisa es blanca. Dice que prefiere camisa de vestir.
+眼鏡を掛けて、黒い靴をはいています。 = Lleva gafas y zapatos negros.
+母は赤いセーターと茶色のスカートです。 = Mi madre lleva un jersey rojo y una falda marrón.
+アナは青いスカートをはいて、白い帽子をかぶっています。 = Ana lleva una falda azul y un sombrero blanco.
+ケンは緑のズボンと黄色いシャツです。 = Ken lleva pantalones verdes y una camisa amarilla.
+寒いですから、コートと上着を持って行きます。 = Como hace frío, llevo abrigo y chaqueta.
+部屋に入る時、帽子を脱ぎます。 = Al entrar en una habitación, me quito el sombrero.
+靴下に穴があります。新しい靴下が欲しいです。 = El calcetín tiene un agujero. Quiero calcetines nuevos.
+ポケットにハンカチを入れました。 = Metí un pañuelo en el bolsillo.
+このコートはボタンが一つありません。 = A este abrigo le falta un botón.
+洋服の店で服を見ました。 = Miré ropa en una tienda de ropa.
+私の好きな色は赤と青です。 = Mis colores favoritos son el rojo y el azul.
+黒も白もいい色です。黄色はあまり好きじゃありません。 = El negro y el blanco también son bonitos. El amarillo no me gusta mucho.
+
+## 16 | Aficiones | Hobbies | Hablar de lo que se te da bien o mal con 上手・下手 y de lo que puedes hacer con ～ことができる. | ～ことができる,上手,下手
+### 趣味は何ですか | ¿Cuáles son tus aficiones?
+? ¿Qué instrumento toca Ken? | ピアノ / *ギター / バイオリン
+? ¿Qué no sabe hacer bien Ana? | 歌う / *泳ぐ / 写真を撮る
+アナ：ケンさんの趣味は何ですか。 = Ana: Ken, ¿cuáles son tus aficiones?
+ケン：音楽です。ギターを弾くことができます。 = Ken: La música. Sé tocar la guitarra.
+ケン：歌も好きです。よくカラオケで歌を歌います。 = Ken: También me gusta cantar. A menudo canto en el karaoke.
+アナ：上手ですか。 = Ana: ¿Lo haces bien?
+ケン：いいえ、下手です。でも、楽しいです。 = Ken: No, lo hago mal. Pero es divertido.
+アナ：私はスポーツが好きですが、泳ぐのは下手です。プールは嫌です。 = Ana: Me gusta el deporte, pero nado mal. No me gusta la piscina.
+アナ：写真も好きです。古いカメラで写真を撮ります。 = Ana: También me gusta la fotografía. Hago fotos con una cámara vieja.
+アナ：フィルムのカメラです。 = Ana: Es una cámara de carrete.
+ケン：私の父は絵を描きます。 = Ken: Mi padre pinta cuadros.
+
+祖父はラジオでニュースを聞きます。 = Mi abuelo escucha las noticias en la radio.
+古いレコードとテープも沢山あります。 = También tiene muchos discos y cintas viejos.
+テープレコーダーとラジオカセもまだ使っています。 = Todavía usa una grabadora y un radiocasete.
+父はピアノを弾きません。でも、本を読むのが大好きです。 = Mi padre no toca el piano. Pero le encanta leer.
+弟は友達と山に登るのが好きです。 = A mi hermano le gusta subir montañas con sus amigos.
+
+## 17 | En clase | In class | El vocabulario del aula: preguntar, responder, aprender y olvidar. | ～て,～ましょう,どうして
+### 日本語の授業 | La clase de japonés
+? ¿Qué escribe Ana de deberes? | 手紙 / *作文 / 日記
+? ¿Por qué no hizo Ken los deberes? | 病気でした / *忘れました / 時間がありませんでした
+先生：皆さん、授業を始めましょう。教室に入ってください。 = Profesor: Bien, empecemos la clase. Entrad en el aula, por favor.
+先生：今日は漢字を練習します。教科書の十ページを開いてください。 = Profesor: Hoy practicamos kanji. Abrid el libro por la página diez.
+先生：まず、平仮名と片仮名で書きましょう。 = Profesor: Primero, escribámoslo en hiragana y en katakana.
+アナ：先生、質問があります。この言葉の意味は何ですか。 = Ana: Profesor, tengo una pregunta. ¿Qué significa esta palabra?
+先生：いい質問ですね。誰か答えることができますか。 = Profesor: Buena pregunta. ¿Alguien sabe responder?
+ケン：はい！「勉強する」という意味です。 = Ken: ¡Sí! Significa «estudiar».
+先生：そうです。よくできました。 = Profesor: Exacto. Muy bien.
+先生：宿題は作文です。日本語で短い文章を書いてください。 = Profesor: Los deberes son una redacción. Escribid un texto corto en japonés.
+先生：ケンさん、昨日の宿題は？ = Profesor: Ken, ¿y los deberes de ayer?
+ケン：すみません、忘れました。 = Ken: Lo siento, se me olvidaron.
+先生：どうしてですか。 = Profesor: ¿Por qué?
+ケン：…言葉を覚えるのは難しいです。 = Ken: …Memorizar palabras es difícil.
+先生：毎日少しずつ練習してください。 = Profesor: Practica un poco cada día.
+
+この学校には英語のクラスもあります。 = En esta escuela también hay clase de inglés.
+田中先生は英語も教えます。 = El profesor Tanaka también enseña inglés.
+私は小学校で英語を習いました。 = Aprendí inglés en la escuela primaria.
+授業は九時に始まって、三時に終わります。 = Las clases empiezan a las nueve y terminan a las tres.
+先生は万年筆で書きます。 = El profesor escribe con pluma estilográfica.
+事務室でプリントをコピーしました。 = Fotocopié las hojas en la secretaría.
+この問題は本当に難しいです。 = Este problema es realmente difícil.
+問題が分からない時は、先生に聞きます。 = Cuando no entiendo un problema, le pregunto al profesor.
+
+## 18 | En el médico | At the doctor | Las partes del cuerpo y cómo decir qué te duele. Consejos con ～ほうがいい. | ～ほうがいい,～から
+### 病院で | En el hospital
+? ¿Qué le duele a Ana? | 足 / *頭と喉 / お腹
+? ¿Qué le aconseja el médico? | 運動する / *休む / 旅行する
+医者：どうしましたか。 = Médico: ¿Qué le pasa?
+アナ：昨日から頭が痛いです。喉も痛いです。 = Ana: Me duele la cabeza desde ayer. También la garganta.
+医者：熱はありますか。 = Médico: ¿Tiene fiebre?
+アナ：少しあります。とても疲れました。 = Ana: Un poco. Estoy muy cansada.
+医者：口を開けてください。…風邪ですね。 = Médico: Abra la boca, por favor. …Es un resfriado.
+医者：大丈夫ですよ。重い病気じゃありません。 = Médico: No se preocupe. No es una enfermedad grave.
+医者：この薬を飲んで、家でゆっくりと休んだほうがいいです。 = Médico: Es mejor que se tome esta medicina y descanse tranquilamente en casa.
+アナ：明日、学校へ行ってもいいですか。 = Ana: ¿Puedo ir mañana a clase?
+医者：いいえ、行かないほうがいいです。すぐに寝てください。 = Médico: No, mejor que no vaya. Acuéstese enseguida.
+
+人の体には頭、顔、手、足があります。 = El cuerpo humano tiene cabeza, cara, manos y pies.
+顔には目と耳と鼻と口があります。 = En la cara están los ojos, las orejas, la nariz y la boca.
+食べすぎて、お腹が痛くなりました。 = Comí demasiado y me dolió la tripa.
+祖母は八十歳ですが、とても丈夫です。 = Mi abuela tiene ochenta años, pero está muy fuerte.
+健康は大切です。困った時は、病院に電話してください。 = La salud es importante. Cuando tengas un problema, llama al hospital.
+金魚が死にました。妹は泣いています。 = Se murió el pez de colores. Mi hermana está llorando.
+椅子に座って、少し待ってください。 = Siéntese en la silla y espere un poco, por favor.
+名前を呼びますから、その時は立ってください。 = Le llamaré por su nombre; entonces, levántese, por favor.
+
+## 19 | De viaje | A trip | Contar un viaje en pasado y decir lo que quieres hacer con ～たい. | ～たい,～ました,初めて
+### 夏休みの旅行 | El viaje de las vacaciones de verano
+? ¿Adónde fue Ken? | 海 / *山 / 町
+? ¿Cuántos kilos pesaba la maleta? | 五キロ / *十キロ / 二十キロ
+夏休みに、友達と初めて北の山へ旅行しました。 = En las vacaciones de verano fui por primera vez de viaje con amigos a las montañas del norte.
+荷物は十キロぐらいでした。とても重かったです。 = El equipaje pesaba unos diez kilos. Era muy pesado.
+山の高さは二千メートルです。 = La montaña tiene dos mil metros de altura.
+川の水は冷たくて、綺麗でした。 = El agua del río estaba fría y limpia.
+山には色々な動物がいました。 = En la montaña había muchos animales.
+朝は鳥が鳴いていました。 = Por la mañana cantaban los pájaros.
+夜、みんなで料理を作りました。肉を二百グラムずつ食べました。 = Por la noche cocinamos todos juntos. Comimos doscientos gramos de carne cada uno.
+カレンダーを見て、「もう一週間だ」と思いました。 = Miré el calendario y pensé: «Ya ha pasado una semana».
+ケン：来年は海へ行きたいです。 = Ken: El año que viene quiero ir al mar.
+アナ：私も一緒に行きたいです。 = Ana: Yo también quiero ir con vosotros.
+ケン：じゃ、今晩、計画を立てましょう。 = Ken: Entonces, esta noche hacemos el plan.
+ひとつきに一回、旅行をします。 = Hago un viaje una vez al mes.
+三か月に一度、外国へ行きます。 = Una vez cada tres meses voy al extranjero.
+
+## 20 | Llamadas y favores | Calls and favours | Hablar por teléfono, pedir y prestar cosas: 貸す・借りる・返す. | ～てください,～ませんか
+### もしもし | ¿Diga?
+? ¿Qué le pide Ken a Ana? | 本 / *傘 / お金
+? ¿Dónde quedan? | 駅の前 / *図書館の前 / 学校の前
+ケン：もしもし、アナさんですか。ケンです。 = Ken: ¿Diga? ¿Es Ana? Soy Ken.
+アナ：あ、ケンさん。どうしましたか。 = Ana: Ah, Ken. ¿Qué pasa?
+ケン：傘を無くしました。アナさんの傘を貸してくれませんか。 = Ken: He perdido el paraguas. ¿Me prestas el tuyo?
+アナ：いいですよ。明日、返してくださいね。 = Ana: Vale. Devuélvemelo mañana, ¿eh?
+ケン：もちろんです。図書館の前で会いませんか。三時はどうですか。 = Ken: Claro. ¿Quedamos delante de la biblioteca? ¿Qué tal a las tres?
+アナ：三時ですね。丁度いいです。 = Ana: A las tres. Me viene justo bien.
+ケン：アナさんの電話番号は何番ですか。 = Ken: ¿Cuál es tu número de teléfono?
+アナ：〇九〇の一二三四の五六七八です。 = Ana: 090-1234-5678.
+ケン：ありがとう。それでは、また明日。 = Ken: Gracias. Entonces, hasta mañana.
+
+次の日、ケンさんは図書館で本を二冊借りました。 = Al día siguiente, Ken sacó dos libros de la biblioteca.
+それから、アナさんに傘を渡しました。 = Después, le dio el paraguas a Ana.
+アナさん：ケンさん、この手紙をポストに出してくれませんか。 = Ana: Ken, ¿puedes echar esta carta al buzón?
+ケン：はい。切手は貼りましたか。 = Ken: Sí. ¿Le has pegado el sello?
+アナ：あ、まだです。 = Ana: Ah, todavía no.
+ケン：じゃ、この切手を使ってください。 = Ken: Entonces, usa este sello.
+ケンさんはアナさんにお菓子を上げました。 = Ken le dio unos dulces a Ana.
+
+## 21 | Una tarde con amigos | An afternoon with friends | Repaso de N5: invitar, preguntar opinión y conectar frases con しかし, それから, そうして. | ～ませんか,～ましょう,～ながら,～まえに,～あとで,が
+### 友達の家で | En casa de un amigo
+? ¿Qué hacen antes de comer? | 映画を見る / *手を洗う / 歌を歌う
+? ¿Qué tarta escoge Ana? | 大きい方 / *半分 / 全部
+ケン：アナさん、今、時間がありますか。うちに来ませんか。 = Ken: Ana, ¿tienes tiempo ahora? ¿Por qué no vienes a mi casa?
+アナ：ああ、いいですね。ちょっと待ってください。 = Ana: Ah, qué bien. Espera un momento.
+ケン：さあ、どうぞ。ここは私の好きな所です。 = Ken: Venga, adelante. Este es mi sitio favorito.
+アナ：こんな部屋、いいですね。あなたが作ったんですか。 = Ana: Una habitación así está genial. ¿La has hecho tú?
+ケン：はい。食べる前に、手を洗いましょう。 = Ken: Sí. Antes de comer, lavémonos las manos.
+ケン：ケーキを切ります。どっちがいいですか。 = Ken: Corto el pastel. ¿Cuál prefieres?
+アナ：半分でいいです。もっとは結構です。 = Ana: Con la mitad me basta. Más no, gracias.
+ケン：どんなお茶が好きですか。 = Ken: ¿Qué tipo de té te gusta?
+アナ：緑茶が好きです。でも、紅茶でも大丈夫です。 = Ana: Me gusta el té verde. Pero el té negro también me vale.
+二人はお茶を飲みながら、話をしました。 = Los dos charlaron mientras tomaban té.
+アナ：ケンさんは田中先生を知っていますか。 = Ana: Ken, ¿conoces al profesor Tanaka?
+ケン：ええ。でも、先生の声は小さいです。 = Ken: Sí. Pero el profesor habla en voz baja.
+アナ：なぜですか。 = Ana: ¿Por qué?
+ケン：多分、恥ずかしいからでしょう。 = Ken: Quizá porque es tímido.
+アナ：いいえ、違いますよ。とても静かな人なんです。 = Ana: No, no es eso. Es una persona muy tranquila.
+ケン：この写真の机はたてが一メートル、横が二メートルです。 = Ken: La mesa de esta foto mide un metro de largo y dos de ancho.
+アナ：アイロンやパソコンなど、色々な物がありますね。 = Ana: Hay de todo: plancha, ordenador, etc.
+ケン：壁に絵をかけました。どうですか。 = Ken: He colgado un cuadro en la pared. ¿Qué te parece?
+ケン：先に宿題をやりましょうか。 = Ken: ¿Hacemos primero los deberes?
+アナ：しかし、もう五時ですよ。 = Ana: Pero ya son las cinco.
+ケン：そうして、ゲームをしてから、晩御飯を食べましょう。 = Ken: Pues hacemos eso, jugamos un rato y luego cenamos.
+アナ：あ、電話がかかってきました。母です。 = Ana: Ah, me están llamando. Es mi madre.
+アナ：母に「遅くなる」と話します。 = Ana: Le diré a mi madre que llegaré tarde.
+食べた後で、ケンさんはカーテンを引いて、テレビをつけました。 = Después de comer, Ken corrió la cortina y encendió la tele.
+ケンさんの妹はもっと遊びたがっていました。 = La hermana de Ken quería jugar más.
+アナさんはケンさんに駅まで送ることを頼みました。 = Ana le pidió a Ken que la acompañara a la estación.
+アナ：今年で日本に来て一年です。私はもう二十歳です。 = Ana: Este año hace un año que vine a Japón. Ya tengo veinte años.
+アナ：また来年もここにいたいです。 = Ana: También quiero estar aquí el año que viene.

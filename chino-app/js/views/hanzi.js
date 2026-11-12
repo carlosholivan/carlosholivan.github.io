@@ -1,14 +1,17 @@
 // Characters per HSK level: grid, detail card with stroke-order animation and a writing quiz (Hanzi Writer).
-import { S, update } from '../state.js?v=202611041029';
-import { register } from '../router.js?v=202611041029';
-import { loadHanzi } from '../data.js?v=202611041029';
-import { levelChips, levelLabel } from '../levels.js?v=202611041029';
-import { addCards } from '../engine/anki.js?v=202611041029';
-import { bottomNav, header } from '../ui/components.js?v=202611041029';
-import { speak } from '../audio.js?v=202611041029';
-import { t } from '../i18n.js?v=202611041029';
-import { esc, mean, tonedPinyin, toneOf, sylReady } from '../zh.js?v=202611041029';
-import { allVocab, allHanzi, hanziExtra } from './review.js?v=202611041029';
+import { S, update } from '../state.js?v=202611122130';
+import { register } from '../router.js?v=202611122130';
+import { loadHanzi } from '../data.js?v=202611122130';
+import { levelChips, levelLabel } from '../levels.js?v=202611122130';
+import { addCards } from '../engine/anki.js?v=202611122130';
+import { bottomNav, header } from '../ui/components.js?v=202611122130';
+import { speak } from '../audio.js?v=202611122130';
+import { t } from '../i18n.js?v=202611122130';
+import { esc, mean, tonedPinyin, toneOf, sylReady } from '../zh.js?v=202611122130';
+import { allVocab, allHanzi, hanziExtra } from './review.js?v=202611122130';
+import { LEVELS } from '../levels.js?v=202611122130';
+import { icon } from '../ui/icons.js?v=202611122130';
+import { shortMean } from '../chars.js?v=202611122130';
 
 const PAGE = 120;
 
@@ -40,49 +43,94 @@ window.__hzAddAll = async (level, page) => {
 };
 
 let writer = null;
-register('hanzi-detail', async (el, params = {}) => {
+
+// Midori-style character sheet: meaning, readings, strokes, components and the words that use it.
+// Shown as a page ('hanzi-detail') or as an overlay over flashcards (window.__charSheet) so a review session isn't lost.
+async function sheetHtml(c) {
   const hm = await allHanzi();
   await sylReady;
-  const h = hm.get(params.c);
-  if (!h) { el.innerHTML = `<div class="fade">${header(params.c, true)}<div class="muted">—</div></div>`; return; }
+  const h = hm.get(c);
+  if (!h) return null;
   const vm = await allVocab();
   const lang = S.lang;
-  const words = (h.words || []).map(w => vm.get(w)).filter(Boolean).slice(0, 8);
   const inDeck = !!(S.hcards || {})[h.c];
-  el.innerHTML = `<div class="fade">
-    ${header(h.c, true)}
-    <div class="card" style="padding:20px;text-align:center">
-      <div id="hz-writer" class="hz-writer"></div>
-      <div class="anki-py" style="font-size:22px">${tonedPinyin(h.p, { play: true })}${(h.pa || []).length ? ` <span class="muted small">(${h.pa.map(esc).join(', ')})</span>` : ''}
-        <button class="anki-spk" style="position:static" onclick="window.__speakZh('${esc(h.c)}')">🔊</button></div>
-      <div class="anki-ans">${esc(mean(h.m, lang))}</div>
-      ${hanziExtra(h, lang)}
-      <div class="muted small mt-8">${levelLabel(h.lv)}</div>
-      <div class="flex gap-8 mt-16" style="justify-content:center;flex-wrap:wrap">
-        <button class="btn btn-soft btn-small" onclick="window.__hzAnim()">▶️ ${t('strokeOrder')}</button>
-        <button class="btn btn-soft btn-small" onclick="window.__hzQuiz()">✍️ ${t('practiceWriting')}</button>
-        <button class="btn btn-soft btn-small" ${inDeck ? 'disabled' : ''} onclick="window.__hzAdd('${esc(h.c)}', this)">🗂️ ${inDeck ? t('inDeck') : t('addToDeck')}</button>
+  // Every word of every level that contains the character, by level then frequency.
+  const all = [...vm.values()].filter(v => v.w.includes(h.c));
+  const order = l => LEVELS.indexOf(l);
+  all.sort((a, b) => (order(a.lv) - order(b.lv)) || ((a.q || 99999) - (b.q || 99999)));
+  const words = all.slice(0, 14);
+  const parts = h.dec ? [...h.dec].filter(x => /[\u3400-\u9fff]/.test(x) && x !== h.c) : [];
+  const hl = w => esc(w).split(esc(h.c)).join(`<b>${esc(h.c)}</b>`);
+  const strokes = await strokeCount(h.c);
+  return `<div class="card" style="padding:0;overflow:hidden">
+      <div class="ks-head">
+        <div class="ks-big">${esc(h.c)}</div>
+        <div class="grow">
+          <div class="ks-mean">${esc(mean(h.m, lang))}</div>
+          <div class="ks-tags"><span class="ks-tag">${levelLabel(h.lv)}</span>${strokes ? `<span class="ks-tag">${t('strokesN').replace('{n}', strokes)}</span>` : ''}${h.rad ? `<span class="ks-tag">${t('radicalLbl')} ${esc(h.rad)}</span>` : ''}${h.t && h.t !== h.c ? `<span class="ks-tag">${t('traditional')} ${esc(h.t)}</span>` : ''}</div>
+        </div>
       </div>
-      <div id="hz-msg" class="small mt-8"></div>
+      <div class="ks-read">
+        <div><div class="k">${t('pinyinLbl')}</div><div class="v">${tonedPinyin(h.p, { play: true })}${(h.pa || []).length ? ` <span class="muted small">${h.pa.map(esc).join(', ')}</span>` : ''}</div></div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+          <button class="icon-btn card" style="width:42px;height:42px" onclick="window.__speakZh('${esc(h.c)}')">${icon('speaker', 20)}</button>
+          <button class="icon-btn card" style="width:42px;height:42px" onclick="window.__hzAnim()">${icon('play', 20)}</button>
+          <button class="icon-btn card" style="width:42px;height:42px" onclick="window.__hzQuiz()">${icon('pencil', 20)}</button>
+        </div>
+      </div>
+      <div style="padding:0 20px 18px;text-align:center">
+        <div id="hz-writer" class="hz-writer"></div>
+        <div id="hz-msg" class="small mt-8"></div>
+        ${hanziExtra({ ...h, rad: null, t: null }, lang)}
+        <button class="btn btn-soft btn-small mt-12" ${inDeck ? 'disabled' : ''} onclick="window.__hzAdd('${esc(h.c)}', this)">${inDeck ? t('inDeck') : t('addToDeck')}</button>
+      </div>
     </div>
-    ${words.length ? `<div class="h3 mt-16 mb-8">${t('wordsWith')} ${esc(h.c)}</div>
-    <div class="card" style="padding:12px">${words.map(w => `<div class="hz-word" onclick="window.__speakZh('${esc(w.w)}')">
-      <span class="zh-big-inline">${esc(w.w)}</span> <span class="small">${tonedPinyin(w.p, { play: true })}</span>
-      <span class="muted small">· ${esc(mean(w.m, lang))}</span> <span class="badge">${levelLabel(w.lv)}</span></div>`).join('')}</div>` : ''}
-  </div>${bottomNav('hanzi')}`;
-  speak(h.c);
+    ${parts.length ? `<div class="ks-sec">${t('partsLbl')}</div><div class="ks-parts">${parts.map(p => {
+      const ph = hm.get(p);
+      return `<div class="ks-part" onclick="window.__charSheet('${esc(p)}')"><span>${esc(p)}</span><small>${esc(ph ? shortMean(ph.m) : '')}</small></div>`;
+    }).join('')}</div>` : ''}
+    ${words.length ? `<div class="ks-sec">${t('wordsWithN').replace('{c}', esc(h.c))} · ${all.length}</div>
+    <div class="card" style="padding:0">${words.map(w => `<div class="ks-word" onclick="window.__speakZh('${esc(w.w)}')">
+      <span class="w">${hl(w.w)}</span><span class="r">${tonedPinyin(w.p)}</span><span class="m">${esc(mean(w.m, lang))}</span><span class="lv">${levelLabel(w.lv)}</span></div>`).join('')}</div>` : ''}`;
+}
+
+async function strokeCount(c) {
+  try { const d = await fetch(`data/strokes/${c}.json`).then(r => r.json()); return (d.strokes || []).length; } catch (e) { return 0; }
+}
+
+function mountWriter(c) {
   writer = null;
-  if (window.HanziWriter) {
-    const dark = document.body.classList.contains('dark');
-    writer = window.HanziWriter.create('hz-writer', h.c, {
-      width: 200, height: 200, padding: 8, showOutline: true,
-      strokeColor: dark ? '#eee' : '#222', outlineColor: dark ? '#444' : '#ddd', radicalColor: '#e74c3c',
-      strokeAnimationSpeed: 1.2, delayBetweenStrokes: 250,
-      charDataLoader: (c, ok, fail) => fetch(`data/strokes/${c}.json`).then(r => r.json()).then(ok).catch(fail),
-    });
-    writer.animateCharacter();
-  }
+  if (!window.HanziWriter || !document.getElementById('hz-writer')) return;
+  const dark = document.body.classList.contains('dark');
+  writer = window.HanziWriter.create('hz-writer', c, {
+    width: 180, height: 180, padding: 8, showOutline: true,
+    strokeColor: dark ? '#ece6db' : '#2b2722', outlineColor: dark ? '#3a352b' : '#e8e2d9', radicalColor: dark ? '#c9a86a' : '#9c7842',
+    strokeAnimationSpeed: 1.2, delayBetweenStrokes: 250,
+    charDataLoader: (ch, ok, fail) => fetch(`data/strokes/${ch}.json`).then(r => r.json()).then(ok).catch(fail),
+  });
+  writer.animateCharacter();
+}
+
+register('hanzi-detail', async (el, params = {}) => {
+  const html = await sheetHtml(params.c);
+  el.innerHTML = `<div class="fade">${header(params.c || '', true)}${html || `<div class="muted">${t('noCharData')}</div>`}</div>${bottomNav('hanzi')}`;
+  if (html) { speak(params.c); mountWriter(params.c); }
 });
+
+// Overlay version, used from flashcards and lessons.
+window.__charSheet = async (c) => {
+  document.querySelectorAll('.char-sheet').forEach(x => x.remove());
+  const html = await sheetHtml(c);
+  const sheet = document.createElement('div');
+  sheet.className = 'sheet-backdrop char-sheet fade';
+  sheet.innerHTML = `<div class="sheet slideup" style="max-height:90vh">
+    <div class="flex items-center justify-between mb-12"><span class="h3">${t('charSheet')}</span>
+      <button class="btn btn-soft btn-small" onclick="this.closest('.sheet-backdrop').remove()">${t('close')}</button></div>
+    ${html || `<div class="muted">${t('noCharData')}</div>`}</div>`;
+  sheet.addEventListener('click', e => { if (e.target === sheet) sheet.remove(); });
+  document.body.appendChild(sheet);
+  if (html) { speak(c); mountWriter(c); }
+};
 
 window.__speakZh = (w) => speak(w);
 window.__hzAnim = () => { if (writer) { writer.cancelQuiz(); writer.showCharacter(); writer.animateCharacter(); } };
@@ -96,4 +144,4 @@ window.__hzQuiz = () => {
     onComplete: (d) => { msg.textContent = `✅ ${d.totalMistakes ? d.totalMistakes + ' ✗' : '💯'}`; },
   });
 };
-window.__hzAdd = (c, btn) => { addCards([c], 'h'); btn.disabled = true; btn.textContent = '🗂️ ' + t('inDeck'); };
+window.__hzAdd = (c, btn) => { addCards([c], 'h'); btn.disabled = true; btn.textContent = t('inDeck'); };

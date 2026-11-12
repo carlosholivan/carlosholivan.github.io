@@ -1,15 +1,16 @@
-import { S, update } from '../state.js?v=202611041029';
-import { register, go } from '../router.js?v=202611041029';
-import { t } from '../i18n.js?v=202611041029';
-import { speak } from '../audio.js?v=202611041029';
-import { deckStats } from '../engine/anki.js?v=202611041029';
-import { failedWords } from '../engine/srs.js?v=202611041029';
-import { allVocab } from './review.js?v=202611041029';
-import { loadUnits } from '../data.js?v=202611041029';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611041029';
-import { textsWithRecommendation } from './texts.js?v=202611041029';
-import { ruby, pyReady } from '../zh.js?v=202611041029';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611041029';
+import { S, update } from '../state.js?v=202611122130';
+import { register, go } from '../router.js?v=202611122130';
+import { t } from '../i18n.js?v=202611122130';
+import { speak } from '../audio.js?v=202611122130';
+import { deckStats } from '../engine/anki.js?v=202611122130';
+import { failedWords } from '../engine/srs.js?v=202611122130';
+import { allVocab } from './review.js?v=202611122130';
+import { loadUnits } from '../data.js?v=202611122130';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611122130';
+import { textsWithRecommendation } from './texts.js?v=202611122130';
+import { ruby, pyReady } from '../zh.js?v=202611122130';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611122130';
+import { mascot } from '../ui/mascot.js?v=202611122130';
 
 const zh = (s) => ruby(s);
 
@@ -35,7 +36,8 @@ function needsLevel() {
   return true;
 }
 
-const LEVEL_ICONS = ['🌱', '🌿', '🌳', '🏯', '🏔️', '🐉', '🚀'];
+const LEVEL_ICONS = ['一', '二', '三', '四', '五', '六', '七'];
+const STUDY_BADGE = { '📖': '文', '🗂️': '词', '✍️': '练', '📚': '词', '🎧': '听' };
 
 register('level-pick', async (el) => {
   await pyReady;
@@ -43,7 +45,7 @@ register('level-pick', async (el) => {
     <div class="h1 mb-8">${zh('你的中文水平怎么样？')}</div>
     <div class="muted mb-16">${t('whatLevel')}</div>
     ${LEVELS.map((id, i) => `<button class="card study-opt" style="animation-delay:${i * 0.07}s" onclick="window.__pickLevel('${id}')">
-      <span class="study-ic">${LEVEL_ICONS[i]}</span>
+      <span class="kbadge sm">${LEVEL_ICONS[i]}</span>
       <div class="grow" style="text-align:left"><div class="study-es">${t(LEVEL_NAME[id])} <span class="study-level" style="margin-left:6px">${levelLabel(id)}</span></div><div class="muted small">${t('lvDesc' + (i + 1))}</div></div>
       <span class="muted">›</span>
     </button>`).join('')}
@@ -65,7 +67,7 @@ function continueToApp() {
 register('name', async (el) => {
   await pyReady;
   el.innerHTML = `<div class="fade welcome-name">
-    <div class="welcome-wave">👋</div>
+    <div class="welcome-wave">${mascot('cheer', 110)}</div>
     <div class="h1 mb-8">${zh('你叫什么名字？')}</div>
     <div class="muted mb-16">${t('whatsYourName')}</div>
     <input id="name-input" type="text" maxlength="30" autocomplete="given-name" placeholder="${t('namePlaceholder')}" style="margin-bottom:8px">
@@ -101,7 +103,7 @@ register('welcome', async (el) => {
 
   el.innerHTML = `<div class="welcome" onclick="window.__welcomeContinue()">
     <div class="welcome-bubbles"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-    <div class="welcome-wave">👋</div>
+    <div class="welcome-wave">${mascot('cheer', 110)}</div>
     <div class="welcome-hello">${letters}</div>
     <div class="welcome-line" style="animation-delay:${lineDelay}s">${line}</div>
     <div class="welcome-tr muted" style="animation-delay:${lineDelay + 0.3}s">${esc(away ? away.tr : t(returning ? 'welcomeBackTr' : 'niceToMeetTr').replace('{n}', S.name))}</div>
@@ -160,7 +162,7 @@ register('study-pick', async (el) => {
     <div class="muted mb-16">${t('whatStudyToday')}</div>
     ${info ? `<div class="away-info ${away ? 'warn' : ''} mb-12">${esc(info)}</div>` : ''}
     ${history ? `<button class="card study-opt review-opt ${away ? 'hot' : ''}" onclick="window.__startReview()">
-      <span class="study-ic">🔁</span>
+      <span class="kbadge sm">复</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('复习')}</div><div class="muted small">${t('reviewLessonTr')}</div></div>
       <span class="muted">›</span>
     </button>` : ''}
@@ -169,32 +171,32 @@ register('study-pick', async (el) => {
       <div class="grow"><div class="muted small">${t('unit')} ${num}</div><div style="font-weight:700">${title}</div></div>
     </div>
     ${opts.map(([id, ic, es, tr], i) => `<button class="card study-opt" style="animation-delay:${i * 0.08}s" onclick="window.__studyPick('${id}', ${num})">
-      <span class="study-ic">${ic}</span>
+      <span class="kbadge sm">${STUDY_BADGE[ic] || ic}</span>
       <div class="grow" style="text-align:left"><div class="study-es">${es}</div><div class="muted small">${tr}</div></div>
       <span class="muted">›</span>
     </button>`).join('')}
     ${rec ? `<button class="card study-opt" style="animation-delay:.24s" onclick="window.__openText('${rec.id}')">
-      <span class="study-ic">📄</span>
+      <span class="kbadge sm">读</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('阅读')}</div><div class="muted small">${t('texts')} · ${esc(rec.title[S.lang] || rec.title.en)} · <span lang="zh">${esc(rec.title.zh || '')}</span></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.28s" onclick="window.__nav('drills')">
-      <span class="study-ic">🎯</span>
+      <span class="kbadge sm">练</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('语法练习')}</div><div class="muted small">${t('grammarPractice')}</div></div>
       <span class="muted">›</span>
     </button>
     <button class="card study-opt" style="animation-delay:.32s" onclick="window.__go('review',{deck:'v'})">
-      <span class="study-ic">🃏</span>
+      <span class="kbadge sm">卡</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('生词复习')}</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
       <span class="muted">›</span>
     </button>
     ${nFailed ? `<button class="card study-opt" style="animation-delay:.36s" onclick="window.__go('review', {mode:'failed'})">
-      <span class="study-ic">❌</span>
+      <span class="kbadge sm">错</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('错词复习')}</div><div class="muted small">${t('failedReview')} · ${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.4s" onclick="window.__nav('vocab-list')">
-      <span class="study-ic">📋</span>
+      <span class="kbadge sm">词</span>
       <div class="grow" style="text-align:left"><div class="study-es">${zh('词汇表')}</div><div class="muted small">${t('vocabListHint')}</div></div>
       <span class="muted">›</span>
     </button>
