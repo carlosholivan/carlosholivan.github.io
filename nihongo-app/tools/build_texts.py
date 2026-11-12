@@ -215,7 +215,7 @@ def make_gaps(t, vocab, rng):
 
 def grammar_intro(points, level):
     L = level.upper()
-    gl = legacy['grammar'].get(L, [])
+    gl = legacy['grammar'].get(L, []) + [x for k, v in legacy['grammar'].items() if k != L for x in v]
     def find(p):
         if p in GEXTRA: return {'p': p, **GEXTRA[p], 'explain': GEXTRA[p]}
         norm = lambda x: re.split(r'[ (（]', x.replace('～', ''))[0]
@@ -245,6 +245,7 @@ for lv in LEVELS:
     units_out, texts_out, extra = [], [], {}
     by_word = {v['w']: v for v in vocab}
     assigned = {}
+    seen_in = {}
     if path.exists():
         units = parse(path)
         order = 0
@@ -261,7 +262,8 @@ for lv in LEVELS:
                 furi[t['ja']] = furi_line(tokens(t['ja']))
                 hits = text_hits([x for para in tok for x in para], vocab)
                 for w in hits:
-                    assigned.setdefault(w, u['id'])
+                    seen_in.setdefault(w, [])
+                    if u['id'] not in seen_in[w]: seen_in[w].append(u['id'])
                 vocab_keys = {}
                 for vv in vocab:
                     for kk in keys_for(vv): vocab_keys.setdefault(kk, vv['w'])
@@ -278,6 +280,13 @@ for lv in LEVELS:
                 })
                 tl.append(t)
             u['_texts'] = tl
+        # Each word is taught in one of the units whose texts use it: the least loaded one,
+        # deciding first the words that have the fewest options (keeps lessons balanced).
+        load = {u['id']: 0 for u in units}
+        for w in sorted(seen_in, key=lambda w: (len(seen_in[w]), seen_in[w][0])):
+            if w in prev_words: continue
+            uid = min(seen_in[w], key=lambda i: (load[i], i))
+            assigned[w] = uid; load[uid] += 1
         for u in units:
             new = [w for w, uid in assigned.items() if uid == u['id'] and w not in prev_words]
             new.sort(key=lambda w: by_word[w].get('q', 99999))

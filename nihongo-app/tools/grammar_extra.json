@@ -244,5 +244,341 @@
 "form": "V-ても ・ Aくても ・ Aな／N + でも",
 "nuance": "Concesión: el resultado no cambia aunque se cumpla la condición.",
 "tip": "雨が降っても行きます。"
+},
+"～に (frecuencia)": {
+"es": "al/por (frecuencia)",
+"form": "periodo + に + número + 回",
+"nuance": "Indica cuántas veces ocurre algo en un periodo.",
+"tip": "一日に二回 = dos veces al día."
+},
+"～ずつ": {
+"es": "cada uno, de … en …",
+"form": "número + ずつ",
+"nuance": "Reparte la misma cantidad por unidad o avanza poco a poco.",
+"tip": "一人に二つずつ ・ 少しずつ"
+},
+"助詞＋は／も": {
+"es": "partícula + は／も",
+"form": "には・では・とは・からは… ・ にも・でも・とも…",
+"nuance": "は añade contraste o tema a otra partícula; も añade «también». が y を desaparecen: (×をは) → は.",
+"tip": "日本では… ・ 誰にも言わない。"
+},
+"名詞の説明": {
+"es": "oraciones que describen a un sustantivo",
+"form": "forma simple + N",
+"nuance": "Toda la frase va delante del sustantivo, sin pronombre relativo. Dentro, el sujeto puede ir con の.",
+"tip": "母が作ったケーキ ・ 私の住んでいる町"
+},
+"Nしか～ない": {
+"es": "solo (con verbo negativo)",
+"form": "N + しか + V-ない",
+"nuance": "Recalca que hay poco o menos de lo esperado. El verbo siempre va en negativo.",
+"tip": "百円しかありません。"
+},
+"Nでも": {
+"es": "… o algo así (sugerencia)",
+"form": "N + でも",
+"nuance": "Suaviza una propuesta dando un ejemplo: no tiene por qué ser exactamente eso.",
+"tip": "お茶でも飲みませんか。"
+},
+"N1とかN2とか": {
+"es": "cosas como … y …",
+"form": "N1 とか N2 (とか)",
+"nuance": "Enumera ejemplos de forma coloquial, como や…など.",
+"tip": "パンとかミルクとかを買った。"
+},
+"Nも (énfasis)": {
+"es": "nada menos que",
+"form": "número + も",
+"nuance": "Tras una cantidad, expresa que al hablante le parece mucho.",
+"tip": "三時間も待った。"
+},
+"～まで／～までに": {
+"es": "hasta / para antes de",
+"form": "時間 + まで (acción continua) ・ 時間 + までに (plazo)",
+"nuance": "まで: algo dura hasta ese punto. までに: algo debe ocurrir antes de ese límite.",
+"tip": "五時まで働く ・ 五時までに帰る"
+},
+"～ところ": {
+"es": "a punto de / en medio de / acabar de",
+"form": "Vるところ ・ Vているところ ・ Vたところ",
+"nuance": "Sitúa la acción en el tiempo: justo antes, en curso o justo después.",
+"tip": "今、出かけるところです。"
+},
+"～とき": {
+"es": "cuando",
+"form": "V1る／V1た + とき + V2",
+"nuance": "Con る, V2 ocurre antes de terminar V1; con た, después.",
+"tip": "日本に来るとき、… ・ 日本に来たとき、…"
+},
+"～間／～間に": {
+"es": "mientras / durante",
+"form": "V-ている + 間(に) ・ N の + 間(に)",
+"nuance": "間: todo el periodo. 間に: en algún momento dentro de él.",
+"tip": "寝ている間に雨が降った。"
+},
+"N中 (じゅう／ちゅう)": {
+"es": "todo el … / en curso",
+"form": "N + 中",
+"nuance": "じゅう: a lo largo de todo (一日中, 世界中). ちゅう: en curso (仕事中, 会議中).",
+"tip": "今日は一日中雨だった。"
+},
+"～て／～で (modo)": {
+"es": "forma -te: modo, medio",
+"form": "V-て + V ・ N + で",
+"nuance": "La forma -te indica cómo se hace algo: 歩いて行く, 急いで食べる.",
+"tip": "バスに乗って来ました。"
+},
+"～まま": {
+"es": "tal cual, sin cambiar",
+"form": "V-た／V-ない + まま ・ N の + まま",
+"nuance": "La situación sigue igual mientras ocurre otra cosa, a menudo de forma inadecuada.",
+"tip": "電気をつけたまま寝た。"
+},
+"～くする／～にする": {
+"es": "hacer que algo sea …",
+"form": "Aい → Aくする ・ Aな／N + にする",
+"nuance": "Cambio provocado por alguien (frente a ～くなる, que es un cambio natural).",
+"tip": "部屋を明るくする。"
+},
+"～なきゃ／～なくちゃ": {
+"es": "tengo que (coloquial)",
+"form": "V-なきゃ (いけない) ・ V-なくちゃ (いけない)",
+"nuance": "Contracciones de ～なければ／～なくては, muy usadas al hablar.",
+"tip": "もう行かなきゃ。"
+},
+"～といい／～ばいい／～たらいい": {
+"es": "lo mejor es…, basta con…",
+"form": "V-ば いい ・ V-たら いい ・ V-る と いい",
+"nuance": "Para dar o pedir consejo: どうしたらいいですか.",
+"tip": "薬を飲むといいですよ。"
+},
+"～ちゃう／～じゃう": {
+"es": "forma coloquial de ～てしまう",
+"form": "V-てしまう → V-ちゃう ・ V-でしまう → V-じゃう",
+"nuance": "Misma idea (acabar del todo o lamentarlo) en registro informal.",
+"tip": "全部食べちゃった。"
+},
+"～てあげる・～てくれる・～てもらう": {
+"es": "hacer favores",
+"form": "V-て + あげる／くれる／もらう",
+"nuance": "Las mismas direcciones que dar/recibir, pero con acciones: quién hace el favor a quién.",
+"tip": "友達が手伝ってくれた。"
+},
+"さしあげる・くださる・いただく": {
+"es": "dar y recibir con respeto",
+"form": "さしあげる (dar a un superior) ・ くださる (un superior me da) ・ いただく (recibo de un superior)",
+"nuance": "Versiones honoríficas/humildes de あげる, くれる y もらう. También con ～て.",
+"tip": "先生に本をいただきました。"
+},
+"～ようにする": {
+"es": "procurar, intentar habitualmente",
+"form": "V-る／V-ない + ようにする",
+"nuance": "Esfuerzo continuado por crear un hábito.",
+"tip": "毎日野菜を食べるようにしています。"
+},
+"～ように言う": {
+"es": "decir / pedir que …",
+"form": "V-る／V-ない + ように + 言う・頼む",
+"nuance": "Transmite una orden o petición en estilo indirecto.",
+"tip": "先生は宿題を出すように言いました。"
+},
+"こんな／そんな／あんな／どんな": {
+"es": "un … así",
+"form": "こんな・そんな・あんな・どんな + N ・ こんなに… (tan)",
+"nuance": "Serie こ・そ・あ・ど para describir el tipo de algo.",
+"tip": "こんなに難しいとは思わなかった。"
+},
+"～というN／どういうN": {
+"es": "un N llamado … / qué clase de",
+"form": "N1 という N2 ・ どういう N ・ coloquial: ～っていう",
+"nuance": "Presenta un nombre que el oyente quizá no conoce, o pregunta por su naturaleza.",
+"tip": "「すし」という料理 ・ どういう意味ですか。"
+},
+"命令形・禁止形": {
+"es": "imperativo y prohibición",
+"form": "Grupo I: 書け ・ Grupo II: 食べろ ・ する→しろ, 来る→来い ・ prohibición: V-る + な",
+"nuance": "Muy bruscos: carteles, deportes, situaciones de urgencia o entre hombres jóvenes.",
+"tip": "走るな！ ・ 止まれ！"
+},
+"～なさい": {
+"es": "haz… (orden de superior)",
+"form": "V-ます + なさい",
+"nuance": "Orden de padres a hijos o de profesores en instrucciones de examen.",
+"tip": "早く寝なさい。"
+},
+"～の／～こと": {
+"es": "nominalizar un verbo",
+"form": "forma simple + の／こと + は・が・を",
+"nuance": "Convierte una frase en sustantivo. の con verbos de percepción y sentimientos; こと en expresiones fijas (ことができる…).",
+"tip": "漢字を書くのは大変です。"
+},
+"～かどうか／疑問詞～か": {
+"es": "si… o no / qué, dónde… (pregunta incrustada)",
+"form": "forma simple + かどうか ・ 疑問詞 + forma simple + か",
+"nuance": "Mete una pregunta dentro de otra frase.",
+"tip": "来るかどうか分かりません ・ 何時に来るか教えて。"
+},
+"～のに (para)": {
+"es": "para (finalidad, con uso o coste)",
+"form": "V-る + のに + 使う／いい／かかる・必要",
+"nuance": "Indica para qué sirve o cuánto cuesta algo.",
+"tip": "この箱は本を入れるのにいい。"
+},
+"可能形": {
+"es": "forma potencial (poder)",
+"form": "Grupo I: 書ける ・ Grupo II: 食べられる ・ する→できる, 来る→来られる",
+"nuance": "El objeto suele pasar a llevar が: 漢字が読める. Equivale a ～ことができる.",
+"tip": "日本語が話せます。"
+},
+"見える／聞こえる": {
+"es": "verse / oírse (espontáneo)",
+"form": "N が 見える／聞こえる ・ frente a 見られる／聞ける (poder, por oportunidad)",
+"nuance": "見える y 聞こえる: llega a los sentidos sin esfuerzo. 見られる y 聞ける: es posible hacerlo.",
+"tip": "窓から海が見えます。"
+},
+"～のが見える／～のを見る": {
+"es": "ver / oír cómo …",
+"form": "forma simple + の が 見える／聞こえる ・ の を 見る／聞く",
+"nuance": "Percibes una acción completa de otro.",
+"tip": "子供が歌っているのが聞こえる。"
+},
+"疑問詞＋ても": {
+"es": "por mucho que, haga lo que haga",
+"form": "いくら／どんなに／何を… + V-ても",
+"nuance": "Concesión con interrogativo: el resultado no cambia en ningún caso.",
+"tip": "いくら食べても太らない。"
+},
+"～のに (aunque)": {
+"es": "aunque (con queja o sorpresa)",
+"form": "forma simple + のに ・ Aな／N + なのに",
+"nuance": "Contraste con un resultado inesperado, a menudo con insatisfacción.",
+"tip": "約束したのに、来なかった。"
+},
+"Aさ": {
+"es": "sustantivo a partir de adjetivo",
+"form": "Aい → Aさ ・ Aな → Aさ",
+"nuance": "Expresa el grado o la medida: 高さ (altura), 大切さ (importancia).",
+"tip": "この山の高さは三千メートルです。"
+},
+"だから／それで／それに／そのうえ": {
+"es": "conectores de causa y añadido",
+"form": "だから (por eso, opinión) ・ それで (por eso, hecho) ・ それに・そのうえ (además)",
+"nuance": "だから permite órdenes o opiniones después; それで solo hechos. それに y そのうえ añaden información.",
+"tip": "雨だ。だから、行かない。"
+},
+"V方": {
+"es": "manera de hacer",
+"form": "V-ます + 方 ・ el objeto pasa a の",
+"nuance": "Convierte el verbo en «la forma de…».",
+"tip": "漢字の読み方 ・ 使い方"
+},
+"～てほしい・～てもらいたい": {
+"es": "quiero que (otro) haga",
+"form": "N に V-て ほしい／もらいたい／いただきたい",
+"nuance": "Deseo sobre la acción de otra persona.",
+"tip": "もっと話してほしい。"
+},
+"～てくれませんか／～ていただけませんか": {
+"es": "¿podría…? (petición cortés)",
+"form": "V-て + くれませんか ・ もらえませんか ・ いただけませんか ・ くださいませんか",
+"nuance": "Peticiones de menor a mayor cortesía.",
+"tip": "窓を開けていただけませんか。"
+},
+"～たらどうですか": {
+"es": "¿por qué no…? (sugerencia)",
+"form": "V-たら + どうですか／いかがですか",
+"nuance": "Propone una acción al oyente.",
+"tip": "少し休んだらどうですか。"
+},
+"～が、／～けれど": {
+"es": "pero; (introducción suave)",
+"form": "forma + が ・ けれど／けど",
+"nuance": "Contraste o simple introducción antes de una petición o pregunta.",
+"tip": "すみませんが、… ・ 高いけど、買う。"
+},
+"意向形 (Vよう)": {
+"es": "forma volitiva (hagamos / voy a)",
+"form": "Grupo I: 書こう ・ Grupo II: 食べよう ・ する→しよう, 来る→来よう",
+"nuance": "Versión informal de ～ましょう: propuesta o decisión.",
+"tip": "一緒に行こう！"
+},
+"～ようと思う": {
+"es": "pienso hacer",
+"form": "V-よう + と思う／と思っている",
+"nuance": "Intención decidida en el momento (と思う) o desde hace tiempo (と思っている).",
+"tip": "来年、日本へ行こうと思います。"
+},
+"～みたいだ": {
+"es": "parece (coloquial)",
+"form": "forma simple + みたいだ ・ N + みたいだ",
+"nuance": "Versión coloquial de ～ようだ; también compara: 夢みたい.",
+"tip": "雨が降ったみたいだ。"
+},
+"～かもしれない": {
+"es": "quizás, puede que",
+"form": "forma simple + かもしれない ・ Aな／N + かもしれない",
+"nuance": "Posibilidad, con menos seguridad que でしょう.",
+"tip": "明日は雪かもしれない。"
+},
+"V始める／出す／終わる／続ける": {
+"es": "verbos compuestos de fase",
+"form": "V-ます + 始める・出す・終わる・続ける",
+"nuance": "Empezar, echar a (de repente), terminar y seguir haciendo algo.",
+"tip": "急に雨が降り出した。"
+},
+"使役受身": {
+"es": "causativa pasiva (ser obligado a)",
+"form": "Grupo I: 書かされる ・ Grupo II: 食べさせられる ・ する→させられる",
+"nuance": "El sujeto hace algo contra su voluntad porque otro le obliga.",
+"tip": "部長にお酒を飲まされた。"
+},
+"～させてください": {
+"es": "déjeme…, permítame…",
+"form": "V-causativa-て + ください",
+"nuance": "Pide permiso para hacer algo uno mismo.",
+"tip": "私にやらせてください。"
+},
+"自動詞と他動詞": {
+"es": "verbos intransitivos y transitivos",
+"form": "N が 開く (intr.) ・ N を 開ける (tr.)",
+"nuance": "Muchos verbos van en pareja: 閉まる/閉める, つく/つける, 始まる/始める.",
+"tip": "ドアが開いた ・ ドアを開けた"
+},
+"～ている (estado)": {
+"es": "estado resultante",
+"form": "V(intransitivo)-ている",
+"nuance": "Describe cómo está algo después de un cambio, sin pensar en quién lo hizo.",
+"tip": "かぎがかかっている。"
+},
+"～ていく／～てくる": {
+"es": "ir … / venir …",
+"form": "V-て + いく／くる",
+"nuance": "Dirección física (持っていく) o cambio en el tiempo: hacia el futuro (いく) o hasta ahora (くる).",
+"tip": "寒くなってきました。"
+},
+"～んです": {
+"es": "explicación (～のです)",
+"form": "forma simple + んです ・ Aな／N + なんです",
+"nuance": "Pide o da una explicación y aporta tono personal.",
+"tip": "どうしたんですか。 — 頭が痛いんです。"
+},
+"～ね／～よ": {
+"es": "partículas finales ね・よ",
+"form": "… ね ・ … よ",
+"nuance": "ね busca acuerdo o confirma; よ comunica algo nuevo al oyente.",
+"tip": "いい天気ですね。 ・ 危ないですよ。"
+},
+"～かな／～かしら／～なあ": {
+"es": "me pregunto si… / ¡qué…!",
+"form": "forma simple + かな(あ)・かしら ・ ～なあ",
+"nuance": "かな y かしら (más femenino): duda en voz alta; なあ: emoción o deseo.",
+"tip": "明日晴れるかなあ。"
+},
+"～で (total／medio)": {
+"es": "en total; con; solo",
+"form": "N + で",
+"nuance": "Con cantidades marca el total (三つで百円) y con personas, cuántos lo hacen (一人で, 家族で).",
+"tip": "全部でいくらですか。"
 }
 }
