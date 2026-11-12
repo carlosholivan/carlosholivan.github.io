@@ -724,5 +724,107 @@
 "form": "V-て + くれ + と頼まれた／言われた",
 "nuance": "Petición transmitida en estilo indirecto; くれ es la orden de くれる.",
 "tip": "友達に手伝ってくれと頼まれた。"
+},
+"～ずに": {
+"es": "sin hacer",
+"form": "V-ない (sin ない) + ずに ・ する → せずに",
+"nuance": "Versión más escrita de ～ないで.",
+"tip": "朝ご飯を食べずに出かけた。"
+},
+"として": {
+"es": "como, en calidad de",
+"form": "N + として",
+"nuance": "Papel, cargo o punto de vista desde el que se actúa.",
+"tip": "通訳として働く。"
+},
+"にしては": {
+"es": "para ser…",
+"form": "N／forma simple + にしては",
+"nuance": "Lo real contradice lo que se esperaría de esa condición.",
+"tip": "初めてにしては上手だ。"
+},
+"にしても": {
+"es": "aunque sea, incluso si",
+"form": "N／forma simple + にしても",
+"nuance": "Concesión: aunque se acepte eso, la conclusión no cambia.",
+"tip": "冗談にしても、言いすぎだ。"
+},
+"としたら／とすれば": {
+"es": "si suponemos que…",
+"form": "forma simple + としたら／とすれば",
+"nuance": "Hipótesis o suposición sobre algo que no es seguro.",
+"tip": "行くとしたら、来週だ。"
+},
+"つもりでした": {
+"es": "tenía intención de (pero…)",
+"form": "V-る／V-ない + つもりでした",
+"nuance": "Plan del pasado que normalmente no se cumplió.",
+"tip": "電話するつもりでしたが、忘れました。"
+},
+"べきだ": {
+"es": "deberías, hay que (deber moral)",
+"form": "V-る + べきだ ・ する → すべき ・ negativo: べきではない",
+"nuance": "Juicio de lo correcto u obligado; más fuerte que ～ほうがいい.",
+"tip": "約束は守るべきだ。"
+},
+"ものだ": {
+"es": "es natural que…; solía…",
+"form": "forma simple + ものだ ・ V-た + ものだ",
+"nuance": "1) Verdad general o naturaleza de algo. 2) Con た: recuerdo nostálgico de algo habitual.",
+"tip": "子供はよく遊ぶものだ ・ 昔はよく泳いだものだ。"
+},
+"ついでに": {
+"es": "aprovechando, de paso",
+"form": "V-る／V-た／N の + ついでに",
+"nuance": "Al hacer algo principal, se aprovecha para hacer otra cosa.",
+"tip": "買い物のついでに銀行に寄った。"
+},
+"たびに": {
+"es": "cada vez que",
+"form": "V-る／N の + たびに",
+"nuance": "Siempre que ocurre A, ocurre B.",
+"tip": "この歌を聞くたびに泣いてしまう。"
+},
+"とたん": {
+"es": "nada más…, en el momento en que",
+"form": "V-た + とたん(に)",
+"nuance": "B ocurre justo al pasar A, a menudo de forma inesperada.",
+"tip": "立ったとたん、めまいがした。"
+},
+"最中に": {
+"es": "en pleno…, justo durante",
+"form": "V-ている／N の + 最中に",
+"nuance": "Algo interrumpe una acción en curso.",
+"tip": "会議の最中に電話が鳴った。"
+},
+"とおり": {
+"es": "tal como",
+"form": "V-る／V-た／N の + とおり(に) ・ N + どおり",
+"nuance": "Hacer algo siguiendo un modelo, una instrucción o una predicción.",
+"tip": "説明書のとおりに組み立てる。"
+},
+"っぱなし": {
+"es": "dejar (algo) sin terminar / sin parar",
+"form": "V-ます + っぱなし",
+"nuance": "Una situación queda así de forma descuidada o se prolonga.",
+"tip": "窓を開けっぱなしにした。"
+},
+"きり／っきり": {
+"es": "solo; desde entonces no…",
+"form": "N + きり ・ V-た + きり (～ない)",
+"nuance": "1) Limitación: 二人きり. 2) Algo pasó una vez y no se repitió.",
+"tip": "彼は出かけたきり帰らない。"
+},
+"ふりをする": {
+"es": "fingir, hacer como que",
+"form": "forma simple + ふりをする ・ N の + ふり",
+"nuance": "Aparentar algo que no es verdad.",
+"tip": "寝たふりをする。"
+},
+"～がる": {
+"es": "mostrar (otro) un sentimiento o deseo",
+"form": "Aい → A + がる ・ V-たい → V-たがる",
+"nuance": "Describe desde fuera lo que siente o quiere otra persona (怖がる, 欲しがる). No se usa para uno mismo.",
+"tip": "子供が犬を怖がる。"
 }
 }
