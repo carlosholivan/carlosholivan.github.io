@@ -1,15 +1,15 @@
-import { S, update, isUnitDone } from '../state.js?v=202611131500';
-import { register, go } from '../router.js?v=202611131500';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131500';
-import { bottomNav, header } from '../ui/components.js?v=202611131500';
-import { t } from '../i18n.js?v=202611131500';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131500';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131500';
-import { speak, stop } from '../audio.js?v=202611131500';
-import { translit, shown } from '../ar.js?v=202611131500';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611131500';
-import { addCards } from '../engine/anki.js?v=202611131500';
-import { allHanzi } from './review.js?v=202611131500';
+import { S, update, isUnitDone } from '../state.js?v=202611131800';
+import { register, go } from '../router.js?v=202611131800';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131800';
+import { bottomNav, header } from '../ui/components.js?v=202611131800';
+import { t } from '../i18n.js?v=202611131800';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131800';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131800';
+import { speak, stop } from '../audio.js?v=202611131800';
+import { translit, shown } from '../ar.js?v=202611131800';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611131800';
+import { addCards } from '../engine/anki.js?v=202611131800';
+import { allHanzi } from './review.js?v=202611131800';
 
 const tr = (o) => (o && (o[S.lang] || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
