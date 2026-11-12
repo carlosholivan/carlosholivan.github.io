@@ -225,6 +225,7 @@ FORM_RULES = [
     (V + r'(?:ない|forma ない)\s*\(?sin ない\)?', 'naistem', 'V-ない sin ない'),
     (V + r'ます\s*\(?(?:sin ます|raíz)\)?', 'stem', 'V-ます sin ます'),
     (V + r'ます', 'stem', 'V-ます sin ます'),
+    (r'Raíz(?:\s*ます)?(?=\s*\+)', 'stem', 'V-ます sin ます'),
     (V + r'(?:dicc\.?|diccionario|辞書形|る(?!れる))', 'dict', 'V-dicc. (る)'),
     (V + r'(?:普通形|forma (?:simple|llana))', 'plain', 'V forma llana'),
     (r'forma (?:simple|llana)|普通形', 'plain', 'forma llana'),
