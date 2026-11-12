@@ -15,6 +15,8 @@ Usage: python3 tools/build_ja.py <REF dir>
 """
 import json, re, sys, glob, shutil, unicodedata
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from clean_es import clean_es
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data'
@@ -159,7 +161,7 @@ for L in ['N5', 'N4', 'N3', 'N2', 'N1']:
             else: n_es_src['en'] += 1
         item = {
             'word': w0, 'w': w0, 'r': kata2hira(r0) if not KATA.match(w0) else r0, 'p': '',
-            'm': {'es': es or en, 'en': en}, 'q': rank(v['w'], r0),
+            'm': {'es': clean_es(es, en) or en, 'en': en}, 'q': rank(v['w'], r0),
         }
         if not es:
             item['m']['es_missing'] = True
@@ -231,7 +233,7 @@ def kanji_entry(c, lv):
     item = {
         'c': c, 'on': on, 'kun': kun,
         'p': '・'.join(on[:3]) + (' / ' if on and kun else '') + '・'.join(kun[:3]),
-        'm': {'es': ', '.join(es[:4]) if es else ', '.join(en[:4]), 'en': ', '.join(en[:4])},
+        'm': {'es': clean_es(', '.join(es[:4]), ', '.join(en[:4])) if es else ', '.join(en[:4]), 'en': ', '.join(en[:4])},
         'rad': rad, 'n': strokes, 'q': q,
         'parts': [x for x in krad.get(c, []) if x != c],
     }
