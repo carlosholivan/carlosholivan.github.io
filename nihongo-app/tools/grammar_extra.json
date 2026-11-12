@@ -1096,5 +1096,113 @@
 "form": "A。ところで、B",
 "nuance": "Cambia de tema en una conversación.",
 "tip": "ところで、明日は暇？"
+},
+"としても": {
+"es": "aunque (suponiendo que)",
+"form": "forma simple + としても",
+"nuance": "Concesión hipotética: aun suponiendo que se cumpla A, B no cambia.",
+"tip": "今から行ったとしても、間に合わない。"
+},
+"もしも～なら／たら／ても": {
+"es": "si (en el improbable caso)",
+"form": "もしも + ～なら／～たら／～ても",
+"nuance": "もしも refuerza que la hipótesis es poco probable o imaginaria.",
+"tip": "もしも宝くじが当たったら、世界旅行をしたい。"
+},
+"ことは～が": {
+"es": "sí…, pero",
+"form": "V／A + ことは + V／A + が",
+"nuance": "Admite algo con reservas para introducir una objeción.",
+"tip": "行くことは行くが、遅れる。"
+},
+"ないことはない": {
+"es": "no es que no…",
+"form": "V-ない／Aくない + ことはない",
+"nuance": "Doble negación: es posible, pero sin entusiasmo o con dudas.",
+"tip": "食べられないことはないが、好きじゃない。"
+},
+"たところ": {
+"es": "al hacer (descubrí que)",
+"form": "V-た + ところ(、)",
+"nuance": "Tras hacer A, se descubre o resulta B.",
+"tip": "先生に聞いたところ、明日は休みだった。"
+},
+"ところだった": {
+"es": "por poco…, casi…",
+"form": "V-る + ところだった",
+"nuance": "Algo estuvo a punto de pasar, pero no pasó.",
+"tip": "もう少しで遅れるところだった。"
+},
+"てはじめて": {
+"es": "solo después de…, hasta que no…",
+"form": "V-て + はじめて",
+"nuance": "Uno se da cuenta de algo solo tras vivirlo.",
+"tip": "病気になってはじめて、健康の大切さが分かった。"
+},
+"うちに": {
+"es": "mientras (antes de que cambie)",
+"form": "V-る／V-ない／Aい／N の + うちに",
+"nuance": "Aprovechar un estado antes de que cambie, o algo que pasa mientras dura otra cosa.",
+"tip": "熱いうちに食べてください。"
+},
+"まったく～ない": {
+"es": "en absoluto",
+"form": "まったく + V-ない",
+"nuance": "Negación total.",
+"tip": "まったく分からない。"
+},
+"めったに～ない": {
+"es": "raramente, casi nunca",
+"form": "めったに + V-ない",
+"nuance": "Muy baja frecuencia.",
+"tip": "父はめったに怒らない。"
+},
+"少しも～ない": {
+"es": "ni lo más mínimo",
+"form": "少しも + V-ない",
+"nuance": "Negación completa, algo menos formal que まったく.",
+"tip": "少しも疲れていない。"
+},
+"それと／あと": {
+"es": "y además (al añadir)",
+"form": "A。それと／あと、B",
+"nuance": "Añade un elemento más en conversación.",
+"tip": "コーヒーをください。あと、ケーキも。"
+},
+"それとも": {
+"es": "¿o…? (elección)",
+"form": "A ですか。それとも B ですか",
+"nuance": "Ofrece una alternativa en una pregunta.",
+"tip": "お茶にしますか。それとも、コーヒー？"
+},
+"そのうえ": {
+"es": "además, encima",
+"form": "A。そのうえ、B",
+"nuance": "Añade algo en la misma línea (positivo o negativo).",
+"tip": "この店は安い。そのうえ、おいしい。"
+},
+"～わけだ": {
+"es": "así que…, con razón",
+"form": "forma simple + わけだ",
+"nuance": "Conclusión lógica a partir de los datos: por eso…",
+"tip": "三年住んでいたから、日本語が上手なわけだ。"
+},
+"～わけではない": {
+"es": "no es que…",
+"form": "forma simple + わけではない",
+"nuance": "Niega parcialmente una conclusión que el oyente podría sacar.",
+"tip": "嫌いなわけではないが、あまり食べない。"
+},
+"～わけがない": {
+"es": "es imposible que",
+"form": "forma simple + わけがない",
+"nuance": "Negación rotunda basada en la lógica.",
+"tip": "あの人が嘘をつくわけがない。"
+},
+"～わけにはいかない": {
+"es": "no puedo (por razones sociales o morales)",
+"form": "V-る + わけにはいかない ・ V-ない + わけにはいかない (tengo que)",
+"nuance": "No es posible por obligación, deber o sentido común.",
+"tip": "約束したから、行かないわけにはいかない。"
 }
 }
