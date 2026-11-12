@@ -1,17 +1,17 @@
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611130800';
-import { buildReview } from '../engine/review.js?v=202611130800';
-import { addCards } from '../engine/anki.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611130800';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611130800';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611130800';
-import { recordAnswer } from '../engine/srs.js?v=202611130800';
-import { progressBar } from '../ui/components.js?v=202611130800';
-import { icon } from '../ui/icons.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { speak, stop as stopAudio } from '../audio.js?v=202611130800';
-import { allHanzi } from './review.js?v=202611130800';
-import { charWord, hasChars } from '../chars.js?v=202611130800';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611131200';
+import { buildReview } from '../engine/review.js?v=202611131200';
+import { addCards } from '../engine/anki.js?v=202611131200';
+import { register, go } from '../router.js?v=202611131200';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611131200';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611131200';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611131200';
+import { recordAnswer } from '../engine/srs.js?v=202611131200';
+import { progressBar } from '../ui/components.js?v=202611131200';
+import { icon } from '../ui/icons.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { speak, stop as stopAudio } from '../audio.js?v=202611131200';
+import { allHanzi } from './review.js?v=202611131200';
+import { charWord, hasChars } from '../chars.js?v=202611131200';
 
 const MAX_HEARTS = 5;
 
@@ -23,11 +23,11 @@ function fmt(key, arg) {
   return t(key).replace('{w}', esc(arg));
 }
 
-const onlyHan = s => [...String(s)].filter(c => /[\u3400-\u9fff]/.test(c)).join('');
+const onlyHan = s => [...String(s).replace(/[\u064b-\u0652\u0670\u0640]/g, '').replace(/[أإآٱ]/g, 'ا')].filter(c => /[\u0621-\u064a]/.test(c)).join('');
 
 // Chinese answer with pinyin above (ruby) when the pinyin is known.
 function zhAnswer(text, py) {
-  return /[\u3400-\u9fff]/.test(text) ? ruby(text, py ? { py } : {}) : esc(text);
+  return /[\u0621-\u064a]/.test(text) ? ruby(text, py ? { py } : {}) : esc(text);
 }
 
 register('lesson', async (el, params) => {
@@ -36,13 +36,13 @@ register('lesson', async (el, params) => {
   if (review && !review.queue.length) {
     el.innerHTML = `<div class="fade center" style="padding-top:60px">
       <div style="font-size:56px;margin-bottom:12px">🌱</div>
-      <div class="h2 mb-8">復習</div>
+      <div class="h2 mb-8">مُرَاجَعَة</div>
       <div class="muted mb-16">${t('reviewEmpty')}</div>
       <button class="btn" onclick="window.__nav('home')">${t('continue')}</button></div>`;
     return;
   }
   let unit = review
-    ? { title: { es: 'Repaso', en: 'Review', ja: '復習', ko: '복습' }, exercises: [] }
+    ? { title: { es: 'Repaso', en: 'Review', ja: 'مُرَاجَعَة', ko: '복습' }, exercises: [] }
     : await loadUnit(params.level, params.unit);
   if (!unit) { go('home'); return; }
   // Sets 2–7 are optional extra practice: different sentences and a different slice of the unit's vocabulary.
@@ -202,7 +202,7 @@ register('lesson', async (el, params) => {
 
   function optionsHtml(ex, handler) {
     return `<div id="options">${ex.options.map((opt, i) =>
-      `<button class="exercise-option ${ex.kind === 'tone' ? 'py-opt' : /[\u3400-\u9fff]/.test(opt) ? 'zh-opt' : ''}" onclick="window.${handler}(${i})">${ex.kind === 'tone' ? tonedPinyin(opt) : esc(opt)}</button>`).join('')}</div>`;
+      `<button class="exercise-option ${ex.kind === 'tone' ? 'py-opt' : /[\u0621-\u064a]/.test(opt) ? 'zh-opt' : ''}" onclick="window.${handler}(${i})">${ex.kind === 'tone' ? tonedPinyin(opt) : esc(opt)}</button>`).join('')}</div>`;
   }
 
   function renderByType(ex) {

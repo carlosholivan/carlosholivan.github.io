@@ -1,16 +1,16 @@
-import { S, update } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { speak } from '../audio.js?v=202611130800';
-import { deckStats } from '../engine/anki.js?v=202611130800';
-import { failedWords } from '../engine/srs.js?v=202611130800';
-import { allVocab } from './review.js?v=202611130800';
-import { loadUnits } from '../data.js?v=202611130800';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611130800';
-import { textsWithRecommendation } from './texts.js?v=202611130800';
-import { ruby, pyReady } from '../ar.js?v=202611130800';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611130800';
-import { mascot } from '../ui/mascot.js?v=202611130800';
+import { S, update } from '../state.js?v=202611131200';
+import { register, go } from '../router.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { speak } from '../audio.js?v=202611131200';
+import { deckStats } from '../engine/anki.js?v=202611131200';
+import { failedWords } from '../engine/srs.js?v=202611131200';
+import { allVocab } from './review.js?v=202611131200';
+import { loadUnits } from '../data.js?v=202611131200';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611131200';
+import { textsWithRecommendation } from './texts.js?v=202611131200';
+import { ruby, pyReady } from '../ar.js?v=202611131200';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611131200';
+import { mascot } from '../ui/mascot.js?v=202611131200';
 
 const zh = (s) => ruby(s);
 
@@ -36,13 +36,13 @@ function needsLevel() {
   return true;
 }
 
-const LEVEL_ICONS = ['五', '四', '三', '二', '一'];
-const STUDY_BADGE = { '📖': '文', '🗂️': '語', '✍️': '練', '📚': '語', '🎧': '聴' };
+const LEVEL_ICONS = ['أ١', 'أ٢', 'ب١', 'ب٢', 'ج١', 'ج٢'];
+const STUDY_BADGE = { '📖': 'ق', '🗂️': 'ك', '✍️': 'ت', '📚': 'ك', '🎧': 'س' };
 
 register('level-pick', async (el) => {
   await pyReady;
   el.innerHTML = `<div class="fade study-pick">
-    <div class="h1 mb-8">${zh('日本語のレベルはどのくらいですか？')}</div>
+    <div class="h1 mb-8">${zh('مَا مُسْتَوَاكَ فِي العَرَبِيَّة؟')}</div>
     <div class="muted mb-16">${t('whatLevel')}</div>
     ${LEVELS.map((id, i) => `<button class="card study-opt" style="animation-delay:${i * 0.07}s" onclick="window.__pickLevel('${id}')">
       <span class="kbadge sm">${LEVEL_ICONS[i]}</span>
@@ -51,7 +51,7 @@ register('level-pick', async (el) => {
     </button>`).join('')}
     <div class="muted small mt-8">${t('levelChangeLater')}</div>
   </div>`;
-  speak('日本語のレベルはどのくらいですか？');
+  speak('مَا مُسْتَوَاكَ فِي العَرَبِيَّة؟');
 });
 
 window.__pickLevel = (level) => {
@@ -68,7 +68,7 @@ register('name', async (el) => {
   await pyReady;
   el.innerHTML = `<div class="fade welcome-name">
     <div class="welcome-wave">${mascot('cheer', 110)}</div>
-    <div class="h1 mb-8">${zh('お名前は何ですか？')}</div>
+    <div class="h1 mb-8">${zh('مَا اسْمُكَ؟')}</div>
     <div class="muted mb-16">${t('whatsYourName')}</div>
     <input id="name-input" type="text" maxlength="30" autocomplete="given-name" placeholder="${t('namePlaceholder')}" style="margin-bottom:8px">
     <div id="name-error" class="small mb-12" style="color:var(--no);min-height:18px"></div>
@@ -93,9 +93,9 @@ window.__saveName = () => {
 register('welcome', async (el) => {
   await pyReady;
   const returning = !!S.welcomed;
-  const hello = `こんにちは、${String(S.name).replace(/[<>&"']/g, '')}さん！`;
+  const hello = `مَرْحَبًا يَا ${String(S.name).replace(/[<>&"']/g, '')}!`;
   const away = returning ? awayLine() : null;
-  const lineZh = away ? away.es : returning ? 'おかえりなさい！' : 'はじめまして！';
+  const lineZh = away ? away.es : returning ? 'أَهْلًا بِعَوْدَتِكَ!' : 'تَشَرَّفْنَا!';
   const line = zh(lineZh);
   const letters = [...hello].map((c, i) =>
     `<span class="wl" style="animation-delay:${0.35 + i * 0.05}s">${c === ' ' ? '&nbsp;' : esc(c)}</span>`).join('');
@@ -123,8 +123,8 @@ window.__welcomeContinue = continueToApp;
 function awayLine() {
   const d = daysAway;
   if (d < 2) return null;
-  if (d >= 30) return { es: 'お久しぶりです！会いたかったです。', tr: t('awayLong') };
-  return { es: `${d}日ぶりですね。`, tr: t('awayDays').replace('{d}', d) };
+  if (d >= 30) return { es: 'زَمَان! اِشْتَقْنَا إِلَيْكَ.', tr: t('awayLong') };
+  return { es: `غِبْتَ ${d} أَيَّام.`, tr: t('awayDays').replace('{d}', d) };
 }
 
 function awayInfo() {
@@ -145,9 +145,9 @@ register('study-pick', async (el) => {
   const title = unit ? esc(unit.title[S.lang] || unit.title.en) : '';
   await pyReady;
   const opts = [
-    ['grammar', '📖', zh('文法'), t('stepGrammar')],
-    ['vocab', '🗂️', zh('単語'), t('stepVocab')],
-    ['practice', '✍️', zh('練習'), t('stepPractice')],
+    ['grammar', '📖', zh('قَوَاعِد'), t('stepGrammar')],
+    ['vocab', '🗂️', zh('كَلِمَات'), t('stepVocab')],
+    ['practice', '✍️', zh('تَمَارِين'), t('stepPractice')],
   ];
   const deck = deckStats();
   let nFailed = 0;
@@ -158,12 +158,12 @@ register('study-pick', async (el) => {
   const { rec } = await textsWithRecommendation(S.level);
 
   el.innerHTML = `<div class="fade study-pick">
-    <div class="h1 mb-8">${zh('今日は何を勉強しますか？')}</div>
+    <div class="h1 mb-8">${zh('مَاذَا تَدْرُسُ اليَوْمَ؟')}</div>
     <div class="muted mb-16">${t('whatStudyToday')}</div>
     ${info ? `<div class="away-info ${away ? 'warn' : ''} mb-12">${esc(info)}</div>` : ''}
     ${history ? `<button class="card study-opt review-opt ${away ? 'hot' : ''}" onclick="window.__startReview()">
-      <span class="kbadge sm">復</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('復習')}</div><div class="muted small">${t('reviewLessonTr')}</div></div>
+      <span class="kbadge sm">م</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('مُرَاجَعَة')}</div><div class="muted small">${t('reviewLessonTr')}</div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <div class="study-unit card mb-16">
@@ -176,33 +176,33 @@ register('study-pick', async (el) => {
       <span class="muted">›</span>
     </button>`).join('')}
     ${rec ? `<button class="card study-opt" style="animation-delay:.24s" onclick="window.__openText('${rec.id}')">
-      <span class="kbadge sm">読</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('読み物')}</div><div class="muted small">${t('texts')} · ${esc(rec.title[S.lang] || rec.title.en)} · <span lang="zh">${esc(rec.title.zh || '')}</span></div></div>
+      <span class="kbadge sm">ق</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('قِرَاءَة')}</div><div class="muted small">${t('texts')} · ${esc(rec.title[S.lang] || rec.title.en)} · <span lang="zh">${esc(rec.title.zh || '')}</span></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.28s" onclick="window.__nav('drills')">
-      <span class="kbadge sm">練</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('文法練習')}</div><div class="muted small">${t('grammarPractice')}</div></div>
+      <span class="kbadge sm">ت</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('تَمَارِينُ القَوَاعِد')}</div><div class="muted small">${t('grammarPractice')}</div></div>
       <span class="muted">›</span>
     </button>
     <button class="card study-opt" style="animation-delay:.32s" onclick="window.__go('review',{deck:'v'})">
-      <span class="kbadge sm">札</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('単語の復習')}</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
+      <span class="kbadge sm">ب</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('مُرَاجَعَةُ الكَلِمَات')}</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
       <span class="muted">›</span>
     </button>
     ${nFailed ? `<button class="card study-opt" style="animation-delay:.36s" onclick="window.__go('review', {mode:'failed'})">
-      <span class="kbadge sm">誤</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('間違えた単語')}</div><div class="muted small">${t('failedReview')} · ${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
+      <span class="kbadge sm">خ</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('كَلِمَات صَعْبَة')}</div><div class="muted small">${t('failedReview')} · ${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.4s" onclick="window.__nav('vocab-list')">
-      <span class="kbadge sm">語</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('単語リスト')}</div><div class="muted small">${t('vocabListHint')}</div></div>
+      <span class="kbadge sm">ك</span>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('قَائِمَةُ الكَلِمَات')}</div><div class="muted small">${t('vocabListHint')}</div></div>
       <span class="muted">›</span>
     </button>
     <button class="btn-link muted small mt-16" onclick="window.__nav('home')">${t('goToMap')}</button>
   </div>`;
-  speak('今日は何を勉強しますか？');
+  speak('مَاذَا تَدْرُسُ اليَوْمَ؟');
 });
 
 window.__studyPick = (start, unit) => go('lesson', { level: S.level, unit, start });

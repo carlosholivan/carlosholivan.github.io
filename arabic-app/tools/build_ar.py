@@ -28,18 +28,26 @@ PREF = ['وال', 'فال', 'بال', 'كال', 'لل', 'ال', 'و', 'ف', 'ب'
 SUFF = ['كما', 'هما', 'كم', 'كن', 'هم', 'هن', 'نا', 'ها', 'ون', 'ين', 'ان', 'ات', 'وا', 'تم', 'ة', 'ه', 'ك', 'ي', 'ت']
 
 def variants(tok):
-    """Normalised forms of a text token with clitics stripped (best effort)."""
+    """Normalised forms of a text token with clitics stripped, most literal first."""
     t = norm(tok)
-    out = {t}
-    for p in [''] + PREF:
-        if p and not t.startswith(p): continue
-        b = t[len(p):]
-        if len(b) < 2: continue
-        out.add(b)
-        for s in SUFF:
-            if b.endswith(s) and len(b) - len(s) >= 2:
-                out.add(b[:-len(s)])
-                out.add(b[:-len(s)] + 'ة')
+    if t.endswith('ا') and 'ً' in tok: t0 = [t, t[:-1]]      # accusative tanwin alif
+    else: t0 = [t]
+    out = []
+    def add(x):
+        if len(x) >= 2 and x not in out: out.append(x)
+    for w in t0:
+        for p in [''] + PREF:
+            if p and not w.startswith(p): continue
+            add(w[len(p):])
+        for p in [''] + PREF:
+            if p and not w.startswith(p): continue
+            b = w[len(p):]
+            for s_ in SUFF:
+                if b.endswith(s_) and len(b) - len(s_) >= 2:
+                    st = b[:-len(s_)]
+                    if st.endswith('ت'): add(st[:-1] + 'ة')
+                    add(st); add(st + 'ة')
+                    if st.endswith('ا') and s_ == 'ي': add(st[:-1] + 'ة'); add(st + 'ء')
     return out
 
 def verb_forms(past, pres):
@@ -70,6 +78,9 @@ def parse(path):
                    'grammar': [g.strip() for g in p[4].split(',')] if len(p) > 4 and p[4] else [],
                    'letters': [], 'vocab': [], 'texts': []}
             units.append(cur); txt = None
+        elif line.startswith('~ '):
+            a, b = [x.strip() for x in line[2:].split('|')]
+            cur.setdefault('alias', []).append((a, b))
         elif line.startswith('@ '):
             cur['letters'] = line[2:].split()
         elif line.startswith('+ '):
@@ -94,7 +105,7 @@ def parse(path):
             t['paras'] = [p for p in t['paras'] if p]
     return units
 
-TOKRX = re.compile(r'[؀-ۿً-ْٰ]+|[^؀-ۿ]+|[؟،؛]')
+TOKRX = re.compile('[\u0621-\u065f\u0670\u0671\u0640]+|[\u060c\u061b\u061f]|[^\u0621-\u065f\u0670\u0671\u0640\u060c\u061b\u061f]+')
 
 def tokenize(line, index):
     toks = []
@@ -106,7 +117,8 @@ def tokenize(line, index):
     for t in TOKRX.findall(line):
         key = None
         if re.search('[ء-ي]', t):
-            for v in variants(t):
+            ex = re.sub('[َُِ]$', '', t)
+            for v in ['=' + ex, '=' + re.sub('^و', '', ex)] + variants(t):
                 if v in index: key = index[v]; break
         toks.append([t, [[t, None]], key])
     return toks
@@ -185,7 +197,15 @@ def main():
         units = parse(path) if path.exists() else []
         rng = random.Random(lv)
         vocab, index = [], dict(prev_index)
+        seen = set(prev_index.get('__seen__', []))
         for u in units:
+            keep = []
+            u['listed'] = [v['w'] for v in u['vocab']]
+            for v in u['vocab']:
+                k = v['w'].rstrip('؟').strip()
+                if k in seen: continue
+                seen.add(k); keep.append(v)
+            u['vocab'] = keep
             for v in u['vocab']:
                 order_q += 1
                 e = {'word': v['w'], 'w': v['w'], 'r': '', 'p': v['w'], 'm': {'es': v['es'], 'en': v['en']},
@@ -194,9 +214,20 @@ def main():
                 elif v['x']: e['pl'] = v['x']
                 vocab.append(e)
                 index.setdefault(norm(v['w']), v['w'])
+                index.setdefault('=' + re.sub('[َُِ]$', '', v['w']), v['w'])
                 if e.get('pl'): index.setdefault(norm(e['pl']), v['w'])
                 if v['pos'] == 'v':
-                    for f in verb_forms(v['w'], v['x']): index.setdefault(f, v['w'])
+                    past, pres = v['w'], v['x']
+                    if norm(past)[:1] in 'يت' and len(norm(past)) > 3 and v['x'] and norm(v['x'])[:1] not in 'يت': past, pres = v['x'], v['w']
+                    for f in verb_forms(past, pres): index.setdefault(f, v['w'])
+        for u in units:
+            for a, b in u.get('alias', []):
+                for f in a.split(): index.setdefault('=' + re.sub('[َُِ]$', '', f), b); index.setdefault(norm(f), b)
+        for v in vocab:
+            parts = v['w'].replace('؟', '').split()
+            if len(parts) > 1:
+                for part in parts:
+                    if len(norm(part)) > 2: index.setdefault(norm(part), v['w'])
         words = [v['w'] for v in vocab]
         units_out, texts_out, extra = [], [], {}
         order = 0
@@ -212,7 +243,7 @@ def main():
                     'gaps': {'items': [], 'distractors': []},
                     'tok': [[tokenize(a, index) for a, _ in para] for para in t['paras']],
                 })
-            new = [v['w'] for v in u['vocab']]
+            new = u['listed']
             sents = sentences(u['texts'])
             units_out.append({
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['texts'][0]['ar'] if u['texts'] else ''},
@@ -226,6 +257,7 @@ def main():
                   'forms': L['forms'], 'ex': L.get('ex', []), 'q': i + 1} for i, L in enumerate(LETTERS)] if lv == 'a1' else []
         for name, obj in [('vocab', vocab), ('units', units_out), ('texts', texts_out), ('extra', extra), ('drills', []), ('hanzi', hanzi)]:
             json.dump(obj, open(DATA / lv / f'{name}.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))
+        index['__seen__'] = sorted(seen)
         prev_index = index
         print(f'{lv}: {len(units_out)} units, {len(vocab)} words, {len(texts_out)} texts')
 

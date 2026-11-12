@@ -1,9 +1,9 @@
-import { register as registerView, go } from '../router.js?v=202611130800';
-import { header } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { registerUser, loginUser, resetPassword, getUser, sendVerification, refreshVerified, logoutUser } from '../firebase-auth.js?v=202611130800';
-import { update } from '../state.js?v=202611130800';
-import { enterApp } from './welcome.js?v=202611130800';
+import { register as registerView, go } from '../router.js?v=202611131200';
+import { header } from '../ui/components.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { registerUser, loginUser, resetPassword, getUser, sendVerification, refreshVerified, logoutUser } from '../firebase-auth.js?v=202611131200';
+import { update } from '../state.js?v=202611131200';
+import { enterApp } from './welcome.js?v=202611131200';
 
 let authMode = 'login';
 
@@ -17,7 +17,7 @@ registerView('auth', (el, params = {}) => {
     <div class="card" style="padding:24px;margin-bottom:16px">
       <div style="text-align:center;margin-bottom:20px">
         <div style="font-size:48px;margin-bottom:8px">📚</div>
-        <div class="h2">日本語 · Japonés</div>
+        <div class="h2">العَرَبِيَّة · Árabe</div>
         <div class="muted small">${isLogin ? t('loginSubtitle') : t('registerSubtitle')}</div>
       </div>
 

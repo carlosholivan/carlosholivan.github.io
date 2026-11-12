@@ -40,6 +40,6 @@ export function mascot(expr, size){
     ${eyes}
     ${mouth}
     <!-- forehead mark: a tiny 心 (heart/mind) dot for character -->
-    <text x="60" y="40" text-anchor="middle" font-size="13" fill="${a}" opacity=".75" font-family="serif">学</text>
+    <text x="60" y="40" text-anchor="middle" font-size="13" fill="${a}" opacity=".75" font-family="serif">ع</text>
   </svg>`;
 }

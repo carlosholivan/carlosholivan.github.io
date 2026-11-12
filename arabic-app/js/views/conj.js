@@ -1,11 +1,11 @@
 // Conjugation reference: verb groups, every form with its rules, full tables and a quick quiz.
 // window.__conj(id) opens a form sheet from any grammar explanation (links built by tools/build_texts.py).
-import { register, go } from '../router.js?v=202611130800';
-import { header, bottomNav } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { speak } from '../audio.js?v=202611130800';
-import { S, update } from '../state.js?v=202611130800';
-import { VERBS, QUIZ_VERBS, FORMS, FORM, TABLE_FORMS, GROUP_LABEL, conjugate } from '../conj.js?v=202611130800';
+import { register, go } from '../router.js?v=202611131200';
+import { header, bottomNav } from '../ui/components.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { speak } from '../audio.js?v=202611131200';
+import { S, update } from '../state.js?v=202611131200';
+import { VERBS, QUIZ_VERBS, FORMS, FORM, TABLE_FORMS, GROUP_LABEL, conjugate } from '../conj.js?v=202611131200';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const cell = ({ w, r }) => `<span class="cj-w" onclick="event.stopPropagation();window.__cjSay('${esc(r)}')">${esc(w)}</span>${w !== r ? `<span class="cj-r">${esc(r)}</span>` : ''}`;

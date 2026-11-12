@@ -1,18 +1,19 @@
-import { S, update, isUnitDone } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611130800';
-import { bottomNav, header } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611130800';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611130800';
-import { speak, stop } from '../audio.js?v=202611130800';
-import { translit, shown } from '../ar.js?v=202611130800';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611130800';
-import { addCards } from '../engine/anki.js?v=202611130800';
-import { allHanzi } from './review.js?v=202611130800';
+import { S, update, isUnitDone } from '../state.js?v=202611131200';
+import { register, go } from '../router.js?v=202611131200';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131200';
+import { bottomNav, header } from '../ui/components.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131200';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131200';
+import { speak, stop } from '../audio.js?v=202611131200';
+import { translit, shown } from '../ar.js?v=202611131200';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611131200';
+import { addCards } from '../engine/anki.js?v=202611131200';
+import { allHanzi } from './review.js?v=202611131200';
 
 const tr = (o) => (o && (o[S.lang] || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const wordCount = (tx) => tx.paragraphs.join(' ').split(/\s+/).filter(w => /[\u0621-\u064a]/.test(w)).length;
 const hanCount = (tx) => [...tx.paragraphs.join('')].filter(isHan).length;
 // Dialogue turn: "名字：…" at the start of a line.
 const SPEAKER = /^([^：:\n]{1,8})[：:]/;
@@ -49,7 +50,7 @@ register('texts', async (el) => {
     ${rec ? `<div class="card rec-text" onclick="window.__openText('${rec.id}')">
         <div class="small" style="font-weight:700;color:var(--accent)">⭐ ${t('recommended')}</div>
         <div style="font-weight:800;font-size:20px;margin-top:4px">${ruby(rec.title.ja)}</div>
-        <div class="muted small">${esc(tr(rec.title))} · #${rec.order} · ${hanCount(rec)} 字</div>
+        <div class="muted small">${esc(tr(rec.title))} · #${rec.order} · ${wordCount(rec)} ${t('words')}</div>
         <div class="small" style="margin-top:4px">${esc(tr(rec.summary))}</div>
       </div>` : ''}
     ${texts.length ? texts.map(tx => {
@@ -62,7 +63,7 @@ register('texts', async (el) => {
           <div class="grow" style="font-weight:700;font-size:17px">${ruby(tx.title.ja)}</div>
           ${st.q != null ? `<span class="small" style="color:var(--ok);font-weight:700">✓ ${st.q}%</span>` : ''}
         </div>
-        <div class="muted small">${esc(tr(tx.title))} · ${hanCount(tx)} 漢字</div>
+        <div class="muted small">${esc(tr(tx.title))} · ${wordCount(tx)} ${t('words')}</div>
         <div class="small" style="margin-top:4px">${esc(tr(tx.summary))}</div>
       </div>`;
     }).join('') : `<div class="muted" style="text-align:center;padding:40px 0">${t('noTexts')}</div>`}
@@ -240,7 +241,7 @@ register('text', async (el, params) => {
     });
   }
 
-  const noteKind = (k) => ({ grammar: '文法 · ' + t('stepGrammar'), culture: '文化', word: '言葉' }[k] || k || '');
+  const noteKind = (k) => ({ grammar: 'قَوَاعِد · ' + t('stepGrammar'), culture: 'ثَقَافَة', word: 'كَلِمَة' }[k] || k || '');
 
   window.__togglePy = () => { update({ pinyin: S.pinyin === false }); applyPinyinPref(); renderRead(); };
   window.__toggleDiff = () => { view.showDiff = !view.showDiff; renderRead(); };

@@ -1,16 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611130800';
-import { LEVELS, levelLabel } from '../levels.js?v=202611130800';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611130800';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611130800';
-import { speak } from '../audio.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611130800';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611130800';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611130800';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611130800';
+import { S, update, touchStreak } from '../state.js?v=202611131200';
+import { register, go } from '../router.js?v=202611131200';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611131200';
+import { LEVELS, levelLabel } from '../levels.js?v=202611131200';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611131200';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131200';
+import { speak } from '../audio.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611131200';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131200';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611131200';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611131200';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -107,7 +107,7 @@ async function levelDecks(d) {
     }
     const pct = n ? Math.round(learned / n * 100) : 0;
     return `<button class="deck-lv ${cur === l ? 'on' : ''}" onclick="window.__deckLv('${d}','${l}')">
-      <b>${levelLabel(l)}</b><span>${n} ${d === 'h' ? '字' : t('deckWords')}</span>
+      <b>${levelLabel(l)}</b><span>${n} ${d === 'h' ? t('hanzi').toLowerCase() : t('deckWords')}</span>
       <span class="deck-lv-bar"><i style="width:${pct}%"></i></span><span>${pct}%</span></button>`;
   });
   chips.push(`<button class="deck-lv ${cur === 'all' ? 'on' : ''}" onclick="window.__deckLv('${d}','all')"><b>${t('deckAll')}</b><span>${Object.keys(store).length}</span></button>`);
@@ -117,7 +117,7 @@ window.__deckLv = (d, l) => { update({ deckLv: { ...(S.deckLv || {}), [d]: l } }
 
 function failedBtn(n) {
   return n ? `<button class="card study-opt mt-12" style="width:100%" onclick="window.__go('review', {mode:'failed'})">
-      <span class="kbadge sm">誤</span>
+      <span class="kbadge sm">خ</span>
       <div class="grow" style="text-align:left"><div class="study-es">${t('failedReview')}</div><div class="muted small">${t('failedReviewTr')} · <b style="color:var(--no)">${n}</b></div></div>
       <span class="muted">›</span></button>` : '';
 }
@@ -338,7 +338,7 @@ async function reviewView(el, params = {}) {
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__go('${self}',{deck:'${d}'})" style="padding:4px">←</button>
         <div class="grow">${progressBar(done / Math.max(total, done + queue.length) * 100)}</div>
-        <button class="chip" style="font-size:12px;padding:4px 10px" onclick="window.__flipDir()">${reverse ? '🌐 → 日' : '日 → 🌐'}</button>
+        <button class="chip" style="font-size:12px;padding:4px 10px" onclick="window.__flipDir()">${reverse ? '🌐 → ع' : 'ع → 🌐'}</button>
       </div>
       <div class="card anki-card" id="anki-card" onclick="window.__ankiShow()"${stc ? ` style="border-top:5px solid ${stc.color}"` : ''}>
         ${stc ? `<span class="anki-st" style="color:${stc.color}"><i class="st-dot" style="background:${stc.color}"></i> ${t(stc.key)}</span>` : ''}

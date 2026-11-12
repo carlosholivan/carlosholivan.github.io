@@ -1,14 +1,14 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { loadUnits } from '../data.js?v=202611130800';
-import { bottomNav, header } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { levelChips, levelLabel } from '../levels.js?v=202611130800';
-import { speak } from '../audio.js?v=202611130800';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611130800';
-import { allVocab } from './review.js?v=202611130800';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611130800';
+import { S, update } from '../state.js?v=202611131200';
+import { register, go } from '../router.js?v=202611131200';
+import { loadUnits } from '../data.js?v=202611131200';
+import { bottomNav, header } from '../ui/components.js?v=202611131200';
+import { t } from '../i18n.js?v=202611131200';
+import { levelChips, levelLabel } from '../levels.js?v=202611131200';
+import { speak } from '../audio.js?v=202611131200';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611131200';
+import { allVocab } from './review.js?v=202611131200';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131200';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -17,7 +17,7 @@ let refTab = 'grammar';
 register('reference', async (el, params = {}) => {
   await pyReady;
   if (params.tab) refTab = params.tab;
-  const tabs = [['grammar', '📖 ' + t('grammar')], ['vocab', '📝 ' + t('vocabulary')], ['pinyin', '漢 Kanji']];
+  const tabs = [['grammar', '📖 ' + t('grammar')], ['vocab', '📝 ' + t('vocabulary')], ['pinyin', 'أ Alfabeto']];
   el.innerHTML = `<div class="fade">
     ${header(t('reference'))}
     <div class="tabbar mb-12">${tabs.map(([id, l]) =>
@@ -34,8 +34,6 @@ async function renderGrammar(box) {
   const units = await loadUnits(S.level).catch(() => []);
   box.innerHTML = `<div class="slideup">
     ${levelChips(S.level, '__refLevel')}
-    <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>${ruby('文法練習')}</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
-    <div class="card drill-banner" onclick="window.__nav('conj')">活 <strong>${ruby('活用')}</strong> <span class="muted small">· ${t('conjNav')}: ${t('conjSub')}</span><span class="grow"></span>›</div>
     ${units.filter(u => u.grammarIntro || (u.grammar || []).length).map(u => `
       <div class="card ref-topic" onclick="window.__go('grammar-detail',{level:'${S.level}',id:${u.id}})">
         <div class="flex items-center gap-8">
@@ -59,7 +57,7 @@ async function renderVocab(box) {
     <div class="muted small mb-8">${list.length} ${t('words')} · ${levelLabel(S.level)}</div>
     ${statusLegend(counts)}
     <div class="card drill-banner" onclick="window.__go('vocab-list',{level:'${S.level}'})">☑️ <strong>${t('vocabList')}</strong> <span class="muted small">· ${t('allLevelWords')}</span><span class="grow"></span>›</div>
-    <div class="card drill-banner" onclick="window.__go('review',{deck:'v'})">🃏 <strong>${ruby('単語の復習')}</strong> <span class="muted small">· ${t('vocabulary')}</span><span class="grow"></span>›</div>
+    <div class="card drill-banner" onclick="window.__go('review',{deck:'v'})">🃏 <strong>${ruby('مُرَاجَعَةُ الكَلِمَات')}</strong> <span class="muted small">· ${t('vocabulary')}</span><span class="grow"></span>›</div>
     <div class="ref-vocab">${list.map((v, i) => `<div class="rv-row" onclick="window.__refSpeak('${esc(v.w)}')">
       <span class="st-dot" style="background:${STATUS[st[i]].color}"></span>
       <span class="rv-w zh-word" style="color:${STATUS[st[i]].color}">${esc(v.w)}</span>
@@ -71,7 +69,7 @@ async function renderVocab(box) {
 
 function renderPinyin(box) {
   box.innerHTML = `<div class="slideup">
-    <div class="card drill-banner" onclick="window.__nav('hanzi')">✍️ <strong>${ruby('漢字')}</strong> <span class="muted small">· ${t('hanzi')}</span><span class="grow"></span>›</div>
+    <div class="card drill-banner" onclick="window.__nav('hanzi')">✍️ <strong>${ruby('الحُرُوف')}</strong> <span class="muted small">· ${t('hanzi')}</span><span class="grow"></span>›</div>
   </div>`;
 }
 
