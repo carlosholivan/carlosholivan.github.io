@@ -628,5 +628,101 @@
 "form": "V-よう + としない",
 "nuance": "Otra persona se resiste a hacer algo. No se usa para uno mismo.",
 "tip": "子供が野菜を食べようとしない。"
+},
+"だけしか": {
+"es": "solo (enfático)",
+"form": "N + だけしか + V-ない",
+"nuance": "Refuerza しか～ない: subraya que la cantidad es muy limitada.",
+"tip": "百円だけしかない。"
+},
+"さえ": {
+"es": "incluso, ni siquiera; con solo",
+"form": "N + さえ ・ ～さえ～ば",
+"nuance": "1) Ejemplo extremo: ni siquiera, incluso. 2) Con ば: basta con que se cumpla eso.",
+"tip": "名前さえ書けない ・ お金さえあれば…"
+},
+"こそ": {
+"es": "precisamente, justamente",
+"form": "N + こそ ・ ～からこそ",
+"nuance": "Destaca un elemento como el verdadero o más importante. こちらこそ = el gusto es mío.",
+"tip": "今年こそ合格する。"
+},
+"に関して": {
+"es": "acerca de, relativo a",
+"form": "N + に関して ・ N に関する N",
+"nuance": "Más formal que について; habitual en documentos e informes.",
+"tip": "この件に関して質問があります。"
+},
+"について": {
+"es": "sobre, acerca de",
+"form": "N + について ・ N についての N",
+"nuance": "Tema del que se habla, piensa o investiga.",
+"tip": "日本の歴史について調べる。"
+},
+"によれば": {
+"es": "según (fuente)",
+"form": "N + によれば／によると",
+"nuance": "Indica la fuente de una información; suele acabar en ～そうだ／～らしい.",
+"tip": "天気予報によれば、雨だそうだ。"
+},
+"によって": {
+"es": "por, mediante; según",
+"form": "N + によって／による",
+"nuance": "1) Agente en pasivas (作家によって書かれた). 2) Medio. 3) Variación: 人によって違う.",
+"tip": "国によって習慣が違う。"
+},
+"Aみ": {
+"es": "sustantivo emocional con ～み",
+"form": "Aい／Aな → Aみ (悲しみ, 楽しみ, 深み, 重み…)",
+"nuance": "Frente a ～さ (medida objetiva), ～み expresa una sensación o cualidad percibida. Solo con algunos adjetivos.",
+"tip": "旅行が楽しみだ。"
+},
+"といった": {
+"es": "como, tales como (ejemplos)",
+"form": "N1 や N2 といった N3",
+"nuance": "Enumera ejemplos representativos de una categoría.",
+"tip": "すしや天ぷらといった日本料理"
+},
+"というのは": {
+"es": "… es / significa …",
+"form": "X というのは Y (という意味／のこと)だ",
+"nuance": "Define o explica una palabra o una razón.",
+"tip": "「積ん読」というのは、本を買って読まないことだ。"
+},
+"というより": {
+"es": "más que…, más bien",
+"form": "X というより Y",
+"nuance": "Corrige una descripción con otra más precisa.",
+"tip": "今日は暖かいというより暑い。"
+},
+"というと／といえば": {
+"es": "hablando de…, si dices…",
+"form": "N + というと／といえば",
+"nuance": "Retoma un tema y añade lo primero que viene a la mente.",
+"tip": "京都といえば、お寺ですね。"
+},
+"といっても": {
+"es": "aunque se diga…, eso sí…",
+"form": "forma simple + といっても",
+"nuance": "Matiza lo dicho: la realidad es menos de lo que suena.",
+"tip": "料理ができるといっても、卵焼きだけです。"
+},
+"てごらん": {
+"es": "intenta…, mira a ver (a inferiores)",
+"form": "V-て + ごらん(なさい)",
+"nuance": "Invitación suave de padres o profesores a probar algo.",
+"tip": "この本、読んでごらん。"
+},
+"なと言われた": {
+"es": "me dijeron que no…",
+"form": "V-る + な + と言われた",
+"nuance": "Prohibición en estilo indirecto (な = imperativo negativo).",
+"tip": "医者にお酒を飲むなと言われた。"
+},
+"てくれと頼まれた": {
+"es": "me pidieron que…",
+"form": "V-て + くれ + と頼まれた／言われた",
+"nuance": "Petición transmitida en estilo indirecto; くれ es la orden de くれる.",
+"tip": "友達に手伝ってくれと頼まれた。"
 }
 }
