@@ -1,4 +1,4 @@
-import { S } from './state.js?v=202611131200';
+import { S } from './state.js?v=202611131500';
 
 // Arabic voice of the browser / OS (Maged, Tarik, Laila, Google العربية…). Never reads with a foreign voice.
 export function stop() {

@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611131200';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611131500';
 
 const STORAGE_KEY = 'arabe_state';
 

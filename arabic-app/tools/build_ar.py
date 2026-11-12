@@ -218,7 +218,7 @@ def main():
                 if e.get('pl'): index.setdefault(norm(e['pl']), v['w'])
                 if v['pos'] == 'v':
                     past, pres = v['w'], v['x']
-                    if norm(past)[:1] in 'يت' and len(norm(past)) > 3 and v['x'] and norm(v['x'])[:1] not in 'يت': past, pres = v['x'], v['w']
+                    if norm(past)[:1] in 'يت' and v['x'] and norm(v['x'])[:1] not in 'يت': past, pres = v['x'], v['w']
                     for f in verb_forms(past, pres): index.setdefault(f, v['w'])
         for u in units:
             for a, b in u.get('alias', []):
@@ -247,7 +247,7 @@ def main():
             sents = sentences(u['texts'])
             units_out.append({
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['texts'][0]['ar'] if u['texts'] else ''},
-                'desc': {'es': u['desc'], 'en': u['desc']}, 'grammar': u['grammar'], 'letters': u['letters'], 'newVocab': new,
+                'desc': {'es': u['desc'], 'en': u['desc']}, 'grammar': u['grammar'], 'gnames': [GRAMMAR[g]['t'] for g in u['grammar'] if g in GRAMMAR], 'letters': u['letters'], 'newVocab': new,
                 **({'grammarIntro': {'es': letters_html(u['letters']) + grammar_html(u['grammar'])}} if u['grammar'] or u['letters'] else {}),
                 'exercises': make_exercises(rng, sents, new, words, index),
             })
