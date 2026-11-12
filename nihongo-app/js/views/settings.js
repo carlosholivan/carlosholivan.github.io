@@ -1,9 +1,9 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611122300';
-import { register, go } from '../router.js?v=202611122300';
-import { bottomNav, header } from '../ui/components.js?v=202611122300';
-import { t } from '../i18n.js?v=202611122300';
-import { applyPinyinPref } from '../ja.js?v=202611122300';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611122300';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611130700';
+import { register, go } from '../router.js?v=202611130700';
+import { bottomNav, header } from '../ui/components.js?v=202611130700';
+import { t } from '../i18n.js?v=202611130700';
+import { applyPinyinPref } from '../ja.js?v=202611130700';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611130700';
 
 register('settings', (el) => {
   const langs = [

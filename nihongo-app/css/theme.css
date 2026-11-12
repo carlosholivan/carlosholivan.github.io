@@ -186,3 +186,11 @@ td .cj-r { display: inline; margin-left: 8px }
 .cj-opts .btn.bad { background: #c0392b; color: #fff }
 .cj-intro, #cj-table, .cj-q { padding: 16px }
 .cj-mini .cj-r { display: inline; width: auto; margin: 0 2px 0 3px; font-size: 10px; order: 0 }
+
+/* Vocabulary by topic */
+.tp-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px }
+.tp-cat { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px; text-align: left; border: none; cursor: pointer; font: inherit; color: inherit }
+.tp-name { font-weight: 700; font-family: var(--serif); font-size: 15px; line-height: 1.25 }
+.tp-cat .progbar, .tp-sub .progbar { width: 100% }
+.tp-sub { padding: 14px 16px; margin-bottom: 10px; cursor: pointer }
+.tp-peek { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--cjk); font-size: 15px }

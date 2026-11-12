@@ -1,5 +1,9 @@
 // Japanese-app wording: overrides the strings of the shared tables that mention Chinese.
 export default {
+  topicsNav:      { es: 'Vocabulario por temas', en: 'Vocabulary by topic', ja: 'テーマ別単語', ko: '주제별 단어' },
+  topicsSub:      { es: 'comida, viajes, cuerpo…', en: 'food, travel, body…', ja: '食べ物・旅行・体…', ko: '음식·여행·몸…' },
+  topicsHint:     { es: 'Palabras de todos los niveles agrupadas por tema. El color indica cuánto las dominas.', en: 'Words from every level grouped by topic. The colour shows how well you know them.', ja: '全レベルの単語をテーマ別に。色は習熟度。', ko: '모든 레벨의 단어를 주제별로. 색은 숙련도.' },
+  topicsStudy:    { es: 'Estudiar las {n} que aún no sé', en: 'Study the {n} I don\'t know yet', ja: 'まだ覚えていない{n}語を学習', ko: '아직 모르는 {n}개 학습' },
   conjNav:        { es: 'Conjugación', en: 'Conjugation', ja: '活用', ko: '활용' },
   conjSub:        { es: 'verbos I, II, III y adjetivos', en: 'verb groups I, II, III', ja: '動詞と形容詞', ko: '동사와 형용사' },
   spanish:        { es: 'Japonés', en: 'Japanese' },

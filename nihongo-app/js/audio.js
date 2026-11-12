@@ -1,4 +1,4 @@
-import { S } from './state.js?v=202611122300';
+import { S } from './state.js?v=202611130700';
 
 // Japanese voice of the browser / OS (Kyoko, Otoya, Google 日本語…). Never reads with a foreign voice.
 export function stop() {

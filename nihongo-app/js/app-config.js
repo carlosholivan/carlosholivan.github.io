@@ -12,6 +12,7 @@ export const CFG = {
     ['読', 'texts', 'textsSub', 'texts'],
     ['札', 'cardsNav', 'cardsSub', 'review'],
     ['語', 'vocabList', 'vocabListSub', 'vocab-list'],
+    ['類', 'topicsNav', 'topicsSub', 'topics'],
     ['漢', 'hanzi', 'hanziSub', 'hanzi'],
     ['文', 'reference', 'grammarRefSub', 'reference'],
     ['活', 'conjNav', 'conjSub', 'conj'],
