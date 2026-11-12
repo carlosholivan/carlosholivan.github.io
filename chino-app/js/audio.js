@@ -1,4 +1,4 @@
-import { S } from './state.js?v=202611130800';
+import { S } from './state.js?v=202611131900';
 
 // Pre-generated MP3s (tools/generate_audio.py); browser TTS is only a fallback and
 // only with a Mandarin voice, so text is never read with a foreign accent.
@@ -9,6 +9,10 @@ const ready = fetch('data/audio/index.json')
   .then(d => { index = d; });
 
 let player = null;
+
+// Playback speed chosen in Settings (or with the speed chip in the reader): 0.25× … 2×.
+export const SPEEDS = [0.25, 0.5, 1, 1.5, 2];
+export const speed = () => { const r = +(S.settings?.rate); return SPEEDS.includes(r) ? r : 1; };
 
 export function stop() {
   if (player) { player.pause(); player = null; }
@@ -23,6 +27,7 @@ export function speak(text) {
     const file = index[key];
     if (file) {
       player = new Audio(`data/audio/${file}`);
+      player.playbackRate = speed();
       player.play().catch(() => {});
     } else {
       speakWithBrowser(key);
@@ -39,7 +44,7 @@ function speakWithBrowser(text) {
   const u = new SpeechSynthesisUtterance(text);
   u.voice = voice;
   u.lang = voice.lang;
-  u.rate = 0.8;
+  u.rate = 0.8 * speed();
   window.speechSynthesis.speak(u);
 }
 
@@ -52,6 +57,7 @@ export function speakAsync(text) {
       if (!file) { speakWithBrowser(key); return setTimeout(resolve, 900); }
       stop();
       player = new Audio(`data/audio/${file}`);
+      player.playbackRate = speed();
       player.onended = () => setTimeout(resolve, 150);
       player.onerror = resolve;
       player.play().catch(resolve);

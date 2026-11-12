@@ -1,9 +1,10 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { bottomNav, header } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { applyPinyinPref } from '../zh.js?v=202611130800';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611130800';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611131900';
+import { speak, SPEEDS, speed } from '../audio.js?v=202611131900';
+import { register, go } from '../router.js?v=202611131900';
+import { bottomNav, header } from '../ui/components.js?v=202611131900';
+import { t } from '../i18n.js?v=202611131900';
+import { applyPinyinPref } from '../zh.js?v=202611131900';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611131900';
 
 register('settings', (el) => {
   const langs = [
@@ -73,6 +74,10 @@ register('settings', (el) => {
       <div class="flex items-center justify-between">
         <span>${t('soundFx')}</span>
         <div class="toggle ${S.settings.sound ? 'on' : ''}" onclick="window.__toggleSound()"></div>
+      </div>
+      <div class="mt-16">
+        <div class="mb-8">${t('audioSpeed')}</div>
+        <div class="flex gap-8" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__setRate(${r})">×${r}</button>`).join('')}</div>
       </div>
     </div>
 
@@ -155,4 +160,11 @@ window.__logout = async () => {
     reset();
     location.reload();
   } catch (e) {}
+};
+
+window.__setRate = (r) => {
+  S.settings.rate = r;
+  update({ settings: S.settings });
+  speak('你好，欢迎！');
+  go('settings');
 };

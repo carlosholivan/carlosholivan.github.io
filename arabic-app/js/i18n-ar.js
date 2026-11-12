@@ -31,6 +31,7 @@ export default {
   grammarRefSub:  { es: 'gramática por lección', en: 'grammar by lesson' },
   pinyinLbl:      { es: 'Transliteración', en: 'Transliteration' },
   lvName1:        { es: 'Acceso', en: 'Breakthrough' },
+  drillsHint:     { es: 'Elige la forma correcta: interrogativos, preposiciones, negación, conectores… Frases sacadas de las lecturas del nivel.', en: 'Choose the correct form: question words, prepositions, negation, connectors… Sentences taken from the level readings.' },
   lvName2:        { es: 'Plataforma', en: 'Waystage' },
   lvName3:        { es: 'Umbral', en: 'Threshold' },
   lvName4:        { es: 'Avanzado', en: 'Vantage' },

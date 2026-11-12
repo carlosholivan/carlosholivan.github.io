@@ -1,13 +1,13 @@
-import { S, update, isUnitDone } from '../state.js?v=202611130800';
-import { register, go } from '../router.js?v=202611130800';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611130800';
-import { bottomNav, header } from '../ui/components.js?v=202611130800';
-import { t } from '../i18n.js?v=202611130800';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611130800';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611130800';
-import { speak, stop } from '../audio.js?v=202611130800';
-import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611130800';
-import { addCards } from '../engine/anki.js?v=202611130800';
+import { S, update, isUnitDone } from '../state.js?v=202611131900';
+import { register, go } from '../router.js?v=202611131900';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131900';
+import { bottomNav, header } from '../ui/components.js?v=202611131900';
+import { t } from '../i18n.js?v=202611131900';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131900';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131900';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611131900';
+import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611131900';
+import { addCards } from '../engine/anki.js?v=202611131900';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -204,6 +204,7 @@ register('text', async (el, params) => {
     const glossWords = Object.keys(tx.glossary || {});
     shell(`<div class="flex gap-8 mb-12" style="flex-wrap:wrap">
         <button class="chip ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePy()">拼音 pinyin</button>
+        <button class="chip" id="rate-chip" onclick="window.__cycleRate()">🔊 ×${speed()}</button>
         <button class="chip ${view.showTr ? 'on' : ''}" onclick="window.__toggleTr()">🌐 ${t('translateText')}</button>
         ${glossWords.length ? `<button class="chip ${view.showDiff ? 'on' : ''}" onclick="window.__toggleDiff()">⚠️ ${t('difficultWords')}</button>` : ''}
         <button class="chip ${view.showStatus ? 'on' : ''}" onclick="window.__toggleStatus()">🎨 ${t('myWords')}</button>
@@ -401,3 +402,11 @@ register('text', async (el, params) => {
 
   renderRead();
 });
+
+window.__cycleRate = () => {
+  const i = SPEEDS.indexOf(speed());
+  S.settings.rate = SPEEDS[(i + 1) % SPEEDS.length];
+  update({ settings: S.settings });
+  const c = document.getElementById('rate-chip');
+  if (c) c.textContent = '🔊 ×' + speed();
+};

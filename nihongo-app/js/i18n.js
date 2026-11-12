@@ -1,7 +1,7 @@
-import { S } from './state.js?v=202611130800';
-import EXTRA from './i18n-extra.js?v=202611130800';
-import UI from './i18n-ui.js?v=202611130800';
-import JA from './i18n-ja.js?v=202611130800';
+import { S } from './state.js?v=202611131900';
+import EXTRA from './i18n-extra.js?v=202611131900';
+import UI from './i18n-ui.js?v=202611131900';
+import JA from './i18n-ja.js?v=202611131900';
 
 const T = {
   // Navigation
@@ -126,6 +126,7 @@ const T = {
 
   // Grammar drills
   grammarPractice:  { es: 'Práctica de gramática', en: 'Grammar practice', ja: '文法練習', ko: '문법 연습' },
+  audioSpeed:   { es: 'Velocidad del audio', en: 'Audio speed', ja: '音声の速さ', ko: '오디오 속도' },
   drillsHint:       { es: 'Elige la forma correcta: clasificadores, partículas, orden de palabras, verbos…', en: 'Choose the correct form: measure words, particles, word order, verbs…', ja: '正しい形を選ぼう：量詞・助詞・語順・動詞など', ko: '올바른 형태를 고르세요: 양사, 조사, 어순, 동사…' },
   exercisesShort:   { es: 'ejercicios', en: 'exercises', ja: '問', ko: '문제' },
   chooseCorrectForm:{ es: 'Elige la forma correcta', en: 'Choose the correct form', ja: '正しい形を選んでください', ko: '올바른 형태를 고르세요' },

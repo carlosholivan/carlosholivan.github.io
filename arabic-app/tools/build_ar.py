@@ -158,6 +158,68 @@ def sentences(texts):
                 if 2 <= len(ar2.split()) <= 9: out.append((ar2, es2))
     return out
 
+
+# Grammar drills generated from the level's own texts: one form of a closed set is blanked out.
+DRILL_CATS = [
+    ('interrog', '❓', 'أَدَوَاتُ الاِسْتِفْهَام', 'Interrogativos', 'Interrogatives', '¿Qué palabra interrogativa falta? Fíjate en la traducción.',
+     ['مَا', 'مَنْ', 'أَيْنَ', 'كَيْفَ', 'كَمْ', 'مَتَى', 'لِمَاذَا', 'هَلْ', 'مَاذَا'],
+     'مَا / مَاذَا = qué (مَاذَا con verbo) · مَنْ = quién · أَيْنَ = dónde · كَيْفَ = cómo · كَمْ = cuánto · مَتَى = cuándo · لِمَاذَا = por qué · هَلْ = pregunta de sí/no.'),
+    ('demos', '👉', 'أَسْمَاءُ الإِشَارَة', 'Demostrativos', 'Demonstratives', 'Este, esta, ese, esa: concordancia en género.',
+     ['هٰذَا', 'هٰذِهِ', 'ذٰلِكَ', 'تِلْكَ'],
+     'هٰذَا (m.) / هٰذِهِ (f. y plurales de cosas) = este, esta · ذٰلِكَ (m.) / تِلْكَ (f.) = ese, aquel.'),
+    ('prep', '📍', 'حُرُوفُ الجَرّ', 'Preposiciones', 'Prepositions', 'Elige la preposición correcta.',
+     ['فِي', 'مِنْ', 'إِلَى', 'عَلَى', 'عَنْ', 'مَعَ', 'بَيْنَ', 'قَبْلَ', 'بَعْدَ', 'مُنْذُ', 'حَتَّى'],
+     'فِي = en · مِنْ = de, desde · إِلَى = a, hacia · عَلَى = sobre · عَنْ = de, acerca de · مَعَ = con · بَيْنَ = entre · قَبْلَ / بَعْدَ = antes / después de · مُنْذُ = desde hace · حَتَّى = hasta.'),
+    ('neg', '🚫', 'النَّفْي', 'Negación', 'Negation', 'لَا, لَمْ, لَنْ o لَيْسَ: mira la forma del verbo o si no hay verbo.',
+     ['لَا', 'لَمْ', 'لَنْ', 'لَيْسَ', 'لَيْسَتْ', 'لَسْتُ'],
+     'لَا + presente · لَمْ + yusivo (pasado) · لَنْ + subjuntivo (futuro) · لَيْسَ / لَيْسَتْ / لَسْتُ en frases sin verbo.'),
+    ('conj', '🔗', 'أَدَوَاتُ الرَّبْط', 'Conectores', 'Connectors', 'Une las ideas con el conector adecuado.',
+     ['لِأَنَّ', 'لٰكِنْ', 'لٰكِنَّ', 'ثُمَّ', 'أَوْ', 'عِنْدَمَا', 'لِذٰلِكَ', 'إِذَا', 'لَوْ', 'رَغْمَ', 'أَيْضًا'],
+     'لِأَنَّ = porque · لٰكِنْ / لٰكِنَّ = pero · ثُمَّ = luego · أَوْ = o · عِنْدَمَا = cuando · لِذٰلِكَ = por eso · إِذَا = si (real) · لَوْ = si (irreal) · رَغْمَ = a pesar de.'),
+    ('anna', '✳️', 'أَنْ وَأَنَّ وَإِنَّ', 'أَنْ · أَنَّ · إِنَّ', 'an · anna · inna', 'أَنْ va con verbo; أَنَّ / إِنَّ con nombre o pronombre (إِنَّ tras قَالَ).',
+     ['أَنْ', 'أَنَّ', 'إِنَّ', 'أَنَّهُ', 'إِنَّهُ', 'أَنَّنِي', 'إِنِّي', 'أَنَّكَ', 'أَنَّكِ', 'إِنَّهُم'],
+     'أَنْ + subjuntivo (أُرِيدُ أَنْ أَذْهَبَ) · أَنَّ + nombre/pronombre (أَعْرِفُ أَنَّهُ…) · tras قَالَ se usa إِنَّ.'),
+    ('rel', '🧩', 'الأَسْمَاءُ المَوْصُولَة', 'Relativos', 'Relative pronouns', 'الَّذِي, الَّتِي o الَّذِينَ según el antecedente.',
+     ['الَّذِي', 'الَّتِي', 'الَّذِينَ'],
+     'الَّذِي (m. sg.) · الَّتِي (f. sg. y plurales de cosas) · الَّذِينَ (personas en plural). Solo tras un antecedente definido.'),
+    ('kana', '⏳', 'كَانَ وَأَخَوَاتُهَا', 'كَانَ y sus «hermanas»', 'kāna and its sisters', 'Era, se volvió, sigue…',
+     ['كَانَ', 'كَانَتْ', 'كُنْتُ', 'كُنَّا', 'أَصْبَحَ', 'أَصْبَحَتْ', 'صَارَ', 'صَارَتْ', 'مَا زَالَ', 'مَا زَالَتْ'],
+     'كَانَ = era/estaba · أَصْبَحَ / صَارَ = se volvió · مَا زَالَ = sigue. Concuerdan con el sujeto: ـَتْ femenino, ـْتُ yo, ـْنَا nosotros.'),
+]
+
+def make_drills(lv, texts, rng):
+    sents = []
+    for t in texts:
+        for para in t['paras']:
+            for ar, es in para:
+                ar2, es2 = SPK.sub('', ar), re.sub(r'^[^:]{1,25}:\s*', '', es)
+                if len(ar2.split()) <= 18: sents.append((ar2, es2))
+    out = []
+    for cid, icon, zh, es, en, desc, forms, expl in DRILL_CATS:
+        items, seen = [], set()
+        for ar, tr_es in sents:
+            words = ar.split(' ')
+            for i, w in enumerate(words):
+                core = re.sub('[،؟.!«»:]+$', '', w)
+                tail = w[len(core):]
+                multi = None
+                if i + 1 < len(words) and f'{core} {re.sub("[،؟.!«»:]+$", "", words[i+1])}' in forms:
+                    multi = f'{core} {re.sub("[،؟.!«»:]+$", "", words[i+1])}'
+                ans = multi or (core if core in forms else None)
+                if not ans or (ar, ans) in seen: continue
+                seen.add((ar, ans))
+                n = 2 if multi else 1
+                q = ' '.join(words[:i] + ['___' + (re.sub('^.*?([،؟.!«»:]*)$', r'\1', words[i + n - 1]))] + words[i + n:])
+                pool = [f for f in forms if f != ans and not (cid == 'neg' and {f, ans} <= {'لَيْسَ', 'لَيْسَتْ', 'لَسْتُ'} and False)]
+                opts = [ans] + rng.sample(pool, min(3, len(pool)))
+                rng.shuffle(opts)
+                items.append({'q': q, 'o': opts, 'a': opts.index(ans), 'tr': {'es': tr_es, 'en': tr_es}, 'e': {'es': expl, 'en': expl}})
+                break
+        if len(items) >= 5:
+            rng.shuffle(items)
+            out.append({'id': cid, 'icon': icon, 'title': {'zh': zh, 'ja': zh, 'es': es, 'en': en}, 'desc': {'es': desc, 'en': desc}, 'items': items[:40]})
+    return out
+
 def make_exercises(rng, sents, unit_words, all_words, index, n_fill=4, n_order=3, n_choose=2):
     ex, used = [], set()
     sents = list(sents); rng.shuffle(sents)
@@ -255,7 +317,7 @@ def main():
                                    'words': [new[n * len(new) // 6:(n + 1) * len(new) // 6 + 4] or new[:6] for n in range(6)]}
         hanzi = [{'c': L['c'], 'm': {'es': f"{L['name']} — {L['sound']}", 'en': f"{L['name_en']} — {L['sound_en']}"}, 'p': L['tr'],
                   'forms': L['forms'], 'ex': L.get('ex', []), 'q': i + 1} for i, L in enumerate(LETTERS)] if lv == 'a1' else []
-        for name, obj in [('vocab', vocab), ('units', units_out), ('texts', texts_out), ('extra', extra), ('drills', []), ('hanzi', hanzi)]:
+        for name, obj in [('vocab', vocab), ('units', units_out), ('texts', texts_out), ('extra', extra), ('drills', make_drills(lv, [t for u in units for t in u['texts']], random.Random('drills-' + lv))), ('hanzi', hanzi)]:
             json.dump(obj, open(DATA / lv / f'{name}.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))
         index['__seen__'] = sorted(seen)
         prev_index = index

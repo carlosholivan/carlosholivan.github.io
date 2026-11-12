@@ -36,3 +36,6 @@ body.nopy .ar-line-tr { display: none; }
 .para .ar-l .speaker { color: var(--accent); font-weight: 600; }
 .para .ar-line-tr { display: block; direction: ltr; text-align: left; font-size: .8em; color: var(--ink2); font-style: italic; margin: -2px 0 8px; font-family: var(--sans, system-ui), sans-serif; }
 body.nopy .para .ar-line-tr { display: none; }
+.drill-ar { font-family: 'Noto Naskh Arabic', serif; font-size: 26px; line-height: 2.1; font-weight: 500; text-align: right }
+.drill-ar .drill-gap { font-size: 22px }
+.drill-tr { font-size: 14px; font-weight: 400; font-style: italic; color: var(--ink2); margin-top: 6px; text-align: left }

@@ -1,12 +1,12 @@
 // Grammar practice (语法练习): choose-the-correct-form drills per level and category.
-import { S, update } from '../state.js?v=202611131800';
-import { register, go } from '../router.js?v=202611131800';
-import { loadDrills } from '../data.js?v=202611131800';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131800';
-import { t } from '../i18n.js?v=202611131800';
-import { levelChips } from '../levels.js?v=202611131800';
-import { speak, stop } from '../audio.js?v=202611131800';
-import { ruby, pyReady, tonedPinyin } from '../ar.js?v=202611131800';
+import { S, update } from '../state.js?v=202611131900';
+import { register, go } from '../router.js?v=202611131900';
+import { loadDrills } from '../data.js?v=202611131900';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131900';
+import { t } from '../i18n.js?v=202611131900';
+import { levelChips } from '../levels.js?v=202611131900';
+import { speak, stop } from '../audio.js?v=202611131900';
+import { ruby, pyReady, tonedPinyin, translit } from '../ar.js?v=202611131900';
 
 const ROUND = 10;
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -69,7 +69,8 @@ register('drill', async (el, params) => {
         <span class="muted small">${pos + 1}/${round.length}</span>
       </div>
       <div class="muted small mb-8">${t('chooseCorrectForm')}</div>
-      <div class="card drill-q mb-16 zh-prompt">${ruby(before)}<span class="drill-gap" id="drill-gap">___</span>${ruby(after || '')}</div>
+      <div class="card drill-q mb-16 zh-prompt"><div dir="rtl" class="drill-ar">${ruby(before, { noTr: true })}<span class="drill-gap" id="drill-gap">___</span>${ruby(after || '', { noTr: true })}</div>
+        <div class="tr drill-tr" dir="ltr">${esc(translit(before))} … ${esc(translit(after || ''))}</div></div>
       <div id="opts">${order.map(i => `<button class="exercise-option zh-opt" data-i="${i}" onclick="window.__drillAnswer(${i})">${ruby(it.o[i])}</button>`).join('')}</div>
       <div id="drill-fb"></div>
     </div>`;
@@ -89,7 +90,7 @@ register('drill', async (el, params) => {
       const full = before + it.o[it.a] + (after || '');
       document.getElementById('drill-fb').innerHTML = `<div class="feedback ${ok ? 'ok' : 'no'} mt-12">
           <div style="font-weight:800">${ok ? '✓ ' + t('correct') : '✗ ' + esc(it.o[i]) + ' → ' + esc(it.o[it.a])}</div>
-          <div class="fb-zh" style="margin-top:6px">${ruby(full)}</div>
+          <div class="fb-zh" dir="rtl" style="margin-top:6px">${ruby(full)}</div>
           ${it.py ? `<div class="small" style="margin-top:2px">${tonedPinyin(it.py)}</div>` : ''}
           <div class="small" style="color:var(--ink);margin-top:6px">🌐 ${esc(tr(it.tr))}</div>
           <div class="small" style="color:var(--ink);margin-top:6px">💡 ${esc(tr(it.e))}</div>

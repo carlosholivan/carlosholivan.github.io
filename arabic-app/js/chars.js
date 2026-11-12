@@ -1,6 +1,6 @@
 // Per-character glosses for flashcards: each hanzi/kanji of a word gets its meaning in small type
 // above it and links to its character sheet ('hanzi-detail').
-import { S } from './state.js?v=202611131800';
+import { S } from './state.js?v=202611131900';
 
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export const isCJK = ch => /[㐀-鿿豈-﫿々]/.test(ch);
@@ -29,7 +29,7 @@ export function wordSize(word, base = 72) {
 
 // Arabic: the word is shown whole (letters join, so no per-letter glosses), with its transliteration
 // under it and, when known, its root as small chips that open the root sheet.
-import { ruby } from './ar.js?v=202611131800';
+import { ruby } from './ar.js?v=202611131900';
 export function charWord(word, hm, { size } = {}) {
   const px = size || 64;
   return `<div class="cg-word ar-card" style="--wsize:${px}px;font-size:${px}px">${ruby(word, { noTr: true })}</div>`;

@@ -1,6 +1,10 @@
-import { S } from './state.js?v=202611131800';
+import { S } from './state.js?v=202611131900';
 
 // Arabic voice of the browser / OS (Maged, Tarik, Laila, Google العربية…). Never reads with a foreign voice.
+// Playback speed chosen in Settings (or with the speed chip in the reader): 0.25× … 2×.
+export const SPEEDS = [0.25, 0.5, 1, 1.5, 2];
+export const speed = () => { const r = +(S.settings?.rate); return SPEEDS.includes(r) ? r : 1; };
+
 export function stop() {
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 }
@@ -17,7 +21,7 @@ export function speak(text) {
   const v = voice();
   if (v) u.voice = v;
   u.lang = 'ar-SA';
-  u.rate = 0.85;
+  u.rate = 0.85 * speed();
   window.speechSynthesis.speak(u);
 }
 
