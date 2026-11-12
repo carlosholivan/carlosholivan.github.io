@@ -1,14 +1,14 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611122130';
-import { register, go } from '../router.js?v=202611122130';
-import { loadUnits } from '../data.js?v=202611122130';
-import { bottomNav, header } from '../ui/components.js?v=202611122130';
-import { t } from '../i18n.js?v=202611122130';
-import { levelChips, levelLabel } from '../levels.js?v=202611122130';
-import { speak } from '../audio.js?v=202611122130';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611122130';
-import { allVocab } from './review.js?v=202611122130';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611122130';
+import { S, update } from '../state.js?v=202611122300';
+import { register, go } from '../router.js?v=202611122300';
+import { loadUnits } from '../data.js?v=202611122300';
+import { bottomNav, header } from '../ui/components.js?v=202611122300';
+import { t } from '../i18n.js?v=202611122300';
+import { levelChips, levelLabel } from '../levels.js?v=202611122300';
+import { speak } from '../audio.js?v=202611122300';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611122300';
+import { allVocab } from './review.js?v=202611122300';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611122300';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -35,6 +35,7 @@ async function renderGrammar(box) {
   box.innerHTML = `<div class="slideup">
     ${levelChips(S.level, '__refLevel')}
     <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>${ruby('文法練習')}</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
+    <div class="card drill-banner" onclick="window.__nav('conj')">活 <strong>${ruby('活用')}</strong> <span class="muted small">· ${t('conjNav')}: ${t('conjSub')}</span><span class="grow"></span>›</div>
     ${units.filter(u => u.grammarIntro || (u.grammar || []).length).map(u => `
       <div class="card ref-topic" onclick="window.__go('grammar-detail',{level:'${S.level}',id:${u.id}})">
         <div class="flex items-center gap-8">

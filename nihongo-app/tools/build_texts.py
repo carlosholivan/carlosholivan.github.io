@@ -217,6 +217,37 @@ def make_gaps(t, vocab, rng):
     others = [v['w'] for v in vocab if v['w'] not in items and len(v['w']) >= 2]
     return {'items': items, 'distractors': rng.sample(others, min(3, len(others)))}
 
+
+# ── conjugation links in grammar formulas ─────────────────────────────
+# Every verb/adjective form in a formula becomes a clear chip that opens the conjugation review sheet.
+V = r'(?<![A-Za-z])(?:[Vv]erbo\s*|V1?\s*-?\s*)'
+FORM_RULES = [
+    (V + r'(?:ない|forma ない)\s*\(?sin ない\)?', 'naistem', 'V-ない sin ない'),
+    (V + r'ます\s*\(?(?:sin ます|raíz)\)?', 'stem', 'V-ます sin ます'),
+    (V + r'ます', 'stem', 'V-ます sin ます'),
+    (V + r'(?:dicc\.?|diccionario|辞書形|る(?!れる))', 'dict', 'V-dicc. (る)'),
+    (V + r'(?:普通形|forma (?:simple|llana))', 'plain', 'V forma llana'),
+    (r'forma (?:simple|llana)|普通形', 'plain', 'forma llana'),
+    (V + r'ない', 'nai', 'V-ない'),
+    (V + r'たら', 'tara', 'V-たら'),
+    (V + r'て', 'te', 'V-て'),
+    (V + r'た', 'ta', 'V-た'),
+    (V + r'(?:forma )?ば', 'ba', 'V-ば'),
+    (V + r'(?:よう|意向形|forma volitiva)', 'vol', 'V-よう (volitiva)'),
+    (V + r'(?:\(?causativ[oa]\)?|forma causativa)', 'caus', 'V-causativa'),
+    (V + r'forma pasiva', 'pas', 'V-pasiva'),
+    (V + r'(?:可能|forma potencial)', 'pot', 'V-potencial'),
+    (r'(?<![A-Za-z])(?:Adj-(?:くて|なで|な|い|ければ|くない|く)|A(?:い|な)(?![a-z]))', 'adj', None),
+]
+FORM_RX = re.compile('|'.join(f'({r})' for r, _, _ in FORM_RULES))
+def link_forms(form):
+    def rep(m):
+        i = next(k for k, g in enumerate(m.groups()) if g is not None)
+        fid, label = FORM_RULES[i][1], FORM_RULES[i][2]
+        txt = label or m.group(0)
+        return f'<a class="vf" onclick="event.stopPropagation();window.__conj(\'{fid}\')">{txt}</a>'
+    return FORM_RX.sub(rep, form)
+
 def grammar_intro(points, level):
     L = level.upper()
     gl = legacy['grammar'].get(L, []) + [x for k, v in legacy['grammar'].items() if k != L for x in v]
@@ -232,10 +263,13 @@ def grammar_intro(points, level):
         if not g: continue
         e = g.get('explain', {})
         html.append(f"<h3>{g['p']} — {g.get('es', '')}</h3>"
-                    + (f"<p><b>Forma:</b> <span class=\"zh\">{e['form']}</span></p>" if e.get('form') else '')
+                    + (f"<p><b>Forma:</b> <span class=\"zh\">{link_forms(e['form'])}</span></p>" if e.get('form') else '')
                     + (f"<p>{e['nuance']}</p>" if e.get('nuance') else '')
                     + (f"<div class=\"tip\">💡 {e['tip']}</div>" if e.get('tip') else ''))
-    return ''.join(html)
+    out = ''.join(html)
+    if 'class="vf"' in out:
+        out = '<p class="small muted">👆 Toca una forma marcada (V-dicc., V-ます sin ます, V-て…) para repasar cómo se conjuga en los grupos I, II y III.</p>' + out
+    return out
 
 # ── build ─────────────────────────────────────────────────────────────
 furi = {}

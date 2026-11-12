@@ -150,3 +150,39 @@ ruby rt { font-family: var(--sans); color: var(--accent) }
 .bd-n { font-size: 12px; color: var(--ink2) }
 .bd-p { font-size: 13px; font-weight: 600; color: var(--accent); width: 38px; text-align: right }
 .bd-row .progbar { height: 7px }
+
+/* Conjugation (活用) */
+a.vf { display: inline-block; padding: 1px 7px; margin: 0 1px; border-radius: 6px; background: rgba(156,120,66,.13); color: var(--accent); font-weight: 600; font-size: .92em; cursor: pointer; text-decoration: none; border: 1px solid rgba(156,120,66,.3); white-space: nowrap }
+a.vf:hover { background: rgba(156,120,66,.22) }
+.cj-intro .cj-groups { display: grid; gap: 10px }
+.cj-intro .cj-groups > div { line-height: 1.45 }
+.cj-g { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 22px; padding: 0 5px; border-radius: 6px; font-size: 12px; font-weight: 700; color: #fff; margin-right: 6px; font-family: var(--serif) }
+.cj-g.g1 { background: #9c7842 } .cj-g.g2 { background: #4f7a6a } .cj-g.g3 { background: #a4524a }
+.cj-form { margin-bottom: 10px; padding: 0; overflow: hidden }
+.cj-head { display: flex; align-items: center; gap: 8px; padding: 14px 16px; cursor: pointer; flex-wrap: wrap }
+.cj-tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: rgba(156,120,66,.13); color: var(--accent); font-weight: 700 }
+.cj-chev { transition: transform .2s; color: var(--ink2); font-size: 20px }
+.cj-form.open .cj-chev { transform: rotate(90deg) }
+.cj-body { display: none; padding: 0 16px 16px; line-height: 1.55 }
+.cj-form.open .cj-body { display: block }
+.cj-body ul { padding-left: 18px; margin: 8px 0 }
+.cj-mini { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 6px 12px; margin-top: 10px; padding: 10px; background: rgba(0,0,0,.03); border-radius: 10px }
+.cj-mini > div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px }
+.cj-arrow { color: var(--ink2); margin: 0 4px }
+.cj-w { font-family: var(--cjk); font-size: 17px; cursor: pointer }
+.cj-r { display: block; width: 100%; font-size: 11px; color: var(--ink2); order: 9 }
+td .cj-r { display: inline; margin-left: 8px }
+.cj-verbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px }
+.cj-verbs .set-chip { width: auto; padding: 0 10px; font-family: var(--cjk) }
+.cj-table { width: 100%; border-collapse: collapse }
+.cj-table tr { border-top: 1px solid var(--line, rgba(0,0,0,.08)); cursor: pointer }
+.cj-table th { text-align: left; font-weight: 600; padding: 8px 8px 8px 0; font-size: 13px; color: var(--accent); width: 46% }
+.cj-table th span { display: block; font-weight: 400; color: var(--ink2); font-size: 11px }
+.cj-table td { padding: 8px 0 }
+.cj-qv { font-family: var(--cjk); font-size: 30px; margin: 6px 0 }
+.cj-opts { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px }
+.cj-opts .btn { font-family: var(--cjk); font-size: 17px }
+.cj-opts .btn.ok { background: var(--ok); color: #fff }
+.cj-opts .btn.bad { background: #c0392b; color: #fff }
+.cj-intro, #cj-table, .cj-q { padding: 16px }
+.cj-mini .cj-r { display: inline; width: auto; margin: 0 2px 0 3px; font-size: 10px; order: 0 }

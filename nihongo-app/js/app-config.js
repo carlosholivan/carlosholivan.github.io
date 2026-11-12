@@ -14,5 +14,6 @@ export const CFG = {
     ['語', 'vocabList', 'vocabListSub', 'vocab-list'],
     ['漢', 'hanzi', 'hanziSub', 'hanzi'],
     ['文', 'reference', 'grammarRefSub', 'reference'],
+    ['活', 'conjNav', 'conjSub', 'conj'],
   ],
 };

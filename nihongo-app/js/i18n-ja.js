@@ -1,5 +1,7 @@
 // Japanese-app wording: overrides the strings of the shared tables that mention Chinese.
 export default {
+  conjNav:        { es: 'Conjugación', en: 'Conjugation', ja: '活用', ko: '활용' },
+  conjSub:        { es: 'verbos I, II, III y adjetivos', en: 'verb groups I, II, III', ja: '動詞と形容詞', ko: '동사와 형용사' },
   spanish:        { es: 'Japonés', en: 'Japanese' },
   chinese:        { es: 'Japonés', en: 'Japanese' },
   writeSpanish:   { es: 'Escribe en japonés...', en: 'Write in Japanese...' },
