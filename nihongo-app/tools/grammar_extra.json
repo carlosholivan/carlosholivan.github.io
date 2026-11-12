@@ -964,5 +964,137 @@
 "form": "B。なぜなら、A からだ",
 "nuance": "Se da primero la conclusión y después la razón; estilo formal.",
 "tip": "行かない。なぜなら、時間がないからだ。"
+},
+"はもちろん": {
+"es": "no solo… sino también, por supuesto",
+"form": "N1 はもちろん N2 も",
+"nuance": "N1 se da por hecho y se añade N2.",
+"tip": "子供はもちろん、大人も楽しめる。"
+},
+"ばかりか": {
+"es": "no solo… sino (incluso)",
+"form": "forma simple／N + ばかりか ～も",
+"nuance": "Añade algo más sorprendente a lo primero.",
+"tip": "彼は英語ばかりか、中国語も話せる。"
+},
+"に比べて": {
+"es": "en comparación con",
+"form": "N + に比べて",
+"nuance": "Compara dos cosas o dos épocas.",
+"tip": "去年に比べて、今年は暑い。"
+},
+"に対して": {
+"es": "hacia; frente a, en contraste con",
+"form": "N + に対して ・ N に対する N",
+"nuance": "1) Destinatario de una acción o actitud. 2) Contraste entre dos cosas.",
+"tip": "先生に対して失礼だ。"
+},
+"上げる／上がる": {
+"es": "acabar (verbos compuestos)",
+"form": "V-ます + 上げる (transitivo) ／ 上がる (intransitivo)",
+"nuance": "Indica que una acción se completa por entero: 書き上げる, 出来上がる.",
+"tip": "レポートを書き上げた。"
+},
+"切れない": {
+"es": "no poder del todo",
+"form": "V-ます + 切れない ・ V-ます + 切る (hasta el final)",
+"nuance": "No se puede completar por ser demasiado: 食べ切れない, 数え切れない.",
+"tip": "量が多くて、食べ切れない。"
+},
+"～かけ": {
+"es": "a medias, empezado",
+"form": "V-ます + かけ(の N) ・ V-ます + かける",
+"nuance": "Una acción empezada pero sin terminar.",
+"tip": "飲みかけのコーヒー"
+},
+"～たて": {
+"es": "recién hecho",
+"form": "V-ます + たて(の N)",
+"nuance": "Algo que se acaba de hacer y está fresco.",
+"tip": "焼きたてのパン"
+},
+"といいなあ": {
+"es": "ojalá…",
+"form": "forma simple (presente) + といいなあ／といいですね",
+"nuance": "Deseo sobre algo que no depende de uno.",
+"tip": "明日、晴れるといいなあ。"
+},
+"ばよかった": {
+"es": "debería haber…",
+"form": "V-ば + よかった",
+"nuance": "Arrepentimiento sobre algo que uno no hizo.",
+"tip": "もっと勉強すればよかった。"
+},
+"ばよかったのに": {
+"es": "deberías haber…",
+"form": "V-ば + よかったのに",
+"nuance": "Reproche o lástima sobre lo que otra persona no hizo.",
+"tip": "言ってくれればよかったのに。"
+},
+"かなあ": {
+"es": "me pregunto si…",
+"form": "forma simple + かなあ",
+"nuance": "Duda o deseo dicho en voz alta, informal.",
+"tip": "明日、雨かなあ。"
+},
+"から～にかけて": {
+"es": "desde… hasta… (periodo o zona)",
+"form": "N1 から N2 にかけて",
+"nuance": "Abarca un intervalo de tiempo o de espacio de forma aproximada.",
+"tip": "夜から朝にかけて雪が降る。"
+},
+"において": {
+"es": "en (formal)",
+"form": "N + において ・ N における N",
+"nuance": "Lugar, momento o ámbito en lenguaje formal (≈ で).",
+"tip": "会議は本社において行われる。"
+},
+"たとえ～ても": {
+"es": "aunque, incluso si",
+"form": "たとえ + V-ても／Aくても／N でも",
+"nuance": "Concesión hipotética reforzada por たとえ.",
+"tip": "たとえ雨でも、試合は行う。"
+},
+"もしかすると～かもしれない": {
+"es": "a lo mejor, puede que",
+"form": "もしかすると／もしかしたら + ～かもしれない",
+"nuance": "Posibilidad baja, presentada con duda.",
+"tip": "もしかすると、彼は来ないかもしれない。"
+},
+"必ずしも～とは限らない": {
+"es": "no necesariamente",
+"form": "必ずしも + forma simple + とは限らない",
+"nuance": "Niega que algo sea siempre así.",
+"tip": "高い物が必ずしもいいとは限らない。"
+},
+"まるで～よう／みたい": {
+"es": "como si, igual que",
+"form": "まるで + forma simple／N の + ようだ／みたいだ",
+"nuance": "Comparación muy llamativa, a menudo irreal.",
+"tip": "まるで夢のようだ。"
+},
+"だけど": {
+"es": "pero (coloquial)",
+"form": "A。だけど、B ・ A けど、B",
+"nuance": "Contraste en conversación; más informal que しかし.",
+"tip": "高い。だけど、ほしい。"
+},
+"ですから": {
+"es": "por eso, así que (cortés)",
+"form": "A。ですから、B",
+"nuance": "Versión educada de だから.",
+"tip": "明日は休みです。ですから、店は閉まります。"
+},
+"ところが": {
+"es": "sin embargo (inesperado)",
+"form": "A。ところが、B",
+"nuance": "B contradice lo esperado; solo para hechos, no órdenes.",
+"tip": "晴れると思った。ところが、雨が降った。"
+},
+"ところで": {
+"es": "por cierto",
+"form": "A。ところで、B",
+"nuance": "Cambia de tema en una conversación.",
+"tip": "ところで、明日は暇？"
 }
 }
