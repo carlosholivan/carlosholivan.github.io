@@ -107,11 +107,12 @@ def parse(path):
     return units
 
 # ── vocabulary matching ───────────────────────────────────────────────
-ALIAS = {'終る': '終わる', '曲る': '曲がる', '在る': 'ある', '有る': 'ある', '居る': 'いる', '要る': 'いる', '下さい': 'ください', '一月': 'ひとつき', 'がる': 'たがる', 'ごらんになる': 'ごらん', 'おいでになる': 'おいで', '楽む': '楽しむ', '落る': '落ちる', '落す': '落とす', '下る': '下がる', 'いくらても': 'いくらでも', '堅': '堅い', 'おわる': '終わる', 'だす': '出す', 'いくらても': 'いくらでも', '下る': '下がる'}
+ALIAS = {'終る': '終わる', '曲る': '曲がる', '在る': 'ある', '有る': 'ある', '居る': 'いる', '要る': 'いる', '下さい': 'ください', '一月': 'ひとつき', 'がる': 'たがる', 'ごらんになる': 'ごらん', 'おいでになる': 'おいで', '楽む': '楽しむ', '落る': '落ちる', '落す': '落とす', '下る': '下がる', 'いくらても': 'いくらでも', '堅': '堅い', 'おわる': '終わる', 'だす': '出す', 'いくらても': 'いくらでも', '下る': '下がる', 'すくなくとも': '少なくとも', '付合う': '付き合う', '清む': '澄む'}
 def keys_for(v):
     w, r = v['w'], v['r']
     ks = {w}
     if w in ALIAS: ks.add(ALIAS[w])
+    if w.endswith('じる') and KANJI.search(w): ks.add(w[:-2] + 'ずる')  # 命じる → 命ずる (UniDic lemma)
     if w.endswith('する') and len(w) > 2: ks.add(w[:-2])
     if not KANJI.search(w):
         ks.add(hira(w))
@@ -138,6 +139,9 @@ def text_hits(toks_lines, vocab):
         line = ''.join(t['s'] for t in toks)
         for v in vocab:
             if KANJI.search(v['w']) and len(v['w']) >= 2 and v['w'] in line:
+                hits.add(v['w'])
+            # conjugated multi-token expressions (お目に掛かれて, 気に入った, 思い付いた)
+            elif KANJI.search(v['w']) and len(v['w']) >= 4 and v['w'][-1] in 'うくぐすつぬぶむる' and v['w'][:-1] in line:
                 hits.add(v['w'])
     return hits
 
