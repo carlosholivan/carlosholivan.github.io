@@ -1,0 +1,196 @@
+/* ════════════════════════════════════════════════════════════════
+   Shared look (from the original Nihongo app): warm paper, gold accent,
+   Mincho/Song serif for headings and characters, kanji badges instead of emoji.
+   Loaded after app.css in both chino-app and nihongo-app.
+   ════════════════════════════════════════════════════════════════ */
+:root {
+  --bg: #faf8f5; --bg2: #ffffff; --ink: #2b2722; --ink2: #6b6358; --line: #e8e2d9;
+  --accent: #9c7842; --accent2: #876535; --gold: #b8893a; --soft: #f3ede4; --ok: #4d7d5e; --no: #b5654f;
+  --shadow: 0 1px 3px rgba(60,50,40,.06), 0 8px 24px rgba(60,50,40,.05);
+  --serif: 'Hiragino Mincho ProN', 'Yu Mincho', 'Songti SC', 'STSong', 'Noto Serif CJK JP', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, 'SF Pro Text', system-ui, 'Hiragino Sans', 'PingFang SC', sans-serif;
+  --cjk: 'Hiragino Mincho ProN', 'Yu Mincho', 'Songti SC', 'STSong', 'Noto Serif CJK JP', 'Noto Serif SC', serif;
+  --border: var(--line); --card: var(--bg2); --text: var(--ink); --muted: var(--ink2);
+}
+.dark {
+  --bg: #16140f; --bg2: #1f1c16; --ink: #ece6db; --ink2: #9c9486; --line: #2c2820;
+  --accent: #c9a86a; --accent2: #d8b97c; --gold: #e0bd6a; --soft: #221e17; --ok: #7faa8b; --no: #cc7d68;
+  --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 28px rgba(0,0,0,.35);
+}
+html, body { background: var(--bg) }
+body { font-family: var(--sans) }
+#app { padding: 0 22px 90px }
+.h1, .h2, .h3, .study-es, .welcome-hello, .lvl-title { font-family: var(--serif) }
+.h1 { font-weight: 600; letter-spacing: -.01em }
+.dark .btn:not(.btn-ghost):not(.btn-soft) { color: #1a1a1a }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff }
+.dark .chip.on { color: #1a1a1a }
+.progbar { height: 9px }
+.streak { background: var(--soft); color: var(--accent); border: 1px solid var(--line) }
+.streak svg path { stroke: var(--accent); fill: var(--accent) }
+.lesson-circle { font-family: var(--serif); font-weight: 600 }
+.lesson-circle.current { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent) }
+.lesson-circle.current, .lesson-circle.done { color: #fff }
+.exercise-option.selected { background: color-mix(in srgb, var(--accent) 7%, transparent) }
+.exercise-option.correct { background: color-mix(in srgb, var(--ok) 10%, transparent) }
+.exercise-option.wrong { background: color-mix(in srgb, var(--no) 10%, transparent) }
+.tw.sel { background: color-mix(in srgb, var(--gold) 30%, transparent) }
+.drill-banner { border: 1px solid var(--line) }
+
+/* CJK text uses the serif face, like the Nihongo cards */
+.zh, .jp, .anki-hz, .zh-big-inline, .hz-c, .vl-w, .rv-w, .tone-ch { font-family: var(--cjk) }
+ruby rt { font-family: var(--sans); color: var(--accent) }
+
+/* Bottom nav: paper bar, gold active item */
+.bottomnav { background: color-mix(in srgb, var(--bg2) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px) }
+.bottomnav .navitem.on span { font-weight: 700 }
+
+/* Kanji badge menu cards (語 文 漢 …) */
+.lvlcard { padding: 16px 18px; display: flex; align-items: center; gap: 16px; margin-bottom: 12px; width: 100%; text-align: left; cursor: pointer }
+.lvlcard:active { transform: scale(.985) }
+.lvlcard .lc-t { font-family: var(--serif); font-size: 17px; font-weight: 600 }
+.lvlcard .lc-s { font-size: 13px; color: var(--ink2); margin-top: 1px }
+.lvlcard .lc-go { color: var(--accent); font-size: 18px }
+.kbadge { width: 52px; height: 52px; border-radius: 16px; background: var(--soft); display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 600; color: var(--accent); flex-shrink: 0; font-family: var(--cjk) }
+.kbadge.sm { width: 40px; height: 40px; border-radius: 12px; font-size: 18px }
+.menu-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 18px }
+.menu-grid > * { min-width: 0 }
+.menu-grid .lvlcard { margin: 0; padding: 14px; gap: 12px }
+.menu-grid .lvlcard .lc-t { font-size: 14.5px; line-height: 1.25; overflow-wrap: anywhere }
+.menu-grid .lvlcard .lc-s { font-size: 11.5px; line-height: 1.3 }
+.sec-label { font-size: 12px; letter-spacing: .1em; color: var(--ink2); margin: 18px 0 10px; text-transform: uppercase }
+
+/* Home */
+.home-top { display: flex; justify-content: space-between; align-items: center; padding-top: 26px; margin-bottom: 20px }
+.home-hi { font-size: 13px; letter-spacing: .08em; color: var(--ink2); font-family: var(--cjk) }
+.icon-btn { width: 46px; height: 46px; border-radius: 14px; display: flex; align-items: center; justify-content: center }
+.mascot-card { padding: 18px 22px; margin-bottom: 14px; display: flex; align-items: center; gap: 16px }
+.mascot-card .mc-t { font-size: 15px; font-weight: 600; margin-bottom: 2px; display: flex; align-items: center; gap: 6px }
+.mascot-card .mc-s { font-size: 13px; color: var(--ink2); line-height: 1.4 }
+.stat-row { display: flex; gap: 10px; margin-bottom: 14px }
+.stat-row .card { flex: 1; padding: 14px 8px; text-align: center; cursor: pointer }
+.stat-row b { display: block; font-size: 21px; font-weight: 700; color: var(--accent); margin-top: 2px }
+.stat-row span { font-size: 11px; color: var(--ink2) }
+.lvl-card { padding: 22px; margin-bottom: 16px }
+.lvl-card .lvl-k { font-size: 12px; letter-spacing: .1em; color: var(--ink2) }
+.lvl-card .lvl-p { font-size: 26px; font-weight: 700; color: var(--accent) }
+.lvl-row { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 6px; margin-bottom: 8px }
+.lvl-row .card { min-width: 72px; padding: 12px 6px; text-align: center; cursor: pointer; flex-shrink: 0 }
+.lvl-row .card.on { border: 2px solid var(--accent) }
+.lvl-row b { display: block; font-size: 15px; font-weight: 600 }
+.lvl-row .card.on b { color: var(--accent) }
+.lvl-row span { font-size: 11px; color: var(--ink2) }
+.lesson-tree { margin-top: 4px }
+.lesson-node { background: var(--bg2); border: 1px solid var(--line); margin-bottom: 10px; box-shadow: var(--shadow) }
+
+/* ── Flashcards: bigger word, per-character meaning, link to the character sheet ── */
+.anki-card { min-height: 300px; padding: 52px 18px 26px; border-radius: 22px }
+.anki-hz { font-size: 84px; line-height: 1.15; font-weight: 500 }
+.anki-hz.word { font-size: var(--wsize, 68px) }
+.anki-mean { font-family: var(--serif) }
+.anki-ans { font-size: 22px; color: var(--accent); font-weight: 600; font-family: var(--serif) }
+.anki-py { font-size: 22px }
+.anki-tag.new { background: #5a7fa8 } .anki-tag.learn { background: #c08a3e } .anki-tag.due { background: var(--ok) } .anki-tag.forgot { background: var(--no) }
+.anki-btn { border-radius: 14px; padding: 12px 4px }
+.anki-btn.again { background: #b5654f } .anki-btn.hard { background: #c08a3e } .anki-btn.good { background: #4d7d5e } .anki-btn.easy { background: #5a7fa8 }
+.dark .anki-btn { color: #fff }
+
+.cg-word { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: flex-end; gap: 0 2px; max-width: 100% }
+.cg { display: inline-flex; flex-direction: column; align-items: center; text-decoration: none; color: inherit; border-radius: 12px; padding: 0 3px; cursor: pointer; transition: background .15s }
+.cg:hover, .cg:active { background: var(--soft) }
+.cg-m { font-family: var(--sans); font-size: 11px; line-height: 1.2; color: var(--accent); font-weight: 600; max-width: max(6.5em, calc(var(--wsize, 68px) * 1.7)); min-height: 1.2em; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-bottom: 1px dotted var(--accent); margin-bottom: 2px }
+.cg-m.none { border-bottom: 0 }
+.cg-c { font-family: var(--cjk); font-size: var(--wsize, 68px); line-height: 1.15 }
+.cg.kana .cg-m { visibility: hidden }
+.cg-tip { font-size: 11px; color: var(--ink2); margin-top: 6px }
+
+/* Character sheet (Midori-style) */
+.ks-head { display: flex; gap: 18px; align-items: center; padding: 20px }
+.ks-big { font-family: var(--cjk); font-size: 96px; line-height: 1; min-width: 1.05em; text-align: center }
+.ks-mean { font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--accent); line-height: 1.25 }
+.ks-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px }
+.ks-tag { font-size: 11px; padding: 3px 9px; border-radius: 99px; background: var(--soft); color: var(--ink2) }
+.ks-read { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 20px 18px }
+.ks-read > div { background: var(--soft); border-radius: 14px; padding: 10px 12px }
+.ks-read .k { font-size: 10px; letter-spacing: .06em; color: var(--ink2); text-transform: uppercase }
+.ks-read .v { font-family: var(--cjk); font-size: 17px; font-weight: 600; margin-top: 3px; line-height: 1.5; word-break: break-word }
+.ks-sec { font-size: 12px; letter-spacing: .1em; color: var(--ink2); margin: 20px 0 8px; text-transform: uppercase }
+.ks-word { display: flex; align-items: baseline; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); cursor: pointer }
+.ks-word:last-child { border-bottom: 0 }
+.ks-word .w { font-family: var(--cjk); font-size: 22px; min-width: 2.6em }
+.ks-word .w b { color: var(--accent); font-weight: 600 }
+.ks-word .r { font-size: 13px; color: var(--ink2); min-width: 5em }
+.ks-word .m { flex: 1; font-size: 13.5px; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.ks-word .lv { font-size: 10px; color: var(--ink2); flex-shrink: 0 }
+.ks-parts { display: flex; flex-wrap: wrap; gap: 8px }
+.ks-part { display: flex; flex-direction: column; align-items: center; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg2); cursor: pointer; min-width: 58px }
+.ks-part span { font-family: var(--cjk); font-size: 26px }
+.ks-part small { font-size: 10.5px; color: var(--ink2); max-width: 7em; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.ks-ex { padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.9 }
+.ks-ex:last-child { border-bottom: 0 }
+.ks-ex .tr { font-size: 13px; color: var(--ink2); line-height: 1.4 }
+
+/* Welcome: Mochi instead of the waving hand */
+.welcome-wave { font-size: 0; margin-bottom: 10px }
+.welcome-hello { color: var(--accent); font-family: var(--serif); font-weight: 700 }
+.welcome-bubbles span { background: var(--accent) }
+
+/* Lesson word cards */
+.vocab-card { padding: 40px 18px 28px }
+.vocab-card .cg-word { margin-bottom: 8px }
+.vocab-es.zh-word { font-size: 56px; font-family: var(--cjk); color: var(--ink); font-weight: 500 }
+.vocab-tr { font-family: var(--serif); font-size: 20px; color: var(--accent); font-weight: 600 }
+.char-sheet .sheet { padding-bottom: 28px }
+
+/* Home: progress by area (vocabulary, grammar, readings, characters) */
+.bd-row { margin-bottom: 13px; cursor: pointer }
+.bd-top { display: flex; align-items: center; gap: 8px; margin-bottom: 5px }
+.bd-b { font-family: var(--cjk); font-size: 16px; color: var(--accent); width: 20px; text-align: center }
+.bd-l { flex: 1; font-size: 14px; font-weight: 600 }
+.bd-n { font-size: 12px; color: var(--ink2) }
+.bd-p { font-size: 13px; font-weight: 600; color: var(--accent); width: 38px; text-align: right }
+.bd-row .progbar { height: 7px }
+
+/* Conjugation (活用) */
+a.vf { display: inline-block; padding: 1px 7px; margin: 0 1px; border-radius: 6px; background: rgba(156,120,66,.13); color: var(--accent); font-weight: 600; font-size: .92em; cursor: pointer; text-decoration: none; border: 1px solid rgba(156,120,66,.3); white-space: nowrap }
+a.vf:hover { background: rgba(156,120,66,.22) }
+.cj-intro .cj-groups { display: grid; gap: 10px }
+.cj-intro .cj-groups > div { line-height: 1.45 }
+.cj-g { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 22px; padding: 0 5px; border-radius: 6px; font-size: 12px; font-weight: 700; color: #fff; margin-right: 6px; font-family: var(--serif) }
+.cj-g.g1 { background: #9c7842 } .cj-g.g2 { background: #4f7a6a } .cj-g.g3 { background: #a4524a }
+.cj-form { margin-bottom: 10px; padding: 0; overflow: hidden }
+.cj-head { display: flex; align-items: center; gap: 8px; padding: 14px 16px; cursor: pointer; flex-wrap: wrap }
+.cj-tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: rgba(156,120,66,.13); color: var(--accent); font-weight: 700 }
+.cj-chev { transition: transform .2s; color: var(--ink2); font-size: 20px }
+.cj-form.open .cj-chev { transform: rotate(90deg) }
+.cj-body { display: none; padding: 0 16px 16px; line-height: 1.55 }
+.cj-form.open .cj-body { display: block }
+.cj-body ul { padding-left: 18px; margin: 8px 0 }
+.cj-mini { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 6px 12px; margin-top: 10px; padding: 10px; background: rgba(0,0,0,.03); border-radius: 10px }
+.cj-mini > div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px }
+.cj-arrow { color: var(--ink2); margin: 0 4px }
+.cj-w { font-family: var(--cjk); font-size: 17px; cursor: pointer }
+.cj-r { display: block; width: 100%; font-size: 11px; color: var(--ink2); order: 9 }
+td .cj-r { display: inline; margin-left: 8px }
+.cj-verbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px }
+.cj-verbs .set-chip { width: auto; padding: 0 10px; font-family: var(--cjk) }
+.cj-table { width: 100%; border-collapse: collapse }
+.cj-table tr { border-top: 1px solid var(--line, rgba(0,0,0,.08)); cursor: pointer }
+.cj-table th { text-align: left; font-weight: 600; padding: 8px 8px 8px 0; font-size: 13px; color: var(--accent); width: 46% }
+.cj-table th span { display: block; font-weight: 400; color: var(--ink2); font-size: 11px }
+.cj-table td { padding: 8px 0 }
+.cj-qv { font-family: var(--cjk); font-size: 30px; margin: 6px 0 }
+.cj-opts { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px }
+.cj-opts .btn { font-family: var(--cjk); font-size: 17px }
+.cj-opts .btn.ok { background: var(--ok); color: #fff }
+.cj-opts .btn.bad { background: #c0392b; color: #fff }
+.cj-intro, #cj-table, .cj-q { padding: 16px }
+.cj-mini .cj-r { display: inline; width: auto; margin: 0 2px 0 3px; font-size: 10px; order: 0 }
+
+/* Vocabulary by topic */
+.tp-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px }
+.tp-cat { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px; text-align: left; border: none; cursor: pointer; font: inherit; color: inherit }
+.tp-name { font-weight: 700; font-family: var(--serif); font-size: 15px; line-height: 1.25 }
+.tp-cat .progbar, .tp-sub .progbar { width: 100% }
+.tp-sub { padding: 14px 16px; margin-bottom: 10px; cursor: pointer }
+.tp-peek { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--cjk); font-size: 15px }

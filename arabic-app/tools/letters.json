@@ -1,0 +1,512 @@
+[
+ {
+  "c": "ا",
+  "name": "alif",
+  "name_en": "alif",
+  "sound": "a / ā larga (soporte de hamza)",
+  "sound_en": "a / long ā",
+  "tr": "ā",
+  "forms": [
+   "ا",
+   "ا",
+   "ـا",
+   "ـا"
+  ],
+  "ex": [
+   "أَب"
+  ]
+ },
+ {
+  "c": "ب",
+  "name": "bāʾ",
+  "name_en": "baa",
+  "sound": "b",
+  "sound_en": "b",
+  "tr": "b",
+  "forms": [
+   "ب",
+   "بـ",
+   "ـبـ",
+   "ـب"
+  ],
+  "ex": [
+   "بَاب"
+  ]
+ },
+ {
+  "c": "ت",
+  "name": "tāʾ",
+  "name_en": "taa",
+  "sound": "t",
+  "sound_en": "t",
+  "tr": "t",
+  "forms": [
+   "ت",
+   "تـ",
+   "ـتـ",
+   "ـت"
+  ],
+  "ex": [
+   "تَمْر"
+  ]
+ },
+ {
+  "c": "ث",
+  "name": "thāʾ",
+  "name_en": "thaa",
+  "sound": "z española (th inglesa de «think»)",
+  "sound_en": "th as in “think”",
+  "tr": "th",
+  "forms": [
+   "ث",
+   "ثـ",
+   "ـثـ",
+   "ـث"
+  ],
+  "ex": [
+   "ثَلَاثَة"
+  ]
+ },
+ {
+  "c": "ج",
+  "name": "jīm",
+  "name_en": "jiim",
+  "sound": "y fuerte / j inglesa de «jam»",
+  "sound_en": "j as in “jam”",
+  "tr": "j",
+  "forms": [
+   "ج",
+   "جـ",
+   "ـجـ",
+   "ـج"
+  ],
+  "ex": [
+   "جَمِيل"
+  ]
+ },
+ {
+  "c": "ح",
+  "name": "ḥāʾ",
+  "name_en": "haa",
+  "sound": "h aspirada fuerte desde la garganta",
+  "sound_en": "strong breathy h",
+  "tr": "ḥ",
+  "forms": [
+   "ح",
+   "حـ",
+   "ـحـ",
+   "ـح"
+  ],
+  "ex": [
+   "حُبّ"
+  ]
+ },
+ {
+  "c": "خ",
+  "name": "khāʾ",
+  "name_en": "khaa",
+  "sound": "j española",
+  "sound_en": "Spanish j / German ch",
+  "tr": "kh",
+  "forms": [
+   "خ",
+   "خـ",
+   "ـخـ",
+   "ـخ"
+  ],
+  "ex": [
+   "خُبْز"
+  ]
+ },
+ {
+  "c": "د",
+  "name": "dāl",
+  "name_en": "daal",
+  "sound": "d",
+  "sound_en": "d",
+  "tr": "d",
+  "forms": [
+   "د",
+   "د",
+   "ـد",
+   "ـد"
+  ],
+  "ex": [
+   "دَرْس"
+  ]
+ },
+ {
+  "c": "ذ",
+  "name": "dhāl",
+  "name_en": "dhaal",
+  "sound": "d suave (th inglesa de «this»)",
+  "sound_en": "th as in “this”",
+  "tr": "dh",
+  "forms": [
+   "ذ",
+   "ذ",
+   "ـذ",
+   "ـذ"
+  ],
+  "ex": [
+   "ذَهَب"
+  ]
+ },
+ {
+  "c": "ر",
+  "name": "rāʾ",
+  "name_en": "raa",
+  "sound": "r simple",
+  "sound_en": "tapped r",
+  "tr": "r",
+  "forms": [
+   "ر",
+   "ر",
+   "ـر",
+   "ـر"
+  ],
+  "ex": [
+   "رَجُل"
+  ]
+ },
+ {
+  "c": "ز",
+  "name": "zāy",
+  "name_en": "zaay",
+  "sound": "z sonora (zumbido de abeja)",
+  "sound_en": "z",
+  "tr": "z",
+  "forms": [
+   "ز",
+   "ز",
+   "ـز",
+   "ـز"
+  ],
+  "ex": [
+   "زَيْت"
+  ]
+ },
+ {
+  "c": "س",
+  "name": "sīn",
+  "name_en": "siin",
+  "sound": "s",
+  "sound_en": "s",
+  "tr": "s",
+  "forms": [
+   "س",
+   "سـ",
+   "ـسـ",
+   "ـس"
+  ],
+  "ex": [
+   "سَمَك"
+  ]
+ },
+ {
+  "c": "ش",
+  "name": "shīn",
+  "name_en": "shiin",
+  "sound": "sh (como «show»)",
+  "sound_en": "sh",
+  "tr": "sh",
+  "forms": [
+   "ش",
+   "شـ",
+   "ـشـ",
+   "ـش"
+  ],
+  "ex": [
+   "شَمْس"
+  ]
+ },
+ {
+  "c": "ص",
+  "name": "ṣād",
+  "name_en": "saad",
+  "sound": "s enfática (velarizada)",
+  "sound_en": "emphatic s",
+  "tr": "ṣ",
+  "forms": [
+   "ص",
+   "صـ",
+   "ـصـ",
+   "ـص"
+  ],
+  "ex": [
+   "صَدِيق"
+  ]
+ },
+ {
+  "c": "ض",
+  "name": "ḍād",
+  "name_en": "daad",
+  "sound": "d enfática",
+  "sound_en": "emphatic d",
+  "tr": "ḍ",
+  "forms": [
+   "ض",
+   "ضـ",
+   "ـضـ",
+   "ـض"
+  ],
+  "ex": [
+   "ضَيْف"
+  ]
+ },
+ {
+  "c": "ط",
+  "name": "ṭāʾ",
+  "name_en": "taa",
+  "sound": "t enfática",
+  "sound_en": "emphatic t",
+  "tr": "ṭ",
+  "forms": [
+   "ط",
+   "طـ",
+   "ـطـ",
+   "ـط"
+  ],
+  "ex": [
+   "طَالِب"
+  ]
+ },
+ {
+  "c": "ظ",
+  "name": "ẓāʾ",
+  "name_en": "zaa",
+  "sound": "dh enfática",
+  "sound_en": "emphatic dh",
+  "tr": "ẓ",
+  "forms": [
+   "ظ",
+   "ظـ",
+   "ـظـ",
+   "ـظ"
+  ],
+  "ex": [
+   "ظُهْر"
+  ]
+ },
+ {
+  "c": "ع",
+  "name": "ʿayn",
+  "name_en": "ayn",
+  "sound": "sonido gutural sonoro (garganta apretada)",
+  "sound_en": "voiced pharyngeal sound",
+  "tr": "ʿ",
+  "forms": [
+   "ع",
+   "عـ",
+   "ـعـ",
+   "ـع"
+  ],
+  "ex": [
+   "عَيْن"
+  ]
+ },
+ {
+  "c": "غ",
+  "name": "ghayn",
+  "name_en": "ghayn",
+  "sound": "r francesa / g gargareada",
+  "sound_en": "French r",
+  "tr": "gh",
+  "forms": [
+   "غ",
+   "غـ",
+   "ـغـ",
+   "ـغ"
+  ],
+  "ex": [
+   "غُرْفَة"
+  ]
+ },
+ {
+  "c": "ف",
+  "name": "fāʾ",
+  "name_en": "faa",
+  "sound": "f",
+  "sound_en": "f",
+  "tr": "f",
+  "forms": [
+   "ف",
+   "فـ",
+   "ـفـ",
+   "ـف"
+  ],
+  "ex": [
+   "فِيل"
+  ]
+ },
+ {
+  "c": "ق",
+  "name": "qāf",
+  "name_en": "qaaf",
+  "sound": "k profunda desde la garganta",
+  "sound_en": "deep k from the throat",
+  "tr": "q",
+  "forms": [
+   "ق",
+   "قـ",
+   "ـقـ",
+   "ـق"
+  ],
+  "ex": [
+   "قَلَم"
+  ]
+ },
+ {
+  "c": "ك",
+  "name": "kāf",
+  "name_en": "kaaf",
+  "sound": "k",
+  "sound_en": "k",
+  "tr": "k",
+  "forms": [
+   "ك",
+   "كـ",
+   "ـكـ",
+   "ـك"
+  ],
+  "ex": [
+   "كِتَاب"
+  ]
+ },
+ {
+  "c": "ل",
+  "name": "lām",
+  "name_en": "laam",
+  "sound": "l",
+  "sound_en": "l",
+  "tr": "l",
+  "forms": [
+   "ل",
+   "لـ",
+   "ـلـ",
+   "ـل"
+  ],
+  "ex": [
+   "لَيْل"
+  ]
+ },
+ {
+  "c": "م",
+  "name": "mīm",
+  "name_en": "miim",
+  "sound": "m",
+  "sound_en": "m",
+  "tr": "m",
+  "forms": [
+   "م",
+   "مـ",
+   "ـمـ",
+   "ـم"
+  ],
+  "ex": [
+   "مَاء"
+  ]
+ },
+ {
+  "c": "ن",
+  "name": "nūn",
+  "name_en": "nuun",
+  "sound": "n",
+  "sound_en": "n",
+  "tr": "n",
+  "forms": [
+   "ن",
+   "نـ",
+   "ـنـ",
+   "ـن"
+  ],
+  "ex": [
+   "نُور"
+  ]
+ },
+ {
+  "c": "ه",
+  "name": "hāʾ",
+  "name_en": "haa",
+  "sound": "h suave aspirada (como en inglés «hello»)",
+  "sound_en": "h as in “hello”",
+  "tr": "h",
+  "forms": [
+   "ه",
+   "هـ",
+   "ـهـ",
+   "ـه"
+  ],
+  "ex": [
+   "هُنَا"
+  ]
+ },
+ {
+  "c": "و",
+  "name": "wāw",
+  "name_en": "waaw",
+  "sound": "w / ū larga",
+  "sound_en": "w / long ū",
+  "tr": "w",
+  "forms": [
+   "و",
+   "و",
+   "ـو",
+   "ـو"
+  ],
+  "ex": [
+   "وَلَد"
+  ]
+ },
+ {
+  "c": "ي",
+  "name": "yāʾ",
+  "name_en": "yaa",
+  "sound": "y / ī larga",
+  "sound_en": "y / long ī",
+  "tr": "y",
+  "forms": [
+   "ي",
+   "يـ",
+   "ـيـ",
+   "ـي"
+  ],
+  "ex": [
+   "يَوْم"
+  ]
+ },
+ {
+  "c": "ء",
+  "name": "hamza",
+  "name_en": "hamza",
+  "sound": "golpe de glotis (corte de voz)",
+  "sound_en": "glottal stop",
+  "tr": "ʾ",
+  "forms": [
+   "ء",
+   "",
+   "",
+   ""
+  ],
+  "ex": [
+   "سَمَاء"
+  ]
+ },
+ {
+  "c": "ة",
+  "name": "tāʾ marbūṭa",
+  "name_en": "taa marbuuta",
+  "sound": "-a final (femenino); -t- si sigue otra palabra",
+  "sound_en": "final -a (feminine)",
+  "tr": "a / t",
+  "forms": [
+   "ة",
+   "",
+   "",
+   "ـة"
+  ],
+  "ex": [
+   "مَدْرَسَة"
+  ]
+ }
+]
