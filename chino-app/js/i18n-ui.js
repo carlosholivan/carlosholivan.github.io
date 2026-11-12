@@ -8,6 +8,8 @@ export default {
   curStreak:    { es: 'racha actual', en: 'current streak', ja: '連続日数', ko: '연속 학습' },
   levelNow:     { es: 'Nivel actual', en: 'Current level', ja: '現在のレベル', ko: '현재 레벨' },
   levelProg:    { es: 'lecciones completadas', en: 'lessons completed', ja: '完了したレッスン', ko: '완료한 레슨' },
+  globalProg:   { es: 'progreso global del nivel', en: 'overall level progress', ja: 'レベル全体の進捗', ko: '레벨 전체 진도' },
+  readingsLbl:  { es: 'Lecturas', en: 'Readings', ja: '読み物', ko: '읽기' },
   keepGoing:    { es: 'Continuar aprendiendo', en: 'Keep learning', ja: '学習を続ける', ko: '계속 학습하기' },
   changeLevel:  { es: 'Cambiar de nivel', en: 'Change level', ja: 'レベル変更', ko: '레벨 변경' },
   toolsLabel:   { es: 'Practicar y consultar', en: 'Practice & reference', ja: '練習と参考', ko: '연습과 참고' },

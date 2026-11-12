@@ -1,6 +1,6 @@
 import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611122130';
 import { register, go } from '../router.js?v=202611122130';
-import { loadUnits } from '../data.js?v=202611122130';
+import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611122130';
 import { bottomNav, progressBar } from '../ui/components.js?v=202611122130';
 import { icon } from '../ui/icons.js?v=202611122130';
 import { mascot } from '../ui/mascot.js?v=202611122130';
@@ -22,6 +22,8 @@ register('home', async (el) => {
     const us = await loadUnits(l).catch(() => []);
     levelPct[l] = us.length ? Math.round(us.filter((_, i) => isUnitDone(l, i + 1)).length / us.length * 100) : 0;
   }));
+  const bd = await breakdown(S.level, units);
+  const pctAll = bd.length ? Math.round(bd.reduce((a, r) => a + r.pct, 0) / bd.length) : pct;
   const msg = due ? t('mascotDue').replace('{n}', due) : S.streak ? t('mascotStreak').replace('{n}', S.streak) : t('mascotStart');
 
   el.innerHTML = `<div class="fade">
@@ -44,10 +46,14 @@ register('home', async (el) => {
     <div class="card lvl-card">
       <div class="flex justify-between" style="align-items:baseline;margin-bottom:6px">
         <div class="lvl-k">${t('levelNow').toUpperCase()} · ${levelLabel(S.level)}</div>
-        <div class="lvl-p">${pct}%</div>
+        <div class="lvl-p">${pctAll}%</div>
       </div>
-      ${progressBar(pct)}
-      <div class="muted small mt-8">${totalDone}/${units.length} ${t('levelProg')}</div>
+      ${progressBar(pctAll)}
+      <div class="muted small mt-8 mb-16">${t('globalProg')} · ${totalDone}/${units.length} ${t('levelProg')}</div>
+      ${bd.map(r => `<div class="bd-row" onclick="window.__nav('${r.view}')">
+        <div class="bd-top"><span class="bd-b">${r.badge}</span><span class="bd-l">${t(r.key)}</span>
+          <span class="bd-n">${r.done}/${r.total}</span><span class="bd-p">${r.pct}%</span></div>
+        ${progressBar(r.pct)}</div>`).join('')}
       ${next >= 0 ? `<button class="btn mt-16" onclick="window.__startUnit(${next + 1})">${t('keepGoing')} · ${next + 1}. ${esc((units[next].title || {})[S.lang] || (units[next].title || {}).es || '')}</button>` : ''}
     </div>
 
@@ -97,3 +103,20 @@ function setChips(num) {
 }
 
 window.__startSet = (num, set) => go('lesson', { level: S.level, unit: num, set });
+
+// Level progress by area (as in the old Nihongo home): vocabulary, grammar, readings and characters.
+const learned = c => c && (c.s === 'known' || c.s === 'review');
+async function breakdown(level, units) {
+  const [vocab, texts, hanzi] = await Promise.all([loadVocab(level).catch(() => []), loadTexts(level).catch(() => []), loadHanzi(level).catch(() => [])]);
+  const cards = S.cards || {}, hcards = S.hcards || {};
+  const gTotal = units.reduce((a, u) => a + (u.grammar || []).length, 0);
+  const gDone = units.reduce((a, u, i) => a + (isUnitDone(level, i + 1) ? (u.grammar || []).length : 0), 0);
+  const rows = [
+    { key: 'vocabulary', badge: CFG.progBadges[0], view: 'vocab-list', done: vocab.filter(v => learned(cards[v.w || v.word])).length, total: vocab.length },
+    { key: 'grammar', badge: CFG.progBadges[1], view: 'reference', done: gDone, total: gTotal },
+    { key: 'readingsLbl', badge: CFG.progBadges[2], view: 'texts', done: texts.filter(x => (S.texts || {})[x.id]?.q != null).length, total: texts.length },
+    { key: 'hanzi', badge: CFG.progBadges[3], view: 'hanzi', done: hanzi.filter(h => learned(hcards[h.c])).length, total: hanzi.length },
+  ].filter(r => r.total);
+  rows.forEach(r => { r.pct = Math.round(r.done / r.total * 100); });
+  return rows;
+}

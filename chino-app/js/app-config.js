@@ -5,6 +5,8 @@ export const CFG = {
   hello: '你好',
   langKey: 'chinese',
   charBadge: '字',
+  // Badges of the home progress rows: vocabulary, grammar, readings, characters
+  progBadges: ['词', '文', '读', '字'],
   // Home tools menu: [badge, i18n title key, i18n subtitle key, view]
   tools: [
     ['课', 'texts', 'textsSub', 'texts'],

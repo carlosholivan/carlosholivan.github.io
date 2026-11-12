@@ -141,3 +141,12 @@ ruby rt { font-family: var(--sans); color: var(--accent) }
 .vocab-es.zh-word { font-size: 56px; font-family: var(--cjk); color: var(--ink); font-weight: 500 }
 .vocab-tr { font-family: var(--serif); font-size: 20px; color: var(--accent); font-weight: 600 }
 .char-sheet .sheet { padding-bottom: 28px }
+
+/* Home: progress by area (vocabulary, grammar, readings, characters) */
+.bd-row { margin-bottom: 13px; cursor: pointer }
+.bd-top { display: flex; align-items: center; gap: 8px; margin-bottom: 5px }
+.bd-b { font-family: var(--cjk); font-size: 16px; color: var(--accent); width: 20px; text-align: center }
+.bd-l { flex: 1; font-size: 14px; font-weight: 600 }
+.bd-n { font-size: 12px; color: var(--ink2) }
+.bd-p { font-size: 13px; font-weight: 600; color: var(--accent); width: 38px; text-align: right }
+.bd-row .progbar { height: 7px }
