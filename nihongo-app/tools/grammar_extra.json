@@ -580,5 +580,53 @@
 "form": "N + で",
 "nuance": "Con cantidades marca el total (三つで百円) y con personas, cuántos lo hacen (一人で, 家族で).",
 "tip": "全部でいくらですか。"
+},
+"迷惑の受身": {
+"es": "pasiva de molestia",
+"form": "(N に) V-られる ・ 雨に降られる",
+"nuance": "Algo que hace otro (o que pasa) te afecta negativamente. Existe incluso con verbos intransitivos.",
+"tip": "友達に先に帰られた。"
+},
+"～とく／～どく": {
+"es": "forma coloquial de ～ておく",
+"form": "V-ておく → V-とく ・ V-でおく → V-どく",
+"nuance": "Contracción muy frecuente al hablar: 置いとく, 読んどく.",
+"tip": "明日までにやっとくね。"
+},
+"～らしい": {
+"es": "al parecer; típico de",
+"form": "forma simple + らしい ・ N + らしい (propio de)",
+"nuance": "1) Información oída o deducida (≈ そうだ). 2) N らしい: tener las cualidades típicas de N.",
+"tip": "春らしい天気 ・ 彼は来ないらしい。"
+},
+"～っぽい": {
+"es": "-ucho, tirando a, parece",
+"form": "N／V-ます／Aい + っぽい",
+"nuance": "Tendencia o apariencia, a menudo negativa o coloquial: 子供っぽい, 忘れっぽい, 白っぽい.",
+"tip": "この服は安っぽい。"
+},
+"～ように (命令)": {
+"es": "que… (orden indirecta, avisos)",
+"form": "V-る／V-ない + ように (。)",
+"nuance": "En avisos o al final de una instrucción: 遅れないように。",
+"tip": "明日は九時に来るように。"
+},
+"～ますように": {
+"es": "ojalá…, que…",
+"form": "V-ます + ように",
+"nuance": "Deseo dirigido a la suerte o a los dioses (tablillas de 神社, felicitaciones).",
+"tip": "合格しますように。"
+},
+"～ようとする": {
+"es": "intentar, estar a punto de",
+"form": "V-よう + とする",
+"nuance": "Esfuerzo por hacer algo (a menudo sin éxito) o algo que está a punto de pasar.",
+"tip": "出かけようとした時、電話が鳴った。"
+},
+"～ようとしない": {
+"es": "no querer, negarse a",
+"form": "V-よう + としない",
+"nuance": "Otra persona se resiste a hacer algo. No se usa para uno mismo.",
+"tip": "子供が野菜を食べようとしない。"
 }
 }
