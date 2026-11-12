@@ -826,5 +826,143 @@
 "form": "Aい → A + がる ・ V-たい → V-たがる",
 "nuance": "Describe desde fuera lo que siente o quiere otra persona (怖がる, 欲しがる). No se usa para uno mismo.",
 "tip": "子供が犬を怖がる。"
+},
+"にとって": {
+"es": "para (alguien), desde el punto de vista de",
+"form": "N + にとって(は／の)",
+"nuance": "Juicio o valoración desde la posición de alguien. Va seguido de adjetivos como 大切, 難しい.",
+"tip": "私にとって、家族が一番大切だ。"
+},
+"わりには": {
+"es": "para (lo que cabría esperar)",
+"form": "forma simple／N の + わりには",
+"nuance": "El resultado no corresponde a lo que se esperaría.",
+"tip": "高いわりにはおいしくない。"
+},
+"くせに": {
+"es": "a pesar de (crítica)",
+"form": "forma simple／N の + くせに",
+"nuance": "Reproche o desprecio: alguien hace algo impropio dada su condición.",
+"tip": "知らないくせに、何でも言う。"
+},
+"なんか／なんて／など": {
+"es": "cosas como… (menosprecio o modestia)",
+"form": "N + なんか／なんて ・ forma simple + なんて",
+"nuance": "Quita importancia, expresa sorpresa o desprecio, o modestia sobre uno mismo.",
+"tip": "私なんかには無理です。"
+},
+"～おかげで": {
+"es": "gracias a (causa positiva)",
+"form": "forma simple／N の + おかげで",
+"nuance": "Causa con resultado favorable, con agradecimiento.",
+"tip": "先生のおかげで合格した。"
+},
+"せいで": {
+"es": "por culpa de (causa negativa)",
+"form": "forma simple／N の + せいで",
+"nuance": "Causa con resultado desfavorable, culpando a algo o alguien.",
+"tip": "雨のせいで試合が中止になった。"
+},
+"かわりに": {
+"es": "en lugar de; a cambio",
+"form": "V-る／N の + かわりに",
+"nuance": "1) Sustitución. 2) Compensación: hago A a cambio de B.",
+"tip": "肉のかわりに魚を食べる。"
+},
+"にかわって": {
+"es": "en nombre de, sustituyendo a",
+"form": "N + にかわって",
+"nuance": "Alguien o algo ocupa el lugar de otro.",
+"tip": "社長にかわって、私があいさつします。"
+},
+"くらい／ほど": {
+"es": "tanto que, hasta el punto de",
+"form": "forma simple + くらい／ほど",
+"nuance": "Expresa el grado de algo con un ejemplo extremo.",
+"tip": "泣きたいほど痛い。"
+},
+"～ば～ほど": {
+"es": "cuanto más…, más…",
+"form": "V-ば + V-る + ほど ・ Aければ Aい ほど",
+"nuance": "Proporción: al aumentar una cosa, aumenta otra.",
+"tip": "練習すればするほど上手になる。"
+},
+"くらい～はいない": {
+"es": "no hay nadie tan… como",
+"form": "N + くらい／ほど + Adj + N はいない／はない",
+"nuance": "Superlativo: nada ni nadie supera a N.",
+"tip": "母ほど優しい人はいない。"
+},
+"ことはない": {
+"es": "no hace falta",
+"form": "V-る + ことはない",
+"nuance": "Tranquiliza o aconseja: no es necesario hacer algo.",
+"tip": "心配することはないよ。"
+},
+"ということだ": {
+"es": "es decir; dicen que",
+"form": "forma simple + ということだ",
+"nuance": "1) Conclusión o explicación. 2) Información oída (≈ そうだ).",
+"tip": "つまり、だめだということだ。"
+},
+"ことだ": {
+"es": "lo mejor es…, hay que…",
+"form": "V-る／V-ない + ことだ",
+"nuance": "Consejo enfático basado en la experiencia.",
+"tip": "上手になりたければ、毎日練習することだ。"
+},
+"どんなに～ことか": {
+"es": "¡cuánto…!, ¡qué…!",
+"form": "どんなに／どれほど + forma simple + ことか",
+"nuance": "Exclamación sobre un sentimiento intenso.",
+"tip": "会えてどんなに嬉しかったことか。"
+},
+"だっけ": {
+"es": "¿era…?, ¿cómo era…? (recordar)",
+"form": "forma simple + っけ ・ N／Aな + だっけ",
+"nuance": "Pregunta para confirmar algo que uno ha olvidado; coloquial.",
+"tip": "会議は何時だっけ？"
+},
+"しかない": {
+"es": "no hay más remedio que",
+"form": "V-る + しかない",
+"nuance": "Solo queda una opción posible.",
+"tip": "電車がないから、歩くしかない。"
+},
+"んだって": {
+"es": "dicen que, me han dicho que",
+"form": "forma simple + んだって ・ N／Aな + なんだって",
+"nuance": "Transmite información oída, en registro coloquial.",
+"tip": "明日は雨なんだって。"
+},
+"だって～もん": {
+"es": "es que… (excusa)",
+"form": "だって + forma simple + もん／んだもん",
+"nuance": "Justificación personal, infantil o mimosa.",
+"tip": "だって、知らなかったんだもん。"
+},
+"つまり": {
+"es": "es decir, en resumen",
+"form": "A。つまり、B",
+"nuance": "Reformula o resume lo dicho.",
+"tip": "彼は母の弟、つまり私のおじだ。"
+},
+"そのため（に）": {
+"es": "por eso, con ese fin",
+"form": "A。そのため(に)、B",
+"nuance": "Causa formal o finalidad referida a lo anterior.",
+"tip": "台風が来た。そのため、学校は休みになった。"
+},
+"その結果": {
+"es": "como resultado",
+"form": "A。その結果、B",
+"nuance": "B es la consecuencia de A; típico de informes.",
+"tip": "毎日練習した。その結果、優勝した。"
+},
+"なぜなら～からだ": {
+"es": "porque (explicación posterior)",
+"form": "B。なぜなら、A からだ",
+"nuance": "Se da primero la conclusión y después la razón; estilo formal.",
+"tip": "行かない。なぜなら、時間がないからだ。"
 }
 }
