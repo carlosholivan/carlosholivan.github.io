@@ -1810,5 +1810,857 @@
   "form": "N + でございます ・ ございます（ある）",
   "nuance": "Formas de máxima cortesía de です y ある, típicas de la atención al cliente.",
   "tip": "お手洗いは二階でございます。"
+ },
+ "～こそあれ": {
+  "es": "aunque sí hay…, (no hay)",
+  "form": "N／Adj-なで + こそあれ",
+  "nuance": "Admite una cosa para negar otra opuesta: hay A, pero no B. Muy escrito.",
+  "tip": "程度の差こそあれ、誰にでも悩みはある。"
+ },
+ "～こそすれ": {
+  "es": "si acaso…, pero nunca",
+  "form": "V-ます + こそすれ ・ N + こそすれ + negativo",
+  "nuance": "Se afirma una posibilidad y se niega rotundamente la contraria.",
+  "tip": "彼には感謝こそすれ、恨む気持ちは全くない。"
+ },
+ "～こそ～が": {
+  "es": "sí que…, pero",
+  "form": "A こそ + V／Adj + が、B",
+  "nuance": "Concede un punto con énfasis para presentar después un contraste.",
+  "tip": "この店は値段こそ高いが、味は確かだ。"
+ },
+ "～くらい（ぐらい）のものだ": {
+  "es": "solo… (como mucho)",
+  "form": "N + くらい（ぐらい）のものだ",
+  "nuance": "Lo único que cumple la condición es eso; lo demás no. Puede sonar a queja o elogio.",
+  "tip": "こんな難しい問題が解けるのは、彼くらいのものだ。"
+ },
+ "～くらいなら": {
+  "es": "antes que…, mejor",
+  "form": "V-る + くらいなら（ぐらいなら）",
+  "nuance": "Rechaza la primera opción como peor que la segunda (que suele ser algo drástico).",
+  "tip": "あんな人に頭を下げるくらいなら、会社を辞めたほうがましだ。"
+ },
+ "～ものとして": {
+  "es": "dando por supuesto que",
+  "form": "Frase (forma llana) + ものとして",
+  "nuance": "Actuar suponiendo algo, aunque no sea seguro o real.",
+  "tip": "返事がない場合は、欠席するものとして扱います。"
+ },
+ "～ものとする": {
+  "es": "se considerará que, se establece",
+  "form": "Frase (forma llana) + ものとする",
+  "nuance": "Lenguaje de reglamentos y contratos: define una norma o interpretación.",
+  "tip": "会費は毎月末までに支払うものとする。"
+ },
+ "～ことだから／～のことだから": {
+  "es": "tratándose de…, seguro que",
+  "form": "N + のことだから ・ Frase + ことだから",
+  "nuance": "Basándose en lo que se sabe de alguien o de una situación, se deduce algo con seguridad.",
+  "tip": "慎重な彼のことだから、何度も確認しただろう。"
+ },
+ "～ことのないように": {
+  "es": "para que no (vuelva a) ocurrir",
+  "form": "V-る + ことのないように",
+  "nuance": "Más formal que ～ないように; frecuente en avisos y disculpas oficiales.",
+  "tip": "二度とこのような事故が起こることのないよう、注意いたします。"
+ },
+ "～たことにする": {
+  "es": "hacer como si",
+  "form": "V-た／V-なかった + ことにする",
+  "nuance": "Fingir o considerar que algo ocurrió (o no) aunque no sea así.",
+  "tip": "今の話は聞かなかったことにしてください。"
+ },
+ "自発の～られる": {
+  "es": "no poder evitar sentir / pensar",
+  "form": "V (sentir, pensar, recordar) + られる／れる",
+  "nuance": "Forma espontánea: un sentimiento surge solo. Verbos como 思われる, 感じられる, 偲ばれる, 案じられる.",
+  "tip": "この写真を見ると、昔のことが思い出される。"
+ },
+ "～とされる": {
+  "es": "se considera que",
+  "form": "Frase (forma llana) + とされる／とされている",
+  "nuance": "Opinión generalmente aceptada o establecida. Registro escrito e informativo.",
+  "tip": "この寺は日本で最も古い木造建築とされている。"
+ },
+ "～させられる（自発）": {
+  "es": "hace que uno sienta / piense",
+  "form": "V (考える, 感心する…) causativa-pasiva",
+  "nuance": "Algo provoca en uno un sentimiento o reflexión sin quererlo: 考えさせられる, 感心させられる.",
+  "tip": "この映画には、いろいろと考えさせられた。"
+ },
+ "～に言わせれば": {
+  "es": "según (la opinión de)",
+  "form": "N (persona) + に言わせれば／に言わせると",
+  "nuance": "Presenta la opinión personal de alguien, a menudo distinta de la general.",
+  "tip": "祖父に言わせれば、今の若者は苦労が足りないそうだ。"
+ },
+ "～とみえて": {
+  "es": "parece que…, ya que",
+  "form": "Frase (forma llana) + とみえて／とみえる",
+  "nuance": "Deducción basada en lo que se observa; la segunda parte describe la prueba.",
+  "tip": "よほど疲れていたとみえて、彼はすぐに眠ってしまった。"
+ },
+ "～とみられる": {
+  "es": "se cree que, se estima",
+  "form": "Frase (forma llana) + とみられる／とみられている",
+  "nuance": "Estimación objetiva, típica de noticias.",
+  "tip": "火事の原因は、たばこの火とみられている。"
+ },
+ "～とみると": {
+  "es": "en cuanto ve que",
+  "form": "Frase (forma llana) + とみると／とみるや",
+  "nuance": "Al juzgar una situación, se reacciona de inmediato.",
+  "tip": "相手が弱いとみると、彼は急に強気になる。"
+ },
+ "～とすれば": {
+  "es": "si es así, entonces",
+  "form": "Frase (forma llana) + とすれば／とすると",
+  "nuance": "Suposición o premisa de la que se saca una conclusión lógica.",
+  "tip": "彼が犯人だとすれば、すべての説明がつく。"
+ },
+ "～というところだ": {
+  "es": "como mucho, más o menos",
+  "form": "N (cantidad) + というところだ／といったところだ",
+  "nuance": "Valora una cantidad o nivel como no muy alto.",
+  "tip": "参加者は、多くても五十人といったところだろう。"
+ },
+ "～たところで…ない": {
+  "es": "aunque…, no servirá de nada",
+  "form": "V-た + ところで + negativo",
+  "nuance": "Aunque se haga, el resultado esperado no se conseguirá.",
+  "tip": "今から急いだところで、間に合わない。"
+ },
+ "～としたところで": {
+  "es": "incluso si / incluso para",
+  "form": "N／Frase + としたところで（にしたところで）",
+  "nuance": "Incluso en ese caso o desde esa posición, la situación no cambia.",
+  "tip": "社長としたところで、この問題は簡単には解決できない。"
+ },
+ "～なら～なりに": {
+  "es": "a su manera, dentro de lo que es",
+  "form": "N／Adj + なら + N／Adj + なりに",
+  "nuance": "Adaptarse a lo que corresponde a una situación, aunque sea limitada.",
+  "tip": "お金がないならないなりに、楽しく暮らせる。"
+ },
+ "～なり～なり": {
+  "es": "ya sea… o…",
+  "form": "N／V-る + なり + N／V-る + なり",
+  "nuance": "Propone opciones de ejemplo; se usa al aconsejar u ordenar.",
+  "tip": "分からなければ、先生に聞くなり辞書で調べるなりしなさい。"
+ },
+ "～うが～うが": {
+  "es": "tanto si… como si…",
+  "form": "V-よう + が + V-よう + が",
+  "nuance": "Sea cual sea el caso, el resultado o la decisión no cambian.",
+  "tip": "雨が降ろうが風が吹こうが、試合は行われる。"
+ },
+ "～であれ～であれ": {
+  "es": "ya sea… o…",
+  "form": "N + であれ + N + であれ",
+  "nuance": "Versión escrita de ～でも～でも: no importa cuál.",
+  "tip": "大人であれ子供であれ、ルールは守らなければならない。"
+ },
+ "疑問詞～うが": {
+  "es": "por mucho / quienquiera que",
+  "form": "何／誰／どんなに + V-よう + が／と",
+  "nuance": "Con interrogativo: da igual qué, quién o cuánto.",
+  "tip": "誰が何と言おうが、私の気持ちは変わらない。"
+ },
+ "～うと～まいと": {
+  "es": "tanto si… como si no",
+  "form": "V-よう + と + V-る + まいと",
+  "nuance": "Se haga o no, el resultado es el mismo.",
+  "tip": "彼が来ようと来るまいと、会議は始める。"
+ },
+ "～うか～まいか": {
+  "es": "si hacer o no",
+  "form": "V-よう + か + V-る + まいか",
+  "nuance": "Duda entre hacer algo y no hacerlo. Más escrito que ～しようかどうか.",
+  "tip": "本当のことを言おうか言うまいか、悩んでいる。"
+ },
+ "～というか～というか": {
+  "es": "no sé si decir… o…",
+  "form": "N／Adj + というか + N／Adj + というか",
+  "nuance": "Busca la palabra adecuada para describir una impresión; suele sonar a crítica o sorpresa.",
+  "tip": "彼の行動は、大胆というか無謀というか、驚かされる。"
+ },
+ "～にせよ～にせよ": {
+  "es": "ya sea… o…",
+  "form": "N／V + にせよ + N／V + にせよ",
+  "nuance": "En cualquiera de los dos casos, se aplica lo mismo.",
+  "tip": "賛成にせよ反対にせよ、理由をはっきり述べてください。"
+ },
+ "～といい～といい": {
+  "es": "tanto… como…",
+  "form": "N + といい + N + といい",
+  "nuance": "Pone dos ejemplos para valorar el conjunto (elogio o crítica).",
+  "tip": "色といい形といい、この器は申し分ない。"
+ },
+ "～だの～だの": {
+  "es": "que si… que si…",
+  "form": "N／Frase + だの + N／Frase + だの",
+  "nuance": "Enumeración con tono de queja o fastidio.",
+  "tip": "彼は、疲れただの暑いだの、文句ばかり言う。"
+ },
+ "～が～なら～も～だ": {
+  "es": "de tal palo, tal astilla",
+  "form": "N1 が Adj なら N2 も Adj だ",
+  "nuance": "Critica a dos partes por igual: ambos tienen la culpa.",
+  "tip": "親が親なら子も子だ。"
+ },
+ "～といわず～といわず": {
+  "es": "tanto en… como en… (todo)",
+  "form": "N + といわず + N + といわず",
+  "nuance": "Sin distinguir: en todas partes o a todas horas.",
+  "tip": "顔といわず手といわず、体中泥だらけだ。"
+ },
+ "～ては～ては": {
+  "es": "una y otra vez…",
+  "form": "V-て + は + V-て + は",
+  "nuance": "Repetición de dos acciones alternas.",
+  "tip": "書いては消し、書いては消しして、やっと手紙を仕上げた。"
+ },
+ "～ては": {
+  "es": "(repetición habitual) / si…",
+  "form": "V-て + は",
+  "nuance": "Acción que se repite cada vez, o condición con resultado negativo.",
+  "tip": "週末になっては、山に登っていた。"
+ },
+ "～つ～つ": {
+  "es": "alternando, entre unos y otros",
+  "form": "V1-ます + つ + V2-ます + つ (opuestos)",
+  "nuance": "Acciones opuestas que se alternan: 行きつ戻りつ, 持ちつ持たれつ.",
+  "tip": "彼は駅の前を行きつ戻りつしていた。"
+ },
+ "～とも～とも": {
+  "es": "ni… ni… (no lo dice claro)",
+  "form": "N／Adj + とも + N／Adj + とも",
+  "nuance": "No se sabe o no se dice cuál de las dos opciones es.",
+  "tip": "彼は、行くとも行かないとも言わなかった。"
+ },
+ "～たら～たで": {
+  "es": "si pasa…, también tiene sus problemas",
+  "form": "V-たら + V-た + で",
+  "nuance": "Tanto si se da como si no, hay inconvenientes.",
+  "tip": "お金がないと困るが、あったらあったで心配が増える。"
+ },
+ "～のやら～のやら／～やら～やら": {
+  "es": "no se sabe si… o…",
+  "form": "Frase + のやら + Frase + のやら",
+  "nuance": "Expresa que no se entiende o no se sabe; también enumera desordenadamente.",
+  "tip": "息子は、勉強しているのやら遊んでいるのやら、全然分からない。"
+ },
+ "疑問詞～のやら": {
+  "es": "quién sabe qué / dónde…",
+  "form": "何／どこ／いつ + Frase + のやら",
+  "nuance": "Duda o preocupación sin respuesta.",
+  "tip": "あの子は、どこで何をしているのやら。"
+ },
+ "～までだ": {
+  "es": "simplemente, no queda más que",
+  "form": "V-る + までだ ・ V-た + までだ",
+  "nuance": "V-る: si no hay otra opción, se hará eso. V-た: solo hice eso, sin intención especial.",
+  "tip": "電車がないなら、歩いて帰るまでだ。"
+ },
+ "～までもない": {
+  "es": "no hace falta",
+  "form": "V-る + までもない",
+  "nuance": "Es tan obvio o simple que no es necesario hacerlo.",
+  "tip": "そんなことは、言うまでもない。"
+ },
+ "～限りだ": {
+  "es": "es de lo más…",
+  "form": "Adj-い／Adj-な＋な + 限りだ",
+  "nuance": "Expresa un sentimiento al máximo (寂しい, うれしい, 心細い).",
+  "tip": "友人が遠くへ引っ越してしまい、寂しい限りだ。"
+ },
+ "～に限る": {
+  "es": "lo mejor es",
+  "form": "N／V-る／V-ない + に限る",
+  "nuance": "Opinión personal fuerte sobre la mejor opción.",
+  "tip": "疲れた時は、寝るに限る。"
+ },
+ "～に限ったことではない": {
+  "es": "no es solo cosa de",
+  "form": "N + に限ったことではない",
+  "nuance": "El problema o fenómeno no se limita a ese caso.",
+  "tip": "人手不足は、この業界に限ったことではない。"
+ },
+ "～とは": {
+  "es": "¡que…! / X es…",
+  "form": "Frase／N + とは",
+  "nuance": "1) Sorpresa o indignación (～なんて, más escrito). 2) Definición: X とは Y だ.",
+  "tip": "あの真面目な彼がうそをつくとは、信じられない。"
+ },
+ "～との": {
+  "es": "que dice que (cita + N)",
+  "form": "Frase + との + N (連絡, 返事, 意見…)",
+  "nuance": "Introduce el contenido de un mensaje o noticia. Escrito.",
+  "tip": "明日の会議は中止との連絡があった。"
+ },
+ "～というもの": {
+  "es": "durante todo (ese tiempo)",
+  "form": "Periodo + というもの",
+  "nuance": "Subraya que durante todo un periodo se ha mantenido una situación.",
+  "tip": "この一週間というもの、ほとんど寝ていない。"
+ },
+ "～たが最後": {
+  "es": "una vez que…, ya no hay remedio",
+  "form": "V-た + が最後",
+  "nuance": "Si ocurre eso, inevitablemente se llega a un resultado (normalmente malo).",
+  "tip": "彼は、お酒を飲んだが最後、朝まで帰ってこない。"
+ },
+ "～かと思いきや": {
+  "es": "pensaba que…, pero (al contrario)",
+  "form": "Frase (forma llana) + かと思いきや",
+  "nuance": "El resultado es contrario a lo esperado. Escrito y algo literario.",
+  "tip": "簡単に勝つかと思いきや、試合は延長戦になった。"
+ },
+ "～そばから": {
+  "es": "nada más…, (y otra vez)",
+  "form": "V-る／V-た + そばから",
+  "nuance": "Algo se deshace o se repite justo después de hacerlo, una y otra vez.",
+  "tip": "片付けるそばから、子供が散らかす。"
+ },
+ "～ともなく": {
+  "es": "sin intención de, sin darse cuenta",
+  "form": "V-る + ともなく／ともなしに",
+  "nuance": "Se hace algo distraídamente, sin un propósito claro.",
+  "tip": "見るともなく窓の外を見ていると、虹が出ていた。"
+ },
+ "～なくして…はない": {
+  "es": "sin…, no hay…",
+  "form": "N + なくして（は）+ negativo",
+  "nuance": "Algo es condición indispensable para lo segundo.",
+  "tip": "努力なくして、成功はない。"
+ },
+ "～ば～ものを": {
+  "es": "si hubiera…, (y no lo hizo)",
+  "form": "V-ば + V-る／V-た + ものを",
+  "nuance": "Queja o pena por algo que no se hizo y habría salido bien.",
+  "tip": "早く言ってくれれば手伝ったものを。"
+ },
+ "～すら／～ですら": {
+  "es": "ni siquiera, incluso",
+  "form": "N + すら／ですら",
+  "nuance": "Versión escrita de ～さえ: pone un ejemplo extremo.",
+  "tip": "忙しくて、食事をする時間すらない。"
+ },
+ "～ともあろう": {
+  "es": "alguien como…, (no debería)",
+  "form": "N (cargo) + ともあろう + N",
+  "nuance": "Crítica: alguien de esa posición no debería actuar así.",
+  "tip": "教師ともあろう者が、生徒をいじめるとは。"
+ },
+ "～にして": {
+  "es": "incluso para / solo… / a la vez",
+  "form": "N + にして",
+  "nuance": "1) Incluso alguien así (名人にして難しい). 2) Solo a esa edad o nivel se logra. 3) A la vez (医者にして作家).",
+  "tip": "彼は医者にして作家でもある。"
+ },
+ "～ぐるみ": {
+  "es": "todo el…, incluido",
+  "form": "N + ぐるみ",
+  "nuance": "Abarca todo el conjunto: 家族ぐるみ, 町ぐるみ, 会社ぐるみ.",
+  "tip": "隣の家とは家族ぐるみで付き合っている。"
+ },
+ "～並み": {
+  "es": "al nivel de, como",
+  "form": "N + 並み",
+  "nuance": "Equivalente a un estándar: プロ並み, 平年並み, 世間並み.",
+  "tip": "彼の料理の腕はプロ並みだ。"
+ },
+ "～にあって": {
+  "es": "en (una situación especial)",
+  "form": "N + にあって",
+  "nuance": "En esa circunstancia particular; formal.",
+  "tip": "この不況の時代にあって、新しい事業を始めるのは勇気がいる。"
+ },
+ "～あっての": {
+  "es": "gracias a, sin… no existiría",
+  "form": "N1 + あっての + N2",
+  "nuance": "N2 solo existe gracias a N1.",
+  "tip": "お客様あっての商売だ。"
+ },
+ "～からする": {
+  "es": "de (más de) cantidad",
+  "form": "Cantidad + からする + N／からの",
+  "nuance": "Subraya que una cantidad es grande: 百万円からする時計.",
+  "tip": "この絵は、一億円からするそうだ。"
+ },
+ "～たりとも～ない": {
+  "es": "ni un solo…",
+  "form": "一 + contador + たりとも + negativo",
+  "nuance": "Ni la mínima cantidad; muy enfático.",
+  "tip": "一円たりとも無駄にはできない。"
+ },
+ "～なりとも": {
+  "es": "aunque sea un poco",
+  "form": "N (少し, 一目…) + なりとも",
+  "nuance": "Al menos esa pequeña cantidad; deseo modesto.",
+  "tip": "少しなりとも、お役に立てればうれしいです。"
+ },
+ "～ないものでもない": {
+  "es": "no es imposible que",
+  "form": "V-ない + ものでもない",
+  "nuance": "Doble negación: existe cierta posibilidad, aunque reticente.",
+  "tip": "条件によっては、引き受けないものでもない。"
+ },
+ "～とは比べものにならない": {
+  "es": "no tiene comparación con",
+  "form": "N + とは比べものにならない",
+  "nuance": "La diferencia es enorme.",
+  "tip": "都会の家賃は、田舎とは比べものにならないほど高い。"
+ },
+ "～だけではすまない": {
+  "es": "no basta con…",
+  "form": "N／V + だけではすまない",
+  "nuance": "La situación es más grave y requerirá algo más.",
+  "tip": "これほどの損害は、謝るだけではすまない。"
+ },
+ "～ずにすむ": {
+  "es": "librarse de tener que",
+  "form": "V-ない (sin ない) + ずにすむ（する→せずにすむ）",
+  "nuance": "Se evita hacer algo que se temía tener que hacer.",
+  "tip": "友人が貸してくれたので、新しく買わずにすんだ。"
+ },
+ "～ずに（は）すまない": {
+  "es": "no se puede evitar tener que",
+  "form": "V-ない (sin ない) + ずにはすまない",
+  "nuance": "Por obligación social o moral, habrá que hacerlo.",
+  "tip": "迷惑をかけたのだから、謝らずにはすまない。"
+ },
+ "～ずにはおかない": {
+  "es": "no dejará de, sin falta",
+  "form": "V-ない (sin ない) + ずにはおかない",
+  "nuance": "Algo provoca inevitablemente un efecto, o voluntad firme de hacerlo.",
+  "tip": "彼の演説は、聞く人を感動させずにはおかない。"
+ },
+ "～そうもない": {
+  "es": "no parece que vaya a",
+  "form": "V-ます + そうもない",
+  "nuance": "Probabilidad muy baja.",
+  "tip": "この雨はやみそうもない。"
+ },
+ "～ようにも～れない": {
+  "es": "aunque quiera…, no puede",
+  "form": "V-よう + にも + V (potencial negativo)",
+  "nuance": "Se quiere hacer algo pero las circunstancias lo impiden.",
+  "tip": "電話番号が分からないので、連絡しようにもできない。"
+ },
+ "～にも～れない": {
+  "es": "no poder… aunque se quiera",
+  "form": "V-る + にも + V (potencial negativo)",
+  "nuance": "Situación en que no se puede hacer lo que se desea (笑うに笑えない…).",
+  "tip": "あまりにひどい失敗で、笑うに笑えない。"
+ },
+ "～ごとく／～ごとき": {
+  "es": "como, igual que",
+  "form": "N + の + ごとく／ごとき ・ V + がごとく",
+  "nuance": "Versión clásica de ～ように／～ような. ごとき también desprecia (私ごとき).",
+  "tip": "時間は矢のごとく過ぎていく。"
+ },
+ "～ときたら": {
+  "es": "en cuanto a… (¡qué desastre!)",
+  "form": "N + ときたら",
+  "nuance": "Introduce un tema del que se habla con queja o fastidio.",
+  "tip": "うちの息子ときたら、毎日ゲームばかりしている。"
+ },
+ "～ときている": {
+  "es": "y encima (es que)…",
+  "form": "Frase + ときている",
+  "nuance": "Añade una característica que justifica una valoración (positiva o negativa).",
+  "tip": "この店は安い上に、おいしいときているから、いつも満員だ。"
+ },
+ "～いかんで（は）": {
+  "es": "según, dependiendo de",
+  "form": "N + いかんで（は）／いかんによって（は）",
+  "nuance": "Versión formal de ～次第: el resultado depende de eso.",
+  "tip": "成績のいかんでは、卒業できないこともある。"
+ },
+ "～に至る": {
+  "es": "llegar a, hasta",
+  "form": "N／V-る + に至る／に至るまで／に至って",
+  "nuance": "Alcanzar un punto extremo o final en un proceso.",
+  "tip": "小さなけんかが、ついに裁判に至った。"
+ },
+ "～のいかんにかかわらず": {
+  "es": "sea cual sea",
+  "form": "N + のいかんにかかわらず／いかんを問わず",
+  "nuance": "El contenido o resultado no influye. Muy formal.",
+  "tip": "理由のいかんにかかわらず、遅刻は認めない。"
+ },
+ "～にとどまらず": {
+  "es": "no se limita a",
+  "form": "N + にとどまらず",
+  "nuance": "Algo va más allá de un ámbito.",
+  "tip": "その影響は国内にとどまらず、世界中に広がった。"
+ },
+ "～によらず": {
+  "es": "sin importar, independientemente de",
+  "form": "N + によらず",
+  "nuance": "No depende de eso: 年齢によらず, 何事によらず.",
+  "tip": "この仕事は、経験によらず、誰でも応募できる。"
+ },
+ "～べくもない": {
+  "es": "no hay manera de",
+  "form": "V-る + べくもない（する→すべくもない）",
+  "nuance": "Es imposible incluso planteárselo. Escrito.",
+  "tip": "素人の私には、プロと比べるべくもない。"
+ },
+ "～べからざる": {
+  "es": "que no debe / inadmisible",
+  "form": "V-る + べからざる + N",
+  "nuance": "Forma nominal de ～べからず: algo que no se debe hacer o indispensable (欠くべからざる).",
+  "tip": "水は、生活に欠くべからざるものだ。"
+ },
+ "～に先駆けて": {
+  "es": "antes que, adelantándose a",
+  "form": "N + に先駆けて",
+  "nuance": "Hacer algo antes que los demás o como pionero.",
+  "tip": "この会社は、他社に先駆けて新製品を発表した。"
+ },
+ "～に即して": {
+  "es": "de acuerdo con, ajustándose a",
+  "form": "N + に即して／に即した + N",
+  "nuance": "Conforme a los hechos, la realidad o las normas.",
+  "tip": "事実に即して報告してください。"
+ },
+ "～ずとも": {
+  "es": "aunque no",
+  "form": "V-ない (sin ない) + ずとも",
+  "nuance": "Versión escrita de ～なくても.",
+  "tip": "言わずとも分かるだろう。"
+ },
+ "～つもりで": {
+  "es": "con la intención de / como si",
+  "form": "V-た／V-る／N の + つもりで",
+  "nuance": "Actuar con una idea en mente, o haciendo como si fuera así.",
+  "tip": "旅行したつもりで、そのお金を貯金した。"
+ },
+ "～ずじまい": {
+  "es": "acabar sin llegar a",
+  "form": "V-ない (sin ない) + ずじまい",
+  "nuance": "Al final no se pudo hacer lo que se pensaba, con pena.",
+  "tip": "忙しくて、結局その映画は見ずじまいだった。"
+ },
+ "～もさることながら": {
+  "es": "no solo… sino también",
+  "form": "N + もさることながら",
+  "nuance": "Reconoce lo primero, pero destaca aún más lo segundo.",
+  "tip": "この店は、味もさることながら、サービスが素晴らしい。"
+ },
+ "～手前": {
+  "es": "por guardar las apariencias ante",
+  "form": "V-た／N の + 手前",
+  "nuance": "Por lo dicho o hecho ante otros, uno se siente obligado.",
+  "tip": "必ず行くと言った手前、休むわけにはいかない。"
+ },
+ "～んがために": {
+  "es": "con el fin de",
+  "form": "V-ない (sin ない) + んがために（する→せんがために）",
+  "nuance": "Propósito firme, muy escrito.",
+  "tip": "夢を実現せんがために、彼は努力を続けた。"
+ },
+ "～んばかりに": {
+  "es": "casi a punto de, como si fuera a",
+  "form": "V-ない (sin ない) + んばかりに／んばかりの",
+  "nuance": "Estado tan intenso que parece que ocurrirá.",
+  "tip": "彼女は泣き出さんばかりの顔をしていた。"
+ },
+ "～とばかりに": {
+  "es": "como diciendo…",
+  "form": "Frase + とばかりに",
+  "nuance": "Actitud que parece expresar algo sin decirlo.",
+  "tip": "彼は、待っていましたとばかりに話し始めた。"
+ },
+ "～をおいて～ない": {
+  "es": "nadie / nada más que",
+  "form": "N + をおいて + ほかに + negativo",
+  "nuance": "Es la única opción adecuada; gran valoración.",
+  "tip": "この仕事を任せられるのは、彼をおいてほかにいない。"
+ },
+ "～を経て": {
+  "es": "pasando por, tras",
+  "form": "N + を経て",
+  "nuance": "Pasar por un lugar, etapa o proceso.",
+  "tip": "三年の準備期間を経て、新しい駅が完成した。"
+ },
+ "～を兼ねて／～と～を兼ねて": {
+  "es": "a la vez que, combinando",
+  "form": "N + を兼ねて ・ N1 と N2 を兼ねて",
+  "nuance": "Una acción con dos propósitos.",
+  "tip": "散歩を兼ねて、パンを買いに行った。"
+ },
+ "～を前提として": {
+  "es": "partiendo de, con la premisa de",
+  "form": "N + を前提として／を前提に",
+  "nuance": "Una condición se da por supuesta.",
+  "tip": "結婚を前提として付き合っている。"
+ },
+ "～を境に": {
+  "es": "a partir de (un punto de cambio)",
+  "form": "N + を境に（して）",
+  "nuance": "Un momento marca un antes y un después.",
+  "tip": "その事故を境に、彼は車を運転しなくなった。"
+ },
+ "～を踏まえて": {
+  "es": "teniendo en cuenta, basándose en",
+  "form": "N + を踏まえて",
+  "nuance": "Tomar como base hechos o resultados previos. Formal.",
+  "tip": "前回の反省を踏まえて、計画を見直した。"
+ },
+ "～を機に": {
+  "es": "aprovechando, con motivo de",
+  "form": "N + を機に（して）",
+  "nuance": "Un acontecimiento sirve de ocasión para empezar algo.",
+  "tip": "転職を機に、引っ越すことにした。"
+ },
+ "～や": {
+  "es": "en cuanto",
+  "form": "V-る + や／や否や",
+  "nuance": "Inmediatez muy escrita: apenas ocurre A, sucede B.",
+  "tip": "ベルが鳴るや、生徒たちは教室を飛び出した。"
+ },
+ "～という": {
+  "es": "todos los…, sin excepción",
+  "form": "N + という + N (mismo)",
+  "nuance": "Énfasis en la totalidad: 木という木, 窓という窓.",
+  "tip": "台風で、木という木が倒れた。"
+ },
+ "～だに": {
+  "es": "con solo…, ni siquiera",
+  "form": "V-る (想像する, 考える…) + だに ・ N + だに + negativo",
+  "nuance": "Solo imaginarlo ya provoca un sentimiento; o ni lo más mínimo.",
+  "tip": "地震のことは、考えるだに恐ろしい。"
+ },
+ "～もしないで": {
+  "es": "sin ni siquiera",
+  "form": "V-ます + もしないで／もせずに",
+  "nuance": "Crítica: no se hizo ni lo mínimo esperable.",
+  "tip": "彼は、ろくに調べもしないで、反対した。"
+ },
+ "～にして（初めて）": {
+  "es": "solo… (puede)",
+  "form": "N + にして初めて",
+  "nuance": "Solo en esa condición o con esa persona se logra algo.",
+  "tip": "この技術は、長年の経験を持つ職人にして初めて可能だ。"
+ },
+ "～こととて": {
+  "es": "como es…, por ser",
+  "form": "Frase／N の + こととて",
+  "nuance": "Razón usada para disculparse; muy formal o antiguo.",
+  "tip": "慣れないこととて、ご迷惑をおかけしました。"
+ },
+ "～ぶる": {
+  "es": "dárselas de, hacerse el",
+  "form": "N／Adj (raíz) + ぶる",
+  "nuance": "Fingir una cualidad: 偉ぶる, 上品ぶる, 大人ぶる. Negativo.",
+  "tip": "彼は、何でも知っているように偉ぶる。"
+ },
+ "～びる": {
+  "es": "tener aire de",
+  "form": "N／Adj (raíz) + びる",
+  "nuance": "Adquirir un aspecto: 大人びる, 古びる, 田舎びる.",
+  "tip": "彼女は年の割に大人びている。"
+ },
+ "～ぶり": {
+  "es": "manera de / después de (tiempo)",
+  "form": "V-ます／N + ぶり ・ periodo + ぶり",
+  "nuance": "1) Modo de hacer algo (話しぶり, 仕事ぶり). 2) Tras un periodo (三年ぶり).",
+  "tip": "彼の仕事ぶりは、誰からも評価されている。"
+ },
+ "～に堪えない": {
+  "es": "no se puede soportar / profundamente",
+  "form": "V-る (見る, 聞く) + に堪えない ・ N (感謝, 遺憾) + に堪えない",
+  "nuance": "1) Insoportable de ver u oír. 2) Sentimiento tan grande que no cabe (muy formal).",
+  "tip": "彼の話は、聞くに堪えない悪口ばかりだ。"
+ },
+ "～に堪える": {
+  "es": "digno de",
+  "form": "V-る (見る, 読む, 鑑賞する) + に堪える",
+  "nuance": "Tiene suficiente valor para ser visto, leído, etc.",
+  "tip": "この作品は、大人の鑑賞にも堪える。"
+ },
+ "～に足りない": {
+  "es": "no vale la pena, insignificante",
+  "form": "V-る + に足りない／に足らない",
+  "nuance": "No merece consideración (取るに足りない).",
+  "tip": "それは取るに足りない問題だ。"
+ },
+ "～といったらない": {
+  "es": "¡no te imaginas lo…!",
+  "form": "Adj／N + といったらない／ったらない",
+  "nuance": "Grado extremo de un sentimiento o estado.",
+  "tip": "初めて富士山に登った時の感動といったらなかった。"
+ },
+ "～てみせる": {
+  "es": "¡ya verás cómo…!",
+  "form": "V-て + みせる",
+  "nuance": "Firme determinación de conseguir algo (o demostrar a otros).",
+  "tip": "次の試験には、必ず合格してみせる。"
+ },
+ "～もなんともない": {
+  "es": "no… en absoluto",
+  "form": "Adj (raíz) く／N + もなんともない",
+  "nuance": "Niega rotundamente un sentimiento: 痛くもなんともない.",
+  "tip": "こんな傷、痛くもなんともない。"
+ },
+ "～ゃしない": {
+  "es": "¡ni (de broma)!",
+  "form": "V-ます + ゃしない（～はしない）",
+  "nuance": "Negación enfática coloquial: できやしない, 分かりゃしない.",
+  "tip": "こんなに暗くては、何も見えやしない。"
+ },
+ "～ざる": {
+  "es": "no (forma clásica de ない)",
+  "form": "V-ない (sin ない) + ざる + N",
+  "nuance": "Negativo clásico antes de sustantivo: 知られざる, 見えざる.",
+  "tip": "これは、日本の知られざる名所だ。"
+ },
+ "～には及ばない": {
+  "es": "no hace falta / no llegar a",
+  "form": "V-る + には及ばない ・ N + には及ばない",
+  "nuance": "1) No es necesario. 2) No alcanzar el nivel de alguien.",
+  "tip": "わざわざ来るには及ばない。電話で十分だ。"
+ },
+ "～はさておき": {
+  "es": "dejando de lado",
+  "form": "N + はさておき",
+  "nuance": "Aparta un tema para centrarse en otro más importante.",
+  "tip": "冗談はさておき、本題に入りましょう。"
+ },
+ "～はどうであれ": {
+  "es": "sea como sea",
+  "form": "N + はどうであれ",
+  "nuance": "Independientemente de cómo sea eso.",
+  "tip": "結果はどうであれ、最後まで頑張ったことが大切だ。"
+ },
+ "～ならいざ知らず": {
+  "es": "si fuera… sería distinto, pero",
+  "form": "N／Frase + ならいざ知らず",
+  "nuance": "En ese otro caso se entendería, pero en este no.",
+  "tip": "子供ならいざ知らず、大人がそんなことをするとは。"
+ },
+ "～に難くない": {
+  "es": "no es difícil (imaginar)",
+  "form": "V-る／N (想像, 理解) + に難くない",
+  "nuance": "Fácil de imaginar o comprender. Escrito.",
+  "tip": "彼女の悲しみは、想像に難くない。"
+ },
+ "～でなくてなんだろう": {
+  "es": "si esto no es…, ¿qué es?",
+  "form": "N + でなくてなんだろう",
+  "nuance": "Afirmación retórica muy enfática.",
+  "tip": "これが運命でなくてなんだろう。"
+ },
+ "～ても差し支えない": {
+  "es": "no hay inconveniente en",
+  "form": "V-て + も差し支えない",
+  "nuance": "Permiso formal (～てもいい).",
+  "tip": "ここで写真を撮っても差し支えありません。"
+ },
+ "～ばきりがない": {
+  "es": "si empiezas…, no acabas nunca",
+  "form": "V-ば + きりがない",
+  "nuance": "Algo que, una vez empezado, no tiene fin.",
+  "tip": "欲を言えばきりがない。"
+ },
+ "～嫌いがある": {
+  "es": "tener tendencia a (negativa)",
+  "form": "V-る／N の + 嫌いがある",
+  "nuance": "Tendencia natural, criticada.",
+  "tip": "彼は、物事を大げさに言う嫌いがある。"
+ },
+ "～始末だ": {
+  "es": "acabar (encima) en…",
+  "form": "V-る + 始末だ",
+  "nuance": "Resultado final negativo de una serie de problemas.",
+  "tip": "彼は遅刻ばかりで、ついには無断で休む始末だ。"
+ },
+ "～極まりない／～極まる": {
+  "es": "extremadamente",
+  "form": "Adj-な + 極まりない／極まる",
+  "nuance": "Grado máximo, normalmente negativo: 失礼極まりない, 危険極まる.",
+  "tip": "夜中に電話をかけてくるなんて、非常識極まりない。"
+ },
+ "～の極み": {
+  "es": "el colmo de",
+  "form": "N + の極み",
+  "nuance": "Punto máximo de un estado: 贅沢の極み, 感激の極み.",
+  "tip": "こんな景色を見ながら温泉に入るなんて、贅沢の極みだ。"
+ },
+ "～の至り": {
+  "es": "sumamente (formal)",
+  "form": "N + の至り",
+  "nuance": "Máximo grado en expresiones fijas: 光栄の至り, 若気の至り.",
+  "tip": "このような賞をいただき、光栄の至りです。"
+ },
+ "～をものともせずに": {
+  "es": "sin hacer caso de (dificultades)",
+  "form": "N + をものともせずに",
+  "nuance": "Superar valientemente un obstáculo. Elogio.",
+  "tip": "彼は、けがをものともせずに、最後まで走った。"
+ },
+ "～かれ～かれ": {
+  "es": "más o menos, tarde o temprano",
+  "form": "Adj-い (raíz) かれ + Adj opuesto かれ",
+  "nuance": "Expresiones fijas: 多かれ少なかれ, 遅かれ早かれ, 良かれ悪しかれ.",
+  "tip": "遅かれ早かれ、真実は明らかになるだろう。"
+ },
+ "～じゃあるまいし": {
+  "es": "ni que fuera…",
+  "form": "N + じゃあるまいし／ではあるまいし",
+  "nuance": "Critica que alguien actúe como si fuera algo que no es.",
+  "tip": "子供じゃあるまいし、自分のことは自分でしなさい。"
+ },
+ "～にあるまじき": {
+  "es": "impropio de",
+  "form": "N (cargo) + にあるまじき + N",
+  "nuance": "Conducta inaceptable para alguien en esa posición.",
+  "tip": "政治家にあるまじき発言だ。"
+ },
+ "敬語：お召しになる": {
+  "es": "ponerse / comer (honorífico)",
+  "form": "お召しになる（着る・食べる・乗る…）・ 召し上がる",
+  "nuance": "Honoríficos especiales de verbos cotidianos, usados con clientes y superiores.",
+  "tip": "こちらのお着物をお召しになってみませんか。"
+ },
+ "敬語：お目にかける／ご覧に入れる": {
+  "es": "mostrar (humilde)",
+  "form": "お目にかける ・ ご覧に入れる（見せる）",
+  "nuance": "Formas humildes de 見せる. ご覧になる es el honorífico de 見る.",
+  "tip": "新しい作品をお目にかけましょう。"
+ },
+ "敬語：申し上げる／存じ上げる": {
+  "es": "decir / conocer (humilde)",
+  "form": "申し上げる（言う）・ 存じ上げる（知る）",
+  "nuance": "Humildes de grado alto; muy usados en cartas y discursos.",
+  "tip": "心よりお礼申し上げます。"
+ },
+ "敬語：賜る／承る": {
+  "es": "recibir / escuchar (humilde)",
+  "form": "賜る（もらう）・ 承る（聞く・引き受ける）",
+  "nuance": "Vocabulario muy formal de ceremonias y comercio.",
+  "tip": "ご注文を承りました。"
+ },
+ "接続詞：もっとも／ただし": {
+  "es": "aunque / no obstante",
+  "form": "Frase。もっとも、… ・ ただし、…",
+  "nuance": "Añaden una reserva a lo dicho.",
+  "tip": "明日は休みだ。もっとも、急ぎの仕事があれば出社する。"
+ },
+ "接続詞：にもかかわらず／それにもかかわらず": {
+  "es": "a pesar de ello",
+  "form": "Frase。それにもかかわらず、…",
+  "nuance": "Contraste formal: ocurre algo inesperado.",
+  "tip": "注意した。それにもかかわらず、彼はまた遅れた。"
+ },
+ "接続詞：ひいては／ないしは": {
+  "es": "y en consecuencia / o bien",
+  "form": "A、ひいては B ・ A ないしは B",
+  "nuance": "ひいては extiende la consecuencia a un ámbito mayor; ないしは presenta alternativas. Escrito.",
+  "tip": "一人一人の努力が、ひいては社会全体をよくする。"
  }
 }
