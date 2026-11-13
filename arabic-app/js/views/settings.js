@@ -1,12 +1,14 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132330';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611132330';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611132330';
-import { esc } from '../ar.js?v=202611132330';
-import { register, go } from '../router.js?v=202611132330';
-import { bottomNav, header } from '../ui/components.js?v=202611132330';
-import { t } from '../i18n.js?v=202611132330';
-import { applyPinyinPref } from '../ar.js?v=202611132330';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132330';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611140100';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611140100';
+import { readAnki } from '../anki-import.js?v=202611140100';
+import { allVocab } from './review.js?v=202611140100';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611140100';
+import { esc } from '../ar.js?v=202611140100';
+import { register, go } from '../router.js?v=202611140100';
+import { bottomNav, header } from '../ui/components.js?v=202611140100';
+import { t } from '../i18n.js?v=202611140100';
+import { applyPinyinPref } from '../ar.js?v=202611140100';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611140100';
 
 register('settings', (el) => {
   const langs = [
@@ -86,6 +88,13 @@ register('settings', (el) => {
         <div class="flex gap-8" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__setRate(${r})">×${r}</button>`).join('')}</div>
       </div>
       ${voiceSettings({ t, esc, G, voices: langVoices(), dvoice: deviceVoiceName() })}
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-8">📥 ${t('ankiImport')}</div>
+      <div class="muted small mb-12">${t('ankiImportHint')}</div>
+      <label class="btn btn-small" style="display:inline-block;cursor:pointer">📂 ${t('ankiChoose')}<input type="file" accept=".apkg,.colpkg" style="display:none" onchange="window.__ankiImport(this.files[0])"></label>
+      <div id="anki-res" class="small mt-12"></div>
     </div>
 
     <div class="card" style="padding:20px">
@@ -181,3 +190,26 @@ window.__setRate = (r) => {
 wireVoiceSettings({ t, G, speak, sample: SAMPLE, rerender: () => go('settings'), setDeviceVoice: setDeviceVoice });
 // Voices load asynchronously in some browsers: refresh the list once they arrive.
 if ('speechSynthesis' in window) window.speechSynthesis.addEventListener?.('voiceschanged', () => { if (document.getElementById('voice-settings') && !document.getElementById('tts-dv') && !document.getElementById('tts-key')) go('settings'); });
+
+// Import of an Anki deck: every card keeps its Anki state, interval and next review date.
+window.__ankiImport = async (file) => {
+  const box = document.getElementById('anki-res');
+  if (!file || !box) return;
+  const say = (h) => { box.innerHTML = h; };
+  const steps = { libs: t('ankiStepLibs'), unzip: t('ankiStepUnzip'), read: t('ankiStepRead'), match: t('ankiStepMatch') };
+  try {
+    const vocab = await allVocab();
+    S.cards ||= {};
+    const r = await readAnki(file, { lang: 'ar', vocab, cards: S.cards, onStep: k => say('⏳ ' + steps[k]) });
+    update({ cards: S.cards });
+    const a = r.anki;
+    say(`<div class="note-box">✓ <b>${t('ankiDone')}</b><br>
+      Anki: ${a.total} · ${t('ankiNew')} ${a.new} · ${t('ankiLearn')} ${a.learn} · ${t('ankiRelearn')} ${a.relearn} · ${t('ankiYoung')} ${a.young} · ${t('ankiMature')} ${a.mature}<br>
+      ${t('ankiMatched').replace('{n}', r.matched).replace('{t}', a.total)} · ${t('ankiAdded').replace('{n}', r.added)}${r.kept ? ' · ' + t('ankiKept').replace('{n}', r.kept) : ''}
+      ${r.missing.length ? `<details class="mt-8"><summary>${t('ankiMissing').replace('{n}', r.missing.length)}</summary><div class="muted">${r.missing.slice(0, 400).map(esc).join(' · ')}</div></details>` : ''}
+      <div class="mt-8"><button class="btn btn-small" onclick="window.__go('review',{deck:'v'})">🗂️ ${t('ankiGoDeck')}</button></div></div>`);
+  } catch (e) {
+    say(`<div class="note-box" style="color:var(--no)">✗ ${e.message === 'lib' ? t('ankiErrLib') : e.message === 'empty' ? t('ankiErrEmpty') : t('ankiErrFormat')}</div>`);
+    console.error(e);
+  }
+};
