@@ -218,7 +218,7 @@ register('text', async (el, params) => {
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
           <p>${renderParagraph(p, i)}</p>
-          ${view.showTr ? `<p class="para-tr">${trLines(tx.translation?.[S.lang]?.[i] || tx.translation?.en?.[i] || '')}</p>` : ''}
+          ${view.showTr ? `<p class="para-tr">${trLines(tx.translation?.[S.lang]?.[i] || tx.translation?.en?.[i] || tx.translation?.es?.[i] || '')}</p>` : ''}
         </div>`).join('')}
       </div>
       ${view.showDiff && glossWords.length ? `<div class="card" style="padding:16px 18px">
