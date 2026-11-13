@@ -1,14 +1,18 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611140900';
-import { register, go } from '../router.js?v=202611140900';
-import { loadUnits } from '../data.js?v=202611140900';
-import { bottomNav, header } from '../ui/components.js?v=202611140900';
-import { t } from '../i18n.js?v=202611140900';
-import { levelChips, levelLabel } from '../levels.js?v=202611140900';
-import { speak } from '../audio.js?v=202611140900';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611140900';
-import { allVocab } from './review.js?v=202611140900';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140900';
+import { S, update } from '../state.js?v=202611141000';
+import { register, go } from '../router.js?v=202611141000';
+import { loadUnits } from '../data.js?v=202611141000';
+import { bottomNav, header } from '../ui/components.js?v=202611141000';
+import { t } from '../i18n.js?v=202611141000';
+import { levelChips, levelLabel } from '../levels.js?v=202611141000';
+import { speak } from '../audio.js?v=202611141000';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611141000';
+import { allVocab } from './review.js?v=202611141000';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611141000';
+// Grammar point names carry a few Spanish glosses in brackets; other users see them in English.
+const GNAME_EN = { estado: 'state', condicional: 'conditional', 'oído': 'hearsay', aunque: 'although', apariencia: 'appearance',
+  'énfasis': 'emphasis', para: 'for', modo: 'manner', frecuencia: 'frequency', causa: 'cause', 'total／medio': 'total／means' };
+const gname = g => (S.lang || 'es') === 'es' ? g : g.replace(/\(([^)]+)\)/, (m, w) => `(${GNAME_EN[w] || w})`);
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -43,7 +47,7 @@ async function renderGrammar(box) {
           <div style="font-weight:700;font-size:16px">${u.title?.ja ? ruby(u.title.ja) : ''}</div>
         </div>
         <div class="muted small">${esc(tr(u.title))}</div>
-        ${(u.grammar || []).length ? `<div class="small" style="margin-top:4px">${u.grammar.map(g => esc(g)).join(' · ')}</div>` : ''}
+        ${(u.grammar || []).length ? `<div class="small" style="margin-top:4px">${u.grammar.map(g => esc(gname(g))).join(' · ')}</div>` : ''}
       </div>`).join('') || `<div class="muted" style="text-align:center;padding:40px 0">—</div>`}
   </div>`;
 }
@@ -86,7 +90,7 @@ register('grammar-detail', async (el, params) => {
   const u = units.find(x => String(x.id) === String(params.id));
   if (!u) { go('reference'); return; }
   const html = u.grammarIntro ? tr(u.grammarIntro)
-    : `<ul>${(u.grammar || []).map(g => `<li><strong>${esc(g)}</strong></li>`).join('')}</ul>`;
+    : `<ul>${(u.grammar || []).map(g => `<li><strong>${esc(gname(g))}</strong></li>`).join('')}</ul>`;
   el.innerHTML = `<div class="fade">
     ${header(`${levelLabel(params.level)} · ${t('unit')} ${u.id}`, true)}
     <div class="h2 mb-4">${u.title?.ja ? ruby(u.title.ja) : ''}</div>

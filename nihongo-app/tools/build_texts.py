@@ -279,15 +279,40 @@ FORM_RULES = [
     (r'(?<![A-Za-z])(?:Adj-(?:くて|なで|な|い|ければ|くない|く)|A(?:い|な)(?![a-z]))', 'adj', None),
 ]
 FORM_RX = re.compile('|'.join(f'({r})' for r, _, _ in FORM_RULES))
-def link_forms(form):
+# English formulas (tools/grammar_en.json) use their own labels.
+VE = r'(?<![A-Za-z])(?:[Vv]erb\s*|V1?\s*-?\s*)'
+FORM_RULES_EN = [
+    (VE + r'ない\s*\(?(?:without ない|stem)\)?', 'naistem', 'V-ない without ない'),
+    (VE + r'ます\s*\(?(?:without ます|stem)\)?', 'stem', 'V-ます stem'),
+    (VE + r'ます', 'stem', 'V-ます stem'),
+    (r'Stem(?:\s*ます)?(?=\s*\+)', 'stem', 'V-ます stem'),
+    (VE + r'(?:dict\.?|dictionary|辞書形|る(?!れる))', 'dict', 'V-dict. (る)'),
+    (VE + r'(?:普通形|plain form)', 'plain', 'V plain form'),
+    (r'plain form|普通形', 'plain', 'plain form'),
+    (VE + r'ない', 'nai', 'V-ない'),
+    (VE + r'たら', 'tara', 'V-たら'),
+    (VE + r'て', 'te', 'V-て'),
+    (VE + r'た', 'ta', 'V-た'),
+    (VE + r'ば', 'ba', 'V-ば'),
+    (VE + r'(?:よう|意向形|volitional)', 'vol', 'V-よう (volitional)'),
+    (VE + r'(?:\(?causative\)?|causative form)', 'caus', 'V-causative'),
+    (VE + r'passive form', 'pas', 'V-passive'),
+    (VE + r'(?:可能|potential)', 'pot', 'V-potential'),
+    (r'(?<![A-Za-z])(?:Adj-(?:くて|なで|な|い|ければ|くない|く)|A(?:い|な)(?![a-z]))', 'adj', None),
+]
+FORM_RX_EN = re.compile('|'.join(f'({r})' for r, _, _ in FORM_RULES_EN))
+GEN = json.load(open(ROOT / 'tools' / 'grammar_en.json', encoding='utf8'))
+def link_forms(form, en=False):
+    rules, rx = (FORM_RULES_EN, FORM_RX_EN) if en else (FORM_RULES, FORM_RX)
     def rep(m):
         i = next(k for k, g in enumerate(m.groups()) if g is not None)
-        fid, label = FORM_RULES[i][1], FORM_RULES[i][2]
+        fid, label = rules[i][1], rules[i][2]
         txt = label or m.group(0)
         return f'<a class="vf" onclick="event.stopPropagation();window.__conj(\'{fid}\')">{txt}</a>'
-    return FORM_RX.sub(rep, form)
+    return rx.sub(rep, form)
 
-def grammar_intro(points, level):
+def grammar_intro(points, level, en=False):
+    T = (lambda x: GEN.get(x, x)) if en else (lambda x: x)
     L = level.upper()
     gl = legacy['grammar'].get(L, []) + [x for k, v in legacy['grammar'].items() if k != L for x in v]
     def find(p):
@@ -301,13 +326,14 @@ def grammar_intro(points, level):
         g = find(p)
         if not g: continue
         e = g.get('explain', {})
-        html.append(f"<h3>{g['p']} — {g.get('es', '')}</h3>"
-                    + (f"<p><b>Forma:</b> <span class=\"zh\">{link_forms(e['form'])}</span></p>" if e.get('form') else '')
-                    + (f"<p>{e['nuance']}</p>" if e.get('nuance') else '')
-                    + (f"<div class=\"tip\">💡 {e['tip']}</div>" if e.get('tip') else ''))
+        html.append(f"<h3>{g['p']} — {T(g.get('es', ''))}</h3>"
+                    + (f"<p><b>{'Form' if en else 'Forma'}:</b> <span class=\"zh\">{link_forms(T(e['form']), en)}</span></p>" if e.get('form') else '')
+                    + (f"<p>{T(e['nuance'])}</p>" if e.get('nuance') else '')
+                    + (f"<div class=\"tip\">💡 {T(e['tip'])}</div>" if e.get('tip') else ''))
     out = ''.join(html)
     if 'class="vf"' in out:
-        out = '<p class="small muted">👆 Toca una forma marcada (V-dicc., V-ます sin ます, V-て…) para repasar cómo se conjuga en los grupos I, II y III.</p>' + out
+        out = ('<p class="small muted">👆 Tap a marked form (V-dict., V-ます stem, V-て…) to review how it conjugates in groups I, II and III.</p>' if en else
+               '<p class="small muted">👆 Toca una forma marcada (V-dicc., V-ます sin ます, V-て…) para repasar cómo se conjuga en los grupos I, II y III.</p>') + out
     return out
 
 # ── build ─────────────────────────────────────────────────────────────
@@ -403,7 +429,7 @@ for lv in LEVELS:
             units_out.append({
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['_texts'][0]['ja'] if u['_texts'] else ''},
                 'desc': {'es': u['desc'], 'en': EN.get(u['desc'], u['desc'])}, 'grammar': u['grammar'], 'newVocab': new,
-                'grammarIntro': {'es': grammar_intro(u['grammar'], lv)} if u['grammar'] else None,
+                'grammarIntro': {'es': grammar_intro(u['grammar'], lv), 'en': grammar_intro(u['grammar'], lv, True)} if u['grammar'] else None,
                 'exercises': u.get('xex', []) + make_exercises(rng, list(sents), new, list(by_word)),
             })
             # sets 2–7: different sentences / word slices
