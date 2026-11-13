@@ -90,6 +90,19 @@ def parse(path):
             p = [x.strip() for x in line[4:].split('|')]
             txt = {'ja': p[0], 'es': p[1], 'paras': [[]], 'qs': []}
             cur['texts'].append(txt)
+        elif line.startswith('!! '):
+            # Hand-written exercise for the unit:
+            #   !! choose | prompt (es) | *correct / wrong / wrong
+            #   !! fill | sentence with ___ | answer | wrong / wrong / wrong | translation (es)
+            p = [x.strip() for x in line[3:].split('|')]
+            if p[0] == 'choose':
+                os_ = [o.strip() for o in p[2].split('/')]
+                cur.setdefault('xex', []).append({'type': 'choose', 'prompt': {'es': p[1]}, 'options': [o.lstrip('*') for o in os_],
+                                                  'correct': next(o.lstrip('*') for o in os_ if o.startswith('*'))})
+            elif p[0] == 'fill':
+                cur.setdefault('xex', []).append({'type': 'fill', 'sentence': p[1], 'blank': p[2],
+                                                  'options': [p[2]] + [o.strip() for o in p[3].split('/')], 'tr': {'es': p[4] if len(p) > 4 else ''}})
+            random.Random(line).shuffle(cur['xex'][-1]['options'])
         elif line.startswith('? '):
             q, opts = [x.strip() for x in line[2:].split('|')]
             os_ = [o.strip() for o in opts.split('/')]
@@ -175,6 +188,9 @@ def sentences(units_texts):
         for para in t['paras']:
             for ja, es in para:
                 ja2, es2 = SPK.sub('', ja), re.sub(r'^[^:]{1,20}:\s*', '', es)
+                # A whole line of dialogue: drop the quotes (and the speaker in the translation).
+                if ja2.startswith('「') and ja2.endswith('」') and ja2.count('「') == 1:
+                    ja2, es2 = ja2[1:-1], es2.strip().strip('«»')
                 if 4 <= len(ja2) <= 32 and '「' not in ja2:
                     out.append((ja2, es2))
     return out
@@ -368,7 +384,7 @@ for lv in LEVELS:
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['_texts'][0]['ja'] if u['_texts'] else ''},
                 'desc': {'es': u['desc'], 'en': u['desc']}, 'grammar': u['grammar'], 'newVocab': new,
                 'grammarIntro': {'es': grammar_intro(u['grammar'], lv)} if u['grammar'] else None,
-                'exercises': make_exercises(rng, list(sents), new, list(by_word)),
+                'exercises': u.get('xex', []) + make_exercises(rng, list(sents), new, list(by_word)),
             })
             # sets 2–7: different sentences / word slices
             sets, words = [], []

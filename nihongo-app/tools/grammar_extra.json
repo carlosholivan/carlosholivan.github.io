@@ -2662,5 +2662,101 @@
   "form": "A、ひいては B ・ A ないしは B",
   "nuance": "ひいては extiende la consecuencia a un ámbito mayor; ないしは presenta alternativas. Escrito.",
   "tip": "一人一人の努力が、ひいては社会全体をよくする。"
+ },
+ "丁寧語（です・ます）": {
+  "es": "lenguaje cortés (丁寧語)",
+  "form": "N／A + です ・ V-ます",
+  "nuance": "El primer nivel del keigo: no sube ni baja a nadie, solo hace la frase educada. Se usa con desconocidos, en tiendas y con profesores. Entre amigos se pasa a la forma simple.",
+  "tip": "行く → 行きます ・ 学生だ → 学生です"
+ },
+ "お／ご＋N（美化語）": {
+  "es": "お／ご delante de sustantivos (美化語)",
+  "form": "お + palabra japonesa (お名前, お茶) ・ ご + palabra chino-japonesa (ご家族, ご住所)",
+  "nuance": "Hace la palabra más fina o muestra respeto por algo del otro. Nunca se pone a lo tuyo cuando hablas de ti: «私の名前», no «私のお名前».",
+  "tip": "お名前は？ ・ ご家族は何人ですか。"
+ },
+ "～さん／～様": {
+  "es": "tratamientos: さん y 様",
+  "form": "Apellido + さん ・ Apellido／cliente + 様（さま）",
+  "nuance": "さん es el tratamiento cortés normal; 様 es más respetuoso (clientes, cartas). Nunca se usan con tu propio nombre.",
+  "tip": "田中様、お待たせしました。"
+ },
+ "挨拶の決まり文句": {
+  "es": "fórmulas fijas de cortesía",
+  "form": "いらっしゃいませ ・ 失礼します ・ お願いします ・ ありがとうございます ・ すみません",
+  "nuance": "Frases hechas que se dicen tal cual en tiendas, oficinas y clases. いらっしゃいませ solo lo dice el personal; el cliente no responde con la misma frase.",
+  "tip": "失礼します = con permiso (al entrar o salir de un despacho)."
+ },
+ "尊敬語・謙譲語の特別な動詞": {
+  "es": "verbos especiales de respeto y humildad",
+  "form": "いる・行く・来る → いらっしゃる／おる・参る ・ 言う → おっしゃる／申す ・ 食べる → 召し上がる／いただく ・ 見る → ご覧になる／拝見する ・ する → なさる／いたす ・ 行く(visitar) → 伺う",
+  "nuance": "Los verbos más frecuentes tienen una forma propia en vez de お～になる／お～する. El de respeto sube al otro; el humilde te baja a ti.",
+  "tip": "先生は何とおっしゃいましたか。 ・ 明日、研究室に伺います。"
+ },
+ "～（ら）れる（尊敬）": {
+  "es": "respeto con la forma pasiva",
+  "form": "V (forma pasiva): 書かれる ・ 来られる ・ される",
+  "nuance": "Forma de respeto ligera, muy común en noticias y en la oficina. Es menos formal que お～になる y no se combina con ella.",
+  "tip": "部長はもう帰られました。"
+ },
+ "お～ください／ご～ください": {
+  "es": "haga el favor de… (petición respetuosa)",
+  "form": "お V-ます + ください ・ ご N(する) + ください",
+  "nuance": "Más respetuoso que ～てください. Típico en avisos, tiendas y estaciones.",
+  "tip": "少々お待ちください。 ・ ご注意ください。"
+ },
+ "ウチとソト（敬語）": {
+  "es": "dentro y fuera: hablar de tu empresa a un cliente",
+  "form": "(a un cliente) 部長の田中は今、席を外しております。",
+  "nuance": "Ante alguien de fuera, a la gente de tu grupo (incluido tu jefe) se la trata con humildad: sin さん ni 尊敬語. Dentro de la empresa, al jefe sí se le habla con respeto.",
+  "tip": "×「田中部長はいらっしゃいません」→ ○「田中はおりません」(a un cliente)"
+ },
+ "クッション言葉": {
+  "es": "palabras «cojín» para suavizar",
+  "form": "恐れ入りますが ・ お手数ですが ・ 申し訳ございませんが ・ あいにく ・ よろしければ",
+  "nuance": "Se ponen antes de una petición, una negativa o una mala noticia para no sonar bruscos. En la empresa casi nunca se pide nada sin ellas.",
+  "tip": "恐れ入りますが、お名前をもう一度お願いできますか。"
+ },
+ "～ていただけますでしょうか": {
+  "es": "¿sería tan amable de…?",
+  "form": "V-て + いただけますでしょうか／いただけないでしょうか",
+  "nuance": "Petición muy cortés por escrito o por teléfono. La forma negativa (いただけないでしょうか) es todavía más suave.",
+  "tip": "資料を送っていただけますでしょうか。"
+ },
+ "～かねます": {
+  "es": "no me es posible… (negativa cortés)",
+  "form": "V-ます + かねます",
+  "nuance": "Forma educada de decir «no puedo» al cliente sin un ない directo.",
+  "tip": "その件にはお答えしかねます。"
+ },
+ "かしこまりました／承知いたしました": {
+  "es": "entendido (muy cortés)",
+  "form": "かしこまりました ・ 承知いたしました ・ 承知しました",
+  "nuance": "Sustituyen a 分かりました ante clientes y superiores. かしこまりました es típico de la atención al público.",
+  "tip": "かしこまりました。すぐにお持ちします。"
+ },
+ "ご～いただく": {
+  "es": "que usted haga (algo) por nosotros",
+  "form": "お V-ます ／ ご N + いただく",
+  "nuance": "Agradece o pide la acción del otro con humildad: ご利用いただき、ありがとうございます.",
+  "tip": "ご来店いただき、誠にありがとうございます。"
+ },
+ "所存です": {
+  "es": "es mi intención (muy formal)",
+  "form": "V-dicc. + 所存です",
+  "nuance": "Declaración solemne de intenciones en discursos, cartas y saludos oficiales.",
+  "tip": "今後とも努力する所存でございます。"
+ },
+ "拝啓・敬具": {
+  "es": "fórmulas de carta formal",
+  "form": "拝啓 (saludo inicial) … 敬具 (despedida) ・ 時下ますますご清栄のこととお慶び申し上げます",
+  "nuance": "Las cartas formales abren con 拝啓 y un saludo de estación y cierran con 敬具. Por correo electrónico se simplifica, pero se mantienen お世話になっております y よろしくお願い申し上げます.",
+  "tip": "拝啓　春暖の候、皆様にはますますご健勝のこととお喜び申し上げます。"
+ },
+ "二重敬語": {
+  "es": "doble keigo (error frecuente)",
+  "form": "× おっしゃられる → ○ おっしゃる ・ × ご覧になられる → ○ ご覧になる",
+  "nuance": "Acumular dos formas de respeto sobre el mismo verbo se considera incorrecto, aunque se oye a menudo. Excepciones aceptadas: お召し上がりになる, お伺いする.",
+  "tip": "社長がおっしゃいました（×おっしゃられました）。"
  }
 }

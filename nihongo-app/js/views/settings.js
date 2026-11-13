@@ -1,11 +1,11 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132000';
-import { speak, SPEEDS, speed, tts, jaVoices, GEMINI_VOICES, testGemini } from '../audio.js?v=202611132000';
-import { esc } from '../ja.js?v=202611132000';
-import { register, go } from '../router.js?v=202611132000';
-import { bottomNav, header } from '../ui/components.js?v=202611132000';
-import { t } from '../i18n.js?v=202611132000';
-import { applyPinyinPref } from '../ja.js?v=202611132000';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132000';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132100';
+import { speak, SPEEDS, speed, tts, jaVoices, GEMINI_VOICES, testGemini } from '../audio.js?v=202611132100';
+import { esc } from '../ja.js?v=202611132100';
+import { register, go } from '../router.js?v=202611132100';
+import { bottomNav, header } from '../ui/components.js?v=202611132100';
+import { t } from '../i18n.js?v=202611132100';
+import { applyPinyinPref } from '../ja.js?v=202611132100';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132100';
 
 register('settings', (el) => {
   const langs = [
