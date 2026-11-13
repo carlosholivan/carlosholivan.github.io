@@ -1,11 +1,15 @@
-import { S } from '../state.js?v=202611141200';
-import { register, go } from '../router.js?v=202611141200';
-import { loadGrammar, loadVocab } from '../data.js?v=202611141200';
-import { bottomNav, header } from '../ui/components.js?v=202611141200';
-import { icon } from '../ui/icons.js?v=202611141200';
-import { t } from '../i18n.js?v=202611141200';
-import { levelChips } from '../levels.js?v=202611141200';
-import { getWordLevel, LEVELS, getWordStats } from '../engine/mastery.js?v=202611141200';
+import { S } from '../state.js?v=202611141300';
+import { register, go } from '../router.js?v=202611141300';
+import { loadGrammar, loadVocab } from '../data.js?v=202611141300';
+import { bottomNav, header } from '../ui/components.js?v=202611141300';
+import { icon } from '../ui/icons.js?v=202611141300';
+import { t } from '../i18n.js?v=202611141300';
+import { levelChips } from '../levels.js?v=202611141300';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611141300';
+import { allVocab } from './review.js?v=202611141300';
+import { levelLabel } from '../levels.js?v=202611141300';
+const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+window.__refSpeak = (w) => import('../audio.js?v=202611141300').then(a => a.speak(w));
 
 register('reference', async (el) => {
   el.innerHTML = `<div class="fade">
@@ -13,14 +17,14 @@ register('reference', async (el) => {
     <div class="tabbar" id="ref-tabs">
       <button class="tab on" onclick="window.__refTab('grammar')">📖 ${t('grammar')}</button>
       <button class="tab" onclick="window.__refTab('vocab')">📝 ${t('vocabulary')}</button>
-      <button class="tab" onclick="window.__refTab('conjugation')">🔄 ${t('conjugation')}</button>
+      <button class="tab" onclick="window.__nav('conj')">🔄 ${t('conjugation')}</button>
     </div>
     <div id="ref-content"></div>
   </div>${bottomNav('reference')}`;
 
   window.__refTab = (tab) => {
     document.querySelectorAll('.tab').forEach((t, i) => {
-      t.classList.toggle('on', ['grammar','vocab','conjugation'][i] === tab);
+      t.classList.toggle('on', ['grammar','vocab'][i] === tab);
     });
     renderTab(tab);
   };
@@ -61,32 +65,22 @@ register('reference', async (el) => {
   };
 
   async function renderVocabList(box) {
-    const vocab = await loadVocab(S.level);
+    const vm = await allVocab();
+    const list = [...vm.values()].filter(v => v.lv === S.level);
+    const counts = {};
+    const st = list.map(v => { const k = wordStatus(v.w); counts[k] = (counts[k] || 0) + 1; return k; });
+    const mean = m => (m && (m[S.lang] || m.en)) || '';
     box.innerHTML = `<div class="slideup">
       ${levelChips(S.level, '__vocabLevel')}
-      <div class="flex items-center justify-between mb-12">
-        <span class="muted small">${vocab.length} ${t('words')}</span>
-        <div class="flex gap-8" style="font-size:11px">
-          <span style="color:${LEVELS.master.color}">● ${t('master')}</span>
-          <span style="color:${LEVELS.intermediate.color}">● ${t('intermediate2')}</span>
-          <span style="color:${LEVELS.beginner.color}">● ${t('beginner2')}</span>
-          <span style="color:${LEVELS.ghost.color}">● ${t('ghost')}</span>
-        </div>
-      </div>
-      <div style="max-height:60vh;overflow-y:auto">
-        ${vocab.map(v => {
-          const level = getWordLevel(v.word);
-          const lv = LEVELS[level];
-          return `<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)">
-            <div class="flex items-center gap-8">
-              <span style="width:8px;height:8px;border-radius:50%;background:${lv.color};flex-shrink:0"></span>
-              <span style="font-weight:600">${v.word}</span>
-              ${v.gender ? `<span class="muted small">${v.gender === 'm' ? '♂' : '♀'}</span>` : ''}
-            </div>
-            <div class="muted small" style="text-align:right;max-width:50%">${v.m[S.lang] || v.m.en}</div>
-          </div>`;
-        }).join('')}
-      </div>
+      <div class="muted small mb-8">${list.length} ${t('words')} · ${levelLabel(S.level)}</div>
+      ${statusLegend(counts)}
+      <div class="card drill-banner" onclick="window.__go('vocab-list',{level:'${S.level}'})">☑️ <strong>${t('vocabList')}</strong> <span class="muted small">· ${t('allLevelWords')}</span><span class="grow"></span>›</div>
+      <div class="card drill-banner" onclick="window.__go('review',{deck:'v'})">🃏 <strong>${t('cardsNav')}</strong> <span class="muted small">· ${t('vocabulary')}</span><span class="grow"></span>›</div>
+      <div class="ref-vocab">${list.map((v, i) => `<div class="rv-row" onclick="window.__refSpeak('${escH(v.w)}')">
+        <span class="st-dot" style="background:${STATUS[st[i]].color}"></span>
+        <span class="rv-w" style="color:${STATUS[st[i]].color}">${escH(v.w)}</span>
+        <span class="rv-m muted small">${escH(mean(v.m))}</span>
+      </div>`).join('')}</div>
     </div>`;
   }
 

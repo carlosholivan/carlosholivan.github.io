@@ -1,12 +1,15 @@
-import { S, update } from '../state.js?v=202611141200';
-import { register, go } from '../router.js?v=202611141200';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611141200';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611141200';
-import { isUnitDone } from '../state.js?v=202611141200';
-import { bottomNav, header } from '../ui/components.js?v=202611141200';
-import { t } from '../i18n.js?v=202611141200';
-import { levelChips, LEVELS } from '../levels.js?v=202611141200';
-import { speak, stop } from '../audio.js?v=202611141200';
+import { S, update } from '../state.js?v=202611141300';
+import { register, go } from '../router.js?v=202611141300';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611141300';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611141300';
+import { isUnitDone } from '../state.js?v=202611141300';
+import { bottomNav, header } from '../ui/components.js?v=202611141300';
+import { t } from '../i18n.js?v=202611141300';
+import { levelChips, LEVELS } from '../levels.js?v=202611141300';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611141300';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611141300';
+import { addCards } from '../engine/anki.js?v=202611141300';
+import { allVocab } from './review.js?v=202611141300';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 
@@ -112,7 +115,10 @@ register('text', async (el, params) => {
   const phrases = Object.keys(gloss).filter(k => k.includes(' ')).sort((a, b) => b.length - a.length);
   const difficult = tx.difficult.map(norm).filter(Boolean);
   const verbs = tx.verbs || [], notes = tx.notes || [];
-  const view = { tab: 'read', showDiff: false, showTr: false, showVerbs: false };
+  const view = { tab: 'read', showDiff: false, showTr: false, showVerbs: false, showStatus: false };
+  // Course words (lower case → entry) for the word-status colours and "add to deck".
+  const vm = await allVocab();
+  const vocabLc = new Map([...vm.keys()].map(w => [w.toLowerCase(), w]));
 
   // Character ranges [start, end, index] of every occurrence of the annotated chunks in paragraph pi.
   function chunkRanges(list, pi, p) {
@@ -144,8 +150,9 @@ register('text', async (el, params) => {
       const dw = diffRanges.some(([a, b]) => m.index >= a && m.index < b);
       const v = vR.find(([a, b]) => m.index >= a && m.index < b);
       const n = nR.find(([a, b]) => m.index >= a && m.index < b);
-      const cls = 'tw' + (dw ? ' dw' : '') + (v ? ` vb vg-${TENSES[verbs[v[2]].t]?.g || 'nf'}` : '') + (n ? ' nt' : '');
-      out += `<span class="${cls}" data-p="${pi}" data-i="${wi++}"${v ? ` data-v="${v[2]}"` : ''}${n ? ` data-n="${n[2]}"` : ''}>${esc(m[0])}</span>`;
+      const cw = vocabLc.get(m[0].toLowerCase());
+      const cls = 'tw' + (dw ? ' dw' : '') + (v ? ` vb vg-${TENSES[verbs[v[2]].t]?.g || 'nf'}` : '') + (n ? ' nt' : '') + (cw ? ` st-${wordStatus(cw)}` : '');
+      out += `<span class="${cls}" data-p="${pi}" data-i="${wi++}"${cw ? ` data-w="${esc(cw)}"` : ''}${v ? ` data-v="${v[2]}"` : ''}${n ? ` data-n="${n[2]}"` : ''}>${esc(m[0])}</span>`;
       last = m.index + m[0].length;
     }
     return lines(out + esc(p.slice(last)));
@@ -174,12 +181,15 @@ register('text', async (el, params) => {
     shell(`<div class="flex gap-8 mb-12" style="flex-wrap:wrap">
         <button class="chip ${view.showDiff ? 'on' : ''}" onclick="window.__toggleDiff()">⚠️ ${t('difficultWords')}</button>
         <button class="chip ${view.showTr ? 'on' : ''}" onclick="window.__toggleTr()">🌐 ${t('translateText')}</button>
+        <button class="chip ${view.showStatus ? 'on' : ''}" onclick="window.__toggleStatus()">🎨 ${t('myWords')}</button>
         ${verbs.length ? `<button class="chip ${view.showVerbs ? 'on' : ''}" onclick="window.__toggleVerbs()">🔤 ${t('verbsGrammar')}</button>` : ''}
       </div>
+      <div class="rate-bar mb-12" id="rate-bar"><span>🔊 ${t('audioSpeed')}</span>${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__txRate(${r})">×${r}</button>`).join('')}</div>
+      ${view.showStatus ? statusLegend() : ''}
       ${view.showVerbs ? `<div class="verb-legend mb-12">${[['pres', 'presente'], ['past', 'pasado'], ['fut', 'futuro / condicional'], ['subj', 'subjuntivo'], ['imp', 'imperativo'], ['peri', 'perífrasis'], ['nf', 'infinitivo / gerundio']]
         .map(([g, l]) => `<span class="vb vg-${g}">${l}</span>`).join('')}<span class="nt">${t('grammarNote')}</span></div>` : ''}
       <div class="muted small mb-12">💡 ${t('tapWordHint')}</div>
-      <div id="reading" class="card reading ${view.showDiff ? 'show-diff' : ''} ${view.showVerbs ? 'show-verbs' : ''}">
+      <div id="reading" class="card reading ${view.showDiff ? 'show-diff' : ''} ${view.showVerbs ? 'show-verbs' : ''} ${view.showStatus ? 'show-status' : ''}">
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
           <p>${renderParagraph(p, i)}</p>
@@ -205,6 +215,7 @@ register('text', async (el, params) => {
   window.__toggleDiff = () => { view.showDiff = !view.showDiff; renderRead(); };
   window.__toggleTr = () => { view.showTr = !view.showTr; renderRead(); };
   window.__toggleVerbs = () => { view.showVerbs = !view.showVerbs; renderRead(); };
+  window.__toggleStatus = () => { view.showStatus = !view.showStatus; renderRead(); };
   window.__speakPara = (i) => speak(tx.paragraphs[i]);
 
   function showWord(span) {
@@ -215,7 +226,8 @@ register('text', async (el, params) => {
     const p = tx.paragraphs[+span.dataset.p].toLowerCase();
     // Multiword expressions of the glossary that contain this word in this paragraph
     const inPhrases = phrases.filter(ph => ph.split(' ').includes(word.toLowerCase()) && norm(p).includes(ph)).slice(0, 2);
-    popup(word, tr(gloss[word.toLowerCase()]), inPhrases.map(ph => [ph, tr(gloss[ph])]));
+    const cw = span.dataset.w;
+    popup(word, tr(gloss[word.toLowerCase()]) || (cw ? tr((vm.get(cw) || {}).m) : ''), inPhrases.map(ph => [ph, tr(gloss[ph])]), cw);
   }
 
   // Popup for an annotated verb and/or grammar note.
@@ -286,15 +298,20 @@ register('text', async (el, params) => {
     popup(text.trim(), '', words.map(w => [w, tr(gloss[w]) || '—']));
   }
 
-  function popup(es, meaning, extra) {
+  function popup(es, meaning, extra, deckWord) {
     const pop = document.getElementById('word-pop');
     window.__popSpeak = () => speak(es);
+    window.__popAdd = () => {
+      addCards([deckWord], 'v');
+      document.getElementById('pop-add').outerHTML = `<span class="small" style="color:var(--ok)">✓ ${t('inDeck')}</span>`;
+    };
+    const deck = deckWord ? `<div class="mt-8">${(S.cards || {})[deckWord] ? `<span class="small muted">✓ ${t('inDeck')}</span>` : `<button id="pop-add" class="chip" onclick="window.__popAdd()">＋ ${t('addToDeck')}</button>`}</div>` : '';
     pop.innerHTML = `<div class="flex items-center gap-8">
         <button class="listen-mini" onclick="window.__popSpeak()">🔊</button>
         <div class="grow"><div class="pop-es">${esc(es)}</div>${meaning ? `<div class="pop-tr">${esc(meaning)}</div>` : ''}</div>
         <button class="muted" style="font-size:20px;padding:4px 8px" onclick="document.getElementById('word-pop').style.display='none'">×</button>
       </div>
-      ${extra.length ? `<div class="pop-extra">${extra.map(([a, b]) => `<div class="gloss-row"><strong>${esc(a)}</strong><span>${esc(b)}</span></div>`).join('')}</div>` : ''}`;
+      ${extra.length ? `<div class="pop-extra">${extra.map(([a, b]) => `<div class="gloss-row"><strong>${esc(a)}</strong><span>${esc(b)}</span></div>`).join('')}</div>` : ''}${deck}`;
     pop.style.display = 'block';
   }
 
@@ -406,3 +423,9 @@ register('text', async (el, params) => {
 
   renderRead();
 });
+
+window.__txRate = (r) => {
+  S.settings.rate = r;
+  update({ settings: S.settings });
+  document.querySelectorAll('#rate-bar .chip').forEach(b => b.classList.toggle('on', b.textContent === '×' + r));
+};

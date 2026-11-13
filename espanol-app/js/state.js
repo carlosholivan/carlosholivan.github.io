@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611141200';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611141300';
 
 const STORAGE_KEY = 'español_state';   // same key as the first version of the app, so local progress is kept
 

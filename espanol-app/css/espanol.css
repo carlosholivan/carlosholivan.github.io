@@ -27,3 +27,4 @@
 .cj-opts .btn.ok { background: var(--ok); color: #fff }
 .cj-opts .btn.bad { background: var(--no); color: #fff }
 body.dark .cj-facts { background: rgba(255,255,255,.05) }
+.drill-banner strong { white-space: nowrap }

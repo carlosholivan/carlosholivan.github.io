@@ -1,10 +1,10 @@
 // Spanish conjugation reference: choose a verb, see every tense and person, plus a quick quiz.
 // window.__conj(tense, verb) opens it from anywhere.
-import { register, go } from '../router.js?v=202611141200';
-import { header, bottomNav } from '../ui/components.js?v=202611141200';
-import { speak } from '../audio.js?v=202611141200';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participle, gerund } from '../conj.js?v=202611141200';
-import { S } from '../state.js?v=202611141200';
+import { register, go } from '../router.js?v=202611141300';
+import { header, bottomNav } from '../ui/components.js?v=202611141300';
+import { speak } from '../audio.js?v=202611141300';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participle, gerund } from '../conj.js?v=202611141300';
+import { S } from '../state.js?v=202611141300';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const L = o => (o && (o[S.lang] || o.en)) || '';
