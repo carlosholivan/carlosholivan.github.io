@@ -1,8 +1,8 @@
 // Learning status of a word, combining the Anki deck (S.cards) with lesson mastery (S.vocab).
-import { S } from '../state.js?v=202611131900';
-import { isForgotten } from './anki.js?v=202611131900';
-import { getWordLevel } from './mastery.js?v=202611131900';
-import { t } from '../i18n.js?v=202611131900';
+import { S } from '../state.js?v=202611132000';
+import { isForgotten } from './anki.js?v=202611132000';
+import { getWordLevel } from './mastery.js?v=202611132000';
+import { t } from '../i18n.js?v=202611132000';
 
 export const STATUS = {
   unseen:   { color: '#95a5a6', key: 'stUnseen' },

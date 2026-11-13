@@ -1,14 +1,14 @@
 // Vocabulary by theme (category › subcategory), across every level, with learning status and quick study.
-import { S, update } from '../state.js?v=202611131900';
-import { register, go, render } from '../router.js?v=202611131900';
-import { LEVELS, levelLabel } from '../levels.js?v=202611131900';
-import { setKnown, addCards } from '../engine/anki.js?v=202611131900';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131900';
-import { speak } from '../audio.js?v=202611131900';
-import { t } from '../i18n.js?v=202611131900';
-import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611131900';
-import { allVocab } from './review.js?v=202611131900';
-import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611131900';
+import { S, update } from '../state.js?v=202611132000';
+import { register, go, render } from '../router.js?v=202611132000';
+import { LEVELS, levelLabel } from '../levels.js?v=202611132000';
+import { setKnown, addCards } from '../engine/anki.js?v=202611132000';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611132000';
+import { speak } from '../audio.js?v=202611132000';
+import { t } from '../i18n.js?v=202611132000';
+import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611132000';
+import { allVocab } from './review.js?v=202611132000';
+import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611132000';
 
 let topics = null;
 let lvFilter = 'all';
@@ -16,7 +16,7 @@ const label = o => o[S.lang] || o.en || o.es;
 const learned = isLearned;
 
 async function load() {
-  if (!topics) topics = await fetch('data/topics.json?v=202611131900').then(r => r.json());
+  if (!topics) topics = await fetch('data/topics.json?v=202611132000').then(r => r.json());
   return topics;
 }
 // Words of a subcategory as [level, word], filtered by the selected level.

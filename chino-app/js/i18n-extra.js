@@ -23,6 +23,7 @@ export default {
   stReview:       { es: 'En repaso', en: 'Reviewing' },
   stMaster:       { es: 'Dominada', en: 'Mastered' },
   stGhost:        { es: 'Olvidada', en: 'Forgotten' },
+  synonyms:       { es: 'Sinónimos y palabras parecidas', en: 'Synonyms and similar words', ja: '類義語', ko: '유의어' },
   deckIntroHint:  { es: 'Las palabras entran en tu mazo poco a poco (las nuevas de cada día, las de tus lecciones y lecturas): el primer número es cuántas ya tienes; el segundo, el total del nivel.', en: 'Words join your deck gradually (each day\'s new cards, plus words from your lessons and readings): the first number is how many you have; the second, the level total.' },
   tagNew:         { es: 'Nueva', en: 'New', ja: '新規', ko: '새 카드' },
   tagDue:         { es: 'Repaso', en: 'Review', ja: '復習', ko: '복습' },
