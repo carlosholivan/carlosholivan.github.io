@@ -1,4 +1,4 @@
-import { S } from './state.js?v=202611140300';
+import { S } from './state.js?v=202611140500';
 
 // Arabic voice of the browser / OS (Maged, Tarik, Laila, Google العربية…). Never reads with a foreign voice.
 // Playback speed chosen in Settings (or with the speed chip in the reader): 0.25× … 2×.

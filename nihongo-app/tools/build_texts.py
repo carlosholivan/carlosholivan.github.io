@@ -385,3 +385,6 @@ for lv in LEVELS:
 
 json.dump(furi, open(DATA / 'furi.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))
 print('furi entries', len(furi))
+
+# Example sentences for the vocabulary cards (data/<level>/examples.json).
+import runpy as _r; _r.run_path(str(__import__("pathlib").Path(__file__).with_name("build_examples.py")))

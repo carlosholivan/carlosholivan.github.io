@@ -1,16 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611140300';
-import { register, go } from '../router.js?v=202611140300';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611140300';
-import { LEVELS, levelLabel } from '../levels.js?v=202611140300';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611140300';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611140300';
-import { speak } from '../audio.js?v=202611140300';
-import { t } from '../i18n.js?v=202611140300';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611140300';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140300';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140300';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611140300';
+import { S, update, touchStreak } from '../state.js?v=202611140500';
+import { register, go } from '../router.js?v=202611140500';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611140500';
+import { LEVELS, levelLabel } from '../levels.js?v=202611140500';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611140500';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611140500';
+import { speak } from '../audio.js?v=202611140500';
+import { t } from '../i18n.js?v=202611140500';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611140500';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140500';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140500';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611140500';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -169,7 +169,7 @@ function runFailed(el, vm) {
   window.__ankiShow = () => {
     const back = document.getElementById('anki-back');
     if (!back || back.style.display !== 'none') return;
-    back.style.display = 'block';
+    back.style.display = 'block'; fillExamples(back);
     document.getElementById('anki-hint').style.display = 'none';
     document.getElementById('anki-btns').style.visibility = 'visible';
     speak(queue[0]);
@@ -224,13 +224,29 @@ function deckTabs(d) {
   </div>`;
 }
 
+// Example sentences on the back of vocabulary cards: taken from the app's own readings, with their translation.
+const EXC = {};
+const exText = s => Array.isArray(s) ? s.map(x => Array.isArray(x) ? x[0] : x).join('') : s;
+const exRuby = s => `<div dir="rtl" style="text-align:right">${ruby(s)}</div>`;
+async function fillExamples(root) {
+  const box = root?.querySelector('.anki-ex'); if (!box || box.dataset.done) return;
+  box.dataset.done = '1';
+  const w = box.dataset.w, lv = box.dataset.lv;
+  EXC[lv] ??= fetch(`data/${lv}/examples.json`).then(r => r.json()).catch(() => ({}));
+  let xs = ((await EXC[lv]) || {})[w] || [];
+  if (!xs.length) return;
+  box.innerHTML = `<div class="anki-ex-label">${t('examples')}</div>` + xs.map(([s, tr]) =>
+    `<div class="anki-ex-row" onclick="event.stopPropagation();window.__exSay(this)" data-s="${esc(exText(s))}"><div class="anki-ex-s">${exRuby(s)}</div><div class="anki-ex-t">${esc(tr[S.lang] || tr.es || tr.en || '')}</div></div>`).join('');
+}
+window.__exSay = (el) => speak(el.dataset.s);
+
 function vocabBack(v, lang) {
   const trad = v.t && v.t !== v.w ? `<div class="muted small">${t('traditional')}: <span class="zh-big-inline">${esc(v.t)}</span></div>` : '';
   const cl = v.cl ? `<div class="muted small mt-8">${t('measureWord')}: ${esc(v.cl.join ? v.cl.join(', ') : v.cl)}</div>` : '';
   const note = v.x && mean(v.x, lang) ? `<div class="note-box mt-12">${esc(mean(v.x, lang))}</div>` : '';
   return `<div class="anki-py">${tonedPinyin(v.p, { play: true })}</div>
     <div class="anki-ans">${esc(mean(v.m, lang))}</div>${trad}${cl}${note}
-    <div class="muted small mt-8">${levelLabel(v.lv)}</div>`;
+    <div class="muted small mt-8">${levelLabel(v.lv)}</div><div class="anki-ex" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div>`;
 }
 
 export function hanziExtra(h, lang) {
@@ -363,7 +379,7 @@ async function reviewView(el, params = {}) {
   window.__ankiShow = () => {
     const back = document.getElementById('anki-back');
     if (!back || back.style.display !== 'none') return;
-    back.style.display = 'block';
+    back.style.display = 'block'; fillExamples(back);
     document.getElementById('anki-hint').style.display = 'none';
     document.getElementById('anki-btns').style.visibility = 'visible';
     const wordEl = document.getElementById('anki-word');

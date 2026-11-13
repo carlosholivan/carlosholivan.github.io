@@ -435,3 +435,9 @@ body.nopy rt { display: none; }
 .rk-pos { width: 30px; text-align: center; font-weight: 800; color: var(--ink2) }
 .rk-xp { font-weight: 800; color: var(--accent) }
 .rk-break { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; font-size: 13px }
+
+.anki-ex { text-align: left; margin-top: 4px }
+.anki-ex-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink2); margin: 14px 0 6px; font-weight: 700 }
+.anki-ex-row { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.035); margin-bottom: 6px; cursor: pointer }
+.anki-ex-s { font-size: 17px; line-height: 1.9 }
+.anki-ex-t { font-size: 13px; color: var(--ink2); margin-top: 2px }
