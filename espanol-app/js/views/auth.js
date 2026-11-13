@@ -1,9 +1,9 @@
-import { register as registerView, go } from '../router.js';
-import { header } from '../ui/components.js';
-import { t } from '../i18n.js';
-import { registerUser, loginUser, resetPassword, getUser, sendVerification, refreshVerified, logoutUser } from '../firebase-auth.js';
-import { update } from '../state.js';
-import { enterApp } from './welcome.js';
+import { register as registerView, go } from '../router.js?v=202611141200';
+import { header } from '../ui/components.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { registerUser, loginUser, resetPassword, getUser, sendVerification, refreshVerified, logoutUser } from '../firebase-auth.js?v=202611141200';
+import { update } from '../state.js?v=202611141200';
+import { enterApp } from './welcome.js?v=202611141200';
 
 let authMode = 'login';
 

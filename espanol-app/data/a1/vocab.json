@@ -7,7 +7,10 @@
       "ja": "こんにちは"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "hola",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "adiós",
@@ -17,7 +20,10 @@
       "ja": "さようなら"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "adiós",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "buenos días",
@@ -27,7 +33,10 @@
       "ja": "おはようございます"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "buenos días",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "buenas tardes",
@@ -37,7 +46,10 @@
       "ja": "こんにちは"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "buenas tardes",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "buenas noches",
@@ -47,7 +59,10 @@
       "ja": "こんばんは / おやすみなさい"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "buenas noches",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "me llamo",
@@ -57,7 +72,10 @@
       "ja": "私の名前は"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "me llamo",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "gracias",
@@ -67,7 +85,10 @@
       "ja": "ありがとう"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "gracias",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "por favor",
@@ -77,7 +98,10 @@
       "ja": "お願いします"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "por favor",
+    "p": "",
+    "u": "a1-1"
   },
   {
     "word": "yo",
@@ -87,7 +111,10 @@
       "ja": "私"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "yo",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "tú",
@@ -97,7 +124,10 @@
       "ja": "君"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "tú",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "él",
@@ -107,7 +137,10 @@
       "ja": "彼"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "él",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "ella",
@@ -117,7 +150,10 @@
       "ja": "彼女"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "ella",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "usted",
@@ -127,7 +163,10 @@
       "ja": "あなた（丁寧）"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "usted",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "nosotros",
@@ -137,7 +176,10 @@
       "ja": "私たち"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "nosotros",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "vosotros",
@@ -147,7 +189,10 @@
       "ja": "君たち（スペイン）"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "vosotros",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "ellos",
@@ -157,7 +202,10 @@
       "ja": "彼ら"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "ellos",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "ellas",
@@ -167,7 +215,10 @@
       "ja": "彼女ら"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "ellas",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "ustedes",
@@ -177,7 +228,10 @@
       "ja": "あなたたち（丁寧）"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "ustedes",
+    "p": "",
+    "u": "a1-2"
   },
   {
     "word": "soy",
@@ -187,7 +241,10 @@
       "ja": "私は〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "soy",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "eres",
@@ -197,7 +254,10 @@
       "ja": "君は〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "eres",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "es",
@@ -207,7 +267,10 @@
       "ja": "彼/彼女は〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "es",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "somos",
@@ -217,7 +280,10 @@
       "ja": "私たちは〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "somos",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "sois",
@@ -227,7 +293,10 @@
       "ja": "君たちは〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "sois",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "son",
@@ -237,7 +306,10 @@
       "ja": "彼らは〜です(ser)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "son",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "estoy",
@@ -247,7 +319,10 @@
       "ja": "私は〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estoy",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "estás",
@@ -257,7 +332,10 @@
       "ja": "君は〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estás",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "está",
@@ -267,7 +345,10 @@
       "ja": "彼/彼女は〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "está",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "estamos",
@@ -277,7 +358,10 @@
       "ja": "私たちは〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estamos",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "estáis",
@@ -287,7 +371,10 @@
       "ja": "君たちは〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estáis",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "están",
@@ -297,7 +384,10 @@
       "ja": "彼らは〜いる(estar)"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "están",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "bien",
@@ -307,7 +397,10 @@
       "ja": "元気 / 良い"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "bien",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "mal",
@@ -317,7 +410,10 @@
       "ja": "悪い / 具合が悪い"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "mal",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "cansado",
@@ -327,7 +423,10 @@
       "ja": "疲れた"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "cansado",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "contento",
@@ -337,7 +436,10 @@
       "ja": "満足した / 嬉しい"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "contento",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "aquí",
@@ -347,7 +449,10 @@
       "ja": "ここ"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "aquí",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "allí",
@@ -357,7 +462,10 @@
       "ja": "あそこ"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "allí",
+    "p": "",
+    "u": "a1-3"
   },
   {
     "word": "el",
@@ -367,7 +475,10 @@
       "ja": "（男性単数定冠詞）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "el",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "la",
@@ -377,7 +488,10 @@
       "ja": "（女性単数定冠詞）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "la",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "los",
@@ -387,7 +501,10 @@
       "ja": "（男性複数定冠詞）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "los",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "las",
@@ -397,7 +514,10 @@
       "ja": "（女性複数定冠詞）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "las",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "libro",
@@ -407,7 +527,10 @@
       "ja": "本"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "libro",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "mesa",
@@ -417,7 +540,10 @@
       "ja": "テーブル"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "mesa",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "silla",
@@ -427,7 +553,10 @@
       "ja": "椅子"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "silla",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "puerta",
@@ -437,7 +566,10 @@
       "ja": "ドア"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "puerta",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "ventana",
@@ -447,7 +579,10 @@
       "ja": "窓"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "ventana",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "gato",
@@ -457,7 +592,10 @@
       "ja": "猫"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "gato",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "perro",
@@ -467,7 +605,10 @@
       "ja": "犬"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "perro",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "casa",
@@ -477,7 +618,10 @@
       "ja": "家"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "casa",
+    "p": "",
+    "u": "a1-4"
   },
   {
     "word": "este",
@@ -487,7 +631,10 @@
       "ja": "この（男性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "este",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "esta",
@@ -497,7 +644,10 @@
       "ja": "この（女性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "esta",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "estos",
@@ -507,7 +657,10 @@
       "ja": "これらの（男性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "estos",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "estas",
@@ -517,7 +670,10 @@
       "ja": "これらの（女性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "estas",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "ese",
@@ -527,7 +683,10 @@
       "ja": "その（男性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "ese",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "esa",
@@ -537,7 +696,10 @@
       "ja": "その（女性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "esa",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "aquel",
@@ -547,7 +709,10 @@
       "ja": "あの（男性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "aquel",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "aquella",
@@ -557,7 +722,10 @@
       "ja": "あの（女性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "aquella",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "esto",
@@ -567,7 +735,10 @@
       "ja": "これ（中性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "esto",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "eso",
@@ -577,7 +748,10 @@
       "ja": "それ（中性）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "eso",
+    "p": "",
+    "u": "a1-5"
   },
   {
     "word": "tengo",
@@ -587,7 +761,10 @@
       "ja": "私は持っている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "tengo",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "tienes",
@@ -597,7 +774,10 @@
       "ja": "君は持っている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "tienes",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "tiene",
@@ -607,7 +787,10 @@
       "ja": "彼/彼女は持っている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "tiene",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "tenemos",
@@ -617,7 +800,10 @@
       "ja": "私たちは持っている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "tenemos",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "años",
@@ -627,7 +813,10 @@
       "ja": "歳 / 年"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "años",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "hambre",
@@ -637,7 +826,10 @@
       "ja": "空腹（tener hambre = お腹が空いている）"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "hambre",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "sed",
@@ -647,7 +839,10 @@
       "ja": "渇き（tener sed = のどが渇いている）"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "sed",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "frío",
@@ -657,7 +852,10 @@
       "ja": "寒さ（tener frío = 寒い）"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "frío",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "calor",
@@ -667,7 +865,10 @@
       "ja": "暑さ（tener calor = 暑い）"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "calor",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "sueño",
@@ -677,7 +878,10 @@
       "ja": "眠気（tener sueño = 眠い）"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "sueño",
+    "p": "",
+    "u": "a1-6"
   },
   {
     "word": "mi",
@@ -687,7 +891,10 @@
       "ja": "私の"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "mi",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "tu",
@@ -697,7 +904,10 @@
       "ja": "君の"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "tu",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "su",
@@ -707,7 +917,10 @@
       "ja": "彼の/彼女の/あなたの"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "su",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "nuestro",
@@ -717,7 +930,10 @@
       "ja": "私たちの（男性）"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "nuestro",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "padre",
@@ -727,7 +943,10 @@
       "ja": "父"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "padre",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "madre",
@@ -737,7 +956,10 @@
       "ja": "母"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "madre",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "hermano",
@@ -747,7 +969,10 @@
       "ja": "兄弟"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "hermano",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "hermana",
@@ -757,7 +982,10 @@
       "ja": "姉妹"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "hermana",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "hijo",
@@ -767,7 +995,10 @@
       "ja": "息子"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "hijo",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "hija",
@@ -777,7 +1008,10 @@
       "ja": "娘"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "hija",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "abuelo",
@@ -787,7 +1021,10 @@
       "ja": "祖父"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "abuelo",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "abuela",
@@ -797,7 +1034,10 @@
       "ja": "祖母"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "abuela",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "tío",
@@ -807,7 +1047,10 @@
       "ja": "おじ"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "tío",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "tía",
@@ -817,7 +1060,10 @@
       "ja": "おば"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "tía",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "primo",
@@ -827,7 +1073,10 @@
       "ja": "いとこ（男）"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "primo",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "familia",
@@ -837,7 +1086,10 @@
       "ja": "家族"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "familia",
+    "p": "",
+    "u": "a1-7"
   },
   {
     "word": "uno",
@@ -847,7 +1099,10 @@
       "ja": "1"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "uno",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "dos",
@@ -857,7 +1112,10 @@
       "ja": "2"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "dos",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "tres",
@@ -867,7 +1125,10 @@
       "ja": "3"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "tres",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "cuatro",
@@ -877,7 +1138,10 @@
       "ja": "4"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "cuatro",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "cinco",
@@ -887,7 +1151,10 @@
       "ja": "5"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "cinco",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "seis",
@@ -897,7 +1164,10 @@
       "ja": "6"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "seis",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "siete",
@@ -907,7 +1177,10 @@
       "ja": "7"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "siete",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "ocho",
@@ -917,7 +1190,10 @@
       "ja": "8"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "ocho",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "nueve",
@@ -927,7 +1203,10 @@
       "ja": "9"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "nueve",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "diez",
@@ -937,7 +1216,10 @@
       "ja": "10"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "diez",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "once",
@@ -947,7 +1229,10 @@
       "ja": "11"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "once",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "doce",
@@ -957,7 +1242,10 @@
       "ja": "12"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "doce",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "trece",
@@ -967,7 +1255,10 @@
       "ja": "13"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "trece",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "catorce",
@@ -977,7 +1268,10 @@
       "ja": "14"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "catorce",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "quince",
@@ -987,7 +1281,10 @@
       "ja": "15"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "quince",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "dieciséis",
@@ -997,7 +1294,10 @@
       "ja": "16"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "dieciséis",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "diecisiete",
@@ -1007,7 +1307,10 @@
       "ja": "17"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "diecisiete",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "dieciocho",
@@ -1017,7 +1320,10 @@
       "ja": "18"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "dieciocho",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "diecinueve",
@@ -1027,7 +1333,10 @@
       "ja": "19"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "diecinueve",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "veinte",
@@ -1037,7 +1346,10 @@
       "ja": "20"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "veinte",
+    "p": "",
+    "u": "a1-8"
   },
   {
     "word": "lunes",
@@ -1047,7 +1359,10 @@
       "ja": "月曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "lunes",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "martes",
@@ -1057,7 +1372,10 @@
       "ja": "火曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "martes",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "miércoles",
@@ -1067,7 +1385,10 @@
       "ja": "水曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "miércoles",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "jueves",
@@ -1077,7 +1398,10 @@
       "ja": "木曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "jueves",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "viernes",
@@ -1087,7 +1411,10 @@
       "ja": "金曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "viernes",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "sábado",
@@ -1097,7 +1424,10 @@
       "ja": "土曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "sábado",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "domingo",
@@ -1107,7 +1437,10 @@
       "ja": "日曜日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "domingo",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "enero",
@@ -1117,7 +1450,10 @@
       "ja": "1月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "enero",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "febrero",
@@ -1127,7 +1463,10 @@
       "ja": "2月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "febrero",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "marzo",
@@ -1137,7 +1476,10 @@
       "ja": "3月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "marzo",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "abril",
@@ -1147,7 +1489,10 @@
       "ja": "4月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "abril",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "mayo",
@@ -1157,7 +1502,10 @@
       "ja": "5月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "mayo",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "junio",
@@ -1167,7 +1515,10 @@
       "ja": "6月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "junio",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "julio",
@@ -1177,7 +1528,10 @@
       "ja": "7月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "julio",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "agosto",
@@ -1187,7 +1541,10 @@
       "ja": "8月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "agosto",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "septiembre",
@@ -1197,7 +1554,10 @@
       "ja": "9月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "septiembre",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "octubre",
@@ -1207,7 +1567,10 @@
       "ja": "10月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "octubre",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "noviembre",
@@ -1217,7 +1580,10 @@
       "ja": "11月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "noviembre",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "diciembre",
@@ -1227,7 +1593,10 @@
       "ja": "12月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "diciembre",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "hoy",
@@ -1237,7 +1606,10 @@
       "ja": "今日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "hoy",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "mañana",
@@ -1247,7 +1619,10 @@
       "ja": "明日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "mañana",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "ayer",
@@ -1257,7 +1632,10 @@
       "ja": "昨日"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "ayer",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "semana",
@@ -1267,7 +1645,10 @@
       "ja": "週"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "semana",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "mes",
@@ -1277,7 +1658,10 @@
       "ja": "月"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "mes",
+    "p": "",
+    "u": "a1-9"
   },
   {
     "word": "hora",
@@ -1287,7 +1671,10 @@
       "ja": "時間/時刻"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "hora",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "minuto",
@@ -1297,7 +1684,10 @@
       "ja": "分"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "minuto",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "y media",
@@ -1307,7 +1697,10 @@
       "ja": "半"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "y media",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "y cuarto",
@@ -1317,7 +1710,10 @@
       "ja": "15分"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "y cuarto",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "menos cuarto",
@@ -1327,7 +1723,10 @@
       "ja": "15分前"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "menos cuarto",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "en punto",
@@ -1337,7 +1736,10 @@
       "ja": "ちょうど"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "en punto",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "de la mañana",
@@ -1347,7 +1749,10 @@
       "ja": "午前"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "de la mañana",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "de la tarde",
@@ -1357,7 +1762,10 @@
       "ja": "午後"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "de la tarde",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "de la noche",
@@ -1367,7 +1775,10 @@
       "ja": "夜"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "de la noche",
+    "p": "",
+    "u": "a1-10"
   },
   {
     "word": "dentro de",
@@ -1377,7 +1788,10 @@
       "ja": "〜の中に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "dentro de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "en",
@@ -1387,7 +1801,10 @@
       "ja": "〜に/〜の上に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "en",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "al lado de",
@@ -1397,7 +1814,10 @@
       "ja": "〜の隣に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "al lado de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "encima de",
@@ -1407,7 +1827,10 @@
       "ja": "〜の上に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "encima de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "debajo de",
@@ -1417,7 +1840,10 @@
       "ja": "〜の下に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "debajo de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "cerca de",
@@ -1427,7 +1853,10 @@
       "ja": "〜の近くに"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "cerca de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "lejos de",
@@ -1437,7 +1866,10 @@
       "ja": "〜から遠くに"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "lejos de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "delante de",
@@ -1447,7 +1879,10 @@
       "ja": "〜の前に"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "delante de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "detrás de",
@@ -1457,7 +1892,10 @@
       "ja": "〜の後ろに"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "detrás de",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "banco",
@@ -1467,7 +1905,10 @@
       "ja": "銀行"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "banco",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "farmacia",
@@ -1477,7 +1918,10 @@
       "ja": "薬局"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "farmacia",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "biblioteca",
@@ -1487,7 +1931,10 @@
       "ja": "図書館"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "biblioteca",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "supermercado",
@@ -1497,7 +1944,10 @@
       "ja": "スーパーマーケット"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "supermercado",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "hospital",
@@ -1507,7 +1957,10 @@
       "ja": "病院"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "hospital",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "parque",
@@ -1517,7 +1970,10 @@
       "ja": "公園"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "parque",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "escuela",
@@ -1527,7 +1983,10 @@
       "ja": "学校"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "escuela",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "tienda",
@@ -1537,7 +1996,10 @@
       "ja": "店"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "tienda",
+    "p": "",
+    "u": "a1-11"
   },
   {
     "word": "hay",
@@ -1547,7 +2009,10 @@
       "ja": "〜がある/いる"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "hay",
+    "p": "",
+    "u": "a1-12"
   },
   {
     "word": "un",
@@ -1557,7 +2022,10 @@
       "ja": "一つの（男性）"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "un",
+    "p": "",
+    "u": "a1-12"
   },
   {
     "word": "una",
@@ -1567,7 +2035,10 @@
       "ja": "一つの（女性）"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "una",
+    "p": "",
+    "u": "a1-12"
   },
   {
     "word": "unos",
@@ -1577,7 +2048,10 @@
       "ja": "いくつかの（男性）"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "unos",
+    "p": "",
+    "u": "a1-12"
   },
   {
     "word": "unas",
@@ -1587,7 +2061,10 @@
       "ja": "いくつかの（女性）"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "unas",
+    "p": "",
+    "u": "a1-12"
   },
   {
     "word": "qué",
@@ -1597,7 +2074,10 @@
       "ja": "何"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "qué",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "quién",
@@ -1607,7 +2087,10 @@
       "ja": "誰"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "quién",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "dónde",
@@ -1617,7 +2100,10 @@
       "ja": "どこ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "dónde",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "cuándo",
@@ -1627,7 +2113,10 @@
       "ja": "いつ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "cuándo",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "cómo",
@@ -1637,7 +2126,10 @@
       "ja": "どのように"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "cómo",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "por qué",
@@ -1647,7 +2139,10 @@
       "ja": "なぜ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por qué",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "cuál",
@@ -1657,7 +2152,10 @@
       "ja": "どれ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "cuál",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "cuánto",
@@ -1667,7 +2165,10 @@
       "ja": "いくら/いくつ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "cuánto",
+    "p": "",
+    "u": "a1-13"
   },
   {
     "word": "no",
@@ -1677,7 +2178,10 @@
       "ja": "いいえ/〜ない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "no",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "nada",
@@ -1687,7 +2191,10 @@
       "ja": "何もない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "nada",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "nadie",
@@ -1697,7 +2204,10 @@
       "ja": "誰もいない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "nadie",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "nunca",
@@ -1707,7 +2217,10 @@
       "ja": "決して〜ない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "nunca",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "tampoco",
@@ -1717,7 +2230,10 @@
       "ja": "〜もまた〜ない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "tampoco",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "ni...ni",
@@ -1727,7 +2243,10 @@
       "ja": "〜も〜もない"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "ni...ni",
+    "p": "",
+    "u": "a1-14"
   },
   {
     "word": "ningún",
@@ -1737,7 +2256,10 @@
       "ja": "一つもない（男性名詞の前）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "ningún",
+    "p": "",
+    "u": "a1-15"
   },
   {
     "word": "ninguno",
@@ -1747,7 +2269,10 @@
       "ja": "一つもない（男性、単独）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "ninguno",
+    "p": "",
+    "u": "a1-15"
   },
   {
     "word": "ninguna",
@@ -1757,7 +2282,10 @@
       "ja": "一つもない（女性）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "ninguna",
+    "p": "",
+    "u": "a1-15"
   },
   {
     "word": "algún",
@@ -1767,7 +2295,10 @@
       "ja": "いくつかの（男性名詞の前）"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "algún",
+    "p": "",
+    "u": "a1-16"
   },
   {
     "word": "alguno",
@@ -1777,7 +2308,10 @@
       "ja": "いくつかの（男性、単独）"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "alguno",
+    "p": "",
+    "u": "a1-16"
   },
   {
     "word": "alguna",
@@ -1787,7 +2321,10 @@
       "ja": "いくつかの（女性）"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "alguna",
+    "p": "",
+    "u": "a1-16"
   },
   {
     "word": "algunos",
@@ -1797,7 +2334,10 @@
       "ja": "いくつかの（男性複数）"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "algunos",
+    "p": "",
+    "u": "a1-16"
   },
   {
     "word": "algunas",
@@ -1807,7 +2347,10 @@
       "ja": "いくつかの（女性複数）"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "algunas",
+    "p": "",
+    "u": "a1-16"
   },
   {
     "word": "algo",
@@ -1817,7 +2360,10 @@
       "ja": "何か"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "algo",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "mucho/a",
@@ -1827,7 +2373,10 @@
       "ja": "たくさん"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "mucho/a",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "poco/a",
@@ -1837,7 +2386,10 @@
       "ja": "少し"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "poco/a",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "manzana",
@@ -1847,7 +2399,10 @@
       "ja": "りんご"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "manzana",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "naranja",
@@ -1857,7 +2412,10 @@
       "ja": "オレンジ"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "naranja",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "plátano",
@@ -1867,7 +2425,10 @@
       "ja": "バナナ"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "plátano",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "fresa",
@@ -1877,7 +2438,10 @@
       "ja": "いちご"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "fresa",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "uva",
@@ -1887,7 +2451,10 @@
       "ja": "ぶどう"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "uva",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "limón",
@@ -1897,7 +2464,10 @@
       "ja": "レモン"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "limón",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "fruta",
@@ -1907,7 +2477,10 @@
       "ja": "果物"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "fruta",
+    "p": "",
+    "u": "a1-17"
   },
   {
     "word": "hacer",
@@ -1917,7 +2490,10 @@
       "ja": "する・作る"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "hacer",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "hago",
@@ -1927,7 +2503,10 @@
       "ja": "私はする"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "hago",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "haces",
@@ -1937,7 +2516,10 @@
       "ja": "君はする"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "haces",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "hace",
@@ -1947,7 +2529,10 @@
       "ja": "彼/彼女はする"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "hace",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "maleta",
@@ -1957,7 +2542,10 @@
       "ja": "スーツケース"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "maleta",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "deberes",
@@ -1967,7 +2555,10 @@
       "ja": "宿題"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "deberes",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "cama",
@@ -1977,7 +2568,10 @@
       "ja": "ベッド"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "cama",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "comida",
@@ -1987,7 +2581,10 @@
       "ja": "食べ物・食事"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "comida",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "compra",
@@ -1997,7 +2594,10 @@
       "ja": "買い物"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "compra",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "ejercicio",
@@ -2007,7 +2607,10 @@
       "ja": "運動"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "ejercicio",
+    "p": "",
+    "u": "a1-18"
   },
   {
     "word": "voy",
@@ -2017,7 +2620,10 @@
       "ja": "私は行く"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "voy",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "vas",
@@ -2027,7 +2633,10 @@
       "ja": "君は行く"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "vas",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "va",
@@ -2037,7 +2646,10 @@
       "ja": "彼/彼女は行く"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "va",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "vamos",
@@ -2047,7 +2659,10 @@
       "ja": "私たちは行く"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "vamos",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "van",
@@ -2057,7 +2672,10 @@
       "ja": "彼らは行く"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "van",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "al",
@@ -2067,7 +2685,10 @@
       "ja": "〜へ（a+el）"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "al",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "comprar",
@@ -2077,7 +2698,10 @@
       "ja": "買う"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "comprar",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "cine",
@@ -2087,7 +2711,10 @@
       "ja": "映画館"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "cine",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "playa",
@@ -2097,7 +2724,10 @@
       "ja": "ビーチ"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "playa",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "restaurante",
@@ -2107,7 +2737,10 @@
       "ja": "レストラン"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "restaurante",
+    "p": "",
+    "u": "a1-19"
   },
   {
     "word": "viejo/a",
@@ -2117,7 +2750,10 @@
       "ja": "古い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "viejo/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "nuevo/a",
@@ -2127,7 +2763,10 @@
       "ja": "新しい"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "nuevo/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "feo/a",
@@ -2137,7 +2776,10 @@
       "ja": "醜い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "feo/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "bonito/a",
@@ -2147,7 +2789,10 @@
       "ja": "きれいな"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "bonito/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "dulce",
@@ -2157,7 +2802,10 @@
       "ja": "甘い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "dulce",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "salado/a",
@@ -2167,7 +2815,10 @@
       "ja": "しょっぱい"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "salado/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "grande",
@@ -2177,7 +2828,10 @@
       "ja": "大きい"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "grande",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "pequeño/a",
@@ -2187,7 +2841,10 @@
       "ja": "小さい"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "pequeño/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "rojo/a",
@@ -2197,7 +2854,10 @@
       "ja": "赤い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "rojo/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "azul",
@@ -2207,7 +2867,10 @@
       "ja": "青い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "azul",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "verde",
@@ -2217,7 +2880,10 @@
       "ja": "緑"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "verde",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "amarillo/a",
@@ -2227,7 +2893,10 @@
       "ja": "黄色い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "amarillo/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "blanco/a",
@@ -2237,7 +2906,10 @@
       "ja": "白い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "blanco/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "negro/a",
@@ -2247,7 +2919,10 @@
       "ja": "黒い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "negro/a",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "marrón",
@@ -2257,7 +2932,10 @@
       "ja": "茶色"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "marrón",
+    "p": "",
+    "u": "a1-20"
   },
   {
     "word": "alto/a",
@@ -2267,7 +2945,10 @@
       "ja": "背が高い"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "alto/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "bajo/a",
@@ -2277,7 +2958,10 @@
       "ja": "背が低い"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "bajo/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "gordo/a",
@@ -2287,7 +2971,10 @@
       "ja": "太った"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "gordo/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "delgado/a",
@@ -2297,7 +2984,10 @@
       "ja": "やせた"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "delgado/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "guapo/a",
@@ -2307,7 +2997,10 @@
       "ja": "ハンサム/きれい"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "guapo/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "inteligente",
@@ -2317,7 +3010,10 @@
       "ja": "賢い"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "inteligente",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "joven",
@@ -2327,7 +3023,10 @@
       "ja": "若い"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "joven",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "simpático/a",
@@ -2337,7 +3036,10 @@
       "ja": "感じのよい"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "simpático/a",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "feliz",
@@ -2347,7 +3049,10 @@
       "ja": "幸せな"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "feliz",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "triste",
@@ -2357,7 +3062,10 @@
       "ja": "悲しい"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "triste",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "pájaro",
@@ -2367,7 +3075,10 @@
       "ja": "鳥"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "pájaro",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "pez",
@@ -2377,7 +3088,10 @@
       "ja": "魚"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "pez",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "caballo",
@@ -2387,7 +3101,10 @@
       "ja": "馬"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "caballo",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "vaca",
@@ -2397,7 +3114,10 @@
       "ja": "牛"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "vaca",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "ratón",
@@ -2407,7 +3127,10 @@
       "ja": "ネズミ"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "ratón",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "conejo",
@@ -2417,7 +3140,10 @@
       "ja": "うさぎ"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "conejo",
+    "p": "",
+    "u": "a1-21"
   },
   {
     "word": "profesor/a",
@@ -2427,7 +3153,10 @@
       "ja": "先生"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "profesor/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "doctor/a",
@@ -2437,7 +3166,10 @@
       "ja": "医者"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "doctor/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "ingeniero/a",
@@ -2447,7 +3179,10 @@
       "ja": "エンジニア"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "ingeniero/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "abogado/a",
@@ -2457,7 +3192,10 @@
       "ja": "弁護士"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "abogado/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "enfermero/a",
@@ -2467,7 +3205,10 @@
       "ja": "看護師"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "enfermero/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "camarero/a",
@@ -2477,7 +3218,10 @@
       "ja": "ウェイター"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "camarero/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "policía",
@@ -2487,7 +3231,10 @@
       "ja": "警察官"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "policía",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "estudiante",
@@ -2497,7 +3244,10 @@
       "ja": "学生"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "estudiante",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "cocinero/a",
@@ -2507,7 +3257,10 @@
       "ja": "料理人"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "cocinero/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "músico/a",
@@ -2517,7 +3270,10 @@
       "ja": "音楽家"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "músico/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "artista",
@@ -2527,7 +3283,10 @@
       "ja": "芸術家"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "artista",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "bombero/a",
@@ -2537,7 +3296,10 @@
       "ja": "消防士"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "bombero/a",
+    "p": "",
+    "u": "a1-22"
   },
   {
     "word": "llamarse",
@@ -2547,7 +3309,10 @@
       "ja": "～という名前である"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "llamarse",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "vivir",
@@ -2557,7 +3322,10 @@
       "ja": "住む・生きる"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "vivir",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "hablar",
@@ -2567,7 +3335,10 @@
       "ja": "話す"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "hablar",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "trabajar",
@@ -2577,7 +3348,10 @@
       "ja": "働く"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "trabajar",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "estudiar",
@@ -2587,7 +3361,10 @@
       "ja": "勉強する"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "estudiar",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "venir",
@@ -2597,7 +3374,10 @@
       "ja": "来る"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "venir",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "querer",
@@ -2607,7 +3387,10 @@
       "ja": "～したい"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "querer",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "poder",
@@ -2617,7 +3400,10 @@
       "ja": "～できる"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "poder",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "comer",
@@ -2627,7 +3413,10 @@
       "ja": "食べる"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "comer",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "beber",
@@ -2637,7 +3426,10 @@
       "ja": "飲む"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "beber",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "ir",
@@ -2647,7 +3439,10 @@
       "ja": "行く"
     },
     "gender": null,
-    "unit": 23
+    "unit": 23,
+    "w": "ir",
+    "p": "",
+    "u": "a1-23"
   },
   {
     "word": "hablo",
@@ -2657,7 +3452,10 @@
       "ja": "私は話す"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "hablo",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "hablas",
@@ -2667,7 +3465,10 @@
       "ja": "君は話す"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "hablas",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "habla",
@@ -2677,7 +3478,10 @@
       "ja": "彼/彼女は話す"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "habla",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "como",
@@ -2687,7 +3491,10 @@
       "ja": "私は食べる"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "como",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "comes",
@@ -2697,7 +3504,10 @@
       "ja": "君は食べる"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "comes",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "come",
@@ -2707,7 +3517,10 @@
       "ja": "彼/彼女は食べる"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "come",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "vivo",
@@ -2717,7 +3530,10 @@
       "ja": "私は住む"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "vivo",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "vives",
@@ -2727,7 +3543,10 @@
       "ja": "君は住む"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "vives",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "vive",
@@ -2737,7 +3556,10 @@
       "ja": "彼/彼女は住む"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "vive",
+    "p": "",
+    "u": "a1-24"
   },
   {
     "word": "a veces",
@@ -2747,7 +3569,10 @@
       "ja": "時々"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "a veces",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "siempre",
@@ -2757,7 +3582,10 @@
       "ja": "いつも"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "siempre",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "pronto",
@@ -2767,7 +3595,10 @@
       "ja": "すぐに"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "pronto",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "tarde",
@@ -2777,7 +3608,10 @@
       "ja": "遅く"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "tarde",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "temprano",
@@ -2787,7 +3621,10 @@
       "ja": "早く"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "temprano",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "ya",
@@ -2797,7 +3634,10 @@
       "ja": "もう"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "ya",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "todavía",
@@ -2807,7 +3647,10 @@
       "ja": "まだ"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "todavía",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "normalmente",
@@ -2817,7 +3660,10 @@
       "ja": "普通は"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "normalmente",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "muchas veces",
@@ -2827,7 +3673,10 @@
       "ja": "よく"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "muchas veces",
+    "p": "",
+    "u": "a1-25"
   },
   {
     "word": "y",
@@ -2837,7 +3686,10 @@
       "ja": "と・そして"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "y",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "pero",
@@ -2847,7 +3699,10 @@
       "ja": "でも"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "pero",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "porque",
@@ -2857,7 +3712,10 @@
       "ja": "なぜなら"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "porque",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "también",
@@ -2867,7 +3725,10 @@
       "ja": "〜も"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "también",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "o",
@@ -2877,7 +3738,10 @@
       "ja": "または"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "o",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "ni",
@@ -2887,7 +3751,10 @@
       "ja": "〜も〜もない"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "ni",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "sin embargo",
@@ -2897,7 +3764,10 @@
       "ja": "しかしながら"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "sin embargo",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "además",
@@ -2907,7 +3777,10 @@
       "ja": "さらに"
     },
     "gender": null,
-    "unit": 26
+    "unit": 26,
+    "w": "además",
+    "p": "",
+    "u": "a1-26"
   },
   {
     "word": "gusta",
@@ -2917,7 +3790,10 @@
       "ja": "好き（単数）"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "gusta",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "gustan",
@@ -2927,7 +3803,10 @@
       "ja": "好き（複数）"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "gustan",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "me",
@@ -2937,7 +3816,10 @@
       "ja": "私に"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "me",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "te",
@@ -2947,7 +3829,10 @@
       "ja": "君に"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "te",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "le",
@@ -2957,7 +3842,10 @@
       "ja": "彼/彼女に"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "le",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "nos",
@@ -2967,7 +3855,10 @@
       "ja": "私たちに"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "nos",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "les",
@@ -2977,7 +3868,10 @@
       "ja": "彼らに"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "les",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "encanta",
@@ -2987,7 +3881,10 @@
       "ja": "大好き"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "encanta",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "chocolate",
@@ -2997,7 +3894,10 @@
       "ja": "チョコレート"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "chocolate",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "bailar",
@@ -3007,7 +3907,10 @@
       "ja": "踊る"
     },
     "gender": null,
-    "unit": 27
+    "unit": 27,
+    "w": "bailar",
+    "p": "",
+    "u": "a1-27"
   },
   {
     "word": "ducharse",
@@ -3017,7 +3920,10 @@
       "ja": "シャワーを浴びる"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "ducharse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "levantarse",
@@ -3027,7 +3933,10 @@
       "ja": "起きる"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "levantarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "acostarse",
@@ -3037,7 +3946,10 @@
       "ja": "寝る"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "acostarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "vestirse",
@@ -3047,7 +3959,10 @@
       "ja": "服を着る"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "vestirse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "despertarse",
@@ -3057,7 +3972,10 @@
       "ja": "目が覚める"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "despertarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "lavarse",
@@ -3067,7 +3985,10 @@
       "ja": "洗う"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "lavarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "peinarse",
@@ -3077,7 +3998,10 @@
       "ja": "髪をとかす"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "peinarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "sentarse",
@@ -3087,7 +4011,10 @@
       "ja": "座る"
     },
     "gender": null,
-    "unit": 28
+    "unit": 28,
+    "w": "sentarse",
+    "p": "",
+    "u": "a1-28"
   },
   {
     "word": "hablando",
@@ -3097,7 +4024,10 @@
       "ja": "話している"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "hablando",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "comiendo",
@@ -3107,7 +4037,10 @@
       "ja": "食べている"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "comiendo",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "viviendo",
@@ -3117,7 +4050,10 @@
       "ja": "住んでいる"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "viviendo",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "estudiando",
@@ -3127,7 +4063,10 @@
       "ja": "勉強している"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "estudiando",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "trabajando",
@@ -3137,7 +4076,10 @@
       "ja": "働いている"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "trabajando",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "leyendo",
@@ -3147,7 +4089,10 @@
       "ja": "読んでいる"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "leyendo",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "durmiendo",
@@ -3157,7 +4102,10 @@
       "ja": "寝ている"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "durmiendo",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "haciendo",
@@ -3167,7 +4115,10 @@
       "ja": "している"
     },
     "gender": null,
-    "unit": 29
+    "unit": 29,
+    "w": "haciendo",
+    "p": "",
+    "u": "a1-29"
   },
   {
     "word": "esta noche",
@@ -3177,7 +4128,10 @@
       "ja": "今夜"
     },
     "gender": null,
-    "unit": 30
+    "unit": 30,
+    "w": "esta noche",
+    "p": "",
+    "u": "a1-30"
   },
   {
     "word": "la semana que viene",
@@ -3187,7 +4141,10 @@
       "ja": "来週"
     },
     "gender": null,
-    "unit": 30
+    "unit": 30,
+    "w": "la semana que viene",
+    "p": "",
+    "u": "a1-30"
   },
   {
     "word": "el próximo mes",
@@ -3197,7 +4154,10 @@
       "ja": "来月"
     },
     "gender": null,
-    "unit": 30
+    "unit": 30,
+    "w": "el próximo mes",
+    "p": "",
+    "u": "a1-30"
   },
   {
     "word": "el año que viene",
@@ -3207,7 +4167,10 @@
       "ja": "来年"
     },
     "gender": null,
-    "unit": 30
+    "unit": 30,
+    "w": "el año que viene",
+    "p": "",
+    "u": "a1-30"
   },
   {
     "word": "tengo que",
@@ -3217,7 +4180,10 @@
       "ja": "私は〜しなければならない"
     },
     "gender": null,
-    "unit": 31
+    "unit": 31,
+    "w": "tengo que",
+    "p": "",
+    "u": "a1-31"
   },
   {
     "word": "hay que",
@@ -3227,7 +4193,10 @@
       "ja": "〜しなければならない（一般的）"
     },
     "gender": null,
-    "unit": 31
+    "unit": 31,
+    "w": "hay que",
+    "p": "",
+    "u": "a1-31"
   },
   {
     "word": "dormir",
@@ -3237,7 +4206,10 @@
       "ja": "寝る"
     },
     "gender": null,
-    "unit": 31
+    "unit": 31,
+    "w": "dormir",
+    "p": "",
+    "u": "a1-31"
   },
   {
     "word": "limpiar",
@@ -3247,7 +4219,10 @@
       "ja": "掃除する"
     },
     "gender": null,
-    "unit": 31
+    "unit": 31,
+    "w": "limpiar",
+    "p": "",
+    "u": "a1-31"
   },
   {
     "word": "cocinar",
@@ -3257,7 +4232,10 @@
       "ja": "料理する"
     },
     "gender": null,
-    "unit": 31
+    "unit": 31,
+    "w": "cocinar",
+    "p": "",
+    "u": "a1-31"
   },
   {
     "word": "hace calor",
@@ -3267,7 +4245,10 @@
       "ja": "暑い"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "hace calor",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "hace frío",
@@ -3277,7 +4258,10 @@
       "ja": "寒い"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "hace frío",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "hace sol",
@@ -3287,7 +4271,10 @@
       "ja": "晴れ"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "hace sol",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "hace viento",
@@ -3297,7 +4284,10 @@
       "ja": "風が強い"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "hace viento",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "llueve",
@@ -3307,7 +4297,10 @@
       "ja": "雨が降る"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "llueve",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "nieva",
@@ -3317,7 +4310,10 @@
       "ja": "雪が降る"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "nieva",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "está nublado",
@@ -3327,7 +4323,10 @@
       "ja": "曇り"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "está nublado",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "primavera",
@@ -3337,7 +4336,10 @@
       "ja": "春"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "primavera",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "verano",
@@ -3347,7 +4349,10 @@
       "ja": "夏"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "verano",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "otoño",
@@ -3357,7 +4362,10 @@
       "ja": "秋"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "otoño",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "invierno",
@@ -3367,7 +4375,10 @@
       "ja": "冬"
     },
     "gender": null,
-    "unit": 32
+    "unit": 32,
+    "w": "invierno",
+    "p": "",
+    "u": "a1-32"
   },
   {
     "word": "pasa",
@@ -3377,7 +4388,10 @@
       "ja": "どうぞ入って（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "pasa",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "toma",
@@ -3387,7 +4401,10 @@
       "ja": "はい、どうぞ・取って（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "toma",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "siéntate",
@@ -3397,7 +4414,10 @@
       "ja": "座って（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "siéntate",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "ven",
@@ -3407,7 +4427,10 @@
       "ja": "来て（tú、venir）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "ven",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "pon",
@@ -3417,7 +4440,10 @@
       "ja": "置いて（tú、poner）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "pon",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "dime",
@@ -3427,7 +4453,10 @@
       "ja": "言って・教えて（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "dime",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "gira a la derecha",
@@ -3437,7 +4466,10 @@
       "ja": "右に曲がって（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "gira a la derecha",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "sigue recto",
@@ -3447,7 +4479,10 @@
       "ja": "まっすぐ行って（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "sigue recto",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "añade",
@@ -3457,7 +4492,10 @@
       "ja": "加えて（tú）"
     },
     "gender": null,
-    "unit": 33
+    "unit": 33,
+    "w": "añade",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "receta",
@@ -3467,7 +4505,10 @@
       "ja": "レシピ"
     },
     "gender": "f",
-    "unit": 33
+    "unit": 33,
+    "w": "receta",
+    "p": "",
+    "u": "a1-33"
   },
   {
     "word": "esta mañana",
@@ -3477,7 +4518,10 @@
       "ja": "今朝"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "esta mañana",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "esta semana",
@@ -3487,7 +4531,10 @@
       "ja": "今週"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "esta semana",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "este año",
@@ -3497,7 +4544,10 @@
       "ja": "今年"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "este año",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "hace un rato",
@@ -3507,7 +4557,10 @@
       "ja": "さっき"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "hace un rato",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "todavía no",
@@ -3517,7 +4570,10 @@
       "ja": "まだ〜ない"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "todavía no",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "alguna vez",
@@ -3527,7 +4583,10 @@
       "ja": "今までに（〜したことがある？）"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "alguna vez",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "dicho",
@@ -3537,7 +4596,10 @@
       "ja": "言った（decir の過去分詞）"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "dicho",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "hecho",
@@ -3547,7 +4609,10 @@
       "ja": "した・作った（hacer の過去分詞）"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "hecho",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "visto",
@@ -3557,7 +4622,10 @@
       "ja": "見た（ver の過去分詞）"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "visto",
+    "p": "",
+    "u": "a1-34"
   },
   {
     "word": "escrito",
@@ -3567,6 +4635,9 @@
       "ja": "書いた（escribir の過去分詞）"
     },
     "gender": null,
-    "unit": 34
+    "unit": 34,
+    "w": "escrito",
+    "p": "",
+    "u": "a1-34"
   }
 ]

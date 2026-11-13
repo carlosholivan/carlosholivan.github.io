@@ -1,10 +1,9 @@
 // Builds a mixed review lesson: weak words + failed grammar drills + the last studied units.
-import { S } from '../state.js';
-import { loadUnit, loadVocab, loadDrills } from '../data.js';
-import { generateExercises, unitVocab, shuffle, tr } from './exercises.js';
-import { getWordLevel } from './mastery.js';
-
-const ORDER = ['a1', 'a2', 'b1', 'b2', 'c1'];
+import { S } from '../state.js?v=202611141200';
+import { loadUnit, loadVocab, loadDrills } from '../data.js?v=202611141200';
+import { generateExercises, unitVocab, shuffle, tr } from './exercises.js?v=202611141200';
+import { getWordLevel } from './mastery.js?v=202611141200';
+import { LEVELS as ORDER } from '../levels.js?v=202611141200';
 const MAX = 15;
 
 function recentUnits() {
@@ -24,7 +23,7 @@ function recentUnits() {
 function weakWords() {
   const now = Date.now();
   return Object.entries(S.vocab || {})
-    .filter(([w, v]) => v.seen > 0 && w.split(' ').length <= 3)
+    .filter(([w, v]) => v.seen > 0 && w.length <= 6)
     .map(([word, v]) => {
       const acc = v.correct / v.seen;
       const lvl = getWordLevel(word);
@@ -47,11 +46,11 @@ async function vocabIndex(levels) {
 function wordExercise(v, pool, kind, lang) {
   const meaning = tr(v.m, lang);
   const others = shuffle(pool.filter(p => p.word !== v.word && tr(p.m, lang))).slice(0, 3);
-  if (kind === 0) return { type: 'choose', vocab: v.word, promptKey: 'whatMeans', promptArg: v.word, speak: v.word,
+  if (kind === 0) return { type: 'choose', vocab: v.word, py: v.p, promptKey: 'whatMeans', promptArg: v.word, speak: v.word,
     correct: meaning, options: shuffle([meaning, ...others.map(o => tr(o.m, lang))]), src: 'weak' };
   if (kind === 1) return { type: 'translate', vocab: v.word, promptKey: 'writeThis', promptArg: meaning,
-    answer: v.word, accept: [v.word], src: 'weak' };
-  return { type: 'listen', vocab: v.word, text: v.word, correct: v.word,
+    answer: v.word, py: v.p, accept: [v.word], src: 'weak' };
+  return { type: 'listen', vocab: v.word, py: v.p, text: v.word, correct: v.word,
     options: shuffle([v.word, ...others.map(o => o.word)]), src: 'weak' };
 }
 
@@ -79,8 +78,8 @@ export async function buildReview() {
   }
   shuffle(bad).sort((a, b) => b.ts - a.ts);
   for (const { it } of bad.slice(0, 4)) {
-    out.drills.push({ type: 'fill', sentence: it.q, blank: it.o[it.a], options: shuffle([...it.o]),
-      hint: `${tr(it.tr, lang)}`, src: 'drill' });
+    out.drills.push({ type: 'fill', sentence: it.q, blank: it.o[it.a], py: it.py, options: shuffle([...it.o]),
+      trans: tr(it.tr, lang), src: 'drill' });
   }
 
   // 3. Exercises from the last studied units.

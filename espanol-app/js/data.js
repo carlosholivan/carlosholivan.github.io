@@ -16,6 +16,11 @@ export async function loadVocab(level) {
   return loadJSON(`data/${level}/vocab.json`);
 }
 
+// No character lists in Spanish (the shared views treat an empty list as "no such section").
+export async function loadHanzi() {
+  return [];
+}
+
 export async function loadGrammar(level) {
   return loadJSON(`data/${level}/grammar.json`);
 }
@@ -26,6 +31,11 @@ export async function loadTexts(level) {
 
 export async function loadDrills(level) {
   try { return await loadJSON(`data/${level}/drills.json`); } catch (e) { return []; }
+}
+
+// Optional practice sets 2–7 (not built for Spanish yet: an empty object means "none").
+export async function loadExtra(level) {
+  try { return await loadJSON(`data/${level}/extra.json`); } catch (e) { return {}; }
 }
 
 export async function loadUnits(level) {

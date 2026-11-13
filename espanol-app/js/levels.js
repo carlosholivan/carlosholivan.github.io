@@ -1,8 +1,12 @@
 export const LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1'];
 // i18n keys for the level names
-export const LEVEL_NAME = { a1: 'beginner', a2: 'elementary', b1: 'intermediate', b2: 'upperIntermediate', c1: 'advanced' };
+export const LEVEL_NAME = { a1: 'lvName1', a2: 'lvName2', b1: 'lvName3', b2: 'lvName4', c1: 'lvName5' };
+
+export function levelLabel(l) {
+  return l ? String(l).toUpperCase() : '';
+}
 
 export function levelChips(current, handler) {
   return `<div class="flex gap-8 mb-16 level-chips">${LEVELS.map(l =>
-    `<button class="chip ${current === l ? 'on' : ''}" onclick="window.${handler}('${l}')">${l.toUpperCase()}</button>`).join('')}</div>`;
+    `<button class="chip ${current === l ? 'on' : ''}" onclick="window.${handler}('${l}')">${levelLabel(l)}</button>`).join('')}</div>`;
 }

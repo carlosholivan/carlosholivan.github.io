@@ -1,12 +1,12 @@
-import { S, update } from '../state.js';
-import { register, go } from '../router.js';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js';
-import { isUnitDone } from '../state.js';
-import { bottomNav, header } from '../ui/components.js';
-import { t } from '../i18n.js';
-import { levelChips, LEVELS } from '../levels.js';
-import { speak, stop } from '../audio.js';
+import { S, update } from '../state.js?v=202611141200';
+import { register, go } from '../router.js?v=202611141200';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611141200';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611141200';
+import { isUnitDone } from '../state.js?v=202611141200';
+import { bottomNav, header } from '../ui/components.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { levelChips, LEVELS } from '../levels.js?v=202611141200';
+import { speak, stop } from '../audio.js?v=202611141200';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 

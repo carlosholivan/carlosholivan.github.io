@@ -1,14 +1,32 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611141200';
 
-const STORAGE_KEY = 'español_state';
+const STORAGE_KEY = 'español_state';   // same key as the first version of the app, so local progress is kept
+
+// Older versions may have left a level this app doesn't have.
+const LEVEL_IDS = ['a1', 'a2', 'b1', 'b2', 'c1'];
+export const UI_LANGS = ['en', 'ja', 'zh'];
+function fixLevel(s) {
+  if (!LEVEL_IDS.includes(s.level)) { s.level = 'a1'; s.unit = 1; }
+  if (!UI_LANGS.includes(s.lang)) s.lang = guessLang();
+  // Drop lesson keys from other apps (e.g. Chinese 'hsk1-3').
+  for (const f of ['completed', 'sets']) {
+    if (s[f] && Object.keys(s[f]).some(k => !/^(a[12]|b[12]|c1)-\d+$/.test(k))) {
+      s[f] = Object.fromEntries(Object.entries(s[f]).filter(([k]) => /^(a[12]|b[12]|c1)-\d+$/.test(k)));
+    }
+  }
+  s.recent = (s.recent || []).filter(k => /^(a[12]|b[12]|c1)-\d+$/.test(k));
+  return s;
+}
 
 const DEFAULT_STATE = {
-  lang: 'en',        // source language: en, zh, ja
+  lang: 'en',        // user's language: en, ja, zh
   name: '',
   welcomed: false,
   texts: {},         // reading texts: {id: {q: best %, gaps: bool}}
   drills: {},        // grammar drills: {'<level>-<cat>': {best: %, ok: [item indexes answered right]}}
   level: 'a1',
+  pinyin: true,      // show pinyin over characters
+  hcards: {},        // Anki deck for characters
   dark: false,
   unit: 1,           // current unit within level
   streak: 0,
@@ -20,6 +38,7 @@ const DEFAULT_STATE = {
   lastReview: null,  // date of the last review lesson
   xp: 0,
   completed: {},     // { "a1-1": true, "a1-2": true, ... }
+  sets: {},          // optional practice sets 2–7: { 'a1-3': [2, 5] }
   vocab: {},         // { word: { seen, correct, lastSeen, interval } }
   cards: {},         // Anki deck: { word: { s, step, due, ivl, ef, reps, lapses, added } }
   settings: {
@@ -28,29 +47,54 @@ const DEFAULT_STATE = {
   }
 };
 
+// First visit: the browser's language if the app speaks it, English otherwise.
+function guessLang() {
+  const l = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  return UI_LANGS.includes(l) ? l : 'en';
+}
+
 export function load() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return { ...DEFAULT_STATE, ...JSON.parse(raw) };
+    if (raw) return fixLevel({ ...DEFAULT_STATE, ...JSON.parse(raw) });
   } catch(e) {}
-  return { ...DEFAULT_STATE };
+  return { ...DEFAULT_STATE, lang: guessLang() };
 }
 
 // Local save is immediate; the cloud copy is debounced and flushed when the tab is hidden or closed.
 let cloudTimer = null;
 export function save(state) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+  catch (e) { console.error('Local save failed:', e); cloudError({ message: ({ en: 'Could not save in this browser (storage full): ', ja: 'このブラウザに保存できませんでした（容量不足）：', zh: '无法保存到此浏览器（存储空间已满）：' }[S.lang] || 'Storage full: ') + (e.name || e.message) }); }
   if (isConfigured()) {
     clearTimeout(cloudTimer);
     cloudTimer = setTimeout(flushCloud, 3000);
   }
 }
 
+export const afterSync = [];
 export function flushCloud() {
   clearTimeout(cloudTimer);
   cloudTimer = null;
   if (!isConfigured()) return Promise.resolve();
-  return saveStateToCloud(S).catch(() => {});
+  return saveStateToCloud(S).then(() => { syncInfo.ok = Date.now(); syncInfo.err = null; afterSync.forEach(f => f()); }, cloudError);
+}
+
+export const syncInfo = { ok: null, err: null };
+
+// Cloud errors were previously swallowed; show them so sync problems are visible.
+export function cloudError(e) {
+  console.error('Cloud sync failed:', e);
+  syncInfo.err = (e && (e.code || e.message)) || String(e);
+  let el = document.getElementById('cloud-err');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'cloud-err';
+    el.style.cssText = 'position:fixed;left:8px;right:8px;top:8px;z-index:9999;background:#c62828;color:#fff;padding:8px 12px;border-radius:8px;font-size:13px';
+    el.onclick = () => el.remove();
+    document.body.appendChild(el);
+  }
+  el.textContent = '☁️ ' + [e && e.code, e && e.message, e && e.detail].filter(Boolean).join(' · ').slice(0, 300) || String(e);
 }
 addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && cloudTimer) flushCloud(); });
 addEventListener('pagehide', () => { if (cloudTimer) flushCloud(); });
@@ -59,8 +103,10 @@ export function reset() {
   localStorage.removeItem(STORAGE_KEY);
   Object.assign(S, DEFAULT_STATE);
   S.completed = {};
+  S.sets = {};
   S.vocab = {};
   S.cards = {};
+  S.hcards = {};
   S.settings = { sound: true, haptics: true };
 }
 
@@ -84,12 +130,18 @@ export function mergeCloudState(cloudState) {
   if (cloudState.levelChosen) merged.levelChosen = true;
   if (!(S.recent || []).length && cloudState.recent) merged.recent = cloudState.recent;
   if ((cloudState.lastReview || '') > (S.lastReview || '')) merged.lastReview = cloudState.lastReview;
-  const cd = cloudState.cardsDay, ld = S.cardsDay;
-  if (cd && (!ld || cd.date > ld.date || (cd.date === ld.date && cd.n > ld.n))) merged.cardsDay = cd;
+  for (const k of ['cardsDay', 'hcardsDay']) {
+    const cd = cloudState[k], ld = S[k];
+    if (cd && (!ld || cd.date > ld.date || (cd.date === ld.date && cd.n > ld.n))) merged[k] = cd;
+  }
   merged.completed = { ...S.completed, ...(cloudState.completed || {}) };
-  merged.cards = { ...(cloudState.cards || {}) };
-  for (const [w, c] of Object.entries(S.cards || {})) {
-    if (!merged.cards[w] || (c.reps || 0) >= (merged.cards[w].reps || 0)) merged.cards[w] = c;
+  merged.sets = { ...(cloudState.sets || {}) };
+  for (const [k, v] of Object.entries(S.sets || {})) merged.sets[k] = [...new Set([...(merged.sets[k] || []), ...v])].sort((a, b) => a - b);
+  for (const d of ['cards', 'hcards']) {
+    merged[d] = { ...(cloudState[d] || {}) };
+    for (const [w, c] of Object.entries(S[d] || {})) {
+      if (!merged[d][w] || (c.reps || 0) >= (merged[d][w].reps || 0)) merged[d][w] = c;
+    }
   }
   if (cloudState.cardsSeeded) merged.cardsSeeded = true;
   merged.vocab = { ...(S.vocab || {}) };
@@ -99,6 +151,7 @@ export function mergeCloudState(cloudState) {
       merged.vocab[word] = data;
     }
   }
+  fixLevel(merged);
   Object.assign(S, merged);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(S));
 }
@@ -115,6 +168,13 @@ export function completeUnit(level, unit) {
   S.xp += 10;
   updateStreak();
   save(S);
+}
+
+// Any study (lessons, sets, cards) keeps the streak alive.
+export function touchStreak() {
+  const before = S.lastDay;
+  updateStreak();
+  if (S.lastDay !== before) save(S);
 }
 
 function updateStreak() {
@@ -153,4 +213,14 @@ export function touchActive() {
   S.lastActive = now;
   save(S);
   return daysAway;
+}
+
+export function completeSet(level, unit, set) {
+  const k = `${level}-${unit}`;
+  const sets = { ...(S.sets || {}) };
+  sets[k] = [...new Set([...(sets[k] || []), set])].sort((a, b) => a - b);
+  S.sets = sets;
+  S.xp += 5;
+  updateStreak();
+  save(S);
 }

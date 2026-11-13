@@ -1,9 +1,11 @@
-import { S, isUnitDone } from '../state.js';
-import { register } from '../router.js';
-import { loadUnits } from '../data.js';
-import { bottomNav, header, progressBar } from '../ui/components.js';
-import { t } from '../i18n.js';
-import { LEVELS, LEVEL_NAME } from '../levels.js';
+import { S, isUnitDone } from '../state.js?v=202611141200';
+import { register } from '../router.js?v=202611141200';
+import { loadUnits } from '../data.js?v=202611141200';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141200';
+import { allVocab } from './review.js?v=202611141200';
+import { wordStatus } from '../engine/status.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { LEVELS, LEVEL_NAME, levelLabel } from '../levels.js?v=202611141200';
 
 register('progress', async (el) => {
   const levels = await Promise.all(LEVELS.map(async l => {
@@ -11,8 +13,14 @@ register('progress', async (el) => {
     return { l, total: units.length, done: units.filter((_, i) => isUnitDone(l, i + 1)).length };
   }));
 
-  const totalWords = Object.keys(S.vocab).length;
-  const masteredWords = Object.values(S.vocab).filter(v => v.correct >= 3 && v.interval >= 7).length;
+  // Counted over real HSK words only, combining lessons (S.vocab) and the card deck (S.cards).
+  const vm = await allVocab();
+  let totalWords = 0, masteredWords = 0;
+  for (const w of vm.keys()) {
+    const st = wordStatus(w);
+    if (st !== 'unseen') totalWords++;
+    if (st === 'master') masteredWords++;
+  }
 
   el.innerHTML = `<div class="fade">
     ${header(t('progress'))}
@@ -43,7 +51,7 @@ register('progress', async (el) => {
 
     ${levels.filter(x => x.total).map(({ l, total, done }) => `
     <div class="card" style="padding:20px;margin-bottom:16px">
-      <div class="h3 mb-12">${l.toUpperCase()} — ${t(LEVEL_NAME[l])}</div>
+      <div class="h3 mb-12">${levelLabel(l)} — ${t(LEVEL_NAME[l])}</div>
       <div class="flex items-center justify-between mb-8">
         <span class="muted small">${done}/${total} ${t('lessons')}</span>
         <span class="small" style="font-weight:600">${Math.round(done / total * 100)}%</span>

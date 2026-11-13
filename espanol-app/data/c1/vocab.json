@@ -7,7 +7,10 @@
       "ja": "〜という事実"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "el hecho de que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "no es que",
@@ -17,7 +20,10 @@
       "ja": "〜というわけではない"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "no es que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "aunque",
@@ -27,7 +33,10 @@
       "ja": "〜けれども／たとえ〜でも"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "aunque",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "como + subjuntivo",
@@ -37,7 +46,10 @@
       "ja": "もし〜したら（警告）"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "como + subjuntivo",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "decir que",
@@ -47,7 +59,10 @@
       "ja": "〜と言う／〜するように言う"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "decir que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "sentir que",
@@ -57,7 +72,10 @@
       "ja": "〜と感じる／〜を残念に思う"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "sentir que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "comprender que",
@@ -67,7 +85,10 @@
       "ja": "〜だと気づく／〜を無理もないと思う"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "comprender que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "insistir en que",
@@ -77,7 +98,10 @@
       "ja": "〜だと言い張る／〜するよう強く求める"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "insistir en que",
+    "p": "",
+    "u": "c1-1"
   },
   {
     "word": "por mucho que",
@@ -87,7 +111,10 @@
       "ja": "どんなに〜しても"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "por mucho que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "por más que",
@@ -97,7 +124,10 @@
       "ja": "いくら〜しても"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "por más que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "a no ser que",
@@ -107,7 +137,10 @@
       "ja": "〜でない限り"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "a no ser que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "a menos que",
@@ -117,7 +150,10 @@
       "ja": "〜しない限り"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "a menos que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "salvo que",
@@ -127,7 +163,10 @@
       "ja": "〜でなければ"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "salvo que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "con tal de que",
@@ -137,7 +176,10 @@
       "ja": "〜しさえすれば"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "con tal de que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "siempre que",
@@ -147,7 +189,10 @@
       "ja": "〜する限り／〜するたびに"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "siempre que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "en caso de que",
@@ -157,7 +202,10 @@
       "ja": "〜の場合には"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "en caso de que",
+    "p": "",
+    "u": "c1-2"
   },
   {
     "word": "venir + gerundio",
@@ -167,7 +215,10 @@
       "ja": "（以前から）ずっと〜してきている"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "venir + gerundio",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "andar + gerundio",
@@ -177,7 +228,10 @@
       "ja": "〜して回っている"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "andar + gerundio",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "ir + gerundio",
@@ -187,7 +241,10 @@
       "ja": "だんだん〜していく"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "ir + gerundio",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "estar para + infinitivo",
@@ -197,7 +254,10 @@
       "ja": "今にも〜しそうだ"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estar para + infinitivo",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "estar por + infinitivo",
@@ -207,7 +267,10 @@
       "ja": "まだ〜されていない／〜しようかと思う"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "estar por + infinitivo",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "tener + participio",
@@ -217,7 +280,10 @@
       "ja": "〜してある"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "tener + participio",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "llevar + participio",
@@ -227,7 +293,10 @@
       "ja": "これまでに〜した"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "llevar + participio",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "poco a poco",
@@ -237,7 +306,10 @@
       "ja": "少しずつ"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "poco a poco",
+    "p": "",
+    "u": "c1-3"
   },
   {
     "word": "supe / sabía",
@@ -247,7 +319,10 @@
       "ja": "知った／知っていた"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "supe / sabía",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "conocí / conocía",
@@ -257,7 +332,10 @@
       "ja": "知り合った／知っていた"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "conocí / conocía",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "quise / quería",
@@ -267,7 +345,10 @@
       "ja": "〜しようとした／〜したかった"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "quise / quería",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "no quise",
@@ -277,7 +358,10 @@
       "ja": "〜を拒んだ"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "no quise",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "pude / podía",
@@ -287,7 +371,10 @@
       "ja": "〜できた（成功）／〜できた（能力）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "pude / podía",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "no pude",
@@ -297,7 +384,10 @@
       "ja": "〜できなかった（失敗）"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "no pude",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "tuve que / tenía que",
@@ -307,7 +397,10 @@
       "ja": "〜しなければならなかった（実行）／〜するはずだった"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "tuve que / tenía que",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "enterarse de",
@@ -317,7 +410,10 @@
       "ja": "〜を知る、耳にする"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "enterarse de",
+    "p": "",
+    "u": "c1-4"
   },
   {
     "word": "según fuentes",
@@ -327,7 +423,10 @@
       "ja": "関係筋によると"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "según fuentes",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "al parecer",
@@ -337,7 +436,10 @@
       "ja": "どうやら"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "al parecer",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "supuestamente",
@@ -347,7 +449,10 @@
       "ja": "〜とされる、〜らしい"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "supuestamente",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "presunto",
@@ -357,7 +462,10 @@
       "ja": "〜の疑いのある"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "presunto",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "la fuente",
@@ -367,7 +475,10 @@
       "ja": "情報源"
     },
     "gender": "f",
-    "unit": 5
+    "unit": 5,
+    "w": "la fuente",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "el portavoz",
@@ -377,7 +488,10 @@
       "ja": "広報担当者"
     },
     "gender": "m",
-    "unit": 5
+    "unit": 5,
+    "w": "el portavoz",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "deber de + infinitivo",
@@ -387,7 +501,10 @@
       "ja": "〜に違いない"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "deber de + infinitivo",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "el sospechoso",
@@ -397,7 +514,10 @@
       "ja": "容疑者"
     },
     "gender": "m",
-    "unit": 5
+    "unit": 5,
+    "w": "el sospechoso",
+    "p": "",
+    "u": "c1-5"
   },
   {
     "word": "es aquí donde",
@@ -407,7 +527,10 @@
       "ja": "ここでこそ〜"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "es aquí donde",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "fue él quien",
@@ -417,7 +540,10 @@
       "ja": "〜したのは彼だ"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "fue él quien",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "fue entonces cuando",
@@ -427,7 +553,10 @@
       "ja": "〜したのはその時だ"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "fue entonces cuando",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "lo que más me molesta",
@@ -437,7 +566,10 @@
       "ja": "一番いやなのは"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "lo que más me molesta",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "lo que pasa es que",
@@ -447,7 +579,10 @@
       "ja": "実は〜なんだ"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "lo que pasa es que",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "es por eso por lo que",
@@ -457,7 +592,10 @@
       "ja": "だからこそ"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "es por eso por lo que",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "precisamente",
@@ -467,7 +605,10 @@
       "ja": "まさに"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "precisamente",
+    "p": "",
+    "u": "c1-6"
   },
   {
     "word": "comerse",
@@ -477,7 +618,10 @@
       "ja": "平らげる"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "comerse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "irse",
@@ -487,7 +631,10 @@
       "ja": "立ち去る"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "irse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "dormirse",
@@ -497,7 +644,10 @@
       "ja": "眠り込む"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "dormirse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "llevarse",
@@ -507,7 +657,10 @@
       "ja": "持っていく／（bien と）仲が良い"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "llevarse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "caérsele (algo a alguien)",
@@ -517,7 +670,10 @@
       "ja": "（うっかり）落とす"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "caérsele (algo a alguien)",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "olvidársele (algo a alguien)",
@@ -527,7 +683,10 @@
       "ja": "（うっかり）忘れる"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "olvidársele (algo a alguien)",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "beberse",
@@ -537,7 +696,10 @@
       "ja": "飲み干す"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "beberse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "morirse",
@@ -547,7 +709,10 @@
       "ja": "死んでしまう／〜したくてたまらない"
     },
     "gender": null,
-    "unit": 7
+    "unit": 7,
+    "w": "morirse",
+    "p": "",
+    "u": "c1-7"
   },
   {
     "word": "terminada la reunión",
@@ -557,7 +722,10 @@
       "ja": "会議が終わると"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "terminada la reunión",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "una vez hecho",
@@ -567,7 +735,10 @@
       "ja": "〜し終えたら"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "una vez hecho",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "dicho esto",
@@ -577,7 +748,10 @@
       "ja": "とはいえ／以上を踏まえて"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "dicho esto",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "aprobada la ley",
@@ -587,7 +761,10 @@
       "ja": "法律が可決されると"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "aprobada la ley",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "siendo así",
@@ -597,7 +774,10 @@
       "ja": "そういうことなら"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "siendo así",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "teniendo en cuenta",
@@ -607,7 +787,10 @@
       "ja": "〜を考慮すると"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "teniendo en cuenta",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "habiendo + participio",
@@ -617,7 +800,10 @@
       "ja": "〜したうえで、〜してしまってから"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "habiendo + participio",
+    "p": "",
+    "u": "c1-8"
   },
   {
     "word": "al + infinitivo",
@@ -627,7 +813,10 @@
       "ja": "〜するとき、〜すると"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "al + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "nada más + infinitivo",
@@ -637,7 +826,10 @@
       "ja": "〜するとすぐに"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "nada más + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "de + infinitivo",
@@ -647,7 +839,10 @@
       "ja": "もし〜なら"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "de + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "de haberlo sabido",
@@ -657,7 +852,10 @@
       "ja": "知っていたら"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "de haberlo sabido",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "con + infinitivo",
@@ -667,7 +865,10 @@
       "ja": "〜なのに／〜するだけで"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "con + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "a + infinitivo",
@@ -677,7 +878,10 @@
       "ja": "（命令）さあ〜しなさい"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "a + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "tras + infinitivo",
@@ -687,7 +891,10 @@
       "ja": "〜した後で"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "tras + infinitivo",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "de seguir así",
@@ -697,7 +904,10 @@
       "ja": "このままだと"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "de seguir así",
+    "p": "",
+    "u": "c1-9"
   },
   {
     "word": "la toma de decisiones",
@@ -707,7 +917,10 @@
       "ja": "意思決定"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "la toma de decisiones",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "llevar a cabo",
@@ -717,7 +930,10 @@
       "ja": "実施する"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "llevar a cabo",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "cabe destacar",
@@ -727,7 +943,10 @@
       "ja": "特筆すべきは"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "cabe destacar",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "en lo que respecta a",
@@ -737,7 +956,10 @@
       "ja": "〜に関しては"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "en lo que respecta a",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "la puesta en marcha",
@@ -747,7 +969,10 @@
       "ja": "始動、実施"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "la puesta en marcha",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "dar lugar a",
@@ -757,7 +982,10 @@
       "ja": "〜を引き起こす"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "dar lugar a",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "a raíz de",
@@ -767,7 +995,10 @@
       "ja": "〜をきっかけに"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "a raíz de",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "el análisis",
@@ -777,7 +1008,10 @@
       "ja": "分析"
     },
     "gender": "m",
-    "unit": 10
+    "unit": 10,
+    "w": "el análisis",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "desempeñar un papel",
@@ -787,7 +1021,10 @@
       "ja": "役割を果たす"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "desempeñar un papel",
+    "p": "",
+    "u": "c1-10"
   },
   {
     "word": "un cafecito",
@@ -797,7 +1034,10 @@
       "ja": "コーヒー一杯（親しみ）"
     },
     "gender": "m",
-    "unit": 11
+    "unit": 11,
+    "w": "un cafecito",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "un momentito",
@@ -807,7 +1047,10 @@
       "ja": "ちょっとだけ"
     },
     "gender": "m",
-    "unit": 11
+    "unit": 11,
+    "w": "un momentito",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "un portazo",
@@ -817,7 +1060,10 @@
       "ja": "ドアをバタンと閉めること"
     },
     "gender": "m",
-    "unit": 11
+    "unit": 11,
+    "w": "un portazo",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "un cochazo",
@@ -827,7 +1073,10 @@
       "ja": "すごい車"
     },
     "gender": "m",
-    "unit": 11
+    "unit": 11,
+    "w": "un cochazo",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "una casucha",
@@ -837,7 +1086,10 @@
       "ja": "ぼろ家"
     },
     "gender": "f",
-    "unit": 11
+    "unit": 11,
+    "w": "una casucha",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "el bolsillo",
@@ -847,7 +1099,10 @@
       "ja": "ポケット"
     },
     "gender": "m",
-    "unit": 11
+    "unit": 11,
+    "w": "el bolsillo",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "la ventanilla",
@@ -857,7 +1112,10 @@
       "ja": "車の窓；窓口"
     },
     "gender": "f",
-    "unit": 11
+    "unit": 11,
+    "w": "la ventanilla",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "llorón",
@@ -867,7 +1125,10 @@
       "ja": "泣き虫（の）"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "llorón",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "cerquita",
@@ -877,7 +1138,10 @@
       "ja": "すぐ近くに"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "cerquita",
+    "p": "",
+    "u": "c1-11"
   },
   {
     "word": "desconectar",
@@ -887,7 +1151,10 @@
       "ja": "接続を切る；気分転換する"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "desconectar",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "irresponsable",
@@ -897,7 +1164,10 @@
       "ja": "無責任な"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "irresponsable",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "reutilizar",
@@ -907,7 +1177,10 @@
       "ja": "再利用する"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "reutilizar",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "sobrevalorar",
@@ -917,7 +1190,10 @@
       "ja": "過大評価する"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "sobrevalorar",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "contraproducente",
@@ -927,7 +1203,10 @@
       "ja": "逆効果の"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "contraproducente",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "el crecimiento",
@@ -937,7 +1216,10 @@
       "ja": "成長"
     },
     "gender": "m",
-    "unit": 12
+    "unit": 12,
+    "w": "el crecimiento",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "la sostenibilidad",
@@ -947,7 +1229,10 @@
       "ja": "持続可能性"
     },
     "gender": "f",
-    "unit": 12
+    "unit": 12,
+    "w": "la sostenibilidad",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "reciclable",
@@ -957,7 +1242,10 @@
       "ja": "リサイクル可能な"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "reciclable",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "modernizar",
@@ -967,7 +1255,10 @@
       "ja": "近代化する"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "modernizar",
+    "p": "",
+    "u": "c1-12"
   },
   {
     "word": "estar en las nubes",
@@ -977,7 +1268,10 @@
       "ja": "上の空だ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "estar en las nubes",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "no tener pelos en la lengua",
@@ -987,7 +1281,10 @@
       "ja": "歯に衣着せぬ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "no tener pelos en la lengua",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "meter la pata",
@@ -997,7 +1294,10 @@
       "ja": "へまをする"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "meter la pata",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "tomar el pelo",
@@ -1007,7 +1307,10 @@
       "ja": "からかう"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "tomar el pelo",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "costar un ojo de la cara",
@@ -1017,7 +1320,10 @@
       "ja": "目玉が飛び出るほど高い"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "costar un ojo de la cara",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "ser pan comido",
@@ -1027,7 +1333,10 @@
       "ja": "朝飯前だ"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "ser pan comido",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "a quien madruga, Dios le ayuda",
@@ -1037,7 +1346,10 @@
       "ja": "早起きは三文の徳"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "a quien madruga, Dios le ayuda",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "más vale tarde que nunca",
@@ -1047,7 +1359,10 @@
       "ja": "遅くてもやらないよりまし"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "más vale tarde que nunca",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "no hay mal que por bien no venga",
@@ -1057,7 +1372,10 @@
       "ja": "災い転じて福となす"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "no hay mal que por bien no venga",
+    "p": "",
+    "u": "c1-13"
   },
   {
     "word": "vosotros",
@@ -1067,7 +1385,10 @@
       "ja": "君たち（スペイン・親しい）"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "vosotros",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "vos",
@@ -1077,7 +1398,10 @@
       "ja": "君（アルゼンチン等）"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "vos",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "el ordenador",
@@ -1087,7 +1411,10 @@
       "ja": "パソコン（スペイン）"
     },
     "gender": "m",
-    "unit": 14
+    "unit": 14,
+    "w": "el ordenador",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "la computadora",
@@ -1097,7 +1424,10 @@
       "ja": "パソコン（中南米）"
     },
     "gender": "f",
-    "unit": 14
+    "unit": 14,
+    "w": "la computadora",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "el coche",
@@ -1107,7 +1437,10 @@
       "ja": "車（スペイン）"
     },
     "gender": "m",
-    "unit": 14
+    "unit": 14,
+    "w": "el coche",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "el carro",
@@ -1117,7 +1450,10 @@
       "ja": "車（メキシコ等）"
     },
     "gender": "m",
-    "unit": 14
+    "unit": 14,
+    "w": "el carro",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "el móvil",
@@ -1127,7 +1463,10 @@
       "ja": "携帯電話（スペイン）"
     },
     "gender": "m",
-    "unit": 14
+    "unit": 14,
+    "w": "el móvil",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "el celular",
@@ -1137,7 +1476,10 @@
       "ja": "携帯電話（中南米）"
     },
     "gender": "m",
-    "unit": 14
+    "unit": 14,
+    "w": "el celular",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "manejar",
@@ -1147,7 +1489,10 @@
       "ja": "運転する（中南米）"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "manejar",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "coger",
@@ -1157,7 +1502,10 @@
       "ja": "取る・乗る（スペイン）；中南米では卑語"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "coger",
+    "p": "",
+    "u": "c1-14"
   },
   {
     "word": "quisiera",
@@ -1167,7 +1515,10 @@
       "ja": "〜したいのですが"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "quisiera",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "¿te importaría…?",
@@ -1177,7 +1528,10 @@
       "ja": "〜してもらえる？"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "¿te importaría…?",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "a lo mejor",
@@ -1187,7 +1541,10 @@
       "ja": "たぶん（＋直説法）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "a lo mejor",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "igual",
@@ -1197,7 +1554,10 @@
       "ja": "もしかしたら（口語）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "igual",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "quizás",
@@ -1207,7 +1567,10 @@
       "ja": "おそらく"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "quizás",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "puede que",
@@ -1217,7 +1580,10 @@
       "ja": "〜かもしれない（＋接続法）"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "puede que",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "un poco",
@@ -1227,7 +1593,10 @@
       "ja": "ちょっと"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "un poco",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "yo diría que",
@@ -1237,7 +1606,10 @@
       "ja": "〜と言えるでしょう"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "yo diría que",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "habría que",
@@ -1247,7 +1619,10 @@
       "ja": "〜すべきだろう"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "habría que",
+    "p": "",
+    "u": "c1-15"
   },
   {
     "word": "embarazada",
@@ -1257,7 +1632,10 @@
       "ja": "妊娠している"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "embarazada",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "actualmente",
@@ -1267,7 +1645,10 @@
       "ja": "現在、今では"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "actualmente",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "realizar",
@@ -1277,7 +1658,10 @@
       "ja": "実施する"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "realizar",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "darse cuenta de",
@@ -1287,7 +1671,10 @@
       "ja": "気づく"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "darse cuenta de",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "el éxito",
@@ -1297,7 +1684,10 @@
       "ja": "成功"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "el éxito",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "la carpeta",
@@ -1307,7 +1697,10 @@
       "ja": "フォルダー"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "la carpeta",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "constipado",
@@ -1317,7 +1710,10 @@
       "ja": "風邪をひいた"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "constipado",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "sensible",
@@ -1327,7 +1723,10 @@
       "ja": "敏感な、繊細な"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "sensible",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "la librería",
@@ -1337,7 +1736,10 @@
       "ja": "本屋"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "la librería",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "me da vergüenza",
@@ -1347,7 +1749,10 @@
       "ja": "恥ずかしい"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "me da vergüenza",
+    "p": "",
+    "u": "c1-16"
   },
   {
     "word": "tomar una decisión",
@@ -1357,7 +1762,10 @@
       "ja": "決定を下す"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "tomar una decisión",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "prestar atención",
@@ -1367,7 +1775,10 @@
       "ja": "注意を払う"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "prestar atención",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "dar un paseo",
@@ -1377,7 +1788,10 @@
       "ja": "散歩する"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "dar un paseo",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "hacer caso",
@@ -1387,7 +1801,10 @@
       "ja": "言うことを聞く"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "hacer caso",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "poner en marcha",
@@ -1397,7 +1814,10 @@
       "ja": "始動させる"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "poner en marcha",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "echar de menos",
@@ -1407,7 +1827,10 @@
       "ja": "恋しく思う"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "echar de menos",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "sacar conclusiones",
@@ -1417,7 +1840,10 @@
       "ja": "結論を引き出す"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "sacar conclusiones",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "llevar a cabo",
@@ -1427,7 +1853,10 @@
       "ja": "実行する"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "llevar a cabo",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "hacer cola",
@@ -1437,7 +1866,10 @@
       "ja": "列に並ぶ"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "hacer cola",
+    "p": "",
+    "u": "c1-17"
   },
   {
     "word": "de repente",
@@ -1447,7 +1879,10 @@
       "ja": "突然"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "de repente",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "apenas",
@@ -1457,7 +1892,10 @@
       "ja": "〜するやいなや；ほとんど〜ない"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "apenas",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "al + infinitivo",
@@ -1467,7 +1905,10 @@
       "ja": "〜したとき"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "al + infinitivo",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "ya había",
@@ -1477,7 +1918,10 @@
       "ja": "すでに〜していた"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "ya había",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "en aquel momento",
@@ -1487,7 +1931,10 @@
       "ja": "その時"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "en aquel momento",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "a la mañana siguiente",
@@ -1497,7 +1944,10 @@
       "ja": "翌朝"
     },
     "gender": null,
-    "unit": 18
+    "unit": 18,
+    "w": "a la mañana siguiente",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "el narrador",
@@ -1507,7 +1957,10 @@
       "ja": "語り手"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "el narrador",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "el desenlace",
@@ -1517,7 +1970,10 @@
       "ja": "結末"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "el desenlace",
+    "p": "",
+    "u": "c1-18"
   },
   {
     "word": "presuntamente",
@@ -1527,7 +1983,10 @@
       "ja": "〜の疑いで"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "presuntamente",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "según fuentes",
@@ -1537,7 +1996,10 @@
       "ja": "関係者によると"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "según fuentes",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "la subida",
@@ -1547,7 +2009,10 @@
       "ja": "上昇・値上げ"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "la subida",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "a la baja",
@@ -1557,7 +2022,10 @@
       "ja": "低下傾向"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "a la baja",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "el ajuste de plantilla",
@@ -1567,7 +2035,10 @@
       "ja": "人員調整（リストラの婉曲表現）"
     },
     "gender": "m",
-    "unit": 19
+    "unit": 19,
+    "w": "el ajuste de plantilla",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "crecimiento negativo",
@@ -1577,7 +2048,10 @@
       "ja": "マイナス成長"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "crecimiento negativo",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "no solo… sino también",
@@ -1587,7 +2061,10 @@
       "ja": "〜だけでなく〜も"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "no solo… sino también",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "aprobar",
@@ -1597,7 +2074,10 @@
       "ja": "承認する、可決する"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "aprobar",
+    "p": "",
+    "u": "c1-19"
   },
   {
     "word": "no obstante",
@@ -1607,7 +2087,10 @@
       "ja": "しかしながら"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "no obstante",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "por consiguiente",
@@ -1617,7 +2100,10 @@
       "ja": "したがって"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "por consiguiente",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "dicho de otro modo",
@@ -1627,7 +2113,10 @@
       "ja": "言い換えれば"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "dicho de otro modo",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "en definitiva",
@@ -1637,7 +2126,10 @@
       "ja": "要するに、結局"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "en definitiva",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "a raíz de",
@@ -1647,7 +2139,10 @@
       "ja": "〜をきっかけに"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "a raíz de",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "puesto que",
@@ -1657,7 +2152,10 @@
       "ja": "〜である以上"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "puesto que",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "ya que",
@@ -1667,7 +2165,10 @@
       "ja": "〜なので"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "ya que",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "dado que",
@@ -1677,7 +2178,10 @@
       "ja": "〜であることから"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "dado que",
+    "p": "",
+    "u": "c1-20"
   },
   {
     "word": "de ahí que",
@@ -1687,6 +2191,9 @@
       "ja": "そのため〜（＋接続法）"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "de ahí que",
+    "p": "",
+    "u": "c1-20"
   }
 ]

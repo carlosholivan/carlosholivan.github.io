@@ -17,54 +17,14 @@
       "ja": "<h3>時間帯によるあいさつ</h3><p>スペイン語のあいさつは日本語と同じく時間帯で変わりますが、区切りが違います。スペインでは昼食が14時頃、夕食が21時頃なので、「午後」がとても長いのです。</p><table><tr><th>スペイン語</th><th>使う時間</th><th>日本語</th></tr><tr><td><strong>¡Hola!</strong></td><td>いつでも（くだけた言い方）</td><td>やあ／こんにちは</td></tr><tr><td><strong>Buenos días</strong></td><td>朝〜昼食前（12〜14時頃まで）</td><td>おはようございます</td></tr><tr><td><strong>Buenas tardes</strong></td><td>昼食後〜暗くなるまで（20〜21時頃まで）</td><td>こんにちは</td></tr><tr><td><strong>Buenas noches</strong></td><td>夜。会うときも別れるときも</td><td>こんばんは／おやすみなさい</td></tr><tr><td><strong>¡Adiós!</strong> / <strong>¡Hasta luego!</strong></td><td>別れるとき</td><td>さようなら／またね</td></tr></table><h3>名前を言う：Me llamo…</h3><p><strong>Me llamo María</strong> は「マリアといいます」にあたります。直訳は「私は自分をマリアと呼ぶ」で、<strong>me</strong> は「自分を」、<strong>llamo</strong> は「（私が）呼ぶ」。日本語では名前が動詞の前（マリアと・いいます）ですが、スペイン語では<strong>動詞の後</strong>に名前を置きます。</p><div class=\"example\">— ¡Hola! Me llamo María. ¿Y tú?（こんにちは！マリアです。あなたは？）<br>— ¡Hola! Me llamo Juan.（こんにちは！フアンです。）<br>— ¡Gracias! — ¡Adiós!（ありがとう！— さようなら！）</div><p>丁寧なことば：<strong>gracias</strong>（ありがとう）、<strong>por favor</strong>（お願いします／〜してください）。</p><h3>日本語話者のためのポイント</h3><ul><li><strong>Buenos días</strong> は「おはよう」より長く、昼食前まで使えます。</li><li><strong>Buenas noches</strong> は「こんばんは」と「おやすみなさい」の両方の意味です。</li><li><strong>buenOs días</strong> と <strong>buenAs tardes / noches</strong>：día は男性名詞、tarde と noche は女性名詞なので形容詞の語尾が変わります。日本語にはない「文法上の性」の最初の例です。</li><li>自分の名前に「さん」にあたる敬称はつけません。</li><li>文頭に逆さの記号をつけます：<strong>¡Hola!</strong>、<strong>¿Y tú?</strong></li><li>発音：hola の h は読まず「オラ」。llamo の ll は「ジャ／ヤ」に近く「ヤモ」。gracias は「グラシアス」。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Pedro me llamo（日本語の語順）→ ✓ Me llamo Pedro</li><li>✗ Me llamo es Ana（「〜です」をつけてしまう）→ ✓ Me llamo Ana</li><li>✗ Buenos tardes → ✓ Buenas tardes</li><li>✗ 夜の別れに Buenas tardes → ✓ Buenas noches</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "hola",
-        "en": "hello",
-        "zh": "你好",
-        "ja": "こんにちは"
-      },
-      {
-        "word": "adiós",
-        "en": "goodbye",
-        "zh": "再见",
-        "ja": "さようなら"
-      },
-      {
-        "word": "buenos días",
-        "en": "good morning",
-        "zh": "早上好",
-        "ja": "おはようございます"
-      },
-      {
-        "word": "buenas tardes",
-        "en": "good afternoon",
-        "zh": "下午好",
-        "ja": "こんにちは"
-      },
-      {
-        "word": "buenas noches",
-        "en": "good evening / good night",
-        "zh": "晚上好 / 晚安",
-        "ja": "こんばんは / おやすみなさい"
-      },
-      {
-        "word": "me llamo",
-        "en": "my name is",
-        "zh": "我叫",
-        "ja": "私の名前は"
-      },
-      {
-        "word": "gracias",
-        "en": "thank you",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      },
-      {
-        "word": "por favor",
-        "en": "please",
-        "zh": "请",
-        "ja": "お願いします"
-      }
+      "hola",
+      "adiós",
+      "buenos días",
+      "buenas tardes",
+      "buenas noches",
+      "me llamo",
+      "gracias",
+      "por favor"
     ],
     "grammar": [
       "greetings",
@@ -256,66 +216,16 @@
       "ja": "<h3>主語代名詞</h3><table><tr><th>人称</th><th>単数</th><th>複数</th></tr><tr><td>1人称</td><td><strong>yo</strong>（私）</td><td><strong>nosotros / nosotras</strong>（私たち）</td></tr><tr><td>2人称（親しい）</td><td><strong>tú</strong>（君・あなた）</td><td><strong>vosotros / vosotras</strong>（君たち。スペインのみ）</td></tr><tr><td>2人称（丁寧）</td><td><strong>usted</strong>（あなた様）</td><td><strong>ustedes</strong>（皆さん）</td></tr><tr><td>3人称</td><td><strong>él / ella</strong>（彼／彼女）</td><td><strong>ellos / ellas</strong>（彼ら／彼女たち）</td></tr></table><div class=\"tip\"><strong>Vosotros</strong> はスペインだけで使います。中南米では「あなたたち」はすべて <strong>ustedes</strong> です。</div><h3>日本語話者のためのポイント</h3><ul><li><strong>tú と usted ≈ タメ口と「です・ます」</strong>。友人・家族・子どもには tú、初対面・目上・店員さんには usted。usted の動詞は él/ella と同じ形です：<strong>usted es</strong>（usted eres ではない）。</li><li>日本語には「わたし・ぼく・おれ」など一人称がたくさんありますが、スペイン語は男女・年齢を問わず <strong>yo</strong> だけ。逆に、日本語では「あなた」をあまり使いませんが、スペイン語の tú/usted は失礼ではなく普通に使います。</li><li><strong>主語の省略</strong>は日本語と同じく自然です（よい転移！）。ただしスペイン語では動詞の語尾が人称を示すので省略できるのです：<strong>Somos estudiantes</strong>（-mos で「私たち」とわかる）。</li><li>グループの性：女性だけなら <strong>nosotras / ellas</strong>、男女混合または男性だけなら <strong>nosotros / ellos</strong>。「私たち」に性別の区別がない日本語との大きな違いです。</li></ul><div class=\"example\">Nosotros somos estudiantes. = Somos estudiantes.（私たちは学生です。）<br>¿Usted es el profesor?（あなたが先生ですか？）<br>Ellas son mis amigas.（彼女たちは私の友だちです。）</div><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Usted eres profesor → ✓ Usted es profesor</li><li>✗ 女性だけのグループで nosotros → ✓ nosotras</li><li>✗ 男女混合で ellas → ✓ ellos</li><li>✗ 先生や初対面の人に tú → ✓ usted</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "yo",
-        "en": "I",
-        "zh": "我",
-        "ja": "私"
-      },
-      {
-        "word": "tú",
-        "en": "you (informal)",
-        "zh": "你",
-        "ja": "君"
-      },
-      {
-        "word": "él",
-        "en": "he",
-        "zh": "他",
-        "ja": "彼"
-      },
-      {
-        "word": "ella",
-        "en": "she",
-        "zh": "她",
-        "ja": "彼女"
-      },
-      {
-        "word": "usted",
-        "en": "you (formal)",
-        "zh": "您",
-        "ja": "あなた（丁寧）"
-      },
-      {
-        "word": "nosotros",
-        "en": "we",
-        "zh": "我们",
-        "ja": "私たち"
-      },
-      {
-        "word": "vosotros",
-        "en": "you all (Spain)",
-        "zh": "你们（西班牙）",
-        "ja": "君たち（スペイン）"
-      },
-      {
-        "word": "ellos",
-        "en": "they (masc.)",
-        "zh": "他们",
-        "ja": "彼ら"
-      },
-      {
-        "word": "ellas",
-        "en": "they (fem.)",
-        "zh": "她们",
-        "ja": "彼女ら"
-      },
-      {
-        "word": "ustedes",
-        "en": "you all (formal)",
-        "zh": "您们",
-        "ja": "あなたたち（丁寧）"
-      }
+      "yo",
+      "tú",
+      "él",
+      "ella",
+      "usted",
+      "nosotros",
+      "vosotros",
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "grammar": [
       "subject pronouns",
@@ -523,114 +433,24 @@
       "ja": "<h3>スペイン語の「です」は2つある</h3><p>日本語の「〜です」は「学生です」「疲れています」「東京にいます」など何にでも使えますが、スペイン語では意味によって <strong>ser</strong> と <strong>estar</strong> を使い分けます。</p><div class=\"vs\"><div><p><strong>SER ≈「〜である」：本質・身分</strong></p><ul><li>名前・身元：Yo <strong>soy</strong> María.（私はマリアです。）</li><li>職業：Él <strong>es</strong> médico.（彼は医者です。）冠詞 un は不要</li><li>出身（ser de）：<strong>Somos</strong> de Argentina.（私たちはアルゼンチン出身です。）</li><li>国籍：Ella <strong>es</strong> japonesa.（彼女は日本人です。）</li><li>本来の性質：La nieve <strong>es</strong> blanca.（雪は白い。）</li><li>時刻：<strong>Son</strong> las tres.（3時です。）</li></ul></div><div><p><strong>ESTAR ≈「〜にいる／ある」「〜している」：場所・状態</strong></p><ul><li>場所：María <strong>está</strong> en Madrid.（マリアはマドリードにいます。）<strong>Estoy</strong> aquí.（ここにいます。）</li><li>今の気分：<strong>Estoy</strong> contento.（うれしい。）</li><li>一時的な状態：Yo <strong>estoy</strong> cansado hoy.（今日は疲れている。）</li><li>体調：¿Cómo <strong>estás</strong>? — <strong>Estoy</strong> bien.（元気？— 元気です。）</li></ul></div></div><h3>活用表</h3><p>「です」は誰が主語でも同じ形ですが、ser と estar は主語によって6つの形に変わります。</p><table><tr><th>主語</th><th>SER</th><th>ESTAR</th></tr><tr><td>yo</td><td><strong>soy</strong></td><td><strong>estoy</strong></td></tr><tr><td>tú</td><td><strong>eres</strong></td><td><strong>estás</strong></td></tr><tr><td>él / ella / usted</td><td><strong>es</strong></td><td><strong>está</strong></td></tr><tr><td>nosotros / nosotras</td><td><strong>somos</strong></td><td><strong>estamos</strong></td></tr><tr><td>vosotros / vosotras</td><td><strong>sois</strong></td><td><strong>estáis</strong></td></tr><tr><td>ellos / ellas / ustedes</td><td><strong>son</strong></td><td><strong>están</strong></td></tr></table><h3>日本語話者のためのポイント</h3><ul><li><strong>言い換えテスト</strong>：日本語で「〜にいる／ある」や「〜ている（状態）」に言い換えられれば <strong>estar</strong>。「〜である」「〜出身だ」なら <strong>ser</strong>。「疲れ<strong>ている</strong>」→ Estoy cansado、「マドリードに<strong>いる</strong>」→ Está en Madrid、「医者<strong>である</strong>」→ Es médico。</li><li><strong>「元気です」は estar</strong>：「元気」は今の状態なので <strong>Estoy bien</strong>。「です」につられて Soy bien と言わないこと。</li><li><strong>「ある／いる」の区別はない</strong>：日本語は物に「ある」、人や動物に「いる」を使いますが、スペイン語は場所なら人も物も <strong>estar</strong>。</li><li><strong>hay と está ≈「が」と「は」</strong>：「机の上に本<strong>が</strong>ある」（新情報）= <strong>Hay</strong> un libro en la mesa。「その本<strong>は</strong>机の上にある」（既知）= <strong>El</strong> libro <strong>está</strong> en la mesa。</li><li>ser と estar で意味が変わる形容詞：ser aburrido（つまらない人だ）/ estar aburrido（退屈している）、ser listo（頭がいい）/ estar listo（準備ができている）、ser malo（悪い人だ）/ estar malo（具合が悪い）、ser rico（金持ちだ）/ estar rico（おいしい）。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Yo soy bien（「元気です」）→ ✓ Yo estoy bien</li><li>✗ Soy cansado（「疲れています」）→ ✓ Estoy cansado</li><li>✗ Ella es en Madrid（「マドリードです」）→ ✓ Ella está en Madrid</li><li>✗ Él está médico / Él es un médico → ✓ Él es médico</li><li>✗ Ellos está en la casa（活用忘れ）→ ✓ Ellos están en la casa</li><li>✗ Está un libro en la mesa（「本がある」）→ ✓ Hay un libro en la mesa</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "soy",
-        "en": "I am (ser)",
-        "zh": "我是(ser)",
-        "ja": "私は〜です(ser)"
-      },
-      {
-        "word": "eres",
-        "en": "you are (ser)",
-        "zh": "你是(ser)",
-        "ja": "君は〜です(ser)"
-      },
-      {
-        "word": "es",
-        "en": "he/she is (ser)",
-        "zh": "他/她是(ser)",
-        "ja": "彼/彼女は〜です(ser)"
-      },
-      {
-        "word": "somos",
-        "en": "we are (ser)",
-        "zh": "我们是(ser)",
-        "ja": "私たちは〜です(ser)"
-      },
-      {
-        "word": "sois",
-        "en": "you all are (ser)",
-        "zh": "你们是(ser)",
-        "ja": "君たちは〜です(ser)"
-      },
-      {
-        "word": "son",
-        "en": "they are (ser)",
-        "zh": "他们是(ser)",
-        "ja": "彼らは〜です(ser)"
-      },
-      {
-        "word": "estoy",
-        "en": "I am (estar)",
-        "zh": "我在/我处于(estar)",
-        "ja": "私は〜いる(estar)"
-      },
-      {
-        "word": "estás",
-        "en": "you are (estar)",
-        "zh": "你在/你处于(estar)",
-        "ja": "君は〜いる(estar)"
-      },
-      {
-        "word": "está",
-        "en": "he/she is (estar)",
-        "zh": "他/她在/处于(estar)",
-        "ja": "彼/彼女は〜いる(estar)"
-      },
-      {
-        "word": "estamos",
-        "en": "we are (estar)",
-        "zh": "我们在/处于(estar)",
-        "ja": "私たちは〜いる(estar)"
-      },
-      {
-        "word": "estáis",
-        "en": "you all are (estar)",
-        "zh": "你们在/处于(estar)",
-        "ja": "君たちは〜いる(estar)"
-      },
-      {
-        "word": "están",
-        "en": "they are (estar)",
-        "zh": "他们在/处于(estar)",
-        "ja": "彼らは〜いる(estar)"
-      },
-      {
-        "word": "bien",
-        "en": "well / fine",
-        "zh": "好",
-        "ja": "元気 / 良い"
-      },
-      {
-        "word": "mal",
-        "en": "bad / unwell",
-        "zh": "不好 / 不舒服",
-        "ja": "悪い / 具合が悪い"
-      },
-      {
-        "word": "cansado",
-        "en": "tired",
-        "zh": "累的",
-        "ja": "疲れた"
-      },
-      {
-        "word": "contento",
-        "en": "happy / content",
-        "zh": "高兴的 / 满足的",
-        "ja": "満足した / 嬉しい"
-      },
-      {
-        "word": "aquí",
-        "en": "here",
-        "zh": "这里",
-        "ja": "ここ"
-      },
-      {
-        "word": "allí",
-        "en": "there",
-        "zh": "那里",
-        "ja": "あそこ"
-      }
+      "soy",
+      "eres",
+      "es",
+      "somos",
+      "sois",
+      "son",
+      "estoy",
+      "estás",
+      "está",
+      "estamos",
+      "estáis",
+      "están",
+      "bien",
+      "mal",
+      "cansado",
+      "contento",
+      "aquí",
+      "allí"
     ],
     "grammar": [
       "ser",
@@ -817,78 +637,18 @@
       "ja": "<h3>定冠詞：el, la, los, las</h3><p>日本語には冠詞がありませんが、スペイン語の名詞にはふつう冠詞がつきます。<strong>el / la / los / las</strong> は「その〜」のように、<strong>話し手と聞き手がすでに知っているもの</strong>を指します（日本語の「は」で話題にするものに近い）。冠詞は名詞の<strong>性</strong>と<strong>数</strong>で形が変わります：</p><table><tr><th></th><th>単数</th><th>複数</th></tr><tr><td>男性</td><td><strong>el</strong> libro</td><td><strong>los</strong> libros</td></tr><tr><td>女性</td><td><strong>la</strong> mesa</td><td><strong>las</strong> mesas</td></tr></table><h3>性の見分け方</h3><ul><li><strong>-o</strong> で終わる名詞はたいてい男性：el libro（本）、el gato（猫）、el perro（犬）</li><li><strong>-a</strong> で終わる名詞はたいてい女性：la mesa（机）、la silla（いす）、la puerta（ドア）、la ventana（窓）、la casa（家）</li></ul><div class=\"tip\"><strong>例外：</strong><strong>el día</strong>（日。-a なのに男性）、<strong>el problema</strong>（問題。男性）、<strong>la mano</strong>（手。-o なのに女性）。</div><h3>複数形</h3><ul><li>母音で終わる → <strong>-s</strong>：libro → libros、mesa → mesas</li><li>子音で終わる → <strong>-es</strong>：ciudad → ciudades</li></ul><h3>日本語話者のためのポイント</h3><ul><li><strong>性は助数詞のようなもの</strong>：日本語で「本は1<strong>冊</strong>、紙は1<strong>枚</strong>、猫は1<strong>匹</strong>」と名詞ごとに決まっているように、スペイン語の性も名詞ごとに決まっています。意味（オス・メス）とは無関係なので、<strong>冠詞とセットで覚えましょう</strong>：la mesa、el libro。</li><li><strong>複数は必ず表す</strong>：日本語の「猫」は1匹でも何匹でもOKですが、スペイン語では冠詞・名詞・形容詞のすべてが複数形になります：<strong>Las</strong> ventana<strong>s</strong> están abierta<strong>s</strong>。</li><li><strong>冠詞を落とさない</strong>：「いすは大きい」→ <strong>La</strong> silla es grande。「犬は賢い（一般論）」も <strong>Los</strong> perros son inteligentes と冠詞をつけます。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Silla es grande（冠詞なし）→ ✓ La silla es grande</li><li>✗ los gato / el gatos → ✓ los gatos</li><li>✗ la problema → ✓ el problema</li><li>✗ los ventanas → ✓ las ventanas</li></ul></div><div class=\"example\">La casa es grande.（家は大きい。）<br>el gato → los gatos（猫）· la puerta → las puertas（ドア）· el perro → los perros（犬）</div>"
     },
     "newVocab": [
-      {
-        "word": "el",
-        "en": "the (masc. sing.)",
-        "zh": "（阳性单数定冠词）",
-        "ja": "（男性単数定冠詞）"
-      },
-      {
-        "word": "la",
-        "en": "the (fem. sing.)",
-        "zh": "（阴性单数定冠词）",
-        "ja": "（女性単数定冠詞）"
-      },
-      {
-        "word": "los",
-        "en": "the (masc. plural)",
-        "zh": "（阳性复数定冠词）",
-        "ja": "（男性複数定冠詞）"
-      },
-      {
-        "word": "las",
-        "en": "the (fem. plural)",
-        "zh": "（阴性复数定冠词）",
-        "ja": "（女性複数定冠詞）"
-      },
-      {
-        "word": "libro",
-        "en": "book",
-        "zh": "书",
-        "ja": "本"
-      },
-      {
-        "word": "mesa",
-        "en": "table",
-        "zh": "桌子",
-        "ja": "テーブル"
-      },
-      {
-        "word": "silla",
-        "en": "chair",
-        "zh": "椅子",
-        "ja": "椅子"
-      },
-      {
-        "word": "puerta",
-        "en": "door",
-        "zh": "门",
-        "ja": "ドア"
-      },
-      {
-        "word": "ventana",
-        "en": "window",
-        "zh": "窗户",
-        "ja": "窓"
-      },
-      {
-        "word": "gato",
-        "en": "cat",
-        "zh": "猫",
-        "ja": "猫"
-      },
-      {
-        "word": "perro",
-        "en": "dog",
-        "zh": "狗",
-        "ja": "犬"
-      },
-      {
-        "word": "casa",
-        "en": "house",
-        "zh": "房子",
-        "ja": "家"
-      }
+      "el",
+      "la",
+      "los",
+      "las",
+      "libro",
+      "mesa",
+      "silla",
+      "puerta",
+      "ventana",
+      "gato",
+      "perro",
+      "casa"
     ],
     "grammar": [
       "definite articles",
@@ -1095,66 +855,16 @@
       "ja": "<h3>こ・そ・あ がそのまま使える！</h3><p>スペイン語の指示詞は日本語の「こそあ」と同じ3段階です。<strong>この・その・あの</strong> = <strong>este・ese・aquel</strong>、<strong>これ・それ・あれ</strong> = <strong>esto・eso・aquello</strong>、<strong>ここ・そこ・あそこ</strong> = <strong>aquí・ahí・allí</strong>。ただし名詞の性と数によって形が変わります：</p><table><tr><th>距離</th><th>男性単数</th><th>女性単数</th><th>男性複数</th><th>女性複数</th><th>中性（これ・それ・あれ）</th></tr><tr><td>この（話し手の近く）</td><td><strong>este</strong></td><td><strong>esta</strong></td><td><strong>estos</strong></td><td><strong>estas</strong></td><td><strong>esto</strong></td></tr><tr><td>その（聞き手の近く）</td><td><strong>ese</strong></td><td><strong>esa</strong></td><td><strong>esos</strong></td><td><strong>esas</strong></td><td><strong>eso</strong></td></tr><tr><td>あの（両方から遠い）</td><td><strong>aquel</strong></td><td><strong>aquella</strong></td><td><strong>aquellos</strong></td><td><strong>aquellas</strong></td><td><strong>aquello</strong></td></tr></table><div class=\"example\"><strong>Este</strong> libro es mío.（この本は私のです。）<br><strong>Esta</strong> mesa es grande.（この机は大きい。）<br><strong>Aquellas</strong> sillas son nuevas.（あのいすは新しい。）<br><strong>Estos</strong> gatos son pequeños.（この猫たちは小さい。）</div><h3>中性形：esto, eso, aquello</h3><p>「これ・それ・あれ」のように名詞なしで使います。正体のわからない物や、話の内容・考えを指します。</p><div class=\"example\">¿Qué es <strong>esto</strong>?（これは何？）<br>¿Qué es <strong>aquello</strong>?（あれは何？）<br><strong>Eso</strong> es interesante.（それは面白いね。— 相手の話について）</div><h3>日本語話者のためのポイント</h3><ul><li>「この」は1つの形ですが、スペイン語では <strong>este libro / esta mesa / estos gatos / estas sillas</strong> と名詞に合わせて変化します。</li><li>「この」= este（-e で終わる）。中性の esto（これ）と混同しないように。</li><li>「これは何？」は正体がわからない＝性もわからないので中性 <strong>esto</strong> を使います。</li><li>「それは面白い」のように相手の話を受ける「それ」は <strong>eso</strong>。日本語の感覚がそのまま使えます。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ esto libro（「この」= esto と覚えてしまう）→ ✓ este libro</li><li>✗ este mesa → ✓ esta mesa</li><li>✗ aquellos sillas → ✓ aquellas sillas</li><li>✗ ¿Qué es este? → ✓ ¿Qué es esto?</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "este",
-        "en": "this (masc.)",
-        "zh": "这个（阳性）",
-        "ja": "この（男性）"
-      },
-      {
-        "word": "esta",
-        "en": "this (fem.)",
-        "zh": "这个（阴性）",
-        "ja": "この（女性）"
-      },
-      {
-        "word": "estos",
-        "en": "these (masc.)",
-        "zh": "这些（阳性）",
-        "ja": "これらの（男性）"
-      },
-      {
-        "word": "estas",
-        "en": "these (fem.)",
-        "zh": "这些（阴性）",
-        "ja": "これらの（女性）"
-      },
-      {
-        "word": "ese",
-        "en": "that (masc.)",
-        "zh": "那个（阳性）",
-        "ja": "その（男性）"
-      },
-      {
-        "word": "esa",
-        "en": "that (fem.)",
-        "zh": "那个（阴性）",
-        "ja": "その（女性）"
-      },
-      {
-        "word": "aquel",
-        "en": "that over there (masc.)",
-        "zh": "那边那个（阳性）",
-        "ja": "あの（男性）"
-      },
-      {
-        "word": "aquella",
-        "en": "that over there (fem.)",
-        "zh": "那边那个（阴性）",
-        "ja": "あの（女性）"
-      },
-      {
-        "word": "esto",
-        "en": "this (neutral)",
-        "zh": "这个（中性）",
-        "ja": "これ（中性）"
-      },
-      {
-        "word": "eso",
-        "en": "that (neutral)",
-        "zh": "那个（中性）",
-        "ja": "それ（中性）"
-      }
+      "este",
+      "esta",
+      "estos",
+      "estas",
+      "ese",
+      "esa",
+      "aquel",
+      "aquella",
+      "esto",
+      "eso"
     ],
     "grammar": [
       "demonstratives",
@@ -1353,66 +1063,16 @@
       "ja": "<h3>Tener =「持っている」</h3><p>tener は「持っている・ある・いる」。不規則動詞で、<strong>yo tengo</strong>（-go）、tienes・tiene・tienen では <strong>e → ie</strong> になります。</p><table><tr><th>主語</th><th>TENER</th></tr><tr><td>yo</td><td><strong>tengo</strong></td></tr><tr><td>tú</td><td><strong>tienes</strong></td></tr><tr><td>él / ella / usted</td><td><strong>tiene</strong></td></tr><tr><td>nosotros / nosotras</td><td><strong>tenemos</strong></td></tr><tr><td>vosotros / vosotras</td><td><strong>tenéis</strong></td></tr><tr><td>ellos / ellas / ustedes</td><td><strong>tienen</strong></td></tr></table><div class=\"example\">Nosotros tenemos dos gatos.（うちには猫が2匹いる。）<br>Tengo dos hermanos.（兄弟が2人いる。）</div><p>日本語では人や動物に「いる」を使いますが、「〜を飼っている・家族がいる」はスペイン語ではすべて <strong>tener</strong> です。</p><h3>年齢・空腹・寒さは「持つ」</h3><table><tr><th>スペイン語</th><th>直訳</th><th>日本語</th></tr><tr><td><strong>tener 20 años</strong></td><td>20年を持つ</td><td>20歳だ</td></tr><tr><td><strong>tener hambre</strong></td><td>空腹を持つ</td><td>お腹がすいた</td></tr><tr><td><strong>tener sed</strong></td><td>のどの渇きを持つ</td><td>のどが渇いた</td></tr><tr><td><strong>tener frío</strong></td><td>寒さを持つ</td><td>寒い</td></tr><tr><td><strong>tener calor</strong></td><td>暑さを持つ</td><td>暑い</td></tr><tr><td><strong>tener sueño</strong></td><td>眠気を持つ</td><td>眠い</td></tr></table><div class=\"example\">Yo tengo 20 años.（私は20歳です。）<br>Ella tiene 30 años.（彼女は30歳です。）<br>Tengo hambre.（お腹すいた。）<br>¿Tienes frío?（寒い？）<br>Tengo sueño.（眠い。）</div><h3>日本語話者のためのポイント</h3><ul><li>「20歳<strong>です</strong>」の「です」につられて ser を使わないこと。年齢は必ず <strong>tener ... años</strong>。</li><li>「寒い」「眠い」は日本語では形容詞ですが、スペイン語の frío・sueño は<strong>名詞</strong>。だから「とても」は muy ではなく <strong>mucho / mucha</strong>：Tengo <strong>mucha</strong> hambre、Tengo <strong>mucho</strong> sueño。</li><li>「（今日は）寒い」は天気なので <strong>Hace frío</strong>、「（私は）寒い」は <strong>Tengo frío</strong>。日本語ではどちらも「寒い」なので注意。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Yo soy 20 años → ✓ Yo tengo 20 años</li><li>✗ Estoy sueño（「眠い状態」だから estar？）→ ✓ Tengo sueño</li><li>✗ Tengo muy frío → ✓ Tengo mucho frío</li><li>✗ Nosotros estamos dos gatos（「猫がいる」）→ ✓ Nosotros tenemos dos gatos</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "tengo",
-        "en": "I have",
-        "zh": "我有",
-        "ja": "私は持っている"
-      },
-      {
-        "word": "tienes",
-        "en": "you have",
-        "zh": "你有",
-        "ja": "君は持っている"
-      },
-      {
-        "word": "tiene",
-        "en": "he/she has",
-        "zh": "他/她有",
-        "ja": "彼/彼女は持っている"
-      },
-      {
-        "word": "tenemos",
-        "en": "we have",
-        "zh": "我们有",
-        "ja": "私たちは持っている"
-      },
-      {
-        "word": "años",
-        "en": "years (age)",
-        "zh": "岁 / 年",
-        "ja": "歳 / 年"
-      },
-      {
-        "word": "hambre",
-        "en": "hunger (tener hambre = to be hungry)",
-        "zh": "饥饿（tener hambre = 饿）",
-        "ja": "空腹（tener hambre = お腹が空いている）"
-      },
-      {
-        "word": "sed",
-        "en": "thirst (tener sed = to be thirsty)",
-        "zh": "渴（tener sed = 渴）",
-        "ja": "渇き（tener sed = のどが渇いている）"
-      },
-      {
-        "word": "frío",
-        "en": "cold (tener frío = to be cold)",
-        "zh": "冷（tener frío = 冷）",
-        "ja": "寒さ（tener frío = 寒い）"
-      },
-      {
-        "word": "calor",
-        "en": "heat (tener calor = to be hot)",
-        "zh": "热（tener calor = 热）",
-        "ja": "暑さ（tener calor = 暑い）"
-      },
-      {
-        "word": "sueño",
-        "en": "sleep (tener sueño = to be sleepy)",
-        "zh": "睡意（tener sueño = 困）",
-        "ja": "眠気（tener sueño = 眠い）"
-      }
+      "tengo",
+      "tienes",
+      "tiene",
+      "tenemos",
+      "años",
+      "hambre",
+      "sed",
+      "frío",
+      "calor",
+      "sueño"
     ],
     "grammar": [
       "tener conjugation",
@@ -1621,102 +1281,22 @@
       "ja": "<h3>所有形容詞：mi, tu, su…</h3><p>日本語の「私の・あなたの・彼の」の「の」は変化しませんが、スペイン語の所有形容詞は<strong>所有される物（名詞）</strong>に合わせて変化します。名詞の前に置く点は日本語と同じです。</p><table><tr><th>持ち主</th><th>単数名詞の前</th><th>複数名詞の前</th></tr><tr><td>yo</td><td><strong>mi</strong></td><td><strong>mis</strong></td></tr><tr><td>tú</td><td><strong>tu</strong></td><td><strong>tus</strong></td></tr><tr><td>él / ella / usted</td><td><strong>su</strong></td><td><strong>sus</strong></td></tr><tr><td>nosotros / nosotras</td><td><strong>nuestro / nuestra</strong></td><td><strong>nuestros / nuestras</strong></td></tr><tr><td>vosotros / vosotras</td><td><strong>vuestro / vuestra</strong></td><td><strong>vuestros / vuestras</strong></td></tr><tr><td>ellos / ellas / ustedes</td><td><strong>su</strong></td><td><strong>sus</strong></td></tr></table><ul><li><strong>mi, tu, su</strong> は数だけ変化：mi padre / mi madre / <strong>mis</strong> hermanos。</li><li><strong>nuestro, vuestro</strong> は性も変化：<strong>nuestro</strong> padre / <strong>nuestra</strong> madre / <strong>nuestros</strong> primos。</li></ul><div class=\"tip\"><strong>tu</strong>（あなたの）はアクセント記号なし、<strong>tú</strong>（あなた）はあり：<strong>Tu</strong> familia es grande.（君の家族は大家族だね。）</div><h3>日本語話者のためのポイント</h3><ul><li><strong>家族のことばに謙譲・尊敬の区別がない</strong>：日本語では自分の家族は「母・父」、相手の家族は「お母さん・お父さん」と言い分けますが、スペイン語は <strong>mi madre / tu madre / su madre</strong> と同じ単語です。</li><li><strong>兄と弟、姉と妹を区別しない</strong>：hermano（兄・弟）、hermana（姉・妹）。必要なら mayor（年上）/ menor（年下）をつけます。ほかに hijo / hija（息子／娘）、abuelo / abuela（祖父／祖母）、tío / tía（おじ／おば）、primo / prima（いとこ）。</li><li><strong>su はいろいろな「の」</strong>：su hija = 彼の娘／彼女の娘／あなた（usted）の娘／彼らの娘。</li><li><strong>「アナの本」は語順が逆</strong>：el libro de Ana（本・の・アナ）。de は「の」に近いけれど名詞の前に来ます。</li><li>日本語では「母は元気です」と「私の」を省きますが、スペイン語では <strong>Mi madre</strong>… と所有形容詞を入れます。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Madre es alta（「母は背が高い」）→ ✓ Mi madre es alta</li><li>✗ mi hermanos → ✓ mis hermanos</li><li>✗ nuestro madre → ✓ nuestra madre</li><li>✗ Ana de libro → ✓ el libro de Ana</li></ul></div><div class=\"example\">Mi abuelo es viejo.（祖父は年をとっている。）<br>Nuestros primos tienen un gato.（私たちのいとこは猫を飼っている。）</div>"
     },
     "newVocab": [
-      {
-        "word": "mi",
-        "en": "my",
-        "zh": "我的",
-        "ja": "私の"
-      },
-      {
-        "word": "tu",
-        "en": "your (informal)",
-        "zh": "你的",
-        "ja": "君の"
-      },
-      {
-        "word": "su",
-        "en": "his/her/your (formal)",
-        "zh": "他的/她的/您的",
-        "ja": "彼の/彼女の/あなたの"
-      },
-      {
-        "word": "nuestro",
-        "en": "our (masc.)",
-        "zh": "我们的（阳性）",
-        "ja": "私たちの（男性）"
-      },
-      {
-        "word": "padre",
-        "en": "father",
-        "zh": "父亲",
-        "ja": "父"
-      },
-      {
-        "word": "madre",
-        "en": "mother",
-        "zh": "母亲",
-        "ja": "母"
-      },
-      {
-        "word": "hermano",
-        "en": "brother",
-        "zh": "兄弟",
-        "ja": "兄弟"
-      },
-      {
-        "word": "hermana",
-        "en": "sister",
-        "zh": "姐妹",
-        "ja": "姉妹"
-      },
-      {
-        "word": "hijo",
-        "en": "son",
-        "zh": "儿子",
-        "ja": "息子"
-      },
-      {
-        "word": "hija",
-        "en": "daughter",
-        "zh": "女儿",
-        "ja": "娘"
-      },
-      {
-        "word": "abuelo",
-        "en": "grandfather",
-        "zh": "祖父 / 外祖父",
-        "ja": "祖父"
-      },
-      {
-        "word": "abuela",
-        "en": "grandmother",
-        "zh": "祖母 / 外祖母",
-        "ja": "祖母"
-      },
-      {
-        "word": "tío",
-        "en": "uncle",
-        "zh": "叔叔 / 伯伯",
-        "ja": "おじ"
-      },
-      {
-        "word": "tía",
-        "en": "aunt",
-        "zh": "阿姨 / 姑姑",
-        "ja": "おば"
-      },
-      {
-        "word": "primo",
-        "en": "cousin (masc.)",
-        "zh": "堂/表兄弟",
-        "ja": "いとこ（男）"
-      },
-      {
-        "word": "familia",
-        "en": "family",
-        "zh": "家庭",
-        "ja": "家族"
-      }
+      "mi",
+      "tu",
+      "su",
+      "nuestro",
+      "padre",
+      "madre",
+      "hermano",
+      "hermana",
+      "hijo",
+      "hija",
+      "abuelo",
+      "abuela",
+      "tío",
+      "tía",
+      "primo",
+      "familia"
     ],
     "grammar": [
       "possessive adjectives",
@@ -1920,126 +1500,26 @@
       "ja": "<h3>数字 1〜20</h3><table><tr><th>#</th><th>Español</th><th>#</th><th>Español</th></tr><tr><td>1</td><td><strong>uno</strong></td><td>11</td><td><strong>once</strong></td></tr><tr><td>2</td><td><strong>dos</strong></td><td>12</td><td><strong>doce</strong></td></tr><tr><td>3</td><td><strong>tres</strong></td><td>13</td><td><strong>trece</strong></td></tr><tr><td>4</td><td><strong>cuatro</strong></td><td>14</td><td><strong>catorce</strong></td></tr><tr><td>5</td><td><strong>cinco</strong></td><td>15</td><td><strong>quince</strong></td></tr><tr><td>6</td><td><strong>seis</strong></td><td>16</td><td><strong>dieciséis</strong></td></tr><tr><td>7</td><td><strong>siete</strong></td><td>17</td><td><strong>diecisiete</strong></td></tr><tr><td>8</td><td><strong>ocho</strong></td><td>18</td><td><strong>dieciocho</strong></td></tr><tr><td>9</td><td><strong>nueve</strong></td><td>19</td><td><strong>diecinueve</strong></td></tr><tr><td>10</td><td><strong>diez</strong></td><td>20</td><td><strong>veinte</strong></td></tr></table><h3>日本語話者のためのポイント</h3><ul><li><strong>16〜19 は日本語と同じ発想</strong>：「十六 = 十＋六」のように、<strong>dieci</strong>（diez = 10 から）＋ <strong>seis</strong> = <strong>dieciséis</strong>。diecisiete（17）、dieciocho（18）、diecinueve（19）。1語で書きます。</li><li><strong>11〜15 は不規則</strong>：「十一、十二…」のような組み立てではなく、once、doce、trece、catorce、quince を個別に覚えます。</li><li><strong>助数詞はいらないが、複数形は必要</strong>：「猫を15匹飼っている」→ Tengo quince gato<strong>s</strong>。「匹」にあたる語はありませんが、名詞に -s がつきます。</li><li><strong>「1」は性で変わる</strong>：男性名詞の前は <strong>un</strong>（un gato）、女性名詞の前は <strong>una</strong>（una casa）。</li><li>dos（2）と doce（12）、seis（6）と siete（7）は聞き間違えやすいので注意。dieciséis にはアクセント記号があります。</li></ul><div class=\"example\">Tres + cuatro = siete.（3＋4＝7）<br>Diez + ocho = dieciocho.（10＋8＝18）<br>Tengo quince gatos.（猫を15匹飼っています。）</div><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ diezseis / diez y seis → ✓ dieciséis</li><li>✗ dieciseis（アクセント記号なし）→ ✓ dieciséis</li><li>✗ Tengo quince gato → ✓ Tengo quince gatos</li><li>✗ Quince gatos tengo（日本語の語順）→ ✓ Tengo quince gatos</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "uno",
-        "en": "one",
-        "zh": "一",
-        "ja": "1"
-      },
-      {
-        "word": "dos",
-        "en": "two",
-        "zh": "二",
-        "ja": "2"
-      },
-      {
-        "word": "tres",
-        "en": "three",
-        "zh": "三",
-        "ja": "3"
-      },
-      {
-        "word": "cuatro",
-        "en": "four",
-        "zh": "四",
-        "ja": "4"
-      },
-      {
-        "word": "cinco",
-        "en": "five",
-        "zh": "五",
-        "ja": "5"
-      },
-      {
-        "word": "seis",
-        "en": "six",
-        "zh": "六",
-        "ja": "6"
-      },
-      {
-        "word": "siete",
-        "en": "seven",
-        "zh": "七",
-        "ja": "7"
-      },
-      {
-        "word": "ocho",
-        "en": "eight",
-        "zh": "八",
-        "ja": "8"
-      },
-      {
-        "word": "nueve",
-        "en": "nine",
-        "zh": "九",
-        "ja": "9"
-      },
-      {
-        "word": "diez",
-        "en": "ten",
-        "zh": "十",
-        "ja": "10"
-      },
-      {
-        "word": "once",
-        "en": "eleven",
-        "zh": "十一",
-        "ja": "11"
-      },
-      {
-        "word": "doce",
-        "en": "twelve",
-        "zh": "十二",
-        "ja": "12"
-      },
-      {
-        "word": "trece",
-        "en": "thirteen",
-        "zh": "十三",
-        "ja": "13"
-      },
-      {
-        "word": "catorce",
-        "en": "fourteen",
-        "zh": "十四",
-        "ja": "14"
-      },
-      {
-        "word": "quince",
-        "en": "fifteen",
-        "zh": "十五",
-        "ja": "15"
-      },
-      {
-        "word": "dieciséis",
-        "en": "sixteen",
-        "zh": "十六",
-        "ja": "16"
-      },
-      {
-        "word": "diecisiete",
-        "en": "seventeen",
-        "zh": "十七",
-        "ja": "17"
-      },
-      {
-        "word": "dieciocho",
-        "en": "eighteen",
-        "zh": "十八",
-        "ja": "18"
-      },
-      {
-        "word": "diecinueve",
-        "en": "nineteen",
-        "zh": "十九",
-        "ja": "19"
-      },
-      {
-        "word": "veinte",
-        "en": "twenty",
-        "zh": "二十",
-        "ja": "20"
-      }
+      "uno",
+      "dos",
+      "tres",
+      "cuatro",
+      "cinco",
+      "seis",
+      "siete",
+      "ocho",
+      "nueve",
+      "diez",
+      "once",
+      "doce",
+      "trece",
+      "catorce",
+      "quince",
+      "dieciséis",
+      "diecisiete",
+      "dieciocho",
+      "diecinueve",
+      "veinte"
     ],
     "grammar": [
       "numbers 1-20",
@@ -2277,150 +1757,30 @@
       "ja": "<h3>曜日</h3><table><tr><th>Español</th><th>日本語</th></tr><tr><td><strong>lunes</strong></td><td>月曜日</td></tr><tr><td><strong>martes</strong></td><td>火曜日</td></tr><tr><td><strong>miércoles</strong></td><td>水曜日</td></tr><tr><td><strong>jueves</strong></td><td>木曜日</td></tr><tr><td><strong>viernes</strong></td><td>金曜日</td></tr><tr><td><strong>sábado</strong></td><td>土曜日</td></tr><tr><td><strong>domingo</strong></td><td>日曜日</td></tr></table><p>曜日はすべて<strong>男性名詞</strong>。lunes〜viernes は複数でも形が同じ（los lunes）、sábado と domingo は -s をつけます（los sábados, los domingos）。</p><h3>月</h3><table><tr><th>Español</th><th>日本語</th></tr><tr><td><strong>enero</strong></td><td>1月</td></tr><tr><td><strong>febrero</strong></td><td>2月</td></tr><tr><td><strong>marzo</strong></td><td>3月</td></tr><tr><td><strong>abril</strong></td><td>4月</td></tr><tr><td><strong>mayo</strong></td><td>5月</td></tr><tr><td><strong>junio</strong></td><td>6月</td></tr><tr><td><strong>julio</strong></td><td>7月</td></tr><tr><td><strong>agosto</strong></td><td>8月</td></tr><tr><td><strong>septiembre</strong></td><td>9月</td></tr><tr><td><strong>octubre</strong></td><td>10月</td></tr><tr><td><strong>noviembre</strong></td><td>11月</td></tr><tr><td><strong>diciembre</strong></td><td>12月</td></tr></table><p>日本語は「1月・2月」と数字ですが、スペイン語は名前を覚えます。関連語：<strong>hoy</strong>（今日）、<strong>mañana</strong>（明日／朝）、<strong>ayer</strong>（昨日）、<strong>la semana</strong>（週）、<strong>el mes</strong>（月）。</p><h3>日本語話者のためのポイント</h3><ul><li><strong>小文字で書く</strong>：英語と違い、曜日も月も大文字にしません（lunes, julio）。</li><li><strong>曜日の「に」は en にしない</strong>：「月曜日<strong>に</strong>授業がある」→ <strong>El lunes</strong> tengo clase（冠詞 el を使う）。</li><li><strong>「毎週〜曜日に」は los</strong>：「毎週月曜に授業がある」→ Tengo clase <strong>los</strong> lunes、「金曜日は（いつも）働く」→ Trabajo <strong>los</strong> viernes。</li><li><strong>月の「に」は en</strong>（冠詞なし）：「誕生日は7月です」→ Mi cumpleaños <strong>es en julio</strong>。</li><li>「今日は月曜日です」→ <strong>Hoy es lunes</strong>（ser を使い、冠詞はつけない）。</li></ul><div class=\"example\">Hoy es lunes.（今日は月曜日です。）<br>Mañana es sábado.（明日は土曜日です。）<br>Trabajo los viernes.（金曜日はいつも仕事です。）<br>Mi cumpleaños es en julio.（誕生日は7月です。）</div><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Tengo clase en lunes（「月曜日に」）→ ✓ Tengo clase los lunes / El lunes tengo clase</li><li>✗ Hoy es Lunes → ✓ Hoy es lunes</li><li>✗ en el marzo / en Marzo → ✓ en marzo</li><li>✗ Hoy está lunes → ✓ Hoy es lunes</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "lunes",
-        "en": "Monday",
-        "zh": "星期一",
-        "ja": "月曜日"
-      },
-      {
-        "word": "martes",
-        "en": "Tuesday",
-        "zh": "星期二",
-        "ja": "火曜日"
-      },
-      {
-        "word": "miércoles",
-        "en": "Wednesday",
-        "zh": "星期三",
-        "ja": "水曜日"
-      },
-      {
-        "word": "jueves",
-        "en": "Thursday",
-        "zh": "星期四",
-        "ja": "木曜日"
-      },
-      {
-        "word": "viernes",
-        "en": "Friday",
-        "zh": "星期五",
-        "ja": "金曜日"
-      },
-      {
-        "word": "sábado",
-        "en": "Saturday",
-        "zh": "星期六",
-        "ja": "土曜日"
-      },
-      {
-        "word": "domingo",
-        "en": "Sunday",
-        "zh": "星期日",
-        "ja": "日曜日"
-      },
-      {
-        "word": "enero",
-        "en": "January",
-        "zh": "一月",
-        "ja": "1月"
-      },
-      {
-        "word": "febrero",
-        "en": "February",
-        "zh": "二月",
-        "ja": "2月"
-      },
-      {
-        "word": "marzo",
-        "en": "March",
-        "zh": "三月",
-        "ja": "3月"
-      },
-      {
-        "word": "abril",
-        "en": "April",
-        "zh": "四月",
-        "ja": "4月"
-      },
-      {
-        "word": "mayo",
-        "en": "May",
-        "zh": "五月",
-        "ja": "5月"
-      },
-      {
-        "word": "junio",
-        "en": "June",
-        "zh": "六月",
-        "ja": "6月"
-      },
-      {
-        "word": "julio",
-        "en": "July",
-        "zh": "七月",
-        "ja": "7月"
-      },
-      {
-        "word": "agosto",
-        "en": "August",
-        "zh": "八月",
-        "ja": "8月"
-      },
-      {
-        "word": "septiembre",
-        "en": "September",
-        "zh": "九月",
-        "ja": "9月"
-      },
-      {
-        "word": "octubre",
-        "en": "October",
-        "zh": "十月",
-        "ja": "10月"
-      },
-      {
-        "word": "noviembre",
-        "en": "November",
-        "zh": "十一月",
-        "ja": "11月"
-      },
-      {
-        "word": "diciembre",
-        "en": "December",
-        "zh": "十二月",
-        "ja": "12月"
-      },
-      {
-        "word": "hoy",
-        "en": "today",
-        "zh": "今天",
-        "ja": "今日"
-      },
-      {
-        "word": "mañana",
-        "en": "tomorrow",
-        "zh": "明天",
-        "ja": "明日"
-      },
-      {
-        "word": "ayer",
-        "en": "yesterday",
-        "zh": "昨天",
-        "ja": "昨日"
-      },
-      {
-        "word": "semana",
-        "en": "week",
-        "zh": "周",
-        "ja": "週"
-      },
-      {
-        "word": "mes",
-        "en": "month",
-        "zh": "月",
-        "ja": "月"
-      }
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo",
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre",
+      "hoy",
+      "mañana",
+      "ayer",
+      "semana",
+      "mes"
     ],
     "grammar": [
       "days of the week",
@@ -2647,60 +2007,15 @@
       "ja": "<h3>時刻をたずねる</h3><div class=\"example\"><strong>¿Qué hora es?</strong>（今何時？）<br><strong>¿A qué hora es la clase?</strong>（授業は何時から？）<br>A las tres.（3時に。）</div><h3>Es la una / Son las…</h3><p>「〜時です」の「時」はスペイン語では女性名詞 <strong>la hora</strong> なので、冠詞と動詞が数に合わせて変わります。<strong>1時だけ単数 Es la una</strong>、<strong>それ以外はすべて複数 Son las ＋数字</strong>。</p><table><tr><th>時刻</th><th>スペイン語</th></tr><tr><td>1:00</td><td><strong>Es la una</strong></td></tr><tr><td>2:00</td><td><strong>Son las dos</strong></td></tr><tr><td>3:00</td><td><strong>Son las tres</strong></td></tr><tr><td>4:15</td><td><strong>Son las cuatro y cuarto</strong></td></tr><tr><td>5:30</td><td><strong>Son las cinco y media</strong></td></tr><tr><td>6:45</td><td><strong>Son las siete menos cuarto</strong></td></tr><tr><td>8:00</td><td><strong>Son las ocho en punto</strong></td></tr><tr><td>2:50</td><td><strong>Son las tres menos diez</strong></td></tr></table><h3>日本語話者のためのポイント</h3><ul><li><strong>日本語と同じ発想</strong>：「半」= <strong>y media</strong>（5時半 = las cinco y media）、「15分」= <strong>y cuarto</strong>、「8時15分前」= <strong>las ocho menos cuarto</strong>（7:45。menos ＝「〜前」）、「ちょうど」= <strong>en punto</strong>。</li><li><strong>午前・午後は後ろに置く</strong>：「午前9時半」→ las nueve y media <strong>de la mañana</strong>。de la tarde = 午後、de la noche = 夜。</li><li><strong>「〜時に」の「に」は a で、前に置く</strong>：「何時に？」= ¿<strong>A</strong> qué hora…?、「3時に」= <strong>a</strong> las tres。</li><li>「です」は1つでも、スペイン語は es / son を使い分けます。分（y cuarto など）がついても1時台は単数：Es la una y cuarto。</li></ul><div class=\"example\">Son las nueve y media de la mañana.（午前9時半です。）<br>Es la una y cuarto de la tarde.（午後1時15分です。）<br>Son las dos en punto.（ちょうど2時です。）</div><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ Son las una → ✓ Es la una</li><li>✗ Es las tres → ✓ Son las tres</li><li>✗ De la mañana las nueve（「午前9時」の語順）→ ✓ Las nueve de la mañana</li><li>✗ ¿Qué hora es la clase? → ✓ ¿A qué hora es la clase?</li></ul></div>"
     },
     "newVocab": [
-      {
-        "word": "hora",
-        "en": "hour / time",
-        "zh": "小时/时间",
-        "ja": "時間/時刻"
-      },
-      {
-        "word": "minuto",
-        "en": "minute",
-        "zh": "分钟",
-        "ja": "分"
-      },
-      {
-        "word": "y media",
-        "en": "half past",
-        "zh": "半",
-        "ja": "半"
-      },
-      {
-        "word": "y cuarto",
-        "en": "quarter past",
-        "zh": "一刻",
-        "ja": "15分"
-      },
-      {
-        "word": "menos cuarto",
-        "en": "quarter to",
-        "zh": "差一刻",
-        "ja": "15分前"
-      },
-      {
-        "word": "en punto",
-        "en": "on the dot / sharp",
-        "zh": "整点",
-        "ja": "ちょうど"
-      },
-      {
-        "word": "de la mañana",
-        "en": "in the morning",
-        "zh": "早上",
-        "ja": "午前"
-      },
-      {
-        "word": "de la tarde",
-        "en": "in the afternoon",
-        "zh": "下午",
-        "ja": "午後"
-      },
-      {
-        "word": "de la noche",
-        "en": "at night",
-        "zh": "晚上",
-        "ja": "夜"
-      }
+      "hora",
+      "minuto",
+      "y media",
+      "y cuarto",
+      "menos cuarto",
+      "en punto",
+      "de la mañana",
+      "de la tarde",
+      "de la noche"
     ],
     "grammar": [
       "es la una (singular)",
@@ -2870,114 +2185,23 @@
       "ja": "<h3>「〜にある／いる」= estar</h3><p>人や物の場所を言うときは必ず <strong>estar</strong>（ser ではない）。日本語では物は「ある」、人や動物は「いる」と使い分けますが、スペイン語はどちらも <strong>estar</strong> です：El libro <strong>está</strong> en la mesa（本は机の上にある）、El gato <strong>está</strong> debajo de la mesa（猫は机の下にいる）。</p><h3>位置のことば：語順が逆！</h3><p>日本語は「机<strong>の下に</strong>」と名詞の<strong>後ろ</strong>に位置を表すことばが来ますが、スペイン語は<strong>前置詞</strong>なので名詞の<strong>前</strong>に来ます。<strong>debajo de la mesa</strong> は「下・の・机」と逆から読むと考えましょう。</p><table><tr><th>スペイン語</th><th>日本語</th><th>例</th></tr><tr><td><strong>en</strong></td><td>〜に／で（上・中・場所）</td><td>en la mesa 机の上に、en la caja 箱の中に、en casa 家に</td></tr><tr><td><strong>encima de</strong></td><td>〜の上に</td><td>encima de la caja 箱の上に</td></tr><tr><td><strong>debajo de</strong></td><td>〜の下に</td><td>debajo de la silla いすの下に</td></tr><tr><td><strong>dentro de</strong></td><td>〜の中に</td><td>dentro de la caja 箱の中に</td></tr><tr><td><strong>al lado de</strong></td><td>〜の隣に</td><td>al lado del banco 銀行の隣に</td></tr><tr><td><strong>delante de</strong></td><td>〜の前に</td><td>delante de la escuela 学校の前に</td></tr><tr><td><strong>detrás de</strong></td><td>〜の後ろに</td><td>detrás de la casa 家の後ろに</td></tr><tr><td><strong>cerca de</strong></td><td>〜の近くに</td><td>cerca de la escuela 学校の近くに</td></tr><tr><td><strong>lejos de</strong></td><td>〜から遠くに</td><td>lejos del hospital 病院から遠くに</td></tr></table><div class=\"tip\"><strong>de + el = del</strong>（必ず縮約）：al lado <strong>del</strong> banco。女性名詞はそのまま：cerca <strong>de la</strong> escuela。</div><h3>日本語話者のためのポイント</h3><ul><li><strong>en ≈「に／で」</strong>：日本語では「机の<strong>上</strong>に」「箱の<strong>中</strong>に」と上・中を言いますが、スペイン語は <strong>en</strong> 1語でOK。「本は机の上にある」の自然な言い方は El libro está <strong>en</strong> la mesa です。「中ではなく上に」と強調したいときだけ <strong>encima de</strong>：El gato está <strong>encima de</strong> la caja。（sobre も「〜の上に」ですが、やや硬い言い方。）</li><li><strong>hay と está ≈「が」と「は」</strong>：「銀行の隣に薬局<strong>が</strong>ある」（新情報）= <strong>Hay una</strong> farmacia al lado del banco。「（その）薬局<strong>は</strong>銀行の隣にある」（既知）= <strong>La</strong> farmacia <strong>está</strong> al lado del banco。「が」→ hay ＋ un/una、「は」→ el/la ＋ está と覚えましょう。</li><li><strong>冠詞を忘れずに</strong>：「銀行の隣」でも al lado <strong>del</strong> banco、「学校の近く」でも cerca de <strong>la</strong> escuela。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><ul><li>✗ El libro es en la mesa（「机の上です」）→ ✓ El libro está en la mesa</li><li>✗ El libro está la silla debajo（「いすの下」の語順）→ ✓ El libro está debajo de la silla</li><li>✗ El parque está la escuela cerca → ✓ El parque está cerca de la escuela</li><li>✗ al lado de el banco → ✓ al lado del banco</li><li>✗ Está un gato debajo de la mesa（「猫がいる」）→ ✓ Hay un gato debajo de la mesa</li><li>✗ Hay el libro en la mesa（「本は」）→ ✓ El libro está en la mesa</li></ul></div><h3>よく使う場所</h3><table><tr><th>Español</th><th>日本語</th></tr><tr><td><strong>la casa</strong></td><td>家</td></tr><tr><td><strong>el banco</strong></td><td>銀行</td></tr><tr><td><strong>la farmacia</strong></td><td>薬局</td></tr><tr><td><strong>la biblioteca</strong></td><td>図書館</td></tr><tr><td><strong>el supermercado</strong></td><td>スーパー</td></tr><tr><td><strong>el hospital</strong></td><td>病院</td></tr><tr><td><strong>el parque</strong></td><td>公園</td></tr><tr><td><strong>la escuela</strong></td><td>学校</td></tr><tr><td><strong>la tienda</strong></td><td>店</td></tr></table><div class=\"example\">El gato está debajo de la mesa.（猫は机の下にいる。）<br>La farmacia está al lado del banco.（薬局は銀行の隣にある。）<br>El parque está cerca de la escuela.（公園は学校の近くにある。）</div>"
     },
     "newVocab": [
-      {
-        "word": "dentro de",
-        "en": "inside",
-        "zh": "在……里面",
-        "ja": "〜の中に"
-      },
-      {
-        "word": "en",
-        "en": "in / on / at",
-        "zh": "在……里/上/处",
-        "ja": "〜に/〜の上に"
-      },
-      {
-        "word": "al lado de",
-        "en": "next to",
-        "zh": "在……旁边",
-        "ja": "〜の隣に"
-      },
-      {
-        "word": "encima de",
-        "en": "on top of",
-        "zh": "在……上面",
-        "ja": "〜の上に"
-      },
-      {
-        "word": "debajo de",
-        "en": "under",
-        "zh": "在……下面",
-        "ja": "〜の下に"
-      },
-      {
-        "word": "cerca de",
-        "en": "near",
-        "zh": "在……附近",
-        "ja": "〜の近くに"
-      },
-      {
-        "word": "lejos de",
-        "en": "far from",
-        "zh": "离……远",
-        "ja": "〜から遠くに"
-      },
-      {
-        "word": "delante de",
-        "en": "in front of",
-        "zh": "在……前面",
-        "ja": "〜の前に"
-      },
-      {
-        "word": "detrás de",
-        "en": "behind",
-        "zh": "在……后面",
-        "ja": "〜の後ろに"
-      },
-      {
-        "word": "casa",
-        "en": "home / house",
-        "zh": "家/房子",
-        "ja": "家"
-      },
-      {
-        "word": "banco",
-        "en": "bank",
-        "zh": "银行",
-        "ja": "銀行"
-      },
-      {
-        "word": "farmacia",
-        "en": "pharmacy",
-        "zh": "药店",
-        "ja": "薬局"
-      },
-      {
-        "word": "biblioteca",
-        "en": "library",
-        "zh": "图书馆",
-        "ja": "図書館"
-      },
-      {
-        "word": "supermercado",
-        "en": "supermarket",
-        "zh": "超市",
-        "ja": "スーパーマーケット"
-      },
-      {
-        "word": "hospital",
-        "en": "hospital",
-        "zh": "医院",
-        "ja": "病院"
-      },
-      {
-        "word": "parque",
-        "en": "park",
-        "zh": "公园",
-        "ja": "公園"
-      },
-      {
-        "word": "escuela",
-        "en": "school",
-        "zh": "学校",
-        "ja": "学校"
-      },
-      {
-        "word": "tienda",
-        "en": "shop / store",
-        "zh": "商店",
-        "ja": "店"
-      }
+      "dentro de",
+      "en",
+      "al lado de",
+      "encima de",
+      "debajo de",
+      "cerca de",
+      "lejos de",
+      "delante de",
+      "detrás de",
+      "banco",
+      "farmacia",
+      "biblioteca",
+      "supermercado",
+      "hospital",
+      "parque",
+      "escuela",
+      "tienda"
     ],
     "grammar": [
       "estar + prepositions",
@@ -3202,42 +2426,11 @@
       "ja": "<h3>hay ＝「〜がある／〜がいる」</h3><p><strong>hay</strong> は「（どこかに）〜がある・いる」と<strong>存在</strong>を表します。形は一つだけで、単数でも複数でも変わりません。また日本語の「ある（物）／いる（人・動物）」の区別もありません。</p><div class=\"example\">Hay un hospital cerca de aquí. — この近くに病院が<strong>ある</strong>。<br>Hay tres gatos en el parque. — 公園に猫が三匹<strong>いる</strong>。<br>Hay una farmacia en esta calle. — この通りに薬局がある。</div><h3>「が」と「は」で考える：hay と está</h3><p>日本語話者にとって一番わかりやすい覚え方は、助詞の「<strong>が</strong>」と「<strong>は</strong>」です。</p><div class=\"vs\"><div><p>机の上に本<strong>が</strong>ある。</p><p>新しい情報（どの本か相手は知らない）</p><p>→ <strong>Hay un</strong> libro en la mesa.</p></div><div><p>その本<strong>は</strong>机の上にある。</p><p>既知の情報（どの本か互いにわかっている）</p><p>→ <strong>El</strong> libro <strong>está</strong> en la mesa.</p></div></div><table><tr><th>日本語</th><th>スペイン語</th></tr><tr><td>〜<strong>が</strong>ある（新情報）</td><td><strong>hay</strong> + un / una / unos / unas / 数字</td></tr><tr><td>〜<strong>は</strong>…にある（既知・話題）</td><td><strong>el / la / los / las</strong> + 名詞 + <strong>está / están</strong></td></tr></table><p>está は主語に合わせて変化します：Los libros <strong>están</strong> en la mesa.（本は机の上にある）。hay は変化しません。</p><h3>冠詞：un/una（＝が）と el/la（＝は）</h3><p>日本語には冠詞がありません。でも「が」で初めて登場するものには<strong>不定冠詞</strong>、「は」で話題になっている既知のものには<strong>定冠詞</strong>、と考えるとほぼ正しく使えます。さらに冠詞は名詞の<strong>性</strong>と<strong>数</strong>で形が変わります：</p><table><tr><th>冠詞</th><th>意味</th><th>例</th></tr><tr><td>un</td><td>一つの（男性）</td><td>Hay <strong>un</strong> supermercado al lado del banco.</td></tr><tr><td>una</td><td>一つの（女性）</td><td>Hay <strong>una</strong> biblioteca.</td></tr><tr><td>unos</td><td>いくつかの（男性）</td><td>Hay <strong>unos</strong> libros.</td></tr><tr><td>unas</td><td>いくつかの（女性）</td><td>Hay <strong>unas</strong> tiendas cerca del parque.</td></tr></table><h3>日本語話者のためのポイント</h3><ul><li>「図書館<strong>は</strong>どこですか」の「は」→ 既知なので ¿Dónde <strong>está la</strong> biblioteca? — La biblioteca está en la calle Mayor.</li><li>語順：日本語は「銀行の隣に・スーパーがある」と場所が先ですが、スペイン語は <strong>Hay + もの + 場所</strong> が基本です：Hay un supermercado al lado del banco.</li><li>前置詞は名詞の<strong>前</strong>：〜の近くに = <strong>cerca de</strong>、〜の隣に = <strong>al lado de</strong>、〜の上に・中に = <strong>en</strong>。<strong>de + el = del</strong>（cerca del parque）。</li><li>日本語では「本は机の上にある」と冠詞なしで言えますが、スペイン語では主語の名詞に <strong>el/la</strong> が必要です。</li><li>「持っている」は tener。存在の「ある」と混同しないこと。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Está un hospital cerca de aquí. → ✓ <strong>Hay un</strong> hospital cerca de aquí.<br>✗ Hay el libro en la mesa. → ✓ <strong>El</strong> libro <strong>está</strong> en la mesa.<br>✗ Libro está en la mesa. → ✓ <strong>El</strong> libro está en la mesa.（冠詞を落とさない）<br>✗ La biblioteca hay en la calle Mayor. → ✓ La biblioteca <strong>está</strong> en la calle Mayor.<br>✗ Están tres gatos en el parque. → ✓ <strong>Hay</strong> tres gatos en el parque.</div>"
     },
     "newVocab": [
-      {
-        "word": "hay",
-        "en": "there is / there are",
-        "zh": "有",
-        "ja": "〜がある/いる"
-      },
-      {
-        "word": "un",
-        "en": "a (masculine)",
-        "zh": "一个（阳性）",
-        "ja": "一つの（男性）"
-      },
-      {
-        "word": "una",
-        "en": "a (feminine)",
-        "zh": "一个（阴性）",
-        "ja": "一つの（女性）"
-      },
-      {
-        "word": "unos",
-        "en": "some (masculine)",
-        "zh": "一些（阳性）",
-        "ja": "いくつかの（男性）"
-      },
-      {
-        "word": "unas",
-        "en": "some (feminine)",
-        "zh": "一些（阴性）",
-        "ja": "いくつかの（女性）"
-      },
-      {
-        "word": "biblioteca",
-        "en": "library",
-        "zh": "图书馆",
-        "ja": "図書館"
-      }
+      "hay",
+      "un",
+      "una",
+      "unos",
+      "unas"
     ],
     "grammar": [
       "hay (there is/are)",
@@ -3417,54 +2610,14 @@
       "ja": "<h3>スペイン語の疑問詞</h3><p>疑問詞にはすべて<strong>アクセント記号</strong>が付きます。また疑問文は逆さの <strong>¿</strong> で始まります。</p><table><tr><th>スペイン語</th><th>日本語</th><th>例文</th></tr><tr><td>¿Qué?</td><td>何</td><td>¿Qué hora es? — 何時ですか。</td></tr><tr><td>¿Quién?</td><td>誰</td><td>¿Quién es el profesor? — 先生は誰ですか。</td></tr><tr><td>¿Dónde?</td><td>どこ</td><td>¿Dónde está el supermercado? — スーパーはどこですか。</td></tr><tr><td>¿Cuándo?</td><td>いつ</td><td>¿Cuándo es la fiesta? — パーティーはいつですか。</td></tr><tr><td>¿Cómo?</td><td>どう・どのように</td><td>¿Cómo estás? — 元気？</td></tr><tr><td>¿Por qué?</td><td>なぜ</td><td>¿Por qué estudias español? — なぜスペイン語を勉強するの？</td></tr><tr><td>¿Cuál?</td><td>どれ</td><td>¿Cuál es tu nombre? — 名前は何ですか。</td></tr><tr><td>¿Cuánto / cuánta?</td><td>いくら・どのくらい</td><td>¿Cuánto cuesta? — いくらですか。</td></tr><tr><td>¿Cuántos / cuántas?</td><td>いくつ・何〜</td><td>¿Cuántos libros hay? — 本は何冊ありますか。</td></tr></table><h3>語順：疑問詞は文頭へ</h3><p>日本語では「スーパーは<strong>どこ</strong>ですか」のように疑問詞が文の後ろの方に来て、最後に「か」を付けます。スペイン語では<strong>疑問詞＋動詞＋主語</strong>の順で、疑問詞を必ず<strong>文頭</strong>に置きます。「か」に当たる語はなく、¿…? とイントネーションで示します。</p><div class=\"vs\"><div><p><strong>日本語</strong></p><p>マリアは<strong>どこ</strong>にいますか。<br>カルロスは<strong>何</strong>を食べますか。<br>本は<strong>何冊</strong>ありますか。</p></div><div><p><strong>スペイン語</strong></p><p>¿<strong>Dónde</strong> está María?<br>¿<strong>Qué</strong> come Carlos?<br>¿<strong>Cuántos</strong> libros hay?</p></div></div><h3>日本語話者のためのポイント</h3><ul><li>「何冊・何匹・何人」の助数詞の代わりに、<strong>cuánto が名詞の性・数に一致</strong>します：cuánt<strong>os</strong> libros（男性複数）、cuánt<strong>as</strong> manzanas（女性複数）。</li><li>「何歳？」は <strong>tener</strong>（年を持つ）を使います：¿Cuántos años <strong>tienes</strong>?</li><li>「なぜ」= <strong>por qué</strong>（2語・アクセントあり）、「なぜなら／〜だから」= <strong>porque</strong>（1語）。</li><li>「名前は何？」のように es ＋名詞の前では qué より <strong>cuál</strong> を使うのが普通です。</li><li>「〜はどこ？」は場所なので <strong>está</strong>：¿Dónde está el banco?</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ ¿El supermercado está dónde? → ✓ <strong>¿Dónde está</strong> el supermercado?<br>✗ ¿Cuánto libros hay? → ✓ <strong>¿Cuántos</strong> libros hay?<br>✗ ¿Porque estudias español? → ✓ <strong>¿Por qué</strong> estudias español?<br>✗ ¿Cuántos años eres? → ✓ ¿Cuántos años <strong>tienes</strong>?<br>✗ Que hora es? → ✓ <strong>¿Qué</strong> hora es?</div>"
     },
     "newVocab": [
-      {
-        "word": "qué",
-        "en": "what",
-        "zh": "什么",
-        "ja": "何"
-      },
-      {
-        "word": "quién",
-        "en": "who",
-        "zh": "谁",
-        "ja": "誰"
-      },
-      {
-        "word": "dónde",
-        "en": "where",
-        "zh": "哪里",
-        "ja": "どこ"
-      },
-      {
-        "word": "cuándo",
-        "en": "when",
-        "zh": "什么时候",
-        "ja": "いつ"
-      },
-      {
-        "word": "cómo",
-        "en": "how",
-        "zh": "怎么",
-        "ja": "どのように"
-      },
-      {
-        "word": "por qué",
-        "en": "why",
-        "zh": "为什么",
-        "ja": "なぜ"
-      },
-      {
-        "word": "cuál",
-        "en": "which",
-        "zh": "哪个",
-        "ja": "どれ"
-      },
-      {
-        "word": "cuánto",
-        "en": "how much / how many",
-        "zh": "多少",
-        "ja": "いくら/いくつ"
-      }
+      "qué",
+      "quién",
+      "dónde",
+      "cuándo",
+      "cómo",
+      "por qué",
+      "cuál",
+      "cuánto"
     ],
     "grammar": [
       "question words",
@@ -3677,42 +2830,12 @@
       "ja": "<h3>基本の否定：no + 動詞</h3><p>日本語の否定「〜ない」は動詞の<strong>後ろ</strong>に付きますが、スペイン語の <strong>no</strong> は動詞の<strong>前</strong>に置きます。</p><div class=\"example\">El libro <strong>no</strong> está en la mesa. — 本は机の上に<strong>ない</strong>。<br><strong>No</strong> hay libros. — 本が<strong>ない</strong>。<br>Yo <strong>no</strong> soy profesor. — 私は先生では<strong>ない</strong>。</div><div class=\"vs\"><div><p><strong>NO ESTÁ（〜は…にない）</strong></p><p>既知のものがそこにない：<br>El gato <strong>no está</strong> debajo de la mesa.<br>（その）猫はテーブルの下にいない。</p></div><div><p><strong>NO HAY（〜がない）</strong></p><p>そこに存在しない：<br><strong>No hay</strong> libros en la mesa.<br>机の上に本がない。</p></div></div><p>前のユニットと同じく、「<strong>は</strong>」の文 → está、「<strong>が</strong>」の文 → hay です。</p><h3>否定語</h3><table><tr><th>スペイン語</th><th>日本語</th></tr><tr><td>nada</td><td>何も〜ない</td></tr><tr><td>nadie</td><td>誰も〜ない</td></tr><tr><td>nunca</td><td>決して／一度も〜ない</td></tr><tr><td>tampoco</td><td>〜も…ない</td></tr><tr><td>ni… ni…</td><td>〜も〜も…ない</td></tr></table><h3>日本語話者のためのポイント：二重否定</h3><p>英語では二重否定を避けますが、日本語の「<strong>何も</strong>ない」「<strong>誰も</strong>いない」はスペイン語とそっくりです。「何も」= nada、「ない」= no と考えれば、二重否定は自然に感じられるはずです。</p><div class=\"example\"><strong>No</strong> hay <strong>nada</strong>. — <strong>何も</strong>ない。<br><strong>No</strong> hay <strong>nadie</strong> en el parque. — 公園には<strong>誰も</strong>いない。<br><strong>No</strong> tengo <strong>ni</strong> perro <strong>ni</strong> gato. — 犬<strong>も</strong>猫<strong>も</strong>飼っていない。</div><p><strong>語順のルール：</strong>否定語が動詞の<strong>後</strong>なら動詞の前に no、否定語が動詞の<strong>前</strong>なら no は不要です。</p><div class=\"example\"><strong>No</strong> como <strong>nunca</strong> pescado. = <strong>Nunca</strong> como pescado. — 魚は決して食べない。<br>A mí <strong>tampoco</strong> me gusta el café. — 私<strong>も</strong>コーヒーが好きじゃ<strong>ない</strong>。</div><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ A mí también no me gusta el café.（「も」＝también と直訳）→ ✓ A mí <strong>tampoco</strong> me gusta el café.<br>✗ Hay nada. → ✓ <strong>No</strong> hay nada.<br>✗ El libro está no en la mesa.（否定を後ろに）→ ✓ El libro <strong>no está</strong> en la mesa.<br>✗ Nunca no como pescado. → ✓ <strong>Nunca como</strong> pescado.<br>✗ No hay alguien en el parque. → ✓ No hay <strong>nadie</strong> en el parque.</div>"
     },
     "newVocab": [
-      {
-        "word": "no",
-        "en": "no / not",
-        "zh": "不/没有",
-        "ja": "いいえ/〜ない"
-      },
-      {
-        "word": "nada",
-        "en": "nothing",
-        "zh": "什么都没有",
-        "ja": "何もない"
-      },
-      {
-        "word": "nadie",
-        "en": "nobody",
-        "zh": "没有人",
-        "ja": "誰もいない"
-      },
-      {
-        "word": "nunca",
-        "en": "never",
-        "zh": "从不",
-        "ja": "決して〜ない"
-      },
-      {
-        "word": "tampoco",
-        "en": "neither / not either",
-        "zh": "也不",
-        "ja": "〜もまた〜ない"
-      },
-      {
-        "word": "ni...ni",
-        "en": "neither...nor",
-        "zh": "既不……也不",
-        "ja": "〜も〜もない"
-      }
+      "no",
+      "nada",
+      "nadie",
+      "nunca",
+      "tampoco",
+      "ni...ni"
     ],
     "grammar": [
       "negation with no",
@@ -3869,24 +2992,9 @@
       "ja": "<h3>ningún / ninguno / ninguna ＝「一つも〜ない」</h3><p>数えられるものについて「一つも〜ない」「どの〜もない」と言うときに使います。日本語は「一冊も・一軒も」と助数詞で表しますが、スペイン語は名詞の<strong>性</strong>に合わせて形を変えます。パターンは <strong>un / uno / una</strong> と同じです。</p><table><tr><th>形</th><th>使い方</th><th>例</th></tr><tr><td><strong>ningún</strong></td><td>男性名詞の前</td><td>No hay <strong>ningún</strong> libro en la mesa. — 机に本が一冊もない。</td></tr><tr><td><strong>ninguna</strong></td><td>女性名詞の前</td><td>No hay <strong>ninguna</strong> farmacia cerca. — 近くに薬局が一軒もない。</td></tr><tr><td><strong>ninguno</strong></td><td>単独（男性）・名詞を省略</td><td>¿Tienes algún bolígrafo? — No, no tengo <strong>ninguno</strong>.（一本もない）</td></tr><tr><td><strong>ninguna</strong></td><td>単独（女性）・名詞を省略</td><td>¿Hay alguna tienda abierta? — No, no hay <strong>ninguna</strong>.（一軒もない）</td></tr></table><div class=\"tip\"><strong>覚え方：</strong>uno が男性名詞の前で un になるのと同じく、ninguno も男性名詞の前では -o が落ちて <strong>ningún</strong>。名詞が続かないときは <strong>ninguno</strong>。ninguna は変わりません。</div><h3>日本語話者のためのポイント</h3><ul><li><strong>二重否定：</strong>「一つも〜<strong>ない</strong>」の「も」と「ない」が両方必要なように、スペイン語も <strong>no</strong> ＋ 動詞 ＋ <strong>ningún</strong> の形になります：No tengo ninguna pregunta.（質問は一つもありません。）</li><li><strong>名詞の性を確認：</strong>libro・amigo・supermercado は男性 → ningún、farmacia・pregunta・tienda は女性 → ninguna。</li><li><strong>単数を使う：</strong>「店が一軒もない」は No hay ninguna tienda（単数）。</li><li><strong>nada と ninguno の違い：</strong>nada は「何も」（もの全般）、ninguno は「（その種類のものが）一つも」。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Tengo ningún amigo aquí. → ✓ <strong>No</strong> tengo ningún amigo aquí.<br>✗ No tengo ninguno amigo. → ✓ No tengo <strong>ningún</strong> amigo.<br>✗ No tengo ninguna amigo. → ✓ No tengo <strong>ningún</strong> amigo.（amigo は男性）<br>✗ No hay ningún farmacia. → ✓ No hay <strong>ninguna</strong> farmacia.<br>✗ ¿Tienes algún bolígrafo? — No, no tengo nada. → ✓ No, no tengo <strong>ninguno</strong>.</div>"
     },
     "newVocab": [
-      {
-        "word": "ningún",
-        "en": "no (before masc. noun)",
-        "zh": "没有（阳性名词前）",
-        "ja": "一つもない（男性名詞の前）"
-      },
-      {
-        "word": "ninguno",
-        "en": "none (masculine)",
-        "zh": "一个也没有（阳性）",
-        "ja": "一つもない（男性、単独）"
-      },
-      {
-        "word": "ninguna",
-        "en": "no / none (feminine)",
-        "zh": "没有/一个也没有（阴性）",
-        "ja": "一つもない（女性）"
-      }
+      "ningún",
+      "ninguno",
+      "ninguna"
     ],
     "grammar": [
       "ningún + masculine noun",
@@ -4040,36 +3148,11 @@
       "ja": "<h3>algún / alguno / alguna / algunos / algunas</h3><p>ningún の肯定版で、「何か（の）・どれか一つ・いくつかの」という意味です。名詞の<strong>性</strong>と<strong>数</strong>に一致させます。</p><table><tr><th>形</th><th>使い方</th><th>例</th></tr><tr><td><strong>algún</strong></td><td>男性単数名詞の前</td><td>¿Hay <strong>algún</strong> supermercado cerca de aquí? — この近くにスーパーはありますか。</td></tr><tr><td><strong>alguna</strong></td><td>女性単数名詞の前</td><td>¿Tienes <strong>alguna</strong> pregunta? — 何か質問はありますか。</td></tr><tr><td><strong>alguno</strong></td><td>単独（男性）</td><td>¿Hay algún banco? — Sí, hay <strong>alguno</strong>.（はい、あります）</td></tr><tr><td><strong>alguna</strong></td><td>単独（女性）</td><td>¿Hay alguna farmacia? — Sí, hay <strong>alguna</strong>.</td></tr><tr><td><strong>algunos</strong></td><td>男性複数</td><td>Hay <strong>algunos</strong> libros en la mesa. — 机の上に本が何冊かある。</td></tr><tr><td><strong>algunas</strong></td><td>女性複数</td><td>Hay <strong>algunas</strong> tiendas en la calle. — 通りに店がいくつかある。</td></tr></table><div class=\"tip\"><strong>ningún と同じ短縮ルール：</strong>男性単数名詞の前では alguno → <strong>algún</strong>（algún amigo）。名詞を省略するときは <strong>alguno</strong>。</div><h3>「〜はありますか」への答え方</h3><table><tr><th>質問</th><th>はい</th><th>いいえ</th></tr><tr><td>¿Hay <strong>algún</strong> hospital?</td><td>Sí, hay <strong>alguno</strong>.</td><td>No, no hay <strong>ninguno</strong>.</td></tr><tr><td>¿Tienes <strong>algún</strong> amigo en España?</td><td>Sí, tengo <strong>alguno</strong>.</td><td>No, no tengo <strong>ninguno</strong>.</td></tr><tr><td>¿Hay <strong>alguna</strong> farmacia?</td><td>Sí, hay <strong>alguna</strong>.</td><td>No, no hay <strong>ninguna</strong>.</td></tr></table><h3>日本語話者のためのポイント</h3><ul><li>日本語の「近くに薬局<strong>は</strong>ありますか」は名詞だけで言えますが、スペイン語では「<strong>どこか</strong>薬局」のように <strong>algún/alguna</strong> を付けて単数で聞くのが自然です：¿Hay alguna farmacia cerca de aquí?</li><li>日本語には複数形がありませんが、「いくつかの」= alg<strong>unos</strong>/alg<strong>unas</strong> のときは名詞も複数（libros, tiendas）にします。</li><li>「いいえ、ありません」は ningún の形に変え、二重否定にします：No, no hay ninguno.</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Hay algún libros en la mesa. → ✓ Hay <strong>algunos</strong> libros en la mesa.<br>✗ Hay algunos libro. → ✓ Hay algunos <strong>libros</strong>.（名詞も複数）<br>✗ ¿Hay alguno supermercado? → ✓ ¿Hay <strong>algún</strong> supermercado?<br>✗ ¿Hay algún hospital? — No, no hay alguno. → ✓ No, no hay <strong>ninguno</strong>.</div>"
     },
     "newVocab": [
-      {
-        "word": "algún",
-        "en": "some / any (before masc. noun)",
-        "zh": "一些/任何（阳性名词前）",
-        "ja": "いくつかの（男性名詞の前）"
-      },
-      {
-        "word": "alguno",
-        "en": "some / any one (masculine)",
-        "zh": "一些/某个（阳性）",
-        "ja": "いくつかの（男性、単独）"
-      },
-      {
-        "word": "alguna",
-        "en": "some / any (feminine)",
-        "zh": "一些/任何（阴性）",
-        "ja": "いくつかの（女性）"
-      },
-      {
-        "word": "algunos",
-        "en": "some (masculine plural)",
-        "zh": "一些（阳性复数）",
-        "ja": "いくつかの（男性複数）"
-      },
-      {
-        "word": "algunas",
-        "en": "some (feminine plural)",
-        "zh": "一些（阴性复数）",
-        "ja": "いくつかの（女性複数）"
-      }
+      "algún",
+      "alguno",
+      "alguna",
+      "algunos",
+      "algunas"
     ],
     "grammar": [
       "algún + masculine noun",
@@ -4245,72 +3328,16 @@
       "ja": "<h3>algo と nada：何か／何も〜ない</h3><p><strong>algo</strong> は「何か」、<strong>nada</strong> は「何も（〜ない）」。nada は no と一緒に使います。どちらも形は変わりません。</p><div class=\"example\">Quiero <strong>algo</strong>. — 何か欲しい。<br>¿Quieres <strong>algo</strong>? — 何か要る？<br>No quiero <strong>nada</strong>. — 何も要らない。<br>No tengo <strong>nada de</strong> dinero. — お金が全然ない。</div><h3>mucho と poco：名詞に一致させる</h3><p>日本語の「たくさんの」「少しの」は変化しませんが、スペイン語では名詞の<strong>性</strong>と<strong>数</strong>に合わせて語尾が変わります。</p><table><tr><th></th><th>男性</th><th>女性</th></tr><tr><td>たくさん（単数）</td><td>mucho café</td><td>mucha agua</td></tr><tr><td>たくさん（複数）</td><td>muchos plátanos</td><td>muchas manzanas</td></tr><tr><td>少し（単数）</td><td>poco pan</td><td>poca leche</td></tr><tr><td>少し（複数）</td><td>pocos limones</td><td>pocas fresas</td></tr></table><h3>果物（la fruta）</h3><p>単語は冠詞と一緒に覚えましょう。冠詞を見れば mucho/poco の語尾がわかります。</p><ul><li><strong>la</strong> manzana りんご、<strong>la</strong> naranja オレンジ、<strong>la</strong> fresa いちご、<strong>la</strong> uva ぶどう → muchas manzanas, pocas fresas</li><li><strong>el</strong> plátano バナナ、<strong>el</strong> limón レモン → muchos plátanos, pocos limones</li></ul><h3>日本語話者のためのポイント</h3><ul><li>「りんごをたくさん持っている」の「りんご」は日本語では単数・複数の区別がありませんが、スペイン語では<strong>名詞も mucho も複数</strong>：Tengo much<strong>as</strong> manzana<strong>s</strong>.</li><li>「何も〜ない」は日本語と同じ二重否定の発想：No quiero nada.（何も要らない）</li><li>「とても」は <strong>muy</strong>（muy grande）、「たくさん」は <strong>mucho</strong>。混同しないように。</li><li><strong>agua は女性名詞</strong>（強勢のある a で始まるので el agua と言うだけ）：mucha agua。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Tengo mucho manzana. → ✓ Tengo <strong>muchas manzanas</strong>.<br>✗ Hay mucho agua. → ✓ Hay <strong>mucha</strong> agua.<br>✗ Tengo pocos fresas. → ✓ Tengo <strong>pocas</strong> fresas.<br>✗ La casa es mucho grande. → ✓ La casa es <strong>muy</strong> grande.<br>✗ Quiero nada. → ✓ <strong>No</strong> quiero nada.</div>"
     },
     "newVocab": [
-      {
-        "word": "algo",
-        "en": "something",
-        "zh": "某物",
-        "ja": "何か"
-      },
-      {
-        "word": "nada",
-        "en": "nothing",
-        "zh": "什么都没有",
-        "ja": "何もない"
-      },
-      {
-        "word": "mucho/a",
-        "en": "much / a lot",
-        "zh": "很多",
-        "ja": "たくさん"
-      },
-      {
-        "word": "poco/a",
-        "en": "little / few",
-        "zh": "很少",
-        "ja": "少し"
-      },
-      {
-        "word": "manzana",
-        "en": "apple",
-        "zh": "苹果",
-        "ja": "りんご"
-      },
-      {
-        "word": "naranja",
-        "en": "orange",
-        "zh": "橙子",
-        "ja": "オレンジ"
-      },
-      {
-        "word": "plátano",
-        "en": "banana",
-        "zh": "香蕉",
-        "ja": "バナナ"
-      },
-      {
-        "word": "fresa",
-        "en": "strawberry",
-        "zh": "草莓",
-        "ja": "いちご"
-      },
-      {
-        "word": "uva",
-        "en": "grape",
-        "zh": "葡萄",
-        "ja": "ぶどう"
-      },
-      {
-        "word": "limón",
-        "en": "lemon",
-        "zh": "柠檬",
-        "ja": "レモン"
-      },
-      {
-        "word": "fruta",
-        "en": "fruit",
-        "zh": "水果",
-        "ja": "果物"
-      }
+      "algo",
+      "mucho/a",
+      "poco/a",
+      "manzana",
+      "naranja",
+      "plátano",
+      "fresa",
+      "uva",
+      "limón",
+      "fruta"
     ],
     "grammar": [
       "algo/nada",
@@ -4506,66 +3533,16 @@
       "ja": "<h3>hacer ＝「する」「作る」</h3><p><strong>hacer</strong> は日本語の「する」「作る」に当たる基本動詞です。日本語の動詞は主語によって形が変わりませんが、スペイン語は人称ごとに変化します。hacer は <strong>yo</strong> の形だけ不規則で <strong>hago</strong>（c → g）です。</p><table><tr><th>人称</th><th>hacer</th></tr><tr><td>yo</td><td><strong>hago</strong></td></tr><tr><td>tú</td><td>haces</td></tr><tr><td>él / ella / usted</td><td>hace</td></tr><tr><td>nosotros / nosotras</td><td>hacemos</td></tr><tr><td>vosotros / vosotras</td><td>hacéis</td></tr><tr><td>ellos / ellas / ustedes</td><td>hacen</td></tr></table><p>日本語と同じく主語は省略できます。動詞の語尾で誰かがわかるからです：<strong>Hago</strong> los deberes.（宿題をする。）</p><h3>hacer を使う表現</h3><p>日本語の「〜する」動詞（運動する・買い物する）は、多くが <strong>hacer ＋ 名詞</strong> に対応します。</p><table><tr><th>スペイン語</th><th>日本語</th></tr><tr><td>hacer la cama</td><td>ベッドを整える</td></tr><tr><td>hacer la maleta</td><td>荷造りする</td></tr><tr><td>hacer la compra</td><td>（食料品の）買い物をする</td></tr><tr><td>hacer la comida</td><td>料理をする・ご飯を作る</td></tr><tr><td>hacer ejercicio</td><td>運動する</td></tr><tr><td>hacer los deberes</td><td>宿題をする</td></tr></table><div class=\"example\">Ella hace la comida todos los días. — 彼女は毎日ご飯を作る。<br>Nosotros hacemos ejercicio por la mañana. — 私たちは朝運動する。<br>Ellos hacen ejercicio. — 彼らは運動する。</div><h3>日本語話者のためのポイント</h3><ul><li>語順は日本語の「宿題を・する」（目的語＋動詞）と逆で、<strong>動詞＋目的語</strong>：Hago los deberes.</li><li>「宿題をする」の「宿題」には冠詞が要ります：hacer <strong>los</strong> deberes、hacer <strong>la</strong> compra（hacer ejercicio は冠詞なし）。</li><li>los deberes は「今日の（具体的な）宿題」、冠詞なしの deberes は「宿題というもの」一般。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Yo haco los deberes. → ✓ Yo <strong>hago</strong> los deberes.<br>✗ Ella hacer la comida. → ✓ Ella <strong>hace</strong> la comida.<br>✗ Los deberes hago.（日本語の語順）→ ✓ <strong>Hago los deberes</strong>.<br>✗ Nosotros hace ejercicio. → ✓ Nosotros <strong>hacemos</strong> ejercicio.</div>"
     },
     "newVocab": [
-      {
-        "word": "hacer",
-        "en": "to do / to make",
-        "zh": "做/制作",
-        "ja": "する・作る"
-      },
-      {
-        "word": "hago",
-        "en": "I do / I make",
-        "zh": "我做",
-        "ja": "私はする"
-      },
-      {
-        "word": "haces",
-        "en": "you do / you make",
-        "zh": "你做",
-        "ja": "君はする"
-      },
-      {
-        "word": "hace",
-        "en": "he/she does",
-        "zh": "他/她做",
-        "ja": "彼/彼女はする"
-      },
-      {
-        "word": "maleta",
-        "en": "suitcase",
-        "zh": "行李箱",
-        "ja": "スーツケース"
-      },
-      {
-        "word": "deberes",
-        "en": "homework",
-        "zh": "作业",
-        "ja": "宿題"
-      },
-      {
-        "word": "cama",
-        "en": "bed",
-        "zh": "床",
-        "ja": "ベッド"
-      },
-      {
-        "word": "comida",
-        "en": "food / meal",
-        "zh": "食物/餐",
-        "ja": "食べ物・食事"
-      },
-      {
-        "word": "compra",
-        "en": "shopping / purchase",
-        "zh": "购物",
-        "ja": "買い物"
-      },
-      {
-        "word": "ejercicio",
-        "en": "exercise",
-        "zh": "锻炼",
-        "ja": "運動"
-      }
+      "hacer",
+      "hago",
+      "haces",
+      "hace",
+      "maleta",
+      "deberes",
+      "cama",
+      "comida",
+      "compra",
+      "ejercicio"
     ],
     "grammar": [
       "hacer conjugation",
@@ -4753,72 +3730,16 @@
       "ja": "<h3>ir ＝「行く」</h3><p>ir は完全な<strong>不規則動詞</strong>です。そのまま覚えましょう。</p><table><tr><th>人称</th><th>ir</th></tr><tr><td>yo</td><td><strong>voy</strong></td></tr><tr><td>tú</td><td>vas</td></tr><tr><td>él / ella / usted</td><td>va</td></tr><tr><td>nosotros / nosotras</td><td>vamos</td></tr><tr><td>vosotros / vosotras</td><td>vais</td></tr><tr><td>ellos / ellas / ustedes</td><td>van</td></tr></table><h3>ir a の2つの使い方</h3><div class=\"vs\"><div><p><strong>ir a + 場所 ＝「〜へ行く」</strong></p><p>Voy <strong>al</strong> supermercado. — スーパーへ行く。<br>Ella va <strong>a la</strong> playa. — 彼女はビーチへ行く。<br>Vamos <strong>al</strong> restaurante. — レストランへ行く。</p></div><div><p><strong>ir a + 不定詞 ＝「〜するつもりだ」</strong></p><p>Voy <strong>a</strong> comprar. — 買うつもりだ／買いに行く。<br>Nosotros vamos <strong>a</strong> comer. — これから食べる。<br>Van <strong>a</strong> comprar fruta. — 彼らは果物を買うつもりだ。</p></div></div><div class=\"tip\"><strong>a + el = al</strong>（必ず縮約）：Voy <strong>al</strong> cine（✗ a el cine）。女性の la とは縮約しません：Voy <strong>a la</strong> playa。</div><h3>日本語話者のためのポイント</h3><ul><li><strong>a</strong> は助詞の「へ／に」に当たりますが、名詞の<strong>前</strong>に置きます：映画館<strong>へ</strong> → <strong>al</strong> cine。</li><li>「〜するつもり」「〜しようと思う」「これから〜する」は <strong>ir a + 不定詞</strong>。変化するのは ir だけで、後ろの動詞は原形のままです。</li><li>「買い<strong>に</strong>行く」も同じ形：Voy a comprar。</li><li>日本語の「行く」は人称で変わりませんが、スペイン語は voy / vas / va / vamos / vais / van と変化します。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Cine voy.（日本語の語順）→ ✓ Voy <strong>al</strong> cine.<br>✗ Voy a el cine. → ✓ Voy <strong>al</strong> cine.<br>✗ Voy en cine.（「に」＝en と考えて）→ ✓ Voy <strong>al</strong> cine.<br>✗ Voy comprar. → ✓ Voy <strong>a</strong> comprar.<br>✗ Ella van a la playa. → ✓ Ella <strong>va</strong> a la playa.</div>"
     },
     "newVocab": [
-      {
-        "word": "voy",
-        "en": "I go",
-        "zh": "我去",
-        "ja": "私は行く"
-      },
-      {
-        "word": "vas",
-        "en": "you go",
-        "zh": "你去",
-        "ja": "君は行く"
-      },
-      {
-        "word": "va",
-        "en": "he/she goes",
-        "zh": "他/她去",
-        "ja": "彼/彼女は行く"
-      },
-      {
-        "word": "vamos",
-        "en": "we go",
-        "zh": "我们去",
-        "ja": "私たちは行く"
-      },
-      {
-        "word": "van",
-        "en": "they go",
-        "zh": "他们去",
-        "ja": "彼らは行く"
-      },
-      {
-        "word": "al",
-        "en": "to the (a+el)",
-        "zh": "去（a+el缩合）",
-        "ja": "〜へ（a+el）"
-      },
-      {
-        "word": "comprar",
-        "en": "to buy",
-        "zh": "买",
-        "ja": "買う"
-      },
-      {
-        "word": "supermercado",
-        "en": "supermarket",
-        "zh": "超市",
-        "ja": "スーパー"
-      },
-      {
-        "word": "cine",
-        "en": "cinema",
-        "zh": "电影院",
-        "ja": "映画館"
-      },
-      {
-        "word": "playa",
-        "en": "beach",
-        "zh": "海滩",
-        "ja": "ビーチ"
-      },
-      {
-        "word": "restaurante",
-        "en": "restaurant",
-        "zh": "餐厅",
-        "ja": "レストラン"
-      }
+      "voy",
+      "vas",
+      "va",
+      "vamos",
+      "van",
+      "al",
+      "comprar",
+      "cine",
+      "playa",
+      "restaurante"
     ],
     "grammar": [
       "ir conjugation",
@@ -4986,96 +3907,21 @@
       "ja": "<h3>この・その・あの ＝ este・ese・aquel</h3><table><tr><th></th><th>男性</th><th>女性</th><th>中性（これ・それ・あれ）</th></tr><tr><td>この</td><td>este</td><td>esta</td><td>esto</td></tr><tr><td>その</td><td>ese</td><td>esa</td><td>eso</td></tr><tr><td>あの</td><td>aquel</td><td>aquella</td><td>aquello</td></tr></table><p>日本語の「こ・そ・あ」の3段階とぴったり対応します。違うのは名詞の性に一致させることだけ：<strong>este</strong> coche（この車）、<strong>esta</strong> casa（この家）。esto / eso / aquello は「これ・それ・あれ」です。</p><h3>形容詞：名詞の後ろに置き、一致させる</h3><p>日本語は「白い家」と形容詞が前で、形も変わりません。スペイン語では形容詞は普通名詞の<strong>後ろ</strong>に置き、名詞の<strong>性・数</strong>に一致させます：<strong>la casa blanca</strong>（白い家）、<strong>los zapatos nuevos</strong>（新しい靴）。</p><table><tr><th>意味</th><th>男・単</th><th>女・単</th><th>男・複</th><th>女・複</th></tr><tr><td>古い</td><td>viejo</td><td>vieja</td><td>viejos</td><td>viejas</td></tr><tr><td>新しい</td><td>nuevo</td><td>nueva</td><td>nuevos</td><td>nuevas</td></tr><tr><td>きれいな</td><td>bonito</td><td>bonita</td><td>bonitos</td><td>bonitas</td></tr><tr><td>醜い</td><td>feo</td><td>fea</td><td>feos</td><td>feas</td></tr><tr><td>小さい</td><td>pequeño</td><td>pequeña</td><td>pequeños</td><td>pequeñas</td></tr><tr><td>しょっぱい</td><td>salado</td><td>salada</td><td>salados</td><td>saladas</td></tr><tr><td>大きい</td><td>grande</td><td>grande</td><td>grandes</td><td>grandes</td></tr><tr><td>甘い</td><td>dulce</td><td>dulce</td><td>dulces</td><td>dulces</td></tr></table><p><strong>色：</strong><strong>-o</strong> で終わる色は性で変化（rojo/roja 赤、amarillo/amarilla 黄色、blanco/blanca 白、negro/negra 黒）。<strong>-e</strong> や子音で終わる色は性で変化しません（verde 緑、azul 青、marrón 茶色）。複数は -s/-es：verdes, azules, marrones。</p><h3>ser と estar：「〜だ」と「〜にある／〜ている」</h3><p>日本語の「家は大きい」はイ形容詞だけで述語になりますが、スペイン語では<strong>必ず動詞</strong>が必要で、ser か estar を選びます。</p><div class=\"vs\"><div><p><strong>SER ≈ 「〜だ・〜です」（性質・特徴）</strong></p><p>色・大きさ・新旧など<br>家は大きい → La casa <strong>es</strong> grande.<br>りんごは赤い → La manzana <strong>es</strong> roja.<br>この車は古い → Este coche <strong>es</strong> viejo.</p></div><div><p><strong>ESTAR ≈ 「〜にある・いる」「〜ている」（位置・状態）</strong></p><p>場所・一時的な状態<br>猫はテーブルの後ろにいる → El gato <strong>está</strong> detrás de la mesa.<br>新しい靴はベッドの下にある → Los zapatos nuevos <strong>están</strong> debajo de la cama.<br>（今日の）スープはしょっぱい → La sopa <strong>está</strong> salada.</p></div></div><div class=\"example\"><strong>ドアの後ろの本は青い。</strong> → El libro detrás de la puerta <strong>es</strong> azul.<br>「ドアの後ろの」は「どの本か」を示す連体修飾で、スペイン語では名詞の後ろに来ます。述語は「青い」（色＝性質）なので <strong>es</strong>。</div><h3>日本語話者のためのポイント</h3><ul><li>「〜は〜だ」で性質を述べるなら <strong>ser</strong>、「〜にある・いる」で場所を言うなら <strong>estar</strong>。</li><li>「〜ている」（変化した結果の状態）は estar になりやすい：りんごは緑色だ（品種）La manzana <strong>es</strong> verde ／ りんごがまだ青い（熟していない）La manzana <strong>está</strong> verde。</li><li>イ形容詞のように動詞を省略しないこと：La casa grande は「大きい家」という名詞句にすぎません。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ La casa grande.（「家は大きい」のつもり）→ ✓ La casa <strong>es</strong> grande.<br>✗ La casa está grande. → ✓ La casa <strong>es</strong> grande.<br>✗ Los zapatos son debajo de la cama. → ✓ Los zapatos <strong>están</strong> debajo de la cama.<br>✗ La casa blanco. → ✓ La casa <strong>blanca</strong>.<br>✗ El casa blanca. → ✓ <strong>La</strong> casa blanca.</div>"
     },
     "newVocab": [
-      {
-        "word": "viejo/a",
-        "en": "old",
-        "zh": "旧的/老的",
-        "ja": "古い"
-      },
-      {
-        "word": "nuevo/a",
-        "en": "new",
-        "zh": "新的",
-        "ja": "新しい"
-      },
-      {
-        "word": "feo/a",
-        "en": "ugly",
-        "zh": "丑的",
-        "ja": "醜い"
-      },
-      {
-        "word": "bonito/a",
-        "en": "pretty",
-        "zh": "漂亮的",
-        "ja": "きれいな"
-      },
-      {
-        "word": "dulce",
-        "en": "sweet",
-        "zh": "甜的",
-        "ja": "甘い"
-      },
-      {
-        "word": "salado/a",
-        "en": "salty",
-        "zh": "咸的",
-        "ja": "しょっぱい"
-      },
-      {
-        "word": "grande",
-        "en": "big",
-        "zh": "大的",
-        "ja": "大きい"
-      },
-      {
-        "word": "pequeño/a",
-        "en": "small",
-        "zh": "小的",
-        "ja": "小さい"
-      },
-      {
-        "word": "rojo/a",
-        "en": "red",
-        "zh": "红色",
-        "ja": "赤い"
-      },
-      {
-        "word": "azul",
-        "en": "blue",
-        "zh": "蓝色",
-        "ja": "青い"
-      },
-      {
-        "word": "verde",
-        "en": "green",
-        "zh": "绿色",
-        "ja": "緑"
-      },
-      {
-        "word": "amarillo/a",
-        "en": "yellow",
-        "zh": "黄色",
-        "ja": "黄色い"
-      },
-      {
-        "word": "blanco/a",
-        "en": "white",
-        "zh": "白色",
-        "ja": "白い"
-      },
-      {
-        "word": "negro/a",
-        "en": "black",
-        "zh": "黑色",
-        "ja": "黒い"
-      },
-      {
-        "word": "marrón",
-        "en": "brown",
-        "zh": "棕色",
-        "ja": "茶色"
-      }
+      "viejo/a",
+      "nuevo/a",
+      "feo/a",
+      "bonito/a",
+      "dulce",
+      "salado/a",
+      "grande",
+      "pequeño/a",
+      "rojo/a",
+      "azul",
+      "verde",
+      "amarillo/a",
+      "blanco/a",
+      "negro/a",
+      "marrón"
     ],
     "grammar": [
       "adjective agreement",
@@ -5282,114 +4128,22 @@
       "ja": "<h3>人を描写する形容詞：-o / -a</h3><p>日本語の形容詞は「彼は背が高い」「彼女は背が高い」で形が同じですが、スペイン語では名詞に合わせて男性 <strong>-o</strong>、女性 <strong>-a</strong>、複数は <strong>-s</strong> と変化します。</p><table><tr><th>意味</th><th>男性</th><th>女性</th></tr><tr><td>背が高い</td><td>alto</td><td>alta</td></tr><tr><td>背が低い</td><td>bajo</td><td>baja</td></tr><tr><td>太った</td><td>gordo</td><td>gorda</td></tr><tr><td>やせた</td><td>delgado</td><td>delgada</td></tr><tr><td>かっこいい・美人の</td><td>guapo</td><td>guapa</td></tr><tr><td>感じのいい・親切な</td><td>simpático</td><td>simpática</td></tr><tr><td>年をとった</td><td>viejo</td><td>vieja</td></tr><tr><td>小さい</td><td>pequeño</td><td>pequeña</td></tr></table><div class=\"example\">La chica es <strong>alta</strong>. — その女の子は背が高い。<br>El caballo es viejo pero <strong>simpático</strong>. — その馬は年寄りだけど人なつっこい。</div><h3>性で変化しない形容詞：-e・子音で終わるもの</h3><p><strong>-e</strong> や<strong>子音</strong>で終わる形容詞は男女同形です。複数は -e なら <strong>-s</strong>、子音なら <strong>-es</strong>（z は c に）：</p><table><tr><th>単数（男女同形）</th><th>複数</th><th>例</th></tr><tr><td>inteligente 頭がいい</td><td>inteligentes</td><td>La mujer es muy inteligente.</td></tr><tr><td>triste 悲しい</td><td>tristes</td><td>Los niños están tristes.</td></tr><tr><td>grande 大きい</td><td>grandes</td><td>El perro es grande.</td></tr><tr><td>joven 若い</td><td>jóvenes</td><td>una mujer joven（若い女性）</td></tr><tr><td>feliz 幸せな</td><td>felices</td><td>El perro es grande y feliz.</td></tr></table><h3>動物にも性がある</h3><p>el perro / la perra 犬、el gato / la gata 猫、el pájaro 鳥、el pez 魚、el caballo 馬、la vaca 牛、el ratón ネズミ、el conejo ウサギ。形容詞も合わせます：<strong>La gata es pequeña y bonita.</strong>（そのメス猫は小さくてかわいい。）</p><h3>日本語話者のためのポイント</h3><ul><li><strong>語順：</strong>日本語は「若い女性」と形容詞が前ですが、スペイン語は <strong>una mujer joven</strong> と後ろ。</li><li>人柄や見た目など「〜な人だ」は <strong>ser</strong>、「今〜している（悲しんでいる）」という一時的な気持ちは <strong>estar</strong>：Los niños <strong>están</strong> tristes。</li><li>「小さくてかわいい」の「〜くて」は <strong>y</strong> でつなぎます：pequeña <strong>y</strong> bonita。</li><li>日本語には複数形がありませんが、名詞が複数なら形容詞も複数：los niños triste<strong>s</strong>。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ La chica es alto. → ✓ La chica es <strong>alta</strong>.<br>✗ La chica alta es.（日本語の語順）→ ✓ La chica <strong>es alta</strong>.<br>✗ una mujer jovena → ✓ una mujer <strong>joven</strong><br>✗ La mujer es inteligenta. → ✓ La mujer es <strong>inteligente</strong>.<br>✗ Los niños están triste. → ✓ Los niños están <strong>tristes</strong>.</div>"
     },
     "newVocab": [
-      {
-        "word": "alto/a",
-        "en": "tall",
-        "zh": "高的",
-        "ja": "背が高い"
-      },
-      {
-        "word": "bajo/a",
-        "en": "short",
-        "zh": "矮的",
-        "ja": "背が低い"
-      },
-      {
-        "word": "gordo/a",
-        "en": "fat",
-        "zh": "胖的",
-        "ja": "太った"
-      },
-      {
-        "word": "delgado/a",
-        "en": "thin",
-        "zh": "瘦的",
-        "ja": "やせた"
-      },
-      {
-        "word": "guapo/a",
-        "en": "handsome/pretty",
-        "zh": "帅/漂亮",
-        "ja": "ハンサム/きれい"
-      },
-      {
-        "word": "inteligente",
-        "en": "intelligent",
-        "zh": "聪明的",
-        "ja": "賢い"
-      },
-      {
-        "word": "joven",
-        "en": "young",
-        "zh": "年轻的",
-        "ja": "若い"
-      },
-      {
-        "word": "simpático/a",
-        "en": "nice/friendly",
-        "zh": "友善的",
-        "ja": "感じのよい"
-      },
-      {
-        "word": "feliz",
-        "en": "happy",
-        "zh": "幸福的",
-        "ja": "幸せな"
-      },
-      {
-        "word": "triste",
-        "en": "sad",
-        "zh": "悲伤的",
-        "ja": "悲しい"
-      },
-      {
-        "word": "perro",
-        "en": "dog",
-        "zh": "狗",
-        "ja": "犬"
-      },
-      {
-        "word": "gato",
-        "en": "cat",
-        "zh": "猫",
-        "ja": "猫"
-      },
-      {
-        "word": "pájaro",
-        "en": "bird",
-        "zh": "鸟",
-        "ja": "鳥"
-      },
-      {
-        "word": "pez",
-        "en": "fish",
-        "zh": "鱼",
-        "ja": "魚"
-      },
-      {
-        "word": "caballo",
-        "en": "horse",
-        "zh": "马",
-        "ja": "馬"
-      },
-      {
-        "word": "vaca",
-        "en": "cow",
-        "zh": "牛",
-        "ja": "牛"
-      },
-      {
-        "word": "ratón",
-        "en": "mouse",
-        "zh": "老鼠",
-        "ja": "ネズミ"
-      },
-      {
-        "word": "conejo",
-        "en": "rabbit",
-        "zh": "兔子",
-        "ja": "うさぎ"
-      }
+      "alto/a",
+      "bajo/a",
+      "gordo/a",
+      "delgado/a",
+      "guapo/a",
+      "inteligente",
+      "joven",
+      "simpático/a",
+      "feliz",
+      "triste",
+      "pájaro",
+      "pez",
+      "caballo",
+      "vaca",
+      "ratón",
+      "conejo"
     ],
     "grammar": [
       "adjectives for people",
@@ -5598,78 +4352,18 @@
       "ja": "<h3>職業名詞と性</h3><p>日本語の「先生・医者・看護師」は男女共通ですが、スペイン語の職業名詞の多くは<strong>男性形と女性形</strong>があります：-o → -a、-or → -ora。</p><table><tr><th>意味</th><th>男性</th><th>女性</th></tr><tr><td>先生</td><td>profesor</td><td>profesora</td></tr><tr><td>医者</td><td>doctor</td><td>doctora</td></tr><tr><td>エンジニア</td><td>ingeniero</td><td>ingeniera</td></tr><tr><td>弁護士</td><td>abogado</td><td>abogada</td></tr><tr><td>看護師</td><td>enfermero</td><td>enfermera</td></tr><tr><td>ウェイター／ウェイトレス</td><td>camarero</td><td>camarera</td></tr><tr><td>料理人</td><td>cocinero</td><td>cocinera</td></tr><tr><td>音楽家</td><td>músico</td><td>música</td></tr><tr><td>消防士</td><td>bombero</td><td>bombera</td></tr></table><p><strong>男女同形</strong>のもの（冠詞だけ変わる）：el / la <strong>estudiante</strong> 学生、el / la <strong>policía</strong> 警察官、el / la <strong>artista</strong> 芸術家。</p><h3>ser + 職業 ＝「〜は…です」</h3><p>「母は医者<strong>です</strong>」の「です」が <strong>ser</strong> に当たります。職業はその人が何者かという本質・身分なので、常に ser を使います。日本語と同じく<strong>冠詞は付けません</strong>。</p><div class=\"example\">Mi mamá <strong>es doctora</strong>. — 母は医者です。<br>Mi papá <strong>es ingeniero</strong>. — 父はエンジニアです。<br>Ella <strong>es enfermera</strong>. — 彼女は看護師です。<br>Mi hermano <strong>es bombero</strong>. — 兄（弟）は消防士です。<br>Mi papá es abogado y mi mamá es profesora. — 父は弁護士で、母は先生です。</div><h3>日本語話者のためのポイント</h3><ul><li>女性について言うときは必ず女性形に：母は先生 → Mi mamá es profesor<strong>a</strong>。</li><li>「です」は人称で変化します：yo <strong>soy</strong>、tú <strong>eres</strong>、él / ella <strong>es</strong>。</li><li>「病院に<strong>いる</strong>」は estar ですが、「医者<strong>だ</strong>」は ser。</li><li>スペイン語では兄と弟を区別せず、どちらも hermano。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い：</strong><br>✗ Mi mamá es doctor. → ✓ Mi mamá es <strong>doctora</strong>.<br>✗ Mi mamá está doctora. → ✓ Mi mamá <strong>es</strong> doctora.<br>✗ María es estudianta. → ✓ María es <strong>estudiante</strong>.（男女同形）<br>✗ Yo es estudiante. → ✓ Yo <strong>soy</strong> estudiante.<br>✗ la camareroa → ✓ la <strong>camarera</strong></div>"
     },
     "newVocab": [
-      {
-        "word": "profesor/a",
-        "en": "teacher",
-        "zh": "老师",
-        "ja": "先生"
-      },
-      {
-        "word": "doctor/a",
-        "en": "doctor",
-        "zh": "医生",
-        "ja": "医者"
-      },
-      {
-        "word": "ingeniero/a",
-        "en": "engineer",
-        "zh": "工程师",
-        "ja": "エンジニア"
-      },
-      {
-        "word": "abogado/a",
-        "en": "lawyer",
-        "zh": "律师",
-        "ja": "弁護士"
-      },
-      {
-        "word": "enfermero/a",
-        "en": "nurse",
-        "zh": "护士",
-        "ja": "看護師"
-      },
-      {
-        "word": "camarero/a",
-        "en": "waiter/waitress",
-        "zh": "服务员",
-        "ja": "ウェイター"
-      },
-      {
-        "word": "policía",
-        "en": "police officer",
-        "zh": "警察",
-        "ja": "警察官"
-      },
-      {
-        "word": "estudiante",
-        "en": "student",
-        "zh": "学生",
-        "ja": "学生"
-      },
-      {
-        "word": "cocinero/a",
-        "en": "cook",
-        "zh": "厨师",
-        "ja": "料理人"
-      },
-      {
-        "word": "músico/a",
-        "en": "musician",
-        "zh": "音乐家",
-        "ja": "音楽家"
-      },
-      {
-        "word": "artista",
-        "en": "artist",
-        "zh": "艺术家",
-        "ja": "芸術家"
-      },
-      {
-        "word": "bombero/a",
-        "en": "firefighter",
-        "zh": "消防员",
-        "ja": "消防士"
-      }
+      "profesor/a",
+      "doctor/a",
+      "ingeniero/a",
+      "abogado/a",
+      "enfermero/a",
+      "camarero/a",
+      "policía",
+      "estudiante",
+      "cocinero/a",
+      "músico/a",
+      "artista",
+      "bombero/a"
     ],
     "grammar": [
       "professions + gender",
@@ -5872,78 +4566,17 @@
       "ja": "<h3>不定詞＝辞書形</h3><p>不定詞は辞書に載っている形で、日本語の「話す・食べる」の辞書形に当たります。語尾は必ず <strong>-ar / -er / -ir</strong> のどれかで、この語尾によって後の活用パターンが決まります。</p><table><tr><th>-AR</th><th>-ER</th><th>-IR</th></tr><tr><td>hablar 話す</td><td>comer 食べる</td><td>vivir 住む・生きる</td></tr><tr><td>trabajar 働く</td><td>beber 飲む</td><td>ir 行く</td></tr><tr><td>estudiar 勉強する</td><td>querer 〜したい・欲しい</td><td>venir 来る</td></tr><tr><td>comprar 買う</td><td>poder 〜できる</td><td></td></tr><tr><td>llamarse 〜という名前だ</td><td>hacer する・作る</td><td></td></tr></table><h3>「〜したい」「〜できる」＝ querer / poder ＋ 不定詞</h3><p>日本語では「食べ<strong>たい</strong>」「話せる」のように動詞の後ろに助動詞がつきますが、スペイン語では querer / poder が<strong>独立した動詞として前に来て人称変化</strong>し、後ろの動詞は不定詞のままです。quiero, puedo のように語幹の母音も変わります（nosotros / vosotros 以外）。</p><table><tr><th></th><th>querer（〜したい）</th><th>poder（〜できる）</th></tr><tr><td>yo 私</td><td>quiero</td><td>puedo</td></tr><tr><td>tú 君</td><td>quieres</td><td>puedes</td></tr><tr><td>él / ella / usted 彼・彼女・あなた</td><td>quiere</td><td>puede</td></tr><tr><td>nosotros 私たち</td><td>queremos</td><td>podemos</td></tr><tr><td>vosotros 君たち</td><td>queréis</td><td>podéis</td></tr><tr><td>ellos / ustedes 彼ら・あなた方</td><td>quieren</td><td>pueden</td></tr></table><div class=\"example\">Quiero comer. — 食べたい。<br>Puedo hablar español. — スペイン語が話せます。<br>¿Puedes venir a mi casa? — うちに来られる？<br>Ella quiere estudiar y trabajar. — 彼女は勉強も仕事もしたがっている。<br>Quiero ir a la playa. — ビーチに行きたい。</div><h3>日本語話者のためのポイント</h3><ul><li>語順が日本語と逆です。「ビーチに・行き・たい」→ Quiero（たい）+ ir（行く）+ a la playa（ビーチに）。</li><li>「に」に当たる <strong>a</strong> は名詞の<strong>前</strong>に置きます（a la playa）。</li><li>主語の「私は」を言わないのは日本語と同じで自然です。動詞の語尾（quier<strong>o</strong>）が「私」を示します。</li><li>ir（行く）と venir（来る）の使い分けは日本語の「行く／来る」とほぼ同じ感覚です。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Quiero como.（後ろの動詞まで活用）→ ✓ Quiero comer.<br>✗ Puedo hablando español. → ✓ Puedo hablar español.<br>✗ La playa a ir quiero.（日本語の語順のまま）→ ✓ Quiero ir a la playa.<br>✗ ¿Puedes vienes a mi casa? → ✓ ¿Puedes venir a mi casa?</div>"
     },
     "newVocab": [
-      {
-        "word": "llamarse",
-        "en": "to be called",
-        "zh": "叫做",
-        "ja": "～という名前である"
-      },
-      {
-        "word": "vivir",
-        "en": "to live",
-        "zh": "生活/居住",
-        "ja": "住む・生きる"
-      },
-      {
-        "word": "hablar",
-        "en": "to speak",
-        "zh": "说话",
-        "ja": "話す"
-      },
-      {
-        "word": "trabajar",
-        "en": "to work",
-        "zh": "工作",
-        "ja": "働く"
-      },
-      {
-        "word": "estudiar",
-        "en": "to study",
-        "zh": "学习",
-        "ja": "勉強する"
-      },
-      {
-        "word": "venir",
-        "en": "to come",
-        "zh": "来",
-        "ja": "来る"
-      },
-      {
-        "word": "querer",
-        "en": "to want",
-        "zh": "想要",
-        "ja": "～したい"
-      },
-      {
-        "word": "poder",
-        "en": "to be able to",
-        "zh": "能够",
-        "ja": "～できる"
-      },
-      {
-        "word": "comer",
-        "en": "to eat",
-        "zh": "吃",
-        "ja": "食べる"
-      },
-      {
-        "word": "beber",
-        "en": "to drink",
-        "zh": "喝",
-        "ja": "飲む"
-      },
-      {
-        "word": "ir",
-        "en": "to go",
-        "zh": "去",
-        "ja": "行く"
-      },
-      {
-        "word": "hacer",
-        "en": "to do / to make",
-        "zh": "做/制作",
-        "ja": "する・作る"
-      }
+      "llamarse",
+      "vivir",
+      "hablar",
+      "trabajar",
+      "estudiar",
+      "venir",
+      "querer",
+      "poder",
+      "comer",
+      "beber",
+      "ir"
     ],
     "grammar": [
       "infinitive groups (-ar, -er, -ir)",
@@ -6136,60 +4769,15 @@
       "ja": "<h3>規則動詞の活用のしかた</h3><p>不定詞の語尾（-ar, -er, -ir）を取り、人称ごとの語尾をつけます：habl-ar → habl<strong>o</strong>（私は話す）。trabajar, estudiar は hablar と、beber は comer と同じパターンです。</p><table><tr><th>人称</th><th>hablar 話す</th><th>comer 食べる</th><th>vivir 住む</th></tr><tr><td>yo 私</td><td>habl<strong>o</strong></td><td>com<strong>o</strong></td><td>viv<strong>o</strong></td></tr><tr><td>tú 君</td><td>habl<strong>as</strong></td><td>com<strong>es</strong></td><td>viv<strong>es</strong></td></tr><tr><td>él / ella / usted 彼・彼女・あなた</td><td>habl<strong>a</strong></td><td>com<strong>e</strong></td><td>viv<strong>e</strong></td></tr><tr><td>nosotros 私たち</td><td>habl<strong>amos</strong></td><td>com<strong>emos</strong></td><td>viv<strong>imos</strong></td></tr><tr><td>vosotros 君たち</td><td>habl<strong>áis</strong></td><td>com<strong>éis</strong></td><td>viv<strong>ís</strong></td></tr><tr><td>ellos / ellas / ustedes 彼ら・あなた方</td><td>habl<strong>an</strong></td><td>com<strong>en</strong></td><td>viv<strong>en</strong></td></tr></table><div class=\"tip\"><strong>覚え方：</strong>yo は必ず <strong>-o</strong>、tú は必ず <strong>-s</strong>、ellos は必ず <strong>-n</strong> で終わります。-er と -ir の違いは nosotros（-emos / -imos）と vosotros（-éis / -ís）だけ。</div><h3>日本語話者のためのポイント</h3><ul><li>日本語にも「書か・書き・書く・書け」のような<strong>活用</strong>がありますが、日本語は否定・丁寧さ・時制で変わり、<strong>人称では変わりません</strong>（私は食べる／彼は食べる）。スペイン語は「誰が」で語尾が変わります。</li><li>語尾が主語を示すので、主語は普通省略します。「スペイン語を話します」と主語を言わない日本語の感覚がそのまま使えます：<strong>Hablo español</strong>。</li><li>語順は動詞が先：「スペイン語を話す」→ Hablo español（✗ Español hablo）。</li><li>疑問文に「か」はなく、¿ ? と上昇イントネーションで作ります：¿Bebes café? 「コーヒー飲む？」</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Ella vivir en Madrid.（辞書形のまま）→ ✓ Ella vive en Madrid.<br>✗ Nosotros come mucha fruta. → ✓ Nosotros comemos mucha fruta.<br>✗ Español hablo.（SOV語順）→ ✓ Hablo español.<br>✗ ¿Tú bebe café o té? → ✓ ¿Tú bebes café o té?</div><div class=\"example\">Ellos viven en Barcelona. — 彼らはバルセロナに住んでいる。<br>Estudiamos español y ella trabaja. — 私たちはスペイン語を勉強し、彼女は働いている。</div><h3>まず規則、それからパターン</h3><p>ほとんどの動詞は3つの活用の規則どおりですが、よく使う動詞の多くは<strong>パターンのある不規則動詞</strong>です（語尾は同じで、語幹が変わる）：</p><table><tr><th>パターン</th><th>例</th></tr><tr><td>o → ue</td><td>poder できる：<strong>puedo</strong>, puedes…、でも <strong>podemos, podéis</strong></td></tr><tr><td>e → ie</td><td>querer 欲しい：<strong>quiero</strong>, quieres…、でも <strong>queremos</strong></td></tr><tr><td>e → i</td><td>pedir 頼む：<strong>pido</strong>, pides…、でも <strong>pedimos</strong></td></tr><tr><td>yo が -go</td><td>hacer：<strong>hago</strong>、poner：<strong>pongo</strong>、salir：<strong>salgo</strong></td></tr></table><p>nosotros と vosotros は語幹が変わりません。参考の「不規則動詞：その中の規則性」も見てください。</p>"
     },
     "newVocab": [
-      {
-        "word": "hablo",
-        "en": "I speak",
-        "zh": "我说",
-        "ja": "私は話す"
-      },
-      {
-        "word": "hablas",
-        "en": "you speak",
-        "zh": "你说",
-        "ja": "君は話す"
-      },
-      {
-        "word": "habla",
-        "en": "he/she speaks",
-        "zh": "他/她说",
-        "ja": "彼/彼女は話す"
-      },
-      {
-        "word": "como",
-        "en": "I eat",
-        "zh": "我吃",
-        "ja": "私は食べる"
-      },
-      {
-        "word": "comes",
-        "en": "you eat",
-        "zh": "你吃",
-        "ja": "君は食べる"
-      },
-      {
-        "word": "come",
-        "en": "he/she eats",
-        "zh": "他/她吃",
-        "ja": "彼/彼女は食べる"
-      },
-      {
-        "word": "vivo",
-        "en": "I live",
-        "zh": "我住",
-        "ja": "私は住む"
-      },
-      {
-        "word": "vives",
-        "en": "you live",
-        "zh": "你住",
-        "ja": "君は住む"
-      },
-      {
-        "word": "vive",
-        "en": "he/she lives",
-        "zh": "他/她住",
-        "ja": "彼/彼女は住む"
-      }
+      "hablo",
+      "hablas",
+      "habla",
+      "como",
+      "comes",
+      "come",
+      "vivo",
+      "vives",
+      "vive"
     ],
     "grammar": [
       "-ar conjugation",
@@ -6358,66 +4946,15 @@
       "ja": "<h3>どのくらいの頻度で？</h3><table><tr><th>スペイン語</th><th>日本語</th></tr><tr><td><strong>siempre</strong></td><td>いつも</td></tr><tr><td><strong>normalmente</strong></td><td>普段は、たいてい</td></tr><tr><td><strong>muchas veces</strong></td><td>よく、何度も</td></tr><tr><td><strong>a veces</strong></td><td>時々</td></tr><tr><td><strong>nunca</strong></td><td>決して〜ない、一度も〜ない</td></tr></table><h3>いつ？</h3><table><tr><th>スペイン語</th><th>日本語</th></tr><tr><td><strong>pronto</strong></td><td>もうすぐ、すぐに（スペインでは「早く」も）</td></tr><tr><td><strong>temprano</strong></td><td>（時刻が）早く</td></tr><tr><td><strong>tarde</strong></td><td>遅く</td></tr><tr><td><strong>ya</strong></td><td>もう、すでに</td></tr><tr><td><strong>todavía</strong></td><td>まだ；<strong>todavía no</strong> = まだ〜ない</td></tr></table><div class=\"example\">Siempre estudio por la mañana. — いつも朝に勉強する。<br>A veces como tarde. / Como a veces tarde. — 時々遅く食べる。<br>Ya tengo el libro. — もうその本を持っている。<br>Todavía no tengo el libro. — まだその本を持っていない。<br>Llegamos temprano. — 私たちは早く着く。</div><h3>日本語話者のためのポイント</h3><ul><li>「いつも」「時々」と同じく、<strong>動詞の前</strong>に置けば自然です。スペイン語は動詞の後ろにも置けます。</li><li>「もう」= <strong>ya</strong>、「まだ」= <strong>todavía</strong>、「まだ〜ない」= <strong>todavía no</strong>。語順も日本語の発想と同じです。</li><li><strong>nunca</strong> は「決して〜<strong>ない</strong>」のように否定と呼応します。動詞の前なら nunca だけ（Nunca bebo café）、動詞の後ろなら no も必要（No bebo nunca café）。</li><li>「早く」は2つ：時刻が早い = <strong>temprano</strong>、もうすぐ = <strong>pronto</strong>。「朝に」は <strong>por la mañana</strong>（冠詞 la を忘れずに）。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Bebo nunca café. → ✓ Nunca bebo café / No bebo nunca café.<br>✗ Siempre estudio en mañana. → ✓ Siempre estudio por la mañana.<br>✗ Todavía tengo no el libro. → ✓ Todavía no tengo el libro.</div>"
     },
     "newVocab": [
-      {
-        "word": "nunca",
-        "en": "never",
-        "zh": "从不",
-        "ja": "決して〜ない"
-      },
-      {
-        "word": "a veces",
-        "en": "sometimes",
-        "zh": "有时",
-        "ja": "時々"
-      },
-      {
-        "word": "siempre",
-        "en": "always",
-        "zh": "总是",
-        "ja": "いつも"
-      },
-      {
-        "word": "pronto",
-        "en": "soon",
-        "zh": "很快",
-        "ja": "すぐに"
-      },
-      {
-        "word": "tarde",
-        "en": "late",
-        "zh": "晚",
-        "ja": "遅く"
-      },
-      {
-        "word": "temprano",
-        "en": "early",
-        "zh": "早",
-        "ja": "早く"
-      },
-      {
-        "word": "ya",
-        "en": "already",
-        "zh": "已经",
-        "ja": "もう"
-      },
-      {
-        "word": "todavía",
-        "en": "still / yet",
-        "zh": "仍然",
-        "ja": "まだ"
-      },
-      {
-        "word": "normalmente",
-        "en": "normally",
-        "zh": "通常",
-        "ja": "普通は"
-      },
-      {
-        "word": "muchas veces",
-        "en": "many times / often",
-        "zh": "经常",
-        "ja": "よく"
-      }
+      "a veces",
+      "siempre",
+      "pronto",
+      "tarde",
+      "temprano",
+      "ya",
+      "todavía",
+      "normalmente",
+      "muchas veces"
     ],
     "grammar": [
       "adverbs of frequency",
@@ -6614,60 +5151,14 @@
       "ja": "<h3>よく使う接続詞</h3><table><tr><th>スペイン語</th><th>日本語</th><th>例</th></tr><tr><td><strong>y</strong></td><td>と、そして</td><td>Como pan y queso. パンとチーズを食べる。</td></tr><tr><td><strong>o</strong></td><td>または、〜か〜</td><td>¿Quieres café o té? コーヒーか紅茶はいかが？</td></tr><tr><td><strong>pero</strong></td><td>でも、けれど</td><td>Quiero ir, pero no puedo. 行きたいけど、行けない。</td></tr><tr><td><strong>porque</strong></td><td>〜から、〜ので</td><td>Estudio porque tengo un examen. 試験があるから勉強する。</td></tr><tr><td><strong>sin embargo</strong></td><td>しかし、それでも</td><td>Es caro; sin embargo, lo compro. 高い。それでも買う。</td></tr><tr><td><strong>además</strong></td><td>さらに、その上</td><td>Además, hablo inglés. さらに英語も話す。</td></tr><tr><td><strong>ni… ni</strong></td><td>AもBも〜ない</td><td>Ni como carne ni pescado. 肉も魚も食べない。</td></tr></table><h3>「〜も」と「〜も…ない」：también / tampoco</h3><div class=\"vs\"><div><strong>también ＝ 私も</strong><br>— Me gusta bailar. 踊るのが好き。<br>— A mí <strong>también</strong>. 私も。</div><div><strong>tampoco ＝ 私も〜ない</strong><br>— No me gusta el fútbol. サッカーは好きじゃない。<br>— A mí <strong>tampoco</strong>. 私も（好きじゃない）。</div></div><p>gustar の文への返事は <strong>A mí también / tampoco</strong>、普通の動詞なら <strong>Yo también / tampoco</strong>（— Quiero ir. — Yo también. 私も行きたい）。</p><h3>日本語話者のためのポイント</h3><ul><li>「から・ので」は日本語では理由が<strong>前</strong>（好きだから勉強する）ですが、スペイン語では <strong>porque ＋ 理由</strong> が後ろに来るのが普通：Estudio español <strong>porque me gusta</strong>.</li><li>日本語の「と」は名詞しかつなげませんが、<strong>y</strong> は文もつなげます：Estudio y trabajo（勉強して、働く）。</li><li>「〜も…ない」は日本語では「も」＋否定ですが、スペイン語は1語 <strong>tampoco</strong>。「AもBも〜ない」は <strong>ni A ni B</strong>。</li><li>「なぜ？」= <strong>¿por qué?</strong>（2語・アクセントあり）、「〜から」= <strong>porque</strong>（1語・アクセントなし）。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ ¿Porque estudias español?（「なぜ」の意味で）→ ✓ ¿Por qué estudias español?<br>✗ A mí también no. → ✓ A mí tampoco.<br>✗ Estudio español por qué me gusta. → ✓ Estudio español porque me gusta.<br>✗ Carne y pescado no como. → ✓ Ni como carne ni pescado.</div>"
     },
     "newVocab": [
-      {
-        "word": "y",
-        "en": "and",
-        "zh": "和",
-        "ja": "と・そして"
-      },
-      {
-        "word": "pero",
-        "en": "but",
-        "zh": "但是",
-        "ja": "でも"
-      },
-      {
-        "word": "porque",
-        "en": "because",
-        "zh": "因为",
-        "ja": "なぜなら"
-      },
-      {
-        "word": "también",
-        "en": "also / too",
-        "zh": "也",
-        "ja": "〜も"
-      },
-      {
-        "word": "tampoco",
-        "en": "neither / not either",
-        "zh": "也不",
-        "ja": "〜も…ない"
-      },
-      {
-        "word": "o",
-        "en": "or",
-        "zh": "或者",
-        "ja": "または"
-      },
-      {
-        "word": "ni",
-        "en": "neither / nor",
-        "zh": "既不",
-        "ja": "〜も〜もない"
-      },
-      {
-        "word": "sin embargo",
-        "en": "however",
-        "zh": "然而",
-        "ja": "しかしながら"
-      },
-      {
-        "word": "además",
-        "en": "moreover / besides",
-        "zh": "此外",
-        "ja": "さらに"
-      }
+      "y",
+      "pero",
+      "porque",
+      "también",
+      "o",
+      "ni",
+      "sin embargo",
+      "además"
     ],
     "grammar": [
       "conjunctions",
@@ -6868,66 +5359,16 @@
       "ja": "<h3>gustar は「〜が好きだ」の「が」に近い</h3><p>日本語の「私はコーヒー<strong>が</strong>好きだ」では、好きな対象が「が」で示されます。スペイン語も同じ発想で、好きな<strong>もの</strong>が文の主語になり、好きだと感じる<strong>人</strong>は間接目的語代名詞（me, te, le…）で表します。<br><strong>Me gusta el café</strong> ≈「私<strong>には</strong>コーヒー<strong>が</strong>好ましい」</p><p>動詞 gusta / gustan は「が」に当たる<strong>もの</strong>に合わせて変わります。</p><p><strong>(no) + 代名詞 + gusta / gustan + 好きなもの</strong></p><table><tr><th>誰が好き？</th><th>代名詞</th><th>例</th></tr><tr><td>私 (a mí)</td><td><strong>me</strong></td><td>Me gusta el café. 私はコーヒーが好き。</td></tr><tr><td>君 (a ti)</td><td><strong>te</strong></td><td>Te gusta el café. 君はコーヒーが好き。</td></tr><tr><td>彼・彼女・あなた (a él / a ella / a usted)</td><td><strong>le</strong></td><td>Le gusta el café. 彼／彼女／あなたはコーヒーが好き。</td></tr><tr><td>私たち (a nosotros)</td><td><strong>nos</strong></td><td>Nos gusta la música. 私たちは音楽が好き。</td></tr><tr><td>君たち (a vosotros)</td><td><strong>os</strong></td><td>Os gusta el café. 君たちはコーヒーが好き。</td></tr><tr><td>彼ら・あなた方 (a ellos / a ustedes)</td><td><strong>les</strong></td><td>Les gusta el café. 彼らはコーヒーが好き。</td></tr></table><h3>gusta か gustan か</h3><div class=\"vs\"><div><strong>gusta</strong>：単数のもの・動詞の不定詞<br>Me gusta el chocolate. チョコが好き。<br>Me gusta bailar. 踊るのが好き。</div><div><strong>gustan</strong>：複数のもの<br>Me gustan los perros. 犬が好き。<br>Me gustan las películas. 映画が好き。</div></div><p>否定は代名詞の前に <strong>no</strong>：No me gusta el pescado（魚は好きじゃない）、No le gusta la sopa（彼はスープが好きじゃない）。<strong>encantar</strong>（大好きだ）も同じ形：Me encanta el chocolate. Me encantan los animales.</p><h3>日本語話者のためのポイント</h3><ul><li>「好き」は日本語では形が変わりませんが、gustar は「が」に当たるものが単数なら gusta、複数なら <strong>gustan</strong>。日本語は単複を言わないので、冠詞 los / las を見て判断しましょう。</li><li>「犬が好き」「音楽が好き」のような一般論でも定冠詞が必要：Me gusta <strong>la</strong> música（✗ Me gusta música）。</li><li><strong>A mí</strong> me gusta… は「私<strong>は</strong>（ね）」という対比の「は」に近い強調です。le は「彼・彼女・あなた」のどれにもなるので、はっきりさせたいときは <strong>A ella</strong> le gusta のように言います。</li><li>「私も（好き）」= A mí también、「私も（好きじゃない）」= A mí tampoco。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Yo gusto el café.（「私が好く」と直訳）→ ✓ Me gusta el café.<br>✗ Me gusta los perros. → ✓ Me gustan los perros.<br>✗ Me gusta chocolate. → ✓ Me gusta el chocolate.<br>✗ Me no gusta el pescado. → ✓ No me gusta el pescado.<br>✗ Me gusta bailando. → ✓ Me gusta bailar.</div>"
     },
     "newVocab": [
-      {
-        "word": "gusta",
-        "en": "pleases (singular)",
-        "zh": "喜欢（单数）",
-        "ja": "好き（単数）"
-      },
-      {
-        "word": "gustan",
-        "en": "pleases (plural)",
-        "zh": "喜欢（复数）",
-        "ja": "好き（複数）"
-      },
-      {
-        "word": "me",
-        "en": "me (indirect)",
-        "zh": "我（间接宾语）",
-        "ja": "私に"
-      },
-      {
-        "word": "te",
-        "en": "you (indirect)",
-        "zh": "你（间接宾语）",
-        "ja": "君に"
-      },
-      {
-        "word": "le",
-        "en": "him/her/you formal (indirect)",
-        "zh": "他/她/您（间接宾语）",
-        "ja": "彼/彼女に"
-      },
-      {
-        "word": "nos",
-        "en": "us (indirect)",
-        "zh": "我们（间接宾语）",
-        "ja": "私たちに"
-      },
-      {
-        "word": "les",
-        "en": "them/you all (indirect)",
-        "zh": "他们/你们（间接宾语）",
-        "ja": "彼らに"
-      },
-      {
-        "word": "encanta",
-        "en": "loves / is delighted by",
-        "zh": "非常喜欢",
-        "ja": "大好き"
-      },
-      {
-        "word": "chocolate",
-        "en": "chocolate",
-        "zh": "巧克力",
-        "ja": "チョコレート"
-      },
-      {
-        "word": "bailar",
-        "en": "to dance",
-        "zh": "跳舞",
-        "ja": "踊る"
-      }
+      "gusta",
+      "gustan",
+      "me",
+      "te",
+      "le",
+      "nos",
+      "les",
+      "encanta",
+      "chocolate",
+      "bailar"
     ],
     "grammar": [
       "gustar",
@@ -7128,60 +5569,14 @@
       "ja": "<h3>再帰動詞：動作が自分に返ってくる</h3><p>再帰動詞は不定詞の最後に <strong>-se</strong> がつきます（ducharse, levantarse, llamarse）。-se は「自分を／自分に」の意味で、主語に合わせて <strong>me, te, se, nos, os, se</strong> に変わり、活用した動詞の<strong>前</strong>に置きます。</p><table><tr><th>人称</th><th>再帰代名詞</th><th>ducharse（シャワーを浴びる）</th></tr><tr><td>yo 私</td><td><strong>me</strong></td><td>me ducho</td></tr><tr><td>tú 君</td><td><strong>te</strong></td><td>te duchas</td></tr><tr><td>él / ella / usted 彼・彼女・あなた</td><td><strong>se</strong></td><td>se ducha</td></tr><tr><td>nosotros 私たち</td><td><strong>nos</strong></td><td>nos duchamos</td></tr><tr><td>vosotros 君たち</td><td><strong>os</strong></td><td>os ducháis</td></tr><tr><td>ellos / ellas / ustedes 彼ら</td><td><strong>se</strong></td><td>se duchan</td></tr></table><h3>日本語の「自動詞／他動詞」で考えるとわかりやすい</h3><p>日本語には「起こす／起きる」「寝かせる／寝る」のようなペアがあります。スペイン語は<strong>他動詞に -se をつけて「自分を〜する」＝自動詞</strong>にします。</p><table><tr><th>他動詞（人・物を〜する）</th><th>再帰動詞（自分が〜する）</th><th>私 / 彼・彼女</th></tr><tr><td>despertar 目を覚まさせる</td><td>despertarse 目が覚める (e→ie)</td><td>me despierto / se despierta</td></tr><tr><td>levantar 起こす・上げる</td><td>levantarse 起きる</td><td>me levanto / se levanta</td></tr><tr><td>duchar シャワーを浴びせる</td><td>ducharse シャワーを浴びる</td><td>me ducho / se ducha</td></tr><tr><td>lavar 洗う</td><td>lavarse 自分の体を洗う</td><td>me lavo / se lava</td></tr><tr><td>vestir 服を着せる</td><td>vestirse 服を着る (e→i)</td><td>me visto / se viste</td></tr><tr><td>peinar 髪をとかしてあげる</td><td>peinarse 髪をとかす</td><td>me peino / se peina</td></tr><tr><td>acostar 寝かせる</td><td>acostarse 寝る (o→ue)</td><td>me acuesto / se acuesta</td></tr><tr><td>sentar 座らせる</td><td>sentarse 座る (e→ie)</td><td>me siento / se sienta</td></tr><tr><td>llamar 呼ぶ</td><td>llamarse 〜という名前だ</td><td>me llamo / se llama</td></tr></table><p>nosotros では語幹は変わりません：<strong>nos acostamos</strong>, nos despertamos, nos vestimos。</p><div class=\"example\">Me llamo Ana. — アナといいます。（直訳：私は自分をアナと呼ぶ）<br>Me levanto a las ocho. — 8時に起きる。<br>Se levanta a las siete. — 彼女は7時に起きる。<br>Ella se viste rápido. — 彼女はさっと服を着る。<br>Nos acostamos a las once. — 私たちは11時に寝る。<br>Me lavo las manos. — 手を洗う。</div><h3>日本語話者のためのポイント</h3><ul><li>代名詞 me / se は「自分を」に当たる目的語で、動詞の<strong>前</strong>に置きます。日本語でも目的語は動詞の前なので、語順の感覚は近いです。</li><li>se を落とすと他動詞になり意味が変わります：Levanto a las siete は「7時に（何かを）起こす・持ち上げる」。</li><li>体の部位は日本語の「手を洗う」と同じく「私の」を言いません。ただし定冠詞は必要：Me lavo <strong>las</strong> manos。</li><li>彼・彼女の場合は <strong>se</strong>。le や la ではありません（La levanta = 彼女を起こす）。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Levanto a las siete.（「起こす」になる）→ ✓ Me levanto a las siete.<br>✗ Ella me viste rápido.（「彼女が私に服を着せる」）→ ✓ Ella se viste rápido.<br>✗ Me lavo mis manos. → ✓ Me lavo las manos.<br>✗ Le levanta a las siete. → ✓ Se levanta a las siete.<br>✗ Nos acuestamos. → ✓ Nos acostamos.</div>"
     },
     "newVocab": [
-      {
-        "word": "ducharse",
-        "en": "to shower",
-        "zh": "洗澡",
-        "ja": "シャワーを浴びる"
-      },
-      {
-        "word": "llamarse",
-        "en": "to be called",
-        "zh": "叫做",
-        "ja": "〜という名前"
-      },
-      {
-        "word": "levantarse",
-        "en": "to get up",
-        "zh": "起床",
-        "ja": "起きる"
-      },
-      {
-        "word": "acostarse",
-        "en": "to go to bed",
-        "zh": "上床睡觉",
-        "ja": "寝る"
-      },
-      {
-        "word": "vestirse",
-        "en": "to get dressed",
-        "zh": "穿衣服",
-        "ja": "服を着る"
-      },
-      {
-        "word": "despertarse",
-        "en": "to wake up",
-        "zh": "醒来",
-        "ja": "目が覚める"
-      },
-      {
-        "word": "lavarse",
-        "en": "to wash oneself",
-        "zh": "洗",
-        "ja": "洗う"
-      },
-      {
-        "word": "peinarse",
-        "en": "to comb one's hair",
-        "zh": "梳头",
-        "ja": "髪をとかす"
-      },
-      {
-        "word": "sentarse",
-        "en": "to sit down",
-        "zh": "坐下",
-        "ja": "座る"
-      }
+      "ducharse",
+      "levantarse",
+      "acostarse",
+      "vestirse",
+      "despertarse",
+      "lavarse",
+      "peinarse",
+      "sentarse"
     ],
     "grammar": [
       "reflexive verbs",
@@ -7374,54 +5769,14 @@
       "ja": "<h3>estar ＋ 現在分詞 ＝「〜している（最中）」</h3><p>今まさに<strong>進行中</strong>の動作は <strong>estar</strong>（活用）＋ <strong>現在分詞</strong>（gerundio）で表します。現在分詞は性・数で変わりません。</p><table><tr><th>動詞</th><th>語尾</th><th>現在分詞</th></tr><tr><td>-ar：hablar, estudiar, trabajar</td><td><strong>-ando</strong></td><td>hablando, estudiando, trabajando</td></tr><tr><td>-er：comer, hacer</td><td><strong>-iendo</strong></td><td>comiendo, haciendo</td></tr><tr><td>-ir：vivir</td><td><strong>-iendo</strong></td><td>viviendo</td></tr></table><table><tr><th>主語</th><th>estar</th><th>＋ 現在分詞</th></tr><tr><td>yo 私</td><td>estoy</td><td>hablando</td></tr><tr><td>tú 君</td><td>estás</td><td>hablando</td></tr><tr><td>él / ella / usted 彼・彼女・あなた</td><td>está</td><td>hablando</td></tr><tr><td>nosotros 私たち</td><td>estamos</td><td>hablando</td></tr><tr><td>vosotros 君たち</td><td>estáis</td><td>hablando</td></tr><tr><td>ellos / ustedes 彼ら</td><td>están</td><td>hablando</td></tr></table><div class=\"tip\"><strong>不規則な現在分詞：</strong>leer → <strong>leyendo</strong>（leiendo ではない）・dormir → <strong>durmiendo</strong>（o→u）・pedir → <strong>pidiendo</strong>（e→i）・ir → <strong>yendo</strong></div><div class=\"example\">¿Qué estás haciendo? — 何してるの？<br>Estoy comiendo una manzana. — リンゴを食べているところ。<br>Estoy leyendo un libro. — 本を読んでいる。<br>Los niños están durmiendo. — 子どもたちは寝ている。<br>Ella está trabajando ahora. — 彼女は今、仕事中だ。</div><h3>日本語話者のためのポイント</h3><ul><li>「〜ている」には2つの意味があります。①動作の進行（食べている）→ estar ＋ 現在分詞。②結果の状態（結婚している・知っている・窓が開いている）→ <strong>進行形にしません</strong>：Estoy casado/a（結婚している）、Lo sé（知っている）。</li><li>「いる」に当たる estar は主語によって活用します（estoy / está / están）。後ろの -ando / -iendo は変わりません。</li><li>習慣（毎日スペイン語を話している）は普通の現在形でOK：Hablo español todos los días.</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Estoy sabiendo la respuesta.（「知っている」）→ ✓ Sé la respuesta.<br>✗ Los niños está durmiendo. → ✓ Los niños están durmiendo.<br>✗ Estoy leiendo un libro. → ✓ Estoy leyendo un libro.<br>✗ Soy comiendo. → ✓ Estoy comiendo.</div><h3>estar＋現在分詞を使わない場合</h3><p>日本語の「〜ている」はとても広く使いますが、スペイン語の estar + gerundio は<strong>今まさに進行中の動作</strong>だけです：</p><ul><li><strong>結果の状態</strong>：結婚している → <strong>Está casado</strong>、座っている → <strong>Está sentado</strong>（✗ está casando）。</li><li><strong>知っている・住んでいる</strong> → <strong>Sé</strong> / <strong>Conozco</strong>、<strong>Vivo</strong> en Tokio（✗ estoy sabiendo）。</li><li><strong>習慣</strong>：毎朝走っている → <strong>Corro</strong> todas las mañanas。</li><li><strong>予定</strong>：明日出発する → <strong>Me voy mañana</strong> / Voy a salir mañana（✗ Estoy saliendo mañana）。</li><li>どこ行くの？→ <strong>¿Adónde vas?</strong>・今行く！→ <strong>¡Ya voy!</strong></li></ul><p>その他の不規則な現在分詞：decir → <strong>diciendo</strong>、oír → <strong>oyendo</strong>、venir → <strong>viniendo</strong>。</p>"
     },
     "newVocab": [
-      {
-        "word": "hablando",
-        "en": "speaking",
-        "zh": "正在说",
-        "ja": "話している"
-      },
-      {
-        "word": "comiendo",
-        "en": "eating",
-        "zh": "正在吃",
-        "ja": "食べている"
-      },
-      {
-        "word": "viviendo",
-        "en": "living",
-        "zh": "正在住",
-        "ja": "住んでいる"
-      },
-      {
-        "word": "estudiando",
-        "en": "studying",
-        "zh": "正在学习",
-        "ja": "勉強している"
-      },
-      {
-        "word": "trabajando",
-        "en": "working",
-        "zh": "正在工作",
-        "ja": "働いている"
-      },
-      {
-        "word": "leyendo",
-        "en": "reading",
-        "zh": "正在读",
-        "ja": "読んでいる"
-      },
-      {
-        "word": "durmiendo",
-        "en": "sleeping",
-        "zh": "正在睡",
-        "ja": "寝ている"
-      },
-      {
-        "word": "haciendo",
-        "en": "doing / making",
-        "zh": "正在做",
-        "ja": "している"
-      }
+      "hablando",
+      "comiendo",
+      "viviendo",
+      "estudiando",
+      "trabajando",
+      "leyendo",
+      "durmiendo",
+      "haciendo"
     ],
     "grammar": [
       "present continuous",
@@ -7613,36 +5968,10 @@
       "ja": "<h3>ir a ＋ 不定詞 ＝「〜するつもり」「これから〜する」</h3><p>日常会話で予定を言うときに最もよく使う形です：<strong>ir</strong>（活用）＋ <strong>a</strong> ＋ <strong>不定詞</strong>。</p><table><tr><th>主語</th><th>ir</th><th>例</th></tr><tr><td>yo 私</td><td><strong>voy</strong></td><td>Voy a estudiar. 勉強するつもり。</td></tr><tr><td>tú 君</td><td><strong>vas</strong></td><td>Vas a comer. 君は食べるつもりだ。</td></tr><tr><td>él / ella / usted</td><td><strong>va</strong></td><td>Va a dormir. 彼はこれから寝る。</td></tr><tr><td>nosotros 私たち</td><td><strong>vamos</strong></td><td>Vamos a viajar. 旅行する予定だ。</td></tr><tr><td>vosotros 君たち</td><td><strong>vais</strong></td><td>Vais a cocinar. 君たちは料理するつもりだ。</td></tr><tr><td>ellos / ustedes</td><td><strong>van</strong></td><td>Van a llegar. 彼らはもうすぐ着く。</td></tr></table><h3>未来を表す時の表現</h3><table><tr><th>スペイン語</th><th>日本語</th></tr><tr><td><strong>mañana</strong></td><td>明日</td></tr><tr><td><strong>esta noche</strong></td><td>今夜</td></tr><tr><td><strong>la semana que viene</strong></td><td>来週</td></tr><tr><td><strong>el próximo mes</strong></td><td>来月</td></tr><tr><td><strong>el año que viene</strong></td><td>来年</td></tr></table><div class=\"example\">¿Qué vas a hacer mañana? — 明日何するの？<br>Vamos a comer pizza esta noche. — 今夜はピザを食べるつもりだ。<br>Van a viajar la semana que viene. — 彼らは来週旅行する予定だ。<br>Voy a dormir temprano esta noche. — 今夜は早く寝るつもりだ。</div><h3>日本語話者のためのポイント</h3><ul><li>日本語は「明日行く」のように非過去形＋時の言葉で未来を表します。スペイン語の ir a ＋不定詞は「〜するつもり」「〜する予定」に当たります。</li><li>形は「食べ<strong>に行く</strong>」に似ていますが、意味は「これから〜する」です（文脈によっては本当に「〜しに行く」にもなります）。</li><li>語順は逆：「明日・何を・する・つもり？」→ ¿Qué vas a hacer mañana?　<strong>a</strong> は省略できません。</li><li><strong>mañana</strong> は「明日」、<strong>la mañana</strong> は「朝」。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Voy estudiar. → ✓ Voy a estudiar.<br>✗ Ella van a viajar. → ✓ Ella va a viajar.<br>✗ ¿Qué vas hacer mañana?（a が抜けている）→ ✓ ¿Qué vas a hacer mañana?<br>✗ Estoy a estudiar. → ✓ Voy a estudiar.</div>"
     },
     "newVocab": [
-      {
-        "word": "mañana",
-        "en": "tomorrow",
-        "zh": "明天",
-        "ja": "明日"
-      },
-      {
-        "word": "esta noche",
-        "en": "tonight",
-        "zh": "今晚",
-        "ja": "今夜"
-      },
-      {
-        "word": "la semana que viene",
-        "en": "next week",
-        "zh": "下周",
-        "ja": "来週"
-      },
-      {
-        "word": "el próximo mes",
-        "en": "next month",
-        "zh": "下个月",
-        "ja": "来月"
-      },
-      {
-        "word": "el año que viene",
-        "en": "next year",
-        "zh": "明年",
-        "ja": "来年"
-      }
+      "esta noche",
+      "la semana que viene",
+      "el próximo mes",
+      "el año que viene"
     ],
     "grammar": [
       "ir a + infinitive",
@@ -7826,48 +6155,11 @@
       "ja": "<h3>tener que ＋ 不定詞 ＝「〜しなければならない」</h3><p><strong>tener</strong>（活用）＋ <strong>que</strong> ＋ <strong>不定詞</strong>。tener は不規則：tengo, tienes, tiene, tienen。</p><table><tr><th>主語</th><th>tener que</th><th>例</th></tr><tr><td>yo 私</td><td><strong>tengo que</strong></td><td>Tengo que trabajar. 働かなきゃ。</td></tr><tr><td>tú 君</td><td><strong>tienes que</strong></td><td>Tienes que estudiar. 君は勉強しないと。</td></tr><tr><td>él / ella / usted</td><td><strong>tiene que</strong></td><td>Tiene que dormir. 彼は寝ないといけない。</td></tr><tr><td>nosotros 私たち</td><td><strong>tenemos que</strong></td><td>Tenemos que limpiar la casa. 家を掃除しなければならない。</td></tr><tr><td>vosotros 君たち</td><td><strong>tenéis que</strong></td><td>Tenéis que cocinar. 君たちは料理しないと。</td></tr><tr><td>ellos / ustedes</td><td><strong>tienen que</strong></td><td>Tienen que cocinar. 彼らは料理しないといけない。</td></tr></table><h3>hay que ＋ 不定詞 ＝ 一般的な義務</h3><p><strong>hay que</strong> は形が変わらず、主語もありません。「（誰でも）〜しなければならない」「〜するべきだ」という一般論です。</p><div class=\"vs\"><div><strong>tener que：特定の人</strong><br>Tengo que ir al médico. 私は病院に行かないと。<br>Tienes que dormir más. 君はもっと寝ないと。</div><div><strong>hay que：一般論</strong><br>Hay que estudiar para el examen. 試験のためには勉強が必要だ。<br>Hay que practicar todos los días. 毎日練習しなければならない。</div></div><div class=\"example\">Tiene que cocinar esta noche. — 彼女は今夜料理しなければならない。<br>No tienes que ir si no quieres. — 行きたくなければ行かなくていいよ。<br>Hay que ser puntual. — 時間は守るべきだ。</div><h3>日本語話者のためのポイント</h3><ul><li>「〜しなければならない」は日本語では主語を言わないことが多いですが、スペイン語では<strong>誰の義務か</strong>で形を選びます：自分なら tengo que、一般論なら hay que。</li><li>hay は「ある」（Hay un libro = 本がある）と同じ語。だから hay que は主語を取らず、変化しません。</li><li>「〜しなくてもいい」＝ <strong>no tener que</strong>：No tienes que ir.（「行ってはいけない」ではありません）</li><li>語順は「働か・なければならない」の逆：Tengo que（ねばならない）＋ trabajar（働く）。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Tengo trabajar.（que が抜けている）→ ✓ Tengo que trabajar.<br>✗ Yo hay que estudiar. → ✓ Tengo que estudiar.<br>✗ Tú tiene que dormir más. → ✓ Tú tienes que dormir más.<br>✗ Hay que trabajo. → ✓ Hay que trabajar.</div>"
     },
     "newVocab": [
-      {
-        "word": "tengo que",
-        "en": "I have to",
-        "zh": "我必须",
-        "ja": "私は〜しなければならない"
-      },
-      {
-        "word": "hay que",
-        "en": "one has to / it's necessary to",
-        "zh": "需要/必须（无人称）",
-        "ja": "〜しなければならない（一般的）"
-      },
-      {
-        "word": "trabajar",
-        "en": "to work",
-        "zh": "工作",
-        "ja": "働く"
-      },
-      {
-        "word": "estudiar",
-        "en": "to study",
-        "zh": "学习",
-        "ja": "勉強する"
-      },
-      {
-        "word": "dormir",
-        "en": "to sleep",
-        "zh": "睡觉",
-        "ja": "寝る"
-      },
-      {
-        "word": "limpiar",
-        "en": "to clean",
-        "zh": "打扫",
-        "ja": "掃除する"
-      },
-      {
-        "word": "cocinar",
-        "en": "to cook",
-        "zh": "做饭",
-        "ja": "料理する"
-      }
+      "tengo que",
+      "hay que",
+      "dormir",
+      "limpiar",
+      "cocinar"
     ],
     "grammar": [
       "tener que + infinitive",
@@ -8050,72 +6342,17 @@
       "ja": "<h3>天気を表す3つのパターン</h3><table><tr><th>パターン</th><th>スペイン語</th><th>日本語</th></tr><tr><td>1. <strong>hace</strong> ＋ 名詞</td><td>Hace calor / Hace frío</td><td>暑い / 寒い</td></tr><tr><td></td><td>Hace sol / Hace viento</td><td>晴れている・日差しが強い / 風が強い</td></tr><tr><td></td><td>Hace buen tiempo / Hace mal tiempo</td><td>いい天気だ / 天気が悪い</td></tr><tr><td>2. 天気の動詞</td><td>Llueve (llover) / Nieva (nevar)</td><td>雨が降る・降っている / 雪が降る・降っている</td></tr><tr><td>3. <strong>está</strong> ＋ 形容詞</td><td>Está nublado / Está despejado</td><td>曇っている / 晴れわたっている</td></tr></table><h3>季節</h3><table><tr><th>スペイン語</th><th>季節</th></tr><tr><td><strong>la primavera</strong></td><td>春</td></tr><tr><td><strong>el verano</strong></td><td>夏</td></tr><tr><td><strong>el otoño</strong></td><td>秋</td></tr><tr><td><strong>el invierno</strong></td><td>冬</td></tr></table><p>「夏に」＝ <strong>en verano</strong>（en の後ろは冠詞なし）。</p><div class=\"example\">En verano hace mucho calor. — 夏はとても暑い。<br>Hoy hace mucho sol. — 今日は日差しが強い。<br>En invierno nieva en las montañas. — 冬は山で雪が降る。<br>Hoy está nublado pero no llueve. — 今日は曇っているが、雨は降っていない。</div><h3>日本語話者のためのポイント</h3><ul><li>日本語の「暑い」「寒い」は形容詞ですが、スペイン語では「暑さ（calor）を<strong>作る</strong>」：hace calor。calor, frío, sol, viento は<strong>名詞</strong>なので、「とても」は <strong>mucho</strong>：Hace mucho calor（✗ muy calor）。</li><li>日本語は「暑い！」で天気も体感も言えますが、スペイン語は区別します：天気 = <strong>Hace calor</strong>、私が暑い = <strong>Tengo calor</strong>（暑さを「持っている」）、私が寒い = <strong>Tengo frío</strong>。</li><li>「雨が降る」は主語と動詞の2語ですが、スペイン語は1語：<strong>Llueve</strong>。「雪が降る」= <strong>Nieva</strong>。</li><li>「曇り」は状態なので estar：Está nublado。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Es calor / Está calor. → ✓ Hace calor.<br>✗ Hace muy calor. → ✓ Hace mucho calor.<br>✗ Lluvia cae.（「雨が降る」の直訳）→ ✓ Llueve.<br>✗ Estoy frío / Soy frío.（「私は寒い」）→ ✓ Tengo frío.</div>"
     },
     "newVocab": [
-      {
-        "word": "hace calor",
-        "en": "it's hot",
-        "zh": "天气热",
-        "ja": "暑い"
-      },
-      {
-        "word": "hace frío",
-        "en": "it's cold",
-        "zh": "天气冷",
-        "ja": "寒い"
-      },
-      {
-        "word": "hace sol",
-        "en": "it's sunny",
-        "zh": "天气晴朗",
-        "ja": "晴れ"
-      },
-      {
-        "word": "hace viento",
-        "en": "it's windy",
-        "zh": "有风",
-        "ja": "風が強い"
-      },
-      {
-        "word": "llueve",
-        "en": "it rains",
-        "zh": "下雨",
-        "ja": "雨が降る"
-      },
-      {
-        "word": "nieva",
-        "en": "it snows",
-        "zh": "下雪",
-        "ja": "雪が降る"
-      },
-      {
-        "word": "está nublado",
-        "en": "it's cloudy",
-        "zh": "多云",
-        "ja": "曇り"
-      },
-      {
-        "word": "primavera",
-        "en": "spring",
-        "zh": "春天",
-        "ja": "春"
-      },
-      {
-        "word": "verano",
-        "en": "summer",
-        "zh": "夏天",
-        "ja": "夏"
-      },
-      {
-        "word": "otoño",
-        "en": "autumn / fall",
-        "zh": "秋天",
-        "ja": "秋"
-      },
-      {
-        "word": "invierno",
-        "en": "winter",
-        "zh": "冬天",
-        "ja": "冬"
-      }
+      "hace calor",
+      "hace frío",
+      "hace sol",
+      "hace viento",
+      "llueve",
+      "nieva",
+      "está nublado",
+      "primavera",
+      "verano",
+      "otoño",
+      "invierno"
     ],
     "grammar": [
       "hacer + noun (weather)",
@@ -8334,66 +6571,16 @@
       "ja": "<h3>命令形：相手によって4つの形</h3><p><strong>命令形 imperativo</strong> は、指示・道案内・レシピ・アドバイス、そして「どうぞ」とすすめるときに使います。スペイン語では<strong>誰に言うか</strong>で形を選びます。</p><table><tr><th>相手</th><th>hablar 話す</th><th>comer 食べる</th><th>escribir 書く</th><th>作り方</th></tr><tr><td>tú（君）</td><td>habl<strong>a</strong></td><td>com<strong>e</strong></td><td>escrib<strong>e</strong></td><td>＝現在形の él の形</td></tr><tr><td>usted（あなた様）</td><td>habl<strong>e</strong></td><td>com<strong>a</strong></td><td>escrib<strong>a</strong></td><td>母音を入れ替え：-ar → -e、-er/-ir → -a</td></tr><tr><td>vosotros（君たち）</td><td>habla<strong>d</strong></td><td>come<strong>d</strong></td><td>escribi<strong>d</strong></td><td>不定詞の -r → -d</td></tr><tr><td>ustedes（皆様）</td><td>habl<strong>en</strong></td><td>com<strong>an</strong></td><td>escrib<strong>an</strong></td><td>usted の形 ＋ n</td></tr></table><div class=\"tip\">語幹母音の変化は tú と usted で残ります：cerrar → <strong>cierra</strong> / cierre・volver → <strong>vuelve</strong> / vuelva・pedir → <strong>pide</strong> / pida・seguir → <strong>sigue</strong> / siga。vosotros は変化しません：cerrad, volved, pedid, seguid。</div><h3>tú の不規則形 8つ</h3><table><tr><th>不定詞</th><th>tú</th><th>usted（yo の形から）</th><th>vosotros（規則的！）</th></tr><tr><td>decir 言う</td><td><strong>di</strong></td><td>diga</td><td>decid</td></tr><tr><td>hacer する</td><td><strong>haz</strong></td><td>haga</td><td>haced</td></tr><tr><td>ir 行く</td><td><strong>ve</strong></td><td>vaya</td><td>id</td></tr><tr><td>poner 置く</td><td><strong>pon</strong></td><td>ponga</td><td>poned</td></tr><tr><td>salir 出る</td><td><strong>sal</strong></td><td>salga</td><td>salid</td></tr><tr><td>ser 〜である</td><td><strong>sé</strong></td><td>sea</td><td>sed</td></tr><tr><td>tener 持つ</td><td><strong>ten</strong></td><td>tenga</td><td>tened</td></tr><tr><td>venir 来る</td><td><strong>ven</strong></td><td>venga</td><td>venid</td></tr></table><h3>代名詞は動詞の後ろにくっつける（アクセント記号に注意）</h3><p>再帰代名詞・目的語代名詞は動詞の<strong>後ろに続けて書きます</strong>：sentarse → <strong>siéntate</strong>（座って）/ <strong>siéntese</strong>（お座りください）、dar + me → <strong>dame</strong>（ちょうだい）、poner + lo → <strong>ponlo</strong>（それを置いて）、di + me + lo → <strong>dímelo</strong>（それを私に言って：me が先、lo が後）。強く読む位置は変わらないので、長くなるとアクセント記号が必要になります：mira → <strong>mírame</strong>、escucha → <strong>escúchame</strong>。vosotros に os が付くと -d が消えます：sentad + os → <strong>sentaos</strong>。</p><div class=\"example\">¡Pasa, pasa! Siéntate. — どうぞどうぞ、入って！座って。<br>Toma, es para ti. — はい、これ君に。<br>Gira a la derecha y sigue recto. — 右に曲がって、まっすぐ行って。<br>Pon el agua a hervir y añade la sal. — お湯を沸かして、塩を入れて。<br>Pase, por favor. Siéntese. — どうぞお入りください。おかけください。<br>Niños, venid aquí y haced los deberes. — みんな、こっちに来て宿題をしなさい。</div><h3>日本語話者のためのポイント</h3><ul><li>日本語の命令形「座れ」「来い」は乱暴ですが、スペイン語の tú の命令形は<strong>「座って」「来て」</strong>くらいの普通の言い方です。usted の命令形 Siéntese は「おかけください」。タメ口と です・ます の違いが tú と usted の違いに近いです。</li><li>日本語では「〜てくれる？」「〜てもらえますか」と頼むのが自然ですね。スペイン語でも現在形の疑問文 <strong>¿Me pasas la sal?</strong>（塩取ってくれる？）は柔らかい言い方です。でもスペインでは命令形は失礼ではありません。バルで <strong>Ponme un café, por favor</strong> はごく普通です。</li><li>語順に注意：日本語は「それを私に言って」と目的語が動詞の前ですが、スペイン語の肯定命令では代名詞が動詞の<strong>後ろにくっつきます</strong>：dímelo。</li><li>「どうぞ」は多くの場合命令形：<strong>Toma</strong>（どうぞ、受け取って）、<strong>Pasa</strong>（どうぞ入って）、<strong>Sírvete</strong>（ご自由にどうぞ）。</li><li>「〜しないで」（否定命令）は別の形（No hables）で、A2 で学びます。</li></ul><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ Sientate.（記号なし）→ ✓ Siéntate.<br>✗ Me lo di.（日本語の語順）→ ✓ Dímelo.<br>✗ Haces los deberes.（現在形のまま）→ ✓ Haz los deberes.<br>✗ Ir a la derecha.（不定詞のまま）→ ✓ Ve a la derecha. / Gira a la derecha.<br>✗（初対面の年配の人に）Pasa. → ✓ Pase.</div>"
     },
     "newVocab": [
-      {
-        "word": "pasa",
-        "en": "come in! (tú)",
-        "zh": "请进（对 tú）",
-        "ja": "どうぞ入って（tú）"
-      },
-      {
-        "word": "toma",
-        "en": "here you are / take (tú)",
-        "zh": "给你、拿着（对 tú）",
-        "ja": "はい、どうぞ・取って（tú）"
-      },
-      {
-        "word": "siéntate",
-        "en": "sit down (tú)",
-        "zh": "坐吧、请坐（对 tú）",
-        "ja": "座って（tú）"
-      },
-      {
-        "word": "ven",
-        "en": "come! (tú, venir)",
-        "zh": "来！（tú，venir）",
-        "ja": "来て（tú、venir）"
-      },
-      {
-        "word": "pon",
-        "en": "put! (tú, poner)",
-        "zh": "放！（tú，poner）",
-        "ja": "置いて（tú、poner）"
-      },
-      {
-        "word": "dime",
-        "en": "tell me (tú)",
-        "zh": "告诉我、你说（对 tú）",
-        "ja": "言って・教えて（tú）"
-      },
-      {
-        "word": "gira a la derecha",
-        "en": "turn right (tú)",
-        "zh": "向右转（对 tú）",
-        "ja": "右に曲がって（tú）"
-      },
-      {
-        "word": "sigue recto",
-        "en": "go straight on (tú)",
-        "zh": "一直往前走（对 tú）",
-        "ja": "まっすぐ行って（tú）"
-      },
-      {
-        "word": "añade",
-        "en": "add (tú)",
-        "zh": "加入（对 tú）",
-        "ja": "加えて（tú）"
-      },
-      {
-        "word": "receta",
-        "en": "recipe",
-        "zh": "食谱、菜谱",
-        "ja": "レシピ"
-      }
+      "pasa",
+      "toma",
+      "siéntate",
+      "ven",
+      "pon",
+      "dime",
+      "gira a la derecha",
+      "sigue recto",
+      "añade",
+      "receta"
     ],
     "grammar": [
       "imperative tú / usted / vosotros",
@@ -8620,66 +6807,16 @@
       "ja": "<h3>haber ＋ 過去分詞</h3><p><strong>現在完了 pretérito perfecto</strong>（RAEの用語では pretérito perfecto compuesto）＝ <strong>haber</strong> の現在形 ＋ <strong>過去分詞</strong>。人称で変わるのは haber だけで、過去分詞はいつも -o で終わり変化しません。</p><table><tr><th>人称</th><th>haber</th><th>＋ 過去分詞</th></tr><tr><td>yo 私</td><td><strong>he</strong></td><td>hablado</td></tr><tr><td>tú 君</td><td><strong>has</strong></td><td>comido</td></tr><tr><td>él / ella / usted</td><td><strong>ha</strong></td><td>vivido</td></tr><tr><td>nosotros / nosotras 私たち</td><td><strong>hemos</strong></td><td>hablado</td></tr><tr><td>vosotros / vosotras 君たち</td><td><strong>habéis</strong></td><td>comido</td></tr><tr><td>ellos / ellas / ustedes</td><td><strong>han</strong></td><td>vivido</td></tr></table><p>過去分詞：-ar → <strong>-ado</strong>（hablado, desayunado）、-er / -ir → <strong>-ido</strong>（comido, vivido、leer → leído）。</p><table><tr><th>不規則な過去分詞</th><th></th><th></th></tr><tr><td>hacer → <strong>hecho</strong></td><td>decir → <strong>dicho</strong></td><td>ver → <strong>visto</strong></td></tr><tr><td>poner → <strong>puesto</strong></td><td>escribir → <strong>escrito</strong></td><td>volver → <strong>vuelto</strong></td></tr><tr><td>abrir → <strong>abierto</strong></td><td>romper → <strong>roto</strong></td><td>morir → <strong>muerto</strong></td></tr></table><h3>いつ使う？「まだ終わっていない時間」の中の出来事</h3><p>スペインでは、<strong>今を含む時間</strong>の中の行為に使います：hoy 今日、esta mañana 今朝、esta semana 今週、este año 今年、hace un rato さっき。そして <strong>ya</strong>（もう）、<strong>todavía no</strong>（まだ〜ない）、<strong>nunca</strong>（一度も〜ない）、<strong>alguna vez</strong>（今までに）といった「今までの経験」にも使います。</p><div class=\"vs\"><div><strong>終わっていない時間 → he hecho</strong><br>Hoy he desayunado tarde.<br>Esta semana hemos trabajado mucho.<br>¿Has estado alguna vez en México?</div><div><strong>終わった時間 → 別の過去形（A2：hice）</strong><br>Ayer desayuné tarde.<br>La semana pasada trabajamos mucho.<br>En 2019 estuve en México.</div></div><p>ラテンアメリカの大部分とカナリア諸島では「今日」にも <em>Hoy desayuné tarde</em> と言います。どちらも正しいスペイン語ですが、このコースはスペイン中部の用法に従います。</p><h3>日本語話者のためのポイント</h3><ul><li>日本語の「た」は今朝も昨日も同じ「た」です。スペインのスペイン語では<strong>時間の区切り</strong>で使い分けます：今朝見た → <strong>Lo he visto esta mañana</strong>／昨日見た → Ayer lo vi（A2）。</li><li>「もう〜した」＝ <strong>Ya he…</strong>、「まだ〜していない」＝ <strong>Todavía no he…</strong>、「〜したことがある？」＝ <strong>¿Has… alguna vez?</strong>、「一度も〜したことがない」＝ <strong>Nunca he…</strong>。</li><li>「〜ている」に注意：「彼はもう来ている」は結果の状態なので <strong>Ya ha llegado</strong>（完了）。でも「ここに3年住んでいる」は今も続いているので現在形：<strong>Vivo aquí desde hace tres años</strong>（✗ He vivido）。</li><li>主語で haber が変わります（he, has, ha, hemos, habéis, han）。日本語と同じく主語は省略できます。</li><li>語順：代名詞は <strong>haber の前</strong>（<strong>Lo he visto</strong> それを見た）。「もう」は日本語では自由に入りますが、スペイン語では haber と過去分詞の間には何も入れません。</li></ul><div class=\"example\">¿Qué has hecho hoy? — 今日は何をしたの？<br>Esta mañana he escrito tres correos. — 今朝メールを3通書いた。<br>Todavía no hemos terminado. — 私たちはまだ終わっていない。<br>Nunca he visto esta película. — この映画は一度も見たことがない。<br>¿Habéis abierto la ventana? — 君たち、窓を開けた？</div><div class=\"warning\"><strong>日本語話者によくある間違い</strong><br>✗ He hacido. → ✓ He hecho.<br>✗ He lo visto. → ✓ Lo he visto.<br>✗ He ya comido. → ✓ Ya he comido.<br>✗ He vivido aquí tres años.（今も住んでいる）→ ✓ Vivo aquí desde hace tres años.<br>✗ Ayer he ido al cine.（「た」の直訳）→ ✓ Hoy he ido al cine.（ayer → fui、A2）</div>"
     },
     "newVocab": [
-      {
-        "word": "esta mañana",
-        "en": "this morning",
-        "zh": "今天早上",
-        "ja": "今朝"
-      },
-      {
-        "word": "esta semana",
-        "en": "this week",
-        "zh": "这周",
-        "ja": "今週"
-      },
-      {
-        "word": "este año",
-        "en": "this year",
-        "zh": "今年",
-        "ja": "今年"
-      },
-      {
-        "word": "hace un rato",
-        "en": "a little while ago",
-        "zh": "刚才",
-        "ja": "さっき"
-      },
-      {
-        "word": "todavía no",
-        "en": "not yet",
-        "zh": "还没",
-        "ja": "まだ〜ない"
-      },
-      {
-        "word": "alguna vez",
-        "en": "ever",
-        "zh": "曾经（问经历）",
-        "ja": "今までに（〜したことがある？）"
-      },
-      {
-        "word": "dicho",
-        "en": "said (decir)",
-        "zh": "说了（decir 的过去分词）",
-        "ja": "言った（decir の過去分詞）"
-      },
-      {
-        "word": "hecho",
-        "en": "done / made (hacer)",
-        "zh": "做了（hacer 的过去分词）",
-        "ja": "した・作った（hacer の過去分詞）"
-      },
-      {
-        "word": "visto",
-        "en": "seen (ver)",
-        "zh": "看见了（ver 的过去分词）",
-        "ja": "見た（ver の過去分詞）"
-      },
-      {
-        "word": "escrito",
-        "en": "written (escribir)",
-        "zh": "写了（escribir 的过去分词）",
-        "ja": "書いた（escribir の過去分詞）"
-      }
+      "esta mañana",
+      "esta semana",
+      "este año",
+      "hace un rato",
+      "todavía no",
+      "alguna vez",
+      "dicho",
+      "hecho",
+      "visto",
+      "escrito"
     ],
     "grammar": [
       "haber + participle",

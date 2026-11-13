@@ -1,6 +1,6 @@
-import { icon } from './icons.js';
-import { S } from '../state.js';
-import { t } from '../i18n.js';
+import { icon } from './icons.js?v=202611141200';
+import { S } from '../state.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
 
 export function bottomNav(active) {
   const items = [
@@ -8,6 +8,7 @@ export function bottomNav(active) {
     { id: 'reference', icon: 'book', label: t('reference') },
     { id: 'texts', icon: 'doc', label: t('texts') },
     { id: 'review', icon: 'star', label: t('review') },
+    { id: 'ranking', icon: 'trophy', label: t('ranking') },
     { id: 'progress', icon: 'chart', label: t('progress') },
     { id: 'settings', icon: 'gear', label: t('settings') },
   ];

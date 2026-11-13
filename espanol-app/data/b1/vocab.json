@@ -7,7 +7,10 @@
       "ja": "〜だといいのに"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "ojalá",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "que + subjuntivo",
@@ -17,7 +20,10 @@
       "ja": "que + 接続法"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "que + subjuntivo",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "esperar que",
@@ -27,7 +33,10 @@
       "ja": "〜を望む"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "esperar que",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "desear que",
@@ -37,7 +46,10 @@
       "ja": "〜を願う"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "desear que",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "dudar que",
@@ -47,7 +59,10 @@
       "ja": "〜を疑う"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "dudar que",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "es posible que",
@@ -57,7 +72,10 @@
       "ja": "〜かもしれない"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "es posible que",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "es necesario que",
@@ -67,7 +85,10 @@
       "ja": "〜する必要がある"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "es necesario que",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "recomendar",
@@ -77,7 +98,10 @@
       "ja": "勧める"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "recomendar",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "sugerir",
@@ -87,7 +111,10 @@
       "ja": "提案する"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "sugerir",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "prohibir",
@@ -97,7 +124,10 @@
       "ja": "禁止する"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "prohibir",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "permitir",
@@ -107,7 +137,10 @@
       "ja": "許可する"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "permitir",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "aconsejar",
@@ -117,7 +150,10 @@
       "ja": "アドバイスする"
     },
     "gender": null,
-    "unit": 1
+    "unit": 1,
+    "w": "aconsejar",
+    "p": "",
+    "u": "b1-1"
   },
   {
     "word": "si fuera",
@@ -127,7 +163,10 @@
       "ja": "もし〜だったら"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "si fuera",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "si tuviera",
@@ -137,7 +176,10 @@
       "ja": "もし持っていたら"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "si tuviera",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "si pudiera",
@@ -147,7 +189,10 @@
       "ja": "もしできたら"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "si pudiera",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "haría",
@@ -157,7 +202,10 @@
       "ja": "するだろう"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "haría",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "compraría",
@@ -167,7 +215,10 @@
       "ja": "買うだろう"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "compraría",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "iría",
@@ -177,7 +228,10 @@
       "ja": "行くだろう"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "iría",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "viviría",
@@ -187,7 +241,10 @@
       "ja": "住むだろう"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "viviría",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "imaginarse",
@@ -197,7 +254,10 @@
       "ja": "想像する"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "imaginarse",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "suponer",
@@ -207,7 +267,10 @@
       "ja": "仮定する"
     },
     "gender": null,
-    "unit": 2
+    "unit": 2,
+    "w": "suponer",
+    "p": "",
+    "u": "b1-2"
   },
   {
     "word": "que",
@@ -217,7 +280,10 @@
       "ja": "関係代名詞"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "que",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "quien",
@@ -227,7 +293,10 @@
       "ja": "〜する人（前置詞後）"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "quien",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "donde",
@@ -237,7 +306,10 @@
       "ja": "〜する場所"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "donde",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "lo que",
@@ -247,7 +319,10 @@
       "ja": "〜すること/もの"
     },
     "gender": null,
-    "unit": 3
+    "unit": 3,
+    "w": "lo que",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "cuyo",
@@ -257,7 +332,10 @@
       "ja": "〜の（所有格）"
     },
     "gender": "m",
-    "unit": 3
+    "unit": 3,
+    "w": "cuyo",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "el cual",
@@ -267,7 +345,10 @@
       "ja": "〜するところの（フォーマル）"
     },
     "gender": "m",
-    "unit": 3
+    "unit": 3,
+    "w": "el cual",
+    "p": "",
+    "u": "b1-3"
   },
   {
     "word": "dijo que",
@@ -277,7 +358,10 @@
       "ja": "〜と言った"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "dijo que",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "preguntó si",
@@ -287,7 +371,10 @@
       "ja": "〜かどうか聞いた"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "preguntó si",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "contó que",
@@ -297,7 +384,10 @@
       "ja": "〜と話した"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "contó que",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "explicó que",
@@ -307,7 +397,10 @@
       "ja": "〜と説明した"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "explicó que",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "prometió que",
@@ -317,7 +410,10 @@
       "ja": "〜と約束した"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "prometió que",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "según",
@@ -327,7 +423,10 @@
       "ja": "〜によると"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "según",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "al parecer",
@@ -337,7 +436,10 @@
       "ja": "どうやら"
     },
     "gender": null,
-    "unit": 4
+    "unit": 4,
+    "w": "al parecer",
+    "p": "",
+    "u": "b1-4"
   },
   {
     "word": "había sido",
@@ -347,7 +449,10 @@
       "ja": "〜だった（大過去）"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "había sido",
+    "p": "",
+    "u": "b1-5"
   },
   {
     "word": "había hecho",
@@ -357,7 +462,10 @@
       "ja": "していた"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "había hecho",
+    "p": "",
+    "u": "b1-5"
   },
   {
     "word": "había ido",
@@ -367,7 +475,10 @@
       "ja": "行っていた"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "había ido",
+    "p": "",
+    "u": "b1-5"
   },
   {
     "word": "todavía no había",
@@ -377,7 +488,10 @@
       "ja": "まだ〜していなかった"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "todavía no había",
+    "p": "",
+    "u": "b1-5"
   },
   {
     "word": "ya había",
@@ -387,7 +501,10 @@
       "ja": "すでに〜していた"
     },
     "gender": null,
-    "unit": 5
+    "unit": 5,
+    "w": "ya había",
+    "p": "",
+    "u": "b1-5"
   },
   {
     "word": "se vende",
@@ -397,7 +514,10 @@
       "ja": "売り出し中"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se vende",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se alquila",
@@ -407,7 +527,10 @@
       "ja": "賃貸中"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se alquila",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se habla",
@@ -417,7 +540,10 @@
       "ja": "話されている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se habla",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se dice que",
@@ -427,7 +553,10 @@
       "ja": "〜と言われている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se dice que",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se puede",
@@ -437,7 +566,10 @@
       "ja": "〜できる"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se puede",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se necesita",
@@ -447,7 +579,10 @@
       "ja": "必要とされている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se necesita",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "se prohíbe",
@@ -457,7 +592,10 @@
       "ja": "禁止されている"
     },
     "gender": null,
-    "unit": 6
+    "unit": 6,
+    "w": "se prohíbe",
+    "p": "",
+    "u": "b1-6"
   },
   {
     "word": "política",
@@ -467,7 +605,10 @@
       "ja": "政治"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "política",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "elecciones",
@@ -477,7 +618,10 @@
       "ja": "選挙"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "elecciones",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "gobierno",
@@ -487,7 +631,10 @@
       "ja": "政府"
     },
     "gender": "m",
-    "unit": 7
+    "unit": 7,
+    "w": "gobierno",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "ley",
@@ -497,7 +644,10 @@
       "ja": "法律"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "ley",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "derecho",
@@ -507,7 +657,10 @@
       "ja": "権利/法学"
     },
     "gender": "m",
-    "unit": 7
+    "unit": 7,
+    "w": "derecho",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "sociedad",
@@ -517,7 +670,10 @@
       "ja": "社会"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "sociedad",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "ciudadano",
@@ -527,7 +683,10 @@
       "ja": "市民"
     },
     "gender": "m",
-    "unit": 7
+    "unit": 7,
+    "w": "ciudadano",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "igualdad",
@@ -537,7 +696,10 @@
       "ja": "平等"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "igualdad",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "libertad",
@@ -547,7 +709,10 @@
       "ja": "自由"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "libertad",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "democracia",
@@ -557,7 +722,10 @@
       "ja": "民主主義"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "democracia",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "opinión",
@@ -567,7 +735,10 @@
       "ja": "意見"
     },
     "gender": "f",
-    "unit": 7
+    "unit": 7,
+    "w": "opinión",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "debate",
@@ -577,7 +748,10 @@
       "ja": "討論"
     },
     "gender": "m",
-    "unit": 7
+    "unit": 7,
+    "w": "debate",
+    "p": "",
+    "u": "b1-7"
   },
   {
     "word": "medio ambiente",
@@ -587,7 +761,10 @@
       "ja": "環境"
     },
     "gender": "m",
-    "unit": 8
+    "unit": 8,
+    "w": "medio ambiente",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "cambio climático",
@@ -597,7 +774,10 @@
       "ja": "気候変動"
     },
     "gender": "m",
-    "unit": 8
+    "unit": 8,
+    "w": "cambio climático",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "energía renovable",
@@ -607,7 +787,10 @@
       "ja": "再生可能エネルギー"
     },
     "gender": "f",
-    "unit": 8
+    "unit": 8,
+    "w": "energía renovable",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "sostenible",
@@ -617,7 +800,10 @@
       "ja": "持続可能な"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "sostenible",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "contaminación",
@@ -627,7 +813,10 @@
       "ja": "汚染"
     },
     "gender": "f",
-    "unit": 8
+    "unit": 8,
+    "w": "contaminación",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "deforestación",
@@ -637,7 +826,10 @@
       "ja": "森林伐採"
     },
     "gender": "f",
-    "unit": 8
+    "unit": 8,
+    "w": "deforestación",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "reciclar",
@@ -647,7 +839,10 @@
       "ja": "リサイクルする"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "reciclar",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "ahorrar energía",
@@ -657,7 +852,10 @@
       "ja": "エネルギーを節約する"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "ahorrar energía",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "naturaleza",
@@ -667,7 +865,10 @@
       "ja": "自然"
     },
     "gender": "f",
-    "unit": 8
+    "unit": 8,
+    "w": "naturaleza",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "proteger",
@@ -677,7 +878,10 @@
       "ja": "守る"
     },
     "gender": null,
-    "unit": 8
+    "unit": 8,
+    "w": "proteger",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "especie",
@@ -687,7 +891,10 @@
       "ja": "種"
     },
     "gender": "f",
-    "unit": 8
+    "unit": 8,
+    "w": "especie",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "peligro de extinción",
@@ -697,7 +904,10 @@
       "ja": "絶滅の危機"
     },
     "gender": "m",
-    "unit": 8
+    "unit": 8,
+    "w": "peligro de extinción",
+    "p": "",
+    "u": "b1-8"
   },
   {
     "word": "tecnología",
@@ -707,7 +917,10 @@
       "ja": "テクノロジー"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "tecnología",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "red social",
@@ -717,7 +930,10 @@
       "ja": "SNS"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "red social",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "aplicación",
@@ -727,7 +943,10 @@
       "ja": "アプリ"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "aplicación",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "contraseña",
@@ -737,7 +956,10 @@
       "ja": "パスワード"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "contraseña",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "descargar",
@@ -747,7 +969,10 @@
       "ja": "ダウンロードする"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "descargar",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "actualizar",
@@ -757,7 +982,10 @@
       "ja": "アップデートする"
     },
     "gender": null,
-    "unit": 9
+    "unit": 9,
+    "w": "actualizar",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "conexión",
@@ -767,7 +995,10 @@
       "ja": "接続"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "conexión",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "wifi",
@@ -777,7 +1008,10 @@
       "ja": "Wi-Fi"
     },
     "gender": "m",
-    "unit": 9
+    "unit": 9,
+    "w": "wifi",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "pantalla",
@@ -787,7 +1021,10 @@
       "ja": "画面"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "pantalla",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "datos",
@@ -797,7 +1034,10 @@
       "ja": "データ"
     },
     "gender": "m",
-    "unit": 9
+    "unit": 9,
+    "w": "datos",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "privacidad",
@@ -807,7 +1047,10 @@
       "ja": "プライバシー"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "privacidad",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "inteligencia artificial",
@@ -817,7 +1060,10 @@
       "ja": "人工知能"
     },
     "gender": "f",
-    "unit": 9
+    "unit": 9,
+    "w": "inteligencia artificial",
+    "p": "",
+    "u": "b1-9"
   },
   {
     "word": "relación",
@@ -827,7 +1073,10 @@
       "ja": "関係"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "relación",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "convivencia",
@@ -837,7 +1086,10 @@
       "ja": "同居"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "convivencia",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "compromiso",
@@ -847,7 +1099,10 @@
       "ja": "約束/婚約"
     },
     "gender": "m",
-    "unit": 10
+    "unit": 10,
+    "w": "compromiso",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "confianza",
@@ -857,7 +1112,10 @@
       "ja": "信頼"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "confianza",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "discutir",
@@ -867,7 +1125,10 @@
       "ja": "言い争う"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "discutir",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "reconciliarse",
@@ -877,7 +1138,10 @@
       "ja": "仲直りする"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "reconciliarse",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "echar de menos",
@@ -887,7 +1151,10 @@
       "ja": "恋しい"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "echar de menos",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "apoyar",
@@ -897,7 +1164,10 @@
       "ja": "支える"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "apoyar",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "respetar",
@@ -907,7 +1177,10 @@
       "ja": "尊敬する"
     },
     "gender": null,
-    "unit": 10
+    "unit": 10,
+    "w": "respetar",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "amistad",
@@ -917,7 +1190,10 @@
       "ja": "友情"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "amistad",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "soledad",
@@ -927,7 +1203,10 @@
       "ja": "孤独"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "soledad",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "independencia",
@@ -937,7 +1216,10 @@
       "ja": "独立"
     },
     "gender": "f",
-    "unit": 10
+    "unit": 10,
+    "w": "independencia",
+    "p": "",
+    "u": "b1-10"
   },
   {
     "word": "hablaría",
@@ -947,7 +1229,10 @@
       "ja": "話すだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "hablaría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "tendría",
@@ -957,7 +1242,10 @@
       "ja": "持つだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "tendría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "podría",
@@ -967,7 +1255,10 @@
       "ja": "できるだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "podría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "querría",
@@ -977,7 +1268,10 @@
       "ja": "欲しいだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "querría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "debería",
@@ -987,7 +1281,10 @@
       "ja": "〜すべきだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "debería",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "me gustaría",
@@ -997,7 +1294,10 @@
       "ja": "〜したいなあ"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "me gustaría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "sería",
@@ -1007,7 +1307,10 @@
       "ja": "〜だろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "sería",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "vendría",
@@ -1017,7 +1320,10 @@
       "ja": "来るだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "vendría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "diría",
@@ -1027,7 +1333,10 @@
       "ja": "言うだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "diría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "haría",
@@ -1037,7 +1346,10 @@
       "ja": "するだろう"
     },
     "gender": null,
-    "unit": 11
+    "unit": 11,
+    "w": "haría",
+    "p": "",
+    "u": "b1-11"
   },
   {
     "word": "hablaré",
@@ -1047,7 +1359,10 @@
       "ja": "話すだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "hablaré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "tendré",
@@ -1057,7 +1372,10 @@
       "ja": "持つだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "tendré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "podré",
@@ -1067,7 +1385,10 @@
       "ja": "できるだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "podré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "haré",
@@ -1077,7 +1398,10 @@
       "ja": "するだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "haré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "diré",
@@ -1087,7 +1411,10 @@
       "ja": "言うだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "diré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "sabré",
@@ -1097,7 +1424,10 @@
       "ja": "知るだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "sabré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "saldré",
@@ -1107,7 +1437,10 @@
       "ja": "出るだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "saldré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "vendré",
@@ -1117,7 +1450,10 @@
       "ja": "来るだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "vendré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "pondré",
@@ -1127,7 +1463,10 @@
       "ja": "置くだろう"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "pondré",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "el año que viene",
@@ -1137,7 +1476,10 @@
       "ja": "来年"
     },
     "gender": null,
-    "unit": 12
+    "unit": 12,
+    "w": "el año que viene",
+    "p": "",
+    "u": "b1-12"
   },
   {
     "word": "para",
@@ -1147,7 +1489,10 @@
       "ja": "〜のために/〜に"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "para",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por",
@@ -1157,7 +1502,10 @@
       "ja": "〜のせいで/〜を通って"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "para que",
@@ -1167,7 +1515,10 @@
       "ja": "〜するために"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "para que",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por eso",
@@ -1177,7 +1528,10 @@
       "ja": "だから"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por eso",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por lo tanto",
@@ -1187,7 +1541,10 @@
       "ja": "したがって"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por lo tanto",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por supuesto",
@@ -1197,7 +1554,10 @@
       "ja": "もちろん"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por supuesto",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por ejemplo",
@@ -1207,7 +1567,10 @@
       "ja": "例えば"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por ejemplo",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por cierto",
@@ -1217,7 +1580,10 @@
       "ja": "ところで"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por cierto",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "por fin",
@@ -1227,7 +1593,10 @@
       "ja": "ついに"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "por fin",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "sin embargo",
@@ -1237,7 +1606,10 @@
       "ja": "しかしながら"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "sin embargo",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "además",
@@ -1247,7 +1619,10 @@
       "ja": "さらに"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "además",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "en cambio",
@@ -1257,7 +1632,10 @@
       "ja": "一方で"
     },
     "gender": null,
-    "unit": 13
+    "unit": 13,
+    "w": "en cambio",
+    "p": "",
+    "u": "b1-13"
   },
   {
     "word": "dárselo",
@@ -1267,7 +1645,10 @@
       "ja": "彼に渡す"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "dárselo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "decírselo",
@@ -1277,7 +1658,10 @@
       "ja": "彼に伝える"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "decírselo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "me lo",
@@ -1287,7 +1671,10 @@
       "ja": "私にそれを"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "me lo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "te lo",
@@ -1297,7 +1684,10 @@
       "ja": "君にそれを"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "te lo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "se lo",
@@ -1307,7 +1697,10 @@
       "ja": "彼にそれを"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "se lo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "nos lo",
@@ -1317,7 +1710,10 @@
       "ja": "私たちにそれを"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "nos lo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "dímelo",
@@ -1327,7 +1723,10 @@
       "ja": "教えて"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "dímelo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "dáselo",
@@ -1337,7 +1736,10 @@
       "ja": "彼に渡して"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "dáselo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "explícamelo",
@@ -1347,7 +1749,10 @@
       "ja": "説明して"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "explícamelo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "préstamelo",
@@ -1357,7 +1762,10 @@
       "ja": "貸して"
     },
     "gender": null,
-    "unit": 14
+    "unit": 14,
+    "w": "préstamelo",
+    "p": "",
+    "u": "b1-14"
   },
   {
     "word": "mejor",
@@ -1367,7 +1775,10 @@
       "ja": "より良い/最高の"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "mejor",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "peor",
@@ -1377,7 +1788,10 @@
       "ja": "より悪い/最悪の"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "peor",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "mayor",
@@ -1387,7 +1801,10 @@
       "ja": "より大きい/年上の"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "mayor",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "menor",
@@ -1397,7 +1814,10 @@
       "ja": "より小さい/年下の"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "menor",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "tan...como",
@@ -1407,7 +1827,10 @@
       "ja": "〜と同じくらい"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "tan...como",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "más...que",
@@ -1417,7 +1840,10 @@
       "ja": "〜より"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "más...que",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "menos...que",
@@ -1427,7 +1853,10 @@
       "ja": "〜ほど〜でない"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "menos...que",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "tanto como",
@@ -1437,7 +1866,10 @@
       "ja": "〜と同じくらい"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "tanto como",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "el más",
@@ -1447,7 +1879,10 @@
       "ja": "最も"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "el más",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "buenísimo",
@@ -1457,7 +1892,10 @@
       "ja": "とても良い"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "buenísimo",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "malísimo",
@@ -1467,7 +1905,10 @@
       "ja": "とても悪い"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "malísimo",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "facilísimo",
@@ -1477,7 +1918,10 @@
       "ja": "とても簡単"
     },
     "gender": null,
-    "unit": 15
+    "unit": 15,
+    "w": "facilísimo",
+    "p": "",
+    "u": "b1-15"
   },
   {
     "word": "empresa",
@@ -1487,7 +1931,10 @@
       "ja": "会社"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "empresa",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "jefe",
@@ -1497,7 +1944,10 @@
       "ja": "上司"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "jefe",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "sueldo",
@@ -1507,7 +1957,10 @@
       "ja": "給料"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "sueldo",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "contrato",
@@ -1517,7 +1970,10 @@
       "ja": "契約"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "contrato",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "entrevista",
@@ -1527,7 +1983,10 @@
       "ja": "面接"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "entrevista",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "experiencia",
@@ -1537,7 +1996,10 @@
       "ja": "経験"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "experiencia",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "currículum",
@@ -1547,7 +2009,10 @@
       "ja": "履歴書"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "currículum",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "desempleo",
@@ -1557,7 +2022,10 @@
       "ja": "失業"
     },
     "gender": "m",
-    "unit": 16
+    "unit": 16,
+    "w": "desempleo",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "jubilarse",
@@ -1567,7 +2035,10 @@
       "ja": "退職する"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "jubilarse",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "solicitar",
@@ -1577,7 +2048,10 @@
       "ja": "応募する"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "solicitar",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "despedir",
@@ -1587,7 +2061,10 @@
       "ja": "解雇する"
     },
     "gender": null,
-    "unit": 16
+    "unit": 16,
+    "w": "despedir",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "reunión",
@@ -1597,7 +2074,10 @@
       "ja": "会議"
     },
     "gender": "f",
-    "unit": 16
+    "unit": 16,
+    "w": "reunión",
+    "p": "",
+    "u": "b1-16"
   },
   {
     "word": "síntoma",
@@ -1607,7 +2087,10 @@
       "ja": "症状"
     },
     "gender": "m",
-    "unit": 17
+    "unit": 17,
+    "w": "síntoma",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "enfermedad",
@@ -1617,7 +2100,10 @@
       "ja": "病気"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "enfermedad",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "tratamiento",
@@ -1627,7 +2113,10 @@
       "ja": "治療"
     },
     "gender": "m",
-    "unit": 17
+    "unit": 17,
+    "w": "tratamiento",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "receta",
@@ -1637,7 +2126,10 @@
       "ja": "処方箋/レシピ"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "receta",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "urgencias",
@@ -1647,7 +2139,10 @@
       "ja": "救急"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "urgencias",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "operación",
@@ -1657,7 +2152,10 @@
       "ja": "手術"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "operación",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "recuperarse",
@@ -1667,7 +2165,10 @@
       "ja": "回復する"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "recuperarse",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "doler",
@@ -1677,7 +2178,10 @@
       "ja": "痛い"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "doler",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "marearse",
@@ -1687,7 +2191,10 @@
       "ja": "めまいがする"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "marearse",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "desmayarse",
@@ -1697,7 +2204,10 @@
       "ja": "気を失う"
     },
     "gender": null,
-    "unit": 17
+    "unit": 17,
+    "w": "desmayarse",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "sangre",
@@ -1707,7 +2217,10 @@
       "ja": "血"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "sangre",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "alergia",
@@ -1717,7 +2230,10 @@
       "ja": "アレルギー"
     },
     "gender": "f",
-    "unit": 17
+    "unit": 17,
+    "w": "alergia",
+    "p": "",
+    "u": "b1-17"
   },
   {
     "word": "frontera",
@@ -1727,7 +2243,10 @@
       "ja": "国境"
     },
     "gender": "f",
-    "unit": 18
+    "unit": 18,
+    "w": "frontera",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "continente",
@@ -1737,7 +2256,10 @@
       "ja": "大陸"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "continente",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "paisaje",
@@ -1747,7 +2269,10 @@
       "ja": "景色"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "paisaje",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "isla",
@@ -1757,7 +2282,10 @@
       "ja": "島"
     },
     "gender": "f",
-    "unit": 18
+    "unit": 18,
+    "w": "isla",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "montaña",
@@ -1767,7 +2295,10 @@
       "ja": "山"
     },
     "gender": "f",
-    "unit": 18
+    "unit": 18,
+    "w": "montaña",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "costa",
@@ -1777,7 +2308,10 @@
       "ja": "海岸"
     },
     "gender": "f",
-    "unit": 18
+    "unit": 18,
+    "w": "costa",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "selva",
@@ -1787,7 +2321,10 @@
       "ja": "ジャングル"
     },
     "gender": "f",
-    "unit": 18
+    "unit": 18,
+    "w": "selva",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "desierto",
@@ -1797,7 +2334,10 @@
       "ja": "砂漠"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "desierto",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "turismo",
@@ -1807,7 +2347,10 @@
       "ja": "観光"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "turismo",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "alojamiento",
@@ -1817,7 +2360,10 @@
       "ja": "宿泊施設"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "alojamiento",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "equipaje",
@@ -1827,7 +2373,10 @@
       "ja": "荷物"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "equipaje",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "vuelo",
@@ -1837,7 +2386,10 @@
       "ja": "フライト"
     },
     "gender": "m",
-    "unit": 18
+    "unit": 18,
+    "w": "vuelo",
+    "p": "",
+    "u": "b1-18"
   },
   {
     "word": "noticia",
@@ -1847,7 +2399,10 @@
       "ja": "ニュース"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "noticia",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "periodista",
@@ -1857,7 +2412,10 @@
       "ja": "ジャーナリスト"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "periodista",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "prensa",
@@ -1867,7 +2425,10 @@
       "ja": "報道"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "prensa",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "publicidad",
@@ -1877,7 +2438,10 @@
       "ja": "広告"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "publicidad",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "emisora",
@@ -1887,7 +2451,10 @@
       "ja": "ラジオ局"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "emisora",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "cadena",
@@ -1897,7 +2464,10 @@
       "ja": "テレビ局/チェーン"
     },
     "gender": "f",
-    "unit": 19
+    "unit": 19,
+    "w": "cadena",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "entrevistar",
@@ -1907,7 +2477,10 @@
       "ja": "インタビューする"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "entrevistar",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "informar",
@@ -1917,7 +2490,10 @@
       "ja": "報道する/知らせる"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "informar",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "opinar",
@@ -1927,7 +2503,10 @@
       "ja": "意見を述べる"
     },
     "gender": null,
-    "unit": 19
+    "unit": 19,
+    "w": "opinar",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "titular",
@@ -1937,7 +2516,10 @@
       "ja": "見出し"
     },
     "gender": "m",
-    "unit": 19
+    "unit": 19,
+    "w": "titular",
+    "p": "",
+    "u": "b1-19"
   },
   {
     "word": "ingrediente",
@@ -1947,7 +2529,10 @@
       "ja": "材料"
     },
     "gender": "m",
-    "unit": 20
+    "unit": 20,
+    "w": "ingrediente",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "receta",
@@ -1957,7 +2542,10 @@
       "ja": "レシピ"
     },
     "gender": "f",
-    "unit": 20
+    "unit": 20,
+    "w": "receta",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "freír",
@@ -1967,7 +2555,10 @@
       "ja": "揚げる/炒める"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "freír",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "hervir",
@@ -1977,7 +2568,10 @@
       "ja": "沸騰させる"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "hervir",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "asar",
@@ -1987,7 +2581,10 @@
       "ja": "焼く/ローストする"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "asar",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "mezclar",
@@ -1997,7 +2594,10 @@
       "ja": "混ぜる"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "mezclar",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "picar",
@@ -2007,7 +2607,10 @@
       "ja": "刻む"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "picar",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "sartén",
@@ -2017,7 +2620,10 @@
       "ja": "フライパン"
     },
     "gender": "f",
-    "unit": 20
+    "unit": 20,
+    "w": "sartén",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "horno",
@@ -2027,7 +2633,10 @@
       "ja": "オーブン"
     },
     "gender": "m",
-    "unit": 20
+    "unit": 20,
+    "w": "horno",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "sabor",
@@ -2037,7 +2646,10 @@
       "ja": "味"
     },
     "gender": "m",
-    "unit": 20
+    "unit": 20,
+    "w": "sabor",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "picante",
@@ -2047,7 +2659,10 @@
       "ja": "辛い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "picante",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "soso",
@@ -2057,7 +2672,10 @@
       "ja": "味が薄い"
     },
     "gender": null,
-    "unit": 20
+    "unit": 20,
+    "w": "soso",
+    "p": "",
+    "u": "b1-20"
   },
   {
     "word": "carrera",
@@ -2067,7 +2685,10 @@
       "ja": "学位/キャリア"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "carrera",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "beca",
@@ -2077,7 +2698,10 @@
       "ja": "奨学金"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "beca",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "matrícula",
@@ -2087,7 +2711,10 @@
       "ja": "入学/学費"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "matrícula",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "asignatura",
@@ -2097,7 +2724,10 @@
       "ja": "科目"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "asignatura",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "aprobar",
@@ -2107,7 +2737,10 @@
       "ja": "合格する"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "aprobar",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "suspender",
@@ -2117,7 +2750,10 @@
       "ja": "落ちる"
     },
     "gender": null,
-    "unit": 21
+    "unit": 21,
+    "w": "suspender",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "licenciatura",
@@ -2127,7 +2763,10 @@
       "ja": "学士号"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "licenciatura",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "máster",
@@ -2137,7 +2776,10 @@
       "ja": "修士号"
     },
     "gender": "m",
-    "unit": 21
+    "unit": 21,
+    "w": "máster",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "investigación",
@@ -2147,7 +2789,10 @@
       "ja": "研究"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "investigación",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "tesis",
@@ -2157,7 +2802,10 @@
       "ja": "論文"
     },
     "gender": "f",
-    "unit": 21
+    "unit": 21,
+    "w": "tesis",
+    "p": "",
+    "u": "b1-21"
   },
   {
     "word": "juicio",
@@ -2167,7 +2815,10 @@
       "ja": "裁判"
     },
     "gender": "m",
-    "unit": 22
+    "unit": 22,
+    "w": "juicio",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "delito",
@@ -2177,7 +2828,10 @@
       "ja": "犯罪"
     },
     "gender": "m",
-    "unit": 22
+    "unit": 22,
+    "w": "delito",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "abogado",
@@ -2187,7 +2841,10 @@
       "ja": "弁護士"
     },
     "gender": "m",
-    "unit": 22
+    "unit": 22,
+    "w": "abogado",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "juez",
@@ -2197,7 +2854,10 @@
       "ja": "裁判官"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "juez",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "denuncia",
@@ -2207,7 +2867,10 @@
       "ja": "告訴"
     },
     "gender": "f",
-    "unit": 22
+    "unit": 22,
+    "w": "denuncia",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "multa",
@@ -2217,7 +2880,10 @@
       "ja": "罰金"
     },
     "gender": "f",
-    "unit": 22
+    "unit": 22,
+    "w": "multa",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "robo",
@@ -2227,7 +2893,10 @@
       "ja": "盗難"
     },
     "gender": "m",
-    "unit": 22
+    "unit": 22,
+    "w": "robo",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "testigo",
@@ -2237,7 +2906,10 @@
       "ja": "証人"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "testigo",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "culpable",
@@ -2247,7 +2919,10 @@
       "ja": "有罪の"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "culpable",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "inocente",
@@ -2257,7 +2932,10 @@
       "ja": "無罪の"
     },
     "gender": null,
-    "unit": 22
+    "unit": 22,
+    "w": "inocente",
+    "p": "",
+    "u": "b1-22"
   },
   {
     "word": "exposición",
@@ -2267,7 +2945,10 @@
       "ja": "展覧会"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "exposición",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "espectáculo",
@@ -2277,7 +2958,10 @@
       "ja": "ショー/公演"
     },
     "gender": "m",
-    "unit": 23
+    "unit": 23,
+    "w": "espectáculo",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "escultura",
@@ -2287,7 +2971,10 @@
       "ja": "彫刻"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "escultura",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "obra de teatro",
@@ -2297,7 +2984,10 @@
       "ja": "演劇"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "obra de teatro",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "novela",
@@ -2307,7 +2997,10 @@
       "ja": "小説"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "novela",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "poesía",
@@ -2317,7 +3010,10 @@
       "ja": "詩"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "poesía",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "director",
@@ -2327,7 +3023,10 @@
       "ja": "監督"
     },
     "gender": "m",
-    "unit": 23
+    "unit": 23,
+    "w": "director",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "estreno",
@@ -2337,7 +3036,10 @@
       "ja": "初演/封切り"
     },
     "gender": "m",
-    "unit": 23
+    "unit": 23,
+    "w": "estreno",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "patrimonio",
@@ -2347,7 +3049,10 @@
       "ja": "遺産"
     },
     "gender": "m",
-    "unit": 23
+    "unit": 23,
+    "w": "patrimonio",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "cultura",
@@ -2357,7 +3062,10 @@
       "ja": "文化"
     },
     "gender": "f",
-    "unit": 23
+    "unit": 23,
+    "w": "cultura",
+    "p": "",
+    "u": "b1-23"
   },
   {
     "word": "voluntariado",
@@ -2367,7 +3075,10 @@
       "ja": "ボランティア"
     },
     "gender": "m",
-    "unit": 24
+    "unit": 24,
+    "w": "voluntariado",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "ONG",
@@ -2377,7 +3088,10 @@
       "ja": "NGO"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "ONG",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "solidaridad",
@@ -2387,7 +3101,10 @@
       "ja": "連帯"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "solidaridad",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "pobreza",
@@ -2397,7 +3114,10 @@
       "ja": "貧困"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "pobreza",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "desigualdad",
@@ -2407,7 +3127,10 @@
       "ja": "不平等"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "desigualdad",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "refugiado",
@@ -2417,7 +3140,10 @@
       "ja": "難民"
     },
     "gender": "m",
-    "unit": 24
+    "unit": 24,
+    "w": "refugiado",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "donar",
@@ -2427,7 +3153,10 @@
       "ja": "寄付する"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "donar",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "colaborar",
@@ -2437,7 +3166,10 @@
       "ja": "協力する"
     },
     "gender": null,
-    "unit": 24
+    "unit": 24,
+    "w": "colaborar",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "injusticia",
@@ -2447,7 +3179,10 @@
       "ja": "不正"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "injusticia",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "paz",
@@ -2457,7 +3192,10 @@
       "ja": "平和"
     },
     "gender": "f",
-    "unit": 24
+    "unit": 24,
+    "w": "paz",
+    "p": "",
+    "u": "b1-24"
   },
   {
     "word": "mudarse",
@@ -2467,7 +3205,10 @@
       "ja": "引っ越す"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "mudarse",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "hipoteca",
@@ -2477,7 +3218,10 @@
       "ja": "住宅ローン"
     },
     "gender": "f",
-    "unit": 25
+    "unit": 25,
+    "w": "hipoteca",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "alquiler",
@@ -2487,7 +3231,10 @@
       "ja": "家賃"
     },
     "gender": "m",
-    "unit": 25
+    "unit": 25,
+    "w": "alquiler",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "piso",
@@ -2497,7 +3244,10 @@
       "ja": "マンション"
     },
     "gender": "m",
-    "unit": 25
+    "unit": 25,
+    "w": "piso",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "barrio",
@@ -2507,7 +3257,10 @@
       "ja": "地区"
     },
     "gender": "m",
-    "unit": 25
+    "unit": 25,
+    "w": "barrio",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "urbanización",
@@ -2517,7 +3270,10 @@
       "ja": "住宅地"
     },
     "gender": "f",
-    "unit": 25
+    "unit": 25,
+    "w": "urbanización",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "amueblado",
@@ -2527,7 +3283,10 @@
       "ja": "家具付きの"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "amueblado",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "compartir piso",
@@ -2537,7 +3296,10 @@
       "ja": "ルームシェアする"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "compartir piso",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "propietario",
@@ -2547,7 +3309,10 @@
       "ja": "大家/オーナー"
     },
     "gender": "m",
-    "unit": 25
+    "unit": 25,
+    "w": "propietario",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "inquilino",
@@ -2557,7 +3322,10 @@
       "ja": "入居者"
     },
     "gender": "m",
-    "unit": 25
+    "unit": 25,
+    "w": "inquilino",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "comunidad",
@@ -2567,7 +3335,10 @@
       "ja": "コミュニティ"
     },
     "gender": "f",
-    "unit": 25
+    "unit": 25,
+    "w": "comunidad",
+    "p": "",
+    "u": "b1-25"
   },
   {
     "word": "reformar",
@@ -2577,6 +3348,9 @@
       "ja": "リフォームする"
     },
     "gender": null,
-    "unit": 25
+    "unit": 25,
+    "w": "reformar",
+    "p": "",
+    "u": "b1-25"
   }
 ]

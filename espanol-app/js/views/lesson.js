@@ -1,14 +1,17 @@
-import { S, completeUnit, update } from '../state.js';
-import { buildReview } from '../engine/review.js';
-import { addCards } from '../engine/anki.js';
-import { register, go } from '../router.js';
-import { loadUnit, loadVocab } from '../data.js';
-import { generateExercises, unitVocab, reshuffle, tr } from '../engine/exercises.js';
-import { recordAnswer } from '../engine/srs.js';
-import { progressBar } from '../ui/components.js';
-import { icon } from '../ui/icons.js';
-import { t } from '../i18n.js';
-import { speak, stop as stopAudio } from '../audio.js';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611141200';
+import { buildReview } from '../engine/review.js?v=202611141200';
+import { addCards } from '../engine/anki.js?v=202611141200';
+import { register, go } from '../router.js?v=202611141200';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611141200';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611141200';
+import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611141200';
+import { recordAnswer } from '../engine/srs.js?v=202611141200';
+import { progressBar } from '../ui/components.js?v=202611141200';
+import { icon } from '../ui/icons.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { speak, stop as stopAudio } from '../audio.js?v=202611141200';
+import { allHanzi } from './review.js?v=202611141200';
+import { wordSize } from '../chars.js?v=202611141200';
 
 const MAX_HEARTS = 5;
 
@@ -20,33 +23,41 @@ function fmt(key, arg) {
   return t(key).replace('{w}', esc(arg));
 }
 
-function normalize(s) {
-  return String(s).toLowerCase().replace(/[¿¡?!.,;:"'“”«»()]/g, ' ').replace(/\s+/g, ' ').trim();
-}
-
-function stripAccents(s) {
-  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+// Spanish answer shown in the feedback.
+function zhAnswer(text) {
+  return `<span class="es">${esc(text)}</span>`;
 }
 
 register('lesson', async (el, params) => {
+  await pyReady; await sylReady;
   const review = params.review ? await buildReview() : null;
   if (review && !review.queue.length) {
     el.innerHTML = `<div class="fade center" style="padding-top:60px">
       <div style="font-size:56px;margin-bottom:12px">🌱</div>
-      <div class="h2 mb-8">Repaso</div>
+      <div class="h2 mb-8">${t('review')}</div>
       <div class="muted mb-16">${t('reviewEmpty')}</div>
       <button class="btn" onclick="window.__nav('home')">${t('continue')}</button></div>`;
     return;
   }
-  const unit = review
-    ? { title: { es: 'Repaso', en: 'Review', zh: '复习', ja: '復習' }, exercises: [] }
+  let unit = review
+    ? { title: { en: 'Review', ja: '復習', zh: '复习' }, exercises: [] }
     : await loadUnit(params.level, params.unit);
   if (!unit) { go('home'); return; }
+  // Sets 2–7 are optional extra practice: different sentences and a different slice of the unit's vocabulary.
+  const setNo = review ? 1 : Math.max(1, +params.set || 1);
+  if (setNo > 1) {
+    let x = null;
+    try { x = (await loadExtra(params.level))[String(params.unit)]; } catch (e) {}
+    if (!x || !x.sets[setNo - 2]) { go('home'); return; }
+    unit = { ...unit, exercises: x.sets[setNo - 2], newVocab: x.words[setNo - 2] };
+  }
 
+  const hanziMap = await allHanzi().catch(() => null);
   let levelVocab = [];
   if (!review) try { levelVocab = await loadVocab(params.level); } catch (e) {}
 
   const lang = S.lang || 'en';
+  const vocabSet = new Set(levelVocab.map(v => v.word));
   const words = review ? [] : unitVocab(unit, levelVocab);
   const grammarHtml = unit.grammarIntro
     ? tr(unit.grammarIntro, lang)
@@ -94,12 +105,13 @@ register('lesson', async (el, params) => {
   function renderGrammar() {
     el.innerHTML = `<div class="grammar-page fade">
       ${topBar(unitTitle, 'grammar')}
-      <div class="grammar-section">${grammarHtml}</div>
+      <div class="grammar-section" onclick="window.__zhSpeak(event)">${grammarHtml}</div>
       <button class="btn" onclick="window.__afterGrammar()">${words.length ? t('toVocab') : t('startExercises')}</button>
     </div>`;
     window.scrollTo(0, 0);
   }
 
+  window.__zhSpeak = (e) => { const z = e.target.closest('.zh, .es, strong'); if (z) speak(z.textContent.trim()); };
   window.__afterGrammar = () => words.length ? startVocab() : startPractice();
 
   // ── Step 2: vocabulary flashcards ─────────────────────────────
@@ -119,7 +131,7 @@ register('lesson', async (el, params) => {
       </div>
       <div class="card vocab-card pop" onclick="window.__speakWord()">
         <div class="speaker">🔊</div>
-        <div class="vocab-es">${esc(w.word)}</div>
+        <div class="vocab-es es-word" style="font-size:${wordSize(w.word, 44)}px">${esc(w.word)}</div>
         <div class="vocab-tr">${esc(tr(w.m, lang))}</div>
         <div class="muted small mt-12">${t('listen')}</div>
       </div>
@@ -194,7 +206,7 @@ register('lesson', async (el, params) => {
     switch (ex.type) {
       case 'choose':
         return `<div class="slideup">${hintOf(ex)}
-          <div class="h3 mb-16">${promptOf(ex)}${ex.speak ? ` <button onclick="window.__speak()" style="font-size:18px">🔊</button>` : ''}</div>
+          <div class="h3 mb-16">${ex.promptKey === 'whatMeans' || ex.promptKey === 'whichPinyin' ? t(ex.promptKey + 'Q') + `<div class="zh-prompt">${esc(ex.promptArg)}</div>` : promptOf(ex)}${ex.speak && ex.kind !== 'tone' ? ` <button onclick="window.__speak()" style="font-size:18px">🔊</button>` : ''}</div>
           ${optionsHtml(ex, '__choose')}<div id="feedback"></div></div>`;
       case 'listen':
         return `<div class="slideup">
@@ -204,7 +216,7 @@ register('lesson', async (el, params) => {
       case 'translate':
         return `<div class="slideup">${hintOf(ex)}
           <div class="h3 mb-16">${promptOf(ex)}</div>
-          <input type="text" id="answer-input" placeholder="${t('writeSpanish')}" autocomplete="off" autocapitalize="off" spellcheck="false" style="margin-bottom:14px">
+          <input type="text" id="answer-input" lang="es" placeholder="${t('writeSpanish')}" autocomplete="off" autocapitalize="off" spellcheck="false" style="margin-bottom:10px">
           <div class="accent-keys">${['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü', '¿', '¡'].map(c =>
             `<button class="wordchip" onclick="window.__insertChar('${c}')">${c}</button>`).join('')}</div>
           <button class="btn" id="check-btn" onclick="window.__checkTranslate()">${t('check')}</button>
@@ -212,8 +224,9 @@ register('lesson', async (el, params) => {
       case 'fill': {
         const parts = ex.sentence.split('___');
         return `<div class="slideup">${hintOf(ex)}
-          <div class="card" style="padding:20px;margin-bottom:16px;font-size:18px;line-height:1.8">
-            ${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}
+          <div class="card" style="padding:20px;margin-bottom:16px;font-size:19px;line-height:1.7">
+            <span class="es">${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}</span>
+            ${ex.trans ? `<div class="muted small mt-8" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
           </div>
           ${optionsHtml(ex, '__fillChoose')}<div id="feedback"></div></div>`;
       }
@@ -226,10 +239,13 @@ register('lesson', async (el, params) => {
           <button class="btn mt-16" id="check-btn" onclick="window.__checkOrder()">${t('check')}</button>
           <div id="feedback" class="mt-12"></div></div>`;
       case 'match': {
+        // A freshly rendered match board has nothing matched yet (guards against stale state from a previous board).
+        if (matchEx !== ex) { matchEx = ex; matched = new Set(); matchErrors = 0; }
+        matchSel = null;
         ex.leftOrder = ex.leftOrder || shuffleIdx(ex.pairs.length);
         ex.rightOrder = ex.rightOrder || shuffleIdx(ex.pairs.length);
         const col = (side, order) => `<div class="flex flex-col">${order.map(i =>
-          `<button class="exercise-option" data-side="${side}" data-idx="${i}" onclick="window.__matchPick('${side}',${i})">${esc(ex.pairs[i][side])}</button>`).join('')}</div>`;
+          `<button class="exercise-option ${matched.has(i) ? 'correct' : ''}" data-side="${side}" data-idx="${i}" onclick="window.__matchPick('${side}',${i})">${side === 'left' ? ruby(ex.pairs[i][side]) : esc(ex.pairs[i][side])}</button>`).join('')}</div>`;
         return `<div class="slideup">
           <div class="h3 mb-16">${t('connectPairs')}</div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">${col('left', ex.leftOrder)}${col('right', ex.rightOrder)}</div>
@@ -270,7 +286,8 @@ register('lesson', async (el, params) => {
     });
     lockOptions();
     if (ex.type === 'listen' || ex.vocab) speak(ex.vocab || ex.correct);
-    answered(isCorrect, ex.correct, ex.vocab || ex.correct);
+    const shown = ex.vocab && ex.correct !== ex.vocab ? `${zhAnswer(ex.vocab)} = ${esc(ex.correct)}` : zhAnswer(ex.correct);
+    answered(isCorrect, shown, ex.vocab || ex.correct, '', true);
   };
 
   window.__fillChoose = (i) => {
@@ -284,27 +301,24 @@ register('lesson', async (el, params) => {
       else if (idx === i) btn.classList.add('wrong');
     });
     lockOptions();
-    speak(ex.sentence.replace('___', ex.blank));
-    answered(isCorrect, ex.sentence.replace('___', ex.blank), ex.sentence);
+    const full = ex.sentence.replace('___', ex.blank);
+    speak(full);
+    answered(isCorrect, zhAnswer(full, ex.py), ex.sentence, isCorrect ? zhAnswer(full, ex.py) : '', true);
   };
 
   window.__checkTranslate = () => {
     const ex = current();
     const input = document.getElementById('answer-input');
-    const user = normalize(input.value);
-    if (!user) return;
-    const accepted = (ex.accept || [ex.answer]).map(normalize);
-    let isCorrect = accepted.includes(user);
-    let note = '';
-    if (!isCorrect && accepted.map(stripAccents).includes(stripAccents(user))) {
-      isCorrect = true;
-      note = `${t('accentNote')} <strong>${esc(ex.answer)}</strong>`;
-    }
+    if (!input.value.trim()) return;
+    const res = checkTyped(input.value, ex);
+    const isCorrect = res.ok;
+    let note = isCorrect ? zhAnswer(ex.answer, ex.py) : '';
+    if (res.note === 'tones') note = `${t('accentNote')} ${zhAnswer(ex.answer, ex.py)}`;
     input.style.borderColor = isCorrect ? 'var(--ok)' : 'var(--no)';
     input.disabled = true;
     document.getElementById('check-btn').style.display = 'none';
     speak(ex.answer);
-    answered(isCorrect, ex.answer, ex.answer, note);
+    answered(isCorrect, zhAnswer(ex.answer, ex.py), ex.vocab || ex.answer, note, true);
   };
 
   let picked = [];
@@ -330,16 +344,17 @@ register('lesson', async (el, params) => {
     const ex = current();
     if (!picked.length) return;
     const user = picked.map(i => ex.words[i]).join(' ');
-    const isCorrect = normalize(user) === normalize(ex.answer);
+    const isCorrect = fold(user) === fold(ex.answer);
     document.getElementById('check-btn').style.display = 'none';
     document.querySelectorAll('.wordchip').forEach(c => { c.style.pointerEvents = 'none'; });
     speak(ex.answer);
-    answered(isCorrect, ex.answer, ex.answer);
+    answered(isCorrect, zhAnswer(ex.answer, ex.py), ex.answer, isCorrect ? zhAnswer(ex.answer, ex.py) : '', true);
   };
 
   let matchSel = null;
   let matched = new Set();
   let matchErrors = 0;
+  let matchEx = null;
   window.__matchPick = (side, idx) => {
     if (matched.has(idx)) return;
     const ex = current();
@@ -364,6 +379,7 @@ register('lesson', async (el, params) => {
         if (perfect) firstTryCorrect++;
         solved++;
         queue.shift();
+        // matched stays full until the next render so late clicks are ignored
         setTimeout(() => { resetExerciseState(); renderExercise(); }, 600);
       }
     } else {
@@ -375,9 +391,10 @@ register('lesson', async (el, params) => {
     }
   };
 
-  function answered(isCorrect, correctAnswer, srsKey, note = '') {
+  function answered(isCorrect, correctAnswer, srsKey, note = '', html = false) {
     const ex = current();
-    recordAnswer(srsKey, isCorrect);
+    // Only vocabulary words count as "seen" (not whole sentences or translations).
+    if (srsKey && (ex.vocab || vocabSet.has(srsKey))) recordAnswer(srsKey, isCorrect);
     if (isCorrect) {
       solved++;
       if (!ex.retry) firstTryCorrect++;
@@ -389,8 +406,8 @@ register('lesson', async (el, params) => {
     const fb = document.getElementById('feedback');
     fb.innerHTML = `<div class="card pop" style="padding:14px 18px;margin-top:12px;border-color:${isCorrect ? 'var(--ok)' : 'var(--no)'}">
       <div style="font-weight:600;color:${isCorrect ? 'var(--ok)' : 'var(--no)'}">${isCorrect ? t('correct') : t('incorrect')}</div>
-      ${note ? `<div class="muted small mt-8">${note}</div>` : ''}
-      ${!isCorrect ? `<div class="muted small mt-8">${t('answer')}: <strong>${esc(correctAnswer)}</strong></div>
+      ${note ? `<div class="mt-8 fb-zh">${note}</div>` : ''}
+      ${!isCorrect ? `<div class="muted small mt-8">${t('answer')}: <strong>${html ? correctAnswer : esc(correctAnswer)}</strong></div>
         <div class="muted small mt-8">${t('retryLater')}</div>` : ''}
     </div>
     <button class="btn mt-12 ${isCorrect ? 'btn-ok' : ''}" id="next-btn" onclick="window.__next(${isCorrect})">${t('continue')}</button>`;
@@ -453,9 +470,32 @@ register('lesson', async (el, params) => {
     </div>`;
   }
 
+  function finishSet() {
+    const rank = new Map(levelVocab.map(v => [v.word, v.q]));
+    addCards(words.map(w => w.word), 'v', w => rank.get(w) ?? 99999);
+    completeSet(params.level, params.unit, setNo);
+    const accuracy = total ? firstTryCorrect / total : 1;
+    const stars = mistakes === 0 ? 3 : accuracy >= 0.8 ? 2 : 1;
+    const next = setNo < 7 ? setNo + 1 : 0;
+    el.innerHTML = `<div class="fade center" style="padding-top:60px">
+      <div style="font-size:60px;margin-bottom:16px">${'⭐'.repeat(stars)}</div>
+      <div class="h1 mb-8">${t('setDone').replace('{n}', setNo)}</div>
+      <div class="muted mb-16">${firstTryCorrect}/${total} ${t('correctCount')} · ${mistakes} ${t('mistakes')}</div>
+      <div class="card" style="padding:20px;margin-bottom:20px">
+        <div class="flex items-center justify-between"><span>${t('xpEarned')}</span><strong>+5</strong></div>
+      </div>
+      ${next ? `<button class="btn mb-12" onclick="window.__go('lesson',{level:'${params.level}',unit:${params.unit},set:${next}})">${t('nextSet')} (${next}/7) →</button>` : ''}
+      <button class="btn ${next ? 'btn-ghost' : ''}" onclick="window.__nav('home')">${t('continue')}</button>
+    </div>`;
+  }
+
   function finish() {
     if (review) { finishReview(); return; }
-    addCards(words.map(w => w.word));
+    if (setNo > 1) { finishSet(); return; }
+    // The unit's new words first, then the rest of its frequency band, ordered by frequency.
+    const rank = new Map(levelVocab.map(v => [v.word, v.q]));
+    // Only the words taught in the lesson go to the deck; the rest of the band arrives as new cards via "Aprender palabras nuevas".
+    addCards(words.map(w => w.word), 'v', w => rank.get(w) ?? 99999);
     const accuracy = total ? firstTryCorrect / total : 1;
     const stars = mistakes === 0 ? 3 : accuracy >= 0.8 ? 2 : 1;
     completeUnit(params.level, params.unit);
@@ -473,7 +513,7 @@ register('lesson', async (el, params) => {
     </div>`;
   }
 
-  const start = review ? 'practice' : params.start;
+  const start = review || setNo > 1 ? 'practice' : params.start;
   if (start === 'practice') startPractice();
   else if (start === 'vocab' && words.length) startVocab();
   else if (grammarHtml) renderGrammar();

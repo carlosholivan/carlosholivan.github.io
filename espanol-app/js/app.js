@@ -1,35 +1,42 @@
-import { S, mergeCloudState, reset, save } from './state.js';
-import { go } from './router.js';
-import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js';
+import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611141200';
+import { go } from './router.js?v=202611141200';
+import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611141200';
 
-import './views/home.js';
-import './views/lesson.js';
-import './views/review.js';
-import './views/progress.js';
-import './views/settings.js';
-import './views/reference.js';
-import './views/daily-review.js';
-import './views/auth.js';
-import './views/texts.js';
-import './views/drills.js';
-import { enterApp } from './views/welcome.js';
+import './views/home.js?v=202611141200';
+import './views/lesson.js?v=202611141200';
+import './views/review.js?v=202611141200';
+import './views/progress.js?v=202611141200';
+import './views/settings.js?v=202611141200';
+import './views/reference.js?v=202611141200';
+import './views/daily-review.js?v=202611141200';
+import './views/auth.js?v=202611141200';
+import './views/texts.js?v=202611141200';
+import './views/drills.js?v=202611141200';
+import './views/conj.js?v=202611141200';
+import './views/vocablist.js?v=202611141200';
+import './views/ranking.js?v=202611141200';
+import { enterApp } from './views/welcome.js?v=202611141200';
+import { applyPinyinPref } from './es.js?v=202611141200';
 
 if (S.dark) document.body.classList.add('dark');
+applyPinyinPref();
+window.__go = (v, p) => go(v, p);
+window.__sylPlay = (c) => import('./audio.js?v=202611141200').then(a => a.speak(c));
 
 window.__nav = (view) => go(view);
-window.__go = (view, params) => go(view, params);
-window.__back = () => { import('./router.js').then(r => r.back()); };
+window.__back = () => { import('./router.js?v=202611141200').then(r => r.back()); };
 
 // Loads and merges the account's progress. Local progress from a different account is discarded first.
 window.__signedIn = async (user) => {
   if (S.uid && S.uid !== user.uid) { const keep = { lang: S.lang, dark: S.dark }; reset(); Object.assign(S, keep); }
   S.uid = user.uid;
-  save(S);
   try {
+    save(S);
     const cloud = await loadStateFromCloud();
     if (cloud) mergeCloudState(cloud);
-    await saveStateToCloud(S);
-  } catch (e) {}
+    // The upload must not hold the app back (a big state can take a while on a phone).
+    saveStateToCloud(S).catch(cloudError);
+  } catch (e) { cloudError(e); }
   enterApp();
 };
 

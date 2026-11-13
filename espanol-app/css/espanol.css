@@ -1,0 +1,29 @@
+/* Spanish app: Latin target text uses the serif face instead of the CJK one of the sibling apps. */
+:root { --cjk: var(--serif) }
+.es-word, .vocab-es { font-family: var(--serif); font-weight: 600; line-height: 1.15; word-break: break-word }
+.anki-hz.word { font-family: var(--serif); font-weight: 600; font-size: var(--wsize, 48px); line-height: 1.15; word-break: break-word }
+.kbadge { font-family: var(--serif) }
+.accent-keys { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px }
+.accent-keys .wordchip { padding: 6px 12px }
+
+/* Conjugation */
+.cj-intro p { line-height: 1.55 }
+.cj-verbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px }
+.cj-verbs .set-chip { width: auto; padding: 0 10px; font-family: var(--serif) }
+.cj-big { font-family: var(--serif); font-size: 30px; font-weight: 600; cursor: pointer }
+.cj-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin: 10px 0 12px; padding: 10px; background: rgba(0,0,0,.03); border-radius: 10px }
+.cj-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px }
+.cj-tabs .chip { font-size: 12.5px; padding: 4px 10px }
+.cj-tname { font-family: var(--serif); font-size: 15px }
+.cj-table { width: 100%; border-collapse: collapse }
+.cj-table tr { border-top: 1px solid var(--line, rgba(0,0,0,.08)); cursor: pointer }
+.cj-table th { text-align: left; font-weight: 600; padding: 8px 8px 8px 0; width: 46% }
+.cj-table td { padding: 8px 0 }
+.cj-pr { font-size: 14px; color: var(--accent); font-weight: 600 }
+.cj-es { font-family: var(--serif); font-size: 18px; cursor: pointer }
+.cj-qv { font-family: var(--serif); font-size: 28px; margin: 6px 0 }
+.cj-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px }
+.cj-opts .btn { font-family: var(--serif); font-size: 17px }
+.cj-opts .btn.ok { background: var(--ok); color: #fff }
+.cj-opts .btn.bad { background: var(--no); color: #fff }
+body.dark .cj-facts { background: rgba(255,255,255,.05) }

@@ -1,14 +1,20 @@
-import { S, update, reset, flushCloud } from '../state.js';
-import { register, go } from '../router.js';
-import { bottomNav, header } from '../ui/components.js';
-import { t } from '../i18n.js';
-import { isConfigured, getUser, logoutUser } from '../firebase-auth.js';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611141200';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611141200';
+import { readAnki } from '../anki-import.js?v=202611141200';
+import { allVocab } from './review.js?v=202611141200';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611141200';
+import { esc } from '../es.js?v=202611141200';
+import { register, go } from '../router.js?v=202611141200';
+import { bottomNav, header } from '../ui/components.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { applyPinyinPref } from '../es.js?v=202611141200';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611141200';
 
 register('settings', (el) => {
   const langs = [
     { id: 'en', label: 'English' },
-    { id: 'zh', label: '中文' },
     { id: 'ja', label: '日本語' },
+    { id: 'zh', label: '中文' },
   ];
 
   const user = isConfigured() ? getUser() : null;
@@ -18,7 +24,8 @@ register('settings', (el) => {
       <div class="h3 mb-16">${t('account')}</div>
       ${user ? `
         <div class="muted small mb-12">${t('loggedInAs')} ${user.email}</div>
-        <div class="muted small mb-12" style="color:var(--yes)">✓ ${t('synced')}</div>
+        <div class="small mb-12" id="sync-status">${syncLine()}</div>
+        <button class="btn btn-soft btn-small mb-12" onclick="window.__syncNow(this)">☁️ ${t('syncNow')}</button>
         <button class="btn btn-ghost" onclick="window.__logout()">${t('logout')}</button>
       ` : `
         <div class="muted small mb-12">${t('continueWithout')}</div>
@@ -63,6 +70,18 @@ register('settings', (el) => {
         <span>${t('soundFx')}</span>
         <div class="toggle ${S.settings.sound ? 'on' : ''}" onclick="window.__toggleSound()"></div>
       </div>
+      <div class="mt-16">
+        <div class="mb-8">${t('audioSpeed')}</div>
+        <div class="flex gap-8" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__setRate(${r})">×${r}</button>`).join('')}</div>
+      </div>
+      ${voiceSettings({ t, esc, G, voices: null, dvoice: '' })}
+    </div>
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-8">📥 ${t('ankiImport')}</div>
+      <div class="muted small mb-12">${t('ankiImportHint')}</div>
+      <label class="btn btn-small" style="display:inline-block;cursor:pointer">📂 ${t('ankiChoose')}<input type="file" accept=".apkg,.colpkg" style="display:none" onchange="window.__ankiImport(this.files[0])"></label>
+      <div id="anki-res" class="small mt-12"></div>
     </div>
 
     <div class="card" style="padding:20px">
@@ -80,6 +99,12 @@ window.__saveSettingsName = () => {
 
 window.__setLang = (lang) => {
   update({ lang });
+  go('settings');
+};
+
+window.__togglePinyin = () => {
+  update({ pinyin: S.pinyin === false });
+  applyPinyinPref();
   go('settings');
 };
 
@@ -109,6 +134,28 @@ window.__goAuth = () => {
   go('auth', { mode: 'login' });
 };
 
+function syncLine() {
+  const u = getUser();
+  if (u && !u.emailVerified) return `<span style="color:var(--no)">✗ ${t('syncNotVerified')}</span>`;
+  if (syncInfo.err) return `<span style="color:var(--no)">✗ ${syncInfo.err}</span>`;
+  if (syncInfo.ok) return `<span style="color:var(--yes)">✓ ${t('synced')} · ${new Date(syncInfo.ok).toLocaleTimeString()}</span>`;
+  return `<span class="muted">${t('syncPending')}</span>`;
+}
+
+// Uploads now and reads the copy back, so the user sees what the cloud actually holds.
+window.__syncNow = async (btn) => {
+  btn.disabled = true;
+  const el = document.getElementById('sync-status');
+  await flushCloud();
+  let extra = '';
+  try {
+    const c = await loadStateFromCloud();
+    extra = c ? ` · ☁️ ${c.xp || 0} XP, ${Object.keys(c.completed || {}).length} ${t('lessons')}` : ' · ☁️ ∅';
+  } catch (e) { syncInfo.err = e.code || e.message; }
+  if (el) el.innerHTML = syncLine() + extra;
+  btn.disabled = false;
+};
+
 window.__logout = async () => {
   try {
     await flushCloud();
@@ -116,4 +163,36 @@ window.__logout = async () => {
     reset();
     location.reload();
   } catch (e) {}
+};
+
+window.__setRate = (r) => {
+  S.settings.rate = r;
+  update({ settings: S.settings });
+  speak('¡Hola, bienvenido!');
+  go('settings');
+};
+
+wireVoiceSettings({ t, G, speak, sample: SAMPLE, rerender: () => go('settings'), setDeviceVoice: () => {} });
+
+// Import of an Anki deck: every card keeps its Anki state, interval and next review date.
+window.__ankiImport = async (file) => {
+  const box = document.getElementById('anki-res');
+  if (!file || !box) return;
+  const say = (h) => { box.innerHTML = h; };
+  const steps = { libs: t('ankiStepLibs'), unzip: t('ankiStepUnzip'), read: t('ankiStepRead'), match: t('ankiStepMatch') };
+  try {
+    const vocab = await allVocab();
+    S.cards ||= {};
+    const r = await readAnki(file, { lang: 'zh', vocab, cards: S.cards, onStep: k => say('⏳ ' + steps[k]) });
+    update({ cards: S.cards });
+    const a = r.anki;
+    say(`<div class="note-box">✓ <b>${t('ankiDone')}</b><br>
+      Anki: ${a.total} · ${t('ankiNew')} ${a.new} · ${t('ankiLearn')} ${a.learn} · ${t('ankiRelearn')} ${a.relearn} · ${t('ankiYoung')} ${a.young} · ${t('ankiMature')} ${a.mature}<br>
+      ${t('ankiMatched').replace('{n}', r.matched).replace('{t}', a.total)} · ${t('ankiAdded').replace('{n}', r.added)}${r.kept ? ' · ' + t('ankiKept').replace('{n}', r.kept) : ''}
+      ${r.missing.length ? `<details class="mt-8"><summary>${t('ankiMissing').replace('{n}', r.missing.length)}</summary><div class="muted">${r.missing.slice(0, 400).map(esc).join(' · ')}</div></details>` : ''}
+      <div class="mt-8"><button class="btn btn-small" onclick="window.__go('review',{deck:'v'})">🗂️ ${t('ankiGoDeck')}</button></div></div>`);
+  } catch (e) {
+    say(`<div class="note-box" style="color:var(--no)">✗ ${e.message === 'lib' ? t('ankiErrLib') : e.message === 'empty' ? t('ankiErrEmpty') : t('ankiErrFormat')}</div>`);
+    console.error(e);
+  }
 };

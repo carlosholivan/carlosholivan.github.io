@@ -1,11 +1,11 @@
-import { S } from '../state.js';
-import { register, go } from '../router.js';
-import { loadGrammar, loadVocab } from '../data.js';
-import { bottomNav, header } from '../ui/components.js';
-import { icon } from '../ui/icons.js';
-import { t } from '../i18n.js';
-import { levelChips } from '../levels.js';
-import { getWordLevel, LEVELS, getWordStats } from '../engine/mastery.js';
+import { S } from '../state.js?v=202611141200';
+import { register, go } from '../router.js?v=202611141200';
+import { loadGrammar, loadVocab } from '../data.js?v=202611141200';
+import { bottomNav, header } from '../ui/components.js?v=202611141200';
+import { icon } from '../ui/icons.js?v=202611141200';
+import { t } from '../i18n.js?v=202611141200';
+import { levelChips } from '../levels.js?v=202611141200';
+import { getWordLevel, LEVELS, getWordStats } from '../engine/mastery.js?v=202611141200';
 
 register('reference', async (el) => {
   el.innerHTML = `<div class="fade">
