@@ -1,12 +1,12 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132300';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611132300';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611132300';
-import { esc } from '../ar.js?v=202611132300';
-import { register, go } from '../router.js?v=202611132300';
-import { bottomNav, header } from '../ui/components.js?v=202611132300';
-import { t } from '../i18n.js?v=202611132300';
-import { applyPinyinPref } from '../ar.js?v=202611132300';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132300';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132330';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611132330';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611132330';
+import { esc } from '../ar.js?v=202611132330';
+import { register, go } from '../router.js?v=202611132330';
+import { bottomNav, header } from '../ui/components.js?v=202611132330';
+import { t } from '../i18n.js?v=202611132330';
+import { applyPinyinPref } from '../ar.js?v=202611132330';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132330';
 
 register('settings', (el) => {
   const langs = [
