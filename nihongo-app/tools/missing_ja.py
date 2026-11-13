@@ -22,6 +22,8 @@ for lv in LV:
     # Spelling variants of a word already seen (なにしろ / 何しろ, 生意気 / 生意気な) count as covered.
     def covered(v):
         if v['w'] in seen: return True
+        w = v['w']
+        if w[-2:] in ('じる', 'ずる') and (w[:-2] + 'じる' in seen or w[:-2] + 'ずる' in seen): return True
         return any(o['w'] in seen and (not KANJI.search(v['w']) or not KANJI.search(o['w']) or o['w'].startswith(v['w']) or v['w'].startswith(o['w']) or o['w'][0] == v['w'][0])
                    for o in by_r.get(v.get('r'), []) if o is not v)
     miss = [v for v in sorted(vocab, key=lambda v: v.get('q', 1e9)) if not covered(v)]
