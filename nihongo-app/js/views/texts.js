@@ -79,7 +79,7 @@ window.__nextText = async () => {
 // Dictionary for the word popup: vocab of every level up to the text level + 1, plus the text glossary.
 async function buildDict(level, glossary) {
   const dict = new Map();
-  const upto = Math.min(LEVELS.length - 1, LEVELS.indexOf(level) + 1);
+  const upto = LEVELS.length - 1;  // tokens may point to words of any level
   for (let i = 0; i <= upto; i++) {
     const vs = await loadVocab(LEVELS[i]).catch(() => []);
     for (const v of vs) if (!dict.has(v.word)) dict.set(v.word, { p: v.p, m: v.m, lv: LEVELS[i], q: v.q });

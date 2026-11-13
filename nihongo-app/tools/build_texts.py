@@ -108,9 +108,18 @@ def parse(path):
 
 # ── vocabulary matching ───────────────────────────────────────────────
 ALIAS = {'終る': '終わる', '曲る': '曲がる', '在る': 'ある', '有る': 'ある', '居る': 'いる', '要る': 'いる', '下さい': 'ください', '一月': 'ひとつき', 'がる': 'たがる', 'ごらんになる': 'ごらん', 'おいでになる': 'おいで', '楽む': '楽しむ', '落る': '落ちる', '落す': '落とす', '下る': '下がる', 'いくらても': 'いくらでも', '堅': '堅い', 'おわる': '終わる', 'だす': '出す', 'いくらても': 'いくらでも', '下る': '下がる', 'すくなくとも': '少なくとも', '付合う': '付き合う', '清む': '澄む', '浮ぶ': '浮かぶ', '引受る': '引き受ける', '落着く': '落ち着く', '腰掛': '腰掛け', 'かたづく': '片付く', 'まざる': '混ざる', 'まじる': '混じる', 'ふくめる': '含める', 'かけざん': '掛け算', 'ひゃっかじてん': '百科事典', 'こくせき': '国籍', 'かしょ': '箇所', '田ぼ': '田んぼ', '日日': '日々', '思いっ切り': '思いっきり', '果して': '果たして', '何しろ': 'なにしろ', '始めに': '初めに', '真似る': '真似する', '間も無く': '間もなく', '剥す': '剥がす', '傾らか': 'なだらか', '適確': '的確', '手ごろ': '手頃', 'つうか': '通貨', 'すまない': 'すまなかっ'}
+# UniDic lemmas written in kanji for words the vocabulary lists in kana (and a few spelling variants).
+LEMMA_OF = {'する': ['為る'], 'くらい': ['位'], 'うち': ['内'], 'そば': ['側', '傍'], 'いい': ['良い', '好い'], '下さい': ['下さる'],
+            'かける': ['掛ける'], 'つける': ['付ける', '点ける', '着ける'], 'かぶる': ['被る'], 'たち': ['達'], 'まだ': ['未だ'],
+            'みんな': ['皆'], 'うかがう': ['伺う'], 'あげる': ['上げる'], 'おる': ['居る'], 'にくい': ['難い', '憎い'],
+            'たて': ['立て', '建て'], 'おき': ['置き'], 'ある': ['有る', '在る'], 'いる': ['居る'], 'なる': ['成る'], 'できる': ['出来る'],
+            'もらう': ['貰う'], 'くれる': ['呉れる'], 'やる': ['遣る'], 'しまう': ['仕舞う'], 'こと': ['事'], 'もの': ['物', '者'],
+            'とき': ['時'], 'ところ': ['所'], 'ほう': ['方'], 'わけ': ['訳'], 'はず': ['筈'], 'ため': ['為'], 'よう': ['様'],
+            'ごらんになる': ['御覧'], '点く': ['付く'], 'ごみ': ['塵'], 'おもちゃ': ['玩具'], 'とても': ['迚も'], 'たくさん': ['沢山']}
+
 def keys_for(v):
     w, r = v['w'], v['r']
-    ks = {w}
+    ks = {w} | set(LEMMA_OF.get(w, []))
     if w in ALIAS: ks.add(ALIAS[w])
     if w.endswith('じる') and KANJI.search(w): ks.add(w[:-2] + 'ずる')  # 命じる → 命ずる (UniDic lemma)
     if w.endswith('する') and len(w) > 2: ks.add(w[:-2])
@@ -275,6 +284,27 @@ def grammar_intro(points, level):
 # ── build ─────────────────────────────────────────────────────────────
 furi = {}
 prev_words = set()
+ALLV = {l: json.load(open(DATA / l / 'vocab.json', encoding='utf8')) for l in LEVELS}
+
+def merge_compounds(toks, keys):
+    """Tokens for the reader: [surface, [[seg, reading]...], key]. Consecutive tokens whose joined surface is a
+    dictionary word (お母さん, 日曜日, 図書館) become one clickable token."""
+    out, i = [], 0
+    while i < len(toks):
+        hit = None
+        for n in range(min(5, len(toks) - i), 1, -1):
+            surf = ''.join(t['s'] for t in toks[i:i + n])
+            if surf in keys and not any(t['pos'] == '補助記号' for t in toks[i:i + n]):
+                hit = (n, surf); break
+        if hit:
+            n, surf = hit
+            segs = [sg for t in toks[i:i + n] for sg in align(t['s'], t['r'])]
+            out.append([surf, segs, keys[surf]]); i += n; continue
+        x = toks[i]
+        out.append([x['s'], align(x['s'], x['r']), next((keys[k] for k in (x['b'], x['s'], x['l']) if k in keys), None)])
+        i += 1
+    return out
+
 for lv in LEVELS:
     vocab = json.load(open(DATA / lv / 'vocab.json', encoding='utf8'))
     for v in vocab:
@@ -304,7 +334,7 @@ for lv in LEVELS:
                     seen_in.setdefault(w, [])
                     if u['id'] not in seen_in[w]: seen_in[w].append(u['id'])
                 vocab_keys = {}
-                for vv in vocab:
+                for vv in vocab + [x for l2 in LEVELS if l2 != lv for x in ALLV[l2]]:  # this level first, then the rest
                     for kk in keys_for(vv): vocab_keys.setdefault(kk, vv['w'])
                 texts_out.append({
                     'id': f'{lv}-t{order}', 'level': lv, 'order': order, 'unit': u['id'],
@@ -315,7 +345,7 @@ for lv in LEVELS:
                     'questions': t['qs'],
                     'gaps': make_gaps(t, vocab, rng),
                     # per paragraph → per line → tokens [surface, [[seg, reading]...], dictionary key]
-                    'tok': [[[[x['s'], align(x['s'], x['r']), next((vocab_keys[k] for k in (x['l'], x['b'], x['s']) if k in vocab_keys), None)] for x in toks] for toks in para] for para in tok],
+                    'tok': [[merge_compounds(toks, vocab_keys) for toks in para] for para in tok],
                 })
                 tl.append(t)
             u['_texts'] = tl
