@@ -2,7 +2,7 @@
 // Two decks: 'v' = vocabulary (S.cards[word]), 'h' = characters (S.hcards[char]).
 // card = { s: 'new'|'learn'|'review'|'relearn'|'known', step, due (ms), ivl (days), ef, reps, lapses, added, r (frequency rank) }
 // 'known' = marked as learned by the user: never shown.
-import { S, save } from '../state.js?v=202611140200';
+import { S, save } from '../state.js?v=202611140230';
 
 const MIN = 60 * 1000, DAY = 86400000;
 const LEARN_STEPS = [1, 10];      // minutes
@@ -75,9 +75,10 @@ export function cardState(w, d = 'v') {
   return (cards(d)[w] || {}).s || null;
 }
 
+// As in Anki: a card is forgotten only while it is being relearnt after an "Again".
+// Overdue review cards are simply due (Anki shows them as "to review", however late they are).
 export function isForgotten(card, now = Date.now()) {
-  return card.s === 'relearn' || (card.s === 'review' && card.lapses > 0 && card.due <= now)
-    || (card.s === 'review' && now - card.due > card.ivl * DAY);
+  return card.s === 'relearn';
 }
 
 export function deckStats(d = 'v', now = Date.now(), inDeck = null) {

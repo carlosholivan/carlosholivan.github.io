@@ -19,7 +19,7 @@ export function deckCounts(store, inDeck) {
   return n;
 }
 
-export function deckPie(store, inDeck, lang = 'es') {
+export function deckPie(store, inDeck, lang = 'es', deckName = '') {
   const L = LABEL[lang] || LABEL.en;
   const n = deckCounts(store, inDeck);
   const total = Object.values(n).reduce((a, b) => a + b, 0);
@@ -34,7 +34,7 @@ export function deckPie(store, inDeck, lang = 'es') {
   }
   const rows = CATS.filter(([k]) => n[k] || k !== 'known').map(([k, col]) =>
     `<div class="pie-row"><i style="background:${col}"></i><span>${L[k]}</span><b>${n[k]}</b><span class="muted">${total ? Math.round(n[k] / total * 100) : 0}%</span></div>`).join('');
-  return `<details class="card deck-pie mb-16" open><summary class="h3">📊 ${L.title}</summary>
+  return `<details class="card deck-pie mb-16" open><summary class="h3">📊 ${L.title}${deckName ? ` · ${deckName}` : ''}</summary>
     <div class="pie-wrap">
       <svg viewBox="0 0 42 42" class="pie" role="img" aria-label="${L.title}">
         <circle r="${R}" cx="21" cy="21" fill="none" stroke="var(--line)" stroke-width="6"></circle>${arcs}
