@@ -1,4 +1,4 @@
-import { S } from '../state.js?v=202611140500';
+import { S } from '../state.js?v=202611141000';
 
 export const LEVELS = {
   new: { label: { en: 'New', zh: '新', ja: '新規' }, color: 'var(--ink2)' },

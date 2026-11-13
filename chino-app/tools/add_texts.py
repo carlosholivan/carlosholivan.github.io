@@ -77,6 +77,8 @@ def main():
         lv = os.path.basename(src)[:-4]
         d = os.path.join(DATA, lv)
         texts = [t for t in json.load(open(os.path.join(d, 'texts.json'))) if not t.get('x')]
+        enp = os.path.join(ROOT, 'tools', 'texts', 'en', f'{lv}.json')
+        EN = json.load(open(enp, encoding='utf-8')) if os.path.exists(enp) else {}
         vocab = json.load(open(os.path.join(d, 'vocab.json')))
         unit_of = {v['word']: v.get('unit') for v in vocab}
         order = max([t['order'] for t in texts] + [0])
@@ -95,11 +97,12 @@ def main():
             paras = [p for p, _ in r['paras']]
             texts.append({
                 'id': f'{lv}-t{order}', 'level': lv, 'order': order, 'unit': unit, 'x': 1,
-                'title': {'zh': r['zh'], 'es': r['es'], 'en': r['en']},
-                'summary': {'es': r['sum'], 'en': r['sum']},
+                'title': {'zh': r['zh'], 'es': r['es'], 'en': EN.get(r['es'], r['en'])},
+                'summary': {'es': r['sum'], 'en': EN.get(r['sum'], r['sum'])},
                 'paragraphs': paras,
-                'translation': {'es': [e for _, e in r['paras']]},
-                'glossary': {}, 'questions': r['qs'],
+                'translation': {'es': [e for _, e in r['paras']],
+                                **({'en': [EN[e] for _, e in r['paras']]} if all(e in EN for _, e in r['paras']) else {})},
+                'glossary': {}, 'questions': [{**q, 'q': {**q['q'], 'en': EN.get(q['q']['es'], q['q']['es'])}} for q in r['qs']],
                 'gaps': gaps_for(body, lvwords, rng), 'notes': [],
                 'vb': [verb_ranges(p) for p in paras],
             })

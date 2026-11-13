@@ -67,7 +67,6 @@ def main():
                             if text[i:i + n] in words: keys.add(text[i:i + n]); i += n; break
                         else: i += 1
                     ex, size = text, len(text)
-                    tr.pop('en', None)
                 for k in keys:
                     if k in words: cands.setdefault(k, []).append((size, ex, tr, text, LV.index(lv)))
     lo, hi = (3, 16) if APP == 'arabic-app' else (6, 38)
