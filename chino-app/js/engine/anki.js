@@ -2,7 +2,7 @@
 // Two decks: 'v' = vocabulary (S.cards[word]), 'h' = characters (S.hcards[char]).
 // card = { s: 'new'|'learn'|'review'|'relearn'|'known', step, due (ms), ivl (days), ef, reps, lapses, added, r (frequency rank) }
 // 'known' = marked as learned by the user: never shown.
-import { S, save } from '../state.js?v=202611140700';
+import { S, save } from '../state.js?v=202611131500';
 
 const MIN = 60 * 1000, DAY = 86400000;
 const LEARN_STEPS = [1, 10];      // minutes
@@ -81,7 +81,7 @@ export function isForgotten(card, now = Date.now()) {
 }
 
 export function deckStats(d = 'v', now = Date.now(), inDeck = null) {
-  const st = { total: 0, new: 0, learn: 0, due: 0, forgotten: 0, mature: 0, known: 0 };
+  const st = { total: 0, new: 0, learn: 0, due: 0, forgotten: 0, fDue: 0, fLearn: 0, mature: 0, known: 0 };
   for (const [w, card] of Object.entries(cards(d))) {
     if (inDeck && !inDeck(w)) continue;
     if (card.s === 'known') { st.known++; continue; }
@@ -89,7 +89,8 @@ export function deckStats(d = 'v', now = Date.now(), inDeck = null) {
     if (card.s === 'new') st.new++;
     else if (card.due <= now) {
       if (card.s === 'review') st.due++; else st.learn++;
-      if (isForgotten(card, now)) st.forgotten++;
+      // Forgotten cards are also due or learning; fDue/fLearn let the summary show each card in one box only.
+      if (isForgotten(card, now)) { st.forgotten++; if (card.s === 'review') st.fDue++; else st.fLearn++; }
     }
     if (card.s === 'review' && card.ivl >= 21) st.mature++;
   }

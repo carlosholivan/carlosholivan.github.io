@@ -1,8 +1,8 @@
 // Learning status of a word, combining the Anki deck (S.cards) with lesson mastery (S.vocab).
-import { S } from '../state.js?v=202611140700';
-import { isForgotten } from './anki.js?v=202611140700';
-import { getWordLevel } from './mastery.js?v=202611140700';
-import { t } from '../i18n.js?v=202611140700';
+import { S } from '../state.js?v=202611131500';
+import { isForgotten } from './anki.js?v=202611131500';
+import { getWordLevel } from './mastery.js?v=202611131500';
+import { t } from '../i18n.js?v=202611131500';
 
 export const STATUS = {
   unseen:   { color: '#95a5a6', key: 'stUnseen' },
@@ -24,6 +24,9 @@ export function wordStatus(w) {
   const m = S.vocab?.[w] ? getWordLevel(w) : 'new';
   return { new: c && c.s !== 'new' ? 'learning' : 'unseen', beginner: 'learning', intermediate: 'review', master: 'master', ghost: 'ghost' }[m];
 }
+
+// A word counts as learned once it has graduated (en repaso / dominada). Used by every counter in the app.
+export const isLearned = (w) => { const s = wordStatus(w); return s === 'review' || s === 'master'; };
 
 export const statusLegend = (counts) => `<div class="st-legend">${STATUS_ORDER.map(k =>
   `<span><i style="background:${STATUS[k].color}"></i>${t(STATUS[k].key)}${counts ? ` <b>${counts[k] || 0}</b>` : ''}</span>`).join('')}</div>`;

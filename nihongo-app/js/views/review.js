@@ -1,16 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611140500';
-import { register, go } from '../router.js?v=202611140500';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611140500';
-import { LEVELS, levelLabel } from '../levels.js?v=202611140500';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611140500';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611140500';
-import { speak } from '../audio.js?v=202611140500';
-import { t } from '../i18n.js?v=202611140500';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611140500';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140500';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611140500';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611140500';
+import { S, update, touchStreak } from '../state.js?v=202611131500';
+import { register, go } from '../router.js?v=202611131500';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611131500';
+import { LEVELS, levelLabel } from '../levels.js?v=202611131500';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611131500';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131500';
+import { speak } from '../audio.js?v=202611131500';
+import { t } from '../i18n.js?v=202611131500';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611131500';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131500';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611131500';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611131500';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -47,12 +47,12 @@ async function seed() {
 
 export function deckSummary(st) {
   return `<div class="deck-stats card mb-16">
-    <div><b style="color:#3498db">${st.newToday}</b><span>${t('cardNew')}</span></div>
-    <div><b style="color:#e67e22">${st.learn}</b><span>${t('cardLearning')}</span></div>
-    <div><b style="color:var(--ok)">${st.due}</b><span>${t('cardDue')}</span></div>
+    <div><b style="color:#3498db">${st.newToday}</b><span>${t('cardNewToday')}</span></div>
+    <div><b style="color:#e67e22">${st.learn - st.fLearn}</b><span>${t('cardLearning')}</span></div>
+    <div><b style="color:var(--ok)">${st.due - st.fDue}</b><span>${t('cardDue')}</span></div>
     <div><b style="color:var(--no)">${st.forgotten}</b><span>${t('cardForgotten')}</span></div>
     <div><b>${st.total}</b><span>${t('cardTotal')}</span></div>
-    ${st.known ? `<div><b style="color:#8e44ad">${st.known}</b><span>${t('cardKnown')}</span></div>` : ''}
+    ${st.known ? `<div><b style="color:#8e44ad">${st.known}</b><span>${t('cardMarkedKnown')}</span></div>` : ''}
   </div>`;
 }
 
@@ -103,14 +103,14 @@ async function levelDecks(d) {
     for (const x of m.values()) if (x.lv === l) {
       n++;
       const c = store[d === 'h' ? x.c : x.w];
-      if (c && (c.s === 'known' || (c.s === 'review' && c.ivl >= 1))) learned++;
+      if (d === 'h' ? c && (c.s === 'known' || c.s === 'review') : isLearned(x.w)) learned++;
     }
     const pct = n ? Math.round(learned / n * 100) : 0;
     return `<button class="deck-lv ${cur === l ? 'on' : ''}" onclick="window.__deckLv('${d}','${l}')">
       <b>${levelLabel(l)}</b><span>${n} ${d === 'h' ? '字' : t('deckWords')}</span>
       <span class="deck-lv-bar"><i style="width:${pct}%"></i></span><span>${pct}%</span></button>`;
   });
-  chips.push(`<button class="deck-lv ${cur === 'all' ? 'on' : ''}" onclick="window.__deckLv('${d}','all')"><b>${t('deckAll')}</b><span>${Object.keys(store).length}</span></button>`);
+  chips.push(`<button class="deck-lv ${cur === 'all' ? 'on' : ''}" onclick="window.__deckLv('${d}','all')"><b>${t('deckAll')}</b><span>${n} ${d === 'h' ? '字' : t('deckWords')}</span><span class="deck-lv-bar"><i style="width:${n ? Math.round(learned / n * 100) : 0}%"></i></span><span>${n ? Math.round(learned / n * 100) : 0}%</span></button>`);
   return `<div class="muted small mb-8">${t('deckLevelHint')}</div><div class="deck-lvs mb-16">${chips.join('')}</div>`;
 }
 window.__deckLv = (d, l) => { update({ deckLv: { ...(S.deckLv || {}), [d]: l } }); go('review', { deck: d }); };
@@ -281,7 +281,7 @@ async function statusPanel(vm, upto) {
   for (const v of words) { const k = wordStatus(v.w); counts[k] = (counts[k] || 0) + 1; }
   const bar = ['master', 'review', 'learning', 'ghost', 'unseen'].map(k =>
     `<i style="width:${(counts[k] || 0) / words.length * 100}%;background:${STATUS[k].color}"></i>`).join('');
-  return `<div class="card mb-16" style="padding:14px 16px"><div class="flex justify-between mb-8"><b>N5–N1</b><span class="muted small">${words.length} ${t('deckWords')}</span></div>
+  return `<div class="card mb-16" style="padding:14px 16px"><div class="flex justify-between mb-8"><b>${levelLabel(LEVELS[0])}–${levelLabel(upto)}</b><span class="muted small">${words.length} ${t('deckWords')}</span></div>
     <div class="st-bar">${bar}</div>${statusLegend(counts)}</div>`;
 }
 
@@ -353,7 +353,7 @@ async function reviewView(el, params = {}) {
       window.__ankiGloss = !reverse && !isNew && glossed !== plain ? glossed : null;
     }
     const stc = d === 'v' ? STATUS[wordStatus(w)] : null;
-    const tag = mode === 'extra' && card.s === 'review' ? ['learn', t('extraPractice')] : card.s === 'new' ? ['new', t('cardNew')] : isForgotten(card) ? ['forgot', t('cardForgotten')] : card.s === 'review' ? ['due', t('cardDue')] : ['learn', t('cardLearning')];
+    const tag = mode === 'extra' && card.s === 'review' ? ['learn', t('extraPractice')] : card.s === 'new' ? ['new', t('tagNew')] : isForgotten(card) ? ['forgot', t('stGhost')] : card.s === 'review' ? ['due', t('tagDue')] : ['learn', t('stLearning')];
     el.innerHTML = `<div class="fade" style="padding-top:16px">
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__go('${self}',{deck:'${d}'})" style="padding:4px">←</button>

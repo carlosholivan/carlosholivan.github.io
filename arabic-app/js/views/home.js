@@ -1,13 +1,14 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611140500';
-import { register, go } from '../router.js?v=202611140500';
-import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611140500';
-import { bottomNav, progressBar } from '../ui/components.js?v=202611140500';
-import { icon } from '../ui/icons.js?v=202611140500';
-import { mascot } from '../ui/mascot.js?v=202611140500';
-import { t } from '../i18n.js?v=202611140500';
-import { LEVELS, levelLabel } from '../levels.js?v=202611140500';
-import { deckStats } from '../engine/anki.js?v=202611140500';
-import { CFG } from '../app-config.js?v=202611140500';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611131500';
+import { register, go } from '../router.js?v=202611131500';
+import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611131500';
+import { bottomNav, progressBar } from '../ui/components.js?v=202611131500';
+import { icon } from '../ui/icons.js?v=202611131500';
+import { mascot } from '../ui/mascot.js?v=202611131500';
+import { t } from '../i18n.js?v=202611131500';
+import { LEVELS, levelLabel } from '../levels.js?v=202611131500';
+import { deckStats } from '../engine/anki.js?v=202611131500';
+import { isLearned } from '../engine/status.js?v=202611131500';
+import { CFG } from '../app-config.js?v=202611131500';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -112,7 +113,7 @@ async function breakdown(level, units) {
   const gTotal = units.reduce((a, u) => a + (u.grammar || []).length, 0);
   const gDone = units.reduce((a, u, i) => a + (isUnitDone(level, i + 1) ? (u.grammar || []).length : 0), 0);
   const rows = [
-    { key: 'vocabulary', badge: CFG.progBadges[0], view: 'vocab-list', done: vocab.filter(v => learned(cards[v.w || v.word])).length, total: vocab.length },
+    { key: 'vocabulary', badge: CFG.progBadges[0], view: 'vocab-list', done: vocab.filter(v => isLearned(v.w || v.word)).length, total: vocab.length },
     { key: 'grammar', badge: CFG.progBadges[1], view: 'reference', done: gDone, total: gTotal },
     { key: 'readingsLbl', badge: CFG.progBadges[2], view: 'texts', done: texts.filter(x => (S.texts || {})[x.id]?.q != null).length, total: texts.length },
     { key: 'hanzi', badge: CFG.progBadges[3], view: 'hanzi', done: hanzi.filter(h => learned(hcards[h.c])).length, total: hanzi.length },

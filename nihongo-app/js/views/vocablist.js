@@ -1,14 +1,14 @@
 // Vocabulary list per HSK level, ordered by frequency, with single/multiple selection to mark words as learned.
-import { S, update } from '../state.js?v=202611140500';
-import { register } from '../router.js?v=202611140500';
-import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611140500';
-import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611140500';
-import { bottomNav, header } from '../ui/components.js?v=202611140500';
-import { speak } from '../audio.js?v=202611140500';
-import { t } from '../i18n.js?v=202611140500';
-import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611140500';
-import { allVocab } from './review.js?v=202611140500';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140500';
+import { S, update } from '../state.js?v=202611131500';
+import { register } from '../router.js?v=202611131500';
+import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611131500';
+import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611131500';
+import { bottomNav, header } from '../ui/components.js?v=202611131500';
+import { speak } from '../audio.js?v=202611131500';
+import { t } from '../i18n.js?v=202611131500';
+import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611131500';
+import { allVocab } from './review.js?v=202611131500';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131500';
 
 const PAGE = 100;
 const sel = new Set();
@@ -25,9 +25,10 @@ async function rows() {
   const rk = {};
   for (const v of list) { rk[v.lv] = (rk[v.lv] || 0) + 1; v.rk = rk[v.lv]; }
   if (!q) list = list.filter(v => v.lv === view.level);
+  // Filters follow the same word status as the rest of the app (status.js).
   if (view.filter !== 'all') list = list.filter(v => {
-    const s = cardState(v.w);
-    return view.filter === 'known' ? s === 'known' : view.filter === 'deck' ? s && s !== 'known' : s !== 'known';
+    const s = wordStatus(v.w);
+    return view.filter === 'known' ? isLearned(v.w) : view.filter === 'deck' ? s === 'learning' || s === 'ghost' || (s === 'unseen' && cardState(v.w) === 'new') : s === 'unseen' && !cardState(v.w);
   });
   if (q) list = list.filter(v => v.w.includes(view.q.trim()) || strip(v.p).replace(/\s+/g, '').includes(q)
     || Object.values(v.m || {}).some(m => strip(m).includes(strip(view.q.trim()))));
@@ -43,24 +44,26 @@ register('vocab-list', async (el, params = {}) => {
   view.page = Math.min(view.page, pages - 1);
   const slice = list.slice(view.page * PAGE, (view.page + 1) * PAGE);
   const lang = S.lang;
+  // One label per word, the same status (and colour) used in the reader, the deck and the progress screens.
   const status = w => {
-    const s = cardState(w);
-    if (s === 'known') return `<span class="vl-st known">✓ ${t('learned')}</span>`;
-    if (s === 'new') return `<span class="vl-st new">${t('cardNew')}</span>`;
-    if (s) return `<span class="vl-st deck">${t('fInDeck')}</span>`;
-    return '';
+    const k = wordStatus(w);
+    if (k === 'unseen') return cardState(w) === 'new' ? `<span class="vl-st new">${t('vlNewInDeck')}</span>` : '';
+    const lbl = cardState(w) === 'known' ? '✓ ' + t('cardMarkedKnown') : t(STATUS[k].key);
+    return `<span class="vl-st" style="background:${STATUS[k].color}22;color:${STATUS[k].color}">${lbl}</span>`;
   };
-  const counts = { known: 0, deck: 0 };
+  const counts = {};
   const vm = await allVocab();
-  for (const v of vm.values()) if (v.lv === view.level) { const s = cardState(v.w); if (s === 'known') counts.known++; else if (s) counts.deck++; }
-  const total = [...vm.values()].filter(v => v.lv === view.level).length;
+  const lvWords = [...vm.values()].filter(v => v.lv === view.level);
+  for (const v of lvWords) { const k = wordStatus(v.w); counts[k] = (counts[k] || 0) + 1; }
+  const total = lvWords.length;
+  const nLearned = (counts.review || 0) + (counts.master || 0);
 
   el.innerHTML = `<div class="fade" style="padding-bottom:90px">
     ${header(t('vocabList'), true)}
     ${levelChips(view.level, '__vlLevel')}
-    <div class="muted small mb-8">${levelLabel(view.level)} · ${total} · ✓ ${counts.known} · 🗂️ ${counts.deck} — ${t('vocabListHint')}</div>
-    <div class="vl-progress mb-12"><span style="width:${counts.known / total * 100}%;background:#8e44ad"></span><span style="width:${counts.deck / total * 100}%;background:var(--ok)"></span></div>
-    ${statusLegend()}
+    <div class="muted small mb-8">${levelLabel(view.level)} · ${total} · ✓ ${nLearned} ${t('fKnown').toLowerCase()} (${total ? Math.round(nLearned / total * 100) : 0}%) — ${t('vocabListHint')}</div>
+    <div class="vl-progress mb-8">${['master', 'review', 'learning', 'ghost'].map(k => `<span style="width:${(counts[k] || 0) / total * 100}%;background:${STATUS[k].color}"></span>`).join('')}</div>
+    ${statusLegend(counts)}
     <input id="vl-q" class="vl-search" type="search" placeholder="${t('searchWord')}" value="${esc(view.q)}">
     <div class="flex gap-8 mt-8 mb-8" style="flex-wrap:wrap">
       ${[['all', t('fAll')], ['learn', t('fToLearn')], ['deck', t('fInDeck')], ['known', t('fKnown')]].map(([f, l]) =>
@@ -70,7 +73,7 @@ register('vocab-list', async (el, params = {}) => {
       <button class="btn-link" onclick="window.__vlSelPage()">☑️ ${t('selectPage')}</button>
       <button class="btn-link" onclick="window.__vlSelNone()">✖ ${t('selectNone')}</button>
     </div>
-    <div class="vl-list">${slice.map(v => `<div class="vl-row ${sel.has(v.w) ? 'sel' : ''} ${cardState(v.w) === 'known' ? 'is-known' : ''}" data-w="${esc(v.w)}">
+    <div class="vl-list">${slice.map(v => `<div class="vl-row ${sel.has(v.w) ? 'sel' : ''} ${isLearned(v.w) ? 'is-known' : ''}" data-w="${esc(v.w)}">
       <input type="checkbox" ${sel.has(v.w) ? 'checked' : ''} onclick="window.__vlToggle(event, '${esc(v.w)}')">
       <span class="vl-rk muted small">${v.rk}</span>
       <span class="st-dot" style="background:${STATUS[wordStatus(v.w)].color}"></span>

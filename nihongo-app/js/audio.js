@@ -1,4 +1,4 @@
-import { S } from './state.js?v=202611140500';
+import { S } from './state.js?v=202611131500';
 
 // Japanese voice of the browser / OS (Kyoko, Otoya, Google 日本語…). Never reads with a foreign voice.
 // Playback speed chosen in Settings (or with the speed chip in the reader): 0.25× … 2×.
