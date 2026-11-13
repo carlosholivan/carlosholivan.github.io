@@ -22,7 +22,7 @@ import {
   getDocs,
   getCountFromServer
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611140130';
+import firebaseConfig from './firebase-config.js?v=202611140200';
 
 let app = null;
 let auth = null;
@@ -100,9 +100,14 @@ export async function saveStateToCloud(state) {
   // per-document limits (1 MiB and 40,000 index entries, shared with the other apps of the account).
   const { settings, uid, cards, hcards, vocab, ...rest } = state;
   const pack = await packJSON({ cards, hcards, vocab });
-  await setDoc(ref, {
-    nihongo: { ...rest, pack, settings: settings || { sound: true }, updatedAt: Date.now() }
-  }, { mergeFields: ['nihongo'] });
+  // JSON round trip: Firestore rejects undefined values (invalid-argument).
+  const body = JSON.parse(JSON.stringify({ ...rest, pack, settings: settings || { sound: true }, updatedAt: Date.now() }));
+  try {
+    await setDoc(ref, { nihongo: body }, { mergeFields: ['nihongo'] });
+  } catch (e) {
+    e.detail = `${Math.round(JSON.stringify(body).length / 1024)} KB`;
+    throw e;
+  }
 }
 
 export async function loadStateFromCloud() {

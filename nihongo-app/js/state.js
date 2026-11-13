@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140130';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140200';
 
 const STORAGE_KEY = 'nihongo_state';
 
@@ -108,7 +108,7 @@ export function cloudError(e) {
     el.onclick = () => el.remove();
     document.body.appendChild(el);
   }
-  el.textContent = '☁️ ' + (e && (e.code || e.message) || e);
+  el.textContent = '☁️ ' + [e && e.code, e && e.message, e && e.detail].filter(Boolean).join(' · ').slice(0, 300) || String(e);
 }
 addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && cloudTimer) flushCloud(); });
 addEventListener('pagehide', () => { if (cloudTimer) flushCloud(); });
