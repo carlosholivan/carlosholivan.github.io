@@ -2,7 +2,7 @@
 // Two decks: 'v' = vocabulary (S.cards[word]), 'h' = characters (S.hcards[char]).
 // card = { s: 'new'|'learn'|'review'|'relearn'|'known', step, due (ms), ivl (days), ef, reps, lapses, added, r (frequency rank) }
 // 'known' = marked as learned by the user: never shown.
-import { S, save } from '../state.js?v=202611141000';
+import { S, save } from '../state.js?v=202611141100';
 
 const MIN = 60 * 1000, DAY = 86400000;
 const LEARN_STEPS = [1, 10];      // minutes
