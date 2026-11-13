@@ -46,6 +46,18 @@ def parse(path):
     return out
 
 
+def gaps_for(body, lvwords, rng):
+    """Gap-fill exercise: up to 8 words of the level that occur in the reading + 6 distractors."""
+    found = [w for w in lvwords if w in body]
+    rng.shuffle(found)
+    items = []
+    for w in sorted(found, key=len, reverse=True):
+        if not any(w in x or x in w for x in items): items.append(w)
+        if len(items) == 8: break
+    others = [w for w in lvwords if w not in body]
+    return {'items': items, 'distractors': rng.sample(others, min(6, len(others)))}
+
+
 def main():
     py = json.load(open(os.path.join(DATA, 'py.json')))
     wpy = py['w']
@@ -68,6 +80,9 @@ def main():
         vocab = json.load(open(os.path.join(d, 'vocab.json')))
         unit_of = {v['word']: v.get('unit') for v in vocab}
         order = max([t['order'] for t in texts] + [0])
+        import random
+        rng = random.Random(lv)
+        lvwords = [v['word'] for v in vocab if len(v['word']) > 1]
         for r in parse(src):
             order += 1
             body = ''.join(p for p, _ in r['paras'])
@@ -85,7 +100,7 @@ def main():
                 'paragraphs': paras,
                 'translation': {'es': [e for _, e in r['paras']]},
                 'glossary': {}, 'questions': r['qs'],
-                'gaps': {'items': [], 'distractors': []}, 'notes': [],
+                'gaps': gaps_for(body, lvwords, rng), 'notes': [],
                 'vb': [verb_ranges(p) for p in paras],
             })
             for s in [r['zh']] + paras + [q['q']['zh'] for q in r['qs']] + [o for q in r['qs'] for o in q['options']]:
