@@ -39,3 +39,21 @@ body.nopy .para .ar-line-tr { display: none; }
 .drill-ar { font-family: 'Noto Naskh Arabic', serif; font-size: 26px; line-height: 2.1; font-weight: 500; text-align: right }
 .drill-ar .drill-gap { font-size: 22px }
 .drill-tr { font-size: 14px; font-weight: 400; font-style: italic; color: var(--ink2); margin-top: 6px; text-align: left }
+.fill-ar { font-family: 'Noto Naskh Arabic', serif; font-size: 24px; line-height: 2.1; text-align: right }
+.wordbank .wordchip, .sentence-area .wordchip { font-family: 'Noto Naskh Arabic', serif; font-size: 20px }
+.cj-ar { font-family: 'Noto Naskh Arabic', serif; font-size: 21px; cursor: pointer; direction: rtl; unicode-bidi: isolate }
+.cj-tr { display: block; font-size: 11.5px; color: var(--ink2); font-style: italic }
+.cj-pre { font-family: 'Noto Naskh Arabic', serif; font-size: 17px; color: var(--ink2); margin-inline-end: 6px }
+.ar-table td { text-align: right; padding: 7px 0 }
+.ar-table th { width: 40% }
+.cj-pr { font-family: 'Noto Naskh Arabic', serif; font-size: 17px; color: var(--accent); font-weight: 600 }
+.ar-table th span:not(.cj-pr) { display: block; font-weight: 400; color: var(--ink2); font-size: 11px }
+.cj-big { font-family: 'Noto Naskh Arabic', serif; font-size: 34px; font-weight: 600 }
+.ar-chip { font-family: 'Noto Naskh Arabic', serif !important; font-size: 18px !important; height: auto; padding: 4px 12px !important }
+.cj-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin: 10px 0 12px; padding: 10px; background: rgba(0,0,0,.03); border-radius: 10px }
+.cj-facts .cj-ar { font-size: 18px; margin-inline-start: 4px }
+.cj-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px }
+.cj-tname { font-family: 'Noto Naskh Arabic', serif; font-size: 16px }
+.cj-qv { font-family: 'Noto Naskh Arabic', serif }
+.cj-opts .btn { font-family: 'Noto Naskh Arabic', serif; font-size: 20px }
+.ar-table th .cj-pr { display: block; font-size: 18px; font-weight: 600; color: var(--accent) }

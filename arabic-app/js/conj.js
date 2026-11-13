@@ -1,130 +1,224 @@
-// Japanese verb / adjective conjugation engine and the reference data of every form.
-// Groups: 1 = godan (う-verbs), 2 = ichidan (る-verbs), 3 = irregular (する, 来る).
+// Arabic verb conjugation engine (Modern Standard Arabic, fully vocalised).
+// Sound verbs (forms I–X) are generated from the root; weak verbs use the
+// classical model paradigms (hollow, defective, assimilated, doubled).
 
-const ROW = { // godan ending → [a, i, e, o]
-  'う': ['わ', 'い', 'え', 'お'], 'く': ['か', 'き', 'け', 'こ'], 'ぐ': ['が', 'ぎ', 'げ', 'ご'],
-  'す': ['さ', 'し', 'せ', 'そ'], 'つ': ['た', 'ち', 'て', 'と'], 'ぬ': ['な', 'に', 'ね', 'の'],
-  'ぶ': ['ば', 'び', 'べ', 'ぼ'], 'む': ['ま', 'み', 'め', 'も'], 'る': ['ら', 'り', 'れ', 'ろ'],
+const F = 'َ', K = 'ِ', D = 'ُ', S = 'ْ', SH = 'ّ';
+
+export const PERSONS = [
+  { id: '1s', ar: 'أَنَا', es: 'yo' },
+  { id: '1p', ar: 'نَحْنُ', es: 'nosotros' },
+  { id: '2ms', ar: 'أَنْتَ', es: 'tú (m.)' },
+  { id: '2fs', ar: 'أَنْتِ', es: 'tú (f.)' },
+  { id: '2d', ar: 'أَنْتُمَا', es: 'vosotros dos' },
+  { id: '2mp', ar: 'أَنْتُمْ', es: 'vosotros' },
+  { id: '2fp', ar: 'أَنْتُنَّ', es: 'vosotras' },
+  { id: '3ms', ar: 'هُوَ', es: 'él' },
+  { id: '3fs', ar: 'هِيَ', es: 'ella' },
+  { id: '3md', ar: 'هُمَا', es: 'ellos dos' },
+  { id: '3fd', ar: 'هُمَا', es: 'ellas dos' },
+  { id: '3mp', ar: 'هُمْ', es: 'ellos' },
+  { id: '3fp', ar: 'هُنَّ', es: 'ellas' },
+];
+const IDS = PERSONS.map(p => p.id);
+export const IMP_PERSONS = ['2ms', '2fs', '2d', '2mp', '2fp'];
+
+export const TENSES = [
+  { id: 'past', ar: 'المَاضِي', es: 'Pasado', note: 'Acción terminada: كَتَبْتُ = escribí / he escrito. Las terminaciones indican la persona.' },
+  { id: 'pres', ar: 'المُضَارِع', es: 'Presente', note: 'Acción habitual o en curso: أَكْتُبُ = escribo. Con سَـ / سَوْفَ delante es futuro: سَأَكْتُبُ.' },
+  { id: 'subj', ar: 'المَنْصُوب', es: 'Subjuntivo', note: 'Tras أَنْ، لَنْ، لِـ، كَيْ، حَتَّى: أُرِيدُ أَنْ أَكْتُبَ · لَنْ أَكْتُبَ (no escribiré).' },
+  { id: 'juss', ar: 'المَجْزُوم', es: 'Yusivo', note: 'Tras لَمْ (pasado negado), لَا prohibitivo y لِـ de mandato: لَمْ أَكْتُبْ (no escribí) · لَا تَكْتُبْ (¡no escribas!).' },
+  { id: 'imp', ar: 'الأَمْر', es: 'Imperativo', note: 'Solo para «tú», «vosotros»…: se forma desde el yusivo quitando el prefijo تَـ.' },
+];
+
+// Suffixes ---------------------------------------------------------------
+const PAST_CONS = { '1s': S + 'تُ', '1p': S + 'نَا', '2ms': S + 'تَ', '2fs': S + 'تِ', '2d': S + 'تُمَا', '2mp': S + 'تُمْ', '2fp': S + 'تُنَّ', '3fp': S + 'نَ' };
+const PAST_VOW = { '3ms': F, '3fs': F + 'تْ', '3md': F + 'ا', '3fd': F + 'تَا', '3mp': D + 'وا' };
+const PREFIX = { '1s': 'أ', '1p': 'ن', '2ms': 'ت', '2fs': 'ت', '2d': 'ت', '2mp': 'ت', '2fp': 'ت', '3ms': 'ي', '3fs': 'ت', '3md': 'ي', '3fd': 'ت', '3mp': 'ي', '3fp': 'ي' };
+const END = {
+  pres: { '1s': D, '1p': D, '2ms': D, '2fs': K + 'ينَ', '2d': F + 'انِ', '2mp': D + 'ونَ', '2fp': S + 'نَ', '3ms': D, '3fs': D, '3md': F + 'انِ', '3fd': F + 'انِ', '3mp': D + 'ونَ', '3fp': S + 'نَ' },
+  subj: { '1s': F, '1p': F, '2ms': F, '2fs': K + 'ي', '2d': F + 'ا', '2mp': D + 'وا', '2fp': S + 'نَ', '3ms': F, '3fs': F, '3md': F + 'ا', '3fd': F + 'ا', '3mp': D + 'وا', '3fp': S + 'نَ' },
+  juss: { '1s': S, '1p': S, '2ms': S, '2fs': K + 'ي', '2d': F + 'ا', '2mp': D + 'وا', '2fp': S + 'نَ', '3ms': S, '3fs': S, '3md': F + 'ا', '3fd': F + 'ا', '3mp': D + 'وا', '3fp': S + 'نَ' },
 };
-const TE = { 'う': 'って', 'つ': 'って', 'る': 'って', 'む': 'んで', 'ぶ': 'んで', 'ぬ': 'んで', 'く': 'いて', 'ぐ': 'いで', 'す': 'して' };
+const VOWEL_END = (end) => !end.startsWith(S); // endings that keep a vowel on the last radical
 
-// Example verbs used in the tables (word, reading, group, meaning).
+// Sound verbs ------------------------------------------------------------
+function soundStems(v) {
+  const [a, b, c] = v.root;
+  const assim = { 'ص': 'ط', 'ض': 'ط', 'ط': 'ط', 'ظ': 'ط', 'د': 'د', 'ذ': 'د', 'ز': 'د' };
+  switch (v.form) {
+    case 1: return v.assimilated
+      ? { past: a + F + b + v.pv + c, pv: F, pres: b + v.av + c, imp: '' }
+      : { past: a + F + b + v.pv + c, pv: F, pres: a + S + b + v.av + c, imp: v.av === D ? 'اُ' : 'اِ' };
+    case 2: return { past: a + F + b + SH + F + c, pv: D, pres: a + F + b + SH + K + c, imp: '' };
+    case 3: return { past: a + F + 'ا' + b + F + c, pv: D, pres: a + F + 'ا' + b + K + c, imp: '' };
+    case 4: return { past: 'أَ' + a + S + b + F + c, pv: D, pres: a + S + b + K + c, imp: 'أَ' };
+    case 5: return { past: 'تَ' + a + F + b + SH + F + c, pv: F, pres: 'تَ' + a + F + b + SH + F + c, imp: '' };
+    case 6: return { past: 'تَ' + a + F + 'ا' + b + F + c, pv: F, pres: 'تَ' + a + F + 'ا' + b + F + c, imp: '' };
+    case 7: return { past: 'اِنْ' + a + F + b + F + c, pv: F, pres: 'نْ' + a + F + b + K + c, imp: 'اِ' };
+    case 8: { const t = assim[a] || 'ت'; return { past: 'اِ' + a + S + t + F + b + F + c, pv: F, pres: a + S + t + F + b + K + c, imp: 'اِ' }; }
+    case 10: return { past: 'اِسْتَ' + a + S + b + F + c, pv: F, pres: 'سْتَ' + a + S + b + K + c, imp: 'اِ' };
+  }
+}
+
+function sound(v, tense, p) {
+  const st = soundStems(v);
+  if (tense === 'past') return st.past + (PAST_CONS[p] || PAST_VOW[p]);
+  if (tense === 'imp') return st.imp + st.pres + END.juss[p];
+  return PREFIX[p] + st.pv + st.pres + END[tense][p];
+}
+
+// Hollow verbs (قَالَ، بَاعَ، نَامَ) -----------------------------------------
+function hollow(v, tense, p) {
+  const [a, , c] = v.root;
+  const { sv, lv, ps } = v; // short past vowel, long present vowel (ُو/ِي/َا), short present vowel
+  if (tense === 'past') return PAST_CONS[p] ? a + sv + c + PAST_CONS[p] : a + F + 'ا' + c + PAST_VOW[p];
+  const end = tense === 'imp' ? END.juss[p] : END[tense][p];
+  const stem = VOWEL_END(end) ? a + lv + c : a + ps + c;
+  return (tense === 'imp' ? '' : PREFIX[p] + F) + stem + end;
+}
+
+// Doubled verbs (مَدَّ) ----------------------------------------------------
+function doubled(v, tense, p) {
+  const [a, b] = v.root; const vw = v.av;
+  if (tense === 'past') return PAST_CONS[p] ? a + F + b + F + b + PAST_CONS[p] : a + F + b + SH + PAST_VOW[p];
+  let end = tense === 'imp' ? END.juss[p] : END[tense][p];
+  if (tense !== 'pres' && end === S) end = F; // jussive/imperative singular: يَمُدَّ، مُدَّ
+  if (!VOWEL_END(end)) return (tense === 'imp' ? 'اُ' : PREFIX[p] + F) + a + S + b + vw + b + end;
+  return (tense === 'imp' ? '' : PREFIX[p] + F) + a + vw + b + SH + end;
+}
+
+// Explicit paradigms for defective verbs and other irregular models ---------
+// X/Y = first/second radical. Order of persons as in PERSONS.
+const T = {
+  mashaa: {
+    past: 'XَYَيْتُ XَYَيْنَا XَYَيْتَ XَYَيْتِ XَYَيْتُمَا XَYَيْتُمْ XَYَيْتُنَّ XَYَى XَYَتْ XَYَيَا XَYَتَا XَYَوْا XَYَيْنَ',
+    pres: 'أَXْYِي نَXْYِي تَXْYِي تَXْYِينَ تَXْYِيَانِ تَXْYُونَ تَXْYِينَ يَXْYِي تَXْYِي يَXْYِيَانِ تَXْYِيَانِ يَXْYُونَ يَXْYِينَ',
+    subj: 'أَXْYِيَ نَXْYِيَ تَXْYِيَ تَXْYِي تَXْYِيَا تَXْYُوا تَXْYِينَ يَXْYِيَ تَXْYِيَ يَXْYِيَا تَXْYِيَا يَXْYُوا يَXْYِينَ',
+    juss: 'أَXْYِ نَXْYِ تَXْYِ تَXْYِي تَXْYِيَا تَXْYُوا تَXْYِينَ يَXْYِ تَXْYِ يَXْYِيَا تَXْYِيَا يَXْYُوا يَXْYِينَ',
+    imp: 'اِXْYِ اِXْYِي اِXْYِيَا اِXْYُوا اِXْYِينَ',
+  },
+  daaa: {
+    past: 'XَYَوْتُ XَYَوْنَا XَYَوْتَ XَYَوْتِ XَYَوْتُمَا XَYَوْتُمْ XَYَوْتُنَّ XَYَا XَYَتْ XَYَوَا XَYَتَا XَYَوْا XَYَوْنَ',
+    pres: 'أَXْYُو نَXْYُو تَXْYُو تَXْYِينَ تَXْYُوَانِ تَXْYُونَ تَXْYُونَ يَXْYُو تَXْYُو يَXْYُوَانِ تَXْYُوَانِ يَXْYُونَ يَXْYُونَ',
+    subj: 'أَXْYُوَ نَXْYُوَ تَXْYُوَ تَXْYِي تَXْYُوَا تَXْYُوا تَXْYُونَ يَXْYُوَ تَXْYُوَ يَXْYُوَا تَXْYُوَا يَXْYُوا يَXْYُونَ',
+    juss: 'أَXْYُ نَXْYُ تَXْYُ تَXْYِي تَXْYُوَا تَXْYُوا تَXْYُونَ يَXْYُ تَXْYُ يَXْYُوَا تَXْYُوَا يَXْYُوا يَXْYُونَ',
+    imp: 'اُXْYُ اُXْYِي اُXْYُوَا اُXْYُوا اُXْYُونَ',
+  },
+  nasiya: {
+    past: 'XَYِيتُ XَYِينَا XَYِيتَ XَYِيتِ XَYِيتُمَا XَYِيتُمْ XَYِيتُنَّ XَYِيَ XَYِيَتْ XَYِيَا XَYِيَتَا XَYُوا XَYِينَ',
+    pres: 'أَXْYَى نَXْYَى تَXْYَى تَXْYَيْنَ تَXْYَيَانِ تَXْYَوْنَ تَXْYَيْنَ يَXْYَى تَXْYَى يَXْYَيَانِ تَXْYَيَانِ يَXْYَوْنَ يَXْYَيْنَ',
+    subj: 'أَXْYَى نَXْYَى تَXْYَى تَXْYَيْ تَXْYَيَا تَXْYَوْا تَXْYَيْنَ يَXْYَى تَXْYَى يَXْYَيَا تَXْYَيَا يَXْYَوْا يَXْYَيْنَ',
+    juss: 'أَXْYَ نَXْYَ تَXْYَ تَXْYَيْ تَXْYَيَا تَXْYَوْا تَXْYَيْنَ يَXْYَ تَXْYَ يَXْYَيَا تَXْYَيَا يَXْYَوْا يَXْYَيْنَ',
+    imp: 'اِXْYَ اِXْYَيْ اِXْYَيَا اِXْYَوْا اِXْYَيْنَ',
+  },
+  ahabba: {
+    past: 'أَحْبَبْتُ أَحْبَبْنَا أَحْبَبْتَ أَحْبَبْتِ أَحْبَبْتُمَا أَحْبَبْتُمْ أَحْبَبْتُنَّ أَحَبَّ أَحَبَّتْ أَحَبَّا أَحَبَّتَا أَحَبُّوا أَحْبَبْنَ',
+    pres: 'أُحِبُّ نُحِبُّ تُحِبُّ تُحِبِّينَ تُحِبَّانِ تُحِبُّونَ تُحْبِبْنَ يُحِبُّ تُحِبُّ يُحِبَّانِ تُحِبَّانِ يُحِبُّونَ يُحْبِبْنَ',
+    subj: 'أُحِبَّ نُحِبَّ تُحِبَّ تُحِبِّي تُحِبَّا تُحِبُّوا تُحْبِبْنَ يُحِبَّ تُحِبَّ يُحِبَّا تُحِبَّا يُحِبُّوا يُحْبِبْنَ',
+    juss: 'أُحِبَّ نُحِبَّ تُحِبَّ تُحِبِّي تُحِبَّا تُحِبُّوا تُحْبِبْنَ يُحِبَّ تُحِبَّ يُحِبَّا تُحِبَّا يُحِبُّوا يُحْبِبْنَ',
+    imp: 'أَحِبَّ أَحِبِّي أَحِبَّا أَحِبُّوا أَحْبِبْنَ',
+  },
+};
+
+function templ(v, tense, p) {
+  const t = T[v.model][tense].split(' ');
+  const i = tense === 'imp' ? IMP_PERSONS.indexOf(p) : IDS.indexOf(p);
+  const [x, y] = v.root;
+  return t[i].replace(/X/g, x).replace(/Y/g, y);
+}
+
+// Verb list ------------------------------------------------------------
+// type: s = sound, h = hollow, d = defective, a = assimilated, g = doubled, x = irregular
+const V = (w, es, o) => ({ w, es, ...o });
 export const VERBS = [
-  ['書く', 'かく', 1, 'escribir'], ['泳ぐ', 'およぐ', 1, 'nadar'], ['話す', 'はなす', 1, 'hablar'],
-  ['待つ', 'まつ', 1, 'esperar'], ['死ぬ', 'しぬ', 1, 'morir'], ['遊ぶ', 'あそぶ', 1, 'jugar'],
-  ['飲む', 'のむ', 1, 'beber'], ['帰る', 'かえる', 1, 'volver'], ['買う', 'かう', 1, 'comprar'],
-  ['行く', 'いく', 1, 'ir'],
-  ['食べる', 'たべる', 2, 'comer'], ['見る', 'みる', 2, 'ver'], ['起きる', 'おきる', 2, 'levantarse'],
-  ['する', 'する', 3, 'hacer'], ['来る', 'くる', 3, 'venir'], ['勉強する', 'べんきょうする', 3, 'estudiar'],
+  V('كَتَبَ', 'escribir', { group: 'I', form: 1, root: 'كتب', pv: F, av: D, masdar: 'كِتَابَة' }),
+  V('دَرَسَ', 'estudiar', { group: 'I', form: 1, root: 'درس', pv: F, av: D, masdar: 'دِرَاسَة' }),
+  V('شَرِبَ', 'beber', { group: 'I', form: 1, root: 'شرب', pv: K, av: F, masdar: 'شُرْب' }),
+  V('فَهِمَ', 'entender', { group: 'I', form: 1, root: 'فهم', pv: K, av: F, masdar: 'فَهْم' }),
+  V('عَمِلَ', 'trabajar', { group: 'I', form: 1, root: 'عمل', pv: K, av: F, masdar: 'عَمَل' }),
+  V('ذَهَبَ', 'ir', { intr: true, group: 'I', form: 1, root: 'ذهب', pv: F, av: F, masdar: 'ذَهَاب' }),
+  V('فَتَحَ', 'abrir', { group: 'I', form: 1, root: 'فتح', pv: F, av: F, masdar: 'فَتْح' }),
+  V('جَلَسَ', 'sentarse', { intr: true, group: 'I', form: 1, root: 'جلس', pv: F, av: K, masdar: 'جُلُوس' }),
+  V('رَجَعَ', 'volver', { intr: true, group: 'I', form: 1, root: 'رجع', pv: F, av: K, masdar: 'رُجُوع' }),
+  V('عَرَفَ', 'conocer, saber', { group: 'I', form: 1, root: 'عرف', pv: F, av: K, masdar: 'مَعْرِفَة' }),
+  V('دَخَلَ', 'entrar', { intr: true, group: 'I', form: 1, root: 'دخل', pv: F, av: D, masdar: 'دُخُول' }),
+  V('خَرَجَ', 'salir', { intr: true, group: 'I', form: 1, root: 'خرج', pv: F, av: D, masdar: 'خُرُوج' }),
+  V('سَمِعَ', 'oír', { group: 'I', form: 1, root: 'سمع', pv: K, av: F, masdar: 'سَمَاع' }),
+  V('لَعِبَ', 'jugar', { group: 'I', form: 1, root: 'لعب', pv: K, av: F, masdar: 'لَعِب' }),
+  V('سَكَنَ', 'vivir (habitar)', { group: 'I', form: 1, root: 'سكن', pv: F, av: D, masdar: 'سَكَن' }),
+  V('دَرَّسَ', 'enseñar', { group: 'II', form: 2, root: 'درس', masdar: 'تَدْرِيس' }),
+  V('عَلَّمَ', 'enseñar', { group: 'II', form: 2, root: 'علم', masdar: 'تَعْلِيم' }),
+  V('نَظَّفَ', 'limpiar', { group: 'II', form: 2, root: 'نظف', masdar: 'تَنْظِيف' }),
+  V('سَاعَدَ', 'ayudar', { group: 'III', form: 3, root: 'سعد', masdar: 'مُسَاعَدَة' }),
+  V('سَافَرَ', 'viajar', { group: 'III', form: 3, root: 'سفر', masdar: 'سَفَر' }),
+  V('شَاهَدَ', 'ver, mirar', { group: 'III', form: 3, root: 'شهد', masdar: 'مُشَاهَدَة' }),
+  V('أَرْسَلَ', 'enviar', { group: 'IV', form: 4, root: 'رسل', masdar: 'إِرْسَال' }),
+  V('أَغْلَقَ', 'cerrar', { group: 'IV', form: 4, root: 'غلق', masdar: 'إِغْلَاق' }),
+  V('تَكَلَّمَ', 'hablar', { intr: true, group: 'V', form: 5, root: 'كلم', masdar: 'تَكَلُّم' }),
+  V('تَعَلَّمَ', 'aprender', { group: 'V', form: 5, root: 'علم', masdar: 'تَعَلُّم' }),
+  V('تَعَاوَنَ', 'colaborar', { intr: true, group: 'VI', form: 6, root: 'عون', masdar: 'تَعَاوُن' }),
+  V('تَبَادَلَ', 'intercambiar', { group: 'VI', form: 6, root: 'بدل', masdar: 'تَبَادُل' }),
+  V('اِنْتَقَلَ', 'mudarse', { intr: true, group: 'VII', form: 7, root: 'تقل', masdar: 'اِنْتِقَال' }),
+  V('اِنْطَلَقَ', 'partir', { intr: true, group: 'VII', form: 7, root: 'طلق', masdar: 'اِنْطِلَاق' }),
+  V('اِجْتَمَعَ', 'reunirse', { intr: true, group: 'VIII', form: 8, root: 'جمع', masdar: 'اِجْتِمَاع' }),
+  V('اِنْتَظَرَ', 'esperar', { group: 'VIII', form: 8, root: 'نظر', masdar: 'اِنْتِظَار' }),
+  V('اِسْتَمَعَ', 'escuchar', { group: 'VIII', form: 8, root: 'سمع', masdar: 'اِسْتِمَاع' }),
+  V('اِسْتَعْمَلَ', 'usar', { group: 'X', form: 10, root: 'عمل', masdar: 'اِسْتِعْمَال' }),
+  V('اِسْتَقْبَلَ', 'recibir (a alguien)', { group: 'X', form: 10, root: 'قبل', masdar: 'اِسْتِقْبَال' }),
+  V('قَالَ', 'decir', { group: 'hueco', kind: 'h', root: 'قول', sv: D, lv: D + 'و', ps: D, masdar: 'قَوْل' }),
+  V('كَانَ', 'ser, estar (pasado)', { group: 'hueco', kind: 'h', root: 'كون', sv: D, lv: D + 'و', ps: D, masdar: 'كَوْن' }),
+  V('زَارَ', 'visitar', { group: 'hueco', kind: 'h', root: 'زور', sv: D, lv: D + 'و', ps: D, masdar: 'زِيَارَة' }),
+  V('بَاعَ', 'vender', { group: 'hueco', kind: 'h', root: 'بيع', sv: K, lv: K + 'ي', ps: K, masdar: 'بَيْع' }),
+  V('نَامَ', 'dormir', { group: 'hueco', kind: 'h', root: 'نوم', sv: K, lv: F + 'ا', ps: F, masdar: 'نَوْم' }),
+  V('مَشَى', 'caminar', { group: 'defectivo', kind: 't', model: 'mashaa', root: 'مش', masdar: 'مَشْي' }),
+  V('بَكَى', 'llorar', { group: 'defectivo', kind: 't', model: 'mashaa', root: 'بك', masdar: 'بُكَاء' }),
+  V('دَعَا', 'invitar, llamar', { group: 'defectivo', kind: 't', model: 'daaa', root: 'دع', masdar: 'دَعْوَة' }),
+  V('نَسِيَ', 'olvidar', { group: 'defectivo', kind: 't', model: 'nasiya', root: 'نس', masdar: 'نِسْيَان' }),
+  V('بَقِيَ', 'quedarse', { group: 'defectivo', kind: 't', model: 'nasiya', root: 'بق', masdar: 'بَقَاء' }),
+  V('وَجَدَ', 'encontrar', { group: 'asimilado', form: 1, root: 'وجد', pv: F, av: K, assimilated: true, masdar: 'وُجُود' }),
+  V('وَصَلَ', 'llegar', { group: 'asimilado', form: 1, root: 'وصل', pv: F, av: K, assimilated: true, masdar: 'وُصُول' }),
+  V('مَدَّ', 'extender', { group: 'doble', kind: 'g', root: 'مد', av: D, masdar: 'مَدّ' }),
+  V('أَحَبَّ', 'amar, gustar', { group: 'doble', kind: 't', model: 'ahabba', root: 'حب', masdar: 'حُبّ' }),
 ];
-// Extra verbs for the quiz.
-export const QUIZ_VERBS = VERBS.concat([
-  ['会う', 'あう', 1, 'ver a alguien'], ['持つ', 'もつ', 1, 'tener'], ['読む', 'よむ', 1, 'leer'], ['休む', 'やすむ', 1, 'descansar'],
-  ['急ぐ', 'いそぐ', 1, 'darse prisa'], ['呼ぶ', 'よぶ', 1, 'llamar'], ['作る', 'つくる', 1, 'hacer'], ['入る', 'はいる', 1, 'entrar'],
-  ['走る', 'はしる', 1, 'correr'], ['知る', 'しる', 1, 'saber'], ['切る', 'きる', 1, 'cortar'], ['貸す', 'かす', 1, 'prestar'],
-  ['使う', 'つかう', 1, 'usar'], ['聞く', 'きく', 1, 'oír'], ['寝る', 'ねる', 2, 'dormir'], ['教える', 'おしえる', 2, 'enseñar'],
-  ['借りる', 'かりる', 2, 'tomar prestado'], ['忘れる', 'わすれる', 2, 'olvidar'], ['着る', 'きる', 2, 'ponerse (ropa)'],
-  ['出る', 'でる', 2, 'salir'], ['決める', 'きめる', 2, 'decidir'], ['連絡する', 'れんらくする', 3, 'contactar'],
-]);
 
-// Conjugate one string (written form or reading) — the two are processed in parallel.
-function conjStr(w, g, form, isReading) {
-  if (g === 3) {
-    if (w.endsWith('する')) {
-      const b = w.slice(0, -2);
-      const S = { dict: 'する', masu: 'します', stem: 'し', nai: 'しない', naistem: 'し', zu: 'せず', te: 'して', ta: 'した', ba: 'すれば', tara: 'したら',
-        vol: 'しよう', pot: 'できる', pas: 'される', caus: 'させる', imp: 'しろ', nakatta: 'しなかった', cond: 'すれば' };
-      return b + S[form];
-    }
-    // 来る: kanji keeps 来, the reading changes
-    const K = { dict: 'くる', masu: 'きます', stem: 'き', nai: 'こない', naistem: 'こ', zu: 'こず', te: 'きて', ta: 'きた', ba: 'くれば', tara: 'きたら',
-      vol: 'こよう', pot: 'こられる', pas: 'こられる', caus: 'こさせる', imp: 'こい', nakatta: 'こなかった' };
-    const k = K[form];
-    const b = w.slice(0, -2);
-    return isReading || !w.endsWith('来る') ? b + k : b + '来' + k.slice(1);
-  }
-  if (g === 2) {
-    const b = w.slice(0, -1);
-    return b + { dict: 'る', masu: 'ます', stem: '', nai: 'ない', naistem: '', zu: 'ず', te: 'て', ta: 'た', ba: 'れば', tara: 'たら',
-      vol: 'よう', pot: 'られる', pas: 'られる', caus: 'させる', imp: 'ろ', nakatta: 'なかった' }[form];
-  }
-  const e = w.slice(-1), b = w.slice(0, -1), r = ROW[e];
-  if (!r) return w;
-  const iku = /(行|い)く$/.test(w) && (w === '行く' || w === 'いく' || w.endsWith('行く'));
-  const te = iku ? 'って' : TE[e];
-  const ta = te.replace('て', 'た').replace('で', 'だ');
-  return {
-    dict: w, masu: b + r[1] + 'ます', stem: b + r[1], nai: b + r[0] + 'ない', naistem: b + r[0], zu: b + r[0] + 'ず',
-    te: b + te, ta: b + ta, ba: b + r[2] + 'ば', tara: b + ta + 'ら', vol: b + r[3] + 'う', pot: b + r[2] + 'る',
-    pas: b + r[0] + 'れる', caus: b + r[0] + 'せる', imp: b + r[2], nakatta: b + r[0] + 'なかった',
-  }[form];
+// Irregular touches for hamzated Form I verbs: أَكَلَ / أَخَذَ.
+VERBS.push(
+  V('أَكَلَ', 'comer', { group: 'I', form: 1, root: 'أكل', pv: F, av: D, masdar: 'أَكْل', fix: { pres: { '1s': 'آكُلُ' }, subj: { '1s': 'آكُلَ' }, juss: { '1s': 'آكُلْ' }, imp: { '2ms': 'كُلْ', '2fs': 'كُلِي', '2d': 'كُلَا', '2mp': 'كُلُوا', '2fp': 'كُلْنَ' } } }),
+  V('أَخَذَ', 'tomar, coger', { group: 'I', form: 1, root: 'أخذ', pv: F, av: D, masdar: 'أَخْذ', fix: { pres: { '1s': 'آخُذُ' }, subj: { '1s': 'آخُذَ' }, juss: { '1s': 'آخُذْ' }, imp: { '2ms': 'خُذْ', '2fs': 'خُذِي', '2d': 'خُذَا', '2mp': 'خُذُوا', '2fp': 'خُذْنَ' } } }),
+);
+
+export function conjugate(v, tense, p) {
+  return assimilateN(conj0(v, tense, p));
+}
+// ن + نَ/نَا → نَّ/نَّا (سَكَنَّا، كُنَّا، يَسْكُنَّ)
+const assimilateN = (w) => w.replace(/نْن([َا]|$)/g, 'نّ$1').replace(/نَّ/g, 'نَّ');
+
+function conj0(v, tense, p) {
+  if (tense === 'imp' && !IMP_PERSONS.includes(p)) return '';
+  const fixed = v.fix?.[tense]?.[p];
+  if (fixed) return fixed;
+  if (v.kind === 'h') return hollow(v, tense, p);
+  if (v.kind === 'g') return doubled(v, tense, p);
+  if (v.kind === 't') return templ(v, tense, p);
+  let out = sound(v, tense, p);
+  // hamza seat for the 1st person singular of verbs starting with أ (أَ + أْ → آ)
+  if (v.root[0] === 'أ' && v.form === 1 && tense !== 'past' && tense !== 'imp') out = out.replace(/^أَأْ/, 'آ');
+  return out;
 }
 
-export function conjugate([w, r, g], form) {
-  return { w: conjStr(w, g, form, false), r: conjStr(r, g, form, true) };
+// Participles for sound verbs (activo / pasivo).
+export function participles(v) {
+  if (v.kind || v.assimilated) {
+    const map = { 'قَالَ': ['قَائِل', 'مَقُول'], 'كَانَ': ['كَائِن', '—'], 'زَارَ': ['زَائِر', 'مَزُور'], 'بَاعَ': ['بَائِع', 'مَبِيع'], 'نَامَ': ['نَائِم', '—'],
+      'مَشَى': ['مَاشٍ', '—'], 'بَكَى': ['بَاكٍ', '—'], 'دَعَا': ['دَاعٍ', 'مَدْعُوّ'], 'نَسِيَ': ['نَاسٍ', 'مَنْسِيّ'], 'بَقِيَ': ['بَاقٍ', '—'],
+      'وَجَدَ': ['وَاجِد', 'مَوْجُود'], 'وَصَلَ': ['وَاصِل', 'مَوْصُول'], 'مَدَّ': ['مَادّ', 'مَمْدُود'], 'أَحَبَّ': ['مُحِبّ', 'مَحْبُوب'] };
+    return map[v.w] || ['—', '—'];
+  }
+  const [a, b, c] = v.root;
+  if (v.form === 1) return [(a === 'أ' ? 'آ' : a + F + 'ا') + b + K + c, v.intr ? '—' : 'مَ' + a + S + b + D + 'و' + c];
+  if (v.intr) return ['مُ' + (v.form === 5 || v.form === 6 ? soundStems(v).pres.replace(new RegExp(F + '(' + c + ')$'), K + '$1') : soundStems(v).pres), '—'];
+  const st = soundStems(v);
+  const act = 'مُ' + (v.form === 5 || v.form === 6 ? st.pres.replace(new RegExp(F + '(' + c + ')$'), K + '$1') : st.pres);
+  const pas = 'مُ' + st.pres.replace(new RegExp(K + '(' + c + ')$'), F + '$1');
+  return [act, pas];
 }
-
-// Every form: id, label, what it is, how to build it per group, and grammar that uses it.
-export const FORMS = [
-  { id: 'dict', ja: '辞書形', label: 'Forma diccionario', short: 'V-dicc.',
-    what: 'La forma con la que el verbo aparece en el diccionario. Es la forma llana (informal) del presente/futuro afirmativo. En las fórmulas de gramática se escribe «V-る» o «V-dicc.».',
-    rules: ['Grupo 1: termina en sonido -u (書く, 飲む, 帰る).', 'Grupo 2: termina en -iru / -eru (食べる, 見る).', 'Grupo 3: する y 来る.'],
-    uses: '～ことができる, ～前に, ～つもり, ～ようにする, ～ことにする, ～ところだ, ～はずだ, ～べきだ…' },
-  { id: 'masu', ja: 'ます形', label: 'Forma ます', short: 'V-ます',
-    what: 'Forma cortés del presente/futuro. Si en una fórmula pone «V-ます + algo», se usa la RAÍZ: se quita ます (ver «raíz ます»).',
-    rules: ['Grupo 1: -u → -i + ます (書く→書きます).', 'Grupo 2: quita る + ます (食べる→食べます).', 'Grupo 3: します, 来(き)ます.'], uses: 'Conversación cortés.' },
-  { id: 'stem', ja: 'ます形の語幹', label: 'Raíz ます (sin ます)', short: 'V-ます sin ます',
-    what: 'La forma ます quitando ます: 書きます → 書き. Muchísima gramática se pega aquí. En las fórmulas aparece como «V-ます + …» o «V-ます (raíz)».',
-    rules: ['Grupo 1: -u → -i (書く→書き, 飲む→飲み).', 'Grupo 2: quita る (食べる→食べ).', 'Grupo 3: する→し, 来る→来(き).'],
-    uses: '～たい, ～ながら, ～やすい／にくい, ～すぎる, ～方, ～に行く, ～そうだ (aspecto), ～気味, ～がち, ～かける, ～切る, ～つつ, ～がたい, ～かねる…' },
-  { id: 'nai', ja: 'ない形', label: 'Forma ない', short: 'V-ない',
-    what: 'Negativo llano (informal) del presente: «no hago / no haré».',
-    rules: ['Grupo 1: -u → -a + ない (書く→書かない). ¡Ojo! -う → -わ (買う→買わない).', 'Grupo 2: quita る + ない (食べる→食べない).', 'Grupo 3: しない, 来(こ)ない.', 'Excepción: ある → ない.'],
-    uses: '～ないでください, ～なければならない, ～ないほうがいい, ～ないうちに, ～ないことはない, ～ないことには…' },
-  { id: 'naistem', ja: 'ない形の語幹', label: 'Raíz ない (sin ない)', short: 'V-ない sin ない',
-    what: 'La forma ない quitando ない: 書かない → 書か. Se usa con ～ず, ～ずに, ～ずにはいられない, ～ざるをえない, ～せる/～れる.',
-    rules: ['Grupo 1: -u → -a (書く→書か, 買う→買わ).', 'Grupo 2: quita る (食べる→食べ).', 'Grupo 3: する→せ (せず, せざるをえない), 来る→来(こ).'],
-    uses: '～ず（に）, ～ずにはいられない, ～ざるをえない, ～ずじまい, ～んばかり…' },
-  { id: 'te', ja: 'て形', label: 'Forma て', short: 'V-て',
-    what: 'Forma conectiva: une acciones, pide cosas y forma muchísimas expresiones.',
-    rules: ['Grupo 1 según la última sílaba: う・つ・る → って; む・ぶ・ぬ → んで; く → いて; ぐ → いで; す → して. Excepción: 行く → 行って.', 'Grupo 2: quita る + て (食べて).', 'Grupo 3: して, 来(き)て.'],
-    uses: '～てください, ～ている, ～てもいい, ～てはいけない, ～てしまう, ～ておく, ～てから, ～てたまらない, ～てこそ…' },
-  { id: 'ta', ja: 'た形', label: 'Forma た', short: 'V-た',
-    what: 'Pasado llano (informal). Se forma igual que la forma て, cambiando て→た y で→だ.',
-    rules: ['Grupo 1: 書いた, 泳いだ, 話した, 待った, 飲んだ, 行った.', 'Grupo 2: 食べた.', 'Grupo 3: した, 来(き)た.'],
-    uses: '～たことがある, ～たほうがいい, ～たり～たり, ～たら, ～たところ, ～たとたん, ～たきり, ～た末…' },
-  { id: 'plain', ja: '普通形', label: 'Forma llana (普通形)', short: 'forma llana',
-    what: 'Las cuatro formas informales: presente/pasado, afirmativo/negativo. Cuando una fórmula dice «forma llana» o «普通形», vale cualquiera de ellas. Con adjetivos-な y sustantivos, el presente afirmativo suele cambiar だ por な / の / である según la gramática.',
-    rules: ['Verbo: 書く・書かない・書いた・書かなかった.', 'Adj-い: 高い・高くない・高かった・高くなかった.', 'Adj-な: 静かだ・静かではない・静かだった・静かではなかった.', 'Sustantivo: 学生だ・学生ではない・学生だった・学生ではなかった.'],
-    uses: '～と思う, ～そうだ (oído), ～らしい, ～かもしれない, ～わけだ, ～からといって, ～としたら…' },
-  { id: 'ba', ja: '条件形（ば）', label: 'Condicional ば', short: 'V-ば',
-    what: 'Condicional «si…». Se forma con la fila -e + ば.',
-    rules: ['Grupo 1: -u → -e + ば (書く→書けば).', 'Grupo 2: quita る + れば (食べれば).', 'Grupo 3: すれば, 来(く)れば.', 'Adj-い: 高い→高ければ.'],
-    uses: '～ば～ほど, ～さえ～ば, ～ばよかった, ～ばいい…' },
-  { id: 'tara', ja: 'たら形', label: 'Condicional たら', short: 'V-たら',
-    what: 'Condicional «si / cuando». Es la forma た + ら.',
-    rules: ['Todos los grupos: forma た + ら (書いたら, 食べたら, したら, 来(き)たら).'], uses: '～たらいい, ～たらどうですか, ～としたら…' },
-  { id: 'vol', ja: '意向形', label: 'Forma volitiva', short: 'V-よう',
-    what: 'Forma informal de «vamos a… / voy a…». Base de ～ようと思う y ～ようとする.',
-    rules: ['Grupo 1: -u → -o + う (書く→書こう).', 'Grupo 2: quita る + よう (食べよう).', 'Grupo 3: しよう, 来(こ)よう.'],
-    uses: '～ようと思う, ～ようとする, ～ようではないか, ～ようものなら, ～か～まいか…' },
-  { id: 'pot', ja: '可能形', label: 'Forma potencial', short: 'V-potencial',
-    what: '«Poder hacer». El objeto suele llevar が. Funciona como un verbo del grupo 2.',
-    rules: ['Grupo 1: -u → -e + る (書く→書ける).', 'Grupo 2: quita る + られる (食べられる).', 'Grupo 3: する→できる, 来る→来(こ)られる.'], uses: '～ようになる, ～ように…' },
-  { id: 'pas', ja: '受身形', label: 'Forma pasiva', short: 'V-pasiva',
-    what: 'Pasiva «ser hecho» y también la forma respetuosa (尊敬語) de muchos verbos.',
-    rules: ['Grupo 1: -u → -a + れる (書く→書かれる; 買う→買われる).', 'Grupo 2: quita る + られる (食べられる).', 'Grupo 3: される, 来(こ)られる.'], uses: 'Pasiva, pasiva de molestia, 尊敬語 (～れる/られる).' },
-  { id: 'caus', ja: '使役形', label: 'Forma causativa', short: 'V-causativa',
-    what: '«Hacer / dejar que alguien haga». Base de ～させていただく y de la causativa-pasiva.',
-    rules: ['Grupo 1: -u → -a + せる (書く→書かせる).', 'Grupo 2: quita る + させる (食べさせる).', 'Grupo 3: させる, 来(こ)させる.'], uses: '～させてください, ～させていただきます, ～させられる…' },
-  { id: 'imp', ja: '命令形', label: 'Imperativo', short: 'V-imperativo',
-    what: 'Orden directa y brusca. Se ve en señales, deportes o en estilo indirecto (～と言われた).',
-    rules: ['Grupo 1: -u → -e (書く→書け).', 'Grupo 2: quita る + ろ (食べろ).', 'Grupo 3: しろ／せよ, 来(こ)い.'], uses: '～なさい (forma suave), ～な (prohibición: 書くな).' },
-  { id: 'adj', ja: '形容詞', label: 'Adjetivos い y な', short: 'Adj',
-    what: 'Los adjetivos también se conjugan. Adj-い: termina en い (高い). Adj-な: lleva な delante de un sustantivo (静かな町).',
-    rules: ['Adj-い: 高い・高くない・高かった・高くて・高ければ・高さ. Excepción: いい → よくない, よかった.', 'Adj-な: 静かだ・静かではない・静かだった・静かで・静かなら・静かな＋N.', 'En fórmulas: «Adj-くて» = forma て del Adj-い; «Adj-なで» = forma て del Adj-な; «Adj-な＋な» = se mantiene な.'],
-    uses: '～すぎる, ～そうだ, ～さ, ～くなる／になる, ～くても／でも…' },
-];
-export const FORM = Object.fromEntries(FORMS.map(f => [f.id, f]));
-export const TABLE_FORMS = ['dict', 'masu', 'stem', 'nai', 'naistem', 'te', 'ta', 'ba', 'tara', 'vol', 'pot', 'pas', 'caus', 'imp'];
-export const GROUP_LABEL = { 1: 'Grupo 1 (godan, verbos -u)', 2: 'Grupo 2 (ichidan, verbos -る)', 3: 'Grupo 3 (irregulares)' };

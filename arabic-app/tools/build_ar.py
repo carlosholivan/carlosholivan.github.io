@@ -123,6 +123,12 @@ def tokenize(line, index):
         toks.append([t, [[t, None]], key])
     return toks
 
+CONJ_LINK = {'presente': ('pres', 'كَتَبَ'), 'pasado': ('past', 'كَتَبَ'), 'pasado2': ('past', 'كَتَبَ'), 'imperativo': ('imp', 'كَتَبَ'),
+             'futuro': ('pres', 'سَافَرَ'), 'lam': ('juss', 'كَتَبَ'), 'lan': ('subj', 'كَتَبَ'), 'an': ('subj', 'شَرِبَ'),
+             'prohibicion': ('juss', 'ذَهَبَ'), 'huecos': ('past', 'قَالَ'), 'defectivos': ('pres', 'مَشَى'), 'kana': ('past', 'كَانَ'),
+             'formas_verbales': ('past', 'دَرَّسَ'), 'formas_6_8': ('past', 'تَعَاوَنَ'), 'participios': ('past', 'كَتَبَ'),
+             'masdar': ('past', 'سَافَرَ'), 'lam_amr': ('juss', 'كَتَبَ'), 'kana_madi': ('past', 'كَانَ')}
+
 def grammar_html(ids):
     html = []
     for g in ids:
@@ -131,7 +137,8 @@ def grammar_html(ids):
         html.append(f"<h3>{e['t']} — {e['es']}</h3>"
                     + (f"<p><b>Forma:</b> <span class=\"zh\">{e['form']}</span></p>" if e.get('form') else '')
                     + (f"<p>{e['nuance']}</p>" if e.get('nuance') else '')
-                    + (f"<div class=\"tip\">💡 <span class=\"ar\">{e['tip']}</span>{(' — ' + e['tip_es']) if e.get('tip_es') else ''}</div>" if e.get('tip') else ''))
+                    + (f"<div class=\"tip\">💡 <span class=\"ar\">{e['tip']}</span>{(' — ' + e['tip_es']) if e.get('tip_es') else ''}</div>" if e.get('tip') else '')
+                    + (f"<p><a class=\"vf\" onclick=\"window.__conj('{CONJ_LINK[g][0]}','{CONJ_LINK[g][1]}')\">🔁 Ver la conjugación completa</a></p>" if g in CONJ_LINK else ''))
     return ''.join(html)
 
 LBY = {L['c']: L for L in LETTERS}
@@ -155,7 +162,7 @@ def sentences(texts):
         for para in t['paras']:
             for ar, es in para:
                 ar2, es2 = SPK.sub('', ar), re.sub(r'^[^:]{1,20}:\s*', '', es)
-                if 2 <= len(ar2.split()) <= 9: out.append((ar2, es2))
+                if 2 <= len(ar2.split()) <= 28: out.append((ar2, es2))
     return out
 
 
@@ -242,13 +249,26 @@ def make_exercises(rng, sents, unit_words, all_words, index, n_fill=4, n_order=3
         if 3 <= len(ws) <= 7:
             ex.append({'type': 'order', 'prompt': {'es': es}, 'words': ws, 'answer': ar, 'rtl': True})
             used.add(ar)
-    rest = [s for s in sents if s[0] not in used]
+    rest = [s for s in sents if s[0] not in used and len(s[0].split()) <= 14]
     for ar, es in rest[:n_choose]:
-        others = [s[0] for s in sents if s[0] != ar]
+        others = [s[0] for s in sents if s[0] != ar and len(s[0].split()) <= 14]
         if len(others) < 2: break
         opts = [ar] + rng.sample(others, 2); rng.shuffle(opts)
         ex.append({'type': 'choose', 'prompt': {'es': f'«{es}»'}, 'options': opts, 'correct': ar})
+    # Top up with vocabulary questions (meaning → word) when the texts give too few sentence exercises.
+    meanings = MEANINGS
+    pool = [w for w in unit_words if w in meanings]
+    rng.shuffle(pool)
+    target_n = n_fill + n_order + n_choose
+    for w in pool:
+        if len(ex) >= target_n: break
+        others = [x for x in all_words if norm(x) != norm(w)]
+        if len(others) < 3: break
+        opts = [w] + rng.sample(others, 3); rng.shuffle(opts)
+        ex.append({'type': 'choose', 'prompt': {'es': f'«{meanings[w]}»'}, 'options': opts, 'correct': w})
     return ex
+
+MEANINGS = {}
 
 def main():
     prev_index = {}
@@ -291,6 +311,7 @@ def main():
                 for part in parts:
                     if len(norm(part)) > 2: index.setdefault(norm(part), v['w'])
         words = [v['w'] for v in vocab]
+        for v in vocab: MEANINGS.setdefault(v['w'], v['m']['es'] if isinstance(v.get('m'), dict) else v.get('es', ''))
         units_out, texts_out, extra = [], [], {}
         order = 0
         for u in units:

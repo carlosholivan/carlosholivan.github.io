@@ -13,6 +13,7 @@ export const CFG = {
     ['ب', 'cardsNav', 'cardsSub', 'review'],
     ['ك', 'vocabList', 'vocabListSub', 'vocab-list'],
     ['ح', 'hanzi', 'hanziSub', 'hanzi'],
+    ['ص', 'conjNav', 'conjSub', 'conj'],
     ['ق', 'reference', 'grammarRefSub', 'reference'],
   ],
 };

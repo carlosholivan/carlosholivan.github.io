@@ -1,121 +1,117 @@
-// Conjugation reference: verb groups, every form with its rules, full tables and a quick quiz.
-// window.__conj(id) opens a form sheet from any grammar explanation (links built by tools/build_texts.py).
-import { register, go } from '../router.js?v=202611140100';
-import { header, bottomNav } from '../ui/components.js?v=202611140100';
-import { t } from '../i18n.js?v=202611140100';
-import { speak } from '../audio.js?v=202611140100';
-import { S, update } from '../state.js?v=202611140100';
-import { VERBS, QUIZ_VERBS, FORMS, FORM, TABLE_FORMS, GROUP_LABEL, conjugate } from '../conj.js?v=202611140100';
+// Arabic conjugation reference: choose a verb, see every tense and person, participles and nombre verbal,
+// plus a quick quiz. window.__conj(tense) opens it from any grammar explanation (links built by tools/build_ar.py).
+import { register, go } from '../router.js?v=202611140300';
+import { header, bottomNav } from '../ui/components.js?v=202611140300';
+import { speak } from '../audio.js?v=202611140300';
+import { translit } from '../ar.js?v=202611140300';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611140300';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const cell = ({ w, r }) => `<span class="cj-w" onclick="event.stopPropagation();window.__cjSay('${esc(r)}')">${esc(w)}</span>${w !== r ? `<span class="cj-r">${esc(r)}</span>` : ''}`;
-const SAMPLE = [['書く', 'かく', 1], ['飲む', 'のむ', 1], ['帰る', 'かえる', 1], ['食べる', 'たべる', 2], ['する', 'する', 3], ['来る', 'くる', 3]];
-const GBADGE = { 1: 'I', 2: 'II', 3: 'III' };
+const GROUPS = [
+  ['I', 'Forma I (فَعَلَ)', 'La forma básica. La vocal del presente (a, i, u) hay que aprenderla con cada verbo.'],
+  ['II', 'Forma II (فَعَّلَ)', 'Duplica la 2.ª radical: suele ser causativa o intensiva. Presente con يُـ.'],
+  ['III', 'Forma III (فَاعَلَ)', 'Alarga la 1.ª vocal: acción hacia otra persona. Presente con يُـ.'],
+  ['IV', 'Forma IV (أَفْعَلَ)', 'Prefijo أَ: causativa. Presente con يُـ; imperativo con أَ.'],
+  ['V', 'Forma V (تَفَعَّلَ)', 'تَـ + forma II: reflexiva de la II.'],
+  ['VI', 'Forma VI (تَفَاعَلَ)', 'تَـ + forma III: acción recíproca.'],
+  ['VII', 'Forma VII (اِنْفَعَلَ)', 'Prefijo اِنْـ: pasiva o media.'],
+  ['VIII', 'Forma VIII (اِفْتَعَلَ)', 'تـ infijada tras la 1.ª radical: reflexiva.'],
+  ['X', 'Forma X (اِسْتَفْعَلَ)', 'Prefijo اِسْتَـ: pedir, considerar.'],
+  ['hueco', 'Verbos huecos', 'و / ي en medio: vocal larga que se acorta ante consonante (قَالَ → قُلْتُ).'],
+  ['defectivo', 'Verbos defectivos', 'و / ي al final: la última sílaba cambia según la persona (مَشَى، دَعَا، نَسِيَ).'],
+  ['asimilado', 'Verbos asimilados', 'و inicial que desaparece en el presente (وَجَدَ → يَجِدُ).'],
+  ['doble', 'Verbos dobles', '2.ª y 3.ª radical iguales: se funden con شَدَّة (مَدَّ، أَحَبَّ).'],
+];
 
 let verbIdx = 0;
+let tense = 'past';
 let quiz = null;
 
-function formCard(f, open) {
-  const ex = f.id === 'plain' || f.id === 'adj' ? '' : `<div class="cj-mini">${SAMPLE.map(v => `<div><span class="cj-g g${v[2]}">${GBADGE[v[2]]}</span>${cell(conjugate(v, 'dict'))}<span class="cj-arrow">→</span>${cell(conjugate(v, f.id))}</div>`).join('')}</div>`;
-  return `<div class="card cj-form ${open ? 'open' : ''}" id="cj-${f.id}">
-    <div class="cj-head" onclick="this.parentNode.classList.toggle('open')"><span class="cj-tag">${esc(f.short)}</span><b>${esc(f.label)}</b><span class="muted small">${f.ja}</span><span class="grow"></span><span class="cj-chev">›</span></div>
-    <div class="cj-body">
-      <p>${esc(f.what)}</p>
-      <ul>${f.rules.map(r => `<li>${esc(r)}</li>`).join('')}</ul>
-      ${ex}
-      <div class="small muted mt-8"><b>Se usa en:</b> ${esc(f.uses)}</div>
-    </div></div>`;
+const word = (w) => `<span class="cj-ar" onclick="event.stopPropagation();window.__cjSay('${esc(w)}')">${esc(w)}</span><span class="cj-tr">${esc(translit(w))}</span>`;
+
+function table(v) {
+  const persons = tense === 'imp' ? PERSONS.filter(p => IMP_PERSONS.includes(p.id)) : PERSONS;
+  const pre = tense === 'subj' ? 'لَنْ ' : tense === 'juss' ? 'لَمْ ' : '';
+  return `<table class="cj-table ar-table">${persons.map(p => {
+    const f = conjugate(v, tense, p.id);
+    return `<tr onclick="window.__cjSay('${esc(pre + f)}')"><th><span class="cj-pr">${esc(p.ar)}</span><span>${esc(p.es)}</span></th>
+      <td>${word(pre + f)}</td></tr>`;
+  }).join('')}</table>`;
 }
 
 register('conj', async (el, params = {}) => {
-  const focus = params.f;
+  if (params.t && TENSES.some(x => x.id === params.t)) tense = params.t;
+  if (params.v) { const i = VERBS.findIndex(x => x.w === params.v); if (i >= 0) verbIdx = i; }
   const v = VERBS[verbIdx];
+  const [act, pas] = participles(v);
+  const T = TENSES.find(x => x.id === tense);
   el.innerHTML = `<div class="fade">
-    ${header('活用 · Conjugación', true)}
+    ${header('تَصْرِيف · Conjugación')}
     <div class="card cj-intro">
-      <div class="h3 mb-8">¿De qué grupo es el verbo?</div>
-      <div class="cj-groups">
-        <div><span class="cj-g g1">I</span><b>Grupo 1 · godan</b><br><span class="small">Terminan en -u: 書く, 飲む, 話す, 待つ, 買う… y los -る cuya vocal anterior es a/u/o (取る, 作る, 登る).</span></div>
-        <div><span class="cj-g g2">II</span><b>Grupo 2 · ichidan</b><br><span class="small">Terminan en -iる / -eる: 食べる, 見る, 起きる, 寝る. Se quita る y se añade la terminación.</span></div>
-        <div><span class="cj-g g3">III</span><b>Grupo 3 · irregulares</b><br><span class="small">する (y todos los ～する: 勉強する) y 来る (くる).</span></div>
-      </div>
-      <div class="small muted mt-8">⚠️ Parecen del grupo 2 pero son del grupo 1: 帰る, 入る, 走る, 知る, 切る, 要る, 減る, 限る, 喋る, 滑る.</div>
+      <p class="small" style="margin:0 0 8px">Los verbos árabes se construyen sobre una <b>raíz</b> de tres consonantes. El pasado añade <b>terminaciones</b>; el presente, <b>prefijos</b> (أَ، نَ، تَ، يَ) y a veces terminaciones. Elige un verbo y un tiempo; toca una forma para oírla.</p>
+      <button class="btn mt-8" onclick="window.__cjQuiz()">🎯 Practicar conjugaciones</button>
     </div>
-    <button class="btn mt-12" onclick="window.__cjQuiz()">🎯 Practicar conjugaciones</button>
     <div id="cj-quiz"></div>
-
-    <div class="sec-label">Formas y cómo se construyen</div>
-    ${FORMS.map(f => formCard(f, f.id === focus)).join('')}
-
-    <div class="sec-label">Tabla completa</div>
-    <div class="cj-verbs">${VERBS.map((x, i) => `<button class="set-chip ${i === verbIdx ? 'done' : ''}" onclick="window.__cjVerb(${i})">${x[0]}</button>`).join('')}</div>
-    <div class="card" id="cj-table">
-      <div class="flex items-center gap-8 mb-8"><span class="cj-g g${v[2]}">${GBADGE[v[2]]}</span><b style="font-size:20px">${v[0]}</b><span class="muted">${v[1]} · ${esc(v[3])}</span></div>
-      <div class="muted small mb-8">${GROUP_LABEL[v[2]]}</div>
-      <table class="cj-table">${TABLE_FORMS.map(id => `<tr onclick="window.__conj('${id}')"><th>${esc(FORM[id].short)}<span>${esc(FORM[id].label)}</span></th><td>${cell(conjugate(v, id))}</td></tr>`).join('')}
-        <tr><th>V-なかった<span>Pasado negativo llano</span></th><td>${cell(conjugate(v, 'nakatta'))}</td></tr></table>
+    ${GROUPS.map(([g, label, note]) => {
+      const list = VERBS.map((x, i) => [x, i]).filter(([x]) => x.group === g);
+      if (!list.length) return '';
+      return `<div class="sec-label">${esc(label)}</div><div class="muted small mb-8">${esc(note)}</div>
+        <div class="cj-verbs">${list.map(([x, i]) => `<button class="set-chip ar-chip ${i === verbIdx ? 'done' : ''}" onclick="window.__cjVerb(${i})">${esc(x.w)}</button>`).join('')}</div>`;
+    }).join('')}
+    <div class="card mt-12" id="cj-table">
+      <div class="flex items-center gap-8" style="flex-wrap:wrap">
+        <span class="cj-big">${esc(v.w)}</span>
+        <span class="muted">${esc(v.es)}</span><span class="grow"></span>
+        <span class="cj-tag">${esc(v.group)}</span>
+      </div>
+      <div class="cj-facts small">
+        <div><b>Presente:</b> ${word(conjugate(v, 'pres', '3ms'))}</div>
+        <div><b>Nombre verbal:</b> ${word(v.masdar)}</div>
+        <div><b>Participio activo:</b> ${act === '—' ? '—' : word(act)}</div>
+        <div><b>Participio pasivo:</b> ${pas === '—' ? '—' : word(pas)}</div>
+      </div>
+      <div class="cj-tabs">${TENSES.map(x => `<button class="chip ${x.id === tense ? 'on' : ''}" onclick="window.__cjTense('${x.id}')">${esc(x.es)}</button>`).join('')}</div>
+      <div class="muted small mb-8"><b class="cj-tname">${esc(T.ar)}</b> — ${esc(T.note)}</div>
+      ${table(v)}
+      ${tense === 'pres' ? `<div class="muted small mt-8">Futuro: ${word('سَ' + conjugate(v, 'pres', '1s'))} · Negación: ${word('لَا ' + conjugate(v, 'pres', '1s'))}</div>` : ''}
     </div>
   </div>${bottomNav('reference')}`;
-  if (focus) setTimeout(() => document.getElementById('cj-' + focus)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
+  if (params.t || params.v) document.getElementById('cj-table')?.scrollIntoView({ block: 'start' });
 });
 
-window.__cjVerb = (i) => { verbIdx = i; go('conj'); };
-window.__cjSay = (r) => speak(r);
+window.__cjVerb = (i) => { verbIdx = i; go('conj'); setTimeout(() => document.getElementById('cj-table')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50); };
+window.__cjTense = (id) => { tense = id; go('conj'); setTimeout(() => document.getElementById('cj-table')?.scrollIntoView({ block: 'start' }), 30); };
+window.__cjSay = (w) => speak(w);
+window.__conj = (t, v) => window.__nav('conj', { t, v });
 
-// Bottom sheet with one form — opened from grammar explanations.
-window.__conj = (id) => {
-  const f = FORM[id];
-  if (!f) return go('conj');
-  document.querySelectorAll('.conj-sheet').forEach(x => x.remove());
-  const sh = document.createElement('div');
-  sh.className = 'sheet-backdrop conj-sheet fade';
-  sh.innerHTML = `<div class="sheet slideup" style="max-height:88vh">
-    <div class="flex items-center justify-between mb-12"><span class="h3">活用 · Repaso</span>
-      <button class="btn btn-soft btn-small" onclick="this.closest('.sheet-backdrop').remove()">${t('close')}</button></div>
-    ${formCard(f, true)}
-    <button class="btn mt-12" onclick="this.closest('.sheet-backdrop').remove();window.__nav('conj',{f:'${id}'})">Ver toda la conjugación →</button></div>`;
-  sh.addEventListener('click', e => { if (e.target === sh) sh.remove(); });
-  document.body.appendChild(sh);
-};
-
-// Quick quiz: random verb + form, four options built from other forms of the same verb.
-const QF = ['masu', 'stem', 'nai', 'te', 'ta', 'ba', 'vol', 'pot', 'pas', 'caus', 'imp'];
+// Quiz: a verb + tense + person → choose the right form among forms of the same verb.
+const pick = a => a[Math.floor(Math.random() * a.length)];
 function newQ() {
-  const v = QUIZ_VERBS[Math.floor(Math.random() * QUIZ_VERBS.length)];
-  const f = QF[Math.floor(Math.random() * QF.length)];
-  const ans = conjugate(v, f).w;
-  const opts = new Set([ans]);
-  // plausible wrong answers: forms easily confused with this one, the same form built as another group, then the rest
-  const NEAR = { masu: ['stem', 'nai'], stem: ['masu', 'naistem'], nai: ['naistem', 'vol', 'pas'], te: ['ta', 'tara'], ta: ['te', 'tara'],
-    ba: ['pot', 'imp', 'tara'], vol: ['imp', 'nai'], pot: ['pas', 'caus', 'ba'], pas: ['pot', 'caus'], caus: ['pas', 'pot'], imp: ['ba', 'vol', 'pot'] };
-  const pool = [];
-  for (const g of [1, 2]) if (g !== v[2] && v[2] !== 3) pool.push(conjugate([v[0], v[1], g], f).w);
-  if (v[2] === 3) pool.push(...['pas', 'pot', 'caus'].map(x => conjugate(v, x).w));
-  pool.push(...(NEAR[f] || []).map(x => conjugate(v, x).w));
-  pool.push(...QF.map(x => conjugate(v, x).w));
-  for (const w of pool) { if (opts.size >= 4) break; if (w && w !== ans) opts.add(w); }
-  return { v, f, ans, opts: [...opts].sort(() => Math.random() - .5), ok: 0, n: 0 };
+  const v = pick(VERBS);
+  const tn = pick(['past', 'pres', 'pres', 'subj', 'juss', 'imp']);
+  const p = pick(tn === 'imp' ? IMP_PERSONS : PERSONS.map(x => x.id));
+  const answer = conjugate(v, tn, p);
+  const pool = new Set();
+  for (const t2 of ['past', 'pres', 'subj', 'juss']) for (const q of PERSONS) { const f = conjugate(v, t2, q.id); if (f && f !== answer) pool.add(f); }
+  const opts = [answer, ...[...pool].sort(() => Math.random() - 0.5).slice(0, 3)].sort(() => Math.random() - 0.5);
+  return { v, tn, p, answer, opts };
 }
 function drawQuiz() {
-  const box = document.getElementById('cj-quiz');
-  if (!box || !quiz) return;
-  const { v, f } = quiz.q;
-  box.innerHTML = `<div class="card mt-12 cj-q">
-    <div class="muted small">${quiz.ok}/${quiz.n} · <span class="cj-g g${v[2]}">${GBADGE[v[2]]}</span></div>
-    <div class="cj-qv">${v[0]} <span class="muted small">(${v[1]} · ${esc(v[3])})</span></div>
-    <div class="mb-12">→ <b>${esc(FORM[f].label)}</b> <a class="vf" onclick="window.__conj('${f}')">?</a></div>
-    <div class="cj-opts">${quiz.q.opts.map(o => `<button class="btn btn-soft" onclick="window.__cjAns(this,'${esc(o)}')">${esc(o)}</button>`).join('')}</div></div>`;
+  const box = document.getElementById('cj-quiz'); if (!box) return;
+  const q = quiz.q; const P = PERSONS.find(x => x.id === q.p); const T = TENSES.find(x => x.id === q.tn);
+  box.innerHTML = `<div class="card mt-12">
+    <div class="flex items-center"><b>🎯 ${quiz.ok}/${quiz.n}</b><span class="grow"></span><button class="btn btn-soft btn-small" onclick="window.__cjQuizClose()">✕</button></div>
+    <div class="cj-qv">${esc(q.v.w)} <span class="muted small">(${esc(q.v.es)})</span></div>
+    <div class="mb-12">${esc(T.es)} · <span class="cj-pr">${esc(P.ar)}</span> (${esc(P.es)})</div>
+    <div class="cj-opts">${q.opts.map(o => `<button class="btn btn-soft" onclick="window.__cjAns(this,'${esc(o)}')">${esc(o)}</button>`).join('')}</div></div>`;
 }
 window.__cjQuiz = () => { quiz = { ok: 0, n: 0, q: newQ() }; drawQuiz(); document.getElementById('cj-quiz')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); };
+window.__cjQuizClose = () => { quiz = null; const b = document.getElementById('cj-quiz'); if (b) b.innerHTML = ''; };
 window.__cjAns = (btn, o) => {
-  if (quiz.lock) return;
-  quiz.lock = true; quiz.n++;
-  const good = o === quiz.q.ans;
-  if (good) { quiz.ok++; update({ xp: (S.xp || 0) + 1 }); }
-  btn.parentNode.querySelectorAll('button').forEach(b => {
-    if (b.textContent === quiz.q.ans) b.classList.add('ok');
-    else if (b === btn) b.classList.add('bad');
-  });
-  speak(conjugate(quiz.q.v, quiz.q.f).r);
-  setTimeout(() => { quiz.lock = false; quiz.q = newQ(); drawQuiz(); }, good ? 900 : 2000);
+  const q = quiz.q; quiz.n++;
+  const ok = o === q.answer; if (ok) quiz.ok++;
+  document.querySelectorAll('.cj-opts .btn').forEach(b => { b.disabled = true; if (b.textContent === q.answer) b.classList.add('ok'); });
+  if (!ok) btn.classList.add('bad');
+  speak(q.answer);
+  setTimeout(() => { quiz.q = newQ(); drawQuiz(); }, ok ? 900 : 1800);
 };

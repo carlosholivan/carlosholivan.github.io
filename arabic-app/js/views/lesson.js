@@ -1,17 +1,17 @@
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611140100';
-import { buildReview } from '../engine/review.js?v=202611140100';
-import { addCards } from '../engine/anki.js?v=202611140100';
-import { register, go } from '../router.js?v=202611140100';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611140100';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611140100';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140100';
-import { recordAnswer } from '../engine/srs.js?v=202611140100';
-import { progressBar } from '../ui/components.js?v=202611140100';
-import { icon } from '../ui/icons.js?v=202611140100';
-import { t } from '../i18n.js?v=202611140100';
-import { speak, stop as stopAudio } from '../audio.js?v=202611140100';
-import { allHanzi } from './review.js?v=202611140100';
-import { charWord, hasChars } from '../chars.js?v=202611140100';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611140300';
+import { buildReview } from '../engine/review.js?v=202611140300';
+import { addCards } from '../engine/anki.js?v=202611140300';
+import { register, go } from '../router.js?v=202611140300';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611140300';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611140300';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140300';
+import { recordAnswer } from '../engine/srs.js?v=202611140300';
+import { progressBar } from '../ui/components.js?v=202611140300';
+import { icon } from '../ui/icons.js?v=202611140300';
+import { t } from '../i18n.js?v=202611140300';
+import { speak, stop as stopAudio } from '../audio.js?v=202611140300';
+import { allHanzi } from './review.js?v=202611140300';
+import { charWord, hasChars } from '../chars.js?v=202611140300';
 
 const MAX_HEARTS = 5;
 
@@ -227,16 +227,16 @@ register('lesson', async (el, params) => {
         const parts = ex.sentence.split('___');
         return `<div class="slideup">${hintOf(ex)}
           <div class="card" style="padding:20px;margin-bottom:16px;font-size:22px;line-height:1.8">
-            <span class="zh">${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}</span>
-            ${ex.trans ? `<div class="muted small mt-8" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
+            <div class="zh fill-ar" dir="rtl">${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}</div>
+            ${ex.trans ? `<div class="muted small mt-8" dir="ltr" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
           </div>
           ${optionsHtml(ex, '__fillChoose')}<div id="feedback"></div></div>`;
       }
       case 'order':
         return `<div class="slideup">${hintOf(ex)}
           <div class="h3 mb-16">${promptOf(ex)}</div>
-          <div class="sentence-area" id="sentence-area"></div>
-          <div class="wordbank">${ex.words.map((w, i) =>
+          <div class="sentence-area" id="sentence-area" dir="rtl"></div>
+          <div class="wordbank" dir="rtl">${ex.words.map((w, i) =>
             `<button class="wordchip" id="wc-${i}" onclick="window.__pickWord(${i})">${esc(w)}</button>`).join('')}</div>
           <button class="btn mt-16" id="check-btn" onclick="window.__checkOrder()">${t('check')}</button>
           <div id="feedback" class="mt-12"></div></div>`;

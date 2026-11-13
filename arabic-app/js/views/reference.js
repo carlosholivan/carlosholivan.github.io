@@ -1,14 +1,14 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611140100';
-import { register, go } from '../router.js?v=202611140100';
-import { loadUnits } from '../data.js?v=202611140100';
-import { bottomNav, header } from '../ui/components.js?v=202611140100';
-import { t } from '../i18n.js?v=202611140100';
-import { levelChips, levelLabel } from '../levels.js?v=202611140100';
-import { speak } from '../audio.js?v=202611140100';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611140100';
-import { allVocab } from './review.js?v=202611140100';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140100';
+import { S, update } from '../state.js?v=202611140300';
+import { register, go } from '../router.js?v=202611140300';
+import { loadUnits } from '../data.js?v=202611140300';
+import { bottomNav, header } from '../ui/components.js?v=202611140300';
+import { t } from '../i18n.js?v=202611140300';
+import { levelChips, levelLabel } from '../levels.js?v=202611140300';
+import { speak } from '../audio.js?v=202611140300';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611140300';
+import { allVocab } from './review.js?v=202611140300';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140300';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -34,6 +34,7 @@ async function renderGrammar(box) {
   const units = await loadUnits(S.level).catch(() => []);
   box.innerHTML = `<div class="slideup">
     ${levelChips(S.level, '__refLevel')}
+    <div class="card drill-banner" onclick="window.__nav('conj')">🔁 <strong>${ruby('تَصْرِيفُ الأَفْعَال')}</strong> <span class="muted small">· Conjugación</span><span class="grow"></span>›</div>
     <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>${ruby('تَمَارِينُ القَوَاعِد')}</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
     ${units.filter(u => u.grammarIntro || (u.grammar || []).length).map(u => `
       <div class="card ref-topic" onclick="window.__go('grammar-detail',{level:'${S.level}',id:${u.id}})">
