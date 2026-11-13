@@ -1,14 +1,14 @@
-import { S, update, isUnitDone } from '../state.js?v=202611131500';
-import { register, go } from '../router.js?v=202611131500';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131500';
-import { bottomNav, header } from '../ui/components.js?v=202611131500';
-import { t } from '../i18n.js?v=202611131500';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131500';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131500';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611131500';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ja.js?v=202611131500';
-import { addCards } from '../engine/anki.js?v=202611131500';
-import { allHanzi } from './review.js?v=202611131500';
+import { S, update, isUnitDone } from '../state.js?v=202611131800';
+import { register, go } from '../router.js?v=202611131800';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611131800';
+import { bottomNav, header } from '../ui/components.js?v=202611131800';
+import { t } from '../i18n.js?v=202611131800';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611131800';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611131800';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611131800';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ja.js?v=202611131800';
+import { addCards } from '../engine/anki.js?v=202611131800';
+import { allHanzi } from './review.js?v=202611131800';
 
 const tr = (o) => (o && (o[S.lang] || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -204,11 +204,11 @@ register('text', async (el, params) => {
     const glossWords = Object.keys(tx.glossary || {});
     shell(`<div class="flex gap-8 mb-12" style="flex-wrap:wrap">
         <button class="chip ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePy()">ふりがな</button>
-        <button class="chip" id="rate-chip" onclick="window.__cycleRate()">🔊 ×${speed()}</button>
         <button class="chip ${view.showTr ? 'on' : ''}" onclick="window.__toggleTr()">🌐 ${t('translateText')}</button>
         ${glossWords.length ? `<button class="chip ${view.showDiff ? 'on' : ''}" onclick="window.__toggleDiff()">⚠️ ${t('difficultWords')}</button>` : ''}
         <button class="chip ${view.showStatus ? 'on' : ''}" onclick="window.__toggleStatus()">🎨 ${t('myWords')}</button>
       </div>
+      <div class="rate-bar mb-12" id="rate-bar"><span>🔊 ${t('audioSpeed')}</span>${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__txRate(${r})">×${r}</button>`).join('')}</div>
       <div class="muted small mb-12">💡 ${t('tapWordHint')}</div>
       ${view.showStatus ? statusLegend() : ''}
       ${view.showGram ? `<div class="verb-legend mb-12">${['vb', 'aux', 'asp', 'str', 'ba', 'mw', 'cj'].map(k =>
@@ -400,6 +400,11 @@ register('text', async (el, params) => {
   renderRead();
 });
 
+window.__txRate = (r) => {
+  S.settings.rate = r;
+  update({ settings: S.settings });
+  document.querySelectorAll('#rate-bar .chip').forEach(b => b.classList.toggle('on', b.textContent === '×' + r));
+};
 window.__cycleRate = () => {
   const i = SPEEDS.indexOf(speed());
   S.settings.rate = SPEEDS[(i + 1) % SPEEDS.length];

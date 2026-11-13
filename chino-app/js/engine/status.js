@@ -1,8 +1,8 @@
 // Learning status of a word, combining the Anki deck (S.cards) with lesson mastery (S.vocab).
-import { S } from '../state.js?v=202611141900';
-import { isForgotten } from './anki.js?v=202611141900';
-import { getWordLevel } from './mastery.js?v=202611141900';
-import { t } from '../i18n.js?v=202611141900';
+import { S } from '../state.js?v=202611131800';
+import { isForgotten } from './anki.js?v=202611131800';
+import { getWordLevel } from './mastery.js?v=202611131800';
+import { t } from '../i18n.js?v=202611131800';
 
 export const STATUS = {
   unseen:   { color: '#95a5a6', key: 'stUnseen' },
@@ -18,7 +18,9 @@ export function wordStatus(w) {
   if (c) {
     if (c.s === 'known') return 'master';
     if (c.s !== 'new' && isForgotten(c)) return 'ghost';
-    if (c.s === 'review') return c.ivl >= 21 ? 'master' : 'review';
+    // Like Anki: answering a new card (even 'easy') only graduates it; it counts as learned once it has
+    // survived reviews on later days and its interval reaches a week.
+    if (c.s === 'review') return c.ivl >= 21 ? 'master' : c.ivl >= 7 ? 'review' : 'learning';
     if (c.s === 'learn' || c.s === 'relearn') return 'learning';
   }
   const m = S.vocab?.[w] ? getWordLevel(w) : 'new';

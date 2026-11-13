@@ -1,4 +1,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; -webkit-font-smoothing: antialiased }
+.rate-flash { position: fixed; inset: 0; z-index: 9999; pointer-events: none; animation: rateFlash .38s ease-out forwards; }
+@keyframes rateFlash { from { opacity: 1; } to { opacity: 0; } }
+.vl-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
 html, body { background: var(--bg); min-height: 100vh }
 body { font-family: -apple-system, 'SF Pro Display', system-ui, sans-serif; color: var(--ink); transition: background .4s, color .4s; padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom) }
 
@@ -441,3 +444,7 @@ body.nopy rt { display: none; }
 .anki-ex-row { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.035); margin-bottom: 6px; cursor: pointer }
 .anki-ex-s { font-size: 17px; line-height: 1.9 }
 .anki-ex-t { font-size: 13px; color: var(--ink2); margin-top: 2px }
+
+.rate-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 13px; }
+.rate-bar > span { color: var(--muted); margin-right: 2px; }
+.rate-bar .chip { padding: 4px 10px; }

@@ -1,14 +1,14 @@
 // Vocabulary list per HSK level, ordered by frequency, with single/multiple selection to mark words as learned.
-import { S, update } from '../state.js?v=202611131500';
-import { register } from '../router.js?v=202611131500';
-import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611131500';
-import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611131500';
-import { bottomNav, header } from '../ui/components.js?v=202611131500';
-import { speak } from '../audio.js?v=202611131500';
-import { t } from '../i18n.js?v=202611131500';
-import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611131500';
-import { allVocab } from './review.js?v=202611131500';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131500';
+import { S, update } from '../state.js?v=202611131800';
+import { register } from '../router.js?v=202611131800';
+import { LEVELS, levelChips, levelLabel } from '../levels.js?v=202611131800';
+import { setKnown, addCards, cardState } from '../engine/anki.js?v=202611131800';
+import { bottomNav, header } from '../ui/components.js?v=202611131800';
+import { speak } from '../audio.js?v=202611131800';
+import { t } from '../i18n.js?v=202611131800';
+import { esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611131800';
+import { allVocab } from './review.js?v=202611131800';
+import { wordStatus, statusLegend, STATUS, STATUS_ORDER, isLearned } from '../engine/status.js?v=202611131800';
 
 const PAGE = 100;
 const sel = new Set();
@@ -28,7 +28,7 @@ async function rows() {
   // Filters follow the same word status as the rest of the app (status.js).
   if (view.filter !== 'all') list = list.filter(v => {
     const s = wordStatus(v.w);
-    return view.filter === 'known' ? isLearned(v.w) : view.filter === 'deck' ? s === 'learning' || s === 'ghost' || (s === 'unseen' && cardState(v.w) === 'new') : s === 'unseen' && !cardState(v.w);
+    return s === view.filter;
   });
   if (q) list = list.filter(v => v.w.includes(view.q.trim()) || strip(v.p).replace(/\s+/g, '').includes(q)
     || Object.values(v.m || {}).some(m => strip(m).includes(strip(view.q.trim()))));
@@ -63,11 +63,10 @@ register('vocab-list', async (el, params = {}) => {
     ${levelChips(view.level, '__vlLevel')}
     <div class="muted small mb-8">${levelLabel(view.level)} · ${total} · ✓ ${nLearned} ${t('fKnown').toLowerCase()} (${total ? Math.round(nLearned / total * 100) : 0}%) — ${t('vocabListHint')}</div>
     <div class="vl-progress mb-8">${['master', 'review', 'learning', 'ghost'].map(k => `<span style="width:${(counts[k] || 0) / total * 100}%;background:${STATUS[k].color}"></span>`).join('')}</div>
-    ${statusLegend(counts)}
     <input id="vl-q" class="vl-search" type="search" placeholder="${t('searchWord')}" value="${esc(view.q)}">
     <div class="flex gap-8 mt-8 mb-8" style="flex-wrap:wrap">
-      ${[['all', t('fAll')], ['learn', t('fToLearn')], ['deck', t('fInDeck')], ['known', t('fKnown')]].map(([f, l]) =>
-        `<button class="chip ${view.filter === f ? 'on' : ''}" onclick="window.__vlFilter('${f}')">${l}</button>`).join('')}
+      <button class="chip ${view.filter === 'all' ? 'on' : ''}" onclick="window.__vlFilter('all')">${t('fAll')} <b>${total}</b></button>
+      ${STATUS_ORDER.map(k => `<button class="chip ${view.filter === k ? 'on' : ''}" onclick="window.__vlFilter('${k}')"><i class="vl-dot" style="background:${STATUS[k].color}"></i>${t(STATUS[k].key)} <b>${counts[k] || 0}</b></button>`).join('')}
     </div>
     <div class="flex gap-8 mb-8 small">
       <button class="btn-link" onclick="window.__vlSelPage()">☑️ ${t('selectPage')}</button>

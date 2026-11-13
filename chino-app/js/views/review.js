@@ -1,16 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611141900';
-import { register, go } from '../router.js?v=202611141900';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141900';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141900';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141900';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141900';
-import { speak } from '../audio.js?v=202611141900';
-import { t } from '../i18n.js?v=202611141900';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611141900';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141900';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611141900';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611141900';
+import { S, update, touchStreak } from '../state.js?v=202611131800';
+import { register, go } from '../router.js?v=202611131800';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611131800';
+import { LEVELS, levelLabel } from '../levels.js?v=202611131800';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611131800';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131800';
+import { speak } from '../audio.js?v=202611131800';
+import { t } from '../i18n.js?v=202611131800';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611131800';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131800';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611131800';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611131800';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -43,15 +43,24 @@ async function seed() {
   update({ cardsSeeded: true });
 }
 
-export function deckSummary(st) {
+// Quick full-screen flash after rating a card: green for good/easy, red for again/hard.
+function flash(r) {
+  const f = document.createElement('div');
+  f.className = 'rate-flash';
+  f.style.background = ['', 'rgba(231,76,60,.42)', 'rgba(231,76,60,.24)', 'rgba(39,174,96,.24)', 'rgba(39,174,96,.42)'][r] || 'transparent';
+  document.body.appendChild(f);
+  setTimeout(() => f.remove(), 380);
+}
+
+export function deckSummary(st, size = 0) {
   return `<div class="deck-stats card mb-16">
     <div><b style="color:#3498db">${st.newToday}</b><span>${t('cardNewToday')}</span></div>
     <div><b style="color:#e67e22">${st.learn - st.fLearn}</b><span>${t('cardLearning')}</span></div>
     <div><b style="color:var(--ok)">${st.due - st.fDue}</b><span>${t('cardDue')}</span></div>
     <div><b style="color:var(--no)">${st.forgotten}</b><span>${t('cardForgotten')}</span></div>
-    <div><b>${st.total}</b><span>${t('cardTotal')}</span></div>
+    <div><b>${st.total + st.known}${size ? `<small class="muted">/${size}</small>` : ''}</b><span>${t('cardTotal')}</span></div>
     ${st.known ? `<div><b style="color:#8e44ad">${st.known}</b><span>${t('cardMarkedKnown')}</span></div>` : ''}
-  </div>`;
+  </div>${size ? `<div class="muted small mb-16" style="margin-top:-8px">${t('deckIntroHint')}</div>` : ''}`;
 }
 
 // Words of the current level and the levels below, most frequent first (frequency rank q from a large corpus).
@@ -173,6 +182,7 @@ function runFailed(el, vm) {
     speak(queue[0]);
   };
   window.__ankiRate = (r) => {
+    flash(r === 1 ? 1 : 4);
     const w = queue.shift();
     if (r === 1) { tries[w] = 1; queue.splice(Math.min(queue.length, 3), 0, w); }
     else { markFixed(w, !tries[w]); fixed++; }
@@ -296,12 +306,13 @@ async function reviewView(el, params = {}) {
   const decks = lvFix ? await statusPanel(vm, lvFix) : await levelDecks(d);
   const tabs = lvFix ? '' : deckTabs(d);
   const st = deckStats(d, Date.now(), inDeck);
+  const deckSize = [...(d === 'h' ? hm : vm).keys()].filter(w => inDeck(w)).length;
   const title = lvFix ? t('cardsDeck') : d === 'h' ? t('hanziReview') : t('vocabReview');
 
   if (!st.pending && !params.start) {
     el.innerHTML = `<div class="fade">
       ${header(title)}${tabs}${decks}
-      ${deckSummary(st)}
+      ${deckSummary(st, deckSize)}
       ${d === 'v' ? failedBtn(failedWords(new Set(vm.keys()), 999).length) + freqPanel(lvFix) : ''}
       ${st.total - st.new ? extraBtn() : ''}
       <div class="center" style="padding-top:30px">
@@ -384,7 +395,13 @@ async function reviewView(el, params = {}) {
     if (wordEl && window.__ankiGloss) wordEl.innerHTML = window.__ankiGloss;
     speak(queue[0]);
   };
+  let rating = false;
   window.__ankiRate = (r) => {
+    if (rating) return;
+    rating = true; flash(r);
+    setTimeout(() => { rating = false; rate(r); }, 230);
+  };
+  const rate = (r) => {
     const w = queue.shift();
     // Extra practice doesn't push intervals forward (like Anki's "review ahead" without rescheduling); a miss still counts.
     if (mode === 'extra' && r > 1 && store()[w].s === 'review') { done++; return render(); }
@@ -421,7 +438,7 @@ async function reviewView(el, params = {}) {
       <div style="font-size:56px;margin-bottom:12px">🎉</div>
       <div class="h2 mb-8">${t('reviewDone')}</div>
       <div class="muted mb-16">${done} ${t('cardsStudied')} · ${again} × ${t('ankiAgain')}</div>
-      ${deckSummary(deckStats(d, Date.now(), inDeck))}
+      ${deckSummary(deckStats(d, Date.now(), inDeck), deckSize)}
       ${extraBtn()}
       <button class="btn mt-16" onclick="window.__nav('home')">${t('continue')}</button>
     </div>${bottomNav(self)}`;
@@ -429,7 +446,7 @@ async function reviewView(el, params = {}) {
 
   el.innerHTML = `<div class="fade">
     ${header(title)}${tabs}${decks}
-    ${deckSummary(st)}
+    ${deckSummary(st, deckSize)}
     <div class="muted small mb-16">${d === 'h' ? t('ankiExplainH') : t('ankiExplain')}</div>
     ${st.learn + st.due ? `<button class="btn mb-12" style="width:100%" onclick="window.__ankiStart('due')">🔁 ${t('reviewSeen')} (${st.learn + st.due})</button>` : `<div class="muted small mb-12">✓ ${t('noDue')}</div>`}
     ${st.newToday ? `<button class="btn btn-soft mb-12" style="width:100%" onclick="window.__ankiStart('new')">🆕 ${t('learnNew')} (${st.newToday})</button>` : ''}
