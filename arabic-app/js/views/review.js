@@ -1,17 +1,17 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { deckPie } from '../deck-pie.js?v=202611140230';
-import { S, update, touchStreak } from '../state.js?v=202611140230';
-import { register, go } from '../router.js?v=202611140230';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611140230';
-import { LEVELS, levelLabel } from '../levels.js?v=202611140230';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611140230';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611140230';
-import { speak } from '../audio.js?v=202611140230';
-import { t } from '../i18n.js?v=202611140230';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611140230';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611140230';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140230';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611140230';
+import { deckPie } from '../deck-pie.js?v=202611140300';
+import { S, update, touchStreak } from '../state.js?v=202611140300';
+import { register, go } from '../router.js?v=202611140300';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611140300';
+import { LEVELS, levelLabel } from '../levels.js?v=202611140300';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611140300';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611140300';
+import { speak } from '../audio.js?v=202611140300';
+import { t } from '../i18n.js?v=202611140300';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611140300';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611140300';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611140300';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611140300';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -350,6 +350,16 @@ async function reviewView(el, params = {}) {
 
   let mode = 'due';
   let queue = [];
+  // Like Anki: a card in learning waits until its step is due (1–10 min) while the rest of the session
+  // goes on; with nothing else left, cards due within 20 min come early (Anki's "learn ahead limit").
+  let pending = [];
+  const LEARN_AHEAD = 20 * 60 * 1000;
+  const pickNext = () => {
+    if (!pending.length) return;
+    pending.sort((a, b) => store()[a].due - store()[b].due);
+    const first = pending[0], due = store()[first]?.due ?? 0, now = Date.now();
+    if (due <= now || (!queue.length && due <= now + LEARN_AHEAD)) { pending.shift(); queue.unshift(first); }
+  };
   let total = 0;
   let done = 0, again = 0;
   const lang = S.lang || 'es';
@@ -358,6 +368,7 @@ async function reviewView(el, params = {}) {
   const store = () => (d === 'h' ? S.hcards : S.cards);
 
   function render() {
+    pickNext();
     if (!queue.length) {
       const back = mode === 'extra' ? [] : buildQueue(d, 20, Date.now() + 10 * 60 * 1000, inDeck).filter(w => store()[w].s !== 'new' && store()[w].s !== 'review');
       if (back.length) queue = back; else return finish();
@@ -385,7 +396,7 @@ async function reviewView(el, params = {}) {
     el.innerHTML = `<div class="fade" style="padding-top:16px">
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__go('${self}',{deck:'${d}'})" style="padding:4px">←</button>
-        <div class="grow">${progressBar(done / Math.max(total, done + queue.length) * 100)}</div>
+        <div class="grow">${progressBar(done / Math.max(total, done + queue.length + pending.length) * 100)}</div>
         <button class="chip" style="font-size:12px;padding:4px 10px" onclick="window.__flipDir()">${reverse ? '🌐 → ع' : 'ع → 🌐'}</button>
       </div>
       <div class="card anki-card" id="anki-card" onclick="window.__ankiShow()"${stc ? ` style="border-top:5px solid ${stc.color}"` : ''}>
@@ -403,7 +414,7 @@ async function reviewView(el, params = {}) {
         ${[[1, 'again', t('ankiAgain')], [2, 'hard', t('ankiHard')], [3, 'good', t('ankiGood')], [4, 'easy', t('ankiEasy')]].map(([r, c, l]) =>
           `<button class="anki-btn ${c}" onclick="window.__ankiRate(${r})"><span class="ivl">${mode === 'extra' && r > 1 && card.s === 'review' ? '=' : previewLabel(card, r)}</span>${l}</button>`).join('')}
       </div>
-      <div class="muted small center mt-12">${t('cardsLeft')}: ${queue.length}</div>
+      <div class="muted small center mt-12">${t('cardsLeft')}: ${queue.length + pending.length}</div>
     </div>`;
   }
 
@@ -431,7 +442,7 @@ async function reviewView(el, params = {}) {
     const c = answer(w, r, d);
     touchStreak();
     if (r === 1) again++;
-    if (c.s !== 'review') queue.splice(Math.min(queue.length, 4), 0, w);
+    if (c.s !== 'review') pending.push(w);
     else done++;
     render();
   };
@@ -480,7 +491,8 @@ async function reviewView(el, params = {}) {
   </div>${bottomNav(self)}`;
   window.__ankiStart = (m = 'due') => {
     mode = m;
-    queue = buildQueue(d, m === 'extra' ? 20 : 40, Date.now(), inDeck, m);
+    queue = buildQueue(d, m === 'extra' ? 20 : 9999, Date.now(), inDeck, m);
+    pending = [];
     total = queue.length; done = 0; again = 0;
     if (!queue.length) return params.start ? null : go(self, { deck: d });
     render();

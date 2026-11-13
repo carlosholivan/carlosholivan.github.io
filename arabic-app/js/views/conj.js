@@ -1,10 +1,10 @@
 // Arabic conjugation reference: choose a verb, see every tense and person, participles and nombre verbal,
 // plus a quick quiz. window.__conj(tense) opens it from any grammar explanation (links built by tools/build_ar.py).
-import { register, go } from '../router.js?v=202611140230';
-import { header, bottomNav } from '../ui/components.js?v=202611140230';
-import { speak } from '../audio.js?v=202611140230';
-import { translit } from '../ar.js?v=202611140230';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611140230';
+import { register, go } from '../router.js?v=202611140300';
+import { header, bottomNav } from '../ui/components.js?v=202611140300';
+import { speak } from '../audio.js?v=202611140300';
+import { translit } from '../ar.js?v=202611140300';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611140300';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const GROUPS = [

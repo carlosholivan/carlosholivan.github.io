@@ -1,10 +1,10 @@
 // Pronunciation: the four tones + neutral, tone sandhi, initials and finals with audio.
-import { S } from '../state.js?v=202611140230';
-import { register } from '../router.js?v=202611140230';
-import { bottomNav, header } from '../ui/components.js?v=202611140230';
-import { speak } from '../audio.js?v=202611140230';
-import { t } from '../i18n.js?v=202611140230';
-import { esc, toneOf, sylReady, syllableList } from '../zh.js?v=202611140230';
+import { S } from '../state.js?v=202611140300';
+import { register } from '../router.js?v=202611140300';
+import { bottomNav, header } from '../ui/components.js?v=202611140300';
+import { speak } from '../audio.js?v=202611140300';
+import { t } from '../i18n.js?v=202611140300';
+import { esc, toneOf, sylReady, syllableList } from '../zh.js?v=202611140300';
 
 const TONES = [
   ['mā', '妈', '˥ 55', { es: 'Alto y plano, como cantar una nota sostenida.', en: 'High and level, like singing a held note.', ja: '高く平らに。音をのばして歌うように。', ko: '높고 평평하게, 음을 길게 부르듯이.' }],
@@ -115,6 +115,6 @@ window.__chartF = (k) => { chartFilter = k; window.__nav('pinyin-chart'); };
 window.__sylAll = async (s) => {
   const x = syllableList().find(y => y.s === s);
   if (!x) return;
-  const { speakAsync } = await import('../audio.js?v=202611140230');
+  const { speakAsync } = await import('../audio.js?v=202611140300');
   for (const n of [1, 2, 3, 4]) if (x.t[n]) await speakAsync(x.t[n].c);
 };
