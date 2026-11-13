@@ -1,16 +1,16 @@
-import { S, update, isUnitDone } from '../state.js?v=202611140400';
-import { register, go } from '../router.js?v=202611140400';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611140400';
-import { bottomNav, header } from '../ui/components.js?v=202611140400';
-import { t } from '../i18n.js?v=202611140400';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611140400';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140400';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611140400';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ja.js?v=202611140400';
-import { addCards } from '../engine/anki.js?v=202611140400';
-import { allHanzi } from './review.js?v=202611140400';
+import { S, update, isUnitDone } from '../state.js?v=202611140500';
+import { register, go } from '../router.js?v=202611140500';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611140500';
+import { bottomNav, header } from '../ui/components.js?v=202611140500';
+import { t } from '../i18n.js?v=202611140500';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611140500';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140500';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611140500';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ja.js?v=202611140500';
+import { addCards } from '../engine/anki.js?v=202611140500';
+import { allHanzi } from './review.js?v=202611140500';
 
-const tr = (o) => (o && (o[S.lang] || o.es || o.en)) || '';
+const tr = (o) => (o && (o[S.lang] || (S.lang !== 'es' && o.en) || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const hanCount = (tx) => [...tx.paragraphs.join('')].filter(isHan).length;
 // Dialogue turn: "名字：…" at the start of a line.
@@ -217,7 +217,7 @@ register('text', async (el, params) => {
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
           <p>${renderParagraph(p, i)}</p>
-          ${view.showTr ? `<p class="para-tr">${trLines(tx.translation?.[S.lang]?.[i] || tx.translation?.en?.[i] || '')}</p>` : ''}
+          ${view.showTr ? `<p class="para-tr">${trLines(tx.translation?.[S.lang]?.[i] || tx.translation?.en?.[i] || tx.translation?.es?.[i] || '')}</p>` : ''}
         </div>`).join('')}
       </div>
       ${view.showDiff && glossWords.length ? `<div class="card" style="padding:16px 18px">
@@ -287,7 +287,7 @@ register('text', async (el, params) => {
         ${tx.paragraphs.map(p => `<p>${p.split('\n').map(l => ruby(l)).join('<br>')}</p>`).join('')}</details>
       <div class="muted small mb-8">${qi + 1} / ${tx.questions.length}</div>
       <div class="h3 mb-16">${esc(tr(q.q))}</div>
-      <div id="opts">${q.options.map((o, i) => `<button class="exercise-option zh-opt" data-i="${i}" onclick="window.__answerQ(${i})">${ruby(o)}</button>`).join('')}</div>
+      <div id="opts">${((S.lang !== 'es' && q.options_en) || q.options).map((o, i) => `<button class="exercise-option zh-opt" data-i="${i}" onclick="window.__answerQ(${i})">${ruby(o)}</button>`).join('')}</div>
       <div id="q-feedback"></div>`);
   }
 

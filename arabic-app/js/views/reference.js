@@ -1,14 +1,14 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611140400';
-import { register, go } from '../router.js?v=202611140400';
-import { loadUnits } from '../data.js?v=202611140400';
-import { bottomNav, header } from '../ui/components.js?v=202611140400';
-import { t } from '../i18n.js?v=202611140400';
-import { levelChips, levelLabel } from '../levels.js?v=202611140400';
-import { speak } from '../audio.js?v=202611140400';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611140400';
-import { allVocab } from './review.js?v=202611140400';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140400';
+import { S, update } from '../state.js?v=202611140500';
+import { register, go } from '../router.js?v=202611140500';
+import { loadUnits } from '../data.js?v=202611140500';
+import { bottomNav, header } from '../ui/components.js?v=202611140500';
+import { t } from '../i18n.js?v=202611140500';
+import { levelChips, levelLabel } from '../levels.js?v=202611140500';
+import { speak } from '../audio.js?v=202611140500';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611140500';
+import { allVocab } from './review.js?v=202611140500';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611140500';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -34,7 +34,7 @@ async function renderGrammar(box) {
   const units = await loadUnits(S.level).catch(() => []);
   box.innerHTML = `<div class="slideup">
     ${levelChips(S.level, '__refLevel')}
-    <div class="card drill-banner" onclick="window.__nav('conj')">🔁 <strong>${ruby('تَصْرِيفُ الأَفْعَال')}</strong> <span class="muted small">· Conjugación</span><span class="grow"></span>›</div>
+    <div class="card drill-banner" onclick="window.__nav('conj')">🔁 <strong>${ruby('تَصْرِيفُ الأَفْعَال')}</strong> <span class="muted small">· ${S.lang === 'es' ? 'Conjugación' : 'Conjugation'}</span><span class="grow"></span>›</div>
     <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>${ruby('تَمَارِينُ القَوَاعِد')}</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
     ${units.filter(u => u.grammarIntro || (u.grammar || []).length).map(u => `
       <div class="card ref-topic" onclick="window.__go('grammar-detail',{level:'${S.level}',id:${u.id}})">
@@ -43,7 +43,7 @@ async function renderGrammar(box) {
           <div style="font-weight:700;font-size:16px">${u.title?.ja ? ruby(u.title.ja) : ''}</div>
         </div>
         <div class="muted small">${esc(tr(u.title))}</div>
-        ${(u.grammar || []).length ? `<div class="small" style="margin-top:4px">${(u.gnames || u.grammar).map(g => esc(g)).join(' · ')}</div>` : ''}
+        ${(u.grammar || []).length ? `<div class="small" style="margin-top:4px">${((S.lang !== 'es' && u.gnames_en) || u.gnames || u.grammar).map(g => esc(g)).join(' · ')}</div>` : ''}
       </div>`).join('') || `<div class="muted" style="text-align:center;padding:40px 0">—</div>`}
   </div>`;
 }
@@ -86,7 +86,7 @@ register('grammar-detail', async (el, params) => {
   const u = units.find(x => String(x.id) === String(params.id));
   if (!u) { go('reference'); return; }
   const html = u.grammarIntro ? tr(u.grammarIntro)
-    : `<ul>${(u.gnames || u.grammar || []).map(g => `<li><strong>${esc(g)}</strong></li>`).join('')}</ul>`;
+    : `<ul>${((S.lang !== 'es' && u.gnames_en) || u.gnames || u.grammar || []).map(g => `<li><strong>${esc(g)}</strong></li>`).join('')}</ul>`;
   el.innerHTML = `<div class="fade">
     ${header(`${levelLabel(params.level)} · ${t('unit')} ${u.id}`, true)}
     <div class="h2 mb-4">${u.title?.ja ? ruby(u.title.ja) : ''}</div>

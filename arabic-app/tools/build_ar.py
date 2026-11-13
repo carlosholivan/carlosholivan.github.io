@@ -129,32 +129,48 @@ CONJ_LINK = {'presente': ('pres', 'كَتَبَ'), 'pasado': ('past', 'كَتَ�
              'formas_verbales': ('past', 'دَرَّسَ'), 'formas_6_8': ('past', 'تَعَاوَنَ'), 'participios': ('past', 'كَتَبَ'),
              'masdar': ('past', 'سَافَرَ'), 'lam_amr': ('juss', 'كَتَبَ'), 'kana_madi': ('past', 'كَانَ')}
 
-def grammar_html(ids):
+GRAMMAR_EN = json.load(open(ROOT / 'tools' / 'grammar_ar_en.json', encoding='utf8')) if (ROOT / 'tools' / 'grammar_ar_en.json').exists() else {}
+def grammar_html(ids, lang='es'):
     html = []
     for g in ids:
         e = GRAMMAR.get(g)
         if not e: continue
+        if lang == 'en' and g in GRAMMAR_EN: e = {**e, **GRAMMAR_EN[g]}
         html.append(f"<h3>{e['t']} — {e['es']}</h3>"
-                    + (f"<p><b>Forma:</b> <span class=\"zh\">{e['form']}</span></p>" if e.get('form') else '')
+                    + (f"<p><b>{'Form' if lang == 'en' else 'Forma'}:</b> <span class=\"zh\">{e['form']}</span></p>" if e.get('form') else '')
                     + (f"<p>{e['nuance']}</p>" if e.get('nuance') else '')
                     + (f"<div class=\"tip\">💡 <span class=\"ar\">{e['tip']}</span>{(' — ' + e['tip_es']) if e.get('tip_es') else ''}</div>" if e.get('tip') else '')
-                    + (f"<p><a class=\"vf\" onclick=\"window.__conj('{CONJ_LINK[g][0]}','{CONJ_LINK[g][1]}')\">🔁 Ver la conjugación completa</a></p>" if g in CONJ_LINK else ''))
+                    + (f"<p><a class=\"vf\" onclick=\"window.__conj('{CONJ_LINK[g][0]}','{CONJ_LINK[g][1]}')\">🔁 {'See the full conjugation' if lang == 'en' else 'Ver la conjugación completa'}</a></p>" if g in CONJ_LINK else ''))
     return ''.join(html)
 
 LBY = {L['c']: L for L in LETTERS}
 POS = ['aislada', 'inicial', 'media', 'final']
-def letters_html(ls):
+POS_EN = ['isolated', 'initial', 'medial', 'final']
+def letters_html(ls, lang='es'):
     if not ls: return ''
-    out = ['<h3>Letras nuevas</h3><p class="small muted">Toca una letra para ver su ficha y palabras que la usan.</p>']
+    en = lang == 'en'
+    out = ['<h3>New letters</h3><p class="small muted">Tap a letter to open its sheet and words that use it.</p>' if en else
+           '<h3>Letras nuevas</h3><p class="small muted">Toca una letra para ver su ficha y palabras que la usan.</p>']
     for c in ls:
         L = LBY.get(c)
         if not L: continue
-        forms = ''.join(f'<div><b>{f or "—"}</b><span>{POS[i]}</span></div>' for i, f in enumerate(L['forms']))
+        forms = ''.join(f'<div><b>{f or "—"}</b><span>{(POS_EN if en else POS)[i]}</span></div>' for i, f in enumerate(L['forms']))
         out.append(f'<div class="card" style="padding:12px;margin:10px 0;cursor:pointer" onclick="window.__charSheet(\'{c}\')">'
                    f'<div class="flex items-center gap-8"><span class="ar" style="font-size:44px">{c}</span>'
-                   f'<div><b>{L["name"]}</b> · <i>{L["tr"]}</i><div class="small muted">{L["sound"]}</div></div></div>'
+                   f'<div><b>{L["name_en"] if en and L.get("name_en") else L["name"]}</b> · <i>{L["tr"]}</i><div class="small muted">{L["sound_en"] if en and L.get("sound_en") else L["sound"]}</div></div></div>'
                    f'<div class="forms mt-8">{forms}</div></div>')
     return ''.join(out)
+
+# English translations ({Spanish: English}, tools/texts/en/<level>.json, filled with nihongo-app/tools/en_todo.py).
+EN = {}
+SENT_EN = {}
+MEANINGS_EN = {}
+def L(es, wrap=''):
+    w = (lambda x: f'{wrap[:1]}{x}{wrap[1:]}') if wrap else (lambda x: x)
+    out = {'es': w(es)}
+    en = EN.get(es) or SENT_EN.get(es)
+    if en: out['en'] = w(en)
+    return out
 
 def sentences(texts):
     out = []
@@ -162,11 +178,22 @@ def sentences(texts):
         for para in t['paras']:
             for ar, es in para:
                 ar2, es2 = SPK.sub('', ar), re.sub(r'^[^:]{1,20}:\s*', '', es)
+                if es in EN: SENT_EN[es2] = re.sub(r'^[^:]{1,20}:\s*', '', EN[es])
                 if 2 <= len(ar2.split()) <= 28: out.append((ar2, es2))
     return out
 
 
 # Grammar drills generated from the level's own texts: one form of a closed set is blanked out.
+DRILL_EN = {
+    'interrog': ('Which question word is missing? Look at the translation.', 'مَا / مَاذَا = what (مَاذَا with a verb) · مَنْ = who · أَيْنَ = where · كَيْفَ = how · كَمْ = how many/much · مَتَى = when · لِمَاذَا = why · هَلْ = yes/no question.'),
+    'demos': ('This, that: agreement in gender.', 'هٰذَا (m.) / هٰذِهِ (f. and plurals of things) = this · ذٰلِكَ (m.) / تِلْكَ (f.) = that.'),
+    'prep': ('Choose the right preposition.', 'فِي = in · مِنْ = from · إِلَى = to, towards · عَلَى = on · عَنْ = about, from · مَعَ = with · بَيْنَ = between · قَبْلَ / بَعْدَ = before / after · مُنْذُ = for, since · حَتَّى = until.'),
+    'neg': ('لَا, لَمْ, لَنْ or لَيْسَ: look at the verb form or whether there is no verb.', 'لَا + present · لَمْ + jussive (past) · لَنْ + subjunctive (future) · لَيْسَ / لَيْسَتْ / لَسْتُ in sentences without a verb.'),
+    'conj': ('Join the ideas with the right connector.', 'لِأَنَّ = because · لٰكِنْ / لٰكِنَّ = but · ثُمَّ = then · أَوْ = or · عِنْدَمَا = when · لِذٰلِكَ = so, therefore · إِذَا = if (real) · لَوْ = if (unreal) · رَغْمَ = despite.'),
+    'anna': ('أَنْ goes with a verb; أَنَّ / إِنَّ with a noun or pronoun (إِنَّ after قَالَ).', 'أَنْ + subjunctive (أُرِيدُ أَنْ أَذْهَبَ) · أَنَّ + noun/pronoun (أَعْرِفُ أَنَّهُ…) · after قَالَ, إِنَّ is used.'),
+    'rel': ('الَّذِي, الَّتِي or الَّذِينَ according to the antecedent.', 'الَّذِي (m. sg.) · الَّتِي (f. sg. and plurals of things) · الَّذِينَ (people, plural). Only after a definite antecedent.'),
+    'kana': ('Was, became, is still…', 'كَانَ = was · أَصْبَحَ / صَارَ = became · مَا زَالَ = is still. They agree with the subject: ـَتْ feminine, ـْتُ I, ـْنَا we.'),
+}
 DRILL_CATS = [
     ('interrog', '❓', 'أَدَوَاتُ الاِسْتِفْهَام', 'Interrogativos', 'Interrogatives', '¿Qué palabra interrogativa falta? Fíjate en la traducción.',
      ['مَا', 'مَنْ', 'أَيْنَ', 'كَيْفَ', 'كَمْ', 'مَتَى', 'لِمَاذَا', 'هَلْ', 'مَاذَا'],
@@ -203,6 +230,7 @@ def make_drills(lv, texts, rng):
                 if len(ar2.split()) <= 18: sents.append((ar2, es2))
     out = []
     for cid, icon, zh, es, en, desc, forms, expl in DRILL_CATS:
+        desc_en, expl_en = DRILL_EN.get(cid, (desc, expl))
         items, seen = [], set()
         for ar, tr_es in sents:
             words = ar.split(' ')
@@ -220,11 +248,11 @@ def make_drills(lv, texts, rng):
                 pool = [f for f in forms if f != ans and not (cid == 'neg' and {f, ans} <= {'لَيْسَ', 'لَيْسَتْ', 'لَسْتُ'} and False)]
                 opts = [ans] + rng.sample(pool, min(3, len(pool)))
                 rng.shuffle(opts)
-                items.append({'q': q, 'o': opts, 'a': opts.index(ans), 'tr': {'es': tr_es, 'en': tr_es}, 'e': {'es': expl, 'en': expl}})
+                items.append({'q': q, 'o': opts, 'a': opts.index(ans), 'tr': L(tr_es), 'e': {'es': expl, 'en': expl_en}})
                 break
         if len(items) >= 5:
             rng.shuffle(items)
-            out.append({'id': cid, 'icon': icon, 'title': {'zh': zh, 'ja': zh, 'es': es, 'en': en}, 'desc': {'es': desc, 'en': desc}, 'items': items[:40]})
+            out.append({'id': cid, 'icon': icon, 'title': {'zh': zh, 'ja': zh, 'es': es, 'en': en}, 'desc': {'es': desc, 'en': desc_en}, 'items': items[:40]})
     return out
 
 def make_exercises(rng, sents, unit_words, all_words, index, n_fill=4, n_order=3, n_choose=2):
@@ -240,21 +268,21 @@ def make_exercises(rng, sents, unit_words, all_words, index, n_fill=4, n_order=3
         others = [w for w in all_words if norm(w) != norm(target)]
         opts = [target] + rng.sample(others, min(3, len(others)))
         rng.shuffle(opts)
-        ex.append({'type': 'fill', 'sentence': ar.replace(target, '___', 1), 'blank': target, 'options': opts, 'tr': {'es': es}})
+        ex.append({'type': 'fill', 'sentence': ar.replace(target, '___', 1), 'blank': target, 'options': opts, 'tr': L(es)})
         used.add(ar)
     for ar, es in sents:
         if sum(e['type'] == 'order' for e in ex) >= n_order: break
         if ar in used: continue
         ws = ar.split()
         if 3 <= len(ws) <= 7:
-            ex.append({'type': 'order', 'prompt': {'es': es}, 'words': ws, 'answer': ar, 'rtl': True})
+            ex.append({'type': 'order', 'prompt': L(es), 'words': ws, 'answer': ar, 'rtl': True})
             used.add(ar)
     rest = [s for s in sents if s[0] not in used and len(s[0].split()) <= 14]
     for ar, es in rest[:n_choose]:
         others = [s[0] for s in sents if s[0] != ar and len(s[0].split()) <= 14]
         if len(others) < 2: break
         opts = [ar] + rng.sample(others, 2); rng.shuffle(opts)
-        ex.append({'type': 'choose', 'prompt': {'es': f'«{es}»'}, 'options': opts, 'correct': ar})
+        ex.append({'type': 'choose', 'prompt': L(es, '«»'), 'options': opts, 'correct': ar})
     # Top up with vocabulary questions (meaning → word) when the texts give too few sentence exercises.
     meanings = MEANINGS
     pool = [w for w in unit_words if w in meanings]
@@ -265,7 +293,7 @@ def make_exercises(rng, sents, unit_words, all_words, index, n_fill=4, n_order=3
         others = [x for x in all_words if norm(x) != norm(w)]
         if len(others) < 3: break
         opts = [w] + rng.sample(others, 3); rng.shuffle(opts)
-        ex.append({'type': 'choose', 'prompt': {'es': f'«{meanings[w]}»'}, 'options': opts, 'correct': w})
+        ex.append({'type': 'choose', 'prompt': {'es': f'«{meanings[w]}»', **({'en': f'«{MEANINGS_EN[w]}»'} if MEANINGS_EN.get(w) else {})}, 'options': opts, 'correct': w})
     return ex
 
 MEANINGS = {}
@@ -276,6 +304,9 @@ def main():
     for lv in LEVELS:
         (DATA / lv).mkdir(parents=True, exist_ok=True)
         path = ROOT / 'tools' / 'texts' / f'{lv}.txt'
+        EN.clear(); SENT_EN.clear()
+        enp = ROOT / 'tools' / 'texts' / 'en' / f'{lv}.json'
+        if enp.exists(): EN.update(json.load(open(enp, encoding='utf8')))
         units = parse(path) if path.exists() else []
         rng = random.Random(lv)
         vocab, index = [], dict(prev_index)
@@ -312,6 +343,7 @@ def main():
                     if len(norm(part)) > 2: index.setdefault(norm(part), v['w'])
         words = [v['w'] for v in vocab]
         for v in vocab: MEANINGS.setdefault(v['w'], v['m']['es'] if isinstance(v.get('m'), dict) else v.get('es', ''))
+        for v in vocab: MEANINGS_EN.setdefault(v['w'], v['m'].get('en', '') if isinstance(v.get('m'), dict) else v.get('en', ''))
         units_out, texts_out, extra = [], [], {}
         order = 0
         for u in units:
@@ -319,10 +351,14 @@ def main():
                 order += 1
                 texts_out.append({
                     'id': f'{lv}-t{order}', 'level': lv, 'order': order, 'unit': u['id'],
-                    'title': {'ar': t['ar'], 'ja': t['ar'], 'es': t['es'], 'en': t['es']}, 'summary': {'es': ''},
+                    'title': {'ar': t['ar'], 'ja': t['ar'], 'es': t['es'], 'en': EN.get(t['es'], t['es'])}, 'summary': {'es': ''},
                     'paragraphs': ['\n'.join(a for a, _ in para) for para in t['paras']],
-                    'translation': {'es': ['\n'.join(e for _, e in para) for para in t['paras']]},
-                    'questions': t['qs'],
+                    'translation': {'es': ['\n'.join(e for _, e in para) for para in t['paras']],
+                                    **({'en': ['\n'.join(EN[e] for _, e in para) for para in t['paras']]}
+                                       if all(e in EN for para in t['paras'] for _, e in para) else {})},
+                    'questions': [{**q, 'q': L(q['q']['es']),
+                                   **({'options_en': [EN.get(o, o) for o in q['options']]} if any(o in EN for o in q['options']) else {})}
+                                  for q in t['qs']],
                     'gaps': {'items': [], 'distractors': []},
                     'tok': [[tokenize(a, index) for a, _ in para] for para in t['paras']],
                 })
@@ -330,8 +366,9 @@ def main():
             sents = sentences(u['texts'])
             units_out.append({
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['texts'][0]['ar'] if u['texts'] else ''},
-                'desc': {'es': u['desc'], 'en': u['desc']}, 'grammar': u['grammar'], 'gnames': [GRAMMAR[g]['t'] for g in u['grammar'] if g in GRAMMAR], 'letters': u['letters'], 'newVocab': new,
-                **({'grammarIntro': {'es': letters_html(u['letters']) + grammar_html(u['grammar'])}} if u['grammar'] or u['letters'] else {}),
+                'desc': {'es': u['desc'], 'en': EN.get(u['desc'], u['desc'])}, 'grammar': u['grammar'], 'gnames': [GRAMMAR[g]['t'] for g in u['grammar'] if g in GRAMMAR], 'gnames_en': [GRAMMAR_EN.get(g, GRAMMAR[g])['t'] for g in u['grammar'] if g in GRAMMAR], 'letters': u['letters'], 'newVocab': new,
+                **({'grammarIntro': {'es': letters_html(u['letters']) + grammar_html(u['grammar']),
+                                     'en': letters_html(u['letters'], 'en') + grammar_html(u['grammar'], 'en')}} if u['grammar'] or u['letters'] else {}),
                 'exercises': make_exercises(rng, sents, new, words, index),
             })
             extra[str(u['id'])] = {'sets': [make_exercises(random.Random(f'{lv}-{u["id"]}-{n}'), sents, new, words, index, 3, 3, 2) for n in range(6)],

@@ -1,10 +1,14 @@
 // Arabic conjugation reference: choose a verb, see every tense and person, participles and nombre verbal,
 // plus a quick quiz. window.__conj(tense) opens it from any grammar explanation (links built by tools/build_ar.py).
-import { register, go } from '../router.js?v=202611140400';
-import { header, bottomNav } from '../ui/components.js?v=202611140400';
-import { speak } from '../audio.js?v=202611140400';
-import { translit } from '../ar.js?v=202611140400';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611140400';
+import { register, go } from '../router.js?v=202611140500';
+import { header, bottomNav } from '../ui/components.js?v=202611140500';
+import { speak } from '../audio.js?v=202611140500';
+import { translit } from '../ar.js?v=202611140500';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611140500';
+import { S } from '../state.js?v=202611140500';
+// Spanish interface in Spanish; every other language gets English.
+const L = (es, en) => (S.lang === 'es' ? es : en);
+const ml = (o) => L(o.es, o.en || o.es);
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const GROUPS = [
@@ -23,6 +27,7 @@ const GROUPS = [
   ['doble', 'Verbos dobles', '2.ª y 3.ª radical iguales: se funden con شَدَّة (مَدَّ، أَحَبَّ).'],
 ];
 
+const GROUPS_EN = {'I': ('Form I (فَعَلَ)', 'The basic form. The present vowel (a, i, u) has to be learned with each verb.'), 'II': ('Form II (فَعَّلَ)', 'Doubles the 2nd radical: usually causative or intensive. Present with يُـ.'), 'III': ('Form III (فَاعَلَ)', 'Lengthens the 1st vowel: action directed at another person. Present with يُـ.'), 'IV': ('Form IV (أَفْعَلَ)', 'Prefix أَ: causative. Present with يُـ; imperative with أَ.'), 'V': ('Form V (تَفَعَّلَ)', 'تَـ + form II: reflexive of form II.'), 'VI': ('Form VI (تَفَاعَلَ)', 'تَـ + form III: reciprocal action.'), 'VII': ('Form VII (اِنْفَعَلَ)', 'Prefix اِنْـ: passive or middle.'), 'VIII': ('Form VIII (اِفْتَعَلَ)', 'تـ infixed after the 1st radical: reflexive.'), 'X': ('Form X (اِسْتَفْعَلَ)', 'Prefix اِسْتَـ: to ask for, to consider.'), 'hueco': ('Hollow verbs', 'و / ي in the middle: a long vowel that shortens before a consonant (قَالَ → قُلْتُ).'), 'defectivo': ('Defective verbs', 'و / ي at the end: the last syllable changes with the person (مَشَى، دَعَا، نَسِيَ).'), 'asimilado': ('Assimilated verbs', 'Initial و that disappears in the present (وَجَدَ → يَجِدُ).'), 'doble': ('Doubled verbs', '2nd and 3rd radicals identical: they merge with شَدَّة (مَدَّ، أَحَبَّ).')};
 let verbIdx = 0;
 let tense = 'past';
 let quiz = null;
@@ -34,7 +39,7 @@ function table(v) {
   const pre = tense === 'subj' ? 'لَنْ ' : tense === 'juss' ? 'لَمْ ' : '';
   return `<table class="cj-table ar-table">${persons.map(p => {
     const f = conjugate(v, tense, p.id);
-    return `<tr onclick="window.__cjSay('${esc(pre + f)}')"><th><span class="cj-pr">${esc(p.ar)}</span><span>${esc(p.es)}</span></th>
+    return `<tr onclick="window.__cjSay('${esc(pre + f)}')"><th><span class="cj-pr">${esc(p.ar)}</span><span>${esc(ml(p))}</span></th>
       <td>${word(pre + f)}</td></tr>`;
   }).join('')}</table>`;
 }
@@ -46,13 +51,14 @@ register('conj', async (el, params = {}) => {
   const [act, pas] = participles(v);
   const T = TENSES.find(x => x.id === tense);
   el.innerHTML = `<div class="fade">
-    ${header('تَصْرِيف · Conjugación')}
+    ${header('تَصْرِيف · ' + L('Conjugación', 'Conjugation'))}
     <div class="card cj-intro">
-      <p class="small" style="margin:0 0 8px">Los verbos árabes se construyen sobre una <b>raíz</b> de tres consonantes. El pasado añade <b>terminaciones</b>; el presente, <b>prefijos</b> (أَ، نَ، تَ، يَ) y a veces terminaciones. Elige un verbo y un tiempo; toca una forma para oírla.</p>
-      <button class="btn mt-8" onclick="window.__cjQuiz()">🎯 Practicar conjugaciones</button>
+      <p class="small" style="margin:0 0 8px">${L('Los verbos árabes se construyen sobre una <b>raíz</b> de tres consonantes. El pasado añade <b>terminaciones</b>; el presente, <b>prefijos</b> (أَ، نَ، تَ، يَ) y a veces terminaciones. Elige un verbo y un tiempo; toca una forma para oírla.', 'Arabic verbs are built on a <b>root</b> of three consonants. The past adds <b>endings</b>; the present, <b>prefixes</b> (أَ، نَ، تَ، يَ) and sometimes endings. Choose a verb and a tense; tap a form to hear it.')}</p>
+      <button class="btn mt-8" onclick="window.__cjQuiz()">🎯 ${L('Practicar conjugaciones', 'Practise conjugations')}</button>
     </div>
     <div id="cj-quiz"></div>
     ${GROUPS.map(([g, label, note]) => {
+      if (S.lang !== 'es' && GROUPS_EN[g]) [label, note] = GROUPS_EN[g];
       const list = VERBS.map((x, i) => [x, i]).filter(([x]) => x.group === g);
       if (!list.length) return '';
       return `<div class="sec-label">${esc(label)}</div><div class="muted small mb-8">${esc(note)}</div>
@@ -61,19 +67,19 @@ register('conj', async (el, params = {}) => {
     <div class="card mt-12" id="cj-table">
       <div class="flex items-center gap-8" style="flex-wrap:wrap">
         <span class="cj-big">${esc(v.w)}</span>
-        <span class="muted">${esc(v.es)}</span><span class="grow"></span>
+        <span class="muted">${esc(ml(v))}</span><span class="grow"></span>
         <span class="cj-tag">${esc(v.group)}</span>
       </div>
       <div class="cj-facts small">
-        <div><b>Presente:</b> ${word(conjugate(v, 'pres', '3ms'))}</div>
-        <div><b>Nombre verbal:</b> ${word(v.masdar)}</div>
-        <div><b>Participio activo:</b> ${act === '—' ? '—' : word(act)}</div>
-        <div><b>Participio pasivo:</b> ${pas === '—' ? '—' : word(pas)}</div>
+        <div><b>${L('Presente', 'Present')}:</b> ${word(conjugate(v, 'pres', '3ms'))}</div>
+        <div><b>${L('Nombre verbal', 'Verbal noun')}:</b> ${word(v.masdar)}</div>
+        <div><b>${L('Participio activo', 'Active participle')}:</b> ${act === '—' ? '—' : word(act)}</div>
+        <div><b>${L('Participio pasivo', 'Passive participle')}:</b> ${pas === '—' ? '—' : word(pas)}</div>
       </div>
-      <div class="cj-tabs">${TENSES.map(x => `<button class="chip ${x.id === tense ? 'on' : ''}" onclick="window.__cjTense('${x.id}')">${esc(x.es)}</button>`).join('')}</div>
-      <div class="muted small mb-8"><b class="cj-tname">${esc(T.ar)}</b> — ${esc(T.note)}</div>
+      <div class="cj-tabs">${TENSES.map(x => `<button class="chip ${x.id === tense ? 'on' : ''}" onclick="window.__cjTense('${x.id}')">${esc(ml(x))}</button>`).join('')}</div>
+      <div class="muted small mb-8"><b class="cj-tname">${esc(T.ar)}</b> — ${esc(L(T.note, T.note_en || T.note))}</div>
       ${table(v)}
-      ${tense === 'pres' ? `<div class="muted small mt-8">Futuro: ${word('سَ' + conjugate(v, 'pres', '1s'))} · Negación: ${word('لَا ' + conjugate(v, 'pres', '1s'))}</div>` : ''}
+      ${tense === 'pres' ? `<div class="muted small mt-8">${L('Futuro', 'Future')}: ${word('سَ' + conjugate(v, 'pres', '1s'))} · ${L('Negación', 'Negation')}: ${word('لَا ' + conjugate(v, 'pres', '1s'))}</div>` : ''}
     </div>
   </div>${bottomNav('reference')}`;
   if (params.t || params.v) document.getElementById('cj-table')?.scrollIntoView({ block: 'start' });
@@ -101,8 +107,8 @@ function drawQuiz() {
   const q = quiz.q; const P = PERSONS.find(x => x.id === q.p); const T = TENSES.find(x => x.id === q.tn);
   box.innerHTML = `<div class="card mt-12">
     <div class="flex items-center"><b>🎯 ${quiz.ok}/${quiz.n}</b><span class="grow"></span><button class="btn btn-soft btn-small" onclick="window.__cjQuizClose()">✕</button></div>
-    <div class="cj-qv">${esc(q.v.w)} <span class="muted small">(${esc(q.v.es)})</span></div>
-    <div class="mb-12">${esc(T.es)} · <span class="cj-pr">${esc(P.ar)}</span> (${esc(P.es)})</div>
+    <div class="cj-qv">${esc(q.v.w)} <span class="muted small">(${esc(ml(q.v))})</span></div>
+    <div class="mb-12">${esc(ml(T))} · <span class="cj-pr">${esc(P.ar)}</span> (${esc(ml(P))})</div>
     <div class="cj-opts">${q.opts.map(o => `<button class="btn btn-soft" onclick="window.__cjAns(this,'${esc(o)}')">${esc(o)}</button>`).join('')}</div></div>`;
 }
 window.__cjQuiz = () => { quiz = { ok: 0, n: 0, q: newQ() }; drawQuiz(); document.getElementById('cj-quiz')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); };

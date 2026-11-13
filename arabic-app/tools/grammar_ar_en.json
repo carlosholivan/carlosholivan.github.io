@@ -1,0 +1,716 @@
+{
+ "harakat": {
+  "t": "الحَرَكات — short vowels",
+  "es": "fatḥa, kasra and ḍamma",
+  "form": "ـَ a · ـِ i · ـُ u",
+  "nuance": "Arabic writes only the consonants and the long vowels. Short vowels are small marks above (fatḥa = a, ḍamma = u) or below (kasra = i) the letter. They are written in learners’ books and in the Qur’an; in the press almost never.",
+  "tip_es": "ba, bi, bu"
+ },
+ "direccion": {
+  "t": "اليَمِين إلى اليَسار",
+  "es": "written from right to left",
+  "form": "← reading",
+  "nuance": "Words and lines are read from right to left. Numbers, however, are written from left to right.",
+  "tip_es": "b-ā-b is read starting from the right"
+ },
+ "formas": {
+  "t": "أشكال الحُروف — letter shapes",
+  "es": "each letter has up to 4 shapes",
+  "form": "isolated · initial · medial · final",
+  "nuance": "Almost every letter joins the next one and changes shape slightly according to its position in the word. Six letters (ا د ذ ر ز و) never join the letter on their left: after them, the word “breaks”.",
+  "tip_es": "bayt: initial b, medial y, final t"
+ },
+ "sukun": {
+  "t": "السُّكُون — sukūn",
+  "es": "consonant without a vowel",
+  "form": "ـْ",
+  "nuance": "A small circle above the letter shows that no vowel follows it. This is how closed syllables such as “bint” or “khubz” are formed.",
+  "tip_es": "bint (girl)"
+ },
+ "largas": {
+  "t": "حُرُوف المَدّ — long vowels",
+  "es": "ā, ī, ū",
+  "form": "ـَا = ā · ـِي = ī · ـُو = ū",
+  "nuance": "The letters ا, ي, و also lengthen the preceding vowel. Length changes the meaning, so they must be pronounced clearly longer.",
+  "tip_es": "bāb, kabīr, nūr"
+ },
+ "shadda": {
+  "t": "الشَّدَّة — shadda",
+  "es": "double consonant",
+  "form": "ـّ",
+  "nuance": "A sign like a small “w” above the letter shows that the consonant is doubled (held for an instant longer).",
+  "tip_es": "sukkar (sugar)"
+ },
+ "tanwin": {
+  "t": "التَّنْوِين — tanwīn",
+  "es": "ending -un, -an, -in",
+  "form": "ـٌ un · ـً an · ـٍ in",
+  "nuance": "The doubled vowel at the end of a word shows that it is indefinite (“a/an”). The -an form usually has a supporting alif: ـًا. In speech and at the end of a sentence it is often not pronounced.",
+  "tip_es": "kitābun (a book), shukran (thank you)"
+ },
+ "articulo": {
+  "t": "أَلْ — the article",
+  "es": "the",
+  "form": "الـ + word",
+  "nuance": "The definite article is ال and is attached to the word. Before “moon letters” the l is pronounced (al-qamar); before “sun letters” (t, th, d, dh, r, z, s, sh, ṣ, ḍ, ṭ, ẓ, l, n) the l assimilates and the consonant is doubled (ash-shams).",
+  "tip_es": "al-qamar (the moon), ash-shams (the sun)"
+ },
+ "diptongos": {
+  "t": "aw / ay",
+  "es": "diphthongs",
+  "form": "ـَوْ = aw · ـَيْ = ay",
+  "nuance": "و and ي with sukūn after fatḥa form diphthongs: “aw” (as in “how”) and “ay” (as in “my”).",
+  "tip_es": "yawm (day), bayt (house)"
+ },
+ "hamza": {
+  "t": "الهَمْزَة — hamza and tāʾ marbūṭa",
+  "es": "glottal stop and feminine -a",
+  "form": "ء أ إ ؤ ئ · ة",
+  "nuance": "The hamza is a catch in the voice and is written alone or on a carrier (alif, wāw or yāʾ). The tāʾ marbūṭa (ة) almost always marks the feminine: it is pronounced -a at the end and -t- when the word is joined to another.",
+  "tip_es": "samāʾ (sky), madrasa (school)"
+ },
+ "nominal": {
+  "t": "الجُمْلَة الاِسْمِيَّة — the nominal sentence",
+  "es": "“I am a student” with no verb “to be”",
+  "form": "subject + predicate",
+  "nuance": "In the present the verb “to be” is not used: you just put the subject and what is said about it. «أنا طالِب» = “I (am a) student”.",
+  "tip_es": "I am a student. She is a doctor."
+ },
+ "pronombres": {
+  "t": "الضَّمائِر — personal pronouns",
+  "es": "I, you, he, she…",
+  "form": "أَنَا · أَنْتَ / أَنْتِ · هُوَ / هِيَ · نَحْنُ · أَنْتُم · هُم",
+  "nuance": "Arabic distinguishes masculine and feminine also in “you” (anta / anti) and in the plural “you/they”.",
+  "tip_es": "Are you a teacher? — Yes, I’m a teacher."
+ },
+ "femenino": {
+  "t": "المُؤَنَّث — the feminine",
+  "es": "-a with ة",
+  "form": "masculine + ة",
+  "nuance": "Most nouns and adjectives form the feminine by adding ة (tāʾ marbūṭa): طالِب → طالِبة.",
+  "tip_es": "teacher (m.) → teacher (f.)"
+ },
+ "nisba": {
+  "t": "النِّسْبة — adjectives of origin",
+  "es": "Spanish, Egyptian… (‑ī)",
+  "form": "country (without ال or ة) + ـِيّ (masc.) / ـِيَّة (fem.)",
+  "nuance": "To form a nationality, -ī is added to the name of the country: مِصْر → مِصْرِيّ (Egyptian). In the feminine, -iyya.",
+  "tip_es": "Spain → Spanish (m. / f.)"
+ },
+ "interrogativos": {
+  "t": "أَدَوات الاِسْتِفْهام — question words",
+  "es": "what?, who?, where?, …?",
+  "form": "ما · مَن · أَيْنَ · كَيْفَ · هَل + sentence",
+  "nuance": "هَل turns any sentence into a yes/no question. ما = what? (before nouns), مَن = who?, أين = where?, كيف = how?",
+  "tip_es": "Are you from Egypt?"
+ },
+ "demostrativos": {
+  "t": "أَسْماء الإِشارة — demonstratives",
+  "es": "this, that",
+  "form": "هٰذا / هٰذِهِ (near) · ذٰلِكَ / تِلْكَ (far)",
+  "nuance": "They agree in gender with the noun. «هٰذا كِتاب» = this is a book; «هٰذا الكِتاب» = this book.",
+  "tip_es": "This is a car. That is a school."
+ },
+ "numeros": {
+  "t": "الأَعْداد — numbers",
+  "es": "0–20",
+  "form": "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩",
+  "nuance": "“Indian” digits are written from left to right. With the numbers 3 to 10, the number takes the opposite gender to the noun (polarity rule); at first it is enough to learn them in the masculine to count.",
+  "tip_es": "I’m twenty years old."
+ },
+ "posesivos": {
+  "t": "الضَّمائِر المُتَّصِلة — possessives",
+  "es": "my, your, his/her…",
+  "form": "ـي my · ـكَ / ـكِ your · ـهُ his · ـها her · ـنا our",
+  "nuance": "The possessive is a suffix attached to the noun. ة becomes ت before the suffix: مَدْرَسة → مَدْرَسَتي.",
+  "tip_es": "My name is Sara. His house is big."
+ },
+ "adjetivo": {
+  "t": "الصِّفة — the adjective",
+  "es": "comes after the noun and agrees",
+  "form": "noun + adjective (same gender and definiteness)",
+  "nuance": "The adjective follows the noun and agrees in gender, number and in having the article or not: «بَيْت كَبِير» = a big house; «البَيْت الكَبِير» = the big house; «البَيْت كَبِير» = the house is big.",
+  "tip_es": "a pretty girl · the girl is pretty"
+ },
+ "dual": {
+  "t": "المُثَنّى — the dual",
+  "es": "two of something",
+  "form": "ـانِ (subject) / ـَيْنِ (other cases)",
+  "nuance": "To talk about two, -ān is added to the noun: كِتاب → كِتابانِ (two books). In speech the -ayn form is almost always used.",
+  "tip_es": "I have two sisters."
+ },
+ "inda": {
+  "t": "عِنْدَ — to have",
+  "es": "“with/at” = to have",
+  "form": "عِنْدَ + suffix: عِنْدي I have · عِنْدَكَ you have · عِنْدَهُ he has",
+  "nuance": "Arabic has no verb “to have”: it uses the preposition عِنْدَ (“at, with”) with a pronoun. It is negated with لَيْسَ.",
+  "tip_es": "I have a brother and a sister."
+ },
+ "hunak": {
+  "t": "هُنَاكَ / في — there is, in",
+  "es": "there is; in",
+  "form": "في + place · هُناكَ + noun",
+  "nuance": "“In” is في. “There is” is expressed with هُناكَ (“there”) or by starting the sentence with the place: في البَيْتِ غُرْفَتانِ = in the house there are two rooms.",
+  "tip_es": "There is a bed in the room."
+ },
+ "preposiciones": {
+  "t": "الظُّروف — place",
+  "es": "in front of, behind, next to…",
+  "form": "أَمامَ · خَلْفَ · بِجانِبِ · بَيْنَ · فَوْقَ · تَحْتَ",
+  "nuance": "These words go before the noun, which takes the genitive (-i).",
+  "tip_es": "The bank is in front of the mosque."
+ },
+ "imperativo": {
+  "t": "الأَمْر — the imperative",
+  "es": "go!, take!",
+  "form": "present without prefix (+ supporting اُ / اِ)",
+  "nuance": "It is formed by removing the present prefix: تَذْهَبُ → اِذْهَبْ (go!). For a woman -ī is added: اِذْهَبِي.",
+  "tip_es": "Go to the right."
+ },
+ "presente": {
+  "t": "المُضارِع — the present",
+  "es": "verbs in the present",
+  "form": "أَ / تَ / يَ / نَ + root (+ endings)",
+  "nuance": "The present is formed with prefixes: أَكْتُبُ (I write), تَكْتُبُ (you write / she writes), يَكْتُبُ (he writes), نَكْتُبُ (we write). For feminine “you”: تَكْتُبِينَ.",
+  "tip_es": "I study Arabic every day."
+ },
+ "hora": {
+  "t": "السّاعة — the time",
+  "es": "what time is it?",
+  "form": "السّاعةُ + feminine ordinal (الثّانِية، الثّالِثة…) + وَ + minutes",
+  "nuance": "Feminine ordinals are used for the time: السّاعةُ الثّالِثة = it’s three o’clock. “Half past” = والنِّصْف, “quarter past” = والرُّبْع.",
+  "tip_es": "It’s half past five."
+ },
+ "uhibbu": {
+  "t": "أُحِبُّ — I like",
+  "es": "to like / to love",
+  "form": "أُحِبُّ + noun with ال",
+  "nuance": "“I like” is said “I love” (أُحِبُّ). The object takes the article because it refers to something in general: أحب القهوة = I like coffee.",
+  "tip_es": "I like tea and I don’t like coffee."
+ },
+ "negacion": {
+  "t": "النَّفْي — negation",
+  "es": "not",
+  "form": "لا + present · لَيْسَ + nominal sentence",
+  "nuance": "With present-tense verbs لا is used (لا أعرف = I don’t know). In nominal sentences لَيْسَ is used, and it is conjugated: لَسْتُ (I am not), لَيْسَت (she is not).",
+  "tip_es": "I’m not Egyptian, I’m Spanish."
+ },
+ "pasado": {
+  "t": "الماضِي — the past",
+  "es": "verbs in the past",
+  "form": "root + endings: ـْتُ I · ـْتَ / ـْتِ you · ـَ he · ـَتْ she · ـْنا we",
+  "nuance": "The past is formed with endings: كَتَبْتُ (I wrote), كَتَبَ (he wrote), كَتَبَتْ (she wrote). The “he” form is the one given in dictionaries.",
+  "tip_es": "Yesterday I went to the market."
+ },
+ "colores": {
+  "t": "الأَلْوان — colours",
+  "es": "masculine aCCaC, feminine CaCCāʾ",
+  "form": "أَحْمَر / حَمْراء · أَزْرَق / زَرْقاء",
+  "nuance": "The basic colours have their own pattern: masculine أَفْعَل and feminine فَعْلاء.",
+  "tip_es": "a red car · a blue pen"
+ },
+ "pasado2": {
+  "t": "الماضي — full conjugation",
+  "es": "every person of the past",
+  "form": "كَتَبْتُ · كَتَبْتَ · كَتَبْتِ · كَتَبَ · كَتَبَتْ · كَتَبْنا · كَتَبْتُم · كَتَبُوا",
+  "nuance": "The past endings are added to the root: ‑tu (I), ‑ta (you m.), ‑ti (you f.), ‑a (he), ‑at (she), ‑nā (we), ‑tum (you pl.), ‑ū (they; written وا). The subject pronoun is almost never said: the ending already shows it.",
+  "tip_es": "We travelled to Tunisia and visited our friends."
+ },
+ "futuro": {
+  "t": "المُسْتَقْبَل — the future",
+  "es": "سَـ / سَوْفَ + present",
+  "form": "سَـ + present (attached) · سَوْفَ + present",
+  "nuance": "The future is the present with سَـ in front (attached to the word) or سَوْفَ (separate, a little more distant or emphatic): سَأُسافِرُ = I will travel.",
+  "tip_es": "Tomorrow I will visit my grandmother."
+ },
+ "kana": {
+  "t": "كانَ — was",
+  "es": "“to be” in the past",
+  "form": "كانَ + subject + predicate in the accusative (-an)",
+  "nuance": "The nominal sentence has no verb in the present, but in the past it does: كانَ. It is conjugated as a hollow verb: كُنْتُ, كُنْتَ, كانَتْ, كُنّا, كانُوا. The predicate goes into the accusative: كانَ الجَوُّ جَمِيلًا.",
+  "tip_es": "I was a student in Cairo."
+ },
+ "comparativo": {
+  "t": "أَفْعَل — comparative and superlative",
+  "es": "more… than / the most…",
+  "form": "أَفْعَلُ مِنْ = more … than · أَفْعَلُ + noun = the most …",
+  "nuance": "The comparative is formed with the pattern أَفْعَل, which doesn’t change with gender: كَبِير → أَكْبَر (bigger). “Than” is مِنْ. Before an indefinite noun it is a superlative: أَكْبَرُ مَدِينَة = the biggest city.",
+  "tip_es": "Cairo is bigger than Tunis."
+ },
+ "plural_roto": {
+  "t": "جَمْع التَّكْسِير — the “broken” plural",
+  "es": "internal plurals",
+  "form": "كِتاب → كُتُب · بَيْت → بُيُوت · وَلَد → أَوْلاد",
+  "nuance": "Many nouns form the plural by changing the inner vowels rather than with an ending. There are frequent patterns (فُعُول، أَفْعال، فُعُل…) but it is best to learn each plural with its word. Plurals of things agree in the feminine singular: الكُتُبُ جَدِيدَة.",
+  "tip_es": "The houses are old."
+ },
+ "idafa": {
+  "t": "الإِضافَة — the construct state",
+  "es": "“the X of Y”",
+  "form": "noun 1 (without ال) + noun 2 (genitive)",
+  "nuance": "To say “the teacher’s book” the two nouns are placed together: كِتابُ المُدَرِّس. The first never takes the article; the ة of the first is pronounced t: مَدِينَةُ دِمَشْق (madīnat Dimashq).",
+  "tip_es": "The door of the house is blue."
+ },
+ "relativos": {
+  "t": "الاِسْم المَوْصُول — who/which (relative)",
+  "es": "الَّذي / الَّتي / الَّذِينَ",
+  "form": "الَّذي (m.) · الَّتي (f. and plurals of things) · الَّذِينَ (people, pl.)",
+  "nuance": "The relative pronoun is only used if the antecedent is definite: الرَّجُلُ الَّذي… If it is indefinite, nothing is used: رَجُلٌ يَعْمَلُ هُنا = a man who works here.",
+  "tip_es": "This is the book I bought."
+ },
+ "numeros2": {
+  "t": "الأَعْداد ٢٠–١٠٠ and the counted noun",
+  "es": "twenty, thirty… and how to count",
+  "form": "٣–١٠ + genitive plural · ١١–٩٩ + accusative singular",
+  "nuance": "From 3 to 10 the noun is plural (ثَلاثَةُ كُتُب); from 11 to 99 it is accusative singular (عِشْرُونَ طالِبًا). The tens: عِشْرُون، ثَلاثُون، أَرْبَعُون… and the units go first: خَمْسَةٌ وَعِشْرُون (25).",
+  "tip_es": "There are twenty-five students in the class."
+ },
+ "ordinales": {
+  "t": "الأَعْداد التَّرْتِيبِيَّة — ordinals and dates",
+  "es": "first, second… and the months",
+  "form": "الأَوَّل · الثّاني · الثّالِث · الرّابِع · الخامِس…",
+  "nuance": "Ordinals follow the pattern فاعِل (ثالِث، رابِع) and agree like adjectives. For the date: يَوْمُ + number + month. The months most used in the Middle East are كانُون الثّاني، شُباط… and in the Maghreb and Egypt يَنايِر، فِبْرايِر…",
+  "tip_es": "I was born on 5 March."
+ },
+ "lam": {
+  "t": "لَمْ — negating the past",
+  "es": "لَمْ + jussive",
+  "form": "لَمْ + present with final sukūn (jussive)",
+  "nuance": "The past is negated with لَمْ followed by the present in the jussive (the last vowel is dropped): ذَهَبْتُ → لَمْ أَذْهَبْ (I didn’t go). مَا + past is also heard, but لَمْ is the standard.",
+  "tip_es": "I didn’t understand the question."
+ },
+ "lan": {
+  "t": "لَنْ — negating the future",
+  "es": "لَنْ + subjunctive",
+  "form": "لَنْ + present with final ‑a (subjunctive)",
+  "nuance": "The future is negated with لَنْ and the verb in the subjunctive, without سَـ: سَأَذْهَبُ → لَنْ أَذْهَبَ (I won’t go).",
+  "tip_es": "I won’t travel this summer."
+ },
+ "an": {
+  "t": "أَنْ + subjunctive — want / can / must do",
+  "es": "أُرِيدُ أَنْ… · يَجِبُ أَنْ… · يُمْكِنُ أَنْ…",
+  "form": "verb + أَنْ + present in the subjunctive (‑a)",
+  "nuance": "When one verb depends on another (want, can, must, like) they are joined with أَنْ and the second is in the subjunctive: أُرِيدُ أَنْ أَشْرَبَ. يَجِبُ (one must) and يُمْكِنُ (one can) are impersonal.",
+  "tip_es": "You must drink lots of water."
+ },
+ "huecos": {
+  "t": "الأَفْعال الجَوْفاء — hollow verbs",
+  "es": "verbs with و / ي in the middle",
+  "form": "قالَ / يَقُولُ · زارَ / يَزُورُ · نامَ / يَنامُ · باعَ / يَبِيعُ",
+  "nuance": "If the second letter of the root is و or ي, it becomes a long vowel. In the past persons with a consonantal ending it is shortened: قالَ → قُلْتُ, نامَ → نِمْتُ.",
+  "tip_es": "I said to him: “Hello!”."
+ },
+ "objeto": {
+  "t": "الضَّمائر المُتَّصِلَة بالفِعْل — object pronouns",
+  "es": "me, you, him, her…",
+  "form": "ـني me · ـكَ / ـكِ you · ـهُ him · ـها her · ـنا us · ـهُم them",
+  "nuance": "Object pronouns are attached to the verb, just as possessives are to the noun, but “me” is ـني (not ـي): يَعْرِفُني = he knows me.",
+  "tip_es": "I know him well."
+ },
+ "prohibicion": {
+  "t": "لا النّاهِيَة — don’t!",
+  "es": "negative imperative",
+  "form": "لا + 2nd-person present in the jussive",
+  "nuance": "To forbid, the imperative is not used, but لا + the “you” form of the present without its final vowel: لا تَذْهَبْ (don’t go!), لا تَنْسَيْ (don’t forget!, to a woman).",
+  "tip_es": "Don’t be late!"
+ },
+ "inna": {
+  "t": "إِنَّ وَأَخَواتُها — إِنَّ، أَنَّ، لٰكِنَّ، لِأَنَّ",
+  "es": "particles that take the accusative",
+  "form": "إِنَّ / أَنَّ / لٰكِنَّ / لِأَنَّ + noun (accusative) or attached pronoun",
+  "nuance": "These particles are followed by a noun in the accusative or by a suffix pronoun: لِأَنَّهُ مَرِيض (because he is ill), أَعْرِفُ أَنَّكِ مَشْغُولَة (I know you are busy).",
+  "tip_es": "He didn’t come because he is ill."
+ },
+ "cuerpo": {
+  "t": "الجِسْم — aching and feeling ill",
+  "es": "“my … hurts”",
+  "form": "عِنْدِي أَلَمٌ في + body part · يُؤْلِمُني + body part",
+  "nuance": "“I have a headache” is عِنْدِي صُداع or رَأْسِي يُؤْلِمُني. Paired body parts (eyes, hands, feet) are feminine.",
+  "tip_es": "My tummy hurts."
+ },
+ "mundhu": {
+  "t": "مُنْذُ — since, ago",
+  "es": "duration and elapsed time",
+  "form": "present + مُنْذُ = for (until now) · past + مُنْذُ = ago",
+  "nuance": "أَسْكُنُ هُنا مُنْذُ سَنَتَيْن = I have lived here for two years. وَصَلْتُ مُنْذُ ساعَة = I arrived an hour ago.",
+  "tip_es": "I’ve been studying Arabic for two months."
+ },
+ "qad": {
+  "t": "قَدْ / لَقَدْ — already, indeed",
+  "es": "قَدْ + past = already (completed action)",
+  "form": "قَدْ / لَقَدْ + past · قَدْ + present = maybe",
+  "nuance": "With the past, قَدْ stresses that the action has already been completed (like the present perfect). With the present it means “sometimes / maybe”.",
+  "tip_es": "The train has already arrived."
+ },
+ "formas_verbales": {
+  "t": "أَوْزان الفِعْل — the derived forms (I–X)",
+  "es": "a pattern changes the meaning of the root",
+  "form": "II فَعَّلَ · III فاعَلَ · IV أَفْعَلَ · V تَفَعَّلَ · VI تَفاعَلَ · VII اِنْفَعَلَ · VIII اِفْتَعَلَ · X اِسْتَفْعَلَ",
+  "nuance": "From one root (for example ع-ل-م “to know”) come verbs with fixed patterns: عَلَّمَ (II, to teach), تَعَلَّمَ (V, to learn), اِسْتَعْلَمَ (X, to inquire). II is often causative or intensive, V and VI reflexive or reciprocal, VII passive, X “to ask for / to consider”.",
+  "tip_es": "to study → to teach · to know → to learn"
+ },
+ "masdar": {
+  "t": "المَصْدَر — the verbal noun",
+  "es": "“the act of…”: to direct → direction",
+  "form": "I variable · II تَفْعِيل · III مُفاعَلَة · IV إِفْعال · V تَفَعُّل · VIII اِفْتِعال · X اِسْتِفْعال",
+  "nuance": "Every verb has a verbal noun (مَصْدَر) that works as a noun: سافَرَ → السَّفَر, اِسْتَعْمَلَ → الاِسْتِعْمال. It often replaces أَنْ + verb: أُرِيدُ السَّفَرَ = I want to travel.",
+  "tip_es": "Learning when young is like carving in stone."
+ },
+ "participios": {
+  "t": "اِسْم الفاعِل واِسْم المَفْعُول — participles",
+  "es": "the doer / the thing done",
+  "form": "I: فاعِل / مَفْعُول · derived forms: مُـ + i / a",
+  "nuance": "The active participle shows who does the action (كاتِب = writer, who writes) and the passive what receives it (مَكْتُوب = written). In the derived forms they begin with مُـ: مُدَرِّس (who teaches), مُسْتَعْمَل (used).",
+  "tip_es": "The door is open and the shop is closed."
+ },
+ "pasiva": {
+  "t": "المَبْنِيّ لِلْمَجْهُول — the passive voice",
+  "es": "was built, it is said",
+  "form": "past: فُعِلَ · present: يُفْعَلُ",
+  "nuance": "The passive is formed by changing the vowels: كَتَبَ (he wrote) → كُتِبَ (it was written); يَكْتُبُ → يُكْتَبُ. Who does the action is usually not mentioned. It is very common in the press: يُقالُ إِنَّ… = it is said that…",
+  "tip_es": "This mosque was built in the 10th century."
+ },
+ "condicional": {
+  "t": "الشَّرْط — conditionals",
+  "es": "if… (real and unreal)",
+  "form": "إِذا + past (real) · لَوْ + past … لَـ + past (unreal)",
+  "nuance": "إِذا expresses a possible condition and is followed by the past even when the meaning is present or future: إِذا جِئْتَ سَأَكُونُ سَعِيدًا. لَوْ expresses something unreal: لَوْ كانَ عِنْدِي مالٌ لَسافَرْتُ (if I had money, I would travel).",
+  "tip_es": "If it rains tomorrow, we’ll stay at home."
+ },
+ "kana_ajawat": {
+  "t": "كانَ وَأَخَواتُها — ما زالَ، أَصْبَحَ، صارَ، لَيْسَ",
+  "es": "still, to become, no longer…",
+  "form": "verb + subject + predicate in the accusative",
+  "nuance": "Like كانَ, these verbs put the predicate in the accusative: أَصْبَحَ الجَوُّ بارِدًا (the weather has turned cold), ما زالَ مَشْغُولًا (he is still busy), صارَ طَبِيبًا (he became a doctor).",
+  "tip_es": "The city is still beautiful."
+ },
+ "estilo_indirecto": {
+  "t": "الكَلام المَنْقُول — reported speech",
+  "es": "he said that…, he asked whether…",
+  "form": "قالَ إِنَّ… · ذَكَرَ أَنَّ… · سَأَلَ هَلْ / إِذا…",
+  "nuance": "After قالَ, إِنَّ is used; after other verbs (ذَكَرَ, أَعْلَنَ, عَرَفَ) أَنَّ is used. Both are followed by a noun in the accusative or a suffix pronoun.",
+  "tip_es": "The minister said that the situation had improved."
+ },
+ "finalidad": {
+  "t": "التَّعْلِيل — in order to",
+  "es": "لِـ / لِكَيْ / حَتّى + subjunctive",
+  "form": "لِـ + subjunctive · كَيْ / لِكَيْ + subjunctive · مِنْ أَجْلِ + noun",
+  "nuance": "Purpose is expressed with لِـ, لِكَيْ or حَتّى and the verb in the subjunctive: جِئْتُ لِأَدْرُسَ (I came to study). With a noun, مِنْ أَجْلِ / لِـ is used: مِنْ أَجْلِ العَمَل.",
+  "tip_es": "I study Arabic to understand films."
+ },
+ "concesion": {
+  "t": "رَغْمَ / مَعَ أَنَّ — although, despite",
+  "es": "concession",
+  "form": "رَغْمَ + noun · رَغْمَ أَنَّ / مَعَ أَنَّ + clause · عَلى الرَّغْمِ مِنْ",
+  "nuance": "“Despite” takes a noun: رَغْمَ المَطَر. “Although” takes أَنَّ: رَغْمَ أَنَّهُ مُتْعَب، ذَهَبَ إِلى العَمَل.",
+  "tip_es": "We went out despite the cold."
+ },
+ "hal": {
+  "t": "الحال — how it is done (circumstantial)",
+  "es": "he arrived running, he came back happy",
+  "form": "indefinite participle / adjective in the accusative · وَ + clause",
+  "nuance": "The حال describes the subject’s state during the action and is in the indefinite accusative: رَجَعَ سَعِيدًا (he came back happy). It can also be a clause with وَ: دَخَلَ وَهُوَ يَضْحَكُ (he came in laughing).",
+  "tip_es": "The girl came running."
+ },
+ "tamyiz": {
+  "t": "التَّمْيِيز — specification",
+  "es": "more… in terms of…",
+  "form": "indefinite noun in the accusative after a comparative, كَمْ or a measure",
+  "nuance": "It specifies in what sense something applies: أَكْثَرُ جَمالًا (more in beauty = more beautiful), كَمْ كِتابًا؟ (how many books?), لِتْرٌ ماءً.",
+  "tip_es": "She is cleverer than her brother."
+ },
+ "defectivos": {
+  "t": "الأَفْعال النّاقِصَة — weak verbs",
+  "es": "with و / ي at the beginning or the end",
+  "form": "وَصَلَ / يَصِلُ · مَشى / يَمْشِي · دَعا / يَدْعُو · نَسِيَ / يَنْسى",
+  "nuance": "If the root begins with و, it disappears in the present: وَجَدَ → يَجِدُ. If it ends in و / ي, the last vowel is long and changes with the person: مَشَيْتُ (I walked), دَعَوْنا (we invited).",
+  "tip_es": "I forgot the key and walked home."
+ },
+ "cinco_nombres": {
+  "t": "الأَسْماء الخَمْسَة — أَبُو، أَخُو…",
+  "es": "father of…, brother of…",
+  "form": "أَبُو / أَبا / أَبِي + noun (according to case)",
+  "nuance": "أَب، أَخ، حَم and ذُو lengthen the case vowel in an إِضافَة: هٰذا أَبُو أَحْمَد، رَأَيْتُ أَبا أَحْمَد، سَلَّمْتُ عَلى أَبِي أَحْمَد. It is very common in nicknames (كُنْيَة): أَبُو سامِي.",
+  "tip_es": "the one with blue eyes"
+ },
+ "plural_sano": {
+  "t": "جَمْع المُذَكَّر السّالِم — ‑ūna / ‑īna",
+  "es": "the cases of the masculine plural",
+  "form": "‑ُونَ (nominative) · ‑ِينَ (accusative and genitive)",
+  "nuance": "The regular masculine plural changes its ending with the case: المُهَنْدِسُونَ هُنا but رَأَيْتُ المُهَنْدِسِينَ / مَعَ المُهَنْدِسِينَ. In an إِضافَة it loses the ن: مُهَنْدِسُو الشَّرِكَة.",
+  "tip_es": "The teachers love their pupils."
+ },
+ "kada": {
+  "t": "أَفْعال الشُّرُوع والمُقارَبَة — to begin to, to be about to",
+  "es": "بَدَأَ / أَخَذَ / كادَ + present",
+  "form": "بَدَأَ / أَخَذَ / راحَ + present · كادَ + present",
+  "nuance": "بَدَأَ يَدْرُسُ = he began to study (without أَنْ). كادَ shows that something almost happened: كادَ يَسْقُطُ = he nearly fell.",
+  "tip_es": "I nearly forgot our appointment!"
+ },
+ "conectores": {
+  "t": "أَدَوات الرَّبْط — discourse connectors",
+  "es": "besides, however, therefore…",
+  "form": "بالإِضافَةِ إِلى · لِذٰلِكَ · مَعَ ذٰلِكَ · أَمّا … فَـ · مِنْ ناحِيَة … وَمِنْ ناحِيَةٍ أُخْرى",
+  "nuance": "An opinion text needs connectors: أَمّا … فَـ (as for…), لِذٰلِكَ (therefore), مَعَ ذٰلِكَ (however), بالإِضافَةِ إِلى ذٰلِكَ (in addition).",
+  "tip_es": "As for me, I prefer the train."
+ },
+ "irab": {
+  "t": "الإِعْراب — the cases",
+  "es": "nominative ‑u, accusative ‑a, genitive ‑i",
+  "form": "مَرْفُوع ـُ · مَنْصُوب ـَ · مَجْرُور ـِ",
+  "nuance": "In Standard Arabic nouns carry a final case vowel: nominative (subject, predicate), accusative (direct object, after إِنَّ, the predicate after كانَ) and genitive (after a preposition and as the second term of the إِضافَة). They are pronounced when reading aloud; at the end of a sentence they are usually dropped (وَقْف).",
+  "tip_es": "The student read the book in the library. (‑u subject, ‑a object, ‑i after a preposition)"
+ },
+ "diptotos": {
+  "t": "المَمْنُوع مِنَ الصَّرْف — diptotes",
+  "es": "nouns without tanwīn",
+  "form": "no ‑un / ‑an / ‑in · genitive in ‑a",
+  "nuance": "Some nouns don’t take tanwīn and make their genitive in ‑a: plurals like مَساجِد, مَفاتِيح, adjectives of the pattern أَفْعَل (أَحْمَر), many proper names (مَكَّةُ، فاطِمَةُ) and feminines in ـاء (صَحْراءُ).",
+  "tip_es": "I prayed in many mosques."
+ },
+ "excepcion": {
+  "t": "الاِسْتِثْناء — except, only",
+  "es": "إِلّا، غَيْر، سِوى",
+  "form": "لا… إِلّا = only · X إِلّا Y = all but Y · غَيْرَ / سِوى + genitive",
+  "nuance": "إِلّا with a negation means “only”: لا أَشْرَبُ إِلّا الماء (I only drink water). غَيْر and سِوى are followed by the genitive: جاءَ الجَمِيعُ غَيْرَ سامِي.",
+  "tip_es": "Only two days are left."
+ },
+ "exclamacion": {
+  "t": "التَّعَجُّب — how…!",
+  "es": "ما أَفْعَلَ…!",
+  "form": "ما + أَفْعَلَ + noun in the accusative",
+  "nuance": "To express admiration, ما + the pattern أَفْعَلَ + a noun in the accusative is used: ما أَجْمَلَ السَّماءَ! (how beautiful the sky is!).",
+  "tip_es": "How hard this exam is!"
+ },
+ "maful_mutlaq": {
+  "t": "المَفْعُول المُطْلَق — the absolute object",
+  "es": "“he worked hard”, “to laugh heartily”",
+  "form": "verb + its own مَصْدَر in the accusative (+ adjective)",
+  "nuance": "The verbal noun of the same verb is repeated to intensify or specify: فَرِحْتُ فَرَحًا كَبِيرًا (I was overjoyed), شَكَرْتُهُ شُكْرًا جَزِيلًا.",
+  "tip_es": "Prices rose enormously."
+ },
+ "maful_liajlih": {
+  "t": "المَفْعُول لِأَجْلِهِ — the object of cause",
+  "es": "“out of fear”, “in search of”",
+  "form": "indefinite مَصْدَر in the accusative",
+  "nuance": "A verbal noun in the accusative gives the reason for the action: هاجَرَ بَحْثًا عَنْ عَمَل (he emigrated in search of work), سَكَتَ خَوْفًا (he fell silent out of fear).",
+  "tip_es": "People stood up out of respect for the guests."
+ },
+ "kullama": {
+  "t": "كُلَّما · بَيْنَما · طالَما",
+  "es": "the more…, whereas…, as long as…",
+  "form": "كُلَّما + past، + past · بَيْنَما + clause · طالَما + past",
+  "nuance": "كُلَّما expresses proportion: كُلَّما قَرَأْتَ أَكْثَرَ، تَعَلَّمْتَ أَكْثَر. بَيْنَما contrasts two simultaneous facts. طالَما = “as long as / since”.",
+  "tip_es": "The more demand rises, the more the price rises."
+ },
+ "la_nafiya": {
+  "t": "لا النّافِيَة لِلْجِنْس — “there is no…”",
+  "es": "absolute negation",
+  "form": "لا + noun in the accusative without tanwīn",
+  "nuance": "It denies a whole category: لا شَكَّ (there is no doubt), لا بُدَّ مِنْ (it is essential), لا مُشْكِلَةَ.",
+  "tip_es": "Patience is needed (it is essential)."
+ },
+ "in_shart": {
+  "t": "إِنْ / مَنْ / مَهْما — conditionals with the jussive",
+  "es": "if…, whoever…, however much…",
+  "form": "إِنْ + jussive, (فَـ) + jussive · مَنْ + jussive · مَهْما + jussive",
+  "nuance": "In the formal register, إِنْ and other conditional particles take both verbs in the jussive or in the past: إِنْ تَدْرُسْ تَنْجَحْ. Sayings: مَنْ جَدَّ وَجَدَ (whoever strives, finds).",
+  "tip_es": "However hard you try, you won’t convince him."
+ },
+ "nisba_abstracta": {
+  "t": "المَصْدَر الصِّناعِيّ — nouns in ‑iyya",
+  "es": "‑ity, ‑ism",
+  "form": "adjective in ‑ī + ة → ‑iyya",
+  "nuance": "Adding ـِيَّة to an adjective forms abstract nouns: إِنْسانِيّ → إِنْسانِيَّة (humanity), حُرّ → حُرِّيَّة (freedom), دِيمُقْراطِيّ → دِيمُقْراطِيَّة.",
+  "tip_es": "companies’ social responsibility"
+ },
+ "ism_makan": {
+  "t": "اِسْم المَكان واِسْم الآلَة — place and instrument",
+  "es": "مَفْعَل / مِفْعال",
+  "form": "place: مَفْعَل / مَفْعِل (مَكْتَب، مَسْجِد) · instrument: مِفْعال، مِفْعَل، فَعّالَة (مِفْتاح، مِبْرَد، غَسّالَة)",
+  "nuance": "Fixed patterns indicate place and instrument: from كَتَبَ → مَكْتَب (office), مَكْتَبَة (library); from فَتَحَ → مِفْتاح (key).",
+  "tip_es": "kitchen · field · lift · fridge"
+ },
+ "madh": {
+  "t": "نِعْمَ وَبِئْسَ — praise and blame",
+  "es": "what a good…! / what a bad…!",
+  "form": "نِعْمَ + definite noun · بِئْسَ + definite noun",
+  "nuance": "Invariable verbs of the formal register: نِعْمَ الصَّدِيقُ الكِتابُ (the book — what a fine friend!). Today they appear mostly in sayings and speeches.",
+  "tip_es": "How good work is, and how bad laziness!"
+ },
+ "tawkid": {
+  "t": "التَّوْكِيد — emphasis",
+  "es": "himself, all of them, indeed",
+  "form": "نَفْس / عَيْن + pronoun · كُلّ / جَمِيع · إِنَّ … لَـ · لَقَدْ",
+  "nuance": "To insist: جاءَ المُدِيرُ نَفْسُهُ (the director himself came), الطُّلّابُ كُلُّهُم (all the students), إِنَّ هٰذا لَأَمْرٌ مُهِمّ (this really is important).",
+  "tip_es": "I met the minister in person."
+ },
+ "kam_khabariya": {
+  "t": "كَمْ الخَبَرِيَّة — how many…!",
+  "es": "exclamation of quantity",
+  "form": "كَمْ + noun in the genitive (or مِنْ + noun)",
+  "nuance": "Besides asking, كَمْ expresses wonder at a quantity: كَمْ مِنْ مَرَّةٍ قُلْتُ لَكَ! (how many times have I told you!).",
+  "tip_es": "How many books I read in my youth!"
+ },
+ "formas_6_8": {
+  "t": "الأَوْزان VI، VII، VIII — reciprocity and passive",
+  "es": "تَفاعَلَ · اِنْفَعَلَ · اِفْتَعَلَ",
+  "form": "VI تَعاوَنَ (to cooperate) · VII اِنْكَسَرَ (to break) · VIII اِجْتَمَعَ (to meet)",
+  "nuance": "VI expresses mutual actions (تَبادَلَ = to exchange), VII is usually passive or middle (اِنْقَطَعَ = to be cut off), VIII has reflexive nuances (اِحْتَرَمَ, اِنْتَظَرَ). After ص ض ط ظ the ت of VIII changes: اِصْطَدَمَ، اِضْطَرَّ.",
+  "tip_es": "The neighbours worked together to clean the neighbourhood."
+ },
+ "hasr": {
+  "t": "أُسْلُوبُ الحَصْر — “only”, “nothing but”",
+  "es": "إِنَّما، ما… إِلّا، لَيْسَ… إِلّا",
+  "form": "إِنَّما + clause · ما / لا … إِلّا … · لَيْسَ … سِوى",
+  "nuance": "To restrict: إِنَّما الأَعْمالُ بِالنِّيّات (deeds are judged only by intentions). ما هُوَ إِلّا طالِبٌ (he is nothing but a student). It is very common in essays and speeches.",
+  "tip_es": "Society progresses only through knowledge."
+ },
+ "taqdim": {
+  "t": "التَّقْدِيم والتَّأْخِير — emphatic fronting",
+  "es": "changing the order to highlight",
+  "form": "object / predicate before the verb or the subject",
+  "nuance": "The normal order is verb–subject–object, but an element can be fronted to highlight it: إِيّاكَ نَعْبُدُ (You alone we worship), في البَساطَةِ تَكْمُنُ الحِكْمَة (in simplicity lies wisdom).",
+  "tip_es": "It is on young people that the future rests."
+ },
+ "zanna": {
+  "t": "ظَنَّ وَأَخَواتُها — verbs with two objects",
+  "es": "to consider, to believe, to make…",
+  "form": "ظَنَّ / حَسِبَ / وَجَدَ / جَعَلَ / اِعْتَبَرَ + object 1 + object 2 (accusative)",
+  "nuance": "These verbs take two accusatives: ظَنَنْتُ الأَمْرَ سَهْلًا (I thought the matter was easy), جَعَلَ التَّعْلِيمَ مَجّانِيًّا (he made education free). The same as أَعْطى (to give someone something).",
+  "tip_es": "Critics considered the novel a masterpiece."
+ },
+ "mubalagha": {
+  "t": "صِيَغ المُبالَغَة — intensive forms",
+  "es": "very…, who does a lot of…",
+  "form": "فَعّال · فَعُول · مِفْعال · فَعِيل · فَعِل",
+  "nuance": "They express intensity or habit: كَذّاب (inveterate liar), صَبُور (very patient), مِعْطاء (very generous), عَلِيم (all-knowing).",
+  "tip_es": "He was a very patient and generous man."
+ },
+ "itiradiya": {
+  "t": "الجُمْلَة الاِعْتِراضِيَّة — parenthetical clause",
+  "es": "parenthetical sentences",
+  "form": "— clause — · ، وَهُوَ…، · (رَحِمَهُ اللّٰه)",
+  "nuance": "A clause inserted between dashes or commas adds information or a formula: كانَ أَبِي — رَحِمَهُ اللّٰهُ — يُحِبُّ الشِّعْر. Common in the press and in essays.",
+  "tip_es": "And this is, in my opinion, the most important point."
+ },
+ "badal": {
+  "t": "البَدَل والنَّعْت السَّبَبِيّ — apposition",
+  "es": "“the city, Fez, …” and adjectives referring to something else",
+  "form": "البَدَل: same case as the noun · النَّعْت السَّبَبِيّ: adjective + related noun",
+  "nuance": "The بَدَل repeats or specifies a noun in the same case: زُرْتُ المَدِينَةَ فاسَ. The نَعْت سَبَبِيّ describes something related to the noun: رَجُلٌ كَرِيمٌ أَبُوهُ (a man whose father is generous).",
+  "tip_es": "I read a novel with long chapters."
+ },
+ "qasam": {
+  "t": "القَسَم وَالنِّداء — oath and vocative",
+  "es": "وَاللّٰهِ…! · يا…، أَيُّها…",
+  "form": "وَ / تَ / بِـ + noun (oath) · لَـ + verb (answer) · يا / أَيُّها / أَيَّتُها (vocative)",
+  "nuance": "An oath is followed by لَقَدْ or by a verb with لَـ: وَاللّٰهِ لَأَفْعَلَنَّ (I swear I’ll do it!). The vocative uses يا + a noun without the article, or أَيُّها / أَيَّتُها + a noun with the article: أَيُّها النّاس.",
+  "tip_es": "Students: the future is yours."
+ },
+ "majaz": {
+  "t": "المَجاز وَالكِنايَة — figurative meaning",
+  "es": "metaphor, metonymy, allusion",
+  "form": "اِسْتِعارَة (metaphor) · كِنايَة (allusion) · تَشْبِيه (simile: كَـ، مِثْل، كَأَنَّ)",
+  "nuance": "Arabic rhetoric (البَلاغَة) distinguishes the explicit simile (هُوَ كَالأَسَد), the metaphor (رَأَيْتُ أَسَدًا يَخْطُبُ) and allusion: طَوِيلُ اليَد (generous), كَثِيرُ الرَّماد (hospitable).",
+  "tip_es": "It is as if the city were a painting of light."
+ },
+ "amil": {
+  "t": "اِسْم الفاعِل العامِل والمَصْدَر العامِل",
+  "es": "participle and masdar with an object",
+  "form": "participle / masdar + object (accusative or genitive)",
+  "nuance": "In the formal register the participle and the verbal noun can govern an object like a verb: أَنا قارِئٌ الكِتابَ (I am reading the book), بِمُناسَبَةِ تَوْقِيعِ الرَّئِيسِ الاِتِّفاقِيَّةَ.",
+  "tip_es": "those responsible for running the project"
+ },
+ "ahraf_atf": {
+  "t": "حُرُوف العَطْف — the nuances of coordination",
+  "es": "وَ، فَـ، ثُمَّ، أَوْ، أَمْ، بَلْ، لٰكِنْ",
+  "form": "وَ (and) · فَـ (and then at once / so) · ثُمَّ (and later) · أَمْ (or, in questions) · بَلْ (but rather)",
+  "nuance": "فَـ shows immediate sequence or consequence; ثُمَّ, a time interval; أَمْ is used in alternative questions (أَشايٌ أَمْ قَهْوَة؟); بَلْ corrects what came before.",
+  "tip_es": "He came in, said hello and, after a while, sat down."
+ },
+ "tahdhir": {
+  "t": "التَّحْذِير وَالإِغْراء — warnings and exhortations",
+  "es": "beware of…! / go for…!",
+  "form": "إِيّاكَ وَ + noun · الحَذَرَ الحَذَرَ · الصِّدْقَ الصِّدْقَ",
+  "nuance": "Formal formulas in the accusative: إِيّاكَ وَالكَذِبَ (beware of lying!), النَّجْدَةَ! (help!), الصَّبْرَ الصَّبْرَ (patience!). They appear in speeches, the press and sayings.",
+  "tip_es": "Beware of wasting water!"
+ },
+ "ikhtisas": {
+  "t": "الاِخْتِصاص — “we, the…”",
+  "es": "pronoun + noun in the accusative",
+  "form": "نَحْنُ + definite noun in the accusative",
+  "nuance": "It specifies which group a pronoun refers to: نَحْنُ العَرَبَ نُحِبُّ الشِّعْر (we Arabs love poetry). The noun is in the accusative even though it looks like a subject.",
+  "tip_es": "We teachers believe in our students."
+ },
+ "saj": {
+  "t": "السَّجْع — rhymed prose",
+  "es": "parallel phrases that rhyme",
+  "form": "phrase A … ‑ūn / phrase B … ‑ūn",
+  "nuance": "Rhymed prose (سَجْع) alternates phrases of similar length ending in the same rhyme. It is typical of the maqāmāt, sermons and the titles of classical books: «الإِنْسانُ بِأَصْغَرَيْهِ: قَلْبِهِ وَلِسانِهِ».",
+  "tip_es": "Whoever strives, finds; whoever sows, reaps."
+ },
+ "tasghir": {
+  "t": "التَّصْغِير — the diminutive",
+  "es": "فُعَيْل، فُعَيْلَة، فُعَيْعِل",
+  "form": "كِتاب → كُتَيِّب · بَيْت → بُيَيْت · نَهْر → نُهَيْر · بُنَيّ",
+  "nuance": "The diminutive is formed with the pattern فُعَيْل (and variants). It can express small size, affection or contempt: يا بُنَيَّ (my dear son), كُتَيِّب (booklet), شُوَيْ (a little bit, in dialect).",
+  "tip_es": "I read a booklet about calligraphy."
+ },
+ "nun_tawkid": {
+  "t": "نُون التَّوْكِيد — the energetic verb",
+  "es": "لَأَفْعَلَنَّ: I will certainly do it!",
+  "form": "present + ـَنَّ (heavy) / ـَنْ (light)",
+  "nuance": "With oaths, emphatic orders and prohibitions, the verb can take an emphatic ن: لَأَزُورَنَّكَ غَدًا (I’ll certainly visit you tomorrow!), لا تَنْسَيَنَّ (don’t forget!). It is a feature of Classical Arabic and rhetoric.",
+  "tip_es": "I swear I will finish this work!"
+ },
+ "ism_fil": {
+  "t": "اِسْم الفِعْل and invariable verbs",
+  "es": "هَيْهاتَ، صَهْ، آمِين · عَسى، لَيْسَ، نِعْمَ",
+  "form": "هَيْهاتَ (how far!) · أُفٍّ (ugh!) · عَسى أَنْ + verb (may it be, perhaps)",
+  "nuance": "“Verbal nouns” work like verbs but are not conjugated: هَيْهاتَ أَنْ يَعُودَ الماضِي (the past will never come back!). “Rigid” verbs (جامِدَة) such as عَسى or لَيْسَ have hardly any forms.",
+  "tip_es": "Perhaps you dislike something that is good for you."
+ },
+ "arud": {
+  "t": "العَرُوض — classical prosody",
+  "es": "feet, metres and rhyme",
+  "form": "بَحْر (metre) · تَفْعِيلَة (foot) · قافِيَة (rhyme) · صَدْر / عَجُز (hemistichs)",
+  "nuance": "Al-Khalil ibn Ahmad (8th c.) described sixteen metres (بُحُور) based on long and short syllables: الطَّوِيل، الكامِل، البَسِيط… Each line has two hemistichs and the whole poem keeps the same rhyme.",
+  "tip_es": "the ṭawīl metre"
+ },
+ "taqdir": {
+  "t": "الإِعْراب التَّقْدِيرِيّ and reading without vowels",
+  "es": "cases you can’t see",
+  "form": "final ‑ā / ‑ī: “assumed” case · المُسْتَشْفى، القاضِي",
+  "nuance": "In words ending in long ـى or ـي, the case can’t be seen: جاءَ القاضِي / رَأَيْتُ القاضِيَ / مَرَرْتُ بِالقاضِي. When reading unvowelled texts, the reader works out the cases from the syntax: that is the real test of mastery.",
+  "tip_es": "The boy went to the hospital."
+ },
+ "lam_amr": {
+  "t": "لام الأَمْر and the indirect imperative",
+  "es": "let him do…!, let’s do…!",
+  "form": "لِـ / فَلْـ / وَلْـ + jussive",
+  "nuance": "Used to give orders to a third person or to urge the first person plural: لِيَكْتُبْ كُلُّ طالِبٍ اسْمَهُ (let every student write their name), فَلْنَبْدَأْ (let’s begin). Very common in normative texts and speeches.",
+  "tip_es": "Let every official fear God."
+ },
+ "kana_madi": {
+  "t": "كانَ قَدْ + past — the pluperfect",
+  "es": "had done, will have done",
+  "form": "كانَ (قَدْ) + past · يَكُونُ قَدْ + past",
+  "nuance": "To express anteriority in the past: كانَ القِطارُ قَدْ غادَرَ حِينَ وَصَلْتُ (the train had already left when I arrived). With يَكُونُ قَدْ the future perfect is formed.",
+  "tip_es": "The project will have been completed by summer."
+ },
+ "nudba": {
+  "t": "النُّدْبَة وَالاِسْتِغاثَة — laments and calls for help",
+  "es": "وا…! / يا لَـ…!",
+  "form": "وا + noun + ـاه · يا لَـ + noun + لِـ",
+  "nuance": "Literary formulas to lament (وا أَسَفاه! = what a pity!; وا مُعْتَصِماه!) or call for help (يا لَلنّاسِ لِلْمَظْلُوم! = people, help the oppressed!). Today they appear in literature, the press and irony.",
+  "tip_es": "Alas for the days of youth!"
+ },
+ "jumla_ismiyya": {
+  "t": "الخَبَر المُقَدَّم and the complex nominal sentence",
+  "es": "fronted predicate, chained clauses",
+  "form": "لِكُلِّ مُجْتَهِدٍ نَصِيبٌ · في التَّأَنِّي السَّلامَة",
+  "nuance": "When the subject is indefinite, the (prepositional) predicate comes first: في البَيْتِ رَجُلٌ. In aphorisms this structure is constant: «في العَجَلَةِ النَّدامَة» (in haste lies regret).",
+  "tip_es": "Every situation calls for its own words."
+ }
+}

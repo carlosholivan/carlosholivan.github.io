@@ -5,29 +5,29 @@
 const F = 'َ', K = 'ِ', D = 'ُ', S = 'ْ', SH = 'ّ';
 
 export const PERSONS = [
-  { id: '1s', ar: 'أَنَا', es: 'yo' },
-  { id: '1p', ar: 'نَحْنُ', es: 'nosotros' },
-  { id: '2ms', ar: 'أَنْتَ', es: 'tú (m.)' },
-  { id: '2fs', ar: 'أَنْتِ', es: 'tú (f.)' },
-  { id: '2d', ar: 'أَنْتُمَا', es: 'vosotros dos' },
-  { id: '2mp', ar: 'أَنْتُمْ', es: 'vosotros' },
-  { id: '2fp', ar: 'أَنْتُنَّ', es: 'vosotras' },
-  { id: '3ms', ar: 'هُوَ', es: 'él' },
-  { id: '3fs', ar: 'هِيَ', es: 'ella' },
-  { id: '3md', ar: 'هُمَا', es: 'ellos dos' },
-  { id: '3fd', ar: 'هُمَا', es: 'ellas dos' },
-  { id: '3mp', ar: 'هُمْ', es: 'ellos' },
-  { id: '3fp', ar: 'هُنَّ', es: 'ellas' },
+  { id: '1s', ar: 'أَنَا', es: 'yo', en: 'I' },
+  { id: '1p', ar: 'نَحْنُ', es: 'nosotros', en: 'we' },
+  { id: '2ms', ar: 'أَنْتَ', es: 'tú (m.)', en: 'you (m.)' },
+  { id: '2fs', ar: 'أَنْتِ', es: 'tú (f.)', en: 'you (f.)' },
+  { id: '2d', ar: 'أَنْتُمَا', es: 'vosotros dos', en: 'you two' },
+  { id: '2mp', ar: 'أَنْتُمْ', es: 'vosotros', en: 'you (m. pl.)' },
+  { id: '2fp', ar: 'أَنْتُنَّ', es: 'vosotras', en: 'you (f. pl.)' },
+  { id: '3ms', ar: 'هُوَ', es: 'él', en: 'he' },
+  { id: '3fs', ar: 'هِيَ', es: 'ella', en: 'she' },
+  { id: '3md', ar: 'هُمَا', es: 'ellos dos', en: 'they two (m.)' },
+  { id: '3fd', ar: 'هُمَا', es: 'ellas dos', en: 'they two (f.)' },
+  { id: '3mp', ar: 'هُمْ', es: 'ellos', en: 'they (m.)' },
+  { id: '3fp', ar: 'هُنَّ', es: 'ellas', en: 'they (f.)' },
 ];
 const IDS = PERSONS.map(p => p.id);
 export const IMP_PERSONS = ['2ms', '2fs', '2d', '2mp', '2fp'];
 
 export const TENSES = [
-  { id: 'past', ar: 'المَاضِي', es: 'Pasado', note: 'Acción terminada: كَتَبْتُ = escribí / he escrito. Las terminaciones indican la persona.' },
-  { id: 'pres', ar: 'المُضَارِع', es: 'Presente', note: 'Acción habitual o en curso: أَكْتُبُ = escribo. Con سَـ / سَوْفَ delante es futuro: سَأَكْتُبُ.' },
-  { id: 'subj', ar: 'المَنْصُوب', es: 'Subjuntivo', note: 'Tras أَنْ، لَنْ، لِـ، كَيْ، حَتَّى: أُرِيدُ أَنْ أَكْتُبَ · لَنْ أَكْتُبَ (no escribiré).' },
-  { id: 'juss', ar: 'المَجْزُوم', es: 'Yusivo', note: 'Tras لَمْ (pasado negado), لَا prohibitivo y لِـ de mandato: لَمْ أَكْتُبْ (no escribí) · لَا تَكْتُبْ (¡no escribas!).' },
-  { id: 'imp', ar: 'الأَمْر', es: 'Imperativo', note: 'Solo para «tú», «vosotros»…: se forma desde el yusivo quitando el prefijo تَـ.' },
+  { id: 'past', ar: 'المَاضِي', es: 'Pasado', en: 'Past', note_en: 'Completed action: كَتَبْتُ = I wrote / I have written. The endings show the person.', note: 'Acción terminada: كَتَبْتُ = escribí / he escrito. Las terminaciones indican la persona.' },
+  { id: 'pres', ar: 'المُضَارِع', es: 'Presente', en: 'Present', note_en: 'Habitual or ongoing action: أَكْتُبُ = I write. With سَـ / سَوْفَ in front it is future: سَأَكْتُبُ.', note: 'Acción habitual o en curso: أَكْتُبُ = escribo. Con سَـ / سَوْفَ delante es futuro: سَأَكْتُبُ.' },
+  { id: 'subj', ar: 'المَنْصُوب', es: 'Subjuntivo', en: 'Subjunctive', note_en: 'After أَنْ، لَنْ، لِـ، كَيْ، حَتَّى: أُرِيدُ أَنْ أَكْتُبَ · لَنْ أَكْتُبَ (I won’t write).', note: 'Tras أَنْ، لَنْ، لِـ، كَيْ، حَتَّى: أُرِيدُ أَنْ أَكْتُبَ · لَنْ أَكْتُبَ (no escribiré).' },
+  { id: 'juss', ar: 'المَجْزُوم', es: 'Yusivo', en: 'Jussive', note_en: 'After لَمْ (negated past), prohibitive لَا and the لِـ of command: لَمْ أَكْتُبْ (I didn’t write) · لَا تَكْتُبْ (don’t write!).', note: 'Tras لَمْ (pasado negado), لَا prohibitivo y لِـ de mandato: لَمْ أَكْتُبْ (no escribí) · لَا تَكْتُبْ (¡no escribas!).' },
+  { id: 'imp', ar: 'الأَمْر', es: 'Imperativo', en: 'Imperative', note_en: 'Only for “you” (sing. and pl.): it is formed from the jussive by dropping the prefix تَـ.', note: 'Solo para «tú», «vosotros»…: se forma desde el yusivo quitando el prefijo تَـ.' },
 ];
 
 // Suffixes ---------------------------------------------------------------
@@ -130,6 +130,7 @@ function templ(v, tense, p) {
 // Verb list ------------------------------------------------------------
 // type: s = sound, h = hollow, d = defective, a = assimilated, g = doubled, x = irregular
 const V = (w, es, o) => ({ w, es, ...o });
+const VERB_EN = {'escribir': 'to write', 'estudiar': 'to study', 'beber': 'to drink', 'entender': 'to understand', 'trabajar': 'to work', 'ir': 'to go', 'abrir': 'to open', 'sentarse': 'to sit down', 'volver': 'to return', 'conocer, saber': 'to know', 'entrar': 'to enter', 'salir': 'to go out', 'oír': 'to hear', 'jugar': 'to play', 'vivir (habitar)': 'to live (dwell)', 'enseñar': 'to teach', 'limpiar': 'to clean', 'ayudar': 'to help', 'viajar': 'to travel', 'ver, mirar': 'to see, to watch', 'enviar': 'to send', 'cerrar': 'to close', 'hablar': 'to speak', 'aprender': 'to learn', 'colaborar': 'to cooperate', 'intercambiar': 'to exchange', 'mudarse': 'to move (house)', 'partir': 'to set off', 'reunirse': 'to meet', 'esperar': 'to wait', 'escuchar': 'to listen', 'usar': 'to use', 'recibir (a alguien)': 'to receive (someone)', 'decir': 'to say', 'ser, estar (pasado)': 'to be (past)', 'visitar': 'to visit', 'vender': 'to sell', 'dormir': 'to sleep', 'caminar': 'to walk', 'llorar': 'to cry', 'invitar, llamar': 'to invite, to call', 'olvidar': 'to forget', 'quedarse': 'to stay', 'encontrar': 'to find', 'llegar': 'to arrive', 'extender': 'to extend', 'amar, gustar': 'to love, to like', 'comer': 'to eat', 'tomar, coger': 'to take'};
 export const VERBS = [
   V('كَتَبَ', 'escribir', { group: 'I', form: 1, root: 'كتب', pv: F, av: D, masdar: 'كِتَابَة' }),
   V('دَرَسَ', 'estudiar', { group: 'I', form: 1, root: 'درس', pv: F, av: D, masdar: 'دِرَاسَة' }),
@@ -180,6 +181,7 @@ export const VERBS = [
   V('مَدَّ', 'extender', { group: 'doble', kind: 'g', root: 'مد', av: D, masdar: 'مَدّ' }),
   V('أَحَبَّ', 'amar, gustar', { group: 'doble', kind: 't', model: 'ahabba', root: 'حب', masdar: 'حُبّ' }),
 ];
+for (const v of VERBS) v.en = VERB_EN[v.es] || v.es;
 
 // Irregular touches for hamzated Form I verbs: أَكَلَ / أَخَذَ.
 VERBS.push(

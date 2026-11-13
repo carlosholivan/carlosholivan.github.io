@@ -1,5 +1,5 @@
 // Japanese helpers (same interface as zh.js in the Chinese app): furigana ruby, readings, answer comparison.
-import { S } from './state.js?v=202611140400';
+import { S } from './state.js?v=202611140500';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -71,5 +71,6 @@ export function applyPinyinPref() {
 export function mean(m, lang = S.lang) {
   if (!m) return '';
   if (typeof m === 'string') return m;
-  return m[lang] || m.es || m.en || '';
+  // Missing in the user's language: English for non-Spanish speakers, then Spanish.
+  return m[lang] || (lang !== 'es' && m.en) || m.es || m.en || '';
 }

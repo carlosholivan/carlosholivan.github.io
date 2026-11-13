@@ -97,11 +97,11 @@ def parse(path):
             p = [x.strip() for x in line[3:].split('|')]
             if p[0] == 'choose':
                 os_ = [o.strip() for o in p[2].split('/')]
-                cur.setdefault('xex', []).append({'type': 'choose', 'prompt': {'es': p[1]}, 'options': [o.lstrip('*') for o in os_],
+                cur.setdefault('xex', []).append({'type': 'choose', 'prompt': L(p[1]), 'options': [o.lstrip('*') for o in os_],
                                                   'correct': next(o.lstrip('*') for o in os_ if o.startswith('*'))})
             elif p[0] == 'fill':
                 cur.setdefault('xex', []).append({'type': 'fill', 'sentence': p[1], 'blank': p[2],
-                                                  'options': [p[2]] + [o.strip() for o in p[3].split('/')], 'tr': {'es': p[4] if len(p) > 4 else ''}})
+                                                  'options': [p[2]] + [o.strip() for o in p[3].split('/')], 'tr': L(p[4]) if len(p) > 4 else {'es': ''}})
             random.Random(line).shuffle(cur['xex'][-1]['options'])
         elif line.startswith('? '):
             q, opts = [x.strip() for x in line[2:].split('|')]
@@ -182,15 +182,28 @@ def chunks(toks):
     return out
 
 SPK = re.compile(r'^[^：]{1,8}：')
+# English translations ({Spanish: English}, tools/texts/en/<level>.json, filled with tools/en_todo.py).
+EN = {}
+SENT_EN = {}
+def L(es, wrap=''):
+    out = {'es': f'{wrap[:1]}{es}{wrap[1:]}' if wrap else es}
+    en = EN.get(es) or SENT_EN.get(es)
+    if en: out['en'] = f'{wrap[:1]}{en}{wrap[1:]}' if wrap else en
+    return out
+def strip_en(en):
+    return re.sub(r'^[^:]{1,20}:\s*', '', en)
 def sentences(units_texts):
     out = []
     for t in units_texts:
         for para in t['paras']:
             for ja, es in para:
                 ja2, es2 = SPK.sub('', ja), re.sub(r'^[^:]{1,20}:\s*', '', es)
+                en2 = strip_en(EN[es]) if es in EN else None
                 # A whole line of dialogue: drop the quotes (and the speaker in the translation).
                 if ja2.startswith('「') and ja2.endswith('」') and ja2.count('「') == 1:
                     ja2, es2 = ja2[1:-1], es2.strip().strip('«»')
+                    if en2: en2 = en2.strip().strip('«»“”"')
+                if en2: SENT_EN[es2] = en2
                 if 4 <= len(ja2) <= 32 and '「' not in ja2:
                     out.append((ja2, es2))
     return out
@@ -210,14 +223,14 @@ def make_exercises(rng, sents, unit_words, all_words, n_fill=4, n_order=3, n_cho
         if len(cand_o) < 3: cand_o = [x for x in pool if x != w and x not in ja]
         opts = [w] + rng.sample(cand_o, 3)
         rng.shuffle(opts)
-        ex.append({'type': 'fill', 'sentence': ja.replace(w, '___', 1), 'blank': w, 'options': opts, 'tr': {'es': es}})
+        ex.append({'type': 'fill', 'sentence': ja.replace(w, '___', 1), 'blank': w, 'options': opts, 'tr': L(es)})
         used.add(ja)
     for ja, es in sents:
         if len([e for e in ex if e['type'] == 'order']) >= n_order: break
         if ja in used: continue
         ch = chunks(tokens(ja))
         if 3 <= len(ch) <= 7:
-            ex.append({'type': 'order', 'prompt': {'es': es}, 'words': ch, 'answer': ja})
+            ex.append({'type': 'order', 'prompt': L(es), 'words': ch, 'answer': ja})
             used.add(ja)
     rest = [s for s in sents if s[0] not in used]
     for ja, es in rest[:n_choose]:
@@ -225,7 +238,7 @@ def make_exercises(rng, sents, unit_words, all_words, n_fill=4, n_order=3, n_cho
         if len(others) < 2: break
         opts = [ja] + rng.sample(others, 2)
         rng.shuffle(opts)
-        ex.append({'type': 'choose', 'prompt': {'es': f'«{es}»'}, 'options': opts, 'correct': ja})
+        ex.append({'type': 'choose', 'prompt': L(es, '«»'), 'options': opts, 'correct': ja})
         used.add(ja)
     return ex
 
@@ -330,6 +343,9 @@ for lv in LEVELS:
     for v in vocab:
         furi[v['w']] = word_furi(v['w'], v['r'])
     path = ROOT / 'tools' / 'texts' / f'{lv}.txt'
+    EN.clear(); SENT_EN.clear()
+    enp = ROOT / 'tools' / 'texts' / 'en' / f'{lv}.json'
+    if enp.exists(): EN.update(json.load(open(enp, encoding='utf8')))
     rng = random.Random(lv)
     units_out, texts_out, extra = [], [], {}
     by_word = {v['w']: v for v in vocab}
@@ -358,11 +374,15 @@ for lv in LEVELS:
                     for kk in keys_for(vv): vocab_keys.setdefault(kk, vv['w'])
                 texts_out.append({
                     'id': f'{lv}-t{order}', 'level': lv, 'order': order, 'unit': u['id'],
-                    'title': {'ja': t['ja'], 'es': t['es'], 'en': t['es']},
+                    'title': {'ja': t['ja'], 'es': t['es'], 'en': EN.get(t['es'], t['es'])},
                     'summary': {'es': ''},
                     'paragraphs': ['\n'.join(ja for ja, _ in para) for para in t['paras']],
-                    'translation': {'es': ['\n'.join(es for _, es in para) for para in t['paras']]},
-                    'questions': t['qs'],
+                    'translation': {'es': ['\n'.join(es for _, es in para) for para in t['paras']],
+                                    **({'en': ['\n'.join(EN[es] for _, es in para) for para in t['paras']]}
+                                       if all(es in EN for para in t['paras'] for _, es in para) else {})},
+                    'questions': [{**q, 'q': L(q['q']['es']),
+                                   **({'options_en': [EN.get(o, o) for o in q['options']]} if any(o in EN for o in q['options']) else {})}
+                                  for q in t['qs']],
                     'gaps': make_gaps(t, vocab, rng),
                     # per paragraph → per line → tokens [surface, [[seg, reading]...], dictionary key]
                     'tok': [[merge_compounds(toks, vocab_keys) for toks in para] for para in tok],
@@ -382,7 +402,7 @@ for lv in LEVELS:
             sents = sentences(u['_texts'])
             units_out.append({
                 'id': u['id'], 'title': {'es': u['es'], 'en': u['en'], 'ja': u['_texts'][0]['ja'] if u['_texts'] else ''},
-                'desc': {'es': u['desc'], 'en': u['desc']}, 'grammar': u['grammar'], 'newVocab': new,
+                'desc': {'es': u['desc'], 'en': EN.get(u['desc'], u['desc'])}, 'grammar': u['grammar'], 'newVocab': new,
                 'grammarIntro': {'es': grammar_intro(u['grammar'], lv)} if u['grammar'] else None,
                 'exercises': u.get('xex', []) + make_exercises(rng, list(sents), new, list(by_word)),
             })
