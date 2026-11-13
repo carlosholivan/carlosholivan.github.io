@@ -1,4 +1,10 @@
-import { S } from './state.js?v=202611132000';
+import { S } from './state.js?v=202611132300';
+import { gemini, playBlob } from './gemini-tts.js?v=202611132300';
+
+// Optional Gemini voice with the user's own key (gemini-tts.js) for everything but the isolated tone
+// syllables of the pronunciation drills (speakAsync), which keep the recordings. Falls back to them.
+export const G = gemini('zh', 'cmn-CN');
+export const SAMPLE = '你好！我们一起学习中文吧。';
 
 // Pre-generated MP3s (tools/generate_audio.py); browser TTS is only a fallback and
 // only with a Mandarin voice, so text is never read with a foreign accent.
@@ -15,6 +21,7 @@ export const SPEEDS = [0.25, 0.5, 1, 1.5, 2];
 export const speed = () => { const r = +(S.settings?.rate); return SPEEDS.includes(r) ? r : 1; };
 
 export function stop() {
+  gtoken++;
   if (player) { player.pause(); player = null; }
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 }
@@ -23,7 +30,19 @@ export function speak(text) {
   if (!text || S.settings?.sound === false) return;
   const key = String(text).trim();
   stop();
-  const play = () => {
+  if (G.active) {
+    const my = ++gtoken;
+    G.clip(key).then(b => { if (my === gtoken) player = playBlob(b, speed()); })
+      .catch(() => { if (my === gtoken) (index ? playRecorded(key) : ready.then(() => playRecorded(key))); });
+    return;
+  }
+  const play = () => playRecorded(key);
+  if (index) play(); else ready.then(play);
+}
+let gtoken = 0;
+
+function playRecorded(key) {
+  {
     const file = index[key];
     if (file) {
       player = new Audio(`data/audio/${file}`);
@@ -32,8 +51,7 @@ export function speak(text) {
     } else {
       speakWithBrowser(key);
     }
-  };
-  if (index) play(); else ready.then(play);
+  }
 }
 
 function speakWithBrowser(text) {

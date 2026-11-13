@@ -1,11 +1,12 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132200';
-import { speak, SPEEDS, speed, tts, jaVoices, GEMINI_VOICES, testGemini } from '../audio.js?v=202611132200';
-import { esc } from '../ja.js?v=202611132200';
-import { register, go } from '../router.js?v=202611132200';
-import { bottomNav, header } from '../ui/components.js?v=202611132200';
-import { t } from '../i18n.js?v=202611132200';
-import { applyPinyinPref } from '../ja.js?v=202611132200';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132200';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132300';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611132300';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611132300';
+import { esc } from '../ja.js?v=202611132300';
+import { register, go } from '../router.js?v=202611132300';
+import { bottomNav, header } from '../ui/components.js?v=202611132300';
+import { t } from '../i18n.js?v=202611132300';
+import { applyPinyinPref } from '../ja.js?v=202611132300';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132300';
 
 register('settings', (el) => {
   const langs = [
@@ -80,25 +81,7 @@ register('settings', (el) => {
         <div class="mb-8">${t('audioSpeed')}</div>
         <div class="flex gap-8" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__setRate(${r})">×${r}</button>`).join('')}</div>
       </div>
-      <div class="mt-16">
-        <div class="mb-8">${t('ttsVoice')}</div>
-        <div class="flex gap-8 mb-8" style="flex-wrap:wrap">
-          <button class="chip ${tts.engine === 'device' && localStorage.getItem('nh_tts_engine') !== 'gemini' ? 'on' : ''}" onclick="window.__ttsEngine('device')">📱 ${t('ttsDevice')}</button>
-          <button class="chip ${localStorage.getItem('nh_tts_engine') === 'gemini' ? 'on' : ''}" onclick="window.__ttsEngine('gemini')">✨ ${t('ttsGemini')}</button>
-        </div>
-        ${localStorage.getItem('nh_tts_engine') === 'gemini' ? `
-          <div class="muted small mb-8">${t('ttsGeminiHint')}</div>
-          <input id="tts-key" type="password" class="vl-search" placeholder="${t('ttsKey')}" value="${esc(tts.key)}" autocomplete="off" style="width:100%;margin-bottom:8px">
-          <div class="flex gap-8 mb-8" style="flex-wrap:wrap">${GEMINI_VOICES.map(v => `<button class="chip ${tts.gvoice === v ? 'on' : ''}" onclick="window.__ttsGVoice('${v}')">${v}</button>`).join('')}</div>
-          <button class="btn btn-small" onclick="window.__ttsTest()">▶ ${t('ttsTest')}</button> <span id="tts-res" class="small"></span>`
-        : (() => { const vs = jaVoices(); return vs.length ? `
-          <select id="tts-dv" class="vl-search" style="width:100%;margin-bottom:8px" onchange="window.__ttsDVoice(this.value)">
-            <option value="">${t('ttsAuto')} — ${esc(vs[0].name)}</option>
-            ${vs.map(v => `<option value="${esc(v.name)}" ${tts.dvoice === v.name ? 'selected' : ''}>${esc(v.name)}</option>`).join('')}
-          </select>
-          <button class="btn btn-small" onclick="window.__ttsTest()">▶ ${t('ttsTest')}</button>
-          <div class="muted small mt-8">${t('ttsDeviceHint')}</div>` : `<div class="muted small">${t('ttsNoVoice')}</div><div class="muted small mt-8">${t('ttsDeviceHint')}</div>`; })()}
-      </div>
+      ${voiceSettings({ t, esc, G, voices: langVoices(), dvoice: deviceVoiceName() })}
     </div>
 
     <div class="card" style="padding:20px">
@@ -189,18 +172,6 @@ window.__setRate = (r) => {
   go('settings');
 };
 
-window.__ttsEngine = (e) => { tts.engine = e; go('settings'); };
-window.__ttsGVoice = (v) => { tts.gvoice = v; go('settings'); };
-window.__ttsDVoice = (v) => { tts.dvoice = v; speak('こんにちは。日本語を勉強しましょう。'); };
-window.__ttsTest = async () => {
-  const k = document.getElementById('tts-key');
-  if (k) {
-    tts.key = k.value;
-    const r = document.getElementById('tts-res');
-    if (r) r.textContent = '…';
-    try { await testGemini(); if (r) r.textContent = t('ttsOk'); } catch { if (r) r.textContent = t('ttsFail'); return; }
-  }
-  speak('こんにちは。日本語の勉強、がんばりましょう。');
-};
+wireVoiceSettings({ t, G, speak, sample: SAMPLE, rerender: () => go('settings'), setDeviceVoice });
 // Voices load asynchronously in some browsers: refresh the list once they arrive.
-if ('speechSynthesis' in window) window.speechSynthesis.addEventListener?.('voiceschanged', () => { if (document.querySelector('[onclick*="__ttsEngine"]') && !document.getElementById('tts-dv') && !document.getElementById('tts-key')) go('settings'); });
+if ('speechSynthesis' in window) window.speechSynthesis.addEventListener?.('voiceschanged', () => { if (document.getElementById('voice-settings') && !document.getElementById('tts-dv') && !document.getElementById('tts-key')) go('settings'); });

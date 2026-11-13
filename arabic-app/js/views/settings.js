@@ -1,10 +1,12 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132000';
-import { speak, SPEEDS, speed } from '../audio.js?v=202611132000';
-import { register, go } from '../router.js?v=202611132000';
-import { bottomNav, header } from '../ui/components.js?v=202611132000';
-import { t } from '../i18n.js?v=202611132000';
-import { applyPinyinPref } from '../ar.js?v=202611132000';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132000';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611132300';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611132300';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611132300';
+import { esc } from '../ar.js?v=202611132300';
+import { register, go } from '../router.js?v=202611132300';
+import { bottomNav, header } from '../ui/components.js?v=202611132300';
+import { t } from '../i18n.js?v=202611132300';
+import { applyPinyinPref } from '../ar.js?v=202611132300';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611132300';
 
 register('settings', (el) => {
   const langs = [
@@ -83,6 +85,7 @@ register('settings', (el) => {
         <div class="mb-8">${t('audioSpeed')}</div>
         <div class="flex gap-8" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__setRate(${r})">×${r}</button>`).join('')}</div>
       </div>
+      ${voiceSettings({ t, esc, G, voices: langVoices(), dvoice: deviceVoiceName() })}
     </div>
 
     <div class="card" style="padding:20px">
@@ -174,3 +177,7 @@ window.__setRate = (r) => {
   speak('مَرْحَبًا، أَهْلًا وَسَهْلًا!');
   go('settings');
 };
+
+wireVoiceSettings({ t, G, speak, sample: SAMPLE, rerender: () => go('settings'), setDeviceVoice: setDeviceVoice });
+// Voices load asynchronously in some browsers: refresh the list once they arrive.
+if ('speechSynthesis' in window) window.speechSynthesis.addEventListener?.('voiceschanged', () => { if (document.getElementById('voice-settings') && !document.getElementById('tts-dv') && !document.getElementById('tts-key')) go('settings'); });

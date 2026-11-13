@@ -1,5 +1,5 @@
 // Chinese helpers: pinyin lookup, ruby rendering with tone colours, pinyin answer comparison.
-import { S } from './state.js?v=202611132000';
+import { S } from './state.js?v=202611132300';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
