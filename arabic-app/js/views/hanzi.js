@@ -1,14 +1,14 @@
 // Arabic alphabet: grid of letters, letter sheet (name, sound, the four positional forms, words that use it).
-import { S, update } from '../state.js?v=202611140100';
-import { register } from '../router.js?v=202611140100';
-import { loadHanzi } from '../data.js?v=202611140100';
-import { levelLabel, LEVELS } from '../levels.js?v=202611140100';
-import { addCards } from '../engine/anki.js?v=202611140100';
-import { bottomNav, header } from '../ui/components.js?v=202611140100';
-import { speak } from '../audio.js?v=202611140100';
-import { t } from '../i18n.js?v=202611140100';
-import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611140100';
-import { allVocab, allHanzi } from './review.js?v=202611140100';
+import { S, update } from '../state.js?v=202611140130';
+import { register } from '../router.js?v=202611140130';
+import { loadHanzi } from '../data.js?v=202611140130';
+import { levelLabel, LEVELS } from '../levels.js?v=202611140130';
+import { addCards } from '../engine/anki.js?v=202611140130';
+import { bottomNav, header } from '../ui/components.js?v=202611140130';
+import { speak } from '../audio.js?v=202611140130';
+import { t } from '../i18n.js?v=202611140130';
+import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611140130';
+import { allVocab, allHanzi } from './review.js?v=202611140130';
 
 const POS = ['aislada', 'inicial', 'media', 'final'];
 

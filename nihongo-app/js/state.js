@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140100';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140130';
 
 const STORAGE_KEY = 'nihongo_state';
 
@@ -78,7 +78,8 @@ function migrateOld(o) {
 // Local save is immediate; the cloud copy is debounced and flushed when the tab is hidden or closed.
 let cloudTimer = null;
 export function save(state) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+  catch (e) { console.error('Local save failed:', e); cloudError({ message: 'No se pudo guardar en este navegador (espacio lleno): ' + (e.name || e.message) }); }
   if (isConfigured()) {
     clearTimeout(cloudTimer);
     cloudTimer = setTimeout(flushCloud, 3000);

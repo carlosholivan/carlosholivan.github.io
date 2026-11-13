@@ -1,16 +1,16 @@
-import { S, update } from '../state.js?v=202611140100';
-import { register, go } from '../router.js?v=202611140100';
-import { t } from '../i18n.js?v=202611140100';
-import { speak } from '../audio.js?v=202611140100';
-import { deckStats } from '../engine/anki.js?v=202611140100';
-import { failedWords } from '../engine/srs.js?v=202611140100';
-import { allVocab } from './review.js?v=202611140100';
-import { loadUnits } from '../data.js?v=202611140100';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611140100';
-import { textsWithRecommendation } from './texts.js?v=202611140100';
-import { ruby, pyReady } from '../ar.js?v=202611140100';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611140100';
-import { mascot } from '../ui/mascot.js?v=202611140100';
+import { S, update } from '../state.js?v=202611140130';
+import { register, go } from '../router.js?v=202611140130';
+import { t } from '../i18n.js?v=202611140130';
+import { speak } from '../audio.js?v=202611140130';
+import { deckStats } from '../engine/anki.js?v=202611140130';
+import { failedWords } from '../engine/srs.js?v=202611140130';
+import { allVocab } from './review.js?v=202611140130';
+import { loadUnits } from '../data.js?v=202611140130';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611140130';
+import { textsWithRecommendation } from './texts.js?v=202611140130';
+import { ruby, pyReady } from '../ar.js?v=202611140130';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611140130';
+import { mascot } from '../ui/mascot.js?v=202611140130';
 
 const zh = (s) => ruby(s);
 
