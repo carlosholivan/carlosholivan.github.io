@@ -1,16 +1,16 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { S, update, touchStreak } from '../state.js?v=202611131800';
-import { register, go } from '../router.js?v=202611131800';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611131800';
-import { LEVELS, levelLabel } from '../levels.js?v=202611131800';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611131800';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131800';
-import { speak } from '../audio.js?v=202611131800';
-import { t } from '../i18n.js?v=202611131800';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611131800';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131800';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611131800';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611131800';
+import { S, update, touchStreak } from '../state.js?v=202611131900';
+import { register, go } from '../router.js?v=202611131900';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611131900';
+import { LEVELS, levelLabel } from '../levels.js?v=202611131900';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611131900';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611131900';
+import { speak } from '../audio.js?v=202611131900';
+import { t } from '../i18n.js?v=202611131900';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611131900';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611131900';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611131900';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611131900';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -19,6 +19,8 @@ export async function allVocab() {
   for (const l of LEVELS) {
     try { for (const v of await loadVocab(l)) if (!m.has(v.w)) m.set(v.w, { ...v, lv: l }); } catch (e) {}
   }
+  // The device voice often misreads a lone kanji word (方, 今日, 一日…): let it read the dictionary kana instead.
+  window.__jaReading = (w) => { const v = m.get(w); return v && v.r; };
   return (vocabMap = m);
 }
 export async function allHanzi() {
