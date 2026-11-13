@@ -1,14 +1,14 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611140300';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611140300';
-import { readAnki } from '../anki-import.js?v=202611140300';
-import { allVocab } from './review.js?v=202611140300';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611140300';
-import { esc } from '../ar.js?v=202611140300';
-import { register, go } from '../router.js?v=202611140300';
-import { bottomNav, header } from '../ui/components.js?v=202611140300';
-import { t } from '../i18n.js?v=202611140300';
-import { applyPinyinPref } from '../ar.js?v=202611140300';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611140300';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611140400';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice } from '../audio.js?v=202611140400';
+import { readAnki } from '../anki-import.js?v=202611140400';
+import { allVocab } from './review.js?v=202611140400';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611140400';
+import { esc } from '../ar.js?v=202611140400';
+import { register, go } from '../router.js?v=202611140400';
+import { bottomNav, header } from '../ui/components.js?v=202611140400';
+import { t } from '../i18n.js?v=202611140400';
+import { applyPinyinPref } from '../ar.js?v=202611140400';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611140400';
 
 register('settings', (el) => {
   const langs = [
@@ -58,7 +58,7 @@ register('settings', (el) => {
     </div>
 
     <div class="card" style="padding:20px;margin-bottom:16px">
-      <div class="h3 mb-16">عَرَبِيّ · Lectura</div>
+      <div class="h3 mb-16">عَرَبِيّ · ${({ es: 'Lectura', en: 'Reading', ja: '読み方', ko: '읽기' })[S.lang] || 'Reading'}</div>
       <div class="flex items-center justify-between">
         <span>${t('showPinyin')}</span>
         <div class="toggle ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePinyin()"></div>

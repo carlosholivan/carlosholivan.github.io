@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140300';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611140400';
 
 const STORAGE_KEY = 'arabe_state';
 
@@ -79,7 +79,7 @@ function migrateOld(o) {
 let cloudTimer = null;
 export function save(state) {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
-  catch (e) { console.error('Local save failed:', e); cloudError({ message: 'No se pudo guardar en este navegador (espacio lleno): ' + (e.name || e.message) }); }
+  catch (e) { console.error('Local save failed:', e); cloudError({ message: ({ es: 'No se pudo guardar en este navegador (espacio lleno): ', en: 'Could not save in this browser (storage full): ', ja: 'このブラウザに保存できませんでした（容量不足）：', ko: '이 브라우저에 저장하지 못했어요(저장 공간 부족): ' }[S.lang] || 'Storage full: ') + (e.name || e.message) }); }
   if (isConfigured()) {
     clearTimeout(cloudTimer);
     cloudTimer = setTimeout(flushCloud, 3000);

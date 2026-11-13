@@ -1,6 +1,6 @@
-import { S } from './state.js?v=202611140300';
-import EXTRA from './i18n-extra.js?v=202611140300';
-import UI from './i18n-ui.js?v=202611140300';
+import { S } from './state.js?v=202611140400';
+import EXTRA from './i18n-extra.js?v=202611140400';
+import UI from './i18n-ui.js?v=202611140400';
 
 const T = {
   // Navigation
@@ -229,34 +229,34 @@ const T = {
   loggedInAs:   { es: 'Sesión iniciada como', en: 'Logged in as', ja: 'ログイン中：', ko: '로그인 계정:' },
   account:      { es: 'Cuenta', en: 'Account', ja: 'アカウント', ko: '계정' },
   synced:       { es: 'Progreso sincronizado en la nube', en: 'Progress synced to cloud', ja: '進捗はクラウドに同期済み', ko: '진도가 클라우드에 동기화됨' },
-  cardsNav:     { es: 'Tarjetas', en: 'Cards' },
-  cardsDeck:    { es: 'Tarjetas HSK 1–6', en: 'HSK 1–6 cards' },
-  ranking:      { es: 'Ranking', en: 'Ranking' },
-  anonymous:    { es: 'Anónimo', en: 'Anonymous' },
-  yourPoints:   { es: 'Tus puntos', en: 'Your points' },
-  rkVocab:      { es: 'Vocabulario', en: 'Vocabulary' },
-  rkMastered:   { es: 'dominadas', en: 'mastered' },
-  rkGrammar:    { es: 'Gramática', en: 'Grammar' },
-  rkLessons:    { es: 'lecciones', en: 'lessons' },
-  rkSets:       { es: 'tandas', en: 'sets' },
-  rkStreak:     { es: 'Racha', en: 'Streak' },
-  rkDays:       { es: 'días', en: 'days' },
-  rkHow:        { es: 'Palabra aprendiendo 1 · en repaso 2 · dominada 4 · lección 25 · tanda extra 5 · cada día de racha 10.', en: 'Word learning 1 · in review 2 · mastered 4 · lesson 25 · extra set 5 · each streak day 10.' },
-  rkLogin:      { es: 'Inicia sesión (con el correo verificado) para ver el ranking y aparecer en él.', en: 'Sign in (with a verified email) to see the ranking and appear in it.' },
-  rkEmpty:      { es: 'Aún no hay nadie en el ranking.', en: 'Nobody in the ranking yet.' },
-  rkPublic:     { es: 'En el ranking solo se muestran tu nombre y tus puntos.', en: 'Only your name and points are shown in the ranking.' },
-  rkError:      { es: 'No se pudo cargar el ranking.', en: 'Could not load the ranking.' },
-  reviewSeen:   { es: 'Repasar palabras vistas', en: 'Review seen words' },
-  learnNew:     { es: 'Aprender palabras nuevas', en: 'Learn new words' },
-  extraPractice:{ es: 'Práctica extra', en: 'Extra practice' },
-  extraPracticeHint: { es: 'Repasa sin límite las palabras que ya has visto, aunque no toque. No adelanta sus fechas; si fallas, vuelven a aprendizaje.', en: 'Unlimited practice of words you have already seen, even if not due. It does not push their dates forward; a miss sends them back to learning.' },
-  extraSet:     { es: 'Tanda', en: 'Set' },
-  extraSets:    { es: 'Tandas extra (opcionales)', en: 'Extra sets (optional)' },
-  setDone:      { es: '¡Tanda {n} completada!', en: 'Set {n} completed!' },
-  nextSet:      { es: 'Siguiente tanda', en: 'Next set' },
-  syncNow:      { es: 'Sincronizar ahora', en: 'Sync now' },
-  syncPending:  { es: 'Aún no se ha sincronizado en esta sesión', en: 'Not synced yet this session' },
-  syncNotVerified: { es: 'Email sin verificar: no se guarda en la nube', en: 'Email not verified: progress is not saved to the cloud' },
+  cardsNav:     { es: 'Tarjetas', en: 'Cards', ja: 'カード', ko: '카드' },
+  cardsDeck:    { es: 'Tarjetas HSK 1–6', en: 'HSK 1–6 cards', ja: 'HSK 1–6 カード', ko: 'HSK 1–6 카드' },
+  ranking:      { es: 'Ranking', en: 'Ranking', ja: 'ランキング', ko: '랭킹' },
+  anonymous:    { es: 'Anónimo', en: 'Anonymous', ja: '匿名', ko: '익명' },
+  yourPoints:   { es: 'Tus puntos', en: 'Your points', ja: 'あなたのポイント', ko: '내 점수' },
+  rkVocab:      { es: 'Vocabulario', en: 'Vocabulary', ja: '語彙', ko: '어휘' },
+  rkMastered:   { es: 'dominadas', en: 'mastered', ja: '習得', ko: '마스터' },
+  rkGrammar:    { es: 'Gramática', en: 'Grammar', ja: '文法', ko: '문법' },
+  rkLessons:    { es: 'lecciones', en: 'lessons', ja: 'レッスン', ko: '레슨' },
+  rkSets:       { es: 'tandas', en: 'sets', ja: 'セット', ko: '세트' },
+  rkStreak:     { es: 'Racha', en: 'Streak', ja: '連続記録', ko: '연속 학습' },
+  rkDays:       { es: 'días', en: 'days', ja: '日', ko: '일' },
+  rkHow:        { es: 'Palabra aprendiendo 1 · en repaso 2 · dominada 4 · lección 25 · tanda extra 5 · cada día de racha 10.', en: 'Word learning 1 · in review 2 · mastered 4 · lesson 25 · extra set 5 · each streak day 10.', ja: '学習中の単語 1・復習中 2・習得 4・レッスン 25・追加セット 5・連続1日ごとに 10。', ko: '학습 중인 단어 1 · 복습 중 2 · 마스터 4 · 레슨 25 · 추가 세트 5 · 연속 학습 하루마다 10.' },
+  rkLogin:      { es: 'Inicia sesión (con el correo verificado) para ver el ranking y aparecer en él.', en: 'Sign in (with a verified email) to see the ranking and appear in it.', ja: 'ランキングを見て参加するには、確認済みのメールでログインしてください。', ko: '랭킹을 보고 참여하려면 인증된 이메일로 로그인하세요.' },
+  rkEmpty:      { es: 'Aún no hay nadie en el ranking.', en: 'Nobody in the ranking yet.', ja: 'ランキングにはまだ誰もいません。', ko: '아직 랭킹에 아무도 없어요.' },
+  rkPublic:     { es: 'En el ranking solo se muestran tu nombre y tus puntos.', en: 'Only your name and points are shown in the ranking.', ja: 'ランキングに表示されるのは名前とポイントだけです。', ko: '랭킹에는 이름과 점수만 표시됩니다.' },
+  rkError:      { es: 'No se pudo cargar el ranking.', en: 'Could not load the ranking.', ja: 'ランキングを読み込めませんでした。', ko: '랭킹을 불러오지 못했어요.' },
+  reviewSeen:   { es: 'Repasar palabras vistas', en: 'Review seen words', ja: '学習済みの単語を復習', ko: '학습한 단어 복습' },
+  learnNew:     { es: 'Aprender palabras nuevas', en: 'Learn new words', ja: '新しい単語を学ぶ', ko: '새 단어 배우기' },
+  extraPractice:{ es: 'Práctica extra', en: 'Extra practice', ja: '追加練習', ko: '추가 연습' },
+  extraPracticeHint: { es: 'Repasa sin límite las palabras que ya has visto, aunque no toque. No adelanta sus fechas; si fallas, vuelven a aprendizaje.', en: 'Unlimited practice of words you have already seen, even if not due. It does not push their dates forward; a miss sends them back to learning.', ja: '期限前でも、学習済みの単語を好きなだけ練習できます。次回の日付は早まりません。間違えると学習中に戻ります。', ko: '복습 날짜가 아니어도 이미 본 단어를 무제한으로 연습해요. 날짜는 앞당겨지지 않으며, 틀리면 다시 학습 단계로 돌아가요.' },
+  extraSet:     { es: 'Tanda', en: 'Set', ja: 'セット', ko: '세트' },
+  extraSets:    { es: 'Tandas extra (opcionales)', en: 'Extra sets (optional)', ja: '追加セット（任意）', ko: '추가 세트(선택)' },
+  setDone:      { es: '¡Tanda {n} completada!', en: 'Set {n} completed!', ja: 'セット{n}完了！', ko: '세트 {n} 완료!' },
+  nextSet:      { es: 'Siguiente tanda', en: 'Next set', ja: '次のセット', ko: '다음 세트' },
+  syncNow:      { es: 'Sincronizar ahora', en: 'Sync now', ja: '今すぐ同期', ko: '지금 동기화' },
+  syncPending:  { es: 'Aún no se ha sincronizado en esta sesión', en: 'Not synced yet this session', ja: 'このセッションではまだ同期していません', ko: '이번 세션에서 아직 동기화하지 않았어요' },
+  syncNotVerified: { es: 'Email sin verificar: no se guarda en la nube', en: 'Email not verified: progress is not saved to the cloud', ja: 'メール未確認：進捗はクラウドに保存されません', ko: '이메일 미인증: 진도가 클라우드에 저장되지 않아요' },
 };
 
 Object.assign(T, EXTRA, UI);

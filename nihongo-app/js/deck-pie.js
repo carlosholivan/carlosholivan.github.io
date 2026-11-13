@@ -6,6 +6,8 @@ const CATS = [
 ];
 const LABEL = {
   es: { new: 'Nuevas', learn: 'Aprendiendo', relearn: 'Reaprendiendo', young: 'Jóvenes', mature: 'Maduras', known: 'Marcadas como sabidas', total: 'Total', title: 'Estadísticas del mazo', hint: 'Jóvenes: intervalo de menos de 21 días · Maduras: 21 días o más.' },
+  ja: { new: '新規', learn: '学習中', relearn: '再学習中', young: '未成熟', mature: '成熟', known: '既知にした', total: '合計', title: 'デッキの統計', hint: '未成熟：間隔21日未満 · 成熟：21日以上。' },
+  ko: { new: '새 카드', learn: '학습 중', relearn: '재학습 중', young: '초기', mature: '성숙', known: '안다고 표시함', total: '합계', title: '덱 통계', hint: '초기: 간격 21일 미만 · 성숙: 21일 이상.' },
   en: { new: 'New', learn: 'Learning', relearn: 'Relearning', young: 'Young', mature: 'Mature', known: 'Marked as known', total: 'Total', title: 'Deck statistics', hint: 'Young: interval under 21 days · Mature: 21 days or more.' },
 };
 
