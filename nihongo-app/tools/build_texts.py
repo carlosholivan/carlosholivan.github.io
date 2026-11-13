@@ -286,19 +286,23 @@ furi = {}
 prev_words = set()
 ALLV = {l: json.load(open(DATA / l / 'vocab.json', encoding='utf8')) for l in LEVELS}
 
+ALLR = {v['w']: v['r'] for l in ALLV for v in ALLV[l]}
+
 def merge_compounds(toks, keys):
     """Tokens for the reader: [surface, [[seg, reading]...], key]. Consecutive tokens whose joined surface is a
     dictionary word (お母さん, 日曜日, 図書館) become one clickable token."""
     out, i = [], 0
     while i < len(toks):
         hit = None
-        for n in range(min(5, len(toks) - i), 1, -1):
+        for n in range(min(8, len(toks) - i), 1, -1):
             surf = ''.join(t['s'] for t in toks[i:i + n])
             if surf in keys and not any(t['pos'] == '補助記号' for t in toks[i:i + n]):
                 hit = (n, surf); break
         if hit:
             n, surf = hit
             segs = [sg for t in toks[i:i + n] for sg in align(t['s'], t['r'])]
+            if keys[surf] == surf and ALLR.get(surf):  # the dictionary reading beats the per-token guess (生意気 = なまいき)
+                segs = word_furi(surf, ALLR[surf])
             out.append([surf, segs, keys[surf]]); i += n; continue
         x = toks[i]
         out.append([x['s'], align(x['s'], x['r']), next((keys[k] for k in (x['b'], x['s'], x['l']) if k in keys), None)])
