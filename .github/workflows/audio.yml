@@ -1,0 +1,61 @@
+name: App audio (edge-tts)
+
+# For every app: generates the missing MP3s with the free Microsoft Edge neural voices (tools/generate_audio.py),
+# re-encodes new clips to 32 kbps mono (.github/scripts/compress_audio.py), commits them and redeploys the site.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - "*/data/*/vocab.json"
+      - "*/data/*/texts.json"
+      - "*/data/*/examples.json"
+      - "*/data/*/extra.json"
+      - "*/data/*/drills.json"
+      - "*/data/*/units.json"
+      - "*/tools/generate_audio.py"
+      - "espanol-app/js/conj.js"
+      - ".github/workflows/audio.yml"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: app-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install edge-tts && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Generate missing clips
+        run: |
+          for app in espanol-app chino-app nihongo-app arabic-app; do
+            if [ -f $app/tools/generate_audio.py ]; then
+              echo "== $app"; (cd $app && python tools/generate_audio.py --jobs 8) || echo "$app failed"
+            fi
+          done
+      - name: Compress to 32 kbps
+        run: python .github/scripts/compress_audio.py espanol-app chino-app nihongo-app arabic-app
+      - name: Commit and redeploy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add */data/audio
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "audio: generated / compressed clips"
+          git pull -q --rebase origin master
+          git push -q origin HEAD:master
+          gh workflow run pages.yml --ref master
+        env:
+          GH_TOKEN: ${{ github.token }}

@@ -1,16 +1,16 @@
 // "Voice" block of the Settings screen, shared by the three apps.
 // opts: { t, esc, G (gemini() object), voices: SpeechSynthesisVoice[] | null (null = app has recorded audio),
 //         dvoice: chosen device voice name, sample: text used by the Test button }
-export function voiceSettings({ t, esc, G, voices, dvoice }) {
+export function voiceSettings({ t, esc, G, voices, dvoice, recorded = false }) {
   const gem = G.on;
   const device = voices === null
     ? `<div class="muted small">${t('ttsRecordedHint')}</div>`
     : voices.length ? `
       <select id="tts-dv" class="vl-search" style="width:100%;margin-bottom:8px" onchange="window.__ttsDVoice(this.value)">
-        <option value="">${t('ttsAuto')} — ${esc(voices[0].name)}</option>
+        <option value="">${recorded ? '🎧 ' + t('ttsRecorded') : `${t('ttsAuto')} — ${esc(voices[0].name)}`}</option>
         ${voices.map(v => `<option value="${esc(v.name)}" ${dvoice === v.name ? 'selected' : ''}>${esc(v.name)}</option>`).join('')}
       </select>
-      <div class="muted small mt-8">${t('ttsDeviceHint')}</div>`
+      <div class="muted small mt-8">${recorded && !dvoice ? t('ttsRecordedHint') : t('ttsDeviceHint')}</div>`
     : `<div class="muted small">${t('ttsNoVoice')}</div><div class="muted small mt-8">${t('ttsDeviceHint')}</div>`;
   return `<div class="mt-16" id="voice-settings">
     <div class="mb-8">${t('ttsVoice')}</div>

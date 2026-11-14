@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "audio"
 LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"]
 SCRIPT = re.compile(r"[\u0600-\u06ff]")
-SPEAKER = re.compile(r"^[^：\n]{1,8}：", re.M)      # "名前：" dialogue labels are not read (same as js/audio.js)
+SPEAKER = re.compile(r"^[^:：\n]{1,14}[:：]", re.M)      # "名前：" dialogue labels are not read (same as js/audio.js)
 
 
 def load(path):

@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611140500';
-import { gemini, playBlob } from './gemini-tts.js?v=202611140500';
+import { S } from './state.js?v=202611141600';
+import { gemini, playBlob } from './gemini-tts.js?v=202611141600';
 
 // Two engines:
 //  · device — the Arabic voice of the browser / OS. The best one available is picked automatically
@@ -55,8 +55,25 @@ function play(text, onend) {
   if (G.active) {
     G.clip(text)
       .then(b => { if (my === token) audio = playBlob(b, speed(), onend); })
-      .catch(() => { if (my === token) deviceSpeak(text, onend); });
-  } else deviceSpeak(text, onend);
+      .catch(() => { if (my === token) recordedOrDevice(text, onend, my); });
+  } else recordedOrDevice(text, onend, my);
+}
+
+// Pre-generated MP3s (tools/generate_audio.py, edge-tts) unless the user picked a device voice in Settings.
+let index = null;
+const ready = fetch('data/audio/index.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(d => { index = d; });
+export const hasRecorded = () => ready.then(() => Object.keys(index || {}).length > 0);
+function recordedOrDevice(text, onend, my) {
+  const go = () => {
+    if (my !== token) return;
+    const file = !deviceVoiceName() && index && index[text.trim()];
+    if (!file) return deviceSpeak(text, onend);
+    audio = new Audio(`data/audio/${file}`);
+    audio.playbackRate = speed();
+    if (onend) audio.onended = audio.onerror = onend;
+    audio.play().catch(() => deviceSpeak(text, onend));
+  };
+  index ? go() : ready.then(go);
 }
 
 export function speak(text) {

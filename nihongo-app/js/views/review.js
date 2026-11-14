@@ -1,17 +1,17 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { deckPie } from '../deck-pie.js?v=202611141000';
-import { S, update, touchStreak } from '../state.js?v=202611141000';
-import { register, go } from '../router.js?v=202611141000';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141000';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141000';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141000';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141000';
-import { speak } from '../audio.js?v=202611141000';
-import { t } from '../i18n.js?v=202611141000';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611141000';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141000';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611141000';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611141000';
+import { deckPie } from '../deck-pie.js?v=202611141600';
+import { S, update, touchStreak } from '../state.js?v=202611141600';
+import { register, go } from '../router.js?v=202611141600';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141600';
+import { LEVELS, levelLabel } from '../levels.js?v=202611141600';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141600';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141600';
+import { speak } from '../audio.js?v=202611141600';
+import { t } from '../i18n.js?v=202611141600';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611141600';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141600';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611141600';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611141600';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
