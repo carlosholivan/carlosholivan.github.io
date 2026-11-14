@@ -22,6 +22,10 @@ LEVELS = ["a1", "a2", "b1", "b2", "c1"]
 UI_PHRASES = ["Encantado de tenerte de vuelta.", "Encantado de conocerte.", "¿Qué quieres estudiar hoy?",
               "¿Cuál es tu nivel de español?", "¡Cuánto tiempo! Te echábamos de menos."]
 UI_PHRASES += [f"Hace {d} días que no te veíamos." for d in range(2, 30)]
+UI_PHRASES += ["¡Qué bien verte de nuevo!", "¡Encantado de conocerte!", "¿Qué nivel de español tienes?",
+               "¿Cómo te llamas?", "¿Qué quieres aprender hoy?", "¡Hola, bienvenido!", "¡Hola!",
+               "¡Hola! ¿Qué tal? Vamos a aprender español juntos."]
+UI_PHRASES += [f"Llevas {d} días sin estudiar." for d in range(2, 30)]
 
 
 def collect_texts():
@@ -42,7 +46,7 @@ def collect_texts():
         for v in json.loads((ROOT / f"data/{lv}/vocab.json").read_text(encoding="utf-8")):
             texts.add(v["word"])
         for u in json.loads((ROOT / f"data/{lv}/units.json").read_text(encoding="utf-8")):
-            texts.update(v["word"] for v in u.get("newVocab", []))
+            texts.update(v if isinstance(v, str) else v["word"] for v in u.get("newVocab", []))
             texts.update(u.get("vocab", []))
             for ex in u.get("exercises", []):
                 t = ex["type"]
@@ -54,6 +58,24 @@ def collect_texts():
                     texts.update(p[0] for p in ex["pairs"])
                 elif t == "listen":
                     texts.add(ex["text"])
+        # example sentences on the cards and the optional practice sets 2–7
+        ef = ROOT / f"data/{lv}/examples.json"
+        if ef.exists():
+            for exs in json.loads(ef.read_text(encoding="utf-8")).values():
+                texts.update(e[0] for e in exs)
+        xf = ROOT / f"data/{lv}/extra.json"
+        if xf.exists():
+            for unit in json.loads(xf.read_text(encoding="utf-8")).values():
+                for st in unit["sets"]:
+                    for ex in st:
+                        if ex["type"] == "fill":
+                            texts.add(ex["sentence"].replace("___", ex["blank"]))
+                        elif ex["type"] == "order":
+                            texts.add(ex["answer"])
+                        elif ex["type"] == "choose":
+                            texts.add(ex["correct"])
+    from conj_forms import conj_forms   # every form of the conjugation tables (tools/conj_forms.py)
+    texts.update(conj_forms())
     return sorted(t.strip() for t in texts if t and t.strip())
 
 
