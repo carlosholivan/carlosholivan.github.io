@@ -1,14 +1,15 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { S, update } from '../state.js?v=202611141600';
-import { register, go } from '../router.js?v=202611141600';
-import { loadUnits } from '../data.js?v=202611141600';
-import { bottomNav, header } from '../ui/components.js?v=202611141600';
-import { t } from '../i18n.js?v=202611141600';
-import { levelChips, levelLabel } from '../levels.js?v=202611141600';
-import { speak } from '../audio.js?v=202611141600';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611141600';
-import { allVocab } from './review.js?v=202611141600';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611141600';
+import { enLine, enInline } from '../en-gloss.js?v=202611141800';
+import { S, update } from '../state.js?v=202611141800';
+import { register, go } from '../router.js?v=202611141800';
+import { loadUnits } from '../data.js?v=202611141800';
+import { bottomNav, header } from '../ui/components.js?v=202611141800';
+import { t } from '../i18n.js?v=202611141800';
+import { levelChips, levelLabel } from '../levels.js?v=202611141800';
+import { speak } from '../audio.js?v=202611141800';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611141800';
+import { allVocab } from './review.js?v=202611141800';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611141800';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -64,7 +65,7 @@ async function renderVocab(box) {
       <span class="st-dot" style="background:${STATUS[st[i]].color}"></span>
       <span class="rv-w zh-word" style="color:${STATUS[st[i]].color}">${esc(v.w)}</span>
       <span class="rv-p">${tonedPinyin(v.p)}</span>
-      <span class="rv-m muted small">${esc(mean(v.m))}</span>
+      <span class="rv-m muted small">${esc(mean(v.m))}${enInline(v.m)}</span>
     </div>`).join('')}</div>
   </div>`;
 }

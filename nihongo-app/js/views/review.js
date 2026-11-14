@@ -1,17 +1,18 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { deckPie } from '../deck-pie.js?v=202611141700';
-import { S, update, touchStreak } from '../state.js?v=202611141700';
-import { register, go } from '../router.js?v=202611141700';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141700';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141700';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141700';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141700';
-import { speak } from '../audio.js?v=202611141700';
-import { t } from '../i18n.js?v=202611141700';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611141700';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141700';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611141700';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611141700';
+import { enLine, enInline } from '../en-gloss.js?v=202611141800';
+import { deckPie } from '../deck-pie.js?v=202611141800';
+import { S, update, touchStreak } from '../state.js?v=202611141800';
+import { register, go } from '../router.js?v=202611141800';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141800';
+import { LEVELS, levelLabel } from '../levels.js?v=202611141800';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141800';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141800';
+import { speak } from '../audio.js?v=202611141800';
+import { t } from '../i18n.js?v=202611141800';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611141800';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141800';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611141800';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611141800';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -165,7 +166,7 @@ function runFailed(el, vm) {
       <div class="card anki-card" id="anki-card" onclick="window.__ankiShow()">
         <span class="anki-tag forgot">${t('failedTimes').replace('{n}', miss)}</span>
         <button class="anki-spk" onclick="event.stopPropagation();window.__ankiSpeak()">🔊</button>
-        <div class="anki-front"><div class="anki-mean">${esc(mean(v.m, lang))}</div></div>
+        <div class="anki-front"><div class="anki-mean">${esc(mean(v.m, lang))}</div>${enLine(v.m)}</div>
         <div class="anki-back" id="anki-back" style="display:none">
           <div class="anki-sep"></div>${charWord(w, hmFailed)}${vocabBack(v, lang)}
         </div>
@@ -281,7 +282,7 @@ function vocabBack(v, lang) {
   const cl = v.cl ? `<div class="muted small mt-8">${t('measureWord')}: ${esc(v.cl.join ? v.cl.join(', ') : v.cl)}</div>` : '';
   const note = v.x && mean(v.x, lang) ? `<div class="note-box mt-12">${esc(mean(v.x, lang))}</div>` : '';
   return `<div class="anki-py">${tonedPinyin(v.p, { play: true })}</div>
-    <div class="anki-ans">${esc(mean(v.m, lang))}</div>${trad}${cl}${note}
+    <div class="anki-ans">${esc(mean(v.m, lang))}</div>${enLine(v.m)}${trad}${cl}${note}
     <div class="muted small mt-8">${levelLabel(v.lv)}</div><div class="anki-syn" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div><div class="anki-ex" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div>`;
 }
 
@@ -298,7 +299,7 @@ export function hanziExtra(h, lang) {
 function hanziBack(h, vm, lang) {
   const words = (h.words || []).slice(0, 4).map(w => vm.get(w)).filter(Boolean);
   return `<div class="anki-py">${tonedPinyin(h.p, { play: true })}</div>
-    <div class="anki-ans">${esc(mean(h.m, lang))}</div>
+    <div class="anki-ans">${esc(mean(h.m, lang))}</div>${enLine(h.m)}
     ${hanziExtra(h, lang)}
     ${words.length ? `<div class="hz-words mt-12">${words.map(w => `<span class="vocab-pill"><span class="es">${esc(w.w)}</span><span class="tr">${esc(w.p)} · ${esc(mean(w.m, lang))}</span></span>`).join('')}</div>` : ''}
     <button class="btn btn-soft btn-small mt-12" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(h.c)}',back:'review'})">${t('charSheet')} →</button>`;
@@ -385,7 +386,7 @@ async function reviewView(el, params = {}) {
     window.__ankiGloss = null;
     if (d === 'h') {
       const h = hm.get(w) || { c: w, m: {} };
-      front = reverse ? `<div class="anki-mean">${esc(mean(h.m, lang))}</div><div class="muted small">${tonedPinyin(h.p || '')}</div>` : `<div class="anki-hz">${esc(w)}</div>`;
+      front = reverse ? `<div class="anki-mean">${esc(mean(h.m, lang))}</div>${enLine(h.m)}<div class="muted small">${tonedPinyin(h.p || '')}</div>` : `<div class="anki-hz">${esc(w)}</div>`;
       backHtml = (reverse ? `<div class="anki-hz">${esc(w)}</div>` : '') + hanziBack(h, vm, lang);
     } else {
       const v = vm.get(w) || { w, p: '', m: {} };
@@ -393,7 +394,7 @@ async function reviewView(el, params = {}) {
       const isNew = card.s === 'new';
       const plain = `<div class="anki-hz word" style="--wsize:${wordSize(w)}px">${esc(w)}</div>`;
       const glossed = hasChars(w, hm) ? charWord(w, hm, { back: self }) : plain;
-      front = reverse ? `<div class="anki-mean">${esc(mean(v.m, lang))}</div>` : `<div id="anki-word">${isNew ? glossed : plain}</div>`;
+      front = reverse ? `<div class="anki-mean">${esc(mean(v.m, lang))}</div>${enLine(v.m)}` : `<div id="anki-word">${isNew ? glossed : plain}</div>`;
       backHtml = (reverse ? glossed : '') + vocabBack(v, lang) + (hasChars(w, hm) ? `<div class="cg-tip">${t('tapCharHint')}</div>` : '');
       window.__ankiGloss = !reverse && !isNew && glossed !== plain ? glossed : null;
     }

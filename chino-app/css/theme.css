@@ -150,3 +150,6 @@ ruby rt { font-family: var(--sans); color: var(--accent) }
 .bd-n { font-size: 12px; color: var(--ink2) }
 .bd-p { font-size: 13px; font-weight: 600; color: var(--accent); width: 38px; text-align: right }
 .bd-row .progbar { height: 7px }
+
+.mean-en { font-size: 14px; color: var(--ink2); margin-top: 4px; font-style: italic }
+.mean-en-i { font-style: italic; opacity: .85 }

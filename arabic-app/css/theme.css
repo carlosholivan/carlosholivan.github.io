@@ -194,3 +194,6 @@ td .cj-r { display: inline; margin-left: 8px }
 .tp-cat .progbar, .tp-sub .progbar { width: 100% }
 .tp-sub { padding: 14px 16px; margin-bottom: 10px; cursor: pointer }
 .tp-peek { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--cjk); font-size: 15px }
+
+.mean-en { font-size: 14px; color: var(--ink2); margin-top: 4px; font-style: italic }
+.mean-en-i { font-style: italic; opacity: .85 }

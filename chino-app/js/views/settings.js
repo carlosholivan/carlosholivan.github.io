@@ -1,14 +1,14 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611141700';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611141700';
-import { readAnki } from '../anki-import.js?v=202611141700';
-import { allVocab } from './review.js?v=202611141700';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611141700';
-import { esc } from '../zh.js?v=202611141700';
-import { register, go } from '../router.js?v=202611141700';
-import { bottomNav, header } from '../ui/components.js?v=202611141700';
-import { t } from '../i18n.js?v=202611141700';
-import { applyPinyinPref } from '../zh.js?v=202611141700';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611141700';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611141800';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611141800';
+import { readAnki } from '../anki-import.js?v=202611141800';
+import { allVocab } from './review.js?v=202611141800';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611141800';
+import { esc } from '../zh.js?v=202611141800';
+import { register, go } from '../router.js?v=202611141800';
+import { bottomNav, header } from '../ui/components.js?v=202611141800';
+import { t } from '../i18n.js?v=202611141800';
+import { applyPinyinPref } from '../zh.js?v=202611141800';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611141800';
 
 register('settings', (el) => {
   const langs = [
@@ -55,6 +55,10 @@ register('settings', (el) => {
           <button class="chip ${S.lang === l.id ? 'on' : ''}" onclick="window.__setLang('${l.id}')">${l.label}</button>
         `).join('')}
       </div>
+      ${S.lang === 'es' ? `<div class="flex items-center justify-between mt-16">
+        <span>${t('showEnMean')}</span>
+        <div class="toggle ${S.showEn ? 'on' : ''}" onclick="window.__toggleShowEn()"></div>
+      </div>` : ''}
     </div>
 
     <div class="card" style="padding:20px;margin-bottom:16px">
@@ -105,6 +109,8 @@ window.__saveSettingsName = () => {
   const name = document.getElementById('settings-name').value.trim();
   if (name) { update({ name }); go('settings'); }
 };
+
+window.__toggleShowEn = () => { update({ showEn: !S.showEn }); go('settings'); };
 
 window.__setLang = (lang) => {
   update({ lang });

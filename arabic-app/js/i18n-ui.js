@@ -1,5 +1,6 @@
 // Strings for the shared Nihongo-style home and the character sheet / flashcard additions.
 export default {
+  showEnMean:   { es: 'Mostrar también la traducción al inglés en tarjetas y listas', en: 'Also show the English translation on cards and lists', ja: 'カードとリストに英訳も表示', ko: '카드와 목록에 영어 번역도 표시' },
   hello:        { es: 'Hola', en: 'Hi', ja: 'こんにちは', ko: '안녕하세요' },
   mascotHi:     { es: '¡Hola! Soy Mochi', en: "Hi! I'm Mochi", ja: 'こんにちは、モチです', ko: '안녕! 나는 모치' },
   mascotStreak: { es: 'Llevas <b>{n}</b> días seguidos. ¡Sigue así!', en: "You're on a <b>{n}</b>-day streak. Keep going!", ja: '<b>{n}</b>日連続です。その調子！', ko: '<b>{n}</b>일 연속이에요. 계속해요!' },
