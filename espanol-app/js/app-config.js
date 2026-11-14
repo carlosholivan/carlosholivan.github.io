@@ -12,6 +12,7 @@ export const CFG = {
     ['L', 'texts', 'textsSub', 'texts'],
     ['T', 'cardsNav', 'cardsSub', 'review'],
     ['V', 'vocabList', 'vocabListSub', 'vocab-list'],
+    ['M', 'topicsNav', 'topicsSub', 'topics'],
     ['G', 'grammarPractice', 'drillsSub', 'drills'],
     ['C', 'conjNav', 'conjSub', 'conj'],
     ['R', 'reference', 'grammarRefSub', 'reference'],

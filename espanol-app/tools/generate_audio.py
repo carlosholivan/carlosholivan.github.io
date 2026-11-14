@@ -15,7 +15,7 @@ import edge_tts
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "audio"
-LEVELS = ["a1", "a2", "b1", "b2", "c1"]
+LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"]
 
 
 # Fixed phrases spoken by the app UI (js/views/welcome.js).

@@ -1,0 +1,6512 @@
+[
+  {
+    "word": "abúlico",
+    "w": "abúlico",
+    "p": "",
+    "m": {
+      "en": "apathetic",
+      "zh": "意志消沉的",
+      "ja": "無気力な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3144
+  },
+  {
+    "word": "afable",
+    "w": "afable",
+    "p": "",
+    "m": {
+      "en": "affable",
+      "zh": "和蔼可亲的",
+      "ja": "愛想のよい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3145
+  },
+  {
+    "word": "avispado",
+    "w": "avispado",
+    "p": "",
+    "m": {
+      "en": "sharp; quick-witted",
+      "zh": "机灵的",
+      "ja": "頭の回転が速い"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3146
+  },
+  {
+    "word": "campechano",
+    "w": "campechano",
+    "p": "",
+    "m": {
+      "en": "down-to-earth",
+      "zh": "随和的",
+      "ja": "気さくな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3147
+  },
+  {
+    "word": "cicatero",
+    "w": "cicatero",
+    "p": "",
+    "m": {
+      "en": "stingy",
+      "zh": "吝啬的",
+      "ja": "けちな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3148
+  },
+  {
+    "word": "displicente",
+    "w": "displicente",
+    "p": "",
+    "m": {
+      "en": "disdainful",
+      "zh": "冷漠的",
+      "ja": "冷淡な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3149
+  },
+  {
+    "word": "díscolo",
+    "w": "díscolo",
+    "p": "",
+    "m": {
+      "en": "unruly",
+      "zh": "不听话的",
+      "ja": "手に負えない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3150
+  },
+  {
+    "word": "ecuánime",
+    "w": "ecuánime",
+    "p": "",
+    "m": {
+      "en": "even-tempered",
+      "zh": "心平气和的",
+      "ja": "冷静な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3151
+  },
+  {
+    "word": "fanfarrón",
+    "w": "fanfarrón",
+    "p": "",
+    "m": {
+      "en": "boastful",
+      "zh": "爱吹牛的",
+      "ja": "ほら吹きの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3152
+  },
+  {
+    "word": "iracundo",
+    "w": "iracundo",
+    "p": "",
+    "m": {
+      "en": "irascible",
+      "zh": "易怒的",
+      "ja": "怒りっぽい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3153
+  },
+  {
+    "word": "locuaz",
+    "w": "locuaz",
+    "p": "",
+    "m": {
+      "en": "talkative",
+      "zh": "健谈的",
+      "ja": "おしゃべりな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3154
+  },
+  {
+    "word": "melindroso",
+    "w": "melindroso",
+    "p": "",
+    "m": {
+      "en": "finicky",
+      "zh": "挑剔的",
+      "ja": "気取った"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3155
+  },
+  {
+    "word": "mojigato",
+    "w": "mojigato",
+    "p": "",
+    "m": {
+      "en": "prudish",
+      "zh": "假正经的",
+      "ja": "上品ぶった"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3156
+  },
+  {
+    "word": "pusilánime",
+    "w": "pusilánime",
+    "p": "",
+    "m": {
+      "en": "faint-hearted",
+      "zh": "懦弱的",
+      "ja": "意気地のない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3157
+  },
+  {
+    "word": "quisquilloso",
+    "w": "quisquilloso",
+    "p": "",
+    "m": {
+      "en": "fussy",
+      "zh": "吹毛求疵的",
+      "ja": "口うるさい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3158
+  },
+  {
+    "word": "socarrón",
+    "w": "socarrón",
+    "p": "",
+    "m": {
+      "en": "sly; wry",
+      "zh": "狡黠的",
+      "ja": "皮肉っぽい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3159
+  },
+  {
+    "word": "taciturno",
+    "w": "taciturno",
+    "p": "",
+    "m": {
+      "en": "taciturn",
+      "zh": "沉默寡言的",
+      "ja": "無口な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3160
+  },
+  {
+    "word": "zalamero",
+    "w": "zalamero",
+    "p": "",
+    "m": {
+      "en": "flattering",
+      "zh": "爱奉承的",
+      "ja": "へつらう"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3161
+  },
+  {
+    "word": "desaliñado",
+    "w": "desaliñado",
+    "p": "",
+    "m": {
+      "en": "scruffy",
+      "zh": "邋遢的",
+      "ja": "だらしない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3162
+  },
+  {
+    "word": "escuálido",
+    "w": "escuálido",
+    "p": "",
+    "m": {
+      "en": "scrawny",
+      "zh": "骨瘦如柴的",
+      "ja": "やせこけた"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3163
+  },
+  {
+    "word": "fornido",
+    "w": "fornido",
+    "p": "",
+    "m": {
+      "en": "burly",
+      "zh": "魁梧的",
+      "ja": "がっしりした"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3164
+  },
+  {
+    "word": "rechoncho",
+    "w": "rechoncho",
+    "p": "",
+    "m": {
+      "en": "chubby",
+      "zh": "矮胖的",
+      "ja": "ずんぐりした"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "individuo",
+    "q": 3165
+  },
+  {
+    "word": "avenencia",
+    "w": "avenencia",
+    "p": "",
+    "m": {
+      "en": "agreement",
+      "zh": "和睦",
+      "ja": "和合"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3166
+  },
+  {
+    "word": "camaradería",
+    "w": "camaradería",
+    "p": "",
+    "m": {
+      "en": "camaraderie",
+      "zh": "同志情谊",
+      "ja": "仲間意識"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3167
+  },
+  {
+    "word": "desplante",
+    "w": "desplante",
+    "p": "",
+    "m": {
+      "en": "snub",
+      "zh": "无礼",
+      "ja": "無礼な態度"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3168
+  },
+  {
+    "word": "idilio",
+    "w": "idilio",
+    "p": "",
+    "m": {
+      "en": "romance",
+      "zh": "恋情",
+      "ja": "恋愛・ロマンス"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3169
+  },
+  {
+    "word": "rencilla",
+    "w": "rencilla",
+    "p": "",
+    "m": {
+      "en": "quarrel",
+      "zh": "口角",
+      "ja": "いさかい"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3170
+  },
+  {
+    "word": "desaire",
+    "w": "desaire",
+    "p": "",
+    "m": {
+      "en": "slight",
+      "zh": "怠慢",
+      "ja": "冷遇"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3171
+  },
+  {
+    "word": "consanguíneo",
+    "w": "consanguíneo",
+    "p": "",
+    "m": {
+      "en": "related by blood",
+      "zh": "血亲的",
+      "ja": "血縁の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3172
+  },
+  {
+    "word": "alcahuete",
+    "w": "alcahuete",
+    "p": "",
+    "m": {
+      "en": "matchmaker; gossip",
+      "zh": "牵线人；搬弄是非者",
+      "ja": "仲人；告げ口屋"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3173
+  },
+  {
+    "word": "arrimarse",
+    "w": "arrimarse",
+    "p": "",
+    "m": {
+      "en": "to get close",
+      "zh": "靠近",
+      "ja": "近寄る"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3174
+  },
+  {
+    "word": "desairar",
+    "w": "desairar",
+    "p": "",
+    "m": {
+      "en": "to snub",
+      "zh": "冷落",
+      "ja": "冷たくあしらう"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3175
+  },
+  {
+    "word": "engatusar",
+    "w": "engatusar",
+    "p": "",
+    "m": {
+      "en": "to coax",
+      "zh": "哄骗",
+      "ja": "言いくるめる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3176
+  },
+  {
+    "word": "hacer las paces",
+    "w": "hacer las paces",
+    "p": "",
+    "m": {
+      "en": "to make up",
+      "zh": "和好",
+      "ja": "仲直りする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3177
+  },
+  {
+    "word": "llevarse a matar",
+    "w": "llevarse a matar",
+    "p": "",
+    "m": {
+      "en": "to be at daggers drawn",
+      "zh": "水火不容",
+      "ja": "犬猿の仲だ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3178
+  },
+  {
+    "word": "ponerse en la piel de",
+    "w": "ponerse en la piel de",
+    "p": "",
+    "m": {
+      "en": "to put oneself in someone's shoes",
+      "zh": "设身处地",
+      "ja": "〜の立場に立つ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3179
+  },
+  {
+    "word": "bacanal",
+    "w": "bacanal",
+    "p": "",
+    "m": {
+      "en": "orgy; feast",
+      "zh": "狂欢",
+      "ja": "大宴会"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3180
+  },
+  {
+    "word": "ágape",
+    "w": "ágape",
+    "p": "",
+    "m": {
+      "en": "banquet",
+      "zh": "宴会",
+      "ja": "宴会"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3181
+  },
+  {
+    "word": "condumio",
+    "w": "condumio",
+    "p": "",
+    "m": {
+      "en": "grub",
+      "zh": "吃食",
+      "ja": "食い物"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3182
+  },
+  {
+    "word": "escabeche",
+    "w": "escabeche",
+    "p": "",
+    "m": {
+      "en": "pickled marinade",
+      "zh": "醋渍",
+      "ja": "エスカベッシュ（酢漬け）"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3183
+  },
+  {
+    "word": "glotón",
+    "w": "glotón",
+    "p": "",
+    "m": {
+      "en": "gluttonous",
+      "zh": "贪吃的",
+      "ja": "大食いの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3184
+  },
+  {
+    "word": "frugal",
+    "w": "frugal",
+    "p": "",
+    "m": {
+      "en": "frugal",
+      "zh": "节俭的",
+      "ja": "質素な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3185
+  },
+  {
+    "word": "sibarita",
+    "w": "sibarita",
+    "p": "",
+    "m": {
+      "en": "epicure",
+      "zh": "美食家",
+      "ja": "美食家"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3186
+  },
+  {
+    "word": "paladear",
+    "w": "paladear",
+    "p": "",
+    "m": {
+      "en": "to savour",
+      "zh": "品味",
+      "ja": "味わう"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3187
+  },
+  {
+    "word": "atiborrarse",
+    "w": "atiborrarse",
+    "p": "",
+    "m": {
+      "en": "to stuff oneself",
+      "zh": "狼吞虎咽",
+      "ja": "たらふく食べる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3188
+  },
+  {
+    "word": "tener buen saque",
+    "w": "tener buen saque",
+    "p": "",
+    "m": {
+      "en": "to be a big eater",
+      "zh": "饭量大",
+      "ja": "大食いだ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3189
+  },
+  {
+    "word": "academicismo",
+    "w": "academicismo",
+    "p": "",
+    "m": {
+      "en": "academicism",
+      "zh": "学院派",
+      "ja": "アカデミズム"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3190
+  },
+  {
+    "word": "autodidacta",
+    "w": "autodidacta",
+    "p": "",
+    "m": {
+      "en": "self-taught person",
+      "zh": "自学者",
+      "ja": "独学者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3191
+  },
+  {
+    "word": "cátedra",
+    "w": "cátedra",
+    "p": "",
+    "m": {
+      "en": "chair (university)",
+      "zh": "教席",
+      "ja": "講座"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "educacion",
+    "q": 3192
+  },
+  {
+    "word": "compendio",
+    "w": "compendio",
+    "p": "",
+    "m": {
+      "en": "compendium",
+      "zh": "纲要",
+      "ja": "概要"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3193
+  },
+  {
+    "word": "didáctico",
+    "w": "didáctico",
+    "p": "",
+    "m": {
+      "en": "educational",
+      "zh": "教学的",
+      "ja": "教育的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3194
+  },
+  {
+    "word": "erudición",
+    "w": "erudición",
+    "p": "",
+    "m": {
+      "en": "erudition",
+      "zh": "博学",
+      "ja": "博識"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "educacion",
+    "q": 3195
+  },
+  {
+    "word": "pedante",
+    "w": "pedante",
+    "p": "",
+    "m": {
+      "en": "pedantic",
+      "zh": "卖弄学问的",
+      "ja": "学者ぶった"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3196
+  },
+  {
+    "word": "rudimentos",
+    "w": "rudimentos",
+    "p": "",
+    "m": {
+      "en": "rudiments",
+      "zh": "基础知识",
+      "ja": "初歩"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3197
+  },
+  {
+    "word": "empollar",
+    "w": "empollar",
+    "p": "",
+    "m": {
+      "en": "to cram",
+      "zh": "死记硬背",
+      "ja": "猛勉強する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3198
+  },
+  {
+    "word": "hacer novillos",
+    "w": "hacer novillos",
+    "p": "",
+    "m": {
+      "en": "to play truant",
+      "zh": "逃学",
+      "ja": "学校をさぼる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3199
+  },
+  {
+    "word": "absentismo",
+    "w": "absentismo",
+    "p": "",
+    "m": {
+      "en": "absenteeism",
+      "zh": "旷工",
+      "ja": "常習的欠勤"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3200
+  },
+  {
+    "word": "canonjía",
+    "w": "canonjía",
+    "p": "",
+    "m": {
+      "en": "sinecure",
+      "zh": "闲差",
+      "ja": "楽な仕事"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3201
+  },
+  {
+    "word": "emolumentos",
+    "w": "emolumentos",
+    "p": "",
+    "m": {
+      "en": "emoluments",
+      "zh": "报酬",
+      "ja": "報酬"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3202
+  },
+  {
+    "word": "escalafón",
+    "w": "escalafón",
+    "p": "",
+    "m": {
+      "en": "ranking; seniority list",
+      "zh": "级别",
+      "ja": "序列"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3203
+  },
+  {
+    "word": "estajanovista",
+    "w": "estajanovista",
+    "p": "",
+    "m": {
+      "en": "workaholic",
+      "zh": "工作狂",
+      "ja": "仕事の鬼"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3204
+  },
+  {
+    "word": "holgazán",
+    "w": "holgazán",
+    "p": "",
+    "m": {
+      "en": "idle",
+      "zh": "懒惰的",
+      "ja": "怠惰な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3205
+  },
+  {
+    "word": "menester",
+    "w": "menester",
+    "p": "",
+    "m": {
+      "en": "task; need",
+      "zh": "事务；需要",
+      "ja": "仕事；必要"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3206
+  },
+  {
+    "word": "precariado",
+    "w": "precariado",
+    "p": "",
+    "m": {
+      "en": "precariat",
+      "zh": "不稳定无产者",
+      "ja": "不安定労働者層"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3207
+  },
+  {
+    "word": "prebenda",
+    "w": "prebenda",
+    "p": "",
+    "m": {
+      "en": "perk",
+      "zh": "肥缺",
+      "ja": "役得"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3208
+  },
+  {
+    "word": "chollo",
+    "w": "chollo",
+    "p": "",
+    "m": {
+      "en": "bargain; cushy job",
+      "zh": "便宜货；美差",
+      "ja": "掘り出し物；楽な仕事"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3209
+  },
+  {
+    "word": "currar",
+    "w": "currar",
+    "p": "",
+    "m": {
+      "en": "to work (colloquial)",
+      "zh": "干活（口语）",
+      "ja": "働く（口語）"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3210
+  },
+  {
+    "word": "escaquearse",
+    "w": "escaquearse",
+    "p": "",
+    "m": {
+      "en": "to shirk",
+      "zh": "偷懒",
+      "ja": "さぼる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3211
+  },
+  {
+    "word": "pluriempleado",
+    "w": "pluriempleado",
+    "p": "",
+    "m": {
+      "en": "moonlighting",
+      "zh": "身兼数职的",
+      "ja": "兼業の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3212
+  },
+  {
+    "word": "trabajar a destajo",
+    "w": "trabajar a destajo",
+    "p": "",
+    "m": {
+      "en": "to do piecework",
+      "zh": "计件工作",
+      "ja": "出来高払いで働く"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3213
+  },
+  {
+    "word": "esparcimiento",
+    "w": "esparcimiento",
+    "p": "",
+    "m": {
+      "en": "recreation",
+      "zh": "消遣",
+      "ja": "気晴らし"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ocio",
+    "q": 3214
+  },
+  {
+    "word": "farra",
+    "w": "farra",
+    "p": "",
+    "m": {
+      "en": "binge; spree",
+      "zh": "狂欢",
+      "ja": "どんちゃん騒ぎ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3215
+  },
+  {
+    "word": "jolgorio",
+    "w": "jolgorio",
+    "p": "",
+    "m": {
+      "en": "revelry",
+      "zh": "狂欢作乐",
+      "ja": "お祭り騒ぎ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ocio",
+    "q": 3216
+  },
+  {
+    "word": "juerga",
+    "w": "juerga",
+    "p": "",
+    "m": {
+      "en": "partying",
+      "zh": "寻欢作乐",
+      "ja": "どんちゃん騒ぎ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3217
+  },
+  {
+    "word": "ociosidad",
+    "w": "ociosidad",
+    "p": "",
+    "m": {
+      "en": "idleness",
+      "zh": "闲散",
+      "ja": "無為"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3218
+  },
+  {
+    "word": "romería",
+    "w": "romería",
+    "p": "",
+    "m": {
+      "en": "pilgrimage festival",
+      "zh": "朝圣节庆",
+      "ja": "巡礼祭"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3219
+  },
+  {
+    "word": "verbena",
+    "w": "verbena",
+    "p": "",
+    "m": {
+      "en": "open-air party",
+      "zh": "露天舞会",
+      "ja": "夜祭り"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3220
+  },
+  {
+    "word": "irse de parranda",
+    "w": "irse de parranda",
+    "p": "",
+    "m": {
+      "en": "to go out partying",
+      "zh": "出去狂欢",
+      "ja": "飲み歩く"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ocio",
+    "q": 3221
+  },
+  {
+    "word": "tirar la casa por la ventana",
+    "w": "tirar la casa por la ventana",
+    "p": "",
+    "m": {
+      "en": "to spare no expense",
+      "zh": "大肆挥霍",
+      "ja": "大盤振る舞いする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ocio",
+    "q": 3222
+  },
+  {
+    "word": "amarillismo",
+    "w": "amarillismo",
+    "p": "",
+    "m": {
+      "en": "yellow journalism",
+      "zh": "黄色新闻",
+      "ja": "扇情的報道"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3223
+  },
+  {
+    "word": "desinformación",
+    "w": "desinformación",
+    "p": "",
+    "m": {
+      "en": "disinformation",
+      "zh": "虚假信息",
+      "ja": "偽情報"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3224
+  },
+  {
+    "word": "filtración",
+    "w": "filtración",
+    "p": "",
+    "m": {
+      "en": "leak",
+      "zh": "泄露",
+      "ja": "情報漏えい"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3225
+  },
+  {
+    "word": "injerencia",
+    "w": "injerencia",
+    "p": "",
+    "m": {
+      "en": "interference",
+      "zh": "干涉",
+      "ja": "干渉"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3226
+  },
+  {
+    "word": "libelo",
+    "w": "libelo",
+    "p": "",
+    "m": {
+      "en": "libel",
+      "zh": "诽谤文",
+      "ja": "誹謗文書"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3227
+  },
+  {
+    "word": "mentidero",
+    "w": "mentidero",
+    "p": "",
+    "m": {
+      "en": "gossip spot",
+      "zh": "闲话场所",
+      "ja": "うわさの場"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3228
+  },
+  {
+    "word": "panfleto",
+    "w": "panfleto",
+    "p": "",
+    "m": {
+      "en": "pamphlet",
+      "zh": "小册子",
+      "ja": "ビラ・パンフレット"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3229
+  },
+  {
+    "word": "paparazzi",
+    "w": "paparazzi",
+    "p": "",
+    "m": {
+      "en": "paparazzi",
+      "zh": "狗仔队",
+      "ja": "パパラッチ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3230
+  },
+  {
+    "word": "propaganda",
+    "w": "propaganda",
+    "p": "",
+    "m": {
+      "en": "propaganda",
+      "zh": "宣传",
+      "ja": "宣伝"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3231
+  },
+  {
+    "word": "rotativo",
+    "w": "rotativo",
+    "p": "",
+    "m": {
+      "en": "newspaper",
+      "zh": "报纸",
+      "ja": "新聞（輪転機）"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3232
+  },
+  {
+    "word": "sensacionalista",
+    "w": "sensacionalista",
+    "p": "",
+    "m": {
+      "en": "sensationalist",
+      "zh": "耸人听闻的",
+      "ja": "扇情的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "medios",
+    "q": 3233
+  },
+  {
+    "word": "apostilla",
+    "w": "apostilla",
+    "p": "",
+    "m": {
+      "en": "annotation",
+      "zh": "批注",
+      "ja": "注釈"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3234
+  },
+  {
+    "word": "buhardilla",
+    "w": "buhardilla",
+    "p": "",
+    "m": {
+      "en": "garret",
+      "zh": "阁楼",
+      "ja": "屋根裏部屋"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3235
+  },
+  {
+    "word": "cuchitril",
+    "w": "cuchitril",
+    "p": "",
+    "m": {
+      "en": "hovel",
+      "zh": "狗窝",
+      "ja": "ぼろ家"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3236
+  },
+  {
+    "word": "mansión",
+    "w": "mansión",
+    "p": "",
+    "m": {
+      "en": "mansion",
+      "zh": "豪宅",
+      "ja": "大邸宅"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3237
+  },
+  {
+    "word": "morada",
+    "w": "morada",
+    "p": "",
+    "m": {
+      "en": "dwelling",
+      "zh": "居所",
+      "ja": "住まい"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3238
+  },
+  {
+    "word": "inquilinato",
+    "w": "inquilinato",
+    "p": "",
+    "m": {
+      "en": "tenancy",
+      "zh": "租住",
+      "ja": "借家"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3239
+  },
+  {
+    "word": "tabique",
+    "w": "tabique",
+    "p": "",
+    "m": {
+      "en": "partition wall",
+      "zh": "隔墙",
+      "ja": "間仕切り"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3240
+  },
+  {
+    "word": "zaguán",
+    "w": "zaguán",
+    "p": "",
+    "m": {
+      "en": "entrance hall",
+      "zh": "门厅",
+      "ja": "玄関ホール"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3241
+  },
+  {
+    "word": "desvencijado",
+    "w": "desvencijado",
+    "p": "",
+    "m": {
+      "en": "rickety",
+      "zh": "摇摇欲坠的",
+      "ja": "がたがたの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "vivienda",
+    "q": 3242
+  },
+  {
+    "word": "destartalado",
+    "w": "destartalado",
+    "p": "",
+    "m": {
+      "en": "ramshackle",
+      "zh": "破烂的",
+      "ja": "荒れ果てた"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "vivienda",
+    "q": 3243
+  },
+  {
+    "word": "compulsar",
+    "w": "compulsar",
+    "p": "",
+    "m": {
+      "en": "to certify a copy",
+      "zh": "核证副本",
+      "ja": "写しを認証する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "servicios",
+    "q": 3244
+  },
+  {
+    "word": "diligencia",
+    "w": "diligencia",
+    "p": "",
+    "m": {
+      "en": "procedure; diligence",
+      "zh": "手续；勤勉",
+      "ja": "手続き；勤勉"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3245
+  },
+  {
+    "word": "expedir",
+    "w": "expedir",
+    "p": "",
+    "m": {
+      "en": "to issue",
+      "zh": "签发",
+      "ja": "発行する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "servicios",
+    "q": 3246
+  },
+  {
+    "word": "instancia",
+    "w": "instancia",
+    "p": "",
+    "m": {
+      "en": "application; instance",
+      "zh": "申请书；审级",
+      "ja": "申請書；審級"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3247
+  },
+  {
+    "word": "papeleo",
+    "w": "papeleo",
+    "p": "",
+    "m": {
+      "en": "paperwork",
+      "zh": "文书工作",
+      "ja": "書類仕事"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "servicios",
+    "q": 3248
+  },
+  {
+    "word": "prórroga",
+    "w": "prórroga",
+    "p": "",
+    "m": {
+      "en": "extension",
+      "zh": "延期",
+      "ja": "延長"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3249
+  },
+  {
+    "word": "requerimiento",
+    "w": "requerimiento",
+    "p": "",
+    "m": {
+      "en": "requirement; summons",
+      "zh": "要求；传票",
+      "ja": "要求；督促状"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "servicios",
+    "q": 3250
+  },
+  {
+    "word": "subsidio",
+    "w": "subsidio",
+    "p": "",
+    "m": {
+      "en": "benefit (allowance)",
+      "zh": "补助",
+      "ja": "手当"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "servicios",
+    "q": 3251
+  },
+  {
+    "word": "caprichos",
+    "w": "caprichos",
+    "p": "",
+    "m": {
+      "en": "whims",
+      "zh": "一时兴起",
+      "ja": "気まぐれ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3252
+  },
+  {
+    "word": "consumismo",
+    "w": "consumismo",
+    "p": "",
+    "m": {
+      "en": "consumerism",
+      "zh": "消费主义",
+      "ja": "消費主義"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3253
+  },
+  {
+    "word": "despilfarro",
+    "w": "despilfarro",
+    "p": "",
+    "m": {
+      "en": "waste",
+      "zh": "浪费",
+      "ja": "浪費"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3254
+  },
+  {
+    "word": "pacotilla",
+    "w": "pacotilla",
+    "p": "",
+    "m": {
+      "en": "junk",
+      "zh": "劣质货",
+      "ja": "粗悪品"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "compras",
+    "q": 3255
+  },
+  {
+    "word": "tacaño",
+    "w": "tacaño",
+    "p": "",
+    "m": {
+      "en": "stingy",
+      "zh": "小气的",
+      "ja": "けちな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3256
+  },
+  {
+    "word": "costar un riñón",
+    "w": "costar un riñón",
+    "p": "",
+    "m": {
+      "en": "to cost a fortune",
+      "zh": "贵得离谱",
+      "ja": "ものすごく高い"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3257
+  },
+  {
+    "word": "estar sin blanca",
+    "w": "estar sin blanca",
+    "p": "",
+    "m": {
+      "en": "to be broke",
+      "zh": "身无分文",
+      "ja": "一文無しだ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3258
+  },
+  {
+    "word": "convalecencia",
+    "w": "convalecencia",
+    "p": "",
+    "m": {
+      "en": "convalescence",
+      "zh": "康复期",
+      "ja": "回復期"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3259
+  },
+  {
+    "word": "dolor punzante",
+    "w": "dolor punzante",
+    "p": "",
+    "m": {
+      "en": "stabbing pain",
+      "zh": "刺痛",
+      "ja": "刺すような痛み"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "salud",
+    "q": 3260
+  },
+  {
+    "word": "eccema",
+    "w": "eccema",
+    "p": "",
+    "m": {
+      "en": "eczema",
+      "zh": "湿疹",
+      "ja": "湿疹"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "salud",
+    "q": 3261
+  },
+  {
+    "word": "inocuo",
+    "w": "inocuo",
+    "p": "",
+    "m": {
+      "en": "harmless",
+      "zh": "无害的",
+      "ja": "無害な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3262
+  },
+  {
+    "word": "letal",
+    "w": "letal",
+    "p": "",
+    "m": {
+      "en": "lethal",
+      "zh": "致命的",
+      "ja": "致命的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3263
+  },
+  {
+    "word": "paliativo",
+    "w": "paliativo",
+    "p": "",
+    "m": {
+      "en": "palliative",
+      "zh": "缓和的",
+      "ja": "緩和的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3264
+  },
+  {
+    "word": "pandémico",
+    "w": "pandémico",
+    "p": "",
+    "m": {
+      "en": "pandemic (adj.)",
+      "zh": "大流行的",
+      "ja": "世界的流行の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3265
+  },
+  {
+    "word": "patología",
+    "w": "patología",
+    "p": "",
+    "m": {
+      "en": "pathology",
+      "zh": "病理",
+      "ja": "病理"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3266
+  },
+  {
+    "word": "profilaxis",
+    "w": "profilaxis",
+    "p": "",
+    "m": {
+      "en": "prophylaxis",
+      "zh": "预防",
+      "ja": "予防法"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3267
+  },
+  {
+    "word": "achacoso",
+    "w": "achacoso",
+    "p": "",
+    "m": {
+      "en": "sickly",
+      "zh": "多病的",
+      "ja": "病気がちな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3268
+  },
+  {
+    "word": "estar hecho polvo",
+    "w": "estar hecho polvo",
+    "p": "",
+    "m": {
+      "en": "to be worn out",
+      "zh": "筋疲力尽",
+      "ja": "くたくただ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3269
+  },
+  {
+    "word": "estar como una rosa",
+    "w": "estar como una rosa",
+    "p": "",
+    "m": {
+      "en": "to be in great shape",
+      "zh": "精神焕发",
+      "ja": "元気いっぱいだ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3270
+  },
+  {
+    "word": "andanzas",
+    "w": "andanzas",
+    "p": "",
+    "m": {
+      "en": "adventures",
+      "zh": "游历",
+      "ja": "冒険・遍歴"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "viajes",
+    "q": 3271
+  },
+  {
+    "word": "errante",
+    "w": "errante",
+    "p": "",
+    "m": {
+      "en": "wandering",
+      "zh": "流浪的",
+      "ja": "さまよう"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3272
+  },
+  {
+    "word": "periplo",
+    "w": "periplo",
+    "p": "",
+    "m": {
+      "en": "long journey",
+      "zh": "长途旅行",
+      "ja": "長旅"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3273
+  },
+  {
+    "word": "travesía",
+    "w": "travesía",
+    "p": "",
+    "m": {
+      "en": "crossing",
+      "zh": "横渡",
+      "ja": "横断"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "viajes",
+    "q": 3274
+  },
+  {
+    "word": "trotamundos",
+    "w": "trotamundos",
+    "p": "",
+    "m": {
+      "en": "globetrotter",
+      "zh": "环球旅行者",
+      "ja": "世界を旅する人"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3275
+  },
+  {
+    "word": "vagabundear",
+    "w": "vagabundear",
+    "p": "",
+    "m": {
+      "en": "to wander",
+      "zh": "流浪",
+      "ja": "放浪する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3276
+  },
+  {
+    "word": "hacer dedo",
+    "w": "hacer dedo",
+    "p": "",
+    "m": {
+      "en": "to hitchhike",
+      "zh": "搭便车",
+      "ja": "ヒッチハイクする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3277
+  },
+  {
+    "word": "ir de punta en blanco",
+    "w": "ir de punta en blanco",
+    "p": "",
+    "m": {
+      "en": "to be dressed to the nines",
+      "zh": "盛装打扮",
+      "ja": "めかし込む"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3278
+  },
+  {
+    "word": "apalancamiento",
+    "w": "apalancamiento",
+    "p": "",
+    "m": {
+      "en": "leverage",
+      "zh": "杠杆",
+      "ja": "レバレッジ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3279
+  },
+  {
+    "word": "autarquía",
+    "w": "autarquía",
+    "p": "",
+    "m": {
+      "en": "autarky",
+      "zh": "自给自足",
+      "ja": "自給自足経済"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3280
+  },
+  {
+    "word": "capital riesgo",
+    "w": "capital riesgo",
+    "p": "",
+    "m": {
+      "en": "venture capital",
+      "zh": "风险投资",
+      "ja": "ベンチャーキャピタル"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3281
+  },
+  {
+    "word": "desaceleración",
+    "w": "desaceleración",
+    "p": "",
+    "m": {
+      "en": "slowdown",
+      "zh": "放缓",
+      "ja": "減速"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3282
+  },
+  {
+    "word": "dividendo",
+    "w": "dividendo",
+    "p": "",
+    "m": {
+      "en": "dividend",
+      "zh": "股息",
+      "ja": "配当"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3283
+  },
+  {
+    "word": "endeudamiento",
+    "w": "endeudamiento",
+    "p": "",
+    "m": {
+      "en": "indebtedness",
+      "zh": "负债",
+      "ja": "負債"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3284
+  },
+  {
+    "word": "erario",
+    "w": "erario",
+    "p": "",
+    "m": {
+      "en": "public treasury",
+      "zh": "国库",
+      "ja": "国庫"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3285
+  },
+  {
+    "word": "estanflación",
+    "w": "estanflación",
+    "p": "",
+    "m": {
+      "en": "stagflation",
+      "zh": "滞胀",
+      "ja": "スタグフレーション"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3286
+  },
+  {
+    "word": "fusión",
+    "w": "fusión",
+    "p": "",
+    "m": {
+      "en": "merger",
+      "zh": "合并",
+      "ja": "合併"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3287
+  },
+  {
+    "word": "lucro",
+    "w": "lucro",
+    "p": "",
+    "m": {
+      "en": "profit",
+      "zh": "盈利",
+      "ja": "利益"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3288
+  },
+  {
+    "word": "plusvalía",
+    "w": "plusvalía",
+    "p": "",
+    "m": {
+      "en": "capital gain",
+      "zh": "增值",
+      "ja": "キャピタルゲイン"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3289
+  },
+  {
+    "word": "solvencia",
+    "w": "solvencia",
+    "p": "",
+    "m": {
+      "en": "solvency",
+      "zh": "偿付能力",
+      "ja": "支払能力"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3290
+  },
+  {
+    "word": "testaferro",
+    "w": "testaferro",
+    "p": "",
+    "m": {
+      "en": "front man",
+      "zh": "挂名人",
+      "ja": "名義人"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3291
+  },
+  {
+    "word": "usura",
+    "w": "usura",
+    "p": "",
+    "m": {
+      "en": "usury",
+      "zh": "高利贷",
+      "ja": "高利貸し"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3292
+  },
+  {
+    "word": "blanqueo de capitales",
+    "w": "blanqueo de capitales",
+    "p": "",
+    "m": {
+      "en": "money laundering",
+      "zh": "洗钱",
+      "ja": "マネーロンダリング"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3293
+  },
+  {
+    "word": "biotecnología",
+    "w": "biotecnología",
+    "p": "",
+    "m": {
+      "en": "biotechnology",
+      "zh": "生物技术",
+      "ja": "バイオテクノロジー"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3294
+  },
+  {
+    "word": "cuántico",
+    "w": "cuántico",
+    "p": "",
+    "m": {
+      "en": "quantum",
+      "zh": "量子的",
+      "ja": "量子の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ciencia",
+    "q": 3295
+  },
+  {
+    "word": "empírico",
+    "w": "empírico",
+    "p": "",
+    "m": {
+      "en": "empirical",
+      "zh": "经验的",
+      "ja": "経験的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ciencia",
+    "q": 3296
+  },
+  {
+    "word": "entropía",
+    "w": "entropía",
+    "p": "",
+    "m": {
+      "en": "entropy",
+      "zh": "熵",
+      "ja": "エントロピー"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3297
+  },
+  {
+    "word": "paradigma",
+    "w": "paradigma",
+    "p": "",
+    "m": {
+      "en": "paradigm",
+      "zh": "范式",
+      "ja": "パラダイム"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3298
+  },
+  {
+    "word": "postulado",
+    "w": "postulado",
+    "p": "",
+    "m": {
+      "en": "postulate",
+      "zh": "公设",
+      "ja": "仮定"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3299
+  },
+  {
+    "word": "refutar",
+    "w": "refutar",
+    "p": "",
+    "m": {
+      "en": "to refute",
+      "zh": "驳斥",
+      "ja": "反証する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ciencia",
+    "q": 3300
+  },
+  {
+    "word": "sinergia",
+    "w": "sinergia",
+    "p": "",
+    "m": {
+      "en": "synergy",
+      "zh": "协同效应",
+      "ja": "相乗効果"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3301
+  },
+  {
+    "word": "teorema",
+    "w": "teorema",
+    "p": "",
+    "m": {
+      "en": "theorem",
+      "zh": "定理",
+      "ja": "定理"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3302
+  },
+  {
+    "word": "obsolescencia",
+    "w": "obsolescencia",
+    "p": "",
+    "m": {
+      "en": "obsolescence",
+      "zh": "过时",
+      "ja": "陳腐化"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3303
+  },
+  {
+    "word": "aforamiento",
+    "w": "aforamiento",
+    "p": "",
+    "m": {
+      "en": "parliamentary immunity",
+      "zh": "豁免权",
+      "ja": "議員特権"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3304
+  },
+  {
+    "word": "caciquismo",
+    "w": "caciquismo",
+    "p": "",
+    "m": {
+      "en": "political bossism",
+      "zh": "地方豪强政治",
+      "ja": "ボス政治"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3305
+  },
+  {
+    "word": "clientelismo",
+    "w": "clientelismo",
+    "p": "",
+    "m": {
+      "en": "patronage politics",
+      "zh": "庇护主义",
+      "ja": "縁故主義"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3306
+  },
+  {
+    "word": "demagogia",
+    "w": "demagogia",
+    "p": "",
+    "m": {
+      "en": "demagoguery",
+      "zh": "煽动",
+      "ja": "扇動政治"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3307
+  },
+  {
+    "word": "derogar",
+    "w": "derogar",
+    "p": "",
+    "m": {
+      "en": "to repeal",
+      "zh": "废除",
+      "ja": "廃止する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "politica",
+    "q": 3308
+  },
+  {
+    "word": "enmienda",
+    "w": "enmienda",
+    "p": "",
+    "m": {
+      "en": "amendment",
+      "zh": "修正案",
+      "ja": "修正案"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3309
+  },
+  {
+    "word": "investidura",
+    "w": "investidura",
+    "p": "",
+    "m": {
+      "en": "investiture",
+      "zh": "就职",
+      "ja": "首相指名"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3310
+  },
+  {
+    "word": "nepotismo",
+    "w": "nepotismo",
+    "p": "",
+    "m": {
+      "en": "nepotism",
+      "zh": "任人唯亲",
+      "ja": "縁故採用"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3311
+  },
+  {
+    "word": "populismo",
+    "w": "populismo",
+    "p": "",
+    "m": {
+      "en": "populism",
+      "zh": "民粹主义",
+      "ja": "ポピュリズム"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3312
+  },
+  {
+    "word": "prevaricación",
+    "w": "prevaricación",
+    "p": "",
+    "m": {
+      "en": "malfeasance",
+      "zh": "渎职",
+      "ja": "職権乱用"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3313
+  },
+  {
+    "word": "promulgar",
+    "w": "promulgar",
+    "p": "",
+    "m": {
+      "en": "to enact",
+      "zh": "颁布",
+      "ja": "公布する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "politica",
+    "q": 3314
+  },
+  {
+    "word": "sedición",
+    "w": "sedición",
+    "p": "",
+    "m": {
+      "en": "sedition",
+      "zh": "煽动叛乱",
+      "ja": "扇動罪"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3315
+  },
+  {
+    "word": "tránsfuga",
+    "w": "tránsfuga",
+    "p": "",
+    "m": {
+      "en": "defector",
+      "zh": "叛党者",
+      "ja": "離党者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3316
+  },
+  {
+    "word": "cohecho",
+    "w": "cohecho",
+    "p": "",
+    "m": {
+      "en": "bribery",
+      "zh": "贿赂",
+      "ja": "贈収賄"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3317
+  },
+  {
+    "word": "prescribir",
+    "w": "prescribir",
+    "p": "",
+    "m": {
+      "en": "to expire (legal); to prescribe",
+      "zh": "失效；开处方",
+      "ja": "時効になる；処方する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "politica",
+    "q": 3318
+  },
+  {
+    "word": "alegoría",
+    "w": "alegoría",
+    "p": "",
+    "m": {
+      "en": "allegory",
+      "zh": "寓言",
+      "ja": "寓意"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3319
+  },
+  {
+    "word": "barroco",
+    "w": "barroco",
+    "p": "",
+    "m": {
+      "en": "baroque",
+      "zh": "巴洛克的",
+      "ja": "バロックの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "arte",
+    "q": 3320
+  },
+  {
+    "word": "claroscuro",
+    "w": "claroscuro",
+    "p": "",
+    "m": {
+      "en": "chiaroscuro",
+      "zh": "明暗对照",
+      "ja": "明暗法"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3321
+  },
+  {
+    "word": "elegía",
+    "w": "elegía",
+    "p": "",
+    "m": {
+      "en": "elegy",
+      "zh": "挽歌",
+      "ja": "哀歌"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3322
+  },
+  {
+    "word": "esperpento",
+    "w": "esperpento",
+    "p": "",
+    "m": {
+      "en": "grotesque",
+      "zh": "怪诞",
+      "ja": "グロテスクなもの"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3323
+  },
+  {
+    "word": "hipérbole",
+    "w": "hipérbole",
+    "p": "",
+    "m": {
+      "en": "hyperbole",
+      "zh": "夸张",
+      "ja": "誇張法"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3324
+  },
+  {
+    "word": "ironía",
+    "w": "ironía",
+    "p": "",
+    "m": {
+      "en": "irony",
+      "zh": "讽刺",
+      "ja": "皮肉"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3325
+  },
+  {
+    "word": "musa",
+    "w": "musa",
+    "p": "",
+    "m": {
+      "en": "muse",
+      "zh": "缪斯",
+      "ja": "ミューズ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3326
+  },
+  {
+    "word": "oda",
+    "w": "oda",
+    "p": "",
+    "m": {
+      "en": "ode",
+      "zh": "颂歌",
+      "ja": "頌歌"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3327
+  },
+  {
+    "word": "pastiche",
+    "w": "pastiche",
+    "p": "",
+    "m": {
+      "en": "pastiche",
+      "zh": "仿作",
+      "ja": "模倣作品"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3328
+  },
+  {
+    "word": "soneto",
+    "w": "soneto",
+    "p": "",
+    "m": {
+      "en": "sonnet",
+      "zh": "十四行诗",
+      "ja": "ソネット"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3329
+  },
+  {
+    "word": "virtuoso",
+    "w": "virtuoso",
+    "p": "",
+    "m": {
+      "en": "virtuoso",
+      "zh": "大师",
+      "ja": "名手"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3330
+  },
+  {
+    "word": "agnóstico",
+    "w": "agnóstico",
+    "p": "",
+    "m": {
+      "en": "agnostic",
+      "zh": "不可知论者",
+      "ja": "不可知論者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3331
+  },
+  {
+    "word": "dogma",
+    "w": "dogma",
+    "p": "",
+    "m": {
+      "en": "dogma",
+      "zh": "教条",
+      "ja": "教義"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3332
+  },
+  {
+    "word": "herejía",
+    "w": "herejía",
+    "p": "",
+    "m": {
+      "en": "heresy",
+      "zh": "异端",
+      "ja": "異端"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3333
+  },
+  {
+    "word": "idolatría",
+    "w": "idolatría",
+    "p": "",
+    "m": {
+      "en": "idolatry",
+      "zh": "偶像崇拜",
+      "ja": "偶像崇拝"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3334
+  },
+  {
+    "word": "mística",
+    "w": "mística",
+    "p": "",
+    "m": {
+      "en": "mysticism",
+      "zh": "神秘主义",
+      "ja": "神秘主義"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3335
+  },
+  {
+    "word": "nihilismo",
+    "w": "nihilismo",
+    "p": "",
+    "m": {
+      "en": "nihilism",
+      "zh": "虚无主义",
+      "ja": "ニヒリズム"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3336
+  },
+  {
+    "word": "sacrilegio",
+    "w": "sacrilegio",
+    "p": "",
+    "m": {
+      "en": "sacrilege",
+      "zh": "亵渎",
+      "ja": "冒涜"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3337
+  },
+  {
+    "word": "secta",
+    "w": "secta",
+    "p": "",
+    "m": {
+      "en": "sect",
+      "zh": "教派；邪教",
+      "ja": "宗派・カルト"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3338
+  },
+  {
+    "word": "superstición",
+    "w": "superstición",
+    "p": "",
+    "m": {
+      "en": "superstition",
+      "zh": "迷信",
+      "ja": "迷信"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3339
+  },
+  {
+    "word": "trascendencia",
+    "w": "trascendencia",
+    "p": "",
+    "m": {
+      "en": "transcendence; significance",
+      "zh": "超越；重要性",
+      "ja": "超越；重要性"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3340
+  },
+  {
+    "word": "utopía",
+    "w": "utopía",
+    "p": "",
+    "m": {
+      "en": "utopia",
+      "zh": "乌托邦",
+      "ja": "ユートピア"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3341
+  },
+  {
+    "word": "ardid",
+    "w": "ardid",
+    "p": "",
+    "m": {
+      "en": "ruse",
+      "zh": "诡计",
+      "ja": "策略"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3342
+  },
+  {
+    "word": "baladí",
+    "w": "baladí",
+    "p": "",
+    "m": {
+      "en": "trivial",
+      "zh": "微不足道的",
+      "ja": "取るに足らない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3343
+  },
+  {
+    "word": "cariz",
+    "w": "cariz",
+    "p": "",
+    "m": {
+      "en": "look; turn (of events)",
+      "zh": "局势",
+      "ja": "様相"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3344
+  },
+  {
+    "word": "desazón",
+    "w": "desazón",
+    "p": "",
+    "m": {
+      "en": "unease",
+      "zh": "不安",
+      "ja": "不安"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3345
+  },
+  {
+    "word": "dislate",
+    "w": "dislate",
+    "p": "",
+    "m": {
+      "en": "absurdity",
+      "zh": "荒唐事",
+      "ja": "でたらめ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3346
+  },
+  {
+    "word": "embrollo",
+    "w": "embrollo",
+    "p": "",
+    "m": {
+      "en": "mess",
+      "zh": "混乱",
+      "ja": "ごたごた"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3347
+  },
+  {
+    "word": "enjundia",
+    "w": "enjundia",
+    "p": "",
+    "m": {
+      "en": "substance",
+      "zh": "实质",
+      "ja": "中身"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3348
+  },
+  {
+    "word": "estupor",
+    "w": "estupor",
+    "p": "",
+    "m": {
+      "en": "astonishment",
+      "zh": "惊愕",
+      "ja": "茫然"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3349
+  },
+  {
+    "word": "improperio",
+    "w": "improperio",
+    "p": "",
+    "m": {
+      "en": "insult",
+      "zh": "辱骂",
+      "ja": "罵り"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3350
+  },
+  {
+    "word": "mácula",
+    "w": "mácula",
+    "p": "",
+    "m": {
+      "en": "blemish",
+      "zh": "污点",
+      "ja": "汚点"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3351
+  },
+  {
+    "word": "quimera",
+    "w": "quimera",
+    "p": "",
+    "m": {
+      "en": "pipe dream",
+      "zh": "幻想",
+      "ja": "夢物語"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3352
+  },
+  {
+    "word": "recoveco",
+    "w": "recoveco",
+    "p": "",
+    "m": {
+      "en": "nook",
+      "zh": "角落",
+      "ja": "隅"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "general",
+    "q": 3353
+  },
+  {
+    "word": "vorágine",
+    "w": "vorágine",
+    "p": "",
+    "m": {
+      "en": "whirlwind",
+      "zh": "漩涡",
+      "ja": "渦"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3354
+  },
+  {
+    "word": "acicalarse",
+    "w": "acicalarse",
+    "p": "",
+    "m": {
+      "en": "to spruce up",
+      "zh": "打扮",
+      "ja": "身なりを整える"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3355
+  },
+  {
+    "word": "apabullar",
+    "w": "apabullar",
+    "p": "",
+    "m": {
+      "en": "to overwhelm",
+      "zh": "使不知所措",
+      "ja": "圧倒する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3356
+  },
+  {
+    "word": "aquiescencia",
+    "w": "aquiescencia",
+    "p": "",
+    "m": {
+      "en": "acquiescence",
+      "zh": "默许",
+      "ja": "黙認"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "general",
+    "q": 3357
+  },
+  {
+    "word": "barruntar",
+    "w": "barruntar",
+    "p": "",
+    "m": {
+      "en": "to sense",
+      "zh": "预感",
+      "ja": "予感する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3358
+  },
+  {
+    "word": "columbrar",
+    "w": "columbrar",
+    "p": "",
+    "m": {
+      "en": "to glimpse",
+      "zh": "远远看见",
+      "ja": "遠くに見る"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3359
+  },
+  {
+    "word": "denostar",
+    "w": "denostar",
+    "p": "",
+    "m": {
+      "en": "to revile",
+      "zh": "辱骂",
+      "ja": "罵る"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3360
+  },
+  {
+    "word": "dirimir",
+    "w": "dirimir",
+    "p": "",
+    "m": {
+      "en": "to settle",
+      "zh": "解决",
+      "ja": "解決する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3361
+  },
+  {
+    "word": "escarnecer",
+    "w": "escarnecer",
+    "p": "",
+    "m": {
+      "en": "to mock",
+      "zh": "嘲弄",
+      "ja": "嘲笑する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3362
+  },
+  {
+    "word": "increpar",
+    "w": "increpar",
+    "p": "",
+    "m": {
+      "en": "to rebuke",
+      "zh": "训斥",
+      "ja": "叱りつける"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3363
+  },
+  {
+    "word": "mancillar",
+    "w": "mancillar",
+    "p": "",
+    "m": {
+      "en": "to sully",
+      "zh": "玷污",
+      "ja": "汚す"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3364
+  },
+  {
+    "word": "socavar",
+    "w": "socavar",
+    "p": "",
+    "m": {
+      "en": "to undermine",
+      "zh": "破坏",
+      "ja": "弱体化させる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3365
+  },
+  {
+    "word": "a bombo y platillo",
+    "w": "a bombo y platillo",
+    "p": "",
+    "m": {
+      "en": "with great fanfare",
+      "zh": "大张旗鼓",
+      "ja": "鳴り物入りで"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3366
+  },
+  {
+    "word": "a troche y moche",
+    "w": "a troche y moche",
+    "p": "",
+    "m": {
+      "en": "haphazardly",
+      "zh": "胡乱地",
+      "ja": "むやみに"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3367
+  },
+  {
+    "word": "al pie de la letra",
+    "w": "al pie de la letra",
+    "p": "",
+    "m": {
+      "en": "to the letter",
+      "zh": "一字不差",
+      "ja": "文字どおりに"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3368
+  },
+  {
+    "word": "a la buena de Dios",
+    "w": "a la buena de Dios",
+    "p": "",
+    "m": {
+      "en": "any old how",
+      "zh": "随随便便",
+      "ja": "行き当たりばったりで"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3369
+  },
+  {
+    "word": "a pies juntillas",
+    "w": "a pies juntillas",
+    "p": "",
+    "m": {
+      "en": "unquestioningly",
+      "zh": "深信不疑",
+      "ja": "頭から"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3370
+  },
+  {
+    "word": "de higos a brevas",
+    "w": "de higos a brevas",
+    "p": "",
+    "m": {
+      "en": "once in a blue moon",
+      "zh": "难得一次",
+      "ja": "ごくたまに"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3371
+  },
+  {
+    "word": "contra viento y marea",
+    "w": "contra viento y marea",
+    "p": "",
+    "m": {
+      "en": "against all odds",
+      "zh": "不顾一切",
+      "ja": "万難を排して"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3372
+  },
+  {
+    "word": "de tapadillo",
+    "w": "de tapadillo",
+    "p": "",
+    "m": {
+      "en": "on the sly",
+      "zh": "偷偷地",
+      "ja": "こっそり"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3373
+  },
+  {
+    "word": "en un abrir y cerrar de ojos",
+    "w": "en un abrir y cerrar de ojos",
+    "p": "",
+    "m": {
+      "en": "in the blink of an eye",
+      "zh": "转眼之间",
+      "ja": "あっという間に"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3374
+  },
+  {
+    "word": "ahogarse en un vaso de agua",
+    "w": "ahogarse en un vaso de agua",
+    "p": "",
+    "m": {
+      "en": "to make a mountain out of a molehill",
+      "zh": "小题大做",
+      "ja": "ささいなことで悩む"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3375
+  },
+  {
+    "word": "dorar la píldora",
+    "w": "dorar la píldora",
+    "p": "",
+    "m": {
+      "en": "to sugar the pill",
+      "zh": "粉饰",
+      "ja": "オブラートに包む"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3376
+  },
+  {
+    "word": "estar entre la espada y la pared",
+    "w": "estar entre la espada y la pared",
+    "p": "",
+    "m": {
+      "en": "to be between a rock and a hard place",
+      "zh": "进退两难",
+      "ja": "板挟みだ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3377
+  },
+  {
+    "word": "hacer de tripas corazón",
+    "w": "hacer de tripas corazón",
+    "p": "",
+    "m": {
+      "en": "to pluck up courage",
+      "zh": "鼓起勇气",
+      "ja": "勇気を奮い起こす"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3378
+  },
+  {
+    "word": "irse de rositas",
+    "w": "irse de rositas",
+    "p": "",
+    "m": {
+      "en": "to get off scot-free",
+      "zh": "逍遥法外",
+      "ja": "お咎めなしで済む"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3379
+  },
+  {
+    "word": "matar dos pájaros de un tiro",
+    "w": "matar dos pájaros de un tiro",
+    "p": "",
+    "m": {
+      "en": "to kill two birds with one stone",
+      "zh": "一箭双雕",
+      "ja": "一石二鳥"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3380
+  },
+  {
+    "word": "no ver tres en un burro",
+    "w": "no ver tres en un burro",
+    "p": "",
+    "m": {
+      "en": "to be as blind as a bat",
+      "zh": "近视得厉害",
+      "ja": "ひどく目が悪い"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3381
+  },
+  {
+    "word": "poner el grito en el cielo",
+    "w": "poner el grito en el cielo",
+    "p": "",
+    "m": {
+      "en": "to hit the roof",
+      "zh": "大发雷霆",
+      "ja": "激怒する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3382
+  },
+  {
+    "word": "quedarse de piedra",
+    "w": "quedarse de piedra",
+    "p": "",
+    "m": {
+      "en": "to be stunned",
+      "zh": "目瞪口呆",
+      "ja": "呆然とする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3383
+  },
+  {
+    "word": "rizar el rizo",
+    "w": "rizar el rizo",
+    "p": "",
+    "m": {
+      "en": "to overcomplicate",
+      "zh": "画蛇添足",
+      "ja": "ことさら難しくする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3384
+  },
+  {
+    "word": "sacar las castañas del fuego",
+    "w": "sacar las castañas del fuego",
+    "p": "",
+    "m": {
+      "en": "to pull someone's chestnuts out of the fire",
+      "zh": "替人火中取栗",
+      "ja": "人の尻拭いをする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3385
+  },
+  {
+    "word": "tener mano izquierda",
+    "w": "tener mano izquierda",
+    "p": "",
+    "m": {
+      "en": "to be tactful",
+      "zh": "手腕圆滑",
+      "ja": "如才ない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3386
+  },
+  {
+    "word": "traer cola",
+    "w": "traer cola",
+    "p": "",
+    "m": {
+      "en": "to have repercussions",
+      "zh": "后患无穷",
+      "ja": "尾を引く"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3387
+  },
+  {
+    "word": "vender la piel del oso antes de cazarlo",
+    "w": "vender la piel del oso antes de cazarlo",
+    "p": "",
+    "m": {
+      "en": "to count one's chickens before they hatch",
+      "zh": "过早乐观",
+      "ja": "捕らぬ狸の皮算用"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3388
+  },
+  {
+    "word": "acequia",
+    "w": "acequia",
+    "p": "",
+    "m": {
+      "en": "irrigation ditch",
+      "zh": "灌溉渠",
+      "ja": "用水路"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3389
+  },
+  {
+    "word": "aluvión",
+    "w": "aluvión",
+    "p": "",
+    "m": {
+      "en": "flood; deluge",
+      "zh": "洪流",
+      "ja": "洪水・殺到"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3390
+  },
+  {
+    "word": "ciénaga",
+    "w": "ciénaga",
+    "p": "",
+    "m": {
+      "en": "swamp",
+      "zh": "沼泽",
+      "ja": "沼地"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3391
+  },
+  {
+    "word": "desfiladero",
+    "w": "desfiladero",
+    "p": "",
+    "m": {
+      "en": "gorge",
+      "zh": "峡谷",
+      "ja": "峡谷"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3392
+  },
+  {
+    "word": "estepa",
+    "w": "estepa",
+    "p": "",
+    "m": {
+      "en": "steppe",
+      "zh": "草原",
+      "ja": "ステップ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3393
+  },
+  {
+    "word": "hondonada",
+    "w": "hondonada",
+    "p": "",
+    "m": {
+      "en": "hollow",
+      "zh": "洼地",
+      "ja": "くぼ地"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3394
+  },
+  {
+    "word": "meseta",
+    "w": "meseta",
+    "p": "",
+    "m": {
+      "en": "plateau",
+      "zh": "高原",
+      "ja": "台地"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3395
+  },
+  {
+    "word": "páramo",
+    "w": "páramo",
+    "p": "",
+    "m": {
+      "en": "moorland",
+      "zh": "荒原",
+      "ja": "荒れ野"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3396
+  },
+  {
+    "word": "ventisca",
+    "w": "ventisca",
+    "p": "",
+    "m": {
+      "en": "blizzard",
+      "zh": "暴风雪",
+      "ja": "吹雪"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3397
+  },
+  {
+    "word": "vergel",
+    "w": "vergel",
+    "p": "",
+    "m": {
+      "en": "orchard; garden of delights",
+      "zh": "果园；乐园",
+      "ja": "果樹園・楽園"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3398
+  },
+  {
+    "word": "abnegación",
+    "w": "abnegación",
+    "p": "",
+    "m": {
+      "en": "self-denial",
+      "zh": "克己",
+      "ja": "自己犠牲"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3399
+  },
+  {
+    "word": "altanería",
+    "w": "altanería",
+    "p": "",
+    "m": {
+      "en": "haughtiness",
+      "zh": "傲慢",
+      "ja": "横柄さ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3400
+  },
+  {
+    "word": "desparpajo",
+    "w": "desparpajo",
+    "p": "",
+    "m": {
+      "en": "self-assurance; cheek",
+      "zh": "大胆；厚脸皮",
+      "ja": "物怖じしなさ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "individuo",
+    "q": 3401
+  },
+  {
+    "word": "entereza",
+    "w": "entereza",
+    "p": "",
+    "m": {
+      "en": "fortitude",
+      "zh": "坚强",
+      "ja": "気丈さ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3402
+  },
+  {
+    "word": "fatuidad",
+    "w": "fatuidad",
+    "p": "",
+    "m": {
+      "en": "fatuity",
+      "zh": "自负",
+      "ja": "愚かなうぬぼれ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3403
+  },
+  {
+    "word": "mezquindad",
+    "w": "mezquindad",
+    "p": "",
+    "m": {
+      "en": "pettiness",
+      "zh": "小气",
+      "ja": "卑しさ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3404
+  },
+  {
+    "word": "parsimonia",
+    "w": "parsimonia",
+    "p": "",
+    "m": {
+      "en": "slowness; calm",
+      "zh": "慢条斯理",
+      "ja": "悠長さ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3405
+  },
+  {
+    "word": "perspicacia",
+    "w": "perspicacia",
+    "p": "",
+    "m": {
+      "en": "insight",
+      "zh": "洞察力",
+      "ja": "洞察力"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3406
+  },
+  {
+    "word": "sagacidad",
+    "w": "sagacidad",
+    "p": "",
+    "m": {
+      "en": "shrewdness",
+      "zh": "睿智",
+      "ja": "聡明さ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3407
+  },
+  {
+    "word": "templanza",
+    "w": "templanza",
+    "p": "",
+    "m": {
+      "en": "temperance",
+      "zh": "节制",
+      "ja": "節度"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3408
+  },
+  {
+    "word": "ademán",
+    "w": "ademán",
+    "p": "",
+    "m": {
+      "en": "gesture",
+      "zh": "手势",
+      "ja": "身振り"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "individuo",
+    "q": 3409
+  },
+  {
+    "word": "semblante",
+    "w": "semblante",
+    "p": "",
+    "m": {
+      "en": "countenance",
+      "zh": "面容",
+      "ja": "表情"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "individuo",
+    "q": 3410
+  },
+  {
+    "word": "tez",
+    "w": "tez",
+    "p": "",
+    "m": {
+      "en": "complexion",
+      "zh": "肤色",
+      "ja": "顔色・肌"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "individuo",
+    "q": 3411
+  },
+  {
+    "word": "benevolencia",
+    "w": "benevolencia",
+    "p": "",
+    "m": {
+      "en": "benevolence",
+      "zh": "仁慈",
+      "ja": "慈悲"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3412
+  },
+  {
+    "word": "connivencia",
+    "w": "connivencia",
+    "p": "",
+    "m": {
+      "en": "collusion",
+      "zh": "纵容；勾结",
+      "ja": "黙認・共謀"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3413
+  },
+  {
+    "word": "desencuentro",
+    "w": "desencuentro",
+    "p": "",
+    "m": {
+      "en": "misunderstanding; clash",
+      "zh": "分歧",
+      "ja": "すれ違い"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3414
+  },
+  {
+    "word": "encono",
+    "w": "encono",
+    "p": "",
+    "m": {
+      "en": "rancour",
+      "zh": "怨恨",
+      "ja": "恨み"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3415
+  },
+  {
+    "word": "estirpe",
+    "w": "estirpe",
+    "p": "",
+    "m": {
+      "en": "lineage",
+      "zh": "血统",
+      "ja": "家系"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3416
+  },
+  {
+    "word": "filial",
+    "w": "filial",
+    "p": "",
+    "m": {
+      "en": "filial",
+      "zh": "子女的",
+      "ja": "子としての"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3417
+  },
+  {
+    "word": "fraternal",
+    "w": "fraternal",
+    "p": "",
+    "m": {
+      "en": "brotherly",
+      "zh": "兄弟般的",
+      "ja": "兄弟の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3418
+  },
+  {
+    "word": "progenitor",
+    "w": "progenitor",
+    "p": "",
+    "m": {
+      "en": "parent",
+      "zh": "父母",
+      "ja": "親"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3419
+  },
+  {
+    "word": "vástago",
+    "w": "vástago",
+    "p": "",
+    "m": {
+      "en": "offspring",
+      "zh": "后代",
+      "ja": "子孫"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "relaciones",
+    "q": 3420
+  },
+  {
+    "word": "camelar",
+    "w": "camelar",
+    "p": "",
+    "m": {
+      "en": "to sweet-talk",
+      "zh": "甜言蜜语哄骗",
+      "ja": "甘い言葉でだます"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3421
+  },
+  {
+    "word": "cortejar",
+    "w": "cortejar",
+    "p": "",
+    "m": {
+      "en": "to court",
+      "zh": "追求",
+      "ja": "求愛する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3422
+  },
+  {
+    "word": "desavenirse",
+    "w": "desavenirse",
+    "p": "",
+    "m": {
+      "en": "to fall out",
+      "zh": "闹翻",
+      "ja": "仲たがいする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "relaciones",
+    "q": 3423
+  },
+  {
+    "word": "avituallamiento",
+    "w": "avituallamiento",
+    "p": "",
+    "m": {
+      "en": "provisioning",
+      "zh": "补给",
+      "ja": "食料補給"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3424
+  },
+  {
+    "word": "exquisitez",
+    "w": "exquisitez",
+    "p": "",
+    "m": {
+      "en": "delicacy",
+      "zh": "精美",
+      "ja": "逸品"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3425
+  },
+  {
+    "word": "gastronomía",
+    "w": "gastronomía",
+    "p": "",
+    "m": {
+      "en": "gastronomy",
+      "zh": "美食",
+      "ja": "食文化"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3426
+  },
+  {
+    "word": "maridaje",
+    "w": "maridaje",
+    "p": "",
+    "m": {
+      "en": "food and wine pairing",
+      "zh": "餐酒搭配",
+      "ja": "料理とワインの組み合わせ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3427
+  },
+  {
+    "word": "picoteo",
+    "w": "picoteo",
+    "p": "",
+    "m": {
+      "en": "nibbles",
+      "zh": "小吃",
+      "ja": "つまみ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3428
+  },
+  {
+    "word": "refrigerio",
+    "w": "refrigerio",
+    "p": "",
+    "m": {
+      "en": "snack",
+      "zh": "茶点",
+      "ja": "軽食"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3429
+  },
+  {
+    "word": "suculento",
+    "w": "suculento",
+    "p": "",
+    "m": {
+      "en": "succulent",
+      "zh": "多汁美味的",
+      "ja": "こってりおいしい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3430
+  },
+  {
+    "word": "macerar",
+    "w": "macerar",
+    "p": "",
+    "m": {
+      "en": "to marinate",
+      "zh": "腌渍",
+      "ja": "漬け込む"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "alimentacion",
+    "q": 3431
+  },
+  {
+    "word": "acreditar",
+    "w": "acreditar",
+    "p": "",
+    "m": {
+      "en": "to accredit; to prove",
+      "zh": "认证；证明",
+      "ja": "認定する；証明する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3432
+  },
+  {
+    "word": "claustral",
+    "w": "claustral",
+    "p": "",
+    "m": {
+      "en": "academic (adj.)",
+      "zh": "学术委员会的",
+      "ja": "大学評議会の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3433
+  },
+  {
+    "word": "disertación",
+    "w": "disertación",
+    "p": "",
+    "m": {
+      "en": "dissertation; talk",
+      "zh": "论述；演讲",
+      "ja": "講演・論文"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "educacion",
+    "q": 3434
+  },
+  {
+    "word": "eminencia",
+    "w": "eminencia",
+    "p": "",
+    "m": {
+      "en": "eminence; leading expert",
+      "zh": "权威",
+      "ja": "権威"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "educacion",
+    "q": 3435
+  },
+  {
+    "word": "epistemología",
+    "w": "epistemología",
+    "p": "",
+    "m": {
+      "en": "epistemology",
+      "zh": "认识论",
+      "ja": "認識論"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "educacion",
+    "q": 3436
+  },
+  {
+    "word": "pupitre",
+    "w": "pupitre",
+    "p": "",
+    "m": {
+      "en": "school desk",
+      "zh": "课桌",
+      "ja": "学習机"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3437
+  },
+  {
+    "word": "temario",
+    "w": "temario",
+    "p": "",
+    "m": {
+      "en": "syllabus",
+      "zh": "教学大纲",
+      "ja": "出題範囲"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3438
+  },
+  {
+    "word": "cursar",
+    "w": "cursar",
+    "p": "",
+    "m": {
+      "en": "to study (a course)",
+      "zh": "修读",
+      "ja": "履修する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "educacion",
+    "q": 3439
+  },
+  {
+    "word": "egresado",
+    "w": "egresado",
+    "p": "",
+    "m": {
+      "en": "graduate",
+      "zh": "毕业生",
+      "ja": "卒業生"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "educacion",
+    "q": 3440
+  },
+  {
+    "word": "asalariado",
+    "w": "asalariado",
+    "p": "",
+    "m": {
+      "en": "wage earner",
+      "zh": "工薪阶层",
+      "ja": "給与所得者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3441
+  },
+  {
+    "word": "ascender",
+    "w": "ascender",
+    "p": "",
+    "m": {
+      "en": "to promote; to rise",
+      "zh": "晋升",
+      "ja": "昇進する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3442
+  },
+  {
+    "word": "desempeño",
+    "w": "desempeño",
+    "p": "",
+    "m": {
+      "en": "performance",
+      "zh": "表现",
+      "ja": "業績"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3443
+  },
+  {
+    "word": "destituir",
+    "w": "destituir",
+    "p": "",
+    "m": {
+      "en": "to dismiss",
+      "zh": "免职",
+      "ja": "解任する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "trabajo",
+    "q": 3444
+  },
+  {
+    "word": "huelguista",
+    "w": "huelguista",
+    "p": "",
+    "m": {
+      "en": "striker",
+      "zh": "罢工者",
+      "ja": "スト参加者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3445
+  },
+  {
+    "word": "jerarquía",
+    "w": "jerarquía",
+    "p": "",
+    "m": {
+      "en": "hierarchy",
+      "zh": "等级",
+      "ja": "階層"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3446
+  },
+  {
+    "word": "peón",
+    "w": "peón",
+    "p": "",
+    "m": {
+      "en": "labourer",
+      "zh": "小工",
+      "ja": "作業員"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3447
+  },
+  {
+    "word": "reciclaje profesional",
+    "w": "reciclaje profesional",
+    "p": "",
+    "m": {
+      "en": "retraining",
+      "zh": "职业再培训",
+      "ja": "職業再訓練"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3448
+  },
+  {
+    "word": "sinecura",
+    "w": "sinecura",
+    "p": "",
+    "m": {
+      "en": "sinecure",
+      "zh": "闲职",
+      "ja": "閑職"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "trabajo",
+    "q": 3449
+  },
+  {
+    "word": "afición desmedida",
+    "w": "afición desmedida",
+    "p": "",
+    "m": {
+      "en": "obsession",
+      "zh": "痴迷",
+      "ja": "過度の熱中"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3450
+  },
+  {
+    "word": "asueto",
+    "w": "asueto",
+    "p": "",
+    "m": {
+      "en": "time off",
+      "zh": "休假",
+      "ja": "休み"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ocio",
+    "q": 3451
+  },
+  {
+    "word": "bohemio",
+    "w": "bohemio",
+    "p": "",
+    "m": {
+      "en": "bohemian",
+      "zh": "放荡不羁的",
+      "ja": "ボヘミアンな"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ocio",
+    "q": 3452
+  },
+  {
+    "word": "francachela",
+    "w": "francachela",
+    "p": "",
+    "m": {
+      "en": "binge",
+      "zh": "狂欢宴",
+      "ja": "乱痴気騒ぎ"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3453
+  },
+  {
+    "word": "lúdico",
+    "w": "lúdico",
+    "p": "",
+    "m": {
+      "en": "playful",
+      "zh": "娱乐的",
+      "ja": "遊びの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ocio",
+    "q": 3454
+  },
+  {
+    "word": "solaz",
+    "w": "solaz",
+    "p": "",
+    "m": {
+      "en": "solace; recreation",
+      "zh": "慰藉；消遣",
+      "ja": "慰め・娯楽"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ocio",
+    "q": 3455
+  },
+  {
+    "word": "tómbola",
+    "w": "tómbola",
+    "p": "",
+    "m": {
+      "en": "raffle stall",
+      "zh": "抽奖摊",
+      "ja": "福引き"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ocio",
+    "q": 3456
+  },
+  {
+    "word": "amarillista",
+    "w": "amarillista",
+    "p": "",
+    "m": {
+      "en": "sensationalist",
+      "zh": "煽情的",
+      "ja": "扇情的な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "medios",
+    "q": 3457
+  },
+  {
+    "word": "audiencia",
+    "w": "audiencia",
+    "p": "",
+    "m": {
+      "en": "audience; hearing",
+      "zh": "观众；听证",
+      "ja": "視聴者；審問"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3458
+  },
+  {
+    "word": "boletín",
+    "w": "boletín",
+    "p": "",
+    "m": {
+      "en": "bulletin",
+      "zh": "公报；简报",
+      "ja": "会報・速報"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3459
+  },
+  {
+    "word": "censurar",
+    "w": "censurar",
+    "p": "",
+    "m": {
+      "en": "to censor",
+      "zh": "审查",
+      "ja": "検閲する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "medios",
+    "q": 3460
+  },
+  {
+    "word": "crónica",
+    "w": "crónica",
+    "p": "",
+    "m": {
+      "en": "chronicle; report",
+      "zh": "纪事；报道",
+      "ja": "年代記；報道記事"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3461
+  },
+  {
+    "word": "difamación",
+    "w": "difamación",
+    "p": "",
+    "m": {
+      "en": "defamation",
+      "zh": "诽谤",
+      "ja": "名誉毀損"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3462
+  },
+  {
+    "word": "fe de erratas",
+    "w": "fe de erratas",
+    "p": "",
+    "m": {
+      "en": "errata",
+      "zh": "勘误表",
+      "ja": "正誤表"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3463
+  },
+  {
+    "word": "glosa",
+    "w": "glosa",
+    "p": "",
+    "m": {
+      "en": "gloss; commentary",
+      "zh": "注解",
+      "ja": "注釈"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "medios",
+    "q": 3464
+  },
+  {
+    "word": "reportaje",
+    "w": "reportaje",
+    "p": "",
+    "m": {
+      "en": "feature report",
+      "zh": "报道",
+      "ja": "ルポ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "medios",
+    "q": 3465
+  },
+  {
+    "word": "acondicionar",
+    "w": "acondicionar",
+    "p": "",
+    "m": {
+      "en": "to fit out",
+      "zh": "装修",
+      "ja": "整備する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "vivienda",
+    "q": 3466
+  },
+  {
+    "word": "alcantarilla",
+    "w": "alcantarilla",
+    "p": "",
+    "m": {
+      "en": "sewer",
+      "zh": "下水道",
+      "ja": "下水道"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3467
+  },
+  {
+    "word": "cobertizo",
+    "w": "cobertizo",
+    "p": "",
+    "m": {
+      "en": "shed",
+      "zh": "棚子",
+      "ja": "物置小屋"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3468
+  },
+  {
+    "word": "domicilio",
+    "w": "domicilio",
+    "p": "",
+    "m": {
+      "en": "address; home",
+      "zh": "住所",
+      "ja": "住所"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3469
+  },
+  {
+    "word": "inmueble",
+    "w": "inmueble",
+    "p": "",
+    "m": {
+      "en": "property",
+      "zh": "房产",
+      "ja": "不動産"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3470
+  },
+  {
+    "word": "pórtico",
+    "w": "pórtico",
+    "p": "",
+    "m": {
+      "en": "porch",
+      "zh": "门廊",
+      "ja": "玄関口"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3471
+  },
+  {
+    "word": "solar",
+    "w": "solar",
+    "p": "",
+    "m": {
+      "en": "plot of land",
+      "zh": "地块",
+      "ja": "土地"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "vivienda",
+    "q": 3472
+  },
+  {
+    "word": "desalojar",
+    "w": "desalojar",
+    "p": "",
+    "m": {
+      "en": "to evict; to clear",
+      "zh": "腾空",
+      "ja": "立ち退かせる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "vivienda",
+    "q": 3473
+  },
+  {
+    "word": "apostillar",
+    "w": "apostillar",
+    "p": "",
+    "m": {
+      "en": "to annotate; to legalise",
+      "zh": "注解；海牙认证",
+      "ja": "注を付ける；認証する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "servicios",
+    "q": 3474
+  },
+  {
+    "word": "cumplimentar",
+    "w": "cumplimentar",
+    "p": "",
+    "m": {
+      "en": "to fill in",
+      "zh": "填写",
+      "ja": "記入する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "servicios",
+    "q": 3475
+  },
+  {
+    "word": "dependencia",
+    "w": "dependencia",
+    "p": "",
+    "m": {
+      "en": "office; dependence",
+      "zh": "部门；依赖",
+      "ja": "部署；依存"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3476
+  },
+  {
+    "word": "expedición",
+    "w": "expedición",
+    "p": "",
+    "m": {
+      "en": "issuing; expedition",
+      "zh": "签发；远征",
+      "ja": "発行；遠征"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3477
+  },
+  {
+    "word": "padrón",
+    "w": "padrón",
+    "p": "",
+    "m": {
+      "en": "census register",
+      "zh": "户籍登记",
+      "ja": "住民台帳"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "servicios",
+    "q": 3478
+  },
+  {
+    "word": "registro civil",
+    "w": "registro civil",
+    "p": "",
+    "m": {
+      "en": "registry office",
+      "zh": "民事登记处",
+      "ja": "戸籍役場"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "servicios",
+    "q": 3479
+  },
+  {
+    "word": "tasa",
+    "w": "tasa",
+    "p": "",
+    "m": {
+      "en": "fee; rate",
+      "zh": "费用；比率",
+      "ja": "手数料；率"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "servicios",
+    "q": 3480
+  },
+  {
+    "word": "abaratar",
+    "w": "abaratar",
+    "p": "",
+    "m": {
+      "en": "to make cheaper",
+      "zh": "降价",
+      "ja": "安くする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3481
+  },
+  {
+    "word": "encarecer",
+    "w": "encarecer",
+    "p": "",
+    "m": {
+      "en": "to make more expensive",
+      "zh": "涨价",
+      "ja": "値上げする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3482
+  },
+  {
+    "word": "estafa",
+    "w": "estafa",
+    "p": "",
+    "m": {
+      "en": "scam",
+      "zh": "诈骗",
+      "ja": "詐欺"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "compras",
+    "q": 3483
+  },
+  {
+    "word": "mercadillo",
+    "w": "mercadillo",
+    "p": "",
+    "m": {
+      "en": "street market",
+      "zh": "跳蚤市场",
+      "ja": "露天市"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3484
+  },
+  {
+    "word": "saldar",
+    "w": "saldar",
+    "p": "",
+    "m": {
+      "en": "to settle (a debt)",
+      "zh": "结清",
+      "ja": "清算する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "compras",
+    "q": 3485
+  },
+  {
+    "word": "trueque",
+    "w": "trueque",
+    "p": "",
+    "m": {
+      "en": "barter",
+      "zh": "以物易物",
+      "ja": "物々交換"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3486
+  },
+  {
+    "word": "derroche",
+    "w": "derroche",
+    "p": "",
+    "m": {
+      "en": "extravagance",
+      "zh": "挥霍",
+      "ja": "浪費"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "compras",
+    "q": 3487
+  },
+  {
+    "word": "afonía",
+    "w": "afonía",
+    "p": "",
+    "m": {
+      "en": "loss of voice",
+      "zh": "失声",
+      "ja": "失声"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3488
+  },
+  {
+    "word": "contusión",
+    "w": "contusión",
+    "p": "",
+    "m": {
+      "en": "bruise",
+      "zh": "挫伤",
+      "ja": "打撲"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3489
+  },
+  {
+    "word": "convaleciente",
+    "w": "convaleciente",
+    "p": "",
+    "m": {
+      "en": "convalescent",
+      "zh": "康复中的",
+      "ja": "回復期の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3490
+  },
+  {
+    "word": "desahuciado",
+    "w": "desahuciado",
+    "p": "",
+    "m": {
+      "en": "terminally ill",
+      "zh": "病危的",
+      "ja": "見放された"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3491
+  },
+  {
+    "word": "dolencia crónica",
+    "w": "dolencia crónica",
+    "p": "",
+    "m": {
+      "en": "chronic condition",
+      "zh": "慢性病",
+      "ja": "慢性疾患"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3492
+  },
+  {
+    "word": "epidemia",
+    "w": "epidemia",
+    "p": "",
+    "m": {
+      "en": "epidemic",
+      "zh": "流行病",
+      "ja": "流行病"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3493
+  },
+  {
+    "word": "infeccioso",
+    "w": "infeccioso",
+    "p": "",
+    "m": {
+      "en": "infectious",
+      "zh": "传染性的",
+      "ja": "感染性の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "salud",
+    "q": 3494
+  },
+  {
+    "word": "insomnio",
+    "w": "insomnio",
+    "p": "",
+    "m": {
+      "en": "insomnia",
+      "zh": "失眠",
+      "ja": "不眠症"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "salud",
+    "q": 3495
+  },
+  {
+    "word": "prótesis",
+    "w": "prótesis",
+    "p": "",
+    "m": {
+      "en": "prosthesis",
+      "zh": "假体",
+      "ja": "人工装具"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "salud",
+    "q": 3496
+  },
+  {
+    "word": "remedio",
+    "w": "remedio",
+    "p": "",
+    "m": {
+      "en": "remedy",
+      "zh": "疗法",
+      "ja": "治療法"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "salud",
+    "q": 3497
+  },
+  {
+    "word": "achaques",
+    "w": "achaques",
+    "p": "",
+    "m": {
+      "en": "aches and pains",
+      "zh": "小毛病",
+      "ja": "持病"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "salud",
+    "q": 3498
+  },
+  {
+    "word": "deambular",
+    "w": "deambular",
+    "p": "",
+    "m": {
+      "en": "to wander",
+      "zh": "闲逛",
+      "ja": "ぶらつく"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3499
+  },
+  {
+    "word": "éxodo",
+    "w": "éxodo",
+    "p": "",
+    "m": {
+      "en": "exodus",
+      "zh": "大批出走",
+      "ja": "大移動"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3500
+  },
+  {
+    "word": "extraviarse",
+    "w": "extraviarse",
+    "p": "",
+    "m": {
+      "en": "to get lost",
+      "zh": "迷路",
+      "ja": "迷う"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "viajes",
+    "q": 3501
+  },
+  {
+    "word": "hospedaje",
+    "w": "hospedaje",
+    "p": "",
+    "m": {
+      "en": "lodging",
+      "zh": "住宿",
+      "ja": "宿泊"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3502
+  },
+  {
+    "word": "odisea",
+    "w": "odisea",
+    "p": "",
+    "m": {
+      "en": "odyssey",
+      "zh": "艰难历程",
+      "ja": "長い冒険"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "viajes",
+    "q": 3503
+  },
+  {
+    "word": "peregrino",
+    "w": "peregrino",
+    "p": "",
+    "m": {
+      "en": "pilgrim",
+      "zh": "朝圣者",
+      "ja": "巡礼者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3504
+  },
+  {
+    "word": "recorrido",
+    "w": "recorrido",
+    "p": "",
+    "m": {
+      "en": "route; tour",
+      "zh": "路线；游览",
+      "ja": "経路；巡回"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "viajes",
+    "q": 3505
+  },
+  {
+    "word": "arca",
+    "w": "arca",
+    "p": "",
+    "m": {
+      "en": "coffer",
+      "zh": "金库",
+      "ja": "金庫"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3506
+  },
+  {
+    "word": "austeridad",
+    "w": "austeridad",
+    "p": "",
+    "m": {
+      "en": "austerity",
+      "zh": "紧缩",
+      "ja": "緊縮"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3507
+  },
+  {
+    "word": "caudal",
+    "w": "caudal",
+    "p": "",
+    "m": {
+      "en": "wealth; flow",
+      "zh": "财富；流量",
+      "ja": "財産；流量"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3508
+  },
+  {
+    "word": "desfalco",
+    "w": "desfalco",
+    "p": "",
+    "m": {
+      "en": "embezzlement",
+      "zh": "挪用公款",
+      "ja": "横領"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3509
+  },
+  {
+    "word": "moroso",
+    "w": "moroso",
+    "p": "",
+    "m": {
+      "en": "defaulter",
+      "zh": "拖欠者",
+      "ja": "滞納者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3510
+  },
+  {
+    "word": "opa",
+    "w": "opa",
+    "p": "",
+    "m": {
+      "en": "takeover bid",
+      "zh": "收购要约",
+      "ja": "株式公開買付け"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "economia",
+    "q": 3511
+  },
+  {
+    "word": "paraíso fiscal",
+    "w": "paraíso fiscal",
+    "p": "",
+    "m": {
+      "en": "tax haven",
+      "zh": "避税天堂",
+      "ja": "タックスヘイブン"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3512
+  },
+  {
+    "word": "sufragar",
+    "w": "sufragar",
+    "p": "",
+    "m": {
+      "en": "to defray",
+      "zh": "支付",
+      "ja": "費用を負担する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "economia",
+    "q": 3513
+  },
+  {
+    "word": "superávit comercial",
+    "w": "superávit comercial",
+    "p": "",
+    "m": {
+      "en": "trade surplus",
+      "zh": "贸易顺差",
+      "ja": "貿易黒字"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "economia",
+    "q": 3514
+  },
+  {
+    "word": "aleación",
+    "w": "aleación",
+    "p": "",
+    "m": {
+      "en": "alloy",
+      "zh": "合金",
+      "ja": "合金"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3515
+  },
+  {
+    "word": "cromosoma",
+    "w": "cromosoma",
+    "p": "",
+    "m": {
+      "en": "chromosome",
+      "zh": "染色体",
+      "ja": "染色体"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3516
+  },
+  {
+    "word": "desencriptar",
+    "w": "desencriptar",
+    "p": "",
+    "m": {
+      "en": "to decrypt",
+      "zh": "解密",
+      "ja": "復号する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ciencia",
+    "q": 3517
+  },
+  {
+    "word": "ecuación",
+    "w": "ecuación",
+    "p": "",
+    "m": {
+      "en": "equation",
+      "zh": "方程",
+      "ja": "方程式"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3518
+  },
+  {
+    "word": "espécimen",
+    "w": "espécimen",
+    "p": "",
+    "m": {
+      "en": "specimen",
+      "zh": "标本",
+      "ja": "標本"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3519
+  },
+  {
+    "word": "fotosíntesis",
+    "w": "fotosíntesis",
+    "p": "",
+    "m": {
+      "en": "photosynthesis",
+      "zh": "光合作用",
+      "ja": "光合成"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3520
+  },
+  {
+    "word": "partícula",
+    "w": "partícula",
+    "p": "",
+    "m": {
+      "en": "particle",
+      "zh": "粒子",
+      "ja": "粒子"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3521
+  },
+  {
+    "word": "sostenibilidad energética",
+    "w": "sostenibilidad energética",
+    "p": "",
+    "m": {
+      "en": "energy sustainability",
+      "zh": "能源可持续性",
+      "ja": "エネルギーの持続可能性"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "ciencia",
+    "q": 3522
+  },
+  {
+    "word": "verificable",
+    "w": "verificable",
+    "p": "",
+    "m": {
+      "en": "verifiable",
+      "zh": "可验证的",
+      "ja": "検証可能な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "ciencia",
+    "q": 3523
+  },
+  {
+    "word": "amnistía",
+    "w": "amnistía",
+    "p": "",
+    "m": {
+      "en": "amnesty",
+      "zh": "大赦",
+      "ja": "恩赦"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3524
+  },
+  {
+    "word": "autonomía",
+    "w": "autonomía",
+    "p": "",
+    "m": {
+      "en": "autonomy; autonomous region",
+      "zh": "自治；自治区",
+      "ja": "自治；自治州"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3525
+  },
+  {
+    "word": "beligerante",
+    "w": "beligerante",
+    "p": "",
+    "m": {
+      "en": "belligerent",
+      "zh": "交战的",
+      "ja": "交戦中の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "politica",
+    "q": 3526
+  },
+  {
+    "word": "cónclave",
+    "w": "cónclave",
+    "p": "",
+    "m": {
+      "en": "conclave",
+      "zh": "秘密会议",
+      "ja": "秘密会議"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3527
+  },
+  {
+    "word": "dimisión",
+    "w": "dimisión",
+    "p": "",
+    "m": {
+      "en": "resignation",
+      "zh": "辞职",
+      "ja": "辞任"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3528
+  },
+  {
+    "word": "embargo",
+    "w": "embargo",
+    "p": "",
+    "m": {
+      "en": "embargo; seizure",
+      "zh": "禁运；查封",
+      "ja": "禁輸；差し押さえ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3529
+  },
+  {
+    "word": "hegemonía",
+    "w": "hegemonía",
+    "p": "",
+    "m": {
+      "en": "hegemony",
+      "zh": "霸权",
+      "ja": "覇権"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3530
+  },
+  {
+    "word": "jurisprudencia",
+    "w": "jurisprudencia",
+    "p": "",
+    "m": {
+      "en": "case law",
+      "zh": "判例",
+      "ja": "判例"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3531
+  },
+  {
+    "word": "mandato",
+    "w": "mandato",
+    "p": "",
+    "m": {
+      "en": "term of office; mandate",
+      "zh": "任期；授权",
+      "ja": "任期；命令"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3532
+  },
+  {
+    "word": "plebiscito",
+    "w": "plebiscito",
+    "p": "",
+    "m": {
+      "en": "plebiscite",
+      "zh": "全民公决",
+      "ja": "国民投票"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3533
+  },
+  {
+    "word": "querella",
+    "w": "querella",
+    "p": "",
+    "m": {
+      "en": "lawsuit",
+      "zh": "起诉",
+      "ja": "告訴"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "politica",
+    "q": 3534
+  },
+  {
+    "word": "sufragio",
+    "w": "sufragio",
+    "p": "",
+    "m": {
+      "en": "suffrage",
+      "zh": "选举权",
+      "ja": "選挙権"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "politica",
+    "q": 3535
+  },
+  {
+    "word": "apoteosis",
+    "w": "apoteosis",
+    "p": "",
+    "m": {
+      "en": "climax",
+      "zh": "高潮",
+      "ja": "最高潮"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3536
+  },
+  {
+    "word": "efigie",
+    "w": "efigie",
+    "p": "",
+    "m": {
+      "en": "effigy",
+      "zh": "肖像",
+      "ja": "肖像"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3537
+  },
+  {
+    "word": "epopeya",
+    "w": "epopeya",
+    "p": "",
+    "m": {
+      "en": "epic",
+      "zh": "史诗",
+      "ja": "叙事詩"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3538
+  },
+  {
+    "word": "glosario",
+    "w": "glosario",
+    "p": "",
+    "m": {
+      "en": "glossary",
+      "zh": "词汇表",
+      "ja": "用語集"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "arte",
+    "q": 3539
+  },
+  {
+    "word": "mimesis",
+    "w": "mimesis",
+    "p": "",
+    "m": {
+      "en": "mimesis",
+      "zh": "模仿",
+      "ja": "模倣"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3540
+  },
+  {
+    "word": "prosa",
+    "w": "prosa",
+    "p": "",
+    "m": {
+      "en": "prose",
+      "zh": "散文",
+      "ja": "散文"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3541
+  },
+  {
+    "word": "rapsodia",
+    "w": "rapsodia",
+    "p": "",
+    "m": {
+      "en": "rhapsody",
+      "zh": "狂想曲",
+      "ja": "狂詩曲"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3542
+  },
+  {
+    "word": "tramoya",
+    "w": "tramoya",
+    "p": "",
+    "m": {
+      "en": "stage machinery; scheming",
+      "zh": "舞台机关；阴谋",
+      "ja": "舞台装置；策略"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "arte",
+    "q": 3543
+  },
+  {
+    "word": "apostasía",
+    "w": "apostasía",
+    "p": "",
+    "m": {
+      "en": "apostasy",
+      "zh": "叛教",
+      "ja": "背教"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "religion",
+    "q": 3544
+  },
+  {
+    "word": "clérigo",
+    "w": "clérigo",
+    "p": "",
+    "m": {
+      "en": "cleric",
+      "zh": "神职人员",
+      "ja": "聖職者"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3545
+  },
+  {
+    "word": "devoto",
+    "w": "devoto",
+    "p": "",
+    "m": {
+      "en": "devout",
+      "zh": "虔诚的",
+      "ja": "敬虔な"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "religion",
+    "q": 3546
+  },
+  {
+    "word": "escepticismo",
+    "w": "escepticismo",
+    "p": "",
+    "m": {
+      "en": "scepticism",
+      "zh": "怀疑主义",
+      "ja": "懐疑主義"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3547
+  },
+  {
+    "word": "estoicismo",
+    "w": "estoicismo",
+    "p": "",
+    "m": {
+      "en": "stoicism",
+      "zh": "斯多葛主义",
+      "ja": "ストア主義・忍耐"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3548
+  },
+  {
+    "word": "existencialismo",
+    "w": "existencialismo",
+    "p": "",
+    "m": {
+      "en": "existentialism",
+      "zh": "存在主义",
+      "ja": "実存主義"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3549
+  },
+  {
+    "word": "pagano",
+    "w": "pagano",
+    "p": "",
+    "m": {
+      "en": "pagan",
+      "zh": "异教的",
+      "ja": "異教の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "religion",
+    "q": 3550
+  },
+  {
+    "word": "profano",
+    "w": "profano",
+    "p": "",
+    "m": {
+      "en": "secular; lay",
+      "zh": "世俗的；外行的",
+      "ja": "世俗の；素人の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "religion",
+    "q": 3551
+  },
+  {
+    "word": "ritual",
+    "w": "ritual",
+    "p": "",
+    "m": {
+      "en": "ritual",
+      "zh": "仪式",
+      "ja": "儀式"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "religion",
+    "q": 3552
+  },
+  {
+    "word": "afluencia",
+    "w": "afluencia",
+    "p": "",
+    "m": {
+      "en": "influx",
+      "zh": "涌入",
+      "ja": "流入"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3553
+  },
+  {
+    "word": "alud",
+    "w": "alud",
+    "p": "",
+    "m": {
+      "en": "avalanche",
+      "zh": "雪崩",
+      "ja": "雪崩"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3554
+  },
+  {
+    "word": "caudaloso",
+    "w": "caudaloso",
+    "p": "",
+    "m": {
+      "en": "mighty (river)",
+      "zh": "水量充沛的",
+      "ja": "水量の多い"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3555
+  },
+  {
+    "word": "escarpado",
+    "w": "escarpado",
+    "p": "",
+    "m": {
+      "en": "steep",
+      "zh": "陡峭的",
+      "ja": "険しい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3556
+  },
+  {
+    "word": "frondoso",
+    "w": "frondoso",
+    "p": "",
+    "m": {
+      "en": "leafy",
+      "zh": "茂密的",
+      "ja": "生い茂った"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3557
+  },
+  {
+    "word": "inhóspito",
+    "w": "inhóspito",
+    "p": "",
+    "m": {
+      "en": "inhospitable",
+      "zh": "荒凉的",
+      "ja": "住みにくい"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3558
+  },
+  {
+    "word": "lodazal",
+    "w": "lodazal",
+    "p": "",
+    "m": {
+      "en": "quagmire",
+      "zh": "泥沼",
+      "ja": "ぬかるみ"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3559
+  },
+  {
+    "word": "manantial",
+    "w": "manantial",
+    "p": "",
+    "m": {
+      "en": "spring (water)",
+      "zh": "泉水",
+      "ja": "泉"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3560
+  },
+  {
+    "word": "yermo",
+    "w": "yermo",
+    "p": "",
+    "m": {
+      "en": "barren",
+      "zh": "贫瘠的",
+      "ja": "不毛の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "naturaleza",
+    "q": 3561
+  },
+  {
+    "word": "otrora",
+    "w": "otrora",
+    "p": "",
+    "m": {
+      "en": "formerly",
+      "zh": "昔日",
+      "ja": "かつて"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3562
+  },
+  {
+    "word": "antaño",
+    "w": "antaño",
+    "p": "",
+    "m": {
+      "en": "in days gone by",
+      "zh": "往昔",
+      "ja": "昔"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3563
+  },
+  {
+    "word": "efemérides",
+    "w": "efemérides",
+    "p": "",
+    "m": {
+      "en": "anniversaries; almanac",
+      "zh": "纪念日",
+      "ja": "記念日・暦"
+    },
+    "gender": "f",
+    "unit": null,
+    "t": "tiempo",
+    "q": 3564
+  },
+  {
+    "word": "lustro",
+    "w": "lustro",
+    "p": "",
+    "m": {
+      "en": "five-year period",
+      "zh": "五年",
+      "ja": "5年間"
+    },
+    "gender": "m",
+    "unit": null,
+    "t": "tiempo",
+    "q": 3565
+  },
+  {
+    "word": "perenne",
+    "w": "perenne",
+    "p": "",
+    "m": {
+      "en": "perennial",
+      "zh": "长久的",
+      "ja": "絶え間ない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3566
+  },
+  {
+    "word": "sempiterno",
+    "w": "sempiterno",
+    "p": "",
+    "m": {
+      "en": "eternal",
+      "zh": "永恒的",
+      "ja": "永遠の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3567
+  },
+  {
+    "word": "venidero",
+    "w": "venidero",
+    "p": "",
+    "m": {
+      "en": "future; coming",
+      "zh": "未来的",
+      "ja": "来るべき"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3568
+  },
+  {
+    "word": "a la sazón",
+    "w": "a la sazón",
+    "p": "",
+    "m": {
+      "en": "at that time",
+      "zh": "当时",
+      "ja": "当時"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3569
+  },
+  {
+    "word": "de antaño",
+    "w": "de antaño",
+    "p": "",
+    "m": {
+      "en": "of old",
+      "zh": "过去的",
+      "ja": "昔の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "tiempo",
+    "q": 3570
+  },
+  {
+    "word": "amén de",
+    "w": "amén de",
+    "p": "",
+    "m": {
+      "en": "besides",
+      "zh": "除…之外",
+      "ja": "〜のほかに"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3571
+  },
+  {
+    "word": "a sabiendas",
+    "w": "a sabiendas",
+    "p": "",
+    "m": {
+      "en": "knowingly",
+      "zh": "明知",
+      "ja": "承知の上で"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3572
+  },
+  {
+    "word": "así las cosas",
+    "w": "así las cosas",
+    "p": "",
+    "m": {
+      "en": "that being the case",
+      "zh": "既然如此",
+      "ja": "そういうわけで"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3573
+  },
+  {
+    "word": "con todo",
+    "w": "con todo",
+    "p": "",
+    "m": {
+      "en": "even so",
+      "zh": "尽管如此",
+      "ja": "それでも"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3574
+  },
+  {
+    "word": "máxime",
+    "w": "máxime",
+    "p": "",
+    "m": {
+      "en": "especially",
+      "zh": "尤其",
+      "ja": "とりわけ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3575
+  },
+  {
+    "word": "merced a",
+    "w": "merced a",
+    "p": "",
+    "m": {
+      "en": "thanks to",
+      "zh": "得益于",
+      "ja": "〜のおかげで"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3576
+  },
+  {
+    "word": "so pena de",
+    "w": "so pena de",
+    "p": "",
+    "m": {
+      "en": "on pain of",
+      "zh": "否则将受…处罚",
+      "ja": "〜の罰を条件に"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3577
+  },
+  {
+    "word": "sendos",
+    "w": "sendos",
+    "p": "",
+    "m": {
+      "en": "each (one each)",
+      "zh": "各自的",
+      "ja": "それぞれ一つずつの"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3578
+  },
+  {
+    "word": "vale decir",
+    "w": "vale decir",
+    "p": "",
+    "m": {
+      "en": "that is to say",
+      "zh": "也就是说",
+      "ja": "つまり"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3579
+  },
+  {
+    "word": "comoquiera que",
+    "w": "comoquiera que",
+    "p": "",
+    "m": {
+      "en": "since; however",
+      "zh": "既然；无论如何",
+      "ja": "〜なので；どのように〜しても"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3580
+  },
+  {
+    "word": "abogar",
+    "w": "abogar",
+    "p": "",
+    "m": {
+      "en": "to advocate",
+      "zh": "倡导",
+      "ja": "擁護する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3581
+  },
+  {
+    "word": "aducir",
+    "w": "aducir",
+    "p": "",
+    "m": {
+      "en": "to adduce",
+      "zh": "援引",
+      "ja": "持ち出す"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3582
+  },
+  {
+    "word": "colegir",
+    "w": "colegir",
+    "p": "",
+    "m": {
+      "en": "to infer",
+      "zh": "推断",
+      "ja": "推論する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3583
+  },
+  {
+    "word": "conculcar",
+    "w": "conculcar",
+    "p": "",
+    "m": {
+      "en": "to infringe",
+      "zh": "违反",
+      "ja": "違反する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3584
+  },
+  {
+    "word": "coadyuvar",
+    "w": "coadyuvar",
+    "p": "",
+    "m": {
+      "en": "to contribute",
+      "zh": "协助",
+      "ja": "協力する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3585
+  },
+  {
+    "word": "dilapidar",
+    "w": "dilapidar",
+    "p": "",
+    "m": {
+      "en": "to squander",
+      "zh": "挥霍",
+      "ja": "浪費する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3586
+  },
+  {
+    "word": "enaltecer",
+    "w": "enaltecer",
+    "p": "",
+    "m": {
+      "en": "to exalt",
+      "zh": "颂扬",
+      "ja": "称揚する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3587
+  },
+  {
+    "word": "fehacientemente",
+    "w": "fehacientemente",
+    "p": "",
+    "m": {
+      "en": "reliably",
+      "zh": "确凿地",
+      "ja": "確実に"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3588
+  },
+  {
+    "word": "obviar",
+    "w": "obviar",
+    "p": "",
+    "m": {
+      "en": "to avoid; to leave out",
+      "zh": "回避；略去",
+      "ja": "省く"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3589
+  },
+  {
+    "word": "soslayar",
+    "w": "soslayar",
+    "p": "",
+    "m": {
+      "en": "to sidestep",
+      "zh": "回避",
+      "ja": "回避する"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3590
+  },
+  {
+    "word": "zanjar",
+    "w": "zanjar",
+    "p": "",
+    "m": {
+      "en": "to settle",
+      "zh": "解决",
+      "ja": "決着をつける"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3591
+  },
+  {
+    "word": "a carta cabal",
+    "w": "a carta cabal",
+    "p": "",
+    "m": {
+      "en": "through and through",
+      "zh": "十足的",
+      "ja": "正真正銘の"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3592
+  },
+  {
+    "word": "a la chita callando",
+    "w": "a la chita callando",
+    "p": "",
+    "m": {
+      "en": "on the quiet",
+      "zh": "悄悄地",
+      "ja": "こっそり"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3593
+  },
+  {
+    "word": "a ojo de buen cubero",
+    "w": "a ojo de buen cubero",
+    "p": "",
+    "m": {
+      "en": "at a rough guess",
+      "zh": "大概估计",
+      "ja": "目分量で"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3594
+  },
+  {
+    "word": "agua pasada no mueve molino",
+    "w": "agua pasada no mueve molino",
+    "p": "",
+    "m": {
+      "en": "it's water under the bridge",
+      "zh": "过去的事就算了",
+      "ja": "過ぎたことは仕方ない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3595
+  },
+  {
+    "word": "cortar por lo sano",
+    "w": "cortar por lo sano",
+    "p": "",
+    "m": {
+      "en": "to take drastic measures",
+      "zh": "快刀斩乱麻",
+      "ja": "思い切った手を打つ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3596
+  },
+  {
+    "word": "dar la campanada",
+    "w": "dar la campanada",
+    "p": "",
+    "m": {
+      "en": "to cause a stir",
+      "zh": "引起轰动",
+      "ja": "世間を騒がせる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3597
+  },
+  {
+    "word": "echar balones fuera",
+    "w": "echar balones fuera",
+    "p": "",
+    "m": {
+      "en": "to dodge the issue",
+      "zh": "推卸责任",
+      "ja": "話をそらす"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3598
+  },
+  {
+    "word": "estar a dos velas",
+    "w": "estar a dos velas",
+    "p": "",
+    "m": {
+      "en": "to be broke",
+      "zh": "身无分文",
+      "ja": "一文無しだ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3599
+  },
+  {
+    "word": "hacer su agosto",
+    "w": "hacer su agosto",
+    "p": "",
+    "m": {
+      "en": "to make a killing",
+      "zh": "大发其财",
+      "ja": "ぼろ儲けする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3600
+  },
+  {
+    "word": "írsele a alguien el santo al cielo",
+    "w": "írsele a alguien el santo al cielo",
+    "p": "",
+    "m": {
+      "en": "to forget what one was going to say",
+      "zh": "一时忘了要说什么",
+      "ja": "何を言おうとしたか忘れる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3601
+  },
+  {
+    "word": "lavarse las manos",
+    "w": "lavarse las manos",
+    "p": "",
+    "m": {
+      "en": "to wash one's hands of it",
+      "zh": "洗手不干",
+      "ja": "手を引く"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3602
+  },
+  {
+    "word": "no tener dos dedos de frente",
+    "w": "no tener dos dedos de frente",
+    "p": "",
+    "m": {
+      "en": "to be dim-witted",
+      "zh": "缺心眼",
+      "ja": "分別がない"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3603
+  },
+  {
+    "word": "poner los puntos sobre las íes",
+    "w": "poner los puntos sobre las íes",
+    "p": "",
+    "m": {
+      "en": "to dot the i's and cross the t's",
+      "zh": "把话说清楚",
+      "ja": "はっきりさせる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3604
+  },
+  {
+    "word": "quedarse en blanco",
+    "w": "quedarse en blanco",
+    "p": "",
+    "m": {
+      "en": "to go blank",
+      "zh": "脑子一片空白",
+      "ja": "頭が真っ白になる"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3605
+  },
+  {
+    "word": "salirse con la suya",
+    "w": "salirse con la suya",
+    "p": "",
+    "m": {
+      "en": "to get one's way",
+      "zh": "如愿以偿",
+      "ja": "思い通りにする"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3606
+  },
+  {
+    "word": "ser harina de otro costal",
+    "w": "ser harina de otro costal",
+    "p": "",
+    "m": {
+      "en": "to be a different kettle of fish",
+      "zh": "另当别论",
+      "ja": "別問題だ"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3607
+  },
+  {
+    "word": "tener la sartén por el mango",
+    "w": "tener la sartén por el mango",
+    "p": "",
+    "m": {
+      "en": "to have the upper hand",
+      "zh": "掌握主动权",
+      "ja": "主導権を握る"
+    },
+    "gender": null,
+    "unit": null,
+    "t": "general",
+    "q": 3608
+  }
+]

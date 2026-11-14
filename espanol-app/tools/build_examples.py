@@ -10,7 +10,7 @@ import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1']
+LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2']
 LANGS = ['en', 'ja', 'zh']
 WORD = re.compile(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+")
 

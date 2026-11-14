@@ -1,17 +1,17 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { deckPie } from '../deck-pie.js?v=202611141400';
-import { S, update, touchStreak } from '../state.js?v=202611141400';
-import { register, go } from '../router.js?v=202611141400';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141400';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141400';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141400';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141400';
-import { speak } from '../audio.js?v=202611141400';
-import { t } from '../i18n.js?v=202611141400';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611141400';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141400';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../es.js?v=202611141400';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611141400';
+import { deckPie } from '../deck-pie.js?v=202611141500';
+import { S, update, touchStreak } from '../state.js?v=202611141500';
+import { register, go } from '../router.js?v=202611141500';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611141500';
+import { LEVELS, levelLabel } from '../levels.js?v=202611141500';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611141500';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141500';
+import { speak } from '../audio.js?v=202611141500';
+import { t } from '../i18n.js?v=202611141500';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611141500';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611141500';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../es.js?v=202611141500';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611141500';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -212,7 +212,7 @@ function freqPanel(lvFix) {
   return `<div class="card mb-16" style="padding:14px">
     <div class="flex items-center justify-between"><b>📈 ${t('freqStudy')}</b>
       <div class="toggle ${on ? 'on' : ''}" onclick="window.__freqToggle()"></div></div>
-    <div class="muted small mt-8">${t('freqStudyHint').replace('{l}', (lvFix ? 'A1–C1' : levelLabel(deckLevel('v') === 'all' ? S.level : deckLevel('v'))))}</div>
+    <div class="muted small mt-8">${t('freqStudyHint').replace('{l}', (lvFix ? 'A1–C2' : levelLabel(deckLevel('v') === 'all' ? S.level : deckLevel('v'))))}</div>
     ${on ? `<div class="flex items-center gap-8 mt-8 small">${t('newPerDay')}:
       ${[5, 10, 15, 20, 30, 50].map(n => `<button class="chip ${(S.newPerDay || 15) === n ? 'on' : ''}" style="padding:2px 10px" onclick="window.__newPerDay(${n})">${n}</button>`).join('')}</div>` : ''}
     <button class="btn btn-ghost mt-12" style="width:100%" onclick="window.__go('vocab-list')">📋 ${t('vocabList')}</button>
@@ -293,7 +293,7 @@ function hanziBack(h, vm, lang) {
 }
 
 // "Tarjetas": a fixed cumulative HSK 1–6 vocabulary deck with the learning-status colours of the vocab list.
-const CARDS_LV = 'c1';
+const CARDS_LV = 'c2';
 register('cards', (el, params = {}) => reviewView(el, { ...params, deck: 'v', lv: CARDS_LV, self: 'cards' }));
 
 async function statusPanel(vm, upto) {

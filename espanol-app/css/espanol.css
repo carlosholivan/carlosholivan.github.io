@@ -28,3 +28,9 @@
 .cj-opts .btn.bad { background: var(--no); color: #fff }
 body.dark .cj-facts { background: rgba(255,255,255,.05) }
 .drill-banner strong { white-space: nowrap }
+.tp-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px }
+.tp-cat { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px; text-align: left; border: none; cursor: pointer; font: inherit; color: inherit }
+.tp-name { font-weight: 700; font-family: var(--serif); font-size: 15px; line-height: 1.25 }
+.tp-cat .progbar, .tp-sub .progbar { width: 100% }
+.tp-sub { padding: 14px 16px; margin-bottom: 10px; cursor: pointer }
+.tp-peek { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 15px }

@@ -1,16 +1,16 @@
-import { S, update } from '../state.js?v=202611141400';
-import { register, go } from '../router.js?v=202611141400';
-import { t } from '../i18n.js?v=202611141400';
-import { speak } from '../audio.js?v=202611141400';
-import { deckStats } from '../engine/anki.js?v=202611141400';
-import { failedWords } from '../engine/srs.js?v=202611141400';
-import { allVocab } from './review.js?v=202611141400';
-import { loadUnits } from '../data.js?v=202611141400';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611141400';
-import { textsWithRecommendation } from './texts.js?v=202611141400';
-import { ruby, pyReady } from '../es.js?v=202611141400';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611141400';
-import { mascot } from '../ui/mascot.js?v=202611141400';
+import { S, update } from '../state.js?v=202611141500';
+import { register, go } from '../router.js?v=202611141500';
+import { t } from '../i18n.js?v=202611141500';
+import { speak } from '../audio.js?v=202611141500';
+import { deckStats } from '../engine/anki.js?v=202611141500';
+import { failedWords } from '../engine/srs.js?v=202611141500';
+import { allVocab } from './review.js?v=202611141500';
+import { loadUnits } from '../data.js?v=202611141500';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611141500';
+import { textsWithRecommendation } from './texts.js?v=202611141500';
+import { ruby, pyReady } from '../es.js?v=202611141500';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611141500';
+import { mascot } from '../ui/mascot.js?v=202611141500';
 
 const zh = (s) => ruby(s);
 
@@ -36,7 +36,7 @@ function needsLevel() {
   return true;
 }
 
-const LEVEL_ICONS = ['A1', 'A2', 'B1', 'B2', 'C1'];
+const LEVEL_ICONS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const STUDY_BADGE = { '📖': 'G', '🗂️': 'V', '✍️': 'P', '📚': 'V', '🎧': 'O' };
 
 register('level-pick', async (el) => {

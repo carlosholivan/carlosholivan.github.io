@@ -1,20 +1,20 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611141400';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611141500';
 
 const STORAGE_KEY = 'español_state';   // same key as the first version of the app, so local progress is kept
 
 // Older versions may have left a level this app doesn't have.
-const LEVEL_IDS = ['a1', 'a2', 'b1', 'b2', 'c1'];
+const LEVEL_IDS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 export const UI_LANGS = ['en', 'ja', 'zh'];
 function fixLevel(s) {
   if (!LEVEL_IDS.includes(s.level)) { s.level = 'a1'; s.unit = 1; }
   if (!UI_LANGS.includes(s.lang)) s.lang = guessLang();
   // Drop lesson keys from other apps (e.g. Chinese 'hsk1-3').
   for (const f of ['completed', 'sets']) {
-    if (s[f] && Object.keys(s[f]).some(k => !/^(a[12]|b[12]|c1)-\d+$/.test(k))) {
-      s[f] = Object.fromEntries(Object.entries(s[f]).filter(([k]) => /^(a[12]|b[12]|c1)-\d+$/.test(k)));
+    if (s[f] && Object.keys(s[f]).some(k => !/^(a[12]|b[12]|c[12])-\d+$/.test(k))) {
+      s[f] = Object.fromEntries(Object.entries(s[f]).filter(([k]) => /^(a[12]|b[12]|c[12])-\d+$/.test(k)));
     }
   }
-  s.recent = (s.recent || []).filter(k => /^(a[12]|b[12]|c1)-\d+$/.test(k));
+  s.recent = (s.recent || []).filter(k => /^(a[12]|b[12]|c[12])-\d+$/.test(k));
   return s;
 }
 
