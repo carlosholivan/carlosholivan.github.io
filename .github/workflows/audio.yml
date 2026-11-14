@@ -55,7 +55,7 @@ jobs:
           git add -A */data/audio
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "audio: generated / compressed clips"
-          git pull -q --rebase origin master
+          git pull -q --rebase -X theirs origin master   # our freshly generated clips win over an older run's
           git push -q origin HEAD:master
           gh workflow run pages.yml --ref master
         env:
