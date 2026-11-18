@@ -113,6 +113,37 @@ const AUX = new Set(['能', '会', '可以', '要', '想', '应该', '应当', '
 const CJ = new Set(['因为', '所以', '但是', '可是', '虽然', '如果', '要是', '而且', '或者', '还是', '不但', '不仅', '然后', '只要', '只有', '即使', '既然', '不过', '于是', '因此', '而', '并且', '尽管', '无论', '不管', '否则', '除了', '以及', '和', '跟', '同时', '甚至', '然而', '因而', '从而', '假如', '哪怕']);
 const MW = new Set(['个', '本', '只', '张', '件', '条', '杯', '位', '次', '块', '辆', '双', '把', '岁', '口', '家', '台', '支', '瓶', '碗', '片', '份', '种', '节', '门', '层', '座', '棵', '朵', '匹', '头', '篇', '首', '部', '场', '顿', '遍', '趟', '套', '束', '封', '间', '所', '架', '道', '幅', '项', '名', '群', '些', '点', '斤', '公斤', '米', '公里', '元', '分钟', '小时', '天', '年', '月', '周', '号']);
 const NOTVB = new Set(['不', '没', '别', '也', '都', '就', '还', '很', '再', '又', '才']);
+// Japanese grammar colours (tags from tools/text_extras.py) and the function of endings / helper verbs / verb forms.
+const GK = { vb: 'gVerb', aux: 'gAux', pt: 'gPt', adj: 'gAdj', cj: 'gCj' };
+const FN = {
+  pas: { es: 'Pasiva o respeto: ～れる／～られる (con verbos del grupo I nunca es potencial)', en: 'Passive or honorific: ～れる／～られる (with group I verbs it is never potential)', ja: '受身・尊敬（五段動詞では可能ではない）' },
+  rare: { es: '～られる: pasiva, potencial o respeto — lo decide el contexto', en: '～られる: passive, potential or honorific — context decides', ja: '～られる：受身・可能・尊敬（文脈で判断）' },
+  cpas: { es: 'Causativa-pasiva: ～させられる = ser obligado a', en: 'Causative-passive: ～させられる = be made to', ja: '使役受身（～させられる）' },
+  sase: { es: 'Causativa: ～せる／～させる = hacer / dejar que alguien…', en: 'Causative: ～せる／～させる = make / let someone…', ja: '使役（～せる／～させる）' },
+  neg: { es: 'Negación (～ない／～ず)', en: 'Negative (～ない／～ず)', ja: '否定' },
+  ta: { es: 'Pasado / acción completada (～た)', en: 'Past / completed action (～た)', ja: '過去・完了（～た）' },
+  masu: { es: 'Forma cortés (～ます)', en: 'Polite form (～ます)', ja: '丁寧（～ます）' },
+  tai: { es: 'Deseo: quiero… (～たい)', en: 'Wish: I want to… (～たい)', ja: '希望（～たい）' },
+  tagaru: { es: 'Deseo de otra persona (～たがる)', en: "Someone else's wish (～たがる)", ja: '第三者の希望（～たがる）' },
+  cop: { es: 'Cópula: だ／です (ser, estar)', en: 'Copula: だ／です (to be)', ja: '断定（だ／です）' },
+  mai: { es: '～まい: no pienso / seguramente no', en: '～まい: will not / probably not', ja: '否定の意志・推量（～まい）' },
+  rashii: { es: 'らしい: parece / según dicen', en: 'らしい: it seems / I hear', ja: '推定・伝聞（らしい）' },
+  vol: { es: 'Volitivo: hagamos / voy a', en: "Volitional: let's / I'll", ja: '意志（～う／～よう）' },
+  teiru: { es: '～ている: acción en curso o estado resultante', en: '～ている: ongoing action or resulting state', ja: '～ている：進行・状態' },
+  shimau: { es: '～てしまう: acabar del todo / por desgracia', en: '～てしまう: finish completely / regrettably', ja: '～てしまう：完了・残念' },
+  oku: { es: '～ておく: hacer de antemano', en: '～ておく: do in advance', ja: '～ておく：準備' },
+  miru: { es: '～てみる: probar a hacer', en: '～てみる: try doing', ja: '～てみる：試み' },
+  kuru: { es: '～てくる: hacia aquí / cambio hasta ahora', en: '～てくる: towards here / change up to now', ja: '～てくる' },
+  iku: { es: '～ていく: hacia allá / cambio a partir de ahora', en: '～ていく: away / change from now on', ja: '～ていく' },
+  tearu: { es: '～てある: estado tras una acción hecha a propósito', en: '～てある: state after a deliberate action', ja: '～てある：結果の状態' },
+  juju: { es: 'Dar y recibir favores (～てあげる／くれる／もらう)', en: 'Giving and receiving favours (～てあげる／くれる／もらう)', ja: '授受（～てあげる／くれる／もらう）' },
+  kudasai: { es: '～てください: petición', en: '～てください: request', ja: '依頼（～てください）' },
+  hoshii: { es: '～てほしい: quiero que otro haga…', en: '～てほしい: I want someone to…', ja: '～てほしい' },
+  vvol: { es: 'Forma volitiva (～よう／～おう): hagamos / voy a', en: "Volitional form (～よう／～おう): let's / I'll", ja: '意向形' },
+  vimp: { es: 'Imperativo: ¡haz…!', en: 'Imperative: do…!', ja: '命令形' },
+  vcond: { es: 'Condicional ～ば: si…', en: 'Conditional ～ば: if…', ja: '仮定形（～ば）' },
+  vpot: { es: 'Forma potencial: poder hacer', en: 'Potential form: can do', ja: '可能形' },
+};
 const NUMQ = /[一二两三四五六七八九十百千万几这那每哪半多〇零0-9]/;
 
 // ── Detail ────────────────────────────────────────────────────────
@@ -161,12 +192,23 @@ register('text', async (el, params) => {
       html += `<span class="speaker">${toks.slice(0, sp).map(x => rubySegs(x[1])).join('')}：</span>`;
       k = sp + 1;
     }
+    const nr = noteRanges(tx.paragraphs[pi], pi);
+    let pos = offset + toks.slice(0, k).reduce((n, x) => n + x[0].length, 0);
     for (; k < toks.length; k++) {
-      const [surf, segs, key] = toks[k];
+      const [surf, segs, key, g, fn] = toks[k];
+      const start = pos; pos += surf.length;
+      const nt = nr.find(([a, b]) => start < b && start + surf.length > a);
       const w = key && dict.has(key) ? key : (dict.has(surf) ? surf : null);
-      if (!w) { html += rubySegs(segs); continue; }
-      const cls = 'tw' + (above(w) ? ' dw' : '') + ` st-${wordStatus(w)}`;
-      html += `<span class="${cls}" data-w="${esc(w)}" data-p="${pi}">${rubySegs(segs)}</span>`;
+      const gc = g ? ` gg g-${g}` : '';
+      const extra = (nt ? ` data-n="${nt[2]}"` : '') + (fn ? ` data-f="${fn}"` : '');
+      if (!w) {
+        if (fn || nt) html += `<span class="tw${gc}${nt ? ' nt' : ''}" data-w="${esc(surf)}" data-p="${pi}" data-x="1"${extra}>${rubySegs(segs)}</span>`;
+        else if (g) html += `<span class="gx${gc}">${rubySegs(segs)}</span>`;
+        else html += rubySegs(segs);
+        continue;
+      }
+      const cls = 'tw' + (above(w) ? ' dw' : '') + (nt ? ' nt' : '') + gc + ` st-${wordStatus(w)}`;
+      html += `<span class="${cls}" data-w="${esc(w)}" data-p="${pi}"${extra}>${rubySegs(segs)}</span>`;
     }
     return html;
   }
@@ -206,13 +248,14 @@ register('text', async (el, params) => {
         <button class="chip ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePy()">ふりがな</button>
         <button class="chip ${view.showTr ? 'on' : ''}" onclick="window.__toggleTr()">🌐 ${t('translateText')}</button>
         ${glossWords.length ? `<button class="chip ${view.showDiff ? 'on' : ''}" onclick="window.__toggleDiff()">⚠️ ${t('difficultWords')}</button>` : ''}
+        <button class="chip ${view.showGram ? 'on' : ''}" onclick="window.__toggleGram()">🔤 ${t('verbsGrammar')}</button>
         <button class="chip ${view.showStatus ? 'on' : ''}" onclick="window.__toggleStatus()">🎨 ${t('myWords')}</button>
       </div>
       <div class="rate-bar mb-12" id="rate-bar"><span>🔊 ${t('audioSpeed')}</span>${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__txRate(${r})">×${r}</button>`).join('')}</div>
       <div class="muted small mb-12">💡 ${t('tapWordHint')}</div>
       ${view.showStatus ? statusLegend() : ''}
-      ${view.showGram ? `<div class="verb-legend mb-12">${['vb', 'aux', 'asp', 'str', 'ba', 'mw', 'cj'].map(k =>
-        `<span class="g-${k}">${t({ vb: 'gVerb', aux: 'gAux', asp: 'gAsp', str: 'gStr', ba: 'gBa', mw: 'gMw', cj: 'gCj' }[k])}</span>`).join('')}${notes.length ? `<span style="border-bottom:2px dashed var(--accent)">📌 ${t('gNote')}</span>` : ''}</div>` : ''}
+      ${view.showGram ? `<div class="verb-legend mb-12">${Object.keys(GK).map(k =>
+        `<span class="g-${k}">${t(GK[k])}</span>`).join('')}${notes.length ? `<span style="border-bottom:2px dashed var(--accent)">📌 ${t('gNote')}</span>` : ''}</div>` : ''}
       <div id="reading" class="card reading reading-zh ${view.showDiff ? 'show-diff' : ''} ${view.showGram ? 'show-gram' : ''} ${view.showStatus ? 'show-status' : ''}">
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
@@ -245,13 +288,14 @@ register('text', async (el, params) => {
   window.__toggleStatus = () => { view.showStatus = !view.showStatus; renderRead(); };
   window.__speakPara = (i) => speak(tx.paragraphs[i].replace(/^[^：\n]{1,8}：/gm, ''));
 
-  const gName = (span) => { const m = span.className.match(/g-(\w+)/); return m ? ` · <span class="tense-badge g-${m[1]}">${t({ vb: 'gVerb', aux: 'gAux', asp: 'gAsp', str: 'gStr', ba: 'gBa', mw: 'gMw', cj: 'gCj' }[m[1]])}</span>` : ''; };
+  const gName = (span) => { const m = span.className.match(/g-(\w+)/); return m ? ` · <span class="tense-badge g-${m[1]}">${t(GK[m[1]] || 'gVerb')}</span>` : ''; };
   function showWord(span) {
     document.querySelectorAll('.tw.sel').forEach(x => x.classList.remove('sel'));
     span.classList.add('sel');
     const w = span.dataset.w;
     const d = dict.get(w) || {};
     const n = span.dataset.n != null ? notes[+span.dataset.n] : null;
+    const fx = span.dataset.f && FN[span.dataset.f];
     const chars = [...w].filter(c => hmap && hmap.has(c));
     const pop = document.getElementById('word-pop');
     const inDeck = !!(S.cards || {})[w];
@@ -264,12 +308,13 @@ register('text', async (el, params) => {
         <button class="listen-mini" onclick="window.__popSpeak()">🔊</button>
         <div class="grow">
           <div class="pop-es zh-word">${esc(w)} <span class="pop-py">${d.p ? tonedPinyin(d.p, { play: true }) : ''}</span></div>
-          <div class="pop-tr">${esc(mean(d.m)) || '—'}</div>
-          <div class="muted small">${d.lv ? levelLabel(d.lv) : ''}${d.gl ? ' · ' + t('difficultWords') : ''} · <span style="color:${STATUS[wordStatus(w)].color};font-weight:700">● ${t(STATUS[wordStatus(w)].key)}</span>${gName(span)}</div>
+          ${span.dataset.x && !d.m ? '' : `<div class="pop-tr">${esc(mean(d.m)) || '—'}</div>`}
+          <div class="muted small">${d.lv ? levelLabel(d.lv) : ''}${d.gl ? ' · ' + t('difficultWords') : ''} ${span.dataset.x ? '' : ` · <span style="color:${STATUS[wordStatus(w)].color};font-weight:700">● ${t(STATUS[wordStatus(w)].key)}</span>`}${gName(span)}</div>
         </div>
         <button class="muted" style="font-size:20px;padding:4px 8px" onclick="document.getElementById('word-pop').style.display='none'">×</button>
       </div>
       ${chars.length ? `<div class="pop-extra">${chars.map(c => { const x = hmap.get(c); return `<div class="gloss-row" style="cursor:pointer" onclick="window.__charSheet('${esc(c)}')"><strong class="jp" style="font-size:20px">${esc(c)}</strong><span>${esc(mean(x.m))} ›</span></div>`; }).join('')}</div>` : ''}
+      ${fx ? `<div class="pop-extra"><span class="tense-badge g-${span.className.match(/g-(\w+)/)?.[1] || 'aux'}">🔤 ${esc(mean(fx))}</span></div>` : ''}
       ${n ? `<div class="pop-extra"><div class="pop-row"><span class="tense-badge note-badge">📌 ${noteKind(n.k)}</span> <strong>${esc(n.f)}</strong></div><div class="pop-hint">${esc(tr(n.e))}</div></div>` : ''}
       ${d.m ? `<div class="mt-8">${inDeck ? `<span class="small muted">✓ ${t('inDeck')}</span>` : `<button id="pop-add" class="chip" onclick="window.__popAdd()">＋ ${t('addToDeck')}</button>`}</div>` : ''}`;
     pop.style.display = 'block';

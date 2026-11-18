@@ -418,11 +418,13 @@ body.nopy rt { display: none; }
 .show-status .tw.st-master { border-bottom: 3px solid #27ae60 }
 .show-status .tw.st-ghost { border-bottom: 3px solid #e74c3c; background: rgba(231,76,60,.08) }
 .g-vb { --vgc: #27ae60 } .g-aux { --vgc: #16a085 } .g-asp { --vgc: #2e86de } .g-str { --vgc: #e67e22 }
-.g-ba { --vgc: #c0392b } .g-mw { --vgc: #8e44ad } .g-cj { --vgc: #7f8c8d }
+.g-pt { --vgc: #2e86de } .g-adj { --vgc: #8e44ad } .g-ba { --vgc: #c0392b } .g-mw { --vgc: #8e44ad } .g-cj { --vgc: #7f8c8d }
+.show-gram .gx.gg { color: var(--vgc); font-weight: 600 }
 .show-gram .tw.gg { color: var(--vgc); font-weight: 700; border-bottom: 3px solid var(--vgc); background: color-mix(in srgb, var(--vgc) 10%, transparent) }
 .show-gram .tw.nt { border-bottom-style: dashed; border-bottom-width: 2px; border-bottom-color: var(--accent) }
 .show-gram .tw.gg.nt { border-bottom-style: solid; box-shadow: 0 3px 0 -1px var(--accent) }
-.show-gram.show-status .tw.gg, .show-status.show-gram .tw.gg { border-bottom-color: var(--vgc) }
+.show-gram.show-status .tw.gg, .show-status.show-gram .gx.gg { color: var(--vgc); font-weight: 600 }
+.show-gram .tw.gg { border-bottom-color: var(--vgc) }
 
 .set-chips { display: flex; align-items: center; gap: 6px; margin-top: 6px; flex-wrap: wrap }
 .set-chip { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line); background: transparent; color: var(--ink2); font-size: 12px; font-weight: 700; cursor: pointer; padding: 0 }
