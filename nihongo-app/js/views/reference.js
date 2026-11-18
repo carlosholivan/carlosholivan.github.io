@@ -1,15 +1,15 @@
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { enLine, enInline } from '../en-gloss.js?v=202611191000';
-import { S, update } from '../state.js?v=202611191000';
-import { register, go } from '../router.js?v=202611191000';
-import { loadUnits } from '../data.js?v=202611191000';
-import { bottomNav, header } from '../ui/components.js?v=202611191000';
-import { t } from '../i18n.js?v=202611191000';
-import { levelChips, levelLabel } from '../levels.js?v=202611191000';
-import { speak } from '../audio.js?v=202611191000';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611191000';
-import { allVocab } from './review.js?v=202611191000';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191000';
+import { enLine, enInline } from '../en-gloss.js?v=202611191100';
+import { S, update } from '../state.js?v=202611191100';
+import { register, go } from '../router.js?v=202611191100';
+import { loadUnits } from '../data.js?v=202611191100';
+import { bottomNav, header } from '../ui/components.js?v=202611191100';
+import { t } from '../i18n.js?v=202611191100';
+import { levelChips, levelLabel } from '../levels.js?v=202611191100';
+import { speak } from '../audio.js?v=202611191100';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611191100';
+import { allVocab } from './review.js?v=202611191100';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191100';
 // Grammar point names carry a few Spanish glosses in brackets; other users see them in English.
 const GNAME_EN = { estado: 'state', condicional: 'conditional', 'oído': 'hearsay', aunque: 'although', apariencia: 'appearance',
   'énfasis': 'emphasis', para: 'for', modo: 'manner', frecuencia: 'frequency', causa: 'cause', 'total／medio': 'total／means' };
@@ -100,4 +100,4 @@ register('grammar-detail', async (el, params) => {
     <button class="btn mt-16" onclick="window.__go('lesson',{level:'${params.level}',unit:${u.id}})">📚 ${t('unit')} ${u.id} →</button>
   </div>`;
 });
-window.__refZh = (e) => { const z = e.target.closest('.zh'); if (z) speak(z.textContent.trim()); };
+window.__refZh = (e) => { const z = e.target.closest('.zh'); if (z) speak(z.dataset.s || [...z.childNodes].map(n => n.nodeName === 'RUBY' ? n.firstChild.textContent : n.textContent).join('').trim()); };

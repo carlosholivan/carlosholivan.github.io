@@ -471,3 +471,9 @@ body.nopy rt { display: none; }
 .pie-row i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
 .pie-row .muted { text-align: right; }
 .pie-total { border-top: 1px solid var(--line); margin-top: 4px; padding-top: 6px; }
+.grammar-section .gex { margin: 10px 0 18px; padding: 10px 14px; border-radius: 10px; background: var(--card2, rgba(0,0,0,.03)); }
+.grammar-section .gex-h { font-weight: 700; font-size: 13px; color: var(--ink2); margin-bottom: 4px }
+.grammar-section .gex ul { margin: 0; padding-left: 18px }
+.grammar-section .gex li { margin: 8px 0; cursor: pointer }
+.grammar-section .gex .zh { font-size: 17px; line-height: 2 }
+.grammar-section .gex-tr { font-size: 13.5px; color: var(--ink2) }
