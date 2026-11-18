@@ -126,7 +126,7 @@ function buildExercise(ex, lang) {
     case 'translate':
       return { type: 'translate', prompt: tr(ex.prompt, lang), answer: ex.answer, py: ex.py, accept: [ex.answer, ...(ex.accept || [])], hint };
     case 'fill':
-      return { type: 'fill', sentence: ex.sentence, blank: ex.blank, py: ex.py, options: shuffle([...ex.options]), hint, trans: tr(ex.tr, lang) };
+      return { type: 'fill', sentence: ex.sentence, blank: ex.blank, py: ex.py, options: shuffle([...ex.options]), hint, trans: tr(ex.tr, lang), expl: ex.e ? tr(ex.e, lang) : '' };
     case 'order':
       return { type: 'order', prompt: tr(ex.prompt, lang), words: shuffle([...ex.words]), answer: ex.answer, py: ex.py, hint };
     case 'match':

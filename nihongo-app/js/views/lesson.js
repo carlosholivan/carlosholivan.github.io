@@ -410,6 +410,7 @@ register('lesson', async (el, params) => {
       <div style="font-weight:600;color:${isCorrect ? 'var(--ok)' : 'var(--no)'}">${isCorrect ? t('correct') : t('incorrect')}</div>
       ${note ? `<div class="mt-8 fb-zh">${note}</div>` : ''}
       ${!isCorrect ? `<div class="muted small mt-8">${t('answer')}: <strong>${html ? correctAnswer : esc(correctAnswer)}</strong></div>
+        ${ex.expl ? `<div class="note-box mt-8 small">💡 ${esc(ex.expl)}</div>` : ''}
         <div class="muted small mt-8">${t('retryLater')}</div>` : ''}
     </div>
     <button class="btn mt-12 ${isCorrect ? 'btn-ok' : ''}" id="next-btn" onclick="window.__next(${isCorrect})">${t('continue')}</button>`;
