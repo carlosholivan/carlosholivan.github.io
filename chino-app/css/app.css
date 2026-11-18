@@ -469,3 +469,9 @@ body.nopy rt { display: none; }
 .pie-row i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
 .pie-row .muted { text-align: right; }
 .pie-total { border-top: 1px solid var(--line); margin-top: 4px; padding-top: 6px; }
+
+.anki-sim { margin-top: 10px; text-align: left }
+.anki-sim-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 6px 0 }
+.anki-sim-c { font-size: 24px; font-weight: 700; font-family: var(--serif) }
+.anki-sim-x { cursor: pointer; padding: 3px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg2) }
+.anki-sim-x b { font-size: 20px; font-family: var(--serif) }

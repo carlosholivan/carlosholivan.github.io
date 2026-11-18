@@ -58,6 +58,7 @@ export default {
   ankiErrLib:     { es: 'No se pudo cargar el lector (¿sin conexión?). Inténtalo de nuevo.', en: 'Could not load the reader (offline?). Try again.', ja: '読み込みツールを取得できませんでした（オフライン？）。もう一度お試しください。', ko: '리더를 불러오지 못했어요(오프라인?). 다시 시도하세요.' },
   ankiErrEmpty:   { es: 'El archivo no tiene tarjetas.', en: 'The file has no cards.', ja: 'ファイルにカードがありません。', ko: '파일에 카드가 없어요.' },
   ankiErrFormat:  { es: 'No se pudo leer el archivo. Exporta de nuevo como .apkg o .colpkg.', en: 'Could not read the file. Export again as .apkg or .colpkg.', ja: 'ファイルを読み込めませんでした。.apkg か .colpkg で書き出し直してください。', ko: '파일을 읽지 못했어요. .apkg 또는 .colpkg로 다시 내보내세요.' },
+  similarChars:   { es: 'Caracteres parecidos (no confundir)', en: 'Look-alike characters (don’t confuse)', ja: '形が似ている字', ko: '모양이 비슷한 글자' },
   synonyms:       { es: 'Sinónimos y palabras parecidas', en: 'Synonyms and similar words', ja: '類義語', ko: '유의어' },
   deckIntroHint:  { es: 'Las palabras entran en tu mazo poco a poco (las nuevas de cada día, las de tus lecciones y lecturas): el primer número es cuántas ya tienes; el segundo, el total del nivel.', en: 'Words join your deck gradually (each day\'s new cards, plus words from your lessons and readings): the first number is how many you have; the second, the level total.', ja: '単語は少しずつデッキに入ります（毎日の新規カードと、レッスンや読み物の単語）。最初の数字は今ある数、2つ目はレベル全体の数です。', ko: '단어는 조금씩 덱에 들어와요(매일의 새 카드와 레슨·읽기의 단어). 앞의 숫자는 지금 가진 수, 뒤의 숫자는 레벨 전체 수예요.' },
   tagNew:         { es: 'Nueva', en: 'New', ja: '新規', ko: '새 카드' },

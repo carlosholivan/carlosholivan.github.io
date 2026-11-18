@@ -477,3 +477,9 @@ body.nopy rt { display: none; }
 .grammar-section .gex li { margin: 8px 0; cursor: pointer }
 .grammar-section .gex .zh { font-size: 17px; line-height: 2 }
 .grammar-section .gex-tr { font-size: 13.5px; color: var(--ink2) }
+
+.anki-sim { margin-top: 10px; text-align: left }
+.anki-sim-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 6px 0 }
+.anki-sim-c { font-size: 24px; font-weight: 700; font-family: var(--serif) }
+.anki-sim-x { cursor: pointer; padding: 3px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg2) }
+.anki-sim-x b { font-size: 20px; font-family: var(--serif) }

@@ -1,18 +1,18 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { enLine, enInline } from '../en-gloss.js?v=202611191700';
-import { deckPie } from '../deck-pie.js?v=202611191700';
-import { S, update, touchStreak } from '../state.js?v=202611191700';
-import { register, go } from '../router.js?v=202611191700';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611191700';
-import { LEVELS, levelLabel } from '../levels.js?v=202611191700';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611191700';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191700';
-import { speak } from '../audio.js?v=202611191700';
-import { t } from '../i18n.js?v=202611191700';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611191700';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611191700';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611191700';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611191700';
+import { enLine, enInline } from '../en-gloss.js?v=202611191800';
+import { deckPie } from '../deck-pie.js?v=202611191800';
+import { S, update, touchStreak } from '../state.js?v=202611191800';
+import { register, go } from '../router.js?v=202611191800';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611191800';
+import { LEVELS, levelLabel } from '../levels.js?v=202611191800';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611191800';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191800';
+import { speak } from '../audio.js?v=202611191800';
+import { t } from '../i18n.js?v=202611191800';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611191800';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611191800';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611191800';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611191800';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -256,8 +256,23 @@ async function fillSyn(root) {
   box.innerHTML = `<div class="anki-ex-label">${t('synonyms')}</div>` + rows.map(v =>
     `<div class="anki-syn-row" onclick="event.stopPropagation();window.__exSay(this)" data-s="${esc(v.w)}"><span class="anki-syn-w">${esc(v.w)}</span><span class="anki-syn-p">${tonedPinyin(v.p)}</span><span class="anki-syn-m">${esc(mean(v.m, S.lang))}</span><span class="badge">${levelLabel(v.lv)}</span></div>`).join('') + note;
 }
+// Look-alike characters (data/similar.json, from tools/build_similar.py) for each character of the word.
+let SIM;
+async function fillSim(root) {
+  const box = root?.querySelector('.anki-sim'); if (!box || box.dataset.done) return;
+  box.dataset.done = '1';
+  SIM ??= fetch('data/similar.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  const sim = (await SIM) || {}, hm = await allHanzi();
+  const rows = [...new Set([...box.dataset.w])].filter(c => sim[c]).map(c => {
+    const alike = sim[c].filter(x => hm.has(x)).slice(0, 4);
+    if (!alike.length) return '';
+    return `<div class="anki-sim-row"><span class="anki-sim-c">${esc(c)}</span><span class="muted">≠</span>${alike.map(x => { const h = hm.get(x);
+      return `<span class="anki-sim-x" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(x)}',back:'review'})"><b>${esc(x)}</b> <span class="muted small">${esc(String(h.p || '').split(' / ')[0])} · ${esc(mean(h.m, S.lang).split(/[,;，；]/)[0])}</span></span>`; }).join('')}</div>`;
+  }).join('');
+  if (rows) box.innerHTML = `<div class="anki-ex-label">${t('similarChars')}</div>${rows}`;
+}
 async function fillExamples(root) {
-  fillSyn(root);
+  fillSyn(root); fillSim(root);
   const box = root?.querySelector('.anki-ex'); if (!box || box.dataset.done) return;
   box.dataset.done = '1';
   const w = box.dataset.w, lv = box.dataset.lv;
@@ -275,7 +290,7 @@ function vocabBack(v, lang) {
   const note = v.x && mean(v.x, lang) ? `<div class="note-box mt-12">${esc(mean(v.x, lang))}</div>` : '';
   return `<div class="anki-py">${tonedPinyin(v.p, { play: true })}</div>
     <div class="anki-ans">${esc(mean(v.m, lang))}</div>${enLine(v.m)}${trad}${cl}${note}
-    <div class="muted small mt-8">${levelLabel(v.lv)}</div><div class="anki-syn" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div><div class="anki-ex" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div>`;
+    <div class="muted small mt-8">${levelLabel(v.lv)}</div><div class="anki-sim" data-w="${esc(v.w)}"></div><div class="anki-syn" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div><div class="anki-ex" data-w="${esc(v.w)}" data-lv="${esc(v.lv || '')}"></div>`;
 }
 
 export function hanziExtra(h, lang) {
@@ -294,6 +309,7 @@ function hanziBack(h, vm, lang) {
     <div class="anki-ans">${esc(mean(h.m, lang))}</div>${enLine(h.m)}
     ${hanziExtra(h, lang)}
     ${words.length ? `<div class="hz-words mt-12">${words.map(w => `<span class="vocab-pill"><span class="es">${esc(w.w)}</span><span class="tr">${esc(w.p)} · ${esc(mean(w.m, lang))}</span></span>`).join('')}</div>` : ''}
+    <div class="anki-sim" data-w="${esc(h.c)}"></div>
     <button class="btn btn-soft btn-small mt-12" onclick="event.stopPropagation();window.__go('hanzi-detail',{c:'${esc(h.c)}',back:'review'})">${t('charSheet')} →</button>`;
 }
 
