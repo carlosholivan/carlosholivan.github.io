@@ -1,7 +1,7 @@
 name: App audio (edge-tts)
 
 # For every app: generates the missing MP3s with the free Microsoft Edge neural voices (tools/generate_audio.py),
-# re-encodes new clips to 24 kbps mono (.github/scripts/compress_audio.py), commits them and redeploys the site.
+# re-encodes new clips to 16 kHz, 16 kbps mono (.github/scripts/compress_audio.py), commits them and redeploys the site.
 on:
   workflow_dispatch:
   push:
