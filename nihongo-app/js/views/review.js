@@ -1,18 +1,18 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { enLine, enInline } from '../en-gloss.js?v=202611191400';
-import { deckPie } from '../deck-pie.js?v=202611191400';
-import { S, update, touchStreak } from '../state.js?v=202611191400';
-import { register, go } from '../router.js?v=202611191400';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611191400';
-import { LEVELS, levelLabel } from '../levels.js?v=202611191400';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611191400';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191400';
-import { speak } from '../audio.js?v=202611191400';
-import { t } from '../i18n.js?v=202611191400';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611191400';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611191400';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611191400';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611191400';
+import { enLine, enInline } from '../en-gloss.js?v=202611191500';
+import { deckPie } from '../deck-pie.js?v=202611191500';
+import { S, update, touchStreak } from '../state.js?v=202611191500';
+import { register, go } from '../router.js?v=202611191500';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611191500';
+import { LEVELS, levelLabel } from '../levels.js?v=202611191500';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611191500';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191500';
+import { speak } from '../audio.js?v=202611191500';
+import { t } from '../i18n.js?v=202611191500';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611191500';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611191500';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611191500';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611191500';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {

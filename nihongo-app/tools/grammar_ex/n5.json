@@ -1,945 +1,1589 @@
 {
-"1": [
-{
-"q": "わたし___学生です。",
-"a": "は",
-"o": [
-"を",
-"に",
-"で"
-],
-"es": "Yo soy estudiante.",
-"en": "I am a student.",
-"ees": "は marca el tema de la frase («en cuanto a mí…»). を marca el objeto directo, に destino/tiempo y で lugar de acción.",
-"een": "は marks the topic («as for me…»). を marks the object, に a destination/time and で the place of an action."
-},
-{
-"q": "これはわたし___本です。",
-"a": "の",
-"o": [
-"は",
-"が",
-"と"
-],
-"es": "Este es mi libro.",
-"en": "This is my book.",
-"ees": "の une dos sustantivos: わたしの本 = el libro de mí → mi libro.",
-"een": "の links two nouns: わたしの本 = the book of me → my book."
-},
-{
-"q": "田中さんは先生です___。",
-"a": "か",
-"o": [
-"ね",
-"よ",
-"の"
-],
-"es": "¿El señor Tanaka es profesor?",
-"en": "Is Mr Tanaka a teacher?",
-"ees": "か al final convierte la frase en pregunta. ね busca acuerdo («¿verdad?») y よ informa algo nuevo.",
-"een": "か at the end makes it a question. ね seeks agreement («right?») and よ gives new information."
-}
-],
-"2": [
-{
-"q": "お子さんは___ですか。―五つです。",
-"a": "いくつ",
-"o": [
-"いくら",
-"どこ",
-"だれ"
-],
-"es": "¿Cuántos años tiene su hijo? —Cinco.",
-"en": "How old is your child? —Five.",
-"ees": "いくつ pregunta la edad (y «cuántos» objetos). いくら pregunta el precio.",
-"een": "いくつ asks age (and «how many»). いくら asks the price."
-},
-{
-"q": "今、___時ですか。",
-"a": "何",
-"o": [
-"どれ",
-"いつ",
-"どの"
-],
-"es": "¿Qué hora es ahora?",
-"en": "What time is it now?",
-"ees": "何時 (なんじ) = qué hora. 何 va delante del contador. いつ = cuándo, sin contador.",
-"een": "何時 (なんじ) = what time. 何 goes before the counter. いつ = when, with no counter."
-},
-{
-"q": "電話番号は___番ですか。",
-"a": "何",
-"o": [
-"いくつ",
-"どこ",
-"どう"
-],
-"es": "¿Cuál es el número de teléfono?",
-"en": "What is the phone number?",
-"ees": "Para números (teléfono, habitación) se usa 何番. いくつ es para edad o cantidad.",
-"een": "For numbers (phone, room) use 何番. いくつ is for age or quantity."
-}
-],
-"3": [
-{
-"q": "___本はわたしのです。",
-"a": "この",
-"o": [
-"これ",
-"ここ",
-"こちら"
-],
-"es": "Este libro es mío.",
-"en": "This book is mine.",
-"ees": "この va siempre delante de un sustantivo (この本). これ va solo: これはわたしの本です.",
-"een": "この always comes before a noun (この本). これ stands alone: これはわたしの本です."
-},
-{
-"q": "___は何ですか。―それはペンです。",
-"a": "これ",
-"o": [
-"この",
-"ここ",
-"どれ"
-],
-"es": "¿Qué es esto? —Eso es un bolígrafo.",
-"en": "What is this? —That is a pen.",
-"ees": "これ funciona como pronombre (sin sustantivo detrás). この necesita un sustantivo: このペン.",
-"een": "これ works as a pronoun (no noun after it). この needs a noun: このペン."
-},
-{
-"q": "(lejos de los dos) ___人はだれですか。",
-"a": "あの",
-"o": [
-"その",
-"この",
-"あれ"
-],
-"es": "¿Quién es esa persona de allí?",
-"en": "Who is that person over there?",
-"ees": "あの = lejos de quien habla y de quien escucha. その = cerca del que escucha. Delante de 人 hace falta あの, no あれ.",
-"een": "あの = far from both speaker and listener. その = near the listener. Before 人 you need あの, not あれ."
-}
-],
-"4": [
-{
-"q": "公園に犬が___。",
-"a": "います",
-"o": [
-"あります",
-"です",
-"いきます"
-],
-"es": "Hay un perro en el parque.",
-"en": "There is a dog in the park.",
-"ees": "います para seres vivos que se mueven (personas, animales). あります para cosas y plantas.",
-"een": "います is for living things that move (people, animals). あります is for things and plants."
-},
-{
-"q": "机の上に本が___。",
-"a": "あります",
-"o": [
-"います",
-"いました",
-"いません"
-],
-"es": "Hay un libro sobre la mesa.",
-"en": "There is a book on the desk.",
-"ees": "Un libro es una cosa inanimada → あります. います solo para personas y animales.",
-"een": "A book is inanimate → あります. います is only for people and animals."
-},
-{
-"q": "トイレは___ですか。",
-"a": "どこ",
-"o": [
-"どれ",
-"どの",
-"どちら"
-],
-"es": "¿Dónde está el baño?",
-"en": "Where is the toilet?",
-"ees": "どこ pregunta el lugar. どれ = cuál (entre cosas), どの necesita sustantivo.",
-"een": "どこ asks for a place. どれ = which one (among things), どの needs a noun."
-}
-],
-"5": [
-{
-"q": "毎朝七時に___。",
-"a": "起きます",
-"o": [
-"起きません",
-"起きました",
-"起きて"
-],
-"es": "Me levanto todas las mañanas a las siete.",
-"en": "I get up at seven every morning.",
-"ees": "Un hábito (毎朝) va en presente afirmativo ～ます. ～ました es pasado y ～ません negativo.",
-"een": "A habit (毎朝) uses the present ～ます. ～ました is past and ～ません negative."
-},
-{
-"q": "きのうは勉強し___。",
-"a": "ませんでした",
-"o": [
-"ません",
-"ましょう",
-"ています"
-],
-"es": "Ayer no estudié.",
-"en": "I didn't study yesterday.",
-"ees": "きのう es pasado: negativo pasado = ～ませんでした. ～ません es negativo presente.",
-"een": "きのう is past: past negative = ～ませんでした. ～ません is present negative."
-},
-{
-"q": "十時___寝ます。",
-"a": "に",
-"o": [
-"で",
-"を",
-"へ"
-],
-"es": "Me acuesto a las diez.",
-"en": "I go to bed at ten.",
-"ees": "Una hora concreta lleva に (十時に). で marca lugar o medio.",
-"een": "A specific time takes に (十時に). で marks place or means."
-}
-],
-"6": [
-{
-"q": "誕生日は___ですか。―五月三日です。",
-"a": "いつ",
-"o": [
-"何時",
-"どこ",
-"いくら"
-],
-"es": "¿Cuándo es tu cumpleaños? —El 3 de mayo.",
-"en": "When is your birthday? —May 3rd.",
-"ees": "いつ = cuándo (fecha en general). 何時 pregunta solo la hora.",
-"een": "いつ = when (any date). 何時 asks only the time of day."
-},
-{
-"q": "今日は___曜日ですか。",
-"a": "何",
-"o": [
-"いつ",
-"どの",
-"いくつ"
-],
-"es": "¿Qué día de la semana es hoy?",
-"en": "What day of the week is it today?",
-"ees": "何曜日 = qué día de la semana. Delante del contador 曜日 va 何.",
-"een": "何曜日 = which day of the week. 何 goes before the counter 曜日."
-},
-{
-"q": "テストは何日___。",
-"a": "ですか",
-"o": [
-"ですね",
-"でした",
-"ですよ"
-],
-"es": "¿Qué día es el examen?",
-"en": "What day is the test?",
-"ees": "Con una palabra interrogativa (何日) la frase termina en か para preguntar.",
-"een": "With a question word (何日) the sentence ends in か to ask."
-}
-],
-"7": [
-{
-"q": "毎朝パン___食べます。",
-"a": "を",
-"o": [
-"が",
-"に",
-"は"
-],
-"es": "Como pan todas las mañanas.",
-"en": "I eat bread every morning.",
-"ees": "食べます es transitivo: lo que se come lleva を (objeto directo).",
-"een": "食べます is transitive: what you eat takes を (direct object)."
-},
-{
-"q": "わたしはコーヒー___好きです。",
-"a": "が",
-"o": [
-"を",
-"に",
-"で"
-],
-"es": "Me gusta el café.",
-"en": "I like coffee.",
-"ees": "好き es un adjetivo, no un verbo: lo que gusta se marca con が, no con を.",
-"een": "好き is an adjective, not a verb: what you like takes が, not を."
-},
-{
-"q": "にんじんは___です。",
-"a": "嫌い",
-"o": [
-"嫌いな",
-"嫌いに",
-"嫌く"
-],
-"es": "No me gustan las zanahorias.",
-"en": "I don't like carrots.",
-"ees": "嫌い es adjetivo な: al final de frase va solo + です. 嫌いな se usa delante de un sustantivo.",
-"een": "嫌い is a な-adjective: at the end it is just + です. 嫌いな goes before a noun."
-}
-],
-"8": [
-{
-"q": "コーヒーを二杯___。",
-"a": "ください",
-"o": [
-"くださいます",
-"くれます",
-"あげます"
-],
-"es": "Dos cafés, por favor.",
-"en": "Two coffees, please.",
-"ees": "Para pedir algo: (cosa)をください. くれます/あげます son verbos de dar, no peticiones.",
-"een": "To order something: (thing)をください. くれます/あげます mean «give», they are not requests."
-},
-{
-"q": "お水を___ください。",
-"a": "一杯",
-"o": [
-"一枚",
-"一本",
-"一人"
-],
-"es": "Un vaso de agua, por favor.",
-"en": "A glass of water, please.",
-"ees": "杯 cuenta vasos y tazas. 枚 = cosas planas, 人 = personas.",
-"een": "杯 counts glasses and cups. 枚 = flat things, 人 = people."
-},
-{
-"q": "ケーキ___紅茶をください。",
-"a": "と",
-"o": [
-"や",
-"も",
-"か"
-],
-"es": "Un pastel y un té, por favor.",
-"en": "A cake and a tea, please.",
-"ees": "と une una lista completa (pastel y té, nada más). や da ejemplos («pastel, té, etc.»).",
-"een": "と joins a complete list (cake and tea, nothing else). や gives examples («cake, tea and so on»)."
-}
-],
-"9": [
-{
-"q": "このシャツは___ですか。―三千円です。",
-"a": "いくら",
-"o": [
-"いくつ",
-"どれ",
-"なん"
-],
-"es": "¿Cuánto cuesta esta camisa? —3000 yenes.",
-"en": "How much is this shirt? —3,000 yen.",
-"ees": "いくら pregunta el precio. いくつ pregunta cantidad o edad.",
-"een": "いくら asks the price. いくつ asks quantity or age."
-},
-{
-"q": "切手を五___ください。",
-"a": "枚",
-"o": [
-"本",
-"個",
-"冊"
-],
-"es": "Cinco sellos, por favor.",
-"en": "Five stamps, please.",
-"ees": "枚 cuenta cosas planas (sellos, papel, camisas). 本 = objetos largos, 冊 = libros, 個 = objetos pequeños.",
-"een": "枚 counts flat things (stamps, paper, shirts). 本 = long objects, 冊 = books, 個 = small objects."
-},
-{
-"q": "ペンを三___買いました。",
-"a": "本",
-"o": [
-"枚",
-"匹",
-"台"
-],
-"es": "Compré tres bolígrafos.",
-"en": "I bought three pens.",
-"ees": "Los bolígrafos son largos y finos → 本 (さんぼん). 匹 = animales pequeños, 台 = máquinas.",
-"een": "Pens are long and thin → 本 (さんぼん). 匹 = small animals, 台 = machines."
-}
-],
-"10": [
-{
-"q": "兄は銀行で働い___。",
-"a": "ています",
-"o": [
-"ます か",
-"てください",
-"ましょう"
-],
-"es": "Mi hermano mayor trabaja en un banco.",
-"en": "My older brother works at a bank.",
-"ees": "Un trabajo o estado continuado se expresa con ～ています. ～てください es una petición.",
-"een": "An ongoing job or state uses ～ています. ～てください is a request."
-},
-{
-"q": "姉は結婚し___。",
-"a": "ています",
-"o": [
-"ます",
-"ました",
-"ませんか"
-],
-"es": "Mi hermana mayor está casada.",
-"en": "My older sister is married.",
-"ees": "結婚しています = está casada (estado resultante). 結婚します sería «se casará».",
-"een": "結婚しています = she is married (resulting state). 結婚します would mean «will get married»."
-},
-{
-"q": "これは母___かばんです。",
-"a": "の",
-"o": [
-"が",
-"は",
-"を"
-],
-"es": "Este es el bolso de mi madre.",
-"en": "This is my mother's bag.",
-"ees": "Posesión entre sustantivos: 母のかばん = el bolso de mi madre.",
-"een": "Possession between nouns: 母のかばん = my mother's bag."
-}
-],
-"11": [
-{
-"q": "この部屋はあまり広___。",
-"a": "くないです",
-"o": [
-"じゃないです",
-"くありました",
-"いないです"
-],
-"es": "Esta habitación no es muy amplia.",
-"en": "This room is not very spacious.",
-"ees": "広い es adjetivo い: negativo = quitar い + くない. じゃない es para adjetivos な y sustantivos.",
-"een": "広い is an い-adjective: negative = drop い + くない. じゃない is for な-adjectives and nouns."
-},
-{
-"q": "ここは静か___町です。",
-"a": "な",
-"o": [
-"の",
-"い",
-"で"
-],
-"es": "Esta es una ciudad tranquila.",
-"en": "This is a quiet town.",
-"ees": "静か es adjetivo な: delante de un sustantivo lleva な (静かな町).",
-"een": "静か is a な-adjective: before a noun it takes な (静かな町)."
-},
-{
-"q": "この料理はぜんぜん辛___。",
-"a": "くない",
-"o": [
-"じゃない",
-"くて",
-"いじゃない"
-],
-"es": "Esta comida no pica nada.",
-"en": "This dish isn't spicy at all.",
-"ees": "辛い (adjetivo い) → 辛くない. ぜんぜん pide negativo.",
-"een": "辛い (い-adjective) → 辛くない. ぜんぜん requires a negative."
-}
-],
-"12": [
-{
-"q": "冬になると、寒___なります。",
-"a": "く",
-"o": [
-"に",
-"い",
-"な"
-],
-"es": "Cuando llega el invierno, hace frío.",
-"en": "When winter comes, it gets cold.",
-"ees": "Adjetivo い + なる: 寒い → 寒くなる. Con adjetivos な o sustantivos se usa に (静かになる).",
-"een": "い-adjective + なる: 寒い → 寒くなる. With な-adjectives or nouns use に (静かになる)."
-},
-{
-"q": "明日は雨___。",
-"a": "でしょう",
-"o": [
-"ましょう",
-"ください",
-"ませんか"
-],
-"es": "Mañana probablemente lloverá.",
-"en": "It will probably rain tomorrow.",
-"ees": "でしょう = probablemente (previsión). ましょう = «hagamos», una propuesta.",
-"een": "でしょう = probably (forecast). ましょう = «let's», a suggestion."
-},
-{
-"q": "部屋がきれい___なりました。",
-"a": "に",
-"o": [
-"く",
-"な",
-"で"
-],
-"es": "La habitación ha quedado limpia.",
-"en": "The room became clean.",
-"ees": "きれい es adjetivo な (aunque termina en い): きれい + に + なる.",
-"een": "きれい is a な-adjective (even though it ends in い): きれい + に + なる."
-}
-],
-"13": [
-{
-"q": "毎日バス___会社へ行きます。",
-"a": "で",
-"o": [
-"に",
-"を",
-"へ"
-],
-"es": "Voy a la oficina en autobús todos los días.",
-"en": "I go to the office by bus every day.",
-"ees": "で marca el medio de transporte. へ/に marcan el destino.",
-"een": "で marks the means of transport. へ/に mark the destination."
-},
-{
-"q": "来週、京都___行きます。",
-"a": "へ",
-"o": [
-"で",
-"を",
-"から まで"
-],
-"es": "La semana que viene voy a Kioto.",
-"en": "Next week I'm going to Kyoto.",
-"ees": "へ marca la dirección o destino de un movimiento. で sería el lugar donde ocurre algo.",
-"een": "へ marks the direction/destination of movement. で would be where something happens."
-},
-{
-"q": "駅から学校まで二十分___。",
-"a": "かかります",
-"o": [
-"あります",
-"します",
-"なります"
-],
-"es": "De la estación a la escuela se tarda veinte minutos.",
-"en": "It takes twenty minutes from the station to school.",
-"ees": "Tiempo o dinero que se tarda/cuesta → かかる.",
-"een": "Time or money something takes → かかる."
-}
-],
-"14": [
-{
-"q": "ここに名前を書い___。",
-"a": "てください",
-"o": [
-"ています",
-"ました",
-"たい"
-],
-"es": "Escriba su nombre aquí, por favor.",
-"en": "Please write your name here.",
-"ees": "Forma て + ください = petición educada.",
-"een": "て-form + ください = polite request."
-},
-{
-"q": "窓を___ください。",
-"a": "開けて",
-"o": [
-"開けます",
-"開け",
-"開けた"
-],
-"es": "Abra la ventana, por favor.",
-"en": "Please open the window.",
-"ees": "ください va después de la forma て: 開ける → 開けて.",
-"een": "ください follows the て-form: 開ける → 開けて."
-},
-{
-"q": "かばんは机の下___あります。",
-"a": "に",
-"o": [
-"で",
-"を",
-"へ"
-],
-"es": "La bolsa está debajo de la mesa.",
-"en": "The bag is under the desk.",
-"ees": "Donde está algo (con あります/います) se marca con に. で es para donde ocurre una acción.",
-"een": "Where something is (with あります/います) takes に. で is where an action happens."
-}
-],
-"15": [
-{
-"q": "山田さんは赤いセーターを___います。",
-"a": "着て",
-"o": [
-"はいて",
-"かぶって",
-"かけて"
-],
-"es": "La señora Yamada lleva un jersey rojo.",
-"en": "Ms Yamada is wearing a red sweater.",
-"ees": "着る para ropa de cintura para arriba. はく para zapatos y pantalones, かぶる para sombreros.",
-"een": "着る is for clothes above the waist. はく for shoes and trousers, かぶる for hats."
-},
-{
-"q": "新しい靴を___います。",
-"a": "はいて",
-"o": [
-"着て",
-"かぶって",
-"して"
-],
-"es": "Lleva zapatos nuevos.",
-"en": "He is wearing new shoes.",
-"ees": "Zapatos, calcetines, faldas y pantalones → はく.",
-"een": "Shoes, socks, skirts and trousers → はく."
-},
-{
-"q": "あの眼鏡を___いる人は田中さんです。",
-"a": "かけて",
-"o": [
-"着て",
-"はいて",
-"かぶって"
-],
-"es": "La persona que lleva gafas es el señor Tanaka.",
-"en": "The person wearing glasses is Mr Tanaka.",
-"ees": "Las gafas se «cuelgan»: 眼鏡をかける.",
-"een": "Glasses are «hung»: 眼鏡をかける."
-}
-],
-"16": [
-{
-"q": "わたしは泳ぐ___ができます。",
-"a": "こと",
-"o": [
-"の",
-"もの",
-"ところ"
-],
-"es": "Sé nadar.",
-"en": "I can swim.",
-"ees": "Verbo en diccionario + ことができる = poder/saber hacer.",
-"een": "Dictionary form + ことができる = can / be able to."
-},
-{
-"q": "姉はピアノ___上手です。",
-"a": "が",
-"o": [
-"を",
-"に",
-"で"
-],
-"es": "Mi hermana toca muy bien el piano.",
-"en": "My sister is good at the piano.",
-"ees": "上手/下手 son adjetivos: aquello en lo que eres bueno lleva が.",
-"een": "上手/下手 are adjectives: what you are good at takes が."
-},
-{
-"q": "日本語を話す___ができますか。",
-"a": "こと",
-"o": [
-"もの",
-"の が",
-"ため"
-],
-"es": "¿Sabes hablar japonés?",
-"en": "Can you speak Japanese?",
-"ees": "Para «poder hacer» con ができる hace falta nominalizar el verbo con こと.",
-"een": "To say «can do» with ができる the verb is nominalised with こと."
-}
-],
-"17": [
-{
-"q": "朝ご飯を食べ___、学校へ行きます。",
-"a": "て",
-"o": [
-"た",
-"ます",
-"ない"
-],
-"es": "Desayuno y voy a la escuela.",
-"en": "I eat breakfast and go to school.",
-"ees": "La forma て enlaza acciones en orden: 食べて、行きます.",
-"een": "The て-form links actions in sequence: 食べて、行きます."
-},
-{
-"q": "いっしょに帰り___。",
-"a": "ましょう",
-"o": [
-"ました",
-"ません",
-"ましたか"
-],
-"es": "Volvamos juntos.",
-"en": "Let's go home together.",
-"ees": "～ましょう = «hagamos…», propuesta inclusiva.",
-"een": "～ましょう = «let's…», an inclusive suggestion."
-},
-{
-"q": "___遅れましたか。―電車が止まったからです。",
-"a": "どうして",
-"o": [
-"どう",
-"どこで",
-"だれが"
-],
-"es": "¿Por qué llegaste tarde? —Porque se paró el tren.",
-"en": "Why were you late? —Because the train stopped.",
-"ees": "どうして = por qué. どう = cómo/qué tal.",
-"een": "どうして = why. どう = how / how about."
-}
-],
-"18": [
-{
-"q": "熱がありますから、早く寝た___がいいですよ。",
-"a": "ほう",
-"o": [
-"こと",
-"ため",
-"とき"
-],
-"es": "Como tienes fiebre, es mejor que te acuestes pronto.",
-"en": "Since you have a fever, you'd better go to bed early.",
-"ees": "Forma た + ほうがいい = consejo («es mejor que…»).",
-"een": "た-form + ほうがいい = advice («you'd better…»)."
-},
-{
-"q": "お酒を飲ま___ほうがいいです。",
-"a": "ない",
-"o": [
-"なかった",
-"ず",
-"ません"
-],
-"es": "Es mejor que no bebas alcohol.",
-"en": "You'd better not drink alcohol.",
-"ees": "Consejo negativo: forma ない + ほうがいい (no なかった).",
-"een": "Negative advice: ない-form + ほうがいい (not なかった)."
-},
-{
-"q": "頭が痛い___、今日は休みます。",
-"a": "から",
-"o": [
-"けど",
-"まで",
-"のに"
-],
-"es": "Como me duele la cabeza, hoy descanso.",
-"en": "I have a headache, so I'll rest today.",
-"ees": "から da la razón («porque»). けど = «pero».",
-"een": "から gives the reason («because»). けど = «but»."
-}
-],
-"19": [
-{
-"q": "夏休みに沖縄へ行き___です。",
-"a": "たい",
-"o": [
-"たかった",
-"ます",
-"ましょう"
-],
-"es": "En las vacaciones de verano quiero ir a Okinawa.",
-"en": "I want to go to Okinawa in the summer holidays.",
-"ees": "Raíz ます + たい = querer hacer.",
-"een": "ます-stem + たい = want to do."
-},
-{
-"q": "子どものころ、パイロットになり___です。",
-"a": "たかった",
-"o": [
-"たい",
-"たくない",
-"ましょう"
-],
-"es": "De niño quería ser piloto.",
-"en": "As a child I wanted to be a pilot.",
-"ees": "Un deseo del pasado: たい se conjuga como adjetivo い → たかった.",
-"een": "A past wish: たい conjugates like an い-adjective → たかった."
-},
-{
-"q": "富士山に___登りました。",
-"a": "初めて",
-"o": [
-"初め",
-"はじまって",
-"はじめに"
-],
-"es": "Subí al Fuji por primera vez.",
-"en": "I climbed Mt Fuji for the first time.",
-"ees": "初めて = por primera vez. はじめに = al principio, primero (en una secuencia).",
-"een": "初めて = for the first time. はじめに = first / at the beginning (of a sequence)."
-}
-],
-"20": [
-{
-"q": "すみません、もう一度言っ___。",
-"a": "てください",
-"o": [
-"てもいいです",
-"ています",
-"てもいい"
-],
-"es": "Perdone, ¿puede repetirlo?",
-"en": "Excuse me, please say it again.",
-"ees": "Petición: forma て + ください.",
-"een": "Request: て-form + ください."
-},
-{
-"q": "いっしょに映画を見___。",
-"a": "ませんか",
-"o": [
-"ません",
-"ましたか",
-"たいです"
-],
-"es": "¿Por qué no vemos una película juntos?",
-"en": "Why don't we watch a movie together?",
-"ees": "～ませんか es una invitación amable («¿por qué no…?»). ～ません es solo negativo.",
-"een": "～ませんか is a polite invitation («won't you…?»). ～ません is just negative."
-},
-{
-"q": "ちょっと待っ___ください。",
-"a": "て",
-"o": [
-"た",
-"って",
-"ち"
-],
-"es": "Espere un momento, por favor.",
-"en": "Please wait a moment.",
-"ees": "待つ → 待って (verbos en つ hacen って).",
-"een": "待つ → 待って (verbs in つ make って)."
-}
-],
-"21": [
-{
-"q": "音楽を聞き___勉強します。",
-"a": "ながら",
-"o": [
-"まえに",
-"あとで",
-"たり"
-],
-"es": "Estudio mientras escucho música.",
-"en": "I study while listening to music.",
-"ees": "Raíz ます + ながら = dos acciones a la vez.",
-"een": "ます-stem + ながら = two actions at the same time."
-},
-{
-"q": "寝る___、歯をみがきます。",
-"a": "まえに",
-"o": [
-"あとで",
-"ながら",
-"から"
-],
-"es": "Me lavo los dientes antes de dormir.",
-"en": "I brush my teeth before going to bed.",
-"ees": "Verbo en diccionario + まえに = antes de. あとで va con forma た.",
-"een": "Dictionary form + まえに = before. あとで goes with the た-form."
-},
-{
-"q": "ご飯を食べた___、散歩します。",
-"a": "あとで",
-"o": [
-"まえに",
-"ながら",
-"ときに"
-],
-"es": "Después de comer, doy un paseo.",
-"en": "After eating, I take a walk.",
-"ees": "Forma た + あとで = después de.",
-"een": "た-form + あとで = after."
-}
-],
-"22": [
-{
-"q": "週末は本を読ん___、映画を見たりします。",
-"a": "だり",
-"o": [
-"で",
-"だ",
-"だから"
-],
-"es": "Los fines de semana leo libros, veo películas y cosas así.",
-"en": "At weekends I read books, watch films and so on.",
-"ees": "～たり～たりする = enumerar actividades de ejemplo. 読む → 読んだり.",
-"een": "～たり～たりする lists example activities. 読む → 読んだり."
-},
-{
-"q": "手を洗っ___、ご飯を食べます。",
-"a": "てから",
-"o": [
-"たり",
-"ながら",
-"まえに"
-],
-"es": "Como después de lavarme las manos.",
-"en": "I eat after washing my hands.",
-"ees": "～てから = después de (orden estricto). ～ながら = a la vez.",
-"een": "～てから = after (strict order). ～ながら = at the same time."
-},
-{
-"q": "日曜日は掃除をし___、買い物をしたりしました。",
-"a": "たり",
-"o": [
-"て",
-"てから",
-"ながら"
-],
-"es": "El domingo limpié, hice la compra, etc.",
-"en": "On Sunday I cleaned, went shopping and so on.",
-"ees": "Con ～たりしました al final, el primer verbo también va en ～たり.",
-"een": "With ～たりしました at the end, the first verb also takes ～たり."
-}
-],
-"23": [
-{
-"q": "こちらは田中___です。",
-"a": "さん",
-"o": [
-"ちゃん",
-"くん",
-"たち"
-],
-"es": "Este es el señor Tanaka.",
-"en": "This is Mr Tanaka.",
-"ees": "さん es el tratamiento neutro y educado. ちゃん/くん son familiares, para niños o amigos.",
-"een": "さん is the neutral polite title. ちゃん/くん are familiar, for children or friends."
-},
-{
-"q": "お___を飲みませんか。",
-"a": "茶",
-"o": [
-"コーヒー",
-"ビール",
-"ジュース"
-],
-"es": "¿Quiere un té?",
-"en": "Would you like some tea?",
-"ees": "El prefijo お se usa con palabras japonesas (お茶, お水). No va con préstamos como コーヒー o ビール.",
-"een": "The prefix お goes with native words (お茶, お水), not with loanwords like コーヒー or ビール."
-},
-{
-"q": "（ご飯の前に）「___。」",
-"a": "いただきます",
-"o": [
-"ごちそうさまでした",
-"おやすみなさい",
-"いってきます"
-],
-"es": "(Antes de comer) «Itadakimasu».",
-"en": "(Before eating) «Itadakimasu».",
-"ees": "いただきます se dice antes de comer; ごちそうさまでした, al terminar.",
-"een": "いただきます is said before eating; ごちそうさまでした after finishing."
-}
-]
+ "1": [
+  {
+   "q": "わたし___学生です。",
+   "a": "は",
+   "o": [
+    "を",
+    "に",
+    "で"
+   ],
+   "es": "Yo soy estudiante.",
+   "en": "I am a student.",
+   "ees": "は marca el tema de la frase («en cuanto a mí…»). を marca el objeto directo, に destino/tiempo y で lugar de acción.",
+   "een": "は marks the topic («as for me…»). を marks the object, に a destination/time and で the place of an action."
+  },
+  {
+   "q": "これはわたし___本です。",
+   "a": "の",
+   "o": [
+    "は",
+    "が",
+    "と"
+   ],
+   "es": "Este es mi libro.",
+   "en": "This is my book.",
+   "ees": "の une dos sustantivos: わたしの本 = el libro de mí → mi libro.",
+   "een": "の links two nouns: わたしの本 = the book of me → my book."
+  },
+  {
+   "q": "田中さんは先生です___。",
+   "a": "か",
+   "o": [
+    "ね",
+    "よ",
+    "の"
+   ],
+   "es": "¿El señor Tanaka es profesor?",
+   "en": "Is Mr Tanaka a teacher?",
+   "ees": "か al final convierte la frase en pregunta. ね busca acuerdo («¿verdad?») y よ informa algo nuevo.",
+   "een": "か at the end makes it a question. ね seeks agreement («right?») and よ gives new information."
+  },
+  {
+   "q": "私___学生です。",
+   "a": "は",
+   "o": [
+    "を",
+    "に",
+    "で"
+   ],
+   "es": "Soy estudiante.",
+   "en": "I am a student.",
+   "ees": "は marca el tema: «en cuanto a mí…».",
+   "een": "は marks the topic: «as for me…».",
+   "t": "choose"
+  },
+  {
+   "q": "これは日本語___本です。",
+   "a": "の",
+   "o": [
+    "は",
+    "を",
+    "が"
+   ],
+   "es": "Este es un libro de japonés.",
+   "en": "This is a Japanese book.",
+   "ees": "N の N = de (posesión o tipo).",
+   "een": "N の N = of (possession or kind).",
+   "t": "choose"
+  }
+ ],
+ "2": [
+  {
+   "q": "お子さんは___ですか。―五つです。",
+   "a": "いくつ",
+   "o": [
+    "いくら",
+    "どこ",
+    "だれ"
+   ],
+   "es": "¿Cuántos años tiene su hijo? —Cinco.",
+   "en": "How old is your child? —Five.",
+   "ees": "いくつ pregunta la edad (y «cuántos» objetos). いくら pregunta el precio.",
+   "een": "いくつ asks age (and «how many»). いくら asks the price."
+  },
+  {
+   "q": "今、___時ですか。",
+   "a": "何",
+   "o": [
+    "どれ",
+    "いつ",
+    "どの"
+   ],
+   "es": "¿Qué hora es ahora?",
+   "en": "What time is it now?",
+   "ees": "何時 (なんじ) = qué hora. 何 va delante del contador. いつ = cuándo, sin contador.",
+   "een": "何時 (なんじ) = what time. 何 goes before the counter. いつ = when, with no counter."
+  },
+  {
+   "q": "電話番号は___番ですか。",
+   "a": "何",
+   "o": [
+    "いくつ",
+    "どこ",
+    "どう"
+   ],
+   "es": "¿Cuál es el número de teléfono?",
+   "en": "What is the phone number?",
+   "ees": "Para números (teléfono, habitación) se usa 何番. いくつ es para edad o cantidad.",
+   "een": "For numbers (phone, room) use 何番. いくつ is for age or quantity."
+  },
+  {
+   "q": "りんごは___ありますか。",
+   "a": "いくつ",
+   "o": [
+    "いつ",
+    "どこ",
+    "だれ"
+   ],
+   "es": "¿Cuántas manzanas hay?",
+   "en": "How many apples are there?",
+   "ees": "いくつ = cuántos (cosas).",
+   "een": "いくつ = how many (things).",
+   "t": "choose"
+  },
+  {
+   "q": "これは___ですか。",
+   "a": "何",
+   "o": [
+    "いくつ",
+    "だれ",
+    "どこ"
+   ],
+   "es": "¿Qué es esto?",
+   "en": "What is this?",
+   "ees": "何 (なん) = qué.",
+   "een": "何 (なん) = what.",
+   "t": "choose"
+  }
+ ],
+ "3": [
+  {
+   "q": "___本はわたしのです。",
+   "a": "この",
+   "o": [
+    "これ",
+    "ここ",
+    "こちら"
+   ],
+   "es": "Este libro es mío.",
+   "en": "This book is mine.",
+   "ees": "この va siempre delante de un sustantivo (この本). これ va solo: これはわたしの本です.",
+   "een": "この always comes before a noun (この本). これ stands alone: これはわたしの本です."
+  },
+  {
+   "q": "___は何ですか。―それはペンです。",
+   "a": "これ",
+   "o": [
+    "この",
+    "ここ",
+    "どれ"
+   ],
+   "es": "¿Qué es esto? —Eso es un bolígrafo.",
+   "en": "What is this? —That is a pen.",
+   "ees": "これ funciona como pronombre (sin sustantivo detrás). この necesita un sustantivo: このペン.",
+   "een": "これ works as a pronoun (no noun after it). この needs a noun: このペン."
+  },
+  {
+   "q": "(lejos de los dos) ___人はだれですか。",
+   "a": "あの",
+   "o": [
+    "その",
+    "この",
+    "あれ"
+   ],
+   "es": "¿Quién es esa persona de allí?",
+   "en": "Who is that person over there?",
+   "ees": "あの = lejos de quien habla y de quien escucha. その = cerca del que escucha. Delante de 人 hace falta あの, no あれ.",
+   "een": "あの = far from both speaker and listener. その = near the listener. Before 人 you need あの, not あれ."
+  },
+  {
+   "q": "___かばんはだれのですか。",
+   "a": "その",
+   "o": [
+    "それ",
+    "そこ",
+    "そちら"
+   ],
+   "es": "¿De quién es ese bolso?",
+   "en": "Whose is that bag?",
+   "ees": "Delante de un sustantivo: この/その/あの. これ/それ/あれ van solos.",
+   "een": "Before a noun: この/その/あの. これ/それ/あれ stand alone.",
+   "t": "choose"
+  },
+  {
+   "q": "___は私の傘です。",
+   "a": "それ",
+   "o": [
+    "その",
+    "そこ",
+    "そう"
+   ],
+   "es": "Ese es mi paraguas.",
+   "en": "That is my umbrella.",
+   "ees": "Solo, sin sustantivo detrás → それ.",
+   "een": "Standing alone, no noun after → それ.",
+   "t": "choose"
+  }
+ ],
+ "4": [
+  {
+   "q": "公園に犬が___。",
+   "a": "います",
+   "o": [
+    "あります",
+    "です",
+    "いきます"
+   ],
+   "es": "Hay un perro en el parque.",
+   "en": "There is a dog in the park.",
+   "ees": "います para seres vivos que se mueven (personas, animales). あります para cosas y plantas.",
+   "een": "います is for living things that move (people, animals). あります is for things and plants."
+  },
+  {
+   "q": "机の上に本が___。",
+   "a": "あります",
+   "o": [
+    "います",
+    "いました",
+    "いません"
+   ],
+   "es": "Hay un libro sobre la mesa.",
+   "en": "There is a book on the desk.",
+   "ees": "Un libro es una cosa inanimada → あります. います solo para personas y animales.",
+   "een": "A book is inanimate → あります. います is only for people and animals."
+  },
+  {
+   "q": "トイレは___ですか。",
+   "a": "どこ",
+   "o": [
+    "どれ",
+    "どの",
+    "どちら"
+   ],
+   "es": "¿Dónde está el baño?",
+   "en": "Where is the toilet?",
+   "ees": "どこ pregunta el lugar. どれ = cuál (entre cosas), どの necesita sustantivo.",
+   "een": "どこ asks for a place. どれ = which one (among things), どの needs a noun."
+  },
+  {
+   "q": "公園に子どもが___。",
+   "a": "います",
+   "o": [
+    "あります",
+    "です",
+    "いきます"
+   ],
+   "es": "Hay niños en el parque.",
+   "en": "There are children in the park.",
+   "ees": "Seres vivos → います. Cosas → あります.",
+   "een": "Living things → います. Objects → あります.",
+   "t": "choose"
+  },
+  {
+   "q": "トイレは___ですか。",
+   "a": "どこ",
+   "o": [
+    "どれ",
+    "どの",
+    "だれ"
+   ],
+   "es": "¿Dónde está el baño?",
+   "en": "Where is the toilet?",
+   "ees": "どこ = dónde.",
+   "een": "どこ = where.",
+   "t": "choose"
+  }
+ ],
+ "5": [
+  {
+   "q": "毎朝七時に___。",
+   "a": "起きます",
+   "o": [
+    "起きません",
+    "起きました",
+    "起きて"
+   ],
+   "es": "Me levanto todas las mañanas a las siete.",
+   "en": "I get up at seven every morning.",
+   "ees": "Un hábito (毎朝) va en presente afirmativo ～ます. ～ました es pasado y ～ません negativo.",
+   "een": "A habit (毎朝) uses the present ～ます. ～ました is past and ～ません negative."
+  },
+  {
+   "q": "きのうは勉強し___。",
+   "a": "ませんでした",
+   "o": [
+    "ません",
+    "ましょう",
+    "ています"
+   ],
+   "es": "Ayer no estudié.",
+   "en": "I didn't study yesterday.",
+   "ees": "きのう es pasado: negativo pasado = ～ませんでした. ～ません es negativo presente.",
+   "een": "きのう is past: past negative = ～ませんでした. ～ません is present negative."
+  },
+  {
+   "q": "十時___寝ます。",
+   "a": "に",
+   "o": [
+    "で",
+    "を",
+    "へ"
+   ],
+   "es": "Me acuesto a las diez.",
+   "en": "I go to bed at ten.",
+   "ees": "Una hora concreta lleva に (十時に). で marca lugar o medio.",
+   "een": "A specific time takes に (十時に). で marks place or means."
+  },
+  {
+   "q": "昨日、映画を見___。",
+   "a": "ました",
+   "o": [
+    "ます",
+    "ません",
+    "ましょう"
+   ],
+   "es": "Ayer vi una película.",
+   "en": "I watched a film yesterday.",
+   "ees": "昨日 = pasado → ～ました.",
+   "een": "昨日 = past → ～ました.",
+   "t": "choose"
+  },
+  {
+   "q": "毎朝六時___起きます。",
+   "a": "に",
+   "o": [
+    "で",
+    "を",
+    "へ"
+   ],
+   "es": "Me levanto a las seis cada mañana.",
+   "en": "I get up at six every morning.",
+   "ees": "Hora concreta + に.",
+   "een": "Specific time + に.",
+   "t": "choose"
+  }
+ ],
+ "6": [
+  {
+   "q": "誕生日は___ですか。―五月三日です。",
+   "a": "いつ",
+   "o": [
+    "何時",
+    "どこ",
+    "いくら"
+   ],
+   "es": "¿Cuándo es tu cumpleaños? —El 3 de mayo.",
+   "en": "When is your birthday? —May 3rd.",
+   "ees": "いつ = cuándo (fecha en general). 何時 pregunta solo la hora.",
+   "een": "いつ = when (any date). 何時 asks only the time of day."
+  },
+  {
+   "q": "今日は___曜日ですか。",
+   "a": "何",
+   "o": [
+    "いつ",
+    "どの",
+    "いくつ"
+   ],
+   "es": "¿Qué día de la semana es hoy?",
+   "en": "What day of the week is it today?",
+   "ees": "何曜日 = qué día de la semana. Delante del contador 曜日 va 何.",
+   "een": "何曜日 = which day of the week. 何 goes before the counter 曜日."
+  },
+  {
+   "q": "テストは何日___。",
+   "a": "ですか",
+   "o": [
+    "ですね",
+    "でした",
+    "ですよ"
+   ],
+   "es": "¿Qué día es el examen?",
+   "en": "What day is the test?",
+   "ees": "Con una palabra interrogativa (何日) la frase termina en か para preguntar.",
+   "een": "With a question word (何日) the sentence ends in か to ask."
+  },
+  {
+   "q": "誕生日は___ですか。",
+   "a": "いつ",
+   "o": [
+    "どこ",
+    "いくら",
+    "だれ"
+   ],
+   "es": "¿Cuándo es tu cumpleaños?",
+   "en": "When is your birthday?",
+   "ees": "いつ = cuándo.",
+   "een": "いつ = when.",
+   "t": "choose"
+  },
+  {
+   "q": "今日は___ですか。—月曜日です。",
+   "a": "何曜日",
+   "o": [
+    "何日",
+    "何時",
+    "何月"
+   ],
+   "es": "¿Qué día de la semana es hoy? —Lunes.",
+   "en": "What day is it today? —Monday.",
+   "ees": "Día de la semana → 何曜日. 何日 = qué día del mes.",
+   "een": "Day of the week → 何曜日. 何日 = what date.",
+   "t": "choose"
+  }
+ ],
+ "7": [
+  {
+   "q": "毎朝パン___食べます。",
+   "a": "を",
+   "o": [
+    "が",
+    "に",
+    "は"
+   ],
+   "es": "Como pan todas las mañanas.",
+   "en": "I eat bread every morning.",
+   "ees": "食べます es transitivo: lo que se come lleva を (objeto directo).",
+   "een": "食べます is transitive: what you eat takes を (direct object)."
+  },
+  {
+   "q": "わたしはコーヒー___好きです。",
+   "a": "が",
+   "o": [
+    "を",
+    "に",
+    "で"
+   ],
+   "es": "Me gusta el café.",
+   "en": "I like coffee.",
+   "ees": "好き es un adjetivo, no un verbo: lo que gusta se marca con が, no con を.",
+   "een": "好き is an adjective, not a verb: what you like takes が, not を."
+  },
+  {
+   "q": "にんじんは___です。",
+   "a": "嫌い",
+   "o": [
+    "嫌いな",
+    "嫌いに",
+    "嫌く"
+   ],
+   "es": "No me gustan las zanahorias.",
+   "en": "I don't like carrots.",
+   "ees": "嫌い es adjetivo な: al final de frase va solo + です. 嫌いな se usa delante de un sustantivo.",
+   "een": "嫌い is a な-adjective: at the end it is just + です. 嫌いな goes before a noun."
+  },
+  {
+   "q": "私は猫___好きです。",
+   "a": "が",
+   "o": [
+    "を",
+    "に",
+    "で"
+   ],
+   "es": "Me gustan los gatos.",
+   "en": "I like cats.",
+   "ees": "好き／嫌い llevan が, no を.",
+   "een": "好き／嫌い take が, not を.",
+   "t": "choose"
+  },
+  {
+   "q": "毎朝コーヒー___飲みます。",
+   "a": "を",
+   "o": [
+    "が",
+    "に",
+    "で"
+   ],
+   "es": "Bebo café cada mañana.",
+   "en": "I drink coffee every morning.",
+   "ees": "Objeto directo → を.",
+   "een": "Direct object → を.",
+   "t": "choose"
+  }
+ ],
+ "8": [
+  {
+   "q": "コーヒーを二杯___。",
+   "a": "ください",
+   "o": [
+    "くださいます",
+    "くれます",
+    "あげます"
+   ],
+   "es": "Dos cafés, por favor.",
+   "en": "Two coffees, please.",
+   "ees": "Para pedir algo: (cosa)をください. くれます/あげます son verbos de dar, no peticiones.",
+   "een": "To order something: (thing)をください. くれます/あげます mean «give», they are not requests."
+  },
+  {
+   "q": "お水を___ください。",
+   "a": "一杯",
+   "o": [
+    "一枚",
+    "一本",
+    "一人"
+   ],
+   "es": "Un vaso de agua, por favor.",
+   "en": "A glass of water, please.",
+   "ees": "杯 cuenta vasos y tazas. 枚 = cosas planas, 人 = personas.",
+   "een": "杯 counts glasses and cups. 枚 = flat things, 人 = people."
+  },
+  {
+   "q": "ケーキ___紅茶をください。",
+   "a": "と",
+   "o": [
+    "や",
+    "も",
+    "か"
+   ],
+   "es": "Un pastel y un té, por favor.",
+   "en": "A cake and a tea, please.",
+   "ees": "と une una lista completa (pastel y té, nada más). や da ejemplos («pastel, té, etc.»).",
+   "een": "と joins a complete list (cake and tea, nothing else). や gives examples («cake, tea and so on»)."
+  },
+  {
+   "q": "すみません、水を___ください。",
+   "a": "一杯",
+   "o": [
+    "一枚",
+    "一本",
+    "一台"
+   ],
+   "es": "Perdone, un vaso de agua, por favor.",
+   "en": "Excuse me, a glass of water, please.",
+   "ees": "Vasos, tazas → 杯 (はい／ぱい／ばい).",
+   "een": "Glasses, cups → 杯 (はい／ぱい／ばい).",
+   "t": "choose"
+  },
+  {
+   "q": "このりんごを三つ___。",
+   "a": "ください",
+   "o": [
+    "ですか",
+    "います",
+    "あります"
+   ],
+   "es": "Deme tres manzanas de estas, por favor.",
+   "en": "Three of these apples, please.",
+   "ees": "N を + número + ください = pedir algo.",
+   "een": "N を + number + ください = ask for something.",
+   "t": "choose"
+  }
+ ],
+ "9": [
+  {
+   "q": "このシャツは___ですか。―三千円です。",
+   "a": "いくら",
+   "o": [
+    "いくつ",
+    "どれ",
+    "なん"
+   ],
+   "es": "¿Cuánto cuesta esta camisa? —3000 yenes.",
+   "en": "How much is this shirt? —3,000 yen.",
+   "ees": "いくら pregunta el precio. いくつ pregunta cantidad o edad.",
+   "een": "いくら asks the price. いくつ asks quantity or age."
+  },
+  {
+   "q": "切手を五___ください。",
+   "a": "枚",
+   "o": [
+    "本",
+    "個",
+    "冊"
+   ],
+   "es": "Cinco sellos, por favor.",
+   "en": "Five stamps, please.",
+   "ees": "枚 cuenta cosas planas (sellos, papel, camisas). 本 = objetos largos, 冊 = libros, 個 = objetos pequeños.",
+   "een": "枚 counts flat things (stamps, paper, shirts). 本 = long objects, 冊 = books, 個 = small objects."
+  },
+  {
+   "q": "ペンを三___買いました。",
+   "a": "本",
+   "o": [
+    "枚",
+    "匹",
+    "台"
+   ],
+   "es": "Compré tres bolígrafos.",
+   "en": "I bought three pens.",
+   "ees": "Los bolígrafos son largos y finos → 本 (さんぼん). 匹 = animales pequeños, 台 = máquinas.",
+   "een": "Pens are long and thin → 本 (さんぼん). 匹 = small animals, 台 = machines."
+  },
+  {
+   "q": "切手を三___ください。",
+   "a": "枚",
+   "o": [
+    "本",
+    "台",
+    "冊"
+   ],
+   "es": "Tres sellos, por favor.",
+   "en": "Three stamps, please.",
+   "ees": "Cosas planas (papel, sellos, camisetas) → 枚.",
+   "een": "Flat things (paper, stamps, shirts) → 枚.",
+   "t": "choose"
+  },
+  {
+   "q": "ペンが二___あります。",
+   "a": "本",
+   "o": [
+    "枚",
+    "匹",
+    "冊"
+   ],
+   "es": "Hay dos bolígrafos.",
+   "en": "There are two pens.",
+   "ees": "Cosas largas y finas → 本 (ほん／ぽん／ぼん).",
+   "een": "Long thin things → 本 (ほん／ぽん／ぼん).",
+   "t": "choose"
+  }
+ ],
+ "10": [
+  {
+   "q": "兄は銀行で働い___。",
+   "a": "ています",
+   "o": [
+    "ます か",
+    "てください",
+    "ましょう"
+   ],
+   "es": "Mi hermano mayor trabaja en un banco.",
+   "en": "My older brother works at a bank.",
+   "ees": "Un trabajo o estado continuado se expresa con ～ています. ～てください es una petición.",
+   "een": "An ongoing job or state uses ～ています. ～てください is a request."
+  },
+  {
+   "q": "姉は結婚し___。",
+   "a": "ています",
+   "o": [
+    "ます",
+    "ました",
+    "ませんか"
+   ],
+   "es": "Mi hermana mayor está casada.",
+   "en": "My older sister is married.",
+   "ees": "結婚しています = está casada (estado resultante). 結婚します sería «se casará».",
+   "een": "結婚しています = she is married (resulting state). 結婚します would mean «will get married»."
+  },
+  {
+   "q": "これは母___かばんです。",
+   "a": "の",
+   "o": [
+    "が",
+    "は",
+    "を"
+   ],
+   "es": "Este es el bolso de mi madre.",
+   "en": "This is my mother's bag.",
+   "ees": "Posesión entre sustantivos: 母のかばん = el bolso de mi madre.",
+   "een": "Possession between nouns: 母のかばん = my mother's bag."
+  },
+  {
+   "q": "今、雨が降っ___。",
+   "a": "ています",
+   "o": [
+    "てある",
+    "ました",
+    "ません"
+   ],
+   "es": "Ahora está lloviendo.",
+   "en": "It's raining now.",
+   "ees": "Acción en curso → ～ている.",
+   "een": "Ongoing action → ～ている.",
+   "t": "choose"
+  },
+  {
+   "q": "姉は銀行で働い___。",
+   "a": "ています",
+   "o": [
+    "ます",
+    "ましょう",
+    "ませんか"
+   ],
+   "es": "Mi hermana trabaja en un banco.",
+   "en": "My sister works at a bank.",
+   "ees": "Situación habitual (trabajo) → ～ている.",
+   "een": "Ongoing situation (job) → ～ている.",
+   "t": "choose"
+  }
+ ],
+ "11": [
+  {
+   "q": "この部屋はあまり広___。",
+   "a": "くないです",
+   "o": [
+    "じゃないです",
+    "くありました",
+    "いないです"
+   ],
+   "es": "Esta habitación no es muy amplia.",
+   "en": "This room is not very spacious.",
+   "ees": "広い es adjetivo い: negativo = quitar い + くない. じゃない es para adjetivos な y sustantivos.",
+   "een": "広い is an い-adjective: negative = drop い + くない. じゃない is for な-adjectives and nouns."
+  },
+  {
+   "q": "ここは静か___町です。",
+   "a": "な",
+   "o": [
+    "の",
+    "い",
+    "で"
+   ],
+   "es": "Esta es una ciudad tranquila.",
+   "en": "This is a quiet town.",
+   "ees": "静か es adjetivo な: delante de un sustantivo lleva な (静かな町).",
+   "een": "静か is a な-adjective: before a noun it takes な (静かな町)."
+  },
+  {
+   "q": "この料理はぜんぜん辛___。",
+   "a": "くない",
+   "o": [
+    "じゃない",
+    "くて",
+    "いじゃない"
+   ],
+   "es": "Esta comida no pica nada.",
+   "en": "This dish isn't spicy at all.",
+   "ees": "辛い (adjetivo い) → 辛くない. ぜんぜん pide negativo.",
+   "een": "辛い (い-adjective) → 辛くない. ぜんぜん requires a negative."
+  },
+  {
+   "q": "この部屋は広く___。",
+   "a": "ない",
+   "o": [
+    "じゃない",
+    "くない",
+    "でない"
+   ],
+   "es": "Esta habitación no es amplia.",
+   "en": "This room isn't spacious.",
+   "ees": "Adj-い: 広い → 広くない.",
+   "een": "い-adj: 広い → 広くない.",
+   "t": "choose"
+  },
+  {
+   "q": "この町は静か___ない。",
+   "a": "じゃ",
+   "o": [
+    "く",
+    "の",
+    "に"
+   ],
+   "es": "Esta ciudad no es tranquila.",
+   "en": "This town isn't quiet.",
+   "ees": "Adj-な: 静か → 静かじゃない.",
+   "een": "な-adj: 静か → 静かじゃない.",
+   "t": "choose"
+  }
+ ],
+ "12": [
+  {
+   "q": "冬になると、寒___なります。",
+   "a": "く",
+   "o": [
+    "に",
+    "い",
+    "な"
+   ],
+   "es": "Cuando llega el invierno, hace frío.",
+   "en": "When winter comes, it gets cold.",
+   "ees": "Adjetivo い + なる: 寒い → 寒くなる. Con adjetivos な o sustantivos se usa に (静かになる).",
+   "een": "い-adjective + なる: 寒い → 寒くなる. With な-adjectives or nouns use に (静かになる)."
+  },
+  {
+   "q": "明日は雨___。",
+   "a": "でしょう",
+   "o": [
+    "ましょう",
+    "ください",
+    "ませんか"
+   ],
+   "es": "Mañana probablemente lloverá.",
+   "en": "It will probably rain tomorrow.",
+   "ees": "でしょう = probablemente (previsión). ましょう = «hagamos», una propuesta.",
+   "een": "でしょう = probably (forecast). ましょう = «let's», a suggestion."
+  },
+  {
+   "q": "部屋がきれい___なりました。",
+   "a": "に",
+   "o": [
+    "く",
+    "な",
+    "で"
+   ],
+   "es": "La habitación ha quedado limpia.",
+   "en": "The room became clean.",
+   "ees": "きれい es adjetivo な (aunque termina en い): きれい + に + なる.",
+   "een": "きれい is a な-adjective (even though it ends in い): きれい + に + なる."
+  },
+  {
+   "q": "だんだん寒く___。",
+   "a": "なりました",
+   "o": [
+    "しました",
+    "ありました",
+    "でした"
+   ],
+   "es": "Ha ido haciendo frío.",
+   "en": "It's got colder.",
+   "ees": "Adj-い + くなる = volverse.",
+   "een": "い-adj + くなる = become.",
+   "t": "choose"
+  },
+  {
+   "q": "明日は雨___。",
+   "a": "でしょう",
+   "o": [
+    "ましょう",
+    "ません",
+    "でした"
+   ],
+   "es": "Mañana probablemente llueva.",
+   "en": "It will probably rain tomorrow.",
+   "ees": "でしょう = probablemente.",
+   "een": "でしょう = probably.",
+   "t": "choose"
+  }
+ ],
+ "13": [
+  {
+   "q": "毎日バス___会社へ行きます。",
+   "a": "で",
+   "o": [
+    "に",
+    "を",
+    "へ"
+   ],
+   "es": "Voy a la oficina en autobús todos los días.",
+   "en": "I go to the office by bus every day.",
+   "ees": "で marca el medio de transporte. へ/に marcan el destino.",
+   "een": "で marks the means of transport. へ/に mark the destination."
+  },
+  {
+   "q": "来週、京都___行きます。",
+   "a": "へ",
+   "o": [
+    "で",
+    "を",
+    "から まで"
+   ],
+   "es": "La semana que viene voy a Kioto.",
+   "en": "Next week I'm going to Kyoto.",
+   "ees": "へ marca la dirección o destino de un movimiento. で sería el lugar donde ocurre algo.",
+   "een": "へ marks the direction/destination of movement. で would be where something happens."
+  },
+  {
+   "q": "駅から学校まで二十分___。",
+   "a": "かかります",
+   "o": [
+    "あります",
+    "します",
+    "なります"
+   ],
+   "es": "De la estación a la escuela se tarda veinte minutos.",
+   "en": "It takes twenty minutes from the station to school.",
+   "ees": "Tiempo o dinero que se tarda/cuesta → かかる.",
+   "een": "Time or money something takes → かかる."
+  },
+  {
+   "q": "バス___学校へ行きます。",
+   "a": "で",
+   "o": [
+    "に",
+    "を",
+    "へ"
+   ],
+   "es": "Voy a la escuela en autobús.",
+   "en": "I go to school by bus.",
+   "ees": "Medio → で.",
+   "een": "Means → で.",
+   "t": "choose"
+  },
+  {
+   "q": "駅まで十分___。",
+   "a": "かかります",
+   "o": [
+    "あります",
+    "います",
+    "なります"
+   ],
+   "es": "Se tarda diez minutos hasta la estación.",
+   "en": "It takes ten minutes to the station.",
+   "ees": "Tiempo/dinero necesario → かかる.",
+   "een": "Time/money needed → かかる.",
+   "t": "choose"
+  }
+ ],
+ "14": [
+  {
+   "q": "ここに名前を書い___。",
+   "a": "てください",
+   "o": [
+    "ています",
+    "ました",
+    "たい"
+   ],
+   "es": "Escriba su nombre aquí, por favor.",
+   "en": "Please write your name here.",
+   "ees": "Forma て + ください = petición educada.",
+   "een": "て-form + ください = polite request."
+  },
+  {
+   "q": "窓を___ください。",
+   "a": "開けて",
+   "o": [
+    "開けます",
+    "開け",
+    "開けた"
+   ],
+   "es": "Abra la ventana, por favor.",
+   "en": "Please open the window.",
+   "ees": "ください va después de la forma て: 開ける → 開けて.",
+   "een": "ください follows the て-form: 開ける → 開けて."
+  },
+  {
+   "q": "かばんは机の下___あります。",
+   "a": "に",
+   "o": [
+    "で",
+    "を",
+    "へ"
+   ],
+   "es": "La bolsa está debajo de la mesa.",
+   "en": "The bag is under the desk.",
+   "ees": "Donde está algo (con あります/います) se marca con に. で es para donde ocurre una acción.",
+   "een": "Where something is (with あります/います) takes に. で is where an action happens."
+  },
+  {
+   "q": "ここに名前を書い___。",
+   "a": "てください",
+   "o": [
+    "ましょうか",
+    "てもいい",
+    "ません"
+   ],
+   "es": "Escriba aquí su nombre, por favor.",
+   "en": "Please write your name here.",
+   "ees": "V-て + ください = petición.",
+   "een": "V-て + ください = request.",
+   "t": "choose"
+  },
+  {
+   "q": "ちょっと待っ___。",
+   "a": "てください",
+   "o": [
+    "ください",
+    "てます",
+    "まってください"
+   ],
+   "es": "Espere un momento, por favor.",
+   "en": "Please wait a moment.",
+   "ees": "待つ → 待って + ください.",
+   "een": "待つ → 待って + ください.",
+   "t": "choose"
+  }
+ ],
+ "15": [
+  {
+   "q": "山田さんは赤いセーターを___います。",
+   "a": "着て",
+   "o": [
+    "はいて",
+    "かぶって",
+    "かけて"
+   ],
+   "es": "La señora Yamada lleva un jersey rojo.",
+   "en": "Ms Yamada is wearing a red sweater.",
+   "ees": "着る para ropa de cintura para arriba. はく para zapatos y pantalones, かぶる para sombreros.",
+   "een": "着る is for clothes above the waist. はく for shoes and trousers, かぶる for hats."
+  },
+  {
+   "q": "新しい靴を___います。",
+   "a": "はいて",
+   "o": [
+    "着て",
+    "かぶって",
+    "して"
+   ],
+   "es": "Lleva zapatos nuevos.",
+   "en": "He is wearing new shoes.",
+   "ees": "Zapatos, calcetines, faldas y pantalones → はく.",
+   "een": "Shoes, socks, skirts and trousers → はく."
+  },
+  {
+   "q": "あの眼鏡を___いる人は田中さんです。",
+   "a": "かけて",
+   "o": [
+    "着て",
+    "はいて",
+    "かぶって"
+   ],
+   "es": "La persona que lleva gafas es el señor Tanaka.",
+   "en": "The person wearing glasses is Mr Tanaka.",
+   "ees": "Las gafas se «cuelgan»: 眼鏡をかける.",
+   "een": "Glasses are «hung»: 眼鏡をかける."
+  },
+  {
+   "q": "田中さんは赤いシャツを___います。",
+   "a": "着て",
+   "o": [
+    "はいて",
+    "かぶって",
+    "かけて"
+   ],
+   "es": "Tanaka lleva una camisa roja.",
+   "en": "Tanaka is wearing a red shirt.",
+   "ees": "Prendas de arriba → 着る. Pantalones/zapatos → はく.",
+   "een": "Upper-body clothes → 着る. Trousers/shoes → はく.",
+   "t": "choose"
+  },
+  {
+   "q": "新しい靴を___います。",
+   "a": "はいて",
+   "o": [
+    "着て",
+    "かぶって",
+    "して"
+   ],
+   "es": "Llevo zapatos nuevos.",
+   "en": "I'm wearing new shoes.",
+   "ees": "Calzado y pantalones → はく.",
+   "een": "Shoes and trousers → はく.",
+   "t": "choose"
+  }
+ ],
+ "16": [
+  {
+   "q": "わたしは泳ぐ___ができます。",
+   "a": "こと",
+   "o": [
+    "の",
+    "もの",
+    "ところ"
+   ],
+   "es": "Sé nadar.",
+   "en": "I can swim.",
+   "ees": "Verbo en diccionario + ことができる = poder/saber hacer.",
+   "een": "Dictionary form + ことができる = can / be able to."
+  },
+  {
+   "q": "姉はピアノ___上手です。",
+   "a": "が",
+   "o": [
+    "を",
+    "に",
+    "で"
+   ],
+   "es": "Mi hermana toca muy bien el piano.",
+   "en": "My sister is good at the piano.",
+   "ees": "上手/下手 son adjetivos: aquello en lo que eres bueno lleva が.",
+   "een": "上手/下手 are adjectives: what you are good at takes が."
+  },
+  {
+   "q": "日本語を話す___ができますか。",
+   "a": "こと",
+   "o": [
+    "もの",
+    "の が",
+    "ため"
+   ],
+   "es": "¿Sabes hablar japonés?",
+   "en": "Can you speak Japanese?",
+   "ees": "Para «poder hacer» con ができる hace falta nominalizar el verbo con こと.",
+   "een": "To say «can do» with ができる the verb is nominalised with こと."
+  },
+  {
+   "q": "私はピアノを弾く___ができます。",
+   "a": "こと",
+   "o": [
+    "もの",
+    "の",
+    "ところ"
+   ],
+   "es": "Sé tocar el piano.",
+   "en": "I can play the piano.",
+   "ees": "V-dicc. + ことができる = poder/saber hacer.",
+   "een": "V-dict + ことができる = can do.",
+   "t": "choose"
+  },
+  {
+   "q": "姉は料理が___です。",
+   "a": "上手",
+   "o": [
+    "上手に",
+    "好く",
+    "できる"
+   ],
+   "es": "Mi hermana cocina muy bien.",
+   "en": "My sister is good at cooking.",
+   "ees": "N が上手です = se le da bien N.",
+   "een": "N が上手です = good at N.",
+   "t": "choose"
+  }
+ ],
+ "17": [
+  {
+   "q": "朝ご飯を食べ___、学校へ行きます。",
+   "a": "て",
+   "o": [
+    "た",
+    "ます",
+    "ない"
+   ],
+   "es": "Desayuno y voy a la escuela.",
+   "en": "I eat breakfast and go to school.",
+   "ees": "La forma て enlaza acciones en orden: 食べて、行きます.",
+   "een": "The て-form links actions in sequence: 食べて、行きます."
+  },
+  {
+   "q": "いっしょに帰り___。",
+   "a": "ましょう",
+   "o": [
+    "ました",
+    "ません",
+    "ましたか"
+   ],
+   "es": "Volvamos juntos.",
+   "en": "Let's go home together.",
+   "ees": "～ましょう = «hagamos…», propuesta inclusiva.",
+   "een": "～ましょう = «let's…», an inclusive suggestion."
+  },
+  {
+   "q": "___遅れましたか。―電車が止まったからです。",
+   "a": "どうして",
+   "o": [
+    "どう",
+    "どこで",
+    "だれが"
+   ],
+   "es": "¿Por qué llegaste tarde? —Porque se paró el tren.",
+   "en": "Why were you late? —Because the train stopped.",
+   "ees": "どうして = por qué. どう = cómo/qué tal.",
+   "een": "どうして = why. どう = how / how about."
+  },
+  {
+   "q": "朝起き___、顔を洗います。",
+   "a": "て",
+   "o": [
+    "たり",
+    "に",
+    "から"
+   ],
+   "es": "Me levanto y me lavo la cara.",
+   "en": "I get up and wash my face.",
+   "ees": "V-て une acciones en orden.",
+   "een": "V-て joins actions in order.",
+   "t": "choose"
+  },
+  {
+   "q": "一緒に昼ご飯を食べ___。",
+   "a": "ましょう",
+   "o": [
+    "ました",
+    "ません",
+    "でしょう"
+   ],
+   "es": "Comamos juntos.",
+   "en": "Let's have lunch together.",
+   "ees": "～ましょう = hagamos.",
+   "een": "～ましょう = let's.",
+   "t": "choose"
+  }
+ ],
+ "18": [
+  {
+   "q": "熱がありますから、早く寝た___がいいですよ。",
+   "a": "ほう",
+   "o": [
+    "こと",
+    "ため",
+    "とき"
+   ],
+   "es": "Como tienes fiebre, es mejor que te acuestes pronto.",
+   "en": "Since you have a fever, you'd better go to bed early.",
+   "ees": "Forma た + ほうがいい = consejo («es mejor que…»).",
+   "een": "た-form + ほうがいい = advice («you'd better…»)."
+  },
+  {
+   "q": "お酒を飲ま___ほうがいいです。",
+   "a": "ない",
+   "o": [
+    "なかった",
+    "ず",
+    "ません"
+   ],
+   "es": "Es mejor que no bebas alcohol.",
+   "en": "You'd better not drink alcohol.",
+   "ees": "Consejo negativo: forma ない + ほうがいい (no なかった).",
+   "een": "Negative advice: ない-form + ほうがいい (not なかった)."
+  },
+  {
+   "q": "頭が痛い___、今日は休みます。",
+   "a": "から",
+   "o": [
+    "けど",
+    "まで",
+    "のに"
+   ],
+   "es": "Como me duele la cabeza, hoy descanso.",
+   "en": "I have a headache, so I'll rest today.",
+   "ees": "から da la razón («porque»). けど = «pero».",
+   "een": "から gives the reason («because»). けど = «but»."
+  },
+  {
+   "q": "熱があるなら、休んだ___がいいですよ。",
+   "a": "ほう",
+   "o": [
+    "こと",
+    "もの",
+    "から"
+   ],
+   "es": "Si tienes fiebre, mejor descansa.",
+   "en": "If you have a fever, you'd better rest.",
+   "ees": "V-た + ほうがいい = consejo.",
+   "een": "V-た + ほうがいい = advice.",
+   "t": "choose"
+  },
+  {
+   "q": "雨が降っている___、タクシーで行きます。",
+   "a": "から",
+   "o": [
+    "まで",
+    "けど",
+    "だけ"
+   ],
+   "es": "Como llueve, voy en taxi.",
+   "en": "Since it's raining, I'll go by taxi.",
+   "ees": "～から = porque.",
+   "een": "～から = because.",
+   "t": "choose"
+  }
+ ],
+ "19": [
+  {
+   "q": "夏休みに沖縄へ行き___です。",
+   "a": "たい",
+   "o": [
+    "たかった",
+    "ます",
+    "ましょう"
+   ],
+   "es": "En las vacaciones de verano quiero ir a Okinawa.",
+   "en": "I want to go to Okinawa in the summer holidays.",
+   "ees": "Raíz ます + たい = querer hacer.",
+   "een": "ます-stem + たい = want to do."
+  },
+  {
+   "q": "子どものころ、パイロットになり___です。",
+   "a": "たかった",
+   "o": [
+    "たい",
+    "たくない",
+    "ましょう"
+   ],
+   "es": "De niño quería ser piloto.",
+   "en": "As a child I wanted to be a pilot.",
+   "ees": "Un deseo del pasado: たい se conjuga como adjetivo い → たかった.",
+   "een": "A past wish: たい conjugates like an い-adjective → たかった."
+  },
+  {
+   "q": "富士山に___登りました。",
+   "a": "初めて",
+   "o": [
+    "初め",
+    "はじまって",
+    "はじめに"
+   ],
+   "es": "Subí al Fuji por primera vez.",
+   "en": "I climbed Mt Fuji for the first time.",
+   "ees": "初めて = por primera vez. はじめに = al principio, primero (en una secuencia).",
+   "een": "初めて = for the first time. はじめに = first / at the beginning (of a sequence)."
+  },
+  {
+   "q": "夏休みに日本へ行き___です。",
+   "a": "たい",
+   "o": [
+    "ます",
+    "たがる",
+    "ましょう"
+   ],
+   "es": "Quiero ir a Japón en vacaciones de verano.",
+   "en": "I want to go to Japan in the summer holidays.",
+   "ees": "V-ます + たい = quiero.",
+   "een": "V-stem + たい = want to.",
+   "t": "choose"
+  },
+  {
+   "q": "___すしを食べました。",
+   "a": "初めて",
+   "o": [
+    "初め",
+    "始めて",
+    "始め"
+   ],
+   "es": "Comí sushi por primera vez.",
+   "en": "I ate sushi for the first time.",
+   "ees": "初めて = por primera vez. 始めて es «empezar» (始める).",
+   "een": "初めて = for the first time. 始めて is «start» (始める).",
+   "t": "choose"
+  }
+ ],
+ "20": [
+  {
+   "q": "すみません、もう一度言っ___。",
+   "a": "てください",
+   "o": [
+    "てもいいです",
+    "ています",
+    "てもいい"
+   ],
+   "es": "Perdone, ¿puede repetirlo?",
+   "en": "Excuse me, please say it again.",
+   "ees": "Petición: forma て + ください.",
+   "een": "Request: て-form + ください."
+  },
+  {
+   "q": "いっしょに映画を見___。",
+   "a": "ませんか",
+   "o": [
+    "ません",
+    "ましたか",
+    "たいです"
+   ],
+   "es": "¿Por qué no vemos una película juntos?",
+   "en": "Why don't we watch a movie together?",
+   "ees": "～ませんか es una invitación amable («¿por qué no…?»). ～ません es solo negativo.",
+   "een": "～ませんか is a polite invitation («won't you…?»). ～ません is just negative."
+  },
+  {
+   "q": "ちょっと待っ___ください。",
+   "a": "て",
+   "o": [
+    "た",
+    "って",
+    "ち"
+   ],
+   "es": "Espere un momento, por favor.",
+   "en": "Please wait a moment.",
+   "ees": "待つ → 待って (verbos en つ hacen って).",
+   "een": "待つ → 待って (verbs in つ make って)."
+  },
+  {
+   "q": "週末、一緒に映画を見に行き___。",
+   "a": "ませんか",
+   "o": [
+    "ました",
+    "ません",
+    "たい"
+   ],
+   "es": "¿Por qué no vamos al cine juntos el fin de semana?",
+   "en": "Why don't we go to the cinema together this weekend?",
+   "ees": "～ませんか = invitación.",
+   "een": "～ませんか = invitation.",
+   "t": "choose"
+  },
+  {
+   "q": "窓を開け___。",
+   "a": "てください",
+   "o": [
+    "ください",
+    "てます",
+    "たい"
+   ],
+   "es": "Abra la ventana, por favor.",
+   "en": "Please open the window.",
+   "ees": "V-て + ください.",
+   "een": "V-て + ください.",
+   "t": "choose"
+  }
+ ],
+ "21": [
+  {
+   "q": "音楽を聞き___勉強します。",
+   "a": "ながら",
+   "o": [
+    "まえに",
+    "あとで",
+    "たり"
+   ],
+   "es": "Estudio mientras escucho música.",
+   "en": "I study while listening to music.",
+   "ees": "Raíz ます + ながら = dos acciones a la vez.",
+   "een": "ます-stem + ながら = two actions at the same time."
+  },
+  {
+   "q": "寝る___、歯をみがきます。",
+   "a": "まえに",
+   "o": [
+    "あとで",
+    "ながら",
+    "から"
+   ],
+   "es": "Me lavo los dientes antes de dormir.",
+   "en": "I brush my teeth before going to bed.",
+   "ees": "Verbo en diccionario + まえに = antes de. あとで va con forma た.",
+   "een": "Dictionary form + まえに = before. あとで goes with the た-form."
+  },
+  {
+   "q": "ご飯を食べた___、散歩します。",
+   "a": "あとで",
+   "o": [
+    "まえに",
+    "ながら",
+    "ときに"
+   ],
+   "es": "Después de comer, doy un paseo.",
+   "en": "After eating, I take a walk.",
+   "ees": "Forma た + あとで = después de.",
+   "een": "た-form + あとで = after."
+  },
+  {
+   "q": "音楽を聞き___勉強します。",
+   "a": "ながら",
+   "o": [
+    "まえに",
+    "あとで",
+    "たり"
+   ],
+   "es": "Estudio escuchando música.",
+   "en": "I study while listening to music.",
+   "ees": "V-ます + ながら = mientras.",
+   "een": "V-stem + ながら = while.",
+   "t": "choose"
+  },
+  {
+   "q": "寝る___、歯を磨きます。",
+   "a": "まえに",
+   "o": [
+    "あとで",
+    "ながら",
+    "から"
+   ],
+   "es": "Me lavo los dientes antes de dormir.",
+   "en": "I brush my teeth before going to bed.",
+   "ees": "V-dicc. + まえに = antes de.",
+   "een": "V-dict + まえに = before.",
+   "t": "choose"
+  }
+ ],
+ "22": [
+  {
+   "q": "週末は本を読ん___、映画を見たりします。",
+   "a": "だり",
+   "o": [
+    "で",
+    "だ",
+    "だから"
+   ],
+   "es": "Los fines de semana leo libros, veo películas y cosas así.",
+   "en": "At weekends I read books, watch films and so on.",
+   "ees": "～たり～たりする = enumerar actividades de ejemplo. 読む → 読んだり.",
+   "een": "～たり～たりする lists example activities. 読む → 読んだり."
+  },
+  {
+   "q": "手を洗っ___、ご飯を食べます。",
+   "a": "てから",
+   "o": [
+    "たり",
+    "ながら",
+    "まえに"
+   ],
+   "es": "Como después de lavarme las manos.",
+   "en": "I eat after washing my hands.",
+   "ees": "～てから = después de (orden estricto). ～ながら = a la vez.",
+   "een": "～てから = after (strict order). ～ながら = at the same time."
+  },
+  {
+   "q": "日曜日は掃除をし___、買い物をしたりしました。",
+   "a": "たり",
+   "o": [
+    "て",
+    "てから",
+    "ながら"
+   ],
+   "es": "El domingo limpié, hice la compra, etc.",
+   "en": "On Sunday I cleaned, went shopping and so on.",
+   "ees": "Con ～たりしました al final, el primer verbo también va en ～たり.",
+   "een": "With ～たりしました at the end, the first verb also takes ～たり."
+  },
+  {
+   "q": "日曜日は掃除をし___、買い物をしたりします。",
+   "a": "たり",
+   "o": [
+    "て",
+    "ながら",
+    "てから"
+   ],
+   "es": "Los domingos limpio, hago la compra…",
+   "en": "On Sundays I clean, go shopping and so on.",
+   "ees": "～たり～たりする = enumerar actividades.",
+   "een": "～たり～たりする = list activities.",
+   "t": "choose"
+  },
+  {
+   "q": "宿題をし___、遊びに行きます。",
+   "a": "てから",
+   "o": [
+    "たり",
+    "ながら",
+    "まえに"
+   ],
+   "es": "Después de hacer los deberes, salgo a jugar.",
+   "en": "After doing my homework, I'll go out to play.",
+   "ees": "V-て + から = después de.",
+   "een": "V-て + から = after.",
+   "t": "choose"
+  }
+ ],
+ "23": [
+  {
+   "q": "こちらは田中___です。",
+   "a": "さん",
+   "o": [
+    "ちゃん",
+    "くん",
+    "たち"
+   ],
+   "es": "Este es el señor Tanaka.",
+   "en": "This is Mr Tanaka.",
+   "ees": "さん es el tratamiento neutro y educado. ちゃん/くん son familiares, para niños o amigos.",
+   "een": "さん is the neutral polite title. ちゃん/くん are familiar, for children or friends."
+  },
+  {
+   "q": "お___を飲みませんか。",
+   "a": "茶",
+   "o": [
+    "コーヒー",
+    "ビール",
+    "ジュース"
+   ],
+   "es": "¿Quiere un té?",
+   "en": "Would you like some tea?",
+   "ees": "El prefijo お se usa con palabras japonesas (お茶, お水). No va con préstamos como コーヒー o ビール.",
+   "een": "The prefix お goes with native words (お茶, お水), not with loanwords like コーヒー or ビール."
+  },
+  {
+   "q": "（ご飯の前に）「___。」",
+   "a": "いただきます",
+   "o": [
+    "ごちそうさまでした",
+    "おやすみなさい",
+    "いってきます"
+   ],
+   "es": "(Antes de comer) «Itadakimasu».",
+   "en": "(Before eating) «Itadakimasu».",
+   "ees": "いただきます se dice antes de comer; ごちそうさまでした, al terminar.",
+   "een": "いただきます is said before eating; ごちそうさまでした after finishing."
+  },
+  {
+   "q": "お名前は何___。",
+   "a": "ですか",
+   "o": [
+    "ますか",
+    "か",
+    "だか"
+   ],
+   "es": "¿Cómo se llama usted?",
+   "en": "What is your name?",
+   "ees": "Pregunta cortés con sustantivo → ですか.",
+   "een": "Polite question with a noun → ですか.",
+   "t": "choose"
+  },
+  {
+   "q": "いただき___。",
+   "a": "ます",
+   "o": [
+    "ました",
+    "ません",
+    "ましょう"
+   ],
+   "es": "(Antes de comer) ¡Que aproveche!",
+   "en": "(Before eating) Let's eat!",
+   "ees": "Fórmula fija antes de comer: いただきます. Después: ごちそうさまでした.",
+   "een": "Set phrase before eating: いただきます. After: ごちそうさまでした.",
+   "t": "choose"
+  }
+ ]
 }

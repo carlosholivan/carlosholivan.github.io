@@ -38,6 +38,34 @@
    "en": "This summer isn't as hot as last year.",
    "ees": "A は B ほど～ない = A no es tan… como B. より va con afirmativo (去年より暑い).",
    "een": "A は B ほど～ない = A isn't as… as B. より takes an affirmative (去年より暑い)."
+  },
+  {
+   "q": "クッキーを一人三枚___取ってください。",
+   "a": "ずつ",
+   "o": [
+    "しか",
+    "ごろ",
+    "だけで"
+   ],
+   "es": "Coged tres galletas cada uno.",
+   "en": "Please take three cookies each.",
+   "ees": "Número + ずつ = cada uno.",
+   "een": "Number + ずつ = each.",
+   "t": "choose"
+  },
+  {
+   "q": "東京は大阪___暑くない。",
+   "a": "ほど",
+   "o": [
+    "しか",
+    "まで",
+    "から"
+   ],
+   "es": "Tokio no es tan caluroso como Osaka.",
+   "en": "Tokyo isn't as hot as Osaka.",
+   "ees": "A は B ほど～ない = A no es tan… como B.",
+   "een": "A は B ほど～ない = A isn't as… as B.",
+   "t": "choose"
   }
  ],
  "2": [
@@ -79,6 +107,34 @@
    "en": "Yesterday I ate as many as five cakes.",
    "ees": "Número + も = nada menos que (cantidad grande).",
    "een": "Number + も = as many as (a lot)."
+  },
+  {
+   "q": "日曜日しか休み___。",
+   "a": "がありません",
+   "o": [
+    "があります",
+    "でした",
+    "です"
+   ],
+   "es": "Solo libro los domingos.",
+   "en": "I only have Sundays off.",
+   "ees": "しか exige verbo negativo.",
+   "een": "しか requires a negative verb.",
+   "t": "choose"
+  },
+  {
+   "q": "お茶___飲みませんか。",
+   "a": "でも",
+   "o": [
+    "しか",
+    "ずつ",
+    "ほど"
+   ],
+   "es": "¿Tomamos un té o algo?",
+   "en": "Shall we have some tea or something?",
+   "ees": "N + でも = o algo (sugerencia suave).",
+   "een": "N + でも = or something (soft suggestion).",
+   "t": "choose"
   }
  ],
  "3": [
@@ -120,6 +176,34 @@
    "en": "My brother does nothing but watch TV.",
    "ees": "N + ばかり = no hacer otra cosa. しか necesitaría negativo.",
    "een": "N + ばかり = nothing but. しか would need a negative."
+  },
+  {
+   "q": "駅まで歩くし、バスも___から、遅くなった。",
+   "a": "来なかった",
+   "o": [
+    "来た",
+    "来ます",
+    "来ない"
+   ],
+   "es": "Fui andando a la estación y además no vino el autobús, así que llegué tarde.",
+   "en": "I walked to the station and the bus didn't come either, so I was late.",
+   "ees": "～し～し enumera razones; aquí la razón lógica es que el autobús no vino.",
+   "een": "～し～し lists reasons; the logical reason here is that the bus didn't come.",
+   "t": "choose"
+  },
+  {
+   "q": "三時___ここにいます。",
+   "a": "まで",
+   "o": [
+    "までに",
+    "ばかり",
+    "しか"
+   ],
+   "es": "Estaré aquí hasta las tres.",
+   "en": "I'll be here until three.",
+   "ees": "Estado continuo → まで.",
+   "een": "Continuous state → まで.",
+   "t": "choose"
   }
  ],
  "4": [
@@ -161,6 +245,34 @@
    "en": "While the child slept, I read the whole time.",
    "ees": "ずっと + acción continua → 間 (sin に).",
    "een": "ずっと + continuous action → 間 (without に)."
+  },
+  {
+   "q": "今から出かける___です。",
+   "a": "ところ",
+   "o": [
+    "とき",
+    "間",
+    "中"
+   ],
+   "es": "Estoy a punto de salir.",
+   "en": "I'm just about to go out.",
+   "ees": "V-dicc. + ところ = a punto de.",
+   "een": "V-dict + ところ = about to.",
+   "t": "choose"
+  },
+  {
+   "q": "会議___は携帯を切ってください。",
+   "a": "中",
+   "o": [
+    "ところ",
+    "間に",
+    "ばかり"
+   ],
+   "es": "Durante la reunión, apaguen el móvil.",
+   "en": "Please turn off your phones during the meeting.",
+   "ees": "N + 中 (ちゅう) = durante.",
+   "een": "N + 中 (ちゅう) = during.",
+   "t": "choose"
   }
  ],
  "5": [
@@ -202,6 +314,34 @@
    "en": "I had a headache, so I missed school.",
    "ees": "Adjetivo い → ～くて (causa). で es para sustantivos/な.",
    "een": "い-adjective → ～くて (cause). で is for nouns/な-adjectives."
+  },
+  {
+   "q": "窓を開けた___寝てしまった。",
+   "a": "まま",
+   "o": [
+    "ながら",
+    "ので",
+    "から"
+   ],
+   "es": "Me dormí con la ventana abierta.",
+   "en": "I fell asleep with the window open.",
+   "ees": "V-た + まま = dejando el estado igual.",
+   "een": "V-た + まま = leaving the state as is.",
+   "t": "choose"
+  },
+  {
+   "q": "歩き___電話するのは危ない。",
+   "a": "ながら",
+   "o": [
+    "まま",
+    "て",
+    "たり"
+   ],
+   "es": "Es peligroso hablar por teléfono mientras caminas.",
+   "en": "It's dangerous to talk on the phone while walking.",
+   "ees": "V-ます + ながら = a la vez.",
+   "een": "V-stem + ながら = at the same time.",
+   "t": "choose"
   }
  ],
  "6": [
@@ -243,6 +383,34 @@
    "en": "I made the room clean.",
    "ees": "Adjetivo な + にする. Adjetivo い sería ～くする (大きくする).",
    "een": "な-adjective + にする. い-adjectives use ～くする (大きくする)."
+  },
+  {
+   "q": "この部屋をもっと明る___したい。",
+   "a": "く",
+   "o": [
+    "に",
+    "な",
+    "で"
+   ],
+   "es": "Quiero hacer esta habitación más luminosa.",
+   "en": "I want to make this room brighter.",
+   "ees": "Adj-い + くする.",
+   "een": "い-adj + くする.",
+   "t": "choose"
+  },
+  {
+   "q": "来月から大阪に転勤する___になりました。",
+   "a": "こと",
+   "o": [
+    "よう",
+    "ところ",
+    "はず"
+   ],
+   "es": "Me han trasladado a Osaka a partir del mes que viene.",
+   "en": "I'm being transferred to Osaka from next month.",
+   "ees": "Decisión ajena → ～ことになる.",
+   "een": "Decision by others → ～ことになる.",
+   "t": "choose"
   }
  ],
  "7": [
@@ -284,6 +452,34 @@
    "en": "Tomorrow's a holiday, so you don't have to come.",
    "ees": "～なくてもいい = no hace falta.",
    "een": "～なくてもいい = you don't have to."
+  },
+  {
+   "q": "この薬は毎日飲ま___なりません。",
+   "a": "なければ",
+   "o": [
+    "なくても",
+    "ないで",
+    "なくて"
+   ],
+   "es": "Esta medicina hay que tomarla todos los días.",
+   "en": "You have to take this medicine every day.",
+   "ees": "～なければならない = tener que.",
+   "een": "～なければならない = must.",
+   "t": "choose"
+  },
+  {
+   "q": "道が分からないときは、駅員に聞け___いいですよ。",
+   "a": "ば",
+   "o": [
+    "て",
+    "と",
+    "ても"
+   ],
+   "es": "Si no sabes el camino, basta con preguntar al empleado de la estación.",
+   "en": "If you don't know the way, just ask the station staff.",
+   "ees": "～ばいい = basta con; 聞く → 聞けば. 聞けたら no es la forma.",
+   "een": "～ばいい = just do; 聞く → 聞けば. 聞けたら isn't the form.",
+   "t": "choose"
   }
  ],
  "8": [
@@ -325,6 +521,34 @@
    "en": "May I try these shoes on?",
    "ees": "～てみる = probar a hacer algo.",
    "een": "～てみる = try doing something."
+  },
+  {
+   "q": "旅行の前に、ホテルを予約して___。",
+   "a": "おきます",
+   "o": [
+    "しまいます",
+    "みます",
+    "あります"
+   ],
+   "es": "Antes del viaje reservaré el hotel.",
+   "en": "I'll book the hotel before the trip.",
+   "ees": "Preparación → ～ておく.",
+   "een": "Preparation → ～ておく.",
+   "t": "choose"
+  },
+  {
+   "q": "この服、着て___もいいですか。",
+   "a": "みて",
+   "o": [
+    "おいて",
+    "しまって",
+    "あって"
+   ],
+   "es": "¿Puedo probarme esta ropa?",
+   "en": "May I try these clothes on?",
+   "ees": "Probar → ～てみる.",
+   "een": "Try → ～てみる.",
+   "t": "choose"
   }
  ],
  "9": [
@@ -366,6 +590,34 @@
    "en": "When I got lost, a stranger took me to the station.",
    "ees": "Otra persona me hace un favor → ～てくれる.",
    "een": "Someone does me a favour → ～てくれる."
+  },
+  {
+   "q": "私は弟に本を___。",
+   "a": "あげました",
+   "o": [
+    "くれました",
+    "もらいました",
+    "いただきました"
+   ],
+   "es": "Le di un libro a mi hermano pequeño.",
+   "en": "I gave my younger brother a book.",
+   "ees": "Yo doy a otro → あげる.",
+   "een": "I give to someone → あげる.",
+   "t": "choose"
+  },
+  {
+   "q": "友達に駅まで送って___。",
+   "a": "もらいました",
+   "o": [
+    "くれました",
+    "あげました",
+    "やりました"
+   ],
+   "es": "Un amigo me llevó a la estación (recibí el favor).",
+   "en": "A friend gave me a lift to the station.",
+   "ees": "Nに～てもらう = recibir el favor de N.",
+   "een": "Nに～てもらう = receive a favour from N.",
+   "t": "choose"
   }
  ],
  "10": [
@@ -407,6 +659,34 @@
    "en": "I try to go to bed early every day.",
    "ees": "～ようにする = procurar.",
    "een": "～ようにする = make an effort to."
+  },
+  {
+   "q": "風邪をひかない___、手を洗います。",
+   "a": "ように",
+   "o": [
+    "ために",
+    "ことに",
+    "ところ"
+   ],
+   "es": "Me lavo las manos para no resfriarme.",
+   "en": "I wash my hands so as not to catch a cold.",
+   "ees": "Con negativo o no voluntario → ように.",
+   "een": "With a negative or non-volitional verb → ように.",
+   "t": "choose"
+  },
+  {
+   "q": "家を買う___、貯金しています。",
+   "a": "ために",
+   "o": [
+    "ように",
+    "ことに",
+    "ところに"
+   ],
+   "es": "Ahorro para comprar una casa.",
+   "en": "I'm saving to buy a house.",
+   "ees": "Verbo voluntario → ために.",
+   "een": "Volitional verb → ために.",
+   "t": "choose"
   }
  ],
  "11": [
@@ -448,6 +728,34 @@
    "en": "What kind of person is your type?",
    "ees": "どんな + sustantivo = qué tipo de.",
    "een": "どんな + noun = what kind of."
+  },
+  {
+   "q": "___ふうに書けばいいですか。",
+   "a": "どんな",
+   "o": [
+    "どう",
+    "どれ",
+    "どこ"
+   ],
+   "es": "¿De qué manera lo escribo?",
+   "en": "How should I write it?",
+   "ees": "どんな + N (ふう) = de qué tipo. どう va solo con verbo.",
+   "een": "どんな + noun (ふう) = what kind. どう goes directly with a verb.",
+   "t": "choose"
+  },
+  {
+   "q": "「ふじ」___山を知っていますか。",
+   "a": "という",
+   "o": [
+    "といった",
+    "こんな",
+    "どういう"
+   ],
+   "es": "¿Conoces una montaña llamada «Fuji»?",
+   "en": "Do you know a mountain called «Fuji»?",
+   "ees": "A という N = un N llamado A.",
+   "een": "A という N = an N called A.",
+   "t": "choose"
   }
  ],
  "12": [
@@ -489,6 +797,34 @@
    "en": "Do your homework now.",
    "ees": "Raíz + なさい = orden de padres/profesores.",
    "een": "Stem + なさい = order from parents/teachers."
+  },
+  {
+   "q": "早く寝___！",
+   "a": "ろ",
+   "o": [
+    "れ",
+    "え",
+    "ら"
+   ],
+   "es": "¡Acuéstate ya!",
+   "en": "Go to bed now!",
+   "ees": "Imperativo ichidan: 寝る → 寝ろ.",
+   "een": "Ichidan imperative: 寝る → 寝ろ.",
+   "t": "choose"
+  },
+  {
+   "q": "お酒を飲みすぎない___がいいですよ。",
+   "a": "ほう",
+   "o": [
+    "こと",
+    "もの",
+    "ところ"
+   ],
+   "es": "Mejor no bebas demasiado.",
+   "en": "You'd better not drink too much.",
+   "ees": "V-ない + ほうがいい = mejor no.",
+   "een": "V-ない + ほうがいい = better not.",
+   "t": "choose"
   }
  ],
  "13": [
@@ -530,6 +866,34 @@
    "en": "My hobby is taking photos.",
    "ees": "～ことです al final de una definición (趣味は～ことです); の no puede ir delante de です así.",
    "een": "～ことです ends a definition (趣味は～ことです); の can't be used before です here."
+  },
+  {
+   "q": "彼が来る___、聞いてみます。",
+   "a": "かどうか",
+   "o": [
+    "ことか",
+    "もの",
+    "ところ"
+   ],
+   "es": "Le preguntaré si viene o no.",
+   "en": "I'll ask whether he's coming.",
+   "ees": "～かどうか = si… o no.",
+   "een": "～かどうか = whether or not.",
+   "t": "choose"
+  },
+  {
+   "q": "だれが来る___分かりません。",
+   "a": "か",
+   "o": [
+    "かどうか",
+    "と",
+    "ば"
+   ],
+   "es": "No sé quién va a venir.",
+   "en": "I don't know who's coming.",
+   "ees": "Con interrogativo (だれ, 何) → solo か.",
+   "een": "With a question word (だれ, 何) → just か.",
+   "t": "choose"
   }
  ],
  "14": [
@@ -571,6 +935,34 @@
    "en": "I want to become able to read Japanese newspapers.",
    "ees": "Potencial godan: 読む → 読める. 読まれる es pasiva; 読ませる causativa.",
    "een": "Godan potential: 読む → 読める. 読まれる is passive; 読ませる causative."
+  },
+  {
+   "q": "日本語で手紙が___ようになりました。",
+   "a": "書ける",
+   "o": [
+    "書かれる",
+    "書かせる",
+    "書けれる"
+   ],
+   "es": "Ya puedo escribir cartas en japonés.",
+   "en": "I can now write letters in Japanese.",
+   "ees": "Potencial godan: 書く → 書ける.",
+   "een": "Godan potential: 書く → 書ける.",
+   "t": "choose"
+  },
+  {
+   "q": "隣の部屋から音楽が___。",
+   "a": "聞こえます",
+   "o": [
+    "聞けます",
+    "聞きます",
+    "聞かせます"
+   ],
+   "es": "Se oye música desde la habitación de al lado.",
+   "en": "I can hear music from the next room.",
+   "ees": "聞こえる = oírse (sin querer). 聞ける = poder escuchar (oportunidad).",
+   "een": "聞こえる = be audible. 聞ける = be able to listen (opportunity).",
+   "t": "choose"
   }
  ],
  "15": [
@@ -612,6 +1004,34 @@
    "en": "Since I have a fever, I'm taking today off.",
    "ees": "～ので = porque (causa, educado).",
    "een": "～ので = because (reason, polite)."
+  },
+  {
+   "q": "薬を飲んだ___、熱が下がらない。",
+   "a": "のに",
+   "o": [
+    "ので",
+    "から",
+    "ても"
+   ],
+   "es": "Aunque me tomé la medicina, no me baja la fiebre.",
+   "en": "Even though I took the medicine, my fever won't go down.",
+   "ees": "Hecho real + resultado contrario → のに.",
+   "een": "Real fact + contrary result → のに.",
+   "t": "choose"
+  },
+  {
+   "q": "いくら食べ___、太らない。",
+   "a": "ても",
+   "o": [
+    "たら",
+    "のに",
+    "ので"
+   ],
+   "es": "Por mucho que coma, no engordo.",
+   "en": "No matter how much I eat, I don't gain weight.",
+   "ees": "いくら～ても = por mucho que.",
+   "een": "いくら～ても = no matter how much.",
+   "t": "choose"
   }
  ],
  "16": [
@@ -653,6 +1073,34 @@
    "en": "It started to rain. So I didn't go out.",
    "ees": "それで = así que (consecuencia). それに/そのうえ = además.",
    "een": "それで = so (consequence). それに/そのうえ = besides."
+  },
+  {
+   "q": "この店は安い。___、おいしい。",
+   "a": "それに",
+   "o": [
+    "それで",
+    "だから",
+    "でも"
+   ],
+   "es": "Esta tienda es barata. Y además está rica.",
+   "en": "This place is cheap. Plus, it's tasty.",
+   "ees": "それに = además (suma una ventaja).",
+   "een": "それに = besides (adds a plus).",
+   "t": "choose"
+  },
+  {
+   "q": "この機械の使い___が分かりません。",
+   "a": "方",
+   "o": [
+    "さ",
+    "こと",
+    "もの"
+   ],
+   "es": "No sé cómo se usa esta máquina.",
+   "en": "I don't know how to use this machine.",
+   "ees": "V-ます + 方 = la manera de.",
+   "een": "V-stem + 方 = the way to.",
+   "t": "choose"
   }
  ],
  "17": [
@@ -694,6 +1142,34 @@
    "en": "If you're tired, why not take a rest?",
    "ees": "～たらどうですか = ¿y si…? (sugerencia).",
    "een": "～たらどうですか = why don't you…? (suggestion)."
+  },
+  {
+   "q": "もう少しゆっくり話して___。",
+   "a": "くださいませんか",
+   "o": [
+    "さしあげませんか",
+    "あげませんか",
+    "もらいますか"
+   ],
+   "es": "¿Podría hablar un poco más despacio?",
+   "en": "Could you speak a little more slowly?",
+   "ees": "Petición cortés: ～てくださいませんか.",
+   "een": "Polite request: ～てくださいませんか.",
+   "t": "choose"
+  },
+  {
+   "q": "疲れたなら、少し寝たら___ですか。",
+   "a": "どう",
+   "o": [
+    "なん",
+    "どれ",
+    "どこ"
+   ],
+   "es": "Si estás cansado, ¿por qué no duermes un rato?",
+   "en": "If you're tired, why not sleep a little?",
+   "ees": "～たらどうですか = sugerencia.",
+   "een": "～たらどうですか = suggestion.",
+   "t": "choose"
   }
  ],
  "18": [
@@ -735,6 +1211,34 @@
    "en": "I intend to buy a car next year.",
    "ees": "Diccionario + つもりだ = tener intención.",
    "een": "Dictionary form + つもりだ = intend to."
+  },
+  {
+   "q": "夏休みに富士山に登ろ___と思っています。",
+   "a": "う",
+   "o": [
+    "よう",
+    "る",
+    "た"
+   ],
+   "es": "Pienso subir al Fuji en verano.",
+   "en": "I'm thinking of climbing Mt Fuji in summer.",
+   "ees": "Volitivo godan: 登る → 登ろう.",
+   "een": "Godan volitional: 登る → 登ろう.",
+   "t": "choose"
+  },
+  {
+   "q": "田中さんは明日来ると___。",
+   "a": "言っていました",
+   "o": [
+    "つもりです",
+    "ところです",
+    "ことです"
+   ],
+   "es": "Tanaka dijo que vendría mañana.",
+   "en": "Tanaka said he'd come tomorrow.",
+   "ees": "Cita: ～と言っていました.",
+   "een": "Quote: ～と言っていました.",
+   "t": "choose"
   }
  ],
  "19": [
@@ -776,6 +1280,34 @@
    "en": "If you're going to Hokkaido, winter is best.",
    "ees": "なら = si es así (consejo sobre lo que el otro dice que hará).",
    "een": "なら = if that's the case (advice about what the other person plans)."
+  },
+  {
+   "q": "春になる___、桜が咲きます。",
+   "a": "と",
+   "o": [
+    "なら",
+    "ても",
+    "のに"
+   ],
+   "es": "Cuando llega la primavera, florecen los cerezos.",
+   "en": "When spring comes, the cherry trees bloom.",
+   "ees": "Consecuencia natural → ～と.",
+   "een": "Natural consequence → ～と.",
+   "t": "choose"
+  },
+  {
+   "q": "駅に着い___、電話してください。",
+   "a": "たら",
+   "o": [
+    "と",
+    "ば",
+    "なら"
+   ],
+   "es": "Cuando llegues a la estación, llámame.",
+   "en": "Call me when you get to the station.",
+   "ees": "Petición tras una condición → ～たら (と/ば no admiten petición aquí).",
+   "een": "Request after a condition → ～たら (と/ば can't take a request here).",
+   "t": "choose"
   }
  ],
  "20": [
@@ -817,6 +1349,34 @@
    "en": "The lights are off. It seems nobody's in.",
    "ees": "～ようだ = parece (deducción por indicios).",
    "een": "～ようだ = it seems (deduced from evidence)."
+  },
+  {
+   "q": "今にも雨が降り___です。",
+   "a": "そう",
+   "o": [
+    "よう",
+    "らしい",
+    "みたい"
+   ],
+   "es": "Parece que va a llover de un momento a otro.",
+   "en": "It looks like it'll rain any moment.",
+   "ees": "V-ます + そう = parece que va a (aspecto inminente).",
+   "een": "V-stem + そう = looks like it's about to.",
+   "t": "choose"
+  },
+  {
+   "q": "田中さんは来ない___しれない。",
+   "a": "かも",
+   "o": [
+    "だろう",
+    "でしょう",
+    "らしい"
+   ],
+   "es": "Puede que Tanaka no venga.",
+   "en": "Tanaka might not come.",
+   "ees": "～かもしれない = quizá.",
+   "een": "～かもしれない = might.",
+   "t": "choose"
   }
  ],
  "21": [
@@ -858,6 +1418,34 @@
    "en": "It suddenly started to rain.",
    "ees": "Raíz + 出す = empezar de repente.",
    "een": "Stem + 出す = suddenly start."
+  },
+  {
+   "q": "この漢字は難しくて、覚え___。",
+   "a": "にくい",
+   "o": [
+    "やすい",
+    "すぎる",
+    "始める"
+   ],
+   "es": "Este kanji es difícil de memorizar.",
+   "en": "This kanji is hard to memorise.",
+   "ees": "V-ます + にくい = difícil de.",
+   "een": "V-stem + にくい = hard to.",
+   "t": "choose"
+  },
+  {
+   "q": "三時間も話し___。",
+   "a": "続けた",
+   "o": [
+    "出した",
+    "やすかった",
+    "始まった"
+   ],
+   "es": "Estuvo hablando sin parar tres horas.",
+   "en": "He kept talking for three hours.",
+   "ees": "V-ます + 続ける = seguir haciendo.",
+   "een": "V-stem + 続ける = keep doing.",
+   "t": "choose"
   }
  ],
  "22": [
@@ -912,6 +1500,34 @@
    "en": "Excuse me, please let me use this phone.",
    "ees": "Pedir permiso: causativa + てください (使わせてください).",
    "een": "Asking permission: causative + てください (使わせてください)."
+  },
+  {
+   "q": "電車で足を___、痛かった。",
+   "a": "踏まれて",
+   "o": [
+    "踏ませて",
+    "踏めて",
+    "踏まされて"
+   ],
+   "es": "En el tren me pisaron y me dolió.",
+   "en": "Someone stepped on my foot on the train and it hurt.",
+   "ees": "Me lo hicieron → pasiva: 踏む → 踏まれる.",
+   "een": "Done to me → passive: 踏む → 踏まれる.",
+   "t": "choose"
+  },
+  {
+   "q": "母は弟に部屋を掃除___。",
+   "a": "させた",
+   "o": [
+    "された",
+    "させられた",
+    "できた"
+   ],
+   "es": "Mi madre hizo que mi hermano limpiara su cuarto.",
+   "en": "My mother made my brother clean his room.",
+   "ees": "Hacer que otro haga → causativa: する → させる.",
+   "een": "Make someone do → causative: する → させる.",
+   "t": "choose"
   }
  ],
  "23": [
@@ -953,6 +1569,34 @@
    "en": "It has been getting colder.",
    "ees": "～てくる = cambio que llega hasta ahora. ～ていく = cambio desde ahora hacia el futuro.",
    "een": "～てくる = change up to now. ～ていく = change from now on."
+  },
+  {
+   "q": "電気が___います。",
+   "a": "ついて",
+   "o": [
+    "つけて",
+    "つけられて",
+    "つかせて"
+   ],
+   "es": "La luz está encendida.",
+   "en": "The light is on.",
+   "ees": "Estado de un intransitivo: つく → ついている.",
+   "een": "State of an intransitive: つく → ついている.",
+   "t": "choose"
+  },
+  {
+   "q": "テーブルに花が飾って___。",
+   "a": "あります",
+   "o": [
+    "います",
+    "おきます",
+    "しまいます"
+   ],
+   "es": "Hay flores puestas en la mesa.",
+   "en": "Flowers have been arranged on the table.",
+   "ees": "Transitivo + てある = estado resultado de una acción intencionada.",
+   "een": "Transitive + てある = state from a deliberate action.",
+   "t": "choose"
   }
  ],
  "24": [
@@ -981,6 +1625,34 @@
    "en": "I wonder if it'll be sunny tomorrow.",
    "ees": "～かな(あ) = me pregunto si.",
    "een": "～かな(あ) = I wonder if."
+  },
+  {
+   "q": "顔色が悪いですね。どうした___ですか。",
+   "a": "ん",
+   "o": [
+    "のに",
+    "か",
+    "よ"
+   ],
+   "es": "Tienes mala cara. ¿Qué te pasa?",
+   "en": "You look pale. What's wrong?",
+   "ees": "Pedir explicación → ～んですか.",
+   "een": "Asking for an explanation → ～んですか.",
+   "t": "choose"
+  },
+  {
+   "q": "この傘、だれの___。",
+   "a": "かしら",
+   "o": [
+    "ね",
+    "んです",
+    "わね"
+   ],
+   "es": "¿De quién será este paraguas?",
+   "en": "I wonder whose umbrella this is.",
+   "ees": "かしら／かな = me pregunto.",
+   "een": "かしら／かな = I wonder.",
+   "t": "choose"
   }
  ],
  "25": [
@@ -1022,6 +1694,34 @@
    "en": "Have you read this book yet?",
    "ees": "Acción del otro → respeto (お～になる). お～する es humilde, para uno mismo.",
    "een": "The other person's action → honorific (お～になる). お～する is humble, for yourself."
+  },
+  {
+   "q": "先生はもうお帰り___。",
+   "a": "になりました",
+   "o": [
+    "しました",
+    "いたしました",
+    "されました"
+   ],
+   "es": "El profesor ya se ha ido.",
+   "en": "The teacher has already left.",
+   "ees": "Respeto: お＋V-ます＋になる.",
+   "een": "Honorific: お + stem + になる.",
+   "t": "choose"
+  },
+  {
+   "q": "部長に資料を見て___。",
+   "a": "いただきました",
+   "o": [
+    "さしあげました",
+    "くださいました",
+    "あげました"
+   ],
+   "es": "El jefe me revisó los documentos (recibí el favor).",
+   "en": "My manager looked over the documents for me.",
+   "ees": "Nに～ていただく = recibir el favor (humilde).",
+   "een": "Nに～ていただく = receive the favour (humble).",
+   "t": "choose"
   }
  ],
  "26": [
@@ -1063,6 +1763,34 @@
    "en": "Let me carry your bags.",
    "ees": "お＋raíz＋する = humilde (hago algo por usted).",
    "een": "お + stem + する = humble (I do something for you)."
+  },
+  {
+   "q": "社長は今、会議室に___。",
+   "a": "いらっしゃいます",
+   "o": [
+    "おります",
+    "まいります",
+    "ございます"
+   ],
+   "es": "El presidente está ahora en la sala de reuniones.",
+   "en": "The president is in the meeting room now.",
+   "ees": "Superior → respeto: いる → いらっしゃる.",
+   "een": "Superior → honorific: いる → いらっしゃる.",
+   "t": "choose"
+  },
+  {
+   "q": "お名前は存じて___。",
+   "a": "おります",
+   "o": [
+    "いらっしゃいます",
+    "くださいます",
+    "なさいます"
+   ],
+   "es": "Conozco su nombre.",
+   "en": "I know your name.",
+   "ees": "Yo → humilde: ～ている → ～ておる.",
+   "een": "Me → humble: ～ている → ～ておる.",
+   "t": "choose"
   }
  ]
 }
