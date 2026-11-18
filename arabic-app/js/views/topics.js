@@ -1,15 +1,15 @@
 // Vocabulary by theme (category › subcategory), across every level, with learning status and quick study.
-import { enLine, enInline } from '../en-gloss.js?v=202611141800';
-import { S, update } from '../state.js?v=202611141800';
-import { register, go, render } from '../router.js?v=202611141800';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141800';
-import { setKnown, addCards } from '../engine/anki.js?v=202611141800';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611141800';
-import { speak } from '../audio.js?v=202611141800';
-import { t } from '../i18n.js?v=202611141800';
-import { esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611141800';
-import { allVocab } from './review.js?v=202611141800';
-import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611141800';
+import { enLine, enInline } from '../en-gloss.js?v=202611191700';
+import { S, update } from '../state.js?v=202611191700';
+import { register, go, render } from '../router.js?v=202611191700';
+import { LEVELS, levelLabel } from '../levels.js?v=202611191700';
+import { setKnown, addCards } from '../engine/anki.js?v=202611191700';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191700';
+import { speak } from '../audio.js?v=202611191700';
+import { t } from '../i18n.js?v=202611191700';
+import { esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611191700';
+import { allVocab } from './review.js?v=202611191700';
+import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611191700';
 
 let topics = null;
 let lvFilter = 'all';
@@ -17,7 +17,7 @@ const label = o => o[S.lang] || o.en || o.es;
 const learned = isLearned;
 
 async function load() {
-  if (!topics) topics = await fetch('data/topics.json?v=202611141800').then(r => r.json());
+  if (!topics) topics = await fetch('data/topics.json?v=202611191700').then(r => r.json());
   return topics;
 }
 // Words of a subcategory as [level, word], filtered by the selected level.

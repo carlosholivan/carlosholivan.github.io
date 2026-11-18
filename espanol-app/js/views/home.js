@@ -1,14 +1,14 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611141500';
-import { register, go } from '../router.js?v=202611141500';
-import { loadUnits, loadVocab, loadTexts, loadHanzi, loadExtra } from '../data.js?v=202611141500';
-import { bottomNav, progressBar } from '../ui/components.js?v=202611141500';
-import { icon } from '../ui/icons.js?v=202611141500';
-import { mascot } from '../ui/mascot.js?v=202611141500';
-import { t } from '../i18n.js?v=202611141500';
-import { LEVELS, levelLabel } from '../levels.js?v=202611141500';
-import { deckStats } from '../engine/anki.js?v=202611141500';
-import { isLearned } from '../engine/status.js?v=202611141500';
-import { CFG } from '../app-config.js?v=202611141500';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611191700';
+import { register, go } from '../router.js?v=202611191700';
+import { loadUnits, loadVocab, loadTexts, loadHanzi, loadExtra } from '../data.js?v=202611191700';
+import { bottomNav, progressBar } from '../ui/components.js?v=202611191700';
+import { icon } from '../ui/icons.js?v=202611191700';
+import { mascot } from '../ui/mascot.js?v=202611191700';
+import { t } from '../i18n.js?v=202611191700';
+import { LEVELS, levelLabel } from '../levels.js?v=202611191700';
+import { deckStats } from '../engine/anki.js?v=202611191700';
+import { isLearned } from '../engine/status.js?v=202611191700';
+import { CFG } from '../app-config.js?v=202611191700';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -78,7 +78,7 @@ register('home', async (el) => {
           <div class="grow">
             <div style="font-weight:600;font-size:15px;font-family:var(--serif)">${esc(u.title[S.lang] || u.title.en || u.title.es)}</div>
             <div class="muted small">${esc((u.desc || {})[S.lang] || (u.desc || {}).en || (u.desc || {}).es || '')}</div>
-            ${done && extra[String(num)] ? setChips(num) : ''}
+            ${unlocked && extra[String(num)] ? setChips(num) : ''}
           </div>
           ${!unlocked ? icon('lock', 18, 'var(--ink2)') : ''}
         </div>`;
@@ -97,7 +97,7 @@ window.__startUnit = (num) => {
   go('lesson', { level: S.level, unit: num });
 };
 
-// Completed lessons offer optional sets 2–7 (set 1 is the lesson itself).
+// Open lessons offer optional sets 2–7 (set 1 is the lesson itself).
 function setChips(num) {
   const got = new Set((S.sets || {})[`${S.level}-${num}`] || []);
   return `<div class="set-chips" title="${t('extraSets')}"><span class="muted small">${t('extraSet')}:</span>${[2, 3, 4, 5, 6, 7].map(n =>
