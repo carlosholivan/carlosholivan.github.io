@@ -1,14 +1,14 @@
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611141800';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611141800';
-import { readAnki } from '../anki-import.js?v=202611141800';
-import { allVocab } from './review.js?v=202611141800';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611141800';
-import { esc } from '../ja.js?v=202611141800';
-import { register, go } from '../router.js?v=202611141800';
-import { bottomNav, header } from '../ui/components.js?v=202611141800';
-import { t } from '../i18n.js?v=202611141800';
-import { applyPinyinPref } from '../ja.js?v=202611141800';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611141800';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611191000';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611191000';
+import { readAnki } from '../anki-import.js?v=202611191000';
+import { allVocab } from './review.js?v=202611191000';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611191000';
+import { esc } from '../ja.js?v=202611191000';
+import { register, go } from '../router.js?v=202611191000';
+import { bottomNav, header } from '../ui/components.js?v=202611191000';
+import { t } from '../i18n.js?v=202611191000';
+import { applyPinyinPref } from '../ja.js?v=202611191000';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611191000';
 
 let REC = false;
 hasRecorded().then(r => { REC = r; });
