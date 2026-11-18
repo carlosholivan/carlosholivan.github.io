@@ -1,12 +1,12 @@
 // Grammar practice (语法练习): choose-the-correct-form drills per level and category.
-import { S, update } from '../state.js?v=202611191200';
-import { register, go } from '../router.js?v=202611191200';
-import { loadDrills } from '../data.js?v=202611191200';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191200';
-import { t } from '../i18n.js?v=202611191200';
-import { levelChips } from '../levels.js?v=202611191200';
-import { speak, stop } from '../audio.js?v=202611191200';
-import { ruby, pyReady, tonedPinyin } from '../ja.js?v=202611191200';
+import { S, update } from '../state.js?v=202611191300';
+import { register, go } from '../router.js?v=202611191300';
+import { loadDrills } from '../data.js?v=202611191300';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611191300';
+import { t } from '../i18n.js?v=202611191300';
+import { levelChips } from '../levels.js?v=202611191300';
+import { speak, stop } from '../audio.js?v=202611191300';
+import { ruby, pyReady, tonedPinyin } from '../ja.js?v=202611191300';
 
 const ROUND = 10;
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -29,7 +29,7 @@ register('drills', async (el) => {
         <div class="flex items-center gap-12">
           <span class="drill-ic">${c.icon}</span>
           <div class="grow">
-            <div style="font-weight:700;font-size:17px">${ruby(c.title.zh || '')}</div>
+            <div style="font-weight:700;font-size:17px">${ruby(c.title.ja || c.title.zh || '')}</div>
             <div class="muted small">${esc(tr(c.title))} · ${c.items.length} ${t('exercisesShort')}</div>
             <div class="small" style="margin-top:2px">${esc(tr(c.desc))}</div>
           </div>
@@ -65,7 +65,7 @@ register('drill', async (el, params) => {
     el.innerHTML = `<div class="fade text-view">
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__nav('drills')" style="padding:4px">←</button>
-        <div class="grow"><div class="h3">${cat.icon} ${ruby(cat.title.zh || '')} <span class="muted small">${esc(tr(cat.title))}</span></div>${progressBar(pos / round.length * 100)}</div>
+        <div class="grow"><div class="h3">${cat.icon} ${ruby(cat.title.ja || cat.title.zh || '')} <span class="muted small">${esc(tr(cat.title))}</span></div>${progressBar(pos / round.length * 100)}</div>
         <span class="muted small">${pos + 1}/${round.length}</span>
       </div>
       <div class="muted small mb-8">${t('chooseCorrectForm')}</div>
@@ -111,7 +111,7 @@ register('drill', async (el, params) => {
     el.innerHTML = `<div class="fade" style="text-align:center;padding-top:40px">
       <div style="font-size:56px">${pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '💪'}</div>
       <div class="h1 mt-8">${score} / ${round.length}</div>
-       <div class="muted mb-16">${esc(cat.title.zh)} · ${esc(tr(cat.title))} · ${ok.length} / ${cat.items.length} ${t('mastered')}</div>
+       <div class="muted mb-16">${esc(cat.title.ja || cat.title.zh || '')} · ${esc(tr(cat.title))} · ${ok.length} / ${cat.items.length} ${t('mastered')}</div>
       ${newlyOk.length ? `<div class="mb-16" style="color:var(--accent);font-weight:700">+${newlyOk.length} XP</div>` : ''}
       <button class="btn" onclick="window.__openDrill('${cat.id}')">🔁 ${t('anotherRound')}</button>
       <button class="btn btn-soft mt-8" onclick="window.__nav('drills')">${t('grammarPractice')}</button>

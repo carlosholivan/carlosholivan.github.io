@@ -1,5 +1,5 @@
-import { S } from '../state.js?v=202611191200';
-import { splitPinyin, toneOf, pinyinText, hira } from '../ja.js?v=202611191200';
+import { S } from '../state.js?v=202611191300';
+import { splitPinyin, toneOf, pinyinText, hira } from '../ja.js?v=202611191300';
 
 export function tr(obj, lang = S.lang) {
   if (!obj) return '';
@@ -17,7 +17,10 @@ export function unitVocab(unit, levelVocab = []) {
 
 export function generateExercises(unit, words = [], pool = []) {
   const lang = S.lang;
-  const authored = (unit.exercises || []).map(ex => buildExercise(ex, lang));
+  // Grammar fills right after the first words, the other authored exercises, then «which sentence is right?».
+  const exs = unit.exercises || [];
+  const rank = ex => (ex.g ? (ex.type === 'choose' ? 2 : 0) : 1);
+  const authored = [...exs].sort((a, b) => rank(a) - rank(b)).map(ex => buildExercise(ex, lang));
   const generated = vocabExercises(words, pool, lang);
   // Progression: recognise words and tones → grammar practice → produce words.
   const half = Math.ceil(authored.length / 2);
@@ -122,7 +125,7 @@ function buildExercise(ex, lang) {
   const hint = ex.hint ? tr(ex.hint, lang) : null;
   switch (ex.type) {
     case 'choose':
-      return { type: 'choose', prompt: tr(ex.prompt, lang), correct: ex.correct, options: shuffle([...ex.options]), hint };
+      return { type: 'choose', prompt: tr(ex.prompt, lang), correct: ex.correct, options: shuffle([...ex.options]), hint, expl: ex.e ? tr(ex.e, lang) : '' };
     case 'translate':
       return { type: 'translate', prompt: tr(ex.prompt, lang), answer: ex.answer, py: ex.py, accept: [ex.answer, ...(ex.accept || [])], hint };
     case 'fill':
