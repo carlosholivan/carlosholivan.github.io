@@ -38,6 +38,34 @@
    "en": "It's only by experiencing failure that people grow.",
    "ees": "V-て + こそ = solo haciendo A se consigue B.",
    "een": "V-て + こそ = only by doing A can you achieve B."
+  },
+  {
+   "q": "苦労して___、喜びも大きい。",
+   "a": "こそ",
+   "o": [
+    "さえ",
+    "すら",
+    "など"
+   ],
+   "es": "Precisamente por haberlo sufrido, la alegría es mayor.",
+   "en": "It's precisely because of the hardship that the joy is greater.",
+   "ees": "V-て + こそ = precisamente por.",
+   "een": "V-て + こそ = precisely because.",
+   "t": "choose"
+  },
+  {
+   "q": "彼の行為は賞賛され___、非難されるべきではない。",
+   "a": "こそすれ",
+   "o": [
+    "こそあれ",
+    "てこそ",
+    "さえすれ"
+   ],
+   "es": "Su acción merece, si acaso, elogios, nunca críticas.",
+   "en": "His act deserves praise if anything, never criticism.",
+   "ees": "A こそすれ B ない = si acaso A, nunca B.",
+   "een": "A こそすれ B ない = if anything A, never B.",
+   "t": "choose"
   }
  ],
  "2": [
@@ -79,6 +107,34 @@
    "en": "Absence will be regarded as withdrawal.",
    "ees": "～ものとする／とみなす = se considerará (reglamentos).",
    "een": "～ものとする／とみなす = shall be regarded as (regulations)."
+  },
+  {
+   "q": "途中でやめる___、最初からやらないほうがいい。",
+   "a": "くらいなら",
+   "o": [
+    "くらいのもの",
+    "ものとして",
+    "ものとする"
+   ],
+   "es": "Si vas a dejarlo a medias, mejor no empieces.",
+   "en": "If you'll quit halfway, better not start at all.",
+   "ees": "A くらいなら B = antes que A, B.",
+   "een": "A くらいなら B = rather than A, B.",
+   "t": "choose"
+  },
+  {
+   "q": "会費は全員が払う___。",
+   "a": "ものとする",
+   "o": [
+    "くらいなら",
+    "くらいのものだ",
+    "ものか"
+   ],
+   "es": "Todos los miembros deberán pagar la cuota.",
+   "en": "All members shall pay the fee.",
+   "ees": "～ものとする = se establece que (reglamentos).",
+   "een": "～ものとする = shall (regulations).",
+   "t": "choose"
   }
  ],
  "3": [
@@ -120,6 +176,34 @@
    "en": "I'll pretend I didn't hear that.",
    "ees": "～たことにする = hacer como si (fingir un hecho).",
    "een": "～たことにする = act as if (pretend something happened)."
+  },
+  {
+   "q": "真面目な彼の___、きっと時間通りに来るだろう。",
+   "a": "ことだから",
+   "o": [
+    "ことなしに",
+    "ことのないよう",
+    "ことにして"
+   ],
+   "es": "Siendo él tan serio, seguro que llega puntual.",
+   "en": "Knowing how serious he is, he'll surely be on time.",
+   "ees": "N のことだから = conociendo a N.",
+   "een": "N のことだから = knowing N.",
+   "t": "choose"
+  },
+  {
+   "q": "失敗する___よう、よく確認してください。",
+   "a": "ことのない",
+   "o": [
+    "ことなしの",
+    "ことだから",
+    "ことにした"
+   ],
+   "es": "Compruébalo bien para no fallar.",
+   "en": "Check carefully so you don't fail.",
+   "ees": "～ことのないよう = para que no.",
+   "een": "～ことのないよう = so as not to.",
+   "t": "choose"
   }
  ],
  "4": [
@@ -161,6 +245,34 @@
    "en": "His effort really makes you think.",
    "ees": "～させられる (espontáneo) = algo te hace sentir/pensar sin quererlo.",
    "een": "～させられる (spontaneous) = something makes you feel/think."
+  },
+  {
+   "q": "この作品は彼の最高傑作だ___。",
+   "a": "とされている",
+   "o": [
+    "とさせている",
+    "にされている",
+    "と言わせている"
+   ],
+   "es": "Se considera que esta obra es su obra maestra.",
+   "en": "This work is regarded as his masterpiece.",
+   "ees": "～とされる = se considera.",
+   "een": "～とされる = is regarded as.",
+   "t": "choose"
+  },
+  {
+   "q": "専門家___、この計画は無理だそうだ。",
+   "a": "に言わせれば",
+   "o": [
+    "にさせれば",
+    "に言われれば",
+    "として"
+   ],
+   "es": "Según los expertos, este plan es inviable.",
+   "en": "According to the experts, this plan is impossible.",
+   "ees": "N に言わせれば = si le preguntas a N, según N.",
+   "een": "N に言わせれば = if you ask N.",
+   "t": "choose"
   }
  ],
  "5": [
@@ -202,6 +314,34 @@
    "en": "As soon as he saw his opponent was weak, he became bold.",
    "ees": "～とみると = en cuanto vio que.",
    "een": "～とみると = upon seeing that."
+  },
+  {
+   "q": "この調子で増えていく___、来年は倍になる。",
+   "a": "とすれば",
+   "o": [
+    "とみえて",
+    "とみられ",
+    "とみると"
+   ],
+   "es": "Si sigue aumentando a este ritmo, el año que viene se duplicará.",
+   "en": "If it keeps rising at this rate, it'll double next year.",
+   "ees": "～とすれば = suponiendo que.",
+   "een": "～とすれば = supposing.",
+   "t": "choose"
+  },
+  {
+   "q": "犯人は二十代の男___。",
+   "a": "とみられる",
+   "o": [
+    "とみえて",
+    "とみると",
+    "とすれば"
+   ],
+   "es": "Se cree que el culpable es un hombre de unos veinte años.",
+   "en": "The culprit is believed to be a man in his twenties.",
+   "ees": "～とみられる = se cree (noticias).",
+   "een": "～とみられる = is believed (news).",
+   "t": "choose"
   }
  ],
  "6": [
@@ -243,6 +383,34 @@
    "en": "Even if we hurry now, we won't make it.",
    "ees": "～たところで + negativo = aunque…, no servirá.",
    "een": "～たところで + negative = even if…, it won't help."
+  },
+  {
+   "q": "どんなに急いだ___、もう間に合わない。",
+   "a": "ところで",
+   "o": [
+    "ところを",
+    "ところに",
+    "ところへ"
+   ],
+   "es": "Por mucho que corras, ya no llegas.",
+   "en": "However much you hurry, you won't make it now.",
+   "ees": "～たところで = aunque (no servirá).",
+   "een": "～たところで = even if (it won't help).",
+   "t": "choose"
+  },
+  {
+   "q": "お休みの___、お電話してすみません。",
+   "a": "ところを",
+   "o": [
+    "ところで",
+    "ところへ",
+    "ところが"
+   ],
+   "es": "Perdone que le llame en su día de descanso.",
+   "en": "Sorry to call you on your day off.",
+   "ees": "～ところを = en un momento en que (disculpa).",
+   "een": "～ところを = at a time when (apology).",
+   "t": "choose"
   }
  ],
  "7": [
@@ -284,6 +452,34 @@
    "en": "As soon as he got home, he shut himself in his room.",
    "ees": "V-dicc. + なり = nada más (y entonces algo inesperado).",
    "een": "V-dict + なり = as soon as (then something unexpected)."
+  },
+  {
+   "q": "彼女は手紙を読む___、泣き出した。",
+   "a": "なり",
+   "o": [
+    "なりに",
+    "ばかりに",
+    "ものの"
+   ],
+   "es": "Nada más leer la carta, se echó a llorar.",
+   "en": "As soon as she read the letter, she burst into tears.",
+   "ees": "V-dicc. + なり = nada más.",
+   "een": "V-dict + なり = as soon as.",
+   "t": "choose"
+  },
+  {
+   "q": "お金がないなら、ない___に楽しむ方法がある。",
+   "a": "なり",
+   "o": [
+    "ながら",
+    "なりとも",
+    "ほど"
+   ],
+   "es": "Si no tienes dinero, hay formas de disfrutar a tu manera.",
+   "en": "If you don't have money, there are ways to enjoy yourself accordingly.",
+   "ees": "～なりに = a su manera.",
+   "een": "～なりに = in its own way.",
+   "t": "choose"
   }
  ],
  "8": [
@@ -325,6 +521,34 @@
    "en": "Whatever anyone says, my feelings won't change.",
    "ees": "Interrogativo + ～うが = sea quien/lo que sea.",
    "een": "Question word + ～うが = whoever/whatever."
+  },
+  {
+   "q": "どんなに反対され___、私は行く。",
+   "a": "ようが",
+   "o": [
+    "ようか",
+    "まいか",
+    "ように"
+   ],
+   "es": "Por mucho que se opongan, iré.",
+   "en": "However much they oppose it, I'll go.",
+   "ees": "～ようが = por mucho que.",
+   "een": "～ようが = no matter how much.",
+   "t": "choose"
+  },
+  {
+   "q": "理由はどう___、遅刻は遅刻だ。",
+   "a": "であれ",
+   "o": [
+    "でさえ",
+    "ならば",
+    "だけに"
+   ],
+   "es": "Sea cual sea el motivo, un retraso es un retraso.",
+   "en": "Whatever the reason, late is late.",
+   "ees": "疑問詞 + であれ = sea cual sea.",
+   "een": "Question word + であれ = whatever.",
+   "t": "choose"
   }
  ],
  "9": [
@@ -366,6 +590,34 @@
    "en": "Whether you agree or not, please give your opinion.",
    "ees": "A にせよ B にせよ = sea A o B.",
    "een": "A にせよ B にせよ = whether A or B."
+  },
+  {
+   "q": "信じよう___信じまいと、これは事実だ。",
+   "a": "と",
+   "o": [
+    "か",
+    "も",
+    "に"
+   ],
+   "es": "Lo creas o no, es un hecho.",
+   "en": "Believe it or not, it's a fact.",
+   "ees": "～うと～まいと = tanto si como si no.",
+   "een": "～うと～まいと = whether or not.",
+   "t": "choose"
+  },
+  {
+   "q": "彼は天才というか変人___、とにかく普通ではない。",
+   "a": "というか",
+   "o": [
+    "といえば",
+    "というより",
+    "とか"
+   ],
+   "es": "Genio, o raro, no sé, pero desde luego no es normal.",
+   "en": "Genius or weirdo, he's certainly not normal.",
+   "ees": "A というか B というか = no sé si A o B.",
+   "een": "A というか B というか = A or B, hard to say.",
+   "t": "choose"
   }
  ],
  "10": [
@@ -407,6 +659,34 @@
    "en": "This room is dusty everywhere, walls and floor alike.",
    "ees": "A といわず B といわず = en todas partes, sin distinción.",
    "een": "A といわず B といわず = everywhere, without distinction."
+  },
+  {
+   "q": "この店が悪いなら、客も客___。",
+   "a": "だ",
+   "o": [
+    "なり",
+    "とて",
+    "ほど"
+   ],
+   "es": "Si la tienda es mala, los clientes no se quedan atrás.",
+   "en": "If the shop is bad, the customers are just as bad.",
+   "ees": "A が A なら B も B だ = tal para cual.",
+   "een": "A が A なら B も B だ = both are as bad as each other.",
+   "t": "choose"
+  },
+  {
+   "q": "景色___料理___、最高の旅館だった。",
+   "a": "といい",
+   "o": [
+    "だの",
+    "であれ",
+    "にせよ"
+   ],
+   "es": "Tanto por el paisaje como por la comida, fue un ryokan excelente.",
+   "en": "Both the view and the food made it a superb inn.",
+   "ees": "A といい B といい = tanto A como B (valoración).",
+   "een": "A といい B といい = both A and B (evaluation).",
+   "t": "choose"
   }
  ],
  "11": [
@@ -448,6 +728,34 @@
    "en": "If you eat that much, you'll gain weight.",
    "ees": "～ては = si haces eso (consecuencia negativa).",
    "een": "～ては = if you do that (negative consequence)."
+  },
+  {
+   "q": "雨が降っ___やみ、降ってはやみ、変な天気だ。",
+   "a": "ては",
+   "o": [
+    "たり",
+    "ても",
+    "つつ"
+   ],
+   "es": "Llueve y para, llueve y para: qué tiempo más raro.",
+   "en": "It rains and stops, rains and stops — strange weather.",
+   "ees": "～ては～、～ては～ = repetición.",
+   "een": "～ては～、～ては～ = repetition.",
+   "t": "choose"
+  },
+  {
+   "q": "押し___押されつの混雑だった。",
+   "a": "つ",
+   "o": [
+    "ては",
+    "たり",
+    "て"
+   ],
+   "es": "Era una aglomeración de empujones de un lado y otro.",
+   "en": "It was a crush of pushing and shoving.",
+   "ees": "～つ～つ = alternando (expresión fija).",
+   "een": "～つ～つ = alternating (set phrase).",
+   "t": "choose"
   }
  ],
  "12": [
@@ -489,6 +797,34 @@
    "en": "The president is wearing a kimono today.",
    "ees": "着る (respeto) → お召しになる.",
    "een": "着る (honorific) → お召しになる."
+  },
+  {
+   "q": "雨が降ったら降った___、家で映画を見ればいい。",
+   "a": "で",
+   "o": [
+    "に",
+    "と",
+    "も"
+   ],
+   "es": "Si llueve, pues bueno, vemos una peli en casa.",
+   "en": "If it rains, well, we can watch a film at home.",
+   "ees": "～たら～たで = si pasa, pues (también vale).",
+   "een": "～たら～たで = if it happens, then (that's fine too).",
+   "t": "choose"
+  },
+  {
+   "q": "どこへ行った___、彼は戻ってこない。",
+   "a": "のやら",
+   "o": [
+    "とも",
+    "ことか",
+    "ばかり"
+   ],
+   "es": "Vete a saber adónde fue, que no vuelve.",
+   "en": "Goodness knows where he's gone; he hasn't come back.",
+   "ees": "疑問詞 + のやら = vete a saber.",
+   "een": "Question word + のやら = who knows.",
+   "t": "choose"
   }
  ],
  "13": [
@@ -530,6 +866,34 @@
    "en": "That goes without saying.",
    "ees": "～までもない = no es necesario ni siquiera.",
    "een": "～までもない = there's no need to even."
+  },
+  {
+   "q": "電話で済むから、わざわざ来る___。",
+   "a": "までもない",
+   "o": [
+    "ないまでも",
+    "までだ",
+    "までに"
+   ],
+   "es": "Se resuelve por teléfono, no hace falta venir.",
+   "en": "A call will do; no need to come all the way.",
+   "ees": "～までもない = no es necesario.",
+   "een": "～までもない = there's no need to.",
+   "t": "choose"
+  },
+  {
+   "q": "満点とは言わ___、せめて合格したい。",
+   "a": "ないまでも",
+   "o": [
+    "までもない",
+    "ずとも",
+    "までだ"
+   ],
+   "es": "Si no la nota máxima, al menos quiero aprobar.",
+   "en": "If not full marks, at least I want to pass.",
+   "ees": "～ないまでも = aunque no…, al menos.",
+   "een": "～ないまでも = if not…, at least.",
+   "t": "choose"
   }
  ],
  "14": [
@@ -571,6 +935,34 @@
    "en": "When you're tired, sleep is best.",
    "ees": "～に限る = lo mejor es.",
    "een": "～に限る = the best thing is."
+  },
+  {
+   "q": "彼に会えなくて、寂しい___だ。",
+   "a": "限り",
+   "o": [
+    "に限る",
+    "を限りに",
+    "に限った"
+   ],
+   "es": "Me da muchísima pena no poder verle.",
+   "en": "I'm terribly sad not to be able to see him.",
+   "ees": "Adj + 限りだ = sumamente.",
+   "een": "Adj + 限りだ = extremely.",
+   "t": "choose"
+  },
+  {
+   "q": "いじめは学校に___ことではない。",
+   "a": "限った",
+   "o": [
+    "限る",
+    "限り",
+    "限りの"
+   ],
+   "es": "El acoso no es algo exclusivo de las escuelas.",
+   "en": "Bullying isn't limited to schools.",
+   "ees": "～に限ったことではない = no es exclusivo de.",
+   "een": "～に限ったことではない = not limited to.",
+   "t": "choose"
   }
  ],
  "15": [
@@ -612,6 +1004,34 @@
    "en": "Although it's spring, cold days continue.",
    "ees": "～とはいえ = aun así, si bien.",
    "een": "～とはいえ = even so, although."
+  },
+  {
+   "q": "彼がそんなことを言う___、驚いた。",
+   "a": "とは",
+   "o": [
+    "といえども",
+    "との",
+    "とはいえ"
+   ],
+   "es": "¡Que dijera eso me dejó atónito!",
+   "en": "I was shocked that he'd say such a thing!",
+   "ees": "～とは = sorpresa.",
+   "een": "～とは = surprise.",
+   "t": "choose"
+  },
+  {
+   "q": "社長から明日休む___連絡があった。",
+   "a": "との",
+   "o": [
+    "とは",
+    "といえども",
+    "とはいえ"
+   ],
+   "es": "El presidente avisó de que mañana no vendrá.",
+   "en": "The president sent word that he'll be off tomorrow.",
+   "ees": "～との + N (連絡, こと) = de que (contenido).",
+   "een": "～との + noun (連絡, こと) = that (content).",
+   "t": "choose"
   }
  ],
  "16": [
@@ -653,6 +1073,34 @@
    "en": "This whole past week I've hardly slept.",
    "ees": "期間 + というもの = durante todo ese tiempo.",
    "een": "Period + というもの = for that whole period."
+  },
+  {
+   "q": "彼女に会ってからという___、彼は毎日楽しそうだ。",
+   "a": "もの",
+   "o": [
+    "こと",
+    "わけ",
+    "ため"
+   ],
+   "es": "Desde que la conoció, se le ve feliz todos los días.",
+   "en": "Ever since he met her, he's seemed happy every day.",
+   "ees": "～てからというもの = desde entonces (cambio notable).",
+   "een": "～てからというもの = ever since (notable change).",
+   "t": "choose"
+  },
+  {
+   "q": "本日の会議は、これ___終了します。",
+   "a": "をもって",
+   "o": [
+    "を皮切りに",
+    "というもの",
+    "にして"
+   ],
+   "es": "Con esto se da por terminada la reunión de hoy.",
+   "en": "With this, today's meeting is concluded.",
+   "ees": "N をもって = con (formal, cierre).",
+   "een": "N をもって = with (formal closing).",
+   "t": "choose"
   }
  ],
  "17": [
@@ -694,6 +1142,34 @@
    "en": "I thought it would be easy, but it was surprisingly hard.",
    "ees": "～と思いきや = creía que…, pero no.",
    "een": "～と思いきや = I thought…, but no."
+  },
+  {
+   "q": "新商品は発売される___、売り切れた。",
+   "a": "や否や",
+   "o": [
+    "が最後",
+    "と思いきや",
+    "まま"
+   ],
+   "es": "Nada más salir a la venta, el nuevo producto se agotó.",
+   "en": "The new product sold out the moment it went on sale.",
+   "ees": "～や否や = nada más (escrito).",
+   "een": "～や否や = no sooner than (written).",
+   "t": "choose"
+  },
+  {
+   "q": "この秘密を知られた___、もう終わりだ。",
+   "a": "が最後",
+   "o": [
+    "や否や",
+    "が早いか",
+    "と思いきや"
+   ],
+   "es": "Si se descubre este secreto, se acabó.",
+   "en": "Once this secret gets out, it's all over.",
+   "ees": "～たが最後 = una vez que (sin remedio).",
+   "een": "～たが最後 = once (no way back).",
+   "t": "choose"
   }
  ],
  "18": [
@@ -735,6 +1211,34 @@
    "en": "As soon as I tidy up, the kids make a mess again.",
    "ees": "～そばから = nada más hacerlo, se deshace (repetición).",
    "een": "～そばから = as soon as it's done, it's undone."
+  },
+  {
+   "q": "ご報告___、ご挨拶に伺いました。",
+   "a": "かたがた",
+   "o": [
+    "がてら",
+    "かたわら",
+    "そばから"
+   ],
+   "es": "He venido a saludarle y, de paso, a informarle.",
+   "en": "I've come to greet you and to report.",
+   "ees": "N + かたがた = con el doble fin (muy formal).",
+   "een": "N + かたがた = also to (very formal).",
+   "t": "choose"
+  },
+  {
+   "q": "覚えた___忘れてしまう。",
+   "a": "そばから",
+   "o": [
+    "かたわら",
+    "がてら",
+    "かたがた"
+   ],
+   "es": "En cuanto aprendo algo, se me olvida.",
+   "en": "As soon as I learn something, I forget it.",
+   "ees": "～そばから = nada más (y se deshace).",
+   "een": "～そばから = no sooner (than undone).",
+   "t": "choose"
   }
  ],
  "19": [
@@ -776,6 +1280,34 @@
    "en": "If you'd told me, I would have helped.",
    "ees": "～ば～ものを = si hubiera…, (lástima que no).",
    "een": "～ば～ものを = if only… (but it didn't happen)."
+  },
+  {
+   "q": "許可___、ここに入ってはいけない。",
+   "a": "なしに",
+   "o": [
+    "ともなく",
+    "ものを",
+    "ばかりに"
+   ],
+   "es": "No se puede entrar aquí sin permiso.",
+   "en": "You may not enter here without permission.",
+   "ees": "N なしに = sin N.",
+   "een": "N なしに = without N.",
+   "t": "choose"
+  },
+  {
+   "q": "どこから___、いい香りがしてきた。",
+   "a": "ともなく",
+   "o": [
+    "なしに",
+    "なくして",
+    "ものを"
+   ],
+   "es": "De no se sabe dónde llegó un aroma agradable.",
+   "en": "A pleasant smell came from somewhere.",
+   "ees": "疑問詞 + ともなく = sin saber exactamente (dónde, cuándo).",
+   "een": "Question word + ともなく = from somewhere, somehow.",
+   "t": "choose"
   }
  ],
  "20": [
@@ -817,6 +1349,34 @@
    "en": "Being company president, he must be busy every day.",
    "ees": "N ともなると = cuando se llega a ser N.",
    "een": "N ともなると = once you become N."
+  },
+  {
+   "q": "プロ___、毎日の練習が欠かせない。",
+   "a": "ともなると",
+   "o": [
+    "ともあろう",
+    "すら",
+    "にして"
+   ],
+   "es": "Cuando se es profesional, el entrenamiento diario es imprescindible.",
+   "en": "Once you're a pro, daily practice is essential.",
+   "ees": "N ともなると = al nivel de N.",
+   "een": "N ともなると = at the level of N.",
+   "t": "choose"
+  },
+  {
+   "q": "この問題は専門家___解けない。",
+   "a": "ですら",
+   "o": [
+    "こそ",
+    "ともあろう",
+    "だけで"
+   ],
+   "es": "Este problema ni siquiera los expertos lo resuelven.",
+   "en": "Even experts can't solve this problem.",
+   "ees": "N ですら = ni siquiera N.",
+   "een": "N ですら = not even N.",
+   "t": "choose"
   }
  ],
  "21": [
@@ -858,6 +1418,34 @@
    "en": "The kids were playing covered in mud.",
    "ees": "N + まみれ = cubierto de (líquido, suciedad).",
    "een": "N + まみれ = covered in (liquid, dirt)."
+  },
+  {
+   "q": "彼は日本人___日本語を話す。",
+   "a": "並みに",
+   "o": [
+    "ずくめで",
+    "まみれで",
+    "ぐるみで"
+   ],
+   "es": "Habla japonés al nivel de un nativo.",
+   "en": "He speaks Japanese as well as a native.",
+   "ees": "N + 並み = al nivel de N.",
+   "een": "N + 並み = on a par with N.",
+   "t": "choose"
+  },
+  {
+   "q": "町___で環境保護に取り組んでいる。",
+   "a": "ぐるみ",
+   "o": [
+    "ずくめ",
+    "まみれ",
+    "並み"
+   ],
+   "es": "Toda la ciudad se ha volcado en la protección del medio ambiente.",
+   "en": "The whole town is working on environmental protection.",
+   "ees": "N + ぐるみ = todo N en conjunto.",
+   "een": "N + ぐるみ = the whole N together.",
+   "t": "choose"
   }
  ],
  "22": [
@@ -899,6 +1487,34 @@
    "en": "The shop exists thanks to its customers.",
    "ees": "A あっての B = B existe gracias a A.",
    "een": "A あっての B = B exists only thanks to A."
+  },
+  {
+   "q": "人気歌手が来る___、会場は満員だった。",
+   "a": "とあって",
+   "o": [
+    "とあれば",
+    "にあって",
+    "あっての"
+   ],
+   "es": "Como venía un cantante famoso, el local estaba lleno.",
+   "en": "With a popular singer coming, the venue was packed.",
+   "ees": "～とあって = como (circunstancia especial).",
+   "een": "～とあって = because (special circumstance).",
+   "t": "choose"
+  },
+  {
+   "q": "健康___の人生だ。",
+   "a": "あって",
+   "o": [
+    "とあって",
+    "にあって",
+    "とあれば"
+   ],
+   "es": "Sin salud, no hay vida que valga.",
+   "en": "Life depends on good health.",
+   "ees": "A あっての B = B gracias a A.",
+   "een": "A あっての B = B thanks to A.",
+   "t": "choose"
   }
  ],
  "23": [
@@ -940,6 +1556,34 @@
    "en": "This is a taste unique to Kyoto.",
    "ees": "N ならでは = propio solo de N.",
    "een": "N ならでは = unique to N."
+  },
+  {
+   "q": "一日___休むことはできない。",
+   "a": "たりとも",
+   "o": [
+    "なりとも",
+    "ならでは",
+    "からする"
+   ],
+   "es": "No puedo descansar ni un solo día.",
+   "en": "I can't take even a single day off.",
+   "ees": "一 + contador + たりとも～ない = ni uno.",
+   "een": "One + counter + たりとも～ない = not even one.",
+   "t": "choose"
+  },
+  {
+   "q": "この店___のサービスに感動した。",
+   "a": "ならでは",
+   "o": [
+    "たりとも",
+    "なりとも",
+    "からする"
+   ],
+   "es": "Me emocionó el servicio, que solo se encuentra en esta tienda.",
+   "en": "I was moved by the service unique to this shop.",
+   "ees": "N ならでは = propio de N.",
+   "een": "N ならでは = unique to N.",
+   "t": "choose"
   }
  ],
  "24": [
@@ -981,6 +1625,34 @@
    "en": "Last year's heat doesn't compare with this year's.",
    "ees": "～とは比べものにならない = no tiene comparación.",
    "een": "～とは比べものにならない = can't be compared."
+  },
+  {
+   "q": "何とかならない___か。",
+   "a": "もの",
+   "o": [
+    "こと",
+    "わけ",
+    "はず"
+   ],
+   "es": "¿No habrá alguna forma de arreglarlo?",
+   "en": "Isn't there something we can do?",
+   "ees": "～ないものか = ¿no habrá manera? (deseo).",
+   "een": "～ないものか = isn't there some way? (wish).",
+   "t": "choose"
+  },
+  {
+   "q": "お客様のご予約を___。",
+   "a": "承りました",
+   "o": [
+    "賜りました",
+    "存じました",
+    "申し上げました"
+   ],
+   "es": "Hemos recibido su reserva.",
+   "en": "We have received your reservation.",
+   "ees": "承る = recibir un encargo (humilde).",
+   "een": "承る = humbly receive an order.",
+   "t": "choose"
   }
  ],
  "25": [
@@ -1022,6 +1694,34 @@
    "en": "His performance is bound to move the audience.",
    "ees": "～ずにはおかない = forzosamente provoca.",
    "een": "～ずにはおかない = is bound to cause."
+  },
+  {
+   "q": "大事な会議なので、出席せ___。",
+   "a": "ずにはすまない",
+   "o": [
+    "ずにすむ",
+    "ずにはおかない",
+    "だけではすまない"
+   ],
+   "es": "Es una reunión importante: no puedo dejar de asistir.",
+   "en": "It's an important meeting; I can't get away without attending.",
+   "ees": "～ずにはすまない = no queda más remedio que (por obligación).",
+   "een": "～ずにはすまない = can't get away without (obligation).",
+   "t": "choose"
+  },
+  {
+   "q": "この映画は見る人を泣かせ___。",
+   "a": "ずにはおかない",
+   "o": [
+    "ずにすむ",
+    "ずにはすまない",
+    "までもない"
+   ],
+   "es": "Esta película hace llorar a todo el que la ve.",
+   "en": "This film is bound to make viewers cry.",
+   "ees": "～ずにはおかない = forzosamente provoca.",
+   "een": "～ずにはおかない = inevitably causes.",
+   "t": "choose"
   }
  ],
  "26": [
@@ -1063,6 +1763,34 @@
    "en": "With this heavy rain, I can't go out even if I want to.",
    "ees": "V-volitivo + にも + V-potencial negativo = aunque quiera, no puedo.",
    "een": "Volitional + にも + negative potential = can't even if I want to."
+  },
+  {
+   "q": "痛くて、歩こう___歩けない。",
+   "a": "にも",
+   "o": [
+    "とも",
+    "では",
+    "すら"
+   ],
+   "es": "Me duele tanto que, aunque quiera, no puedo andar.",
+   "en": "It hurts so much that I can't walk even if I try.",
+   "ees": "～ようにも～れない = aunque quiera, no puedo.",
+   "een": "～ようにも～れない = can't even if I want to.",
+   "t": "choose"
+  },
+  {
+   "q": "この雨はやみ___もない。",
+   "a": "そう",
+   "o": [
+    "かね",
+    "うる",
+    "がち"
+   ],
+   "es": "No parece que vaya a parar de llover.",
+   "en": "This rain doesn't look like stopping.",
+   "ees": "V-ます + そうもない = no parece que.",
+   "een": "V-stem + そうもない = doesn't look like.",
+   "t": "choose"
   }
  ],
  "27": [
@@ -1104,6 +1832,34 @@
    "en": "This place is cheap and tasty, so it's always full.",
    "ees": "～ときている = y encima (justifica la consecuencia).",
    "een": "～ときている = and on top of that (justifies the result)."
+  },
+  {
+   "q": "彼は風の___走り去った。",
+   "a": "ごとく",
+   "o": [
+    "ごとき",
+    "ときたら",
+    "ときている"
+   ],
+   "es": "Se fue corriendo como el viento.",
+   "en": "He ran off like the wind.",
+   "ees": "N のごとく + verbo = como (escrito).",
+   "een": "N のごとく + verb = like (written).",
+   "t": "choose"
+  },
+  {
+   "q": "最近の若者___、本を全然読まない。",
+   "a": "ときたら",
+   "o": [
+    "ごとく",
+    "ときている",
+    "ごとき"
+   ],
+   "es": "Los jóvenes de hoy, lo que es ellos, no leen nada.",
+   "en": "Young people these days never read anything.",
+   "ees": "N ときたら = en cuanto a N (queja).",
+   "een": "N ときたら = as for N (complaint).",
+   "t": "choose"
   }
  ],
  "28": [
@@ -1145,6 +1901,34 @@
    "en": "Regardless of the reason, lateness is not accepted.",
    "ees": "N のいかんにかかわらず = sea cual sea N.",
    "een": "N のいかんにかかわらず = regardless of N."
+  },
+  {
+   "q": "彼の発言は、ついに大問題に___。",
+   "a": "至った",
+   "o": [
+    "いかんだ",
+    "限った",
+    "あった"
+   ],
+   "es": "Sus declaraciones acabaron convirtiéndose en un gran problema.",
+   "en": "His remarks ended up becoming a big issue.",
+   "ees": "～に至る = llegar a (extremo).",
+   "een": "～に至る = reach (an extreme).",
+   "t": "choose"
+  },
+  {
+   "q": "天候___では、中止の場合もあります。",
+   "a": "いかん",
+   "o": [
+    "に至って",
+    "にあって",
+    "次第で"
+   ],
+   "es": "Según el tiempo, puede suspenderse.",
+   "en": "Depending on the weather, it may be cancelled.",
+   "ees": "N いかんでは = según N.",
+   "een": "N いかんでは = depending on N.",
+   "t": "choose"
   }
  ],
  "29": [
@@ -1186,6 +1970,34 @@
    "en": "His effort, combined with his talent, brought great success.",
    "ees": "A が B と相まって = A unido a B (efecto conjunto).",
    "een": "A が B と相まって = A combined with B."
+  },
+  {
+   "q": "この病気は年齢___かかる可能性がある。",
+   "a": "によらず",
+   "o": [
+    "にとどまらず",
+    "と相まって",
+    "にもまして"
+   ],
+   "es": "Esta enfermedad puede afectar a cualquier edad.",
+   "en": "This illness can strike regardless of age.",
+   "ees": "N によらず = independientemente de N.",
+   "een": "N によらず = regardless of N.",
+   "t": "choose"
+  },
+  {
+   "q": "彼の活躍は国内___、海外でも注目されている。",
+   "a": "にとどまらず",
+   "o": [
+    "によらず",
+    "と相まって",
+    "をおいて"
+   ],
+   "es": "Su actuación llama la atención no solo en el país, también fuera.",
+   "en": "His success is noticed not only at home but abroad.",
+   "ees": "N にとどまらず = no limitarse a N.",
+   "een": "N にとどまらず = not limited to N.",
+   "t": "choose"
   }
  ],
  "30": [
@@ -1227,6 +2039,34 @@
    "en": "An amateur like me has no way of knowing professional techniques.",
    "ees": "～べくもない = no hay modo de.",
    "een": "～べくもない = there's no way to."
+  },
+  {
+   "q": "それは許す___犯罪だ。",
+   "a": "べからざる",
+   "o": [
+    "べからず",
+    "べく",
+    "べくもない"
+   ],
+   "es": "Es un crimen imperdonable.",
+   "en": "It's an unforgivable crime.",
+   "ees": "～べからざる + N = inadmisible.",
+   "een": "～べからざる + noun = unpardonable.",
+   "t": "choose"
+  },
+  {
+   "q": "試験に合格す___、毎日勉強している。",
+   "a": "べく",
+   "o": [
+    "べからず",
+    "べき",
+    "べくもない"
+   ],
+   "es": "Estudio todos los días para aprobar el examen.",
+   "en": "I study every day in order to pass the exam.",
+   "ees": "～べく = para (escrito).",
+   "een": "～べく = in order to (written).",
+   "t": "choose"
   }
  ],
  "31": [
@@ -1268,6 +2108,34 @@
    "en": "Unlike his serious older brother, the younger one does nothing but play.",
    "ees": "N にひきかえ = en contraste con N.",
    "een": "N にひきかえ = in contrast to N."
+  },
+  {
+   "q": "昨年に___、今年は売り上げが伸びた。",
+   "a": "ひきかえ",
+   "o": [
+    "先駆けて",
+    "即して",
+    "もまして"
+   ],
+   "es": "Al contrario que el año pasado, este año subieron las ventas.",
+   "en": "Unlike last year, sales grew this year.",
+   "ees": "N にひきかえ = en contraste con.",
+   "een": "N にひきかえ = in contrast to.",
+   "t": "choose"
+  },
+  {
+   "q": "事実に___記事を書くべきだ。",
+   "a": "即して",
+   "o": [
+    "ひきかえ",
+    "先駆けて",
+    "もまして"
+   ],
+   "es": "Hay que escribir los artículos ciñéndose a los hechos.",
+   "en": "Articles should be written in line with the facts.",
+   "ees": "N に即して = conforme a.",
+   "een": "N に即して = in line with.",
+   "t": "choose"
   }
  ],
  "32": [
@@ -1309,6 +2177,34 @@
    "en": "I'll try once more as if I had nothing to lose.",
    "ees": "～たつもりで = haciendo como si ya…",
    "een": "～たつもりで = as if one had already…"
+  },
+  {
+   "q": "言われる___に契約書にサインしてしまった。",
+   "a": "まま",
+   "o": [
+    "ずとも",
+    "ずじまい",
+    "つもり"
+   ],
+   "es": "Firmé el contrato tal como me dijeron, sin pensar.",
+   "en": "I signed the contract just as I was told.",
+   "ees": "～まま(に) = dejándose llevar.",
+   "een": "～まま(に) = just as (told).",
+   "t": "choose"
+  },
+  {
+   "q": "旅行に行った___で、家で過ごした。",
+   "a": "つもり",
+   "o": [
+    "まま",
+    "ずとも",
+    "ずじまい"
+   ],
+   "es": "Pasé el tiempo en casa haciéndome a la idea de que estaba de viaje.",
+   "en": "I stayed home, pretending I'd gone on a trip.",
+   "ees": "～たつもりで = como si.",
+   "een": "～たつもりで = as if.",
+   "t": "choose"
   }
  ],
  "33": [
@@ -1350,6 +2246,34 @@
    "en": "Having promised in front of everyone, I can't back out.",
    "ees": "～手前 = por guardar las apariencias ante otros.",
    "een": "～手前 = to save face in front of others."
+  },
+  {
+   "q": "子ども___、彼の質問は鋭かった。",
+   "a": "ながらに",
+   "o": [
+    "もさることながら",
+    "手前",
+    "ゆえ"
+   ],
+   "es": "Aun siendo un niño, sus preguntas eran agudas.",
+   "en": "Though just a child, his questions were sharp.",
+   "ees": "N ながら(に) = aun siendo.",
+   "een": "N ながら(に) = though.",
+   "t": "choose"
+  },
+  {
+   "q": "部下の___、弱音は吐けない。",
+   "a": "手前",
+   "o": [
+    "ながら",
+    "ゆえ",
+    "もさることながら"
+   ],
+   "es": "Delante de mis subordinados, no puedo quejarme.",
+   "en": "In front of my staff, I can't show weakness.",
+   "ees": "N の手前 = por las apariencias ante N.",
+   "een": "N の手前 = to save face before N.",
+   "t": "choose"
   }
  ],
  "34": [
@@ -1391,6 +2315,34 @@
    "en": "She looked as if she were about to burst into tears.",
    "ees": "V-ない + んばかり = como si estuviera a punto de.",
    "een": "V-nai stem + んばかり = as if about to."
+  },
+  {
+   "q": "彼は「早く帰れ」と言わ___の顔をしていた。",
+   "a": "んばかり",
+   "o": [
+    "んがため",
+    "ゆえ",
+    "とばかり"
+   ],
+   "es": "Tenía cara de estar a punto de decir «vete ya».",
+   "en": "He looked as if he were about to say «go home».",
+   "ees": "V-ない + んばかり = como si estuviera a punto.",
+   "een": "V-nai stem + んばかり = as if about to.",
+   "t": "choose"
+  },
+  {
+   "q": "チャンス___、彼は攻撃した。",
+   "a": "とばかりに",
+   "o": [
+    "んばかりに",
+    "んがため",
+    "ゆえに"
+   ],
+   "es": "Viendo la oportunidad, atacó.",
+   "en": "Seizing the chance, he attacked.",
+   "ees": "～とばかりに = como diciendo «¡ahora!».",
+   "een": "～とばかりに = as if to say «now!».",
+   "t": "choose"
   }
  ],
  "35": [
@@ -1432,6 +2384,34 @@
    "en": "After three years of preparation, the shop finally opened.",
    "ees": "N を経て = tras pasar por N.",
    "een": "N を経て = after going through N."
+  },
+  {
+   "q": "旅行と仕事を___、京都へ行った。",
+   "a": "兼ねて",
+   "o": [
+    "よそに",
+    "経て",
+    "おいて"
+   ],
+   "es": "Fui a Kioto combinando viaje y trabajo.",
+   "en": "I went to Kyoto for both work and pleasure.",
+   "ees": "A と B を兼ねて = combinando.",
+   "een": "A と B を兼ねて = combining.",
+   "t": "choose"
+  },
+  {
+   "q": "周囲の反対を___、二人は結婚した。",
+   "a": "よそに",
+   "o": [
+    "兼ねて",
+    "おいて",
+    "限りに"
+   ],
+   "es": "Haciendo caso omiso de la oposición de su entorno, se casaron.",
+   "en": "Ignoring opposition from those around them, they married.",
+   "ees": "N をよそに = ignorando.",
+   "een": "N をよそに = ignoring.",
+   "t": "choose"
   }
  ],
  "36": [
@@ -1473,6 +2453,34 @@
    "en": "We drew up a new plan based on the survey results.",
    "ees": "N を踏まえて = teniendo en cuenta N.",
    "een": "N を踏まえて = taking N into account."
+  },
+  {
+   "q": "結婚___、たばこをやめた。",
+   "a": "を機に",
+   "o": [
+    "を前提に",
+    "を踏まえて",
+    "をよそに"
+   ],
+   "es": "Con motivo de la boda, dejé de fumar.",
+   "en": "I quit smoking on getting married.",
+   "ees": "N を機に = con ocasión de.",
+   "een": "N を機に = on the occasion of.",
+   "t": "choose"
+  },
+  {
+   "q": "雨が降った。___、試合は行われた。",
+   "a": "にもかかわらず",
+   "o": [
+    "したがって",
+    "ちなみに",
+    "すなわち"
+   ],
+   "es": "Llovió. Pese a ello, se jugó el partido.",
+   "en": "It rained. Nevertheless, the match was held.",
+   "ees": "(それ)にもかかわらず = pese a ello.",
+   "een": "(それ)にもかかわらず = nevertheless.",
+   "t": "choose"
   }
  ],
  "37": [
@@ -1514,6 +2522,34 @@
    "en": "Every single shop was closed.",
    "ees": "N という N = todos los N sin excepción; aquí es sujeto → が.",
    "een": "N という N = every single N; here it's the subject → が."
+  },
+  {
+   "q": "考え___考えた末、留学を決めた。",
+   "a": "に",
+   "o": [
+    "と",
+    "や",
+    "を"
+   ],
+   "es": "Tras pensarlo una y otra vez, decidí estudiar fuera.",
+   "en": "After thinking long and hard, I decided to study abroad.",
+   "ees": "V-ます + に + V = repetición intensiva.",
+   "een": "V-stem + に + V = intense repetition.",
+   "t": "choose"
+  },
+  {
+   "q": "ドアが開く___、子どもたちが飛び込んできた。",
+   "a": "や",
+   "o": [
+    "に",
+    "とて",
+    "ほど"
+   ],
+   "es": "Nada más abrirse la puerta, entraron los niños corriendo.",
+   "en": "The moment the door opened, the children rushed in.",
+   "ees": "V-dicc. + や = nada más.",
+   "een": "V-dict + や = as soon as.",
+   "t": "choose"
   }
  ],
  "38": [
@@ -1555,6 +2591,34 @@
    "en": "Being inexperienced, I caused you trouble.",
    "ees": "～こととて = como (disculpa, formal).",
    "een": "～こととて = since (apology, formal)."
+  },
+  {
+   "q": "夢に___思わなかった結果だ。",
+   "a": "だに",
+   "o": [
+    "こととて",
+    "すら",
+    "にして"
+   ],
+   "es": "Es un resultado que jamás imaginé ni en sueños.",
+   "en": "It's a result I never dreamed of.",
+   "ees": "夢にだに思わない = ni en sueños (escrito).",
+   "een": "夢にだに思わない = never even dreamed (written).",
+   "t": "choose"
+  },
+  {
+   "q": "八十歳に___初めて絵を描き始めた。",
+   "a": "して",
+   "o": [
+    "だに",
+    "こととて",
+    "ものを"
+   ],
+   "es": "Empezó a pintar por primera vez a los ochenta.",
+   "en": "She began painting for the first time at eighty.",
+   "ees": "N にして = a la edad de / solo N (énfasis).",
+   "een": "N にして = at (age) / only N (emphasis).",
+   "t": "choose"
   }
  ],
  "39": [
@@ -1596,6 +2660,34 @@
    "en": "I went back home for the first time in five years.",
    "ees": "Periodo + ぶり = por primera vez en (tanto tiempo).",
    "een": "Period + ぶり = for the first time in."
+  },
+  {
+   "q": "彼女は大人___ことを言うようになった。",
+   "a": "びた",
+   "o": [
+    "ぶった",
+    "めいた",
+    "ぶり"
+   ],
+   "es": "Ahora dice cosas de persona madura.",
+   "en": "She's started saying grown-up things.",
+   "ees": "N + びる = parecer, tener aire de (大人びる).",
+   "een": "N + びる = seem, look like (大人びる).",
+   "t": "choose"
+  },
+  {
+   "q": "彼の話し___から、怒っているのが分かった。",
+   "a": "ぶり",
+   "o": [
+    "めき",
+    "びて",
+    "ぶって"
+   ],
+   "es": "Por su forma de hablar, se notaba que estaba enfadado.",
+   "en": "From the way he spoke, I could tell he was angry.",
+   "ees": "V-ます + ぶり = manera de.",
+   "een": "V-stem + ぶり = manner of.",
+   "t": "choose"
   }
  ],
  "40": [
@@ -1637,6 +2729,34 @@
    "en": "Such rumours aren't worth bothering with.",
    "ees": "～に足りない = no merece la pena.",
    "een": "～に足りない = not worth."
+  },
+  {
+   "q": "彼は信頼する___人物だ。",
+   "a": "に足る",
+   "o": [
+    "に堪えない",
+    "に足りない",
+    "にあたらない"
+   ],
+   "es": "Es una persona digna de confianza.",
+   "en": "He's a person worthy of trust.",
+   "ees": "～に足る = digno de.",
+   "een": "～に足る = worthy of.",
+   "t": "choose"
+  },
+  {
+   "q": "この絵は見る___。",
+   "a": "に堪えない",
+   "o": [
+    "に足る",
+    "に堪える",
+    "に難くない"
+   ],
+   "es": "Este cuadro es insoportable de ver.",
+   "en": "This picture is unbearable to look at.",
+   "ees": "見るに堪えない = insoportable de ver.",
+   "een": "見るに堪えない = unbearable to watch.",
+   "t": "choose"
   }
  ],
  "41": [
@@ -1678,6 +2798,34 @@
    "en": "This cut doesn't hurt at all.",
    "ees": "～くもなんともない = nada en absoluto.",
    "een": "～くもなんともない = not at all."
+  },
+  {
+   "q": "そんなこと、知り___。",
+   "a": "ゃしない",
+   "o": [
+    "もなんともない",
+    "といったらない",
+    "てみせる"
+   ],
+   "es": "¡Eso no lo sé ni me importa!",
+   "en": "I don't know anything about that!",
+   "ees": "～やしない／ゃしない = negación enfática (coloquial).",
+   "een": "～やしない／ゃしない = emphatic negative (casual).",
+   "t": "choose"
+  },
+  {
+   "q": "あの景色の美しさ___。",
+   "a": "といったらない",
+   "o": [
+    "ゃしない",
+    "てみせる",
+    "もなんともない"
+   ],
+   "es": "La belleza de aquel paisaje era indescriptible.",
+   "en": "The beauty of that view was beyond words.",
+   "ees": "～といったらない = indescriptible.",
+   "een": "～といったらない = beyond words.",
+   "t": "choose"
   }
  ],
  "42": [
@@ -1719,6 +2867,34 @@
    "en": "This habit affects health and, in turn, life expectancy.",
    "ees": "ひいては = y por extensión.",
    "een": "ひいては = and by extension."
+  },
+  {
+   "q": "電話___メールでご連絡ください。",
+   "a": "ないしは",
+   "o": [
+    "ひいては",
+    "もっとも",
+    "ただし"
+   ],
+   "es": "Contacte por teléfono o por correo electrónico.",
+   "en": "Please contact us by phone or email.",
+   "ees": "ないしは = o (formal).",
+   "een": "ないしは = or (formal).",
+   "t": "choose"
+  },
+  {
+   "q": "わざわざ来ていただく___。",
+   "a": "には及びません",
+   "o": [
+    "べからざる",
+    "ざるを得ません",
+    "に足ります"
+   ],
+   "es": "No hace falta que se tome la molestia de venir.",
+   "en": "There's no need to trouble yourself to come.",
+   "ees": "～には及ばない = no es necesario.",
+   "een": "～には及ばない = no need.",
+   "t": "choose"
   }
  ],
  "43": [
@@ -1760,6 +2936,34 @@
    "en": "A child, maybe, but an adult doing that!",
    "ees": "N ならいざ知らず = si fuera N, vale, pero…",
    "een": "N ならいざ知らず = if it were N, fine, but…"
+  },
+  {
+   "q": "結果は___、努力したことに意味がある。",
+   "a": "どうであれ",
+   "o": [
+    "はおろか",
+    "ならいざ知らず",
+    "さておき"
+   ],
+   "es": "Sea cual sea el resultado, el esfuerzo tiene sentido.",
+   "en": "Whatever the result, the effort means something.",
+   "ees": "N はどうであれ = sea como sea N.",
+   "een": "N はどうであれ = whatever N may be.",
+   "t": "choose"
+  },
+  {
+   "q": "旅行___、近所の公園にも行けない。",
+   "a": "はおろか",
+   "o": [
+    "はさておき",
+    "はどうであれ",
+    "ならでは"
+   ],
+   "es": "No puedo ir ni al parque de al lado, y mucho menos de viaje.",
+   "en": "I can't even go to the local park, let alone travel.",
+   "ees": "A はおろか B も = ni B, y menos A.",
+   "een": "A はおろか B も = not even B, let alone A.",
+   "t": "choose"
   }
  ],
  "44": [
@@ -1801,6 +3005,34 @@
    "en": "It's natural for kids to be naughty; nothing to be surprised at.",
    "ees": "～に(は)あたらない = no hay por qué.",
    "een": "～に(は)あたらない = there's no reason to."
+  },
+  {
+   "q": "これが愛でなくて___だろう。",
+   "a": "なん",
+   "o": [
+    "どれ",
+    "どう",
+    "いつ"
+   ],
+   "es": "Si esto no es amor, ¿qué es?",
+   "en": "If this isn't love, what is?",
+   "ees": "～でなくてなんだろう = esto es, sin duda.",
+   "een": "～でなくてなんだろう = this is surely.",
+   "t": "choose"
+  },
+  {
+   "q": "彼が怒るのも想像に___。",
+   "a": "難くない",
+   "o": [
+    "あたらない",
+    "やまない",
+    "堪えない"
+   ],
+   "es": "No cuesta imaginar que se enfade.",
+   "en": "It's not hard to imagine him getting angry.",
+   "ees": "想像に難くない = fácil de imaginar.",
+   "een": "想像に難くない = easy to imagine.",
+   "t": "choose"
   }
  ],
  "45": [
@@ -1842,6 +3074,34 @@
    "en": "If I start listing what I want, there's no end to it.",
    "ees": "～ばきりがない = no tiene fin.",
    "een": "～ばきりがない = there's no end."
+  },
+  {
+   "q": "安全に___ことはない。",
+   "a": "越した",
+   "o": [
+    "差し支える",
+    "きりがない",
+    "すぎる"
+   ],
+   "es": "Nada mejor que la seguridad.",
+   "en": "You can't be too safe.",
+   "ees": "～に越したことはない = lo mejor es.",
+   "een": "～に越したことはない = nothing is better than.",
+   "t": "choose"
+  },
+  {
+   "q": "文句を言い出したら___がない。",
+   "a": "きり",
+   "o": [
+    "差し支え",
+    "越した",
+    "ため"
+   ],
+   "es": "Si empiezo a quejarme, no acabo nunca.",
+   "en": "Once I start complaining, there's no end to it.",
+   "ees": "～たらきりがない = no tiene fin.",
+   "een": "～たらきりがない = there's no end.",
+   "t": "choose"
   }
  ],
  "46": [
@@ -1883,6 +3143,34 @@
    "en": "He has a tendency to exaggerate.",
    "ees": "～嫌いがある = tener una (mala) tendencia.",
    "een": "～嫌いがある = have a (bad) tendency."
+  },
+  {
+   "q": "彼は遅刻した上に、言い訳までする___だ。",
+   "a": "始末",
+   "o": [
+    "嫌い",
+    "余儀",
+    "極み"
+   ],
+   "es": "No solo llegó tarde: encima se puso a dar excusas.",
+   "en": "Not only was he late, he even made excuses.",
+   "ees": "～始末だ = (mal) final, y para colmo.",
+   "een": "～始末だ = (bad) outcome, to top it off.",
+   "t": "choose"
+  },
+  {
+   "q": "若い人はネットの情報を信じすぎる___がある。",
+   "a": "嫌い",
+   "o": [
+    "始末",
+    "余儀",
+    "至り"
+   ],
+   "es": "Los jóvenes tienden a fiarse demasiado de la información de Internet.",
+   "en": "Young people tend to trust online information too much.",
+   "ees": "～嫌いがある = tener mala tendencia.",
+   "een": "～嫌いがある = have a bad tendency.",
+   "t": "choose"
   }
  ],
  "47": [
@@ -1924,6 +3212,34 @@
    "en": "After staying up all night, I was utterly exhausted.",
    "ees": "N の極み = el colmo de N.",
    "een": "N の極み = the height of N."
+  },
+  {
+   "q": "若気の___で、ひどいことをしてしまった。",
+   "a": "至り",
+   "o": [
+    "極み",
+    "極まり",
+    "始末"
+   ],
+   "es": "Por las locuras de la juventud, hice algo terrible.",
+   "en": "In the folly of youth, I did something terrible.",
+   "ees": "若気の至り = locura de juventud (fija).",
+   "een": "若気の至り = folly of youth (set phrase).",
+   "t": "choose"
+  },
+  {
+   "q": "この運転は危険___。",
+   "a": "極まりない",
+   "o": [
+    "の至り",
+    "の極み",
+    "極めて"
+   ],
+   "es": "Esta forma de conducir es peligrosísima.",
+   "en": "This driving is extremely dangerous.",
+   "ees": "Adj-な + 極まりない = extremadamente.",
+   "een": "な-adj + 極まりない = extremely.",
+   "t": "choose"
   }
  ],
  "48": [
@@ -1965,6 +3281,34 @@
    "en": "That's conduct unbecoming of a teacher.",
    "ees": "N にあるまじき = impropio de N.",
    "een": "N にあるまじき = unbecoming of N."
+  },
+  {
+   "q": "遅かれ早___、真実は明らかになる。",
+   "a": "かれ",
+   "o": [
+    "かり",
+    "けれ",
+    "くも"
+   ],
+   "es": "Tarde o temprano, la verdad saldrá a la luz.",
+   "en": "Sooner or later, the truth will come out.",
+   "ees": "遅かれ早かれ = tarde o temprano (fija).",
+   "een": "遅かれ早かれ = sooner or later (set phrase).",
+   "t": "choose"
+  },
+  {
+   "q": "彼は怪我を___、試合に出場した。",
+   "a": "ものともせずに",
+   "o": [
+    "じゃあるまいし",
+    "あるまじき",
+    "かれ"
+   ],
+   "es": "Sin importarle la lesión, salió a jugar.",
+   "en": "Undaunted by his injury, he played in the match.",
+   "ees": "N をものともせずに = sin arredrarse ante.",
+   "een": "N をものともせずに = undaunted by.",
+   "t": "choose"
   }
  ],
  "131": [
@@ -2006,6 +3350,34 @@
    "en": "I intend to continue doing my utmost.",
    "ees": "～所存です = tengo la intención (muy formal).",
    "een": "～所存です = I intend to (very formal)."
+  },
+  {
+   "q": "拝啓　時下ますますご清栄のこととお慶び___。",
+   "a": "申し上げます",
+   "o": [
+    "存じ上げます",
+    "承ります",
+    "賜ります"
+   ],
+   "es": "(Inicio de carta) Me alegra saber que sigue usted próspero.",
+   "en": "(Letter opening) I trust this finds you in good health and prosperity.",
+   "ees": "お慶び申し上げます = fórmula fija de carta (申し上げる = decir, humilde).",
+   "een": "お慶び申し上げます = set letter phrase (申し上げる = say, humble).",
+   "t": "choose"
+  },
+  {
+   "q": "社長がお見えに___。",
+   "a": "なりました",
+   "o": [
+    "なられました",
+    "いたしました",
+    "まいりました"
+   ],
+   "es": "Ha llegado el presidente.",
+   "en": "The president has arrived.",
+   "ees": "お見えになる ya es respeto; お見えになられる es doble respeto (二重敬語, incorrecto).",
+   "een": "お見えになる is already honorific; お見えになられる is a double honorific (二重敬語, incorrect).",
+   "t": "choose"
   }
  ]
 }
