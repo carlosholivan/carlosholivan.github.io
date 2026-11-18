@@ -57,3 +57,17 @@ body.nopy .para .ar-line-tr { display: none; }
 .cj-qv { font-family: 'Noto Naskh Arabic', serif }
 .cj-opts .btn { font-family: 'Noto Naskh Arabic', serif; font-size: 20px }
 .ar-table th .cj-pr { display: block; font-size: 18px; font-weight: 600; color: var(--accent) }
+.ar-write { display: flex; gap: 14px; align-items: flex-start; padding: 14px }
+.ar-draw-box { position: relative; width: 110px; height: 120px; flex-shrink: 0; font-family: var(--cjk); font-size: 84px; line-height: 120px; text-align: center; direction: rtl }
+.ar-ghost, .ar-draw { position: absolute; inset: 0 }
+.ar-ghost { color: var(--line) }
+.ar-draw { color: var(--accent); clip-path: inset(0 0 0 100%); animation: arreveal 2.4s ease-in-out .3s forwards }
+@keyframes arreveal { to { clip-path: inset(0 0 0 0) } }
+.ar-steps { margin: 0 0 10px; padding-inline-start: 18px; font-size: 14px; line-height: 1.5 }
+.ar-combos, .ar-exs { display: flex; flex-wrap: wrap; gap: 8px; direction: rtl }
+.ar-combo, .ar-ex { background: rgba(0,0,0,.03); border-radius: 10px; padding: 6px 10px; text-align: center; cursor: pointer }
+.ar-combo b, .ar-ex b { display: block; font-family: var(--cjk); font-size: 28px; font-weight: 400 }
+.ar-combo span { display: block; font-size: 11px; color: var(--ink2); direction: rtl }
+.ar-ex span { display: block; font-size: 11px; color: var(--ink2); direction: ltr }
+.ar-hl { color: var(--accent) }
+.ar-ex i { display: block; font-style: normal; font-family: var(--cjk); font-size: 22px }

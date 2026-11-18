@@ -1,16 +1,17 @@
 // Arabic alphabet: grid of letters, letter sheet (name, sound, the four positional forms, words that use it).
-import { S, update } from '../state.js?v=202611191700';
-import { register } from '../router.js?v=202611191700';
-import { loadHanzi } from '../data.js?v=202611191700';
-import { levelLabel, LEVELS } from '../levels.js?v=202611191700';
-import { addCards } from '../engine/anki.js?v=202611191700';
-import { bottomNav, header } from '../ui/components.js?v=202611191700';
-import { speak } from '../audio.js?v=202611191700';
-import { t } from '../i18n.js?v=202611191700';
-import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611191700';
-import { allVocab, allHanzi } from './review.js?v=202611191700';
+import { S, update } from '../state.js?v=202611191900';
+import { register } from '../router.js?v=202611191900';
+import { loadHanzi } from '../data.js?v=202611191900';
+import { levelLabel, LEVELS } from '../levels.js?v=202611191900';
+import { addCards } from '../engine/anki.js?v=202611191900';
+import { bottomNav, header } from '../ui/components.js?v=202611191900';
+import { speak } from '../audio.js?v=202611191900';
+import { t } from '../i18n.js?v=202611191900';
+import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611191900';
+import { allVocab, allHanzi } from './review.js?v=202611191900';
+import { writeSteps, formAt, NONJOIN, T as WT, tt } from '../arwrite.js?v=202611191900';
 
-const POS = ['aislada', 'inicial', 'media', 'final'];
+const POS = () => WT.pos[S.lang] || WT.pos.en;
 
 register('hanzi', async (el) => {
   const list = await loadHanzi('a1').catch(() => []);
@@ -37,7 +38,8 @@ async function sheetHtml(c) {
   if (!h) return null;
   const vm = await allVocab();
   const [name, sound] = (mean(h.m, S.lang) || '').split(' — ');
-  const words = [...vm.values()].filter(v => strip(v.w).includes(c)).sort((a, b) => (LEVELS.indexOf(a.lv) - LEVELS.indexOf(b.lv)) || ((a.q || 0) - (b.q || 0))).slice(0, 24);
+  const cand = [...vm.values()].filter(v => strip(v.w).includes(c)).sort((a, b) => (LEVELS.indexOf(a.lv) - LEVELS.indexOf(b.lv)) || ((a.q || 0) - (b.q || 0)));
+  const words = cand.slice(0, 24);
   const inDeck = !!(S.hcards || {})[c];
   return `<div class="ks-head">
       <div class="ks-big ar" style="font-size:96px;line-height:1.3">${esc(c)}</div>
@@ -45,7 +47,21 @@ async function sheetHtml(c) {
         <div class="flex gap-8 mt-8"><button class="btn btn-soft btn-small" onclick="window.__speakZh('${esc(c)}')">🔊</button>
         <button class="btn btn-soft btn-small" ${inDeck ? 'disabled' : ''} onclick="window.__hzAdd('${esc(c)}', this)">${inDeck ? t('inDeck') : '🗂️ ' + t('addToDeck')}</button></div></div>
     </div>
-    ${h.forms && h.forms.some(Boolean) ? `<div class="sec-label">Formas</div><div class="forms">${h.forms.map((f, i) => `<div><b>${esc(f || '—')}</b><span>${POS[i]}</span></div>`).join('')}</div>` : ''}
+    ${writeSteps(c).length ? `<div class="sec-label">✍️ ${tt('how')}</div>
+    <div class="ar-write card">
+      <div class="ar-draw-box"><span class="ar-ghost">${esc(c)}</span><span class="ar-draw" id="ar-draw">${esc(c)}</span></div>
+      <div class="grow"><div class="muted small mb-8">⬅️ ${tt('rtl')}</div>
+        <ol class="ar-steps">${writeSteps(c).map(x => `<li>${esc(x)}</li>`).join('')}</ol>
+        <button class="btn btn-soft btn-small" onclick="event.stopPropagation();const d=this.closest('.ar-write').querySelector('.ar-draw');d.style.animation='none';d.offsetWidth;d.style.animation=''">↻ ${tt('replay')}</button></div>
+    </div>` : ''}
+    ${h.forms && h.forms.some(Boolean) ? `<div class="sec-label">🔗 ${tt('join')}</div>
+    <div class="muted small mb-8">${NONJOIN.has(c) ? tt('nonjoin') : c === 'ء' ? '' : tt('joins')}${c === 'ل' || c === 'ا' ? ' ' + tt('lamalif') : ''}</div>
+    <div class="forms">${h.forms.map((f, i) => `<div><b>${esc(f || '—')}</b><span>${POS()[i]}</span></div>`).join('')}</div>
+    ${c !== 'ء' ? `<div class="muted small mt-12 mb-4">${tt('combos')}</div><div class="ar-combos">${(NONJOIN.has(c) ? [['ب', c], ['م', c, 'ب'], [c, 'ب'], [c, 'ل']] : [[c, 'ا'], [c, 'م'], ['م', c], ['م', c, 'م'], ['ب', c, 'ي']]).map(parts =>
+      `<div class="ar-combo" onclick="window.__speakZh('${esc(parts.join(''))}')"><b>${esc(parts.join(''))}</b><span>${parts.map(esc).join(' + ')}</span></div>`).join('')}</div>` : ''}
+    ${(() => { const ex = [null, null, null, null]; for (const v of cand) { const w = strip(v.w); for (let i = 0; i < w.length; i++) if (w[i] === c) { const f = formAt(w, i); if (!ex[f] && w.length <= 9) ex[f] = [w, i, v]; } if (ex.every(Boolean)) break; }
+      const got = ex.map((e, f) => e && `<div class="ar-ex" onclick="window.__speakZh('${esc(e[2].w)}')"><b class="ar">${esc(e[0])}</b><i class="ar-hl">${esc((h.forms || [])[f] || c)}</i><span>${POS()[f]} · ${esc(mean(e[2].m, S.lang))}</span></div>`).filter(Boolean);
+      return got.length ? `<div class="muted small mt-12 mb-4">${tt('inWords')}</div><div class="ar-exs">${got.join('')}</div>` : ''; })()}` : ''}
     <div class="sec-label">${t('wordsWithN').replace('{c}', esc(c))}</div>
     <div class="ks-words">${words.map(v => `<div class="ks-word" onclick="window.__speakZh('${esc(v.w)}')">${ruby(v.w)}<span class="muted small" style="margin-inline-start:8px">${esc(mean(v.m, S.lang))} · ${levelLabel(v.lv)}</span></div>`).join('') || '<div class="muted small">—</div>'}</div>`;
 }

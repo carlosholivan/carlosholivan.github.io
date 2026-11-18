@@ -1,15 +1,15 @@
-import { S, update } from '../state.js?v=202611191700';
-import { register, go } from '../router.js?v=202611191700';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611191700';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611191700';
-import { isUnitDone } from '../state.js?v=202611191700';
-import { bottomNav, header } from '../ui/components.js?v=202611191700';
-import { t } from '../i18n.js?v=202611191700';
-import { levelChips, LEVELS } from '../levels.js?v=202611191700';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611191700';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611191700';
-import { addCards } from '../engine/anki.js?v=202611191700';
-import { allVocab } from './review.js?v=202611191700';
+import { S, update } from '../state.js?v=202611191900';
+import { register, go } from '../router.js?v=202611191900';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611191900';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611191900';
+import { isUnitDone } from '../state.js?v=202611191900';
+import { bottomNav, header } from '../ui/components.js?v=202611191900';
+import { t } from '../i18n.js?v=202611191900';
+import { levelChips, LEVELS } from '../levels.js?v=202611191900';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611191900';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611191900';
+import { addCards } from '../engine/anki.js?v=202611191900';
+import { allVocab } from './review.js?v=202611191900';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 
@@ -70,6 +70,8 @@ register('texts', async (el) => {
   const { texts, reached, rec } = await textsWithRecommendation(S.level);
   const done = S.texts || {};
   const readCount = texts.filter(isRead).length;
+  const unitNames = {};
+  try { (await loadUnits(S.level)).forEach((u, i) => { unitNames[u.id ?? i + 1] = (u.title && (u.title[S.lang] || u.title.en || u.title.es)) || ''; }); } catch (e) {}
   el.innerHTML = `<div class="fade">
     ${header(t('texts'))}
     ${levelChips(S.level, '__textsLevel')}
@@ -80,10 +82,12 @@ register('texts', async (el) => {
         <div class="muted small">${esc(tr(rec.title))} · #${rec.order} · ${wordCount(rec)} ${t('words')}</div>
         <div class="small" style="margin-top:4px">${esc(tr(rec.summary))}</div>
       </div>` : ''}
-    ${texts.length ? texts.map(tx => {
+    ${texts.length ? texts.map((tx, ti) => {
+      const uh = tx.unit && (ti === 0 || texts[ti - 1].unit !== tx.unit)
+        ? `<div class="sec-label" style="margin-top:${ti ? 18 : 4}px">📚 ${t('unit')} ${tx.unit}${unitNames[tx.unit] ? ' · ' + esc(unitNames[tx.unit]) : ''}</div>` : '';
       const st = done[tx.id] || {};
       const ahead = (tx.unit || 0) > reached;
-      return `<div class="card ref-topic ${ahead ? 'ahead' : ''} ${rec && rec.id === tx.id ? 'is-rec' : ''}" onclick="window.__openText('${tx.id}')">
+      return uh + `<div class="card ref-topic ${ahead ? 'ahead' : ''} ${rec && rec.id === tx.id ? 'is-rec' : ''}" onclick="window.__openText('${tx.id}')">
         <div class="flex items-center gap-8">
           <span class="text-num">${tx.order || ''}</span>
           ${tx.unit ? `<span class="unit-badge">${ahead ? '🔒 ' : ''}${t('unit')} ${tx.unit}</span>` : ''}

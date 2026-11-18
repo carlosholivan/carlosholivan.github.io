@@ -1,15 +1,15 @@
-import { S, update, isUnitDone } from '../state.js?v=202611191700';
-import { register, go } from '../router.js?v=202611191700';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611191700';
-import { bottomNav, header } from '../ui/components.js?v=202611191700';
-import { t } from '../i18n.js?v=202611191700';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611191700';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191700';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611191700';
-import { translit, shown } from '../ar.js?v=202611191700';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611191700';
-import { addCards } from '../engine/anki.js?v=202611191700';
-import { allHanzi } from './review.js?v=202611191700';
+import { S, update, isUnitDone } from '../state.js?v=202611191900';
+import { register, go } from '../router.js?v=202611191900';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611191900';
+import { bottomNav, header } from '../ui/components.js?v=202611191900';
+import { t } from '../i18n.js?v=202611191900';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611191900';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191900';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611191900';
+import { translit, shown } from '../ar.js?v=202611191900';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611191900';
+import { addCards } from '../engine/anki.js?v=202611191900';
+import { allHanzi } from './review.js?v=202611191900';
 
 const tr = (o) => (o && (o[S.lang] || (S.lang !== 'es' && o.en) || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -43,6 +43,8 @@ register('texts', async (el) => {
   const { texts, reached, rec } = await textsWithRecommendation(S.level);
   const done = S.texts || {};
   const readCount = texts.filter(isRead).length;
+  const unitNames = {};
+  try { (await loadUnits(S.level)).forEach((u, i) => { unitNames[u.id ?? i + 1] = (u.title && (u.title[S.lang] || u.title.en || u.title.es)) || ''; }); } catch (e) {}
   el.innerHTML = `<div class="fade">
     ${header(t('texts'))}
     ${levelChips(S.level, '__textsLevel')}
@@ -53,10 +55,12 @@ register('texts', async (el) => {
         <div class="muted small">${esc(tr(rec.title))} · #${rec.order} · ${wordCount(rec)} ${t('words')}</div>
         <div class="small" style="margin-top:4px">${esc(tr(rec.summary))}</div>
       </div>` : ''}
-    ${texts.length ? texts.map(tx => {
+    ${texts.length ? texts.map((tx, ti) => {
+      const uh = tx.unit && (ti === 0 || texts[ti - 1].unit !== tx.unit)
+        ? `<div class="sec-label" style="margin-top:${ti ? 18 : 4}px">📚 ${t('unit')} ${tx.unit}${unitNames[tx.unit] ? ' · ' + esc(unitNames[tx.unit]) : ''}</div>` : '';
       const st = done[tx.id] || {};
       const ahead = (tx.unit || 0) > reached;
-      return `<div class="card ref-topic ${ahead ? 'ahead' : ''} ${rec && rec.id === tx.id ? 'is-rec' : ''}" onclick="window.__openText('${tx.id}')">
+      return uh + `<div class="card ref-topic ${ahead ? 'ahead' : ''} ${rec && rec.id === tx.id ? 'is-rec' : ''}" onclick="window.__openText('${tx.id}')">
         <div class="flex items-center gap-8">
           <span class="text-num">${tx.order || ''}</span>
           ${tx.unit ? `<span class="unit-badge">${ahead ? '🔒 ' : ''}${t('unit')} ${tx.unit}</span>` : ''}
@@ -191,7 +195,7 @@ register('text', async (el, params) => {
     el.innerHTML = `<div class="fade text-view">
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__nav('texts')" style="padding:4px">←</button>
-        <div class="grow"><div class="h3">${ruby(tx.title.ja)}</div><div class="muted small">${esc(tr(tx.title))} · ${levelLabel(params.level)}</div></div>
+        <div class="grow"><div class="h3">${ruby(tx.title.ja)}</div><div class="muted small">${esc(tr(tx.title))} · ${levelLabel(params.level)}${tx.unit ? ` · ${t('unit')} ${tx.unit}` : ''}</div></div>
       </div>
       <div class="tabbar mb-12">
         ${[['read', '📖 ' + t('read')], ['questions', '❓ ' + t('questions')], ['gaps', '✏️ ' + t('gaps')]].map(([id, label]) =>

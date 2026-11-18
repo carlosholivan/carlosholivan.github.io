@@ -1,15 +1,15 @@
-import { S } from '../state.js?v=202611191700';
-import { register, go } from '../router.js?v=202611191700';
-import { loadGrammar, loadVocab } from '../data.js?v=202611191700';
-import { bottomNav, header } from '../ui/components.js?v=202611191700';
-import { icon } from '../ui/icons.js?v=202611191700';
-import { t } from '../i18n.js?v=202611191700';
-import { levelChips } from '../levels.js?v=202611191700';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191700';
-import { allVocab } from './review.js?v=202611191700';
-import { levelLabel } from '../levels.js?v=202611191700';
+import { S } from '../state.js?v=202611191900';
+import { register, go } from '../router.js?v=202611191900';
+import { loadGrammar, loadVocab } from '../data.js?v=202611191900';
+import { bottomNav, header } from '../ui/components.js?v=202611191900';
+import { icon } from '../ui/icons.js?v=202611191900';
+import { t } from '../i18n.js?v=202611191900';
+import { levelChips } from '../levels.js?v=202611191900';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191900';
+import { allVocab } from './review.js?v=202611191900';
+import { levelLabel } from '../levels.js?v=202611191900';
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-window.__refSpeak = (w) => import('../audio.js?v=202611191700').then(a => a.speak(w));
+window.__refSpeak = (w) => import('../audio.js?v=202611191900').then(a => a.speak(w));
 
 register('reference', async (el) => {
   el.innerHTML = `<div class="fade">
