@@ -1,0 +1,602 @@
+{
+ "abastece": {
+  "en": "supplies",
+  "ja": "供給する",
+  "zh": "供应"
+ },
+ "acogieron": {
+  "en": "took in, welcomed",
+  "ja": "受け入れた",
+  "zh": "收留了"
+ },
+ "adusto": {
+  "en": "stern, severe",
+  "ja": "いかめしい",
+  "zh": "严肃的"
+ },
+ "afabilidad": {
+  "en": "friendliness",
+  "ja": "愛想のよさ",
+  "zh": "和蔼"
+ },
+ "ahorros": {
+  "en": "savings",
+  "ja": "貯金",
+  "zh": "积蓄"
+ },
+ "alboroto": {
+  "en": "fuss, commotion",
+  "ja": "騒ぎ",
+  "zh": "喧闹"
+ },
+ "alféizar": {
+  "en": "windowsill",
+  "ja": "窓台",
+  "zh": "窗台"
+ },
+ "amar": {
+  "en": "to love",
+  "ja": "愛する",
+  "zh": "爱"
+ },
+ "anónimo": {
+  "en": "anonymous",
+  "ja": "匿名の",
+  "zh": "匿名的"
+ },
+ "archivado": {
+  "en": "shelved, filed",
+  "ja": "不起訴にされた・保管された",
+  "zh": "归档的，搁置的"
+ },
+ "argumentó": {
+  "en": "argued",
+  "ja": "主張した",
+  "zh": "争辩说"
+ },
+ "artificios": {
+  "en": "artifice, tricks",
+  "ja": "技巧・小細工",
+  "zh": "矫饰"
+ },
+ "asintió": {
+  "en": "nodded, agreed",
+  "ja": "うなずいた",
+  "zh": "点头同意"
+ },
+ "asombro": {
+  "en": "amazement",
+  "ja": "驚き",
+  "zh": "惊讶"
+ },
+ "atribuidas": {
+  "en": "attributed",
+  "ja": "帰せられた",
+  "zh": "被归于"
+ },
+ "bastaron": {
+  "en": "were enough",
+  "ja": "十分だった",
+  "zh": "足够了"
+ },
+ "bautizos": {
+  "en": "christenings",
+  "ja": "洗礼式",
+  "zh": "洗礼"
+ },
+ "bautizó": {
+  "en": "dubbed, christened",
+  "ja": "名付けた",
+  "zh": "命名为"
+ },
+ "bombo": {
+  "en": "bass drum",
+  "ja": "大太鼓",
+  "zh": "大鼓"
+ },
+ "botánica": {
+  "en": "botany",
+  "ja": "植物学",
+  "zh": "植物学"
+ },
+ "brota": {
+  "en": "springs up, flows",
+  "ja": "湧き出る",
+  "zh": "涌出"
+ },
+ "burda": {
+  "en": "crude",
+  "ja": "露骨な・粗雑な",
+  "zh": "粗陋的"
+ },
+ "burlaban": {
+  "en": "made fun of",
+  "ja": "からかっていた",
+  "zh": "取笑"
+ },
+ "capaces": {
+  "en": "capable",
+  "ja": "できる",
+  "zh": "能够的"
+ },
+ "chaquetea": {
+  "en": "changes sides",
+  "ja": "寝返る",
+  "zh": "变节"
+ },
+ "cirujano": {
+  "en": "surgeon",
+  "ja": "外科医",
+  "zh": "外科医生"
+ },
+ "colchón": {
+  "en": "mattress",
+  "ja": "マットレス",
+  "zh": "床垫"
+ },
+ "colecciones": {
+  "en": "collections",
+  "ja": "コレクション",
+  "zh": "收藏"
+ },
+ "columna": {
+  "en": "column",
+  "ja": "コラム",
+  "zh": "专栏"
+ },
+ "comentario": {
+  "en": "comment",
+  "ja": "発言・コメント",
+  "zh": "评论"
+ },
+ "concejal": {
+  "en": "town councillor",
+  "ja": "市議会議員",
+  "zh": "市议员"
+ },
+ "confeso": {
+  "en": "self-confessed",
+  "ja": "自他ともに認める",
+  "zh": "自认的"
+ },
+ "confirmarse": {
+  "en": "to be confirmed",
+  "ja": "確認される",
+  "zh": "得到证实"
+ },
+ "conmovió": {
+  "en": "moved, touched",
+  "ja": "感動させた",
+  "zh": "感动了"
+ },
+ "convocó": {
+  "en": "called (a meeting)",
+  "ja": "招集した",
+  "zh": "召开了"
+ },
+ "cuadraban": {
+  "en": "added up, matched",
+  "ja": "つじつまが合った",
+  "zh": "对得上"
+ },
+ "cultivos": {
+  "en": "crops",
+  "ja": "作物",
+  "zh": "农作物"
+ },
+ "céntimo": {
+  "en": "cent",
+  "ja": "一セント・一銭",
+  "zh": "一分钱"
+ },
+ "denegado": {
+  "en": "refused",
+  "ja": "却下された",
+  "zh": "被驳回"
+ },
+ "desafinadas": {
+  "en": "out of tune",
+  "ja": "調子はずれの",
+  "zh": "跑调的"
+ },
+ "desplomó": {
+  "en": "collapsed",
+  "ja": "倒れた",
+  "zh": "倒下了"
+ },
+ "despreciar": {
+  "en": "to despise",
+  "ja": "見下す",
+  "zh": "轻视"
+ },
+ "destajo": {
+  "en": "piecework",
+  "ja": "出来高払いの仕事",
+  "zh": "计件工作"
+ },
+ "disputa": {
+  "en": "dispute",
+  "ja": "争い",
+  "zh": "争执"
+ },
+ "embotelladora": {
+  "en": "bottling company",
+  "ja": "瓶詰め会社",
+  "zh": "装瓶公司"
+ },
+ "encargaron": {
+  "en": "commissioned",
+  "ja": "依頼した",
+  "zh": "委托了"
+ },
+ "encogiéndose": {
+  "en": "shrugging (shoulders)",
+  "ja": "（肩を）すくめて",
+  "zh": "耸（肩）"
+ },
+ "endeble": {
+  "en": "flimsy, weak",
+  "ja": "もろい",
+  "zh": "站不住脚的"
+ },
+ "enfermó": {
+  "en": "fell ill",
+  "ja": "病気になった",
+  "zh": "生病了"
+ },
+ "enigma": {
+  "en": "enigma, mystery",
+  "ja": "謎",
+  "zh": "谜"
+ },
+ "envejecer": {
+  "en": "to age",
+  "ja": "古びさせる・年を取る",
+  "zh": "变旧，变老"
+ },
+ "equivocamos": {
+  "en": "we are wrong",
+  "ja": "私たちが間違える",
+  "zh": "我们弄错"
+ },
+ "equivocas": {
+  "en": "you are wrong",
+  "ja": "君が間違える",
+  "zh": "你弄错"
+ },
+ "erratas": {
+  "en": "errata, misprints",
+  "ja": "誤植",
+  "zh": "勘误"
+ },
+ "esquema": {
+  "en": "scheme",
+  "ja": "仕組み",
+  "zh": "计划，骗局"
+ },
+ "explotarlo": {
+  "en": "to exploit it",
+  "ja": "それを利用する",
+  "zh": "开采它"
+ },
+ "exponen": {
+  "en": "are exhibited",
+  "ja": "展示される",
+  "zh": "展出"
+ },
+ "exquisiteces": {
+  "en": "delicacies",
+  "ja": "珍味",
+  "zh": "珍馐"
+ },
+ "extravió": {
+  "en": "got lost",
+  "ja": "迷った",
+  "zh": "迷路了"
+ },
+ "extraía": {
+  "en": "was extracted",
+  "ja": "汲み上げられた",
+  "zh": "被抽取"
+ },
+ "fallo": {
+  "en": "flaw, error",
+  "ja": "欠陥",
+  "zh": "漏洞"
+ },
+ "falsificaciones": {
+  "en": "forgeries",
+  "ja": "贋作",
+  "zh": "赝品"
+ },
+ "figuraban": {
+  "en": "appeared, were listed",
+  "ja": "載っていた",
+  "zh": "出现在"
+ },
+ "frialdad": {
+  "en": "coldness",
+  "ja": "冷たさ",
+  "zh": "冷淡"
+ },
+ "fundación": {
+  "en": "foundation",
+  "ja": "財団",
+  "zh": "基金会"
+ },
+ "gastronómico": {
+  "en": "gastronomic, food (critic)",
+  "ja": "料理の・美食の",
+  "zh": "美食的"
+ },
+ "guirnaldas": {
+  "en": "garlands",
+  "ja": "花飾り",
+  "zh": "彩带"
+ },
+ "hidrológico": {
+  "en": "hydrological",
+  "ja": "水文学の",
+  "zh": "水文的"
+ },
+ "holgazanes": {
+  "en": "idlers",
+  "ja": "怠け者",
+  "zh": "懒汉"
+ },
+ "homenaje": {
+  "en": "homage, tribute",
+  "ja": "オマージュ・敬意",
+  "zh": "致敬"
+ },
+ "hundir": {
+  "en": "to sink, ruin",
+  "ja": "潰す",
+  "zh": "使倒闭"
+ },
+ "hundió": {
+  "en": "collapsed, sank",
+  "ja": "破綻した",
+  "zh": "崩盘了"
+ },
+ "infarto": {
+  "en": "heart attack",
+  "ja": "心臓発作",
+  "zh": "心脏病发作"
+ },
+ "ingobernable": {
+  "en": "ungovernable",
+  "ja": "統治不能な",
+  "zh": "无法治理的"
+ },
+ "insensata": {
+  "en": "reckless, foolish",
+  "ja": "無謀な",
+  "zh": "鲁莽的"
+ },
+ "interpretaba": {
+  "en": "was interpreted",
+  "ja": "解釈された",
+  "zh": "被理解为"
+ },
+ "intocable": {
+  "en": "untouchable",
+  "ja": "不可侵の",
+  "zh": "不容置疑的"
+ },
+ "invirtió": {
+  "en": "invested",
+  "ja": "投資した",
+  "zh": "投资了"
+ },
+ "locuaces": {
+  "en": "talkative",
+  "ja": "おしゃべりな",
+  "zh": "爱说话的"
+ },
+ "macetas": {
+  "en": "plant pots",
+  "ja": "植木鉢",
+  "zh": "花盆"
+ },
+ "matar": {
+  "en": "to kill",
+  "ja": "殺す",
+  "zh": "杀"
+ },
+ "matriculó": {
+  "en": "enrolled",
+  "ja": "入学した",
+  "zh": "注册入学"
+ },
+ "meteórico": {
+  "en": "meteoric",
+  "ja": "目覚ましい",
+  "zh": "迅速的"
+ },
+ "mutuamente": {
+  "en": "mutually, each other",
+  "ja": "互いに",
+  "zh": "互相"
+ },
+ "nombrar": {
+  "en": "to name",
+  "ja": "名指す",
+  "zh": "提起，命名"
+ },
+ "ofensa": {
+  "en": "offence",
+  "ja": "侮辱",
+  "zh": "冒犯"
+ },
+ "paces": {
+  "en": "peace (hacer las paces = make up)",
+  "ja": "仲直り（hacer las paces）",
+  "zh": "和好（hacer las paces）"
+ },
+ "parranda": {
+  "en": "partying",
+  "ja": "どんちゃん騒ぎ",
+  "zh": "狂欢"
+ },
+ "pedantería": {
+  "en": "pedantry",
+  "ja": "衒学",
+  "zh": "卖弄学问"
+ },
+ "piramidal": {
+  "en": "pyramid (scheme)",
+  "ja": "ねずみ講の",
+  "zh": "金字塔式的"
+ },
+ "proclive": {
+  "en": "prone",
+  "ja": "…しがちな",
+  "zh": "倾向于"
+ },
+ "prudencia": {
+  "en": "prudence",
+  "ja": "慎重さ",
+  "zh": "谨慎"
+ },
+ "quieto": {
+  "en": "still",
+  "ja": "じっとした",
+  "zh": "安静的"
+ },
+ "reaccionó": {
+  "en": "reacted",
+  "ja": "反応した",
+  "zh": "反应"
+ },
+ "rebosar": {
+  "en": "to overflow (a rebosar = packed)",
+  "ja": "あふれる（a rebosar＝満員）",
+  "zh": "满溢（a rebosar＝挤满）"
+ },
+ "rectificar": {
+  "en": "to correct, retract",
+  "ja": "訂正する",
+  "zh": "更正"
+ },
+ "rejuvenecida": {
+  "en": "rejuvenated",
+  "ja": "若返った",
+  "zh": "变年轻的"
+ },
+ "rendijas": {
+  "en": "cracks",
+  "ja": "隙間",
+  "zh": "缝隙"
+ },
+ "replicó": {
+  "en": "replied",
+  "ja": "言い返した",
+  "zh": "反驳道"
+ },
+ "reposo": {
+  "en": "rest",
+  "ja": "安静",
+  "zh": "休息"
+ },
+ "reseñas": {
+  "en": "reviews",
+  "ja": "批評",
+  "zh": "评论"
+ },
+ "reunir": {
+  "en": "to gather",
+  "ja": "集める",
+  "zh": "召集"
+ },
+ "reveló": {
+  "en": "revealed",
+  "ja": "暴いた",
+  "zh": "揭露了"
+ },
+ "reverencia": {
+  "en": "reverence",
+  "ja": "畏敬",
+  "zh": "敬畏"
+ },
+ "sobrevivió": {
+  "en": "survived",
+  "ja": "生き残った",
+  "zh": "保留下来"
+ },
+ "socarronería": {
+  "en": "slyness, wry humour",
+  "ja": "皮肉っぽさ",
+  "zh": "狡黠"
+ },
+ "socarrones": {
+  "en": "sly, wry",
+  "ja": "皮肉屋の",
+  "zh": "爱挖苦的"
+ },
+ "superiores": {
+  "en": "higher (studies)",
+  "ja": "高等の",
+  "zh": "高等的"
+ },
+ "sustituido": {
+  "en": "replaced",
+  "ja": "取って代わった",
+  "zh": "取代"
+ },
+ "tachaban": {
+  "en": "branded, called",
+  "ja": "決めつけていた",
+  "zh": "说成是"
+ },
+ "tacharon": {
+  "en": "branded, called",
+  "ja": "非難した",
+  "zh": "说成是"
+ },
+ "temores": {
+  "en": "fears",
+  "ja": "懸念",
+  "zh": "担忧"
+ },
+ "tentación": {
+  "en": "temptation",
+  "ja": "誘惑",
+  "zh": "诱惑"
+ },
+ "torcida": {
+  "en": "crooked",
+  "ja": "ゆがんだ",
+  "zh": "歪的"
+ },
+ "tribunal": {
+  "en": "panel, court",
+  "ja": "審査員会・法廷",
+  "zh": "委员会，法庭"
+ },
+ "valentín": {
+  "en": "Valentín (name)",
+  "ja": "バレンティン（人名）",
+  "zh": "瓦伦丁（人名）"
+ },
+ "vigas": {
+  "en": "beams",
+  "ja": "梁",
+  "zh": "房梁"
+ },
+ "votación": {
+  "en": "vote",
+  "ja": "投票",
+  "zh": "投票"
+ },
+ "víspera": {
+  "en": "eve",
+  "ja": "前日",
+  "zh": "前夜"
+ },
+ "xvii": {
+  "en": "17th (century)",
+  "ja": "十七（世紀）",
+  "zh": "十七（世纪）"
+ }
+}
