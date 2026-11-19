@@ -1,0 +1,657 @@
+#! es
+# A1 lessons (EOI Nivel Básico A1). Spanish only.
+
+=== 1
+title: Bonjour ! ¦ ¡Hola!
+desc: Saludar, presentarse y despedirse; tu y vous
+gram: saludos (bonjour, salut, au revoir) ¦ je m'appelle / tu t'appelles / vous vous appelez ¦ tu o vous
+ref: a1-greetings
+words: bonjour, salut, bonsoir, au revoir, merci, pardon, oui, non, monsieur, madame, mademoiselle, le nom, le prénom, s'appeler, enchanté, bienvenue, à bientôt, ça va, très, bien, et, vous, tu, je, comment, s'il vous plaît, de rien
+intro:
+<h3>Saludar y despedirse</h3>
+<table><tr><td><strong>Bonjour !</strong></td><td>¡Buenos días! / ¡Hola! (todo el día, hasta la tarde)</td></tr>
+<tr><td><strong>Bonsoir !</strong></td><td>¡Buenas tardes / noches! (a partir de las 18 h aprox.)</td></tr>
+<tr><td><strong>Salut !</strong></td><td>¡Hola! / ¡Chao! (informal, entre amigos)</td></tr>
+<tr><td><strong>Au revoir !</strong> · <strong>À bientôt !</strong> · <strong>À demain !</strong></td><td>¡Adiós! · ¡Hasta pronto! · ¡Hasta mañana!</td></tr></table>
+<h3>Presentarse: s'appeler</h3>
+<table><tr><td>je <strong>m'appelle</strong></td><td>me llamo</td></tr>
+<tr><td>tu <strong>t'appelles</strong></td><td>te llamas</td></tr>
+<tr><td>il / elle <strong>s'appelle</strong></td><td>se llama</td></tr>
+<tr><td>vous <strong>vous appelez</strong></td><td>se llama usted / os llamáis</td></tr></table>
+<div class="example">— Comment tu t'appelles ? — Je m'appelle Léa. Et toi ?<br>— Comment vous appelez-vous ? — Je m'appelle Marc Dubois. <strong>Enchanté.</strong></div>
+<h3>¿Tu o vous?</h3>
+<p><b>tu</b> con amigos, familia, niños y gente joven en contextos informales. <b>vous</b> con desconocidos, en el trabajo, en tiendas… y siempre para varias personas.</p>
+<div class="example">Comment <strong>ça va</strong> ? — Ça va bien, merci. (informal)<br>Comment <strong>allez-vous</strong> ? — Très bien, merci. Et vous ? (formal)</div>
+<div class="tip">Delante de vocal, <b>je</b> se convierte en <b>j'</b> y <b>me</b> en <b>m'</b>: <i>je m'appelle</i>, <i>j'habite</i>.</div>
+<div class="warning">La <b>-s</b> y la <b>-t</b> finales casi nunca se pronuncian: <i>pardon</i> [pardón], <i>salut</i> [salü].</div>
+ex:
+fill ¦ Bonjour ! Je m'___ Julie. ¦ appelle ¦ appelles / appelez / appeler ¦ ¡Hola! Me llamo Julie. ¦ je m'appelle.
+fill ¦ Comment ___ t'appelles ? ¦ tu ¦ je / vous / il ¦ ¿Cómo te llamas? ¦ tu t'appelles.
+fill ¦ Comment vous ___ -vous, madame ? ¦ appelez ¦ appelle / appelles / appelons ¦ ¿Cómo se llama usted, señora? ¦ vous vous appelez.
+fill ¦ — Ça va ? — Oui, ça va ___ , merci. ¦ bien ¦ bon / très / beau ¦ —¿Qué tal? —Bien, gracias. ¦ ça va bien.
+choose ¦ Saludas a tu profesora por la mañana. ¦ Bonjour, madame ! ¦ Salut, madame ! / Bonsoir, madame ! / Au revoir, madame !
+choose ¦ Te despides de un amigo hasta mañana. ¦ À demain ! ¦ Bonjour ! / Enchanté ! / Pardon !
+order ¦ Je m'appelle Paul et toi ¦ Me llamo Paul, ¿y tú?
+order ¦ Bonjour monsieur comment allez-vous ¦ Buenos días, señor, ¿cómo está usted?
+translate ¦ Hola, me llamo Ana. ¦ Bonjour, je m'appelle Ana. ¦ Salut, je m'appelle Ana. / Bonjour je m'appelle Ana
+translate ¦ Muchas gracias. ¦ Merci beaucoup. ¦ Merci beaucoup
+match ¦ bonjour=hola, buenos días; merci=gracias; pardon=perdón; au revoir=adiós; s'il vous plaît=por favor
+
+=== 2
+title: Je suis espagnol ¦ Soy español
+desc: El verbo être, nacionalidades y profesiones; masculino y femenino
+gram: être (je suis, tu es, il est…) ¦ adjetivos de nacionalidad: espagnol / espagnole ¦ profesiones sin artículo: je suis médecin
+ref: a1-etre
+words: être, espagnol, français, anglais, italien, allemand, belge, chinois, le pays, la ville, le médecin, le professeur, l'étudiant, le journaliste, le serveur, l'informaticien, le secrétaire, marié, content, fatigué, malade, il, elle, nous, ils, elles, aussi, ne, pas
+intro:
+<h3>El verbo être (ser / estar)</h3>
+<table><tr><td>je <strong>suis</strong></td><td>nous <strong>sommes</strong></td></tr>
+<tr><td>tu <strong>es</strong></td><td>vous <strong>êtes</strong></td></tr>
+<tr><td>il / elle / on <strong>est</strong></td><td>ils / elles <strong>sont</strong></td></tr></table>
+<p>En francés <b>siempre</b> hay que poner el sujeto: <i>je suis</i>, nunca solo <i>suis</i>. <b>être</b> traduce tanto «ser» como «estar»: <i>Je suis espagnol</i> / <i>Je suis fatigué</i>.</p>
+<h3>Masculino y femenino</h3>
+<table><tr><td>+ <strong>e</strong></td><td>espagnol → espagnol<strong>e</strong> · français → français<strong>e</strong> · marié → marié<strong>e</strong></td></tr>
+<tr><td>-ien → -ienne</td><td>italien → italien<strong>ne</strong></td></tr>
+<tr><td>-e → igual</td><td>belge → belge · malade → malade</td></tr></table>
+<p>La <b>-e</b> del femenino hace sonar la consonante final: <i>français</i> [fransé] / <i>française</i> [fransés].</p>
+<h3>La negación: ne … pas</h3>
+<div class="example">Je <strong>ne</strong> suis <strong>pas</strong> français. · Elle <strong>n'</strong>est <strong>pas</strong> mariée.</div>
+<div class="tip">Las profesiones van <b>sin artículo</b> tras être: <i>Je suis médecin</i>, <i>Elle est journaliste</i>. Pero: <i>C'est <b>un</b> médecin.</i></div>
+<div class="warning">Los nombres de países llevan artículo: <i>la France, l'Espagne, le Portugal</i>.</div>
+ex:
+fill ¦ Je ___ espagnol, de Madrid. ¦ suis ¦ es / est / sommes ¦ Soy español, de Madrid. ¦ je suis.
+fill ¦ Nous ___ fatigués. ¦ sommes ¦ êtes / sont / est ¦ Estamos cansados. ¦ nous sommes.
+fill ¦ Marie est ___ . Elle habite à Lyon. ¦ française ¦ français / françaises / française. ¦ Marie es francesa. Vive en Lyon. ¦ Femenino: + e.
+fill ¦ Paul n'est ___ marié. ¦ pas ¦ ne / non / rien ¦ Paul no está casado. ¦ ne … pas.
+choose ¦ «Ella es médica.» ¦ Elle est médecin. ¦ Elle est une médecin. / Elle es médecin. / Elle sont médecin.
+choose ¦ Femenino de «italien» ¦ italienne ¦ italiene / italiena / italien
+order ¦ Vous êtes professeur ¦ Usted es profesor.
+order ¦ Ils ne sont pas anglais ¦ No son ingleses.
+translate ¦ Soy estudiante. ¦ Je suis étudiant. ¦ Je suis étudiante.
+translate ¦ No estamos cansados. ¦ Nous ne sommes pas fatigués. ¦ On n'est pas fatigués. / Nous ne sommes pas fatiguées.
+match ¦ le médecin=médico; le serveur=camarero; marié=casado; fatigué=cansado; belge=belga
+
+=== 3
+title: Un livre, la table ¦ Un libro, la mesa
+desc: Artículos, género y plural de los sustantivos; objetos de clase
+gram: un / une / des ¦ le / la / l' / les ¦ plural en -s (y -x) ¦ c'est / ce sont, il y a
+ref: a1-articles
+words: le livre, la table, la chaise, le stylo, le cahier, la porte, la fenêtre, le sac, la clé, le téléphone, l'ordinateur, la photo, la lettre, l'objet, le tableau, la feuille, le dictionnaire, le cadeau, la boîte, le, un, des, c'est, il y a, voici, voilà, quoi, qu'est-ce que
+intro:
+<h3>Todos los sustantivos tienen género</h3>
+<table><tr><td></td><td>masculino</td><td>femenino</td><td>plural</td></tr>
+<tr><td>indefinido</td><td><strong>un</strong> livre</td><td><strong>une</strong> table</td><td><strong>des</strong> livres</td></tr>
+<tr><td>definido</td><td><strong>le</strong> livre</td><td><strong>la</strong> table</td><td><strong>les</strong> tables</td></tr></table>
+<p>Delante de vocal o <i>h</i> muda, <b>le</b> y <b>la</b> se convierten en <b>l'</b>: <i>l'ordinateur, l'école, l'hôtel</i>.</p>
+<p>El género no siempre coincide con el español: <i>la</i> mer, <i>le</i> lait, <i>la</i> voiture… Apréndelo siempre con el artículo.</p>
+<h3>El plural</h3>
+<p>Casi siempre <b>+ s</b>, que no se pronuncia: <i>le livre → les livres</i>. Palabras en <b>-eau</b> y muchas en <b>-al</b> hacen <b>-x / -aux</b>: <i>un cadeau → des cadeaux</i>, <i>un journal → des journaux</i>. Lo que oyes es el artículo: <i>le</i> [le] / <i>les</i> [le].</p>
+<h3>Presentar cosas</h3>
+<div class="example"><strong>Qu'est-ce que c'est ?</strong> — <strong>C'est</strong> un stylo. / <strong>Ce sont</strong> des clés.<br><strong>Il y a</strong> un livre sur la table. (hay)</div>
+<div class="warning">«Unos libros» se dice <b>des</b> livres, y el artículo no se puede omitir: ✗ <i>Il y a livres</i> → ✓ <i>Il y a <b>des</b> livres</i>.</div>
+ex:
+fill ¦ C'est ___ stylo. ¦ un ¦ une / des / la ¦ Es un bolígrafo. ¦ stylo es masculino.
+fill ¦ Il y a ___ clés sur la table. ¦ des ¦ un / une / le ¦ Hay unas llaves en la mesa. ¦ Plural indefinido: des.
+fill ¦ Où est ___ ordinateur ? ¦ l' ¦ le / la / les ¦ ¿Dónde está el ordenador? ¦ le + vocal → l'.
+fill ¦ J'ai deux ___ pour toi. ¦ cadeaux ¦ cadeaus / cadeau / cadeaues ¦ Tengo dos regalos para ti. ¦ -eau → -eaux.
+choose ¦ «Son unas fotos.» ¦ Ce sont des photos. ¦ C'est des photo. / Il y a photos. / Ce sont les photo.
+choose ¦ ¿Qué artículo lleva «fenêtre»? ¦ la fenêtre ¦ le fenêtre / l'fenêtre / un fenêtre
+order ¦ Il y a un livre sur la chaise ¦ Hay un libro en la silla.
+order ¦ Voici les clés de la maison ¦ Aquí están las llaves de casa.
+translate ¦ ¿Qué es? ¦ Qu'est-ce que c'est ? ¦ C'est quoi ? / Qu'est-ce que c'est
+translate ¦ Es una mesa. ¦ C'est une table. ¦ C'est une table
+match ¦ le cahier=cuaderno; la chaise=silla; le stylo=bolígrafo; la clé=llave; la feuille=hoja
+
+=== 4
+title: J'ai deux frères ¦ Tengo dos hermanos
+desc: El verbo avoir, la familia, la edad y los posesivos
+gram: avoir (j'ai, tu as, il a…) ¦ la edad: j'ai 20 ans ¦ posesivos: mon / ma / mes, ton, son, notre, votre, leur
+ref: a1-avoir
+words: avoir, la famille, le père, la mère, le frère, la sœur, le fils, la fille, le mari, la femme, l'enfant, le grand-père, la grand-mère, l'oncle, la tante, le cousin, les parents, l'âge, l'an, mon, ton, son, notre, votre, leur, deux, trois, quatre, cinq, six
+intro:
+<h3>El verbo avoir (tener / haber)</h3>
+<table><tr><td>j'<strong>ai</strong></td><td>nous <strong>avons</strong></td></tr>
+<tr><td>tu <strong>as</strong></td><td>vous <strong>avez</strong></td></tr>
+<tr><td>il / elle / on <strong>a</strong></td><td>ils / elles <strong>ont</strong></td></tr></table>
+<div class="example">J'<strong>ai</strong> deux frères. · Vous <strong>avez</strong> des enfants ?<br>La edad se dice con avoir: <strong>J'ai 25 ans</strong> (tengo 25 años). — Tu as quel âge ?</div>
+<div class="warning">No confundas <i>ils <b>sont</b></i> [son] (son, están) con <i>ils <b>ont</b></i> [ɔ̃] (tienen): la liaison de <i>ils‿ont</i> suena con z.</div>
+<h3>Los posesivos</h3>
+<table><tr><td></td><td>masc.</td><td>fem.</td><td>plural</td></tr>
+<tr><td>yo</td><td><strong>mon</strong> père</td><td><strong>ma</strong> mère</td><td><strong>mes</strong> parents</td></tr>
+<tr><td>tú</td><td><strong>ton</strong></td><td><strong>ta</strong></td><td><strong>tes</strong></td></tr>
+<tr><td>él / ella</td><td><strong>son</strong></td><td><strong>sa</strong></td><td><strong>ses</strong></td></tr>
+<tr><td>nosotros</td><td colspan="2"><strong>notre</strong></td><td><strong>nos</strong></td></tr>
+<tr><td>vosotros / usted</td><td colspan="2"><strong>votre</strong></td><td><strong>vos</strong></td></tr>
+<tr><td>ellos</td><td colspan="2"><strong>leur</strong></td><td><strong>leurs</strong></td></tr></table>
+<div class="tip">El posesivo concuerda con la cosa poseída, no con el poseedor: <i><b>sa</b> mère</i> = su madre (de él o de ella). Delante de vocal se usa <b>mon / ton / son</b> aunque sea femenino: <i><b>mon</b> amie, <b>son</b> école</i>.</div>
+ex:
+fill ¦ J'___ deux sœurs et un frère. ¦ ai ¦ as / a / ont ¦ Tengo dos hermanas y un hermano. ¦ j'ai.
+fill ¦ Mes parents ___ une petite maison. ¦ ont ¦ sont / a / avons ¦ Mis padres tienen una casita. ¦ ils ont.
+fill ¦ Tu as quel ___ ? — J'ai vingt ans. ¦ âge ¦ an / ans / année ¦ ¿Cuántos años tienes? —Tengo veinte años. ¦ quel âge.
+fill ¦ C'est ___ mère, elle s'appelle Anne. ¦ ma ¦ mon / mes / me ¦ Es mi madre, se llama Anne. ¦ mère es femenino → ma.
+choose ¦ «su escuela» (de él) ¦ son école ¦ sa école / ses école / leur école
+choose ¦ «Tengo 30 años.» ¦ J'ai trente ans. ¦ Je suis trente ans. / J'ai trente années. / Je trente ans.
+order ¦ Nous avons trois enfants ¦ Tenemos tres hijos.
+order ¦ Leur fils habite à Paris ¦ Su hijo vive en París.
+translate ¦ ¿Tienes hermanos? ¦ Tu as des frères et sœurs ? ¦ Tu as des frères ? / As-tu des frères et sœurs ?
+translate ¦ Mi hermano tiene doce años. ¦ Mon frère a douze ans. ¦ Mon frère a 12 ans.
+match ¦ le fils=hijo; la tante=tía; l'oncle=tío; les parents=padres; le cousin=primo
+
+=== 5
+title: J'habite à Madrid ¦ Vivo en Madrid
+desc: El presente de los verbos en -er y la negación
+gram: verbos en -er: parler (je parle, nous parlons…) ¦ la negación ne … pas ¦ j' ante vocal
+ref: a1-er-verbs
+words: parler, habiter, travailler, aimer, regarder, écouter, chanter, danser, jouer, manger, étudier, chercher, donner, fermer, arriver, rester, le français, l'anglais, la musique, le sport, la télévision, le cinéma, beaucoup, un peu, souvent, ensemble, aujourd'hui, toujours, à
+intro:
+<h3>Verbos en -er: el grupo más grande y regular</h3>
+<p>Se quita <b>-er</b> y se añaden las terminaciones:</p>
+<table><tr><td>je parl<strong>e</strong></td><td>nous parl<strong>ons</strong></td></tr>
+<tr><td>tu parl<strong>es</strong></td><td>vous parl<strong>ez</strong></td></tr>
+<tr><td>il / elle / on parl<strong>e</strong></td><td>ils / elles parl<strong>ent</strong></td></tr></table>
+<div class="tip">¡Cuatro formas suenan igual! <i>parle, parles, parle, parlent</i> se pronuncian [parl]. La <b>-ent</b> de <i>ils parlent</i> es muda. Solo <i>nous parlons</i> y <i>vous parlez</i> suenan distinto.</div>
+<h3>Delante de vocal</h3>
+<div class="example">j'<strong>habite</strong> · j'<strong>aime</strong> · j'<strong>écoute</strong> · nous‿habitons [nuzabitón] (liaison)</div>
+<h3>La negación ne … pas</h3>
+<div class="example">Je <strong>ne</strong> travaille <strong>pas</strong> le samedi. · Il <strong>n'</strong>aime <strong>pas</strong> le sport.</div>
+<div class="warning">El presente francés vale también para «estar + gerundio»: <i>Je mange</i> = como / estoy comiendo. Y «vivir en» una ciudad es <b>habiter à</b>: <i>J'habite <b>à</b> Séville</i>.</div>
+ex:
+fill ¦ Nous ___ français et anglais. ¦ parlons ¦ parlez / parlent / parle ¦ Hablamos francés e inglés. ¦ nous → -ons.
+fill ¦ Vous ___ où ? — J'habite à Lille. ¦ habitez ¦ habitons / habites / habitent ¦ ¿Dónde vivís / vive usted? —Vivo en Lille. ¦ vous → -ez.
+fill ¦ Ils ___ la télévision le soir. ¦ regardent ¦ regardons / regardez / regarde ¦ Ven la tele por la noche. ¦ ils → -ent (muda).
+fill ¦ Je n'___ pas le café. ¦ aime ¦ aimes / aimons / aimer ¦ No me gusta el café. ¦ ne + vocal → n'.
+choose ¦ ¿Qué forma NO suena [parl]? ¦ nous parlons ¦ je parle / tu parles / ils parlent
+choose ¦ «Estoy escuchando música.» ¦ J'écoute de la musique. ¦ Je suis écoute de la musique. / Je écoute de la musique. / J'écoutes de la musique.
+order ¦ Elle travaille dans un hôpital ¦ Trabaja en un hospital.
+order ¦ Nous ne mangeons pas ensemble aujourd'hui ¦ Hoy no comemos juntos.
+translate ¦ Vivo en Barcelona. ¦ J'habite à Barcelone. ¦ J'habite Barcelone.
+translate ¦ No hablamos inglés. ¦ Nous ne parlons pas anglais. ¦ On ne parle pas anglais. / Nous ne parlons pas l'anglais.
+match ¦ habiter=vivir (en); chercher=buscar; regarder=mirar; écouter=escuchar; jouer=jugar
+
+=== 6
+title: Tu viens d'où ? ¦ ¿De dónde vienes?
+desc: Hacer preguntas: entonación, est-ce que, inversión y palabras interrogativas
+gram: tres formas de preguntar ¦ qui, quoi / que, où, quand, comment, pourquoi, combien, quel ¦ quel / quelle / quels / quelles
+ref: a1-questions
+words: qui, quoi, où, quand, comment, pourquoi, combien, quel, est-ce que, parce que, la question, la réponse, répondre, demander, savoir, l'adresse, le numéro, le téléphone, l'âge, la nationalité, le métier, la profession, venir, d'où, habiter, alors
+intro:
+<h3>Tres maneras de hacer una pregunta</h3>
+<table><tr><td>Entonación (informal)</td><td>Tu parles français ?</td></tr>
+<tr><td><strong>Est-ce que</strong> (neutro)</td><td><strong>Est-ce que</strong> tu parles français ?</td></tr>
+<tr><td>Inversión (formal / escrito)</td><td><strong>Parles-tu</strong> français ?</td></tr></table>
+<p>En la inversión, si el verbo acaba en vocal se añade <b>-t-</b>: <i>Parle-<b>t</b>-il anglais ?</i> · <i>A-<b>t</b>-elle des enfants ?</i></p>
+<h3>Palabras interrogativas</h3>
+<table><tr><td><strong>qui</strong> — quién</td><td><strong>où</strong> — dónde</td></tr>
+<tr><td><strong>que / quoi</strong> — qué</td><td><strong>quand</strong> — cuándo</td></tr>
+<tr><td><strong>comment</strong> — cómo</td><td><strong>pourquoi</strong> — por qué → <strong>parce que</strong> — porque</td></tr>
+<tr><td><strong>combien (de)</strong> — cuánto</td><td><strong>quel</strong> — qué / cuál</td></tr></table>
+<div class="example">Tu habites <strong>où</strong> ? / <strong>Où est-ce que</strong> tu habites ? / <strong>Où</strong> habites-tu ?<br><strong>Qu'est-ce que</strong> tu fais ? / Tu fais <strong>quoi</strong> ?</div>
+<h3>quel concuerda</h3>
+<p><b>quel</b> (m.), <b>quelle</b> (f.), <b>quels</b>, <b>quelles</b> + sustantivo: <i><b>Quelle</b> est ton adresse ?</i> · <i><b>Quel</b> âge as-tu ?</i></p>
+<div class="warning">«¿Qué?» al final de la frase es <b>quoi</b>; al principio, <b>que / qu'est-ce que</b>: <i>Tu manges <b>quoi</b> ?</i> = <i><b>Qu'est-ce que</b> tu manges ?</i></div>
+ex:
+fill ¦ ___ est-ce que tu habites ? — À Nantes. ¦ Où ¦ Quand / Qui / Quoi ¦ ¿Dónde vives? —En Nantes. ¦ où = dónde.
+fill ¦ ___ est ton numéro de téléphone ? ¦ Quel ¦ Quelle / Quels / Qu'est-ce que ¦ ¿Cuál es tu número de teléfono? ¦ numéro es masculino.
+fill ¦ Pourquoi tu apprends le français ? — ___ j'aime la France. ¦ Parce que ¦ Pourquoi / Car que / Comme ¦ ¿Por qué aprendes francés? —Porque me gusta Francia. ¦ parce que = porque.
+fill ¦ ___ -t-il des enfants ? ¦ A ¦ As / Est / Ont ¦ ¿Tiene hijos? ¦ Inversión: a-t-il.
+choose ¦ La pregunta más formal ¦ Parlez-vous espagnol ? ¦ Vous parlez espagnol ? / Est-ce que vous parlez espagnol ? / Espagnol, vous parlez ?
+choose ¦ «¿Qué haces?» (informal) ¦ Tu fais quoi ? ¦ Tu fais que ? / Quoi tu fais ? / Qui tu fais ?
+order ¦ Est-ce que vous êtes français ¦ ¿Es usted francés?
+order ¦ Combien de frères est-ce que tu as ¦ ¿Cuántos hermanos tienes?
+translate ¦ ¿Cómo te llamas? ¦ Comment tu t'appelles ? ¦ Comment t'appelles-tu ? / Tu t'appelles comment ?
+translate ¦ ¿Cuál es tu dirección? ¦ Quelle est ton adresse ? ¦ C'est quoi ton adresse ? / Quelle est votre adresse ?
+match ¦ quand=cuándo; pourquoi=por qué; combien=cuánto; qui=quién; où=dónde
+
+=== 7
+title: Quelle heure est-il ? ¦ ¿Qué hora es?
+desc: Los números, la hora, los días de la semana y los meses
+gram: números 0-100 (soixante-dix, quatre-vingts) ¦ la hora: il est trois heures et quart ¦ días y meses sin mayúscula ¦ le lundi = los lunes
+ref: a1-numbers-time
+words: l'heure, la minute, midi, le quart, demi, le jour, la semaine, le mois, l'année, lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, janvier, février, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre, le matin, le soir, la date
+intro:
+<h3>Los números</h3>
+<table><tr><td>1 un · 2 deux · 3 trois · 4 quatre · 5 cinq</td><td>6 six · 7 sept · 8 huit · 9 neuf · 10 dix</td></tr>
+<tr><td>11 onze · 12 douze · 13 treize · 14 quatorze · 15 quinze · 16 seize</td><td>17 dix-sept · 18 dix-huit · 19 dix-neuf · 20 vingt</td></tr>
+<tr><td>21 vingt et un · 22 vingt-deux · 30 trente · 40 quarante</td><td>50 cinquante · 60 soixante</td></tr>
+<tr><td><strong>70 soixante-dix</strong> (60+10) · 71 soixante et onze</td><td><strong>80 quatre-vingts</strong> (4×20) · <strong>90 quatre-vingt-dix</strong></td></tr></table>
+<div class="tip">En Bélgica y Suiza se dice <i>septante</i> (70) y <i>nonante</i> (90); en Suiza también <i>huitante</i> (80).</div>
+<h3>La hora</h3>
+<table><tr><td>Il est <strong>trois heures</strong>.</td><td>Son las tres.</td></tr>
+<tr><td>Il est trois heures <strong>et quart</strong> / <strong>et demie</strong>.</td><td>y cuarto / y media</td></tr>
+<tr><td>Il est quatre heures <strong>moins le quart</strong> / <strong>moins dix</strong>.</td><td>menos cuarto / menos diez</td></tr>
+<tr><td>Il est <strong>midi</strong> / <strong>minuit</strong>.</td><td>mediodía / medianoche</td></tr></table>
+<p>En contextos oficiales se usa el horario de 24 h: <i>Le train part à <b>dix-huit heures trente</b></i>.</p>
+<h3>Días y meses</h3>
+<p>Se escriben con minúscula. <b>lundi</b> = el lunes (este lunes); <b>le lundi</b> = los lunes (cada lunes). La fecha: <i>le 14 juillet</i>, pero <i>le <b>premier</b> mai</i>.</p>
+<div class="warning">«A las cinco» es <b>à</b> cinq heures; «en enero» es <b>en</b> janvier; «el lunes» va sin preposición: <i>Je pars lundi.</i></div>
+ex:
+fill ¦ Il est trois heures et ___ . (3:30) ¦ demie ¦ demi / quart / moitié ¦ Son las tres y media. ¦ et demie.
+fill ¦ Le cours commence ___ neuf heures. ¦ à ¦ en / le / dans ¦ La clase empieza a las nueve. ¦ à + hora.
+fill ¦ Mon anniversaire est ___ mai. ¦ en ¦ à / le / au ¦ Mi cumpleaños es en mayo. ¦ en + mes.
+fill ¦ Je ne travaille pas ___ dimanche. ¦ le ¦ en / à / au ¦ No trabajo los domingos. ¦ le dimanche = cada domingo.
+choose ¦ 80 ¦ quatre-vingts ¦ huitante-zéro / octante / quatre-vingt-dix
+choose ¦ 4:45 ¦ Il est cinq heures moins le quart. ¦ Il est quatre heures moins le quart. / Il est quatre heures et trois quarts. / Il est cinq heures et quart.
+order ¦ Aujourd'hui nous sommes le premier mars ¦ Hoy es uno de marzo.
+order ¦ Le magasin ferme à sept heures ¦ La tienda cierra a las siete.
+translate ¦ Es mediodía. ¦ Il est midi. ¦ Il est midi
+translate ¦ Trabajo de lunes a viernes. ¦ Je travaille du lundi au vendredi. ¦ Je travaille de lundi à vendredi.
+match ¦ mercredi=miércoles; jeudi=jueves; le mois=mes; août=agosto; le quart=cuarto
+
+=== 8
+title: Je me lève à sept heures ¦ Me levanto a las siete
+desc: La rutina diaria con verbos pronominales
+gram: verbos pronominales: je me lève, tu te lèves, il se lève… ¦ la frecuencia: toujours, souvent, parfois, jamais ¦ d'abord, puis, ensuite, enfin
+ref: a1-daily-routine
+words: se lever, se laver, s'habiller, se coucher, se reposer, se promener, se réveiller, se dépêcher, prendre, le petit-déjeuner, le déjeuner, le dîner, la douche, d'abord, puis, ensuite, enfin, toujours, souvent, parfois, jamais, tard, tôt, le matin, le soir, la nuit, l'heure, rentrer, partir, dormir
+intro:
+<h3>Verbos pronominales</h3>
+<p>Llevan un pronombre reflexivo que concuerda con el sujeto, igual que en español:</p>
+<table><tr><td>je <strong>me</strong> lève</td><td>nous <strong>nous</strong> levons</td></tr>
+<tr><td>tu <strong>te</strong> lèves</td><td>vous <strong>vous</strong> levez</td></tr>
+<tr><td>il / elle <strong>se</strong> lève</td><td>ils / elles <strong>se</strong> lèvent</td></tr></table>
+<p>Delante de vocal: <b>m', t', s'</b>: <i>je m'habille, il s'habille</i>. Negación: <i>Je <b>ne</b> me lève <b>pas</b> tôt.</i></p>
+<div class="tip">Observa el acento de <i>lever</i>: <i>je l<b>è</b>ve</i> pero <i>nous l<b>e</b>vons</i>. La <b>e</b> se vuelve <b>è</b> cuando la sílaba siguiente es muda.</div>
+<h3>Contar la rutina</h3>
+<div class="example"><strong>D'abord</strong>, je me lève. <strong>Ensuite</strong>, je prends une douche. <strong>Puis</strong> je prends le petit-déjeuner et <strong>enfin</strong> je pars au travail.</div>
+<h3>La frecuencia</h3>
+<p><b>toujours</b> (siempre) · <b>souvent</b> (a menudo) · <b>parfois</b> (a veces) · <b>ne … jamais</b> (nunca): <i>Je <b>ne</b> me couche <b>jamais</b> avant minuit.</i></p>
+<div class="warning">«Desayunar» es <b>prendre le petit-déjeuner</b>; «comer» (al mediodía) <b>déjeuner</b>; «cenar» <b>dîner</b>. En Bélgica y Suiza: <i>déjeuner</i> (desayuno), <i>dîner</i> (comida), <i>souper</i> (cena).</div>
+ex:
+fill ¦ Je ___ lève à sept heures. ¦ me ¦ te / se / nous ¦ Me levanto a las siete. ¦ je me.
+fill ¦ Nous ___ couchons tard le samedi. ¦ nous ¦ se / vous / me ¦ Los sábados nos acostamos tarde. ¦ nous nous.
+fill ¦ Elle ___ habille vite. ¦ s' ¦ se / me / t' ¦ Se viste rápido. ¦ se + vocal → s'.
+fill ¦ Il ne se réveille ___ avant neuf heures. ¦ jamais ¦ toujours / souvent / parfois ¦ Nunca se despierta antes de las nueve. ¦ ne … jamais.
+choose ¦ «Desayuno a las ocho.» ¦ Je prends le petit-déjeuner à huit heures. ¦ Je déjeune le matin à huit heures. / Je petit-déjeune à huit heures. / Je dîne à huit heures.
+choose ¦ Elige la forma correcta. ¦ vous vous levez ¦ vous se levez / vous vous lèvez / vous levez-vous
+order ¦ D'abord je prends une douche ¦ Primero me ducho.
+order ¦ Ils se promènent souvent le dimanche ¦ A menudo pasean los domingos.
+translate ¦ Me acuesto a las once. ¦ Je me couche à onze heures. ¦ Je me couche à 23 heures.
+translate ¦ ¿A qué hora te levantas? ¦ Tu te lèves à quelle heure ? ¦ À quelle heure tu te lèves ? / À quelle heure est-ce que tu te lèves ? / À quelle heure te lèves-tu ?
+match ¦ se coucher=acostarse; se dépêcher=darse prisa; la douche=ducha; parfois=a veces; tôt=temprano
+
+=== 9
+title: Je vais à Paris ¦ Voy a París
+desc: Aller y venir; preposiciones con ciudades y países; los artículos contractos
+gram: aller (je vais…) y venir (je viens…) ¦ à + le = au, à + les = aux; de + le = du, de + les = des ¦ à Paris, en France, au Portugal, aux États-Unis
+ref: a1-aller-venir
+words: aller, venir, revenir, la ville, le pays, la France, l'Espagne, le Portugal, l'Italie, l'Allemagne, la Belgique, la Suisse, le Canada, le Maroc, les États-Unis, la gare, l'aéroport, la plage, le marché, le cinéma, le musée, la banque, la poste, au, du, en, chez, le voyage, voyager
+intro:
+<h3>aller y venir</h3>
+<table><tr><td><strong>aller</strong> (ir)</td><td>je vais · tu vas · il va · nous allons · vous allez · ils vont</td></tr>
+<tr><td><strong>venir</strong> (venir)</td><td>je viens · tu viens · il vient · nous venons · vous venez · ils viennent</td></tr></table>
+<h3>Artículos contractos</h3>
+<table><tr><td>à + le = <strong>au</strong></td><td>Je vais <strong>au</strong> cinéma.</td></tr>
+<tr><td>à + la = à la</td><td>Je vais <strong>à la</strong> plage.</td></tr>
+<tr><td>à + l' = à l'</td><td>Je vais <strong>à l'</strong>aéroport.</td></tr>
+<tr><td>à + les = <strong>aux</strong></td><td>Je vais <strong>aux</strong> toilettes.</td></tr>
+<tr><td>de + le = <strong>du</strong> · de + les = <strong>des</strong></td><td>Je viens <strong>du</strong> marché. · Il revient <strong>des</strong> États-Unis.</td></tr></table>
+<h3>Ciudades y países</h3>
+<table><tr><td>ciudades</td><td><strong>à</strong> Paris · <strong>de</strong> Lyon</td></tr>
+<tr><td>países femeninos (acaban casi todos en -e)</td><td><strong>en</strong> France, <strong>en</strong> Espagne · <strong>de</strong> France</td></tr>
+<tr><td>países masculinos</td><td><strong>au</strong> Portugal, <strong>au</strong> Canada · <strong>du</strong> Maroc</td></tr>
+<tr><td>países en plural</td><td><strong>aux</strong> États-Unis · <strong>des</strong> États-Unis</td></tr></table>
+<div class="tip">«A casa de / en casa de» se dice <b>chez</b>: <i>Je vais <b>chez</b> Marie</i>, <i>chez le médecin</i>, <i>chez moi</i> (a / en mi casa).</div>
+<div class="warning">✗ <i>à le cinéma</i> → ✓ <i><b>au</b> cinéma</i>. La contracción es obligatoria.</div>
+ex:
+fill ¦ Ce soir, nous allons ___ cinéma. ¦ au ¦ à le / à la / aux ¦ Esta noche vamos al cine. ¦ à + le = au.
+fill ¦ Mes cousins habitent ___ Canada. ¦ au ¦ en / à / aux ¦ Mis primos viven en Canadá. ¦ País masculino → au.
+fill ¦ Je ___ de Madrid, et toi ? ¦ viens ¦ vais / venons / vient ¦ Vengo de Madrid, ¿y tú? ¦ je viens.
+fill ¦ Elle rentre ___ marché avec des fruits. ¦ du ¦ de le / des / au ¦ Vuelve del mercado con fruta. ¦ de + le = du.
+choose ¦ «Vamos a Italia.» ¦ Nous allons en Italie. ¦ Nous allons à l'Italie. / Nous allons au Italie. / Nous venons en Italie.
+choose ¦ «Voy a casa de mis padres.» ¦ Je vais chez mes parents. ¦ Je vais à mes parents. / Je vais à la maison de mes parents chez. / Je vais aux parents.
+order ¦ Ils vont à la plage en été ¦ En verano van a la playa.
+order ¦ Vous venez des États-Unis ¦ Venís / Usted viene de Estados Unidos.
+translate ¦ Voy al banco. ¦ Je vais à la banque. ¦ Je vais à la banque
+translate ¦ Somos de Portugal. ¦ Nous venons du Portugal. ¦ On vient du Portugal. / Nous sommes du Portugal.
+match ¦ la gare=estación de tren; l'aéroport=aeropuerto; la plage=playa; chez=en casa de; voyager=viajar
+
+=== 10
+title: Du pain et de l'eau ¦ Pan y agua
+desc: Los partitivos y las cantidades; la comida
+gram: partitivos: du, de la, de l', des ¦ en negativa: pas de ¦ cantidades: un kilo de, une bouteille de, beaucoup de, un peu de
+ref: a1-partitive
+words: le pain, l'eau, le lait, le café, le thé, le vin, la bière, le jus, le fromage, la viande, le poisson, le poulet, le riz, les pâtes, le légume, le fruit, la pomme, la tomate, l'œuf, le sucre, le sel, le beurre, la confiture, le gâteau, le kilo, la bouteille, le verre, le morceau, manger, boire
+intro:
+<h3>El partitivo: una cantidad indeterminada</h3>
+<p>En español decimos «como pan», sin artículo. En francés hace falta el <b>partitivo</b>:</p>
+<table><tr><td><strong>du</strong> (masc.)</td><td>Je mange <strong>du</strong> pain.</td></tr>
+<tr><td><strong>de la</strong> (fem.)</td><td>Tu veux <strong>de la</strong> viande ?</td></tr>
+<tr><td><strong>de l'</strong> (+ vocal)</td><td>Je bois <strong>de l'</strong>eau.</td></tr>
+<tr><td><strong>des</strong> (plural)</td><td>Il achète <strong>des</strong> pommes.</td></tr></table>
+<h3>En negativa: de / d'</h3>
+<div class="example">Je ne mange <strong>pas de</strong> viande. · Il n'y a <strong>plus d'</strong>eau. · Je n'ai <strong>pas de</strong> frères.</div>
+<h3>Cantidades + de</h3>
+<p>Tras una cantidad solo va <b>de</b>: <i>un kilo <b>de</b> tomates, une bouteille <b>d'</b>eau, beaucoup <b>de</b> sucre, un peu <b>de</b> lait, un morceau <b>de</b> fromage</i>.</p>
+<div class="tip">Con los verbos de gusto se usa el artículo definido (el producto en general): <i>J'aime <b>le</b> fromage</i>, pero <i>Je mange <b>du</b> fromage</i>.</div>
+<div class="warning">✗ <i>Je ne bois pas du vin</i> → ✓ <i>Je ne bois pas <b>de</b> vin</i>. ✗ <i>beaucoup des pommes</i> → ✓ <i>beaucoup <b>de</b> pommes</i>.</div>
+ex:
+fill ¦ Le matin, je bois ___ café. ¦ du ¦ de la / des / de ¦ Por la mañana tomo café. ¦ café es masculino → du.
+fill ¦ Tu veux ___ eau ? ¦ de l' ¦ du / de la / des ¦ ¿Quieres agua? ¦ de l' + vocal.
+fill ¦ Je suis végétarien : je ne mange pas ___ viande. ¦ de ¦ de la / du / la ¦ Soy vegetariano: no como carne. ¦ Negativa → pas de.
+fill ¦ Achète un kilo ___ pommes, s'il te plaît. ¦ de ¦ des / du / les ¦ Compra un kilo de manzanas, por favor. ¦ Cantidad + de.
+choose ¦ «Me gusta el queso.» ¦ J'aime le fromage. ¦ J'aime du fromage. / J'aime de fromage. / J'aime fromage.
+choose ¦ «No hay leche.» ¦ Il n'y a pas de lait. ¦ Il n'y a pas du lait. / Il n'y a pas le lait. / Il n'y a pas des lait.
+order ¦ Nous mangeons du poisson le vendredi ¦ Los viernes comemos pescado.
+order ¦ Je voudrais une bouteille de vin rouge ¦ Querría una botella de vino tinto.
+translate ¦ Bebo agua. ¦ Je bois de l'eau. ¦ Je bois de l'eau
+translate ¦ No como carne. ¦ Je ne mange pas de viande. ¦ Je ne mange pas de viande
+match ¦ le pain=pan; le beurre=mantequilla; l'œuf=huevo; le poulet=pollo; le sel=sal
+
+=== 11
+title: Il fait beau ¦ Hace buen tiempo
+desc: El verbo faire, el tiempo atmosférico y las estaciones
+gram: faire (je fais…) ¦ il fait beau / chaud / froid; il pleut, il neige ¦ faire du sport, faire de la natation ¦ en été, au printemps
+ref: a1-faire-weather
+words: faire, le temps, beau, chaud, froid, la pluie, pleuvoir, la neige, le vent, le soleil, le nuage, la température, le degré, la saison, le printemps, l'été, l'automne, l'hiver, le sport, le vélo, le ski, la natation, le tennis, le foot, la cuisine, les courses, le ménage, la promenade, mauvais, frais
+intro:
+<h3>El verbo faire (hacer)</h3>
+<table><tr><td>je <strong>fais</strong></td><td>nous <strong>faisons</strong> [fesón]</td></tr>
+<tr><td>tu <strong>fais</strong></td><td>vous <strong>faites</strong></td></tr>
+<tr><td>il / elle <strong>fait</strong></td><td>ils / elles <strong>font</strong></td></tr></table>
+<h3>El tiempo</h3>
+<table><tr><td>Il <strong>fait</strong> beau / mauvais / chaud / froid / frais.</td><td>Hace bueno / malo / calor / frío / fresco.</td></tr>
+<tr><td>Il y a du soleil / du vent / des nuages.</td><td>Hace sol / viento; hay nubes.</td></tr>
+<tr><td>Il <strong>pleut</strong>. · Il <strong>neige</strong>.</td><td>Llueve. · Nieva.</td></tr>
+<tr><td>Il fait 25 degrés.</td><td>Hace 25 grados.</td></tr></table>
+<p>Las estaciones: <b>au</b> printemps, <b>en</b> été, <b>en</b> automne, <b>en</b> hiver.</p>
+<h3>Actividades con faire + partitivo</h3>
+<div class="example">faire <strong>du</strong> sport / <strong>du</strong> vélo / <strong>du</strong> ski · faire <strong>de la</strong> natation · faire <strong>les</strong> courses (la compra) · faire <strong>le</strong> ménage · faire <strong>la</strong> cuisine</div>
+<div class="tip">Con los deportes de pelota se usa <b>jouer au</b>: <i>jouer <b>au</b> foot, <b>au</b> tennis</i>. Con instrumentos, <b>jouer du / de la</b>: <i>jouer <b>du</b> piano</i>.</div>
+<div class="warning">«¿Qué tiempo hace?» = <i>Quel temps fait-il ?</i> — <b>il</b> es impersonal, como el «hace» español.</div>
+ex:
+fill ¦ Aujourd'hui, il ___ très chaud. ¦ fait ¦ est / a / fais ¦ Hoy hace mucho calor. ¦ il fait chaud.
+fill ¦ Prends un parapluie, il ___ ! ¦ pleut ¦ pleuve / fait pluie / pleuvoir ¦ ¡Coge un paraguas, llueve! ¦ il pleut.
+fill ¦ Le samedi, nous ___ les courses. ¦ faisons ¦ faites / font / fais ¦ Los sábados hacemos la compra. ¦ nous faisons.
+fill ¦ Elle fait ___ natation trois fois par semaine. ¦ de la ¦ du / le / de ¦ Hace natación tres veces por semana. ¦ natation es femenino.
+choose ¦ «En primavera» ¦ au printemps ¦ en printemps / à printemps / dans le printemps
+choose ¦ «Juego al fútbol.» ¦ Je joue au foot. ¦ Je fais au foot. / Je joue du foot. / Je joue le foot.
+order ¦ En hiver il fait froid et il neige ¦ En invierno hace frío y nieva.
+order ¦ Vous faites du sport le week-end ¦ ¿Hacéis / Hace usted deporte el fin de semana?
+translate ¦ Hace buen tiempo. ¦ Il fait beau. ¦ Il fait beau temps.
+translate ¦ ¿Qué tiempo hace? ¦ Quel temps fait-il ? ¦ Quel temps il fait ? / Il fait quel temps ?
+match ¦ le nuage=nube; le vent=viento; la neige=nieve; l'automne=otoño; le ménage=tareas de la casa
+
+=== 12
+title: Une petite robe noire ¦ Un vestidito negro
+desc: El adjetivo: concordancia y posición; colores y ropa
+gram: femenino y plural de los adjetivos ¦ posición: normalmente detrás (une robe noire), algunos delante (un petit sac) ¦ beau / bel / belle, nouveau / nouvel, vieux / vieil
+ref: a1-adjectives
+words: la robe, le pantalon, la jupe, la chemise, le pull, la veste, le manteau, la chaussure, le chapeau, le jean, le t-shirt, noir, blanc, rouge, bleu, vert, jaune, gris, rose, marron, petit, grand, beau, joli, nouveau, vieux, long, court, cher, la taille
+intro:
+<h3>Concordancia</h3>
+<table><tr><td>regla general</td><td>noir → noir<strong>e</strong> · noir<strong>s</strong> · noir<strong>es</strong></td></tr>
+<tr><td>-e: no cambia en femenino</td><td>rouge, jaune, rose</td></tr>
+<tr><td>-er → -ère · -eux → -euse · -if → -ive</td><td>cher → ch<strong>ère</strong> · heureux → heur<strong>euse</strong> · sportif → sport<strong>ive</strong></td></tr>
+<tr><td>doblan la consonante</td><td>bon → bon<strong>ne</strong> · gros → gros<strong>se</strong> · gentil → gentil<strong>le</strong></td></tr>
+<tr><td>irregulares</td><td>blanc → blan<strong>che</strong> · long → lon<strong>gue</strong> · frais → fra<strong>îche</strong></td></tr></table>
+<div class="tip"><b>marron</b> y <b>orange</b> no cambian nunca: <i>des chaussures marron</i>.</div>
+<h3>Posición</h3>
+<p>La mayoría de adjetivos van <b>detrás</b>: <i>une robe <b>noire</b>, un pantalon <b>bleu</b></i>. Unos pocos, cortos y frecuentes, van <b>delante</b>: <b>petit, grand, beau, joli, bon, mauvais, nouveau, vieux, jeune, gros</b>: <i>un <b>petit</b> sac, une <b>jolie</b> jupe</i>.</p>
+<h3>beau, nouveau, vieux delante de vocal</h3>
+<div class="example">un <strong>beau</strong> manteau → un <strong>bel</strong> homme · une <strong>belle</strong> veste<br>un <strong>nouveau</strong> pull → un <strong>nouvel</strong> ami · un <strong>vieux</strong> livre → un <strong>vieil</strong> arbre</div>
+<div class="warning">Delante de un adjetivo en plural, <b>des</b> se convierte en <b>de</b> en la lengua cuidada: <i><b>de</b> jolies chaussures</i>.</div>
+ex:
+fill ¦ J'aime ta robe ___ . ¦ noire ¦ noir / noirs / noires ¦ Me gusta tu vestido negro. ¦ robe es femenino.
+fill ¦ Il porte une chemise ___ . ¦ blanche ¦ blanc / blance / blanches ¦ Lleva una camisa blanca. ¦ blanc → blanche.
+fill ¦ C'est un ___ hôtel près de la plage. ¦ bel ¦ beau / belle / beaux ¦ Es un hotel bonito cerca de la playa. ¦ beau + vocal → bel.
+fill ¦ Ces chaussures sont trop ___ . ¦ chères ¦ cher / chers / chère ¦ Estos zapatos son demasiado caros. ¦ chaussure: femenino plural.
+choose ¦ Elige el orden correcto. ¦ une petite maison blanche ¦ une maison petite blanche / une blanche petite maison / une petite blanche maison
+choose ¦ «unos zapatos marrones» ¦ des chaussures marron ¦ des chaussures marrons / des chaussures marronnes / des marron chaussures
+order ¦ Elle a un nouveau manteau rouge ¦ Tiene un abrigo rojo nuevo.
+order ¦ Je cherche une jupe longue et grise ¦ Busco una falda larga y gris.
+translate ¦ un coche viejo ¦ une vieille voiture ¦ une vieille voiture
+translate ¦ Mi camisa es azul. ¦ Ma chemise est bleue. ¦ Ma chemise est bleue
+match ¦ la jupe=falda; le manteau=abrigo; la veste=chaqueta; marron=marrón; la taille=talla
+
+=== 13
+title: Il y a une cuisine ¦ Hay una cocina
+desc: La casa, il y a y las preposiciones de lugar
+gram: il y a / il n'y a pas de ¦ preposiciones: sur, sous, dans, devant, derrière, entre, à côté de, en face de, près de, loin de ¦ à côté du / de la
+ref: a1-il-y-a
+words: la maison, l'appartement, la chambre, la cuisine, le salon, la salle de bains, les toilettes, le jardin, la terrasse, le garage, l'étage, l'escalier, le lit, le canapé, l'armoire, le placard, le mur, le toit, la lampe, le miroir, sur, sous, dans, devant, derrière, entre, à côté de, en face de, près de, loin de
+intro:
+<h3>il y a (hay)</h3>
+<div class="example"><strong>Il y a</strong> trois chambres et un grand salon.<br><strong>Il n'y a pas de</strong> jardin. (negativa + de)<br><strong>Est-ce qu'il y a</strong> un ascenseur ? / <strong>Y a-t-il</strong> un ascenseur ?</div>
+<h3>Preposiciones de lugar</h3>
+<table><tr><td><strong>sur</strong> — sobre, encima</td><td><strong>sous</strong> — debajo</td></tr>
+<tr><td><strong>dans</strong> — dentro, en</td><td><strong>entre</strong> — entre</td></tr>
+<tr><td><strong>devant</strong> — delante</td><td><strong>derrière</strong> — detrás</td></tr>
+<tr><td><strong>à côté de</strong> — al lado de</td><td><strong>en face de</strong> — enfrente de</td></tr>
+<tr><td><strong>près de</strong> — cerca de</td><td><strong>loin de</strong> — lejos de</td></tr></table>
+<p>Las que llevan <b>de</b> se contraen: <i>à côté <b>du</b> salon</i>, <i>en face <b>de la</b> gare</i>, <i>près <b>des</b> magasins</i>.</p>
+<div class="tip">«En el primer piso» = <i><b>au</b> premier étage</i>; «en la planta baja» = <i><b>au</b> rez-de-chaussée</i>. El «primer piso» francés es el que está encima de la planta baja.</div>
+<div class="warning">«Estar» de lugar se dice con <b>être</b>: <i>La lampe <b>est</b> sur la table.</i> Para presentar algo nuevo, <b>il y a</b>: <i><b>Il y a</b> une lampe sur la table.</i></div>
+ex:
+fill ¦ Dans mon appartement, ___ deux chambres. ¦ il y a ¦ il est / c'est / ils sont ¦ En mi piso hay dos habitaciones. ¦ il y a = hay.
+fill ¦ Il n'y a pas ___ garage. ¦ de ¦ du / un / le ¦ No hay garaje. ¦ Negativa → pas de.
+fill ¦ Le chat dort ___ le lit. ¦ sous ¦ sur le / dans de / devant de ¦ El gato duerme debajo de la cama. ¦ sous = debajo.
+fill ¦ La boulangerie est à côté ___ banque. ¦ de la ¦ du / de / à la ¦ La panadería está al lado del banco. ¦ à côté de + la.
+choose ¦ «La farmacia está enfrente del colegio.» ¦ La pharmacie est en face de l'école. ¦ La pharmacie est en face l'école. / La pharmacie est devant de l'école. / La pharmacie est en face du l'école.
+choose ¦ «Hay un sofá en el salón.» ¦ Il y a un canapé dans le salon. ¦ Il est un canapé dans le salon. / Il y a un canapé sur le salon. / C'est un canapé dans le salon.
+order ¦ La cuisine est entre le salon et la terrasse ¦ La cocina está entre el salón y la terraza.
+order ¦ Nous habitons au troisième étage ¦ Vivimos en el tercer piso.
+translate ¦ ¿Hay un jardín? ¦ Est-ce qu'il y a un jardin ? ¦ Il y a un jardin ? / Y a-t-il un jardin ?
+translate ¦ La lámpara está sobre la mesa. ¦ La lampe est sur la table. ¦ La lampe est sur la table
+match ¦ l'armoire=armario; le canapé=sofá; l'escalier=escalera; le miroir=espejo; le toit=tejado
+
+=== 14
+title: Combien ça coûte ? ¦ ¿Cuánto cuesta?
+desc: De compras: precios, demostrativos y je voudrais
+gram: demostrativos: ce, cet, cette, ces ¦ combien ça coûte ? c'est combien ? ¦ je voudrais (cortesía) ¦ ce … -ci / ce … -là
+ref: a1-demonstratives
+words: acheter, vendre, payer, coûter, le prix, l'euro, le centime, cher, la carte, l'argent, la monnaie, la caisse, le client, le vendeur, le magasin, la boutique, le supermarché, la boulangerie, la pharmacie, le marché, les soldes, ce, cet, cette, ces, combien, je voudrais, essayer, prendre, autre
+intro:
+<h3>Los demostrativos</h3>
+<table><tr><td><strong>ce</strong> + masc.</td><td><strong>ce</strong> pull</td></tr>
+<tr><td><strong>cet</strong> + masc. con vocal / h</td><td><strong>cet</strong> anorak, <strong>cet</strong> homme</td></tr>
+<tr><td><strong>cette</strong> + fem.</td><td><strong>cette</strong> robe</td></tr>
+<tr><td><strong>ces</strong> + plural</td><td><strong>ces</strong> chaussures</td></tr></table>
+<p>Para distinguir: <i>ce pull-<b>ci</b></i> (este) / <i>ce pull-<b>là</b></i> (ese, aquel).</p>
+<h3>En la tienda</h3>
+<div class="example">— Bonjour, <strong>je voudrais</strong> une baguette, s'il vous plaît.<br>— Voilà. Et avec ceci ?<br>— C'est tout. <strong>Ça fait combien ?</strong> / <strong>C'est combien ?</strong><br>— Un euro vingt.<br>— <strong>Je peux payer par carte ?</strong></div>
+<div class="tip"><b>Je voudrais</b> (querría) es la forma educada de pedir; <i>je veux</i> suena brusco.</div>
+<div class="warning">«¿Cuánto cuesta?» → <i>Combien <b>ça coûte</b> ?</i> o <i>Combien <b>coûte</b> ce livre ?</i> Para varias cosas: <i>Combien <b>coûtent</b> ces livres ?</i></div>
+ex:
+fill ¦ Combien coûte ___ robe ? ¦ cette ¦ ce / cet / ces ¦ ¿Cuánto cuesta este vestido? ¦ robe es femenino.
+fill ¦ J'aime beaucoup ___ anorak. ¦ cet ¦ ce / cette / ces ¦ Me gusta mucho este anorak. ¦ ce + vocal → cet.
+fill ¦ Bonjour, je ___ un kilo de tomates. ¦ voudrais ¦ veux bien / voudrai / vouloir ¦ Buenos días, querría un kilo de tomates. ¦ je voudrais = cortesía.
+fill ¦ Je peux ___ ce pantalon ? ¦ essayer ¦ essaie / porter de / essayé ¦ ¿Puedo probarme este pantalón? ¦ pouvoir + infinitivo.
+choose ¦ «¿Cuánto es?» ¦ Ça fait combien ? ¦ Combien ça fait-il ? / Quoi ça coûte ? / Combien c'est fait ?
+choose ¦ «estos zapatos» ¦ ces chaussures ¦ ses chaussures / cettes chaussures / ce chaussures
+order ¦ Je voudrais une baguette s'il vous plaît ¦ Querría una barra de pan, por favor.
+order ¦ Ces pommes coûtent deux euros le kilo ¦ Estas manzanas cuestan dos euros el kilo.
+translate ¦ ¿Puedo pagar con tarjeta? ¦ Je peux payer par carte ? ¦ Est-ce que je peux payer par carte ? / Puis-je payer par carte ?
+translate ¦ Este jersey es demasiado caro. ¦ Ce pull est trop cher. ¦ Ce pull est trop cher
+match ¦ la monnaie=cambio, suelto; la caisse=caja; le vendeur=vendedor; la boulangerie=panadería; les soldes=rebajas
+
+=== 15
+title: Demain, je vais partir ¦ Mañana me voy a ir
+desc: El futuro próximo: hablar de planes e intenciones
+gram: aller + infinitivo ¦ marcadores: demain, ce soir, ce week-end, la semaine prochaine, l'année prochaine ¦ negación: je ne vais pas partir
+ref: a1-futur-proche
+words: demain, ce soir, le week-end, prochain, bientôt, la semaine, le mois, l'année, les vacances, le projet, le voyage, partir, visiter, organiser, inviter, la fête, préparer, réserver, l'hôtel, le billet, le train, l'avion, la valise, la mer, la montagne, la campagne, l'anniversaire, se marier, déménager, commencer
+intro:
+<h3>Futur proche = aller + infinitivo</h3>
+<p>Funciona exactamente como «ir a + infinitivo»:</p>
+<table><tr><td>je <strong>vais</strong> partir</td><td>nous <strong>allons</strong> partir</td></tr>
+<tr><td>tu <strong>vas</strong> partir</td><td>vous <strong>allez</strong> partir</td></tr>
+<tr><td>il / elle <strong>va</strong> partir</td><td>ils / elles <strong>vont</strong> partir</td></tr></table>
+<div class="example">Ce soir, je <strong>vais regarder</strong> un film.<br>L'année prochaine, nous <strong>allons déménager</strong> à Lyon.</div>
+<h3>La negación rodea a aller</h3>
+<div class="example">Je <strong>ne</strong> vais <strong>pas</strong> sortir ce soir. (no voy a salir)</div>
+<h3>Marcadores de futuro</h3>
+<p><b>demain</b> · <b>ce soir</b> · <b>ce week-end</b> · <b>bientôt</b> · <b>la semaine prochaine</b> · <b>le mois prochain</b> · <b>l'année prochaine</b> · <b>dans deux jours</b> (dentro de dos días)</p>
+<div class="tip">Con pronombres, el pronombre va delante del infinitivo: <i>Je vais <b>te</b> téléphoner.</i> · <i>Il va <b>se</b> marier.</i></div>
+<div class="warning">No hay «a»: ✗ <i>Je vais à partir</i> → ✓ <i>Je vais partir</i>.</div>
+ex:
+fill ¦ Ce week-end, nous ___ visiter Bruxelles. ¦ allons ¦ allez / vont / va ¦ Este fin de semana vamos a visitar Bruselas. ¦ nous allons + infinitivo.
+fill ¦ Elle va ___ une fête pour son anniversaire. ¦ organiser ¦ organise / organisé / à organiser ¦ Va a organizar una fiesta para su cumpleaños. ¦ aller + infinitivo.
+fill ¦ Je ne vais ___ partir en vacances cette année. ¦ pas ¦ ne / non / jamais pas ¦ Este año no me voy a ir de vacaciones. ¦ ne … pas alrededor de aller.
+fill ¦ Mes amis ___ se marier en juin. ¦ vont ¦ va / allons / vais ¦ Mis amigos se van a casar en junio. ¦ ils vont.
+choose ¦ «Vamos a reservar un hotel.» ¦ Nous allons réserver un hôtel. ¦ Nous allons à réserver un hôtel. / Nous réservons aller un hôtel. / Nous allons réservons un hôtel.
+choose ¦ «la semana que viene» ¦ la semaine prochaine ¦ la prochaine semaine qui vient / la semaine dernière / dans la semaine
+order ¦ Demain je vais prendre le train ¦ Mañana voy a coger el tren.
+order ¦ Ils vont passer une semaine à la montagne ¦ Van a pasar una semana en la montaña.
+translate ¦ Voy a llamarte esta noche. ¦ Je vais te téléphoner ce soir. ¦ Je vais t'appeler ce soir. / Ce soir, je vais t'appeler. / Ce soir, je vais te téléphoner.
+translate ¦ No vamos a salir. ¦ Nous n'allons pas sortir. ¦ On ne va pas sortir.
+match ¦ la valise=maleta; déménager=mudarse; prochain=próximo; bientôt=pronto; le billet=billete
+
+=== 16
+title: Tournez à gauche ¦ Gire a la izquierda
+desc: El imperativo: indicar el camino, dar instrucciones y consejos
+gram: imperativo: (tu) regarde, (nous) regardons, (vous) regardez ¦ verbos en -er sin -s en tu ¦ negativo: ne tourne pas ¦ irregulares: sois, aie, va
+ref: a1-imperative
+words: tourner, continuer, traverser, prendre, aller, descendre, monter, suivre, à gauche, à droite, tout droit, la rue, le carrefour, le feu, le pont, la place, le plan, le bout, le coin, loin, près, attendre, écouter, regarder, fermer, ouvrir, répéter, entrer, s'asseoir, excusez-moi
+intro:
+<h3>El imperativo</h3>
+<p>Se forma con el presente, <b>sin sujeto</b>. Solo tres personas:</p>
+<table><tr><td>(tu)</td><td><strong>Regarde !</strong></td><td><strong>Prends</strong> le bus !</td></tr>
+<tr><td>(nous)</td><td><strong>Regardons !</strong></td><td><strong>Prenons</strong> le bus !</td></tr>
+<tr><td>(vous)</td><td><strong>Regardez !</strong></td><td><strong>Prenez</strong> le bus !</td></tr></table>
+<div class="tip">Los verbos en <b>-er</b> (y <i>aller</i>) pierden la <b>-s</b> en tu: <i>tu regardes → <b>regarde</b> !</i>, <i>tu vas → <b>va</b> !</i></div>
+<h3>Negativo y verbos irregulares</h3>
+<div class="example"><strong>Ne</strong> traverse <strong>pas</strong> ! · <strong>N'</strong>oubliez <strong>pas</strong> votre billet !<br>être → <strong>sois, soyons, soyez</strong> · avoir → <strong>aie, ayons, ayez</strong></div>
+<h3>Indicar el camino</h3>
+<div class="example">— <strong>Excusez-moi</strong>, la gare, s'il vous plaît ?<br>— <strong>Allez tout droit</strong>, <strong>prenez</strong> la deuxième rue <strong>à droite</strong>, <strong>traversez</strong> le pont et <strong>tournez à gauche</strong>. C'est <strong>au bout de</strong> la rue.</div>
+<div class="warning">Con los pronominales, el pronombre va detrás con guion: <i>Asseyez-<b>vous</b> !</i> · <i>Lève-<b>toi</b> !</i></div>
+ex:
+fill ¦ ___ la deuxième rue à droite. (vous) ¦ Prenez ¦ Prends / Prenons / Prendre ¦ Coja la segunda calle a la derecha. ¦ Imperativo de vous.
+fill ¦ Paul, ___ la porte, s'il te plaît ! ¦ ferme ¦ fermes / fermez / fermer ¦ Paul, cierra la puerta, por favor. ¦ -er: sin -s en tu.
+fill ¦ Ne ___ pas la rue ici, c'est dangereux ! ¦ traverse ¦ traverses / traversez pas / traverser ¦ ¡No cruces la calle aquí, es peligroso! ¦ ne + imperativo + pas.
+fill ¦ ___ -vous, madame. ¦ Asseyez ¦ Assieds / Asseyons / Asseoir ¦ Siéntese, señora. ¦ Pronominal: pronombre detrás.
+choose ¦ «¡Ten paciencia!» (tú) ¦ Sois patient ! ¦ Es patient ! / Être patient ! / Sois patiente-toi !
+choose ¦ «Todo recto» ¦ tout droit ¦ à droite / tout à droite / droit à gauche
+order ¦ Continuez tout droit jusqu'au carrefour ¦ Siga todo recto hasta el cruce.
+order ¦ La banque est au coin de la rue ¦ El banco está en la esquina de la calle.
+translate ¦ ¡Escucha! ¦ Écoute ! ¦ Écoute
+translate ¦ Gire a la izquierda. ¦ Tournez à gauche. ¦ Tourne à gauche.
+match ¦ à gauche=a la izquierda; tout droit=todo recto; le carrefour=cruce; le feu=semáforo; traverser=cruzar
+
+=== 17
+title: Tu peux venir ? ¦ ¿Puedes venir?
+desc: Pouvoir, vouloir y devoir: invitar, aceptar y rechazar
+gram: pouvoir, vouloir, devoir + infinitivo ¦ invitar: tu veux / tu peux venir ? ¦ aceptar y rechazar: avec plaisir, désolé, je ne peux pas
+ref: a1-pouvoir-vouloir
+words: pouvoir, vouloir, devoir, savoir, inviter, l'invitation, accepter, refuser, avec plaisir, désolé, le rendez-vous, libre, occupé, la soirée, le restaurant, le concert, le cinéma, le théâtre, le musée, venir, sortir, passer, l'idée, d'accord, peut-être, malheureusement, ce soir, demain, l'heure, à plus tard
+intro:
+<h3>Tres verbos muy útiles</h3>
+<table><tr><td><strong>pouvoir</strong> (poder)</td><td>je peux · tu peux · il peut · nous pouvons · vous pouvez · ils peuvent</td></tr>
+<tr><td><strong>vouloir</strong> (querer)</td><td>je veux · tu veux · il veut · nous voulons · vous voulez · ils veulent</td></tr>
+<tr><td><strong>devoir</strong> (deber, tener que)</td><td>je dois · tu dois · il doit · nous devons · vous devez · ils doivent</td></tr></table>
+<p>Van seguidos de <b>infinitivo</b>: <i>Je <b>peux</b> venir. Tu <b>veux</b> sortir ? Je <b>dois</b> travailler.</i></p>
+<h3>Invitar, aceptar, rechazar</h3>
+<div class="example">— <strong>Tu veux</strong> venir au cinéma ce soir ? / <strong>Ça te dit</strong> d'aller au concert ?<br>— <strong>Avec plaisir !</strong> / <strong>Bonne idée !</strong> / <strong>D'accord</strong>, à quelle heure ?<br>— <strong>Désolé</strong>, <strong>je ne peux pas</strong>, <strong>je dois</strong> travailler. <strong>Une autre fois</strong> ?</div>
+<div class="tip"><b>savoir</b> + infinitivo = saber hacer algo (habilidad aprendida): <i>Je <b>sais</b> nager.</i> <b>pouvoir</b> = tener la posibilidad: <i>Je ne <b>peux</b> pas nager aujourd'hui.</i></div>
+<div class="warning">Cortesía: <i>Je <b>voudrais</b>…</i>, <i><b>Pourriez</b>-vous… ?</i> suenan más educados que <i>je veux</i>, <i>pouvez-vous</i>.</div>
+ex:
+fill ¦ Tu ___ venir dîner samedi ? ¦ veux ¦ voulez / veut / vouloir ¦ ¿Quieres venir a cenar el sábado? ¦ tu veux.
+fill ¦ Désolé, je ne ___ pas, je travaille. ¦ peux ¦ peut / pouvez / pouvoir ¦ Lo siento, no puedo, trabajo. ¦ je peux.
+fill ¦ Nous ___ partir à six heures. ¦ devons ¦ doivent / devez / dois ¦ Tenemos que irnos a las seis. ¦ nous devons.
+fill ¦ Vous ___ jouer du piano ? ¦ savez ¦ pouvez de / connaissez / savons ¦ ¿Sabéis / Sabe usted tocar el piano? ¦ savoir + infinitivo = habilidad.
+choose ¦ Aceptas una invitación. ¦ Avec plaisir ! ¦ Désolé, je ne peux pas. / Une autre fois. / Je suis occupé.
+choose ¦ «Tengo que estudiar.» ¦ Je dois étudier. ¦ J'ai que étudier. / Je dois à étudier. / Je dois étudie.
+order ¦ Est-ce que tu peux venir à huit heures ¦ ¿Puedes venir a las ocho?
+order ¦ Ils veulent aller au théâtre ce soir ¦ Quieren ir al teatro esta noche.
+translate ¦ No puedo salir esta noche. ¦ Je ne peux pas sortir ce soir. ¦ Ce soir, je ne peux pas sortir.
+translate ¦ ¿Quieres venir? ¦ Tu veux venir ? ¦ Est-ce que tu veux venir ? / Veux-tu venir ?
+match ¦ avec plaisir=con mucho gusto; malheureusement=desgraciadamente; libre=libre; occupé=ocupado; le rendez-vous=cita
+
+=== 18
+title: Je choisis, je prends ¦ Elijo, cojo
+desc: El presente de los verbos en -ir (finir) y de otros verbos frecuentes en -re y -ir
+gram: -ir tipo finir: nous finissons ¦ -re tipo vendre: il vend ¦ prendre, mettre, partir, sortir, dormir ¦ comprendre, apprendre
+ref: a1-ir-re
+words: finir, choisir, réussir, grandir, réfléchir, vendre, attendre, répondre, entendre, perdre, descendre, prendre, apprendre, comprendre, mettre, partir, sortir, dormir, lire, écrire, dire, boire, connaître, le bus, le métro, la leçon, la langue, le mot, la phrase, l'examen
+intro:
+<h3>Verbos en -ir como finir (2.º grupo)</h3>
+<table><tr><td>je fin<strong>is</strong></td><td>nous fin<strong>issons</strong></td></tr>
+<tr><td>tu fin<strong>is</strong></td><td>vous fin<strong>issez</strong></td></tr>
+<tr><td>il fin<strong>it</strong></td><td>ils fin<strong>issent</strong></td></tr></table>
+<p>Igual: <i>choisir, réussir, grandir, réfléchir</i>.</p>
+<h3>Verbos en -re como vendre</h3>
+<table><tr><td>je vend<strong>s</strong> · tu vend<strong>s</strong> · il vend</td><td>nous vend<strong>ons</strong> · vous vend<strong>ez</strong> · ils vend<strong>ent</strong></td></tr></table>
+<p>Igual: <i>attendre, répondre, entendre, perdre, descendre</i>. En <i>il vend</i> no hay terminación.</p>
+<h3>Otros verbos muy frecuentes</h3>
+<table><tr><td><strong>prendre</strong></td><td>je prends · il prend · nous prenons · ils prennent (igual: apprendre, comprendre)</td></tr>
+<tr><td><strong>partir</strong></td><td>je pars · il part · nous partons · ils partent (igual: sortir, dormir → je dors)</td></tr>
+<tr><td><strong>mettre</strong></td><td>je mets · il met · nous mettons · ils mettent</td></tr>
+<tr><td><strong>lire / écrire / dire</strong></td><td>je lis, nous lisons · j'écris, nous écrivons · je dis, vous <strong>dites</strong></td></tr></table>
+<div class="tip">En el singular, las tres formas suenan igual: <i>je pars, tu pars, il part</i> [par].</div>
+<div class="warning">No todos los verbos en -ir son como finir: <i>partir</i> hace <i>nous <b>partons</b></i> (✗ <i>partissons</i>).</div>
+ex:
+fill ¦ Le cours ___ à midi. ¦ finit ¦ finis / finissent / fini ¦ La clase termina a mediodía. ¦ il finit.
+fill ¦ Nous ___ un cadeau pour Lucie. ¦ choisissons ¦ choisons / choisissez / choisis ¦ Elegimos un regalo para Lucie. ¦ nous -issons.
+fill ¦ J'___ le bus devant l'école. ¦ attends ¦ attend / attendons / attende ¦ Espero el autobús delante del colegio. ¦ j'attends.
+fill ¦ Ils ___ le métro tous les jours. ¦ prennent ¦ prenent / prendent / prennons ¦ Cogen el metro todos los días. ¦ ils prennent.
+choose ¦ Elige la forma correcta. ¦ nous partons ¦ nous partissons / nous partons-nous / nous partez
+choose ¦ «¿Qué decís?» ¦ Qu'est-ce que vous dites ? ¦ Qu'est-ce que vous disez ? / Qu'est-ce que vous dissez ? / Qu'est-ce que vous dit ?
+order ¦ Je ne comprends pas cette phrase ¦ No entiendo esta frase.
+order ¦ Elle lit un livre et il écrit une lettre ¦ Ella lee un libro y él escribe una carta.
+translate ¦ Aprendo francés. ¦ J'apprends le français. ¦ J'apprends le français
+translate ¦ ¿A qué hora salís? ¦ Vous partez à quelle heure ? ¦ À quelle heure vous partez ? / À quelle heure partez-vous ? / À quelle heure est-ce que vous partez ?
+match ¦ réussir=conseguir, aprobar; grandir=crecer; perdre=perder; mettre=poner; répondre=responder
+
+=== 19
+title: Hier, j'ai mangé au restaurant ¦ Ayer comí en un restaurante
+desc: Introducción al passé composé con avoir
+gram: avoir + participio ¦ participios: -er → é, -ir → i, irregulares (pris, fait, vu, bu, lu, eu, été) ¦ marcadores: hier, la semaine dernière, il y a deux jours
+ref: a1-passe-compose
+words: hier, dernier, le week-end, la soirée, déjà, manger, acheter, regarder, visiter, travailler, téléphoner, rencontrer, finir, choisir, dormir, faire, prendre, voir, boire, lire, écrire, avoir, être, le film, le concert, le restaurant, le repas, le voyage, la fois, une fois
+intro:
+<h3>El passé composé: el pasado más usado</h3>
+<p>Se forma con el presente de <b>avoir</b> + el <b>participio</b>. Sirve para «he comido» y también para «comí»:</p>
+<table><tr><td>j'<strong>ai</strong> mangé</td><td>nous <strong>avons</strong> mangé</td></tr>
+<tr><td>tu <strong>as</strong> mangé</td><td>vous <strong>avez</strong> mangé</td></tr>
+<tr><td>il / elle <strong>a</strong> mangé</td><td>ils / elles <strong>ont</strong> mangé</td></tr></table>
+<h3>El participio</h3>
+<table><tr><td>-er → <strong>-é</strong></td><td>manger → mangé · regarder → regardé</td></tr>
+<tr><td>-ir → <strong>-i</strong></td><td>finir → fini · dormir → dormi</td></tr>
+<tr><td>irregulares</td><td>faire → <strong>fait</strong> · prendre → <strong>pris</strong> · voir → <strong>vu</strong> · boire → <strong>bu</strong> · lire → <strong>lu</strong> · avoir → <strong>eu</strong> · être → <strong>été</strong> · écrire → <strong>écrit</strong></td></tr></table>
+<h3>La negación rodea al auxiliar</h3>
+<div class="example">Je <strong>n'</strong>ai <strong>pas</strong> vu le film. · Il <strong>n'</strong>a <strong>jamais</strong> pris l'avion.</div>
+<div class="tip">Marcadores: <b>hier</b>, <b>hier soir</b>, <b>la semaine dernière</b>, <b>l'année dernière</b>, <b>il y a deux jours</b> (hace dos días), <b>déjà</b> (ya).</div>
+<div class="warning">Algunos verbos (aller, venir, partir…) usan <b>être</b>: lo veremos en A2. Por ahora: <i>je suis allé</i> = fui / he ido.</div>
+ex:
+fill ¦ Hier, j'___ regardé un film. ¦ ai ¦ as / suis / a ¦ Ayer vi una película. ¦ j'ai + participio.
+fill ¦ Nous avons ___ une pizza. ¦ mangé ¦ manger / mangeons / mangés ¦ Comimos una pizza. ¦ -er → -é.
+fill ¦ Qu'est-ce que tu as ___ le week-end dernier ? ¦ fait ¦ faire / fais / faité ¦ ¿Qué hiciste el fin de semana pasado? ¦ faire → fait.
+fill ¦ Elle n'a pas ___ le livre. ¦ lu ¦ lit / lis / liré ¦ No ha leído el libro. ¦ lire → lu.
+choose ¦ «Hace dos días» ¦ il y a deux jours ¦ ça fait deux jours avant / deux jours il y a / dans deux jours
+choose ¦ «No he visto a Paul.» ¦ Je n'ai pas vu Paul. ¦ Je ne pas ai vu Paul. / Je n'ai vu pas Paul. / Je ne ai pas vu Paul.
+order ¦ La semaine dernière nous avons visité Rome ¦ La semana pasada visitamos Roma.
+order ¦ Ils ont pris le train à huit heures ¦ Cogieron el tren a las ocho.
+translate ¦ Ayer trabajé mucho. ¦ Hier, j'ai beaucoup travaillé. ¦ Hier j'ai beaucoup travaillé / J'ai beaucoup travaillé hier.
+translate ¦ ¿Has comido? ¦ Tu as mangé ? ¦ Est-ce que tu as mangé ? / As-tu mangé ?
+match ¦ hier=ayer; dernier=pasado, último; déjà=ya; une fois=una vez; il y a=hace (tiempo)
+
+=== 20
+title: J'adore le cinéma ¦ Me encanta el cine
+desc: Gustos y aficiones: aimer, adorer, préférer, détester
+gram: aimer / adorer / détester + le, la, les ¦ + infinitivo: j'aime lire ¦ préférer (je préfère) ¦ moi aussi, moi non plus, moi si, pas moi
+ref: a1-likes
+words: aimer, adorer, détester, préférer, le loisir, le sport, la musique, la lecture, la danse, la peinture, la photo, le jeu, le jeu vidéo, la randonnée, la cuisine, le voyage, le chat, le chien, nager, lire, dessiner, chanter, cuisiner, intéressant, ennuyeux, amusant, génial, nul, préféré, aussi
+intro:
+<h3>Expresar gustos</h3>
+<table><tr><td>❤️❤️ <strong>adorer</strong></td><td>J'<strong>adore</strong> le chocolat.</td></tr>
+<tr><td>❤️ <strong>aimer (bien)</strong></td><td>J'<strong>aime bien</strong> le jazz.</td></tr>
+<tr><td>👎 <strong>ne pas aimer</strong></td><td>Je <strong>n'aime pas</strong> le foot.</td></tr>
+<tr><td>👎👎 <strong>détester</strong></td><td>Je <strong>déteste</strong> le froid.</td></tr>
+<tr><td>⚖️ <strong>préférer</strong></td><td>Je <strong>préfère</strong> le thé. (je préf<b>è</b>re, nous préf<b>é</b>rons)</td></tr></table>
+<p>Tras estos verbos va el <b>artículo definido</b> (el gusto en general): <i>J'aime <b>la</b> musique</i>, o un <b>infinitivo</b>: <i>J'aime <b>lire</b>, je déteste <b>cuisiner</b>.</i></p>
+<div class="tip">«Me gusta» se construye al revés que en español: el sujeto es la persona. <i><b>J'</b>aime les chats</i> = me gustan los gatos.</div>
+<h3>Reaccionar</h3>
+<table><tr><td>— J'aime le jazz. — <strong>Moi aussi.</strong> / <strong>Pas moi.</strong></td><td>Yo también. / Yo no.</td></tr>
+<tr><td>— Je n'aime pas le jazz. — <strong>Moi non plus.</strong> / <strong>Moi si.</strong></td><td>Yo tampoco. / Yo sí.</td></tr></table>
+<div class="warning">Tras una frase negativa, «yo sí» es <b>moi si</b>, no <i>moi oui</i>.</div>
+ex:
+fill ¦ J'adore ___ musique classique. ¦ la ¦ de la / une / du ¦ Me encanta la música clásica. ¦ Gustos: artículo definido.
+fill ¦ Mon frère aime ___ des photos. ¦ prendre ¦ prend / pris / à prendre ¦ A mi hermano le gusta hacer fotos. ¦ aimer + infinitivo.
+fill ¦ Je ___ le thé au café. ¦ préfère ¦ préféré / préfèrer / préfères ¦ Prefiero el té al café. ¦ je préfère.
+fill ¦ — Je n'aime pas le foot. — Moi non ___ . ¦ plus ¦ aussi / pas / si ¦ —No me gusta el fútbol. —A mí tampoco. ¦ moi non plus.
+choose ¦ —Je n'aime pas les films d'horreur. —(A mí sí.) ¦ Moi si. ¦ Moi oui. / Moi aussi. / Moi non plus.
+choose ¦ «Me gustan los gatos.» ¦ J'aime les chats. ¦ Les chats me plaisent aime. / J'aime des chats. / Me aime les chats.
+order ¦ Nous adorons faire de la randonnée ¦ Nos encanta hacer senderismo.
+order ¦ Elle déteste les jeux vidéo ¦ Odia los videojuegos.
+translate ¦ Me gusta leer. ¦ J'aime lire. ¦ J'aime bien lire. / J'adore lire.
+translate ¦ Yo también. ¦ Moi aussi. ¦ Moi aussi
+match ¦ adorer=encantar; détester=odiar; ennuyeux=aburrido; nager=nadar; le loisir=ocio

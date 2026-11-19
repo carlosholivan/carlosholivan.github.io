@@ -8,6 +8,15 @@ service cloud.firestore {
     match /users/{uid} {
       allow read, write: if verified() && request.auth.uid == uid;
     }
+    // French app public ranking (same Firebase project as the Spanish and English apps).
+    match /ranking_francais/{uid} {
+      allow read: if verified();
+      allow delete: if verified() && request.auth.uid == uid;
+      allow create, update: if verified() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['name', 'score', 'words', 'mastered', 'lessons', 'sets', 'streak', 't'])
+        && request.resource.data.name is string && request.resource.data.name.size() <= 30
+        && request.resource.data.score is int && request.resource.data.score >= 0 && request.resource.data.score <= 200000;
+    }
     // English app public ranking (same Firebase project as the Spanish app).
     match /ranking_english/{uid} {
       allow read: if verified();
