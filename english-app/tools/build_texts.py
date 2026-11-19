@@ -37,7 +37,9 @@ for lv in LEVELS:
     if not p.exists():
         continue
     for v in json.loads(p.read_text(encoding='utf8')):
-        for k in {v['word'].lower(), v.get('us', '').lower()} - {''}:
+        for w0 in {v['word'], v.get('us', '')} - {''}:
+            # names, months and acronyms (May, IT) keep their capital letter so they don't gloss may / it
+            k = w0 if (w0[:1].isupper() and (w0[1:2].islower() or w0.isupper())) else w0.lower()
             VOC.setdefault(k, v['m']); LVOF.setdefault(k, lv)
 EXTRA = {}
 xp = ROOT / 'tools' / 'texts_src' / 'extra_gloss.txt'
@@ -57,7 +59,7 @@ def mean(k):
 
 def gloss_of(tok):
     s = tok.text.lower().replace('’', "'")
-    m = mean(s)
+    m = (mean(tok.text) if tok.text[:1].isupper() and tok.i > 0 and not tok.is_sent_start else None) or mean(s) or mean(tok.text)
     if m:
         return m
     lem = tok.lemma_.lower()
@@ -66,8 +68,24 @@ def gloss_of(tok):
     m = mean(lem)
     if m and lem != s:
         return {l: f'{lem}: {m[l]}' for l in L3}
-    return m
+    if m:
+        return m
+    for base in (IRR.get(s), s[:-1], s[:-2], s[:-3], s[:-3] + 'y', s[:-2] + 'e', s[:-3] + 'e', s[:-4] + 'y', s[:-2] if s.endswith('ly') else None):
+        if base and len(base) > 2 and mean(base):
+            return {l: f'{base}: {mean(base)[l]}' for l in L3}
+    return None
 
+
+# irregular past forms and participles → base form (from js/conj.js)
+import subprocess
+IRR = {}
+try:
+    _r = subprocess.run(['node', '--input-type=module', '-e', f"""import('{(ROOT / 'js' / 'conj.js').as_uri()}').then(m => console.log(JSON.stringify(m.VERBS.map(v => [v.w, m.pastOf(v), m.participle(v)]))))"""], capture_output=True, text=True, timeout=60)
+    for w, pa, pp in json.loads(_r.stdout):
+        for f in (pa + '/' + pp).split('/'):
+            IRR.setdefault(f.lower(), w)
+except Exception as e:
+    print('irregular forms not available:', e)
 
 # ── verb phrases ─────────────────────────────────────────────────────────
 MODALS = {'can', 'could', 'may', 'might', 'must', 'should', 'shall', 'ought'}

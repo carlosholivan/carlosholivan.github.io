@@ -1,0 +1,15759 @@
+[
+{
+"word": "personality",
+"m": {
+"es": "personalidad"
+},
+"pos": "noun",
+"w": "personality",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1072
+},
+{
+"word": "ambition",
+"m": {
+"es": "ambición"
+},
+"pos": "noun",
+"w": "ambition",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1073
+},
+{
+"word": "lifestyle",
+"m": {
+"es": "estilo de vida"
+},
+"pos": "noun",
+"w": "lifestyle",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1074
+},
+{
+"word": "normal",
+"m": {
+"es": "normal"
+},
+"pos": "adjective",
+"w": "normal",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1075
+},
+{
+"word": "regular",
+"m": {
+"es": "regular, habitual"
+},
+"pos": "adjective",
+"w": "regular",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1076
+},
+{
+"word": "regularly",
+"m": {
+"es": "con regularidad"
+},
+"pos": "adverb",
+"w": "regularly",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1077
+},
+{
+"word": "common",
+"m": {
+"es": "común"
+},
+"pos": "adjective",
+"w": "common",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1078
+},
+{
+"word": "member",
+"m": {
+"es": "miembro, socio"
+},
+"pos": "noun",
+"w": "member",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1079
+},
+{
+"word": "chat",
+"m": {
+"es": "charlar; charla"
+},
+"pos": "noun/verb",
+"w": "chat",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1080
+},
+{
+"word": "contact",
+"m": {
+"es": "contacto; contactar"
+},
+"pos": "noun/verb",
+"w": "contact",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1081
+},
+{
+"word": "description",
+"m": {
+"es": "descripción"
+},
+"pos": "noun",
+"w": "description",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1082
+},
+{
+"word": "opinion",
+"m": {
+"es": "opinión"
+},
+"pos": "noun",
+"w": "opinion",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1083
+},
+{
+"word": "interest",
+"m": {
+"es": "interés"
+},
+"pos": "noun/verb",
+"w": "interest",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1084
+},
+{
+"word": "nowadays",
+"m": {
+"es": "hoy en día"
+},
+"pos": "adverb",
+"w": "nowadays",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1085
+},
+{
+"word": "especially",
+"m": {
+"es": "especialmente"
+},
+"pos": "adverb",
+"w": "especially",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1086
+},
+{
+"word": "mostly",
+"m": {
+"es": "sobre todo"
+},
+"pos": "adverb",
+"w": "mostly",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1087
+},
+{
+"word": "mainly",
+"m": {
+"es": "principalmente"
+},
+"pos": "adverb",
+"w": "mainly",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1088
+},
+{
+"word": "quite",
+"m": {
+"es": "bastante"
+},
+"pos": "adverb",
+"w": "quite",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1089
+},
+{
+"word": "rather",
+"m": {
+"es": "más bien; (would rather) preferir"
+},
+"pos": "adverb",
+"w": "rather",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1090
+},
+{
+"word": "fairly",
+"m": {
+"es": "bastante; con justicia"
+},
+"pos": "adverb",
+"w": "fairly",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1091
+},
+{
+"word": "cheerful",
+"m": {
+"es": "alegre"
+},
+"pos": "adjective",
+"w": "cheerful",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1092
+},
+{
+"word": "confident",
+"m": {
+"es": "seguro de sí mismo"
+},
+"pos": "adjective",
+"w": "confident",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1093
+},
+{
+"word": "polite",
+"m": {
+"es": "educado"
+},
+"pos": "adjective",
+"w": "polite",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1094
+},
+{
+"word": "honest",
+"m": {
+"es": "sincero, honrado"
+},
+"pos": "adjective",
+"w": "honest",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1095
+},
+{
+"word": "creative",
+"m": {
+"es": "creativo"
+},
+"pos": "adjective",
+"w": "creative",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1096
+},
+{
+"word": "energetic",
+"m": {
+"es": "enérgico"
+},
+"pos": "adjective",
+"w": "energetic",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1097
+},
+{
+"word": "childhood",
+"m": {
+"es": "infancia"
+},
+"pos": "noun",
+"w": "childhood",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1098
+},
+{
+"word": "die",
+"m": {
+"es": "morir"
+},
+"pos": "verb",
+"w": "die",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1099
+},
+{
+"word": "death",
+"m": {
+"es": "muerte"
+},
+"pos": "noun",
+"w": "death",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1100
+},
+{
+"word": "marry",
+"m": {
+"es": "casarse con"
+},
+"pos": "verb",
+"w": "marry",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1101
+},
+{
+"word": "wedding",
+"m": {
+"es": "boda"
+},
+"pos": "noun",
+"w": "wedding",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1102
+},
+{
+"word": "retire",
+"m": {
+"es": "jubilarse"
+},
+"pos": "verb",
+"w": "retire",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1103
+},
+{
+"word": "graduate",
+"m": {
+"es": "licenciado; licenciarse"
+},
+"pos": "noun/verb",
+"w": "graduate",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1104
+},
+{
+"word": "university",
+"m": {
+"es": "universidad"
+},
+"pos": "noun",
+"w": "university",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1105
+},
+{
+"word": "degree",
+"m": {
+"es": "grado; título universitario"
+},
+"pos": "noun",
+"w": "degree",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1106
+},
+{
+"word": "career",
+"m": {
+"es": "carrera profesional"
+},
+"pos": "noun",
+"w": "career",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1107
+},
+{
+"word": "achieve",
+"m": {
+"es": "lograr, conseguir"
+},
+"pos": "verb",
+"w": "achieve",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1108
+},
+{
+"word": "success",
+"m": {
+"es": "éxito"
+},
+"pos": "noun",
+"w": "success",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1109
+},
+{
+"word": "award",
+"m": {
+"es": "premio; premiar"
+},
+"pos": "noun/verb",
+"w": "award",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1110
+},
+{
+"word": "century",
+"m": {
+"es": "siglo"
+},
+"pos": "noun",
+"w": "century",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1111
+},
+{
+"word": "decade",
+"m": {
+"es": "década"
+},
+"pos": "noun",
+"w": "decade",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1112
+},
+{
+"word": "during",
+"m": {
+"es": "durante"
+},
+"pos": "preposition",
+"w": "during",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1113
+},
+{
+"word": "finally",
+"m": {
+"es": "por fin, finalmente"
+},
+"pos": "adverb",
+"w": "finally",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1114
+},
+{
+"word": "ancient",
+"m": {
+"es": "antiguo"
+},
+"pos": "adjective",
+"w": "ancient",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1115
+},
+{
+"word": "while",
+"m": {
+"es": "mientras; un rato"
+},
+"pos": "conjunction/noun",
+"w": "while",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1116
+},
+{
+"word": "suddenly",
+"m": {
+"es": "de repente"
+},
+"pos": "adverb",
+"w": "suddenly",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1117
+},
+{
+"word": "sudden",
+"m": {
+"es": "repentino"
+},
+"pos": "adjective",
+"w": "sudden",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1118
+},
+{
+"word": "accident",
+"m": {
+"es": "accidente"
+},
+"pos": "noun",
+"w": "accident",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1119
+},
+{
+"word": "notice",
+"m": {
+"es": "notar, darse cuenta; aviso"
+},
+"pos": "noun/verb",
+"w": "notice",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1120
+},
+{
+"word": "shout",
+"m": {
+"es": "gritar"
+},
+"pos": "noun/verb",
+"w": "shout",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1121
+},
+{
+"word": "scream",
+"m": {
+"es": "gritar; grito"
+},
+"pos": "noun/verb",
+"w": "scream",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1122
+},
+{
+"word": "fall",
+"m": {
+"es": "caer(se); otoño (EE. UU.)"
+},
+"pos": "noun/verb",
+"w": "fall",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1123
+},
+{
+"word": "hit",
+"m": {
+"es": "golpear; éxito"
+},
+"pos": "noun/verb",
+"w": "hit",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1124
+},
+{
+"word": "injure",
+"m": {
+"es": "herir, lesionar"
+},
+"pos": "verb",
+"w": "injure",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1125
+},
+{
+"word": "ambulance",
+"m": {
+"es": "ambulancia"
+},
+"pos": "noun",
+"w": "ambulance",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1126
+},
+{
+"word": "storm",
+"m": {
+"es": "tormenta"
+},
+"pos": "noun",
+"w": "storm",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1127
+},
+{
+"word": "thunderstorm",
+"m": {
+"es": "tormenta eléctrica"
+},
+"pos": "noun",
+"w": "thunderstorm",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1128
+},
+{
+"word": "lightning",
+"m": {
+"es": "relámpago, rayo"
+},
+"pos": "noun",
+"w": "lightning",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1129
+},
+{
+"word": "wet",
+"m": {
+"es": "mojado"
+},
+"pos": "adjective",
+"w": "wet",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1130
+},
+{
+"word": "frightened",
+"m": {
+"es": "asustado"
+},
+"pos": "adjective",
+"w": "frightened",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1131
+},
+{
+"word": "frightening",
+"m": {
+"es": "aterrador"
+},
+"pos": "adjective",
+"w": "frightening",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1132
+},
+{
+"word": "crowd",
+"m": {
+"es": "multitud"
+},
+"pos": "noun",
+"w": "crowd",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1133
+},
+{
+"word": "luckily",
+"m": {
+"es": "por suerte"
+},
+"pos": "adverb",
+"w": "luckily",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1134
+},
+{
+"word": "unfortunately",
+"m": {
+"es": "por desgracia"
+},
+"pos": "adverb",
+"w": "unfortunately",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1135
+},
+{
+"word": "fortunately",
+"m": {
+"es": "afortunadamente"
+},
+"pos": "adverb",
+"w": "fortunately",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1136
+},
+{
+"word": "scene",
+"m": {
+"es": "escena"
+},
+"pos": "noun",
+"w": "scene",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1137
+},
+{
+"word": "mood",
+"m": {
+"es": "humor, estado de ánimo"
+},
+"pos": "noun",
+"w": "mood",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1138
+},
+{
+"word": "amused",
+"m": {
+"es": "divertido (que se divierte)"
+},
+"pos": "adjective",
+"w": "amused",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1139
+},
+{
+"word": "annoyed",
+"m": {
+"es": "molesto, enfadado"
+},
+"pos": "adjective",
+"w": "annoyed",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1140
+},
+{
+"word": "annoying",
+"m": {
+"es": "molesto, irritante"
+},
+"pos": "adjective",
+"w": "annoying",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1141
+},
+{
+"word": "anxious",
+"m": {
+"es": "ansioso, preocupado"
+},
+"pos": "adjective",
+"w": "anxious",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1142
+},
+{
+"word": "disappointed",
+"m": {
+"es": "decepcionado"
+},
+"pos": "adjective",
+"w": "disappointed",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1143
+},
+{
+"word": "disappointing",
+"m": {
+"es": "decepcionante"
+},
+"pos": "adjective",
+"w": "disappointing",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1144
+},
+{
+"word": "embarrassed",
+"m": {
+"es": "avergonzado"
+},
+"pos": "adjective",
+"w": "embarrassed",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1145
+},
+{
+"word": "embarrassing",
+"m": {
+"es": "vergonzoso, embarazoso"
+},
+"pos": "adjective",
+"w": "embarrassing",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1146
+},
+{
+"word": "surprised",
+"m": {
+"es": "sorprendido"
+},
+"pos": "adjective",
+"w": "surprised",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1147
+},
+{
+"word": "surprising",
+"m": {
+"es": "sorprendente"
+},
+"pos": "adjective",
+"w": "surprising",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1148
+},
+{
+"word": "worried",
+"m": {
+"es": "preocupado"
+},
+"pos": "adjective",
+"w": "worried",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1149
+},
+{
+"word": "relaxed",
+"m": {
+"es": "relajado"
+},
+"pos": "adjective",
+"w": "relaxed",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1150
+},
+{
+"word": "pleased",
+"m": {
+"es": "contento, satisfecho"
+},
+"pos": "adjective",
+"w": "pleased",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1151
+},
+{
+"word": "upset",
+"m": {
+"es": "disgustado; disgustar"
+},
+"pos": "adjective/verb",
+"w": "upset",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1152
+},
+{
+"word": "nervous",
+"m": {
+"es": "nervioso"
+},
+"pos": "adjective",
+"w": "nervous",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1153
+},
+{
+"word": "confused",
+"m": {
+"es": "confundido"
+},
+"pos": "adjective",
+"w": "confused",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1154
+},
+{
+"word": "angrily",
+"m": {
+"es": "con enfado"
+},
+"pos": "adverb",
+"w": "angrily",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1155
+},
+{
+"word": "happily",
+"m": {
+"es": "felizmente"
+},
+"pos": "adverb",
+"w": "happily",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1156
+},
+{
+"word": "sadly",
+"m": {
+"es": "tristemente"
+},
+"pos": "adverb",
+"w": "sadly",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1157
+},
+{
+"word": "quietly",
+"m": {
+"es": "en silencio"
+},
+"pos": "adverb",
+"w": "quietly",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1158
+},
+{
+"word": "loudly",
+"m": {
+"es": "en voz alta"
+},
+"pos": "adverb",
+"w": "loudly",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1159
+},
+{
+"word": "slowly",
+"m": {
+"es": "despacio"
+},
+"pos": "adverb",
+"w": "slowly",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1160
+},
+{
+"word": "badly",
+"m": {
+"es": "mal"
+},
+"pos": "adverb",
+"w": "badly",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1161
+},
+{
+"word": "easily",
+"m": {
+"es": "fácilmente"
+},
+"pos": "adverb",
+"w": "easily",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1162
+},
+{
+"word": "cash",
+"m": {
+"es": "dinero en efectivo"
+},
+"pos": "noun",
+"w": "cash",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1163
+},
+{
+"word": "coin",
+"m": {
+"es": "moneda"
+},
+"pos": "noun",
+"w": "coin",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1164
+},
+{
+"word": "credit",
+"m": {
+"es": "crédito"
+},
+"pos": "noun",
+"w": "credit",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1165
+},
+{
+"word": "bill",
+"m": {
+"es": "factura; cuenta (restaurante)"
+},
+"pos": "noun/verb",
+"w": "bill",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1166
+},
+{
+"word": "receipt",
+"m": {
+"es": "recibo, tique"
+},
+"pos": "noun",
+"w": "receipt",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1167
+},
+{
+"word": "cost",
+"m": {
+"es": "costar; coste"
+},
+"pos": "noun/verb",
+"w": "cost",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1168
+},
+{
+"word": "bargain",
+"m": {
+"es": "ganga"
+},
+"pos": "noun/verb",
+"w": "bargain",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1169
+},
+{
+"word": "discount",
+"m": {
+"es": "descuento"
+},
+"pos": "noun",
+"w": "discount",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1170
+},
+{
+"word": "afford",
+"m": {
+"es": "permitirse (económicamente)"
+},
+"pos": "verb",
+"w": "afford",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1171
+},
+{
+"word": "earn",
+"m": {
+"es": "ganar (dinero)"
+},
+"pos": "verb",
+"w": "earn",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1172
+},
+{
+"word": "waste",
+"m": {
+"es": "malgastar; residuos"
+},
+"pos": "adjective/noun/verb",
+"w": "waste",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1173
+},
+{
+"word": "customer",
+"m": {
+"es": "cliente"
+},
+"pos": "noun",
+"w": "customer",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1174
+},
+{
+"word": "shop assistant",
+"m": {
+"es": "dependiente"
+},
+"pos": "noun",
+"w": "shop assistant",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1175
+},
+{
+"word": "department store",
+"m": {
+"es": "grandes almacenes"
+},
+"pos": "noun",
+"w": "department store",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1176
+},
+{
+"word": "market",
+"m": {
+"es": "mercado"
+},
+"pos": "noun/verb",
+"w": "market",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1177
+},
+{
+"word": "mall",
+"m": {
+"es": "centro comercial"
+},
+"pos": "noun",
+"w": "mall",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1178
+},
+{
+"word": "budget",
+"m": {
+"es": "presupuesto"
+},
+"pos": "adjective/noun",
+"w": "budget",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1179
+},
+{
+"word": "enough",
+"m": {
+"es": "suficiente, bastante"
+},
+"pos": "adverb/determiner/pronoun",
+"w": "enough",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1180
+},
+{
+"word": "few",
+"m": {
+"es": "pocos (a few: unos pocos)"
+},
+"pos": "determiner/pronoun",
+"w": "few",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1181
+},
+{
+"word": "plenty",
+"m": {
+"es": "(plenty of) mucho, de sobra"
+},
+"pos": "noun/pronoun",
+"w": "plenty",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1182
+},
+{
+"word": "several",
+"m": {
+"es": "varios"
+},
+"pos": "determiner/pronoun",
+"w": "several",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1183
+},
+{
+"word": "half-price",
+"m": {
+"es": "a mitad de precio"
+},
+"pos": "adjective/adverb",
+"w": "half-price",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1184
+},
+{
+"word": "compare",
+"m": {
+"es": "comparar"
+},
+"pos": "verb",
+"w": "compare",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1185
+},
+{
+"word": "comparative",
+"m": {
+"es": "comparativo"
+},
+"pos": "noun",
+"w": "comparative",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1186
+},
+{
+"word": "similar",
+"m": {
+"es": "parecido"
+},
+"pos": "adjective",
+"w": "similar",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1187
+},
+{
+"word": "modern",
+"m": {
+"es": "moderno"
+},
+"pos": "adjective",
+"w": "modern",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1188
+},
+{
+"word": "traditional",
+"m": {
+"es": "tradicional"
+},
+"pos": "adjective",
+"w": "traditional",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1189
+},
+{
+"word": "comfortable",
+"m": {
+"es": "cómodo"
+},
+"pos": "adjective",
+"w": "comfortable",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1190
+},
+{
+"word": "convenient",
+"m": {
+"es": "práctico, conveniente"
+},
+"pos": "adjective",
+"w": "convenient",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1191
+},
+{
+"word": "crowded",
+"m": {
+"es": "abarrotado"
+},
+"pos": "adjective",
+"w": "crowded",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1192
+},
+{
+"word": "noisy",
+"m": {
+"es": "ruidoso"
+},
+"pos": "adjective",
+"w": "noisy",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1193
+},
+{
+"word": "peaceful",
+"m": {
+"es": "tranquilo, pacífico"
+},
+"pos": "adjective",
+"w": "peaceful",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1194
+},
+{
+"word": "safe",
+"m": {
+"es": "seguro (sin peligro); caja fuerte"
+},
+"pos": "adjective",
+"w": "safe",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1195
+},
+{
+"word": "dangerous",
+"m": {
+"es": "peligroso"
+},
+"pos": "adjective",
+"w": "dangerous",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1196
+},
+{
+"word": "lively",
+"m": {
+"es": "animado, alegre"
+},
+"pos": "adjective",
+"w": "lively",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1197
+},
+{
+"word": "wide",
+"m": {
+"es": "ancho"
+},
+"pos": "adjective/adverb",
+"w": "wide",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1198
+},
+{
+"word": "narrow",
+"m": {
+"es": "estrecho"
+},
+"pos": "adjective",
+"w": "narrow",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1199
+},
+{
+"word": "deep",
+"m": {
+"es": "profundo"
+},
+"pos": "adjective/adverb",
+"w": "deep",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1200
+},
+{
+"word": "unhealthy",
+"m": {
+"es": "poco saludable"
+},
+"pos": "adjective",
+"w": "unhealthy",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1201
+},
+{
+"word": "worse",
+"m": {
+"es": "peor"
+},
+"pos": "adjective/adverb/noun",
+"w": "worse",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1202
+},
+{
+"word": "less",
+"m": {
+"es": "menos"
+},
+"pos": "adverb/determiner/pronoun",
+"w": "less",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1203
+},
+{
+"word": "countryside",
+"m": {
+"es": "campo (zona rural)"
+},
+"pos": "noun",
+"w": "countryside",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1204
+},
+{
+"word": "village",
+"m": {
+"es": "pueblo"
+},
+"pos": "noun",
+"w": "village",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1205
+},
+{
+"word": "worst",
+"m": {
+"es": "el peor"
+},
+"pos": "adjective/adverb/noun",
+"w": "worst",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1206
+},
+{
+"word": "superlative",
+"m": {
+"es": "superlativo"
+},
+"pos": "noun",
+"w": "superlative",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1207
+},
+{
+"word": "ever",
+"m": {
+"es": "alguna vez; nunca (en comparaciones)"
+},
+"pos": "adverb",
+"w": "ever",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1208
+},
+{
+"word": "record",
+"m": {
+"es": "grabar; récord; disco"
+},
+"pos": "noun/verb",
+"w": "record",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1209
+},
+{
+"word": "unforgettable",
+"m": {
+"es": "inolvidable"
+},
+"pos": "adjective",
+"w": "unforgettable",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1210
+},
+{
+"word": "amazing",
+"m": {
+"es": "increíble, asombroso"
+},
+"pos": "adjective",
+"w": "amazing",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1211
+},
+{
+"word": "fantastic",
+"m": {
+"es": "fantástico"
+},
+"pos": "adjective",
+"w": "fantastic",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1212
+},
+{
+"word": "incredible",
+"m": {
+"es": "increíble"
+},
+"pos": "adjective",
+"w": "incredible",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1213
+},
+{
+"word": "enormous",
+"m": {
+"es": "enorme"
+},
+"pos": "adjective",
+"w": "enormous",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1214
+},
+{
+"word": "tiny",
+"m": {
+"es": "diminuto"
+},
+"pos": "adjective",
+"w": "tiny",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1215
+},
+{
+"word": "popular",
+"m": {
+"es": "popular"
+},
+"pos": "adjective",
+"w": "popular",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1216
+},
+{
+"word": "natural",
+"m": {
+"es": "natural"
+},
+"pos": "adjective",
+"w": "natural",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1217
+},
+{
+"word": "wonder",
+"m": {
+"es": "preguntarse; maravilla"
+},
+"pos": "noun/verb",
+"w": "wonder",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1218
+},
+{
+"word": "desert",
+"m": {
+"es": "desierto"
+},
+"pos": "noun/verb",
+"w": "desert",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1219
+},
+{
+"word": "ocean",
+"m": {
+"es": "océano"
+},
+"pos": "noun",
+"w": "ocean",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1220
+},
+{
+"word": "continent",
+"m": {
+"es": "continente"
+},
+"pos": "noun",
+"w": "continent",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1221
+},
+{
+"word": "planet",
+"m": {
+"es": "planeta"
+},
+"pos": "noun",
+"w": "planet",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1222
+},
+{
+"word": "population",
+"m": {
+"es": "población"
+},
+"pos": "noun",
+"w": "population",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1223
+},
+{
+"word": "capital",
+"m": {
+"es": "capital; mayúscula"
+},
+"pos": "noun",
+"w": "capital",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1224
+},
+{
+"word": "national",
+"m": {
+"es": "nacional"
+},
+"pos": "adjective",
+"w": "national",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1225
+},
+{
+"word": "international",
+"m": {
+"es": "internacional"
+},
+"pos": "adjective",
+"w": "international",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1226
+},
+{
+"word": "tourist",
+"m": {
+"es": "turista"
+},
+"pos": "noun",
+"w": "tourist",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1227
+},
+{
+"word": "sightseeing",
+"m": {
+"es": "turismo, visitas"
+},
+"pos": "noun",
+"w": "sightseeing",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1228
+},
+{
+"word": "landscape",
+"m": {
+"es": "paisaje"
+},
+"pos": "noun/verb",
+"w": "landscape",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1229
+},
+{
+"word": "scenery",
+"m": {
+"es": "paisaje"
+},
+"pos": "noun",
+"w": "scenery",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1230
+},
+{
+"word": "law",
+"m": {
+"es": "ley; derecho"
+},
+"pos": "noun",
+"w": "law",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1231
+},
+{
+"word": "allow",
+"m": {
+"es": "permitir"
+},
+"pos": "verb",
+"w": "allow",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1232
+},
+{
+"word": "forbid",
+"m": {
+"es": "prohibir"
+},
+"pos": "verb",
+"w": "forbid",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1233
+},
+{
+"word": "permission",
+"m": {
+"es": "permiso"
+},
+"pos": "noun",
+"w": "permission",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1234
+},
+{
+"word": "necessary",
+"m": {
+"es": "necesario"
+},
+"pos": "adjective",
+"w": "necessary",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1235
+},
+{
+"word": "unnecessary",
+"m": {
+"es": "innecesario"
+},
+"pos": "adjective",
+"w": "unnecessary",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1236
+},
+{
+"word": "illegal",
+"m": {
+"es": "ilegal"
+},
+"pos": "adjective",
+"w": "illegal",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1237
+},
+{
+"word": "uniform",
+"m": {
+"es": "uniforme"
+},
+"pos": "adjective/noun",
+"w": "uniform",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1238
+},
+{
+"word": "entrance",
+"m": {
+"es": "entrada"
+},
+"pos": "noun",
+"w": "entrance",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1239
+},
+{
+"word": "exit",
+"m": {
+"es": "salida"
+},
+"pos": "noun/verb",
+"w": "exit",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1240
+},
+{
+"word": "private",
+"m": {
+"es": "privado"
+},
+"pos": "adjective",
+"w": "private",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1241
+},
+{
+"word": "public",
+"m": {
+"es": "público"
+},
+"pos": "adjective/noun",
+"w": "public",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1242
+},
+{
+"word": "official",
+"m": {
+"es": "oficial"
+},
+"pos": "adjective/noun",
+"w": "official",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1243
+},
+{
+"word": "staff",
+"m": {
+"es": "personal, plantilla"
+},
+"pos": "noun",
+"w": "staff",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1244
+},
+{
+"word": "guard",
+"m": {
+"es": "guardia; vigilar"
+},
+"pos": "noun/verb",
+"w": "guard",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1245
+},
+{
+"word": "safety",
+"m": {
+"es": "seguridad"
+},
+"pos": "noun",
+"w": "safety",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1246
+},
+{
+"word": "warning",
+"m": {
+"es": "advertencia, aviso"
+},
+"pos": "noun",
+"w": "warning",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1247
+},
+{
+"word": "behaviour",
+"m": {
+"es": "comportamiento (EE. UU.: behavior)"
+},
+"pos": "noun",
+"w": "behaviour",
+"p": "",
+"us": "behavior",
+"unit": 8,
+"u": "a2-8",
+"q": 1248
+},
+{
+"word": "pain",
+"m": {
+"es": "dolor"
+},
+"pos": "noun",
+"w": "pain",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1249
+},
+{
+"word": "stomachache",
+"m": {
+"es": "dolor de estómago"
+},
+"pos": "noun",
+"w": "stomachache",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1250
+},
+{
+"word": "toothache",
+"m": {
+"es": "dolor de muelas"
+},
+"pos": "noun",
+"w": "toothache",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1251
+},
+{
+"word": "backache",
+"m": {
+"es": "dolor de espalda"
+},
+"pos": "noun",
+"w": "backache",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1252
+},
+{
+"word": "cough",
+"m": {
+"es": "tos; toser"
+},
+"pos": "noun/verb",
+"w": "cough",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1253
+},
+{
+"word": "flu",
+"m": {
+"es": "gripe"
+},
+"pos": "noun",
+"w": "flu",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1254
+},
+{
+"word": "sore",
+"m": {
+"es": "dolorido (sore throat: dolor de garganta)"
+},
+"pos": "adjective",
+"w": "sore",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1255
+},
+{
+"word": "throat",
+"m": {
+"es": "garganta"
+},
+"pos": "noun",
+"w": "throat",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1256
+},
+{
+"word": "pill",
+"m": {
+"es": "pastilla"
+},
+"pos": "noun",
+"w": "pill",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1257
+},
+{
+"word": "chemist",
+"m": {
+"es": "farmacia (RU: the chemist's)"
+},
+"pos": "noun",
+"w": "chemist",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1258
+},
+{
+"word": "prescription",
+"m": {
+"es": "receta médica"
+},
+"pos": "noun",
+"w": "prescription",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1259
+},
+{
+"word": "appointment",
+"m": {
+"es": "cita (médico, trabajo)"
+},
+"pos": "noun",
+"w": "appointment",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1260
+},
+{
+"word": "dentist",
+"m": {
+"es": "dentista"
+},
+"pos": "noun",
+"w": "dentist",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1261
+},
+{
+"word": "patient",
+"m": {
+"es": "paciente"
+},
+"pos": "adjective/noun",
+"w": "patient",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1262
+},
+{
+"word": "rest",
+"m": {
+"es": "descanso; descansar"
+},
+"pos": "noun/verb",
+"w": "rest",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1263
+},
+{
+"word": "diet",
+"m": {
+"es": "dieta"
+},
+"pos": "noun",
+"w": "diet",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1264
+},
+{
+"word": "advice",
+"m": {
+"es": "consejo(s) (incontable)"
+},
+"pos": "noun",
+"w": "advice",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1265
+},
+{
+"word": "injury",
+"m": {
+"es": "lesión, herida"
+},
+"pos": "noun",
+"w": "injury",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1266
+},
+{
+"word": "ankle",
+"m": {
+"es": "tobillo"
+},
+"pos": "noun",
+"w": "ankle",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1267
+},
+{
+"word": "predict",
+"m": {
+"es": "predecir"
+},
+"pos": "verb",
+"w": "predict",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1268
+},
+{
+"word": "prediction",
+"m": {
+"es": "predicción"
+},
+"pos": "noun",
+"w": "prediction",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1269
+},
+{
+"word": "probably",
+"m": {
+"es": "probablemente"
+},
+"pos": "adverb",
+"w": "probably",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1270
+},
+{
+"word": "certainly",
+"m": {
+"es": "desde luego, por supuesto"
+},
+"pos": "adverb",
+"w": "certainly",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1271
+},
+{
+"word": "possibly",
+"m": {
+"es": "posiblemente"
+},
+"pos": "adverb",
+"w": "possibly",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1272
+},
+{
+"word": "perhaps",
+"m": {
+"es": "quizás"
+},
+"pos": "adverb",
+"w": "perhaps",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1273
+},
+{
+"word": "likely",
+"m": {
+"es": "probable"
+},
+"pos": "adjective",
+"w": "likely",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1274
+},
+{
+"word": "definitely",
+"m": {
+"es": "sin duda, definitivamente"
+},
+"pos": "adverb",
+"w": "definitely",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1275
+},
+{
+"word": "robot",
+"m": {
+"es": "robot"
+},
+"pos": "noun",
+"w": "robot",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1276
+},
+{
+"word": "invent",
+"m": {
+"es": "inventar"
+},
+"pos": "verb",
+"w": "invent",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1277
+},
+{
+"word": "invention",
+"m": {
+"es": "invento"
+},
+"pos": "noun",
+"w": "invention",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1278
+},
+{
+"word": "discover",
+"m": {
+"es": "descubrir"
+},
+"pos": "verb",
+"w": "discover",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1279
+},
+{
+"word": "space",
+"m": {
+"es": "espacio"
+},
+"pos": "noun",
+"w": "space",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1280
+},
+{
+"word": "climate",
+"m": {
+"es": "clima"
+},
+"pos": "noun",
+"w": "climate",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1281
+},
+{
+"word": "environment",
+"m": {
+"es": "medio ambiente"
+},
+"pos": "noun",
+"w": "environment",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1282
+},
+{
+"word": "recycle",
+"m": {
+"es": "reciclar"
+},
+"pos": "verb",
+"w": "recycle",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1283
+},
+{
+"word": "energy",
+"m": {
+"es": "energía"
+},
+"pos": "noun",
+"w": "energy",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1284
+},
+{
+"word": "electric",
+"m": {
+"es": "eléctrico"
+},
+"pos": "adjective",
+"w": "electric",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1285
+},
+{
+"word": "solar",
+"m": {
+"es": "solar"
+},
+"pos": "adjective",
+"w": "solar",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1286
+},
+{
+"word": "disappear",
+"m": {
+"es": "desaparecer"
+},
+"pos": "verb",
+"w": "disappear",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1287
+},
+{
+"word": "increase",
+"m": {
+"es": "aumentar; aumento"
+},
+"pos": "noun/verb",
+"w": "increase",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1288
+},
+{
+"word": "promise",
+"m": {
+"es": "prometer; promesa"
+},
+"pos": "noun/verb",
+"w": "promise",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1289
+},
+{
+"word": "offer",
+"m": {
+"es": "ofrecer; oferta"
+},
+"pos": "noun/verb",
+"w": "offer",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1290
+},
+{
+"word": "decide",
+"m": {
+"es": "decidir"
+},
+"pos": "verb",
+"w": "decide",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1291
+},
+{
+"word": "arrangement",
+"m": {
+"es": "plan, acuerdo"
+},
+"pos": "noun",
+"w": "arrangement",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1292
+},
+{
+"word": "invite",
+"m": {
+"es": "invitar"
+},
+"pos": "verb",
+"w": "invite",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1293
+},
+{
+"word": "invitation",
+"m": {
+"es": "invitación"
+},
+"pos": "noun",
+"w": "invitation",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1294
+},
+{
+"word": "accept",
+"m": {
+"es": "aceptar"
+},
+"pos": "verb",
+"w": "accept",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1295
+},
+{
+"word": "refuse",
+"m": {
+"es": "negarse, rechazar"
+},
+"pos": "noun/verb",
+"w": "refuse",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1296
+},
+{
+"word": "available",
+"m": {
+"es": "disponible"
+},
+"pos": "adjective",
+"w": "available",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1297
+},
+{
+"word": "pick up",
+"m": {
+"es": "recoger (a alguien o algo)"
+},
+"pos": "",
+"w": "pick up",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1298
+},
+{
+"word": "reservation",
+"m": {
+"es": "reserva"
+},
+"pos": "noun",
+"w": "reservation",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1299
+},
+{
+"word": "exhibition",
+"m": {
+"es": "exposición"
+},
+"pos": "noun",
+"w": "exhibition",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1300
+},
+{
+"word": "gallery",
+"m": {
+"es": "galería, museo de arte"
+},
+"pos": "noun",
+"w": "gallery",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1301
+},
+{
+"word": "stadium",
+"m": {
+"es": "estadio"
+},
+"pos": "noun",
+"w": "stadium",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1302
+},
+{
+"word": "barbecue",
+"m": {
+"es": "barbacoa"
+},
+"pos": "noun/verb",
+"w": "barbecue",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1303
+},
+{
+"word": "shall",
+"m": {
+"es": "(Shall we…?) ¿…? (ofrecimiento, sugerencia)"
+},
+"pos": "modal auxiliary",
+"w": "shall",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1304
+},
+{
+"word": "fancy",
+"m": {
+"es": "apetecer (RU); elegante"
+},
+"pos": "adjective/noun/verb",
+"w": "fancy",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1305
+},
+{
+"word": "instead",
+"m": {
+"es": "en su lugar (instead of: en vez de)"
+},
+"pos": "adverb",
+"w": "instead",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1306
+},
+{
+"word": "someday",
+"m": {
+"es": "algún día"
+},
+"pos": "adverb",
+"w": "someday",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1307
+},
+{
+"word": "experience",
+"m": {
+"es": "experiencia"
+},
+"pos": "noun/verb",
+"w": "experience",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1308
+},
+{
+"word": "taste",
+"m": {
+"es": "probar; sabor"
+},
+"pos": "noun/verb",
+"w": "taste",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1309
+},
+{
+"word": "adventure",
+"m": {
+"es": "aventura"
+},
+"pos": "noun",
+"w": "adventure",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1310
+},
+{
+"word": "unusual",
+"m": {
+"es": "poco común"
+},
+"pos": "adjective",
+"w": "unusual",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1311
+},
+{
+"word": "exotic",
+"m": {
+"es": "exótico"
+},
+"pos": "adjective",
+"w": "exotic",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1312
+},
+{
+"word": "sail",
+"m": {
+"es": "navegar"
+},
+"pos": "verb",
+"w": "sail",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1313
+},
+{
+"word": "lose",
+"m": {
+"es": "perder"
+},
+"pos": "verb",
+"w": "lose",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1314
+},
+{
+"word": "celebrity",
+"m": {
+"es": "famoso, celebridad"
+},
+"pos": "noun",
+"w": "celebrity",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1315
+},
+{
+"word": "twice",
+"m": {
+"es": "dos veces"
+},
+"pos": "adverb",
+"w": "twice",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1316
+},
+{
+"word": "recently",
+"m": {
+"es": "recientemente"
+},
+"pos": "adverb",
+"w": "recently",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1317
+},
+{
+"word": "complete",
+"m": {
+"es": "completo; completar"
+},
+"pos": "adjective/verb",
+"w": "complete",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1318
+},
+{
+"word": "task",
+"m": {
+"es": "tarea"
+},
+"pos": "noun",
+"w": "task",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1319
+},
+{
+"word": "tidy",
+"m": {
+"es": "ordenado; ordenar"
+},
+"pos": "adjective/verb",
+"w": "tidy",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1320
+},
+{
+"word": "iron",
+"m": {
+"es": "planchar; plancha; hierro"
+},
+"pos": "noun/verb",
+"w": "iron",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1321
+},
+{
+"word": "pack",
+"m": {
+"es": "hacer la maleta; paquete"
+},
+"pos": "noun/verb",
+"w": "pack",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1322
+},
+{
+"word": "prepare",
+"m": {
+"es": "preparar"
+},
+"pos": "verb",
+"w": "prepare",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1323
+},
+{
+"word": "deliver",
+"m": {
+"es": "entregar, repartir"
+},
+"pos": "verb",
+"w": "deliver",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1324
+},
+{
+"word": "receive",
+"m": {
+"es": "recibir"
+},
+"pos": "verb",
+"w": "receive",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1325
+},
+{
+"word": "reply",
+"m": {
+"es": "responder; respuesta"
+},
+"pos": "noun/verb",
+"w": "reply",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1326
+},
+{
+"word": "text",
+"m": {
+"es": "texto; mandar un mensaje"
+},
+"pos": "noun/verb",
+"w": "text",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1327
+},
+{
+"word": "update",
+"m": {
+"es": "actualizar; actualización"
+},
+"pos": "noun/verb",
+"w": "update",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1328
+},
+{
+"word": "fix",
+"m": {
+"es": "arreglar"
+},
+"pos": "noun/verb",
+"w": "fix",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1329
+},
+{
+"word": "repair",
+"m": {
+"es": "reparar"
+},
+"pos": "noun/verb",
+"w": "repair",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1330
+},
+{
+"word": "wallet",
+"m": {
+"es": "cartera, billetera"
+},
+"pos": "noun",
+"w": "wallet",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1331
+},
+{
+"word": "since",
+"m": {
+"es": "desde (que); ya que"
+},
+"pos": "adverb/conjunction/preposition",
+"w": "since",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1332
+},
+{
+"word": "journey",
+"m": {
+"es": "viaje, trayecto"
+},
+"pos": "noun",
+"w": "journey",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1333
+},
+{
+"word": "flight",
+"m": {
+"es": "vuelo"
+},
+"pos": "noun",
+"w": "flight",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1334
+},
+{
+"word": "passenger",
+"m": {
+"es": "pasajero"
+},
+"pos": "noun",
+"w": "passenger",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1335
+},
+{
+"word": "luggage",
+"m": {
+"es": "equipaje (incontable)"
+},
+"pos": "noun",
+"w": "luggage",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1336
+},
+{
+"word": "suitcase",
+"m": {
+"es": "maleta"
+},
+"pos": "noun",
+"w": "suitcase",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1337
+},
+{
+"word": "passport",
+"m": {
+"es": "pasaporte"
+},
+"pos": "noun",
+"w": "passport",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1338
+},
+{
+"word": "boarding pass",
+"m": {
+"es": "tarjeta de embarque"
+},
+"pos": "",
+"w": "boarding pass",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1339
+},
+{
+"word": "gate",
+"m": {
+"es": "puerta (de jardín), verja; puerta de embarque"
+},
+"pos": "noun",
+"w": "gate",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1340
+},
+{
+"word": "check in",
+"m": {
+"es": "facturar; registrarse (hotel)"
+},
+"pos": "",
+"w": "check in",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1341
+},
+{
+"word": "delay",
+"m": {
+"es": "retraso; retrasar"
+},
+"pos": "noun/verb",
+"w": "delay",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1342
+},
+{
+"word": "cancel",
+"m": {
+"es": "cancelar"
+},
+"pos": "verb",
+"w": "cancel",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1343
+},
+{
+"word": "platform",
+"m": {
+"es": "andén"
+},
+"pos": "noun",
+"w": "platform",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1344
+},
+{
+"word": "tram",
+"m": {
+"es": "tranvía"
+},
+"pos": "noun",
+"w": "tram",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1345
+},
+{
+"word": "underground",
+"m": {
+"es": "metro (RU)"
+},
+"pos": "adjective/adverb",
+"w": "underground",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1346
+},
+{
+"word": "motorway",
+"m": {
+"es": "autopista (EE. UU.: highway)"
+},
+"pos": "noun",
+"w": "motorway",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1347
+},
+{
+"word": "traffic",
+"m": {
+"es": "tráfico"
+},
+"pos": "noun",
+"w": "traffic",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1348
+},
+{
+"word": "timetable",
+"m": {
+"es": "horario"
+},
+"pos": "noun",
+"w": "timetable",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1349
+},
+{
+"word": "fare",
+"m": {
+"es": "tarifa, precio del billete"
+},
+"pos": "noun",
+"w": "fare",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1350
+},
+{
+"word": "return",
+"m": {
+"es": "volver; devolver"
+},
+"pos": "noun/verb",
+"w": "return",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1351
+},
+{
+"word": "departure",
+"m": {
+"es": "salida"
+},
+"pos": "noun",
+"w": "departure",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1352
+},
+{
+"word": "arrival",
+"m": {
+"es": "llegada"
+},
+"pos": "noun",
+"w": "arrival",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1353
+},
+{
+"word": "guidebook",
+"m": {
+"es": "guía (libro)"
+},
+"pos": "noun",
+"w": "guidebook",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1354
+},
+{
+"word": "tour",
+"m": {
+"es": "gira; visita guiada"
+},
+"pos": "noun/verb",
+"w": "tour",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1355
+},
+{
+"word": "traveller",
+"m": {
+"es": "viajero"
+},
+"pos": "noun",
+"w": "traveller",
+"p": "",
+"us": "traveler",
+"unit": 14,
+"u": "a2-14",
+"q": 1356
+},
+{
+"word": "hostel",
+"m": {
+"es": "albergue"
+},
+"pos": "noun",
+"w": "hostel",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1357
+},
+{
+"word": "manage",
+"m": {
+"es": "gestionar; arreglárselas"
+},
+"pos": "verb",
+"w": "manage",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1358
+},
+{
+"word": "expect",
+"m": {
+"es": "esperar (prever)"
+},
+"pos": "verb",
+"w": "expect",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1359
+},
+{
+"word": "avoid",
+"m": {
+"es": "evitar"
+},
+"pos": "verb",
+"w": "avoid",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1360
+},
+{
+"word": "practise",
+"m": {
+"es": "practicar (EE. UU.: practice)"
+},
+"pos": "",
+"w": "practise",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1361
+},
+{
+"word": "suggest",
+"m": {
+"es": "sugerir"
+},
+"pos": "verb",
+"w": "suggest",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1362
+},
+{
+"word": "consider",
+"m": {
+"es": "considerar"
+},
+"pos": "verb",
+"w": "consider",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1363
+},
+{
+"word": "give up",
+"m": {
+"es": "dejar (un hábito), rendirse"
+},
+"pos": "",
+"w": "give up",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1364
+},
+{
+"word": "look forward to",
+"m": {
+"es": "tener ganas de"
+},
+"pos": "",
+"w": "look forward to",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1365
+},
+{
+"word": "prefer",
+"m": {
+"es": "preferir"
+},
+"pos": "verb",
+"w": "prefer",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1366
+},
+{
+"word": "continue",
+"m": {
+"es": "continuar"
+},
+"pos": "verb",
+"w": "continue",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1367
+},
+{
+"word": "recipe",
+"m": {
+"es": "receta (de cocina)"
+},
+"pos": "noun",
+"w": "recipe",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1368
+},
+{
+"word": "ingredient",
+"m": {
+"es": "ingrediente"
+},
+"pos": "noun",
+"w": "ingredient",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1369
+},
+{
+"word": "boil",
+"m": {
+"es": "hervir"
+},
+"pos": "verb",
+"w": "boil",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1370
+},
+{
+"word": "fry",
+"m": {
+"es": "freír"
+},
+"pos": "noun/verb",
+"w": "fry",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1371
+},
+{
+"word": "bake",
+"m": {
+"es": "hornear"
+},
+"pos": "verb",
+"w": "bake",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1372
+},
+{
+"word": "roast",
+"m": {
+"es": "asado; asar"
+},
+"pos": "adjective/verb",
+"w": "roast",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1373
+},
+{
+"word": "grill",
+"m": {
+"es": "asar a la parrilla"
+},
+"pos": "noun/verb",
+"w": "grill",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1374
+},
+{
+"word": "chop",
+"m": {
+"es": "picar, cortar"
+},
+"pos": "verb",
+"w": "chop",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1375
+},
+{
+"word": "slice",
+"m": {
+"es": "rebanada, loncha"
+},
+"pos": "noun/verb",
+"w": "slice",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1376
+},
+{
+"word": "mix",
+"m": {
+"es": "mezclar"
+},
+"pos": "noun/verb",
+"w": "mix",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1377
+},
+{
+"word": "stir",
+"m": {
+"es": "remover"
+},
+"pos": "verb",
+"w": "stir",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1378
+},
+{
+"word": "pour",
+"m": {
+"es": "verter; llover a cántaros"
+},
+"pos": "verb",
+"w": "pour",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1379
+},
+{
+"word": "heat",
+"m": {
+"es": "calor; calentar"
+},
+"pos": "noun/verb",
+"w": "heat",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1380
+},
+{
+"word": "oven",
+"m": {
+"es": "horno"
+},
+"pos": "noun",
+"w": "oven",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1381
+},
+{
+"word": "pan",
+"m": {
+"es": "sartén; cazo"
+},
+"pos": "noun",
+"w": "pan",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1382
+},
+{
+"word": "spoon",
+"m": {
+"es": "cuchara"
+},
+"pos": "noun",
+"w": "spoon",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1383
+},
+{
+"word": "fork",
+"m": {
+"es": "tenedor"
+},
+"pos": "noun",
+"w": "fork",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1384
+},
+{
+"word": "plate",
+"m": {
+"es": "plato"
+},
+"pos": "noun",
+"w": "plate",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1385
+},
+{
+"word": "salt",
+"m": {
+"es": "sal"
+},
+"pos": "noun",
+"w": "salt",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1386
+},
+{
+"word": "pepper",
+"m": {
+"es": "pimienta; pimiento"
+},
+"pos": "noun",
+"w": "pepper",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1387
+},
+{
+"word": "oil",
+"m": {
+"es": "aceite; petróleo"
+},
+"pos": "noun",
+"w": "oil",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1388
+},
+{
+"word": "flour",
+"m": {
+"es": "harina"
+},
+"pos": "noun",
+"w": "flour",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1389
+},
+{
+"word": "garlic",
+"m": {
+"es": "ajo"
+},
+"pos": "noun",
+"w": "garlic",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1390
+},
+{
+"word": "onion",
+"m": {
+"es": "cebolla"
+},
+"pos": "noun",
+"w": "onion",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1391
+},
+{
+"word": "sauce",
+"m": {
+"es": "salsa"
+},
+"pos": "noun",
+"w": "sauce",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1392
+},
+{
+"word": "raw",
+"m": {
+"es": "crudo"
+},
+"pos": "adjective",
+"w": "raw",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1393
+},
+{
+"word": "fresh",
+"m": {
+"es": "fresco"
+},
+"pos": "adjective",
+"w": "fresh",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1394
+},
+{
+"word": "dessert",
+"m": {
+"es": "postre"
+},
+"pos": "noun",
+"w": "dessert",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1395
+},
+{
+"word": "whom",
+"m": {
+"es": "a quien (formal)"
+},
+"pos": "pronoun",
+"w": "whom",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1396
+},
+{
+"word": "inventor",
+"m": {
+"es": "inventor"
+},
+"pos": "noun",
+"w": "inventor",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1397
+},
+{
+"word": "explorer",
+"m": {
+"es": "explorador"
+},
+"pos": "noun",
+"w": "explorer",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1398
+},
+{
+"word": "hero",
+"m": {
+"es": "héroe"
+},
+"pos": "noun",
+"w": "hero",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1399
+},
+{
+"word": "artist",
+"m": {
+"es": "artista"
+},
+"pos": "noun",
+"w": "artist",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1400
+},
+{
+"word": "composer",
+"m": {
+"es": "compositor"
+},
+"pos": "noun",
+"w": "composer",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1401
+},
+{
+"word": "author",
+"m": {
+"es": "autor"
+},
+"pos": "noun",
+"w": "author",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1402
+},
+{
+"word": "volunteer",
+"m": {
+"es": "voluntario"
+},
+"pos": "noun/verb",
+"w": "volunteer",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1403
+},
+{
+"word": "charity",
+"m": {
+"es": "organización benéfica"
+},
+"pos": "noun",
+"w": "charity",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1404
+},
+{
+"word": "create",
+"m": {
+"es": "crear"
+},
+"pos": "verb",
+"w": "create",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1405
+},
+{
+"word": "improve",
+"m": {
+"es": "mejorar"
+},
+"pos": "verb",
+"w": "improve",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1406
+},
+{
+"word": "protect",
+"m": {
+"es": "proteger"
+},
+"pos": "verb",
+"w": "protect",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1407
+},
+{
+"word": "disease",
+"m": {
+"es": "enfermedad"
+},
+"pos": "noun",
+"w": "disease",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1408
+},
+{
+"word": "cure",
+"m": {
+"es": "cura; curar"
+},
+"pos": "noun/verb",
+"w": "cure",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1409
+},
+{
+"word": "theirs",
+"m": {
+"es": "suyo (de ellos)"
+},
+"pos": "pronoun",
+"w": "theirs",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1410
+},
+{
+"word": "myself",
+"m": {
+"es": "yo mismo, me"
+},
+"pos": "pronoun",
+"w": "myself",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1411
+},
+{
+"word": "himself",
+"m": {
+"es": "él mismo, se"
+},
+"pos": "pronoun",
+"w": "himself",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1412
+},
+{
+"word": "herself",
+"m": {
+"es": "ella misma, se"
+},
+"pos": "pronoun",
+"w": "herself",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1413
+},
+{
+"word": "itself",
+"m": {
+"es": "sí mismo, se"
+},
+"pos": "pronoun",
+"w": "itself",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1414
+},
+{
+"word": "ourselves",
+"m": {
+"es": "nosotros mismos, nos"
+},
+"pos": "pronoun",
+"w": "ourselves",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1415
+},
+{
+"word": "themselves",
+"m": {
+"es": "ellos mismos, se"
+},
+"pos": "pronoun",
+"w": "themselves",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1416
+},
+{
+"word": "laptop",
+"m": {
+"es": "portátil"
+},
+"pos": "noun",
+"w": "laptop",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1417
+},
+{
+"word": "tablet",
+"m": {
+"es": "tableta; pastilla"
+},
+"pos": "noun",
+"w": "tablet",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1418
+},
+{
+"word": "screen",
+"m": {
+"es": "pantalla"
+},
+"pos": "noun/verb",
+"w": "screen",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1419
+},
+{
+"word": "keyboard",
+"m": {
+"es": "teclado"
+},
+"pos": "noun",
+"w": "keyboard",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1420
+},
+{
+"word": "battery",
+"m": {
+"es": "batería, pila"
+},
+"pos": "noun",
+"w": "battery",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1421
+},
+{
+"word": "charger",
+"m": {
+"es": "cargador"
+},
+"pos": "",
+"w": "charger",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1422
+},
+{
+"word": "password",
+"m": {
+"es": "contraseña"
+},
+"pos": "noun",
+"w": "password",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1423
+},
+{
+"word": "download",
+"m": {
+"es": "descargar"
+},
+"pos": "noun/verb",
+"w": "download",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1424
+},
+{
+"word": "upload",
+"m": {
+"es": "subir (a internet)"
+},
+"pos": "verb",
+"w": "upload",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1425
+},
+{
+"word": "website",
+"m": {
+"es": "sitio web"
+},
+"pos": "noun",
+"w": "website",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1426
+},
+{
+"word": "online",
+"m": {
+"es": "en línea, en internet"
+},
+"pos": "adjective/adverb",
+"w": "online",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1427
+},
+{
+"word": "app",
+"m": {
+"es": "aplicación (app)"
+},
+"pos": "",
+"w": "app",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1428
+},
+{
+"word": "click",
+"m": {
+"es": "hacer clic; clic"
+},
+"pos": "noun/verb",
+"w": "click",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1429
+},
+{
+"word": "delete",
+"m": {
+"es": "borrar"
+},
+"pos": "verb",
+"w": "delete",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1430
+},
+{
+"word": "print",
+"m": {
+"es": "imprimir"
+},
+"pos": "noun/verb",
+"w": "print",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1431
+},
+{
+"word": "printer",
+"m": {
+"es": "impresora"
+},
+"pos": "noun",
+"w": "printer",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1432
+},
+{
+"word": "software",
+"m": {
+"es": "software"
+},
+"pos": "noun",
+"w": "software",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1433
+},
+{
+"word": "wifi",
+"m": {
+"es": "wifi"
+},
+"pos": "",
+"w": "wifi",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1434
+},
+{
+"word": "unless",
+"m": {
+"es": "a menos que"
+},
+"pos": "conjunction",
+"w": "unless",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1435
+},
+{
+"word": "as soon as",
+"m": {
+"es": "en cuanto"
+},
+"pos": "",
+"w": "as soon as",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1436
+},
+{
+"word": "condition",
+"m": {
+"es": "condición, estado"
+},
+"pos": "noun/verb",
+"w": "condition",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1437
+},
+{
+"word": "possible",
+"m": {
+"es": "posible"
+},
+"pos": "adjective",
+"w": "possible",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1438
+},
+{
+"word": "chance",
+"m": {
+"es": "oportunidad; posibilidad"
+},
+"pos": "noun",
+"w": "chance",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1439
+},
+{
+"word": "risk",
+"m": {
+"es": "riesgo"
+},
+"pos": "noun/verb",
+"w": "risk",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1440
+},
+{
+"word": "miss",
+"m": {
+"es": "perder (un transporte); echar de menos"
+},
+"pos": "noun/verb",
+"w": "miss",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1441
+},
+{
+"word": "fail",
+"m": {
+"es": "suspender; fracasar"
+},
+"pos": "verb",
+"w": "fail",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1442
+},
+{
+"word": "pass",
+"m": {
+"es": "pasar; aprobar"
+},
+"pos": "noun/verb",
+"w": "pass",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1443
+},
+{
+"word": "exam",
+"m": {
+"es": "examen"
+},
+"pos": "noun",
+"w": "exam",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1444
+},
+{
+"word": "warn",
+"m": {
+"es": "avisar, advertir"
+},
+"pos": "verb",
+"w": "warn",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1445
+},
+{
+"word": "relax",
+"m": {
+"es": "relajarse"
+},
+"pos": "verb",
+"w": "relax",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1446
+},
+{
+"word": "lend",
+"m": {
+"es": "prestar"
+},
+"pos": "verb",
+"w": "lend",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1447
+},
+{
+"word": "alarm clock",
+"m": {
+"es": "despertador"
+},
+"pos": "noun",
+"w": "alarm clock",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1448
+},
+{
+"word": "request",
+"m": {
+"es": "petición; pedir"
+},
+"pos": "noun/verb",
+"w": "request",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1449
+},
+{
+"word": "favour",
+"m": {
+"es": "favor"
+},
+"pos": "noun",
+"w": "favour",
+"p": "",
+"us": "favor",
+"unit": 20,
+"u": "a2-20",
+"q": 1450
+},
+{
+"word": "explain",
+"m": {
+"es": "explicar"
+},
+"pos": "verb",
+"w": "explain",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1451
+},
+{
+"word": "speak up",
+"m": {
+"es": "hablar más alto"
+},
+"pos": "",
+"w": "speak up",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1452
+},
+{
+"word": "fill in",
+"m": {
+"es": "rellenar"
+},
+"pos": "",
+"w": "fill in",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1453
+},
+{
+"word": "reception",
+"m": {
+"es": "recepción"
+},
+"pos": "noun",
+"w": "reception",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1454
+},
+{
+"word": "receptionist",
+"m": {
+"es": "recepcionista"
+},
+"pos": "noun",
+"w": "receptionist",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1455
+},
+{
+"word": "room service",
+"m": {
+"es": "servicio de habitaciones"
+},
+"pos": "",
+"w": "room service",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1456
+},
+{
+"word": "kindly",
+"m": {
+"es": "amablemente"
+},
+"pos": "adjective/adverb",
+"w": "kindly",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1457
+},
+{
+"word": "ability",
+"m": {
+"es": "capacidad, habilidad"
+},
+"pos": "noun",
+"w": "ability",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1458
+},
+{
+"word": "acceptable",
+"m": {
+"es": "aceptable"
+},
+"pos": "adjective",
+"w": "acceptable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1459
+},
+{
+"word": "account",
+"m": {
+"es": "cuenta"
+},
+"pos": "noun/verb",
+"w": "account",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1460
+},
+{
+"word": "across",
+"m": {
+"es": "a través de; al otro lado de"
+},
+"pos": "adverb/preposition",
+"w": "across",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1461
+},
+{
+"word": "act",
+"m": {
+"es": "actuar; acto"
+},
+"pos": "noun/verb",
+"w": "act",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1462
+},
+{
+"word": "actually",
+"m": {
+"es": "en realidad (no «actualmente»)"
+},
+"pos": "adverb",
+"w": "actually",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1463
+},
+{
+"word": "addition",
+"m": {
+"es": "suma; añadido (in addition: además)"
+},
+"pos": "noun",
+"w": "addition",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1464
+},
+{
+"word": "additional",
+"m": {
+"es": "adicional"
+},
+"pos": "adjective",
+"w": "additional",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1465
+},
+{
+"word": "adjective",
+"m": {
+"es": "adjetivo"
+},
+"pos": "noun",
+"w": "adjective",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1466
+},
+{
+"word": "adjust",
+"m": {
+"es": "ajustar"
+},
+"pos": "verb",
+"w": "adjust",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1467
+},
+{
+"word": "admire",
+"m": {
+"es": "admirar"
+},
+"pos": "verb",
+"w": "admire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1468
+},
+{
+"word": "admit",
+"m": {
+"es": "admitir, reconocer"
+},
+"pos": "verb",
+"w": "admit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1469
+},
+{
+"word": "adult",
+"m": {
+"es": "adulto"
+},
+"pos": "adjective/noun",
+"w": "adult",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1470
+},
+{
+"word": "advanced",
+"m": {
+"es": "avanzado"
+},
+"pos": "adjective",
+"w": "advanced",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1471
+},
+{
+"word": "advantage",
+"m": {
+"es": "ventaja"
+},
+"pos": "noun",
+"w": "advantage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1472
+},
+{
+"word": "advertisement",
+"m": {
+"es": "anuncio"
+},
+"pos": "noun",
+"w": "advertisement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1473
+},
+{
+"word": "advertising",
+"m": {
+"es": "publicidad"
+},
+"pos": "noun",
+"w": "advertising",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1474
+},
+{
+"word": "advise",
+"m": {
+"es": "aconsejar"
+},
+"pos": "verb",
+"w": "advise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1475
+},
+{
+"word": "affair",
+"m": {
+"es": "asunto; aventura amorosa"
+},
+"pos": "noun",
+"w": "affair",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1476
+},
+{
+"word": "against",
+"m": {
+"es": "contra"
+},
+"pos": "preposition",
+"w": "against",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1477
+},
+{
+"word": "aged",
+"m": {
+"es": "de … años de edad"
+},
+"pos": "adjective",
+"w": "aged",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1478
+},
+{
+"word": "agency",
+"m": {
+"es": "agencia"
+},
+"pos": "noun",
+"w": "agency",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1479
+},
+{
+"word": "agent",
+"m": {
+"es": "agente"
+},
+"pos": "noun",
+"w": "agent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1480
+},
+{
+"word": "ahead",
+"m": {
+"es": "adelante; por delante"
+},
+"pos": "adverb",
+"w": "ahead",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1481
+},
+{
+"word": "air",
+"m": {
+"es": "aire"
+},
+"pos": "noun",
+"w": "air",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1482
+},
+{
+"word": "aisle",
+"m": {
+"es": "pasillo (avión, supermercado)"
+},
+"pos": "noun",
+"w": "aisle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1483
+},
+{
+"word": "alarm",
+"m": {
+"es": "alarma"
+},
+"pos": "noun/verb",
+"w": "alarm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1484
+},
+{
+"word": "alive",
+"m": {
+"es": "vivo"
+},
+"pos": "adjective",
+"w": "alive",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1485
+},
+{
+"word": "alright",
+"m": {
+"es": "bien, vale"
+},
+"pos": "adjective/adverb",
+"w": "alright",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1486
+},
+{
+"word": "although",
+"m": {
+"es": "aunque"
+},
+"pos": "conjunction",
+"w": "although",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1487
+},
+{
+"word": "among",
+"m": {
+"es": "entre (más de dos)"
+},
+"pos": "preposition",
+"w": "among",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1488
+},
+{
+"word": "amusement",
+"m": {
+"es": "diversión"
+},
+"pos": "noun",
+"w": "amusement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1489
+},
+{
+"word": "ancestor",
+"m": {
+"es": "antepasado"
+},
+"pos": "noun",
+"w": "ancestor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1490
+},
+{
+"word": "angel",
+"m": {
+"es": "ángel"
+},
+"pos": "noun",
+"w": "angel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1491
+},
+{
+"word": "anniversary",
+"m": {
+"es": "aniversario"
+},
+"pos": "noun",
+"w": "anniversary",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1492
+},
+{
+"word": "annoy",
+"m": {
+"es": "molestar, fastidiar"
+},
+"pos": "verb",
+"w": "annoy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1493
+},
+{
+"word": "anymore",
+"m": {
+"es": "ya no (en negativas)"
+},
+"pos": "adverb",
+"w": "anymore",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1494
+},
+{
+"word": "anyway",
+"m": {
+"es": "de todas formas"
+},
+"pos": "adverb",
+"w": "anyway",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1495
+},
+{
+"word": "anywhere",
+"m": {
+"es": "en cualquier sitio; en ningún sitio (negativas)"
+},
+"pos": "adverb",
+"w": "anywhere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1496
+},
+{
+"word": "apart",
+"m": {
+"es": "separado, aparte"
+},
+"pos": "adverb",
+"w": "apart",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1497
+},
+{
+"word": "apartment",
+"m": {
+"es": "piso, apartamento (EE. UU.)"
+},
+"pos": "noun",
+"w": "apartment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1498
+},
+{
+"word": "apologize",
+"m": {
+"es": "disculparse, pedir perdón"
+},
+"pos": "verb",
+"w": "apologize",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1499
+},
+{
+"word": "apparently",
+"m": {
+"es": "al parecer"
+},
+"pos": "adverb",
+"w": "apparently",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1500
+},
+{
+"word": "appear",
+"m": {
+"es": "aparecer; parecer"
+},
+"pos": "verb",
+"w": "appear",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1501
+},
+{
+"word": "appearance",
+"m": {
+"es": "aspecto; aparición"
+},
+"pos": "noun",
+"w": "appearance",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1502
+},
+{
+"word": "apply",
+"m": {
+"es": "solicitar; aplicar"
+},
+"pos": "verb",
+"w": "apply",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1503
+},
+{
+"word": "appreciate",
+"m": {
+"es": "agradecer; valorar"
+},
+"pos": "verb",
+"w": "appreciate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1504
+},
+{
+"word": "appropriate",
+"m": {
+"es": "adecuado, apropiado"
+},
+"pos": "adjective",
+"w": "appropriate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1505
+},
+{
+"word": "architecture",
+"m": {
+"es": "arquitectura"
+},
+"pos": "noun",
+"w": "architecture",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1506
+},
+{
+"word": "area",
+"m": {
+"es": "zona, área"
+},
+"pos": "noun",
+"w": "area",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1507
+},
+{
+"word": "argue",
+"m": {
+"es": "discutir; argumentar"
+},
+"pos": "verb",
+"w": "argue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1508
+},
+{
+"word": "argument",
+"m": {
+"es": "discusión; argumento"
+},
+"pos": "noun",
+"w": "argument",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1509
+},
+{
+"word": "armchair",
+"m": {
+"es": "sillón"
+},
+"pos": "noun",
+"w": "armchair",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1510
+},
+{
+"word": "armed",
+"m": {
+"es": "armado"
+},
+"pos": "adjective",
+"w": "armed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1511
+},
+{
+"word": "artificial",
+"m": {
+"es": "artificial"
+},
+"pos": "adjective",
+"w": "artificial",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1512
+},
+{
+"word": "asleep",
+"m": {
+"es": "dormido"
+},
+"pos": "adjective",
+"w": "asleep",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1513
+},
+{
+"word": "assistant",
+"m": {
+"es": "ayudante, dependiente"
+},
+"pos": "adjective/noun",
+"w": "assistant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1514
+},
+{
+"word": "association",
+"m": {
+"es": "asociación"
+},
+"pos": "noun",
+"w": "association",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1515
+},
+{
+"word": "astronaut",
+"m": {
+"es": "astronauta"
+},
+"pos": "noun",
+"w": "astronaut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1516
+},
+{
+"word": "athlete",
+"m": {
+"es": "atleta, deportista"
+},
+"pos": "noun",
+"w": "athlete",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1517
+},
+{
+"word": "atom",
+"m": {
+"es": "átomo"
+},
+"pos": "noun",
+"w": "atom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1518
+},
+{
+"word": "attack",
+"m": {
+"es": "atacar; ataque"
+},
+"pos": "noun/verb",
+"w": "attack",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1519
+},
+{
+"word": "attempt",
+"m": {
+"es": "intentar; intento"
+},
+"pos": "noun/verb",
+"w": "attempt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1520
+},
+{
+"word": "attention",
+"m": {
+"es": "atención"
+},
+"pos": "noun",
+"w": "attention",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1521
+},
+{
+"word": "attitude",
+"m": {
+"es": "actitud"
+},
+"pos": "noun",
+"w": "attitude",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1522
+},
+{
+"word": "attractive",
+"m": {
+"es": "atractivo"
+},
+"pos": "adjective",
+"w": "attractive",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1523
+},
+{
+"word": "audience",
+"m": {
+"es": "público"
+},
+"pos": "noun",
+"w": "audience",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1524
+},
+{
+"word": "audio",
+"m": {
+"es": "audio"
+},
+"pos": "adjective",
+"w": "audio",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1525
+},
+{
+"word": "automatic",
+"m": {
+"es": "automático"
+},
+"pos": "adjective/verb",
+"w": "automatic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1526
+},
+{
+"word": "automatically",
+"m": {
+"es": "automáticamente"
+},
+"pos": "adverb",
+"w": "automatically",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1527
+},
+{
+"word": "average",
+"m": {
+"es": "media; medio, normal"
+},
+"pos": "adjective/noun",
+"w": "average",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1528
+},
+{
+"word": "awful",
+"m": {
+"es": "horrible, fatal"
+},
+"pos": "adjective",
+"w": "awful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1529
+},
+{
+"word": "background",
+"m": {
+"es": "fondo; origen, formación"
+},
+"pos": "noun",
+"w": "background",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1530
+},
+{
+"word": "badminton",
+"m": {
+"es": "bádminton"
+},
+"pos": "noun",
+"w": "badminton",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1531
+},
+{
+"word": "balcony",
+"m": {
+"es": "balcón"
+},
+"pos": "noun",
+"w": "balcony",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1532
+},
+{
+"word": "balloon",
+"m": {
+"es": "globo"
+},
+"pos": "noun",
+"w": "balloon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1533
+},
+{
+"word": "banking",
+"m": {
+"es": "banca"
+},
+"pos": "noun",
+"w": "banking",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1534
+},
+{
+"word": "barber",
+"m": {
+"es": "barbero"
+},
+"pos": "noun",
+"w": "barber",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1535
+},
+{
+"word": "base",
+"m": {
+"es": "base; basar"
+},
+"pos": "noun/verb",
+"w": "base",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1536
+},
+{
+"word": "basic",
+"m": {
+"es": "básico"
+},
+"pos": "adjective",
+"w": "basic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1537
+},
+{
+"word": "basically",
+"m": {
+"es": "básicamente"
+},
+"pos": "adverb",
+"w": "basically",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1538
+},
+{
+"word": "basket",
+"m": {
+"es": "cesta"
+},
+"pos": "noun",
+"w": "basket",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1539
+},
+{
+"word": "batch",
+"m": {
+"es": "tanda, lote"
+},
+"pos": "noun",
+"w": "batch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1540
+},
+{
+"word": "bay",
+"m": {
+"es": "bahía"
+},
+"pos": "noun",
+"w": "bay",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1541
+},
+{
+"word": "beauty",
+"m": {
+"es": "belleza"
+},
+"pos": "noun",
+"w": "beauty",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1542
+},
+{
+"word": "beer",
+"m": {
+"es": "cerveza"
+},
+"pos": "noun",
+"w": "beer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1543
+},
+{
+"word": "beg",
+"m": {
+"es": "rogar; mendigar"
+},
+"pos": "verb",
+"w": "beg",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1544
+},
+{
+"word": "beginner",
+"m": {
+"es": "principiante"
+},
+"pos": "noun",
+"w": "beginner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1545
+},
+{
+"word": "beginning",
+"m": {
+"es": "principio, comienzo"
+},
+"pos": "noun",
+"w": "beginning",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1546
+},
+{
+"word": "being",
+"m": {
+"es": "ser (human being: ser humano)"
+},
+"pos": "noun",
+"w": "being",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1547
+},
+{
+"word": "belly",
+"m": {
+"es": "barriga"
+},
+"pos": "noun",
+"w": "belly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1548
+},
+{
+"word": "belong",
+"m": {
+"es": "pertenecer"
+},
+"pos": "verb",
+"w": "belong",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1549
+},
+{
+"word": "belt",
+"m": {
+"es": "cinturón"
+},
+"pos": "noun",
+"w": "belt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1550
+},
+{
+"word": "bench",
+"m": {
+"es": "banco (para sentarse)"
+},
+"pos": "noun",
+"w": "bench",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1551
+},
+{
+"word": "bend",
+"m": {
+"es": "doblar(se), curvar"
+},
+"pos": "noun/verb",
+"w": "bend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1552
+},
+{
+"word": "besides",
+"m": {
+"es": "además (de)"
+},
+"pos": "adverb/preposition",
+"w": "besides",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1553
+},
+{
+"word": "beyond",
+"m": {
+"es": "más allá de"
+},
+"pos": "preposition",
+"w": "beyond",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1554
+},
+{
+"word": "bit",
+"m": {
+"es": "trozo; (a bit) un poco"
+},
+"pos": "noun",
+"w": "bit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1555
+},
+{
+"word": "bite",
+"m": {
+"es": "morder; mordisco"
+},
+"pos": "noun/verb",
+"w": "bite",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1556
+},
+{
+"word": "blackboard",
+"m": {
+"es": "pizarra"
+},
+"pos": "noun",
+"w": "blackboard",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1557
+},
+{
+"word": "blame",
+"m": {
+"es": "culpar; culpa"
+},
+"pos": "noun/verb",
+"w": "blame",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1558
+},
+{
+"word": "blanket",
+"m": {
+"es": "manta"
+},
+"pos": "noun",
+"w": "blanket",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1559
+},
+{
+"word": "blonde",
+"m": {
+"es": "rubio"
+},
+"pos": "adjective",
+"w": "blonde",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1560
+},
+{
+"word": "blood",
+"m": {
+"es": "sangre"
+},
+"pos": "noun",
+"w": "blood",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1561
+},
+{
+"word": "bloom",
+"m": {
+"es": "florecer"
+},
+"pos": "noun/verb",
+"w": "bloom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1562
+},
+{
+"word": "board game",
+"m": {
+"es": "juego de mesa"
+},
+"pos": "noun",
+"w": "board game",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1563
+},
+{
+"word": "boiled",
+"m": {
+"es": "hervido, cocido"
+},
+"pos": "adjective",
+"w": "boiled",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1564
+},
+{
+"word": "bonus",
+"m": {
+"es": "prima, extra"
+},
+"pos": "noun",
+"w": "bonus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1565
+},
+{
+"word": "bookcase",
+"m": {
+"es": "estantería"
+},
+"pos": "noun",
+"w": "bookcase",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1566
+},
+{
+"word": "bookshelf",
+"m": {
+"es": "estante para libros"
+},
+"pos": "noun",
+"w": "bookshelf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1567
+},
+{
+"word": "boss",
+"m": {
+"es": "jefe"
+},
+"pos": "noun",
+"w": "boss",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1568
+},
+{
+"word": "bother",
+"m": {
+"es": "molestar; molestarse en"
+},
+"pos": "noun/verb",
+"w": "bother",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1569
+},
+{
+"word": "bra",
+"m": {
+"es": "sujetador"
+},
+"pos": "noun",
+"w": "bra",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1570
+},
+{
+"word": "brainstorm",
+"m": {
+"es": "lluvia de ideas"
+},
+"pos": "noun",
+"w": "brainstorm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1571
+},
+{
+"word": "brake",
+"m": {
+"es": "freno; frenar"
+},
+"pos": "noun/verb",
+"w": "brake",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1572
+},
+{
+"word": "branch",
+"m": {
+"es": "rama; sucursal"
+},
+"pos": "noun/verb",
+"w": "branch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1573
+},
+{
+"word": "brand",
+"m": {
+"es": "marca"
+},
+"pos": "noun",
+"w": "brand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1574
+},
+{
+"word": "brave",
+"m": {
+"es": "valiente"
+},
+"pos": "adjective",
+"w": "brave",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1575
+},
+{
+"word": "breeze",
+"m": {
+"es": "brisa"
+},
+"pos": "noun",
+"w": "breeze",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1576
+},
+{
+"word": "bride",
+"m": {
+"es": "novia (en la boda)"
+},
+"pos": "noun",
+"w": "bride",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1577
+},
+{
+"word": "brilliant",
+"m": {
+"es": "genial; brillante"
+},
+"pos": "adjective",
+"w": "brilliant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1578
+},
+{
+"word": "bug",
+"m": {
+"es": "bicho; fallo (informático)"
+},
+"pos": "noun",
+"w": "bug",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1579
+},
+{
+"word": "bulb",
+"m": {
+"es": "bombilla; bulbo"
+},
+"pos": "noun",
+"w": "bulb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1580
+},
+{
+"word": "burn",
+"m": {
+"es": "quemar(se)"
+},
+"pos": "noun/verb",
+"w": "burn",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1581
+},
+{
+"word": "bury",
+"m": {
+"es": "enterrar"
+},
+"pos": "verb",
+"w": "bury",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1582
+},
+{
+"word": "bus station",
+"m": {
+"es": "estación de autobuses"
+},
+"pos": "noun",
+"w": "bus station",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1583
+},
+{
+"word": "bus stop",
+"m": {
+"es": "parada de autobús"
+},
+"pos": "noun",
+"w": "bus stop",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1584
+},
+{
+"word": "bush",
+"m": {
+"es": "arbusto"
+},
+"pos": "noun",
+"w": "bush",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1585
+},
+{
+"word": "businessman",
+"m": {
+"es": "hombre de negocios"
+},
+"pos": "noun",
+"w": "businessman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1586
+},
+{
+"word": "businesswoman",
+"m": {
+"es": "mujer de negocios"
+},
+"pos": "noun",
+"w": "businesswoman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1587
+},
+{
+"word": "cab",
+"m": {
+"es": "taxi"
+},
+"pos": "noun",
+"w": "cab",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1588
+},
+{
+"word": "cafeteria",
+"m": {
+"es": "cafetería (autoservicio)"
+},
+"pos": "noun",
+"w": "cafeteria",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1589
+},
+{
+"word": "calendar",
+"m": {
+"es": "calendario"
+},
+"pos": "noun",
+"w": "calendar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1590
+},
+{
+"word": "camping",
+"m": {
+"es": "acampada, camping"
+},
+"pos": "noun",
+"w": "camping",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1591
+},
+{
+"word": "campus",
+"m": {
+"es": "campus"
+},
+"pos": "noun",
+"w": "campus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1592
+},
+{
+"word": "capital letter",
+"m": {
+"es": "letra mayúscula"
+},
+"pos": "noun",
+"w": "capital letter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1593
+},
+{
+"word": "captain",
+"m": {
+"es": "capitán"
+},
+"pos": "noun",
+"w": "captain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1594
+},
+{
+"word": "car park",
+"m": {
+"es": "aparcamiento (EE. UU.: parking lot)"
+},
+"pos": "noun",
+"w": "car park",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1595
+},
+{
+"word": "carrot",
+"m": {
+"es": "zanahoria"
+},
+"pos": "noun",
+"w": "carrot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1596
+},
+{
+"word": "cassette",
+"m": {
+"es": "casete"
+},
+"pos": "noun",
+"w": "cassette",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1597
+},
+{
+"word": "castle",
+"m": {
+"es": "castillo"
+},
+"pos": "noun",
+"w": "castle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1598
+},
+{
+"word": "cause",
+"m": {
+"es": "causa; causar"
+},
+"pos": "noun/verb",
+"w": "cause",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1599
+},
+{
+"word": "cent",
+"m": {
+"es": "céntimo"
+},
+"pos": "noun",
+"w": "cent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1600
+},
+{
+"word": "centimetre",
+"m": {
+"es": "centímetro"
+},
+"pos": "noun",
+"w": "centimetre",
+"p": "",
+"us": "centimeter",
+"unit": null,
+"u": "",
+"q": 1601
+},
+{
+"word": "centre",
+"m": {
+"es": "centro (EE. UU.: center)"
+},
+"pos": "noun",
+"w": "centre",
+"p": "",
+"us": "center",
+"unit": null,
+"u": "",
+"q": 1602
+},
+{
+"word": "cereal",
+"m": {
+"es": "cereales"
+},
+"pos": "noun",
+"w": "cereal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1603
+},
+{
+"word": "certain",
+"m": {
+"es": "seguro; cierto"
+},
+"pos": "adjective",
+"w": "certain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1604
+},
+{
+"word": "chain",
+"m": {
+"es": "cadena"
+},
+"pos": "noun",
+"w": "chain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1605
+},
+{
+"word": "chairman",
+"m": {
+"es": "presidente (de una empresa)"
+},
+"pos": "noun",
+"w": "chairman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1606
+},
+{
+"word": "challenge",
+"m": {
+"es": "reto, desafío"
+},
+"pos": "noun/verb",
+"w": "challenge",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1607
+},
+{
+"word": "champagne",
+"m": {
+"es": "champán"
+},
+"pos": "noun",
+"w": "champagne",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1608
+},
+{
+"word": "championship",
+"m": {
+"es": "campeonato"
+},
+"pos": "noun",
+"w": "championship",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1609
+},
+{
+"word": "chapter",
+"m": {
+"es": "capítulo"
+},
+"pos": "noun",
+"w": "chapter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1610
+},
+{
+"word": "chart",
+"m": {
+"es": "gráfico, tabla"
+},
+"pos": "noun/verb",
+"w": "chart",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1611
+},
+{
+"word": "cheek",
+"m": {
+"es": "mejilla"
+},
+"pos": "noun",
+"w": "cheek",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1612
+},
+{
+"word": "cheer",
+"m": {
+"es": "animar, vitorear"
+},
+"pos": "verb",
+"w": "cheer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1613
+},
+{
+"word": "chef",
+"m": {
+"es": "chef, cocinero"
+},
+"pos": "noun",
+"w": "chef",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1614
+},
+{
+"word": "chemical",
+"m": {
+"es": "químico; sustancia química"
+},
+"pos": "adjective/noun",
+"w": "chemical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1615
+},
+{
+"word": "cheque",
+"m": {
+"es": "cheque (EE. UU.: check)"
+},
+"pos": "noun",
+"w": "cheque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1616
+},
+{
+"word": "chess",
+"m": {
+"es": "ajedrez"
+},
+"pos": "noun",
+"w": "chess",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1617
+},
+{
+"word": "chest",
+"m": {
+"es": "pecho"
+},
+"pos": "noun",
+"w": "chest",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1618
+},
+{
+"word": "chili",
+"m": {
+"es": "guindilla, chile"
+},
+"pos": "noun",
+"w": "chili",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1619
+},
+{
+"word": "chimpanzee",
+"m": {
+"es": "chimpancé"
+},
+"pos": "noun",
+"w": "chimpanzee",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1620
+},
+{
+"word": "chin",
+"m": {
+"es": "barbilla"
+},
+"pos": "noun",
+"w": "chin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1621
+},
+{
+"word": "choice",
+"m": {
+"es": "elección, opción"
+},
+"pos": "noun",
+"w": "choice",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1622
+},
+{
+"word": "cigarette",
+"m": {
+"es": "cigarrillo"
+},
+"pos": "noun",
+"w": "cigarette",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1623
+},
+{
+"word": "citizen",
+"m": {
+"es": "ciudadano"
+},
+"pos": "noun",
+"w": "citizen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1624
+},
+{
+"word": "claim",
+"m": {
+"es": "afirmar; reclamar"
+},
+"pos": "noun/verb",
+"w": "claim",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1625
+},
+{
+"word": "classic",
+"m": {
+"es": "clásico"
+},
+"pos": "adjective/noun",
+"w": "classic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1626
+},
+{
+"word": "classical music",
+"m": {
+"es": "música clásica"
+},
+"pos": "noun",
+"w": "classical music",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1627
+},
+{
+"word": "cleaner",
+"m": {
+"es": "limpiador(a)"
+},
+"pos": "noun",
+"w": "cleaner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1628
+},
+{
+"word": "clear",
+"m": {
+"es": "claro; despejar"
+},
+"pos": "adjective/verb",
+"w": "clear",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1629
+},
+{
+"word": "clearly",
+"m": {
+"es": "claramente"
+},
+"pos": "adverb",
+"w": "clearly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1630
+},
+{
+"word": "clerk",
+"m": {
+"es": "empleado, oficinista"
+},
+"pos": "noun",
+"w": "clerk",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1631
+},
+{
+"word": "climbing",
+"m": {
+"es": "escalada"
+},
+"pos": "noun",
+"w": "climbing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1632
+},
+{
+"word": "clone",
+"m": {
+"es": "clon"
+},
+"pos": "verb",
+"w": "clone",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1633
+},
+{
+"word": "clown",
+"m": {
+"es": "payaso"
+},
+"pos": "noun",
+"w": "clown",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1634
+},
+{
+"word": "clue",
+"m": {
+"es": "pista"
+},
+"pos": "noun",
+"w": "clue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1635
+},
+{
+"word": "coast",
+"m": {
+"es": "costa"
+},
+"pos": "noun/verb",
+"w": "coast",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1636
+},
+{
+"word": "cola",
+"m": {
+"es": "refresco de cola"
+},
+"pos": "noun",
+"w": "cola",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1637
+},
+{
+"word": "colourful",
+"m": {
+"es": "colorido"
+},
+"pos": "adjective",
+"w": "colourful",
+"p": "",
+"us": "colorful",
+"unit": null,
+"u": "",
+"q": 1638
+},
+{
+"word": "column",
+"m": {
+"es": "columna"
+},
+"pos": "noun",
+"w": "column",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1639
+},
+{
+"word": "comb",
+"m": {
+"es": "peine; peinarse"
+},
+"pos": "noun/verb",
+"w": "comb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1640
+},
+{
+"word": "comic",
+"m": {
+"es": "cómic; cómico"
+},
+"pos": "adjective/noun",
+"w": "comic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1641
+},
+{
+"word": "commitment",
+"m": {
+"es": "compromiso"
+},
+"pos": "noun",
+"w": "commitment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1642
+},
+{
+"word": "committee",
+"m": {
+"es": "comité"
+},
+"pos": "noun",
+"w": "committee",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1643
+},
+{
+"word": "communicate",
+"m": {
+"es": "comunicar(se)"
+},
+"pos": "verb",
+"w": "communicate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1644
+},
+{
+"word": "communication",
+"m": {
+"es": "comunicación"
+},
+"pos": "noun",
+"w": "communication",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1645
+},
+{
+"word": "competition",
+"m": {
+"es": "competición, concurso"
+},
+"pos": "noun",
+"w": "competition",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1646
+},
+{
+"word": "complain",
+"m": {
+"es": "quejarse"
+},
+"pos": "verb",
+"w": "complain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1647
+},
+{
+"word": "complaint",
+"m": {
+"es": "queja, reclamación"
+},
+"pos": "noun",
+"w": "complaint",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1648
+},
+{
+"word": "concentrate",
+"m": {
+"es": "concentrarse"
+},
+"pos": "verb",
+"w": "concentrate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1649
+},
+{
+"word": "concern",
+"m": {
+"es": "preocupación; preocupar"
+},
+"pos": "noun/verb",
+"w": "concern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1650
+},
+{
+"word": "confuse",
+"m": {
+"es": "confundir"
+},
+"pos": "verb",
+"w": "confuse",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1651
+},
+{
+"word": "consequence",
+"m": {
+"es": "consecuencia"
+},
+"pos": "noun",
+"w": "consequence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1652
+},
+{
+"word": "consist",
+"m": {
+"es": "consistir (en)"
+},
+"pos": "verb",
+"w": "consist",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1653
+},
+{
+"word": "container",
+"m": {
+"es": "recipiente, contenedor"
+},
+"pos": "noun",
+"w": "container",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1654
+},
+{
+"word": "context",
+"m": {
+"es": "contexto"
+},
+"pos": "noun",
+"w": "context",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1655
+},
+{
+"word": "contrast",
+"m": {
+"es": "contraste"
+},
+"pos": "noun",
+"w": "contrast",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1656
+},
+{
+"word": "control",
+"m": {
+"es": "control; controlar"
+},
+"pos": "noun/verb",
+"w": "control",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1657
+},
+{
+"word": "convenience",
+"m": {
+"es": "comodidad, conveniencia"
+},
+"pos": "noun",
+"w": "convenience",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1658
+},
+{
+"word": "cooker",
+"m": {
+"es": "cocina (aparato) (EE. UU.: stove)"
+},
+"pos": "noun",
+"w": "cooker",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1659
+},
+{
+"word": "cooking",
+"m": {
+"es": "cocina (arte de cocinar)"
+},
+"pos": "noun",
+"w": "cooking",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1660
+},
+{
+"word": "cooler",
+"m": {
+"es": "nevera portátil"
+},
+"pos": "noun",
+"w": "cooler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1661
+},
+{
+"word": "correctly",
+"m": {
+"es": "correctamente"
+},
+"pos": "adverb",
+"w": "correctly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1662
+},
+{
+"word": "count",
+"m": {
+"es": "contar"
+},
+"pos": "noun/verb",
+"w": "count",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1663
+},
+{
+"word": "couple",
+"m": {
+"es": "pareja; (a couple of) un par de"
+},
+"pos": "noun",
+"w": "couple",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1664
+},
+{
+"word": "court",
+"m": {
+"es": "tribunal; pista (de tenis)"
+},
+"pos": "noun",
+"w": "court",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1665
+},
+{
+"word": "crazy",
+"m": {
+"es": "loco"
+},
+"pos": "adjective",
+"w": "crazy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1666
+},
+{
+"word": "creativity",
+"m": {
+"es": "creatividad"
+},
+"pos": "noun",
+"w": "creativity",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1667
+},
+{
+"word": "creature",
+"m": {
+"es": "criatura"
+},
+"pos": "noun",
+"w": "creature",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1668
+},
+{
+"word": "cricket",
+"m": {
+"es": "críquet; grillo"
+},
+"pos": "noun",
+"w": "cricket",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1669
+},
+{
+"word": "crime",
+"m": {
+"es": "delito, crimen"
+},
+"pos": "noun",
+"w": "crime",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1670
+},
+{
+"word": "crisp",
+"m": {
+"es": "patata frita (de bolsa); crujiente"
+},
+"pos": "noun",
+"w": "crisp",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1671
+},
+{
+"word": "criticize",
+"m": {
+"es": "criticar"
+},
+"pos": "verb",
+"w": "criticize",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1672
+},
+{
+"word": "crown",
+"m": {
+"es": "corona"
+},
+"pos": "noun",
+"w": "crown",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1673
+},
+{
+"word": "cruise",
+"m": {
+"es": "crucero"
+},
+"pos": "noun/verb",
+"w": "cruise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1674
+},
+{
+"word": "cupboard",
+"m": {
+"es": "armario (de cocina)"
+},
+"pos": "noun",
+"w": "cupboard",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1675
+},
+{
+"word": "curry",
+"m": {
+"es": "curry"
+},
+"pos": "noun",
+"w": "curry",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1676
+},
+{
+"word": "curse",
+"m": {
+"es": "maldición; maldecir"
+},
+"pos": "noun",
+"w": "curse",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1677
+},
+{
+"word": "custom",
+"m": {
+"es": "costumbre"
+},
+"pos": "noun",
+"w": "custom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1678
+},
+{
+"word": "cycling",
+"m": {
+"es": "ciclismo"
+},
+"pos": "noun",
+"w": "cycling",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1679
+},
+{
+"word": "daily",
+"m": {
+"es": "diario"
+},
+"pos": "adjective/adverb",
+"w": "daily",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1680
+},
+{
+"word": "dam",
+"m": {
+"es": "presa"
+},
+"pos": "noun",
+"w": "dam",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1681
+},
+{
+"word": "dancer",
+"m": {
+"es": "bailarín"
+},
+"pos": "noun",
+"w": "dancer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1682
+},
+{
+"word": "danger",
+"m": {
+"es": "peligro"
+},
+"pos": "noun",
+"w": "danger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1683
+},
+{
+"word": "daylight",
+"m": {
+"es": "luz del día"
+},
+"pos": "noun",
+"w": "daylight",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1684
+},
+{
+"word": "dead",
+"m": {
+"es": "muerto"
+},
+"pos": "adjective",
+"w": "dead",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1685
+},
+{
+"word": "deal",
+"m": {
+"es": "trato; (deal with) ocuparse de"
+},
+"pos": "noun/verb",
+"w": "deal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1686
+},
+{
+"word": "debate",
+"m": {
+"es": "debate"
+},
+"pos": "noun",
+"w": "debate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1687
+},
+{
+"word": "deeply",
+"m": {
+"es": "profundamente"
+},
+"pos": "adverb",
+"w": "deeply",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1688
+},
+{
+"word": "depend",
+"m": {
+"es": "depender"
+},
+"pos": "verb",
+"w": "depend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1689
+},
+{
+"word": "destroy",
+"m": {
+"es": "destruir"
+},
+"pos": "verb",
+"w": "destroy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1690
+},
+{
+"word": "detail",
+"m": {
+"es": "detalle"
+},
+"pos": "noun",
+"w": "detail",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1691
+},
+{
+"word": "develop",
+"m": {
+"es": "desarrollar"
+},
+"pos": "verb",
+"w": "develop",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1692
+},
+{
+"word": "developed",
+"m": {
+"es": "desarrollado"
+},
+"pos": "adjective",
+"w": "developed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1693
+},
+{
+"word": "diamond",
+"m": {
+"es": "diamante"
+},
+"pos": "noun",
+"w": "diamond",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1694
+},
+{
+"word": "diary",
+"m": {
+"es": "diario; agenda"
+},
+"pos": "noun",
+"w": "diary",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1695
+},
+{
+"word": "differently",
+"m": {
+"es": "de forma diferente"
+},
+"pos": "adverb",
+"w": "differently",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1696
+},
+{
+"word": "difficulty",
+"m": {
+"es": "dificultad"
+},
+"pos": "noun",
+"w": "difficulty",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1697
+},
+{
+"word": "digital camera",
+"m": {
+"es": "cámara digital"
+},
+"pos": "noun",
+"w": "digital camera",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1698
+},
+{
+"word": "dinosaur",
+"m": {
+"es": "dinosaurio"
+},
+"pos": "noun",
+"w": "dinosaur",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1699
+},
+{
+"word": "direct",
+"m": {
+"es": "directo; dirigir"
+},
+"pos": "adjective/verb",
+"w": "direct",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1700
+},
+{
+"word": "direction",
+"m": {
+"es": "dirección"
+},
+"pos": "noun",
+"w": "direction",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1701
+},
+{
+"word": "director",
+"m": {
+"es": "director"
+},
+"pos": "noun",
+"w": "director",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1702
+},
+{
+"word": "disadvantage",
+"m": {
+"es": "desventaja"
+},
+"pos": "noun",
+"w": "disadvantage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1703
+},
+{
+"word": "disagree",
+"m": {
+"es": "no estar de acuerdo"
+},
+"pos": "verb",
+"w": "disagree",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1704
+},
+{
+"word": "disco",
+"m": {
+"es": "discoteca"
+},
+"pos": "noun",
+"w": "disco",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1705
+},
+{
+"word": "discussion",
+"m": {
+"es": "debate, conversación"
+},
+"pos": "noun",
+"w": "discussion",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1706
+},
+{
+"word": "dishonest",
+"m": {
+"es": "deshonesto"
+},
+"pos": "adjective",
+"w": "dishonest",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1707
+},
+{
+"word": "dislike",
+"m": {
+"es": "no gustar; aversión"
+},
+"pos": "noun/verb",
+"w": "dislike",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1708
+},
+{
+"word": "display",
+"m": {
+"es": "mostrar; exposición"
+},
+"pos": "noun/verb",
+"w": "display",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1709
+},
+{
+"word": "disturb",
+"m": {
+"es": "molestar"
+},
+"pos": "verb",
+"w": "disturb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1710
+},
+{
+"word": "divide",
+"m": {
+"es": "dividir"
+},
+"pos": "noun/verb",
+"w": "divide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1711
+},
+{
+"word": "dizzy",
+"m": {
+"es": "mareado"
+},
+"pos": "adjective",
+"w": "dizzy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1712
+},
+{
+"word": "double",
+"m": {
+"es": "doble"
+},
+"pos": "adjective/noun/verb",
+"w": "double",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1713
+},
+{
+"word": "doubt",
+"m": {
+"es": "duda; dudar"
+},
+"pos": "noun/verb",
+"w": "doubt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1714
+},
+{
+"word": "downstairs",
+"m": {
+"es": "abajo (en el piso de abajo)"
+},
+"pos": "adjective/adverb",
+"w": "downstairs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1715
+},
+{
+"word": "downtown",
+"m": {
+"es": "centro (de la ciudad) (EE. UU.)"
+},
+"pos": "adverb",
+"w": "downtown",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1716
+},
+{
+"word": "drawer",
+"m": {
+"es": "cajón"
+},
+"pos": "noun",
+"w": "drawer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1717
+},
+{
+"word": "drawing",
+"m": {
+"es": "dibujo"
+},
+"pos": "noun",
+"w": "drawing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1718
+},
+{
+"word": "dressed",
+"m": {
+"es": "vestido (get dressed: vestirse)"
+},
+"pos": "adjective",
+"w": "dressed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1719
+},
+{
+"word": "drill",
+"m": {
+"es": "taladro; ejercicio"
+},
+"pos": "noun/verb",
+"w": "drill",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1720
+},
+{
+"word": "driving licence",
+"m": {
+"es": "carné de conducir (EE. UU.: driver's license)"
+},
+"pos": "noun",
+"w": "driving licence",
+"p": "",
+"us": "driver's license",
+"unit": null,
+"u": "",
+"q": 1721
+},
+{
+"word": "drug",
+"m": {
+"es": "medicamento; droga"
+},
+"pos": "noun",
+"w": "drug",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1722
+},
+{
+"word": "drugstore",
+"m": {
+"es": "farmacia (EE. UU.)"
+},
+"pos": "noun",
+"w": "drugstore",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1723
+},
+{
+"word": "duck",
+"m": {
+"es": "pato"
+},
+"pos": "noun",
+"w": "duck",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1724
+},
+{
+"word": "dust",
+"m": {
+"es": "polvo"
+},
+"pos": "noun",
+"w": "dust",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1725
+},
+{
+"word": "earring",
+"m": {
+"es": "pendiente"
+},
+"pos": "noun",
+"w": "earring",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1726
+},
+{
+"word": "earth",
+"m": {
+"es": "tierra; la Tierra"
+},
+"pos": "noun",
+"w": "earth",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1727
+},
+{
+"word": "earthquake",
+"m": {
+"es": "terremoto"
+},
+"pos": "noun",
+"w": "earthquake",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1728
+},
+{
+"word": "east",
+"m": {
+"es": "este"
+},
+"pos": "adjective/adverb/noun",
+"w": "east",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1729
+},
+{
+"word": "editor",
+"m": {
+"es": "editor, redactor"
+},
+"pos": "noun",
+"w": "editor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1730
+},
+{
+"word": "education",
+"m": {
+"es": "educación"
+},
+"pos": "noun",
+"w": "education",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1731
+},
+{
+"word": "educational",
+"m": {
+"es": "educativo"
+},
+"pos": "adjective",
+"w": "educational",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1732
+},
+{
+"word": "effect",
+"m": {
+"es": "efecto"
+},
+"pos": "noun",
+"w": "effect",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1733
+},
+{
+"word": "effort",
+"m": {
+"es": "esfuerzo"
+},
+"pos": "noun",
+"w": "effort",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1734
+},
+{
+"word": "elderly",
+"m": {
+"es": "mayor, anciano"
+},
+"pos": "adjective",
+"w": "elderly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1735
+},
+{
+"word": "elephant",
+"m": {
+"es": "elefante"
+},
+"pos": "noun",
+"w": "elephant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1736
+},
+{
+"word": "elevator",
+"m": {
+"es": "ascensor (EE. UU.)"
+},
+"pos": "noun",
+"w": "elevator",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1737
+},
+{
+"word": "elsewhere",
+"m": {
+"es": "en otro sitio"
+},
+"pos": "adverb",
+"w": "elsewhere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1738
+},
+{
+"word": "emergency",
+"m": {
+"es": "emergencia"
+},
+"pos": "noun",
+"w": "emergency",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1739
+},
+{
+"word": "empty",
+"m": {
+"es": "vacío"
+},
+"pos": "adjective",
+"w": "empty",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1740
+},
+{
+"word": "encourage",
+"m": {
+"es": "animar"
+},
+"pos": "verb",
+"w": "encourage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1741
+},
+{
+"word": "endangered",
+"m": {
+"es": "en peligro de extinción"
+},
+"pos": "adjective",
+"w": "endangered",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1742
+},
+{
+"word": "ending",
+"m": {
+"es": "final"
+},
+"pos": "noun",
+"w": "ending",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1743
+},
+{
+"word": "enter",
+"m": {
+"es": "entrar (en)"
+},
+"pos": "verb",
+"w": "enter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1744
+},
+{
+"word": "entertainment",
+"m": {
+"es": "entretenimiento"
+},
+"pos": "noun",
+"w": "entertainment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1745
+},
+{
+"word": "envelope",
+"m": {
+"es": "sobre"
+},
+"pos": "noun",
+"w": "envelope",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1746
+},
+{
+"word": "envy",
+"m": {
+"es": "envidia"
+},
+"pos": "noun/verb",
+"w": "envy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1747
+},
+{
+"word": "episode",
+"m": {
+"es": "episodio"
+},
+"pos": "noun",
+"w": "episode",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1748
+},
+{
+"word": "error",
+"m": {
+"es": "error"
+},
+"pos": "noun",
+"w": "error",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1749
+},
+{
+"word": "escalator",
+"m": {
+"es": "escalera mecánica"
+},
+"pos": "noun",
+"w": "escalator",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1750
+},
+{
+"word": "escape",
+"m": {
+"es": "escapar(se)"
+},
+"pos": "noun/verb",
+"w": "escape",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1751
+},
+{
+"word": "essay",
+"m": {
+"es": "redacción, ensayo"
+},
+"pos": "noun",
+"w": "essay",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1752
+},
+{
+"word": "establish",
+"m": {
+"es": "establecer, fundar"
+},
+"pos": "verb",
+"w": "establish",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1753
+},
+{
+"word": "euro",
+"m": {
+"es": "euro"
+},
+"pos": "noun",
+"w": "euro",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1754
+},
+{
+"word": "even",
+"m": {
+"es": "incluso; aún (even better)"
+},
+"pos": "adjective/adverb",
+"w": "even",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1755
+},
+{
+"word": "evidence",
+"m": {
+"es": "pruebas"
+},
+"pos": "noun",
+"w": "evidence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1756
+},
+{
+"word": "exactly",
+"m": {
+"es": "exactamente"
+},
+"pos": "adverb",
+"w": "exactly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1757
+},
+{
+"word": "except",
+"m": {
+"es": "excepto"
+},
+"pos": "conjunction/preposition",
+"w": "except",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1758
+},
+{
+"word": "exchange",
+"m": {
+"es": "intercambio; cambiar"
+},
+"pos": "noun/verb",
+"w": "exchange",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1759
+},
+{
+"word": "exist",
+"m": {
+"es": "existir"
+},
+"pos": "verb",
+"w": "exist",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1760
+},
+{
+"word": "expert",
+"m": {
+"es": "experto"
+},
+"pos": "adjective/noun",
+"w": "expert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1761
+},
+{
+"word": "explanation",
+"m": {
+"es": "explicación"
+},
+"pos": "noun",
+"w": "explanation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1762
+},
+{
+"word": "explore",
+"m": {
+"es": "explorar"
+},
+"pos": "verb",
+"w": "explore",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1763
+},
+{
+"word": "express",
+"m": {
+"es": "expresar"
+},
+"pos": "noun/verb",
+"w": "express",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1764
+},
+{
+"word": "expression",
+"m": {
+"es": "expresión"
+},
+"pos": "noun",
+"w": "expression",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1765
+},
+{
+"word": "extra",
+"m": {
+"es": "extra, adicional"
+},
+"pos": "adjective/adverb/noun",
+"w": "extra",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1766
+},
+{
+"word": "extremely",
+"m": {
+"es": "extremadamente"
+},
+"pos": "adverb",
+"w": "extremely",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1767
+},
+{
+"word": "fact",
+"m": {
+"es": "hecho"
+},
+"pos": "noun",
+"w": "fact",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1768
+},
+{
+"word": "familiar",
+"m": {
+"es": "familiar, conocido"
+},
+"pos": "adjective",
+"w": "familiar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1769
+},
+{
+"word": "far",
+"m": {
+"es": "lejos"
+},
+"pos": "adjective/adverb",
+"w": "far",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1770
+},
+{
+"word": "fascinating",
+"m": {
+"es": "fascinante"
+},
+"pos": "adjective",
+"w": "fascinating",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1771
+},
+{
+"word": "fashion",
+"m": {
+"es": "moda"
+},
+"pos": "noun",
+"w": "fashion",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1772
+},
+{
+"word": "fast food",
+"m": {
+"es": "comida rápida"
+},
+"pos": "noun",
+"w": "fast food",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1773
+},
+{
+"word": "fault",
+"m": {
+"es": "culpa; defecto"
+},
+"pos": "noun",
+"w": "fault",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1774
+},
+{
+"word": "fear",
+"m": {
+"es": "miedo; temer"
+},
+"pos": "noun/verb",
+"w": "fear",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1775
+},
+{
+"word": "feather",
+"m": {
+"es": "pluma (de ave)"
+},
+"pos": "noun",
+"w": "feather",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1776
+},
+{
+"word": "feature",
+"m": {
+"es": "característica; rasgo"
+},
+"pos": "noun/verb",
+"w": "feature",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1777
+},
+{
+"word": "fee",
+"m": {
+"es": "tasa, cuota, honorarios"
+},
+"pos": "noun",
+"w": "fee",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1778
+},
+{
+"word": "female",
+"m": {
+"es": "femenino; hembra"
+},
+"pos": "adjective/noun",
+"w": "female",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1779
+},
+{
+"word": "fence",
+"m": {
+"es": "valla"
+},
+"pos": "noun",
+"w": "fence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1780
+},
+{
+"word": "fiction",
+"m": {
+"es": "ficción"
+},
+"pos": "noun",
+"w": "fiction",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1781
+},
+{
+"word": "fighter",
+"m": {
+"es": "luchador; caza (avión)"
+},
+"pos": "noun",
+"w": "fighter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1782
+},
+{
+"word": "figure",
+"m": {
+"es": "cifra; figura"
+},
+"pos": "noun/verb",
+"w": "figure",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1783
+},
+{
+"word": "final",
+"m": {
+"es": "final"
+},
+"pos": "adjective/noun",
+"w": "final",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1784
+},
+{
+"word": "first name",
+"m": {
+"es": "nombre de pila"
+},
+"pos": "noun",
+"w": "first name",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1785
+},
+{
+"word": "fisherman",
+"m": {
+"es": "pescador"
+},
+"pos": "noun",
+"w": "fisherman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1786
+},
+{
+"word": "fit",
+"m": {
+"es": "en forma; quedar bien (ropa)"
+},
+"pos": "adjective/noun/verb",
+"w": "fit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1787
+},
+{
+"word": "flea",
+"m": {
+"es": "pulga"
+},
+"pos": "noun",
+"w": "flea",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1788
+},
+{
+"word": "float",
+"m": {
+"es": "flotar"
+},
+"pos": "noun/verb",
+"w": "float",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1789
+},
+{
+"word": "flood",
+"m": {
+"es": "inundación"
+},
+"pos": "noun/verb",
+"w": "flood",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1790
+},
+{
+"word": "fog",
+"m": {
+"es": "niebla"
+},
+"pos": "noun",
+"w": "fog",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1791
+},
+{
+"word": "folder",
+"m": {
+"es": "carpeta"
+},
+"pos": "noun",
+"w": "folder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1792
+},
+{
+"word": "follow",
+"m": {
+"es": "seguir"
+},
+"pos": "verb",
+"w": "follow",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1793
+},
+{
+"word": "fool",
+"m": {
+"es": "tonto; engañar"
+},
+"pos": "noun/verb",
+"w": "fool",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1794
+},
+{
+"word": "footballer",
+"m": {
+"es": "futbolista"
+},
+"pos": "noun",
+"w": "footballer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1795
+},
+{
+"word": "force",
+"m": {
+"es": "fuerza; obligar"
+},
+"pos": "noun/verb",
+"w": "force",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1796
+},
+{
+"word": "forest",
+"m": {
+"es": "bosque"
+},
+"pos": "noun",
+"w": "forest",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1797
+},
+{
+"word": "forever",
+"m": {
+"es": "para siempre"
+},
+"pos": "adverb",
+"w": "forever",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1798
+},
+{
+"word": "fortune",
+"m": {
+"es": "fortuna"
+},
+"pos": "noun",
+"w": "fortune",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1799
+},
+{
+"word": "forward",
+"m": {
+"es": "hacia delante"
+},
+"pos": "adverb",
+"w": "forward",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1800
+},
+{
+"word": "frame",
+"m": {
+"es": "marco"
+},
+"pos": "noun/verb",
+"w": "frame",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1801
+},
+{
+"word": "frank",
+"m": {
+"es": "franco, sincero"
+},
+"pos": "adjective",
+"w": "frank",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1802
+},
+{
+"word": "freedom",
+"m": {
+"es": "libertad"
+},
+"pos": "noun",
+"w": "freedom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1803
+},
+{
+"word": "freeze",
+"m": {
+"es": "congelar(se)"
+},
+"pos": "verb",
+"w": "freeze",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1804
+},
+{
+"word": "fridge",
+"m": {
+"es": "nevera"
+},
+"pos": "noun",
+"w": "fridge",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1805
+},
+{
+"word": "fried",
+"m": {
+"es": "frito"
+},
+"pos": "adjective",
+"w": "fried",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1806
+},
+{
+"word": "friendship",
+"m": {
+"es": "amistad"
+},
+"pos": "noun",
+"w": "friendship",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1807
+},
+{
+"word": "frighten",
+"m": {
+"es": "asustar"
+},
+"pos": "verb",
+"w": "frighten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1808
+},
+{
+"word": "fully",
+"m": {
+"es": "completamente"
+},
+"pos": "adverb",
+"w": "fully",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1809
+},
+{
+"word": "function",
+"m": {
+"es": "función"
+},
+"pos": "noun/verb",
+"w": "function",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1810
+},
+{
+"word": "furniture",
+"m": {
+"es": "muebles (incontable)"
+},
+"pos": "noun",
+"w": "furniture",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1811
+},
+{
+"word": "further",
+"m": {
+"es": "más (lejos); adicional"
+},
+"pos": "adjective/adverb",
+"w": "further",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1812
+},
+{
+"word": "garage",
+"m": {
+"es": "garaje; taller"
+},
+"pos": "noun",
+"w": "garage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1813
+},
+{
+"word": "gas",
+"m": {
+"es": "gas; gasolina (EE. UU.)"
+},
+"pos": "noun",
+"w": "gas",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1814
+},
+{
+"word": "gather",
+"m": {
+"es": "reunir(se)"
+},
+"pos": "verb",
+"w": "gather",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1815
+},
+{
+"word": "gender",
+"m": {
+"es": "género (sexo)"
+},
+"pos": "noun",
+"w": "gender",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1816
+},
+{
+"word": "generation",
+"m": {
+"es": "generación"
+},
+"pos": "noun",
+"w": "generation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1817
+},
+{
+"word": "gentle",
+"m": {
+"es": "suave, amable"
+},
+"pos": "adjective",
+"w": "gentle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1818
+},
+{
+"word": "globe",
+"m": {
+"es": "globo terráqueo"
+},
+"pos": "noun",
+"w": "globe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1819
+},
+{
+"word": "glove",
+"m": {
+"es": "guante"
+},
+"pos": "noun",
+"w": "glove",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1820
+},
+{
+"word": "golden",
+"m": {
+"es": "dorado"
+},
+"pos": "adjective",
+"w": "golden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1821
+},
+{
+"word": "golf",
+"m": {
+"es": "golf"
+},
+"pos": "noun",
+"w": "golf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1822
+},
+{
+"word": "good-looking",
+"m": {
+"es": "guapo"
+},
+"pos": "adjective",
+"w": "good-looking",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1823
+},
+{
+"word": "government",
+"m": {
+"es": "gobierno"
+},
+"pos": "noun",
+"w": "government",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1824
+},
+{
+"word": "grace",
+"m": {
+"es": "gracia, elegancia"
+},
+"pos": "noun",
+"w": "grace",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1825
+},
+{
+"word": "gradually",
+"m": {
+"es": "poco a poco"
+},
+"pos": "adverb",
+"w": "gradually",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1826
+},
+{
+"word": "gramme",
+"m": {
+"es": "gramo"
+},
+"pos": "noun",
+"w": "gramme",
+"p": "",
+"us": "gram",
+"unit": null,
+"u": "",
+"q": 1827
+},
+{
+"word": "grandchild",
+"m": {
+"es": "nieto/a"
+},
+"pos": "noun",
+"w": "grandchild",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1828
+},
+{
+"word": "granddad",
+"m": {
+"es": "abuelo (coloq.)"
+},
+"pos": "noun",
+"w": "granddad",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1829
+},
+{
+"word": "granddaughter",
+"m": {
+"es": "nieta"
+},
+"pos": "noun",
+"w": "granddaughter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1830
+},
+{
+"word": "grandson",
+"m": {
+"es": "nieto"
+},
+"pos": "noun",
+"w": "grandson",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1831
+},
+{
+"word": "granny",
+"m": {
+"es": "abuelita"
+},
+"pos": "noun",
+"w": "granny",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1832
+},
+{
+"word": "grateful",
+"m": {
+"es": "agradecido"
+},
+"pos": "adjective",
+"w": "grateful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1833
+},
+{
+"word": "greatly",
+"m": {
+"es": "enormemente"
+},
+"pos": "adverb",
+"w": "greatly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1834
+},
+{
+"word": "greedy",
+"m": {
+"es": "codicioso; glotón"
+},
+"pos": "adjective",
+"w": "greedy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1835
+},
+{
+"word": "grilled",
+"m": {
+"es": "a la parrilla"
+},
+"pos": "adjective",
+"w": "grilled",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1836
+},
+{
+"word": "grocery store",
+"m": {
+"es": "tienda de comestibles"
+},
+"pos": "noun",
+"w": "grocery store",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1837
+},
+{
+"word": "gun",
+"m": {
+"es": "pistola, arma"
+},
+"pos": "noun",
+"w": "gun",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1838
+},
+{
+"word": "ham",
+"m": {
+"es": "jamón"
+},
+"pos": "noun",
+"w": "ham",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1839
+},
+{
+"word": "handbag",
+"m": {
+"es": "bolso"
+},
+"pos": "noun",
+"w": "handbag",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1840
+},
+{
+"word": "handicapped",
+"m": {
+"es": "discapacitado"
+},
+"pos": "adjective",
+"w": "handicapped",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1841
+},
+{
+"word": "handle",
+"m": {
+"es": "manejar, ocuparse de; asa"
+},
+"pos": "noun/verb",
+"w": "handle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1842
+},
+{
+"word": "happiness",
+"m": {
+"es": "felicidad"
+},
+"pos": "noun",
+"w": "happiness",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1843
+},
+{
+"word": "hardly",
+"m": {
+"es": "apenas"
+},
+"pos": "adverb",
+"w": "hardly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1844
+},
+{
+"word": "harm",
+"m": {
+"es": "daño; dañar"
+},
+"pos": "noun/verb",
+"w": "harm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1845
+},
+{
+"word": "harmful",
+"m": {
+"es": "perjudicial"
+},
+"pos": "adjective",
+"w": "harmful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1846
+},
+{
+"word": "harmony",
+"m": {
+"es": "armonía"
+},
+"pos": "noun",
+"w": "harmony",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1847
+},
+{
+"word": "harvest",
+"m": {
+"es": "cosecha"
+},
+"pos": "noun/verb",
+"w": "harvest",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1848
+},
+{
+"word": "headphones",
+"m": {
+"es": "auriculares"
+},
+"pos": "noun",
+"w": "headphones",
+"p": "",
+"us": "headphone",
+"unit": null,
+"u": "",
+"q": 1849
+},
+{
+"word": "headteacher",
+"m": {
+"es": "director(a) de colegio"
+},
+"pos": "noun",
+"w": "headteacher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1850
+},
+{
+"word": "heating",
+"m": {
+"es": "calefacción"
+},
+"pos": "noun",
+"w": "heating",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1851
+},
+{
+"word": "heavily",
+"m": {
+"es": "mucho, con fuerza (rain heavily)"
+},
+"pos": "adverb",
+"w": "heavily",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1852
+},
+{
+"word": "helpful",
+"m": {
+"es": "útil; servicial"
+},
+"pos": "adjective",
+"w": "helpful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1853
+},
+{
+"word": "hey",
+"m": {
+"es": "¡eh!, ¡oye!"
+},
+"pos": "interjection",
+"w": "hey",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1854
+},
+{
+"word": "high school",
+"m": {
+"es": "instituto (EE. UU.)"
+},
+"pos": "noun",
+"w": "high school",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1855
+},
+{
+"word": "highway",
+"m": {
+"es": "autopista (EE. UU.)"
+},
+"pos": "noun",
+"w": "highway",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1856
+},
+{
+"word": "hike",
+"m": {
+"es": "caminata; hacer senderismo"
+},
+"pos": "noun",
+"w": "hike",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1857
+},
+{
+"word": "hiking",
+"m": {
+"es": "senderismo"
+},
+"pos": "noun",
+"w": "hiking",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1858
+},
+{
+"word": "hip hop",
+"m": {
+"es": "hip hop"
+},
+"pos": "noun",
+"w": "hip hop",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1859
+},
+{
+"word": "hockey",
+"m": {
+"es": "hockey"
+},
+"pos": "noun",
+"w": "hockey",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1860
+},
+{
+"word": "honey",
+"m": {
+"es": "miel; cariño"
+},
+"pos": "noun",
+"w": "honey",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1861
+},
+{
+"word": "honour",
+"m": {
+"es": "honor"
+},
+"pos": "noun/verb",
+"w": "honour",
+"p": "",
+"us": "honor",
+"unit": null,
+"u": "",
+"q": 1862
+},
+{
+"word": "horror",
+"m": {
+"es": "horror"
+},
+"pos": "noun",
+"w": "horror",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1863
+},
+{
+"word": "host",
+"m": {
+"es": "anfitrión; presentador"
+},
+"pos": "noun",
+"w": "host",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1864
+},
+{
+"word": "however",
+"m": {
+"es": "sin embargo"
+},
+"pos": "adverb",
+"w": "however",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1865
+},
+{
+"word": "hug",
+"m": {
+"es": "abrazo; abrazar"
+},
+"pos": "noun/verb",
+"w": "hug",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1866
+},
+{
+"word": "human",
+"m": {
+"es": "humano"
+},
+"pos": "adjective/noun",
+"w": "human",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1867
+},
+{
+"word": "hundred",
+"m": {
+"es": "cien"
+},
+"pos": "number",
+"w": "hundred",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1868
+},
+{
+"word": "hunter",
+"m": {
+"es": "cazador"
+},
+"pos": "noun",
+"w": "hunter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1869
+},
+{
+"word": "ID",
+"m": {
+"es": "documento de identidad"
+},
+"pos": "noun",
+"w": "ID",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1870
+},
+{
+"word": "ID card",
+"m": {
+"es": "carné de identidad"
+},
+"pos": "noun",
+"w": "ID card",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1871
+},
+{
+"word": "image",
+"m": {
+"es": "imagen"
+},
+"pos": "noun",
+"w": "image",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1872
+},
+{
+"word": "imagination",
+"m": {
+"es": "imaginación"
+},
+"pos": "noun",
+"w": "imagination",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1873
+},
+{
+"word": "impact",
+"m": {
+"es": "impacto"
+},
+"pos": "noun",
+"w": "impact",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1874
+},
+{
+"word": "impatient",
+"m": {
+"es": "impaciente"
+},
+"pos": "adjective",
+"w": "impatient",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1875
+},
+{
+"word": "importance",
+"m": {
+"es": "importancia"
+},
+"pos": "noun",
+"w": "importance",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1876
+},
+{
+"word": "importantly",
+"m": {
+"es": "(more importantly) y lo que es más importante"
+},
+"pos": "adverb",
+"w": "importantly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1877
+},
+{
+"word": "impossible",
+"m": {
+"es": "imposible"
+},
+"pos": "adjective",
+"w": "impossible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1878
+},
+{
+"word": "impress",
+"m": {
+"es": "impresionar"
+},
+"pos": "verb",
+"w": "impress",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1879
+},
+{
+"word": "inch",
+"m": {
+"es": "pulgada (2,54 cm)"
+},
+"pos": "noun/verb",
+"w": "inch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1880
+},
+{
+"word": "include",
+"m": {
+"es": "incluir"
+},
+"pos": "verb",
+"w": "include",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1881
+},
+{
+"word": "indeed",
+"m": {
+"es": "de hecho, efectivamente"
+},
+"pos": "adverb",
+"w": "indeed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1882
+},
+{
+"word": "independence",
+"m": {
+"es": "independencia"
+},
+"pos": "noun",
+"w": "independence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1883
+},
+{
+"word": "indicate",
+"m": {
+"es": "indicar"
+},
+"pos": "verb",
+"w": "indicate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1884
+},
+{
+"word": "indoor",
+"m": {
+"es": "interior, cubierto"
+},
+"pos": "adjective",
+"w": "indoor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1885
+},
+{
+"word": "inexpensive",
+"m": {
+"es": "barato"
+},
+"pos": "adjective",
+"w": "inexpensive",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1886
+},
+{
+"word": "influence",
+"m": {
+"es": "influencia; influir"
+},
+"pos": "noun/verb",
+"w": "influence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1887
+},
+{
+"word": "inner",
+"m": {
+"es": "interior"
+},
+"pos": "adjective",
+"w": "inner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1888
+},
+{
+"word": "insect",
+"m": {
+"es": "insecto"
+},
+"pos": "noun",
+"w": "insect",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1889
+},
+{
+"word": "inspiration",
+"m": {
+"es": "inspiración"
+},
+"pos": "noun",
+"w": "inspiration",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1890
+},
+{
+"word": "instant",
+"m": {
+"es": "instante; instantáneo"
+},
+"pos": "adjective",
+"w": "instant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1891
+},
+{
+"word": "instrument",
+"m": {
+"es": "instrumento"
+},
+"pos": "noun",
+"w": "instrument",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1892
+},
+{
+"word": "intelligence",
+"m": {
+"es": "inteligencia"
+},
+"pos": "noun",
+"w": "intelligence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1893
+},
+{
+"word": "intelligent",
+"m": {
+"es": "inteligente"
+},
+"pos": "adjective",
+"w": "intelligent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1894
+},
+{
+"word": "invade",
+"m": {
+"es": "invadir"
+},
+"pos": "verb",
+"w": "invade",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1895
+},
+{
+"word": "issue",
+"m": {
+"es": "cuestión, asunto"
+},
+"pos": "noun/verb",
+"w": "issue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1896
+},
+{
+"word": "jam",
+"m": {
+"es": "mermelada; atasco"
+},
+"pos": "noun/verb",
+"w": "jam",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1897
+},
+{
+"word": "jelly",
+"m": {
+"es": "gelatina (RU); mermelada (EE. UU.)"
+},
+"pos": "noun",
+"w": "jelly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1898
+},
+{
+"word": "joke",
+"m": {
+"es": "chiste; bromear"
+},
+"pos": "noun/verb",
+"w": "joke",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1899
+},
+{
+"word": "joy",
+"m": {
+"es": "alegría"
+},
+"pos": "noun",
+"w": "joy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1900
+},
+{
+"word": "junior",
+"m": {
+"es": "júnior; de menor rango"
+},
+"pos": "adjective",
+"w": "junior",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1901
+},
+{
+"word": "junk",
+"m": {
+"es": "trastos; comida basura (junk food)"
+},
+"pos": "noun",
+"w": "junk",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1902
+},
+{
+"word": "killer",
+"m": {
+"es": "asesino"
+},
+"pos": "noun",
+"w": "killer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1903
+},
+{
+"word": "kilo",
+"m": {
+"es": "kilo"
+},
+"pos": "noun",
+"w": "kilo",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1904
+},
+{
+"word": "kilogramme",
+"m": {
+"es": "kilogramo"
+},
+"pos": "noun",
+"w": "kilogramme",
+"p": "",
+"us": "kilogram",
+"unit": null,
+"u": "",
+"q": 1905
+},
+{
+"word": "kilometre",
+"m": {
+"es": "kilómetro"
+},
+"pos": "noun",
+"w": "kilometre",
+"p": "",
+"us": "kilometer",
+"unit": null,
+"u": "",
+"q": 1906
+},
+{
+"word": "kingdom",
+"m": {
+"es": "reino"
+},
+"pos": "noun",
+"w": "kingdom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1907
+},
+{
+"word": "kit",
+"m": {
+"es": "equipo; kit"
+},
+"pos": "noun",
+"w": "kit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1908
+},
+{
+"word": "knock",
+"m": {
+"es": "llamar (a la puerta); golpe"
+},
+"pos": "noun/verb",
+"w": "knock",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1909
+},
+{
+"word": "knowledge",
+"m": {
+"es": "conocimiento(s)"
+},
+"pos": "noun",
+"w": "knowledge",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1910
+},
+{
+"word": "labour",
+"m": {
+"es": "trabajo, mano de obra"
+},
+"pos": "noun",
+"w": "labour",
+"p": "",
+"us": "labor",
+"unit": null,
+"u": "",
+"q": 1911
+},
+{
+"word": "lack",
+"m": {
+"es": "falta; carecer de"
+},
+"pos": "noun/verb",
+"w": "lack",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1912
+},
+{
+"word": "lake",
+"m": {
+"es": "lago"
+},
+"pos": "noun",
+"w": "lake",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1913
+},
+{
+"word": "land",
+"m": {
+"es": "tierra; aterrizar"
+},
+"pos": "noun/verb",
+"w": "land",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1914
+},
+{
+"word": "lane",
+"m": {
+"es": "carril; camino"
+},
+"pos": "noun",
+"w": "lane",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1915
+},
+{
+"word": "latest",
+"m": {
+"es": "último, más reciente"
+},
+"pos": "adjective",
+"w": "latest",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1916
+},
+{
+"word": "latter",
+"m": {
+"es": "este último"
+},
+"pos": "adjective/adverb/pronoun",
+"w": "latter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1917
+},
+{
+"word": "lawyer",
+"m": {
+"es": "abogado"
+},
+"pos": "noun",
+"w": "lawyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1918
+},
+{
+"word": "laziness",
+"m": {
+"es": "pereza"
+},
+"pos": "noun",
+"w": "laziness",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1919
+},
+{
+"word": "lead",
+"m": {
+"es": "guiar, dirigir"
+},
+"pos": "adjective/noun/verb",
+"w": "lead",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1920
+},
+{
+"word": "learner",
+"m": {
+"es": "alumno, aprendiz"
+},
+"pos": "noun",
+"w": "learner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1921
+},
+{
+"word": "least",
+"m": {
+"es": "(the least) el menor; (at least) al menos"
+},
+"pos": "adverb/determiner/pronoun",
+"w": "least",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1922
+},
+{
+"word": "leather",
+"m": {
+"es": "cuero"
+},
+"pos": "noun",
+"w": "leather",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1923
+},
+{
+"word": "left-hand",
+"m": {
+"es": "izquierdo"
+},
+"pos": "adjective",
+"w": "left-hand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1924
+},
+{
+"word": "leisure",
+"m": {
+"es": "ocio"
+},
+"pos": "noun",
+"w": "leisure",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1925
+},
+{
+"word": "lemon",
+"m": {
+"es": "limón"
+},
+"pos": "noun",
+"w": "lemon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1926
+},
+{
+"word": "lemonade",
+"m": {
+"es": "limonada"
+},
+"pos": "noun",
+"w": "lemonade",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1927
+},
+{
+"word": "level",
+"m": {
+"es": "nivel"
+},
+"pos": "adjective/noun/verb",
+"w": "level",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1928
+},
+{
+"word": "liberty",
+"m": {
+"es": "libertad"
+},
+"pos": "noun",
+"w": "liberty",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1929
+},
+{
+"word": "licence",
+"m": {
+"es": "licencia, permiso"
+},
+"pos": "verb",
+"w": "licence",
+"p": "",
+"us": "license",
+"unit": null,
+"u": "",
+"q": 1930
+},
+{
+"word": "lie",
+"m": {
+"es": "mentir; mentira; estar tumbado"
+},
+"pos": "noun/verb",
+"w": "lie",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1931
+},
+{
+"word": "lip",
+"m": {
+"es": "labio"
+},
+"pos": "noun",
+"w": "lip",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1932
+},
+{
+"word": "litre",
+"m": {
+"es": "litro"
+},
+"pos": "noun",
+"w": "litre",
+"p": "",
+"us": "liter",
+"unit": null,
+"u": "",
+"q": 1933
+},
+{
+"word": "load",
+"m": {
+"es": "carga; cargar"
+},
+"pos": "noun/verb",
+"w": "load",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1934
+},
+{
+"word": "local",
+"m": {
+"es": "local, de la zona"
+},
+"pos": "adjective",
+"w": "local",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1935
+},
+{
+"word": "lock",
+"m": {
+"es": "cerradura; cerrar con llave"
+},
+"pos": "noun/verb",
+"w": "lock",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1936
+},
+{
+"word": "logical",
+"m": {
+"es": "lógico"
+},
+"pos": "adjective",
+"w": "logical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1937
+},
+{
+"word": "loose",
+"m": {
+"es": "suelto, flojo"
+},
+"pos": "adjective",
+"w": "loose",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1938
+},
+{
+"word": "lost",
+"m": {
+"es": "perdido"
+},
+"pos": "adjective",
+"w": "lost",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1939
+},
+{
+"word": "lover",
+"m": {
+"es": "amante"
+},
+"pos": "noun",
+"w": "lover",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1940
+},
+{
+"word": "low",
+"m": {
+"es": "bajo"
+},
+"pos": "adjective/adverb",
+"w": "low",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1941
+},
+{
+"word": "lunchtime",
+"m": {
+"es": "hora de comer"
+},
+"pos": "noun",
+"w": "lunchtime",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1942
+},
+{
+"word": "lyrics",
+"m": {
+"es": "letra (de una canción)"
+},
+"pos": "adjective",
+"w": "lyrics",
+"p": "",
+"us": "lyric",
+"unit": null,
+"u": "",
+"q": 1943
+},
+{
+"word": "mad",
+"m": {
+"es": "loco; enfadado (EE. UU.)"
+},
+"pos": "adjective",
+"w": "mad",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1944
+},
+{
+"word": "magic",
+"m": {
+"es": "magia; mágico"
+},
+"pos": "adjective/noun",
+"w": "magic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1945
+},
+{
+"word": "main course",
+"m": {
+"es": "plato principal"
+},
+"pos": "noun",
+"w": "main course",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1946
+},
+{
+"word": "major",
+"m": {
+"es": "principal, importante"
+},
+"pos": "adjective/noun",
+"w": "major",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1947
+},
+{
+"word": "make-up",
+"m": {
+"es": "maquillaje"
+},
+"pos": "noun",
+"w": "make-up",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1948
+},
+{
+"word": "maker",
+"m": {
+"es": "fabricante"
+},
+"pos": "noun",
+"w": "maker",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1949
+},
+{
+"word": "male",
+"m": {
+"es": "masculino; macho"
+},
+"pos": "adjective/noun",
+"w": "male",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1950
+},
+{
+"word": "manager",
+"m": {
+"es": "gerente, encargado"
+},
+"pos": "noun",
+"w": "manager",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1951
+},
+{
+"word": "manner",
+"m": {
+"es": "manera (manners: modales)"
+},
+"pos": "noun",
+"w": "manner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1952
+},
+{
+"word": "mark",
+"m": {
+"es": "nota; marca"
+},
+"pos": "noun/verb",
+"w": "mark",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1953
+},
+{
+"word": "marvellous",
+"m": {
+"es": "maravilloso"
+},
+"pos": "adjective",
+"w": "marvellous",
+"p": "",
+"us": "marvelous",
+"unit": null,
+"u": "",
+"q": 1954
+},
+{
+"word": "material",
+"m": {
+"es": "material; tela"
+},
+"pos": "noun",
+"w": "material",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1955
+},
+{
+"word": "meaning",
+"m": {
+"es": "significado"
+},
+"pos": "noun",
+"w": "meaning",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1956
+},
+{
+"word": "medal",
+"m": {
+"es": "medalla"
+},
+"pos": "noun",
+"w": "medal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1957
+},
+{
+"word": "medical",
+"m": {
+"es": "médico (adj.)"
+},
+"pos": "adjective",
+"w": "medical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1958
+},
+{
+"word": "melon",
+"m": {
+"es": "melón"
+},
+"pos": "noun",
+"w": "melon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1959
+},
+{
+"word": "mention",
+"m": {
+"es": "mencionar"
+},
+"pos": "noun/verb",
+"w": "mention",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1960
+},
+{
+"word": "menu",
+"m": {
+"es": "menú, carta"
+},
+"pos": "noun",
+"w": "menu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1961
+},
+{
+"word": "metal",
+"m": {
+"es": "metal"
+},
+"pos": "noun",
+"w": "metal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1962
+},
+{
+"word": "method",
+"m": {
+"es": "método"
+},
+"pos": "noun",
+"w": "method",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1963
+},
+{
+"word": "metre",
+"m": {
+"es": "metro (medida)"
+},
+"pos": "noun",
+"w": "metre",
+"p": "",
+"us": "meter",
+"unit": null,
+"u": "",
+"q": 1964
+},
+{
+"word": "midday",
+"m": {
+"es": "mediodía"
+},
+"pos": "noun",
+"w": "midday",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1965
+},
+{
+"word": "midnight",
+"m": {
+"es": "medianoche"
+},
+"pos": "noun",
+"w": "midnight",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1966
+},
+{
+"word": "might",
+"m": {
+"es": "podría (posibilidad)"
+},
+"pos": "modal auxiliary",
+"w": "might",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1967
+},
+{
+"word": "military",
+"m": {
+"es": "militar"
+},
+"pos": "adjective",
+"w": "military",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1968
+},
+{
+"word": "million",
+"m": {
+"es": "millón"
+},
+"pos": "number",
+"w": "million",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1969
+},
+{
+"word": "mineral water",
+"m": {
+"es": "agua mineral"
+},
+"pos": "noun",
+"w": "mineral water",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1970
+},
+{
+"word": "mirror",
+"m": {
+"es": "espejo"
+},
+"pos": "noun",
+"w": "mirror",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1971
+},
+{
+"word": "missing",
+"m": {
+"es": "desaparecido; que falta"
+},
+"pos": "adjective",
+"w": "missing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1972
+},
+{
+"word": "mistake",
+"m": {
+"es": "error"
+},
+"pos": "noun",
+"w": "mistake",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1973
+},
+{
+"word": "model",
+"m": {
+"es": "modelo"
+},
+"pos": "adjective/noun/verb",
+"w": "model",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1974
+},
+{
+"word": "mosque",
+"m": {
+"es": "mezquita"
+},
+"pos": "noun",
+"w": "mosque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1975
+},
+{
+"word": "MP3 player",
+"m": {
+"es": "reproductor de MP3"
+},
+"pos": "noun",
+"w": "MP3 player",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1976
+},
+{
+"word": "Ms",
+"m": {
+"es": "Sra. (sin indicar estado civil)"
+},
+"pos": "noun",
+"w": "Ms",
+"p": "",
+"us": "Ms.",
+"unit": null,
+"u": "",
+"q": 1977
+},
+{
+"word": "mug",
+"m": {
+"es": "taza (grande)"
+},
+"pos": "noun",
+"w": "mug",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1978
+},
+{
+"word": "murder",
+"m": {
+"es": "asesinato; asesinar"
+},
+"pos": "noun/verb",
+"w": "murder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1979
+},
+{
+"word": "mushroom",
+"m": {
+"es": "champiñón, seta"
+},
+"pos": "noun",
+"w": "mushroom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1980
+},
+{
+"word": "musical",
+"m": {
+"es": "musical"
+},
+"pos": "adjective/noun",
+"w": "musical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1981
+},
+{
+"word": "mysterious",
+"m": {
+"es": "misterioso"
+},
+"pos": "adjective",
+"w": "mysterious",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1982
+},
+{
+"word": "mystery",
+"m": {
+"es": "misterio"
+},
+"pos": "noun",
+"w": "mystery",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1983
+},
+{
+"word": "napkin",
+"m": {
+"es": "servilleta"
+},
+"pos": "noun",
+"w": "napkin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1984
+},
+{
+"word": "nation",
+"m": {
+"es": "nación"
+},
+"pos": "noun",
+"w": "nation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1985
+},
+{
+"word": "native",
+"m": {
+"es": "nativo"
+},
+"pos": "adjective",
+"w": "native",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1986
+},
+{
+"word": "nature",
+"m": {
+"es": "naturaleza"
+},
+"pos": "noun",
+"w": "nature",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1987
+},
+{
+"word": "nearly",
+"m": {
+"es": "casi"
+},
+"pos": "adverb",
+"w": "nearly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1988
+},
+{
+"word": "negative",
+"m": {
+"es": "negativo"
+},
+"pos": "adjective",
+"w": "negative",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1989
+},
+{
+"word": "net",
+"m": {
+"es": "red"
+},
+"pos": "adjective/noun",
+"w": "net",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1990
+},
+{
+"word": "next to",
+"m": {
+"es": "al lado de"
+},
+"pos": "preposition",
+"w": "next to",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1991
+},
+{
+"word": "no one",
+"m": {
+"es": "nadie"
+},
+"pos": "pronoun",
+"w": "no one",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1992
+},
+{
+"word": "nobody",
+"m": {
+"es": "nadie"
+},
+"pos": "pronoun",
+"w": "nobody",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1993
+},
+{
+"word": "noon",
+"m": {
+"es": "mediodía"
+},
+"pos": "noun",
+"w": "noon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1994
+},
+{
+"word": "north",
+"m": {
+"es": "norte"
+},
+"pos": "adjective/adverb/noun",
+"w": "north",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1995
+},
+{
+"word": "noun",
+"m": {
+"es": "sustantivo"
+},
+"pos": "noun",
+"w": "noun",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1996
+},
+{
+"word": "novel",
+"m": {
+"es": "novela"
+},
+"pos": "noun",
+"w": "novel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1997
+},
+{
+"word": "oak",
+"m": {
+"es": "roble"
+},
+"pos": "noun",
+"w": "oak",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1998
+},
+{
+"word": "occupation",
+"m": {
+"es": "profesión, ocupación"
+},
+"pos": "noun",
+"w": "occupation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1999
+},
+{
+"word": "olive oil",
+"m": {
+"es": "aceite de oliva"
+},
+"pos": "noun",
+"w": "olive oil",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2000
+},
+{
+"word": "Olympic",
+"m": {
+"es": "olímpico"
+},
+"pos": "adjective",
+"w": "Olympic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2001
+},
+{
+"word": "omelette",
+"m": {
+"es": "tortilla (francesa)"
+},
+"pos": "noun",
+"w": "omelette",
+"p": "",
+"us": "omelet",
+"unit": null,
+"u": "",
+"q": 2002
+},
+{
+"word": "operate",
+"m": {
+"es": "operar; funcionar"
+},
+"pos": "verb",
+"w": "operate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2003
+},
+{
+"word": "opportunity",
+"m": {
+"es": "oportunidad"
+},
+"pos": "noun",
+"w": "opportunity",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2004
+},
+{
+"word": "oppose",
+"m": {
+"es": "oponerse a"
+},
+"pos": "verb",
+"w": "oppose",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2005
+},
+{
+"word": "opposite",
+"m": {
+"es": "enfrente de; contrario"
+},
+"pos": "adjective/adverb/noun/preposition",
+"w": "opposite",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2006
+},
+{
+"word": "organize",
+"m": {
+"es": "organizar"
+},
+"pos": "verb",
+"w": "organize",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2007
+},
+{
+"word": "organized",
+"m": {
+"es": "organizado"
+},
+"pos": "adjective",
+"w": "organized",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2008
+},
+{
+"word": "original",
+"m": {
+"es": "original"
+},
+"pos": "adjective/noun",
+"w": "original",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2009
+},
+{
+"word": "orphan",
+"m": {
+"es": "huérfano"
+},
+"pos": "noun/verb",
+"w": "orphan",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2010
+},
+{
+"word": "out of",
+"m": {
+"es": "fuera de; de (dentro hacia fuera)"
+},
+"pos": "preposition",
+"w": "out of",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2011
+},
+{
+"word": "overseas",
+"m": {
+"es": "en el extranjero"
+},
+"pos": "adjective/adverb",
+"w": "overseas",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2012
+},
+{
+"word": "overweight",
+"m": {
+"es": "con sobrepeso"
+},
+"pos": "adjective",
+"w": "overweight",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2013
+},
+{
+"word": "painter",
+"m": {
+"es": "pintor"
+},
+"pos": "noun",
+"w": "painter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2014
+},
+{
+"word": "pal",
+"m": {
+"es": "colega, amigo"
+},
+"pos": "noun",
+"w": "pal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2015
+},
+{
+"word": "panic",
+"m": {
+"es": "pánico"
+},
+"pos": "noun/verb",
+"w": "panic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2016
+},
+{
+"word": "parcel",
+"m": {
+"es": "paquete"
+},
+"pos": "noun",
+"w": "parcel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2017
+},
+{
+"word": "part",
+"m": {
+"es": "parte"
+},
+"pos": "noun/verb",
+"w": "part",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2018
+},
+{
+"word": "partly",
+"m": {
+"es": "en parte"
+},
+"pos": "adverb",
+"w": "partly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2019
+},
+{
+"word": "passage",
+"m": {
+"es": "pasaje; pasillo"
+},
+"pos": "noun",
+"w": "passage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2020
+},
+{
+"word": "pasta",
+"m": {
+"es": "pasta"
+},
+"pos": "noun",
+"w": "pasta",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2021
+},
+{
+"word": "path",
+"m": {
+"es": "camino, sendero"
+},
+"pos": "noun",
+"w": "path",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2022
+},
+{
+"word": "PC",
+"m": {
+"es": "ordenador personal"
+},
+"pos": "noun",
+"w": "PC",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2023
+},
+{
+"word": "pea",
+"m": {
+"es": "guisante"
+},
+"pos": "noun",
+"w": "pea",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2024
+},
+{
+"word": "pear",
+"m": {
+"es": "pera"
+},
+"pos": "noun",
+"w": "pear",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2025
+},
+{
+"word": "pence",
+"m": {
+"es": "peniques"
+},
+"pos": "noun",
+"w": "pence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2026
+},
+{
+"word": "penfriend",
+"m": {
+"es": "amigo por correspondencia"
+},
+"pos": "noun",
+"w": "penfriend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2027
+},
+{
+"word": "perfect",
+"m": {
+"es": "perfecto"
+},
+"pos": "adjective/verb",
+"w": "perfect",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2028
+},
+{
+"word": "perfectly",
+"m": {
+"es": "perfectamente"
+},
+"pos": "adverb",
+"w": "perfectly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2029
+},
+{
+"word": "perform",
+"m": {
+"es": "actuar, interpretar"
+},
+"pos": "verb",
+"w": "perform",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2030
+},
+{
+"word": "performance",
+"m": {
+"es": "actuación; rendimiento"
+},
+"pos": "noun",
+"w": "performance",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2031
+},
+{
+"word": "perfume",
+"m": {
+"es": "perfume"
+},
+"pos": "noun",
+"w": "perfume",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2032
+},
+{
+"word": "petrol",
+"m": {
+"es": "gasolina (EE. UU.: gas)"
+},
+"pos": "noun",
+"w": "petrol",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2033
+},
+{
+"word": "petrol station",
+"m": {
+"es": "gasolinera"
+},
+"pos": "noun",
+"w": "petrol station",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2034
+},
+{
+"word": "photograph",
+"m": {
+"es": "fotografía"
+},
+"pos": "noun/verb",
+"w": "photograph",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2035
+},
+{
+"word": "photographer",
+"m": {
+"es": "fotógrafo"
+},
+"pos": "noun",
+"w": "photographer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2036
+},
+{
+"word": "photography",
+"m": {
+"es": "fotografía (arte)"
+},
+"pos": "noun",
+"w": "photography",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2037
+},
+{
+"word": "physical",
+"m": {
+"es": "físico"
+},
+"pos": "adjective",
+"w": "physical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2038
+},
+{
+"word": "physically",
+"m": {
+"es": "físicamente"
+},
+"pos": "adverb",
+"w": "physically",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2039
+},
+{
+"word": "pile",
+"m": {
+"es": "montón"
+},
+"pos": "noun",
+"w": "pile",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2040
+},
+{
+"word": "pilgrim",
+"m": {
+"es": "peregrino"
+},
+"pos": "noun",
+"w": "pilgrim",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2041
+},
+{
+"word": "pilot",
+"m": {
+"es": "piloto"
+},
+"pos": "noun",
+"w": "pilot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2042
+},
+{
+"word": "pity",
+"m": {
+"es": "lástima"
+},
+"pos": "noun",
+"w": "pity",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2043
+},
+{
+"word": "plant",
+"m": {
+"es": "planta; plantar"
+},
+"pos": "noun/verb",
+"w": "plant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2044
+},
+{
+"word": "plastic",
+"m": {
+"es": "plástico"
+},
+"pos": "adjective/noun",
+"w": "plastic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2045
+},
+{
+"word": "playful",
+"m": {
+"es": "juguetón"
+},
+"pos": "adjective",
+"w": "playful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2046
+},
+{
+"word": "playground",
+"m": {
+"es": "patio de recreo, parque infantil"
+},
+"pos": "noun",
+"w": "playground",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2047
+},
+{
+"word": "pleasant",
+"m": {
+"es": "agradable"
+},
+"pos": "adjective",
+"w": "pleasant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2048
+},
+{
+"word": "pleasing",
+"m": {
+"es": "agradable"
+},
+"pos": "adjective",
+"w": "pleasing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2049
+},
+{
+"word": "plural",
+"m": {
+"es": "plural"
+},
+"pos": "noun",
+"w": "plural",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2050
+},
+{
+"word": "plus",
+"m": {
+"es": "más (+)"
+},
+"pos": "conjunction/noun/preposition",
+"w": "plus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2051
+},
+{
+"word": "police officer",
+"m": {
+"es": "agente de policía"
+},
+"pos": "noun",
+"w": "police officer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2052
+},
+{
+"word": "police station",
+"m": {
+"es": "comisaría"
+},
+"pos": "noun",
+"w": "police station",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2053
+},
+{
+"word": "policeman",
+"m": {
+"es": "policía (hombre)"
+},
+"pos": "noun",
+"w": "policeman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2054
+},
+{
+"word": "policewoman",
+"m": {
+"es": "policía (mujer)"
+},
+"pos": "noun",
+"w": "policewoman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2055
+},
+{
+"word": "political",
+"m": {
+"es": "político"
+},
+"pos": "adjective",
+"w": "political",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2056
+},
+{
+"word": "pollute",
+"m": {
+"es": "contaminar"
+},
+"pos": "verb",
+"w": "pollute",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2057
+},
+{
+"word": "portrait",
+"m": {
+"es": "retrato"
+},
+"pos": "noun",
+"w": "portrait",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2058
+},
+{
+"word": "position",
+"m": {
+"es": "posición"
+},
+"pos": "noun",
+"w": "position",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2059
+},
+{
+"word": "post office",
+"m": {
+"es": "oficina de correos"
+},
+"pos": "noun",
+"w": "post office",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2060
+},
+{
+"word": "power",
+"m": {
+"es": "poder; energía"
+},
+"pos": "noun",
+"w": "power",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2061
+},
+{
+"word": "powerful",
+"m": {
+"es": "poderoso"
+},
+"pos": "adjective",
+"w": "powerful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2062
+},
+{
+"word": "precise",
+"m": {
+"es": "preciso"
+},
+"pos": "adjective",
+"w": "precise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2063
+},
+{
+"word": "pressure",
+"m": {
+"es": "presión"
+},
+"pos": "noun",
+"w": "pressure",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2064
+},
+{
+"word": "pretend",
+"m": {
+"es": "fingir"
+},
+"pos": "adjective/verb",
+"w": "pretend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2065
+},
+{
+"word": "prevent",
+"m": {
+"es": "evitar, impedir"
+},
+"pos": "verb",
+"w": "prevent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2066
+},
+{
+"word": "pride",
+"m": {
+"es": "orgullo"
+},
+"pos": "noun",
+"w": "pride",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2067
+},
+{
+"word": "principal",
+"m": {
+"es": "principal; director (EE. UU.)"
+},
+"pos": "adjective/noun",
+"w": "principal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2068
+},
+{
+"word": "produce",
+"m": {
+"es": "producir"
+},
+"pos": "verb",
+"w": "produce",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2069
+},
+{
+"word": "product",
+"m": {
+"es": "producto"
+},
+"pos": "noun",
+"w": "product",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2070
+},
+{
+"word": "production",
+"m": {
+"es": "producción"
+},
+"pos": "noun",
+"w": "production",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2071
+},
+{
+"word": "professional",
+"m": {
+"es": "profesional"
+},
+"pos": "adjective/noun",
+"w": "professional",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2072
+},
+{
+"word": "progressive",
+"m": {
+"es": "progresista; progresivo"
+},
+"pos": "adjective",
+"w": "progressive",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2073
+},
+{
+"word": "pronounce",
+"m": {
+"es": "pronunciar"
+},
+"pos": "verb",
+"w": "pronounce",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2074
+},
+{
+"word": "pronunciation",
+"m": {
+"es": "pronunciación"
+},
+"pos": "noun",
+"w": "pronunciation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2075
+},
+{
+"word": "proper",
+"m": {
+"es": "adecuado, de verdad"
+},
+"pos": "adjective",
+"w": "proper",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2076
+},
+{
+"word": "provide",
+"m": {
+"es": "proporcionar"
+},
+"pos": "verb",
+"w": "provide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2077
+},
+{
+"word": "psychologist",
+"m": {
+"es": "psicólogo"
+},
+"pos": "noun",
+"w": "psychologist",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2078
+},
+{
+"word": "publish",
+"m": {
+"es": "publicar"
+},
+"pos": "verb",
+"w": "publish",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2079
+},
+{
+"word": "pull",
+"m": {
+"es": "tirar (de)"
+},
+"pos": "verb",
+"w": "pull",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2080
+},
+{
+"word": "punctuation",
+"m": {
+"es": "puntuación (ortografía)"
+},
+"pos": "noun",
+"w": "punctuation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2081
+},
+{
+"word": "purpose",
+"m": {
+"es": "propósito"
+},
+"pos": "noun",
+"w": "purpose",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2082
+},
+{
+"word": "pursue",
+"m": {
+"es": "perseguir; dedicarse a"
+},
+"pos": "verb",
+"w": "pursue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2083
+},
+{
+"word": "quality",
+"m": {
+"es": "calidad"
+},
+"pos": "adjective/noun",
+"w": "quality",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2084
+},
+{
+"word": "queen",
+"m": {
+"es": "reina"
+},
+"pos": "noun",
+"w": "queen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2085
+},
+{
+"word": "quick",
+"m": {
+"es": "rápido"
+},
+"pos": "adjective",
+"w": "quick",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2086
+},
+{
+"word": "quit",
+"m": {
+"es": "dejar (un hábito, un trabajo)"
+},
+"pos": "adjective/verb",
+"w": "quit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2087
+},
+{
+"word": "quiz",
+"m": {
+"es": "concurso de preguntas, test"
+},
+"pos": "noun",
+"w": "quiz",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2088
+},
+{
+"word": "racket",
+"m": {
+"es": "raqueta"
+},
+"pos": "noun",
+"w": "racket",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2089
+},
+{
+"word": "raincoat",
+"m": {
+"es": "impermeable"
+},
+"pos": "noun",
+"w": "raincoat",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2090
+},
+{
+"word": "raise",
+"m": {
+"es": "levantar; subir; criar"
+},
+"pos": "verb",
+"w": "raise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2091
+},
+{
+"word": "range",
+"m": {
+"es": "gama; alcance"
+},
+"pos": "noun/verb",
+"w": "range",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2092
+},
+{
+"word": "rap",
+"m": {
+"es": "rap"
+},
+"pos": "noun/verb",
+"w": "rap",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2093
+},
+{
+"word": "rate",
+"m": {
+"es": "tasa, índice"
+},
+"pos": "noun/verb",
+"w": "rate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2094
+},
+{
+"word": "rating",
+"m": {
+"es": "valoración, índice de audiencia"
+},
+"pos": "noun",
+"w": "rating",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2095
+},
+{
+"word": "ray",
+"m": {
+"es": "rayo"
+},
+"pos": "noun",
+"w": "ray",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2096
+},
+{
+"word": "reach",
+"m": {
+"es": "alcanzar, llegar a"
+},
+"pos": "noun/verb",
+"w": "reach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2097
+},
+{
+"word": "realize",
+"m": {
+"es": "darse cuenta (también realise)"
+},
+"pos": "verb",
+"w": "realize",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2098
+},
+{
+"word": "recent",
+"m": {
+"es": "reciente"
+},
+"pos": "adjective",
+"w": "recent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2099
+},
+{
+"word": "refer",
+"m": {
+"es": "referirse"
+},
+"pos": "verb",
+"w": "refer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2100
+},
+{
+"word": "reflect",
+"m": {
+"es": "reflejar; reflexionar"
+},
+"pos": "verb",
+"w": "reflect",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2101
+},
+{
+"word": "refrigerator",
+"m": {
+"es": "frigorífico"
+},
+"pos": "noun",
+"w": "refrigerator",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2102
+},
+{
+"word": "regret",
+"m": {
+"es": "arrepentirse; lamentar"
+},
+"pos": "noun/verb",
+"w": "regret",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2103
+},
+{
+"word": "release",
+"m": {
+"es": "liberar; estrenar"
+},
+"pos": "noun/verb",
+"w": "release",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2104
+},
+{
+"word": "remain",
+"m": {
+"es": "permanecer"
+},
+"pos": "verb",
+"w": "remain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2105
+},
+{
+"word": "remind",
+"m": {
+"es": "recordar (a alguien)"
+},
+"pos": "verb",
+"w": "remind",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2106
+},
+{
+"word": "remote",
+"m": {
+"es": "remoto; mando a distancia"
+},
+"pos": "adjective",
+"w": "remote",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2107
+},
+{
+"word": "rent",
+"m": {
+"es": "alquiler; alquilar"
+},
+"pos": "noun/verb",
+"w": "rent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2108
+},
+{
+"word": "replace",
+"m": {
+"es": "sustituir"
+},
+"pos": "verb",
+"w": "replace",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2109
+},
+{
+"word": "report",
+"m": {
+"es": "informe; informar"
+},
+"pos": "noun/verb",
+"w": "report",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2110
+},
+{
+"word": "represent",
+"m": {
+"es": "representar"
+},
+"pos": "verb",
+"w": "represent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2111
+},
+{
+"word": "research",
+"m": {
+"es": "investigación"
+},
+"pos": "noun/verb",
+"w": "research",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2112
+},
+{
+"word": "response",
+"m": {
+"es": "respuesta"
+},
+"pos": "noun",
+"w": "response",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2113
+},
+{
+"word": "retired",
+"m": {
+"es": "jubilado"
+},
+"pos": "adjective",
+"w": "retired",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2114
+},
+{
+"word": "reunion",
+"m": {
+"es": "reencuentro"
+},
+"pos": "noun",
+"w": "reunion",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2115
+},
+{
+"word": "reveal",
+"m": {
+"es": "revelar"
+},
+"pos": "verb",
+"w": "reveal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2116
+},
+{
+"word": "rhythm",
+"m": {
+"es": "ritmo"
+},
+"pos": "noun",
+"w": "rhythm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2117
+},
+{
+"word": "right-hand",
+"m": {
+"es": "derecho (de la derecha)"
+},
+"pos": "adjective",
+"w": "right-hand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2118
+},
+{
+"word": "road",
+"m": {
+"es": "carretera; calle"
+},
+"pos": "noun",
+"w": "road",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2119
+},
+{
+"word": "rob",
+"m": {
+"es": "robar (a alguien, un banco)"
+},
+"pos": "verb",
+"w": "rob",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2120
+},
+{
+"word": "robbery",
+"m": {
+"es": "robo, atraco"
+},
+"pos": "noun",
+"w": "robbery",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2121
+},
+{
+"word": "robin",
+"m": {
+"es": "petirrojo"
+},
+"pos": "noun",
+"w": "robin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2122
+},
+{
+"word": "rock",
+"m": {
+"es": "roca; rock"
+},
+"pos": "noun/verb",
+"w": "rock",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2123
+},
+{
+"word": "roll",
+"m": {
+"es": "rodar; panecillo"
+},
+"pos": "noun/verb",
+"w": "roll",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2124
+},
+{
+"word": "romance",
+"m": {
+"es": "romance"
+},
+"pos": "noun",
+"w": "romance",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2125
+},
+{
+"word": "romantic",
+"m": {
+"es": "romántico"
+},
+"pos": "adjective",
+"w": "romantic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2126
+},
+{
+"word": "roof",
+"m": {
+"es": "tejado"
+},
+"pos": "noun",
+"w": "roof",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2127
+},
+{
+"word": "root",
+"m": {
+"es": "raíz"
+},
+"pos": "noun",
+"w": "root",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2128
+},
+{
+"word": "rope",
+"m": {
+"es": "cuerda"
+},
+"pos": "noun",
+"w": "rope",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2129
+},
+{
+"word": "roughly",
+"m": {
+"es": "aproximadamente"
+},
+"pos": "adverb",
+"w": "roughly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2130
+},
+{
+"word": "round",
+"m": {
+"es": "redondo; ronda"
+},
+"pos": "adjective/adverb/noun/preposition/verb",
+"w": "round",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2131
+},
+{
+"word": "roundabout",
+"m": {
+"es": "rotonda"
+},
+"pos": "noun",
+"w": "roundabout",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2132
+},
+{
+"word": "royal",
+"m": {
+"es": "real (de la realeza)"
+},
+"pos": "adjective",
+"w": "royal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2133
+},
+{
+"word": "rugby",
+"m": {
+"es": "rugby"
+},
+"pos": "noun",
+"w": "rugby",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2134
+},
+{
+"word": "ruin",
+"m": {
+"es": "arruinar; ruina"
+},
+"pos": "noun/verb",
+"w": "ruin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2135
+},
+{
+"word": "rumour",
+"m": {
+"es": "rumor"
+},
+"pos": "noun",
+"w": "rumour",
+"p": "",
+"us": "rumor",
+"unit": null,
+"u": "",
+"q": 2136
+},
+{
+"word": "runner",
+"m": {
+"es": "corredor"
+},
+"pos": "noun",
+"w": "runner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2137
+},
+{
+"word": "running",
+"m": {
+"es": "correr (deporte)"
+},
+"pos": "noun",
+"w": "running",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2138
+},
+{
+"word": "rush",
+"m": {
+"es": "prisa; ir corriendo"
+},
+"pos": "noun/verb",
+"w": "rush",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2139
+},
+{
+"word": "sailing",
+"m": {
+"es": "vela (deporte)"
+},
+"pos": "noun",
+"w": "sailing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2140
+},
+{
+"word": "sake",
+"m": {
+"es": "(for the sake of) por el bien de"
+},
+"pos": "noun",
+"w": "sake",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2141
+},
+{
+"word": "sample",
+"m": {
+"es": "muestra"
+},
+"pos": "noun",
+"w": "sample",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2142
+},
+{
+"word": "sandy",
+"m": {
+"es": "de arena"
+},
+"pos": "adjective",
+"w": "sandy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2143
+},
+{
+"word": "satisfy",
+"m": {
+"es": "satisfacer"
+},
+"pos": "verb",
+"w": "satisfy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2144
+},
+{
+"word": "sausage",
+"m": {
+"es": "salchicha"
+},
+"pos": "noun",
+"w": "sausage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2145
+},
+{
+"word": "scale",
+"m": {
+"es": "escala"
+},
+"pos": "noun",
+"w": "scale",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2146
+},
+{
+"word": "scarf",
+"m": {
+"es": "bufanda"
+},
+"pos": "noun",
+"w": "scarf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2147
+},
+{
+"word": "schedule",
+"m": {
+"es": "horario (EE. UU.); programa"
+},
+"pos": "noun/verb",
+"w": "schedule",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2148
+},
+{
+"word": "schoolchild",
+"m": {
+"es": "escolar"
+},
+"pos": "noun",
+"w": "schoolchild",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2149
+},
+{
+"word": "schoolwork",
+"m": {
+"es": "tareas escolares"
+},
+"pos": "noun",
+"w": "schoolwork",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2150
+},
+{
+"word": "scientific",
+"m": {
+"es": "científico"
+},
+"pos": "adjective",
+"w": "scientific",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2151
+},
+{
+"word": "scissors",
+"m": {
+"es": "tijeras"
+},
+"pos": "noun",
+"w": "scissors",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2152
+},
+{
+"word": "screw",
+"m": {
+"es": "tornillo"
+},
+"pos": "noun/verb",
+"w": "screw",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2153
+},
+{
+"word": "script",
+"m": {
+"es": "guion"
+},
+"pos": "noun",
+"w": "script",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2154
+},
+{
+"word": "seafood",
+"m": {
+"es": "marisco"
+},
+"pos": "noun",
+"w": "seafood",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2155
+},
+{
+"word": "search",
+"m": {
+"es": "buscar; búsqueda"
+},
+"pos": "noun/verb",
+"w": "search",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2156
+},
+{
+"word": "seaside",
+"m": {
+"es": "costa, playa"
+},
+"pos": "noun",
+"w": "seaside",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2157
+},
+{
+"word": "secret",
+"m": {
+"es": "secreto"
+},
+"pos": "adjective/noun",
+"w": "secret",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2158
+},
+{
+"word": "secretary",
+"m": {
+"es": "secretario"
+},
+"pos": "noun",
+"w": "secretary",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2159
+},
+{
+"word": "seed",
+"m": {
+"es": "semilla"
+},
+"pos": "noun",
+"w": "seed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2160
+},
+{
+"word": "seek",
+"m": {
+"es": "buscar"
+},
+"pos": "verb",
+"w": "seek",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2161
+},
+{
+"word": "seem",
+"m": {
+"es": "parecer"
+},
+"pos": "verb",
+"w": "seem",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2162
+},
+{
+"word": "semester",
+"m": {
+"es": "semestre"
+},
+"pos": "noun",
+"w": "semester",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2163
+},
+{
+"word": "send",
+"m": {
+"es": "enviar"
+},
+"pos": "verb",
+"w": "send",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2164
+},
+{
+"word": "senior",
+"m": {
+"es": "mayor; de rango superior"
+},
+"pos": "adjective/noun",
+"w": "senior",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2165
+},
+{
+"word": "sense",
+"m": {
+"es": "sentido"
+},
+"pos": "noun/verb",
+"w": "sense",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2166
+},
+{
+"word": "sensible",
+"m": {
+"es": "sensato"
+},
+"pos": "adjective",
+"w": "sensible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2167
+},
+{
+"word": "separate",
+"m": {
+"es": "separado; separar"
+},
+"pos": "adjective/verb",
+"w": "separate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2168
+},
+{
+"word": "seriously",
+"m": {
+"es": "en serio"
+},
+"pos": "adverb",
+"w": "seriously",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2169
+},
+{
+"word": "serve",
+"m": {
+"es": "servir"
+},
+"pos": "verb",
+"w": "serve",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2170
+},
+{
+"word": "sew",
+"m": {
+"es": "coser"
+},
+"pos": "verb",
+"w": "sew",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2171
+},
+{
+"word": "shade",
+"m": {
+"es": "sombra (protección del sol)"
+},
+"pos": "noun",
+"w": "shade",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2172
+},
+{
+"word": "shadow",
+"m": {
+"es": "sombra (silueta)"
+},
+"pos": "noun/verb",
+"w": "shadow",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2173
+},
+{
+"word": "shampoo",
+"m": {
+"es": "champú"
+},
+"pos": "noun",
+"w": "shampoo",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2174
+},
+{
+"word": "shape",
+"m": {
+"es": "forma"
+},
+"pos": "noun/verb",
+"w": "shape",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2175
+},
+{
+"word": "shell",
+"m": {
+"es": "concha; cáscara"
+},
+"pos": "noun/verb",
+"w": "shell",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2176
+},
+{
+"word": "shine",
+"m": {
+"es": "brillar"
+},
+"pos": "verb",
+"w": "shine",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2177
+},
+{
+"word": "shock",
+"m": {
+"es": "conmoción; impresionar"
+},
+"pos": "noun/verb",
+"w": "shock",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2178
+},
+{
+"word": "shoot",
+"m": {
+"es": "disparar; rodar (una película)"
+},
+"pos": "verb",
+"w": "shoot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2179
+},
+{
+"word": "shore",
+"m": {
+"es": "orilla"
+},
+"pos": "noun",
+"w": "shore",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2180
+},
+{
+"word": "shot",
+"m": {
+"es": "disparo; tiro"
+},
+"pos": "noun",
+"w": "shot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2181
+},
+{
+"word": "shut",
+"m": {
+"es": "cerrar"
+},
+"pos": "adjective/verb",
+"w": "shut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2182
+},
+{
+"word": "significant",
+"m": {
+"es": "significativo"
+},
+"pos": "adjective",
+"w": "significant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2183
+},
+{
+"word": "silence",
+"m": {
+"es": "silencio"
+},
+"pos": "noun",
+"w": "silence",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2184
+},
+{
+"word": "silently",
+"m": {
+"es": "en silencio"
+},
+"pos": "adverb",
+"w": "silently",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2185
+},
+{
+"word": "silly",
+"m": {
+"es": "tonto"
+},
+"pos": "adjective",
+"w": "silly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2186
+},
+{
+"word": "silver",
+"m": {
+"es": "plata"
+},
+"pos": "adjective/noun",
+"w": "silver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2187
+},
+{
+"word": "simple",
+"m": {
+"es": "sencillo"
+},
+"pos": "adjective",
+"w": "simple",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2188
+},
+{
+"word": "simply",
+"m": {
+"es": "simplemente"
+},
+"pos": "adverb",
+"w": "simply",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2189
+},
+{
+"word": "singing",
+"m": {
+"es": "canto"
+},
+"pos": "noun",
+"w": "singing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2190
+},
+{
+"word": "singular",
+"m": {
+"es": "singular"
+},
+"pos": "adjective/noun",
+"w": "singular",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2191
+},
+{
+"word": "sink",
+"m": {
+"es": "fregadero; hundirse"
+},
+"pos": "noun/verb",
+"w": "sink",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2192
+},
+{
+"word": "sitting room",
+"m": {
+"es": "sala de estar"
+},
+"pos": "noun",
+"w": "sitting room",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2193
+},
+{
+"word": "situation",
+"m": {
+"es": "situación"
+},
+"pos": "noun",
+"w": "situation",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2194
+},
+{
+"word": "skate",
+"m": {
+"es": "patinar"
+},
+"pos": "noun/verb",
+"w": "skate",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2195
+},
+{
+"word": "skateboarding",
+"m": {
+"es": "monopatín (deporte)"
+},
+"pos": "noun",
+"w": "skateboarding",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2196
+},
+{
+"word": "skating",
+"m": {
+"es": "patinaje"
+},
+"pos": "noun",
+"w": "skating",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2197
+},
+{
+"word": "ski",
+"m": {
+"es": "esquí; esquiar"
+},
+"pos": "noun/verb",
+"w": "ski",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2198
+},
+{
+"word": "skiing",
+"m": {
+"es": "esquí (deporte)"
+},
+"pos": "noun",
+"w": "skiing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2199
+},
+{
+"word": "slave",
+"m": {
+"es": "esclavo"
+},
+"pos": "noun",
+"w": "slave",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2200
+},
+{
+"word": "sleepless",
+"m": {
+"es": "sin dormir"
+},
+"pos": "adjective",
+"w": "sleepless",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2201
+},
+{
+"word": "sleepy",
+"m": {
+"es": "con sueño"
+},
+"pos": "adjective",
+"w": "sleepy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2202
+},
+{
+"word": "slide",
+"m": {
+"es": "deslizarse; tobogán"
+},
+"pos": "noun/verb",
+"w": "slide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2203
+},
+{
+"word": "slim",
+"m": {
+"es": "delgado"
+},
+"pos": "adjective",
+"w": "slim",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2204
+},
+{
+"word": "smooth",
+"m": {
+"es": "liso, suave"
+},
+"pos": "adjective",
+"w": "smooth",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2205
+},
+{
+"word": "smoothly",
+"m": {
+"es": "sin problemas"
+},
+"pos": "adverb",
+"w": "smoothly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2206
+},
+{
+"word": "snack",
+"m": {
+"es": "tentempié"
+},
+"pos": "noun",
+"w": "snack",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2207
+},
+{
+"word": "snowboarding",
+"m": {
+"es": "snowboard"
+},
+"pos": "noun",
+"w": "snowboarding",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2208
+},
+{
+"word": "soap",
+"m": {
+"es": "jabón"
+},
+"pos": "noun",
+"w": "soap",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2209
+},
+{
+"word": "society",
+"m": {
+"es": "sociedad"
+},
+"pos": "noun",
+"w": "society",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2210
+},
+{
+"word": "sock",
+"m": {
+"es": "calcetín"
+},
+"pos": "noun",
+"w": "sock",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2211
+},
+{
+"word": "soda",
+"m": {
+"es": "refresco (EE. UU.)"
+},
+"pos": "noun",
+"w": "soda",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2212
+},
+{
+"word": "soft",
+"m": {
+"es": "blando, suave"
+},
+"pos": "adjective",
+"w": "soft",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2213
+},
+{
+"word": "soft drink",
+"m": {
+"es": "refresco"
+},
+"pos": "noun",
+"w": "soft drink",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2214
+},
+{
+"word": "softly",
+"m": {
+"es": "suavemente"
+},
+"pos": "adverb",
+"w": "softly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2215
+},
+{
+"word": "soldier",
+"m": {
+"es": "soldado"
+},
+"pos": "noun",
+"w": "soldier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2216
+},
+{
+"word": "solution",
+"m": {
+"es": "solución"
+},
+"pos": "noun",
+"w": "solution",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2217
+},
+{
+"word": "somebody",
+"m": {
+"es": "alguien"
+},
+"pos": "pronoun",
+"w": "somebody",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2218
+},
+{
+"word": "somewhere",
+"m": {
+"es": "en algún sitio"
+},
+"pos": "adverb",
+"w": "somewhere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2219
+},
+{
+"word": "sound",
+"m": {
+"es": "sonido; sonar"
+},
+"pos": "adjective/noun/verb",
+"w": "sound",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2220
+},
+{
+"word": "source",
+"m": {
+"es": "fuente, origen"
+},
+"pos": "noun",
+"w": "source",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2221
+},
+{
+"word": "south",
+"m": {
+"es": "sur"
+},
+"pos": "adjective/adverb/noun",
+"w": "south",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2222
+},
+{
+"word": "spaceship",
+"m": {
+"es": "nave espacial"
+},
+"pos": "noun",
+"w": "spaceship",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2223
+},
+{
+"word": "spaghetti",
+"m": {
+"es": "espaguetis"
+},
+"pos": "noun",
+"w": "spaghetti",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2224
+},
+{
+"word": "speaker",
+"m": {
+"es": "hablante; altavoz"
+},
+"pos": "noun",
+"w": "speaker",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2225
+},
+{
+"word": "specific",
+"m": {
+"es": "específico"
+},
+"pos": "adjective",
+"w": "specific",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2226
+},
+{
+"word": "speed",
+"m": {
+"es": "velocidad"
+},
+"pos": "noun/verb",
+"w": "speed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2227
+},
+{
+"word": "spill",
+"m": {
+"es": "derramar"
+},
+"pos": "verb",
+"w": "spill",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2228
+},
+{
+"word": "splash",
+"m": {
+"es": "salpicar"
+},
+"pos": "noun/verb",
+"w": "splash",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2229
+},
+{
+"word": "split",
+"m": {
+"es": "dividir; partir"
+},
+"pos": "adjective/noun/verb",
+"w": "split",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2230
+},
+{
+"word": "sports centre",
+"m": {
+"es": "polideportivo"
+},
+"pos": "noun",
+"w": "sports centre",
+"p": "",
+"us": "sports center",
+"unit": null,
+"u": "",
+"q": 2231
+},
+{
+"word": "spread",
+"m": {
+"es": "extender(se), untar"
+},
+"pos": "noun/verb",
+"w": "spread",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2232
+},
+{
+"word": "square",
+"m": {
+"es": "plaza; cuadrado"
+},
+"pos": "adjective/noun",
+"w": "square",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2233
+},
+{
+"word": "stairs",
+"m": {
+"es": "escaleras"
+},
+"pos": "noun",
+"w": "stairs",
+"p": "",
+"us": "stair",
+"unit": null,
+"u": "",
+"q": 2234
+},
+{
+"word": "stamp",
+"m": {
+"es": "sello"
+},
+"pos": "noun/verb",
+"w": "stamp",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2235
+},
+{
+"word": "state",
+"m": {
+"es": "estado"
+},
+"pos": "adjective/noun/verb",
+"w": "state",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2236
+},
+{
+"word": "statement",
+"m": {
+"es": "declaración"
+},
+"pos": "noun",
+"w": "statement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2237
+},
+{
+"word": "statue",
+"m": {
+"es": "estatua"
+},
+"pos": "noun",
+"w": "statue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2238
+},
+{
+"word": "steak",
+"m": {
+"es": "filete"
+},
+"pos": "noun",
+"w": "steak",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2239
+},
+{
+"word": "steal",
+"m": {
+"es": "robar (algo)"
+},
+"pos": "verb",
+"w": "steal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2240
+},
+{
+"word": "stomach",
+"m": {
+"es": "estómago"
+},
+"pos": "noun",
+"w": "stomach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2241
+},
+{
+"word": "stove",
+"m": {
+"es": "cocina, fogón (EE. UU.)"
+},
+"pos": "noun",
+"w": "stove",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2242
+},
+{
+"word": "stranger",
+"m": {
+"es": "desconocido"
+},
+"pos": "noun",
+"w": "stranger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2243
+},
+{
+"word": "strategy",
+"m": {
+"es": "estrategia"
+},
+"pos": "noun",
+"w": "strategy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2244
+},
+{
+"word": "strength",
+"m": {
+"es": "fuerza"
+},
+"pos": "noun",
+"w": "strength",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2245
+},
+{
+"word": "strike",
+"m": {
+"es": "huelga; golpear"
+},
+"pos": "noun/verb",
+"w": "strike",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2246
+},
+{
+"word": "string",
+"m": {
+"es": "cuerda; hilo"
+},
+"pos": "noun",
+"w": "string",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2247
+},
+{
+"word": "strongly",
+"m": {
+"es": "firmemente"
+},
+"pos": "adverb",
+"w": "strongly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2248
+},
+{
+"word": "structure",
+"m": {
+"es": "estructura"
+},
+"pos": "noun",
+"w": "structure",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2249
+},
+{
+"word": "stuff",
+"m": {
+"es": "cosas"
+},
+"pos": "noun/verb",
+"w": "stuff",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2250
+},
+{
+"word": "style",
+"m": {
+"es": "estilo"
+},
+"pos": "noun",
+"w": "style",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2251
+},
+{
+"word": "succeed",
+"m": {
+"es": "tener éxito"
+},
+"pos": "verb",
+"w": "succeed",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2252
+},
+{
+"word": "successfully",
+"m": {
+"es": "con éxito"
+},
+"pos": "adverb",
+"w": "successfully",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2253
+},
+{
+"word": "such",
+"m": {
+"es": "tal, tan (such a nice day)"
+},
+"pos": "determiner/pronoun",
+"w": "such",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2254
+},
+{
+"word": "suit",
+"m": {
+"es": "traje; quedar bien"
+},
+"pos": "noun/verb",
+"w": "suit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2255
+},
+{
+"word": "suitable",
+"m": {
+"es": "adecuado"
+},
+"pos": "adjective",
+"w": "suitable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2256
+},
+{
+"word": "summary",
+"m": {
+"es": "resumen"
+},
+"pos": "noun",
+"w": "summary",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2257
+},
+{
+"word": "sunflower",
+"m": {
+"es": "girasol"
+},
+"pos": "noun",
+"w": "sunflower",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2258
+},
+{
+"word": "sunglasses",
+"m": {
+"es": "gafas de sol"
+},
+"pos": "noun",
+"w": "sunglasses",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2259
+},
+{
+"word": "sunlight",
+"m": {
+"es": "luz del sol"
+},
+"pos": "noun",
+"w": "sunlight",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2260
+},
+{
+"word": "superstar",
+"m": {
+"es": "superestrella"
+},
+"pos": "noun",
+"w": "superstar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2261
+},
+{
+"word": "supper",
+"m": {
+"es": "cena (ligera)"
+},
+"pos": "noun",
+"w": "supper",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2262
+},
+{
+"word": "support",
+"m": {
+"es": "apoyar; apoyo"
+},
+"pos": "noun/verb",
+"w": "support",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2263
+},
+{
+"word": "surfing",
+"m": {
+"es": "surf"
+},
+"pos": "noun",
+"w": "surfing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2264
+},
+{
+"word": "surname",
+"m": {
+"es": "apellido"
+},
+"pos": "noun",
+"w": "surname",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2265
+},
+{
+"word": "survive",
+"m": {
+"es": "sobrevivir"
+},
+"pos": "verb",
+"w": "survive",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2266
+},
+{
+"word": "swallow",
+"m": {
+"es": "tragar; golondrina"
+},
+"pos": "verb",
+"w": "swallow",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2267
+},
+{
+"word": "sweat",
+"m": {
+"es": "sudar; sudor"
+},
+"pos": "noun/verb",
+"w": "sweat",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2268
+},
+{
+"word": "sweater",
+"m": {
+"es": "jersey"
+},
+"pos": "noun",
+"w": "sweater",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2269
+},
+{
+"word": "sweetheart",
+"m": {
+"es": "cariño"
+},
+"pos": "noun",
+"w": "sweetheart",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2270
+},
+{
+"word": "swimming costume",
+"m": {
+"es": "bañador"
+},
+"pos": "noun",
+"w": "swimming costume",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2271
+},
+{
+"word": "swimsuit",
+"m": {
+"es": "bañador"
+},
+"pos": "noun",
+"w": "swimsuit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2272
+},
+{
+"word": "symbol",
+"m": {
+"es": "símbolo"
+},
+"pos": "noun",
+"w": "symbol",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2273
+},
+{
+"word": "symphony",
+"m": {
+"es": "sinfonía"
+},
+"pos": "noun",
+"w": "symphony",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2274
+},
+{
+"word": "system",
+"m": {
+"es": "sistema"
+},
+"pos": "noun",
+"w": "system",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2275
+},
+{
+"word": "table tennis",
+"m": {
+"es": "tenis de mesa"
+},
+"pos": "noun",
+"w": "table tennis",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2276
+},
+{
+"word": "tablespoon",
+"m": {
+"es": "cuchara sopera"
+},
+"pos": "noun",
+"w": "tablespoon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2277
+},
+{
+"word": "talent",
+"m": {
+"es": "talento"
+},
+"pos": "noun",
+"w": "talent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2278
+},
+{
+"word": "tap",
+"m": {
+"es": "grifo (EE. UU.: faucet); dar golpecitos"
+},
+"pos": "noun/verb",
+"w": "tap",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2279
+},
+{
+"word": "tape",
+"m": {
+"es": "cinta"
+},
+"pos": "noun/verb",
+"w": "tape",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2280
+},
+{
+"word": "target",
+"m": {
+"es": "objetivo"
+},
+"pos": "noun",
+"w": "target",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2281
+},
+{
+"word": "tear",
+"m": {
+"es": "lágrima; rasgar"
+},
+"pos": "noun/verb",
+"w": "tear",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2282
+},
+{
+"word": "teenage",
+"m": {
+"es": "adolescente (adj.)"
+},
+"pos": "adjective",
+"w": "teenage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2283
+},
+{
+"word": "teenager",
+"m": {
+"es": "adolescente"
+},
+"pos": "noun",
+"w": "teenager",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2284
+},
+{
+"word": "terrify",
+"m": {
+"es": "aterrorizar"
+},
+"pos": "verb",
+"w": "terrify",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2285
+},
+{
+"word": "terrorist",
+"m": {
+"es": "terrorista"
+},
+"pos": "adjective/noun",
+"w": "terrorist",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2286
+},
+{
+"word": "text message",
+"m": {
+"es": "mensaje de texto"
+},
+"pos": "noun",
+"w": "text message",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2287
+},
+{
+"word": "textbook",
+"m": {
+"es": "libro de texto"
+},
+"pos": "noun",
+"w": "textbook",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2288
+},
+{
+"word": "therefore",
+"m": {
+"es": "por lo tanto"
+},
+"pos": "adverb",
+"w": "therefore",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2289
+},
+{
+"word": "thief",
+"m": {
+"es": "ladrón (pl. thieves)"
+},
+"pos": "noun",
+"w": "thief",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2290
+},
+{
+"word": "third",
+"m": {
+"es": "tercero"
+},
+"pos": "adjective",
+"w": "third",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2291
+},
+{
+"word": "thirsty",
+"m": {
+"es": "sediento (be thirsty: tener sed)"
+},
+"pos": "adjective",
+"w": "thirsty",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2292
+},
+{
+"word": "though",
+"m": {
+"es": "aunque"
+},
+"pos": "adverb/conjunction",
+"w": "though",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2293
+},
+{
+"word": "thought",
+"m": {
+"es": "pensamiento"
+},
+"pos": "noun",
+"w": "thought",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2294
+},
+{
+"word": "thousand",
+"m": {
+"es": "mil"
+},
+"pos": "number",
+"w": "thousand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2295
+},
+{
+"word": "tie",
+"m": {
+"es": "corbata; atar"
+},
+"pos": "noun/verb",
+"w": "tie",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2296
+},
+{
+"word": "tights",
+"m": {
+"es": "medias, leotardos"
+},
+"pos": "noun",
+"w": "tights",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2297
+},
+{
+"word": "till",
+"m": {
+"es": "hasta; caja registradora"
+},
+"pos": "conjunction/preposition/noun",
+"w": "till",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2298
+},
+{
+"word": "tip",
+"m": {
+"es": "propina; consejo"
+},
+"pos": "noun/verb",
+"w": "tip",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2299
+},
+{
+"word": "title",
+"m": {
+"es": "título"
+},
+"pos": "noun",
+"w": "title",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2300
+},
+{
+"word": "toast",
+"m": {
+"es": "tostada; brindis"
+},
+"pos": "noun",
+"w": "toast",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2301
+},
+{
+"word": "toe",
+"m": {
+"es": "dedo del pie"
+},
+"pos": "noun",
+"w": "toe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2302
+},
+{
+"word": "tone",
+"m": {
+"es": "tono"
+},
+"pos": "noun/verb",
+"w": "tone",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2303
+},
+{
+"word": "toothbrush",
+"m": {
+"es": "cepillo de dientes"
+},
+"pos": "noun",
+"w": "toothbrush",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2304
+},
+{
+"word": "tour guide",
+"m": {
+"es": "guía turístico"
+},
+"pos": "noun",
+"w": "tour guide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2305
+},
+{
+"word": "towards",
+"m": {
+"es": "hacia"
+},
+"pos": "preposition",
+"w": "towards",
+"p": "",
+"us": "toward",
+"unit": null,
+"u": "",
+"q": 2306
+},
+{
+"word": "track",
+"m": {
+"es": "pista; vía"
+},
+"pos": "noun/verb",
+"w": "track",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2307
+},
+{
+"word": "trade",
+"m": {
+"es": "comercio"
+},
+"pos": "noun/verb",
+"w": "trade",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2308
+},
+{
+"word": "tradition",
+"m": {
+"es": "tradición"
+},
+"pos": "noun",
+"w": "tradition",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2309
+},
+{
+"word": "traffic lights",
+"m": {
+"es": "semáforo"
+},
+"pos": "noun",
+"w": "traffic lights",
+"p": "",
+"us": "traffic light",
+"unit": null,
+"u": "",
+"q": 2310
+},
+{
+"word": "training",
+"m": {
+"es": "formación, entrenamiento"
+},
+"pos": "noun",
+"w": "training",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2311
+},
+{
+"word": "trap",
+"m": {
+"es": "trampa"
+},
+"pos": "noun",
+"w": "trap",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2312
+},
+{
+"word": "treasure",
+"m": {
+"es": "tesoro"
+},
+"pos": "noun",
+"w": "treasure",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2313
+},
+{
+"word": "trick",
+"m": {
+"es": "truco; engañar"
+},
+"pos": "noun/verb",
+"w": "trick",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2314
+},
+{
+"word": "trouble",
+"m": {
+"es": "problema(s)"
+},
+"pos": "noun/verb",
+"w": "trouble",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2315
+},
+{
+"word": "truly",
+"m": {
+"es": "de verdad"
+},
+"pos": "adverb",
+"w": "truly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2316
+},
+{
+"word": "trust",
+"m": {
+"es": "confiar; confianza"
+},
+"pos": "noun/verb",
+"w": "trust",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2317
+},
+{
+"word": "truth",
+"m": {
+"es": "verdad"
+},
+"pos": "noun",
+"w": "truth",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2318
+},
+{
+"word": "tune",
+"m": {
+"es": "melodía"
+},
+"pos": "noun/verb",
+"w": "tune",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2319
+},
+{
+"word": "uncertain",
+"m": {
+"es": "incierto"
+},
+"pos": "adjective",
+"w": "uncertain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2320
+},
+{
+"word": "uncomfortable",
+"m": {
+"es": "incómodo"
+},
+"pos": "adjective",
+"w": "uncomfortable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2321
+},
+{
+"word": "understand",
+"m": {
+"es": "entender"
+},
+"pos": "verb",
+"w": "understand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2322
+},
+{
+"word": "underwater",
+"m": {
+"es": "bajo el agua"
+},
+"pos": "adjective/adverb",
+"w": "underwater",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2323
+},
+{
+"word": "uneasy",
+"m": {
+"es": "inquieto"
+},
+"pos": "adjective",
+"w": "uneasy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2324
+},
+{
+"word": "unfair",
+"m": {
+"es": "injusto"
+},
+"pos": "adjective",
+"w": "unfair",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2325
+},
+{
+"word": "unhappy",
+"m": {
+"es": "infeliz, descontento"
+},
+"pos": "adjective",
+"w": "unhappy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2326
+},
+{
+"word": "unimportant",
+"m": {
+"es": "sin importancia"
+},
+"pos": "adjective",
+"w": "unimportant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2327
+},
+{
+"word": "unit",
+"m": {
+"es": "unidad"
+},
+"pos": "noun",
+"w": "unit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2328
+},
+{
+"word": "unknown",
+"m": {
+"es": "desconocido"
+},
+"pos": "adjective",
+"w": "unknown",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2329
+},
+{
+"word": "unlike",
+"m": {
+"es": "a diferencia de"
+},
+"pos": "adjective/preposition",
+"w": "unlike",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2330
+},
+{
+"word": "unpleasant",
+"m": {
+"es": "desagradable"
+},
+"pos": "adjective",
+"w": "unpleasant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2331
+},
+{
+"word": "upon",
+"m": {
+"es": "sobre (formal)"
+},
+"pos": "preposition",
+"w": "upon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2332
+},
+{
+"word": "upstairs",
+"m": {
+"es": "arriba (en el piso de arriba)"
+},
+"pos": "adjective/adverb/noun",
+"w": "upstairs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2333
+},
+{
+"word": "used",
+"m": {
+"es": "usado; (be used to) estar acostumbrado"
+},
+"pos": "adjective",
+"w": "used",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2334
+},
+{
+"word": "useful",
+"m": {
+"es": "útil"
+},
+"pos": "adjective",
+"w": "useful",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2335
+},
+{
+"word": "usual",
+"m": {
+"es": "habitual"
+},
+"pos": "adjective",
+"w": "usual",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2336
+},
+{
+"word": "valley",
+"m": {
+"es": "valle"
+},
+"pos": "noun",
+"w": "valley",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2337
+},
+{
+"word": "value",
+"m": {
+"es": "valor"
+},
+"pos": "noun/verb",
+"w": "value",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2338
+},
+{
+"word": "verb",
+"m": {
+"es": "verbo"
+},
+"pos": "noun",
+"w": "verb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2339
+},
+{
+"word": "video game",
+"m": {
+"es": "videojuego"
+},
+"pos": "noun",
+"w": "video game",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2340
+},
+{
+"word": "view",
+"m": {
+"es": "vista; opinión"
+},
+"pos": "noun/verb",
+"w": "view",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2341
+},
+{
+"word": "violent",
+"m": {
+"es": "violento"
+},
+"pos": "adjective",
+"w": "violent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2342
+},
+{
+"word": "violin",
+"m": {
+"es": "violín"
+},
+"pos": "noun",
+"w": "violin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2343
+},
+{
+"word": "visitor",
+"m": {
+"es": "visitante"
+},
+"pos": "noun",
+"w": "visitor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2344
+},
+{
+"word": "vocabulary",
+"m": {
+"es": "vocabulario"
+},
+"pos": "noun",
+"w": "vocabulary",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2345
+},
+{
+"word": "voice",
+"m": {
+"es": "voz"
+},
+"pos": "noun/verb",
+"w": "voice",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2346
+},
+{
+"word": "walking",
+"m": {
+"es": "caminar, senderismo"
+},
+"pos": "noun",
+"w": "walking",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2347
+},
+{
+"word": "wander",
+"m": {
+"es": "deambular"
+},
+"pos": "verb",
+"w": "wander",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2348
+},
+{
+"word": "washing machine",
+"m": {
+"es": "lavadora"
+},
+"pos": "noun",
+"w": "washing machine",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2349
+},
+{
+"word": "washing-up",
+"m": {
+"es": "fregar los platos (do the washing-up)"
+},
+"pos": "noun",
+"w": "washing-up",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2350
+},
+{
+"word": "wave",
+"m": {
+"es": "ola; saludar con la mano"
+},
+"pos": "noun/verb",
+"w": "wave",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2351
+},
+{
+"word": "weak",
+"m": {
+"es": "débil"
+},
+"pos": "adjective",
+"w": "weak",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2352
+},
+{
+"word": "wealth",
+"m": {
+"es": "riqueza"
+},
+"pos": "noun",
+"w": "wealth",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2353
+},
+{
+"word": "web",
+"m": {
+"es": "red; la web"
+},
+"pos": "noun",
+"w": "web",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2354
+},
+{
+"word": "web page",
+"m": {
+"es": "página web"
+},
+"pos": "noun",
+"w": "web page",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2355
+},
+{
+"word": "weekday",
+"m": {
+"es": "día laborable"
+},
+"pos": "noun",
+"w": "weekday",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2356
+},
+{
+"word": "weekly",
+"m": {
+"es": "semanal"
+},
+"pos": "adjective/adverb",
+"w": "weekly",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2357
+},
+{
+"word": "weep",
+"m": {
+"es": "llorar"
+},
+"pos": "noun",
+"w": "weep",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2358
+},
+{
+"word": "weigh",
+"m": {
+"es": "pesar"
+},
+"pos": "verb",
+"w": "weigh",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2359
+},
+{
+"word": "weight",
+"m": {
+"es": "peso"
+},
+"pos": "noun",
+"w": "weight",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2360
+},
+{
+"word": "well-known",
+"m": {
+"es": "conocido, famoso"
+},
+"pos": "adjective",
+"w": "well-known",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2361
+},
+{
+"word": "west",
+"m": {
+"es": "oeste"
+},
+"pos": "adjective/adverb/noun",
+"w": "west",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2362
+},
+{
+"word": "whatever",
+"m": {
+"es": "lo que sea"
+},
+"pos": "determiner/pronoun",
+"w": "whatever",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2363
+},
+{
+"word": "wheelchair",
+"m": {
+"es": "silla de ruedas"
+},
+"pos": "noun",
+"w": "wheelchair",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2364
+},
+{
+"word": "whole",
+"m": {
+"es": "entero, todo"
+},
+"pos": "adjective/noun",
+"w": "whole",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2365
+},
+{
+"word": "widely",
+"m": {
+"es": "ampliamente"
+},
+"pos": "adverb",
+"w": "widely",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2366
+},
+{
+"word": "wild",
+"m": {
+"es": "salvaje"
+},
+"pos": "adjective",
+"w": "wild",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2367
+},
+{
+"word": "windy",
+"m": {
+"es": "ventoso (it's windy: hace viento)"
+},
+"pos": "adjective",
+"w": "windy",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2368
+},
+{
+"word": "wine",
+"m": {
+"es": "vino"
+},
+"pos": "noun",
+"w": "wine",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2369
+},
+{
+"word": "winner",
+"m": {
+"es": "ganador"
+},
+"pos": "noun",
+"w": "winner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2370
+},
+{
+"word": "wisdom",
+"m": {
+"es": "sabiduría"
+},
+"pos": "noun",
+"w": "wisdom",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2371
+},
+{
+"word": "wise",
+"m": {
+"es": "sabio"
+},
+"pos": "adjective",
+"w": "wise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2372
+},
+{
+"word": "within",
+"m": {
+"es": "dentro de"
+},
+"pos": "preposition",
+"w": "within",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2373
+},
+{
+"word": "without",
+"m": {
+"es": "sin"
+},
+"pos": "preposition",
+"w": "without",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2374
+},
+{
+"word": "wood",
+"m": {
+"es": "madera; bosque"
+},
+"pos": "noun",
+"w": "wood",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2375
+},
+{
+"word": "wooden",
+"m": {
+"es": "de madera"
+},
+"pos": "adjective",
+"w": "wooden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2376
+},
+{
+"word": "wool",
+"m": {
+"es": "lana"
+},
+"pos": "noun",
+"w": "wool",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2377
+},
+{
+"word": "worldwide",
+"m": {
+"es": "en todo el mundo"
+},
+"pos": "adjective/adverb",
+"w": "worldwide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2378
+},
+{
+"word": "writing",
+"m": {
+"es": "escritura"
+},
+"pos": "noun",
+"w": "writing",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2379
+},
+{
+"word": "yeah",
+"m": {
+"es": "sí (coloq.)"
+},
+"pos": "adverb",
+"w": "yeah",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2380
+},
+{
+"word": "youth",
+"m": {
+"es": "juventud"
+},
+"pos": "noun",
+"w": "youth",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2381
+},
+{
+"word": "zone",
+"m": {
+"es": "zona"
+},
+"pos": "noun",
+"w": "zone",
+"p": "",
+"unit": null,
+"u": "",
+"q": 2382
+}
+]

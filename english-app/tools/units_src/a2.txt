@@ -1,0 +1,635 @@
+#! es
+# A2 lessons (EOI Nivel Básico A2). Spanish only. Exercises: see tools/build_course.py.
+
+=== 1
+title: Getting to know you ¦ Conocerse
+desc: Hacer preguntas y repasar el presente simple y continuo
+gram: question forms ¦ present simple vs present continuous
+ref: a2-present-tenses
+words: personality, ambition, lifestyle, habit, usually, normal, regular, regularly, common, member, chat, contact, describe, description, opinion, interest, hobby, nowadays, especially, mostly, mainly, quite, rather, fairly, cheerful, confident, polite, honest, creative, energetic
+intro:
+<h3>El orden de las preguntas</h3>
+<p>En inglés casi todas las preguntas siguen el mismo esquema. Apréndelo y te servirá para todos los tiempos:</p>
+<table><tr><th>Palabra interrogativa</th><th>Auxiliar</th><th>Sujeto</th><th>Verbo</th><th>…</th></tr>
+<tr><td>Where</td><td><strong>do</strong></td><td>you</td><td>live?</td><td></td></tr>
+<tr><td>What</td><td><strong>does</strong></td><td>she</td><td>do</td><td>at weekends?</td></tr>
+<tr><td>Why</td><td><strong>are</strong></td><td>they</td><td>laughing?</td><td></td></tr>
+<tr><td>How often</td><td><strong>do</strong></td><td>you</td><td>go</td><td>to the gym?</td></tr></table>
+<div class="tip">Con <b>be</b> y con los modales (<i>can, will…</i>) no hace falta <i>do</i>: <i>Where <b>are</b> you from? <b>Can</b> you swim?</i> Si la pregunta es por el sujeto, tampoco: <i><b>Who lives</b> here?</i> (no <i>Who does live</i>).</div>
+<h3>Presente simple y presente continuo</h3>
+<table><tr><th>Presente simple</th><th>Presente continuo</th></tr>
+<tr><td>Rutinas, hábitos, hechos y estados permanentes</td><td>Lo que pasa ahora o en esta época (temporal)</td></tr>
+<tr><td>I <strong>work</strong> in a bank.</td><td>I'<strong>m working</strong> from home this week.</td></tr>
+<tr><td>She usually <strong>reads</strong> on the train.</td><td>She'<strong>s reading</strong> a great novel at the moment.</td></tr></table>
+<div class="tip">Verbos de estado (<i>like, love, want, need, know, believe, understand, belong, seem</i>) no suelen ir en continuo: ✗ <i>I'm wanting</i> → ✓ <i>I want</i>.</div>
+<div class="warning"><b>Errores típicos:</b><ul><li>✗ Where you live? → ✓ Where <b>do</b> you live?</li><li>✗ What does she likes? → ✓ What does she <b>like</b>?</li><li>✗ I'm living here since 2020 (se verá con el present perfect) · ✓ I live here / I've lived here since 2020</li></ul></div>
+ex:
+fill ¦ What ___ you usually do at the weekend? ¦ do ¦ are / does / have ¦ ¿Qué sueles hacer el fin de semana? ¦ Hábito → presente simple con do.
+fill ¦ Who ___ in that house? ¦ lives ¦ does live / live / is live ¦ ¿Quién vive en esa casa? ¦ Pregunta por el sujeto: sin do.
+fill ¦ I ___ a really good book at the moment. ¦ 'm reading ¦ read / reads / readed ¦ Estoy leyendo un libro muy bueno en este momento. ¦ at the moment → continuo.
+fill ¦ How often ___ your brother go to the gym? ¦ does ¦ do / is / has ¦ ¿Cada cuánto va tu hermano al gimnasio? ¦ your brother = he → does.
+choose ¦ ¿Cuál es correcta? ¦ What does your sister do? ¦ What does your sister does? / What your sister does? / What do your sister do?
+choose ¦ ¿Cuál es correcta? ¦ I need a new phone. ¦ I'm needing a new phone. / I needing a new phone. / I am need a new phone. ¦ need es un verbo de estado.
+order ¦ Where do your parents live now? ¦ ¿Dónde viven ahora tus padres?
+order ¦ She is working from home this week. ¦ Esta semana trabaja desde casa.
+translate ¦ ¿Qué haces en tu tiempo libre? ¦ What do you do in your free time? ¦ What do you do in your spare time?
+translate ¦ No entiendo esta palabra. ¦ I don't understand this word. ¦ I do not understand this word.
+match ¦ polite=educado; honest=sincero; confident=seguro de sí mismo; cheerful=alegre; creative=creativo
+
+=== 2
+title: Life stories ¦ Historias de vida
+desc: Contar biografías con el pasado simple
+gram: past simple: regular and irregular verbs ¦ past questions ¦ time expressions
+ref: a2-past-simple
+words: childhood, born, grow, die, death, marry, wedding, retire, graduate, university, degree, move, leave, begin, career, famous, achieve, success, win, award, century, decade, during, later, finally, until, ago, ancient, history
+intro:
+<h3>El pasado simple</h3>
+<p>Para hechos terminados en un momento del pasado: biografías, historias, lo que hiciste ayer. Recuerda: es la misma forma para todas las personas.</p>
+<table><tr><th>Afirmativa</th><th>Negativa</th><th>Pregunta</th></tr>
+<tr><td>She <strong>moved</strong> to Paris in 1990.</td><td>She <strong>didn't move</strong> to Rome.</td><td>When <strong>did</strong> she <strong>move</strong>?</td></tr>
+<tr><td>He <strong>became</strong> famous.</td><td>He <strong>didn't become</strong> rich.</td><td><strong>Did</strong> he <strong>win</strong> any awards?</td></tr></table>
+<h3>Irregulares frecuentes en biografías</h3>
+<table><tr><td>be → was/were</td><td>become → became</td><td>begin → began</td><td>grow (up) → grew</td></tr>
+<tr><td>leave → left</td><td>meet → met</td><td>win → won</td><td>write → wrote</td></tr>
+<tr><td>buy → bought</td><td>teach → taught</td><td>fall → fell</td><td>spend → spent</td></tr></table>
+<h3>Expresiones de tiempo</h3>
+<div class="example"><strong>in</strong> 1985 · <strong>in</strong> the 1960s · <strong>in</strong> the 19th century · <strong>when</strong> she was ten · ten years <strong>ago</strong> · <strong>after</strong> university · <strong>later</strong> · <strong>finally</strong> · <strong>during</strong> the war · <strong>until</strong> 2010</div>
+<div class="tip">Ortografía de -ed: <i>marry → married</i>, <i>stop → stopped</i>, <i>travel → travelled</i> (RU) / <i>traveled</i> (EE. UU.). <b>Nacer</b> es pasivo: <i>She <b>was born</b> in Lima</i>.</div>
+<div class="warning"><b>Errores típicos:</b><ul><li>✗ When did she moved? → ✓ When did she <b>move</b>?</li><li>✗ He died in 1999 ago → ✓ He died in 1999 / He died 25 years ago</li><li>✗ She married with a doctor → ✓ She <b>married</b> a doctor / She got married to a doctor</li></ul></div>
+ex:
+fill ¦ Shakespeare ___ in 1564. ¦ was born ¦ born / is born / borned ¦ Shakespeare nació en 1564.
+fill ¦ She ___ up in a small village in Wales. ¦ grew ¦ grow / growed / grown ¦ Se crió en un pueblo pequeño de Gales. ¦ grow → grew → grown.
+fill ¦ When ___ he leave school? ¦ did ¦ was / does / had ¦ ¿Cuándo dejó el colegio?
+fill ¦ They ___ married in 2005 and had three children. ¦ got ¦ get / were / did ¦ Se casaron en 2005 y tuvieron tres hijos. ¦ get married = casarse.
+choose ¦ Pasado de «win» ¦ won ¦ winned / wan / win
+choose ¦ ¿Cuál es correcta? ¦ She didn't go to university. ¦ She didn't went to university. / She not went to university. / She doesn't went to university.
+order ¦ He became a famous writer in the 1960s. ¦ Se convirtió en un escritor famoso en los años sesenta.
+order ¦ When did you start learning English? ¦ ¿Cuándo empezaste a aprender inglés?
+translate ¦ Murió hace diez años. ¦ He died ten years ago. ¦ She died ten years ago.
+translate ¦ ¿Dónde naciste? ¦ Where were you born?
+match ¦ childhood=infancia; career=carrera profesional; retire=jubilarse; degree=título universitario; century=siglo
+
+=== 3
+title: What were you doing? ¦ ¿Qué estabas haciendo?
+desc: El pasado continuo y el pasado simple para contar historias
+gram: past continuous: was / were + -ing ¦ when / while
+ref: a2-past-continuous
+words: while, suddenly, sudden, happen, accident, notice, shout, scream, fall, drop, hit, break, injure, hurt, ambulance, police, storm, thunderstorm, lightning, wet, dark, frightened, frightening, crowd, lucky, luckily, unfortunately, fortunately, scene, story
+intro:
+<h3>El pasado continuo</h3>
+<p><b>was / were + -ing</b>. Describe una acción <b>en curso</b> en un momento del pasado: el «decorado» de la historia.</p>
+<table><tr><th>Afirmativa</th><th>Negativa</th><th>Pregunta</th></tr>
+<tr><td>I <strong>was walking</strong> home.</td><td>We <strong>weren't watching</strong> TV.</td><td>What <strong>were</strong> you <strong>doing</strong> at 8?</td></tr></table>
+<h3>Pasado continuo + pasado simple</h3>
+<p>La acción larga va en continuo; la acción corta que la interrumpe, en pasado simple:</p>
+<div class="example">I <strong>was having</strong> a shower <strong>when</strong> the phone <strong>rang</strong>.<br><strong>While</strong> we <strong>were walking</strong> in the park, it <strong>started</strong> to rain.</div>
+<table><tr><td><strong>when</strong> + pasado simple (acción corta)</td><td>…when the phone rang.</td></tr>
+<tr><td><strong>while</strong> + pasado continuo (acción larga)</td><td>While I was cooking, …</td></tr></table>
+<div class="tip">Es como el contraste español <i>estaba duchándome / sonó el teléfono</i>. Pero el inglés <b>no</b> usa el continuo para hábitos del pasado: «de niño jugaba al fútbol» = <i>I played football / I used to play football</i> (✗ I was playing every day).</div>
+<div class="warning">✗ When I was walking, I was seeing an accident. → ✓ While I was walking, I <b>saw</b> an accident. (ver, oír, saber… no van en continuo).</div>
+ex:
+fill ¦ I ___ dinner when you called. ¦ was cooking ¦ cooked / were cooking / am cooking ¦ Estaba haciendo la cena cuando llamaste. ¦ Acción larga interrumpida → was + -ing.
+fill ¦ While they were playing, it ___ to rain. ¦ started ¦ was starting / starts / start ¦ Mientras jugaban, empezó a llover. ¦ Acción corta → pasado simple.
+fill ¦ What ___ you doing at 10 o'clock last night? ¦ were ¦ was / did / are ¦ ¿Qué estabas haciendo anoche a las diez?
+fill ¦ She fell and ___ her leg. ¦ broke ¦ breaked / was breaking / broken ¦ Se cayó y se rompió la pierna.
+choose ¦ ¿Cuál es correcta? ¦ I saw an accident while I was driving to work. ¦ I was seeing an accident while I drove to work. / I saw an accident while I drove to work. / I was seeing an accident while I was driving to work.
+choose ¦ ¿Cuál completa mejor? «___ I was walking home, I met an old friend.» ¦ While ¦ When / During / Suddenly
+order ¦ The sun was shining and people were swimming. ¦ Hacía sol y la gente estaba nadando.
+order ¦ Suddenly we heard a loud scream. ¦ De repente oímos un grito fuerte.
+translate ¦ ¿Qué estabas haciendo? ¦ What were you doing?
+translate ¦ Estaba lloviendo cuando salimos. ¦ It was raining when we left. ¦ It was raining when we went out.
+match ¦ suddenly=de repente; luckily=por suerte; injure=herir; crowd=multitud; storm=tormenta
+
+=== 4
+title: How do you feel? ¦ ¿Cómo te sientes?
+desc: Sentimientos, adjetivos en -ed / -ing y adverbios de modo
+gram: -ed / -ing adjectives ¦ adverbs of manner: quickly, well, hard
+ref: a2-adverbs
+words: feel, feeling, mood, amused, annoyed, annoying, anxious, disappointed, disappointing, embarrassed, embarrassing, surprised, surprising, worried, relaxed, pleased, upset, nervous, frightened, confused, tired, bored, excited, interested, angrily, happily, sadly, quietly, loudly, slowly, carefully, badly, easily, hard
+intro:
+<h3>Adjetivos en -ed y en -ing</h3>
+<table><tr><th>-ed: cómo te sientes</th><th>-ing: lo que lo provoca</th></tr>
+<tr><td>I'm <strong>bored</strong>.</td><td>The film is <strong>boring</strong>.</td></tr>
+<tr><td>She was <strong>surprised</strong>.</td><td>The news was <strong>surprising</strong>.</td></tr>
+<tr><td>We were <strong>disappointed</strong>.</td><td>The match was <strong>disappointing</strong>.</td></tr>
+<tr><td>I felt <strong>embarrassed</strong>.</td><td>It was an <strong>embarrassing</strong> moment.</td></tr></table>
+<div class="warning">«I'm boring» = soy aburrido (¡no «me aburro»!). Para decir cómo estás, usa <b>-ed</b>: <i>I'm bored, I'm interested, I'm tired</i>.</div>
+<h3>Adverbios de modo</h3>
+<p>Dicen <b>cómo</b> se hace algo. Casi siempre adjetivo + <b>-ly</b> y van detrás del verbo (o del objeto):</p>
+<table><tr><td>quick → quick<strong>ly</strong></td><td>careful → careful<strong>ly</strong></td><td>easy → eas<strong>ily</strong></td><td>happy → happ<strong>ily</strong></td></tr>
+<tr><td>irregulares: good → <strong>well</strong></td><td>fast → <strong>fast</strong></td><td>hard → <strong>hard</strong></td><td>late → <strong>late</strong></td></tr></table>
+<div class="example">She speaks English <strong>very well</strong>. · Please drive <strong>carefully</strong>. · He works <strong>hard</strong>.</div>
+<div class="tip">Tras <b>be, feel, look, seem, sound, taste</b> va un <b>adjetivo</b>, no un adverbio: <i>You look tired. It sounds good. I feel bad.</i> Y <i>hardly</i> no es «duramente», sino «apenas».</div>
+ex:
+fill ¦ I'm really ___ in history. ¦ interested ¦ interesting / interest / interestingly ¦ Me interesa mucho la historia. ¦ Cómo te sientes → -ed.
+fill ¦ The end of the film was very ___ . ¦ disappointing ¦ disappointed / disappoint / disappointedly ¦ El final de la película fue muy decepcionante.
+fill ¦ He speaks Japanese very ___ . ¦ well ¦ good / goodly / best ¦ Habla japonés muy bien. ¦ Adverbio de good: well.
+fill ¦ Please close the door ___ . The baby is asleep. ¦ quietly ¦ quiet / quietness / quieter ¦ Cierra la puerta sin hacer ruido. El bebé está dormido.
+choose ¦ «Me aburro» ¦ I'm bored. ¦ I'm boring. / I bore. / I'm boredom.
+choose ¦ ¿Cuál es correcta? ¦ You look tired. ¦ You look tiredly. / You look tiring. / You are looking tiredly.
+order ¦ I was very embarrassed when I fell over. ¦ Me dio mucha vergüenza cuando me caí.
+order ¦ She drives more carefully than her brother. ¦ Conduce con más cuidado que su hermano.
+translate ¦ Estoy preocupado por el examen. ¦ I'm worried about the exam. ¦ I am worried about the exam.
+translate ¦ Trabaja mucho. ¦ He works hard. ¦ She works hard.
+match ¦ annoying=molesto; anxious=ansioso; upset=disgustado; relaxed=relajado; pleased=contento
+
+=== 5
+title: Money and shopping ¦ Dinero y compras
+desc: Comprar, pagar y cuantificadores: a lot of, a few, a little, too much
+gram: quantifiers: a lot of, a few, a little, not much / many ¦ too much / too many / enough
+ref: a2-quantifiers
+words: cash, coin, credit, bill, receipt, price, cost, bargain, sale, discount, cheap, expensive, afford, spend, save, earn, waste, pay, change, customer, shop assistant, department store, market, mall, budget, enough, few, plenty, several, half-price
+intro:
+<h3>Cuantificadores</h3>
+<table><tr><th></th><th>Contables (plural)</th><th>Incontables</th></tr>
+<tr><td>mucho</td><td><strong>a lot of</strong> / many shops</td><td><strong>a lot of</strong> / much money</td></tr>
+<tr><td>algunos, un poco</td><td><strong>a few</strong> coins</td><td><strong>a little</strong> time</td></tr>
+<tr><td>poco (negativo)</td><td><strong>not many</strong> / few people</td><td><strong>not much</strong> / little money</td></tr>
+<tr><td>de sobra</td><td colspan="2"><strong>plenty of</strong> time / chairs</td></tr></table>
+<div class="tip"><b>many / much</b> se usan sobre todo en negativas y preguntas; en afirmativas suena más natural <b>a lot of</b>: <i>I've got a lot of friends</i> (mejor que <i>many friends</i>).</div>
+<h3>too much / too many / enough</h3>
+<table><tr><td><strong>too many</strong> + contable</td><td>There are <strong>too many</strong> people here.</td><td>demasiada gente</td></tr>
+<tr><td><strong>too much</strong> + incontable</td><td>I spent <strong>too much</strong> money.</td><td>demasiado dinero</td></tr>
+<tr><td><strong>too</strong> + adjetivo</td><td>It's <strong>too expensive</strong>.</td><td>demasiado caro</td></tr>
+<tr><td><strong>enough</strong> + sustantivo</td><td>I haven't got <strong>enough</strong> money.</td><td>suficiente dinero</td></tr>
+<tr><td>adjetivo + <strong>enough</strong></td><td>It isn't <strong>big enough</strong>.</td><td>no es lo bastante grande</td></tr></table>
+<div class="warning">✗ It's enough big → ✓ It's big <b>enough</b> · ✗ too much people → ✓ too <b>many</b> people · <b>a few</b> (algunos, positivo) ≠ <b>few</b> (pocos, negativo).</div>
+<div class="example">— Can I pay by card? — Sorry, cash only.<br>— Can I have a <strong>receipt</strong>, please? — Here's your <strong>change</strong> and your receipt.</div>
+ex:
+fill ¦ There are too ___ cars in the city centre. ¦ many ¦ much / enough / lot ¦ Hay demasiados coches en el centro. ¦ cars es contable → many.
+fill ¦ I've only got a ___ money left. ¦ little ¦ few / lot / many ¦ Solo me queda un poco de dinero. ¦ money es incontable → a little.
+fill ¦ This bag isn't big ___ for my laptop. ¦ enough ¦ too / much / plenty ¦ Este bolso no es lo bastante grande para mi portátil. ¦ adjetivo + enough.
+fill ¦ We've got ___ of time. Don't worry. ¦ plenty ¦ many / enough / a lot ¦ Tenemos tiempo de sobra. No te preocupes.
+choose ¦ «Compré unas cuantas cosas» ¦ I bought a few things. ¦ I bought a little things. / I bought few thing. / I bought a few of things.
+choose ¦ ¿Cuál es correcta? ¦ It's too expensive. I can't afford it. ¦ It's too much expensive. I can't afford it. / It's enough expensive. I can't afford it. / It's too expensive. I can't afford.
+order ¦ Can I have a receipt, please? ¦ ¿Me da un tique, por favor?
+order ¦ I spent too much money on clothes. ¦ Me gasté demasiado dinero en ropa.
+translate ¦ No tengo suficiente dinero. ¦ I haven't got enough money. ¦ I don't have enough money.
+translate ¦ ¡Es una ganga! ¦ It's a bargain! ¦ It is a bargain!
+match ¦ receipt=tique, recibo; change=cambio (dinero); bargain=ganga; afford=permitirse; earn=ganar (dinero)
+
+=== 6
+title: Better and better ¦ Cada vez mejor
+desc: Comparar personas, lugares y cosas
+gram: comparative adjectives: -er, more…, better, worse ¦ as … as ¦ than
+ref: a2-comparatives
+words: compare, comparative, similar, different, difference, same, modern, ancient, traditional, comfortable, convenient, crowded, noisy, peaceful, safe, dangerous, lively, quiet, cheap, expensive, wide, narrow, deep, healthy, unhealthy, worse, less, than, countryside, village
+intro:
+<h3>Comparativos</h3>
+<table><tr><th>Adjetivo</th><th>Regla</th><th>Comparativo</th></tr>
+<tr><td>cheap, old, small</td><td>1 sílaba: + <b>-er</b></td><td>cheap<strong>er</strong>, old<strong>er</strong></td></tr>
+<tr><td>big, hot, thin</td><td>vocal + consonante: se dobla</td><td>bi<strong>gg</strong>er, ho<strong>tt</strong>er</td></tr>
+<tr><td>easy, busy, noisy</td><td>-y → <b>-ier</b></td><td>eas<strong>ier</strong>, nois<strong>ier</strong></td></tr>
+<tr><td>modern, expensive</td><td>2+ sílabas: <b>more</b> + adj.</td><td><strong>more</strong> expensive</td></tr>
+<tr><td>good / bad / far</td><td>irregulares</td><td><strong>better</strong> / <strong>worse</strong> / <strong>further</strong></td></tr></table>
+<div class="example">London is <strong>bigger than</strong> Madrid. · The train is <strong>more comfortable than</strong> the bus. · My cold is <strong>worse</strong> today.</div>
+<h3>Igualdad y otras comparaciones</h3>
+<table><tr><td><strong>as</strong> … <strong>as</strong></td><td>She's <strong>as tall as</strong> her mother.</td><td>tan alta como</td></tr>
+<tr><td><strong>not as</strong> … <strong>as</strong></td><td>The village <strong>isn't as noisy as</strong> the city.</td><td>no tan ruidoso como</td></tr>
+<tr><td><strong>less</strong> + adj.</td><td>It's <strong>less expensive</strong>.</td><td>menos caro</td></tr>
+<tr><td><strong>much / a bit</strong> + comp.</td><td>It's <strong>much cheaper</strong>. / <strong>a bit</strong> colder</td><td>mucho / un poco más</td></tr></table>
+<div class="warning"><b>Errores típicos:</b><ul><li>✗ more big → ✓ bigger · ✗ more better → ✓ better</li><li>✗ bigger that → ✓ bigger <b>than</b></li><li>✗ as tall than → ✓ as tall <b>as</b></li></ul></div>
+ex:
+fill ¦ The city is much ___ than the village. ¦ noisier ¦ noisyer / more noisy / noiser ¦ La ciudad es mucho más ruidosa que el pueblo. ¦ -y → -ier.
+fill ¦ This sofa is ___ comfortable than the old one. ¦ more ¦ most / -er / much ¦ Este sofá es más cómodo que el viejo. ¦ Adjetivo largo → more.
+fill ¦ My English is ___ than last year. ¦ better ¦ gooder / more good / best ¦ Mi inglés es mejor que el año pasado.
+fill ¦ The train isn't as fast ___ the plane. ¦ as ¦ than / like / that ¦ El tren no es tan rápido como el avión.
+choose ¦ Comparativo de «hot» ¦ hotter ¦ hoter / more hot / hottest
+choose ¦ ¿Cuál es correcta? ¦ Life in the country is less stressful than in the city. ¦ Life in the country is less stressful that in the city. / Life in the country is more less stressful than in the city. / Life in the country is less stressfuller than in the city.
+order ¦ My sister is two years older than me. ¦ Mi hermana es dos años mayor que yo.
+order ¦ The weather is getting worse and worse. ¦ El tiempo está empeorando cada vez más.
+translate ¦ Madrid es más grande que Valencia. ¦ Madrid is bigger than Valencia. ¦ Madrid is larger than Valencia.
+translate ¦ Hoy hace un poco más de calor. ¦ It's a bit hotter today. ¦ It is a bit hotter today. / It's a bit warmer today. / Today it's a bit hotter.
+match ¦ crowded=abarrotado; peaceful=tranquilo; lively=animado; convenient=práctico; narrow=estrecho
+
+=== 7
+title: The best in the world ¦ Lo mejor del mundo
+desc: Los superlativos: el más alto, el mejor, el peor
+gram: superlatives: the -est, the most…, the best, the worst ¦ ever / in the world
+ref: a2-superlatives
+words: worst, best, superlative, ever, record, unforgettable, amazing, fantastic, incredible, enormous, tiny, famous, popular, natural, wonder, desert, mountain, ocean, island, continent, planet, population, capital, national, international, tourist, sightseeing, landscape, scenery
+intro:
+<h3>Superlativos</h3>
+<table><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr>
+<tr><td>tall</td><td>taller</td><td><strong>the tallest</strong></td></tr>
+<tr><td>big</td><td>bigger</td><td><strong>the biggest</strong></td></tr>
+<tr><td>happy</td><td>happier</td><td><strong>the happiest</strong></td></tr>
+<tr><td>beautiful</td><td>more beautiful</td><td><strong>the most beautiful</strong></td></tr>
+<tr><td>good / bad / far</td><td>better / worse / further</td><td><strong>the best / the worst / the furthest</strong></td></tr></table>
+<div class="example">Everest is <strong>the highest</strong> mountain <strong>in</strong> the world.<br>It's <strong>the best</strong> film I've <strong>ever</strong> seen.<br>That was <strong>the worst</strong> day <strong>of</strong> my life.</div>
+<div class="tip">Detrás del superlativo: <b>in</b> + lugar o grupo (<i>in the world, in my class, in Spain</i>) y <b>of</b> + periodo o cantidad (<i>of my life, of the year, of all</i>). Fíjate en la estructura <i>the best … I've ever …</i> (el mejor … que he … nunca).</div>
+<div class="warning">✗ the most big → ✓ the biggest · ✗ the more beautiful of the world → ✓ the most beautiful <b>in</b> the world · No olvides <b>the</b>: ✗ It's best restaurant.</div>
+ex:
+fill ¦ The Nile is the ___ river in the world. ¦ longest ¦ longer / most long / long ¦ El Nilo es el río más largo del mundo.
+fill ¦ It was the ___ day of my life. ¦ worst ¦ baddest / worse / most bad ¦ Fue el peor día de mi vida.
+fill ¦ This is the most beautiful beach ___ Spain. ¦ in ¦ of / at / from ¦ Esta es la playa más bonita de España. ¦ Lugar → in.
+fill ¦ It's the best film I've ___ seen. ¦ ever ¦ never / always / before ¦ Es la mejor película que he visto nunca.
+choose ¦ Superlativo de «popular» ¦ the most popular ¦ the popularest / the more popular / most popular of
+choose ¦ ¿Cuál es correcta? ¦ She's the youngest person in the team. ¦ She's the most young person in the team. / She's youngest person of the team. / She's the younger person in the team.
+order ¦ What's the biggest city in your country? ¦ ¿Cuál es la ciudad más grande de tu país?
+order ¦ That was the most exciting match of the year. ¦ Fue el partido más emocionante del año.
+translate ¦ Es la persona más simpática que conozco. ¦ She's the nicest person I know. ¦ He's the nicest person I know. / She is the nicest person I know. / He is the nicest person I know.
+translate ¦ ¿Cuál es el país más grande del mundo? ¦ What's the biggest country in the world? ¦ What is the biggest country in the world? / Which is the biggest country in the world? / What's the largest country in the world?
+match ¦ landscape=paisaje; tiny=diminuto; enormous=enorme; continent=continente; population=población
+
+=== 8
+title: Rules ¦ Normas
+desc: Obligación y prohibición: have to, don't have to, must, mustn't
+gram: have to / don't have to ¦ must / mustn't ¦ can / can't (permission)
+ref: a2-modals
+words: rule, law, allow, forbid, permission, necessary, unnecessary, illegal, uniform, sign, notice, fine, ticket, park, smoke, entrance, exit, private, public, official, staff, member, guard, safe, safety, careful, warning, strict, behaviour, wear
+intro:
+<h3>Obligación: have to y must</h3>
+<table><tr><th></th><th>Significado</th><th>Ejemplo</th></tr>
+<tr><td><strong>have to / has to</strong></td><td>obligación (normas, horarios, otros lo imponen)</td><td>I <strong>have to</strong> wear a uniform at work.</td></tr>
+<tr><td><strong>must</strong></td><td>obligación que siente quien habla; carteles y normas escritas</td><td>I <strong>must</strong> call my mum. Passengers <strong>must</strong> show their tickets.</td></tr>
+<tr><td><strong>don't / doesn't have to</strong></td><td>no es necesario (puedes hacerlo si quieres)</td><td>You <strong>don't have to</strong> come. It's optional.</td></tr>
+<tr><td><strong>mustn't</strong></td><td>prohibido, no debes</td><td>You <strong>mustn't</strong> smoke here.</td></tr>
+<tr><td><strong>can / can't</strong></td><td>está permitido / no está permitido</td><td>You <strong>can't</strong> park here. You <strong>can</strong> pay by card.</td></tr></table>
+<div class="warning">¡Cuidado! <b>don't have to</b> ≠ <b>mustn't</b>. <i>You don't have to pay</i> = no hace falta pagar (es gratis). <i>You mustn't pay</i> = tienes prohibido pagar.</div>
+<div class="tip"><b>must</b> no tiene pasado: se usa <b>had to</b>. <i>Yesterday I <b>had to</b> work late.</i> Preguntas: <i><b>Do</b> you <b>have to</b> wear a tie?</i> (✗ Have you to…?).</div>
+ex:
+fill ¦ Nurses ___ work at night sometimes. ¦ have to ¦ has to / must to / haves to ¦ Los enfermeros a veces tienen que trabajar de noche.
+fill ¦ You ___ bring food. Lunch is included. ¦ don't have to ¦ mustn't / haven't to / doesn't have to ¦ No hace falta que traigas comida. La comida está incluida. ¦ No es necesario → don't have to.
+fill ¦ You ___ use your phone during the exam. ¦ mustn't ¦ don't have to / haven't / not must ¦ No puedes usar el móvil durante el examen. ¦ Prohibido → mustn't.
+fill ¦ Yesterday I ___ get up at 5. ¦ had to ¦ must / have to / musted ¦ Ayer tuve que levantarme a las cinco. ¦ Pasado de must/have to → had to.
+choose ¦ «¿Tienes que llevar uniforme?» ¦ Do you have to wear a uniform? ¦ Have you to wear a uniform? / Must you to wear a uniform? / Do you must wear a uniform?
+choose ¦ Cartel: «Prohibido aparcar» ¦ You can't park here. ¦ You don't have to park here. / You haven't park here. / You mustn't to park here.
+order ¦ She has to wear a uniform at work. ¦ Tiene que llevar uniforme en el trabajo.
+order ¦ You don't have to buy a ticket for children. ¦ No hace falta comprar entrada para los niños.
+translate ¦ Tengo que irme. ¦ I have to go. ¦ I must go. / I've got to go.
+translate ¦ No está permitido fumar aquí. ¦ You can't smoke here. ¦ You mustn't smoke here. / Smoking isn't allowed here. / You aren't allowed to smoke here.
+match ¦ allow=permitir; forbid=prohibir; permission=permiso; illegal=ilegal; staff=personal
+
+=== 9
+title: Health and advice ¦ Salud y consejos
+desc: El cuerpo, las enfermedades y dar consejos con should
+gram: should / shouldn't ¦ What's the matter? ¦ have a + illness
+ref: a2-should
+words: health, healthy, ill, sick, pain, headache, stomachache, toothache, backache, cough, cold, flu, temperature, fever, sore, throat, medicine, pill, chemist, prescription, appointment, dentist, patient, rest, diet, exercise, advice, should, matter, injury, ankle
+intro:
+<h3>Dar consejos: should / shouldn't</h3>
+<p><b>should</b> + forma base = deberías (recomendación). Igual para todas las personas.</p>
+<div class="example">You <strong>should</strong> go to the doctor. · You <strong>shouldn't</strong> eat so much sugar. · <strong>Should</strong> I take an aspirin?</div>
+<div class="tip">Otras formas de aconsejar: <i><b>Why don't you</b> stay in bed?</i> · <i><b>If I were you</b>, I'd see a doctor.</i> · <i><b>It's a good idea to</b> drink water.</i> La palabra <b>advice</b> es incontable: <i>some advice, a piece of advice</i> (✗ an advice, ✗ advices).</div>
+<h3>Hablar de la salud</h3>
+<table><tr><td><strong>What's the matter?</strong> / What's wrong?</td><td>¿Qué te pasa?</td></tr>
+<tr><td>I've got <strong>a headache</strong> / <strong>a cold</strong> / <strong>a temperature</strong>.</td><td>Me duele la cabeza / Estoy resfriado / Tengo fiebre.</td></tr>
+<tr><td>I've got <strong>a sore throat</strong>.</td><td>Me duele la garganta.</td></tr>
+<tr><td>My back <strong>hurts</strong>. / I've hurt my ankle.</td><td>Me duele la espalda. / Me he hecho daño en el tobillo.</td></tr>
+<tr><td>I feel <strong>sick</strong>.</td><td>Estoy mareado / Tengo náuseas.</td></tr></table>
+<div class="warning">«Me duele la cabeza» ≠ ✗ <i>Me hurts the head</i>. Usa <b>I've got a headache</b> o <b>My head hurts</b>. Con dolencias se usa <b>a</b>: <i>a cold, a cough, a headache</i> (pero <i>flu</i> sin artículo en RU).</div>
+ex:
+fill ¦ You look tired. You ___ go to bed early. ¦ should ¦ shoulds / should to / must to ¦ Pareces cansado. Deberías acostarte pronto. ¦ should + forma base.
+fill ¦ You ___ eat so much fast food. ¦ shouldn't ¦ don't should / not should / shouldn't to ¦ No deberías comer tanta comida rápida.
+fill ¦ What's the ___ ? You look terrible. ¦ matter ¦ problem with / wrong with / happen ¦ ¿Qué te pasa? Tienes muy mala cara.
+fill ¦ I've got ___ sore throat. ¦ a ¦ the / – / some ¦ Me duele la garganta.
+choose ¦ «Me duele la cabeza» ¦ I've got a headache. ¦ Me hurts the head. / I have head pain. / My head is hurting me.
+choose ¦ ¿Cuál es correcta? ¦ Can you give me some advice? ¦ Can you give me an advice? / Can you give me some advices? / Can you give me a advice?
+order ¦ Why don't you take an aspirin? ¦ ¿Por qué no te tomas una aspirina?
+order ¦ I need to make an appointment with the dentist. ¦ Tengo que pedir cita con el dentista.
+translate ¦ Deberías descansar. ¦ You should rest. ¦ You should have a rest. / You should get some rest.
+translate ¦ Tengo fiebre. ¦ I've got a temperature. ¦ I have a temperature. / I've got a fever. / I have a fever.
+match ¦ cough=tos; flu=gripe; pill=pastilla; chemist=farmacia; sore throat=dolor de garganta
+
+=== 10
+title: What will happen? ¦ ¿Qué pasará?
+desc: Predicciones, decisiones y promesas con will; will o going to
+gram: will / won't ¦ will vs going to ¦ I think… / probably
+ref: a2-future
+words: future, predict, prediction, probably, certainly, possibly, perhaps, likely, definitely, robot, technology, invent, invention, discover, space, planet, climate, environment, pollution, recycle, energy, electric, solar, disappear, increase, population, promise, offer, decide, hope
+intro:
+<h3>will / won't</h3>
+<table><tr><th>Uso</th><th>Ejemplo</th></tr>
+<tr><td>Predicciones (opiniones sobre el futuro)</td><td>I think robots <strong>will</strong> do most jobs.</td></tr>
+<tr><td>Decisiones en el momento</td><td>It's cold. I<strong>'ll</strong> close the window.</td></tr>
+<tr><td>Promesas</td><td>I <strong>won't</strong> tell anyone. I promise.</td></tr>
+<tr><td>Ofrecimientos</td><td>I<strong>'ll</strong> help you with your bags.</td></tr></table>
+<div class="tip"><b>won't</b> = will not. Igual para todas las personas y siempre + forma base: <i>She'll come</i> (✗ She'll comes, ✗ She will to come).</div>
+<h3>will o going to</h3>
+<table><tr><th>going to</th><th>will</th></tr>
+<tr><td>Plan decidido <b>antes</b> de hablar</td><td>Decisión <b>en el momento</b></td></tr>
+<tr><td>I'<strong>m going to</strong> buy a new car next month.</td><td>— The phone's ringing! — I<strong>'ll</strong> get it.</td></tr>
+<tr><td>Predicción con pruebas que ves</td><td>Predicción por opinión</td></tr>
+<tr><td>Look at those clouds! It'<strong>s going to</strong> rain.</td><td>I think it<strong>'ll</strong> rain tomorrow.</td></tr></table>
+<div class="warning">«Creo que no vendrá» = ✓ <i>I <b>don't think</b> she'll come</i> (el negativo va en <i>think</i>, mejor que <i>I think she won't come</i>). Posición: <i>She'll <b>probably</b> be late</i>, pero <i>She <b>probably won't</b> come</i>.</div>
+ex:
+fill ¦ I think people ___ live on Mars one day. ¦ will ¦ are / going / would to ¦ Creo que algún día la gente vivirá en Marte. ¦ Predicción de opinión → will.
+fill ¦ — I'm thirsty. — I ___ get you some water. ¦ 'll ¦ 'm going to / will to / am ¦ —Tengo sed. —Te traigo agua. ¦ Decisión en el momento → will.
+fill ¦ Look at that car! It ___ crash! ¦ 's going to ¦ will / 'll going to / goes ¦ ¡Mira ese coche! ¡Va a chocar! ¦ Lo estás viendo → going to.
+fill ¦ I promise I ___ be late again. ¦ won't ¦ don't / willn't / am not ¦ Te prometo que no volveré a llegar tarde.
+choose ¦ «Creo que no lloverá» ¦ I don't think it will rain. ¦ I think it don't rain. / I think it won't to rain. / I not think it will rain.
+choose ¦ ¿Cuál es correcta? ¦ She'll probably call you tomorrow. ¦ She probably'll call you tomorrow. / She'll calls you tomorrow probably. / She will to call you tomorrow.
+order ¦ I think computers will be even smaller. ¦ Creo que los ordenadores serán aún más pequeños.
+order ¦ Don't worry, I won't forget. ¦ No te preocupes, no se me olvidará.
+translate ¦ Te ayudo. ¦ I'll help you. ¦ I will help you.
+translate ¦ Vamos a comprar una casa el año que viene. ¦ We're going to buy a house next year. ¦ We are going to buy a house next year.
+match ¦ probably=probablemente; definitely=sin duda; likely=probable; recycle=reciclar; invention=invento
+
+=== 11
+title: Plans for the weekend ¦ Planes para el fin de semana
+desc: Planes ya organizados con el presente continuo; invitar y quedar
+gram: present continuous for future arrangements ¦ invitations: Would you like to…? / Shall we…? / How about…?
+ref: a2-future-arrangements
+words: arrangement, invite, invitation, accept, refuse, free, busy, available, meet, pick up, book, reservation, concert, exhibition, gallery, match, stadium, festival, picnic, barbecue, shall, fancy, instead, maybe, perhaps, someday, tonight, weekend, Saturday
+intro:
+<h3>Presente continuo para planes fijados</h3>
+<p>Cuando algo ya está organizado (hay hora, sitio, entradas, otra persona implicada), el inglés usa el <b>presente continuo</b>, igual que el español «el sábado <i>ceno</i> con Ana»:</p>
+<div class="example">I<strong>'m meeting</strong> Ana for dinner on Saturday.<br>What <strong>are</strong> you <strong>doing</strong> tonight? — We<strong>'re going</strong> to a concert.</div>
+<table><tr><th>Presente continuo</th><th>going to</th><th>will</th></tr>
+<tr><td>plan con fecha/acuerdo</td><td>intención</td><td>decisión en el momento</td></tr>
+<tr><td>I'm flying to Rome on Monday.</td><td>I'm going to visit Rome one day.</td><td>OK, I'll come with you!</td></tr></table>
+<h3>Invitar, aceptar y rechazar</h3>
+<table><tr><td><strong>Would you like to</strong> come to the cinema?</td><td>¿Te apetece venir al cine?</td></tr>
+<tr><td><strong>Shall we</strong> meet at 8?</td><td>¿Quedamos a las 8?</td></tr>
+<tr><td><strong>How about</strong> / <strong>What about</strong> going for a pizza?</td><td>¿Qué tal si vamos a por una pizza?</td></tr>
+<tr><td><strong>Do you fancy</strong> a coffee? (RU)</td><td>¿Te apetece un café?</td></tr>
+<tr><td>I'd love to! / That sounds great!</td><td>¡Me encantaría! / ¡Suena genial!</td></tr>
+<tr><td>I'm sorry, I can't. I'm working.</td><td>Lo siento, no puedo. Trabajo.</td></tr></table>
+<div class="warning">Tras <b>How about / What about</b> va <b>-ing</b>: ✗ How about go → ✓ How about <b>going</b>. Tras <b>Would you like</b> va <b>to</b>: ✓ Would you like <b>to</b> come?</div>
+ex:
+fill ¦ We ___ my grandparents on Sunday. It's all arranged. ¦ 're visiting ¦ visit / will visit / visited ¦ El domingo visitamos a mis abuelos. Ya está todo organizado. ¦ Plan fijado → presente continuo.
+fill ¦ How about ___ to the beach? ¦ going ¦ go / to go / goes ¦ ¿Qué tal si vamos a la playa? ¦ How about + -ing.
+fill ¦ Would you like ___ for dinner? ¦ to stay ¦ stay / staying / stayed ¦ ¿Te quieres quedar a cenar? ¦ Would you like + to.
+fill ¦ ___ we meet outside the cinema? ¦ Shall ¦ Will / Do / Are ¦ ¿Quedamos fuera del cine? ¦ Sugerencia → Shall we…?
+choose ¦ «¿Qué haces esta noche?» (plan) ¦ What are you doing tonight? ¦ What do you do tonight? / What will you do tonight? / What you doing tonight?
+choose ¦ Rechazar educadamente una invitación ¦ I'd love to, but I'm busy that day. ¦ No, I don't want. / I not can. / I'd love, but busy.
+order ¦ I'm meeting my friends at seven. ¦ He quedado con mis amigos a las siete.
+order ¦ Do you fancy going for a walk? ¦ ¿Te apetece dar un paseo?
+translate ¦ El viernes voy al dentista. ¦ I'm going to the dentist on Friday. ¦ On Friday I'm going to the dentist. / I am going to the dentist on Friday.
+translate ¦ ¡Me encantaría! ¦ I'd love to! ¦ I would love to!
+match ¦ arrangement=plan, acuerdo; refuse=rechazar; available=disponible; book=reservar; instead=en su lugar
+
+=== 12
+title: Have you ever…? ¦ ¿Alguna vez has…?
+desc: Hablar de experiencias con el present perfect
+gram: present perfect: have / has + past participle ¦ ever / never ¦ present perfect vs past simple
+ref: a2-present-perfect
+words: ever, never, experience, try, taste, visit, travel, abroad, foreign, adventure, dangerous, unusual, strange, exotic, fly, ride, climb, sail, win, lose, meet, famous, celebrity, once, twice, life, already, before
+intro:
+<h3>El present perfect</h3>
+<p><b>have / has + participio</b>. Sirve para hablar de <b>experiencias</b> en tu vida hasta ahora, sin decir cuándo:</p>
+<table><tr><th>Afirmativa</th><th>Negativa</th><th>Pregunta</th></tr>
+<tr><td>I<strong>'ve been</strong> to Japan.</td><td>I <strong>haven't tried</strong> sushi.</td><td><strong>Have</strong> you <strong>ever met</strong> a famous person?</td></tr>
+<tr><td>She<strong>'s flown</strong> a plane.</td><td>He<strong>'s never won</strong> anything.</td><td><strong>Has</strong> she <strong>ever been</strong> to Rome?</td></tr></table>
+<div class="tip">Participios irregulares muy frecuentes: <i>be → been, go → gone, see → seen, eat → eaten, do → done, fly → flown, ride → ridden, meet → met, win → won, write → written</i>. Consulta la página de verbos irregulares.</div>
+<h3>been o gone</h3>
+<div class="example">She<strong>'s been</strong> to Paris. = Ha estado en París (y ha vuelto).<br>She<strong>'s gone</strong> to Paris. = Se ha ido a París (y sigue allí).</div>
+<h3>Present perfect y pasado simple</h3>
+<p>Primero preguntas por la experiencia (present perfect); en cuanto das detalles (cuándo, dónde, cómo), cambias al pasado simple:</p>
+<div class="example">— <strong>Have</strong> you ever <strong>been</strong> to London? — Yes, I <strong>have</strong>. I <strong>went</strong> there last summer.<br>— Did you like it? — Yes, it <strong>was</strong> great.</div>
+<div class="warning">Con un momento terminado nunca present perfect: ✗ I have been to London last year → ✓ I <b>went</b> to London last year. Fíjate: en España decimos «he estado este año», pero «estuve el año pasado»; el inglés funciona igual con <i>this year</i> / <i>last year</i>.</div>
+ex:
+fill ¦ Have you ever ___ snails? ¦ eaten ¦ ate / eat / eated ¦ ¿Has comido caracoles alguna vez? ¦ eat → ate → eaten.
+fill ¦ I've ___ been to Australia. ¦ never ¦ ever / not / yet ¦ Nunca he estado en Australia.
+fill ¦ She ___ met lots of famous people. ¦ has ¦ have / is / did ¦ Ha conocido a mucha gente famosa.
+fill ¦ — Have you been to Rome? — Yes, I ___ there in 2019. ¦ went ¦ have gone / have been / go ¦ —¿Has estado en Roma? —Sí, fui en 2019. ¦ Fecha concreta → pasado simple.
+choose ¦ «Ana no está; se ha ido a Londres» ¦ Ana has gone to London. ¦ Ana has been to London. / Ana went to London yesterday ago. / Ana is gone London.
+choose ¦ ¿Cuál es correcta? ¦ I saw that film last week. ¦ I have seen that film last week. / I've saw that film last week. / I have see that film last week.
+order ¦ Have you ever ridden a horse? ¦ ¿Has montado a caballo alguna vez?
+order ¦ My parents have travelled all over the world. ¦ Mis padres han viajado por todo el mundo.
+translate ¦ Nunca he probado el sushi. ¦ I've never tried sushi. ¦ I have never tried sushi. / I've never eaten sushi. / I have never eaten sushi.
+translate ¦ ¿Has estado alguna vez en Japón? ¦ Have you ever been to Japan?
+match ¦ been=estado (be); gone=ido (go); flown=volado (fly); ridden=montado (ride); won=ganado (win)
+
+=== 13
+title: Just, already, yet ¦ Just, already, yet
+desc: Noticias recientes y tareas hechas o pendientes
+gram: present perfect with just / already / yet ¦ for / since (introduction)
+ref: a2-perfect-just
+words: just, already, yet, recently, finish, complete, task, list, tidy, iron, pack, prepare, ready, deliver, arrive, receive, reply, email, message, text, news, update, fix, repair, broken, lose, find, wallet, key, since
+intro:
+<h3>just · already · yet</h3>
+<table><tr><th></th><th>Significado</th><th>Posición</th><th>Ejemplo</th></tr>
+<tr><td><strong>just</strong></td><td>acabar de</td><td>entre have y el participio</td><td>I<strong>'ve just</strong> finished. (Acabo de terminar.)</td></tr>
+<tr><td><strong>already</strong></td><td>ya (antes de lo esperado)</td><td>entre have y el participio</td><td>She<strong>'s already</strong> left.</td></tr>
+<tr><td><strong>yet</strong></td><td>todavía (neg.) / ya (preg.)</td><td>al final</td><td>I haven't paid <strong>yet</strong>. Have you paid <strong>yet</strong>?</td></tr></table>
+<div class="tip">«Acabo de llegar» no lleva <i>finish</i>: ✓ <i>I've just arrived.</i> En inglés americano también se dice <i>I just arrived</i> (pasado simple).</div>
+<h3>for y since</h3>
+<p>El present perfect también expresa algo que <b>empezó en el pasado y sigue</b>. Lo verás más en B1:</p>
+<div class="example">I<strong>'ve known</strong> her <strong>for</strong> ten years. (desde hace diez años)<br>We<strong>'ve lived</strong> here <strong>since</strong> 2015. (desde 2015)</div>
+<div class="warning">«Vivo aquí desde 2015» ≠ ✗ <i>I live here since 2015</i> → ✓ <i>I<b>'ve lived</b> here since 2015</i>. <b>for</b> + periodo (for two hours); <b>since</b> + punto de inicio (since Monday).</div>
+ex:
+fill ¦ I've ___ finished my homework. Can I go out? ¦ just ¦ yet / since / ever ¦ Acabo de terminar los deberes. ¿Puedo salir?
+fill ¦ Have you replied to his email ___ ? ¦ yet ¦ already / just / still ¦ ¿Ya has contestado a su correo? ¦ Pregunta → yet al final.
+fill ¦ She has ___ packed her suitcase. ¦ already ¦ yet / since / ever ¦ Ya ha hecho la maleta.
+fill ¦ We've lived in this flat ___ 2018. ¦ since ¦ for / from / during ¦ Vivimos en este piso desde 2018. ¦ since + año.
+choose ¦ «Todavía no he comido» ¦ I haven't eaten yet. ¦ I haven't eaten already. / I still not eaten. / I didn't eat yet already.
+choose ¦ «La conozco desde hace cinco años» ¦ I've known her for five years. ¦ I know her since five years. / I've known her since five years. / I know her for five years.
+order ¦ The parcel has just arrived. ¦ El paquete acaba de llegar.
+order ¦ Has the film started yet? ¦ ¿Ya ha empezado la película?
+translate ¦ Acabo de ver a Tom. ¦ I've just seen Tom. ¦ I have just seen Tom. / I just saw Tom.
+translate ¦ Ya he terminado. ¦ I've already finished. ¦ I have already finished. / I've finished already.
+match ¦ iron=planchar; deliver=entregar; parcel=paquete; reply=responder; update=actualizar
+
+=== 14
+title: On the move ¦ De viaje
+desc: Transporte, aeropuertos y el infinitivo de finalidad
+gram: infinitive of purpose: to + verb ¦ by bus / on foot ¦ get on / get off
+ref: a2-purpose
+words: journey, flight, passenger, luggage, suitcase, passport, boarding pass, gate, check in, delay, cancel, platform, tram, underground, motorway, traffic, timetable, fare, return, single, departure, arrival, abroad, pack, guidebook, tour, tourist, traveller, hostel, sightseeing
+intro:
+<h3>Infinitivo de finalidad</h3>
+<p>Para explicar <b>para qué</b> haces algo, el inglés usa simplemente <b>to + verbo</b> (✗ <i>for to</i>, ✗ <i>for + verbo</i>):</p>
+<div class="example">I went to the station <strong>to buy</strong> a ticket. (para comprar)<br>She's saving money <strong>to travel</strong> to Japan.<br>Why are you learning English? — <strong>To get</strong> a better job.</div>
+<div class="warning">✗ I came here for study English → ✓ I came here <b>to study</b> English. Con sustantivos sí va <b>for</b>: <i>I went out <b>for</b> a coffee.</i></div>
+<h3>Medios de transporte</h3>
+<table><tr><td><strong>by</strong> bus / train / car / plane / bike</td><td>en autobús, tren…</td></tr>
+<tr><td><strong>on foot</strong></td><td>a pie</td></tr>
+<tr><td><strong>get on / get off</strong> the bus</td><td>subir al / bajar del autobús</td></tr>
+<tr><td><strong>get in / get out of</strong> a car / taxi</td><td>subir al / bajar del coche</td></tr>
+<tr><td><strong>take</strong> the train / <strong>catch</strong> the bus / <strong>miss</strong> the flight</td><td>coger el tren / pillar el autobús / perder el vuelo</td></tr></table>
+<h3>En el aeropuerto</h3>
+<div class="example"><strong>check in</strong> → go through security → wait at the <strong>gate</strong> → <strong>board</strong> the plane<br>A <strong>single</strong> (ida) / <strong>return</strong> (ida y vuelta) ticket to Bristol, please.</div>
+<div class="tip"><b>travel</b> es el verbo; un viaje concreto es <b>a trip</b> o <b>a journey</b> (✗ a travel). <b>luggage</b> es incontable: <i>two bags / some luggage</i>.</div>
+ex:
+fill ¦ I'm saving money ___ a new laptop. ¦ to buy ¦ for buy / for to buy / buying ¦ Estoy ahorrando para comprarme un portátil nuevo. ¦ Finalidad → to + verbo.
+fill ¦ We went there ___ foot. ¦ on ¦ by / with / in ¦ Fuimos a pie.
+fill ¦ Hurry up or we'll ___ the train! ¦ miss ¦ lose / lost / fail ¦ ¡Date prisa o perderemos el tren! ¦ perder un transporte = miss.
+fill ¦ Get ___ the bus at the third stop. ¦ off ¦ out / down / of ¦ Bájate del autobús en la tercera parada.
+choose ¦ «¿Cuánto cuesta un billete de ida y vuelta?» ¦ How much is a return ticket? ¦ How much is a go and back ticket? / How much costs a return ticket? / How much is a single ticket?
+choose ¦ ¿Cuál es correcta? ¦ How was your trip? ¦ How was your travel? / How was your travels? / How was you trip?
+order ¦ Our flight was delayed for three hours. ¦ Nuestro vuelo se retrasó tres horas.
+order ¦ I went to the airport to meet my cousin. ¦ Fui al aeropuerto a recoger a mi primo.
+translate ¦ Vine a Londres para aprender inglés. ¦ I came to London to learn English. ¦ I came to London to study English.
+translate ¦ ¿Dónde tengo que facturar? ¦ Where do I check in? ¦ Where do I have to check in? / Where should I check in?
+match ¦ luggage=equipaje; platform=andén; delay=retraso; departure=salida; boarding pass=tarjeta de embarque
+
+=== 15
+title: I want to, I enjoy -ing ¦ Quiero hacer, disfruto haciendo
+desc: Verbos seguidos de to + infinitivo o de -ing
+gram: verb + to: want, need, decide, hope, plan, learn ¦ verb + -ing: enjoy, like, finish, stop, mind
+ref: a2-verb-patterns
+words: decide, hope, plan, learn, manage, offer, promise, refuse, agree, expect, enjoy, mind, finish, stop, avoid, practise, imagine, suggest, consider, keep, give up, look forward to, hate, prefer, try, forget, remember, continue, start
+intro:
+<h3>Verbo + to + infinitivo</h3>
+<p>Muchos verbos que miran al futuro (deseos, planes, decisiones) van con <b>to</b>:</p>
+<div class="example">want <strong>to</strong> · need <strong>to</strong> · decide <strong>to</strong> · hope <strong>to</strong> · plan <strong>to</strong> · learn <strong>to</strong> · manage <strong>to</strong> · promise <strong>to</strong> · offer <strong>to</strong> · refuse <strong>to</strong> · would like <strong>to</strong><br>I <strong>decided to</strong> study medicine. She <strong>managed to</strong> pass.</div>
+<h3>Verbo + -ing</h3>
+<div class="example">enjoy · finish · mind · avoid · imagine · suggest · keep · give up · practise · look forward to<br>I <strong>enjoy cooking</strong>. Have you <strong>finished eating</strong>? Do you <strong>mind waiting</strong>?</div>
+<div class="tip">Con <b>like, love, hate, start, begin, continue</b> valen las dos formas casi sin diferencia: <i>I like swimming / I like to swim</i>. Pero <b>would like</b> siempre con <b>to</b>: <i>I'd like to swim</i>. Tras una <b>preposición</b> siempre -ing: <i>I'm good <b>at</b> drawing. Thanks <b>for</b> coming.</i></div>
+<div class="warning"><b>stop to</b> ≠ <b>stop -ing</b>: <i>I stopped smoking</i> (dejé de fumar) / <i>I stopped to smoke</i> (paré para fumar). <b>remember / forget to</b> (acordarse / olvidarse de hacer algo) vs <b>remember -ing</b> (recordar haberlo hecho). ✗ I enjoy to read → ✓ I enjoy <b>reading</b>.</div>
+ex:
+fill ¦ I really enjoy ___ in the mountains. ¦ walking ¦ to walk / walk / walked ¦ Disfruto mucho caminando por la montaña. ¦ enjoy + -ing.
+fill ¦ We've decided ___ a new car. ¦ to buy ¦ buying / buy / for buy ¦ Hemos decidido comprar un coche nuevo. ¦ decide + to.
+fill ¦ Would you mind ___ the window? ¦ opening ¦ to open / open / opened ¦ ¿Te importaría abrir la ventana? ¦ mind + -ing.
+fill ¦ Don't forget ___ the lights off. ¦ to turn ¦ turning / turn / turned ¦ No te olvides de apagar las luces. ¦ forget to = olvidarse de hacer.
+choose ¦ «Dejé de fumar hace dos años» ¦ I stopped smoking two years ago. ¦ I stopped to smoke two years ago. / I stopped smoke two years ago. / I stopped of smoking two years ago.
+choose ¦ ¿Cuál es correcta? ¦ I'm looking forward to seeing you. ¦ I'm looking forward to see you. / I look forward see you. / I'm looking forward for seeing you.
+order ¦ She managed to finish the race. ¦ Consiguió terminar la carrera.
+order ¦ He has given up eating meat. ¦ Ha dejado de comer carne.
+translate ¦ Espero verte pronto. ¦ I hope to see you soon. ¦ I hope I see you soon. / I hope I'll see you soon.
+translate ¦ Me gustaría aprender a nadar. ¦ I'd like to learn to swim. ¦ I would like to learn to swim. / I'd like to learn how to swim. / I would like to learn how to swim.
+match ¦ manage to=conseguir; avoid=evitar; refuse=negarse; give up=dejar (un hábito); look forward to=tener ganas de
+
+=== 16
+title: In the kitchen ¦ En la cocina
+desc: Cocinar, recetas y el uso de los artículos
+gram: articles: a / an, the, no article ¦ cooking verbs ¦ sequence: first, then, after that, finally
+ref: a2-articles
+words: recipe, ingredient, boil, fry, bake, roast, grill, chop, slice, mix, stir, pour, add, heat, oven, pan, bowl, spoon, fork, knife, plate, salt, pepper, oil, flour, garlic, onion, sauce, raw, fresh, delicious, dessert, then, finally
+intro:
+<h3>Los artículos</h3>
+<table><tr><th>Artículo</th><th>Cuándo</th><th>Ejemplo</th></tr>
+<tr><td><strong>a / an</strong></td><td>algo que se menciona por primera vez; uno cualquiera; profesiones</td><td>I've got <strong>an</strong> onion and <strong>a</strong> tomato.</td></tr>
+<tr><td><strong>the</strong></td><td>algo ya mencionado o que ambos conocemos; algo único</td><td>Chop <strong>the</strong> onion. Put it in <strong>the</strong> oven. <strong>the</strong> sun</td></tr>
+<tr><td>— (sin artículo)</td><td>plurales e incontables en sentido general</td><td><strong>Vegetables</strong> are good for you. I love <strong>chocolate</strong>.</td></tr></table>
+<div class="warning">El error más típico de los hispanohablantes: poner <i>the</i> al hablar en general. «Me gusta <b>el</b> chocolate» = ✓ <i>I like chocolate</i> (✗ I like the chocolate). «<b>Los</b> perros son leales» = ✓ <i>Dogs are loyal</i>. Tampoco con comidas, deportes, idiomas ni asignaturas: <i>have lunch, play tennis, speak English, study history</i>.</div>
+<div class="tip">Expresiones fijas sin artículo: <i>at home, at work, at school, go to bed, by car, in hospital</i> (RU). Con artículo: <i>play the guitar, go to the cinema, listen to the radio, watch TV</i> (TV sin <i>the</i>).</div>
+<h3>Dar instrucciones de una receta</h3>
+<div class="example"><strong>First</strong>, chop the onion and the garlic. <strong>Then</strong> fry them in a little oil. <strong>After that</strong>, add the tomatoes and stir. <strong>Finally</strong>, cook for ten minutes.</div>
+ex:
+fill ¦ I don't like ___ coffee. ¦ – ¦ the / a / some ¦ No me gusta el café. ¦ Hablando en general: sin artículo.
+fill ¦ I bought a cake and some biscuits. ___ cake was delicious. ¦ The ¦ A / – / An ¦ Compré un pastel y unas galletas. El pastel estaba buenísimo. ¦ Ya mencionado → the.
+fill ¦ Put the chicken in ___ oven for an hour. ¦ the ¦ a / – / an ¦ Mete el pollo en el horno una hora.
+fill ¦ First, ___ the onions into small pieces. ¦ chop ¦ chops / to chop / chopping ¦ Primero, corta las cebollas en trozos pequeños. ¦ Instrucción → imperativo.
+choose ¦ «Los niños necesitan dormir mucho» ¦ Children need a lot of sleep. ¦ The children need a lot of the sleep. / The children need much sleep. / Children needs a lot of sleep.
+choose ¦ ¿Cuál es correcta? ¦ She plays the piano and speaks French. ¦ She plays piano and speaks the French. / She plays the piano and speaks the French. / She plays a piano and speaks French.
+order ¦ Mix the flour with two eggs. ¦ Mezcla la harina con dos huevos.
+order ¦ Then fry the garlic in a little oil. ¦ Luego fríe el ajo en un poco de aceite.
+translate ¦ Me encanta la pasta. ¦ I love pasta. ¦ I really like pasta.
+translate ¦ Añade sal y pimienta. ¦ Add salt and pepper. ¦ Add some salt and pepper.
+match ¦ chop=picar, cortar; stir=remover; boil=hervir; fry=freír; bake=hornear
+
+=== 17
+title: People who change the world ¦ Personas que cambian el mundo
+desc: Definir personas, cosas y lugares con oraciones de relativo
+gram: defining relative clauses: who, which, that, where ¦ whose
+ref: a2-relative
+words: who, which, whom, whose, inventor, scientist, explorer, hero, leader, artist, composer, author, volunteer, charity, invent, discover, create, design, build, help, save, improve, change, fight, protect, poor, sick, disease, cure
+intro:
+<h3>Oraciones de relativo especificativas</h3>
+<p>Dan la información necesaria para saber de quién o de qué hablamos:</p>
+<table><tr><th>Pronombre</th><th>Para</th><th>Ejemplo</th></tr>
+<tr><td><strong>who</strong> / that</td><td>personas</td><td>A doctor is someone <strong>who</strong> helps sick people.</td></tr>
+<tr><td><strong>which</strong> / that</td><td>cosas y animales</td><td>This is the phone <strong>which</strong> I bought.</td></tr>
+<tr><td><strong>where</strong></td><td>lugares</td><td>That's the hospital <strong>where</strong> I was born.</td></tr>
+<tr><td><strong>whose</strong></td><td>posesión (cuyo)</td><td>She's the woman <strong>whose</strong> son won the prize.</td></tr></table>
+<div class="tip">Cuando el pronombre es el <b>objeto</b> del verbo, se puede omitir (y es lo más natural): <i>This is the book (that) I told you about.</i> Si es el <b>sujeto</b>, no: <i>The man <b>who</b> lives next door…</i></div>
+<div class="warning"><b>Errores típicos:</b><ul><li>✗ The man which… → ✓ The man <b>who</b>… (personas)</li><li>✗ This is the book that I bought it. → ✓ This is the book that I bought. (no repitas el objeto)</li><li>✗ the city where I live in → ✓ the city where I live / the city I live in</li></ul></div>
+ex:
+fill ¦ An inventor is a person ___ creates new things. ¦ who ¦ which / where / whose ¦ Un inventor es una persona que crea cosas nuevas. ¦ Persona → who.
+fill ¦ This is the town ___ I grew up. ¦ where ¦ which / who / that ¦ Este es el pueblo donde me crié. ¦ Lugar → where.
+fill ¦ Penicillin is a medicine ___ saved millions of lives. ¦ which ¦ who / where / whose ¦ La penicilina es un medicamento que salvó millones de vidas.
+fill ¦ That's the girl ___ father is a famous chef. ¦ whose ¦ who / who's / which ¦ Esa es la chica cuyo padre es un chef famoso.
+choose ¦ ¿Cuál es correcta? ¦ The film we saw last night was great. ¦ The film we saw it last night was great. / The film who we saw last night was great. / The film where we saw last night was great.
+choose ¦ «La mujer que vive al lado es enfermera» ¦ The woman who lives next door is a nurse. ¦ The woman which lives next door is a nurse. / The woman lives next door is a nurse. / The woman who she lives next door is a nurse.
+order ¦ She was the first woman who won a Nobel Prize. ¦ Fue la primera mujer que ganó un premio Nobel.
+order ¦ Is this the bag that you lost? ¦ ¿Es este el bolso que perdiste?
+translate ¦ Es el restaurante donde nos conocimos. ¦ It's the restaurant where we met. ¦ It is the restaurant where we met. / That's the restaurant where we met. / This is the restaurant where we met.
+translate ¦ Tengo un amigo que habla cinco idiomas. ¦ I've got a friend who speaks five languages. ¦ I have a friend who speaks five languages. / I have got a friend who speaks five languages. / I've got a friend that speaks five languages.
+match ¦ volunteer=voluntario; charity=organización benéfica; cure=cura; protect=proteger; disease=enfermedad
+
+=== 18
+title: Technology and me ¦ La tecnología y yo
+desc: Aparatos, internet y los pronombres posesivos y reflexivos
+gram: possessive pronouns: mine, yours, his, hers, ours, theirs ¦ reflexive pronouns: myself, yourself…
+ref: a2-pronouns
+words: mine, yours, hers, ours, theirs, myself, yourself, himself, herself, itself, ourselves, themselves, laptop, tablet, screen, keyboard, battery, charger, password, download, upload, website, online, app, click, delete, save, print, printer, software, wifi
+intro:
+<h3>Pronombres posesivos</h3>
+<p>Sustituyen a <i>posesivo + sustantivo</i> (el mío, la tuya…). No llevan artículo:</p>
+<table><tr><th>Adjetivo</th><th>Pronombre</th><th>Ejemplo</th></tr>
+<tr><td>my phone</td><td><strong>mine</strong></td><td>This phone is <strong>mine</strong>.</td></tr>
+<tr><td>your bag</td><td><strong>yours</strong></td><td>Is this charger <strong>yours</strong>?</td></tr>
+<tr><td>his / her laptop</td><td><strong>his / hers</strong></td><td>The blue one is <strong>hers</strong>.</td></tr>
+<tr><td>our / their car</td><td><strong>ours / theirs</strong></td><td>Their house is bigger than <strong>ours</strong>.</td></tr></table>
+<div class="warning">✗ It's the mine → ✓ It's <b>mine</b> · ✗ a friend of me → ✓ a friend of <b>mine</b> · Sin apóstrofo: ✗ your's, her's → ✓ yours, hers.</div>
+<h3>Pronombres reflexivos</h3>
+<table><tr><td>I → <strong>myself</strong></td><td>you → <strong>yourself / yourselves</strong></td><td>he → <strong>himself</strong></td><td>she → <strong>herself</strong></td></tr>
+<tr><td>it → <strong>itself</strong></td><td>we → <strong>ourselves</strong></td><td>they → <strong>themselves</strong></td><td></td></tr></table>
+<div class="example">I hurt <strong>myself</strong>. · Enjoy <strong>yourselves</strong>! · She made the website <strong>herself</strong> (ella misma, sin ayuda).</div>
+<div class="tip">Muchos verbos reflexivos del español <b>no</b> lo son en inglés: <i>levantarse = get up, ducharse = have a shower, sentarse = sit down, relajarse = relax, preocuparse = worry, acordarse = remember</i>. ✗ I get up myself.</div>
+ex:
+fill ¦ This isn't my password. It's ___ . ¦ yours ¦ your / your's / of you ¦ Esta no es mi contraseña. Es la tuya.
+fill ¦ Their flat is smaller than ___ . ¦ ours ¦ our / us / our's ¦ Su piso es más pequeño que el nuestro.
+fill ¦ Be careful with the knife. Don't cut ___ ! ¦ yourself ¦ you / yourselves / your ¦ Cuidado con el cuchillo. ¡No te cortes!
+fill ¦ She taught ___ to play the guitar. ¦ herself ¦ her / hers / sheself ¦ Aprendió a tocar la guitarra ella sola.
+choose ¦ «Es un amigo mío» ¦ He's a friend of mine. ¦ He's a friend of me. / He's a my friend. / He's a friend of my.
+choose ¦ ¿Cuál es correcta? ¦ I usually get up at seven. ¦ I usually get up myself at seven. / I usually me get up at seven. / I usually get myself up at seven o'clock me.
+order ¦ Did you remember to save the file? ¦ ¿Te acordaste de guardar el archivo?
+order ¦ The laptop on the desk is hers. ¦ El portátil de la mesa es suyo (de ella).
+translate ¦ ¿Este cargador es tuyo? ¦ Is this charger yours? ¦ Is this your charger?
+translate ¦ ¡Pasadlo bien! ¦ Enjoy yourselves! ¦ Have fun! / Have a good time!
+match ¦ password=contraseña; charger=cargador; delete=borrar; download=descargar; screen=pantalla
+
+=== 19
+title: If it rains… ¦ Si llueve…
+desc: Situaciones reales y posibles: el primer condicional
+gram: first conditional: if + present, will ¦ unless ¦ when vs if
+ref: a2-first-conditional
+words: if, unless, when, as soon as, condition, possible, possibly, probably, chance, risk, miss, fail, pass, exam, late, early, hurry, warn, worried, relax, borrow, lend, umbrella, cancel, wake, alarm clock, catch, train, ready, angry
+intro:
+<h3>El primer condicional</h3>
+<p>Para situaciones <b>reales o probables</b> en el futuro y sus consecuencias:</p>
+<table><tr><th>Condición: if + presente</th><th>Resultado: will + verbo</th></tr>
+<tr><td><strong>If</strong> it <strong>rains</strong>,</td><td>we<strong>'ll stay</strong> at home.</td></tr>
+<tr><td><strong>If</strong> you <strong>don't hurry</strong>,</td><td>you<strong>'ll miss</strong> the bus.</td></tr>
+<tr><td>She <strong>won't pass</strong></td><td><strong>if</strong> she <strong>doesn't study</strong>.</td></tr></table>
+<div class="warning">¡Nunca <b>will</b> después de <b>if</b>! ✗ If it will rain → ✓ If it <b>rains</b>. Es como en español: «si llueve» (no «si lloverá»).</div>
+<div class="tip"><b>unless</b> = if … not: <i>I'll go <b>unless</b> it rains</i> (a menos que llueva). <b>when</b> = cuando (seguro que pasará) / <b>if</b> = si (puede que pase): <i><b>When</b> I get home, I'll call you. <b>If</b> I see Tom, I'll tell him.</i> También se usa presente tras <i>when, as soon as, before, after</i>: ✗ when I will arrive.</div>
+<div class="example">If you <strong>need</strong> help, <strong>call</strong> me. (imperativo en el resultado)<br>If you <strong>heat</strong> ice, it <strong>melts</strong>. (verdades generales: presente + presente)</div>
+ex:
+fill ¦ If you ___ now, you'll catch the train. ¦ leave ¦ will leave / leaves / left ¦ Si sales ahora, cogerás el tren. ¦ if + presente.
+fill ¦ If I see her, I ___ her the news. ¦ 'll tell ¦ tell / told / would tell ¦ Si la veo, le daré la noticia.
+fill ¦ We'll go to the beach ___ it rains. ¦ unless ¦ if / when / except ¦ Iremos a la playa a menos que llueva.
+fill ¦ I'll phone you as soon as I ___ . ¦ arrive ¦ will arrive / arrived / arriving ¦ Te llamaré en cuanto llegue. ¦ Tras as soon as → presente.
+choose ¦ ¿Cuál es correcta? ¦ If you don't study, you won't pass. ¦ If you won't study, you don't pass. / If you don't study, you don't will pass. / If you not study, you won't pass.
+choose ¦ «Cuando llegue a casa, cenaré» ¦ When I get home, I'll have dinner. ¦ When I will get home, I'll have dinner. / If I get home, I have dinner. / When I'll get home, I have dinner.
+order ¦ If I lend you my car, will you be careful? ¦ Si te presto el coche, ¿tendrás cuidado?
+order ¦ What will you do if you lose your job? ¦ ¿Qué harás si pierdes el trabajo?
+translate ¦ Si llueve, nos quedaremos en casa. ¦ If it rains, we'll stay at home. ¦ If it rains, we will stay at home. / We'll stay at home if it rains. / If it rains, we'll stay home.
+translate ¦ Si tienes hambre, come algo. ¦ If you're hungry, eat something. ¦ If you are hungry, eat something. / If you're hungry, have something to eat.
+match ¦ unless=a menos que; warn=avisar; borrow=pedir prestado; lend=prestar; risk=riesgo
+
+=== 20
+title: Would you like…? ¦ ¿Te gustaría…?
+desc: Ofrecer, pedir con educación y expresar deseos: would, could, I'd rather
+gram: would like / would love ¦ polite requests: Could you…? / Would you mind…? ¦ I'd rather…
+ref: a2-would
+words: would, could, rather, prefer, polite, request, offer, favour, mind, possible, help, carry, lend, borrow, open, close, pass, repeat, explain, speak up, wait, hold, sign, fill in, form, reception, receptionist, guest, room service, kindly
+intro:
+<h3>would like / would love / would prefer</h3>
+<table><tr><td>I<strong>'d like</strong> a table for two, please.</td><td>Querría una mesa para dos.</td></tr>
+<tr><td>I<strong>'d love to</strong> visit Japan.</td><td>Me encantaría visitar Japón.</td></tr>
+<tr><td><strong>Would you like</strong> a drink? — Yes, please. / No, thanks.</td><td>¿Quieres algo de beber?</td></tr>
+<tr><td>I<strong>'d rather</strong> stay at home. (= I'd prefer to)</td><td>Prefiero quedarme en casa.</td></tr></table>
+<div class="warning"><b>Would you like…?</b> (ofrecer) ≠ <b>Do you like…?</b> (gustos). — <i>Would you like a coffee?</i> — <i>Yes, please</i> (✗ Yes, I like). <b>I'd rather</b> + forma base, sin to: ✗ I'd rather to stay.</div>
+<h3>Pedir cosas con educación</h3>
+<table><tr><th>Más directo</th><th>Más educado</th></tr>
+<tr><td><strong>Can you</strong> help me?</td><td><strong>Could you</strong> help me, please?</td></tr>
+<tr><td><strong>Can I</strong> borrow your pen?</td><td><strong>Could I</strong> borrow your pen?</td></tr>
+<tr><td>Open the window.</td><td><strong>Would you mind opening</strong> the window?</td></tr></table>
+<div class="tip">A <i>Would you mind…?</i> se responde «no» para aceptar: — <i>Would you mind waiting?</i> — <i>No, not at all.</i> (= no me importa). Para pedir permiso: <i>Do you mind if I sit here?</i></div>
+ex:
+fill ¦ ___ you like some more cake? ¦ Would ¦ Do / Will / Are ¦ ¿Quieres más pastel? ¦ Ofrecer → Would you like…?
+fill ¦ ___ you speak more slowly, please? ¦ Could ¦ Would mind / Do / Shall ¦ ¿Podría hablar más despacio, por favor?
+fill ¦ Would you mind ___ the door? ¦ closing ¦ to close / close / closed ¦ ¿Te importaría cerrar la puerta? ¦ mind + -ing.
+fill ¦ I'd rather ___ a taxi. It's raining. ¦ take ¦ to take / taking / took ¦ Prefiero coger un taxi. Está lloviendo. ¦ I'd rather + forma base.
+choose ¦ — Would you like a cup of tea? ¦ Yes, please. ¦ Yes, I like. / Yes, I would like it. / Yes, I do.
+choose ¦ — Would you mind waiting a moment? (aceptas) ¦ No, not at all. ¦ Yes, I would. / Yes, of course I mind. / No, I wouldn't like.
+order ¦ Could you fill in this form, please? ¦ ¿Podría rellenar este formulario, por favor?
+order ¦ I'd love to come to your party. ¦ Me encantaría ir a tu fiesta.
+translate ¦ ¿Me podrías hacer un favor? ¦ Could you do me a favour? ¦ Could you do me a favor? / Can you do me a favour? / Would you do me a favour?
+translate ¦ Prefiero quedarme en casa. ¦ I'd rather stay at home. ¦ I would rather stay at home. / I'd prefer to stay at home. / I prefer to stay at home. / I'd rather stay home.
+match ¦ favour=favor; fill in=rellenar; guest=huésped; request=petición; speak up=hablar más alto

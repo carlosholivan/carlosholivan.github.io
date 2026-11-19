@@ -41,6 +41,11 @@ def tri(s):
     return out
 
 
+def dkey(w):
+    # names and titles (Miss, May) are other words than miss, may
+    return w if w[:1].isupper() and w[1:2].islower() else w.lower()
+
+
 def load_vocab(lv):
     out = []
     for line in open(ROOT / 'tools' / 'vocab_src' / f'{lv}.txt', encoding='utf8'):
@@ -170,8 +175,8 @@ def build(lv):
     lowerlv = {}
     for l2 in LEVELS[:LEVELS.index(lv)]:
         for v in load_vocab(l2):
-            lowerlv[v['word'].lower()] = l2
-    vocab = [v for v in vocab if v['word'].lower() not in lowerlv]  # a word belongs to its lowest level
+            lowerlv[dkey(v['word'])] = l2
+    vocab = [v for v in vocab if dkey(v['word']) not in lowerlv]  # a word belongs to its lowest level
     lower = {v['word'].lower(): v for v in vocab}
     for v in vocab:
         if 'us' in v:
@@ -187,7 +192,7 @@ def build(lv):
         for w in u['words']:
             v = lower.get(w.lower())
             if not v:
-                if w.lower() in lowerlv:
+                if dkey(w) in lowerlv or w.lower() in lowerlv:
                     continue
                 missing.append(f'{u["id"]}:{w}')
                 continue
