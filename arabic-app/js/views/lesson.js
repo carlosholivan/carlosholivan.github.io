@@ -1,17 +1,18 @@
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611192000';
-import { buildReview } from '../engine/review.js?v=202611192000';
-import { addCards } from '../engine/anki.js?v=202611192000';
-import { register, go } from '../router.js?v=202611192000';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611192000';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611192000';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611192000';
-import { recordAnswer } from '../engine/srs.js?v=202611192000';
-import { progressBar } from '../ui/components.js?v=202611192000';
-import { icon } from '../ui/icons.js?v=202611192000';
-import { t } from '../i18n.js?v=202611192000';
-import { speak, stop as stopAudio } from '../audio.js?v=202611192000';
-import { allHanzi } from './review.js?v=202611192000';
-import { charWord, hasChars } from '../chars.js?v=202611192000';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611192110';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611192110';
+import { buildReview } from '../engine/review.js?v=202611192110';
+import { addCards } from '../engine/anki.js?v=202611192110';
+import { register, go } from '../router.js?v=202611192110';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611192110';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611192110';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611192110';
+import { recordAnswer } from '../engine/srs.js?v=202611192110';
+import { progressBar } from '../ui/components.js?v=202611192110';
+import { icon } from '../ui/icons.js?v=202611192110';
+import { t } from '../i18n.js?v=202611192110';
+import { speak, stop as stopAudio } from '../audio.js?v=202611192110';
+import { allHanzi } from './review.js?v=202611192110';
+import { charWord, hasChars } from '../chars.js?v=202611192110';
 
 const MAX_HEARTS = 5;
 
@@ -105,9 +106,11 @@ register('lesson', async (el, params) => {
 
   // ── Step 1: grammar ───────────────────────────────────────────
   function renderGrammar() {
+    window.__tutorTopic = `${unitTitle}: ${(unit.gnames || unit.grammar || []).join(', ')}`;
     el.innerHTML = `<div class="grammar-page fade">
       ${topBar(unitTitle, 'grammar')}
       <div class="grammar-section" onclick="window.__zhSpeak(event)">${grammarHtml}</div>
+      <div class="mb-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
       <button class="btn" onclick="window.__afterGrammar()">${words.length ? t('toVocab') : t('startExercises')}</button>
     </div>`;
     window.scrollTo(0, 0);
@@ -405,11 +408,13 @@ register('lesson', async (el, params) => {
       mistakes++;
     }
 
+    window.__tutorWhy = () => explainMistake(taskOf(ex), plain(correctAnswer), '');
     const fb = document.getElementById('feedback');
     fb.innerHTML = `<div class="card pop" style="padding:14px 18px;margin-top:12px;border-color:${isCorrect ? 'var(--ok)' : 'var(--no)'}">
       <div style="font-weight:600;color:${isCorrect ? 'var(--ok)' : 'var(--no)'}">${isCorrect ? t('correct') : t('incorrect')}</div>
       ${note ? `<div class="mt-8 fb-zh">${note}</div>` : ''}
       ${!isCorrect ? `<div class="muted small mt-8">${t('answer')}: <strong>${html ? correctAnswer : esc(correctAnswer)}</strong></div>
+        <div class="mt-8">${tutorBtn('window.__tutorWhy()', 'why')}</div>
         <div class="muted small mt-8">${t('retryLater')}</div>` : ''}
     </div>
     <button class="btn mt-12 ${isCorrect ? 'btn-ok' : ''}" id="next-btn" onclick="window.__next(${isCorrect})">${t('continue')}</button>`;

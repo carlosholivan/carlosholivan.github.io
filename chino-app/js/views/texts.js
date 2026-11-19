@@ -1,13 +1,14 @@
-import { S, update, isUnitDone } from '../state.js?v=202611192000';
-import { register, go } from '../router.js?v=202611192000';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611192000';
-import { bottomNav, header } from '../ui/components.js?v=202611192000';
-import { t } from '../i18n.js?v=202611192000';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611192000';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192000';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192000';
-import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611192000';
-import { addCards } from '../engine/anki.js?v=202611192000';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611192110';
+import { S, update, isUnitDone } from '../state.js?v=202611192110';
+import { register, go } from '../router.js?v=202611192110';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611192110';
+import { bottomNav, header } from '../ui/components.js?v=202611192110';
+import { t } from '../i18n.js?v=202611192110';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611192110';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192110';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192110';
+import { ruby, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../zh.js?v=202611192110';
+import { addCards } from '../engine/anki.js?v=202611192110';
 
 const tr = (o) => (o && (o[S.lang] || (S.lang !== 'es' && o.en) || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -235,6 +236,7 @@ register('text', async (el, params) => {
       </div>` : ''}
       <button class="btn mt-16" onclick="window.__textTab('questions')">${t('questions')} →</button>`);
 
+    wireSelection(document.getElementById('reading'));
     document.getElementById('reading').addEventListener('click', (e) => {
       const w = e.target.closest('.tw');
       if (w) showWord(w);
@@ -277,6 +279,8 @@ register('text', async (el, params) => {
       ${chars.length ? `<div class="pop-extra">${chars.map(c => { const x = dict.get(c); return `<div class="gloss-row"><strong>${esc(c)}</strong><span>${x.p ? tonedPinyin(x.p) : ''} · ${esc(mean(x.m))}</span></div>`; }).join('')}</div>` : ''}
       ${n ? `<div class="pop-extra"><div class="pop-row"><span class="tense-badge note-badge">📌 ${noteKind(n.k)}</span> <strong>${esc(n.f)}</strong></div><div class="pop-hint">${esc(tr(n.e))}</div></div>` : ''}
       ${d.m ? `<div class="mt-8">${inDeck ? `<span class="small muted">✓ ${t('inDeck')}</span>` : `<button id="pop-add" class="chip" onclick="window.__popAdd()">＋ ${t('addToDeck')}</button>`}</div>` : ''}`;
+    window.__tutorSpan = () => explainSelection(wordOf(span), sentenceOf(span));
+    pop.insertAdjacentHTML('beforeend', `<div class="mt-8">${tutorBtn('window.__tutorSpan()')}</div>`);
     pop.style.display = 'block';
     speak(w);
   }

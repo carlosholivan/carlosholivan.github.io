@@ -1,15 +1,16 @@
-import { S, update } from '../state.js?v=202611192000';
-import { register, go } from '../router.js?v=202611192000';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611192000';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611192000';
-import { isUnitDone } from '../state.js?v=202611192000';
-import { bottomNav, header } from '../ui/components.js?v=202611192000';
-import { t } from '../i18n.js?v=202611192000';
-import { levelChips, LEVELS } from '../levels.js?v=202611192000';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192000';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611192000';
-import { addCards } from '../engine/anki.js?v=202611192000';
-import { allVocab } from './review.js?v=202611192000';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611192110';
+import { S, update } from '../state.js?v=202611192110';
+import { register, go } from '../router.js?v=202611192110';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611192110';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611192110';
+import { isUnitDone } from '../state.js?v=202611192110';
+import { bottomNav, header } from '../ui/components.js?v=202611192110';
+import { t } from '../i18n.js?v=202611192110';
+import { levelChips, LEVELS } from '../levels.js?v=202611192110';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192110';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611192110';
+import { addCards } from '../engine/anki.js?v=202611192110';
+import { allVocab } from './review.js?v=202611192110';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 
@@ -207,6 +208,7 @@ register('text', async (el, params) => {
       <button class="btn mt-16" onclick="window.__textTab('questions')">${t('questions')} →</button>`);
 
     const reading = document.getElementById('reading');
+    wireSelection(reading);
     reading.addEventListener('click', (e) => {
       const w = e.target.closest('.tw');
       if (!w || !window.getSelection().isCollapsed) return;
@@ -274,6 +276,8 @@ register('text', async (el, params) => {
         <div class="grow pop-es">${esc(es)}</div>
         <button class="muted" style="font-size:20px;padding:4px 8px" onclick="document.getElementById('word-pop').style.display='none'">×</button>
       </div><div class="pop-extra">${html}</div>`;
+    window.__tutorSpan = () => explainSelection(wordOf(span), sentenceOf(span));
+    pop.insertAdjacentHTML('beforeend', `<div class="mt-8">${tutorBtn('window.__tutorSpan()')}</div>`);
     pop.style.display = 'block';
     if (v) refLink(v.t, 'pop-ref-v');
     if (n) refLink(n.k, 'pop-ref-n');
@@ -316,6 +320,8 @@ register('text', async (el, params) => {
         <button class="muted" style="font-size:20px;padding:4px 8px" onclick="document.getElementById('word-pop').style.display='none'">×</button>
       </div>
       ${extra.length ? `<div class="pop-extra">${extra.map(([a, b]) => `<div class="gloss-row"><strong>${esc(a)}</strong><span>${esc(b)}</span></div>`).join('')}</div>` : ''}${deck}`;
+    window.__tutorSpan = () => explainSelection(wordOf(span), sentenceOf(span));
+    pop.insertAdjacentHTML('beforeend', `<div class="mt-8">${tutorBtn('window.__tutorSpan()')}</div>`);
     pop.style.display = 'block';
   }
 

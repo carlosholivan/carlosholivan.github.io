@@ -1,15 +1,16 @@
-import { S } from '../state.js?v=202611192000';
-import { register, go } from '../router.js?v=202611192000';
-import { loadGrammar, loadVocab } from '../data.js?v=202611192000';
-import { bottomNav, header } from '../ui/components.js?v=202611192000';
-import { icon } from '../ui/icons.js?v=202611192000';
-import { t } from '../i18n.js?v=202611192000';
-import { levelChips } from '../levels.js?v=202611192000';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192000';
-import { allVocab } from './review.js?v=202611192000';
-import { levelLabel } from '../levels.js?v=202611192000';
+import { tutorBtn } from '../tutor.js?v=202611192110';
+import { S } from '../state.js?v=202611192110';
+import { register, go } from '../router.js?v=202611192110';
+import { loadGrammar, loadVocab } from '../data.js?v=202611192110';
+import { bottomNav, header } from '../ui/components.js?v=202611192110';
+import { icon } from '../ui/icons.js?v=202611192110';
+import { t } from '../i18n.js?v=202611192110';
+import { levelChips } from '../levels.js?v=202611192110';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192110';
+import { allVocab } from './review.js?v=202611192110';
+import { levelLabel } from '../levels.js?v=202611192110';
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-window.__refSpeak = (w) => import('../audio.js?v=202611192000').then(a => a.speak(w));
+window.__refSpeak = (w) => import('../audio.js?v=202611192110').then(a => a.speak(w));
 
 register('reference', async (el) => {
   el.innerHTML = `<div class="fade">
@@ -163,6 +164,7 @@ register('grammar-detail', async (el, params) => {
   if (!item) { go('reference'); return; }
 
   const explanation = item.explanation[S.lang] || item.explanation.en;
+  window.__tutorTopic = item.title.es || item.title.en;
 
   el.innerHTML = `<div class="fade">
     ${header(item.title[S.lang] || item.title.en, true)}
@@ -170,6 +172,7 @@ register('grammar-detail', async (el, params) => {
     <div class="card" style="padding:20px;margin-bottom:16px">
       <div class="h3 mb-12">${t('explanation')}</div>
       <div style="font-size:14px;line-height:1.8;white-space:pre-wrap">${formatExplanation(explanation)}</div>
+      <div class="mt-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
     </div>
 
     ${item.conjugation ? `

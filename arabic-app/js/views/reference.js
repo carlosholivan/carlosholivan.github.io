@@ -1,15 +1,16 @@
+import { tutorBtn } from '../tutor.js?v=202611192110';
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { enLine, enInline } from '../en-gloss.js?v=202611192000';
-import { S, update } from '../state.js?v=202611192000';
-import { register, go } from '../router.js?v=202611192000';
-import { loadUnits } from '../data.js?v=202611192000';
-import { bottomNav, header } from '../ui/components.js?v=202611192000';
-import { t } from '../i18n.js?v=202611192000';
-import { levelChips, levelLabel } from '../levels.js?v=202611192000';
-import { speak } from '../audio.js?v=202611192000';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611192000';
-import { allVocab } from './review.js?v=202611192000';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192000';
+import { enLine, enInline } from '../en-gloss.js?v=202611192110';
+import { S, update } from '../state.js?v=202611192110';
+import { register, go } from '../router.js?v=202611192110';
+import { loadUnits } from '../data.js?v=202611192110';
+import { bottomNav, header } from '../ui/components.js?v=202611192110';
+import { t } from '../i18n.js?v=202611192110';
+import { levelChips, levelLabel } from '../levels.js?v=202611192110';
+import { speak } from '../audio.js?v=202611192110';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ar.js?v=202611192110';
+import { allVocab } from './review.js?v=202611192110';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192110';
 
 const tr = (o) => (o && (o[S.lang] || o.en)) || '';
 
@@ -88,11 +89,13 @@ register('grammar-detail', async (el, params) => {
   if (!u) { go('reference'); return; }
   const html = u.grammarIntro ? tr(u.grammarIntro)
     : `<ul>${((S.lang !== 'es' && u.gnames_en) || u.gnames || u.grammar || []).map(g => `<li><strong>${esc(g)}</strong></li>`).join('')}</ul>`;
+  window.__tutorTopic = `${tr(u.title)}: ${(u.gnames || u.grammar || []).join(', ')}`;
   el.innerHTML = `<div class="fade">
     ${header(`${levelLabel(params.level)} · ${t('unit')} ${u.id}`, true)}
     <div class="h2 mb-4">${u.title?.ja ? ruby(u.title.ja) : ''}</div>
     <div class="muted mb-12">${esc(tr(u.title))}</div>
     <div class="card grammar-section" style="padding:20px" onclick="window.__refZh(event)">${html}</div>
+    <div class="mt-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
     <button class="btn mt-16" onclick="window.__go('lesson',{level:'${params.level}',unit:${u.id}})">📚 ${t('unit')} ${u.id} →</button>
   </div>`;
 });
