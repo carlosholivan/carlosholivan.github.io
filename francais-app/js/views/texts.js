@@ -1,16 +1,16 @@
-import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611192222';
-import { S, update } from '../state.js?v=202611192222';
-import { register, go } from '../router.js?v=202611192222';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611192222';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611192222';
-import { isUnitDone } from '../state.js?v=202611192222';
-import { bottomNav, header } from '../ui/components.js?v=202611192222';
-import { t } from '../i18n.js?v=202611192222';
-import { levelChips, LEVELS } from '../levels.js?v=202611192222';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192222';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611192222';
-import { addCards } from '../engine/anki.js?v=202611192222';
-import { allVocab } from './review.js?v=202611192222';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611200800';
+import { S, update } from '../state.js?v=202611200800';
+import { register, go } from '../router.js?v=202611200800';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611200800';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611200800';
+import { isUnitDone } from '../state.js?v=202611200800';
+import { bottomNav, header } from '../ui/components.js?v=202611200800';
+import { t } from '../i18n.js?v=202611200800';
+import { levelChips, LEVELS } from '../levels.js?v=202611200800';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611200800';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611200800';
+import { addCards } from '../engine/anki.js?v=202611200800';
+import { allVocab } from './review.js?v=202611200800';
 
 // French words; an elided article or pronoun (l', j', qu') is a word of its own, aujourd'hui is one word.
 const WORD = /[Aa]ujourd['’]hui|[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’](?=[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]))?/g;
@@ -57,7 +57,7 @@ const isRead = (tx) => (S.texts || {})[tx.id]?.q != null;
 // Texts sorted by difficulty + the one that best matches the learner's progress:
 // the easiest unread text of the most advanced unit already reached, else the easiest unread one.
 export async function textsWithRecommendation(level) {
-  const texts = [...await loadTexts(level)].sort((a, b) => (a.order || 0) - (b.order || 0));
+  const texts = [...await loadTexts(level)].sort((a, b) => (a.unit || 0) - (b.unit || 0) || (a.order || 0) - (b.order || 0));
   const reached = await currentUnit(level);
   // Prefer unread texts from the unit closest to the current one (easiest first), then earlier units.
   const unread = texts.filter(tx => !isRead(tx));
@@ -81,7 +81,7 @@ register('texts', async (el) => {
     ${rec ? `<div class="card rec-text" onclick="window.__openText('${rec.id}')">
         <div class="small" style="font-weight:700;color:var(--accent)">⭐ ${t('recommended')}</div>
         <div style="font-weight:800;font-size:18px;margin-top:4px">${esc(rec.title.fr)}</div>
-        <div class="muted small">${esc(tr(rec.title))} · #${rec.order} · ${wordCount(rec)} ${t('words')}</div>
+        <div class="muted small">${esc(tr(rec.title))} · #${texts.findIndex(x => x.id === rec.id) + 1} · ${wordCount(rec)} ${t('words')}</div>
         <div class="small" style="margin-top:4px">${esc(tr(rec.summary))}</div>
       </div>` : ''}
     ${texts.length ? texts.map((tx, ti) => {
@@ -91,7 +91,7 @@ register('texts', async (el) => {
       const ahead = (tx.unit || 0) > reached;
       return uh + `<div class="card ref-topic ${ahead ? 'ahead' : ''} ${rec && rec.id === tx.id ? 'is-rec' : ''}" onclick="window.__openText('${tx.id}')">
         <div class="flex items-center gap-8">
-          <span class="text-num">${tx.order || ''}</span>
+          <span class="text-num">${ti + 1}</span>
           ${tx.unit ? `<span class="unit-badge">${ahead ? '🔒 ' : ''}${t('unit')} ${tx.unit}</span>` : ''}
           <div class="grow" style="font-weight:700;font-size:16px">${esc(tx.title.fr)}</div>
           ${st.q != null ? `<span class="small" style="color:var(--ok);font-weight:700">✓ ${st.q}%</span>` : ''}

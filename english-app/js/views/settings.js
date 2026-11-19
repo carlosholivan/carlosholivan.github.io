@@ -1,15 +1,15 @@
-import { tutorSettings } from '../tutor.js?v=202611192222';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611192222';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611192222';
-import { readAnki } from '../anki-import.js?v=202611192222';
-import { allVocab } from './review.js?v=202611192222';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611192222';
-import { esc } from '../es.js?v=202611192222';
-import { register, go } from '../router.js?v=202611192222';
-import { bottomNav, header } from '../ui/components.js?v=202611192222';
-import { t } from '../i18n.js?v=202611192222';
-import { applyPinyinPref } from '../es.js?v=202611192222';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611192222';
+import { tutorSettings } from '../tutor.js?v=202611200800';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611200800';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611200800';
+import { readAnki } from '../anki-import.js?v=202611200800';
+import { allVocab } from './review.js?v=202611200800';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611200800';
+import { esc } from '../es.js?v=202611200800';
+import { register, go } from '../router.js?v=202611200800';
+import { bottomNav, header } from '../ui/components.js?v=202611200800';
+import { t } from '../i18n.js?v=202611200800';
+import { applyPinyinPref } from '../es.js?v=202611200800';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611200800';
 
 register('settings', (el) => {
   const langs = [

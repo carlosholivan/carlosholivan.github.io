@@ -1,0 +1,472 @@
+#! es
+# C2 readings, batch 2 (original). Spanish translations only.
+
+=== 1 | Le concours ¦ La oposición
+sum: Un relato en estilo indirecto libre: un joven espera los resultados de una oposición.
+p: Antoine relut la liste une troisième fois. Son nom n'y figurait pas. Trois ans de travail pour rien ! Et que dirait son père, lui qui avait tant sacrifié ? Non, il ne rentrerait pas ce soir.
+= Antoine releyó la lista por tercera vez. Su nombre no figuraba. ¡Tres años de trabajo para nada! ¿Y qué diría su padre, él que tanto había sacrificado? No, esa noche no volvería a casa.
+p: Il marcha longtemps le long des quais. Peut-être s'était-il trompé de liste ? Il revint sur ses pas, le cœur battant. Là, en bas de la seconde page, il était là, son nom, enfin !
+= Caminó largo rato por los muelles. ¿Y si se había equivocado de lista? Volvió sobre sus pasos, con el corazón latiendo. Allí, al pie de la segunda página, estaba, ¡su nombre, por fin!
+note: Trois ans de travail pour rien ! ¦ reported ¦ Indirecto libre: exclamación del personaje sin verbo introductor.
+note: Et que dirait son père ¦ reported ¦ Pregunta del personaje en condicional.
+note: il ne rentrerait pas ce soir ¦ reported ¦ Condicional, pero se conserva «ce soir», deíctico del personaje.
+q: Combien de temps avait-il travaillé ? ¦ ¿Cuánto tiempo había trabajado? ¦ trois ans / un an / cinq ans ¦ 0 ¦ «Trois ans de travail».
+q: Que craint-il ? ¦ ¿Qué teme? ¦ la réaction de son père / de perdre son travail / de rater le train ¦ 0 ¦ «que dirait son père».
+q: Comment finit l'histoire ? ¦ ¿Cómo termina la historia? ¦ Il trouve son nom. / Il abandonne. / Il pleure toute la nuit. ¦ 0 ¦ «il était là, son nom, enfin !».
+
+=== 1 | Madame Arnoux attend ¦ La señora Arnoux espera
+sum: Una mujer espera una carta que no llega; voces del narrador y del personaje se mezclan.
+p: Le facteur était passé sans s'arrêter. Encore rien ! Madame Arnoux referma la fenêtre. Elle l'avait pourtant prévenu : s'il n'écrivait pas avant la fin du mois, elle partirait.
+= El cartero había pasado sin pararse. ¡Otra vez nada! La señora Arnoux cerró la ventana. Y sin embargo se lo había advertido: si no escribía antes de fin de mes, se iría.
+p: Partir, oui, mais où ? Chez sa sœur, à Lyon ? Elle imaginait déjà les questions, les regards. Bah ! Demain, elle verrait bien. Elle alluma la lampe et reprit son ouvrage.
+= Irse, sí, pero ¿adónde? ¿A casa de su hermana, en Lyon? Ya se imaginaba las preguntas, las miradas. ¡Bah! Mañana ya vería. Encendió la lámpara y retomó su labor.
+note: Encore rien ! ¦ reported ¦ Exclamación del personaje (indirecto libre).
+note: Partir, oui, mais où ? ¦ reported ¦ Preguntas internas del personaje sin verbo introductor.
+note: Bah ! Demain, elle verrait bien ¦ reported ¦ Interjección + condicional + «demain»: voz del personaje.
+q: Qu'attend Madame Arnoux ? ¦ ¿Qué espera la señora Arnoux? ¦ une lettre / une visite / un appel ¦ 0 ¦ «Le facteur était passé sans s'arrêter».
+q: Où pourrait-elle aller ? ¦ ¿Adónde podría ir? ¦ chez sa sœur à Lyon / à Paris / à l'étranger ¦ 0 ¦ «Chez sa sœur, à Lyon ?».
+q: Que fait-elle à la fin ? ¦ ¿Qué hace al final? ¦ Elle reprend son ouvrage. / Elle part. / Elle écrit une lettre. ¦ 0 ¦ «reprit son ouvrage».
+
+=== 1 | Le soldat ¦ El soldado
+sum: Un soldado regresa a su pueblo tras la guerra.
+p: Le train s'arrêta enfin. Joseph descendit, sa valise à la main. Rien n'avait changé : la même gare, le même café. Sept ans ! Sept ans qu'il n'avait pas revu le village.
+= El tren se detuvo por fin. Joseph bajó, con la maleta en la mano. Nada había cambiado: la misma estación, el mismo café. ¡Siete años! Siete años sin ver el pueblo.
+p: Le reconnaîtrait-on seulement ? Sa mère, vivrait-elle encore ? Il hésita devant la porte. Puis une voix, de l'autre côté : « Joseph ? C'est toi ? » Il ne put répondre.
+= ¿Lo reconocerían siquiera? Su madre, ¿seguiría viva? Dudó ante la puerta. Luego, una voz al otro lado: «¿Joseph? ¿Eres tú?». No pudo responder.
+note: Sept ans ! ¦ reported ¦ Exclamación del personaje en indirecto libre.
+note: Le reconnaîtrait-on seulement ? ¦ reported ¦ Pregunta del personaje en condicional.
+note: Il ne put répondre ¦ negation ¦ ne sin pas tras pouvoir (literario).
+q: Combien de temps était-il parti ? ¦ ¿Cuánto tiempo había estado fuera? ¦ sept ans / deux ans / dix ans ¦ 0 ¦ «Sept ans».
+q: Qu'est-ce qui le préoccupe ? ¦ ¿Qué le preocupa? ¦ si sa mère vit encore / son travail / l'argent ¦ 0 ¦ «Sa mère, vivrait-elle encore ?».
+q: Comment réagit-il à la voix ? ¦ ¿Cómo reacciona a la voz? ¦ Il ne peut pas répondre. / Il crie. / Il s'en va. ¦ 0 ¦ «Il ne put répondre».
+
+=== 2 | Les années qu'il a vécu ¦ Los años que vivió
+sum: Una lingüista explica casos difíciles de concordancia.
+p: Les dix ans qu'il a vécu à Rome… Faut-il écrire « vécu » ou « vécus » ? Ici, « dix ans » indique une durée : le participe reste invariable. En revanche, dans « les aventures qu'il a vécues », le complément est un véritable COD.
+= «Los diez años que vivió en Roma…». ¿Hay que escribir «vécu» o «vécus»? Aquí, «diez años» indica una duración: el participio queda invariable. En cambio, en «las aventuras que vivió», el complemento es un verdadero complemento directo.
+p: De même, les musiciens que j'ai entendus jouer ont reçu une ovation, mais la symphonie que j'ai entendu jouer était inachevée. Les règles se sont succédé au fil des siècles, et les élèves s'en sont toujours plaints !
+= Del mismo modo, los músicos a los que oí tocar recibieron una ovación, pero la sinfonía que oí interpretar estaba inacabada. Las reglas se han sucedido a lo largo de los siglos, ¡y los alumnos siempre se han quejado de ellas!
+note: Les dix ans qu'il a vécu ¦ agreement ¦ Complemento de duración: invariable.
+note: les aventures qu'il a vécues ¦ agreement ¦ Verdadero COD antepuesto: concuerda.
+note: les musiciens que j'ai entendus jouer ¦ agreement ¦ Los músicos tocan → concuerda.
+note: les élèves s'en sont toujours plaints ¦ agreement ¦ se plaindre (esencialmente pronominal) concuerda con el sujeto.
+q: Pourquoi « vécu » est-il invariable avec « dix ans » ? ¦ ¿Por qué «vécu» es invariable con «dix ans»? ¦ C'est une durée. / C'est un pluriel. / C'est une exception. ¦ 0 ¦ «indique une durée».
+q: Dans quel cas l'accord se fait-il ? ¦ ¿En qué caso hay concordancia? ¦ les aventures qu'il a vécues / les dix ans qu'il a vécu / la symphonie que j'ai entendu jouer ¦ 0 ¦ «le complément est un véritable COD».
+q: Qui s'est toujours plaint ? ¦ ¿Quién se ha quejado siempre? ¦ les élèves / les musiciens / les professeurs ¦ 0 ¦ «les élèves s'en sont toujours plaints».
+
+=== 2 | La dictée ¦ El dictado
+sum: El texto de un dictado difícil, con comentarios.
+p: Les quelques livres qu'il m'a fallu lire cet été m'ont coûté des nuits entières. La patience qu'ils m'ont demandée, la fatigue qu'ils m'ont coûtée, je ne les regrette pourtant pas.
+= Los pocos libros que tuve que leer este verano me costaron noches enteras. La paciencia que me exigieron, el cansancio que me costaron, sin embargo no los lamento.
+p: Les deux sœurs se sont souri, puis elles se sont dit adieu. Elles se sont écrit pendant des années, et elles ne se sont jamais oubliées.
+= Las dos hermanas se sonrieron y luego se dijeron adiós. Se escribieron durante años, y nunca se olvidaron.
+note: Les quelques livres qu'il m'a fallu lire ¦ agreement ¦ falloir es impersonal: fallu invariable.
+note: la fatigue qu'ils m'ont coûtée ¦ agreement ¦ coûter en sentido figurado: concuerda.
+note: elles ne se sont jamais oubliées ¦ agreement ¦ oublier quelqu'un: se es COD → concuerda.
+q: Combien de temps se sont-elles écrit ? ¦ ¿Durante cuánto tiempo se escribieron? ¦ pendant des années / un mois / jamais ¦ 0 ¦ «pendant des années».
+q: Pourquoi « souri » est-il invariable ? ¦ ¿Por qué «souri» es invariable? ¦ sourire à quelqu'un : se est COI / c'est un verbe impersonnel / par exception ¦ 0 ¦ sourire à → se = COI.
+q: Pourquoi « oubliées » s'accorde-t-il ? ¦ ¿Por qué concuerda «oubliées»? ¦ se est COD / se est COI / c'est un verbe de mouvement ¦ 0 ¦ oublier quelqu'un → COD.
+
+=== 3 | Analyse d'un slogan ¦ Análisis de un eslogan
+sum: Un análisis retórico de un eslogan publicitario inventado.
+p: « Plus de goût, moins de sucre. » Ce slogan repose sur une antithèse qui oppose deux idées. Le rythme binaire facilite la mémorisation. La publicité aime aussi l'hyperbole : « le meilleur café du monde ».
+= «Más sabor, menos azúcar». Este eslogan se basa en una antítesis que opone dos ideas. El ritmo binario facilita la memorización. A la publicidad también le gusta la hipérbole: «el mejor café del mundo».
+p: Certaines marques jouent sur la métonymie : on ne boit pas une boisson, on « boit un pays ». D'autres préfèrent la litote, plus élégante : « Ce n'est pas un parfum comme les autres. »
+= Algunas marcas juegan con la metonimia: uno no se bebe una bebida, «se bebe un país». Otras prefieren la litote, más elegante: «No es un perfume como los demás».
+note: repose sur une antithèse ¦ other ¦ l'antithèse = oposición de dos ideas.
+note: la métonymie ¦ other ¦ Sustitución por una relación lógica: el país por su producto.
+note: la litote, plus élégante ¦ other ¦ La litote dice menos para sugerir más.
+q: Sur quelle figure repose le premier slogan ? ¦ ¿En qué figura se basa el primer eslogan? ¦ une antithèse / une litote / une métaphore ¦ 0 ¦ «repose sur une antithèse».
+q: Quel exemple est une hyperbole ? ¦ ¿Qué ejemplo es una hipérbole? ¦ le meilleur café du monde / boire un pays / pas un parfum comme les autres ¦ 0 ¦ «le meilleur café du monde».
+q: Quelle figure est jugée plus élégante ? ¦ ¿Qué figura se considera más elegante? ¦ la litote / l'hyperbole / l'antithèse ¦ 0 ¦ «la litote, plus élégante».
+
+=== 3 | Un discours politique ¦ Un discurso político
+sum: El análisis de un discurso electoral inventado.
+p: « Nous voulons une France forte. Nous voulons une France juste. Nous voulons une France unie. » L'anaphore martèle le message et crée un effet d'insistance. La gradation finale renforce l'émotion.
+= «Queremos una Francia fuerte. Queremos una Francia justa. Queremos una Francia unida». La anáfora martillea el mensaje y crea un efecto de insistencia. La gradación final refuerza la emoción.
+p: L'orateur recourt aussi à la périphrase : « ceux qui se lèvent tôt » pour désigner les travailleurs. Quant au chiasme « servir l'État, non se servir de l'État », il oppose l'honnêteté à la corruption.
+= El orador recurre también a la perífrasis: «los que madrugan» para designar a los trabajadores. En cuanto al quiasmo «servir al Estado, no servirse del Estado», opone la honradez a la corrupción.
+note: L'anaphore martèle le message ¦ other ¦ l'anaphore = repetición al principio de las frases.
+note: recourt aussi à la périphrase ¦ other ¦ la périphrase = rodeo para designar algo.
+note: Quant au chiasme ¦ other ¦ le chiasme = estructura cruzada ABBA.
+q: Quel est l'effet de l'anaphore ? ¦ ¿Cuál es el efecto de la anáfora? ¦ l'insistance / l'ironie / le suspense ¦ 0 ¦ «crée un effet d'insistance».
+q: Que désigne « ceux qui se lèvent tôt » ? ¦ ¿A quién designa «los que madrugan»? ¦ les travailleurs / les retraités / les étudiants ¦ 0 ¦ «pour désigner les travailleurs».
+q: Qu'oppose le chiasme ? ¦ ¿Qué opone el quiasmo? ¦ l'honnêteté et la corruption / la gauche et la droite / la ville et la campagne ¦ 0 ¦ «il oppose l'honnêteté à la corruption».
+
+=== 3 | La ville qui ne dort jamais ¦ La ciudad que nunca duerme
+sum: Un texto descriptivo lleno de figuras retóricas.
+p: La ville respire à peine sous la canicule. Les immeubles, géants de verre, regardent passer les voitures. Un silence assourdissant s'installe à midi, puis la foule reprend sa course, fourmilière pressée.
+= La ciudad apenas respira bajo la ola de calor. Los edificios, gigantes de cristal, miran pasar los coches. Un silencio ensordecedor se instala a mediodía, luego la multitud reanuda su carrera, hormiguero apresurado.
+p: Le soir, la Ville Lumière s'illumine de mille feux. On y vit vite, on y meurt d'ennui parfois. Paris, on l'aime, on la déteste, on y revient toujours.
+= Por la noche, la Ciudad de la Luz se ilumina con mil luces. Allí se vive deprisa, a veces uno se muere de aburrimiento. París: se la ama, se la odia, siempre se vuelve.
+note: La ville respire ¦ other ¦ Personificación: la ciudad respira como un ser vivo.
+note: Un silence assourdissant ¦ other ¦ Oxímoron: silencio + ensordecedor.
+note: la Ville Lumière ¦ other ¦ Perífrasis para designar París.
+q: Comment sont décrits les immeubles ? ¦ ¿Cómo se describen los edificios? ¦ comme des géants de verre / comme des fourmis / comme des arbres ¦ 0 ¦ «géants de verre».
+q: À quoi est comparée la foule ? ¦ ¿A qué se compara la multitud? ¦ à une fourmilière / à un fleuve / à une armée ¦ 0 ¦ «fourmilière pressée».
+q: Quelle ville est évoquée ? ¦ ¿Qué ciudad se evoca? ¦ Paris / Lyon / Marseille ¦ 0 ¦ «Paris».
+
+=== 4 | Un drôle de type ¦ Un tipo raro
+sum: El retrato de un personaje jugando con la posición de los adjetivos.
+p: Mon ancien patron était un drôle de type. C'était un grand homme par son œuvre, mais un homme petit par sa taille. Ce pauvre homme, malgré sa fortune, vivait seul dans une maison ancienne.
+= Mi antiguo jefe era un tipo raro. Era un gran hombre por su obra, pero un hombre bajo de estatura. Este pobre hombre, a pesar de su fortuna, vivía solo en una casa antigua.
+p: Certaines personnes le trouvaient arrogant ; c'était pourtant un brave homme. Le jour même de sa retraite, il a offert sa propre bibliothèque à la ville. Un sacré personnage !
+= A algunas personas les parecía arrogante; y sin embargo era una buena persona. El mismo día de su jubilación regaló su propia biblioteca a la ciudad. ¡Un personaje de cuidado!
+note: Mon ancien patron ¦ word-order ¦ ancien delante = antiguo (ex).
+note: un grand homme ¦ word-order ¦ grand delante = gran, ilustre; detrás = alto.
+note: Ce pauvre homme ¦ word-order ¦ pauvre delante = desgraciado.
+note: Le jour même ¦ word-order ¦ même detrás = ese mismo día.
+q: Comment était physiquement le patron ? ¦ ¿Cómo era físicamente el jefe? ¦ petit / grand / gros ¦ 0 ¦ «un homme petit par sa taille».
+q: Était-il pauvre ? ¦ ¿Era pobre? ¦ non, il avait une fortune / oui / on ne sait pas ¦ 0 ¦ «malgré sa fortune».
+q: Qu'a-t-il offert à la ville ? ¦ ¿Qué regaló a la ciudad? ¦ sa bibliothèque / sa maison / de l'argent ¦ 0 ¦ «sa propre bibliothèque».
+
+=== 4 | Annonce immobilière ¦ Anuncio inmobiliario
+sum: Un anuncio inmobiliario con adjetivos que cambian de sentido.
+p: À vendre : ancienne ferme rénovée, cadre unique. Les propriétaires actuels, un couple charmant, la quittent après trente ans. La seule pièce non rénovée est un grenier, un simple espace de rangement.
+= Se vende: antigua granja reformada, entorno único. Los propietarios actuales, una pareja encantadora, la dejan después de treinta años. La única habitación sin reformar es un desván, un simple espacio de almacenamiento.
+p: Le jardin, propre et entretenu, donne sur une rivière. Prix : un certain montant, à négocier. Visite possible la semaine prochaine. Dernière chance : plusieurs acheteurs sont déjà intéressés !
+= El jardín, limpio y cuidado, da a un río. Precio: una cierta cantidad, a negociar. Visita posible la semana que viene. Última oportunidad: ¡varios compradores ya están interesados!
+note: ancienne ferme ¦ word-order ¦ ancienne delante = antigua (que fue granja).
+note: La seule pièce ¦ word-order ¦ seul delante = único.
+note: Le jardin, propre ¦ word-order ¦ propre detrás = limpio.
+q: Qu'est-ce qui est vendu ? ¦ ¿Qué se vende? ¦ une ancienne ferme / un appartement / un château ¦ 0 ¦ «ancienne ferme rénovée».
+q: Quelle pièce n'est pas rénovée ? ¦ ¿Qué habitación no está reformada? ¦ le grenier / la cuisine / le salon ¦ 0 ¦ «un grenier».
+q: Sur quoi donne le jardin ? ¦ ¿A qué da el jardín? ¦ une rivière / la mer / une forêt ¦ 0 ¦ «donne sur une rivière».
+
+=== 5 | Le skate-park ¦ El skatepark
+sum: Un adolescente habla de su barrio en argot.
+p: Le skate-park, c'est notre QG. On y zone tous les soirs avec les potes. Les keufs passent parfois, mais ils sont pas relous. Moi, je kiffe trop rider là-bas, même quand je me plante.
+= El skatepark es nuestro cuartel general. Pasamos el rato allí todas las tardes con los colegas. La poli pasa a veces, pero no son pesados. A mí me mola mazo patinar allí, incluso cuando me la pego.
+p: Ma daronne flippe quand je rentre tard. Elle dit que c'est chelou de traîner dehors. Mais franchement, on fait rien de mal : on se marre, c'est tout.
+= Mi madre se raya cuando vuelvo tarde. Dice que es raro andar por ahí fuera. Pero sinceramente, no hacemos nada malo: nos echamos unas risas, eso es todo.
+note: les potes ¦ register ¦ le pote = el colega.
+note: ils sont pas relous ¦ register ¦ Caída del ne; relou = pesado (verlan).
+note: Ma daronne flippe ¦ register ¦ la daronne = la madre; flipper = rayarse, preocuparse.
+q: Que fait-il au skate-park ? ¦ ¿Qué hace en el skatepark? ¦ Il fait du skate avec ses amis. / Il travaille. / Il fait ses devoirs. ¦ 0 ¦ «je kiffe trop rider là-bas».
+q: Qui s'inquiète quand il rentre tard ? ¦ ¿Quién se preocupa cuando vuelve tarde? ¦ sa mère / la police / son père ¦ 0 ¦ «Ma daronne flippe».
+q: Que font-ils selon lui ? ¦ ¿Qué hacen según él? ¦ rien de mal / des bêtises / du sport intense ¦ 0 ¦ «on fait rien de mal».
+
+=== 5 | Dans le métro ¦ En el metro
+sum: Una conversación oída en el metro, en francés muy coloquial.
+p: — T'as vu le mec, là ? — Lequel ? — Le bouffon avec la casquette. Il m'a piqué ma place ! — Laisse tomber, c'est pas grave. — Ouais, mais j'suis vénère, j'ai trop galéré aujourd'hui.
+= —¿Has visto a ese tío? —¿Cuál? —El payaso de la gorra. ¡Me ha quitado el sitio! —Déjalo, no pasa nada. —Ya, pero estoy cabreado, lo he pasado fatal hoy.
+p: — Bon, on va au troquet en sortant ? Je t'offre un café. — Ça marche. Mais après, je me barre, j'suis crevé. — T'inquiète, moi aussi je vais pioncer tôt.
+= —Bueno, ¿vamos al bar al salir? Te invito a un café. —Vale. Pero después me largo, estoy reventado. —Tranquilo, yo también voy a sobar pronto.
+note: Il m'a piqué ma place ¦ register ¦ piquer = robar, quitar (familiar).
+note: j'suis vénère ¦ register ¦ vénère = verlan de énervé.
+note: je vais pioncer ¦ register ¦ pioncer = dormir (argot).
+q: Pourquoi est-il en colère ? ¦ ¿Por qué está enfadado? ¦ Quelqu'un a pris sa place. / Il a raté le métro. / Il a perdu son téléphone. ¦ 0 ¦ «Il m'a piqué ma place».
+q: Où vont-ils en sortant ? ¦ ¿Adónde van al salir? ¦ au bar / au cinéma / chez eux ¦ 0 ¦ «on va au troquet».
+q: Pourquoi va-t-il partir vite ? ¦ ¿Por qué se va a ir pronto? ¦ Il est très fatigué. / Il a un rendez-vous. / Il travaille. ¦ 0 ¦ «j'suis crevé».
+
+=== 5 | Traduire l'argot ¦ Traducir el argot
+sum: Un subtitulador explica cómo traduce el argot del cine.
+p: Traduire un film de banlieue, c'est un vrai casse-tête. Comment rendre « ma meuf », « c'est ouf » ou « il est chelou » sans trahir le ton ? Une traduction trop correcte rendrait les personnages artificiels.
+= Traducir una película de barrio es un auténtico rompecabezas. ¿Cómo traducir «ma meuf», «c'est ouf» o «il est chelou» sin traicionar el tono? Una traducción demasiado correcta haría artificiales a los personajes.
+p: À l'inverse, un argot espagnol trop local sonnerait faux. Le sous-titreur doit donc trouver un registre familier mais compréhensible partout. Et le verlan, lui, est presque intraduisible.
+= A la inversa, un argot español demasiado local sonaría falso. Por tanto, el subtitulador debe encontrar un registro coloquial pero comprensible en todas partes. Y el verlan, por su parte, es casi intraducible.
+note: c'est un vrai casse-tête ¦ idiom ¦ un casse-tête = un rompecabezas.
+note: rendrait les personnages artificiels ¦ conditional ¦ Condicional: hipótesis.
+note: le verlan, lui ¦ emphasis ¦ Dislocación con pronombre tónico.
+q: Quel est le risque d'une traduction trop correcte ? ¦ ¿Cuál es el riesgo de una traducción demasiado correcta? ¦ des personnages artificiels / un film trop long / des erreurs ¦ 0 ¦ «rendrait les personnages artificiels».
+q: Quel registre faut-il chercher ? ¦ ¿Qué registro hay que buscar? ¦ familier mais compréhensible partout / très soutenu / très local ¦ 0 ¦ «familier mais compréhensible partout».
+q: Qu'est-ce qui est presque intraduisible ? ¦ ¿Qué es casi intraducible? ¦ le verlan / les noms / les chansons ¦ 0 ¦ «le verlan… est presque intraduisible».
+
+=== 6 | Lapsus en réunion ¦ Lapsus en una reunión
+sum: Un empleado cuenta sus errores con parónimos en una reunión.
+p: Lors de la réunion, j'ai évoqué la « conjecture » économique au lieu de la conjoncture. Le directeur a souri. Puis j'ai parlé d'une décision « éminente » : tout le monde a compris « imminente ».
+= Durante la reunión, mencioné la «conjetura» económica en lugar de la coyuntura. El director sonrió. Luego hablé de una decisión «eminente»: todo el mundo entendió «inminente».
+p: Pour me rattraper, j'ai voulu invoquer un argument juridique et j'ai confondu infraction et effraction. Mes collègues ont fait preuve d'indulgence. J'ai, depuis, recouvré mon calme… et acheté un dictionnaire.
+= Para arreglarlo, quise invocar un argumento jurídico y confundí infracción y allanamiento. Mis compañeros se mostraron indulgentes. Desde entonces he recuperado la calma… y me he comprado un diccionario.
+note: la « conjecture » économique au lieu de la conjoncture ¦ other ¦ Parónimos: conjecture (suposición) / conjoncture (coyuntura).
+note: invoquer un argument ¦ other ¦ invoquer un argumento (≠ évoquer un recuerdo).
+note: recouvré mon calme ¦ other ¦ recouvrer = recuperar (≠ recouvrir, cubrir).
+q: Quel mot a-t-il confondu avec « conjoncture » ? ¦ ¿Qué palabra confundió con «conjoncture»? ¦ conjecture / conjonction / conjugaison ¦ 0 ¦ «la « conjecture » économique au lieu de la conjoncture».
+q: Comment ont réagi les collègues ? ¦ ¿Cómo reaccionaron los compañeros? ¦ avec indulgence / en se moquant / en partant ¦ 0 ¦ «ont fait preuve d'indulgence».
+q: Qu'a-t-il acheté ? ¦ ¿Qué compró? ¦ un dictionnaire / un livre de droit / un cadeau ¦ 0 ¦ «acheté un dictionnaire».
+
+=== 6 | Les mots qui trompent ¦ Las palabras que engañan
+sum: Un profesor explica los falsos amigos y las palabras polisémicas.
+p: Le mot « prolongation » s'emploie pour le temps, « prolongement » pour l'espace : la prolongation d'un match, le prolongement d'une route. De même, l'inclinaison d'un toit n'a rien à voir avec l'inclination qu'on éprouve pour quelqu'un.
+= La palabra «prolongation» se usa para el tiempo, «prolongement» para el espacio: la prórroga de un partido, la prolongación de una carretera. Del mismo modo, la inclinación de un tejado no tiene nada que ver con la inclinación que se siente por alguien.
+p: Le percepteur prélève les impôts ; le précepteur éduquait autrefois les enfants nobles. Une allocution est un discours ; l'élocution, la manière de parler. La justesse d'un mot, enfin, n'est pas la justice.
+= El recaudador cobra los impuestos; el preceptor educaba antaño a los niños nobles. Una alocución es un discurso; la elocución, la manera de hablar. La precisión de una palabra, por último, no es la justicia.
+note: la prolongation d'un match ¦ other ¦ prolongation: en el tiempo.
+note: l'inclination qu'on éprouve ¦ other ¦ inclination: tendencia, afecto (≠ inclinaison física).
+note: La justesse d'un mot ¦ other ¦ la justesse = precisión, exactitud.
+q: Quel mot s'emploie pour une route ? ¦ ¿Qué palabra se usa para una carretera? ¦ prolongement / prolongation / prolongeur ¦ 0 ¦ «le prolongement d'une route».
+q: Qui prélève les impôts ? ¦ ¿Quién cobra los impuestos? ¦ le percepteur / le précepteur / le procureur ¦ 0 ¦ «Le percepteur prélève les impôts».
+q: Que désigne « l'élocution » ? ¦ ¿Qué designa «l'élocution»? ¦ la manière de parler / un discours / un vote ¦ 0 ¦ «la manière de parler».
+
+=== 7 | Éloge de la lecture ¦ Elogio de la lectura
+sum: Un breve ensayo de registro literario sobre la lectura.
+p: D'aucuns prétendent que la lecture se meurt. Nul ne saurait pourtant nier que jamais on n'a autant écrit. Les écrans ne tuent pas le livre, tant s'en faut : ils en multiplient les formes.
+= Algunos sostienen que la lectura se muere. Sin embargo, nadie podría negar que nunca se ha escrito tanto. Las pantallas no matan al libro, ni mucho menos: multiplican sus formas.
+p: Je lirai jusqu'au bout, dussé-je y perdre la vue. Naguère, on lisait à la bougie ; aujourd'hui, à la lumière d'un téléphone. Au reste, l'essentiel demeure : le silence, la page, et soi.
+= Leeré hasta el final, aunque tenga que perder la vista. Hace no tanto se leía a la luz de una vela; hoy, a la luz de un teléfono. Por lo demás, lo esencial permanece: el silencio, la página y uno mismo.
+note: D'aucuns prétendent ¦ register ¦ d'aucuns = algunos (literario).
+note: tant s'en faut ¦ linker ¦ tant s'en faut = ni mucho menos.
+note: dussé-je y perdre la vue ¦ subjunctive ¦ dussé-je = aunque tuviera que.
+q: Que pensent certains ? ¦ ¿Qué piensan algunos? ¦ que la lecture se meurt / qu'on lit trop / que les livres sont chers ¦ 0 ¦ «la lecture se meurt».
+q: Selon l'auteur, que font les écrans ? ¦ Según el autor, ¿qué hacen las pantallas? ¦ Ils multiplient les formes du livre. / Ils tuent le livre. / Ils remplacent l'école. ¦ 0 ¦ «ils en multiplient les formes».
+q: Qu'est-ce qui demeure essentiel ? ¦ ¿Qué sigue siendo esencial? ¦ le silence, la page et soi / le téléphone / la bougie ¦ 0 ¦ «le silence, la page, et soi».
+
+=== 7 | Le verdict de l'Histoire ¦ El veredicto de la Historia
+sum: Una reflexión sobre la memoria histórica, en registro culto.
+p: Stricto sensu, l'historien ne juge pas : il explique. A contrario, le citoyen, lui, doit juger. De facto, pourtant, les deux rôles se confondent souvent.
+= En sentido estricto, el historiador no juzga: explica. A la inversa, el ciudadano sí debe juzgar. De hecho, sin embargo, ambos papeles se confunden a menudo.
+p: Il faut se garder de condamner indûment le passé avec les valeurs d'aujourd'hui. À tout le moins, connaître les faits est une condition sine qua non pour en débattre. Grosso modo, tel est le rôle de l'école.
+= Hay que evitar condenar indebidamente el pasado con los valores de hoy. Como mínimo, conocer los hechos es condición indispensable para debatir sobre ellos. A grandes rasgos, ese es el papel de la escuela.
+note: Stricto sensu ¦ other ¦ Latinismo: en sentido estricto.
+note: condamner indûment ¦ other ¦ indûment = indebidamente.
+note: une condition sine qua non ¦ other ¦ Latinismo: condición indispensable.
+q: Que fait l'historien selon le texte ? ¦ ¿Qué hace el historiador según el texto? ¦ Il explique. / Il juge. / Il condamne. ¦ 0 ¦ «l'historien ne juge pas : il explique».
+q: Que faut-il éviter ? ¦ ¿Qué hay que evitar? ¦ juger le passé avec les valeurs d'aujourd'hui / étudier l'histoire / débattre ¦ 0 ¦ «condamner indûment le passé avec les valeurs d'aujourd'hui».
+q: Quelle est la condition pour débattre ? ¦ ¿Cuál es la condición para debatir? ¦ connaître les faits / avoir une opinion / être historien ¦ 0 ¦ «connaître les faits».
+
+=== 7 | Lettre à un jeune poète ¦ Carta a un joven poeta
+sum: Una carta literaria (inventada) de un viejo escritor a un principiante.
+p: Cher ami, vos vers m'ont touché, et pas à demi. Point de flatterie ici : j'y ai trouvé de la maladresse, voire de la naïveté. Mais aussi bien, qui n'en eut point à vingt ans ?
+= Querido amigo: sus versos me han conmovido, y no poco. Aquí no hay adulación: he encontrado en ellos torpeza, e incluso ingenuidad. Pero, de todos modos, ¿quién no la tuvo a los veinte años?
+p: Écrivez, sciemment et sans relâche, fût-ce une ligne par jour. Lisez à l'envi les anciens. De guerre lasse, vous abandonnerez peut-être ; mais si vous persistez, nul ne pourra vous arrêter.
+= Escriba, conscientemente y sin descanso, aunque sea una línea al día. Lea a porfía a los clásicos. Cansado de luchar, quizá abandone; pero si persiste, nadie podrá detenerle.
+note: Point de flatterie ¦ negation ¦ point de = nada de (literario).
+note: fût-ce une ligne par jour ¦ subjunctive ¦ fût-ce = aunque sea.
+note: Lisez à l'envi ¦ other ¦ à l'envi = a porfía, sin medida.
+q: Qu'a trouvé l'écrivain dans les vers ? ¦ ¿Qué encontró el escritor en los versos? ¦ de la maladresse et de la naïveté / de la perfection / de l'ironie ¦ 0 ¦ «de la maladresse, voire de la naïveté».
+q: Que conseille-t-il ? ¦ ¿Qué aconseja? ¦ écrire chaque jour / arrêter / publier vite ¦ 0 ¦ «fût-ce une ligne par jour».
+q: Que doit-il lire ? ¦ ¿Qué debe leer? ¦ les anciens / la presse / ses propres poèmes ¦ 0 ¦ «Lisez à l'envi les anciens».
+
+=== 8 | La sagesse de ma grand-mère ¦ La sabiduría de mi abuela
+sum: Una nieta recuerda los refranes de su abuela.
+p: Ma grand-mère avait un proverbe pour chaque situation. Si j'étais impatiente : « Tout vient à point à qui sait attendre. » Si je voulais tout faire en même temps : « Qui trop embrasse mal étreint. »
+= Mi abuela tenía un refrán para cada situación. Si estaba impaciente: «Todo llega para quien sabe esperar». Si quería hacerlo todo a la vez: «Quien mucho abarca poco aprieta».
+p: Quand je me décourageais, elle me disait : « C'est en forgeant qu'on devient forgeron. » Et quand je rentrais tard sans prévenir : « Les murs ont des oreilles, ma petite ! » Je comprends aujourd'hui qu'elle avait raison.
+= Cuando me desanimaba, me decía: «La práctica hace al maestro». Y cuando volvía tarde sin avisar: «¡Las paredes oyen, pequeña!». Hoy entiendo que tenía razón.
+note: Tout vient à point à qui sait attendre ¦ idiom ¦ = todo llega para quien sabe esperar.
+note: Qui trop embrasse mal étreint ¦ idiom ¦ = quien mucho abarca poco aprieta.
+note: C'est en forgeant qu'on devient forgeron ¦ idiom ¦ = la práctica hace al maestro.
+q: Quel proverbe pour l'impatience ? ¦ ¿Qué refrán para la impaciencia? ¦ Tout vient à point à qui sait attendre. / Les murs ont des oreilles. / Qui trop embrasse mal étreint. ¦ 0 ¦ «Si j'étais impatiente».
+q: Quand disait-elle « Les murs ont des oreilles » ? ¦ ¿Cuándo decía «Las paredes oyen»? ¦ quand la narratrice rentrait tard / quand elle se décourageait / quand elle mangeait ¦ 0 ¦ «quand je rentrais tard sans prévenir».
+q: Que pense la narratrice aujourd'hui ? ¦ ¿Qué piensa la narradora hoy? ¦ Sa grand-mère avait raison. / Les proverbes sont inutiles. / Elle les a oubliés. ¦ 0 ¦ «elle avait raison».
+
+=== 8 | Chronique d'un chantier ¦ Crónica de una obra
+sum: Una columna satírica sobre unas obras interminables.
+p: Les travaux du tramway devaient durer deux ans ; ils en sont à six. Chaque année, le maire promet la fin du chantier : autant en emporte le vent. Les commerçants, échaudés, n'y croient plus. Chat échaudé craint l'eau froide !
+= Las obras del tranvía debían durar dos años; ya van seis. Cada año, el alcalde promete el fin de la obra: palabras que se lleva el viento. Los comerciantes, escaldados, ya no se lo creen. ¡Gato escaldado del agua fría huye!
+p: L'entreprise a filé à l'anglaise en laissant un trou au milieu de la place. On a cherché midi à quatorze heures pour expliquer le retard. Rira bien qui rira le dernier : les élections approchent.
+= La empresa se despidió a la francesa dejando un agujero en medio de la plaza. Se le buscaron tres pies al gato para explicar el retraso. Quien ríe el último ríe mejor: se acercan las elecciones.
+note: autant en emporte le vent ¦ idiom ¦ = palabras que se lleva el viento.
+note: Chat échaudé craint l'eau froide ¦ idiom ¦ = gato escaldado del agua fría huye.
+note: a filé à l'anglaise ¦ idiom ¦ = despedirse a la francesa.
+q: Combien de temps devaient durer les travaux ? ¦ ¿Cuánto debían durar las obras? ¦ deux ans / six ans / un an ¦ 0 ¦ «devaient durer deux ans».
+q: Qu'a fait l'entreprise ? ¦ ¿Qué hizo la empresa? ¦ Elle est partie sans prévenir. / Elle a fini les travaux. / Elle a fait faillite. ¦ 0 ¦ «a filé à l'anglaise».
+q: Qu'est-ce qui approche ? ¦ ¿Qué se acerca? ¦ les élections / l'été / l'inauguration ¦ 0 ¦ «les élections approchent».
+
+=== 8 | Les promesses ¦ Las promesas
+sum: Un texto satírico sobre las promesas electorales.
+p: Le candidat a promis la baisse des impôts, la hausse des salaires et la paix dans le monde. Qui vivra verra. Ses adversaires disent qu'il paie les électeurs en monnaie de singe.
+= El candidato ha prometido la bajada de impuestos, la subida de los salarios y la paz en el mundo. El tiempo lo dirá. Sus adversarios dicen que paga a los electores con promesas vanas.
+p: Lui jure qu'il ne mène personne en bateau. Il n'y a pourtant pas de fumée sans feu : son dernier mandat a défrayé la chronique. Une hirondelle ne fait pas le printemps, et un discours ne fait pas un programme.
+= Él jura que no le toma el pelo a nadie. Sin embargo, cuando el río suena, agua lleva: su último mandato dio mucho que hablar. Una golondrina no hace verano, y un discurso no hace un programa.
+note: Qui vivra verra ¦ idiom ¦ = el tiempo lo dirá.
+note: en monnaie de singe ¦ idiom ¦ payer en monnaie de singe = pagar con promesas vanas.
+note: Une hirondelle ne fait pas le printemps ¦ idiom ¦ = una golondrina no hace verano.
+q: Que promet le candidat ? ¦ ¿Qué promete el candidato? ¦ la baisse des impôts / la hausse des impôts / rien ¦ 0 ¦ «la baisse des impôts».
+q: Que disent ses adversaires ? ¦ ¿Qué dicen sus adversarios? ¦ qu'il fait des promesses vaines / qu'il est honnête / qu'il va gagner ¦ 0 ¦ «il paie les électeurs en monnaie de singe».
+q: Quelle est la morale finale ? ¦ ¿Cuál es la moraleja final? ¦ un discours ne fait pas un programme / il faut voter / la politique est inutile ¦ 0 ¦ «un discours ne fait pas un programme».
+
+=== 9 | Le paradoxe du choix ¦ La paradoja de la elección
+sum: Un texto de reflexión sobre la abundancia de opciones.
+p: Nous croyons que plus de choix signifie plus de liberté. C'est un paradoxe : face à cinquante sortes de yaourts, nous hésitons, nous doutons, nous regrettons. Le libre arbitre se transforme en fardeau.
+= Creemos que más opciones significan más libertad. Es una paradoja: ante cincuenta tipos de yogures, dudamos, vacilamos, nos arrepentimos. El libre albedrío se convierte en una carga.
+p: Les stoïciens nous inviteraient à distinguer ce qui dépend de nous de ce qui n'en dépend pas. On peut en inférer une règle simple : choisir vite, puis ne plus y penser. Ce n'est pas du nihilisme, c'est de l'hygiène mentale.
+= Los estoicos nos invitarían a distinguir lo que depende de nosotros de lo que no. De ello se puede inferir una regla sencilla: elegir rápido y luego no volver a pensar en ello. No es nihilismo, es higiene mental.
+note: C'est un paradoxe ¦ other ¦ le paradoxe = idea contraria a la intuición.
+note: Le libre arbitre ¦ other ¦ = el libre albedrío.
+note: On peut en inférer ¦ other ¦ inférer = inferir, deducir.
+q: Quel est le paradoxe ? ¦ ¿Cuál es la paradoja? ¦ Plus de choix rend moins libre. / Moins de choix rend malheureux. / Le choix n'existe pas. ¦ 0 ¦ «Le libre arbitre se transforme en fardeau».
+q: Quel exemple est donné ? ¦ ¿Qué ejemplo se da? ¦ les yaourts / les voitures / les livres ¦ 0 ¦ «cinquante sortes de yaourts».
+q: Quelle règle propose l'auteur ? ¦ ¿Qué regla propone el autor? ¦ choisir vite puis ne plus y penser / ne jamais choisir / demander conseil ¦ 0 ¦ «choisir vite, puis ne plus y penser».
+
+=== 9 | Le bateau de Thésée ¦ El barco de Teseo
+sum: Una explicación de una vieja paradoja filosófica.
+p: Si l'on remplace une à une toutes les planches d'un bateau, est-ce encore le même bateau ? Cette aporie, connue depuis l'Antiquité, interroge la notion d'identité.
+= Si se cambian una a una todas las tablas de un barco, ¿sigue siendo el mismo barco? Esta aporía, conocida desde la Antigüedad, cuestiona la noción de identidad.
+p: Nos cellules se renouvellent sans cesse ; pourtant, nous nous sentons le même. Certains y voient un sophisme ; d'autres en déduisent que l'identité est une construction de l'esprit plutôt qu'une réalité matérielle.
+= Nuestras células se renuevan sin cesar; sin embargo, nos sentimos los mismos. Algunos ven en ello un sofisma; otros deducen que la identidad es una construcción de la mente más que una realidad material.
+note: Cette aporie ¦ other ¦ l'aporie = dificultad lógica sin solución.
+note: un sophisme ¦ other ¦ le sophisme = razonamiento falso con apariencia de verdad.
+note: en déduisent que ¦ other ¦ en déduire que = deducir de ello que.
+q: Quelle notion interroge le paradoxe ? ¦ ¿Qué noción cuestiona la paradoja? ¦ l'identité / la liberté / le temps ¦ 0 ¦ «interroge la notion d'identité».
+q: Quel exemple biologique est donné ? ¦ ¿Qué ejemplo biológico se da? ¦ le renouvellement des cellules / la croissance / le sommeil ¦ 0 ¦ «Nos cellules se renouvellent sans cesse».
+q: Que déduisent certains ? ¦ ¿Qué deducen algunos? ¦ L'identité est une construction de l'esprit. / Le bateau n'existe pas. / Rien ne change. ¦ 0 ¦ «l'identité est une construction de l'esprit».
+
+=== 9 | Le doute ¦ La duda
+sum: Una reflexión sobre la duda como método.
+p: Le scepticisme n'est pas l'ennemi de la connaissance : il en est la condition. Douter, c'est refuser l'obscurantisme et les certitudes trop commodes. Descartes en fit une méthode.
+= El escepticismo no es enemigo del conocimiento: es su condición. Dudar es rechazar el oscurantismo y las certezas demasiado cómodas. Descartes lo convirtió en un método.
+p: Encore faut-il ne pas sombrer dans le relativisme absolu. Tout ne se vaut pas : le paradigme scientifique repose sur des preuves. Le doute est une étape, non une fin en soi.
+= Aún hace falta no caer en el relativismo absoluto. No todo vale lo mismo: el paradigma científico se basa en pruebas. La duda es una etapa, no un fin en sí mismo.
+note: Le scepticisme ¦ other ¦ le scepticisme = escepticismo.
+note: l'obscurantisme ¦ other ¦ = oposición al conocimiento y la razón.
+note: Encore faut-il ¦ inversion ¦ encore faut-il = aún hace falta.
+q: Selon l'auteur, qu'est le scepticisme ? ¦ Según el autor, ¿qué es el escepticismo? ¦ la condition de la connaissance / l'ennemi de la science / une maladie ¦ 0 ¦ «il en est la condition».
+q: Qui fit du doute une méthode ? ¦ ¿Quién convirtió la duda en método? ¦ Descartes / Voltaire / Rousseau ¦ 0 ¦ «Descartes en fit une méthode».
+q: Quel danger faut-il éviter ? ¦ ¿Qué peligro hay que evitar? ¦ le relativisme absolu / la science / la religion ¦ 0 ¦ «sombrer dans le relativisme absolu».
+
+=== 10 | Le procès d'assises ¦ El juicio con jurado
+sum: Una crónica judicial sobre un juicio por homicidio.
+p: Le procès s'est ouvert lundi devant la cour d'assises de Bordeaux. L'accusé, qui comparaît libre, plaide la légitime défense. Le procureur, dans son réquisitoire, a rejeté cette thèse et requis quinze ans de réclusion.
+= El juicio se abrió el lunes ante el tribunal con jurado de Burdeos. El acusado, que comparece en libertad, alega legítima defensa. El fiscal, en su acusación, rechazó esa tesis y pidió quince años de reclusión.
+p: L'avocate de la défense a souligné l'absence de casier judiciaire et plaidé des circonstances atténuantes. Le jury rendra son verdict vendredi. Quelle que soit la décision, un appel est probable.
+= La abogada de la defensa subrayó la ausencia de antecedentes penales y alegó circunstancias atenuantes. El jurado dará su veredicto el viernes. Sea cual sea la decisión, es probable un recurso.
+note: la cour d'assises ¦ other ¦ Tribunal penal con jurado para los crímenes.
+note: plaide la légitime défense ¦ other ¦ plaider = alegar; légitime défense = legítima defensa.
+note: dans son réquisitoire ¦ other ¦ le réquisitoire = acusación del fiscal.
+q: Qu'invoque l'accusé ? ¦ ¿Qué alega el acusado? ¦ la légitime défense / un accident / la folie ¦ 0 ¦ «plaide la légitime défense».
+q: Qu'a requis le procureur ? ¦ ¿Qué pidió el fiscal? ¦ quinze ans de réclusion / l'acquittement / une amende ¦ 0 ¦ «requis quinze ans de réclusion».
+q: Quand sera rendu le verdict ? ¦ ¿Cuándo se dará el veredicto? ¦ vendredi / lundi / dans un mois ¦ 0 ¦ «vendredi».
+
+=== 10 | Un litige entre voisins ¦ Un litigio entre vecinos
+sum: Un abogado explica un caso de vecindad.
+p: Mon client a assigné son voisin pour diffamation : ce dernier l'avait accusé, sur les réseaux sociaux, de lui avoir volé son chien. Le tribunal a reconnu le préjudice et condamné le voisin à 2 000 euros de dommages et intérêts.
+= Mi cliente demandó a su vecino por difamación: este le había acusado, en las redes sociales, de haberle robado el perro. El tribunal reconoció el perjuicio y condenó al vecino a 2000 euros de daños y perjuicios.
+p: Le voisin a formé un recours, invoquant la liberté d'expression. La cour d'appel a confirmé le jugement. Ironie du sort : le chien s'était simplement enfui chez un troisième voisin.
+= El vecino recurrió, alegando la libertad de expresión. El tribunal de apelación confirmó la sentencia. Ironías del destino: el perro simplemente se había escapado a casa de un tercer vecino.
+note: a assigné son voisin pour diffamation ¦ other ¦ assigner = demandar, citar a juicio.
+note: dommages et intérêts ¦ other ¦ = daños y perjuicios (indemnización).
+note: a formé un recours ¦ other ¦ former un recours = recurrir.
+q: De quoi le voisin avait-il accusé le client ? ¦ ¿De qué había acusado el vecino al cliente? ¦ d'avoir volé son chien / de faire du bruit / de mentir ¦ 0 ¦ «de lui avoir volé son chien».
+q: Combien le voisin doit-il payer ? ¦ ¿Cuánto debe pagar el vecino? ¦ 2 000 euros / 200 euros / 20 000 euros ¦ 0 ¦ «2 000 euros».
+q: Où était le chien ? ¦ ¿Dónde estaba el perro? ¦ chez un troisième voisin / chez le client / à la SPA ¦ 0 ¦ «chez un troisième voisin».
+
+=== 11 | Les lobbys à Bruxelles ¦ Los grupos de presión en Bruselas
+sum: Un artículo sobre la influencia de los grupos de presión.
+p: Plus de douze mille organisations exercent un lobbying auprès des institutions européennes. Leurs détracteurs fustigent une influence opaque sur la législation ; leurs défenseurs y voient une source d'expertise.
+= Más de doce mil organizaciones ejercen presión ante las instituciones europeas. Sus detractores critican duramente una influencia opaca en la legislación; sus defensores ven en ella una fuente de conocimiento experto.
+p: Un registre de transparence a été créé, mais il reste facultatif. Les lanceurs d'alerte réclament une véritable reddition des comptes. Sans contre-pouvoir, la démocratie risque de devenir une technocratie.
+= Se ha creado un registro de transparencia, pero sigue siendo voluntario. Los denunciantes reclaman una verdadera rendición de cuentas. Sin contrapoder, la democracia corre el riesgo de convertirse en una tecnocracia.
+note: exercent un lobbying ¦ other ¦ le lobbying = actividad de los grupos de presión.
+note: fustigent ¦ other ¦ fustiger = criticar duramente.
+note: une véritable reddition des comptes ¦ other ¦ = rendición de cuentas.
+q: Combien d'organisations font du lobbying ? ¦ ¿Cuántas organizaciones hacen lobby? ¦ plus de douze mille / mille / cent ¦ 0 ¦ «Plus de douze mille organisations».
+q: Le registre de transparence est-il obligatoire ? ¦ ¿Es obligatorio el registro de transparencia? ¦ non, facultatif / oui / il n'existe pas ¦ 0 ¦ «il reste facultatif».
+q: Quel risque mentionne l'article ? ¦ ¿Qué riesgo menciona el artículo? ¦ que la démocratie devienne une technocratie / une guerre / une crise économique ¦ 0 ¦ «devenir une technocratie».
+
+=== 11 | Austérité ou relance ? ¦ ¿Austeridad o reactivación?
+sum: Un análisis del debate económico tras una crisis.
+p: Après chaque crise, le même débat resurgit : faut-il réduire la dette par l'austérité ou relancer l'économie par l'investissement public ? Les partisans de la rigueur craignent une bulle spéculative et une inflation incontrôlable.
+= Tras cada crisis resurge el mismo debate: ¿hay que reducir la deuda con austeridad o reactivar la economía con inversión pública? Los partidarios del rigor temen una burbuja especulativa y una inflación incontrolable.
+p: Leurs adversaires rappellent que l'austérité a provoqué une paupérisation des classes moyennes en Europe du Sud. Entre ces deux écoles, le clivage reste profond, et les gouvernements naviguent à vue.
+= Sus adversarios recuerdan que la austeridad provocó un empobrecimiento de las clases medias en el sur de Europa. Entre estas dos escuelas, la división sigue siendo profunda, y los gobiernos navegan a ciegas.
+note: relancer l'économie ¦ other ¦ relancer = reactivar.
+note: une paupérisation des classes moyennes ¦ other ¦ la paupérisation = empobrecimiento.
+note: naviguent à vue ¦ idiom ¦ naviguer à vue = navegar a ciegas, improvisar.
+q: Que craignent les partisans de la rigueur ? ¦ ¿Qué temen los partidarios del rigor? ¦ une bulle spéculative et l'inflation / le chômage / la guerre ¦ 0 ¦ «une bulle spéculative et une inflation incontrôlable».
+q: Qu'a provoqué l'austérité selon ses adversaires ? ¦ ¿Qué provocó la austeridad según sus adversarios? ¦ une paupérisation des classes moyennes / une hausse des salaires / plus d'emplois ¦ 0 ¦ «une paupérisation des classes moyennes».
+q: Comment agissent les gouvernements ? ¦ ¿Cómo actúan los gobiernos? ¦ Ils naviguent à vue. / Ils ont un plan clair. / Ils ne font rien. ¦ 0 ¦ «les gouvernements naviguent à vue».
+
+=== 12 | Critique d'un film ¦ Crítica de una película
+sum: Una crítica cinematográfica muy matizada.
+p: Le nouveau film de la réalisatrice, salué par une critique dithyrambique, nous a laissés perplexes. Certes, l'image est somptueuse et la bande originale poignante. Mais le scénario, prolixe, se perd en digressions.
+= La nueva película de la directora, recibida por una crítica ditirámbica, nos dejó perplejos. Es cierto que la imagen es suntuosa y la banda sonora conmovedora. Pero el guion, prolijo, se pierde en digresiones.
+p: Les dialogues, d'une emphase parfois pompeuse, frôlent le pastiche. On regrettera aussi une fin mièvre. Ce film ne laissera personne indifférent, mais il n'est pas le chef-d'œuvre annoncé.
+= Los diálogos, de un énfasis a veces pomposo, rozan el pastiche. Cabe lamentar también un final empalagoso. Esta película no dejará a nadie indiferente, pero no es la obra maestra anunciada.
+note: une critique dithyrambique ¦ other ¦ dithyrambique = muy elogiosa.
+note: le scénario, prolixe ¦ other ¦ prolixe = prolijo, demasiado largo.
+note: une fin mièvre ¦ other ¦ mièvre = empalagoso, cursi.
+q: Qu'est-ce qui est réussi ? ¦ ¿Qué está logrado? ¦ l'image et la musique / le scénario / les dialogues ¦ 0 ¦ «l'image est somptueuse et la bande originale poignante».
+q: Quel est le défaut du scénario ? ¦ ¿Cuál es el defecto del guion? ¦ Il est trop long et digressif. / Il est trop court. / Il est copié. ¦ 0 ¦ «prolixe, se perd en digressions».
+q: Le film est-il un chef-d'œuvre selon le critique ? ¦ ¿Es una obra maestra según el crítico? ¦ non / oui / presque ¦ 0 ¦ «il n'est pas le chef-d'œuvre annoncé».
+
+=== 12 | Un poète oublié ¦ Un poeta olvidado
+sum: La reseña de la reedición de un poeta olvidado.
+p: Cette réédition rend enfin justice à un poète injustement oublié. Sa langue, limpide et lapidaire, contraste avec le lyrisme pompeux de ses contemporains. Ses vers ne contiennent aucun poncif.
+= Esta reedición hace por fin justicia a un poeta injustamente olvidado. Su lengua, límpida y lapidaria, contrasta con el lirismo pomposo de sus contemporáneos. Sus versos no contienen ningún tópico.
+p: Certains poèmes, il est vrai, sont plus sibyllins. Mais la concision de l'ensemble force l'admiration. Une préface érudite, d'une rare clarté, accompagne l'édition.
+= Algunos poemas, es cierto, son más enigmáticos. Pero la concisión del conjunto suscita admiración. Un prólogo erudito, de una claridad poco común, acompaña la edición.
+note: limpide et lapidaire ¦ other ¦ límpido y lapidario (breve y contundente).
+note: aucun poncif ¦ other ¦ le poncif = tópico, lugar común.
+note: plus sibyllins ¦ other ¦ sibyllin = enigmático.
+q: Comment est la langue du poète ? ¦ ¿Cómo es la lengua del poeta? ¦ limpide et lapidaire / pompeuse / vulgaire ¦ 0 ¦ «limpide et lapidaire».
+q: Comment étaient ses contemporains ? ¦ ¿Cómo eran sus contemporáneos? ¦ pompeux / concis / oubliés ¦ 0 ¦ «le lyrisme pompeux de ses contemporains».
+q: Qu'accompagne l'édition ? ¦ ¿Qué acompaña la edición? ¦ une préface érudite / des illustrations / un CD ¦ 0 ¦ «Une préface érudite».
+
+=== 12 | Le festival d'Avignon ¦ El festival de Aviñón
+sum: Un balance crítico del festival de teatro.
+p: Cette édition du festival a été éclectique, voire hétéroclite. Aux côtés de mises en scène somptueuses, on a vu des spectacles abscons et rébarbatifs. Le public, lui, a fait preuve d'une patience remarquable.
+= Esta edición del festival ha sido ecléctica, e incluso heterogénea. Junto a puestas en escena suntuosas, se vieron espectáculos abstrusos e ingratos. El público, por su parte, dio muestras de una paciencia notable.
+p: La révélation reste une jeune troupe à la verve truculente, qui a fait salle comble chaque soir. Somme toute, un bilan contrasté, mais jamais ennuyeux.
+= La revelación sigue siendo una joven compañía de verbo sabroso, que llenó la sala cada noche. En resumidas cuentas, un balance desigual, pero nunca aburrido.
+note: éclectique, voire hétéroclite ¦ other ¦ Gradación: ecléctico → heterogéneo, variopinto.
+note: abscons et rébarbatifs ¦ other ¦ abscons = abstruso; rébarbatif = árido, ingrato.
+note: à la verve truculente ¦ false-friend ¦ truculent = pintoresco, sabroso (positivo).
+q: Comment était cette édition ? ¦ ¿Cómo fue esta edición? ¦ éclectique / monotone / annulée ¦ 0 ¦ «éclectique, voire hétéroclite».
+q: Quelle a été la révélation ? ¦ ¿Cuál fue la revelación? ¦ une jeune troupe / un acteur célèbre / un metteur en scène ¦ 0 ¦ «une jeune troupe».
+q: Quel est le bilan ? ¦ ¿Cuál es el balance? ¦ contrasté mais jamais ennuyeux / excellent / catastrophique ¦ 0 ¦ «un bilan contrasté, mais jamais ennuyeux».
+
+=== 13 | La réforme enlisée ¦ La reforma estancada
+sum: Una crónica política con verbos precisos de registro culto.
+p: La réforme de l'école s'enlise. Le ministre atermoie, les syndicats rechignent et la concertation piétine. Chaque nouvelle annonce exacerbe un peu plus la défiance des enseignants.
+= La reforma educativa se estanca. El ministro aplaza, los sindicatos se resisten y el diálogo no avanza. Cada nuevo anuncio exacerba un poco más la desconfianza de los docentes.
+p: Les discours lénifiants ne suffisent plus à rasséréner les parents. Pendant ce temps, la confiance s'effrite et le projet, galvaudé par des mois de polémique, risque de péricliter.
+= Los discursos tranquilizadores ya no bastan para serenar a los padres. Mientras tanto, la confianza se desmorona y el proyecto, desprestigiado por meses de polémica, corre el riesgo de irse a pique.
+note: La réforme de l'école s'enlise ¦ other ¦ s'enliser = atascarse, empantanarse.
+note: Le ministre atermoie ¦ other ¦ atermoyer = aplazar, andar con dilaciones.
+note: risque de péricliter ¦ other ¦ péricliter = decaer, irse a pique.
+q: Que font les syndicats ? ¦ ¿Qué hacen los sindicatos? ¦ Ils rechignent. / Ils applaudissent. / Ils se taisent. ¦ 0 ¦ «les syndicats rechignent».
+q: Qu'est-ce qui exacerbe la défiance ? ¦ ¿Qué exacerba la desconfianza? ¦ chaque nouvelle annonce / le silence / les vacances ¦ 0 ¦ «Chaque nouvelle annonce».
+q: Quel est le risque pour le projet ? ¦ ¿Cuál es el riesgo para el proyecto? ¦ péricliter / réussir / être copié ¦ 0 ¦ «risque de péricliter».
+
+=== 13 | L'entreprise familiale ¦ La empresa familiar
+sum: La historia del declive y el renacer de una empresa familiar.
+p: Pendant des années, l'entreprise a croupi dans la routine. Le fondateur, obstiné, récusait toute modernisation. Ses fils, qui avaient fini par se fourvoyer dans des investissements hasardeux, ont saboté ce qui restait.
+= Durante años, la empresa se estancó en la rutina. El fundador, obstinado, rechazaba toda modernización. Sus hijos, que acabaron extraviándose en inversiones arriesgadas, hundieron lo que quedaba.
+p: Sa petite-fille a pris les rênes. Loin de ressasser le passé, elle a élagué les activités non rentables et revendiqué une identité artisanale. L'entreprise, ragaillardie, prospère à nouveau.
+= Su nieta tomó las riendas. Lejos de rumiar el pasado, recortó las actividades no rentables y reivindicó una identidad artesanal. La empresa, revitalizada, vuelve a prosperar.
+note: l'entreprise a croupi ¦ other ¦ croupir = estancarse, pudrirse.
+note: se fourvoyer ¦ other ¦ se fourvoyer = extraviarse, equivocarse de camino.
+note: elle a élagué ¦ other ¦ élaguer = podar, recortar.
+q: Que refusait le fondateur ? ¦ ¿Qué rechazaba el fundador? ¦ toute modernisation / de vendre / de partir ¦ 0 ¦ «récusait toute modernisation».
+q: Qui a sauvé l'entreprise ? ¦ ¿Quién salvó la empresa? ¦ la petite-fille / les fils / un investisseur ¦ 0 ¦ «Sa petite-fille a pris les rênes».
+q: Comment va l'entreprise aujourd'hui ? ¦ ¿Cómo va la empresa hoy? ¦ Elle prospère. / Elle a fermé. / Elle est vendue. ¦ 0 ¦ «prospère à nouveau».
+
+=== 14 | Synthèse : le tourisme de masse ¦ Síntesis: el turismo de masas
+sum: Un ejemplo de síntesis de documentos sobre el turismo de masas.
+p: Les trois documents abordent les effets du tourisme de masse. Le premier, une enquête de presse, souligne la saturation de villes comme Venise ou Barcelone. Le deuxième, un rapport économique, rejoint ce constat mais rappelle que le secteur fait vivre des millions de personnes.
+= Los tres documentos abordan los efectos del turismo de masas. El primero, una investigación periodística, subraya la saturación de ciudades como Venecia o Barcelona. El segundo, un informe económico, coincide con esta constatación pero recuerda que el sector da de comer a millones de personas.
+p: À l'inverse, le troisième, un essai, va plus loin et appelle à repenser le voyage lui-même. Il ressort de ces documents que le tourisme n'est ni un fléau ni une manne, mais un équilibre à construire.
+= A la inversa, el tercero, un ensayo, va más allá y llama a repensar el propio viaje. De estos documentos se desprende que el turismo no es ni una plaga ni un maná, sino un equilibrio por construir.
+note: rejoint ce constat ¦ other ¦ rejoindre = coincidir con.
+note: va plus loin ¦ other ¦ aller plus loin = ir más allá (ampliar la idea).
+note: Il ressort de ces documents ¦ other ¦ = se desprende de estos documentos.
+q: Que souligne le premier document ? ¦ ¿Qué subraya el primer documento? ¦ la saturation de certaines villes / les bénéfices / la pollution des avions ¦ 0 ¦ «la saturation de villes».
+q: Que rappelle le deuxième ? ¦ ¿Qué recuerda el segundo? ¦ que le secteur fait vivre des millions de personnes / qu'il faut interdire le tourisme / que les hôtels sont chers ¦ 0 ¦ «le secteur fait vivre des millions de personnes».
+q: Quelle est la conclusion ? ¦ ¿Cuál es la conclusión? ¦ un équilibre à construire / un fléau / une manne ¦ 0 ¦ «un équilibre à construire».
+
+=== 14 | Introduction de dissertation ¦ Introducción de una disertación
+sum: Un modelo de introducción de disertación.
+p: « Le bonheur est-il une affaire individuelle ? » Notre époque semble répondre par l'affirmative : jamais les livres de développement personnel ne se sont autant vendus. Pourtant, l'homme est un animal social.
+= «¿Es la felicidad un asunto individual?». Nuestra época parece responder afirmativamente: nunca se habían vendido tantos libros de desarrollo personal. Sin embargo, el hombre es un animal social.
+p: Dans quelle mesure le bonheur dépend-il des autres ? Nous verrons d'abord qu'il relève en partie de choix personnels ; nous montrerons ensuite qu'il est inséparable des liens sociaux ; enfin, nous nous demanderons s'il n'est pas avant tout un équilibre entre les deux.
+= ¿En qué medida depende la felicidad de los demás? Veremos primero que depende en parte de elecciones personales; mostraremos después que es inseparable de los vínculos sociales; por último, nos preguntaremos si no es ante todo un equilibrio entre ambos.
+note: Notre époque semble répondre ¦ other ¦ Accroche: un hecho actual para captar la atención.
+note: Dans quelle mesure ¦ question ¦ Problemática típica: dans quelle mesure… ?
+note: Nous verrons d'abord ¦ other ¦ Anuncio del plan en tres partes.
+q: Quelle est la problématique ? ¦ ¿Cuál es la problemática? ¦ Dans quelle mesure le bonheur dépend-il des autres ? / Qu'est-ce que l'homme ? / Faut-il lire ? ¦ 0 ¦ «Dans quelle mesure le bonheur dépend-il des autres ?».
+q: Quel fait sert d'accroche ? ¦ ¿Qué hecho sirve de gancho? ¦ le succès des livres de développement personnel / une citation / une statistique sur le chômage ¦ 0 ¦ «jamais les livres de développement personnel ne se sont autant vendus».
+q: Combien de parties annonce le plan ? ¦ ¿Cuántas partes anuncia el plan? ¦ trois / deux / quatre ¦ 0 ¦ d'abord, ensuite, enfin.
+
+=== 14 | Conclusion de synthèse ¦ Conclusión de una síntesis
+sum: Un modelo de conclusión de síntesis sobre el teletrabajo.
+p: En définitive, les documents convergent sur un point : le télétravail est devenu durable. Ils divergent en revanche sur ses effets, que le premier juge bénéfiques, tandis que le troisième en souligne les risques d'isolement.
+= En definitiva, los documentos coinciden en un punto: el teletrabajo ha llegado para quedarse. En cambio, divergen sobre sus efectos, que el primero considera beneficiosos, mientras que el tercero subraya sus riesgos de aislamiento.
+p: Reste à savoir comment les entreprises sauront concilier autonomie et cohésion. La question dépasse le cadre du travail : c'est notre rapport au collectif qui est en jeu.
+= Queda por saber cómo sabrán las empresas conciliar autonomía y cohesión. La cuestión va más allá del marco laboral: lo que está en juego es nuestra relación con lo colectivo.
+note: En définitive ¦ linker ¦ en définitive = en definitiva (para concluir).
+note: tandis que le troisième ¦ linker ¦ tandis que = mientras que (oposición entre documentos).
+note: Reste à savoir ¦ other ¦ Apertura final: queda por saber.
+q: Sur quoi les documents convergent-ils ? ¦ ¿En qué coinciden los documentos? ¦ Le télétravail est durable. / Il faut l'interdire. / Il isole tout le monde. ¦ 0 ¦ «le télétravail est devenu durable».
+q: Quel risque souligne le troisième document ? ¦ ¿Qué riesgo subraya el tercer documento? ¦ l'isolement / le coût / la paresse ¦ 0 ¦ «les risques d'isolement».
+q: Que reste-t-il à savoir ? ¦ ¿Qué queda por saber? ¦ comment concilier autonomie et cohésion / combien ça coûte / qui l'a inventé ¦ 0 ¦ «concilier autonomie et cohésion».
