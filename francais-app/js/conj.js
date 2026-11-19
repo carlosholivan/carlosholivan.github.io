@@ -179,7 +179,8 @@ export const auxOf = (v) => (v.aux === 'être' || v.pron ? 'être' : 'avoir');
 const AUX = { être: VERBS.find(x => x.w === 'être'), avoir: VERBS.find(x => x.w === 'avoir') };
 function compound(v, p, auxTense) {
   const a = auxOf(v), pp = participle(v);
-  const agree = a === 'être' && !v.only3 ? pp + ([3, 4, 5].includes(p) ? '(e)s' : '(e)') : pp;
+  const pl = [3, 4, 5].includes(p);
+  const agree = a === 'être' && !v.only3 ? pp + (/s$/.test(pp) ? (pl ? '(es)' : '(e)') : (pl ? '(e)s' : '(e)')) : pp;
   return conjugate(AUX[a], auxTense, p) + ' ' + agree;
 }
 function imperative(v, p) {

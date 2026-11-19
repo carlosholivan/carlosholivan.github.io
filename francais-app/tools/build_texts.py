@@ -53,7 +53,7 @@ if xp.exists():
             EXTRA[w.lower().replace('’', "'")] = {'es': es}
 ELID = {"t": '(t de enlace: a-t-il)', "l'": 'el / la (delante de vocal)', "j'": 'yo', "d'": 'de', "qu'": 'que', "n'": 'no (ne)', "s'": 'se / si', "c'": 'esto, eso (ce)',
         "m'": 'me', "t'": 'te', "jusqu'": 'hasta (jusque)', "lorsqu'": 'cuando (lorsque)', "puisqu'": 'puesto que (puisque)', "quelqu'": 'alguien (quelqu’un)'}
-PHRASES = sorted([k for k in list(VOC) + list(EXTRA) if ' ' in k], key=len, reverse=True)
+PHRASES = sorted([k for k in list(VOC) + list(EXTRA) if len(WORD.findall(k)) > 1], key=len, reverse=True)
 FUNC = set("le la les l' un une des du de d' à au aux et ou mais donc or ni car je j' tu il elle on nous vous ils elles me m' te t' se s' lui leur leurs y en ce c' cet cette ces "
            "mon ma mes ton ta tes son sa ses notre nos votre vos qui que qu' quoi dont où ne n' pas plus est sont a ont être avoir dans sur sous par pour avec sans "
            "chez si oui non très bien aussi tout tous toute toutes".split())
@@ -360,10 +360,15 @@ def build(lv):
             low = ' ' + ' '.join(k for _, _, k in toks) + ' '
             for ph in PHRASES:
                 phn = ' '.join(m.group(0).lower() for m in WORD.finditer(ph))
-                if phn and f' {phn} ' in low and ph not in g:
-                    g[ph] = mean(ph)
-                    if ph in levelwords:
-                        found.append((ph, ph))
+                if phn and f' {phn} ' in low:
+                    if ph not in g:
+                        g[ph] = mean(ph)
+                        if ph in levelwords:
+                            found.append((ph, ph))
+                    for part in phn.split():            # d'abord → abord, grâce à → grâce
+                        if part not in g:
+                            g[part] = {'es': f'{ph}: {mean(ph)["es"]}'}
+                            missing.pop(part, None)
             for v in verb_phrases(para, toks, doc):
                 verbs.append({'p': pi, 'f': para[v['s']:v['e']], 'l': v['l'], 't': v['t'], 'per': '', 'm': v['m']})
         seen = set(); vv = []
