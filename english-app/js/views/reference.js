@@ -10,6 +10,7 @@ import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=20261119
 import { allVocab } from './review.js?v=202611192200';
 import { levelLabel } from '../levels.js?v=202611192200';
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+window.__refSayStrong = (e) => { const z = e.target.closest('strong, .example'); if (z && /[A-Za-z]/.test(z.textContent)) window.__refSpeak(z.textContent.trim()); };
 window.__refSpeak = (w) => import('../audio.js?v=202611192200').then(a => a.speak(w));
 
 register('reference', async (el) => {
@@ -171,7 +172,9 @@ register('grammar-detail', async (el, params) => {
 
     <div class="card" style="padding:20px;margin-bottom:16px">
       <div class="h3 mb-12">${t('explanation')}</div>
-      <div style="font-size:14px;line-height:1.8;white-space:pre-wrap">${formatExplanation(explanation)}</div>
+      ${/^\s*</.test(explanation)
+        ? `<div class="grammar-section" onclick="window.__refSayStrong(event)">${explanation}</div>`
+        : `<div style="font-size:14px;line-height:1.8;white-space:pre-wrap">${formatExplanation(explanation)}</div>`}
       <div class="mt-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
     </div>
 
