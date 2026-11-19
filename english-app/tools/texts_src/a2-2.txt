@@ -1,0 +1,392 @@
+#! es
+# A2 readings, batch 2 (original). Spanish translations only.
+
+=== 1 | A language exchange ¦ Un intercambio de idiomas
+sum: Dos personas se conocen en un intercambio de idiomas.
+p: Kim: Hi, I'm Kim. What do you do? Luis: I'm an engineer. I work for a car company. What about you? Kim: I'm a student. I'm studying Spanish at university.
+= Kim: Hola, soy Kim. ¿A qué te dedicas? Luis: Soy ingeniero. Trabajo para una empresa de coches. ¿Y tú? Kim: Soy estudiante. Estudio español en la universidad.
+p: Luis: Why are you learning Spanish? Kim: Because I'm going to Madrid next year. How often do you come here? Luis: Every Thursday. It's a great way to practise!
+= Luis: ¿Por qué aprendes español? Kim: Porque el año que viene voy a Madrid. ¿Cada cuánto vienes aquí? Luis: Todos los jueves. ¡Es una manera estupenda de practicar!
+note: What do you do ¦ idiom ¦ What do you do? = ¿A qué te dedicas?
+note: I'm studying Spanish ¦ tense ¦ Presente continuo: actividad temporal de esta etapa.
+note: How often do you come ¦ other ¦ How often = ¿Con qué frecuencia?
+q: What is Luis's job? ¦ ¿Cuál es el trabajo de Luis? ¦ engineer / student / teacher ¦ 0 ¦ «I'm an engineer».
+q: Why is Kim learning Spanish? ¦ ¿Por qué aprende Kim español? ¦ She's going to Madrid. / For her job. / Her boyfriend is Spanish. ¦ 0 ¦ «I'm going to Madrid next year».
+q: When does Luis come to the exchange? ¦ ¿Cuándo va Luis al intercambio? ¦ every Thursday / every day / at weekends ¦ 0 ¦ «Every Thursday».
+
+=== 1 | The new neighbour ¦ La nueva vecina
+sum: Una vecina nueva se presenta.
+p: Hello, I'm Grace. I've just moved in next door. I'm from Ireland, but I live in Manchester now. I usually work from home, but today I'm unpacking boxes.
+= Hola, soy Grace. Acabo de mudarme a la casa de al lado. Soy de Irlanda, pero ahora vivo en Mánchester. Normalmente trabajo desde casa, pero hoy estoy desempaquetando cajas.
+p: Do you know a good supermarket near here? And where do people usually park? Thanks! Maybe we can have a coffee one day.
+= ¿Conoces un buen supermercado por aquí cerca? ¿Y dónde suele aparcar la gente? ¡Gracias! Quizá podamos tomar un café algún día.
+note: I usually work from home ¦ tense ¦ Presente simple: costumbre.
+note: today I'm unpacking boxes ¦ tense ¦ Presente continuo: lo que hace hoy, ahora.
+note: where do people usually park ¦ word-order ¦ Pregunta: wh- + do + sujeto + verbo.
+q: Where is Grace from? ¦ ¿De dónde es Grace? ¦ Ireland / Manchester / Scotland ¦ 0 ¦ «I'm from Ireland».
+q: What is she doing today? ¦ ¿Qué está haciendo hoy? ¦ unpacking boxes / working / shopping ¦ 0 ¦ «today I'm unpacking boxes».
+q: What does she ask about? ¦ ¿Por qué pregunta? ¦ a supermarket and parking / a school / a doctor ¦ 0 ¦ «a good supermarket… where do people usually park?».
+
+=== 2 | My first job ¦ Mi primer trabajo
+sum: Un hombre recuerda su primer trabajo.
+p: I got my first job when I was sixteen. I worked in a bakery on Saturdays. I started at six in the morning and I finished at two.
+= Conseguí mi primer trabajo a los dieciséis años. Trabajaba en una panadería los sábados. Empezaba a las seis de la mañana y terminaba a las dos.
+p: One day, I dropped a big cake on the floor. The owner didn't shout at me. She laughed and taught me to make a new one. I learned a lot that year.
+= Un día se me cayó una tarta grande al suelo. La dueña no me gritó. Se rió y me enseñó a hacer otra. Aprendí mucho aquel año.
+note: I got my first job ¦ tense ¦ get → got (pasado irregular).
+note: The owner didn't shout ¦ tense ¦ Negativa en pasado: didn't + verbo base.
+note: taught me to make ¦ tense ¦ teach → taught.
+q: How old was he? ¦ ¿Cuántos años tenía? ¦ sixteen / eighteen / fourteen ¦ 0 ¦ «when I was sixteen».
+q: What did he drop? ¦ ¿Qué se le cayó? ¦ a cake / some bread / a bottle ¦ 0 ¦ «I dropped a big cake».
+q: How did the owner react? ¦ ¿Cómo reaccionó la dueña? ¦ She laughed. / She shouted. / She fired him. ¦ 0 ¦ «She laughed».
+
+=== 2 | A famous painter ¦ Una pintora famosa
+sum: La biografía de una pintora (personaje inventado).
+p: Ana Ruiz was born in Seville in 1950. She started painting when she was five. She studied art in Paris and lived there for ten years.
+= Ana Ruiz nació en Sevilla en 1950. Empezó a pintar a los cinco años. Estudió arte en París y vivió allí diez años.
+p: In 1985, she won an important prize. After that, she travelled around the world and painted the sea. She didn't stop working until she died in 2019.
+= En 1985 ganó un premio importante. Después viajó por todo el mundo y pintó el mar. No dejó de trabajar hasta que murió en 2019.
+note: was born ¦ passive ¦ born: nacer se dice con be (was born).
+note: She studied art ¦ tense ¦ study → studied.
+note: She didn't stop working ¦ gerund-inf ¦ stop + -ing = dejar de hacer.
+q: Where was Ana born? ¦ ¿Dónde nació Ana? ¦ Seville / Paris / Madrid ¦ 0 ¦ «was born in Seville».
+q: What did she win in 1985? ¦ ¿Qué ganó en 1985? ¦ a prize / a house / a trip ¦ 0 ¦ «she won an important prize».
+q: What did she paint? ¦ ¿Qué pintó? ¦ the sea / portraits / flowers ¦ 0 ¦ «painted the sea».
+
+=== 3 | The power cut ¦ El apagón
+sum: Una familia cuenta qué hacían cuando se fue la luz.
+p: Last night there was a power cut at nine o'clock. I was watching a film. My brother was playing a video game and my parents were cooking dinner.
+= Anoche hubo un apagón a las nueve. Yo estaba viendo una película. Mi hermano estaba jugando a un videojuego y mis padres estaban haciendo la cena.
+p: While we were looking for candles, my grandmother called. She was laughing: "I was reading by the window, so I didn't notice!"
+= Mientras buscábamos velas, llamó mi abuela. Se estaba riendo: «¡Estaba leyendo junto a la ventana, así que no me di cuenta!».
+note: I was watching a film ¦ tense ¦ Pasado continuo: acción en curso en un momento del pasado.
+note: While we were looking for candles ¦ linker ¦ while + pasado continuo.
+note: my grandmother called ¦ tense ¦ Pasado simple: acción breve que interrumpe.
+q: What was the writer doing? ¦ ¿Qué estaba haciendo el autor? ¦ watching a film / cooking / reading ¦ 0 ¦ «I was watching a film».
+q: What were the parents doing? ¦ ¿Qué estaban haciendo los padres? ¦ cooking dinner / sleeping / playing ¦ 0 ¦ «my parents were cooking dinner».
+q: Why didn't the grandmother notice? ¦ ¿Por qué no se dio cuenta la abuela? ¦ She was reading by the window. / She was asleep. / She was out. ¦ 0 ¦ «I was reading by the window».
+
+=== 3 | An accident in the park ¦ Un accidente en el parque
+sum: Un testigo describe un pequeño accidente.
+p: I was walking in the park when I saw the accident. A boy was riding his bike very fast. A woman was crossing the path with her dog.
+= Estaba paseando por el parque cuando vi el accidente. Un chico iba en bici muy deprisa. Una mujer estaba cruzando el camino con su perro.
+p: The boy didn't see her and he fell off his bike. Luckily, he wasn't badly hurt. The woman helped him and I called his parents.
+= El chico no la vio y se cayó de la bici. Por suerte, no se hizo mucho daño. La mujer le ayudó y yo llamé a sus padres.
+note: I was walking in the park when I saw ¦ tense ¦ Pasado continuo + when + pasado simple.
+note: he fell off his bike ¦ phrasal ¦ fall off = caerse de.
+note: Luckily ¦ other ¦ Adverbio: por suerte.
+q: What was the boy doing? ¦ ¿Qué hacía el chico? ¦ riding his bike / walking / running ¦ 0 ¦ «A boy was riding his bike».
+q: Was the boy badly hurt? ¦ ¿Se hizo mucho daño el chico? ¦ no / yes / we don't know ¦ 0 ¦ «he wasn't badly hurt».
+q: Who did the writer call? ¦ ¿A quién llamó el autor? ¦ the boy's parents / the police / an ambulance ¦ 0 ¦ «I called his parents».
+
+=== 4 | A boring weekend ¦ Un fin de semana aburrido
+sum: Un chico describe un fin de semana aburrido y uno emocionante.
+p: Last weekend was really boring. It rained all the time, so I stayed at home. I was bored and my sister was annoyed because I played music loudly.
+= El fin de semana pasado fue muy aburrido. Llovió todo el rato, así que me quedé en casa. Estaba aburrido y mi hermana estaba molesta porque puse la música muy alta.
+p: But next weekend will be exciting! We're going to a concert. I'm excited because it's my favourite band. I hope they play well!
+= ¡Pero el próximo fin de semana será emocionante! Vamos a un concierto. Estoy entusiasmado porque es mi grupo favorito. ¡Espero que toquen bien!
+note: really boring ¦ other ¦ -ing describe la cosa (aburrido); -ed describe cómo se siente alguien.
+note: I was bored ¦ other ¦ bored = aburrido (sentimiento).
+note: I played music loudly ¦ other ¦ Adverbio de modo: loud → loudly.
+q: Why did he stay at home? ¦ ¿Por qué se quedó en casa? ¦ It rained. / He was ill. / He had homework. ¦ 0 ¦ «It rained all the time».
+q: Why was his sister annoyed? ¦ ¿Por qué estaba molesta su hermana? ¦ He played music loudly. / He ate her cake. / He was late. ¦ 0 ¦ «because I played music loudly».
+q: What is he doing next weekend? ¦ ¿Qué va a hacer el próximo fin de semana? ¦ going to a concert / staying home / visiting family ¦ 0 ¦ «We're going to a concert».
+
+=== 4 | Nervous before the exam ¦ Nervioso antes del examen
+sum: Una estudiante habla de sus nervios antes de un examen.
+p: Tomorrow I have my driving test. I'm really nervous. I studied hard and I practised a lot, but I sometimes drive too quickly.
+= Mañana tengo el examen de conducir. Estoy muy nerviosa. He estudiado mucho y he practicado bastante, pero a veces conduzco demasiado deprisa.
+p: My instructor is very patient. He says I drive well and carefully. My mum is more worried than me! I'm tired, so I'm going to bed early.
+= Mi profesor es muy paciente. Dice que conduzco bien y con cuidado. ¡Mi madre está más preocupada que yo! Estoy cansada, así que me voy a acostar pronto.
+note: I studied hard ¦ other ¦ hard (adverbio) = mucho, duro; no lleva -ly.
+note: drive well ¦ other ¦ good → well (adverbio irregular).
+note: carefully ¦ other ¦ careful → carefully.
+q: What is the test? ¦ ¿De qué es el examen? ¦ driving / English / maths ¦ 0 ¦ «my driving test».
+q: What is her problem? ¦ ¿Cuál es su problema? ¦ She drives too quickly. / She drives too slowly. / She can't park. ¦ 0 ¦ «I sometimes drive too quickly».
+q: Who is more worried? ¦ ¿Quién está más preocupado? ¦ her mum / her instructor / her sister ¦ 0 ¦ «My mum is more worried than me».
+
+=== 5 | Saving money ¦ Ahorrar dinero
+sum: Un estudiante explica cómo ahorra.
+p: I'm a student and I haven't got much money. I don't buy many clothes and I eat at home a lot. I spend a little money on books.
+= Soy estudiante y no tengo mucho dinero. No compro mucha ropa y como mucho en casa. Gasto un poco de dinero en libros.
+p: I've got a few friends who share a car with me. We don't spend too much on petrol. At the end of the month, I usually have enough money for a cinema ticket.
+= Tengo unos cuantos amigos que comparten coche conmigo. No gastamos demasiado en gasolina. A final de mes, normalmente tengo suficiente dinero para una entrada de cine.
+note: I haven't got much money ¦ quantifier ¦ much con incontables en negativa.
+note: I don't buy many clothes ¦ quantifier ¦ many con contables plurales.
+note: enough money ¦ quantifier ¦ enough + nombre = suficiente.
+q: What does he spend a little money on? ¦ ¿En qué gasta un poco de dinero? ¦ books / clothes / restaurants ¦ 0 ¦ «I spend a little money on books».
+q: How do they save on petrol? ¦ ¿Cómo ahorran en gasolina? ¦ They share a car. / They walk. / They take the bus. ¦ 0 ¦ «share a car with me».
+q: What can he buy at the end of the month? ¦ ¿Qué puede comprar a final de mes? ¦ a cinema ticket / a car / a holiday ¦ 0 ¦ «enough money for a cinema ticket».
+
+=== 5 | Online shopping ¦ Compras por internet
+sum: Una mujer cuenta un problema con una compra por internet.
+p: Last month I bought a jacket online. It was cheap, only twenty pounds. But when it arrived, it was too small and the colour was wrong.
+= El mes pasado compré una chaqueta por internet. Era barata, solo veinte libras. Pero cuando llegó, era demasiado pequeña y el color estaba mal.
+p: I sent it back, but they didn't give me my money. I wrote three emails. Finally, after two weeks, they paid me. Now I only buy clothes in shops!
+= La devolví, pero no me devolvieron el dinero. Escribí tres correos. Por fin, tras dos semanas, me pagaron. ¡Ahora solo compro ropa en tiendas!
+note: it was too small ¦ quantifier ¦ too + adjetivo = demasiado.
+note: I sent it back ¦ phrasal ¦ send back = devolver.
+note: Finally ¦ linker ¦ finally = por fin, al final.
+q: How much was the jacket? ¦ ¿Cuánto costó la chaqueta? ¦ £20 / £12 / £50 ¦ 0 ¦ «only twenty pounds».
+q: What was wrong with it? ¦ ¿Qué le pasaba? ¦ too small and wrong colour / broken / too big ¦ 0 ¦ «too small and the colour was wrong».
+q: Where does she buy clothes now? ¦ ¿Dónde compra ahora la ropa? ¦ in shops / online / at the market ¦ 0 ¦ «Now I only buy clothes in shops».
+
+=== 6 | City or village? ¦ ¿Ciudad o pueblo?
+sum: Una mujer compara su vida en la ciudad y en el pueblo.
+p: I moved from London to a small village last year. Life here is quieter and cheaper. The air is cleaner and people are friendlier than in the city.
+= El año pasado me mudé de Londres a un pueblo pequeño. Aquí la vida es más tranquila y más barata. El aire es más limpio y la gente es más amable que en la ciudad.
+p: But the buses are worse and the shops are further away. The village isn't as exciting as London, but I'm happier here.
+= Pero los autobuses son peores y las tiendas están más lejos. El pueblo no es tan emocionante como Londres, pero aquí soy más feliz.
+note: quieter and cheaper ¦ comparison ¦ Adjetivos cortos: -er.
+note: the buses are worse ¦ comparison ¦ bad → worse (irregular).
+note: isn't as exciting as ¦ comparison ¦ not as … as = no tan … como.
+q: Where did she live before? ¦ ¿Dónde vivía antes? ¦ London / a village / Paris ¦ 0 ¦ «I moved from London».
+q: What is worse in the village? ¦ ¿Qué es peor en el pueblo? ¦ the buses / the air / the people ¦ 0 ¦ «the buses are worse».
+q: Is she happy? ¦ ¿Es feliz? ¦ yes, happier / no / she doesn't know ¦ 0 ¦ «I'm happier here».
+
+=== 6 | Two phones ¦ Dos teléfonos
+sum: Un chico compara dos móviles antes de comprar uno.
+p: The X10 is more expensive than the Z5, but it's faster and lighter. Its camera is better too. The Z5 is cheaper and its battery lasts longer.
+= El X10 es más caro que el Z5, pero es más rápido y más ligero. Su cámara también es mejor. El Z5 es más barato y su batería dura más.
+p: The X10's screen is as big as the Z5's. I think I'll buy the Z5. I don't need the best camera, but I need a good battery!
+= La pantalla del X10 es tan grande como la del Z5. Creo que compraré el Z5. ¡No necesito la mejor cámara, pero sí una buena batería!
+note: more expensive than ¦ comparison ¦ Adjetivos largos: more + adjetivo + than.
+note: lighter ¦ comparison ¦ light → lighter.
+note: as big as ¦ comparison ¦ as … as = tan … como.
+q: Which phone is cheaper? ¦ ¿Qué teléfono es más barato? ¦ the Z5 / the X10 / both ¦ 0 ¦ «The Z5 is cheaper».
+q: Which has a better camera? ¦ ¿Cuál tiene mejor cámara? ¦ the X10 / the Z5 / neither ¦ 0 ¦ «Its camera is better too».
+q: Which phone will he buy? ¦ ¿Qué teléfono comprará? ¦ the Z5 / the X10 / neither ¦ 0 ¦ «I'll buy the Z5».
+
+=== 7 | Record breakers ¦ Batiendo récords
+sum: Datos curiosos con superlativos.
+p: The Nile is the longest river in the world. Mount Everest is the highest mountain. The blue whale is the biggest animal that has ever lived.
+= El Nilo es el río más largo del mundo. El Everest es la montaña más alta. La ballena azul es el animal más grande que ha existido.
+p: Antarctica is the coldest and driest place on Earth. And the most popular sport in the world? Football, of course!
+= La Antártida es el lugar más frío y más seco de la Tierra. ¿Y el deporte más popular del mundo? ¡El fútbol, claro!
+note: the longest river in the world ¦ comparison ¦ Superlativo: the + -est + in.
+note: the biggest animal ¦ comparison ¦ big → biggest (doble g).
+note: the most popular sport ¦ comparison ¦ Adjetivos largos: the most.
+q: What is the longest river? ¦ ¿Cuál es el río más largo? ¦ the Nile / the Amazon / the Thames ¦ 0 ¦ «The Nile is the longest river».
+q: What is the biggest animal? ¦ ¿Cuál es el animal más grande? ¦ the blue whale / the elephant / the shark ¦ 0 ¦ «The blue whale is the biggest animal».
+q: What is the most popular sport? ¦ ¿Cuál es el deporte más popular? ¦ football / tennis / basketball ¦ 0 ¦ «Football, of course!».
+
+=== 7 | The best holiday ever ¦ Las mejores vacaciones
+sum: Un hombre recuerda sus mejores vacaciones.
+p: The best holiday of my life was in Greece. We stayed on the most beautiful island I have ever seen. The water was the clearest I've ever swum in.
+= Las mejores vacaciones de mi vida fueron en Grecia. Nos alojamos en la isla más bonita que he visto nunca. El agua era la más transparente en la que he nadado.
+p: The worst moment was the journey home: our flight was ten hours late! But it was still the happiest week of the year.
+= El peor momento fue el viaje de vuelta: ¡nuestro vuelo llevaba diez horas de retraso! Pero aun así fue la semana más feliz del año.
+note: The best holiday of my life ¦ comparison ¦ good → the best.
+note: the most beautiful island I have ever seen ¦ comparison ¦ Superlativo + present perfect con ever.
+note: The worst moment ¦ comparison ¦ bad → the worst.
+q: Where was the holiday? ¦ ¿Dónde fueron las vacaciones? ¦ Greece / Italy / Spain ¦ 0 ¦ «in Greece».
+q: What was the worst moment? ¦ ¿Cuál fue el peor momento? ¦ the journey home / the hotel / the food ¦ 0 ¦ «The worst moment was the journey home».
+q: How late was the flight? ¦ ¿Cuánto retraso tuvo el vuelo? ¦ ten hours / one hour / two days ¦ 0 ¦ «ten hours late».
+
+=== 8 | Library rules ¦ Normas de la biblioteca
+sum: Las normas de una biblioteca.
+p: You must be quiet in the library. You mustn't eat or drink near the computers. You can borrow five books for three weeks.
+= Hay que guardar silencio en la biblioteca. No se puede comer ni beber cerca de los ordenadores. Se pueden sacar cinco libros durante tres semanas.
+p: You have to show your library card. You don't have to pay to use the internet. You can't use your phone in the reading room.
+= Hay que enseñar el carné de la biblioteca. No hay que pagar por usar internet. No se puede usar el móvil en la sala de lectura.
+note: You mustn't eat ¦ modal ¦ mustn't = prohibición.
+note: You have to show ¦ modal ¦ have to = obligación.
+note: You don't have to pay ¦ modal ¦ don't have to = no es necesario (≠ mustn't).
+q: How many books can you borrow? ¦ ¿Cuántos libros se pueden sacar? ¦ five / three / ten ¦ 0 ¦ «You can borrow five books».
+q: Do you have to pay for the internet? ¦ ¿Hay que pagar internet? ¦ no / yes / only on Saturdays ¦ 0 ¦ «You don't have to pay to use the internet».
+q: Where can't you use your phone? ¦ ¿Dónde no se puede usar el móvil? ¦ in the reading room / at the entrance / outside ¦ 0 ¦ «in the reading room».
+
+=== 8 | My first day as a waiter ¦ Mi primer día de camarero
+sum: Un camarero nuevo cuenta las normas de su trabajo.
+p: On my first day, my boss explained the rules. I have to wear a black shirt. I must wash my hands often. I mustn't use my phone during work.
+= El primer día, mi jefe me explicó las normas. Tengo que llevar una camisa negra. Debo lavarme las manos a menudo. No puedo usar el móvil durante el trabajo.
+p: I don't have to cook, but I have to know the menu. I can eat at the restaurant for free. The rules are strict, but I like the job!
+= No tengo que cocinar, pero tengo que conocer la carta. Puedo comer gratis en el restaurante. Las normas son estrictas, ¡pero me gusta el trabajo!
+note: I have to wear ¦ modal ¦ have to = obligación externa.
+note: I mustn't use my phone ¦ modal ¦ mustn't = prohibido.
+note: I can eat ¦ modal ¦ can = permiso.
+q: What colour shirt does he wear? ¦ ¿De qué color es la camisa que lleva? ¦ black / white / blue ¦ 0 ¦ «a black shirt».
+q: Does he have to cook? ¦ ¿Tiene que cocinar? ¦ no / yes / sometimes ¦ 0 ¦ «I don't have to cook».
+q: What can he do for free? ¦ ¿Qué puede hacer gratis? ¦ eat at the restaurant / park his car / take food home ¦ 0 ¦ «I can eat at the restaurant for free».
+
+=== 9 | What's the matter? ¦ ¿Qué te pasa?
+sum: Una amiga da consejos a otra que está enferma.
+p: Kate: You look terrible. What's the matter? Lily: I've got a headache and a sore throat. Kate: You should go home and rest.
+= Kate: Tienes muy mala cara. ¿Qué te pasa? Lily: Me duele la cabeza y la garganta. Kate: Deberías irte a casa a descansar.
+p: Kate: You shouldn't go to the gym today. You should drink hot tea with honey. And maybe you should see a doctor tomorrow.
+= Kate: Hoy no deberías ir al gimnasio. Deberías beber té caliente con miel. Y quizá deberías ir al médico mañana.
+note: What's the matter ¦ idiom ¦ = ¿Qué te pasa?
+note: I've got a headache ¦ article ¦ Con dolencias: a headache, a sore throat.
+note: You should go home ¦ modal ¦ should = consejo.
+q: What's wrong with Lily? ¦ ¿Qué le pasa a Lily? ¦ headache and sore throat / stomach ache / a broken leg ¦ 0 ¦ «a headache and a sore throat».
+q: What shouldn't she do today? ¦ ¿Qué no debería hacer hoy? ¦ go to the gym / drink tea / rest ¦ 0 ¦ «You shouldn't go to the gym today».
+q: What should she drink? ¦ ¿Qué debería beber? ¦ hot tea with honey / cold water / coffee ¦ 0 ¦ «hot tea with honey».
+
+=== 9 | Tips for good sleep ¦ Consejos para dormir bien
+sum: Consejos de un médico para dormir mejor.
+p: Many people don't sleep well. Here is some advice. You should go to bed at the same time every night. You shouldn't drink coffee after four o'clock.
+= Mucha gente no duerme bien. Aquí tienes unos consejos. Deberías acostarte a la misma hora todas las noches. No deberías tomar café después de las cuatro.
+p: You shouldn't use your phone in bed. You should keep your bedroom cool and dark. If you can't sleep, you should get up and read a book.
+= No deberías usar el móvil en la cama. Deberías mantener tu dormitorio fresco y oscuro. Si no puedes dormir, deberías levantarte y leer un libro.
+note: some advice ¦ quantifier ¦ advice es incontable: some advice (✗ an advice).
+note: You shouldn't drink coffee ¦ modal ¦ shouldn't = consejo negativo.
+note: keep your bedroom cool and dark ¦ other ¦ keep + adjetivo = mantener.
+q: When shouldn't you drink coffee? ¦ ¿Cuándo no deberías tomar café? ¦ after four o'clock / in the morning / at lunch ¦ 0 ¦ «after four o'clock».
+q: How should your bedroom be? ¦ ¿Cómo debería estar tu dormitorio? ¦ cool and dark / warm and light / noisy ¦ 0 ¦ «cool and dark».
+q: What should you do if you can't sleep? ¦ ¿Qué deberías hacer si no puedes dormir? ¦ get up and read / use your phone / eat ¦ 0 ¦ «get up and read a book».
+
+=== 10 | The future of cities ¦ El futuro de las ciudades
+sum: Predicciones sobre las ciudades en 2050.
+p: In 2050, cities will be bigger. I think most people will live in cities. There will probably be more electric cars and fewer petrol cars.
+= En 2050, las ciudades serán más grandes. Creo que la mayoría de la gente vivirá en ciudades. Probablemente habrá más coches eléctricos y menos de gasolina.
+p: People won't use cash any more. Robots will deliver our shopping. But will people be happier? Nobody knows!
+= La gente ya no usará dinero en efectivo. Los robots nos traerán la compra. Pero ¿será la gente más feliz? ¡Nadie lo sabe!
+note: cities will be bigger ¦ tense ¦ will + verbo: predicción.
+note: There will probably be ¦ word-order ¦ probably va después de will.
+note: People won't use cash ¦ tense ¦ won't = will not.
+q: Where will most people live? ¦ ¿Dónde vivirá la mayoría? ¦ in cities / in villages / on the Moon ¦ 0 ¦ «most people will live in cities».
+q: What will robots do? ¦ ¿Qué harán los robots? ¦ deliver our shopping / teach / drive buses ¦ 0 ¦ «Robots will deliver our shopping».
+q: What won't people use? ¦ ¿Qué no usará la gente? ¦ cash / phones / cars ¦ 0 ¦ «People won't use cash any more».
+
+=== 10 | A fortune teller ¦ Una adivina
+sum: Una adivina predice el futuro de un cliente.
+p: Fortune teller: You will meet a tall, dark woman. You will travel to a hot country. Man: Will I be rich? Fortune teller: Yes, but not this year.
+= Adivina: Conocerá a una mujer alta y morena. Viajará a un país cálido. Hombre: ¿Seré rico? Adivina: Sí, pero no este año.
+p: Man: Will I find a new job? Fortune teller: I think you will. But you won't like your new boss! Man: Hmm… I don't think I'll come back here.
+= Hombre: ¿Encontraré un trabajo nuevo? Adivina: Creo que sí. ¡Pero su nuevo jefe no le gustará! Hombre: Mmm… No creo que vuelva por aquí.
+note: You will meet ¦ tense ¦ will para predicciones.
+note: Will I be rich ¦ tense ¦ Pregunta: Will + sujeto + verbo.
+note: I don't think I'll come back ¦ tense ¦ I don't think + will (✗ I think I won't).
+q: Where will he travel? ¦ ¿Adónde viajará? ¦ a hot country / a cold country / nowhere ¦ 0 ¦ «You will travel to a hot country».
+q: When will he be rich? ¦ ¿Cuándo será rico? ¦ not this year / this year / never ¦ 0 ¦ «Yes, but not this year».
+q: What won't he like? ¦ ¿Qué no le gustará? ¦ his new boss / his new house / the country ¦ 0 ¦ «you won't like your new boss».
+
+=== 11 | Busy week ¦ Una semana ocupada
+sum: Una mujer cuenta sus planes para la semana.
+p: I'm very busy this week. On Monday I'm meeting my boss at nine. On Tuesday I'm having lunch with my sister. On Wednesday evening I'm playing tennis.
+= Esta semana estoy muy ocupada. El lunes me reúno con mi jefe a las nueve. El martes como con mi hermana. El miércoles por la tarde juego al tenis.
+p: On Friday I'm flying to Rome for the weekend. Would you like to have coffee on Thursday? Shall we meet at the station café at five?
+= El viernes vuelo a Roma para pasar el fin de semana. ¿Te gustaría tomar un café el jueves? ¿Quedamos en la cafetería de la estación a las cinco?
+note: I'm meeting my boss ¦ tense ¦ Presente continuo: planes ya organizados.
+note: Would you like to have coffee ¦ modal ¦ Invitación: Would you like to…?
+note: Shall we meet ¦ modal ¦ Shall we…? = ¿Quedamos…?, ¿Hacemos…?
+q: Who is she having lunch with? ¦ ¿Con quién come? ¦ her sister / her boss / a friend ¦ 0 ¦ «with my sister».
+q: Where is she going on Friday? ¦ ¿Adónde va el viernes? ¦ Rome / Paris / London ¦ 0 ¦ «flying to Rome».
+q: When is she free? ¦ ¿Cuándo está libre? ¦ Thursday / Monday / Wednesday ¦ 0 ¦ «have coffee on Thursday».
+
+=== 12 | Have you ever…? ¦ ¿Alguna vez has…?
+sum: Dos amigos hablan de experiencias.
+p: Tom: Have you ever been to Japan? Ana: No, I haven't. But I've been to China. Tom: Really? When did you go? Ana: I went there in 2019.
+= Tom: ¿Has estado alguna vez en Japón? Ana: No. Pero he estado en China. Tom: ¿De verdad? ¿Cuándo fuiste? Ana: Fui en 2019.
+p: Tom: Have you ever eaten snake? Ana: Yes, I have! I tried it in Beijing. It tasted like chicken. Tom: I've never eaten anything strange!
+= Tom: ¿Has comido serpiente alguna vez? Ana: ¡Sí! La probé en Pekín. Sabía a pollo. Tom: ¡Yo nunca he comido nada raro!
+note: Have you ever been ¦ tense ¦ Present perfect + ever: experiencias.
+note: When did you go ¦ tense ¦ Con fecha concreta → pasado simple.
+note: I've never eaten ¦ tense ¦ never + present perfect = nunca.
+q: Has Ana been to Japan? ¦ ¿Ha estado Ana en Japón? ¦ no / yes / twice ¦ 0 ¦ «No, I haven't».
+q: When did Ana go to China? ¦ ¿Cuándo fue Ana a China? ¦ in 2019 / last year / never ¦ 0 ¦ «I went there in 2019».
+q: What did the snake taste like? ¦ ¿A qué sabía la serpiente? ¦ chicken / fish / nothing ¦ 0 ¦ «It tasted like chicken».
+
+=== 13 | Moving day ¦ El día de la mudanza
+sum: Una pareja comprueba qué han hecho ya en la mudanza.
+p: Ben: Have you packed the kitchen yet? Sue: Yes, I've already packed it. I've just finished the bathroom too.
+= Ben: ¿Has empaquetado ya la cocina? Sue: Sí, ya la he empaquetado. También acabo de terminar el baño.
+p: Ben: Great! I haven't called the removal company yet. Sue: Ben! We've lived here for ten years and you still haven't called them?
+= Ben: ¡Genial! Yo todavía no he llamado a la empresa de mudanzas. Sue: ¡Ben! Hemos vivido aquí diez años, ¿y todavía no les has llamado?
+note: Have you packed the kitchen yet ¦ tense ¦ yet en preguntas: ya.
+note: I've just finished ¦ tense ¦ just = acabar de.
+note: We've lived here for ten years ¦ tense ¦ Present perfect + for: duración hasta ahora.
+q: What has Sue already packed? ¦ ¿Qué ha empaquetado ya Sue? ¦ the kitchen / the bedroom / nothing ¦ 0 ¦ «I've already packed it».
+q: What hasn't Ben done? ¦ ¿Qué no ha hecho Ben? ¦ called the removal company / packed the car / cleaned ¦ 0 ¦ «I haven't called the removal company yet».
+q: How long have they lived there? ¦ ¿Cuánto tiempo han vivido allí? ¦ ten years / two years / one year ¦ 0 ¦ «for ten years».
+
+=== 14 | Getting to the airport ¦ Llegar al aeropuerto
+sum: Instrucciones para ir al aeropuerto.
+p: To get to the airport, take the number 7 bus from the city centre. Get off at the train station. Then take the train to Terminal 2.
+= Para ir al aeropuerto, coge el autobús número 7 desde el centro. Bájate en la estación de tren. Luego coge el tren a la Terminal 2.
+p: The journey takes about forty minutes. You can also go by taxi, but it's expensive. Don't go by car: there's never enough parking!
+= El trayecto dura unos cuarenta minutos. También puedes ir en taxi, pero es caro. No vayas en coche: ¡nunca hay suficiente aparcamiento!
+note: To get to the airport ¦ gerund-inf ¦ to + infinitivo = para (finalidad).
+note: Get off at the train station ¦ phrasal ¦ get off = bajarse.
+note: by taxi ¦ prep ¦ by + transporte (sin artículo).
+q: Where do you get off the bus? ¦ ¿Dónde te bajas del autobús? ¦ at the train station / at the airport / in the centre ¦ 0 ¦ «Get off at the train station».
+q: How long is the journey? ¦ ¿Cuánto dura el trayecto? ¦ about forty minutes / two hours / ten minutes ¦ 0 ¦ «about forty minutes».
+q: Why not go by car? ¦ ¿Por qué no ir en coche? ¦ There's never enough parking. / It's slow. / It's dangerous. ¦ 0 ¦ «there's never enough parking».
+
+=== 15 | New Year's resolutions ¦ Propósitos de año nuevo
+sum: Una chica cuenta sus propósitos para el año nuevo.
+p: This year I've decided to learn Italian. I want to visit Rome in the summer. I'm also planning to run a marathon. I enjoy running in the morning.
+= Este año he decidido aprender italiano. Quiero visitar Roma en verano. También tengo pensado correr una maratón. Disfruto corriendo por las mañanas.
+p: I'd like to stop eating chocolate, but that's difficult! I hope to finish all my resolutions. Last year I gave up in February.
+= Me gustaría dejar de comer chocolate, ¡pero es difícil! Espero cumplir todos mis propósitos. El año pasado lo dejé en febrero.
+note: I've decided to learn ¦ gerund-inf ¦ decide + to + infinitivo.
+note: I enjoy running ¦ gerund-inf ¦ enjoy + -ing.
+note: stop eating chocolate ¦ gerund-inf ¦ stop + -ing = dejar de.
+q: What language does she want to learn? ¦ ¿Qué idioma quiere aprender? ¦ Italian / French / German ¦ 0 ¦ «learn Italian».
+q: What is she planning to do? ¦ ¿Qué tiene pensado hacer? ¦ run a marathon / buy a car / move house ¦ 0 ¦ «planning to run a marathon».
+q: When did she give up last year? ¦ ¿Cuándo lo dejó el año pasado? ¦ in February / in January / in June ¦ 0 ¦ «I gave up in February».
+
+=== 16 | My grandma's soup ¦ La sopa de mi abuela
+sum: Una receta sencilla de sopa.
+p: First, chop an onion and two carrots. Then fry them in a little oil for five minutes. After that, add a litre of water and some salt.
+= Primero, pica una cebolla y dos zanahorias. Después, fríelas en un poco de aceite durante cinco minutos. A continuación, añade un litro de agua y un poco de sal.
+p: Boil the soup for twenty minutes. Finally, add some fresh herbs. My grandma always serves it with bread. It's the best soup in the world!
+= Hierve la sopa durante veinte minutos. Por último, añade unas hierbas frescas. Mi abuela siempre la sirve con pan. ¡Es la mejor sopa del mundo!
+note: First, chop an onion ¦ article ¦ an delante de sonido vocálico.
+note: After that ¦ linker ¦ first, then, after that, finally: ordenar pasos.
+note: some salt ¦ quantifier ¦ some con incontables.
+q: What vegetables do you need? ¦ ¿Qué verduras necesitas? ¦ an onion and two carrots / potatoes / tomatoes ¦ 0 ¦ «an onion and two carrots».
+q: How long do you boil the soup? ¦ ¿Cuánto tiempo hierves la sopa? ¦ twenty minutes / five minutes / an hour ¦ 0 ¦ «Boil the soup for twenty minutes».
+q: What does grandma serve it with? ¦ ¿Con qué la sirve la abuela? ¦ bread / rice / cheese ¦ 0 ¦ «serves it with bread».
+
+=== 17 | The people who helped me ¦ Las personas que me ayudaron
+sum: Una deportista agradece a las personas que la ayudaron.
+p: I want to thank the people who helped me. My coach, who trained me for ten years, is the most important. The club where I started is in my hometown.
+= Quiero dar las gracias a las personas que me ayudaron. Mi entrenador, que me entrenó durante diez años, es el más importante. El club donde empecé está en mi ciudad natal.
+p: My parents, whose house was always full of my friends, never stopped supporting me. And thank you to the fans who came to every race!
+= Mis padres, cuya casa siempre estaba llena de mis amigos, nunca dejaron de apoyarme. ¡Y gracias a los aficionados que vinieron a cada carrera!
+note: the people who helped me ¦ relative ¦ who para personas.
+note: The club where I started ¦ relative ¦ where para lugares.
+note: whose house ¦ relative ¦ whose = cuyo.
+q: How long did her coach train her? ¦ ¿Cuánto tiempo la entrenó su entrenador? ¦ ten years / five years / one year ¦ 0 ¦ «for ten years».
+q: Where is the club? ¦ ¿Dónde está el club? ¦ in her hometown / in London / abroad ¦ 0 ¦ «in my hometown».
+q: What sport does she do? ¦ ¿Qué deporte practica? ¦ running / swimming / tennis ¦ 0 ¦ «every race».
+
+=== 18 | Whose bag is this? ¦ ¿De quién es esta bolsa?
+sum: Dos amigos buscan al dueño de una bolsa olvidada.
+p: Max: Whose bag is this? Is it yours? Eva: No, it isn't mine. Mine is red. Maybe it's Tom's. Max: No, his is black.
+= Max: ¿De quién es esta bolsa? ¿Es tuya? Eva: No, no es mía. La mía es roja. Quizá sea de Tom. Max: No, la suya es negra.
+p: Eva: Look, there's a name inside: Sophie! Max: Oh, it's hers. I'll give it to her myself tomorrow. She'll be happy!
+= Eva: Mira, hay un nombre dentro: ¡Sophie! Max: Ah, es suya. Se la daré yo mismo mañana. ¡Se pondrá contenta!
+note: Is it yours ¦ pronoun ¦ yours = tuyo (pronombre posesivo).
+note: it's hers ¦ pronoun ¦ hers = suyo (de ella).
+note: I'll give it to her myself ¦ pronoun ¦ myself = yo mismo (énfasis).
+q: What colour is Eva's bag? ¦ ¿De qué color es la bolsa de Eva? ¦ red / black / blue ¦ 0 ¦ «Mine is red».
+q: Whose bag is it? ¦ ¿De quién es la bolsa? ¦ Sophie's / Tom's / Eva's ¦ 0 ¦ «it's hers» (de Sophie).
+q: When will Max give it back? ¦ ¿Cuándo la devolverá Max? ¦ tomorrow / today / next week ¦ 0 ¦ «I'll give it to her myself tomorrow».
+
+=== 19 | If it's sunny tomorrow ¦ Si mañana hace sol
+sum: Una familia hace planes según el tiempo.
+p: If it's sunny tomorrow, we'll go to the beach. If it rains, we'll visit the museum. Unless it's very cold, the children will want ice cream!
+= Si mañana hace sol, iremos a la playa. Si llueve, visitaremos el museo. ¡A menos que haga mucho frío, los niños querrán helado!
+p: If we leave early, we'll find a parking space. When we get home, I'll make pizza. And if everyone helps, we'll finish the washing-up quickly.
+= Si salimos temprano, encontraremos sitio para aparcar. Cuando lleguemos a casa, haré pizza. Y si todos ayudan, terminaremos de fregar rápido.
+note: If it's sunny tomorrow, we'll go ¦ conditional ¦ Primer condicional: if + presente, will.
+note: Unless it's very cold ¦ conditional ¦ unless = a menos que (if not).
+note: When we get home ¦ conditional ¦ when (seguro) ≠ if (posible); presente tras when.
+q: What will they do if it rains? ¦ ¿Qué harán si llueve? ¦ visit the museum / go to the beach / stay home ¦ 0 ¦ «If it rains, we'll visit the museum».
+q: What will the children want? ¦ ¿Qué querrán los niños? ¦ ice cream / pizza / sweets ¦ 0 ¦ «the children will want ice cream».
+q: What will they eat at home? ¦ ¿Qué comerán en casa? ¦ pizza / soup / fish ¦ 0 ¦ «I'll make pizza».
+
+=== 20 | At the restaurant ¦ En el restaurante
+sum: Una pareja pide en un restaurante con fórmulas de cortesía.
+p: Waiter: Would you like to see the menu? Anna: Yes, please. Could you bring us some water? Waiter: Of course. Would you like still or sparkling?
+= Camarero: ¿Desean ver la carta? Anna: Sí, por favor. ¿Nos podría traer agua? Camarero: Por supuesto. ¿La quieren sin gas o con gas?
+p: Anna: Still, please. I'd like the fish. Joe: I'd rather have the pasta. Would you mind closing the window? It's a bit cold. Waiter: Not at all.
+= Anna: Sin gas, por favor. Yo querría el pescado. Joe: Yo prefiero la pasta. ¿Le importaría cerrar la ventana? Hace un poco de frío. Camarero: En absoluto.
+note: Could you bring us ¦ modal ¦ Could you…? = petición cortés.
+note: I'd rather have ¦ modal ¦ I'd rather + infinitivo sin to = preferiría.
+note: Would you mind closing ¦ gerund-inf ¦ Would you mind + -ing? = ¿le importaría…?
+q: What water does Anna want? ¦ ¿Qué agua quiere Anna? ¦ still / sparkling / none ¦ 0 ¦ «Still, please».
+q: What does Joe order? ¦ ¿Qué pide Joe? ¦ pasta / fish / pizza ¦ 0 ¦ «I'd rather have the pasta».
+q: Why does Joe ask to close the window? ¦ ¿Por qué pide Joe cerrar la ventana? ¦ It's cold. / It's noisy. / It's raining. ¦ 0 ¦ «It's a bit cold».
