@@ -1,0 +1,581 @@
+#! es
+# B2 lessons (EOI Nivel Intermedio B2). Spanish only.
+
+=== 1
+title: Le seul qui puisse m'aider ¦ El único que puede ayudarme
+desc: El subjuntivo en las oraciones de relativo y tras el superlativo
+gram: le seul / le premier / le dernier / le meilleur … qui + subjuntivo ¦ búsqueda de algo que quizá no existe: je cherche quelqu'un qui sache… ¦ il n'y a personne qui / rien qui + subjuntivo ¦ quel que soit, qui que ce soit
+ref: b2-subjonctif-avance
+words: le seul, le premier, le dernier, le meilleur, l'unique, chercher, connaître, exister, trouver, quel que soit, qui que ce soit, quoi que, où que, le profil, le candidat, l'interlocuteur, l'expert, le spécialiste, compétent, fiable, capable, disponible, exigeant, rare, idéal, la compétence, la qualité, le critère, recruter, convaincre
+intro:
+<h3>Tras un superlativo o «el único»</h3>
+<p>Cuando se expresa una valoración subjetiva, el relativo va en subjuntivo:</p>
+<div class="example">C'est <strong>le meilleur</strong> film que j'<strong>aie</strong> jamais vu.<br>Vous êtes <strong>la seule</strong> personne qui <strong>puisse</strong> m'aider.<br>C'est <strong>le premier</strong> roman qu'elle <strong>ait</strong> écrit.</div>
+<p>Si es un hecho objetivo, indicativo: <i>C'est le premier train qui <b>part</b> demain.</i></p>
+<h3>Lo que se busca (y quizá no existe)</h3>
+<div class="example">Je cherche un appartement qui <strong>soit</strong> calme et lumineux. (no sé si existe)<br>≠ J'ai trouvé un appartement qui <strong>est</strong> calme. (existe)<br>Il n'y a <strong>personne qui sache</strong> réparer ça. · Je ne connais <strong>rien qui</strong> te <strong>plaise</strong>.</div>
+<h3>Concesivos con subjuntivo</h3>
+<table><tr><td><strong>quel(le)(s) que soit / soient</strong></td><td><strong>Quel que soit</strong> le prix, je l'achète. (sea cual sea)</td></tr>
+<tr><td><strong>qui que ce soit</strong></td><td>Ne l'ouvre à <strong>qui que ce soit</strong>. (a nadie, sea quien sea)</td></tr>
+<tr><td><strong>quoi que</strong> + subj.</td><td><strong>Quoi que</strong> tu <strong>dises</strong>, je pars. (digas lo que digas)</td></tr>
+<tr><td><strong>où que</strong> + subj.</td><td><strong>Où que</strong> tu <strong>ailles</strong>… (vayas donde vayas)</td></tr></table>
+<div class="warning">No confundas <b>quoi que</b> (digas lo que digas) con <b>quoique</b> (aunque). Y <b>quel que</b> concuerda con el sustantivo: <i>quel<b>le</b> que soit <b>la</b> raison</i>.</div>
+ex:
+fill ¦ C'est le plus beau paysage que j'___ jamais vu. ¦ aie ¦ ai / avais / aurai ¦ Es el paisaje más bonito que he visto nunca. ¦ Superlativo + subjuntivo.
+fill ¦ Je cherche quelqu'un qui ___ parler chinois. ¦ sache ¦ sait / saura / savait ¦ Busco a alguien que sepa hablar chino. ¦ No sé si existe → subjuntivo.
+fill ¦ ___ que soit ta décision, je te soutiendrai. ¦ Quelle ¦ Quel / Quoi / Qu'elle ¦ Sea cual sea tu decisión, te apoyaré. ¦ décision: femenino → quelle.
+fill ¦ ___ tu fasses, ne lui dis rien. ¦ Quoi que ¦ Quoique / Quel que / Qui que ¦ Hagas lo que hagas, no le digas nada. ¦ quoi que = lo que sea que.
+choose ¦ «Es el único que me entiende.» ¦ C'est le seul qui me comprenne. ¦ C'est le seul qui me comprend pas. / C'est le seul que me comprenne. / C'est le seul qui me comprendrait.
+choose ¦ «No hay nadie que pueda venir.» ¦ Il n'y a personne qui puisse venir. ¦ Il n'y a personne qui peut venir. / Il n'y a personne que puisse venir. / Il y a personne qui pourra venir.
+order ¦ Ne donne ton code à qui que ce soit ¦ No le des tu código a nadie.
+order ¦ C'est la meilleure solution que nous ayons trouvée ¦ Es la mejor solución que hemos encontrado.
+translate ¦ Busco un piso que sea barato. ¦ Je cherche un appartement qui soit bon marché. ¦ Je cherche un appartement qui ne soit pas cher. / Je cherche un logement qui soit bon marché.
+translate ¦ Vayas donde vayas, te seguiré. ¦ Où que tu ailles, je te suivrai. ¦ Où que vous alliez, je vous suivrai.
+match ¦ fiable=fiable; exigeant=exigente; recruter=contratar; quoi que=lo que sea que; qui que ce soit=cualquiera, nadie
+
+=== 2
+title: Je suis ravi que tu aies réussi ¦ Me alegro de que hayas aprobado
+desc: El subjuntivo pasado y la elección entre subjuntivo presente y pasado
+gram: subjonctif passé: subjuntivo de avoir / être + participio ¦ anterioridad: je suis content que tu sois venu ¦ simultaneidad o posterioridad: subjuntivo presente ¦ infinitivo pasado con el mismo sujeto: je suis content d'avoir réussi
+ref: b2-subjonctif-passe
+words: réussir, échouer, obtenir, terminer, oser, se tromper, se décider, regretter, apprécier, s'étonner, se réjouir, déplorer, douter, craindre, avant que, bien que, ravi, soulagé, navré, fier, honteux, surpris, ému, la nouvelle, le résultat, la récompense, le diplôme, le concours, l'épreuve, la mention
+intro:
+<h3>Formación</h3>
+<p>Subjuntivo presente de <b>avoir</b> o <b>être</b> + participio:</p>
+<table><tr><td>que j'<strong>aie</strong> fini · que tu <strong>aies</strong> vu · qu'il <strong>ait</strong> dit</td><td>que je <strong>sois</strong> parti(e) · que nous <strong>soyons</strong> arrivé(e)s · qu'elle <strong>se soit</strong> trompée</td></tr></table>
+<h3>¿Presente o pasado?</h3>
+<table><tr><td>La acción del subjuntivo es <strong>anterior</strong></td><td>Je suis ravi que tu <strong>aies réussi</strong>. (ya aprobaste)</td></tr>
+<tr><td>Es <strong>simultánea o posterior</strong></td><td>Je suis ravi que tu <strong>sois</strong> là. · Je doute qu'il <strong>vienne</strong> demain.</td></tr></table>
+<div class="example">Bien qu'il <strong>ait plu</strong> toute la nuit, le match a eu lieu.<br>Il faut que vous <strong>ayez terminé</strong> avant midi. (terminado antes de un momento)<br>Je regrette qu'elle <strong>soit partie</strong> si tôt.</div>
+<h3>Mismo sujeto → infinitivo pasado</h3>
+<div class="example">Je suis content <strong>d'avoir réussi</strong>. (✗ que j'aie réussi) · Elle regrette <strong>d'être partie</strong>.</div>
+<div class="tip">El francés hablado casi no usa el subjuntivo imperfecto (<i>qu'il fût</i>): donde el español dice «me alegré de que viniera», el francés dice <i>j'étais content qu'il <b>soit venu</b></i> / <i>qu'il <b>vienne</b></i>.</div>
+<div class="warning">Concordancia del participio como en el passé composé: <i>Je suis contente qu'elles <b>soient venues</b>.</i></div>
+ex:
+fill ¦ Je suis ravie que tu ___ réussi ton examen. ¦ aies ¦ as / avais / auras ¦ Me alegro mucho de que hayas aprobado el examen. ¦ Anterioridad → subjonctif passé.
+fill ¦ Je regrette qu'il ___ parti sans dire au revoir. ¦ soit ¦ est / ait / soit été ¦ Siento que se haya ido sin despedirse. ¦ partir → être.
+fill ¦ Bien qu'elle ___ beaucoup travaillé, elle a échoué. ¦ ait ¦ a / avait / est ¦ Aunque había trabajado mucho, suspendió. ¦ bien que + subjonctif passé.
+fill ¦ Il est content d'___ obtenu le poste. ¦ avoir ¦ être / ait / avait ¦ Está contento de haber obtenido el puesto. ¦ Mismo sujeto → infinitivo pasado.
+choose ¦ «Me sorprende que no hayan llamado.» ¦ Je suis surpris qu'ils n'aient pas appelé. ¦ Je suis surpris qu'ils n'ont pas appelé. / Je suis surpris qu'ils ne sont pas appelés. / Je suis surpris qu'ils n'appellent pas eu.
+choose ¦ «Hace falta que lo hayáis terminado antes del lunes.» ¦ Il faut que vous l'ayez terminé avant lundi. ¦ Il faut que vous l'avez terminé avant lundi. / Il faut que vous le terminiez été avant lundi. / Il faut que vous l'aurez terminé avant lundi.
+order ¦ Je doute qu'ils aient compris la question ¦ Dudo que hayan entendido la pregunta.
+order ¦ Nous sommes soulagés que tout se soit bien passé ¦ Nos tranquiliza que todo haya ido bien.
+translate ¦ Me alegro de que hayas venido. ¦ Je suis content que tu sois venu. ¦ Je suis contente que tu sois venue. / Je suis content que tu sois venue. / Je suis heureux que tu sois venu.
+translate ¦ Siento haberte molestado. ¦ Je suis désolé de t'avoir dérangé. ¦ Je suis désolée de t'avoir dérangé. / Je regrette de t'avoir dérangé. / Je suis désolé de vous avoir dérangé.
+match ¦ soulagé=aliviado; navré=muy apenado; ému=emocionado; se réjouir=alegrarse; la mention=calificación, mención
+
+=== 3
+title: Si j'avais su ¦ Si lo hubiera sabido
+desc: El condicional pasado: hipótesis sobre el pasado, reproches y lamentos
+gram: conditionnel passé: condicional de avoir / être + participio ¦ si + plus-que-parfait → conditionnel passé ¦ hipótesis mixtas ¦ reproches: tu aurais dû, tu aurais pu ¦ j'aurais aimé
+ref: b2-conditionnel-passe
+words: regretter, le regret, le reproche, reprocher, prévenir, avertir, deviner, imaginer, éviter, rater, manquer, saisir, l'occasion, la chance, l'erreur, la faute, la décision, le choix, autrement, à temps, plus tôt, si seulement, tant pis, dommage, devoir, pouvoir, aimer, préférer, oser, hésiter
+intro:
+<h3>Formación</h3>
+<p>Condicional de <b>avoir</b> / <b>être</b> + participio: <i>j'<b>aurais</b> fait · tu <b>aurais</b> pu · elle <b>serait</b> venue · nous nous <b>serions</b> rencontrés</i>.</p>
+<h3>Hipótesis irreal en el pasado</h3>
+<table><tr><td><strong>si + plus-que-parfait</strong> → <strong>conditionnel passé</strong></td><td><strong>Si</strong> j'<strong>avais su</strong>, je <strong>serais venu</strong>. (si lo hubiera sabido, habría venido)</td></tr>
+<tr><td>Mixta: pasado → presente</td><td><strong>Si</strong> tu <strong>avais pris</strong> ton parapluie, tu <strong>ne serais pas</strong> mouillé maintenant.</td></tr>
+<tr><td>Mixta: presente → pasado</td><td><strong>Si</strong> j'<strong>étais</strong> plus courageux, je lui <strong>aurais parlé</strong>.</td></tr></table>
+<h3>Reproches y lamentos</h3>
+<div class="example">Tu <strong>aurais dû</strong> me prévenir ! (deberías haberme avisado)<br>Vous <strong>auriez pu</strong> appeler ! (podríais haber llamado)<br>J'<strong>aurais aimé</strong> te voir. (me habría gustado)</div>
+<div class="tip">El condicional pasado también sirve para la información no confirmada en pasado: <i>Le voleur <b>aurait pris</b> la fuite.</i> (al parecer, el ladrón habría huido)</div>
+<div class="warning">Tras <b>si</b> nunca condicional: ✗ <i>Si j'aurais su…</i> → ✓ <i>Si j'<b>avais</b> su…</i> (error frecuente incluso entre nativos).</div>
+ex:
+fill ¦ Si j'avais su, je ___ venu plus tôt. ¦ serais ¦ aurais / suis / serai ¦ Si lo hubiera sabido, habría venido antes. ¦ venir → être; conditionnel passé.
+fill ¦ Si tu ___ écouté, tu aurais compris. ¦ avais ¦ aurais / as / avait ¦ Si hubieras escuchado, lo habrías entendido. ¦ si + plus-que-parfait.
+fill ¦ Tu ___ dû me le dire ! ¦ aurais ¦ avais / aurai / serais ¦ ¡Deberías habérmelo dicho! ¦ Reproche: aurais dû.
+fill ¦ Si elle avait pris le train de 8 h, elle ___ déjà là maintenant. ¦ serait ¦ aurait été / était / sera ¦ Si hubiera cogido el tren de las 8, ya estaría aquí. ¦ Hipótesis mixta: resultado presente.
+choose ¦ «Me habría gustado conocerla.» ¦ J'aurais aimé la connaître. ¦ J'aurai aimé la connaître. / J'avais aimé la connaître. / J'aimerais la connaître eu.
+choose ¦ «Si me hubieras llamado…» ¦ Si tu m'avais appelé… ¦ Si tu m'aurais appelé… / Si tu m'as appelé… / Si tu me appelais eu…
+order ¦ Nous aurions pu éviter cette erreur ¦ Podríamos haber evitado este error.
+order ¦ Si j'avais eu le temps je t'aurais aidé ¦ Si hubiera tenido tiempo, te habría ayudado.
+translate ¦ Deberías haberme avisado. ¦ Tu aurais dû me prévenir. ¦ Vous auriez dû me prévenir. / Tu aurais dû m'avertir.
+translate ¦ Si hubiéramos salido antes, no habríamos perdido el tren. ¦ Si nous étions partis plus tôt, nous n'aurions pas raté le train. ¦ Si on était partis plus tôt, on n'aurait pas raté le train. / Si nous étions partis plus tôt, nous n'aurions pas manqué le train.
+match ¦ tant pis=qué se le va a hacer; saisir l'occasion=aprovechar la ocasión; autrement=de otro modo; avertir=advertir; le reproche=reproche
+
+=== 4
+title: À condition que tu m'aides ¦ Siempre que me ayudes
+desc: Otras formas de expresar la condición y la hipótesis
+gram: à condition que / pourvu que / à moins que + subjuntivo ¦ à condition de / à moins de + infinitivo ¦ au cas où / dans le cas où + condicional ¦ en admettant que / à supposer que + subjuntivo ¦ sinon, sans, avec, en cas de + nombre ¦ gerundio condicional
+ref: b2-hypothese-avancee
+words: à condition que, à condition de, pourvu que, à moins que, à moins de, au cas où, dans le cas où, en cas de, en admettant que, à supposer que, sinon, faute de, la condition, l'hypothèse, le scénario, l'imprévu, l'urgence, la panne, l'accident, la garantie, l'assurance, le risque, prévoir, envisager, supposer, admettre, garantir, assurer, rembourser, annuler
+intro:
+<h3>Con subjuntivo</h3>
+<table><tr><td><strong>à condition que</strong></td><td>Je te prête ma voiture <strong>à condition que</strong> tu <strong>fasses</strong> attention. (siempre que)</td></tr>
+<tr><td><strong>pourvu que</strong></td><td>Tout ira bien, <strong>pourvu qu'</strong>il ne <strong>pleuve</strong> pas. (con tal de que; también «ojalá»)</td></tr>
+<tr><td><strong>à moins que</strong></td><td>Je viendrai, <strong>à moins que</strong> je (ne) <strong>sois</strong> malade. (a menos que)</td></tr>
+<tr><td><strong>en admettant que / à supposer que</strong></td><td><strong>À supposer qu'</strong>il <strong>accepte</strong>, qui paiera ? (suponiendo que)</td></tr></table>
+<h3>Con condicional</h3>
+<div class="example"><strong>Au cas où</strong> / <strong>Dans le cas où</strong> tu <strong>aurais</strong> un problème, appelle-moi. (en caso de que)</div>
+<h3>Sin verbo conjugado</h3>
+<div class="example"><strong>À condition de</strong> partir tôt, on arrivera à l'heure. (mismo sujeto)<br><strong>En cas de</strong> panne, appelez ce numéro. · <strong>Faute de</strong> temps, nous avons annulé. (por falta de)<br><strong>Avec</strong> un peu de chance, on gagnera. · <strong>Sans</strong> ton aide, j'aurais échoué.<br>Dépêche-toi, <strong>sinon</strong> on va rater le bus. (si no)</div>
+<div class="warning">El <b>ne</b> tras <i>à moins que</i> es «expletivo»: no niega nada y es opcional en la lengua corriente (<i>à moins qu'il ne pleuve</i> = a menos que llueva).</div>
+ex:
+fill ¦ Tu peux sortir à condition que tu ___ avant minuit. ¦ rentres ¦ rentreras / rentrerais / rentrais ¦ Puedes salir siempre que vuelvas antes de medianoche. ¦ à condition que + subjuntivo.
+fill ¦ Au cas où il ___ , prends un parapluie. ¦ pleuvrait ¦ pleuve / pleut / pleuvra ¦ Por si llueve, coge un paraguas. ¦ au cas où + condicional.
+fill ¦ ___ de place, nous n'avons pas pu entrer. ¦ Faute ¦ Sans / Manque / En cas ¦ Por falta de sitio, no pudimos entrar. ¦ faute de + nombre.
+fill ¦ Nous partirons demain, à moins qu'il ___ trop de neige. ¦ n'y ait ¦ y a / y aura / n'y a pas ¦ Nos iremos mañana, a menos que haya demasiada nieve. ¦ à moins que (ne) + subjuntivo.
+choose ¦ «En caso de incendio, no use el ascensor.» ¦ En cas d'incendie, n'utilisez pas l'ascenseur. ¦ Au cas d'incendie, n'utilisez pas l'ascenseur. / Dans le cas d'incendie qu'il y a, n'utilisez pas l'ascenseur. / Si cas d'incendie, n'utilisez pas l'ascenseur.
+choose ¦ «Ojalá venga.» ¦ Pourvu qu'il vienne ! ¦ Pourvu qu'il viendra ! / Pourvu qu'il vient ! / Pourvu de venir !
+order ¦ Tu réussiras à condition de travailler régulièrement ¦ Aprobarás siempre que trabajes con regularidad.
+order ¦ Range ta chambre sinon tu ne sortiras pas ¦ Ordena tu cuarto; si no, no saldrás.
+translate ¦ Suponiendo que acepte, ¿quién pagará? ¦ À supposer qu'il accepte, qui paiera ? ¦ En admettant qu'il accepte, qui paiera ? / À supposer qu'elle accepte, qui paiera ?
+translate ¦ Sin tu ayuda, no lo habría conseguido. ¦ Sans ton aide, je n'aurais pas réussi. ¦ Sans votre aide, je n'aurais pas réussi. / Sans ton aide, je n'y serais pas arrivé.
+match ¦ pourvu que=con tal de que, ojalá; faute de=por falta de; à moins que=a menos que; en cas de=en caso de; l'imprévu=imprevisto
+
+=== 5
+title: Il prétendait qu'il ne savait rien ¦ Afirmaba que no sabía nada
+desc: El discurso referido en pasado: verbos introductores y concordancia completa
+gram: verbos introductores precisos: affirmer, prétendre, reconnaître, avouer, nier, se plaindre, rassurer, insister, suggérer ¦ concordancia: imparfait, plus-que-parfait, conditionnel, conditionnel passé ¦ interrogación indirecta en pasado ¦ cambios de deícticos
+ref: b2-discours-passe
+words: affirmer, prétendre, reconnaître, avouer, nier, admettre, se plaindre, rassurer, insister, suggérer, ordonner, supplier, menacer, conseiller, répliquer, rétorquer, s'exclamer, murmurer, annoncer, déclarer, préciser, confier, le lendemain, la veille, ce jour-là, la semaine précédente, la semaine suivante, à ce moment-là, là-bas, le témoignage
+intro:
+<h3>Elegir el verbo introductor</h3>
+<p>En B2 no basta con <i>dire</i>: el verbo transmite la intención del hablante.</p>
+<table><tr><td><strong>affirmer / prétendre</strong> que</td><td>afirmar / pretender (con duda sobre la verdad)</td></tr>
+<tr><td><strong>reconnaître / avouer / admettre</strong> que</td><td>reconocer / confesar / admitir</td></tr>
+<tr><td><strong>nier</strong> + infinitivo pasado / que</td><td>negar: Il <strong>a nié avoir</strong> volé l'argent.</td></tr>
+<tr><td><strong>se plaindre</strong> que / de</td><td>quejarse</td></tr>
+<tr><td><strong>conseiller / suggérer / ordonner</strong> à qqn <strong>de</strong> + inf.</td><td>aconsejar / sugerir / ordenar</td></tr>
+<tr><td><strong>supplier / menacer</strong> qqn <strong>de</strong> + inf.</td><td>suplicar / amenazar</td></tr></table>
+<h3>Concordancia completa (verbo introductor en pasado)</h3>
+<table><tr><td>présent → imparfait</td><td>futur → conditionnel</td></tr>
+<tr><td>passé composé → plus-que-parfait</td><td>futur antérieur → conditionnel passé</td></tr></table>
+<div class="example">« J'aurai fini avant midi. » → Il a affirmé qu'il <strong>aurait fini</strong> avant midi.<br>« Où étais-tu hier ? » → Elle m'a demandé où j'<strong>avais été la veille</strong>.</div>
+<div class="tip">Si lo dicho sigue siendo verdad hoy, se puede mantener el presente: <i>Il m'a dit qu'il <b>habite</b> à Lyon</i> (y sigue viviendo allí).</div>
+<div class="warning"><b>prétendre</b> ≠ «pretender»: significa «afirmar (algo dudoso)». «Pretender, tener la intención» = <b>avoir l'intention de</b>, <b>compter</b>.</div>
+ex:
+fill ¦ Il a ___ qu'il ne savait rien, mais personne ne l'a cru. ¦ prétendu ¦ prétendre / prétendait / demandé ¦ Afirmó que no sabía nada, pero nadie le creyó. ¦ prétendre = afirmar algo dudoso.
+fill ¦ L'accusé a nié ___ volé la voiture. ¦ avoir ¦ d'avoir / qu'il / être ¦ El acusado negó haber robado el coche. ¦ nier + infinitivo pasado (sin de).
+fill ¦ Elle m'a dit qu'elle ___ fini avant midi. ¦ aurait ¦ aura / avait / ait ¦ Me dijo que habría terminado antes de mediodía. ¦ futur antérieur → conditionnel passé.
+fill ¦ Il m'a demandé où j'avais été la ___ . ¦ veille ¦ hier / lendemain / jour d'avant hier ¦ Me preguntó dónde había estado el día anterior. ¦ hier → la veille.
+choose ¦ «Te lo suplico, quédate.» → Il ¦ m'a supplié de rester. ¦ m'a supplié que je reste. / m'a supplié à rester. / a supplié moi rester.
+choose ¦ «Lo he hecho yo», confesó. → ¦ Il a avoué qu'il l'avait fait. ¦ Il a avoué qu'il l'a fait. / Il a avoué qu'il le faisait. / Il a avoué qu'il l'aurait fait.
+order ¦ Elle s'est plainte que personne ne l'écoutait ¦ Se quejó de que nadie la escuchaba.
+order ¦ Le directeur nous a conseillé de patienter ¦ El director nos aconsejó que esperáramos.
+translate ¦ Reconoció que se había equivocado. ¦ Il a reconnu qu'il s'était trompé. ¦ Elle a reconnu qu'elle s'était trompée. / Il a admis qu'il s'était trompé.
+translate ¦ Me aseguró que vendría. ¦ Il m'a assuré qu'il viendrait. ¦ Elle m'a assuré qu'elle viendrait.
+match ¦ nier=negar; avouer=confesar; supplier=suplicar; rétorquer=replicar; prétendre=afirmar (dudoso)
+
+=== 6
+title: Une histoire passionnante ¦ Una historia apasionante
+desc: Participio presente, adjetivo verbal y participio compuesto
+gram: participio presente (invariable): les élèves parlant anglais ¦ adjetivo verbal (concuerda): des histoires passionnantes ¦ diferencias de ortografía: fatiguant / fatigant, convainquant / convaincant, précédant / précédent ¦ ayant + participio, étant + participio
+ref: b2-participe-present
+words: passionnant, fatigant, convaincant, différent, précédent, négligent, excellent, provocant, intrigant, fascinant, surprenant, encourageant, inquiétant, stressant, émouvant, gênant, amusant, épuisant, charmant, ayant, étant, sachant, le texte, l'annonce, l'article, le formulaire, la candidature, le bulletin, le règlement, la notice
+intro:
+<h3>Participio presente: verbo (invariable)</h3>
+<p>Expresa una acción, puede llevar complementos y no concuerda. Es propio de la lengua escrita (equivale a una relativa con <i>qui</i>):</p>
+<div class="example">Nous cherchons des étudiants <strong>parlant</strong> anglais. (= qui parlent)<br>Les personnes <strong>souhaitant</strong> participer doivent s'inscrire.</div>
+<h3>Adjetivo verbal: adjetivo (concuerda)</h3>
+<p>Expresa una cualidad: <i>une histoire <b>passionnante</b>, des films <b>amusants</b>, des nouvelles <b>inquiétantes</b></i>.</p>
+<h3>¡Cuidado con la ortografía!</h3>
+<table><tr><td>participio (verbo)</td><td>adjetivo</td></tr>
+<tr><td>fatigu<strong>ant</strong> ses parents</td><td>un travail fatig<strong>ant</strong></td></tr>
+<tr><td>convainqu<strong>ant</strong> le jury</td><td>un argument convainc<strong>ant</strong></td></tr>
+<tr><td>précéd<strong>ant</strong> le concert</td><td>le jour préc<strong>édent</strong></td></tr>
+<tr><td>différ<strong>ant</strong> sur un point</td><td>des avis différ<strong>ents</strong></td></tr>
+<tr><td>néglige<strong>ant</strong> ses devoirs</td><td>un employé néglig<strong>ent</strong></td></tr></table>
+<h3>Participio compuesto</h3>
+<div class="example"><strong>Ayant terminé</strong> son travail, il est parti. (tras haber terminado)<br><strong>Étant arrivée</strong> en retard, elle n'a pas pu entrer.</div>
+<div class="warning">El participio presente no sustituye a «estar + gerundio»: ✗ <i>Il est parlant</i> → ✓ <i>Il parle / Il est en train de parler</i>.</div>
+ex:
+fill ¦ C'est un roman vraiment ___ . ¦ passionnant ¦ passionné / passion / passionner ¦ Es una novela realmente apasionante. ¦ Adjetivo verbal.
+fill ¦ Nous cherchons des vendeurs ___ l'allemand. ¦ parlant ¦ parlants / parlé / parlent ¦ Buscamos vendedores que hablen alemán. ¦ Participio presente: invariable.
+fill ¦ Ce travail est très ___ . ¦ fatigant ¦ fatiguant / fatigué / fatigue ¦ Este trabajo es muy cansado. ¦ Adjetivo: fatigant (sin u).
+fill ¦ ___ fini ses devoirs, il est sorti jouer. ¦ Ayant ¦ Étant / En ayant de / Avoir ¦ Tras haber terminado los deberes, salió a jugar. ¦ Participio compuesto con avoir.
+choose ¦ «un argumento convincente» ¦ un argument convaincant ¦ un argument convainquant / un argument convaincu / un argument convaincré
+choose ¦ «el día anterior» ¦ le jour précédent ¦ le jour précédant / le jour précédé / le jour précède
+order ¦ Les personnes souhaitant s'inscrire doivent remplir ce formulaire ¦ Las personas que deseen inscribirse deben rellenar este formulario.
+order ¦ Étant malade elle n'a pas pu venir ¦ Al estar enferma, no pudo venir.
+translate ¦ Son noticias preocupantes. ¦ Ce sont des nouvelles inquiétantes. ¦ C'est des nouvelles inquiétantes. / Ce sont des informations inquiétantes.
+translate ¦ Tras haber leído la carta, lloró. ¦ Ayant lu la lettre, elle a pleuré. ¦ Après avoir lu la lettre, elle a pleuré. / Ayant lu la lettre, il a pleuré. / Après avoir lu la lettre, il a pleuré.
+match ¦ épuisant=agotador; gênant=embarazoso; intrigant=intrigante; la notice=instrucciones (de un aparato); émouvant=conmovedor
+
+=== 7
+title: Les lettres que j'ai écrites ¦ Las cartas que he escrito
+desc: La concordancia del participio pasado
+gram: con être: concuerda con el sujeto ¦ con avoir: concuerda con el COD si va delante (que, la, les) ¦ pronominales: concuerdan con el COD si va delante (elle s'est lavée / elle s'est lavé les mains) ¦ no concuerda con en ni con el COI
+ref: b2-accord-participe
+words: écrire, envoyer, recevoir, acheter, vendre, offrir, prendre, mettre, faire, voir, laisser, perdre, trouver, oublier, choisir, rencontrer, inviter, se laver, se maquiller, se parler, se téléphoner, se dire, se rendre compte, la lettre, la photo, la clé, la chemise, la décision, la robe, la fleur
+intro:
+<h3>Con être → con el sujeto</h3>
+<div class="example">Elle est part<strong>ie</strong>. · Ils sont arrivé<strong>s</strong>. · La maison a été vendu<strong>e</strong>.</div>
+<h3>Con avoir → con el COD, solo si va delante</h3>
+<table><tr><td>COD detrás: no concuerda</td><td>J'ai écrit <strong>des lettres</strong>.</td></tr>
+<tr><td>COD delante (pronombre)</td><td>Ces lettres, je <strong>les</strong> ai écrit<strong>es</strong>.</td></tr>
+<tr><td>COD delante (relativo que)</td><td>Les lettres <strong>que</strong> j'ai écrit<strong>es</strong>.</td></tr>
+<tr><td>COD delante (pregunta)</td><td><strong>Quelles fleurs</strong> as-tu choisi<strong>es</strong> ?</td></tr>
+<tr><td>con <strong>en</strong>: no concuerda</td><td>Des fleurs ? J'<strong>en</strong> ai acheté.</td></tr></table>
+<h3>Pronominales</h3>
+<div class="example">Elle s'est lavé<strong>e</strong>. (se = COD → concuerda)<br>Elle s'est lavé <strong>les mains</strong>. (COD = les mains, detrás → no concuerda)<br>Ils se sont parlé. · Elles se sont téléphoné. (se = COI → no concuerda)</div>
+<div class="tip">La concordancia solo se oye en algunos participios: <i>écrit/écrite, mis/mise, pris/prise, fait/faite, ouvert/ouverte</i>. ¡En los exámenes escritos de la EOI se nota mucho!</div>
+<div class="warning">«Se dijeron» → <i>ils se sont <b>dit</b></i> (dire <b>à</b> quelqu'un: se es COI → no concuerda).</div>
+ex:
+fill ¦ Les photos que tu as ___ sont magnifiques. ¦ prises ¦ pris / prise / prenues ¦ Las fotos que hiciste son magníficas. ¦ COD (que = photos) delante.
+fill ¦ Cette robe, je l'ai ___ en solde. ¦ achetée ¦ acheté / achetés / achetées ¦ Este vestido lo compré en rebajas. ¦ l' = la robe, delante.
+fill ¦ Elle s'est ___ les cheveux. ¦ lavé ¦ lavée / lavés / lavées ¦ Se lavó el pelo. ¦ COD (les cheveux) detrás → no concuerda.
+fill ¦ Ils se sont ___ des mots doux. ¦ dit ¦ dits / dites / dite ¦ Se dijeron palabras cariñosas. ¦ se = COI.
+choose ¦ «¿Qué decisión has tomado?» ¦ Quelle décision as-tu prise ? ¦ Quelle décision as-tu pris ? / Quelle décision as-tu prises ? / Quelle décision es-tu prise ?
+choose ¦ «¿Manzanas? He comprado.» ¦ Des pommes ? J'en ai acheté. ¦ Des pommes ? J'en ai achetées. / Des pommes ? J'en ai achetés. / Des pommes ? J'en suis acheté.
+order ¦ La lettre que tu m'as écrite m'a beaucoup touché ¦ La carta que me escribiste me emocionó mucho.
+order ¦ Elles se sont rencontrées à l'université ¦ Se conocieron en la universidad.
+translate ¦ Las llaves, las he perdido. ¦ Les clés, je les ai perdues. ¦ J'ai perdu les clés.
+translate ¦ Se maquilló. (ella) ¦ Elle s'est maquillée. ¦ Elle s'est maquillée
+match ¦ se maquiller=maquillarse; se téléphoner=llamarse; laisser=dejar; offrir=regalar; choisir=elegir
+
+=== 8
+title: Il s'est vu refuser l'entrée ¦ Le negaron la entrada
+desc: La pasiva avanzada y sus alternativas
+gram: pasiva en todos los tiempos (avait été, aura été, serait…) ¦ pasiva impersonal: il a été décidé que ¦ se voir + infinitivo / participio ¦ se faire + infinitivo ¦ se laisser + infinitivo ¦ verbos pronominales pasivos
+ref: b2-passif-avance
+words: décider, annoncer, interdire, autoriser, accorder, refuser, attribuer, confier, remettre, licencier, nommer, élire, juger, condamner, arrêter, accuser, soupçonner, interroger, la mesure, la loi, la réforme, le décret, le projet, la sanction, la peine, l'amende, la décision, l'enquête, officiellement, provisoirement
+intro:
+<h3>Todos los tiempos</h3>
+<div class="example">La loi <strong>avait été votée</strong> avant les élections. (pluscuamperfecto)<br>Le projet <strong>aura été terminé</strong> d'ici juin. (futuro anterior)<br>Le suspect <strong>aurait été arrêté</strong> hier soir. (condicional pasado: no confirmado)</div>
+<h3>Pasiva impersonal</h3>
+<div class="example"><strong>Il a été décidé</strong> que les cours reprendraient lundi.<br><strong>Il est interdit</strong> de fumer. · <strong>Il sera procédé</strong> à un vote. (registro administrativo)</div>
+<h3>Alternativas con verbos pronominales</h3>
+<table><tr><td><strong>se voir</strong> + infinitivo / participio</td><td>Il <strong>s'est vu refuser</strong> l'entrée. · Elle <strong>s'est vu attribuer</strong> un prix. (cuando el sujeto es COI en la activa)</td></tr>
+<tr><td><strong>se faire</strong> + infinitivo</td><td>Il <strong>s'est fait arrêter</strong> par la police. (con matiz de responsabilidad o mala suerte)</td></tr>
+<tr><td><strong>se laisser</strong> + infinitivo</td><td>Elle <strong>s'est laissé convaincre</strong>. (se dejó convencer)</td></tr>
+<tr><td>pronominal pasivo</td><td>Cette expression <strong>ne s'emploie plus</strong>. · Le vin blanc <strong>se boit</strong> frais.</td></tr></table>
+<div class="tip">En francés, el COI no puede ser sujeto de la pasiva: ✗ <i>Il a été refusé l'entrée</i>. Para «le negaron la entrada» se usa <i>se voir</i> o <i>on</i>: <i><b>On lui a refusé</b> l'entrée</i>.</div>
+<div class="warning"><i>se voir</i> y <i>se faire</i> + infinitivo no concuerdan el participio: <i>Elle s'est <b>fait</b> voler</i>, <i>elle s'est <b>vu</b> offrir</i>.</div>
+ex:
+fill ¦ Il a été ___ que la réunion aurait lieu jeudi. ¦ décidé ¦ décidée / décider / décidés ¦ Se decidió que la reunión tendría lugar el jueves. ¦ Pasiva impersonal: invariable.
+fill ¦ Elle s'est vu ___ le premier prix. ¦ attribuer ¦ attribué / attribuée / attribuant ¦ Le concedieron el primer premio. ¦ se voir + infinitivo.
+fill ¦ Il s'est ___ arrêter pour excès de vitesse. ¦ fait ¦ faite / vu être / été ¦ Lo detuvieron por exceso de velocidad. ¦ se faire + infinitivo.
+fill ¦ Selon la presse, deux suspects ___ été arrêtés. ¦ auraient ¦ avaient / ont eu / seraient ¦ Según la prensa, dos sospechosos habrían sido detenidos. ¦ Información no confirmada.
+choose ¦ «Le negaron el visado.» ¦ Il s'est vu refuser son visa. ¦ Il a été refusé son visa. / Il s'est refusé son visa. / Il s'est fait refusé son visa.
+choose ¦ «Se dejó engañar.» ¦ Elle s'est laissé tromper. ¦ Elle s'est laissée trompée. / Elle a été laissée tromper. / Elle s'est fait trompée.
+order ¦ Le pont aura été réparé avant l'hiver ¦ El puente habrá sido reparado antes del invierno.
+order ¦ Cette expression ne s'utilise plus aujourd'hui ¦ Esta expresión ya no se usa hoy en día.
+translate ¦ Le robaron la cartera en el metro. ¦ Il s'est fait voler son portefeuille dans le métro. ¦ On lui a volé son portefeuille dans le métro. / Elle s'est fait voler son portefeuille dans le métro.
+translate ¦ Se ha decidido aplazar el viaje. ¦ Il a été décidé de reporter le voyage. ¦ On a décidé de reporter le voyage. / Il a été décidé de repousser le voyage.
+match ¦ licencier=despedir; soupçonner=sospechar; la peine=condena; l'amende=multa; provisoirement=provisionalmente
+
+=== 9
+title: Je fais réparer ma voiture ¦ Llevo el coche a reparar
+desc: Las construcciones causativas: faire + infinitivo y laisser + infinitivo
+gram: faire + infinitivo (mandar hacer, hacer que) ¦ se faire + infinitivo (a uno mismo) ¦ laisser + infinitivo (dejar que) ¦ posición de los pronombres: je le fais réparer, je lui fais lire ¦ fait invariable
+ref: b2-faire-causatif
+words: faire, laisser, réparer, construire, nettoyer, couper, livrer, installer, repeindre, examiner, venir, entrer, attendre, rire, pleurer, peur, le coiffeur, le garagiste, le plombier, l'électricien, le dentiste, le médecin, le devis, la facture, le chantier, les travaux, la livraison, le rendez-vous, le service, le réparateur
+intro:
+<h3>faire + infinitivo</h3>
+<table><tr><td>mandar hacer algo</td><td>Je <strong>fais réparer</strong> ma voiture. (llevo el coche a reparar)</td></tr>
+<tr><td>hacer que alguien haga algo</td><td>Ce film m'<strong>a fait rire</strong>. · Le professeur <strong>fait lire</strong> les élèves.</td></tr>
+<tr><td>a uno mismo: <strong>se faire</strong></td><td>Je <strong>me suis fait couper</strong> les cheveux. (me corté el pelo en la peluquería)</td></tr></table>
+<h3>laisser + infinitivo</h3>
+<div class="example"><strong>Laisse</strong>-moi <strong>parler</strong> ! · Ils <strong>ont laissé entrer</strong> les enfants. · Ne <strong>laisse</strong> pas <strong>brûler</strong> la sauce !</div>
+<h3>Los pronombres</h3>
+<div class="example">Ma voiture ? Je <strong>la</strong> fais réparer. (delante de faire)<br>Je fais lire ce texte <strong>aux élèves</strong> → Je <strong>leur</strong> fais lire ce texte.<br>Imperativo: <strong>Fais-le</strong> entrer ! · <strong>Laisse-la</strong> partir !</div>
+<div class="tip">«Me corté el pelo» en la peluquería = <i>je me suis <b>fait</b> couper les cheveux</i>; <i>je me suis coupé les cheveux</i> significa que lo hiciste tú.</div>
+<div class="warning">El participio <b>fait</b> + infinitivo nunca concuerda: <i>Elle s'est <b>fait</b> opérer</i> (✗ <i>faite</i>).</div>
+ex:
+fill ¦ Je ___ installer une nouvelle cuisine. ¦ fais ¦ suis / laisse faire / fait ¦ Me están instalando una cocina nueva. ¦ faire + infinitivo.
+fill ¦ Elle s'est ___ opérer du genou. ¦ fait ¦ faite / faits / faire ¦ La operaron de la rodilla. ¦ fait + infinitivo: invariable.
+fill ¦ ___ -moi finir ma phrase ! ¦ Laisse ¦ Fais / Faire / Laisser ¦ ¡Déjame terminar la frase! ¦ laisser + infinitivo.
+fill ¦ Les enfants ? Je ___ ai fait manger à six heures. ¦ les ¦ leur / lui / en ¦ ¿Los niños? Les di de comer a las seis. ¦ Pronombre delante de faire.
+choose ¦ «Me corté el pelo (en la peluquería).» ¦ Je me suis fait couper les cheveux. ¦ Je me suis coupé les cheveux par le coiffeur. / J'ai fait me couper les cheveux. / Je me suis faite couper les cheveux.
+choose ¦ «Esta película me hizo llorar.» ¦ Ce film m'a fait pleurer. ¦ Ce film m'a fait pleuré. / Ce film a fait me pleurer. / Ce film m'a faite pleurer.
+order ¦ Nous avons fait construire une maison à la campagne ¦ Nos hicimos construir una casa en el campo.
+order ¦ Ne le laisse pas sortir seul ¦ No le dejes salir solo.
+translate ¦ Voy a hacer que limpien la alfombra. ¦ Je vais faire nettoyer le tapis. ¦ Je vais faire nettoyer la moquette.
+translate ¦ Déjalos entrar. ¦ Laisse-les entrer. ¦ Laissez-les entrer.
+match ¦ le devis=presupuesto; le garagiste=mecánico; repeindre=volver a pintar; les travaux=obras; le plombier=fontanero
+
+=== 10
+title: Hausse des prix : colère des consommateurs ¦ Subida de precios: enfado de los consumidores
+desc: La nominalización: de la frase al sustantivo, y el estilo de los titulares
+gram: verbo → nombre: augmenter → l'augmentation, partir → le départ, arrêter → l'arrestation ¦ adjetivo → nombre: lent → la lenteur, fier → la fierté ¦ titulares sin verbo ¦ el género de los sufijos (-tion, -ment, -age, -ure, -ité)
+ref: b2-nominalisation
+words: la hausse, la baisse, l'augmentation, la diminution, la réduction, l'arrestation, le départ, l'arrivée, la fermeture, l'ouverture, le lancement, la création, la disparition, la découverte, la construction, le refus, l'annulation, la suppression, la grève, la manifestation, la colère, la fierté, la lenteur, la richesse, la pauvreté, la gratuité, la sécurité, la mise en place, le titre, la une
+intro:
+<h3>¿Para qué?</h3>
+<p>La nominalización condensa la información: es típica de los titulares, de los informes y de la redacción formal (EOI B2-C1).</p>
+<div class="example">Les prix ont augmenté → <strong>L'augmentation</strong> des prix<br>La police a arrêté le suspect → <strong>L'arrestation</strong> du suspect<br>Le musée va fermer → <strong>Fermeture</strong> du musée</div>
+<h3>Sufijos frecuentes y su género</h3>
+<table><tr><td><strong>-tion / -sion</strong> (f.)</td><td>créer → la créa<strong>tion</strong>, décider → la déci<strong>sion</strong></td></tr>
+<tr><td><strong>-ment</strong> (m.)</td><td>lancer → le lance<strong>ment</strong>, changer → le change<strong>ment</strong></td></tr>
+<tr><td><strong>-age</strong> (m.)</td><td>gaspiller → le gaspill<strong>age</strong>, recycler → le recycl<strong>age</strong></td></tr>
+<tr><td><strong>-ure</strong> (f.)</td><td>fermer → la ferme<strong>ture</strong>, ouvrir → l'ouver<strong>ture</strong></td></tr>
+<tr><td><strong>-ité / -eur / -esse</strong> (f.)</td><td>gratuit → la gratu<strong>ité</strong>, lent → la lent<strong>eur</strong>, riche → la rich<strong>esse</strong></td></tr>
+<tr><td>formas cortas</td><td>partir → le départ, refuser → le refus, hausser → la hausse, baisser → la baisse</td></tr></table>
+<div class="tip">El complemento del verbo pasa a ir con <b>de</b>: <i>On a supprimé des postes → <b>la suppression de</b> postes</i>.</div>
+<div class="warning">Ojo al género: <i><b>le</b> manque</i>, <i><b>la</b> hausse</i>, <i><b>le</b> refus</i>, <i><b>la</b> fin</i>. Las palabras en <b>-age</b> son masculinas salvo <i>la page, la plage, l'image, la cage, la nage, la rage</i>.</div>
+ex:
+fill ¦ ___ des prix inquiète les familles. ¦ La hausse ¦ Le hausse / La haussement / L'haussage ¦ La subida de precios preocupa a las familias. ¦ hausser → la hausse.
+fill ¦ ___ du musée est prévue pour 2027. ¦ La réouverture ¦ Le rouvrir / La réouvrage / Le réouvrement ¦ La reapertura del museo está prevista para 2027. ¦ rouvrir → la réouverture.
+fill ¦ Le ___ du nouveau téléphone a eu lieu hier. ¦ lancement ¦ lancage / lançure / lancée ¦ El lanzamiento del nuevo teléfono tuvo lugar ayer. ¦ lancer → le lancement.
+fill ¦ La ___ des transports publics est une bonne idée. ¦ gratuité ¦ gratuit / gratuitement / gratuitude ¦ La gratuidad del transporte público es una buena idea. ¦ gratuit → la gratuité.
+choose ¦ Titular para «El gobierno ha reducido los impuestos.» ¦ Réduction des impôts par le gouvernement ¦ Le gouvernement réduit-il les impôts ? / Réduire impôts gouvernement / Les impôts sont réduits, le gouvernement
+choose ¦ Nombre de «lent» ¦ la lenteur ¦ la lentité / le lentement / la lentesse
+order ¦ L'annulation du concert a déçu les fans ¦ La cancelación del concierto decepcionó a los fans.
+order ¦ La disparition des abeilles inquiète les scientifiques ¦ La desaparición de las abejas preocupa a los científicos.
+translate ¦ Cierre de la fábrica. ¦ Fermeture de l'usine. ¦ La fermeture de l'usine.
+translate ¦ La llegada de los turistas. ¦ L'arrivée des touristes. ¦ L'arrivée des touristes
+match ¦ la hausse=subida; la baisse=bajada; la une=portada (de un periódico); la mise en place=puesta en marcha; le refus=negativa
+
+=== 11
+title: Or, ainsi, du moins ¦ Ahora bien, así, al menos
+desc: Conectores del discurso formal para organizar y matizar
+gram: añadir: de surcroît, par ailleurs, d'ailleurs ¦ deducir: ainsi, dès lors, de ce fait ¦ objeción: or, toutefois, néanmoins ¦ matizar: du moins, en tout cas, du reste ¦ resumir: en somme, en définitive ¦ ejemplificar: notamment, à savoir
+ref: b2-connecteurs
+words: or, ainsi, d'ailleurs, par ailleurs, de surcroît, dès lors, de ce fait, toutefois, néanmoins, du moins, en tout cas, du reste, en somme, en définitive, notamment, à savoir, autrement dit, en d'autres termes, quant à, en ce qui concerne, en revanche, certes, bref, effectivement, finalement, également, aussi, enfin, cependant, d'autant plus que
+intro:
+<h3>Conectores del registro formal</h3>
+<table><tr><td>añadir</td><td><strong>par ailleurs</strong> (por otra parte) · <strong>de surcroît</strong> (además) · <strong>d'ailleurs</strong> (por cierto, además)</td></tr>
+<tr><td>consecuencia</td><td><strong>ainsi</strong> (así pues) · <strong>dès lors</strong> (por tanto) · <strong>de ce fait</strong> (por ello)</td></tr>
+<tr><td>objeción</td><td><strong>or</strong> (ahora bien) · <strong>toutefois / néanmoins</strong> (no obstante)</td></tr>
+<tr><td>matizar</td><td><strong>du moins</strong> (al menos) · <strong>en tout cas</strong> (en cualquier caso) · <strong>du reste</strong> (por lo demás)</td></tr>
+<tr><td>precisar</td><td><strong>notamment</strong> (en particular) · <strong>à savoir</strong> (a saber) · <strong>autrement dit</strong> (dicho de otro modo)</td></tr>
+<tr><td>tema</td><td><strong>quant à</strong> · <strong>en ce qui concerne</strong> (en cuanto a)</td></tr>
+<tr><td>resumir</td><td><strong>en somme</strong> · <strong>en définitive</strong> · <strong>bref</strong></td></tr></table>
+<h3>El razonamiento con «or»</h3>
+<div class="example">Tous les hommes sont mortels. <strong>Or</strong> Socrate est un homme. <strong>Donc</strong> Socrate est mortel.<br>Il voulait partir en train. <strong>Or</strong>, il y avait une grève. Il a <strong>donc</strong> pris la voiture.</div>
+<div class="tip"><b>aussi</b> al principio de la frase, con inversión, significa «por eso» (formal): <i>Il pleuvait ; <b>aussi</b> sommes-nous restés.</i></div>
+<div class="warning"><b>or</b> no es «o»: introduce un dato que cambia el razonamiento («ahora bien», «pero resulta que»).</div>
+ex:
+fill ¦ Il devait venir en avion. ___ , tous les vols ont été annulés. ¦ Or ¦ Ou / Donc / Ainsi ¦ Debía venir en avión. Ahora bien, cancelaron todos los vuelos. ¦ or = ahora bien.
+fill ¦ Le projet est coûteux ; ___ , il est inutile. ¦ de surcroît ¦ en somme / or / du moins ¦ El proyecto es caro; además, es inútil. ¦ de surcroît = además.
+fill ¦ Plusieurs pays, ___ la France et l'Italie, ont signé l'accord. ¦ notamment ¦ à savoir que / or / ainsi ¦ Varios países, en particular Francia e Italia, han firmado el acuerdo. ¦ notamment = en particular.
+fill ¦ Il n'est pas riche, ___ c'est ce qu'il dit. ¦ du moins ¦ du reste / or / à savoir ¦ No es rico; al menos, eso es lo que dice. ¦ du moins = al menos.
+choose ¦ «Llovía; por eso nos quedamos.» (formal) ¦ Il pleuvait ; aussi sommes-nous restés. ¦ Il pleuvait ; aussi nous sommes-nous restés. / Il pleuvait ; or sommes-nous restés. / Il pleuvait ; aussi nous restâmes-nous.
+choose ¦ «Dicho de otro modo» ¦ autrement dit ¦ autre dit / dit autrement / à savoir dire
+order ¦ En ce qui concerne le budget nous en parlerons demain ¦ En cuanto al presupuesto, hablaremos de ello mañana.
+order ¦ En somme le bilan est plutôt positif ¦ En suma, el balance es más bien positivo.
+translate ¦ En cuanto a mí, no estoy de acuerdo. ¦ Quant à moi, je ne suis pas d'accord. ¦ Pour ma part, je ne suis pas d'accord. / En ce qui me concerne, je ne suis pas d'accord.
+translate ¦ En cualquier caso, gracias. ¦ En tout cas, merci. ¦ Dans tous les cas, merci.
+match ¦ or=ahora bien; de surcroît=además; dès lors=por tanto; à savoir=a saber; en somme=en suma
+
+=== 12
+title: Ce à quoi je pense ¦ Aquello en lo que pienso
+desc: Relativos avanzados: ce à quoi, ce dont, quoi, celui dont, où con valor temporal
+gram: ce que / ce qui / ce dont / ce à quoi (lo que) ¦ preposición + quoi (antecedente neutro) ¦ celui / celle dont, celui auquel ¦ là où, au moment où, à l'époque où ¦ dont + parte de un todo
+ref: b2-relatifs-avances
+words: ce à quoi, ce dont, quoi, celui dont, là où, au moment où, à l'époque où, le jour où, s'attendre, penser, rêver, consister, servir, se plaindre, se souvenir, tenir, renoncer, s'intéresser, faire allusion, réfléchir, l'allusion, l'intérêt, le souvenir, la raison, le sujet, l'essentiel, le reste, parmi, dont, lequel
+intro:
+<h3>«Lo que» según la preposición del verbo</h3>
+<table><tr><td>sujeto → <strong>ce qui</strong></td><td><strong>Ce qui</strong> me plaît, c'est le calme.</td></tr>
+<tr><td>COD → <strong>ce que</strong></td><td>Dis-moi <strong>ce que</strong> tu veux.</td></tr>
+<tr><td>de → <strong>ce dont</strong></td><td><strong>Ce dont</strong> je rêve, c'est d'une maison. (rêver de)</td></tr>
+<tr><td>à → <strong>ce à quoi</strong></td><td><strong>Ce à quoi</strong> je pense, c'est à l'avenir. (penser à)</td></tr>
+<tr><td>otras prep. → <strong>ce + prep. + quoi</strong></td><td>C'est <strong>ce sur quoi</strong> il insiste. · <strong>Ce contre quoi</strong> je me bats…</td></tr></table>
+<h3>Preposición + quoi (antecedente neutro)</h3>
+<div class="example">Il a fini, <strong>après quoi</strong> il est parti. (tras lo cual)<br>Prends un parapluie, <strong>sans quoi</strong> tu seras mouillé. (de lo contrario)<br>Il n'a pas <strong>de quoi</strong> payer. (con qué)</div>
+<h3>Otros usos</h3>
+<div class="example">Le roman <strong>dont</strong> j'ai lu <strong>la fin</strong>… · Dix candidats, <strong>dont</strong> trois femmes. (entre ellos)<br><strong>Là où</strong> j'habite, il n'y a pas de métro. · <strong>À l'époque où</strong> je vivais à Paris…</div>
+<div class="warning">«Lo que esperaba» → <i>ce <b>à quoi</b> je m'attendais</i> (s'attendre <b>à</b>), no <i>ce que je m'attendais</i>.</div>
+ex:
+fill ¦ C'est exactement ___ je m'attendais. ¦ ce à quoi ¦ ce que / ce dont / à quoi ce ¦ Es exactamente lo que esperaba. ¦ s'attendre à → ce à quoi.
+fill ¦ ___ j'ai besoin, c'est de repos. ¦ Ce dont ¦ Ce que / Ce à quoi / Dont ce ¦ Lo que necesito es descanso. ¦ avoir besoin de → ce dont.
+fill ¦ Range ta chambre, ___ tu ne sortiras pas. ¦ sans quoi ¦ sans que / pour quoi / à quoi ¦ Ordena tu cuarto; de lo contrario, no saldrás. ¦ sans quoi = si no.
+fill ¦ Vingt personnes, ___ deux enfants, ont été blessées. ¦ dont ¦ parmi / avec / lesquels ¦ Veinte personas, entre ellas dos niños, resultaron heridas. ¦ dont = entre ellos.
+choose ¦ «Es aquello a lo que se dedica.» ¦ C'est ce à quoi il se consacre. ¦ C'est ce qu'il se consacre. / C'est ce dont il se consacre. / C'est à ce quoi il se consacre.
+choose ¦ «No tiene con qué vivir.» ¦ Il n'a pas de quoi vivre. ¦ Il n'a pas quoi vivre. / Il n'a pas de que vivre. / Il n'a rien pour quoi vivre.
+order ¦ Là où nous habitons il n'y a pas de cinéma ¦ Donde vivimos no hay cine.
+order ¦ Il a dîné après quoi il s'est couché ¦ Cenó, tras lo cual se acostó.
+translate ¦ No sé de qué habla. ¦ Je ne sais pas de quoi il parle. ¦ Je ne sais pas de quoi elle parle.
+translate ¦ Es lo que me interesa. ¦ C'est ce qui m'intéresse. ¦ C'est ce à quoi je m'intéresse.
+match ¦ s'attendre à=esperar(se); faire allusion=aludir; après quoi=tras lo cual; sans quoi=de lo contrario; de quoi=con qué
+
+=== 13
+title: Tant qu'il y aura des livres ¦ Mientras haya libros
+desc: Las relaciones temporales: simultaneidad, anterioridad, posterioridad y progresión
+gram: au moment où, pendant que, tandis que, tant que, à mesure que, au fur et à mesure que ¦ depuis que, dès que, aussitôt que, une fois que ¦ avant que (+ subj.), en attendant que, jusqu'à ce que ¦ après que (+ indicativo)
+ref: b2-temps
+words: au moment où, pendant que, tandis que, tant que, à mesure que, au fur et à mesure, depuis que, dès que, aussitôt que, une fois que, avant que, en attendant que, jusqu'à ce que, après que, lorsque, chaque fois que, à peine, désormais, dorénavant, jadis, autrefois, auparavant, ultérieurement, simultanément, progressivement, peu à peu, le délai, l'échéance, le calendrier, la durée
+intro:
+<h3>Simultaneidad</h3>
+<table><tr><td><strong>au moment où</strong></td><td>Il est arrivé <strong>au moment où</strong> je partais. (justo cuando)</td></tr>
+<tr><td><strong>tant que</strong></td><td><strong>Tant qu'</strong>il <strong>pleuvra</strong>, nous resterons ici. (mientras; futuro si es futuro)</td></tr>
+<tr><td><strong>à mesure que / au fur et à mesure que</strong></td><td><strong>À mesure qu'</strong>on vieillit, on devient plus patient. (a medida que)</td></tr>
+<tr><td><strong>chaque fois que</strong></td><td><strong>Chaque fois que</strong> je le vois, il me parle de son chien.</td></tr></table>
+<h3>Anterioridad y posterioridad</h3>
+<table><tr><td>+ indicativo</td><td><strong>depuis que</strong>, <strong>dès que</strong>, <strong>aussitôt que</strong>, <strong>une fois que</strong>, <strong>après que</strong></td></tr>
+<tr><td>+ subjuntivo</td><td><strong>avant que</strong>, <strong>en attendant que</strong>, <strong>jusqu'à ce que</strong></td></tr></table>
+<div class="example"><strong>Depuis qu'</strong>il a déménagé, il est plus heureux.<br><strong>En attendant que</strong> le repas <strong>soit</strong> prêt, prenons l'apéritif.<br><strong>À peine</strong> était-il arrivé <strong>qu'</strong>il voulait repartir. (apenas… cuando; inversión)</div>
+<div class="tip">Marcadores útiles: <b>désormais / dorénavant</b> (de ahora en adelante), <b>jadis / autrefois</b> (antaño), <b>auparavant</b> (antes), <b>ultérieurement</b> (posteriormente).</div>
+<div class="warning"><b>après que</b> va con indicativo en la norma (<i>après qu'il <b>est</b> parti</i>), aunque mucha gente usa el subjuntivo por analogía con <i>avant que</i>.</div>
+ex:
+fill ¦ Le téléphone a sonné au ___ où je sortais. ¦ moment ¦ temps / instant que / jour ¦ El teléfono sonó justo cuando salía. ¦ au moment où.
+fill ¦ ___ qu'il y aura du soleil, on restera à la plage. ¦ Tant ¦ Autant / Pendant / Dès ¦ Mientras haga sol, nos quedaremos en la playa. ¦ tant que = mientras.
+fill ¦ En attendant que tu ___ prête, je fais un café. ¦ sois ¦ es / seras / serais ¦ Mientras esperas a estar lista, hago un café. ¦ en attendant que + subjuntivo.
+fill ¦ À ___ était-il rentré qu'il est reparti. ¦ peine ¦ moins / mesure / force ¦ Apenas había vuelto cuando se fue otra vez. ¦ à peine … que (inversión).
+choose ¦ «A medida que pasan los años…» ¦ À mesure que les années passent… ¦ À la mesure que les années passent… / Au fur que les années passent… / En mesure que les années passent…
+choose ¦ «Desde que trabaja, ya no viene.» ¦ Depuis qu'il travaille, il ne vient plus. ¦ Depuis il travaille, il ne vient plus. / Dès qu'il travaille, il ne vient plus pas. / Depuis qu'il travaille, il ne vient pas encore.
+order ¦ Dorénavant les réunions auront lieu le lundi ¦ De ahora en adelante, las reuniones tendrán lugar los lunes.
+order ¦ Chaque fois que je vais à Paris je visite un musée ¦ Cada vez que voy a París visito un museo.
+translate ¦ Mientras viva aquí, no tendré coche. ¦ Tant que je vivrai ici, je n'aurai pas de voiture. ¦ Tant que j'habiterai ici, je n'aurai pas de voiture.
+translate ¦ Espera hasta que vuelva. ¦ Attends jusqu'à ce que je revienne. ¦ Attendez jusqu'à ce que je revienne. / Attends que je revienne.
+match ¦ dorénavant=en adelante; ultérieurement=posteriormente; au fur et à mesure=a medida que; à peine=apenas; jadis=antaño
+
+=== 14
+title: Il paraît que… ¦ Parece ser que…
+desc: Expresar la certeza, la probabilidad y la duda; distanciarse de una información
+gram: certeza: il est certain / évident que + indicativo ¦ probabilidad: il est probable que + indicativo; il est possible / peu probable que + subjuntivo ¦ il semble que (+ subj.) / il me semble que (+ ind.) ¦ il paraît que, selon, d'après ¦ devoir de probabilidad: il a dû oublier
+ref: b2-modalisation
+words: certain, sûr, évident, incontestable, probable, improbable, possible, impossible, douteux, il semble que, il paraît que, apparemment, vraisemblablement, sans doute, sans aucun doute, peut-être, forcément, éventuellement, la certitude, la probabilité, le doute, l'hypothèse, la rumeur, la source, l'information, confirmer, démentir, vérifier, supposer, se douter
+intro:
+<h3>Del más seguro al menos seguro</h3>
+<table><tr><td>certeza + <strong>indicativo</strong></td><td>Il est <strong>certain / évident / sûr</strong> qu'il <strong>viendra</strong>.</td></tr>
+<tr><td>probabilidad + <strong>indicativo</strong></td><td>Il est <strong>probable</strong> qu'il <strong>pleuvra</strong>.</td></tr>
+<tr><td>posibilidad + <strong>subjuntivo</strong></td><td>Il est <strong>possible / peu probable</strong> qu'il <strong>pleuve</strong>.</td></tr>
+<tr><td>duda + <strong>subjuntivo</strong></td><td>Il est <strong>douteux</strong> que le projet <strong>réussisse</strong>.</td></tr></table>
+<h3>sembler y paraître</h3>
+<div class="example"><strong>Il semble que</strong> tu <strong>aies</strong> raison. (subjuntivo: impresión)<br><strong>Il me semble que</strong> tu <strong>as</strong> raison. (indicativo: opinión personal)<br><strong>Il paraît que</strong> le directeur va démissionner. (dicen que; rumor)</div>
+<h3>Otros recursos</h3>
+<div class="example"><strong>devoir</strong> = probabilidad: Il <strong>a dû</strong> oublier. (debe de haberse olvidado)<br><strong>sans doute</strong> = probablemente · <strong>sans aucun doute</strong> = sin ninguna duda<br>Condicional de distanciamiento: L'accident <strong>aurait fait</strong> dix victimes.</div>
+<div class="warning"><b>sans doute</b> NO significa «sin duda» sino «probablemente». Para «sin duda»: <b>sans aucun doute</b>, <b>assurément</b>.</div>
+ex:
+fill ¦ Il est évident qu'il ___ raison. ¦ a ¦ ait / aurait / avoir ¦ Es evidente que tiene razón. ¦ Certeza → indicativo.
+fill ¦ Il est peu probable qu'elle ___ à temps. ¦ arrive ¦ arrivera / arrivait / est arrivée ¦ Es poco probable que llegue a tiempo. ¦ peu probable → subjuntivo.
+fill ¦ Il ___ que le maire va démissionner. ¦ paraît ¦ semble à / apparaît / pareil ¦ Dicen que el alcalde va a dimitir. ¦ il paraît que = dicen que.
+fill ¦ Paul n'est pas là ? Il a ___ rater son train. ¦ dû ¦ du / devait / devoir ¦ ¿Paul no ha llegado? Debe de haber perdido el tren. ¦ devoir de probabilidad.
+choose ¦ «Probablemente vendrá.» ¦ Il viendra sans doute. ¦ Il viendra sans aucun doute probablement. / Il viendra sans doutes. / Il viendra sans le doute.
+choose ¦ «Parece que se ha equivocado.» ¦ Il semble qu'il se soit trompé. ¦ Il semble qu'il s'est trompé pas. / Il semble que il se trompera eu. / Il me semble qu'il se soit trompé.
+order ¦ Selon nos sources le ministre aurait démissionné ¦ Según nuestras fuentes, el ministro habría dimitido.
+order ¦ Il est possible que nous arrivions en retard ¦ Es posible que lleguemos tarde.
+translate ¦ Me parece que es demasiado tarde. ¦ Il me semble qu'il est trop tard. ¦ Il me semble que c'est trop tard.
+translate ¦ Debe de estar enfermo. ¦ Il doit être malade. ¦ Elle doit être malade.
+match ¦ vraisemblablement=probablemente; démentir=desmentir; douteux=dudoso; sans aucun doute=sin ninguna duda; se douter=sospechar, imaginarse
+
+=== 15
+title: T'as vu ce truc ? ¦ ¿Has visto esa cosa?
+desc: Los registros de lengua: familiar, corriente y cuidado
+gram: rasgos del registro familiar: caída del ne, t'as, y'a, ouais, on = nous, ça ¦ léxico familiar: bagnole, boulot, fric, mec, truc, bouquin ¦ verlan (meuf, relou, ouf) ¦ registro cuidado: inversión, nous, ne … point, vocabulario formal
+ref: b2-registre
+words: le registre, familier, courant, soutenu, argotique, poli, vulgaire, la bagnole, le boulot, le fric, le mec, la nana, le truc, le machin, le bouquin, la fringue, le pote, bosser, bouffer, piger, crever, se planter, kiffer, ouais, ça, sympa, nul, génial, galère, ras le bol
+intro:
+<h3>Tres registros</h3>
+<table><tr><td>familiar</td><td>J'<strong>ai pas</strong> de <strong>fric</strong> pour la <strong>bagnole</strong>.</td></tr>
+<tr><td>corriente</td><td>Je n'ai pas d'argent pour la voiture.</td></tr>
+<tr><td>cuidado</td><td>Je ne dispose pas des fonds nécessaires à l'achat d'un véhicule.</td></tr></table>
+<h3>Rasgos del francés hablado familiar</h3>
+<div class="example">Caída del <strong>ne</strong>: <i>Je sais pas.</i> · <strong>t'as</strong> = tu as · <strong>y'a</strong> = il y a · <strong>on</strong> = nous · <strong>ça</strong> = cela · preguntas con entonación: <i>Tu viens quand ?</i></div>
+<h3>Léxico familiar muy frecuente</h3>
+<table><tr><td>le boulot / bosser</td><td>el trabajo / currar</td></tr>
+<tr><td>le fric / le pognon</td><td>la pasta</td></tr>
+<tr><td>la bagnole · le bouquin · les fringues</td><td>el coche · el libro · la ropa</td></tr>
+<tr><td>le mec · la nana · le pote</td><td>el tío · la chica · el colega</td></tr>
+<tr><td>bouffer · piger · se planter · kiffer</td><td>comer · pillar (entender) · equivocarse · molar</td></tr>
+<tr><td>c'est galère · j'en ai ras le bol</td><td>es un rollo · estoy hasta las narices</td></tr></table>
+<h3>El verlan</h3>
+<p>Invierte las sílabas: <i>femme → <b>meuf</b>, lourd → <b>relou</b>, fou → <b>ouf</b>, louche → <b>chelou</b></i>. Es muy coloquial y juvenil.</p>
+<div class="warning">En el examen escrito de la EOI se evalúa la adecuación: en una carta formal, nada de <i>truc, boulot, ça, on</i>. En la interacción oral informal, en cambio, suenan naturales.</div>
+ex:
+fill ¦ (familiar) J'ai pas le temps, j'ai trop de ___ . ¦ boulot ¦ travail soutenu / labeur / bosser ¦ No tengo tiempo, tengo demasiado curro. ¦ boulot = trabajo (familiar).
+fill ¦ (familiar) Tu as ___ ce qu'il a dit ? ¦ pigé ¦ appréhendé / perçu / saisi formellement ¦ ¿Has pillado lo que ha dicho? ¦ piger = entender (familiar).
+fill ¦ (corriente) Je n'ai pas assez d'___ pour partir en vacances. ¦ argent ¦ fric / pognon / thune ¦ No tengo suficiente dinero para irme de vacaciones. ¦ Registro corriente: argent.
+fill ¦ (familiar) ___ a du monde ce soir ! ¦ Y'a ¦ Il existe / Il se trouve / Nous avons ¦ ¡Hay mucha gente esta noche! ¦ y'a = il y a (oral).
+choose ¦ Registro cuidado ¦ Je vous saurais gré de bien vouloir me répondre. ¦ Réponds-moi vite, stp. / Tu me réponds ou quoi ? / Ce serait sympa de répondre.
+choose ¦ «chelou» en lengua corriente ¦ louche, bizarre ¦ très lourd / fou / une femme
+order ¦ J'en ai ras le bol de ce boulot ¦ Estoy hasta las narices de este curro.
+order ¦ Je ne sais pas où il habite ¦ No sé dónde vive.
+translate ¦ (familiar) No sé. ¦ Je sais pas. ¦ J'sais pas. / Chais pas.
+translate ¦ (familiar) ¿Has visto a ese tío? ¦ T'as vu ce mec ? ¦ Tu as vu ce mec ? / T'as vu le mec ?
+match ¦ la bagnole=coche; le bouquin=libro; bosser=currar; se planter=equivocarse; galère=rollo, lío
+
+=== 16
+title: Poser un lapin ¦ Dar plantón
+desc: Expresiones idiomáticas frecuentes del francés
+gram: expresiones con animales, partes del cuerpo y comida ¦ uso en contexto y registro ¦ equivalentes españoles
+ref: b2-expressions
+words: le lapin, le cafard, la mouche, le chat, la puce, le loup, le poisson, la poule, le coq, la vache, la tête, le pied, la main, le cœur, l'œil, le nez, la langue, l'oreille, le cheveu, la pomme, la poire, le citron, la moutarde, le beurre, le pain, la crêpe, l'oignon, la salade, la patate, la prune
+intro:
+<h3>Animales</h3>
+<table><tr><td><strong>poser un lapin</strong> à qqn</td><td>dar plantón</td></tr>
+<tr><td><strong>avoir le cafard</strong></td><td>estar depre</td></tr>
+<tr><td><strong>avoir un chat dans la gorge</strong></td><td>tener carraspera</td></tr>
+<tr><td><strong>quelle mouche t'a piqué ?</strong></td><td>¿qué mosca te ha picado?</td></tr>
+<tr><td><strong>mettre la puce à l'oreille</strong></td><td>hacer sospechar</td></tr>
+<tr><td><strong>quand les poules auront des dents</strong></td><td>cuando las ranas críen pelo</td></tr></table>
+<h3>Cuerpo</h3>
+<table><tr><td><strong>coûter les yeux de la tête</strong></td><td>costar un ojo de la cara</td></tr>
+<tr><td><strong>se casser la tête</strong></td><td>romperse la cabeza</td></tr>
+<tr><td><strong>avoir la langue bien pendue</strong></td><td>no tener pelos en la lengua, hablar mucho</td></tr>
+<tr><td><strong>mettre les pieds dans le plat</strong></td><td>meter la pata</td></tr>
+<tr><td><strong>avoir un poil dans la main</strong></td><td>ser un vago</td></tr>
+<tr><td><strong>tirer par les cheveux</strong></td><td>rebuscado, traído por los pelos</td></tr></table>
+<h3>Comida</h3>
+<table><tr><td><strong>raconter des salades</strong></td><td>contar trolas</td></tr>
+<tr><td><strong>la moutarde me monte au nez</strong></td><td>se me hinchan las narices</td></tr>
+<tr><td><strong>ce n'est pas tes oignons</strong></td><td>no es asunto tuyo</td></tr>
+<tr><td><strong>vouloir le beurre et l'argent du beurre</strong></td><td>querer estar en misa y repicando</td></tr>
+<tr><td><strong>tomber dans les pommes</strong></td><td>desmayarse</td></tr>
+<tr><td><strong>pour des prunes</strong></td><td>para nada</td></tr></table>
+<div class="tip">Muchas expresiones existen igual en español (<i>coûter les yeux de la tête</i>), otras cambian de imagen (<i>poser un lapin</i>). No las traduzcas palabra por palabra.</div>
+<div class="warning">Son de registro familiar o corriente: evítalas en una carta formal.</div>
+ex:
+fill ¦ Il m'a posé un ___ : je l'ai attendu une heure ! ¦ lapin ¦ chat / poisson / loup ¦ Me dio plantón: ¡le esperé una hora! ¦ poser un lapin.
+fill ¦ Cette voiture coûte les yeux de la ___ . ¦ tête ¦ main / face / bouche ¦ Este coche cuesta un ojo de la cara. ¦ coûter les yeux de la tête.
+fill ¦ Depuis son départ, j'ai le ___ . ¦ cafard ¦ chat / lapin / moral bas ¦ Desde que se fue, estoy depre. ¦ avoir le cafard.
+fill ¦ Il fait trop chaud, elle est tombée dans les ___ . ¦ pommes ¦ poires / prunes / patates ¦ Hace demasiado calor, se ha desmayado. ¦ tomber dans les pommes.
+choose ¦ «No es asunto tuyo.» ¦ Ce ne sont pas tes oignons. ¦ Ce n'est pas ta salade. / Ce ne sont pas tes pommes. / Ce n'est pas ton beurre.
+choose ¦ «Meter la pata» ¦ mettre les pieds dans le plat ¦ mettre la main dans le sac / mettre la tête dans le plat / casser les pieds
+order ¦ Arrête de raconter des salades ¦ Deja de contar trolas.
+order ¦ Il a vraiment un poil dans la main ¦ Es un auténtico vago.
+translate ¦ Cuando las ranas críen pelo. ¦ Quand les poules auront des dents. ¦ Quand les poules auront des dents
+translate ¦ ¿Qué mosca te ha picado? ¦ Quelle mouche t'a piqué ? ¦ Quelle mouche vous a piqué ?
+match ¦ avoir le cafard=estar depre; poser un lapin=dar plantón; raconter des salades=contar trolas; pour des prunes=para nada; se casser la tête=romperse la cabeza
+
+=== 17
+title: Certes…, mais ¦ Es cierto que…, pero
+desc: Argumentar: concesión y refutación, matizar y concluir
+gram: concesión-refutación: certes … mais, il est vrai que … cependant, sans doute … mais ¦ refutar: contrairement à ce que, loin de, il est faux de dire que ¦ insistir: non seulement … mais aussi / encore ¦ si … que (concesión) ¦ avoir beau + infinitivo
+ref: b2-argumentation
+words: certes, il est vrai que, sans doute, contrairement à, loin de, non seulement, mais aussi, avoir beau, si … que, aussi … que, réfuter, nuancer, objecter, l'objection, la thèse, l'antithèse, la synthèse, le paragraphe, l'introduction, la conclusion, l'exemple, la preuve, le raisonnement, convaincant, pertinent, discutable, contestable, solide, fragile, justifier
+intro:
+<h3>La concesión seguida de refutación</h3>
+<p>Es la estructura clave del texto argumentativo en la EOI:</p>
+<div class="example"><strong>Certes</strong>, internet facilite l'accès à l'information, <strong>mais</strong> il favorise aussi la désinformation.<br><strong>Il est vrai que</strong> le télétravail est pratique ; <strong>cependant</strong>, il isole les salariés.</div>
+<h3>Refutar</h3>
+<div class="example"><strong>Contrairement à ce que</strong> l'on pense, les jeunes lisent beaucoup.<br><strong>Loin de</strong> résoudre le problème, cette loi l'aggrave. (lejos de)<br><strong>Il est faux de dire que</strong> le vélo est dangereux.</div>
+<h3>Insistir y conceder con fuerza</h3>
+<table><tr><td><strong>non seulement … mais (aussi / encore)</strong></td><td>Il est <strong>non seulement</strong> cher <strong>mais aussi</strong> inutile.</td></tr>
+<tr><td><strong>avoir beau</strong> + infinitivo</td><td>J'<strong>ai beau</strong> chercher, je ne trouve pas. (por más que busco)</td></tr>
+<tr><td><strong>si / aussi</strong> + adj. + <strong>que</strong> + subj.</td><td><strong>Si</strong> intelligent <strong>qu'</strong>il <strong>soit</strong>, il fait des erreurs. (por muy inteligente que sea)</td></tr></table>
+<div class="tip">Plan clásico de un ensayo francés: <b>thèse</b> (argumentos a favor) – <b>antithèse</b> (en contra) – <b>synthèse</b> (posición matizada).</div>
+<div class="warning"><b>avoir beau</b> no tiene nada que ver con «bello»: expresa un esfuerzo inútil.</div>
+ex:
+fill ¦ ___ , le projet est coûteux, mais il créera des emplois. ¦ Certes ¦ Or / Donc / Ainsi ¦ Es cierto que el proyecto es caro, pero creará empleo. ¦ certes … mais.
+fill ¦ J'ai ___ lui expliquer, il ne comprend pas. ¦ beau ¦ bien / bon / belle ¦ Por más que se lo explico, no lo entiende. ¦ avoir beau + infinitivo.
+fill ¦ ___ de calmer la situation, ses mots l'ont aggravée. ¦ Loin ¦ Près / Au lieu / Malgré ¦ Lejos de calmar la situación, sus palabras la empeoraron. ¦ loin de + infinitivo.
+fill ¦ Si riche qu'il ___ , il n'est pas heureux. ¦ soit ¦ est / sera / était ¦ Por muy rico que sea, no es feliz. ¦ si … que + subjuntivo.
+choose ¦ «No solo es caro, sino también feo.» ¦ Il est non seulement cher, mais aussi laid. ¦ Il est non seulement cher, sinon laid. / Il est pas seulement cher, mais laid aussi seulement. / Il est seulement non cher, mais laid.
+choose ¦ «Contrariamente a lo que se cree…» ¦ Contrairement à ce que l'on croit… ¦ Contraire à ce qu'on croit… / Au contraire de ce on croit… / Contrairement à que l'on croit…
+order ¦ Il est vrai que la ville est chère cependant elle offre beaucoup d'opportunités ¦ Es cierto que la ciudad es cara; sin embargo, ofrece muchas oportunidades.
+order ¦ Cet argument me semble discutable ¦ Este argumento me parece discutible.
+translate ¦ Por más que lo intento, no lo consigo. ¦ J'ai beau essayer, je n'y arrive pas. ¦ J'ai beau essayer, je ne réussis pas.
+translate ¦ Lejos de ayudar, molesta. ¦ Loin d'aider, il dérange. ¦ Loin d'aider, elle dérange. / Loin d'aider, ça dérange.
+match ¦ certes=ciertamente; objecter=objetar; nuancer=matizar; contestable=discutible; l'antithèse=antítesis
+
+=== 18
+title: Il serait souhaitable que… ¦ Sería deseable que…
+desc: Proponer soluciones: medio ambiente y sociedad
+gram: il faudrait que / il serait souhaitable que / il est indispensable que + subjuntivo ¦ il conviendrait de + infinitivo ¦ proponer: je propose que + subj., pourquoi ne pas…? ¦ léxico del medio ambiente
+ref: b2-environnement
+words: l'environnement, l'écologie, le réchauffement climatique, la pollution, le recyclage, le gaspillage, le déchet, l'énergie renouvelable, l'énergie solaire, l'éolienne, le carbone, l'empreinte carbone, la biodiversité, l'espèce menacée, la déforestation, la sécheresse, l'inondation, le transport en commun, le covoiturage, le compost, durable, polluant, biodégradable, sensibiliser, préserver, réduire, limiter, consommer, trier, il conviendrait de
+intro:
+<h3>Proponer con cortesía y firmeza</h3>
+<table><tr><td>+ subjuntivo</td><td><strong>Il faudrait que</strong> chacun <strong>fasse</strong> un effort.<br><strong>Il serait souhaitable que</strong> les villes <strong>développent</strong> les pistes cyclables.<br><strong>Il est indispensable que</strong> nous <strong>réduisions</strong> nos déchets.<br><strong>Je propose que</strong> nous <strong>organisions</strong> une collecte.</td></tr>
+<tr><td>+ infinitivo</td><td><strong>Il conviendrait de</strong> limiter la circulation. · <strong>Il faudrait</strong> sensibiliser les enfants.</td></tr>
+<tr><td>pregunta retórica</td><td><strong>Pourquoi ne pas</strong> taxer les emballages plastiques ?</td></tr></table>
+<h3>Léxico del medio ambiente</h3>
+<div class="example">le réchauffement climatique · l'empreinte carbone · les énergies renouvelables (solaire, éolienne) · le tri des déchets · le gaspillage alimentaire · le covoiturage · les espèces menacées · la sécheresse · la biodiversité</div>
+<div class="tip">«Sostenible» = <b>durable</b> (<i>le développement durable</i>). «Reciclar» = <b>recycler</b>; «separar la basura» = <b>trier ses déchets</b>.</div>
+<div class="warning"><i>il conviendrait de</i> (convendría) es un condicional muy formal y muy útil en las cartas y ensayos de la EOI.</div>
+ex:
+fill ¦ Il serait souhaitable que chacun ___ ses déchets. ¦ trie ¦ trier / trie-t-il / triera ¦ Sería deseable que cada uno separe sus residuos. ¦ souhaitable que + subjuntivo.
+fill ¦ Il ___ de développer les transports en commun. ¦ conviendrait ¦ convient que / convenait / conviendra que ¦ Convendría desarrollar el transporte público. ¦ il conviendrait de + infinitivo.
+fill ¦ Le ___ permet de partager les frais de voyage. ¦ covoiturage ¦ compost / gaspillage / recyclage ¦ El coche compartido permite compartir los gastos de viaje. ¦ covoiturage = coche compartido.
+fill ¦ Il est indispensable que nous ___ notre consommation d'énergie. ¦ réduisions ¦ réduisons / réduirons / réduire ¦ Es imprescindible que reduzcamos nuestro consumo de energía. ¦ indispensable que + subjuntivo.
+choose ¦ «desarrollo sostenible» ¦ le développement durable ¦ le développement soutenable durable / le développement soutenu / le développement duré
+choose ¦ Una propuesta en forma de pregunta ¦ Pourquoi ne pas interdire les sacs plastiques ? ¦ Pourquoi pas interdire les sacs plastiques ! / Pourquoi on interdit pas les sacs ? Non. / Pour quoi ne pas les sacs interdire ?
+order ¦ Il faudrait que les entreprises limitent leurs emballages ¦ Haría falta que las empresas limiten sus embalajes.
+order ¦ La sécheresse menace de nombreuses espèces ¦ La sequía amenaza a numerosas especies.
+translate ¦ Hay que reducir el desperdicio alimentario. ¦ Il faut réduire le gaspillage alimentaire. ¦ Il faudrait réduire le gaspillage alimentaire. / On doit réduire le gaspillage alimentaire.
+translate ¦ Propongo que organicemos una reunión. ¦ Je propose que nous organisions une réunion. ¦ Je propose qu'on organise une réunion.
+match ¦ l'éolienne=aerogenerador; la sécheresse=sequía; le covoiturage=coche compartido; biodégradable=biodegradable; l'empreinte carbone=huella de carbono

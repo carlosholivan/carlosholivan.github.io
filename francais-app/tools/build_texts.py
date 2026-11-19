@@ -151,7 +151,7 @@ def gloss_of(k, tok):
 
 
 # ── verb phrases ─────────────────────────────────────────────────────────
-SKIP = set("ne n' pas plus jamais rien point guère déjà toujours encore bien mal beaucoup peu trop vraiment souvent même aussi tout enfin jamais".split())
+SKIP = set("ne n' pas plus jamais rien point guère déjà toujours encore bien mal beaucoup peu trop vraiment souvent même aussi tout enfin jamais finalement peut-être sûrement probablement certainement également longtemps presque sans doute".split())
 SUBJ_PRON = set("je j' tu il elle on nous vous ils elles qui".split())
 REFL = set("me m' te t' se s' nous vous".split())
 OBJ = set("en y le la l' les lui leur".split())
@@ -233,6 +233,9 @@ def verb_phrases(text, toks, doc):
                     kind, end, lem = 'pas', j, ppl
                 else:
                     kind, end, lem = AUX_TENSE.get(at[0] if at else 'pres', 'pc'), j, ppl
+                    j3 = nxt(j)
+                    if ppl == 'faire' and j3 is not None and toks[j3][2] in INFS and toks[j3][2] not in ('être', 'avoir'):
+                        kind, end, lem = 'causatif', j3, toks[j3][2]
         elif 'aller' in lemmas and j is not None and jk in INFS and any(t in ('pres', 'imparf') for w, t, p in cands if w == 'aller'):
             kind, end, lem = 'futproche', j, jk
         elif 'venir' in lemmas and j is not None and jk in ('de', "d'") and inf_after(j + 1) is not None:
@@ -258,7 +261,7 @@ def verb_phrases(text, toks, doc):
                 prev = toks[i - 1][2] if i else ''
                 if 'subj' in ts and ('pres' not in ts or (re.search(r"\bqu[e']", before[-40:]) and SUBJ_TRIG.search(before))):
                     kind = 'subj'
-                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e):
+                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e) and not text[:s].rstrip().endswith(('»', '"', '—', ',')):
                     kind = 'imp'
                 elif 'pres' in ts:
                     kind = 'pres'
