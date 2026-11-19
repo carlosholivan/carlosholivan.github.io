@@ -1,0 +1,9293 @@
+[
+{
+"word": "l'énonciation",
+"m": {
+"es": "enunciación · fem."
+},
+"pos": "noun",
+"w": "l'énonciation",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "c2-1",
+"q": 6940
+},
+{
+"word": "l'énonciateur",
+"m": {
+"es": "enunciador · masc."
+},
+"pos": "noun",
+"w": "l'énonciateur",
+"p": "",
+"g": "m",
+"unit": 1,
+"u": "c2-1",
+"q": 6941
+},
+{
+"word": "la diégèse",
+"m": {
+"es": "diégesis"
+},
+"pos": "noun",
+"w": "la diégèse",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "c2-1",
+"q": 6942
+},
+{
+"word": "la focalisation",
+"m": {
+"es": "focalización"
+},
+"pos": "noun",
+"w": "la focalisation",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "c2-1",
+"q": 6943
+},
+{
+"word": "omniscient",
+"m": {
+"es": "omnisciente"
+},
+"pos": "",
+"w": "omniscient",
+"p": "",
+"unit": 1,
+"u": "c2-1",
+"q": 6944
+},
+{
+"word": "interne",
+"m": {
+"es": "interno"
+},
+"pos": "adjective",
+"w": "interne",
+"p": "",
+"unit": 1,
+"u": "c2-1",
+"q": 6945
+},
+{
+"word": "le monologue intérieur",
+"m": {
+"es": "monólogo interior"
+},
+"pos": "noun",
+"w": "le monologue intérieur",
+"p": "",
+"g": "m",
+"unit": 1,
+"u": "c2-1",
+"q": 6946
+},
+{
+"word": "la polyphonie",
+"m": {
+"es": "polifonía"
+},
+"pos": "noun",
+"w": "la polyphonie",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "c2-1",
+"q": 6947
+},
+{
+"word": "la subjectivité",
+"m": {
+"es": "subjetividad"
+},
+"pos": "noun",
+"w": "la subjectivité",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "c2-1",
+"q": 6948
+},
+{
+"word": "ressasser",
+"m": {
+"es": "rumiar, dar vueltas a"
+},
+"pos": "",
+"w": "ressasser",
+"p": "",
+"unit": 1,
+"u": "c2-1",
+"q": 6949
+},
+{
+"word": "ruminer",
+"m": {
+"es": "rumiar"
+},
+"pos": "",
+"w": "ruminer",
+"p": "",
+"unit": 1,
+"u": "c2-1",
+"q": 6950
+},
+{
+"word": "se complaire",
+"m": {
+"es": "complacerse, regodearse"
+},
+"pos": "",
+"w": "se complaire",
+"p": "",
+"unit": 2,
+"u": "c2-2",
+"q": 6951
+},
+{
+"word": "la réforme de l'orthographe",
+"m": {
+"es": "reforma de la ortografía (1990)"
+},
+"pos": "noun",
+"w": "la réforme de l'orthographe",
+"p": "",
+"g": "f",
+"unit": 2,
+"u": "c2-2",
+"q": 6952
+},
+{
+"word": "la personnification",
+"m": {
+"es": "personificación"
+},
+"pos": "noun",
+"w": "la personnification",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6953
+},
+{
+"word": "la métonymie",
+"m": {
+"es": "metonimia"
+},
+"pos": "noun",
+"w": "la métonymie",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6954
+},
+{
+"word": "la synecdoque",
+"m": {
+"es": "sinécdoque"
+},
+"pos": "noun",
+"w": "la synecdoque",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6955
+},
+{
+"word": "la périphrase",
+"m": {
+"es": "perífrasis"
+},
+"pos": "noun",
+"w": "la périphrase",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6956
+},
+{
+"word": "l'oxymore",
+"m": {
+"es": "oxímoron · masc."
+},
+"pos": "noun",
+"w": "l'oxymore",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "c2-3",
+"q": 6957
+},
+{
+"word": "le chiasme",
+"m": {
+"es": "quiasmo"
+},
+"pos": "noun",
+"w": "le chiasme",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "c2-3",
+"q": 6958
+},
+{
+"word": "l'antiphrase",
+"m": {
+"es": "antífrasis · fem."
+},
+"pos": "noun",
+"w": "l'antiphrase",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6959
+},
+{
+"word": "l'anaphore",
+"m": {
+"es": "anáfora · fem."
+},
+"pos": "noun",
+"w": "l'anaphore",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6960
+},
+{
+"word": "la gradation",
+"m": {
+"es": "gradación"
+},
+"pos": "noun",
+"w": "la gradation",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6961
+},
+{
+"word": "l'hyperbole",
+"m": {
+"es": "hipérbole · fem."
+},
+"pos": "noun",
+"w": "l'hyperbole",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6962
+},
+{
+"word": "le pléonasme",
+"m": {
+"es": "pleonasmo"
+},
+"pos": "noun",
+"w": "le pléonasme",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "c2-3",
+"q": 6963
+},
+{
+"word": "l'ellipse",
+"m": {
+"es": "elipsis · fem."
+},
+"pos": "noun",
+"w": "l'ellipse",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6964
+},
+{
+"word": "la prosopopée",
+"m": {
+"es": "prosopopeya"
+},
+"pos": "noun",
+"w": "la prosopopée",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6965
+},
+{
+"word": "l'apostrophe",
+"m": {
+"es": "apóstrofe; increpación · fem."
+},
+"pos": "noun",
+"w": "l'apostrophe",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6966
+},
+{
+"word": "la rhétorique",
+"m": {
+"es": "retórica"
+},
+"pos": "noun/adjective",
+"w": "la rhétorique",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6967
+},
+{
+"word": "la connotation",
+"m": {
+"es": "connotación"
+},
+"pos": "noun",
+"w": "la connotation",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6968
+},
+{
+"word": "la dénotation",
+"m": {
+"es": "denotación"
+},
+"pos": "noun",
+"w": "la dénotation",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "c2-3",
+"q": 6969
+},
+{
+"word": "épique",
+"m": {
+"es": "épico"
+},
+"pos": "",
+"w": "épique",
+"p": "",
+"unit": 3,
+"u": "c2-3",
+"q": 6970
+},
+{
+"word": "pathétique",
+"m": {
+"es": "patético, conmovedor"
+},
+"pos": "",
+"w": "pathétique",
+"p": "",
+"unit": 3,
+"u": "c2-3",
+"q": 6971
+},
+{
+"word": "le flic",
+"m": {
+"es": "poli (policía)"
+},
+"pos": "noun",
+"w": "le flic",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6972
+},
+{
+"word": "le pognon",
+"m": {
+"es": "pasta (dinero)"
+},
+"pos": "noun",
+"w": "le pognon",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6973
+},
+{
+"word": "la thune",
+"m": {
+"es": "pasta (dinero)"
+},
+"pos": "noun",
+"w": "la thune",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "c2-5",
+"q": 6974
+},
+{
+"word": "le taf",
+"m": {
+"es": "curro"
+},
+"pos": "noun",
+"w": "le taf",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6975
+},
+{
+"word": "le kif",
+"m": {
+"es": "placer, gusto"
+},
+"pos": "noun",
+"w": "le kif",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6976
+},
+{
+"word": "le bled",
+"m": {
+"es": "pueblucho"
+},
+"pos": "noun",
+"w": "le bled",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6977
+},
+{
+"word": "le mioche",
+"m": {
+"es": "crío"
+},
+"pos": "noun",
+"w": "le mioche",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6978
+},
+{
+"word": "le toubib",
+"m": {
+"es": "médico"
+},
+"pos": "noun",
+"w": "le toubib",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6979
+},
+{
+"word": "le troquet",
+"m": {
+"es": "bar"
+},
+"pos": "noun",
+"w": "le troquet",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6980
+},
+{
+"word": "la piaule",
+"m": {
+"es": "cuarto, habitación"
+},
+"pos": "noun",
+"w": "la piaule",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "c2-5",
+"q": 6981
+},
+{
+"word": "la meuf",
+"m": {
+"es": "chica, tía (verlan)"
+},
+"pos": "noun",
+"w": "la meuf",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "c2-5",
+"q": 6982
+},
+{
+"word": "relou",
+"m": {
+"es": "pesado (verlan de lourd)"
+},
+"pos": "",
+"w": "relou",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6983
+},
+{
+"word": "chelou",
+"m": {
+"es": "raro (verlan de louche)"
+},
+"pos": "",
+"w": "chelou",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6984
+},
+{
+"word": "vénère",
+"m": {
+"es": "cabreado (verlan de énervé)"
+},
+"pos": "",
+"w": "vénère",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6985
+},
+{
+"word": "se barrer",
+"m": {
+"es": "largarse"
+},
+"pos": "verb",
+"w": "se barrer",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6986
+},
+{
+"word": "se planquer",
+"m": {
+"es": "esconderse"
+},
+"pos": "verb",
+"w": "se planquer",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6987
+},
+{
+"word": "se marrer",
+"m": {
+"es": "partirse de risa"
+},
+"pos": "verb",
+"w": "se marrer",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6988
+},
+{
+"word": "pioncer",
+"m": {
+"es": "dormir, sobar"
+},
+"pos": "",
+"w": "pioncer",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6989
+},
+{
+"word": "bouquiner",
+"m": {
+"es": "leer"
+},
+"pos": "verb",
+"w": "bouquiner",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6990
+},
+{
+"word": "flipper",
+"m": {
+"es": "rayarse, tener miedo"
+},
+"pos": "",
+"w": "flipper",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6991
+},
+{
+"word": "galérer",
+"m": {
+"es": "pasarlas canutas"
+},
+"pos": "verb",
+"w": "galérer",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6992
+},
+{
+"word": "glander",
+"m": {
+"es": "holgazanear"
+},
+"pos": "",
+"w": "glander",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6993
+},
+{
+"word": "zoner",
+"m": {
+"es": "vagabundear"
+},
+"pos": "verb",
+"w": "zoner",
+"p": "",
+"unit": 5,
+"u": "c2-5",
+"q": 6994
+},
+{
+"word": "le bouffon",
+"m": {
+"es": "payaso, idiota"
+},
+"pos": "noun",
+"w": "le bouffon",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6995
+},
+{
+"word": "l'argot",
+"m": {
+"es": "argot, jerga · masc."
+},
+"pos": "noun",
+"w": "l'argot",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c2-5",
+"q": 6996
+},
+{
+"word": "l'éminence",
+"m": {
+"es": "eminencia · fem."
+},
+"pos": "noun",
+"w": "l'éminence",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 6997
+},
+{
+"word": "imminent",
+"m": {
+"es": "inminente"
+},
+"pos": "",
+"w": "imminent",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 6998
+},
+{
+"word": "éminent",
+"m": {
+"es": "eminente"
+},
+"pos": "",
+"w": "éminent",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 6999
+},
+{
+"word": "l'infraction",
+"m": {
+"es": "infracción · fem."
+},
+"pos": "noun",
+"w": "l'infraction",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7000
+},
+{
+"word": "la prolongation",
+"m": {
+"es": "prórroga (en el tiempo)"
+},
+"pos": "noun",
+"w": "la prolongation",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7001
+},
+{
+"word": "l'allocution",
+"m": {
+"es": "alocución, discurso breve · fem."
+},
+"pos": "noun",
+"w": "l'allocution",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7002
+},
+{
+"word": "l'élocution",
+"m": {
+"es": "elocución, dicción · fem."
+},
+"pos": "noun",
+"w": "l'élocution",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7003
+},
+{
+"word": "l'inclinaison",
+"m": {
+"es": "inclinación (física) · fem."
+},
+"pos": "noun",
+"w": "l'inclinaison",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7004
+},
+{
+"word": "l'inclination",
+"m": {
+"es": "inclinación, tendencia · fem."
+},
+"pos": "noun",
+"w": "l'inclination",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7005
+},
+{
+"word": "l'éruption",
+"m": {
+"es": "erupción · fem."
+},
+"pos": "noun",
+"w": "l'éruption",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7006
+},
+{
+"word": "le précepteur",
+"m": {
+"es": "preceptor"
+},
+"pos": "noun",
+"w": "le précepteur",
+"p": "",
+"g": "m",
+"unit": 6,
+"u": "c2-6",
+"q": 7007
+},
+{
+"word": "le percepteur",
+"m": {
+"es": "recaudador"
+},
+"pos": "noun",
+"w": "le percepteur",
+"p": "",
+"g": "m",
+"unit": 6,
+"u": "c2-6",
+"q": 7008
+},
+{
+"word": "invoquer",
+"m": {
+"es": "invocar"
+},
+"pos": "verb",
+"w": "invoquer",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 7009
+},
+{
+"word": "affliger",
+"m": {
+"es": "afligir"
+},
+"pos": "verb",
+"w": "affliger",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 7010
+},
+{
+"word": "immerger",
+"m": {
+"es": "sumergir"
+},
+"pos": "verb",
+"w": "immerger",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 7011
+},
+{
+"word": "recouvrer",
+"m": {
+"es": "recuperar"
+},
+"pos": "",
+"w": "recouvrer",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 7012
+},
+{
+"word": "le prodige",
+"m": {
+"es": "prodigio"
+},
+"pos": "noun",
+"w": "le prodige",
+"p": "",
+"g": "m",
+"unit": 6,
+"u": "c2-6",
+"q": 7013
+},
+{
+"word": "prodigue",
+"m": {
+"es": "pródigo"
+},
+"pos": "",
+"w": "prodigue",
+"p": "",
+"unit": 6,
+"u": "c2-6",
+"q": 7014
+},
+{
+"word": "l'acception",
+"m": {
+"es": "acepción · fem."
+},
+"pos": "noun",
+"w": "l'acception",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7015
+},
+{
+"word": "la polysémie",
+"m": {
+"es": "polisemia"
+},
+"pos": "noun",
+"w": "la polysémie",
+"p": "",
+"g": "f",
+"unit": 6,
+"u": "c2-6",
+"q": 7016
+},
+{
+"word": "d'aucuns",
+"m": {
+"es": "algunos (literario)"
+},
+"pos": "",
+"w": "d'aucuns",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7017
+},
+{
+"word": "tant s'en faut",
+"m": {
+"es": "ni mucho menos"
+},
+"pos": "",
+"w": "tant s'en faut",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7018
+},
+{
+"word": "loin s'en faut",
+"m": {
+"es": "ni mucho menos"
+},
+"pos": "",
+"w": "loin s'en faut",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7019
+},
+{
+"word": "aussi bien",
+"m": {
+"es": "por lo demás, de todas formas"
+},
+"pos": "",
+"w": "aussi bien",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7020
+},
+{
+"word": "au reste",
+"m": {
+"es": "por lo demás"
+},
+"pos": "",
+"w": "au reste",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7021
+},
+{
+"word": "à l'envi",
+"m": {
+"es": "a porfía, a cuál más"
+},
+"pos": "",
+"w": "à l'envi",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7022
+},
+{
+"word": "de guerre lasse",
+"m": {
+"es": "cansado de luchar, por cansancio"
+},
+"pos": "",
+"w": "de guerre lasse",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7023
+},
+{
+"word": "dussé-je",
+"m": {
+"es": "aunque tuviera que"
+},
+"pos": "",
+"w": "dussé-je",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7024
+},
+{
+"word": "fût-ce",
+"m": {
+"es": "aunque fuera"
+},
+"pos": "",
+"w": "fût-ce",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7025
+},
+{
+"word": "naguère",
+"m": {
+"es": "hace poco; antaño"
+},
+"pos": "",
+"w": "naguère",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7026
+},
+{
+"word": "derechef",
+"m": {
+"es": "de nuevo (literario)"
+},
+"pos": "",
+"w": "derechef",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7027
+},
+{
+"word": "sciemment",
+"m": {
+"es": "a sabiendas"
+},
+"pos": "",
+"w": "sciemment",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7028
+},
+{
+"word": "pertinemment",
+"m": {
+"es": "con conocimiento de causa"
+},
+"pos": "adverb",
+"w": "pertinemment",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7029
+},
+{
+"word": "indûment",
+"m": {
+"es": "indebidamente"
+},
+"pos": "",
+"w": "indûment",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7030
+},
+{
+"word": "foncièrement",
+"m": {
+"es": "profundamente, en el fondo"
+},
+"pos": "adverb",
+"w": "foncièrement",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7031
+},
+{
+"word": "inopinément",
+"m": {
+"es": "inopinadamente"
+},
+"pos": "adverb",
+"w": "inopinément",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7032
+},
+{
+"word": "nommément",
+"m": {
+"es": "nominalmente, por su nombre"
+},
+"pos": "",
+"w": "nommément",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7033
+},
+{
+"word": "à tout le moins",
+"m": {
+"es": "como mínimo"
+},
+"pos": "",
+"w": "à tout le moins",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7034
+},
+{
+"word": "à plus forte raison",
+"m": {
+"es": "con mayor razón"
+},
+"pos": "",
+"w": "à plus forte raison",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7035
+},
+{
+"word": "a contrario",
+"m": {
+"es": "a contrario"
+},
+"pos": "",
+"w": "a contrario",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7036
+},
+{
+"word": "stricto sensu",
+"m": {
+"es": "en sentido estricto"
+},
+"pos": "",
+"w": "stricto sensu",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7037
+},
+{
+"word": "lato sensu",
+"m": {
+"es": "en sentido amplio"
+},
+"pos": "",
+"w": "lato sensu",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7038
+},
+{
+"word": "de facto",
+"m": {
+"es": "de facto"
+},
+"pos": "",
+"w": "de facto",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7039
+},
+{
+"word": "sine qua non",
+"m": {
+"es": "sine qua non"
+},
+"pos": "",
+"w": "sine qua non",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7040
+},
+{
+"word": "in extremis",
+"m": {
+"es": "in extremis"
+},
+"pos": "",
+"w": "in extremis",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7041
+},
+{
+"word": "grosso modo",
+"m": {
+"es": "grosso modo"
+},
+"pos": "",
+"w": "grosso modo",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7042
+},
+{
+"word": "ipso facto",
+"m": {
+"es": "ipso facto"
+},
+"pos": "",
+"w": "ipso facto",
+"p": "",
+"unit": 7,
+"u": "c2-7",
+"q": 7043
+},
+{
+"word": "qui ne dit mot consent",
+"m": {
+"es": "quien calla otorga"
+},
+"pos": "",
+"w": "qui ne dit mot consent",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7044
+},
+{
+"word": "l'habit ne fait pas le moine",
+"m": {
+"es": "el hábito no hace al monje"
+},
+"pos": "",
+"w": "l'habit ne fait pas le moine",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7045
+},
+{
+"word": "qui sème le vent récolte la tempête",
+"m": {
+"es": "quien siembra vientos recoge tempestades"
+},
+"pos": "",
+"w": "qui sème le vent récolte la tempête",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7046
+},
+{
+"word": "chat échaudé craint l'eau froide",
+"m": {
+"es": "gato escaldado del agua fría huye"
+},
+"pos": "",
+"w": "chat échaudé craint l'eau froide",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7047
+},
+{
+"word": "il n'y a pas de fumée sans feu",
+"m": {
+"es": "cuando el río suena, agua lleva"
+},
+"pos": "",
+"w": "il n'y a pas de fumée sans feu",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7048
+},
+{
+"word": "les murs ont des oreilles",
+"m": {
+"es": "las paredes oyen"
+},
+"pos": "noun",
+"w": "les murs ont des oreilles",
+"p": "",
+"g": "pl",
+"unit": 8,
+"u": "c2-8",
+"q": 7049
+},
+{
+"word": "une hirondelle ne fait pas le printemps",
+"m": {
+"es": "una golondrina no hace verano"
+},
+"pos": "",
+"w": "une hirondelle ne fait pas le printemps",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7050
+},
+{
+"word": "c'est en forgeant qu'on devient forgeron",
+"m": {
+"es": "la práctica hace al maestro"
+},
+"pos": "",
+"w": "c'est en forgeant qu'on devient forgeron",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7051
+},
+{
+"word": "la nuit porte conseil",
+"m": {
+"es": "consúltalo con la almohada"
+},
+"pos": "noun",
+"w": "la nuit porte conseil",
+"p": "",
+"g": "f",
+"unit": 8,
+"u": "c2-8",
+"q": 7052
+},
+{
+"word": "qui trop embrasse mal étreint",
+"m": {
+"es": "quien mucho abarca poco aprieta"
+},
+"pos": "",
+"w": "qui trop embrasse mal étreint",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7053
+},
+{
+"word": "qui vivra verra",
+"m": {
+"es": "el tiempo lo dirá"
+},
+"pos": "",
+"w": "qui vivra verra",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7054
+},
+{
+"word": "tomber de Charybde en Scylla",
+"m": {
+"es": "salir de Guatemala y meterse en Guatepeor"
+},
+"pos": "",
+"w": "tomber de Charybde en Scylla",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7055
+},
+{
+"word": "vouer aux gémonies",
+"m": {
+"es": "vilipendiar públicamente"
+},
+"pos": "",
+"w": "vouer aux gémonies",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7056
+},
+{
+"word": "ménager la chèvre et le chou",
+"m": {
+"es": "nadar y guardar la ropa"
+},
+"pos": "",
+"w": "ménager la chèvre et le chou",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7057
+},
+{
+"word": "prendre des vessies pour des lanternes",
+"m": {
+"es": "confundir la gimnasia con la magnesia"
+},
+"pos": "",
+"w": "prendre des vessies pour des lanternes",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7058
+},
+{
+"word": "chercher midi à quatorze heures",
+"m": {
+"es": "buscarle tres pies al gato"
+},
+"pos": "",
+"w": "chercher midi à quatorze heures",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7059
+},
+{
+"word": "filer à l'anglaise",
+"m": {
+"es": "despedirse a la francesa"
+},
+"pos": "",
+"w": "filer à l'anglaise",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7060
+},
+{
+"word": "graisser la patte",
+"m": {
+"es": "untar, sobornar"
+},
+"pos": "",
+"w": "graisser la patte",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7061
+},
+{
+"word": "mener quelqu'un en bateau",
+"m": {
+"es": "tomar el pelo a alguien"
+},
+"pos": "",
+"w": "mener quelqu'un en bateau",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7062
+},
+{
+"word": "faire chou blanc",
+"m": {
+"es": "fracasar, no conseguir nada"
+},
+"pos": "",
+"w": "faire chou blanc",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7063
+},
+{
+"word": "défrayer la chronique",
+"m": {
+"es": "dar que hablar"
+},
+"pos": "",
+"w": "défrayer la chronique",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7064
+},
+{
+"word": "damer le pion à",
+"m": {
+"es": "ganar por la mano a"
+},
+"pos": "",
+"w": "damer le pion à",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7065
+},
+{
+"word": "être sur la sellette",
+"m": {
+"es": "estar en el punto de mira"
+},
+"pos": "",
+"w": "être sur la sellette",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7066
+},
+{
+"word": "rester de marbre",
+"m": {
+"es": "permanecer impasible"
+},
+"pos": "",
+"w": "rester de marbre",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7067
+},
+{
+"word": "se faire l'avocat du diable",
+"m": {
+"es": "hacer de abogado del diablo"
+},
+"pos": "",
+"w": "se faire l'avocat du diable",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7068
+},
+{
+"word": "avoir maille à partir avec",
+"m": {
+"es": "tener un enfrentamiento con"
+},
+"pos": "",
+"w": "avoir maille à partir avec",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7069
+},
+{
+"word": "ubuesque",
+"m": {
+"es": "grotesco, absurdo (como Ubú)"
+},
+"pos": "adjective",
+"w": "ubuesque",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7070
+},
+{
+"word": "rocambolesque",
+"m": {
+"es": "rocambolesco"
+},
+"pos": "adjective",
+"w": "rocambolesque",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7071
+},
+{
+"word": "mieux vaut tard que jamais",
+"m": {
+"es": "más vale tarde que nunca"
+},
+"pos": "",
+"w": "mieux vaut tard que jamais",
+"p": "",
+"unit": 8,
+"u": "c2-8",
+"q": 7072
+},
+{
+"word": "le libre arbitre",
+"m": {
+"es": "libre albedrío"
+},
+"pos": "noun",
+"w": "le libre arbitre",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7073
+},
+{
+"word": "l'épistémologie",
+"m": {
+"es": "epistemología · fem."
+},
+"pos": "noun",
+"w": "l'épistémologie",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7074
+},
+{
+"word": "l'empirisme",
+"m": {
+"es": "empirismo · masc."
+},
+"pos": "noun",
+"w": "l'empirisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7075
+},
+{
+"word": "l'idéalisme",
+"m": {
+"es": "idealismo · masc."
+},
+"pos": "noun",
+"w": "l'idéalisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7076
+},
+{
+"word": "le nihilisme",
+"m": {
+"es": "nihilismo"
+},
+"pos": "noun",
+"w": "le nihilisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7077
+},
+{
+"word": "le scepticisme",
+"m": {
+"es": "escepticismo"
+},
+"pos": "noun",
+"w": "le scepticisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7078
+},
+{
+"word": "le stoïcisme",
+"m": {
+"es": "estoicismo"
+},
+"pos": "noun",
+"w": "le stoïcisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7079
+},
+{
+"word": "l'hédonisme",
+"m": {
+"es": "hedonismo · masc."
+},
+"pos": "noun",
+"w": "l'hédonisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7080
+},
+{
+"word": "le manichéisme",
+"m": {
+"es": "maniqueísmo"
+},
+"pos": "noun",
+"w": "le manichéisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7081
+},
+{
+"word": "le solipsisme",
+"m": {
+"es": "solipsismo"
+},
+"pos": "noun",
+"w": "le solipsisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7082
+},
+{
+"word": "la dialectique",
+"m": {
+"es": "dialéctica"
+},
+"pos": "noun",
+"w": "la dialectique",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7083
+},
+{
+"word": "l'aporie",
+"m": {
+"es": "aporía · fem."
+},
+"pos": "noun",
+"w": "l'aporie",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7084
+},
+{
+"word": "le sophisme",
+"m": {
+"es": "sofisma"
+},
+"pos": "noun",
+"w": "le sophisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7085
+},
+{
+"word": "le syllogisme",
+"m": {
+"es": "silogismo"
+},
+"pos": "noun",
+"w": "le syllogisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7086
+},
+{
+"word": "l'axiome",
+"m": {
+"es": "axioma · masc."
+},
+"pos": "noun",
+"w": "l'axiome",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7087
+},
+{
+"word": "le paradigme",
+"m": {
+"es": "paradigma"
+},
+"pos": "noun",
+"w": "le paradigme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7088
+},
+{
+"word": "la contingence",
+"m": {
+"es": "contingencia"
+},
+"pos": "noun",
+"w": "la contingence",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7089
+},
+{
+"word": "la transcendance",
+"m": {
+"es": "trascendencia"
+},
+"pos": "noun",
+"w": "la transcendance",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7090
+},
+{
+"word": "l'immanence",
+"m": {
+"es": "inmanencia · fem."
+},
+"pos": "noun",
+"w": "l'immanence",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7091
+},
+{
+"word": "la téléologie",
+"m": {
+"es": "teleología"
+},
+"pos": "noun",
+"w": "la téléologie",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7092
+},
+{
+"word": "la quintessence",
+"m": {
+"es": "quintaesencia"
+},
+"pos": "noun",
+"w": "la quintessence",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7093
+},
+{
+"word": "la vacuité",
+"m": {
+"es": "vacuidad"
+},
+"pos": "noun",
+"w": "la vacuité",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7094
+},
+{
+"word": "postuler",
+"m": {
+"es": "postular; presentar su candidatura"
+},
+"pos": "verb",
+"w": "postuler",
+"p": "",
+"unit": 9,
+"u": "c2-9",
+"q": 7095
+},
+{
+"word": "déduire",
+"m": {
+"es": "deducir"
+},
+"pos": "verb",
+"w": "déduire",
+"p": "",
+"unit": 9,
+"u": "c2-9",
+"q": 7096
+},
+{
+"word": "inférer",
+"m": {
+"es": "inferir"
+},
+"pos": "",
+"w": "inférer",
+"p": "",
+"unit": 9,
+"u": "c2-9",
+"q": 7097
+},
+{
+"word": "l'heuristique",
+"m": {
+"es": "heurística · fem."
+},
+"pos": "noun/adjective",
+"w": "l'heuristique",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "c2-9",
+"q": 7098
+},
+{
+"word": "l'obscurantisme",
+"m": {
+"es": "oscurantismo · masc."
+},
+"pos": "noun",
+"w": "l'obscurantisme",
+"p": "",
+"g": "m",
+"unit": 9,
+"u": "c2-9",
+"q": 7099
+},
+{
+"word": "la présomption d'innocence",
+"m": {
+"es": "presunción de inocencia"
+},
+"pos": "noun",
+"w": "la présomption d'innocence",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7100
+},
+{
+"word": "le procureur",
+"m": {
+"es": "fiscal"
+},
+"pos": "noun",
+"w": "le procureur",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7101
+},
+{
+"word": "le juge d'instruction",
+"m": {
+"es": "juez de instrucción"
+},
+"pos": "noun",
+"w": "le juge d'instruction",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7102
+},
+{
+"word": "le greffier",
+"m": {
+"es": "secretario judicial"
+},
+"pos": "noun",
+"w": "le greffier",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7103
+},
+{
+"word": "l'huissier",
+"m": {
+"es": "ujier; agente judicial · masc."
+},
+"pos": "noun",
+"w": "l'huissier",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7104
+},
+{
+"word": "la plaidoirie",
+"m": {
+"es": "alegato"
+},
+"pos": "noun",
+"w": "la plaidoirie",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7105
+},
+{
+"word": "le réquisitoire",
+"m": {
+"es": "requisitoria, acusación del fiscal"
+},
+"pos": "noun",
+"w": "le réquisitoire",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7106
+},
+{
+"word": "la comparution",
+"m": {
+"es": "comparecencia"
+},
+"pos": "noun",
+"w": "la comparution",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7107
+},
+{
+"word": "comparaître",
+"m": {
+"es": "comparecer"
+},
+"pos": "verb",
+"w": "comparaître",
+"p": "",
+"unit": 10,
+"u": "c2-10",
+"q": 7108
+},
+{
+"word": "le tribunal correctionnel",
+"m": {
+"es": "tribunal penal (delitos menos graves)"
+},
+"pos": "noun",
+"w": "le tribunal correctionnel",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7109
+},
+{
+"word": "la cour d'assises",
+"m": {
+"es": "tribunal de lo penal con jurado"
+},
+"pos": "noun",
+"w": "la cour d'assises",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7110
+},
+{
+"word": "la cassation",
+"m": {
+"es": "casación"
+},
+"pos": "noun",
+"w": "la cassation",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7111
+},
+{
+"word": "le sursis",
+"m": {
+"es": "suspensión de la pena, prórroga"
+},
+"pos": "noun",
+"w": "le sursis",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7112
+},
+{
+"word": "la récidive",
+"m": {
+"es": "reincidencia"
+},
+"pos": "noun",
+"w": "la récidive",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7113
+},
+{
+"word": "le casier judiciaire",
+"m": {
+"es": "antecedentes penales"
+},
+"pos": "noun",
+"w": "le casier judiciaire",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7114
+},
+{
+"word": "la circonstance atténuante",
+"m": {
+"es": "circunstancia atenuante"
+},
+"pos": "noun",
+"w": "la circonstance atténuante",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7115
+},
+{
+"word": "la légitime défense",
+"m": {
+"es": "legítima defensa"
+},
+"pos": "noun",
+"w": "la légitime défense",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7116
+},
+{
+"word": "la diffamation",
+"m": {
+"es": "difamación"
+},
+"pos": "noun",
+"w": "la diffamation",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7117
+},
+{
+"word": "l'acquittement",
+"m": {
+"es": "absolución · masc."
+},
+"pos": "noun",
+"w": "l'acquittement",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7118
+},
+{
+"word": "acquitter",
+"m": {
+"es": "absolver; pagar"
+},
+"pos": "verb",
+"w": "acquitter",
+"p": "",
+"unit": 10,
+"u": "c2-10",
+"q": 7119
+},
+{
+"word": "le vice de forme",
+"m": {
+"es": "defecto de forma"
+},
+"pos": "noun",
+"w": "le vice de forme",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7120
+},
+{
+"word": "l'état de droit",
+"m": {
+"es": "estado de derecho · masc."
+},
+"pos": "noun",
+"w": "l'état de droit",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "c2-10",
+"q": 7121
+},
+{
+"word": "la séparation des pouvoirs",
+"m": {
+"es": "separación de poderes"
+},
+"pos": "noun",
+"w": "la séparation des pouvoirs",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7122
+},
+{
+"word": "la juridiction",
+"m": {
+"es": "jurisdicción"
+},
+"pos": "noun",
+"w": "la juridiction",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "c2-10",
+"q": 7123
+},
+{
+"word": "la gouvernance",
+"m": {
+"es": "gobernanza"
+},
+"pos": "noun",
+"w": "la gouvernance",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7124
+},
+{
+"word": "le lobbying",
+"m": {
+"es": "presión de grupos de interés"
+},
+"pos": "noun",
+"w": "le lobbying",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7125
+},
+{
+"word": "le clientélisme",
+"m": {
+"es": "clientelismo"
+},
+"pos": "noun",
+"w": "le clientélisme",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7126
+},
+{
+"word": "le népotisme",
+"m": {
+"es": "nepotismo"
+},
+"pos": "noun",
+"w": "le népotisme",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7127
+},
+{
+"word": "la ploutocratie",
+"m": {
+"es": "plutocracia"
+},
+"pos": "noun",
+"w": "la ploutocratie",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7128
+},
+{
+"word": "l'oligarchie",
+"m": {
+"es": "oligarquía · fem."
+},
+"pos": "noun",
+"w": "l'oligarchie",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7129
+},
+{
+"word": "la technocratie",
+"m": {
+"es": "tecnocracia"
+},
+"pos": "noun",
+"w": "la technocratie",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7130
+},
+{
+"word": "la paupérisation",
+"m": {
+"es": "empobrecimiento"
+},
+"pos": "noun",
+"w": "la paupérisation",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7131
+},
+{
+"word": "la marchandisation",
+"m": {
+"es": "mercantilización"
+},
+"pos": "noun",
+"w": "la marchandisation",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7132
+},
+{
+"word": "la financiarisation",
+"m": {
+"es": "financiarización"
+},
+"pos": "noun",
+"w": "la financiarisation",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7133
+},
+{
+"word": "la bulle spéculative",
+"m": {
+"es": "burbuja especulativa"
+},
+"pos": "noun",
+"w": "la bulle spéculative",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7134
+},
+{
+"word": "l'austérité",
+"m": {
+"es": "austeridad · fem."
+},
+"pos": "noun",
+"w": "l'austérité",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7135
+},
+{
+"word": "la relance",
+"m": {
+"es": "reactivación"
+},
+"pos": "noun",
+"w": "la relance",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7136
+},
+{
+"word": "la dérégulation",
+"m": {
+"es": "desregulación"
+},
+"pos": "noun",
+"w": "la dérégulation",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7137
+},
+{
+"word": "le protectionnisme",
+"m": {
+"es": "proteccionismo"
+},
+"pos": "noun",
+"w": "le protectionnisme",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7138
+},
+{
+"word": "le libre-échange",
+"m": {
+"es": "libre comercio"
+},
+"pos": "noun",
+"w": "le libre-échange",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7139
+},
+{
+"word": "la niche fiscale",
+"m": {
+"es": "ventaja fiscal"
+},
+"pos": "noun",
+"w": "la niche fiscale",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7140
+},
+{
+"word": "la décentralisation",
+"m": {
+"es": "descentralización"
+},
+"pos": "noun",
+"w": "la décentralisation",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7141
+},
+{
+"word": "le jacobinisme",
+"m": {
+"es": "centralismo (jacobino)"
+},
+"pos": "noun",
+"w": "le jacobinisme",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7142
+},
+{
+"word": "le plébiscite",
+"m": {
+"es": "plebiscito"
+},
+"pos": "noun",
+"w": "le plébiscite",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7143
+},
+{
+"word": "le contre-pouvoir",
+"m": {
+"es": "contrapoder"
+},
+"pos": "noun",
+"w": "le contre-pouvoir",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7144
+},
+{
+"word": "la désobéissance civile",
+"m": {
+"es": "desobediencia civil"
+},
+"pos": "noun",
+"w": "la désobéissance civile",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7145
+},
+{
+"word": "le lanceur d'alerte",
+"m": {
+"es": "denunciante, alertador"
+},
+"pos": "noun",
+"w": "le lanceur d'alerte",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "c2-11",
+"q": 7146
+},
+{
+"word": "la reddition des comptes",
+"m": {
+"es": "rendición de cuentas"
+},
+"pos": "noun",
+"w": "la reddition des comptes",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "c2-11",
+"q": 7147
+},
+{
+"word": "lapidaire",
+"m": {
+"es": "lapidario"
+},
+"pos": "noun/adjective",
+"w": "lapidaire",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7148
+},
+{
+"word": "prolixe",
+"m": {
+"es": "prolijo"
+},
+"pos": "",
+"w": "prolixe",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7149
+},
+{
+"word": "emphatique",
+"m": {
+"es": "enfático, grandilocuente"
+},
+"pos": "",
+"w": "emphatique",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7150
+},
+{
+"word": "grandiloquent",
+"m": {
+"es": "grandilocuente"
+},
+"pos": "",
+"w": "grandiloquent",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7151
+},
+{
+"word": "truculent",
+"m": {
+"es": "truculento, pintoresco"
+},
+"pos": "",
+"w": "truculent",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7152
+},
+{
+"word": "mièvre",
+"m": {
+"es": "empalagoso, cursi"
+},
+"pos": "",
+"w": "mièvre",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7153
+},
+{
+"word": "sibyllin",
+"m": {
+"es": "sibilino, enigmático"
+},
+"pos": "",
+"w": "sibyllin",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7154
+},
+{
+"word": "abscons",
+"m": {
+"es": "abstruso"
+},
+"pos": "",
+"w": "abscons",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7155
+},
+{
+"word": "laconique",
+"m": {
+"es": "lacónico"
+},
+"pos": "",
+"w": "laconique",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7156
+},
+{
+"word": "pompeux",
+"m": {
+"es": "pomposo"
+},
+"pos": "adjective",
+"w": "pompeux",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7157
+},
+{
+"word": "prosaïque",
+"m": {
+"es": "prosaico"
+},
+"pos": "",
+"w": "prosaïque",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7158
+},
+{
+"word": "éculé",
+"m": {
+"es": "trillado, gastado"
+},
+"pos": "",
+"w": "éculé",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7159
+},
+{
+"word": "le poncif",
+"m": {
+"es": "tópico, lugar común"
+},
+"pos": "noun",
+"w": "le poncif",
+"p": "",
+"g": "m",
+"unit": 12,
+"u": "c2-12",
+"q": 7160
+},
+{
+"word": "dithyrambique",
+"m": {
+"es": "ditirámbico, elogioso en exceso"
+},
+"pos": "",
+"w": "dithyrambique",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7161
+},
+{
+"word": "acerbe",
+"m": {
+"es": "acerbo, mordaz"
+},
+"pos": "adjective",
+"w": "acerbe",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7162
+},
+{
+"word": "mordant",
+"m": {
+"es": "mordaz"
+},
+"pos": "noun",
+"w": "mordant",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7163
+},
+{
+"word": "la verve",
+"m": {
+"es": "elocuencia, chispa"
+},
+"pos": "noun",
+"w": "la verve",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c2-12",
+"q": 7164
+},
+{
+"word": "la concision",
+"m": {
+"es": "concisión"
+},
+"pos": "noun",
+"w": "la concision",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c2-12",
+"q": 7165
+},
+{
+"word": "la prolixité",
+"m": {
+"es": "prolijidad"
+},
+"pos": "noun",
+"w": "la prolixité",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c2-12",
+"q": 7166
+},
+{
+"word": "l'emphase",
+"m": {
+"es": "énfasis, grandilocuencia · fem."
+},
+"pos": "noun",
+"w": "l'emphase",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c2-12",
+"q": 7167
+},
+{
+"word": "l'éclectisme",
+"m": {
+"es": "eclecticismo · masc."
+},
+"pos": "noun",
+"w": "l'éclectisme",
+"p": "",
+"g": "m",
+"unit": 12,
+"u": "c2-12",
+"q": 7168
+},
+{
+"word": "l'épigone",
+"m": {
+"es": "epígono · masc."
+},
+"pos": "noun",
+"w": "l'épigone",
+"p": "",
+"g": "m",
+"unit": 12,
+"u": "c2-12",
+"q": 7169
+},
+{
+"word": "le plagiat",
+"m": {
+"es": "plagio"
+},
+"pos": "noun",
+"w": "le plagiat",
+"p": "",
+"g": "m",
+"unit": 12,
+"u": "c2-12",
+"q": 7170
+},
+{
+"word": "le panégyrique",
+"m": {
+"es": "panegírico"
+},
+"pos": "noun",
+"w": "le panégyrique",
+"p": "",
+"g": "m",
+"unit": 12,
+"u": "c2-12",
+"q": 7171
+},
+{
+"word": "la caricature",
+"m": {
+"es": "caricatura"
+},
+"pos": "noun",
+"w": "la caricature",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c2-12",
+"q": 7172
+},
+{
+"word": "poignant",
+"m": {
+"es": "conmovedor, desgarrador"
+},
+"pos": "adjective",
+"w": "poignant",
+"p": "",
+"unit": 12,
+"u": "c2-12",
+"q": 7173
+},
+{
+"word": "atermoyer",
+"m": {
+"es": "andar con dilaciones"
+},
+"pos": "",
+"w": "atermoyer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7174
+},
+{
+"word": "tergiverser",
+"m": {
+"es": "andarse con rodeos, dar largas"
+},
+"pos": "",
+"w": "tergiverser",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7175
+},
+{
+"word": "louvoyer",
+"m": {
+"es": "andar con rodeos, zigzaguear"
+},
+"pos": "",
+"w": "louvoyer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7176
+},
+{
+"word": "vilipender",
+"m": {
+"es": "vilipendiar"
+},
+"pos": "",
+"w": "vilipender",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7177
+},
+{
+"word": "décrier",
+"m": {
+"es": "desacreditar"
+},
+"pos": "verb",
+"w": "décrier",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7178
+},
+{
+"word": "vitupérer",
+"m": {
+"es": "vituperar"
+},
+"pos": "",
+"w": "vitupérer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7179
+},
+{
+"word": "circonvenir",
+"m": {
+"es": "engatusar, embaucar"
+},
+"pos": "",
+"w": "circonvenir",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7180
+},
+{
+"word": "fourvoyer",
+"m": {
+"es": "extraviar; se fourvoyer: equivocarse"
+},
+"pos": "",
+"w": "fourvoyer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7181
+},
+{
+"word": "se méprendre",
+"m": {
+"es": "equivocarse, confundirse"
+},
+"pos": "verb",
+"w": "se méprendre",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7182
+},
+{
+"word": "rasséréner",
+"m": {
+"es": "serenar, tranquilizar"
+},
+"pos": "",
+"w": "rasséréner",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7183
+},
+{
+"word": "lénifier",
+"m": {
+"es": "calmar, suavizar"
+},
+"pos": "",
+"w": "lénifier",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7184
+},
+{
+"word": "exacerber",
+"m": {
+"es": "exacerbar"
+},
+"pos": "",
+"w": "exacerber",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7185
+},
+{
+"word": "saper",
+"m": {
+"es": "socavar, minar"
+},
+"pos": "verb",
+"w": "saper",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7186
+},
+{
+"word": "entacher",
+"m": {
+"es": "empañar, manchar"
+},
+"pos": "verb",
+"w": "entacher",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7187
+},
+{
+"word": "galvauder",
+"m": {
+"es": "desprestigiar, banalizar"
+},
+"pos": "",
+"w": "galvauder",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7188
+},
+{
+"word": "édulcorer",
+"m": {
+"es": "edulcorar, suavizar"
+},
+"pos": "verb",
+"w": "édulcorer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7189
+},
+{
+"word": "estomper",
+"m": {
+"es": "difuminar, atenuar"
+},
+"pos": "verb",
+"w": "estomper",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7190
+},
+{
+"word": "s'effriter",
+"m": {
+"es": "desmoronarse, erosionarse"
+},
+"pos": "",
+"w": "s'effriter",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7191
+},
+{
+"word": "péricliter",
+"m": {
+"es": "declinar, ir a la ruina"
+},
+"pos": "",
+"w": "péricliter",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7192
+},
+{
+"word": "croupir",
+"m": {
+"es": "estancarse, pudrirse"
+},
+"pos": "",
+"w": "croupir",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7193
+},
+{
+"word": "s'embourber",
+"m": {
+"es": "empantanarse"
+},
+"pos": "",
+"w": "s'embourber",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7194
+},
+{
+"word": "maugréer",
+"m": {
+"es": "refunfuñar"
+},
+"pos": "",
+"w": "maugréer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7195
+},
+{
+"word": "rechigner",
+"m": {
+"es": "refunfuñar, resistirse (rechigner à)"
+},
+"pos": "",
+"w": "rechigner",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7196
+},
+{
+"word": "obtempérer",
+"m": {
+"es": "acatar, obedecer"
+},
+"pos": "",
+"w": "obtempérer",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7197
+},
+{
+"word": "outrepasser",
+"m": {
+"es": "sobrepasar, extralimitarse"
+},
+"pos": "verb",
+"w": "outrepasser",
+"p": "",
+"unit": 13,
+"u": "c2-13",
+"q": 7198
+},
+{
+"word": "la synthèse de documents",
+"m": {
+"es": "síntesis de documentos"
+},
+"pos": "noun",
+"w": "la synthèse de documents",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "c2-14",
+"q": 7199
+},
+{
+"word": "la dissertation",
+"m": {
+"es": "disertación, ensayo académico"
+},
+"pos": "noun",
+"w": "la dissertation",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "c2-14",
+"q": 7200
+},
+{
+"word": "le commentaire composé",
+"m": {
+"es": "comentario de texto"
+},
+"pos": "noun",
+"w": "le commentaire composé",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "c2-14",
+"q": 7201
+},
+{
+"word": "le plan dialectique",
+"m": {
+"es": "plan dialéctico (tesis, antítesis, síntesis)"
+},
+"pos": "noun",
+"w": "le plan dialectique",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "c2-14",
+"q": 7202
+},
+{
+"word": "la citation",
+"m": {
+"es": "cita"
+},
+"pos": "noun",
+"w": "la citation",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "c2-14",
+"q": 7203
+},
+{
+"word": "la paraphrase",
+"m": {
+"es": "paráfrasis"
+},
+"pos": "noun",
+"w": "la paraphrase",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "c2-14",
+"q": 7204
+},
+{
+"word": "reformuler",
+"m": {
+"es": "reformular"
+},
+"pos": "verb",
+"w": "reformuler",
+"p": "",
+"unit": 14,
+"u": "c2-14",
+"q": 7205
+},
+{
+"word": "mettre en regard",
+"m": {
+"es": "comparar, poner en relación"
+},
+"pos": "",
+"w": "mettre en regard",
+"p": "",
+"unit": 14,
+"u": "c2-14",
+"q": 7206
+},
+{
+"word": "à l'inverse",
+"m": {
+"es": "a la inversa"
+},
+"pos": "",
+"w": "à l'inverse",
+"p": "",
+"unit": 14,
+"u": "c2-14",
+"q": 7207
+},
+{
+"word": "de même",
+"m": {
+"es": "del mismo modo"
+},
+"pos": "",
+"w": "de même",
+"p": "",
+"unit": 14,
+"u": "c2-14",
+"q": 7208
+},
+{
+"word": "il ressort que",
+"m": {
+"es": "se desprende que"
+},
+"pos": "",
+"w": "il ressort que",
+"p": "",
+"unit": 14,
+"u": "c2-14",
+"q": 7209
+},
+{
+"word": "abhorrer",
+"m": {
+"es": "aborrecer"
+},
+"pos": "",
+"w": "abhorrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7210
+},
+{
+"word": "abjurer",
+"m": {
+"es": "abjurar"
+},
+"pos": "",
+"w": "abjurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7211
+},
+{
+"word": "affable",
+"m": {
+"es": "afable"
+},
+"pos": "",
+"w": "affable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7212
+},
+{
+"word": "affluer",
+"m": {
+"es": "afluir"
+},
+"pos": "verb",
+"w": "affluer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7213
+},
+{
+"word": "aliéner",
+"m": {
+"es": "enajenar"
+},
+"pos": "verb",
+"w": "aliéner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7214
+},
+{
+"word": "alléguer",
+"m": {
+"es": "alegar"
+},
+"pos": "",
+"w": "alléguer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7215
+},
+{
+"word": "amonceler",
+"m": {
+"es": "amontonar"
+},
+"pos": "",
+"w": "amonceler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7216
+},
+{
+"word": "ancestral",
+"m": {
+"es": "ancestral"
+},
+"pos": "adjective",
+"w": "ancestral",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7217
+},
+{
+"word": "antédiluvien",
+"m": {
+"es": "antediluviano"
+},
+"pos": "adjective",
+"w": "antédiluvien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7218
+},
+{
+"word": "anéantir",
+"m": {
+"es": "aniquilar"
+},
+"pos": "verb",
+"w": "anéantir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7219
+},
+{
+"word": "aplanir",
+"m": {
+"es": "allanar"
+},
+"pos": "verb",
+"w": "aplanir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7220
+},
+{
+"word": "apostropher",
+"m": {
+"es": "increpar"
+},
+"pos": "",
+"w": "apostropher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7221
+},
+{
+"word": "assidu",
+"m": {
+"es": "asiduo"
+},
+"pos": "adjective",
+"w": "assidu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7222
+},
+{
+"word": "assouvir",
+"m": {
+"es": "saciar, satisfacer"
+},
+"pos": "verb",
+"w": "assouvir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7223
+},
+{
+"word": "assujettir",
+"m": {
+"es": "someter, sujetar"
+},
+"pos": "verb",
+"w": "assujettir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7224
+},
+{
+"word": "atomiser",
+"m": {
+"es": "atomizar"
+},
+"pos": "verb",
+"w": "atomiser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7225
+},
+{
+"word": "atone",
+"m": {
+"es": "átono, apagado"
+},
+"pos": "",
+"w": "atone",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7226
+},
+{
+"word": "auréoler",
+"m": {
+"es": "aureolar, rodear de prestigio"
+},
+"pos": "verb",
+"w": "auréoler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7227
+},
+{
+"word": "austère",
+"m": {
+"es": "austero"
+},
+"pos": "",
+"w": "austère",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7228
+},
+{
+"word": "autant en emporte le vent",
+"m": {
+"es": "lo que el viento se llevó; palabras vanas"
+},
+"pos": "",
+"w": "autant en emporte le vent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7229
+},
+{
+"word": "autocentré",
+"m": {
+"es": "egocéntrico, centrado en sí mismo"
+},
+"pos": "adjective",
+"w": "autocentré",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7230
+},
+{
+"word": "battre la campagne",
+"m": {
+"es": "desvariar"
+},
+"pos": "",
+"w": "battre la campagne",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7231
+},
+{
+"word": "bayer aux corneilles",
+"m": {
+"es": "estar en las nubes, papar moscas"
+},
+"pos": "",
+"w": "bayer aux corneilles",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7232
+},
+{
+"word": "blafard",
+"m": {
+"es": "pálido, mortecino"
+},
+"pos": "",
+"w": "blafard",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7233
+},
+{
+"word": "blêmir",
+"m": {
+"es": "palidecer"
+},
+"pos": "",
+"w": "blêmir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7234
+},
+{
+"word": "brûler la chandelle par les deux bouts",
+"m": {
+"es": "quemar la vela por los dos extremos, derrochar"
+},
+"pos": "",
+"w": "brûler la chandelle par les deux bouts",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7235
+},
+{
+"word": "caduc",
+"m": {
+"es": "caduco"
+},
+"pos": "",
+"w": "caduc",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7236
+},
+{
+"word": "candide",
+"m": {
+"es": "cándido"
+},
+"pos": "",
+"w": "candide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7237
+},
+{
+"word": "captieux",
+"m": {
+"es": "capcioso"
+},
+"pos": "",
+"w": "captieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7238
+},
+{
+"word": "chambouler",
+"m": {
+"es": "trastocar, poner patas arriba"
+},
+"pos": "verb",
+"w": "chambouler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7239
+},
+{
+"word": "chatoyer",
+"m": {
+"es": "tornasolarse, brillar"
+},
+"pos": "",
+"w": "chatoyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7240
+},
+{
+"word": "choir",
+"m": {
+"es": "caer (literario)"
+},
+"pos": "",
+"w": "choir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7241
+},
+{
+"word": "choyer",
+"m": {
+"es": "mimar"
+},
+"pos": "verb",
+"w": "choyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7242
+},
+{
+"word": "chétif",
+"m": {
+"es": "enclenque, endeble"
+},
+"pos": "",
+"w": "chétif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7243
+},
+{
+"word": "circonstancier",
+"m": {
+"es": "detallar, pormenorizar"
+},
+"pos": "verb",
+"w": "circonstancier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7244
+},
+{
+"word": "cliver",
+"m": {
+"es": "dividir, polarizar"
+},
+"pos": "verb",
+"w": "cliver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7245
+},
+{
+"word": "cocasse",
+"m": {
+"es": "cómico, chusco"
+},
+"pos": "",
+"w": "cocasse",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7246
+},
+{
+"word": "compendieux",
+"m": {
+"es": "conciso (literario)"
+},
+"pos": "",
+"w": "compendieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7247
+},
+{
+"word": "compulser",
+"m": {
+"es": "consultar (documentos)"
+},
+"pos": "",
+"w": "compulser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7248
+},
+{
+"word": "conciliant",
+"m": {
+"es": "conciliador"
+},
+"pos": "adjective",
+"w": "conciliant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7249
+},
+{
+"word": "concocter",
+"m": {
+"es": "tramar, preparar"
+},
+"pos": "verb",
+"w": "concocter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7250
+},
+{
+"word": "concomitamment",
+"m": {
+"es": "concomitantemente"
+},
+"pos": "adverb",
+"w": "concomitamment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7251
+},
+{
+"word": "concurremment",
+"m": {
+"es": "conjuntamente, a la vez"
+},
+"pos": "adverb",
+"w": "concurremment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7252
+},
+{
+"word": "conforter",
+"m": {
+"es": "reforzar, consolidar"
+},
+"pos": "verb",
+"w": "conforter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7253
+},
+{
+"word": "conjoncturel",
+"m": {
+"es": "coyuntural"
+},
+"pos": "adjective",
+"w": "conjoncturel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7254
+},
+{
+"word": "conjurer",
+"m": {
+"es": "conjurar"
+},
+"pos": "",
+"w": "conjurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7255
+},
+{
+"word": "consterner",
+"m": {
+"es": "consternar"
+},
+"pos": "",
+"w": "consterner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7256
+},
+{
+"word": "contrebalancer",
+"m": {
+"es": "contrarrestar, compensar"
+},
+"pos": "verb",
+"w": "contrebalancer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7257
+},
+{
+"word": "corrompre",
+"m": {
+"es": "corromper"
+},
+"pos": "verb",
+"w": "corrompre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7258
+},
+{
+"word": "coruscant",
+"m": {
+"es": "resplandeciente"
+},
+"pos": "",
+"w": "coruscant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7259
+},
+{
+"word": "corvéable",
+"m": {
+"es": "explotable"
+},
+"pos": "adjective",
+"w": "corvéable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7260
+},
+{
+"word": "courroucer",
+"m": {
+"es": "enojar (literario)"
+},
+"pos": "verb",
+"w": "courroucer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7261
+},
+{
+"word": "coutumier",
+"m": {
+"es": "habitual; consuetudinario"
+},
+"pos": "adjective",
+"w": "coutumier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7262
+},
+{
+"word": "croquer le marmot",
+"m": {
+"es": "esperar mucho tiempo"
+},
+"pos": "",
+"w": "croquer le marmot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7263
+},
+{
+"word": "cuistre",
+"m": {
+"es": "pedante"
+},
+"pos": "",
+"w": "cuistre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7264
+},
+{
+"word": "céans",
+"m": {
+"es": "aquí dentro (arcaico)"
+},
+"pos": "",
+"w": "céans",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7265
+},
+{
+"word": "daigner",
+"m": {
+"es": "dignarse"
+},
+"pos": "verb",
+"w": "daigner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7266
+},
+{
+"word": "diaphane",
+"m": {
+"es": "diáfano"
+},
+"pos": "",
+"w": "diaphane",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7267
+},
+{
+"word": "dilapider",
+"m": {
+"es": "dilapidar"
+},
+"pos": "",
+"w": "dilapider",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7268
+},
+{
+"word": "discréditer",
+"m": {
+"es": "desacreditar"
+},
+"pos": "verb",
+"w": "discréditer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7269
+},
+{
+"word": "disséquer",
+"m": {
+"es": "diseccionar"
+},
+"pos": "",
+"w": "disséquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7270
+},
+{
+"word": "divaguer",
+"m": {
+"es": "divagar"
+},
+"pos": "verb",
+"w": "divaguer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7271
+},
+{
+"word": "donner sa langue au chat",
+"m": {
+"es": "darse por vencido (en una adivinanza)"
+},
+"pos": "",
+"w": "donner sa langue au chat",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7272
+},
+{
+"word": "débourser",
+"m": {
+"es": "desembolsar"
+},
+"pos": "verb",
+"w": "débourser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7273
+},
+{
+"word": "déchoir",
+"m": {
+"es": "decaer, perder (un derecho)"
+},
+"pos": "",
+"w": "déchoir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7274
+},
+{
+"word": "décisionnel",
+"m": {
+"es": "decisorio"
+},
+"pos": "adjective",
+"w": "décisionnel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7275
+},
+{
+"word": "déférer",
+"m": {
+"es": "deferir; someterse"
+},
+"pos": "",
+"w": "déférer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7276
+},
+{
+"word": "déliquescent",
+"m": {
+"es": "decadente, en descomposición"
+},
+"pos": "",
+"w": "déliquescent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7277
+},
+{
+"word": "déliter",
+"m": {
+"es": "desagregar; se déliter: desmoronarse"
+},
+"pos": "",
+"w": "déliter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7278
+},
+{
+"word": "délétère",
+"m": {
+"es": "nocivo, deletéreo"
+},
+"pos": "adjective",
+"w": "délétère",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7279
+},
+{
+"word": "déprimant",
+"m": {
+"es": "deprimente"
+},
+"pos": "adjective/noun",
+"w": "déprimant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7280
+},
+{
+"word": "déroger",
+"m": {
+"es": "derogar, faltar (a una regla)"
+},
+"pos": "verb",
+"w": "déroger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7281
+},
+{
+"word": "désavouer",
+"m": {
+"es": "desautorizar, renegar de"
+},
+"pos": "",
+"w": "désavouer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7282
+},
+{
+"word": "désopilant",
+"m": {
+"es": "desternillante"
+},
+"pos": "adjective",
+"w": "désopilant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7283
+},
+{
+"word": "enhardir",
+"m": {
+"es": "envalentonar"
+},
+"pos": "verb",
+"w": "enhardir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7284
+},
+{
+"word": "esquiver",
+"m": {
+"es": "esquivar"
+},
+"pos": "",
+"w": "esquiver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7285
+},
+{
+"word": "essaimer",
+"m": {
+"es": "diseminarse"
+},
+"pos": "verb",
+"w": "essaimer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7286
+},
+{
+"word": "exaucer",
+"m": {
+"es": "conceder, cumplir (un deseo)"
+},
+"pos": "verb",
+"w": "exaucer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7287
+},
+{
+"word": "exhaustif",
+"m": {
+"es": "exhaustivo"
+},
+"pos": "adjective",
+"w": "exhaustif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7288
+},
+{
+"word": "exhorter",
+"m": {
+"es": "exhortar"
+},
+"pos": "verb",
+"w": "exhorter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7289
+},
+{
+"word": "exponentiel",
+"m": {
+"es": "exponencial"
+},
+"pos": "adjective",
+"w": "exponentiel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7290
+},
+{
+"word": "exsangue",
+"m": {
+"es": "exangüe, desangrado"
+},
+"pos": "adjective",
+"w": "exsangue",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7291
+},
+{
+"word": "extrapoler",
+"m": {
+"es": "extrapolar"
+},
+"pos": "verb",
+"w": "extrapoler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7292
+},
+{
+"word": "exulter",
+"m": {
+"es": "exultar"
+},
+"pos": "verb",
+"w": "exulter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7293
+},
+{
+"word": "faire florès",
+"m": {
+"es": "tener mucho éxito"
+},
+"pos": "",
+"w": "faire florès",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7294
+},
+{
+"word": "fallacieux",
+"m": {
+"es": "falaz"
+},
+"pos": "",
+"w": "fallacieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7295
+},
+{
+"word": "falot",
+"m": {
+"es": "insulso, gris"
+},
+"pos": "",
+"w": "falot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7296
+},
+{
+"word": "fat",
+"m": {
+"es": "presuntuoso"
+},
+"pos": "noun",
+"w": "fat",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7297
+},
+{
+"word": "fausser",
+"m": {
+"es": "falsear"
+},
+"pos": "verb",
+"w": "fausser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7298
+},
+{
+"word": "flagorner",
+"m": {
+"es": "adular"
+},
+"pos": "",
+"w": "flagorner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7299
+},
+{
+"word": "fléchir",
+"m": {
+"es": "doblegar, ceder"
+},
+"pos": "",
+"w": "fléchir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7300
+},
+{
+"word": "flétrir",
+"m": {
+"es": "marchitar; estigmatizar"
+},
+"pos": "",
+"w": "flétrir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7301
+},
+{
+"word": "fomenter",
+"m": {
+"es": "fomentar (algo malo)"
+},
+"pos": "",
+"w": "fomenter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7302
+},
+{
+"word": "fortuit",
+"m": {
+"es": "fortuito"
+},
+"pos": "adjective",
+"w": "fortuit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7303
+},
+{
+"word": "fourbe",
+"m": {
+"es": "pérfido, taimado"
+},
+"pos": "",
+"w": "fourbe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7304
+},
+{
+"word": "frugal",
+"m": {
+"es": "frugal"
+},
+"pos": "adjective",
+"w": "frugal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7305
+},
+{
+"word": "fugace",
+"m": {
+"es": "fugaz"
+},
+"pos": "adjective",
+"w": "fugace",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7306
+},
+{
+"word": "fédérateur",
+"m": {
+"es": "aglutinador"
+},
+"pos": "adjective",
+"w": "fédérateur",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7307
+},
+{
+"word": "galvaniser",
+"m": {
+"es": "galvanizar, enardecer"
+},
+"pos": "verb",
+"w": "galvaniser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7308
+},
+{
+"word": "gangrener",
+"m": {
+"es": "gangrenar, corroer"
+},
+"pos": "",
+"w": "gangrener",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7309
+},
+{
+"word": "gaspiller",
+"m": {
+"es": "despilfarrar"
+},
+"pos": "verb",
+"w": "gaspiller",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7310
+},
+{
+"word": "glaner",
+"m": {
+"es": "espigar, recoger aquí y allá"
+},
+"pos": "verb",
+"w": "glaner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7311
+},
+{
+"word": "gloser",
+"m": {
+"es": "glosar, comentar"
+},
+"pos": "",
+"w": "gloser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7312
+},
+{
+"word": "grever",
+"m": {
+"es": "gravar (económicamente)"
+},
+"pos": "",
+"w": "grever",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7313
+},
+{
+"word": "grivois",
+"m": {
+"es": "picante, verde"
+},
+"pos": "adjective",
+"w": "grivois",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7314
+},
+{
+"word": "guerroyer",
+"m": {
+"es": "guerrear"
+},
+"pos": "verb",
+"w": "guerroyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7315
+},
+{
+"word": "hagard",
+"m": {
+"es": "despavorido, extraviado"
+},
+"pos": "adjective",
+"w": "hagard",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7316
+},
+{
+"word": "haranguer",
+"m": {
+"es": "arengar"
+},
+"pos": "",
+"w": "haranguer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7317
+},
+{
+"word": "hirsute",
+"m": {
+"es": "hirsuto, desgreñado"
+},
+"pos": "",
+"w": "hirsute",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7318
+},
+{
+"word": "honnir",
+"m": {
+"es": "vilipendiar, abominar"
+},
+"pos": "",
+"w": "honnir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7319
+},
+{
+"word": "hâbleur",
+"m": {
+"es": "fanfarrón"
+},
+"pos": "",
+"w": "hâbleur",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7320
+},
+{
+"word": "hétéroclite",
+"m": {
+"es": "heterogéneo, variopinto"
+},
+"pos": "",
+"w": "hétéroclite",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7321
+},
+{
+"word": "idoine",
+"m": {
+"es": "idóneo"
+},
+"pos": "",
+"w": "idoine",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7322
+},
+{
+"word": "ignare",
+"m": {
+"es": "ignorante"
+},
+"pos": "",
+"w": "ignare",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7323
+},
+{
+"word": "il faut battre le fer pendant qu'il est chaud",
+"m": {
+"es": "al hierro caliente batir de repente"
+},
+"pos": "",
+"w": "il faut battre le fer pendant qu'il est chaud",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7324
+},
+{
+"word": "il ne faut pas vendre la peau de l'ours avant de l'avoir tué",
+"m": {
+"es": "no hay que vender la piel del oso antes de cazarlo"
+},
+"pos": "",
+"w": "il ne faut pas vendre la peau de l'ours avant de l'avoir tué",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7325
+},
+{
+"word": "immarcescible",
+"m": {
+"es": "inmarcesible"
+},
+"pos": "",
+"w": "immarcescible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7326
+},
+{
+"word": "imparable",
+"m": {
+"es": "imparable, irrefutable"
+},
+"pos": "adjective",
+"w": "imparable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7327
+},
+{
+"word": "impavide",
+"m": {
+"es": "impávido"
+},
+"pos": "",
+"w": "impavide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7328
+},
+{
+"word": "impensable",
+"m": {
+"es": "impensable"
+},
+"pos": "adjective",
+"w": "impensable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7329
+},
+{
+"word": "imperturbable",
+"m": {
+"es": "imperturbable"
+},
+"pos": "adjective",
+"w": "imperturbable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7330
+},
+{
+"word": "imputer",
+"m": {
+"es": "imputar"
+},
+"pos": "verb",
+"w": "imputer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7331
+},
+{
+"word": "impénitent",
+"m": {
+"es": "impenitente"
+},
+"pos": "",
+"w": "impénitent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7332
+},
+{
+"word": "impérieux",
+"m": {
+"es": "imperioso"
+},
+"pos": "",
+"w": "impérieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7333
+},
+{
+"word": "inaliénable",
+"m": {
+"es": "inalienable"
+},
+"pos": "adjective",
+"w": "inaliénable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7334
+},
+{
+"word": "inamovible",
+"m": {
+"es": "inamovible"
+},
+"pos": "",
+"w": "inamovible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7335
+},
+{
+"word": "incidemment",
+"m": {
+"es": "incidentalmente"
+},
+"pos": "",
+"w": "incidemment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7336
+},
+{
+"word": "inconsidéré",
+"m": {
+"es": "desconsiderado, irreflexivo"
+},
+"pos": "adjective",
+"w": "inconsidéré",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7337
+},
+{
+"word": "incontesté",
+"m": {
+"es": "indiscutido"
+},
+"pos": "adjective",
+"w": "incontesté",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7338
+},
+{
+"word": "inculquer",
+"m": {
+"es": "inculcar"
+},
+"pos": "verb",
+"w": "inculquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7339
+},
+{
+"word": "indicible",
+"m": {
+"es": "indecible"
+},
+"pos": "adjective",
+"w": "indicible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7340
+},
+{
+"word": "ineffable",
+"m": {
+"es": "inefable"
+},
+"pos": "adjective",
+"w": "ineffable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7341
+},
+{
+"word": "inepte",
+"m": {
+"es": "inepto, necio"
+},
+"pos": "",
+"w": "inepte",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7342
+},
+{
+"word": "inexpugnable",
+"m": {
+"es": "inexpugnable"
+},
+"pos": "",
+"w": "inexpugnable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7343
+},
+{
+"word": "infatué",
+"m": {
+"es": "engreído"
+},
+"pos": "",
+"w": "infatué",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7344
+},
+{
+"word": "infléchir",
+"m": {
+"es": "inflexionar, reorientar"
+},
+"pos": "",
+"w": "infléchir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7345
+},
+{
+"word": "ingénu",
+"m": {
+"es": "ingenuo"
+},
+"pos": "adjective",
+"w": "ingénu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7346
+},
+{
+"word": "inique",
+"m": {
+"es": "inicuo"
+},
+"pos": "",
+"w": "inique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7347
+},
+{
+"word": "inopiné",
+"m": {
+"es": "inopinado"
+},
+"pos": "",
+"w": "inopiné",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7348
+},
+{
+"word": "inopportun",
+"m": {
+"es": "inoportuno"
+},
+"pos": "adjective",
+"w": "inopportun",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7349
+},
+{
+"word": "insidieux",
+"m": {
+"es": "insidioso"
+},
+"pos": "",
+"w": "insidieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7350
+},
+{
+"word": "insipide",
+"m": {
+"es": "insípido"
+},
+"pos": "",
+"w": "insipide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7351
+},
+{
+"word": "institutionnaliser",
+"m": {
+"es": "institucionalizar"
+},
+"pos": "verb",
+"w": "institutionnaliser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7352
+},
+{
+"word": "intempestif",
+"m": {
+"es": "intempestivo"
+},
+"pos": "",
+"w": "intempestif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7353
+},
+{
+"word": "invectiver",
+"m": {
+"es": "insultar, increpar"
+},
+"pos": "",
+"w": "invectiver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7354
+},
+{
+"word": "invétéré",
+"m": {
+"es": "empedernido"
+},
+"pos": "adjective",
+"w": "invétéré",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7355
+},
+{
+"word": "inénarrable",
+"m": {
+"es": "indescriptible, muy cómico"
+},
+"pos": "",
+"w": "inénarrable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7356
+},
+{
+"word": "irascible",
+"m": {
+"es": "irascible"
+},
+"pos": "adjective",
+"w": "irascible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7357
+},
+{
+"word": "jalonner",
+"m": {
+"es": "jalonar"
+},
+"pos": "",
+"w": "jalonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7358
+},
+{
+"word": "jeter de la poudre aux yeux",
+"m": {
+"es": "deslumbrar con apariencias"
+},
+"pos": "",
+"w": "jeter de la poudre aux yeux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7359
+},
+{
+"word": "juxtaposer",
+"m": {
+"es": "yuxtaponer"
+},
+"pos": "verb",
+"w": "juxtaposer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7360
+},
+{
+"word": "l'aboutissement",
+"m": {
+"es": "culminación, resultado · masc."
+},
+"pos": "noun",
+"w": "l'aboutissement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7361
+},
+{
+"word": "l'abrogation",
+"m": {
+"es": "derogación · fem."
+},
+"pos": "noun",
+"w": "l'abrogation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7362
+},
+{
+"word": "l'acuité",
+"m": {
+"es": "agudeza · fem."
+},
+"pos": "noun",
+"w": "l'acuité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7363
+},
+{
+"word": "l'affect",
+"m": {
+"es": "afecto (psicología) · masc."
+},
+"pos": "noun",
+"w": "l'affect",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7364
+},
+{
+"word": "l'affliction",
+"m": {
+"es": "aflicción · fem."
+},
+"pos": "noun",
+"w": "l'affliction",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7365
+},
+{
+"word": "l'affluence",
+"m": {
+"es": "afluencia · fem."
+},
+"pos": "noun",
+"w": "l'affluence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7366
+},
+{
+"word": "l'allégeance",
+"m": {
+"es": "lealtad, sumisión · fem."
+},
+"pos": "noun",
+"w": "l'allégeance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7367
+},
+{
+"word": "l'ambivalence",
+"m": {
+"es": "ambivalencia · fem."
+},
+"pos": "noun",
+"w": "l'ambivalence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7368
+},
+{
+"word": "l'anachronisme",
+"m": {
+"es": "anacronismo · masc."
+},
+"pos": "noun",
+"w": "l'anachronisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7369
+},
+{
+"word": "l'aphorisme",
+"m": {
+"es": "aforismo · masc."
+},
+"pos": "noun",
+"w": "l'aphorisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7370
+},
+{
+"word": "l'apologie",
+"m": {
+"es": "apología · fem."
+},
+"pos": "noun",
+"w": "l'apologie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7371
+},
+{
+"word": "l'appétit vient en mangeant",
+"m": {
+"es": "el comer y el rascar, todo es empezar"
+},
+"pos": "",
+"w": "l'appétit vient en mangeant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7372
+},
+{
+"word": "l'arbitraire",
+"m": {
+"es": "arbitrariedad · masc."
+},
+"pos": "adjective/noun",
+"w": "l'arbitraire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7373
+},
+{
+"word": "l'archaïsme",
+"m": {
+"es": "arcaísmo · masc."
+},
+"pos": "noun",
+"w": "l'archaïsme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7374
+},
+{
+"word": "l'argumentaire",
+"m": {
+"es": "argumentario · masc."
+},
+"pos": "noun",
+"w": "l'argumentaire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7375
+},
+{
+"word": "l'ascèse",
+"m": {
+"es": "ascesis · fem."
+},
+"pos": "noun",
+"w": "l'ascèse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7376
+},
+{
+"word": "l'assiette fiscale",
+"m": {
+"es": "base imponible · fem."
+},
+"pos": "noun",
+"w": "l'assiette fiscale",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7377
+},
+{
+"word": "l'atavisme",
+"m": {
+"es": "atavismo · masc."
+},
+"pos": "noun",
+"w": "l'atavisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7378
+},
+{
+"word": "l'autarcie",
+"m": {
+"es": "autarquía · fem."
+},
+"pos": "noun",
+"w": "l'autarcie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7379
+},
+{
+"word": "l'ayant droit",
+"m": {
+"es": "derechohabiente · masc."
+},
+"pos": "noun",
+"w": "l'ayant droit",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7380
+},
+{
+"word": "l'endettement",
+"m": {
+"es": "endeudamiento · masc."
+},
+"pos": "noun",
+"w": "l'endettement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7381
+},
+{
+"word": "l'entrain",
+"m": {
+"es": "ánimo, brío · masc."
+},
+"pos": "noun",
+"w": "l'entrain",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7382
+},
+{
+"word": "l'entremise",
+"m": {
+"es": "mediación · fem."
+},
+"pos": "noun",
+"w": "l'entremise",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7383
+},
+{
+"word": "l'exequatur",
+"m": {
+"es": "exequátur · masc."
+},
+"pos": "noun",
+"w": "l'exequatur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7384
+},
+{
+"word": "l'expropriation",
+"m": {
+"es": "expropiación · fem."
+},
+"pos": "noun",
+"w": "l'expropriation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7385
+},
+{
+"word": "l'exégèse",
+"m": {
+"es": "exégesis · fem."
+},
+"pos": "noun",
+"w": "l'exégèse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7386
+},
+{
+"word": "l'homonymie",
+"m": {
+"es": "homonimia · fem."
+},
+"pos": "noun",
+"w": "l'homonymie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7387
+},
+{
+"word": "l'hypocrisie",
+"m": {
+"es": "hipocresía · fem."
+},
+"pos": "noun",
+"w": "l'hypocrisie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7388
+},
+{
+"word": "l'hérésie",
+"m": {
+"es": "herejía · fem."
+},
+"pos": "noun",
+"w": "l'hérésie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7389
+},
+{
+"word": "l'iconoclasme",
+"m": {
+"es": "iconoclasia · masc."
+},
+"pos": "noun",
+"w": "l'iconoclasme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7390
+},
+{
+"word": "l'idiome",
+"m": {
+"es": "idioma, lengua propia · masc."
+},
+"pos": "noun",
+"w": "l'idiome",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7391
+},
+{
+"word": "l'immunité",
+"m": {
+"es": "inmunidad · fem."
+},
+"pos": "noun",
+"w": "l'immunité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7392
+},
+{
+"word": "l'immédiateté",
+"m": {
+"es": "inmediatez · fem."
+},
+"pos": "noun",
+"w": "l'immédiateté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7393
+},
+{
+"word": "l'imposture",
+"m": {
+"es": "impostura · fem."
+},
+"pos": "noun",
+"w": "l'imposture",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7394
+},
+{
+"word": "l'imprescriptibilité",
+"m": {
+"es": "imprescriptibilidad · fem."
+},
+"pos": "noun",
+"w": "l'imprescriptibilité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7395
+},
+{
+"word": "l'impéritie",
+"m": {
+"es": "impericia · fem."
+},
+"pos": "noun",
+"w": "l'impéritie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7396
+},
+{
+"word": "l'inanité",
+"m": {
+"es": "inanidad, futilidad · fem."
+},
+"pos": "noun",
+"w": "l'inanité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7397
+},
+{
+"word": "l'incurie",
+"m": {
+"es": "negligencia, dejadez · fem."
+},
+"pos": "noun",
+"w": "l'incurie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7398
+},
+{
+"word": "l'ineptie",
+"m": {
+"es": "necedad · fem."
+},
+"pos": "noun",
+"w": "l'ineptie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7399
+},
+{
+"word": "l'ingérence",
+"m": {
+"es": "injerencia · fem."
+},
+"pos": "noun",
+"w": "l'ingérence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7400
+},
+{
+"word": "l'iniquité",
+"m": {
+"es": "iniquidad · fem."
+},
+"pos": "noun",
+"w": "l'iniquité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7401
+},
+{
+"word": "l'insinuation",
+"m": {
+"es": "insinuación · fem."
+},
+"pos": "noun",
+"w": "l'insinuation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7402
+},
+{
+"word": "l'instigateur",
+"m": {
+"es": "instigador · masc."
+},
+"pos": "noun",
+"w": "l'instigateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7403
+},
+{
+"word": "l'invective",
+"m": {
+"es": "invectiva · fem."
+},
+"pos": "noun",
+"w": "l'invective",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7404
+},
+{
+"word": "l'opprobre",
+"m": {
+"es": "oprobio · masc."
+},
+"pos": "noun",
+"w": "l'opprobre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7405
+},
+{
+"word": "l'ostracisme",
+"m": {
+"es": "ostracismo · masc."
+},
+"pos": "noun",
+"w": "l'ostracisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7406
+},
+{
+"word": "l'outrage",
+"m": {
+"es": "ultraje, desacato · masc."
+},
+"pos": "noun",
+"w": "l'outrage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7407
+},
+{
+"word": "l'usufruit",
+"m": {
+"es": "usufructo · masc."
+},
+"pos": "noun",
+"w": "l'usufruit",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7408
+},
+{
+"word": "l'utopie",
+"m": {
+"es": "utopía · fem."
+},
+"pos": "noun",
+"w": "l'utopie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7409
+},
+{
+"word": "l'éclatement",
+"m": {
+"es": "estallido, fragmentación · masc."
+},
+"pos": "noun",
+"w": "l'éclatement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7410
+},
+{
+"word": "l'épanchement",
+"m": {
+"es": "desahogo, efusión · masc."
+},
+"pos": "noun",
+"w": "l'épanchement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7411
+},
+{
+"word": "l'équité",
+"m": {
+"es": "equidad · fem."
+},
+"pos": "noun",
+"w": "l'équité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7412
+},
+{
+"word": "l'étreinte",
+"m": {
+"es": "abrazo; opresión · fem."
+},
+"pos": "noun",
+"w": "l'étreinte",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7413
+},
+{
+"word": "la banalité",
+"m": {
+"es": "banalidad"
+},
+"pos": "noun",
+"w": "la banalité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7414
+},
+{
+"word": "la bibliographie",
+"m": {
+"es": "bibliografía"
+},
+"pos": "noun",
+"w": "la bibliographie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7415
+},
+{
+"word": "la bienséance",
+"m": {
+"es": "decoro"
+},
+"pos": "noun",
+"w": "la bienséance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7416
+},
+{
+"word": "la cacophonie",
+"m": {
+"es": "cacofonía"
+},
+"pos": "noun",
+"w": "la cacophonie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7417
+},
+{
+"word": "la circonlocution",
+"m": {
+"es": "circunloquio"
+},
+"pos": "noun",
+"w": "la circonlocution",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7418
+},
+{
+"word": "la clairvoyance",
+"m": {
+"es": "clarividencia"
+},
+"pos": "noun",
+"w": "la clairvoyance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7419
+},
+{
+"word": "la clause",
+"m": {
+"es": "cláusula"
+},
+"pos": "noun",
+"w": "la clause",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7420
+},
+{
+"word": "la collusion",
+"m": {
+"es": "colusión"
+},
+"pos": "noun",
+"w": "la collusion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7421
+},
+{
+"word": "la contravention",
+"m": {
+"es": "infracción, multa"
+},
+"pos": "noun",
+"w": "la contravention",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7422
+},
+{
+"word": "la corrélation",
+"m": {
+"es": "correlación"
+},
+"pos": "noun",
+"w": "la corrélation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7423
+},
+{
+"word": "la crispation",
+"m": {
+"es": "crispación, tensión"
+},
+"pos": "noun",
+"w": "la crispation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7424
+},
+{
+"word": "la crédulité",
+"m": {
+"es": "credulidad"
+},
+"pos": "noun",
+"w": "la crédulité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7425
+},
+{
+"word": "la diglossie",
+"m": {
+"es": "diglosia"
+},
+"pos": "noun",
+"w": "la diglossie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7426
+},
+{
+"word": "la digression",
+"m": {
+"es": "digresión"
+},
+"pos": "noun",
+"w": "la digression",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7427
+},
+{
+"word": "la discorde",
+"m": {
+"es": "discordia"
+},
+"pos": "noun",
+"w": "la discorde",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7428
+},
+{
+"word": "la disparité",
+"m": {
+"es": "disparidad"
+},
+"pos": "noun",
+"w": "la disparité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7429
+},
+{
+"word": "la divergence",
+"m": {
+"es": "divergencia"
+},
+"pos": "noun",
+"w": "la divergence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7430
+},
+{
+"word": "la dramaturgie",
+"m": {
+"es": "dramaturgia"
+},
+"pos": "noun",
+"w": "la dramaturgie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7431
+},
+{
+"word": "la duplicité",
+"m": {
+"es": "doblez, duplicidad"
+},
+"pos": "noun",
+"w": "la duplicité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7432
+},
+{
+"word": "la décadence",
+"m": {
+"es": "decadencia"
+},
+"pos": "noun",
+"w": "la décadence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7433
+},
+{
+"word": "la déchéance",
+"m": {
+"es": "caducidad, pérdida (de un derecho)"
+},
+"pos": "noun",
+"w": "la déchéance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7434
+},
+{
+"word": "la délibération",
+"m": {
+"es": "deliberación"
+},
+"pos": "noun",
+"w": "la délibération",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7435
+},
+{
+"word": "la déloyauté",
+"m": {
+"es": "deslealtad"
+},
+"pos": "noun",
+"w": "la déloyauté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7436
+},
+{
+"word": "la désuétude",
+"m": {
+"es": "desuso"
+},
+"pos": "noun",
+"w": "la désuétude",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7437
+},
+{
+"word": "la fatuité",
+"m": {
+"es": "fatuidad"
+},
+"pos": "noun",
+"w": "la fatuité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7438
+},
+{
+"word": "la fausseté",
+"m": {
+"es": "falsedad"
+},
+"pos": "noun",
+"w": "la fausseté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7439
+},
+{
+"word": "la fourberie",
+"m": {
+"es": "bellaquería, engaño"
+},
+"pos": "noun",
+"w": "la fourberie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7440
+},
+{
+"word": "la fragmentation",
+"m": {
+"es": "fragmentación"
+},
+"pos": "noun",
+"w": "la fragmentation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7441
+},
+{
+"word": "la fratrie",
+"m": {
+"es": "hermanos (conjunto)"
+},
+"pos": "noun",
+"w": "la fratrie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7442
+},
+{
+"word": "la hiérarchisation",
+"m": {
+"es": "jerarquización"
+},
+"pos": "noun",
+"w": "la hiérarchisation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7443
+},
+{
+"word": "la liesse",
+"m": {
+"es": "júbilo, alborozo"
+},
+"pos": "noun",
+"w": "la liesse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7444
+},
+{
+"word": "la lignée",
+"m": {
+"es": "linaje, descendencia"
+},
+"pos": "noun",
+"w": "la lignée",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7445
+},
+{
+"word": "la lubie",
+"m": {
+"es": "capricho, antojo"
+},
+"pos": "noun",
+"w": "la lubie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7446
+},
+{
+"word": "la magnanimité",
+"m": {
+"es": "magnanimidad"
+},
+"pos": "noun",
+"w": "la magnanimité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7447
+},
+{
+"word": "la mansuétude",
+"m": {
+"es": "mansedumbre, indulgencia"
+},
+"pos": "noun",
+"w": "la mansuétude",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7448
+},
+{
+"word": "la misanthropie",
+"m": {
+"es": "misantropía"
+},
+"pos": "noun",
+"w": "la misanthropie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7449
+},
+{
+"word": "la mégalomanie",
+"m": {
+"es": "megalomanía"
+},
+"pos": "noun",
+"w": "la mégalomanie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7450
+},
+{
+"word": "la note de bas de page",
+"m": {
+"es": "nota a pie de página"
+},
+"pos": "noun",
+"w": "la note de bas de page",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7451
+},
+{
+"word": "la nullité",
+"m": {
+"es": "nulidad"
+},
+"pos": "noun",
+"w": "la nullité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7452
+},
+{
+"word": "la parcimonie",
+"m": {
+"es": "parsimonia, mezquindad"
+},
+"pos": "noun",
+"w": "la parcimonie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7453
+},
+{
+"word": "la paronymie",
+"m": {
+"es": "paronimia"
+},
+"pos": "noun",
+"w": "la paronymie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7454
+},
+{
+"word": "la partie civile",
+"m": {
+"es": "acusación particular"
+},
+"pos": "noun",
+"w": "la partie civile",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7455
+},
+{
+"word": "la percée",
+"m": {
+"es": "avance, irrupción"
+},
+"pos": "noun",
+"w": "la percée",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7456
+},
+{
+"word": "la perfidie",
+"m": {
+"es": "perfidia"
+},
+"pos": "noun",
+"w": "la perfidie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7457
+},
+{
+"word": "la pesanteur",
+"m": {
+"es": "pesadez; gravedad"
+},
+"pos": "noun",
+"w": "la pesanteur",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7458
+},
+{
+"word": "la philanthropie",
+"m": {
+"es": "filantropía"
+},
+"pos": "noun",
+"w": "la philanthropie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7459
+},
+{
+"word": "la probité",
+"m": {
+"es": "probidad, honradez"
+},
+"pos": "noun",
+"w": "la probité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7460
+},
+{
+"word": "la propension",
+"m": {
+"es": "propensión"
+},
+"pos": "noun",
+"w": "la propension",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7461
+},
+{
+"word": "la prédominance",
+"m": {
+"es": "predominio"
+},
+"pos": "noun",
+"w": "la prédominance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7462
+},
+{
+"word": "la prégnance",
+"m": {
+"es": "pregnancia, fuerza"
+},
+"pos": "noun",
+"w": "la prégnance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7463
+},
+{
+"word": "la prévarication",
+"m": {
+"es": "prevaricación"
+},
+"pos": "noun",
+"w": "la prévarication",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7464
+},
+{
+"word": "la psychanalyse",
+"m": {
+"es": "psicoanálisis"
+},
+"pos": "noun",
+"w": "la psychanalyse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7465
+},
+{
+"word": "la pulsion",
+"m": {
+"es": "pulsión"
+},
+"pos": "noun",
+"w": "la pulsion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7466
+},
+{
+"word": "la recension",
+"m": {
+"es": "reseña"
+},
+"pos": "noun",
+"w": "la recension",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7467
+},
+{
+"word": "la rémanence",
+"m": {
+"es": "persistencia"
+},
+"pos": "noun",
+"w": "la rémanence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7468
+},
+{
+"word": "la réprobation",
+"m": {
+"es": "reprobación"
+},
+"pos": "noun",
+"w": "la réprobation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7469
+},
+{
+"word": "la scénographie",
+"m": {
+"es": "escenografía"
+},
+"pos": "noun",
+"w": "la scénographie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7470
+},
+{
+"word": "la sentence",
+"m": {
+"es": "sentencia"
+},
+"pos": "noun",
+"w": "la sentence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7471
+},
+{
+"word": "la stagnation",
+"m": {
+"es": "estancamiento"
+},
+"pos": "noun",
+"w": "la stagnation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7472
+},
+{
+"word": "la sujétion",
+"m": {
+"es": "sujeción, servidumbre"
+},
+"pos": "noun",
+"w": "la sujétion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7473
+},
+{
+"word": "la surproduction",
+"m": {
+"es": "superproducción, sobreproducción"
+},
+"pos": "noun",
+"w": "la surproduction",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7474
+},
+{
+"word": "la syntaxe",
+"m": {
+"es": "sintaxis"
+},
+"pos": "noun",
+"w": "la syntaxe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7475
+},
+{
+"word": "la ségrégation",
+"m": {
+"es": "segregación"
+},
+"pos": "noun",
+"w": "la ségrégation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7476
+},
+{
+"word": "la sémantique",
+"m": {
+"es": "semántica"
+},
+"pos": "noun/adjective",
+"w": "la sémantique",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7477
+},
+{
+"word": "la tautologie",
+"m": {
+"es": "tautología"
+},
+"pos": "noun",
+"w": "la tautologie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7478
+},
+{
+"word": "la truculence",
+"m": {
+"es": "truculencia"
+},
+"pos": "noun",
+"w": "la truculence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7479
+},
+{
+"word": "la velléité",
+"m": {
+"es": "veleidad"
+},
+"pos": "noun",
+"w": "la velléité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7480
+},
+{
+"word": "la versatilité",
+"m": {
+"es": "versatilidad, inconstancia"
+},
+"pos": "noun",
+"w": "la versatilité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7481
+},
+{
+"word": "la virulence",
+"m": {
+"es": "virulencia"
+},
+"pos": "noun",
+"w": "la virulence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7482
+},
+{
+"word": "la vulgarisation",
+"m": {
+"es": "divulgación"
+},
+"pos": "noun",
+"w": "la vulgarisation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7483
+},
+{
+"word": "la véhémence",
+"m": {
+"es": "vehemencia"
+},
+"pos": "noun",
+"w": "la véhémence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7484
+},
+{
+"word": "la vénalité",
+"m": {
+"es": "venalidad"
+},
+"pos": "noun",
+"w": "la vénalité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 7485
+},
+{
+"word": "lambiner",
+"m": {
+"es": "remolonear"
+},
+"pos": "",
+"w": "lambiner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7486
+},
+{
+"word": "langagier",
+"m": {
+"es": "del lenguaje, lingüístico"
+},
+"pos": "adjective",
+"w": "langagier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7487
+},
+{
+"word": "las",
+"m": {
+"es": "cansado, harto (literario)"
+},
+"pos": "interjection/adjective",
+"w": "las",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7488
+},
+{
+"word": "lascif",
+"m": {
+"es": "lascivo"
+},
+"pos": "",
+"w": "lascif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7489
+},
+{
+"word": "le badaud",
+"m": {
+"es": "mirón, curioso"
+},
+"pos": "noun",
+"w": "le badaud",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7490
+},
+{
+"word": "le barbarisme",
+"m": {
+"es": "barbarismo"
+},
+"pos": "noun",
+"w": "le barbarisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7491
+},
+{
+"word": "le bilinguisme",
+"m": {
+"es": "bilingüismo"
+},
+"pos": "noun",
+"w": "le bilinguisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7492
+},
+{
+"word": "le bouclier fiscal",
+"m": {
+"es": "escudo fiscal"
+},
+"pos": "noun",
+"w": "le bouclier fiscal",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7493
+},
+{
+"word": "le carcan",
+"m": {
+"es": "corsé, yugo"
+},
+"pos": "noun",
+"w": "le carcan",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7494
+},
+{
+"word": "le cataclysme",
+"m": {
+"es": "cataclismo"
+},
+"pos": "noun",
+"w": "le cataclysme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7495
+},
+{
+"word": "le chantre",
+"m": {
+"es": "cantor, adalid"
+},
+"pos": "noun",
+"w": "le chantre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7496
+},
+{
+"word": "le code civil",
+"m": {
+"es": "código civil"
+},
+"pos": "noun",
+"w": "le code civil",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7497
+},
+{
+"word": "le corps du délit",
+"m": {
+"es": "cuerpo del delito"
+},
+"pos": "noun",
+"w": "le corps du délit",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7498
+},
+{
+"word": "le cynisme",
+"m": {
+"es": "cinismo"
+},
+"pos": "noun",
+"w": "le cynisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7499
+},
+{
+"word": "le dilemme",
+"m": {
+"es": "dilema"
+},
+"pos": "noun",
+"w": "le dilemme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7500
+},
+{
+"word": "le dilettante",
+"m": {
+"es": "diletante"
+},
+"pos": "noun",
+"w": "le dilettante",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7501
+},
+{
+"word": "le discernement",
+"m": {
+"es": "discernimiento"
+},
+"pos": "noun",
+"w": "le discernement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7502
+},
+{
+"word": "le dol",
+"m": {
+"es": "dolo"
+},
+"pos": "noun",
+"w": "le dol",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7503
+},
+{
+"word": "le défaitisme",
+"m": {
+"es": "derrotismo"
+},
+"pos": "noun",
+"w": "le défaitisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7504
+},
+{
+"word": "le for intérieur",
+"m": {
+"es": "fuero interno"
+},
+"pos": "noun",
+"w": "le for intérieur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7505
+},
+{
+"word": "le hiatus",
+"m": {
+"es": "hiato, desfase"
+},
+"pos": "noun",
+"w": "le hiatus",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7506
+},
+{
+"word": "le laisser-aller",
+"m": {
+"es": "dejadez"
+},
+"pos": "noun",
+"w": "le laisser-aller",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7507
+},
+{
+"word": "le lexique",
+"m": {
+"es": "léxico"
+},
+"pos": "noun",
+"w": "le lexique",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7508
+},
+{
+"word": "le mandat d'arrêt",
+"m": {
+"es": "orden de detención"
+},
+"pos": "noun",
+"w": "le mandat d'arrêt",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7509
+},
+{
+"word": "le marchandage",
+"m": {
+"es": "regateo"
+},
+"pos": "noun",
+"w": "le marchandage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7510
+},
+{
+"word": "le méandre",
+"m": {
+"es": "meandro"
+},
+"pos": "noun",
+"w": "le méandre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7511
+},
+{
+"word": "le néologisme",
+"m": {
+"es": "neologismo"
+},
+"pos": "noun",
+"w": "le néologisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7512
+},
+{
+"word": "le palimpseste",
+"m": {
+"es": "palimpsesto"
+},
+"pos": "noun",
+"w": "le palimpseste",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7513
+},
+{
+"word": "le patois",
+"m": {
+"es": "dialecto local, habla rural"
+},
+"pos": "noun",
+"w": "le patois",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7514
+},
+{
+"word": "le prosélytisme",
+"m": {
+"es": "proselitismo"
+},
+"pos": "noun",
+"w": "le prosélytisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7515
+},
+{
+"word": "le présupposé",
+"m": {
+"es": "presupuesto (implícito)"
+},
+"pos": "noun",
+"w": "le présupposé",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7516
+},
+{
+"word": "le psychisme",
+"m": {
+"es": "psiquismo"
+},
+"pos": "noun",
+"w": "le psychisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7517
+},
+{
+"word": "le quolibet",
+"m": {
+"es": "pulla, burla"
+},
+"pos": "noun",
+"w": "le quolibet",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7518
+},
+{
+"word": "le racontar",
+"m": {
+"es": "chisme, habladuría"
+},
+"pos": "noun",
+"w": "le racontar",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7519
+},
+{
+"word": "le rehaussement",
+"m": {
+"es": "realce, elevación"
+},
+"pos": "noun",
+"w": "le rehaussement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7520
+},
+{
+"word": "le référendum",
+"m": {
+"es": "referéndum"
+},
+"pos": "noun",
+"w": "le référendum",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7521
+},
+{
+"word": "le saisissement",
+"m": {
+"es": "sobrecogimiento"
+},
+"pos": "noun",
+"w": "le saisissement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7522
+},
+{
+"word": "le sarcasme",
+"m": {
+"es": "sarcasmo"
+},
+"pos": "noun",
+"w": "le sarcasme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7523
+},
+{
+"word": "le solécisme",
+"m": {
+"es": "solecismo"
+},
+"pos": "noun",
+"w": "le solécisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7524
+},
+{
+"word": "le syntagme",
+"m": {
+"es": "sintagma"
+},
+"pos": "noun",
+"w": "le syntagme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7525
+},
+{
+"word": "le témoin à charge",
+"m": {
+"es": "testigo de cargo"
+},
+"pos": "noun",
+"w": "le témoin à charge",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7526
+},
+{
+"word": "le verlan",
+"m": {
+"es": "verlan (inversión de sílabas)"
+},
+"pos": "noun",
+"w": "le verlan",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7527
+},
+{
+"word": "le zèle",
+"m": {
+"es": "celo"
+},
+"pos": "noun",
+"w": "le zèle",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 7528
+},
+{
+"word": "les chiens aboient, la caravane passe",
+"m": {
+"es": "ladran, luego cabalgamos"
+},
+"pos": "noun",
+"w": "les chiens aboient, la caravane passe",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 7529
+},
+{
+"word": "licencieux",
+"m": {
+"es": "licencioso"
+},
+"pos": "adjective",
+"w": "licencieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7530
+},
+{
+"word": "lugubre",
+"m": {
+"es": "lúgubre"
+},
+"pos": "adjective",
+"w": "lugubre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7531
+},
+{
+"word": "léthargique",
+"m": {
+"es": "letárgico"
+},
+"pos": "",
+"w": "léthargique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7532
+},
+{
+"word": "malmener",
+"m": {
+"es": "maltratar"
+},
+"pos": "verb",
+"w": "malmener",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7533
+},
+{
+"word": "miroiter",
+"m": {
+"es": "espejear; faire miroiter: hacer brillar (una promesa)"
+},
+"pos": "verb",
+"w": "miroiter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7534
+},
+{
+"word": "morceler",
+"m": {
+"es": "parcelar, fragmentar"
+},
+"pos": "",
+"w": "morceler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7535
+},
+{
+"word": "moribond",
+"m": {
+"es": "moribundo"
+},
+"pos": "",
+"w": "moribond",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7536
+},
+{
+"word": "morose",
+"m": {
+"es": "taciturno, sombrío"
+},
+"pos": "adjective",
+"w": "morose",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7537
+},
+{
+"word": "mutique",
+"m": {
+"es": "mudo, callado"
+},
+"pos": "",
+"w": "mutique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7538
+},
+{
+"word": "mésestimer",
+"m": {
+"es": "subestimar"
+},
+"pos": "",
+"w": "mésestimer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7539
+},
+{
+"word": "ne pas y aller de main morte",
+"m": {
+"es": "no andarse con chiquitas"
+},
+"pos": "",
+"w": "ne pas y aller de main morte",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7540
+},
+{
+"word": "nébuleux",
+"m": {
+"es": "nebuloso"
+},
+"pos": "",
+"w": "nébuleux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7541
+},
+{
+"word": "obséquieux",
+"m": {
+"es": "obsequioso, servil"
+},
+"pos": "",
+"w": "obséquieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7542
+},
+{
+"word": "obtus",
+"m": {
+"es": "obtuso"
+},
+"pos": "",
+"w": "obtus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7543
+},
+{
+"word": "obérer",
+"m": {
+"es": "gravar, lastrar"
+},
+"pos": "verb",
+"w": "obérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7544
+},
+{
+"word": "occulte",
+"m": {
+"es": "oculto"
+},
+"pos": "",
+"w": "occulte",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7545
+},
+{
+"word": "officieux",
+"m": {
+"es": "oficioso, extraoficial"
+},
+"pos": "adjective",
+"w": "officieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7546
+},
+{
+"word": "oiseux",
+"m": {
+"es": "ocioso, vano"
+},
+"pos": "",
+"w": "oiseux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7547
+},
+{
+"word": "oisif",
+"m": {
+"es": "ocioso"
+},
+"pos": "noun",
+"w": "oisif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7548
+},
+{
+"word": "omniprésent",
+"m": {
+"es": "omnipresente"
+},
+"pos": "adjective",
+"w": "omniprésent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7549
+},
+{
+"word": "on ne fait pas d'omelette sans casser des œufs",
+"m": {
+"es": "no se puede hacer una tortilla sin romper huevos"
+},
+"pos": "",
+"w": "on ne fait pas d'omelette sans casser des œufs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7550
+},
+{
+"word": "onéreux",
+"m": {
+"es": "oneroso"
+},
+"pos": "adjective",
+"w": "onéreux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7551
+},
+{
+"word": "opiniâtre",
+"m": {
+"es": "tenaz, porfiado"
+},
+"pos": "",
+"w": "opiniâtre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7552
+},
+{
+"word": "ostentatoire",
+"m": {
+"es": "ostentoso"
+},
+"pos": "",
+"w": "ostentatoire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7553
+},
+{
+"word": "ourdir",
+"m": {
+"es": "urdir, tramar"
+},
+"pos": "",
+"w": "ourdir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7554
+},
+{
+"word": "parjurer",
+"m": {
+"es": "perjurar"
+},
+"pos": "",
+"w": "parjurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7555
+},
+{
+"word": "patibulaire",
+"m": {
+"es": "patibulario"
+},
+"pos": "",
+"w": "patibulaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7556
+},
+{
+"word": "payer en monnaie de singe",
+"m": {
+"es": "pagar con promesas vanas"
+},
+"pos": "",
+"w": "payer en monnaie de singe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7557
+},
+{
+"word": "percutant",
+"m": {
+"es": "contundente, impactante"
+},
+"pos": "adjective",
+"w": "percutant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7558
+},
+{
+"word": "pernicieux",
+"m": {
+"es": "pernicioso"
+},
+"pos": "adjective",
+"w": "pernicieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7559
+},
+{
+"word": "perpétrer",
+"m": {
+"es": "perpetrar"
+},
+"pos": "verb",
+"w": "perpétrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7560
+},
+{
+"word": "petit à petit, l'oiseau fait son nid",
+"m": {
+"es": "poco a poco se va lejos"
+},
+"pos": "",
+"w": "petit à petit, l'oiseau fait son nid",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7561
+},
+{
+"word": "pierre qui roule n'amasse pas mousse",
+"m": {
+"es": "piedra movediza nunca moho la cobija"
+},
+"pos": "",
+"w": "pierre qui roule n'amasse pas mousse",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7562
+},
+{
+"word": "piétiner",
+"m": {
+"es": "pisotear; estancarse"
+},
+"pos": "verb",
+"w": "piétiner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7563
+},
+{
+"word": "placide",
+"m": {
+"es": "plácido"
+},
+"pos": "",
+"w": "placide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7564
+},
+{
+"word": "plafonner",
+"m": {
+"es": "estancarse, tocar techo"
+},
+"pos": "verb",
+"w": "plafonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7565
+},
+{
+"word": "plurivoque",
+"m": {
+"es": "plurívoco"
+},
+"pos": "adjective",
+"w": "plurivoque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7566
+},
+{
+"word": "pléthorique",
+"m": {
+"es": "pletórico, excesivo"
+},
+"pos": "",
+"w": "pléthorique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7567
+},
+{
+"word": "pourfendre",
+"m": {
+"es": "combatir con vehemencia"
+},
+"pos": "verb",
+"w": "pourfendre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7568
+},
+{
+"word": "proscrire",
+"m": {
+"es": "proscribir"
+},
+"pos": "verb",
+"w": "proscrire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7569
+},
+{
+"word": "protéiforme",
+"m": {
+"es": "proteiforme, cambiante"
+},
+"pos": "adjective",
+"w": "protéiforme",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7570
+},
+{
+"word": "présager",
+"m": {
+"es": "presagiar"
+},
+"pos": "verb",
+"w": "présager",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7571
+},
+{
+"word": "pulluler",
+"m": {
+"es": "pulular, proliferar"
+},
+"pos": "",
+"w": "pulluler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7572
+},
+{
+"word": "pusillanime",
+"m": {
+"es": "pusilánime"
+},
+"pos": "",
+"w": "pusillanime",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7573
+},
+{
+"word": "putatif",
+"m": {
+"es": "putativo, supuesto"
+},
+"pos": "",
+"w": "putatif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7574
+},
+{
+"word": "pédant",
+"m": {
+"es": "pedante"
+},
+"pos": "",
+"w": "pédant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7575
+},
+{
+"word": "péremptoire",
+"m": {
+"es": "perentorio, tajante"
+},
+"pos": "",
+"w": "péremptoire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7576
+},
+{
+"word": "péremptoirement",
+"m": {
+"es": "perentoriamente"
+},
+"pos": "",
+"w": "péremptoirement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7577
+},
+{
+"word": "pérorer",
+"m": {
+"es": "perorar"
+},
+"pos": "",
+"w": "pérorer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7578
+},
+{
+"word": "pétulant",
+"m": {
+"es": "vivaracho, impetuoso"
+},
+"pos": "adjective",
+"w": "pétulant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7579
+},
+{
+"word": "pêle-mêle",
+"m": {
+"es": "en desorden, revuelto"
+},
+"pos": "adverb",
+"w": "pêle-mêle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7580
+},
+{
+"word": "radieux",
+"m": {
+"es": "radiante"
+},
+"pos": "",
+"w": "radieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7581
+},
+{
+"word": "raviver",
+"m": {
+"es": "reavivar"
+},
+"pos": "verb",
+"w": "raviver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7582
+},
+{
+"word": "receler",
+"m": {
+"es": "ocultar, encerrar"
+},
+"pos": "",
+"w": "receler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7583
+},
+{
+"word": "replet",
+"m": {
+"es": "regordete"
+},
+"pos": "",
+"w": "replet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7584
+},
+{
+"word": "retors",
+"m": {
+"es": "taimado, artero"
+},
+"pos": "",
+"w": "retors",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7585
+},
+{
+"word": "revigorer",
+"m": {
+"es": "revigorizar"
+},
+"pos": "verb",
+"w": "revigorer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7586
+},
+{
+"word": "rira bien qui rira le dernier",
+"m": {
+"es": "quien ríe el último ríe mejor"
+},
+"pos": "",
+"w": "rira bien qui rira le dernier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7587
+},
+{
+"word": "rustre",
+"m": {
+"es": "rudo, patán"
+},
+"pos": "",
+"w": "rustre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7588
+},
+{
+"word": "rébarbatif",
+"m": {
+"es": "ingrato, árido"
+},
+"pos": "",
+"w": "rébarbatif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7589
+},
+{
+"word": "récalcitrant",
+"m": {
+"es": "recalcitrante"
+},
+"pos": "adjective",
+"w": "récalcitrant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7590
+},
+{
+"word": "récuser",
+"m": {
+"es": "recusar, rechazar"
+},
+"pos": "verb",
+"w": "récuser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7591
+},
+{
+"word": "rédhibitoire",
+"m": {
+"es": "eliminatorio, que impide"
+},
+"pos": "",
+"w": "rédhibitoire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7592
+},
+{
+"word": "réfractaire",
+"m": {
+"es": "refractario, reacio"
+},
+"pos": "adjective",
+"w": "réfractaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7593
+},
+{
+"word": "réfréner",
+"m": {
+"es": "refrenar"
+},
+"pos": "",
+"w": "réfréner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7594
+},
+{
+"word": "réitérer",
+"m": {
+"es": "reiterar"
+},
+"pos": "",
+"w": "réitérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7595
+},
+{
+"word": "réprouver",
+"m": {
+"es": "reprobar"
+},
+"pos": "verb",
+"w": "réprouver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7596
+},
+{
+"word": "répudier",
+"m": {
+"es": "repudiar"
+},
+"pos": "",
+"w": "répudier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7597
+},
+{
+"word": "résorber",
+"m": {
+"es": "reabsorber, reducir"
+},
+"pos": "verb",
+"w": "résorber",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7598
+},
+{
+"word": "rétrograde",
+"m": {
+"es": "retrógrado"
+},
+"pos": "",
+"w": "rétrograde",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7599
+},
+{
+"word": "s'enliser",
+"m": {
+"es": "atascarse, empantanarse"
+},
+"pos": "verb",
+"w": "s'enliser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7600
+},
+{
+"word": "s'enorgueillir",
+"m": {
+"es": "enorgullecerse"
+},
+"pos": "verb",
+"w": "s'enorgueillir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7601
+},
+{
+"word": "s'ensuivre",
+"m": {
+"es": "seguirse, derivarse"
+},
+"pos": "",
+"w": "s'ensuivre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7602
+},
+{
+"word": "s'esclaffer",
+"m": {
+"es": "soltar una carcajada"
+},
+"pos": "",
+"w": "s'esclaffer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7603
+},
+{
+"word": "s'extasier",
+"m": {
+"es": "extasiarse"
+},
+"pos": "verb",
+"w": "s'extasier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7604
+},
+{
+"word": "s'immiscer",
+"m": {
+"es": "inmiscuirse"
+},
+"pos": "verb",
+"w": "s'immiscer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7605
+},
+{
+"word": "s'ingérer",
+"m": {
+"es": "inmiscuirse"
+},
+"pos": "",
+"w": "s'ingérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7606
+},
+{
+"word": "s'obstiner",
+"m": {
+"es": "obstinarse"
+},
+"pos": "verb",
+"w": "s'obstiner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7607
+},
+{
+"word": "s'époumoner",
+"m": {
+"es": "desgañitarse"
+},
+"pos": "",
+"w": "s'époumoner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7608
+},
+{
+"word": "saborder",
+"m": {
+"es": "hundir (deliberadamente)"
+},
+"pos": "",
+"w": "saborder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7609
+},
+{
+"word": "sagace",
+"m": {
+"es": "sagaz"
+},
+"pos": "",
+"w": "sagace",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7610
+},
+{
+"word": "sardonique",
+"m": {
+"es": "sardónico"
+},
+"pos": "",
+"w": "sardonique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7611
+},
+{
+"word": "saugrenu",
+"m": {
+"es": "estrafalario, disparatado"
+},
+"pos": "adjective",
+"w": "saugrenu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7612
+},
+{
+"word": "scabreux",
+"m": {
+"es": "escabroso"
+},
+"pos": "",
+"w": "scabreux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7613
+},
+{
+"word": "scinder",
+"m": {
+"es": "escindir, dividir"
+},
+"pos": "verb",
+"w": "scinder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7614
+},
+{
+"word": "se prélasser",
+"m": {
+"es": "repantigarse"
+},
+"pos": "",
+"w": "se prélasser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7615
+},
+{
+"word": "se ragaillardir",
+"m": {
+"es": "reanimarse"
+},
+"pos": "",
+"w": "se ragaillardir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7616
+},
+{
+"word": "se raidir",
+"m": {
+"es": "ponerse rígido, endurecerse"
+},
+"pos": "verb",
+"w": "se raidir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7617
+},
+{
+"word": "se rebiffer",
+"m": {
+"es": "rebelarse, plantarse"
+},
+"pos": "",
+"w": "se rebiffer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7618
+},
+{
+"word": "se repaître",
+"m": {
+"es": "alimentarse, regodearse"
+},
+"pos": "",
+"w": "se repaître",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7619
+},
+{
+"word": "se retrancher",
+"m": {
+"es": "atrincherarse"
+},
+"pos": "verb",
+"w": "se retrancher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7620
+},
+{
+"word": "se targuer",
+"m": {
+"es": "jactarse"
+},
+"pos": "",
+"w": "se targuer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7621
+},
+{
+"word": "sempiternel",
+"m": {
+"es": "sempiterno"
+},
+"pos": "",
+"w": "sempiternel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7622
+},
+{
+"word": "sermonner",
+"m": {
+"es": "sermonear"
+},
+"pos": "",
+"w": "sermonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7623
+},
+{
+"word": "singulariser",
+"m": {
+"es": "singularizar"
+},
+"pos": "verb",
+"w": "singulariser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7624
+},
+{
+"word": "sommaire",
+"m": {
+"es": "sumario, somero"
+},
+"pos": "adjective",
+"w": "sommaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7625
+},
+{
+"word": "soudoyer",
+"m": {
+"es": "sobornar"
+},
+"pos": "verb",
+"w": "soudoyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7626
+},
+{
+"word": "sourciller",
+"m": {
+"es": "pestañear (sans sourciller: sin pestañear)"
+},
+"pos": "verb",
+"w": "sourciller",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7627
+},
+{
+"word": "sournois",
+"m": {
+"es": "solapado, taimado"
+},
+"pos": "",
+"w": "sournois",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7628
+},
+{
+"word": "sous-entendre",
+"m": {
+"es": "sobreentender, insinuar"
+},
+"pos": "verb",
+"w": "sous-entendre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7629
+},
+{
+"word": "spolier",
+"m": {
+"es": "expoliar"
+},
+"pos": "",
+"w": "spolier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7630
+},
+{
+"word": "spécieux",
+"m": {
+"es": "especioso, engañoso"
+},
+"pos": "",
+"w": "spécieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7631
+},
+{
+"word": "statutaire",
+"m": {
+"es": "estatutario"
+},
+"pos": "adjective",
+"w": "statutaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7632
+},
+{
+"word": "stoïque",
+"m": {
+"es": "estoico"
+},
+"pos": "",
+"w": "stoïque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7633
+},
+{
+"word": "subjuguer",
+"m": {
+"es": "subyugar"
+},
+"pos": "verb",
+"w": "subjuguer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7634
+},
+{
+"word": "subreptice",
+"m": {
+"es": "subrepticio"
+},
+"pos": "",
+"w": "subreptice",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7635
+},
+{
+"word": "subséquemment",
+"m": {
+"es": "subsiguientemente"
+},
+"pos": "",
+"w": "subséquemment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7636
+},
+{
+"word": "succulent",
+"m": {
+"es": "suculento"
+},
+"pos": "adjective",
+"w": "succulent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7637
+},
+{
+"word": "superfétatoire",
+"m": {
+"es": "superfluo, redundante"
+},
+"pos": "",
+"w": "superfétatoire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7638
+},
+{
+"word": "supplanter",
+"m": {
+"es": "suplantar"
+},
+"pos": "verb",
+"w": "supplanter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7639
+},
+{
+"word": "susurrer",
+"m": {
+"es": "susurrar"
+},
+"pos": "",
+"w": "susurrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7640
+},
+{
+"word": "sévir",
+"m": {
+"es": "castigar con rigor; hacer estragos"
+},
+"pos": "verb",
+"w": "sévir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7641
+},
+{
+"word": "taciturne",
+"m": {
+"es": "taciturno"
+},
+"pos": "adjective",
+"w": "taciturne",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7642
+},
+{
+"word": "talonner",
+"m": {
+"es": "pisar los talones"
+},
+"pos": "verb",
+"w": "talonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7643
+},
+{
+"word": "tarir",
+"m": {
+"es": "agotar, secar"
+},
+"pos": "verb",
+"w": "tarir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7644
+},
+{
+"word": "tel père, tel fils",
+"m": {
+"es": "de tal palo, tal astilla"
+},
+"pos": "",
+"w": "tel père, tel fils",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7645
+},
+{
+"word": "terrasser",
+"m": {
+"es": "abatir, fulminar"
+},
+"pos": "",
+"w": "terrasser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7646
+},
+{
+"word": "tirer les marrons du feu",
+"m": {
+"es": "sacar las castañas del fuego (para otro)"
+},
+"pos": "",
+"w": "tirer les marrons du feu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7647
+},
+{
+"word": "tonitruer",
+"m": {
+"es": "tronar, vociferar"
+},
+"pos": "verb",
+"w": "tonitruer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7648
+},
+{
+"word": "torve",
+"m": {
+"es": "torvo"
+},
+"pos": "",
+"w": "torve",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7649
+},
+{
+"word": "tout vient à point à qui sait attendre",
+"m": {
+"es": "todo llega para quien sabe esperar"
+},
+"pos": "",
+"w": "tout vient à point à qui sait attendre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7650
+},
+{
+"word": "transgresser",
+"m": {
+"es": "transgredir"
+},
+"pos": "verb",
+"w": "transgresser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7651
+},
+{
+"word": "travestir",
+"m": {
+"es": "disfrazar; tergiversar"
+},
+"pos": "verb",
+"w": "travestir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7652
+},
+{
+"word": "truffer",
+"m": {
+"es": "salpicar, plagar (truffé de)"
+},
+"pos": "verb",
+"w": "truffer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7653
+},
+{
+"word": "trépigner",
+"m": {
+"es": "patalear"
+},
+"pos": "",
+"w": "trépigner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7654
+},
+{
+"word": "tyrannique",
+"m": {
+"es": "tiránico"
+},
+"pos": "adjective",
+"w": "tyrannique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7655
+},
+{
+"word": "tâtonner",
+"m": {
+"es": "tantear, ir a tientas"
+},
+"pos": "verb",
+"w": "tâtonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7656
+},
+{
+"word": "téméraire",
+"m": {
+"es": "temerario"
+},
+"pos": "adjective",
+"w": "téméraire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7657
+},
+{
+"word": "ténu",
+"m": {
+"es": "tenue, sutil"
+},
+"pos": "adjective",
+"w": "ténu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7658
+},
+{
+"word": "ténébreux",
+"m": {
+"es": "tenebroso"
+},
+"pos": "adjective",
+"w": "ténébreux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7659
+},
+{
+"word": "un coup d'épée dans l'eau",
+"m": {
+"es": "un esfuerzo inútil"
+},
+"pos": "",
+"w": "un coup d'épée dans l'eau",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7660
+},
+{
+"word": "vaciller",
+"m": {
+"es": "vacilar, tambalearse"
+},
+"pos": "verb",
+"w": "vaciller",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7661
+},
+{
+"word": "velléitaire",
+"m": {
+"es": "veleidoso, sin voluntad firme"
+},
+"pos": "",
+"w": "velléitaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7662
+},
+{
+"word": "vernaculaire",
+"m": {
+"es": "vernáculo"
+},
+"pos": "adjective",
+"w": "vernaculaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7663
+},
+{
+"word": "vindicatif",
+"m": {
+"es": "vengativo"
+},
+"pos": "",
+"w": "vindicatif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7664
+},
+{
+"word": "virulent",
+"m": {
+"es": "virulento"
+},
+"pos": "adjective",
+"w": "virulent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7665
+},
+{
+"word": "vociférer",
+"m": {
+"es": "vociferar"
+},
+"pos": "verb",
+"w": "vociférer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7666
+},
+{
+"word": "volubile",
+"m": {
+"es": "locuaz, voluble"
+},
+"pos": "adjective",
+"w": "volubile",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7667
+},
+{
+"word": "véhément",
+"m": {
+"es": "vehemente"
+},
+"pos": "",
+"w": "véhément",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7668
+},
+{
+"word": "vénal",
+"m": {
+"es": "venal"
+},
+"pos": "",
+"w": "vénal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7669
+},
+{
+"word": "véreux",
+"m": {
+"es": "corrupto, turbio"
+},
+"pos": "",
+"w": "véreux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7670
+},
+{
+"word": "vétuste",
+"m": {
+"es": "vetusto, deteriorado"
+},
+"pos": "adjective",
+"w": "vétuste",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7671
+},
+{
+"word": "à bon entendeur, salut",
+"m": {
+"es": "a buen entendedor, pocas palabras bastan"
+},
+"pos": "",
+"w": "à bon entendeur, salut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7672
+},
+{
+"word": "âpre",
+"m": {
+"es": "áspero; encarnizado"
+},
+"pos": "",
+"w": "âpre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7673
+},
+{
+"word": "ébouriffant",
+"m": {
+"es": "asombroso"
+},
+"pos": "",
+"w": "ébouriffant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7674
+},
+{
+"word": "éconduire",
+"m": {
+"es": "despedir, rechazar (a alguien)"
+},
+"pos": "",
+"w": "éconduire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7675
+},
+{
+"word": "édifiant",
+"m": {
+"es": "edificante, revelador"
+},
+"pos": "adjective",
+"w": "édifiant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7676
+},
+{
+"word": "égrener",
+"m": {
+"es": "desgranar"
+},
+"pos": "verb",
+"w": "égrener",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7677
+},
+{
+"word": "élaguer",
+"m": {
+"es": "podar; recortar (un texto)"
+},
+"pos": "",
+"w": "élaguer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7678
+},
+{
+"word": "élitiste",
+"m": {
+"es": "elitista"
+},
+"pos": "adjective",
+"w": "élitiste",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7679
+},
+{
+"word": "émousser",
+"m": {
+"es": "embotar, mellar"
+},
+"pos": "",
+"w": "émousser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7680
+},
+{
+"word": "émérite",
+"m": {
+"es": "emérito"
+},
+"pos": "adjective",
+"w": "émérite",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7681
+},
+{
+"word": "éphémère",
+"m": {
+"es": "efímero"
+},
+"pos": "adjective",
+"w": "éphémère",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7682
+},
+{
+"word": "équivoque",
+"m": {
+"es": "equívoco"
+},
+"pos": "noun",
+"w": "équivoque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7683
+},
+{
+"word": "érudit",
+"m": {
+"es": "erudito"
+},
+"pos": "noun",
+"w": "érudit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7684
+},
+{
+"word": "étioler",
+"m": {
+"es": "marchitar, debilitar"
+},
+"pos": "",
+"w": "étioler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7685
+},
+{
+"word": "évanescent",
+"m": {
+"es": "evanescente"
+},
+"pos": "",
+"w": "évanescent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7686
+},
+{
+"word": "évincer",
+"m": {
+"es": "desbancar, apartar"
+},
+"pos": "verb",
+"w": "évincer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7687
+},
+{
+"word": "évocateur",
+"m": {
+"es": "evocador"
+},
+"pos": "adjective",
+"w": "évocateur",
+"p": "",
+"unit": null,
+"u": "",
+"q": 7688
+}
+]

@@ -1,0 +1,453 @@
+#! es
+# C2 lessons (EOI Nivel Avanzado C2). Spanish only.
+
+=== 1
+title: Elle se demandait s'il viendrait ¦ Se preguntaba si vendría
+desc: El estilo indirecto libre y la voz narrativa
+gram: estilo directo, indirecto e indirecto libre ¦ marcas del indirecto libre: imparfait, conditionnel, deícticos del personaje, exclamaciones e interrogaciones sin verbo introductor ¦ efecto: fusión de las voces del narrador y del personaje
+ref: c2-style-indirect-libre
+words: le narrateur, l'énonciation, l'énonciateur, la diégèse, le point de vue, la focalisation, omniscient, interne, externe, le monologue intérieur, le discours, rapporter, la polyphonie, la voix, la subjectivité, l'ambiguïté, s'interroger, se demander, songer, ressasser, ruminer, hésiter, l'angoisse, demain, ce soir, maintenant, ici, hélas, pourquoi, comment
+intro:
+<h3>Tres maneras de dar la palabra a un personaje</h3>
+<table><tr><td>directo</td><td>Elle pensa : « Viendra-t-il demain ? Je n'en peux plus ! »</td></tr>
+<tr><td>indirecto</td><td>Elle se demanda s'il viendrait le lendemain et dit qu'elle n'en pouvait plus.</td></tr>
+<tr><td><strong>indirecto libre</strong></td><td>Elle regardait la route. <strong>Viendrait-il demain ? Elle n'en pouvait plus !</strong></td></tr></table>
+<h3>Marcas del estilo indirecto libre</h3>
+<div class="example">• Sin verbo introductor ni «que».<br>• Tiempos del indirecto: <strong>imparfait</strong>, <strong>plus-que-parfait</strong>, <strong>conditionnel</strong>.<br>• Pero se conservan los deícticos y la afectividad del personaje: <strong>demain, ce soir, ici</strong>, exclamaciones, preguntas, interjecciones (<i>hélas</i>), registro familiar.</div>
+<h3>Efecto</h3>
+<p>Las voces del narrador y del personaje se funden: el lector oye los pensamientos «desde dentro» sin dejar la tercera persona. Es una técnica clave de Flaubert (<i>Madame Bovary</i>, 1857) y de Zola.</p>
+<div class="example">Emma s'ennuyait. <strong>Comme la vie était monotone ! Et dire qu'elle avait cru au bonheur…</strong> (pensamiento de Emma, no juicio del narrador)</div>
+<div class="tip">En el examen C2 se valora reconocer quién habla: ¿el narrador o el personaje? La exclamación y el registro suelen delatarlo.</div>
+ex:
+fill ¦ Il marchait sous la pluie. Pourquoi l'avait-elle quitté ? Il ne ___ jamais. ¦ comprendrait ¦ comprendra / comprend / comprenne ¦ Caminaba bajo la lluvia. ¿Por qué lo había dejado? Nunca lo entendería. ¦ Indirecto libre: futuro → condicional.
+fill ¦ Elle relut la lettre. Demain, tout ___ fini ! ¦ serait ¦ sera / soit / est ¦ Releyó la carta. ¡Mañana todo habría terminado! ¦ Condicional, pero se conserva «demain».
+fill ¦ (indirecto) Il se demanda ___ elle reviendrait. ¦ si ¦ que / quand est-ce / est-ce que ¦ Se preguntó si ella volvería. ¦ Pregunta cerrada → si.
+fill ¦ (indirecto libre) Il regarda sa montre. Encore une heure ! Comme le temps ___ lentement ! ¦ passait ¦ passe / passera / passât ¦ Miró el reloj. ¡Otra hora más! ¡Qué despacio pasaba el tiempo! ¦ Imparfait con exclamación del personaje.
+choose ¦ ¿Qué frase está en estilo indirecto libre? ¦ Elle hésitait. Fallait-il vraiment partir ? ¦ Elle se demandait s'il fallait partir. / Elle pensa : « Faut-il partir ? » / Elle dit qu'il fallait partir.
+choose ¦ Transformación al estilo indirecto de «Je partirai demain», dit-il. ¦ Il dit qu'il partirait le lendemain. ¦ Il dit qu'il partira demain. / Il dit qu'il partirait demain. / Il dit qu'il partait le lendemain matin même.
+order ¦ Il ferma les yeux Que dirait-il à sa mère ¦ Cerró los ojos. ¿Qué le diría a su madre?
+order ¦ Elle sourit Enfin elle était libre ¦ Sonrió. ¡Por fin era libre!
+translate ¦ Miró por la ventana. ¿Por qué no llamaba? (indirecto libre) ¦ Elle regarda par la fenêtre. Pourquoi n'appelait-il pas ? ¦ Il regarda par la fenêtre. Pourquoi n'appelait-elle pas ?
+translate ¦ Se preguntó si vendría. ¦ Elle se demanda s'il viendrait. ¦ Il se demanda si elle viendrait.
+match ¦ la focalisation=focalización; omniscient=omnisciente; ruminer=rumiar; la polyphonie=polifonía; songer=pensar, soñar
+
+=== 2
+title: Les efforts qu'il a fallu ¦ Los esfuerzos que hicieron falta
+desc: Los casos difíciles de la concordancia del participio
+gram: verbos impersonales: il a fallu, il y a eu (invariables) ¦ coûter, valoir, peser, mesurer (sentido propio / figurado) ¦ participio + infinitivo: les musiciens que j'ai entendus jouer / la chanson que j'ai entendu chanter ¦ laissé + infinitivo (invariable desde 1990) ¦ pronominales esencialmente pronominales: ils se sont souvenus ¦ se sont plu, se sont succédé
+ref: c2-accord-participe
+words: falloir, coûter, valoir, peser, mesurer, courir, vivre, régner, durer, entendre, voir, laisser, regarder, écouter, se succéder, se plaire, se rendre compte, se souvenir, s'évanouir, s'enfuir, s'emparer, se moquer, s'apercevoir, se complaire, se nuire, se sourire, l'accord, la règle, l'exception, la réforme de l'orthographe
+intro:
+<h3>Invariables</h3>
+<div class="example">Les efforts qu'il a <strong>fallu</strong>… · Les orages qu'il y a <strong>eu</strong>… (impersonales)<br>Ils se sont <strong>succédé</strong>. · Elles se sont <strong>plu</strong>. · Ils se sont <strong>souri</strong>. · Ils se sont <strong>nui</strong>. (se = COI)</div>
+<h3>coûter, valoir, peser, mesurer, courir, vivre</h3>
+<table><tr><td>sentido propio (complemento de medida): <strong>invariable</strong></td><td>Les vingt euros que ce livre m'a <strong>coûté</strong>. · Les dix kilos que j'ai <strong>pesé</strong> autrefois.</td></tr>
+<tr><td>sentido figurado (verdadero COD): <strong>concuerda</strong></td><td>Les efforts que ce travail m'a <strong>coûtés</strong>. · Les honneurs que son œuvre lui a <strong>valus</strong>. · Les dangers qu'il a <strong>courus</strong>.</td></tr></table>
+<h3>Participio + infinitivo</h3>
+<div class="example">Les musiciens que j'ai <strong>entendus</strong> jouer. (los músicos tocan → concuerda)<br>La chanson que j'ai <strong>entendu</strong> chanter. (la canción no canta → invariable)<br>Les enfants que j'ai <strong>laissé</strong> partir. (laisser + inf.: invariable, reforma de 1990)</div>
+<h3>Esencialmente pronominales</h3>
+<div class="example">Elles se sont <strong>souvenues</strong>. · Ils se sont <strong>enfuis</strong>. · Elle s'est <strong>évanouie</strong>. (concuerdan con el sujeto)</div>
+<div class="tip">Para saber si concuerda tras <i>entendre / voir</i> + infinitivo: ¿el COD hace la acción del infinitivo? Si sí, concuerda.</div>
+ex:
+fill ¦ Les efforts qu'il a ___ ont été immenses. ¦ fallu ¦ fallus / fallue / fallait ¦ Los esfuerzos que hicieron falta fueron inmensos. ¦ Impersonal: invariable.
+fill ¦ Les cent euros que ce sac m'a ___ … ¦ coûté ¦ coûtés / coûtée / coûtées ¦ Los cien euros que me costó este bolso… ¦ Sentido propio: invariable.
+fill ¦ Les sacrifices que ce projet m'a ___ … ¦ coûtés ¦ coûté / coûtée / coûtées ¦ Los sacrificios que me costó este proyecto… ¦ Sentido figurado: concuerda.
+fill ¦ Les rois qui se sont ___ sur le trône… ¦ succédé ¦ succédés / succédées / succéder ¦ Los reyes que se sucedieron en el trono… ¦ se succéder: se = COI.
+choose ¦ «Los cantantes que oí cantar» ¦ les chanteuses que j'ai entendues chanter ¦ les chanteuses que j'ai entendu chanter / les chanteuses que j'ai entendue chanter / les chanteuses que j'ai entendus chanter
+choose ¦ «Se acordaron.» (ellas) ¦ Elles se sont souvenues. ¦ Elles se sont souvenu. / Elles se sont souvenus. / Elles s'ont souvenues.
+order ¦ Les dangers qu'il a courus sont incroyables ¦ Los peligros que corrió son increíbles.
+order ¦ Elles se sont plu dès le premier jour ¦ Se gustaron desde el primer día.
+translate ¦ Las tormentas que ha habido este verano. ¦ Les orages qu'il y a eu cet été. ¦ Les tempêtes qu'il y a eu cet été.
+translate ¦ Se desmayó. (ella) ¦ Elle s'est évanouie. ¦ Elle s'est évanouie
+match ¦ se succéder=sucederse; s'évanouir=desmayarse; s'emparer=apoderarse; se complaire=complacerse; s'enfuir=huir
+
+=== 3
+title: Le chiasme et l'oxymore ¦ El quiasmo y el oxímoron
+desc: Las figuras retóricas en el análisis de textos
+gram: figuras de analogía: métaphore, comparaison, personnification ¦ de sustitución: métonymie, synecdoque, périphrase, euphémisme, litote ¦ de oposición: antithèse, oxymore, chiasme, antiphrase ¦ de insistencia: anaphore, gradation, hyperbole, pléonasme
+ref: c2-figures
+words: la métaphore, la comparaison, la personnification, la métonymie, la synecdoque, la périphrase, l'euphémisme, la litote, l'antithèse, l'oxymore, le chiasme, l'antiphrase, l'anaphore, la gradation, l'hyperbole, le pléonasme, l'ellipse, la prosopopée, l'apostrophe, la rhétorique, la connotation, la dénotation, l'ironie, le registre, lyrique, épique, tragique, pathétique, comique, satirique
+intro:
+<h3>Analogía y sustitución</h3>
+<table><tr><td><strong>métaphore</strong></td><td>«Cette faucille d'or dans le champ des étoiles» (Hugo, 1859) = la luna</td></tr>
+<tr><td><strong>métonymie</strong></td><td>boire <strong>un verre</strong> (el contenido) · <strong>l'Élysée</strong> a annoncé (la presidencia)</td></tr>
+<tr><td><strong>synecdoque</strong></td><td>cent <strong>voiles</strong> (cien barcos): la parte por el todo</td></tr>
+<tr><td><strong>périphrase</strong></td><td>la Ville Lumière (París) · le roi des animaux</td></tr>
+<tr><td><strong>euphémisme / litote</strong></td><td>il nous a quittés (murió) · «Va, je ne te hais point» (Corneille, 1637)</td></tr></table>
+<h3>Oposición</h3>
+<table><tr><td><strong>antithèse</strong></td><td>«Je vis, je meurs» (Louise Labé, 1555)</td></tr>
+<tr><td><strong>oxymore</strong></td><td>«Cette obscure clarté qui tombe des étoiles» (Corneille, 1637)</td></tr>
+<tr><td><strong>chiasme</strong> (A B B A)</td><td>«Il faut manger pour vivre et non pas vivre pour manger» (Molière, 1668)</td></tr>
+<tr><td><strong>antiphrase</strong> (ironía)</td><td>C'est du joli ! (= es lamentable)</td></tr></table>
+<h3>Insistencia</h3>
+<div class="example"><strong>anaphore</strong>: repetición al inicio de frases · <strong>gradation</strong>: «Va, cours, vole» (Corneille) · <strong>hyperbole</strong>: mourir de rire · <strong>pléonasme</strong> (a veces error): monter en haut</div>
+<div class="tip">En un comentario de texto no basta con nombrar la figura: hay que explicar su <b>efecto</b> (insistencia, ironía, emoción, sorpresa…).</div>
+ex:
+fill ¦ «Une obscure clarté» est un ___ . ¦ oxymore ¦ chiasme / pléonasme / euphémisme ¦ «Una oscura claridad» es un oxímoron. ¦ Dos términos contradictorios unidos.
+fill ¦ «Boire un verre» est une ___ . ¦ métonymie ¦ métaphore / litote / hyperbole ¦ «Tomar un vaso» es una metonimia. ¦ El continente por el contenido.
+fill ¦ «Mourir de rire» est une ___ . ¦ hyperbole ¦ litote / anaphore / ellipse ¦ «Morirse de risa» es una hipérbole. ¦ Exageración.
+fill ¦ «Il nous a quittés» pour «il est mort» est un ___ . ¦ euphémisme ¦ oxymore / chiasme / pléonasme ¦ «Nos ha dejado» por «ha muerto» es un eufemismo. ¦ Atenuación.
+choose ¦ Ejemplo de quiasmo ¦ Il faut manger pour vivre et non vivre pour manger. ¦ Je vis, je meurs. / Va, cours, vole. / Ce n'est pas mauvais.
+choose ¦ Ejemplo de litote ¦ Ce n'est pas bête. (= c'est intelligent) ¦ C'est génial ! / Il pleut des cordes. / Un silence assourdissant.
+order ¦ Cette figure crée un effet d'insistance ¦ Esta figura crea un efecto de insistencia.
+order ¦ L'auteur emploie une antiphrase ironique ¦ El autor emplea una antífrasis irónica.
+translate ¦ La metáfora sugiere una comparación implícita. ¦ La métaphore suggère une comparaison implicite. ¦ La métaphore suggère une comparaison implicite
+translate ¦ Es una hipérbole. ¦ C'est une hyperbole. ¦ Il s'agit d'une hyperbole.
+match ¦ l'anaphore=anáfora; la gradation=gradación; la synecdoque=sinécdoque; la périphrase=perífrasis; la prosopopée=prosopopeya
+
+=== 4
+title: Un grand homme, un homme grand ¦ Un gran hombre, un hombre alto
+desc: La posición del adjetivo y sus cambios de sentido
+gram: adjetivos que cambian de sentido según su posición: ancien, cher, grand, pauvre, propre, seul, simple, certain, même, dernier, prochain, curieux, brave, sacré ¦ posición expresiva y estilística ¦ orden con varios adjetivos
+ref: c2-place-adjectif
+words: ancien, cher, grand, pauvre, propre, seul, simple, certain, même, dernier, prochain, curieux, brave, sacré, sale, vrai, unique, différent, divers, nul, pur, véritable, sombre, maigre, petit, jeune, vieux, bon, mauvais, fameux
+intro:
+<h3>Cambian de sentido</h3>
+<table><tr><td>un <strong>ancien</strong> professeur (antiguo, ex)</td><td>un meuble <strong>ancien</strong> (viejo, antiguo)</td></tr>
+<tr><td>mon <strong>cher</strong> ami (querido)</td><td>un restaurant <strong>cher</strong> (caro)</td></tr>
+<tr><td>un <strong>grand</strong> homme (gran, ilustre)</td><td>un homme <strong>grand</strong> (alto)</td></tr>
+<tr><td>un <strong>pauvre</strong> homme (desgraciado)</td><td>un homme <strong>pauvre</strong> (sin dinero)</td></tr>
+<tr><td>ma <strong>propre</strong> voiture (mi propio)</td><td>une voiture <strong>propre</strong> (limpio)</td></tr>
+<tr><td>un <strong>seul</strong> homme (uno solo)</td><td>un homme <strong>seul</strong> (solitario)</td></tr>
+<tr><td>un <strong>simple</strong> employé (mero)</td><td>un employé <strong>simple</strong> (sencillo)</td></tr>
+<tr><td><strong>certaines</strong> personnes (algunas)</td><td>une victoire <strong>certaine</strong> (segura)</td></tr>
+<tr><td>le <strong>même</strong> jour (el mismo)</td><td>le jour <strong>même</strong> (ese mismo día)</td></tr>
+<tr><td>la <strong>dernière</strong> semaine (la última de una serie)</td><td>la semaine <strong>dernière</strong> (la pasada)</td></tr>
+<tr><td>un <strong>curieux</strong> personnage (raro)</td><td>un enfant <strong>curieux</strong> (curioso, que pregunta)</td></tr>
+<tr><td>un <strong>brave</strong> homme (buena persona)</td><td>un soldat <strong>brave</strong> (valiente)</td></tr>
+<tr><td>un <strong>sale</strong> type (mala persona)</td><td>un type <strong>sale</strong> (sucio)</td></tr></table>
+<div class="tip">Delante, el adjetivo suele tener un valor <b>subjetivo o figurado</b>; detrás, un valor <b>objetivo o literal</b>.</div>
+<div class="warning"><i>un <b>sacré</b> problème</i> (un problemón, familiar) ≠ <i>un lieu <b>sacré</b></i> (sagrado).</div>
+ex:
+fill ¦ C'est mon ___ appartement : je l'ai acheté seul. ¦ propre ¦ propres / proprement / propriété ¦ Es mi propio piso: lo compré solo. ¦ Delante: «propio».
+fill ¦ Napoléon était un ___ homme, mais pas un homme grand. ¦ grand ¦ gros / haut / long ¦ Napoleón era un gran hombre, pero no un hombre alto. ¦ grand delante = ilustre.
+fill ¦ Je l'ai vu la semaine ___ . ¦ dernière ¦ derniers / passé / prochaine dernière ¦ Lo vi la semana pasada. ¦ Detrás: la pasada.
+fill ¦ C'est un ___ professeur : il est à la retraite. ¦ ancien ¦ vieux / âgé / antique ¦ Es un antiguo profesor: está jubilado. ¦ Delante: ex.
+choose ¦ «un hombre sin dinero» ¦ un homme pauvre ¦ un pauvre homme / un homme pauvrement / un pauvre d'homme
+choose ¦ «un tipo sucio» ¦ un type sale ¦ un sale type / un sale de type / un salé type
+order ¦ C'est une curieuse histoire ¦ Es una historia extraña.
+order ¦ Il est parti le jour même ¦ Se fue ese mismo día.
+translate ¦ Mi querido amigo. ¦ Mon cher ami. ¦ Ma chère amie.
+translate ¦ Un hombre solitario. ¦ Un homme seul. ¦ Un homme solitaire.
+match ¦ un brave homme=una buena persona; un sacré problème=un problemón; un simple employé=un mero empleado; certaines personnes=algunas personas; une victoire certaine=una victoria segura
+
+=== 5
+title: Ce n'est pas mon taf ¦ No es mi curro
+desc: Comprender el francés familiar, el argot y el verlan
+gram: argot tradicional: flic, fric, bagnole, boulot, toubib, troquet ¦ argot juvenil y verlan: meuf, relou, chelou, ouf, vénère, kiffer ¦ sufijos familiares: -os (craignos), -ard (chauffard), apócopes (prof, ado, appart) ¦ fenómenos orales: ellipse du ne, chais pas, y'a
+ref: c2-argot
+words: le flic, le fric, le pognon, la thune, le taf, le kif, le bled, le gosse, le mioche, le toubib, le troquet, la piaule, la meuf, relou, chelou, ouf, vénère, se barrer, se planquer, se marrer, piquer, pioncer, bouquiner, flipper, galérer, glander, causer, zoner, le bouffon, l'argot
+intro:
+<h3>¿Para qué?</h3>
+<p>En C2 hay que <b>entender</b> películas, canciones y conversaciones informales. Usar argot sin dominarlo suena raro: el objetivo es la comprensión y la adecuación.</p>
+<h3>Argot clásico</h3>
+<table><tr><td>le fric / le pognon / la thune</td><td>la pasta</td></tr>
+<tr><td>le flic · le toubib · le troquet</td><td>el poli · el médico · el bar</td></tr>
+<tr><td>le gosse / le mioche · la piaule · le bled</td><td>el crío · el cuarto · el pueblucho</td></tr>
+<tr><td>se barrer · se planquer · se marrer · pioncer</td><td>largarse · esconderse · partirse de risa · sobar</td></tr></table>
+<h3>Verlan (inversión de sílabas)</h3>
+<table><tr><td>femme → <strong>meuf</strong> · fou → <strong>ouf</strong> · lourd → <strong>relou</strong></td><td>louche → <strong>chelou</strong> · énervé → <strong>vénère</strong> · fête → <strong>teuf</strong></td></tr></table>
+<h3>Recursos morfológicos</h3>
+<div class="example">apócope: prof, ado, appart, resto, d'acc · sufijos: craignos, rigolo · reduplicación: fifille, tonton</div>
+<div class="warning">El argot envejece deprisa: <i>chébran</i> (branché) ya suena antiguo. Y el verlan puede invertirse otra vez: <i>arabe → beur → rebeu</i>.</div>
+ex:
+fill ¦ (argot) Je n'ai plus un rond, plus de ___ . ¦ fric ¦ flic / frac / fric-frac ¦ No me queda ni un duro, ni pasta. ¦ le fric = el dinero.
+fill ¦ (verlan) Ce type est vraiment ___ , il ne me lâche pas ! ¦ relou ¦ ouf / chelou / meuf ¦ ¡Ese tío es pesadísimo, no me deja en paz! ¦ relou = lourd.
+fill ¦ (argot) On se ___ , la fête est nulle. ¦ barre ¦ barrons / marre / planque ¦ Nos largamos, la fiesta es un rollo. ¦ se barrer = largarse.
+fill ¦ (verlan) C'est ___ , cette histoire ! Incroyable ! ¦ ouf ¦ relou / vénère / meuf ¦ ¡Es una locura, esta historia! ¡Increíble! ¦ ouf = fou.
+choose ¦ «le toubib» en lengua corriente ¦ le médecin ¦ le policier / le bar / le patron
+choose ¦ «je suis vénère» en lengua corriente ¦ je suis énervé ¦ je suis vénéré / je suis fatigué / je suis venu
+order ¦ Il a galéré toute la journée pour trouver une piaule ¦ Las pasó canutas todo el día para encontrar un cuarto.
+order ¦ Arrête de glander et viens m'aider ¦ Deja de rascarte la barriga y ven a ayudarme.
+translate ¦ (familiar) Me estoy partiendo de risa. ¦ Je me marre. ¦ Je suis mort de rire. / Je me marre bien.
+translate ¦ (corriente) Il a piqué mon portefeuille. ¦ Il a volé mon portefeuille. ¦ Il m'a volé mon portefeuille.
+match ¦ pioncer=dormir; le troquet=bar; flipper=tener miedo; chelou=raro; la thune=dinero
+
+=== 6
+title: Conjecture ou conjoncture ? ¦ ¿Conjetura o coyuntura?
+desc: Parónimos, polisemia y precisión léxica
+gram: parónimos: conjecture / conjoncture, éminent / imminent, infraction / effraction, prolongation / prolongement, allocution / élocution, inclinaison / inclination, éruption / irruption, percepteur / précepteur ¦ pares de verbos: évoquer / invoquer, affliger / infliger, recouvrer / recouvrir ¦ polisemia y acepciones
+ref: c2-paronymes
+words: la conjoncture, l'éminence, imminent, éminent, l'infraction, l'effraction, le prolongement, la prolongation, l'allocution, l'élocution, l'inclinaison, l'inclination, l'éruption, l'irruption, le précepteur, le percepteur, évoquer, invoquer, affliger, infliger, émerger, immerger, recouvrer, recouvrir, le prodige, prodigue, la justesse, la justice, l'acception, la polysémie
+intro:
+<h3>Parónimos frecuentes</h3>
+<table><tr><td>la <strong>conjecture</strong> (suposición)</td><td>la <strong>conjoncture</strong> (coyuntura)</td></tr>
+<tr><td><strong>éminent</strong> (eminente)</td><td><strong>imminent</strong> (inminente)</td></tr>
+<tr><td>l'<strong>infraction</strong> (a la ley)</td><td>l'<strong>effraction</strong> (forzar una puerta)</td></tr>
+<tr><td>la <strong>prolongation</strong> (en el tiempo: prórroga)</td><td>le <strong>prolongement</strong> (en el espacio)</td></tr>
+<tr><td>l'<strong>allocution</strong> (discurso breve)</td><td>l'<strong>élocution</strong> (manera de hablar)</td></tr>
+<tr><td>l'<strong>inclinaison</strong> (física)</td><td>l'<strong>inclination</strong> (tendencia, afecto)</td></tr>
+<tr><td>l'<strong>éruption</strong> (salir con fuerza)</td><td>l'<strong>irruption</strong> (entrar con fuerza)</td></tr>
+<tr><td>le <strong>percepteur</strong> (recaudador)</td><td>le <strong>précepteur</strong> (preceptor)</td></tr></table>
+<h3>Verbos</h3>
+<div class="example"><strong>évoquer</strong> un souvenir (evocar) ≠ <strong>invoquer</strong> un argument, les dieux (invocar)<br><strong>affliger</strong> quelqu'un (afligir) ≠ <strong>infliger</strong> une peine (infligir)<br><strong>recouvrer</strong> la santé (recuperar) ≠ <strong>recouvrir</strong> un mur (cubrir)</div>
+<div class="tip">Un diccionario monolingüe (Le Robert, Larousse) da las <b>acceptions</b> de cada palabra: en C2 hay que elegir la exacta.</div>
+ex:
+fill ¦ La ___ économique est difficile. ¦ conjoncture ¦ conjecture / conjonction / conjugaison ¦ La coyuntura económica es difícil. ¦ conjoncture = situación.
+fill ¦ Le départ est ___ : préparez-vous ! ¦ imminent ¦ éminent / immanent / immédiat de ¦ La salida es inminente: ¡prepárense! ¦ imminent = muy próximo.
+fill ¦ Les voleurs sont entrés par ___ . ¦ effraction ¦ infraction / affection / fraction ¦ Los ladrones entraron forzando la entrada. ¦ effraction.
+fill ¦ Le match s'est terminé après les ___ . ¦ prolongations ¦ prolongements / prolongues / prolongés ¦ El partido terminó tras la prórroga. ¦ En el tiempo: prolongation.
+choose ¦ «Ha recuperado la salud.» ¦ Il a recouvré la santé. ¦ Il a recouvert la santé. / Il a recouvri la santé. / Il a recouvrer la santé.
+choose ¦ «El juez le infligió una multa.» ¦ Le juge lui a infligé une amende. ¦ Le juge lui a affligé une amende. / Le juge lui a infligée une amende. / Le juge l'a afflige d'une amende.
+order ¦ Le président a prononcé une courte allocution ¦ El presidente pronunció una breve alocución.
+order ¦ Elle a fait irruption dans la salle ¦ Irrumpió en la sala.
+translate ¦ Un eminente científico. ¦ Un éminent scientifique. ¦ Un éminent chercheur. / Une éminente scientifique.
+translate ¦ Esta palabra tiene varias acepciones. ¦ Ce mot a plusieurs acceptions. ¦ Ce mot possède plusieurs acceptions.
+match ¦ le percepteur=recaudador; l'élocution=dicción; l'inclination=inclinación, tendencia; prodigue=pródigo; la justesse=precisión
+
+=== 7
+title: Tant s'en faut ¦ Ni mucho menos
+desc: Conectores y giros del francés literario y formal
+gram: d'aucuns, nul, tant s'en faut, loin s'en faut, aussi bien, au reste, à l'envi, de guerre lasse ¦ dussé-je, fût-ce ¦ latinismos: a contrario, stricto sensu, de facto, sine qua non, in extremis ¦ adverbios cultos: sciemment, pertinemment, indûment, nommément
+ref: c2-connecteurs-litteraires
+words: d'aucuns, nul, tant s'en faut, loin s'en faut, aussi bien, au reste, à l'envi, de guerre lasse, dussé-je, fût-ce, naguère, jadis, derechef, sciemment, pertinemment, indûment, foncièrement, inopinément, nommément, à tout le moins, à plus forte raison, a contrario, stricto sensu, lato sensu, de facto, sine qua non, in extremis, grosso modo, ipso facto, nonobstant
+intro:
+<h3>Giros literarios</h3>
+<table><tr><td><strong>d'aucuns</strong> (+ verbo en plural)</td><td><strong>D'aucuns</strong> prétendent que… (algunos)</td></tr>
+<tr><td><strong>nul</strong> (+ ne)</td><td><strong>Nul n'</strong>est censé ignorer la loi. (nadie)</td></tr>
+<tr><td><strong>tant s'en faut / loin s'en faut</strong></td><td>Il n'est pas idiot, <strong>tant s'en faut</strong>. (ni mucho menos)</td></tr>
+<tr><td><strong>à l'envi</strong></td><td>Les critiques le citent <strong>à l'envi</strong>. (a porfía)</td></tr>
+<tr><td><strong>de guerre lasse</strong></td><td><strong>De guerre lasse</strong>, il accepta. (cansado de resistir)</td></tr>
+<tr><td><strong>dussé-je / fût-ce</strong></td><td>Je le ferai, <strong>dussé-je</strong> y passer la nuit. (aunque tuviera que)</td></tr>
+<tr><td><strong>naguère</strong></td><td>hace poco (y, por extensión, antaño)</td></tr></table>
+<h3>Adverbios cultos</h3>
+<div class="example">Il a menti <strong>sciemment</strong> (a sabiendas). · Vous savez <strong>pertinemment</strong> que… (perfectamente) · une somme perçue <strong>indûment</strong> · un homme <strong>foncièrement</strong> honnête</div>
+<h3>Latinismos usuales</h3>
+<div class="example"><strong>a contrario</strong> · <strong>stricto sensu</strong> · <strong>de facto</strong> · une condition <strong>sine qua non</strong> · sauvé <strong>in extremis</strong> · <strong>grosso modo</strong></div>
+<div class="warning"><b>à l'envi</b> (a porfía) no tiene nada que ver con <b>l'envie</b> (las ganas, la envidia): se escribe sin -e.</div>
+ex:
+fill ¦ ___ n'est censé ignorer la loi. ¦ Nul ¦ Aucun / Personne ne / Rien ¦ Nadie puede alegar desconocimiento de la ley. ¦ nul + ne.
+fill ¦ Il n'est pas riche, tant s'en ___ . ¦ faut ¦ fait / faille / fallait ¦ No es rico, ni mucho menos. ¦ tant s'en faut.
+fill ¦ ___ prétendent que la réforme est inutile. ¦ D'aucuns ¦ Aucuns / D'aucun / Quelques-un ¦ Algunos afirman que la reforma es inútil. ¦ d'aucuns (literario).
+fill ¦ De guerre ___ , elle finit par accepter. ¦ lasse ¦ las / lassé / lasser ¦ Cansada de resistir, acabó aceptando. ¦ de guerre lasse.
+choose ¦ «Lo hizo a sabiendas.» ¦ Il l'a fait sciemment. ¦ Il l'a fait savamment. / Il l'a fait sciencement. / Il l'a fait consciemment pas.
+choose ¦ «Se salvó por los pelos.» ¦ Il a été sauvé in extremis. ¦ Il a été sauvé ipso facto. / Il a été sauvé a priori. / Il a été sauvé grosso modo.
+order ¦ Je finirai ce livre dussé-je y passer la nuit ¦ Terminaré este libro aunque tenga que pasar la noche en ello.
+order ¦ Les journaux le citent à l'envi ¦ Los periódicos lo citan a porfía.
+translate ¦ En sentido estricto, no es un delito. ¦ Stricto sensu, ce n'est pas un délit. ¦ Au sens strict, ce n'est pas un délit.
+translate ¦ Es una condición indispensable. ¦ C'est une condition sine qua non. ¦ C'est une condition indispensable.
+match ¦ naguère=hace poco; derechef=de nuevo; indûment=indebidamente; pertinemment=perfectamente, con conocimiento de causa; à tout le moins=como mínimo
+
+=== 8
+title: Qui sème le vent… ¦ Quien siembra vientos…
+desc: Refranes y expresiones cultas
+gram: refranes con equivalente español ¦ refranes con imagen distinta ¦ expresiones de origen literario o histórico: tomber de Charybde en Scylla, vouer aux gémonies, ubuesque, rocambolesque ¦ uso irónico y truncado del refrán
+ref: c2-proverbes
+words: qui ne dit mot consent, l'habit ne fait pas le moine, qui sème le vent récolte la tempête, chat échaudé craint l'eau froide, il n'y a pas de fumée sans feu, les murs ont des oreilles, une hirondelle ne fait pas le printemps, c'est en forgeant qu'on devient forgeron, la nuit porte conseil, qui trop embrasse mal étreint, qui vivra verra, tomber de Charybde en Scylla, vouer aux gémonies, ménager la chèvre et le chou, prendre des vessies pour des lanternes, chercher midi à quatorze heures, filer à l'anglaise, graisser la patte, mener quelqu'un en bateau, faire chou blanc, défrayer la chronique, damer le pion à, être sur la sellette, rester de marbre, se faire l'avocat du diable, avoir maille à partir avec, ubuesque, rocambolesque, mieux vaut tard que jamais
+intro:
+<h3>Igual que en español</h3>
+<table><tr><td>qui ne dit mot consent</td><td>quien calla otorga</td></tr>
+<tr><td>qui sème le vent récolte la tempête</td><td>quien siembra vientos recoge tempestades</td></tr>
+<tr><td>les murs ont des oreilles · l'habit ne fait pas le moine</td><td>las paredes oyen · el hábito no hace al monje</td></tr></table>
+<h3>Imagen distinta</h3>
+<table><tr><td>il n'y a pas de fumée sans feu</td><td>cuando el río suena, agua lleva</td></tr>
+<tr><td>une hirondelle ne fait pas le printemps</td><td>una golondrina no hace verano</td></tr>
+<tr><td>les chiens aboient, la caravane passe</td><td>ladran, luego cabalgamos</td></tr>
+<tr><td>filer à l'anglaise</td><td>despedirse a la francesa (¡al revés!)</td></tr>
+<tr><td>ménager la chèvre et le chou</td><td>nadar y guardar la ropa</td></tr>
+<tr><td>tomber de Charybde en Scylla</td><td>salir de Guatemala para meterse en Guatepeor</td></tr>
+<tr><td>prendre des vessies pour des lanternes</td><td>confundir churras con merinas, dejarse engañar</td></tr></table>
+<h3>Origen cultural</h3>
+<div class="example"><strong>ubuesque</strong>: grotesco y absurdo, por <i>Ubu roi</i> de Alfred Jarry (1896) · <strong>rocambolesque</strong>: inverosímil, por Rocambole, héroe de folletín · <strong>vouer aux gémonies</strong>: las Gemonias eran la escalera romana donde se exponían los cuerpos de los condenados.</div>
+<div class="tip">Los refranes suelen citarse incompletos o deformados en la prensa: <i>Qui sème le vent…</i> El lector C2 debe reconstruirlos.</div>
+ex:
+fill ¦ Qui ne dit ___ consent. ¦ mot ¦ rien / non / mots ¦ Quien calla otorga. ¦ Refrán fijo.
+fill ¦ Il n'y a pas de fumée sans ___ . ¦ feu ¦ flamme / bois / raison ¦ Cuando el río suena, agua lleva. ¦ Refrán fijo.
+fill ¦ Il est parti sans dire au revoir : il a filé à l'___ . ¦ anglaise ¦ française / italienne / espagnole ¦ Se fue sin despedirse: se despidió a la francesa. ¦ filer à l'anglaise.
+fill ¦ Une hirondelle ne fait pas le ___ . ¦ printemps ¦ été / beau temps / nid ¦ Una golondrina no hace verano. ¦ El francés dice «printemps».
+choose ¦ «Nadar y guardar la ropa» ¦ ménager la chèvre et le chou ¦ courir deux lièvres / garder le beurre / nager et garder ses habits
+choose ¦ «una situación grotesca y absurda» ¦ une situation ubuesque ¦ une situation ubiquiste / une situation burlesque de roi / une situation ubuesquement
+order ¦ Les murs ont des oreilles ¦ Las paredes oyen.
+order ¦ La nuit porte conseil ¦ Consúltalo con la almohada.
+translate ¦ Quien mucho abarca poco aprieta. ¦ Qui trop embrasse mal étreint. ¦ Qui trop embrasse mal étreint
+translate ¦ Me tomó el pelo. ¦ Il m'a mené en bateau. ¦ Elle m'a mené en bateau. / Il s'est moqué de moi.
+match ¦ faire chou blanc=fracasar; graisser la patte=sobornar; être sur la sellette=estar en el punto de mira; rester de marbre=permanecer impasible; damer le pion à=ganar por la mano
+
+=== 9
+title: Le libre arbitre ¦ El libre albedrío
+desc: El léxico de las ideas: filosofía y pensamiento crítico
+gram: sufijos del pensamiento abstracto: -isme, -ité, -logie ¦ verbos de razonamiento: postuler, déduire, inférer, réfuter, concéder ¦ el razonamiento: syllogisme, sophisme, paradoxe, aporie ¦ conceptos de la tradición francesa: le cogito, le libre arbitre, l'existentialisme
+ref: c2-philosophie
+words: le libre arbitre, l'éthique, l'épistémologie, l'empirisme, l'idéalisme, le nihilisme, le scepticisme, le stoïcisme, l'hédonisme, le manichéisme, le solipsisme, la dialectique, le paradoxe, l'aporie, le sophisme, le syllogisme, l'axiome, le paradigme, la contingence, la transcendance, l'immanence, la téléologie, la quintessence, la vacuité, postuler, déduire, inférer, réfuter, l'heuristique, l'obscurantisme
+intro:
+<h3>Razonar</h3>
+<table><tr><td><strong>le syllogisme</strong></td><td>razonamiento deductivo en tres proposiciones</td></tr>
+<tr><td><strong>le sophisme</strong></td><td>razonamiento falso con apariencia de verdad</td></tr>
+<tr><td><strong>le paradoxe / l'aporie</strong></td><td>paradoja / dificultad sin salida lógica</td></tr>
+<tr><td><strong>l'axiome / le postulat</strong></td><td>verdad admitida sin demostración</td></tr>
+<tr><td><strong>déduire / inférer / réfuter</strong></td><td>deducir / inferir / refutar</td></tr></table>
+<h3>Corrientes y conceptos</h3>
+<div class="example">«Je pense, donc je suis» (Descartes, 1637): <strong>le cogito</strong> · <strong>le libre arbitre</strong> (libre albedrío) · <strong>le stoïcisme</strong> · <strong>l'empirisme</strong> · <strong>le nihilisme</strong> · <strong>le manichéisme</strong> (ver todo en blanco y negro) · <strong>l'obscurantisme</strong></div>
+<h3>Sufijos productivos</h3>
+<div class="example"><strong>-isme</strong> (doctrina): scepticisme, hédonisme · <strong>-ité</strong> (cualidad): contingence, vacuité · <strong>-logie</strong> (estudio): épistémologie, téléologie</div>
+<div class="tip">En la expresión escrita C2, un buen uso del léxico abstracto permite <b>conceptualizar</b>: no «la gente no cree en nada» sino «une forme de nihilisme».</div>
+<div class="warning"><b>manichéen</b> se usa mucho en la prensa para criticar una visión simplista: <i>un discours manichéen</i>.</div>
+ex:
+fill ¦ «Je pense, donc je suis» est le célèbre ___ de Descartes. ¦ cogito ¦ sophisme / axiome de / syllogisme ¦ «Pienso, luego existo» es el célebre cogito de Descartes. ¦ le cogito.
+fill ¦ Un raisonnement faux qui paraît vrai est un ___ . ¦ sophisme ¦ syllogisme / paradigme / axiome ¦ Un razonamiento falso que parece verdadero es un sofisma. ¦ le sophisme.
+fill ¦ Il voit le monde en noir et blanc : c'est du ___ . ¦ manichéisme ¦ nihilisme / stoïcisme / scepticisme ¦ Ve el mundo en blanco y negro: es maniqueísmo. ¦ le manichéisme.
+fill ¦ Accepter la douleur sans se plaindre relève du ___ . ¦ stoïcisme ¦ hédonisme / empirisme / solipsisme ¦ Aceptar el dolor sin quejarse es propio del estoicismo. ¦ le stoïcisme.
+choose ¦ «el libre albedrío» ¦ le libre arbitre ¦ le libre arbitrage / la libre volonté d'albédo / le libre arbitraire
+choose ¦ «un cambio de paradigma» ¦ un changement de paradigme ¦ un changement de paradigma / un change de paradigme / un changement du paradigmes
+order ¦ On peut en déduire que l'hypothèse est fausse ¦ Se puede deducir que la hipótesis es falsa.
+order ¦ Cette aporie n'a jamais été résolue ¦ Esta aporía nunca se ha resuelto.
+translate ¦ Es una paradoja. ¦ C'est un paradoxe. ¦ Il s'agit d'un paradoxe.
+translate ¦ Refutó la tesis del autor. ¦ Il a réfuté la thèse de l'auteur. ¦ Elle a réfuté la thèse de l'auteur.
+match ¦ l'immanence=inmanencia; la contingence=contingencia; la quintessence=quintaesencia; l'heuristique=heurística; la vacuité=vacuidad
+
+=== 10
+title: La présomption d'innocence ¦ La presunción de inocencia
+desc: El lenguaje jurídico y las instituciones
+gram: el proceso penal francés: plainte, instruction, mise en examen, procès, verdict ¦ actores: le parquet, le procureur, le juge d'instruction, l'avocat, le greffier ¦ tribunales: tribunal correctionnel, cour d'assises, cour de cassation ¦ fórmulas y latinismos jurídicos
+ref: c2-droit
+words: la présomption d'innocence, le parquet, le procureur, le juge d'instruction, le greffier, l'huissier, le magistrat, le barreau, la plaidoirie, le réquisitoire, la comparution, comparaître, le tribunal correctionnel, la cour d'assises, la cassation, le recours, le sursis, la récidive, le casier judiciaire, la circonstance atténuante, la légitime défense, la diffamation, l'acquittement, acquitter, la prescription, le vice de forme, l'état de droit, la séparation des pouvoirs, le non-lieu, la juridiction
+intro:
+<h3>El recorrido de un caso penal</h3>
+<table><tr><td>1. la plainte</td><td>denuncia (porter plainte)</td></tr>
+<tr><td>2. l'enquête / l'instruction</td><td>investigación policial / instrucción judicial (le juge d'instruction)</td></tr>
+<tr><td>3. la mise en examen</td><td>imputación (ya no se dice «inculpation»)</td></tr>
+<tr><td>4. le procès</td><td>juicio: le <strong>réquisitoire</strong> del fiscal, la <strong>plaidoirie</strong> del abogado</td></tr>
+<tr><td>5. le verdict</td><td>condamnation (avec ou sans <strong>sursis</strong>) / <strong>acquittement</strong> / <strong>non-lieu</strong></td></tr>
+<tr><td>6. les recours</td><td>appel, puis <strong>pourvoi en cassation</strong></td></tr></table>
+<h3>Instituciones</h3>
+<div class="example"><strong>le parquet</strong> (la fiscalía) · <strong>le procureur de la République</strong> · <strong>le tribunal correctionnel</strong> (delitos) · <strong>la cour d'assises</strong> (crímenes, con jurado) · <strong>la Cour de cassation</strong> (como el Supremo para causas ordinarias)</div>
+<h3>Principios</h3>
+<div class="example">la <strong>présomption d'innocence</strong> · l'<strong>état de droit</strong> · la <strong>séparation des pouvoirs</strong> · la <strong>légitime défense</strong> · la <strong>prescription</strong> · «Nul n'est censé ignorer la loi».</div>
+<div class="warning"><b>le sursis</b> = suspensión de la pena (no «sorpresa»); <b>la prescription</b> = también prescripción legal, no solo receta médica.</div>
+ex:
+fill ¦ L'avocat a prononcé une brillante ___ . ¦ plaidoirie ¦ réquisitoire / plainte / sentence ¦ El abogado pronunció un brillante alegato. ¦ La defensa → plaidoirie.
+fill ¦ Il a été condamné à deux ans avec ___ . ¦ sursis ¦ surprise / sursaut / recours ¦ Fue condenado a dos años con suspensión de la pena. ¦ le sursis.
+fill ¦ Faute de preuves, le juge a prononcé un ___ . ¦ non-lieu ¦ non-droit / hors-lieu / sans-lieu ¦ Por falta de pruebas, el juez dictó un sobreseimiento. ¦ le non-lieu.
+fill ¦ Le procès a été annulé pour vice de ___ . ¦ forme ¦ fond / procédure / format ¦ El juicio se anuló por defecto de forma. ¦ vice de forme.
+choose ¦ «antecedentes penales» ¦ le casier judiciaire ¦ le dossier criminel / les antécédents pénals / le registre pénal de casier
+choose ¦ Tribunal con jurado popular para los crímenes ¦ la cour d'assises ¦ le tribunal correctionnel / la Cour de cassation / le Conseil d'État
+order ¦ L'accusé a comparu devant la cour d'assises ¦ El acusado compareció ante el tribunal con jurado.
+order ¦ Toute personne bénéficie de la présomption d'innocence ¦ Toda persona goza de la presunción de inocencia.
+translate ¦ Fue absuelto. ¦ Il a été acquitté. ¦ Elle a été acquittée.
+translate ¦ La fiscalía ha abierto una investigación. ¦ Le parquet a ouvert une enquête. ¦ Le parquet a ouvert une information judiciaire.
+match ¦ le greffier=secretario judicial; la récidive=reincidencia; le réquisitoire=acusación del fiscal; la diffamation=difamación; le barreau=colegio de abogados
+
+=== 11
+title: Gouvernance et contre-pouvoirs ¦ Gobernanza y contrapoderes
+desc: Analizar la vida política y económica con precisión
+gram: léxico de la política: gouvernance, clientélisme, népotisme, contre-pouvoir, lanceur d'alerte ¦ léxico de la economía: austérité, relance, dérégulation, financiarisation ¦ verbos de análisis: dénoncer, fustiger, cautionner, entériner ¦ nominalización avanzada
+ref: c2-politique
+words: la gouvernance, le lobbying, le clientélisme, le népotisme, la ploutocratie, l'oligarchie, la technocratie, la paupérisation, la marchandisation, la financiarisation, la spéculation, la bulle spéculative, l'austérité, la relance, la dérégulation, le protectionnisme, le libre-échange, la niche fiscale, la décentralisation, le jacobinisme, la cohabitation, le plébiscite, le contre-pouvoir, la désobéissance civile, le lanceur d'alerte, la transparence, la reddition des comptes, fustiger, entériner, cautionner
+intro:
+<h3>Política</h3>
+<table><tr><td>le <strong>clientélisme</strong> · le <strong>népotisme</strong></td><td>clientelismo · nepotismo</td></tr>
+<tr><td>le <strong>contre-pouvoir</strong></td><td>contrapoder (prensa, justicia, sindicatos…)</td></tr>
+<tr><td>le <strong>lanceur d'alerte</strong></td><td>denunciante (whistleblower)</td></tr>
+<tr><td>la <strong>cohabitation</strong></td><td>presidente y primer ministro de signo opuesto</td></tr>
+<tr><td>le <strong>jacobinisme</strong> / la <strong>décentralisation</strong></td><td>centralismo / descentralización</td></tr></table>
+<h3>Economía</h3>
+<table><tr><td>l'<strong>austérité</strong> / la <strong>relance</strong></td><td>austeridad / reactivación</td></tr>
+<tr><td>la <strong>dérégulation</strong> · le <strong>protectionnisme</strong> · le <strong>libre-échange</strong></td><td>desregulación · proteccionismo · libre comercio</td></tr>
+<tr><td>la <strong>financiarisation</strong> · la <strong>bulle spéculative</strong></td><td>financiarización · burbuja especulativa</td></tr>
+<tr><td>la <strong>paupérisation</strong> · la <strong>marchandisation</strong></td><td>empobrecimiento · mercantilización</td></tr></table>
+<h3>Verbos para posicionarse</h3>
+<div class="example"><strong>fustiger</strong> (criticar duramente) · <strong>dénoncer</strong> · <strong>cautionner</strong> (avalar) · <strong>entériner</strong> (ratificar) · <strong>plaider pour</strong> (abogar por)</div>
+<div class="tip">Muchos términos en <b>-isation</b> / <b>-isme</b> condensan un fenómeno complejo: perfectos para la síntesis de documentos de la EOI.</div>
+ex:
+fill ¦ Nommer son neveu ministre, c'est du ___ . ¦ népotisme ¦ clientélisme / lobbying / jacobinisme ¦ Nombrar ministro a su sobrino es nepotismo. ¦ Favorecer a la familia.
+fill ¦ La presse joue le rôle de ___ . ¦ contre-pouvoir ¦ sous-pouvoir / anti-pouvoir / hors-pouvoir ¦ La prensa desempeña el papel de contrapoder. ¦ le contre-pouvoir.
+fill ¦ L'opposition a ___ la réforme avec virulence. ¦ fustigé ¦ fustigée / fustiger / cautionné de ¦ La oposición criticó duramente la reforma. ¦ fustiger.
+fill ¦ Après la crise, le gouvernement a lancé un plan de ___ . ¦ relance ¦ relâche / reprise de / relancement ¦ Tras la crisis, el gobierno lanzó un plan de reactivación. ¦ la relance.
+choose ¦ «denunciante de irregularidades» ¦ un lanceur d'alerte ¦ un lanceur d'alarme / un dénonceur d'alerte / un sonneur de cloche
+choose ¦ «la rendición de cuentas» ¦ la reddition des comptes ¦ la rendition des comptes / le rendu de comptes publics / la redition des contes
+order ¦ Le Parlement a entériné la décision du gouvernement ¦ El Parlamento ratificó la decisión del gobierno.
+order ¦ Cette politique a provoqué une paupérisation des classes moyennes ¦ Esta política ha provocado un empobrecimiento de las clases medias.
+translate ¦ La burbuja especulativa estalló. ¦ La bulle spéculative a éclaté. ¦ La bulle spéculative a explosé.
+translate ¦ Las políticas de austeridad. ¦ Les politiques d'austérité. ¦ Les politiques d'austérité
+match ¦ la ploutocratie=plutocracia; la niche fiscale=ventaja fiscal; le plébiscite=plebiscito; la désobéissance civile=desobediencia civil; la technocratie=tecnocracia
+
+=== 12
+title: Une prose truculente ¦ Una prosa truculenta
+desc: Caracterizar un estilo y valorar una obra con precisión
+gram: adjetivos para un estilo: limpide, lapidaire, prolixe, ampoulé, emphatique, truculent, mièvre, sibyllin ¦ valorar: dithyrambique, acerbe, élogieux ¦ estructuras de la crítica: d'une + nombre + rare, non sans, ne laisser personne indifférent
+ref: c2-critique
+words: limpide, lapidaire, prolixe, emphatique, grandiloquent, truculent, mièvre, sibyllin, abscons, laconique, concis, pompeux, prosaïque, éculé, le poncif, dithyrambique, acerbe, mordant, la verve, la concision, la prolixité, l'emphase, l'éclectisme, l'épigone, le pastiche, le plagiat, le panégyrique, la caricature, poignant, somptueux
+intro:
+<h3>Calificar un estilo</h3>
+<table><tr><td><strong>limpide</strong> · <strong>concis</strong> · <strong>lapidaire</strong></td><td>límpido · conciso · lapidario (breve y contundente)</td></tr>
+<tr><td><strong>prolixe</strong> · <strong>emphatique</strong> · <strong>grandiloquent</strong> · <strong>pompeux</strong></td><td>prolijo · enfático · grandilocuente · pomposo</td></tr>
+<tr><td><strong>abscons</strong> · <strong>sibyllin</strong></td><td>abstruso · enigmático</td></tr>
+<tr><td><strong>truculent</strong></td><td>pintoresco, colorista (¡no «truculento» en el sentido español de cruel!)</td></tr>
+<tr><td><strong>mièvre</strong> · <strong>éculé</strong> · un <strong>poncif</strong></td><td>empalagoso · trillado · un tópico</td></tr></table>
+<h3>Valorar la recepción</h3>
+<div class="example">Une critique <strong>dithyrambique</strong> (muy elogiosa) · un article <strong>acerbe</strong> / <strong>mordant</strong> (mordaz) · un <strong>panégyrique</strong> (elogio exagerado)</div>
+<h3>Estructuras de la crítica</h3>
+<div class="example">un roman <strong>d'une rare</strong> intensité · L'auteur décrit, <strong>non sans</strong> humour, … · Ce livre <strong>ne laissera personne indifférent</strong>. · <strong>On regrettera toutefois</strong> quelques longueurs.</div>
+<div class="warning"><b>truculent</b> en francés es positivo: «une langue truculente» = viva, sabrosa, llena de color.</div>
+ex:
+fill ¦ Son style est ___ : clair et transparent. ¦ limpide ¦ lapidaire / prolixe / abscons ¦ Su estilo es límpido: claro y transparente. ¦ limpide.
+fill ¦ La critique a été ___ : que des éloges ! ¦ dithyrambique ¦ acerbe / mièvre / laconique ¦ La crítica ha sido ditirámbica: ¡solo elogios! ¦ dithyrambique.
+fill ¦ Ce texte est ___ : personne n'y comprend rien. ¦ abscons ¦ limpide / concis / truculent ¦ Este texto es abstruso: nadie entiende nada. ¦ abscons.
+fill ¦ C'est un roman d'une ___ intensité. ¦ rare ¦ rarement / rares / raréfiée ¦ Es una novela de una intensidad poco común. ¦ d'une rare + nombre.
+choose ¦ «un tópico» ¦ un poncif ¦ un poncho / un topique / un lieu commune
+choose ¦ Sentido de «une langue truculente» ¦ una lengua viva y pintoresca ¦ una lengua cruel / una lengua aburrida / una lengua oscura
+order ¦ L'auteur décrit non sans humour la vie de province ¦ El autor describe, no sin humor, la vida de provincias.
+order ¦ On regrettera toutefois quelques longueurs ¦ Cabe lamentar, no obstante, algunos pasajes largos.
+translate ¦ Una respuesta lacónica. ¦ Une réponse laconique. ¦ Une réponse laconique
+translate ¦ Este libro no dejará a nadie indiferente. ¦ Ce livre ne laissera personne indifférent. ¦ Ce livre ne laissera aucun lecteur indifférent.
+match ¦ mièvre=empalagoso; éculé=trillado; la verve=chispa, elocuencia; l'épigone=epígono; acerbe=mordaz
+
+=== 13
+title: Atermoyer, tergiverser ¦ Andar con dilaciones, dar largas
+desc: Verbos precisos del registro culto
+gram: sinónimos con matices: critiquer → fustiger, vilipender, décrier, éreinter ¦ retrasar → atermoyer, tergiverser, temporiser ¦ engañar → circonvenir, fourvoyer, berner ¦ calmar → apaiser, rasséréner, lénifier ¦ aumentar → exacerber, attiser, envenimer
+ref: c2-verbes-precis
+words: atermoyer, tergiverser, louvoyer, fustiger, vilipender, décrier, éreinter, vitupérer, circonvenir, se fourvoyer, se méprendre, rasséréner, lénifier, tempérer, exacerber, attiser, saper, entacher, galvauder, édulcorer, estomper, s'effriter, péricliter, croupir, s'embourber, ressasser, maugréer, rechigner, obtempérer, outrepasser
+intro:
+<h3>¿Por qué no basta con «critiquer»?</h3>
+<p>En C2 el vocabulario debe ser <b>preciso</b>: cada sinónimo tiene un matiz de intensidad, de registro o de contexto.</p>
+<table><tr><td>criticar</td><td>critiquer &lt; <strong>décrier</strong> &lt; <strong>fustiger</strong> &lt; <strong>vilipender / vitupérer</strong> · <strong>éreinter</strong> (una obra)</td></tr>
+<tr><td>retrasar, eludir</td><td><strong>atermoyer</strong> (aplazar) · <strong>tergiverser</strong> (dar rodeos para no decidir) · <strong>louvoyer</strong> (zigzaguear)</td></tr>
+<tr><td>equivocarse</td><td><strong>se méprendre</strong> sur · <strong>se fourvoyer</strong> (tomar un camino errado)</td></tr>
+<tr><td>calmar</td><td><strong>rasséréner</strong> · <strong>lénifier</strong> (a veces irónico: un discours lénifiant) · <strong>tempérer</strong></td></tr>
+<tr><td>empeorar</td><td><strong>exacerber</strong> · <strong>attiser</strong> (atizar) · <strong>envenimer</strong></td></tr>
+<tr><td>dañar</td><td><strong>saper</strong> (socavar) · <strong>entacher</strong> (empañar la reputación) · <strong>galvauder</strong> (banalizar)</td></tr>
+<tr><td>decaer</td><td><strong>s'effriter</strong> · <strong>péricliter</strong> · <strong>croupir</strong> · <strong>s'embourber</strong></td></tr></table>
+<div class="tip"><b>obtempérer</b> se usa sobre todo en negativo, en el lenguaje policial: <i>refus d'obtempérer</i> (negarse a obedecer una orden de alto).</div>
+ex:
+fill ¦ Le ministre ne cesse de ___ : il ne prend aucune décision. ¦ tergiverser ¦ tergiversé / exacerber / obtempérer ¦ El ministro no para de dar largas: no toma ninguna decisión. ¦ tergiverser.
+fill ¦ Ce scandale a ___ sa réputation. ¦ entaché ¦ entachée / attisé / tempéré ¦ Este escándalo ha empañado su reputación. ¦ entacher.
+fill ¦ Le conducteur a refusé d'___ . ¦ obtempérer ¦ outrepasser / rechigner / tergiverser ¦ El conductor se negó a obedecer la orden de alto. ¦ refus d'obtempérer.
+fill ¦ Ses paroles ont ___ la colère des manifestants. ¦ attisé ¦ apaisé de / rasséréné / tempérée ¦ Sus palabras atizaron la ira de los manifestantes. ¦ attiser.
+choose ¦ «Se equivocó sobre sus intenciones.» ¦ Il s'est mépris sur ses intentions. ¦ Il s'est méprisé sur ses intentions. / Il a mépris ses intentions. / Il s'est méprendu sur ses intentions.
+choose ¦ «Un discurso tranquilizador (y algo vacío)» ¦ un discours lénifiant ¦ un discours lénifié / un discours léniant / un discours lenifique
+order ¦ Cette petite entreprise a fini par péricliter ¦ Esta pequeña empresa acabó yéndose a pique.
+order ¦ Il ressasse sans cesse les mêmes souvenirs ¦ Da vueltas sin parar a los mismos recuerdos.
+translate ¦ La confianza se está desmoronando. ¦ La confiance s'effrite. ¦ La confiance est en train de s'effriter.
+translate ¦ Se ha extralimitado en sus funciones. ¦ Il a outrepassé ses fonctions. ¦ Il a outrepassé ses prérogatives. / Elle a outrepassé ses fonctions.
+match ¦ maugréer=refunfuñar; rechigner=resistirse; galvauder=banalizar; saper=socavar; croupir=estancarse
+
+=== 14
+title: La synthèse de documents ¦ La síntesis de documentos
+desc: Escribir una síntesis, una disertación y un comentario
+gram: síntesis: confrontar documentos sin opinión personal ¦ fórmulas de confrontación: tandis que, à l'inverse, rejoint, nuance, va plus loin ¦ disertación: introducción (accroche, problématique, annonce du plan), desarrollo dialéctico, conclusión (bilan, ouverture) ¦ transiciones y reformulación
+ref: c2-ecriture
+words: la synthèse de documents, la dissertation, le commentaire composé, la problématique, la thèse, l'antithèse, la synthèse, le plan dialectique, la transition, l'accroche, l'ouverture, la citation, la paraphrase, la concision, reformuler, confronter, rejoindre, nuancer, objecter, souligner, mettre en regard, à l'inverse, tandis que, de même, en revanche, quant à, d'une part, d'autre part, il ressort que, en définitive
+intro:
+<h3>La síntesis de documentos (EOI C1-C2)</h3>
+<p>Se trata de <b>confrontar</b> varios documentos en un texto nuevo, organizado por ideas (no documento por documento), <b>sin opinión personal</b> ni citas literales largas.</p>
+<table><tr><td>coincidir</td><td>Le document 2 <strong>rejoint</strong> le document 1 sur ce point. · <strong>De même</strong>, …</td></tr>
+<tr><td>oponer</td><td><strong>À l'inverse</strong>, l'auteur du document 3 estime que… · <strong>tandis que</strong> / <strong>alors que</strong></td></tr>
+<tr><td>matizar, ampliar</td><td>Le document 3 <strong>nuance</strong> cette idée / <strong>va plus loin</strong> en affirmant que…</td></tr>
+<tr><td>concluir</td><td><strong>Il ressort de</strong> ces documents que… · <strong>En définitive</strong>, …</td></tr></table>
+<h3>La disertación</h3>
+<div class="example"><strong>Introduction</strong>: accroche → présentation du sujet → <strong>problématique</strong> (pregunta) → annonce du plan.<br><strong>Développement</strong>: plan dialectique (thèse / antithèse / synthèse) o temático, con <strong>transitions</strong>.<br><strong>Conclusion</strong>: bilan → réponse à la problématique → <strong>ouverture</strong> (perspectiva más amplia).</div>
+<div class="tip">En la síntesis, reformula: no copies frases enteras. Cambia la categoría gramatical (verbo → nombre) y usa sinónimos.</div>
+<div class="warning">«Je» está prohibido en la síntesis; en la disertación se prefiere «nous» o «on».</div>
+ex:
+fill ¦ Le document 2 ___ le document 1 : ils défendent la même idée. ¦ rejoint ¦ rejette / rejoigne / rejoins ¦ El documento 2 coincide con el documento 1: defienden la misma idea. ¦ rejoindre.
+fill ¦ À l'___ , le troisième texte critique cette mesure. ¦ inverse ¦ envers / opposé de / contraire de ¦ A la inversa, el tercer texto critica esta medida. ¦ à l'inverse.
+fill ¦ Il ___ de ces documents que le problème est mondial. ¦ ressort ¦ sort / résulte que / ressorte ¦ De estos documentos se desprende que el problema es mundial. ¦ il ressort de … que.
+fill ¦ La conclusion se termine souvent par une ___ . ¦ ouverture ¦ accroche / problématique / annonce ¦ La conclusión suele terminar con una apertura. ¦ l'ouverture.
+choose ¦ ¿Qué está prohibido en una síntesis de documentos? ¦ donner son opinion personnelle ¦ confronter les documents / reformuler / organiser par idées
+choose ¦ Una buena problemática ¦ Dans quelle mesure le numérique transforme-t-il notre rapport au savoir ? ¦ Le numérique est important. / J'aime le numérique. / Voici trois documents sur le numérique.
+order ¦ Le troisième document nuance cette affirmation ¦ El tercer documento matiza esta afirmación.
+order ¦ Nous verrons d'abord les avantages puis les limites ¦ Veremos primero las ventajas y luego los límites.
+translate ¦ Mientras que el autor A defiende la reforma, el autor B la critica. ¦ Tandis que l'auteur A défend la réforme, l'auteur B la critique. ¦ Alors que l'auteur A défend la réforme, l'auteur B la critique.
+translate ¦ En definitiva, los documentos coinciden. ¦ En définitive, les documents convergent. ¦ En définitive, les documents se rejoignent.
+match ¦ l'accroche=frase de arranque; la problématique=planteamiento, pregunta central; la paraphrase=paráfrasis; mettre en regard=comparar; reformuler=reformular

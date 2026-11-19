@@ -17,7 +17,12 @@ Order: build_course → build_texts → build_drills → build_examples → buil
 `build_texts.py` needs `pip install spacy`, the `fr_core_news_lg` model and node (it conjugates with `js/conj.js`).
 
 Word lists: FLELex (CENTAL, UCLouvain), CC BY-NC-SA 4.0 — see `vocab_src/README.md`. The derived lists in
-`vocab_src/*.txt` are shared under the same licence.
+`vocab_src/*.txt` are shared under the same licence. A1–B2 follow the FLELex levels; the FLELex C1/C2 lists are
+noisy (many technical terms), so C1 and C2 were curated by hand from the candidates plus the EOI C1/C2 topics
+(argumentation, law, media, literature, idioms).
+
+Readings and exercises are original, except `texts_src/c2.txt` text 3 (Jean de La Fontaine, *Le Corbeau et le
+Renard*, 1668, public domain). Only pre-1929 classics may be quoted.
 
 Source conventions: nouns are written with their article (`le livre`, `la table`, `l'école f`); use the straight
 apostrophe (') in every source file.
