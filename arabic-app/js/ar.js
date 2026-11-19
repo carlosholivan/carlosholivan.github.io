@@ -1,9 +1,9 @@
 // Arabic text helpers: vocalisation (harakat) toggle, Latin transliteration generated from fully vowelled text,
 // and the same API the shared views use in the Chinese/Japanese apps (ruby, tonedPinyin, pinyinText…).
-import { S } from './state.js?v=202611191900';
+import { S } from './state.js?v=202611192000';
 
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-export const mean = (m, lang) => (m || {})[lang] || (lang !== 'es' && (m || {}).en) || (m || {}).es || (m || {}).en || '';
+export const mean = (m, lang = S.lang) => (m || {})[lang] || (lang !== 'es' && (m || {}).en) || (m || {}).es || (m || {}).en || '';
 
 const HARAKAT = /[ً-ْٰـ]/g;   // tanwin, short vowels, shadda, sukun, dagger alif, tatweel
 export const strip = s => String(s || '').replace(HARAKAT, '');

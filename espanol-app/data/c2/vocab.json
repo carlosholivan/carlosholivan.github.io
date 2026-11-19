@@ -9,9 +9,10 @@
       "ja": "無気力な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3144
+    "q": 3144,
+    "u": "c2-1"
   },
   {
     "word": "afable",
@@ -23,9 +24,10 @@
       "ja": "愛想のよい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3145
+    "q": 3145,
+    "u": "c2-1"
   },
   {
     "word": "avispado",
@@ -37,9 +39,10 @@
       "ja": "頭の回転が速い"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3146
+    "q": 3146,
+    "u": "c2-1"
   },
   {
     "word": "campechano",
@@ -51,9 +54,10 @@
       "ja": "気さくな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3147
+    "q": 3147,
+    "u": "c2-1"
   },
   {
     "word": "cicatero",
@@ -65,9 +69,10 @@
       "ja": "けちな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3148
+    "q": 3148,
+    "u": "c2-1"
   },
   {
     "word": "displicente",
@@ -79,9 +84,10 @@
       "ja": "冷淡な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3149
+    "q": 3149,
+    "u": "c2-1"
   },
   {
     "word": "díscolo",
@@ -93,9 +99,10 @@
       "ja": "手に負えない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 1,
     "t": "individuo",
-    "q": 3150
+    "q": 3150,
+    "u": "c2-1"
   },
   {
     "word": "ecuánime",
@@ -107,9 +114,10 @@
       "ja": "冷静な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3151
+    "q": 3151,
+    "u": "c2-2"
   },
   {
     "word": "fanfarrón",
@@ -121,9 +129,10 @@
       "ja": "ほら吹きの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3152
+    "q": 3152,
+    "u": "c2-2"
   },
   {
     "word": "iracundo",
@@ -135,9 +144,10 @@
       "ja": "怒りっぽい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3153
+    "q": 3153,
+    "u": "c2-2"
   },
   {
     "word": "locuaz",
@@ -149,9 +159,10 @@
       "ja": "おしゃべりな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3154
+    "q": 3154,
+    "u": "c2-2"
   },
   {
     "word": "melindroso",
@@ -163,9 +174,10 @@
       "ja": "気取った"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3155
+    "q": 3155,
+    "u": "c2-2"
   },
   {
     "word": "mojigato",
@@ -177,9 +189,10 @@
       "ja": "上品ぶった"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3156
+    "q": 3156,
+    "u": "c2-2"
   },
   {
     "word": "pusilánime",
@@ -191,9 +204,10 @@
       "ja": "意気地のない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 2,
     "t": "individuo",
-    "q": 3157
+    "q": 3157,
+    "u": "c2-2"
   },
   {
     "word": "quisquilloso",
@@ -205,9 +219,10 @@
       "ja": "口うるさい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3158
+    "q": 3158,
+    "u": "c2-3"
   },
   {
     "word": "socarrón",
@@ -219,9 +234,10 @@
       "ja": "皮肉っぽい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3159
+    "q": 3159,
+    "u": "c2-3"
   },
   {
     "word": "taciturno",
@@ -233,9 +249,10 @@
       "ja": "無口な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3160
+    "q": 3160,
+    "u": "c2-3"
   },
   {
     "word": "zalamero",
@@ -247,9 +264,10 @@
       "ja": "へつらう"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3161
+    "q": 3161,
+    "u": "c2-3"
   },
   {
     "word": "desaliñado",
@@ -261,9 +279,10 @@
       "ja": "だらしない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3162
+    "q": 3162,
+    "u": "c2-3"
   },
   {
     "word": "escuálido",
@@ -275,9 +294,10 @@
       "ja": "やせこけた"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3163
+    "q": 3163,
+    "u": "c2-3"
   },
   {
     "word": "fornido",
@@ -289,9 +309,10 @@
       "ja": "がっしりした"
     },
     "gender": null,
-    "unit": null,
+    "unit": 3,
     "t": "individuo",
-    "q": 3164
+    "q": 3164,
+    "u": "c2-3"
   },
   {
     "word": "rechoncho",
@@ -303,9 +324,10 @@
       "ja": "ずんぐりした"
     },
     "gender": null,
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3165
+    "q": 3165,
+    "u": "c2-4"
   },
   {
     "word": "avenencia",
@@ -317,9 +339,10 @@
       "ja": "和合"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3166
+    "q": 3166,
+    "u": "c2-6"
   },
   {
     "word": "camaradería",
@@ -331,9 +354,10 @@
       "ja": "仲間意識"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3167
+    "q": 3167,
+    "u": "c2-6"
   },
   {
     "word": "desplante",
@@ -345,9 +369,10 @@
       "ja": "無礼な態度"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3168
+    "q": 3168,
+    "u": "c2-6"
   },
   {
     "word": "idilio",
@@ -359,9 +384,10 @@
       "ja": "恋愛・ロマンス"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3169
+    "q": 3169,
+    "u": "c2-6"
   },
   {
     "word": "rencilla",
@@ -373,9 +399,10 @@
       "ja": "いさかい"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3170
+    "q": 3170,
+    "u": "c2-6"
   },
   {
     "word": "desaire",
@@ -387,9 +414,10 @@
       "ja": "冷遇"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3171
+    "q": 3171,
+    "u": "c2-6"
   },
   {
     "word": "consanguíneo",
@@ -401,9 +429,10 @@
       "ja": "血縁の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 6,
     "t": "relaciones",
-    "q": 3172
+    "q": 3172,
+    "u": "c2-6"
   },
   {
     "word": "alcahuete",
@@ -415,9 +444,10 @@
       "ja": "仲人；告げ口屋"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3173
+    "q": 3173,
+    "u": "c2-7"
   },
   {
     "word": "arrimarse",
@@ -429,9 +459,10 @@
       "ja": "近寄る"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3174
+    "q": 3174,
+    "u": "c2-7"
   },
   {
     "word": "desairar",
@@ -443,9 +474,10 @@
       "ja": "冷たくあしらう"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3175
+    "q": 3175,
+    "u": "c2-7"
   },
   {
     "word": "engatusar",
@@ -457,9 +489,10 @@
       "ja": "言いくるめる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3176
+    "q": 3176,
+    "u": "c2-7"
   },
   {
     "word": "hacer las paces",
@@ -471,9 +504,10 @@
       "ja": "仲直りする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3177
+    "q": 3177,
+    "u": "c2-7"
   },
   {
     "word": "llevarse a matar",
@@ -485,9 +519,10 @@
       "ja": "犬猿の仲だ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3178
+    "q": 3178,
+    "u": "c2-7"
   },
   {
     "word": "ponerse en la piel de",
@@ -499,9 +534,10 @@
       "ja": "〜の立場に立つ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 7,
     "t": "relaciones",
-    "q": 3179
+    "q": 3179,
+    "u": "c2-7"
   },
   {
     "word": "bacanal",
@@ -513,9 +549,10 @@
       "ja": "大宴会"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3180
+    "q": 3180,
+    "u": "c2-10"
   },
   {
     "word": "ágape",
@@ -527,9 +564,10 @@
       "ja": "宴会"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3181
+    "q": 3181,
+    "u": "c2-10"
   },
   {
     "word": "condumio",
@@ -541,9 +579,10 @@
       "ja": "食い物"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3182
+    "q": 3182,
+    "u": "c2-10"
   },
   {
     "word": "escabeche",
@@ -555,9 +594,10 @@
       "ja": "エスカベッシュ（酢漬け）"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3183
+    "q": 3183,
+    "u": "c2-10"
   },
   {
     "word": "glotón",
@@ -569,9 +609,10 @@
       "ja": "大食いの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3184
+    "q": 3184,
+    "u": "c2-10"
   },
   {
     "word": "frugal",
@@ -583,9 +624,10 @@
       "ja": "質素な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 10,
     "t": "alimentacion",
-    "q": 3185
+    "q": 3185,
+    "u": "c2-10"
   },
   {
     "word": "sibarita",
@@ -597,9 +639,10 @@
       "ja": "美食家"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3186
+    "q": 3186,
+    "u": "c2-11"
   },
   {
     "word": "paladear",
@@ -611,9 +654,10 @@
       "ja": "味わう"
     },
     "gender": null,
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3187
+    "q": 3187,
+    "u": "c2-11"
   },
   {
     "word": "atiborrarse",
@@ -625,9 +669,10 @@
       "ja": "たらふく食べる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3188
+    "q": 3188,
+    "u": "c2-11"
   },
   {
     "word": "tener buen saque",
@@ -639,9 +684,10 @@
       "ja": "大食いだ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3189
+    "q": 3189,
+    "u": "c2-11"
   },
   {
     "word": "academicismo",
@@ -653,9 +699,10 @@
       "ja": "アカデミズム"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3190
+    "q": 3190,
+    "u": "c2-13"
   },
   {
     "word": "autodidacta",
@@ -667,9 +714,10 @@
       "ja": "独学者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3191
+    "q": 3191,
+    "u": "c2-13"
   },
   {
     "word": "cátedra",
@@ -681,9 +729,10 @@
       "ja": "講座"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3192
+    "q": 3192,
+    "u": "c2-13"
   },
   {
     "word": "compendio",
@@ -695,9 +744,10 @@
       "ja": "概要"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3193
+    "q": 3193,
+    "u": "c2-13"
   },
   {
     "word": "didáctico",
@@ -709,9 +759,10 @@
       "ja": "教育的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3194
+    "q": 3194,
+    "u": "c2-13"
   },
   {
     "word": "erudición",
@@ -723,9 +774,10 @@
       "ja": "博識"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3195
+    "q": 3195,
+    "u": "c2-13"
   },
   {
     "word": "pedante",
@@ -737,9 +789,10 @@
       "ja": "学者ぶった"
     },
     "gender": null,
-    "unit": null,
+    "unit": 13,
     "t": "educacion",
-    "q": 3196
+    "q": 3196,
+    "u": "c2-13"
   },
   {
     "word": "rudimentos",
@@ -751,9 +804,10 @@
       "ja": "初歩"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3197
+    "q": 3197,
+    "u": "c2-14"
   },
   {
     "word": "empollar",
@@ -765,9 +819,10 @@
       "ja": "猛勉強する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3198
+    "q": 3198,
+    "u": "c2-14"
   },
   {
     "word": "hacer novillos",
@@ -779,9 +834,10 @@
       "ja": "学校をさぼる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3199
+    "q": 3199,
+    "u": "c2-14"
   },
   {
     "word": "absentismo",
@@ -793,9 +849,10 @@
       "ja": "常習的欠勤"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3200
+    "q": 3200,
+    "u": "c2-16"
   },
   {
     "word": "canonjía",
@@ -807,9 +864,10 @@
       "ja": "楽な仕事"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3201
+    "q": 3201,
+    "u": "c2-16"
   },
   {
     "word": "emolumentos",
@@ -821,9 +879,10 @@
       "ja": "報酬"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3202
+    "q": 3202,
+    "u": "c2-16"
   },
   {
     "word": "escalafón",
@@ -835,9 +894,10 @@
       "ja": "序列"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3203
+    "q": 3203,
+    "u": "c2-16"
   },
   {
     "word": "estajanovista",
@@ -849,9 +909,10 @@
       "ja": "仕事の鬼"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3204
+    "q": 3204,
+    "u": "c2-16"
   },
   {
     "word": "holgazán",
@@ -863,9 +924,10 @@
       "ja": "怠惰な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3205
+    "q": 3205,
+    "u": "c2-16"
   },
   {
     "word": "menester",
@@ -877,9 +939,10 @@
       "ja": "仕事；必要"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3206
+    "q": 3206,
+    "u": "c2-16"
   },
   {
     "word": "precariado",
@@ -891,9 +954,10 @@
       "ja": "不安定労働者層"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 16,
     "t": "trabajo",
-    "q": 3207
+    "q": 3207,
+    "u": "c2-16"
   },
   {
     "word": "prebenda",
@@ -905,9 +969,10 @@
       "ja": "役得"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3208
+    "q": 3208,
+    "u": "c2-17"
   },
   {
     "word": "chollo",
@@ -919,9 +984,10 @@
       "ja": "掘り出し物；楽な仕事"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3209
+    "q": 3209,
+    "u": "c2-17"
   },
   {
     "word": "currar",
@@ -933,9 +999,10 @@
       "ja": "働く（口語）"
     },
     "gender": null,
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3210
+    "q": 3210,
+    "u": "c2-17"
   },
   {
     "word": "escaquearse",
@@ -947,9 +1014,10 @@
       "ja": "さぼる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3211
+    "q": 3211,
+    "u": "c2-17"
   },
   {
     "word": "pluriempleado",
@@ -961,9 +1029,10 @@
       "ja": "兼業の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3212
+    "q": 3212,
+    "u": "c2-17"
   },
   {
     "word": "trabajar a destajo",
@@ -975,9 +1044,10 @@
       "ja": "出来高払いで働く"
     },
     "gender": null,
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3213
+    "q": 3213,
+    "u": "c2-17"
   },
   {
     "word": "esparcimiento",
@@ -989,9 +1059,10 @@
       "ja": "気晴らし"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3214
+    "q": 3214,
+    "u": "c2-19"
   },
   {
     "word": "farra",
@@ -1003,9 +1074,10 @@
       "ja": "どんちゃん騒ぎ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3215
+    "q": 3215,
+    "u": "c2-19"
   },
   {
     "word": "jolgorio",
@@ -1017,9 +1089,10 @@
       "ja": "お祭り騒ぎ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3216
+    "q": 3216,
+    "u": "c2-19"
   },
   {
     "word": "juerga",
@@ -1031,9 +1104,10 @@
       "ja": "どんちゃん騒ぎ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3217
+    "q": 3217,
+    "u": "c2-19"
   },
   {
     "word": "ociosidad",
@@ -1045,9 +1119,10 @@
       "ja": "無為"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3218
+    "q": 3218,
+    "u": "c2-19"
   },
   {
     "word": "romería",
@@ -1059,9 +1134,10 @@
       "ja": "巡礼祭"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3219
+    "q": 3219,
+    "u": "c2-19"
   },
   {
     "word": "verbena",
@@ -1073,9 +1149,10 @@
       "ja": "夜祭り"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3220
+    "q": 3220,
+    "u": "c2-19"
   },
   {
     "word": "irse de parranda",
@@ -1087,9 +1164,10 @@
       "ja": "飲み歩く"
     },
     "gender": null,
-    "unit": null,
+    "unit": 19,
     "t": "ocio",
-    "q": 3221
+    "q": 3221,
+    "u": "c2-19"
   },
   {
     "word": "tirar la casa por la ventana",
@@ -1101,9 +1179,10 @@
       "ja": "大盤振る舞いする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3222
+    "q": 3222,
+    "u": "c2-20"
   },
   {
     "word": "amarillismo",
@@ -1115,9 +1194,10 @@
       "ja": "扇情的報道"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3223
+    "q": 3223,
+    "u": "c2-21"
   },
   {
     "word": "desinformación",
@@ -1129,9 +1209,10 @@
       "ja": "偽情報"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3224
+    "q": 3224,
+    "u": "c2-21"
   },
   {
     "word": "filtración",
@@ -1143,9 +1224,10 @@
       "ja": "情報漏えい"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3225
+    "q": 3225,
+    "u": "c2-21"
   },
   {
     "word": "injerencia",
@@ -1157,9 +1239,10 @@
       "ja": "干渉"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3226
+    "q": 3226,
+    "u": "c2-21"
   },
   {
     "word": "libelo",
@@ -1171,9 +1254,10 @@
       "ja": "誹謗文書"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3227
+    "q": 3227,
+    "u": "c2-21"
   },
   {
     "word": "mentidero",
@@ -1185,9 +1269,10 @@
       "ja": "うわさの場"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3228
+    "q": 3228,
+    "u": "c2-21"
   },
   {
     "word": "panfleto",
@@ -1199,9 +1284,10 @@
       "ja": "ビラ・パンフレット"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 21,
     "t": "medios",
-    "q": 3229
+    "q": 3229,
+    "u": "c2-21"
   },
   {
     "word": "paparazzi",
@@ -1213,9 +1299,10 @@
       "ja": "パパラッチ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3230
+    "q": 3230,
+    "u": "c2-22"
   },
   {
     "word": "propaganda",
@@ -1227,9 +1314,10 @@
       "ja": "宣伝"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3231
+    "q": 3231,
+    "u": "c2-22"
   },
   {
     "word": "rotativo",
@@ -1241,9 +1329,10 @@
       "ja": "新聞（輪転機）"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3232
+    "q": 3232,
+    "u": "c2-22"
   },
   {
     "word": "sensacionalista",
@@ -1255,9 +1344,10 @@
       "ja": "扇情的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3233
+    "q": 3233,
+    "u": "c2-22"
   },
   {
     "word": "apostilla",
@@ -1269,9 +1359,10 @@
       "ja": "注釈"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3234
+    "q": 3234,
+    "u": "c2-22"
   },
   {
     "word": "buhardilla",
@@ -1283,9 +1374,10 @@
       "ja": "屋根裏部屋"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3235
+    "q": 3235,
+    "u": "c2-24"
   },
   {
     "word": "cuchitril",
@@ -1297,9 +1389,10 @@
       "ja": "ぼろ家"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3236
+    "q": 3236,
+    "u": "c2-24"
   },
   {
     "word": "mansión",
@@ -1311,9 +1404,10 @@
       "ja": "大邸宅"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3237
+    "q": 3237,
+    "u": "c2-24"
   },
   {
     "word": "morada",
@@ -1325,9 +1419,10 @@
       "ja": "住まい"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3238
+    "q": 3238,
+    "u": "c2-24"
   },
   {
     "word": "inquilinato",
@@ -1339,9 +1434,10 @@
       "ja": "借家"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3239
+    "q": 3239,
+    "u": "c2-24"
   },
   {
     "word": "tabique",
@@ -1353,9 +1449,10 @@
       "ja": "間仕切り"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 24,
     "t": "vivienda",
-    "q": 3240
+    "q": 3240,
+    "u": "c2-24"
   },
   {
     "word": "zaguán",
@@ -1367,9 +1464,10 @@
       "ja": "玄関ホール"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3241
+    "q": 3241,
+    "u": "c2-25"
   },
   {
     "word": "desvencijado",
@@ -1381,9 +1479,10 @@
       "ja": "がたがたの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3242
+    "q": 3242,
+    "u": "c2-25"
   },
   {
     "word": "destartalado",
@@ -1395,9 +1494,10 @@
       "ja": "荒れ果てた"
     },
     "gender": null,
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3243
+    "q": 3243,
+    "u": "c2-25"
   },
   {
     "word": "compulsar",
@@ -1409,9 +1509,10 @@
       "ja": "写しを認証する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3244
+    "q": 3244,
+    "u": "c2-27"
   },
   {
     "word": "diligencia",
@@ -1423,9 +1524,10 @@
       "ja": "手続き；勤勉"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3245
+    "q": 3245,
+    "u": "c2-27"
   },
   {
     "word": "expedir",
@@ -1437,9 +1539,10 @@
       "ja": "発行する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3246
+    "q": 3246,
+    "u": "c2-27"
   },
   {
     "word": "instancia",
@@ -1451,9 +1554,10 @@
       "ja": "申請書；審級"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3247
+    "q": 3247,
+    "u": "c2-27"
   },
   {
     "word": "papeleo",
@@ -1465,9 +1569,10 @@
       "ja": "書類仕事"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3248
+    "q": 3248,
+    "u": "c2-27"
   },
   {
     "word": "prórroga",
@@ -1479,9 +1584,10 @@
       "ja": "延長"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3249
+    "q": 3249,
+    "u": "c2-27"
   },
   {
     "word": "requerimiento",
@@ -1493,9 +1599,10 @@
       "ja": "要求；督促状"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3250
+    "q": 3250,
+    "u": "c2-27"
   },
   {
     "word": "subsidio",
@@ -1507,9 +1614,10 @@
       "ja": "手当"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 27,
     "t": "servicios",
-    "q": 3251
+    "q": 3251,
+    "u": "c2-27"
   },
   {
     "word": "caprichos",
@@ -1521,9 +1629,10 @@
       "ja": "気まぐれ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3252
+    "q": 3252,
+    "u": "c2-29"
   },
   {
     "word": "consumismo",
@@ -1535,9 +1644,10 @@
       "ja": "消費主義"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3253
+    "q": 3253,
+    "u": "c2-29"
   },
   {
     "word": "despilfarro",
@@ -1549,9 +1659,10 @@
       "ja": "浪費"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3254
+    "q": 3254,
+    "u": "c2-29"
   },
   {
     "word": "pacotilla",
@@ -1563,9 +1674,10 @@
       "ja": "粗悪品"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3255
+    "q": 3255,
+    "u": "c2-29"
   },
   {
     "word": "tacaño",
@@ -1577,9 +1689,10 @@
       "ja": "けちな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3256
+    "q": 3256,
+    "u": "c2-29"
   },
   {
     "word": "costar un riñón",
@@ -1591,9 +1704,10 @@
       "ja": "ものすごく高い"
     },
     "gender": null,
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3257
+    "q": 3257,
+    "u": "c2-29"
   },
   {
     "word": "estar sin blanca",
@@ -1605,9 +1719,10 @@
       "ja": "一文無しだ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 29,
     "t": "compras",
-    "q": 3258
+    "q": 3258,
+    "u": "c2-29"
   },
   {
     "word": "convalecencia",
@@ -1619,9 +1734,10 @@
       "ja": "回復期"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3259
+    "q": 3259,
+    "u": "c2-31"
   },
   {
     "word": "dolor punzante",
@@ -1633,9 +1749,10 @@
       "ja": "刺すような痛み"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3260
+    "q": 3260,
+    "u": "c2-31"
   },
   {
     "word": "eccema",
@@ -1647,9 +1764,10 @@
       "ja": "湿疹"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3261
+    "q": 3261,
+    "u": "c2-31"
   },
   {
     "word": "inocuo",
@@ -1661,9 +1779,10 @@
       "ja": "無害な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3262
+    "q": 3262,
+    "u": "c2-31"
   },
   {
     "word": "letal",
@@ -1675,9 +1794,10 @@
       "ja": "致命的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3263
+    "q": 3263,
+    "u": "c2-31"
   },
   {
     "word": "paliativo",
@@ -1689,9 +1809,10 @@
       "ja": "緩和的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3264
+    "q": 3264,
+    "u": "c2-31"
   },
   {
     "word": "pandémico",
@@ -1703,9 +1824,10 @@
       "ja": "世界的流行の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3265
+    "q": 3265,
+    "u": "c2-31"
   },
   {
     "word": "patología",
@@ -1717,9 +1839,10 @@
       "ja": "病理"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 31,
     "t": "salud",
-    "q": 3266
+    "q": 3266,
+    "u": "c2-31"
   },
   {
     "word": "profilaxis",
@@ -1731,9 +1854,10 @@
       "ja": "予防法"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3267
+    "q": 3267,
+    "u": "c2-32"
   },
   {
     "word": "achacoso",
@@ -1745,9 +1869,10 @@
       "ja": "病気がちな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3268
+    "q": 3268,
+    "u": "c2-32"
   },
   {
     "word": "estar hecho polvo",
@@ -1759,9 +1884,10 @@
       "ja": "くたくただ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3269
+    "q": 3269,
+    "u": "c2-32"
   },
   {
     "word": "estar como una rosa",
@@ -1773,9 +1899,10 @@
       "ja": "元気いっぱいだ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3270
+    "q": 3270,
+    "u": "c2-32"
   },
   {
     "word": "andanzas",
@@ -1787,9 +1914,10 @@
       "ja": "冒険・遍歴"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3271
+    "q": 3271,
+    "u": "c2-34"
   },
   {
     "word": "errante",
@@ -1801,9 +1929,10 @@
       "ja": "さまよう"
     },
     "gender": null,
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3272
+    "q": 3272,
+    "u": "c2-34"
   },
   {
     "word": "periplo",
@@ -1815,9 +1944,10 @@
       "ja": "長旅"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3273
+    "q": 3273,
+    "u": "c2-34"
   },
   {
     "word": "travesía",
@@ -1829,9 +1959,10 @@
       "ja": "横断"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3274
+    "q": 3274,
+    "u": "c2-34"
   },
   {
     "word": "trotamundos",
@@ -1843,9 +1974,10 @@
       "ja": "世界を旅する人"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3275
+    "q": 3275,
+    "u": "c2-34"
   },
   {
     "word": "vagabundear",
@@ -1857,9 +1989,10 @@
       "ja": "放浪する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3276
+    "q": 3276,
+    "u": "c2-34"
   },
   {
     "word": "hacer dedo",
@@ -1871,9 +2004,10 @@
       "ja": "ヒッチハイクする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3277
+    "q": 3277,
+    "u": "c2-34"
   },
   {
     "word": "ir de punta en blanco",
@@ -1885,9 +2019,10 @@
       "ja": "めかし込む"
     },
     "gender": null,
-    "unit": null,
+    "unit": 34,
     "t": "viajes",
-    "q": 3278
+    "q": 3278,
+    "u": "c2-34"
   },
   {
     "word": "apalancamiento",
@@ -1899,9 +2034,10 @@
       "ja": "レバレッジ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3279
+    "q": 3279,
+    "u": "c2-36"
   },
   {
     "word": "autarquía",
@@ -1913,9 +2049,10 @@
       "ja": "自給自足経済"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3280
+    "q": 3280,
+    "u": "c2-36"
   },
   {
     "word": "capital riesgo",
@@ -1927,9 +2064,10 @@
       "ja": "ベンチャーキャピタル"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3281
+    "q": 3281,
+    "u": "c2-36"
   },
   {
     "word": "desaceleración",
@@ -1941,9 +2079,10 @@
       "ja": "減速"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3282
+    "q": 3282,
+    "u": "c2-36"
   },
   {
     "word": "dividendo",
@@ -1955,9 +2094,10 @@
       "ja": "配当"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3283
+    "q": 3283,
+    "u": "c2-36"
   },
   {
     "word": "endeudamiento",
@@ -1969,9 +2109,10 @@
       "ja": "負債"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3284
+    "q": 3284,
+    "u": "c2-36"
   },
   {
     "word": "erario",
@@ -1983,9 +2124,10 @@
       "ja": "国庫"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3285
+    "q": 3285,
+    "u": "c2-36"
   },
   {
     "word": "estanflación",
@@ -1997,9 +2139,10 @@
       "ja": "スタグフレーション"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 36,
     "t": "economia",
-    "q": 3286
+    "q": 3286,
+    "u": "c2-36"
   },
   {
     "word": "fusión",
@@ -2011,9 +2154,10 @@
       "ja": "合併"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3287
+    "q": 3287,
+    "u": "c2-37"
   },
   {
     "word": "lucro",
@@ -2025,9 +2169,10 @@
       "ja": "利益"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3288
+    "q": 3288,
+    "u": "c2-37"
   },
   {
     "word": "plusvalía",
@@ -2039,9 +2184,10 @@
       "ja": "キャピタルゲイン"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3289
+    "q": 3289,
+    "u": "c2-37"
   },
   {
     "word": "solvencia",
@@ -2053,9 +2199,10 @@
       "ja": "支払能力"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3290
+    "q": 3290,
+    "u": "c2-37"
   },
   {
     "word": "testaferro",
@@ -2067,9 +2214,10 @@
       "ja": "名義人"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3291
+    "q": 3291,
+    "u": "c2-37"
   },
   {
     "word": "usura",
@@ -2081,9 +2229,10 @@
       "ja": "高利貸し"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3292
+    "q": 3292,
+    "u": "c2-37"
   },
   {
     "word": "blanqueo de capitales",
@@ -2095,9 +2244,10 @@
       "ja": "マネーロンダリング"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3293
+    "q": 3293,
+    "u": "c2-37"
   },
   {
     "word": "biotecnología",
@@ -2109,9 +2259,10 @@
       "ja": "バイオテクノロジー"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3294
+    "q": 3294,
+    "u": "c2-39"
   },
   {
     "word": "cuántico",
@@ -2123,9 +2274,10 @@
       "ja": "量子の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3295
+    "q": 3295,
+    "u": "c2-39"
   },
   {
     "word": "empírico",
@@ -2137,9 +2289,10 @@
       "ja": "経験的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3296
+    "q": 3296,
+    "u": "c2-39"
   },
   {
     "word": "entropía",
@@ -2151,9 +2304,10 @@
       "ja": "エントロピー"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3297
+    "q": 3297,
+    "u": "c2-39"
   },
   {
     "word": "paradigma",
@@ -2165,9 +2319,10 @@
       "ja": "パラダイム"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3298
+    "q": 3298,
+    "u": "c2-39"
   },
   {
     "word": "postulado",
@@ -2179,9 +2334,10 @@
       "ja": "仮定"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3299
+    "q": 3299,
+    "u": "c2-39"
   },
   {
     "word": "refutar",
@@ -2193,9 +2349,10 @@
       "ja": "反証する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 39,
     "t": "ciencia",
-    "q": 3300
+    "q": 3300,
+    "u": "c2-39"
   },
   {
     "word": "sinergia",
@@ -2207,9 +2364,10 @@
       "ja": "相乗効果"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3301
+    "q": 3301,
+    "u": "c2-40"
   },
   {
     "word": "teorema",
@@ -2221,9 +2379,10 @@
       "ja": "定理"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3302
+    "q": 3302,
+    "u": "c2-40"
   },
   {
     "word": "obsolescencia",
@@ -2235,9 +2394,10 @@
       "ja": "陳腐化"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3303
+    "q": 3303,
+    "u": "c2-40"
   },
   {
     "word": "aforamiento",
@@ -2249,9 +2409,10 @@
       "ja": "議員特権"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3304
+    "q": 3304,
+    "u": "c2-42"
   },
   {
     "word": "caciquismo",
@@ -2263,9 +2424,10 @@
       "ja": "ボス政治"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3305
+    "q": 3305,
+    "u": "c2-42"
   },
   {
     "word": "clientelismo",
@@ -2277,9 +2439,10 @@
       "ja": "縁故主義"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3306
+    "q": 3306,
+    "u": "c2-42"
   },
   {
     "word": "demagogia",
@@ -2291,9 +2454,10 @@
       "ja": "扇動政治"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3307
+    "q": 3307,
+    "u": "c2-42"
   },
   {
     "word": "derogar",
@@ -2305,9 +2469,10 @@
       "ja": "廃止する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3308
+    "q": 3308,
+    "u": "c2-42"
   },
   {
     "word": "enmienda",
@@ -2319,9 +2484,10 @@
       "ja": "修正案"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3309
+    "q": 3309,
+    "u": "c2-42"
   },
   {
     "word": "investidura",
@@ -2333,9 +2499,10 @@
       "ja": "首相指名"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 42,
     "t": "politica",
-    "q": 3310
+    "q": 3310,
+    "u": "c2-42"
   },
   {
     "word": "nepotismo",
@@ -2347,9 +2514,10 @@
       "ja": "縁故採用"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3311
+    "q": 3311,
+    "u": "c2-43"
   },
   {
     "word": "populismo",
@@ -2361,9 +2529,10 @@
       "ja": "ポピュリズム"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3312
+    "q": 3312,
+    "u": "c2-43"
   },
   {
     "word": "prevaricación",
@@ -2375,9 +2544,10 @@
       "ja": "職権乱用"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3313
+    "q": 3313,
+    "u": "c2-43"
   },
   {
     "word": "promulgar",
@@ -2389,9 +2559,10 @@
       "ja": "公布する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3314
+    "q": 3314,
+    "u": "c2-43"
   },
   {
     "word": "sedición",
@@ -2403,9 +2574,10 @@
       "ja": "扇動罪"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3315
+    "q": 3315,
+    "u": "c2-43"
   },
   {
     "word": "tránsfuga",
@@ -2417,9 +2589,10 @@
       "ja": "離党者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3316
+    "q": 3316,
+    "u": "c2-43"
   },
   {
     "word": "cohecho",
@@ -2431,9 +2604,10 @@
       "ja": "贈収賄"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 43,
     "t": "politica",
-    "q": 3317
+    "q": 3317,
+    "u": "c2-43"
   },
   {
     "word": "prescribir",
@@ -2445,9 +2619,10 @@
       "ja": "時効になる；処方する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3318
+    "q": 3318,
+    "u": "c2-44"
   },
   {
     "word": "alegoría",
@@ -2459,9 +2634,10 @@
       "ja": "寓意"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3319
+    "q": 3319,
+    "u": "c2-46"
   },
   {
     "word": "barroco",
@@ -2473,9 +2649,10 @@
       "ja": "バロックの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3320
+    "q": 3320,
+    "u": "c2-46"
   },
   {
     "word": "claroscuro",
@@ -2487,9 +2664,10 @@
       "ja": "明暗法"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3321
+    "q": 3321,
+    "u": "c2-46"
   },
   {
     "word": "elegía",
@@ -2501,9 +2679,10 @@
       "ja": "哀歌"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3322
+    "q": 3322,
+    "u": "c2-46"
   },
   {
     "word": "esperpento",
@@ -2515,9 +2694,10 @@
       "ja": "グロテスクなもの"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3323
+    "q": 3323,
+    "u": "c2-46"
   },
   {
     "word": "hipérbole",
@@ -2529,9 +2709,10 @@
       "ja": "誇張法"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3324
+    "q": 3324,
+    "u": "c2-46"
   },
   {
     "word": "ironía",
@@ -2543,9 +2724,10 @@
       "ja": "皮肉"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 46,
     "t": "arte",
-    "q": 3325
+    "q": 3325,
+    "u": "c2-46"
   },
   {
     "word": "musa",
@@ -2557,9 +2739,10 @@
       "ja": "ミューズ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3326
+    "q": 3326,
+    "u": "c2-47"
   },
   {
     "word": "oda",
@@ -2571,9 +2754,10 @@
       "ja": "頌歌"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3327
+    "q": 3327,
+    "u": "c2-47"
   },
   {
     "word": "pastiche",
@@ -2585,9 +2769,10 @@
       "ja": "模倣作品"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3328
+    "q": 3328,
+    "u": "c2-47"
   },
   {
     "word": "soneto",
@@ -2599,9 +2784,10 @@
       "ja": "ソネット"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3329
+    "q": 3329,
+    "u": "c2-47"
   },
   {
     "word": "virtuoso",
@@ -2613,9 +2799,10 @@
       "ja": "名手"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3330
+    "q": 3330,
+    "u": "c2-47"
   },
   {
     "word": "agnóstico",
@@ -2627,9 +2814,10 @@
       "ja": "不可知論者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3331
+    "q": 3331,
+    "u": "c2-49"
   },
   {
     "word": "dogma",
@@ -2641,9 +2829,10 @@
       "ja": "教義"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3332
+    "q": 3332,
+    "u": "c2-49"
   },
   {
     "word": "herejía",
@@ -2655,9 +2844,10 @@
       "ja": "異端"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3333
+    "q": 3333,
+    "u": "c2-49"
   },
   {
     "word": "idolatría",
@@ -2669,9 +2859,10 @@
       "ja": "偶像崇拝"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3334
+    "q": 3334,
+    "u": "c2-49"
   },
   {
     "word": "mística",
@@ -2683,9 +2874,10 @@
       "ja": "神秘主義"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3335
+    "q": 3335,
+    "u": "c2-49"
   },
   {
     "word": "nihilismo",
@@ -2697,9 +2889,10 @@
       "ja": "ニヒリズム"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3336
+    "q": 3336,
+    "u": "c2-49"
   },
   {
     "word": "sacrilegio",
@@ -2711,9 +2904,10 @@
       "ja": "冒涜"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 49,
     "t": "religion",
-    "q": 3337
+    "q": 3337,
+    "u": "c2-49"
   },
   {
     "word": "secta",
@@ -2725,9 +2919,10 @@
       "ja": "宗派・カルト"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3338
+    "q": 3338,
+    "u": "c2-50"
   },
   {
     "word": "superstición",
@@ -2739,9 +2934,10 @@
       "ja": "迷信"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3339
+    "q": 3339,
+    "u": "c2-50"
   },
   {
     "word": "trascendencia",
@@ -2753,9 +2949,10 @@
       "ja": "超越；重要性"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3340
+    "q": 3340,
+    "u": "c2-50"
   },
   {
     "word": "utopía",
@@ -2767,9 +2964,10 @@
       "ja": "ユートピア"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3341
+    "q": 3341,
+    "u": "c2-50"
   },
   {
     "word": "ardid",
@@ -2781,9 +2979,10 @@
       "ja": "策略"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3342
+    "q": 3342,
+    "u": "c2-57"
   },
   {
     "word": "baladí",
@@ -2795,9 +2994,10 @@
       "ja": "取るに足らない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3343
+    "q": 3343,
+    "u": "c2-57"
   },
   {
     "word": "cariz",
@@ -2809,9 +3009,10 @@
       "ja": "様相"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3344
+    "q": 3344,
+    "u": "c2-57"
   },
   {
     "word": "desazón",
@@ -2823,9 +3024,10 @@
       "ja": "不安"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3345
+    "q": 3345,
+    "u": "c2-57"
   },
   {
     "word": "dislate",
@@ -2837,9 +3039,10 @@
       "ja": "でたらめ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3346
+    "q": 3346,
+    "u": "c2-57"
   },
   {
     "word": "embrollo",
@@ -2851,9 +3054,10 @@
       "ja": "ごたごた"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3347
+    "q": 3347,
+    "u": "c2-57"
   },
   {
     "word": "enjundia",
@@ -2865,9 +3069,10 @@
       "ja": "中身"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3348
+    "q": 3348,
+    "u": "c2-57"
   },
   {
     "word": "estupor",
@@ -2879,9 +3084,10 @@
       "ja": "茫然"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 57,
     "t": "general",
-    "q": 3349
+    "q": 3349,
+    "u": "c2-57"
   },
   {
     "word": "improperio",
@@ -2893,9 +3099,10 @@
       "ja": "罵り"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3350
+    "q": 3350,
+    "u": "c2-58"
   },
   {
     "word": "mácula",
@@ -2907,9 +3114,10 @@
       "ja": "汚点"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3351
+    "q": 3351,
+    "u": "c2-58"
   },
   {
     "word": "quimera",
@@ -2921,9 +3129,10 @@
       "ja": "夢物語"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3352
+    "q": 3352,
+    "u": "c2-58"
   },
   {
     "word": "recoveco",
@@ -2935,9 +3144,10 @@
       "ja": "隅"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3353
+    "q": 3353,
+    "u": "c2-58"
   },
   {
     "word": "vorágine",
@@ -2949,9 +3159,10 @@
       "ja": "渦"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3354
+    "q": 3354,
+    "u": "c2-58"
   },
   {
     "word": "acicalarse",
@@ -2963,9 +3174,10 @@
       "ja": "身なりを整える"
     },
     "gender": null,
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3355
+    "q": 3355,
+    "u": "c2-58"
   },
   {
     "word": "apabullar",
@@ -2977,9 +3189,10 @@
       "ja": "圧倒する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3356
+    "q": 3356,
+    "u": "c2-58"
   },
   {
     "word": "aquiescencia",
@@ -2991,9 +3204,10 @@
       "ja": "黙認"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 58,
     "t": "general",
-    "q": 3357
+    "q": 3357,
+    "u": "c2-58"
   },
   {
     "word": "barruntar",
@@ -3005,9 +3219,10 @@
       "ja": "予感する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3358
+    "q": 3358,
+    "u": "c2-59"
   },
   {
     "word": "columbrar",
@@ -3019,9 +3234,10 @@
       "ja": "遠くに見る"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3359
+    "q": 3359,
+    "u": "c2-59"
   },
   {
     "word": "denostar",
@@ -3033,9 +3249,10 @@
       "ja": "罵る"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3360
+    "q": 3360,
+    "u": "c2-59"
   },
   {
     "word": "dirimir",
@@ -3047,9 +3264,10 @@
       "ja": "解決する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3361
+    "q": 3361,
+    "u": "c2-59"
   },
   {
     "word": "escarnecer",
@@ -3061,9 +3279,10 @@
       "ja": "嘲笑する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3362
+    "q": 3362,
+    "u": "c2-59"
   },
   {
     "word": "increpar",
@@ -3075,9 +3294,10 @@
       "ja": "叱りつける"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3363
+    "q": 3363,
+    "u": "c2-59"
   },
   {
     "word": "mancillar",
@@ -3089,9 +3309,10 @@
       "ja": "汚す"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3364
+    "q": 3364,
+    "u": "c2-59"
   },
   {
     "word": "socavar",
@@ -3103,9 +3324,10 @@
       "ja": "弱体化させる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 59,
     "t": "general",
-    "q": 3365
+    "q": 3365,
+    "u": "c2-59"
   },
   {
     "word": "a bombo y platillo",
@@ -3117,9 +3339,10 @@
       "ja": "鳴り物入りで"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3366
+    "q": 3366,
+    "u": "c2-60"
   },
   {
     "word": "a troche y moche",
@@ -3131,9 +3354,10 @@
       "ja": "むやみに"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3367
+    "q": 3367,
+    "u": "c2-60"
   },
   {
     "word": "al pie de la letra",
@@ -3145,9 +3369,10 @@
       "ja": "文字どおりに"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3368
+    "q": 3368,
+    "u": "c2-60"
   },
   {
     "word": "a la buena de Dios",
@@ -3159,9 +3384,10 @@
       "ja": "行き当たりばったりで"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3369
+    "q": 3369,
+    "u": "c2-60"
   },
   {
     "word": "a pies juntillas",
@@ -3173,9 +3399,10 @@
       "ja": "頭から"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3370
+    "q": 3370,
+    "u": "c2-60"
   },
   {
     "word": "de higos a brevas",
@@ -3187,9 +3414,10 @@
       "ja": "ごくたまに"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3371
+    "q": 3371,
+    "u": "c2-60"
   },
   {
     "word": "contra viento y marea",
@@ -3201,9 +3429,10 @@
       "ja": "万難を排して"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3372
+    "q": 3372,
+    "u": "c2-60"
   },
   {
     "word": "de tapadillo",
@@ -3215,9 +3444,10 @@
       "ja": "こっそり"
     },
     "gender": null,
-    "unit": null,
+    "unit": 60,
     "t": "general",
-    "q": 3373
+    "q": 3373,
+    "u": "c2-60"
   },
   {
     "word": "en un abrir y cerrar de ojos",
@@ -3229,9 +3459,10 @@
       "ja": "あっという間に"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3374
+    "q": 3374,
+    "u": "c2-61"
   },
   {
     "word": "ahogarse en un vaso de agua",
@@ -3243,9 +3474,10 @@
       "ja": "ささいなことで悩む"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3375
+    "q": 3375,
+    "u": "c2-61"
   },
   {
     "word": "dorar la píldora",
@@ -3257,9 +3489,10 @@
       "ja": "オブラートに包む"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3376
+    "q": 3376,
+    "u": "c2-61"
   },
   {
     "word": "estar entre la espada y la pared",
@@ -3271,9 +3504,10 @@
       "ja": "板挟みだ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3377
+    "q": 3377,
+    "u": "c2-61"
   },
   {
     "word": "hacer de tripas corazón",
@@ -3285,9 +3519,10 @@
       "ja": "勇気を奮い起こす"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3378
+    "q": 3378,
+    "u": "c2-61"
   },
   {
     "word": "irse de rositas",
@@ -3299,9 +3534,10 @@
       "ja": "お咎めなしで済む"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3379
+    "q": 3379,
+    "u": "c2-61"
   },
   {
     "word": "matar dos pájaros de un tiro",
@@ -3313,9 +3549,10 @@
       "ja": "一石二鳥"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3380
+    "q": 3380,
+    "u": "c2-61"
   },
   {
     "word": "no ver tres en un burro",
@@ -3327,9 +3564,10 @@
       "ja": "ひどく目が悪い"
     },
     "gender": null,
-    "unit": null,
+    "unit": 61,
     "t": "general",
-    "q": 3381
+    "q": 3381,
+    "u": "c2-61"
   },
   {
     "word": "poner el grito en el cielo",
@@ -3341,9 +3579,10 @@
       "ja": "激怒する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3382
+    "q": 3382,
+    "u": "c2-62"
   },
   {
     "word": "quedarse de piedra",
@@ -3355,9 +3594,10 @@
       "ja": "呆然とする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3383
+    "q": 3383,
+    "u": "c2-62"
   },
   {
     "word": "rizar el rizo",
@@ -3369,9 +3609,10 @@
       "ja": "ことさら難しくする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3384
+    "q": 3384,
+    "u": "c2-62"
   },
   {
     "word": "sacar las castañas del fuego",
@@ -3383,9 +3624,10 @@
       "ja": "人の尻拭いをする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3385
+    "q": 3385,
+    "u": "c2-62"
   },
   {
     "word": "tener mano izquierda",
@@ -3397,9 +3639,10 @@
       "ja": "如才ない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3386
+    "q": 3386,
+    "u": "c2-62"
   },
   {
     "word": "traer cola",
@@ -3411,9 +3654,10 @@
       "ja": "尾を引く"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3387
+    "q": 3387,
+    "u": "c2-62"
   },
   {
     "word": "vender la piel del oso antes de cazarlo",
@@ -3425,9 +3669,10 @@
       "ja": "捕らぬ狸の皮算用"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3388
+    "q": 3388,
+    "u": "c2-62"
   },
   {
     "word": "acequia",
@@ -3439,9 +3684,10 @@
       "ja": "用水路"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3389
+    "q": 3389,
+    "u": "c2-52"
   },
   {
     "word": "aluvión",
@@ -3453,9 +3699,10 @@
       "ja": "洪水・殺到"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3390
+    "q": 3390,
+    "u": "c2-52"
   },
   {
     "word": "ciénaga",
@@ -3467,9 +3714,10 @@
       "ja": "沼地"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3391
+    "q": 3391,
+    "u": "c2-52"
   },
   {
     "word": "desfiladero",
@@ -3481,9 +3729,10 @@
       "ja": "峡谷"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3392
+    "q": 3392,
+    "u": "c2-52"
   },
   {
     "word": "estepa",
@@ -3495,9 +3744,10 @@
       "ja": "ステップ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3393
+    "q": 3393,
+    "u": "c2-52"
   },
   {
     "word": "hondonada",
@@ -3509,9 +3759,10 @@
       "ja": "くぼ地"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3394
+    "q": 3394,
+    "u": "c2-52"
   },
   {
     "word": "meseta",
@@ -3523,9 +3774,10 @@
       "ja": "台地"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 52,
     "t": "naturaleza",
-    "q": 3395
+    "q": 3395,
+    "u": "c2-52"
   },
   {
     "word": "páramo",
@@ -3537,9 +3789,10 @@
       "ja": "荒れ野"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3396
+    "q": 3396,
+    "u": "c2-53"
   },
   {
     "word": "ventisca",
@@ -3551,9 +3804,10 @@
       "ja": "吹雪"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3397
+    "q": 3397,
+    "u": "c2-53"
   },
   {
     "word": "vergel",
@@ -3565,9 +3819,10 @@
       "ja": "果樹園・楽園"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3398
+    "q": 3398,
+    "u": "c2-53"
   },
   {
     "word": "abnegación",
@@ -3579,9 +3834,10 @@
       "ja": "自己犠牲"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3399
+    "q": 3399,
+    "u": "c2-4"
   },
   {
     "word": "altanería",
@@ -3593,9 +3849,10 @@
       "ja": "横柄さ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3400
+    "q": 3400,
+    "u": "c2-4"
   },
   {
     "word": "desparpajo",
@@ -3607,9 +3864,10 @@
       "ja": "物怖じしなさ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3401
+    "q": 3401,
+    "u": "c2-4"
   },
   {
     "word": "entereza",
@@ -3621,9 +3879,10 @@
       "ja": "気丈さ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3402
+    "q": 3402,
+    "u": "c2-4"
   },
   {
     "word": "fatuidad",
@@ -3635,9 +3894,10 @@
       "ja": "愚かなうぬぼれ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3403
+    "q": 3403,
+    "u": "c2-4"
   },
   {
     "word": "mezquindad",
@@ -3649,9 +3909,10 @@
       "ja": "卑しさ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 4,
     "t": "individuo",
-    "q": 3404
+    "q": 3404,
+    "u": "c2-4"
   },
   {
     "word": "parsimonia",
@@ -3663,9 +3924,10 @@
       "ja": "悠長さ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3405
+    "q": 3405,
+    "u": "c2-5"
   },
   {
     "word": "perspicacia",
@@ -3677,9 +3939,10 @@
       "ja": "洞察力"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3406
+    "q": 3406,
+    "u": "c2-5"
   },
   {
     "word": "sagacidad",
@@ -3691,9 +3954,10 @@
       "ja": "聡明さ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3407
+    "q": 3407,
+    "u": "c2-5"
   },
   {
     "word": "templanza",
@@ -3705,9 +3969,10 @@
       "ja": "節度"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3408
+    "q": 3408,
+    "u": "c2-5"
   },
   {
     "word": "ademán",
@@ -3719,9 +3984,10 @@
       "ja": "身振り"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3409
+    "q": 3409,
+    "u": "c2-5"
   },
   {
     "word": "semblante",
@@ -3733,9 +3999,10 @@
       "ja": "表情"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3410
+    "q": 3410,
+    "u": "c2-5"
   },
   {
     "word": "tez",
@@ -3747,9 +4014,10 @@
       "ja": "顔色・肌"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 5,
     "t": "individuo",
-    "q": 3411
+    "q": 3411,
+    "u": "c2-5"
   },
   {
     "word": "benevolencia",
@@ -3761,9 +4029,10 @@
       "ja": "慈悲"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3412
+    "q": 3412,
+    "u": "c2-8"
   },
   {
     "word": "connivencia",
@@ -3775,9 +4044,10 @@
       "ja": "黙認・共謀"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3413
+    "q": 3413,
+    "u": "c2-8"
   },
   {
     "word": "desencuentro",
@@ -3789,9 +4059,10 @@
       "ja": "すれ違い"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3414
+    "q": 3414,
+    "u": "c2-8"
   },
   {
     "word": "encono",
@@ -3803,9 +4074,10 @@
       "ja": "恨み"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3415
+    "q": 3415,
+    "u": "c2-8"
   },
   {
     "word": "estirpe",
@@ -3817,9 +4089,10 @@
       "ja": "家系"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3416
+    "q": 3416,
+    "u": "c2-8"
   },
   {
     "word": "filial",
@@ -3831,9 +4104,10 @@
       "ja": "子としての"
     },
     "gender": null,
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3417
+    "q": 3417,
+    "u": "c2-8"
   },
   {
     "word": "fraternal",
@@ -3845,9 +4119,10 @@
       "ja": "兄弟の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 8,
     "t": "relaciones",
-    "q": 3418
+    "q": 3418,
+    "u": "c2-8"
   },
   {
     "word": "progenitor",
@@ -3859,9 +4134,10 @@
       "ja": "親"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 9,
     "t": "relaciones",
-    "q": 3419
+    "q": 3419,
+    "u": "c2-9"
   },
   {
     "word": "vástago",
@@ -3873,9 +4149,10 @@
       "ja": "子孫"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 9,
     "t": "relaciones",
-    "q": 3420
+    "q": 3420,
+    "u": "c2-9"
   },
   {
     "word": "camelar",
@@ -3887,9 +4164,10 @@
       "ja": "甘い言葉でだます"
     },
     "gender": null,
-    "unit": null,
+    "unit": 9,
     "t": "relaciones",
-    "q": 3421
+    "q": 3421,
+    "u": "c2-9"
   },
   {
     "word": "cortejar",
@@ -3901,9 +4179,10 @@
       "ja": "求愛する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 9,
     "t": "relaciones",
-    "q": 3422
+    "q": 3422,
+    "u": "c2-9"
   },
   {
     "word": "desavenirse",
@@ -3915,9 +4194,10 @@
       "ja": "仲たがいする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 9,
     "t": "relaciones",
-    "q": 3423
+    "q": 3423,
+    "u": "c2-9"
   },
   {
     "word": "avituallamiento",
@@ -3929,9 +4209,10 @@
       "ja": "食料補給"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3424
+    "q": 3424,
+    "u": "c2-11"
   },
   {
     "word": "exquisitez",
@@ -3943,9 +4224,10 @@
       "ja": "逸品"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 11,
     "t": "alimentacion",
-    "q": 3425
+    "q": 3425,
+    "u": "c2-11"
   },
   {
     "word": "gastronomía",
@@ -3957,9 +4239,10 @@
       "ja": "食文化"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3426
+    "q": 3426,
+    "u": "c2-12"
   },
   {
     "word": "maridaje",
@@ -3971,9 +4254,10 @@
       "ja": "料理とワインの組み合わせ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3427
+    "q": 3427,
+    "u": "c2-12"
   },
   {
     "word": "picoteo",
@@ -3985,9 +4269,10 @@
       "ja": "つまみ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3428
+    "q": 3428,
+    "u": "c2-12"
   },
   {
     "word": "refrigerio",
@@ -3999,9 +4284,10 @@
       "ja": "軽食"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3429
+    "q": 3429,
+    "u": "c2-12"
   },
   {
     "word": "suculento",
@@ -4013,9 +4299,10 @@
       "ja": "こってりおいしい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3430
+    "q": 3430,
+    "u": "c2-12"
   },
   {
     "word": "macerar",
@@ -4027,9 +4314,10 @@
       "ja": "漬け込む"
     },
     "gender": null,
-    "unit": null,
+    "unit": 12,
     "t": "alimentacion",
-    "q": 3431
+    "q": 3431,
+    "u": "c2-12"
   },
   {
     "word": "acreditar",
@@ -4041,9 +4329,10 @@
       "ja": "認定する；証明する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3432
+    "q": 3432,
+    "u": "c2-14"
   },
   {
     "word": "claustral",
@@ -4055,9 +4344,10 @@
       "ja": "大学評議会の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3433
+    "q": 3433,
+    "u": "c2-14"
   },
   {
     "word": "disertación",
@@ -4069,9 +4359,10 @@
       "ja": "講演・論文"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3434
+    "q": 3434,
+    "u": "c2-14"
   },
   {
     "word": "eminencia",
@@ -4083,9 +4374,10 @@
       "ja": "権威"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 14,
     "t": "educacion",
-    "q": 3435
+    "q": 3435,
+    "u": "c2-14"
   },
   {
     "word": "epistemología",
@@ -4097,9 +4389,10 @@
       "ja": "認識論"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 15,
     "t": "educacion",
-    "q": 3436
+    "q": 3436,
+    "u": "c2-15"
   },
   {
     "word": "pupitre",
@@ -4111,9 +4404,10 @@
       "ja": "学習机"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 15,
     "t": "educacion",
-    "q": 3437
+    "q": 3437,
+    "u": "c2-15"
   },
   {
     "word": "temario",
@@ -4125,9 +4419,10 @@
       "ja": "出題範囲"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 15,
     "t": "educacion",
-    "q": 3438
+    "q": 3438,
+    "u": "c2-15"
   },
   {
     "word": "cursar",
@@ -4139,9 +4434,10 @@
       "ja": "履修する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 15,
     "t": "educacion",
-    "q": 3439
+    "q": 3439,
+    "u": "c2-15"
   },
   {
     "word": "egresado",
@@ -4153,9 +4449,10 @@
       "ja": "卒業生"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 15,
     "t": "educacion",
-    "q": 3440
+    "q": 3440,
+    "u": "c2-15"
   },
   {
     "word": "asalariado",
@@ -4167,9 +4464,10 @@
       "ja": "給与所得者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3441
+    "q": 3441,
+    "u": "c2-17"
   },
   {
     "word": "ascender",
@@ -4181,9 +4479,10 @@
       "ja": "昇進する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 17,
     "t": "trabajo",
-    "q": 3442
+    "q": 3442,
+    "u": "c2-17"
   },
   {
     "word": "desempeño",
@@ -4195,9 +4494,10 @@
       "ja": "業績"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3443
+    "q": 3443,
+    "u": "c2-18"
   },
   {
     "word": "destituir",
@@ -4209,9 +4509,10 @@
       "ja": "解任する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3444
+    "q": 3444,
+    "u": "c2-18"
   },
   {
     "word": "huelguista",
@@ -4223,9 +4524,10 @@
       "ja": "スト参加者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3445
+    "q": 3445,
+    "u": "c2-18"
   },
   {
     "word": "jerarquía",
@@ -4237,9 +4539,10 @@
       "ja": "階層"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3446
+    "q": 3446,
+    "u": "c2-18"
   },
   {
     "word": "peón",
@@ -4251,9 +4554,10 @@
       "ja": "作業員"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3447
+    "q": 3447,
+    "u": "c2-18"
   },
   {
     "word": "reciclaje profesional",
@@ -4265,9 +4569,10 @@
       "ja": "職業再訓練"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3448
+    "q": 3448,
+    "u": "c2-18"
   },
   {
     "word": "sinecura",
@@ -4279,9 +4584,10 @@
       "ja": "閑職"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 18,
     "t": "trabajo",
-    "q": 3449
+    "q": 3449,
+    "u": "c2-18"
   },
   {
     "word": "afición desmedida",
@@ -4293,9 +4599,10 @@
       "ja": "過度の熱中"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3450
+    "q": 3450,
+    "u": "c2-20"
   },
   {
     "word": "asueto",
@@ -4307,9 +4614,10 @@
       "ja": "休み"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3451
+    "q": 3451,
+    "u": "c2-20"
   },
   {
     "word": "bohemio",
@@ -4321,9 +4629,10 @@
       "ja": "ボヘミアンな"
     },
     "gender": null,
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3452
+    "q": 3452,
+    "u": "c2-20"
   },
   {
     "word": "francachela",
@@ -4335,9 +4644,10 @@
       "ja": "乱痴気騒ぎ"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3453
+    "q": 3453,
+    "u": "c2-20"
   },
   {
     "word": "lúdico",
@@ -4349,9 +4659,10 @@
       "ja": "遊びの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3454
+    "q": 3454,
+    "u": "c2-20"
   },
   {
     "word": "solaz",
@@ -4363,9 +4674,10 @@
       "ja": "慰め・娯楽"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3455
+    "q": 3455,
+    "u": "c2-20"
   },
   {
     "word": "tómbola",
@@ -4377,9 +4689,10 @@
       "ja": "福引き"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 20,
     "t": "ocio",
-    "q": 3456
+    "q": 3456,
+    "u": "c2-20"
   },
   {
     "word": "amarillista",
@@ -4391,9 +4704,10 @@
       "ja": "扇情的な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3457
+    "q": 3457,
+    "u": "c2-22"
   },
   {
     "word": "audiencia",
@@ -4405,9 +4719,10 @@
       "ja": "視聴者；審問"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 22,
     "t": "medios",
-    "q": 3458
+    "q": 3458,
+    "u": "c2-22"
   },
   {
     "word": "boletín",
@@ -4419,9 +4734,10 @@
       "ja": "会報・速報"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3459
+    "q": 3459,
+    "u": "c2-23"
   },
   {
     "word": "censurar",
@@ -4433,9 +4749,10 @@
       "ja": "検閲する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3460
+    "q": 3460,
+    "u": "c2-23"
   },
   {
     "word": "crónica",
@@ -4447,9 +4764,10 @@
       "ja": "年代記；報道記事"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3461
+    "q": 3461,
+    "u": "c2-23"
   },
   {
     "word": "difamación",
@@ -4461,9 +4779,10 @@
       "ja": "名誉毀損"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3462
+    "q": 3462,
+    "u": "c2-23"
   },
   {
     "word": "fe de erratas",
@@ -4475,9 +4794,10 @@
       "ja": "正誤表"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3463
+    "q": 3463,
+    "u": "c2-23"
   },
   {
     "word": "glosa",
@@ -4489,9 +4809,10 @@
       "ja": "注釈"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3464
+    "q": 3464,
+    "u": "c2-23"
   },
   {
     "word": "reportaje",
@@ -4503,9 +4824,10 @@
       "ja": "ルポ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 23,
     "t": "medios",
-    "q": 3465
+    "q": 3465,
+    "u": "c2-23"
   },
   {
     "word": "acondicionar",
@@ -4517,9 +4839,10 @@
       "ja": "整備する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3466
+    "q": 3466,
+    "u": "c2-25"
   },
   {
     "word": "alcantarilla",
@@ -4531,9 +4854,10 @@
       "ja": "下水道"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3467
+    "q": 3467,
+    "u": "c2-25"
   },
   {
     "word": "cobertizo",
@@ -4545,9 +4869,10 @@
       "ja": "物置小屋"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 25,
     "t": "vivienda",
-    "q": 3468
+    "q": 3468,
+    "u": "c2-25"
   },
   {
     "word": "domicilio",
@@ -4559,9 +4884,10 @@
       "ja": "住所"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 26,
     "t": "vivienda",
-    "q": 3469
+    "q": 3469,
+    "u": "c2-26"
   },
   {
     "word": "inmueble",
@@ -4573,9 +4899,10 @@
       "ja": "不動産"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 26,
     "t": "vivienda",
-    "q": 3470
+    "q": 3470,
+    "u": "c2-26"
   },
   {
     "word": "pórtico",
@@ -4587,9 +4914,10 @@
       "ja": "玄関口"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 26,
     "t": "vivienda",
-    "q": 3471
+    "q": 3471,
+    "u": "c2-26"
   },
   {
     "word": "solar",
@@ -4601,9 +4929,10 @@
       "ja": "土地"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 26,
     "t": "vivienda",
-    "q": 3472
+    "q": 3472,
+    "u": "c2-26"
   },
   {
     "word": "desalojar",
@@ -4615,9 +4944,10 @@
       "ja": "立ち退かせる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 26,
     "t": "vivienda",
-    "q": 3473
+    "q": 3473,
+    "u": "c2-26"
   },
   {
     "word": "apostillar",
@@ -4629,9 +4959,10 @@
       "ja": "注を付ける；認証する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3474
+    "q": 3474,
+    "u": "c2-28"
   },
   {
     "word": "cumplimentar",
@@ -4643,9 +4974,10 @@
       "ja": "記入する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3475
+    "q": 3475,
+    "u": "c2-28"
   },
   {
     "word": "dependencia",
@@ -4657,9 +4989,10 @@
       "ja": "部署；依存"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3476
+    "q": 3476,
+    "u": "c2-28"
   },
   {
     "word": "expedición",
@@ -4671,9 +5004,10 @@
       "ja": "発行；遠征"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3477
+    "q": 3477,
+    "u": "c2-28"
   },
   {
     "word": "padrón",
@@ -4685,9 +5019,10 @@
       "ja": "住民台帳"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3478
+    "q": 3478,
+    "u": "c2-28"
   },
   {
     "word": "registro civil",
@@ -4699,9 +5034,10 @@
       "ja": "戸籍役場"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3479
+    "q": 3479,
+    "u": "c2-28"
   },
   {
     "word": "tasa",
@@ -4713,9 +5049,10 @@
       "ja": "手数料；率"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 28,
     "t": "servicios",
-    "q": 3480
+    "q": 3480,
+    "u": "c2-28"
   },
   {
     "word": "abaratar",
@@ -4727,9 +5064,10 @@
       "ja": "安くする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3481
+    "q": 3481,
+    "u": "c2-30"
   },
   {
     "word": "encarecer",
@@ -4741,9 +5079,10 @@
       "ja": "値上げする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3482
+    "q": 3482,
+    "u": "c2-30"
   },
   {
     "word": "estafa",
@@ -4755,9 +5094,10 @@
       "ja": "詐欺"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3483
+    "q": 3483,
+    "u": "c2-30"
   },
   {
     "word": "mercadillo",
@@ -4769,9 +5109,10 @@
       "ja": "露天市"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3484
+    "q": 3484,
+    "u": "c2-30"
   },
   {
     "word": "saldar",
@@ -4783,9 +5124,10 @@
       "ja": "清算する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3485
+    "q": 3485,
+    "u": "c2-30"
   },
   {
     "word": "trueque",
@@ -4797,9 +5139,10 @@
       "ja": "物々交換"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3486
+    "q": 3486,
+    "u": "c2-30"
   },
   {
     "word": "derroche",
@@ -4811,9 +5154,10 @@
       "ja": "浪費"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 30,
     "t": "compras",
-    "q": 3487
+    "q": 3487,
+    "u": "c2-30"
   },
   {
     "word": "afonía",
@@ -4825,9 +5169,10 @@
       "ja": "失声"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3488
+    "q": 3488,
+    "u": "c2-32"
   },
   {
     "word": "contusión",
@@ -4839,9 +5184,10 @@
       "ja": "打撲"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3489
+    "q": 3489,
+    "u": "c2-32"
   },
   {
     "word": "convaleciente",
@@ -4853,9 +5199,10 @@
       "ja": "回復期の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3490
+    "q": 3490,
+    "u": "c2-32"
   },
   {
     "word": "desahuciado",
@@ -4867,9 +5214,10 @@
       "ja": "見放された"
     },
     "gender": null,
-    "unit": null,
+    "unit": 32,
     "t": "salud",
-    "q": 3491
+    "q": 3491,
+    "u": "c2-32"
   },
   {
     "word": "dolencia crónica",
@@ -4881,9 +5229,10 @@
       "ja": "慢性疾患"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3492
+    "q": 3492,
+    "u": "c2-33"
   },
   {
     "word": "epidemia",
@@ -4895,9 +5244,10 @@
       "ja": "流行病"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3493
+    "q": 3493,
+    "u": "c2-33"
   },
   {
     "word": "infeccioso",
@@ -4909,9 +5259,10 @@
       "ja": "感染性の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3494
+    "q": 3494,
+    "u": "c2-33"
   },
   {
     "word": "insomnio",
@@ -4923,9 +5274,10 @@
       "ja": "不眠症"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3495
+    "q": 3495,
+    "u": "c2-33"
   },
   {
     "word": "prótesis",
@@ -4937,9 +5289,10 @@
       "ja": "人工装具"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3496
+    "q": 3496,
+    "u": "c2-33"
   },
   {
     "word": "remedio",
@@ -4951,9 +5304,10 @@
       "ja": "治療法"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3497
+    "q": 3497,
+    "u": "c2-33"
   },
   {
     "word": "achaques",
@@ -4965,9 +5319,10 @@
       "ja": "持病"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 33,
     "t": "salud",
-    "q": 3498
+    "q": 3498,
+    "u": "c2-33"
   },
   {
     "word": "deambular",
@@ -4979,9 +5334,10 @@
       "ja": "ぶらつく"
     },
     "gender": null,
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3499
+    "q": 3499,
+    "u": "c2-35"
   },
   {
     "word": "éxodo",
@@ -4993,9 +5349,10 @@
       "ja": "大移動"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3500
+    "q": 3500,
+    "u": "c2-35"
   },
   {
     "word": "extraviarse",
@@ -5007,9 +5364,10 @@
       "ja": "迷う"
     },
     "gender": null,
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3501
+    "q": 3501,
+    "u": "c2-35"
   },
   {
     "word": "hospedaje",
@@ -5021,9 +5379,10 @@
       "ja": "宿泊"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3502
+    "q": 3502,
+    "u": "c2-35"
   },
   {
     "word": "odisea",
@@ -5035,9 +5394,10 @@
       "ja": "長い冒険"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3503
+    "q": 3503,
+    "u": "c2-35"
   },
   {
     "word": "peregrino",
@@ -5049,9 +5409,10 @@
       "ja": "巡礼者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3504
+    "q": 3504,
+    "u": "c2-35"
   },
   {
     "word": "recorrido",
@@ -5063,9 +5424,10 @@
       "ja": "経路；巡回"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 35,
     "t": "viajes",
-    "q": 3505
+    "q": 3505,
+    "u": "c2-35"
   },
   {
     "word": "arca",
@@ -5077,9 +5439,10 @@
       "ja": "金庫"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 37,
     "t": "economia",
-    "q": 3506
+    "q": 3506,
+    "u": "c2-37"
   },
   {
     "word": "austeridad",
@@ -5091,9 +5454,10 @@
       "ja": "緊縮"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3507
+    "q": 3507,
+    "u": "c2-38"
   },
   {
     "word": "caudal",
@@ -5105,9 +5469,10 @@
       "ja": "財産；流量"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3508
+    "q": 3508,
+    "u": "c2-38"
   },
   {
     "word": "desfalco",
@@ -5119,9 +5484,10 @@
       "ja": "横領"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3509
+    "q": 3509,
+    "u": "c2-38"
   },
   {
     "word": "moroso",
@@ -5133,9 +5499,10 @@
       "ja": "滞納者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3510
+    "q": 3510,
+    "u": "c2-38"
   },
   {
     "word": "opa",
@@ -5147,9 +5514,10 @@
       "ja": "株式公開買付け"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3511
+    "q": 3511,
+    "u": "c2-38"
   },
   {
     "word": "paraíso fiscal",
@@ -5161,9 +5529,10 @@
       "ja": "タックスヘイブン"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3512
+    "q": 3512,
+    "u": "c2-38"
   },
   {
     "word": "sufragar",
@@ -5175,9 +5544,10 @@
       "ja": "費用を負担する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3513
+    "q": 3513,
+    "u": "c2-38"
   },
   {
     "word": "superávit comercial",
@@ -5189,9 +5559,10 @@
       "ja": "貿易黒字"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 38,
     "t": "economia",
-    "q": 3514
+    "q": 3514,
+    "u": "c2-38"
   },
   {
     "word": "aleación",
@@ -5203,9 +5574,10 @@
       "ja": "合金"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3515
+    "q": 3515,
+    "u": "c2-40"
   },
   {
     "word": "cromosoma",
@@ -5217,9 +5589,10 @@
       "ja": "染色体"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3516
+    "q": 3516,
+    "u": "c2-40"
   },
   {
     "word": "desencriptar",
@@ -5231,9 +5604,10 @@
       "ja": "復号する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3517
+    "q": 3517,
+    "u": "c2-40"
   },
   {
     "word": "ecuación",
@@ -5245,9 +5619,10 @@
       "ja": "方程式"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 40,
     "t": "ciencia",
-    "q": 3518
+    "q": 3518,
+    "u": "c2-40"
   },
   {
     "word": "espécimen",
@@ -5259,9 +5634,10 @@
       "ja": "標本"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 41,
     "t": "ciencia",
-    "q": 3519
+    "q": 3519,
+    "u": "c2-41"
   },
   {
     "word": "fotosíntesis",
@@ -5273,9 +5649,10 @@
       "ja": "光合成"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 41,
     "t": "ciencia",
-    "q": 3520
+    "q": 3520,
+    "u": "c2-41"
   },
   {
     "word": "partícula",
@@ -5287,9 +5664,10 @@
       "ja": "粒子"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 41,
     "t": "ciencia",
-    "q": 3521
+    "q": 3521,
+    "u": "c2-41"
   },
   {
     "word": "sostenibilidad energética",
@@ -5301,9 +5679,10 @@
       "ja": "エネルギーの持続可能性"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 41,
     "t": "ciencia",
-    "q": 3522
+    "q": 3522,
+    "u": "c2-41"
   },
   {
     "word": "verificable",
@@ -5315,9 +5694,10 @@
       "ja": "検証可能な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 41,
     "t": "ciencia",
-    "q": 3523
+    "q": 3523,
+    "u": "c2-41"
   },
   {
     "word": "amnistía",
@@ -5329,9 +5709,10 @@
       "ja": "恩赦"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3524
+    "q": 3524,
+    "u": "c2-44"
   },
   {
     "word": "autonomía",
@@ -5343,9 +5724,10 @@
       "ja": "自治；自治州"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3525
+    "q": 3525,
+    "u": "c2-44"
   },
   {
     "word": "beligerante",
@@ -5357,9 +5739,10 @@
       "ja": "交戦中の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3526
+    "q": 3526,
+    "u": "c2-44"
   },
   {
     "word": "cónclave",
@@ -5371,9 +5754,10 @@
       "ja": "秘密会議"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3527
+    "q": 3527,
+    "u": "c2-44"
   },
   {
     "word": "dimisión",
@@ -5385,9 +5769,10 @@
       "ja": "辞任"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3528
+    "q": 3528,
+    "u": "c2-44"
   },
   {
     "word": "embargo",
@@ -5399,9 +5784,10 @@
       "ja": "禁輸；差し押さえ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 44,
     "t": "politica",
-    "q": 3529
+    "q": 3529,
+    "u": "c2-44"
   },
   {
     "word": "hegemonía",
@@ -5413,9 +5799,10 @@
       "ja": "覇権"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3530
+    "q": 3530,
+    "u": "c2-45"
   },
   {
     "word": "jurisprudencia",
@@ -5427,9 +5814,10 @@
       "ja": "判例"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3531
+    "q": 3531,
+    "u": "c2-45"
   },
   {
     "word": "mandato",
@@ -5441,9 +5829,10 @@
       "ja": "任期；命令"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3532
+    "q": 3532,
+    "u": "c2-45"
   },
   {
     "word": "plebiscito",
@@ -5455,9 +5844,10 @@
       "ja": "国民投票"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3533
+    "q": 3533,
+    "u": "c2-45"
   },
   {
     "word": "querella",
@@ -5469,9 +5859,10 @@
       "ja": "告訴"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3534
+    "q": 3534,
+    "u": "c2-45"
   },
   {
     "word": "sufragio",
@@ -5483,9 +5874,10 @@
       "ja": "選挙権"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 45,
     "t": "politica",
-    "q": 3535
+    "q": 3535,
+    "u": "c2-45"
   },
   {
     "word": "apoteosis",
@@ -5497,9 +5889,10 @@
       "ja": "最高潮"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3536
+    "q": 3536,
+    "u": "c2-47"
   },
   {
     "word": "efigie",
@@ -5511,9 +5904,10 @@
       "ja": "肖像"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 47,
     "t": "arte",
-    "q": 3537
+    "q": 3537,
+    "u": "c2-47"
   },
   {
     "word": "epopeya",
@@ -5525,9 +5919,10 @@
       "ja": "叙事詩"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3538
+    "q": 3538,
+    "u": "c2-48"
   },
   {
     "word": "glosario",
@@ -5539,9 +5934,10 @@
       "ja": "用語集"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3539
+    "q": 3539,
+    "u": "c2-48"
   },
   {
     "word": "mimesis",
@@ -5553,9 +5949,10 @@
       "ja": "模倣"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3540
+    "q": 3540,
+    "u": "c2-48"
   },
   {
     "word": "prosa",
@@ -5567,9 +5964,10 @@
       "ja": "散文"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3541
+    "q": 3541,
+    "u": "c2-48"
   },
   {
     "word": "rapsodia",
@@ -5581,9 +5979,10 @@
       "ja": "狂詩曲"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3542
+    "q": 3542,
+    "u": "c2-48"
   },
   {
     "word": "tramoya",
@@ -5595,9 +5994,10 @@
       "ja": "舞台装置；策略"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 48,
     "t": "arte",
-    "q": 3543
+    "q": 3543,
+    "u": "c2-48"
   },
   {
     "word": "apostasía",
@@ -5609,9 +6009,10 @@
       "ja": "背教"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3544
+    "q": 3544,
+    "u": "c2-50"
   },
   {
     "word": "clérigo",
@@ -5623,9 +6024,10 @@
       "ja": "聖職者"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3545
+    "q": 3545,
+    "u": "c2-50"
   },
   {
     "word": "devoto",
@@ -5637,9 +6039,10 @@
       "ja": "敬虔な"
     },
     "gender": null,
-    "unit": null,
+    "unit": 50,
     "t": "religion",
-    "q": 3546
+    "q": 3546,
+    "u": "c2-50"
   },
   {
     "word": "escepticismo",
@@ -5651,9 +6054,10 @@
       "ja": "懐疑主義"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3547
+    "q": 3547,
+    "u": "c2-51"
   },
   {
     "word": "estoicismo",
@@ -5665,9 +6069,10 @@
       "ja": "ストア主義・忍耐"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3548
+    "q": 3548,
+    "u": "c2-51"
   },
   {
     "word": "existencialismo",
@@ -5679,9 +6084,10 @@
       "ja": "実存主義"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3549
+    "q": 3549,
+    "u": "c2-51"
   },
   {
     "word": "pagano",
@@ -5693,9 +6099,10 @@
       "ja": "異教の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3550
+    "q": 3550,
+    "u": "c2-51"
   },
   {
     "word": "profano",
@@ -5707,9 +6114,10 @@
       "ja": "世俗の；素人の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3551
+    "q": 3551,
+    "u": "c2-51"
   },
   {
     "word": "ritual",
@@ -5721,9 +6129,10 @@
       "ja": "儀式"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 51,
     "t": "religion",
-    "q": 3552
+    "q": 3552,
+    "u": "c2-51"
   },
   {
     "word": "afluencia",
@@ -5735,9 +6144,10 @@
       "ja": "流入"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3553
+    "q": 3553,
+    "u": "c2-53"
   },
   {
     "word": "alud",
@@ -5749,9 +6159,10 @@
       "ja": "雪崩"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3554
+    "q": 3554,
+    "u": "c2-53"
   },
   {
     "word": "caudaloso",
@@ -5763,9 +6174,10 @@
       "ja": "水量の多い"
     },
     "gender": null,
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3555
+    "q": 3555,
+    "u": "c2-53"
   },
   {
     "word": "escarpado",
@@ -5777,9 +6189,10 @@
       "ja": "険しい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 53,
     "t": "naturaleza",
-    "q": 3556
+    "q": 3556,
+    "u": "c2-53"
   },
   {
     "word": "frondoso",
@@ -5791,9 +6204,10 @@
       "ja": "生い茂った"
     },
     "gender": null,
-    "unit": null,
+    "unit": 54,
     "t": "naturaleza",
-    "q": 3557
+    "q": 3557,
+    "u": "c2-54"
   },
   {
     "word": "inhóspito",
@@ -5805,9 +6219,10 @@
       "ja": "住みにくい"
     },
     "gender": null,
-    "unit": null,
+    "unit": 54,
     "t": "naturaleza",
-    "q": 3558
+    "q": 3558,
+    "u": "c2-54"
   },
   {
     "word": "lodazal",
@@ -5819,9 +6234,10 @@
       "ja": "ぬかるみ"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 54,
     "t": "naturaleza",
-    "q": 3559
+    "q": 3559,
+    "u": "c2-54"
   },
   {
     "word": "manantial",
@@ -5833,9 +6249,10 @@
       "ja": "泉"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 54,
     "t": "naturaleza",
-    "q": 3560
+    "q": 3560,
+    "u": "c2-54"
   },
   {
     "word": "yermo",
@@ -5847,9 +6264,10 @@
       "ja": "不毛の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 54,
     "t": "naturaleza",
-    "q": 3561
+    "q": 3561,
+    "u": "c2-54"
   },
   {
     "word": "otrora",
@@ -5861,9 +6279,10 @@
       "ja": "かつて"
     },
     "gender": null,
-    "unit": null,
+    "unit": 55,
     "t": "tiempo",
-    "q": 3562
+    "q": 3562,
+    "u": "c2-55"
   },
   {
     "word": "antaño",
@@ -5875,9 +6294,10 @@
       "ja": "昔"
     },
     "gender": null,
-    "unit": null,
+    "unit": 55,
     "t": "tiempo",
-    "q": 3563
+    "q": 3563,
+    "u": "c2-55"
   },
   {
     "word": "efemérides",
@@ -5889,9 +6309,10 @@
       "ja": "記念日・暦"
     },
     "gender": "f",
-    "unit": null,
+    "unit": 55,
     "t": "tiempo",
-    "q": 3564
+    "q": 3564,
+    "u": "c2-55"
   },
   {
     "word": "lustro",
@@ -5903,9 +6324,10 @@
       "ja": "5年間"
     },
     "gender": "m",
-    "unit": null,
+    "unit": 55,
     "t": "tiempo",
-    "q": 3565
+    "q": 3565,
+    "u": "c2-55"
   },
   {
     "word": "perenne",
@@ -5917,9 +6339,10 @@
       "ja": "絶え間ない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 55,
     "t": "tiempo",
-    "q": 3566
+    "q": 3566,
+    "u": "c2-55"
   },
   {
     "word": "sempiterno",
@@ -5931,9 +6354,10 @@
       "ja": "永遠の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 56,
     "t": "tiempo",
-    "q": 3567
+    "q": 3567,
+    "u": "c2-56"
   },
   {
     "word": "venidero",
@@ -5945,9 +6369,10 @@
       "ja": "来るべき"
     },
     "gender": null,
-    "unit": null,
+    "unit": 56,
     "t": "tiempo",
-    "q": 3568
+    "q": 3568,
+    "u": "c2-56"
   },
   {
     "word": "a la sazón",
@@ -5959,9 +6384,10 @@
       "ja": "当時"
     },
     "gender": null,
-    "unit": null,
+    "unit": 56,
     "t": "tiempo",
-    "q": 3569
+    "q": 3569,
+    "u": "c2-56"
   },
   {
     "word": "de antaño",
@@ -5973,9 +6399,10 @@
       "ja": "昔の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 56,
     "t": "tiempo",
-    "q": 3570
+    "q": 3570,
+    "u": "c2-56"
   },
   {
     "word": "amén de",
@@ -5987,9 +6414,10 @@
       "ja": "〜のほかに"
     },
     "gender": null,
-    "unit": null,
+    "unit": 62,
     "t": "general",
-    "q": 3571
+    "q": 3571,
+    "u": "c2-62"
   },
   {
     "word": "a sabiendas",
@@ -6001,9 +6429,10 @@
       "ja": "承知の上で"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3572
+    "q": 3572,
+    "u": "c2-63"
   },
   {
     "word": "así las cosas",
@@ -6015,9 +6444,10 @@
       "ja": "そういうわけで"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3573
+    "q": 3573,
+    "u": "c2-63"
   },
   {
     "word": "con todo",
@@ -6029,9 +6459,10 @@
       "ja": "それでも"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3574
+    "q": 3574,
+    "u": "c2-63"
   },
   {
     "word": "máxime",
@@ -6043,9 +6474,10 @@
       "ja": "とりわけ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3575
+    "q": 3575,
+    "u": "c2-63"
   },
   {
     "word": "merced a",
@@ -6057,9 +6489,10 @@
       "ja": "〜のおかげで"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3576
+    "q": 3576,
+    "u": "c2-63"
   },
   {
     "word": "so pena de",
@@ -6071,9 +6504,10 @@
       "ja": "〜の罰を条件に"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3577
+    "q": 3577,
+    "u": "c2-63"
   },
   {
     "word": "sendos",
@@ -6085,9 +6519,10 @@
       "ja": "それぞれ一つずつの"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3578
+    "q": 3578,
+    "u": "c2-63"
   },
   {
     "word": "vale decir",
@@ -6099,9 +6534,10 @@
       "ja": "つまり"
     },
     "gender": null,
-    "unit": null,
+    "unit": 63,
     "t": "general",
-    "q": 3579
+    "q": 3579,
+    "u": "c2-63"
   },
   {
     "word": "comoquiera que",
@@ -6113,9 +6549,10 @@
       "ja": "〜なので；どのように〜しても"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3580
+    "q": 3580,
+    "u": "c2-64"
   },
   {
     "word": "abogar",
@@ -6127,9 +6564,10 @@
       "ja": "擁護する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3581
+    "q": 3581,
+    "u": "c2-64"
   },
   {
     "word": "aducir",
@@ -6141,9 +6579,10 @@
       "ja": "持ち出す"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3582
+    "q": 3582,
+    "u": "c2-64"
   },
   {
     "word": "colegir",
@@ -6155,9 +6594,10 @@
       "ja": "推論する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3583
+    "q": 3583,
+    "u": "c2-64"
   },
   {
     "word": "conculcar",
@@ -6169,9 +6609,10 @@
       "ja": "違反する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3584
+    "q": 3584,
+    "u": "c2-64"
   },
   {
     "word": "coadyuvar",
@@ -6183,9 +6624,10 @@
       "ja": "協力する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3585
+    "q": 3585,
+    "u": "c2-64"
   },
   {
     "word": "dilapidar",
@@ -6197,9 +6639,10 @@
       "ja": "浪費する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3586
+    "q": 3586,
+    "u": "c2-64"
   },
   {
     "word": "enaltecer",
@@ -6211,9 +6654,10 @@
       "ja": "称揚する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 64,
     "t": "general",
-    "q": 3587
+    "q": 3587,
+    "u": "c2-64"
   },
   {
     "word": "fehacientemente",
@@ -6225,9 +6669,10 @@
       "ja": "確実に"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3588
+    "q": 3588,
+    "u": "c2-65"
   },
   {
     "word": "obviar",
@@ -6239,9 +6684,10 @@
       "ja": "省く"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3589
+    "q": 3589,
+    "u": "c2-65"
   },
   {
     "word": "soslayar",
@@ -6253,9 +6699,10 @@
       "ja": "回避する"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3590
+    "q": 3590,
+    "u": "c2-65"
   },
   {
     "word": "zanjar",
@@ -6267,9 +6714,10 @@
       "ja": "決着をつける"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3591
+    "q": 3591,
+    "u": "c2-65"
   },
   {
     "word": "a carta cabal",
@@ -6281,9 +6729,10 @@
       "ja": "正真正銘の"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3592
+    "q": 3592,
+    "u": "c2-65"
   },
   {
     "word": "a la chita callando",
@@ -6295,9 +6744,10 @@
       "ja": "こっそり"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3593
+    "q": 3593,
+    "u": "c2-65"
   },
   {
     "word": "a ojo de buen cubero",
@@ -6309,9 +6759,10 @@
       "ja": "目分量で"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3594
+    "q": 3594,
+    "u": "c2-65"
   },
   {
     "word": "agua pasada no mueve molino",
@@ -6323,9 +6774,10 @@
       "ja": "過ぎたことは仕方ない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 65,
     "t": "general",
-    "q": 3595
+    "q": 3595,
+    "u": "c2-65"
   },
   {
     "word": "cortar por lo sano",
@@ -6337,9 +6789,10 @@
       "ja": "思い切った手を打つ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3596
+    "q": 3596,
+    "u": "c2-66"
   },
   {
     "word": "dar la campanada",
@@ -6351,9 +6804,10 @@
       "ja": "世間を騒がせる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3597
+    "q": 3597,
+    "u": "c2-66"
   },
   {
     "word": "echar balones fuera",
@@ -6365,9 +6819,10 @@
       "ja": "話をそらす"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3598
+    "q": 3598,
+    "u": "c2-66"
   },
   {
     "word": "estar a dos velas",
@@ -6379,9 +6834,10 @@
       "ja": "一文無しだ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3599
+    "q": 3599,
+    "u": "c2-66"
   },
   {
     "word": "hacer su agosto",
@@ -6393,9 +6849,10 @@
       "ja": "ぼろ儲けする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3600
+    "q": 3600,
+    "u": "c2-66"
   },
   {
     "word": "írsele a alguien el santo al cielo",
@@ -6407,9 +6864,10 @@
       "ja": "何を言おうとしたか忘れる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3601
+    "q": 3601,
+    "u": "c2-66"
   },
   {
     "word": "lavarse las manos",
@@ -6421,9 +6879,10 @@
       "ja": "手を引く"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3602
+    "q": 3602,
+    "u": "c2-66"
   },
   {
     "word": "no tener dos dedos de frente",
@@ -6435,9 +6894,10 @@
       "ja": "分別がない"
     },
     "gender": null,
-    "unit": null,
+    "unit": 66,
     "t": "general",
-    "q": 3603
+    "q": 3603,
+    "u": "c2-66"
   },
   {
     "word": "poner los puntos sobre las íes",
@@ -6449,9 +6909,10 @@
       "ja": "はっきりさせる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 67,
     "t": "general",
-    "q": 3604
+    "q": 3604,
+    "u": "c2-67"
   },
   {
     "word": "quedarse en blanco",
@@ -6463,9 +6924,10 @@
       "ja": "頭が真っ白になる"
     },
     "gender": null,
-    "unit": null,
+    "unit": 67,
     "t": "general",
-    "q": 3605
+    "q": 3605,
+    "u": "c2-67"
   },
   {
     "word": "salirse con la suya",
@@ -6477,9 +6939,10 @@
       "ja": "思い通りにする"
     },
     "gender": null,
-    "unit": null,
+    "unit": 67,
     "t": "general",
-    "q": 3606
+    "q": 3606,
+    "u": "c2-67"
   },
   {
     "word": "ser harina de otro costal",
@@ -6491,9 +6954,10 @@
       "ja": "別問題だ"
     },
     "gender": null,
-    "unit": null,
+    "unit": 67,
     "t": "general",
-    "q": 3607
+    "q": 3607,
+    "u": "c2-67"
   },
   {
     "word": "tener la sartén por el mango",
@@ -6505,8 +6969,9 @@
       "ja": "主導権を握る"
     },
     "gender": null,
-    "unit": null,
+    "unit": 67,
     "t": "general",
-    "q": 3608
+    "q": 3608,
+    "u": "c2-67"
   }
 ]

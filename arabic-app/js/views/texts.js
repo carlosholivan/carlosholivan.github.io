@@ -1,15 +1,15 @@
-import { S, update, isUnitDone } from '../state.js?v=202611191900';
-import { register, go } from '../router.js?v=202611191900';
-import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611191900';
-import { bottomNav, header } from '../ui/components.js?v=202611191900';
-import { t } from '../i18n.js?v=202611191900';
-import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611191900';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611191900';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611191900';
-import { translit, shown } from '../ar.js?v=202611191900';
-import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611191900';
-import { addCards } from '../engine/anki.js?v=202611191900';
-import { allHanzi } from './review.js?v=202611191900';
+import { S, update, isUnitDone } from '../state.js?v=202611192000';
+import { register, go } from '../router.js?v=202611192000';
+import { loadTexts, loadUnits, loadVocab } from '../data.js?v=202611192000';
+import { bottomNav, header } from '../ui/components.js?v=202611192000';
+import { t } from '../i18n.js?v=202611192000';
+import { levelChips, LEVELS, levelLabel } from '../levels.js?v=202611192000';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192000';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611192000';
+import { translit, shown } from '../ar.js?v=202611192000';
+import { ruby, rubySegs, pyReady, sylReady, tonedPinyin, isHan, esc, mean, applyPinyinPref, syllables } from '../ar.js?v=202611192000';
+import { addCards } from '../engine/anki.js?v=202611192000';
+import { allHanzi } from './review.js?v=202611192000';
 
 const tr = (o) => (o && (o[S.lang] || (S.lang !== 'es' && o.en) || o.es || o.en)) || '';
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -121,6 +121,15 @@ const MW = new Set(['个', '本', '只', '张', '件', '条', '杯', '位', '次
 const NOTVB = new Set(['不', '没', '别', '也', '都', '就', '还', '很', '再', '又', '才']);
 const NUMQ = /[一二两三四五六七八九十百千万几这那每哪半多〇零0-9]/;
 
+// Grammar colours (tags from tools/text_extras.py) and verb tenses.
+const GK = { vb: 'gVerb', adj: 'gAdj', pt: 'gPt', pr: 'gPr', cj: 'gCj' };
+const FN = {
+  past: { es: 'Verbo en pasado (الماضي)', en: 'Past tense verb (الماضي)', ja: '過去形（الماضي）', ko: '과거형 (الماضي)' },
+  pres: { es: 'Verbo en presente (المضارع)', en: 'Present tense verb (المضارع)', ja: '現在形（المضارع）', ko: '현재형 (المضارع)' },
+  fut: { es: 'Futuro: سَـ / سَوْفَ + presente', en: 'Future: سَـ / سَوْفَ + present', ja: '未来：سَـ / سَوْفَ＋現在形', ko: '미래: سَـ / سَوْفَ + 현재형' },
+  pas: { es: 'Voz pasiva (ḍamma en la 1.ª letra: كُتِبَ, يُكْتَبُ)', en: 'Passive voice (ḍamma on the 1st letter: كُتِبَ, يُكْتَبُ)', ja: '受動態（كُتِبَ, يُكْتَبُ）', ko: '수동태 (كُتِبَ, يُكْتَبُ)' },
+};
+
 // ── Detail ────────────────────────────────────────────────────────
 register('text', async (el, params) => {
   const tx = (await loadTexts(params.level)).find(x => x.id === params.id);
@@ -169,13 +178,24 @@ register('text', async (el, params) => {
       k = sp + 1;
     }
     let body = '';
+    const nr = noteRanges(tx.paragraphs[pi], pi);
+    let pos = offset + toks.slice(0, k).reduce((n, x) => n + x[0].length, 0);
     for (; k < toks.length; k++) {
-      const [surf, , key] = toks[k];
+      const [surf, , key, g, fn] = toks[k];
       body += surf;
+      const start = pos; pos += surf.length;
+      const nt = surf.trim() && nr.find(([a, b]) => start < b && start + surf.length > a);
       const w = key && dict.has(key) ? key : null;
-      if (!w) { html += esc(shown(surf)); continue; }
-      const cls = 'tw' + (above(w) ? ' dw' : '') + ` st-${wordStatus(w)}`;
-      html += `<span class="${cls}" data-w="${esc(w)}" data-p="${pi}">${esc(shown(surf))}</span>`;
+      const gc = g ? ` gg g-${g}` : '';
+      const extra = (nt ? ` data-n="${nt[2]}"` : '') + (fn ? ` data-f="${fn}"` : '');
+      if (!w) {
+        if (nt) html += `<span class="tw nt${gc}" data-w="${esc(surf)}" data-p="${pi}" data-x="1"${extra}>${esc(shown(surf))}</span>`;
+        else if (g) html += `<span class="gx${gc}">${esc(shown(surf))}</span>`;
+        else html += esc(shown(surf));
+        continue;
+      }
+      const cls = 'tw' + (above(w) ? ' dw' : '') + (nt ? ' nt' : '') + gc + ` st-${wordStatus(w)}`;
+      html += `<span class="${cls}" data-w="${esc(w)}" data-p="${pi}"${extra}>${esc(shown(surf))}</span>`;
     }
     const tr = translit(body.trim());
     return `<span class="ar-l" dir="rtl" lang="ar">${html}</span><span class="ar-line-tr">${spk ? `<b>${esc(translit(spk))}:</b> ` : ''}${esc(tr)}</span>`;
@@ -216,13 +236,14 @@ register('text', async (el, params) => {
         <button class="chip ${S.pinyin !== false ? 'on' : ''}" onclick="window.__togglePy()">abc</button>
         <button class="chip ${view.showTr ? 'on' : ''}" onclick="window.__toggleTr()">🌐 ${t('translateText')}</button>
         ${glossWords.length ? `<button class="chip ${view.showDiff ? 'on' : ''}" onclick="window.__toggleDiff()">⚠️ ${t('difficultWords')}</button>` : ''}
+        <button class="chip ${view.showGram ? 'on' : ''}" onclick="window.__toggleGram()">🔤 ${t('verbsGrammar')}</button>
         <button class="chip ${view.showStatus ? 'on' : ''}" onclick="window.__toggleStatus()">🎨 ${t('myWords')}</button>
       </div>
       <div class="rate-bar mb-12" id="rate-bar"><span>🔊 ${t('audioSpeed')}</span>${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__txRate(${r})">×${r}</button>`).join('')}</div>
       <div class="muted small mb-12">💡 ${t('tapWordHint')}</div>
       ${view.showStatus ? statusLegend() : ''}
-      ${view.showGram ? `<div class="verb-legend mb-12">${['vb', 'aux', 'asp', 'str', 'ba', 'mw', 'cj'].map(k =>
-        `<span class="g-${k}">${t({ vb: 'gVerb', aux: 'gAux', asp: 'gAsp', str: 'gStr', ba: 'gBa', mw: 'gMw', cj: 'gCj' }[k])}</span>`).join('')}${notes.length ? `<span style="border-bottom:2px dashed var(--accent)">📌 ${t('gNote')}</span>` : ''}</div>` : ''}
+      ${view.showGram ? `<div class="verb-legend mb-12">${Object.keys(GK).map(k =>
+        `<span class="g-${k}">${t(GK[k])}</span>`).join('')}${notes.length ? `<span style="border-bottom:2px dashed var(--accent)">📌 ${t('gNote')}</span>` : ''}</div>` : ''}
       <div id="reading" class="card reading reading-zh ${view.showDiff ? 'show-diff' : ''} ${view.showGram ? 'show-gram' : ''} ${view.showStatus ? 'show-status' : ''}">
         ${tx.paragraphs.map((p, i) => `<div class="para">
           <button class="para-audio" onclick="window.__speakPara(${i})" title="${t('listen')}">🔊</button>
@@ -255,13 +276,14 @@ register('text', async (el, params) => {
   window.__toggleStatus = () => { view.showStatus = !view.showStatus; renderRead(); };
   window.__speakPara = (i) => speak(tx.paragraphs[i].replace(/^[^：\n]{1,8}：/gm, ''));
 
-  const gName = (span) => { const m = span.className.match(/g-(\w+)/); return m ? ` · <span class="tense-badge g-${m[1]}">${t({ vb: 'gVerb', aux: 'gAux', asp: 'gAsp', str: 'gStr', ba: 'gBa', mw: 'gMw', cj: 'gCj' }[m[1]])}</span>` : ''; };
+  const gName = (span) => { const m = span.className.match(/g-(\w+)/); return m ? ` · <span class="tense-badge g-${m[1]}">${t(GK[m[1]] || 'gVerb')}</span>` : ''; };
   function showWord(span) {
     document.querySelectorAll('.tw.sel').forEach(x => x.classList.remove('sel'));
     span.classList.add('sel');
     const w = span.dataset.w;
     const d = dict.get(w) || {};
     const n = span.dataset.n != null ? notes[+span.dataset.n] : null;
+    const fx = span.dataset.f && FN[span.dataset.f];
     const chars = [...w].filter(c => hmap && hmap.has(c));
     const pop = document.getElementById('word-pop');
     const inDeck = !!(S.cards || {})[w];
@@ -274,12 +296,13 @@ register('text', async (el, params) => {
         <button class="listen-mini" onclick="window.__popSpeak()">🔊</button>
         <div class="grow">
           <div class="pop-es zh-word">${esc(w)} <span class="pop-py">${d.p ? tonedPinyin(d.p, { play: true }) : ''}</span></div>
-          <div class="pop-tr">${esc(mean(d.m)) || '—'}</div>
-          <div class="muted small">${d.lv ? levelLabel(d.lv) : ''}${d.gl ? ' · ' + t('difficultWords') : ''} · <span style="color:${STATUS[wordStatus(w)].color};font-weight:700">● ${t(STATUS[wordStatus(w)].key)}</span>${gName(span)}</div>
+          ${span.dataset.x && !d.m ? '' : `<div class="pop-tr">${esc(mean(d.m)) || '—'}</div>`}
+          <div class="muted small">${d.lv ? levelLabel(d.lv) : ''}${d.gl ? ' · ' + t('difficultWords') : ''} ${span.dataset.x ? '' : ` · <span style="color:${STATUS[wordStatus(w)].color};font-weight:700">● ${t(STATUS[wordStatus(w)].key)}</span>`}${gName(span)}</div>
         </div>
         <button class="muted" style="font-size:20px;padding:4px 8px" onclick="document.getElementById('word-pop').style.display='none'">×</button>
       </div>
       ${chars.length ? `<div class="pop-extra">${chars.map(c => { const x = hmap.get(c); return `<div class="gloss-row" style="cursor:pointer" onclick="window.__charSheet('${esc(c)}')"><strong class="jp" style="font-size:20px">${esc(c)}</strong><span>${esc(mean(x.m))} ›</span></div>`; }).join('')}</div>` : ''}
+      ${fx ? `<div class="pop-extra"><span class="tense-badge g-vb">🔤 ${esc(mean(fx))}</span></div>` : ''}
       ${n ? `<div class="pop-extra"><div class="pop-row"><span class="tense-badge note-badge">📌 ${noteKind(n.k)}</span> <strong>${esc(n.f)}</strong></div><div class="pop-hint">${esc(tr(n.e))}</div></div>` : ''}
       ${d.m ? `<div class="mt-8">${inDeck ? `<span class="small muted">✓ ${t('inDeck')}</span>` : `<button id="pop-add" class="chip" onclick="window.__popAdd()">＋ ${t('addToDeck')}</button>`}</div>` : ''}`;
     pop.style.display = 'block';
