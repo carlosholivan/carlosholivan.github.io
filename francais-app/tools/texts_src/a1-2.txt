@@ -1,0 +1,391 @@
+#! es
+# A1 readings, batch 2 (original). Spanish translations only.
+
+=== 1 | À la boulangerie ¦ En la panadería
+sum: Un cliente saluda y se despide en una panadería.
+p: — Bonjour, madame ! — Bonjour, monsieur. Ça va ? — Ça va bien, merci. Et vous ? — Très bien, merci.
+= —¡Buenos días, señora! —Buenos días, señor. ¿Qué tal? —Bien, gracias. ¿Y usted? —Muy bien, gracias.
+p: — Une baguette, s'il vous plaît. — Voilà. Un euro vingt. — Merci beaucoup. Au revoir et bonne journée ! — Au revoir, monsieur. À demain !
+= —Una barra de pan, por favor. —Aquí tiene. Un euro veinte. —Muchas gracias. ¡Adiós y que tenga un buen día! —Adiós, señor. ¡Hasta mañana!
+note: Et vous ? ¦ pronoun ¦ Con un desconocido se usa vous (usted).
+note: s'il vous plaît ¦ other ¦ «Por favor» formal; con amigos: s'il te plaît.
+note: bonne journée ¦ idiom ¦ Se dice al despedirse durante el día; por la noche: bonne soirée.
+q: Où est le client ? ¦ ¿Dónde está el cliente? ¦ à la boulangerie / à l'école / à la gare ¦ 0 ¦ Compra una baguette.
+q: Combien coûte la baguette ? ¦ ¿Cuánto cuesta la barra? ¦ un euro / un euro vingt / deux euros ¦ 1 ¦ «Un euro vingt».
+q: Que dit la boulangère à la fin ? ¦ ¿Qué dice la panadera al final? ¦ À demain ! / Bonne nuit ! / Salut ! ¦ 0 ¦ «Au revoir, monsieur. À demain !».
+
+=== 1 | Salut, Léa ! ¦ ¡Hola, Léa!
+sum: Dos amigos se encuentran en la calle.
+p: — Salut, Léa ! — Salut, Hugo ! Comment ça va ? — Ça va, et toi ? — Pas mal. Je suis un peu fatigué.
+= —¡Hola, Léa! —¡Hola, Hugo! ¿Cómo estás? —Bien, ¿y tú? —No estoy mal. Estoy un poco cansado.
+p: — Voici mon amie Clara. Elle est nouvelle dans la classe. — Enchanté, Clara ! — Enchantée ! — Bon, on y va. Salut, à bientôt !
+= —Esta es mi amiga Clara. Es nueva en la clase. —¡Encantado, Clara! —¡Encantada! —Bueno, nos vamos. ¡Hasta luego, hasta pronto!
+note: Salut ¦ register ¦ Saludo informal: sirve para «hola» y para «adiós».
+note: Enchantée ¦ agreement ¦ Una mujer escribe enchantée, con -e.
+note: Voici ¦ other ¦ voici = aquí está, este es (para presentar).
+q: Comment va Hugo ? ¦ ¿Cómo está Hugo? ¦ très bien / un peu fatigué / malade ¦ 1 ¦ «Je suis un peu fatigué».
+q: Qui est Clara ? ¦ ¿Quién es Clara? ¦ la sœur de Léa / une nouvelle élève / la professeure ¦ 1 ¦ «Elle est nouvelle dans la classe».
+q: Quel mot est informel ? ¦ ¿Qué palabra es informal? ¦ Salut / Bonjour / Au revoir ¦ 0 ¦ Salut se usa entre amigos.
+
+=== 2 | Nous sommes une classe internationale ¦ Somos una clase internacional
+sum: Los alumnos de una clase de francés se presentan.
+p: Dans ma classe de français, nous sommes huit. Je suis Marco, je suis italien. Ana et Lucía sont espagnoles. Kenji est japonais et il est très sympa.
+= En mi clase de francés somos ocho. Soy Marco, soy italiano. Ana y Lucía son españolas. Kenji es japonés y es muy majo.
+p: Notre professeur s'appelle Madame Roux. Elle est française, de Lyon. Elle est patiente et drôle. Et vous, vous êtes d'où ?
+= Nuestra profesora se llama señora Roux. Es francesa, de Lyon. Es paciente y divertida. ¿Y vosotros, de dónde sois?
+note: nous sommes huit ¦ other ¦ être conjugado: je suis, tu es, il est, nous sommes, vous êtes, ils sont.
+note: Ana et Lucía sont espagnoles ¦ agreement ¦ Nacionalidad en femenino plural: espagnole + s.
+note: vous êtes d'où ¦ question ¦ Pregunta informal con la palabra interrogativa al final.
+q: Combien d'élèves y a-t-il ? ¦ ¿Cuántos alumnos hay? ¦ six / huit / dix ¦ 1 ¦ «nous sommes huit».
+q: De quelle nationalité est Kenji ? ¦ ¿De qué nacionalidad es Kenji? ¦ chinois / japonais / italien ¦ 1 ¦ «Kenji est japonais».
+q: D'où est la professeure ? ¦ ¿De dónde es la profesora? ¦ de Paris / de Lyon / de Nice ¦ 1 ¦ «Elle est française, de Lyon».
+
+=== 2 | Mon voisin ¦ Mi vecino
+sum: Una chica describe a su vecino.
+p: Mon voisin s'appelle Paul. Il est canadien, de Montréal. Il est grand et blond. Il est médecin.
+= Mi vecino se llama Paul. Es canadiense, de Montreal. Es alto y rubio. Es médico.
+p: Sa femme, Sofia, est brésilienne. Elle est professeure de danse. Ils sont très gentils. Ils ne sont pas souvent à la maison : ils sont toujours occupés !
+= Su mujer, Sofia, es brasileña. Es profesora de baile. Son muy amables. No están a menudo en casa: ¡siempre están ocupados!
+note: Il est médecin ¦ article ¦ Con la profesión no se pone artículo: il est médecin.
+note: brésilienne ¦ agreement ¦ -ien → -ienne en femenino.
+note: Ils ne sont pas ¦ negation ¦ Negación: ne + verbo + pas.
+q: Quelle est la profession de Paul ? ¦ ¿Cuál es la profesión de Paul? ¦ professeur / médecin / danseur ¦ 1 ¦ «Il est médecin».
+q: D'où est Sofia ? ¦ ¿De dónde es Sofia? ¦ du Canada / du Brésil / de France ¦ 1 ¦ «Sofia, est brésilienne».
+q: Pourquoi ne sont-ils pas souvent à la maison ? ¦ ¿Por qué no están a menudo en casa? ¦ Ils sont occupés. / Ils sont malades. / Ils voyagent. ¦ 0 ¦ «ils sont toujours occupés».
+
+=== 3 | Dans mon sac ¦ En mi mochila
+sum: Una alumna enumera lo que lleva en la mochila.
+p: Dans mon sac, il y a un livre, un cahier et une trousse. Dans la trousse, il y a des stylos, un crayon et une gomme.
+= En mi mochila hay un libro, un cuaderno y un estuche. En el estuche hay bolígrafos, un lápiz y una goma.
+p: Il y a aussi une bouteille d'eau, des clés et un téléphone. Mon sac est lourd !
+= También hay una botella de agua, unas llaves y un teléfono. ¡Mi mochila pesa mucho!
+note: un livre, un cahier ¦ article ¦ un para el masculino, une para el femenino.
+note: des stylos ¦ article ¦ des = unos / unas (plural).
+note: il y a ¦ other ¦ il y a = hay.
+q: Qu'est-ce qu'il y a dans la trousse ? ¦ ¿Qué hay en el estuche? ¦ des stylos / des clés / un livre ¦ 0 ¦ «Dans la trousse, il y a des stylos».
+q: Comment est le sac ? ¦ ¿Cómo es la mochila? ¦ léger / lourd / petit ¦ 1 ¦ «Mon sac est lourd !».
+q: Combien de crayons y a-t-il ? ¦ ¿Cuántos lápices hay? ¦ un / deux / trois ¦ 0 ¦ «un crayon».
+
+=== 3 | Ma chambre ¦ Mi habitación
+sum: Un chico describe su habitación.
+p: Voici ma chambre. Il y a un lit, une table et une chaise. Sur la table, il y a un ordinateur et une lampe.
+= Esta es mi habitación. Hay una cama, una mesa y una silla. Sobre la mesa hay un ordenador y una lámpara.
+p: Sur le mur, il y a des photos de ma famille. La fenêtre est grande. J'aime ma chambre, c'est mon endroit préféré.
+= En la pared hay fotos de mi familia. La ventana es grande. Me gusta mi habitación, es mi sitio favorito.
+note: Sur la table ¦ article ¦ un/une presenta algo nuevo (une table); la indica algo ya conocido (la table).
+note: des photos de ma famille ¦ other ¦ ma famille: famille es femenino → ma.
+q: Qu'est-ce qu'il y a sur la table ? ¦ ¿Qué hay sobre la mesa? ¦ un ordinateur et une lampe / des photos / un lit ¦ 0 ¦ «un ordinateur et une lampe».
+q: Qu'est-ce qu'il y a sur le mur ? ¦ ¿Qué hay en la pared? ¦ des photos / une fenêtre / une lampe ¦ 0 ¦ «des photos de ma famille».
+q: Comment est la fenêtre ? ¦ ¿Cómo es la ventana? ¦ petite / grande / sale ¦ 1 ¦ «La fenêtre est grande».
+
+=== 4 | J'ai un chat ¦ Tengo un gato
+sum: Una niña habla de su gato y de su edad.
+p: Je m'appelle Inès. J'ai huit ans. J'ai un chat, il s'appelle Pompon. Il a trois ans. Il est noir et blanc.
+= Me llamo Inès. Tengo ocho años. Tengo un gato, se llama Pompon. Tiene tres años. Es blanco y negro.
+p: Mon frère a un chien. Nous avons aussi des poissons. Ma mère a peur des animaux, mais elle aime Pompon !
+= Mi hermano tiene un perro. También tenemos peces. Mi madre tiene miedo a los animales, ¡pero quiere a Pompon!
+note: J'ai huit ans ¦ other ¦ La edad se dice con avoir: j'ai huit ans (tengo ocho años).
+note: Nous avons ¦ other ¦ avoir: j'ai, tu as, il a, nous avons, vous avez, ils ont.
+note: a peur des animaux ¦ idiom ¦ avoir peur de = tener miedo de.
+q: Quel âge a Inès ? ¦ ¿Cuántos años tiene Inès? ¦ trois ans / huit ans / dix ans ¦ 1 ¦ «J'ai huit ans».
+q: Quel animal a son frère ? ¦ ¿Qué animal tiene su hermano? ¦ un chat / un chien / un poisson ¦ 1 ¦ «Mon frère a un chien».
+q: Qui a peur des animaux ? ¦ ¿Quién tiene miedo a los animales? ¦ Inès / sa mère / son frère ¦ 1 ¦ «Ma mère a peur des animaux».
+
+=== 4 | Une grande famille ¦ Una familia grande
+sum: Un hombre presenta a su familia en una fiesta.
+p: Nous sommes une grande famille. J'ai deux sœurs et un frère. Ma sœur Julie a deux enfants : un fils et une fille.
+= Somos una familia grande. Tengo dos hermanas y un hermano. Mi hermana Julie tiene dos hijos: un hijo y una hija.
+p: Mes parents ont soixante-dix ans. Ils ont une maison à la campagne. Le dimanche, toute la famille mange chez eux. C'est très bruyant !
+= Mis padres tienen setenta años. Tienen una casa en el campo. Los domingos toda la familia come en su casa. ¡Hay mucho ruido!
+note: deux sœurs ¦ other ¦ sœur = hermana; frère = hermano.
+note: Mes parents ont ¦ other ¦ ils ont (tienen) ≠ ils sont (son, están).
+note: chez eux ¦ prep ¦ chez = en casa de.
+q: Combien de sœurs a-t-il ? ¦ ¿Cuántas hermanas tiene? ¦ une / deux / trois ¦ 1 ¦ «J'ai deux sœurs».
+q: Où habitent les parents ? ¦ ¿Dónde viven los padres? ¦ en ville / à la campagne / à la mer ¦ 1 ¦ «une maison à la campagne».
+q: Quand la famille mange-t-elle ensemble ? ¦ ¿Cuándo come junta la familia? ¦ le samedi / le dimanche / le lundi ¦ 1 ¦ «Le dimanche».
+
+=== 5 | Nous parlons trois langues ¦ Hablamos tres idiomas
+sum: Una familia bilingüe explica qué idiomas hablan.
+p: J'habite à Bruxelles avec ma famille. Chez nous, nous parlons français et espagnol. Mon père parle aussi anglais.
+= Vivo en Bruselas con mi familia. En casa hablamos francés y español. Mi padre también habla inglés.
+p: Mes enfants étudient le néerlandais à l'école. Le soir, nous regardons des films en anglais. Nous aimons beaucoup les langues !
+= Mis hijos estudian neerlandés en el colegio. Por la noche vemos películas en inglés. ¡Nos gustan mucho los idiomas!
+note: nous parlons ¦ other ¦ Verbos en -er: nous + -ons.
+note: Mes enfants étudient ¦ other ¦ ils + -ent (la terminación no se pronuncia).
+note: à Bruxelles ¦ prep ¦ à + ciudad.
+q: Où habite la famille ? ¦ ¿Dónde vive la familia? ¦ à Paris / à Bruxelles / à Madrid ¦ 1 ¦ «J'habite à Bruxelles».
+q: Qui parle anglais ? ¦ ¿Quién habla inglés? ¦ le père / les enfants / la mère ¦ 0 ¦ «Mon père parle aussi anglais».
+q: Que font-ils le soir ? ¦ ¿Qué hacen por la noche? ¦ Ils regardent des films. / Ils étudient. / Ils dansent. ¦ 0 ¦ «nous regardons des films en anglais».
+
+=== 5 | Le week-end de Thomas ¦ El fin de semana de Thomas
+sum: Lo que hace Thomas los sábados y domingos.
+p: Le samedi, Thomas travaille dans un magasin. Il commence à neuf heures et il termine à six heures.
+= Los sábados, Thomas trabaja en una tienda. Empieza a las nueve y termina a las seis.
+p: Le dimanche, il joue au football avec ses amis. Après, ils mangent une pizza et ils discutent. Thomas aime beaucoup le dimanche.
+= Los domingos juega al fútbol con sus amigos. Después comen una pizza y charlan. A Thomas le gusta mucho el domingo.
+note: Le samedi ¦ article ¦ le + día = todos los sábados (costumbre).
+note: il joue au football ¦ prep ¦ jouer à + deporte (à + le = au).
+note: ils mangent ¦ other ¦ manger: nous mangeons (con e), ils mangent.
+q: Où travaille Thomas ? ¦ ¿Dónde trabaja Thomas? ¦ dans un restaurant / dans un magasin / dans un bureau ¦ 1 ¦ «dans un magasin».
+q: À quelle heure finit-il ? ¦ ¿A qué hora termina? ¦ à six heures / à neuf heures / à midi ¦ 0 ¦ «il termine à six heures».
+q: Que fait-il le dimanche ? ¦ ¿Qué hace los domingos? ¦ Il travaille. / Il joue au football. / Il dort. ¦ 1 ¦ «il joue au football».
+
+=== 6 | Questions à une star ¦ Preguntas a una estrella
+sum: Una breve entrevista a una cantante.
+p: — Comment vous appelez-vous ? — Je m'appelle Nina. — Où habitez-vous ? — J'habite à Marseille. — Est-ce que vous avez des enfants ? — Oui, j'ai une fille.
+= —¿Cómo se llama? —Me llamo Nina. —¿Dónde vive? —Vivo en Marsella. —¿Tiene hijos? —Sí, tengo una hija.
+p: — Qu'est-ce que vous aimez faire ? — J'aime nager et cuisiner. — Quel est votre plat préféré ? — La bouillabaisse, bien sûr !
+= —¿Qué le gusta hacer? —Me gusta nadar y cocinar. —¿Cuál es su plato favorito? —¡La bouillabaisse, por supuesto!
+note: Comment vous appelez-vous ¦ question ¦ Pregunta con inversión: registro formal.
+note: Est-ce que vous avez ¦ question ¦ est-ce que + frase = pregunta de sí o no.
+note: Quel est votre plat préféré ¦ question ¦ quel concuerda: quel plat, quelle ville.
+q: Où habite Nina ? ¦ ¿Dónde vive Nina? ¦ à Paris / à Marseille / à Lyon ¦ 1 ¦ «J'habite à Marseille».
+q: Qu'est-ce qu'elle aime faire ? ¦ ¿Qué le gusta hacer? ¦ nager et cuisiner / chanter et danser / lire ¦ 0 ¦ «J'aime nager et cuisiner».
+q: Quel est son plat préféré ? ¦ ¿Cuál es su plato favorito? ¦ la pizza / la bouillabaisse / la salade ¦ 1 ¦ «La bouillabaisse».
+
+=== 6 | Tu habites où ? ¦ ¿Dónde vives?
+sum: Dos estudiantes se conocen en una fiesta.
+p: — Tu t'appelles comment ? — Malik. Et toi ? — Emma. Tu viens d'où ? — Je viens de Dakar, au Sénégal. Et toi ? — Moi, je viens de Genève.
+= —¿Cómo te llamas? —Malik. ¿Y tú? —Emma. ¿De dónde eres? —Soy de Dakar, en Senegal. ¿Y tú? —Yo soy de Ginebra.
+p: — Tu habites où ? — Près de l'université. — Tu étudies quoi ? — L'informatique. — Moi aussi ! On est dans la même université !
+= —¿Dónde vives? —Cerca de la universidad. —¿Qué estudias? —Informática. —¡Yo también! ¡Estamos en la misma universidad!
+note: Tu viens d'où ¦ question ¦ Registro oral: la palabra interrogativa va al final.
+note: Tu étudies quoi ¦ question ¦ quoi al final en la pregunta oral (= qu'est-ce que tu étudies ?).
+note: On est ¦ register ¦ on = nous en la lengua hablada.
+q: D'où vient Malik ? ¦ ¿De dónde es Malik? ¦ de Genève / de Dakar / de Paris ¦ 1 ¦ «Je viens de Dakar».
+q: Où habite Malik ? ¦ ¿Dónde vive Malik? ¦ près de l'université / en centre-ville / à la campagne ¦ 0 ¦ «Près de l'université».
+q: Qu'est-ce qu'ils ont en commun ? ¦ ¿Qué tienen en común? ¦ la ville / l'université / la nationalité ¦ 1 ¦ «On est dans la même université».
+
+=== 7 | Le train de 8 h 15 ¦ El tren de las 8:15
+sum: Un viajero pregunta la hora y el precio en una estación.
+p: — Excusez-moi, quelle heure est-il ? — Il est huit heures moins dix. — Merci ! Mon train est à huit heures et quart.
+= —Perdone, ¿qué hora es? —Son las ocho menos diez. —¡Gracias! Mi tren es a las ocho y cuarto.
+p: — Un billet pour Lille, s'il vous plaît. — Aller simple ou aller-retour ? — Aller-retour. — Ça fait soixante-quinze euros. — Voilà. Merci !
+= —Un billete para Lille, por favor. —¿Solo ida o ida y vuelta? —Ida y vuelta. —Son setenta y cinco euros. —Aquí tiene. ¡Gracias!
+note: quelle heure est-il ¦ question ¦ Para preguntar la hora.
+note: huit heures moins dix ¦ other ¦ moins = menos: 7:50.
+note: soixante-quinze ¦ other ¦ 75 = sesenta + quince.
+q: Quelle heure est-il ? ¦ ¿Qué hora es? ¦ 7 h 50 / 8 h 10 / 8 h 15 ¦ 0 ¦ «huit heures moins dix».
+q: À quelle heure part le train ? ¦ ¿A qué hora sale el tren? ¦ 8 h / 8 h 15 / 8 h 30 ¦ 1 ¦ «à huit heures et quart».
+q: Combien coûte le billet ? ¦ ¿Cuánto cuesta el billete? ¦ 65 € / 75 € / 95 € ¦ 1 ¦ «soixante-quinze euros».
+
+=== 7 | Mon numéro de téléphone ¦ Mi número de teléfono
+sum: Dos compañeros intercambian sus datos.
+p: — Tu as un numéro de téléphone ? — Oui, c'est le 06 45 82 91 17. — Et ton adresse ? — 33, rue Victor-Hugo.
+= —¿Tienes número de teléfono? —Sí, es el 06 45 82 91 17. —¿Y tu dirección? —Calle Victor-Hugo, 33.
+p: — Tu as quel âge ? — J'ai vingt-deux ans. Et toi ? — Moi, j'ai quarante ans ! — Quarante ? Tu as l'air plus jeune !
+= —¿Cuántos años tienes? —Tengo veintidós. ¿Y tú? —¡Yo tengo cuarenta! —¿Cuarenta? ¡Pareces más joven!
+note: le 06 45 82 91 17 ¦ other ¦ En Francia los teléfonos se leen de dos en dos: zéro six, quarante-cinq…
+note: Tu as quel âge ¦ question ¦ La edad se pregunta con avoir.
+note: Tu as l'air ¦ idiom ¦ avoir l'air = parecer.
+q: Quelle est l'adresse ? ¦ ¿Cuál es la dirección? ¦ 33, rue Victor-Hugo / 23, rue de Paris / 13, avenue Foch ¦ 0 ¦ «33, rue Victor-Hugo».
+q: Quel âge a la première personne ? ¦ ¿Cuántos años tiene la primera persona? ¦ 22 ans / 40 ans / 33 ans ¦ 1 ¦ «Moi, j'ai quarante ans !».
+q: Que signifie « tu as l'air plus jeune » ? ¦ ¿Qué significa «tu as l'air plus jeune»? ¦ pareces más joven / eres más joven / quieres ser joven ¦ 0 ¦ avoir l'air = parecer.
+
+=== 8 | Une journée d'infirmière ¦ Un día de enfermera
+sum: La rutina de una enfermera que trabaja de noche.
+p: Je suis infirmière et je travaille la nuit. Je me lève à cinq heures de l'après-midi. Je me douche et je m'habille.
+= Soy enfermera y trabajo de noche. Me levanto a las cinco de la tarde. Me ducho y me visto.
+p: Je commence à huit heures du soir. Le matin, je rentre à la maison et je me couche à neuf heures. Je me repose toute la journée.
+= Empiezo a las ocho de la tarde. Por la mañana vuelvo a casa y me acuesto a las nueve. Descanso todo el día.
+note: Je me lève ¦ pronoun ¦ Verbo pronominal: je me, tu te, il se…
+note: je m'habille ¦ pronoun ¦ me → m' delante de vocal o h muda.
+note: Je me repose ¦ false-friend ¦ se reposer = descansar.
+q: Quand travaille-t-elle ? ¦ ¿Cuándo trabaja? ¦ le matin / la nuit / l'après-midi ¦ 1 ¦ «je travaille la nuit».
+q: À quelle heure se lève-t-elle ? ¦ ¿A qué hora se levanta? ¦ à cinq heures de l'après-midi / à sept heures du matin / à minuit ¦ 0 ¦ «à cinq heures de l'après-midi».
+q: À quelle heure se couche-t-elle ? ¦ ¿A qué hora se acuesta? ¦ à neuf heures du matin / à neuf heures du soir / à cinq heures ¦ 0 ¦ «le matin… je me couche à neuf heures».
+
+=== 8 | Le matin chez nous ¦ Las mañanas en casa
+sum: Una madre cuenta las mañanas con prisas en su familia.
+p: Chez nous, le matin, c'est la course ! Mon mari se lève à six heures. Les enfants se réveillent à sept heures, mais ils ne se lèvent pas tout de suite.
+= ¡En casa, por la mañana, vamos a toda prisa! Mi marido se levanta a las seis. Los niños se despiertan a las siete, pero no se levantan enseguida.
+p: Nous prenons le petit-déjeuner ensemble. Ensuite, les enfants se brossent les dents et nous partons à huit heures. Ouf !
+= Desayunamos juntos. Después, los niños se lavan los dientes y salimos a las ocho. ¡Uf!
+note: ils ne se lèvent pas ¦ negation ¦ Negación con pronominales: ne + se + verbo + pas.
+note: se brossent les dents ¦ article ¦ Con partes del cuerpo se usa el artículo, no el posesivo.
+note: le petit-déjeuner ¦ other ¦ le petit-déjeuner = el desayuno.
+q: Qui se lève le premier ? ¦ ¿Quién se levanta primero? ¦ le mari / les enfants / la mère ¦ 0 ¦ «Mon mari se lève à six heures».
+q: Que font-ils ensemble ? ¦ ¿Qué hacen juntos? ¦ le petit-déjeuner / du sport / les courses ¦ 0 ¦ «Nous prenons le petit-déjeuner ensemble».
+q: À quelle heure partent-ils ? ¦ ¿A qué hora salen? ¦ à sept heures / à huit heures / à neuf heures ¦ 1 ¦ «nous partons à huit heures».
+
+=== 9 | On va où ce soir ? ¦ ¿Adónde vamos esta noche?
+sum: Unos amigos deciden adónde ir el sábado por la noche.
+p: — On va au cinéma ce soir ? — Non, je vais au cinéma demain avec ma sœur. — Alors, on va au restaurant ? — Bonne idée !
+= —¿Vamos al cine esta noche? —No, mañana voy al cine con mi hermana. —Entonces, ¿vamos al restaurante? —¡Buena idea!
+p: — Tu viens avec nous, Karim ? — Je viens, mais après. Je vais d'abord à la piscine. — D'accord, à tout à l'heure !
+= —¿Vienes con nosotros, Karim? —Voy, pero después. Primero voy a la piscina. —¡Vale, hasta luego!
+note: au cinéma ¦ prep ¦ à + le = au.
+note: à la piscine ¦ prep ¦ à + la no cambia.
+note: Je viens ¦ other ¦ venir: je viens, tu viens, il vient.
+q: Avec qui va-t-il au cinéma demain ? ¦ ¿Con quién va al cine mañana? ¦ avec sa sœur / avec Karim / seul ¦ 0 ¦ «avec ma sœur».
+q: Où vont-ils ce soir ? ¦ ¿Adónde van esta noche? ¦ au cinéma / au restaurant / à la piscine ¦ 1 ¦ «on va au restaurant».
+q: Où va Karim d'abord ? ¦ ¿Adónde va Karim primero? ¦ à la piscine / au travail / à la gare ¦ 0 ¦ «Je vais d'abord à la piscine».
+
+=== 9 | Les vacances de Nathalie ¦ Las vacaciones de Nathalie
+sum: Nathalie explica adónde va de vacaciones.
+p: En été, je vais en Bretagne chez mes grands-parents. Ils viennent de la mer et ils adorent la pêche.
+= En verano voy a Bretaña a casa de mis abuelos. Son de la costa y les encanta la pesca.
+p: En hiver, je vais à la montagne avec mes amis. Nous allons aux Alpes. Et toi, tu vas où en vacances ?
+= En invierno voy a la montaña con mis amigos. Vamos a los Alpes. ¿Y tú, adónde vas de vacaciones?
+note: je vais en Bretagne ¦ prep ¦ en + región o país femenino.
+note: aux Alpes ¦ prep ¦ à + les = aux.
+note: Ils viennent de la mer ¦ prep ¦ venir de = venir de, ser de.
+q: Où va-t-elle en été ? ¦ ¿Adónde va en verano? ¦ en Bretagne / aux Alpes / à Paris ¦ 0 ¦ «je vais en Bretagne».
+q: Qu'est-ce que les grands-parents adorent ? ¦ ¿Qué les encanta a los abuelos? ¦ la pêche / le ski / la danse ¦ 0 ¦ «ils adorent la pêche».
+q: Avec qui va-t-elle à la montagne ? ¦ ¿Con quién va a la montaña? ¦ ses amis / ses parents / son frère ¦ 0 ¦ «avec mes amis».
+
+=== 10 | Au café ¦ En la cafetería
+sum: Dos amigos piden algo en un café.
+p: — Bonjour ! Vous désirez ? — Un café et un jus d'orange, s'il vous plaît. — Vous voulez manger quelque chose ? — Oui, un croissant et du pain avec de la confiture.
+= —¡Buenos días! ¿Qué desean? —Un café y un zumo de naranja, por favor. —¿Quieren comer algo? —Sí, un cruasán y pan con mermelada.
+p: — Vous prenez du sucre ? — Non, merci. — Et de l'eau ? — Oui, une carafe d'eau, s'il vous plaît.
+= —¿Toman azúcar? —No, gracias. —¿Y agua? —Sí, una jarra de agua, por favor.
+note: du pain ¦ article ¦ Partitivo: una cantidad indeterminada de pan.
+note: de la confiture ¦ article ¦ de la + nombre femenino.
+note: de l'eau ¦ article ¦ de l' delante de vocal.
+q: Qu'est-ce qu'ils boivent ? ¦ ¿Qué beben? ¦ un café et un jus d'orange / deux thés / du vin ¦ 0 ¦ «Un café et un jus d'orange».
+q: Est-ce qu'ils prennent du sucre ? ¦ ¿Toman azúcar? ¦ oui / non / un peu ¦ 1 ¦ «Non, merci».
+q: Qu'est-ce qu'ils mangent ? ¦ ¿Qué comen? ¦ un croissant et du pain / une pizza / une salade ¦ 0 ¦ «un croissant et du pain avec de la confiture».
+
+=== 10 | La liste des courses ¦ La lista de la compra
+sum: Una pareja prepara la lista de la compra.
+p: — Qu'est-ce qu'on achète ? — Il faut du lait, des œufs et du fromage. — On a de la farine ? — Non, on n'a pas de farine.
+= —¿Qué compramos? —Hace falta leche, huevos y queso. —¿Tenemos harina? —No, no tenemos harina.
+p: — Alors, de la farine aussi. Et du poulet pour ce soir. — Pas de poulet, je suis végétarien ! — Ah oui… Alors des légumes !
+= —Entonces, harina también. Y pollo para esta noche. —¡Nada de pollo, soy vegetariano! —Ah, sí… ¡Entonces verdura!
+note: on n'a pas de farine ¦ article ¦ Tras la negación, du / de la / des → de.
+note: Pas de poulet ¦ article ¦ pas de + nombre = nada de.
+note: des légumes ¦ article ¦ des: plural indeterminado.
+q: Qu'est-ce qu'ils n'ont pas ? ¦ ¿Qué no tienen? ¦ du lait / de la farine / des œufs ¦ 1 ¦ «on n'a pas de farine».
+q: Pourquoi pas de poulet ? ¦ ¿Por qué nada de pollo? ¦ Il est végétarien. / C'est cher. / Il n'aime pas cuisiner. ¦ 0 ¦ «je suis végétarien».
+q: Qu'est-ce qu'ils achètent à la place ? ¦ ¿Qué compran en su lugar? ¦ du poisson / des légumes / du pain ¦ 1 ¦ «Alors des légumes !».
+
+=== 11 | La météo du week-end ¦ El tiempo del fin de semana
+sum: El parte meteorológico de un fin de semana en Francia.
+p: Samedi, il fait beau dans le sud : il fait chaud et il y a du soleil. Dans le nord, il fait gris et il pleut.
+= El sábado hace bueno en el sur: hace calor y hay sol. En el norte está nublado y llueve.
+p: Dimanche, il fait froid à la montagne et il neige. À Paris, il y a du vent. Prenez un parapluie !
+= El domingo hace frío en la montaña y nieva. En París hace viento. ¡Coged un paraguas!
+note: il fait beau ¦ other ¦ El tiempo se expresa con il fait + adjetivo.
+note: il pleut ¦ other ¦ pleuvoir: il pleut (llueve).
+note: il y a du vent ¦ article ¦ Hace viento = il y a du vent.
+q: Quel temps fait-il dans le sud samedi ? ¦ ¿Qué tiempo hace en el sur el sábado? ¦ il fait beau / il pleut / il neige ¦ 0 ¦ «il fait beau dans le sud».
+q: Où neige-t-il dimanche ? ¦ ¿Dónde nieva el domingo? ¦ à Paris / à la montagne / dans le sud ¦ 1 ¦ «il fait froid à la montagne et il neige».
+q: Pourquoi prendre un parapluie ? ¦ ¿Por qué coger un paraguas? ¦ Il fait du vent et il pleut. / Il fait chaud. / Il neige. ¦ 0 ¦ Lluvia y viento.
+
+=== 12 | Les soldes ¦ Las rebajas
+sum: Dos amigas van de rebajas.
+p: — Regarde cette jupe bleue ! Elle est jolie. — Oui, mais elle est trop petite pour moi. — Et ces chaussures noires ?
+= —¡Mira esta falda azul! Es bonita. —Sí, pero es demasiado pequeña para mí. —¿Y estos zapatos negros?
+p: — Elles sont belles, mais elles sont chères. — C'est les soldes ! Moins cinquante pour cent ! — Alors, je prends les chaussures et un pull blanc.
+= —Son bonitos, pero son caros. —¡Son las rebajas! ¡Cincuenta por ciento de descuento! —Entonces me llevo los zapatos y un jersey blanco.
+note: cette jupe bleue ¦ agreement ¦ El adjetivo concuerda: bleu → bleue.
+note: ces chaussures noires ¦ agreement ¦ Femenino plural: noire + s.
+note: Elles sont belles ¦ agreement ¦ beau → belle → belles.
+q: Pourquoi elle ne prend pas la jupe ? ¦ ¿Por qué no se lleva la falda? ¦ Elle est trop petite. / Elle est chère. / Elle n'aime pas le bleu. ¦ 0 ¦ «elle est trop petite pour moi».
+q: Quelle est la réduction ? ¦ ¿Cuál es el descuento? ¦ 20 % / 50 % / 30 % ¦ 1 ¦ «Moins cinquante pour cent».
+q: Qu'est-ce qu'elle achète ? ¦ ¿Qué compra? ¦ la jupe / les chaussures et un pull / un manteau ¦ 1 ¦ «je prends les chaussures et un pull blanc».
+
+=== 13 | Appartement à louer ¦ Piso en alquiler
+sum: Un anuncio de alquiler de un piso.
+p: À louer : appartement au centre-ville, troisième étage. Il y a deux chambres, un salon, une cuisine et une salle de bains.
+= Se alquila: piso en el centro, tercer piso. Hay dos dormitorios, un salón, una cocina y un cuarto de baño.
+p: Il n'y a pas d'ascenseur, mais il y a un grand balcon. Il n'y a pas de garage. Loyer : 800 euros par mois.
+= No hay ascensor, pero hay un balcón grande. No hay garaje. Alquiler: 800 euros al mes.
+note: Il y a deux chambres ¦ other ¦ il y a = hay.
+note: Il n'y a pas d'ascenseur ¦ article ¦ il n'y a pas de / d' (sin un/une).
+note: troisième étage ¦ other ¦ Números ordinales: deuxième, troisième…
+q: Combien de chambres y a-t-il ? ¦ ¿Cuántos dormitorios hay? ¦ une / deux / trois ¦ 1 ¦ «deux chambres».
+q: Qu'est-ce qu'il n'y a pas ? ¦ ¿Qué no hay? ¦ de balcon / d'ascenseur / de cuisine ¦ 1 ¦ «Il n'y a pas d'ascenseur».
+q: Combien coûte le loyer ? ¦ ¿Cuánto cuesta el alquiler? ¦ 600 € / 800 € / 1 000 € ¦ 1 ¦ «800 euros par mois».
+
+=== 14 | Au marché ¦ En el mercado
+sum: Una clienta compra fruta en el mercado.
+p: — Bonjour ! Ces tomates, elles coûtent combien ? — Trois euros le kilo. — Je prends un kilo. Et cet ananas ?
+= —¡Buenos días! Estos tomates, ¿cuánto cuestan? —Tres euros el kilo. —Me llevo un kilo. ¿Y esta piña?
+p: — Cet ananas coûte deux euros. Cette semaine, ces fraises sont très bonnes. — Alors, une barquette de fraises aussi. Ça fait combien ? — Sept euros.
+= —Esta piña cuesta dos euros. Esta semana estas fresas están muy buenas. —Entonces una tarrina de fresas también. ¿Cuánto es? —Siete euros.
+note: cet ananas ¦ article ¦ cet delante de nombre masculino con vocal.
+note: Cette semaine ¦ article ¦ cette + femenino.
+note: Ça fait combien ¦ question ¦ Para preguntar el total.
+q: Combien coûtent les tomates ? ¦ ¿Cuánto cuestan los tomates? ¦ 2 € le kilo / 3 € le kilo / 7 € le kilo ¦ 1 ¦ «Trois euros le kilo».
+q: Qu'est-ce qui est très bon cette semaine ? ¦ ¿Qué está muy bueno esta semana? ¦ les fraises / l'ananas / les tomates ¦ 0 ¦ «ces fraises sont très bonnes».
+q: Combien paie-t-elle ? ¦ ¿Cuánto paga? ¦ 5 € / 7 € / 9 € ¦ 1 ¦ «Sept euros».
+
+=== 15 | Ce soir, je vais cuisiner ¦ Esta noche voy a cocinar
+sum: Un chico planea una cena para sus amigos.
+p: Ce soir, mes amis vont venir chez moi. Je vais préparer un repas italien. Je vais faire des pâtes et une salade.
+= Esta noche mis amigos van a venir a mi casa. Voy a preparar una cena italiana. Voy a hacer pasta y una ensalada.
+p: Julie va apporter un dessert. Après le dîner, nous allons regarder un match à la télé. Ça va être une bonne soirée !
+= Julie va a traer un postre. Después de la cena vamos a ver un partido en la tele. ¡Va a ser una buena noche!
+note: Je vais préparer ¦ tense ¦ Futuro próximo: aller + infinitivo.
+note: Julie va apporter ¦ tense ¦ aller conjugado + infinitivo.
+note: Ça va être ¦ tense ¦ Futuro próximo de être.
+q: Qu'est-ce qu'il va préparer ? ¦ ¿Qué va a preparar? ¦ un repas italien / un repas chinois / un gâteau ¦ 0 ¦ «un repas italien».
+q: Qui va apporter le dessert ? ¦ ¿Quién va a traer el postre? ¦ Julie / ses parents / personne ¦ 0 ¦ «Julie va apporter un dessert».
+q: Que vont-ils faire après le dîner ? ¦ ¿Qué van a hacer después de cenar? ¦ danser / regarder un match / sortir ¦ 1 ¦ «nous allons regarder un match».
+
+=== 16 | La recette des crêpes ¦ La receta de las crepes
+sum: Instrucciones sencillas para hacer crepes.
+p: Prenez deux cent cinquante grammes de farine. Ajoutez quatre œufs et mélangez. Versez un demi-litre de lait, petit à petit.
+= Coja doscientos cincuenta gramos de harina. Añada cuatro huevos y mezcle. Vierta medio litro de leche, poco a poco.
+p: Laissez reposer une heure. Faites chauffer la poêle. Mettez un peu de beurre et cuisez les crêpes. Bon appétit !
+= Deje reposar una hora. Caliente la sartén. Ponga un poco de mantequilla y haga las crepes. ¡Buen provecho!
+note: Prenez ¦ tense ¦ Imperativo de vous: sin sujeto.
+note: Ajoutez ¦ tense ¦ Imperativo: vous ajoutez → ajoutez.
+note: Faites chauffer ¦ other ¦ faire chauffer = calentar.
+q: Combien d'œufs faut-il ? ¦ ¿Cuántos huevos hacen falta? ¦ deux / quatre / six ¦ 1 ¦ «Ajoutez quatre œufs».
+q: Combien de temps faut-il laisser reposer ? ¦ ¿Cuánto tiempo hay que dejar reposar? ¦ dix minutes / une heure / une nuit ¦ 1 ¦ «Laissez reposer une heure».
+q: Qu'est-ce qu'on met dans la poêle ? ¦ ¿Qué se pone en la sartén? ¦ de l'huile / du beurre / du sucre ¦ 1 ¦ «Mettez un peu de beurre».
+
+=== 17 | Tu peux m'aider ? ¦ ¿Me puedes ayudar?
+sum: Una chica pide ayuda a su hermano para una mudanza.
+p: — Marc, tu peux m'aider samedi ? Je déménage. — Samedi ? Je ne peux pas, je dois travailler. — Et dimanche ?
+= —Marc, ¿me puedes ayudar el sábado? Me mudo. —¿El sábado? No puedo, tengo que trabajar. —¿Y el domingo?
+p: — Dimanche, oui, je veux bien. Mais tu dois préparer les cartons avant ! — Promis ! Et je vais faire une pizza pour toi.
+= —El domingo sí, con mucho gusto. ¡Pero tienes que preparar las cajas antes! —¡Prometido! Y voy a hacer una pizza para ti.
+note: tu peux m'aider ¦ other ¦ pouvoir + infinitivo = poder.
+note: je dois travailler ¦ other ¦ devoir + infinitivo = tener que, deber.
+note: je veux bien ¦ idiom ¦ je veux bien = con mucho gusto, vale.
+q: Pourquoi Marc ne peut pas samedi ? ¦ ¿Por qué Marc no puede el sábado? ¦ Il doit travailler. / Il est malade. / Il voyage. ¦ 0 ¦ «je dois travailler».
+q: Quel jour va-t-il aider ? ¦ ¿Qué día va a ayudar? ¦ samedi / dimanche / lundi ¦ 1 ¦ «Dimanche, oui».
+q: Que doit préparer sa sœur ? ¦ ¿Qué tiene que preparar su hermana? ¦ les cartons / le repas / la voiture ¦ 0 ¦ «tu dois préparer les cartons».
+
+=== 18 | Je choisis mon dessert ¦ Elijo mi postre
+sum: Una familia elige el postre en un restaurante.
+p: — Qu'est-ce que vous choisissez comme dessert ? — Moi, je choisis la mousse au chocolat. — Les enfants choisissent une glace.
+= —¿Qué eligen de postre? —Yo elijo la mousse de chocolate. —Los niños eligen un helado.
+p: — Et vous, monsieur ? — Je prends seulement un café. Je finis toujours le repas avec un café. — Très bien !
+= —¿Y usted, señor? —Solo tomo un café. Siempre termino la comida con un café. —¡Muy bien!
+note: vous choisissez ¦ other ¦ Verbos como finir: nous choisissons, vous choisissez, ils choisissent.
+note: Je prends ¦ other ¦ prendre: je prends, nous prenons, ils prennent.
+note: la mousse au chocolat ¦ prep ¦ à + le: sabor o ingrediente principal.
+q: Que choisissent les enfants ? ¦ ¿Qué eligen los niños? ¦ une glace / un gâteau / un fruit ¦ 0 ¦ «Les enfants choisissent une glace».
+q: Que prend le monsieur ? ¦ ¿Qué toma el señor? ¦ une mousse / un café / rien ¦ 1 ¦ «Je prends seulement un café».
+q: Comment finit-il toujours le repas ? ¦ ¿Cómo termina siempre la comida? ¦ avec un café / avec un fromage / avec un thé ¦ 0 ¦ «avec un café».
+
+=== 19 | Mon dimanche ¦ Mi domingo
+sum: Un chico cuenta lo que hizo el domingo pasado.
+p: Dimanche dernier, j'ai dormi jusqu'à dix heures. Ensuite, j'ai pris le petit-déjeuner et j'ai lu le journal.
+= El domingo pasado dormí hasta las diez. Después desayuné y leí el periódico.
+p: L'après-midi, j'ai téléphoné à ma grand-mère et j'ai fait une promenade dans le parc. Le soir, j'ai regardé un film. C'était une journée tranquille.
+= Por la tarde llamé a mi abuela y di un paseo por el parque. Por la noche vi una película. Fue un día tranquilo.
+note: j'ai dormi ¦ tense ¦ Passé composé: avoir + participio.
+note: j'ai lu ¦ tense ¦ lire → lu (participio irregular).
+note: j'ai fait une promenade ¦ tense ¦ faire → fait.
+q: Jusqu'à quelle heure a-t-il dormi ? ¦ ¿Hasta qué hora durmió? ¦ huit heures / dix heures / midi ¦ 1 ¦ «jusqu'à dix heures».
+q: À qui a-t-il téléphoné ? ¦ ¿A quién llamó? ¦ à sa mère / à sa grand-mère / à un ami ¦ 1 ¦ «j'ai téléphoné à ma grand-mère».
+q: Qu'a-t-il fait le soir ? ¦ ¿Qué hizo por la noche? ¦ Il a regardé un film. / Il est sorti. / Il a cuisiné. ¦ 0 ¦ «j'ai regardé un film».
+
+=== 20 | J'adore, je déteste ¦ Me encanta, lo odio
+sum: Una adolescente explica sus gustos.
+p: J'adore la musique et le sport. J'aime bien les films comiques. Je n'aime pas beaucoup les films d'horreur.
+= Me encanta la música y el deporte. Me gustan bastante las películas de comedia. No me gustan mucho las películas de terror.
+p: Je déteste le lundi matin ! Mon frère, lui, adore le lundi parce qu'il a basket. Et toi, qu'est-ce que tu aimes ?
+= ¡Odio los lunes por la mañana! A mi hermano, en cambio, le encantan los lunes porque tiene baloncesto. ¿Y a ti, qué te gusta?
+note: J'adore la musique ¦ article ¦ Con los verbos de gusto se usa el artículo definido: le, la, les.
+note: Je n'aime pas beaucoup ¦ negation ¦ ne … pas beaucoup = no mucho.
+note: Je déteste le lundi ¦ article ¦ le lundi = los lunes.
+q: Qu'est-ce qu'elle adore ? ¦ ¿Qué le encanta? ¦ la musique et le sport / les films d'horreur / le lundi ¦ 0 ¦ «J'adore la musique et le sport».
+q: Quels films n'aime-t-elle pas beaucoup ? ¦ ¿Qué películas no le gustan mucho? ¦ les comédies / les films d'horreur / les films d'action ¦ 1 ¦ «les films d'horreur».
+q: Pourquoi son frère adore le lundi ? ¦ ¿Por qué a su hermano le encantan los lunes? ¦ Il a basket. / Il n'a pas école. / Il voit ses amis. ¦ 0 ¦ «parce qu'il a basket».

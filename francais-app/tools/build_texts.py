@@ -333,10 +333,15 @@ def verb_phrases(text, toks, doc):
     return out
 
 
+def src_files(lv):
+    """<level>.txt first, then the extra batches <level>-2.txt, <level>-3.txt … (new texts are appended, so ids stay stable)."""
+    d = ROOT / 'tools' / 'texts_src'
+    return [d / f'{lv}.txt'] + sorted(d.glob(f'{lv}-*.txt'), key=lambda q: int(re.sub(r'\D', '', q.stem.split('-')[-1]) or 0))
+
+
 def parse(lv):
-    p = ROOT / 'tools' / 'texts_src' / f'{lv}.txt'
     texts, cur, para = [], None, None
-    for raw in open(p, encoding='utf8'):
+    for raw in (l for p in src_files(lv) for l in open(p, encoding='utf8')):
         line = raw.rstrip('\n')
         if not line.strip() or line.startswith('#'):
             continue
@@ -450,6 +455,7 @@ def build(lv):
                     'paragraphs': paras, 'translation': {'es': [p[1] for p in tx['paras']]},
                     'glossary': g, 'difficult': diff, 'questions': qs,
                     'gaps': {'items': items, 'distractors': rnd.sample(pool, 6)}, 'verbs': vv, 'notes': notes})
+    out.sort(key=lambda t: (t['unit'], t['order']))   # extra texts join their unit; ids stay stable
     (ROOT / 'data' / lv / 'texts.json').write_text(json.dumps(out, ensure_ascii=False, separators=(',', ':')), encoding='utf8')
     print(f'{lv}: {len(out)} texts · {sum(len(t["verbs"]) for t in out)} verbs · {sum(len(t["notes"]) for t in out)} notes · {len(missing)} words without meaning')
     if missing:
