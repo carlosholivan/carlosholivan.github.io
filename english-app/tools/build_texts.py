@@ -70,6 +70,10 @@ def gloss_of(tok):
         return {l: f'{lem}: {m[l]}' for l in L3}
     if m:
         return m
+    if 'is' in s and s.replace('is', 'iz') != s:
+        z = gloss_of_word(s.replace('ise', 'ize').replace('isa', 'iza').replace('ising', 'izing'))
+        if z:
+            return z
     for base in (IRR.get(s), s[:-1], s[:-2], s[:-3], s[:-3] + 'y', s[:-2] + 'e', s[:-3] + 'e', s[:-4] + 'y', s[:-2] if s.endswith('ly') else None):
         if base and len(base) > 2 and mean(base):
             return {l: f'{base}: {mean(base)[l]}' for l in L3}
@@ -86,6 +90,16 @@ try:
             IRR.setdefault(f.lower(), w)
 except Exception as e:
     print('irregular forms not available:', e)
+
+def gloss_of_word(s):
+    m = mean(s)
+    if m:
+        return m
+    for base in (IRR.get(s), s[:-1], s[:-2], s[:-3], s[:-3] + 'e', s[:-2] + 'e'):
+        if base and len(base) > 2 and mean(base):
+            return {l: f'{base}: {mean(base)[l]}' for l in L3}
+    return None
+
 
 # ── verb phrases ─────────────────────────────────────────────────────────
 MODALS = {'can', 'could', 'may', 'might', 'must', 'should', 'shall', 'ought'}

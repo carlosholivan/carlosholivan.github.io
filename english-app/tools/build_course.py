@@ -190,9 +190,9 @@ def build(lv):
         intro = tri('\n'.join(u['intro']))
         new = []
         for w in u['words']:
-            v = lower.get(w.lower())
+            v = lower.get(w.lower()) or lower.get(w.lower().replace('ise', 'ize').replace('isa', 'iza'))
             if not v:
-                if dkey(w) in lowerlv or w.lower() in lowerlv:
+                if dkey(w) in lowerlv or w.lower() in lowerlv or w.lower().replace('ise', 'ize') in lowerlv:
                     continue
                 missing.append(f'{u["id"]}:{w}')
                 continue
