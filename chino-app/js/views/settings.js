@@ -1,15 +1,15 @@
-import { tutorSettings } from '../tutor.js?v=202611192222';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611192222';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611192222';
-import { readAnki } from '../anki-import.js?v=202611192222';
-import { allVocab } from './review.js?v=202611192222';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611192222';
-import { esc } from '../zh.js?v=202611192222';
-import { register, go } from '../router.js?v=202611192222';
-import { bottomNav, header } from '../ui/components.js?v=202611192222';
-import { t } from '../i18n.js?v=202611192222';
-import { applyPinyinPref } from '../zh.js?v=202611192222';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611192222';
+import { tutorSettings } from '../tutor.js?v=202611201200';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611201200';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611201200';
+import { readAnki } from '../anki-import.js?v=202611201200';
+import { allVocab } from './review.js?v=202611201200';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611201200';
+import { esc } from '../zh.js?v=202611201200';
+import { register, go } from '../router.js?v=202611201200';
+import { bottomNav, header } from '../ui/components.js?v=202611201200';
+import { t } from '../i18n.js?v=202611201200';
+import { applyPinyinPref } from '../zh.js?v=202611201200';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611201200';
 
 register('settings', (el) => {
   const langs = [
@@ -148,7 +148,8 @@ window.__resetData = () => {
 };
 
 window.__goAuth = () => {
-  go('auth', { mode: 'login' });
+  try { localStorage.removeItem('idiomas_guest'); } catch (e) {}
+  location.href = '../idiomas/';
 };
 
 function syncLine() {

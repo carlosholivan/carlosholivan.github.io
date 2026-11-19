@@ -55,35 +55,202 @@
   .row2 { display: flex; gap: 10px; margin-top: 18px }
   .row2 .btn { flex: 1 }
   .note { font-size: 13px; color: var(--ink2); text-align: center; margin-top: 18px; line-height: 1.5 }
+  /* account */
+  .auth { padding: 24px; margin-top: 18px }
+  .auth label { display: block; font-size: 13px; color: var(--ink2); margin: 0 0 4px }
+  .auth input { width: 100%; padding: 13px 12px; border: 1.5px solid var(--line); border-radius: 12px; font: 16px var(--sans); margin-bottom: 12px; background: var(--bg); color: var(--ink) }
+  .auth input:focus { outline: none; border-color: var(--accent) }
+  .msg { display: none; padding: 10px 12px; border-radius: 10px; font-size: 14px; margin-bottom: 12px; background: #f6e3df; color: #9a3b2e }
+  .msg.ok { background: #e3efe6; color: #2f6440 }
+  @media (prefers-color-scheme: dark) { .msg { background: #3a211c; color: #f0b3a7 } .msg.ok { background: #1d3324; color: #a8d4b4 } }
+  .links { text-align: center; margin-top: 14px; font-size: 14px }
+  .links a, a.lnk { color: var(--accent); cursor: pointer; text-decoration: none }
+  .alt { text-align: center; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink2) }
+  .acct { display: flex; align-items: center; gap: 10px; justify-content: space-between; font-size: 13px; color: var(--ink2); margin-bottom: 18px }
+  .acct span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+  .center { text-align: center }
+  .big { font-size: 46px; margin-bottom: 6px }
 </style>
 </head>
 <body>
 <div class="wrap" id="app"></div>
-<script>
-// Hub for the language apps. Each app keeps its own index.html, state and data; this page only reads
-// their saved progress (same origin → same localStorage) and links to them.
+<script type="module">
+// Hub for the language apps: the single place to sign in, then pick languages and see progress.
+// Each app keeps its own index.html, state and data; they share the sign-in because they live on the
+// same origin and use the same Firebase project. This page reads their progress (local + account).
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js';
+import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
+  sendPasswordResetEmail, sendEmailVerification, reload } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js';
+import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
+import firebaseConfig from './firebase-config.js?v=1';
+
 const APPS = [
-  { id: 'english',  path: '../english-app/',  key: 'english_state',  glyph: 'En', name: 'Inglés',  native: 'English',  levels: ['a1','a2','b1','b2','c1','c2'] },
-  { id: 'francais', path: '../francais-app/', key: 'francais_state', glyph: 'Fr', name: 'Francés', native: 'Français', levels: ['a1','a2','b1','b2','c1','c2'] },
-  { id: 'nihongo',  path: '../nihongo-app/',  key: 'nm_state',       glyph: '日', name: 'Japonés', native: '日本語',    levels: ['n5','n4','n3','n2','n1'] },
-  { id: 'chino',    path: '../chino-app/',    key: 'chino_state',    glyph: '中', name: 'Chino',   native: '中文',      levels: ['hsk1','hsk2','hsk3','hsk4','hsk5','hsk6','hsk7'] },
-  { id: 'arabic',   path: '../arabic-app/',   key: 'arabe_state',    glyph: 'ع', name: 'Árabe',   native: 'العربية',   levels: ['a1','a2','b1','b2','c1','c2'] },
-  { id: 'espanol',  path: '../espanol-app/',  key: 'español_state',  glyph: 'Es', name: 'Español', native: 'Español',  levels: ['a1','a2','b1','b2','c1','c2'] },
+  { id: 'english',  path: '../english-app/',  key: 'english_state',  field: 'english',  glyph: 'En', name: 'Inglés',  native: 'English',  levels: ['a1','a2','b1','b2','c1','c2'] },
+  { id: 'francais', path: '../francais-app/', key: 'francais_state', field: 'francais', glyph: 'Fr', name: 'Francés', native: 'Français', levels: ['a1','a2','b1','b2','c1','c2'] },
+  { id: 'nihongo',  path: '../nihongo-app/',  key: 'nm_state',       field: 'nihongo',  glyph: '日', name: 'Japonés', native: '日本語',    levels: ['n5','n4','n3','n2','n1'] },
+  { id: 'chino',    path: '../chino-app/',    key: 'chino_state',    field: 'chino',    glyph: '中', name: 'Chino',   native: '中文',      levels: ['hsk1','hsk2','hsk3','hsk4','hsk5','hsk6','hsk7'] },
+  { id: 'arabic',   path: '../arabic-app/',   key: 'arabe_state',    field: 'arabe',    glyph: 'ع', name: 'Árabe',   native: 'العربية',   levels: ['a1','a2','b1','b2','c1','c2'] },
+  { id: 'espanol',  path: '../espanol-app/',  key: 'español_state',  field: 'espanol',  glyph: 'Es', name: 'Español', native: 'Español',  levels: ['a1','a2','b1','b2','c1','c2'] },
 ];
-const PREF = 'idiomas_hub_langs';
+const PREF = 'idiomas_hub_langs', GUEST = 'idiomas_guest';
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const get = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
 const set = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
-const stateOf = a => { try { return JSON.parse(get(a.key) || 'null'); } catch (e) { return null; } };
+const del = k => { try { localStorage.removeItem(k); } catch (e) {} };
 const label = l => /^hsk/.test(l) ? 'HSK ' + (l === 'hsk7' ? '7–9' : l.slice(3)) : l.toUpperCase();
 const short = l => /^hsk/.test(l) ? (l === 'hsk7' ? '7–9' : l.slice(3)) : l.toUpperCase();
-const started = a => { const s = stateOf(a); return !!(s && ((s.completed && Object.keys(s.completed).length) || s.xp || (s.cards && Object.keys(s.cards).length))); };
 const bar = p => `<div class="progbar"><div class="progfill" style="width:${Math.max(0, Math.min(100, p))}%"></div></div>`;
+
+// Back to the app that sent the learner here (only paths of these apps are accepted).
+const next = (() => {
+  const n = new URLSearchParams(location.search).get('next') || '';
+  return /^\/(?:[\w.-]+\/)*[\w-]+-app\/[\w\-\/.]*$/.test(n) && APPS.some(a => n.includes(a.path.slice(2))) ? n : null;
+})();
+
+const fb = initializeApp(firebaseConfig);
+const auth = getAuth(fb);
+auth.languageCode = 'es';
+const db = getFirestore(fb);
+let user = null;
+let cloud = {};   // users/{uid}: one field per app + 'hub'
 
 let chosen;
 try { chosen = JSON.parse(get(PREF) || 'null'); } catch (e) { chosen = null; }
 
+// Progress of one app: what this device has, completed with what the account has.
+function stateOf(a) {
+  let loc = null;
+  try { loc = JSON.parse(get(a.key) || 'null'); } catch (e) {}
+  if (loc && user && loc.uid && loc.uid !== user.uid) loc = null;
+  const c = cloud[a.field] || (a.field === 'espanol' && cloud.completed ? cloud : null);
+  if (!loc && !c) return null;
+  if (!loc || !c) return loc || c;
+  return {
+    completed: { ...(c.completed || {}), ...(loc.completed || {}) },
+    xp: Math.max(loc.xp || 0, c.xp || 0),
+    streak: Math.max(loc.streak || 0, c.streak || 0),
+    level: loc.level || c.level,
+    cards: loc.cards,
+  };
+}
+const started = a => { const s = stateOf(a); return !!(s && ((s.completed && Object.keys(s.completed).length) || s.xp || (s.cards && Object.keys(s.cards).length) || s.pack)); };
+
+// ---------- account ----------
+const ERR = {
+  'auth/email-already-in-use': 'Ya existe una cuenta con ese correo.',
+  'auth/invalid-email': 'El correo no es válido.',
+  'auth/weak-password': 'La contraseña debe tener al menos 6 caracteres.',
+  'auth/user-not-found': 'No hay ninguna cuenta con ese correo.',
+  'auth/wrong-password': 'Correo o contraseña incorrectos.',
+  'auth/invalid-credential': 'Correo o contraseña incorrectos.',
+  'auth/too-many-requests': 'Demasiados intentos. Espera unos minutos.',
+  'auth/network-request-failed': 'Sin conexión. Revisa tu red.',
+};
+const errText = e => ERR[e && e.code] || (e && e.message) || 'Error';
+function say(text, ok) { const m = $('#msg'); if (!m) return; m.className = 'msg' + (ok ? ' ok' : ''); m.style.display = 'block'; m.textContent = text; }
+const isVerified = u => !!u && (u.emailVerified || !u.providerData.some(p => p.providerId === 'password'));
+const verifyUrl = () => location.origin + location.pathname + (next ? '?next=' + encodeURIComponent(next) : '');
+
+function authView(mode = 'login') {
+  const reg = mode === 'register';
+  $('#app').innerHTML = `
+    <h1>Idiomas</h1>
+    <div class="muted">${reg ? 'Crea tu cuenta: una sola para todos los idiomas.' : 'Inicia sesión una vez y estudia todos tus idiomas.'}</div>
+    <form class="card auth" id="f" novalidate>
+      <div id="msg" class="msg"></div>
+      ${reg ? `<label for="nm">Tu nombre</label><input id="nm" type="text" maxlength="30" autocomplete="given-name" placeholder="Tu nombre">` : ''}
+      <label for="em">Correo electrónico</label>
+      <input id="em" type="email" autocomplete="email" placeholder="email@ejemplo.com">
+      <label for="pw">Contraseña</label>
+      <input id="pw" type="password" autocomplete="${reg ? 'new-password' : 'current-password'}" placeholder="••••••••">
+      <button class="btn" id="go" type="submit">${reg ? 'Crear cuenta' : 'Iniciar sesión'}</button>
+      ${reg ? '' : '<div class="links"><a id="forgot">¿Has olvidado la contraseña?</a></div>'}
+      <div class="alt">${reg ? '¿Ya tienes cuenta?' : '¿No tienes cuenta?'} <a class="lnk" id="sw">${reg ? 'Iniciar sesión' : 'Crear cuenta'}</a></div>
+    </form>
+    <div class="links"><a id="guest" class="muted">Continuar sin cuenta</a></div>
+    <div class="note">Sin cuenta, el progreso solo se guarda en este dispositivo.</div>`;
+  $('#sw').onclick = () => authView(reg ? 'login' : 'register');
+  $('#guest').onclick = () => { set(GUEST, '1'); if (next) location.replace(next); else flow(); };
+  if (!reg) $('#forgot').onclick = async () => {
+    const email = $('#em').value.trim();
+    if (!email) return say('Escribe tu correo y vuelve a pulsar.');
+    try { await sendPasswordResetEmail(auth, email); say('Te hemos enviado un correo para cambiar la contraseña.', true); }
+    catch (e) { say(errText(e)); }
+  };
+  $('#f').onsubmit = async ev => {
+    ev.preventDefault();
+    const email = $('#em').value.trim(), pass = $('#pw').value, name = reg ? $('#nm').value.trim() : null;
+    if (!email || !pass || name === '') return say('Rellena todos los campos.');
+    if (pass.length < 6) return say('La contraseña debe tener al menos 6 caracteres.');
+    const b = $('#go'); b.disabled = true; b.textContent = '…';
+    try {
+      if (reg) {
+        set('idiomas_name', name);
+        const cred = await createUserWithEmailAndPassword(auth, email, pass);
+        await sendEmailVerification(cred.user, { url: verifyUrl() });
+      } else await signInWithEmailAndPassword(auth, email, pass);
+      // onAuthStateChanged takes it from here
+    } catch (e) { b.disabled = false; b.textContent = reg ? 'Crear cuenta' : 'Iniciar sesión'; say(errText(e)); }
+  };
+}
+
+function verifyView() {
+  $('#app').innerHTML = `
+    <div class="card auth center">
+      <div class="big">✉️</div>
+      <h1 style="font-size:24px">Confirma tu correo</h1>
+      <p class="muted">Te hemos enviado un enlace a <b>${esc(user.email)}</b>. Ábrelo y vuelve aquí.</p>
+      <div id="msg" class="msg"></div>
+      <button class="btn" id="chk">Ya lo he confirmado</button>
+      <button class="btn ghost" id="again" style="margin-top:10px">Reenviar el correo</button>
+      <div class="links"><a id="out" class="muted">Cerrar sesión</a></div>
+    </div>`;
+  $('#chk').onclick = async () => { if (!(await checkVerified())) say('Todavía no consta como confirmado. Abre el enlace del correo.'); };
+  $('#again').onclick = async ev => {
+    ev.target.disabled = true;
+    try { await sendEmailVerification(user, { url: verifyUrl() }); say('Correo reenviado.', true); } catch (e) { say(errText(e)); }
+    setTimeout(() => { ev.target.disabled = false; }, 30000);
+  };
+  $('#out').onclick = () => signOut(auth);
+}
+async function checkVerified() {
+  if (!user) return false;
+  await reload(user);
+  if (!user.emailVerified) return false;
+  await user.getIdToken(true);
+  signedIn();
+  return true;
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && user && !user.emailVerified) checkVerified().catch(() => {});
+});
+
+async function signedIn() {
+  del(GUEST);
+  try {
+    const snap = await getDoc(doc(db, 'users', user.uid));
+    cloud = snap.exists() ? snap.data() : {};
+  } catch (e) { cloud = {}; }
+  const hub = cloud.hub && Array.isArray(cloud.hub.langs) ? cloud.hub.langs.filter(id => APPS.some(a => a.id === id)) : null;
+  if (hub && hub.length) { chosen = hub; set(PREF, JSON.stringify(chosen)); }
+  else if (chosen && chosen.length) saveChoice();
+  if (next) return location.replace(next);
+  flow();
+}
+function saveChoice() {
+  if (!user || !isVerified(user)) return;
+  setDoc(doc(db, 'users', user.uid), { hub: { langs: chosen, updatedAt: Date.now() } }, { mergeFields: ['hub'] }).catch(() => {});
+}
+
+onAuthStateChanged(auth, u => {
+  user = u;
+  if (!u) { cloud = {}; return get(GUEST) === '1' ? flow() : authView('login'); }
+  if (!isVerified(u)) return verifyView();
+  signedIn();
+});
+
+// ---------- languages ----------
 // number of units per level (read once from each app's data, then cached for a day)
 async function unitCounts(a) {
   const ck = 'idiomas_hub_units_' + a.id;
@@ -96,9 +263,21 @@ async function unitCounts(a) {
   return n;
 }
 
+function flow() { chosen && chosen.length ? dashboard() : picker(true); }
+
+function acctBar() {
+  return user
+    ? `<div class="acct"><span>👤 ${esc(user.email)}</span><a class="lnk" id="out">Cerrar sesión</a></div>`
+    : `<div class="acct"><span>Sin cuenta · progreso solo en este dispositivo</span><a class="lnk" id="login">Iniciar sesión</a></div>`;
+}
+function bindAcct() {
+  if ($('#out')) $('#out').onclick = () => signOut(auth);
+  if ($('#login')) $('#login').onclick = () => { del(GUEST); authView('login'); };
+}
+
 function picker(first) {
   const sel = new Set(chosen || APPS.filter(started).map(a => a.id));
-  $('#app').innerHTML = `
+  $('#app').innerHTML = `${acctBar()}
     <h1>${first ? '¿Qué idiomas estudias?' : 'Tus idiomas'}</h1>
     <div class="muted">Elige uno o varios. Podrás cambiarlo cuando quieras.</div>
     <div class="pick">${APPS.map(a => `
@@ -108,27 +287,29 @@ function picker(first) {
         <span class="tick">✓</span>
       </button>`).join('')}</div>
     <button class="btn" id="ok" ${sel.size ? '' : 'disabled'}>Continuar</button>
-    ${chosen ? '<button class="btn ghost" id="cancel" style="margin-top:10px">Cancelar</button>' : ''}`;
+    ${chosen && chosen.length ? '<button class="btn ghost" id="cancel" style="margin-top:10px">Cancelar</button>' : ''}`;
+  bindAcct();
   document.querySelectorAll('.pick button').forEach(b => b.onclick = () => {
     const id = b.dataset.id;
     sel.has(id) ? sel.delete(id) : sel.add(id);
     b.classList.toggle('on', sel.has(id)); b.setAttribute('aria-pressed', sel.has(id));
     $('#ok').disabled = !sel.size;
   });
-  $('#ok').onclick = () => { chosen = APPS.map(a => a.id).filter(id => sel.has(id)); set(PREF, JSON.stringify(chosen)); dashboard(); };
+  $('#ok').onclick = () => { chosen = APPS.map(a => a.id).filter(id => sel.has(id)); set(PREF, JSON.stringify(chosen)); saveChoice(); dashboard(); };
   if ($('#cancel')) $('#cancel').onclick = dashboard;
 }
 
 async function dashboard() {
   const list = APPS.filter(a => chosen.includes(a.id));
-  $('#app').innerHTML = `
+  $('#app').innerHTML = `${acctBar()}
     <h1>Idiomas</h1>
     <div class="muted">Tu progreso en cada idioma. Toca uno para entrar.</div>
     <div class="sec">Estudiando</div>
     <div id="langs">${list.map(a => `<div class="card lang" id="l-${a.id}"><div class="lang-top"><span class="glyph">${esc(a.glyph)}</span>
       <div class="grow"><div class="lname">${esc(a.name)}</div><div class="lsub">${esc(a.native)}</div></div></div>${bar(0)}</div>`).join('')}</div>
     <div class="row2"><button class="btn ghost" id="edit">Cambiar idiomas</button></div>
-    <div class="note">Cada idioma es una app independiente con su propio progreso.<br>Aquí se muestra el progreso guardado en este dispositivo.</div>`;
+    <div class="note">Cada idioma es una app independiente con su propio progreso.<br>${user ? 'El progreso se guarda en tu cuenta.' : 'Aquí se muestra el progreso guardado en este dispositivo.'}</div>`;
+  bindAcct();
   $('#edit').onclick = () => picker(false);
   for (const a of list) render(a);
 }
@@ -143,6 +324,7 @@ async function render(a) {
   const cur = s.level && a.levels.includes(s.level) ? s.level : a.levels[0];
   const lp = l => { const t = n[l] || 0; if (!t) return 0; let d = 0; for (let i = 1; i <= t; i++) if (done[`${l}-${i}`]) d++; return Math.round(d / t * 100); };
   const el = document.getElementById('l-' + a.id);
+  if (!el) return;
   el.innerHTML = `
     <div class="lang-top"><span class="glyph">${esc(a.glyph)}</span>
       <div class="grow"><div class="lname">${esc(a.name)}</div><div class="lsub">${esc(a.native)} · nivel actual ${label(cur)}</div></div>
@@ -153,7 +335,7 @@ async function render(a) {
     <a class="btn" href="${a.path}">${started(a) ? 'Continuar' : 'Empezar'}</a>`;
 }
 
-chosen && chosen.length ? dashboard() : picker(true);
+$('#app').innerHTML = '<div class="note">Cargando…</div>';
 </script>
 </body>
 </html>
