@@ -1,0 +1,450 @@
+#! es
+# C2 lessons (EOI Nivel Avanzado C2). Spanish only.
+
+=== 1
+title: I was wondering if… ¦ Me preguntaba si…
+desc: Tiempos verbales para distanciarse y suavizar: cortesía, tacto y peticiones delicadas
+gram: pasado de distanciamiento (I was wondering, I wanted to ask) ¦ continuo de cortesía (I'm hoping, I'd been hoping) ¦ would / might / could para suavizar ¦ I would have thought…
+ref: c2-distancing
+words: tact, tactful, tactfully, diplomacy, diplomatic, courteous, courtesy, tentative, tentatively, deferential, imposition, impose, presume, presumptuous, intrusive, request, favour, inconvenience, wonder, hope, think, mind, ask, indirect, indirectly, politeness, gauche, ingratiating, haughty
+intro:
+<h3>El pasado que no es pasado</h3>
+<p>En inglés, alejar el verbo en el tiempo (presente → pasado, simple → continuo) lo aleja también del interlocutor: la petición suena menos directa y más cortés.</p>
+<table><tr><td>I wonder if you could help me.</td><td>cortés</td></tr>
+<tr><td>I <strong>was wondering</strong> if you could help me.</td><td>más cortés</td></tr>
+<tr><td>I <strong>was wondering</strong> if you <strong>might</strong> be able to help me.</td><td>muy cortés, casi tímido</td></tr>
+<tr><td>We <strong>were hoping</strong> you'd join us.</td><td>invitación suave</td></tr>
+<tr><td>I'<strong>d been hoping</strong> to talk to you about…</td><td>introducción de un tema delicado</td></tr></table>
+<h3>Suavizar desacuerdos y críticas</h3>
+<div class="example"><strong>I would have thought</strong> that was obvious. (pues yo diría que…)<br><strong>I'd have to say</strong> I don't entirely agree.<br><strong>It might be worth</strong> reconsidering the budget.<br><strong>Wouldn't it be better</strong> to wait?</div>
+<div class="tip">Combina mecanismos para graduar la cortesía: pasado + continuo + modal + <i>just / possibly</i>: <i>I <b>was just wondering</b> whether you <b>could possibly</b>…</i></div>
+<div class="warning">El exceso de rodeos también comunica algo: en un contexto de confianza puede sonar frío o irónico. A nivel C2 se espera que elijas el grado adecuado a cada situación.</div>
+ex:
+fill ¦ I was ___ whether you might be free on Thursday. ¦ wondering ¦ wonder / wondered / to wonder ¦ Me preguntaba si estarías libre el jueves. ¦ Pasado continuo de cortesía.
+fill ¦ We ___ hoping you'd say a few words at the dinner. ¦ were ¦ are being / had / would ¦ Esperábamos que dijeras unas palabras en la cena. ¦ were hoping = petición suave.
+fill ¦ I would have ___ that was the manager's responsibility. ¦ thought ¦ think / thinking / to think ¦ Yo diría que eso era responsabilidad del gerente. ¦ I would have thought = desacuerdo suavizado.
+fill ¦ It might be ___ checking the figures again. ¦ worth ¦ worthy / value / good ¦ Quizá valdría la pena revisar las cifras otra vez. ¦ It might be worth + -ing.
+choose ¦ La petición más cortés: ¦ I was just wondering if you could possibly lend me your notes. ¦ Lend me your notes. / Can you lend me your notes? / I want you to lend me your notes.
+choose ¦ Un comentario «gauche» es… ¦ torpe y falto de tacto ¦ muy cortés / muy irónico / excesivamente formal
+order ¦ I'd been hoping to have a word with you about the contract. ¦ Quería hablar contigo sobre el contrato.
+order ¦ Wouldn't it be better to wait until Monday? ¦ ¿No sería mejor esperar al lunes?
+translate ¦ Me preguntaba si podría ayudarme. ¦ I was wondering if you could help me. ¦ I was wondering whether you could help me. / I was wondering if you might help me. / I was wondering if you could possibly help me.
+translate ¦ No quisiera ser indiscreto, pero… ¦ I don't mean to intrude, but… ¦ I don't want to intrude, but… / I don't wish to intrude, but… / I don't mean to pry, but…
+match ¦ presumptuous=atrevido, presuntuoso; deferential=respetuoso, deferente; imposition=abuso, molestia; courteous=cortés; intrusive=entrometido
+
+=== 2
+title: Be that as it may ¦ Sea como fuere
+desc: El subjuntivo y las fórmulas fijas del registro formal
+gram: subjuntivo tras verbos y adjetivos de mandato (insist that he be) ¦ fórmulas fijas: be that as it may, come what may, so be it, suffice it to say ¦ lest + subjuntivo o should
+ref: c2-subjunctive
+words: insist, demand, require, stipulate, stipulation, recommend, propose, essential, imperative, vital, mandatory, obligatory, crucial, lest, suffice, heaven, forbid, behest, decree, ordain, adhere, compliance, binding, clause, contractual, provision, unequivocal, unequivocally, paramount, stringent
+intro:
+<h3>El subjuntivo en inglés</h3>
+<p>Es la forma base del verbo, igual para todas las personas (sin -s, sin pasado): <b>be</b>, <b>have</b>, <b>go</b>. Aparece tras verbos y adjetivos de exigencia, sobre todo en registro formal y en inglés americano.</p>
+<table><tr><td>insist / demand / recommend / propose / require <strong>that</strong></td><td>They insisted that he <strong>be</strong> present.</td></tr>
+<tr><td>It is essential / vital / imperative / crucial <strong>that</strong></td><td>It is vital that she <strong>have</strong> access to a lawyer.</td></tr>
+<tr><td>negativa: <strong>not</strong> + base</td><td>We recommend that the item <strong>not be</strong> used.</td></tr></table>
+<div class="tip">En inglés británico es frecuente la alternativa con <b>should</b>: <i>It is essential that he <b>should be</b> informed.</i> Las dos son correctas.</div>
+<h3>Fórmulas fijas con subjuntivo</h3>
+<div class="example"><strong>Be that as it may</strong>, we must decide today. (sea como fuere)<br>I'll be there, <strong>come what may</strong>. (pase lo que pase)<br>If that's your decision, <strong>so be it</strong>. (que así sea)<br><strong>Suffice it to say</strong> (that) we won't be going back. (baste decir que)<br><strong>Heaven forbid</strong> that anything should go wrong. (Dios no lo quiera)<br>She spoke quietly <strong>lest</strong> she <strong>wake</strong> the baby. (para no, por miedo a)</div>
+<div class="warning">✗ <i>It's essential that he is there</i> no es incorrecto en el habla británica, pero en un texto formal de C2 se espera <i>that he <b>be</b> there</i> o <i>that he <b>should be</b> there</i>.</div>
+ex:
+fill ¦ The committee insisted that the report ___ published immediately. ¦ be ¦ is / was / would be ¦ El comité insistió en que el informe se publicara de inmediato. ¦ Subjuntivo: be para todas las personas.
+fill ¦ It is imperative that every passenger ___ a valid ticket. ¦ have ¦ has / had / having ¦ Es imprescindible que todos los pasajeros tengan un billete válido. ¦ Subjuntivo: have (sin -s).
+fill ¦ Be that as it ___ , the decision has been made. ¦ may ¦ might / can / will ¦ Sea como fuere, la decisión ya está tomada. ¦ Fórmula fija.
+fill ¦ ___ it to say, I won't be eating there again. ¦ Suffice ¦ Enough / Sufficient / Suffices ¦ Baste decir que no volveré a comer allí. ¦ Suffice it to say.
+choose ¦ «Recomendamos que no se utilice el producto.» ¦ We recommend that the product not be used. ¦ We recommend that the product isn't used to. / We recommend that the product doesn't be used. / We recommend the product not to be using.
+choose ¦ «Pase lo que pase» ¦ come what may ¦ what may come / come it may / be what come
+order ¦ She whispered lest anyone hear her. ¦ Susurró para que nadie la oyera.
+order ¦ It is essential that he be informed at once. ¦ Es esencial que se le informe de inmediato.
+translate ¦ Si esa es tu decisión, que así sea. ¦ If that is your decision, so be it. ¦ If that's your decision, so be it.
+translate ¦ Exigieron que dimitiera. ¦ They demanded that he resign. ¦ They demanded that he should resign. / They demanded that she resign. / They demanded his resignation. / They demanded that she should resign.
+match ¦ stipulate=estipular; paramount=primordial; stringent=riguroso; lest=para que no; behest=petición, orden
+
+=== 3
+title: Such was the noise ¦ Tal era el ruido
+desc: Anteposición (fronting) y otras inversiones de estilo
+gram: Such was / were… that ¦ So + adj. + was… that ¦ inversión tras expresiones de lugar (Into the room walked…) ¦ anteposición de complementos (This I cannot accept) ¦ inversión en comparaciones (as did his father)
+ref: c2-fronting
+words: such, so, inversion, stylistic, stylistically, rhetoric, rhetorical, emphatic, dramatic, effect, prominence, consternation, uproar, tumult, din, deafening, astonishment, incredulity, aghast, elated, jubilant, crowd, roar, hush, gasp, ensue, bewilder, bewildered
+intro:
+<h3>Such / So al principio</h3>
+<table><tr><td><strong>Such was</strong> + sustantivo + <strong>that</strong></td><td><strong>Such was the noise that</strong> nobody heard the alarm.</td></tr>
+<tr><td><strong>So</strong> + adj. + <strong>was/were</strong> + sujeto + <strong>that</strong></td><td><strong>So loud was the noise that</strong> nobody heard the alarm.</td></tr></table>
+<h3>Inversión tras expresiones de lugar</h3>
+<p>Típica de la narración: el verbo (de movimiento o posición) va delante del sujeto.</p>
+<div class="example"><strong>Into the room walked</strong> a tall woman in black.<br><strong>At the top of the hill stands</strong> an old church.<br><strong>Here comes</strong> the bus. · <strong>There goes</strong> my weekend!</div>
+<div class="tip">Si el sujeto es un pronombre no hay inversión: <i>Here <b>it comes</b></i>, no <i>Here comes it</i>.</div>
+<h3>Anteponer el objeto o un complemento</h3>
+<div class="example"><strong>This</strong> I cannot accept. · <strong>What he did next</strong> nobody could have predicted. · <strong>Try as I might</strong>, I couldn't open it. (por más que lo intentara)</div>
+<h3>Inversión tras as / than en comparaciones (formal)</h3>
+<div class="example">She studied law, <strong>as did</strong> her father. · Young people spend more online <strong>than do</strong> their parents.</div>
+<div class="warning">Es un recurso de estilo: úsalo en textos escritos o narrativos, no en una conversación informal, donde sonaría afectado.</div>
+ex:
+fill ¦ ___ was her anger that she couldn't speak. ¦ Such ¦ So / Too / Very ¦ Tal era su enfado que no podía hablar. ¦ Such was + sustantivo + that.
+fill ¦ So ___ was the film that half the audience left. ¦ boring ¦ bored / boredom / bore ¦ Tan aburrida era la película que la mitad del público se marchó. ¦ So + adjetivo + was.
+fill ¦ Into the hall ___ the bride and groom. ¦ came ¦ come they / did come / were coming they ¦ Al salón entraron los novios. ¦ Inversión tras expresión de lugar.
+fill ¦ Try as I ___ , I couldn't remember his name. ¦ might ¦ may to / could have / did ¦ Por más que lo intentaba, no podía recordar su nombre. ¦ Try as I might.
+choose ¦ Elige la frase correcta. ¦ Here it comes. ¦ Here comes it. / Here does it come. / Here it does come.
+choose ¦ «Estudió medicina, igual que su madre.» (formal) ¦ He studied medicine, as did his mother. ¦ He studied medicine, as his mother did it. / He studied medicine, like did his mother. / He studied medicine, as had his mother done.
+order ¦ At the end of the garden stood an old oak tree. ¦ Al fondo del jardín había un viejo roble.
+order ¦ Such was the din that we had to shout. ¦ Tal era el estruendo que teníamos que gritar.
+translate ¦ Tan grande era la multitud que cerraron las puertas. ¦ So large was the crowd that they closed the doors. ¦ So big was the crowd that they closed the doors. / Such was the crowd that they closed the doors. / So large was the crowd that the doors were closed.
+translate ¦ Esto no lo puedo aceptar. ¦ This I cannot accept. ¦ This I can't accept. / I cannot accept this. / I can't accept this.
+match ¦ din=estruendo; hush=silencio; aghast=horrorizado; elated=eufórico; ensue=seguir, resultar
+
+=== 4
+title: All things considered ¦ Bien mirado
+desc: Cláusulas absolutas y de participio en el registro culto
+gram: cláusulas absolutas (Weather permitting, The meeting over, …) ¦ participios perfectos y pasivos (Having been warned…) ¦ fórmulas fijas: all things considered, that said, generally speaking, given the circumstances
+ref: c2-absolute
+words: absolute, clause, participle, permit, weather, generally, broadly, strictly, roughly, frankly, notwithstanding, hitherto, thereafter, whereupon, forthwith, henceforth, aforementioned, subsequent, adjourn, recess, deliberation, verdict, testimony
+intro:
+<h3>Cláusulas absolutas</h3>
+<p>Tienen su <b>propio sujeto</b> y un participio (o un adjetivo/preposición), sin verbo conjugado. Son muy concisas y formales.</p>
+<div class="example"><strong>Weather permitting</strong>, the ceremony will be held outdoors. (si el tiempo lo permite)<br><strong>The meeting over</strong>, we went for a drink. (terminada la reunión)<br><strong>Her voice trembling</strong>, she read the letter aloud.<br><strong>All things considered</strong>, it wasn't a bad year. (bien mirado)</div>
+<h3>Participios perfectos y pasivos</h3>
+<table><tr><td><strong>Having + participio</strong></td><td><strong>Having finished</strong> the report, she went home.</td></tr>
+<tr><td><strong>Having been + participio</strong></td><td><strong>Having been warned</strong> twice, he had no excuse.</td></tr>
+<tr><td><strong>Not having + participio</strong></td><td><strong>Not having read</strong> the book, I kept quiet.</td></tr></table>
+<h3>Fórmulas de comentario</h3>
+<div class="example"><strong>That said</strong>, … (dicho esto) · <strong>Generally / Broadly / Strictly speaking</strong> · <strong>Judging by</strong> his face… · <strong>Given</strong> the circumstances… · <strong>Considering</strong> his age…</div>
+<div class="warning">Cuidado con el participio «colgante»: el sujeto implícito debe ser el de la oración principal. ✗ <i>Walking down the street, the trees looked beautiful</i> (¡los árboles no caminan!). ✓ <i>Walking down the street, <b>I</b> noticed how beautiful the trees looked.</i></div>
+ex:
+fill ¦ Weather ___ , we'll have lunch in the garden. ¦ permitting ¦ permitted / permits / to permit ¦ Si el tiempo lo permite, comeremos en el jardín. ¦ Cláusula absoluta fija.
+fill ¦ ___ been told the truth, she was furious. ¦ Having ¦ Being / Had / Have ¦ Al haberle contado la verdad, se puso furiosa. ¦ Having been + participio.
+fill ¦ All things ___ , the trip was a success. ¦ considered ¦ considering / consider / to consider ¦ Bien mirado, el viaje fue un éxito. ¦ All things considered.
+fill ¦ The work ___ , they sat down to rest. ¦ done ¦ doing / did / does ¦ Terminado el trabajo, se sentaron a descansar. ¦ Cláusula absoluta: sujeto + participio.
+choose ¦ Elige la frase correcta. ¦ Arriving late, I found the door locked. ¦ Arriving late, the door was locked. / Arriving late, the door locked me. / Having arriving late, I found the door locked.
+choose ¦ «Dicho esto, …» ¦ That said, … ¦ This saying, … / Having said it this, … / Said that, …
+order ¦ Strictly speaking, this is not a legal requirement. ¦ En sentido estricto, esto no es un requisito legal.
+order ¦ Not having been invited, we stayed at home. ¦ Como no nos habían invitado, nos quedamos en casa.
+translate ¦ Si el tiempo lo permite, saldremos temprano. ¦ Weather permitting, we'll leave early. ¦ Weather permitting, we will leave early. / Weather permitting, we'll set off early. / Weather permitting, we will set off early.
+translate ¦ Terminada la cena, salimos a pasear. ¦ Dinner over, we went for a walk. ¦ Dinner finished, we went for a walk. / Having finished dinner, we went for a walk. / Having had dinner, we went for a walk.
+match ¦ hitherto=hasta ahora; henceforth=de ahora en adelante; whereupon=tras lo cual; forthwith=de inmediato; adjourn=aplazar, levantar (sesión)
+
+=== 5
+title: A long-overdue, carefully worded apology ¦ Una disculpa muy esperada y cuidadosamente redactada
+desc: Sintagmas nominales complejos: premodificación, posmodificación y densidad informativa
+gram: adjetivos compuestos delante del nombre (a five-year-old boy) ¦ sustantivo + sustantivo (a government health campaign) ¦ posmodificación con preposición, participio o infinitivo (the man to ask) ¦ apposition
+ref: c2-noun-phrases
+words: compound, density, concise, overdue, long-standing, far-reaching, deep-rooted, wide-ranging, ill-advised, well-founded, hard-won, short-lived, long-term, thought-provoking, time-consuming, eye-catching, record-breaking, self-aggrandizement, all-encompassing, muscle-bound, cost-effective, widespread, heartfelt, ongoing, so-called, phrase, informative
+intro:
+<h3>Más información en menos palabras</h3>
+<p>El inglés escrito de nivel C2 condensa mucha información en el sintagma nominal, delante y detrás del núcleo.</p>
+<div class="example">an apology that was long overdue and carefully worded<br>→ <strong>a long-overdue, carefully worded apology</strong></div>
+<h3>Delante del nombre</h3>
+<table><tr><td>adjetivos compuestos</td><td>a <strong>far-reaching</strong> reform · a <strong>thought-provoking</strong> film · a <strong>short-lived</strong> government</td></tr>
+<tr><td>número + nombre en singular</td><td>a <strong>ten-minute</strong> walk · a <strong>five-year-old</strong> girl (✗ <i>five-years-old</i>)</td></tr>
+<tr><td>nombre + nombre</td><td>a <strong>government health</strong> campaign · <strong>customer satisfaction</strong> levels</td></tr></table>
+<h3>Detrás del nombre</h3>
+<div class="example">the woman <strong>in charge of the project</strong> (preposición)<br>the issues <strong>raised at the meeting</strong> (participio)<br>the person <strong>to ask</strong> (infinitivo)<br>Mary Beard, <strong>the classicist</strong>, … (aposición)</div>
+<div class="tip">Para traducir del español, busca los «de» encadenados: <i>la campaña de salud del gobierno</i> → <b>the government health campaign</b>.</div>
+<div class="warning">Los números en adjetivos compuestos van en singular y con guiones: <i>a <b>three-day</b> conference</i>, no <i>a three-days conference</i>.</div>
+ex:
+fill ¦ It was a ___ walk to the station. ¦ ten-minute ¦ ten-minutes / ten minutes' long / ten minute's ¦ Era un paseo de diez minutos hasta la estación. ¦ Número + nombre en singular con guion.
+fill ¦ The reform will have ___ consequences for the economy. ¦ far-reaching ¦ far-reached / far-reach / reaching-far ¦ La reforma tendrá consecuencias de gran alcance para la economía. ¦ far-reaching = de gran alcance.
+fill ¦ The new party was ___ ; it disappeared within a year. ¦ short-lived ¦ short-living / life-short / short-life ¦ El nuevo partido duró poco; desapareció en menos de un año. ¦ short-lived = efímero.
+fill ¦ She's the person ___ if you have any questions. ¦ to ask ¦ asking / asked / for asking ¦ Es la persona a la que hay que preguntar si tienes dudas. ¦ Posmodificación con infinitivo.
+choose ¦ «la campaña de seguridad vial del ayuntamiento» ¦ the council's road safety campaign ¦ the campaign of safety of road of the council / the council road's safety campaign / the safety road council campaign
+choose ¦ Elige la frase correcta. ¦ They have a six-year-old son. ¦ They have a six-years-old son. / They have a six-year-olds son. / They have a son six-years-old.
+order ¦ The issues raised at the meeting will be discussed next week. ¦ Los temas planteados en la reunión se tratarán la semana que viene.
+order ¦ It was a thought-provoking and beautifully shot documentary. ¦ Fue un documental que daba que pensar y estaba muy bien rodado.
+translate ¦ una conferencia de tres días ¦ a three-day conference ¦ a three-day congress
+translate ¦ un problema muy arraigado ¦ a deep-rooted problem ¦ a deep-seated problem / a deeply rooted problem / a long-standing problem
+match ¦ overdue=atrasado, muy esperado; ill-advised=desacertado; hard-won=conseguido con esfuerzo; well-founded=fundado; wide-ranging=amplio, variado
+
+=== 6
+title: He purports to be an expert ¦ Dice ser un experto
+desc: Verbos de habla y de opinión con matices: distanciamiento, valoración y estilo indirecto avanzado
+gram: verbos de habla con patrones complejos (purport to, allege that, concede that, dismiss sth as) ¦ estilo indirecto sin cambio de tiempos ¦ distanciamiento periodístico (reportedly, allegedly, it has been claimed that)
+ref: c2-reporting
+words: purport, allege, allegedly, concede, contend, assert, maintain, insinuate, imply, infer, dismiss, refute, rebut, disclose, divulge, reiterate, retract, acknowledge, intimate, hint, denounce, rebuke, disparage, laud, extol, decry, informant, testimony, hearsay, verbatim
+intro:
+<h3>Verbos de habla con matiz</h3>
+<table><tr><td><strong>purport to be / to have</strong></td><td>a letter <strong>purporting to be</strong> from the king (que pretende ser)</td></tr>
+<tr><td><strong>concede that</strong></td><td>She <strong>conceded that</strong> mistakes had been made. (admitir a regañadientes)</td></tr>
+<tr><td><strong>contend / maintain that</strong></td><td>He <strong>maintains that</strong> he is innocent. (sostener)</td></tr>
+<tr><td><strong>dismiss sth as</strong></td><td>They <strong>dismissed</strong> the report <strong>as</strong> nonsense. (descartar como)</td></tr>
+<tr><td><strong>refute / rebut</strong></td><td>to <strong>refute</strong> an argument (rebatir con pruebas)</td></tr>
+<tr><td><strong>reiterate / retract</strong></td><td>She <strong>reiterated</strong> her offer. · He <strong>retracted</strong> his statement.</td></tr>
+<tr><td><strong>insinuate / intimate / hint</strong></td><td>Are you <strong>insinuating</strong> that I lied?</td></tr></table>
+<h3>Estilo indirecto: ¿siempre se cambian los tiempos?</h3>
+<p>No. Si lo dicho <b>sigue siendo verdad</b> o el verbo introductor está en presente, el tiempo puede mantenerse: <i>She told me she <b>lives</b> in Leeds</i> (y sigue viviendo allí).</p>
+<h3>Distanciamiento periodístico</h3>
+<div class="example">The minister <strong>allegedly</strong> accepted the money. · <strong>It has been claimed that</strong>… · <strong>According to</strong> unnamed sources… · The company <strong>is reported to have</strong> lost millions.</div>
+<div class="warning"><b>imply</b> lo hace el hablante (insinuar); <b>infer</b> lo hace el oyente (deducir): <i>What are you <b>implying</b>? — I <b>inferred</b> from his tone that he was angry.</i></div>
+ex:
+fill ¦ The document ___ to be a copy of the original contract. ¦ purports ¦ pretends / claims of / alleges ¦ El documento pretende ser una copia del contrato original. ¦ purport to be.
+fill ¦ He reluctantly ___ that he had been wrong. ¦ conceded ¦ refuted / dismissed / insinuated ¦ Admitió a regañadientes que se había equivocado. ¦ concede = admitir (a disgusto).
+fill ¦ The critics dismissed the novel ___ sentimental rubbish. ¦ as ¦ like / for / of ¦ Los críticos despacharon la novela como basura sentimental. ¦ dismiss sth as.
+fill ¦ From her silence, I ___ that she disagreed. ¦ inferred ¦ implied / insinuated / alleged ¦ Por su silencio, deduje que no estaba de acuerdo. ¦ infer = deducir (el oyente).
+choose ¦ «Al parecer, el alcalde aceptó sobornos.» (periodístico) ¦ The mayor allegedly accepted bribes. ¦ The mayor alleged accepting bribes. / The mayor was alleging bribes. / Allegedly the mayor alleged bribes.
+choose ¦ Retirar lo dicho es… ¦ retract ¦ reiterate / divulge / extol
+order ¦ She maintains that she knew nothing about the deal. ¦ Sostiene que no sabía nada del acuerdo.
+order ¦ The company is reported to have lost millions. ¦ Se informa de que la empresa ha perdido millones.
+translate ¦ ¿Estás insinuando que miento? ¦ Are you implying that I'm lying? ¦ Are you insinuating that I'm lying? / Are you implying I'm lying? / Are you insinuating I'm lying?
+translate ¦ Reiteró su oferta. ¦ She reiterated her offer. ¦ He reiterated his offer.
+match ¦ divulge=revelar; extol=ensalzar; decry=censurar; hearsay=rumores; verbatim=palabra por palabra
+
+=== 7
+title: In the light of recent events ¦ A la luz de los acontecimientos recientes
+desc: Locuciones preposicionales y preposiciones dependientes de nivel avanzado
+gram: locuciones formales (in the light of, by virtue of, in lieu of, on the verge of, with a view to) ¦ preposiciones dependientes (averse to, conducive to, commensurate with, tantamount to) ¦ preposición + -ing
+ref: c2-prepositions
+words: light, virtue, lieu, verge, brink, view, behalf, regard, respect, accordance, conjunction, pursuit, averse, conducive, commensurate, tantamount, attuned, prone, susceptible, akin, subject, oblivious, adjacent, pertaining, vis-a-vis, amid, notwithstanding, pending, barring, save
+intro:
+<h3>Locuciones preposicionales formales</h3>
+<table><tr><td><strong>in (the) light of</strong></td><td>a la luz de</td></tr>
+<tr><td><strong>by virtue of</strong></td><td>en virtud de</td></tr>
+<tr><td><strong>in lieu of</strong></td><td>en lugar de</td></tr>
+<tr><td><strong>on the verge / brink of</strong></td><td>al borde de</td></tr>
+<tr><td><strong>with a view to</strong> + -ing</td><td>con vistas a</td></tr>
+<tr><td><strong>on behalf of</strong></td><td>en nombre de</td></tr>
+<tr><td><strong>in accordance with</strong></td><td>de conformidad con</td></tr>
+<tr><td><strong>pending / barring / save</strong></td><td>a la espera de / salvo que / excepto</td></tr></table>
+<h3>Adjetivos con preposición fija</h3>
+<div class="example">averse <strong>to</strong> risk · conducive <strong>to</strong> learning · commensurate <strong>with</strong> experience · tantamount <strong>to</strong> a confession · attuned <strong>to</strong> the needs of… · prone <strong>to</strong> error · akin <strong>to</strong> · oblivious <strong>to/of</strong></div>
+<div class="tip"><b>with a view to</b> y <b>be averse to</b> llevan <b>-ing</b>, porque <i>to</i> es preposición: <i>with a view to <b>buying</b></i>, <i>not averse to <b>taking</b> risks</i>.</div>
+<div class="warning">«En virtud de» no es <i>in virtue of</i> sino <b>by virtue of</b>; «a la luz de» es <b>in the light of</b> (británico) o <b>in light of</b> (americano).</div>
+ex:
+fill ¦ In the ___ of recent events, the concert has been cancelled. ¦ light ¦ view / sight / virtue ¦ A la luz de los acontecimientos recientes, se ha cancelado el concierto. ¦ in the light of.
+fill ¦ The company is on the ___ of bankruptcy. ¦ verge ¦ edge of / side / border ¦ La empresa está al borde de la quiebra. ¦ on the verge of.
+fill ¦ They bought the land with a view to ___ a hotel. ¦ building ¦ build / built / be building ¦ Compraron el terreno con vistas a construir un hotel. ¦ with a view to + -ing.
+fill ¦ Salary will be commensurate ___ experience. ¦ with ¦ to / of / for ¦ El sueldo estará en consonancia con la experiencia. ¦ commensurate with.
+choose ¦ «Su silencio equivalía a una confesión.» ¦ His silence was tantamount to a confession. ¦ His silence was tantamount with a confession. / His silence was tantamount of a confession. / His silence was tantamount for a confession.
+choose ¦ «Un ambiente propicio para el estudio» ¦ an atmosphere conducive to study ¦ an atmosphere conducive for study / an atmosphere conducive of study / an atmosphere conducive with study
+order ¦ I'm not averse to taking the occasional risk. ¦ No soy reacio a correr algún riesgo de vez en cuando.
+order ¦ Barring accidents, we should arrive by noon. ¦ Salvo imprevistos, deberíamos llegar a mediodía.
+translate ¦ en nombre de la empresa ¦ on behalf of the company ¦ on the company's behalf
+translate ¦ en virtud de su cargo ¦ by virtue of her position ¦ by virtue of his position / by virtue of her post / by virtue of his post
+match ¦ in lieu of=en lugar de; pending=a la espera de; akin to=parecido a; prone to=propenso a; oblivious to=ajeno a
+
+=== 8
+title: Not entirely unexpected ¦ No del todo inesperado
+desc: Atenuación, ironía y eufemismo: decir más diciendo menos
+gram: litotes (not bad, not unlike, not without) ¦ understatement británico (a bit of a problem) ¦ eufemismos (pass away, let go, between jobs) ¦ ironía y sarcasmo
+ref: c2-understatement
+words: understatement, euphemism, euphemistic, euphemistically, irony, ironic, ironically, sarcasm, sarcastic, tongue-in-cheek, deadpan, wry, wryly, dry, droll, quip, innuendo, connotation, connote, denote, literal, literally, mild, mildly, slightly, somewhat, rather, hardly
+intro:
+<h3>Litotes: negar lo contrario</h3>
+<div class="example">It was <strong>not bad</strong> at all. (= estuvo muy bien)<br>The result was <strong>not entirely unexpected</strong>. (= lo esperábamos)<br>She is <strong>not without</strong> talent. (= tiene talento)<br>His style is <strong>not unlike</strong> Hemingway's. (= se parece)</div>
+<h3>El «understatement» británico</h3>
+<p>Restar importancia a algo grave es un rasgo cultural muy marcado. Saber descifrarlo es parte del nivel C2.</p>
+<table><tr><td>It's <strong>a bit of a problem</strong>.</td><td>Es un problema serio.</td></tr>
+<tr><td>I'm <strong>not entirely convinced</strong>.</td><td>No me lo creo en absoluto.</td></tr>
+<tr><td>That's <strong>an interesting</strong> idea.</td><td>(a menudo) Es una idea absurda.</td></tr>
+<tr><td><strong>With the greatest respect</strong>…</td><td>Creo que estás totalmente equivocado.</td></tr></table>
+<h3>Eufemismos</h3>
+<div class="example">pass away (morir) · let sb go (despedir) · between jobs (en paro) · economical with the truth (mentiroso) · senior citizens (ancianos) · collateral damage (víctimas civiles)</div>
+<div class="tip">El humor británico usa a menudo el tono <b>deadpan</b> (impasible): se dice algo absurdo o irónico sin cambiar la expresión.</div>
+<div class="warning"><b>literally</b> se usa en el habla como intensificador (<i>I was literally dying</i>), pero en un texto formal significa «al pie de la letra»; evita el uso exagerado.</div>
+ex:
+fill ¦ The news was not entirely ___ ; we'd been expecting it for weeks. ¦ unexpected ¦ expected / expecting / inexpected ¦ La noticia no fue del todo inesperada; la esperábamos desde hacía semanas. ¦ Litotes: not + negativo.
+fill ¦ The minister was accused of being economical with the ___ . ¦ truth ¦ facts / reality / lies ¦ Acusaron al ministro de faltar a la verdad. ¦ Eufemismo: economical with the truth = mentir.
+fill ¦ Her grandfather passed ___ last spring. ¦ away ¦ out / over / off ¦ Su abuelo falleció la primavera pasada. ¦ pass away = morir (eufemismo).
+fill ¦ He's not ___ charm, I'll give him that. ¦ without ¦ with / lacking / out ¦ Encanto no le falta, eso hay que reconocérselo. ¦ not without = tiene.
+choose ¦ Un británico dice «That's a brave decision». Probablemente quiere decir… ¦ que le parece una decisión arriesgada o imprudente ¦ que admira la valentía / que está de acuerdo / que no tiene opinión
+choose ¦ «Despedir» (eufemismo empresarial) ¦ to let someone go ¦ to pass someone away / to put someone down / to send someone off
+order ¦ I'm not entirely convinced by his argument. ¦ No me convence del todo su argumento.
+order ¦ She said it with a perfectly straight face. ¦ Lo dijo sin inmutarse.
+translate ¦ No estuvo nada mal. ¦ It wasn't bad at all. ¦ It was not bad at all. / Not bad at all.
+translate ¦ Su estilo recuerda al de Dickens. ¦ His style is not unlike Dickens's. ¦ His style is not unlike that of Dickens. / Her style is not unlike Dickens's. / His style is reminiscent of Dickens's.
+match ¦ deadpan=impasible; wry=irónico; quip=ocurrencia; innuendo=insinuación; droll=gracioso, socarrón
+
+=== 9
+title: Food for thought ¦ Algo en que pensar
+desc: Metáfora y lenguaje figurado en el inglés cotidiano y periodístico
+gram: metáforas conceptuales (ideas = comida, discusión = guerra, tiempo = dinero) ¦ verbos de movimiento y luz en sentido figurado (soar, plummet, shed light on) ¦ símiles (as … as, like)
+ref: c2-metaphor
+words: metaphor, metaphorical, figurative, figuratively, simile, imagery, vivid, soar, plummet, plunge, skyrocket, dwindle, wane, ebb, flourish, wither, shed, illuminate, glimmer, spark, ignite, kindle, fuel, digest, swallow, chew, half-baked, palatable, unpalatable
+intro:
+<h3>Metáforas que usamos sin darnos cuenta</h3>
+<table><tr><td>Ideas = comida</td><td>food for thought · a <strong>half-baked</strong> idea · hard to <strong>swallow</strong> · I need time to <strong>digest</strong> it · <strong>unpalatable</strong> truths</td></tr>
+<tr><td>Discusión = guerra</td><td>to <strong>attack</strong> a position · to <strong>defend</strong> a claim · to <strong>shoot down</strong> an argument · to <strong>win</strong> a debate</td></tr>
+<tr><td>Tiempo = dinero</td><td>to <strong>spend / waste / save / invest</strong> time · running <strong>out</strong> of time</td></tr>
+<tr><td>Conocimiento = luz</td><td>to <strong>shed light on</strong> · a <strong>glimmer</strong> of hope · an <strong>illuminating</strong> talk · to be <strong>in the dark</strong></td></tr>
+<tr><td>Emociones = fuego</td><td>to <strong>spark</strong> a debate · to <strong>fuel</strong> anger · to <strong>kindle</strong> interest · a <strong>heated</strong> argument</td></tr></table>
+<h3>Cifras que vuelan y se hunden</h3>
+<div class="example">Prices <strong>soared / skyrocketed</strong>. · Sales <strong>plummeted / plunged</strong>. · Support <strong>dwindled</strong>. · His popularity is <strong>on the wane</strong>. · Small businesses <strong>flourished</strong>.</div>
+<div class="tip">En una redacción de C2, una metáfora bien elegida vale más que tres adjetivos. Pero no mezcles metáforas incompatibles (<i>mixed metaphors</i>): ✗ <i>We must nip it in the bud before it snowballs out of the water.</i></div>
+<div class="warning">«Arrojar luz sobre» es <b>shed light on</b>, no <i>throw light over</i>; «despertar interés» es <b>arouse / spark / kindle interest</b>, no <i>wake up interest</i>.</div>
+ex:
+fill ¦ The new evidence may shed ___ on the mystery. ¦ light ¦ lights / shine / clarity ¦ Las nuevas pruebas podrían arrojar luz sobre el misterio. ¦ shed light on.
+fill ¦ House prices have ___ over the last decade. ¦ soared ¦ plummeted up / sunk / flown off ¦ El precio de la vivienda se ha disparado en la última década. ¦ soar = subir mucho.
+fill ¦ The proposal was rather half-___ ; nobody had thought it through. ¦ baked ¦ cooked / done / boiled ¦ La propuesta estaba a medio cocer; nadie la había pensado a fondo. ¦ half-baked = mal pensado.
+fill ¦ The decision ___ a fierce debate. ¦ sparked ¦ lit up / burned / flamed ¦ La decisión desató un intenso debate. ¦ spark a debate.
+choose ¦ «Hay un rayo de esperanza.» ¦ There is a glimmer of hope. ¦ There is a flash of hope. / There is a shine of hope. / There is a lamp of hope.
+choose ¦ Algo difícil de aceptar es… ¦ hard to swallow ¦ hard to chew out / easy to digest / half-baked
+order ¦ His popularity has been on the wane for months. ¦ Su popularidad lleva meses en declive.
+order ¦ That gave me plenty of food for thought. ¦ Eso me dio mucho en que pensar.
+translate ¦ Las ventas se desplomaron en enero. ¦ Sales plummeted in January. ¦ Sales plunged in January. / Sales collapsed in January.
+translate ¦ Necesito tiempo para digerirlo. ¦ I need time to digest it. ¦ I need some time to digest it. / I need time to take it in.
+match ¦ dwindle=menguar; wither=marchitarse; kindle=avivar; unpalatable=desagradable, difícil de aceptar; skyrocket=dispararse
+
+=== 10
+title: Every cloud has a silver lining ¦ No hay mal que por bien no venga
+desc: Modismos, refranes y alusiones culturales de nivel nativo
+gram: proverbs y su uso abreviado (every cloud… / when in Rome…) ¦ idioms de origen literario o histórico (Achilles' heel, a Pyrrhic victory) ¦ variación y juego con los modismos
+ref: c2-idioms
+words: proverb, proverbial, allusion, allude, cloud, lining, horse, mouth, gift, bridge, cross, nail, head, needle, haystack, heel, victory, grapevine, kettle, fish, stitch, bird, bush, leopard, worm, devil
+intro:
+<h3>Refranes que se dicen a medias</h3>
+<p>Los hablantes nativos a menudo solo dicen la primera mitad, porque todo el mundo conoce el resto.</p>
+<table><tr><td><strong>Every cloud</strong> (has a silver lining)</td><td>no hay mal que por bien no venga</td></tr>
+<tr><td><strong>When in Rome</strong> (do as the Romans do)</td><td>allá donde fueres, haz lo que vieres</td></tr>
+<tr><td><strong>Don't look a gift horse</strong> (in the mouth)</td><td>a caballo regalado no le mires el diente</td></tr>
+<tr><td><strong>A bird in the hand</strong> (is worth two in the bush)</td><td>más vale pájaro en mano…</td></tr>
+<tr><td><strong>A stitch in time</strong> (saves nine)</td><td>más vale prevenir que curar</td></tr>
+<tr><td><strong>The early bird</strong> (catches the worm)</td><td>a quien madruga, Dios le ayuda</td></tr>
+<tr><td><strong>A leopard</strong> (can't change its spots)</td><td>genio y figura hasta la sepultura</td></tr></table>
+<h3>Alusiones culturales</h3>
+<div class="example">an <strong>Achilles' heel</strong> (punto débil) · a <strong>Pyrrhic victory</strong> (victoria pírrica) · to open <strong>Pandora's box</strong> · a <strong>Catch-22</strong> situation (círculo vicioso sin salida) · to <strong>hit the nail on the head</strong> (dar en el clavo) · <strong>a needle in a haystack</strong> · <strong>a different kettle of fish</strong> (harina de otro costal) · I heard it <strong>on the grapevine</strong> (me enteré por radio macuto) · <strong>speak of the devil</strong> (hablando del rey de Roma)</div>
+<div class="tip">Usar un refrán a medias en el momento justo demuestra un dominio casi nativo; usarlo entero y fuera de lugar suena a libro de texto.</div>
+<div class="warning">No todos los refranes tienen equivalente directo: busca la idea, no las palabras. <i>Cross that bridge when we come to it</i> = «ya nos ocuparemos de eso cuando llegue el momento».</div>
+ex:
+fill ¦ Well, every cloud has a silver ___ . ¦ lining ¦ line / edge / side ¦ Bueno, no hay mal que por bien no venga. ¦ every cloud has a silver lining.
+fill ¦ I heard it on the ___ that she's leaving. ¦ grapevine ¦ radio / wire / vine ¦ Me he enterado por ahí de que se va. ¦ on the grapevine = por rumores.
+fill ¦ You've hit the ___ on the head. ¦ nail ¦ hammer / point / spot ¦ Has dado en el clavo. ¦ hit the nail on the head.
+fill ¦ We'll cross that ___ when we come to it. ¦ bridge ¦ road / river / line ¦ Ya nos ocuparemos de eso cuando llegue el momento. ¦ cross that bridge when we come to it.
+choose ¦ Necesitas experiencia para conseguir trabajo, pero trabajo para conseguir experiencia. Es… ¦ a Catch-22 ¦ a Pyrrhic victory / an Achilles' heel / Pandora's box
+choose ¦ «Eso es harina de otro costal.» ¦ That's a different kettle of fish. ¦ That's a different bag of flour. / That's a different cup of tea. / That's a different horse in the mouth.
+order ¦ Speak of the devil, here she comes now. ¦ Hablando del rey de Roma, por ahí viene.
+order ¦ Spelling has always been my Achilles' heel. ¦ La ortografía siempre ha sido mi punto débil.
+translate ¦ Es como buscar una aguja en un pajar. ¦ It's like looking for a needle in a haystack. ¦ It is like looking for a needle in a haystack. / It's like searching for a needle in a haystack.
+translate ¦ Allá donde fueres, haz lo que vieres. ¦ When in Rome, do as the Romans do. ¦ When in Rome. / When in Rome, do as the Romans do!
+match ¦ Achilles' heel=punto débil; Pyrrhic victory=victoria pírrica; grapevine=rumores; silver lining=lado bueno; kettle of fish=harina de otro costal
+
+=== 11
+title: It is not without merit ¦ No carece de mérito
+desc: La argumentación académica: evaluar, conceder y rebatir en un ensayo de nivel C2
+gram: presentar posturas (proponents argue, critics contend) ¦ conceder y rebatir (while it is true that…, this overlooks…) ¦ evaluar (cogent, spurious, untenable) ¦ concluir con matices
+ref: c2-argument
+words: proponent, opponent, advocate, critic, contend, cogent, compelling, spurious, untenable, tenuous, flawed, fallacy, premise, conclusion, overlook, oversimplify, conflate, merit, substantiate, corroborate, undermine, counterargument, rebuttal, nuanced, axiom, axiomatic, presuppose, presupposition, anecdotal, empirical
+intro:
+<h3>Presentar las posturas</h3>
+<div class="example"><strong>Proponents</strong> of the policy <strong>argue that</strong>… · <strong>Critics contend that</strong>… · <strong>It is widely held that</strong>… · <strong>A common objection is that</strong>…</div>
+<h3>Conceder y rebatir</h3>
+<table><tr><td>Conceder</td><td><strong>While it is true that</strong>… / <strong>Admittedly</strong>… / The argument <strong>is not without merit</strong>.</td></tr>
+<tr><td>Rebatir</td><td><strong>However, this overlooks</strong> the fact that… / This argument <strong>conflates</strong> X with Y / This <strong>rests on the questionable premise</strong> that…</td></tr></table>
+<h3>Evaluar argumentos</h3>
+<table><tr><td>positivo</td><td><strong>cogent</strong>, <strong>compelling</strong>, well-founded, persuasive</td></tr>
+<tr><td>negativo</td><td><strong>spurious</strong>, <strong>untenable</strong>, <strong>tenuous</strong>, <strong>flawed</strong>, based on <strong>anecdotal</strong> evidence</td></tr></table>
+<h3>Concluir con matices</h3>
+<div class="example"><strong>On balance</strong>, … · <strong>It would be simplistic to</strong>… · <strong>The evidence, such as it is, suggests</strong>… · <strong>Ultimately</strong>, the question is not whether… but how…</div>
+<div class="warning"><b>evidence</b> es incontable: ✗ <i>an evidence, evidences</i> → ✓ <i>a piece of evidence, some evidence</i>. Y <b>argument</b> en un ensayo es «razonamiento», no «trama».</div>
+ex:
+fill ¦ ___ of the scheme argue that it will create jobs. ¦ Proponents ¦ Opponents / Critics / Detractors ¦ Los defensores del plan sostienen que creará empleo. ¦ proponent = defensor.
+fill ¦ The argument is not ___ merit, but it ignores the costs. ¦ without ¦ with / lacking / free ¦ El argumento no carece de mérito, pero no tiene en cuenta los costes. ¦ not without merit.
+fill ¦ This view ___ two quite different problems. ¦ conflates ¦ conflicts / confuses with / confides ¦ Esta postura confunde dos problemas muy distintos. ¦ conflate = mezclar indebidamente.
+fill ¦ The link between the two is ___ at best. ¦ tenuous ¦ tenacious / cogent / compelling ¦ La relación entre ambos es, como mucho, endeble. ¦ tenuous = débil, endeble.
+choose ¦ Un argumento sólido y convincente es… ¦ cogent ¦ spurious / untenable / anecdotal
+choose ¦ Elige la frase correcta. ¦ There is little evidence to support this claim. ¦ There are few evidences to support this claim. / There is an evidence to support this claim. / There are little evidences to support this claim.
+order ¦ While it is true that costs have risen, this overlooks the benefits. ¦ Si bien es cierto que los costes han subido, esto pasa por alto los beneficios.
+order ¦ On balance, the arguments against the plan are more compelling. ¦ En conjunto, los argumentos en contra del plan son más convincentes.
+translate ¦ Esa postura es insostenible. ¦ That position is untenable. ¦ That view is untenable. / That stance is untenable.
+translate ¦ Las pruebas son meramente anecdóticas. ¦ The evidence is merely anecdotal. ¦ The evidence is purely anecdotal. / The evidence is only anecdotal.
+match ¦ spurious=espurio; corroborate=corroborar; undermine=socavar; premise=premisa; fallacy=falacia
+
+=== 12
+title: Slim, skinny or scrawny? ¦ ¿Delgado, flaco o esquelético?
+desc: Connotación y precisión léxica: elegir entre casi sinónimos
+gram: connotación positiva, neutra y negativa ¦ registro (kid / child / offspring) ¦ intensidad (dislike / loathe / abhor) ¦ verbos de mirar, andar y hablar con matiz
+ref: c2-connotation
+words: connotation, nuance, slim, slender, skinny, scrawny, stubborn, determined, tenacious, obstinate, thrifty, frugal, stingy, miserly, inquisitive, nosy, assertive, pushy, abhor, loathe, detest, stroll, amble, trudge, saunter, stride, mutter, mumble, murmur, babble
+intro:
+<h3>La misma idea, distinta valoración</h3>
+<table><tr><td>positivo</td><td>neutro</td><td>negativo</td></tr>
+<tr><td><strong>slim, slender</strong></td><td>thin</td><td><strong>skinny, scrawny</strong></td></tr>
+<tr><td><strong>determined, tenacious</strong></td><td>firm</td><td><strong>stubborn, obstinate</strong></td></tr>
+<tr><td><strong>thrifty, frugal</strong></td><td>careful with money</td><td><strong>stingy, miserly</strong></td></tr>
+<tr><td><strong>inquisitive, curious</strong></td><td>interested</td><td><strong>nosy</strong></td></tr>
+<tr><td><strong>assertive</strong></td><td>confident</td><td><strong>pushy</strong></td></tr></table>
+<h3>Intensidad</h3>
+<div class="example">dislike → hate → <strong>loathe / detest</strong> → <strong>abhor</strong> · good → great → <strong>outstanding</strong> → <strong>sublime</strong></div>
+<h3>Verbos precisos</h3>
+<table><tr><td>andar</td><td><strong>stroll</strong> (pasear) · <strong>amble</strong> (deambular) · <strong>trudge</strong> (caminar penosamente) · <strong>stride</strong> (a zancadas) · <strong>saunter</strong> (con aire despreocupado)</td></tr>
+<tr><td>hablar</td><td><strong>mutter</strong> (refunfuñar entre dientes) · <strong>mumble</strong> (farfullar) · <strong>murmur</strong> (murmurar) · <strong>babble</strong> (parlotear)</td></tr></table>
+<div class="tip">En la mediación y la redacción de C2 se valora que el verbo lleve la información: <i>she <b>trudged</b> home</i> dice más que <i>she walked home slowly and tiredly</i>.</div>
+<div class="warning">Un adjetivo «positivo» puede sonar irónico según el contexto: <i>He's very <b>thrifty</b></i>, dicho con retintín, puede significar «es un tacaño».</div>
+ex:
+fill ¦ She's always been ___ ; she never gives up. ¦ tenacious ¦ obstinate / stingy / pushy ¦ Siempre ha sido tenaz; nunca se rinde. ¦ Connotación positiva.
+fill ¦ He's so ___ he won't even buy his own coffee. ¦ stingy ¦ thrifty / frugal / generous ¦ Es tan tacaño que ni siquiera se paga su propio café. ¦ Connotación negativa.
+fill ¦ After the long climb, we ___ back to the hut in the rain. ¦ trudged ¦ strolled / sauntered / ambled ¦ Tras la larga subida, volvimos penosamente al refugio bajo la lluvia. ¦ trudge = caminar con esfuerzo.
+fill ¦ He ___ something under his breath and left the room. ¦ muttered ¦ babbled / shouted / announced ¦ Masculló algo entre dientes y salió de la habitación. ¦ mutter = hablar entre dientes, molesto.
+choose ¦ Elige la opción más elogiosa. ¦ slender ¦ skinny / scrawny / bony
+choose ¦ Un vecino que siempre quiere saber lo que haces es… ¦ nosy ¦ inquisitive / assertive / frugal
+order ¦ We strolled along the river after lunch. ¦ Paseamos junto al río después de comer.
+order ¦ I absolutely loathe being kept waiting. ¦ Detesto que me hagan esperar.
+translate ¦ Es muy cabezota. ¦ He's very stubborn. ¦ He is very stubborn. / She's very stubborn. / She is very stubborn. / He's very obstinate.
+translate ¦ Entró en la sala a grandes zancadas. ¦ She strode into the room. ¦ He strode into the room. / She strode into the hall. / He strode into the hall.
+match ¦ frugal=frugal, ahorrador; pushy=avasallador; saunter=caminar despreocupadamente; mumble=farfullar; abhor=aborrecer
+
+=== 13
+title: Fobbed off again ¦ Otra vez me dieron largas
+desc: Phrasal verbs y sustantivos frasales de nivel nativo
+gram: phrasal verbs poco transparentes (fob off, peter out, egg on, gloss over, butter up) ¦ sustantivos y adjetivos frasales (a let-down, a write-off, an outburst, ongoing) ¦ phrasal verbs en registro informal vs. equivalente latino
+ref: c2-phrasal
+words: fob off, peter out, egg on, gloss over, butter up, mull over, eke out, dole out, side-step, rope in, splash out, fritter away, pore over, stave off, tide over, while away, let-down, write-off, outburst, outcry, upkeep, upshot, downfall, onset, drawback, hold-up, ongoing
+intro:
+<h3>Phrasal verbs que no se adivinan</h3>
+<table><tr><td><strong>fob sb off</strong></td><td>dar largas, quitarse a alguien de encima con excusas</td></tr>
+<tr><td><strong>peter out</strong></td><td>irse apagando, quedarse en nada</td></tr>
+<tr><td><strong>egg sb on</strong></td><td>incitar, azuzar</td></tr>
+<tr><td><strong>gloss over</strong></td><td>pasar por alto, disimular</td></tr>
+<tr><td><strong>butter sb up</strong></td><td>hacer la pelota</td></tr>
+<tr><td><strong>splash out (on)</strong></td><td>tirar la casa por la ventana</td></tr>
+<tr><td><strong>fritter away</strong></td><td>malgastar poco a poco</td></tr>
+<tr><td><strong>stave off</strong></td><td>mantener a raya</td></tr>
+<tr><td><strong>tide sb over</strong></td><td>sacar del apuro (temporalmente)</td></tr>
+<tr><td><strong>while away</strong> the hours</td><td>matar el tiempo</td></tr>
+<tr><td><strong>pore over</strong></td><td>estudiar detenidamente</td></tr>
+<tr><td><strong>rope sb in</strong></td><td>liar a alguien (para ayudar)</td></tr></table>
+<h3>Sustantivos frasales</h3>
+<div class="example">a <strong>let-down</strong> (decepción) · a <strong>write-off</strong> (siniestro total) · an <strong>outburst</strong> (arrebato) · a public <strong>outcry</strong> (protesta) · the <strong>upshot</strong> (el resultado) · the <strong>onset</strong> of winter (el comienzo) · his <strong>downfall</strong> (su caída) · a <strong>hold-up</strong> (retraso; atraco)</div>
+<div class="tip">Fíjate en el acento: en el verbo va en la partícula (<i>to hold <b>UP</b></i>), en el sustantivo va en la primera parte (<i>a <b>HOLD</b>-up</i>).</div>
+<div class="warning">Son muy coloquiales. En un informe formal, <i>the talks petered out</i> puede sustituirse por <i>the talks gradually came to an end</i>.</div>
+ex:
+fill ¦ I called the bank three times, but they kept fobbing me ___ . ¦ off ¦ out / away / up ¦ Llamé al banco tres veces, pero no paraban de darme largas. ¦ fob sb off.
+fill ¦ The conversation gradually petered ___ . ¦ out ¦ off / away / down ¦ La conversación se fue apagando poco a poco. ¦ peter out.
+fill ¦ The report glosses ___ the most serious problems. ¦ over ¦ on / out / up ¦ El informe pasa por alto los problemas más graves. ¦ gloss over.
+fill ¦ We splashed ___ on a really expensive dinner. ¦ out ¦ up / off / over ¦ Tiramos la casa por la ventana con una cena carísima. ¦ splash out on.
+choose ¦ «El coche quedó siniestro total.» ¦ The car was a write-off. ¦ The car was a let-down. / The car was an outburst. / The car was a hold-up.
+choose ¦ Incitar a alguien a hacer algo arriesgado es… ¦ egg someone on ¦ butter someone up / fob someone off / tide someone over
+order ¦ This money should tide us over until payday. ¦ Este dinero debería sacarnos del apuro hasta el día de cobro.
+order ¦ The upshot was that nobody got a pay rise. ¦ El resultado fue que nadie consiguió un aumento.
+translate ¦ Pasamos la tarde jugando a las cartas. ¦ We whiled away the afternoon playing cards. ¦ We whiled the afternoon away playing cards. / We spent the afternoon playing cards.
+translate ¦ La película fue una decepción. ¦ The film was a let-down. ¦ The film was a letdown. / The film was a disappointment. / The movie was a let-down.
+match ¦ stave off=mantener a raya; pore over=estudiar detenidamente; rope in=liar (para ayudar); outcry=protesta; onset=comienzo
+
+=== 14
+title: The sound and the sense ¦ El sonido y el sentido
+desc: Recursos estilísticos y lenguaje literario: aliteración, ritmo, arcaísmos y registro poético
+gram: aliteración y asonancia (safe and sound, busy as a bee) ¦ regla de tres y paralelismo ¦ arcaísmos y lenguaje elevado (hitherto, whence, ere, verily) ¦ antítesis y quiasmo
+ref: c2-style
+words: alliteration, rhythm, cadence, assonance, parallelism, antithesis, antithetical, chiasmus, archaic, archaism, lyrical, lyrically, poetic, prose, verse, stanza, imagery, evocative, melancholy, wistful, wistfully, sublime, ethereal, ornate, austere, brevity, eloquent, verbose, hitherto, verily
+intro:
+<h3>Sonido</h3>
+<p>El inglés literario, publicitario y periodístico juega con el sonido. La <b>aliteración</b> (repetir la consonante inicial) es especialmente frecuente:</p>
+<div class="example"><strong>b</strong>ig <strong>b</strong>usiness · <strong>f</strong>ast and <strong>f</strong>urious · <strong>s</strong>ilent <strong>s</strong>treets · <strong>P</strong>ride and <strong>P</strong>rejudice (1813)</div>
+<h3>Estructura</h3>
+<table><tr><td><strong>Regla de tres</strong></td><td>«Friends, Romans, countrymen» · «Location, location, location»</td></tr>
+<tr><td><strong>Paralelismo</strong></td><td>«We came, we saw, we conquered.»</td></tr>
+<tr><td><strong>Antítesis</strong></td><td>«It was the best of times, it was the worst of times» (Dickens, 1859)</td></tr>
+<tr><td><strong>Quiasmo</strong></td><td>«Ask not what your country can do for you…» · «Fair is foul, and foul is fair» (Shakespeare)</td></tr></table>
+<h3>Lenguaje arcaico y elevado</h3>
+<div class="example"><strong>hitherto</strong> (hasta ahora) · <strong>whence</strong> (de donde) · <strong>ere</strong> (antes de) · <strong>thus</strong> (así) · <strong>verily</strong> (en verdad) · <strong>thou / thee / thy</strong> (tú / te / tu, en textos antiguos)</div>
+<div class="tip">En el análisis de textos de C2 no basta con entender: hay que explicar <b>qué efecto</b> produce un recurso (ritmo, solemnidad, ironía, humor).</div>
+<div class="warning">Los arcaísmos en un texto moderno suelen tener intención irónica o solemne. No los uses en tus redacciones salvo con ese fin.</div>
+ex:
+fill ¦ "It was the best of times, it was the worst of times" is a famous example of ___ . ¦ antithesis ¦ alliteration / archaism / verbosity ¦ «Era el mejor de los tiempos, era el peor de los tiempos» es un famoso ejemplo de antítesis. ¦ Ideas opuestas en estructuras paralelas.
+fill ¦ "Busy as a bee" repeats the "b" sound: this is called ___ . ¦ alliteration ¦ assonance / chiasmus / cadence ¦ «Busy as a bee» repite el sonido «b»: se llama aliteración. ¦ Repetición de la consonante inicial.
+fill ¦ His speech was far too ___ ; he could have said it in half the time. ¦ verbose ¦ eloquent / concise / austere ¦ Su discurso fue demasiado prolijo; podría haberlo dicho en la mitad de tiempo. ¦ verbose = que usa demasiadas palabras.
+fill ¦ The music had an almost ___ quality, light and otherworldly. ¦ ethereal ¦ ornate / verbose / austere ¦ La música tenía una cualidad casi etérea, ligera y de otro mundo. ¦ ethereal = etéreo.
+choose ¦ «Fair is foul, and foul is fair» es un ejemplo de… ¦ chiasmus ¦ alliteration only / understatement / euphemism
+choose ¦ Un estilo sobrio, sin adornos, es… ¦ austere ¦ ornate / lyrical / verbose
+order ¦ Brevity is the soul of wit. ¦ La brevedad es el alma del ingenio.
+order ¦ The poem has a wistful, melancholy tone. ¦ El poema tiene un tono nostálgico y melancólico.
+translate ¦ Hasta ahora, nadie lo había notado. ¦ Hitherto, nobody had noticed. ¦ Until now, nobody had noticed. / Hitherto, no one had noticed. / Until then, nobody had noticed.
+translate ¦ un estilo recargado ¦ an ornate style ¦ an overly ornate style / a florid style
+match ¦ cadence=cadencia; evocative=evocador; stanza=estrofa; eloquent=elocuente; sublime=sublime
