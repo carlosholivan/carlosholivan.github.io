@@ -106,6 +106,17 @@ def load_forms(lemmas):
             for p, f in enumerate(o[t]):
                 if f:
                     FORMS.setdefault(f, []).append((w, t, p))
+        ps3 = (o.get('ps') or [None] * 6)[2]
+        if ps3:
+            m3 = re.match(r"^(.*?)([aiu])(n?t?)$", ps3)
+            if m3:
+                base, vw, tail = m3.groups()
+                circ = {'a': 'â', 'i': 'î', 'u': 'û'}[vw]
+                f3 = base + circ + (tail if tail else 't')
+                stem6 = base + vw + ('n' if 'n' in tail else '')
+                for f, pp_ in ((f3, 2), (stem6 + 'ssent', 5)):
+                    if f not in [x for x, _, _ in []]:
+                        FORMS.setdefault(f, []).append((w, 'subjimp', pp_))
 
 
 def verb_lemmas():
@@ -155,7 +166,8 @@ SKIP = set("ne n' pas plus jamais rien point guère déjà toujours encore bien 
 SUBJ_PRON = set("je j' tu il elle on nous vous ils elles qui".split())
 REFL = set("me m' te t' se s' nous vous".split())
 OBJ = set("en y le la l' les lui leur".split())
-AUX_TENSE = {'pres': 'pc', 'imparf': 'pqp', 'fut': 'futant', 'cond': 'condp', 'subj': 'subjp', 'ps': 'pqp'}
+IMP_PREV = set("et puis donc alors mais ou enfin surtout bien toujours vite maintenant aussi s'il te vous plaît".split())
+AUX_TENSE = {'pres': 'pc', 'imparf': 'pqp', 'fut': 'futant', 'cond': 'condp', 'subj': 'subjp', 'ps': 'pant', 'subjimp': 'subjpqp'}
 MODALS = {'pouvoir', 'devoir', 'vouloir', 'savoir', 'falloir'}
 SUBJ_TRIG = re.compile(r"\b(faut|faudrait|veux|veut|voulez|voudrais|voudrait|souhaite|aimerais|bien que|pour que|afin que|avant que|sans que|à moins que|jusqu'à ce que|"
                        r"peur|content|contente|heureux|heureuse|désolé|désolée|important|nécessaire|essentiel|possible|impossible|dommage|doute|douter|pense pas|crois pas|exige|préfère|regrette|étonnant|normal)\b")
@@ -197,10 +209,33 @@ def verb_phrases(text, toks, doc):
         t = pos.get(s)
         if not (FORMS.get(k) or k in PPS or k in INFS or k in PPRES):
             return False
+        if s > 0 and text[s - 1] == '-':          # plus-que-parfait, peut-être …
+            return False
+        prev0 = toks[i - 1][2] if i else ''
+        nxt0 = toks[i + 1][2] if i + 1 < n else ''
+        if k == 'plus' and prev0 not in ('je', 'tu', 'me', 'te', 'lui', 'leur', 'vous', 'nous'):
+            return False
+        if k == 'quitte' and nxt0 in ('à',) and prev0 not in SUBJ_PRON:
+            return False
         if t is not None and t.pos_ in ('VERB', 'AUX'):
             return True
         prev = toks[i - 1][2] if i else ''
         return prev in SUBJ_PRON or prev in REFL or prev in ("n'", 'ne', 'que', "qu'")
+
+    def imp_context(i):
+        q = i - 1
+        while q >= 0 and (toks[q][2] in ('ne', "n'", 'y', 'en') or toks[q][2] in OBJ or toks[q][2] in REFL):
+            q -= 1
+        if q >= 0 and (toks[q][2] in SUBJ_PRON or toks[q][2] in ('que', "qu'", 'qui')):
+            return False
+        if toks[i][2] == 'empêche' and i + 1 < n and toks[i + 1][2] in ('que', "qu'"):
+            return False
+        if re.search(r'(ez|ons)$', toks[i][2]) and toks[i][2] not in ('sommes', 'avons', 'allons'):
+            return True
+        start = toks[q + 1][0]
+        if text[:start].rstrip()[-1:] in ('', '.', '!', '?', ':', ';', '«', '(', '—', '"', '\n'):
+            return True
+        return q >= 0 and toks[q][2] in IMP_PREV
 
     for i in range(n):
         if i in used or not is_verb(i):
@@ -209,6 +244,9 @@ def verb_phrases(text, toks, doc):
         cands = FORMS.get(k, [])
         lemmas = {w for w, _, _ in cands}
         j = nxt(i)
+        if j is not None and text[e:e + 1] == '-' and toks[j][2] in ('t', 'je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'):
+            while j is not None and toks[j][2] in ('t', 'je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'):
+                j = nxt(j)
         jk = toks[j][2] if j is not None else ''
         kind, end, lem = None, i, None
         # compound tenses and the passive: avoir / être + participle
@@ -251,6 +289,8 @@ def verb_phrases(text, toks, doc):
             if i > 0 and toks[i - 1][2] == 'en' and k in PPRES:
                 kind, lem = 'ger', PPRES[k]
                 s = toks[i - 1][0]
+            elif k in PPRES and k not in FORMS and k.endswith('ant'):
+                kind, lem = 'ppres', PPRES[k]
             elif k in INFS and not cands:
                 kind, lem = 'inf', k
             elif cands:
@@ -261,7 +301,7 @@ def verb_phrases(text, toks, doc):
                 prev = toks[i - 1][2] if i else ''
                 if 'subj' in ts and ('pres' not in ts or (re.search(r"\bqu[e']", before[-40:]) and SUBJ_TRIG.search(before))):
                     kind = 'subj'
-                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e) and not text[:s].rstrip().endswith(('»', '"', '—', ',')):
+                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e) and imp_context(i):
                     kind = 'imp'
                 elif 'pres' in ts:
                     kind = 'pres'
@@ -273,6 +313,8 @@ def verb_phrases(text, toks, doc):
                     kind = 'cond'
                 elif 'ps' in ts:
                     kind = 'ps'
+                elif 'subjimp' in ts:
+                    kind = 'subjimp'
                 elif 'subj' in ts:
                     kind = 'subj'
                 else:
