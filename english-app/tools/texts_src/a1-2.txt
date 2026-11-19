@@ -1,0 +1,406 @@
+#! es
+# A1 readings, batch 2 (original). Spanish translations only.
+
+=== 1 | At the hotel ¦ En el hotel
+sum: Un cliente llega a la recepción de un hotel.
+p: Receptionist: Good evening! Welcome to the Park Hotel.
++ Guest: Good evening. I have a room for two nights.
++ Receptionist: What's your name, please?
++ Guest: My name's David Brown.
+= Recepcionista: ¡Buenas noches! Bienvenido al Park Hotel.
+=+ Cliente: Buenas noches. Tengo una habitación para dos noches.
+=+ Recepcionista: ¿Cómo se llama, por favor?
+=+ Cliente: Me llamo David Brown.
+p: Receptionist: Thank you, Mr Brown. Here's your key. Your room is number 24. Have a nice evening!
++ Guest: Thanks. Goodnight!
+= Recepcionista: Gracias, señor Brown. Aquí tiene su llave. Su habitación es la número 24. ¡Que pase buena noche!
+=+ Cliente: Gracias. ¡Buenas noches!
+note: Good evening ¦ other ¦ Saludo de la tarde-noche; «Goodnight» solo se usa para despedirse.
+note: My name's ¦ other ¦ My name's = My name is (contracción).
+note: Here's your key ¦ idiom ¦ Here's… = Aquí tiene…
+q: How many nights is the guest staying? ¦ ¿Cuántas noches se queda el cliente? ¦ one / two / three ¦ 1 ¦ «a room for two nights».
+q: What's the guest's name? ¦ ¿Cómo se llama el cliente? ¦ David Brown / Mr Park / David Green ¦ 0 ¦ «My name's David Brown».
+q: What number is his room? ¦ ¿Qué número es su habitación? ¦ 14 / 24 / 42 ¦ 1 ¦ «Your room is number 24».
+
+=== 1 | Hi, I'm Sam ¦ Hola, soy Sam
+sum: Dos chicos se conocen en un parque.
+p: Sam: Hi! I'm Sam. What's your name?
++ Mia: Hello, Sam. I'm Mia. How are you?
++ Sam: I'm fine, thanks. And you?
++ Mia: I'm OK, thank you.
+= Sam: ¡Hola! Soy Sam. ¿Cómo te llamas?
+=+ Mia: Hola, Sam. Soy Mia. ¿Qué tal estás?
+=+ Sam: Bien, gracias. ¿Y tú?
+=+ Mia: Estoy bien, gracias.
+p: Sam: This is my dog, Max. Mia: Oh, he's lovely! Hello, Max! Sam: Well, goodbye, Mia. See you tomorrow! Mia: Bye, Sam!
+= Sam: Este es mi perro, Max. Mia: ¡Oh, es precioso! ¡Hola, Max! Sam: Bueno, adiós, Mia. ¡Hasta mañana! Mia: ¡Adiós, Sam!
+note: How are you ¦ idiom ¦ Pregunta de cortesía; la respuesta típica es «I'm fine, thanks».
+note: This is my dog ¦ other ¦ This is… sirve para presentar a alguien o algo.
+note: See you tomorrow ¦ idiom ¦ See you… = hasta…
+q: What's the girl's name? ¦ ¿Cómo se llama la chica? ¦ Sam / Mia / Max ¦ 1 ¦ «I'm Mia».
+q: Who is Max? ¦ ¿Quién es Max? ¦ Sam's brother / Sam's dog / Mia's friend ¦ 1 ¦ «This is my dog, Max».
+q: When do they meet again? ¦ ¿Cuándo vuelven a verse? ¦ today / tomorrow / next week ¦ 1 ¦ «See you tomorrow!».
+
+=== 2 | My new classmates ¦ Mis nuevos compañeros
+sum: Una alumna presenta a sus compañeros de clase internacional.
+p: My English class is very international. Paolo is from Italy. He's Italian. Yuki and Hana are from Japan. They're Japanese. Ahmed is from Egypt.
+= Mi clase de inglés es muy internacional. Paolo es de Italia. Es italiano. Yuki y Hana son de Japón. Son japonesas. Ahmed es de Egipto.
+p: I'm from Mexico. Our teacher is from Canada. She isn't English, but she speaks English very well. Where are you from?
+= Yo soy de México. Nuestra profesora es de Canadá. No es inglesa, pero habla inglés muy bien. ¿De dónde eres tú?
+note: He's Italian ¦ other ¦ Las nacionalidades se escriben con mayúscula en inglés.
+note: They're Japanese ¦ other ¦ They're = They are.
+note: She isn't English ¦ other ¦ Negativa de be: isn't = is not.
+q: Where is Paolo from? ¦ ¿De dónde es Paolo? ¦ Italy / Japan / Egypt ¦ 0 ¦ «Paolo is from Italy».
+q: Where is the teacher from? ¦ ¿De dónde es la profesora? ¦ England / Canada / Mexico ¦ 1 ¦ «Our teacher is from Canada».
+q: Where is the writer from? ¦ ¿De dónde es la autora? ¦ Mexico / Japan / Canada ¦ 0 ¦ «I'm from Mexico».
+
+=== 2 | A postcard from London ¦ Una postal desde Londres
+sum: Una chica escribe una postal a su familia.
+p: Hi Mum and Dad! I'm in London with my friend Julia. We're in a small hotel near the river. London is big and beautiful!
+= ¡Hola, mamá y papá! Estoy en Londres con mi amiga Julia. Estamos en un hotel pequeño cerca del río. ¡Londres es grande y precioso!
+p: The weather isn't very good. It's cold and rainy. But we're happy. The people are very friendly. Love, Ana.
+= El tiempo no es muy bueno. Hace frío y llueve. Pero estamos contentas. La gente es muy amable. Besos, Ana.
+note: I'm in London ¦ prep ¦ in + ciudad o país.
+note: We're in a small hotel ¦ other ¦ We're = We are.
+note: The people are ¦ other ¦ people es plural: the people are (✗ is).
+q: Who is Ana with? ¦ ¿Con quién está Ana? ¦ her mum / her friend Julia / her brother ¦ 1 ¦ «with my friend Julia».
+q: Where is the hotel? ¦ ¿Dónde está el hotel? ¦ near the river / near the airport / in the park ¦ 0 ¦ «near the river».
+q: How is the weather? ¦ ¿Qué tiempo hace? ¦ hot and sunny / cold and rainy / warm ¦ 1 ¦ «It's cold and rainy».
+
+=== 3 | A form at the gym ¦ Un formulario en el gimnasio
+sum: Un chico rellena un formulario para apuntarse al gimnasio.
+p: Receptionist: What's your surname? Leo: It's Martin. M-A-R-T-I-N. Receptionist: And your first name? Leo: Leo. Receptionist: How old are you? Leo: I'm nineteen.
+= Recepcionista: ¿Cuál es su apellido? Leo: Martin. M-A-R-T-I-N. Recepcionista: ¿Y su nombre? Leo: Leo. Recepcionista: ¿Cuántos años tiene? Leo: Tengo diecinueve.
+p: Receptionist: What's your phone number? Leo: It's 07700 900 123. Receptionist: And your email address? Leo: leo.martin@mail.com. Receptionist: Great, thank you!
+= Recepcionista: ¿Cuál es su número de teléfono? Leo: Es el 07700 900 123. Recepcionista: ¿Y su correo electrónico? Leo: leo.martin@mail.com. Recepcionista: ¡Perfecto, gracias!
+note: What's your surname ¦ other ¦ surname = apellido; first name = nombre.
+note: I'm nineteen ¦ other ¦ La edad se dice con be: I'm nineteen (✗ I have nineteen).
+note: your email address ¦ other ¦ address = dirección (con dos d y dos s).
+q: What's Leo's surname? ¦ ¿Cuál es el apellido de Leo? ¦ Martin / Leo / Martinez ¦ 0 ¦ «It's Martin».
+q: How old is Leo? ¦ ¿Cuántos años tiene Leo? ¦ 17 / 19 / 90 ¦ 1 ¦ «I'm nineteen».
+q: Where is Leo? ¦ ¿Dónde está Leo? ¦ at a gym / at school / at a hotel ¦ 0 ¦ Rellena un formulario en el gimnasio.
+
+=== 3 | Lost passport ¦ Pasaporte perdido
+sum: Una turista habla con un policía porque ha perdido el pasaporte.
+p: Police officer: Good morning. Can I help you? Woman: Yes, please. My passport is lost. Police officer: What's your name? Woman: Clara Silva. Police officer: What's your nationality? Woman: I'm Brazilian.
+= Policía: Buenos días. ¿Puedo ayudarla? Mujer: Sí, por favor. He perdido el pasaporte. Policía: ¿Cómo se llama? Mujer: Clara Silva. Policía: ¿Cuál es su nacionalidad? Mujer: Soy brasileña.
+p: Police officer: What's your address in London? Woman: The Star Hotel, 15 King Street. Police officer: OK. Please come back tomorrow at ten.
+= Policía: ¿Cuál es su dirección en Londres? Mujer: El Star Hotel, King Street 15. Policía: De acuerdo. Por favor, vuelva mañana a las diez.
+note: Can I help you ¦ modal ¦ Fórmula de servicio: ¿Puedo ayudarle?
+note: What's your nationality ¦ other ¦ Pregunta formal por la nacionalidad.
+note: Please come back ¦ phrasal ¦ come back = volver.
+q: What's the problem? ¦ ¿Cuál es el problema? ¦ Her passport is lost. / Her hotel is closed. / She is ill. ¦ 0 ¦ «My passport is lost».
+q: What's her nationality? ¦ ¿Cuál es su nacionalidad? ¦ Brazilian / British / Spanish ¦ 0 ¦ «I'm Brazilian».
+q: When does she come back? ¦ ¿Cuándo vuelve? ¦ today / tomorrow at ten / next week ¦ 1 ¦ «come back tomorrow at ten».
+
+=== 4 | What's in the box? ¦ ¿Qué hay en la caja?
+sum: Un niño abre una caja de regalo.
+p: It's my birthday! What's in this box? Oh, it's a camera! And what are these? They're batteries. And this is a card from my grandma.
+= ¡Es mi cumpleaños! ¿Qué hay en esta caja? ¡Oh, es una cámara! ¿Y qué son estas? Son pilas. Y esta es una tarjeta de mi abuela.
+p: Look at those balloons over there! They're blue and red. That's my mum with the cake. Thank you, everybody!
+= ¡Mira esos globos de allí! Son azules y rojos. Esa es mi madre con la tarta. ¡Gracias a todos!
+note: this box ¦ other ¦ this = este/esta (cerca); that = ese/aquel (lejos).
+note: what are these ¦ other ¦ these = estos/estas (plural de this).
+note: those balloons ¦ other ¦ those = esos/aquellos (plural de that).
+q: What's in the box? ¦ ¿Qué hay en la caja? ¦ a camera / a phone / a book ¦ 0 ¦ «it's a camera!».
+q: Who is the card from? ¦ ¿De quién es la tarjeta? ¦ his grandma / his mum / his friend ¦ 0 ¦ «a card from my grandma».
+q: What colour are the balloons? ¦ ¿De qué color son los globos? ¦ blue and red / green / yellow and white ¦ 0 ¦ «They're blue and red».
+
+=== 4 | My desk ¦ Mi escritorio
+sum: Una estudiante describe su escritorio.
+p: This is my desk. On my desk there's a computer, a lamp and two books. There's a photo of my family too. There are some pens in a cup.
+= Este es mi escritorio. En mi escritorio hay un ordenador, una lámpara y dos libros. También hay una foto de mi familia. Hay unos bolígrafos en una taza.
+p: Under the desk there's a bag. It's my school bag. My phone is in the bag. My desk isn't very tidy!
+= Debajo del escritorio hay una mochila. Es mi mochila del colegio. Mi teléfono está en la mochila. ¡Mi escritorio no está muy ordenado!
+note: there's a computer ¦ other ¦ there's = there is (hay, singular).
+note: There are some pens ¦ other ¦ there are = hay (plural).
+note: Under the desk ¦ prep ¦ under = debajo de; on = encima de; in = dentro de.
+q: How many books are on the desk? ¦ ¿Cuántos libros hay en el escritorio? ¦ one / two / three ¦ 1 ¦ «two books».
+q: Where are the pens? ¦ ¿Dónde están los bolígrafos? ¦ in a cup / in the bag / under the desk ¦ 0 ¦ «some pens in a cup».
+q: Where is her phone? ¦ ¿Dónde está su teléfono? ¦ on the desk / in the bag / in her pocket ¦ 1 ¦ «My phone is in the bag».
+
+=== 5 | Meet my family ¦ Te presento a mi familia
+sum: Un chico describe una foto de su familia.
+p: This is a photo of my family. This is my dad. His name's Peter and he's forty-five. This is my mum, Kate. My parents are teachers.
+= Esta es una foto de mi familia. Este es mi padre. Se llama Peter y tiene cuarenta y cinco años. Esta es mi madre, Kate. Mis padres son profesores.
+p: I've got one sister and two brothers. My sister's name is Emily. She's ten. My brothers are twins. Their names are Tom and Ben. And this is our cat, Lucky!
+= Tengo una hermana y dos hermanos. Mi hermana se llama Emily. Tiene diez años. Mis hermanos son gemelos. Se llaman Tom y Ben. ¡Y este es nuestro gato, Lucky!
+note: His name's Peter ¦ pronoun ¦ his = su (de él); her = su (de ella).
+note: I've got ¦ other ¦ have got = tener (inglés británico).
+note: Their names ¦ pronoun ¦ their = su/sus (de ellos).
+q: What do his parents do? ¦ ¿A qué se dedican sus padres? ¦ They're doctors. / They're teachers. / They're cooks. ¦ 1 ¦ «My parents are teachers».
+q: How old is Emily? ¦ ¿Cuántos años tiene Emily? ¦ eight / ten / twelve ¦ 1 ¦ «She's ten».
+q: Who are Tom and Ben? ¦ ¿Quiénes son Tom y Ben? ¦ his cousins / his twin brothers / his friends ¦ 1 ¦ «My brothers are twins».
+
+=== 5 | A family wedding ¦ Una boda familiar
+sum: Una mujer habla de la boda de su prima.
+p: Today is my cousin Laura's wedding. Laura is my aunt's daughter. Her husband's name is Mark. He's a doctor. They're very happy.
+= Hoy es la boda de mi prima Laura. Laura es la hija de mi tía. Su marido se llama Mark. Es médico. Son muy felices.
+p: All my family is here: my grandparents, my uncles, my aunts and my cousins. My grandmother is ninety! She's the oldest person at the wedding.
+= Toda mi familia está aquí: mis abuelos, mis tíos, mis tías y mis primos. ¡Mi abuela tiene noventa años! Es la persona mayor de la boda.
+note: my cousin Laura's wedding ¦ other ¦ 's indica posesión: la boda de Laura.
+note: my aunt's daughter ¦ other ¦ aunt's daughter = la hija de mi tía.
+note: My grandmother is ninety ¦ other ¦ La edad con be.
+q: Who is Laura? ¦ ¿Quién es Laura? ¦ the writer's cousin / her sister / her aunt ¦ 0 ¦ «my cousin Laura».
+q: What's Mark's job? ¦ ¿Cuál es el trabajo de Mark? ¦ teacher / doctor / driver ¦ 1 ¦ «He's a doctor».
+q: How old is the grandmother? ¦ ¿Cuántos años tiene la abuela? ¦ eighty / ninety / seventy ¦ 1 ¦ «My grandmother is ninety!».
+
+=== 6 | Lost at the station ¦ Perdido en la estación
+sum: Una madre busca a su hijo en una estación y lo describe.
+p: Woman: Excuse me! I can't find my son. Guard: What does he look like? Woman: He's seven. He's quite short, with brown hair and big blue eyes.
+= Mujer: ¡Perdone! No encuentro a mi hijo. Vigilante: ¿Cómo es? Mujer: Tiene siete años. Es bastante bajo, con el pelo castaño y unos ojos azules grandes.
+p: Guard: What's he wearing? Woman: A red jacket and a green hat. Guard: Is that him, near the café? Woman: Yes! Thank you so much!
+= Vigilante: ¿Qué lleva puesto? Mujer: Una chaqueta roja y un gorro verde. Vigilante: ¿Es ese, cerca de la cafetería? Mujer: ¡Sí! ¡Muchísimas gracias!
+note: What does he look like ¦ idiom ¦ look like = ser (físicamente), parecerse a.
+note: big blue eyes ¦ word-order ¦ El adjetivo va delante del nombre: blue eyes.
+note: What's he wearing ¦ tense ¦ Presente continuo: lo que lleva puesto ahora.
+q: How old is the boy? ¦ ¿Cuántos años tiene el niño? ¦ five / seven / nine ¦ 1 ¦ «He's seven».
+q: What colour is his jacket? ¦ ¿De qué color es su chaqueta? ¦ red / green / blue ¦ 0 ¦ «A red jacket».
+q: Where is the boy? ¦ ¿Dónde está el niño? ¦ near the café / on the train / at home ¦ 0 ¦ «near the café».
+
+=== 6 | My best friend ¦ Mi mejor amiga
+sum: Una chica describe a su mejor amiga.
+p: My best friend is Zoe. She's tall and slim, with long black hair. She's got green eyes and she wears glasses.
+= Mi mejor amiga es Zoe. Es alta y delgada, con el pelo largo y negro. Tiene los ojos verdes y lleva gafas.
+p: Zoe is very funny and kind. She's a bit shy with new people, but she's never boring. She's clever too: she helps me with my maths homework!
+= Zoe es muy divertida y amable. Es un poco tímida con la gente nueva, pero nunca es aburrida. También es lista: ¡me ayuda con los deberes de mates!
+note: with long black hair ¦ word-order ¦ Orden: tamaño + color + nombre.
+note: she wears glasses ¦ other ¦ wear = llevar puesto (ropa, gafas).
+note: a bit shy ¦ other ¦ a bit = un poco.
+q: What does Zoe look like? ¦ ¿Cómo es Zoe físicamente? ¦ tall and slim / short and fat / tall with short hair ¦ 0 ¦ «She's tall and slim».
+q: What colour are her eyes? ¦ ¿De qué color son sus ojos? ¦ blue / green / brown ¦ 1 ¦ «She's got green eyes».
+q: How does Zoe help her friend? ¦ ¿Cómo ayuda Zoe a su amiga? ¦ with maths homework / with cooking / with English ¦ 0 ¦ «she helps me with my maths homework».
+
+=== 7 | Different jobs ¦ Trabajos distintos
+sum: Tres personas hablan de su trabajo.
+p: I'm Rosa. I'm a nurse. I work in a hospital and I help sick people. I work at night. My job is hard, but I love it.
+= Soy Rosa. Soy enfermera. Trabajo en un hospital y ayudo a gente enferma. Trabajo de noche. Mi trabajo es duro, pero me encanta.
+p: I'm Jack. I'm a chef. I work in a restaurant and I cook Italian food. My brother is a pilot. He flies to different countries every week.
+= Soy Jack. Soy cocinero. Trabajo en un restaurante y cocino comida italiana. Mi hermano es piloto. Vuela a países distintos cada semana.
+note: I'm a nurse ¦ article ¦ Con las profesiones se usa a/an: I'm a nurse (✗ I'm nurse).
+note: He flies ¦ tense ¦ Tercera persona: fly → flies.
+note: every week ¦ other ¦ every = cada, todos los.
+q: Where does Rosa work? ¦ ¿Dónde trabaja Rosa? ¦ in a hospital / in a school / in a shop ¦ 0 ¦ «I work in a hospital».
+q: What food does Jack cook? ¦ ¿Qué comida cocina Jack? ¦ Italian / Chinese / Mexican ¦ 0 ¦ «I cook Italian food».
+q: What does Jack's brother do? ¦ ¿A qué se dedica el hermano de Jack? ¦ He's a pilot. / He's a chef. / He's a nurse. ¦ 0 ¦ «My brother is a pilot».
+
+=== 7 | A job interview ¦ Una entrevista de trabajo
+sum: Una entrevista breve para un trabajo en una tienda.
+p: Manager: Do you work at the moment? Lily: Yes, I work in a café on Saturdays. Manager: Do you like it? Lily: Yes, I do. I like people.
+= Gerente: ¿Trabajas ahora? Lily: Sí, trabajo en una cafetería los sábados. Gerente: ¿Te gusta? Lily: Sí. Me gusta la gente.
+p: Manager: Can you work on Sundays? Lily: Yes, I can. Manager: Do you speak French? Lily: No, I don't, but I speak Spanish. Manager: Great. You start next week!
+= Gerente: ¿Puedes trabajar los domingos? Lily: Sí, puedo. Gerente: ¿Hablas francés? Lily: No, pero hablo español. Gerente: Estupendo. ¡Empiezas la semana que viene!
+note: Do you work ¦ tense ¦ Preguntas en presente simple con do.
+note: Yes, I do ¦ other ¦ Respuesta corta: Yes, I do / No, I don't.
+note: on Saturdays ¦ prep ¦ on + día de la semana.
+q: Where does Lily work now? ¦ ¿Dónde trabaja Lily ahora? ¦ in a café / in a shop / in a school ¦ 0 ¦ «I work in a café on Saturdays».
+q: What language does she speak? ¦ ¿Qué idioma habla? ¦ Spanish / French / German ¦ 0 ¦ «I speak Spanish».
+q: When does she start? ¦ ¿Cuándo empieza? ¦ tomorrow / next week / next month ¦ 1 ¦ «You start next week!».
+
+=== 8 | A day on the farm ¦ Un día en la granja
+sum: Un granjero describe su rutina diaria.
+p: I get up at five o'clock every day. First, I have a cup of tea. Then I feed the cows and the chickens. I have breakfast at seven.
+= Me levanto a las cinco todos los días. Primero me tomo una taza de té. Después doy de comer a las vacas y las gallinas. Desayuno a las siete.
+p: In the afternoon, I work in the fields. My wife sells our eggs at the market. We have dinner at six and we go to bed early, at nine.
+= Por la tarde trabajo en el campo. Mi mujer vende nuestros huevos en el mercado. Cenamos a las seis y nos acostamos pronto, a las nueve.
+note: I get up ¦ phrasal ¦ get up = levantarse.
+note: at five o'clock ¦ prep ¦ at + hora.
+note: My wife sells ¦ tense ¦ Tercera persona singular: sells.
+q: What time does the farmer get up? ¦ ¿A qué hora se levanta el granjero? ¦ at five / at seven / at nine ¦ 0 ¦ «at five o'clock».
+q: What does his wife sell? ¦ ¿Qué vende su mujer? ¦ eggs / milk / vegetables ¦ 0 ¦ «My wife sells our eggs».
+q: What time do they go to bed? ¦ ¿A qué hora se acuestan? ¦ at six / at nine / at eleven ¦ 1 ¦ «we go to bed early, at nine».
+
+=== 8 | Mornings with a baby ¦ Mañanas con un bebé
+sum: Un padre cuenta su mañana con su bebé.
+p: My baby daughter wakes up at six. I make her milk and my wife has a shower. Then I have a quick breakfast. I never have time for coffee!
+= Mi hija bebé se despierta a las seis. Yo le preparo la leche y mi mujer se ducha. Después desayuno rápido. ¡Nunca tengo tiempo para un café!
+p: At eight, I take her to my mother's house. My mother looks after her all day. I usually arrive at work at nine, very tired but happy.
+= A las ocho la llevo a casa de mi madre. Mi madre la cuida todo el día. Normalmente llego al trabajo a las nueve, muy cansado pero feliz.
+note: wakes up ¦ phrasal ¦ wake up = despertarse.
+note: I never have time ¦ word-order ¦ Los adverbios de frecuencia van delante del verbo principal.
+note: looks after ¦ phrasal ¦ look after = cuidar.
+q: What time does the baby wake up? ¦ ¿A qué hora se despierta el bebé? ¦ at six / at eight / at nine ¦ 0 ¦ «wakes up at six».
+q: Who looks after the baby? ¦ ¿Quién cuida al bebé? ¦ his mother / his wife / a nurse ¦ 0 ¦ «My mother looks after her».
+q: How does he feel at work? ¦ ¿Cómo se siente en el trabajo? ¦ tired but happy / angry / sad ¦ 0 ¦ «very tired but happy».
+
+=== 9 | Weekend hobbies ¦ Aficiones de fin de semana
+sum: Tres amigos hablan de lo que hacen el fin de semana.
+p: I love swimming. I go to the pool every Saturday morning. My friend Dan likes playing football. He plays in a team.
+= Me encanta nadar. Voy a la piscina todos los sábados por la mañana. A mi amigo Dan le gusta jugar al fútbol. Juega en un equipo.
+p: Our friend Sara doesn't like sport. She likes reading and painting. On Sundays, we all meet in the park and have a picnic.
+= A nuestra amiga Sara no le gusta el deporte. Le gusta leer y pintar. Los domingos, todos quedamos en el parque y hacemos un pícnic.
+note: I love swimming ¦ gerund-inf ¦ love / like + -ing.
+note: Sara doesn't like sport ¦ tense ¦ Negativa en tercera persona: doesn't + verbo.
+note: On Sundays ¦ prep ¦ on + día (costumbre: plural).
+q: When does the writer go swimming? ¦ ¿Cuándo va a nadar el autor? ¦ on Saturday mornings / every day / on Sundays ¦ 0 ¦ «every Saturday morning».
+q: What does Sara like? ¦ ¿Qué le gusta a Sara? ¦ reading and painting / football / swimming ¦ 0 ¦ «She likes reading and painting».
+q: What do they do on Sundays? ¦ ¿Qué hacen los domingos? ¦ have a picnic / go swimming / play football ¦ 0 ¦ «have a picnic».
+
+=== 9 | My grandad's hobby ¦ La afición de mi abuelo
+sum: Una chica habla de la afición de su abuelo.
+p: My grandad is seventy-two. He loves gardening. He grows tomatoes, potatoes and beautiful flowers. He's in his garden every day.
+= Mi abuelo tiene setenta y dos años. Le encanta la jardinería. Cultiva tomates, patatas y flores preciosas. Está en su jardín todos los días.
+p: He doesn't watch TV much. In the evening, he listens to the radio or plays chess with me. He usually wins!
+= No ve mucho la tele. Por la noche escucha la radio o juega al ajedrez conmigo. ¡Normalmente gana él!
+note: He loves gardening ¦ gerund-inf ¦ love + -ing.
+note: He doesn't watch TV much ¦ tense ¦ doesn't + verbo base.
+note: He usually wins ¦ word-order ¦ usually delante del verbo.
+q: How old is her grandad? ¦ ¿Cuántos años tiene su abuelo? ¦ sixty-two / seventy-two / eighty-two ¦ 1 ¦ «seventy-two».
+q: What does he grow? ¦ ¿Qué cultiva? ¦ tomatoes, potatoes and flowers / apples / only flowers ¦ 0 ¦ «tomatoes, potatoes and beautiful flowers».
+q: What game do they play? ¦ ¿A qué juegan? ¦ chess / cards / football ¦ 0 ¦ «plays chess with me».
+
+=== 10 | Important dates ¦ Fechas importantes
+sum: Una chica habla de las fechas importantes de su familia.
+p: My birthday is on the third of May. My brother's birthday is on the twenty-first of December, so he gets his presents near Christmas!
+= Mi cumpleaños es el tres de mayo. El cumpleaños de mi hermano es el veintiuno de diciembre, ¡así que recibe sus regalos cerca de Navidad!
+p: My parents' wedding anniversary is in July. In August, we always go on holiday. My favourite month is May, of course!
+= El aniversario de boda de mis padres es en julio. En agosto siempre nos vamos de vacaciones. Mi mes favorito es mayo, ¡claro!
+note: on the third of May ¦ prep ¦ on + fecha concreta.
+note: in July ¦ prep ¦ in + mes.
+note: My parents' wedding anniversary ¦ other ¦ Plural en -s: el apóstrofo va después (parents').
+q: When is her birthday? ¦ ¿Cuándo es su cumpleaños? ¦ 3rd May / 21st December / in July ¦ 0 ¦ «on the third of May».
+q: When do they go on holiday? ¦ ¿Cuándo se van de vacaciones? ¦ in July / in August / in December ¦ 1 ¦ «In August».
+q: What's her favourite month? ¦ ¿Cuál es su mes favorito? ¦ May / August / December ¦ 0 ¦ «My favourite month is May».
+
+=== 10 | The school calendar ¦ El calendario escolar
+sum: Información del calendario de un colegio.
+p: School starts on Monday the fifth of September. The first holiday is in October: one week. The Christmas holidays are from the twentieth of December to the sixth of January.
+= El colegio empieza el lunes cinco de septiembre. Las primeras vacaciones son en octubre: una semana. Las vacaciones de Navidad son del veinte de diciembre al seis de enero.
+p: There's a school trip on Friday the twelfth of April. The last day of school is in June. Students don't have classes on Saturdays or Sundays.
+= Hay una excursión del colegio el viernes doce de abril. El último día de clase es en junio. Los alumnos no tienen clase los sábados ni los domingos.
+note: on Monday the fifth of September ¦ prep ¦ on + día y fecha.
+note: from the twentieth of December to the sixth of January ¦ prep ¦ from … to = de … a / desde … hasta.
+note: the twelfth ¦ other ¦ Ordinal irregular: twelve → twelfth.
+q: When does school start? ¦ ¿Cuándo empieza el colegio? ¦ 5th September / 6th January / 12th April ¦ 0 ¦ «on Monday the fifth of September».
+q: When is the school trip? ¦ ¿Cuándo es la excursión? ¦ in October / on 12th April / in June ¦ 1 ¦ «on Friday the twelfth of April».
+q: When is the last day of school? ¦ ¿Cuándo es el último día de clase? ¦ in May / in June / in July ¦ 1 ¦ «The last day of school is in June».
+
+=== 11 | At the café ¦ En la cafetería
+sum: Dos amigas piden en una cafetería.
+p: Waiter: Hello! What would you like? Amy: A cup of tea, please. Jo: Can I have an orange juice? Waiter: Of course. Anything to eat?
+= Camarero: ¡Hola! ¿Qué desean? Amy: Una taza de té, por favor. Jo: ¿Me pone un zumo de naranja? Camarero: Por supuesto. ¿Algo de comer?
+p: Amy: Some chocolate cake, please. Jo: I'd like a cheese sandwich. Waiter: That's nine pounds fifty. Jo: Here you are.
+= Amy: Tarta de chocolate, por favor. Jo: Yo querría un sándwich de queso. Camarero: Son nueve libras con cincuenta. Jo: Aquí tiene.
+note: What would you like ¦ modal ¦ Fórmula cortés para preguntar qué quiere alguien.
+note: Some chocolate cake ¦ quantifier ¦ some con nombres incontables (cake = tarta, como masa).
+note: I'd like ¦ modal ¦ I'd like = I would like (querría).
+q: What does Amy drink? ¦ ¿Qué bebe Amy? ¦ tea / coffee / orange juice ¦ 0 ¦ «A cup of tea».
+q: What does Jo eat? ¦ ¿Qué come Jo? ¦ a cheese sandwich / chocolate cake / soup ¦ 0 ¦ «I'd like a cheese sandwich».
+q: How much is it? ¦ ¿Cuánto es? ¦ £9.50 / £5.90 / £19.50 ¦ 0 ¦ «nine pounds fifty».
+
+=== 12 | A flat to rent ¦ Un piso en alquiler
+sum: Un anuncio de alquiler de un piso.
+p: Flat for rent in the city centre. There are two bedrooms, a big living room and a modern kitchen. There's a bathroom with a shower.
+= Se alquila piso en el centro. Hay dos dormitorios, un salón grande y una cocina moderna. Hay un baño con ducha.
+p: There isn't a garden, but there's a small balcony. There aren't any pets allowed. The rent is eight hundred pounds a month.
+= No hay jardín, pero hay un balcón pequeño. No se permiten mascotas. El alquiler es de ochocientas libras al mes.
+note: There are two bedrooms ¦ other ¦ there are + plural.
+note: There isn't a garden ¦ other ¦ Negativa: there isn't (singular).
+note: There aren't any pets ¦ quantifier ¦ any en frases negativas.
+q: How many bedrooms are there? ¦ ¿Cuántos dormitorios hay? ¦ one / two / three ¦ 1 ¦ «two bedrooms».
+q: Is there a garden? ¦ ¿Hay jardín? ¦ yes / no, but there's a balcony / yes, a big one ¦ 1 ¦ «There isn't a garden, but there's a small balcony».
+q: How much is the rent? ¦ ¿Cuánto cuesta el alquiler? ¦ £600 / £800 / £1,000 ¦ 1 ¦ «eight hundred pounds a month».
+
+=== 13 | Excuse me, where's the museum? ¦ Perdone, ¿dónde está el museo?
+sum: Un turista pregunta cómo llegar a un museo.
+p: Tourist: Excuse me, where's the museum, please? Woman: Go straight on and turn left at the bank. Then walk past the church.
+= Turista: Perdone, ¿dónde está el museo, por favor? Mujer: Siga recto y gire a la izquierda en el banco. Después pase la iglesia.
+p: Woman: The museum is on the right, opposite the park. It's next to a big supermarket. Tourist: Is it far? Woman: No, it's about five minutes on foot.
+= Mujer: El museo está a la derecha, enfrente del parque. Está al lado de un supermercado grande. Turista: ¿Está lejos? Mujer: No, está a unos cinco minutos a pie.
+note: Go straight on ¦ other ¦ Imperativo para dar indicaciones.
+note: opposite the park ¦ prep ¦ opposite = enfrente de.
+note: next to ¦ prep ¦ next to = al lado de.
+q: Where do you turn left? ¦ ¿Dónde hay que girar a la izquierda? ¦ at the bank / at the church / at the park ¦ 0 ¦ «turn left at the bank».
+q: What is opposite the museum? ¦ ¿Qué hay enfrente del museo? ¦ the park / the bank / the church ¦ 0 ¦ «opposite the park».
+q: How far is it? ¦ ¿A qué distancia está? ¦ five minutes on foot / an hour / very far ¦ 0 ¦ «about five minutes on foot».
+
+=== 14 | Talented kids ¦ Niños con talento
+sum: Una madre habla de lo que saben hacer sus hijos.
+p: My son Oscar is six. He can read and write, but he can't ride a bike yet. He can swim very well!
+= Mi hijo Oscar tiene seis años. Sabe leer y escribir, pero todavía no sabe montar en bici. ¡Nada muy bien!
+p: My daughter Lucy is twelve. She can play the piano and she can speak three languages. She can't cook, but she can make great pancakes!
+= Mi hija Lucy tiene doce años. Sabe tocar el piano y habla tres idiomas. No sabe cocinar, ¡pero hace unas tortitas buenísimas!
+note: He can read ¦ modal ¦ can = saber, poder (habilidad).
+note: he can't ride a bike yet ¦ modal ¦ can't = no sabe, no puede.
+note: play the piano ¦ article ¦ Con instrumentos: play the piano, the guitar.
+q: What can't Oscar do? ¦ ¿Qué no sabe hacer Oscar? ¦ ride a bike / swim / read ¦ 0 ¦ «he can't ride a bike yet».
+q: How many languages does Lucy speak? ¦ ¿Cuántos idiomas habla Lucy? ¦ two / three / four ¦ 1 ¦ «three languages».
+q: What can Lucy make? ¦ ¿Qué sabe hacer Lucy? ¦ pancakes / cakes / pizza ¦ 0 ¦ «she can make great pancakes».
+
+=== 15 | A phone call from the beach ¦ Una llamada desde la playa
+sum: Una chica llama a su madre desde la playa.
+p: Mum: Hi, Ellie! What are you doing? Ellie: I'm sitting on the beach. Dad is swimming and Ben is playing volleyball with some friends.
+= Mamá: ¡Hola, Ellie! ¿Qué estás haciendo? Ellie: Estoy sentada en la playa. Papá está nadando y Ben está jugando al voleibol con unos amigos.
+p: Mum: Is it hot? Ellie: Yes, it's really hot. We're having a great time! Mum: Are you wearing sun cream? Ellie: Yes, Mum, don't worry!
+= Mamá: ¿Hace calor? Ellie: Sí, hace mucho calor. ¡Lo estamos pasando genial! Mamá: ¿Llevas crema solar? Ellie: Sí, mamá, ¡no te preocupes!
+note: What are you doing ¦ tense ¦ Presente continuo: acción en este momento.
+note: Dad is swimming ¦ tense ¦ be + -ing; swim → swimming (doble m).
+note: We're having a great time ¦ idiom ¦ have a great time = pasarlo genial.
+q: What is Ellie doing? ¦ ¿Qué está haciendo Ellie? ¦ sitting on the beach / swimming / playing volleyball ¦ 0 ¦ «I'm sitting on the beach».
+q: What is Ben doing? ¦ ¿Qué está haciendo Ben? ¦ playing volleyball / swimming / sleeping ¦ 0 ¦ «Ben is playing volleyball».
+q: What is Mum worried about? ¦ ¿Qué le preocupa a mamá? ¦ sun cream / money / food ¦ 0 ¦ «Are you wearing sun cream?».
+
+=== 16 | In a clothes shop ¦ En una tienda de ropa
+sum: Un cliente compra un jersey.
+p: Assistant: Can I help you? Customer: Yes, I'm looking for a jumper. Assistant: What size are you? Customer: Medium. Have you got this one in blue?
+= Dependienta: ¿Le puedo ayudar? Cliente: Sí, busco un jersey. Dependienta: ¿Qué talla tiene? Cliente: Mediana. ¿Tiene este en azul?
+p: Assistant: Yes, here you are. Customer: Can I try it on? Assistant: Of course, the changing rooms are over there. Customer: It's perfect. How much is it? Assistant: It's thirty pounds.
+= Dependienta: Sí, aquí tiene. Cliente: ¿Me lo puedo probar? Dependienta: Claro, los probadores están allí. Cliente: Es perfecto. ¿Cuánto cuesta? Dependienta: Treinta libras.
+note: I'm looking for ¦ phrasal ¦ look for = buscar.
+note: Can I try it on ¦ phrasal ¦ try on = probarse (ropa); el pronombre va en medio.
+note: How much is it ¦ other ¦ Para preguntar el precio.
+q: What is the customer looking for? ¦ ¿Qué busca el cliente? ¦ a jumper / a jacket / shoes ¦ 0 ¦ «I'm looking for a jumper».
+q: What colour does he want? ¦ ¿Qué color quiere? ¦ blue / red / black ¦ 0 ¦ «in blue».
+q: How much is the jumper? ¦ ¿Cuánto cuesta el jersey? ¦ £13 / £30 / £300 ¦ 1 ¦ «It's thirty pounds».
+
+=== 17 | Seasons in my country ¦ Las estaciones en mi país
+sum: Un chico de Canadá describe las estaciones.
+p: I live in Canada. In winter, it's very cold and it snows a lot. We go skating on the lake. In spring, it's often windy and wet.
+= Vivo en Canadá. En invierno hace mucho frío y nieva mucho. Vamos a patinar al lago. En primavera a menudo hace viento y llueve.
+p: Summer is warm and sunny. We go camping in the mountains. Autumn is my favourite season: the leaves are red, orange and yellow. It's beautiful!
+= El verano es cálido y soleado. Vamos de acampada a las montañas. El otoño es mi estación favorita: las hojas son rojas, naranjas y amarillas. ¡Es precioso!
+note: it snows a lot ¦ other ¦ El tiempo con it: it snows, it rains.
+note: In winter ¦ prep ¦ in + estación.
+note: We go skating ¦ gerund-inf ¦ go + -ing para actividades: go skating, go camping.
+q: Where do they go skating? ¦ ¿Dónde patinan? ¦ on the lake / in the park / in the mountains ¦ 0 ¦ «We go skating on the lake».
+q: What do they do in summer? ¦ ¿Qué hacen en verano? ¦ go camping / go skating / stay at home ¦ 0 ¦ «We go camping in the mountains».
+q: What is his favourite season? ¦ ¿Cuál es su estación favorita? ¦ autumn / winter / summer ¦ 0 ¦ «Autumn is my favourite season».
+
+=== 18 | Where were you last night? ¦ ¿Dónde estabas anoche?
+sum: Una madre pregunta a su hijo dónde estuvo.
+p: Mum: Where were you last night? Tom: I was at Jack's house. Mum: Were you alone? Tom: No, Ella and Sam were there too.
+= Mamá: ¿Dónde estabas anoche? Tom: Estaba en casa de Jack. Mamá: ¿Estabais solos? Tom: No, Ella y Sam también estaban allí.
+p: Mum: Was it fun? Tom: Yes, it was great. Mum: But your phone wasn't on! Tom: Sorry, Mum. The battery was dead.
+= Mamá: ¿Fue divertido? Tom: Sí, fue genial. Mamá: ¡Pero tu teléfono no estaba encendido! Tom: Lo siento, mamá. La batería estaba agotada.
+note: Where were you ¦ tense ¦ Pasado de be: were con you, we, they.
+note: I was at Jack's house ¦ tense ¦ was con I, he, she, it.
+note: your phone wasn't on ¦ tense ¦ wasn't = was not.
+q: Where was Tom? ¦ ¿Dónde estaba Tom? ¦ at Jack's house / at school / at the cinema ¦ 0 ¦ «I was at Jack's house».
+q: Who was there too? ¦ ¿Quién estaba también? ¦ Ella and Sam / his sister / nobody ¦ 0 ¦ «Ella and Sam were there too».
+q: Why wasn't his phone on? ¦ ¿Por qué no estaba encendido su teléfono? ¦ The battery was dead. / He lost it. / It was broken. ¦ 0 ¦ «The battery was dead».
+
+=== 19 | A trip to the zoo ¦ Una visita al zoo
+sum: Un niño cuenta su visita al zoo el sábado.
+p: Last Saturday, I went to the zoo with my class. We travelled by bus. First, we visited the lions. They were very big and they slept all the time!
+= El sábado pasado fui al zoo con mi clase. Fuimos en autobús. Primero visitamos a los leones. ¡Eran muy grandes y dormían todo el rato!
+p: Then we watched the monkeys. They were really funny. We had lunch in the park and I bought a toy elephant. It was a fantastic day!
+= Después vimos a los monos. Eran muy graciosos. Comimos en el parque y me compré un elefante de juguete. ¡Fue un día fantástico!
+note: I went to the zoo ¦ tense ¦ go → went (pasado irregular).
+note: We travelled by bus ¦ tense ¦ Pasado regular: -ed (travel → travelled).
+note: I bought ¦ tense ¦ buy → bought (pasado irregular).
+q: How did they travel? ¦ ¿Cómo viajaron? ¦ by bus / by car / by train ¦ 0 ¦ «We travelled by bus».
+q: What did the lions do? ¦ ¿Qué hacían los leones? ¦ They slept. / They ate. / They played. ¦ 0 ¦ «they slept all the time».
+q: What did he buy? ¦ ¿Qué compró? ¦ a toy elephant / a monkey / a book ¦ 0 ¦ «I bought a toy elephant».
+
+=== 20 | My plans for the summer ¦ Mis planes para el verano
+sum: Una estudiante habla de sus planes de verano.
+p: This summer, I want to travel to Scotland. I'd like to see the castles and the lakes. I'm going to stay with my aunt in Edinburgh.
+= Este verano quiero viajar a Escocia. Me gustaría ver los castillos y los lagos. Voy a quedarme con mi tía en Edimburgo.
+p: I'm going to work in a café in July to save money. In August, I want to learn to drive. I hope it's a good summer!
+= En julio voy a trabajar en una cafetería para ahorrar dinero. En agosto quiero aprender a conducir. ¡Espero que sea un buen verano!
+note: I want to travel ¦ gerund-inf ¦ want + to + infinitivo.
+note: I'd like to see ¦ modal ¦ would like + to + infinitivo = me gustaría.
+note: I'm going to stay ¦ tense ¦ be going to = planes decididos.
+q: Where does she want to travel? ¦ ¿Adónde quiere viajar? ¦ Scotland / Ireland / Wales ¦ 0 ¦ «travel to Scotland».
+q: Who is she going to stay with? ¦ ¿Con quién se va a quedar? ¦ her aunt / her friend / her grandparents ¦ 0 ¦ «stay with my aunt».
+q: What does she want to learn in August? ¦ ¿Qué quiere aprender en agosto? ¦ to drive / to cook / to swim ¦ 0 ¦ «I want to learn to drive».
