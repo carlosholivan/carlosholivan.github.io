@@ -154,6 +154,7 @@ def gloss_of(k, tok):
 SKIP = set("ne n' pas plus jamais rien point guère déjà toujours encore bien mal beaucoup peu trop vraiment souvent même aussi tout enfin jamais".split())
 SUBJ_PRON = set("je j' tu il elle on nous vous ils elles qui".split())
 REFL = set("me m' te t' se s' nous vous".split())
+OBJ = set("en y le la l' les lui leur".split())
 AUX_TENSE = {'pres': 'pc', 'imparf': 'pqp', 'fut': 'futant', 'cond': 'condp', 'subj': 'subjp', 'ps': 'pqp'}
 MODALS = {'pouvoir', 'devoir', 'vouloir', 'savoir', 'falloir'}
 SUBJ_TRIG = re.compile(r"\b(faut|faudrait|veux|veut|voulez|voudrais|voudrait|souhaite|aimerais|bien que|pour que|afin que|avant que|sans que|à moins que|jusqu'à ce que|"
@@ -184,6 +185,12 @@ def verb_phrases(text, toks, doc):
         while j < n and toks[j][2] in SKIP:
             j += 1
         return j if j < n else None
+
+    def inf_after(j):
+        """Index of the infinitive at j, skipping object pronouns (de m'appeler, de le faire)."""
+        while j < n and (toks[j][2] in OBJ or toks[j][2] in REFL):
+            j += 1
+        return j if j < n and toks[j][2] in INFS else None
 
     def is_verb(i):
         s, e, k = toks[i]
@@ -228,8 +235,9 @@ def verb_phrases(text, toks, doc):
                     kind, end, lem = AUX_TENSE.get(at[0] if at else 'pres', 'pc'), j, ppl
         elif 'aller' in lemmas and j is not None and jk in INFS and any(t in ('pres', 'imparf') for w, t, p in cands if w == 'aller'):
             kind, end, lem = 'futproche', j, jk
-        elif 'venir' in lemmas and j is not None and jk in ('de', "d'") and j + 1 < n and toks[j + 1][2] in INFS:
-            kind, end, lem = 'passerec', j + 1, toks[j + 1][2]
+        elif 'venir' in lemmas and j is not None and jk in ('de', "d'") and inf_after(j + 1) is not None:
+            k2 = inf_after(j + 1)
+            kind, end, lem = 'passerec', k2, toks[k2][2]
         elif 'être' in lemmas and j is not None and jk == 'en' and j + 3 < n and toks[j + 1][2] == 'train' and toks[j + 2][2] in ('de', "d'") and toks[j + 3][2] in INFS:
             kind, end, lem = 'encours', j + 3, toks[j + 3][2]
         elif 'faire' in lemmas and j is not None and jk in INFS and jk not in ('être', 'avoir'):
@@ -250,7 +258,7 @@ def verb_phrases(text, toks, doc):
                 prev = toks[i - 1][2] if i else ''
                 if 'subj' in ts and ('pres' not in ts or (re.search(r"\bqu[e']", before[-40:]) and SUBJ_TRIG.search(before))):
                     kind = 'subj'
-                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e):
+                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e):
                     kind = 'imp'
                 elif 'pres' in ts:
                     kind = 'pres'

@@ -1,0 +1,8844 @@
+[
+{
+"word": "pas encore",
+"m": {
+"es": "todavía no"
+},
+"pos": "",
+"w": "pas encore",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1287
+},
+{
+"word": "récemment",
+"m": {
+"es": "recientemente"
+},
+"pos": "adverb",
+"w": "récemment",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 1288
+},
+{
+"word": "la naissance",
+"m": {
+"es": "nacimiento"
+},
+"pos": "noun",
+"w": "la naissance",
+"p": "",
+"g": "f",
+"unit": 2,
+"u": "a2-2",
+"q": 1289
+},
+{
+"word": "en retard",
+"m": {
+"es": "tarde, con retraso"
+},
+"pos": "",
+"w": "en retard",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1290
+},
+{
+"word": "à l'heure",
+"m": {
+"es": "a la hora, puntual"
+},
+"pos": "",
+"w": "à l'heure",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1291
+},
+{
+"word": "autrefois",
+"m": {
+"es": "antaño, antes"
+},
+"pos": "adverb",
+"w": "autrefois",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1292
+},
+{
+"word": "d'habitude",
+"m": {
+"es": "normalmente, de costumbre"
+},
+"pos": "",
+"w": "d'habitude",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1293
+},
+{
+"word": "la ferme",
+"m": {
+"es": "granja"
+},
+"pos": "adverb/adjective/noun",
+"w": "la ferme",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "a2-3",
+"q": 1294
+},
+{
+"word": "le grenier",
+"m": {
+"es": "desván"
+},
+"pos": "noun",
+"w": "le grenier",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "a2-3",
+"q": 1295
+},
+{
+"word": "le jouet",
+"m": {
+"es": "juguete"
+},
+"pos": "noun",
+"w": "le jouet",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "a2-3",
+"q": 1296
+},
+{
+"word": "la poupée",
+"m": {
+"es": "muñeca"
+},
+"pos": "noun",
+"w": "la poupée",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "a2-3",
+"q": 1297
+},
+{
+"word": "l'instituteur",
+"m": {
+"es": "maestro (de primaria) · masc."
+},
+"pos": "noun",
+"w": "l'instituteur",
+"p": "",
+"g": "m",
+"unit": 3,
+"u": "a2-3",
+"q": 1298
+},
+{
+"word": "la récréation",
+"m": {
+"es": "recreo"
+},
+"pos": "noun",
+"w": "la récréation",
+"p": "",
+"g": "f",
+"unit": 3,
+"u": "a2-3",
+"q": 1299
+},
+{
+"word": "tout à coup",
+"m": {
+"es": "de repente"
+},
+"pos": "",
+"w": "tout à coup",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1300
+},
+{
+"word": "pendant que",
+"m": {
+"es": "mientras"
+},
+"pos": "",
+"w": "pendant que",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1301
+},
+{
+"word": "le voleur",
+"m": {
+"es": "ladrón"
+},
+"pos": "noun/adjective",
+"w": "le voleur",
+"p": "",
+"g": "m",
+"unit": 4,
+"u": "a2-4",
+"q": 1302
+},
+{
+"word": "casser",
+"m": {
+"es": "romper"
+},
+"pos": "verb",
+"w": "casser",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1303
+},
+{
+"word": "inquiet",
+"m": {
+"es": "preocupado"
+},
+"pos": "adjective",
+"w": "inquiet",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1304
+},
+{
+"word": "surpris",
+"m": {
+"es": "sorprendido"
+},
+"pos": "adjective",
+"w": "surpris",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1305
+},
+{
+"word": "sombre",
+"m": {
+"es": "oscuro"
+},
+"pos": "adjective",
+"w": "sombre",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1306
+},
+{
+"word": "ça fait",
+"m": {
+"es": "hace (ça fait deux ans que…)"
+},
+"pos": "",
+"w": "ça fait",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1307
+},
+{
+"word": "la durée",
+"m": {
+"es": "duración"
+},
+"pos": "noun",
+"w": "la durée",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "a2-5",
+"q": 1308
+},
+{
+"word": "la seconde",
+"m": {
+"es": "segundo"
+},
+"pos": "noun",
+"w": "la seconde",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "a2-5",
+"q": 1309
+},
+{
+"word": "la période",
+"m": {
+"es": "periodo"
+},
+"pos": "noun",
+"w": "la période",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "a2-5",
+"q": 1310
+},
+{
+"word": "l'instant",
+"m": {
+"es": "instante · masc."
+},
+"pos": "noun/adjective",
+"w": "l'instant",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "a2-5",
+"q": 1311
+},
+{
+"word": "actuellement",
+"m": {
+"es": "actualmente"
+},
+"pos": "adverb",
+"w": "actuellement",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1312
+},
+{
+"word": "à partir de",
+"m": {
+"es": "a partir de"
+},
+"pos": "",
+"w": "à partir de",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1313
+},
+{
+"word": "jusqu'à",
+"m": {
+"es": "hasta"
+},
+"pos": "",
+"w": "jusqu'à",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1314
+},
+{
+"word": "ramasser",
+"m": {
+"es": "recoger"
+},
+"pos": "verb",
+"w": "ramasser",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1315
+},
+{
+"word": "le conseiller",
+"m": {
+"es": "consejero, asesor"
+},
+"pos": "verb/noun",
+"w": "le conseiller",
+"p": "",
+"g": "m",
+"unit": 7,
+"u": "a2-7",
+"q": 1316
+},
+{
+"word": "emprunter",
+"m": {
+"es": "pedir prestado"
+},
+"pos": "verb",
+"w": "emprunter",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1317
+},
+{
+"word": "s'habituer",
+"m": {
+"es": "acostumbrarse"
+},
+"pos": "verb",
+"w": "s'habituer",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1318
+},
+{
+"word": "avoir besoin de",
+"m": {
+"es": "necesitar"
+},
+"pos": "",
+"w": "avoir besoin de",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1319
+},
+{
+"word": "avoir envie de",
+"m": {
+"es": "tener ganas de"
+},
+"pos": "",
+"w": "avoir envie de",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1320
+},
+{
+"word": "quelques",
+"m": {
+"es": "algunos, unos pocos"
+},
+"pos": "",
+"w": "quelques",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1321
+},
+{
+"word": "autant",
+"m": {
+"es": "tanto"
+},
+"pos": "adverb",
+"w": "autant",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1322
+},
+{
+"word": "comparer",
+"m": {
+"es": "comparar"
+},
+"pos": "verb",
+"w": "comparer",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1323
+},
+{
+"word": "pareil",
+"m": {
+"es": "igual"
+},
+"pos": "adverb/adjective/noun",
+"w": "pareil",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1324
+},
+{
+"word": "semblable",
+"m": {
+"es": "semejante"
+},
+"pos": "adjective",
+"w": "semblable",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1325
+},
+{
+"word": "lent",
+"m": {
+"es": "lento"
+},
+"pos": "adjective",
+"w": "lent",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1326
+},
+{
+"word": "bruyant",
+"m": {
+"es": "ruidoso"
+},
+"pos": "adjective",
+"w": "bruyant",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1327
+},
+{
+"word": "confortable",
+"m": {
+"es": "cómodo"
+},
+"pos": "adjective",
+"w": "confortable",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1328
+},
+{
+"word": "pratique",
+"m": {
+"es": "práctico"
+},
+"pos": "adjective/noun",
+"w": "pratique",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1329
+},
+{
+"word": "le record",
+"m": {
+"es": "récord"
+},
+"pos": "noun",
+"w": "le record",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "a2-10",
+"q": 1330
+},
+{
+"word": "profond",
+"m": {
+"es": "profundo"
+},
+"pos": "adjective",
+"w": "profond",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1331
+},
+{
+"word": "peuplé",
+"m": {
+"es": "poblado"
+},
+"pos": "",
+"w": "peuplé",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1332
+},
+{
+"word": "connu",
+"m": {
+"es": "conocido"
+},
+"pos": "adjective",
+"w": "connu",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1333
+},
+{
+"word": "le désert",
+"m": {
+"es": "desierto"
+},
+"pos": "adjective/noun",
+"w": "le désert",
+"p": "",
+"g": "m",
+"unit": 10,
+"u": "a2-10",
+"q": 1334
+},
+{
+"word": "la planète",
+"m": {
+"es": "planeta"
+},
+"pos": "noun",
+"w": "la planète",
+"p": "",
+"g": "f",
+"unit": 10,
+"u": "a2-10",
+"q": 1335
+},
+{
+"word": "l'avenir",
+"m": {
+"es": "porvenir, futuro · masc."
+},
+"pos": "noun",
+"w": "l'avenir",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "a2-11",
+"q": 1336
+},
+{
+"word": "un jour",
+"m": {
+"es": "un día, algún día"
+},
+"pos": "",
+"w": "un jour",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1337
+},
+{
+"word": "plus tard",
+"m": {
+"es": "más tarde"
+},
+"pos": "",
+"w": "plus tard",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1338
+},
+{
+"word": "la prochaine fois",
+"m": {
+"es": "la próxima vez"
+},
+"pos": "noun",
+"w": "la prochaine fois",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1339
+},
+{
+"word": "la prévision",
+"m": {
+"es": "previsión"
+},
+"pos": "noun",
+"w": "la prévision",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1340
+},
+{
+"word": "la météo",
+"m": {
+"es": "previsión del tiempo"
+},
+"pos": "adjective/noun",
+"w": "la météo",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1341
+},
+{
+"word": "la promesse",
+"m": {
+"es": "promesa"
+},
+"pos": "noun",
+"w": "la promesse",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1342
+},
+{
+"word": "le robot",
+"m": {
+"es": "robot"
+},
+"pos": "noun",
+"w": "le robot",
+"p": "",
+"g": "m",
+"unit": 11,
+"u": "a2-11",
+"q": 1343
+},
+{
+"word": "probable",
+"m": {
+"es": "probable"
+},
+"pos": "adjective",
+"w": "probable",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1344
+},
+{
+"word": "ce qui",
+"m": {
+"es": "lo que (sujeto)"
+},
+"pos": "",
+"w": "ce qui",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1345
+},
+{
+"word": "ce que",
+"m": {
+"es": "lo que (complemento)"
+},
+"pos": "",
+"w": "ce que",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1346
+},
+{
+"word": "recommander",
+"m": {
+"es": "recomendar"
+},
+"pos": "verb",
+"w": "recommander",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1347
+},
+{
+"word": "le doute",
+"m": {
+"es": "duda"
+},
+"pos": "noun",
+"w": "le doute",
+"p": "",
+"g": "m",
+"unit": 13,
+"u": "a2-13",
+"q": 1348
+},
+{
+"word": "absolument",
+"m": {
+"es": "absolutamente"
+},
+"pos": "adverb",
+"w": "absolument",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1349
+},
+{
+"word": "du tout",
+"m": {
+"es": "en absoluto (pas du tout)"
+},
+"pos": "",
+"w": "du tout",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1350
+},
+{
+"word": "la réservation",
+"m": {
+"es": "reserva"
+},
+"pos": "noun",
+"w": "la réservation",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "a2-14",
+"q": 1351
+},
+{
+"word": "le renseignement",
+"m": {
+"es": "información, dato"
+},
+"pos": "noun",
+"w": "le renseignement",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1352
+},
+{
+"word": "poli",
+"m": {
+"es": "educado"
+},
+"pos": "adjective",
+"w": "poli",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1353
+},
+{
+"word": "volontiers",
+"m": {
+"es": "con gusto"
+},
+"pos": "adverb",
+"w": "volontiers",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1354
+},
+{
+"word": "bien sûr",
+"m": {
+"es": "claro, por supuesto"
+},
+"pos": "",
+"w": "bien sûr",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1355
+},
+{
+"word": "interdit",
+"m": {
+"es": "prohibido"
+},
+"pos": "adjective/noun",
+"w": "interdit",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1356
+},
+{
+"word": "nécessaire",
+"m": {
+"es": "necesario"
+},
+"pos": "adjective",
+"w": "nécessaire",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1357
+},
+{
+"word": "autoriser",
+"m": {
+"es": "autorizar"
+},
+"pos": "verb",
+"w": "autoriser",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1358
+},
+{
+"word": "la règle",
+"m": {
+"es": "regla, norma"
+},
+"pos": "noun",
+"w": "la règle",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1359
+},
+{
+"word": "la loi",
+"m": {
+"es": "ley"
+},
+"pos": "noun",
+"w": "la loi",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1360
+},
+{
+"word": "le règlement",
+"m": {
+"es": "reglamento"
+},
+"pos": "noun",
+"w": "le règlement",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1361
+},
+{
+"word": "le panneau",
+"m": {
+"es": "panel, señal"
+},
+"pos": "noun",
+"w": "le panneau",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1362
+},
+{
+"word": "le permis",
+"m": {
+"es": "carné, permiso (permis de conduire)"
+},
+"pos": "noun",
+"w": "le permis",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1363
+},
+{
+"word": "le passeport",
+"m": {
+"es": "pasaporte"
+},
+"pos": "noun",
+"w": "le passeport",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1364
+},
+{
+"word": "la carte d'identité",
+"m": {
+"es": "carné de identidad"
+},
+"pos": "noun",
+"w": "la carte d'identité",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1365
+},
+{
+"word": "le visa",
+"m": {
+"es": "visado"
+},
+"pos": "noun",
+"w": "le visa",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1366
+},
+{
+"word": "le formulaire",
+"m": {
+"es": "formulario"
+},
+"pos": "noun",
+"w": "le formulaire",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1367
+},
+{
+"word": "remplir",
+"m": {
+"es": "llenar; rellenar"
+},
+"pos": "verb",
+"w": "remplir",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1368
+},
+{
+"word": "signer",
+"m": {
+"es": "firmar"
+},
+"pos": "verb",
+"w": "signer",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1369
+},
+{
+"word": "la ceinture",
+"m": {
+"es": "cinturón"
+},
+"pos": "noun",
+"w": "la ceinture",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1370
+},
+{
+"word": "le casque",
+"m": {
+"es": "casco"
+},
+"pos": "noun",
+"w": "le casque",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1371
+},
+{
+"word": "stationner",
+"m": {
+"es": "aparcar"
+},
+"pos": "verb",
+"w": "stationner",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1372
+},
+{
+"word": "la sécurité",
+"m": {
+"es": "seguridad"
+},
+"pos": "noun",
+"w": "la sécurité",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1373
+},
+{
+"word": "le danger",
+"m": {
+"es": "peligro"
+},
+"pos": "noun",
+"w": "le danger",
+"p": "",
+"g": "m",
+"unit": 15,
+"u": "a2-15",
+"q": 1374
+},
+{
+"word": "défense de",
+"m": {
+"es": "prohibido"
+},
+"pos": "",
+"w": "défense de",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1375
+},
+{
+"word": "venir de",
+"m": {
+"es": "acabar de (+ infinitivo); venir de"
+},
+"pos": "",
+"w": "venir de",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1376
+},
+{
+"word": "être en train de",
+"m": {
+"es": "estar (haciendo algo)"
+},
+"pos": "",
+"w": "être en train de",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1377
+},
+{
+"word": "être sur le point de",
+"m": {
+"es": "estar a punto de"
+},
+"pos": "",
+"w": "être sur le point de",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1378
+},
+{
+"word": "à l'instant",
+"m": {
+"es": "ahora mismo, hace un momento"
+},
+"pos": "",
+"w": "à l'instant",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1379
+},
+{
+"word": "en ce moment",
+"m": {
+"es": "en este momento"
+},
+"pos": "",
+"w": "en ce moment",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1380
+},
+{
+"word": "réparer",
+"m": {
+"es": "reparar"
+},
+"pos": "verb",
+"w": "réparer",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1381
+},
+{
+"word": "nettoyer",
+"m": {
+"es": "limpiar"
+},
+"pos": "verb",
+"w": "nettoyer",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1382
+},
+{
+"word": "accoucher",
+"m": {
+"es": "dar a luz"
+},
+"pos": "verb",
+"w": "accoucher",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1383
+},
+{
+"word": "le déménagement",
+"m": {
+"es": "mudanza"
+},
+"pos": "noun",
+"w": "le déménagement",
+"p": "",
+"g": "m",
+"unit": 16,
+"u": "a2-16",
+"q": 1384
+},
+{
+"word": "la maladie",
+"m": {
+"es": "enfermedad"
+},
+"pos": "noun",
+"w": "la maladie",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1385
+},
+{
+"word": "la douleur",
+"m": {
+"es": "dolor"
+},
+"pos": "noun",
+"w": "la douleur",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1386
+},
+{
+"word": "la fièvre",
+"m": {
+"es": "fiebre"
+},
+"pos": "noun",
+"w": "la fièvre",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1387
+},
+{
+"word": "la grippe",
+"m": {
+"es": "gripe"
+},
+"pos": "noun",
+"w": "la grippe",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1388
+},
+{
+"word": "le rhume",
+"m": {
+"es": "resfriado"
+},
+"pos": "noun",
+"w": "le rhume",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1389
+},
+{
+"word": "la toux",
+"m": {
+"es": "tos"
+},
+"pos": "noun",
+"w": "la toux",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1390
+},
+{
+"word": "tousser",
+"m": {
+"es": "toser"
+},
+"pos": "verb",
+"w": "tousser",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1391
+},
+{
+"word": "éternuer",
+"m": {
+"es": "estornudar"
+},
+"pos": "",
+"w": "éternuer",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1392
+},
+{
+"word": "le docteur",
+"m": {
+"es": "doctor"
+},
+"pos": "noun",
+"w": "le docteur",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1393
+},
+{
+"word": "le dentiste",
+"m": {
+"es": "dentista"
+},
+"pos": "noun",
+"w": "le dentiste",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1394
+},
+{
+"word": "l'infirmier",
+"m": {
+"es": "enfermero · masc."
+},
+"pos": "noun",
+"w": "l'infirmier",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1395
+},
+{
+"word": "le médicament",
+"m": {
+"es": "medicamento"
+},
+"pos": "noun",
+"w": "le médicament",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1396
+},
+{
+"word": "l'ordonnance",
+"m": {
+"es": "receta médica · fem."
+},
+"pos": "noun",
+"w": "l'ordonnance",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1397
+},
+{
+"word": "le cachet",
+"m": {
+"es": "pastilla, comprimido"
+},
+"pos": "noun",
+"w": "le cachet",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1398
+},
+{
+"word": "l'urgence",
+"m": {
+"es": "urgencia (les urgences: urgencias) · fem."
+},
+"pos": "noun",
+"w": "l'urgence",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1399
+},
+{
+"word": "le ventre",
+"m": {
+"es": "vientre, barriga"
+},
+"pos": "noun",
+"w": "le ventre",
+"p": "",
+"g": "m",
+"unit": 17,
+"u": "a2-17",
+"q": 1400
+},
+{
+"word": "la gorge",
+"m": {
+"es": "garganta"
+},
+"pos": "noun",
+"w": "la gorge",
+"p": "",
+"g": "f",
+"unit": 17,
+"u": "a2-17",
+"q": 1401
+},
+{
+"word": "guérir",
+"m": {
+"es": "curar(se)"
+},
+"pos": "verb",
+"w": "guérir",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1402
+},
+{
+"word": "simplement",
+"m": {
+"es": "simplemente"
+},
+"pos": "adverb",
+"w": "simplement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1403
+},
+{
+"word": "normalement",
+"m": {
+"es": "normalmente"
+},
+"pos": "adverb",
+"w": "normalement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1404
+},
+{
+"word": "tranquillement",
+"m": {
+"es": "tranquilamente"
+},
+"pos": "adverb",
+"w": "tranquillement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1405
+},
+{
+"word": "sérieusement",
+"m": {
+"es": "en serio"
+},
+"pos": "adverb",
+"w": "sérieusement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1406
+},
+{
+"word": "gentiment",
+"m": {
+"es": "amablemente"
+},
+"pos": "adverb",
+"w": "gentiment",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1407
+},
+{
+"word": "attentivement",
+"m": {
+"es": "atentamente"
+},
+"pos": "adverb",
+"w": "attentivement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1408
+},
+{
+"word": "régulièrement",
+"m": {
+"es": "regularmente"
+},
+"pos": "adverb",
+"w": "régulièrement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1409
+},
+{
+"word": "complètement",
+"m": {
+"es": "completamente"
+},
+"pos": "adverb",
+"w": "complètement",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1410
+},
+{
+"word": "couramment",
+"m": {
+"es": "con fluidez"
+},
+"pos": "adverb",
+"w": "couramment",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1411
+},
+{
+"word": "tout le monde",
+"m": {
+"es": "todo el mundo"
+},
+"pos": "",
+"w": "tout le monde",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1412
+},
+{
+"word": "tous les jours",
+"m": {
+"es": "todos los días"
+},
+"pos": "",
+"w": "tous les jours",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1413
+},
+{
+"word": "n'importe",
+"m": {
+"es": "cualquier (n'importe quoi: cualquier cosa)"
+},
+"pos": "",
+"w": "n'importe",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1414
+},
+{
+"word": "quelque chose",
+"m": {
+"es": "algo"
+},
+"pos": "",
+"w": "quelque chose",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1415
+},
+{
+"word": "quelque part",
+"m": {
+"es": "en algún sitio"
+},
+"pos": "",
+"w": "quelque part",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1416
+},
+{
+"word": "entier",
+"m": {
+"es": "entero"
+},
+"pos": "adjective",
+"w": "entier",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1417
+},
+{
+"word": "la moitié",
+"m": {
+"es": "mitad"
+},
+"pos": "noun",
+"w": "la moitié",
+"p": "",
+"g": "f",
+"unit": 19,
+"u": "a2-19",
+"q": 1418
+},
+{
+"word": "la plupart",
+"m": {
+"es": "la mayoría (la plupart des)"
+},
+"pos": "noun",
+"w": "la plupart",
+"p": "",
+"g": "f",
+"unit": 19,
+"u": "a2-19",
+"q": 1419
+},
+{
+"word": "pour moi",
+"m": {
+"es": "para mí"
+},
+"pos": "",
+"w": "pour moi",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1420
+},
+{
+"word": "à côté",
+"m": {
+"es": "al lado"
+},
+"pos": "",
+"w": "à côté",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1421
+},
+{
+"word": "sauf",
+"m": {
+"es": "salvo, excepto"
+},
+"pos": "adjective/preposition",
+"w": "sauf",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1422
+},
+{
+"word": "d'après",
+"m": {
+"es": "según"
+},
+"pos": "",
+"w": "d'après",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1423
+},
+{
+"word": "c'est moi",
+"m": {
+"es": "soy yo"
+},
+"pos": "",
+"w": "c'est moi",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1424
+},
+{
+"word": "moi-même",
+"m": {
+"es": "yo mismo"
+},
+"pos": "pronoun",
+"w": "moi-même",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1425
+},
+{
+"word": "soi",
+"m": {
+"es": "sí (mismo)"
+},
+"pos": "pronoun",
+"w": "soi",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1426
+},
+{
+"word": "quant à",
+"m": {
+"es": "en cuanto a"
+},
+"pos": "",
+"w": "quant à",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1427
+},
+{
+"word": "compter sur",
+"m": {
+"es": "contar con"
+},
+"pos": "",
+"w": "compter sur",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1428
+},
+{
+"word": "penser à",
+"m": {
+"es": "pensar en"
+},
+"pos": "",
+"w": "penser à",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1429
+},
+{
+"word": "s'occuper de",
+"m": {
+"es": "ocuparse de"
+},
+"pos": "",
+"w": "s'occuper de",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1430
+},
+{
+"word": "avoir confiance",
+"m": {
+"es": "tener confianza"
+},
+"pos": "",
+"w": "avoir confiance",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1431
+},
+{
+"word": "abandonner",
+"m": {
+"es": "abandonar"
+},
+"pos": "verb",
+"w": "abandonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1432
+},
+{
+"word": "abriter",
+"m": {
+"es": "albergar, resguardar"
+},
+"pos": "verb",
+"w": "abriter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1433
+},
+{
+"word": "accomplir",
+"m": {
+"es": "cumplir, realizar"
+},
+"pos": "verb",
+"w": "accomplir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1434
+},
+{
+"word": "actif",
+"m": {
+"es": "activo"
+},
+"pos": "noun/adjective",
+"w": "actif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1435
+},
+{
+"word": "adapter",
+"m": {
+"es": "adaptar"
+},
+"pos": "verb",
+"w": "adapter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1436
+},
+{
+"word": "administratif",
+"m": {
+"es": "administrativo"
+},
+"pos": "adjective",
+"w": "administratif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1437
+},
+{
+"word": "admirable",
+"m": {
+"es": "admirable"
+},
+"pos": "adjective",
+"w": "admirable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1438
+},
+{
+"word": "agir",
+"m": {
+"es": "actuar"
+},
+"pos": "verb",
+"w": "agir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1439
+},
+{
+"word": "ailleurs",
+"m": {
+"es": "en otro sitio"
+},
+"pos": "adverb/noun",
+"w": "ailleurs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1440
+},
+{
+"word": "allonger",
+"m": {
+"es": "alargar; tumbar"
+},
+"pos": "verb",
+"w": "allonger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1441
+},
+{
+"word": "américain",
+"m": {
+"es": "americano, estadounidense"
+},
+"pos": "noun/adjective",
+"w": "américain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1442
+},
+{
+"word": "animer",
+"m": {
+"es": "animar; presentar (un programa)"
+},
+"pos": "verb",
+"w": "animer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1443
+},
+{
+"word": "appartenir",
+"m": {
+"es": "pertenecer"
+},
+"pos": "verb",
+"w": "appartenir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1444
+},
+{
+"word": "applaudir",
+"m": {
+"es": "aplaudir"
+},
+"pos": "verb",
+"w": "applaudir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1445
+},
+{
+"word": "appuyer",
+"m": {
+"es": "apoyar; pulsar"
+},
+"pos": "verb",
+"w": "appuyer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1446
+},
+{
+"word": "attaquer",
+"m": {
+"es": "atacar"
+},
+"pos": "verb",
+"w": "attaquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1447
+},
+{
+"word": "attraper",
+"m": {
+"es": "atrapar, coger"
+},
+"pos": "verb",
+"w": "attraper",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1448
+},
+{
+"word": "avouer",
+"m": {
+"es": "confesar"
+},
+"pos": "verb",
+"w": "avouer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1449
+},
+{
+"word": "bancaire",
+"m": {
+"es": "bancario"
+},
+"pos": "adjective",
+"w": "bancaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1450
+},
+{
+"word": "bavarder",
+"m": {
+"es": "charlar"
+},
+"pos": "verb",
+"w": "bavarder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1451
+},
+{
+"word": "bof",
+"m": {
+"es": "bah, psé"
+},
+"pos": "interjection",
+"w": "bof",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1452
+},
+{
+"word": "bourgeois",
+"m": {
+"es": "burgués"
+},
+"pos": "adjective/noun",
+"w": "bourgeois",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1453
+},
+{
+"word": "brave",
+"m": {
+"es": "valiente; buena persona (un brave homme)"
+},
+"pos": "adjective",
+"w": "brave",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1454
+},
+{
+"word": "brésilien",
+"m": {
+"es": "brasileño"
+},
+"pos": "adjective",
+"w": "brésilien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1455
+},
+{
+"word": "brûler",
+"m": {
+"es": "quemar"
+},
+"pos": "verb",
+"w": "brûler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1456
+},
+{
+"word": "canadien",
+"m": {
+"es": "canadiense"
+},
+"pos": "noun/adjective",
+"w": "canadien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1457
+},
+{
+"word": "capable",
+"m": {
+"es": "capaz"
+},
+"pos": "adjective",
+"w": "capable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1458
+},
+{
+"word": "cependant",
+"m": {
+"es": "sin embargo"
+},
+"pos": "adverb",
+"w": "cependant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1459
+},
+{
+"word": "chaleureux",
+"m": {
+"es": "caluroso, acogedor"
+},
+"pos": "adjective",
+"w": "chaleureux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1460
+},
+{
+"word": "chic",
+"m": {
+"es": "elegante"
+},
+"pos": "adjective",
+"w": "chic",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1461
+},
+{
+"word": "chut",
+"m": {
+"es": "¡chis!, ¡silencio!"
+},
+"pos": "interjection/noun",
+"w": "chut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1462
+},
+{
+"word": "châtain",
+"m": {
+"es": "castaño (pelo)"
+},
+"pos": "noun/adjective",
+"w": "châtain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1463
+},
+{
+"word": "chéri",
+"m": {
+"es": "cariño, querido"
+},
+"pos": "noun",
+"w": "chéri",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1464
+},
+{
+"word": "citer",
+"m": {
+"es": "citar"
+},
+"pos": "verb",
+"w": "citer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1465
+},
+{
+"word": "classique",
+"m": {
+"es": "clásico"
+},
+"pos": "adjective/noun",
+"w": "classique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1466
+},
+{
+"word": "collectionner",
+"m": {
+"es": "coleccionar"
+},
+"pos": "verb",
+"w": "collectionner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1467
+},
+{
+"word": "coller",
+"m": {
+"es": "pegar"
+},
+"pos": "verb",
+"w": "coller",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1468
+},
+{
+"word": "comique",
+"m": {
+"es": "cómico"
+},
+"pos": "adjective/noun",
+"w": "comique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1469
+},
+{
+"word": "commenter",
+"m": {
+"es": "comentar"
+},
+"pos": "verb",
+"w": "commenter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1470
+},
+{
+"word": "compléter",
+"m": {
+"es": "completar"
+},
+"pos": "verb",
+"w": "compléter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1471
+},
+{
+"word": "concerner",
+"m": {
+"es": "concernir, afectar"
+},
+"pos": "verb",
+"w": "concerner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1472
+},
+{
+"word": "confirmer",
+"m": {
+"es": "confirmar"
+},
+"pos": "verb",
+"w": "confirmer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1473
+},
+{
+"word": "consacrer",
+"m": {
+"es": "dedicar"
+},
+"pos": "verb",
+"w": "consacrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1474
+},
+{
+"word": "conserver",
+"m": {
+"es": "conservar"
+},
+"pos": "verb",
+"w": "conserver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1475
+},
+{
+"word": "consommer",
+"m": {
+"es": "consumir"
+},
+"pos": "verb",
+"w": "consommer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1476
+},
+{
+"word": "constater",
+"m": {
+"es": "constatar, comprobar"
+},
+"pos": "verb",
+"w": "constater",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1477
+},
+{
+"word": "contacter",
+"m": {
+"es": "contactar"
+},
+"pos": "verb",
+"w": "contacter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1478
+},
+{
+"word": "contemporain",
+"m": {
+"es": "contemporáneo"
+},
+"pos": "adjective/noun",
+"w": "contemporain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1479
+},
+{
+"word": "convaincre",
+"m": {
+"es": "convencer"
+},
+"pos": "verb",
+"w": "convaincre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1480
+},
+{
+"word": "corriger",
+"m": {
+"es": "corregir"
+},
+"pos": "verb",
+"w": "corriger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1481
+},
+{
+"word": "critiquer",
+"m": {
+"es": "criticar"
+},
+"pos": "verb",
+"w": "critiquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1482
+},
+{
+"word": "créole",
+"m": {
+"es": "criollo"
+},
+"pos": "adjective/noun",
+"w": "créole",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1483
+},
+{
+"word": "cuire",
+"m": {
+"es": "cocer, cocinar"
+},
+"pos": "verb",
+"w": "cuire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1484
+},
+{
+"word": "culinaire",
+"m": {
+"es": "culinario"
+},
+"pos": "adjective",
+"w": "culinaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1485
+},
+{
+"word": "cultiver",
+"m": {
+"es": "cultivar"
+},
+"pos": "verb",
+"w": "cultiver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1486
+},
+{
+"word": "cultivé",
+"m": {
+"es": "culto"
+},
+"pos": "adjective",
+"w": "cultivé",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1487
+},
+{
+"word": "célibataire",
+"m": {
+"es": "soltero"
+},
+"pos": "adjective/noun",
+"w": "célibataire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1488
+},
+{
+"word": "célébrer",
+"m": {
+"es": "celebrar"
+},
+"pos": "verb",
+"w": "célébrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1489
+},
+{
+"word": "dater",
+"m": {
+"es": "datar"
+},
+"pos": "verb",
+"w": "dater",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1490
+},
+{
+"word": "dehors",
+"m": {
+"es": "fuera"
+},
+"pos": "adverb/noun/preposition",
+"w": "dehors",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1491
+},
+{
+"word": "divers",
+"m": {
+"es": "diverso"
+},
+"pos": "adjective",
+"w": "divers",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1492
+},
+{
+"word": "diviser",
+"m": {
+"es": "dividir"
+},
+"pos": "verb",
+"w": "diviser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1493
+},
+{
+"word": "domestique",
+"m": {
+"es": "doméstico"
+},
+"pos": "adjective/noun",
+"w": "domestique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1494
+},
+{
+"word": "double",
+"m": {
+"es": "doble"
+},
+"pos": "adjective/noun",
+"w": "double",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1495
+},
+{
+"word": "dès",
+"m": {
+"es": "desde (dès demain: a partir de mañana)"
+},
+"pos": "preposition",
+"w": "dès",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1496
+},
+{
+"word": "décevoir",
+"m": {
+"es": "decepcionar"
+},
+"pos": "verb",
+"w": "décevoir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1497
+},
+{
+"word": "déclarer",
+"m": {
+"es": "declarar"
+},
+"pos": "verb",
+"w": "déclarer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1498
+},
+{
+"word": "décrire",
+"m": {
+"es": "describir"
+},
+"pos": "verb",
+"w": "décrire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1499
+},
+{
+"word": "définir",
+"m": {
+"es": "definir"
+},
+"pos": "verb",
+"w": "définir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1500
+},
+{
+"word": "déguster",
+"m": {
+"es": "degustar, saborear"
+},
+"pos": "verb",
+"w": "déguster",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1501
+},
+{
+"word": "dépendre",
+"m": {
+"es": "depender"
+},
+"pos": "verb",
+"w": "dépendre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1502
+},
+{
+"word": "déposer",
+"m": {
+"es": "dejar, depositar"
+},
+"pos": "verb",
+"w": "déposer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1503
+},
+{
+"word": "désespérer",
+"m": {
+"es": "desesperar"
+},
+"pos": "verb",
+"w": "désespérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1504
+},
+{
+"word": "développer",
+"m": {
+"es": "desarrollar"
+},
+"pos": "verb",
+"w": "développer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1505
+},
+{
+"word": "dévorer",
+"m": {
+"es": "devorar"
+},
+"pos": "verb",
+"w": "dévorer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1506
+},
+{
+"word": "en avoir marre",
+"m": {
+"es": "estar harto"
+},
+"pos": "",
+"w": "en avoir marre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1507
+},
+{
+"word": "enchanter",
+"m": {
+"es": "encantar"
+},
+"pos": "verb",
+"w": "enchanter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1508
+},
+{
+"word": "enfermer",
+"m": {
+"es": "encerrar"
+},
+"pos": "verb",
+"w": "enfermer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1509
+},
+{
+"word": "engager",
+"m": {
+"es": "contratar; comprometer"
+},
+"pos": "verb",
+"w": "engager",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1510
+},
+{
+"word": "enlever",
+"m": {
+"es": "quitar"
+},
+"pos": "verb",
+"w": "enlever",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1511
+},
+{
+"word": "ensoleillé",
+"m": {
+"es": "soleado"
+},
+"pos": "adjective",
+"w": "ensoleillé",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1512
+},
+{
+"word": "entraîner",
+"m": {
+"es": "entrenar; arrastrar"
+},
+"pos": "verb",
+"w": "entraîner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1513
+},
+{
+"word": "essentiel",
+"m": {
+"es": "esencial"
+},
+"pos": "noun/adjective",
+"w": "essentiel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1514
+},
+{
+"word": "exagérer",
+"m": {
+"es": "exagerar"
+},
+"pos": "verb",
+"w": "exagérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1515
+},
+{
+"word": "exotique",
+"m": {
+"es": "exótico"
+},
+"pos": "adjective",
+"w": "exotique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1516
+},
+{
+"word": "exposer",
+"m": {
+"es": "exponer"
+},
+"pos": "verb",
+"w": "exposer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1517
+},
+{
+"word": "exprimer",
+"m": {
+"es": "expresar"
+},
+"pos": "verb",
+"w": "exprimer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1518
+},
+{
+"word": "fatigant",
+"m": {
+"es": "cansado (que cansa)"
+},
+"pos": "adjective",
+"w": "fatigant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1519
+},
+{
+"word": "fidèle",
+"m": {
+"es": "fiel"
+},
+"pos": "adjective/noun",
+"w": "fidèle",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1520
+},
+{
+"word": "fier",
+"m": {
+"es": "orgulloso"
+},
+"pos": "verb/adjective",
+"w": "fier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1521
+},
+{
+"word": "fixer",
+"m": {
+"es": "fijar"
+},
+"pos": "verb",
+"w": "fixer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1522
+},
+{
+"word": "fonctionner",
+"m": {
+"es": "funcionar"
+},
+"pos": "verb",
+"w": "fonctionner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1523
+},
+{
+"word": "fonder",
+"m": {
+"es": "fundar"
+},
+"pos": "verb",
+"w": "fonder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1524
+},
+{
+"word": "fumé",
+"m": {
+"es": "ahumado"
+},
+"pos": "adjective",
+"w": "fumé",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1525
+},
+{
+"word": "féminin",
+"m": {
+"es": "femenino"
+},
+"pos": "adjective",
+"w": "féminin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1526
+},
+{
+"word": "férié",
+"m": {
+"es": "festivo (jour férié)"
+},
+"pos": "adjective",
+"w": "férié",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1527
+},
+{
+"word": "glisser",
+"m": {
+"es": "resbalar, deslizar"
+},
+"pos": "verb",
+"w": "glisser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1528
+},
+{
+"word": "grand-chose",
+"m": {
+"es": "gran cosa (pas grand-chose: no mucho)"
+},
+"pos": "noun",
+"w": "grand-chose",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1529
+},
+{
+"word": "grillé",
+"m": {
+"es": "a la parrilla; tostado"
+},
+"pos": "adjective",
+"w": "grillé",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1530
+},
+{
+"word": "hein",
+"m": {
+"es": "¿eh?, ¿no?"
+},
+"pos": "interjection",
+"w": "hein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1531
+},
+{
+"word": "historique",
+"m": {
+"es": "histórico"
+},
+"pos": "noun/adjective",
+"w": "historique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1532
+},
+{
+"word": "hésiter",
+"m": {
+"es": "dudar"
+},
+"pos": "verb",
+"w": "hésiter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1533
+},
+{
+"word": "ignorer",
+"m": {
+"es": "ignorar, no saber"
+},
+"pos": "verb",
+"w": "ignorer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1534
+},
+{
+"word": "illuminer",
+"m": {
+"es": "iluminar"
+},
+"pos": "verb",
+"w": "illuminer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1535
+},
+{
+"word": "illustrer",
+"m": {
+"es": "ilustrar"
+},
+"pos": "verb",
+"w": "illustrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1536
+},
+{
+"word": "immense",
+"m": {
+"es": "inmenso"
+},
+"pos": "adjective",
+"w": "immense",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1537
+},
+{
+"word": "inconnu",
+"m": {
+"es": "desconocido"
+},
+"pos": "noun/adjective",
+"w": "inconnu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1538
+},
+{
+"word": "indien",
+"m": {
+"es": "indio"
+},
+"pos": "adjective/noun",
+"w": "indien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1539
+},
+{
+"word": "industriel",
+"m": {
+"es": "industrial"
+},
+"pos": "noun/adjective",
+"w": "industriel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1540
+},
+{
+"word": "innocent",
+"m": {
+"es": "inocente"
+},
+"pos": "adjective/noun",
+"w": "innocent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1541
+},
+{
+"word": "inoubliable",
+"m": {
+"es": "inolvidable"
+},
+"pos": "adjective",
+"w": "inoubliable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1542
+},
+{
+"word": "insister",
+"m": {
+"es": "insistir"
+},
+"pos": "verb",
+"w": "insister",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1543
+},
+{
+"word": "inspirer",
+"m": {
+"es": "inspirar"
+},
+"pos": "verb",
+"w": "inspirer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1544
+},
+{
+"word": "insupportable",
+"m": {
+"es": "insoportable"
+},
+"pos": "adjective",
+"w": "insupportable",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1545
+},
+{
+"word": "intense",
+"m": {
+"es": "intenso"
+},
+"pos": "adjective",
+"w": "intense",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1546
+},
+{
+"word": "jaloux",
+"m": {
+"es": "celoso"
+},
+"pos": "adjective",
+"w": "jaloux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1547
+},
+{
+"word": "japonais",
+"m": {
+"es": "japonés"
+},
+"pos": "noun/adjective",
+"w": "japonais",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1548
+},
+{
+"word": "l'abricot",
+"m": {
+"es": "albaricoque · masc."
+},
+"pos": "noun",
+"w": "l'abricot",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1549
+},
+{
+"word": "l'accord",
+"m": {
+"es": "acuerdo · masc."
+},
+"pos": "noun",
+"w": "l'accord",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1550
+},
+{
+"word": "l'achat",
+"m": {
+"es": "compra · masc."
+},
+"pos": "noun",
+"w": "l'achat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1551
+},
+{
+"word": "l'actualité",
+"m": {
+"es": "actualidad, noticias · fem."
+},
+"pos": "noun",
+"w": "l'actualité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1552
+},
+{
+"word": "l'addition",
+"m": {
+"es": "cuenta (en el restaurante); suma · fem."
+},
+"pos": "noun",
+"w": "l'addition",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1553
+},
+{
+"word": "l'adolescent",
+"m": {
+"es": "adolescente · masc."
+},
+"pos": "noun/adjective",
+"w": "l'adolescent",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1554
+},
+{
+"word": "l'affiche",
+"m": {
+"es": "cartel · fem."
+},
+"pos": "noun",
+"w": "l'affiche",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1555
+},
+{
+"word": "l'album",
+"m": {
+"es": "álbum · masc."
+},
+"pos": "noun",
+"w": "l'album",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1556
+},
+{
+"word": "l'alcool",
+"m": {
+"es": "alcohol · masc."
+},
+"pos": "noun",
+"w": "l'alcool",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1557
+},
+{
+"word": "l'aliment",
+"m": {
+"es": "alimento · masc."
+},
+"pos": "noun",
+"w": "l'aliment",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1558
+},
+{
+"word": "l'alimentation",
+"m": {
+"es": "alimentación · fem."
+},
+"pos": "noun",
+"w": "l'alimentation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1559
+},
+{
+"word": "l'amateur",
+"m": {
+"es": "aficionado · masc."
+},
+"pos": "noun",
+"w": "l'amateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1560
+},
+{
+"word": "l'ambassade",
+"m": {
+"es": "embajada · fem."
+},
+"pos": "noun",
+"w": "l'ambassade",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1561
+},
+{
+"word": "l'ambiance",
+"m": {
+"es": "ambiente · fem."
+},
+"pos": "noun",
+"w": "l'ambiance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1562
+},
+{
+"word": "l'amitié",
+"m": {
+"es": "amistad · fem."
+},
+"pos": "noun",
+"w": "l'amitié",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1563
+},
+{
+"word": "l'angle",
+"m": {
+"es": "ángulo; esquina · masc."
+},
+"pos": "noun",
+"w": "l'angle",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1564
+},
+{
+"word": "l'animation",
+"m": {
+"es": "animación · fem."
+},
+"pos": "noun",
+"w": "l'animation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1565
+},
+{
+"word": "l'apprenti",
+"m": {
+"es": "aprendiz · masc."
+},
+"pos": "noun",
+"w": "l'apprenti",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1566
+},
+{
+"word": "l'architecte",
+"m": {
+"es": "arquitecto · masc."
+},
+"pos": "noun",
+"w": "l'architecte",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1567
+},
+{
+"word": "l'architecture",
+"m": {
+"es": "arquitectura · fem."
+},
+"pos": "noun",
+"w": "l'architecture",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1568
+},
+{
+"word": "l'archéologue",
+"m": {
+"es": "arqueólogo · masc."
+},
+"pos": "noun",
+"w": "l'archéologue",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1569
+},
+{
+"word": "l'article",
+"m": {
+"es": "artículo · masc."
+},
+"pos": "noun",
+"w": "l'article",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1570
+},
+{
+"word": "l'artiste",
+"m": {
+"es": "artista · masc."
+},
+"pos": "adjective/noun",
+"w": "l'artiste",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1571
+},
+{
+"word": "l'assistant",
+"m": {
+"es": "asistente · masc."
+},
+"pos": "noun",
+"w": "l'assistant",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1572
+},
+{
+"word": "l'auberge",
+"m": {
+"es": "albergue, posada (auberge de jeunesse) · fem."
+},
+"pos": "noun",
+"w": "l'auberge",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1573
+},
+{
+"word": "l'auteur",
+"m": {
+"es": "autor · masc."
+},
+"pos": "noun",
+"w": "l'auteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1574
+},
+{
+"word": "l'autoroute",
+"m": {
+"es": "autopista · fem."
+},
+"pos": "noun",
+"w": "l'autoroute",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1575
+},
+{
+"word": "l'avantage",
+"m": {
+"es": "ventaja · masc."
+},
+"pos": "noun",
+"w": "l'avantage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1576
+},
+{
+"word": "l'emploi",
+"m": {
+"es": "empleo · masc."
+},
+"pos": "noun",
+"w": "l'emploi",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1577
+},
+{
+"word": "l'enquête",
+"m": {
+"es": "encuesta; investigación · fem."
+},
+"pos": "noun",
+"w": "l'enquête",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1578
+},
+{
+"word": "l'enseignement",
+"m": {
+"es": "enseñanza · masc."
+},
+"pos": "noun",
+"w": "l'enseignement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1579
+},
+{
+"word": "l'escargot",
+"m": {
+"es": "caracol · masc."
+},
+"pos": "noun",
+"w": "l'escargot",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1580
+},
+{
+"word": "l'esclave",
+"m": {
+"es": "esclavo · masc."
+},
+"pos": "noun",
+"w": "l'esclave",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1581
+},
+{
+"word": "l'horaire",
+"m": {
+"es": "horario · masc."
+},
+"pos": "noun/adjective",
+"w": "l'horaire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1582
+},
+{
+"word": "l'humour",
+"m": {
+"es": "humor · masc."
+},
+"pos": "noun",
+"w": "l'humour",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1583
+},
+{
+"word": "l'hygiène",
+"m": {
+"es": "higiene · fem."
+},
+"pos": "noun",
+"w": "l'hygiène",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1584
+},
+{
+"word": "l'hypermarché",
+"m": {
+"es": "hipermercado · masc."
+},
+"pos": "noun",
+"w": "l'hypermarché",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1585
+},
+{
+"word": "l'hélicoptère",
+"m": {
+"es": "helicóptero · masc."
+},
+"pos": "noun",
+"w": "l'hélicoptère",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1586
+},
+{
+"word": "l'héritage",
+"m": {
+"es": "herencia · masc."
+},
+"pos": "noun",
+"w": "l'héritage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1587
+},
+{
+"word": "l'illustration",
+"m": {
+"es": "ilustración · fem."
+},
+"pos": "noun",
+"w": "l'illustration",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1588
+},
+{
+"word": "l'impression",
+"m": {
+"es": "impresión · fem."
+},
+"pos": "noun",
+"w": "l'impression",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1589
+},
+{
+"word": "l'indice",
+"m": {
+"es": "pista; índice · masc."
+},
+"pos": "noun",
+"w": "l'indice",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1590
+},
+{
+"word": "l'ingénieur",
+"m": {
+"es": "ingeniero · masc."
+},
+"pos": "noun",
+"w": "l'ingénieur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1591
+},
+{
+"word": "l'inspecteur",
+"m": {
+"es": "inspector · masc."
+},
+"pos": "noun",
+"w": "l'inspecteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1592
+},
+{
+"word": "l'installation",
+"m": {
+"es": "instalación · fem."
+},
+"pos": "noun",
+"w": "l'installation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1593
+},
+{
+"word": "l'institut",
+"m": {
+"es": "instituto (centro) · masc."
+},
+"pos": "noun",
+"w": "l'institut",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1594
+},
+{
+"word": "l'institution",
+"m": {
+"es": "institución · fem."
+},
+"pos": "noun",
+"w": "l'institution",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1595
+},
+{
+"word": "l'invention",
+"m": {
+"es": "invento · fem."
+},
+"pos": "noun",
+"w": "l'invention",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1596
+},
+{
+"word": "l'itinéraire",
+"m": {
+"es": "itinerario · masc."
+},
+"pos": "noun",
+"w": "l'itinéraire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1597
+},
+{
+"word": "l'occasion",
+"m": {
+"es": "ocasión · fem."
+},
+"pos": "noun",
+"w": "l'occasion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1598
+},
+{
+"word": "l'océan",
+"m": {
+"es": "océano · masc."
+},
+"pos": "noun",
+"w": "l'océan",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1599
+},
+{
+"word": "l'oignon",
+"m": {
+"es": "cebolla · masc."
+},
+"pos": "noun",
+"w": "l'oignon",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1600
+},
+{
+"word": "l'olive",
+"m": {
+"es": "aceituna · fem."
+},
+"pos": "noun",
+"w": "l'olive",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1601
+},
+{
+"word": "l'opéra",
+"m": {
+"es": "ópera · masc."
+},
+"pos": "noun",
+"w": "l'opéra",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1602
+},
+{
+"word": "l'organisme",
+"m": {
+"es": "organismo · masc."
+},
+"pos": "noun",
+"w": "l'organisme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1603
+},
+{
+"word": "l'ouest",
+"m": {
+"es": "oeste · masc."
+},
+"pos": "adjective/noun",
+"w": "l'ouest",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1604
+},
+{
+"word": "l'outil",
+"m": {
+"es": "herramienta · masc."
+},
+"pos": "noun",
+"w": "l'outil",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1605
+},
+{
+"word": "l'outre-mer",
+"m": {
+"es": "ultramar (territorios franceses) · masc."
+},
+"pos": "noun/adverb",
+"w": "l'outre-mer",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1606
+},
+{
+"word": "l'union",
+"m": {
+"es": "unión · fem."
+},
+"pos": "noun",
+"w": "l'union",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1607
+},
+{
+"word": "l'échange",
+"m": {
+"es": "intercambio · masc."
+},
+"pos": "noun",
+"w": "l'échange",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1608
+},
+{
+"word": "l'écharpe",
+"m": {
+"es": "bufanda · fem."
+},
+"pos": "noun",
+"w": "l'écharpe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1609
+},
+{
+"word": "l'éclairage",
+"m": {
+"es": "iluminación · masc."
+},
+"pos": "noun",
+"w": "l'éclairage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1610
+},
+{
+"word": "l'économie",
+"m": {
+"es": "economía · fem."
+},
+"pos": "noun",
+"w": "l'économie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1611
+},
+{
+"word": "l'élément",
+"m": {
+"es": "elemento · masc."
+},
+"pos": "noun",
+"w": "l'élément",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1612
+},
+{
+"word": "l'émission",
+"m": {
+"es": "programa (de radio, tele); emisión · fem."
+},
+"pos": "noun",
+"w": "l'émission",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1613
+},
+{
+"word": "l'énergie",
+"m": {
+"es": "energía · fem."
+},
+"pos": "noun",
+"w": "l'énergie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1614
+},
+{
+"word": "l'épice",
+"m": {
+"es": "especia · fem."
+},
+"pos": "noun",
+"w": "l'épice",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1615
+},
+{
+"word": "l'épisode",
+"m": {
+"es": "episodio · masc."
+},
+"pos": "noun",
+"w": "l'épisode",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1616
+},
+{
+"word": "l'épée",
+"m": {
+"es": "espada · fem."
+},
+"pos": "noun",
+"w": "l'épée",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1617
+},
+{
+"word": "l'équipe",
+"m": {
+"es": "equipo · fem."
+},
+"pos": "noun",
+"w": "l'équipe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1618
+},
+{
+"word": "l'équipement",
+"m": {
+"es": "equipamiento · masc."
+},
+"pos": "noun",
+"w": "l'équipement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1619
+},
+{
+"word": "l'évolution",
+"m": {
+"es": "evolución · fem."
+},
+"pos": "noun",
+"w": "l'évolution",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1620
+},
+{
+"word": "la baguette",
+"m": {
+"es": "barra de pan"
+},
+"pos": "noun",
+"w": "la baguette",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1621
+},
+{
+"word": "la balle",
+"m": {
+"es": "pelota; bala"
+},
+"pos": "noun",
+"w": "la balle",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1622
+},
+{
+"word": "la banane",
+"m": {
+"es": "plátano"
+},
+"pos": "noun",
+"w": "la banane",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1623
+},
+{
+"word": "la base",
+"m": {
+"es": "base"
+},
+"pos": "noun",
+"w": "la base",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1624
+},
+{
+"word": "la beauté",
+"m": {
+"es": "belleza"
+},
+"pos": "noun",
+"w": "la beauté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1625
+},
+{
+"word": "la belle-mère",
+"m": {
+"es": "suegra; madrastra"
+},
+"pos": "noun",
+"w": "la belle-mère",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1626
+},
+{
+"word": "la bibliothèque",
+"m": {
+"es": "biblioteca"
+},
+"pos": "noun",
+"w": "la bibliothèque",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1627
+},
+{
+"word": "la blessure",
+"m": {
+"es": "herida"
+},
+"pos": "noun",
+"w": "la blessure",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1628
+},
+{
+"word": "la botte",
+"m": {
+"es": "bota"
+},
+"pos": "noun",
+"w": "la botte",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1629
+},
+{
+"word": "la bouche",
+"m": {
+"es": "boca"
+},
+"pos": "noun",
+"w": "la bouche",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1630
+},
+{
+"word": "la bêtise",
+"m": {
+"es": "tontería"
+},
+"pos": "noun",
+"w": "la bêtise",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1631
+},
+{
+"word": "la canne",
+"m": {
+"es": "bastón"
+},
+"pos": "noun",
+"w": "la canne",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1632
+},
+{
+"word": "la carrière",
+"m": {
+"es": "carrera (profesional)"
+},
+"pos": "noun",
+"w": "la carrière",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1633
+},
+{
+"word": "la cave",
+"m": {
+"es": "bodega, sótano"
+},
+"pos": "noun",
+"w": "la cave",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1634
+},
+{
+"word": "la charcuterie",
+"m": {
+"es": "embutidos; charcutería"
+},
+"pos": "noun",
+"w": "la charcuterie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1635
+},
+{
+"word": "la charité",
+"m": {
+"es": "caridad"
+},
+"pos": "noun",
+"w": "la charité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1636
+},
+{
+"word": "la chaîne",
+"m": {
+"es": "cadena; canal (de tele)"
+},
+"pos": "noun",
+"w": "la chaîne",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1637
+},
+{
+"word": "la chèvre",
+"m": {
+"es": "cabra"
+},
+"pos": "noun",
+"w": "la chèvre",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1638
+},
+{
+"word": "la colline",
+"m": {
+"es": "colina"
+},
+"pos": "noun",
+"w": "la colline",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1639
+},
+{
+"word": "la colonie",
+"m": {
+"es": "colonia (colonie de vacances: campamento)"
+},
+"pos": "noun",
+"w": "la colonie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1640
+},
+{
+"word": "la communauté",
+"m": {
+"es": "comunidad"
+},
+"pos": "noun",
+"w": "la communauté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1641
+},
+{
+"word": "la comptabilité",
+"m": {
+"es": "contabilidad"
+},
+"pos": "noun",
+"w": "la comptabilité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1642
+},
+{
+"word": "la comédie",
+"m": {
+"es": "comedia"
+},
+"pos": "noun",
+"w": "la comédie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1643
+},
+{
+"word": "la condition",
+"m": {
+"es": "condición"
+},
+"pos": "noun",
+"w": "la condition",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1644
+},
+{
+"word": "la console",
+"m": {
+"es": "consola"
+},
+"pos": "noun",
+"w": "la console",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1645
+},
+{
+"word": "la construction",
+"m": {
+"es": "construcción"
+},
+"pos": "noun",
+"w": "la construction",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1646
+},
+{
+"word": "la conversation",
+"m": {
+"es": "conversación"
+},
+"pos": "noun",
+"w": "la conversation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1647
+},
+{
+"word": "la coupe",
+"m": {
+"es": "copa; corte (de pelo)"
+},
+"pos": "noun",
+"w": "la coupe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1648
+},
+{
+"word": "la coutume",
+"m": {
+"es": "costumbre"
+},
+"pos": "noun",
+"w": "la coutume",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1649
+},
+{
+"word": "la crise",
+"m": {
+"es": "crisis"
+},
+"pos": "noun",
+"w": "la crise",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1650
+},
+{
+"word": "la crèche",
+"m": {
+"es": "guardería"
+},
+"pos": "noun",
+"w": "la crèche",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1651
+},
+{
+"word": "la crème",
+"m": {
+"es": "nata, crema"
+},
+"pos": "noun",
+"w": "la crème",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1652
+},
+{
+"word": "la céréale",
+"m": {
+"es": "cereal"
+},
+"pos": "noun",
+"w": "la céréale",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1653
+},
+{
+"word": "la cérémonie",
+"m": {
+"es": "ceremonia"
+},
+"pos": "noun",
+"w": "la cérémonie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1654
+},
+{
+"word": "la difficulté",
+"m": {
+"es": "dificultad"
+},
+"pos": "noun",
+"w": "la difficulté",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1655
+},
+{
+"word": "la dinde",
+"m": {
+"es": "pavo"
+},
+"pos": "noun",
+"w": "la dinde",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1656
+},
+{
+"word": "la discussion",
+"m": {
+"es": "discusión, conversación"
+},
+"pos": "noun",
+"w": "la discussion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1657
+},
+{
+"word": "la diversité",
+"m": {
+"es": "diversidad"
+},
+"pos": "noun",
+"w": "la diversité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1658
+},
+{
+"word": "la décision",
+"m": {
+"es": "decisión"
+},
+"pos": "noun",
+"w": "la décision",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1659
+},
+{
+"word": "la fac",
+"m": {
+"es": "facultad, uni"
+},
+"pos": "noun",
+"w": "la fac",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1660
+},
+{
+"word": "la faveur",
+"m": {
+"es": "favor"
+},
+"pos": "noun",
+"w": "la faveur",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1661
+},
+{
+"word": "la fermeture",
+"m": {
+"es": "cierre"
+},
+"pos": "noun",
+"w": "la fermeture",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1662
+},
+{
+"word": "la fidélité",
+"m": {
+"es": "fidelidad"
+},
+"pos": "noun",
+"w": "la fidélité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1663
+},
+{
+"word": "la fontaine",
+"m": {
+"es": "fuente"
+},
+"pos": "noun",
+"w": "la fontaine",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1664
+},
+{
+"word": "la force",
+"m": {
+"es": "fuerza"
+},
+"pos": "noun",
+"w": "la force",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1665
+},
+{
+"word": "la francophonie",
+"m": {
+"es": "francofonía"
+},
+"pos": "noun",
+"w": "la francophonie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1666
+},
+{
+"word": "la galerie",
+"m": {
+"es": "galería"
+},
+"pos": "noun",
+"w": "la galerie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1667
+},
+{
+"word": "la garde",
+"m": {
+"es": "guardia; custodia"
+},
+"pos": "noun",
+"w": "la garde",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1668
+},
+{
+"word": "la gendarmerie",
+"m": {
+"es": "cuartel de la gendarmería"
+},
+"pos": "noun",
+"w": "la gendarmerie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1669
+},
+{
+"word": "la grenouille",
+"m": {
+"es": "rana"
+},
+"pos": "noun",
+"w": "la grenouille",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1670
+},
+{
+"word": "la guitare",
+"m": {
+"es": "guitarra"
+},
+"pos": "noun",
+"w": "la guitare",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1671
+},
+{
+"word": "la justice",
+"m": {
+"es": "justicia"
+},
+"pos": "noun",
+"w": "la justice",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1672
+},
+{
+"word": "la larme",
+"m": {
+"es": "lágrima"
+},
+"pos": "noun",
+"w": "la larme",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1673
+},
+{
+"word": "la libération",
+"m": {
+"es": "liberación"
+},
+"pos": "noun",
+"w": "la libération",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1674
+},
+{
+"word": "la liste",
+"m": {
+"es": "lista"
+},
+"pos": "noun",
+"w": "la liste",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1675
+},
+{
+"word": "la lune",
+"m": {
+"es": "luna"
+},
+"pos": "noun",
+"w": "la lune",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1676
+},
+{
+"word": "la maquette",
+"m": {
+"es": "maqueta"
+},
+"pos": "noun",
+"w": "la maquette",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1677
+},
+{
+"word": "la marque",
+"m": {
+"es": "marca"
+},
+"pos": "noun",
+"w": "la marque",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1678
+},
+{
+"word": "la menthe",
+"m": {
+"es": "menta"
+},
+"pos": "noun",
+"w": "la menthe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1679
+},
+{
+"word": "la merveille",
+"m": {
+"es": "maravilla"
+},
+"pos": "noun",
+"w": "la merveille",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1680
+},
+{
+"word": "la montre",
+"m": {
+"es": "reloj (de pulsera)"
+},
+"pos": "noun",
+"w": "la montre",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1681
+},
+{
+"word": "la médecine",
+"m": {
+"es": "medicina (ciencia)"
+},
+"pos": "noun",
+"w": "la médecine",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1682
+},
+{
+"word": "la métropole",
+"m": {
+"es": "metrópoli; Francia continental"
+},
+"pos": "noun",
+"w": "la métropole",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1683
+},
+{
+"word": "la nourriture",
+"m": {
+"es": "comida, alimento"
+},
+"pos": "noun",
+"w": "la nourriture",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1684
+},
+{
+"word": "la parole",
+"m": {
+"es": "palabra (habla)"
+},
+"pos": "noun",
+"w": "la parole",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1685
+},
+{
+"word": "la peau",
+"m": {
+"es": "piel"
+},
+"pos": "noun",
+"w": "la peau",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1686
+},
+{
+"word": "la perle",
+"m": {
+"es": "perla"
+},
+"pos": "noun",
+"w": "la perle",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1687
+},
+{
+"word": "la petite-fille",
+"m": {
+"es": "nieta"
+},
+"pos": "noun",
+"w": "la petite-fille",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1688
+},
+{
+"word": "la photocopie",
+"m": {
+"es": "fotocopia"
+},
+"pos": "noun",
+"w": "la photocopie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1689
+},
+{
+"word": "la plume",
+"m": {
+"es": "pluma"
+},
+"pos": "noun",
+"w": "la plume",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1690
+},
+{
+"word": "la position",
+"m": {
+"es": "posición"
+},
+"pos": "noun",
+"w": "la position",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1691
+},
+{
+"word": "la possibilité",
+"m": {
+"es": "posibilidad"
+},
+"pos": "noun",
+"w": "la possibilité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1692
+},
+{
+"word": "la poussière",
+"m": {
+"es": "polvo"
+},
+"pos": "noun",
+"w": "la poussière",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1693
+},
+{
+"word": "la poésie",
+"m": {
+"es": "poesía"
+},
+"pos": "noun",
+"w": "la poésie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1694
+},
+{
+"word": "la presse",
+"m": {
+"es": "prensa"
+},
+"pos": "noun",
+"w": "la presse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1695
+},
+{
+"word": "la production",
+"m": {
+"es": "producción"
+},
+"pos": "noun",
+"w": "la production",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1696
+},
+{
+"word": "la proximité",
+"m": {
+"es": "cercanía"
+},
+"pos": "noun",
+"w": "la proximité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1697
+},
+{
+"word": "la publicité",
+"m": {
+"es": "publicidad, anuncio"
+},
+"pos": "noun",
+"w": "la publicité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1698
+},
+{
+"word": "la pâtisserie",
+"m": {
+"es": "pastelería; pastel"
+},
+"pos": "noun",
+"w": "la pâtisserie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1699
+},
+{
+"word": "la pétanque",
+"m": {
+"es": "petanca"
+},
+"pos": "noun",
+"w": "la pétanque",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1700
+},
+{
+"word": "la pêche",
+"m": {
+"es": "pesca; melocotón"
+},
+"pos": "noun",
+"w": "la pêche",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1701
+},
+{
+"word": "la queue",
+"m": {
+"es": "cola"
+},
+"pos": "noun",
+"w": "la queue",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1702
+},
+{
+"word": "la radio",
+"m": {
+"es": "radio"
+},
+"pos": "noun/adjective",
+"w": "la radio",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1703
+},
+{
+"word": "la relation",
+"m": {
+"es": "relación"
+},
+"pos": "noun",
+"w": "la relation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1704
+},
+{
+"word": "la religion",
+"m": {
+"es": "religión"
+},
+"pos": "noun",
+"w": "la religion",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1705
+},
+{
+"word": "la renaissance",
+"m": {
+"es": "renacimiento"
+},
+"pos": "noun",
+"w": "la renaissance",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1706
+},
+{
+"word": "la responsabilité",
+"m": {
+"es": "responsabilidad"
+},
+"pos": "noun",
+"w": "la responsabilité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1707
+},
+{
+"word": "la retraite",
+"m": {
+"es": "jubilación"
+},
+"pos": "noun",
+"w": "la retraite",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1708
+},
+{
+"word": "la richesse",
+"m": {
+"es": "riqueza"
+},
+"pos": "noun",
+"w": "la richesse",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1709
+},
+{
+"word": "la rive",
+"m": {
+"es": "orilla"
+},
+"pos": "noun",
+"w": "la rive",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1710
+},
+{
+"word": "la réception",
+"m": {
+"es": "recepción"
+},
+"pos": "noun",
+"w": "la réception",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1711
+},
+{
+"word": "la réserve",
+"m": {
+"es": "reserva"
+},
+"pos": "noun",
+"w": "la réserve",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1712
+},
+{
+"word": "la résidence",
+"m": {
+"es": "residencia"
+},
+"pos": "noun",
+"w": "la résidence",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1713
+},
+{
+"word": "la salutation",
+"m": {
+"es": "saludo"
+},
+"pos": "noun",
+"w": "la salutation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1714
+},
+{
+"word": "la sardine",
+"m": {
+"es": "sardina"
+},
+"pos": "noun",
+"w": "la sardine",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1715
+},
+{
+"word": "la sculpture",
+"m": {
+"es": "escultura"
+},
+"pos": "noun",
+"w": "la sculpture",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1716
+},
+{
+"word": "la scène",
+"m": {
+"es": "escena; escenario"
+},
+"pos": "noun",
+"w": "la scène",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1717
+},
+{
+"word": "la soif",
+"m": {
+"es": "sed"
+},
+"pos": "noun",
+"w": "la soif",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1718
+},
+{
+"word": "la solidarité",
+"m": {
+"es": "solidaridad"
+},
+"pos": "noun",
+"w": "la solidarité",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1719
+},
+{
+"word": "la sympathie",
+"m": {
+"es": "simpatía"
+},
+"pos": "noun",
+"w": "la sympathie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1720
+},
+{
+"word": "la tapisserie",
+"m": {
+"es": "tapiz"
+},
+"pos": "noun",
+"w": "la tapisserie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1721
+},
+{
+"word": "la tarte",
+"m": {
+"es": "tarta"
+},
+"pos": "noun/adjective",
+"w": "la tarte",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1722
+},
+{
+"word": "la traversée",
+"m": {
+"es": "travesía"
+},
+"pos": "noun",
+"w": "la traversée",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1723
+},
+{
+"word": "la valeur",
+"m": {
+"es": "valor"
+},
+"pos": "noun",
+"w": "la valeur",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1724
+},
+{
+"word": "la version",
+"m": {
+"es": "versión"
+},
+"pos": "noun",
+"w": "la version",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1725
+},
+{
+"word": "laitier",
+"m": {
+"es": "lácteo"
+},
+"pos": "adjective/noun",
+"w": "laitier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1726
+},
+{
+"word": "lancer",
+"m": {
+"es": "lanzar"
+},
+"pos": "noun/verb",
+"w": "lancer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1727
+},
+{
+"word": "latin",
+"m": {
+"es": "latino"
+},
+"pos": "noun/adjective",
+"w": "latin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1728
+},
+{
+"word": "le bac",
+"m": {
+"es": "bachillerato (examen)"
+},
+"pos": "noun",
+"w": "le bac",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1729
+},
+{
+"word": "le ballon",
+"m": {
+"es": "balón; globo"
+},
+"pos": "noun",
+"w": "le ballon",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1730
+},
+{
+"word": "le basket",
+"m": {
+"es": "baloncesto; zapatillas (les baskets)"
+},
+"pos": "noun",
+"w": "le basket",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1731
+},
+{
+"word": "le beau-frère",
+"m": {
+"es": "cuñado"
+},
+"pos": "noun",
+"w": "le beau-frère",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1732
+},
+{
+"word": "le bisou",
+"m": {
+"es": "beso"
+},
+"pos": "noun",
+"w": "le bisou",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1733
+},
+{
+"word": "le bistrot",
+"m": {
+"es": "bar, tasca"
+},
+"pos": "noun",
+"w": "le bistrot",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1734
+},
+{
+"word": "le blé",
+"m": {
+"es": "trigo"
+},
+"pos": "noun",
+"w": "le blé",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1735
+},
+{
+"word": "le bouquet",
+"m": {
+"es": "ramo"
+},
+"pos": "noun",
+"w": "le bouquet",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1736
+},
+{
+"word": "le bowling",
+"m": {
+"es": "bolera"
+},
+"pos": "noun",
+"w": "le bowling",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1737
+},
+{
+"word": "le bulletin",
+"m": {
+"es": "boletín"
+},
+"pos": "noun",
+"w": "le bulletin",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1738
+},
+{
+"word": "le caissier",
+"m": {
+"es": "cajero"
+},
+"pos": "noun",
+"w": "le caissier",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1739
+},
+{
+"word": "le camarade",
+"m": {
+"es": "compañero"
+},
+"pos": "noun",
+"w": "le camarade",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1740
+},
+{
+"word": "le camion",
+"m": {
+"es": "camión"
+},
+"pos": "noun",
+"w": "le camion",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1741
+},
+{
+"word": "le candidat",
+"m": {
+"es": "candidato"
+},
+"pos": "noun",
+"w": "le candidat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1742
+},
+{
+"word": "le carnet",
+"m": {
+"es": "libreta, cuaderno pequeño"
+},
+"pos": "noun",
+"w": "le carnet",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1743
+},
+{
+"word": "le centre-ville",
+"m": {
+"es": "centro de la ciudad"
+},
+"pos": "noun",
+"w": "le centre-ville",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1744
+},
+{
+"word": "le champ",
+"m": {
+"es": "campo (cultivo)"
+},
+"pos": "noun",
+"w": "le champ",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1745
+},
+{
+"word": "le champion",
+"m": {
+"es": "campeón"
+},
+"pos": "noun",
+"w": "le champion",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1746
+},
+{
+"word": "le chant",
+"m": {
+"es": "canto"
+},
+"pos": "noun",
+"w": "le chant",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1747
+},
+{
+"word": "le charme",
+"m": {
+"es": "encanto"
+},
+"pos": "noun",
+"w": "le charme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1748
+},
+{
+"word": "le chiffre",
+"m": {
+"es": "cifra"
+},
+"pos": "noun",
+"w": "le chiffre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1749
+},
+{
+"word": "le chômeur",
+"m": {
+"es": "parado (desempleado)"
+},
+"pos": "noun",
+"w": "le chômeur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1750
+},
+{
+"word": "le cidre",
+"m": {
+"es": "sidra"
+},
+"pos": "noun",
+"w": "le cidre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1751
+},
+{
+"word": "le ciné",
+"m": {
+"es": "cine (coloquial)"
+},
+"pos": "noun",
+"w": "le ciné",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1752
+},
+{
+"word": "le code",
+"m": {
+"es": "código"
+},
+"pos": "noun",
+"w": "le code",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1753
+},
+{
+"word": "le collectionneur",
+"m": {
+"es": "coleccionista"
+},
+"pos": "noun",
+"w": "le collectionneur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1754
+},
+{
+"word": "le combat",
+"m": {
+"es": "combate"
+},
+"pos": "noun",
+"w": "le combat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1755
+},
+{
+"word": "le commentaire",
+"m": {
+"es": "comentario"
+},
+"pos": "noun",
+"w": "le commentaire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1756
+},
+{
+"word": "le commerçant",
+"m": {
+"es": "comerciante"
+},
+"pos": "adjective/noun",
+"w": "le commerçant",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1757
+},
+{
+"word": "le commissariat",
+"m": {
+"es": "comisaría"
+},
+"pos": "noun",
+"w": "le commissariat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1758
+},
+{
+"word": "le comédien",
+"m": {
+"es": "actor"
+},
+"pos": "noun",
+"w": "le comédien",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1759
+},
+{
+"word": "le concombre",
+"m": {
+"es": "pepino"
+},
+"pos": "noun",
+"w": "le concombre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1760
+},
+{
+"word": "le concours",
+"m": {
+"es": "concurso, oposición"
+},
+"pos": "noun",
+"w": "le concours",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1761
+},
+{
+"word": "le conducteur",
+"m": {
+"es": "conductor"
+},
+"pos": "noun/adjective",
+"w": "le conducteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1762
+},
+{
+"word": "le congé",
+"m": {
+"es": "permiso, vacaciones (congé maternité)"
+},
+"pos": "noun",
+"w": "le congé",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1763
+},
+{
+"word": "le contact",
+"m": {
+"es": "contacto"
+},
+"pos": "noun",
+"w": "le contact",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1764
+},
+{
+"word": "le conte",
+"m": {
+"es": "cuento"
+},
+"pos": "noun",
+"w": "le conte",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1765
+},
+{
+"word": "le corps",
+"m": {
+"es": "cuerpo"
+},
+"pos": "noun",
+"w": "le corps",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1766
+},
+{
+"word": "le couscous",
+"m": {
+"es": "cuscús"
+},
+"pos": "noun",
+"w": "le couscous",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1767
+},
+{
+"word": "le croissant",
+"m": {
+"es": "cruasán"
+},
+"pos": "noun/adjective",
+"w": "le croissant",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1768
+},
+{
+"word": "le cuisinier",
+"m": {
+"es": "cocinero"
+},
+"pos": "noun",
+"w": "le cuisinier",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1769
+},
+{
+"word": "le danseur",
+"m": {
+"es": "bailarín"
+},
+"pos": "noun",
+"w": "le danseur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1770
+},
+{
+"word": "le dessinateur",
+"m": {
+"es": "dibujante"
+},
+"pos": "noun",
+"w": "le dessinateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1771
+},
+{
+"word": "le diable",
+"m": {
+"es": "diablo"
+},
+"pos": "noun",
+"w": "le diable",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1772
+},
+{
+"word": "le dialogue",
+"m": {
+"es": "diálogo"
+},
+"pos": "noun",
+"w": "le dialogue",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1773
+},
+{
+"word": "le discours",
+"m": {
+"es": "discurso"
+},
+"pos": "noun",
+"w": "le discours",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1774
+},
+{
+"word": "le doigt",
+"m": {
+"es": "dedo"
+},
+"pos": "noun",
+"w": "le doigt",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1775
+},
+{
+"word": "le décor",
+"m": {
+"es": "decorado"
+},
+"pos": "noun",
+"w": "le décor",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1776
+},
+{
+"word": "le développement",
+"m": {
+"es": "desarrollo"
+},
+"pos": "noun",
+"w": "le développement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1777
+},
+{
+"word": "le fan",
+"m": {
+"es": "fan, admirador"
+},
+"pos": "noun",
+"w": "le fan",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1778
+},
+{
+"word": "le fer",
+"m": {
+"es": "hierro"
+},
+"pos": "noun",
+"w": "le fer",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1779
+},
+{
+"word": "le feu d'artifice",
+"m": {
+"es": "fuegos artificiales"
+},
+"pos": "noun",
+"w": "le feu d'artifice",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1780
+},
+{
+"word": "le feuilleton",
+"m": {
+"es": "serie (de tele)"
+},
+"pos": "noun",
+"w": "le feuilleton",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1781
+},
+{
+"word": "le foie",
+"m": {
+"es": "hígado"
+},
+"pos": "noun",
+"w": "le foie",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1782
+},
+{
+"word": "le fond",
+"m": {
+"es": "fondo"
+},
+"pos": "noun",
+"w": "le fond",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1783
+},
+{
+"word": "le football",
+"m": {
+"es": "fútbol"
+},
+"pos": "noun",
+"w": "le football",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1784
+},
+{
+"word": "le foyer",
+"m": {
+"es": "hogar"
+},
+"pos": "noun",
+"w": "le foyer",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1785
+},
+{
+"word": "le gamin",
+"m": {
+"es": "chaval"
+},
+"pos": "noun",
+"w": "le gamin",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1786
+},
+{
+"word": "le gardien",
+"m": {
+"es": "guarda, portero"
+},
+"pos": "noun",
+"w": "le gardien",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1787
+},
+{
+"word": "le genre",
+"m": {
+"es": "género, tipo"
+},
+"pos": "noun",
+"w": "le genre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1788
+},
+{
+"word": "le gouvernement",
+"m": {
+"es": "gobierno"
+},
+"pos": "noun",
+"w": "le gouvernement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1789
+},
+{
+"word": "le gramme",
+"m": {
+"es": "gramo"
+},
+"pos": "noun",
+"w": "le gramme",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1790
+},
+{
+"word": "le hors-d'œuvre",
+"m": {
+"es": "entrante"
+},
+"pos": "noun",
+"w": "le hors-d'œuvre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1791
+},
+{
+"word": "le jazz",
+"m": {
+"es": "jazz"
+},
+"pos": "noun",
+"w": "le jazz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1792
+},
+{
+"word": "le joueur",
+"m": {
+"es": "jugador"
+},
+"pos": "noun",
+"w": "le joueur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1793
+},
+{
+"word": "le juge",
+"m": {
+"es": "juez"
+},
+"pos": "noun",
+"w": "le juge",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1794
+},
+{
+"word": "le jumeau",
+"m": {
+"es": "gemelo"
+},
+"pos": "noun/adjective",
+"w": "le jumeau",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1795
+},
+{
+"word": "le laboratoire",
+"m": {
+"es": "laboratorio"
+},
+"pos": "noun",
+"w": "le laboratoire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1796
+},
+{
+"word": "le lapin",
+"m": {
+"es": "conejo"
+},
+"pos": "noun",
+"w": "le lapin",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1797
+},
+{
+"word": "le logement",
+"m": {
+"es": "vivienda, alojamiento"
+},
+"pos": "noun",
+"w": "le logement",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1798
+},
+{
+"word": "le loup",
+"m": {
+"es": "lobo"
+},
+"pos": "noun",
+"w": "le loup",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1799
+},
+{
+"word": "le maire",
+"m": {
+"es": "alcalde"
+},
+"pos": "noun",
+"w": "le maire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1800
+},
+{
+"word": "le masque",
+"m": {
+"es": "máscara, mascarilla"
+},
+"pos": "noun",
+"w": "le masque",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1801
+},
+{
+"word": "le micro",
+"m": {
+"es": "micrófono"
+},
+"pos": "noun",
+"w": "le micro",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1802
+},
+{
+"word": "le mistral",
+"m": {
+"es": "mistral (viento)"
+},
+"pos": "noun",
+"w": "le mistral",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1803
+},
+{
+"word": "le montant",
+"m": {
+"es": "importe"
+},
+"pos": "adjective/noun",
+"w": "le montant",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1804
+},
+{
+"word": "le moteur",
+"m": {
+"es": "motor"
+},
+"pos": "noun/adjective",
+"w": "le moteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1805
+},
+{
+"word": "le motif",
+"m": {
+"es": "motivo"
+},
+"pos": "noun",
+"w": "le motif",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1806
+},
+{
+"word": "le mouton",
+"m": {
+"es": "oveja, cordero"
+},
+"pos": "noun",
+"w": "le mouton",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1807
+},
+{
+"word": "le mystère",
+"m": {
+"es": "misterio"
+},
+"pos": "noun",
+"w": "le mystère",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1808
+},
+{
+"word": "le métal",
+"m": {
+"es": "metal"
+},
+"pos": "noun",
+"w": "le métal",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1809
+},
+{
+"word": "le neveu",
+"m": {
+"es": "sobrino"
+},
+"pos": "noun",
+"w": "le neveu",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1810
+},
+{
+"word": "le niveau",
+"m": {
+"es": "nivel"
+},
+"pos": "noun",
+"w": "le niveau",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1811
+},
+{
+"word": "le pamplemousse",
+"m": {
+"es": "pomelo"
+},
+"pos": "noun",
+"w": "le pamplemousse",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1812
+},
+{
+"word": "le panorama",
+"m": {
+"es": "panorama"
+},
+"pos": "noun",
+"w": "le panorama",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1813
+},
+{
+"word": "le papier",
+"m": {
+"es": "papel"
+},
+"pos": "noun",
+"w": "le papier",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1814
+},
+{
+"word": "le parapluie",
+"m": {
+"es": "paraguas"
+},
+"pos": "noun",
+"w": "le parapluie",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1815
+},
+{
+"word": "le patron",
+"m": {
+"es": "jefe"
+},
+"pos": "noun",
+"w": "le patron",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1816
+},
+{
+"word": "le photographe",
+"m": {
+"es": "fotógrafo"
+},
+"pos": "noun",
+"w": "le photographe",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1817
+},
+{
+"word": "le piéton",
+"m": {
+"es": "peatón"
+},
+"pos": "adjective/noun",
+"w": "le piéton",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1818
+},
+{
+"word": "le plastique",
+"m": {
+"es": "plástico"
+},
+"pos": "adjective/noun",
+"w": "le plastique",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1819
+},
+{
+"word": "le point",
+"m": {
+"es": "punto"
+},
+"pos": "adverb/noun",
+"w": "le point",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1820
+},
+{
+"word": "le porc",
+"m": {
+"es": "cerdo"
+},
+"pos": "noun",
+"w": "le porc",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1821
+},
+{
+"word": "le pourboire",
+"m": {
+"es": "propina"
+},
+"pos": "noun",
+"w": "le pourboire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1822
+},
+{
+"word": "le poète",
+"m": {
+"es": "poeta"
+},
+"pos": "adjective/noun",
+"w": "le poète",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1823
+},
+{
+"word": "le prisonnier",
+"m": {
+"es": "prisionero"
+},
+"pos": "noun",
+"w": "le prisonnier",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1824
+},
+{
+"word": "le progrès",
+"m": {
+"es": "progreso"
+},
+"pos": "noun",
+"w": "le progrès",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1825
+},
+{
+"word": "le pré",
+"m": {
+"es": "prado"
+},
+"pos": "noun",
+"w": "le pré",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1826
+},
+{
+"word": "le présentateur",
+"m": {
+"es": "presentador"
+},
+"pos": "noun",
+"w": "le présentateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1827
+},
+{
+"word": "le président",
+"m": {
+"es": "presidente"
+},
+"pos": "noun",
+"w": "le président",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1828
+},
+{
+"word": "le resto",
+"m": {
+"es": "restaurante (coloquial)"
+},
+"pos": "noun",
+"w": "le resto",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1829
+},
+{
+"word": "le rhum",
+"m": {
+"es": "ron"
+},
+"pos": "noun",
+"w": "le rhum",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1830
+},
+{
+"word": "le royaume",
+"m": {
+"es": "reino"
+},
+"pos": "noun",
+"w": "le royaume",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1831
+},
+{
+"word": "le réalisateur",
+"m": {
+"es": "director (de cine)"
+},
+"pos": "noun",
+"w": "le réalisateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1832
+},
+{
+"word": "le répondeur",
+"m": {
+"es": "contestador"
+},
+"pos": "adjective/noun",
+"w": "le répondeur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1833
+},
+{
+"word": "le sable",
+"m": {
+"es": "arena"
+},
+"pos": "noun",
+"w": "le sable",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1834
+},
+{
+"word": "le sang",
+"m": {
+"es": "sangre"
+},
+"pos": "noun",
+"w": "le sang",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1835
+},
+{
+"word": "le saucisson",
+"m": {
+"es": "salchichón"
+},
+"pos": "noun",
+"w": "le saucisson",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1836
+},
+{
+"word": "le saumon",
+"m": {
+"es": "salmón"
+},
+"pos": "noun",
+"w": "le saumon",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1837
+},
+{
+"word": "le secrétariat",
+"m": {
+"es": "secretaría"
+},
+"pos": "noun",
+"w": "le secrétariat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1838
+},
+{
+"word": "le secteur",
+"m": {
+"es": "sector"
+},
+"pos": "noun",
+"w": "le secteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1839
+},
+{
+"word": "le sentiment",
+"m": {
+"es": "sentimiento"
+},
+"pos": "noun",
+"w": "le sentiment",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1840
+},
+{
+"word": "le signe",
+"m": {
+"es": "signo, señal"
+},
+"pos": "noun",
+"w": "le signe",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1841
+},
+{
+"word": "le sirop",
+"m": {
+"es": "jarabe; sirope"
+},
+"pos": "noun",
+"w": "le sirop",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1842
+},
+{
+"word": "le soldat",
+"m": {
+"es": "soldado"
+},
+"pos": "noun",
+"w": "le soldat",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1843
+},
+{
+"word": "le sommeil",
+"m": {
+"es": "sueño (ganas de dormir)"
+},
+"pos": "noun",
+"w": "le sommeil",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1844
+},
+{
+"word": "le soulier",
+"m": {
+"es": "zapato"
+},
+"pos": "noun",
+"w": "le soulier",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1845
+},
+{
+"word": "le spectateur",
+"m": {
+"es": "espectador"
+},
+"pos": "noun",
+"w": "le spectateur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1846
+},
+{
+"word": "le stage",
+"m": {
+"es": "prácticas; cursillo"
+},
+"pos": "noun",
+"w": "le stage",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1847
+},
+{
+"word": "le style",
+"m": {
+"es": "estilo"
+},
+"pos": "noun",
+"w": "le style",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1848
+},
+{
+"word": "le sujet",
+"m": {
+"es": "tema, asunto; sujeto"
+},
+"pos": "noun/adjective",
+"w": "le sujet",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1849
+},
+{
+"word": "le symbole",
+"m": {
+"es": "símbolo"
+},
+"pos": "noun",
+"w": "le symbole",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1850
+},
+{
+"word": "le terrain",
+"m": {
+"es": "terreno; campo (de deporte)"
+},
+"pos": "noun",
+"w": "le terrain",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1851
+},
+{
+"word": "le territoire",
+"m": {
+"es": "territorio"
+},
+"pos": "noun",
+"w": "le territoire",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1852
+},
+{
+"word": "le titre",
+"m": {
+"es": "título"
+},
+"pos": "noun",
+"w": "le titre",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1853
+},
+{
+"word": "le transport",
+"m": {
+"es": "transporte"
+},
+"pos": "noun",
+"w": "le transport",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1854
+},
+{
+"word": "le vestige",
+"m": {
+"es": "vestigio, resto"
+},
+"pos": "noun",
+"w": "le vestige",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1855
+},
+{
+"word": "le visiteur",
+"m": {
+"es": "visitante"
+},
+"pos": "noun",
+"w": "le visiteur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1856
+},
+{
+"word": "le voyageur",
+"m": {
+"es": "viajero"
+},
+"pos": "adjective/noun",
+"w": "le voyageur",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1857
+},
+{
+"word": "le véhicule",
+"m": {
+"es": "vehículo"
+},
+"pos": "noun",
+"w": "le véhicule",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1858
+},
+{
+"word": "le vœu",
+"m": {
+"es": "deseo; voto (meilleurs vœux)"
+},
+"pos": "noun",
+"w": "le vœu",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1859
+},
+{
+"word": "le yaourt",
+"m": {
+"es": "yogur"
+},
+"pos": "noun",
+"w": "le yaourt",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1860
+},
+{
+"word": "le zoo",
+"m": {
+"es": "zoo"
+},
+"pos": "noun",
+"w": "le zoo",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1861
+},
+{
+"word": "lequel",
+"m": {
+"es": "el cual, cuál"
+},
+"pos": "pronoun",
+"w": "lequel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1862
+},
+{
+"word": "les beaux-arts",
+"m": {
+"es": "bellas artes"
+},
+"pos": "noun",
+"w": "les beaux-arts",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1863
+},
+{
+"word": "les mathématiques",
+"m": {
+"es": "matemáticas"
+},
+"pos": "noun",
+"w": "les mathématiques",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1864
+},
+{
+"word": "les médias",
+"m": {
+"es": "medios de comunicación"
+},
+"pos": "noun",
+"w": "les médias",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1865
+},
+{
+"word": "les spaghettis",
+"m": {
+"es": "espaguetis"
+},
+"pos": "noun",
+"w": "les spaghettis",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1866
+},
+{
+"word": "libérer",
+"m": {
+"es": "liberar"
+},
+"pos": "verb",
+"w": "libérer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1867
+},
+{
+"word": "linguistique",
+"m": {
+"es": "lingüístico"
+},
+"pos": "noun/adjective",
+"w": "linguistique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1868
+},
+{
+"word": "lointain",
+"m": {
+"es": "lejano"
+},
+"pos": "adjective/noun",
+"w": "lointain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1869
+},
+{
+"word": "lorsque",
+"m": {
+"es": "cuando"
+},
+"pos": "conjunction",
+"w": "lorsque",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1870
+},
+{
+"word": "louer",
+"m": {
+"es": "alquilar"
+},
+"pos": "verb",
+"w": "louer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1871
+},
+{
+"word": "lourd",
+"m": {
+"es": "pesado"
+},
+"pos": "adjective",
+"w": "lourd",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1872
+},
+{
+"word": "lui-même",
+"m": {
+"es": "él mismo"
+},
+"pos": "pronoun",
+"w": "lui-même",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1873
+},
+{
+"word": "léger",
+"m": {
+"es": "ligero"
+},
+"pos": "adjective",
+"w": "léger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1874
+},
+{
+"word": "malheureux",
+"m": {
+"es": "desgraciado, infeliz"
+},
+"pos": "adjective/noun",
+"w": "malheureux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1875
+},
+{
+"word": "marocain",
+"m": {
+"es": "marroquí"
+},
+"pos": "noun/adjective",
+"w": "marocain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1876
+},
+{
+"word": "marrant",
+"m": {
+"es": "gracioso"
+},
+"pos": "adjective",
+"w": "marrant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1877
+},
+{
+"word": "mars",
+"m": {
+"es": "marzo"
+},
+"pos": "noun",
+"w": "mars",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1878
+},
+{
+"word": "maternel",
+"m": {
+"es": "materno"
+},
+"pos": "adjective",
+"w": "maternel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1879
+},
+{
+"word": "mener",
+"m": {
+"es": "llevar, conducir"
+},
+"pos": "verb",
+"w": "mener",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1880
+},
+{
+"word": "mentir",
+"m": {
+"es": "mentir"
+},
+"pos": "verb",
+"w": "mentir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1881
+},
+{
+"word": "mesurer",
+"m": {
+"es": "medir"
+},
+"pos": "verb",
+"w": "mesurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1882
+},
+{
+"word": "mignon",
+"m": {
+"es": "mono, lindo"
+},
+"pos": "adjective",
+"w": "mignon",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1883
+},
+{
+"word": "minéral",
+"m": {
+"es": "mineral (eau minérale)"
+},
+"pos": "adjective/noun",
+"w": "minéral",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1884
+},
+{
+"word": "mixte",
+"m": {
+"es": "mixto"
+},
+"pos": "adjective",
+"w": "mixte",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1885
+},
+{
+"word": "monumental",
+"m": {
+"es": "monumental"
+},
+"pos": "adjective",
+"w": "monumental",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1886
+},
+{
+"word": "mural",
+"m": {
+"es": "mural"
+},
+"pos": "adjective",
+"w": "mural",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1887
+},
+{
+"word": "musical",
+"m": {
+"es": "musical"
+},
+"pos": "adjective",
+"w": "musical",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1888
+},
+{
+"word": "musulman",
+"m": {
+"es": "musulmán"
+},
+"pos": "adjective",
+"w": "musulman",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1889
+},
+{
+"word": "mystérieux",
+"m": {
+"es": "misterioso"
+},
+"pos": "adjective",
+"w": "mystérieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1890
+},
+{
+"word": "médiéval",
+"m": {
+"es": "medieval"
+},
+"pos": "adjective",
+"w": "médiéval",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1891
+},
+{
+"word": "mélanger",
+"m": {
+"es": "mezclar"
+},
+"pos": "verb",
+"w": "mélanger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1892
+},
+{
+"word": "naturel",
+"m": {
+"es": "natural"
+},
+"pos": "adjective/noun",
+"w": "naturel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1893
+},
+{
+"word": "nerveux",
+"m": {
+"es": "nervioso"
+},
+"pos": "adjective",
+"w": "nerveux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1894
+},
+{
+"word": "nocturne",
+"m": {
+"es": "nocturno"
+},
+"pos": "adjective",
+"w": "nocturne",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1895
+},
+{
+"word": "notamment",
+"m": {
+"es": "en particular"
+},
+"pos": "adverb",
+"w": "notamment",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1896
+},
+{
+"word": "numéroter",
+"m": {
+"es": "numerar"
+},
+"pos": "verb",
+"w": "numéroter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1897
+},
+{
+"word": "obliger",
+"m": {
+"es": "obligar"
+},
+"pos": "verb",
+"w": "obliger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1898
+},
+{
+"word": "or",
+"m": {
+"es": "ahora bien"
+},
+"pos": "noun/conjunction",
+"w": "or",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1899
+},
+{
+"word": "ouf",
+"m": {
+"es": "¡uf!"
+},
+"pos": "interjection",
+"w": "ouf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1900
+},
+{
+"word": "parmi",
+"m": {
+"es": "entre (varios)"
+},
+"pos": "preposition",
+"w": "parmi",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1901
+},
+{
+"word": "particulièrement",
+"m": {
+"es": "especialmente"
+},
+"pos": "adverb",
+"w": "particulièrement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1902
+},
+{
+"word": "passionnant",
+"m": {
+"es": "apasionante"
+},
+"pos": "adjective",
+"w": "passionnant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1903
+},
+{
+"word": "patient",
+"m": {
+"es": "paciente"
+},
+"pos": "adjective/noun",
+"w": "patient",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1904
+},
+{
+"word": "peindre",
+"m": {
+"es": "pintar"
+},
+"pos": "verb",
+"w": "peindre",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1905
+},
+{
+"word": "perdu",
+"m": {
+"es": "perdido"
+},
+"pos": "adjective",
+"w": "perdu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1906
+},
+{
+"word": "personnel",
+"m": {
+"es": "personal"
+},
+"pos": "noun/adjective",
+"w": "personnel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1907
+},
+{
+"word": "placer",
+"m": {
+"es": "colocar"
+},
+"pos": "verb/noun",
+"w": "placer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1908
+},
+{
+"word": "plaisanter",
+"m": {
+"es": "bromear"
+},
+"pos": "verb",
+"w": "plaisanter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1909
+},
+{
+"word": "planter",
+"m": {
+"es": "plantar"
+},
+"pos": "verb",
+"w": "planter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1910
+},
+{
+"word": "polluant",
+"m": {
+"es": "contaminante"
+},
+"pos": "adjective/noun",
+"w": "polluant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1911
+},
+{
+"word": "polonais",
+"m": {
+"es": "polaco"
+},
+"pos": "adjective/noun",
+"w": "polonais",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1912
+},
+{
+"word": "populaire",
+"m": {
+"es": "popular"
+},
+"pos": "adjective",
+"w": "populaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1913
+},
+{
+"word": "portugais",
+"m": {
+"es": "portugués"
+},
+"pos": "noun/adjective",
+"w": "portugais",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1914
+},
+{
+"word": "pousser",
+"m": {
+"es": "empujar; crecer"
+},
+"pos": "verb",
+"w": "pousser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1915
+},
+{
+"word": "privilégier",
+"m": {
+"es": "privilegiar"
+},
+"pos": "verb",
+"w": "privilégier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1916
+},
+{
+"word": "proche",
+"m": {
+"es": "cercano"
+},
+"pos": "adjective/noun",
+"w": "proche",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1917
+},
+{
+"word": "prouver",
+"m": {
+"es": "demostrar, probar"
+},
+"pos": "verb",
+"w": "prouver",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1918
+},
+{
+"word": "précieux",
+"m": {
+"es": "precioso, valioso"
+},
+"pos": "adjective",
+"w": "précieux",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1919
+},
+{
+"word": "précis",
+"m": {
+"es": "preciso, exacto"
+},
+"pos": "adjective",
+"w": "précis",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1920
+},
+{
+"word": "présent",
+"m": {
+"es": "presente"
+},
+"pos": "adjective/noun",
+"w": "présent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1921
+},
+{
+"word": "public",
+"m": {
+"es": "público"
+},
+"pos": "adjective/noun",
+"w": "public",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1922
+},
+{
+"word": "quotidien",
+"m": {
+"es": "diario, cotidiano"
+},
+"pos": "adjective/noun",
+"w": "quotidien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1923
+},
+{
+"word": "québécois",
+"m": {
+"es": "quebequés"
+},
+"pos": "adjective",
+"w": "québécois",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1924
+},
+{
+"word": "raide",
+"m": {
+"es": "rígido; liso (pelo)"
+},
+"pos": "noun/adjective",
+"w": "raide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1925
+},
+{
+"word": "ramener",
+"m": {
+"es": "traer de vuelta, llevar (a casa)"
+},
+"pos": "verb/noun",
+"w": "ramener",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1926
+},
+{
+"word": "rapprocher",
+"m": {
+"es": "acercar"
+},
+"pos": "verb",
+"w": "rapprocher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1927
+},
+{
+"word": "rare",
+"m": {
+"es": "raro, escaso"
+},
+"pos": "adjective",
+"w": "rare",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1928
+},
+{
+"word": "rassurer",
+"m": {
+"es": "tranquilizar"
+},
+"pos": "verb",
+"w": "rassurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1929
+},
+{
+"word": "rattraper",
+"m": {
+"es": "alcanzar; recuperar"
+},
+"pos": "verb",
+"w": "rattraper",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1930
+},
+{
+"word": "recouvrir",
+"m": {
+"es": "recubrir"
+},
+"pos": "verb",
+"w": "recouvrir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1931
+},
+{
+"word": "remporter",
+"m": {
+"es": "ganar, conseguir"
+},
+"pos": "verb",
+"w": "remporter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1932
+},
+{
+"word": "renseigner",
+"m": {
+"es": "informar"
+},
+"pos": "verb",
+"w": "renseigner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1933
+},
+{
+"word": "restaurer",
+"m": {
+"es": "restaurar"
+},
+"pos": "verb",
+"w": "restaurer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1934
+},
+{
+"word": "retenir",
+"m": {
+"es": "retener; recordar"
+},
+"pos": "verb",
+"w": "retenir",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1935
+},
+{
+"word": "romain",
+"m": {
+"es": "romano"
+},
+"pos": "adjective",
+"w": "romain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1936
+},
+{
+"word": "rond",
+"m": {
+"es": "redondo"
+},
+"pos": "noun/adjective",
+"w": "rond",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1937
+},
+{
+"word": "royal",
+"m": {
+"es": "real"
+},
+"pos": "adjective",
+"w": "royal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1938
+},
+{
+"word": "russe",
+"m": {
+"es": "ruso"
+},
+"pos": "adjective/noun",
+"w": "russe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1939
+},
+{
+"word": "rédiger",
+"m": {
+"es": "redactar"
+},
+"pos": "verb",
+"w": "rédiger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1940
+},
+{
+"word": "résistant",
+"m": {
+"es": "resistente"
+},
+"pos": "adjective/noun",
+"w": "résistant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1941
+},
+{
+"word": "s'effondrer",
+"m": {
+"es": "derrumbarse"
+},
+"pos": "verb",
+"w": "s'effondrer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1942
+},
+{
+"word": "s'exclamer",
+"m": {
+"es": "exclamar"
+},
+"pos": "verb",
+"w": "s'exclamer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1943
+},
+{
+"word": "s'inscrire",
+"m": {
+"es": "inscribirse, matricularse"
+},
+"pos": "verb",
+"w": "s'inscrire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1944
+},
+{
+"word": "sage",
+"m": {
+"es": "sabio; bueno (niño)"
+},
+"pos": "adjective",
+"w": "sage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1945
+},
+{
+"word": "sauter",
+"m": {
+"es": "saltar"
+},
+"pos": "verb",
+"w": "sauter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1946
+},
+{
+"word": "sauvage",
+"m": {
+"es": "salvaje"
+},
+"pos": "adjective",
+"w": "sauvage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1947
+},
+{
+"word": "se coiffer",
+"m": {
+"es": "peinarse"
+},
+"pos": "verb",
+"w": "se coiffer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1948
+},
+{
+"word": "se décontracter",
+"m": {
+"es": "relajarse"
+},
+"pos": "verb",
+"w": "se décontracter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1949
+},
+{
+"word": "se déguiser",
+"m": {
+"es": "disfrazarse"
+},
+"pos": "verb",
+"w": "se déguiser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1950
+},
+{
+"word": "se moquer",
+"m": {
+"es": "burlarse"
+},
+"pos": "verb",
+"w": "se moquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1951
+},
+{
+"word": "se taire",
+"m": {
+"es": "callarse"
+},
+"pos": "verb",
+"w": "se taire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1952
+},
+{
+"word": "sensible",
+"m": {
+"es": "sensible"
+},
+"pos": "adjective",
+"w": "sensible",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1953
+},
+{
+"word": "sincère",
+"m": {
+"es": "sincero"
+},
+"pos": "adjective",
+"w": "sincère",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1954
+},
+{
+"word": "skier",
+"m": {
+"es": "esquiar"
+},
+"pos": "verb",
+"w": "skier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1955
+},
+{
+"word": "social",
+"m": {
+"es": "social"
+},
+"pos": "adjective",
+"w": "social",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1956
+},
+{
+"word": "solaire",
+"m": {
+"es": "solar"
+},
+"pos": "adjective",
+"w": "solaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1957
+},
+{
+"word": "souriant",
+"m": {
+"es": "sonriente"
+},
+"pos": "adjective",
+"w": "souriant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1958
+},
+{
+"word": "spectaculaire",
+"m": {
+"es": "espectacular"
+},
+"pos": "adjective",
+"w": "spectaculaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1959
+},
+{
+"word": "spécialement",
+"m": {
+"es": "especialmente"
+},
+"pos": "adverb",
+"w": "spécialement",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1960
+},
+{
+"word": "stupide",
+"m": {
+"es": "estúpido"
+},
+"pos": "adjective",
+"w": "stupide",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1961
+},
+{
+"word": "suffire",
+"m": {
+"es": "bastar"
+},
+"pos": "verb",
+"w": "suffire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1962
+},
+{
+"word": "suivant",
+"m": {
+"es": "siguiente"
+},
+"pos": "adjective/preposition",
+"w": "suivant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1963
+},
+{
+"word": "surveiller",
+"m": {
+"es": "vigilar"
+},
+"pos": "verb",
+"w": "surveiller",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1964
+},
+{
+"word": "symboliser",
+"m": {
+"es": "simbolizar"
+},
+"pos": "verb",
+"w": "symboliser",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1965
+},
+{
+"word": "séparer",
+"m": {
+"es": "separar"
+},
+"pos": "verb",
+"w": "séparer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1966
+},
+{
+"word": "sévère",
+"m": {
+"es": "severo"
+},
+"pos": "adjective",
+"w": "sévère",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1967
+},
+{
+"word": "tchao",
+"m": {
+"es": "chao"
+},
+"pos": "interjection",
+"w": "tchao",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1968
+},
+{
+"word": "tel",
+"m": {
+"es": "tal"
+},
+"pos": "noun/pronoun",
+"w": "tel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1969
+},
+{
+"word": "terrifiant",
+"m": {
+"es": "aterrador"
+},
+"pos": "adjective",
+"w": "terrifiant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1970
+},
+{
+"word": "total",
+"m": {
+"es": "total"
+},
+"pos": "adjective/noun",
+"w": "total",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1971
+},
+{
+"word": "touristique",
+"m": {
+"es": "turístico"
+},
+"pos": "adjective",
+"w": "touristique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1972
+},
+{
+"word": "traditionnel",
+"m": {
+"es": "tradicional"
+},
+"pos": "adjective",
+"w": "traditionnel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1973
+},
+{
+"word": "tuer",
+"m": {
+"es": "matar"
+},
+"pos": "verb",
+"w": "tuer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1974
+},
+{
+"word": "universitaire",
+"m": {
+"es": "universitario"
+},
+"pos": "adjective",
+"w": "universitaire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1975
+},
+{
+"word": "utile",
+"m": {
+"es": "útil"
+},
+"pos": "adjective/noun",
+"w": "utile",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1976
+},
+{
+"word": "vain",
+"m": {
+"es": "vano"
+},
+"pos": "adjective",
+"w": "vain",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1977
+},
+{
+"word": "vexer",
+"m": {
+"es": "ofender, molestar"
+},
+"pos": "verb",
+"w": "vexer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1978
+},
+{
+"word": "vif",
+"m": {
+"es": "vivo, intenso"
+},
+"pos": "adjective/noun",
+"w": "vif",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1979
+},
+{
+"word": "violent",
+"m": {
+"es": "violento"
+},
+"pos": "adjective",
+"w": "violent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1980
+},
+{
+"word": "vérifier",
+"m": {
+"es": "comprobar"
+},
+"pos": "verb",
+"w": "vérifier",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1981
+},
+{
+"word": "économique",
+"m": {
+"es": "económico"
+},
+"pos": "adjective",
+"w": "économique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1982
+},
+{
+"word": "électrique",
+"m": {
+"es": "eléctrico"
+},
+"pos": "adjective",
+"w": "électrique",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1983
+},
+{
+"word": "élire",
+"m": {
+"es": "elegir (votando)"
+},
+"pos": "verb",
+"w": "élire",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1984
+},
+{
+"word": "élégant",
+"m": {
+"es": "elegante"
+},
+"pos": "adjective",
+"w": "élégant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1985
+},
+{
+"word": "épeler",
+"m": {
+"es": "deletrear"
+},
+"pos": "verb",
+"w": "épeler",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1986
+},
+{
+"word": "épicé",
+"m": {
+"es": "picante, especiado"
+},
+"pos": "",
+"w": "épicé",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1987
+},
+{
+"word": "éplucher",
+"m": {
+"es": "pelar"
+},
+"pos": "verb",
+"w": "éplucher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1988
+},
+{
+"word": "étonner",
+"m": {
+"es": "sorprender"
+},
+"pos": "verb",
+"w": "étonner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1989
+},
+{
+"word": "étroit",
+"m": {
+"es": "estrecho"
+},
+"pos": "adjective",
+"w": "étroit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1990
+},
+{
+"word": "évoluer",
+"m": {
+"es": "evolucionar"
+},
+"pos": "verb",
+"w": "évoluer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1991
+},
+{
+"word": "évoquer",
+"m": {
+"es": "evocar, mencionar"
+},
+"pos": "verb",
+"w": "évoquer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1992
+}
+]
