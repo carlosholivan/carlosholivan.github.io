@@ -1,0 +1,392 @@
+#! es
+# B1 readings, batch 2 (original). Spanish translations only.
+
+=== 1 | At the tourist office ¦ En la oficina de turismo
+sum: Un turista pide información de forma educada.
+p: Tourist: Excuse me, could you tell me where the cathedral is? Assistant: Of course. It's ten minutes from here. Tourist: And do you know what time it closes?
+= Turista: Perdone, ¿podría decirme dónde está la catedral? Empleada: Por supuesto. Está a diez minutos de aquí. Turista: ¿Y sabe a qué hora cierra?
+p: Assistant: It closes at six, but the tower closes earlier. Tourist: You don't sell tickets here, do you? Assistant: Yes, we do! They're cheaper here than at the cathedral.
+= Empleada: Cierra a las seis, pero la torre cierra antes. Turista: No venden entradas aquí, ¿verdad? Empleada: ¡Sí, sí que vendemos! Aquí son más baratas que en la catedral.
+note: could you tell me where the cathedral is ¦ word-order ¦ Pregunta indirecta: el verbo va después del sujeto (where the cathedral is).
+note: do you know what time it closes ¦ word-order ¦ En la pregunta indirecta no se usa do/does.
+note: You don't sell tickets here, do you ¦ other ¦ Question tag: negativa + tag afirmativo.
+q: How far is the cathedral? ¦ ¿A qué distancia está la catedral? ¦ ten minutes / an hour / five minutes ¦ 0 ¦ «It's ten minutes from here».
+q: What closes earlier? ¦ ¿Qué cierra antes? ¦ the tower / the cathedral / the office ¦ 0 ¦ «the tower closes earlier».
+q: Where are tickets cheaper? ¦ ¿Dónde son más baratas las entradas? ¦ at the tourist office / at the cathedral / online ¦ 0 ¦ «They're cheaper here».
+
+=== 1 | Who broke the window? ¦ ¿Quién rompió la ventana?
+sum: Un padre intenta averiguar quién rompió una ventana.
+p: Dad: Who broke the window? Sam: Not me! Dad: What did you break, then? Sam: Nothing! Ask Lucy. Dad: Lucy, what happened?
+= Papá: ¿Quién rompió la ventana? Sam: ¡Yo no! Papá: ¿Y qué rompiste tú, entonces? Sam: ¡Nada! Pregúntale a Lucy. Papá: Lucy, ¿qué pasó?
+p: Lucy: A ball hit the window. Dad: And who kicked the ball? Lucy: Well… the ball was Sam's, wasn't it? Sam: OK, OK, it was me. Sorry, Dad!
+= Lucy: Una pelota dio en la ventana. Papá: ¿Y quién chutó la pelota? Lucy: Bueno… la pelota era de Sam, ¿no? Sam: Vale, vale, fui yo. ¡Lo siento, papá!
+note: Who broke the window ¦ word-order ¦ Pregunta de sujeto: sin did (✗ Who did break).
+note: What did you break ¦ word-order ¦ Pregunta de objeto: con did.
+note: wasn't it ¦ other ¦ Question tag: afirmativa + tag negativo.
+q: What was broken? ¦ ¿Qué se rompió? ¦ the window / a vase / the TV ¦ 0 ¦ «Who broke the window?».
+q: What hit the window? ¦ ¿Qué dio en la ventana? ¦ a ball / a stone / a bird ¦ 0 ¦ «A ball hit the window».
+q: Who did it? ¦ ¿Quién lo hizo? ¦ Sam / Lucy / Dad ¦ 0 ¦ «it was me».
+
+=== 2 | The missed flight ¦ El vuelo perdido
+sum: Una viajera cuenta cómo perdió el avión.
+p: When I arrived at the airport, the plane had already left. I had set my alarm for five, but I hadn't noticed that my phone was dead.
+= Cuando llegué al aeropuerto, el avión ya había salido. Había puesto la alarma a las cinco, pero no me había dado cuenta de que el móvil estaba sin batería.
+p: By the time I woke up, it was half past seven. I had never missed a flight before. Luckily, the airline found me a seat on the next plane.
+= Para cuando me desperté, eran las siete y media. Nunca había perdido un vuelo. Por suerte, la aerolínea me encontró un asiento en el siguiente avión.
+note: the plane had already left ¦ tense ¦ Pasado perfecto: acción anterior a otra pasada.
+note: I hadn't noticed ¦ tense ¦ Pasado perfecto negativo.
+note: By the time I woke up ¦ linker ¦ by the time = para cuando.
+q: Why did she miss the flight? ¦ ¿Por qué perdió el vuelo? ¦ Her phone was dead. / There was traffic. / She forgot her passport. ¦ 0 ¦ «my phone was dead».
+q: What time did she wake up? ¦ ¿A qué hora se despertó? ¦ 7:30 / 5:00 / 6:30 ¦ 0 ¦ «it was half past seven».
+q: How did the airline help? ¦ ¿Cómo ayudó la aerolínea? ¦ a seat on the next plane / a hotel room / money ¦ 0 ¦ «a seat on the next plane».
+
+=== 2 | The surprise party ¦ La fiesta sorpresa
+sum: Un hombre cuenta una fiesta sorpresa que salió casi mal.
+p: My friends had planned a surprise party for my fortieth birthday. They had invited everyone and they had hidden in the living room.
+= Mis amigos habían planeado una fiesta sorpresa para mi cuarenta cumpleaños. Habían invitado a todo el mundo y se habían escondido en el salón.
+p: But I didn't go home after work. I'd decided to go to the cinema! When I finally arrived at midnight, half of the guests had gone home. We laughed about it for years.
+= Pero no fui a casa después del trabajo. ¡Había decidido ir al cine! Cuando por fin llegué a medianoche, la mitad de los invitados se había ido a casa. Nos reímos de ello durante años.
+note: had planned ¦ tense ¦ Pasado perfecto: preparación anterior.
+note: I'd decided ¦ tense ¦ I'd = I had (aquí, pasado perfecto).
+note: half of the guests had gone home ¦ tense ¦ Pasado perfecto: ya se habían ido cuando llegó.
+q: What was the party for? ¦ ¿Para qué era la fiesta? ¦ his fortieth birthday / his wedding / a new job ¦ 0 ¦ «for my fortieth birthday».
+q: Where did he go after work? ¦ ¿Adónde fue después del trabajo? ¦ to the cinema / home / to a bar ¦ 0 ¦ «go to the cinema».
+q: What time did he arrive? ¦ ¿A qué hora llegó? ¦ at midnight / at eight / at ten ¦ 0 ¦ «at midnight».
+
+=== 3 | Before smartphones ¦ Antes de los móviles
+sum: Una mujer recuerda cómo era la vida antes de los móviles inteligentes.
+p: When I was a teenager, we didn't use to have mobile phones. We used to call our friends from the house phone. My parents would listen to every conversation!
+= Cuando era adolescente, no teníamos móviles. Solíamos llamar a nuestros amigos desde el teléfono de casa. ¡Mis padres escuchaban todas las conversaciones!
+p: We used to meet in the square at six without confirming. Now I'm used to sending messages all day, but I miss those simple times.
+= Quedábamos en la plaza a las seis sin confirmar. Ahora estoy acostumbrada a mandar mensajes todo el día, pero echo de menos aquellos tiempos sencillos.
+note: we didn't use to have ¦ tense ¦ didn't use to = no solíamos (sin -d).
+note: My parents would listen ¦ tense ¦ would para costumbres del pasado.
+note: I'm used to sending ¦ gerund-inf ¦ be used to + -ing = estar acostumbrado a.
+q: How did they call friends? ¦ ¿Cómo llamaban a los amigos? ¦ from the house phone / by mobile / they didn't ¦ 0 ¦ «from the house phone».
+q: Where did they use to meet? ¦ ¿Dónde solían quedar? ¦ in the square / at school / at the cinema ¦ 0 ¦ «in the square at six».
+q: What does she miss? ¦ ¿Qué echa de menos? ¦ those simple times / her parents / her old phone ¦ 0 ¦ «I miss those simple times».
+
+=== 3 | Getting used to London ¦ Acostumbrarse a Londres
+sum: Un español habla de su adaptación a Londres.
+p: When I moved to London, I wasn't used to the weather. I used to complain about the rain every day. I also found it hard to get used to driving on the left.
+= Cuando me mudé a Londres, no estaba acostumbrado al tiempo. Me quejaba de la lluvia todos los días. También me costó acostumbrarme a conducir por la izquierda.
+p: Now I'm used to it all. I don't eat dinner at ten any more, like I used to in Spain. I even drink tea with milk!
+= Ahora estoy acostumbrado a todo. Ya no ceno a las diez, como hacía en España. ¡Incluso bebo té con leche!
+note: I wasn't used to the weather ¦ gerund-inf ¦ be used to + nombre = estar acostumbrado a.
+note: get used to driving ¦ gerund-inf ¦ get used to + -ing = acostumbrarse a.
+note: like I used to in Spain ¦ tense ¦ used to = solía (hábito pasado).
+q: What did he complain about? ¦ ¿De qué se quejaba? ¦ the rain / the food / the people ¦ 0 ¦ «I used to complain about the rain».
+q: What was hard to get used to? ¦ ¿A qué le costó acostumbrarse? ¦ driving on the left / speaking English / the prices ¦ 0 ¦ «driving on the left».
+q: What does he drink now? ¦ ¿Qué bebe ahora? ¦ tea with milk / coffee / beer ¦ 0 ¦ «I even drink tea with milk!».
+
+=== 4 | So far this year ¦ En lo que va de año
+sum: Un emprendedor repasa su año.
+p: It's been an amazing year so far. We've opened two new shops and we've hired twelve people. I've travelled more than ever.
+= Hasta ahora ha sido un año increíble. Hemos abierto dos tiendas nuevas y hemos contratado a doce personas. He viajado más que nunca.
+p: Last month we won a business prize. My partner has gone to New York to celebrate, but I've been there before, so I stayed at home with my kids.
+= El mes pasado ganamos un premio empresarial. Mi socio ha ido a Nueva York a celebrarlo, pero yo ya he estado allí, así que me quedé en casa con mis hijos.
+note: It's been an amazing year so far ¦ tense ¦ so far + present perfect.
+note: Last month we won ¦ tense ¦ Tiempo terminado (last month) → pasado simple.
+note: has gone to New York ¦ tense ¦ gone = ha ido y aún no ha vuelto; been = ha estado y ya volvió.
+q: How many shops have they opened? ¦ ¿Cuántas tiendas han abierto? ¦ two / twelve / one ¦ 0 ¦ «two new shops».
+q: What did they win? ¦ ¿Qué ganaron? ¦ a business prize / a lottery / a competition ¦ 0 ¦ «we won a business prize».
+q: Where is his partner now? ¦ ¿Dónde está su socio ahora? ¦ in New York / at home / in the shop ¦ 0 ¦ «My partner has gone to New York».
+
+=== 4 | An adventurous life ¦ Una vida aventurera
+sum: Una entrevista a un explorador.
+p: Interviewer: Have you ever been in danger? Explorer: Yes, many times. I've crossed the Sahara and I've climbed Everest. Interviewer: When did you climb Everest? Explorer: In 2015.
+= Entrevistador: ¿Ha estado alguna vez en peligro? Explorador: Sí, muchas veces. He cruzado el Sáhara y he escalado el Everest. Entrevistador: ¿Cuándo escaló el Everest? Explorador: En 2015.
+p: Interviewer: What have you done recently? Explorer: I've just written a book about my travels. I haven't decided on my next trip yet.
+= Entrevistador: ¿Qué ha hecho últimamente? Explorador: Acabo de escribir un libro sobre mis viajes. Aún no he decidido mi próximo viaje.
+note: Have you ever been in danger ¦ tense ¦ Experiencia vital: present perfect + ever.
+note: When did you climb Everest ¦ tense ¦ When → pasado simple.
+note: What have you done recently ¦ tense ¦ recently + present perfect.
+q: When did he climb Everest? ¦ ¿Cuándo escaló el Everest? ¦ in 2015 / last year / never ¦ 0 ¦ «In 2015».
+q: What has he just done? ¦ ¿Qué acaba de hacer? ¦ written a book / climbed a mountain / crossed a desert ¦ 0 ¦ «I've just written a book».
+q: Has he decided on his next trip? ¦ ¿Ha decidido su próximo viaje? ¦ no / yes / he doesn't want one ¦ 0 ¦ «I haven't decided on my next trip yet».
+
+=== 5 | Waiting for the doctor ¦ Esperando al médico
+sum: Un paciente se queja de la espera.
+p: I've been waiting here for over an hour! I've been feeling ill since Monday and I've been taking painkillers, but they don't help.
+= ¡Llevo más de una hora esperando aquí! Me encuentro mal desde el lunes y he estado tomando analgésicos, pero no me ayudan.
+p: The receptionist has been answering the phone all morning. The doctor has seen ten patients, and I've read the same magazine three times!
+= La recepcionista lleva toda la mañana contestando al teléfono. El médico ha visto a diez pacientes, ¡y yo he leído la misma revista tres veces!
+note: I've been waiting here for over an hour ¦ tense ¦ Present perfect continuous + for: duración.
+note: since Monday ¦ prep ¦ since + punto de inicio.
+note: The doctor has seen ten patients ¦ tense ¦ Present perfect simple: resultado, cantidad.
+q: How long has he been waiting? ¦ ¿Cuánto tiempo lleva esperando? ¦ over an hour / ten minutes / all day ¦ 0 ¦ «for over an hour».
+q: Since when has he felt ill? ¦ ¿Desde cuándo se encuentra mal? ¦ since Monday / since yesterday / since last week ¦ 0 ¦ «since Monday».
+q: How many times has he read the magazine? ¦ ¿Cuántas veces ha leído la revista? ¦ three / two / once ¦ 0 ¦ «three times».
+
+=== 5 | Learning the guitar ¦ Aprender guitarra
+sum: Un adolescente habla de cómo aprende guitarra.
+p: I've been learning the guitar for two years. I've been practising every day since my birthday, when my parents gave me a new one.
+= Llevo dos años aprendiendo guitarra. Practico todos los días desde mi cumpleaños, cuando mis padres me regalaron una nueva.
+p: How long have I been playing in a band? Since last summer. We've written five songs so far. My neighbours have been complaining, but my mum loves it!
+= ¿Cuánto tiempo llevo tocando en un grupo? Desde el verano pasado. Hasta ahora hemos escrito cinco canciones. Mis vecinos se han estado quejando, ¡pero a mi madre le encanta!
+note: I've been learning the guitar for two years ¦ tense ¦ Acción que empezó en el pasado y sigue.
+note: How long have I been playing ¦ tense ¦ How long + present perfect continuous.
+note: We've written five songs ¦ tense ¦ Cantidad terminada: present perfect simple.
+q: How long has he been learning? ¦ ¿Cuánto tiempo lleva aprendiendo? ¦ two years / one year / five years ¦ 0 ¦ «for two years».
+q: How many songs have they written? ¦ ¿Cuántas canciones han escrito? ¦ five / two / ten ¦ 0 ¦ «five songs».
+q: Who has been complaining? ¦ ¿Quién se ha estado quejando? ¦ the neighbours / his mum / his teacher ¦ 0 ¦ «My neighbours have been complaining».
+
+=== 6 | Weekend plans ¦ Planes de fin de semana
+sum: Dos amigos hablan de sus planes inciertos.
+p: Joe: What are you doing this weekend? Mia: I'm visiting my parents on Saturday. On Sunday, I might go hiking if the weather's nice.
+= Joe: ¿Qué haces este fin de semana? Mia: El sábado voy a ver a mis padres. El domingo puede que vaya de excursión si hace bueno.
+p: Joe: I'm going to paint my bedroom. It'll probably take all weekend. Mia: I'll help you on Sunday evening, if you like. Joe: Thanks, that'd be great!
+= Joe: Voy a pintar mi dormitorio. Probablemente me llevará todo el fin de semana. Mia: Te ayudo el domingo por la tarde, si quieres. Joe: ¡Gracias, sería genial!
+note: I'm visiting my parents ¦ tense ¦ Presente continuo: plan organizado.
+note: I might go hiking ¦ modal ¦ might = posibilidad.
+note: I'll help you ¦ tense ¦ will: decisión espontánea, oferta.
+q: What is Mia doing on Saturday? ¦ ¿Qué hace Mia el sábado? ¦ visiting her parents / hiking / painting ¦ 0 ¦ «I'm visiting my parents on Saturday».
+q: What is Joe going to do? ¦ ¿Qué va a hacer Joe? ¦ paint his bedroom / go hiking / visit family ¦ 0 ¦ «I'm going to paint my bedroom».
+q: When will Mia help? ¦ ¿Cuándo ayudará Mia? ¦ Sunday evening / Saturday morning / never ¦ 0 ¦ «on Sunday evening».
+
+=== 6 | The weather forecast ¦ El pronóstico del tiempo
+sum: Un pronóstico del tiempo con distintos grados de probabilidad.
+p: Tomorrow will definitely be colder than today. In the north, it's likely to snow in the mountains. In the south, it may rain in the afternoon.
+= Mañana hará sin duda más frío que hoy. En el norte es probable que nieve en las montañas. En el sur puede que llueva por la tarde.
+p: On Saturday, the sun will probably come back. However, the wind might be strong on the coast. Next week is unlikely to be warm.
+= El sábado probablemente volverá el sol. Sin embargo, puede que el viento sea fuerte en la costa. Es poco probable que la semana que viene haga calor.
+note: will definitely be ¦ tense ¦ definitely = seguro.
+note: it's likely to snow ¦ other ¦ be likely to = ser probable que.
+note: is unlikely to be ¦ other ¦ be unlikely to = ser poco probable.
+q: What will tomorrow be like? ¦ ¿Cómo será mañana? ¦ colder / warmer / the same ¦ 0 ¦ «Tomorrow will definitely be colder».
+q: Where might the wind be strong? ¦ ¿Dónde puede que haga viento fuerte? ¦ on the coast / in the mountains / in the city ¦ 0 ¦ «on the coast».
+q: Will next week be warm? ¦ ¿Hará calor la semana que viene? ¦ probably not / yes / definitely ¦ 0 ¦ «Next week is unlikely to be warm».
+
+=== 7 | If I had more time ¦ Si tuviera más tiempo
+sum: Una médica habla de lo que haría con más tiempo.
+p: If I had more time, I would learn to paint. I'd also spend more time with my children. If I lived closer to the sea, I would go sailing every weekend.
+= Si tuviera más tiempo, aprendería a pintar. También pasaría más tiempo con mis hijos. Si viviera más cerca del mar, saldría a navegar todos los fines de semana.
+p: My friends say: "If I were you, I'd work less." They're right. If I don't change something soon, I'll be exhausted.
+= Mis amigos dicen: «Yo que tú trabajaría menos». Tienen razón. Si no cambio algo pronto, acabaré agotada.
+note: If I had more time, I would learn ¦ conditional ¦ Segundo condicional: situación imaginaria.
+note: If I were you ¦ conditional ¦ If I were you = yo que tú (consejo).
+note: If I don't change something soon, I'll ¦ conditional ¦ Primer condicional: posibilidad real.
+q: What would she learn? ¦ ¿Qué aprendería? ¦ to paint / to sail / to dance ¦ 0 ¦ «I would learn to paint».
+q: What would she do if she lived near the sea? ¦ ¿Qué haría si viviera cerca del mar? ¦ go sailing / swim every day / open a shop ¦ 0 ¦ «I would go sailing».
+q: What do her friends advise? ¦ ¿Qué le aconsejan sus amigos? ¦ to work less / to move / to change job ¦ 0 ¦ «I'd work less».
+
+=== 7 | Desert island ¦ Isla desierta
+sum: Respuestas a una encuesta sobre qué llevarías a una isla desierta.
+p: If I lived on a desert island, I'd take a good knife. I would build a small house and I'd catch fish. If I could take one book, it would be a survival guide!
+= Si viviera en una isla desierta, llevaría un buen cuchillo. Construiría una casita y pescaría. Si pudiera llevar un libro, ¡sería una guía de supervivencia!
+p: My sister would take her phone, but what would she do without electricity? If she were there, she'd probably miss social media more than food.
+= Mi hermana llevaría el móvil, pero ¿qué haría sin electricidad? Si estuviera allí, probablemente echaría de menos las redes sociales más que la comida.
+note: If I lived on a desert island, I'd take ¦ conditional ¦ Segundo condicional.
+note: If I could take one book ¦ modal ¦ could = pasado de can en el condicional.
+note: If she were there ¦ conditional ¦ were para todas las personas en el segundo condicional.
+q: What would he take? ¦ ¿Qué llevaría? ¦ a knife / a phone / a radio ¦ 0 ¦ «I'd take a good knife».
+q: What book would he take? ¦ ¿Qué libro llevaría? ¦ a survival guide / a novel / a dictionary ¦ 0 ¦ «a survival guide».
+q: What would his sister miss? ¦ ¿Qué echaría de menos su hermana? ¦ social media / food / her family ¦ 0 ¦ «she'd probably miss social media».
+
+=== 8 | I wish I'd studied harder ¦ Ojalá hubiera estudiado más
+sum: Un hombre lamenta decisiones de su juventud.
+p: I wish I had studied harder at school. If I'd gone to university, I would have become a vet. I've always loved animals.
+= Ojalá hubiera estudiado más en el colegio. Si hubiera ido a la universidad, me habría hecho veterinario. Siempre me han encantado los animales.
+p: I wish I spoke another language too. If only I'd listened to my teachers! But it's not too late: next month I'm starting an evening course.
+= Ojalá también hablara otro idioma. ¡Ojalá hubiera escuchado a mis profesores! Pero no es demasiado tarde: el mes que viene empiezo un curso nocturno.
+note: I wish I had studied harder ¦ conditional ¦ wish + pasado perfecto: lamento sobre el pasado.
+note: If I'd gone to university, I would have become ¦ conditional ¦ Tercer condicional.
+note: I wish I spoke ¦ conditional ¦ wish + pasado simple: deseo sobre el presente.
+q: What job would he have liked? ¦ ¿Qué trabajo le habría gustado? ¦ vet / doctor / teacher ¦ 0 ¦ «I would have become a vet».
+q: What else does he wish? ¦ ¿Qué más desea? ¦ to speak another language / to be rich / to travel ¦ 0 ¦ «I wish I spoke another language».
+q: What is he starting next month? ¦ ¿Qué empieza el mes que viene? ¦ an evening course / a new job / a trip ¦ 0 ¦ «an evening course».
+
+=== 8 | The wrong train ¦ El tren equivocado
+sum: Una mujer cuenta un error y sus consecuencias.
+p: If I hadn't taken the wrong train, I wouldn't have met my husband. I was going to Oxford, but I got on the train to Bristol by mistake.
+= Si no hubiera cogido el tren equivocado, no habría conocido a mi marido. Iba a Oxford, pero me subí por error al tren de Bristol.
+p: He was sitting opposite me. If he hadn't laughed at my mistake, we wouldn't have started talking. Sometimes mistakes are the best things that happen to us.
+= Él estaba sentado enfrente de mí. Si no se hubiera reído de mi error, no habríamos empezado a hablar. A veces los errores son lo mejor que nos pasa.
+note: If I hadn't taken the wrong train, I wouldn't have met ¦ conditional ¦ Tercer condicional negativo.
+note: by mistake ¦ idiom ¦ by mistake = por error.
+note: we wouldn't have started talking ¦ gerund-inf ¦ start + -ing.
+q: Where was she going? ¦ ¿Adónde iba? ¦ Oxford / Bristol / London ¦ 0 ¦ «I was going to Oxford».
+q: Where was he sitting? ¦ ¿Dónde estaba sentado él? ¦ opposite her / next to her / behind her ¦ 0 ¦ «He was sitting opposite me».
+q: What made them start talking? ¦ ¿Qué les hizo empezar a hablar? ¦ He laughed at her mistake. / He asked for directions. / She dropped her bag. ¦ 0 ¦ «If he hadn't laughed at my mistake».
+
+=== 9 | New office rules ¦ Nuevas normas en la oficina
+sum: Un correo interno sobre normas de la oficina.
+p: From Monday, all staff must wear their ID cards. Visitors need to sign in at reception. You're not allowed to park in the visitors' car park.
+= A partir del lunes, todo el personal debe llevar su tarjeta identificativa. Los visitantes tienen que registrarse en recepción. No está permitido aparcar en el aparcamiento de visitas.
+p: You don't need to come in on Fridays: you can work from home. However, you'd better tell your manager in advance. You ought to check your email every morning.
+= No hace falta venir los viernes: se puede trabajar desde casa. Sin embargo, más vale que avises a tu responsable con antelación. Deberías revisar el correo todas las mañanas.
+note: You're not allowed to park ¦ modal ¦ be allowed to = tener permiso.
+note: You don't need to come in ¦ modal ¦ don't need to = no hace falta.
+note: you'd better tell ¦ modal ¦ had better = más vale que (consejo fuerte).
+q: What must staff wear? ¦ ¿Qué debe llevar el personal? ¦ ID cards / a uniform / a tie ¦ 0 ¦ «must wear their ID cards».
+q: Where can't staff park? ¦ ¿Dónde no puede aparcar el personal? ¦ in the visitors' car park / in the street / at home ¦ 0 ¦ «in the visitors' car park».
+q: What can they do on Fridays? ¦ ¿Qué pueden hacer los viernes? ¦ work from home / leave early / wear jeans ¦ 0 ¦ «you can work from home».
+
+=== 10 | The mystery of the empty house ¦ El misterio de la casa vacía
+sum: Dos vecinos especulan sobre una casa vacía.
+p: Liz: The lights are off and the car isn't there. They must be on holiday. Tom: They can't be on holiday, the children have school this week.
+= Liz: Las luces están apagadas y el coche no está. Deben de estar de vacaciones. Tom: No pueden estar de vacaciones, los niños tienen colegio esta semana.
+p: Liz: They might be visiting family. Or the mother could be in hospital: she looked ill last week. Tom: It sounds like you're worried. Let's call them!
+= Liz: Puede que estén visitando a la familia. O la madre podría estar en el hospital: la semana pasada tenía mala cara. Tom: Parece que estás preocupada. ¡Llamémoslos!
+note: They must be on holiday ¦ modal ¦ must = deducción segura (deben de).
+note: They can't be ¦ modal ¦ can't = deducción negativa (no pueden).
+note: It sounds like ¦ idiom ¦ sound like = parecer (por lo que se oye).
+q: Why does Liz think they're on holiday? ¦ ¿Por qué cree Liz que están de vacaciones? ¦ The lights are off and the car isn't there. / They told her. / The house is for sale. ¦ 0 ¦ «The lights are off and the car isn't there».
+q: Why does Tom disagree? ¦ ¿Por qué no está de acuerdo Tom? ¦ The children have school. / He saw them. / It's raining. ¦ 0 ¦ «the children have school this week».
+q: What do they decide to do? ¦ ¿Qué deciden hacer? ¦ call them / go to the police / wait ¦ 0 ¦ «Let's call them!».
+
+=== 11 | The history of chocolate ¦ La historia del chocolate
+sum: Breve historia del chocolate en voz pasiva.
+p: Chocolate was first made in Central America thousands of years ago. It was drunk as a bitter drink. Cocoa beans were even used as money.
+= El chocolate se elaboró por primera vez en América Central hace miles de años. Se bebía como una bebida amarga. Las semillas de cacao incluso se usaban como dinero.
+p: In the 16th century, chocolate was brought to Europe by the Spanish. Sugar was added and it became very popular. Today, millions of tons are produced every year.
+= En el siglo XVI, los españoles trajeron el chocolate a Europa. Se le añadió azúcar y se hizo muy popular. Hoy se producen millones de toneladas cada año.
+note: Chocolate was first made ¦ passive ¦ Pasiva en pasado: was + participio.
+note: was brought to Europe by the Spanish ¦ passive ¦ by + agente.
+note: millions of tons are produced ¦ passive ¦ Pasiva en presente.
+q: Where was chocolate first made? ¦ ¿Dónde se elaboró primero el chocolate? ¦ Central America / Spain / Africa ¦ 0 ¦ «in Central America».
+q: What were cocoa beans used as? ¦ ¿Para qué se usaban las semillas de cacao? ¦ money / medicine / food for animals ¦ 0 ¦ «used as money».
+q: Who brought chocolate to Europe? ¦ ¿Quién trajo el chocolate a Europa? ¦ the Spanish / the English / the Italians ¦ 0 ¦ «by the Spanish».
+
+=== 12 | What the boss said ¦ Lo que dijo el jefe
+sum: Una empleada cuenta a su compañero la reunión.
+p: The boss said that sales had fallen last month. He told us that we would have to work harder. He asked if anyone had any ideas.
+= El jefe dijo que las ventas habían bajado el mes pasado. Nos dijo que tendríamos que trabajar más. Preguntó si alguien tenía alguna idea.
+p: Anna said she could design a new website. The boss told her to prepare a plan by Friday. Then he asked me why I was late!
+= Anna dijo que podía diseñar una web nueva. El jefe le dijo que preparara un plan para el viernes. ¡Luego me preguntó por qué había llegado tarde!
+note: said that sales had fallen ¦ reported ¦ Estilo indirecto: pasado simple → pasado perfecto.
+note: He told us that ¦ reported ¦ tell + persona; say sin persona.
+note: told her to prepare ¦ reported ¦ Orden en estilo indirecto: tell + persona + to.
+q: What had happened to sales? ¦ ¿Qué les había pasado a las ventas? ¦ They had fallen. / They had doubled. / Nothing. ¦ 0 ¦ «sales had fallen last month».
+q: What can Anna do? ¦ ¿Qué puede hacer Anna? ¦ design a website / sell more / write a report ¦ 0 ¦ «she could design a new website».
+q: What did the boss ask the writer? ¦ ¿Qué le preguntó el jefe a la autora? ¦ why she was late / if she had ideas / where she lived ¦ 0 ¦ «he asked me why I was late».
+
+=== 13 | My grandfather's village ¦ El pueblo de mi abuelo
+sum: Un hombre describe el pueblo de su abuelo.
+p: My grandfather, who is ninety, lives in a village in Wales. The house where he was born is still there. It's next to the church, which is eight hundred years old.
+= Mi abuelo, que tiene noventa años, vive en un pueblo de Gales. La casa donde nació sigue allí. Está al lado de la iglesia, que tiene ochocientos años.
+p: The man who owns the shop has known him all his life. The village, whose population is only two hundred, is very quiet. It's the place that I love most.
+= El hombre que lleva la tienda lo conoce de toda la vida. El pueblo, cuya población es de solo doscientas personas, es muy tranquilo. Es el lugar que más quiero.
+note: My grandfather, who is ninety ¦ relative ¦ Relativa explicativa: entre comas, no se puede usar that.
+note: the church, which is eight hundred years old ¦ relative ¦ which para cosas en relativa explicativa.
+note: whose population ¦ relative ¦ whose = cuyo.
+q: How old is the grandfather? ¦ ¿Cuántos años tiene el abuelo? ¦ ninety / eighty / a hundred ¦ 0 ¦ «who is ninety».
+q: Where is the house? ¦ ¿Dónde está la casa? ¦ next to the church / near the shop / by the river ¦ 0 ¦ «next to the church».
+q: How many people live in the village? ¦ ¿Cuánta gente vive en el pueblo? ¦ two hundred / eight hundred / ninety ¦ 0 ¦ «only two hundred».
+
+=== 14 | Don't forget to lock the door ¦ No olvides cerrar la puerta
+sum: Una madre deja instrucciones a su hijo adolescente.
+p: Remember to feed the cat. Don't forget to lock the door when you go out. And please stop playing video games after midnight!
+= Acuérdate de dar de comer al gato. No olvides cerrar la puerta con llave cuando salgas. ¡Y por favor, deja de jugar a videojuegos después de medianoche!
+p: I remember leaving the oven on last time, so check it! Try to eat some vegetables. Cooking isn't difficult. Love, Mum.
+= Recuerdo que la última vez me dejé el horno encendido, ¡así que compruébalo! Intenta comer algo de verdura. Cocinar no es difícil. Besos, mamá.
+note: Remember to feed the cat ¦ gerund-inf ¦ remember to = acordarse de hacer algo (futuro).
+note: I remember leaving the oven on ¦ gerund-inf ¦ remember + -ing = recordar algo pasado.
+note: Cooking isn't difficult ¦ gerund-inf ¦ -ing como sujeto.
+q: What must he feed? ¦ ¿A quién tiene que dar de comer? ¦ the cat / the dog / the fish ¦ 0 ¦ «feed the cat».
+q: When should he stop playing games? ¦ ¿Cuándo debería dejar de jugar? ¦ after midnight / after dinner / at ten ¦ 0 ¦ «after midnight».
+q: What did Mum leave on last time? ¦ ¿Qué se dejó encendido mamá la última vez? ¦ the oven / the TV / the lights ¦ 0 ¦ «leaving the oven on».
+
+=== 15 | Giving up sugar ¦ Dejar el azúcar
+sum: Una mujer cuenta cómo dejó el azúcar.
+p: Last year I decided to give up sugar. At first, it was hard to get through the day without chocolate. My friends tried to talk me out of it.
+= El año pasado decidí dejar el azúcar. Al principio me costaba aguantar el día sin chocolate. Mis amigos intentaron disuadirme.
+p: But I carried on. After a month, I found out that I had more energy. I've now taken up running too. I've never looked back!
+= Pero seguí adelante. Al cabo de un mes, descubrí que tenía más energía. Ahora también he empezado a correr. ¡No me arrepiento!
+note: give up sugar ¦ phrasal ¦ give up = dejar (un hábito).
+note: I carried on ¦ phrasal ¦ carry on = seguir, continuar.
+note: I found out ¦ phrasal ¦ find out = descubrir, enterarse.
+q: What did she give up? ¦ ¿Qué dejó? ¦ sugar / coffee / meat ¦ 0 ¦ «give up sugar».
+q: What did she find out after a month? ¦ ¿Qué descubrió al cabo de un mes? ¦ She had more energy. / She was ill. / She was hungry. ¦ 0 ¦ «I had more energy».
+q: What has she taken up? ¦ ¿Qué ha empezado a hacer? ¦ running / swimming / cooking ¦ 0 ¦ «taken up running».
+
+=== 16 | Such a beautiful day ¦ Un día tan bonito
+sum: Un relato breve sobre un día perfecto.
+p: It was such a beautiful day that we decided to go to the beach. The water was so clear that we could see the fish. It was too cold to swim, though.
+= Hacía un día tan bonito que decidimos ir a la playa. El agua estaba tan transparente que podíamos ver los peces. Aunque estaba demasiado fría para bañarse.
+p: We weren't brave enough to go in. Instead, we had such a good picnic that nobody wanted to leave. It was the perfect end to the summer.
+= No fuimos lo bastante valientes para entrar. En su lugar, hicimos un pícnic tan bueno que nadie quería irse. Fue el final perfecto del verano.
+note: such a beautiful day that ¦ other ¦ such a + adjetivo + nombre + that.
+note: so clear that ¦ other ¦ so + adjetivo + that.
+note: too cold to swim ¦ quantifier ¦ too + adjetivo + to = demasiado … para.
+q: Where did they go? ¦ ¿Adónde fueron? ¦ to the beach / to the mountains / to the park ¦ 0 ¦ «to go to the beach».
+q: Why didn't they swim? ¦ ¿Por qué no se bañaron? ¦ The water was too cold. / It rained. / There were sharks. ¦ 0 ¦ «It was too cold to swim».
+q: What did they do instead? ¦ ¿Qué hicieron en su lugar? ¦ a picnic / went home / played volleyball ¦ 0 ¦ «we had such a good picnic».
+
+=== 17 | Nobody came ¦ No vino nadie
+sum: Un chico organiza una fiesta y nadie aparece.
+p: I organised a party for Saturday. I sent everybody a message. I bought something to eat and I cleaned everywhere. But nobody came!
+= Organicé una fiesta para el sábado. Le mandé un mensaje a todo el mundo. Compré algo de comer y limpié por todas partes. ¡Pero no vino nadie!
+p: Neither of my best friends answered. Then I checked my phone: none of the messages had been sent! Both my brothers came later and we ate everything ourselves.
+= Ninguno de mis dos mejores amigos contestó. Luego miré el móvil: ¡no se había enviado ninguno de los mensajes! Mis dos hermanos vinieron más tarde y nos lo comimos todo nosotros.
+note: nobody came ¦ quantifier ¦ nobody = nadie (con verbo afirmativo).
+note: Neither of my best friends ¦ quantifier ¦ neither of = ninguno de los dos.
+note: none of the messages ¦ quantifier ¦ none of = ninguno de (más de dos).
+q: Who came to the party? ¦ ¿Quién vino a la fiesta? ¦ nobody at first / everybody / his best friends ¦ 0 ¦ «nobody came!».
+q: What was the problem? ¦ ¿Cuál era el problema? ¦ The messages hadn't been sent. / It rained. / He gave the wrong address. ¦ 0 ¦ «none of the messages had been sent».
+q: Who came later? ¦ ¿Quién vino más tarde? ¦ his two brothers / his parents / his neighbours ¦ 0 ¦ «Both my brothers came later».
+
+=== 18 | Despite the rain ¦ A pesar de la lluvia
+sum: Una crónica de un maratón bajo la lluvia.
+p: Despite the heavy rain, more than ten thousand runners took part in the city marathon. Although the streets were wet, nobody fell.
+= A pesar de la fuerte lluvia, más de diez mil corredores participaron en el maratón de la ciudad. Aunque las calles estaban mojadas, nadie se cayó.
+p: The winner was a 22-year-old nurse. She hadn't trained much because of her work. However, she ran faster than anyone. Therefore, she'll represent the country next year.
+= La ganadora fue una enfermera de 22 años. No había entrenado mucho por su trabajo. Sin embargo, corrió más rápido que nadie. Por eso representará al país el año que viene.
+note: Despite the heavy rain ¦ linker ¦ despite + nombre = a pesar de.
+note: Although the streets were wet ¦ linker ¦ although + frase = aunque.
+note: Therefore ¦ linker ¦ therefore = por tanto.
+q: How many runners took part? ¦ ¿Cuántos corredores participaron? ¦ more than ten thousand / one thousand / five hundred ¦ 0 ¦ «more than ten thousand runners».
+q: Who was the winner? ¦ ¿Quién fue la ganadora? ¦ a nurse / a teacher / a student ¦ 0 ¦ «a 22-year-old nurse».
+q: Why hadn't she trained much? ¦ ¿Por qué no había entrenado mucho? ¦ because of her work / she was ill / she was on holiday ¦ 0 ¦ «because of her work».
+
+=== 19 | Getting things done ¦ Encargar cosas
+sum: Una mujer ocupada explica qué encarga a otros.
+p: I'm so busy that I have most things done for me. I have my shopping delivered and I get my car washed every Saturday. I don't make my own bread.
+= Estoy tan ocupada que encargo que me hagan casi todo. Me traen la compra a casa y me lavan el coche todos los sábados. No hago mi propio pan.
+p: Last week I had my hair cut and I got my laptop repaired. I do my own homework with my kids, though. That's something I'll never have done by someone else!
+= La semana pasada me corté el pelo en la peluquería y me arreglaron el portátil. Eso sí, los deberes con mis hijos los hago yo. ¡Eso es algo que nunca encargaré a otro!
+note: I have my shopping delivered ¦ passive ¦ have + objeto + participio = encargar que te hagan algo.
+note: I get my car washed ¦ passive ¦ get + objeto + participio (más informal).
+note: I do my own homework ¦ collocation ¦ do homework (✗ make homework).
+q: What happens every Saturday? ¦ ¿Qué pasa cada sábado? ¦ Her car is washed. / She bakes bread. / She goes shopping. ¦ 0 ¦ «I get my car washed every Saturday».
+q: What did she have repaired? ¦ ¿Qué le arreglaron? ¦ her laptop / her car / her phone ¦ 0 ¦ «I got my laptop repaired».
+q: What does she do herself? ¦ ¿Qué hace ella misma? ¦ homework with her kids / the shopping / her hair ¦ 0 ¦ «I do my own homework with my kids».
+
+=== 20 | The more you read ¦ Cuanto más lees
+sum: Una bibliotecaria habla de los beneficios de leer.
+p: The more you read, the more words you learn. And the more words you know, the easier it is to express yourself. Reading is far better than watching TV for your brain.
+= Cuanto más lees, más palabras aprendes. Y cuantas más palabras conoces, más fácil es expresarte. Leer es mucho mejor que ver la tele para el cerebro.
+p: Children who read are a bit more confident at school. Books are getting more and more expensive, but libraries are free. The sooner you start, the better!
+= Los niños que leen tienen un poco más de confianza en el colegio. Los libros son cada vez más caros, pero las bibliotecas son gratis. ¡Cuanto antes empieces, mejor!
+note: The more you read, the more words you learn ¦ comparison ¦ the + comparativo, the + comparativo = cuanto más… más.
+note: far better ¦ comparison ¦ far / much + comparativo = mucho más.
+note: more and more expensive ¦ comparison ¦ more and more = cada vez más.
+q: What happens the more you read? ¦ ¿Qué pasa cuanto más lees? ¦ You learn more words. / You get tired. / You sleep better. ¦ 0 ¦ «the more words you learn».
+q: How are books changing? ¦ ¿Cómo están cambiando los libros? ¦ more and more expensive / cheaper / shorter ¦ 0 ¦ «more and more expensive».
+q: What is free? ¦ ¿Qué es gratis? ¦ libraries / books / schools ¦ 0 ¦ «libraries are free».
+
+=== 10 | Who ate my sandwich? ¦ ¿Quién se ha comido mi sándwich?
+sum: Unos compañeros de oficina especulan sobre un sándwich desaparecido.
+p: Someone has eaten my sandwich from the office fridge! It can't have been Mary, she's vegetarian and it had ham in it. It must have been someone hungry.
+= ¡Alguien se ha comido mi sándwich de la nevera de la oficina! No puede haber sido Mary, es vegetariana y llevaba jamón. Debe de haber sido alguien con hambre.
+p: Pete looks guilty. He might have taken it by mistake: his sandwich looks the same. It seems that I'll have to write my name on my food from now on.
+= Pete tiene cara de culpable. Puede que lo cogiera por error: su sándwich es igual. Parece que a partir de ahora tendré que escribir mi nombre en la comida.
+note: It can't have been Mary ¦ modal ¦ can't have + participio = deducción negativa sobre el pasado.
+note: It must have been ¦ modal ¦ must have + participio = deducción segura sobre el pasado.
+note: Pete looks guilty ¦ other ¦ look + adjetivo = parecer, tener aspecto de.
+q: Why can't it be Mary? ¦ ¿Por qué no puede ser Mary? ¦ She's vegetarian. / She wasn't there. / She doesn't like bread. ¦ 0 ¦ «she's vegetarian and it had ham in it».
+q: Why might Pete have taken it? ¦ ¿Por qué podría haberlo cogido Pete? ¦ by mistake / because he was angry / as a joke ¦ 0 ¦ «He might have taken it by mistake».
+q: What will the writer do from now on? ¦ ¿Qué hará el autor a partir de ahora? ¦ write his name on his food / eat at home / buy lunch ¦ 0 ¦ «write my name on my food».
+
+=== 9 | Hotel check-in rules ¦ Normas de entrada en el hotel
+sum: Las normas de un hotel familiar.
+p: Guests must check in before ten p.m. You aren't allowed to smoke in the rooms, but you can smoke in the garden. Pets are allowed if you tell us in advance.
+= Los clientes deben registrarse antes de las diez de la noche. No está permitido fumar en las habitaciones, pero se puede fumar en el jardín. Se admiten mascotas si nos avisan con antelación.
+p: You don't have to pay until you leave. You ought to book the restaurant, as it's often full. You'd better not leave valuables in the car.
+= No hay que pagar hasta que se marchen. Deberían reservar el restaurante, porque a menudo está lleno. Más vale que no dejen objetos de valor en el coche.
+note: You aren't allowed to smoke ¦ modal ¦ not be allowed to = prohibición.
+note: You don't have to pay ¦ modal ¦ don't have to = no es obligatorio.
+note: You'd better not leave ¦ modal ¦ had better not = más vale que no.
+q: When must guests check in? ¦ ¿Cuándo deben registrarse los clientes? ¦ before 10 p.m. / before midnight / after 10 p.m. ¦ 0 ¦ «before ten p.m.».
+q: Where can you smoke? ¦ ¿Dónde se puede fumar? ¦ in the garden / in the rooms / in the restaurant ¦ 0 ¦ «you can smoke in the garden».
+q: Why should you book the restaurant? ¦ ¿Por qué hay que reservar el restaurante? ¦ It's often full. / It's cheaper. / It's closed on Sundays. ¦ 0 ¦ «it's often full».
