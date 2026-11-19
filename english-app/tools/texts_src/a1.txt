@@ -1,0 +1,395 @@
+# A1 readings (original). See tools/build_texts.py for the format.
+
+=== 1 | A new student ¦ Una alumna nueva ¦ 新しい生徒 ¦ 新同学
+sum: Lucy conoce a Ken el primer día de clase. ¦ 授業の初日にルーシーがケンと出会います。 ¦ 露西在上课第一天认识了肯。
+p: Lucy: Hello! I'm Lucy. What's your name?
++ Ken: Hi, Lucy. I'm Ken. Nice to meet you.
++ Lucy: Nice to meet you too. Are you a new student?
++ Ken: Yes, I am. And you?
++ Lucy: No, I'm not new. This is my second year.
+= Lucy: ¡Hola! Soy Lucy. ¿Cómo te llamas?
+=+ Ken: Hola, Lucy. Soy Ken. Encantado de conocerte.
+=+ Lucy: Encantada también. ¿Eres un alumno nuevo?
+=+ Ken: Sí. ¿Y tú?
+=+ Lucy: No, yo no soy nueva. Este es mi segundo año.
+= ルーシー：こんにちは！ルーシーです。お名前は？
+=+ ケン：やあ、ルーシー。ケンです。はじめまして。
+=+ ルーシー：こちらこそ、はじめまして。新しい生徒ですか。
+=+ ケン：はい、そうです。あなたは？
+=+ ルーシー：いいえ、私は新しくありません。今年で2年目です。
+= 露西：你好！我是露西。你叫什么名字？
+=+ 肯：你好，露西。我是肯。很高兴认识你。
+=+ 露西：我也很高兴认识你。你是新同学吗？
+=+ 肯：是的。你呢？
+=+ 露西：不，我不是新生。这是我的第二年。
+p: The teacher comes in. "Good morning, everyone!" she says. "Good morning, Mrs Green!" say the students. Ken is happy. His new class is very nice.
+= Entra la profesora. «¡Buenos días a todos!», dice. «¡Buenos días, señora Green!», dicen los alumnos. Ken está contento. Su nueva clase es muy agradable.
+= 先生が入ってきます。「皆さん、おはようございます！」と先生が言います。「グリーン先生、おはようございます！」と生徒たちが言います。ケンはうれしいです。新しいクラスはとても感じがいいです。
+= 老师进来了。“大家早上好！”她说。“格林老师早上好！”学生们说。肯很高兴，他的新班级非常好。
+note: Nice to meet you ¦ idiom ¦ Se dice al conocer a alguien. La respuesta típica es «Nice to meet you too». ¦ 初対面のあいさつ。返事は「Nice to meet you too」。 ¦ 初次见面时说。回答通常是“Nice to meet you too”。
+note: Yes, I am ¦ other ¦ Respuesta corta: repite el verbo be. No se contrae: ✗ Yes, I'm. ¦ 短い答えは be 動詞をくり返す。短縮しない（✗ Yes, I'm）。 ¦ 简短回答重复 be 动词，不缩写（✗ Yes, I'm）。
+q: Is Ken a new student? ¦ ¿Ken es un alumno nuevo? ¦ ケンは新しい生徒ですか。 ¦ 肯是新同学吗？ ¦ Yes, he is. / No, he isn't. / We don't know. ¦ 0 ¦ Ken dice: «Yes, I am». ¦ ケンは「Yes, I am」と言っています。 ¦ 肯说：“Yes, I am.”
+q: What is the teacher's name? ¦ ¿Cómo se llama la profesora? ¦ 先生の名前は？ ¦ 老师叫什么名字？ ¦ Mrs Lucy / Mrs Green / Mrs Ken ¦ 1 ¦ Los alumnos dicen «Good morning, Mrs Green!». ¦ 生徒たちが「Good morning, Mrs Green!」と言っています。 ¦ 学生们说：“Good morning, Mrs Green!”
+q: How is Ken? ¦ ¿Cómo está Ken? ¦ ケンはどんな気持ちですか。 ¦ 肯感觉怎么样？ ¦ sad / tired / happy ¦ 2 ¦ «Ken is happy». ¦ 「Ken is happy」とあります。 ¦ 原文：“Ken is happy.”
+
+=== 2 | Friends from around the world ¦ Amigos de todo el mundo ¦ 世界中の友達 ¦ 来自世界各地的朋友
+sum: Sara presenta a sus amigos de la escuela de idiomas. ¦ サラが語学学校の友達を紹介します。 ¦ 萨拉介绍她在语言学校的朋友。
+p: My name is Sara and I'm from Valencia, in Spain. I'm a student at a language school in Dublin. Dublin is a beautiful city and the people are very friendly.
+= Me llamo Sara y soy de Valencia, en España. Soy estudiante en una escuela de idiomas de Dublín. Dublín es una ciudad preciosa y la gente es muy simpática.
+= 私の名前はサラで、スペインのバレンシア出身です。ダブリンの語学学校の生徒です。ダブリンは美しい都市で、人々はとても親切です。
+= 我叫萨拉，来自西班牙的瓦伦西亚。我在都柏林的一所语言学校上学。都柏林是一座美丽的城市，人们非常友好。
+p: My friends at school are from different countries. Yuki is from Japan. She's very funny. Wei and Lin are from China. They're brothers. Marco isn't from Spain; he's from Italy. We speak English together every day.
+= Mis amigos de la escuela son de distintos países. Yuki es de Japón. Es muy graciosa. Wei y Lin son de China. Son hermanos. Marco no es de España; es de Italia. Hablamos inglés juntos todos los días.
+= 学校の友達はいろいろな国の出身です。ユキは日本出身で、とても面白い人です。ウェイとリンは中国出身で、兄弟です。マルコはスペインではなくイタリア出身です。私たちは毎日一緒に英語を話します。
+= 我在学校的朋友来自不同的国家。由纪来自日本，她很有趣。伟和林来自中国，他们是兄弟。马可不是西班牙人，他来自意大利。我们每天一起说英语。
+note: I'm from Valencia ¦ prep ¦ be from + lugar = ser de. ¦ be from＋場所＝〜出身である。 ¦ be from + 地点 = 来自某地。
+note: the people are ¦ other ¦ people es plural: the people are (✗ the people is). ¦ people は複数扱い：the people are（✗ is）。 ¦ people 是复数：the people are（✗ is）。
+note: Marco isn't from Spain ¦ other ¦ Negativa de be: isn't = is not. ¦ be 動詞の否定：isn't＝is not。 ¦ be 动词否定：isn't = is not。
+q: Where is Sara's school? ¦ ¿Dónde está la escuela de Sara? ¦ サラの学校はどこにありますか。 ¦ 萨拉的学校在哪里？ ¦ in Valencia / in Dublin / in Italy ¦ 1 ¦ «a language school in Dublin». ¦ 「a language school in Dublin」。 ¦ “a language school in Dublin”。
+q: Where are Wei and Lin from? ¦ ¿De dónde son Wei y Lin? ¦ ウェイとリンはどこの出身ですか。 ¦ 伟和林来自哪里？ ¦ Japan / China / Italy ¦ 1 ¦ «Wei and Lin are from China». ¦ 「Wei and Lin are from China」。 ¦ “Wei and Lin are from China.”
+q: Is Marco Spanish? ¦ ¿Marco es español? ¦ マルコはスペイン人ですか。 ¦ 马可是西班牙人吗？ ¦ Yes, he is. / No, he isn't. / We don't know. ¦ 1 ¦ Es de Italia. ¦ イタリア出身です。 ¦ 他来自意大利。
+
+=== 3 | At the gym ¦ En el gimnasio ¦ ジムで ¦ 在健身房
+sum: Un chico rellena un formulario para apuntarse al gimnasio. ¦ 男の子がジムの入会用紙を記入します。 ¦ 一个男孩填写健身房的报名表。
+p: Receptionist: Good afternoon. Can I have your name, please?
++ Tom: Yes, it's Tom Baker.
++ Receptionist: How do you spell your last name?
++ Tom: B-A-K-E-R.
++ Receptionist: Thank you. How old are you, Tom?
++ Tom: I'm seventeen.
++ Receptionist: And what's your phone number?
++ Tom: It's 07700 900 461.
++ Receptionist: Are you a student?
++ Tom: Yes, I am. I'm at Hill College.
+= Recepcionista: Buenas tardes. ¿Me dice su nombre, por favor?
+=+ Tom: Sí, es Tom Baker.
+=+ Recepcionista: ¿Cómo se escribe su apellido?
+=+ Tom: B-A-K-E-R.
+=+ Recepcionista: Gracias. ¿Cuántos años tienes, Tom?
+=+ Tom: Tengo diecisiete.
+=+ Recepcionista: ¿Y cuál es tu número de teléfono?
+=+ Tom: Es el 07700 900 461.
+=+ Recepcionista: ¿Eres estudiante?
+=+ Tom: Sí. Estudio en el Hill College.
+= 受付：こんにちは。お名前をお願いします。
+=+ トム：はい、トム・ベイカーです。
+=+ 受付：名字はどうつづりますか。
+=+ トム：B-A-K-E-R です。
+=+ 受付：ありがとうございます。トムさんは何歳ですか。
+=+ トム：17歳です。
+=+ 受付：電話番号は？
+=+ トム：07700 900 461 です。
+=+ 受付：学生ですか。
+=+ トム：はい。ヒル・カレッジに通っています。
+= 前台：下午好。请问您叫什么名字？
+=+ 汤姆：好的，我叫汤姆·贝克。
+=+ 前台：您的姓怎么拼写？
+=+ 汤姆：B-A-K-E-R。
+=+ 前台：谢谢。汤姆，你多大了？
+=+ 汤姆：我十七岁。
+=+ 前台：你的电话号码是多少？
+=+ 汤姆：07700 900 461。
+=+ 前台：你是学生吗？
+=+ 汤姆：是的，我在希尔学院上学。
+note: How old are you ¦ other ¦ La edad se pregunta y se dice con be: How old are you? — I'm seventeen. ¦ 年齢は be で尋ね、答える：How old are you? — I'm seventeen。 ¦ 年龄用 be 来问和回答：How old are you? — I'm seventeen.
+note: Can I have your name ¦ modal ¦ Forma educada de pedir algo: Can I have…? ¦ 何かを丁寧に頼む言い方：Can I have…? ¦ 礼貌地请求某物：Can I have…?
+q: How old is Tom? ¦ ¿Cuántos años tiene Tom? ¦ トムは何歳ですか。 ¦ 汤姆多大？ ¦ 16 / 17 / 70 ¦ 1 ¦ «I'm seventeen» = 17. ¦ 「seventeen」は17。 ¦ “seventeen”是 17。
+q: What is Tom's last name? ¦ ¿Cuál es el apellido de Tom? ¦ トムの名字は？ ¦ 汤姆姓什么？ ¦ Hill / Baker / Tom ¦ 1 ¦ «Tom Baker»: Baker es el apellido. ¦ 「Tom Baker」の Baker が名字。 ¦ “Tom Baker”中 Baker 是姓。
+q: Is Tom a student? ¦ ¿Tom es estudiante? ¦ トムは学生ですか。 ¦ 汤姆是学生吗？ ¦ Yes, he is. / No, he isn't. / He's a teacher. ¦ 0 ¦ Dice «Yes, I am. I'm at Hill College». ¦ 「Yes, I am」と答えています。 ¦ 他说：“Yes, I am.”
+
+=== 4 | What's in my bag? ¦ ¿Qué hay en mi bolso? ¦ かばんの中身は？ ¦ 我的包里有什么？
+sum: Emma enseña lo que lleva en su mochila. ¦ エマがかばんの中の物を見せます。 ¦ 埃玛展示她包里的东西。
+p: This is my school bag. It's big and blue. What's in it? Let's look! There's a notebook, two pens and a pencil. These are my books for English and history. This is my dictionary. It's very heavy!
+= Esta es mi mochila del colegio. Es grande y azul. ¿Qué hay dentro? ¡Vamos a ver! Hay un cuaderno, dos bolis y un lápiz. Estos son mis libros de inglés y de historia. Este es mi diccionario. ¡Pesa muchísimo!
+= これは私の学校のかばんです。大きくて青いです。中には何があるでしょう？見てみましょう！ノートが1冊、ペンが2本、鉛筆が1本。これは英語と歴史の本です。これは辞書です。とても重いです！
+= 这是我的书包，又大又蓝。里面有什么？我们来看看！有一个笔记本、两支笔和一支铅笔。这些是我的英语书和历史书。这是我的词典，非常重！
+p: I've also got an umbrella, a bottle of water and an apple. And what are those? They're my keys and my glasses. Oh, and this is my phone. My bag is always full!
+= También tengo un paraguas, una botella de agua y una manzana. ¿Y qué es eso? Son mis llaves y mis gafas. Ah, y este es mi móvil. ¡Mi mochila siempre está llena!
+= ほかに傘と水のボトルとりんごもあります。あれは何でしょう？私の鍵と眼鏡です。あ、これは私の携帯電話です。私のかばんはいつもいっぱいです！
+= 我还有一把伞、一瓶水和一个苹果。那些是什么？是我的钥匙和眼镜。哦，这是我的手机。我的包总是满满的！
+note: an umbrella ¦ article ¦ an delante de sonido vocal: an umbrella, an apple. ¦ 母音の音の前は an：an umbrella, an apple。 ¦ 元音音素前用 an：an umbrella、an apple。
+note: These are my books ¦ other ¦ these + are para cosas cercanas en plural; this + is en singular. ¦ 近くの複数の物は these＋are、単数は this＋is。 ¦ 近处的复数东西用 these + are，单数用 this + is。
+note: They're my keys ¦ pronoun ¦ Para hablar de cosas en plural se usa they: They're my keys. ¦ 複数の物は they で受ける：They're my keys。 ¦ 复数的东西用 they 指代：They're my keys。
+q: What colour is the bag? ¦ ¿De qué color es la mochila? ¦ かばんは何色ですか。 ¦ 书包是什么颜色的？ ¦ black / blue / red ¦ 1 ¦ «It's big and blue». ¦ 「It's big and blue」。 ¦ “It's big and blue.”
+q: How many pens are there? ¦ ¿Cuántos bolis hay? ¦ ペンは何本ありますか。 ¦ 有几支笔？ ¦ one / two / three ¦ 1 ¦ «two pens». ¦ 「two pens」。 ¦ “two pens”。
+q: Which thing is very heavy? ¦ ¿Qué cosa pesa mucho? ¦ とても重いのはどれですか。 ¦ 哪样东西很重？ ¦ the dictionary / the phone / the apple ¦ 0 ¦ «This is my dictionary. It's very heavy!» ¦ 辞書が重いと言っています。 ¦ 她说词典很重。
+
+=== 5 | Meet my family ¦ Te presento a mi familia ¦ 私の家族を紹介します ¦ 认识一下我的家人
+sum: Daniel describe a su familia a partir de una foto. ¦ ダニエルが写真を見ながら家族を紹介します。 ¦ 丹尼尔通过一张照片介绍他的家人。
+p: This is a photo of my family. That's my father. His name is Paul and he's a doctor. Next to him is my mother, Jane. Her job is in a bank. They're very kind.
+= Esta es una foto de mi familia. Ese es mi padre. Se llama Paul y es médico. A su lado está mi madre, Jane. Trabaja en un banco. Son muy amables.
+= これは家族の写真です。あれは父です。名前はポールで、医者です。その隣が母のジェーンです。銀行で働いています。二人ともとても優しいです。
+= 这是我家人的照片。那是我爸爸，他叫保罗，是一名医生。他旁边是我妈妈简，她在银行工作。他们都很和善。
+p: The girl with long hair is my sister, Amy. She's twelve. The boy is my cousin Sam. He's my aunt's son. And the old man with the dog? That's my grandfather. The dog's name is Max. My grandfather loves him!
+= La chica del pelo largo es mi hermana, Amy. Tiene doce años. El chico es mi primo Sam. Es el hijo de mi tía. ¿Y el señor mayor con el perro? Es mi abuelo. El perro se llama Max. ¡Mi abuelo lo adora!
+= 髪の長い女の子は妹のエイミーです。12歳です。男の子はいとこのサムで、おばの息子です。犬と一緒のおじいさんは？私の祖父です。犬の名前はマックス。祖父はマックスが大好きです！
+= 长头发的女孩是我妹妹艾米，她十二岁。那个男孩是我表弟山姆，他是我阿姨的儿子。那个带着狗的老人呢？那是我爷爷。狗叫麦克斯。我爷爷很喜欢它！
+note: His name is Paul ¦ pronoun ¦ his = de él; her = de ella. Depende del poseedor: my father → his; my mother → her. ¦ his＝彼の、her＝彼女の。持ち主で決まる：father → his、mother → her。 ¦ his = 他的，her = 她的，取决于拥有者：father → his，mother → her。
+note: my aunt's son ¦ other ¦ Genitivo sajón: my aunt's son = el hijo de mi tía. ¦ 所有の 's：my aunt's son＝おばの息子。 ¦ 所有格 's：my aunt's son = 我阿姨的儿子。
+q: What is Paul's job? ¦ ¿A qué se dedica Paul? ¦ ポールの仕事は何ですか。 ¦ 保罗做什么工作？ ¦ He's a doctor. / He works in a bank. / He's a teacher. ¦ 0 ¦ «he's a doctor». ¦ 「he's a doctor」。 ¦ “he's a doctor”。
+q: Who is Sam? ¦ ¿Quién es Sam? ¦ サムは誰ですか。 ¦ 山姆是谁？ ¦ Daniel's brother / Daniel's cousin / Daniel's uncle ¦ 1 ¦ «my cousin Sam». ¦ 「my cousin Sam」。 ¦ “my cousin Sam”。
+q: What is Max? ¦ ¿Qué es Max? ¦ マックスは何ですか。 ¦ 麦克斯是什么？ ¦ a dog / a cat / a boy ¦ 0 ¦ «The dog's name is Max». ¦ 「The dog's name is Max」。 ¦ “The dog's name is Max.”
+
+=== 6 | My best friend ¦ Mi mejor amiga ¦ 親友 ¦ 我最好的朋友
+sum: Nora describe a su mejor amiga, Mia. ¦ ノラが親友のミアについて書いています。 ¦ 诺拉描述她最好的朋友米娅。
+p: My best friend is Mia. She's twenty and she's from Canada. She's tall and thin, and she's got short brown hair and big green eyes. She's very pretty.
+= Mi mejor amiga es Mia. Tiene veinte años y es de Canadá. Es alta y delgada, y tiene el pelo corto y castaño y unos ojos verdes grandes. Es muy guapa.
+= 私の親友はミアです。20歳でカナダ出身です。背が高くてやせていて、茶色の短い髪と大きな緑の目をしています。とてもかわいいです。
+= 我最好的朋友是米娅。她二十岁，来自加拿大。她又高又瘦，留着棕色短发，有一双大大的绿眼睛。她很漂亮。
+p: Mia is clever and kind, but she's quite shy with new people. She hasn't got a car, but she's got a red bike. Have I got a bike? No, I haven't. I've got a dog!
+= Mia es lista y amable, pero es bastante tímida con la gente nueva. No tiene coche, pero tiene una bici roja. ¿Tengo yo bici? No. ¡Tengo un perro!
+= ミアは賢くて優しいですが、初めて会う人にはかなり人見知りです。車は持っていませんが、赤い自転車があります。私は自転車を持っているか？いいえ。私は犬を飼っています！
+= 米娅聪明又善良，但对陌生人相当害羞。她没有车，但有一辆红色自行车。我有自行车吗？没有。我有一只狗！
+note: she's got short brown hair ¦ other ¦ she's got = she has got (tiene). Los adjetivos van antes del sustantivo: short brown hair. ¦ she's got＝she has got。形容詞は名詞の前：short brown hair。 ¦ she's got = she has got（她有）。形容词放在名词前：short brown hair。
+note: quite shy ¦ other ¦ quite = bastante; very = muy. ¦ quite＝かなり、very＝とても。 ¦ quite = 相当，very = 很。
+note: No, I haven't ¦ other ¦ Respuesta corta de have got: Yes, I have / No, I haven't (sin got). ¦ have got の短い答え：Yes, I have / No, I haven't（got なし）。 ¦ have got 的简短回答：Yes, I have / No, I haven't（不加 got）。
+q: What colour are Mia's eyes? ¦ ¿De qué color son los ojos de Mia? ¦ ミアの目は何色ですか。 ¦ 米娅的眼睛是什么颜色？ ¦ brown / blue / green ¦ 2 ¦ «big green eyes». ¦ 「big green eyes」。 ¦ “big green eyes”。
+q: Has Mia got a car? ¦ ¿Mia tiene coche? ¦ ミアは車を持っていますか。 ¦ 米娅有车吗？ ¦ Yes, she has. / No, she hasn't. / Yes, a red car. ¦ 1 ¦ «She hasn't got a car». ¦ 「She hasn't got a car」。 ¦ “She hasn't got a car.”
+q: What has Nora got? ¦ ¿Qué tiene Nora? ¦ ノラは何を持っていますか。 ¦ 诺拉有什么？ ¦ a bike / a dog / a car ¦ 1 ¦ «I've got a dog!» ¦ 「I've got a dog!」 ¦ “I've got a dog!”
+
+=== 7 | Two jobs ¦ Dos trabajos ¦ 二つの仕事 ¦ 两份工作
+sum: Una enfermera y un camarero hablan de su trabajo. ¦ 看護師とウェイターが仕事について話します。 ¦ 一位护士和一位服务员谈论他们的工作。
+p: I'm Rosa and I'm a nurse. I work in a big hospital in Manchester. I like my job because I help people every day. I work at night, so I sleep in the day. I don't work at the weekend.
+= Me llamo Rosa y soy enfermera. Trabajo en un hospital grande de Mánchester. Me gusta mi trabajo porque ayudo a la gente todos los días. Trabajo de noche, así que duermo de día. No trabajo el fin de semana.
+= 私はローザで、看護師です。マンチェスターの大きな病院で働いています。毎日人の役に立てるので、この仕事が好きです。夜に働くので、昼間に寝ます。週末は働きません。
+= 我叫罗莎，是一名护士。我在曼彻斯特的一家大医院工作。我喜欢我的工作，因为我每天都能帮助别人。我上夜班，所以白天睡觉。我周末不上班。
+p: My name's Leo and I'm a waiter. I work in an Italian restaurant. I speak English and Italian with the customers. I don't like the hours, but I love the food! Do I want a different job? Yes, I do. I want to be a singer.
+= Me llamo Leo y soy camarero. Trabajo en un restaurante italiano. Hablo inglés e italiano con los clientes. No me gusta el horario, ¡pero me encanta la comida! ¿Quiero otro trabajo? Sí. Quiero ser cantante.
+= 僕はレオで、ウェイターです。イタリアンレストランで働いています。お客さんと英語とイタリア語で話します。勤務時間は好きではありませんが、料理は大好きです！ほかの仕事をしたいか？はい。歌手になりたいです。
+= 我叫利奥，是一名服务员。我在一家意大利餐厅工作。我和顾客说英语和意大利语。我不喜欢工作时间，但我很喜欢那里的食物！我想换工作吗？想。我想当歌手。
+note: I'm a nurse ¦ article ¦ Las profesiones llevan a/an: I'm a nurse, I'm a waiter. ¦ 職業には a/an：I'm a nurse。 ¦ 职业前要加 a/an：I'm a nurse。
+note: I don't work ¦ other ¦ Negativa del presente simple: don't + verbo. ¦ 現在形の否定：don't＋原形。 ¦ 一般现在时否定：don't + 动词原形。
+note: I want to be a singer ¦ gerund-inf ¦ want + to + verbo: I want to be… ¦ want＋to＋原形：I want to be…（〜になりたい） ¦ want + to + 动词原形：I want to be…（我想成为……）
+q: Where does Rosa work? ¦ ¿Dónde trabaja Rosa? ¦ ローザはどこで働いていますか。 ¦ 罗莎在哪里工作？ ¦ in a restaurant / in a hospital / in a school ¦ 1 ¦ «I work in a big hospital». ¦ 「I work in a big hospital」。 ¦ “I work in a big hospital.”
+q: When does Rosa sleep? ¦ ¿Cuándo duerme Rosa? ¦ ローザはいつ寝ますか。 ¦ 罗莎什么时候睡觉？ ¦ at night / in the day / at the weekend ¦ 1 ¦ Trabaja de noche y duerme de día. ¦ 夜働き、昼間に寝ます。 ¦ 她上夜班，白天睡觉。
+q: What does Leo want to be? ¦ ¿Qué quiere ser Leo? ¦ レオは何になりたいですか。 ¦ 利奥想成为什么？ ¦ a waiter / a singer / a nurse ¦ 1 ¦ «I want to be a singer». ¦ 「I want to be a singer」。 ¦ “I want to be a singer.”
+
+=== 8 | A busy day ¦ Un día ajetreado ¦ 忙しい一日 ¦ 忙碌的一天
+sum: La rutina diaria de Anna, que trabaja en una panadería. ¦ パン屋で働くアンナの一日。 ¦ 在面包店工作的安娜的日常。
+p: Anna works in a bakery. Her day starts very early. She gets up at half past four and has a quick shower. She doesn't have breakfast at home; she has coffee and bread at work.
+= Anna trabaja en una panadería. Su día empieza muy temprano. Se levanta a las cuatro y media y se da una ducha rápida. No desayuna en casa; toma café y pan en el trabajo.
+= アンナはパン屋で働いています。彼女の一日はとても早く始まります。4時半に起きて、さっとシャワーを浴びます。家では朝食をとらず、職場でコーヒーとパンを口にします。
+= 安娜在一家面包店工作。她的一天开始得很早。她四点半起床，快速冲个澡。她不在家吃早饭，而是在店里喝咖啡、吃面包。
+p: The bakery opens at seven o'clock. Anna makes cakes and sells bread all morning. She finishes work at two and goes home. In the afternoon she reads or watches TV. She goes to bed at nine. "Early to bed, early to rise!" she says.
+= La panadería abre a las siete. Anna hace pasteles y vende pan toda la mañana. Termina de trabajar a las dos y se va a casa. Por la tarde lee o ve la tele. Se acuesta a las nueve. «¡A la cama temprano y arriba temprano!», dice.
+= パン屋は7時に開きます。アンナは午前中ずっとケーキを作り、パンを売ります。2時に仕事を終えて家に帰ります。午後は本を読んだりテレビを見たりします。9時に寝ます。「早寝早起き！」と彼女は言います。
+= 面包店七点开门。安娜整个上午都在做蛋糕、卖面包。她两点下班回家。下午她看书或看电视。她九点睡觉。“早睡早起！”她说。
+note: She gets up ¦ phrasal ¦ get up = levantarse. Con she, el verbo lleva -s: gets. ¦ get up＝起きる。she なので gets。 ¦ get up = 起床。主语是 she，动词加 -s：gets。
+note: She doesn't have breakfast ¦ other ¦ Negativa con he/she: doesn't + verbo SIN -s (✗ doesn't has). ¦ 三人称単数の否定：doesn't＋原形（✗ doesn't has）。 ¦ 第三人称单数否定：doesn't + 原形（✗ doesn't has）。
+note: at half past four ¦ prep ¦ at + hora. half past four = 4:30. ¦ 時刻には at。half past four＝4時半。 ¦ 钟点前用 at。half past four = 4:30。
+q: What time does Anna get up? ¦ ¿A qué hora se levanta Anna? ¦ アンナは何時に起きますか。 ¦ 安娜几点起床？ ¦ 4:00 / 4:30 / 7:00 ¦ 1 ¦ half past four = 4:30. ¦ half past four＝4時半。 ¦ half past four = 四点半。
+q: Where does Anna have breakfast? ¦ ¿Dónde desayuna Anna? ¦ アンナはどこで朝食をとりますか。 ¦ 安娜在哪里吃早饭？ ¦ at home / at work / in a café ¦ 1 ¦ «she has coffee and bread at work». ¦ 職場でとります。 ¦ 她在店里吃。
+q: What does Anna do in the afternoon? ¦ ¿Qué hace Anna por la tarde? ¦ アンナは午後何をしますか。 ¦ 安娜下午做什么？ ¦ She makes cakes. / She reads or watches TV. / She sleeps. ¦ 1 ¦ «she reads or watches TV». ¦ 本を読んだりテレビを見たりします。 ¦ 她看书或看电视。
+
+=== 9 | Weekends ¦ Los fines de semana ¦ 週末 ¦ 周末
+sum: Tres personas cuentan qué hacen en su tiempo libre. ¦ 3人が余暇の過ごし方を話します。 ¦ 三个人讲述他们的业余生活。
+p: Ben: I love sport. I usually play football on Saturday morning and I often go swimming on Sunday. I never stay at home at the weekend!
+= Ben: Me encanta el deporte. Normalmente juego al fútbol el sábado por la mañana y a menudo voy a nadar el domingo. ¡Nunca me quedo en casa el fin de semana!
+= ベン：スポーツが大好きです。ふだん土曜の朝はサッカーをして、日曜日はよく泳ぎに行きます。週末に家にいることは絶対にありません！
+= 本：我很喜欢运动。我通常星期六上午踢足球，星期天经常去游泳。周末我从来不待在家里！
+p: Kate: I'm not sporty. I like reading and listening to music. I sometimes go to the cinema with my friends. I hate shopping because the shops are always busy.
+= Kate: Yo no soy deportista. Me gusta leer y escuchar música. A veces voy al cine con mis amigos. Odio ir de compras porque las tiendas siempre están llenas.
+= ケイト：私はスポーツは苦手です。読書と音楽を聞くのが好きです。ときどき友達と映画を見に行きます。お店がいつも混んでいるので、買い物は大嫌いです。
+= 凯特：我不爱运动。我喜欢看书和听音乐。我有时和朋友去看电影。我讨厌购物，因为商店里总是很挤。
+p: Mr Jones: I'm seventy and I enjoy dancing! I go to a dance class twice a week. My wife always comes with me.
+= Sr. Jones: Tengo setenta años ¡y me encanta bailar! Voy a una clase de baile dos veces por semana. Mi mujer siempre viene conmigo.
+= ジョーンズさん：70歳ですが、ダンスを楽しんでいます！週に2回ダンス教室に通っています。妻がいつも一緒に来てくれます。
+= 琼斯先生：我七十岁了，我喜欢跳舞！我每周去上两次舞蹈课。我妻子总是和我一起去。
+note: I never stay at home ¦ other ¦ never ya es negativo: no lleva don't. ¦ never だけで否定。don't は不要。 ¦ never 本身表示否定，不用 don't。
+note: I like reading ¦ gerund-inf ¦ like / love / hate / enjoy + -ing. ¦ like / love / hate / enjoy＋-ing。 ¦ like / love / hate / enjoy + -ing。
+note: twice a week ¦ other ¦ once a week (una vez), twice a week (dos veces), three times a week. ¦ once（1回）、twice（2回）、three times（3回）a week。 ¦ once（一次）、twice（两次）、three times（三次）a week。
+q: What does Ben do on Saturday morning? ¦ ¿Qué hace Ben el sábado por la mañana? ¦ ベンは土曜の朝に何をしますか。 ¦ 本星期六上午做什么？ ¦ He goes swimming. / He plays football. / He stays at home. ¦ 1 ¦ «I usually play football on Saturday morning». ¦ サッカーをします。 ¦ 他踢足球。
+q: Why does Kate hate shopping? ¦ ¿Por qué odia Kate ir de compras? ¦ ケイトはなぜ買い物が嫌いですか。 ¦ 凯特为什么讨厌购物？ ¦ The shops are expensive. / The shops are always busy. / She hasn't got money. ¦ 1 ¦ «because the shops are always busy». ¦ お店がいつも混んでいるから。 ¦ 因为商店总是很挤。
+q: How often does Mr Jones go to a dance class? ¦ ¿Con qué frecuencia va el Sr. Jones a clase de baile? ¦ ジョーンズさんはどのくらいダンス教室に行きますか。 ¦ 琼斯先生多久去一次舞蹈课？ ¦ once a week / twice a week / every day ¦ 1 ¦ «twice a week». ¦ 週2回。 ¦ 每周两次。
+
+=== 10 | Happy birthday! ¦ ¡Feliz cumpleaños! ¦ 誕生日おめでとう！ ¦ 生日快乐！
+sum: Una invitación a una fiesta de cumpleaños. ¦ 誕生日パーティーの招待状。 ¦ 一封生日派对邀请函。
+p: Hi everyone! It's my birthday on Saturday, the 14th of June, and there's a party at my flat. Please come! The party starts at eight o'clock in the evening. My flat is in King Street, number 25, on the second floor.
+= ¡Hola a todos! Mi cumpleaños es el sábado 14 de junio y hay una fiesta en mi piso. ¡Venid, por favor! La fiesta empieza a las ocho de la tarde. Mi piso está en King Street, número 25, en la segunda planta.
+= 皆さん、こんにちは！6月14日の土曜日は私の誕生日で、私のアパートでパーティーがあります。ぜひ来てください！パーティーは夜8時に始まります。アパートはキング・ストリート25番地の2階です。
+= 大家好！6月14日星期六是我的生日，我家公寓有个派对。请一定要来！派对晚上八点开始。我的公寓在国王街25号，二楼。
+p: In summer my birthday is always on a sunny day, so we can sit on the balcony. Bring some music! I've got food and drinks. See you on Saturday! Love, Jess
+= En verano mi cumpleaños siempre cae en un día soleado, así que podemos sentarnos en el balcón. ¡Traed música! Yo tengo comida y bebida. ¡Nos vemos el sábado! Besos, Jess
+= 夏の私の誕生日はいつも晴れるので、バルコニーに座れます。音楽を持ってきてね！食べ物と飲み物は用意してあります。土曜日に会いましょう！ジェスより
+= 我夏天的生日总是晴天，所以我们可以坐在阳台上。带点音乐来吧！我准备了吃的和喝的。星期六见！爱你们的杰丝
+note: on Saturday, the 14th of June ¦ prep ¦ on + días y fechas. ¦ 曜日・日付には on。 ¦ 星期和日期前用 on。
+note: at eight o'clock in the evening ¦ prep ¦ at + hora; in + parte del día (in the evening). ¦ 時刻は at、一日の区分は in（in the evening）。 ¦ 钟点用 at，一天中的时段用 in（in the evening）。
+note: In summer ¦ prep ¦ in + estaciones y meses. ¦ 季節・月には in。 ¦ 季节和月份前用 in。
+q: When is the party? ¦ ¿Cuándo es la fiesta? ¦ パーティーはいつですか。 ¦ 派对是什么时候？ ¦ on Friday / on Saturday / on Sunday ¦ 1 ¦ «on Saturday, the 14th of June». ¦ 6月14日の土曜日。 ¦ 6月14日星期六。
+q: What time does it start? ¦ ¿A qué hora empieza? ¦ 何時に始まりますか。 ¦ 几点开始？ ¦ at 6 / at 8 / at 10 ¦ 1 ¦ «at eight o'clock». ¦ 8時。 ¦ 八点。
+q: What must the friends bring? ¦ ¿Qué tienen que traer los amigos? ¦ 友達は何を持ってくればいいですか。 ¦ 朋友们要带什么？ ¦ food / drinks / music ¦ 2 ¦ «Bring some music!» ¦ 「Bring some music!」 ¦ “Bring some music!”
+
+#! es
+=== 11 | Breakfast around the world ¦ Desayunos por el mundo
+sum: Tres personas cuentan qué desayunan.
+p: In Britain, some people have a big breakfast with eggs, beans, bread and tea. But on most days, people have cereal with milk or toast with butter. They don't have much time in the morning!
+= En Gran Bretaña algunas personas toman un desayuno abundante con huevos, alubias, pan y té. Pero la mayoría de los días la gente toma cereales con leche o tostadas con mantequilla. ¡No tienen mucho tiempo por la mañana!
+p: Akiko is from Osaka. "I usually have rice, soup and some fish for breakfast. I don't drink coffee. I have green tea." Carlos is from Mexico. "I have eggs with tomato and some fruit. And a big cup of coffee, of course!"
+= Akiko es de Osaka. «Normalmente desayuno arroz, sopa y algo de pescado. No bebo café. Tomo té verde». Carlos es de México. «Yo tomo huevos con tomate y algo de fruta. ¡Y una taza grande de café, claro!».
+p: What about you? How much coffee do you drink? Are there any eggs in your fridge?
+= ¿Y tú? ¿Cuánto café bebes? ¿Hay huevos en tu nevera?
+note: some fish ¦ quantifier ¦ fish como comida es incontable: some fish (✗ a fish, ✗ some fishes).
+note: How much coffee ¦ quantifier ¦ How much + incontable (coffee); How many + contable en plural (eggs).
+note: Are there any eggs ¦ quantifier ¦ any en preguntas y negativas; some en afirmativas.
+q: What do British people usually have on most days? ¦ ¿Qué suelen tomar los británicos la mayoría de los días? ¦ eggs and beans / cereal or toast / rice and fish ¦ 1 ¦ «on most days, people have cereal with milk or toast with butter».
+q: What does Akiko drink? ¦ ¿Qué bebe Akiko? ¦ coffee / green tea / milk ¦ 1 ¦ «I don't drink coffee. I have green tea».
+q: What does Carlos have with his eggs? ¦ ¿Con qué toma Carlos los huevos? ¦ tomato / fish / rice ¦ 0 ¦ «eggs with tomato».
+
+=== 12 | A flat for rent ¦ Piso en alquiler
+sum: Un anuncio de un piso y una llamada para preguntar por él.
+p: FLAT FOR RENT. Near the station, on the third floor. There are two bedrooms, a big living room and a small kitchen. There's a bathroom with a shower, but there isn't a bath. There's a balcony with a view of the park. £800 a month.
+= SE ALQUILA PISO. Cerca de la estación, en el tercer piso. Hay dos dormitorios, un salón grande y una cocina pequeña. Hay un baño con ducha, pero no hay bañera. Hay un balcón con vistas al parque. 800 libras al mes.
+p: Jack: Hello, I'm calling about the flat. Is there a lift?
++ Owner: No, there isn't, sorry. But the stairs are next to the door.
++ Jack: Are there any shops near the flat?
++ Owner: Yes, there are. There's a supermarket between the station and the park.
++ Jack: Great. Can I see it on Monday?
+= Jack: Hola, llamo por el piso. ¿Hay ascensor?
+=+ Dueña: No, lo siento. Pero las escaleras están al lado de la puerta.
+=+ Jack: ¿Hay tiendas cerca del piso?
+=+ Dueña: Sí. Hay un supermercado entre la estación y el parque.
+=+ Jack: Genial. ¿Puedo verlo el lunes?
+note: There are two bedrooms ¦ other ¦ there are + plural; there's (there is) + singular.
+note: between the station and the park ¦ prep ¦ between A and B = entre A y B.
+note: Is there a lift ¦ other ¦ Pregunta: is there…? / are there…? Lift (RU) = elevator (EE. UU.).
+q: How many bedrooms are there? ¦ ¿Cuántos dormitorios hay? ¦ one / two / three ¦ 1 ¦ «There are two bedrooms».
+q: Is there a bath? ¦ ¿Hay bañera? ¦ Yes, there is. / No, there isn't. / There are two. ¦ 1 ¦ «there isn't a bath».
+q: Where is the supermarket? ¦ ¿Dónde está el supermercado? ¦ next to the flat / between the station and the park / in the park ¦ 1 ¦ «between the station and the park».
+
+=== 13 | Excuse me, where's the museum? ¦ Perdone, ¿dónde está el museo?
+sum: Una turista pregunta cómo llegar al museo.
+p: Tourist: Excuse me, where's the science museum, please?
++ Man: The science museum? Go straight on to the bridge. Then turn left. Walk past the church and take the second street on the right. The museum is on the corner, opposite a big hotel.
++ Tourist: Is it far?
++ Man: No, it's about ten minutes. Or take the number 7 bus. The bus stop is over there.
++ Tourist: Thank you very much!
++ Man: You're welcome. And don't go on Monday. It's closed!
+= Turista: Perdone, ¿dónde está el museo de la ciencia, por favor?
+=+ Hombre: ¿El museo de la ciencia? Siga recto hasta el puente. Luego gire a la izquierda. Pase la iglesia y coja la segunda calle a la derecha. El museo está en la esquina, enfrente de un hotel grande.
+=+ Turista: ¿Está lejos?
+=+ Hombre: No, a unos diez minutos. O coja el autobús número 7. La parada está allí.
+=+ Turista: ¡Muchas gracias!
+=+ Hombre: De nada. Y no vaya el lunes. ¡Está cerrado!
+note: Go straight on ¦ other ¦ Imperativo: verbo en forma base sin sujeto.
+note: don't go on Monday ¦ other ¦ Imperativo negativo: don't + verbo.
+note: You're welcome ¦ idiom ¦ Respuesta a «thank you»: de nada.
+q: Where must the tourist turn left? ¦ ¿Dónde tiene que girar a la izquierda la turista? ¦ at the bridge / at the church / at the hotel ¦ 0 ¦ «Go straight on to the bridge. Then turn left».
+q: What is opposite the museum? ¦ ¿Qué hay enfrente del museo? ¦ a church / a bus stop / a hotel ¦ 2 ¦ «opposite a big hotel».
+q: When is the museum closed? ¦ ¿Cuándo está cerrado el museo? ¦ on Sunday / on Monday / every day ¦ 1 ¦ «don't go on Monday. It's closed!».
+
+=== 14 | The school talent show ¦ El concurso de talentos del colegio
+sum: Los alumnos cuentan qué saben hacer para el concurso.
+p: Every year our school has a talent show. Who can sing? Who can dance? Who can play an instrument? This year there are twelve students in the show.
+= Todos los años nuestro colegio organiza un concurso de talentos. ¿Quién sabe cantar? ¿Quién sabe bailar? ¿Quién sabe tocar un instrumento? Este año hay doce alumnos en el concurso.
+p: My friend Omar can play the guitar very well, and his sister can sing. They're a great team. I can't sing at all, but I can do magic tricks! Can my teacher do anything? Yes, she can. She can juggle with five balls!
+= Mi amigo Omar toca la guitarra muy bien y su hermana sabe cantar. Forman un gran equipo. Yo no sé cantar nada, ¡pero sé hacer trucos de magia! ¿Sabe hacer algo mi profesora? Sí. ¡Sabe hacer malabares con cinco pelotas!
+note: can play the guitar ¦ modal ¦ can + verbo en forma base (sin to). Instrumentos con the: play the guitar.
+note: I can't sing at all ¦ idiom ¦ not … at all = nada en absoluto.
+note: Yes, she can ¦ other ¦ Respuesta corta: Yes, she can / No, she can't.
+q: How many students are in the show? ¦ ¿Cuántos alumnos participan? ¦ 5 / 10 / 12 ¦ 2 ¦ «there are twelve students».
+q: What can Omar's sister do? ¦ ¿Qué sabe hacer la hermana de Omar? ¦ play the guitar / sing / juggle ¦ 1 ¦ «his sister can sing».
+q: What can the teacher do? ¦ ¿Qué sabe hacer la profesora? ¦ magic tricks / juggle / dance ¦ 1 ¦ «She can juggle with five balls!».
+
+=== 15 | A message from the beach ¦ Un mensaje desde la playa
+sum: Mia escribe a su madre desde la playa.
+p: Hi Mum! I'm sitting on the beach with Lucy and Dan. The sun is shining and it's really hot. Lucy is reading a book and Dan is swimming in the sea. I'm writing to you and eating an ice cream!
+= ¡Hola, mamá! Estoy sentada en la playa con Lucy y Dan. Hace sol y mucho calor. Lucy está leyendo un libro y Dan está nadando en el mar. ¡Yo te estoy escribiendo y comiéndome un helado!
+p: What are you doing? Are you working today? We aren't going to the hotel for lunch; we're having a picnic. Send me a photo of the cat! Love, Mia
+= ¿Qué estás haciendo? ¿Hoy trabajas? No vamos al hotel a comer; vamos a hacer un pícnic. ¡Mándame una foto del gato! Besos, Mia
+note: I'm sitting ¦ tense ¦ Presente continuo: lo que pasa ahora. sit → sitting (se dobla la t).
+note: we're having a picnic ¦ collocation ¦ have a picnic / have lunch / have a shower: have = tomar, hacer.
+note: Are you working today ¦ tense ¦ Pregunta en presente continuo: are + sujeto + -ing.
+q: What is Dan doing? ¦ ¿Qué está haciendo Dan? ¦ reading / swimming / eating ¦ 1 ¦ «Dan is swimming in the sea».
+q: What's the weather like? ¦ ¿Qué tiempo hace? ¦ It's raining. / It's hot and sunny. / It's cold. ¦ 1 ¦ «The sun is shining and it's really hot».
+q: Where are they having lunch? ¦ ¿Dónde comen? ¦ at the hotel / on the beach (a picnic) / at home ¦ 1 ¦ Van a hacer un pícnic.
+
+=== 16 | Shopping for a jacket ¦ Comprando una chaqueta
+sum: Un cliente busca una chaqueta en una tienda de ropa.
+p: Assistant: Hello, can I help you?
++ Customer: Yes, I'm looking for a jacket.
++ Assistant: What about this one? It's very warm.
++ Customer: I like it, but I don't like the colour. Have you got it in black?
++ Assistant: Yes, here you are. What size are you?
++ Customer: Medium. Can I try it on?
++ Assistant: Of course. The changing rooms are over there.
+= Dependienta: Hola, ¿puedo ayudarle?
+=+ Cliente: Sí, estoy buscando una chaqueta.
+=+ Dependienta: ¿Qué tal esta? Abriga mucho.
+=+ Cliente: Me gusta, pero no me gusta el color. ¿La tiene en negro?
+=+ Dependienta: Sí, aquí tiene. ¿Qué talla usa?
+=+ Cliente: La mediana. ¿Me la puedo probar?
+=+ Dependienta: Claro. Los probadores están allí.
+p: Customer: It's perfect. How much is it?
++ Assistant: It's sixty pounds.
++ Customer: Great, I'll take it. Can I pay by card?
++ Assistant: Yes, of course.
+= Cliente: Es perfecta. ¿Cuánto cuesta?
+=+ Dependienta: Sesenta libras.
+=+ Cliente: Genial, me la llevo. ¿Puedo pagar con tarjeta?
+=+ Dependienta: Sí, claro.
+note: this one ¦ pronoun ¦ one sustituye al sustantivo para no repetirlo: this one = esta (chaqueta).
+note: I like it ¦ pronoun ¦ it = pronombre de objeto para una cosa: I like it (me gusta).
+note: I'll take it ¦ idiom ¦ Frase típica al decidir comprar algo: me lo llevo.
+q: What colour does the customer want? ¦ ¿De qué color la quiere el cliente? ¦ blue / black / brown ¦ 1 ¦ «Have you got it in black?».
+q: How much is the jacket? ¦ ¿Cuánto cuesta la chaqueta? ¦ £16 / £60 / £66 ¦ 1 ¦ «sixty pounds».
+q: How does the customer pay? ¦ ¿Cómo paga el cliente? ¦ in cash / by card / he doesn't pay ¦ 1 ¦ «Can I pay by card? — Yes».
+
+=== 17 | Weather in two cities ¦ El tiempo en dos ciudades
+sum: Dos amigos comparan el tiempo en Londres y en Sídney en diciembre.
+p: Emma lives in London. In December it's usually cold and it often rains. Today it's cloudy and it's snowing a little! Emma is wearing a warm coat and a hat.
+= Emma vive en Londres. En diciembre suele hacer frío y llueve a menudo. ¡Hoy está nublado y nieva un poco! Emma lleva un abrigo calentito y un gorro.
+p: Her friend Josh lives in Sydney, in Australia. In December it's summer there! It's usually hot and sunny. Today Josh is wearing shorts and a T-shirt and he's having lunch on the beach. "Merry Christmas from the beach!" he writes.
+= Su amigo Josh vive en Sídney, en Australia. ¡Allí en diciembre es verano! Suele hacer calor y sol. Hoy Josh lleva pantalones cortos y una camiseta y está comiendo en la playa. «¡Feliz Navidad desde la playa!», escribe.
+note: it often rains ¦ tense ¦ Presente simple para lo habitual (often, usually).
+note: it's snowing ¦ tense ¦ Presente continuo para lo que pasa ahora (today).
+note: Emma is wearing ¦ tense ¦ wear = llevar puesto. Se usa en continuo para la ropa de hoy.
+q: What's the weather usually like in London in December? ¦ ¿Qué tiempo suele hacer en Londres en diciembre? ¦ hot and sunny / cold and rainy / warm ¦ 1 ¦ «it's usually cold and it often rains».
+q: What season is it in Sydney in December? ¦ ¿Qué estación es en Sídney en diciembre? ¦ winter / spring / summer ¦ 2 ¦ «In December it's summer there!».
+q: What is Josh doing today? ¦ ¿Qué hace Josh hoy? ¦ He's having lunch on the beach. / He's wearing a coat. / He's skiing. ¦ 0 ¦ «he's having lunch on the beach».
+
+=== 18 | My first day at school ¦ Mi primer día de colegio
+sum: Un abuelo recuerda su primer día de colegio.
+p: My grandfather was born in a small village in 1950. His school was very small. There were only twenty children and one teacher. The teacher was very strict, but she was also kind.
+= Mi abuelo nació en un pueblo pequeño en 1950. Su colegio era muy pequeño. Solo había veinte niños y una maestra. La maestra era muy estricta, pero también era amable.
+p: "On my first day I was very nervous," he says. "I wasn't happy because my mother wasn't there. But the other children were friendly. At the end of the day I wasn't sad. I was tired and hungry!"
+= «El primer día estaba muy nervioso», cuenta. «No estaba contento porque mi madre no estaba allí. Pero los otros niños eran simpáticos. Al final del día ya no estaba triste. ¡Estaba cansado y con hambre!».
+note: was born ¦ other ¦ Nacer = be born: I was born in 1950 (✗ I born).
+note: There were only twenty children ¦ other ¦ Pasado de there are: there were (plural); there was (singular).
+note: I wasn't happy ¦ other ¦ Negativa de was: wasn't = was not.
+q: When was the grandfather born? ¦ ¿Cuándo nació el abuelo? ¦ in 1915 / in 1950 / in 1960 ¦ 1 ¦ «was born in a small village in 1950».
+q: How many teachers were there? ¦ ¿Cuántos maestros había? ¦ one / twenty / two ¦ 0 ¦ «only twenty children and one teacher».
+q: How was he at the end of the day? ¦ ¿Cómo estaba al final del día? ¦ sad / tired and hungry / angry ¦ 1 ¦ «I was tired and hungry!».
+
+=== 19 | A weekend in Edinburgh ¦ Un fin de semana en Edimburgo
+sum: Laura cuenta su viaje de fin de semana a Edimburgo.
+p: Last weekend I went to Edinburgh with my friend Clara. We travelled by train on Friday evening. On Saturday morning we visited the castle and then we walked in the old town. We had lunch in a small café. The soup was delicious!
+= El fin de semana pasado fui a Edimburgo con mi amiga Clara. Viajamos en tren el viernes por la tarde. El sábado por la mañana visitamos el castillo y luego paseamos por el casco antiguo. Comimos en una cafetería pequeña. ¡La sopa estaba buenísima!
+p: In the afternoon it rained, so we went to a museum. In the evening we saw a play at the theatre. On Sunday we didn't do much. We bought some presents and took the train home. Did I like Edinburgh? Yes, I loved it!
+= Por la tarde llovió, así que fuimos a un museo. Por la noche vimos una obra en el teatro. El domingo no hicimos gran cosa. Compramos algunos regalos y cogimos el tren de vuelta a casa. ¿Me gustó Edimburgo? ¡Sí, me encantó!
+note: we visited the castle ¦ tense ¦ Pasado simple regular: verbo + -ed (visited, walked, travelled).
+note: we saw a play ¦ tense ¦ Pasado irregular: see → saw, go → went, buy → bought, take → took.
+note: we didn't do much ¦ tense ¦ Negativa en pasado: didn't + forma base (✗ didn't did).
+q: How did they travel to Edinburgh? ¦ ¿Cómo viajaron a Edimburgo? ¦ by plane / by train / by car ¦ 1 ¦ «We travelled by train».
+q: Why did they go to a museum? ¦ ¿Por qué fueron a un museo? ¦ because it rained / because it was free / because it was Sunday ¦ 0 ¦ «In the afternoon it rained, so we went to a museum».
+q: What did they buy? ¦ ¿Qué compraron? ¦ a book / some presents / tickets for a play ¦ 1 ¦ «We bought some presents».
+
+=== 20 | Big plans ¦ Grandes planes
+sum: Tres amigos hablan de sus planes para el verano.
+p: Leo: What are you going to do this summer?
++ Nina: I'm going to work in a café in July. I want to save some money. Then in August I'm going to travel to Portugal with my sister.
++ Leo: That sounds great!
++ Nina: And you?
++ Leo: I'm not going to travel. I'm going to stay at home and learn to drive. I'd like to buy a car next year.
++ Sam: I'm going to do nothing! I'd like to sleep all day!
+= Leo: ¿Qué vais a hacer este verano?
+=+ Nina: Voy a trabajar en una cafetería en julio. Quiero ahorrar algo de dinero. Luego, en agosto, voy a viajar a Portugal con mi hermana.
+=+ Leo: ¡Suena genial!
+=+ Nina: ¿Y tú?
+=+ Leo: Yo no voy a viajar. Me voy a quedar en casa y voy a aprender a conducir. Me gustaría comprarme un coche el año que viene.
+=+ Sam: ¡Yo no voy a hacer nada! ¡Me gustaría dormir todo el día!
+note: I'm going to work ¦ tense ¦ be going to + verbo: planes ya decididos.
+note: I'd like to buy ¦ modal ¦ I'd like to = me gustaría (deseo). I'd = I would.
+note: That sounds great ¦ idiom ¦ sound + adjetivo = sonar bien, parecer.
+q: Where is Nina going to work? ¦ ¿Dónde va a trabajar Nina? ¦ in a shop / in a café / in Portugal ¦ 1 ¦ «I'm going to work in a café in July».
+q: What is Leo going to learn? ¦ ¿Qué va a aprender Leo? ¦ to cook / to drive / Portuguese ¦ 1 ¦ «learn to drive».
+q: What would Sam like to do? ¦ ¿Qué le gustaría hacer a Sam? ¦ travel / work / sleep all day ¦ 2 ¦ «I'd like to sleep all day!».

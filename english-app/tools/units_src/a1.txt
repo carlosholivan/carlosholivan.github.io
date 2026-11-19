@@ -1,0 +1,639 @@
+# A1 lessons (EOI Nivel Básico A1). Snippets {{es ¦ ja ¦ zh}}; exercises: see tools/build_course.py.
+
+=== 1
+title: Hello! ¦ ¡Hola! ¦ こんにちは！ ¦ 你好！
+desc: Saludar, despedirse y decir tu nombre ¦ あいさつと名前の言い方 ¦ 打招呼、告别和说自己的名字
+gram: to be: I am, you are ¦ subject pronouns
+ref: a1-be-1
+words: hello, hi, goodbye, bye, good morning, good afternoon, good night, evening, name, I, you, be, thanks, thank, please, sorry, yes, no, OK, nice, meet, fine, how, and, my, your, Mr., Mrs., Miss, welcome
+intro:
+<h3>{{El verbo <i>to be</i>: I am, you are ¦ be 動詞：I am, you are ¦ be 动词：I am, you are}}</h3>
+<p>{{En inglés <b>be</b> significa a la vez <i>ser</i> y <i>estar</i>. En presente tiene tres formas: <b>am</b>, <b>is</b> y <b>are</b>. Hoy empezamos con dos: ¦ <b>be</b> は「〜です」「〜にいる」を表す動詞です。現在形には <b>am / is / are</b> の3つの形があります。まずは2つ： ¦ <b>be</b> 相当于“是”和“在”。现在时有三种形式：<b>am</b>、<b>is</b>、<b>are</b>。先学两个：}}</p>
+<table><tr><th>{{Forma completa ¦ 完全形 ¦ 完整形式}}</th><th>{{Contracción ¦ 短縮形 ¦ 缩写}}</th><th>{{Significado ¦ 意味 ¦ 意思}}</th></tr>
+<tr><td><strong>I am</strong> Ana.</td><td><strong>I'm</strong> Ana.</td><td>{{Soy Ana. ¦ 私はアナです。 ¦ 我是安娜。}}</td></tr>
+<tr><td><strong>You are</strong> Tom.</td><td><strong>You're</strong> Tom.</td><td>{{Eres Tom. ¦ あなたはトムです。 ¦ 你是汤姆。}}</td></tr>
+<tr><td><strong>I am</strong> fine.</td><td><strong>I'm</strong> fine.</td><td>{{Estoy bien. ¦ 元気です。 ¦ 我很好。}}</td></tr></table>
+<div class="tip">{{En la conversación se usan casi siempre las contracciones: <b>I'm</b>, <b>you're</b>. <b>I</b> (yo) se escribe siempre con mayúscula. ¦ 会話ではほとんど短縮形（<b>I'm</b>, <b>you're</b>）を使います。<b>I</b>（私）はいつも大文字です。 ¦ 口语中几乎总是用缩写：<b>I'm</b>、<b>you're</b>。<b>I</b>（我）永远大写。}}</div>
+<h3>{{Saludos y despedidas ¦ あいさつ ¦ 问候与告别}}</h3>
+<table><tr><th>English</th><th>{{Cuándo ¦ いつ ¦ 什么时候}}</th></tr>
+<tr><td><strong>Hello! / Hi!</strong></td><td>{{a cualquier hora (hi es más informal) ¦ いつでも（hi はくだけた言い方） ¦ 任何时候（hi 更随意）}}</td></tr>
+<tr><td><strong>Good morning</strong></td><td>{{por la mañana ¦ 朝 ¦ 早上}}</td></tr>
+<tr><td><strong>Good afternoon</strong></td><td>{{después de las 12 ¦ 昼過ぎ ¦ 中午以后}}</td></tr>
+<tr><td><strong>Good evening</strong></td><td>{{por la tarde-noche, al llegar ¦ 夕方・夜に会ったとき ¦ 晚上见面时}}</td></tr>
+<tr><td><strong>Good night</strong></td><td>{{solo para despedirse o al ir a dormir ¦ 別れるとき・寝るときだけ ¦ 只用于告别或睡觉前}}</td></tr>
+<tr><td><strong>Goodbye! / Bye!</strong></td><td>{{al irse ¦ 別れるとき ¦ 离开时}}</td></tr></table>
+<div class="example">— Hello! I'm Lucy. What's your name?<br>— Hi, Lucy! I'm Ken. Nice to meet you.<br>— Nice to meet you too.</div>
+<h3>{{Ojo ¦ 注意 ¦ 注意}}</h3>
+<div class="warning">{{<b>Errores típicos de hispanohablantes:</b><ul><li>✗ I Ana. → ✓ I'm Ana. (el verbo no se puede omitir)</li><li>✗ Good night (al llegar a las 21:00) → ✓ Good evening</li><li>✗ My name is is Pedro → ✓ My name is Pedro / I'm Pedro</li></ul> ¦ <b>日本語話者によくある間違い：</b><ul><li>✗ I Ana. → ✓ I'm Ana.（be 動詞は省略できない）</li><li>「こんばんは」は Good evening。Good night は「おやすみなさい」。</li><li>✗ I am fine thank you and you? → ✓ I'm fine, thanks. And you?</li></ul> ¦ <b>中文母语者常见错误：</b><ul><li>✗ I Ana. → ✓ I'm Ana.（不能省略 be 动词）</li><li>“晚上好”是 Good evening，Good night 是“晚安”。</li><li>✗ I very fine. → ✓ I'm very well / I'm fine.</li></ul>}}</div>
+ex:
+fill ¦ I ___ Lucy. ¦ am ¦ is / are / be ¦ Soy Lucy. ¦ 私はルーシーです。 ¦ 我是露西。 ¦ Con I siempre am. ¦ I のあとは am。 ¦ I 后面用 am。
+fill ¦ You ___ my friend. ¦ are ¦ am / is / be ¦ Eres mi amigo. ¦ あなたは私の友達です。 ¦ 你是我的朋友。 ¦ Con you siempre are. ¦ you のあとは are。 ¦ you 后面用 are。
+fill ¦ Good ___ ! I'm going to bed. ¦ night ¦ morning / evening / afternoon ¦ ¡Buenas noches! Me voy a la cama. ¦ おやすみなさい！もう寝ます。 ¦ 晚安！我去睡觉了。 ¦ Good night solo al despedirse o al ir a dormir. ¦ 寝る前・別れるときは Good night。 ¦ 睡觉前或告别时说 Good night。
+choose ¦ Son las 9 de la noche y llegas a una cena. ¿Qué dices? ¦ 夜9時、夕食会に着きました。何と言う？ ¦ 晚上9点，你到了晚宴。你说什么？ ¦ Good evening! ¦ Good night! / Good morning! / Goodbye! ¦ Good night es para irse a dormir. ¦ Good night は「おやすみ」。 ¦ Good night 是“晚安”。
+choose ¦ ¿Cuál es la contracción de «I am»? ¦ 「I am」の短縮形は？ ¦ “I am”的缩写是？ ¦ I'm ¦ Im / I'am / Ia'm
+order ¦ Nice to meet you. ¦ Encantado de conocerte. ¦ はじめまして。 ¦ 很高兴认识你。
+order ¦ What's your name? ¦ ¿Cómo te llamas? ¦ お名前は何ですか。 ¦ 你叫什么名字？
+translate ¦ Soy Pedro. ¦ 私はペドロです。 ¦ 我是佩德罗。 ¦ I'm Pedro. ¦ I am Pedro. / My name is Pedro. / My name's Pedro.
+translate ¦ Estoy bien, gracias. ¦ 元気です、ありがとう。 ¦ 我很好，谢谢。 ¦ I'm fine, thanks. ¦ I am fine, thanks. / I'm fine, thank you. / I am fine, thank you. / I'm fine thanks. / I'm well, thanks.
+match ¦ hello=hola=こんにちは=你好; goodbye=adiós=さようなら=再见; thanks=gracias=ありがとう=谢谢; please=por favor=お願いします=请; sorry=perdón=ごめんなさい=对不起
+
+=== 2
+title: Where are you from? ¦ ¿De dónde eres? ¦ 出身はどこ？ ¦ 你是哪里人？
+desc: Países, nacionalidades y el verbo to be completo ¦ 国・国籍と be 動詞のすべての形 ¦ 国家、国籍和 be 动词的全部形式
+gram: to be: he is, she is, it is, we are, they are ¦ Where…from?
+ref: a1-be-2
+words: he, she, it, we, they, where, from, country, city, town, foreign, foreigner, nationality, language, English, live, world, map, flag, famous, big, small, beautiful, here, there, friend, from
+intro:
+<h3>{{Todas las formas de <i>to be</i> en presente ¦ be 動詞の現在形すべて ¦ be 动词现在时的所有形式}}</h3>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Contracción ¦ 短縮形 ¦ 缩写}}</th><th>{{Significado ¦ 意味 ¦ 意思}}</th></tr>
+<tr><td>I <strong>am</strong></td><td>I<strong>'m</strong></td><td>{{yo soy/estoy ¦ 私は ¦ 我是}}</td></tr>
+<tr><td>you <strong>are</strong></td><td>you<strong>'re</strong></td><td>{{tú eres / usted es ¦ あなたは ¦ 你是}}</td></tr>
+<tr><td>he / she / it <strong>is</strong></td><td>he<strong>'s</strong> / she<strong>'s</strong> / it<strong>'s</strong></td><td>{{él / ella es; ello es ¦ 彼／彼女／それは ¦ 他／她／它是}}</td></tr>
+<tr><td>we <strong>are</strong></td><td>we<strong>'re</strong></td><td>{{nosotros somos ¦ 私たちは ¦ 我们是}}</td></tr>
+<tr><td>you <strong>are</strong></td><td>you<strong>'re</strong></td><td>{{vosotros sois / ustedes son ¦ あなたたちは ¦ 你们是}}</td></tr>
+<tr><td>they <strong>are</strong></td><td>they<strong>'re</strong></td><td>{{ellos / ellas son ¦ 彼らは ¦ 他们是}}</td></tr></table>
+<div class="tip">{{<b>It</b> se usa para cosas, animales y lugares (no existe en español): <i>It's a big city</i> = Es una ciudad grande. <b>You</b> vale para tú, usted, vosotros y ustedes. ¦ <b>it</b> は物・動物・場所に使います：<i>It's a big city</i>（大きな都市です）。<b>you</b> は単数・複数どちらにも使います。 ¦ <b>it</b> 用于物、动物和地点：<i>It's a big city</i>（这是个大城市）。<b>you</b> 既可指“你”也可指“你们”。}}</div>
+<h3>{{Preguntar el origen ¦ 出身を尋ねる ¦ 问来自哪里}}</h3>
+<p>{{En las preguntas el verbo va <b>antes</b> del sujeto. La preposición <b>from</b> suele ir al final: ¦ 疑問文では be 動詞を主語の<b>前</b>に出します。<b>from</b> は文末に残ります： ¦ 疑问句中 be 动词放在主语<b>前面</b>，<b>from</b> 通常放在句末：}}</p>
+<div class="example">Where <strong>are you</strong> from? — I'm <strong>from</strong> Spain. I'm Spanish.<br>Where <strong>is she</strong> from? — She's from Japan. She's Japanese.<br>Where <strong>are they</strong> from? — They're from China. They're Chinese.</div>
+<div class="tip">{{Países, nacionalidades e idiomas se escriben con <b>mayúscula</b>: Spain, Spanish, Japan, Japanese, China, Chinese. ¦ 国名・国籍・言語は<b>大文字</b>で始めます：Spain, Spanish, Japan, Japanese, China, Chinese。 ¦ 国家、国籍和语言首字母<b>大写</b>：Spain、Spanish、Japan、Japanese、China、Chinese。}}</div>
+<div class="warning">{{<b>Errores típicos:</b><ul><li>✗ Is from Madrid. → ✓ <b>He's</b> from Madrid. (el sujeto es obligatorio)</li><li>✗ I'm spanish. → ✓ I'm <b>S</b>panish.</li><li>✗ From where are you? → ✓ Where are you from?</li></ul> ¦ <b>よくある間違い：</b><ul><li>✗ Is from Tokyo. → ✓ <b>She's</b> from Tokyo.（主語は必須）</li><li>✗ I'm japanese. → ✓ I'm <b>J</b>apanese.</li><li>✗ She are from Japan. → ✓ She <b>is</b> from Japan.</li></ul> ¦ <b>常见错误：</b><ul><li>✗ Is from Beijing. → ✓ <b>He's</b> from Beijing.（主语不能省略）</li><li>✗ I'm chinese. → ✓ I'm <b>C</b>hinese.</li><li>✗ They is from China. → ✓ They <b>are</b> from China.</li></ul>}}</div>
+ex:
+fill ¦ She ___ from Japan. ¦ is ¦ are / am / be ¦ Ella es de Japón. ¦ 彼女は日本出身です。 ¦ 她来自日本。 ¦ he/she/it → is ¦ he/she/it → is ¦ he/she/it → is
+fill ¦ We ___ from Spain. ¦ are ¦ is / am / be ¦ Somos de España. ¦ 私たちはスペイン出身です。 ¦ 我们来自西班牙。
+fill ¦ Where ___ they from? ¦ are ¦ is / do / am ¦ ¿De dónde son? ¦ 彼らはどこの出身ですか。 ¦ 他们是哪里人？
+fill ¦ Madrid is a big ___ . ¦ city ¦ country / language / flag ¦ Madrid es una ciudad grande. ¦ マドリードは大きな都市です。 ¦ 马德里是一座大城市。
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ He's from Mexico. ¦ Is from Mexico. / He from Mexico. / He are from Mexico. ¦ El sujeto no se omite en inglés. ¦ 英語では主語を省略しない。 ¦ 英语不能省略主语。
+choose ¦ «Es una ciudad bonita» (hablando de Kioto) ¦ 「きれいな都市です」（京都について） ¦ “这是一座美丽的城市”（说京都） ¦ It's a beautiful city. ¦ Is a beautiful city. / She's a beautiful city. / It a beautiful city.
+order ¦ Where are you from? ¦ ¿De dónde eres? ¦ どこの出身ですか。 ¦ 你是哪里人？
+order ¦ They are from a small town. ¦ Son de un pueblo pequeño. ¦ 彼らは小さな町の出身です。 ¦ 他们来自一个小镇。
+translate ¦ Somos amigos. ¦ 私たちは友達です。 ¦ 我们是朋友。 ¦ We're friends. ¦ We are friends.
+translate ¦ Él es de China. ¦ 彼は中国出身です。 ¦ 他来自中国。 ¦ He's from China. ¦ He is from China.
+
+=== 3
+title: Personal information ¦ Datos personales ¦ 個人情報 ¦ 个人信息
+desc: Números, el alfabeto, la edad y preguntas con to be ¦ 数字・アルファベット・年齢と be 動詞の疑問文 ¦ 数字、字母、年龄和 be 动词疑问句
+gram: to be: negative and questions ¦ question words: what, how old, who ¦ numbers 1–100
+ref: a1-be-3
+words: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, number, age, old, young, what, who, address, phone, email, last name, spell, student, single, married
+intro:
+<h3>{{Negativa y preguntas con <i>to be</i> ¦ be 動詞の否定文と疑問文 ¦ be 动词的否定句和疑问句}}</h3>
+<table><tr><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th><th>{{Respuesta corta ¦ 短い答え ¦ 简短回答}}</th></tr>
+<tr><td>I'm <strong>not</strong> 20.</td><td><strong>Am I</strong> late?</td><td>Yes, you are. / No, you aren't.</td></tr>
+<tr><td>You <strong>aren't</strong> married.</td><td><strong>Are you</strong> a student?</td><td>Yes, I am. / No, I'm not.</td></tr>
+<tr><td>She <strong>isn't</strong> here.</td><td><strong>Is she</strong> your sister?</td><td>Yes, she is. / No, she isn't.</td></tr>
+<tr><td>They <strong>aren't</strong> from Peru.</td><td><strong>Are they</strong> English?</td><td>Yes, they are. / No, they aren't.</td></tr></table>
+<div class="tip">{{Las respuestas cortas repiten el verbo: <b>Yes, I am.</b> (no solo «Yes»). En la respuesta afirmativa no se contrae: ✗ Yes, I'm. ¦ 短い答えでは be 動詞をくり返します：<b>Yes, I am.</b> 肯定の短い答えでは短縮しません（✗ Yes, I'm.）。 ¦ 简短回答要重复 be 动词：<b>Yes, I am.</b> 肯定简答不能缩写（✗ Yes, I'm.）。}}</div>
+<h3>{{La edad: <i>be</i>, no <i>have</i> ¦ 年齢は be で ¦ 年龄用 be，不用 have}}</h3>
+<div class="example">How old <strong>are</strong> you? — I'<strong>m</strong> 25. / I'm 25 years old.</div>
+<div class="warning">{{✗ I have 25 years. → ✓ I'm 25. En inglés la edad se expresa con <b>be</b>. ¦ 年齢は <b>be</b> で言います：✓ I'm 25.（✗ I have 25 years.） ¦ 年龄用 <b>be</b>：✓ I'm 25.（✗ I have 25 years.）}}</div>
+<h3>{{Palabras interrogativas ¦ 疑問詞 ¦ 疑问词}}</h3>
+<table><tr><td><strong>What</strong>'s your phone number?</td><td>{{¿Cuál es tu número de teléfono? ¦ 電話番号は？ ¦ 你的电话号码是多少？}}</td></tr>
+<tr><td><strong>What</strong>'s your address?</td><td>{{¿Cuál es tu dirección? ¦ 住所は？ ¦ 你的地址是什么？}}</td></tr>
+<tr><td><strong>Who</strong>'s that?</td><td>{{¿Quién es ese? ¦ あれは誰？ ¦ 那是谁？}}</td></tr>
+<tr><td><strong>How</strong> do you spell it?</td><td>{{¿Cómo se escribe? ¦ どうつづりますか。 ¦ 怎么拼写？}}</td></tr></table>
+<div class="tip">{{Números: <b>thirteen</b> (13) y <b>thirty</b> (30) suenan parecido; en <i>-teen</i> el acento va al final (thir<b>TEEN</b>) y en <i>-ty</i> al principio (<b>THIR</b>ty). Del 21 al 99 se escribe con guion: twenty-one, forty-five. ¦ <b>thirteen</b>（13）と <b>thirty</b>（30）は似ています。-teen は後ろ（thir<b>TEEN</b>）、-ty は前（<b>THIR</b>ty）を強く読みます。21〜99 はハイフン：twenty-one, forty-five。 ¦ <b>thirteen</b>（13）和 <b>thirty</b>（30）发音相近：-teen 重音在后（thir<b>TEEN</b>），-ty 重音在前（<b>THIR</b>ty）。21 到 99 用连字符：twenty-one、forty-five。}}</div>
+ex:
+fill ¦ I ___ 30 years old. ¦ am ¦ have / is / are ¦ Tengo 30 años. ¦ 私は30歳です。 ¦ 我30岁。 ¦ La edad va con be. ¦ 年齢は be。 ¦ 年龄用 be。
+fill ¦ She ___ married. She's single. ¦ isn't ¦ aren't / not / don't ¦ No está casada. Está soltera. ¦ 彼女は結婚していません。独身です。 ¦ 她没结婚，是单身。
+fill ¦ ___ you a student? ¦ Are ¦ Is / Do / Am ¦ ¿Eres estudiante? ¦ あなたは学生ですか。 ¦ 你是学生吗？
+fill ¦ ___ old is your brother? ¦ How ¦ What / Who / Where ¦ ¿Cuántos años tiene tu hermano? ¦ お兄さんは何歳ですか。 ¦ 你哥哥多大了？
+choose ¦ Respuesta corta correcta a «Are you from Spain?» ¦ 「Are you from Spain?」への正しい短い答え ¦ “Are you from Spain?”的正确简答 ¦ Yes, I am. ¦ Yes, I'm. / Yes, I are. / Yes, am.
+choose ¦ ¿Cómo se escribe 45? ¦ 45 の書き方は？ ¦ 45 怎么写？ ¦ forty-five ¦ fourty-five / forty five / fourteen-five
+order ¦ What's your phone number? ¦ ¿Cuál es tu número de teléfono? ¦ 電話番号は何番ですか。 ¦ 你的电话号码是多少？
+order ¦ How do you spell your last name? ¦ ¿Cómo se escribe tu apellido? ¦ 名字（姓）はどうつづりますか。 ¦ 你的姓怎么拼写？
+translate ¦ No soy profesor. ¦ 私は先生ではありません。 ¦ 我不是老师。 ¦ I'm not a teacher. ¦ I am not a teacher.
+translate ¦ Tengo veinte años. ¦ 私は20歳です。 ¦ 我二十岁。 ¦ I'm twenty. ¦ I am twenty. / I'm twenty years old. / I am twenty years old. / I'm 20. / I am 20.
+match ¦ thirteen=trece=13=十三; thirty=treinta=30=三十; fifteen=quince=15=十五; fifty=cincuenta=50=五十; twelve=doce=12=十二
+
+=== 4
+title: Things around me ¦ Las cosas que me rodean ¦ 身の回りの物 ¦ 身边的东西
+desc: Objetos de clase y de uso diario: a/an, plurales y this/that ¦ 教室や日用品：a/an・複数形・this/that ¦ 教室和日常用品：a/an、复数、this/that
+gram: a / an ¦ plural nouns ¦ this, that, these, those
+ref: a1-articles-plurals
+words: a, an, this, that, these, those, book, pen, pencil, notebook, bag, desk, chair, table, door, window, key, umbrella, glasses, watch, phone, photo, dictionary, box, bottle, thing, classroom, board, ruler, computer
+intro:
+<h3>a / an</h3>
+<p>{{Delante de un sustantivo singular contable necesitas <b>a</b> o <b>an</b> (un/una). Depende del <b>sonido</b>, no de la letra: ¦ 数えられる名詞の単数には <b>a</b> か <b>an</b> が必要です。つづりではなく<b>発音</b>で決まります： ¦ 可数名词单数前要用 <b>a</b> 或 <b>an</b>（一个）。取决于<b>发音</b>，不是字母：}}</p>
+<table><tr><th>a + {{sonido consonante ¦ 子音の音 ¦ 辅音音素}}</th><th>an + {{sonido vocal ¦ 母音の音 ¦ 元音音素}}</th></tr>
+<tr><td><strong>a</strong> book, <strong>a</strong> pen, <strong>a</strong> <u>u</u>niversity (/ju/)</td><td><strong>an</strong> apple, <strong>an</strong> umbrella, <strong>an</strong> <u>h</u>our (h muda)</td></tr></table>
+<h3>{{Plurales ¦ 複数形 ¦ 复数}}</h3>
+<table><tr><th>{{Regla ¦ ルール ¦ 规则}}</th><th>{{Ejemplo ¦ 例 ¦ 例子}}</th></tr>
+<tr><td>+ s</td><td>book → book<strong>s</strong>, key → key<strong>s</strong></td></tr>
+<tr><td>-s, -sh, -ch, -x + es</td><td>box → box<strong>es</strong>, watch → watch<strong>es</strong></td></tr>
+<tr><td>{{consonante + y → ies ¦ 子音＋y → ies ¦ 辅音 + y → ies}}</td><td>dictionary → dictionar<strong>ies</strong></td></tr>
+<tr><td>{{irregulares ¦ 不規則 ¦ 不规则}}</td><td>man → <strong>men</strong>, woman → <strong>women</strong>, child → <strong>children</strong>, person → <strong>people</strong></td></tr></table>
+<div class="tip">{{Los adjetivos <b>no</b> tienen plural: <i>two big boxes</i> (✗ bigs). ¦ 形容詞は複数形になりません：<i>two big boxes</i>（✗ bigs）。日本語・中国語と違い、名詞には必ず複数の -s を付けます。 ¦ 形容词<b>没有</b>复数：<i>two big boxes</i>（✗ bigs）。和中文不同，名词复数一定要加 -s。}}</div>
+<h3>this · that · these · those</h3>
+<table><tr><th></th><th>{{cerca ¦ 近く ¦ 近}}</th><th>{{lejos ¦ 遠く ¦ 远}}</th></tr>
+<tr><td>{{singular ¦ 単数 ¦ 单数}}</td><td><strong>this</strong> pen</td><td><strong>that</strong> door</td></tr>
+<tr><td>{{plural ¦ 複数 ¦ 复数}}</td><td><strong>these</strong> pens</td><td><strong>those</strong> doors</td></tr></table>
+<div class="example">What's <strong>this</strong>? — It's <strong>an</strong> umbrella.<br>What are <strong>those</strong>? — They're my glasses.</div>
+<div class="warning">{{✗ It's umbrella. → ✓ It's <b>an</b> umbrella. · ✗ This are my keys. → ✓ <b>These</b> are my keys. ¦ ✗ It's umbrella. → ✓ It's <b>an</b> umbrella.（冠詞を忘れない） · ✗ This are my keys. → ✓ <b>These</b> are my keys. ¦ ✗ It's umbrella. → ✓ It's <b>an</b> umbrella.（别忘了冠词） · ✗ This are my keys. → ✓ <b>These</b> are my keys.}}</div>
+ex:
+fill ¦ It's ___ umbrella. ¦ an ¦ a / the / – ¦ Es un paraguas. ¦ それは傘です。 ¦ 这是一把伞。 ¦ umbrella empieza por sonido vocal. ¦ umbrella は母音で始まる。 ¦ umbrella 以元音开头。
+fill ¦ It's ___ dictionary. ¦ a ¦ an / – / some ¦ Es un diccionario. ¦ それは辞書です。 ¦ 这是一本词典。
+fill ¦ ___ are my keys. ¦ These ¦ This / That / It ¦ Estas son mis llaves. ¦ これは私の鍵です。 ¦ 这些是我的钥匙。
+fill ¦ There are three ___ on the table. ¦ boxes ¦ boxs / box / boxies ¦ Hay tres cajas en la mesa. ¦ テーブルに箱が3つあります。 ¦ 桌子上有三个盒子。
+choose ¦ Plural de «child» ¦ child の複数形は？ ¦ child 的复数是？ ¦ children ¦ childs / childes / childrens
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ Those are big boxes. ¦ Those are bigs boxes. / That are big boxes. / Those is big boxes.
+order ¦ What's that on the desk? ¦ ¿Qué es eso que hay en el escritorio? ¦ 机の上のあれは何ですか。 ¦ 书桌上那是什么？
+order ¦ These are my new pencils. ¦ Estos son mis lápices nuevos. ¦ これらは私の新しい鉛筆です。 ¦ 这些是我的新铅笔。
+translate ¦ Es una foto. ¦ それは写真です。 ¦ 这是一张照片。 ¦ It's a photo. ¦ It is a photo. / This is a photo. / It's a picture.
+translate ¦ Esas son mis gafas. ¦ あれは私の眼鏡です。 ¦ 那是我的眼镜。 ¦ Those are my glasses. ¦ They're my glasses. / They are my glasses.
+
+=== 5
+title: My family ¦ Mi familia ¦ 私の家族 ¦ 我的家庭
+desc: La familia, los posesivos y el genitivo 's ¦ 家族・所有格と 's ¦ 家庭成员、物主代词和所有格 's
+gram: possessive adjectives: my, your, his, her… ¦ possessive 's ¦ whose
+ref: a1-possessives
+words: family, mother, father, parent, brother, sister, son, daughter, husband, wife, child, baby, grandmother, grandfather, grandparent, aunt, uncle, cousin, his, her, its, our, their, whose, mum, dad, boy, girl, man, woman, people
+intro:
+<h3>{{Adjetivos posesivos ¦ 所有格 ¦ 物主形容词}}</h3>
+<table><tr><th>{{Sujeto ¦ 主語 ¦ 主语}}</th><th>{{Posesivo ¦ 所有格 ¦ 物主形容词}}</th><th>{{Ejemplo ¦ 例 ¦ 例子}}</th></tr>
+<tr><td>I</td><td><strong>my</strong></td><td>my mother</td></tr><tr><td>you</td><td><strong>your</strong></td><td>your brother</td></tr>
+<tr><td>he</td><td><strong>his</strong></td><td>his wife</td></tr><tr><td>she</td><td><strong>her</strong></td><td>her husband</td></tr>
+<tr><td>it</td><td><strong>its</strong></td><td>its name</td></tr><tr><td>we</td><td><strong>our</strong></td><td>our parents</td></tr><tr><td>they</td><td><strong>their</strong></td><td>their children</td></tr></table>
+<div class="tip">{{<b>His / her</b> dependen del <b>poseedor</b>, no de la cosa: <i>Tom and <b>his</b> sister</i>, <i>Ana and <b>her</b> brother</i>. En español «su» vale para todos; en inglés hay que elegir. Los posesivos no cambian en plural: <i>my parents</i>. ¦ <b>his / her</b> は<b>持ち主</b>の性別で決まります：<i>Tom and <b>his</b> sister</i>（トムの姉妹）、<i>Ana and <b>her</b> brother</i>（アナの兄弟）。 ¦ <b>his / her</b> 取决于<b>拥有者</b>是男是女：<i>Tom and <b>his</b> sister</i>（汤姆和他的妹妹），<i>Ana and <b>her</b> brother</i>（安娜和她的哥哥）。}}</div>
+<h3>{{El genitivo sajón: 's ¦ 所有の 's ¦ 所有格 's}}</h3>
+<p>{{Para decir «el/la … de una persona», el poseedor va primero + <b>'s</b>: ¦ 「〜の」は持ち主＋<b>'s</b> で表します（日本語の「の」と同じ語順）： ¦ 表示“某人的……”，拥有者放前面 + <b>'s</b>（和中文“的”的语序一样）：}}</p>
+<div class="example">Maria<strong>'s</strong> brother = {{el hermano de María ¦ マリアの兄弟 ¦ 玛丽亚的哥哥}}<br>my parents<strong>'</strong> house = {{la casa de mis padres ¦ 両親の家 ¦ 我父母的房子}}<br>the children<strong>'s</strong> toys = {{los juguetes de los niños ¦ 子どもたちのおもちゃ ¦ 孩子们的玩具}}</div>
+<div class="tip">{{<b>Whose</b> = ¿de quién? — <i>Whose bag is this? — It's Tom's.</i> ¦ <b>Whose</b>＝誰の？ — <i>Whose bag is this? — It's Tom's.</i>（トムのです） ¦ <b>Whose</b> = 谁的？ — <i>Whose bag is this? — It's Tom's.</i>（是汤姆的）}}</div>
+<div class="warning">{{✗ the brother of Maria → ✓ Maria's brother · ✗ Ana and his father → ✓ Ana and <b>her</b> father · ✗ Who's bag? → ✓ <b>Whose</b> bag? ¦ ✗ Ana and his father → ✓ Ana and <b>her</b> father · ✗ Who's bag? → ✓ <b>Whose</b> bag?（who's は who is） ¦ ✗ Ana and his father → ✓ Ana and <b>her</b> father（he/she 不分是中文母语者的常见错误） · ✗ Who's bag? → ✓ <b>Whose</b> bag?}}</div>
+ex:
+fill ¦ Laura and ___ husband live in London. ¦ her ¦ his / their / its ¦ Laura y su marido viven en Londres. ¦ ローラと夫はロンドンに住んでいます。 ¦ 劳拉和她丈夫住在伦敦。 ¦ Laura es mujer → her. ¦ ローラは女性 → her。 ¦ 劳拉是女的 → her。
+fill ¦ Peter loves ___ daughter. ¦ his ¦ her / its / your ¦ Peter quiere mucho a su hija. ¦ ピーターは娘をとても愛しています。 ¦ 彼得很爱他的女儿。
+fill ¦ This is ___ car. (my parents) ¦ my parents' ¦ my parent's / my parents / parents my ¦ Este es el coche de mis padres. ¦ これは両親の車です。 ¦ 这是我父母的车。 ¦ Plural en -s: solo apóstrofo. ¦ -s で終わる複数形はアポストロフィだけ。 ¦ 以 -s 结尾的复数只加撇号。
+fill ¦ ___ phone is this? — It's Anna's. ¦ Whose ¦ Who's / Who / Which ¦ ¿De quién es este móvil? — Es de Anna. ¦ これは誰の電話？ — アンナのです。 ¦ 这是谁的手机？——是安娜的。
+choose ¦ «El hermano de mi madre» ¦ 「母の兄弟」 ¦ “我妈妈的兄弟” ¦ my mother's brother = my uncle ¦ my mother's brother = my cousin / the brother of my mother = my aunt / my mothers brother = my uncle
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ We love our grandparents. ¦ We love ours grandparents. / We love our grandparent's. / We love us grandparents.
+order ¦ My sister's husband is a doctor. ¦ El marido de mi hermana es médico. ¦ 姉の夫は医者です。 ¦ 我姐姐的丈夫是医生。
+order ¦ Their children are very young. ¦ Sus hijos son muy pequeños. ¦ 彼らの子どもたちはとても幼いです。 ¦ 他们的孩子很小。
+translate ¦ Mi padre se llama Juan. ¦ 父の名前はフアンです。 ¦ 我爸爸叫胡安。 ¦ My father's name is Juan. ¦ My father is called Juan. / My dad's name is Juan. / My father's name's Juan.
+translate ¦ Es la hija de Tom. ¦ トムの娘です。 ¦ 她是汤姆的女儿。 ¦ She's Tom's daughter. ¦ She is Tom's daughter.
+match ¦ aunt=tía=おば=阿姨; uncle=tío=おじ=叔叔; cousin=primo/a=いとこ=表兄弟姐妹; wife=esposa=妻=妻子; son=hijo=息子=儿子
+
+=== 6
+title: What do they look like? ¦ ¿Cómo son? ¦ どんな見た目？ ¦ 他们长什么样？
+desc: Describir a personas: adjetivos y have got ¦ 人の描写：形容詞と have got ¦ 描述人：形容词和 have got
+gram: have got / has got ¦ adjectives: position ¦ very, quite
+ref: a1-have-got
+words: tall, short, long, fat, thin, young, old, handsome, pretty, ugly, hair, eye, face, nose, mouth, ear, black, brown, blue, green, gray, kind, nice, funny, shy, clever, lazy, very, have, beard
+intro:
+<h3>have got</h3>
+<p>{{<b>Have got</b> significa «tener» (posesión, aspecto, familia). Es muy británico y casi siempre va contraído: ¦ <b>have got</b> は「持っている」（所有・外見・家族）。イギリス英語でよく使い、ふつう短縮します： ¦ <b>have got</b> 表示“有”（拥有、外貌、家人），是很英式的说法，通常缩写：}}</p>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I<strong>'ve got</strong> blue eyes.</td><td>I <strong>haven't got</strong> a car.</td><td><strong>Have</strong> you <strong>got</strong> a pen?</td></tr>
+<tr><td>She<strong>'s got</strong> long hair.</td><td>He <strong>hasn't got</strong> a beard.</td><td><strong>Has</strong> she <strong>got</strong> children?</td></tr></table>
+<div class="tip">{{Respuestas cortas: <i>Yes, I have. / No, she hasn't.</i> (sin got). En inglés americano se dice más <i>I have / Do you have…?</i> Las dos formas son correctas. ¦ 短い答えは got なし：<i>Yes, I have. / No, she hasn't.</i> アメリカ英語では <i>I have / Do you have…?</i> が多い。どちらも正しい。 ¦ 简短回答不带 got：<i>Yes, I have. / No, she hasn't.</i> 美式英语更常用 <i>I have / Do you have…?</i>，两种都对。}}</div>
+<div class="warning">{{<b>She's got</b> = she <b>has</b> got (no «is»). ✗ She have got → ✓ She <b>has</b> got. ¦ <b>She's got</b> は she <b>has</b> got の短縮（is ではない）。✗ She have got → ✓ She <b>has</b> got。 ¦ <b>She's got</b> = she <b>has</b> got（不是 is）。✗ She have got → ✓ She <b>has</b> got。}}</div>
+<h3>{{Los adjetivos: antes del sustantivo e invariables ¦ 形容詞：名詞の前に置き、形は変わらない ¦ 形容词：放在名词前，没有变化}}</h3>
+<div class="example">a <strong>tall</strong> man · <strong>long black</strong> hair · <strong>blue</strong> eyes · She's <strong>very</strong> pretty. · He's <strong>quite</strong> shy.</div>
+<div class="tip">{{Al revés que en español: ✗ hair black → ✓ <b>black hair</b>. Nunca llevan -s: ✗ blues eyes. Opinión antes que descripción: <i>a nice young man</i>. ¦ 日本語と同じく名詞の前：<b>black hair</b>（黒い髪）。複数でも -s は付けません（✗ blues eyes）。 ¦ 和中文一样放在名词前：<b>black hair</b>（黑头发）。形容词不加 -s（✗ blues eyes）。}}</div>
+<div class="warning">{{<b>hair</b> (pelo de la cabeza) es incontable: ✗ She's got long hairs. → ✓ long hair. ¦ 髪の毛全体の <b>hair</b> は数えられない：✗ long hairs → ✓ long hair。 ¦ 表示头发整体的 <b>hair</b> 不可数：✗ long hairs → ✓ long hair。}}</div>
+ex:
+fill ¦ She ___ got green eyes. ¦ 's ¦ 've / is / have ¦ Tiene los ojos verdes. ¦ 彼女は緑の目をしています。 ¦ 她有一双绿眼睛。 ¦ she → has got → 's got ¦ she → has got → 's got ¦ she → has got → 's got
+fill ¦ ___ you got a brother? ¦ Have ¦ Has / Do / Are ¦ ¿Tienes un hermano? ¦ 兄弟はいますか。 ¦ 你有兄弟吗？
+fill ¦ My dad ___ got a beard. ¦ hasn't ¦ haven't / isn't / doesn't ¦ Mi padre no tiene barba. ¦ 父はひげがありません。 ¦ 我爸爸没有胡子。
+fill ¦ He's got short ___ hair. ¦ brown ¦ browns / hair brown / a brown ¦ Tiene el pelo corto y castaño. ¦ 彼は茶色の短い髪です。 ¦ 他是棕色短发。
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ She's got long black hair. ¦ She's got hair long black. / She's got long black hairs. / She has got longs black hair.
+choose ¦ Respuesta corta a «Has he got a car?» ¦ 「Has he got a car?」への短い答え ¦ “Has he got a car?”的简短回答 ¦ No, he hasn't. ¦ No, he hasn't got. / No, he isn't. / No, he doesn't.
+order ¦ My brother is tall and very funny. ¦ Mi hermano es alto y muy gracioso. ¦ 兄は背が高くてとても面白いです。 ¦ 我哥哥个子高，很幽默。
+order ¦ Have you got a big family? ¦ ¿Tienes una familia grande? ¦ あなたは大家族ですか。 ¦ 你家人多吗？
+translate ¦ Tengo los ojos azules. ¦ 私は青い目をしています。 ¦ 我有蓝眼睛。 ¦ I've got blue eyes. ¦ I have got blue eyes. / I have blue eyes.
+translate ¦ Ella es bastante tímida. ¦ 彼女はかなり恥ずかしがり屋です。 ¦ 她相当害羞。 ¦ She's quite shy. ¦ She is quite shy.
+match ¦ tall=alto=背が高い=高; thin=delgado=やせた=瘦; clever=listo=賢い=聪明; lazy=vago=怠惰な=懒; funny=gracioso=面白い=好笑
+
+=== 7
+title: What do you do? ¦ ¿A qué te dedicas? ¦ お仕事は？ ¦ 你做什么工作？
+desc: Profesiones y lugares de trabajo; el presente simple (I, you, we, they) ¦ 職業と職場；現在形（I, you, we, they） ¦ 职业和工作地点；一般现在时（I, you, we, they）
+gram: present simple: I / you / we / they ¦ do / don't ¦ a / an + job
+ref: a1-present-simple-1
+words: job, work, worker, teacher, doctor, nurse, engineer, driver, waiter, waitress, farmer, singer, writer, police, officer, office, hospital, school, factory, shop, restaurant, bank, company, business, do, like, want, need, speak, go
+intro:
+<h3>{{Presente simple: hábitos y hechos ¦ 現在形：習慣と事実 ¦ 一般现在时：习惯和事实}}</h3>
+<p>{{Con <b>I, you, we, they</b> el verbo no cambia. Para negar y preguntar usamos el auxiliar <b>do</b>: ¦ <b>I, you, we, they</b> では動詞はそのまま（原形）。否定・疑問には助動詞 <b>do</b> を使います： ¦ 主语是 <b>I, you, we, they</b> 时动词用原形。否定和疑问用助动词 <b>do</b>：}}</p>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I <strong>work</strong> in a bank.</td><td>I <strong>don't work</strong> at weekends.</td><td><strong>Do</strong> you <strong>work</strong> here?</td></tr>
+<tr><td>They <strong>speak</strong> English.</td><td>We <strong>don't speak</strong> French.</td><td>Where <strong>do</strong> they <strong>live</strong>?</td></tr></table>
+<div class="tip">{{<b>don't</b> = do not. Respuestas cortas: <i>Yes, I do. / No, I don't.</i> La pregunta típica sobre el trabajo es <b>What do you do?</b> (= ¿a qué te dedicas?). ¦ <b>don't</b>＝do not。短い答え：<i>Yes, I do. / No, I don't.</i> 職業を尋ねる定番の質問は <b>What do you do?</b>（お仕事は？）。 ¦ <b>don't</b> = do not。简短回答：<i>Yes, I do. / No, I don't.</i> 问职业的常用说法是 <b>What do you do?</b>（你是做什么的？）。}}</div>
+<h3>{{Profesiones con a / an ¦ 職業には a / an ¦ 职业前用 a / an}}</h3>
+<div class="example">I'm <strong>a</strong> teacher. · She's <strong>an</strong> engineer. · He works <strong>in a</strong> hospital. · They work <strong>for</strong> a big company.</div>
+<div class="warning">{{✗ I'm teacher. → ✓ I'm <b>a</b> teacher. (en español no hay artículo, en inglés es obligatorio) · ✗ I not work. → ✓ I <b>don't</b> work. · ✗ You work here? → ✓ <b>Do</b> you work here? ¦ ✗ I'm teacher. → ✓ I'm <b>a</b> teacher.（冠詞が必要） · ✗ I not work. → ✓ I <b>don't</b> work. · ✗ You work here? → ✓ <b>Do</b> you work here? ¦ ✗ I'm teacher. → ✓ I'm <b>a</b> teacher.（必须加冠词） · ✗ I not work. → ✓ I <b>don't</b> work. · ✗ You work here? → ✓ <b>Do</b> you work here?}}</div>
+ex:
+fill ¦ I'm ___ engineer. ¦ an ¦ a / – / the ¦ Soy ingeniero. ¦ 私はエンジニアです。 ¦ 我是工程师。 ¦ Profesión: con artículo; engineer empieza por vocal. ¦ 職業には冠詞。engineer は母音で始まる。 ¦ 职业前要加冠词；engineer 以元音开头。
+fill ¦ We ___ work on Sundays. ¦ don't ¦ doesn't / not / aren't ¦ No trabajamos los domingos. ¦ 私たちは日曜日に働きません。 ¦ 我们星期天不上班。
+fill ¦ ___ you like your job? ¦ Do ¦ Are / Does / Is ¦ ¿Te gusta tu trabajo? ¦ 仕事は好きですか。 ¦ 你喜欢你的工作吗？
+fill ¦ Nurses work in a ___ . ¦ hospital ¦ factory / farm / bank ¦ Los enfermeros trabajan en un hospital. ¦ 看護師は病院で働きます。 ¦ 护士在医院工作。
+choose ¦ «¿A qué te dedicas?» ¦ 「お仕事は何ですか」 ¦ “你是做什么工作的？” ¦ What do you do? ¦ What are you doing? / What you do? / What is your work do?
+choose ¦ Respuesta corta a «Do they speak Spanish?» ¦ 「Do they speak Spanish?」への短い答え ¦ “Do they speak Spanish?”的简短回答 ¦ Yes, they do. ¦ Yes, they speak. / Yes, they are. / Yes, they does.
+order ¦ Where do you work? ¦ ¿Dónde trabajas? ¦ どこで働いていますか。 ¦ 你在哪里工作？
+order ¦ They don't need a car for their job. ¦ No necesitan coche para su trabajo. ¦ 彼らは仕事に車が要りません。 ¦ 他们工作不需要车。
+translate ¦ Soy enfermera. ¦ 私は看護師です。 ¦ 我是护士。 ¦ I'm a nurse. ¦ I am a nurse.
+translate ¦ No trabajo en una oficina. ¦ 私はオフィスで働いていません。 ¦ 我不在办公室工作。 ¦ I don't work in an office. ¦ I do not work in an office.
+
+=== 8
+title: A day in my life ¦ Un día en mi vida ¦ 私の一日 ¦ 我的一天
+desc: La rutina diaria, la hora y el presente simple con he / she ¦ 日課・時刻と三人称単数の現在形 ¦ 日常作息、时间和第三人称单数的一般现在时
+gram: present simple: he / she / it (-s) ¦ does / doesn't ¦ telling the time
+ref: a1-present-simple-2
+words: get, wake, up, wash, shower, breakfast, lunch, dinner, start, finish, leave, home, work, watch, TV, read, sleep, bed, time, o'clock, half, quarter, past, to, minute, hour, morning, afternoon, night, early, late, every, day
+intro:
+<h3>{{He / she / it: el verbo lleva -s ¦ 三人称単数は動詞に -s ¦ 第三人称单数：动词加 -s}}</h3>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>She <strong>works</strong>.</td><td>She <strong>doesn't work</strong>.</td><td><strong>Does</strong> she <strong>work</strong>?</td></tr>
+<tr><td>He <strong>gets up</strong> at 7.</td><td>He <strong>doesn't get up</strong> early.</td><td>What time <strong>does</strong> he <strong>get up</strong>?</td></tr></table>
+<div class="tip">{{Con <b>does / doesn't</b> el verbo pierde la -s: ✗ Does she works? → ✓ Does she <b>work</b>? ¦ <b>does / doesn't</b> を使うと動詞の -s は消えます：✗ Does she works? → ✓ Does she <b>work</b>? ¦ 用了 <b>does / doesn't</b>，动词就不再加 -s：✗ Does she works? → ✓ Does she <b>work</b>?}}</div>
+<h3>{{Ortografía de la -s ¦ -s のつけ方 ¦ -s 的拼写}}</h3>
+<table><tr><td>{{la mayoría + s ¦ ふつう + s ¦ 一般 + s}}</td><td>work<strong>s</strong>, read<strong>s</strong>, sleep<strong>s</strong></td></tr>
+<tr><td>-s, -sh, -ch, -x, -o + es</td><td>watch<strong>es</strong>, wash<strong>es</strong>, go<strong>es</strong>, do<strong>es</strong></td></tr>
+<tr><td>{{consonante + y → ies ¦ 子音＋y → ies ¦ 辅音 + y → ies}}</td><td>study → stud<strong>ies</strong></td></tr>
+<tr><td>{{irregular ¦ 不規則 ¦ 不规则}}</td><td>have → <strong>has</strong></td></tr></table>
+<h3>{{La hora ¦ 時刻 ¦ 时间}}</h3>
+<table><tr><td>7:00</td><td>seven <strong>o'clock</strong></td></tr><tr><td>7:15</td><td><strong>quarter past</strong> seven</td></tr><tr><td>7:30</td><td><strong>half past</strong> seven</td></tr><tr><td>7:45</td><td><strong>quarter to</strong> eight</td></tr><tr><td>7:20</td><td>twenty <strong>past</strong> seven / seven twenty</td></tr></table>
+<div class="example">What time is it? — It's half past eight.<br>She <strong>has</strong> breakfast <strong>at</strong> eight and <strong>goes</strong> to work at nine.</div>
+<div class="warning">{{El error más frecuente en todos los niveles: olvidar la -s. ✗ She work in a shop. → ✓ She <b>works</b>. · «a las» = <b>at</b>: at 7 o'clock. · «tener el desayuno» = <b>have</b> breakfast (✗ take breakfast). ¦ 全レベルで最も多い間違いは -s を忘れること：✗ She work → ✓ She <b>works</b>。「〜時に」は <b>at</b>：at 7 o'clock。「朝食をとる」は <b>have</b> breakfast。 ¦ 各级别最常见的错误是忘了加 -s：✗ She work → ✓ She <b>works</b>。“在几点”用 <b>at</b>：at 7 o'clock。“吃早饭”是 <b>have</b> breakfast。}}</div>
+ex:
+fill ¦ My mother ___ up at six. ¦ gets ¦ get / getting / is get ¦ Mi madre se levanta a las seis. ¦ 母は6時に起きます。 ¦ 我妈妈六点起床。 ¦ he/she → -s ¦ 三人称単数 → -s ¦ 第三人称单数 → -s
+fill ¦ He ___ TV in the evening. ¦ watches ¦ watchs / watch / watchies ¦ Ve la tele por la tarde. ¦ 彼は夜テレビを見ます。 ¦ 他晚上看电视。 ¦ -ch + es ¦ -ch には -es ¦ -ch 结尾加 -es
+fill ¦ ___ she have lunch at home? ¦ Does ¦ Do / Is / Has ¦ ¿Come en casa? ¦ 彼女は家で昼食を食べますか。 ¦ 她在家吃午饭吗？
+fill ¦ Tom ___ work on Fridays. ¦ doesn't ¦ don't / isn't / not ¦ Tom no trabaja los viernes. ¦ トムは金曜日に働きません。 ¦ 汤姆星期五不上班。
+choose ¦ 8:45 ¦ 8:45 ¦ 8:45 ¦ quarter to nine ¦ quarter past eight / quarter to eight / half past eight
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ What time does she finish work? ¦ What time does she finishes work? / What time she finishes work? / What time do she finish work?
+order ¦ She has a shower every morning. ¦ Se ducha todas las mañanas. ¦ 彼女は毎朝シャワーを浴びます。 ¦ 她每天早上洗澡。
+order ¦ What time does the film start? ¦ ¿A qué hora empieza la película? ¦ 映画は何時に始まりますか。 ¦ 电影几点开始？
+translate ¦ Mi hermano trabaja en un banco. ¦ 兄は銀行で働いています。 ¦ 我哥哥在银行工作。 ¦ My brother works in a bank. ¦ My brother works at a bank.
+translate ¦ Son las siete y media. ¦ 7時半です。 ¦ 现在七点半。 ¦ It's half past seven. ¦ It is half past seven. / It's seven thirty. / It is seven thirty.
+
+=== 9
+title: Free time ¦ Tiempo libre ¦ 余暇 ¦ 业余时间
+desc: Aficiones, adverbios de frecuencia y like / love / hate + -ing ¦ 趣味・頻度の副詞と like/love/hate＋-ing ¦ 爱好、频率副词和 like/love/hate + -ing
+gram: adverbs of frequency: always, usually, often, sometimes, never ¦ like / love / hate + -ing ¦ How often…?
+ref: a1-frequency
+words: always, usually, often, sometimes, never, hobby, free, weekend, music, sport, football, tennis, swim, swimming, dance, dancing, cinema, movie, game, play, listen, love, hate, enjoy, read, reading, shopping, walk, friend, once
+intro:
+<h3>{{Adverbios de frecuencia ¦ 頻度の副詞 ¦ 频率副词}}</h3>
+<table><tr><td><strong>always</strong></td><td>100%</td><td>{{siempre ¦ いつも ¦ 总是}}</td></tr><tr><td><strong>usually</strong></td><td>80%</td><td>{{normalmente ¦ ふだん ¦ 通常}}</td></tr><tr><td><strong>often</strong></td><td>60%</td><td>{{a menudo ¦ よく ¦ 经常}}</td></tr><tr><td><strong>sometimes</strong></td><td>40%</td><td>{{a veces ¦ ときどき ¦ 有时}}</td></tr><tr><td><strong>hardly ever</strong></td><td>5%</td><td>{{casi nunca ¦ めったに〜ない ¦ 几乎从不}}</td></tr><tr><td><strong>never</strong></td><td>0%</td><td>{{nunca ¦ 決して〜ない ¦ 从不}}</td></tr></table>
+<p>{{Posición: <b>antes</b> del verbo principal, pero <b>después</b> de <i>be</i>: ¦ 位置：一般動詞の<b>前</b>、be 動詞の<b>後</b>： ¦ 位置：放在实义动词<b>前</b>，be 动词<b>后</b>：}}</p>
+<div class="example">I <strong>often</strong> play tennis. · She <strong>never</strong> watches TV. · He's <strong>always</strong> late.</div>
+<div class="tip">{{<b>never</b> ya es negativo: ✗ I don't never… → ✓ I <b>never</b> go. Para expresiones como <i>every day</i>, <i>once a week</i>, <i>twice a month</i>: al final de la frase. Pregunta: <b>How often</b> do you…? ¦ <b>never</b> はそれだけで否定：✗ I don't never → ✓ I <b>never</b> go。<i>every day / once a week / twice a month</i> は文末に。尋ね方：<b>How often</b> do you…? ¦ <b>never</b> 本身就是否定：✗ I don't never → ✓ I <b>never</b> go。<i>every day / once a week / twice a month</i> 放在句末。问法：<b>How often</b> do you…?}}</div>
+<h3>like / love / hate + -ing</h3>
+<div class="example">I <strong>love</strong> danc<strong>ing</strong>. · She <strong>doesn't like</strong> swimm<strong>ing</strong>. · They <strong>hate</strong> shopp<strong>ing</strong>. · Do you <strong>enjoy</strong> read<strong>ing</strong>?</div>
+<div class="tip">{{Ortografía de -ing: dance → danc<b>ing</b> (se va la e), swim → swi<b>mm</b>ing, shop → sho<b>pp</b>ing (se dobla la consonante). <b>enjoy</b> siempre con -ing. ¦ -ing のつけ方：dance → danc<b>ing</b>（e を取る）、swim → swi<b>mm</b>ing、shop → sho<b>pp</b>ing（子音を重ねる）。<b>enjoy</b> の後は必ず -ing。 ¦ -ing 拼写：dance → danc<b>ing</b>（去 e），swim → swi<b>mm</b>ing，shop → sho<b>pp</b>ing（双写辅音）。<b>enjoy</b> 后面一定用 -ing。}}</div>
+<div class="warning">{{«Me gusta el fútbol» = <b>I like football</b> (sin «the», y el sujeto es <i>I</i>). ✗ Like me football. ✗ I like the football. ¦ 「サッカーが好き」＝ <b>I like football</b>（the は付けない）。 ¦ “我喜欢足球” = <b>I like football</b>（不加 the）。}}</div>
+ex:
+fill ¦ I ___ go to the cinema on Fridays. ¦ often ¦ often am / am often / oftenly ¦ A menudo voy al cine los viernes. ¦ 私は金曜日によく映画館に行きます。 ¦ 我星期五经常去看电影。
+fill ¦ She is ___ tired after work. ¦ always ¦ always is / is always / always does ¦ Siempre está cansada después del trabajo. ¦ 彼女は仕事の後いつも疲れています。 ¦ 她下班后总是很累。 ¦ Después de be. ¦ be 動詞の後。 ¦ 放在 be 动词后面。
+fill ¦ He loves ___ . ¦ swimming ¦ swim / swiming / to swimming ¦ Le encanta nadar. ¦ 彼は泳ぐのが大好きです。 ¦ 他很喜欢游泳。
+fill ¦ How ___ do you play tennis? ¦ often ¦ much / many / time ¦ ¿Con qué frecuencia juegas al tenis? ¦ どのくらいの頻度でテニスをしますか。 ¦ 你多久打一次网球？
+choose ¦ «Nunca veo la tele» ¦ 「私はテレビを見ません（決して）」 ¦ “我从不看电视” ¦ I never watch TV. ¦ I don't never watch TV. / I watch never TV. / Never I watch TV.
+choose ¦ «Me gusta la música» ¦ 「音楽が好きです」 ¦ “我喜欢音乐” ¦ I like music. ¦ I like the music. / Me like music. / I am like music.
+order ¦ We usually play football at the weekend. ¦ Normalmente jugamos al fútbol el fin de semana. ¦ 私たちはふだん週末にサッカーをします。 ¦ 我们通常周末踢足球。
+order ¦ I go swimming once a week. ¦ Voy a nadar una vez a la semana. ¦ 週に一度泳ぎに行きます。 ¦ 我每周去游一次泳。
+translate ¦ Odio ir de compras. ¦ 買い物が大嫌いです。 ¦ 我讨厌购物。 ¦ I hate shopping. ¦ I hate going shopping.
+translate ¦ A veces escucho música. ¦ ときどき音楽を聞きます。 ¦ 我有时听音乐。 ¦ I sometimes listen to music. ¦ Sometimes I listen to music.
+
+=== 10
+title: Days, months and dates ¦ Días, meses y fechas ¦ 曜日・月・日付 ¦ 星期、月份和日期
+desc: Los días, los meses, las estaciones y las preposiciones de tiempo ¦ 曜日・月・季節と時の前置詞 ¦ 星期、月份、季节和时间介词
+gram: prepositions of time: at, on, in ¦ ordinal numbers ¦ dates
+ref: a1-time-prepositions
+words: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, January, February, March, April, May, June, July, August, September, October, November, December, spring, summer, autumn, winter, month, year, week, birthday, date, first, second, today, tomorrow, yesterday, party
+intro:
+<h3>at · on · in</h3>
+<table><tr><th></th><th>{{Uso ¦ 使い方 ¦ 用法}}</th><th>{{Ejemplos ¦ 例 ¦ 例子}}</th></tr>
+<tr><td><strong>at</strong></td><td>{{horas y momentos concretos ¦ 時刻・特定の時点 ¦ 钟点和具体时刻}}</td><td>at 6 o'clock, at night, at the weekend, at Christmas</td></tr>
+<tr><td><strong>on</strong></td><td>{{días y fechas ¦ 曜日・日付 ¦ 星期和日期}}</td><td>on Monday, on 5th May, on my birthday, on Friday night</td></tr>
+<tr><td><strong>in</strong></td><td>{{meses, estaciones, años y partes del día ¦ 月・季節・年・一日の区分 ¦ 月份、季节、年份和一天中的时段}}</td><td>in May, in summer, in 2025, in the morning</td></tr></table>
+<div class="tip">{{Sin preposición: <i>today, tomorrow, yesterday, this week, next year, every day</i>. ✗ on next Monday → ✓ next Monday. Truco: at = punto, on = día, in = periodo largo. ¦ 前置詞なし：<i>today, tomorrow, yesterday, this week, next year, every day</i>。✗ on next Monday → ✓ next Monday。覚え方：at＝点、on＝日、in＝長い期間。 ¦ 不加介词：<i>today, tomorrow, yesterday, this week, next year, every day</i>。✗ on next Monday → ✓ next Monday。记法：at = 点，on = 日，in = 较长时段。}}</div>
+<h3>{{Ordinales y fechas ¦ 序数と日付 ¦ 序数词和日期}}</h3>
+<div class="example">1st first · 2nd second · 3rd third · 4th fourth · 5th fifth · 12th twelfth · 20th twentieth · 21st twenty-first</div>
+<p>{{Se escribe <i>5 May</i> o <i>5th May</i>, pero se dice <b>the fifth of May</b> (RU) o <b>May fifth</b> (EE. UU.). Días y meses siempre con <b>mayúscula</b>. ¦ 書くときは <i>5 May</i> / <i>5th May</i>、読むときは <b>the fifth of May</b>（英）／<b>May fifth</b>（米）。曜日と月は必ず<b>大文字</b>で始めます。 ¦ 写作 <i>5 May</i> 或 <i>5th May</i>，读作 <b>the fifth of May</b>（英）或 <b>May fifth</b>（美）。星期和月份首字母一定<b>大写</b>。}}</p>
+<div class="example">When's your birthday? — It's <strong>on</strong> the 3rd of March.</div>
+<div class="warning">{{✗ in Monday → ✓ <b>on</b> Monday · ✗ in the night → ✓ <b>at</b> night · ✗ monday, april → ✓ Monday, April ¦ ✗ in Monday → ✓ <b>on</b> Monday · ✗ in the night → ✓ <b>at</b> night · ✗ monday → ✓ Monday ¦ ✗ in Monday → ✓ <b>on</b> Monday · ✗ in the night → ✓ <b>at</b> night · ✗ monday → ✓ Monday}}</div>
+ex:
+fill ¦ My birthday is ___ June. ¦ in ¦ on / at / – ¦ Mi cumpleaños es en junio. ¦ 私の誕生日は6月です。 ¦ 我的生日在六月。 ¦ Meses → in ¦ 月 → in ¦ 月份 → in
+fill ¦ The party is ___ Saturday. ¦ on ¦ in / at / – ¦ La fiesta es el sábado. ¦ パーティーは土曜日です。 ¦ 聚会在星期六。
+fill ¦ I go to bed ___ eleven o'clock. ¦ at ¦ in / on / – ¦ Me acuesto a las once. ¦ 11時に寝ます。 ¦ 我十一点睡觉。
+fill ¦ We go to the beach ___ summer. ¦ in ¦ on / at / the ¦ Vamos a la playa en verano. ¦ 夏は海に行きます。 ¦ 我们夏天去海边。
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ See you next Friday. ¦ See you on next Friday. / See you in next Friday. / See you the next Friday.
+choose ¦ 22nd ¦ 22nd ¦ 22nd ¦ twenty-second ¦ twenty-two / twentieth-second / twenty-twoth
+order ¦ When is your birthday? ¦ ¿Cuándo es tu cumpleaños? ¦ 誕生日はいつですか。 ¦ 你的生日是什么时候？
+order ¦ I don't work at the weekend. ¦ No trabajo el fin de semana. ¦ 週末は働きません。 ¦ 我周末不工作。
+translate ¦ Hoy es lunes. ¦ 今日は月曜日です。 ¦ 今天是星期一。 ¦ Today is Monday. ¦ It's Monday today. / It's Monday. / Today's Monday.
+translate ¦ Estudio inglés por la mañana. ¦ 午前中に英語を勉強します。 ¦ 我上午学英语。 ¦ I study English in the morning. ¦ In the morning I study English.
+match ¦ spring=primavera=春=春天; summer=verano=夏=夏天; autumn=otoño=秋=秋天; winter=invierno=冬=冬天; weekend=fin de semana=週末=周末
+
+=== 11
+title: Food and drink ¦ Comida y bebida ¦ 食べ物と飲み物 ¦ 食物和饮料
+desc: Alimentos, contables e incontables, some / any ¦ 食べ物・可算名詞と不可算名詞・some / any ¦ 食物、可数与不可数名词、some / any
+gram: countable and uncountable nouns ¦ some / any ¦ How much…? / How many…?
+ref: a1-some-any
+words: food, drink, water, milk, coffee, tea, juice, bread, butter, cheese, egg, meat, chicken, beef, fish, rice, potato, tomato, vegetable, fruit, apple, banana, orange, sugar, salad, soup, sandwich, cake, chocolate, some, any, much, many, hungry
+intro:
+<h3>{{Contables e incontables ¦ 可算名詞と不可算名詞 ¦ 可数名词和不可数名词}}</h3>
+<table><tr><th>{{Contables (se pueden contar) ¦ 可算（数えられる） ¦ 可数}}</th><th>{{Incontables (no se cuentan) ¦ 不可算（数えられない） ¦ 不可数}}</th></tr>
+<tr><td>an apple, two apples, an egg, three potatoes</td><td>water, milk, bread, rice, cheese, sugar, meat</td></tr>
+<tr><td>{{tienen plural y van con a / an ¦ 複数形があり a / an が付く ¦ 有复数，可以用 a / an ¦}}</td><td>{{sin plural ni a / an ¦ 複数形も a / an もない ¦ 没有复数，不用 a / an}}</td></tr></table>
+<div class="tip">{{Para contar incontables usamos envases o unidades: <i>a bottle of water, a cup of coffee, a slice of bread, a kilo of rice</i>. ¦ 不可算名詞は容器や単位で数えます：<i>a bottle of water, a cup of coffee, a slice of bread, a kilo of rice</i>。 ¦ 不可数名词用容器或单位来计数：<i>a bottle of water, a cup of coffee, a slice of bread, a kilo of rice</i>。}}</div>
+<h3>some / any</h3>
+<table><tr><td><strong>some</strong></td><td>{{frases afirmativas ¦ 肯定文 ¦ 肯定句}}</td><td>There's <strong>some</strong> milk. I've got <strong>some</strong> eggs.</td></tr>
+<tr><td><strong>any</strong></td><td>{{negativas y preguntas ¦ 否定文・疑問文 ¦ 否定句和疑问句}}</td><td>We haven't got <strong>any</strong> bread. Are there <strong>any</strong> apples?</td></tr>
+<tr><td><strong>some</strong> {{en ofrecimientos y peticiones ¦ 勧誘・依頼の疑問文 ¦ 表示提议和请求的疑问句}}</td><td></td><td>Would you like <strong>some</strong> tea? Can I have <strong>some</strong> water?</td></tr></table>
+<h3>How much? · How many?</h3>
+<div class="example">How <strong>many</strong> eggs do we need? ({{contables ¦ 可算 ¦ 可数}})<br>How <strong>much</strong> sugar do you want? ({{incontables ¦ 不可算 ¦ 不可数}})<br>How <strong>much</strong> is it? — It's £3. ({{precio ¦ 値段 ¦ 价格}})</div>
+<div class="warning">{{✗ a bread → ✓ some bread / a loaf of bread · ✗ breads, informations → ✓ bread, information · ✗ How much apples? → ✓ How <b>many</b> apples? ¦ ✗ a bread → ✓ some bread · ✗ informations → ✓ information（不可算） · ✗ How much apples? → ✓ How <b>many</b> apples? ¦ ✗ a bread → ✓ some bread · ✗ informations → ✓ information（不可数） · ✗ How much apples? → ✓ How <b>many</b> apples?}}</div>
+ex:
+fill ¦ There isn't ___ milk in the fridge. ¦ any ¦ some / a / many ¦ No hay leche en la nevera. ¦ 冷蔵庫に牛乳がありません。 ¦ 冰箱里没有牛奶。 ¦ Negativa → any ¦ 否定文 → any ¦ 否定句 → any
+fill ¦ I'd like ___ water, please. ¦ some ¦ any / a / many ¦ Quiero agua, por favor. ¦ 水をください。 ¦ 请给我一些水。
+fill ¦ How ___ apples do you want? ¦ many ¦ much / any / some ¦ ¿Cuántas manzanas quieres? ¦ りんごはいくつ欲しいですか。 ¦ 你要几个苹果？
+fill ¦ How ___ rice do we need? ¦ much ¦ many / any / lot ¦ ¿Cuánto arroz necesitamos? ¦ お米はどのくらい必要ですか。 ¦ 我们需要多少米？
+choose ¦ ¿Cuál es incontable? ¦ 数えられない名詞は？ ¦ 哪个是不可数名词？ ¦ bread ¦ egg / apple / sandwich
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ Would you like some coffee? ¦ Would you like any coffee? / Would you like a coffees? / Would you like many coffee?
+order ¦ Are there any eggs in the kitchen? ¦ ¿Hay huevos en la cocina? ¦ 台所に卵はありますか。 ¦ 厨房里有鸡蛋吗？
+order ¦ I have a cup of tea every morning. ¦ Me tomo una taza de té todas las mañanas. ¦ 毎朝お茶を一杯飲みます。 ¦ 我每天早上喝一杯茶。
+translate ¦ No tenemos pan. ¦ パンがありません。 ¦ 我们没有面包。 ¦ We haven't got any bread. ¦ We don't have any bread. / We have no bread. / We've got no bread.
+translate ¦ Tengo hambre. ¦ お腹がすいています。 ¦ 我饿了。 ¦ I'm hungry. ¦ I am hungry.
+match ¦ bread=pan=パン=面包; cheese=queso=チーズ=奶酪; egg=huevo=卵=鸡蛋; juice=zumo=ジュース=果汁; beef=ternera=牛肉=牛肉
+
+=== 12
+title: My home ¦ Mi casa ¦ 私の家 ¦ 我的家
+desc: Partes de la casa y muebles; there is / there are; preposiciones de lugar ¦ 家の部屋と家具；there is / there are；場所の前置詞 ¦ 房间和家具；there is / there are；方位介词
+gram: there is / there are ¦ prepositions of place: in, on, under, next to, between, behind, in front of
+ref: a1-there-is
+words: house, flat, home, room, kitchen, bathroom, bedroom, living room, dining room, garden, door, window, wall, floor, bed, sofa, shelf, toilet, shower, bath, under, behind, between, near, next, front, in, on, picture, lamp
+intro:
+<h3>there is / there are</h3>
+<p>{{Equivale a «hay». Se elige según lo que viene <b>después</b>: ¦ 「〜がある・いる」。<b>後ろ</b>の名詞で決まります： ¦ 相当于“有”，取决于<b>后面</b>的名词：}}</p>
+<table><tr><th></th><th>{{Singular / incontable ¦ 単数・不可算 ¦ 单数／不可数}}</th><th>{{Plural ¦ 複数 ¦ 复数}}</th></tr>
+<tr><td>+</td><td><strong>There's</strong> a sofa. There's some milk.</td><td><strong>There are</strong> two bedrooms.</td></tr>
+<tr><td>−</td><td><strong>There isn't</strong> a garden.</td><td><strong>There aren't</strong> any chairs.</td></tr>
+<tr><td>?</td><td><strong>Is there</strong> a shower? — Yes, there is.</td><td><strong>Are there</strong> any shops? — No, there aren't.</td></tr></table>
+<div class="warning">{{✗ Has a garden. / ✗ There is two rooms. → ✓ <b>There are</b> two rooms. «Hay» no es <i>have</i>: <i>My flat has two rooms</i> (mi piso tiene) pero <i>There are two rooms</i> (hay). ¦ ✗ There is two rooms. → ✓ <b>There are</b> two rooms.（複数なら are） ¦ ✗ There is two rooms. → ✓ <b>There are</b> two rooms.（复数用 are） · ✗ Have a park near here. → ✓ <b>There's</b> a park near here.（“有”不总是 have）}}</div>
+<h3>{{Preposiciones de lugar ¦ 場所の前置詞 ¦ 方位介词}}</h3>
+<table><tr><td><strong>in</strong> the box</td><td>{{dentro de ¦ 〜の中に ¦ 在……里}}</td><td><strong>on</strong> the table</td><td>{{encima de (tocando) ¦ 〜の上に（接して） ¦ 在……上}}</td></tr>
+<tr><td><strong>under</strong> the bed</td><td>{{debajo de ¦ 〜の下に ¦ 在……下}}</td><td><strong>behind</strong> the door</td><td>{{detrás de ¦ 〜の後ろに ¦ 在……后面}}</td></tr>
+<tr><td><strong>next to</strong> the window</td><td>{{al lado de ¦ 〜の隣に ¦ 在……旁边}}</td><td><strong>between</strong> A and B</td><td>{{entre ¦ AとBの間に ¦ 在A和B之间}}</td></tr>
+<tr><td><strong>in front of</strong> the house</td><td>{{delante de ¦ 〜の前に ¦ 在……前面}}</td><td><strong>near</strong> the station</td><td>{{cerca de ¦ 〜の近くに ¦ 在……附近}}</td></tr></table>
+<div class="example">There's a lamp <strong>next to</strong> the sofa. The keys are <strong>on</strong> the shelf. Is there a cat <strong>under</strong> the bed?</div>
+<div class="tip">{{Ojo: <i>in front of</i> = delante de; <i>opposite</i> = enfrente de (al otro lado). ¦ 前置詞は名詞の<b>前</b>に置きます（日本語の「机の上に」とは逆の語順）：<i>on the desk</i>。 ¦ 英语介词放在名词<b>前面</b>：“在桌子上” = <i>on the desk</i>。}}</div>
+ex:
+fill ¦ ___ two bathrooms in my house. ¦ There are ¦ There is / It has / Have ¦ Hay dos baños en mi casa. ¦ 私の家には浴室が2つあります。 ¦ 我家有两个卫生间。 ¦ Plural → there are ¦ 複数 → there are ¦ 复数 → there are
+fill ¦ ___ there a garden? ¦ Is ¦ Are / Has / Does ¦ ¿Hay jardín? ¦ 庭はありますか。 ¦ 有花园吗？
+fill ¦ The cat is ___ the bed. ¦ under ¦ between / at / of ¦ El gato está debajo de la cama. ¦ 猫はベッドの下にいます。 ¦ 猫在床底下。
+fill ¦ The lamp is next ___ the sofa. ¦ to ¦ of / at / from ¦ La lámpara está al lado del sofá. ¦ ランプはソファーの隣にあります。 ¦ 台灯在沙发旁边。
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ There aren't any chairs in the kitchen. ¦ There isn't any chairs in the kitchen. / There aren't some chairs in the kitchen. / Haven't any chairs in the kitchen.
+choose ¦ «El banco está entre la farmacia y el café» ¦ 「銀行は薬局とカフェの間にあります」 ¦ “银行在药店和咖啡馆之间” ¦ The bank is between the chemist's and the café. ¦ The bank is next the chemist's and the café. / The bank is among the chemist's to the café. / The bank is in front the chemist's and the café.
+order ¦ There's a big window in the living room. ¦ Hay una ventana grande en el salón. ¦ 居間に大きな窓があります。 ¦ 客厅里有一扇大窗户。
+order ¦ My books are on the shelf behind the door. ¦ Mis libros están en la estantería detrás de la puerta. ¦ 私の本はドアの後ろの棚にあります。 ¦ 我的书在门后面的架子上。
+translate ¦ Hay un sofá en el salón. ¦ 居間にソファーがあります。 ¦ 客厅里有一张沙发。 ¦ There's a sofa in the living room. ¦ There is a sofa in the living room.
+translate ¦ ¿Hay una ducha? ¦ シャワーはありますか。 ¦ 有淋浴吗？ ¦ Is there a shower?
+
+=== 13
+title: Around town ¦ Por la ciudad ¦ 町を歩く ¦ 在城里
+desc: Lugares de la ciudad, indicaciones e imperativo ¦ 町の場所・道案内と命令文 ¦ 城市地点、问路和祈使句
+gram: imperative: Turn left. Don't cross. ¦ Excuse me, where's…? ¦ Let's…
+ref: a1-imperative
+words: street, station, bank, park, hotel, hospital, museum, library, church, supermarket, shop, cinema, restaurant, cafe, bus, taxi, train, airport, bridge, corner, turn, left, right, straight, go, cross, stop, walk, map, excuse, let
+intro:
+<h3>{{El imperativo ¦ 命令文 ¦ 祈使句}}</h3>
+<p>{{Es la forma base del verbo, <b>sin sujeto</b>. Sirve para instrucciones, indicaciones y consejos: ¦ 主語なしの<b>原形</b>で、指示・道案内・助言を表します： ¦ 用动词原形，<b>不带主语</b>，用于指示、指路和建议：}}</p>
+<table><tr><th>{{Afirmativo ¦ 肯定 ¦ 肯定}}</th><th>{{Negativo ¦ 否定 ¦ 否定}}</th></tr>
+<tr><td><strong>Turn</strong> left.</td><td><strong>Don't turn</strong> right.</td></tr>
+<tr><td><strong>Go</strong> straight on.</td><td><strong>Don't cross</strong> here.</td></tr>
+<tr><td><strong>Be</strong> careful!</td><td><strong>Don't be</strong> late!</td></tr></table>
+<div class="tip">{{Para sugerir algo que hacemos juntos: <b>Let's</b> + verbo: <i>Let's take a taxi.</i> Para sonar educado añade <b>please</b>: <i>Sit down, please.</i> ¦ 一緒に何かを提案するときは <b>Let's</b>＋動詞：<i>Let's take a taxi.</i>（タクシーに乗ろう）。丁寧にするには <b>please</b> を付けます。 ¦ 提议一起做某事用 <b>Let's</b> + 动词：<i>Let's take a taxi.</i>（我们打车吧）。加上 <b>please</b> 更礼貌。}}</div>
+<h3>{{Pedir y dar indicaciones ¦ 道を尋ねる・教える ¦ 问路和指路}}</h3>
+<div class="example">— <strong>Excuse me, where's</strong> the station?<br>— <strong>Go straight on</strong> and <strong>take the second street on the left</strong>. It's <strong>on the corner</strong>, opposite the bank.<br>— <strong>Is it far?</strong> — No, it's about five minutes' walk.</div>
+<table><tr><td>turn left / right</td><td>{{girar a la izquierda / derecha ¦ 左／右に曲がる ¦ 向左／右转}}</td></tr><tr><td>go straight on</td><td>{{seguir recto ¦ まっすぐ行く ¦ 一直走}}</td></tr><tr><td>cross the street</td><td>{{cruzar la calle ¦ 通りを渡る ¦ 过马路}}</td></tr><tr><td>on the corner</td><td>{{en la esquina ¦ 角に ¦ 在拐角}}</td></tr></table>
+<div class="warning">{{<b>Excuse me</b> = para llamar la atención o pedir paso; <b>Sorry</b> = para disculparte. ✗ No turn left → ✓ <b>Don't</b> turn left. ¦ <b>Excuse me</b>＝話しかけるとき（すみません）、<b>Sorry</b>＝謝るとき（ごめんなさい）。✗ No turn left → ✓ <b>Don't</b> turn left。 ¦ <b>Excuse me</b> 用于打扰别人、引起注意（劳驾）；<b>Sorry</b> 用于道歉。✗ No turn left → ✓ <b>Don't</b> turn left。}}</div>
+ex:
+fill ¦ ___ left at the bank. ¦ Turn ¦ Turns / To turn / You turning ¦ Gira a la izquierda en el banco. ¦ 銀行で左に曲がってください。 ¦ 在银行那儿左转。
+fill ¦ ___ cross the street here! It's dangerous. ¦ Don't ¦ No / Not / Doesn't ¦ ¡No cruces la calle aquí! Es peligroso. ¦ ここで道を渡らないで！危ないです。 ¦ 别在这儿过马路！很危险。
+fill ¦ ___ me, where's the museum? ¦ Excuse ¦ Sorry / Please / Pardon ¦ Perdone, ¿dónde está el museo? ¦ すみません、博物館はどこですか。 ¦ 劳驾，博物馆在哪儿？
+fill ¦ ___ go to the park. It's sunny! ¦ Let's ¦ Lets / Let / We let ¦ Vamos al parque. ¡Hace sol! ¦ 公園に行こう。晴れているよ！ ¦ 我们去公园吧，天气很好！
+choose ¦ «Sigue recto» ¦ 「まっすぐ行ってください」 ¦ “一直往前走” ¦ Go straight on. ¦ Go right on. / Follow direct. / Go straightly.
+choose ¦ ¿Dónde se toma un tren? ¦ 電車に乗る場所は？ ¦ 在哪里坐火车？ ¦ station ¦ library / museum / bank
+order ¦ Take the second street on the right. ¦ Toma la segunda calle a la derecha. ¦ 2つ目の道を右に行ってください。 ¦ 走右边第二条街。
+order ¦ Is there a supermarket near here? ¦ ¿Hay un supermercado por aquí cerca? ¦ この近くにスーパーはありますか。 ¦ 这附近有超市吗？
+translate ¦ No llegues tarde. ¦ 遅れないで。 ¦ 别迟到。 ¦ Don't be late. ¦ Do not be late.
+translate ¦ Cojamos un taxi. ¦ タクシーに乗ろう。 ¦ 我们打车吧。 ¦ Let's take a taxi. ¦ Let's get a taxi. / Let us take a taxi.
+
+=== 14
+title: I can do it! ¦ ¡Puedo hacerlo! ¦ できるよ！ ¦ 我能做到！
+desc: Habilidades y permiso con can / can't ¦ 能力と許可の can / can't ¦ 用 can / can't 表达能力和许可
+gram: can / can't (ability, permission, requests) ¦ well, very well, not at all
+ref: a1-can
+words: can, cook, drive, swim, sing, dance, draw, ride, bike, horse, play, guitar, piano, speak, language, well, help, open, close, use, computer, skill, run, fast, jump, climb
+intro:
+<h3>can / can't</h3>
+<p>{{<b>Can</b> expresa habilidad (saber hacer), posibilidad y permiso. Es igual para todas las personas y va seguido del verbo <b>sin to</b>: ¦ <b>can</b> は能力（〜できる）・可能性・許可を表します。すべての人称で同じ形で、後ろは <b>to なしの原形</b>： ¦ <b>can</b> 表示能力（会）、可能和许可。所有人称形式相同，后接<b>不带 to 的动词原形</b>：}}</p>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I <strong>can</strong> swim.</td><td>I <strong>can't</strong> drive.</td><td><strong>Can</strong> you cook?</td></tr>
+<tr><td>She <strong>can</strong> speak French.</td><td>He <strong>can't</strong> sing.</td><td><strong>Can</strong> she play the piano?</td></tr></table>
+<div class="tip">{{Nunca: ✗ She cans, ✗ can to swim, ✗ Do you can? Respuestas cortas: <i>Yes, I can. / No, I can't.</i> <b>can't</b> = cannot (una sola palabra). ¦ ✗ She cans、✗ can to swim、✗ Do you can? はすべて誤り。短い答え：<i>Yes, I can. / No, I can't.</i> <b>can't</b>＝cannot（一語）。 ¦ 错误：✗ She cans、✗ can to swim、✗ Do you can? 简短回答：<i>Yes, I can. / No, I can't.</i> <b>can't</b> = cannot（一个词）。}}</div>
+<h3>{{Pedir y dar permiso ¦ 依頼と許可 ¦ 请求和许可}}</h3>
+<div class="example"><strong>Can I</strong> open the window? — Yes, of course. / Sorry, you can't.<br><strong>Can you</strong> help me, please? — Sure!</div>
+<h3>{{¿Qué tal lo haces? ¦ どのくらい上手？ ¦ 做得怎么样？}}</h3>
+<div class="example">I can swim <strong>very well</strong>. · He can cook <strong>quite well</strong>. · I can't dance <strong>at all</strong>.</div>
+<div class="warning">{{<i>tocar un instrumento</i> = <b>play the</b> guitar / piano; <i>saber nadar</i> = <b>can</b> swim (no <i>know swim</i>). ¦ 楽器を弾く＝<b>play the</b> guitar / piano（the を付ける）。「泳げる」＝ <b>can</b> swim。 ¦ 演奏乐器 = <b>play the</b> guitar / piano（要加 the）。“会游泳” = <b>can</b> swim。}}</div>
+ex:
+fill ¦ My grandmother ___ use a computer. ¦ can't ¦ doesn't can / isn't can / cans not ¦ Mi abuela no sabe usar un ordenador. ¦ 祖母はコンピューターが使えません。 ¦ 我奶奶不会用电脑。
+fill ¦ ___ you ride a horse? ¦ Can ¦ Do / Are / Cans ¦ ¿Sabes montar a caballo? ¦ 馬に乗れますか。 ¦ 你会骑马吗？
+fill ¦ She can ___ three languages. ¦ speak ¦ speaks / to speak / speaking ¦ Sabe hablar tres idiomas. ¦ 彼女は3か国語を話せます。 ¦ 她会说三种语言。 ¦ can + verbo sin to ni -s ¦ can＋原形 ¦ can + 动词原形
+fill ¦ I play ___ guitar in a band. ¦ the ¦ a / – / to ¦ Toco la guitarra en un grupo. ¦ バンドでギターを弾いています。 ¦ 我在乐队里弹吉他。
+choose ¦ Respuesta corta a «Can you swim?» (no) ¦ 「Can you swim?」への否定の短い答え ¦ “Can you swim?”的否定简答 ¦ No, I can't. ¦ No, I don't. / No, I can't swim it. / No, I not can.
+choose ¦ «¿Puedo abrir la ventana?» ¦ 「窓を開けてもいいですか」 ¦ “我可以开窗吗？” ¦ Can I open the window? ¦ Do I can open the window? / Can I to open the window? / I can open the window?
+order ¦ I can't dance at all. ¦ No sé bailar nada. ¦ 私は全然踊れません。 ¦ 我一点都不会跳舞。
+order ¦ Can you help me with this box? ¦ ¿Me ayudas con esta caja? ¦ この箱を手伝ってくれますか。 ¦ 你能帮我搬这个箱子吗？
+translate ¦ Sé cocinar muy bien. ¦ 私は料理がとても上手です。 ¦ 我做饭做得很好。 ¦ I can cook very well. ¦ I can cook really well.
+translate ¦ Él no sabe conducir. ¦ 彼は運転ができません。 ¦ 他不会开车。 ¦ He can't drive. ¦ He cannot drive. / He can not drive.
+
+=== 15
+title: What are you doing? ¦ ¿Qué estás haciendo? ¦ 何をしているの？ ¦ 你在做什么？
+desc: El presente continuo para lo que pasa ahora ¦ 今していることを表す現在進行形 ¦ 用现在进行时说正在发生的事
+gram: present continuous: am / is / are + -ing ¦ now, at the moment
+ref: a1-present-continuous
+words: now, moment, look, listen, wait, sit, stand, talk, phone, write, wear, rain, snow, cry, laugh, smile, sleep, study, today, busy, quiet, noise, happen
+intro:
+<h3>{{Presente continuo ¦ 現在進行形 ¦ 现在进行时}}</h3>
+<p>{{<b>am / is / are + verbo-ing</b>. Expresa algo que está pasando <b>ahora</b>, en este momento: ¦ <b>am / is / are＋動詞-ing</b>。<b>今</b>まさにしていることを表します： ¦ <b>am / is / are + 动词-ing</b>，表示<b>现在</b>正在发生的事：}}</p>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I'<strong>m reading</strong>.</td><td>I'<strong>m not sleeping</strong>.</td><td><strong>Are</strong> you <strong>listening</strong>?</td></tr>
+<tr><td>She'<strong>s talking</strong> on the phone.</td><td>It <strong>isn't raining</strong>.</td><td>What <strong>is</strong> he <strong>doing</strong>?</td></tr>
+<tr><td>They'<strong>re waiting</strong>.</td><td>We <strong>aren't working</strong>.</td><td>Why <strong>are</strong> they <strong>laughing</strong>?</td></tr></table>
+<h3>{{Ortografía de -ing ¦ -ing のつけ方 ¦ -ing 的拼写}}</h3>
+<table><tr><td>{{casi todos + ing ¦ ふつう + ing ¦ 一般 + ing}}</td><td>read → read<strong>ing</strong>, play → play<strong>ing</strong></td></tr>
+<tr><td>{{-e: quita la e ¦ -e：e を取る ¦ -e：去 e}}</td><td>write → writ<strong>ing</strong>, smile → smil<strong>ing</strong></td></tr>
+<tr><td>{{vocal + consonante final: dobla ¦ 短母音＋子音：子音を重ねる ¦ 重读闭音节：双写辅音}}</td><td>sit → si<strong>tt</strong>ing, run → ru<strong>nn</strong>ing, swim → swi<strong>mm</strong>ing</td></tr>
+<tr><td>-ie → ying</td><td>lie → l<strong>ying</strong></td></tr></table>
+<div class="tip">{{Señales: <i>now, right now, at the moment, Look!, Listen!</i> El español usa el presente simple muchas veces donde el inglés exige el continuo: «¿Qué haces?» (ahora) = <b>What are you doing?</b> ¦ よく一緒に使う語：<i>now, right now, at the moment, Look!, Listen!</i> 日本語の「〜している」は状態の意味もあるので注意：「結婚している」は <i>is married</i>（✗ is marrying）。 ¦ 常用标志词：<i>now, right now, at the moment, Look!, Listen!</i> 中文“在／正在”很灵活，但英语一定要有 be 动词：✗ She reading → ✓ She<b>'s</b> reading。}}</div>
+<div class="warning">{{✗ She reading. → ✓ She<b>'s</b> reading. · ✗ What do you do now? → ✓ What <b>are you doing</b> now? ¦ ✗ She reading. → ✓ She<b>'s</b> reading.（be 動詞が必要） · ✗ What do you do now? → ✓ What <b>are you doing</b> now? ¦ ✗ She reading. → ✓ She<b>'s</b> reading. · ✗ What do you do now? → ✓ What <b>are you doing</b> now?}}</div>
+ex:
+fill ¦ Be quiet! The baby ___ sleeping. ¦ is ¦ are / – / does ¦ ¡Silencio! El bebé está durmiendo. ¦ 静かに！赤ちゃんが寝ています。 ¦ 安静！宝宝在睡觉。
+fill ¦ Look! It's ___ . ¦ snowing ¦ snow / snows / snowwing ¦ ¡Mira! Está nevando. ¦ 見て！雪が降っている。 ¦ 看！下雪了。
+fill ¦ What ___ you doing? ¦ are ¦ do / is / does ¦ ¿Qué estás haciendo? ¦ 何をしているの？ ¦ 你在做什么？
+fill ¦ They're ___ on the sofa. ¦ sitting ¦ siting / sit / sits ¦ Están sentados en el sofá. ¦ 彼らはソファーに座っています。 ¦ 他们坐在沙发上。 ¦ sit → sitting (doble t) ¦ sit → sitting（t を重ねる） ¦ sit → sitting（双写 t）
+choose ¦ «¿Qué haces?» (ahora mismo) ¦ 「今何してる？」 ¦ “你现在在干什么？” ¦ What are you doing? ¦ What do you do? / What you doing? / What are you do?
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ I'm not working at the moment. ¦ I'm not work at the moment. / I don't working at the moment. / I not working at the moment.
+order ¦ Why are you laughing? ¦ ¿Por qué te ríes? ¦ どうして笑っているの？ ¦ 你为什么笑？
+order ¦ She's talking on the phone right now. ¦ Ahora mismo está hablando por teléfono. ¦ 彼女は今電話で話しています。 ¦ 她正在打电话。
+translate ¦ Estoy esperando el autobús. ¦ バスを待っています。 ¦ 我在等公共汽车。 ¦ I'm waiting for the bus. ¦ I am waiting for the bus.
+translate ¦ Está lloviendo. ¦ 雨が降っています。 ¦ 正在下雨。 ¦ It's raining. ¦ It is raining.
+
+=== 16
+title: Clothes and shopping ¦ Ropa y compras ¦ 服と買い物 ¦ 衣服和购物
+desc: La ropa, los colores, los precios y los pronombres de objeto ¦ 服・色・値段と目的格の代名詞 ¦ 衣服、颜色、价格和宾格代词
+gram: object pronouns: me, you, him, her, it, us, them ¦ How much is / are…? ¦ one / ones
+ref: a1-object-pronouns
+words: clothes, shirt, T-shirt, dress, skirt, trousers, jeans, jacket, coat, shoe, hat, cap, size, colour, red, white, yellow, pink, purple, orange, price, expensive, cheap, buy, sell, pay, try, money, credit card, me, him, them, us
+intro:
+<h3>{{Pronombres de objeto ¦ 目的格の代名詞 ¦ 宾格代词}}</h3>
+<table><tr><th>{{Sujeto ¦ 主格 ¦ 主格}}</th><th>{{Objeto ¦ 目的格 ¦ 宾格}}</th><th>{{Ejemplo ¦ 例 ¦ 例子}}</th></tr>
+<tr><td>I</td><td><strong>me</strong></td><td>Can you help <strong>me</strong>?</td></tr>
+<tr><td>you</td><td><strong>you</strong></td><td>I love <strong>you</strong>.</td></tr>
+<tr><td>he / she / it</td><td><strong>him / her / it</strong></td><td>I like <strong>her</strong> dress. I like <strong>it</strong>.</td></tr>
+<tr><td>we</td><td><strong>us</strong></td><td>Come with <strong>us</strong>.</td></tr>
+<tr><td>they</td><td><strong>them</strong></td><td>These shoes? I'll take <strong>them</strong>.</td></tr></table>
+<div class="tip">{{Van <b>después</b> del verbo o de la preposición (al revés que en español): <i>I see <b>her</b> every day</i> (la veo). <i>for me, with him, to them.</i> ¦ 動詞や前置詞の<b>後</b>に置きます：<i>I see <b>her</b> every day</i>（毎日彼女に会う）。<i>for me, with him, to them</i>。 ¦ 放在动词或介词<b>后面</b>：<i>I see <b>her</b> every day</i>（我每天见她）。<i>for me, with him, to them</i>。}}</div>
+<h3>{{En la tienda ¦ 店で ¦ 在商店}}</h3>
+<div class="example">— Can I help you?<br>— Yes, <strong>how much is</strong> this jacket? / <strong>How much are</strong> these jeans?<br>— It's £45. / They're £30.<br>— <strong>Can I try it on?</strong> Have you got it in a bigger <strong>size</strong>?<br>— Sure. Do you want the black one or the blue <strong>one</strong>?<br>— The blue one, please. <strong>Can I pay by credit card?</strong></div>
+<div class="warning">{{<i>trousers, jeans, glasses</i> son plurales: <i>These jeans <b>are</b>… I like <b>them</b>.</i> ✗ a trouser · <b>one / ones</b> evita repetir: <i>the red one, the cheap ones</i>. ¦ <i>trousers, jeans, glasses</i> は常に複数扱い：<i>These jeans <b>are</b>… I like <b>them</b>.</i> · <b>one / ones</b> で名詞のくり返しを避ける：<i>the red one</i>。 ¦ <i>trousers, jeans, glasses</i> 总是复数：<i>These jeans <b>are</b>… I like <b>them</b>.</i> · 用 <b>one / ones</b> 避免重复名词：<i>the red one</i>。}}</div>
+ex:
+fill ¦ Where's Anna? I can't see ___ . ¦ her ¦ she / hers / him ¦ ¿Dónde está Anna? No la veo. ¦ アンナはどこ？見えない。 ¦ 安娜在哪儿？我看不见她。
+fill ¦ These shoes are nice. How much ___ they? ¦ are ¦ is / do / cost ¦ Estos zapatos son bonitos. ¿Cuánto cuestan? ¦ この靴いいですね。いくらですか。 ¦ 这双鞋不错，多少钱？
+fill ¦ This dress is too big. Have you got a smaller ___ ? ¦ one ¦ ones / it / size one ¦ Este vestido es demasiado grande. ¿Tiene uno más pequeño? ¦ このドレスは大きすぎます。小さいのはありますか。 ¦ 这条裙子太大了，有小一点的吗？
+fill ¦ Can I pay ___ credit card? ¦ by ¦ with / in / on ¦ ¿Puedo pagar con tarjeta? ¦ カードで払えますか。 ¦ 可以刷卡吗？
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ My jeans are old. I need new ones. ¦ My jeans is old. I need a new one. / My jean is old. I need new one. / My jeans are old. I need new ones jeans.
+choose ¦ «Ven con nosotros» ¦ 「私たちと一緒に来て」 ¦ “跟我们一起来” ¦ Come with us. ¦ Come with we. / Come with our. / Come us with.
+order ¦ Can I try it on, please? ¦ ¿Me lo puedo probar, por favor? ¦ 試着してもいいですか。 ¦ 我可以试穿一下吗？
+order ¦ I like the red one but it's expensive. ¦ Me gusta el rojo, pero es caro. ¦ 赤いのが好きですが、高いです。 ¦ 我喜欢红色的那件，但是很贵。
+translate ¦ ¿Cuánto cuesta esta camisa? ¦ このシャツはいくらですか。 ¦ 这件衬衫多少钱？ ¦ How much is this shirt? ¦ How much does this shirt cost?
+translate ¦ Los quiero mucho. ¦ 私は彼らが大好きです。 ¦ 我很爱他们。 ¦ I love them very much. ¦ I love them a lot. / I really love them.
+
+=== 17
+title: The weather and the seasons ¦ El tiempo y las estaciones ¦ 天気と季節 ¦ 天气和季节
+desc: El tiempo atmosférico; presente simple frente a presente continuo ¦ 天気；現在形と現在進行形の違い ¦ 天气；一般现在时和现在进行时的区别
+gram: present simple vs present continuous ¦ It's sunny / It's raining ¦ What's the weather like?
+ref: a1-simple-vs-continuous
+words: weather, sun, sunny, rain, rainy, snow, snowy, cloud, cloudy, wind, foggy, hot, cold, warm, cool, dry, sky, umbrella, usually, today, outside, inside, at, temperature
+intro:
+<h3>{{El tiempo ¦ 天気 ¦ 天气}}</h3>
+<p>{{Con el tiempo siempre usamos el sujeto <b>it</b>: ¦ 天気の文はいつも主語 <b>it</b> を使います： ¦ 说天气时主语总是 <b>it</b>：}}</p>
+<table><tr><td>It's <strong>sunny / cloudy / windy / foggy</strong>.</td><td>{{Hace sol / Está nublado / Hace viento / Hay niebla. ¦ 晴れ／曇り／風が強い／霧。 ¦ 晴天／多云／刮风／有雾。}}</td></tr>
+<tr><td>It's <strong>hot / warm / cool / cold</strong>.</td><td>{{Hace calor / buen tiempo / fresco / frío. ¦ 暑い／暖かい／涼しい／寒い。 ¦ 热／暖和／凉快／冷。}}</td></tr>
+<tr><td>It<strong>'s raining / snowing</strong>.</td><td>{{Está lloviendo / nevando (ahora). ¦ （今）雨／雪が降っている。 ¦ （现在）正在下雨／下雪。}}</td></tr></table>
+<div class="example">What's the weather like today? — It's cold and it's raining.</div>
+<h3>{{Presente simple o continuo ¦ 現在形か現在進行形か ¦ 一般现在时还是现在进行时}}</h3>
+<table><tr><th>{{Presente simple ¦ 現在形 ¦ 一般现在时}}</th><th>{{Presente continuo ¦ 現在進行形 ¦ 现在进行时}}</th></tr>
+<tr><td>{{hábitos, cosas generales y permanentes ¦ 習慣・一般的なこと ¦ 习惯、普遍和长期的情况}}</td><td>{{lo que pasa ahora o estos días ¦ 今・最近起きていること ¦ 现在或这几天正在发生的事}}</td></tr>
+<tr><td>It <strong>rains</strong> a lot in London.</td><td>It<strong>'s raining</strong> now.</td></tr>
+<tr><td>I usually <strong>wear</strong> jeans.</td><td>Today I<strong>'m wearing</strong> a dress.</td></tr>
+<tr><td>usually, often, every day, in winter</td><td>now, at the moment, today, this week</td></tr></table>
+<div class="tip">{{Algunos verbos casi nunca van en continuo porque expresan estados: <b>like, love, want, need, know, understand, believe</b>. ✗ I'm knowing → ✓ I know. ¦ 状態を表す動詞はふつう進行形にしません：<b>like, love, want, need, know, understand, believe</b>。✗ I'm knowing → ✓ I know。 ¦ 表示状态的动词一般不用进行时：<b>like, love, want, need, know, understand, believe</b>。✗ I'm knowing → ✓ I know。}}</div>
+<div class="warning">{{✗ Is raining. / ✗ Makes cold. → ✓ <b>It's</b> raining. / ✓ <b>It's</b> cold. (en español «hace frío», en inglés <i>it is cold</i>) ¦ ✗ Is raining. → ✓ <b>It's</b> raining.（主語 it が必要） ¦ ✗ Is raining. → ✓ <b>It's</b> raining.（必须有主语 it） · ✗ Today very cold. → ✓ <b>It's</b> very cold today.}}</div>
+ex:
+fill ¦ ___ very cold today. ¦ It's ¦ Is / Makes / Does ¦ Hoy hace mucho frío. ¦ 今日はとても寒いです。 ¦ 今天很冷。 ¦ El tiempo siempre con it. ¦ 天気は it で。 ¦ 天气用 it。
+fill ¦ It often ___ in April. ¦ rains ¦ is raining / rain / raining ¦ En abril llueve a menudo. ¦ 4月はよく雨が降ります。 ¦ 四月经常下雨。 ¦ often → presente simple ¦ often → 現在形 ¦ often → 一般现在时
+fill ¦ Take an umbrella. It ___ now. ¦ 's raining ¦ rains / rain / is rain ¦ Coge un paraguas. Está lloviendo. ¦ 傘を持って行って。今雨が降っているよ。 ¦ 带把伞吧，正在下雨。
+fill ¦ What's the weather ___ in summer? ¦ like ¦ as / how / so ¦ ¿Qué tiempo hace en verano? ¦ 夏の天気はどうですか。 ¦ 夏天天气怎么样？
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ I know the answer. ¦ I'm knowing the answer. / I knowing the answer. / I am know the answer.
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ She usually wears a coat, but today she's wearing a jacket. ¦ She is usually wearing a coat, but today she wears a jacket. / She usually wear a coat, but today she wearing a jacket. / She wears usually a coat, but today she's wear a jacket.
+order ¦ What's the weather like in Tokyo? ¦ ¿Qué tiempo hace en Tokio? ¦ 東京の天気はどうですか。 ¦ 东京天气怎么样？
+order ¦ It's sunny but it's quite cold. ¦ Hace sol pero bastante frío. ¦ 晴れていますが、かなり寒いです。 ¦ 天晴，但挺冷的。
+translate ¦ Hace calor. ¦ 暑いです。 ¦ 天气很热。 ¦ It's hot. ¦ It is hot.
+translate ¦ Está nevando. ¦ 雪が降っています。 ¦ 在下雪。 ¦ It's snowing. ¦ It is snowing.
+match ¦ sunny=soleado=晴れた=晴朗; cloudy=nublado=曇った=多云; windy=con viento=風の強い=有风; foggy=con niebla=霧の=有雾; cool=fresco=涼しい=凉爽
+
+=== 18
+title: Where were you? ¦ ¿Dónde estabas? ¦ どこにいたの？ ¦ 你在哪儿？
+desc: El pasado de to be: was / were ¦ be 動詞の過去形：was / were ¦ be 动词过去式：was / were
+gram: past of be: was / were ¦ there was / there were ¦ yesterday, last…, ago
+ref: a1-was-were
+words: yesterday, last, ago, born, then, before, tired, bored, ill, school, party, concert, beach, holiday, trip, great, terrible, angry, happy, sad, birthday, weekend
+intro:
+<h3>was / were</h3>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I / he / she / it <strong>was</strong></td><td><strong>wasn't</strong></td><td><strong>Was</strong> he at home?</td></tr>
+<tr><td>you / we / they <strong>were</strong></td><td><strong>weren't</strong></td><td><strong>Were</strong> you tired?</td></tr></table>
+<div class="example">I <strong>was</strong> at home yesterday. · We <strong>were</strong> at the beach last week.<br><strong>Were</strong> you at the party? — Yes, I <strong>was</strong>. / No, I <strong>wasn't</strong>.<br>There <strong>was</strong> a concert. There <strong>were</strong> a lot of people.</div>
+<div class="tip">{{Expresiones de pasado: <i>yesterday, last night, last week, last year, two days <b>ago</b>, in 2010</i>. ¡Sin preposición delante de <i>last</i>! ✗ the last week (cuando significa «la semana pasada»). ¦ 過去を表す語：<i>yesterday, last night, last week, last year, two days <b>ago</b>, in 2010</i>。<i>last</i> の前に前置詞や the は不要（✗ in last week）。 ¦ 过去时间词：<i>yesterday, last night, last week, last year, two days <b>ago</b>, in 2010</i>。<i>last</i> 前不加介词或 the（✗ in last week）。}}</div>
+<h3>{{Nacer: <i>be born</i> ¦ 生まれる：be born ¦ 出生：be born}}</h3>
+<div class="example">I <strong>was born</strong> in 1998. Where <strong>were</strong> you <strong>born</strong>?</div>
+<div class="warning">{{✗ I born in Madrid. → ✓ I <b>was</b> born in Madrid. · «hace dos años» = two years <b>ago</b> (al final). ¦ ✗ I born in Osaka. → ✓ I <b>was</b> born in Osaka. · 「2年前」＝ two years <b>ago</b>（後ろに置く）。 ¦ ✗ I born in Shanghai. → ✓ I <b>was</b> born in Shanghai. · “两年前” = two years <b>ago</b>（放在后面）。}}</div>
+ex:
+fill ¦ I ___ very tired yesterday. ¦ was ¦ were / am / did ¦ Ayer estaba muy cansado. ¦ 昨日はとても疲れていました。 ¦ 我昨天很累。
+fill ¦ ___ you at home last night? ¦ Were ¦ Was / Did / Are ¦ ¿Estuviste en casa anoche? ¦ 昨夜は家にいましたか。 ¦ 你昨晚在家吗？
+fill ¦ There ___ many people at the concert. ¦ were ¦ was / are / had ¦ Había mucha gente en el concierto. ¦ コンサートにはたくさんの人がいました。 ¦ 音乐会上有很多人。
+fill ¦ She was born in Japan twenty years ___ . ¦ ago ¦ before / last / past ¦ Nació en Japón hace veinte años. ¦ 彼女は20年前に日本で生まれました。 ¦ 她二十年前出生在日本。
+choose ¦ «Nací en 2001» ¦ 「私は2001年に生まれました」 ¦ “我出生于2001年” ¦ I was born in 2001. ¦ I born in 2001. / I am born in 2001. / I was borned in 2001.
+choose ¦ Respuesta corta a «Was it good?» (no) ¦ 「Was it good?」への否定の短い答え ¦ “Was it good?”的否定简答 ¦ No, it wasn't. ¦ No, it weren't. / No, it didn't. / No, it isn't.
+order ¦ Where were you last weekend? ¦ ¿Dónde estuviste el fin de semana pasado? ¦ 先週末はどこにいましたか。 ¦ 你上周末在哪儿？
+order ¦ The film wasn't very good. ¦ La película no era muy buena. ¦ その映画はあまりよくなかった。 ¦ 那部电影不太好看。
+translate ¦ Estábamos en la playa. ¦ 私たちは浜辺にいました。 ¦ 我们在海滩上。 ¦ We were at the beach. ¦ We were on the beach.
+translate ¦ ¿Dónde naciste? ¦ どこで生まれましたか。 ¦ 你在哪里出生？ ¦ Where were you born?
+
+=== 19
+title: Last weekend ¦ El fin de semana pasado ¦ 先週末 ¦ 上周末
+desc: El pasado simple: verbos regulares e irregulares ¦ 過去形：規則動詞と不規則動詞 ¦ 一般过去时：规则动词和不规则动词
+gram: past simple: regular (-ed) and irregular verbs ¦ did / didn't ¦ What did you do?
+ref: a1-past-simple
+words: visit, stay, watch, play, cook, clean, call, listen, walk, travel, go, have, see, eat, drink, buy, make, meet, come, get, take, find, give, film, dinner, museum, together
+intro:
+<h3>{{Pasado simple: verbos regulares ¦ 過去形：規則動詞 ¦ 一般过去时：规则动词}}</h3>
+<p>{{Añadimos <b>-ed</b>. La forma es igual para todas las personas: ¦ <b>-ed</b> を付けます。すべての人称で同じ形です： ¦ 加 <b>-ed</b>，所有人称形式相同：}}</p>
+<table><tr><td>work → work<strong>ed</strong></td><td>live → live<strong>d</strong></td><td>study → stud<strong>ied</strong></td><td>stop → sto<strong>pped</strong></td></tr></table>
+<h3>{{Verbos irregulares (¡a memorizar!) ¦ 不規則動詞（覚えよう！） ¦ 不规则动词（要记住！）}}</h3>
+<table><tr><td>go → <strong>went</strong></td><td>have → <strong>had</strong></td><td>see → <strong>saw</strong></td><td>eat → <strong>ate</strong></td></tr>
+<tr><td>buy → <strong>bought</strong></td><td>make → <strong>made</strong></td><td>meet → <strong>met</strong></td><td>get → <strong>got</strong></td></tr>
+<tr><td>come → <strong>came</strong></td><td>take → <strong>took</strong></td><td>do → <strong>did</strong></td><td>drink → <strong>drank</strong></td></tr></table>
+<h3>{{Negativa y preguntas con <i>did</i> ¦ did を使った否定文・疑問文 ¦ 用 did 构成否定句和疑问句}}</h3>
+<table><tr><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I <strong>didn't go</strong> out.</td><td><strong>Did</strong> you <strong>go</strong> out?</td></tr>
+<tr><td>She <strong>didn't like</strong> the film.</td><td>What <strong>did</strong> you <strong>do</strong> last weekend?</td></tr></table>
+<div class="tip">{{Con <b>did / didn't</b> el verbo vuelve a la forma base: ✗ Did you went? → ✓ Did you <b>go</b>? ✗ I didn't saw → ✓ I didn't <b>see</b>. ¦ <b>did / didn't</b> の後は原形：✗ Did you went? → ✓ Did you <b>go</b>?　✗ I didn't saw → ✓ I didn't <b>see</b>。 ¦ <b>did / didn't</b> 后用原形：✗ Did you went? → ✓ Did you <b>go</b>?　✗ I didn't saw → ✓ I didn't <b>see</b>。}}</div>
+<div class="example">Last Saturday I <strong>visited</strong> my grandparents. We <strong>had</strong> lunch together and then we <strong>watched</strong> a film. I <strong>didn't go</strong> out in the evening.</div>
+<div class="warning">{{Pronunciación de -ed: /t/ worked, /d/ played, /ɪd/ solo tras t o d: wanted, visited. ✗ work-ED. ¦ -ed の発音：/t/ worked、/d/ played、/ɪd/ は t・d の後だけ（wanted, visited）。 ¦ -ed 的发音：/t/ worked，/d/ played，/ɪd/ 只在 t 或 d 后面（wanted, visited）。中文没有时态变化，要特别注意动词的过去式。}}</div>
+ex:
+fill ¦ Yesterday I ___ to the cinema. ¦ went ¦ go / goed / gone ¦ Ayer fui al cine. ¦ 昨日映画館に行きました。 ¦ 我昨天去看电影了。
+fill ¦ We ___ dinner at a nice restaurant. ¦ had ¦ have / haved / did ¦ Cenamos en un restaurante bonito. ¦ 素敵なレストランで夕食を食べました。 ¦ 我们在一家不错的餐厅吃了晚饭。
+fill ¦ ___ you see the match last night? ¦ Did ¦ Do / Were / Was ¦ ¿Viste el partido anoche? ¦ 昨夜の試合を見ましたか。 ¦ 你昨晚看比赛了吗？
+fill ¦ She didn't ___ the film. ¦ like ¦ liked / likes / liking ¦ No le gustó la película. ¦ 彼女はその映画が好きではありませんでした。 ¦ 她不喜欢那部电影。 ¦ didn't + forma base ¦ didn't＋原形 ¦ didn't + 原形
+choose ¦ Pasado de «buy» ¦ buy の過去形は？ ¦ buy 的过去式是？ ¦ bought ¦ buyed / brought / buied
+choose ¦ ¿Cuál es correcta? ¦ 正しいのは？ ¦ 哪句正确？ ¦ What did you do last weekend? ¦ What did you did last weekend? / What you did last weekend? / What do you did last weekend?
+order ¦ I met my friends in the park. ¦ Quedé con mis amigos en el parque. ¦ 公園で友達に会いました。 ¦ 我在公园见了朋友。
+order ¦ They didn't come to the party. ¦ No vinieron a la fiesta. ¦ 彼らはパーティーに来ませんでした。 ¦ 他们没来聚会。
+translate ¦ Ayer cociné para mi familia. ¦ 昨日家族のために料理をしました。 ¦ 我昨天给家人做了饭。 ¦ Yesterday I cooked for my family. ¦ I cooked for my family yesterday.
+translate ¦ ¿Viste a Tom? ¦ トムに会いましたか。 ¦ 你见到汤姆了吗？ ¦ Did you see Tom?
+match ¦ went=fui (go)=行った=去了; saw=vi (see)=見た=看见了; ate=comí (eat)=食べた=吃了; bought=compré (buy)=買った=买了; took=tomé (take)=取った=拿了
+
+=== 20
+title: Plans and wishes ¦ Planes y deseos ¦ 予定と希望 ¦ 计划和愿望
+desc: Hablar de planes con going to y de deseos con would like ¦ be going to で予定を、would like で希望を話す ¦ 用 be going to 谈计划，用 would like 表达愿望
+gram: be going to + verb ¦ would like / I'd like ¦ want to
+ref: a1-going-to
+words: tomorrow, tonight, next, plan, holiday, future, would, want, hope, travel, visit, learn, start, stay, ticket, hotel, trip, abroad, dream, soon, later, idea, ready, wish
+intro:
+<h3>be going to</h3>
+<p>{{Para planes e intenciones ya decididos: <b>am / is / are + going to + verbo</b>. ¦ 既に決めた予定・意図：<b>am / is / are＋going to＋原形</b>。 ¦ 表示已决定的计划和打算：<b>am / is / are + going to + 动词原形</b>。}}</p>
+<table><tr><th>{{Afirmativa ¦ 肯定 ¦ 肯定}}</th><th>{{Negativa ¦ 否定 ¦ 否定}}</th><th>{{Pregunta ¦ 疑問 ¦ 疑问}}</th></tr>
+<tr><td>I<strong>'m going to</strong> visit Rome.</td><td>I<strong>'m not going to</strong> stay at home.</td><td><strong>Are</strong> you <strong>going to</strong> travel?</td></tr>
+<tr><td>She<strong>'s going to</strong> learn Japanese.</td><td>They <strong>aren't going to</strong> come.</td><td>What <strong>are</strong> you <strong>going to</strong> do tomorrow?</td></tr></table>
+<div class="tip">{{Muy parecido al español «voy a + infinitivo», ¡pero no olvides el verbo <i>be</i>! ✗ I going to → ✓ I<b>'m</b> going to. ¦ 「〜するつもり」。be 動詞を忘れないこと：✗ I going to → ✓ I<b>'m</b> going to。 ¦ 相当于“打算……”。别忘了 be 动词：✗ I going to → ✓ I<b>'m</b> going to。}}</div>
+<h3>would like · want</h3>
+<table><tr><td>I<strong>'d like</strong> a coffee, please.</td><td>{{Querría / Me gustaría un café. ¦ コーヒーをください。 ¦ 我想要一杯咖啡。}}</td></tr>
+<tr><td>I<strong>'d like to</strong> visit Japan one day.</td><td>{{Me gustaría visitar Japón algún día. ¦ いつか日本に行ってみたいです。 ¦ 我希望有一天能去日本。}}</td></tr>
+<tr><td><strong>Would you like</strong> to come?</td><td>{{¿Te gustaría venir? ¦ 来ませんか。 ¦ 你想来吗？}}</td></tr>
+<tr><td>I <strong>want to</strong> go home.</td><td>{{Quiero irme a casa. ¦ 家に帰りたい。 ¦ 我想回家。}}</td></tr></table>
+<div class="warning">{{<b>I'd like</b> es más educado que <b>I want</b> para pedir algo en una tienda o restaurante. <b>Would you like…?</b> = ofrecer/invitar; <b>Do you like…?</b> = preguntar por gustos. ¦ 店で注文するときは <b>I want</b> より <b>I'd like</b> が丁寧。<b>Would you like…?</b>＝勧誘・申し出、<b>Do you like…?</b>＝好みを尋ねる。 ¦ 点餐时 <b>I'd like</b> 比 <b>I want</b> 更礼貌。<b>Would you like…?</b> = 邀请或提供，<b>Do you like…?</b> = 问喜好。}}</div>
+ex:
+fill ¦ We're going ___ visit my aunt tomorrow. ¦ to ¦ – / for / at ¦ Mañana vamos a visitar a mi tía. ¦ 明日おばを訪ねるつもりです。 ¦ 我们明天要去看我阿姨。
+fill ¦ ___ you going to travel this summer? ¦ Are ¦ Do / Will / Is ¦ ¿Vas a viajar este verano? ¦ この夏は旅行する予定ですか。 ¦ 你今年夏天要去旅行吗？
+fill ¦ I'd ___ a glass of water, please. ¦ like ¦ want / likes / liking ¦ Quería un vaso de agua, por favor. ¦ 水を一杯ください。 ¦ 请给我一杯水。
+fill ¦ ___ you like to come to the party? ¦ Would ¦ Do / Are / Will ¦ ¿Te gustaría venir a la fiesta? ¦ パーティーに来ませんか。 ¦ 你想来参加聚会吗？
+choose ¦ «Voy a aprender a conducir» ¦ 「運転を習うつもりです」 ¦ “我打算学开车” ¦ I'm going to learn to drive. ¦ I going to learn to drive. / I'm going learn to drive. / I go to learn to drive.
+choose ¦ Una camarera pregunta «¿Qué va a tomar?». Respuesta más educada: ¦ ウェイトレスに注文を聞かれました。最も丁寧な答えは？ ¦ 服务员问你要点什么。最礼貌的回答是： ¦ I'd like the soup, please. ¦ I want the soup. / Give me the soup. / I like the soup.
+order ¦ What are you going to do tonight? ¦ ¿Qué vas a hacer esta noche? ¦ 今夜は何をするつもりですか。 ¦ 你今晚打算做什么？
+order ¦ I'd like to live abroad one day. ¦ Me gustaría vivir en el extranjero algún día. ¦ いつか海外に住みたいです。 ¦ 我希望有一天能住在国外。
+translate ¦ No voy a trabajar mañana. ¦ 明日は働かないつもりです。 ¦ 我明天不打算工作。 ¦ I'm not going to work tomorrow. ¦ I am not going to work tomorrow. / Tomorrow I'm not going to work.
+translate ¦ Quiero ir a casa. ¦ 家に帰りたいです。 ¦ 我想回家。 ¦ I want to go home.

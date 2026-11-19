@@ -1,0 +1,217 @@
+import { tutorBtn } from '../tutor.js?v=202611192200';
+import { S } from '../state.js?v=202611192200';
+import { register, go } from '../router.js?v=202611192200';
+import { loadGrammar, loadVocab } from '../data.js?v=202611192200';
+import { bottomNav, header } from '../ui/components.js?v=202611192200';
+import { icon } from '../ui/icons.js?v=202611192200';
+import { t } from '../i18n.js?v=202611192200';
+import { levelChips } from '../levels.js?v=202611192200';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611192200';
+import { allVocab } from './review.js?v=202611192200';
+import { levelLabel } from '../levels.js?v=202611192200';
+const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+window.__refSpeak = (w) => import('../audio.js?v=202611192200').then(a => a.speak(w));
+
+register('reference', async (el) => {
+  el.innerHTML = `<div class="fade">
+    ${header(t('reference'))}
+    <div class="tabbar" id="ref-tabs">
+      <button class="tab on" onclick="window.__refTab('grammar')">📖 ${t('grammar')}</button>
+      <button class="tab" onclick="window.__refTab('vocab')">📝 ${t('vocabulary')}</button>
+      <button class="tab" onclick="window.__nav('conj')">🔄 ${t('conjugation')}</button>
+    </div>
+    <div id="ref-content"></div>
+  </div>${bottomNav('reference')}`;
+
+  window.__refTab = (tab) => {
+    document.querySelectorAll('.tab').forEach((t, i) => {
+      t.classList.toggle('on', ['grammar','vocab'][i] === tab);
+    });
+    renderTab(tab);
+  };
+
+  renderTab('grammar');
+
+  async function renderTab(tab) {
+    const box = document.getElementById('ref-content');
+    if (tab === 'grammar') await renderGrammar(box);
+    else if (tab === 'vocab') await renderVocabList(box);
+    else if (tab === 'conjugation') renderConjugation(box);
+  }
+
+  async function renderGrammar(box) {
+    const grammar = await loadGrammar(S.level);
+    box.innerHTML = `<div class="slideup">
+      ${levelChips(S.level, '__refLevel')}
+      <div class="card drill-banner" onclick="window.__nav('drills')">🎯 <strong>Grammar practice</strong> <span class="muted small">· ${t('grammarPractice')}</span><span class="grow"></span>›</div>
+      ${grammar.map(g => `
+        <div class="card ref-topic" onclick="window.__showGrammar('${g.id}')">
+          <div class="flex items-center gap-8">
+            <span class="unit-badge ${g.unit ? '' : 'extra'}">${g.unit ? `${t('unit')} ${g.unit}` : '+'}</span>
+            <div style="font-weight:600;font-size:15px">${g.title[S.lang] || g.title.en}</div>
+          </div>
+          <div class="muted small">${g.summary[S.lang] || g.summary.es}</div>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  window.__refLevel = (lvl) => {
+    S.level = lvl;
+    renderTab('grammar');
+  };
+
+  window.__showGrammar = async (id) => {
+    go('grammar-detail', { level: S.level, id });
+  };
+
+  async function renderVocabList(box) {
+    const vm = await allVocab();
+    const list = [...vm.values()].filter(v => v.lv === S.level);
+    const counts = {};
+    const st = list.map(v => { const k = wordStatus(v.w); counts[k] = (counts[k] || 0) + 1; return k; });
+    const mean = m => (m && (m[S.lang] || m.es)) || '';
+    box.innerHTML = `<div class="slideup">
+      ${levelChips(S.level, '__vocabLevel')}
+      <div class="muted small mb-8">${list.length} ${t('words')} · ${levelLabel(S.level)}</div>
+      ${statusLegend(counts)}
+      <div class="card drill-banner" onclick="window.__go('vocab-list',{level:'${S.level}'})">☑️ <strong>${t('vocabList')}</strong> <span class="muted small">· ${t('allLevelWords')}</span><span class="grow"></span>›</div>
+      <div class="card drill-banner" onclick="window.__go('review',{deck:'v'})">🃏 <strong>${t('cardsNav')}</strong> <span class="muted small">· ${t('vocabulary')}</span><span class="grow"></span>›</div>
+      <div class="ref-vocab">${list.map((v, i) => `<div class="rv-row" onclick="window.__refSpeak('${escH(v.w)}')">
+        <span class="st-dot" style="background:${STATUS[st[i]].color}"></span>
+        <span class="rv-w" style="color:${STATUS[st[i]].color}">${escH(v.w)}</span>
+        <span class="rv-m muted small">${escH(mean(v.m))}</span>
+      </div>`).join('')}</div>
+    </div>`;
+  }
+
+  window.__vocabLevel = (lvl) => {
+    S.level = lvl;
+    renderTab('vocab');
+  };
+
+  function renderConjugation(box) {
+    const P = ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos'];
+    const groups = [
+      { label: { en: 'Regular', zh: '规则动词', ja: '規則動詞' }, verbs: [
+        ['hablar', '-ar', 'habl==o== habl==as== habl==a== habl==amos== habl==áis== habl==an=='],
+        ['comer', '-er', 'com==o== com==es== com==e== com==emos== com==éis== com==en=='],
+        ['vivir', '-ir', 'viv==o== viv==es== viv==e== viv==imos== viv==ís== viv==en=='],
+      ]},
+      { label: { en: 'Stem change o → ue (not nosotros/vosotros)', zh: '词干 o → ue（nosotros/vosotros 不变）', ja: '語幹 o → ue（nosotros/vosotros は変化なし）' }, verbs: [
+        ['poder', 'o→ue', 'p==ue==do p==ue==des p==ue==de podemos podéis p==ue==den'],
+        ['dormir', 'o→ue', 'd==ue==rmo d==ue==rmes d==ue==rme dormimos dormís d==ue==rmen'],
+        ['volver', 'o→ue', 'v==ue==lvo v==ue==lves v==ue==lve volvemos volvéis v==ue==lven'],
+        ['jugar', 'u→ue', 'j==ue==go j==ue==gas j==ue==ga jugamos jugáis j==ue==gan'],
+      ]},
+      { label: { en: 'Stem change e → ie', zh: '词干 e → ie', ja: '語幹 e → ie' }, verbs: [
+        ['querer', 'e→ie', 'qu==ie==ro qu==ie==res qu==ie==re queremos queréis qu==ie==ren'],
+        ['pensar', 'e→ie', 'p==ie==nso p==ie==nsas p==ie==nsa pensamos pensáis p==ie==nsan'],
+        ['empezar', 'e→ie', 'emp==ie==zo emp==ie==zas emp==ie==za empezamos empezáis emp==ie==zan'],
+      ]},
+      { label: { en: 'Stem change e → i (-ir verbs)', zh: '词干 e → i（-ir 动词）', ja: '語幹 e → i（-ir 動詞）' }, verbs: [
+        ['pedir', 'e→i', 'p==i==do p==i==des p==i==de pedimos pedís p==i==den'],
+        ['repetir', 'e→i', 'rep==i==to rep==i==tes rep==i==te repetimos repetís rep==i==ten'],
+      ]},
+      { label: { en: 'Irregular "yo" only (-go, -zco…)', zh: '只有 yo 不规则（-go、-zco…）', ja: 'yo だけ不規則（-go・-zco…）' }, verbs: [
+        ['hacer', 'yo-go', 'ha==go== haces hace hacemos hacéis hacen'],
+        ['poner', 'yo-go', 'pon==go== pones pone ponemos ponéis ponen'],
+        ['salir', 'yo-go', 'sal==go== sales sale salimos salís salen'],
+        ['conocer', '-zco', 'cono==zco== conoces conoce conocemos conocéis conocen'],
+        ['saber', 'yo', '==sé== sabes sabe sabemos sabéis saben'],
+        ['ver', 'yo', 'v==eo== ves ve vemos veis ven'],
+      ]},
+      { label: { en: 'Yo-go + stem change', zh: 'yo-go + 词干变化', ja: 'yo-go ＋ 語幹変化' }, verbs: [
+        ['tener', 'go + e→ie', 'ten==go== t==ie==nes t==ie==ne tenemos tenéis t==ie==nen'],
+        ['venir', 'go + e→ie', 'ven==go== v==ie==nes v==ie==ne venimos venís v==ie==nen'],
+        ['decir', 'go + e→i', 'di==go== d==i==ces d==i==ce decimos decís d==i==cen'],
+      ]},
+      { label: { en: 'Totally irregular', zh: '完全不规则', ja: '完全な不規則' }, verbs: [
+        ['ser', '', 'soy eres es somos sois son'],
+        ['estar', '', 'est==oy== est==á==s est==á== estamos estáis est==á==n'],
+        ['ir', '', 'voy vas va vamos vais van'],
+      ]},
+    ];
+    const L = S.lang || 'es';
+
+    box.innerHTML = `<div class="slideup">
+      ${groups.map(g => `
+        <div class="h3 mt-16 mb-8">${g.label[L] || g.label.es}</div>
+        ${g.verbs.map(([inf, tag, forms]) => `
+          <div class="card" style="padding:14px 18px;margin-bottom:10px;cursor:pointer" onclick="window.__toggleVerb(this)">
+            <div class="flex items-center justify-between">
+              <div><span style="font-weight:600;font-size:16px">${inf}</span>
+                ${tag ? `<span class="muted small" style="margin-left:8px">${tag}</span>` : ''}</div>
+              <span class="muted">▼</span>
+            </div>
+            <div class="verb-detail" style="display:none;margin-top:12px">
+              <div class="conj-grid">${forms.split(' ').map((f, i) => `<div><span class="muted">${P[i]}</span> <strong>${hl(f)}</strong></div>`).join('')}</div>
+            </div>
+          </div>`).join('')}
+      `).join('')}
+    </div>`;
+  }
+
+  window.__toggleVerb = (el) => {
+    const detail = el.querySelector('.verb-detail');
+    detail.style.display = detail.style.display === 'none' ? 'block' : 'none';
+  };
+});
+
+register('grammar-detail', async (el, params) => {
+  const grammar = await loadGrammar(params.level);
+  const item = grammar.find(g => g.id === params.id);
+  if (!item) { go('reference'); return; }
+
+  const explanation = item.explanation[S.lang] || item.explanation.es;
+  window.__tutorTopic = item.title.en || item.title.es;
+
+  el.innerHTML = `<div class="fade">
+    ${header(item.title[S.lang] || item.title.en, true)}
+
+    <div class="card" style="padding:20px;margin-bottom:16px">
+      <div class="h3 mb-12">${t('explanation')}</div>
+      <div style="font-size:14px;line-height:1.8;white-space:pre-wrap">${formatExplanation(explanation)}</div>
+      <div class="mt-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
+    </div>
+
+    ${item.conjugation ? `
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <div class="h3 mb-12">${t('conjugation')}</div>
+        ${Object.entries(item.conjugation).map(([verb, forms]) => `
+          <div style="margin-bottom:14px">
+            <div style="font-weight:600;margin-bottom:6px">${verb}</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:14px">
+              ${Object.entries(forms).map(([p,f]) => `<div><span class="muted">${p}</span> <strong>${hl(f)}</strong></div>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    ` : ''}
+
+    ${item.examples ? `
+      <div class="card" style="padding:20px">
+        <div class="h3 mb-12">${t('examples')}</div>
+        ${item.examples.map(ex => `
+          <div style="margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--line)">
+            <div style="font-weight:600;font-size:15px">${ex.en}</div>
+            <div class="muted small">${ex[S.lang] || ex.es}</div>
+          </div>
+        `).join('')}
+      </div>
+    ` : ''}
+  </div>`;
+});
+
+// ==x== highlights the changing letters; ~~x~~ marks a wrong form.
+function hl(text) {
+  return String(text)
+    .replace(/==(.+?)==/g, '<mark class="hl">$1</mark>')
+    .replace(/~~(.+?)~~/g, '<s class="wrong">$1</s>');
+}
+
+function formatExplanation(text) {
+  return hl(text)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
+}
