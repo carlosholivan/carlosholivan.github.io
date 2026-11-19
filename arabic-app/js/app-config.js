@@ -12,6 +12,7 @@ export const CFG = {
     ['ن', 'texts', 'textsSub', 'texts'],
     ['ب', 'cardsNav', 'cardsSub', 'review'],
     ['ك', 'vocabList', 'vocabListSub', 'vocab-list'],
+    ['م', 'topicsNav', 'topicsSub', 'topics'],
     ['ح', 'hanzi', 'hanziSub', 'hanzi'],
     ['ص', 'conjNav', 'conjSub', 'conj'],
     ['ق', 'reference', 'grammarRefSub', 'reference'],

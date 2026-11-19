@@ -1,5 +1,9 @@
 // Chinese-app specific UI strings (es, en, ja, ko). Merged into the main table in i18n.js.
 export default {
+  topicsNav:      { es: 'Vocabulario por temas', en: 'Vocabulary by topic', ja: 'テーマ別単語', ko: '주제별 단어' },
+  topicsSub:      { es: 'comida, viajes, cuerpo…', en: 'food, travel, body…', ja: '食べ物・旅行・体…', ko: '음식·여행·몸…' },
+  topicsHint:     { es: 'Palabras de todos los niveles agrupadas por tema. El color indica cuánto las dominas.', en: 'Words from every level grouped by topic. The colour shows how well you know them.', ja: '全レベルの単語をテーマ別に。色は習熟度。', ko: '모든 레벨의 단어를 주제별로. 색은 숙련도.' },
+  topicsStudy:    { es: 'Estudiar las {n} que aún no sé', en: 'Study the {n} I don\'t know yet', ja: 'まだ覚えていない{n}語を学習', ko: '아직 모르는 {n}개 학습' },
   chinese:        { es: 'Chino', en: 'Chinese', ja: '中国語', ko: '중국어' },
   hanzi:          { es: 'Caracteres', en: 'Characters', ja: '漢字', ko: '한자' },
   hanziHint:      { es: 'ordenados por frecuencia. Toca uno para ver trazos y palabras.', en: 'ordered by frequency. Tap one for strokes and words.', ja: '頻度順。タップで筆順と単語を表示。', ko: '빈도순. 눌러서 획순과 단어 보기.' },

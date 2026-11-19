@@ -2,8 +2,8 @@
 // The key lives only in this browser (localStorage, shared with the Gemini voice); requests go straight from the
 // browser to Google, so they never touch the app owner's account. Used by: texts (select text / tapped word),
 // lessons (why was my answer wrong?), grammar pages (free questions) and Settings (key + instructions).
-import { S } from './state.js?v=202611192110';
-import { go } from './router.js?v=202611192110';
+import { S } from './state.js?v=202611192222';
+import { go } from './router.js?v=202611192222';
 
 const LS = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { return null; } };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -47,30 +47,45 @@ const tt = k => { const o = TX[k]; return (o && (o[S.lang] || o.en)) || ''; };
 export const tutorKey = () => LS('gemini_tts_key') || LS('nh_gemini_key') || '';
 const setKey = v => { LS('gemini_tts_key', v ? v.trim() : null); LS('nh_gemini_key', null); };
 
+// Models this key can't use (e.g. "no longer available to new users"), so they are never picked again.
+const badModels = () => { try { return JSON.parse(LS('gemini_bad_models') || '[]'); } catch { return []; } };
+const markBad = m => LS('gemini_bad_models', JSON.stringify([...new Set([...badModels(), m])]));
+const ver = m => parseFloat((m.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1] || 0);
+
 async function pickModel(key, fresh) {
-  if (!fresh && LS('gemini_tutor_model')) return LS('gemini_tutor_model');
-  let m = 'gemini-2.5-flash';
+  const bad = badModels();
+  const saved = LS('gemini_tutor_model');
+  if (!fresh && saved && !bad.includes(saved)) return saved;
+  let m = 'gemini-3.8-flash';
   try {
     const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', { headers: { 'x-goog-api-key': key } });
     const j = await r.json();
-    const ms = (j.models || []).filter(x => (x.supportedGenerationMethods || []).includes('generateContent') && /gemini/.test(x.name) && !/tts|image|embed|audio|live|thinking/.test(x.name)).map(x => x.name.replace('models/', ''));
+    const ms = (j.models || []).filter(x => (x.supportedGenerationMethods || []).includes('generateContent') && /gemini/.test(x.name) && !/tts|image|embed|audio|live|thinking/.test(x.name))
+      .map(x => x.name.replace('models/', '')).filter(x => !bad.includes(x)).sort((a, b) => ver(b) - ver(a));
     m = ms.find(x => /flash/.test(x) && !/lite|preview|exp/.test(x)) || ms.find(x => /flash/.test(x)) || ms[0] || m;
   } catch {}
   LS('gemini_tutor_model', m);
   return m;
 }
 
-async function call(contents, retry = true) {
+async function call(contents, retry = 2, forced = null) {
   const key = tutorKey();
-  const model = await pickModel(key, !retry);
+  const model = forced || await pickModel(key, retry < 2);
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
     method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
     body: JSON.stringify({ contents, systemInstruction: { parts: [{ text: system() }] }, generationConfig: { temperature: 0.4, maxOutputTokens: 1500 } }),
   });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) {
-    if (retry && (r.status === 404 || r.status === 400 && /model/i.test(j.error?.message || ''))) { LS('gemini_tutor_model', null); return call(contents, false); }
-    const e = new Error(j.error?.message || String(r.status)); e.status = r.status; throw e;
+    const msg = j.error?.message || '';
+    // Retired or unknown model: remember it, follow Google's suggestion ("use models/…") or pick another one.
+    if (retry > 0 && r.status !== 429 && (r.status === 404 || /model|no longer available|deprecated|not supported/i.test(msg))) {
+      markBad(model); LS('gemini_tutor_model', null);
+      const sug = (msg.match(/models\/(gemini-[\w.-]*\w)/g) || []).map(x => x.slice(7)).find(x => x !== model && !badModels().includes(x));
+      if (sug) LS('gemini_tutor_model', sug);
+      return call(contents, retry - 1, sug);
+    }
+    const e = new Error(msg || String(r.status)); e.status = r.status; throw e;
   }
   return (j.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
 }
@@ -217,8 +232,9 @@ window.__tutorSave = async () => {
     const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=5', { headers: { 'x-goog-api-key': v } });
     if (!r.ok) throw new Error();
     await pickModel(v, true);
+    await call([{ role: 'user', parts: [{ text: 'OK' }] }]);   // checks that the chosen model really answers
     if (res) res.innerHTML = `<span style="color:var(--ok);font-weight:700">${tt('ok')}</span>`;
-  } catch { if (res) res.innerHTML = `<span style="color:var(--no);font-weight:700">${tt('bad')}</span>`; }
+  } catch (e) { if (res) res.innerHTML = `<span style="color:var(--no);font-weight:700">${e && e.status === 429 ? tt('quota') : !e || !e.status || e.status === 400 || e.status === 401 || e.status === 403 ? tt('bad') : esc(e.message)}</span>`; }
 };
 window.__tutorForget = () => { setKey(''); LS('gemini_tutor_model', null); go('settings'); };
 function focusTutorSettings() {

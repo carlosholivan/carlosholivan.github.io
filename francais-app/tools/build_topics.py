@@ -38,10 +38,14 @@ RX = {tid: re.compile(r'(?:' + kw + r')(?:s|es)?', re.I) for tid, _, _, kw in TO
 
 def kind(v):
     w, pos = v['word'], v.get('pos', '')
-    if v.get('g'):
+    if v.get('g') or re.match(r"(le|la|les) |l'", w):
         return 'n'
     if ' ' in w.strip():
         return 'x'
+    if 'verb' in pos and re.search(r'(er|ir|re|oir)$', w):
+        return 'v'
+    if 'adjective' in pos or 'adverb' in pos:
+        return 'a'
     first = pos.split('/')[0]
     return {'noun': 'n', 'verb': 'v', 'adjective': 'a', 'adverb': 'a'}.get(first, 'n' if 'noun' in pos else 'a')
 

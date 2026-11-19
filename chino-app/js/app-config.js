@@ -12,6 +12,7 @@ export const CFG = {
     ['课', 'texts', 'textsSub', 'texts'],
     ['卡', 'cardsNav', 'cardsSub', 'review'],
     ['词', 'vocabList', 'vocabListSub', 'vocab-list'],
+    ['类', 'topicsNav', 'topicsSub', 'topics'],
     ['字', 'hanzi', 'hanziSub', 'hanzi'],
     ['练', 'grammarPractice', 'drillsSub', 'drills'],
     ['音', 'pronunciation', 'pronSub', 'pron'],
