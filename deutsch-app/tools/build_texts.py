@@ -149,6 +149,11 @@ ENDINGS = ['', 'e', 'en', 'n', 'er', 'es', 's', 'em', 'ern', 'nen', 'ns', 'st', 
 
 def stem_cands(s):
     out = []
+    for e in ('nisse', 'nissen', 'nisses'):        # Ergebnisse → Ergebnis
+        if s.endswith(e):
+            out.append(s[:-len(e)] + 'nis')
+    if s.endswith('en') and len(s) > 5:          # Euphemismen → Euphemismus, Museen → Museum, Gremien → Gremium
+        out += [s[:-2] + 'us', s[:-2] + 'um', s[:-1] + 'um' if s.endswith('ien') else s[:-2] + 'um']
     for e in ENDINGS:
         if e and not s.endswith(e):
             continue
