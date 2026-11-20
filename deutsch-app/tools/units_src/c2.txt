@@ -1,0 +1,692 @@
+# C2 lessons (EOI Nivel Avanzado C2). Every translation and explanation in Spanish and English.
+
+=== 1
+title: Grüß Gott und Grüezi ¦ Grüß Gott y Grüezi ¦ Grüß Gott and Grüezi
+desc: Las variedades del alemán: Austria y Suiza frente a Alemania ¦ The varieties of German: Austria and Switzerland compared with Germany
+gram: el alemán es pluricéntrico: tres estándares con la misma gramática básica ¦ léxico austriaco: Paradeiser, Erdapfel, Jänner, heuer ¦ léxico suizo: Velo, Trottoir, parkieren, Natel ¦ diferencias gramaticales: ich bin gesessen (sur), das Cola / die Cola, sin ß en Suiza
+gram_en: German is pluricentric: three standards with the same core grammar ¦ Austrian vocabulary: Paradeiser, Erdapfel, Jänner, heuer ¦ Swiss vocabulary: Velo, Trottoir, parkieren, Natel ¦ grammatical differences: ich bin gesessen (south), das Cola / die Cola, no ß in Switzerland
+ref: c2-varietaeten
+words: der Paradeiser, der Erdapfel, das Schlagobers, die Marille, die Semmel, die Jause, der Jänner, heuer, die Matura, das Velo, das Trottoir, parkieren, das Natel, grüezi, grüß Gott, servus, die Mundart, das Schwyzerdütsch
+intro:
+<h3>Un idioma, tres estándares</h3>
+<p>El alemán estándar tiene tres variedades nacionales igual de correctas: la de <b>Alemania</b>, la de <b>Austria</b> y la de <b>Suiza</b>. Los exámenes oficiales (Goethe, ÖSD, telc) aceptan las tres.</p>
+<table><tr><th>Alemania</th><th>Austria</th><th>Suiza</th><th></th></tr>
+<tr><td>die Tomate</td><td>der Paradeiser</td><td>die Tomate</td><td>tomate</td></tr>
+<tr><td>die Kartoffel</td><td>der Erdapfel</td><td>die Kartoffel</td><td>patata</td></tr>
+<tr><td>die Sahne</td><td>das Schlagobers</td><td>der Rahm</td><td>nata</td></tr>
+<tr><td>das Brötchen</td><td>die Semmel</td><td>das Brötli</td><td>panecillo</td></tr>
+<tr><td>Januar</td><td>Jänner</td><td>Januar</td><td>enero</td></tr>
+<tr><td>das Fahrrad</td><td>das Fahrrad / Radl</td><td>das Velo</td><td>bicicleta</td></tr>
+<tr><td>der Bürgersteig</td><td>der Gehsteig</td><td>das Trottoir</td><td>acera</td></tr>
+<tr><td>das Abitur</td><td>die Matura</td><td>die Matura</td><td>bachillerato</td></tr>
+<tr><td>Guten Tag</td><td>Grüß Gott / Servus</td><td>Grüezi</td><td>saludo</td></tr></table>
+<h3>Gramática y ortografía</h3>
+<ul><li>En el sur (Austria, Baviera, Suiza) los verbos de posición forman el perfecto con <b>sein</b>: <i>Ich <b>bin</b> gesessen / gestanden / gelegen.</i></li>
+<li>Diferencias de género: <i>das Cola</i> (A) / <i>die Cola</i> (D), <i>das E-Mail</i> (A, CH) / <i>die E-Mail</i> (D).</li>
+<li>Suiza no usa la <b>ß</b>: <i>Strasse, gross</i>.</li>
+<li>Muchos galicismos en Suiza: <i>parkieren, grillieren, Billett, Perron, Coiffeur</i>.</li></ul>
+<div class="tip">El <b>Schwyzerdütsch</b> (dialectos suizos) se habla en la vida diaria, pero se escribe en alemán estándar suizo.</div>
+intro_en:
+<h3>One language, three standards</h3>
+<p>Standard German has three equally correct national varieties: that of <b>Germany</b>, <b>Austria</b> and <b>Switzerland</b>. The official exams (Goethe, ÖSD, telc) accept all three.</p>
+<table><tr><th>Germany</th><th>Austria</th><th>Switzerland</th><th></th></tr>
+<tr><td>die Tomate</td><td>der Paradeiser</td><td>die Tomate</td><td>tomato</td></tr>
+<tr><td>die Kartoffel</td><td>der Erdapfel</td><td>die Kartoffel</td><td>potato</td></tr>
+<tr><td>die Sahne</td><td>das Schlagobers</td><td>der Rahm</td><td>cream</td></tr>
+<tr><td>das Brötchen</td><td>die Semmel</td><td>das Brötli</td><td>bread roll</td></tr>
+<tr><td>Januar</td><td>Jänner</td><td>Januar</td><td>January</td></tr>
+<tr><td>das Fahrrad</td><td>das Fahrrad / Radl</td><td>das Velo</td><td>bicycle</td></tr>
+<tr><td>der Bürgersteig</td><td>der Gehsteig</td><td>das Trottoir</td><td>pavement</td></tr>
+<tr><td>das Abitur</td><td>die Matura</td><td>die Matura</td><td>school-leaving exam</td></tr>
+<tr><td>Guten Tag</td><td>Grüß Gott / Servus</td><td>Grüezi</td><td>greeting</td></tr></table>
+<h3>Grammar and spelling</h3>
+<ul><li>In the south (Austria, Bavaria, Switzerland) verbs of position form the perfect with <b>sein</b>: <i>Ich <b>bin</b> gesessen / gestanden / gelegen.</i></li>
+<li>Gender differences: <i>das Cola</i> (A) / <i>die Cola</i> (D), <i>das E-Mail</i> (A, CH) / <i>die E-Mail</i> (D).</li>
+<li>Switzerland doesn't use <b>ß</b>: <i>Strasse, gross</i>.</li>
+<li>Many French loans in Switzerland: <i>parkieren, grillieren, Billett, Perron, Coiffeur</i>.</li></ul>
+<div class="tip"><b>Schwyzerdütsch</b> (the Swiss dialects) is spoken in everyday life, but people write in Swiss Standard German.</div>
+ex:
+fill ¦ In Wien sagt man «___» statt «Tomate». ¦ Paradeiser ¦ Erdapfel / Marille / Topfen ¦ En Viena se dice «Paradeiser» en vez de «Tomate». ¦ In Vienna they say «Paradeiser» instead of «Tomate». ¦ Austria ¦ Austria
+fill ¦ In Zürich fährt man mit dem ___ zur Arbeit. ¦ Velo ¦ Natel / Trottoir / Perron ¦ En Zúrich se va al trabajo en bici. ¦ In Zurich people cycle to work. ¦ Suiza ¦ Switzerland
+fill ¦ Im ___ ist es in Österreich sehr kalt. ¦ Jänner ¦ Januar / Jause / Matura ¦ En enero hace mucho frío en Austria. ¦ It's very cold in Austria in January. ¦ Austria: Jänner ¦ Austria: Jänner
+fill ¦ ___ fahren wir nach Tirol. (Austria: este año) ¦ Heuer ¦ Heute / Servus / Jänner ¦ Este año vamos al Tirol. ¦ This year we're going to Tyrol. ¦ heuer = dieses Jahr ¦ heuer = this year
+fill ¦ Ich ___ den ganzen Tag im Büro gesessen. (Austria) ¦ bin ¦ habe / war / hatte ¦ He estado sentado todo el día en la oficina. ¦ I've been sitting in the office all day. ¦ Sur: sitzen con sein ¦ South: sitzen with sein
+choose ¦ ¿Cómo se escribe «Straße» en Suiza? ¦ How is «Straße» spelt in Switzerland? ¦ Strasse ¦ Strase / Straße / Strahse
+choose ¦ Saludo típico de Suiza. ¦ A typical Swiss greeting. ¦ Grüezi ¦ Moin / Servus / Tschö
+order ¦ Nach der Matura hat sie in Graz studiert ¦ Tras el bachillerato estudió en Graz. ¦ After her school-leaving exam she studied in Graz.
+translate ¦ Me gustaría un café con nata montada. (Austria) ¦ I'd like a coffee with whipped cream. (Austria) ¦ Ich hätte gern einen Kaffee mit Schlagobers. ¦ Ich möchte einen Kaffee mit Schlagobers.
+match ¦ die Marille=el albaricoque=apricot; die Jause=la merienda=snack; das Natel=el móvil=mobile phone; das Trottoir=la acera=pavement; die Mundart=el dialecto=dialect
+listen ¦ Grüß Gott, zwei Semmeln und ein Kipferl, bitte. ¦ Grüß Gott, zwei Semmeln und ein Brötchen, bitte. / Grüezi, zwei Semmeln und ein Kipferl, bitte. / Grüß Gott, drei Semmeln und ein Kipferl, bitte.
+
+=== 2
+title: Es war einmal ¦ Érase una vez ¦ Once upon a time
+desc: La lengua literaria: Präteritum narrativo, estilo indirecto libre, inversión y recursos estilísticos ¦ Literary language: the narrative Präteritum, free indirect speech, inversion and stylistic devices
+gram: Präteritum como tiempo narrativo y Plusquamperfekt para el trasfondo ¦ erlebte Rede (estilo indirecto libre) ¦ formas arcaicas: ward, dünkt, ward geboren ¦ inversión y elipsis expresivas
+gram_en: the Präteritum as the narrative tense and the Plusquamperfekt for background ¦ erlebte Rede (free indirect speech) ¦ archaic forms: ward, dünkt, ward geboren ¦ expressive inversion and ellipsis
+ref: c2-literatursprache
+words: der Erzähler, die Erzählerin, die Erzählung, die Novelle, der Roman, die Metapher, das Motiv, der Leitgedanke, schildern, die Schilderung, anmuten, dünken, die Wendung, der Rückblick, die Rahmenhandlung
+intro:
+<h3>El tiempo de la narración</h3>
+<p>La literatura narra en <b>Präteritum</b>; el <b>Plusquamperfekt</b> marca lo anterior (Rückblick):</p>
+<div class="example">Sie <b>öffnete</b> die Tür. Niemand <b>war</b> da. Jemand <b>hatte</b> das Licht <b>angelassen</b>.</div>
+<h3>Erlebte Rede (estilo indirecto libre)</h3>
+<p>Pensamientos del personaje en 3.ª persona y Präteritum, sin verbo introductorio:</p>
+<div class="example">Er stand am Fenster. <b>Würde sie morgen kommen? Er wusste es nicht. Ach, wäre doch alles schon vorbei!</b></div>
+<h3>Formas arcaicas y elevadas</h3>
+<table><tr><td><b>ward</b> (= wurde)</td><td>Und es <b>ward</b> Licht.</td></tr>
+<tr><td><b>mich dünkt</b> (= mir scheint)</td><td><b>Mich dünkt</b>, er lügt.</td></tr>
+<tr><td>genitivo de objeto</td><td>Sie <b>gedachte</b> der Toten. · Er <b>bedarf</b> der Hilfe.</td></tr>
+<tr><td>Konjunktiv I de deseo</td><td><b>Möge</b> er in Frieden ruhen. · <b>Es lebe</b> die Freiheit!</td></tr></table>
+<h3>Recursos de estilo</h3>
+<p><i>Metapher</i> (das Meer der Gefühle), <i>Personifikation</i> (der Wind flüsterte), <i>Alliteration</i> (Kind und Kegel), <i>Anapher</i>, <i>Inversion</i> (<i>Groß war die Freude.</i>), <i>Ellipse</i> (<i>Und dann – nichts.</i>).</p>
+intro_en:
+<h3>The narrative tense</h3>
+<p>Literature narrates in the <b>Präteritum</b>; the <b>Plusquamperfekt</b> marks what happened earlier (flashback):</p>
+<div class="example">Sie <b>öffnete</b> die Tür. Niemand <b>war</b> da. Jemand <b>hatte</b> das Licht <b>angelassen</b>. (She opened the door. Nobody was there. Someone had left the light on.)</div>
+<h3>Erlebte Rede (free indirect speech)</h3>
+<p>A character's thoughts in the 3rd person and Präteritum, without a reporting verb:</p>
+<div class="example">Er stand am Fenster. <b>Würde sie morgen kommen? Er wusste es nicht. Ach, wäre doch alles schon vorbei!</b> (Would she come tomorrow? He didn't know. Oh, if only it were all over!)</div>
+<h3>Archaic and elevated forms</h3>
+<table><tr><td><b>ward</b> (= wurde)</td><td>Und es <b>ward</b> Licht. (And there was light.)</td></tr>
+<tr><td><b>mich dünkt</b> (= mir scheint)</td><td><b>Mich dünkt</b>, er lügt. (Methinks he lies.)</td></tr>
+<tr><td>genitive object</td><td>Sie <b>gedachte</b> der Toten. (She remembered the dead.) · Er <b>bedarf</b> der Hilfe. (He needs help.)</td></tr>
+<tr><td>Konjunktiv I wish</td><td><b>Möge</b> er in Frieden ruhen. (May he rest in peace.) · <b>Es lebe</b> die Freiheit! (Long live freedom!)</td></tr></table>
+<h3>Stylistic devices</h3>
+<p><i>Metapher</i> (das Meer der Gefühle), <i>Personifikation</i> (der Wind flüsterte), <i>Alliteration</i> (Kind und Kegel), <i>Anapher</i>, <i>Inversion</i> (<i>Groß war die Freude.</i>), <i>Ellipse</i> (<i>Und dann – nichts.</i>).</p>
+ex:
+fill ¦ Sie kam nach Hause. Jemand ___ die Tür aufgebrochen. ¦ hatte ¦ hat / habe / war ¦ Llegó a casa. Alguien había forzado la puerta. ¦ She came home. Someone had broken open the door. ¦ Plusquamperfekt: lo anterior ¦ Plusquamperfekt: what happened before
+fill ¦ Und Gott sprach: Es werde Licht. Und es ___ Licht. ¦ ward ¦ wird / würde / war ¦ Y Dios dijo: Hágase la luz. Y la luz se hizo. ¦ And God said: Let there be light. And there was light. ¦ ward = wurde (arcaico) ¦ ward = wurde (archaic)
+fill ¦ Am Sonntag gedachten sie ___ Opfer. ¦ der ¦ den / die / dem ¦ El domingo recordaron a las víctimas. ¦ On Sunday they commemorated the victims. ¦ gedenken + genitivo ¦ gedenken + genitive
+fill ¦ ___ er in Frieden ruhen. ¦ Möge ¦ Mag / Möchte / Muss ¦ Que descanse en paz. ¦ May he rest in peace. ¦ Konjunktiv I de deseo ¦ Konjunktiv I wish
+fill ¦ Der Autor ___ das Leben im Dorf sehr genau. ¦ schildert ¦ schildet / schildern / geschildert ¦ El autor describe con mucha precisión la vida en el pueblo. ¦ The author depicts village life in great detail. ¦ schildern = describir ¦ schildern = depict
+choose ¦ ¿Qué frase es «erlebte Rede»? ¦ Which sentence is «erlebte Rede»? ¦ Sollte sie wirklich gehen? Nein, sie würde bleiben. ¦ Sie fragte sich: «Soll ich gehen?» / Sie fragte sich, ob sie gehen solle. / Ich frage mich, ob ich gehen soll.
+choose ¦ «Der Wind flüsterte» es una… ¦ «Der Wind flüsterte» is a… ¦ personificación / personification ¦ aliteración / alliteration / elipsis / ellipsis / anáfora / anaphora
+order ¦ Groß war die Freude als er endlich zurückkehrte ¦ Grande fue la alegría cuando por fin volvió. ¦ Great was the joy when he finally returned.
+translate ¦ Me parece que miente. (registro elevado) ¦ Methinks he lies. ¦ Mich dünkt, er lügt. ¦ Mir dünkt, er lügt.
+match ¦ die Rahmenhandlung=la historia marco=frame story; der Rückblick=la analepsis=flashback; die Novelle=la novela corta=novella; anmuten=parecer=to seem; das Motiv=el motivo=motif
+listen ¦ Es war einmal ein König, der hatte drei Töchter. ¦ Es war einmal ein König, der hatte drei Söhne. / Es war einmal eine Königin, die hatte drei Töchter. / Es war einmal ein König, der hatte zwei Töchter.
+
+=== 3
+title: Ich bin ein Berliner ¦ Soy un berlinés ¦ I am a Berliner
+desc: Retórica: discursos, figuras retóricas y su efecto ¦ Rhetoric: speeches, rhetorical figures and their effect
+gram: figuras de repetición: anáfora, paralelismo, clímax ¦ preguntas retóricas y apelaciones al público ¦ antítesis y quiasmo ¦ ironía, hipérbole y lítotes
+gram_en: figures of repetition: anaphora, parallelism, climax ¦ rhetorical questions and appeals to the audience ¦ antithesis and chiasmus ¦ irony, hyperbole and litotes
+ref: c2-rhetorik
+words: die Rede, der Redner, die Rhetorik, rhetorisch, die Ansprache, appellieren, das Publikum, überzeugen, die Überzeugungskraft, die Ironie, ironisch, die Übertreibung, die Wiederholung, der Gegensatz, wirkungsvoll, die Pointe
+intro:
+<h3>Figuras retóricas</h3>
+<table><tr><td><b>Anapher</b> (repetición inicial)</td><td><i><b>Wir</b> wollen Frieden. <b>Wir</b> wollen Freiheit. <b>Wir</b> wollen Gerechtigkeit.</i></td></tr>
+<tr><td><b>Klimax</b> (gradación)</td><td><i>Er kam, sah und siegte.</i></td></tr>
+<tr><td><b>Antithese</b></td><td><i>Der Mensch denkt, Gott lenkt.</i></td></tr>
+<tr><td><b>Chiasmus</b> (cruce)</td><td><i>Die Kunst ist lang, und kurz ist unser Leben.</i> (Goethe)</td></tr>
+<tr><td><b>rhetorische Frage</b></td><td><i>Wer von uns will denn keinen Frieden?</i></td></tr>
+<tr><td><b>Hyperbel</b></td><td><i>Ich habe dir das schon tausendmal gesagt.</i></td></tr>
+<tr><td><b>Litotes</b> (negar lo contrario)</td><td><i>Das war nicht ganz unwichtig.</i> (= muy importante)</td></tr>
+<tr><td><b>Ironie</b></td><td><i>Na, das hast du ja toll gemacht!</i></td></tr></table>
+<h3>Discursos célebres</h3>
+<p>«<i>Ich bin ein Berliner</i>» (Kennedy, 1963) y «<i>Wir sind das Volk</i>» (Leipzig, 1989) muestran cómo una frase breve y repetible se convierte en lema.</p>
+<h3>Estructura de una Ansprache</h3>
+<p><i>Sehr geehrte …, liebe … · Es ist mir eine große Ehre … · Lassen Sie mich … · Ich komme zum Schluss … · Ich danke Ihnen für Ihre Aufmerksamkeit.</i></p>
+intro_en:
+<h3>Rhetorical figures</h3>
+<table><tr><td><b>Anapher</b> (initial repetition)</td><td><i><b>Wir</b> wollen Frieden. <b>Wir</b> wollen Freiheit. <b>Wir</b> wollen Gerechtigkeit.</i></td></tr>
+<tr><td><b>Klimax</b> (climax)</td><td><i>Er kam, sah und siegte.</i> (He came, saw and conquered.)</td></tr>
+<tr><td><b>Antithese</b></td><td><i>Der Mensch denkt, Gott lenkt.</i> (Man proposes, God disposes.)</td></tr>
+<tr><td><b>Chiasmus</b> (crossing)</td><td><i>Die Kunst ist lang, und kurz ist unser Leben.</i> (Goethe: art is long and short is our life)</td></tr>
+<tr><td><b>rhetorische Frage</b></td><td><i>Wer von uns will denn keinen Frieden?</i> (Which of us doesn't want peace?)</td></tr>
+<tr><td><b>Hyperbel</b></td><td><i>Ich habe dir das schon tausendmal gesagt.</i> (I've told you a thousand times.)</td></tr>
+<tr><td><b>Litotes</b> (denying the opposite)</td><td><i>Das war nicht ganz unwichtig.</i> (= very important)</td></tr>
+<tr><td><b>Ironie</b></td><td><i>Na, das hast du ja toll gemacht!</i> (Well, that was brilliant of you!)</td></tr></table>
+<h3>Famous speeches</h3>
+<p>«<i>Ich bin ein Berliner</i>» (Kennedy, 1963) and «<i>Wir sind das Volk</i>» (Leipzig, 1989) show how a short, repeatable phrase becomes a slogan.</p>
+<h3>Structure of an address</h3>
+<p><i>Sehr geehrte …, liebe … · Es ist mir eine große Ehre … (it's a great honour) · Lassen Sie mich … (let me) · Ich komme zum Schluss … (I'm coming to the end) · Ich danke Ihnen für Ihre Aufmerksamkeit.</i></p>
+ex:
+fill ¦ «Das war nicht ganz ___» = Das war sehr wichtig. ¦ unwichtig ¦ wichtig / unwichtiger / wichtiger ¦ «No fue del todo irrelevante» = fue muy importante. ¦ «It wasn't entirely unimportant» = it was very important. ¦ Lítotes ¦ Litotes
+fill ¦ Der Redner ___ an die Vernunft des Publikums. ¦ appellierte ¦ überzeugte / sprach / wirkte ¦ El orador apeló a la razón del público. ¦ The speaker appealed to the audience's reason. ¦ appellieren an + acusativo ¦ appellieren an + accusative
+fill ¦ Es ist mir eine große ___, heute hier zu sprechen. ¦ Ehre ¦ Rede / Pointe / Ironie ¦ Es un gran honor para mí hablar hoy aquí. ¦ It's a great honour for me to speak here today. ¦ Fórmula de discurso ¦ Speech formula
+fill ¦ Ich danke Ihnen für Ihre ___. ¦ Aufmerksamkeit ¦ Achtung / Aufsicht / Aussicht ¦ Les agradezco su atención. ¦ Thank you for your attention. ¦ Fórmula de cierre ¦ Closing formula
+choose ¦ «Der Mensch denkt, Gott lenkt» es un ejemplo de… ¦ «Der Mensch denkt, Gott lenkt» is an example of… ¦ antítesis / antithesis ¦ hipérbole / hyperbole / lítotes / litotes / pregunta retórica / rhetorical question
+choose ¦ «Ich habe es dir schon hundertmal gesagt» es… ¦ «Ich habe es dir schon hundertmal gesagt» is… ¦ una hipérbole / a hyperbole ¦ una lítotes / a litotes / un quiasmo / a chiasmus / una anáfora / an anaphora
+order ¦ Wer von uns möchte nicht in Frieden leben ¦ ¿Quién de nosotros no quiere vivir en paz? ¦ Which of us does not want to live in peace?
+translate ¦ Para terminar, permítanme decir una cosa más. ¦ To conclude, let me say one more thing. ¦ Zum Schluss lassen Sie mich noch eines sagen. ¦ Abschließend lassen Sie mich noch eines sagen. / Zum Schluss lassen Sie mich noch etwas sagen.
+match ¦ die Ansprache=el discurso=address; die Pointe=el remate=punchline; wirkungsvoll=eficaz=effective; die Übertreibung=la exageración=exaggeration; der Gegensatz=el contraste=contrast
+listen ¦ Wir sind das Volk, und wir lassen uns nicht mehr einschüchtern. ¦ Wir sind das Volk, und wir lassen uns nicht mehr belügen. / Ihr seid das Volk, und ihr lasst euch nicht mehr einschüchtern. / Wir sind ein Volk, und wir lassen uns nicht mehr einschüchtern.
+
+=== 4
+title: Wer A sagt, muss auch B sagen ¦ De perdidos al río ¦ In for a penny, in for a pound
+desc: Refranes, proverbios y frases hechas de la cultura alemana ¦ Proverbs, sayings and set phrases of German culture
+gram: estructura típica: Wer …, (der) … ¦ refranes con equivalente en español e inglés ¦ refranes sin equivalente directo ¦ uso modificado en prensa y publicidad
+gram_en: typical structure: Wer …, (der) … ¦ proverbs with Spanish and English equivalents ¦ proverbs with no direct equivalent ¦ modified use in the press and advertising
+ref: c2-sprichwoerter
+words: das Sprichwort, die Lebensweisheit, der Spruch, Morgenstund hat Gold im Mund, Aller Anfang ist schwer, Übung macht den Meister, Lügen haben kurze Beine, Der Apfel fällt nicht weit vom Stamm, Viele Köche verderben den Brei
+intro:
+<h3>Refranes con equivalente</h3>
+<table><tr><td>Morgenstund hat Gold im Mund.</td><td>A quien madruga, Dios le ayuda.</td></tr>
+<tr><td>Übung macht den Meister.</td><td>La práctica hace al maestro.</td></tr>
+<tr><td>Aller Anfang ist schwer.</td><td>Todos los comienzos son difíciles.</td></tr>
+<tr><td>Lügen haben kurze Beine.</td><td>Antes se coge al mentiroso que al cojo.</td></tr>
+<tr><td>Ende gut, alles gut.</td><td>Bien está lo que bien acaba.</td></tr>
+<tr><td>Der Apfel fällt nicht weit vom Stamm.</td><td>De tal palo, tal astilla.</td></tr>
+<tr><td>Viele Köche verderben den Brei.</td><td>Muchas manos en un plato hacen mucho garabato.</td></tr>
+<tr><td>Wer zuletzt lacht, lacht am besten.</td><td>Quien ríe el último ríe mejor.</td></tr>
+<tr><td>Wer A sagt, muss auch B sagen.</td><td>De perdidos al río / lo que se empieza se acaba.</td></tr></table>
+<h3>Estructura «Wer …, (der) …»</h3>
+<p>El relativo generalizador <b>wer</b> abre muchos refranes: <i>Wer nicht hören will, muss fühlen.</i> (quien no escucha, aprende por las malas) · <i>Wer rastet, der rostet.</i> (lo que no se usa, se oxida)</p>
+<h3>Juegos con refranes</h3>
+<p>La prensa y la publicidad los modifican: <i>Morgenstund hat Gold im Mund</i> → <i>«Morgenstund ist aller Laster Anfang»</i> (humorístico). Reconocer el original es parte del nivel C2.</p>
+intro_en:
+<h3>Proverbs with equivalents</h3>
+<table><tr><td>Morgenstund hat Gold im Mund.</td><td>The early bird catches the worm.</td></tr>
+<tr><td>Übung macht den Meister.</td><td>Practice makes perfect.</td></tr>
+<tr><td>Aller Anfang ist schwer.</td><td>All beginnings are hard.</td></tr>
+<tr><td>Lügen haben kurze Beine.</td><td>Lies don't get you far.</td></tr>
+<tr><td>Ende gut, alles gut.</td><td>All's well that ends well.</td></tr>
+<tr><td>Der Apfel fällt nicht weit vom Stamm.</td><td>The apple doesn't fall far from the tree.</td></tr>
+<tr><td>Viele Köche verderben den Brei.</td><td>Too many cooks spoil the broth.</td></tr>
+<tr><td>Wer zuletzt lacht, lacht am besten.</td><td>He who laughs last laughs best.</td></tr>
+<tr><td>Wer A sagt, muss auch B sagen.</td><td>In for a penny, in for a pound.</td></tr></table>
+<h3>The «Wer …, (der) …» structure</h3>
+<p>The generalising relative <b>wer</b> opens many proverbs: <i>Wer nicht hören will, muss fühlen.</i> (if you won't listen, you'll learn the hard way) · <i>Wer rastet, der rostet.</i> (use it or lose it)</p>
+<h3>Playing with proverbs</h3>
+<p>The press and advertising twist them: <i>Morgenstund hat Gold im Mund</i> → <i>«Morgenstund ist aller Laster Anfang»</i> (humorous). Recognising the original is part of C2.</p>
+ex:
+fill ¦ Morgenstund hat ___ im Mund. ¦ Gold ¦ Brot / Silber / Glück ¦ A quien madruga, Dios le ayuda. ¦ The early bird catches the worm. ¦ Refrán fijo ¦ Fixed proverb
+fill ¦ Übung macht den ___. ¦ Meister ¦ Lehrer / Schüler / Sieger ¦ La práctica hace al maestro. ¦ Practice makes perfect. ¦ Refrán fijo ¦ Fixed proverb
+fill ¦ Lügen haben kurze ___. ¦ Beine ¦ Arme / Haare / Wege ¦ Antes se coge al mentiroso que al cojo. ¦ Lies don't get you far. ¦ Refrán fijo ¦ Fixed proverb
+fill ¦ Viele Köche verderben den ___. ¦ Brei ¦ Kuchen / Braten / Wein ¦ Muchas manos en un plato hacen mucho garabato. ¦ Too many cooks spoil the broth. ¦ Refrán fijo ¦ Fixed proverb
+fill ¦ Wer nicht hören will, muss ___. ¦ fühlen ¦ sehen / gehen / lernen ¦ Quien no escucha, aprende por las malas. ¦ If you won't listen, you'll have to feel. ¦ Wer …, (der) … ¦ Wer …, (der) …
+choose ¦ Equivalente de «De tal palo, tal astilla». ¦ Equivalent of «Like father, like son». ¦ Der Apfel fällt nicht weit vom Stamm. ¦ Aller Anfang ist schwer. / Ende gut, alles gut. / Wer rastet, der rostet.
+choose ¦ «Wer rastet, der rostet» aconseja… ¦ «Wer rastet, der rostet» advises… ¦ mantenerse activo / staying active ¦ descansar mucho / resting a lot / no mentir / not lying / levantarse temprano / getting up early
+order ¦ Wer zuletzt lacht lacht am besten ¦ Quien ríe el último ríe mejor. ¦ He who laughs last laughs best.
+translate ¦ Bien está lo que bien acaba. ¦ All's well that ends well. ¦ Ende gut, alles gut. ¦ Ende gut alles gut.
+match ¦ Aller Anfang ist schwer=todo comienzo es difícil=all beginnings are hard; Wer A sagt, muss auch B sagen=lo que se empieza se acaba=in for a penny, in for a pound; das Sprichwort=el refrán=proverb; die Lebensweisheit=la máxima=piece of wisdom; der Spruch=el dicho=saying
+listen ¦ Aller Anfang ist schwer, aber Übung macht den Meister. ¦ Aller Anfang ist leicht, aber Übung macht den Meister. / Aller Anfang ist schwer, und Übung macht den Meister. / Jeder Anfang ist schwer, aber Übung macht den Meister.
+
+=== 5
+title: Scheinbar oder anscheinend? ¦ ¿Aparentemente o al parecer? ¦ Seemingly or apparently?
+desc: Matices de significado: pares confusos, sinónimos y precisión léxica ¦ Shades of meaning: confusing pairs, synonyms and lexical precision
+gram: scheinbar / anscheinend ¦ wieder / wider, seid / seit, das / dass ¦ sinónimos con matiz: sehen, schauen, blicken, starren, gucken ¦ registro: bekommen, erhalten, kriegen ¦ falsos amigos (Spanisch / Englisch)
+gram_en: scheinbar / anscheinend ¦ wieder / wider, seid / seit, das / dass ¦ synonyms with nuance: sehen, schauen, blicken, starren, gucken ¦ register: bekommen, erhalten, kriegen ¦ false friends (Spanish / English)
+ref: c2-bedeutungsnuancen
+words: scheinbar, anscheinend, wider, starren, blicken, gucken, kriegen, erhalten, die Nuance, der Bedeutungsunterschied, sinnverwandt, der falsche Freund, eventuell, sensibel, sensitiv, konsequent
+intro:
+<h3>Pares que confunden incluso a nativos</h3>
+<table><tr><td><b>scheinbar</b></td><td>solo en apariencia (no es así): <i>Er ist nur <b>scheinbar</b> ruhig.</i></td></tr>
+<tr><td><b>anscheinend</b></td><td>al parecer (probablemente sí): <i>Er ist <b>anscheinend</b> krank.</i></td></tr>
+<tr><td><b>wieder</b> / <b>wider</b></td><td>otra vez / contra: <i>wiederholen</i> · <i>widersprechen</i></td></tr>
+<tr><td><b>seit</b> / <b>seid</b></td><td>desde / sois (sein)</td></tr>
+<tr><td><b>das</b> / <b>dass</b></td><td>artículo o relativo / conjunción</td></tr></table>
+<h3>Sinónimos con matiz</h3>
+<table><tr><td><b>sehen</b></td><td>ver (percibir)</td></tr>
+<tr><td><b>schauen</b> / <b>gucken</b></td><td>mirar (sur / coloquial norte)</td></tr>
+<tr><td><b>blicken</b></td><td>dirigir la mirada (literario)</td></tr>
+<tr><td><b>starren</b></td><td>mirar fijamente</td></tr></table>
+<p>Registro: <b>erhalten</b> (formal) — <b>bekommen</b> (neutro) — <b>kriegen</b> (coloquial).</p>
+<h3>Falsos amigos</h3>
+<table><tr><td><b>eventuell</b></td><td>posiblemente (≠ eventualmente / eventually)</td></tr>
+<tr><td><b>sensibel</b></td><td>sensible (emocional) · en inglés «sensitive»; ≠ «sensible» inglés (= vernünftig)</td></tr>
+<tr><td><b>konsequent</b></td><td>coherente, firme (≠ consecuente con / consequent)</td></tr>
+<tr><td><b>aktuell</b></td><td>actual (≠ actually = eigentlich)</td></tr>
+<tr><td><b>bekommen</b></td><td>recibir (≠ become = werden)</td></tr></table>
+intro_en:
+<h3>Pairs that confuse even native speakers</h3>
+<table><tr><td><b>scheinbar</b></td><td>only seemingly (it isn't so): <i>Er ist nur <b>scheinbar</b> ruhig.</i></td></tr>
+<tr><td><b>anscheinend</b></td><td>apparently (probably so): <i>Er ist <b>anscheinend</b> krank.</i></td></tr>
+<tr><td><b>wieder</b> / <b>wider</b></td><td>again / against: <i>wiederholen</i> · <i>widersprechen</i></td></tr>
+<tr><td><b>seit</b> / <b>seid</b></td><td>since / you are (sein)</td></tr>
+<tr><td><b>das</b> / <b>dass</b></td><td>article or relative / conjunction</td></tr></table>
+<h3>Synonyms with nuance</h3>
+<table><tr><td><b>sehen</b></td><td>to see (perceive)</td></tr>
+<tr><td><b>schauen</b> / <b>gucken</b></td><td>to look (southern / northern colloquial)</td></tr>
+<tr><td><b>blicken</b></td><td>to glance, to gaze (literary)</td></tr>
+<tr><td><b>starren</b></td><td>to stare</td></tr></table>
+<p>Register: <b>erhalten</b> (formal) — <b>bekommen</b> (neutral) — <b>kriegen</b> (colloquial).</p>
+<h3>False friends</h3>
+<table><tr><td><b>eventuell</b></td><td>possibly (≠ eventually = schließlich)</td></tr>
+<tr><td><b>sensibel</b></td><td>sensitive (≠ sensible = vernünftig)</td></tr>
+<tr><td><b>konsequent</b></td><td>consistent, resolute (≠ consequent)</td></tr>
+<tr><td><b>aktuell</b></td><td>current (≠ actually = eigentlich)</td></tr>
+<tr><td><b>bekommen</b></td><td>to get, receive (≠ become = werden)</td></tr></table>
+ex:
+fill ¦ Er lächelte nur ___, in Wahrheit war er wütend. ¦ scheinbar ¦ anscheinend / offenbar / wahrscheinlich ¦ Solo sonreía en apariencia; en realidad estaba furioso. ¦ He was only seemingly smiling; in truth he was furious. ¦ scheinbar = solo en apariencia ¦ scheinbar = only seemingly
+fill ¦ Das Licht ist aus, sie sind ___ schon ins Bett gegangen. ¦ anscheinend ¦ scheinbar / wider / eventuell ¦ La luz está apagada; al parecer ya se han ido a la cama. ¦ The light is off; apparently they've already gone to bed. ¦ anscheinend = al parecer ¦ anscheinend = apparently
+fill ¦ Ich weiß, ___ du recht hast. ¦ dass ¦ das / dass das / was ¦ Sé que tienes razón. ¦ I know that you're right. ¦ Conjunción: dass ¦ Conjunction: dass
+fill ¦ Ihr ___ schon seit Stunden hier. ¦ seid ¦ seit / seid's / sind ¦ Lleváis horas aquí. ¦ You've been here for hours. ¦ seid = sein (ihr) ¦ seid = sein (ihr)
+fill ¦ Warum ___ du mich so an? ¦ starrst ¦ blickst / siehst / guckt ¦ ¿Por qué me miras tan fijamente? ¦ Why are you staring at me like that? ¦ starren = mirar fijamente ¦ starren = to stare
+fill ¦ Wir haben Ihr Schreiben ___. (formal) ¦ erhalten ¦ gekriegt / gekommen / bekommt ¦ Hemos recibido su escrito. ¦ We have received your letter. ¦ Registro formal: erhalten ¦ Formal register: erhalten
+choose ¦ «Ich komme eventuell später» significa… ¦ «Ich komme eventuell später» means… ¦ Quizá venga más tarde. / I may come later. ¦ Al final vendré más tarde. / I'll eventually come later. / Vendré seguro más tarde. / I'll definitely come later. / Nunca vengo tarde. / I'm never late.
+choose ¦ «Sie ist sehr konsequent» significa que… ¦ «Sie ist sehr konsequent» means that… ¦ es firme y coherente / she is consistent and resolute ¦ es muy lógica / she is very logical / tiene consecuencias / she has consequences / es muy sensible / she is very sensitive
+order ¦ Er hat mir in allen Punkten widersprochen ¦ Me contradijo en todos los puntos. ¦ He contradicted me on every point.
+translate ¦ Mi hermana es muy sensible. ¦ My sister is very sensitive. ¦ Meine Schwester ist sehr sensibel. ¦ Meine Schwester ist sehr empfindlich.
+match ¦ scheinbar=aparentemente (no real)=seemingly; anscheinend=al parecer=apparently; eventuell=posiblemente=possibly; kriegen=pillar, recibir (coloquial)=to get (colloquial); konsequent=coherente=consistent
+listen ¦ Anscheinend hat er den Zug verpasst. ¦ Scheinbar hat er den Zug verpasst. / Anscheinend hat er den Bus verpasst. / Anscheinend hat sie den Zug verpasst.
+
+=== 6
+title: Schachtelsätze ¦ Frases encajadas ¦ Nested sentences
+desc: Oraciones complejas: subordinación múltiple, cadenas de verbos y comprensión de textos densos ¦ Complex sentences: multiple subordination, verb chains and understanding dense texts
+gram: subordinadas de varios grados ¦ grupos verbales al final: hätte … machen lassen müssen ¦ orden en el grupo verbal con doble infinitivo ¦ estrategias para descomponer un Schachtelsatz
+gram_en: multiple degrees of subordination ¦ verb clusters at the end: hätte … machen lassen müssen ¦ word order in the verb cluster with the double infinitive ¦ strategies for unpacking a Schachtelsatz
+ref: c2-satzbau
+words: der Schachtelsatz, der Nebensatz, der Hauptsatz, verschachtelt, entwirren, die Satzklammer, der Ersatzinfinitiv, der Satzbau, unübersichtlich, gliedern
+intro:
+<h3>Subordinación en varios grados</h3>
+<div class="example">Ich glaube, <b>dass</b> er weiß, <b>dass</b> sie gesagt hat, <b>dass</b> sie nicht kommt.</div>
+<p>Cada subordinada lleva su verbo al final. En textos jurídicos y académicos hay oraciones de cinco o seis niveles.</p>
+<h3>Doble infinitivo (Ersatzinfinitiv)</h3>
+<p>Con modales y <i>lassen, sehen, hören, helfen</i> el participio se sustituye por el <b>infinitivo</b>:</p>
+<table><tr><td>Er hat kommen <b>müssen</b>.</td><td>(no: gemusst)</td></tr>
+<tr><td>Ich habe ihn singen <b>hören</b>.</td><td>(también: gehört)</td></tr></table>
+<p>En subordinada, el auxiliar se coloca <b>delante</b> del grupo de infinitivos:</p>
+<div class="example">…, weil er das Auto <b>hätte</b> reparieren lassen müssen.<br>…, dass sie es <b>hat</b> machen können.</div>
+<h3>Cómo descomponer un Schachtelsatz</h3>
+<ol><li>Localiza el verbo conjugado de la principal.</li><li>Marca cada conjunción o relativo y busca su verbo al final.</li><li>Reescribe cada subordinada como frase independiente.</li></ol>
+intro_en:
+<h3>Multiple levels of subordination</h3>
+<div class="example">Ich glaube, <b>dass</b> er weiß, <b>dass</b> sie gesagt hat, <b>dass</b> sie nicht kommt. (I think he knows she said she isn't coming.)</div>
+<p>Each subordinate clause has its verb at the end. Legal and academic texts contain sentences with five or six levels.</p>
+<h3>Double infinitive (Ersatzinfinitiv)</h3>
+<p>With modals and <i>lassen, sehen, hören, helfen</i> the participle is replaced by the <b>infinitive</b>:</p>
+<table><tr><td>Er hat kommen <b>müssen</b>.</td><td>(not: gemusst)</td></tr>
+<tr><td>Ich habe ihn singen <b>hören</b>.</td><td>(also: gehört)</td></tr></table>
+<p>In a subordinate clause the auxiliary goes <b>before</b> the cluster of infinitives:</p>
+<div class="example">…, weil er das Auto <b>hätte</b> reparieren lassen müssen. (because he should have had the car repaired)<br>…, dass sie es <b>hat</b> machen können. (that she was able to do it)</div>
+<h3>How to unpack a Schachtelsatz</h3>
+<ol><li>Find the conjugated verb of the main clause.</li><li>Mark each conjunction or relative and find its verb at the end.</li><li>Rewrite each subordinate clause as an independent sentence.</li></ol>
+ex:
+fill ¦ Er hat gestern länger arbeiten ___. ¦ müssen ¦ gemusst / muss / musste ¦ Ayer tuvo que trabajar más. ¦ He had to work longer yesterday. ¦ Doble infinitivo ¦ Double infinitive
+fill ¦ Ich weiß, dass sie das Problem ___ lösen können. ¦ hat ¦ hätte gehabt / habe gehabt / hatte gehabt ¦ Sé que pudo resolver el problema. ¦ I know that she was able to solve the problem. ¦ Auxiliar delante del grupo verbal ¦ Auxiliary before the verb cluster
+fill ¦ Es ist schade, dass wir den Termin ___ verschieben müssen. ¦ haben ¦ hatten gehabt / gehabt / haben gehabt ¦ Es una pena que hayamos tenido que aplazar la cita. ¦ It's a pity that we had to postpone the appointment. ¦ haben + infinitivo + müssen ¦ haben + infinitive + müssen
+fill ¦ Er sagt, er hätte das Dach schon längst reparieren ___ sollen. ¦ lassen ¦ gelassen / lässt / ließ ¦ Dice que hace tiempo que debería haber mandado reparar el tejado. ¦ He says he should have had the roof repaired long ago. ¦ Triple infinitivo ¦ Triple infinitive
+fill ¦ Ich habe dich nicht kommen ___. ¦ hören ¦ gehört / hörte / zu hören ¦ No te oí venir. ¦ I didn't hear you come. ¦ hören + infinitivo ¦ hören + infinitive
+choose ¦ Orden correcto en subordinada. ¦ Correct order in a subordinate clause. ¦ …, weil er nicht hat kommen können. ¦ …, weil er nicht kommen können hat. / …, weil er hat nicht kommen können. / …, weil er nicht kommen hat können.
+order ¦ Ich glaube dass er weiß dass sie kommt ¦ Creo que él sabe que ella viene. ¦ I think he knows she is coming.
+order ¦ Sie hätte das früher sagen müssen ¦ Debería haberlo dicho antes. ¦ She should have said that earlier.
+translate ¦ No tendrías que haberlo hecho. ¦ You shouldn't have done that. ¦ Du hättest das nicht tun müssen. ¦ Du hättest das nicht machen müssen. / Das hättest du nicht tun müssen.
+match ¦ der Schachtelsatz=la frase encajada=nested sentence; entwirren=desenredar=to untangle; verschachtelt=intrincado=convoluted; der Satzbau=la sintaxis=sentence structure; unübersichtlich=confuso=unclear
+listen ¦ Ich hätte dich gestern anrufen sollen. ¦ Ich hätte dich heute anrufen sollen. / Ich hätte dich gestern anrufen können. / Du hättest mich gestern anrufen sollen.
+
+=== 7
+title: Im Namen des Volkes ¦ En nombre del pueblo ¦ In the name of the people
+desc: Lenguaje jurídico y económico: contratos, sentencias, informes y balances ¦ Legal and economic language: contracts, judgments, reports and balance sheets
+gram: estructuras jurídicas: sofern nicht anders vereinbart, gemäß, im Sinne von ¦ pasiva y Konjunktiv I en sentencias ¦ economía: Umsatz, Gewinn, Bilanz, Rendite ¦ abreviaturas: gem., i. S. v., ggf., Abs., Art.
+gram_en: legal structures: sofern nicht anders vereinbart, gemäß, im Sinne von ¦ passive and Konjunktiv I in judgments ¦ economics: Umsatz, Gewinn, Bilanz, Rendite ¦ abbreviations: gem., i. S. v., ggf., Abs., Art.
+ref: c2-recht-wirtschaft
+words: das Urteil, der Kläger, der Beklagte, das Gericht, die Klage, klagen, gemäß, im Sinne von, vereinbaren, die Vereinbarung, die Klausel, haften, die Haftung, der Umsatz, die Rendite, die Bilanz, die Insolvenz, die Aktie, der Aktionär, die Fusion
+intro:
+<h3>Lenguaje jurídico</h3>
+<table><tr><td><b>Im Namen des Volkes</b> ergeht folgendes <b>Urteil</b>: …</td><td>En nombre del pueblo se dicta la siguiente sentencia</td></tr>
+<tr><td>Die <b>Klage</b> wird abgewiesen.</td><td>Se desestima la demanda.</td></tr>
+<tr><td>Der <b>Beklagte</b> trägt die Kosten des Verfahrens.</td><td>El demandado asume las costas.</td></tr>
+<tr><td><b>Gemäß</b> § 5 <b>Abs.</b> 2 …</td><td>Conforme al artículo 5, apartado 2</td></tr>
+<tr><td><b>Sofern nicht anders vereinbart</b>, …</td><td>Salvo pacto en contrario</td></tr>
+<tr><td>Der Mieter <b>haftet</b> für Schäden.</td><td>El inquilino responde de los daños.</td></tr></table>
+<p>Abreviaturas: <b>gem.</b> (gemäß), <b>i. S. v.</b> (im Sinne von), <b>ggf.</b> (gegebenenfalls), <b>Abs.</b> (Absatz), <b>Art.</b> (Artikel), <b>BGB</b> (Código Civil).</p>
+<h3>Lenguaje económico</h3>
+<table><tr><td>der <b>Umsatz</b> / der <b>Gewinn</b> / der Verlust</td><td>facturación / beneficio / pérdida</td></tr>
+<tr><td>die <b>Bilanz</b> / die <b>Rendite</b></td><td>balance / rentabilidad</td></tr>
+<tr><td>die <b>Aktie</b> / der <b>Aktionär</b></td><td>acción / accionista</td></tr>
+<tr><td>die <b>Fusion</b> / die <b>Insolvenz</b></td><td>fusión / insolvencia</td></tr></table>
+<div class="example">Der Konzern <b>steigerte</b> seinen Umsatz im dritten Quartal <b>um</b> 4 % auf 2,1 Mrd. Euro.</div>
+intro_en:
+<h3>Legal language</h3>
+<table><tr><td><b>Im Namen des Volkes</b> ergeht folgendes <b>Urteil</b>: …</td><td>In the name of the people the following judgment is given</td></tr>
+<tr><td>Die <b>Klage</b> wird abgewiesen.</td><td>The action is dismissed.</td></tr>
+<tr><td>Der <b>Beklagte</b> trägt die Kosten des Verfahrens.</td><td>The defendant bears the costs of the proceedings.</td></tr>
+<tr><td><b>Gemäß</b> § 5 <b>Abs.</b> 2 …</td><td>Pursuant to section 5(2)</td></tr>
+<tr><td><b>Sofern nicht anders vereinbart</b>, …</td><td>Unless otherwise agreed</td></tr>
+<tr><td>Der Mieter <b>haftet</b> für Schäden.</td><td>The tenant is liable for damage.</td></tr></table>
+<p>Abbreviations: <b>gem.</b> (gemäß), <b>i. S. v.</b> (im Sinne von), <b>ggf.</b> (gegebenenfalls), <b>Abs.</b> (Absatz), <b>Art.</b> (Artikel), <b>BGB</b> (Civil Code).</p>
+<h3>Economic language</h3>
+<table><tr><td>der <b>Umsatz</b> / der <b>Gewinn</b> / der Verlust</td><td>turnover / profit / loss</td></tr>
+<tr><td>die <b>Bilanz</b> / die <b>Rendite</b></td><td>balance sheet / return</td></tr>
+<tr><td>die <b>Aktie</b> / der <b>Aktionär</b></td><td>share / shareholder</td></tr>
+<tr><td>die <b>Fusion</b> / die <b>Insolvenz</b></td><td>merger / insolvency</td></tr></table>
+<div class="example">Der Konzern <b>steigerte</b> seinen Umsatz im dritten Quartal <b>um</b> 4 % auf 2,1 Mrd. Euro. (The group increased its turnover by 4% to €2.1bn in Q3.)</div>
+ex:
+fill ¦ Die Klage wird ___. ¦ abgewiesen ¦ abgewiesent / abweisen / abgewiesene ¦ Se desestima la demanda. ¦ The action is dismissed. ¦ Pasiva con werden ¦ Passive with werden
+fill ¦ Der ___ trägt die Kosten des Verfahrens. ¦ Beklagte ¦ Kläger / Richter / Anwalt ¦ El demandado asume las costas del procedimiento. ¦ The defendant bears the costs of the proceedings. ¦ der Beklagte = demandado ¦ der Beklagte = defendant
+fill ¦ ___ § 3 des Vertrags ist die Miete monatlich zu zahlen. ¦ Gemäß ¦ Sofern / Haftung / Bilanz ¦ Conforme al art. 3 del contrato, el alquiler se paga mensualmente. ¦ Pursuant to section 3 of the contract, rent is payable monthly. ¦ gemäß + dativo ¦ gemäß + dative
+fill ¦ Sofern nicht anders ___, gilt deutsches Recht. ¦ vereinbart ¦ vereinbaren / Vereinbarung / vereinbarte ¦ Salvo pacto en contrario, rige el derecho alemán. ¦ Unless otherwise agreed, German law applies. ¦ Fórmula fija ¦ Set phrase
+fill ¦ Eltern ___ für ihre Kinder. ¦ haften ¦ haftet / Haftung / gehaftet ¦ Los padres responden por sus hijos. ¦ Parents are liable for their children. ¦ haften für ¦ haften für
+fill ¦ Das Unternehmen musste ___ anmelden. ¦ Insolvenz ¦ Fusion / Rendite / Aktie ¦ La empresa tuvo que declararse insolvente. ¦ The company had to file for insolvency. ¦ Insolvenz anmelden ¦ Insolvenz anmelden
+choose ¦ ¿Qué significa «ggf.»? ¦ What does «ggf.» mean? ¦ gegebenenfalls ¦ gemäß / ganz genau / gleichfalls
+choose ¦ «Der Umsatz stieg um 4 % auf 2 Mrd.» — ¿cuál es el valor final? ¦ «Der Umsatz stieg um 4 % auf 2 Mrd.» — what's the final value? ¦ 2 Mrd. ¦ 4 % / 2 Mrd. minus 4 % / 6 Mrd.
+order ¦ Im Namen des Volkes ergeht folgendes Urteil ¦ En nombre del pueblo se dicta la siguiente sentencia. ¦ In the name of the people the following judgment is given.
+translate ¦ Los accionistas aprobaron la fusión. ¦ The shareholders approved the merger. ¦ Die Aktionäre haben der Fusion zugestimmt. ¦ Die Aktionäre stimmten der Fusion zu. / Die Aktionäre billigten die Fusion.
+match ¦ der Kläger=el demandante=plaintiff; die Klausel=la cláusula=clause; die Rendite=la rentabilidad=return; die Bilanz=el balance=balance sheet; die Haftung=la responsabilidad=liability
+listen ¦ Der Gewinn ist im letzten Quartal deutlich gesunken. ¦ Der Gewinn ist im letzten Quartal deutlich gestiegen. / Der Umsatz ist im letzten Quartal deutlich gesunken. / Der Gewinn ist im letzten Jahr deutlich gesunken.
+
+=== 8
+title: Die Deutungshoheit ¦ La hegemonía interpretativa ¦ Interpretive authority
+desc: Discurso mediático y debate público: matices, eufemismos y análisis crítico ¦ Media and public discourse: nuance, euphemisms and critical analysis
+gram: vocabulario del debate: Diskurs, Narrativ, Konsens, Spaltung, Zäsur ¦ eufemismos y palabras valorativas: Schönfärberei, Panikmache, Freisetzung ¦ distancia del periodista: angeblich, sogenannt, Konjunktiv I, comillas ¦ titulares: elipsis y estilo nominal
+gram_en: debate vocabulary: Diskurs, Narrativ, Konsens, Spaltung, Zäsur ¦ euphemisms and evaluative words: Schönfärberei, Panikmache, Freisetzung ¦ the journalist's distance: angeblich, sogenannt, Konjunktiv I, quotation marks ¦ headlines: ellipsis and nominal style
+ref: c2-mediendiskurs
+words: die Deutungshoheit, der Diskurs, das Narrativ, die Spaltung, der Konsens, der Dissens, der Paradigmenwechsel, die Zäsur, der Sündenbock, die Doppelmoral, die Schönfärberei, die Panikmache, die Schwarzmalerei, angeblich, sogenannt, der Euphemismus, die Schlagzeile
+intro:
+<h3>El vocabulario del debate</h3>
+<table><tr><td><b>die Deutungshoheit</b></td><td>quién impone la interpretación de los hechos</td></tr>
+<tr><td><b>das Narrativ</b></td><td>el relato (con matiz de construcción interesada)</td></tr>
+<tr><td><b>der Konsens / Dissens</b></td><td>acuerdo / desacuerdo</td></tr>
+<tr><td><b>die Spaltung der Gesellschaft</b></td><td>la fractura social</td></tr>
+<tr><td><b>die Zäsur</b> / <b>der Paradigmenwechsel</b></td><td>punto de inflexión / cambio de paradigma</td></tr>
+<tr><td><b>der Sündenbock</b> / <b>die Doppelmoral</b></td><td>chivo expiatorio / doble moral</td></tr></table>
+<h3>Palabras que valoran</h3>
+<p>Un mismo hecho puede nombrarse de forma neutra o cargada: <i>Kritik</i> vs. <b>Panikmache</b> (alarmismo) o <b>Schwarzmalerei</b> (pesimismo); <i>Darstellung</i> vs. <b>Schönfärberei</b> (edulcorar). Eufemismos: <i>Freisetzung</i> (= despidos), <i>Nullwachstum</i> (= estancamiento), <i>Preisanpassung</i> (= subida).</p>
+<h3>Distanciarse como periodista</h3>
+<p><b>angeblich</b> (supuestamente), <b>sogenannt</b> (llamado, con duda), el <b>Konjunktiv I</b> y las comillas irónicas: <i>Die <b>sogenannte</b> «Reform» <b>sei</b> ein Erfolg, so der Minister.</i></p>
+<h3>Titulares</h3>
+<p>Sin artículo ni verbo conjugado: <i>Kanzlerin unter Druck</i> · <i>Streit um Rente eskaliert</i> · <i>Neuer Rekord bei Stromverbrauch</i>.</p>
+intro_en:
+<h3>The vocabulary of debate</h3>
+<table><tr><td><b>die Deutungshoheit</b></td><td>who controls the interpretation of events</td></tr>
+<tr><td><b>das Narrativ</b></td><td>the narrative (often implying a self-serving construction)</td></tr>
+<tr><td><b>der Konsens / Dissens</b></td><td>consensus / disagreement</td></tr>
+<tr><td><b>die Spaltung der Gesellschaft</b></td><td>the division of society</td></tr>
+<tr><td><b>die Zäsur</b> / <b>der Paradigmenwechsel</b></td><td>turning point / paradigm shift</td></tr>
+<tr><td><b>der Sündenbock</b> / <b>die Doppelmoral</b></td><td>scapegoat / double standards</td></tr></table>
+<h3>Evaluative words</h3>
+<p>The same fact can be named neutrally or with a charge: <i>Kritik</i> vs. <b>Panikmache</b> (scaremongering) or <b>Schwarzmalerei</b> (doom-mongering); <i>Darstellung</i> vs. <b>Schönfärberei</b> (whitewashing). Euphemisms: <i>Freisetzung</i> (= lay-offs), <i>Nullwachstum</i> (= stagnation), <i>Preisanpassung</i> (= price rise).</p>
+<h3>A journalist's distance</h3>
+<p><b>angeblich</b> (allegedly), <b>sogenannt</b> (so-called, sceptical), the <b>Konjunktiv I</b> and ironic quotation marks: <i>Die <b>sogenannte</b> «Reform» <b>sei</b> ein Erfolg, so der Minister.</i></p>
+<h3>Headlines</h3>
+<p>No article and no finite verb: <i>Kanzlerin unter Druck</i> · <i>Streit um Rente eskaliert</i> · <i>Neuer Rekord bei Stromverbrauch</i>.</p>
+ex:
+fill ¦ Beide Parteien kämpfen um die ___ über die Krise. ¦ Deutungshoheit ¦ Doppelmoral / Schlagzeile / Spaltung ¦ Ambos partidos luchan por imponer su interpretación de la crisis. ¦ Both parties are fighting for interpretive authority over the crisis. ¦ Deutungshoheit ¦ Deutungshoheit
+fill ¦ Die Pandemie markierte eine ___ in der Arbeitswelt. ¦ Zäsur ¦ Panikmache / Konsens / Doppelmoral ¦ La pandemia marcó un punto de inflexión en el mundo laboral. ¦ The pandemic marked a turning point in the world of work. ¦ die Zäsur = punto de inflexión ¦ die Zäsur = turning point
+fill ¦ Die Regierung sucht einen ___ für ihr Scheitern. ¦ Sündenbock ¦ Konsens / Diskurs / Narrativ ¦ El gobierno busca un chivo expiatorio para su fracaso. ¦ The government is looking for a scapegoat for its failure. ¦ der Sündenbock ¦ der Sündenbock
+fill ¦ Der Minister ist ___ in den Skandal verwickelt. ¦ angeblich ¦ sogenannt / anscheinend / offen ¦ El ministro está supuestamente implicado en el escándalo. ¦ The minister is allegedly involved in the scandal. ¦ angeblich = supuestamente ¦ angeblich = allegedly
+fill ¦ Die Opposition warf der Regierung ___ vor. ¦ Schönfärberei ¦ Schwarzmalerei / Deutungshoheit / Zäsur ¦ La oposición acusó al gobierno de maquillar la realidad. ¦ The opposition accused the government of whitewashing. ¦ Schönfärberei = edulcorar ¦ Schönfärberei = whitewashing
+choose ¦ El eufemismo «Freisetzung von Mitarbeitern» significa… ¦ The euphemism «Freisetzung von Mitarbeitern» means… ¦ despidos / lay-offs ¦ vacaciones / holidays / ascensos / promotions / liberación de presos / release of prisoners
+choose ¦ ¿Qué forma es típica de un titular? ¦ Which form is typical of a headline? ¦ Streit um Rente eskaliert ¦ Der Streit um die Rente ist eskaliert, sagte man. / Es eskaliert ein Streit um die Rente. / Man streitet sich um die Rente.
+order ¦ Die Debatte zeigt eine tiefe Spaltung der Gesellschaft ¦ El debate muestra una profunda fractura social. ¦ The debate reveals a deep division in society.
+translate ¦ Eso es pura doble moral. ¦ That's sheer double standards. ¦ Das ist reine Doppelmoral. ¦ Das ist pure Doppelmoral.
+match ¦ das Narrativ=el relato=narrative; der Dissens=el desacuerdo=disagreement; die Panikmache=el alarmismo=scaremongering; der Euphemismus=el eufemismo=euphemism; die Schlagzeile=el titular=headline
+listen ¦ Die Opposition spricht von Panikmache und Schwarzmalerei. ¦ Die Regierung spricht von Panikmache und Schwarzmalerei. / Die Opposition spricht von Schönfärberei und Schwarzmalerei. / Die Opposition sprach von Panikmache und Schwarzmalerei.
+
+=== 9
+title: Er bedarf keiner Hilfe ¦ No precisa ayuda ¦ He needs no help
+desc: Estructuras cultas y arcaizantes: genitivo de objeto, Konjunktiv I de deseo y formas en desuso ¦ Elevated and archaic structures: genitive objects, Konjunktiv I wishes and obsolete forms
+gram: verbos con genitivo: bedürfen, gedenken, sich bedienen, sich entsinnen, sich rühmen ¦ adjetivos con genitivo: bewusst, würdig, schuldig, sicher, mächtig ¦ Konjunktiv I en deseos y fórmulas: Man nehme …, Es sei denn, Gott sei Dank ¦ -e del dativo: im Grunde, zu Hause, auf dem Lande
+gram_en: verbs with the genitive: bedürfen, gedenken, sich bedienen, sich entsinnen, sich rühmen ¦ adjectives with the genitive: bewusst, würdig, schuldig, sicher, mächtig ¦ Konjunktiv I in wishes and formulas: Man nehme …, Es sei denn, Gott sei Dank ¦ the dative -e: im Grunde, zu Hause, auf dem Lande
+ref: c2-gehobene-strukturen
+words: bedürfen, gedenken, sich bedienen, sich entsinnen, sich rühmen, würdig, schuldig, mächtig, gewahr, der Fürsprecher, sich enthalten, sich vergewissern
+intro:
+<h3>Verbos con genitivo</h3>
+<table><tr><td><b>bedürfen</b></td><td>Das <b>bedarf</b> keiner Erklärung. (no requiere explicación)</td></tr>
+<tr><td><b>gedenken</b></td><td>Wir <b>gedenken</b> der Opfer. (recordamos)</td></tr>
+<tr><td><b>sich bedienen</b></td><td>Er <b>bediente sich</b> eines Tricks. (se valió de)</td></tr>
+<tr><td><b>sich entsinnen</b></td><td>Ich <b>entsinne mich</b> dessen nicht. (no lo recuerdo)</td></tr>
+<tr><td><b>sich enthalten</b></td><td>Sie <b>enthielt sich</b> der Stimme. (se abstuvo)</td></tr>
+<tr><td><b>sich vergewissern</b></td><td>Er <b>vergewisserte sich</b> der Fakten. (se cercioró)</td></tr></table>
+<h3>Adjetivos con genitivo</h3>
+<p><i>sich einer Sache <b>bewusst</b> sein</i> (ser consciente) · <i>des Lobes <b>würdig</b></i> (digno de elogio) · <i>eines Verbrechens <b>schuldig</b></i> · <i>einer Sprache <b>mächtig</b> sein</i> (dominar un idioma) · <i>seiner Sache <b>sicher</b></i></p>
+<h3>Konjunktiv I en fórmulas</h3>
+<p><i>Man <b>nehme</b> 200 g Mehl.</i> (recetas) · <i><b>Gott sei Dank!</b></i> · <i><b>Es lebe</b> der König!</i> · <i>A <b>sei</b> ein Punkt auf der Geraden.</i> (matemáticas)</p>
+<h3>Restos de la -e del dativo</h3>
+<p><i>im Grund<b>e</b>, zu Haus<b>e</b>, auf dem Land<b>e</b>, im Sinn<b>e</b>, dem Volk<b>e</b></i> (en el Reichstag: «Dem deutschen Volke»).</p>
+intro_en:
+<h3>Verbs with the genitive</h3>
+<table><tr><td><b>bedürfen</b></td><td>Das <b>bedarf</b> keiner Erklärung. (needs no explanation)</td></tr>
+<tr><td><b>gedenken</b></td><td>Wir <b>gedenken</b> der Opfer. (we commemorate)</td></tr>
+<tr><td><b>sich bedienen</b></td><td>Er <b>bediente sich</b> eines Tricks. (made use of)</td></tr>
+<tr><td><b>sich entsinnen</b></td><td>Ich <b>entsinne mich</b> dessen nicht. (I don't recall)</td></tr>
+<tr><td><b>sich enthalten</b></td><td>Sie <b>enthielt sich</b> der Stimme. (abstained)</td></tr>
+<tr><td><b>sich vergewissern</b></td><td>Er <b>vergewisserte sich</b> der Fakten. (made sure of)</td></tr></table>
+<h3>Adjectives with the genitive</h3>
+<p><i>sich einer Sache <b>bewusst</b> sein</i> (be aware of) · <i>des Lobes <b>würdig</b></i> (worthy of praise) · <i>eines Verbrechens <b>schuldig</b></i> (guilty of) · <i>einer Sprache <b>mächtig</b> sein</i> (have command of a language) · <i>seiner Sache <b>sicher</b></i> (sure of oneself)</p>
+<h3>Konjunktiv I in set formulas</h3>
+<p><i>Man <b>nehme</b> 200 g Mehl.</i> (recipes: take 200 g flour) · <i><b>Gott sei Dank!</b></i> · <i><b>Es lebe</b> der König!</i> · <i>A <b>sei</b> ein Punkt auf der Geraden.</i> (maths: let A be)</p>
+<h3>Traces of the dative -e</h3>
+<p><i>im Grund<b>e</b>, zu Haus<b>e</b>, auf dem Land<b>e</b>, im Sinn<b>e</b>, dem Volk<b>e</b></i> (on the Reichstag: «Dem deutschen Volke»).</p>
+ex:
+fill ¦ Diese Frage bedarf ___ Antwort. ¦ einer ¦ eine / einem / einen ¦ Esta pregunta requiere una respuesta. ¦ This question requires an answer. ¦ bedürfen + genitivo ¦ bedürfen + genitive
+fill ¦ Wir gedenken ___ Verstorbenen. ¦ der ¦ den / die / dem ¦ Recordamos a los fallecidos. ¦ We remember the deceased. ¦ gedenken + genitivo ¦ gedenken + genitive
+fill ¦ Sie ist der deutschen Sprache ___. ¦ mächtig ¦ würdig / schuldig / bewusst ¦ Domina la lengua alemana. ¦ She has a command of the German language. ¦ einer Sprache mächtig sein ¦ einer Sprache mächtig sein
+fill ¦ Drei Abgeordnete enthielten sich ___ Stimme. ¦ der ¦ die / dem / den ¦ Tres diputados se abstuvieron. ¦ Three MPs abstained. ¦ sich enthalten + genitivo ¦ sich enthalten + genitive
+fill ¦ Man ___ drei Eier und etwas Zucker. ¦ nehme ¦ nimmt / nähme / nehmt ¦ Tómense tres huevos y algo de azúcar. ¦ Take three eggs and a little sugar. ¦ Konjunktiv I en recetas ¦ Konjunktiv I in recipes
+fill ¦ Er war sich der Gefahr nicht ___. ¦ bewusst ¦ würdig / mächtig / schuldig ¦ No era consciente del peligro. ¦ He wasn't aware of the danger. ¦ sich bewusst sein + genitivo ¦ sich bewusst sein + genitive
+choose ¦ Equivalente neutro de «Ich entsinne mich dessen nicht». ¦ Neutral equivalent of «Ich entsinne mich dessen nicht». ¦ Ich erinnere mich nicht daran. ¦ Ich weiß das nicht. / Ich denke nicht daran. / Ich bin nicht sicher.
+order ¦ Der Angeklagte wurde des Betrugs schuldig gesprochen ¦ El acusado fue declarado culpable de fraude. ¦ The defendant was found guilty of fraud.
+translate ¦ Se cercioró de que la puerta estaba cerrada. ¦ He made sure that the door was locked. ¦ Er vergewisserte sich, dass die Tür abgeschlossen war. ¦ Er hat sich vergewissert, dass die Tür abgeschlossen war. / Er vergewisserte sich, dass die Tür zu war.
+match ¦ bedürfen=requerir=to require; sich rühmen=jactarse=to boast of; gewahr werden=percatarse=to become aware; der Fürsprecher=el defensor=advocate; würdig=digno=worthy
+listen ¦ Das bedarf keiner weiteren Erklärung. ¦ Das bedarf einer weiteren Erklärung. / Das bedarf keiner weiteren Erwähnung. / Dies bedarf keiner weiteren Erklärung.
+
+=== 10
+title: Denglisch und Wortspiele ¦ Denglisch y juegos de palabras ¦ Denglisch and puns
+desc: Creatividad léxica: neologismos, anglicismos, juegos de palabras y palabras del año ¦ Lexical creativity: neologisms, anglicisms, puns and words of the year
+gram: anglicismos integrados: downloaden → heruntergeladen / gedownloadet ¦ pseudoanglicismos: Handy, Beamer, Oldtimer, Public Viewing ¦ composición creativa: Wutbürger, Politikverdrossenheit, Fremdschämen ¦ juegos de palabras en publicidad y titulares
+gram_en: integrated anglicisms: downloaden → heruntergeladen / gedownloadet ¦ pseudo-anglicisms: Handy, Beamer, Oldtimer, Public Viewing ¦ creative compounding: Wutbürger, Politikverdrossenheit, Fremdschämen ¦ puns in advertising and headlines
+ref: c2-wortschoepfung
+words: der Anglizismus, das Denglisch, der Neologismus, das Wortspiel, das Wort des Jahres, der Wutbürger, die Politikverdrossenheit, das Fremdschämen, der Beamer, der Oldtimer, gedownloadet, die Wortschöpfung, doppeldeutig
+intro:
+<h3>Anglicismos y su gramática</h3>
+<p>Los verbos ingleses se conjugan a la alemana: <i>downloaden → ich <b>habe</b> die Datei <b>gedownloadet</b></i> (o mejor: <i>heruntergeladen</i>), <i>chatten → gechattet</i>, <i>liken → geliket</i>. Los sustantivos reciben género: <i><b>das</b> Meeting, <b>die</b> Deadline, <b>der</b> Laptop</i>.</p>
+<h3>Pseudoanglicismos (¡no existen en inglés!)</h3>
+<table><tr><td>das <b>Handy</b></td><td>el móvil (mobile / cell phone)</td></tr>
+<tr><td>der <b>Beamer</b></td><td>el proyector (projector)</td></tr>
+<tr><td>der <b>Oldtimer</b></td><td>el coche clásico (vintage car)</td></tr>
+<tr><td>das <b>Public Viewing</b></td><td>la retransmisión en pantalla gigante</td></tr>
+<tr><td>der <b>Smoking</b></td><td>el esmoquin (dinner jacket / tuxedo)</td></tr></table>
+<h3>Composición creativa</h3>
+<p>El alemán crea palabras precisas combinando: <b>Wutbürger</b> (ciudadano indignado; palabra del año 2010), <b>Politikverdrossenheit</b> (hartazgo de la política), <b>Fremdschämen</b> (vergüenza ajena), <b>Kummerspeck</b> (kilos ganados por pena), <b>Torschlusspanik</b> (miedo a quedarse fuera).</p>
+<h3>Juegos de palabras</h3>
+<p>La publicidad juega con la doble lectura: <i>«Haar-genau»</i> (peluquería: exacto / pelo) · <i>«Hier werden Sie geholfen»</i> (error buscado) · titulares como <i>«Alles in Butter?»</i> sobre el precio de la mantequilla.</p>
+intro_en:
+<h3>Anglicisms and their grammar</h3>
+<p>English verbs are conjugated the German way: <i>downloaden → ich <b>habe</b> die Datei <b>gedownloadet</b></i> (or better: <i>heruntergeladen</i>), <i>chatten → gechattet</i>, <i>liken → geliket</i>. Nouns are given a gender: <i><b>das</b> Meeting, <b>die</b> Deadline, <b>der</b> Laptop</i>.</p>
+<h3>Pseudo-anglicisms (they don't exist in English!)</h3>
+<table><tr><td>das <b>Handy</b></td><td>mobile / cell phone</td></tr>
+<tr><td>der <b>Beamer</b></td><td>projector</td></tr>
+<tr><td>der <b>Oldtimer</b></td><td>vintage car</td></tr>
+<tr><td>das <b>Public Viewing</b></td><td>a big-screen broadcast</td></tr>
+<tr><td>der <b>Smoking</b></td><td>dinner jacket / tuxedo</td></tr></table>
+<h3>Creative compounding</h3>
+<p>German builds precise words by combining: <b>Wutbürger</b> (angry citizen; word of the year 2010), <b>Politikverdrossenheit</b> (disenchantment with politics), <b>Fremdschämen</b> (vicarious embarrassment), <b>Kummerspeck</b> (weight gained through grief), <b>Torschlusspanik</b> (fear of missing the boat).</p>
+<h3>Puns</h3>
+<p>Advertising plays on double meanings: <i>«Haar-genau»</i> (hairdresser: exact / hair) · <i>«Hier werden Sie geholfen»</i> (deliberate grammar mistake) · headlines like <i>«Alles in Butter?»</i> (all fine? / butter) about butter prices.</p>
+ex:
+fill ¦ Ich habe die App gestern ___. ¦ heruntergeladen ¦ geheruntergeladen / herunterladet / heruntergeloadet ¦ Ayer me descargué la app. ¦ I downloaded the app yesterday. ¦ herunterladen: separable ¦ herunterladen: separable
+fill ¦ Für die Präsentation brauchen wir einen ___. ¦ Beamer ¦ Handy / Oldtimer / Smoking ¦ Para la presentación necesitamos un proyector. ¦ We need a projector for the presentation. ¦ Pseudoanglicismo ¦ Pseudo-anglicism
+fill ¦ Bei dieser peinlichen Rede musste ich mich ___. ¦ fremdschämen ¦ schämen fremd / fremdgeschämt / Fremdschämen ¦ Con ese discurso tan bochornoso sentí vergüenza ajena. ¦ That embarrassing speech made me cringe for him. ¦ sich fremdschämen ¦ sich fremdschämen
+fill ¦ Viele junge Menschen leiden unter ___. ¦ Politikverdrossenheit ¦ Wutbürger / Wortspiel / Neologismus ¦ Muchos jóvenes sufren hartazgo de la política. ¦ Many young people suffer from disenchantment with politics. ¦ Composición ¦ Compound
+fill ¦ Der Slogan ist ___: Er hat zwei Bedeutungen. ¦ doppeldeutig ¦ eindeutig / zweifellos / deutlich ¦ El eslogan es ambiguo: tiene dos significados. ¦ The slogan is ambiguous: it has two meanings. ¦ doppeldeutig = ambiguo ¦ doppeldeutig = ambiguous
+choose ¦ ¿Qué palabra NO se usa así en inglés? ¦ Which word is NOT used like this in English? ¦ Handy ¦ Computer / Laptop / Software
+choose ¦ Género de «Deadline» en alemán. ¦ The gender of «Deadline» in German. ¦ die Deadline ¦ der Deadline / das Deadline / den Deadline
+order ¦ Wutbürger wurde zum Wort des Jahres gewählt ¦ «Wutbürger» fue elegida palabra del año. ¦ «Wutbürger» was chosen as word of the year.
+translate ¦ Mi abuelo colecciona coches clásicos. ¦ My grandfather collects vintage cars. ¦ Mein Großvater sammelt Oldtimer. ¦ Mein Opa sammelt Oldtimer.
+match ¦ der Neologismus=el neologismo=neologism; das Wortspiel=el juego de palabras=pun; der Anglizismus=el anglicismo=anglicism; die Wortschöpfung=la creación léxica=coinage; der Wutbürger=el ciudadano indignado=angry citizen
+listen ¦ Das Meeting wurde wegen der Deadline verschoben. ¦ Das Meeting wurde wegen der Deadline abgesagt. / Das Treffen wurde wegen der Deadline verschoben. / Das Meeting wird wegen der Deadline verschoben.
+
+=== 11
+title: Krass, Alter! ¦ ¡Flipante, tío! ¦ Wicked, mate!
+desc: Lengua coloquial y juvenil: contracciones, muletillas, argot y registro ¦ Colloquial and youth language: contractions, fillers, slang and register
+gram: contracciones orales: hast du → haste, ist es → isses, ein → 'n ¦ muletillas: halt, irgendwie, quasi, sozusagen, ne? ¦ argot juvenil: krass, chillen, Digga, cringe, lost ¦ tun + infinitivo y am + infinitivo (coloquial)
+gram_en: spoken contractions: hast du → haste, ist es → isses, ein → 'n ¦ fillers: halt, irgendwie, quasi, sozusagen, ne? ¦ youth slang: krass, chillen, Digga, cringe, lost ¦ tun + infinitive and am + infinitive (colloquial)
+ref: c2-umgangssprache
+words: krass, chillen, der Digga, cringe, lost, quasi, sozusagen, irgendwie, die Umgangssprache, umgangssprachlich, die Jugendsprache, der Slang, abhängen, labern
+intro:
+<h3>Contracciones de la lengua hablada</h3>
+<table><tr><td>hast du → <b>haste</b></td><td><i>Haste mal 'n Euro?</i></td></tr>
+<tr><td>ist es → <b>isses</b> · gibt es → <b>gibt's</b></td><td><i>Wie isses?</i></td></tr>
+<tr><td>ein / eine → <b>'n / 'ne</b></td><td><i>Ich hab 'ne Idee.</i></td></tr>
+<tr><td>nicht wahr? → <b>ne?</b> / <b>gell?</b> (sur)</td><td><i>Cool, ne?</i></td></tr></table>
+<h3>Muletillas</h3>
+<p><i>halt, irgendwie, quasi, sozusagen, also, na ja, eben</i>: <i>Das war <b>irgendwie</b> komisch, <b>halt</b> so <b>quasi</b> peinlich.</i></p>
+<h3>Argot juvenil (cambia rápido)</h3>
+<table><tr><td><b>krass</b></td><td>flipante, brutal (positivo o negativo)</td></tr>
+<tr><td><b>chillen</b> / <b>abhängen</b></td><td>relajarse / pasar el rato</td></tr>
+<tr><td><b>Digga</b> / <b>Alter</b></td><td>tío, colega</td></tr>
+<tr><td><b>cringe</b></td><td>que da vergüenza ajena (palabra juvenil del año 2021)</td></tr>
+<tr><td><b>lost</b></td><td>perdido, despistado (2020)</td></tr>
+<tr><td><b>labern</b></td><td>parlotear, decir tonterías</td></tr></table>
+<h3>Gramática coloquial</h3>
+<p><i>Ich <b>bin</b> gerade <b>am Kochen</b>.</i> (forma progresiva) · <i>Ich <b>tu</b> grad <b>lesen</b>.</i> (tun + infinitivo, dialectal) · <i>wegen <b>dem</b> Wetter</i> (dativo en lugar de genitivo).</p>
+<div class="tip">Comprender este registro es parte del C2; usarlo por escrito en un examen, no.</div>
+intro_en:
+<h3>Contractions in spoken German</h3>
+<table><tr><td>hast du → <b>haste</b></td><td><i>Haste mal 'n Euro?</i> (Got a euro?)</td></tr>
+<tr><td>ist es → <b>isses</b> · gibt es → <b>gibt's</b></td><td><i>Wie isses?</i> (How's it going?)</td></tr>
+<tr><td>ein / eine → <b>'n / 'ne</b></td><td><i>Ich hab 'ne Idee.</i></td></tr>
+<tr><td>nicht wahr? → <b>ne?</b> / <b>gell?</b> (south)</td><td><i>Cool, ne?</i> (Cool, right?)</td></tr></table>
+<h3>Fillers</h3>
+<p><i>halt, irgendwie, quasi, sozusagen, also, na ja, eben</i>: <i>Das war <b>irgendwie</b> komisch, <b>halt</b> so <b>quasi</b> peinlich.</i> (It was kind of weird, like, sort of embarrassing.)</p>
+<h3>Youth slang (changes fast)</h3>
+<table><tr><td><b>krass</b></td><td>wicked, insane (positive or negative)</td></tr>
+<tr><td><b>chillen</b> / <b>abhängen</b></td><td>to chill / to hang out</td></tr>
+<tr><td><b>Digga</b> / <b>Alter</b></td><td>mate, dude</td></tr>
+<tr><td><b>cringe</b></td><td>cringeworthy (youth word of the year 2021)</td></tr>
+<tr><td><b>lost</b></td><td>clueless (2020)</td></tr>
+<tr><td><b>labern</b></td><td>to babble, talk nonsense</td></tr></table>
+<h3>Colloquial grammar</h3>
+<p><i>Ich <b>bin</b> gerade <b>am Kochen</b>.</i> (progressive: I'm cooking) · <i>Ich <b>tu</b> grad <b>lesen</b>.</i> (tun + infinitive, dialectal) · <i>wegen <b>dem</b> Wetter</i> (dative instead of genitive).</p>
+<div class="tip">Understanding this register is part of C2; using it in a written exam is not.</div>
+ex:
+fill ¦ ___ mal 'n Stift für mich? ¦ Haste ¦ Hast / Hastu / Habste ¦ ¿Tienes un boli para mí? ¦ Got a pen for me? ¦ hast du → haste ¦ hast du → haste
+fill ¦ Am Wochenende will ich einfach nur ___. ¦ chillen ¦ labern / krass / lost ¦ El fin de semana solo quiero relajarme. ¦ At the weekend I just want to chill. ¦ chillen = relajarse ¦ chillen = to chill
+fill ¦ Ich bin gerade am ___, ruf später an. ¦ Kochen ¦ kochen / gekocht / kocht ¦ Estoy cocinando, llama luego. ¦ I'm cooking right now, call later. ¦ am + infinitivo sustantivado ¦ am + nominalised infinitive
+fill ¦ Was ___ der denn da für einen Unsinn? ¦ labert ¦ chillt / hängt / krasst ¦ ¿Qué tonterías está diciendo ese? ¦ What nonsense is he babbling? ¦ labern = decir tonterías ¦ labern = to babble
+fill ¦ Das Video war total ___, ich konnte nicht hinsehen. ¦ cringe ¦ chillen / lost / quasi ¦ El vídeo daba muchísima vergüenza ajena, no podía mirar. ¦ The video was so cringe, I couldn't watch. ¦ cringe ¦ cringe
+choose ¦ Versión estándar de «wegen dem Regen». ¦ Standard version of «wegen dem Regen». ¦ wegen des Regens ¦ wegen der Regen / wegen den Regen / wegen Regens dem
+choose ¦ «Ich bin total lost» significa… ¦ «Ich bin total lost» means… ¦ no me entero de nada / I'm totally clueless ¦ he perdido la cartera / I've lost my wallet / estoy enamorado / I'm in love / estoy muy cansado / I'm very tired
+order ¦ Wir hängen heute Abend im Park ab ¦ Esta noche pasamos el rato en el parque. ¦ We're hanging out in the park tonight.
+translate ¦ ¡Qué fuerte, tío! ¦ That's insane, mate! ¦ Krass, Alter! ¦ Krass, Digga!
+match ¦ krass=flipante=wicked; quasi=prácticamente=sort of; die Umgangssprache=el lenguaje coloquial=colloquial language; abhängen=pasar el rato=to hang out; der Slang=la jerga=slang
+listen ¦ Haste Bock, heute Abend was zu machen? ¦ Haste Zeit, heute Abend was zu machen? / Haste Bock, morgen Abend was zu machen? / Habt ihr Bock, heute Abend was zu machen?
+
+=== 12
+title: Speisen, essen, futtern ¦ Degustar, comer, zampar ¦ Dine, eat, scoff
+desc: Niveles de estilo: reformular un mismo contenido en registro elevado, neutro y coloquial ¦ Stylistic levels: rephrasing the same content in elevated, neutral and colloquial register
+gram: tres niveles: gehoben – neutral – umgangssprachlich ¦ series léxicas: speisen / essen / futtern; versterben / sterben / abkratzen ¦ marcas del registro: Konjunktiv, Genitiv, Nominalstil frente a contracciones y partículas ¦ cambiar de registro sin cambiar el contenido
+gram_en: three levels: elevated – neutral – colloquial ¦ word series: speisen / essen / futtern; versterben / sterben / abkratzen ¦ markers of register: Konjunktiv, genitive, nominal style versus contractions and particles ¦ switching register without changing content
+ref: c2-stilebenen
+words: speisen, futtern, versterben, abkratzen, das Antlitz, die Visage, das Gefährt, die Karre, die Stilebene, gehoben, salopp, derb, abwertend, die Behausung, die Bude, entschlafen
+intro:
+<h3>Mismo significado, distinto registro</h3>
+<table><tr><th>gehoben (elevado)</th><th>neutral</th><th>umgangssprachlich / salopp</th></tr>
+<tr><td>speisen</td><td>essen</td><td>futtern, mampfen</td></tr>
+<tr><td>versterben, entschlafen</td><td>sterben</td><td>abkratzen (derb)</td></tr>
+<tr><td>das Antlitz</td><td>das Gesicht</td><td>die Visage (abwertend)</td></tr>
+<tr><td>das Gefährt</td><td>das Auto</td><td>die Karre, die Kiste</td></tr>
+<tr><td>die Behausung, das Domizil</td><td>die Wohnung</td><td>die Bude</td></tr>
+<tr><td>sich begeben</td><td>gehen</td><td>abhauen, sich verziehen</td></tr></table>
+<h3>Marcas gramaticales del registro</h3>
+<p><b>Elevado:</b> genitivo, Konjunktiv I/II, estilo nominal, inversión, vocabulario latino.<br><b>Coloquial:</b> contracciones, partículas, dativo por genitivo, Perfekt en lugar de Präteritum, elipsis.</p>
+<div class="example">gehoben: <i>Nach dem Ableben seines Vaters begab er sich unverzüglich in sein Domizil.</i><br>neutral: <i>Nachdem sein Vater gestorben war, ging er sofort nach Hause.</i><br>salopp: <i>Als sein Alter abgekratzt ist, is' er gleich heim.</i></div>
+<div class="tip">Etiquetas de los diccionarios (Duden): <i>gehoben, bildungssprachlich, umgangssprachlich, salopp, derb, abwertend, veraltet</i>.</div>
+intro_en:
+<h3>Same meaning, different register</h3>
+<table><tr><th>gehoben (elevated)</th><th>neutral</th><th>umgangssprachlich / salopp (colloquial / slangy)</th></tr>
+<tr><td>speisen (dine)</td><td>essen (eat)</td><td>futtern, mampfen (scoff, munch)</td></tr>
+<tr><td>versterben, entschlafen (pass away)</td><td>sterben (die)</td><td>abkratzen (derb: kick the bucket)</td></tr>
+<tr><td>das Antlitz (countenance)</td><td>das Gesicht (face)</td><td>die Visage (abwertend: mug)</td></tr>
+<tr><td>das Gefährt (conveyance)</td><td>das Auto (car)</td><td>die Karre, die Kiste (banger)</td></tr>
+<tr><td>die Behausung, das Domizil (abode)</td><td>die Wohnung (flat)</td><td>die Bude (pad)</td></tr>
+<tr><td>sich begeben (proceed)</td><td>gehen (go)</td><td>abhauen, sich verziehen (clear off)</td></tr></table>
+<h3>Grammatical markers of register</h3>
+<p><b>Elevated:</b> genitive, Konjunktiv I/II, nominal style, inversion, Latinate vocabulary.<br><b>Colloquial:</b> contractions, particles, dative for genitive, Perfekt instead of Präteritum, ellipsis.</p>
+<div class="example">gehoben: <i>Nach dem Ableben seines Vaters begab er sich unverzüglich in sein Domizil.</i><br>neutral: <i>Nachdem sein Vater gestorben war, ging er sofort nach Hause.</i><br>salopp: <i>Als sein Alter abgekratzt ist, is' er gleich heim.</i> (After his father died, he went straight home.)</div>
+<div class="tip">Dictionary labels (Duden): <i>gehoben, bildungssprachlich, umgangssprachlich, salopp, derb, abwertend, veraltet</i> (elevated, learned, colloquial, slangy, vulgar, pejorative, dated).</div>
+ex:
+fill ¦ Im Restaurant «Zur Krone» ___ man vorzüglich. (gehoben) ¦ speist ¦ futtert / isst man / mampft ¦ En el restaurante «Zur Krone» se come exquisitamente. ¦ One dines exquisitely at the «Zur Krone» restaurant. ¦ speisen = comer (elevado) ¦ speisen = to dine (elevated)
+fill ¦ Er ist letzte Woche im Alter von 90 Jahren ___. (gehoben) ¦ verstorben ¦ abgekratzt / gestorbt / verstorbt ¦ Falleció la semana pasada a los 90 años. ¦ He passed away last week at the age of 90. ¦ versterben (elevado) ¦ versterben (elevated)
+fill ¦ Komm, wir ___ jetzt was, ich hab Hunger! (salopp) ¦ futtern ¦ speisen / dinieren / verzehren ¦ Venga, vamos a zampar algo, ¡tengo hambre! ¦ Come on, let's grab some grub, I'm starving! ¦ futtern (coloquial) ¦ futtern (colloquial)
+fill ¦ Seine alte ___ springt im Winter nie an. (salopp) ¦ Karre ¦ Gefährt / Antlitz / Behausung ¦ Su viejo cacharro nunca arranca en invierno. ¦ His old banger never starts in winter. ¦ die Karre (coloquial) ¦ die Karre (colloquial)
+fill ¦ Ihr ___ war von Trauer gezeichnet. (gehoben) ¦ Antlitz ¦ Visage / Bude / Karre ¦ Su semblante estaba marcado por la tristeza. ¦ Her countenance was marked by grief. ¦ das Antlitz (elevado) ¦ das Antlitz (elevated)
+choose ¦ Versión neutra de «Er begab sich unverzüglich in sein Domizil». ¦ Neutral version of «Er begab sich unverzüglich in sein Domizil». ¦ Er ging sofort nach Hause. ¦ Er haute sofort ab. / Er hat sich in seine Bude verzogen. / Er begab sich in seine Wohnung.
+choose ¦ La etiqueta «abwertend» significa… ¦ The label «abwertend» means… ¦ peyorativo / pejorative ¦ anticuado / dated / elevado / elevated / técnico / technical
+order ¦ Nachdem sein Vater gestorben war ging er sofort nach Hause ¦ Después de que muriera su padre, se fue enseguida a casa. ¦ After his father had died, he went straight home.
+translate ¦ Mi piso es diminuto. (coloquial: Bude) ¦ My pad is tiny. ¦ Meine Bude ist winzig. ¦ Meine Bude ist total klein. / Meine Bude ist mini.
+match ¦ gehoben=elevado=elevated; salopp=coloquial, desenfadado=slangy; derb=vulgar=coarse; die Behausung=la morada=dwelling; entschlafen=fallecer (eufemismo)=to pass away
+listen ¦ Nach dem Ableben seines Vaters begab er sich nach Hause. ¦ Nach dem Tod seines Vaters begab er sich nach Hause. / Nach dem Ableben seines Vaters begab er sich ins Büro. / Nach dem Ableben seiner Mutter begab er sich nach Hause.
+
+=== 13
+title: Duzen oder Siezen? ¦ ¿Tutear o tratar de usted? ¦ Du or Sie?
+desc: Cortesía intercultural: tratamiento, crítica indirecta, rechazo y diferencias culturales ¦ Intercultural politeness: forms of address, indirect criticism, declining and cultural differences
+gram: du / Sie / ihr: cuándo y cómo se cambia (das Du anbieten) ¦ títulos: Frau Dr. Müller, Herr Professor ¦ suavizar: Konjunktiv II, Modalpartikeln, preguntas indirectas ¦ críticas y rechazos corteses: Ich weiß nicht, ob …, Das wäre zu überlegen
+gram_en: du / Sie / ihr: when and how to switch (das Du anbieten) ¦ titles: Frau Dr. Müller, Herr Professor ¦ softening: Konjunktiv II, modal particles, indirect questions ¦ polite criticism and refusal: Ich weiß nicht, ob …, Das wäre zu überlegen
+ref: c2-hoeflichkeit
+words: duzen, siezen, das Du anbieten, die Anrede, der Titel, die Direktheit, die Höflichkeitsform, taktvoll, taktlos, der Fauxpas, die Gepflogenheit, unverblümt
+intro:
+<h3>du y Sie</h3>
+<p>El <b>Sie</b> es la norma entre adultos que no se conocen, en el trabajo y con autoridades. Pasar al <b>du</b> es un pequeño ritual: lo propone la persona de más edad o rango (<i>Wollen wir uns duzen? · Ich bin übrigens Anna.</i>). En empresas jóvenes, entre estudiantes, en internet y en deporte se tutea casi siempre.</p>
+<p>Austria y Suiza tutean algo más rápido; en el sur hay formas intermedias como <i>Sie</i> + nombre de pila (<i>Anna, können Sie …?</i>).</p>
+<h3>Títulos</h3>
+<p>El título de doctor forma parte del nombre en contextos formales: <i>Sehr geehrte <b>Frau Dr.</b> Weber</i>. En Austria los títulos tienen aún más peso: <i>Frau Magister, Herr Hofrat</i>.</p>
+<h3>Directo, pero cortés</h3>
+<p>La comunicación alemana se percibe como <b>directa</b> (crítica centrada en la cosa, no en la persona). Para suavizar:</p>
+<table><tr><td>Konjunktiv II</td><td><i>Könnten Sie …? · Ich würde vorschlagen …</i></td></tr>
+<tr><td>preguntas indirectas</td><td><i>Ich wollte fragen, ob …</i></td></tr>
+<tr><td>crítica indirecta</td><td><i>Ich weiß nicht, ob das die beste Lösung ist. · Das wäre noch zu überlegen.</i></td></tr>
+<tr><td>rechazo</td><td><i>Das ist sehr nett, aber leider … · Ich muss leider absagen.</i></td></tr></table>
+<div class="tip">Un <b>Fauxpas</b> típico: tutear a un desconocido mayor o llegar tarde sin avisar; la puntualidad es una <b>Gepflogenheit</b> muy valorada.</div>
+intro_en:
+<h3>du and Sie</h3>
+<p><b>Sie</b> is the norm between adults who don't know each other, at work and with officials. Switching to <b>du</b> is a little ritual: the older or more senior person proposes it (<i>Wollen wir uns duzen? · Ich bin übrigens Anna.</i>). In young companies, among students, online and in sport people almost always use du.</p>
+<p>Austria and Switzerland switch to du a bit faster; in the south there are halfway forms like <i>Sie</i> + first name (<i>Anna, können Sie …?</i>).</p>
+<h3>Titles</h3>
+<p>The doctor title is part of the name in formal contexts: <i>Sehr geehrte <b>Frau Dr.</b> Weber</i>. In Austria titles carry even more weight: <i>Frau Magister, Herr Hofrat</i>.</p>
+<h3>Direct but polite</h3>
+<p>German communication is seen as <b>direct</b> (criticism aimed at the issue, not the person). To soften it:</p>
+<table><tr><td>Konjunktiv II</td><td><i>Könnten Sie …? · Ich würde vorschlagen …</i></td></tr>
+<tr><td>indirect questions</td><td><i>Ich wollte fragen, ob …</i></td></tr>
+<tr><td>indirect criticism</td><td><i>Ich weiß nicht, ob das die beste Lösung ist. · Das wäre noch zu überlegen.</i> (I'm not sure that's the best solution. · That might need more thought.)</td></tr>
+<tr><td>declining</td><td><i>Das ist sehr nett, aber leider … · Ich muss leider absagen.</i></td></tr></table>
+<div class="tip">A typical <b>faux pas</b>: using du with an older stranger, or arriving late without warning; punctuality is a highly valued <b>custom</b> (Gepflogenheit).</div>
+ex:
+fill ¦ Wollen wir uns nicht ___? Ich bin Thomas. ¦ duzen ¦ siezen / du sagen / dutzen ¦ ¿Por qué no nos tuteamos? Soy Thomas. ¦ Shall we use du? I'm Thomas. ¦ duzen = tutear ¦ duzen = to use du
+fill ¦ Sehr geehrte Frau ___ Weber, … ¦ Dr. ¦ Doktorin / Doktor Frau / Dra. ¦ Estimada Dra. Weber: … ¦ Dear Dr Weber, … ¦ Título en la carta ¦ Title in a letter
+fill ¦ ___ Sie mir bitte sagen, wo der Ausgang ist? ¦ Könnten ¦ Können / Konnten / Kann ¦ ¿Podría decirme dónde está la salida? ¦ Could you tell me where the exit is? ¦ Konjunktiv II = más cortés ¦ Konjunktiv II = more polite
+fill ¦ Ich weiß nicht, ___ das die beste Lösung ist. ¦ ob ¦ dass / wenn / was ¦ No sé si es la mejor solución. ¦ I'm not sure whether that's the best solution. ¦ Crítica indirecta ¦ Indirect criticism
+fill ¦ Es war sehr ___, ihn nach seinem Gehalt zu fragen. ¦ taktlos ¦ taktvoll / höflich / unverblümt ¦ Fue muy indiscreto preguntarle por su sueldo. ¦ It was very tactless to ask him about his salary. ¦ taktlos = sin tacto ¦ taktlos = tactless
+choose ¦ ¿Quién propone normalmente el «du»? ¦ Who usually proposes «du»? ¦ la persona de más edad o rango / the older or more senior person ¦ la persona más joven / the younger person / quien llega primero / whoever arrives first / nadie, es automático / nobody, it's automatic
+choose ¦ La forma más suave de criticar una propuesta. ¦ The softest way to criticise a proposal. ¦ Das wäre vielleicht noch zu überlegen. ¦ Das ist falsch. / Das ist Unsinn. / Das geht nicht.
+order ¦ Das ist sehr nett aber ich muss leider absagen ¦ Es muy amable, pero por desgracia tengo que declinar. ¦ That's very kind, but unfortunately I have to decline.
+translate ¦ Le ofreció el tuteo. ¦ She offered him the du. ¦ Sie hat ihm das Du angeboten. ¦ Sie bot ihm das Du an.
+match ¦ siezen=tratar de usted=to use Sie; die Anrede=el tratamiento=form of address; der Fauxpas=la metedura de pata=faux pas; die Gepflogenheit=la costumbre=custom; unverblümt=sin rodeos=blunt
+listen ¦ Darf ich Ihnen das Du anbieten? ¦ Darf ich dir das Du anbieten? / Darf ich Ihnen das Sie anbieten? / Darf ich Ihnen den Platz anbieten?
+
+=== 14
+title: Mit anderen Worten ¦ Dicho de otro modo ¦ In other words
+desc: Mediación y resumen: parafrasear, condensar, traducir sentido y reformular para otro público ¦ Mediation and summary: paraphrasing, condensing, translating meaning and rephrasing for another audience
+gram: parafrasear: mit anderen Worten, das heißt, anders ausgedrückt ¦ resumir: im Wesentlichen, kurz zusammengefasst, der Kern der Aussage ¦ mediación: Der Text richtet sich an …, Für Laien bedeutet das … ¦ traducir el sentido, no las palabras
+gram_en: paraphrasing: mit anderen Worten, das heißt, anders ausgedrückt ¦ summarising: im Wesentlichen, kurz zusammengefasst, der Kern der Aussage ¦ mediation: Der Text richtet sich an …, Für Laien bedeutet das … ¦ translating meaning, not words
+ref: c2-sprachmittlung
+words: die Sprachmittlung, vermitteln, paraphrasieren, umschreiben, mit anderen Worten, anders ausgedrückt, im Wesentlichen, der Kern, die Kernaussage, der Laie, die Zielgruppe, verdichten, wiedergeben, sinngemäß
+intro:
+<h3>Qué es la mediación (Sprachmittlung)</h3>
+<p>En el C2 de la EOI se pide transmitir el contenido de un texto a otra persona, a menudo de otro idioma o con otros conocimientos. No se traduce palabra por palabra: se transmite el <b>sentido</b> adaptado a la <b>Zielgruppe</b> (público destinatario).</p>
+<h3>Parafrasear</h3>
+<p><i><b>Mit anderen Worten</b>: … · <b>Anders ausgedrückt</b>: … · <b>Das heißt</b>, … · <b>Sinngemäß</b> sagt der Autor, dass …</i></p>
+<h3>Resumir</h3>
+<table><tr><td>presentar</td><td>Der Text <b>behandelt</b> / <b>befasst sich mit</b> …</td></tr>
+<tr><td>núcleo</td><td>Die <b>Kernaussage</b> lautet: … · <b>Im Wesentlichen</b> geht es um …</td></tr>
+<tr><td>estructura</td><td>Zunächst … Anschließend … Abschließend …</td></tr>
+<tr><td>distancia</td><td>Der Autor <b>ist der Ansicht</b>, … sei … (Konjunktiv I)</td></tr></table>
+<h3>Adaptar al público</h3>
+<p><i>Der Artikel <b>richtet sich an</b> Fachleute. <b>Für Laien bedeutet</b> das vereinfacht: …</i> · Explica siglas y tecnicismos, elimina detalles secundarios y <b>verdichte</b> (condensa) la información.</p>
+intro_en:
+<h3>What mediation (Sprachmittlung) is</h3>
+<p>At EOI C2 you're asked to pass on the content of a text to someone else, often in another language or with different background knowledge. You don't translate word for word: you convey the <b>meaning</b> adapted to the <b>Zielgruppe</b> (target audience).</p>
+<h3>Paraphrasing</h3>
+<p><i><b>Mit anderen Worten</b>: … (in other words) · <b>Anders ausgedrückt</b>: … (to put it differently) · <b>Das heißt</b>, … (that is) · <b>Sinngemäß</b> sagt der Autor, dass … (in essence the author says)</i></p>
+<h3>Summarising</h3>
+<table><tr><td>introduce</td><td>Der Text <b>behandelt</b> / <b>befasst sich mit</b> … (deals with)</td></tr>
+<tr><td>core</td><td>Die <b>Kernaussage</b> lautet: … (the key message is) · <b>Im Wesentlichen</b> geht es um … (essentially it's about)</td></tr>
+<tr><td>structure</td><td>Zunächst … Anschließend … Abschließend …</td></tr>
+<tr><td>distance</td><td>Der Autor <b>ist der Ansicht</b>, … sei … (Konjunktiv I)</td></tr></table>
+<h3>Adapting to the audience</h3>
+<p><i>Der Artikel <b>richtet sich an</b> Fachleute. <b>Für Laien bedeutet</b> das vereinfacht: …</i> (The article is aimed at experts. For a layperson this simply means…) · Explain acronyms and jargon, drop secondary details and <b>condense</b> (verdichten) the information.</p>
+ex:
+fill ¦ Mit anderen ___: Das Projekt ist gescheitert. ¦ Worten ¦ Wörtern / Wort / Sätzen ¦ Dicho de otro modo: el proyecto ha fracasado. ¦ In other words: the project has failed. ¦ mit anderen Worten ¦ mit anderen Worten
+fill ¦ Der Text ___ sich mit den Folgen der Digitalisierung. ¦ befasst ¦ behandelt / handelt / geht ¦ El texto trata de las consecuencias de la digitalización. ¦ The text deals with the consequences of digitalisation. ¦ sich befassen mit ¦ sich befassen mit
+fill ¦ Im ___ geht es um die Frage der Gerechtigkeit. ¦ Wesentlichen ¦ Wesentliche / Wesen / Kern ¦ En esencia, se trata de la cuestión de la justicia. ¦ Essentially it's about the question of justice. ¦ im Wesentlichen ¦ im Wesentlichen
+fill ¦ Der Artikel richtet sich ___ Fachleute. ¦ an ¦ zu / für / auf ¦ El artículo va dirigido a especialistas. ¦ The article is aimed at experts. ¦ sich richten an ¦ sich richten an
+fill ¦ Die Autorin ist der Ansicht, die Maßnahme ___ zu spät gekommen. ¦ sei ¦ ist / wäre gewesen / war ¦ La autora opina que la medida llegó demasiado tarde. ¦ The author believes the measure came too late. ¦ Konjunktiv I ¦ Konjunktiv I
+fill ¦ ___ ausgedrückt: Wir haben kein Geld mehr. ¦ Anders ¦ Andere / Andern / Sonst ¦ Dicho de otra manera: ya no tenemos dinero. ¦ To put it differently: we've run out of money. ¦ anders ausgedrückt ¦ anders ausgedrückt
+choose ¦ ¿Qué NO se debe hacer al mediar? ¦ What should you NOT do when mediating? ¦ traducir palabra por palabra / translate word for word ¦ adaptar al público / adapt to the audience / explicar siglas / explain acronyms / condensar / condense
+order ¦ Die Kernaussage des Textes lautet wie folgt ¦ El mensaje central del texto es el siguiente. ¦ The key message of the text is as follows.
+translate ¦ Para un profano, eso significa lo siguiente. ¦ For a layperson, that means the following. ¦ Für Laien bedeutet das Folgendes. ¦ Für einen Laien bedeutet das Folgendes.
+match ¦ vermitteln=transmitir, mediar=to convey, to mediate; sinngemäß=en esencia=in essence; der Laie=el profano=layperson; die Zielgruppe=el público objetivo=target group; verdichten=condensar=to condense
+listen ¦ Kurz zusammengefasst lautet die Kernaussage des Textes so. ¦ Kurz zusammengefasst lautet die Hauptaussage des Textes so. / Lang zusammengefasst lautet die Kernaussage des Textes so. / Kurz zusammengefasst lautet die Kernaussage des Artikels so.
