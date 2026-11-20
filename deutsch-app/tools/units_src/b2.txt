@@ -299,3 +299,581 @@ translate ¦ El precio desempeña un papel importante. ¦ The price plays an imp
 translate ¦ Tenemos que tomar medidas. ¦ We have to take measures. ¦ Wir müssen Maßnahmen ergreifen. ¦ Wir müssen Maßnahmen treffen.
 match ¦ in Betracht ziehen=tener en cuenta=to take into consideration; zum Ausdruck bringen=expresar=to express; Verantwortung übernehmen=asumir la responsabilidad=to take responsibility; in Kontakt treten=ponerse en contacto=to get in touch; einen Beitrag leisten=contribuir=to contribute
 listen ¦ Wir sollten diese Möglichkeit in Betracht ziehen. ¦ Wir sollten diese Möglichkeit in Frage stellen. / Wir sollten diese Möglichkeit zur Verfügung stellen. / Wir müssen diese Möglichkeit in Betracht ziehen.
+
+=== 7
+title: Er dürfte krank sein ¦ Estará enfermo ¦ He's probably ill
+desc: Expresar suposiciones y grados de certeza: el uso subjetivo de los modales ¦ Expressing assumptions and degrees of certainty: the subjective use of modals
+gram: muss (casi seguro) · dürfte (probable) · könnte / kann (posible) ¦ soll = se dice que (rumor) ¦ will = afirma (dudoso) ¦ adverbios: bestimmt, wahrscheinlich, vermutlich, vielleicht
+gram_en: muss (almost certain) · dürfte (probable) · könnte / kann (possible) ¦ soll = is said to (rumour) ¦ will = claims to (doubtful) ¦ adverbs: bestimmt, wahrscheinlich, vermutlich, vielleicht
+ref: b2-modal-subjektiv
+words: vermutlich, wahrscheinlich, möglicherweise, womöglich, sicherlich, zweifellos, angeblich, offenbar, anscheinend, scheinbar, die Vermutung, vermuten, annehmen, die Annahme, schätzen, das Gerücht, der Beweis, beweisen, der Zweifel, zweifeln, die Wahrscheinlichkeit, unwahrscheinlich, offensichtlich, eindeutig
+intro:
+<h3>Los modales para suponer</h3>
+<p>Además de su sentido normal, los modales expresan el <b>grado de seguridad</b> del hablante:</p>
+<table><tr><td><b>muss</b> = seguro que</td><td>Das Licht ist an. Er <b>muss</b> zu Hause sein. (≈ 95 %)</td></tr>
+<tr><td><b>dürfte</b> = probablemente</td><td>Sie <b>dürfte</b> jetzt in Berlin sein. (≈ 75 %)</td></tr>
+<tr><td><b>könnte / kann</b> = puede que</td><td>Es <b>könnte</b> heute noch regnen. (≈ 50 %)</td></tr>
+<tr><td><b>kann nicht</b> = no puede ser</td><td>Das <b>kann</b> nicht stimmen!</td></tr></table>
+<h3>Información de otros</h3>
+<table><tr><td><b>sollen</b> = se dice que</td><td>Der Film <b>soll</b> sehr gut sein. (= dicen que es muy buena)</td></tr>
+<tr><td><b>wollen</b> = afirma (yo lo dudo)</td><td>Er <b>will</b> den Unfall nicht gesehen haben. (= dice que no lo vio)</td></tr></table>
+<h3>Con adverbios</h3>
+<p><i>bestimmt / sicher</i> (seguro) → <i>wahrscheinlich / vermutlich</i> (probablemente) → <i>vielleicht / möglicherweise</i> (quizás) → <i>kaum / wohl nicht</i> (poco probable).</p>
+<div class="tip">Para el pasado: modal + infinitivo de pasado: <i>Er <b>muss</b> den Zug <b>verpasst haben</b>.</i> (C1)</div>
+intro_en:
+<h3>Modals for assumptions</h3>
+<p>Besides their normal meaning, modals express how <b>sure</b> the speaker is:</p>
+<table><tr><td><b>muss</b> = must be</td><td>Das Licht ist an. Er <b>muss</b> zu Hause sein. (≈ 95 %)</td></tr>
+<tr><td><b>dürfte</b> = probably</td><td>Sie <b>dürfte</b> jetzt in Berlin sein. (≈ 75 %)</td></tr>
+<tr><td><b>könnte / kann</b> = might, may</td><td>Es <b>könnte</b> heute noch regnen. (≈ 50 %)</td></tr>
+<tr><td><b>kann nicht</b> = can't be</td><td>Das <b>kann</b> nicht stimmen!</td></tr></table>
+<h3>Information from others</h3>
+<table><tr><td><b>sollen</b> = is said to</td><td>Der Film <b>soll</b> sehr gut sein. (= it's supposed to be very good)</td></tr>
+<tr><td><b>wollen</b> = claims to (I doubt it)</td><td>Er <b>will</b> den Unfall nicht gesehen haben. (= he claims not to have seen it)</td></tr></table>
+<h3>With adverbs</h3>
+<p><i>bestimmt / sicher</i> (certainly) → <i>wahrscheinlich / vermutlich</i> (probably) → <i>vielleicht / möglicherweise</i> (perhaps) → <i>kaum / wohl nicht</i> (unlikely).</p>
+<div class="tip">For the past: modal + past infinitive: <i>Er <b>muss</b> den Zug <b>verpasst haben</b>.</i> (He must have missed the train — C1)</div>
+ex:
+fill ¦ Das Licht brennt. Sie ___ zu Hause sein. ¦ muss ¦ soll / will / darf ¦ La luz está encendida. Tiene que estar en casa. ¦ The light is on. She must be at home. ¦ Seguridad alta: muss ¦ High certainty: muss
+fill ¦ Der neue Film ___ sehr spannend sein. (dicen) ¦ soll ¦ will / muss / darf ¦ Dicen que la nueva película es muy emocionante. ¦ The new film is supposed to be very exciting. ¦ sollen = se dice ¦ sollen = is said to
+fill ¦ Er ___ das Geld nicht genommen haben. (él lo afirma) ¦ will ¦ soll / muss / kann ¦ Afirma que no cogió el dinero. ¦ He claims he didn't take the money. ¦ wollen = afirma ¦ wollen = claims
+fill ¦ Es ist schon acht Uhr. Der Zug ___ bald ankommen. (probable) ¦ dürfte ¦ darf / durfte / dürfen ¦ Ya son las ocho. El tren debería llegar pronto. ¦ It's already eight. The train should arrive soon. ¦ dürfte = probablemente ¦ dürfte = probably
+fill ¦ Das ___ nicht stimmen! Ich war doch dabei. ¦ kann ¦ muss / soll / darf ¦ ¡Eso no puede ser cierto! Yo estaba allí. ¦ That can't be true! I was there. ¦ kann nicht = imposible ¦ kann nicht = impossible
+fill ¦ ___ ist sie krank, sie kommt sonst nie zu spät. ¦ Vermutlich ¦ Vermutung / Vermuten / Vermutet ¦ Probablemente está enferma; si no, nunca llega tarde. ¦ She's probably ill; otherwise she's never late. ¦ vermutlich = probablemente ¦ vermutlich = presumably
+choose ¦ «Es posible que llueva». ¦ «It might rain». ¦ Es könnte regnen. ¦ Es muss regnen. / Es soll regnen. / Es will regnen.
+choose ¦ «Der Politiker soll reich sein» significa… ¦ «Der Politiker soll reich sein» means… ¦ Man sagt, dass er reich ist. ¦ Er muss reich werden. / Er behauptet, reich zu sein. / Er möchte reich sein.
+order ¦ Die Nachbarn dürften im Urlaub sein ¦ Los vecinos estarán de vacaciones. ¦ The neighbours are probably on holiday.
+order ¦ Das Restaurant soll sehr gut sein ¦ Dicen que el restaurante es muy bueno. ¦ The restaurant is supposed to be very good.
+translate ¦ Tiene que ser muy caro. (suposición) ¦ It must be very expensive. ¦ Das muss sehr teuer sein. ¦ Es muss sehr teuer sein.
+translate ¦ Dicen que el hotel es precioso. ¦ The hotel is said to be lovely. ¦ Das Hotel soll sehr schön sein. ¦ Das Hotel soll wunderschön sein.
+match ¦ vermutlich=probablemente=presumably; angeblich=supuestamente=allegedly; anscheinend=al parecer=apparently; das Gerücht=el rumor=rumour; zweifellos=sin duda=undoubtedly
+listen ¦ Er dürfte inzwischen angekommen sein. ¦ Er müsste inzwischen angekommen sein. / Er dürfte morgen ankommen. / Sie dürfte inzwischen angekommen sein.
+
+=== 8
+title: Als ob nichts passiert wäre ¦ Como si no hubiera pasado nada ¦ As if nothing had happened
+desc: Comparaciones irreales, consecuencias y modo: als ob, so … dass, indem, dadurch dass ¦ Unreal comparisons, consequences and manner: als ob, so … dass, indem, dadurch dass
+gram: als ob / als wenn + Konjunktiv II ¦ als + verbo + Konjunktiv II (sin ob) ¦ consecuencia: so … dass, sodass ¦ modo / medio: indem, dadurch dass
+gram_en: als ob / als wenn + Konjunktiv II ¦ als + verb + Konjunktiv II (without ob) ¦ consequence: so … dass, sodass ¦ manner / means: indem, dadurch dass
+ref: b2-als-ob
+words: als ob, als wenn, so dass, indem, dadurch dass, tun, wirken, scheinen, aussehen, sich verhalten, sich benehmen, so tun als ob, die Art, die Weise, auf diese Weise, die Methode, der Trick, erreichen, gelingen, schaffen, sparen, verbessern
+intro:
+<h3>Comparación irreal: als ob / als wenn</h3>
+<p>+ <b>Konjunktiv II</b> (verbo al final):</p>
+<div class="example">Er tut so, <b>als ob</b> er nichts <b>wüsste</b>. (como si no supiera nada)<br>Sie sieht aus, <b>als ob</b> sie nicht geschlafen <b>hätte</b>.<br>Er benimmt sich, <b>als wäre</b> er der Chef. (sin ob: verbo justo detrás de als)</div>
+<h3>Consecuencia</h3>
+<table><tr><td><b>so</b> + adjetivo + <b>dass</b></td><td>Es war <b>so</b> kalt, <b>dass</b> der See zugefroren ist.</td></tr>
+<tr><td><b>sodass</b></td><td>Der Bus kam zu spät, <b>sodass</b> ich den Zug verpasste.</td></tr>
+<tr><td><b>zu</b> + adjetivo + <b>als dass</b> + Konj. II (C1)</td><td>Es ist <b>zu</b> kalt, <b>als dass</b> man baden könnte.</td></tr></table>
+<h3>Modo y medio: indem / dadurch dass</h3>
+<p>Responden a <b>wie?</b> (¿cómo?, ¿de qué manera?):</p>
+<div class="example">Man kann Energie sparen, <b>indem</b> man das Licht ausschaltet. (= apagando la luz)<br><b>Dadurch, dass</b> er jeden Tag übte, wurde er immer besser.</div>
+<div class="tip"><b>indem</b> se traduce muy a menudo por un gerundio español: <i>indem man liest</i> = leyendo.</div>
+intro_en:
+<h3>Unreal comparison: als ob / als wenn</h3>
+<p>+ <b>Konjunktiv II</b> (verb at the end):</p>
+<div class="example">Er tut so, <b>als ob</b> er nichts <b>wüsste</b>. (as if he knew nothing)<br>Sie sieht aus, <b>als ob</b> sie nicht geschlafen <b>hätte</b>.<br>Er benimmt sich, <b>als wäre</b> er der Chef. (without ob: verb right after als)</div>
+<h3>Consequence</h3>
+<table><tr><td><b>so</b> + adjective + <b>dass</b></td><td>Es war <b>so</b> kalt, <b>dass</b> der See zugefroren ist. (so cold that…)</td></tr>
+<tr><td><b>sodass</b></td><td>Der Bus kam zu spät, <b>sodass</b> ich den Zug verpasste.</td></tr>
+<tr><td><b>zu</b> + adjective + <b>als dass</b> + Konj. II (C1)</td><td>Es ist <b>zu</b> kalt, <b>als dass</b> man baden könnte. (too cold to…)</td></tr></table>
+<h3>Manner and means: indem / dadurch dass</h3>
+<p>They answer <b>wie?</b> (how?, by what means?):</p>
+<div class="example">Man kann Energie sparen, <b>indem</b> man das Licht ausschaltet. (= by switching off the light)<br><b>Dadurch, dass</b> er jeden Tag übte, wurde er immer besser.</div>
+<div class="tip"><b>indem</b> is usually translated by "by + -ing": <i>indem man liest</i> = by reading.</div>
+ex:
+fill ¦ Er tut so, als ob er krank ___. ¦ wäre ¦ ist / sei / war ¦ Hace como si estuviera enfermo. ¦ He's acting as if he were ill. ¦ als ob + Konjunktiv II ¦ als ob + Konjunktiv II
+fill ¦ Sie sieht aus, als ___ sie geweint. ¦ hätte ¦ habe / hat / wäre ¦ Parece como si hubiera llorado. ¦ She looks as if she had been crying. ¦ als + verbo (sin ob) ¦ als + verb (without ob)
+fill ¦ Es war so heiß, ___ wir nicht schlafen konnten. ¦ dass ¦ als / sodass so / damit ¦ Hacía tanto calor que no pudimos dormir. ¦ It was so hot that we couldn't sleep. ¦ so … dass ¦ so … dass
+fill ¦ Man lernt Vokabeln am besten, ___ man sie oft wiederholt. ¦ indem ¦ damit / sodass / als ob ¦ Las palabras se aprenden mejor repitiéndolas a menudo. ¦ The best way to learn words is by repeating them often. ¦ indem = modo / medio ¦ indem = by (doing)
+fill ¦ ___, dass er viel trainiert hat, hat er gewonnen. ¦ Dadurch ¦ Damit / Indem / Deshalb ¦ Ganó gracias a que entrenó mucho. ¦ He won because he trained a lot. ¦ dadurch, dass ¦ dadurch, dass
+fill ¦ Die Straße war gesperrt, ___ wir einen Umweg fahren mussten. ¦ sodass ¦ damit / indem / obwohl ¦ La calle estaba cortada, así que tuvimos que dar un rodeo. ¦ The road was closed, so we had to take a detour. ¦ sodass = consecuencia ¦ sodass = consequence
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Er redet, als wüsste er alles. ¦ Er redet, als ob er weiß alles. / Er redet, als er alles wüsste. / Er redet, als ob wüsste er alles.
+choose ¦ ¿Cómo se ahorra dinero? Respuesta con indem. ¦ How do you save money? Answer with indem. ¦ Indem man weniger ausgibt. ¦ Damit man weniger ausgibt. / Sodass man weniger ausgibt. / Als ob man weniger ausgibt.
+order ¦ Er benahm sich als wäre nichts passiert ¦ Se comportó como si no hubiera pasado nada. ¦ He behaved as if nothing had happened.
+order ¦ Sie verbesserte ihr Deutsch indem sie jeden Tag las ¦ Mejoró su alemán leyendo todos los días. ¦ She improved her German by reading every day.
+translate ¦ Hace como si no me conociera. ¦ He acts as if he didn't know me. ¦ Er tut so, als ob er mich nicht kennen würde. ¦ Er tut so, als ob er mich nicht kennte. / Er tut so, als kenne er mich nicht. / Er tut so, als würde er mich nicht kennen.
+translate ¦ Estaba tan cansado que me dormí. ¦ I was so tired that I fell asleep. ¦ Ich war so müde, dass ich eingeschlafen bin. ¦ Ich war so müde, dass ich einschlief.
+match ¦ als ob=como si=as if; indem=(haciendo) mediante=by (doing); sodass=de modo que=so that; die Weise=la manera=way; wirken=parecer, surtir efecto=to seem, to have an effect
+listen ¦ Er tat so, als ob er uns nicht gesehen hätte. ¦ Er tat so, als ob er uns nicht gehört hätte. / Sie tat so, als ob sie uns nicht gesehen hätte. / Er tut so, als ob er uns nicht sehen würde.
+
+=== 9
+title: Falls es regnet ¦ Por si llueve ¦ In case it rains
+desc: Condiciones y concesiones con matices: falls, sofern, es sei denn, auch wenn, selbst wenn ¦ Nuanced conditions and concessions: falls, sofern, es sei denn, auch wenn, selbst wenn
+gram: falls / im Falle, dass (por si, en caso de que) ¦ sofern / vorausgesetzt, dass (siempre que) ¦ es sei denn (a no ser que) ¦ auch wenn / selbst wenn (aunque, incluso si) ¦ wenngleich (aunque, formal)
+gram_en: falls / im Falle, dass (in case) ¦ sofern / vorausgesetzt, dass (provided that) ¦ es sei denn (unless) ¦ auch wenn / selbst wenn (even if) ¦ wenngleich (although, formal)
+ref: b2-konditional
+words: falls, sofern, vorausgesetzt, es sei denn, auch wenn, selbst wenn, wenngleich, der Fall, im Falle, die Bedingung, unter der Bedingung, die Voraussetzung, der Notfall, die Garantie, garantieren, das Risiko, riskieren, sicherheitshalber, vorsichtshalber, ausnahmsweise, die Ausnahme, gelten, die Versicherung
+intro:
+<h3>Matices de la condición</h3>
+<table><tr><td><b>wenn</b> = si</td><td><b>Wenn</b> es regnet, bleiben wir zu Hause.</td></tr>
+<tr><td><b>falls</b> = por si, en caso de que</td><td>Nimm einen Schirm mit, <b>falls</b> es regnet.</td></tr>
+<tr><td><b>sofern / vorausgesetzt, dass</b> = siempre que</td><td>Wir kommen, <b>sofern</b> wir Zeit haben.</td></tr>
+<tr><td><b>es sei denn</b> = a no ser que</td><td>Wir gehen spazieren, <b>es sei denn</b>, es regnet.</td></tr></table>
+<p><b>es sei denn</b> va seguido de coma y una oración con <b>orden normal</b> (o de dass + verbo al final).</p>
+<h3>Concesión hipotética</h3>
+<table><tr><td><b>auch wenn / selbst wenn</b> = aunque, incluso si</td><td><b>Selbst wenn</b> ich Zeit hätte, würde ich nicht mitkommen.</td></tr>
+<tr><td><b>wenngleich / obgleich</b> = aunque (formal)</td><td><b>Wenngleich</b> das Projekt teuer ist, lohnt es sich.</td></tr></table>
+<div class="tip">Expresiones útiles: <i>sicherheitshalber / vorsichtshalber</i> (por si acaso), <i>ausnahmsweise</i> (por esta vez), <i>im Notfall</i> (en caso de emergencia).</div>
+intro_en:
+<h3>Shades of condition</h3>
+<table><tr><td><b>wenn</b> = if</td><td><b>Wenn</b> es regnet, bleiben wir zu Hause.</td></tr>
+<tr><td><b>falls</b> = in case</td><td>Nimm einen Schirm mit, <b>falls</b> es regnet.</td></tr>
+<tr><td><b>sofern / vorausgesetzt, dass</b> = provided that</td><td>Wir kommen, <b>sofern</b> wir Zeit haben.</td></tr>
+<tr><td><b>es sei denn</b> = unless</td><td>Wir gehen spazieren, <b>es sei denn</b>, es regnet.</td></tr></table>
+<p><b>es sei denn</b> is followed by a comma and a clause with <b>normal word order</b> (or by dass + verb at the end).</p>
+<h3>Hypothetical concession</h3>
+<table><tr><td><b>auch wenn / selbst wenn</b> = even if</td><td><b>Selbst wenn</b> ich Zeit hätte, würde ich nicht mitkommen.</td></tr>
+<tr><td><b>wenngleich / obgleich</b> = although (formal)</td><td><b>Wenngleich</b> das Projekt teuer ist, lohnt es sich.</td></tr></table>
+<div class="tip">Useful phrases: <i>sicherheitshalber / vorsichtshalber</i> (just in case), <i>ausnahmsweise</i> (just this once), <i>im Notfall</i> (in an emergency).</div>
+ex:
+fill ¦ Nimm eine Jacke mit, ___ es kalt wird. ¦ falls ¦ sofern / es sei denn / selbst wenn ¦ Llévate una chaqueta por si hace frío. ¦ Take a jacket in case it gets cold. ¦ falls = por si ¦ falls = in case
+fill ¦ Wir fahren morgen, ___ das Wetter gut ist. ¦ sofern ¦ es sei denn / falls nicht / selbst wenn ¦ Salimos mañana siempre que haga buen tiempo. ¦ We're leaving tomorrow, provided the weather is good. ¦ sofern = siempre que ¦ sofern = provided that
+fill ¦ Ich komme, es sei denn, ich ___ krank. ¦ bin ¦ sei / wäre / werde ¦ Vengo, a no ser que esté enfermo. ¦ I'll come unless I'm ill. ¦ es sei denn + orden normal ¦ es sei denn + normal order
+fill ¦ ___ wenn er sich entschuldigt, verzeihe ich ihm nicht. ¦ Selbst ¦ Falls / Sofern / Es sei ¦ Aunque se disculpe, no le perdono. ¦ Even if he apologises, I won't forgive him. ¦ selbst wenn = incluso si ¦ selbst wenn = even if
+fill ¦ ___ das Projekt teuer ist, lohnt es sich. (formal) ¦ Wenngleich ¦ Falls / Sofern / Es sei denn ¦ Aunque el proyecto es caro, merece la pena. ¦ Although the project is expensive, it's worth it. ¦ wenngleich = aunque (formal) ¦ wenngleich = although (formal)
+fill ¦ ___ halber habe ich eine Kopie gemacht. (seguridad) ¦ Sicherheits ¦ Sicher / Sicherheit / Sichere ¦ Por si acaso hice una copia. ¦ I made a copy just to be safe. ¦ sicherheitshalber ¦ sicherheitshalber
+choose ¦ «a no ser que» ¦ «unless» ¦ es sei denn ¦ es ist denn / es wäre denn / sei es denn
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Wir grillen, es sei denn, es regnet. ¦ Wir grillen, es sei denn, es regnen sollte nicht. / Wir grillen, es sei denn es regnet nicht. / Wir grillen, es sei denn, regnet es.
+order ¦ Im Notfall rufen Sie bitte diese Nummer an ¦ En caso de emergencia, llame a este número. ¦ In an emergency please call this number.
+order ¦ Auch wenn es schwer ist gebe ich nicht auf ¦ Aunque sea difícil, no me rindo. ¦ Even if it's hard, I won't give up.
+translate ¦ Llámame por si tienes preguntas. ¦ Call me in case you have any questions. ¦ Ruf mich an, falls du Fragen hast. ¦ Ruf mich an, wenn du Fragen hast.
+translate ¦ Por esta vez puedes quedarte más tiempo. ¦ Just this once you can stay longer. ¦ Ausnahmsweise darfst du länger bleiben. ¦ Du darfst ausnahmsweise länger bleiben.
+match ¦ falls=por si=in case; sofern=siempre que=provided that; es sei denn=a no ser que=unless; ausnahmsweise=por esta vez=just this once; die Voraussetzung=el requisito=prerequisite
+listen ¦ Wir treffen uns um acht, es sei denn, du hast keine Zeit. ¦ Wir treffen uns um neun, es sei denn, du hast keine Zeit. / Wir treffen uns um acht, falls du Zeit hast. / Wir treffen uns um acht, auch wenn du keine Zeit hast.
+
+=== 10
+title: Wer A sagt… ¦ Quien dice A… ¦ Whoever says A…
+desc: Relativas avanzadas: wer, was, wo(r)- + preposición y relativas que comentan toda la frase ¦ Advanced relative clauses: wer, was, wo(r)- + preposition and clauses commenting on the whole sentence
+gram: wer … (der): quien ¦ was tras alles, nichts, etwas, das, superlativos ¦ was / wo(r)- refiriéndose a toda la oración: …, was mich freut ¦ worüber, wofür, womit como relativos
+gram_en: wer … (der): whoever ¦ was after alles, nichts, etwas, das, superlatives ¦ was / wo(r)- referring to the whole clause: …, was mich freut ¦ worüber, wofür, womit as relatives
+ref: b2-relativ-erweitert
+words: wer, was, worüber, wofür, womit, wovon, woran, worauf, alles, nichts, etwas, vieles, manches, das Einzige, das Beste, das Wichtigste, der Spruch, das Sprichwort, die Lebensweisheit, überraschen, freuen, ärgern, enttäuschen, erstaunlich
+intro:
+<h3>wer: quien (sin antecedente)</h3>
+<div class="example"><b>Wer</b> viel liest, (<b>der</b>) schreibt besser. · <b>Wer</b> zu spät kommt, <b>den</b> bestraft das Leben.</div>
+<p>Si el caso cambia, se repite el demostrativo: <i>Wer …, <b>dem</b> / <b>den</b> …</i>. Formas: wer, wen, wem, wessen.</p>
+<h3>was como relativo</h3>
+<p>Tras <b>alles, nichts, etwas, vieles, das</b> y superlativos neutros: <i>Das ist <b>alles, was</b> ich habe. · Das <b>Beste, was</b> du tun kannst… · <b>Was</b> du sagst, stimmt nicht.</i></p>
+<h3>Comentar toda la frase</h3>
+<p>El relativo se refiere a toda la oración anterior:</p>
+<div class="example">Er hat die Prüfung bestanden, <b>was</b> mich sehr freut.<br>Sie hat endlich angerufen, <b>worüber</b> ich mich gefreut habe.</div>
+<h3>wo(r) + preposición</h3>
+<p>Con cosas, en lugar de preposición + was: <i>Das ist etwas, <b>woran</b> ich oft denke. · Es gibt nichts, <b>wofür</b> ich mich schäme.</i></p>
+<div class="tip">Con personas, preposición + relativo: <i>der Mann, <b>an den</b> ich denke</i>.</div>
+intro_en:
+<h3>wer: whoever (no antecedent)</h3>
+<div class="example"><b>Wer</b> viel liest, (<b>der</b>) schreibt besser. · <b>Wer</b> zu spät kommt, <b>den</b> bestraft das Leben. (Life punishes those who come too late.)</div>
+<p>If the case changes, a demonstrative is repeated: <i>Wer …, <b>dem</b> / <b>den</b> …</i>. Forms: wer, wen, wem, wessen.</p>
+<h3>was as a relative</h3>
+<p>After <b>alles, nichts, etwas, vieles, das</b> and neuter superlatives: <i>Das ist <b>alles, was</b> ich habe. · Das <b>Beste, was</b> du tun kannst… · <b>Was</b> du sagst, stimmt nicht.</i></p>
+<h3>Commenting on the whole sentence</h3>
+<p>The relative refers to the whole previous clause (English "which"):</p>
+<div class="example">Er hat die Prüfung bestanden, <b>was</b> mich sehr freut. (which makes me very happy)<br>Sie hat endlich angerufen, <b>worüber</b> ich mich gefreut habe.</div>
+<h3>wo(r) + preposition</h3>
+<p>With things, instead of preposition + was: <i>Das ist etwas, <b>woran</b> ich oft denke. · Es gibt nichts, <b>wofür</b> ich mich schäme.</i></p>
+<div class="tip">With people, preposition + relative pronoun: <i>der Mann, <b>an den</b> ich denke</i>.</div>
+ex:
+fill ¦ ___ viel arbeitet, braucht auch Pausen. ¦ Wer ¦ Der / Was / Wen ¦ Quien trabaja mucho también necesita pausas. ¦ Whoever works a lot also needs breaks. ¦ wer = quien ¦ wer = whoever
+fill ¦ Das ist alles, ___ ich weiß. ¦ was ¦ das / welches / wo ¦ Es todo lo que sé. ¦ That's all I know. ¦ alles, was ¦ alles, was
+fill ¦ Sie hat den Job bekommen, ___ mich sehr freut. ¦ was ¦ das / dass / welcher ¦ Ha conseguido el trabajo, lo cual me alegra mucho. ¦ She got the job, which makes me very happy. ¦ was = lo cual ¦ was = which
+fill ¦ Er hat endlich angerufen, ___ ich mich gefreut habe. ¦ worüber ¦ über das / was / darüber ¦ Por fin llamó, cosa que me alegró. ¦ He finally called, which I was pleased about. ¦ sich freuen über → worüber ¦ sich freuen über → worüber
+fill ¦ Das ist das Beste, ___ mir passiert ist. ¦ was ¦ das / dass / welches ¦ Es lo mejor que me ha pasado. ¦ That's the best thing that has happened to me. ¦ superlativo neutro + was ¦ neuter superlative + was
+fill ¦ Wer mir hilft, ___ helfe ich auch. ¦ dem ¦ der / den / wem ¦ A quien me ayuda, le ayudo yo también. ¦ I help whoever helps me. ¦ helfen + dativo: dem ¦ helfen + dative: dem
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Es gibt nichts, wofür ich mich entschuldigen muss. ¦ Es gibt nichts, für das ich mich entschuldigen muss es. / Es gibt nichts, dafür ich mich entschuldigen muss. / Es gibt nichts, was für ich mich entschuldigen muss.
+choose ¦ «Lo que dices no es verdad». ¦ «What you say isn't true». ¦ Was du sagst, stimmt nicht. ¦ Das du sagst, stimmt nicht. / Wer du sagst, stimmt nicht. / Was sagst du, stimmt nicht.
+order ¦ Wer nicht fragt bleibt dumm ¦ Quien no pregunta se queda tonto. ¦ Whoever doesn't ask stays ignorant.
+order ¦ Der Zug hatte Verspätung was niemanden überraschte ¦ El tren se retrasó, lo cual no sorprendió a nadie. ¦ The train was late, which surprised nobody.
+translate ¦ No hay nada que no pueda aprender. ¦ There's nothing I can't learn. ¦ Es gibt nichts, was ich nicht lernen kann. ¦ Es gibt nichts, das ich nicht lernen kann.
+translate ¦ Eso es algo en lo que pienso a menudo. ¦ That's something I often think about. ¦ Das ist etwas, woran ich oft denke. ¦ Das ist etwas, an das ich oft denke.
+match ¦ wer=quien=whoever; worüber=sobre lo cual=about which; das Sprichwort=el refrán=proverb; erstaunlich=asombroso=astonishing; das Einzige=lo único=the only thing
+listen ¦ Wer zuletzt lacht, lacht am besten. ¦ Wer zuerst lacht, lacht am besten. / Wer zuletzt kommt, lacht am besten. / Wer zuletzt lacht, lacht am längsten.
+
+=== 11
+title: Gesehen zu haben ¦ Haber visto ¦ Having seen
+desc: Construcciones de infinitivo avanzadas: infinitivo de pasado y pasivo, haben / sein + zu ¦ Advanced infinitive constructions: past and passive infinitives, haben / sein + zu
+gram: infinitivo de pasado: gesehen zu haben, gekommen zu sein ¦ infinitivo pasivo: eingeladen zu werden ¦ haben + zu = tener que ¦ sein + zu = poder / deber hacerse ¦ verbos con infinitivo: scheinen, pflegen, drohen, versprechen
+gram_en: past infinitive: gesehen zu haben, gekommen zu sein ¦ passive infinitive: eingeladen zu werden ¦ haben + zu = have to ¦ sein + zu = can / must be done ¦ verbs with the infinitive: scheinen, pflegen, drohen, versprechen
+ref: b2-infinitiv
+words: scheinen, pflegen, drohen, versprechen, behaupten, bedauern, leugnen, zugeben, sich freuen, stolz, froh, erleichtert, die Ehre, die Einladung, auszeichnen, die Auszeichnung, wählen, ernennen, befördern, bestätigen, anerkennen, loben
+intro:
+<h3>Infinitivo de pasado</h3>
+<p>participio + <b>zu haben / zu sein</b>: la acción es <b>anterior</b> a la del verbo principal.</p>
+<div class="example">Ich freue mich, dich <b>kennengelernt zu haben</b>. (= haberte conocido)<br>Er behauptet, nie in Paris <b>gewesen zu sein</b>.<br>Sie bedauert, nicht früher <b>gekommen zu sein</b>.</div>
+<h3>Infinitivo pasivo</h3>
+<p>participio + <b>zu werden</b> (presente) / <b>worden zu sein</b> (pasado):</p>
+<div class="example">Ich hoffe, zur Party <b>eingeladen zu werden</b>. · Er ist stolz, zum Direktor <b>ernannt worden zu sein</b>.</div>
+<h3>haben + zu / sein + zu</h3>
+<table><tr><td><b>haben + zu</b> = müssen (activo)</td><td>Ich <b>habe</b> noch viel <b>zu tun</b>. · Sie <b>haben</b> den Anweisungen <b>zu folgen</b>.</td></tr>
+<tr><td><b>sein + zu</b> = können / müssen (pasivo)</td><td>Die Tür <b>ist</b> nicht <b>zu öffnen</b>.</td></tr></table>
+<h3>Verbos con matiz especial</h3>
+<p><i>Er <b>scheint</b> müde <b>zu sein</b>.</i> (parece) · <i>Sie <b>pflegt</b> früh auf<b>zu</b>stehen.</i> (suele, formal) · <i>Das Haus <b>droht</b> ein<b>zu</b>stürzen.</i> (amenaza con) · <i>Es <b>verspricht</b>, ein schöner Tag <b>zu werden</b>.</i> (promete)</p>
+intro_en:
+<h3>The past infinitive</h3>
+<p>participle + <b>zu haben / zu sein</b>: the action happened <b>before</b> that of the main verb.</p>
+<div class="example">Ich freue mich, dich <b>kennengelernt zu haben</b>. (= to have met you)<br>Er behauptet, nie in Paris <b>gewesen zu sein</b>. (claims never to have been)<br>Sie bedauert, nicht früher <b>gekommen zu sein</b>.</div>
+<h3>The passive infinitive</h3>
+<p>participle + <b>zu werden</b> (present) / <b>worden zu sein</b> (past):</p>
+<div class="example">Ich hoffe, zur Party <b>eingeladen zu werden</b>. (to be invited) · Er ist stolz, zum Direktor <b>ernannt worden zu sein</b>. (to have been appointed)</div>
+<h3>haben + zu / sein + zu</h3>
+<table><tr><td><b>haben + zu</b> = have to (active)</td><td>Ich <b>habe</b> noch viel <b>zu tun</b>. · Sie <b>haben</b> den Anweisungen <b>zu folgen</b>.</td></tr>
+<tr><td><b>sein + zu</b> = can / must be (passive)</td><td>Die Tür <b>ist</b> nicht <b>zu öffnen</b>.</td></tr></table>
+<h3>Verbs with a special meaning</h3>
+<p><i>Er <b>scheint</b> müde <b>zu sein</b>.</i> (seems to) · <i>Sie <b>pflegt</b> früh auf<b>zu</b>stehen.</i> (is in the habit of, formal) · <i>Das Haus <b>droht</b> ein<b>zu</b>stürzen.</i> (threatens to) · <i>Es <b>verspricht</b>, ein schöner Tag <b>zu werden</b>.</i> (promises to)</p>
+ex:
+fill ¦ Ich freue mich, Sie kennengelernt zu ___. ¦ haben ¦ sein / werden / hatten ¦ Me alegro de haberle conocido. ¦ I'm pleased to have met you. ¦ Infinitivo de pasado: zu haben ¦ Past infinitive: zu haben
+fill ¦ Er behauptet, nie dort gewesen zu ___. ¦ sein ¦ haben / werden / worden ¦ Afirma no haber estado nunca allí. ¦ He claims never to have been there. ¦ sein: zu sein ¦ sein: zu sein
+fill ¦ Sie hofft, zum Vorstellungsgespräch eingeladen zu ___. ¦ werden ¦ sein / haben / worden ¦ Espera que la inviten a la entrevista. ¦ She hopes to be invited to the interview. ¦ Infinitivo pasivo: zu werden ¦ Passive infinitive: zu werden
+fill ¦ Ich habe heute noch viel ___. ¦ zu tun ¦ tun / getan / zu getan ¦ Hoy todavía tengo mucho que hacer. ¦ I still have a lot to do today. ¦ haben + zu ¦ haben + zu
+fill ¦ Er scheint krank ___. ¦ zu sein ¦ sein / ist / gewesen ¦ Parece que está enfermo. ¦ He seems to be ill. ¦ scheinen + zu ¦ scheinen + zu
+fill ¦ Die alte Brücke droht ___. ¦ einzustürzen ¦ zu einstürzen / einstürzen / eingestürzt ¦ El viejo puente amenaza con derrumbarse. ¦ The old bridge is in danger of collapsing. ¦ Separable: ein + zu + stürzen ¦ Separable: ein + zu + stürzen
+choose ¦ «Lamento no haberte llamado». ¦ «I'm sorry I didn't call you». ¦ Ich bedauere, dich nicht angerufen zu haben. ¦ Ich bedauere, dich nicht anzurufen haben. / Ich bedauere, dich nicht angerufen zu sein. / Ich bedauere, nicht dich zu anrufen.
+choose ¦ «Sie haben die Regeln zu beachten» significa… ¦ «Sie haben die Regeln zu beachten» means… ¦ Sie müssen die Regeln beachten. ¦ Sie können die Regeln beachten. / Sie haben die Regeln beachtet. / Sie wollen die Regeln beachten.
+order ¦ Er ist stolz den Preis gewonnen zu haben ¦ Está orgulloso de haber ganado el premio. ¦ He's proud to have won the prize.
+order ¦ Der Tag verspricht sonnig zu werden ¦ El día promete ser soleado. ¦ The day promises to be sunny.
+translate ¦ Me alegro de haberte ayudado. ¦ I'm glad to have helped you. ¦ Ich freue mich, dir geholfen zu haben. ¦ Ich bin froh, dir geholfen zu haben.
+translate ¦ Parece que no hay nadie en casa. ¦ Nobody seems to be at home. ¦ Es scheint niemand zu Hause zu sein. ¦ Niemand scheint zu Hause zu sein.
+match ¦ scheinen=parecer=to seem; drohen=amenazar=to threaten; pflegen=soler=to be in the habit of; bedauern=lamentar=to regret; ernennen=nombrar=to appoint
+listen ¦ Sie behauptet, den Brief nie bekommen zu haben. ¦ Sie behauptet, den Brief nie geschrieben zu haben. / Er behauptet, den Brief nie bekommen zu haben. / Sie hofft, den Brief bald zu bekommen.
+
+=== 12
+title: Aufgrund der Lage ¦ Debido a la situación ¦ Due to the situation
+desc: Preposiciones del registro formal con genitivo y dativo ¦ Formal prepositions with the genitive and dative
+gram: con genitivo: aufgrund, angesichts, anhand, bezüglich, hinsichtlich, infolge, mithilfe, zugunsten, seitens ¦ con dativo: entgegen, entsprechend, gemäß, laut, zufolge ¦ posición: zufolge y entsprechend pueden ir detrás ¦ von + dativo cuando no hay artículo
+gram_en: with the genitive: aufgrund, angesichts, anhand, bezüglich, hinsichtlich, infolge, mithilfe, zugunsten, seitens ¦ with the dative: entgegen, entsprechend, gemäß, laut, zufolge ¦ position: zufolge and entsprechend may follow the noun ¦ von + dative when there is no article
+ref: b2-praep-formell
+words: aufgrund, angesichts, anhand, bezüglich, hinsichtlich, infolge, mithilfe, zugunsten, seitens, entgegen, entsprechend, gemäß, laut, zufolge, die Lage, die Entwicklung, die Anfrage, die Angaben, die Daten, der Vertrag, die Vereinbarung, die Empfehlung, die Prognose, die Krise
+intro:
+<h3>Preposiciones con genitivo (registro formal)</h3>
+<table><tr><td><b>aufgrund</b> = debido a</td><td>aufgrund der hohen Kosten</td></tr>
+<tr><td><b>angesichts</b> = ante, en vista de</td><td>angesichts der Krise</td></tr>
+<tr><td><b>anhand</b> = a partir de, mediante</td><td>anhand eines Beispiels</td></tr>
+<tr><td><b>bezüglich / hinsichtlich</b> = respecto a</td><td>bezüglich Ihrer Anfrage</td></tr>
+<tr><td><b>infolge</b> = a consecuencia de</td><td>infolge des Unfalls</td></tr>
+<tr><td><b>mithilfe</b> = con ayuda de</td><td>mithilfe neuer Technik</td></tr>
+<tr><td><b>zugunsten</b> = a favor de</td><td>zugunsten der Kinder</td></tr>
+<tr><td><b>seitens</b> = por parte de</td><td>seitens der Regierung</td></tr></table>
+<h3>Preposiciones con dativo</h3>
+<table><tr><td><b>laut</b> / <b>gemäß</b> = según</td><td>laut dem Bericht · gemäß dem Vertrag</td></tr>
+<tr><td><b>zufolge</b> = según (detrás)</td><td>dem Bericht zufolge</td></tr>
+<tr><td><b>entsprechend</b> = conforme a</td><td>Ihrem Wunsch entsprechend</td></tr>
+<tr><td><b>entgegen</b> = en contra de</td><td>entgegen allen Erwartungen</td></tr></table>
+<div class="tip">Si no hay artículo ni adjetivo que muestre el genitivo, se usa <b>von</b>: <i>aufgrund <b>von</b> Problemen</i>.</div>
+intro_en:
+<h3>Prepositions with the genitive (formal register)</h3>
+<table><tr><td><b>aufgrund</b> = due to</td><td>aufgrund der hohen Kosten</td></tr>
+<tr><td><b>angesichts</b> = in view of</td><td>angesichts der Krise</td></tr>
+<tr><td><b>anhand</b> = on the basis of, using</td><td>anhand eines Beispiels</td></tr>
+<tr><td><b>bezüglich / hinsichtlich</b> = regarding</td><td>bezüglich Ihrer Anfrage</td></tr>
+<tr><td><b>infolge</b> = as a result of</td><td>infolge des Unfalls</td></tr>
+<tr><td><b>mithilfe</b> = with the help of</td><td>mithilfe neuer Technik</td></tr>
+<tr><td><b>zugunsten</b> = in favour of</td><td>zugunsten der Kinder</td></tr>
+<tr><td><b>seitens</b> = on the part of</td><td>seitens der Regierung</td></tr></table>
+<h3>Prepositions with the dative</h3>
+<table><tr><td><b>laut</b> / <b>gemäß</b> = according to</td><td>laut dem Bericht · gemäß dem Vertrag</td></tr>
+<tr><td><b>zufolge</b> = according to (after the noun)</td><td>dem Bericht zufolge</td></tr>
+<tr><td><b>entsprechend</b> = in accordance with</td><td>Ihrem Wunsch entsprechend</td></tr>
+<tr><td><b>entgegen</b> = contrary to</td><td>entgegen allen Erwartungen</td></tr></table>
+<div class="tip">If no article or adjective shows the genitive, <b>von</b> is used: <i>aufgrund <b>von</b> Problemen</i>.</div>
+ex:
+fill ¦ ___ des Streiks fallen viele Flüge aus. ¦ Aufgrund ¦ Laut / Gemäß / Entgegen ¦ Debido a la huelga se cancelan muchos vuelos. ¦ Due to the strike many flights are cancelled. ¦ aufgrund + genitivo ¦ aufgrund + genitive
+fill ¦ ___ Ihrer Anfrage teilen wir Ihnen mit, dass … ¦ Bezüglich ¦ Infolge / Laut / Mithilfe ¦ Respecto a su consulta le comunicamos que… ¦ Regarding your enquiry, we would inform you that… ¦ bezüglich = respecto a ¦ bezüglich = regarding
+fill ¦ Dem Bericht ___ sind die Preise gestiegen. ¦ zufolge ¦ laut / gemäß / aufgrund ¦ Según el informe, los precios han subido. ¦ According to the report, prices have risen. ¦ zufolge va detrás ¦ zufolge comes after
+fill ¦ ___ allen Erwartungen hat das Team gewonnen. ¦ Entgegen ¦ Gemäß / Angesichts / Laut ¦ Contra todo pronóstico, el equipo ganó. ¦ Contrary to all expectations, the team won. ¦ entgegen + dativo ¦ entgegen + dative
+fill ¦ Die Spenden gehen ___ der Kinder. ¦ zugunsten ¦ seitens / anhand / infolge ¦ Los donativos van a favor de los niños. ¦ The donations go to the children. ¦ zugunsten = a favor de ¦ zugunsten = in favour of
+fill ¦ Wir erklären die Regel ___ eines Beispiels. ¦ anhand ¦ angesichts / aufgrund / bezüglich ¦ Explicamos la regla mediante un ejemplo. ¦ We explain the rule using an example. ¦ anhand = mediante ¦ anhand = using
+choose ¦ «Ante la situación…» ¦ «In view of the situation…» ¦ Angesichts der Lage … ¦ Anhand der Lage … / Seitens der Lage … / Zugunsten der Lage …
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Aufgrund von Bauarbeiten ist die Straße gesperrt. ¦ Aufgrund Bauarbeiten ist die Straße gesperrt. / Aufgrund den Bauarbeiten ist die Straße gesperrt. / Aufgrund mit Bauarbeiten ist die Straße gesperrt.
+order ¦ Laut Wetterbericht wird es morgen regnen ¦ Según el parte meteorológico, mañana lloverá. ¦ According to the weather forecast, it will rain tomorrow.
+order ¦ Infolge des Unfalls war die Autobahn gesperrt ¦ A consecuencia del accidente, la autopista estuvo cortada. ¦ As a result of the accident, the motorway was closed.
+translate ¦ Por parte de la empresa no hubo respuesta. ¦ There was no reply from the company. ¦ Seitens der Firma gab es keine Antwort. ¦ Seitens des Unternehmens gab es keine Antwort.
+translate ¦ Según el contrato tiene que pagar usted. ¦ According to the contract, you have to pay. ¦ Laut Vertrag müssen Sie bezahlen. ¦ Gemäß dem Vertrag müssen Sie bezahlen. / Dem Vertrag zufolge müssen Sie zahlen.
+match ¦ aufgrund=debido a=due to; angesichts=ante=in view of; infolge=a consecuencia de=as a result of; zugunsten=a favor de=in favour of; gemäß=según=according to
+listen ¦ Aufgrund der hohen Nachfrage ist das Produkt ausverkauft. ¦ Aufgrund der geringen Nachfrage ist das Produkt billig. / Trotz der hohen Nachfrage ist das Produkt noch da. / Aufgrund der hohen Preise ist das Produkt ausverkauft.
+
+=== 13
+title: Stolz auf, abhängig von ¦ Orgulloso de, dependiente de ¦ Proud of, dependent on
+desc: El régimen preposicional de adjetivos y sustantivos ¦ Adjectives and nouns with fixed prepositions
+gram: adjetivos con preposición: stolz auf, abhängig von, zufrieden mit, interessiert an, bereit zu ¦ sustantivos con preposición: Angst vor, Interesse an, Lust auf, Hoffnung auf ¦ da(r)-: Ich bin stolz darauf, dass… ¦ caso fijo de cada preposición
+gram_en: adjectives with prepositions: stolz auf, abhängig von, zufrieden mit, interessiert an, bereit zu ¦ nouns with prepositions: Angst vor, Interesse an, Lust auf, Hoffnung auf ¦ da(r)-: Ich bin stolz darauf, dass… ¦ the fixed case of each preposition
+ref: b2-rektion
+words: stolz, abhängig, unabhängig, zufrieden, unzufrieden, interessiert, bereit, verantwortlich, gespannt, begeistert, enttäuscht, überzeugt, neidisch, eifersüchtig, verliebt, böse, freundlich, die Angst, das Interesse, die Lust, die Hoffnung, die Sorge, der Wunsch, die Kritik, der Zweifel, die Erinnerung
+intro:
+<h3>Adjetivos con preposición</h3>
+<table><tr><td>stolz <b>auf</b> + A</td><td>orgulloso de</td></tr>
+<tr><td>abhängig / unabhängig <b>von</b> + D</td><td>dependiente / independiente de</td></tr>
+<tr><td>zufrieden <b>mit</b> + D</td><td>satisfecho con</td></tr>
+<tr><td>interessiert <b>an</b> + D</td><td>interesado en</td></tr>
+<tr><td>bereit <b>zu</b> + D</td><td>dispuesto a</td></tr>
+<tr><td>verantwortlich <b>für</b> + A</td><td>responsable de</td></tr>
+<tr><td>gespannt <b>auf</b> + A</td><td>impaciente por saber</td></tr>
+<tr><td>überzeugt <b>von</b> + D · begeistert <b>von</b> + D</td><td>convencido de · entusiasmado con</td></tr>
+<tr><td>neidisch / eifersüchtig <b>auf</b> + A · verliebt <b>in</b> + A · böse <b>auf</b> + A</td><td>envidioso / celoso de · enamorado de · enfadado con</td></tr></table>
+<h3>Sustantivos con preposición</h3>
+<p><i>die Angst <b>vor</b> + D, das Interesse <b>an</b> + D, die Lust <b>auf</b> + A, die Hoffnung <b>auf</b> + A, die Sorge <b>um</b> + A, die Kritik <b>an</b> + D, der Zweifel <b>an</b> + D, die Erinnerung <b>an</b> + A</i></p>
+<h3>Con oración: da(r)-</h3>
+<div class="example">Ich bin stolz <b>darauf</b>, <b>dass</b> ich die Prüfung bestanden habe.<br>Sie ist <b>dazu</b> bereit, uns <b>zu</b> helfen.</div>
+intro_en:
+<h3>Adjectives with prepositions</h3>
+<table><tr><td>stolz <b>auf</b> + A</td><td>proud of</td></tr>
+<tr><td>abhängig / unabhängig <b>von</b> + D</td><td>dependent / independent of</td></tr>
+<tr><td>zufrieden <b>mit</b> + D</td><td>satisfied with</td></tr>
+<tr><td>interessiert <b>an</b> + D</td><td>interested in</td></tr>
+<tr><td>bereit <b>zu</b> + D</td><td>ready to, willing to</td></tr>
+<tr><td>verantwortlich <b>für</b> + A</td><td>responsible for</td></tr>
+<tr><td>gespannt <b>auf</b> + A</td><td>eager to know about</td></tr>
+<tr><td>überzeugt <b>von</b> + D · begeistert <b>von</b> + D</td><td>convinced of · enthusiastic about</td></tr>
+<tr><td>neidisch / eifersüchtig <b>auf</b> + A · verliebt <b>in</b> + A · böse <b>auf</b> + A</td><td>envious / jealous of · in love with · angry with</td></tr></table>
+<h3>Nouns with prepositions</h3>
+<p><i>die Angst <b>vor</b> + D (fear of), das Interesse <b>an</b> + D (interest in), die Lust <b>auf</b> + A (desire for), die Hoffnung <b>auf</b> + A (hope for), die Sorge <b>um</b> + A (worry about), die Kritik <b>an</b> + D (criticism of), der Zweifel <b>an</b> + D (doubt about), die Erinnerung <b>an</b> + A (memory of)</i></p>
+<h3>With a clause: da(r)-</h3>
+<div class="example">Ich bin stolz <b>darauf</b>, <b>dass</b> ich die Prüfung bestanden habe.<br>Sie ist <b>dazu</b> bereit, uns <b>zu</b> helfen.</div>
+ex:
+fill ¦ Ich bin sehr stolz ___ meine Tochter. ¦ auf ¦ von / über / für ¦ Estoy muy orgulloso de mi hija. ¦ I'm very proud of my daughter. ¦ stolz auf + A ¦ stolz auf + A
+fill ¦ Der Preis ist abhängig ___ der Saison. ¦ von ¦ an / auf / mit ¦ El precio depende de la temporada. ¦ The price depends on the season. ¦ abhängig von + D ¦ abhängig von + D
+fill ¦ Bist du zufrieden ___ deinem neuen Job? ¦ mit ¦ von / über / an ¦ ¿Estás contento con tu nuevo trabajo? ¦ Are you happy with your new job? ¦ zufrieden mit + D ¦ zufrieden mit + D
+fill ¦ Viele Kinder haben Angst ___ der Dunkelheit. ¦ vor ¦ von / über / an ¦ Muchos niños tienen miedo de la oscuridad. ¦ Many children are afraid of the dark. ¦ Angst vor + D ¦ Angst vor + D
+fill ¦ Wir sind gespannt ___, wie es weitergeht. ¦ darauf ¦ davon / darüber / daran ¦ Estamos impacientes por saber cómo sigue. ¦ We can't wait to see what happens next. ¦ gespannt auf → darauf ¦ gespannt auf → darauf
+fill ¦ Sie hat großes Interesse ___ moderner Kunst. ¦ an ¦ für / auf / von ¦ Tiene mucho interés por el arte moderno. ¦ She's very interested in modern art. ¦ Interesse an + D ¦ Interesse an + D
+choose ¦ «Estoy convencido de ello». ¦ «I'm convinced of it». ¦ Ich bin davon überzeugt. ¦ Ich bin darauf überzeugt. / Ich bin daran überzeugt. / Ich bin dafür überzeugt.
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Er ist neidisch auf seinen Bruder. ¦ Er ist neidisch von seinem Bruder. / Er ist neidisch an seinem Bruder. / Er ist neidisch über seinen Bruder.
+order ¦ Wer ist für die Organisation verantwortlich ¦ ¿Quién es responsable de la organización? ¦ Who is responsible for the organisation?
+order ¦ Ich habe keine Lust auf Streit ¦ No tengo ganas de pelear. ¦ I'm not in the mood for an argument.
+translate ¦ Estoy dispuesto a ayudarte. ¦ I'm willing to help you. ¦ Ich bin bereit, dir zu helfen. ¦ Ich bin dazu bereit, dir zu helfen.
+translate ¦ Está enamorada de su vecino. ¦ She's in love with her neighbour. ¦ Sie ist in ihren Nachbarn verliebt. ¦ Sie ist in ihren Nachbarn verliebt
+match ¦ stolz auf=orgulloso de=proud of; abhängig von=dependiente de=dependent on; interessiert an=interesado en=interested in; bereit zu=dispuesto a=willing to; gespannt auf=impaciente por=eager to know
+listen ¦ Ich bin sehr gespannt auf deine Antwort. ¦ Ich bin sehr gespannt auf deinen Besuch. / Ich bin sehr stolz auf deine Antwort. / Ich bin nicht gespannt auf deine Antwort.
+
+=== 14
+title: Pro und Contra ¦ A favor y en contra ¦ Pros and cons
+desc: Argumentar por escrito: estructura de la Erörterung, conectores y fórmulas para opinar ¦ Arguing in writing: the structure of an essay, connectors and phrases for giving opinions
+gram: estructurar: zunächst, zum einen … zum anderen, außerdem, schließlich ¦ contraargumentar: dagegen spricht, allerdings, andererseits ¦ concluir: folglich, demnach, alles in allem, zusammenfassend ¦ opinar: meiner Meinung nach, ich bin der Ansicht, dass…
+gram_en: structuring: zunächst, zum einen … zum anderen, außerdem, schließlich ¦ counter-arguing: dagegen spricht, allerdings, andererseits ¦ concluding: folglich, demnach, alles in allem, zusammenfassend ¦ giving opinions: meiner Meinung nach, ich bin der Ansicht, dass…
+ref: b2-argumentieren
+words: das Argument, argumentieren, die These, die Ansicht, die Auffassung, der Standpunkt, die Meinung, vertreten, überzeugen, überzeugend, der Vorteil, der Nachteil, abwägen, einerseits, andererseits, zunächst, außerdem, folglich, demnach, zusammenfassend, alles in allem, meiner Meinung nach, dagegen, dafür, befürworten, ablehnen
+intro:
+<h3>Estructura de una argumentación</h3>
+<table><tr><td>introducción</td><td>Das Thema … wird zurzeit viel diskutiert. · Immer mehr Menschen …</td></tr>
+<tr><td>argumentos a favor</td><td><b>Für</b> … <b>spricht</b>, dass … · <b>Zum einen</b> … <b>zum anderen</b> … · <b>Außerdem</b> … · Ein weiteres Argument ist …</td></tr>
+<tr><td>argumentos en contra</td><td><b>Dagegen spricht</b>, dass … · <b>Allerdings</b> darf man nicht vergessen, dass … · <b>Andererseits</b> …</td></tr>
+<tr><td>conclusión</td><td><b>Alles in allem</b> … · <b>Zusammenfassend</b> lässt sich sagen, dass … · <b>Folglich</b> …</td></tr></table>
+<h3>Expresar la opinión</h3>
+<div class="example"><b>Meiner Meinung nach</b> ist das sinnvoll. (inversión: el verbo detrás)<br><b>Ich bin der Ansicht / Auffassung, dass</b> wir mehr tun müssen.<br><b>Ich vertrete den Standpunkt, dass</b> … · <b>Ich halte</b> das <b>für</b> eine gute Idee.</div>
+<h3>Matizar</h3>
+<p><i>Es stimmt zwar, dass …, aber … · Einerseits …, andererseits … · Man muss … gegen … abwägen.</i></p>
+<div class="tip">En el examen de la EOI se valora la cohesión: varía los conectores y evita repetir «und dann».</div>
+intro_en:
+<h3>Structure of an argument</h3>
+<table><tr><td>introduction</td><td>Das Thema … wird zurzeit viel diskutiert. · Immer mehr Menschen …</td></tr>
+<tr><td>arguments for</td><td><b>Für</b> … <b>spricht</b>, dass … · <b>Zum einen</b> … <b>zum anderen</b> … · <b>Außerdem</b> … · Ein weiteres Argument ist …</td></tr>
+<tr><td>arguments against</td><td><b>Dagegen spricht</b>, dass … · <b>Allerdings</b> darf man nicht vergessen, dass … · <b>Andererseits</b> …</td></tr>
+<tr><td>conclusion</td><td><b>Alles in allem</b> … · <b>Zusammenfassend</b> lässt sich sagen, dass … · <b>Folglich</b> …</td></tr></table>
+<h3>Giving your opinion</h3>
+<div class="example"><b>Meiner Meinung nach</b> ist das sinnvoll. (inversion: verb after it)<br><b>Ich bin der Ansicht / Auffassung, dass</b> wir mehr tun müssen.<br><b>Ich vertrete den Standpunkt, dass</b> … · <b>Ich halte</b> das <b>für</b> eine gute Idee. (I consider that…)</div>
+<h3>Qualifying</h3>
+<p><i>Es stimmt zwar, dass …, aber … · Einerseits …, andererseits … · Man muss … gegen … abwägen.</i> (weigh … against …)</p>
+<div class="tip">EOI exams reward cohesion: vary your connectors and avoid repeating «und dann».</div>
+ex:
+fill ¦ Meiner Meinung ___ sollten Schulen später beginnen. ¦ nach ¦ zu / von / bei ¦ En mi opinión, los colegios deberían empezar más tarde. ¦ In my opinion schools should start later. ¦ meiner Meinung nach ¦ meiner Meinung nach
+fill ¦ ___ Homeoffice spricht, dass man Zeit spart. ¦ Für ¦ Dafür / Gegen / Zum ¦ A favor del teletrabajo está que se ahorra tiempo. ¦ One argument for working from home is that you save time. ¦ Für … spricht ¦ Für … spricht
+fill ¦ Zum einen ist es billiger, zum ___ ist es umweltfreundlicher. ¦ anderen ¦ andere / zweiten / anderes ¦ Por un lado es más barato; por otro, más ecológico. ¦ For one thing it's cheaper; for another it's greener. ¦ zum einen … zum anderen ¦ zum einen … zum anderen
+fill ¦ Ich bin der ___, dass wir mehr investieren müssen. ¦ Ansicht ¦ Meinung nach / Standpunkt / Idee ¦ Opino que tenemos que invertir más. ¦ I am of the opinion that we need to invest more. ¦ der Ansicht sein ¦ der Ansicht sein
+fill ¦ Ich halte das ___ eine schlechte Idee. ¦ für ¦ als / zu / wie ¦ Me parece una mala idea. ¦ I think that's a bad idea. ¦ halten für ¦ halten für
+fill ¦ ___ lässt sich sagen, dass beide Seiten recht haben. ¦ Zusammenfassend ¦ Zusammenfassung / Zusammen / Zum Schluss ¦ En resumen, se puede decir que ambas partes tienen razón. ¦ To sum up, both sides are right. ¦ zusammenfassend ¦ zusammenfassend
+choose ¦ Un conector para introducir un contraargumento. ¦ A connector to introduce a counter-argument. ¦ Dagegen spricht, dass … ¦ Außerdem … / Zum einen … / Alles in allem …
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Meiner Meinung nach ist das falsch. ¦ Meiner Meinung nach das ist falsch. / Nach meiner Meinung das falsch ist. / Meine Meinung nach ist das falsch.
+order ¦ Man muss die Vorteile gegen die Nachteile abwägen ¦ Hay que sopesar las ventajas frente a los inconvenientes. ¦ You have to weigh the advantages against the disadvantages.
+order ¦ Alles in allem überwiegen die Vorteile ¦ En conjunto, predominan las ventajas. ¦ All in all, the advantages outweigh the disadvantages.
+translate ¦ Estoy convencido de que es una buena solución. ¦ I'm convinced it's a good solution. ¦ Ich bin davon überzeugt, dass es eine gute Lösung ist. ¦ Ich bin überzeugt, dass das eine gute Lösung ist.
+translate ¦ Por un lado es caro; por otro, es práctico. ¦ On the one hand it's expensive; on the other, it's practical. ¦ Einerseits ist es teuer, andererseits ist es praktisch. ¦ Einerseits ist es teuer, andererseits praktisch.
+match ¦ das Argument=el argumento=argument; der Standpunkt=el punto de vista=point of view; abwägen=sopesar=to weigh up; befürworten=apoyar=to support; folglich=por consiguiente=consequently
+listen ¦ Alles in allem bin ich für diesen Vorschlag. ¦ Alles in allem bin ich gegen diesen Vorschlag. / Im Großen und Ganzen bin ich für diesen Vorschlag. / Alles in allem bin ich für diese Lösung.
+
+=== 15
+title: Besuchen, versuchen, untersuchen ¦ Visitar, intentar, examinar ¦ Visit, try, examine
+desc: Prefijos verbales y su significado: be-, ver-, ent-, er-, zer- y prefijos separables ¦ Verb prefixes and their meaning: be-, ver-, ent-, er-, zer- and separable prefixes
+gram: be-: hace transitivo (antworten auf → beantworten) ¦ ver-: error, cambio, final (verlaufen, verändern, verblühen) ¦ ent-: separación (entfernen, entkommen) ¦ er-: resultado (erreichen, erfinden) · zer-: destrucción (zerbrechen) ¦ separables: an-, auf-, aus-, ein-, ab-, mit-, nach-, vor-, zu-
+gram_en: be-: makes a verb transitive (antworten auf → beantworten) ¦ ver-: mistake, change, ending (verlaufen, verändern, verblühen) ¦ ent-: separation (entfernen, entkommen) ¦ er-: result (erreichen, erfinden) · zer-: destruction (zerbrechen) ¦ separable: an-, auf-, aus-, ein-, ab-, mit-, nach-, vor-, zu-
+ref: b2-praefixverben
+words: beantworten, bewohnen, besteigen, bearbeiten, sich verlaufen, verschlafen, sich versprechen, verändern, verbessern, verkaufen, entfernen, entkommen, entdecken, entwickeln, erreichen, erfinden, erkennen, erleben, zerbrechen, zerstören, zerreißen, nachdenken, nachschlagen, vorstellen, zumachen, aufmachen, abschließen, ausschalten
+intro:
+<h3>Prefijos inseparables (sin ge- en el participio)</h3>
+<table><tr><td><b>be-</b>: convierte en transitivo</td><td>antworten <b>auf</b> die Frage → die Frage <b>beantworten</b> · in einem Haus wohnen → ein Haus <b>bewohnen</b></td></tr>
+<tr><td><b>ver-</b>: error / cambio / fin</td><td>sich <b>ver</b>laufen (perderse), <b>ver</b>schlafen (quedarse dormido), sich <b>ver</b>sprechen (equivocarse al hablar) · <b>ver</b>ändern, <b>ver</b>bessern · <b>ver</b>blühen (marchitarse)</td></tr>
+<tr><td><b>ent-</b>: separación, origen</td><td><b>ent</b>fernen (quitar), <b>ent</b>kommen (escapar), <b>ent</b>stehen (surgir)</td></tr>
+<tr><td><b>er-</b>: logro, resultado</td><td><b>er</b>reichen (alcanzar), <b>er</b>finden (inventar), <b>er</b>kennen (reconocer)</td></tr>
+<tr><td><b>zer-</b>: destrucción</td><td><b>zer</b>brechen, <b>zer</b>stören, <b>zer</b>reißen</td></tr></table>
+<h3>Prefijos separables: significado espacial</h3>
+<p><b>auf-</b> (abrir, hacia arriba: aufmachen, aufstehen), <b>zu-</b> (cerrar: zumachen), <b>aus-</b> (fuera, apagar: ausgehen, ausschalten), <b>ein-</b> (dentro: einsteigen), <b>ab-</b> (separarse, partir: abfahren), <b>an-</b> (contacto, encender: anrufen, anmachen), <b>nach-</b> (después, repetir: nachdenken, nachschlagen), <b>vor-</b> (delante, antes: vorstellen, vorbereiten).</p>
+<div class="tip">Un mismo verbo cambia mucho con el prefijo: <i>suchen</i> (buscar) → <i>be</i>suchen (visitar), <i>ver</i>suchen (intentar), <i>unter</i>suchen (examinar), <i>aus</i>suchen (escoger).</div>
+intro_en:
+<h3>Inseparable prefixes (no ge- in the participle)</h3>
+<table><tr><td><b>be-</b>: makes a verb transitive</td><td>antworten <b>auf</b> die Frage → die Frage <b>beantworten</b> · in einem Haus wohnen → ein Haus <b>bewohnen</b></td></tr>
+<tr><td><b>ver-</b>: mistake / change / ending</td><td>sich <b>ver</b>laufen (get lost), <b>ver</b>schlafen (oversleep), sich <b>ver</b>sprechen (make a slip of the tongue) · <b>ver</b>ändern, <b>ver</b>bessern · <b>ver</b>blühen (wither)</td></tr>
+<tr><td><b>ent-</b>: separation, origin</td><td><b>ent</b>fernen (remove), <b>ent</b>kommen (escape), <b>ent</b>stehen (arise)</td></tr>
+<tr><td><b>er-</b>: achievement, result</td><td><b>er</b>reichen (reach), <b>er</b>finden (invent), <b>er</b>kennen (recognise)</td></tr>
+<tr><td><b>zer-</b>: destruction</td><td><b>zer</b>brechen, <b>zer</b>stören, <b>zer</b>reißen (break, destroy, tear up)</td></tr></table>
+<h3>Separable prefixes: spatial meaning</h3>
+<p><b>auf-</b> (open, up: aufmachen, aufstehen), <b>zu-</b> (close: zumachen), <b>aus-</b> (out, off: ausgehen, ausschalten), <b>ein-</b> (in: einsteigen), <b>ab-</b> (off, away: abfahren), <b>an-</b> (contact, on: anrufen, anmachen), <b>nach-</b> (after, again: nachdenken, nachschlagen), <b>vor-</b> (before, in front: vorstellen, vorbereiten).</p>
+<div class="tip">One verb changes a lot with its prefix: <i>suchen</i> (look for) → <i>be</i>suchen (visit), <i>ver</i>suchen (try), <i>unter</i>suchen (examine), <i>aus</i>suchen (choose).</div>
+ex:
+fill ¦ Bitte ___ Sie alle Fragen. ¦ beantworten ¦ antworten / verantworten / entantworten ¦ Por favor, conteste todas las preguntas. ¦ Please answer all the questions. ¦ be- + acusativo ¦ be- + accusative
+fill ¦ Ich habe heute Morgen ___ und kam zu spät. ¦ verschlafen ¦ geschlafen / entschlafen / zerschlafen ¦ Esta mañana me quedé dormido y llegué tarde. ¦ I overslept this morning and was late. ¦ ver- = error ¦ ver- = mistake
+fill ¦ Wir haben uns im Wald ___. ¦ verlaufen ¦ gelaufen / entlaufen / belaufen ¦ Nos perdimos en el bosque. ¦ We got lost in the forest. ¦ sich verlaufen ¦ sich verlaufen
+fill ¦ Der Dieb konnte ___. ¦ entkommen ¦ bekommen / verkommen / zerkommen ¦ El ladrón pudo escapar. ¦ The thief managed to escape. ¦ ent- = separación ¦ ent- = away
+fill ¦ Das Glas ist ___. ¦ zerbrochen ¦ gebrochen ab / verbrochen / entbrochen ¦ El vaso se ha roto en pedazos. ¦ The glass has broken. ¦ zer- = destrucción ¦ zer- = to pieces
+fill ¦ Morgen ___ der Arzt den Patienten. ¦ untersucht ¦ besucht / versucht / sucht aus ¦ Mañana el médico examina al paciente. ¦ Tomorrow the doctor examines the patient. ¦ untersuchen = examinar ¦ untersuchen = to examine
+choose ¦ «Intentar» se dice… ¦ «To try» is… ¦ versuchen ¦ besuchen / untersuchen / aussuchen
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Ich habe die Frage beantwortet. ¦ Ich habe auf die Frage beantwortet. / Ich habe die Frage geantwortet. / Ich habe die Frage gebeantwortet.
+order ¦ Wer hat das Telefon erfunden ¦ ¿Quién inventó el teléfono? ¦ Who invented the telephone?
+order ¦ Ich muss noch darüber nachdenken ¦ Todavía tengo que pensarlo. ¦ I still need to think about it.
+translate ¦ No te reconocí. ¦ I didn't recognise you. ¦ Ich habe dich nicht erkannt. ¦ Ich habe dich nicht erkannt
+translate ¦ Hemos alcanzado nuestro objetivo. ¦ We've reached our goal. ¦ Wir haben unser Ziel erreicht. ¦ Wir haben unser Ziel erreicht
+match ¦ besuchen=visitar=to visit; versuchen=intentar=to try; untersuchen=examinar=to examine; aussuchen=escoger=to choose; zerstören=destruir=to destroy
+listen ¦ Ich habe mich auf dem Weg zum Bahnhof verlaufen. ¦ Ich habe mich auf dem Weg zum Hotel verlaufen. / Ich bin auf dem Weg zum Bahnhof gelaufen. / Ich habe auf dem Weg zum Bahnhof verschlafen.
+
+=== 16
+title: Es regnet, es gibt, es geht ¦ Llueve, hay, va ¦ It's raining, there is, it's going
+desc: Los usos de «es»: sujeto impersonal, correlato y relleno ¦ The uses of «es»: impersonal subject, correlative and placeholder
+gram: es impersonal: es regnet, es gibt, es geht um, es handelt sich um ¦ es como anuncio de una subordinada: Es freut mich, dass… ¦ es de relleno en primera posición: Es kamen viele Leute ¦ es que desaparece al cambiar el orden
+gram_en: impersonal es: es regnet, es gibt, es geht um, es handelt sich um ¦ es announcing a subordinate clause: Es freut mich, dass… ¦ es as a placeholder in first position: Es kamen viele Leute ¦ es that disappears when the word order changes
+ref: b2-es
+words: es gibt, es geht um, es handelt sich um, es kommt darauf an, es lohnt sich, es fällt mir schwer, es fällt mir leicht, es tut mir leid, es klappt, es eilt, es klingelt, es zieht, es stimmt, es liegt an, es hängt davon ab
+intro:
+<h3>es impersonal (obligatorio)</h3>
+<p>Tiempo y fenómenos: <i><b>Es</b> regnet. <b>Es</b> ist kalt. <b>Es</b> klingelt.</i> Expresiones fijas:</p>
+<table><tr><td><b>es gibt</b> + A</td><td>hay</td></tr>
+<tr><td><b>es geht um</b> + A / <b>es handelt sich um</b> + A</td><td>se trata de</td></tr>
+<tr><td><b>es kommt darauf an</b>, ob…</td><td>depende de si…</td></tr>
+<tr><td><b>es lohnt sich</b></td><td>merece la pena</td></tr>
+<tr><td><b>es fällt mir schwer / leicht</b>, … zu</td><td>me cuesta / me resulta fácil</td></tr>
+<tr><td><b>es liegt an</b> + D</td><td>se debe a, es culpa de</td></tr></table>
+<p>Este es se mantiene aunque cambie el orden: <i>Heute regnet <b>es</b>. In dem Film geht <b>es</b> um Liebe.</i></p>
+<h3>es como anuncio (correlato)</h3>
+<p><i><b>Es</b> freut mich, dass du da bist.</i> → si la subordinada va delante, desaparece: <i>Dass du da bist, freut mich.</i></p>
+<h3>es de relleno</h3>
+<p>Solo ocupa la primera posición; el verbo concuerda con el sujeto real: <i><b>Es</b> kamen viele Leute.</i> → <i>Viele Leute kamen.</i> · <i><b>Es</b> wurde viel getanzt.</i></p>
+intro_en:
+<h3>Impersonal es (compulsory)</h3>
+<p>Weather and phenomena: <i><b>Es</b> regnet. <b>Es</b> ist kalt. <b>Es</b> klingelt.</i> (the doorbell is ringing). Fixed expressions:</p>
+<table><tr><td><b>es gibt</b> + A</td><td>there is / are</td></tr>
+<tr><td><b>es geht um</b> + A / <b>es handelt sich um</b> + A</td><td>it's about, it's a matter of</td></tr>
+<tr><td><b>es kommt darauf an</b>, ob…</td><td>it depends on whether…</td></tr>
+<tr><td><b>es lohnt sich</b></td><td>it's worth it</td></tr>
+<tr><td><b>es fällt mir schwer / leicht</b>, … zu</td><td>I find it hard / easy to…</td></tr>
+<tr><td><b>es liegt an</b> + D</td><td>it's due to, it's because of</td></tr></table>
+<p>This es stays even if the word order changes: <i>Heute regnet <b>es</b>. In dem Film geht <b>es</b> um Liebe.</i></p>
+<h3>es announcing a clause (correlative)</h3>
+<p><i><b>Es</b> freut mich, dass du da bist.</i> → if the clause comes first, es disappears: <i>Dass du da bist, freut mich.</i></p>
+<h3>Placeholder es</h3>
+<p>It only fills first position; the verb agrees with the real subject: <i><b>Es</b> kamen viele Leute.</i> (there came many people) → <i>Viele Leute kamen.</i> · <i><b>Es</b> wurde viel getanzt.</i></p>
+ex:
+fill ¦ In dem Buch ___ es um eine Familie in Berlin. ¦ geht ¦ gibt / handelt / ist ¦ El libro trata de una familia en Berlín. ¦ The book is about a family in Berlin. ¦ es geht um ¦ es geht um
+fill ¦ Bei dem Problem handelt es ___ um einen Fehler im System. ¦ sich ¦ es / um / ihn ¦ El problema se debe a un error del sistema. ¦ The problem is an error in the system. ¦ es handelt sich um ¦ es handelt sich um
+fill ¦ Es fällt mir ___, früh aufzustehen. ¦ schwer ¦ schwierig / hart / schlecht ¦ Me cuesta levantarme temprano. ¦ I find it hard to get up early. ¦ es fällt mir schwer ¦ es fällt mir schwer
+fill ¦ Kommst du mit? — Es kommt ___ an, ob ich Zeit habe. ¦ darauf ¦ davon / daran / darum ¦ ¿Vienes? —Depende de si tengo tiempo. ¦ Are you coming? —It depends on whether I have time. ¦ es kommt darauf an ¦ es kommt darauf an
+fill ¦ Die Ausstellung ist toll. Es ___ sich wirklich! ¦ lohnt ¦ lohnen / gibt / geht ¦ La exposición es estupenda. ¡Merece la pena de verdad! ¦ The exhibition is great. It's really worth it! ¦ es lohnt sich ¦ es lohnt sich
+fill ¦ Es ___ viele Gäste zur Feier. ¦ kamen ¦ kam / kommt / gab ¦ Vinieron muchos invitados a la fiesta. ¦ Many guests came to the party. ¦ El verbo concuerda con «viele Gäste» ¦ The verb agrees with «viele Gäste»
+choose ¦ Quita el «es» de relleno: «Es warten draußen zwei Männer.» ¦ Remove the placeholder «es»: «Es warten draußen zwei Männer.» ¦ Draußen warten zwei Männer. ¦ Draußen warten es zwei Männer. / Es draußen warten zwei Männer. / Draußen wartet es zwei Männer.
+choose ¦ «Lo siento». ¦ «I'm sorry». ¦ Es tut mir leid. ¦ Ich tue leid. / Es ist mir leid. / Mir tut es Leid machen.
+order ¦ Woran liegt es dass das Internet so langsam ist ¦ ¿A qué se debe que internet vaya tan lento? ¦ Why is the internet so slow?
+order ¦ Dass du gekommen bist freut mich sehr ¦ Me alegra mucho que hayas venido. ¦ I'm very glad you came.
+translate ¦ Se trata de un malentendido. ¦ It's a misunderstanding. ¦ Es handelt sich um ein Missverständnis. ¦ Es geht um ein Missverständnis.
+translate ¦ Hoy hace mucho viento. ¦ It's very windy today. ¦ Heute ist es sehr windig. ¦ Es ist heute sehr windig.
+match ¦ es lohnt sich=merece la pena=it's worth it; es kommt darauf an=depende=it depends; es geht um=se trata de=it's about; es klappt=sale bien=it works out; es eilt=corre prisa=it's urgent
+listen ¦ Es lohnt sich nicht, so lange zu warten. ¦ Es lohnt sich, so lange zu warten. / Es lohnt sich nicht, so viel zu bezahlen. / Es fällt mir schwer, so lange zu warten.
+
+=== 17
+title: Doch, mal, ja ¦ Pues, a ver, ya ¦ Doch, mal, ja
+desc: El registro y las partículas modales en la lengua hablada ¦ Register and modal particles in spoken German
+gram: formal e informal: du / Sie, léxico, construcciones ¦ partículas: doch (insistencia, reproche), mal (suavizar), ja (algo conocido, sorpresa) ¦ denn (en preguntas), eben / halt (resignación), schon (seguro que) ¦ entonación y cortesía
+gram_en: formal and informal: du / Sie, vocabulary, structures ¦ particles: doch (insistence, reproach), mal (softening), ja (shared knowledge, surprise) ¦ denn (in questions), eben / halt (resignation), schon (surely) ¦ intonation and politeness
+ref: b2-partikeln
+words: doch, mal, ja, denn, eben, halt, schon, eigentlich, ruhig, bloß, wohl, etwa, umgangssprachlich, förmlich, höflich, die Höflichkeit, der Ton, die Betonung, betonen, die Bitte, der Vorwurf, die Überraschung
+intro:
+<h3>Partículas modales</h3>
+<p>No se traducen palabra por palabra; dan <b>tono</b> a la frase. Van en el centro de la oración, sin acento.</p>
+<table><tr><td><b>doch</b></td><td>insistencia / reproche: <i>Komm <b>doch</b> mit!</i> (¡venga, vente!) · <i>Das habe ich dir <b>doch</b> gesagt!</i> (¡si ya te lo dije!)</td></tr>
+<tr><td><b>mal</b></td><td>suaviza una petición: <i>Kannst du <b>mal</b> kommen?</i> · <i>Schau <b>mal</b>!</i></td></tr>
+<tr><td><b>ja</b></td><td>algo sabido / sorpresa: <i>Du weißt <b>ja</b>, dass …</i> (ya sabes) · <i>Das ist <b>ja</b> toll!</i> (¡qué bien!)</td></tr>
+<tr><td><b>denn</b></td><td>interés en preguntas: <i>Was ist <b>denn</b> los?</i> (¿pero qué pasa?)</td></tr>
+<tr><td><b>eben / halt</b></td><td>resignación: <i>Das ist <b>eben</b> so.</i> (es lo que hay) · <i>Dann nehmen wir <b>halt</b> den Bus.</i></td></tr>
+<tr><td><b>schon</b></td><td>tranquilizar: <i>Das klappt <b>schon</b>.</i> (ya verás como sale bien)</td></tr>
+<tr><td><b>ruhig</b></td><td>permiso: <i>Du kannst <b>ruhig</b> hereinkommen.</i> (pasa, sin problema)</td></tr></table>
+<h3>Registro</h3>
+<p>Formal: <i>Könnten Sie bitte…? · Ich würde gern… · Darf ich Sie fragen…?</i> Informal: <i>Kannst du mal…? · Hast du kurz Zeit? · Na, wie geht's?</i></p>
+<div class="tip">Con partículas una orden suena más amable: <i>Mach das Fenster zu!</i> → <i>Mach doch mal das Fenster zu.</i></div>
+intro_en:
+<h3>Modal particles</h3>
+<p>They are not translated word for word; they give a <b>tone</b> to the sentence. They sit in the middle of the clause, unstressed.</p>
+<table><tr><td><b>doch</b></td><td>insistence / reproach: <i>Komm <b>doch</b> mit!</i> (come on, come along!) · <i>Das habe ich dir <b>doch</b> gesagt!</i> (I told you so!)</td></tr>
+<tr><td><b>mal</b></td><td>softens a request: <i>Kannst du <b>mal</b> kommen?</i> · <i>Schau <b>mal</b>!</i></td></tr>
+<tr><td><b>ja</b></td><td>shared knowledge / surprise: <i>Du weißt <b>ja</b>, dass …</i> (as you know) · <i>Das ist <b>ja</b> toll!</i> (that's great!)</td></tr>
+<tr><td><b>denn</b></td><td>interest in questions: <i>Was ist <b>denn</b> los?</i> (what's going on, then?)</td></tr>
+<tr><td><b>eben / halt</b></td><td>resignation: <i>Das ist <b>eben</b> so.</i> (that's just how it is) · <i>Dann nehmen wir <b>halt</b> den Bus.</i></td></tr>
+<tr><td><b>schon</b></td><td>reassurance: <i>Das klappt <b>schon</b>.</i> (it'll be fine)</td></tr>
+<tr><td><b>ruhig</b></td><td>permission: <i>Du kannst <b>ruhig</b> hereinkommen.</i> (feel free to come in)</td></tr></table>
+<h3>Register</h3>
+<p>Formal: <i>Könnten Sie bitte…? · Ich würde gern… · Darf ich Sie fragen…?</i> Informal: <i>Kannst du mal…? · Hast du kurz Zeit? · Na, wie geht's?</i></p>
+<div class="tip">Particles make an order sound friendlier: <i>Mach das Fenster zu!</i> → <i>Mach doch mal das Fenster zu.</i></div>
+ex:
+fill ¦ Komm ___ mit, es wird bestimmt lustig! ¦ doch ¦ denn / eben / etwa ¦ ¡Venga, vente, seguro que será divertido! ¦ Come on, come along, it'll be fun! ¦ doch = insistencia ¦ doch = insistence
+fill ¦ Kannst du ___ kurz helfen? ¦ mal ¦ denn / halt / ja ¦ ¿Me echas una mano un momento? ¦ Can you give me a hand for a moment? ¦ mal = suavizar ¦ mal = softening
+fill ¦ Was ist ___ los? Du siehst traurig aus. ¦ denn ¦ doch / mal / halt ¦ ¿Pero qué pasa? Pareces triste. ¦ What's the matter? You look sad. ¦ denn en preguntas ¦ denn in questions
+fill ¦ Der Bus ist weg. Dann gehen wir ___ zu Fuß. ¦ halt ¦ ja / denn / etwa ¦ Se ha ido el autobús. Pues vamos andando. ¦ The bus has gone. Then we'll just walk. ¦ halt = resignación ¦ halt = resignation
+fill ¦ Keine Sorge, das klappt ___. ¦ schon ¦ denn / etwa / mal ¦ No te preocupes, ya verás como sale bien. ¦ Don't worry, it'll work out. ¦ schon = tranquilizar ¦ schon = reassurance
+fill ¦ Das ist ___ eine tolle Überraschung! ¦ ja ¦ denn / mal / etwa ¦ ¡Pero qué sorpresa tan estupenda! ¦ What a great surprise! ¦ ja = sorpresa ¦ ja = surprise
+choose ¦ La versión más amable. ¦ The friendliest version. ¦ Mach doch bitte mal die Tür zu. ¦ Mach die Tür zu! / Tür zu! / Du machst die Tür zu.
+choose ¦ Petición formal adecuada. ¦ A suitable formal request. ¦ Könnten Sie mir bitte sagen, wie spät es ist? ¦ Sag mal, wie spät? / Hey, Uhrzeit? / Wie spät is'n?
+order ¦ Das habe ich dir doch schon gesagt ¦ ¡Si ya te lo he dicho! ¦ I've already told you that!
+order ¦ Du kannst ruhig hier bleiben ¦ Puedes quedarte aquí tranquilamente. ¦ You're welcome to stay here.
+translate ¦ ¡Mira esto! ¦ Look at this! ¦ Schau mal! ¦ Guck mal!
+translate ¦ Es lo que hay. ¦ That's just the way it is. ¦ Das ist eben so. ¦ Das ist halt so.
+match ¦ doch=pues, venga=come on; mal=a ver, un momento=just; halt=pues (resignación)=just; denn=pero (en preguntas)=then; ruhig=tranquilamente=feel free to
+listen ¦ Was machst du denn hier? ¦ Was machst du doch hier? / Was machst du denn da? / Was macht ihr denn hier?
+
+=== 18
+title: Ein Text, der zusammenhält ¦ Un texto cohesionado ¦ A cohesive text
+desc: Cohesión textual: referencias, conectores y orden de la información ¦ Text cohesion: references, connectors and the order of information
+gram: referencias hacia atrás: dieser, jener, derselbe, letzterer / ersterer ¦ adverbios pronominales: dabei, dadurch, darüber ¦ el orden en el centro de la frase: tiempo – causa – modo – lugar ¦ información conocida antes, nueva al final
+gram_en: references back: dieser, jener, derselbe, letzterer / ersterer ¦ pronominal adverbs: dabei, dadurch, darüber ¦ word order in the middle of the clause: time – cause – manner – place ¦ known information first, new information last
+ref: b2-kohaerenz
+words: dieser, jener, ersterer, letzterer, derselbe, dabei, dadurch, darüber, damit, davon, hierbei, hierzu, dort, damals, zuvor, anschließend, daraufhin, im Folgenden, wie bereits erwähnt, im Gegensatz dazu, ebenfalls, ebenso, der Zusammenhang, der Absatz, die Gliederung, gliedern
+intro:
+<h3>Referencias para no repetir</h3>
+<table><tr><td><b>dieser / jener</b></td><td>este / aquel: <i>Anna und Lisa studieren. <b>Diese</b> (Lisa) Medizin, <b>jene</b> (Anna) Jura.</i></td></tr>
+<tr><td><b>ersterer / letzterer</b></td><td>el primero / el último (formal)</td></tr>
+<tr><td><b>da(r)- + preposición</b></td><td><i>Wir haben ein neues System. <b>Dadurch</b> sparen wir Zeit. <b>Dabei</b> gibt es aber ein Problem.</i></td></tr>
+<tr><td>conectores de texto</td><td><i>zuvor, anschließend, daraufhin, im Folgenden, wie bereits erwähnt, im Gegensatz dazu</i></td></tr></table>
+<h3>El orden en el centro de la frase: Te – Ka – Mo – Lo</h3>
+<p><b>Te</b>mporal (wann?) – <b>Ka</b>usal (warum?) – <b>Mo</b>dal (wie?) – <b>Lo</b>kal (wo / wohin?):</p>
+<div class="example">Ich fahre <b>morgen</b> <b>wegen eines Termins</b> <b>mit dem Zug</b> <b>nach Köln</b>.</div>
+<h3>Lo conocido delante, lo nuevo al final</h3>
+<p>Los pronombres van pronto (<i>Ich gebe <b>es ihm</b> morgen</i>) y la información nueva o importante, al final: <i>Das Buch habe ich <b>meiner Schwester</b> geschenkt.</i></p>
+<div class="tip">Un texto B2 se organiza en párrafos (Absätze), cada uno con una idea principal y conectores que los unen.</div>
+intro_en:
+<h3>References to avoid repetition</h3>
+<table><tr><td><b>dieser / jener</b></td><td>this / that: <i>Anna und Lisa studieren. <b>Diese</b> (Lisa) Medizin, <b>jene</b> (Anna) Jura.</i> (the latter… the former)</td></tr>
+<tr><td><b>ersterer / letzterer</b></td><td>the former / the latter (formal)</td></tr>
+<tr><td><b>da(r)- + preposition</b></td><td><i>Wir haben ein neues System. <b>Dadurch</b> sparen wir Zeit. <b>Dabei</b> gibt es aber ein Problem.</i> (thereby… in doing so)</td></tr>
+<tr><td>text connectors</td><td><i>zuvor, anschließend, daraufhin, im Folgenden, wie bereits erwähnt, im Gegensatz dazu</i> (before, afterwards, thereupon, below, as mentioned, in contrast)</td></tr></table>
+<h3>Order in the middle of the clause: Te – Ka – Mo – Lo</h3>
+<p><b>Te</b>mporal (when?) – <b>Ka</b>usal (why?) – <b>Mo</b>dal (how?) – <b>Lo</b>kal (where?) — unlike English, time usually comes before place:</p>
+<div class="example">Ich fahre <b>morgen</b> <b>wegen eines Termins</b> <b>mit dem Zug</b> <b>nach Köln</b>.</div>
+<h3>Known first, new last</h3>
+<p>Pronouns come early (<i>Ich gebe <b>es ihm</b> morgen</i>) and new or important information goes last: <i>Das Buch habe ich <b>meiner Schwester</b> geschenkt.</i></p>
+<div class="tip">A B2 text is organised into paragraphs (Absätze), each with one main idea and connectors linking them.</div>
+ex:
+fill ¦ Wir haben ein neues Programm. ___ sparen wir viel Zeit. ¦ Dadurch ¦ Darüber / Davon / Daran ¦ Tenemos un programa nuevo. Gracias a él ahorramos mucho tiempo. ¦ We have a new program. As a result we save a lot of time. ¦ dadurch = gracias a eso ¦ dadurch = thereby
+fill ¦ Wie bereits ___, ist das Budget begrenzt. ¦ erwähnt ¦ erwähnen / gesagt hat / erwähnte ¦ Como ya se ha mencionado, el presupuesto es limitado. ¦ As already mentioned, the budget is limited. ¦ wie bereits erwähnt ¦ wie bereits erwähnt
+fill ¦ Ich fahre ___ mit dem Zug nach Hamburg. ¦ morgen ¦ nach Hause / zu Fuß / dort ¦ Mañana voy a Hamburgo en tren. ¦ Tomorrow I'm going to Hamburg by train. ¦ TeKaMoLo: tiempo primero ¦ TeKaMoLo: time first
+fill ¦ Peter und Max sind Brüder. ___ ist Arzt, letzterer Lehrer. ¦ Ersterer ¦ Dieser / Erster / Jener ¦ Peter y Max son hermanos. El primero es médico; el segundo, profesor. ¦ Peter and Max are brothers. The former is a doctor, the latter a teacher. ¦ ersterer … letzterer ¦ ersterer … letzterer
+fill ¦ Zuerst gab es einen Vortrag, ___ eine Diskussion. ¦ anschließend ¦ zuvor / damals / ebenfalls ¦ Primero hubo una conferencia y después un debate. ¦ First there was a talk, then a discussion. ¦ anschließend = a continuación ¦ anschließend = afterwards
+fill ¦ Im Gegensatz ___ ist das Leben auf dem Land ruhig. ¦ dazu ¦ davon / dafür / damit ¦ En cambio, la vida en el campo es tranquila. ¦ In contrast, life in the country is quiet. ¦ im Gegensatz dazu ¦ im Gegensatz dazu
+choose ¦ ¿Qué orden es el más natural? ¦ Which order is the most natural? ¦ Ich bin gestern wegen des Regens mit dem Auto zur Arbeit gefahren. ¦ Ich bin zur Arbeit mit dem Auto wegen des Regens gestern gefahren. / Ich bin mit dem Auto gestern zur Arbeit wegen des Regens gefahren. / Ich bin zur Arbeit gestern mit dem Auto gefahren wegen des Regens.
+choose ¦ Pronombres: ¿qué frase está bien? ¦ Pronouns: which sentence is correct? ¦ Ich gebe es dir morgen. ¦ Ich gebe dir es morgen. / Ich gebe morgen es dir. / Ich gebe morgen dir es.
+order ¦ Im Folgenden werden die wichtigsten Ergebnisse dargestellt ¦ A continuación se presentan los resultados más importantes. ¦ The most important results are presented below.
+order ¦ Daraufhin hat die Firma ihre Pläne geändert ¦ A raíz de ello, la empresa cambió sus planes. ¦ As a result, the company changed its plans.
+translate ¦ Tenemos un problema; hablaremos de ello mañana. ¦ We have a problem; we'll talk about it tomorrow. ¦ Wir haben ein Problem, darüber sprechen wir morgen. ¦ Wir haben ein Problem. Wir sprechen morgen darüber.
+translate ¦ Mañana voy a casa en autobús. ¦ Tomorrow I'm going home by bus. ¦ Ich fahre morgen mit dem Bus nach Hause. ¦ Morgen fahre ich mit dem Bus nach Hause.
+match ¦ anschließend=a continuación=afterwards; zuvor=antes=before; daraufhin=a raíz de ello=thereupon; ebenfalls=igualmente=likewise; der Absatz=el párrafo=paragraph
+listen ¦ Wie bereits erwähnt, beginnt die Sitzung um zehn Uhr. ¦ Wie bereits erwähnt, endet die Sitzung um zehn Uhr. / Wie bereits gesagt, beginnt die Sitzung um zehn Uhr. / Wie bereits erwähnt, beginnt die Sitzung um elf Uhr.
