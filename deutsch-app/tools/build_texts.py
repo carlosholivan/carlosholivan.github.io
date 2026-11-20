@@ -112,6 +112,10 @@ def load_forms(lemmas):
             PPS.setdefault(o['pp'].lower(), w)
         for t in ('praes', 'praet', 'k1', 'imp'):
             for p, f in enumerate(o[t]):
+                if f and ' ' in f and t != 'imp':
+                    parts = f.lower().split(' ')
+                    if len(parts) == 2 and parts[1].isalpha():     # separable verb in a subordinate clause: fing an → anfing
+                        FORMS.setdefault(parts[1] + parts[0], []).append((w, t, p))
                 if f and ' ' not in f:
                     first = f.lower()
                     if t == 'imp' and p not in (1, 4, 5):
