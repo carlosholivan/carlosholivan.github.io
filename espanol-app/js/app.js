@@ -2,7 +2,7 @@ import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611
 import { go } from './router.js?v=202611201200';
 import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611201200';
 
-import './views/home.js?v=202611201200';
+import './views/home.js?v=202611202130';
 import './views/lesson.js?v=202611201200';
 import './views/review.js?v=202611201200';
 import './views/progress.js?v=202611201200';

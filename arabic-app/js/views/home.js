@@ -25,6 +25,8 @@ register('home', async (el) => {
   }));
   const bd = await breakdown(S.level, units);
   const pctAll = bd.length ? Math.round(bd.reduce((a, r) => a + r.pct, 0) / bd.length) : pct;
+  rememberPcts(S.level, pctAll);
+  for (const l of LEVELS) if (typeof (S.lvp || {})[l] === 'number') levelPct[l] = S.lvp[l];
   const msg = due ? t('mascotDue').replace('{n}', due) : S.streak ? t('mascotStreak').replace('{n}', S.streak) : t('mascotStart');
 
   el.innerHTML = `<div class="fade">
@@ -120,4 +122,25 @@ async function breakdown(level, units) {
   ].filter(r => r.total);
   rows.forEach(r => { r.pct = Math.round(r.done / r.total * 100); });
   return rows;
+}
+
+// The level figure above, per level, is kept in the state (and the account) so the /idiomas/ hub shows
+// the same progress. Levels never measured are filled in once, in the background.
+let filling = false;
+function rememberPcts(level, pct) {
+  const lvp = { ...(S.lvp || {}) };
+  if (lvp[level] !== pct) { lvp[level] = pct; update({ lvp }); }
+  if (filling || LEVELS.every(l => l in lvp)) return;
+  filling = true;
+  setTimeout(async () => {
+    const add = {};
+    for (const l of LEVELS) {
+      if (l in (S.lvp || {})) continue;
+      try {
+        const bd = await breakdown(l, await loadUnits(l));
+        add[l] = bd.length ? Math.round(bd.reduce((a, r) => a + r.pct, 0) / bd.length) : 0;
+      } catch (e) {}
+    }
+    if (Object.keys(add).length) update({ lvp: { ...add, ...(S.lvp || {}) } });
+  }, 2000);
 }
