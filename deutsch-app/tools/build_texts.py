@@ -1,18 +1,19 @@
-"""Builds data/<level>/texts.json (graded readings of the French app) from tools/texts_src/<level>.txt.
+"""Builds data/<level>/texts.json (graded readings of the German app) from tools/texts_src/<level>.txt.
 
-Source format (one text per block, Spanish translations only after the line "#! es"):
-  === <unit> | French title ¦ Spanish title
-  sum: Spanish summary
-  p: French paragraph            (+ continuation line of the same paragraph, e.g. dialogue turns)
-  = Spanish translation          (=+ continuation line of the translation)
-  note: fragment ¦ kind ¦ explanation in Spanish     (kind: see NOTE_KINDS in js/tenses.js)
-  q: French question ¦ Spanish question ¦ option / option / option ¦ index of the right one ¦ why (Spanish)
+Source format (one text per block; every translation in Spanish AND English):
+  === <unit> | German title ¦ Spanish title ¦ English title
+  sum: Spanish summary ¦ English summary
+  p: German paragraph            (+ continuation line of the same paragraph, e.g. dialogue turns)
+  = Spanish translation          (=+ continuation line)
+  ~ English translation          (~+ continuation line)
+  note: fragment ¦ kind ¦ explanation in Spanish ¦ explanation in English     (kind: see NOTE_KINDS in js/tenses.js)
+  q: German question ¦ Spanish question ¦ English question ¦ option / option / option ¦ index of the right one ¦ why (a quote)
 
 Computed:
-  glossary   every word of the text with its meaning (course vocabulary, tools/texts_src/extra_gloss.txt, the lemma
-             given by spaCy fr_core_news_lg, the verb forms of js/conj.js and plural / feminine endings)
-  verbs      verb phrases with their tense (passé composé, futur proche, subjonctif…), found with the conjugation
-             tables of js/conj.js (spaCy's tense tags are not reliable enough)
+  glossary   every word of the text with its meaning {es, en} (course vocabulary, tools/texts_src/extra_gloss.txt,
+             the lemma given by spaCy de_core_news_lg, the verb forms of js/conj.js, inflection endings, compounds)
+  verbs      verb forms with their tense: TIGER dependencies (oc = verb chain, svp = separable particle) plus the
+             conjugation tables of js/conj.js to tell Präsens / Konjunktiv I and Präteritum / Konjunktiv II apart
   difficult  the level's words that appear in the text, closest lessons first
   gaps       words for the fill-in-the-gaps exercise
 Usage: python3 tools/build_texts.py [level…]
@@ -24,15 +25,15 @@ import spacy
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2']
 SEP = '¦'
-LET = 'A-Za-zÀ-ÖØ-öø-ÿŒœÆæ'
-WORD = re.compile(rf"[Aa]ujourd['’]hui|[{LET}]+(?:['’](?=[{LET}]))?")   # same tokens as js/views/texts.js
-ART = re.compile(r"^(le |la |les |l'|l’|se |s'|s’)")
-nlp = spacy.load('fr_core_news_lg')
+LET = 'A-Za-zÀ-ÖØ-öø-ÿ'
+WORD = re.compile(rf"[{LET}]+")          # same tokens as js/views/texts.js
+ART = re.compile(r"^(der |die |das |sich )")
+nlp = spacy.load('de_core_news_lg')
 
 
 def bare(w):
-    """'le livre' → 'livre', "l'école" → 'école' (nouns are listed with their article)."""
-    return ART.sub('', w.lower().replace('’', "'"))
+    """'der Tisch' → 'tisch', 'sich freuen' → 'freuen' (nouns are listed with their article)."""
+    return ART.sub('', w.lower().strip())
 
 
 # ── meanings ─────────────────────────────────────────────────────────────
@@ -43,21 +44,24 @@ for lv in LEVELS:
         continue
     for v in json.loads(p.read_text(encoding='utf8')):
         k = bare(v['word'])
-        VOC.setdefault(k, v['m']); LVOF.setdefault(k, lv); HEAD.setdefault(k, v['word'])
+        m = {'es': v['m']['es'], 'en': v['m'].get('en', v['m']['es'])}
+        VOC.setdefault(k, m); LVOF.setdefault(k, lv); HEAD.setdefault(k, v['word'])
 EXTRA = {}
 xp = ROOT / 'tools' / 'texts_src' / 'extra_gloss.txt'
 if xp.exists():
     for line in open(xp, encoding='utf8'):
         if line.strip() and not line.startswith('#'):
-            w, es = [x.strip() for x in line.rstrip('\n').split('|')][:2]
-            EXTRA[w.lower().replace('’', "'")] = {'es': es}
-ELID = {"t": '(t de enlace: a-t-il)', "l'": 'el / la (delante de vocal)', "j'": 'yo', "d'": 'de', "qu'": 'que', "n'": 'no (ne)', "s'": 'se / si', "c'": 'esto, eso (ce)',
-        "m'": 'me', "t'": 'te', "jusqu'": 'hasta (jusque)', "lorsqu'": 'cuando (lorsque)', "puisqu'": 'puesto que (puisque)', "quelqu'": 'alguien (quelqu’un)'}
+            parts = [x.strip() for x in line.rstrip('\n').split('|')]
+            if len(parts) < 3:
+                raise SystemExit(f'extra_gloss: needs word | es | en: {line}')
+            EXTRA[bare(parts[0])] = {'es': parts[1], 'en': parts[2]}
+            HEAD.setdefault(bare(parts[0]), parts[0])
 PHRASES = sorted([k for k in list(VOC) + list(EXTRA) if len(WORD.findall(k)) > 1], key=len, reverse=True)
-FUNC = set("le la les l' un une des du de d' à au aux et ou mais donc or ni car je j' tu il elle on nous vous ils elles me m' te t' se s' lui leur leurs y en ce c' cet cette ces "
-           "mon ma mes ton ta tes son sa ses notre nos votre vos qui que qu' quoi dont où ne n' pas plus est sont a ont être avoir dans sur sous par pour avec sans "
-           "chez si oui non très bien aussi tout tous toute toutes".split())
-NUMS = set('un deux trois quatre cinq six sept huit neuf dix onze douze vingt trente cent mille premier aller faire dire avoir être'.split())
+FUNC = set("der die das den dem des ein eine einen einem einer eines und oder aber denn sondern ich du er sie es wir ihr man mich dich sich uns euch "
+           "mir dir ihm ihn ihnen mein meine dein deine sein seine ihr ihre unser unsere euer eure in an auf aus bei mit nach von zu zum zur für um "
+           "über unter vor hinter neben zwischen durch gegen ohne nicht kein keine ist sind bin bist hat habe haben war waren wird werden auch "
+           "noch schon sehr so wie was wer wo wann dass ob wenn als ja nein doch mal nur dann da hier".split())
+NUMS = set('eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf zwanzig hundert tausend sein haben werden machen gehen'.split())
 
 
 def mean(k):
@@ -66,57 +70,45 @@ def mean(k):
 
 def with_head(k, m, lem=None):
     """Meaning shown in the reader: the dictionary form (with its article for nouns) when it differs from the word."""
-    h = HEAD.get(k, k)
-    if lem and lem != h:
-        return {'es': f'{lem}: {m["es"]}'}
-    if h != k:
-        return {'es': f'{h}: {m["es"]}'}
+    h = lem if lem else HEAD.get(k, k)
+    if h.lower() != k:
+        return {'es': f'{h}: {m["es"]}', 'en': f'{h}: {m["en"]}'}
     return m
 
 
 # ── verb forms (js/conj.js) ──────────────────────────────────────────────
-SIMPLE = ['pres', 'imparf', 'fut', 'cond', 'subj', 'ps', 'imp']
-FORMS, PPS, PPRES, INFS, PPL = {}, {}, {}, set(), {}
-ETRE_VERBS = set('aller venir arriver partir sortir entrer rentrer rester tomber naître mourir devenir revenir monter descendre retourner passer parvenir intervenir survenir décéder'.split())
+FORMS, PPS, INFS = {}, {}, set()
+K2SET = set('wäre wärst wären wärt hätte hättest hätten hättet würde würdest würden würdet könnte könntest könnten könntet müsste müsstest müssten '
+            'dürfte dürftest dürften sollte solltest sollten wüsste wüssten käme kämen ginge gingen gäbe '
+            'gäben bräuchte bräuchten täte täten ließe ließen fände fänden bliebe blieben hielte läge lägen stünde stände sähe nähme nähmen hülfe'.split())
 
 
 def load_forms(lemmas):
     js = f"""import('{(ROOT / 'js' / 'conj.js').as_uri()}').then(m => {{
       const out = {{}};
       for (const w of JSON.parse(process.argv[1])) {{
-        const v = m.verbFor(w); const o = {{ pp: m.participle(v), ger: m.gerund(v) }};
-        for (const t of {json.dumps(SIMPLE)}) o[t] = [0, 1, 2, 3, 4, 5].map(p => {{ try {{ return m.conjugate({{ ...v, pron: false }}, t, p); }} catch (e) {{ return null; }} }});
-        out[w] = o;
+        try {{
+          const v = m.verbFor(w); const o = {{ pp: m.participle(v) }};
+          for (const t of ['praes', 'praet', 'k1', 'imp']) o[t] = [0, 1, 2, 3, 4, 5].map(p => {{ try {{ return m.conjugate(v, t, p); }} catch (e) {{ return null; }} }});
+          out[w] = o;
+        }} catch (e) {{}}
       }}
       console.log(JSON.stringify(out));
     }})"""
-    r = subprocess.run(['node', '--input-type=module', '-e', js, json.dumps(sorted(lemmas))], capture_output=True, text=True, timeout=300)
+    r = subprocess.run(['node', '--input-type=module', '-e', js, json.dumps(sorted(lemmas))], capture_output=True, text=True, timeout=600)
     if r.returncode:
         raise SystemExit(r.stderr)
     for w, o in json.loads(r.stdout).items():
         INFS.add(w)
-        pp = o['pp']
-        for suf in ('', 'e', 's', 'es'):
-            if pp and not (pp.endswith('s') and suf in ('s',)):
-                PPS.setdefault(pp + suf, w)
-                PPL.setdefault(pp + suf, set()).add(w)
-        if o['ger'] and o['ger'] != '—':
-            PPRES.setdefault(o['ger'], w)
-        for t in SIMPLE:
+        if o['pp']:
+            PPS.setdefault(o['pp'].lower(), w)
+        for t in ('praes', 'praet', 'k1', 'imp'):
             for p, f in enumerate(o[t]):
-                if f:
-                    FORMS.setdefault(f, []).append((w, t, p))
-        ps3 = (o.get('ps') or [None] * 6)[2]
-        if ps3:
-            m3 = re.match(r"^(.*?)([aiu])(n?t?)$", ps3)
-            if m3:
-                base, vw, tail = m3.groups()
-                circ = {'a': 'â', 'i': 'î', 'u': 'û'}[vw]
-                f3 = base + circ + (tail if tail else 't')
-                stem6 = base + vw + ('n' if 'n' in tail else '')
-                for f, pp_ in ((f3, 2), (stem6 + 'ssent', 5)):
-                    if f not in [x for x, _, _ in []]:
-                        FORMS.setdefault(f, []).append((w, 'subjimp', pp_))
+                if f and ' ' not in f:
+                    first = f.lower()
+                    if t == 'imp' and p not in (1, 4, 5):
+                        continue
+                    FORMS.setdefault(first, []).append((w, t, p))
 
 
 def verb_lemmas():
@@ -126,210 +118,238 @@ def verb_lemmas():
         if p.exists():
             for v in json.loads(p.read_text(encoding='utf8')):
                 w = bare(v['word'])
-                if re.search(r'(er|ir|re|oir)$', w) and ' ' not in w and ('verb' in v.get('pos', '') or w in ('être', 'avoir')):
+                if v.get('pos') == 'verb' and re.fullmatch(rf'[{LET}]+(e?n|ern|eln)', w):
                     out.add(w)
     return out
 
 
-load_forms(verb_lemmas() | {'être', 'avoir', 'aller', 'venir', 'faire', 'pouvoir', 'devoir', 'vouloir', 'savoir', 'falloir'})
+load_forms(verb_lemmas() | {k for k, m in EXTRA.items() if m['en'].startswith('to ') and re.fullmatch(rf'[{LET}]+n', k)} | {'sein', 'haben', 'werden', 'können', 'müssen', 'dürfen', 'sollen', 'wollen', 'mögen', 'wissen', 'lassen'})
 INF_OF = {}
 for f, lst in FORMS.items():
     for w, t, p in lst:
         INF_OF.setdefault(f, w)
 
+UML = str.maketrans('äöü', 'aou')
+ENDINGS = ['', 'e', 'en', 'n', 'er', 'es', 's', 'em', 'ern', 'nen', 'ns', 'st', 'ste', 'sten', 'ster', 'stem', 'stes', 'est', 'este', 'esten',
+           'ere', 'eren', 'erer', 'erem', 'eres']
 
-def gloss_of(k, tok):
-    """Meaning of the word k (lower case) whose spaCy token is tok (or None)."""
-    if k in ELID:
-        return {'es': ELID[k]}
+
+def stem_cands(s):
+    out = []
+    for e in ENDINGS:
+        if e and not s.endswith(e):
+            continue
+        b = s[:len(s) - len(e)] if e else s
+        if len(b) < 2:
+            continue
+        out += [b, b + 'e', b + 'en', b + 'n']
+        if re.search('[äöü]', b):
+            ub = b.translate(UML)
+            out += [ub, ub + 'e']
+    return out
+
+
+def zu_inf(s):
+    """aufzustehen → aufstehen, kennenzulernen → kennenlernen."""
+    m = re.match(rf'^([{LET}]+?)zu([{LET}]+e?n)$', s)
+    return m.group(1) + m.group(2) if m and (m.group(1) + m.group(2)) in INFS | set(VOC) else None
+
+
+def simple_gloss(k):
     m = mean(k)
     if m:
         return with_head(k, m)
-    cands = []
-    if tok is not None:
-        cands.append(tok.lemma_.lower())
-    cands += [INF_OF.get(k), PPS.get(k), PPRES.get(k)]
-    s = k
-    cands += [s[:-1] if s.endswith(('s', 'x')) else None, s[:-1] if s.endswith('e') else None, s[:-2] if s.endswith('es') else None,
-              s[:-3] + 'al' if s.endswith('aux') else None, s[:-1] if s.endswith('eaux') else None, s[:-4] + 'eux' if s.endswith('euse') else None,
-              s[:-3] + 'if' if s.endswith('ive') else None, s[:-4] + 'if' if s.endswith('ives') else None, s[:-3] + 'er' if s.endswith('ère') else None,
-              s[:-4] + 'er' if s.endswith('ères') else None, s[:-2] if s.endswith('ne') and s[-3:-2] in 'neo' else None, s[:-3] if s.endswith('nes') else None,
-              s[:-4] + 'eur' if s.endswith('euse') else None, s[:-4] + 'teur' if s.endswith('trice') else None, s[:-5] + 'teur' if s.endswith('trices') else None]
-    for c in cands:
-        if c and c != k and len(c) > 1 and mean(c):
-            return {'es': f'{HEAD.get(c, c)}: {mean(c)["es"]}'}
+    for c in [INF_OF.get(k), PPS.get(k), zu_inf(k)] + stem_cands(k):
+        if c and c != k and mean(c):
+            return with_head(k, mean(c), HEAD.get(c, c))
     return None
 
 
-# ── verb phrases ─────────────────────────────────────────────────────────
-SKIP = set("ne n' pas plus jamais rien point guère déjà toujours encore bien mal beaucoup peu trop vraiment souvent même aussi tout enfin jamais finalement peut-être sûrement probablement certainement également longtemps presque sans doute".split())
-SUBJ_PRON = set("je j' tu il elle on nous vous ils elles qui".split())
-REFL = set("me m' te t' se s' nous vous".split())
-OBJ = set("en y le la l' les lui leur".split())
-IMP_PREV = set("et puis donc alors mais ou enfin surtout bien toujours vite maintenant aussi s'il te vous plaît".split())
-AUX_TENSE = {'pres': 'pc', 'imparf': 'pqp', 'fut': 'futant', 'cond': 'condp', 'subj': 'subjp', 'ps': 'pant', 'subjimp': 'subjpqp'}
-MODALS = {'pouvoir', 'devoir', 'vouloir', 'savoir', 'falloir'}
-SUBJ_TRIG = re.compile(r"\b(faut|faudrait|veux|veut|voulez|voudrais|voudrait|souhaite|aimerais|bien que|pour que|afin que|avant que|sans que|à moins que|jusqu'à ce que|"
-                       r"peur|content|contente|heureux|heureuse|désolé|désolée|important|nécessaire|essentiel|possible|impossible|dommage|doute|douter|pense pas|crois pas|exige|préfère|regrette|étonnant|normal)\b")
-
-
-def tenses_of(f, lemma=None):
-    return [(w, t, p) for (w, t, p) in FORMS.get(f, []) if lemma is None or w == lemma]
-
-
-def inverted(text, e):
-    """Verb followed by -je / -tu / -il … in a question (allez-vous ?) — not an imperative."""
-    m = re.match(r"-(t-)?(je|tu|il|elle|on|nous|vous|ils|elles)\b", text[e:])
-    if not m:
-        return False
-    end = re.search(r"[.!?]", text[e:])
-    return bool(end and end.group(0) == '?')
-
-
-def verb_phrases(text, toks, doc):
-    """toks: [(start, end, lower)] with the JS tokenisation; doc: spaCy doc of the same text."""
-    pos = {t.idx: t for t in doc}
-    out, used = [], set()
-    n = len(toks)
-
-    def nxt(i):
-        j = i + 1
-        while j < n and toks[j][2] in SKIP:
-            j += 1
-        return j if j < n else None
-
-    def inf_after(j):
-        """Index of the infinitive at j, skipping object pronouns (de m'appeler, de le faire)."""
-        while j < n and (toks[j][2] in OBJ or toks[j][2] in REFL):
-            j += 1
-        return j if j < n and toks[j][2] in INFS else None
-
-    def is_verb(i):
-        s, e, k = toks[i]
-        t = pos.get(s)
-        if not (FORMS.get(k) or k in PPS or k in INFS or k in PPRES):
-            return False
-        if s > 0 and text[s - 1] == '-':          # plus-que-parfait, peut-être …
-            return False
-        prev0 = toks[i - 1][2] if i else ''
-        nxt0 = toks[i + 1][2] if i + 1 < n else ''
-        if k == 'plus' and prev0 not in ('je', 'tu', 'me', 'te', 'lui', 'leur', 'vous', 'nous'):
-            return False
-        if k == 'quitte' and nxt0 in ('à',) and prev0 not in SUBJ_PRON:
-            return False
-        if t is not None and t.pos_ in ('VERB', 'AUX'):
-            return True
-        prev = toks[i - 1][2] if i else ''
-        return prev in SUBJ_PRON or prev in REFL or prev in ("n'", 'ne', 'que', "qu'")
-
-    def imp_context(i):
-        q = i - 1
-        while q >= 0 and (toks[q][2] in ('ne', "n'", 'y', 'en') or toks[q][2] in OBJ or toks[q][2] in REFL):
-            q -= 1
-        if q >= 0 and (toks[q][2] in SUBJ_PRON or toks[q][2] in ('que', "qu'", 'qui')):
-            return False
-        if toks[i][2] == 'empêche' and i + 1 < n and toks[i + 1][2] in ('que', "qu'"):
-            return False
-        if re.search(r'(ez|ons)$', toks[i][2]) and toks[i][2] not in ('sommes', 'avons', 'allons'):
-            return True
-        start = toks[q + 1][0]
-        if text[:start].rstrip()[-1:] in ('', '.', '!', '?', ':', ';', '«', '(', '—', '"', '\n'):
-            return True
-        return q >= 0 and toks[q][2] in IMP_PREV
-
-    for i in range(n):
-        if i in used or not is_verb(i):
+def compound_gloss(k):
+    """Kinderzimmer → Kinder + Zimmer: niño + habitación (longest known last part, then a known first part)."""
+    for i in range(3, len(k) - 2):
+        left, right = k[:i], k[i:]
+        mr = simple_gloss(right)
+        if not mr or len(right) < 3:
             continue
-        s, e, k = toks[i]
-        cands = FORMS.get(k, [])
-        lemmas = {w for w, _, _ in cands}
-        j = nxt(i)
-        if j is not None and text[e:e + 1] == '-' and toks[j][2] in ('t', 'je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'):
-            while j is not None and toks[j][2] in ('t', 'je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'):
-                j = nxt(j)
-        jk = toks[j][2] if j is not None else ''
-        kind, end, lem = None, i, None
-        # compound tenses and the passive: avoir / être + participle
-        if lemmas & {'avoir', 'être'} and j is not None and jk in PPS:
-            auxl = 'être' if 'être' in lemmas else 'avoir'
-            at = [t for w, t, p in cands if w == auxl]
-            ppl = PPS[jk]
-            sp = pos.get(toks[j][0])
-            if sp is not None and sp.lemma_.lower() in PPL.get(jk, ()):
-                ppl = sp.lemma_.lower()
-            if jk == 'plu' and 'il' == (toks[i - 1][2] if i else ''):
-                ppl = 'pleuvoir'
-            if auxl == 'être' and jk.startswith('été') is False and j + 1 < n and False:
-                pass
-            if auxl == 'avoir' and jk == 'été':           # a été + participle → passive
-                j2 = nxt(j)
-                if j2 is not None and toks[j2][2] in PPS:
-                    kind, end, lem = 'pas', j2, PPS[toks[j2][2]]
-            if kind is None:
-                refl = i > 0 and toks[i - 1][2] in REFL
-                if auxl == 'être' and ppl not in ETRE_VERBS and not refl and ppl != 'être':
-                    kind, end, lem = 'pas', j, ppl
-                else:
-                    kind, end, lem = AUX_TENSE.get(at[0] if at else 'pres', 'pc'), j, ppl
-                    j3 = nxt(j)
-                    if ppl == 'faire' and j3 is not None and toks[j3][2] in INFS and toks[j3][2] not in ('être', 'avoir'):
-                        kind, end, lem = 'causatif', j3, toks[j3][2]
-        elif 'aller' in lemmas and j is not None and jk in INFS and any(t in ('pres', 'imparf') for w, t, p in cands if w == 'aller'):
-            kind, end, lem = 'futproche', j, jk
-        elif 'venir' in lemmas and j is not None and jk in ('de', "d'") and inf_after(j + 1) is not None:
-            k2 = inf_after(j + 1)
-            kind, end, lem = 'passerec', k2, toks[k2][2]
-        elif 'être' in lemmas and j is not None and jk == 'en' and j + 3 < n and toks[j + 1][2] == 'train' and toks[j + 2][2] in ('de', "d'") and toks[j + 3][2] in INFS:
-            kind, end, lem = 'encours', j + 3, toks[j + 3][2]
-        elif 'faire' in lemmas and j is not None and jk in INFS and jk not in ('être', 'avoir'):
-            kind, end, lem = 'causatif', j, jk
-        elif lemmas & MODALS and j is not None and jk in INFS:
-            kind, end, lem = 'modal', j, jk
-        if kind is None:
-            if i > 0 and toks[i - 1][2] == 'en' and k in PPRES:
-                kind, lem = 'ger', PPRES[k]
-                s = toks[i - 1][0]
-            elif k in PPRES and k not in FORMS and k.endswith('ant'):
-                kind, lem = 'ppres', PPRES[k]
-            elif k in INFS and not cands:
-                kind, lem = 'inf', k
-            elif cands:
-                ts = [t for w, t, p in cands]
-                lem = cands[0][0]
-                sent_start = text.rfind('.', 0, s)
-                before = text[max(0, sent_start):s].lower()
-                prev = toks[i - 1][2] if i else ''
-                if 'subj' in ts and ('pres' not in ts or (re.search(r"\bqu[e']", before[-40:]) and SUBJ_TRIG.search(before))):
-                    kind = 'subj'
-                elif 'imp' in ts and prev not in SUBJ_PRON and prev not in REFL and prev not in OBJ and prev not in ('que', "qu'", 'se', "s'") and not inverted(text, e) and imp_context(i):
-                    kind = 'imp'
-                elif 'pres' in ts:
-                    kind = 'pres'
-                elif 'imparf' in ts:
-                    kind = 'imparf'
-                elif 'fut' in ts:
-                    kind = 'fut'
-                elif 'cond' in ts:
-                    kind = 'cond'
-                elif 'ps' in ts:
-                    kind = 'ps'
-                elif 'subjimp' in ts:
-                    kind = 'subjimp'
-                elif 'subj' in ts:
-                    kind = 'subj'
-                else:
-                    continue
-                if k in INFS:
-                    kind = 'inf'
-            else:
+        for l2 in (left, left[:-1] if left.endswith(('s', 'n', 'e')) else None, left[:-2] if left.endswith('en') else None, left + 'en', left + 'e'):
+            if l2 and len(l2) >= 3:
+                ml = simple_gloss(l2)
+                if ml:
+                    hl, hr = HEAD.get(l2, l2), HEAD.get(right, right)
+                    clean = lambda s: re.sub(r'^[^:]+: ', '', s)
+                    return {'es': f'{k.capitalize()} ({ART.sub("", hl)} + {ART.sub("", hr)}): {clean(ml["es"])} + {clean(mr["es"])}',
+                            'en': f'{k.capitalize()} ({ART.sub("", hl)} + {ART.sub("", hr)}): {clean(ml["en"])} + {clean(mr["en"])}'}
+    return None
+
+
+def gloss_of(k, tok, lemma_override=None):
+    """Meaning of the word k (lower case) whose spaCy token is tok (or None)."""
+    if lemma_override and mean(lemma_override):
+        return with_head(k, mean(lemma_override), HEAD.get(lemma_override, lemma_override))
+    g = simple_gloss(k)
+    if g:
+        return g
+    if tok is not None:
+        lem = tok.lemma_.lower()
+        if lem != k and mean(lem):
+            return with_head(k, mean(lem), HEAD.get(lem, lem))
+    return compound_gloss(k)
+
+
+# ── verb phrases ─────────────────────────────────────────────────────────
+MODALS = {'können', 'müssen', 'dürfen', 'sollen', 'wollen', 'mögen', 'möchten'}
+SEIN_PERS = {'ich': 0, 'du': 1, 'er': 2, 'sie': 2, 'es': 2, 'man': 2, 'wir': 3, 'ihr': 4}
+
+
+def chain(tok):
+    """Non-finite verbs that depend on tok through oc (the verb chain), in sentence order."""
+    out = []
+    for c in tok.children:
+        if c.dep_ in ('oc', 'pd') and c.tag_ in ('VVPP', 'VVINF', 'VMINF', 'VAINF', 'VAPP', 'VMPP', 'VVIZU', 'VAFIN'):
+            if c.tag_ == 'VVIZU' and tok.lemma_ not in ('haben', 'sein', 'scheinen', 'brauchen'):
                 continue
-        for x in range(i, end + 1):
-            used.add(x)
-        lem = lem or k
-        m = mean(lem)
+            if c.tag_ == 'VAFIN' and c.lemma_ not in ('haben', 'sein'):
+                continue
+            out.append(c)
+            out += chain(c)
+    return sorted(out, key=lambda t: t.i)
+
+
+def base_lemma(tok):
+    lem = tok.lemma_.lower()
+    f = tok.text.lower()
+    if lem not in INFS and f in INF_OF:
+        lem = INF_OF[f]
+    return lem
+
+
+def full_lemma(tok):
+    lem = base_lemma(tok)
+    if tok.tag_ == 'VVPP' and lem == tok.text.lower():
+        lem = PPS.get(lem, lem)
+    if tok.tag_ == 'VVIZU':
+        lem = zu_inf(tok.text.lower()) or lem
+    for c in tok.children:
+        if c.dep_ == 'svp':
+            lem2 = c.text.lower() + lem
+            if mean(lem2) or lem2 in INFS:
+                return lem2
+    return lem
+
+
+def finite_tense(tok, lem):
+    f = tok.text.lower()
+    cands = [(w, t, p) for w, t, p in FORMS.get(f, []) if w == lem] or FORMS.get(f, [])
+    ts = {t for _, t, _ in cands}
+    subj = next((c.text.lower() for c in tok.children if c.dep_ == 'sb'), None)
+    h = tok
+    while subj is None and h.dep_ in ('cj', 'cd') and h.head is not h:
+        h = h.head
+        subj = next((c.text.lower() for c in h.children if c.dep_ == 'sb'), None)
+    if f in K2SET:
+        return 'k2'
+    start = tok.i == tok.sent.start or tok.doc[tok.i - 1].is_punct or tok.doc[tok.i - 1].text in ('und', 'bitte', 'Bitte', 'doch', 'mal')
+    end = tok.sent.text.rstrip(' “"»«„’)')[-1:]
+    nx = tok.doc[tok.i + 1] if tok.i + 1 < len(tok.doc) else None
+    if start and nx is not None and nx.text == 'Sie' and end != '?' and f.endswith('en'):
+        return 'imp'
+    if 'imp' in ts and start and not subj and end != '?':
+        if 'praes' not in ts or end == '!':
+            return 'imp'
+    if 'k1' in ts and 'praes' not in ts:
+        return 'k1'
+    if 'k1' in ts and 'praes' in ts:
+        # habe / komme: Präsens with ich (or plural), Konjunktiv I with a 3rd-person subject
+        if subj and subj not in SEIN_PERS and not tok.morph.get('Number') == ['Plur']:
+            return 'k1' if any(p == 2 for _, t, p in cands if t == 'k1') else 'praes'
+        if subj in ('er', 'sie', 'es', 'man') and any(p == 2 for _, t, p in cands if t == 'k1'):
+            return 'k1' if tok.morph.get('Number') != ['Plur'] else 'praes'
+        return 'praes'
+    if 'praes' in ts:
+        return 'praes'
+    if 'praet' in ts:
+        return 'praet'
+    mood, tense = tok.morph.get('Mood'), tok.morph.get('Tense')
+    if mood == ['Imp']:
+        return 'imp'
+    return 'praet' if tense == ['Past'] else 'praes'
+
+
+def verb_phrases(doc):
+    out, used = [], set()
+    for tok in doc:
+        if tok.i in used:
+            continue
+        lone_imp = tok.pos_ not in ('VERB', 'AUX') and tok.text[:1].isupper() and tok.i == tok.sent.start \
+            and any(t == 'imp' for _, t, _ in FORMS.get(tok.text.lower(), []))
+        if lone_imp:
+            lem = next(w for w, t, _ in FORMS[tok.text.lower()] if t == 'imp')
+            for x in tok.sent[tok.i - tok.sent.start + 1:]:
+                if x.text.lower() + lem in INFS or mean(x.text.lower() + lem):
+                    lem = x.text.lower() + lem
+            if mean(lem):
+                used.add(tok.i)
+                out.append({'s': tok.idx, 'e': tok.idx + len(tok.text), 't': 'imp', 'l': lem, 'm': mean(lem)})
+            continue
+        if tok.pos_ not in ('VERB', 'AUX'):
+            continue
+        if not (tok.tag_.endswith('FIN') or tok.tag_ == 'VVIMP' or tok.tag_ == 'VVIZU'):
+            continue
+        lem = full_lemma(tok)
+        ch = chain(tok)
+        kind, main = None, lem
+        if ch:
+            parts = [c for c in ch]
+            vv = [c for c in parts if c.tag_.startswith('VV')]
+            mainok = vv[-1] if vv else parts[-1]
+            main = full_lemma(mainok)
+            base = finite_tense(tok, base_lemma(tok))
+            has_pp = any(c.tag_ in ('VVPP', 'VAPP', 'VMPP') for c in parts)
+            has_inf = any(c.tag_ in ('VVINF', 'VAINF', 'VMINF') for c in parts)
+            tl = base_lemma(tok)
+            if tl == 'werden':
+                if has_pp and any(c.lemma_ in ('haben', 'sein') for c in parts):
+                    kind = 'fut2'
+                elif has_pp:
+                    kind = 'pas'
+                elif has_inf:
+                    kind = 'k2' if base == 'k2' else 'fut1'
+            elif tl in ('haben', 'sein') and (has_pp or any(c.tag_ == 'VMINF' for c in parts)):
+                pp = next((c for c in parts if c.tag_ in ('VVPP', 'VAPP', 'VMPP')), None)
+                if tl == 'sein' and pp is not None and pp.dep_ == 'pd':
+                    kind = 'zpas'
+                elif any(c.lemma_ == 'werden' and c.tag_ in ('VAPP',) or c.text.lower() == 'worden' for c in parts):
+                    kind = 'pas'
+                else:
+                    kind = {'praes': 'perf', 'praet': 'plusq', 'k2': 'k2v', 'k1': 'k1'}.get(base, 'perf')
+            elif tl in ('haben', 'sein') and any(c.tag_ == 'VVIZU' for c in parts):
+                kind = 'modal'
+            elif tl in MODALS:
+                kind = 'k2' if base == 'k2' else 'modal'
+            elif tl == 'lassen':
+                kind = 'lassen'
+            elif tl in ('gehen', 'bleiben', 'lernen', 'hören', 'sehen', 'helfen') and has_inf:
+                kind = base
+                main = lem
+                parts = []
+            else:
+                kind, main, parts = base, lem, []
+            if kind is None:
+                kind, main, parts = base, lem, []
+            items = [tok] + parts
+        else:
+            if tok.tag_ == 'VVIZU':
+                kind = 'zuinf'
+            else:
+                kind = finite_tense(tok, lem)
+            items = [tok]
+        m = mean(main)
         if not m:
             continue
-        out.append({'s': s, 'e': toks[end][1], 't': kind, 'l': lem, 'm': m})
+        for it in items:
+            used.add(it.i)
+            out.append({'s': it.idx, 'e': it.idx + len(it.text), 't': kind, 'l': main, 'm': m})
     return out
 
 
@@ -341,30 +361,39 @@ def src_files(lv):
 
 def parse(lv):
     texts, cur, para = [], None, None
-    for raw in (l for p in src_files(lv) for l in open(p, encoding='utf8')):
-        line = raw.rstrip('\n')
-        if not line.strip() or line.startswith('#'):
+    for fp in src_files(lv):
+        if not fp.exists():
             continue
-        m = re.match(r'^=== (\d+) \| (.*)$', line)
-        if m:
-            cur = {'unit': int(m.group(1)), 'title': [x.strip() for x in m.group(2).split(SEP)][:2], 'paras': [], 'notes': [], 'qs': []}
-            texts.append(cur); continue
-        if line.startswith('sum:'):
-            cur['sum'] = line[4:].strip()
-        elif line.startswith('p:'):
-            para = [line[2:].strip()]; cur['paras'].append(para)
-        elif line.startswith('+ '):
-            para[0] += '\n' + line[2:]
-        elif line.startswith('=+'):
-            para[-1] += '\n' + line[2:].strip()
-        elif line.startswith('='):
-            para.append(line[1:].strip())
-        elif line.startswith('note:'):
-            cur['notes'].append([x.strip() for x in line[5:].split(SEP)])
-        elif line.startswith('q:'):
-            cur['qs'].append([x.strip() for x in line[2:].split(SEP)])
-        else:
-            raise SystemExit(f'{lv}: unknown line: {line}')
+        for raw in open(fp, encoding='utf8'):
+            line = raw.rstrip('\n')
+            if not line.strip() or line.startswith('#'):
+                continue
+            m = re.match(r'^=== (\d+) \| (.*)$', line)
+            if m:
+                cur = {'unit': int(m.group(1)), 'title': [x.strip() for x in m.group(2).split(SEP)], 'paras': [], 'notes': [], 'qs': []}
+                assert len(cur['title']) == 3, (lv, line)
+                texts.append(cur); continue
+            if line.startswith('sum:'):
+                cur['sum'] = [x.strip() for x in line[4:].split(SEP)]
+                assert len(cur['sum']) == 2, (lv, line)
+            elif line.startswith('p:'):
+                para = [line[2:].strip(), None, None]; cur['paras'].append(para)
+            elif line.startswith('+ '):
+                para[0] += '\n' + line[2:]
+            elif line.startswith('=+'):
+                para[1] += '\n' + line[2:].strip()
+            elif line.startswith('~+'):
+                para[2] += '\n' + line[2:].strip()
+            elif line.startswith('='):
+                para[1] = line[1:].strip()
+            elif line.startswith('~'):
+                para[2] = line[1:].strip()
+            elif line.startswith('note:'):
+                cur['notes'].append([x.strip() for x in line[5:].split(SEP)])
+            elif line.startswith('q:'):
+                cur['qs'].append([x.strip() for x in line[2:].split(SEP)])
+            else:
+                raise SystemExit(f'{lv}: unknown line: {line}')
     return texts
 
 
@@ -376,17 +405,36 @@ def build(lv):
     for n, tx in enumerate(texts, 1):
         paras = [p[0] for p in tx['paras']]
         for p in tx['paras']:
-            assert len(p) == 2, (lv, tx['title'][0], p[0][:40], len(p))
+            if p[1] is None or p[2] is None:
+                raise SystemExit(f'{lv} "{tx["title"][0]}": paragraph without es / en translation: {p[0][:50]}')
         g, verbs, found = {}, [], []
+        svp_done = set()
         for pi, para in enumerate(paras):
             doc = nlp(para.replace('’', "'"))
             bystart = {t.idx: t for t in doc}
-            toks = [(m.start(), m.end(), m.group(0).lower().replace('’', "'")) for m in WORD.finditer(para)]
+            vph = verb_phrases(doc)
+            vlem = {v['s']: v['l'] for v in vph}
+            toks = [(m.start(), m.end(), m.group(0).lower()) for m in WORD.finditer(para)]
             for s, e, k in toks:
                 t = bystart.get(s)
                 if t is not None and t.pos_ == 'PROPN' and not mean(k) and para[s:s + 1].isupper():
                     continue
-                m = gloss_of(k, t)
+                if (t is not None and t.like_num) or len(k) == 1:
+                    continue
+                lo = vlem.get(s) if (t is not None and t.dep_ != 'svp') else None
+                if lo and t is not None and t.lemma_.lower() == lo:
+                    lo = None
+                m = gloss_of(k, t, lo)
+                if t is not None and t.dep_ == 'svp':
+                    fl = full_lemma(t.head)
+                    if mean(fl) and fl != k:
+                        mv = mean(fl); h = HEAD.get(fl, fl)
+                        clip = lambda x: x.split(' · ')[0]
+                        m = {'es': (clip(m['es']) + ' · ' if m else '') + f'{h}: {clip(mv["es"])}',
+                             'en': (clip(m['en']) + ' · ' if m else '') + f'{h}: {clip(mv["en"])}'}
+                        if k in g and k not in svp_done:
+                            g[k] = {'es': g[k]['es'] + f' · {h}: {clip(mv["es"])}', 'en': g[k]['en'] + f' · {h}: {clip(mv["en"])}'}
+                        svp_done.add(k)
                 if m:
                     g.setdefault(k, m)
                     lem = (t.lemma_.lower() if t is not None else k)
@@ -394,18 +442,16 @@ def build(lv):
                         found.append((k, para[s:e]))
                     elif lem in levelwords and lem not in FUNC:
                         found.append((lem, para[s:e]))
-                elif not (t is not None and t.like_num) and not para[s:s + 1].isupper():
+                else:
                     missing.setdefault(k, tx['title'][0])
-                elif para[s:s + 1].isupper() and not (t is not None and t.pos_ == 'PROPN'):
-                    missing.setdefault(k, tx['title'][0])
-            # parts of a hyphenated word (week-end, sous-titres) get the meaning of the whole word
+            # parts of a hyphenated word (E-Mail, Baden-Württemberg) get the meaning of the whole word
             for hm in re.finditer(rf"[{LET}]+(?:-[{LET}]+)+", para):
                 whole = hm.group(0).lower()
                 m = mean(whole)
                 if m:
                     for part in whole.split('-'):
                         if part not in g or not mean(part):
-                            g[part] = {'es': f'{whole}: {m["es"]}'}
+                            g[part] = {'es': f'{HEAD.get(whole, whole)}: {m["es"]}', 'en': f'{HEAD.get(whole, whole)}: {m["en"]}'}
                             missing.pop(part, None)
             low = ' ' + ' '.join(k for _, _, k in toks) + ' '
             for ph in PHRASES:
@@ -415,11 +461,11 @@ def build(lv):
                         g[ph] = mean(ph)
                         if ph in levelwords:
                             found.append((ph, ph))
-                    for part in phn.split():            # d'abord → abord, grâce à → grâce
+                    for part in phn.split():
                         if part not in g:
-                            g[part] = {'es': f'{ph}: {mean(ph)["es"]}'}
+                            g[part] = {'es': f'{ph}: {mean(ph)["es"]}', 'en': f'{ph}: {mean(ph)["en"]}'}
                             missing.pop(part, None)
-            for v in verb_phrases(para, toks, doc):
+            for v in vph:
                 verbs.append({'p': pi, 'f': para[v['s']:v['e']], 'l': v['l'], 't': v['t'], 'per': '', 'm': v['m']})
         seen = set(); vv = []
         for v in verbs:
@@ -428,15 +474,20 @@ def build(lv):
                 seen.add(key); vv.append(v)
         notes = []
         for nt in tx['notes']:
-            f, k, es = nt[:3]
+            if len(nt) != 4:
+                raise SystemExit(f'{lv} "{tx["title"][0]}": note needs fragment ¦ kind ¦ es ¦ en: {nt}')
+            f, k, es, en = nt
             pi = next((i for i, q in enumerate(paras) if f in q), None)
             if pi is None:
                 raise SystemExit(f'{lv} "{tx["title"][0]}": note fragment not found: {f}')
-            notes.append({'p': pi, 'f': f, 'k': k, 'e': {'es': es}})
+            notes.append({'p': pi, 'f': f, 'k': k, 'e': {'es': es, 'en': en}})
         qs = []
         for q in tx['qs']:
-            opts = [x.strip() for x in q[2].split(' / ')]
-            qs.append({'q': {'fr': q[0], 'es': q[1]}, 'options': opts, 'answer': int(q[3]), 'explain': {'es': q[4]}})
+            if len(q) != 6:
+                raise SystemExit(f'{lv} "{tx["title"][0]}": question needs 6 fields: {q}')
+            opts = [x.strip() for x in q[3].split(' / ')]
+            assert 0 <= int(q[4]) < len(opts), (lv, q)
+            qs.append({'q': {'de': q[0], 'es': q[1], 'en': q[2]}, 'options': opts, 'answer': int(q[4]), 'explain': {'es': q[5], 'en': q[5]}})
         rank = {bare(v['word']): (v.get('unit') or 999) for v in vocab}
         diff, dseen = [], set()
         for lem, surf in sorted(found, key=lambda x: abs(rank.get(x[0], 999) - tx['unit'])):
@@ -446,13 +497,16 @@ def build(lv):
         rnd = random.Random(f'{lv}{n}')
         surfaces = []
         for lem, surf in found:
-            if lem in diff and surf not in surfaces and ' ' not in surf and "'" not in surf and re.search(rf'(?<![{LET}])' + re.escape(surf) + rf'(?![{LET}])', '\n'.join(paras)):
+            if lem in diff and surf not in surfaces and ' ' not in surf and re.search(rf'(?<![{LET}])' + re.escape(surf) + rf'(?![{LET}])', '\n'.join(paras)):
                 surfaces.append(surf)
         items = surfaces[:8]
-        pool = [bare(v['word']) for v in vocab if bare(v['word']) not in dseen and ' ' not in bare(v['word']) and bare(v['word']).isalpha()]
+        pool = [v['word'] if v['word'][:1].isupper() else bare(v['word']) for v in vocab]
+        pool = [w for w in pool if ' ' not in ART.sub('', w) and ART.sub('', w).isalpha() and bare(w) not in dseen]
+        pool = [ART.sub('', w) for w in pool]
         out.append({'id': f'{lv}-t{n}', 'level': lv, 'unit': tx['unit'], 'order': n,
-                    'title': {'fr': tx['title'][0], 'es': tx['title'][1]}, 'summary': {'es': tx.get('sum', '')},
-                    'paragraphs': paras, 'translation': {'es': [p[1] for p in tx['paras']]},
+                    'title': {'de': tx['title'][0], 'es': tx['title'][1], 'en': tx['title'][2]},
+                    'summary': {'es': tx['sum'][0], 'en': tx['sum'][1]},
+                    'paragraphs': paras, 'translation': {'es': [p[1] for p in tx['paras']], 'en': [p[2] for p in tx['paras']]},
                     'glossary': g, 'difficult': diff, 'questions': qs,
                     'gaps': {'items': items, 'distractors': rnd.sample(pool, 6)}, 'verbs': vv, 'notes': notes})
     out.sort(key=lambda t: (t['unit'], t['order']))   # extra texts join their unit; ids stay stable

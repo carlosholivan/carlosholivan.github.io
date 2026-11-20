@@ -80,7 +80,7 @@ def principal_parts(verbs):
 
 
 def is_verb(word):
-    return bool(re.match(r'^(sich )?[a-zäöüß]+(en|ern|eln|n)$', word)) and not word.endswith(('chen', 'lein')) and ' ' not in ART.sub('', word)
+    return bool(re.match(r'^(sich )?[a-zäöüß]+(en|ern|eln|n)$', word)) and ' ' not in ART.sub('', word)
 
 
 def read_vocab_src(lv):
@@ -117,7 +117,7 @@ def load_vocab(lv, pos_hint=None):
                 e['m'] = {'es': f'{es} · pl. die {pl}', 'en': f'{en} · pl. die {pl}'}
             elif g == 'pl':
                 e['m'] = {'es': f'{es} · (solo plural)', 'en': f'{en} · (plural only)'}
-        elif is_verb(word):
+        elif is_verb(word) and re.match(r'^(to |\(to\) )', en):
             e['pos'] = 'verb'
         out.append(e)
     return out

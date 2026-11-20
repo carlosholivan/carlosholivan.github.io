@@ -531,7 +531,7 @@
 "es": "afectado",
 "en": "affected"
 },
-"pos": "verb",
+"pos": "",
 "w": "betroffen",
 "p": "",
 "unit": 4,
@@ -567,13 +567,12 @@
 {
 "word": "vorgesehen",
 "m": {
-"es": "previsto · gesieht vor, gesah vor, hat vorgesehen",
-"en": "intended, scheduled · gesieht vor, gesah vor, hat vorgesehen"
+"es": "previsto",
+"en": "intended, scheduled"
 },
-"pos": "verb",
+"pos": "",
 "w": "vorgesehen",
 "p": "",
-"pp": "gesieht vor, gesah vor, hat vorgesehen",
 "unit": 4,
 "u": "b2-4",
 "q": 3179
@@ -1328,7 +1327,7 @@
 "es": "siempre que",
 "en": "provided that"
 },
-"pos": "verb",
+"pos": "",
 "w": "sofern",
 "p": "",
 "unit": 9,
@@ -1510,7 +1509,7 @@
 "es": "de qué; de lo cual",
 "en": "of what; of which"
 },
-"pos": "verb",
+"pos": "",
 "w": "wovon",
 "p": "",
 "unit": 10,
@@ -1523,7 +1522,7 @@
 "es": "en qué; en lo cual",
 "en": "of what, on what"
 },
-"pos": "verb",
+"pos": "",
 "w": "woran",
 "p": "",
 "unit": 10,
@@ -1835,7 +1834,7 @@
 "es": "a favor de",
 "en": "in favour of"
 },
-"pos": "verb",
+"pos": "",
 "w": "zugunsten",
 "p": "",
 "unit": 12,
@@ -1861,7 +1860,7 @@
 "es": "en contra de",
 "en": "contrary to"
 },
-"pos": "verb",
+"pos": "",
 "w": "entgegen",
 "p": "",
 "unit": 12,
@@ -1961,7 +1960,7 @@
 "es": "insatisfecho",
 "en": "dissatisfied"
 },
-"pos": "verb",
+"pos": "",
 "w": "unzufrieden",
 "p": "",
 "unit": 13,
@@ -2269,12 +2268,13 @@
 {
 "word": "zerbrechen",
 "m": {
-"es": "romper(se) en pedazos",
-"en": "to break (into pieces)"
+"es": "romper(se) en pedazos · zerbricht, zerbrach, ist zerbrochen",
+"en": "to break (into pieces) · zerbricht, zerbrach, ist zerbrochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "zerbrechen",
 "p": "",
+"pp": "zerbricht, zerbrach, ist zerbrochen",
 "unit": 15,
 "u": "b2-15",
 "q": 3305
@@ -2615,7 +2615,7 @@
 "es": "de eso",
 "en": "of it"
 },
-"pos": "verb",
+"pos": "",
 "w": "davon",
 "p": "",
 "unit": 18,
@@ -2680,7 +2680,7 @@
 "es": "a continuación, a raíz de ello",
 "en": "thereupon"
 },
-"pos": "verb",
+"pos": "",
 "w": "daraufhin",
 "p": "",
 "unit": 18,
@@ -3046,13 +3046,12 @@
 {
 "word": "angemessen",
 "m": {
-"es": "adecuado · gemisst an, gemaß an, hat angemessen",
-"en": "appropriate · gemisst an, gemaß an, hat angemessen"
+"es": "adecuado",
+"en": "appropriate"
 },
-"pos": "verb",
+"pos": "",
 "w": "angemessen",
 "p": "",
-"pp": "gemisst an, gemaß an, hat angemessen",
 "unit": null,
 "u": "",
 "q": 3362
@@ -3164,7 +3163,7 @@
 "es": "por lo demás",
 "en": "otherwise"
 },
-"pos": "verb",
+"pos": "",
 "w": "ansonsten",
 "p": "",
 "unit": null,
@@ -3700,7 +3699,7 @@
 "es": "equilibrado",
 "en": "balanced"
 },
-"pos": "verb",
+"pos": "",
 "w": "ausgewogen",
 "p": "",
 "unit": null,
@@ -5862,12 +5861,13 @@
 {
 "word": "entsprechen",
 "m": {
-"es": "corresponder",
-"en": "to correspond"
+"es": "corresponder · entspricht, entsprach, hat entsprochen",
+"en": "to correspond · entspricht, entsprach, hat entsprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "entsprechen",
 "p": "",
+"pp": "entspricht, entsprach, hat entsprochen",
 "unit": null,
 "u": "",
 "q": 3562
@@ -5977,7 +5977,7 @@
 "es": "investigar",
 "en": "to research"
 },
-"pos": "",
+"pos": "verb",
 "w": "erforschen",
 "p": "",
 "unit": null,
@@ -6154,7 +6154,7 @@
 "es": "posibilitar",
 "en": "to enable"
 },
-"pos": "",
+"pos": "verb",
 "w": "ermöglichen",
 "p": "",
 "unit": null,
@@ -7586,7 +7586,7 @@
 "es": "en cambio",
 "en": "on the other hand"
 },
-"pos": "verb",
+"pos": "",
 "w": "hingegen",
 "p": "",
 "unit": null,
@@ -7783,7 +7783,7 @@
 "es": "al menos, después de todo",
 "en": "at least, after all"
 },
-"pos": "verb",
+"pos": "",
 "w": "immerhin",
 "p": "",
 "unit": null,
@@ -7894,7 +7894,7 @@
 "es": "como consecuencia",
 "en": "as a result"
 },
-"pos": "verb",
+"pos": "",
 "w": "infolgedessen",
 "p": "",
 "unit": null,
@@ -7994,7 +7994,7 @@
 "es": "en la medida en que, en ese sentido",
 "en": "in that respect"
 },
-"pos": "verb",
+"pos": "",
 "w": "insofern",
 "p": "",
 "unit": null,
@@ -9811,7 +9811,7 @@
 "es": "de todos modos",
 "en": "anyway"
 },
-"pos": "verb",
+"pos": "",
 "w": "ohnehin",
 "p": "",
 "unit": null,
@@ -11261,7 +11261,7 @@
 "es": "espontáneo",
 "en": "spontaneous"
 },
-"pos": "verb",
+"pos": "",
 "w": "spontan",
 "p": "",
 "unit": null,
@@ -11376,7 +11376,7 @@
 "es": "en su lugar",
 "en": "instead"
 },
-"pos": "verb",
+"pos": "",
 "w": "stattdessen",
 "p": "",
 "unit": null,
@@ -11821,7 +11821,7 @@
 "es": "controvertido",
 "en": "controversial"
 },
-"pos": "verb",
+"pos": "",
 "w": "umstritten",
 "p": "",
 "unit": null,
@@ -12730,7 +12730,7 @@
 "es": "totalmente",
 "en": "completely"
 },
-"pos": "verb",
+"pos": "",
 "w": "vollkommen",
 "p": "",
 "unit": null,
@@ -12869,7 +12869,7 @@
 "es": "existente, disponible",
 "en": "available, existing"
 },
-"pos": "verb",
+"pos": "",
 "w": "vorhanden",
 "p": "",
 "unit": null,
@@ -13109,7 +13109,7 @@
 "es": "además; seguir (haciendo)",
 "en": "furthermore; still"
 },
-"pos": "verb",
+"pos": "",
 "w": "weiterhin",
 "p": "",
 "unit": null,
@@ -13300,7 +13300,7 @@
 "es": "mientras que",
 "en": "whereas"
 },
-"pos": "verb",
+"pos": "",
 "w": "wohingegen",
 "p": "",
 "unit": null,

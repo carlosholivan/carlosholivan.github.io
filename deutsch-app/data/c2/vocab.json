@@ -1612,7 +1612,7 @@
 "es": "elevado (registro)",
 "en": "elevated (register)"
 },
-"pos": "verb",
+"pos": "",
 "w": "gehoben",
 "p": "",
 "unit": 12,
@@ -2216,7 +2216,7 @@
 "es": "solícito",
 "en": "eager"
 },
-"pos": "verb",
+"pos": "",
 "w": "beflissen",
 "p": "",
 "unit": null,
@@ -2756,7 +2756,7 @@
 "es": "requerir (literario)",
 "en": "to demand"
 },
-"pos": "",
+"pos": "verb",
 "w": "erheischen",
 "p": "",
 "unit": null,
@@ -2766,13 +2766,12 @@
 {
 "word": "erlesen",
 "m": {
-"es": "selecto · erliest, erlas, hat erlesen",
-"en": "exquisite · erliest, erlas, hat erlesen"
+"es": "selecto",
+"en": "exquisite"
 },
-"pos": "verb",
+"pos": "",
 "w": "erlesen",
 "p": "",
-"pp": "erliest, erlas, hat erlesen",
 "unit": null,
 "u": "",
 "q": 5033
@@ -2986,7 +2985,7 @@
 "es": "regatear",
 "en": "to haggle"
 },
-"pos": "",
+"pos": "verb",
 "w": "feilschen",
 "p": "",
 "unit": null,
@@ -3153,7 +3152,7 @@
 "es": "sólido, de calidad",
 "en": "solid, tasteful"
 },
-"pos": "verb",
+"pos": "",
 "w": "gediegen",
 "p": "",
 "unit": null,
@@ -3261,7 +3260,7 @@
 "es": "redundar",
 "en": "to redound"
 },
-"pos": "",
+"pos": "verb",
 "w": "gereichen",
 "p": "",
 "unit": null,
@@ -4056,7 +4055,7 @@
 "es": "de ninguna manera",
 "en": "by no means"
 },
-"pos": "verb",
+"pos": "",
 "w": "mitnichten",
 "p": "",
 "unit": null,
@@ -4069,7 +4068,7 @@
 "es": "hola (norte de Alemania)",
 "en": "hello (northern Germany)"
 },
-"pos": "verb",
+"pos": "",
 "w": "moin",
 "p": "",
 "unit": null,
@@ -4082,7 +4081,7 @@
 "es": "mundano",
 "en": "fashionable"
 },
-"pos": "verb",
+"pos": "",
 "w": "mondän",
 "p": "",
 "unit": null,
@@ -4457,7 +4456,7 @@
 "es": "charlar",
 "en": "to chat"
 },
-"pos": "",
+"pos": "verb",
 "w": "quatschen",
 "p": "",
 "unit": null,
@@ -5189,7 +5188,7 @@
 "es": "descarado",
 "en": "brazen"
 },
-"pos": "verb",
+"pos": "",
 "w": "unverfroren",
 "p": "",
 "unit": null,
@@ -5278,13 +5277,12 @@
 {
 "word": "verhalten",
 "m": {
-"es": "contenido · verhält, verhielt, hat verhalten",
-"en": "restrained · verhält, verhielt, hat verhalten"
+"es": "contenido",
+"en": "restrained"
 },
-"pos": "verb",
+"pos": "",
 "w": "verhalten",
 "p": "",
-"pp": "verhält, verhielt, hat verhalten",
 "unit": null,
 "u": "",
 "q": 5217
@@ -5334,7 +5332,7 @@
 "es": "estrafalario",
 "en": "eccentric"
 },
-"pos": "verb",
+"pos": "",
 "w": "verschroben",
 "p": "",
 "unit": null,
@@ -5347,7 +5345,7 @@
 "es": "encubrir",
 "en": "to cover up"
 },
-"pos": "",
+"pos": "verb",
 "w": "vertuschen",
 "p": "",
 "unit": null,
