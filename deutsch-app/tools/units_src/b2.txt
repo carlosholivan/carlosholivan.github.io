@@ -1,0 +1,301 @@
+# B2 lessons (EOI Nivel Intermedio B2). Every translation and explanation in Spanish and English.
+
+=== 1
+title: Er sagte, er sei krank ¦ Dijo que estaba enfermo ¦ He said he was ill
+desc: El estilo indirecto en prensa y textos formales: el Konjunktiv I ¦ Reported speech in the press and formal texts: the Konjunktiv I
+gram: Konjunktiv I: raíz + -e (er komme, sie habe, es sei) ¦ si coincide con el indicativo → Konjunktiv II ¦ pasado: er habe gesagt, sie sei gekommen ¦ preguntas (ob, W-) y órdenes (sollen / mögen) indirectas
+gram_en: Konjunktiv I: stem + -e (er komme, sie habe, es sei) ¦ when it looks like the indicative → Konjunktiv II ¦ past: er habe gesagt, sie sei gekommen ¦ reported questions (ob, W-) and commands (sollen / mögen)
+ref: b2-indirekte-rede
+words: die Aussage, die Äußerung, sich äußern, behaupten, die Behauptung, betonen, erklären, mitteilen, berichten, die Berichterstattung, der Sprecher, die Pressemitteilung, die Stellungnahme, zitieren, das Zitat, angeblich, laut, zufolge, gemäß, die Quelle, der Minister, die Regierung, das Interview, der Reporter
+intro:
+<h3>El Konjunktiv I</h3>
+<p>Se usa en el <b>estilo indirecto</b>, sobre todo en la prensa: el periodista reproduce lo dicho sin hacerlo suyo.</p>
+<table><tr><td></td><td>sein</td><td>haben</td><td>kommen</td><td>können</td></tr>
+<tr><td>ich</td><td>sei</td><td>(habe → hätte)</td><td>(komme → käme)</td><td>könne</td></tr>
+<tr><td>du</td><td>sei(e)st</td><td>habest</td><td>kommest</td><td>könnest</td></tr>
+<tr><td>er / sie / es</td><td><b>sei</b></td><td><b>habe</b></td><td><b>komme</b></td><td><b>könne</b></td></tr>
+<tr><td>wir / sie</td><td>seien</td><td>(haben → hätten)</td><td>(kommen → kämen)</td><td>(können → könnten)</td></tr></table>
+<p>En la práctica se usa casi solo la <b>3.ª persona del singular</b>. Si la forma coincide con el indicativo, se sustituye por el <b>Konjunktiv II</b> (o würde + infinitivo).</p>
+<div class="example">Der Minister sagte: «Ich bin zufrieden.» → Der Minister sagte, er <b>sei</b> zufrieden.<br>Die Firma teilte mit, sie <b>habe</b> 200 neue Stellen geschaffen.</div>
+<h3>Pasado, preguntas y órdenes</h3>
+<table><tr><td>pasado: habe / sei + participio</td><td>Er sagte, er <b>habe</b> nichts <b>gewusst</b>. · Sie sagte, sie <b>sei</b> spät <b>gekommen</b>.</td></tr>
+<tr><td>preguntas: ob / W-</td><td>Er fragte, <b>ob</b> ich Zeit <b>habe</b>. · Sie fragte, wann der Zug <b>fahre</b>.</td></tr>
+<tr><td>órdenes: sollen / mögen</td><td>Er sagte, ich <b>solle</b> warten. · Sie bat, man <b>möge</b> leise sein.</td></tr></table>
+<div class="tip">Al hablar, el estilo indirecto se hace normalmente con indicativo o Konjunktiv II: <i>Er hat gesagt, dass er krank ist / wäre.</i></div>
+intro_en:
+<h3>The Konjunktiv I</h3>
+<p>It is used in <b>reported speech</b>, especially in the press: the journalist reports what was said without vouching for it.</p>
+<table><tr><td></td><td>sein</td><td>haben</td><td>kommen</td><td>können</td></tr>
+<tr><td>ich</td><td>sei</td><td>(habe → hätte)</td><td>(komme → käme)</td><td>könne</td></tr>
+<tr><td>du</td><td>sei(e)st</td><td>habest</td><td>kommest</td><td>könnest</td></tr>
+<tr><td>er / sie / es</td><td><b>sei</b></td><td><b>habe</b></td><td><b>komme</b></td><td><b>könne</b></td></tr>
+<tr><td>wir / sie</td><td>seien</td><td>(haben → hätten)</td><td>(kommen → kämen)</td><td>(können → könnten)</td></tr></table>
+<p>In practice it is used almost only in the <b>3rd person singular</b>. If the form is the same as the indicative, the <b>Konjunktiv II</b> (or würde + infinitive) is used instead.</p>
+<div class="example">Der Minister sagte: «Ich bin zufrieden.» → Der Minister sagte, er <b>sei</b> zufrieden.<br>Die Firma teilte mit, sie <b>habe</b> 200 neue Stellen geschaffen.</div>
+<h3>Past, questions and commands</h3>
+<table><tr><td>past: habe / sei + participle</td><td>Er sagte, er <b>habe</b> nichts <b>gewusst</b>. · Sie sagte, sie <b>sei</b> spät <b>gekommen</b>.</td></tr>
+<tr><td>questions: ob / W-</td><td>Er fragte, <b>ob</b> ich Zeit <b>habe</b>. · Sie fragte, wann der Zug <b>fahre</b>.</td></tr>
+<tr><td>commands: sollen / mögen</td><td>Er sagte, ich <b>solle</b> warten. · Sie bat, man <b>möge</b> leise sein.</td></tr></table>
+<div class="tip">In speech, reported speech normally uses the indicative or the Konjunktiv II: <i>Er hat gesagt, dass er krank ist / wäre.</i> Unlike English, German does not "backshift" tenses.</div>
+ex:
+fill ¦ Der Sprecher sagte, die Lage ___ unter Kontrolle. ¦ sei ¦ ist / wäre gewesen / seien ¦ El portavoz dijo que la situación estaba bajo control. ¦ The spokesman said the situation was under control. ¦ sein → er / sie sei ¦ sein → er / sie sei
+fill ¦ Sie erklärte, sie ___ keine Zeit. ¦ habe ¦ hat / haben / habest ¦ Explicó que no tenía tiempo. ¦ She explained that she had no time. ¦ haben → sie habe ¦ haben → sie habe
+fill ¦ Der Minister betonte, er ___ nichts davon gewusst. ¦ habe ¦ hat / sei / hätten ¦ El ministro subrayó que no sabía nada de ello. ¦ The minister stressed that he had known nothing about it. ¦ Pasado: habe + participio ¦ Past: habe + participle
+fill ¦ Laut Polizei ___ der Täter geflohen. ¦ sei ¦ habe / ist / seien ¦ Según la policía, el autor huyó. ¦ According to the police, the offender had fled. ¦ fliehen: sein → sei geflohen ¦ fliehen: sein → sei geflohen
+fill ¦ Die Arbeiter sagten, sie ___ mehr Lohn. ¦ wollten ¦ wollen / wolle / wollt ¦ Los trabajadores dijeron que querían más sueldo. ¦ The workers said they wanted more pay. ¦ sie wollen = indicativo → Konjunktiv II: wollten ¦ sie wollen = indicative → Konjunktiv II: wollten
+fill ¦ Er fragte, ___ ich ihm helfen könne. ¦ ob ¦ dass / wenn / was ¦ Preguntó si podía ayudarle. ¦ He asked whether I could help him. ¦ Pregunta de sí / no: ob ¦ Yes / no question: ob
+choose ¦ Orden indirecta: «Warten Sie!» ¦ Reported command: «Warten Sie!» ¦ Er sagte, ich solle warten. ¦ Er sagte, ich warte. / Er sagte, warten Sie. / Er sagte, ich sei warten.
+choose ¦ ¿Qué forma usa la prensa? ¦ Which form does the press use? ¦ Der Präsident sagte, das Land sei sicher. ¦ Der Präsident sagte, das Land ist halt sicher. / Der Präsident sagt, das Land war sicher, oder? / Der Präsident: Land sicher, sagte er so.
+order ¦ Die Firma teilte mit sie habe neue Mitarbeiter eingestellt ¦ La empresa comunicó que había contratado a nuevos empleados. ¦ The company announced that it had hired new staff.
+order ¦ Sie fragte wann der nächste Zug fahre ¦ Preguntó cuándo salía el próximo tren. ¦ She asked when the next train left.
+translate ¦ Dijo que estaba cansado. (prensa) ¦ He said he was tired. (press) ¦ Er sagte, er sei müde. ¦ Er sagte, er sei müde
+translate ¦ Según el portavoz, no hubo heridos. ¦ According to the spokesperson, there were no injuries. ¦ Laut dem Sprecher habe es keine Verletzten gegeben. ¦ Laut Sprecher gab es keine Verletzten. / Dem Sprecher zufolge habe es keine Verletzten gegeben.
+match ¦ behaupten=afirmar=to claim; betonen=subrayar=to stress; angeblich=supuestamente=allegedly; die Quelle=la fuente=source; die Stellungnahme=la toma de posición=statement
+listen ¦ Die Ministerin sagte, sie sei mit dem Ergebnis zufrieden. ¦ Der Minister sagte, er sei mit dem Ergebnis zufrieden. / Die Ministerin sagte, sie sei mit dem Ergebnis unzufrieden. / Die Ministerin sagte, sie wäre mit dem Ergebnis zufrieden.
+
+=== 2
+title: Das lässt sich machen ¦ Eso se puede hacer ¦ That can be done
+desc: Alternativas a la pasiva: sich lassen, sein + zu, -bar, man ¦ Alternatives to the passive: sich lassen, sein + zu, -bar, man
+gram: sich lassen + infinitivo = se puede ¦ sein + zu + infinitivo = se puede / se debe ¦ adjetivos en -bar / -lich ¦ man + activa
+gram_en: sich lassen + infinitive = can be done ¦ sein + zu + infinitive = can / must be done ¦ adjectives in -bar / -lich ¦ man + active
+ref: b2-passiversatz
+words: lösbar, machbar, erreichbar, vergleichbar, erkennbar, verständlich, unvermeidlich, die Lösung, das Problem, die Herausforderung, bewältigen, umsetzen, die Umsetzung, die Maßnahme, durchführen, die Durchführung, prüfen, beachten, einhalten, vermeiden, verhindern, berücksichtigen, die Vorschrift, die Regel, der Antrag
+intro:
+<h3>Cuatro alternativas a la pasiva con modal</h3>
+<table><tr><td>pasiva con können</td><td>Das Problem <b>kann gelöst werden</b>.</td></tr>
+<tr><td><b>sich lassen</b> + infinitivo</td><td>Das Problem <b>lässt sich lösen</b>.</td></tr>
+<tr><td><b>sein + zu</b> + infinitivo</td><td>Das Problem <b>ist zu lösen</b>. (= se puede / se debe)</td></tr>
+<tr><td>adjetivo en <b>-bar</b></td><td>Das Problem <b>ist lösbar</b>.</td></tr>
+<tr><td><b>man</b></td><td><b>Man kann</b> das Problem lösen.</td></tr></table>
+<h3>sein + zu: posibilidad u obligación</h3>
+<p>Según el contexto equivale a <b>können</b> o a <b>müssen</b>: <i>Der Antrag <b>ist</b> bis Freitag ab<b>zu</b>geben</i> (= tiene que entregarse). · <i>Das <b>ist</b> nicht <b>zu</b> ändern</i> (= no se puede cambiar).</p>
+<p>Como adjetivo: <i>die bis Freitag ab<b>zu</b>gebenden Unterlagen</i> (C1).</p>
+<h3>Adjetivos -bar y -lich</h3>
+<p><i>machbar</i> (factible), <i>erreichbar</i> (localizable, accesible), <i>vergleichbar</i>, <i>erkennbar</i>, <i>verständlich</i>, <i>unvermeidlich</i>.</p>
+<div class="tip">Con <b>un-</b> + -bar / -lich se expresa imposibilidad: <i>unlösbar, unverständlich, unvermeidlich</i>.</div>
+intro_en:
+<h3>Four alternatives to the passive with a modal</h3>
+<table><tr><td>passive with können</td><td>Das Problem <b>kann gelöst werden</b>.</td></tr>
+<tr><td><b>sich lassen</b> + infinitive</td><td>Das Problem <b>lässt sich lösen</b>. (can be solved)</td></tr>
+<tr><td><b>sein + zu</b> + infinitive</td><td>Das Problem <b>ist zu lösen</b>. (can / must be solved)</td></tr>
+<tr><td>adjective in <b>-bar</b></td><td>Das Problem <b>ist lösbar</b>. (solvable)</td></tr>
+<tr><td><b>man</b></td><td><b>Man kann</b> das Problem lösen.</td></tr></table>
+<h3>sein + zu: possibility or obligation</h3>
+<p>Depending on the context it means <b>können</b> or <b>müssen</b>: <i>Der Antrag <b>ist</b> bis Freitag ab<b>zu</b>geben</i> (= must be handed in). · <i>Das <b>ist</b> nicht <b>zu</b> ändern</i> (= can't be changed).</p>
+<p>As an adjective: <i>die bis Freitag ab<b>zu</b>gebenden Unterlagen</i> (C1).</p>
+<h3>Adjectives in -bar and -lich</h3>
+<p><i>machbar</i> (feasible), <i>erreichbar</i> (reachable), <i>vergleichbar</i> (comparable), <i>erkennbar</i> (recognisable), <i>verständlich</i> (understandable), <i>unvermeidlich</i> (inevitable).</p>
+<div class="tip"><b>un-</b> + -bar / -lich expresses impossibility: <i>unlösbar, unverständlich, unvermeidlich</i>.</div>
+ex:
+fill ¦ Das Problem lässt ___ leicht lösen. ¦ sich ¦ es / man / sie ¦ El problema se puede resolver fácilmente. ¦ The problem can easily be solved. ¦ sich lassen + infinitivo ¦ sich lassen + infinitive
+fill ¦ Der Antrag ist bis Montag ___. ¦ abzugeben ¦ abgeben / zu abgeben / abgegeben ¦ La solicitud tiene que entregarse antes del lunes. ¦ The application must be handed in by Monday. ¦ sein + zu: ab + zu + geben ¦ sein + zu: ab + zu + geben
+fill ¦ Diese Aufgabe ist in einer Stunde ___. (machen) ¦ machbar ¦ machlich / machig / gemacht ¦ Esta tarea se puede hacer en una hora. ¦ This task can be done in an hour. ¦ -bar = se puede ¦ -bar = -able
+fill ¦ Leider ist der Fehler nicht zu ___. ¦ vermeiden ¦ vermieden / vermeidet / zu vermeiden ¦ Por desgracia el error no se puede evitar. ¦ Unfortunately the mistake can't be avoided. ¦ sein + zu + infinitivo ¦ sein + zu + infinitive
+fill ¦ Die Ergebnisse sind kaum ___. (vergleichen) ¦ vergleichbar ¦ vergleichlich / verglichen / vergleichig ¦ Los resultados apenas son comparables. ¦ The results are hardly comparable. ¦ vergleichen → vergleichbar ¦ vergleichen → vergleichbar
+fill ¦ Die Regeln sind unbedingt ___ beachten. ¦ zu ¦ — / um / sich ¦ Las normas deben respetarse sin falta. ¦ The rules must be observed. ¦ sein + zu ¦ sein + zu
+choose ¦ «Das Fenster kann nicht geöffnet werden» significa… ¦ «Das Fenster kann nicht geöffnet werden» means… ¦ Das Fenster lässt sich nicht öffnen. ¦ Das Fenster lässt nicht öffnen. / Das Fenster ist nicht öffnen. / Das Fenster öffnet nicht zu.
+choose ¦ «unvermeidlich» significa… ¦ «unvermeidlich» means… ¦ Man kann es nicht vermeiden. ¦ Man muss es vermeiden. / Man darf es nicht vermeiden. / Man will es vermeiden.
+order ¦ Die Kosten lassen sich nur schwer berechnen ¦ Los costes son difíciles de calcular. ¦ The costs are difficult to calculate.
+order ¦ Diese Maßnahmen sind sofort umzusetzen ¦ Estas medidas deben aplicarse de inmediato. ¦ These measures must be implemented immediately.
+translate ¦ Eso no se puede cambiar. ¦ That can't be changed. ¦ Das lässt sich nicht ändern. ¦ Das ist nicht zu ändern. / Das kann man nicht ändern.
+translate ¦ La doctora está localizable por teléfono. ¦ The doctor can be reached by phone. ¦ Die Ärztin ist telefonisch erreichbar. ¦ Die Ärztin ist per Telefon erreichbar.
+match ¦ machbar=factible=feasible; erreichbar=localizable=reachable; lösbar=resoluble=solvable; unvermeidlich=inevitable=inevitable; einhalten=cumplir=to comply with
+listen ¦ Das lässt sich leider nicht mehr ändern. ¦ Das lässt sich leider nicht mehr reparieren. / Das ist leider nicht mehr zu ändern. / Das lässt sich zum Glück noch ändern.
+
+=== 3
+title: Die Tür ist geschlossen ¦ La puerta está cerrada ¦ The door is closed
+desc: Pasiva de proceso y pasiva de estado; la pasiva en todos los tiempos ¦ Process passive and state passive; the passive in every tense
+gram: Vorgangspassiv (werden): la acción ¦ Zustandspassiv (sein): el resultado ¦ pasiva en Perfekt y Plusquamperfekt: ist / war … worden ¦ pasiva con modal en pasado: hätte … werden müssen
+gram_en: Vorgangspassiv (werden): the action ¦ Zustandspassiv (sein): the result ¦ passive in the Perfekt and past perfect: ist / war … worden ¦ passive with a modal in the past: hätte … werden müssen
+ref: b2-zustandspassiv
+words: der Zustand, der Vorgang, der Prozess, renovieren, reparieren, reservieren, buchen, bezahlen, erledigen, abschließen, öffnen, schließen, beschädigen, zerstören, sanieren, die Sanierung, der Schaden, die Versicherung, versichern, melden, die Meldung, erhalten, aufbewahren, verlängern
+intro:
+<h3>Proceso o resultado</h3>
+<table><tr><td><b>Vorgangspassiv</b>: werden + participio (la acción)</td><td>Die Tür <b>wird</b> um 8 Uhr <b>geschlossen</b>. (= la cierran a las 8)</td></tr>
+<tr><td><b>Zustandspassiv</b>: sein + participio (el resultado)</td><td>Die Tür <b>ist</b> jetzt <b>geschlossen</b>. (= está cerrada)</td></tr></table>
+<div class="example">Der Tisch <b>wird</b> gerade <b>reserviert</b>. → Der Tisch <b>ist</b> <b>reserviert</b>.<br>Die Rechnung <b>wurde</b> gestern <b>bezahlt</b>. → Die Rechnung <b>ist</b> <b>bezahlt</b>.</div>
+<h3>La pasiva en todos los tiempos</h3>
+<table><tr><td>Präsens</td><td>Das Haus <b>wird</b> renoviert.</td></tr>
+<tr><td>Präteritum</td><td>Das Haus <b>wurde</b> renoviert.</td></tr>
+<tr><td>Perfekt</td><td>Das Haus <b>ist</b> renoviert <b>worden</b>.</td></tr>
+<tr><td>Plusquamperfekt</td><td>Das Haus <b>war</b> renoviert <b>worden</b>.</td></tr>
+<tr><td>Futur I</td><td>Das Haus <b>wird</b> renoviert <b>werden</b>.</td></tr>
+<tr><td>modal en pasado</td><td>Das Haus <b>musste</b> renoviert <b>werden</b>. · Das Haus <b>hätte</b> renoviert <b>werden müssen</b>.</td></tr></table>
+<div class="tip">El Zustandspassiv se parece al español «estar + participio»: <i>Das Geschäft ist geöffnet</i> = la tienda está abierta.</div>
+intro_en:
+<h3>Process or result</h3>
+<table><tr><td><b>Vorgangspassiv</b>: werden + participle (the action)</td><td>Die Tür <b>wird</b> um 8 Uhr <b>geschlossen</b>. (= the door is closed at 8 — someone closes it)</td></tr>
+<tr><td><b>Zustandspassiv</b>: sein + participle (the result)</td><td>Die Tür <b>ist</b> jetzt <b>geschlossen</b>. (= the door is shut)</td></tr></table>
+<div class="example">Der Tisch <b>wird</b> gerade <b>reserviert</b>. → Der Tisch <b>ist</b> <b>reserviert</b>.<br>Die Rechnung <b>wurde</b> gestern <b>bezahlt</b>. → Die Rechnung <b>ist</b> <b>bezahlt</b>.</div>
+<h3>The passive in every tense</h3>
+<table><tr><td>present</td><td>Das Haus <b>wird</b> renoviert.</td></tr>
+<tr><td>simple past</td><td>Das Haus <b>wurde</b> renoviert.</td></tr>
+<tr><td>Perfekt</td><td>Das Haus <b>ist</b> renoviert <b>worden</b>.</td></tr>
+<tr><td>past perfect</td><td>Das Haus <b>war</b> renoviert <b>worden</b>.</td></tr>
+<tr><td>future</td><td>Das Haus <b>wird</b> renoviert <b>werden</b>.</td></tr>
+<tr><td>modal in the past</td><td>Das Haus <b>musste</b> renoviert <b>werden</b>. · Das Haus <b>hätte</b> renoviert <b>werden müssen</b>. (should have been renovated)</td></tr></table>
+<div class="tip">English "is closed" can be either: <i>wird geschlossen</i> (the action) or <i>ist geschlossen</i> (the state).</div>
+ex:
+fill ¦ Keine Sorge, der Tisch ___ schon reserviert. ¦ ist ¦ wird / wurde / hat ¦ Tranquilo, la mesa ya está reservada. ¦ Don't worry, the table is already booked. ¦ Resultado: sein ¦ Result: sein
+fill ¦ Die Straße ___ gerade repariert. ¦ wird ¦ ist / hat / worden ¦ Están reparando la calle. ¦ The road is being repaired. ¦ Proceso: werden ¦ Process: werden
+fill ¦ Das Museum ist letztes Jahr renoviert ___. ¦ worden ¦ geworden / werden / wurde ¦ El museo fue renovado el año pasado. ¦ The museum was renovated last year. ¦ Perfekt pasivo: worden ¦ Passive Perfekt: worden
+fill ¦ Als wir ankamen, ___ das Essen schon serviert worden. ¦ war ¦ ist / wurde / hatte ¦ Cuando llegamos, ya habían servido la comida. ¦ When we arrived, the food had already been served. ¦ Plusquamperfekt: war … worden ¦ Past perfect: war … worden
+fill ¦ Der Schaden hätte früher gemeldet werden ___. ¦ müssen ¦ gemusst / muss / musste ¦ El daño debería haberse notificado antes. ¦ The damage should have been reported earlier. ¦ Doble infinitivo ¦ Double infinitive
+fill ¦ Die Rechnung ___ bereits bezahlt. ¦ ist ¦ wird / hat / worden ¦ La factura ya está pagada. ¦ The bill has already been paid. ¦ Estado: ist bezahlt ¦ State: ist bezahlt
+choose ¦ Estado: «La tienda está abierta». ¦ State: «The shop is open». ¦ Das Geschäft ist geöffnet. ¦ Das Geschäft wird geöffnet. / Das Geschäft hat geöffnet worden. / Das Geschäft wurde geöffnet.
+choose ¦ Futur I pasivo de «Das Haus wird gebaut». ¦ Passive future of «Das Haus wird gebaut». ¦ Das Haus wird gebaut werden. ¦ Das Haus wird werden gebaut. / Das Haus ist gebaut worden. / Das Haus wurde gebaut werden.
+order ¦ Die Wohnung ist frisch renoviert ¦ El piso está recién reformado. ¦ The flat has just been renovated.
+order ¦ Der Vertrag musste verlängert werden ¦ Hubo que prorrogar el contrato. ¦ The contract had to be extended.
+translate ¦ La puerta está cerrada con llave. ¦ The door is locked. ¦ Die Tür ist abgeschlossen. ¦ Die Tür ist abgeschlossen
+translate ¦ El coche fue reparado ayer. ¦ The car was repaired yesterday. ¦ Das Auto wurde gestern repariert. ¦ Das Auto ist gestern repariert worden.
+match ¦ der Zustand=el estado=state; der Vorgang=el proceso=process; der Schaden=el daño=damage; versichern=asegurar=to insure; aufbewahren=guardar=to keep
+listen ¦ Das Zimmer ist leider schon reserviert. ¦ Das Zimmer wird leider schon renoviert. / Der Tisch ist leider schon reserviert. / Das Zimmer war leider schon reserviert.
+
+=== 4
+title: Die in Berlin lebende Autorin ¦ La autora que vive en Berlín ¦ The author living in Berlin
+desc: El estilo periodístico: atributos con participio ampliado ¦ Journalistic style: extended participial attributes
+gram: participio ampliado delante del sustantivo: die seit Jahren in Berlin lebende Autorin ¦ participio I = activo / simultáneo; participio II = pasivo / anterior ¦ transformación en oración de relativo ¦ zu + participio I: das zu lösende Problem
+gram_en: extended participle before the noun: die seit Jahren in Berlin lebende Autorin ¦ present participle = active / simultaneous; past participle = passive / prior ¦ turning it into a relative clause ¦ zu + present participle: das zu lösende Problem
+ref: b2-partizipialattribut
+words: die Autorin, der Autor, veröffentlichen, erscheinen, der Roman, die Studie, der Wissenschaftler, die Forschung, das Ergebnis, die Untersuchung, steigend, wachsend, zunehmend, sinkend, betroffen, beteiligt, geplant, vorgesehen, bestehend, folgend, entsprechend, die Zahl, die Anzahl, der Anteil, die Mehrheit
+intro:
+<h3>El atributo con participio ampliado</h3>
+<p>El alemán escrito puede colocar mucha información entre el artículo y el sustantivo:</p>
+<table><tr><td>die Autorin, <b>die</b> seit Jahren in Berlin <b>lebt</b></td><td>→ die seit Jahren in Berlin <b>lebende</b> Autorin</td></tr>
+<tr><td>der Roman, <b>der</b> 2020 <b>veröffentlicht wurde</b></td><td>→ der 2020 <b>veröffentlichte</b> Roman</td></tr>
+<tr><td>die Preise, <b>die</b> ständig <b>steigen</b></td><td>→ die ständig <b>steigenden</b> Preise</td></tr></table>
+<p><b>Participio I</b> (-end): activo y simultáneo. <b>Participio II</b>: pasivo o terminado (o activo con verbos de movimiento: <i>der gerade angekommene Zug</i>).</p>
+<h3>Cómo leerlo</h3>
+<p>1) busca el artículo; 2) salta al sustantivo; 3) lee el participio; 4) lee el resto. <i>«die / Autorin / lebende / seit Jahren in Berlin»</i>.</p>
+<h3>zu + participio I: lo que se debe / puede hacer</h3>
+<p><i>das <b>zu lösende</b> Problem</i> = el problema que hay que resolver · <i>die <b>zu erwartenden</b> Kosten</i> = los costes previsibles.</p>
+<div class="tip">Es típico de periódicos, informes y textos académicos. Al hablar se prefiere la oración de relativo.</div>
+intro_en:
+<h3>The extended participial attribute</h3>
+<p>Written German can pack a lot of information between the article and the noun:</p>
+<table><tr><td>die Autorin, <b>die</b> seit Jahren in Berlin <b>lebt</b></td><td>→ die seit Jahren in Berlin <b>lebende</b> Autorin</td></tr>
+<tr><td>der Roman, <b>der</b> 2020 <b>veröffentlicht wurde</b></td><td>→ der 2020 <b>veröffentlichte</b> Roman</td></tr>
+<tr><td>die Preise, <b>die</b> ständig <b>steigen</b></td><td>→ die ständig <b>steigenden</b> Preise</td></tr></table>
+<p><b>Present participle</b> (-end): active and simultaneous. <b>Past participle</b>: passive or completed (or active with verbs of motion: <i>der gerade angekommene Zug</i>).</p>
+<h3>How to read it</h3>
+<p>1) find the article; 2) jump to the noun; 3) read the participle; 4) read the rest: <i>"die / Autorin / lebende / seit Jahren in Berlin"</i> = the author living in Berlin for years.</p>
+<h3>zu + present participle: what must / can be done</h3>
+<p><i>das <b>zu lösende</b> Problem</i> = the problem to be solved · <i>die <b>zu erwartenden</b> Kosten</i> = the expected costs.</p>
+<div class="tip">It is typical of newspapers, reports and academic texts. In speech a relative clause is preferred.</div>
+ex:
+fill ¦ Die seit 2010 in Wien ___ Autorin hat einen Preis gewonnen. ¦ lebende ¦ lebte / gelebte / lebenden ¦ La autora que vive en Viena desde 2010 ha ganado un premio. ¦ The author who has lived in Vienna since 2010 has won a prize. ¦ Participio I + -e ¦ Present participle + -e
+fill ¦ Der im Mai ___ Roman ist ein Bestseller. ¦ erschienene ¦ erscheinende / erschienen / erschien ¦ La novela publicada en mayo es un éxito de ventas. ¦ The novel published in May is a bestseller. ¦ Participio II: erschienen + -e ¦ Past participle: erschienen + -e
+fill ¦ Wegen der ständig ___ Preise sparen viele Familien. ¦ steigenden ¦ steigende / gestiegenen / steigend ¦ Por los precios en continuo aumento muchas familias ahorran. ¦ Because of constantly rising prices, many families are saving. ¦ Genitivo plural: -en ¦ Genitive plural: -en
+fill ¦ Die von der Firma ___ Produkte sind teuer. ¦ hergestellten ¦ herstellenden / hergestellt / hergestellte ¦ Los productos fabricados por la empresa son caros. ¦ The products made by the company are expensive. ¦ Pasivo: participio II ¦ Passive: past participle
+fill ¦ Das ist ein schnell zu ___ Problem. ¦ lösendes ¦ lösende / gelöstes / lösen ¦ Es un problema que se puede resolver rápido. ¦ It's a problem that can be solved quickly. ¦ zu + participio I + -es ¦ zu + present participle + -es
+fill ¦ Die vom Unfall ___ Personen wurden betreut. ¦ betroffenen ¦ betroffene / betreffenden / betroffen ¦ Las personas afectadas por el accidente fueron atendidas. ¦ The people affected by the accident were looked after. ¦ Plural tras die: -en ¦ Plural after die: -en
+choose ¦ Equivale a «die Studie, die letzte Woche veröffentlicht wurde». ¦ Equivalent to «die Studie, die letzte Woche veröffentlicht wurde». ¦ die letzte Woche veröffentlichte Studie ¦ die letzte Woche veröffentlichende Studie / die veröffentlichte letzte Woche Studie / die Studie letzte Woche veröffentlicht
+choose ¦ «das schlafende Kind» significa… ¦ «das schlafende Kind» means… ¦ das Kind, das schläft ¦ das Kind, das geschlafen hat / das Kind, das man schlafen lässt / das Kind, das schlafen soll
+order ¦ Die gestern veröffentlichte Studie zeigt alarmierende Ergebnisse ¦ El estudio publicado ayer muestra resultados alarmantes. ¦ The study published yesterday shows alarming results.
+order ¦ Die Zahl der allein lebenden Menschen nimmt zu ¦ El número de personas que viven solas aumenta. ¦ The number of people living alone is increasing.
+translate ¦ el tren recién llegado ¦ the train that has just arrived ¦ der gerade angekommene Zug ¦ der soeben angekommene Zug
+translate ¦ los costes que hay que esperar ¦ the costs to be expected ¦ die zu erwartenden Kosten ¦ die zu erwartenden Kosten
+match ¦ steigend=creciente=rising; betroffen=afectado=affected; geplant=previsto=planned; zunehmend=cada vez más=increasing; der Anteil=la proporción=share
+listen ¦ Die stark gestiegenen Mieten sind ein großes Problem. ¦ Die stark gesunkenen Mieten sind ein großes Problem. / Die stark gestiegenen Preise sind ein großes Problem. / Die stark steigenden Mieten sind ein kleines Problem.
+
+=== 5
+title: Wegen der Verspätung ¦ Por el retraso ¦ Because of the delay
+desc: Estilo nominal y estilo verbal: transformar oraciones en grupos nominales y al revés ¦ Nominal and verbal style: turning clauses into noun phrases and back
+gram: weil → wegen / aufgrund + genitivo ¦ als / während → bei / während ¦ nachdem → nach; bevor → vor ¦ obwohl → trotz; wenn → bei; damit → zu / für ¦ el sujeto pasa a genitivo o a durch / von
+gram_en: weil → wegen / aufgrund + genitive ¦ als / während → bei / während ¦ nachdem → nach; bevor → vor ¦ obwohl → trotz; wenn → bei; damit → zu / für ¦ the subject becomes a genitive or durch / von
+ref: b2-nominalstil
+words: aufgrund, infolge, bei, nach, vor, trotz, zwecks, die Ankunft, die Abfahrt, die Verspätung, die Erhöhung, die Senkung, die Einführung, die Entscheidung, die Entwicklung, die Veränderung, die Verbesserung, die Verwendung, die Beantwortung, die Zustimmung, die Ablehnung, die Durchführung, die Teilnahme, die Anmeldung, die Abreise
+intro:
+<h3>Del verbo al sustantivo</h3>
+<table><tr><td>estilo verbal</td><td>estilo nominal</td></tr>
+<tr><td><b>Weil</b> der Zug <b>sich verspätete</b>, …</td><td><b>Wegen der Verspätung</b> des Zuges …</td></tr>
+<tr><td><b>Als</b> wir <b>ankamen</b>, …</td><td><b>Bei unserer Ankunft</b> …</td></tr>
+<tr><td><b>Nachdem</b> sie <b>entschieden hatte</b>, …</td><td><b>Nach</b> ihrer <b>Entscheidung</b> …</td></tr>
+<tr><td><b>Bevor</b> er <b>abreiste</b>, …</td><td><b>Vor</b> seiner <b>Abreise</b> …</td></tr>
+<tr><td><b>Obwohl</b> es <b>regnete</b>, …</td><td><b>Trotz des Regens</b> …</td></tr>
+<tr><td><b>Wenn</b> man <b>sich anmeldet</b>, …</td><td><b>Bei Anmeldung</b> …</td></tr>
+<tr><td><b>Damit</b> die Qualität <b>verbessert wird</b>, …</td><td><b>Zur Verbesserung</b> der Qualität …</td></tr></table>
+<h3>¿Qué pasa con el sujeto y el complemento?</h3>
+<p>El sujeto pasa a <b>posesivo</b> o <b>genitivo</b> (<i>die Ankunft <b>des Zuges</b>, <b>seine</b> Ankunft</i>). El complemento directo pasa a <b>genitivo</b> y el agente a <b>durch</b>: <i>die Einführung <b>des Euros</b> <b>durch</b> die EU</i>.</p>
+<div class="tip">El estilo nominal es típico de noticias, avisos oficiales e informes: <i>Bei Nichtbeachtung droht eine Strafe.</i></div>
+intro_en:
+<h3>From verb to noun</h3>
+<table><tr><td>verbal style</td><td>nominal style</td></tr>
+<tr><td><b>Weil</b> der Zug <b>sich verspätete</b>, …</td><td><b>Wegen der Verspätung</b> des Zuges … (because of the train's delay)</td></tr>
+<tr><td><b>Als</b> wir <b>ankamen</b>, …</td><td><b>Bei unserer Ankunft</b> … (on our arrival)</td></tr>
+<tr><td><b>Nachdem</b> sie <b>entschieden hatte</b>, …</td><td><b>Nach</b> ihrer <b>Entscheidung</b> … (after her decision)</td></tr>
+<tr><td><b>Bevor</b> er <b>abreiste</b>, …</td><td><b>Vor</b> seiner <b>Abreise</b> … (before his departure)</td></tr>
+<tr><td><b>Obwohl</b> es <b>regnete</b>, …</td><td><b>Trotz des Regens</b> … (despite the rain)</td></tr>
+<tr><td><b>Wenn</b> man <b>sich anmeldet</b>, …</td><td><b>Bei Anmeldung</b> … (on registration)</td></tr>
+<tr><td><b>Damit</b> die Qualität <b>verbessert wird</b>, …</td><td><b>Zur Verbesserung</b> der Qualität … (to improve quality)</td></tr></table>
+<h3>What happens to the subject and the object?</h3>
+<p>The subject becomes a <b>possessive</b> or a <b>genitive</b> (<i>die Ankunft <b>des Zuges</b>, <b>seine</b> Ankunft</i>). The direct object becomes a <b>genitive</b> and the agent goes with <b>durch</b>: <i>die Einführung <b>des Euros</b> <b>durch</b> die EU</i>.</p>
+<div class="tip">Nominal style is typical of news, official notices and reports: <i>Bei Nichtbeachtung droht eine Strafe.</i> (Failure to comply may result in a fine.)</div>
+ex:
+fill ¦ ___ der Verspätung haben wir den Anschluss verpasst. ¦ Wegen ¦ Weil / Trotz / Bei ¦ Por el retraso perdimos el enlace. ¦ Because of the delay we missed our connection. ¦ weil → wegen + genitivo ¦ weil → wegen + genitive
+fill ¦ ___ unserer Ankunft regnete es. ¦ Bei ¦ Als / Wenn / Nach ¦ A nuestra llegada llovía. ¦ When we arrived it was raining. ¦ als → bei ¦ als → bei
+fill ¦ Nach ___ Entscheidung war sie erleichtert. ¦ ihrer ¦ sie / ihre / ihren ¦ Tras su decisión se sintió aliviada. ¦ After her decision she was relieved. ¦ nach + dativo: ihrer ¦ nach + dative: ihrer
+fill ¦ ___ des schlechten Wetters fand das Fest statt. ¦ Trotz ¦ Obwohl / Wegen / Bei ¦ A pesar del mal tiempo, la fiesta se celebró. ¦ Despite the bad weather, the party went ahead. ¦ obwohl → trotz ¦ obwohl → trotz
+fill ¦ Die Regierung plant die ___ der Steuern. (erhöhen) ¦ Erhöhung ¦ Erhöhen / Erhöhtung / Erhöhheit ¦ El gobierno planea la subida de impuestos. ¦ The government is planning to raise taxes. ¦ erhöhen → die Erhöhung ¦ erhöhen → die Erhöhung
+fill ¦ ___ Verbesserung der Qualität wurden neue Regeln eingeführt. ¦ Zur ¦ Zum / Für die / Damit ¦ Para mejorar la calidad se introdujeron nuevas normas. ¦ New rules were introduced to improve quality. ¦ damit → zur + sustantivo ¦ damit → zur + noun
+choose ¦ Estilo nominal de «Bevor er abreist, …». ¦ Nominal style for «Bevor er abreist, …». ¦ Vor seiner Abreise … ¦ Bevor seiner Abreise … / Vor er abreist … / Nach seiner Abreise …
+choose ¦ Estilo verbal de «Bei Regen fällt das Spiel aus». ¦ Verbal style for «Bei Regen fällt das Spiel aus». ¦ Wenn es regnet, fällt das Spiel aus. ¦ Obwohl es regnet, fällt das Spiel aus. / Weil es regnete, fiel das Spiel aus. / Bevor es regnet, fällt das Spiel aus.
+order ¦ Nach der Beantwortung aller Fragen endete das Interview ¦ Tras responder a todas las preguntas, terminó la entrevista. ¦ After all the questions had been answered, the interview ended.
+order ¦ Aufgrund der hohen Nachfrage wurde das Angebot verlängert ¦ Debido a la gran demanda se prorrogó la oferta. ¦ Due to high demand the offer was extended.
+translate ¦ Durante la reunión sonó mi móvil. ¦ My phone rang during the meeting. ¦ Während der Besprechung klingelte mein Handy. ¦ Während der Sitzung klingelte mein Handy.
+translate ¦ Tras la introducción del euro subieron los precios. ¦ After the introduction of the euro, prices rose. ¦ Nach der Einführung des Euros stiegen die Preise. ¦ Nach der Einführung des Euro stiegen die Preise.
+match ¦ die Ankunft=la llegada=arrival; die Abreise=la partida=departure; die Erhöhung=el aumento=increase; die Senkung=la reducción=reduction; die Zustimmung=la aprobación=approval
+listen ¦ Bei schlechtem Wetter findet die Veranstaltung im Saal statt. ¦ Bei gutem Wetter findet die Veranstaltung im Park statt. / Trotz schlechtem Wetter findet die Veranstaltung im Saal statt. / Bei schlechtem Wetter fällt die Veranstaltung aus.
+
+=== 6
+title: Eine Entscheidung treffen ¦ Tomar una decisión ¦ Making a decision
+desc: Locuciones de verbo y sustantivo (Nomen-Verb-Verbindungen) en registro formal ¦ Noun-verb collocations (Nomen-Verb-Verbindungen) in formal register
+gram: el sustantivo lleva el significado y el verbo es casi vacío ¦ eine Entscheidung treffen = entscheiden ¦ in Frage kommen, zur Verfügung stehen, in Kauf nehmen ¦ valor pasivo: zur Diskussion stehen, in Kraft treten
+gram_en: the noun carries the meaning and the verb is almost empty ¦ eine Entscheidung treffen = entscheiden ¦ in Frage kommen, zur Verfügung stehen, in Kauf nehmen ¦ passive meaning: zur Diskussion stehen, in Kraft treten
+ref: b2-nvv
+words: eine Entscheidung treffen, Kritik üben, in Frage kommen, in Frage stellen, zur Verfügung stellen, zur Verfügung stehen, in Kauf nehmen, zum Ausdruck bringen, eine Rolle spielen, Rücksicht nehmen, Stellung nehmen, in Anspruch nehmen, Einfluss nehmen, in Betracht ziehen, Maßnahmen ergreifen, einen Antrag stellen, Verantwortung übernehmen, einen Beitrag leisten, Wert legen auf, in Kontakt treten, zu Ende gehen, in Gang setzen
+intro:
+<h3>Nomen-Verb-Verbindungen</h3>
+<p>Muy frecuentes en el registro formal. El significado está en el <b>sustantivo</b>; el verbo (treffen, nehmen, stellen, bringen, kommen…) apenas aporta nada. Muchas equivalen a un verbo simple:</p>
+<table><tr><td>eine Entscheidung <b>treffen</b></td><td>= entscheiden</td></tr>
+<tr><td>Kritik <b>üben</b> an</td><td>= kritisieren</td></tr>
+<tr><td>zum Ausdruck <b>bringen</b></td><td>= ausdrücken</td></tr>
+<tr><td>einen Antrag <b>stellen</b></td><td>= beantragen</td></tr>
+<tr><td>Rücksicht <b>nehmen</b> auf</td><td>= berücksichtigen</td></tr>
+<tr><td>in Betracht <b>ziehen</b></td><td>= erwägen</td></tr>
+<tr><td>zur Verfügung <b>stellen</b></td><td>= bereitstellen</td></tr></table>
+<h3>Sin equivalente sencillo o con matiz</h3>
+<p><i>in Frage kommen</i> (entrar en consideración), <i>in Kauf nehmen</i> (aceptar un inconveniente), <i>eine Rolle spielen</i> (desempeñar un papel), <i>Wert legen auf</i> (dar importancia a).</p>
+<h3>Con valor pasivo</h3>
+<p><i>zur Diskussion <b>stehen</b></i> (= wird diskutiert), <i>in Kraft <b>treten</b></i> (entrar en vigor), <i>zur Anwendung <b>kommen</b></i> (= wird angewendet).</p>
+<div class="tip">Apréndelas como bloques: el artículo y la preposición son fijos (<i><b>zur</b> Verfügung, <b>in</b> Frage, <b>eine</b> Entscheidung</i>).</div>
+intro_en:
+<h3>Noun-verb collocations</h3>
+<p>Very common in formal register. The meaning lies in the <b>noun</b>; the verb (treffen, nehmen, stellen, bringen, kommen…) adds very little — like English "make a decision", "take into account". Many equal a simple verb:</p>
+<table><tr><td>eine Entscheidung <b>treffen</b></td><td>= entscheiden (make a decision)</td></tr>
+<tr><td>Kritik <b>üben</b> an</td><td>= kritisieren (criticise)</td></tr>
+<tr><td>zum Ausdruck <b>bringen</b></td><td>= ausdrücken (express)</td></tr>
+<tr><td>einen Antrag <b>stellen</b></td><td>= beantragen (submit an application)</td></tr>
+<tr><td>Rücksicht <b>nehmen</b> auf</td><td>= berücksichtigen (show consideration for)</td></tr>
+<tr><td>in Betracht <b>ziehen</b></td><td>= erwägen (take into consideration)</td></tr>
+<tr><td>zur Verfügung <b>stellen</b></td><td>= bereitstellen (make available)</td></tr></table>
+<h3>No simple equivalent, or a nuance</h3>
+<p><i>in Frage kommen</i> (be an option), <i>in Kauf nehmen</i> (put up with a drawback), <i>eine Rolle spielen</i> (play a role), <i>Wert legen auf</i> (attach importance to).</p>
+<h3>With passive meaning</h3>
+<p><i>zur Diskussion <b>stehen</b></i> (= is being discussed), <i>in Kraft <b>treten</b></i> (come into force), <i>zur Anwendung <b>kommen</b></i> (= is applied).</p>
+<div class="tip">Learn them as chunks: the article and preposition are fixed (<i><b>zur</b> Verfügung, <b>in</b> Frage, <b>eine</b> Entscheidung</i>).</div>
+ex:
+fill ¦ Wir müssen bald eine Entscheidung ___. ¦ treffen ¦ machen / geben / nehmen ¦ Tenemos que tomar una decisión pronto. ¦ We have to make a decision soon. ¦ eine Entscheidung treffen ¦ eine Entscheidung treffen
+fill ¦ Die Firma stellt den Mitarbeitern Laptops zur ___. ¦ Verfügung ¦ Hilfe / Benutzung / Stellung ¦ La empresa pone portátiles a disposición de los empleados. ¦ The company provides laptops for its staff. ¦ zur Verfügung stellen ¦ zur Verfügung stellen
+fill ¦ Diese Wohnung kommt für uns nicht in ___. ¦ Frage ¦ Betracht / Kauf / Ordnung ¦ Este piso no entra en consideración para nosotros. ¦ This flat isn't an option for us. ¦ in Frage kommen ¦ in Frage kommen
+fill ¦ Für den Job nehme ich den langen Weg in ___. ¦ Kauf ¦ Frage / Anspruch / Betracht ¦ Por el trabajo acepto el largo trayecto. ¦ I'll put up with the long commute for the job. ¦ in Kauf nehmen ¦ in Kauf nehmen
+fill ¦ Bitte nehmen Sie Rücksicht ___ die Nachbarn. ¦ auf ¦ für / an / über ¦ Por favor, tengan consideración con los vecinos. ¦ Please be considerate towards the neighbours. ¦ Rücksicht nehmen auf ¦ Rücksicht nehmen auf
+fill ¦ Das neue Gesetz tritt im Januar in ___. ¦ Kraft ¦ Frage / Gang / Ordnung ¦ La nueva ley entra en vigor en enero. ¦ The new law comes into force in January. ¦ in Kraft treten ¦ in Kraft treten
+choose ¦ Equivale a «kritisieren». ¦ Equivalent to «kritisieren». ¦ Kritik üben ¦ Kritik machen / Kritik nehmen / Kritik treffen
+choose ¦ Equivale a «Das Thema wird diskutiert». ¦ Equivalent to «Das Thema wird diskutiert». ¦ Das Thema steht zur Diskussion. ¦ Das Thema nimmt Diskussion. / Das Thema bringt zur Diskussion. / Das Thema kommt in Diskussion.
+order ¦ Der Minister nahm zu den Vorwürfen Stellung ¦ El ministro se pronunció sobre las acusaciones. ¦ The minister commented on the accusations.
+order ¦ Wir legen großen Wert auf Qualität ¦ Damos mucha importancia a la calidad. ¦ We attach great importance to quality.
+translate ¦ El precio desempeña un papel importante. ¦ The price plays an important role. ¦ Der Preis spielt eine wichtige Rolle. ¦ Der Preis spielt eine große Rolle.
+translate ¦ Tenemos que tomar medidas. ¦ We have to take measures. ¦ Wir müssen Maßnahmen ergreifen. ¦ Wir müssen Maßnahmen treffen.
+match ¦ in Betracht ziehen=tener en cuenta=to take into consideration; zum Ausdruck bringen=expresar=to express; Verantwortung übernehmen=asumir la responsabilidad=to take responsibility; in Kontakt treten=ponerse en contacto=to get in touch; einen Beitrag leisten=contribuir=to contribute
+listen ¦ Wir sollten diese Möglichkeit in Betracht ziehen. ¦ Wir sollten diese Möglichkeit in Frage stellen. / Wir sollten diese Möglichkeit zur Verfügung stellen. / Wir müssen diese Möglichkeit in Betracht ziehen.

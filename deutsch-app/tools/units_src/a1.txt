@@ -1,0 +1,1000 @@
+# A1 lessons (EOI Nivel Básico A1). Every translation and explanation in Spanish and English.
+
+=== 1
+title: Hallo! ¦ ¡Hola! ¦ Hello!
+desc: Saludar, presentarse y despedirse; du y Sie ¦ Greeting, introducing yourself and saying goodbye; du and Sie
+gram: saludos y despedidas ¦ heißen y sein: ich heiße, ich bin ¦ du o Sie ¦ preguntas con wie, wer, woher
+gram_en: greetings and goodbyes ¦ heißen and sein: ich heiße, ich bin ¦ du or Sie ¦ questions with wie, wer, woher
+ref: a1-hallo
+words: hallo, guten Morgen, guten Tag, guten Abend, gute Nacht, auf Wiedersehen, tschüss, danke, bitte, ja, nein, heißen, sein, ich, du, Sie, er, sie, wie, wer, woher, der Name, der Vorname, der Familienname, Herr, die Frau, wie geht's, gut, auch, und
+intro:
+<h3>Saludar y despedirse</h3>
+<table><tr><td><strong>Hallo!</strong></td><td>¡Hola! (informal, a cualquier hora)</td></tr>
+<tr><td><strong>Guten Morgen!</strong> · <strong>Guten Tag!</strong> · <strong>Guten Abend!</strong></td><td>¡Buenos días! · ¡Buenas tardes! · ¡Buenas noches! (al llegar)</td></tr>
+<tr><td><strong>Gute Nacht!</strong></td><td>¡Buenas noches! (al irse a dormir)</td></tr>
+<tr><td><strong>Auf Wiedersehen!</strong> · <strong>Tschüss!</strong></td><td>¡Adiós! (formal) · ¡Chao! (informal)</td></tr></table>
+<h3>Presentarse: heißen y sein</h3>
+<table><tr><td>ich <strong>heiße</strong> Anna</td><td>me llamo Anna</td></tr>
+<tr><td>du <strong>heißt</strong></td><td>te llamas</td></tr>
+<tr><td>er / sie <strong>heißt</strong></td><td>se llama</td></tr>
+<tr><td>Sie <strong>heißen</strong></td><td>se llama usted</td></tr></table>
+<div class="example">— Wie heißt du? — Ich heiße Paul. Und du?<br>— Wie heißen Sie? — Mein Name ist Müller. Ich bin Frau Müller.</div>
+<p>Con <b>sein</b> (ser): ich <b>bin</b>, du <b>bist</b>, er / sie <b>ist</b>, Sie <b>sind</b>. <i>Ich bin Lara. Bist du Tom?</i></p>
+<h3>¿du o Sie?</h3>
+<p><b>du</b> con amigos, familia, niños y entre jóvenes. <b>Sie</b> (siempre con mayúscula) con desconocidos y en el trabajo. Con Sie se usa el apellido: <i>Herr Weber, Frau Schmidt</i>.</p>
+<div class="example">Wie geht's? — Gut, danke. Und dir? (informal)<br>Wie geht es Ihnen? — Sehr gut, danke. Und Ihnen? (formal)</div>
+<div class="tip">En alemán <b>todos los sustantivos</b> se escriben con mayúscula: <i>der Name, die Frau</i>.</div>
+<div class="warning">La <b>ß</b> (eszett) suena como una s fuerte: <i>heißen</i> [haisen]. <b>ei</b> se pronuncia [ai] y <b>ie</b> [i:]: <i>heißen, Sie</i>.</div>
+intro_en:
+<h3>Saying hello and goodbye</h3>
+<table><tr><td><strong>Hallo!</strong></td><td>Hello! / Hi! (informal, any time)</td></tr>
+<tr><td><strong>Guten Morgen!</strong> · <strong>Guten Tag!</strong> · <strong>Guten Abend!</strong></td><td>Good morning! · Hello! / Good afternoon! · Good evening! (on arrival)</td></tr>
+<tr><td><strong>Gute Nacht!</strong></td><td>Good night! (going to bed)</td></tr>
+<tr><td><strong>Auf Wiedersehen!</strong> · <strong>Tschüss!</strong></td><td>Goodbye! (formal) · Bye! (informal)</td></tr></table>
+<h3>Introducing yourself: heißen and sein</h3>
+<table><tr><td>ich <strong>heiße</strong> Anna</td><td>my name is Anna</td></tr>
+<tr><td>du <strong>heißt</strong></td><td>your name is</td></tr>
+<tr><td>er / sie <strong>heißt</strong></td><td>his / her name is</td></tr>
+<tr><td>Sie <strong>heißen</strong></td><td>your name is (formal)</td></tr></table>
+<div class="example">— Wie heißt du? — Ich heiße Paul. Und du?<br>— Wie heißen Sie? — Mein Name ist Müller. Ich bin Frau Müller.</div>
+<p>With <b>sein</b> (to be): ich <b>bin</b>, du <b>bist</b>, er / sie <b>ist</b>, Sie <b>sind</b>. <i>Ich bin Lara. Bist du Tom?</i></p>
+<h3>du or Sie?</h3>
+<p><b>du</b> with friends, family, children and among young people. <b>Sie</b> (always with a capital letter) with strangers and at work. With Sie you use the surname: <i>Herr Weber, Frau Schmidt</i>.</p>
+<div class="example">Wie geht's? — Gut, danke. Und dir? (informal)<br>Wie geht es Ihnen? — Sehr gut, danke. Und Ihnen? (formal)</div>
+<div class="tip">In German <b>all nouns</b> start with a capital letter: <i>der Name, die Frau</i>.</div>
+<div class="warning">The letter <b>ß</b> (eszett) sounds like a sharp s: <i>heißen</i> [high-sen]. <b>ei</b> is pronounced [eye] and <b>ie</b> [ee]: <i>heißen, Sie</i>.</div>
+ex:
+fill ¦ Hallo! Ich ___ Julia. ¦ heiße ¦ heißt / heißen / bist ¦ ¡Hola! Me llamo Julia. ¦ Hello! My name is Julia. ¦ ich heiße ¦ ich heiße
+fill ¦ Wie ___ du? ¦ heißt ¦ heiße / heißen / bin ¦ ¿Cómo te llamas? ¦ What's your name? ¦ du heißt ¦ du heißt
+fill ¦ Wie heißen ___, bitte? ¦ Sie ¦ du / ich / er ¦ ¿Cómo se llama usted, por favor? ¦ What is your name, please? ¦ Sie heißen (formal) ¦ Sie heißen (formal)
+fill ¦ Ich ___ Tom. Und du? ¦ bin ¦ bist / ist / sind ¦ Soy Tom. ¿Y tú? ¦ I'm Tom. And you? ¦ ich bin ¦ ich bin
+fill ¦ — Wie geht's? — ___, danke. ¦ Gut ¦ Hallo / Tschüss / Bitte ¦ —¿Qué tal? —Bien, gracias. ¦ —How are you? —Fine, thanks. ¦ Gut = bien ¦ Gut = fine
+choose ¦ Saludas a tu profesora por la mañana. ¦ You greet your teacher in the morning. ¦ Guten Morgen, Frau Bauer! ¦ Tschüss, Frau Bauer! / Gute Nacht, Frau Bauer! / Hallo, Bauer!
+choose ¦ Te despides de un amigo. ¦ You say goodbye to a friend. ¦ Tschüss! ¦ Guten Tag! / Guten Morgen! / Wie geht's?
+order ¦ Ich heiße Paul und wer bist du ¦ Me llamo Paul, ¿y tú quién eres? ¦ My name is Paul, and who are you?
+order ¦ Wie geht es Ihnen ¦ ¿Cómo está usted? ¦ How are you? (formal)
+translate ¦ Hola, me llamo Ana. ¦ Hello, my name is Ana. ¦ Hallo, ich heiße Ana. ¦ Hallo ich heiße Ana / Hallo, ich bin Ana.
+translate ¦ Buenas noches. ¦ Good night. ¦ Gute Nacht. ¦ Gute Nacht
+match ¦ Hallo=hola=hello; danke=gracias=thank you; bitte=por favor=please; ja=sí=yes; nein=no=no
+listen ¦ Guten Tag, Herr Schmidt! ¦ Guten Abend, Frau Schmidt! / Gute Nacht, Herr Schmidt! / Guten Morgen, Herr Schmidt!
+
+=== 2
+title: Woher kommst du? ¦ ¿De dónde eres? ¦ Where are you from?
+desc: Países, idiomas y el presente de los verbos regulares ¦ Countries, languages and the present tense of regular verbs
+gram: presente: ich komme, du kommst, er kommt… ¦ el verbo en 2.ª posición ¦ preguntas de sí / no: el verbo delante ¦ aus, in, nach con países
+gram_en: present tense: ich komme, du kommst, er kommt… ¦ the verb in second position ¦ yes / no questions: the verb first ¦ aus, in, nach with countries
+ref: a1-present
+words: kommen, wohnen, sprechen, lernen, aus, in, Deutschland, Österreich, die Schweiz, Spanien, England, Frankreich, Italien, Deutsch, Spanisch, Englisch, die Sprache, das Land, die Stadt, wir, ihr, sie, leben, arbeiten, studieren, wo, was, sehr, ein bisschen, nur
+intro:
+<h3>El presente de los verbos regulares</h3>
+<p>Se quita <b>-en</b> al infinitivo (<i>komm-en, wohn-en</i>) y se añade la terminación:</p>
+<table><tr><td>ich komm<strong>e</strong></td><td>wir komm<strong>en</strong></td></tr>
+<tr><td>du komm<strong>st</strong></td><td>ihr komm<strong>t</strong></td></tr>
+<tr><td>er / sie / es komm<strong>t</strong></td><td>sie / Sie komm<strong>en</strong></td></tr></table>
+<p>Si la raíz acaba en <b>-t</b> o <b>-d</b> se añade una e: du arbeit<b>e</b>st, er arbeit<b>e</b>t.</p>
+<h3>El verbo va en 2.ª posición</h3>
+<div class="example">Ich <strong>komme</strong> aus Spanien. · Jetzt <strong>wohne</strong> ich in Berlin. · Woher <strong>kommst</strong> du?</div>
+<p>En las preguntas de sí / no el verbo va <b>el primero</b>: <i><b>Sprichst</b> du Deutsch? — Ja, ein bisschen.</i></p>
+<h3>Países e idiomas</h3>
+<table><tr><td>aus (procedencia)</td><td>Ich komme <b>aus</b> Spanien.</td></tr>
+<tr><td>in (dónde)</td><td>Ich wohne <b>in</b> Madrid.</td></tr>
+<tr><td>nach (adónde)</td><td>Ich fahre <b>nach</b> Österreich.</td></tr></table>
+<div class="tip">Algunos países llevan artículo: <i>die Schweiz → aus <b>der</b> Schweiz, in <b>der</b> Schweiz</i>.</div>
+<div class="warning"><b>sprechen</b> cambia la vocal: ich spreche, du spr<b>i</b>chst, er spr<b>i</b>cht.</div>
+intro_en:
+<h3>The present tense of regular verbs</h3>
+<p>Take <b>-en</b> off the infinitive (<i>komm-en, wohn-en</i>) and add the ending:</p>
+<table><tr><td>ich komm<strong>e</strong></td><td>wir komm<strong>en</strong></td></tr>
+<tr><td>du komm<strong>st</strong></td><td>ihr komm<strong>t</strong></td></tr>
+<tr><td>er / sie / es komm<strong>t</strong></td><td>sie / Sie komm<strong>en</strong></td></tr></table>
+<p>If the stem ends in <b>-t</b> or <b>-d</b>, an e is added: du arbeit<b>e</b>st, er arbeit<b>e</b>t.</p>
+<h3>The verb is in second position</h3>
+<div class="example">Ich <strong>komme</strong> aus Spanien. · Jetzt <strong>wohne</strong> ich in Berlin. · Woher <strong>kommst</strong> du?</div>
+<p>In yes / no questions the verb comes <b>first</b>: <i><b>Sprichst</b> du Deutsch? — Ja, ein bisschen.</i></p>
+<h3>Countries and languages</h3>
+<table><tr><td>aus (origin)</td><td>Ich komme <b>aus</b> Spanien.</td></tr>
+<tr><td>in (where)</td><td>Ich wohne <b>in</b> Madrid.</td></tr>
+<tr><td>nach (where to)</td><td>Ich fahre <b>nach</b> Österreich.</td></tr></table>
+<div class="tip">Some countries take an article: <i>die Schweiz → aus <b>der</b> Schweiz, in <b>der</b> Schweiz</i>.</div>
+<div class="warning"><b>sprechen</b> changes its vowel: ich spreche, du spr<b>i</b>chst, er spr<b>i</b>cht.</div>
+ex:
+fill ¦ Ich ___ aus Spanien. ¦ komme ¦ kommst / kommt / kommen ¦ Soy de España. ¦ I'm from Spain. ¦ ich komme ¦ ich komme
+fill ¦ Woher ___ du? ¦ kommst ¦ komme / kommt / kommen ¦ ¿De dónde eres? ¦ Where are you from? ¦ du kommst ¦ du kommst
+fill ¦ Wir ___ in München. ¦ wohnen ¦ wohnt / wohne / wohnst ¦ Vivimos en Múnich. ¦ We live in Munich. ¦ wir wohnen ¦ wir wohnen
+fill ¦ Maria ___ in Wien. ¦ arbeitet ¦ arbeitt / arbeite / arbeiten ¦ María trabaja en Viena. ¦ Maria works in Vienna. ¦ Raíz en -t: er arbeitet. ¦ Stem in -t: er arbeitet.
+fill ¦ ___ du Deutsch? ¦ Sprichst ¦ Sprechst / Spricht / Sprechen ¦ ¿Hablas alemán? ¦ Do you speak German? ¦ sprechen → du sprichst ¦ sprechen → du sprichst
+fill ¦ Ich komme aus ___ Schweiz. ¦ der ¦ die / das / den ¦ Soy de Suiza. ¦ I'm from Switzerland. ¦ aus der Schweiz ¦ aus der Schweiz
+choose ¦ ¿Cómo preguntas a alguien dónde vive? ¦ How do you ask someone where they live? ¦ Wo wohnst du? ¦ Woher wohnst du? / Wo wohnen du? / Wohnst wo du?
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Jetzt lerne ich Deutsch. ¦ Jetzt ich lerne Deutsch. / Ich jetzt lerne Deutsch. / Lerne jetzt Deutsch ich.
+order ¦ Ich wohne jetzt in Hamburg ¦ Ahora vivo en Hamburgo. ¦ I live in Hamburg now.
+order ¦ Sprechen Sie Englisch ¦ ¿Habla usted inglés? ¦ Do you speak English?
+translate ¦ Somos de Italia. ¦ We are from Italy. ¦ Wir kommen aus Italien. ¦ Wir sind aus Italien.
+translate ¦ Hablo un poco de alemán. ¦ I speak a little German. ¦ Ich spreche ein bisschen Deutsch. ¦ Ich spreche ein bisschen deutsch
+match ¦ Spanien=España=Spain; Deutschland=Alemania=Germany; Österreich=Austria=Austria; die Schweiz=Suiza=Switzerland; Frankreich=Francia=France
+listen ¦ Ich komme aus Österreich. ¦ Ich komme aus Frankreich. / Ich wohne in Österreich. / Ich komme aus Deutschland.
+
+=== 3
+title: Zahlen und Alter ¦ Números y edad ¦ Numbers and age
+desc: Los números, la edad, el teléfono y deletrear; el verbo haben ¦ Numbers, age, phone numbers and spelling; the verb haben
+gram: números de 0 a 1000 ¦ el verbo haben ¦ wie alt bist du? ¦ deletrear: das Alphabet
+gram_en: numbers from 0 to 1000 ¦ the verb haben ¦ wie alt bist du? ¦ spelling: the alphabet
+ref: a1-zahlen
+words: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf, zwanzig, dreißig, hundert, tausend, haben, alt, das Alter, die Nummer, die Telefonnummer, die Handynummer, wie viel, buchstabieren, der Buchstabe, die Zahl, die Adresse, die Straße, das Jahr
+intro:
+<h3>Los números</h3>
+<table><tr><td>0 null · 1 eins · 2 zwei · 3 drei · 4 vier · 5 fünf</td><td>6 sechs · 7 sieben · 8 acht · 9 neun · 10 zehn</td></tr>
+<tr><td>11 elf · 12 zwölf · 13 dreizehn · 16 sechzehn · 17 siebzehn</td><td>20 zwanzig · 30 dreißig · 40 vierzig · 100 hundert</td></tr></table>
+<p>De 21 a 99 se dice primero la unidad: <b>einundzwanzig</b> (uno-y-veinte), <b>fünfunddreißig</b> (35), <b>achtundneunzig</b> (98). Se escribe todo junto.</p>
+<div class="example">123 = hundertdreiundzwanzig · 1000 = tausend · 2026 = zweitausendsechsundzwanzig</div>
+<h3>El verbo haben (tener)</h3>
+<table><tr><td>ich <strong>habe</strong></td><td>wir <strong>haben</strong></td></tr>
+<tr><td>du <strong>hast</strong></td><td>ihr <strong>habt</strong></td></tr>
+<tr><td>er / sie / es <strong>hat</strong></td><td>sie / Sie <strong>haben</strong></td></tr></table>
+<h3>La edad: con sein</h3>
+<div class="example">Wie alt <b>bist</b> du? — Ich <b>bin</b> 25 (Jahre alt).</div>
+<div class="warning">La edad se dice con <b>sein</b>, no con haben: <i>Ich bin 30.</i> (no <s>Ich habe 30 Jahre</s>).</div>
+<div class="tip">Para deletrear: A [a], B [be], C [tse], E [e], I [i], J [jot], V [fau], W [ve], Y [ýpsilon], Z [tset], ß [es-tset].</div>
+intro_en:
+<h3>Numbers</h3>
+<table><tr><td>0 null · 1 eins · 2 zwei · 3 drei · 4 vier · 5 fünf</td><td>6 sechs · 7 sieben · 8 acht · 9 neun · 10 zehn</td></tr>
+<tr><td>11 elf · 12 zwölf · 13 dreizehn · 16 sechzehn · 17 siebzehn</td><td>20 zwanzig · 30 dreißig · 40 vierzig · 100 hundert</td></tr></table>
+<p>From 21 to 99 the unit comes first: <b>einundzwanzig</b> (one-and-twenty), <b>fünfunddreißig</b> (35), <b>achtundneunzig</b> (98). It is written as one word.</p>
+<div class="example">123 = hundertdreiundzwanzig · 1000 = tausend · 2026 = zweitausendsechsundzwanzig</div>
+<h3>The verb haben (to have)</h3>
+<table><tr><td>ich <strong>habe</strong></td><td>wir <strong>haben</strong></td></tr>
+<tr><td>du <strong>hast</strong></td><td>ihr <strong>habt</strong></td></tr>
+<tr><td>er / sie / es <strong>hat</strong></td><td>sie / Sie <strong>haben</strong></td></tr></table>
+<h3>Age: with sein</h3>
+<div class="example">Wie alt <b>bist</b> du? — Ich <b>bin</b> 25 (Jahre alt).</div>
+<div class="warning">Age uses <b>sein</b>, as in English: <i>Ich bin 30.</i> (not <s>Ich habe 30 Jahre</s>).</div>
+<div class="tip">Spelling out: A [ah], B [bay], C [tsay], E [ay], I [ee], J [yot], V [fow], W [vay], Y [üpsilon], Z [tset], ß [ess-tset].</div>
+ex:
+fill ¦ Ich ___ einen Bruder. ¦ habe ¦ hast / hat / haben ¦ Tengo un hermano. ¦ I have a brother. ¦ ich habe ¦ ich habe
+fill ¦ ___ du ein Handy? ¦ Hast ¦ Habe / Hat / Habt ¦ ¿Tienes móvil? ¦ Do you have a mobile? ¦ du hast ¦ du hast
+fill ¦ Wie alt ___ du? ¦ bist ¦ hast / bin / ist ¦ ¿Cuántos años tienes? ¦ How old are you? ¦ La edad con sein. ¦ Age with sein.
+fill ¦ Meine Schwester ___ zwanzig. ¦ ist ¦ hat / habe / bist ¦ Mi hermana tiene veinte años. ¦ My sister is twenty. ¦ La edad con sein. ¦ Age with sein.
+fill ¦ 25 = fünf___zwanzig ¦ und ¦ und- / zehn / -ig ¦ veinticinco ¦ twenty-five ¦ La unidad va primero: fünfundzwanzig. ¦ The unit comes first: fünfundzwanzig.
+choose ¦ ¿Cómo se dice 47? ¦ How do you say 47? ¦ siebenundvierzig ¦ vierundsiebzig / vierzigsieben / siebzigvier
+choose ¦ ¿Cómo se dice 13? ¦ How do you say 13? ¦ dreizehn ¦ dreißig / zehndrei / dreiundzehn
+order ¦ Meine Telefonnummer ist null sechs eins fünf ¦ Mi número de teléfono es cero seis uno cinco. ¦ My phone number is zero six one five.
+order ¦ Wie schreibt man das ¦ ¿Cómo se escribe eso? ¦ How do you spell that?
+translate ¦ Tengo veinte años. ¦ I am twenty years old. ¦ Ich bin zwanzig Jahre alt. ¦ Ich bin zwanzig. / Ich bin 20 Jahre alt.
+translate ¦ ¿Cuál es tu dirección? ¦ What is your address? ¦ Wie ist deine Adresse? ¦ Was ist deine Adresse?
+match ¦ zwölf=doce=twelve; dreißig=treinta=thirty; hundert=cien=a hundred; tausend=mil=a thousand; elf=once=eleven
+listen ¦ Ich bin einundzwanzig Jahre alt. ¦ Ich bin zwölf Jahre alt. / Ich bin zweiundzwanzig Jahre alt. / Ich bin einunddreißig Jahre alt.
+
+=== 4
+title: Meine Familie ¦ Mi familia ¦ My family
+desc: La familia, los posesivos y el estado civil ¦ The family, possessives and marital status
+gram: posesivos: mein, dein, sein, ihr, unser, euer, Ihr ¦ mein / meine ¦ el plural de algunos sustantivos ¦ verheiratet, ledig, geschieden
+gram_en: possessives: mein, dein, sein, ihr, unser, euer, Ihr ¦ mein / meine ¦ the plural of some nouns ¦ verheiratet, ledig, geschieden
+ref: a1-familie
+words: die Familie, die Mutter, der Vater, die Eltern, der Bruder, die Schwester, die Geschwister, der Sohn, die Tochter, das Kind, die Großeltern, die Großmutter, der Großvater, die Oma, der Opa, der Mann, die Frau, mein, dein, unser, euer, verheiratet, ledig, der Familienstand, die Ehefrau, der Ehemann, der Freund, die Freundin, lieb
+intro:
+<h3>Los posesivos</h3>
+<table><tr><td>ich → <strong>mein</strong></td><td>wir → <strong>unser</strong></td></tr>
+<tr><td>du → <strong>dein</strong></td><td>ihr → <strong>euer</strong></td></tr>
+<tr><td>er / es → <strong>sein</strong> · sie → <strong>ihr</strong></td><td>sie → <strong>ihr</strong> · Sie → <strong>Ihr</strong></td></tr></table>
+<p>Llevan <b>-e</b> con palabras femeninas y en plural: <i>mein Vater</i>, <i>mein<b>e</b> Mutter</i>, <i>mein<b>e</b> Eltern</i>, <i>mein Kind</i>.</p>
+<div class="example">Das ist <b>mein</b> Bruder. Er heißt Jonas. <b>Seine</b> Frau heißt Mia.<br>Das ist <b>meine</b> Schwester. <b>Ihr</b> Mann kommt aus Polen.</div>
+<h3>El plural</h3>
+<p>El plural tiene varias formas y conviene aprenderlo con cada palabra. El artículo plural es siempre <b>die</b>: <i>der Bruder → die Br<b>ü</b>der, die Schwester → die Schwester<b>n</b>, das Kind → die Kind<b>er</b>, der Sohn → die S<b>ö</b>hn<b>e</b></i>.</p>
+<h3>Estado civil</h3>
+<p>Ich bin <b>ledig</b> (soltero) / <b>verheiratet</b> (casado) / <b>geschieden</b> (divorciado). <i>Ich habe zwei Kinder.</i></p>
+<div class="tip"><b>sein</b> = su (de él) y <b>ihr</b> = su (de ella / de ellos). Hay que fijarse en el poseedor: <i>Peter und <b>seine</b> Mutter, Anna und <b>ihre</b> Mutter</i>.</div>
+intro_en:
+<h3>Possessives</h3>
+<table><tr><td>ich → <strong>mein</strong></td><td>wir → <strong>unser</strong></td></tr>
+<tr><td>du → <strong>dein</strong></td><td>ihr → <strong>euer</strong></td></tr>
+<tr><td>er / es → <strong>sein</strong> · sie → <strong>ihr</strong></td><td>sie → <strong>ihr</strong> · Sie → <strong>Ihr</strong></td></tr></table>
+<p>They take <b>-e</b> with feminine words and in the plural: <i>mein Vater</i>, <i>mein<b>e</b> Mutter</i>, <i>mein<b>e</b> Eltern</i>, <i>mein Kind</i>.</p>
+<div class="example">Das ist <b>mein</b> Bruder. Er heißt Jonas. <b>Seine</b> Frau heißt Mia.<br>Das ist <b>meine</b> Schwester. <b>Ihr</b> Mann kommt aus Polen.</div>
+<h3>The plural</h3>
+<p>Plurals have several forms and are best learnt with each word. The plural article is always <b>die</b>: <i>der Bruder → die Br<b>ü</b>der, die Schwester → die Schwester<b>n</b>, das Kind → die Kind<b>er</b>, der Sohn → die S<b>ö</b>hn<b>e</b></i>.</p>
+<h3>Marital status</h3>
+<p>Ich bin <b>ledig</b> (single) / <b>verheiratet</b> (married) / <b>geschieden</b> (divorced). <i>Ich habe zwei Kinder.</i></p>
+<div class="tip"><b>sein</b> = his and <b>ihr</b> = her / their, as in English: <i>Peter und <b>seine</b> Mutter, Anna und <b>ihre</b> Mutter</i>.</div>
+ex:
+fill ¦ Das ist ___ Mutter. ¦ meine ¦ mein / meinen / meiner ¦ Esta es mi madre. ¦ This is my mother. ¦ Mutter es femenino: meine. ¦ Mutter is feminine: meine.
+fill ¦ Das ist ___ Vater. ¦ mein ¦ meine / meinen / meines ¦ Este es mi padre. ¦ This is my father. ¦ Vater es masculino: mein. ¦ Vater is masculine: mein.
+fill ¦ Peter und ___ Schwester wohnen in Köln. ¦ seine ¦ ihre / sein / ihr ¦ Peter y su hermana viven en Colonia. ¦ Peter and his sister live in Cologne. ¦ De él: sein / seine. ¦ His: sein / seine.
+fill ¦ Anna und ___ Bruder spielen Tennis. ¦ ihr ¦ sein / ihre / seine ¦ Anna y su hermano juegan al tenis. ¦ Anna and her brother play tennis. ¦ De ella: ihr. ¦ Her: ihr.
+fill ¦ Wie heißen ___ Kinder, Frau Klein? ¦ Ihre ¦ ihre / deine / Ihr ¦ ¿Cómo se llaman sus hijos, señora Klein? ¦ What are your children called, Mrs Klein? ¦ Formal: Ihre (con mayúscula). ¦ Formal: Ihre (capital letter).
+fill ¦ Ich habe zwei ___. ¦ Kinder ¦ Kind / Kinden / Kinds ¦ Tengo dos hijos. ¦ I have two children. ¦ das Kind → die Kinder ¦ das Kind → die Kinder
+choose ¦ ¿Cuál es el plural de «der Bruder»? ¦ What is the plural of «der Bruder»? ¦ die Brüder ¦ die Brudern / die Bruders / der Brüder
+choose ¦ Estás casado. ¿Qué dices? ¦ You are married. What do you say? ¦ Ich bin verheiratet. ¦ Ich bin ledig. / Ich habe verheiratet. / Ich bin geschieden.
+order ¦ Meine Eltern wohnen in Bremen ¦ Mis padres viven en Bremen. ¦ My parents live in Bremen.
+order ¦ Hast du Geschwister ¦ ¿Tienes hermanos? ¦ Do you have any brothers or sisters?
+translate ¦ Mi hermana tiene un hijo. ¦ My sister has a son. ¦ Meine Schwester hat einen Sohn. ¦ Meine Schwester hat ein Kind.
+translate ¦ Nuestra abuela tiene ochenta años. ¦ Our grandmother is eighty. ¦ Unsere Großmutter ist achtzig. ¦ Unsere Oma ist achtzig. / Unsere Großmutter ist achtzig Jahre alt.
+match ¦ die Mutter=la madre=mother; der Sohn=el hijo=son; die Tochter=la hija=daughter; die Eltern=los padres=parents; die Großeltern=los abuelos=grandparents
+listen ¦ Das ist meine Tochter. ¦ Das ist meine Mutter. / Das ist mein Sohn. / Das ist meine Schwester.
+
+=== 5
+title: Was ist das? ¦ ¿Qué es esto? ¦ What is this?
+desc: Objetos de clase y de casa; el artículo y el género; kein ¦ Classroom and household objects; articles and gender; kein
+gram: der, die, das: los tres géneros ¦ ein, eine (artículo indeterminado) ¦ kein, keine (negación del sustantivo) ¦ los pronombres er, sie, es para cosas
+gram_en: der, die, das: the three genders ¦ ein, eine (indefinite article) ¦ kein, keine (negating a noun) ¦ the pronouns er, sie, es for things
+ref: a1-artikel
+words: der, die, das, ein, kein, das Buch, der Tisch, der Stuhl, die Lampe, das Fenster, die Tür, der Kugelschreiber, der Bleistift, das Heft, das Handy, der Computer, die Uhr, die Tasche, das Papier, das Wort, der Schlüssel, das Foto, das Bild, die Brille, was, neu, alt, groß, klein, teuer, billig
+intro:
+<h3>Tres géneros: der, die, das</h3>
+<table><tr><td><strong>der</strong> (masculino)</td><td>der Tisch, der Stuhl, der Computer</td></tr>
+<tr><td><strong>die</strong> (femenino)</td><td>die Lampe, die Tür, die Uhr</td></tr>
+<tr><td><strong>das</strong> (neutro)</td><td>das Buch, das Fenster, das Handy</td></tr>
+<tr><td><strong>die</strong> (plural)</td><td>die Tische, die Lampen, die Bücher</td></tr></table>
+<p>El género casi nunca coincide con el español: <i>der Tisch</i> (la mesa), <i>die Tür</i> (la puerta), <i>das Mädchen</i> (la chica). Apréndelo siempre con el artículo.</p>
+<h3>ein / eine y kein / keine</h3>
+<table><tr><td>der → <strong>ein</strong> Stuhl</td><td>→ <strong>kein</strong> Stuhl</td></tr>
+<tr><td>die → <strong>eine</strong> Lampe</td><td>→ <strong>keine</strong> Lampe</td></tr>
+<tr><td>das → <strong>ein</strong> Buch</td><td>→ <strong>kein</strong> Buch</td></tr>
+<tr><td>plural → Bücher (sin artículo)</td><td>→ <strong>keine</strong> Bücher</td></tr></table>
+<div class="example">Was ist das? — Das ist <b>ein</b> Kuli. — Ist das ein Bleistift? — Nein, das ist <b>kein</b> Bleistift, das ist ein Kuli.</div>
+<h3>Pronombres para cosas</h3>
+<p>Las cosas también son er, sie, es según su artículo: <i>Der Tisch ist neu. <b>Er</b> ist groß. Die Lampe ist alt. <b>Sie</b> ist schön.</i></p>
+<div class="tip">Pistas: son <b>die</b> casi todas las palabras en -ung, -heit, -keit, -ion, -e (die Zeitung, die Lampe); son <b>das</b> las palabras en -chen (das Mädchen) y la mayoría en -um (das Zentrum).</div>
+intro_en:
+<h3>Three genders: der, die, das</h3>
+<table><tr><td><strong>der</strong> (masculine)</td><td>der Tisch, der Stuhl, der Computer</td></tr>
+<tr><td><strong>die</strong> (feminine)</td><td>die Lampe, die Tür, die Uhr</td></tr>
+<tr><td><strong>das</strong> (neuter)</td><td>das Buch, das Fenster, das Handy</td></tr>
+<tr><td><strong>die</strong> (plural)</td><td>die Tische, die Lampen, die Bücher</td></tr></table>
+<p>Gender is grammatical, not natural: <i>der Tisch</i> (the table), <i>die Tür</i> (the door), <i>das Mädchen</i> (the girl). Always learn a noun with its article.</p>
+<h3>ein / eine and kein / keine</h3>
+<table><tr><td>der → <strong>ein</strong> Stuhl</td><td>→ <strong>kein</strong> Stuhl</td></tr>
+<tr><td>die → <strong>eine</strong> Lampe</td><td>→ <strong>keine</strong> Lampe</td></tr>
+<tr><td>das → <strong>ein</strong> Buch</td><td>→ <strong>kein</strong> Buch</td></tr>
+<tr><td>plural → Bücher (no article)</td><td>→ <strong>keine</strong> Bücher</td></tr></table>
+<div class="example">Was ist das? — Das ist <b>ein</b> Kuli. — Ist das ein Bleistift? — Nein, das ist <b>kein</b> Bleistift, das ist ein Kuli.</div>
+<h3>Pronouns for things</h3>
+<p>Things are also er, sie, es according to their article: <i>Der Tisch ist neu. <b>Er</b> ist groß. Die Lampe ist alt. <b>Sie</b> ist schön.</i> (English uses "it" for all of them.)</p>
+<div class="tip">Clues: words ending in -ung, -heit, -keit, -ion and most in -e are <b>die</b> (die Zeitung, die Lampe); words in -chen are <b>das</b> (das Mädchen), and most in -um (das Zentrum).</div>
+ex:
+fill ¦ Das ist ___ Tisch. ¦ ein ¦ eine / einen / kein ¦ Esto es una mesa. ¦ This is a table. ¦ der Tisch → ein Tisch ¦ der Tisch → ein Tisch
+fill ¦ Das ist ___ Lampe. ¦ eine ¦ ein / einen / einer ¦ Esto es una lámpara. ¦ This is a lamp. ¦ die Lampe → eine Lampe ¦ die Lampe → eine Lampe
+fill ¦ Nein, das ist ___ Buch, das ist ein Heft. ¦ kein ¦ keine / nicht / ein ¦ No, esto no es un libro, es un cuaderno. ¦ No, this isn't a book, it's an exercise book. ¦ das Buch → kein Buch ¦ das Buch → kein Buch
+fill ¦ Ich habe ___ Fotos. ¦ keine ¦ kein / nicht / keinen ¦ No tengo fotos. ¦ I don't have any photos. ¦ Plural: keine. ¦ Plural: keine.
+fill ¦ Die Uhr ist neu. ___ ist sehr schön. ¦ Sie ¦ Er / Es / Ihr ¦ El reloj es nuevo. Es muy bonito. ¦ The clock is new. It's very nice. ¦ die Uhr → sie ¦ die Uhr → sie
+fill ¦ ___ Fenster ist groß. ¦ Das ¦ Der / Die / Den ¦ La ventana es grande. ¦ The window is big. ¦ das Fenster ¦ das Fenster
+choose ¦ ¿Cuál es el artículo de «Handy»? ¦ What is the article of «Handy»? ¦ das ¦ der / die / den
+choose ¦ ¿Cuál es el artículo de «Tür»? ¦ What is the article of «Tür»? ¦ die ¦ der / das / den
+order ¦ Ist das ein Kugelschreiber ¦ ¿Es esto un bolígrafo? ¦ Is this a ballpoint pen?
+order ¦ Der Computer ist neu und teuer ¦ El ordenador es nuevo y caro. ¦ The computer is new and expensive.
+translate ¦ La puerta es vieja. ¦ The door is old. ¦ Die Tür ist alt. ¦ Die Tür ist alt
+translate ¦ No es un lápiz. ¦ It isn't a pencil. ¦ Das ist kein Bleistift. ¦ Es ist kein Bleistift.
+match ¦ der Stuhl=la silla=chair; die Uhr=el reloj=clock; das Fenster=la ventana=window; die Tür=la puerta=door; der Schlüssel=la llave=key
+listen ¦ Das ist keine Brille. ¦ Das ist eine Brille. / Das ist kein Bild. / Das ist keine Lampe.
+
+=== 6
+title: Essen und Trinken ¦ Comer y beber ¦ Food and drink
+desc: Comidas y bebidas; el acusativo; möchten y mögen; verbos con cambio de vocal ¦ Food and drink; the accusative; möchten and mögen; verbs with a vowel change
+gram: el acusativo: den, einen, keinen ¦ möchten: ich möchte ¦ mögen: ich mag ¦ essen, nehmen: du isst, er nimmt
+gram_en: the accusative: den, einen, keinen ¦ möchten: ich möchte ¦ mögen: ich mag ¦ essen, nehmen: du isst, er nimmt
+ref: a1-akkusativ
+words: essen, trinken, möchten, mögen, nehmen, das Essen, das Getränk, das Wasser, der Kaffee, der Tee, die Milch, der Saft, das Bier, der Wein, das Brot, das Brötchen, die Butter, der Käse, die Wurst, das Ei, das Fleisch, der Fisch, das Gemüse, das Obst, der Apfel, die Banane, die Kartoffel, der Salat, der Kuchen, das Frühstück, das Mittagessen, das Abendessen, der Hunger, der Durst, lecker
+intro:
+<h3>El acusativo: el complemento directo</h3>
+<p>Lo que se come, se bebe, se quiere o se tiene va en <b>acusativo</b>. Solo cambia el <b>masculino</b>:</p>
+<table><tr><td>der Kaffee → Ich trinke <strong>den</strong> Kaffee.</td><td>ein → Ich nehme <strong>einen</strong> Apfel.</td></tr>
+<tr><td>die Milch → die Milch</td><td>eine → eine Banane</td></tr>
+<tr><td>das Brot → das Brot</td><td>ein → ein Brötchen</td></tr>
+<tr><td>plural → die Äpfel</td><td>— → Äpfel · kein → <strong>keinen</strong> / keine</td></tr></table>
+<h3>möchten y mögen</h3>
+<table><tr><td>ich / er <strong>möchte</strong> · du <strong>möchtest</strong> · wir / sie <strong>möchten</strong></td><td>querría (para pedir con cortesía)</td></tr>
+<tr><td>ich / er <strong>mag</strong> · du <strong>magst</strong> · wir / sie <strong>mögen</strong></td><td>me gusta (en general)</td></tr></table>
+<div class="example">Ich <b>möchte einen</b> Kaffee, bitte. · Ich <b>mag</b> keinen Fisch. · <b>Magst</b> du Käse?</div>
+<h3>Verbos con cambio de vocal</h3>
+<p><b>essen</b>: ich esse, du <b>isst</b>, er <b>isst</b> · <b>nehmen</b>: ich nehme, du <b>nimmst</b>, er <b>nimmt</b>. Solo cambian du y er / sie / es.</p>
+<div class="tip">Con <b>gern</b>: <i>Ich trinke <b>gern</b> Tee</i> = me gusta beber té.</div>
+intro_en:
+<h3>The accusative: the direct object</h3>
+<p>What you eat, drink, want or have is in the <b>accusative</b>. Only the <b>masculine</b> changes:</p>
+<table><tr><td>der Kaffee → Ich trinke <strong>den</strong> Kaffee.</td><td>ein → Ich nehme <strong>einen</strong> Apfel.</td></tr>
+<tr><td>die Milch → die Milch</td><td>eine → eine Banane</td></tr>
+<tr><td>das Brot → das Brot</td><td>ein → ein Brötchen</td></tr>
+<tr><td>plural → die Äpfel</td><td>— → Äpfel · kein → <strong>keinen</strong> / keine</td></tr></table>
+<h3>möchten and mögen</h3>
+<table><tr><td>ich / er <strong>möchte</strong> · du <strong>möchtest</strong> · wir / sie <strong>möchten</strong></td><td>would like (polite requests)</td></tr>
+<tr><td>ich / er <strong>mag</strong> · du <strong>magst</strong> · wir / sie <strong>mögen</strong></td><td>like (in general)</td></tr></table>
+<div class="example">Ich <b>möchte einen</b> Kaffee, bitte. · Ich <b>mag</b> keinen Fisch. · <b>Magst</b> du Käse?</div>
+<h3>Verbs with a vowel change</h3>
+<p><b>essen</b>: ich esse, du <b>isst</b>, er <b>isst</b> · <b>nehmen</b>: ich nehme, du <b>nimmst</b>, er <b>nimmt</b>. Only du and er / sie / es change.</p>
+<div class="tip">With <b>gern</b>: <i>Ich trinke <b>gern</b> Tee</i> = I like drinking tea.</div>
+ex:
+fill ¦ Ich möchte ___ Kaffee, bitte. ¦ einen ¦ ein / eine / einer ¦ Querría un café, por favor. ¦ I'd like a coffee, please. ¦ der Kaffee → einen Kaffee (acusativo) ¦ der Kaffee → einen Kaffee (accusative)
+fill ¦ Wir nehmen ___ Salat. ¦ den ¦ der / dem / die ¦ Tomamos la ensalada. ¦ We'll have the salad. ¦ der Salat → den Salat ¦ der Salat → den Salat
+fill ¦ Er ___ gern Fisch. ¦ isst ¦ esst / esse / essen ¦ Le gusta comer pescado. ¦ He likes eating fish. ¦ essen → er isst ¦ essen → er isst
+fill ¦ Was ___ du? Die Pizza oder die Pasta? ¦ nimmst ¦ nehmst / nimmt / nehme ¦ ¿Qué tomas? ¿La pizza o la pasta? ¦ What are you having? The pizza or the pasta? ¦ nehmen → du nimmst ¦ nehmen → du nimmst
+fill ¦ Ich mag ___ Käse. ¦ keinen ¦ kein / keine / nicht ¦ No me gusta el queso. ¦ I don't like cheese. ¦ der Käse → keinen Käse ¦ der Käse → keinen Käse
+fill ¦ ___ du Tee oder Kaffee? ¦ Möchtest ¦ Möchte / Möchten / Mag ¦ ¿Quieres té o café? ¦ Would you like tea or coffee? ¦ du möchtest ¦ du möchtest
+choose ¦ En la cafetería pides con cortesía. ¦ You order politely in a café. ¦ Ich möchte ein Wasser, bitte. ¦ Ich mag ein Wasser. / Ich will Wasser! / Wasser ich möchte.
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Ich esse einen Apfel. ¦ Ich esse ein Apfel. / Ich esse einer Apfel. / Ich isst einen Apfel.
+order ¦ Zum Frühstück esse ich ein Brötchen ¦ En el desayuno como un panecillo. ¦ For breakfast I eat a bread roll.
+order ¦ Ich habe Hunger und Durst ¦ Tengo hambre y sed. ¦ I'm hungry and thirsty.
+translate ¦ Quiero una cerveza, por favor. ¦ I'd like a beer, please. ¦ Ich möchte ein Bier, bitte. ¦ Ich möchte bitte ein Bier.
+translate ¦ No me gusta la leche. ¦ I don't like milk. ¦ Ich mag keine Milch. ¦ Ich mag Milch nicht.
+match ¦ das Brot=el pan=bread; der Käse=el queso=cheese; das Ei=el huevo=egg; der Saft=el zumo=juice; das Obst=la fruta=fruit
+listen ¦ Ich nehme einen Tee mit Milch. ¦ Ich nehme einen Kaffee mit Milch. / Ich trinke einen Tee mit Zucker. / Ich nehme keinen Tee mit Milch.
+
+=== 7
+title: Einkaufen ¦ De compras ¦ Shopping
+desc: En el supermercado y en el mercado: precios, cantidades y envases ¦ At the supermarket and the market: prices, quantities and packaging
+gram: Was kostet…? / Wie viel kostet…? ¦ cantidades sin «de»: ein Kilo Äpfel ¦ el acusativo plural ¦ brauchen + acusativo
+gram_en: Was kostet…? / Wie viel kostet…? ¦ quantities without "of": ein Kilo Äpfel ¦ the accusative plural ¦ brauchen + accusative
+ref: a1-einkaufen
+words: einkaufen, kaufen, kosten, brauchen, bezahlen, zahlen, der Supermarkt, der Markt, das Geschäft, die Bäckerei, der Preis, der Euro, der Cent, das Kilo, das Gramm, der Liter, die Flasche, die Tomate, der Reis, die Nudeln, der Zucker, das Salz, die Lebensmittel, die Kasse, billig, teuer, zusammen, noch, etwas, bar, die Kreditkarte
+intro:
+<h3>Preguntar el precio</h3>
+<div class="example">Was kostet das Brot? — Es kostet 2,50 € (zwei Euro fünfzig).<br>Wie viel kosten die Tomaten? — Ein Kilo kostet 3,20 €.</div>
+<p>Con plural, el verbo va en plural: <i>Die Äpfel <b>kosten</b>…</i></p>
+<h3>Cantidades: sin «de»</h3>
+<table><tr><td>ein Kilo Äpfel</td><td>un kilo de manzanas</td></tr>
+<tr><td>eine Flasche Wasser</td><td>una botella de agua</td></tr>
+<tr><td>200 Gramm Käse</td><td>200 gramos de queso</td></tr>
+<tr><td>ein Liter Milch</td><td>un litro de leche</td></tr></table>
+<h3>brauchen (necesitar) + acusativo</h3>
+<div class="example">Ich <b>brauche</b> noch <b>einen</b> Liter Milch und Eier. — Brauchst du auch Brot? — Nein, wir haben noch Brot.</div>
+<h3>En la caja</h3>
+<p><i>Das macht zusammen 12,40 €. — Kann ich mit Karte zahlen? — Ja, natürlich. / Nur bar, bitte.</i></p>
+<div class="tip">Los precios se dicen así: 4,99 € = <b>vier Euro neunundneunzig</b>; 0,80 € = <b>achtzig Cent</b>. En alemán la coma separa los decimales.</div>
+intro_en:
+<h3>Asking the price</h3>
+<div class="example">Was kostet das Brot? — Es kostet 2,50 € (zwei Euro fünfzig).<br>Wie viel kosten die Tomaten? — Ein Kilo kostet 3,20 €.</div>
+<p>With a plural subject the verb is plural: <i>Die Äpfel <b>kosten</b>…</i></p>
+<h3>Quantities: no "of"</h3>
+<table><tr><td>ein Kilo Äpfel</td><td>a kilo of apples</td></tr>
+<tr><td>eine Flasche Wasser</td><td>a bottle of water</td></tr>
+<tr><td>200 Gramm Käse</td><td>200 grams of cheese</td></tr>
+<tr><td>ein Liter Milch</td><td>a litre of milk</td></tr></table>
+<h3>brauchen (to need) + accusative</h3>
+<div class="example">Ich <b>brauche</b> noch <b>einen</b> Liter Milch und Eier. — Brauchst du auch Brot? — Nein, wir haben noch Brot.</div>
+<h3>At the till</h3>
+<p><i>Das macht zusammen 12,40 €. — Kann ich mit Karte zahlen? — Ja, natürlich. / Nur bar, bitte.</i></p>
+<div class="tip">Prices are said like this: 4,99 € = <b>vier Euro neunundneunzig</b>; 0,80 € = <b>achtzig Cent</b>. German uses a comma as the decimal point.</div>
+ex:
+fill ¦ Was ___ der Käse? ¦ kostet ¦ kosten / koste / kostest ¦ ¿Cuánto cuesta el queso? ¦ How much is the cheese? ¦ Un objeto: kostet. ¦ One thing: kostet.
+fill ¦ Die Tomaten ___ drei Euro. ¦ kosten ¦ kostet / koste / kostest ¦ Los tomates cuestan tres euros. ¦ The tomatoes cost three euros. ¦ Plural: kosten. ¦ Plural: kosten.
+fill ¦ Ich brauche ein Kilo ___. ¦ Kartoffeln ¦ von Kartoffeln / Kartoffel / der Kartoffeln ¦ Necesito un kilo de patatas. ¦ I need a kilo of potatoes. ¦ Sin «de»: ein Kilo Kartoffeln. ¦ No "of": ein Kilo Kartoffeln.
+fill ¦ Wir brauchen noch ___ Liter Milch. ¦ einen ¦ ein / eine / einem ¦ Necesitamos un litro más de leche. ¦ We need another litre of milk. ¦ der Liter → einen Liter ¦ der Liter → einen Liter
+fill ¦ Kann ich mit ___ zahlen? ¦ Karte ¦ Kasse / Preis / Geld ¦ ¿Puedo pagar con tarjeta? ¦ Can I pay by card? ¦ mit Karte zahlen ¦ mit Karte zahlen
+choose ¦ ¿Cómo se dice 3,50 €? ¦ How do you say 3,50 €? ¦ drei Euro fünfzig ¦ drei Komma fünfzig Cent / fünfzig drei Euro / drei Euro und fünf
+choose ¦ Quieres agua. ¿Qué pides? ¦ You want water. What do you ask for? ¦ Eine Flasche Wasser, bitte. ¦ Eine Flasche von Wasser, bitte. / Ein Wasser Flasche, bitte. / Eine Wasser Flasche, bitte.
+order ¦ Das macht zusammen zwölf Euro ¦ Son doce euros en total. ¦ That comes to twelve euros altogether.
+order ¦ Ich kaufe heute im Supermarkt ein ¦ Hoy hago la compra en el supermercado. ¦ Today I'm doing the shopping at the supermarket.
+translate ¦ ¿Cuánto cuestan las manzanas? ¦ How much are the apples? ¦ Wie viel kosten die Äpfel? ¦ Was kosten die Äpfel?
+translate ¦ Necesito pan y leche. ¦ I need bread and milk. ¦ Ich brauche Brot und Milch. ¦ Ich brauche Milch und Brot.
+match ¦ billig=barato=cheap; teuer=caro=expensive; die Kasse=la caja=till; die Flasche=la botella=bottle; der Preis=el precio=price
+listen ¦ Ein Kilo Äpfel kostet zwei Euro. ¦ Ein Kilo Birnen kostet zwei Euro. / Ein Kilo Äpfel kostet drei Euro. / Zwei Kilo Äpfel kosten zwei Euro.
+
+=== 8
+title: Mein Tag ¦ Mi día ¦ My day
+desc: La hora, la rutina diaria y los verbos separables ¦ Telling the time, daily routine and separable verbs
+gram: la hora: Wie spät ist es? ¦ um, von … bis ¦ verbos separables: ich stehe um 7 Uhr auf ¦ el verbo en 2.ª posición con expresiones de tiempo
+gram_en: telling the time: Wie spät ist es? ¦ um, von … bis ¦ separable verbs: ich stehe um 7 Uhr auf ¦ the verb in second position after time expressions
+ref: a1-trennbar
+words: die Uhr, die Uhrzeit, die Stunde, die Minute, halb, das Viertel, um, aufstehen, frühstücken, anfangen, einkaufen, anrufen, fernsehen, schlafen, arbeiten, kochen, der Morgen, der Vormittag, der Mittag, der Nachmittag, der Abend, die Nacht, morgens, abends, früh, spät, dann, danach, zuerst, immer, oft, manchmal
+intro:
+<h3>¿Qué hora es? — Wie spät ist es? / Wie viel Uhr ist es?</h3>
+<table><tr><td>8:00</td><td>Es ist acht (Uhr).</td></tr>
+<tr><td>8:15</td><td>Es ist Viertel nach acht.</td></tr>
+<tr><td>8:30</td><td>Es ist <b>halb neun</b>. (¡media hora hacia las nueve!)</td></tr>
+<tr><td>8:45</td><td>Es ist Viertel vor neun.</td></tr>
+<tr><td>8:10 / 8:50</td><td>zehn nach acht / zehn vor neun</td></tr></table>
+<div class="warning"><b>halb neun</b> son las 8:30, no las 9:30. En horarios oficiales: <i>20:30 Uhr = zwanzig Uhr dreißig</i>.</div>
+<h3>Verbos separables</h3>
+<p>Muchos verbos tienen un prefijo (auf-, an-, ein-, fern-…) que va <b>al final</b> de la frase:</p>
+<div class="example">auf|stehen → Ich <b>stehe</b> um sieben Uhr <b>auf</b>.<br>ein|kaufen → Am Samstag <b>kaufe</b> ich <b>ein</b>.<br>fern|sehen → Abends <b>sehe</b> ich <b>fern</b>.</div>
+<h3>Tiempo al principio: el verbo sigue en 2.ª posición</h3>
+<p><i><b>Um acht Uhr</b> frühstücke ich. <b>Dann</b> fahre ich zur Arbeit.</i> El sujeto pasa detrás del verbo.</p>
+<div class="tip">Con hora: <b>um</b> 7 Uhr · intervalo: <b>von</b> 9 <b>bis</b> 17 Uhr · partes del día: <b>am</b> Morgen, <b>am</b> Abend, pero <b>in der</b> Nacht.</div>
+intro_en:
+<h3>What time is it? — Wie spät ist es? / Wie viel Uhr ist es?</h3>
+<table><tr><td>8:00</td><td>Es ist acht (Uhr).</td></tr>
+<tr><td>8:15</td><td>Es ist Viertel nach acht.</td></tr>
+<tr><td>8:30</td><td>Es ist <b>halb neun</b>. (half an hour towards nine!)</td></tr>
+<tr><td>8:45</td><td>Es ist Viertel vor neun.</td></tr>
+<tr><td>8:10 / 8:50</td><td>zehn nach acht / zehn vor neun</td></tr></table>
+<div class="warning"><b>halb neun</b> is 8:30, not 9:30. In official times: <i>20:30 Uhr = zwanzig Uhr dreißig</i>.</div>
+<h3>Separable verbs</h3>
+<p>Many verbs have a prefix (auf-, an-, ein-, fern-…) that goes to the <b>end</b> of the sentence, a bit like English phrasal verbs (get <b>up</b>):</p>
+<div class="example">auf|stehen → Ich <b>stehe</b> um sieben Uhr <b>auf</b>.<br>ein|kaufen → Am Samstag <b>kaufe</b> ich <b>ein</b>.<br>fern|sehen → Abends <b>sehe</b> ich <b>fern</b>.</div>
+<h3>Time first: the verb stays in second position</h3>
+<p><i><b>Um acht Uhr</b> frühstücke ich. <b>Dann</b> fahre ich zur Arbeit.</i> The subject moves behind the verb.</p>
+<div class="tip">With a clock time: <b>um</b> 7 Uhr · a period: <b>von</b> 9 <b>bis</b> 17 Uhr · parts of the day: <b>am</b> Morgen, <b>am</b> Abend, but <b>in der</b> Nacht.</div>
+ex:
+fill ¦ Ich stehe um sechs Uhr ___. ¦ auf ¦ an / ein / ab ¦ Me levanto a las seis. ¦ I get up at six. ¦ auf|stehen ¦ auf|stehen
+fill ¦ Am Abend sehe ich ___. ¦ fern ¦ an / auf / zu ¦ Por la noche veo la tele. ¦ In the evening I watch TV. ¦ fern|sehen ¦ fern|sehen
+fill ¦ Der Kurs fängt um neun Uhr ___. ¦ an ¦ auf / ein / mit ¦ El curso empieza a las nueve. ¦ The course starts at nine. ¦ an|fangen ¦ an|fangen
+fill ¦ ___ acht Uhr frühstücke ich. ¦ Um ¦ Am / Im / Von ¦ A las ocho desayuno. ¦ At eight I have breakfast. ¦ um + hora ¦ um + clock time
+fill ¦ Dann ___ ich zur Arbeit. ¦ fahre ¦ ich fahre / fahren / fährt ¦ Luego voy al trabajo. ¦ Then I go to work. ¦ Verbo en 2.ª posición. ¦ Verb in second position.
+fill ¦ Es ist halb ___. (7:30) ¦ acht ¦ sieben / neun / sechs ¦ Son las siete y media. ¦ It's half past seven. ¦ halb acht = 7:30 ¦ halb acht = 7:30
+choose ¦ Son las 9:45. ¦ It's 9:45. ¦ Es ist Viertel vor zehn. ¦ Es ist Viertel nach neun. / Es ist halb zehn. / Es ist Viertel vor neun.
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Ich rufe meine Mutter an. ¦ Ich anrufe meine Mutter. / Ich rufe an meine Mutter. / Ich meine Mutter anrufe.
+order ¦ Am Samstag kaufe ich im Supermarkt ein ¦ El sábado hago la compra en el supermercado. ¦ On Saturday I do the shopping at the supermarket.
+order ¦ Ich arbeite von neun bis fünf Uhr ¦ Trabajo de nueve a cinco. ¦ I work from nine to five.
+translate ¦ ¿Qué hora es? ¦ What time is it? ¦ Wie spät ist es? ¦ Wie viel Uhr ist es?
+translate ¦ Me levanto temprano. ¦ I get up early. ¦ Ich stehe früh auf. ¦ Ich stehe früh auf
+match ¦ morgens=por las mañanas=in the mornings; abends=por las tardes=in the evenings; früh=temprano=early; spät=tarde=late; oft=a menudo=often
+listen ¦ Ich stehe um halb sieben auf. ¦ Ich stehe um halb acht auf. / Ich stehe um sieben auf. / Ich gehe um halb sieben aus.
+
+=== 9
+title: Freizeit und Hobbys ¦ Tiempo libre y aficiones ¦ Free time and hobbies
+desc: Hablar de aficiones; gern, lieber, am liebsten; más verbos con cambio de vocal ¦ Talking about hobbies; gern, lieber, am liebsten; more verbs with a vowel change
+gram: gern, lieber, am liebsten ¦ verbos con a → ä: fahren, schlafen, laufen ¦ verbos con e → i / ie: lesen, sehen, sprechen ¦ la negación con nicht
+gram_en: gern, lieber, am liebsten ¦ verbs with a → ä: fahren, schlafen, laufen ¦ verbs with e → i / ie: lesen, sehen, sprechen ¦ negation with nicht
+ref: a1-gern
+words: die Freizeit, das Hobby, spielen, gern, lieber, Fußball, der Sport, schwimmen, tanzen, lesen, sehen, fahren, Rad fahren, laufen, wandern, joggen, singen, malen, fotografieren, die Musik, das Kino, der Film, das Konzert, das Theater, treffen, der Freund, nicht, nie, toll, langweilig, interessant
+intro:
+<h3>gern – lieber – am liebsten</h3>
+<table><tr><td>Ich spiele <strong>gern</strong> Tennis.</td><td>Me gusta jugar al tenis.</td></tr>
+<tr><td>Ich spiele <strong>lieber</strong> Fußball.</td><td>Prefiero jugar al fútbol.</td></tr>
+<tr><td>Ich schwimme <strong>am liebsten</strong>.</td><td>Lo que más me gusta es nadar.</td></tr></table>
+<p>Negación: <i>Ich tanze <b>nicht gern</b>.</i></p>
+<h3>Verbos con cambio de vocal (du, er / sie / es)</h3>
+<table><tr><td>a → ä</td><td>fahren → du f<b>ä</b>hrst, er f<b>ä</b>hrt · schlafen → er schl<b>ä</b>ft · laufen → er l<b>äu</b>ft</td></tr>
+<tr><td>e → i</td><td>sprechen → er spr<b>i</b>cht · treffen → er tr<b>i</b>fft · geben → er g<b>i</b>bt</td></tr>
+<tr><td>e → ie</td><td>lesen → du l<b>ie</b>st, er l<b>ie</b>st · sehen → er s<b>ie</b>ht</td></tr></table>
+<div class="example">Liest du gern? — Ja, ich lese sehr gern Krimis. — Und dein Bruder? — Er sieht lieber Filme.</div>
+<h3>nicht</h3>
+<p><b>nicht</b> niega el verbo o un adjetivo; <b>kein</b> niega un sustantivo con ein o sin artículo: <i>Ich spiele <b>nicht</b> gern Gitarre. Ich habe <b>keine</b> Gitarre.</i></p>
+<div class="tip">Los deportes con <b>spielen</b>: Fußball, Tennis, Basketball spielen. Con <b>fahren</b>: Rad fahren, Ski fahren.</div>
+intro_en:
+<h3>gern – lieber – am liebsten</h3>
+<table><tr><td>Ich spiele <strong>gern</strong> Tennis.</td><td>I like playing tennis.</td></tr>
+<tr><td>Ich spiele <strong>lieber</strong> Fußball.</td><td>I prefer playing football.</td></tr>
+<tr><td>Ich schwimme <strong>am liebsten</strong>.</td><td>Swimming is what I like most.</td></tr></table>
+<p>Negative: <i>Ich tanze <b>nicht gern</b>.</i> (I don't like dancing.)</p>
+<h3>Verbs with a vowel change (du, er / sie / es)</h3>
+<table><tr><td>a → ä</td><td>fahren → du f<b>ä</b>hrst, er f<b>ä</b>hrt · schlafen → er schl<b>ä</b>ft · laufen → er l<b>äu</b>ft</td></tr>
+<tr><td>e → i</td><td>sprechen → er spr<b>i</b>cht · treffen → er tr<b>i</b>fft · geben → er g<b>i</b>bt</td></tr>
+<tr><td>e → ie</td><td>lesen → du l<b>ie</b>st, er l<b>ie</b>st · sehen → er s<b>ie</b>ht</td></tr></table>
+<div class="example">Liest du gern? — Ja, ich lese sehr gern Krimis. — Und dein Bruder? — Er sieht lieber Filme.</div>
+<h3>nicht</h3>
+<p><b>nicht</b> negates a verb or an adjective; <b>kein</b> negates a noun with ein or no article: <i>Ich spiele <b>nicht</b> gern Gitarre. Ich habe <b>keine</b> Gitarre.</i></p>
+<div class="tip">Sports with <b>spielen</b>: Fußball, Tennis, Basketball spielen. With <b>fahren</b>: Rad fahren, Ski fahren.</div>
+ex:
+fill ¦ Ich spiele ___ Fußball. ¦ gern ¦ gut / lieber / am liebsten ¦ Me gusta jugar al fútbol. ¦ I like playing football. ¦ gern = con gusto ¦ gern = gladly
+fill ¦ Ich lese gern, aber ich sehe ___ fern. ¦ lieber ¦ gern / liebsten / mehr ¦ Me gusta leer, pero prefiero ver la tele. ¦ I like reading, but I prefer watching TV. ¦ lieber = preferir ¦ lieber = rather
+fill ¦ Mein Bruder ___ jeden Tag Rad. ¦ fährt ¦ fahrt / fahre / fahren ¦ Mi hermano va en bici todos los días. ¦ My brother cycles every day. ¦ fahren → er fährt ¦ fahren → er fährt
+fill ¦ ___ du gern Romane? ¦ Liest ¦ Lest / Lese / Lesen ¦ ¿Te gusta leer novelas? ¦ Do you like reading novels? ¦ lesen → du liest ¦ lesen → du liest
+fill ¦ Sie ___ am Wochenende lange. ¦ schläft ¦ schlaft / schlafe / schlafst ¦ El fin de semana duerme mucho. ¦ At the weekend she sleeps late. ¦ schlafen → sie schläft ¦ schlafen → sie schläft
+fill ¦ Ich tanze ___ gern. ¦ nicht ¦ kein / keine / nichts ¦ No me gusta bailar. ¦ I don't like dancing. ¦ nicht + gern ¦ nicht + gern
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Er trifft heute seine Freunde. ¦ Er treffet heute seine Freunde. / Er treffst heute seine Freunde. / Er trefft heute seine Freunde.
+choose ¦ Lo que más te gusta es nadar. ¦ Swimming is what you like most. ¦ Am liebsten schwimme ich. ¦ Lieber schwimme ich am. / Gern am liebsten schwimme ich. / Ich schwimme gern lieber.
+order ¦ Am Wochenende gehe ich gern ins Kino ¦ El fin de semana me gusta ir al cine. ¦ At the weekend I like going to the cinema.
+order ¦ Was machst du gern in deiner Freizeit ¦ ¿Qué te gusta hacer en tu tiempo libre? ¦ What do you like doing in your free time?
+translate ¦ Me gusta mucho bailar. ¦ I really like dancing. ¦ Ich tanze sehr gern. ¦ Ich tanze sehr gerne.
+translate ¦ ¿Ves la película? ¦ Are you watching the film? ¦ Siehst du den Film? ¦ Siehst du den Film
+match ¦ schwimmen=nadar=to swim; singen=cantar=to sing; malen=pintar=to paint; wandern=hacer senderismo=to hike; tanzen=bailar=to dance
+listen ¦ Am liebsten spiele ich Gitarre. ¦ Am liebsten spiele ich Tennis. / Gern spiele ich Gitarre. / Am liebsten singe ich.
+
+=== 10
+title: Termine ¦ Citas ¦ Appointments
+desc: Días, meses, fechas y citas; los números ordinales ¦ Days, months, dates and appointments; ordinal numbers
+gram: los días de la semana y los meses ¦ am Montag, im Mai, um 10 Uhr ¦ números ordinales: der erste, am ersten ¦ la fecha: Heute ist der 3. Mai
+gram_en: days of the week and months ¦ am Montag, im Mai, um 10 Uhr ¦ ordinal numbers: der erste, am ersten ¦ the date: Heute ist der 3. Mai
+ref: a1-termine
+words: der Termin, der Montag, der Dienstag, der Mittwoch, der Donnerstag, der Freitag, der Samstag, der Sonntag, das Wochenende, die Woche, der Monat, der Januar, der Februar, der März, der April, der Mai, der Juni, der Juli, der August, der September, der Oktober, der November, der Dezember, erste, zweite, dritte, das Datum, der Geburtstag, heute, morgen, gestern, wann, Zeit, frei, leider
+intro:
+<h3>Días y meses</h3>
+<p>Días: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. Meses: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. Todos son <b>masculinos</b> (der).</p>
+<table><tr><td><strong>am</strong> + día / fecha</td><td>am Montag, am Wochenende, am 3. Mai</td></tr>
+<tr><td><strong>im</strong> + mes / estación</td><td>im Mai, im Sommer</td></tr>
+<tr><td><strong>um</strong> + hora</td><td>um 10 Uhr</td></tr></table>
+<h3>Números ordinales</h3>
+<p>1 – 19: número + <b>-te</b> (der vier<b>te</b>, der zehn<b>te</b>). Desde 20: + <b>-ste</b> (der zwanzig<b>ste</b>). Irregulares: <b>erste</b>, <b>dritte</b>, <b>siebte</b>, achte.</p>
+<div class="example">Heute ist <b>der dritte</b> Mai (der 3. Mai). · Mein Geburtstag ist <b>am zwölften</b> Juni (am 12. Juni).</div>
+<h3>Quedar</h3>
+<div class="example">— Hast du am Freitag Zeit? — Am Freitag? Leider nicht. Am Samstag habe ich Zeit.<br>— Ich möchte einen Termin, bitte. — Geht es am Dienstag um 9 Uhr?</div>
+<div class="tip">En la fecha escrita se pone un punto tras el número: <b>3.</b> Mai = dritter Mai.</div>
+intro_en:
+<h3>Days and months</h3>
+<p>Days: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. Months: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. They are all <b>masculine</b> (der).</p>
+<table><tr><td><strong>am</strong> + day / date</td><td>am Montag, am Wochenende, am 3. Mai</td></tr>
+<tr><td><strong>im</strong> + month / season</td><td>im Mai, im Sommer</td></tr>
+<tr><td><strong>um</strong> + clock time</td><td>um 10 Uhr</td></tr></table>
+<h3>Ordinal numbers</h3>
+<p>1 – 19: number + <b>-te</b> (der vier<b>te</b>, der zehn<b>te</b>). From 20: + <b>-ste</b> (der zwanzig<b>ste</b>). Irregular: <b>erste</b>, <b>dritte</b>, <b>siebte</b>, achte.</p>
+<div class="example">Heute ist <b>der dritte</b> Mai (der 3. Mai). · Mein Geburtstag ist <b>am zwölften</b> Juni (am 12. Juni).</div>
+<h3>Making appointments</h3>
+<div class="example">— Hast du am Freitag Zeit? — Am Freitag? Leider nicht. Am Samstag habe ich Zeit.<br>— Ich möchte einen Termin, bitte. — Geht es am Dienstag um 9 Uhr?</div>
+<div class="tip">In written dates a full stop follows the number: <b>3.</b> Mai = the third of May.</div>
+ex:
+fill ¦ Ich habe ___ Montag einen Termin. ¦ am ¦ im / um / an ¦ Tengo una cita el lunes. ¦ I have an appointment on Monday. ¦ am + día ¦ am + day
+fill ¦ ___ Juli fahren wir nach Italien. ¦ Im ¦ Am / Um / In ¦ En julio vamos a Italia. ¦ In July we're going to Italy. ¦ im + mes ¦ im + month
+fill ¦ Der Kurs beginnt ___ neun Uhr. ¦ um ¦ am / im / an ¦ El curso empieza a las nueve. ¦ The course begins at nine. ¦ um + hora ¦ um + clock time
+fill ¦ Heute ist der ___ März. ¦ erste ¦ einte / eins / ersten ¦ Hoy es uno de marzo. ¦ Today is the first of March. ¦ 1. = erste ¦ 1. = erste
+fill ¦ Mein Geburtstag ist am ___ Mai. ¦ dritten ¦ dreiten / drei / dritte ¦ Mi cumpleaños es el tres de mayo. ¦ My birthday is on the third of May. ¦ am + -ten: am dritten ¦ am + -ten: am dritten
+fill ¦ Hast du am Wochenende ___? ¦ Zeit ¦ Uhr / Termin / Tag ¦ ¿Tienes tiempo el fin de semana? ¦ Are you free at the weekend? ¦ Zeit haben = tener tiempo ¦ Zeit haben = to have time
+choose ¦ ¿Qué día va después del miércoles? ¦ Which day comes after Wednesday? ¦ Donnerstag ¦ Dienstag / Freitag / Mittwoch
+choose ¦ 7 de abril ¦ 7th of April ¦ der siebte April ¦ der siebente April / der siebzehnte April / der sieben April
+order ¦ Am Freitag habe ich leider keine Zeit ¦ El viernes, por desgracia, no tengo tiempo. ¦ Unfortunately I don't have time on Friday.
+order ¦ Wann hast du Geburtstag ¦ ¿Cuándo es tu cumpleaños? ¦ When is your birthday?
+translate ¦ Hoy es domingo. ¦ Today is Sunday. ¦ Heute ist Sonntag. ¦ Heute ist Sonntag
+translate ¦ Mi cumpleaños es en agosto. ¦ My birthday is in August. ¦ Mein Geburtstag ist im August. ¦ Ich habe im August Geburtstag.
+match ¦ der Montag=el lunes=Monday; der Mittwoch=el miércoles=Wednesday; der Samstag=el sábado=Saturday; der Monat=el mes=month; die Woche=la semana=week
+listen ¦ Der Termin ist am Dienstag um zehn. ¦ Der Termin ist am Donnerstag um zehn. / Der Termin ist am Dienstag um elf. / Der Termin ist am Mittwoch um zehn.
+
+=== 11
+title: Können, wollen, müssen ¦ Poder, querer, tener que ¦ Can, want, must
+desc: Los verbos modales y la estructura de la frase con dos verbos ¦ Modal verbs and the sentence structure with two verbs
+gram: können, müssen, wollen, dürfen, sollen ¦ el infinitivo al final de la frase ¦ ich kann / er kann: sin terminación ¦ möchten y wollen
+gram_en: können, müssen, wollen, dürfen, sollen ¦ the infinitive at the end of the sentence ¦ ich kann / er kann: no ending ¦ möchten and wollen
+ref: a1-modal
+words: können, müssen, wollen, dürfen, sollen, helfen, kommen, mitkommen, schwimmen, kochen, warten, machen, die Hausaufgabe, der Kurs, lernen, verboten, rauchen, parken, Auto fahren, die Prüfung, morgen, jetzt, heute Abend, natürlich, leider, vielleicht
+intro:
+<h3>Los verbos modales</h3>
+<table><tr><td></td><td>können</td><td>müssen</td><td>wollen</td><td>dürfen</td><td>sollen</td></tr>
+<tr><td>ich</td><td>kann</td><td>muss</td><td>will</td><td>darf</td><td>soll</td></tr>
+<tr><td>du</td><td>kannst</td><td>musst</td><td>willst</td><td>darfst</td><td>sollst</td></tr>
+<tr><td>er / sie</td><td>kann</td><td>muss</td><td>will</td><td>darf</td><td>soll</td></tr>
+<tr><td>wir / sie / Sie</td><td>können</td><td>müssen</td><td>wollen</td><td>dürfen</td><td>sollen</td></tr>
+<tr><td>ihr</td><td>könnt</td><td>müsst</td><td>wollt</td><td>dürft</td><td>sollt</td></tr></table>
+<p><b>können</b> = poder, saber hacer · <b>müssen</b> = tener que · <b>wollen</b> = querer · <b>dürfen</b> = tener permiso · <b>sollen</b> = deber (porque otro lo dice).</p>
+<h3>La «tenaza»: el infinitivo al final</h3>
+<div class="example">Ich <b>kann</b> gut <b>schwimmen</b>. · Wir <b>müssen</b> heute viel <b>lernen</b>. · <b>Willst</b> du <b>mitkommen</b>?</div>
+<p>El modal ocupa la 2.ª posición y el otro verbo va en infinitivo <b>al final</b>.</p>
+<div class="warning">Con ich y er / sie / es los modales <b>no llevan terminación</b>: ich kann, er kann (no <s>er kannt</s>).</div>
+<div class="tip"><b>nicht müssen</b> = no hace falta; <b>nicht dürfen</b> = estar prohibido: <i>Hier <b>darf</b> man <b>nicht</b> rauchen.</i></div>
+intro_en:
+<h3>Modal verbs</h3>
+<table><tr><td></td><td>können</td><td>müssen</td><td>wollen</td><td>dürfen</td><td>sollen</td></tr>
+<tr><td>ich</td><td>kann</td><td>muss</td><td>will</td><td>darf</td><td>soll</td></tr>
+<tr><td>du</td><td>kannst</td><td>musst</td><td>willst</td><td>darfst</td><td>sollst</td></tr>
+<tr><td>er / sie</td><td>kann</td><td>muss</td><td>will</td><td>darf</td><td>soll</td></tr>
+<tr><td>wir / sie / Sie</td><td>können</td><td>müssen</td><td>wollen</td><td>dürfen</td><td>sollen</td></tr>
+<tr><td>ihr</td><td>könnt</td><td>müsst</td><td>wollt</td><td>dürft</td><td>sollt</td></tr></table>
+<p><b>können</b> = can, be able to · <b>müssen</b> = must, have to · <b>wollen</b> = want · <b>dürfen</b> = may, be allowed to · <b>sollen</b> = should (because someone says so).</p>
+<h3>The "sentence bracket": the infinitive at the end</h3>
+<div class="example">Ich <b>kann</b> gut <b>schwimmen</b>. · Wir <b>müssen</b> heute viel <b>lernen</b>. · <b>Willst</b> du <b>mitkommen</b>?</div>
+<p>The modal is in second position and the other verb goes to the <b>end</b> in the infinitive.</p>
+<div class="warning">With ich and er / sie / es modals take <b>no ending</b>: ich kann, er kann (not <s>er kannt</s>). Beware: <b>will</b> = want (not future!).</div>
+<div class="tip"><b>nicht müssen</b> = don't have to; <b>nicht dürfen</b> = mustn't: <i>Hier <b>darf</b> man <b>nicht</b> rauchen.</i></div>
+ex:
+fill ¦ Ich ___ gut kochen. ¦ kann ¦ kannst / können / kanne ¦ Sé cocinar bien. ¦ I can cook well. ¦ ich kann ¦ ich kann
+fill ¦ Du ___ heute die Hausaufgaben machen. ¦ musst ¦ muss / müssen / müsst ¦ Hoy tienes que hacer los deberes. ¦ You have to do your homework today. ¦ du musst ¦ du musst
+fill ¦ Wir wollen am Samstag ins Kino ___. ¦ gehen ¦ gehe / geht / gegangen ¦ El sábado queremos ir al cine. ¦ We want to go to the cinema on Saturday. ¦ Infinitivo al final. ¦ Infinitive at the end.
+fill ¦ Hier ___ man nicht parken. ¦ darf ¦ darfst / dürfen / dürft ¦ Aquí no se puede aparcar. ¦ You can't park here. ¦ man darf nicht = prohibido ¦ man darf nicht = not allowed
+fill ¦ ___ ihr mitkommen? ¦ Wollt ¦ Willst / Wollen / Will ¦ ¿Queréis venir? ¦ Do you (all) want to come along? ¦ ihr wollt ¦ ihr wollt
+fill ¦ Der Arzt sagt, ich ___ viel Wasser trinken. ¦ soll ¦ sollst / sollen / will ¦ El médico dice que tengo que beber mucha agua. ¦ The doctor says I should drink a lot of water. ¦ sollen = porque otro lo dice ¦ sollen = because someone says so
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Ich kann heute nicht kommen. ¦ Ich kann kommen heute nicht. / Ich können heute nicht kommen. / Ich kann heute nicht komme.
+choose ¦ Quieres decir que no hace falta. ¦ You want to say it isn't necessary. ¦ Du musst nicht kommen. ¦ Du darfst nicht kommen. / Du sollst kommen. / Du kannst kommen.
+order ¦ Kannst du mir bitte helfen ¦ ¿Me puedes ayudar, por favor? ¦ Can you help me, please?
+order ¦ Morgen muss ich früh aufstehen ¦ Mañana tengo que levantarme temprano. ¦ Tomorrow I have to get up early.
+translate ¦ ¿Puedo abrir la ventana? ¦ May I open the window? ¦ Darf ich das Fenster öffnen? ¦ Kann ich das Fenster öffnen? / Darf ich das Fenster aufmachen?
+translate ¦ Quiero aprender alemán. ¦ I want to learn German. ¦ Ich will Deutsch lernen. ¦ Ich möchte Deutsch lernen.
+match ¦ können=poder=can; müssen=tener que=must; wollen=querer=to want; dürfen=tener permiso=may; sollen=deber=should
+listen ¦ Ich muss heute lange arbeiten. ¦ Ich will heute lange arbeiten. / Ich muss heute lange warten. / Ich kann heute lange arbeiten.
+
+=== 12
+title: Wohnen ¦ La vivienda ¦ Where you live
+desc: La casa, las habitaciones y los muebles; describir la vivienda ¦ The home, rooms and furniture; describing your flat
+gram: los adjetivos tras sein: Die Wohnung ist hell ¦ es gibt + acusativo ¦ zu + adjetivo (demasiado) ¦ preguntas con wie viele
+gram_en: adjectives after sein: Die Wohnung ist hell ¦ es gibt + accusative ¦ zu + adjective (too) ¦ questions with wie viele
+ref: a1-wohnen
+words: die Wohnung, das Haus, das Zimmer, die Küche, das Bad, das Schlafzimmer, das Wohnzimmer, das Kinderzimmer, der Flur, der Balkon, der Garten, die Möbel, das Bett, der Schrank, das Sofa, das Regal, der Kühlschrank, der Herd, die Waschmaschine, die Miete, mieten, hell, dunkel, ruhig, laut, schön, hässlich, es gibt, der Stock, oben, unten
+intro:
+<h3>Describir la vivienda</h3>
+<p>Tras <b>sein</b> el adjetivo no cambia: <i>Die Wohnung <b>ist</b> hell. Das Zimmer <b>ist</b> klein. Die Möbel <b>sind</b> neu.</i></p>
+<table><tr><td>groß ↔ klein</td><td>hell ↔ dunkel</td></tr>
+<tr><td>ruhig ↔ laut</td><td>billig / günstig ↔ teuer</td></tr>
+<tr><td>neu ↔ alt</td><td>schön ↔ hässlich</td></tr></table>
+<h3>es gibt + acusativo (hay)</h3>
+<div class="example">In der Wohnung <b>gibt es</b> zwei Zimmer, <b>einen</b> Balkon und eine Küche.<br>Im Bad gibt es <b>keine</b> Badewanne, nur eine Dusche.</div>
+<h3>zu = demasiado</h3>
+<p><i>Die Wohnung ist schön, aber <b>zu</b> teuer.</i> · <i>Das Zimmer ist <b>zu</b> klein.</i></p>
+<div class="tip">Las plantas: <i>im ersten <b>Stock</b></i> (en el primer piso), <i>im Erdgeschoss</i> (en la planta baja). <b>oben</b> = arriba, <b>unten</b> = abajo.</div>
+<div class="warning"><b>Wie viele</b> + plural: <i>Wie viele Zimmer hat die Wohnung?</i> — <b>Wie viel</b> + singular: <i>Wie viel kostet die Miete?</i></div>
+intro_en:
+<h3>Describing a flat</h3>
+<p>After <b>sein</b> the adjective does not change: <i>Die Wohnung <b>ist</b> hell. Das Zimmer <b>ist</b> klein. Die Möbel <b>sind</b> neu.</i></p>
+<table><tr><td>groß ↔ klein</td><td>hell ↔ dunkel</td></tr>
+<tr><td>ruhig ↔ laut</td><td>billig / günstig ↔ teuer</td></tr>
+<tr><td>neu ↔ alt</td><td>schön ↔ hässlich</td></tr></table>
+<h3>es gibt + accusative (there is / there are)</h3>
+<div class="example">In der Wohnung <b>gibt es</b> zwei Zimmer, <b>einen</b> Balkon und eine Küche.<br>Im Bad gibt es <b>keine</b> Badewanne, nur eine Dusche.</div>
+<h3>zu = too</h3>
+<p><i>Die Wohnung ist schön, aber <b>zu</b> teuer.</i> · <i>Das Zimmer ist <b>zu</b> klein.</i></p>
+<div class="tip">Floors: <i>im ersten <b>Stock</b></i> (on the first floor), <i>im Erdgeschoss</i> (on the ground floor). <b>oben</b> = upstairs, <b>unten</b> = downstairs.</div>
+<div class="warning"><b>Wie viele</b> + plural: <i>Wie viele Zimmer hat die Wohnung?</i> — <b>Wie viel</b> + singular: <i>Wie viel kostet die Miete?</i></div>
+ex:
+fill ¦ Die Küche ist sehr ___. Sie hat zwei Fenster. ¦ hell ¦ dunkel / laut / hässlich ¦ La cocina es muy luminosa. Tiene dos ventanas. ¦ The kitchen is very bright. It has two windows. ¦ hell = luminoso ¦ hell = bright
+fill ¦ Im Wohnzimmer gibt es ___ Sofa. ¦ ein ¦ einen / eine / einem ¦ En el salón hay un sofá. ¦ There is a sofa in the living room. ¦ das Sofa → ein Sofa ¦ das Sofa → ein Sofa
+fill ¦ In der Küche gibt es ___ Kühlschrank. ¦ einen ¦ ein / eine / einer ¦ En la cocina hay una nevera. ¦ There is a fridge in the kitchen. ¦ es gibt + acusativo: einen ¦ es gibt + accusative: einen
+fill ¦ Die Wohnung ist schön, aber ___ teuer. ¦ zu ¦ sehr zu / auch / so zu ¦ El piso es bonito, pero demasiado caro. ¦ The flat is nice, but too expensive. ¦ zu = demasiado ¦ zu = too
+fill ¦ Wie ___ Zimmer hat das Haus? ¦ viele ¦ viel / vieler / vielen ¦ ¿Cuántas habitaciones tiene la casa? ¦ How many rooms does the house have? ¦ wie viele + plural ¦ wie viele + plural
+fill ¦ Wir wohnen im dritten ___. ¦ Stock ¦ Zimmer / Haus / Platz ¦ Vivimos en el tercer piso. ¦ We live on the third floor. ¦ im dritten Stock ¦ im dritten Stock
+choose ¦ Lo contrario de «laut». ¦ The opposite of «laut». ¦ ruhig ¦ hell / groß / teuer
+choose ¦ ¿Dónde duermes? ¦ Where do you sleep? ¦ im Schlafzimmer ¦ in der Küche / im Flur / im Bad
+order ¦ Die Miete kostet achthundert Euro im Monat ¦ El alquiler cuesta ochocientos euros al mes. ¦ The rent is eight hundred euros a month.
+order ¦ Gibt es hier einen Balkon ¦ ¿Hay balcón aquí? ¦ Is there a balcony here?
+translate ¦ Mi piso es pequeño pero tranquilo. ¦ My flat is small but quiet. ¦ Meine Wohnung ist klein, aber ruhig. ¦ Meine Wohnung ist klein aber ruhig.
+translate ¦ En el baño no hay ventana. ¦ There's no window in the bathroom. ¦ Im Bad gibt es kein Fenster. ¦ Das Bad hat kein Fenster.
+match ¦ das Bett=la cama=bed; der Schrank=el armario=wardrobe; der Herd=la cocina (fogones)=cooker; das Regal=la estantería=shelf; die Miete=el alquiler=rent
+listen ¦ Die Wohnung hat drei Zimmer und einen Balkon. ¦ Die Wohnung hat zwei Zimmer und einen Balkon. / Das Haus hat drei Zimmer und einen Garten. / Die Wohnung hat drei Zimmer und keinen Balkon.
+
+=== 13
+title: In der Stadt ¦ En la ciudad ¦ In town
+desc: Lugares de la ciudad, preguntar el camino y el imperativo ¦ Places in town, asking the way and the imperative
+gram: el imperativo: Gehen Sie! Geh! Geht! ¦ indicar el camino: links, rechts, geradeaus ¦ wo? + in / an / neben + dativo (introducción) ¦ der → dem, die → der
+gram_en: the imperative: Gehen Sie! Geh! Geht! ¦ giving directions: links, rechts, geradeaus ¦ wo? + in / an / neben + dative (introduction) ¦ der → dem, die → der
+ref: a1-stadt
+words: die Stadt, das Zentrum, der Bahnhof, die Post, die Bank, die Apotheke, das Krankenhaus, das Museum, die Kirche, das Rathaus, der Park, das Hotel, das Restaurant, das Café, der Platz, die Straße, die Ecke, die Haltestelle, links, rechts, geradeaus, neben, gegenüber, weit, nah, hier, dort, suchen, finden, gehen, zeigen, Entschuldigung
+intro:
+<h3>Preguntar el camino</h3>
+<div class="example">— <b>Entschuldigung</b>, wo ist der Bahnhof? — <b>Gehen Sie</b> hier geradeaus und dann die zweite Straße <b>links</b>.<br>— Ist das weit? — Nein, nur fünf Minuten zu Fuß.</div>
+<h3>El imperativo</h3>
+<table><tr><td>Sie</td><td><b>Gehen Sie</b> geradeaus! · <b>Nehmen Sie</b> den Bus!</td></tr>
+<tr><td>du</td><td><b>Geh</b> geradeaus! · <b>Nimm</b> den Bus! (raíz, sin -st y sin du)</td></tr>
+<tr><td>ihr</td><td><b>Geht</b> geradeaus! · <b>Nehmt</b> den Bus!</td></tr></table>
+<p>Con <b>bitte</b> suena más amable: <i>Zeigen Sie mir bitte den Weg.</i></p>
+<h3>¿Dónde está? — wo + dativo</h3>
+<table><tr><td>der Park → <b>im</b> (in dem) Park</td><td>das Hotel → <b>neben dem</b> Hotel</td></tr>
+<tr><td>die Post → <b>in der</b> Post / <b>neben der</b> Post</td><td>die Ecke → <b>an der</b> Ecke</td></tr></table>
+<div class="example">Die Apotheke ist <b>neben der</b> Bank. Das Café ist <b>gegenüber dem</b> Rathaus.</div>
+<div class="tip">Contracciones: in + dem = <b>im</b>, an + dem = <b>am</b>.</div>
+intro_en:
+<h3>Asking the way</h3>
+<div class="example">— <b>Entschuldigung</b>, wo ist der Bahnhof? — <b>Gehen Sie</b> hier geradeaus und dann die zweite Straße <b>links</b>.<br>— Ist das weit? — Nein, nur fünf Minuten zu Fuß.</div>
+<h3>The imperative</h3>
+<table><tr><td>Sie</td><td><b>Gehen Sie</b> geradeaus! · <b>Nehmen Sie</b> den Bus!</td></tr>
+<tr><td>du</td><td><b>Geh</b> geradeaus! · <b>Nimm</b> den Bus! (stem, no -st and no du)</td></tr>
+<tr><td>ihr</td><td><b>Geht</b> geradeaus! · <b>Nehmt</b> den Bus!</td></tr></table>
+<p>With <b>bitte</b> it sounds friendlier: <i>Zeigen Sie mir bitte den Weg.</i></p>
+<h3>Where is it? — wo + dative</h3>
+<table><tr><td>der Park → <b>im</b> (in dem) Park</td><td>das Hotel → <b>neben dem</b> Hotel</td></tr>
+<tr><td>die Post → <b>in der</b> Post / <b>neben der</b> Post</td><td>die Ecke → <b>an der</b> Ecke</td></tr></table>
+<div class="example">Die Apotheke ist <b>neben der</b> Bank. Das Café ist <b>gegenüber dem</b> Rathaus.</div>
+<div class="tip">Contractions: in + dem = <b>im</b>, an + dem = <b>am</b>.</div>
+ex:
+fill ¦ ___ Sie hier links! ¦ Gehen ¦ Geht / Geh / Gehst ¦ ¡Gire aquí a la izquierda! ¦ Turn left here! ¦ Imperativo Sie: Gehen Sie ¦ Sie imperative: Gehen Sie
+fill ¦ ___ den Bus Nummer 5, Paul! ¦ Nimm ¦ Nimmst / Nehm / Nehmt ¦ ¡Coge el autobús número 5, Paul! ¦ Take bus number 5, Paul! ¦ Imperativo du: nimm ¦ du imperative: nimm
+fill ¦ Die Apotheke ist neben ___ Bank. ¦ der ¦ die / dem / den ¦ La farmacia está al lado del banco. ¦ The chemist's is next to the bank. ¦ die → der (dativo) ¦ die → der (dative)
+fill ¦ Wir treffen uns ___ Park. ¦ im ¦ in / in die / am ¦ Quedamos en el parque. ¦ We're meeting in the park. ¦ in + dem = im ¦ in + dem = im
+fill ¦ Das Hotel ist gegenüber ___ Bahnhof. ¦ dem ¦ der / den / das ¦ El hotel está enfrente de la estación. ¦ The hotel is opposite the station. ¦ der → dem (dativo) ¦ der → dem (dative)
+fill ¦ Gehen Sie hier ___ und dann rechts. ¦ geradeaus ¦ gerade / links / weit ¦ Siga recto y luego a la derecha. ¦ Go straight on and then right. ¦ geradeaus = todo recto ¦ geradeaus = straight on
+choose ¦ Quieres preguntar con cortesía por la estación. ¦ You want to ask politely for the station. ¦ Entschuldigung, wo ist der Bahnhof? ¦ Wo Bahnhof? / Du, wo ist der Bahnhof? / Bahnhof, bitte, wo?
+choose ¦ Imperativo de «kommen» para ihr. ¦ The ihr imperative of «kommen». ¦ Kommt! ¦ Komm! / Kommen! / Kommst!
+order ¦ Die Haltestelle ist an der Ecke ¦ La parada está en la esquina. ¦ The stop is on the corner.
+order ¦ Ist das Museum weit von hier ¦ ¿Está el museo lejos de aquí? ¦ Is the museum far from here?
+translate ¦ Perdone, ¿dónde está la farmacia? ¦ Excuse me, where is the chemist's? ¦ Entschuldigung, wo ist die Apotheke? ¦ Entschuldigen Sie, wo ist die Apotheke?
+translate ¦ El banco está al lado de correos. ¦ The bank is next to the post office. ¦ Die Bank ist neben der Post. ¦ Die Bank ist neben der Post
+match ¦ links=a la izquierda=on the left; rechts=a la derecha=on the right; geradeaus=todo recto=straight on; nah=cerca=near; weit=lejos=far
+listen ¦ Gehen Sie die erste Straße rechts. ¦ Gehen Sie die erste Straße links. / Gehen Sie die zweite Straße rechts. / Nehmen Sie die erste Straße rechts.
+
+=== 14
+title: Unterwegs ¦ De viaje por la ciudad ¦ Getting around
+desc: Los medios de transporte, los billetes y las preposiciones con dativo ¦ Means of transport, tickets and prepositions with the dative
+gram: mit + dativo: mit dem Bus, mit der U-Bahn ¦ preposiciones con dativo: aus, bei, mit, nach, seit, von, zu ¦ zu + dem = zum, zu + der = zur ¦ el dativo de los artículos
+gram_en: mit + dative: mit dem Bus, mit der U-Bahn ¦ prepositions with the dative: aus, bei, mit, nach, seit, von, zu ¦ zu + dem = zum, zu + der = zur ¦ the dative of the articles
+ref: a1-dativ
+words: der Bus, der Zug, die S-Bahn, die U-Bahn, die Straßenbahn, das Taxi, das Auto, das Fahrrad, das Flugzeug, zu Fuß, mit, zu, von, bei, nach, seit, die Fahrkarte, das Ticket, der Fahrer, abfahren, ankommen, einsteigen, aussteigen, umsteigen, die Abfahrt, die Ankunft, der Bahnsteig, das Gleis, pünktlich, die Haltestelle
+intro:
+<h3>¿Cómo vas? — mit + dativo</h3>
+<table><tr><td>der Bus → mit <strong>dem</strong> Bus</td><td>das Auto → mit <strong>dem</strong> Auto</td></tr>
+<tr><td>die U-Bahn → mit <strong>der</strong> U-Bahn</td><td>plural → mit <strong>den</strong> Fahrrädern</td></tr></table>
+<p>Pero: <b>zu Fuß</b> (a pie).</p>
+<h3>Preposiciones que siempre llevan dativo</h3>
+<p><b>aus, bei, mit, nach, seit, von, zu</b></p>
+<table><tr><td>der / das → <strong>dem</strong> · ein → <strong>einem</strong></td><td>die → <strong>der</strong> · eine → <strong>einer</strong></td></tr>
+<tr><td>plural die → <strong>den</strong> (+ -n: mit den Kinder<b>n</b>)</td><td></td></tr></table>
+<div class="example">Ich fahre <b>zum</b> Bahnhof (zu dem). · Ich gehe <b>zur</b> Arbeit (zu der). · Ich komme <b>vom</b> Arzt. · Sie wohnt <b>bei</b> ihren Eltern.</div>
+<h3>En la estación</h3>
+<div class="example">Der Zug nach Hamburg fährt um 10:15 Uhr von <b>Gleis</b> 4 <b>ab</b>. Sie müssen in Hannover <b>umsteigen</b>.</div>
+<div class="tip"><b>nach</b> + ciudad / país (nach Berlin) y <b>nach Hause</b>; <b>zu</b> + persona o lugar (zum Arzt, zu Maria); <b>zu Hause</b> = en casa.</div>
+intro_en:
+<h3>How do you get there? — mit + dative</h3>
+<table><tr><td>der Bus → mit <strong>dem</strong> Bus</td><td>das Auto → mit <strong>dem</strong> Auto</td></tr>
+<tr><td>die U-Bahn → mit <strong>der</strong> U-Bahn</td><td>plural → mit <strong>den</strong> Fahrrädern</td></tr></table>
+<p>But: <b>zu Fuß</b> (on foot).</p>
+<h3>Prepositions that always take the dative</h3>
+<p><b>aus, bei, mit, nach, seit, von, zu</b></p>
+<table><tr><td>der / das → <strong>dem</strong> · ein → <strong>einem</strong></td><td>die → <strong>der</strong> · eine → <strong>einer</strong></td></tr>
+<tr><td>plural die → <strong>den</strong> (+ -n: mit den Kinder<b>n</b>)</td><td></td></tr></table>
+<div class="example">Ich fahre <b>zum</b> Bahnhof (zu dem). · Ich gehe <b>zur</b> Arbeit (zu der). · Ich komme <b>vom</b> Arzt. · Sie wohnt <b>bei</b> ihren Eltern.</div>
+<h3>At the station</h3>
+<div class="example">Der Zug nach Hamburg fährt um 10:15 Uhr von <b>Gleis</b> 4 <b>ab</b>. Sie müssen in Hannover <b>umsteigen</b>.</div>
+<div class="tip"><b>nach</b> + city / country (nach Berlin) and <b>nach Hause</b> (home); <b>zu</b> + person or place (zum Arzt, zu Maria); <b>zu Hause</b> = at home.</div>
+ex:
+fill ¦ Ich fahre mit ___ Bus zur Arbeit. ¦ dem ¦ der / den / das ¦ Voy al trabajo en autobús. ¦ I go to work by bus. ¦ mit + dativo: dem Bus ¦ mit + dative: dem Bus
+fill ¦ Sie fährt mit ___ U-Bahn. ¦ der ¦ die / dem / den ¦ Va en metro. ¦ She goes by underground. ¦ die → der (dativo) ¦ die → der (dative)
+fill ¦ Ich gehe jetzt ___ Arzt. ¦ zum ¦ zur / nach / beim ¦ Ahora voy al médico. ¦ I'm going to the doctor's now. ¦ zu + dem = zum ¦ zu + dem = zum
+fill ¦ Wie komme ich ___ Universität? ¦ zur ¦ zum / nach / zu ¦ ¿Cómo llego a la universidad? ¦ How do I get to the university? ¦ zu + der = zur ¦ zu + der = zur
+fill ¦ Der Zug fährt um acht Uhr ___. ¦ ab ¦ an / aus / um ¦ El tren sale a las ocho. ¦ The train leaves at eight. ¦ ab|fahren ¦ ab|fahren
+fill ¦ In Köln müssen Sie ___. ¦ umsteigen ¦ umsteigt / steigen um / umstiegen ¦ En Colonia tiene que hacer transbordo. ¦ You have to change in Cologne. ¦ Modal + infinitivo al final. ¦ Modal + infinitive at the end.
+choose ¦ Vas andando. ¦ You walk. ¦ Ich gehe zu Fuß. ¦ Ich fahre mit dem Fuß. / Ich gehe mit Fuß. / Ich gehe zu dem Fuß.
+choose ¦ ¿Qué preposición? «Ich wohne ___ meinen Eltern.» (en casa de) ¦ Which preposition? «Ich wohne ___ meinen Eltern.» (at … house) ¦ bei ¦ mit / zu / von
+order ¦ Der Zug kommt pünktlich in Berlin an ¦ El tren llega puntual a Berlín. ¦ The train arrives in Berlin on time.
+order ¦ Von welchem Gleis fährt der Zug ab ¦ ¿De qué vía sale el tren? ¦ Which platform does the train leave from?
+translate ¦ Voy a casa en bici. ¦ I'm cycling home. ¦ Ich fahre mit dem Fahrrad nach Hause. ¦ Ich fahre mit dem Rad nach Hause.
+translate ¦ Un billete a Múnich, por favor. ¦ A ticket to Munich, please. ¦ Eine Fahrkarte nach München, bitte. ¦ Ein Ticket nach München, bitte.
+match ¦ einsteigen=subirse=to get on; aussteigen=bajarse=to get off; umsteigen=hacer transbordo=to change; abfahren=salir=to depart; ankommen=llegar=to arrive
+listen ¦ Der Zug nach Wien fährt von Gleis drei ab. ¦ Der Zug nach Wien fährt von Gleis zwei ab. / Der Zug aus Wien kommt auf Gleis drei an. / Der Bus nach Wien fährt von Gleis drei ab.
+
+=== 15
+title: Kleidung ¦ La ropa ¦ Clothes
+desc: La ropa, los colores, gustar y los pronombres en acusativo ¦ Clothes, colours, gefallen and accusative pronouns
+gram: los colores ¦ gefallen + dativo: Der Rock gefällt mir ¦ pronombres en acusativo: ihn, sie, es ¦ welcher? — dieser
+gram_en: colours ¦ gefallen + dative: Der Rock gefällt mir ¦ accusative pronouns: ihn, sie, es ¦ welcher? — dieser
+ref: a1-kleidung
+words: die Kleidung, das Kleid, die Hose, das Hemd, der Pullover, die Jacke, der Mantel, der Rock, das T-Shirt, der Schuh, die Größe, rot, blau, grün, gelb, schwarz, weiß, grau, braun, bunt, gefallen, passen, mir, dir, ihn, welcher, dieser, tragen, anziehen, kaufen, kurz, lang
+intro:
+<h3>Los colores</h3>
+<p>rot, blau, grün, gelb, schwarz, weiß, grau, braun, orange, rosa, lila, bunt (de colores). Tras sein no cambian: <i>Die Jacke ist <b>blau</b>.</i></p>
+<h3>gefallen (gustar) + dativo</h3>
+<div class="example">Der Rock <b>gefällt mir</b>. (= me gusta la falda) · Die Schuhe <b>gefallen mir</b> nicht. · <b>Gefällt dir</b> das Kleid?</div>
+<p>Como en español, lo que gusta es el sujeto: si es plural, <b>gefallen</b>. La persona va en dativo: <b>mir</b> (me), <b>dir</b> (te), <b>Ihnen</b> (le, usted).</p>
+<h3>Pronombres en acusativo (lo, la)</h3>
+<table><tr><td>der Pullover → <strong>ihn</strong></td><td>Ich nehme <b>ihn</b>.</td></tr>
+<tr><td>die Jacke → <strong>sie</strong></td><td>Ich kaufe <b>sie</b>.</td></tr>
+<tr><td>das Hemd → <strong>es</strong></td><td>Ich probiere <b>es</b>.</td></tr>
+<tr><td>die Schuhe → <strong>sie</strong></td><td>Ich trage <b>sie</b> gern.</td></tr></table>
+<h3>welcher? — dieser</h3>
+<p>Siguen al artículo der / die / das: <i><b>Welcher</b> Pullover? — <b>Dieser</b> hier. · <b>Welche</b> Jacke? — <b>Diese</b>. · <b>Welches</b> Hemd? — <b>Dieses</b>.</i></p>
+<div class="tip">Comprar ropa: <i>Haben Sie die Hose in Größe 40? — Kann ich sie anprobieren? — Sie passt (nicht).</i></div>
+intro_en:
+<h3>Colours</h3>
+<p>rot, blau, grün, gelb, schwarz, weiß, grau, braun, orange, rosa, lila, bunt (colourful). After sein they don't change: <i>Die Jacke ist <b>blau</b>.</i></p>
+<h3>gefallen (to like, to please) + dative</h3>
+<div class="example">Der Rock <b>gefällt mir</b>. (= I like the skirt) · Die Schuhe <b>gefallen mir</b> nicht. · <b>Gefällt dir</b> das Kleid?</div>
+<p>The thing you like is the subject ("the skirt pleases me"): if it is plural, <b>gefallen</b>. The person is in the dative: <b>mir</b> (me), <b>dir</b> (you), <b>Ihnen</b> (you, formal).</p>
+<h3>Accusative pronouns (it, them)</h3>
+<table><tr><td>der Pullover → <strong>ihn</strong></td><td>Ich nehme <b>ihn</b>.</td></tr>
+<tr><td>die Jacke → <strong>sie</strong></td><td>Ich kaufe <b>sie</b>.</td></tr>
+<tr><td>das Hemd → <strong>es</strong></td><td>Ich probiere <b>es</b>.</td></tr>
+<tr><td>die Schuhe → <strong>sie</strong></td><td>Ich trage <b>sie</b> gern.</td></tr></table>
+<h3>welcher? (which?) — dieser (this one)</h3>
+<p>They follow the article der / die / das: <i><b>Welcher</b> Pullover? — <b>Dieser</b> hier. · <b>Welche</b> Jacke? — <b>Diese</b>. · <b>Welches</b> Hemd? — <b>Dieses</b>.</i></p>
+<div class="tip">Buying clothes: <i>Haben Sie die Hose in Größe 40? — Kann ich sie anprobieren? — Sie passt (nicht).</i> (It fits / doesn't fit.)</div>
+ex:
+fill ¦ Der Pullover ___ mir. ¦ gefällt ¦ gefallen / gefalle / gefällst ¦ Me gusta el jersey. ¦ I like the jumper. ¦ Un objeto: gefällt. ¦ One thing: gefällt.
+fill ¦ Die Schuhe ___ mir nicht. ¦ gefallen ¦ gefällt / gefalle / gefallt ¦ No me gustan los zapatos. ¦ I don't like the shoes. ¦ Plural: gefallen. ¦ Plural: gefallen.
+fill ¦ Gefällt ___ das Kleid, Lisa? ¦ dir ¦ du / dich / mir ¦ ¿Te gusta el vestido, Lisa? ¦ Do you like the dress, Lisa? ¦ Dativo de du: dir ¦ Dative of du: dir
+fill ¦ Der Mantel ist schön. Ich kaufe ___. ¦ ihn ¦ er / es / sie ¦ El abrigo es bonito. Me lo compro. ¦ The coat is nice. I'll buy it. ¦ der Mantel → ihn ¦ der Mantel → ihn
+fill ¦ Die Jacke ist zu klein. Ich nehme ___ nicht. ¦ sie ¦ ihn / es / ihr ¦ La chaqueta es demasiado pequeña. No me la llevo. ¦ The jacket is too small. I won't take it. ¦ die Jacke → sie ¦ die Jacke → sie
+fill ¦ ___ Hemd möchtest du? ¦ Welches ¦ Welcher / Welche / Welchen ¦ ¿Qué camisa quieres? ¦ Which shirt would you like? ¦ das Hemd → welches ¦ das Hemd → welches
+choose ¦ ¿De qué color es la nieve? ¦ What colour is snow? ¦ weiß ¦ schwarz / grün / rot
+choose ¦ El pantalón no es de tu talla. ¦ The trousers are not your size. ¦ Die Hose passt nicht. ¦ Die Hose gefällt nicht. / Die Hose trägt nicht. / Die Hose kauft nicht.
+order ¦ Haben Sie das Kleid auch in Rot ¦ ¿Tiene el vestido también en rojo? ¦ Do you have the dress in red too?
+order ¦ Im Winter trage ich einen warmen Mantel ¦ En invierno llevo un abrigo calentito. ¦ In winter I wear a warm coat.
+translate ¦ Me gusta la camiseta azul. ¦ I like the blue T-shirt. ¦ Das blaue T-Shirt gefällt mir. ¦ Mir gefällt das blaue T-Shirt. / Ich mag das blaue T-Shirt.
+translate ¦ ¿Qué talla tiene usted? ¦ What size are you? ¦ Welche Größe haben Sie? ¦ Welche Größe haben Sie
+match ¦ der Rock=la falda=skirt; das Hemd=la camisa=shirt; die Hose=el pantalón=trousers; der Schuh=el zapato=shoe; der Mantel=el abrigo=coat
+listen ¦ Die rote Jacke gefällt mir sehr. ¦ Die rote Jacke gefällt mir nicht. / Die rote Hose gefällt mir sehr. / Die gelbe Jacke gefällt mir sehr.
+
+=== 16
+title: Der Körper und die Gesundheit ¦ El cuerpo y la salud ¦ The body and health
+desc: Las partes del cuerpo, decir qué te duele e ir al médico ¦ Parts of the body, saying what hurts and going to the doctor
+gram: Mein Kopf tut weh / Ich habe Kopfschmerzen ¦ el imperativo con Sie para consejos ¦ sollen para dar consejos ¦ el plural de las partes del cuerpo
+gram_en: Mein Kopf tut weh / Ich habe Kopfschmerzen ¦ the Sie imperative for advice ¦ sollen to give advice ¦ the plural of parts of the body
+ref: a1-gesundheit
+words: der Körper, der Kopf, das Auge, das Ohr, die Nase, der Mund, der Zahn, der Hals, der Arm, die Hand, der Finger, der Bauch, der Rücken, das Bein, der Fuß, wehtun, krank, gesund, das Fieber, der Kopfschmerz, der Arzt, die Ärztin, die Praxis, die Apotheke, der Termin, müde, die Tablette, bleiben, im Bett
+intro:
+<h3>¿Qué te duele?</h3>
+<table><tr><td>Mein Kopf <strong>tut weh</strong>.</td><td>Me duele la cabeza.</td></tr>
+<tr><td>Meine Füße <strong>tun weh</strong>.</td><td>Me duelen los pies.</td></tr>
+<tr><td>Ich habe <strong>Kopfschmerzen</strong> / <strong>Bauchschmerzen</strong> / <strong>Fieber</strong>.</td><td>Tengo dolor de cabeza / de barriga / fiebre.</td></tr></table>
+<p>En alemán se usa el posesivo, no el artículo: <i><b>mein</b> Bein</i> (la pierna). Palabra + <b>Schmerzen</b>: Rückenschmerzen, Halsschmerzen, Zahnschmerzen.</p>
+<h3>En la consulta</h3>
+<div class="example">— Was fehlt Ihnen? — Ich habe Halsschmerzen und Fieber. — Seit wann? — Seit zwei Tagen.<br>— <b>Bleiben Sie</b> drei Tage im Bett und <b>trinken Sie</b> viel Tee. <b>Nehmen Sie</b> diese Tabletten.</div>
+<h3>Consejos con sollen</h3>
+<p><i>Der Arzt sagt, ich <b>soll</b> im Bett bleiben.</i> · <i><b>Soll</b> ich zum Arzt gehen?</i></p>
+<div class="tip">Plurales irregulares del cuerpo: der Fuß → die F<b>ü</b>ße, die Hand → die H<b>ä</b>nde, der Zahn → die Z<b>ä</b>hne, das Auge → die Auge<b>n</b>.</div>
+intro_en:
+<h3>What hurts?</h3>
+<table><tr><td>Mein Kopf <strong>tut weh</strong>.</td><td>My head hurts.</td></tr>
+<tr><td>Meine Füße <strong>tun weh</strong>.</td><td>My feet hurt.</td></tr>
+<tr><td>Ich habe <strong>Kopfschmerzen</strong> / <strong>Bauchschmerzen</strong> / <strong>Fieber</strong>.</td><td>I have a headache / a stomach ache / a temperature.</td></tr></table>
+<p>German uses the possessive, as English does: <i><b>mein</b> Bein</i> (my leg). Word + <b>Schmerzen</b> = …ache: Rückenschmerzen, Halsschmerzen, Zahnschmerzen.</p>
+<h3>At the doctor's</h3>
+<div class="example">— Was fehlt Ihnen? — Ich habe Halsschmerzen und Fieber. — Seit wann? — Seit zwei Tagen.<br>— <b>Bleiben Sie</b> drei Tage im Bett und <b>trinken Sie</b> viel Tee. <b>Nehmen Sie</b> diese Tabletten.</div>
+<h3>Advice with sollen</h3>
+<p><i>Der Arzt sagt, ich <b>soll</b> im Bett bleiben.</i> · <i><b>Soll</b> ich zum Arzt gehen?</i></p>
+<div class="tip">Irregular plurals: der Fuß → die F<b>ü</b>ße, die Hand → die H<b>ä</b>nde, der Zahn → die Z<b>ä</b>hne, das Auge → die Auge<b>n</b>.</div>
+ex:
+fill ¦ Mein Kopf ___ weh. ¦ tut ¦ tun / tue / tust ¦ Me duele la cabeza. ¦ My head hurts. ¦ Singular: tut weh. ¦ Singular: tut weh.
+fill ¦ Meine Füße ___ weh. ¦ tun ¦ tut / tue / tust ¦ Me duelen los pies. ¦ My feet hurt. ¦ Plural: tun weh. ¦ Plural: tun weh.
+fill ¦ Ich habe ___. Mein Hals tut weh. ¦ Halsschmerzen ¦ Hals / Fieber / Kopf ¦ Me duele la garganta. ¦ I have a sore throat. ¦ Hals + Schmerzen ¦ Hals + Schmerzen
+fill ¦ ___ Sie viel Wasser! ¦ Trinken ¦ Trinkt / Trink / Trinkst ¦ ¡Beba mucha agua! ¦ Drink plenty of water! ¦ Imperativo Sie ¦ Sie imperative
+fill ¦ Der Arzt sagt, ich ___ zu Hause bleiben. ¦ soll ¦ sollst / will / sollen ¦ El médico dice que tengo que quedarme en casa. ¦ The doctor says I should stay at home. ¦ sollen = consejo de otro ¦ sollen = someone else's advice
+fill ¦ Ich habe zwei Hände und zehn ___. ¦ Finger ¦ Fingern / Fingers / Fingeren ¦ Tengo dos manos y diez dedos. ¦ I have two hands and ten fingers. ¦ der Finger → die Finger ¦ der Finger → die Finger
+choose ¦ Quieres decir que estás enfermo. ¦ You want to say you are ill. ¦ Ich bin krank. ¦ Ich habe krank. / Ich bin Krankheit. / Mir ist krank.
+choose ¦ El médico pregunta qué te pasa. ¦ The doctor asks what's wrong. ¦ Was fehlt Ihnen? ¦ Was haben Sie gern? / Wie heißen Sie? / Wo wohnen Sie?
+order ¦ Seit gestern habe ich Fieber ¦ Desde ayer tengo fiebre. ¦ I've had a temperature since yesterday.
+order ¦ Ich brauche einen Termin beim Arzt ¦ Necesito una cita con el médico. ¦ I need a doctor's appointment.
+translate ¦ Me duele la espalda. ¦ My back hurts. ¦ Mein Rücken tut weh. ¦ Ich habe Rückenschmerzen.
+translate ¦ Estoy muy cansado. ¦ I'm very tired. ¦ Ich bin sehr müde. ¦ Ich bin sehr müde
+match ¦ der Kopf=la cabeza=head; der Bauch=la barriga=belly; das Bein=la pierna=leg; der Zahn=el diente=tooth; das Ohr=la oreja=ear
+listen ¦ Mein Bauch tut seit gestern weh. ¦ Mein Bein tut seit gestern weh. / Mein Bauch tut seit heute weh. / Mein Kopf tut seit gestern weh.
+
+=== 17
+title: Das Wetter ¦ El tiempo ¦ The weather
+desc: El tiempo, las estaciones y los verbos impersonales con es ¦ The weather, the seasons and impersonal verbs with es
+gram: es regnet, es schneit, es ist kalt ¦ las estaciones: im Sommer, im Winter ¦ wie ist das Wetter? ¦ los grados: 20 Grad
+gram_en: es regnet, es schneit, es ist kalt ¦ the seasons: im Sommer, im Winter ¦ wie ist das Wetter? ¦ temperatures: 20 Grad
+ref: a1-wetter
+words: das Wetter, die Sonne, der Regen, der Wind, der Schnee, die Wolke, regnen, schneien, scheinen, warm, kalt, heiß, kühl, sonnig, der Frühling, der Sommer, der Herbst, der Winter, das Grad, das Jahr, das Meer, der Strand, der Berg, der See, das Land, draußen
+intro:
+<h3>¿Qué tiempo hace? — Wie ist das Wetter?</h3>
+<table><tr><td>Es <strong>regnet</strong>. · Es <strong>schneit</strong>.</td><td>Llueve. · Nieva.</td></tr>
+<tr><td>Die Sonne <strong>scheint</strong>.</td><td>Hace sol.</td></tr>
+<tr><td>Es ist <strong>warm / kalt / heiß / kühl / sonnig / windig</strong>.</td><td>Hace calor / frío / mucho calor / fresco / sol / viento.</td></tr>
+<tr><td>Es sind 25 <strong>Grad</strong>. · Es sind minus 5 Grad.</td><td>Hace 25 grados. · Estamos a 5 bajo cero.</td></tr></table>
+<p>El sujeto <b>es</b> es obligatorio aunque no signifique nada: <i>Heute regnet <b>es</b>.</i></p>
+<h3>Las estaciones</h3>
+<p>der Frühling, der Sommer, der Herbst, der Winter: <b>im</b> Frühling, <b>im</b> Sommer…</p>
+<div class="example">Im Sommer ist es in Spanien sehr heiß. Im Winter schneit es in den Bergen.</div>
+<div class="warning"><b>Mir ist kalt</b> = tengo frío (la persona). <b>Es ist kalt</b> = hace frío (el tiempo). No: <s>Ich bin kalt</s>.</div>
+intro_en:
+<h3>What's the weather like? — Wie ist das Wetter?</h3>
+<table><tr><td>Es <strong>regnet</strong>. · Es <strong>schneit</strong>.</td><td>It's raining. · It's snowing.</td></tr>
+<tr><td>Die Sonne <strong>scheint</strong>.</td><td>The sun is shining.</td></tr>
+<tr><td>Es ist <strong>warm / kalt / heiß / kühl / sonnig / windig</strong>.</td><td>It's warm / cold / hot / cool / sunny / windy.</td></tr>
+<tr><td>Es sind 25 <strong>Grad</strong>. · Es sind minus 5 Grad.</td><td>It's 25 degrees. · It's minus 5.</td></tr></table>
+<p>The subject <b>es</b> (it) is compulsory, just as in English: <i>Heute regnet <b>es</b>.</i></p>
+<h3>The seasons</h3>
+<p>der Frühling, der Sommer, der Herbst, der Winter: <b>im</b> Frühling, <b>im</b> Sommer… (in spring, in summer…)</p>
+<div class="example">Im Sommer ist es in Spanien sehr heiß. Im Winter schneit es in den Bergen.</div>
+<div class="warning"><b>Mir ist kalt</b> = I'm cold (a person). <b>Es ist kalt</b> = it's cold (the weather). Not: <s>Ich bin kalt</s>.</div>
+ex:
+fill ¦ Heute ___ es. Wir brauchen einen Schirm. ¦ regnet ¦ regnen / regne / Regen ¦ Hoy llueve. Necesitamos un paraguas. ¦ It's raining today. We need an umbrella. ¦ es regnet ¦ es regnet
+fill ¦ Die Sonne ___. ¦ scheint ¦ scheinen / sonnig / scheine ¦ Hace sol. ¦ The sun is shining. ¦ die Sonne scheint ¦ die Sonne scheint
+fill ¦ ___ Winter ist es kalt. ¦ Im ¦ Am / Um / In ¦ En invierno hace frío. ¦ It's cold in winter. ¦ im + estación ¦ im + season
+fill ¦ Wie ist das ___ in Berlin? ¦ Wetter ¦ Wind / Grad / Sonne ¦ ¿Qué tiempo hace en Berlín? ¦ What's the weather like in Berlin? ¦ das Wetter ¦ das Wetter
+fill ¦ Es sind dreißig ___. ¦ Grad ¦ Grade / Grads / Uhr ¦ Hace treinta grados. ¦ It's thirty degrees. ¦ Grad no lleva plural. ¦ Grad has no plural.
+fill ¦ ___ ist kalt. Kannst du das Fenster schließen? ¦ Mir ¦ Ich / Mich / Mein ¦ Tengo frío. ¿Puedes cerrar la ventana? ¦ I'm cold. Can you close the window? ¦ mir ist kalt = tengo frío ¦ mir ist kalt = I'm cold
+choose ¦ Hace mucho viento. ¦ It's very windy. ¦ Es ist sehr windig. ¦ Es windet sehr. / Es ist sehr Wind. / Der Wind ist windig.
+choose ¦ ¿Qué estación va después del verano? ¦ Which season comes after summer? ¦ der Herbst ¦ der Frühling / der Winter / der Sommer
+order ¦ Im Sommer fahren wir ans Meer ¦ En verano vamos al mar. ¦ In summer we go to the seaside.
+order ¦ Morgen schneit es in den Bergen ¦ Mañana nieva en las montañas. ¦ Tomorrow it will snow in the mountains.
+translate ¦ Hoy hace sol y calor. ¦ Today it's sunny and warm. ¦ Heute ist es sonnig und warm. ¦ Heute scheint die Sonne und es ist warm.
+translate ¦ En otoño llueve mucho. ¦ It rains a lot in autumn. ¦ Im Herbst regnet es viel. ¦ Im Herbst regnet es oft.
+match ¦ der Regen=la lluvia=rain; der Schnee=la nieve=snow; die Wolke=la nube=cloud; heiß=muy caliente=hot; kühl=fresco=cool
+listen ¦ Morgen wird es sonnig und warm. ¦ Morgen wird es sonnig und kalt. / Heute wird es sonnig und warm. / Morgen wird es regnerisch und warm.
+
+=== 18
+title: Was hast du gemacht? ¦ ¿Qué has hecho? ¦ What did you do?
+desc: Contar lo que hiciste: el Perfekt con haben ¦ Saying what you did: the Perfekt with haben
+gram: Perfekt = haben + participio II al final ¦ participio de los regulares: ge- … -t (gemacht) ¦ participios irregulares: gegessen, getrunken, gesehen ¦ verbos sin ge-: studiert, besucht
+gram_en: Perfekt = haben + past participle at the end ¦ participle of regular verbs: ge- … -t (gemacht) ¦ irregular participles: gegessen, getrunken, gesehen ¦ verbs without ge-: studiert, besucht
+ref: a1-perfekt
+words: machen, spielen, kaufen, kochen, lernen, arbeiten, hören, besuchen, telefonieren, frühstücken, essen, trinken, lesen, sehen, schreiben, schlafen, treffen, sprechen, gestern, letzte, vorgestern, die Woche, das Wochenende, schon, noch nicht
+intro:
+<h3>El Perfekt: el pasado de la conversación</h3>
+<p><b>haben</b> (en 2.ª posición) + <b>participio II</b> (al final):</p>
+<div class="example">Ich <b>habe</b> gestern Fußball <b>gespielt</b>. · <b>Hast</b> du schon <b>gegessen</b>? · Wir <b>haben</b> einen Film <b>gesehen</b>.</div>
+<p>Se traduce como «he jugado» y también como «jugué».</p>
+<h3>Participios regulares: ge- + raíz + -t</h3>
+<table><tr><td>machen → <strong>ge</strong>mach<strong>t</strong></td><td>kaufen → gekauft · spielen → gespielt</td></tr>
+<tr><td>arbeiten → <strong>ge</strong>arbeit<strong>et</strong></td><td>(raíz en -t / -d: -et)</td></tr></table>
+<h3>Participios irregulares: ge- … -en</h3>
+<table><tr><td>essen → gegessen · trinken → getrunken</td><td>sehen → gesehen · lesen → gelesen</td></tr>
+<tr><td>schreiben → geschrieben · schlafen → geschlafen</td><td>treffen → getroffen · sprechen → gesprochen</td></tr></table>
+<h3>Sin ge-</h3>
+<p>Los verbos en <b>-ieren</b> (studiert, telefoniert, fotografiert) y los que empiezan por <b>be-, ver-, er-…</b> (besucht, verkauft, erzählt).</p>
+<div class="tip">Separables: el ge- va en medio: ein<b>ge</b>kauft, an<b>ge</b>rufen, fern<b>ge</b>sehen.</div>
+intro_en:
+<h3>The Perfekt: the past tense of conversation</h3>
+<p><b>haben</b> (in second position) + <b>past participle</b> (at the end):</p>
+<div class="example">Ich <b>habe</b> gestern Fußball <b>gespielt</b>. · <b>Hast</b> du schon <b>gegessen</b>? · Wir <b>haben</b> einen Film <b>gesehen</b>.</div>
+<p>It translates both "I have played" and "I played".</p>
+<h3>Regular participles: ge- + stem + -t</h3>
+<table><tr><td>machen → <strong>ge</strong>mach<strong>t</strong></td><td>kaufen → gekauft · spielen → gespielt</td></tr>
+<tr><td>arbeiten → <strong>ge</strong>arbeit<strong>et</strong></td><td>(stem in -t / -d: -et)</td></tr></table>
+<h3>Irregular participles: ge- … -en</h3>
+<table><tr><td>essen → gegessen · trinken → getrunken</td><td>sehen → gesehen · lesen → gelesen</td></tr>
+<tr><td>schreiben → geschrieben · schlafen → geschlafen</td><td>treffen → getroffen · sprechen → gesprochen</td></tr></table>
+<h3>No ge-</h3>
+<p>Verbs in <b>-ieren</b> (studiert, telefoniert, fotografiert) and verbs beginning with <b>be-, ver-, er-…</b> (besucht, verkauft, erzählt).</p>
+<div class="tip">Separable verbs: ge- goes in the middle: ein<b>ge</b>kauft, an<b>ge</b>rufen, fern<b>ge</b>sehen.</div>
+ex:
+fill ¦ Ich ___ gestern Tennis gespielt. ¦ habe ¦ hat / bin / haben ¦ Ayer jugué al tenis. ¦ I played tennis yesterday. ¦ ich habe … gespielt ¦ ich habe … gespielt
+fill ¦ Wir haben Pizza ___. ¦ gegessen ¦ geesst / gegesst / essen ¦ Hemos comido pizza. ¦ We had pizza. ¦ essen → gegessen ¦ essen → gegessen
+fill ¦ Hast du den Film ___? ¦ gesehen ¦ gesieht / geseht / sehen ¦ ¿Has visto la película? ¦ Have you seen the film? ¦ sehen → gesehen ¦ sehen → gesehen
+fill ¦ Sie hat bis 18 Uhr ___. ¦ gearbeitet ¦ gearbeit / arbeitet / gearbeitt ¦ Ha trabajado hasta las seis. ¦ She worked until six. ¦ arbeiten → gearbeitet ¦ arbeiten → gearbeitet
+fill ¦ Am Wochenende haben wir meine Oma ___. ¦ besucht ¦ gebesucht / besuchen / gesucht ¦ El fin de semana visitamos a mi abuela. ¦ At the weekend we visited my grandma. ¦ be-: sin ge- ¦ be-: no ge-
+fill ¦ Er hat in Berlin Medizin ___. ¦ studiert ¦ gestudiert / studieren / gestudieren ¦ Estudió medicina en Berlín. ¦ He studied medicine in Berlin. ¦ -ieren: sin ge- ¦ -ieren: no ge-
+choose ¦ Participio de «schreiben». ¦ The participle of «schreiben». ¦ geschrieben ¦ geschreibt / schrieben / geschreiben
+choose ¦ ¿Qué frase está bien? ¦ Which sentence is correct? ¦ Ich habe gestern viel gelernt. ¦ Ich habe gelernt gestern viel. / Ich gestern habe viel gelernt. / Ich habe gestern viel lernen.
+order ¦ Was hast du am Wochenende gemacht ¦ ¿Qué hiciste el fin de semana? ¦ What did you do at the weekend?
+order ¦ Ich habe heute noch nicht gefrühstückt ¦ Hoy todavía no he desayunado. ¦ I haven't had breakfast yet today.
+translate ¦ Ayer compré un libro. ¦ I bought a book yesterday. ¦ Ich habe gestern ein Buch gekauft. ¦ Gestern habe ich ein Buch gekauft.
+translate ¦ ¿Has llamado a tu madre? ¦ Have you called your mother? ¦ Hast du deine Mutter angerufen? ¦ Hast du deine Mutter angerufen
+match ¦ gemacht=hecho=done; getrunken=bebido=drunk; gelesen=leído=read; geschlafen=dormido=slept; getroffen=encontrado=met
+listen ¦ Gestern habe ich lange geschlafen. ¦ Gestern habe ich lange gearbeitet. / Heute habe ich lange geschlafen. / Gestern hast du lange geschlafen.
+
+=== 19
+title: Am Wochenende ¦ El fin de semana ¦ At the weekend
+desc: Más Perfekt: con sein; el pasado de sein y haben ¦ More Perfekt: with sein; the past of sein and haben
+gram: Perfekt con sein: movimiento y cambio de estado ¦ ich bin gefahren, ich bin aufgestanden ¦ war y hatte (Präteritum de sein y haben) ¦ preguntas en pasado
+gram_en: Perfekt with sein: movement and change of state ¦ ich bin gefahren, ich bin aufgestanden ¦ war and hatte (simple past of sein and haben) ¦ questions in the past
+ref: a1-perfekt-sein
+words: fahren, gehen, kommen, fliegen, laufen, schwimmen, aufstehen, ankommen, bleiben, werden, passieren, wandern, reisen, sein, haben, die Party, feiern, das Konzert, der Ausflug, das Museum, toll, schön, langweilig, lustig, wann, wie lange
+intro:
+<h3>Perfekt con sein</h3>
+<p>Algunos verbos forman el Perfekt con <b>sein</b>: los de <b>movimiento</b> (de un lugar a otro) y los de <b>cambio de estado</b>, y además sein, bleiben y werden.</p>
+<table><tr><td>gehen → ich <strong>bin</strong> gegangen</td><td>fahren → er <strong>ist</strong> gefahren</td></tr>
+<tr><td>kommen → wir <strong>sind</strong> gekommen</td><td>fliegen → sie <strong>sind</strong> geflogen</td></tr>
+<tr><td>aufstehen → ich <strong>bin</strong> aufgestanden</td><td>bleiben → ich <strong>bin</strong> geblieben</td></tr></table>
+<div class="example">Am Samstag <b>sind</b> wir nach Potsdam <b>gefahren</b>. Wir <b>sind</b> im Park <b>gewandert</b> und dann <b>sind</b> wir ins Museum <b>gegangen</b>.</div>
+<h3>war y hatte</h3>
+<p>Con <b>sein</b> y <b>haben</b> se usa casi siempre el Präteritum:</p>
+<table><tr><td>ich / er <strong>war</strong> · du <strong>warst</strong> · wir / sie <strong>waren</strong></td><td>era / estaba / estuve</td></tr>
+<tr><td>ich / er <strong>hatte</strong> · du <strong>hattest</strong> · wir / sie <strong>hatten</strong></td><td>tenía / tuve</td></tr></table>
+<div class="example">Wie <b>war</b> die Party? — Super! Wir <b>hatten</b> viel Spaß.</div>
+<div class="tip">Truco: si el verbo indica ir <b>de A a B</b>, va con sein. Por eso: <i>Ich bin nach Berlin gefahren</i>, pero <i>Ich habe das Auto gefahren</i> (con objeto directo, haben).</div>
+intro_en:
+<h3>Perfekt with sein</h3>
+<p>Some verbs form the Perfekt with <b>sein</b>: verbs of <b>movement</b> (from one place to another) and of <b>change of state</b>, plus sein, bleiben and werden.</p>
+<table><tr><td>gehen → ich <strong>bin</strong> gegangen</td><td>fahren → er <strong>ist</strong> gefahren</td></tr>
+<tr><td>kommen → wir <strong>sind</strong> gekommen</td><td>fliegen → sie <strong>sind</strong> geflogen</td></tr>
+<tr><td>aufstehen → ich <strong>bin</strong> aufgestanden</td><td>bleiben → ich <strong>bin</strong> geblieben</td></tr></table>
+<div class="example">Am Samstag <b>sind</b> wir nach Potsdam <b>gefahren</b>. Wir <b>sind</b> im Park <b>gewandert</b> und dann <b>sind</b> wir ins Museum <b>gegangen</b>.</div>
+<h3>war and hatte</h3>
+<p>With <b>sein</b> and <b>haben</b> the simple past is used almost always:</p>
+<table><tr><td>ich / er <strong>war</strong> · du <strong>warst</strong> · wir / sie <strong>waren</strong></td><td>was / were</td></tr>
+<tr><td>ich / er <strong>hatte</strong> · du <strong>hattest</strong> · wir / sie <strong>hatten</strong></td><td>had</td></tr></table>
+<div class="example">Wie <b>war</b> die Party? — Super! Wir <b>hatten</b> viel Spaß.</div>
+<div class="tip">Rule of thumb: if the verb means going <b>from A to B</b>, it takes sein. So: <i>Ich bin nach Berlin gefahren</i>, but <i>Ich habe das Auto gefahren</i> (with a direct object, haben).</div>
+ex:
+fill ¦ Wir ___ nach Wien gefahren. ¦ sind ¦ haben / ist / hat ¦ Fuimos a Viena. ¦ We went to Vienna. ¦ fahren (de A a B): sein ¦ fahren (from A to B): sein
+fill ¦ Ich bin um sieben Uhr ___. ¦ aufgestanden ¦ aufgesteht / geaufstanden / aufstehen ¦ Me levanté a las siete. ¦ I got up at seven. ¦ auf|stehen → aufgestanden ¦ auf|stehen → aufgestanden
+fill ¦ Er ist nach Mallorca ___. ¦ geflogen ¦ gefliegt / fliegen / geflogt ¦ Voló a Mallorca. ¦ He flew to Mallorca. ¦ fliegen → geflogen ¦ fliegen → geflogen
+fill ¦ Gestern ___ ich krank. ¦ war ¦ bin / hatte / ist ¦ Ayer estuve enfermo. ¦ I was ill yesterday. ¦ sein → war ¦ sein → war
+fill ¦ Wir ___ keine Zeit. ¦ hatten ¦ waren / hattet / hatte ¦ No teníamos tiempo. ¦ We didn't have time. ¦ haben → wir hatten ¦ haben → wir hatten
+fill ¦ Wo ___ du am Wochenende? ¦ warst ¦ war / wart / waren ¦ ¿Dónde estuviste el fin de semana? ¦ Where were you at the weekend? ¦ du warst ¦ du warst
+choose ¦ ¿Qué auxiliar lleva «bleiben»? ¦ Which auxiliary does «bleiben» take? ¦ Ich bin zu Hause geblieben. ¦ Ich habe zu Hause geblieben. / Ich bin zu Hause gebleibt. / Ich war zu Hause bleiben.
+choose ¦ ¿Qué auxiliar lleva «essen»? ¦ Which auxiliary does «essen» take? ¦ Ich habe Fisch gegessen. ¦ Ich bin Fisch gegessen. / Ich habe Fisch geesst. / Ich bin Fisch geessen.
+order ¦ Wie war dein Wochenende ¦ ¿Qué tal tu fin de semana? ¦ How was your weekend?
+order ¦ Am Sonntag sind wir lange im Bett geblieben ¦ El domingo nos quedamos mucho tiempo en la cama. ¦ On Sunday we stayed in bed for a long time.
+translate ¦ Fui al cine con mis amigos. ¦ I went to the cinema with my friends. ¦ Ich bin mit meinen Freunden ins Kino gegangen. ¦ Ich war mit meinen Freunden im Kino.
+translate ¦ La fiesta fue muy divertida. ¦ The party was great fun. ¦ Die Party war sehr lustig. ¦ Die Party war lustig.
+match ¦ gegangen=ido=gone; gekommen=venido=come; geblieben=quedado=stayed; geflogen=volado=flown; geworden=llegado a ser=become
+listen ¦ Am Samstag sind wir ans Meer gefahren. ¦ Am Sonntag sind wir ans Meer gefahren. / Am Samstag sind wir in die Berge gefahren. / Am Samstag haben wir das Meer gesehen.
+
+=== 20
+title: Im Hotel ¦ En el hotel ¦ At the hotel
+desc: Reservar y alojarse en un hotel; escribir un correo; und, aber, oder, denn ¦ Booking and staying at a hotel; writing an email; und, aber, oder, denn
+gram: conectores und, aber, oder, denn (sin cambiar el orden) ¦ peticiones corteses: Ich hätte gern…, Könnten Sie…? ¦ el correo formal: Sehr geehrte… / Mit freundlichen Grüßen ¦ fechas y estancias: vom … bis zum
+gram_en: connectors und, aber, oder, denn (no change of word order) ¦ polite requests: Ich hätte gern…, Könnten Sie…? ¦ the formal email: Sehr geehrte… / Mit freundlichen Grüßen ¦ dates and stays: vom … bis zum
+ref: a1-hotel
+words: das Hotel, das Zimmer, das Einzelzimmer, das Doppelzimmer, die Rezeption, der Schlüssel, das Frühstück, die Halbpension, übernachten, reservieren, buchen, die Nacht, frei, besetzt, die Dusche, das Bad, der Aufzug, die E-Mail, schreiben, schicken, die Adresse, der Gruß, herzlich, und, aber, oder, denn, mit, ohne
+intro:
+<h3>Reservar una habitación</h3>
+<div class="example">— Guten Tag. Haben Sie noch ein <b>Doppelzimmer</b> frei? — Für wie viele Nächte? — Für drei Nächte, <b>vom</b> 5. <b>bis zum</b> 8. Mai. — Mit Frühstück? — Ja, bitte.</div>
+<p>Pedir con cortesía: <i>Ich <b>hätte gern</b> ein Zimmer mit Dusche.</i> · <i><b>Könnten Sie</b> mich um 7 Uhr wecken?</i></p>
+<h3>Conectores: und, aber, oder, denn</h3>
+<p>Unen dos frases sin cambiar el orden (el verbo sigue en 2.ª posición):</p>
+<div class="example">Das Hotel ist schön, <b>aber</b> es ist teuer. · Wir nehmen das Zimmer, <b>denn</b> es hat einen Balkon. · Möchten Sie Tee <b>oder</b> möchten Sie Kaffee?</div>
+<p><b>denn</b> = porque (en la frase principal; <b>weil</b> cambia el orden, lo verás en A2).</p>
+<h3>El correo electrónico</h3>
+<table><tr><td>formal</td><td><b>Sehr geehrte</b> Frau Weber, / <b>Sehr geehrter</b> Herr Klein, / Sehr geehrte Damen und Herren, … <b>Mit freundlichen Grüßen</b></td></tr>
+<tr><td>informal</td><td><b>Liebe</b> Anna, / <b>Lieber</b> Tom, … <b>Viele Grüße</b> / <b>Liebe Grüße</b></td></tr></table>
+<div class="tip">Tras el saludo se pone una coma y la frase siguiente empieza con minúscula: <i>Liebe Anna, <b>vielen</b> Dank für deine Mail.</i></div>
+intro_en:
+<h3>Booking a room</h3>
+<div class="example">— Guten Tag. Haben Sie noch ein <b>Doppelzimmer</b> frei? — Für wie viele Nächte? — Für drei Nächte, <b>vom</b> 5. <b>bis zum</b> 8. Mai. — Mit Frühstück? — Ja, bitte.</div>
+<p>Asking politely: <i>Ich <b>hätte gern</b> ein Zimmer mit Dusche.</i> (I'd like…) · <i><b>Könnten Sie</b> mich um 7 Uhr wecken?</i> (Could you…?)</p>
+<h3>Connectors: und, aber, oder, denn</h3>
+<p>They join two sentences without changing the word order (the verb stays in second position):</p>
+<div class="example">Das Hotel ist schön, <b>aber</b> es ist teuer. · Wir nehmen das Zimmer, <b>denn</b> es hat einen Balkon. · Möchten Sie Tee <b>oder</b> möchten Sie Kaffee?</div>
+<p><b>denn</b> = because (in a main clause; <b>weil</b> changes the word order, coming in A2).</p>
+<h3>Emails</h3>
+<table><tr><td>formal</td><td><b>Sehr geehrte</b> Frau Weber, / <b>Sehr geehrter</b> Herr Klein, / Sehr geehrte Damen und Herren, … <b>Mit freundlichen Grüßen</b></td></tr>
+<tr><td>informal</td><td><b>Liebe</b> Anna, / <b>Lieber</b> Tom, … <b>Viele Grüße</b> / <b>Liebe Grüße</b></td></tr></table>
+<div class="tip">After the greeting comes a comma, and the next sentence starts with a small letter: <i>Liebe Anna, <b>vielen</b> Dank für deine Mail.</i></div>
+ex:
+fill ¦ Haben Sie noch ein ___ frei? Ich bin allein. ¦ Einzelzimmer ¦ Doppelzimmer / Bad / Hotel ¦ ¿Le queda una habitación individual? Voy solo. ¦ Do you have a single room free? I'm on my own. ¦ allein → Einzelzimmer ¦ alone → Einzelzimmer
+fill ¦ Das Zimmer ist schön, ___ es ist laut. ¦ aber ¦ und / oder / denn ¦ La habitación es bonita, pero hay ruido. ¦ The room is nice, but it's noisy. ¦ aber = pero ¦ aber = but
+fill ¦ Ich bleibe zu Hause, ___ ich bin krank. ¦ denn ¦ aber / oder / dann ¦ Me quedo en casa porque estoy enfermo. ¦ I'm staying at home because I'm ill. ¦ denn = porque (orden normal) ¦ denn = because (normal order)
+fill ¦ Ich ___ gern ein Zimmer mit Balkon. ¦ hätte ¦ habe gern / hatte / möchte ¦ Querría una habitación con balcón. ¦ I'd like a room with a balcony. ¦ Ich hätte gern… = querría ¦ Ich hätte gern… = I'd like
+fill ¦ Wir bleiben ___ 3. bis zum 7. Juni. ¦ vom ¦ von / am / im ¦ Nos quedamos del 3 al 7 de junio. ¦ We're staying from the 3rd to the 7th of June. ¦ vom … bis zum ¦ vom … bis zum
+fill ¦ Sehr ___ Damen und Herren, ¦ geehrte ¦ geehrter / liebe / gute ¦ Estimados señores: ¦ Dear Sir or Madam, ¦ Sehr geehrte Damen und Herren ¦ Sehr geehrte Damen und Herren
+choose ¦ Terminas un correo formal. ¦ You end a formal email. ¦ Mit freundlichen Grüßen ¦ Liebe Grüße / Tschüss / Bis bald
+choose ¦ Empiezas un correo a tu amiga Eva. ¦ You start an email to your friend Eva. ¦ Liebe Eva, ¦ Lieber Eva, / Sehr geehrte Eva, / Hallo Frau Eva,
+order ¦ Ich möchte ein Zimmer für zwei Nächte reservieren ¦ Querría reservar una habitación para dos noches. ¦ I'd like to book a room for two nights.
+order ¦ Ist das Frühstück im Preis inklusive ¦ ¿Está el desayuno incluido en el precio? ¦ Is breakfast included in the price?
+translate ¦ ¿Tiene la habitación ducha? ¦ Does the room have a shower? ¦ Hat das Zimmer eine Dusche? ¦ Gibt es im Zimmer eine Dusche?
+translate ¦ ¿Me puede dar la llave, por favor? ¦ Can you give me the key, please? ¦ Können Sie mir bitte den Schlüssel geben? ¦ Könnten Sie mir bitte den Schlüssel geben?
+match ¦ das Einzelzimmer=la habitación individual=single room; der Schlüssel=la llave=key; die Rezeption=la recepción=reception; übernachten=pasar la noche=to stay overnight; besetzt=ocupado=occupied
+listen ¦ Wir haben noch ein Doppelzimmer mit Balkon frei. ¦ Wir haben noch ein Einzelzimmer mit Balkon frei. / Wir haben kein Doppelzimmer mit Balkon frei. / Wir haben noch ein Doppelzimmer mit Bad frei.

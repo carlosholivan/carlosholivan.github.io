@@ -4,6 +4,7 @@
   const APPS = [
     { id: 'english', path: 'english-app', glyph: 'En', name: 'Inglés' },
     { id: 'francais', path: 'francais-app', glyph: 'Fr', name: 'Francés' },
+    { id: 'deutsch', path: 'deutsch-app', glyph: 'De', name: 'Alemán' },
     { id: 'nihongo', path: 'nihongo-app', glyph: '日', name: 'Japonés' },
     { id: 'chino', path: 'chino-app', glyph: '中', name: 'Chino' },
     { id: 'arabic', path: 'arabic-app', glyph: 'ع', name: 'Árabe' },
