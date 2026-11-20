@@ -1,0 +1,10018 @@
+[
+{
+"word": "damals",
+"m": {
+"es": "entonces (en el pasado)",
+"en": "back then"
+},
+"pos": "",
+"w": "damals",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 977
+},
+{
+"word": "als",
+"m": {
+"es": "cuando (en el pasado); que (comparación); como",
+"en": "when (past); than; as"
+},
+"pos": "",
+"w": "als",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 978
+},
+{
+"word": "die Kindheit",
+"m": {
+"es": "la infancia",
+"en": "childhood"
+},
+"pos": "noun",
+"w": "die Kindheit",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "a2-1",
+"q": 979
+},
+{
+"word": "die Ausbildung",
+"m": {
+"es": "la formación profesional · pl. die Ausbildungen",
+"en": "vocational training · pl. die Ausbildungen"
+},
+"pos": "noun",
+"w": "die Ausbildung",
+"p": "",
+"g": "f",
+"pl": "Ausbildungen",
+"unit": 1,
+"u": "a2-1",
+"q": 980
+},
+{
+"word": "sich umziehen",
+"m": {
+"es": "cambiarse de ropa · zieht um, zog um, hat umgezogen",
+"en": "to get changed · zieht um, zog um, hat umgezogen"
+},
+"pos": "verb",
+"w": "sich umziehen",
+"p": "",
+"pp": "zieht um, zog um, hat umgezogen",
+"unit": 1,
+"u": "a2-1",
+"q": 981
+},
+{
+"word": "der Umzug",
+"m": {
+"es": "la mudanza · pl. die Umzüge",
+"en": "move (house) · pl. die Umzüge"
+},
+"pos": "noun",
+"w": "der Umzug",
+"p": "",
+"g": "m",
+"pl": "Umzüge",
+"unit": 1,
+"u": "a2-1",
+"q": 982
+},
+{
+"word": "aufwachsen",
+"m": {
+"es": "criarse, crecer · wächst auf, wuchs auf, ist aufgewachsen",
+"en": "to grow up · wächst auf, wuchs auf, ist aufgewachsen"
+},
+"pos": "verb",
+"w": "aufwachsen",
+"p": "",
+"pp": "wächst auf, wuchs auf, ist aufgewachsen",
+"unit": 1,
+"u": "a2-1",
+"q": 983
+},
+{
+"word": "die Erfahrung",
+"m": {
+"es": "la experiencia · pl. die Erfahrungen",
+"en": "experience · pl. die Erfahrungen"
+},
+"pos": "noun",
+"w": "die Erfahrung",
+"p": "",
+"g": "f",
+"pl": "Erfahrungen",
+"unit": 1,
+"u": "a2-1",
+"q": 984
+},
+{
+"word": "sich erinnern",
+"m": {
+"es": "acordarse",
+"en": "to remember"
+},
+"pos": "verb",
+"w": "sich erinnern",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 985
+},
+{
+"word": "die Grundschule",
+"m": {
+"es": "la escuela primaria · pl. die Grundschulen",
+"en": "primary school · pl. die Grundschulen"
+},
+"pos": "noun",
+"w": "die Grundschule",
+"p": "",
+"g": "f",
+"pl": "Grundschulen",
+"unit": 1,
+"u": "a2-1",
+"q": 986
+},
+{
+"word": "das Gymnasium",
+"m": {
+"es": "el instituto (de bachillerato) · pl. die Gymnasien",
+"en": "grammar school · pl. die Gymnasien"
+},
+"pos": "noun",
+"w": "das Gymnasium",
+"p": "",
+"g": "n",
+"pl": "Gymnasien",
+"unit": 1,
+"u": "a2-1",
+"q": 987
+},
+{
+"word": "das Abitur",
+"m": {
+"es": "el bachillerato (examen final)",
+"en": "A levels (school-leaving exam)"
+},
+"pos": "noun",
+"w": "das Abitur",
+"p": "",
+"g": "n",
+"unit": 1,
+"u": "a2-1",
+"q": 988
+},
+{
+"word": "der Lebenslauf",
+"m": {
+"es": "el currículum · pl. die Lebensläufe",
+"en": "CV · pl. die Lebensläufe"
+},
+"pos": "noun",
+"w": "der Lebenslauf",
+"p": "",
+"g": "m",
+"pl": "Lebensläufe",
+"unit": 1,
+"u": "a2-1",
+"q": 989
+},
+{
+"word": "schließlich",
+"m": {
+"es": "finalmente",
+"en": "finally"
+},
+"pos": "",
+"w": "schließlich",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 990
+},
+{
+"word": "seitdem",
+"m": {
+"es": "desde entonces",
+"en": "since then"
+},
+"pos": "",
+"w": "seitdem",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 991
+},
+{
+"word": "bisher",
+"m": {
+"es": "hasta ahora",
+"en": "so far"
+},
+"pos": "",
+"w": "bisher",
+"p": "",
+"unit": 1,
+"u": "a2-1",
+"q": 992
+},
+{
+"word": "hängen",
+"m": {
+"es": "colgar; estar colgado · hängt, hing, hat gehangen",
+"en": "to hang · hängt, hing, hat gehangen"
+},
+"pos": "verb",
+"w": "hängen",
+"p": "",
+"pp": "hängt, hing, hat gehangen",
+"unit": 2,
+"u": "a2-2",
+"q": 993
+},
+{
+"word": "sich setzen",
+"m": {
+"es": "sentarse",
+"en": "to sit down"
+},
+"pos": "verb",
+"w": "sich setzen",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 994
+},
+{
+"word": "die Decke",
+"m": {
+"es": "la manta; el techo · pl. die Decken",
+"en": "blanket; ceiling · pl. die Decken"
+},
+"pos": "noun",
+"w": "die Decke",
+"p": "",
+"g": "f",
+"pl": "Decken",
+"unit": 2,
+"u": "a2-2",
+"q": 995
+},
+{
+"word": "der Spiegel",
+"m": {
+"es": "el espejo · pl. die Spiegel",
+"en": "mirror · pl. die Spiegel"
+},
+"pos": "noun",
+"w": "der Spiegel",
+"p": "",
+"g": "m",
+"pl": "Spiegel",
+"unit": 2,
+"u": "a2-2",
+"q": 996
+},
+{
+"word": "der Keller",
+"m": {
+"es": "el sótano · pl. die Keller",
+"en": "cellar, basement · pl. die Keller"
+},
+"pos": "noun",
+"w": "der Keller",
+"p": "",
+"g": "m",
+"pl": "Keller",
+"unit": 2,
+"u": "a2-2",
+"q": 997
+},
+{
+"word": "das Erdgeschoss",
+"m": {
+"es": "la planta baja · pl. die Erdgeschosse",
+"en": "ground floor · pl. die Erdgeschosse"
+},
+"pos": "noun",
+"w": "das Erdgeschoss",
+"p": "",
+"g": "n",
+"pl": "Erdgeschosse",
+"unit": 2,
+"u": "a2-2",
+"q": 998
+},
+{
+"word": "einziehen",
+"m": {
+"es": "mudarse (a una casa) · zieht ein, zog ein, ist eingezogen",
+"en": "to move in · zieht ein, zog ein, ist eingezogen"
+},
+"pos": "verb",
+"w": "einziehen",
+"p": "",
+"pp": "zieht ein, zog ein, ist eingezogen",
+"unit": 2,
+"u": "a2-2",
+"q": 999
+},
+{
+"word": "auspacken",
+"m": {
+"es": "desembalar, deshacer (la maleta)",
+"en": "to unpack"
+},
+"pos": "verb",
+"w": "auspacken",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1000
+},
+{
+"word": "renovieren",
+"m": {
+"es": "reformar",
+"en": "to renovate"
+},
+"pos": "verb",
+"w": "renovieren",
+"p": "",
+"unit": 2,
+"u": "a2-2",
+"q": 1001
+},
+{
+"word": "die Heizung",
+"m": {
+"es": "la calefacción · pl. die Heizungen",
+"en": "heating · pl. die Heizungen"
+},
+"pos": "noun",
+"w": "die Heizung",
+"p": "",
+"g": "f",
+"pl": "Heizungen",
+"unit": 2,
+"u": "a2-2",
+"q": 1002
+},
+{
+"word": "schenken",
+"m": {
+"es": "regalar",
+"en": "to give (as a present)"
+},
+"pos": "verb",
+"w": "schenken",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1003
+},
+{
+"word": "das Fest",
+"m": {
+"es": "la fiesta · pl. die Feste",
+"en": "party, festival · pl. die Feste"
+},
+"pos": "noun",
+"w": "das Fest",
+"p": "",
+"g": "n",
+"pl": "Feste",
+"unit": 3,
+"u": "a2-3",
+"q": 1004
+},
+{
+"word": "die Feier",
+"m": {
+"es": "la celebración, la fiesta · pl. die Feiern",
+"en": "celebration · pl. die Feiern"
+},
+"pos": "noun",
+"w": "die Feier",
+"p": "",
+"g": "f",
+"pl": "Feiern",
+"unit": 3,
+"u": "a2-3",
+"q": 1005
+},
+{
+"word": "Weihnachten",
+"m": {
+"es": "la Navidad",
+"en": "Christmas"
+},
+"pos": "",
+"w": "Weihnachten",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1006
+},
+{
+"word": "Ostern",
+"m": {
+"es": "la Pascua",
+"en": "Easter"
+},
+"pos": "",
+"w": "Ostern",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1007
+},
+{
+"word": "Silvester",
+"m": {
+"es": "Nochevieja",
+"en": "New Year's Eve"
+},
+"pos": "",
+"w": "Silvester",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1008
+},
+{
+"word": "die Kerze",
+"m": {
+"es": "la vela · pl. die Kerzen",
+"en": "candle · pl. die Kerzen"
+},
+"pos": "noun",
+"w": "die Kerze",
+"p": "",
+"g": "f",
+"pl": "Kerzen",
+"unit": 3,
+"u": "a2-3",
+"q": 1009
+},
+{
+"word": "die Torte",
+"m": {
+"es": "la tarta · pl. die Torten",
+"en": "gateau, cake · pl. die Torten"
+},
+"pos": "noun",
+"w": "die Torte",
+"p": "",
+"g": "f",
+"pl": "Torten",
+"unit": 3,
+"u": "a2-3",
+"q": 1010
+},
+{
+"word": "herzlichen Glückwunsch",
+"m": {
+"es": "muchas felicidades",
+"en": "congratulations"
+},
+"pos": "",
+"w": "herzlichen Glückwunsch",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1011
+},
+{
+"word": "alles Gute",
+"m": {
+"es": "que te vaya bien, felicidades",
+"en": "all the best"
+},
+"pos": "",
+"w": "alles Gute",
+"p": "",
+"unit": 3,
+"u": "a2-3",
+"q": 1012
+},
+{
+"word": "das Gehalt",
+"m": {
+"es": "el sueldo · pl. die Gehälter",
+"en": "salary · pl. die Gehälter"
+},
+"pos": "noun",
+"w": "das Gehalt",
+"p": "",
+"g": "n",
+"pl": "Gehälter",
+"unit": 4,
+"u": "a2-4",
+"q": 1013
+},
+{
+"word": "die Teilzeit",
+"m": {
+"es": "la media jornada",
+"en": "part-time"
+},
+"pos": "noun",
+"w": "die Teilzeit",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "a2-4",
+"q": 1014
+},
+{
+"word": "die Vollzeit",
+"m": {
+"es": "la jornada completa",
+"en": "full-time"
+},
+"pos": "noun",
+"w": "die Vollzeit",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "a2-4",
+"q": 1015
+},
+{
+"word": "der Feierabend",
+"m": {
+"es": "el final de la jornada laboral · pl. die Feierabende",
+"en": "end of the working day · pl. die Feierabende"
+},
+"pos": "noun",
+"w": "der Feierabend",
+"p": "",
+"g": "m",
+"pl": "Feierabende",
+"unit": 4,
+"u": "a2-4",
+"q": 1016
+},
+{
+"word": "die Besprechung",
+"m": {
+"es": "la reunión · pl. die Besprechungen",
+"en": "meeting · pl. die Besprechungen"
+},
+"pos": "noun",
+"w": "die Besprechung",
+"p": "",
+"g": "f",
+"pl": "Besprechungen",
+"unit": 4,
+"u": "a2-4",
+"q": 1017
+},
+{
+"word": "der Ingenieur",
+"m": {
+"es": "el ingeniero · pl. die Ingenieure",
+"en": "engineer · pl. die Ingenieure"
+},
+"pos": "noun",
+"w": "der Ingenieur",
+"p": "",
+"g": "m",
+"pl": "Ingenieure",
+"unit": 4,
+"u": "a2-4",
+"q": 1018
+},
+{
+"word": "der Koch",
+"m": {
+"es": "el cocinero · pl. die Köche",
+"en": "cook · pl. die Köche"
+},
+"pos": "noun",
+"w": "der Koch",
+"p": "",
+"g": "m",
+"pl": "Köche",
+"unit": 4,
+"u": "a2-4",
+"q": 1019
+},
+{
+"word": "der Friseur",
+"m": {
+"es": "el peluquero · pl. die Friseure",
+"en": "hairdresser · pl. die Friseure"
+},
+"pos": "noun",
+"w": "der Friseur",
+"p": "",
+"g": "m",
+"pl": "Friseure",
+"unit": 4,
+"u": "a2-4",
+"q": 1020
+},
+{
+"word": "der Mechaniker",
+"m": {
+"es": "el mecánico · pl. die Mechaniker",
+"en": "mechanic · pl. die Mechaniker"
+},
+"pos": "noun",
+"w": "der Mechaniker",
+"p": "",
+"g": "m",
+"pl": "Mechaniker",
+"unit": 4,
+"u": "a2-4",
+"q": 1021
+},
+{
+"word": "der Polizist",
+"m": {
+"es": "el policía · pl. die Polizisten",
+"en": "police officer · pl. die Polizisten"
+},
+"pos": "noun",
+"w": "der Polizist",
+"p": "",
+"g": "m",
+"pl": "Polizisten",
+"unit": 4,
+"u": "a2-4",
+"q": 1022
+},
+{
+"word": "die Krankenschwester",
+"m": {
+"es": "la enfermera · pl. die Krankenschwestern",
+"en": "nurse · pl. die Krankenschwestern"
+},
+"pos": "noun",
+"w": "die Krankenschwester",
+"p": "",
+"g": "f",
+"pl": "Krankenschwestern",
+"unit": 4,
+"u": "a2-4",
+"q": 1023
+},
+{
+"word": "der Kellner",
+"m": {
+"es": "el camarero · pl. die Kellner",
+"en": "waiter · pl. die Kellner"
+},
+"pos": "noun",
+"w": "der Kellner",
+"p": "",
+"g": "m",
+"pl": "Kellner",
+"unit": 4,
+"u": "a2-4",
+"q": 1024
+},
+{
+"word": "meinen",
+"m": {
+"es": "opinar; querer decir",
+"en": "to think; to mean"
+},
+"pos": "verb",
+"w": "meinen",
+"p": "",
+"unit": 4,
+"u": "a2-4",
+"q": 1025
+},
+{
+"word": "sich fühlen",
+"m": {
+"es": "sentirse",
+"en": "to feel"
+},
+"pos": "verb",
+"w": "sich fühlen",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1026
+},
+{
+"word": "sich erkälten",
+"m": {
+"es": "resfriarse",
+"en": "to catch a cold"
+},
+"pos": "verb",
+"w": "sich erkälten",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1027
+},
+{
+"word": "sich ausruhen",
+"m": {
+"es": "descansar",
+"en": "to rest"
+},
+"pos": "verb",
+"w": "sich ausruhen",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1028
+},
+{
+"word": "sich bewegen",
+"m": {
+"es": "moverse, hacer ejercicio",
+"en": "to move, to exercise"
+},
+"pos": "verb",
+"w": "sich bewegen",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1029
+},
+{
+"word": "sich ernähren",
+"m": {
+"es": "alimentarse",
+"en": "to eat (a diet)"
+},
+"pos": "verb",
+"w": "sich ernähren",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1030
+},
+{
+"word": "die Gesundheit",
+"m": {
+"es": "la salud",
+"en": "health"
+},
+"pos": "noun",
+"w": "die Gesundheit",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "a2-5",
+"q": 1031
+},
+{
+"word": "die Krankheit",
+"m": {
+"es": "la enfermedad · pl. die Krankheiten",
+"en": "illness · pl. die Krankheiten"
+},
+"pos": "noun",
+"w": "die Krankheit",
+"p": "",
+"g": "f",
+"pl": "Krankheiten",
+"unit": 5,
+"u": "a2-5",
+"q": 1032
+},
+{
+"word": "die Erkältung",
+"m": {
+"es": "el resfriado · pl. die Erkältungen",
+"en": "cold · pl. die Erkältungen"
+},
+"pos": "noun",
+"w": "die Erkältung",
+"p": "",
+"g": "f",
+"pl": "Erkältungen",
+"unit": 5,
+"u": "a2-5",
+"q": 1033
+},
+{
+"word": "die Grippe",
+"m": {
+"es": "la gripe",
+"en": "flu"
+},
+"pos": "noun",
+"w": "die Grippe",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "a2-5",
+"q": 1034
+},
+{
+"word": "der Husten",
+"m": {
+"es": "la tos",
+"en": "cough"
+},
+"pos": "noun",
+"w": "der Husten",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "a2-5",
+"q": 1035
+},
+{
+"word": "der Schnupfen",
+"m": {
+"es": "el resfriado nasal",
+"en": "runny nose"
+},
+"pos": "noun",
+"w": "der Schnupfen",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "a2-5",
+"q": 1036
+},
+{
+"word": "der Schmerz",
+"m": {
+"es": "el dolor · pl. die Schmerzen",
+"en": "pain · pl. die Schmerzen"
+},
+"pos": "noun",
+"w": "der Schmerz",
+"p": "",
+"g": "m",
+"pl": "Schmerzen",
+"unit": 5,
+"u": "a2-5",
+"q": 1037
+},
+{
+"word": "das Medikament",
+"m": {
+"es": "el medicamento · pl. die Medikamente",
+"en": "medicine · pl. die Medikamente"
+},
+"pos": "noun",
+"w": "das Medikament",
+"p": "",
+"g": "n",
+"pl": "Medikamente",
+"unit": 5,
+"u": "a2-5",
+"q": 1038
+},
+{
+"word": "das Rezept",
+"m": {
+"es": "la receta · pl. die Rezepte",
+"en": "recipe; prescription · pl. die Rezepte"
+},
+"pos": "noun",
+"w": "das Rezept",
+"p": "",
+"g": "n",
+"pl": "Rezepte",
+"unit": 5,
+"u": "a2-5",
+"q": 1039
+},
+{
+"word": "der Zahnarzt",
+"m": {
+"es": "el dentista · pl. die Zahnärzte",
+"en": "dentist · pl. die Zahnärzte"
+},
+"pos": "noun",
+"w": "der Zahnarzt",
+"p": "",
+"g": "m",
+"pl": "Zahnärzte",
+"unit": 5,
+"u": "a2-5",
+"q": 1040
+},
+{
+"word": "gute Besserung",
+"m": {
+"es": "que te mejores",
+"en": "get well soon"
+},
+"pos": "",
+"w": "gute Besserung",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1041
+},
+{
+"word": "erkältet",
+"m": {
+"es": "resfriado",
+"en": "having a cold"
+},
+"pos": "",
+"w": "erkältet",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1042
+},
+{
+"word": "husten",
+"m": {
+"es": "toser",
+"en": "to cough"
+},
+"pos": "verb",
+"w": "husten",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1043
+},
+{
+"word": "der Magen",
+"m": {
+"es": "el estómago · pl. die Mägen",
+"en": "stomach · pl. die Mägen"
+},
+"pos": "noun",
+"w": "der Magen",
+"p": "",
+"g": "m",
+"pl": "Mägen",
+"unit": 5,
+"u": "a2-5",
+"q": 1044
+},
+{
+"word": "das Herz",
+"m": {
+"es": "el corazón · pl. die Herzen",
+"en": "heart · pl. die Herzen"
+},
+"pos": "noun",
+"w": "das Herz",
+"p": "",
+"g": "n",
+"pl": "Herzen",
+"unit": 5,
+"u": "a2-5",
+"q": 1045
+},
+{
+"word": "die Diät",
+"m": {
+"es": "la dieta, el régimen · pl. die Diäten",
+"en": "diet · pl. die Diäten"
+},
+"pos": "noun",
+"w": "die Diät",
+"p": "",
+"g": "f",
+"pl": "Diäten",
+"unit": 5,
+"u": "a2-5",
+"q": 1046
+},
+{
+"word": "vegetarisch",
+"m": {
+"es": "vegetariano",
+"en": "vegetarian"
+},
+"pos": "",
+"w": "vegetarisch",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1047
+},
+{
+"word": "regelmäßig",
+"m": {
+"es": "regularmente",
+"en": "regularly"
+},
+"pos": "",
+"w": "regelmäßig",
+"p": "",
+"unit": 5,
+"u": "a2-5",
+"q": 1048
+},
+{
+"word": "die Sprechstunde",
+"m": {
+"es": "el horario de consulta · pl. die Sprechstunden",
+"en": "consulting hours · pl. die Sprechstunden"
+},
+"pos": "noun",
+"w": "die Sprechstunde",
+"p": "",
+"g": "f",
+"pl": "Sprechstunden",
+"unit": 5,
+"u": "a2-5",
+"q": 1049
+},
+{
+"word": "die Versichertenkarte",
+"m": {
+"es": "la tarjeta sanitaria · pl. die Versichertenkarten",
+"en": "health insurance card · pl. die Versichertenkarten"
+},
+"pos": "noun",
+"w": "die Versichertenkarte",
+"p": "",
+"g": "f",
+"pl": "Versichertenkarten",
+"unit": 5,
+"u": "a2-5",
+"q": 1050
+},
+{
+"word": "blond",
+"m": {
+"es": "rubio",
+"en": "blond"
+},
+"pos": "",
+"w": "blond",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1051
+},
+{
+"word": "lockig",
+"m": {
+"es": "rizado",
+"en": "curly"
+},
+"pos": "",
+"w": "lockig",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1052
+},
+{
+"word": "glatt",
+"m": {
+"es": "liso",
+"en": "straight (hair); smooth"
+},
+"pos": "",
+"w": "glatt",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1053
+},
+{
+"word": "der Bart",
+"m": {
+"es": "la barba · pl. die Bärte",
+"en": "beard · pl. die Bärte"
+},
+"pos": "noun",
+"w": "der Bart",
+"p": "",
+"g": "m",
+"pl": "Bärte",
+"unit": 6,
+"u": "a2-6",
+"q": 1054
+},
+{
+"word": "die Figur",
+"m": {
+"es": "la figura, el tipo · pl. die Figuren",
+"en": "figure · pl. die Figuren"
+},
+"pos": "noun",
+"w": "die Figur",
+"p": "",
+"g": "f",
+"pl": "Figuren",
+"unit": 6,
+"u": "a2-6",
+"q": 1055
+},
+{
+"word": "das Gesicht",
+"m": {
+"es": "la cara · pl. die Gesichter",
+"en": "face · pl. die Gesichter"
+},
+"pos": "noun",
+"w": "das Gesicht",
+"p": "",
+"g": "n",
+"pl": "Gesichter",
+"unit": 6,
+"u": "a2-6",
+"q": 1056
+},
+{
+"word": "die Bluse",
+"m": {
+"es": "la blusa · pl. die Blusen",
+"en": "blouse · pl. die Blusen"
+},
+"pos": "noun",
+"w": "die Bluse",
+"p": "",
+"g": "f",
+"pl": "Blusen",
+"unit": 6,
+"u": "a2-6",
+"q": 1057
+},
+{
+"word": "der Anzug",
+"m": {
+"es": "el traje · pl. die Anzüge",
+"en": "suit · pl. die Anzüge"
+},
+"pos": "noun",
+"w": "der Anzug",
+"p": "",
+"g": "m",
+"pl": "Anzüge",
+"unit": 6,
+"u": "a2-6",
+"q": 1058
+},
+{
+"word": "die Jeans",
+"m": {
+"es": "los vaqueros · (solo plural)",
+"en": "jeans · (plural only)"
+},
+"pos": "noun",
+"w": "die Jeans",
+"p": "",
+"g": "pl",
+"unit": 6,
+"u": "a2-6",
+"q": 1059
+},
+{
+"word": "der Gürtel",
+"m": {
+"es": "el cinturón · pl. die Gürtel",
+"en": "belt · pl. die Gürtel"
+},
+"pos": "noun",
+"w": "der Gürtel",
+"p": "",
+"g": "m",
+"pl": "Gürtel",
+"unit": 6,
+"u": "a2-6",
+"q": 1060
+},
+{
+"word": "der Hut",
+"m": {
+"es": "el sombrero · pl. die Hüte",
+"en": "hat · pl. die Hüte"
+},
+"pos": "noun",
+"w": "der Hut",
+"p": "",
+"g": "m",
+"pl": "Hüte",
+"unit": 6,
+"u": "a2-6",
+"q": 1061
+},
+{
+"word": "der Schal",
+"m": {
+"es": "la bufanda · pl. die Schals",
+"en": "scarf · pl. die Schals"
+},
+"pos": "noun",
+"w": "der Schal",
+"p": "",
+"g": "m",
+"pl": "Schals",
+"unit": 6,
+"u": "a2-6",
+"q": 1062
+},
+{
+"word": "die Socke",
+"m": {
+"es": "el calcetín · pl. die Socken",
+"en": "sock · pl. die Socken"
+},
+"pos": "noun",
+"w": "die Socke",
+"p": "",
+"g": "f",
+"pl": "Socken",
+"unit": 6,
+"u": "a2-6",
+"q": 1063
+},
+{
+"word": "gestreift",
+"m": {
+"es": "de rayas",
+"en": "striped"
+},
+"pos": "",
+"w": "gestreift",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1064
+},
+{
+"word": "kariert",
+"m": {
+"es": "de cuadros",
+"en": "checked"
+},
+"pos": "",
+"w": "kariert",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1065
+},
+{
+"word": "elegant",
+"m": {
+"es": "elegante",
+"en": "elegant"
+},
+"pos": "",
+"w": "elegant",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1066
+},
+{
+"word": "sportlich",
+"m": {
+"es": "deportista, deportivo",
+"en": "sporty"
+},
+"pos": "",
+"w": "sportlich",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1067
+},
+{
+"word": "modern",
+"m": {
+"es": "moderno",
+"en": "modern"
+},
+"pos": "verb",
+"w": "modern",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1068
+},
+{
+"word": "ähnlich",
+"m": {
+"es": "parecido",
+"en": "similar"
+},
+"pos": "",
+"w": "ähnlich",
+"p": "",
+"unit": 6,
+"u": "a2-6",
+"q": 1069
+},
+{
+"word": "liefern",
+"m": {
+"es": "entregar, suministrar",
+"en": "to deliver"
+},
+"pos": "verb",
+"w": "liefern",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1070
+},
+{
+"word": "das Paket",
+"m": {
+"es": "el paquete · pl. die Pakete",
+"en": "parcel · pl. die Pakete"
+},
+"pos": "noun",
+"w": "das Paket",
+"p": "",
+"g": "n",
+"pl": "Pakete",
+"unit": 7,
+"u": "a2-7",
+"q": 1071
+},
+{
+"word": "umtauschen",
+"m": {
+"es": "cambiar (un artículo comprado)",
+"en": "to exchange (a purchase)"
+},
+"pos": "",
+"w": "umtauschen",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1072
+},
+{
+"word": "die Qualität",
+"m": {
+"es": "la calidad · pl. die Qualitäten",
+"en": "quality · pl. die Qualitäten"
+},
+"pos": "noun",
+"w": "die Qualität",
+"p": "",
+"g": "f",
+"pl": "Qualitäten",
+"unit": 7,
+"u": "a2-7",
+"q": 1073
+},
+{
+"word": "preiswert",
+"m": {
+"es": "barato, a buen precio",
+"en": "good value"
+},
+"pos": "",
+"w": "preiswert",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1074
+},
+{
+"word": "kostenlos",
+"m": {
+"es": "gratuito",
+"en": "free of charge"
+},
+"pos": "",
+"w": "kostenlos",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1075
+},
+{
+"word": "reduziert",
+"m": {
+"es": "rebajado",
+"en": "reduced"
+},
+"pos": "",
+"w": "reduziert",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1076
+},
+{
+"word": "das Produkt",
+"m": {
+"es": "el producto · pl. die Produkte",
+"en": "product · pl. die Produkte"
+},
+"pos": "noun",
+"w": "das Produkt",
+"p": "",
+"g": "n",
+"pl": "Produkte",
+"unit": 7,
+"u": "a2-7",
+"q": 1077
+},
+{
+"word": "das Tablet",
+"m": {
+"es": "la tableta · pl. die Tablets",
+"en": "tablet · pl. die Tablets"
+},
+"pos": "noun",
+"w": "das Tablet",
+"p": "",
+"g": "n",
+"pl": "Tablets",
+"unit": 7,
+"u": "a2-7",
+"q": 1078
+},
+{
+"word": "der Bildschirm",
+"m": {
+"es": "la pantalla · pl. die Bildschirme",
+"en": "screen · pl. die Bildschirme"
+},
+"pos": "noun",
+"w": "der Bildschirm",
+"p": "",
+"g": "m",
+"pl": "Bildschirme",
+"unit": 7,
+"u": "a2-7",
+"q": 1079
+},
+{
+"word": "die Kamera",
+"m": {
+"es": "la cámara · pl. die Kameras",
+"en": "camera · pl. die Kameras"
+},
+"pos": "noun",
+"w": "die Kamera",
+"p": "",
+"g": "f",
+"pl": "Kameras",
+"unit": 7,
+"u": "a2-7",
+"q": 1080
+},
+{
+"word": "funktionieren",
+"m": {
+"es": "funcionar",
+"en": "to work, to function"
+},
+"pos": "verb",
+"w": "funktionieren",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1081
+},
+{
+"word": "das Passwort",
+"m": {
+"es": "la contraseña · pl. die Passwörter",
+"en": "password · pl. die Passwörter"
+},
+"pos": "noun",
+"w": "das Passwort",
+"p": "",
+"g": "n",
+"pl": "Passwörter",
+"unit": 7,
+"u": "a2-7",
+"q": 1082
+},
+{
+"word": "online",
+"m": {
+"es": "en línea",
+"en": "online"
+},
+"pos": "",
+"w": "online",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1083
+},
+{
+"word": "die Webseite",
+"m": {
+"es": "la página web · pl. die Webseiten",
+"en": "web page · pl. die Webseiten"
+},
+"pos": "noun",
+"w": "die Webseite",
+"p": "",
+"g": "f",
+"pl": "Webseiten",
+"unit": 7,
+"u": "a2-7",
+"q": 1084
+},
+{
+"word": "die Lieferung",
+"m": {
+"es": "la entrega, el envío · pl. die Lieferungen",
+"en": "delivery · pl. die Lieferungen"
+},
+"pos": "noun",
+"w": "die Lieferung",
+"p": "",
+"g": "f",
+"pl": "Lieferungen",
+"unit": 7,
+"u": "a2-7",
+"q": 1085
+},
+{
+"word": "zurückschicken",
+"m": {
+"es": "devolver (por correo)",
+"en": "to send back"
+},
+"pos": "verb",
+"w": "zurückschicken",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1086
+},
+{
+"word": "sich beschweren",
+"m": {
+"es": "quejarse",
+"en": "to complain"
+},
+"pos": "verb",
+"w": "sich beschweren",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1087
+},
+{
+"word": "enttäuscht",
+"m": {
+"es": "decepcionado",
+"en": "disappointed"
+},
+"pos": "",
+"w": "enttäuscht",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1088
+},
+{
+"word": "praktisch",
+"m": {
+"es": "práctico",
+"en": "practical"
+},
+"pos": "",
+"w": "praktisch",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1089
+},
+{
+"word": "bequem",
+"m": {
+"es": "cómodo",
+"en": "comfortable"
+},
+"pos": "",
+"w": "bequem",
+"p": "",
+"unit": 7,
+"u": "a2-7",
+"q": 1090
+},
+{
+"word": "am besten",
+"m": {
+"es": "lo mejor",
+"en": "best"
+},
+"pos": "",
+"w": "am besten",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1091
+},
+{
+"word": "am meisten",
+"m": {
+"es": "lo que más",
+"en": "most"
+},
+"pos": "",
+"w": "am meisten",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1092
+},
+{
+"word": "am liebsten",
+"m": {
+"es": "lo que más me gusta",
+"en": "most of all (liking)"
+},
+"pos": "",
+"w": "am liebsten",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1093
+},
+{
+"word": "die Hauptstadt",
+"m": {
+"es": "la capital · pl. die Hauptstädte",
+"en": "capital · pl. die Hauptstädte"
+},
+"pos": "noun",
+"w": "die Hauptstadt",
+"p": "",
+"g": "f",
+"pl": "Hauptstädte",
+"unit": 8,
+"u": "a2-8",
+"q": 1094
+},
+{
+"word": "die Insel",
+"m": {
+"es": "la isla · pl. die Inseln",
+"en": "island · pl. die Inseln"
+},
+"pos": "noun",
+"w": "die Insel",
+"p": "",
+"g": "f",
+"pl": "Inseln",
+"unit": 8,
+"u": "a2-8",
+"q": 1095
+},
+{
+"word": "tief",
+"m": {
+"es": "profundo",
+"en": "deep"
+},
+"pos": "",
+"w": "tief",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1096
+},
+{
+"word": "beliebt",
+"m": {
+"es": "popular, querido",
+"en": "popular"
+},
+"pos": "",
+"w": "beliebt",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1097
+},
+{
+"word": "berühmt",
+"m": {
+"es": "famoso",
+"en": "famous"
+},
+"pos": "",
+"w": "berühmt",
+"p": "",
+"unit": 8,
+"u": "a2-8",
+"q": 1098
+},
+{
+"word": "verreisen",
+"m": {
+"es": "irse de viaje",
+"en": "to go away (on a trip)"
+},
+"pos": "verb",
+"w": "verreisen",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1099
+},
+{
+"word": "die Unterkunft",
+"m": {
+"es": "el alojamiento · pl. die Unterkünfte",
+"en": "accommodation · pl. die Unterkünfte"
+},
+"pos": "noun",
+"w": "die Unterkunft",
+"p": "",
+"g": "f",
+"pl": "Unterkünfte",
+"unit": 9,
+"u": "a2-9",
+"q": 1100
+},
+{
+"word": "die Jugendherberge",
+"m": {
+"es": "el albergue juvenil · pl. die Jugendherbergen",
+"en": "youth hostel · pl. die Jugendherbergen"
+},
+"pos": "noun",
+"w": "die Jugendherberge",
+"p": "",
+"g": "f",
+"pl": "Jugendherbergen",
+"unit": 9,
+"u": "a2-9",
+"q": 1101
+},
+{
+"word": "der Campingplatz",
+"m": {
+"es": "el camping · pl. die Campingplätze",
+"en": "campsite · pl. die Campingplätze"
+},
+"pos": "noun",
+"w": "der Campingplatz",
+"p": "",
+"g": "m",
+"pl": "Campingplätze",
+"unit": 9,
+"u": "a2-9",
+"q": 1102
+},
+{
+"word": "das Zelt",
+"m": {
+"es": "la tienda de campaña · pl. die Zelte",
+"en": "tent · pl. die Zelte"
+},
+"pos": "noun",
+"w": "das Zelt",
+"p": "",
+"g": "n",
+"pl": "Zelte",
+"unit": 9,
+"u": "a2-9",
+"q": 1103
+},
+{
+"word": "die Vollpension",
+"m": {
+"es": "la pensión completa",
+"en": "full board"
+},
+"pos": "noun",
+"w": "die Vollpension",
+"p": "",
+"g": "f",
+"unit": 9,
+"u": "a2-9",
+"q": 1104
+},
+{
+"word": "packen",
+"m": {
+"es": "hacer (la maleta), empaquetar",
+"en": "to pack"
+},
+"pos": "verb",
+"w": "packen",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1105
+},
+{
+"word": "der Rucksack",
+"m": {
+"es": "la mochila · pl. die Rucksäcke",
+"en": "rucksack · pl. die Rucksäcke"
+},
+"pos": "noun",
+"w": "der Rucksack",
+"p": "",
+"g": "m",
+"pl": "Rucksäcke",
+"unit": 9,
+"u": "a2-9",
+"q": 1106
+},
+{
+"word": "die Küste",
+"m": {
+"es": "la costa · pl. die Küsten",
+"en": "coast · pl. die Küsten"
+},
+"pos": "noun",
+"w": "die Küste",
+"p": "",
+"g": "f",
+"pl": "Küsten",
+"unit": 9,
+"u": "a2-9",
+"q": 1107
+},
+{
+"word": "das Gebirge",
+"m": {
+"es": "la cordillera, la montaña · pl. die Gebirge",
+"en": "mountains · pl. die Gebirge"
+},
+"pos": "noun",
+"w": "das Gebirge",
+"p": "",
+"g": "n",
+"pl": "Gebirge",
+"unit": 9,
+"u": "a2-9",
+"q": 1108
+},
+{
+"word": "der Flug",
+"m": {
+"es": "el vuelo · pl. die Flüge",
+"en": "flight · pl. die Flüge"
+},
+"pos": "noun",
+"w": "der Flug",
+"p": "",
+"g": "m",
+"pl": "Flüge",
+"unit": 9,
+"u": "a2-9",
+"q": 1109
+},
+{
+"word": "die Verspätung",
+"m": {
+"es": "el retraso · pl. die Verspätungen",
+"en": "delay · pl. die Verspätungen"
+},
+"pos": "noun",
+"w": "die Verspätung",
+"p": "",
+"g": "f",
+"pl": "Verspätungen",
+"unit": 9,
+"u": "a2-9",
+"q": 1110
+},
+{
+"word": "verpassen",
+"m": {
+"es": "perder (un tren, una ocasión)",
+"en": "to miss"
+},
+"pos": "verb",
+"w": "verpassen",
+"p": "",
+"unit": 9,
+"u": "a2-9",
+"q": 1111
+},
+{
+"word": "sich interessieren",
+"m": {
+"es": "interesarse",
+"en": "to be interested"
+},
+"pos": "verb",
+"w": "sich interessieren",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1112
+},
+{
+"word": "sich ärgern",
+"m": {
+"es": "enfadarse",
+"en": "to get annoyed"
+},
+"pos": "verb",
+"w": "sich ärgern",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1113
+},
+{
+"word": "träumen",
+"m": {
+"es": "soñar",
+"en": "to dream"
+},
+"pos": "verb",
+"w": "träumen",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1114
+},
+{
+"word": "die App",
+"m": {
+"es": "la aplicación · pl. die Apps",
+"en": "app · pl. die Apps"
+},
+"pos": "noun",
+"w": "die App",
+"p": "",
+"g": "f",
+"pl": "Apps",
+"unit": 10,
+"u": "a2-10",
+"q": 1115
+},
+{
+"word": "die Nachricht",
+"m": {
+"es": "el mensaje; la noticia · pl. die Nachrichten",
+"en": "message; news item · pl. die Nachrichten"
+},
+"pos": "noun",
+"w": "die Nachricht",
+"p": "",
+"g": "f",
+"pl": "Nachrichten",
+"unit": 10,
+"u": "a2-10",
+"q": 1116
+},
+{
+"word": "die Tastatur",
+"m": {
+"es": "el teclado · pl. die Tastaturen",
+"en": "keyboard · pl. die Tastaturen"
+},
+"pos": "noun",
+"w": "die Tastatur",
+"p": "",
+"g": "f",
+"pl": "Tastaturen",
+"unit": 10,
+"u": "a2-10",
+"q": 1117
+},
+{
+"word": "die Datei",
+"m": {
+"es": "el archivo · pl. die Dateien",
+"en": "file · pl. die Dateien"
+},
+"pos": "noun",
+"w": "die Datei",
+"p": "",
+"g": "f",
+"pl": "Dateien",
+"unit": 10,
+"u": "a2-10",
+"q": 1118
+},
+{
+"word": "herunterladen",
+"m": {
+"es": "descargar · lädt herunter, lud herunter, hat heruntergeladen",
+"en": "to download · lädt herunter, lud herunter, hat heruntergeladen"
+},
+"pos": "verb",
+"w": "herunterladen",
+"p": "",
+"pp": "lädt herunter, lud herunter, hat heruntergeladen",
+"unit": 10,
+"u": "a2-10",
+"q": 1119
+},
+{
+"word": "speichern",
+"m": {
+"es": "guardar (un archivo)",
+"en": "to save (a file)"
+},
+"pos": "verb",
+"w": "speichern",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1120
+},
+{
+"word": "löschen",
+"m": {
+"es": "borrar",
+"en": "to delete"
+},
+"pos": "",
+"w": "löschen",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1121
+},
+{
+"word": "einschalten",
+"m": {
+"es": "encender",
+"en": "to switch on"
+},
+"pos": "verb",
+"w": "einschalten",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1122
+},
+{
+"word": "ausschalten",
+"m": {
+"es": "apagar",
+"en": "to switch off"
+},
+"pos": "verb",
+"w": "ausschalten",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1123
+},
+{
+"word": "aufladen",
+"m": {
+"es": "cargar (la batería) · lädt auf, lud auf, hat aufgeladen",
+"en": "to charge · lädt auf, lud auf, hat aufgeladen"
+},
+"pos": "verb",
+"w": "aufladen",
+"p": "",
+"pp": "lädt auf, lud auf, hat aufgeladen",
+"unit": 10,
+"u": "a2-10",
+"q": 1124
+},
+{
+"word": "der Akku",
+"m": {
+"es": "la batería · pl. die Akkus",
+"en": "battery · pl. die Akkus"
+},
+"pos": "noun",
+"w": "der Akku",
+"p": "",
+"g": "m",
+"pl": "Akkus",
+"unit": 10,
+"u": "a2-10",
+"q": 1125
+},
+{
+"word": "chatten",
+"m": {
+"es": "chatear",
+"en": "to chat (online)"
+},
+"pos": "verb",
+"w": "chatten",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1126
+},
+{
+"word": "surfen",
+"m": {
+"es": "navegar (por internet); hacer surf",
+"en": "to surf"
+},
+"pos": "verb",
+"w": "surfen",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1127
+},
+{
+"word": "der Blog",
+"m": {
+"es": "el blog · pl. die Blogs",
+"en": "blog · pl. die Blogs"
+},
+"pos": "noun",
+"w": "der Blog",
+"p": "",
+"g": "m",
+"pl": "Blogs",
+"unit": 10,
+"u": "a2-10",
+"q": 1128
+},
+{
+"word": "die Zeitschrift",
+"m": {
+"es": "la revista · pl. die Zeitschriften",
+"en": "magazine · pl. die Zeitschriften"
+},
+"pos": "noun",
+"w": "die Zeitschrift",
+"p": "",
+"g": "f",
+"pl": "Zeitschriften",
+"unit": 10,
+"u": "a2-10",
+"q": 1129
+},
+{
+"word": "die Sendung",
+"m": {
+"es": "el programa (de tele, radio); el envío · pl. die Sendungen",
+"en": "programme; shipment · pl. die Sendungen"
+},
+"pos": "noun",
+"w": "die Sendung",
+"p": "",
+"g": "f",
+"pl": "Sendungen",
+"unit": 10,
+"u": "a2-10",
+"q": 1130
+},
+{
+"word": "das Programm",
+"m": {
+"es": "el programa · pl. die Programme",
+"en": "programme · pl. die Programme"
+},
+"pos": "noun",
+"w": "das Programm",
+"p": "",
+"g": "n",
+"pl": "Programme",
+"unit": 10,
+"u": "a2-10",
+"q": 1131
+},
+{
+"word": "das Interview",
+"m": {
+"es": "la entrevista · pl. die Interviews",
+"en": "interview · pl. die Interviews"
+},
+"pos": "noun",
+"w": "das Interview",
+"p": "",
+"g": "n",
+"pl": "Interviews",
+"unit": 10,
+"u": "a2-10",
+"q": 1132
+},
+{
+"word": "der Krimi",
+"m": {
+"es": "la novela / película policíaca · pl. die Krimis",
+"en": "crime story · pl. die Krimis"
+},
+"pos": "noun",
+"w": "der Krimi",
+"p": "",
+"g": "m",
+"pl": "Krimis",
+"unit": 10,
+"u": "a2-10",
+"q": 1133
+},
+{
+"word": "worauf",
+"m": {
+"es": "¿a qué?, ¿en qué?",
+"en": "what … for / on"
+},
+"pos": "",
+"w": "worauf",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1134
+},
+{
+"word": "darauf",
+"m": {
+"es": "en eso, a eso",
+"en": "on it, for it"
+},
+"pos": "",
+"w": "darauf",
+"p": "",
+"unit": 10,
+"u": "a2-10",
+"q": 1135
+},
+{
+"word": "deshalb",
+"m": {
+"es": "por eso",
+"en": "therefore, that's why"
+},
+"pos": "",
+"w": "deshalb",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1136
+},
+{
+"word": "trotzdem",
+"m": {
+"es": "sin embargo, aun así",
+"en": "nevertheless"
+},
+"pos": "",
+"w": "trotzdem",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1137
+},
+{
+"word": "außerdem",
+"m": {
+"es": "además",
+"en": "besides, moreover"
+},
+"pos": "",
+"w": "außerdem",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1138
+},
+{
+"word": "der Nachbar",
+"m": {
+"es": "el vecino · pl. die Nachbarn",
+"en": "neighbour · pl. die Nachbarn"
+},
+"pos": "noun",
+"w": "der Nachbar",
+"p": "",
+"g": "m",
+"pl": "Nachbarn",
+"unit": 11,
+"u": "a2-11",
+"q": 1139
+},
+{
+"word": "die Nachbarin",
+"m": {
+"es": "la vecina · pl. die Nachbarinnen",
+"en": "neighbour (female) · pl. die Nachbarinnen"
+},
+"pos": "noun",
+"w": "die Nachbarin",
+"p": "",
+"g": "f",
+"pl": "Nachbarinnen",
+"unit": 11,
+"u": "a2-11",
+"q": 1140
+},
+{
+"word": "die Freundschaft",
+"m": {
+"es": "la amistad · pl. die Freundschaften",
+"en": "friendship · pl. die Freundschaften"
+},
+"pos": "noun",
+"w": "die Freundschaft",
+"p": "",
+"g": "f",
+"pl": "Freundschaften",
+"unit": 11,
+"u": "a2-11",
+"q": 1141
+},
+{
+"word": "die Liebe",
+"m": {
+"es": "el amor",
+"en": "love"
+},
+"pos": "noun",
+"w": "die Liebe",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1142
+},
+{
+"word": "sich verlieben",
+"m": {
+"es": "enamorarse",
+"en": "to fall in love"
+},
+"pos": "verb",
+"w": "sich verlieben",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1143
+},
+{
+"word": "streiten",
+"m": {
+"es": "discutir, pelearse · streitet, stritt, hat gestritten",
+"en": "to argue · streitet, stritt, hat gestritten"
+},
+"pos": "verb",
+"w": "streiten",
+"p": "",
+"pp": "streitet, stritt, hat gestritten",
+"unit": 11,
+"u": "a2-11",
+"q": 1144
+},
+{
+"word": "sich verabreden",
+"m": {
+"es": "quedar (con alguien)",
+"en": "to arrange to meet"
+},
+"pos": "verb",
+"w": "sich verabreden",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1145
+},
+{
+"word": "ehrlich",
+"m": {
+"es": "sincero, honrado",
+"en": "honest"
+},
+"pos": "",
+"w": "ehrlich",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1146
+},
+{
+"word": "höflich",
+"m": {
+"es": "educado",
+"en": "polite"
+},
+"pos": "",
+"w": "höflich",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1147
+},
+{
+"word": "unhöflich",
+"m": {
+"es": "maleducado",
+"en": "rude"
+},
+"pos": "",
+"w": "unhöflich",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1148
+},
+{
+"word": "geduldig",
+"m": {
+"es": "paciente",
+"en": "patient"
+},
+"pos": "",
+"w": "geduldig",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1149
+},
+{
+"word": "neugierig",
+"m": {
+"es": "curioso",
+"en": "curious"
+},
+"pos": "",
+"w": "neugierig",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1150
+},
+{
+"word": "schüchtern",
+"m": {
+"es": "tímido",
+"en": "shy"
+},
+"pos": "verb",
+"w": "schüchtern",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1151
+},
+{
+"word": "die Laune",
+"m": {
+"es": "el humor (estado de ánimo) · pl. die Launen",
+"en": "mood · pl. die Launen"
+},
+"pos": "noun",
+"w": "die Laune",
+"p": "",
+"g": "f",
+"pl": "Launen",
+"unit": 11,
+"u": "a2-11",
+"q": 1152
+},
+{
+"word": "die Stimmung",
+"m": {
+"es": "el ambiente, el ánimo · pl. die Stimmungen",
+"en": "mood, atmosphere · pl. die Stimmungen"
+},
+"pos": "noun",
+"w": "die Stimmung",
+"p": "",
+"g": "f",
+"pl": "Stimmungen",
+"unit": 11,
+"u": "a2-11",
+"q": 1153
+},
+{
+"word": "das Gefühl",
+"m": {
+"es": "el sentimiento, la sensación · pl. die Gefühle",
+"en": "feeling · pl. die Gefühle"
+},
+"pos": "noun",
+"w": "das Gefühl",
+"p": "",
+"g": "n",
+"pl": "Gefühle",
+"unit": 11,
+"u": "a2-11",
+"q": 1154
+},
+{
+"word": "die Sorge",
+"m": {
+"es": "la preocupación · pl. die Sorgen",
+"en": "worry · pl. die Sorgen"
+},
+"pos": "noun",
+"w": "die Sorge",
+"p": "",
+"g": "f",
+"pl": "Sorgen",
+"unit": 11,
+"u": "a2-11",
+"q": 1155
+},
+{
+"word": "sich Sorgen machen",
+"m": {
+"es": "preocuparse",
+"en": "to worry"
+},
+"pos": "",
+"w": "sich Sorgen machen",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1156
+},
+{
+"word": "traurig",
+"m": {
+"es": "triste",
+"en": "sad"
+},
+"pos": "",
+"w": "traurig",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1157
+},
+{
+"word": "froh",
+"m": {
+"es": "contento",
+"en": "glad"
+},
+"pos": "",
+"w": "froh",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1158
+},
+{
+"word": "wütend",
+"m": {
+"es": "furioso",
+"en": "furious"
+},
+"pos": "",
+"w": "wütend",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1159
+},
+{
+"word": "überrascht",
+"m": {
+"es": "sorprendido",
+"en": "surprised"
+},
+"pos": "",
+"w": "überrascht",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1160
+},
+{
+"word": "die Ruhe",
+"m": {
+"es": "la tranquilidad, el silencio",
+"en": "peace, quiet"
+},
+"pos": "noun",
+"w": "die Ruhe",
+"p": "",
+"g": "f",
+"unit": 11,
+"u": "a2-11",
+"q": 1161
+},
+{
+"word": "stören",
+"m": {
+"es": "molestar",
+"en": "to disturb"
+},
+"pos": "verb",
+"w": "stören",
+"p": "",
+"unit": 11,
+"u": "a2-11",
+"q": 1162
+},
+{
+"word": "das Fach",
+"m": {
+"es": "la asignatura · pl. die Fächer",
+"en": "subject · pl. die Fächer"
+},
+"pos": "noun",
+"w": "das Fach",
+"p": "",
+"g": "n",
+"pl": "Fächer",
+"unit": 12,
+"u": "a2-12",
+"q": 1163
+},
+{
+"word": "die Mathematik",
+"m": {
+"es": "las matemáticas",
+"en": "mathematics"
+},
+"pos": "noun",
+"w": "die Mathematik",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "a2-12",
+"q": 1164
+},
+{
+"word": "die Biologie",
+"m": {
+"es": "la biología",
+"en": "biology"
+},
+"pos": "noun",
+"w": "die Biologie",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "a2-12",
+"q": 1165
+},
+{
+"word": "die Erdkunde",
+"m": {
+"es": "la geografía",
+"en": "geography"
+},
+"pos": "noun",
+"w": "die Erdkunde",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "a2-12",
+"q": 1166
+},
+{
+"word": "die Note",
+"m": {
+"es": "la nota · pl. die Noten",
+"en": "mark, grade · pl. die Noten"
+},
+"pos": "noun",
+"w": "die Note",
+"p": "",
+"g": "f",
+"pl": "Noten",
+"unit": 12,
+"u": "a2-12",
+"q": 1167
+},
+{
+"word": "das Zeugnis",
+"m": {
+"es": "el certificado; las notas · pl. die Zeugnisse",
+"en": "certificate; school report · pl. die Zeugnisse"
+},
+"pos": "noun",
+"w": "das Zeugnis",
+"p": "",
+"g": "n",
+"pl": "Zeugnisse",
+"unit": 12,
+"u": "a2-12",
+"q": 1168
+},
+{
+"word": "bestehen",
+"m": {
+"es": "aprobar (un examen); consistir · besteht, bestand, hat bestanden",
+"en": "to pass (an exam); to consist · besteht, bestand, hat bestanden"
+},
+"pos": "verb",
+"w": "bestehen",
+"p": "",
+"pp": "besteht, bestand, hat bestanden",
+"unit": 12,
+"u": "a2-12",
+"q": 1169
+},
+{
+"word": "die Klassenarbeit",
+"m": {
+"es": "el examen (en clase) · pl. die Klassenarbeiten",
+"en": "class test · pl. die Klassenarbeiten"
+},
+"pos": "noun",
+"w": "die Klassenarbeit",
+"p": "",
+"g": "f",
+"pl": "Klassenarbeiten",
+"unit": 12,
+"u": "a2-12",
+"q": 1170
+},
+{
+"word": "der Stundenplan",
+"m": {
+"es": "el horario (de clases) · pl. die Stundenpläne",
+"en": "timetable · pl. die Stundenpläne"
+},
+"pos": "noun",
+"w": "der Stundenplan",
+"p": "",
+"g": "m",
+"pl": "Stundenpläne",
+"unit": 12,
+"u": "a2-12",
+"q": 1171
+},
+{
+"word": "die Lehre",
+"m": {
+"es": "el aprendizaje (de un oficio) · pl. die Lehren",
+"en": "apprenticeship · pl. die Lehren"
+},
+"pos": "noun",
+"w": "die Lehre",
+"p": "",
+"g": "f",
+"pl": "Lehren",
+"unit": 12,
+"u": "a2-12",
+"q": 1172
+},
+{
+"word": "das Stipendium",
+"m": {
+"es": "la beca · pl. die Stipendien",
+"en": "scholarship · pl. die Stipendien"
+},
+"pos": "noun",
+"w": "das Stipendium",
+"p": "",
+"g": "n",
+"pl": "Stipendien",
+"unit": 12,
+"u": "a2-12",
+"q": 1173
+},
+{
+"word": "üben",
+"m": {
+"es": "practicar",
+"en": "to practise"
+},
+"pos": "verb",
+"w": "üben",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1174
+},
+{
+"word": "die Kenntnisse",
+"m": {
+"es": "los conocimientos · (solo plural)",
+"en": "knowledge, skills · (plural only)"
+},
+"pos": "noun",
+"w": "die Kenntnisse",
+"p": "",
+"g": "pl",
+"unit": 12,
+"u": "a2-12",
+"q": 1175
+},
+{
+"word": "um … zu",
+"m": {
+"es": "para (+ infinitivo)",
+"en": "in order to"
+},
+"pos": "",
+"w": "um … zu",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1176
+},
+{
+"word": "Lust haben",
+"m": {
+"es": "tener ganas",
+"en": "to feel like"
+},
+"pos": "",
+"w": "Lust haben",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1177
+},
+{
+"word": "vorhaben",
+"m": {
+"es": "tener previsto · hat vor, hatte vor, hat vorgehabt",
+"en": "to plan, to intend · hat vor, hatte vor, hat vorgehabt"
+},
+"pos": "verb",
+"w": "vorhaben",
+"p": "",
+"pp": "hat vor, hatte vor, hat vorgehabt",
+"unit": 12,
+"u": "a2-12",
+"q": 1178
+},
+{
+"word": "versuchen",
+"m": {
+"es": "intentar",
+"en": "to try"
+},
+"pos": "",
+"w": "versuchen",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1179
+},
+{
+"word": "vergessen",
+"m": {
+"es": "olvidar · vergisst, vergaß, hat vergessen",
+"en": "to forget · vergisst, vergaß, hat vergessen"
+},
+"pos": "verb",
+"w": "vergessen",
+"p": "",
+"pp": "vergisst, vergaß, hat vergessen",
+"unit": 12,
+"u": "a2-12",
+"q": 1180
+},
+{
+"word": "aufhören",
+"m": {
+"es": "dejar de, terminar",
+"en": "to stop"
+},
+"pos": "verb",
+"w": "aufhören",
+"p": "",
+"unit": 12,
+"u": "a2-12",
+"q": 1181
+},
+{
+"word": "das Neujahr",
+"m": {
+"es": "el Año Nuevo",
+"en": "New Year"
+},
+"pos": "noun",
+"w": "das Neujahr",
+"p": "",
+"g": "n",
+"unit": 13,
+"u": "a2-13",
+"q": 1182
+},
+{
+"word": "der Karneval",
+"m": {
+"es": "el carnaval",
+"en": "carnival"
+},
+"pos": "noun",
+"w": "der Karneval",
+"p": "",
+"g": "m",
+"unit": 13,
+"u": "a2-13",
+"q": 1183
+},
+{
+"word": "die Tradition",
+"m": {
+"es": "la tradición · pl. die Traditionen",
+"en": "tradition · pl. die Traditionen"
+},
+"pos": "noun",
+"w": "die Tradition",
+"p": "",
+"g": "f",
+"pl": "Traditionen",
+"unit": 13,
+"u": "a2-13",
+"q": 1184
+},
+{
+"word": "typisch",
+"m": {
+"es": "típico",
+"en": "typical"
+},
+"pos": "",
+"w": "typisch",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1185
+},
+{
+"word": "der Hochzeitstag",
+"m": {
+"es": "el aniversario de boda · pl. die Hochzeitstage",
+"en": "wedding anniversary · pl. die Hochzeitstage"
+},
+"pos": "noun",
+"w": "der Hochzeitstag",
+"p": "",
+"g": "m",
+"pl": "Hochzeitstage",
+"unit": 13,
+"u": "a2-13",
+"q": 1186
+},
+{
+"word": "das Festival",
+"m": {
+"es": "el festival · pl. die Festivals",
+"en": "festival · pl. die Festivals"
+},
+"pos": "noun",
+"w": "das Festival",
+"p": "",
+"g": "n",
+"pl": "Festivals",
+"unit": 13,
+"u": "a2-13",
+"q": 1187
+},
+{
+"word": "während",
+"m": {
+"es": "mientras; durante",
+"en": "while; during"
+},
+"pos": "",
+"w": "während",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1188
+},
+{
+"word": "inzwischen",
+"m": {
+"es": "mientras tanto; ahora ya",
+"en": "meanwhile; by now"
+},
+"pos": "",
+"w": "inzwischen",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1189
+},
+{
+"word": "rechtzeitig",
+"m": {
+"es": "a tiempo",
+"en": "in time"
+},
+"pos": "",
+"w": "rechtzeitig",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1190
+},
+{
+"word": "jährlich",
+"m": {
+"es": "anual",
+"en": "annual"
+},
+"pos": "",
+"w": "jährlich",
+"p": "",
+"unit": 13,
+"u": "a2-13",
+"q": 1191
+},
+{
+"word": "die Natur",
+"m": {
+"es": "la naturaleza",
+"en": "nature"
+},
+"pos": "noun",
+"w": "die Natur",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "a2-14",
+"q": 1192
+},
+{
+"word": "die Umwelt",
+"m": {
+"es": "el medio ambiente",
+"en": "environment"
+},
+"pos": "noun",
+"w": "die Umwelt",
+"p": "",
+"g": "f",
+"unit": 14,
+"u": "a2-14",
+"q": 1193
+},
+{
+"word": "der Müll",
+"m": {
+"es": "la basura",
+"en": "rubbish"
+},
+"pos": "noun",
+"w": "der Müll",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1194
+},
+{
+"word": "trennen",
+"m": {
+"es": "separar",
+"en": "to separate"
+},
+"pos": "verb",
+"w": "trennen",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1195
+},
+{
+"word": "die Pflanze",
+"m": {
+"es": "la planta · pl. die Pflanzen",
+"en": "plant · pl. die Pflanzen"
+},
+"pos": "noun",
+"w": "die Pflanze",
+"p": "",
+"g": "f",
+"pl": "Pflanzen",
+"unit": 14,
+"u": "a2-14",
+"q": 1196
+},
+{
+"word": "der Wald",
+"m": {
+"es": "el bosque · pl. die Wälder",
+"en": "forest · pl. die Wälder"
+},
+"pos": "noun",
+"w": "der Wald",
+"p": "",
+"g": "m",
+"pl": "Wälder",
+"unit": 14,
+"u": "a2-14",
+"q": 1197
+},
+{
+"word": "die Wiese",
+"m": {
+"es": "el prado · pl. die Wiesen",
+"en": "meadow · pl. die Wiesen"
+},
+"pos": "noun",
+"w": "die Wiese",
+"p": "",
+"g": "f",
+"pl": "Wiesen",
+"unit": 14,
+"u": "a2-14",
+"q": 1198
+},
+{
+"word": "das Feld",
+"m": {
+"es": "el campo (de cultivo) · pl. die Felder",
+"en": "field · pl. die Felder"
+},
+"pos": "noun",
+"w": "das Feld",
+"p": "",
+"g": "n",
+"pl": "Felder",
+"unit": 14,
+"u": "a2-14",
+"q": 1199
+},
+{
+"word": "das Tal",
+"m": {
+"es": "el valle · pl. die Täler",
+"en": "valley · pl. die Täler"
+},
+"pos": "noun",
+"w": "das Tal",
+"p": "",
+"g": "n",
+"pl": "Täler",
+"unit": 14,
+"u": "a2-14",
+"q": 1200
+},
+{
+"word": "der Vogel",
+"m": {
+"es": "el pájaro · pl. die Vögel",
+"en": "bird · pl. die Vögel"
+},
+"pos": "noun",
+"w": "der Vogel",
+"p": "",
+"g": "m",
+"pl": "Vögel",
+"unit": 14,
+"u": "a2-14",
+"q": 1201
+},
+{
+"word": "der Himmel",
+"m": {
+"es": "el cielo",
+"en": "sky"
+},
+"pos": "noun",
+"w": "der Himmel",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1202
+},
+{
+"word": "das Gewitter",
+"m": {
+"es": "la tormenta · pl. die Gewitter",
+"en": "thunderstorm · pl. die Gewitter"
+},
+"pos": "noun",
+"w": "das Gewitter",
+"p": "",
+"g": "n",
+"pl": "Gewitter",
+"unit": 14,
+"u": "a2-14",
+"q": 1203
+},
+{
+"word": "bewölkt",
+"m": {
+"es": "nublado",
+"en": "cloudy"
+},
+"pos": "",
+"w": "bewölkt",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1204
+},
+{
+"word": "neblig",
+"m": {
+"es": "con niebla",
+"en": "foggy"
+},
+"pos": "",
+"w": "neblig",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1205
+},
+{
+"word": "windig",
+"m": {
+"es": "ventoso",
+"en": "windy"
+},
+"pos": "",
+"w": "windig",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1206
+},
+{
+"word": "nass",
+"m": {
+"es": "mojado",
+"en": "wet"
+},
+"pos": "",
+"w": "nass",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1207
+},
+{
+"word": "trocken",
+"m": {
+"es": "seco",
+"en": "dry"
+},
+"pos": "verb",
+"w": "trocken",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1208
+},
+{
+"word": "der Wetterbericht",
+"m": {
+"es": "el parte meteorológico · pl. die Wetterberichte",
+"en": "weather forecast · pl. die Wetterberichte"
+},
+"pos": "noun",
+"w": "der Wetterbericht",
+"p": "",
+"g": "m",
+"pl": "Wetterberichte",
+"unit": 14,
+"u": "a2-14",
+"q": 1209
+},
+{
+"word": "die Temperatur",
+"m": {
+"es": "la temperatura · pl. die Temperaturen",
+"en": "temperature · pl. die Temperaturen"
+},
+"pos": "noun",
+"w": "die Temperatur",
+"p": "",
+"g": "f",
+"pl": "Temperaturen",
+"unit": 14,
+"u": "a2-14",
+"q": 1210
+},
+{
+"word": "der Norden",
+"m": {
+"es": "el norte",
+"en": "north"
+},
+"pos": "noun",
+"w": "der Norden",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1211
+},
+{
+"word": "der Süden",
+"m": {
+"es": "el sur",
+"en": "south"
+},
+"pos": "noun",
+"w": "der Süden",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1212
+},
+{
+"word": "der Osten",
+"m": {
+"es": "el este",
+"en": "east"
+},
+"pos": "noun",
+"w": "der Osten",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1213
+},
+{
+"word": "der Westen",
+"m": {
+"es": "el oeste",
+"en": "west"
+},
+"pos": "noun",
+"w": "der Westen",
+"p": "",
+"g": "m",
+"unit": 14,
+"u": "a2-14",
+"q": 1214
+},
+{
+"word": "alles",
+"m": {
+"es": "todo",
+"en": "everything"
+},
+"pos": "",
+"w": "alles",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1215
+},
+{
+"word": "irgendwo",
+"m": {
+"es": "en algún sitio",
+"en": "somewhere"
+},
+"pos": "",
+"w": "irgendwo",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1216
+},
+{
+"word": "nirgends",
+"m": {
+"es": "en ninguna parte",
+"en": "nowhere"
+},
+"pos": "",
+"w": "nirgends",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1217
+},
+{
+"word": "sparen",
+"m": {
+"es": "ahorrar",
+"en": "to save"
+},
+"pos": "verb",
+"w": "sparen",
+"p": "",
+"unit": 14,
+"u": "a2-14",
+"q": 1218
+},
+{
+"word": "der Wunsch",
+"m": {
+"es": "el deseo · pl. die Wünsche",
+"en": "wish · pl. die Wünsche"
+},
+"pos": "noun",
+"w": "der Wunsch",
+"p": "",
+"g": "m",
+"pl": "Wünsche",
+"unit": 15,
+"u": "a2-15",
+"q": 1219
+},
+{
+"word": "der Traum",
+"m": {
+"es": "el sueño · pl. die Träume",
+"en": "dream · pl. die Träume"
+},
+"pos": "noun",
+"w": "der Traum",
+"p": "",
+"g": "m",
+"pl": "Träume",
+"unit": 15,
+"u": "a2-15",
+"q": 1220
+},
+{
+"word": "wünschen",
+"m": {
+"es": "desear",
+"en": "to wish"
+},
+"pos": "",
+"w": "wünschen",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1221
+},
+{
+"word": "die Idee",
+"m": {
+"es": "la idea · pl. die Ideen",
+"en": "idea · pl. die Ideen"
+},
+"pos": "noun",
+"w": "die Idee",
+"p": "",
+"g": "f",
+"pl": "Ideen",
+"unit": 15,
+"u": "a2-15",
+"q": 1222
+},
+{
+"word": "der Vorschlag",
+"m": {
+"es": "la propuesta · pl. die Vorschläge",
+"en": "suggestion · pl. die Vorschläge"
+},
+"pos": "noun",
+"w": "der Vorschlag",
+"p": "",
+"g": "m",
+"pl": "Vorschläge",
+"unit": 15,
+"u": "a2-15",
+"q": 1223
+},
+{
+"word": "die Lust",
+"m": {
+"es": "las ganas",
+"en": "desire, wish"
+},
+"pos": "noun",
+"w": "die Lust",
+"p": "",
+"g": "f",
+"unit": 15,
+"u": "a2-15",
+"q": 1224
+},
+{
+"word": "reich",
+"m": {
+"es": "rico",
+"en": "rich"
+},
+"pos": "",
+"w": "reich",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1225
+},
+{
+"word": "die Weltreise",
+"m": {
+"es": "la vuelta al mundo · pl. die Weltreisen",
+"en": "trip round the world · pl. die Weltreisen"
+},
+"pos": "noun",
+"w": "die Weltreise",
+"p": "",
+"g": "f",
+"pl": "Weltreisen",
+"unit": 15,
+"u": "a2-15",
+"q": 1226
+},
+{
+"word": "das Pferd",
+"m": {
+"es": "el caballo · pl. die Pferde",
+"en": "horse · pl. die Pferde"
+},
+"pos": "noun",
+"w": "das Pferd",
+"p": "",
+"g": "n",
+"pl": "Pferde",
+"unit": 15,
+"u": "a2-15",
+"q": 1227
+},
+{
+"word": "das Schiff",
+"m": {
+"es": "el barco · pl. die Schiffe",
+"en": "ship · pl. die Schiffe"
+},
+"pos": "noun",
+"w": "das Schiff",
+"p": "",
+"g": "n",
+"pl": "Schiffe",
+"unit": 15,
+"u": "a2-15",
+"q": 1228
+},
+{
+"word": "das Klavier",
+"m": {
+"es": "el piano · pl. die Klaviere",
+"en": "piano · pl. die Klaviere"
+},
+"pos": "noun",
+"w": "das Klavier",
+"p": "",
+"g": "n",
+"pl": "Klaviere",
+"unit": 15,
+"u": "a2-15",
+"q": 1229
+},
+{
+"word": "die Gitarre",
+"m": {
+"es": "la guitarra · pl. die Gitarren",
+"en": "guitar · pl. die Gitarren"
+},
+"pos": "noun",
+"w": "die Gitarre",
+"p": "",
+"g": "f",
+"pl": "Gitarren",
+"unit": 15,
+"u": "a2-15",
+"q": 1230
+},
+{
+"word": "das Instrument",
+"m": {
+"es": "el instrumento · pl. die Instrumente",
+"en": "instrument · pl. die Instrumente"
+},
+"pos": "noun",
+"w": "das Instrument",
+"p": "",
+"g": "n",
+"pl": "Instrumente",
+"unit": 15,
+"u": "a2-15",
+"q": 1231
+},
+{
+"word": "hoffentlich",
+"m": {
+"es": "ojalá",
+"en": "hopefully"
+},
+"pos": "",
+"w": "hoffentlich",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1232
+},
+{
+"word": "unbedingt",
+"m": {
+"es": "sin falta, a toda costa",
+"en": "absolutely, definitely"
+},
+"pos": "",
+"w": "unbedingt",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1233
+},
+{
+"word": "wirklich",
+"m": {
+"es": "de verdad, realmente",
+"en": "really"
+},
+"pos": "",
+"w": "wirklich",
+"p": "",
+"unit": 15,
+"u": "a2-15",
+"q": 1234
+},
+{
+"word": "ob",
+"m": {
+"es": "si (en preguntas indirectas)",
+"en": "whether, if"
+},
+"pos": "",
+"w": "ob",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1235
+},
+{
+"word": "der Fahrplan",
+"m": {
+"es": "el horario (de trenes, autobuses) · pl. die Fahrpläne",
+"en": "timetable · pl. die Fahrpläne"
+},
+"pos": "noun",
+"w": "der Fahrplan",
+"p": "",
+"g": "m",
+"pl": "Fahrpläne",
+"unit": 16,
+"u": "a2-16",
+"q": 1236
+},
+{
+"word": "die Bibliothek",
+"m": {
+"es": "la biblioteca · pl. die Bibliotheken",
+"en": "library · pl. die Bibliotheken"
+},
+"pos": "noun",
+"w": "die Bibliothek",
+"p": "",
+"g": "f",
+"pl": "Bibliotheken",
+"unit": 16,
+"u": "a2-16",
+"q": 1237
+},
+{
+"word": "die Kreuzung",
+"m": {
+"es": "el cruce · pl. die Kreuzungen",
+"en": "crossroads · pl. die Kreuzungen"
+},
+"pos": "noun",
+"w": "die Kreuzung",
+"p": "",
+"g": "f",
+"pl": "Kreuzungen",
+"unit": 16,
+"u": "a2-16",
+"q": 1238
+},
+{
+"word": "die Ampel",
+"m": {
+"es": "el semáforo · pl. die Ampeln",
+"en": "traffic light · pl. die Ampeln"
+},
+"pos": "noun",
+"w": "die Ampel",
+"p": "",
+"g": "f",
+"pl": "Ampeln",
+"unit": 16,
+"u": "a2-16",
+"q": 1239
+},
+{
+"word": "die Brücke",
+"m": {
+"es": "el puente · pl. die Brücken",
+"en": "bridge · pl. die Brücken"
+},
+"pos": "noun",
+"w": "die Brücke",
+"p": "",
+"g": "f",
+"pl": "Brücken",
+"unit": 16,
+"u": "a2-16",
+"q": 1240
+},
+{
+"word": "die Baustelle",
+"m": {
+"es": "la obra · pl. die Baustellen",
+"en": "building site · pl. die Baustellen"
+},
+"pos": "noun",
+"w": "die Baustelle",
+"p": "",
+"g": "f",
+"pl": "Baustellen",
+"unit": 16,
+"u": "a2-16",
+"q": 1241
+},
+{
+"word": "der Parkplatz",
+"m": {
+"es": "el aparcamiento · pl. die Parkplätze",
+"en": "car park, parking space · pl. die Parkplätze"
+},
+"pos": "noun",
+"w": "der Parkplatz",
+"p": "",
+"g": "m",
+"pl": "Parkplätze",
+"unit": 16,
+"u": "a2-16",
+"q": 1242
+},
+{
+"word": "die Tankstelle",
+"m": {
+"es": "la gasolinera · pl. die Tankstellen",
+"en": "petrol station · pl. die Tankstellen"
+},
+"pos": "noun",
+"w": "die Tankstelle",
+"p": "",
+"g": "f",
+"pl": "Tankstellen",
+"unit": 16,
+"u": "a2-16",
+"q": 1243
+},
+{
+"word": "das Verkehrsmittel",
+"m": {
+"es": "el medio de transporte · pl. die Verkehrsmittel",
+"en": "means of transport · pl. die Verkehrsmittel"
+},
+"pos": "noun",
+"w": "das Verkehrsmittel",
+"p": "",
+"g": "n",
+"pl": "Verkehrsmittel",
+"unit": 16,
+"u": "a2-16",
+"q": 1244
+},
+{
+"word": "der Verkehr",
+"m": {
+"es": "el tráfico",
+"en": "traffic"
+},
+"pos": "noun",
+"w": "der Verkehr",
+"p": "",
+"g": "m",
+"unit": 16,
+"u": "a2-16",
+"q": 1245
+},
+{
+"word": "der Stadtteil",
+"m": {
+"es": "el barrio · pl. die Stadtteile",
+"en": "district · pl. die Stadtteile"
+},
+"pos": "noun",
+"w": "der Stadtteil",
+"p": "",
+"g": "m",
+"pl": "Stadtteile",
+"unit": 16,
+"u": "a2-16",
+"q": 1246
+},
+{
+"word": "die Gegend",
+"m": {
+"es": "la zona · pl. die Gegenden",
+"en": "area · pl. die Gegenden"
+},
+"pos": "noun",
+"w": "die Gegend",
+"p": "",
+"g": "f",
+"pl": "Gegenden",
+"unit": 16,
+"u": "a2-16",
+"q": 1247
+},
+{
+"word": "in der Nähe",
+"m": {
+"es": "cerca",
+"en": "nearby"
+},
+"pos": "",
+"w": "in der Nähe",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1248
+},
+{
+"word": "entlang",
+"m": {
+"es": "a lo largo de",
+"en": "along"
+},
+"pos": "",
+"w": "entlang",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1249
+},
+{
+"word": "bis zu",
+"m": {
+"es": "hasta",
+"en": "up to, as far as"
+},
+"pos": "",
+"w": "bis zu",
+"p": "",
+"unit": 16,
+"u": "a2-16",
+"q": 1250
+},
+{
+"word": "die Band",
+"m": {
+"es": "el grupo (de música) · pl. die Bands",
+"en": "band · pl. die Bands"
+},
+"pos": "noun",
+"w": "die Band",
+"p": "",
+"g": "f",
+"pl": "Bands",
+"unit": 17,
+"u": "a2-17",
+"q": 1251
+},
+{
+"word": "der Sänger",
+"m": {
+"es": "el cantante · pl. die Sänger",
+"en": "singer · pl. die Sänger"
+},
+"pos": "noun",
+"w": "der Sänger",
+"p": "",
+"g": "m",
+"pl": "Sänger",
+"unit": 17,
+"u": "a2-17",
+"q": 1252
+},
+{
+"word": "die Ausstellung",
+"m": {
+"es": "la exposición · pl. die Ausstellungen",
+"en": "exhibition · pl. die Ausstellungen"
+},
+"pos": "noun",
+"w": "die Ausstellung",
+"p": "",
+"g": "f",
+"pl": "Ausstellungen",
+"unit": 17,
+"u": "a2-17",
+"q": 1253
+},
+{
+"word": "die Kunst",
+"m": {
+"es": "el arte · pl. die Künste",
+"en": "art · pl. die Künste"
+},
+"pos": "noun",
+"w": "die Kunst",
+"p": "",
+"g": "f",
+"pl": "Künste",
+"unit": 17,
+"u": "a2-17",
+"q": 1254
+},
+{
+"word": "die Geschichte",
+"m": {
+"es": "la historia; el cuento · pl. die Geschichten",
+"en": "history; story · pl. die Geschichten"
+},
+"pos": "noun",
+"w": "die Geschichte",
+"p": "",
+"g": "f",
+"pl": "Geschichten",
+"unit": 17,
+"u": "a2-17",
+"q": 1255
+},
+{
+"word": "spannend",
+"m": {
+"es": "emocionante, apasionante",
+"en": "exciting, gripping"
+},
+"pos": "",
+"w": "spannend",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1256
+},
+{
+"word": "romantisch",
+"m": {
+"es": "romántico",
+"en": "romantic"
+},
+"pos": "",
+"w": "romantisch",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1257
+},
+{
+"word": "furchtbar",
+"m": {
+"es": "terrible",
+"en": "terrible"
+},
+"pos": "",
+"w": "furchtbar",
+"p": "",
+"unit": 17,
+"u": "a2-17",
+"q": 1258
+},
+{
+"word": "die Kultur",
+"m": {
+"es": "la cultura · pl. die Kulturen",
+"en": "culture · pl. die Kulturen"
+},
+"pos": "noun",
+"w": "die Kultur",
+"p": "",
+"g": "f",
+"pl": "Kulturen",
+"unit": 17,
+"u": "a2-17",
+"q": 1259
+},
+{
+"word": "das Stück",
+"m": {
+"es": "el trozo; la obra (de teatro) · pl. die Stücke",
+"en": "piece; play · pl. die Stücke"
+},
+"pos": "noun",
+"w": "das Stück",
+"p": "",
+"g": "n",
+"pl": "Stücke",
+"unit": 17,
+"u": "a2-17",
+"q": 1260
+},
+{
+"word": "der Star",
+"m": {
+"es": "la estrella (famoso) · pl. die Stars",
+"en": "star (celebrity) · pl. die Stars"
+},
+"pos": "noun",
+"w": "der Star",
+"p": "",
+"g": "m",
+"pl": "Stars",
+"unit": 17,
+"u": "a2-17",
+"q": 1261
+},
+{
+"word": "der Fan",
+"m": {
+"es": "el aficionado, el fan · pl. die Fans",
+"en": "fan · pl. die Fans"
+},
+"pos": "noun",
+"w": "der Fan",
+"p": "",
+"g": "m",
+"pl": "Fans",
+"unit": 17,
+"u": "a2-17",
+"q": 1262
+},
+{
+"word": "die Zukunft",
+"m": {
+"es": "el futuro",
+"en": "future"
+},
+"pos": "noun",
+"w": "die Zukunft",
+"p": "",
+"g": "f",
+"unit": 18,
+"u": "a2-18",
+"q": 1263
+},
+{
+"word": "planen",
+"m": {
+"es": "planificar",
+"en": "to plan"
+},
+"pos": "verb",
+"w": "planen",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1264
+},
+{
+"word": "übermorgen",
+"m": {
+"es": "pasado mañana",
+"en": "the day after tomorrow"
+},
+"pos": "verb",
+"w": "übermorgen",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1265
+},
+{
+"word": "irgendwann",
+"m": {
+"es": "algún día",
+"en": "at some point"
+},
+"pos": "verb",
+"w": "irgendwann",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1266
+},
+{
+"word": "wahrscheinlich",
+"m": {
+"es": "probablemente",
+"en": "probably"
+},
+"pos": "",
+"w": "wahrscheinlich",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1267
+},
+{
+"word": "sicher",
+"m": {
+"es": "seguro",
+"en": "safe; sure"
+},
+"pos": "",
+"w": "sicher",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1268
+},
+{
+"word": "bestimmt",
+"m": {
+"es": "seguro, seguramente",
+"en": "certainly"
+},
+"pos": "",
+"w": "bestimmt",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1269
+},
+{
+"word": "wohl",
+"m": {
+"es": "probablemente; bien",
+"en": "probably; well"
+},
+"pos": "",
+"w": "wohl",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1270
+},
+{
+"word": "das Ziel",
+"m": {
+"es": "el objetivo; la meta · pl. die Ziele",
+"en": "goal; destination · pl. die Ziele"
+},
+"pos": "noun",
+"w": "das Ziel",
+"p": "",
+"g": "n",
+"pl": "Ziele",
+"unit": 18,
+"u": "a2-18",
+"q": 1271
+},
+{
+"word": "erreichen",
+"m": {
+"es": "alcanzar; localizar (a alguien)",
+"en": "to reach"
+},
+"pos": "",
+"w": "erreichen",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1272
+},
+{
+"word": "schaffen",
+"m": {
+"es": "conseguir, lograr",
+"en": "to manage"
+},
+"pos": "verb",
+"w": "schaffen",
+"p": "",
+"unit": 18,
+"u": "a2-18",
+"q": 1273
+},
+{
+"word": "die Rente",
+"m": {
+"es": "la jubilación, la pensión · pl. die Renten",
+"en": "pension · pl. die Renten"
+},
+"pos": "noun",
+"w": "die Rente",
+"p": "",
+"g": "f",
+"pl": "Renten",
+"unit": 18,
+"u": "a2-18",
+"q": 1274
+},
+{
+"word": "lassen",
+"m": {
+"es": "dejar; mandar (hacer) · lässt, ließ, hat gelassen",
+"en": "to let; to have (something done) · lässt, ließ, hat gelassen"
+},
+"pos": "verb",
+"w": "lassen",
+"p": "",
+"pp": "lässt, ließ, hat gelassen",
+"unit": 19,
+"u": "a2-19",
+"q": 1275
+},
+{
+"word": "die Werkstatt",
+"m": {
+"es": "el taller · pl. die Werkstätten",
+"en": "workshop, garage · pl. die Werkstätten"
+},
+"pos": "noun",
+"w": "die Werkstatt",
+"p": "",
+"g": "f",
+"pl": "Werkstätten",
+"unit": 19,
+"u": "a2-19",
+"q": 1276
+},
+{
+"word": "der Reifen",
+"m": {
+"es": "el neumático · pl. die Reifen",
+"en": "tyre · pl. die Reifen"
+},
+"pos": "noun",
+"w": "der Reifen",
+"p": "",
+"g": "m",
+"pl": "Reifen",
+"unit": 19,
+"u": "a2-19",
+"q": 1277
+},
+{
+"word": "der Hausmeister",
+"m": {
+"es": "el conserje · pl. die Hausmeister",
+"en": "caretaker · pl. die Hausmeister"
+},
+"pos": "noun",
+"w": "der Hausmeister",
+"p": "",
+"g": "m",
+"pl": "Hausmeister",
+"unit": 19,
+"u": "a2-19",
+"q": 1278
+},
+{
+"word": "der Handwerker",
+"m": {
+"es": "el artesano, el operario · pl. die Handwerker",
+"en": "tradesman · pl. die Handwerker"
+},
+"pos": "noun",
+"w": "der Handwerker",
+"p": "",
+"g": "m",
+"pl": "Handwerker",
+"unit": 19,
+"u": "a2-19",
+"q": 1279
+},
+{
+"word": "die Reinigung",
+"m": {
+"es": "la tintorería; la limpieza · pl. die Reinigungen",
+"en": "dry cleaner's; cleaning · pl. die Reinigungen"
+},
+"pos": "noun",
+"w": "die Reinigung",
+"p": "",
+"g": "f",
+"pl": "Reinigungen",
+"unit": 19,
+"u": "a2-19",
+"q": 1280
+},
+{
+"word": "dringend",
+"m": {
+"es": "urgente",
+"en": "urgent"
+},
+"pos": "",
+"w": "dringend",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1281
+},
+{
+"word": "sich entschuldigen",
+"m": {
+"es": "disculparse",
+"en": "to apologise"
+},
+"pos": "verb",
+"w": "sich entschuldigen",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1282
+},
+{
+"word": "ändern",
+"m": {
+"es": "cambiar",
+"en": "to change"
+},
+"pos": "verb",
+"w": "ändern",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1283
+},
+{
+"word": "kontrollieren",
+"m": {
+"es": "controlar, revisar",
+"en": "to check"
+},
+"pos": "verb",
+"w": "kontrollieren",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1284
+},
+{
+"word": "prüfen",
+"m": {
+"es": "comprobar, examinar",
+"en": "to check, to test"
+},
+"pos": "verb",
+"w": "prüfen",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1285
+},
+{
+"word": "versprechen",
+"m": {
+"es": "prometer",
+"en": "to promise"
+},
+"pos": "",
+"w": "versprechen",
+"p": "",
+"unit": 19,
+"u": "a2-19",
+"q": 1286
+},
+{
+"word": "das Märchen",
+"m": {
+"es": "el cuento de hadas · pl. die Märchen",
+"en": "fairy tale · pl. die Märchen"
+},
+"pos": "noun",
+"w": "das Märchen",
+"p": "",
+"g": "n",
+"pl": "Märchen",
+"unit": 20,
+"u": "a2-20",
+"q": 1287
+},
+{
+"word": "der König",
+"m": {
+"es": "el rey · pl. die Könige",
+"en": "king · pl. die Könige"
+},
+"pos": "noun",
+"w": "der König",
+"p": "",
+"g": "m",
+"pl": "Könige",
+"unit": 20,
+"u": "a2-20",
+"q": 1288
+},
+{
+"word": "die Königin",
+"m": {
+"es": "la reina · pl. die Königinnen",
+"en": "queen · pl. die Königinnen"
+},
+"pos": "noun",
+"w": "die Königin",
+"p": "",
+"g": "f",
+"pl": "Königinnen",
+"unit": 20,
+"u": "a2-20",
+"q": 1289
+},
+{
+"word": "der Prinz",
+"m": {
+"es": "el príncipe · pl. die Prinzen",
+"en": "prince · pl. die Prinzen"
+},
+"pos": "noun",
+"w": "der Prinz",
+"p": "",
+"g": "m",
+"pl": "Prinzen",
+"unit": 20,
+"u": "a2-20",
+"q": 1290
+},
+{
+"word": "die Prinzessin",
+"m": {
+"es": "la princesa · pl. die Prinzessinnen",
+"en": "princess · pl. die Prinzessinnen"
+},
+"pos": "noun",
+"w": "die Prinzessin",
+"p": "",
+"g": "f",
+"pl": "Prinzessinnen",
+"unit": 20,
+"u": "a2-20",
+"q": 1291
+},
+{
+"word": "das Schloss",
+"m": {
+"es": "el castillo; la cerradura · pl. die Schlösser",
+"en": "castle; lock · pl. die Schlösser"
+},
+"pos": "noun",
+"w": "das Schloss",
+"p": "",
+"g": "n",
+"pl": "Schlösser",
+"unit": 20,
+"u": "a2-20",
+"q": 1292
+},
+{
+"word": "plötzlich",
+"m": {
+"es": "de repente",
+"en": "suddenly"
+},
+"pos": "",
+"w": "plötzlich",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1293
+},
+{
+"word": "eines Tages",
+"m": {
+"es": "un día",
+"en": "one day"
+},
+"pos": "",
+"w": "eines Tages",
+"p": "",
+"unit": 20,
+"u": "a2-20",
+"q": 1294
+},
+{
+"word": "rufen",
+"m": {
+"es": "llamar (a gritos) · ruft, rief, hat gerufen",
+"en": "to call, to shout · ruft, rief, hat gerufen"
+},
+"pos": "verb",
+"w": "rufen",
+"p": "",
+"pp": "ruft, rief, hat gerufen",
+"unit": 20,
+"u": "a2-20",
+"q": 1295
+},
+{
+"word": "ab und zu",
+"m": {
+"es": "de vez en cuando",
+"en": "now and then"
+},
+"pos": "",
+"w": "ab und zu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1296
+},
+{
+"word": "abschließen",
+"m": {
+"es": "cerrar con llave; terminar · schließt ab, schloss ab, hat abgeschlossen",
+"en": "to lock; to complete · schließt ab, schloss ab, hat abgeschlossen"
+},
+"pos": "verb",
+"w": "abschließen",
+"p": "",
+"pp": "schließt ab, schloss ab, hat abgeschlossen",
+"unit": null,
+"u": "",
+"q": 1297
+},
+{
+"word": "die Ahnung",
+"m": {
+"es": "la idea, la noción · pl. die Ahnungen",
+"en": "idea, notion · pl. die Ahnungen"
+},
+"pos": "noun",
+"w": "die Ahnung",
+"p": "",
+"g": "f",
+"pl": "Ahnungen",
+"unit": null,
+"u": "",
+"q": 1298
+},
+{
+"word": "aktiv",
+"m": {
+"es": "activo",
+"en": "active"
+},
+"pos": "",
+"w": "aktiv",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1299
+},
+{
+"word": "aktuell",
+"m": {
+"es": "actual, de actualidad",
+"en": "current, up to date"
+},
+"pos": "",
+"w": "aktuell",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1300
+},
+{
+"word": "an der Reihe sein",
+"m": {
+"es": "ser el turno de alguien",
+"en": "to be someone's turn"
+},
+"pos": "",
+"w": "an der Reihe sein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1301
+},
+{
+"word": "anders",
+"m": {
+"es": "distinto, de otra manera",
+"en": "different, differently"
+},
+"pos": "",
+"w": "anders",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1302
+},
+{
+"word": "die Angst",
+"m": {
+"es": "el miedo · pl. die Ängste",
+"en": "fear · pl. die Ängste"
+},
+"pos": "noun",
+"w": "die Angst",
+"p": "",
+"g": "f",
+"pl": "Ängste",
+"unit": null,
+"u": "",
+"q": 1303
+},
+{
+"word": "anprobieren",
+"m": {
+"es": "probarse (ropa)",
+"en": "to try on"
+},
+"pos": "verb",
+"w": "anprobieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1304
+},
+{
+"word": "ansehen",
+"m": {
+"es": "mirar, ver · sieht an, sah an, hat angesehen",
+"en": "to look at, to watch · sieht an, sah an, hat angesehen"
+},
+"pos": "verb",
+"w": "ansehen",
+"p": "",
+"pp": "sieht an, sah an, hat angesehen",
+"unit": null,
+"u": "",
+"q": 1305
+},
+{
+"word": "anziehen",
+"m": {
+"es": "poner (ropa) · zieht an, zog an, hat angezogen",
+"en": "to put on · zieht an, zog an, hat angezogen"
+},
+"pos": "verb",
+"w": "anziehen",
+"p": "",
+"pp": "zieht an, zog an, hat angezogen",
+"unit": null,
+"u": "",
+"q": 1306
+},
+{
+"word": "der Apparat",
+"m": {
+"es": "el aparato · pl. die Apparate",
+"en": "appliance, device · pl. die Apparate"
+},
+"pos": "noun",
+"w": "der Apparat",
+"p": "",
+"g": "m",
+"pl": "Apparate",
+"unit": null,
+"u": "",
+"q": 1307
+},
+{
+"word": "der Artikel",
+"m": {
+"es": "el artículo · pl. die Artikel",
+"en": "article · pl. die Artikel"
+},
+"pos": "noun",
+"w": "der Artikel",
+"p": "",
+"g": "m",
+"pl": "Artikel",
+"unit": null,
+"u": "",
+"q": 1308
+},
+{
+"word": "auf jeden Fall",
+"m": {
+"es": "en cualquier caso, seguro",
+"en": "in any case, definitely"
+},
+"pos": "",
+"w": "auf jeden Fall",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1309
+},
+{
+"word": "auf keinen Fall",
+"m": {
+"es": "de ninguna manera",
+"en": "under no circumstances"
+},
+"pos": "",
+"w": "auf keinen Fall",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1310
+},
+{
+"word": "aufmachen",
+"m": {
+"es": "abrir",
+"en": "to open"
+},
+"pos": "",
+"w": "aufmachen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1311
+},
+{
+"word": "aufpassen",
+"m": {
+"es": "prestar atención; cuidar",
+"en": "to pay attention; to look after"
+},
+"pos": "verb",
+"w": "aufpassen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1312
+},
+{
+"word": "aufregend",
+"m": {
+"es": "emocionante",
+"en": "exciting"
+},
+"pos": "",
+"w": "aufregend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1313
+},
+{
+"word": "ausgeben",
+"m": {
+"es": "gastar (dinero) · gibt aus, gab aus, hat ausgegeben",
+"en": "to spend (money) · gibt aus, gab aus, hat ausgegeben"
+},
+"pos": "verb",
+"w": "ausgeben",
+"p": "",
+"pp": "gibt aus, gab aus, hat ausgegeben",
+"unit": null,
+"u": "",
+"q": 1314
+},
+{
+"word": "ausgehen",
+"m": {
+"es": "salir (por la noche) · geht aus, ging aus, ist ausgegangen",
+"en": "to go out · geht aus, ging aus, ist ausgegangen"
+},
+"pos": "verb",
+"w": "ausgehen",
+"p": "",
+"pp": "geht aus, ging aus, ist ausgegangen",
+"unit": null,
+"u": "",
+"q": 1315
+},
+{
+"word": "aussprechen",
+"m": {
+"es": "pronunciar",
+"en": "to pronounce"
+},
+"pos": "",
+"w": "aussprechen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1316
+},
+{
+"word": "austragen",
+"m": {
+"es": "repartir (periódicos, cartas) · trägt aus, trug aus, hat ausgetragen",
+"en": "to deliver · trägt aus, trug aus, hat ausgetragen"
+},
+"pos": "verb",
+"w": "austragen",
+"p": "",
+"pp": "trägt aus, trug aus, hat ausgetragen",
+"unit": null,
+"u": "",
+"q": 1317
+},
+{
+"word": "ausziehen",
+"m": {
+"es": "quitar (ropa); mudarse (de casa) · zieht aus, zog aus, ist ausgezogen",
+"en": "to take off; to move out · zieht aus, zog aus, ist ausgezogen"
+},
+"pos": "verb",
+"w": "ausziehen",
+"p": "",
+"pp": "zieht aus, zog aus, ist ausgezogen",
+"unit": null,
+"u": "",
+"q": 1318
+},
+{
+"word": "außer",
+"m": {
+"es": "excepto, salvo",
+"en": "except"
+},
+"pos": "",
+"w": "außer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1319
+},
+{
+"word": "außerhalb",
+"m": {
+"es": "fuera de",
+"en": "outside (of)"
+},
+"pos": "",
+"w": "außerhalb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1320
+},
+{
+"word": "der Babysitter",
+"m": {
+"es": "el canguro, la niñera · pl. die Babysitter",
+"en": "babysitter · pl. die Babysitter"
+},
+"pos": "noun",
+"w": "der Babysitter",
+"p": "",
+"g": "m",
+"pl": "Babysitter",
+"unit": null,
+"u": "",
+"q": 1321
+},
+{
+"word": "backen",
+"m": {
+"es": "hornear · backt, backte, hat gebacken",
+"en": "to bake · backt, backte, hat gebacken"
+},
+"pos": "verb",
+"w": "backen",
+"p": "",
+"pp": "backt, backte, hat gebacken",
+"unit": null,
+"u": "",
+"q": 1322
+},
+{
+"word": "der Ball",
+"m": {
+"es": "el balón, la pelota · pl. die Bälle",
+"en": "ball · pl. die Bälle"
+},
+"pos": "noun",
+"w": "der Ball",
+"p": "",
+"g": "m",
+"pl": "Bälle",
+"unit": null,
+"u": "",
+"q": 1323
+},
+{
+"word": "der Basketball",
+"m": {
+"es": "el baloncesto",
+"en": "basketball"
+},
+"pos": "noun",
+"w": "der Basketball",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1324
+},
+{
+"word": "basteln",
+"m": {
+"es": "hacer manualidades",
+"en": "to do crafts"
+},
+"pos": "verb",
+"w": "basteln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1325
+},
+{
+"word": "bauen",
+"m": {
+"es": "construir",
+"en": "to build"
+},
+"pos": "verb",
+"w": "bauen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1326
+},
+{
+"word": "der Bauer",
+"m": {
+"es": "el agricultor · pl. die Bauern",
+"en": "farmer · pl. die Bauern"
+},
+"pos": "noun",
+"w": "der Bauer",
+"p": "",
+"g": "m",
+"pl": "Bauern",
+"unit": null,
+"u": "",
+"q": 1327
+},
+{
+"word": "beantworten",
+"m": {
+"es": "contestar (algo)",
+"en": "to answer (something)"
+},
+"pos": "verb",
+"w": "beantworten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1328
+},
+{
+"word": "der Becher",
+"m": {
+"es": "el vaso (de yogur), el tarro · pl. die Becher",
+"en": "pot, tub · pl. die Becher"
+},
+"pos": "noun",
+"w": "der Becher",
+"p": "",
+"g": "m",
+"pl": "Becher",
+"unit": null,
+"u": "",
+"q": 1329
+},
+{
+"word": "sich bedanken",
+"m": {
+"es": "dar las gracias",
+"en": "to say thank you"
+},
+"pos": "verb",
+"w": "sich bedanken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1330
+},
+{
+"word": "sich beeilen",
+"m": {
+"es": "darse prisa",
+"en": "to hurry"
+},
+"pos": "verb",
+"w": "sich beeilen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1331
+},
+{
+"word": "beenden",
+"m": {
+"es": "terminar, acabar",
+"en": "to finish, to end"
+},
+"pos": "verb",
+"w": "beenden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1332
+},
+{
+"word": "begründen",
+"m": {
+"es": "justificar",
+"en": "to give reasons for"
+},
+"pos": "verb",
+"w": "begründen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1333
+},
+{
+"word": "das Benzin",
+"m": {
+"es": "la gasolina",
+"en": "petrol"
+},
+"pos": "noun",
+"w": "das Benzin",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1334
+},
+{
+"word": "beraten",
+"m": {
+"es": "aconsejar, asesorar · berät, beriet, hat beraten",
+"en": "to advise · berät, beriet, hat beraten"
+},
+"pos": "verb",
+"w": "beraten",
+"p": "",
+"pp": "berät, beriet, hat beraten",
+"unit": null,
+"u": "",
+"q": 1335
+},
+{
+"word": "berichten",
+"m": {
+"es": "informar, contar",
+"en": "to report"
+},
+"pos": "verb",
+"w": "berichten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1336
+},
+{
+"word": "Bescheid sagen",
+"m": {
+"es": "avisar",
+"en": "to let know"
+},
+"pos": "",
+"w": "Bescheid sagen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1337
+},
+{
+"word": "Bescheid wissen",
+"m": {
+"es": "estar enterado",
+"en": "to know (about it)"
+},
+"pos": "",
+"w": "Bescheid wissen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1338
+},
+{
+"word": "beschreiben",
+"m": {
+"es": "describir · beschreibt, beschrieb, hat beschrieben",
+"en": "to describe · beschreibt, beschrieb, hat beschrieben"
+},
+"pos": "verb",
+"w": "beschreiben",
+"p": "",
+"pp": "beschreibt, beschrieb, hat beschrieben",
+"unit": null,
+"u": "",
+"q": 1339
+},
+{
+"word": "besonders",
+"m": {
+"es": "especialmente",
+"en": "especially"
+},
+"pos": "",
+"w": "besonders",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1340
+},
+{
+"word": "bestätigen",
+"m": {
+"es": "confirmar",
+"en": "to confirm"
+},
+"pos": "verb",
+"w": "bestätigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1341
+},
+{
+"word": "bevor",
+"m": {
+"es": "antes de que",
+"en": "before"
+},
+"pos": "",
+"w": "bevor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1342
+},
+{
+"word": "sich bewerben",
+"m": {
+"es": "presentar una candidatura, solicitar (un puesto) · bewirbt, bewarb, hat beworben",
+"en": "to apply · bewirbt, bewarb, hat beworben"
+},
+"pos": "verb",
+"w": "sich bewerben",
+"p": "",
+"pp": "bewirbt, bewarb, hat beworben",
+"unit": null,
+"u": "",
+"q": 1343
+},
+{
+"word": "die Bewerbung",
+"m": {
+"es": "la solicitud (de empleo) · pl. die Bewerbungen",
+"en": "application · pl. die Bewerbungen"
+},
+"pos": "noun",
+"w": "die Bewerbung",
+"p": "",
+"g": "f",
+"pl": "Bewerbungen",
+"unit": null,
+"u": "",
+"q": 1344
+},
+{
+"word": "das Blatt",
+"m": {
+"es": "la hoja · pl. die Blätter",
+"en": "leaf; sheet · pl. die Blätter"
+},
+"pos": "noun",
+"w": "das Blatt",
+"p": "",
+"g": "n",
+"pl": "Blätter",
+"unit": null,
+"u": "",
+"q": 1345
+},
+{
+"word": "das Blut",
+"m": {
+"es": "la sangre",
+"en": "blood"
+},
+"pos": "noun",
+"w": "das Blut",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1346
+},
+{
+"word": "blöd",
+"m": {
+"es": "tonto, estúpido",
+"en": "stupid"
+},
+"pos": "",
+"w": "blöd",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1347
+},
+{
+"word": "die Bohne",
+"m": {
+"es": "la judía, la alubia · pl. die Bohnen",
+"en": "bean · pl. die Bohnen"
+},
+"pos": "noun",
+"w": "die Bohne",
+"p": "",
+"g": "f",
+"pl": "Bohnen",
+"unit": null,
+"u": "",
+"q": 1348
+},
+{
+"word": "die Bordkarte",
+"m": {
+"es": "la tarjeta de embarque · pl. die Bordkarten",
+"en": "boarding pass · pl. die Bordkarten"
+},
+"pos": "noun",
+"w": "die Bordkarte",
+"p": "",
+"g": "f",
+"pl": "Bordkarten",
+"unit": null,
+"u": "",
+"q": 1349
+},
+{
+"word": "braten",
+"m": {
+"es": "freír, asar · brät, briet, hat gebraten",
+"en": "to fry, to roast · brät, briet, hat gebraten"
+},
+"pos": "verb",
+"w": "braten",
+"p": "",
+"pp": "brät, briet, hat gebraten",
+"unit": null,
+"u": "",
+"q": 1350
+},
+{
+"word": "die Brust",
+"m": {
+"es": "el pecho · pl. die Brüste",
+"en": "chest · pl. die Brüste"
+},
+"pos": "noun",
+"w": "die Brust",
+"p": "",
+"g": "f",
+"pl": "Brüste",
+"unit": null,
+"u": "",
+"q": 1351
+},
+{
+"word": "der Bürgersteig",
+"m": {
+"es": "la acera · pl. die Bürgersteige",
+"en": "pavement · pl. die Bürgersteige"
+},
+"pos": "noun",
+"w": "der Bürgersteig",
+"p": "",
+"g": "m",
+"pl": "Bürgersteige",
+"unit": null,
+"u": "",
+"q": 1352
+},
+{
+"word": "die Cafeteria",
+"m": {
+"es": "la cafetería · pl. die Cafeterias",
+"en": "cafeteria · pl. die Cafeterias"
+},
+"pos": "noun",
+"w": "die Cafeteria",
+"p": "",
+"g": "f",
+"pl": "Cafeterias",
+"unit": null,
+"u": "",
+"q": 1353
+},
+{
+"word": "der Club",
+"m": {
+"es": "el club · pl. die Clubs",
+"en": "club · pl. die Clubs"
+},
+"pos": "noun",
+"w": "der Club",
+"p": "",
+"g": "m",
+"pl": "Clubs",
+"unit": null,
+"u": "",
+"q": 1354
+},
+{
+"word": "der Comic",
+"m": {
+"es": "el cómic · pl. die Comics",
+"en": "comic · pl. die Comics"
+},
+"pos": "noun",
+"w": "der Comic",
+"p": "",
+"g": "m",
+"pl": "Comics",
+"unit": null,
+"u": "",
+"q": 1355
+},
+{
+"word": "der Cousin",
+"m": {
+"es": "el primo · pl. die Cousins",
+"en": "cousin (male) · pl. die Cousins"
+},
+"pos": "noun",
+"w": "der Cousin",
+"p": "",
+"g": "m",
+"pl": "Cousins",
+"unit": null,
+"u": "",
+"q": 1356
+},
+{
+"word": "die Cousine",
+"m": {
+"es": "la prima · pl. die Cousinen",
+"en": "cousin (female) · pl. die Cousinen"
+},
+"pos": "noun",
+"w": "die Cousine",
+"p": "",
+"g": "f",
+"pl": "Cousinen",
+"unit": null,
+"u": "",
+"q": 1357
+},
+{
+"word": "die Creme",
+"m": {
+"es": "la crema · pl. die Cremes",
+"en": "cream · pl. die Cremes"
+},
+"pos": "noun",
+"w": "die Creme",
+"p": "",
+"g": "f",
+"pl": "Cremes",
+"unit": null,
+"u": "",
+"q": 1358
+},
+{
+"word": "dabei",
+"m": {
+"es": "con ello; al hacerlo",
+"en": "with it; while doing so"
+},
+"pos": "",
+"w": "dabei",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1359
+},
+{
+"word": "dabei sein",
+"m": {
+"es": "participar, estar presente",
+"en": "to be there, to take part"
+},
+"pos": "",
+"w": "dabei sein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1360
+},
+{
+"word": "dafür sein",
+"m": {
+"es": "estar a favor",
+"en": "to be in favour"
+},
+"pos": "",
+"w": "dafür sein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1361
+},
+{
+"word": "dagegen sein",
+"m": {
+"es": "estar en contra",
+"en": "to be against"
+},
+"pos": "",
+"w": "dagegen sein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1362
+},
+{
+"word": "damit",
+"m": {
+"es": "para que; con eso",
+"en": "so that; with that"
+},
+"pos": "",
+"w": "damit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1363
+},
+{
+"word": "deswegen",
+"m": {
+"es": "por eso",
+"en": "that's why"
+},
+"pos": "verb",
+"w": "deswegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1364
+},
+{
+"word": "deutlich",
+"m": {
+"es": "claro, nítido",
+"en": "clear, distinct"
+},
+"pos": "",
+"w": "deutlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1365
+},
+{
+"word": "das Ding",
+"m": {
+"es": "la cosa · pl. die Dinge",
+"en": "thing · pl. die Dinge"
+},
+"pos": "noun",
+"w": "das Ding",
+"p": "",
+"g": "n",
+"pl": "Dinge",
+"unit": null,
+"u": "",
+"q": 1366
+},
+{
+"word": "direkt",
+"m": {
+"es": "directo",
+"en": "direct, directly"
+},
+"pos": "",
+"w": "direkt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1367
+},
+{
+"word": "diskutieren",
+"m": {
+"es": "discutir, debatir",
+"en": "to discuss"
+},
+"pos": "verb",
+"w": "diskutieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1368
+},
+{
+"word": "die Dose",
+"m": {
+"es": "la lata · pl. die Dosen",
+"en": "tin, can · pl. die Dosen"
+},
+"pos": "noun",
+"w": "die Dose",
+"p": "",
+"g": "f",
+"pl": "Dosen",
+"unit": null,
+"u": "",
+"q": 1369
+},
+{
+"word": "drinnen",
+"m": {
+"es": "dentro",
+"en": "inside"
+},
+"pos": "verb",
+"w": "drinnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1370
+},
+{
+"word": "drüben",
+"m": {
+"es": "al otro lado",
+"en": "over there"
+},
+"pos": "verb",
+"w": "drüben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1371
+},
+{
+"word": "dumm",
+"m": {
+"es": "tonto",
+"en": "stupid"
+},
+"pos": "",
+"w": "dumm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1372
+},
+{
+"word": "das E-Book",
+"m": {
+"es": "el libro electrónico · pl. die E-Books",
+"en": "e-book · pl. die E-Books"
+},
+"pos": "noun",
+"w": "das E-Book",
+"p": "",
+"g": "n",
+"pl": "E-Books",
+"unit": null,
+"u": "",
+"q": 1373
+},
+{
+"word": "echt",
+"m": {
+"es": "auténtico; de verdad",
+"en": "real, genuine; really"
+},
+"pos": "",
+"w": "echt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1374
+},
+{
+"word": "egal",
+"m": {
+"es": "igual, indiferente",
+"en": "all the same"
+},
+"pos": "",
+"w": "egal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1375
+},
+{
+"word": "der Ehepartner",
+"m": {
+"es": "el cónyuge · pl. die Ehepartner",
+"en": "spouse · pl. die Ehepartner"
+},
+"pos": "noun",
+"w": "der Ehepartner",
+"p": "",
+"g": "m",
+"pl": "Ehepartner",
+"unit": null,
+"u": "",
+"q": 1376
+},
+{
+"word": "eigen",
+"m": {
+"es": "propio",
+"en": "own"
+},
+"pos": "verb",
+"w": "eigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1377
+},
+{
+"word": "eigentlich",
+"m": {
+"es": "en realidad",
+"en": "actually"
+},
+"pos": "",
+"w": "eigentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1378
+},
+{
+"word": "eine Menge",
+"m": {
+"es": "un montón",
+"en": "a lot"
+},
+"pos": "",
+"w": "eine Menge",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1379
+},
+{
+"word": "einige",
+"m": {
+"es": "algunos",
+"en": "some, a few"
+},
+"pos": "",
+"w": "einige",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1380
+},
+{
+"word": "das Einkaufszentrum",
+"m": {
+"es": "el centro comercial · pl. die Einkaufszentrumzentren",
+"en": "shopping centre · pl. die Einkaufszentrumzentren"
+},
+"pos": "noun",
+"w": "das Einkaufszentrum",
+"p": "",
+"g": "n",
+"pl": "Einkaufszentrumzentren",
+"unit": null,
+"u": "",
+"q": 1381
+},
+{
+"word": "einpacken",
+"m": {
+"es": "empaquetar, meter en la maleta",
+"en": "to pack"
+},
+"pos": "verb",
+"w": "einpacken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1382
+},
+{
+"word": "sich eintragen",
+"m": {
+"es": "inscribirse, apuntarse · trägt ein, trug ein, hat eingetragen",
+"en": "to sign up · trägt ein, trug ein, hat eingetragen"
+},
+"pos": "verb",
+"w": "sich eintragen",
+"p": "",
+"pp": "trägt ein, trug ein, hat eingetragen",
+"unit": null,
+"u": "",
+"q": 1383
+},
+{
+"word": "einverstanden",
+"m": {
+"es": "de acuerdo",
+"en": "agreed"
+},
+"pos": "verb",
+"w": "einverstanden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1384
+},
+{
+"word": "einzeln",
+"m": {
+"es": "individual, suelto",
+"en": "single, individual"
+},
+"pos": "verb",
+"w": "einzeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1385
+},
+{
+"word": "das Eis",
+"m": {
+"es": "el helado; el hielo",
+"en": "ice cream; ice"
+},
+"pos": "noun",
+"w": "das Eis",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1386
+},
+{
+"word": "eng",
+"m": {
+"es": "estrecho, ajustado",
+"en": "narrow, tight"
+},
+"pos": "",
+"w": "eng",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1387
+},
+{
+"word": "der Enkel",
+"m": {
+"es": "el nieto · pl. die Enkel",
+"en": "grandson · pl. die Enkel"
+},
+"pos": "noun",
+"w": "der Enkel",
+"p": "",
+"g": "m",
+"pl": "Enkel",
+"unit": null,
+"u": "",
+"q": 1388
+},
+{
+"word": "die Enkelin",
+"m": {
+"es": "la nieta · pl. die Enkelinnen",
+"en": "granddaughter · pl. die Enkelinnen"
+},
+"pos": "noun",
+"w": "die Enkelin",
+"p": "",
+"g": "f",
+"pl": "Enkelinnen",
+"unit": null,
+"u": "",
+"q": 1389
+},
+{
+"word": "entweder … oder",
+"m": {
+"es": "o … o",
+"en": "either … or"
+},
+"pos": "",
+"w": "entweder … oder",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1390
+},
+{
+"word": "die Erdbeere",
+"m": {
+"es": "la fresa · pl. die Erdbeeren",
+"en": "strawberry · pl. die Erdbeeren"
+},
+"pos": "noun",
+"w": "die Erdbeere",
+"p": "",
+"g": "f",
+"pl": "Erdbeeren",
+"unit": null,
+"u": "",
+"q": 1391
+},
+{
+"word": "sich erholen",
+"m": {
+"es": "recuperarse, descansar",
+"en": "to recover, to relax"
+},
+"pos": "verb",
+"w": "sich erholen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1392
+},
+{
+"word": "die Erlaubnis",
+"m": {
+"es": "el permiso · pl. die Erlaubnisse",
+"en": "permission · pl. die Erlaubnisse"
+},
+"pos": "noun",
+"w": "die Erlaubnis",
+"p": "",
+"g": "f",
+"pl": "Erlaubnisse",
+"unit": null,
+"u": "",
+"q": 1393
+},
+{
+"word": "die Ermäßigung",
+"m": {
+"es": "el descuento · pl. die Ermäßigungen",
+"en": "discount, reduction · pl. die Ermäßigungen"
+},
+"pos": "noun",
+"w": "die Ermäßigung",
+"p": "",
+"g": "f",
+"pl": "Ermäßigungen",
+"unit": null,
+"u": "",
+"q": 1394
+},
+{
+"word": "ernst",
+"m": {
+"es": "serio",
+"en": "serious"
+},
+"pos": "",
+"w": "ernst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1395
+},
+{
+"word": "erst",
+"m": {
+"es": "primero; solo, no antes de",
+"en": "first; only, not until"
+},
+"pos": "",
+"w": "erst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1396
+},
+{
+"word": "fallen",
+"m": {
+"es": "caer · fällt, fiel, ist gefallen",
+"en": "to fall · fällt, fiel, ist gefallen"
+},
+"pos": "verb",
+"w": "fallen",
+"p": "",
+"pp": "fällt, fiel, ist gefallen",
+"unit": null,
+"u": "",
+"q": 1397
+},
+{
+"word": "fantastisch",
+"m": {
+"es": "fantástico",
+"en": "fantastic"
+},
+"pos": "",
+"w": "fantastisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1398
+},
+{
+"word": "fast",
+"m": {
+"es": "casi",
+"en": "almost"
+},
+"pos": "",
+"w": "fast",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1399
+},
+{
+"word": "faul",
+"m": {
+"es": "perezoso; podrido",
+"en": "lazy; rotten"
+},
+"pos": "",
+"w": "faul",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1400
+},
+{
+"word": "fett",
+"m": {
+"es": "graso",
+"en": "fatty"
+},
+"pos": "",
+"w": "fett",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1401
+},
+{
+"word": "fit",
+"m": {
+"es": "en forma",
+"en": "fit"
+},
+"pos": "",
+"w": "fit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1402
+},
+{
+"word": "fleißig",
+"m": {
+"es": "trabajador, aplicado",
+"en": "hard-working"
+},
+"pos": "",
+"w": "fleißig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1403
+},
+{
+"word": "der Flohmarkt",
+"m": {
+"es": "el rastro, el mercadillo · pl. die Flohmärkte",
+"en": "flea market · pl. die Flohmärkte"
+},
+"pos": "noun",
+"w": "der Flohmarkt",
+"p": "",
+"g": "m",
+"pl": "Flohmärkte",
+"unit": null,
+"u": "",
+"q": 1404
+},
+{
+"word": "der Flugsteig",
+"m": {
+"es": "la puerta de embarque · pl. die Flugsteige",
+"en": "gate · pl. die Flugsteige"
+},
+"pos": "noun",
+"w": "der Flugsteig",
+"p": "",
+"g": "m",
+"pl": "Flugsteige",
+"unit": null,
+"u": "",
+"q": 1405
+},
+{
+"word": "der Fotoapparat",
+"m": {
+"es": "la cámara de fotos · pl. die Fotoapparate",
+"en": "camera · pl. die Fotoapparate"
+},
+"pos": "noun",
+"w": "der Fotoapparat",
+"p": "",
+"g": "m",
+"pl": "Fotoapparate",
+"unit": null,
+"u": "",
+"q": 1406
+},
+{
+"word": "freiwillig",
+"m": {
+"es": "voluntario",
+"en": "voluntary"
+},
+"pos": "",
+"w": "freiwillig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1407
+},
+{
+"word": "frisch",
+"m": {
+"es": "fresco",
+"en": "fresh"
+},
+"pos": "",
+"w": "frisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1408
+},
+{
+"word": "fröhlich",
+"m": {
+"es": "alegre",
+"en": "cheerful"
+},
+"pos": "",
+"w": "fröhlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1409
+},
+{
+"word": "das Frühstücksbuffet",
+"m": {
+"es": "el bufé de desayuno · pl. die Frühstücksbuffets",
+"en": "breakfast buffet · pl. die Frühstücksbuffets"
+},
+"pos": "noun",
+"w": "das Frühstücksbuffet",
+"p": "",
+"g": "n",
+"pl": "Frühstücksbuffets",
+"unit": null,
+"u": "",
+"q": 1410
+},
+{
+"word": "das Fundbüro",
+"m": {
+"es": "la oficina de objetos perdidos · pl. die Fundbüros",
+"en": "lost property office · pl. die Fundbüros"
+},
+"pos": "noun",
+"w": "das Fundbüro",
+"p": "",
+"g": "n",
+"pl": "Fundbüros",
+"unit": null,
+"u": "",
+"q": 1411
+},
+{
+"word": "der Führerschein",
+"m": {
+"es": "el carné de conducir · pl. die Führerscheine",
+"en": "driving licence · pl. die Führerscheine"
+},
+"pos": "noun",
+"w": "der Führerschein",
+"p": "",
+"g": "m",
+"pl": "Führerscheine",
+"unit": null,
+"u": "",
+"q": 1412
+},
+{
+"word": "die Gabel",
+"m": {
+"es": "el tenedor · pl. die Gabeln",
+"en": "fork · pl. die Gabeln"
+},
+"pos": "noun",
+"w": "die Gabel",
+"p": "",
+"g": "f",
+"pl": "Gabeln",
+"unit": null,
+"u": "",
+"q": 1413
+},
+{
+"word": "die Garage",
+"m": {
+"es": "el garaje · pl. die Garagen",
+"en": "garage · pl. die Garagen"
+},
+"pos": "noun",
+"w": "die Garage",
+"p": "",
+"g": "f",
+"pl": "Garagen",
+"unit": null,
+"u": "",
+"q": 1414
+},
+{
+"word": "gefährlich",
+"m": {
+"es": "peligroso",
+"en": "dangerous"
+},
+"pos": "",
+"w": "gefährlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1415
+},
+{
+"word": "das Gegenteil",
+"m": {
+"es": "lo contrario · pl. die Gegenteile",
+"en": "opposite · pl. die Gegenteile"
+},
+"pos": "noun",
+"w": "das Gegenteil",
+"p": "",
+"g": "n",
+"pl": "Gegenteile",
+"unit": null,
+"u": "",
+"q": 1416
+},
+{
+"word": "die Geldbörse",
+"m": {
+"es": "el monedero, la cartera · pl. die Geldbörsen",
+"en": "purse, wallet · pl. die Geldbörsen"
+},
+"pos": "noun",
+"w": "die Geldbörse",
+"p": "",
+"g": "f",
+"pl": "Geldbörsen",
+"unit": null,
+"u": "",
+"q": 1417
+},
+{
+"word": "das Gericht",
+"m": {
+"es": "el plato (comida); el tribunal · pl. die Gerichte",
+"en": "dish; court · pl. die Gerichte"
+},
+"pos": "noun",
+"w": "das Gericht",
+"p": "",
+"g": "n",
+"pl": "Gerichte",
+"unit": null,
+"u": "",
+"q": 1418
+},
+{
+"word": "das Gerät",
+"m": {
+"es": "el aparato · pl. die Geräte",
+"en": "device, appliance · pl. die Geräte"
+},
+"pos": "noun",
+"w": "das Gerät",
+"p": "",
+"g": "n",
+"pl": "Geräte",
+"unit": null,
+"u": "",
+"q": 1419
+},
+{
+"word": "geschieden",
+"m": {
+"es": "divorciado",
+"en": "divorced"
+},
+"pos": "verb",
+"w": "geschieden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1420
+},
+{
+"word": "das Geschirr",
+"m": {
+"es": "la vajilla",
+"en": "dishes, crockery"
+},
+"pos": "noun",
+"w": "das Geschirr",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1421
+},
+{
+"word": "getrennt",
+"m": {
+"es": "separado",
+"en": "separated"
+},
+"pos": "",
+"w": "getrennt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1422
+},
+{
+"word": "das Gewürz",
+"m": {
+"es": "la especia · pl. die Gewürze",
+"en": "spice · pl. die Gewürze"
+},
+"pos": "noun",
+"w": "das Gewürz",
+"p": "",
+"g": "n",
+"pl": "Gewürze",
+"unit": null,
+"u": "",
+"q": 1423
+},
+{
+"word": "gleichzeitig",
+"m": {
+"es": "al mismo tiempo",
+"en": "at the same time"
+},
+"pos": "",
+"w": "gleichzeitig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1424
+},
+{
+"word": "der Grad",
+"m": {
+"es": "el grado",
+"en": "degree"
+},
+"pos": "noun",
+"w": "der Grad",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1425
+},
+{
+"word": "die Gurke",
+"m": {
+"es": "el pepino · pl. die Gurken",
+"en": "cucumber · pl. die Gurken"
+},
+"pos": "noun",
+"w": "die Gurke",
+"p": "",
+"g": "f",
+"pl": "Gurken",
+"unit": null,
+"u": "",
+"q": 1426
+},
+{
+"word": "gute Laune",
+"m": {
+"es": "buen humor",
+"en": "good mood"
+},
+"pos": "",
+"w": "gute Laune",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1427
+},
+{
+"word": "der Hamburger",
+"m": {
+"es": "la hamburguesa · pl. die Hamburger",
+"en": "hamburger · pl. die Hamburger"
+},
+"pos": "noun",
+"w": "der Hamburger",
+"p": "",
+"g": "m",
+"pl": "Hamburger",
+"unit": null,
+"u": "",
+"q": 1428
+},
+{
+"word": "die Handschuhe",
+"m": {
+"es": "los guantes · (solo plural)",
+"en": "gloves · (plural only)"
+},
+"pos": "noun",
+"w": "die Handschuhe",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1429
+},
+{
+"word": "das Handtuch",
+"m": {
+"es": "la toalla · pl. die Handtücher",
+"en": "towel · pl. die Handtücher"
+},
+"pos": "noun",
+"w": "das Handtuch",
+"p": "",
+"g": "n",
+"pl": "Handtücher",
+"unit": null,
+"u": "",
+"q": 1430
+},
+{
+"word": "hart",
+"m": {
+"es": "duro",
+"en": "hard"
+},
+"pos": "",
+"w": "hart",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1431
+},
+{
+"word": "der Haushalt",
+"m": {
+"es": "las tareas de la casa; el hogar · pl. die Haushalte",
+"en": "housework; household · pl. die Haushalte"
+},
+"pos": "noun",
+"w": "der Haushalt",
+"p": "",
+"g": "m",
+"pl": "Haushalte",
+"unit": null,
+"u": "",
+"q": 1432
+},
+{
+"word": "die Haut",
+"m": {
+"es": "la piel",
+"en": "skin"
+},
+"pos": "noun",
+"w": "die Haut",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1433
+},
+{
+"word": "heraus",
+"m": {
+"es": "fuera (hacia aquí)",
+"en": "out"
+},
+"pos": "",
+"w": "heraus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1434
+},
+{
+"word": "herein",
+"m": {
+"es": "adentro (hacia aquí)",
+"en": "in"
+},
+"pos": "verb",
+"w": "herein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1435
+},
+{
+"word": "herstellen",
+"m": {
+"es": "fabricar, producir",
+"en": "to produce"
+},
+"pos": "verb",
+"w": "herstellen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1436
+},
+{
+"word": "hin und zurück",
+"m": {
+"es": "ida y vuelta",
+"en": "there and back"
+},
+"pos": "",
+"w": "hin und zurück",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1437
+},
+{
+"word": "die Homepage",
+"m": {
+"es": "la página web · pl. die Homepages",
+"en": "homepage · pl. die Homepages"
+},
+"pos": "noun",
+"w": "die Homepage",
+"p": "",
+"g": "f",
+"pl": "Homepages",
+"unit": null,
+"u": "",
+"q": 1438
+},
+{
+"word": "im Angebot",
+"m": {
+"es": "de oferta",
+"en": "on offer"
+},
+"pos": "",
+"w": "im Angebot",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1439
+},
+{
+"word": "in Rente gehen",
+"m": {
+"es": "jubilarse",
+"en": "to retire"
+},
+"pos": "",
+"w": "in Rente gehen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1440
+},
+{
+"word": "sich informieren",
+"m": {
+"es": "informarse",
+"en": "to find out"
+},
+"pos": "verb",
+"w": "sich informieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1441
+},
+{
+"word": "intelligent",
+"m": {
+"es": "inteligente",
+"en": "intelligent"
+},
+"pos": "",
+"w": "intelligent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1442
+},
+{
+"word": "das Interesse",
+"m": {
+"es": "el interés · pl. die Interessen",
+"en": "interest · pl. die Interessen"
+},
+"pos": "noun",
+"w": "das Interesse",
+"p": "",
+"g": "n",
+"pl": "Interessen",
+"unit": null,
+"u": "",
+"q": 1443
+},
+{
+"word": "irgendwie",
+"m": {
+"es": "de alguna manera",
+"en": "somehow"
+},
+"pos": "",
+"w": "irgendwie",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1444
+},
+{
+"word": "jedoch",
+"m": {
+"es": "sin embargo",
+"en": "however"
+},
+"pos": "",
+"w": "jedoch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1445
+},
+{
+"word": "der Joghurt",
+"m": {
+"es": "el yogur · pl. die Joghurts",
+"en": "yoghurt · pl. die Joghurts"
+},
+"pos": "noun",
+"w": "der Joghurt",
+"p": "",
+"g": "m",
+"pl": "Joghurts",
+"unit": null,
+"u": "",
+"q": 1446
+},
+{
+"word": "der Kalender",
+"m": {
+"es": "el calendario; la agenda · pl. die Kalender",
+"en": "calendar · pl. die Kalender"
+},
+"pos": "noun",
+"w": "der Kalender",
+"p": "",
+"g": "m",
+"pl": "Kalender",
+"unit": null,
+"u": "",
+"q": 1447
+},
+{
+"word": "die Karotte",
+"m": {
+"es": "la zanahoria · pl. die Karotten",
+"en": "carrot · pl. die Karotten"
+},
+"pos": "noun",
+"w": "die Karotte",
+"p": "",
+"g": "f",
+"pl": "Karotten",
+"unit": null,
+"u": "",
+"q": 1448
+},
+{
+"word": "die Kaution",
+"m": {
+"es": "la fianza · pl. die Kautionen",
+"en": "deposit · pl. die Kautionen"
+},
+"pos": "noun",
+"w": "die Kaution",
+"p": "",
+"g": "f",
+"pl": "Kautionen",
+"unit": null,
+"u": "",
+"q": 1449
+},
+{
+"word": "keine Ahnung",
+"m": {
+"es": "ni idea",
+"en": "no idea"
+},
+"pos": "",
+"w": "keine Ahnung",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1450
+},
+{
+"word": "die Kellnerin",
+"m": {
+"es": "la camarera · pl. die Kellnerinnen",
+"en": "waitress · pl. die Kellnerinnen"
+},
+"pos": "noun",
+"w": "die Kellnerin",
+"p": "",
+"g": "f",
+"pl": "Kellnerinnen",
+"unit": null,
+"u": "",
+"q": 1451
+},
+{
+"word": "die Kette",
+"m": {
+"es": "la cadena; el collar · pl. die Ketten",
+"en": "chain; necklace · pl. die Ketten"
+},
+"pos": "noun",
+"w": "die Kette",
+"p": "",
+"g": "f",
+"pl": "Ketten",
+"unit": null,
+"u": "",
+"q": 1452
+},
+{
+"word": "klappen",
+"m": {
+"es": "salir bien, funcionar",
+"en": "to work out"
+},
+"pos": "verb",
+"w": "klappen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1453
+},
+{
+"word": "klicken",
+"m": {
+"es": "hacer clic",
+"en": "to click"
+},
+"pos": "verb",
+"w": "klicken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1454
+},
+{
+"word": "die Klimaanlage",
+"m": {
+"es": "el aire acondicionado · pl. die Klimaanlagen",
+"en": "air conditioning · pl. die Klimaanlagen"
+},
+"pos": "noun",
+"w": "die Klimaanlage",
+"p": "",
+"g": "f",
+"pl": "Klimaanlagen",
+"unit": null,
+"u": "",
+"q": 1455
+},
+{
+"word": "klug",
+"m": {
+"es": "listo, inteligente",
+"en": "clever"
+},
+"pos": "",
+"w": "klug",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1456
+},
+{
+"word": "das Knie",
+"m": {
+"es": "la rodilla · pl. die Knie",
+"en": "knee · pl. die Knie"
+},
+"pos": "noun",
+"w": "das Knie",
+"p": "",
+"g": "n",
+"pl": "Knie",
+"unit": null,
+"u": "",
+"q": 1457
+},
+{
+"word": "komisch",
+"m": {
+"es": "raro; gracioso",
+"en": "strange; funny"
+},
+"pos": "",
+"w": "komisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1458
+},
+{
+"word": "der Kontakt",
+"m": {
+"es": "el contacto · pl. die Kontakte",
+"en": "contact · pl. die Kontakte"
+},
+"pos": "noun",
+"w": "der Kontakt",
+"p": "",
+"g": "m",
+"pl": "Kontakte",
+"unit": null,
+"u": "",
+"q": 1459
+},
+{
+"word": "die Kosmetik",
+"m": {
+"es": "los cosméticos",
+"en": "cosmetics"
+},
+"pos": "noun",
+"w": "die Kosmetik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1460
+},
+{
+"word": "die Krankenkasse",
+"m": {
+"es": "la mutua, el seguro médico · pl. die Krankenkassen",
+"en": "health insurance · pl. die Krankenkassen"
+},
+"pos": "noun",
+"w": "die Krankenkasse",
+"p": "",
+"g": "f",
+"pl": "Krankenkassen",
+"unit": null,
+"u": "",
+"q": 1461
+},
+{
+"word": "der Krankenpfleger",
+"m": {
+"es": "el enfermero · pl. die Krankenpfleger",
+"en": "nurse (male) · pl. die Krankenpfleger"
+},
+"pos": "noun",
+"w": "der Krankenpfleger",
+"p": "",
+"g": "m",
+"pl": "Krankenpfleger",
+"unit": null,
+"u": "",
+"q": 1462
+},
+{
+"word": "der Kredit",
+"m": {
+"es": "el crédito, el préstamo · pl. die Kredite",
+"en": "loan, credit · pl. die Kredite"
+},
+"pos": "noun",
+"w": "der Kredit",
+"p": "",
+"g": "m",
+"pl": "Kredite",
+"unit": null,
+"u": "",
+"q": 1463
+},
+{
+"word": "kündigen",
+"m": {
+"es": "despedir; renunciar, dar de baja",
+"en": "to give notice, to cancel"
+},
+"pos": "verb",
+"w": "kündigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1464
+},
+{
+"word": "die Landschaft",
+"m": {
+"es": "el paisaje · pl. die Landschaften",
+"en": "landscape · pl. die Landschaften"
+},
+"pos": "noun",
+"w": "die Landschaft",
+"p": "",
+"g": "f",
+"pl": "Landschaften",
+"unit": null,
+"u": "",
+"q": 1465
+},
+{
+"word": "leidtun",
+"m": {
+"es": "sentir, lamentar (es tut mir leid)",
+"en": "to be sorry"
+},
+"pos": "verb",
+"w": "leidtun",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1466
+},
+{
+"word": "leihen",
+"m": {
+"es": "prestar; tomar prestado · leiht, lieh, hat geliehen",
+"en": "to lend; to borrow · leiht, lieh, hat geliehen"
+},
+"pos": "verb",
+"w": "leihen",
+"p": "",
+"pp": "leiht, lieh, hat geliehen",
+"unit": null,
+"u": "",
+"q": 1467
+},
+{
+"word": "der Link",
+"m": {
+"es": "el enlace · pl. die Links",
+"en": "link · pl. die Links"
+},
+"pos": "noun",
+"w": "der Link",
+"p": "",
+"g": "m",
+"pl": "Links",
+"unit": null,
+"u": "",
+"q": 1468
+},
+{
+"word": "der Löffel",
+"m": {
+"es": "la cuchara · pl. die Löffel",
+"en": "spoon · pl. die Löffel"
+},
+"pos": "noun",
+"w": "der Löffel",
+"p": "",
+"g": "m",
+"pl": "Löffel",
+"unit": null,
+"u": "",
+"q": 1469
+},
+{
+"word": "die Lüge",
+"m": {
+"es": "la mentira · pl. die Lügen",
+"en": "lie · pl. die Lügen"
+},
+"pos": "noun",
+"w": "die Lüge",
+"p": "",
+"g": "f",
+"pl": "Lügen",
+"unit": null,
+"u": "",
+"q": 1470
+},
+{
+"word": "lügen",
+"m": {
+"es": "mentir · lügt, log, hat gelogen",
+"en": "to lie (tell lies) · lügt, log, hat gelogen"
+},
+"pos": "verb",
+"w": "lügen",
+"p": "",
+"pp": "lügt, log, hat gelogen",
+"unit": null,
+"u": "",
+"q": 1471
+},
+{
+"word": "mal",
+"m": {
+"es": "vez; (en peticiones) un momento",
+"en": "times; (softening word in requests)"
+},
+"pos": "",
+"w": "mal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1472
+},
+{
+"word": "das Mal",
+"m": {
+"es": "la vez · pl. die Male",
+"en": "time (occasion) · pl. die Male"
+},
+"pos": "noun",
+"w": "das Mal",
+"p": "",
+"g": "n",
+"pl": "Male",
+"unit": null,
+"u": "",
+"q": 1473
+},
+{
+"word": "manche",
+"m": {
+"es": "algunos",
+"en": "some"
+},
+"pos": "",
+"w": "manche",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1474
+},
+{
+"word": "die Mannschaft",
+"m": {
+"es": "el equipo · pl. die Mannschaften",
+"en": "team · pl. die Mannschaften"
+},
+"pos": "noun",
+"w": "die Mannschaft",
+"p": "",
+"g": "f",
+"pl": "Mannschaften",
+"unit": null,
+"u": "",
+"q": 1475
+},
+{
+"word": "die Maus",
+"m": {
+"es": "el ratón · pl. die Mäuse",
+"en": "mouse · pl. die Mäuse"
+},
+"pos": "noun",
+"w": "die Maus",
+"p": "",
+"g": "f",
+"pl": "Mäuse",
+"unit": null,
+"u": "",
+"q": 1476
+},
+{
+"word": "mehrere",
+"m": {
+"es": "varios",
+"en": "several"
+},
+"pos": "",
+"w": "mehrere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1477
+},
+{
+"word": "die Mehrwegflasche",
+"m": {
+"es": "la botella retornable · pl. die Mehrwegflaschen",
+"en": "returnable bottle · pl. die Mehrwegflaschen"
+},
+"pos": "noun",
+"w": "die Mehrwegflasche",
+"p": "",
+"g": "f",
+"pl": "Mehrwegflaschen",
+"unit": null,
+"u": "",
+"q": 1478
+},
+{
+"word": "die Meinung",
+"m": {
+"es": "la opinión · pl. die Meinungen",
+"en": "opinion · pl. die Meinungen"
+},
+"pos": "noun",
+"w": "die Meinung",
+"p": "",
+"g": "f",
+"pl": "Meinungen",
+"unit": null,
+"u": "",
+"q": 1479
+},
+{
+"word": "die Menge",
+"m": {
+"es": "la cantidad · pl. die Mengen",
+"en": "quantity, amount · pl. die Mengen"
+},
+"pos": "noun",
+"w": "die Menge",
+"p": "",
+"g": "f",
+"pl": "Mengen",
+"unit": null,
+"u": "",
+"q": 1480
+},
+{
+"word": "merken",
+"m": {
+"es": "notar, darse cuenta",
+"en": "to notice"
+},
+"pos": "verb",
+"w": "merken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1481
+},
+{
+"word": "sich merken",
+"m": {
+"es": "recordar, memorizar",
+"en": "to remember"
+},
+"pos": "verb",
+"w": "sich merken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1482
+},
+{
+"word": "die Messe",
+"m": {
+"es": "la feria (de muestras); la misa · pl. die Messen",
+"en": "trade fair; mass · pl. die Messen"
+},
+"pos": "noun",
+"w": "die Messe",
+"p": "",
+"g": "f",
+"pl": "Messen",
+"unit": null,
+"u": "",
+"q": 1483
+},
+{
+"word": "das Messer",
+"m": {
+"es": "el cuchillo · pl. die Messer",
+"en": "knife · pl. die Messer"
+},
+"pos": "noun",
+"w": "das Messer",
+"p": "",
+"g": "n",
+"pl": "Messer",
+"unit": null,
+"u": "",
+"q": 1484
+},
+{
+"word": "die Mietwohnung",
+"m": {
+"es": "el piso de alquiler · pl. die Mietwohnungen",
+"en": "rented flat · pl. die Mietwohnungen"
+},
+"pos": "noun",
+"w": "die Mietwohnung",
+"p": "",
+"g": "f",
+"pl": "Mietwohnungen",
+"unit": null,
+"u": "",
+"q": 1485
+},
+{
+"word": "mindestens",
+"m": {
+"es": "por lo menos",
+"en": "at least"
+},
+"pos": "",
+"w": "mindestens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1486
+},
+{
+"word": "das Mineralwasser",
+"m": {
+"es": "el agua mineral",
+"en": "mineral water"
+},
+"pos": "noun",
+"w": "das Mineralwasser",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1487
+},
+{
+"word": "minus",
+"m": {
+"es": "bajo cero, menos",
+"en": "minus"
+},
+"pos": "",
+"w": "minus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1488
+},
+{
+"word": "der Mitarbeiter",
+"m": {
+"es": "el empleado, el colaborador · pl. die Mitarbeiter",
+"en": "employee · pl. die Mitarbeiter"
+},
+"pos": "noun",
+"w": "der Mitarbeiter",
+"p": "",
+"g": "m",
+"pl": "Mitarbeiter",
+"unit": null,
+"u": "",
+"q": 1489
+},
+{
+"word": "das Mittel",
+"m": {
+"es": "el medio; el remedio · pl. die Mittel",
+"en": "means; remedy · pl. die Mittel"
+},
+"pos": "noun",
+"w": "das Mittel",
+"p": "",
+"g": "n",
+"pl": "Mittel",
+"unit": null,
+"u": "",
+"q": 1490
+},
+{
+"word": "die Mode",
+"m": {
+"es": "la moda · pl. die Moden",
+"en": "fashion · pl. die Moden"
+},
+"pos": "noun",
+"w": "die Mode",
+"p": "",
+"g": "f",
+"pl": "Moden",
+"unit": null,
+"u": "",
+"q": 1491
+},
+{
+"word": "monatlich",
+"m": {
+"es": "mensual",
+"en": "monthly"
+},
+"pos": "",
+"w": "monatlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1492
+},
+{
+"word": "der Motor",
+"m": {
+"es": "el motor · pl. die Motoren",
+"en": "engine · pl. die Motoren"
+},
+"pos": "noun",
+"w": "der Motor",
+"p": "",
+"g": "m",
+"pl": "Motoren",
+"unit": null,
+"u": "",
+"q": 1493
+},
+{
+"word": "der Motorroller",
+"m": {
+"es": "la moto, la scooter · pl. die Motorroller",
+"en": "scooter · pl. die Motorroller"
+},
+"pos": "noun",
+"w": "der Motorroller",
+"p": "",
+"g": "m",
+"pl": "Motorroller",
+"unit": null,
+"u": "",
+"q": 1494
+},
+{
+"word": "möbliert",
+"m": {
+"es": "amueblado",
+"en": "furnished"
+},
+"pos": "",
+"w": "möbliert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1495
+},
+{
+"word": "die Mütze",
+"m": {
+"es": "el gorro · pl. die Mützen",
+"en": "cap, hat · pl. die Mützen"
+},
+"pos": "noun",
+"w": "die Mütze",
+"p": "",
+"g": "f",
+"pl": "Mützen",
+"unit": null,
+"u": "",
+"q": 1496
+},
+{
+"word": "die Nachbarschaft",
+"m": {
+"es": "el vecindario",
+"en": "neighbourhood"
+},
+"pos": "noun",
+"w": "die Nachbarschaft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1497
+},
+{
+"word": "nachdem",
+"m": {
+"es": "después de que",
+"en": "after"
+},
+"pos": "",
+"w": "nachdem",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1498
+},
+{
+"word": "die Nachrichten",
+"m": {
+"es": "las noticias, el telediario · (solo plural)",
+"en": "the news · (plural only)"
+},
+"pos": "noun",
+"w": "die Nachrichten",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1499
+},
+{
+"word": "nebenan",
+"m": {
+"es": "al lado",
+"en": "next door"
+},
+"pos": "verb",
+"w": "nebenan",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1500
+},
+{
+"word": "die Nebenkosten",
+"m": {
+"es": "los gastos comunitarios · (solo plural)",
+"en": "additional costs (utilities) · (plural only)"
+},
+"pos": "noun",
+"w": "die Nebenkosten",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1501
+},
+{
+"word": "der Neffe",
+"m": {
+"es": "el sobrino · pl. die Neffen",
+"en": "nephew · pl. die Neffen"
+},
+"pos": "noun",
+"w": "der Neffe",
+"p": "",
+"g": "m",
+"pl": "Neffen",
+"unit": null,
+"u": "",
+"q": 1502
+},
+{
+"word": "nennen",
+"m": {
+"es": "llamar, nombrar · nennt, nannte, hat genannt",
+"en": "to name, to call · nennt, nannte, hat genannt"
+},
+"pos": "verb",
+"w": "nennen",
+"p": "",
+"pp": "nennt, nannte, hat genannt",
+"unit": null,
+"u": "",
+"q": 1503
+},
+{
+"word": "nervös",
+"m": {
+"es": "nervioso",
+"en": "nervous"
+},
+"pos": "",
+"w": "nervös",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1504
+},
+{
+"word": "die Nichte",
+"m": {
+"es": "la sobrina · pl. die Nichten",
+"en": "niece · pl. die Nichten"
+},
+"pos": "noun",
+"w": "die Nichte",
+"p": "",
+"g": "f",
+"pl": "Nichten",
+"unit": null,
+"u": "",
+"q": 1505
+},
+{
+"word": "notieren",
+"m": {
+"es": "anotar",
+"en": "to note down"
+},
+"pos": "verb",
+"w": "notieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1506
+},
+{
+"word": "die Notiz",
+"m": {
+"es": "la nota, el apunte · pl. die Notizen",
+"en": "note · pl. die Notizen"
+},
+"pos": "noun",
+"w": "die Notiz",
+"p": "",
+"g": "f",
+"pl": "Notizen",
+"unit": null,
+"u": "",
+"q": 1507
+},
+{
+"word": "notwendig",
+"m": {
+"es": "necesario",
+"en": "necessary"
+},
+"pos": "",
+"w": "notwendig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1508
+},
+{
+"word": "die Nähe",
+"m": {
+"es": "la cercanía",
+"en": "proximity"
+},
+"pos": "noun",
+"w": "die Nähe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1509
+},
+{
+"word": "nämlich",
+"m": {
+"es": "es que, o sea",
+"en": "namely, you see"
+},
+"pos": "",
+"w": "nämlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1510
+},
+{
+"word": "nützlich",
+"m": {
+"es": "útil",
+"en": "useful"
+},
+"pos": "",
+"w": "nützlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1511
+},
+{
+"word": "obwohl",
+"m": {
+"es": "aunque",
+"en": "although"
+},
+"pos": "",
+"w": "obwohl",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1512
+},
+{
+"word": "offen",
+"m": {
+"es": "abierto",
+"en": "open"
+},
+"pos": "verb",
+"w": "offen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1513
+},
+{
+"word": "der Onkel",
+"m": {
+"es": "el tío · pl. die Onkel",
+"en": "uncle · pl. die Onkel"
+},
+"pos": "noun",
+"w": "der Onkel",
+"p": "",
+"g": "m",
+"pl": "Onkel",
+"unit": null,
+"u": "",
+"q": 1514
+},
+{
+"word": "ordentlich",
+"m": {
+"es": "ordenado",
+"en": "tidy"
+},
+"pos": "",
+"w": "ordentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1515
+},
+{
+"word": "organisieren",
+"m": {
+"es": "organizar",
+"en": "to organise"
+},
+"pos": "verb",
+"w": "organisieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1516
+},
+{
+"word": "das Paar",
+"m": {
+"es": "el par; la pareja · pl. die Paare",
+"en": "pair; couple · pl. die Paare"
+},
+"pos": "noun",
+"w": "das Paar",
+"p": "",
+"g": "n",
+"pl": "Paare",
+"unit": null,
+"u": "",
+"q": 1517
+},
+{
+"word": "die Packung",
+"m": {
+"es": "el paquete, el envase · pl. die Packungen",
+"en": "packet · pl. die Packungen"
+},
+"pos": "noun",
+"w": "die Packung",
+"p": "",
+"g": "f",
+"pl": "Packungen",
+"unit": null,
+"u": "",
+"q": 1518
+},
+{
+"word": "das Parfüm",
+"m": {
+"es": "el perfume · pl. die Parfüms",
+"en": "perfume · pl. die Parfüms"
+},
+"pos": "noun",
+"w": "das Parfüm",
+"p": "",
+"g": "n",
+"pl": "Parfüms",
+"unit": null,
+"u": "",
+"q": 1519
+},
+{
+"word": "die Person",
+"m": {
+"es": "la persona · pl. die Personen",
+"en": "person · pl. die Personen"
+},
+"pos": "noun",
+"w": "die Person",
+"p": "",
+"g": "f",
+"pl": "Personen",
+"unit": null,
+"u": "",
+"q": 1520
+},
+{
+"word": "der Pfeffer",
+"m": {
+"es": "la pimienta",
+"en": "pepper"
+},
+"pos": "noun",
+"w": "der Pfeffer",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1521
+},
+{
+"word": "die Pizza",
+"m": {
+"es": "la pizza · pl. die Pizzas",
+"en": "pizza · pl. die Pizzas"
+},
+"pos": "noun",
+"w": "die Pizza",
+"p": "",
+"g": "f",
+"pl": "Pizzas",
+"unit": null,
+"u": "",
+"q": 1522
+},
+{
+"word": "das Plakat",
+"m": {
+"es": "el cartel · pl. die Plakate",
+"en": "poster · pl. die Plakate"
+},
+"pos": "noun",
+"w": "das Plakat",
+"p": "",
+"g": "n",
+"pl": "Plakate",
+"unit": null,
+"u": "",
+"q": 1523
+},
+{
+"word": "die Portion",
+"m": {
+"es": "la ración · pl. die Portionen",
+"en": "portion · pl. die Portionen"
+},
+"pos": "noun",
+"w": "die Portion",
+"p": "",
+"g": "f",
+"pl": "Portionen",
+"unit": null,
+"u": "",
+"q": 1524
+},
+{
+"word": "das Poster",
+"m": {
+"es": "el póster · pl. die Poster",
+"en": "poster · pl. die Poster"
+},
+"pos": "noun",
+"w": "das Poster",
+"p": "",
+"g": "n",
+"pl": "Poster",
+"unit": null,
+"u": "",
+"q": 1525
+},
+{
+"word": "die Postkarte",
+"m": {
+"es": "la postal · pl. die Postkarten",
+"en": "postcard · pl. die Postkarten"
+},
+"pos": "noun",
+"w": "die Postkarte",
+"p": "",
+"g": "f",
+"pl": "Postkarten",
+"unit": null,
+"u": "",
+"q": 1526
+},
+{
+"word": "privat",
+"m": {
+"es": "privado",
+"en": "private"
+},
+"pos": "",
+"w": "privat",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1527
+},
+{
+"word": "pro",
+"m": {
+"es": "por (cada)",
+"en": "per"
+},
+"pos": "",
+"w": "pro",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1528
+},
+{
+"word": "probieren",
+"m": {
+"es": "probar",
+"en": "to try"
+},
+"pos": "verb",
+"w": "probieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1529
+},
+{
+"word": "das Projekt",
+"m": {
+"es": "el proyecto · pl. die Projekte",
+"en": "project · pl. die Projekte"
+},
+"pos": "noun",
+"w": "das Projekt",
+"p": "",
+"g": "n",
+"pl": "Projekte",
+"unit": null,
+"u": "",
+"q": 1530
+},
+{
+"word": "der Quadratmeter",
+"m": {
+"es": "el metro cuadrado · pl. die Quadratmeter",
+"en": "square metre · pl. die Quadratmeter"
+},
+"pos": "noun",
+"w": "der Quadratmeter",
+"p": "",
+"g": "m",
+"pl": "Quadratmeter",
+"unit": null,
+"u": "",
+"q": 1531
+},
+{
+"word": "das Quiz",
+"m": {
+"es": "el concurso",
+"en": "quiz"
+},
+"pos": "noun",
+"w": "das Quiz",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1532
+},
+{
+"word": "das Radio",
+"m": {
+"es": "la radio · pl. die Radios",
+"en": "radio · pl. die Radios"
+},
+"pos": "noun",
+"w": "das Radio",
+"p": "",
+"g": "n",
+"pl": "Radios",
+"unit": null,
+"u": "",
+"q": 1533
+},
+{
+"word": "raten",
+"m": {
+"es": "adivinar; aconsejar · rät, riet, hat geraten",
+"en": "to guess; to advise · rät, riet, hat geraten"
+},
+"pos": "verb",
+"w": "raten",
+"p": "",
+"pp": "rät, riet, hat geraten",
+"unit": null,
+"u": "",
+"q": 1534
+},
+{
+"word": "rechnen",
+"m": {
+"es": "calcular",
+"en": "to calculate"
+},
+"pos": "verb",
+"w": "rechnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1535
+},
+{
+"word": "recht haben",
+"m": {
+"es": "tener razón",
+"en": "to be right"
+},
+"pos": "",
+"w": "recht haben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1536
+},
+{
+"word": "reden",
+"m": {
+"es": "hablar",
+"en": "to talk"
+},
+"pos": "verb",
+"w": "reden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1537
+},
+{
+"word": "der Regenschirm",
+"m": {
+"es": "el paraguas · pl. die Regenschirme",
+"en": "umbrella · pl. die Regenschirme"
+},
+"pos": "noun",
+"w": "der Regenschirm",
+"p": "",
+"g": "m",
+"pl": "Regenschirme",
+"unit": null,
+"u": "",
+"q": 1538
+},
+{
+"word": "die Reihe",
+"m": {
+"es": "la fila · pl. die Reihen",
+"en": "row · pl. die Reihen"
+},
+"pos": "noun",
+"w": "die Reihe",
+"p": "",
+"g": "f",
+"pl": "Reihen",
+"unit": null,
+"u": "",
+"q": 1539
+},
+{
+"word": "reiten",
+"m": {
+"es": "montar a caballo · reitet, ritt, ist geritten",
+"en": "to ride (a horse) · reitet, ritt, ist geritten"
+},
+"pos": "verb",
+"w": "reiten",
+"p": "",
+"pp": "reitet, ritt, ist geritten",
+"unit": null,
+"u": "",
+"q": 1540
+},
+{
+"word": "der Rentner",
+"m": {
+"es": "el jubilado · pl. die Rentner",
+"en": "pensioner · pl. die Rentner"
+},
+"pos": "noun",
+"w": "der Rentner",
+"p": "",
+"g": "m",
+"pl": "Rentner",
+"unit": null,
+"u": "",
+"q": 1541
+},
+{
+"word": "die Rentnerin",
+"m": {
+"es": "la jubilada · pl. die Rentnerinnen",
+"en": "pensioner (female) · pl. die Rentnerinnen"
+},
+"pos": "noun",
+"w": "die Rentnerin",
+"p": "",
+"g": "f",
+"pl": "Rentnerinnen",
+"unit": null,
+"u": "",
+"q": 1542
+},
+{
+"word": "der Rest",
+"m": {
+"es": "el resto · pl. die Reste",
+"en": "rest, remainder · pl. die Reste"
+},
+"pos": "noun",
+"w": "der Rest",
+"p": "",
+"g": "m",
+"pl": "Reste",
+"unit": null,
+"u": "",
+"q": 1543
+},
+{
+"word": "das Rindfleisch",
+"m": {
+"es": "la carne de ternera",
+"en": "beef"
+},
+"pos": "noun",
+"w": "das Rindfleisch",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1544
+},
+{
+"word": "der Ring",
+"m": {
+"es": "el anillo · pl. die Ringe",
+"en": "ring · pl. die Ringe"
+},
+"pos": "noun",
+"w": "der Ring",
+"p": "",
+"g": "m",
+"pl": "Ringe",
+"unit": null,
+"u": "",
+"q": 1545
+},
+{
+"word": "die Rose",
+"m": {
+"es": "la rosa · pl. die Rosen",
+"en": "rose · pl. die Rosen"
+},
+"pos": "noun",
+"w": "die Rose",
+"p": "",
+"g": "f",
+"pl": "Rosen",
+"unit": null,
+"u": "",
+"q": 1546
+},
+{
+"word": "rund",
+"m": {
+"es": "redondo",
+"en": "round"
+},
+"pos": "",
+"w": "rund",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1547
+},
+{
+"word": "der Rundgang",
+"m": {
+"es": "el recorrido, la visita · pl. die Rundgänge",
+"en": "tour · pl. die Rundgänge"
+},
+"pos": "noun",
+"w": "der Rundgang",
+"p": "",
+"g": "m",
+"pl": "Rundgänge",
+"unit": null,
+"u": "",
+"q": 1548
+},
+{
+"word": "das Rätsel",
+"m": {
+"es": "el enigma, el acertijo · pl. die Rätsel",
+"en": "puzzle, riddle · pl. die Rätsel"
+},
+"pos": "noun",
+"w": "das Rätsel",
+"p": "",
+"g": "n",
+"pl": "Rätsel",
+"unit": null,
+"u": "",
+"q": 1549
+},
+{
+"word": "die Rückfahrkarte",
+"m": {
+"es": "el billete de ida y vuelta · pl. die Rückfahrkarten",
+"en": "return ticket · pl. die Rückfahrkarten"
+},
+"pos": "noun",
+"w": "die Rückfahrkarte",
+"p": "",
+"g": "f",
+"pl": "Rückfahrkarten",
+"unit": null,
+"u": "",
+"q": 1550
+},
+{
+"word": "die Sache",
+"m": {
+"es": "la cosa, el asunto · pl. die Sachen",
+"en": "thing, matter · pl. die Sachen"
+},
+"pos": "noun",
+"w": "die Sache",
+"p": "",
+"g": "f",
+"pl": "Sachen",
+"unit": null,
+"u": "",
+"q": 1551
+},
+{
+"word": "die Sahne",
+"m": {
+"es": "la nata",
+"en": "cream"
+},
+"pos": "noun",
+"w": "die Sahne",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1552
+},
+{
+"word": "sammeln",
+"m": {
+"es": "coleccionar, recoger",
+"en": "to collect"
+},
+"pos": "verb",
+"w": "sammeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1553
+},
+{
+"word": "sauer",
+"m": {
+"es": "ácido; enfadado",
+"en": "sour; annoyed"
+},
+"pos": "",
+"w": "sauer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1554
+},
+{
+"word": "scharf",
+"m": {
+"es": "picante; afilado",
+"en": "spicy; sharp"
+},
+"pos": "",
+"w": "scharf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1555
+},
+{
+"word": "die Schere",
+"m": {
+"es": "las tijeras · pl. die Scheren",
+"en": "scissors · pl. die Scheren"
+},
+"pos": "noun",
+"w": "die Schere",
+"p": "",
+"g": "f",
+"pl": "Scheren",
+"unit": null,
+"u": "",
+"q": 1556
+},
+{
+"word": "schimpfen",
+"m": {
+"es": "regañar, renegar",
+"en": "to scold, to complain"
+},
+"pos": "verb",
+"w": "schimpfen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1557
+},
+{
+"word": "schlimm",
+"m": {
+"es": "grave, malo",
+"en": "bad, serious"
+},
+"pos": "",
+"w": "schlimm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1558
+},
+{
+"word": "der Schmuck",
+"m": {
+"es": "las joyas",
+"en": "jewellery"
+},
+"pos": "noun",
+"w": "der Schmuck",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1559
+},
+{
+"word": "sich schneiden",
+"m": {
+"es": "cortarse · schneidet, schnitt, hat geschnitten",
+"en": "to cut oneself · schneidet, schnitt, hat geschnitten"
+},
+"pos": "verb",
+"w": "sich schneiden",
+"p": "",
+"pp": "schneidet, schnitt, hat geschnitten",
+"unit": null,
+"u": "",
+"q": 1560
+},
+{
+"word": "schneiden",
+"m": {
+"es": "cortar · schneidet, schnitt, hat geschnitten",
+"en": "to cut · schneidet, schnitt, hat geschnitten"
+},
+"pos": "verb",
+"w": "schneiden",
+"p": "",
+"pp": "schneidet, schnitt, hat geschnitten",
+"unit": null,
+"u": "",
+"q": 1561
+},
+{
+"word": "die Schokolade",
+"m": {
+"es": "el chocolate · pl. die Schokoladen",
+"en": "chocolate · pl. die Schokoladen"
+},
+"pos": "noun",
+"w": "die Schokolade",
+"p": "",
+"g": "f",
+"pl": "Schokoladen",
+"unit": null,
+"u": "",
+"q": 1562
+},
+{
+"word": "schrecklich",
+"m": {
+"es": "horrible",
+"en": "terrible"
+},
+"pos": "",
+"w": "schrecklich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1563
+},
+{
+"word": "schriftlich",
+"m": {
+"es": "por escrito",
+"en": "written, in writing"
+},
+"pos": "",
+"w": "schriftlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1564
+},
+{
+"word": "schwach",
+"m": {
+"es": "débil",
+"en": "weak"
+},
+"pos": "",
+"w": "schwach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1565
+},
+{
+"word": "schwanger",
+"m": {
+"es": "embarazada",
+"en": "pregnant"
+},
+"pos": "",
+"w": "schwanger",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1566
+},
+{
+"word": "das Schwein",
+"m": {
+"es": "el cerdo · pl. die Schweine",
+"en": "pig · pl. die Schweine"
+},
+"pos": "noun",
+"w": "das Schwein",
+"p": "",
+"g": "n",
+"pl": "Schweine",
+"unit": null,
+"u": "",
+"q": 1567
+},
+{
+"word": "das Schweinefleisch",
+"m": {
+"es": "la carne de cerdo",
+"en": "pork"
+},
+"pos": "noun",
+"w": "das Schweinefleisch",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1568
+},
+{
+"word": "die Schwiegermutter",
+"m": {
+"es": "la suegra · pl. die Schwiegermütter",
+"en": "mother-in-law · pl. die Schwiegermütter"
+},
+"pos": "noun",
+"w": "die Schwiegermutter",
+"p": "",
+"g": "f",
+"pl": "Schwiegermütter",
+"unit": null,
+"u": "",
+"q": 1569
+},
+{
+"word": "der Schwiegervater",
+"m": {
+"es": "el suegro · pl. die Schwiegerväter",
+"en": "father-in-law · pl. die Schwiegerväter"
+},
+"pos": "noun",
+"w": "der Schwiegervater",
+"p": "",
+"g": "m",
+"pl": "Schwiegerväter",
+"unit": null,
+"u": "",
+"q": 1570
+},
+{
+"word": "schädlich",
+"m": {
+"es": "perjudicial",
+"en": "harmful"
+},
+"pos": "",
+"w": "schädlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1571
+},
+{
+"word": "sehr geehrte",
+"m": {
+"es": "estimado/a (en cartas)",
+"en": "dear (formal letters)"
+},
+"pos": "",
+"w": "sehr geehrte",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1572
+},
+{
+"word": "die Seife",
+"m": {
+"es": "el jabón · pl. die Seifen",
+"en": "soap · pl. die Seifen"
+},
+"pos": "noun",
+"w": "die Seife",
+"p": "",
+"g": "f",
+"pl": "Seifen",
+"unit": null,
+"u": "",
+"q": 1573
+},
+{
+"word": "die Seite",
+"m": {
+"es": "la página; el lado · pl. die Seiten",
+"en": "page; side · pl. die Seiten"
+},
+"pos": "noun",
+"w": "die Seite",
+"p": "",
+"g": "f",
+"pl": "Seiten",
+"unit": null,
+"u": "",
+"q": 1574
+},
+{
+"word": "selbst",
+"m": {
+"es": "uno mismo; incluso",
+"en": "oneself; even"
+},
+"pos": "",
+"w": "selbst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1575
+},
+{
+"word": "der Service",
+"m": {
+"es": "el servicio",
+"en": "service"
+},
+"pos": "noun",
+"w": "der Service",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1576
+},
+{
+"word": "die Situation",
+"m": {
+"es": "la situación · pl. die Situationen",
+"en": "situation · pl. die Situationen"
+},
+"pos": "noun",
+"w": "die Situation",
+"p": "",
+"g": "f",
+"pl": "Situationen",
+"unit": null,
+"u": "",
+"q": 1577
+},
+{
+"word": "der Ski",
+"m": {
+"es": "el esquí · pl. die Skier",
+"en": "ski · pl. die Skier"
+},
+"pos": "noun",
+"w": "der Ski",
+"p": "",
+"g": "m",
+"pl": "Skier",
+"unit": null,
+"u": "",
+"q": 1578
+},
+{
+"word": "Ski fahren",
+"m": {
+"es": "esquiar",
+"en": "to ski"
+},
+"pos": "",
+"w": "Ski fahren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1579
+},
+{
+"word": "so dass",
+"m": {
+"es": "de modo que",
+"en": "so that"
+},
+"pos": "",
+"w": "so dass",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1580
+},
+{
+"word": "sogar",
+"m": {
+"es": "incluso",
+"en": "even"
+},
+"pos": "",
+"w": "sogar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1581
+},
+{
+"word": "sonst",
+"m": {
+"es": "si no; por lo demás",
+"en": "otherwise; else"
+},
+"pos": "",
+"w": "sonst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1582
+},
+{
+"word": "sowohl … als auch",
+"m": {
+"es": "tanto … como",
+"en": "both … and"
+},
+"pos": "",
+"w": "sowohl … als auch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1583
+},
+{
+"word": "der Spaziergang",
+"m": {
+"es": "el paseo · pl. die Spaziergänge",
+"en": "walk · pl. die Spaziergänge"
+},
+"pos": "noun",
+"w": "der Spaziergang",
+"p": "",
+"g": "m",
+"pl": "Spaziergänge",
+"unit": null,
+"u": "",
+"q": 1584
+},
+{
+"word": "der Spaß",
+"m": {
+"es": "la diversión",
+"en": "fun"
+},
+"pos": "noun",
+"w": "der Spaß",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1585
+},
+{
+"word": "Spaß machen",
+"m": {
+"es": "ser divertido",
+"en": "to be fun"
+},
+"pos": "",
+"w": "Spaß machen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1586
+},
+{
+"word": "das Spiel",
+"m": {
+"es": "el juego; el partido · pl. die Spiele",
+"en": "game; match · pl. die Spiele"
+},
+"pos": "noun",
+"w": "das Spiel",
+"p": "",
+"g": "n",
+"pl": "Spiele",
+"unit": null,
+"u": "",
+"q": 1587
+},
+{
+"word": "der Sportplatz",
+"m": {
+"es": "el campo de deportes · pl. die Sportplätze",
+"en": "sports ground · pl. die Sportplätze"
+},
+"pos": "noun",
+"w": "der Sportplatz",
+"p": "",
+"g": "m",
+"pl": "Sportplätze",
+"unit": null,
+"u": "",
+"q": 1588
+},
+{
+"word": "der Stadtplan",
+"m": {
+"es": "el plano de la ciudad · pl. die Stadtpläne",
+"en": "city map · pl. die Stadtpläne"
+},
+"pos": "noun",
+"w": "der Stadtplan",
+"p": "",
+"g": "m",
+"pl": "Stadtpläne",
+"unit": null,
+"u": "",
+"q": 1589
+},
+{
+"word": "stark",
+"m": {
+"es": "fuerte",
+"en": "strong"
+},
+"pos": "",
+"w": "stark",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1590
+},
+{
+"word": "statt",
+"m": {
+"es": "en lugar de",
+"en": "instead of"
+},
+"pos": "",
+"w": "statt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1591
+},
+{
+"word": "stattfinden",
+"m": {
+"es": "tener lugar, celebrarse · findet statt, fand statt, hat stattgefunden",
+"en": "to take place · findet statt, fand statt, hat stattgefunden"
+},
+"pos": "verb",
+"w": "stattfinden",
+"p": "",
+"pp": "findet statt, fand statt, hat stattgefunden",
+"unit": null,
+"u": "",
+"q": 1592
+},
+{
+"word": "die Stellenanzeige",
+"m": {
+"es": "la oferta de empleo · pl. die Stellenanzeigen",
+"en": "job advert · pl. die Stellenanzeigen"
+},
+"pos": "noun",
+"w": "die Stellenanzeige",
+"p": "",
+"g": "f",
+"pl": "Stellenanzeigen",
+"unit": null,
+"u": "",
+"q": 1593
+},
+{
+"word": "sterben",
+"m": {
+"es": "morir · stirbt, starb, ist gestorben",
+"en": "to die · stirbt, starb, ist gestorben"
+},
+"pos": "verb",
+"w": "sterben",
+"p": "",
+"pp": "stirbt, starb, ist gestorben",
+"unit": null,
+"u": "",
+"q": 1594
+},
+{
+"word": "der Stiefel",
+"m": {
+"es": "la bota · pl. die Stiefel",
+"en": "boot · pl. die Stiefel"
+},
+"pos": "noun",
+"w": "der Stiefel",
+"p": "",
+"g": "m",
+"pl": "Stiefel",
+"unit": null,
+"u": "",
+"q": 1595
+},
+{
+"word": "der Stift",
+"m": {
+"es": "el lápiz, el boli · pl. die Stifte",
+"en": "pen, pencil · pl. die Stifte"
+},
+"pos": "noun",
+"w": "der Stift",
+"p": "",
+"g": "m",
+"pl": "Stifte",
+"unit": null,
+"u": "",
+"q": 1596
+},
+{
+"word": "das Stockwerk",
+"m": {
+"es": "la planta, el piso · pl. die Stockwerke",
+"en": "floor, storey · pl. die Stockwerke"
+},
+"pos": "noun",
+"w": "das Stockwerk",
+"p": "",
+"g": "n",
+"pl": "Stockwerke",
+"unit": null,
+"u": "",
+"q": 1597
+},
+{
+"word": "streng",
+"m": {
+"es": "severo, estricto",
+"en": "strict"
+},
+"pos": "",
+"w": "streng",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1598
+},
+{
+"word": "der Stress",
+"m": {
+"es": "el estrés",
+"en": "stress"
+},
+"pos": "noun",
+"w": "der Stress",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1599
+},
+{
+"word": "stressig",
+"m": {
+"es": "estresante",
+"en": "stressful"
+},
+"pos": "",
+"w": "stressig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1600
+},
+{
+"word": "sympathisch",
+"m": {
+"es": "simpático",
+"en": "likeable, nice"
+},
+"pos": "",
+"w": "sympathisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1601
+},
+{
+"word": "süß",
+"m": {
+"es": "dulce; mono",
+"en": "sweet; cute"
+},
+"pos": "",
+"w": "süß",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1602
+},
+{
+"word": "die Süßigkeiten",
+"m": {
+"es": "los dulces, las golosinas · (solo plural)",
+"en": "sweets · (plural only)"
+},
+"pos": "noun",
+"w": "die Süßigkeiten",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 1603
+},
+{
+"word": "die Tafel",
+"m": {
+"es": "la pizarra; la tableta (de chocolate) · pl. die Tafeln",
+"en": "board; bar · pl. die Tafeln"
+},
+"pos": "noun",
+"w": "die Tafel",
+"p": "",
+"g": "f",
+"pl": "Tafeln",
+"unit": null,
+"u": "",
+"q": 1604
+},
+{
+"word": "die Tante",
+"m": {
+"es": "la tía · pl. die Tanten",
+"en": "aunt · pl. die Tanten"
+},
+"pos": "noun",
+"w": "die Tante",
+"p": "",
+"g": "f",
+"pl": "Tanten",
+"unit": null,
+"u": "",
+"q": 1605
+},
+{
+"word": "das Taschengeld",
+"m": {
+"es": "la paga",
+"en": "pocket money"
+},
+"pos": "noun",
+"w": "das Taschengeld",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1606
+},
+{
+"word": "die Tasse",
+"m": {
+"es": "la taza · pl. die Tassen",
+"en": "cup · pl. die Tassen"
+},
+"pos": "noun",
+"w": "die Tasse",
+"p": "",
+"g": "f",
+"pl": "Tassen",
+"unit": null,
+"u": "",
+"q": 1607
+},
+{
+"word": "tauschen",
+"m": {
+"es": "cambiar, intercambiar",
+"en": "to swap"
+},
+"pos": "",
+"w": "tauschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1608
+},
+{
+"word": "das Team",
+"m": {
+"es": "el equipo · pl. die Teams",
+"en": "team · pl. die Teams"
+},
+"pos": "noun",
+"w": "das Team",
+"p": "",
+"g": "n",
+"pl": "Teams",
+"unit": null,
+"u": "",
+"q": 1609
+},
+{
+"word": "teilen",
+"m": {
+"es": "dividir; compartir",
+"en": "to divide; to share"
+},
+"pos": "verb",
+"w": "teilen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1610
+},
+{
+"word": "teilnehmen",
+"m": {
+"es": "participar · nimmt teil, nahm teil, hat teilgenommen",
+"en": "to take part · nimmt teil, nahm teil, hat teilgenommen"
+},
+"pos": "verb",
+"w": "teilnehmen",
+"p": "",
+"pp": "nimmt teil, nahm teil, hat teilgenommen",
+"unit": null,
+"u": "",
+"q": 1611
+},
+{
+"word": "der Teller",
+"m": {
+"es": "el plato · pl. die Teller",
+"en": "plate · pl. die Teller"
+},
+"pos": "noun",
+"w": "der Teller",
+"p": "",
+"g": "m",
+"pl": "Teller",
+"unit": null,
+"u": "",
+"q": 1612
+},
+{
+"word": "das Tennis",
+"m": {
+"es": "el tenis",
+"en": "tennis"
+},
+"pos": "noun",
+"w": "das Tennis",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 1613
+},
+{
+"word": "der Tipp",
+"m": {
+"es": "el consejo, la pista · pl. die Tipps",
+"en": "tip · pl. die Tipps"
+},
+"pos": "noun",
+"w": "der Tipp",
+"p": "",
+"g": "m",
+"pl": "Tipps",
+"unit": null,
+"u": "",
+"q": 1614
+},
+{
+"word": "der Titel",
+"m": {
+"es": "el título · pl. die Titel",
+"en": "title · pl. die Titel"
+},
+"pos": "noun",
+"w": "der Titel",
+"p": "",
+"g": "m",
+"pl": "Titel",
+"unit": null,
+"u": "",
+"q": 1615
+},
+{
+"word": "der Topf",
+"m": {
+"es": "la olla · pl. die Töpfe",
+"en": "pot · pl. die Töpfe"
+},
+"pos": "noun",
+"w": "der Topf",
+"p": "",
+"g": "m",
+"pl": "Töpfe",
+"unit": null,
+"u": "",
+"q": 1616
+},
+{
+"word": "total",
+"m": {
+"es": "totalmente",
+"en": "totally"
+},
+"pos": "",
+"w": "total",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1617
+},
+{
+"word": "die Tour",
+"m": {
+"es": "la excursión, la gira · pl. die Touren",
+"en": "tour · pl. die Touren"
+},
+"pos": "noun",
+"w": "die Tour",
+"p": "",
+"g": "f",
+"pl": "Touren",
+"unit": null,
+"u": "",
+"q": 1618
+},
+{
+"word": "der Tourist",
+"m": {
+"es": "el turista · pl. die Touristen",
+"en": "tourist · pl. die Touristen"
+},
+"pos": "noun",
+"w": "der Tourist",
+"p": "",
+"g": "m",
+"pl": "Touristen",
+"unit": null,
+"u": "",
+"q": 1619
+},
+{
+"word": "die Touristin",
+"m": {
+"es": "la turista · pl. die Touristinnen",
+"en": "tourist (female) · pl. die Touristinnen"
+},
+"pos": "noun",
+"w": "die Touristin",
+"p": "",
+"g": "f",
+"pl": "Touristinnen",
+"unit": null,
+"u": "",
+"q": 1620
+},
+{
+"word": "trainieren",
+"m": {
+"es": "entrenar",
+"en": "to train"
+},
+"pos": "verb",
+"w": "trainieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1621
+},
+{
+"word": "das Training",
+"m": {
+"es": "el entrenamiento · pl. die Trainings",
+"en": "training · pl. die Trainings"
+},
+"pos": "noun",
+"w": "das Training",
+"p": "",
+"g": "n",
+"pl": "Trainings",
+"unit": null,
+"u": "",
+"q": 1622
+},
+{
+"word": "täglich",
+"m": {
+"es": "diario, a diario",
+"en": "daily"
+},
+"pos": "",
+"w": "täglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1623
+},
+{
+"word": "die Tüte",
+"m": {
+"es": "la bolsa · pl. die Tüten",
+"en": "bag · pl. die Tüten"
+},
+"pos": "noun",
+"w": "die Tüte",
+"p": "",
+"g": "f",
+"pl": "Tüten",
+"unit": null,
+"u": "",
+"q": 1624
+},
+{
+"word": "die Umkleidekabine",
+"m": {
+"es": "el probador · pl. die Umkleidekabinen",
+"en": "changing room · pl. die Umkleidekabinen"
+},
+"pos": "noun",
+"w": "die Umkleidekabine",
+"p": "",
+"g": "f",
+"pl": "Umkleidekabinen",
+"unit": null,
+"u": "",
+"q": 1625
+},
+{
+"word": "der Unfall",
+"m": {
+"es": "el accidente · pl. die Unfälle",
+"en": "accident · pl. die Unfälle"
+},
+"pos": "noun",
+"w": "der Unfall",
+"p": "",
+"g": "m",
+"pl": "Unfälle",
+"unit": null,
+"u": "",
+"q": 1626
+},
+{
+"word": "ungeduldig",
+"m": {
+"es": "impaciente",
+"en": "impatient"
+},
+"pos": "",
+"w": "ungeduldig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1627
+},
+{
+"word": "sich unterhalten",
+"m": {
+"es": "conversar, charlar · unterhält, unterhielt, hat unterhalten",
+"en": "to talk, to chat · unterhält, unterhielt, hat unterhalten"
+},
+"pos": "verb",
+"w": "sich unterhalten",
+"p": "",
+"pp": "unterhält, unterhielt, hat unterhalten",
+"unit": null,
+"u": "",
+"q": 1628
+},
+{
+"word": "unternehmen",
+"m": {
+"es": "emprender, hacer (actividades) · unternimmt, unternahm, hat unternommen",
+"en": "to do, to undertake · unternimmt, unternahm, hat unternommen"
+},
+"pos": "verb",
+"w": "unternehmen",
+"p": "",
+"pp": "unternimmt, unternahm, hat unternommen",
+"unit": null,
+"u": "",
+"q": 1629
+},
+{
+"word": "der Unterschied",
+"m": {
+"es": "la diferencia · pl. die Unterschiede",
+"en": "difference · pl. die Unterschiede"
+},
+"pos": "noun",
+"w": "der Unterschied",
+"p": "",
+"g": "m",
+"pl": "Unterschiede",
+"unit": null,
+"u": "",
+"q": 1630
+},
+{
+"word": "untersuchen",
+"m": {
+"es": "examinar, investigar",
+"en": "to examine"
+},
+"pos": "",
+"w": "untersuchen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1631
+},
+{
+"word": "unterwegs",
+"m": {
+"es": "de camino, fuera",
+"en": "on the way, out and about"
+},
+"pos": "",
+"w": "unterwegs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1632
+},
+{
+"word": "der Vegetarier",
+"m": {
+"es": "el vegetariano · pl. die Vegetarier",
+"en": "vegetarian · pl. die Vegetarier"
+},
+"pos": "noun",
+"w": "der Vegetarier",
+"p": "",
+"g": "m",
+"pl": "Vegetarier",
+"unit": null,
+"u": "",
+"q": 1633
+},
+{
+"word": "verabredet sein",
+"m": {
+"es": "haber quedado",
+"en": "to have arranged to meet"
+},
+"pos": "",
+"w": "verabredet sein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1634
+},
+{
+"word": "die Veranstaltung",
+"m": {
+"es": "el evento, el acto · pl. die Veranstaltungen",
+"en": "event · pl. die Veranstaltungen"
+},
+"pos": "noun",
+"w": "die Veranstaltung",
+"p": "",
+"g": "f",
+"pl": "Veranstaltungen",
+"unit": null,
+"u": "",
+"q": 1635
+},
+{
+"word": "der Verband",
+"m": {
+"es": "el vendaje · pl. die Verbände",
+"en": "bandage · pl. die Verbände"
+},
+"pos": "noun",
+"w": "der Verband",
+"p": "",
+"g": "m",
+"pl": "Verbände",
+"unit": null,
+"u": "",
+"q": 1636
+},
+{
+"word": "verbieten",
+"m": {
+"es": "prohibir · verbietet, verbot, hat verboten",
+"en": "to forbid · verbietet, verbot, hat verboten"
+},
+"pos": "verb",
+"w": "verbieten",
+"p": "",
+"pp": "verbietet, verbot, hat verboten",
+"unit": null,
+"u": "",
+"q": 1637
+},
+{
+"word": "vereinbaren",
+"m": {
+"es": "acordar, concertar",
+"en": "to arrange, to agree"
+},
+"pos": "verb",
+"w": "vereinbaren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1638
+},
+{
+"word": "vergleichen",
+"m": {
+"es": "comparar",
+"en": "to compare"
+},
+"pos": "",
+"w": "vergleichen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1639
+},
+{
+"word": "sich verletzen",
+"m": {
+"es": "hacerse daño, lesionarse",
+"en": "to injure oneself"
+},
+"pos": "verb",
+"w": "sich verletzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1640
+},
+{
+"word": "verletzt",
+"m": {
+"es": "herido",
+"en": "injured"
+},
+"pos": "",
+"w": "verletzt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1641
+},
+{
+"word": "verlieren",
+"m": {
+"es": "perder · verliert, verlor, hat verloren",
+"en": "to lose · verliert, verlor, hat verloren"
+},
+"pos": "verb",
+"w": "verlieren",
+"p": "",
+"pp": "verliert, verlor, hat verloren",
+"unit": null,
+"u": "",
+"q": 1642
+},
+{
+"word": "verschieben",
+"m": {
+"es": "aplazar · verschiebt, verschob, hat verschoben",
+"en": "to postpone · verschiebt, verschob, hat verschoben"
+},
+"pos": "verb",
+"w": "verschieben",
+"p": "",
+"pp": "verschiebt, verschob, hat verschoben",
+"unit": null,
+"u": "",
+"q": 1643
+},
+{
+"word": "verschieden",
+"m": {
+"es": "diferente, distinto",
+"en": "different"
+},
+"pos": "verb",
+"w": "verschieden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1644
+},
+{
+"word": "der Vertrag",
+"m": {
+"es": "el contrato · pl. die Verträge",
+"en": "contract · pl. die Verträge"
+},
+"pos": "noun",
+"w": "der Vertrag",
+"p": "",
+"g": "m",
+"pl": "Verträge",
+"unit": null,
+"u": "",
+"q": 1645
+},
+{
+"word": "der Volleyball",
+"m": {
+"es": "el voleibol",
+"en": "volleyball"
+},
+"pos": "noun",
+"w": "der Volleyball",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 1646
+},
+{
+"word": "vorbei",
+"m": {
+"es": "pasado, terminado; por delante",
+"en": "over, past"
+},
+"pos": "",
+"w": "vorbei",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1647
+},
+{
+"word": "vorbereiten",
+"m": {
+"es": "preparar",
+"en": "to prepare"
+},
+"pos": "verb",
+"w": "vorbereiten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1648
+},
+{
+"word": "vorher",
+"m": {
+"es": "antes",
+"en": "before, beforehand"
+},
+"pos": "",
+"w": "vorher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1649
+},
+{
+"word": "vorne",
+"m": {
+"es": "delante",
+"en": "at the front"
+},
+"pos": "",
+"w": "vorne",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1650
+},
+{
+"word": "vorsichtig",
+"m": {
+"es": "prudente, con cuidado",
+"en": "careful"
+},
+"pos": "",
+"w": "vorsichtig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1651
+},
+{
+"word": "das Vorstellungsgespräch",
+"m": {
+"es": "la entrevista de trabajo · pl. die Vorstellungsgespräche",
+"en": "job interview · pl. die Vorstellungsgespräche"
+},
+"pos": "noun",
+"w": "das Vorstellungsgespräch",
+"p": "",
+"g": "n",
+"pl": "Vorstellungsgespräche",
+"unit": null,
+"u": "",
+"q": 1652
+},
+{
+"word": "vorwärts",
+"m": {
+"es": "hacia delante",
+"en": "forwards"
+},
+"pos": "",
+"w": "vorwärts",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1653
+},
+{
+"word": "wach",
+"m": {
+"es": "despierto",
+"en": "awake"
+},
+"pos": "",
+"w": "wach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1654
+},
+{
+"word": "der Wagen",
+"m": {
+"es": "el coche; el vagón · pl. die Wagen",
+"en": "car; carriage · pl. die Wagen"
+},
+"pos": "noun",
+"w": "der Wagen",
+"p": "",
+"g": "m",
+"pl": "Wagen",
+"unit": null,
+"u": "",
+"q": 1655
+},
+{
+"word": "wahr",
+"m": {
+"es": "verdadero",
+"en": "true"
+},
+"pos": "",
+"w": "wahr",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1656
+},
+{
+"word": "wechseln",
+"m": {
+"es": "cambiar",
+"en": "to change"
+},
+"pos": "verb",
+"w": "wechseln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1657
+},
+{
+"word": "wecken",
+"m": {
+"es": "despertar (a alguien)",
+"en": "to wake (someone)"
+},
+"pos": "verb",
+"w": "wecken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1658
+},
+{
+"word": "der Wecker",
+"m": {
+"es": "el despertador · pl. die Wecker",
+"en": "alarm clock · pl. die Wecker"
+},
+"pos": "noun",
+"w": "der Wecker",
+"p": "",
+"g": "m",
+"pl": "Wecker",
+"unit": null,
+"u": "",
+"q": 1659
+},
+{
+"word": "weder … noch",
+"m": {
+"es": "ni … ni",
+"en": "neither … nor"
+},
+"pos": "",
+"w": "weder … noch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1660
+},
+{
+"word": "weg",
+"m": {
+"es": "fuera, lejos",
+"en": "away, gone"
+},
+"pos": "",
+"w": "weg",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1661
+},
+{
+"word": "der Weg",
+"m": {
+"es": "el camino · pl. die Wege",
+"en": "way, path · pl. die Wege"
+},
+"pos": "noun",
+"w": "der Weg",
+"p": "",
+"g": "m",
+"pl": "Wege",
+"unit": null,
+"u": "",
+"q": 1662
+},
+{
+"word": "wegen",
+"m": {
+"es": "por, a causa de",
+"en": "because of"
+},
+"pos": "verb",
+"w": "wegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1663
+},
+{
+"word": "weh",
+"m": {
+"es": "dolorido",
+"en": "sore"
+},
+"pos": "",
+"w": "weh",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1664
+},
+{
+"word": "weich",
+"m": {
+"es": "blando, suave",
+"en": "soft"
+},
+"pos": "",
+"w": "weich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1665
+},
+{
+"word": "weinen",
+"m": {
+"es": "llorar",
+"en": "to cry"
+},
+"pos": "verb",
+"w": "weinen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1666
+},
+{
+"word": "wenigstens",
+"m": {
+"es": "al menos",
+"en": "at least"
+},
+"pos": "",
+"w": "wenigstens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1667
+},
+{
+"word": "der Wettbewerb",
+"m": {
+"es": "el concurso, la competición · pl. die Wettbewerbe",
+"en": "competition · pl. die Wettbewerbe"
+},
+"pos": "noun",
+"w": "der Wettbewerb",
+"p": "",
+"g": "m",
+"pl": "Wettbewerbe",
+"unit": null,
+"u": "",
+"q": 1668
+},
+{
+"word": "der Witz",
+"m": {
+"es": "el chiste · pl. die Witze",
+"en": "joke · pl. die Witze"
+},
+"pos": "noun",
+"w": "der Witz",
+"p": "",
+"g": "m",
+"pl": "Witze",
+"unit": null,
+"u": "",
+"q": 1669
+},
+{
+"word": "witzig",
+"m": {
+"es": "gracioso",
+"en": "funny"
+},
+"pos": "",
+"w": "witzig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1670
+},
+{
+"word": "der Workshop",
+"m": {
+"es": "el taller (curso) · pl. die Workshops",
+"en": "workshop · pl. die Workshops"
+},
+"pos": "noun",
+"w": "der Workshop",
+"p": "",
+"g": "m",
+"pl": "Workshops",
+"unit": null,
+"u": "",
+"q": 1671
+},
+{
+"word": "wählen",
+"m": {
+"es": "elegir; votar; marcar (un número)",
+"en": "to choose; to vote; to dial"
+},
+"pos": "verb",
+"w": "wählen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1672
+},
+{
+"word": "die Wäsche",
+"m": {
+"es": "la ropa (para lavar)",
+"en": "laundry"
+},
+"pos": "noun",
+"w": "die Wäsche",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 1673
+},
+{
+"word": "wöchentlich",
+"m": {
+"es": "semanal",
+"en": "weekly"
+},
+"pos": "",
+"w": "wöchentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1674
+},
+{
+"word": "zeichnen",
+"m": {
+"es": "dibujar",
+"en": "to draw"
+},
+"pos": "verb",
+"w": "zeichnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1675
+},
+{
+"word": "der Zettel",
+"m": {
+"es": "la nota, el papelito · pl. die Zettel",
+"en": "note, slip of paper · pl. die Zettel"
+},
+"pos": "noun",
+"w": "der Zettel",
+"p": "",
+"g": "m",
+"pl": "Zettel",
+"unit": null,
+"u": "",
+"q": 1676
+},
+{
+"word": "der Zirkus",
+"m": {
+"es": "el circo · pl. die Zirkusse",
+"en": "circus · pl. die Zirkusse"
+},
+"pos": "noun",
+"w": "der Zirkus",
+"p": "",
+"g": "m",
+"pl": "Zirkusse",
+"unit": null,
+"u": "",
+"q": 1677
+},
+{
+"word": "die Zitrone",
+"m": {
+"es": "el limón · pl. die Zitronen",
+"en": "lemon · pl. die Zitronen"
+},
+"pos": "noun",
+"w": "die Zitrone",
+"p": "",
+"g": "f",
+"pl": "Zitronen",
+"unit": null,
+"u": "",
+"q": 1678
+},
+{
+"word": "der Zoo",
+"m": {
+"es": "el zoo · pl. die Zoos",
+"en": "zoo · pl. die Zoos"
+},
+"pos": "noun",
+"w": "der Zoo",
+"p": "",
+"g": "m",
+"pl": "Zoos",
+"unit": null,
+"u": "",
+"q": 1679
+},
+{
+"word": "zuhören",
+"m": {
+"es": "escuchar (atentamente)",
+"en": "to listen"
+},
+"pos": "verb",
+"w": "zuhören",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1680
+},
+{
+"word": "zuletzt",
+"m": {
+"es": "por último",
+"en": "last, finally"
+},
+"pos": "",
+"w": "zuletzt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1681
+},
+{
+"word": "zum Schluss",
+"m": {
+"es": "al final",
+"en": "in the end"
+},
+"pos": "",
+"w": "zum Schluss",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1682
+},
+{
+"word": "zumachen",
+"m": {
+"es": "cerrar",
+"en": "to close"
+},
+"pos": "",
+"w": "zumachen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1683
+},
+{
+"word": "zurückfahren",
+"m": {
+"es": "volver (en vehículo) · fährt zurück, fuhr zurück, ist zurückgefahren",
+"en": "to drive back · fährt zurück, fuhr zurück, ist zurückgefahren"
+},
+"pos": "verb",
+"w": "zurückfahren",
+"p": "",
+"pp": "fährt zurück, fuhr zurück, ist zurückgefahren",
+"unit": null,
+"u": "",
+"q": 1684
+},
+{
+"word": "zurückgeben",
+"m": {
+"es": "devolver · gibt zurück, gab zurück, hat zurückgegeben",
+"en": "to give back · gibt zurück, gab zurück, hat zurückgegeben"
+},
+"pos": "verb",
+"w": "zurückgeben",
+"p": "",
+"pp": "gibt zurück, gab zurück, hat zurückgegeben",
+"unit": null,
+"u": "",
+"q": 1685
+},
+{
+"word": "zurückgehen",
+"m": {
+"es": "volver (a pie) · geht zurück, ging zurück, ist zurückgegangen",
+"en": "to go back · geht zurück, ging zurück, ist zurückgegangen"
+},
+"pos": "verb",
+"w": "zurückgehen",
+"p": "",
+"pp": "geht zurück, ging zurück, ist zurückgegangen",
+"unit": null,
+"u": "",
+"q": 1686
+},
+{
+"word": "zurückkommen",
+"m": {
+"es": "volver, regresar · kommt zurück, kam zurück, ist zurückgekommen",
+"en": "to come back · kommt zurück, kam zurück, ist zurückgekommen"
+},
+"pos": "verb",
+"w": "zurückkommen",
+"p": "",
+"pp": "kommt zurück, kam zurück, ist zurückgekommen",
+"unit": null,
+"u": "",
+"q": 1687
+},
+{
+"word": "die Zwiebel",
+"m": {
+"es": "la cebolla · pl. die Zwiebeln",
+"en": "onion · pl. die Zwiebeln"
+},
+"pos": "noun",
+"w": "die Zwiebel",
+"p": "",
+"g": "f",
+"pl": "Zwiebeln",
+"unit": null,
+"u": "",
+"q": 1688
+},
+{
+"word": "das Öl",
+"m": {
+"es": "el aceite · pl. die Öle",
+"en": "oil · pl. die Öle"
+},
+"pos": "noun",
+"w": "das Öl",
+"p": "",
+"g": "n",
+"pl": "Öle",
+"unit": null,
+"u": "",
+"q": 1689
+},
+{
+"word": "überall",
+"m": {
+"es": "por todas partes",
+"en": "everywhere"
+},
+"pos": "",
+"w": "überall",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1690
+},
+{
+"word": "übersetzen",
+"m": {
+"es": "traducir",
+"en": "to translate"
+},
+"pos": "verb",
+"w": "übersetzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 1691
+},
+{
+"word": "die Übersetzung",
+"m": {
+"es": "la traducción · pl. die Übersetzungen",
+"en": "translation · pl. die Übersetzungen"
+},
+"pos": "noun",
+"w": "die Übersetzung",
+"p": "",
+"g": "f",
+"pl": "Übersetzungen",
+"unit": null,
+"u": "",
+"q": 1692
+}
+]

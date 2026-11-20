@@ -1,0 +1,87 @@
+// Verb-form names, short usage hints and Reference links used by the text reader (German).
+// g = colour group: pres | past | fut | subj (Konjunktiv) | imp | nf (non-finite) | peri (modals, passive, lassen)
+// de = name of the form (German, the target language); es / en = name in the learner's language.
+
+const H = (es, en) => ({ es, en });
+export const TENSES = {
+  'inf':   { g: 'nf', de: 'Infinitiv', es: 'Infinitivo', en: 'Infinitive',
+    hint: H('Forma base (-en, -n). Va al final de la frase con los modales, werden y lassen (Ich kann heute nicht kommen) y tras gehen, lernen, hören, sehen (Wir gehen schwimmen).', 'Base form (-en, -n). It goes to the end of the clause with modals, werden and lassen (Ich kann heute nicht kommen) and after gehen, lernen, hören, sehen (Wir gehen schwimmen).') },
+  'zuinf': { g: 'nf', de: 'Infinitiv mit zu', es: 'Infinitivo con zu', en: 'Infinitive with zu',
+    hint: H('zu + infinitivo al final: tras muchos verbos, sustantivos y adjetivos (Ich habe keine Zeit, ins Kino zu gehen), con um … zu (finalidad), ohne … zu, statt … zu. En los separables, zu va dentro: anzurufen.', 'zu + infinitive at the end: after many verbs, nouns and adjectives (Ich habe keine Zeit, ins Kino zu gehen), with um … zu (purpose), ohne … zu, statt … zu. In separable verbs zu goes inside: anzurufen.') },
+  'pp':    { g: 'nf', de: 'Partizip II', es: 'Participio II', en: 'Past participle',
+    hint: H('ge- … -t (débiles) o ge- … -en (fuertes). Forma el Perfekt, el Plusquamperfekt y la pasiva, y funciona como adjetivo: die geschlossene Tür.', 'ge- … -t (weak) or ge- … -en (strong). It forms the Perfekt, the Plusquamperfekt and the passive, and works as an adjective: die geschlossene Tür.') },
+  'p1':    { g: 'nf', de: 'Partizip I', es: 'Participio I', en: 'Present participle',
+    hint: H('Infinitivo + -d: acción simultánea, como adjetivo (das schlafende Kind = el niño que duerme) o adverbio (Er kam lachend herein).', 'Infinitive + -d: a simultaneous action, used as an adjective (das schlafende Kind = the sleeping child) or adverb (Er kam lachend herein).') },
+  'praes': { g: 'pres', de: 'Präsens', es: 'Presente', en: 'Present',
+    hint: H('Lo que pasa ahora o habitualmente, y también el futuro con un adverbio de tiempo (Morgen fliege ich nach Wien). El verbo conjugado ocupa la 2.ª posición.', 'What happens now or habitually, and also the future with a time adverb (Morgen fliege ich nach Wien). The conjugated verb is in second position.') },
+  'perf':  { g: 'past', de: 'Perfekt', es: 'Perfekt (pasado hablado)', en: 'Perfekt (spoken past)',
+    hint: H('haben / sein + participio II al final: el pasado de la lengua hablada (Ich habe gestern Fußball gespielt). Con sein: movimiento y cambio de estado.', 'haben / sein + past participle at the end: the past tense of spoken German (Ich habe gestern Fußball gespielt). sein with verbs of motion and change of state.') },
+  'praet': { g: 'past', de: 'Präteritum', es: 'Präteritum (pasado escrito)', en: 'Präteritum (written past)',
+    hint: H('El pasado de la narración escrita (Es war einmal ein König…). Al hablar, sobre todo war, hatte, los modales y es gab.', 'The past tense of written narration (Es war einmal ein König…). In speech mostly war, hatte, the modals and es gab.') },
+  'plusq': { g: 'past', de: 'Plusquamperfekt', es: 'Pluscuamperfecto', en: 'Past perfect',
+    hint: H('hatte / war + participio II: algo anterior a otro hecho pasado (Als ich ankam, war der Zug schon abgefahren). Típico con nachdem.', 'hatte / war + past participle: something before another past event (Als ich ankam, war der Zug schon abgefahren). Typical with nachdem.') },
+  'fut1':  { g: 'fut', de: 'Futur I', es: 'Futuro', en: 'Future',
+    hint: H('werden + infinitivo al final: planes, promesas, predicciones y suposiciones (Sie wird wohl im Büro sein).', 'werden + infinitive at the end: plans, promises, predictions and assumptions (Sie wird wohl im Büro sein).') },
+  'fut2':  { g: 'fut', de: 'Futur II', es: 'Futuro perfecto', en: 'Future perfect',
+    hint: H('werden + participio II + haben / sein: algo terminado antes de un momento futuro, o una suposición sobre el pasado (Er wird den Bus verpasst haben).', 'werden + past participle + haben / sein: something finished before a future moment, or an assumption about the past (Er wird den Bus verpasst haben).') },
+  'k2':    { g: 'subj', de: 'Konjunktiv II', es: 'Konjunktiv II (condicional)', en: 'Konjunktiv II (conditional)',
+    hint: H('Deseos, hipótesis, consejos y cortesía: wäre, hätte, könnte, würde + infinitivo (Ich würde gern mitkommen. Wenn ich Zeit hätte, …).', 'Wishes, hypotheses, advice and politeness: wäre, hätte, könnte, würde + infinitive (Ich würde gern mitkommen. Wenn ich Zeit hätte, …).') },
+  'k2v':   { g: 'subj', de: 'Konjunktiv II Vergangenheit', es: 'Konjunktiv II pasado', en: 'Past Konjunktiv II',
+    hint: H('hätte / wäre + participio II: lo que habría pasado o lamentos (Wenn ich früher losgefahren wäre, hätte ich den Zug erreicht).', 'hätte / wäre + past participle: what would have happened, or regrets (Wenn ich früher losgefahren wäre, hätte ich den Zug erreicht).') },
+  'k1':    { g: 'subj', de: 'Konjunktiv I', es: 'Konjunktiv I (estilo indirecto)', en: 'Konjunktiv I (reported speech)',
+    hint: H('Estilo indirecto, sobre todo en prensa: el periodista no se responsabiliza de lo dicho (Der Minister sagte, er sei zufrieden).', 'Reported speech, especially in the press: the writer does not vouch for what was said (Der Minister sagte, er sei zufrieden).') },
+  'imp':   { g: 'imp', de: 'Imperativ', es: 'Imperativo', en: 'Imperative',
+    hint: H('Órdenes, consejos e instrucciones: Komm! Kommt! Kommen Sie! En los separables, el prefijo va al final: Mach bitte das Fenster zu!', 'Orders, advice and instructions: Komm! Kommt! Kommen Sie! In separable verbs the prefix goes to the end: Mach bitte das Fenster zu!') },
+  'modal': { g: 'peri', de: 'Modalverb + Infinitiv', es: 'Verbo modal + infinitivo', en: 'Modal verb + infinitive',
+    hint: H('können, müssen, dürfen, sollen, wollen, mögen / möchte + infinitivo al final de la frase (Ich muss morgen früh aufstehen).', 'können, müssen, dürfen, sollen, wollen, mögen / möchte + infinitive at the end of the clause (Ich muss morgen früh aufstehen).') },
+  'pas':   { g: 'peri', de: 'Vorgangspassiv', es: 'Pasiva de proceso (werden)', en: 'Process passive (werden)',
+    hint: H('werden + participio II: lo importante es la acción, no quién la hace (Das Haus wird renoviert). El agente va con von.', 'werden + past participle: what matters is the action, not who does it (Das Haus wird renoviert). The agent goes with von.') },
+  'zpas':  { g: 'peri', de: 'Zustandspassiv', es: 'Pasiva de estado (sein)', en: 'State passive (sein)',
+    hint: H('sein + participio II: el resultado de una acción (Die Tür ist geschlossen = está cerrada).', 'sein + past participle: the result of an action (Die Tür ist geschlossen = the door is closed).') },
+  'lassen': { g: 'peri', de: 'lassen + Infinitiv', es: 'lassen + infinitivo', en: 'lassen + infinitive',
+    hint: H('Hacer que otro haga algo o permitirlo: Ich lasse mein Auto reparieren (me arreglan el coche). Lass mich das machen!', 'Having someone else do something, or allowing it: Ich lasse mein Auto reparieren (I have my car repaired). Lass mich das machen!') },
+};
+
+export const PERSONS = {};
+
+// Grammar note kinds of the readings.
+export const NOTE_KINDS = {
+  'case':         { de: 'Kasus', es: 'Casos', en: 'Cases' },
+  'article':      { de: 'Artikel', es: 'Artículos', en: 'Articles' },
+  'adj':          { de: 'Adjektivdeklination', es: 'Declinación del adjetivo', en: 'Adjective endings' },
+  'prep':         { de: 'Präpositionen', es: 'Preposiciones', en: 'Prepositions' },
+  'twoway':       { de: 'Wechselpräpositionen', es: 'Preposiciones de doble régimen', en: 'Two-way prepositions' },
+  'word-order':   { de: 'Satzstellung', es: 'Orden de la frase', en: 'Word order' },
+  'separable':    { de: 'Trennbare Verben', es: 'Verbos separables', en: 'Separable verbs' },
+  'subclause':    { de: 'Nebensatz', es: 'Oración subordinada', en: 'Subordinate clause' },
+  'relative':     { de: 'Relativsatz', es: 'Oración de relativo', en: 'Relative clause' },
+  'pronoun':      { de: 'Pronomen', es: 'Pronombres', en: 'Pronouns' },
+  'reflexive':    { de: 'Reflexive Verben', es: 'Verbos reflexivos', en: 'Reflexive verbs' },
+  'prepverb':     { de: 'Verben mit Präposition', es: 'Verbos con preposición', en: 'Verbs with prepositions' },
+  'da-wo':        { de: 'da(r)- / wo(r)-', es: 'Pronombres adverbiales', en: 'Prepositional adverbs' },
+  'negation':     { de: 'Negation', es: 'Negación', en: 'Negation' },
+  'comparison':   { de: 'Komparation', es: 'Comparación', en: 'Comparison' },
+  'linker':       { de: 'Konnektoren', es: 'Conectores', en: 'Connectors' },
+  'conditional':  { de: 'Konditionalsatz', es: 'Condicionales', en: 'Conditionals' },
+  'reported':     { de: 'Indirekte Rede', es: 'Estilo indirecto', en: 'Reported speech' },
+  'passive':      { de: 'Passiv', es: 'Pasiva', en: 'Passive' },
+  'genitive':     { de: 'Genitiv', es: 'Genitivo', en: 'Genitive' },
+  'n-decl':       { de: 'n-Deklination', es: 'Declinación en -n', en: 'Weak nouns' },
+  'participle':   { de: 'Partizipialattribut', es: 'Participio como atributo', en: 'Participle as attribute' },
+  'nominal':      { de: 'Nominalstil', es: 'Estilo nominal', en: 'Nominal style' },
+  'fvg':          { de: 'Nomen-Verb-Verbindung', es: 'Locución verbo-sustantivo', en: 'Noun-verb collocation' },
+  'particle':     { de: 'Modalpartikel', es: 'Partícula modal', en: 'Modal particle' },
+  'compound':     { de: 'Komposita', es: 'Palabras compuestas', en: 'Compounds' },
+  'wordformation': { de: 'Wortbildung', es: 'Formación de palabras', en: 'Word formation' },
+  'collocation':  { de: 'Kollokation', es: 'Colocación', en: 'Collocation' },
+  'false-friend': { de: 'Falscher Freund', es: 'Falso amigo', en: 'False friend' },
+  'idiom':        { de: 'Redewendung', es: 'Expresión', en: 'Idiom' },
+  'register':     { de: 'Register', es: 'Registro', en: 'Register' },
+  'variety':      { de: 'Varietät', es: 'Variedad (Austria, Suiza…)', en: 'Variety (Austria, Switzerland…)' },
+  'tense':        { de: 'Tempuswahl', es: 'Elección de tiempo', en: 'Choice of tense' },
+  'modal':        { de: 'Modalverben', es: 'Verbos modales', en: 'Modal verbs' },
+  'other':        { de: 'Grammatik', es: 'Gramática', en: 'Grammar' },
+};
+
+// Reference topics [level, id] for each verb form / note kind; the most advanced one at or below the text level is used.
+export const REF_LINKS = {};

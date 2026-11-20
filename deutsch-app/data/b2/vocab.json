@@ -1,0 +1,12700 @@
+[
+{
+"word": "die Äußerung",
+"m": {
+"es": "la declaración, el comentario · pl. die Äußerungen",
+"en": "statement, remark · pl. die Äußerungen"
+},
+"pos": "noun",
+"w": "die Äußerung",
+"p": "",
+"g": "f",
+"pl": "Äußerungen",
+"unit": 1,
+"u": "b2-1",
+"q": 3138
+},
+{
+"word": "sich äußern",
+"m": {
+"es": "pronunciarse",
+"en": "to comment"
+},
+"pos": "verb",
+"w": "sich äußern",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3139
+},
+{
+"word": "die Behauptung",
+"m": {
+"es": "la afirmación · pl. die Behauptungen",
+"en": "claim · pl. die Behauptungen"
+},
+"pos": "noun",
+"w": "die Behauptung",
+"p": "",
+"g": "f",
+"pl": "Behauptungen",
+"unit": 1,
+"u": "b2-1",
+"q": 3140
+},
+{
+"word": "betonen",
+"m": {
+"es": "subrayar, recalcar",
+"en": "to stress"
+},
+"pos": "verb",
+"w": "betonen",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3141
+},
+{
+"word": "die Berichterstattung",
+"m": {
+"es": "la cobertura informativa",
+"en": "reporting, coverage"
+},
+"pos": "noun",
+"w": "die Berichterstattung",
+"p": "",
+"g": "f",
+"unit": 1,
+"u": "b2-1",
+"q": 3142
+},
+{
+"word": "der Sprecher",
+"m": {
+"es": "el portavoz; el hablante · pl. die Sprecher",
+"en": "spokesperson; speaker · pl. die Sprecher"
+},
+"pos": "noun",
+"w": "der Sprecher",
+"p": "",
+"g": "m",
+"pl": "Sprecher",
+"unit": 1,
+"u": "b2-1",
+"q": 3143
+},
+{
+"word": "die Pressemitteilung",
+"m": {
+"es": "el comunicado de prensa · pl. die Pressemitteilungen",
+"en": "press release · pl. die Pressemitteilungen"
+},
+"pos": "noun",
+"w": "die Pressemitteilung",
+"p": "",
+"g": "f",
+"pl": "Pressemitteilungen",
+"unit": 1,
+"u": "b2-1",
+"q": 3144
+},
+{
+"word": "die Stellungnahme",
+"m": {
+"es": "la toma de posición · pl. die Stellungnahmen",
+"en": "statement, comment · pl. die Stellungnahmen"
+},
+"pos": "noun",
+"w": "die Stellungnahme",
+"p": "",
+"g": "f",
+"pl": "Stellungnahmen",
+"unit": 1,
+"u": "b2-1",
+"q": 3145
+},
+{
+"word": "zitieren",
+"m": {
+"es": "citar",
+"en": "to quote"
+},
+"pos": "verb",
+"w": "zitieren",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3146
+},
+{
+"word": "das Zitat",
+"m": {
+"es": "la cita · pl. die Zitate",
+"en": "quotation · pl. die Zitate"
+},
+"pos": "noun",
+"w": "das Zitat",
+"p": "",
+"g": "n",
+"pl": "Zitate",
+"unit": 1,
+"u": "b2-1",
+"q": 3147
+},
+{
+"word": "angeblich",
+"m": {
+"es": "supuestamente",
+"en": "allegedly"
+},
+"pos": "",
+"w": "angeblich",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3148
+},
+{
+"word": "zufolge",
+"m": {
+"es": "según",
+"en": "according to"
+},
+"pos": "",
+"w": "zufolge",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3149
+},
+{
+"word": "gemäß",
+"m": {
+"es": "según",
+"en": "according to"
+},
+"pos": "",
+"w": "gemäß",
+"p": "",
+"unit": 1,
+"u": "b2-1",
+"q": 3150
+},
+{
+"word": "die Quelle",
+"m": {
+"es": "la fuente · pl. die Quellen",
+"en": "source · pl. die Quellen"
+},
+"pos": "noun",
+"w": "die Quelle",
+"p": "",
+"g": "f",
+"pl": "Quellen",
+"unit": 1,
+"u": "b2-1",
+"q": 3151
+},
+{
+"word": "der Minister",
+"m": {
+"es": "el ministro · pl. die Minister",
+"en": "minister · pl. die Minister"
+},
+"pos": "noun",
+"w": "der Minister",
+"p": "",
+"g": "m",
+"pl": "Minister",
+"unit": 1,
+"u": "b2-1",
+"q": 3152
+},
+{
+"word": "die Regierung",
+"m": {
+"es": "el gobierno · pl. die Regierungen",
+"en": "government · pl. die Regierungen"
+},
+"pos": "noun",
+"w": "die Regierung",
+"p": "",
+"g": "f",
+"pl": "Regierungen",
+"unit": 1,
+"u": "b2-1",
+"q": 3153
+},
+{
+"word": "lösbar",
+"m": {
+"es": "resoluble",
+"en": "solvable"
+},
+"pos": "",
+"w": "lösbar",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3154
+},
+{
+"word": "machbar",
+"m": {
+"es": "factible",
+"en": "feasible"
+},
+"pos": "",
+"w": "machbar",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3155
+},
+{
+"word": "erreichbar",
+"m": {
+"es": "localizable; accesible",
+"en": "reachable"
+},
+"pos": "",
+"w": "erreichbar",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3156
+},
+{
+"word": "vergleichbar",
+"m": {
+"es": "comparable",
+"en": "comparable"
+},
+"pos": "",
+"w": "vergleichbar",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3157
+},
+{
+"word": "erkennbar",
+"m": {
+"es": "reconocible",
+"en": "recognisable"
+},
+"pos": "",
+"w": "erkennbar",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3158
+},
+{
+"word": "unvermeidlich",
+"m": {
+"es": "inevitable",
+"en": "inevitable"
+},
+"pos": "",
+"w": "unvermeidlich",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3159
+},
+{
+"word": "bewältigen",
+"m": {
+"es": "superar, hacer frente a",
+"en": "to cope with"
+},
+"pos": "verb",
+"w": "bewältigen",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3160
+},
+{
+"word": "umsetzen",
+"m": {
+"es": "poner en práctica",
+"en": "to implement"
+},
+"pos": "verb",
+"w": "umsetzen",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3161
+},
+{
+"word": "die Umsetzung",
+"m": {
+"es": "la puesta en práctica · pl. die Umsetzungen",
+"en": "implementation · pl. die Umsetzungen"
+},
+"pos": "noun",
+"w": "die Umsetzung",
+"p": "",
+"g": "f",
+"pl": "Umsetzungen",
+"unit": 2,
+"u": "b2-2",
+"q": 3162
+},
+{
+"word": "die Maßnahme",
+"m": {
+"es": "la medida · pl. die Maßnahmen",
+"en": "measure · pl. die Maßnahmen"
+},
+"pos": "noun",
+"w": "die Maßnahme",
+"p": "",
+"g": "f",
+"pl": "Maßnahmen",
+"unit": 2,
+"u": "b2-2",
+"q": 3163
+},
+{
+"word": "durchführen",
+"m": {
+"es": "llevar a cabo",
+"en": "to carry out"
+},
+"pos": "verb",
+"w": "durchführen",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3164
+},
+{
+"word": "die Durchführung",
+"m": {
+"es": "la realización",
+"en": "implementation"
+},
+"pos": "noun",
+"w": "die Durchführung",
+"p": "",
+"g": "f",
+"unit": 2,
+"u": "b2-2",
+"q": 3165
+},
+{
+"word": "einhalten",
+"m": {
+"es": "cumplir, respetar · hält ein, hielt ein, hat eingehalten",
+"en": "to comply with · hält ein, hielt ein, hat eingehalten"
+},
+"pos": "verb",
+"w": "einhalten",
+"p": "",
+"pp": "hält ein, hielt ein, hat eingehalten",
+"unit": 2,
+"u": "b2-2",
+"q": 3166
+},
+{
+"word": "berücksichtigen",
+"m": {
+"es": "tener en cuenta",
+"en": "to take into account"
+},
+"pos": "verb",
+"w": "berücksichtigen",
+"p": "",
+"unit": 2,
+"u": "b2-2",
+"q": 3167
+},
+{
+"word": "der Antrag",
+"m": {
+"es": "la solicitud · pl. die Anträge",
+"en": "application · pl. die Anträge"
+},
+"pos": "noun",
+"w": "der Antrag",
+"p": "",
+"g": "m",
+"pl": "Anträge",
+"unit": 2,
+"u": "b2-2",
+"q": 3168
+},
+{
+"word": "der Vorgang",
+"m": {
+"es": "el proceso · pl. die Vorgänge",
+"en": "process · pl. die Vorgänge"
+},
+"pos": "noun",
+"w": "der Vorgang",
+"p": "",
+"g": "m",
+"pl": "Vorgänge",
+"unit": 3,
+"u": "b2-3",
+"q": 3169
+},
+{
+"word": "sanieren",
+"m": {
+"es": "rehabilitar, sanear",
+"en": "to renovate"
+},
+"pos": "verb",
+"w": "sanieren",
+"p": "",
+"unit": 3,
+"u": "b2-3",
+"q": 3170
+},
+{
+"word": "die Sanierung",
+"m": {
+"es": "la rehabilitación · pl. die Sanierungen",
+"en": "renovation · pl. die Sanierungen"
+},
+"pos": "noun",
+"w": "die Sanierung",
+"p": "",
+"g": "f",
+"pl": "Sanierungen",
+"unit": 3,
+"u": "b2-3",
+"q": 3171
+},
+{
+"word": "aufbewahren",
+"m": {
+"es": "guardar, conservar",
+"en": "to keep, to store"
+},
+"pos": "verb",
+"w": "aufbewahren",
+"p": "",
+"unit": 3,
+"u": "b2-3",
+"q": 3172
+},
+{
+"word": "erscheinen",
+"m": {
+"es": "aparecer; publicarse · erscheint, erschien, ist erschienen",
+"en": "to appear; to be published · erscheint, erschien, ist erschienen"
+},
+"pos": "verb",
+"w": "erscheinen",
+"p": "",
+"pp": "erscheint, erschien, ist erschienen",
+"unit": 4,
+"u": "b2-4",
+"q": 3173
+},
+{
+"word": "wachsend",
+"m": {
+"es": "creciente",
+"en": "growing"
+},
+"pos": "",
+"w": "wachsend",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3174
+},
+{
+"word": "zunehmend",
+"m": {
+"es": "cada vez más",
+"en": "increasingly"
+},
+"pos": "",
+"w": "zunehmend",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3175
+},
+{
+"word": "betroffen",
+"m": {
+"es": "afectado",
+"en": "affected"
+},
+"pos": "verb",
+"w": "betroffen",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3176
+},
+{
+"word": "beteiligt",
+"m": {
+"es": "implicado",
+"en": "involved"
+},
+"pos": "",
+"w": "beteiligt",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3177
+},
+{
+"word": "geplant",
+"m": {
+"es": "previsto",
+"en": "planned"
+},
+"pos": "",
+"w": "geplant",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3178
+},
+{
+"word": "vorgesehen",
+"m": {
+"es": "previsto · gesieht vor, gesah vor, hat vorgesehen",
+"en": "intended, scheduled · gesieht vor, gesah vor, hat vorgesehen"
+},
+"pos": "verb",
+"w": "vorgesehen",
+"p": "",
+"pp": "gesieht vor, gesah vor, hat vorgesehen",
+"unit": 4,
+"u": "b2-4",
+"q": 3179
+},
+{
+"word": "bestehend",
+"m": {
+"es": "existente",
+"en": "existing"
+},
+"pos": "",
+"w": "bestehend",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3180
+},
+{
+"word": "entsprechend",
+"m": {
+"es": "correspondiente; en consecuencia",
+"en": "corresponding; accordingly"
+},
+"pos": "",
+"w": "entsprechend",
+"p": "",
+"unit": 4,
+"u": "b2-4",
+"q": 3181
+},
+{
+"word": "der Anteil",
+"m": {
+"es": "la proporción, la parte · pl. die Anteile",
+"en": "share, proportion · pl. die Anteile"
+},
+"pos": "noun",
+"w": "der Anteil",
+"p": "",
+"g": "m",
+"pl": "Anteile",
+"unit": 4,
+"u": "b2-4",
+"q": 3182
+},
+{
+"word": "aufgrund",
+"m": {
+"es": "debido a",
+"en": "due to"
+},
+"pos": "",
+"w": "aufgrund",
+"p": "",
+"unit": 5,
+"u": "b2-5",
+"q": 3183
+},
+{
+"word": "infolge",
+"m": {
+"es": "a consecuencia de",
+"en": "as a result of"
+},
+"pos": "",
+"w": "infolge",
+"p": "",
+"unit": 5,
+"u": "b2-5",
+"q": 3184
+},
+{
+"word": "zwecks",
+"m": {
+"es": "con el fin de",
+"en": "for the purpose of"
+},
+"pos": "",
+"w": "zwecks",
+"p": "",
+"unit": 5,
+"u": "b2-5",
+"q": 3185
+},
+{
+"word": "die Senkung",
+"m": {
+"es": "la reducción, la bajada · pl. die Senkungen",
+"en": "reduction · pl. die Senkungen"
+},
+"pos": "noun",
+"w": "die Senkung",
+"p": "",
+"g": "f",
+"pl": "Senkungen",
+"unit": 5,
+"u": "b2-5",
+"q": 3186
+},
+{
+"word": "die Veränderung",
+"m": {
+"es": "el cambio · pl. die Veränderungen",
+"en": "change · pl. die Veränderungen"
+},
+"pos": "noun",
+"w": "die Veränderung",
+"p": "",
+"g": "f",
+"pl": "Veränderungen",
+"unit": 5,
+"u": "b2-5",
+"q": 3187
+},
+{
+"word": "die Verbesserung",
+"m": {
+"es": "la mejora · pl. die Verbesserungen",
+"en": "improvement · pl. die Verbesserungen"
+},
+"pos": "noun",
+"w": "die Verbesserung",
+"p": "",
+"g": "f",
+"pl": "Verbesserungen",
+"unit": 5,
+"u": "b2-5",
+"q": 3188
+},
+{
+"word": "die Verwendung",
+"m": {
+"es": "el uso · pl. die Verwendungen",
+"en": "use · pl. die Verwendungen"
+},
+"pos": "noun",
+"w": "die Verwendung",
+"p": "",
+"g": "f",
+"pl": "Verwendungen",
+"unit": 5,
+"u": "b2-5",
+"q": 3189
+},
+{
+"word": "die Beantwortung",
+"m": {
+"es": "la respuesta (acción)",
+"en": "answering"
+},
+"pos": "noun",
+"w": "die Beantwortung",
+"p": "",
+"g": "f",
+"unit": 5,
+"u": "b2-5",
+"q": 3190
+},
+{
+"word": "die Ablehnung",
+"m": {
+"es": "el rechazo · pl. die Ablehnungen",
+"en": "rejection · pl. die Ablehnungen"
+},
+"pos": "noun",
+"w": "die Ablehnung",
+"p": "",
+"g": "f",
+"pl": "Ablehnungen",
+"unit": 5,
+"u": "b2-5",
+"q": 3191
+},
+{
+"word": "die Abreise",
+"m": {
+"es": "la partida · pl. die Abreisen",
+"en": "departure · pl. die Abreisen"
+},
+"pos": "noun",
+"w": "die Abreise",
+"p": "",
+"g": "f",
+"pl": "Abreisen",
+"unit": 5,
+"u": "b2-5",
+"q": 3192
+},
+{
+"word": "eine Entscheidung treffen",
+"m": {
+"es": "tomar una decisión",
+"en": "to make a decision"
+},
+"pos": "",
+"w": "eine Entscheidung treffen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3193
+},
+{
+"word": "Kritik üben",
+"m": {
+"es": "criticar",
+"en": "to criticise"
+},
+"pos": "",
+"w": "Kritik üben",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3194
+},
+{
+"word": "in Frage kommen",
+"m": {
+"es": "entrar en consideración",
+"en": "to be possible"
+},
+"pos": "",
+"w": "in Frage kommen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3195
+},
+{
+"word": "in Frage stellen",
+"m": {
+"es": "poner en duda",
+"en": "to call into question"
+},
+"pos": "",
+"w": "in Frage stellen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3196
+},
+{
+"word": "zur Verfügung stellen",
+"m": {
+"es": "poner a disposición",
+"en": "to make available"
+},
+"pos": "",
+"w": "zur Verfügung stellen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3197
+},
+{
+"word": "zur Verfügung stehen",
+"m": {
+"es": "estar disponible",
+"en": "to be available"
+},
+"pos": "",
+"w": "zur Verfügung stehen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3198
+},
+{
+"word": "in Kauf nehmen",
+"m": {
+"es": "aceptar (un inconveniente)",
+"en": "to accept, to put up with"
+},
+"pos": "",
+"w": "in Kauf nehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3199
+},
+{
+"word": "zum Ausdruck bringen",
+"m": {
+"es": "expresar",
+"en": "to express"
+},
+"pos": "",
+"w": "zum Ausdruck bringen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3200
+},
+{
+"word": "eine Rolle spielen",
+"m": {
+"es": "desempeñar un papel",
+"en": "to play a role"
+},
+"pos": "",
+"w": "eine Rolle spielen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3201
+},
+{
+"word": "Rücksicht nehmen",
+"m": {
+"es": "tener consideración",
+"en": "to show consideration"
+},
+"pos": "",
+"w": "Rücksicht nehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3202
+},
+{
+"word": "Stellung nehmen",
+"m": {
+"es": "posicionarse",
+"en": "to comment"
+},
+"pos": "",
+"w": "Stellung nehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3203
+},
+{
+"word": "in Anspruch nehmen",
+"m": {
+"es": "hacer uso de",
+"en": "to make use of"
+},
+"pos": "",
+"w": "in Anspruch nehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3204
+},
+{
+"word": "Einfluss nehmen",
+"m": {
+"es": "influir",
+"en": "to exert influence"
+},
+"pos": "",
+"w": "Einfluss nehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3205
+},
+{
+"word": "in Betracht ziehen",
+"m": {
+"es": "tener en cuenta",
+"en": "to take into consideration"
+},
+"pos": "",
+"w": "in Betracht ziehen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3206
+},
+{
+"word": "Maßnahmen ergreifen",
+"m": {
+"es": "tomar medidas",
+"en": "to take measures"
+},
+"pos": "",
+"w": "Maßnahmen ergreifen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3207
+},
+{
+"word": "einen Antrag stellen",
+"m": {
+"es": "presentar una solicitud",
+"en": "to submit an application"
+},
+"pos": "",
+"w": "einen Antrag stellen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3208
+},
+{
+"word": "Verantwortung übernehmen",
+"m": {
+"es": "asumir la responsabilidad",
+"en": "to take responsibility"
+},
+"pos": "",
+"w": "Verantwortung übernehmen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3209
+},
+{
+"word": "einen Beitrag leisten",
+"m": {
+"es": "contribuir",
+"en": "to contribute"
+},
+"pos": "",
+"w": "einen Beitrag leisten",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3210
+},
+{
+"word": "Wert legen auf",
+"m": {
+"es": "dar importancia a",
+"en": "to attach importance to"
+},
+"pos": "",
+"w": "Wert legen auf",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3211
+},
+{
+"word": "in Kontakt treten",
+"m": {
+"es": "ponerse en contacto",
+"en": "to get in touch"
+},
+"pos": "",
+"w": "in Kontakt treten",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3212
+},
+{
+"word": "zu Ende gehen",
+"m": {
+"es": "llegar a su fin",
+"en": "to come to an end"
+},
+"pos": "",
+"w": "zu Ende gehen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3213
+},
+{
+"word": "in Gang setzen",
+"m": {
+"es": "poner en marcha",
+"en": "to set in motion"
+},
+"pos": "",
+"w": "in Gang setzen",
+"p": "",
+"unit": 6,
+"u": "b2-6",
+"q": 3214
+},
+{
+"word": "abhängen von",
+"m": {
+"es": "depender de",
+"en": "to depend on"
+},
+"pos": "",
+"w": "abhängen von",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3215
+},
+{
+"word": "das Abkommen",
+"m": {
+"es": "el acuerdo, el tratado · pl. die Abkommen",
+"en": "agreement · pl. die Abkommen"
+},
+"pos": "noun",
+"w": "das Abkommen",
+"p": "",
+"g": "n",
+"pl": "Abkommen",
+"unit": null,
+"u": "",
+"q": 3216
+},
+{
+"word": "Abschied nehmen",
+"m": {
+"es": "despedirse",
+"en": "to say farewell"
+},
+"pos": "",
+"w": "Abschied nehmen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3217
+},
+{
+"word": "die Abschlussarbeit",
+"m": {
+"es": "el trabajo de fin de estudios · pl. die Abschlussarbeiten",
+"en": "dissertation · pl. die Abschlussarbeiten"
+},
+"pos": "noun",
+"w": "die Abschlussarbeit",
+"p": "",
+"g": "f",
+"pl": "Abschlussarbeiten",
+"unit": null,
+"u": "",
+"q": 3218
+},
+{
+"word": "der Abstand",
+"m": {
+"es": "la distancia · pl. die Abstände",
+"en": "distance, gap · pl. die Abstände"
+},
+"pos": "noun",
+"w": "der Abstand",
+"p": "",
+"g": "m",
+"pl": "Abstände",
+"unit": null,
+"u": "",
+"q": 3219
+},
+{
+"word": "die Abstimmung",
+"m": {
+"es": "la votación · pl. die Abstimmungen",
+"en": "vote · pl. die Abstimmungen"
+},
+"pos": "noun",
+"w": "die Abstimmung",
+"p": "",
+"g": "f",
+"pl": "Abstimmungen",
+"unit": null,
+"u": "",
+"q": 3220
+},
+{
+"word": "abwarten",
+"m": {
+"es": "esperar (a ver)",
+"en": "to wait and see"
+},
+"pos": "verb",
+"w": "abwarten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3221
+},
+{
+"word": "das Abwasser",
+"m": {
+"es": "las aguas residuales · pl. die Abwässer",
+"en": "waste water · pl. die Abwässer"
+},
+"pos": "noun",
+"w": "das Abwasser",
+"p": "",
+"g": "n",
+"pl": "Abwässer",
+"unit": null,
+"u": "",
+"q": 3222
+},
+{
+"word": "abwechslungsreich",
+"m": {
+"es": "variado",
+"en": "varied"
+},
+"pos": "",
+"w": "abwechslungsreich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3223
+},
+{
+"word": "abwägen",
+"m": {
+"es": "sopesar · wägt ab, wog ab, hat abgewogen",
+"en": "to weigh up · wägt ab, wog ab, hat abgewogen"
+},
+"pos": "verb",
+"w": "abwägen",
+"p": "",
+"pp": "wägt ab, wog ab, hat abgewogen",
+"unit": null,
+"u": "",
+"q": 3224
+},
+{
+"word": "die Agentur",
+"m": {
+"es": "la agencia · pl. die Agenturen",
+"en": "agency · pl. die Agenturen"
+},
+"pos": "noun",
+"w": "die Agentur",
+"p": "",
+"g": "f",
+"pl": "Agenturen",
+"unit": null,
+"u": "",
+"q": 3225
+},
+{
+"word": "die Akademie",
+"m": {
+"es": "la academia · pl. die Akademien",
+"en": "academy · pl. die Akademien"
+},
+"pos": "noun",
+"w": "die Akademie",
+"p": "",
+"g": "f",
+"pl": "Akademien",
+"unit": null,
+"u": "",
+"q": 3226
+},
+{
+"word": "die Aktie",
+"m": {
+"es": "la acción (bolsa) · pl. die Aktien",
+"en": "share · pl. die Aktien"
+},
+"pos": "noun",
+"w": "die Aktie",
+"p": "",
+"g": "f",
+"pl": "Aktien",
+"unit": null,
+"u": "",
+"q": 3227
+},
+{
+"word": "das Album",
+"m": {
+"es": "el álbum · pl. die Alben",
+"en": "album · pl. die Alben"
+},
+"pos": "noun",
+"w": "das Album",
+"p": "",
+"g": "n",
+"pl": "Alben",
+"unit": null,
+"u": "",
+"q": 3228
+},
+{
+"word": "der Algorithmus",
+"m": {
+"es": "el algoritmo · pl. die Algorithmen",
+"en": "algorithm · pl. die Algorithmen"
+},
+"pos": "noun",
+"w": "der Algorithmus",
+"p": "",
+"g": "m",
+"pl": "Algorithmen",
+"unit": null,
+"u": "",
+"q": 3229
+},
+{
+"word": "alleinerziehend",
+"m": {
+"es": "monoparental",
+"en": "single (parent)"
+},
+"pos": "",
+"w": "alleinerziehend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3230
+},
+{
+"word": "die Allergie",
+"m": {
+"es": "la alergia · pl. die Allergien",
+"en": "allergy · pl. die Allergien"
+},
+"pos": "noun",
+"w": "die Allergie",
+"p": "",
+"g": "f",
+"pl": "Allergien",
+"unit": null,
+"u": "",
+"q": 3231
+},
+{
+"word": "die Analyse",
+"m": {
+"es": "el análisis · pl. die Analysen",
+"en": "analysis · pl. die Analysen"
+},
+"pos": "noun",
+"w": "die Analyse",
+"p": "",
+"g": "f",
+"pl": "Analysen",
+"unit": null,
+"u": "",
+"q": 3232
+},
+{
+"word": "die Anerkennung",
+"m": {
+"es": "el reconocimiento",
+"en": "recognition"
+},
+"pos": "noun",
+"w": "die Anerkennung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3233
+},
+{
+"word": "die Anfrage",
+"m": {
+"es": "la consulta, la solicitud · pl. die Anfragen",
+"en": "enquiry · pl. die Anfragen"
+},
+"pos": "noun",
+"w": "die Anfrage",
+"p": "",
+"g": "f",
+"pl": "Anfragen",
+"unit": null,
+"u": "",
+"q": 3234
+},
+{
+"word": "die Angelegenheit",
+"m": {
+"es": "el asunto · pl. die Angelegenheiten",
+"en": "matter, affair · pl. die Angelegenheiten"
+},
+"pos": "noun",
+"w": "die Angelegenheit",
+"p": "",
+"g": "f",
+"pl": "Angelegenheiten",
+"unit": null,
+"u": "",
+"q": 3235
+},
+{
+"word": "angemessen",
+"m": {
+"es": "adecuado · gemisst an, gemaß an, hat angemessen",
+"en": "appropriate · gemisst an, gemaß an, hat angemessen"
+},
+"pos": "verb",
+"w": "angemessen",
+"p": "",
+"pp": "gemisst an, gemaß an, hat angemessen",
+"unit": null,
+"u": "",
+"q": 3236
+},
+{
+"word": "angesichts",
+"m": {
+"es": "ante, en vista de",
+"en": "in view of"
+},
+"pos": "",
+"w": "angesichts",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3237
+},
+{
+"word": "angewiesen auf",
+"m": {
+"es": "dependiente de",
+"en": "dependent on"
+},
+"pos": "",
+"w": "angewiesen auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3238
+},
+{
+"word": "anhand",
+"m": {
+"es": "a partir de, mediante",
+"en": "by means of"
+},
+"pos": "",
+"w": "anhand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3239
+},
+{
+"word": "der Anhänger",
+"m": {
+"es": "el seguidor; el remolque · pl. die Anhänger",
+"en": "supporter; trailer · pl. die Anhänger"
+},
+"pos": "noun",
+"w": "der Anhänger",
+"p": "",
+"g": "m",
+"pl": "Anhänger",
+"unit": null,
+"u": "",
+"q": 3240
+},
+{
+"word": "der Anlass",
+"m": {
+"es": "el motivo, la ocasión · pl. die Anlässe",
+"en": "occasion, reason · pl. die Anlässe"
+},
+"pos": "noun",
+"w": "der Anlass",
+"p": "",
+"g": "m",
+"pl": "Anlässe",
+"unit": null,
+"u": "",
+"q": 3241
+},
+{
+"word": "anlegen",
+"m": {
+"es": "crear; invertir",
+"en": "to create; to invest"
+},
+"pos": "verb",
+"w": "anlegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3242
+},
+{
+"word": "das Anliegen",
+"m": {
+"es": "la petición, el asunto · pl. die Anliegen",
+"en": "concern, request · pl. die Anliegen"
+},
+"pos": "noun",
+"w": "das Anliegen",
+"p": "",
+"g": "n",
+"pl": "Anliegen",
+"unit": null,
+"u": "",
+"q": 3243
+},
+{
+"word": "die Annahme",
+"m": {
+"es": "la suposición; la aceptación · pl. die Annahmen",
+"en": "assumption; acceptance · pl. die Annahmen"
+},
+"pos": "noun",
+"w": "die Annahme",
+"p": "",
+"g": "f",
+"pl": "Annahmen",
+"unit": null,
+"u": "",
+"q": 3244
+},
+{
+"word": "der Ansatz",
+"m": {
+"es": "el enfoque · pl. die Ansätze",
+"en": "approach · pl. die Ansätze"
+},
+"pos": "noun",
+"w": "der Ansatz",
+"p": "",
+"g": "m",
+"pl": "Ansätze",
+"unit": null,
+"u": "",
+"q": 3245
+},
+{
+"word": "anscheinend",
+"m": {
+"es": "al parecer",
+"en": "apparently"
+},
+"pos": "",
+"w": "anscheinend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3246
+},
+{
+"word": "der Anschlag",
+"m": {
+"es": "el atentado; el anuncio · pl. die Anschläge",
+"en": "attack; notice · pl. die Anschläge"
+},
+"pos": "noun",
+"w": "der Anschlag",
+"p": "",
+"g": "m",
+"pl": "Anschläge",
+"unit": null,
+"u": "",
+"q": 3247
+},
+{
+"word": "die Ansicht",
+"m": {
+"es": "la opinión; la vista · pl. die Ansichten",
+"en": "opinion; view · pl. die Ansichten"
+},
+"pos": "noun",
+"w": "die Ansicht",
+"p": "",
+"g": "f",
+"pl": "Ansichten",
+"unit": null,
+"u": "",
+"q": 3248
+},
+{
+"word": "ansonsten",
+"m": {
+"es": "por lo demás",
+"en": "otherwise"
+},
+"pos": "verb",
+"w": "ansonsten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3249
+},
+{
+"word": "anspruchsvoll",
+"m": {
+"es": "exigente",
+"en": "demanding"
+},
+"pos": "",
+"w": "anspruchsvoll",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3250
+},
+{
+"word": "ansteckend",
+"m": {
+"es": "contagioso",
+"en": "contagious"
+},
+"pos": "",
+"w": "ansteckend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3251
+},
+{
+"word": "der Anstieg",
+"m": {
+"es": "el aumento",
+"en": "rise"
+},
+"pos": "noun",
+"w": "der Anstieg",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3252
+},
+{
+"word": "antreten",
+"m": {
+"es": "empezar; presentarse · tritt an, trat an, hat angetreten",
+"en": "to take up, to start · tritt an, trat an, hat angetreten"
+},
+"pos": "verb",
+"w": "antreten",
+"p": "",
+"pp": "tritt an, trat an, hat angetreten",
+"unit": null,
+"u": "",
+"q": 3253
+},
+{
+"word": "die Anwendung",
+"m": {
+"es": "la aplicación, el uso · pl. die Anwendungen",
+"en": "application, use · pl. die Anwendungen"
+},
+"pos": "noun",
+"w": "die Anwendung",
+"p": "",
+"g": "f",
+"pl": "Anwendungen",
+"unit": null,
+"u": "",
+"q": 3254
+},
+{
+"word": "anzeigen",
+"m": {
+"es": "denunciar; mostrar",
+"en": "to report (to the police); to display"
+},
+"pos": "verb",
+"w": "anzeigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3255
+},
+{
+"word": "appellieren",
+"m": {
+"es": "apelar",
+"en": "to appeal"
+},
+"pos": "verb",
+"w": "appellieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3256
+},
+{
+"word": "das Arbeitslosengeld",
+"m": {
+"es": "el subsidio de desempleo",
+"en": "unemployment benefit"
+},
+"pos": "noun",
+"w": "das Arbeitslosengeld",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3257
+},
+{
+"word": "die Arbeitslosigkeit",
+"m": {
+"es": "el desempleo",
+"en": "unemployment"
+},
+"pos": "noun",
+"w": "die Arbeitslosigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3258
+},
+{
+"word": "der Arbeitsmarkt",
+"m": {
+"es": "el mercado laboral · pl. die Arbeitsmärkte",
+"en": "labour market · pl. die Arbeitsmärkte"
+},
+"pos": "noun",
+"w": "der Arbeitsmarkt",
+"p": "",
+"g": "m",
+"pl": "Arbeitsmärkte",
+"unit": null,
+"u": "",
+"q": 3259
+},
+{
+"word": "die Architektur",
+"m": {
+"es": "la arquitectura",
+"en": "architecture"
+},
+"pos": "noun",
+"w": "die Architektur",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3260
+},
+{
+"word": "das Archiv",
+"m": {
+"es": "el archivo · pl. die Archive",
+"en": "archive · pl. die Archive"
+},
+"pos": "noun",
+"w": "das Archiv",
+"p": "",
+"g": "n",
+"pl": "Archive",
+"unit": null,
+"u": "",
+"q": 3261
+},
+{
+"word": "das Argument",
+"m": {
+"es": "el argumento · pl. die Argumente",
+"en": "argument · pl. die Argumente"
+},
+"pos": "noun",
+"w": "das Argument",
+"p": "",
+"g": "n",
+"pl": "Argumente",
+"unit": null,
+"u": "",
+"q": 3262
+},
+{
+"word": "argumentieren",
+"m": {
+"es": "argumentar",
+"en": "to argue"
+},
+"pos": "verb",
+"w": "argumentieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3263
+},
+{
+"word": "die Armee",
+"m": {
+"es": "el ejército · pl. die Armeen",
+"en": "army · pl. die Armeen"
+},
+"pos": "noun",
+"w": "die Armee",
+"p": "",
+"g": "f",
+"pl": "Armeen",
+"unit": null,
+"u": "",
+"q": 3264
+},
+{
+"word": "die Armut",
+"m": {
+"es": "la pobreza",
+"en": "poverty"
+},
+"pos": "noun",
+"w": "die Armut",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3265
+},
+{
+"word": "die Art",
+"m": {
+"es": "el tipo; el modo · pl. die Arten",
+"en": "kind; way · pl. die Arten"
+},
+"pos": "noun",
+"w": "die Art",
+"p": "",
+"g": "f",
+"pl": "Arten",
+"unit": null,
+"u": "",
+"q": 3266
+},
+{
+"word": "die Art und Weise",
+"m": {
+"es": "la manera",
+"en": "the way"
+},
+"pos": "noun",
+"w": "die Art und Weise",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3267
+},
+{
+"word": "die Artenvielfalt",
+"m": {
+"es": "la biodiversidad",
+"en": "biodiversity"
+},
+"pos": "noun",
+"w": "die Artenvielfalt",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3268
+},
+{
+"word": "der Aspekt",
+"m": {
+"es": "el aspecto · pl. die Aspekte",
+"en": "aspect · pl. die Aspekte"
+},
+"pos": "noun",
+"w": "der Aspekt",
+"p": "",
+"g": "m",
+"pl": "Aspekte",
+"unit": null,
+"u": "",
+"q": 3269
+},
+{
+"word": "das Asyl",
+"m": {
+"es": "el asilo",
+"en": "asylum"
+},
+"pos": "noun",
+"w": "das Asyl",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3270
+},
+{
+"word": "der Asylbewerber",
+"m": {
+"es": "el solicitante de asilo · pl. die Asylbewerber",
+"en": "asylum seeker · pl. die Asylbewerber"
+},
+"pos": "noun",
+"w": "der Asylbewerber",
+"p": "",
+"g": "m",
+"pl": "Asylbewerber",
+"unit": null,
+"u": "",
+"q": 3271
+},
+{
+"word": "die Atmosphäre",
+"m": {
+"es": "la atmósfera, el ambiente · pl. die Atmosphären",
+"en": "atmosphere · pl. die Atmosphären"
+},
+"pos": "noun",
+"w": "die Atmosphäre",
+"p": "",
+"g": "f",
+"pl": "Atmosphären",
+"unit": null,
+"u": "",
+"q": 3272
+},
+{
+"word": "die Atomkraft",
+"m": {
+"es": "la energía nuclear",
+"en": "nuclear power"
+},
+"pos": "noun",
+"w": "die Atomkraft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3273
+},
+{
+"word": "attraktiv",
+"m": {
+"es": "atractivo",
+"en": "attractive"
+},
+"pos": "",
+"w": "attraktiv",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3274
+},
+{
+"word": "auch wenn",
+"m": {
+"es": "aunque",
+"en": "even if"
+},
+"pos": "",
+"w": "auch wenn",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3275
+},
+{
+"word": "der Aufbau",
+"m": {
+"es": "la estructura; la construcción",
+"en": "structure; construction"
+},
+"pos": "noun",
+"w": "der Aufbau",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3276
+},
+{
+"word": "der Aufenthalt",
+"m": {
+"es": "la estancia · pl. die Aufenthalte",
+"en": "stay · pl. die Aufenthalte"
+},
+"pos": "noun",
+"w": "der Aufenthalt",
+"p": "",
+"g": "m",
+"pl": "Aufenthalte",
+"unit": null,
+"u": "",
+"q": 3277
+},
+{
+"word": "die Auffassung",
+"m": {
+"es": "la opinión, la concepción · pl. die Auffassungen",
+"en": "view, opinion · pl. die Auffassungen"
+},
+"pos": "noun",
+"w": "die Auffassung",
+"p": "",
+"g": "f",
+"pl": "Auffassungen",
+"unit": null,
+"u": "",
+"q": 3278
+},
+{
+"word": "die Aufgabe",
+"m": {
+"es": "la tarea · pl. die Aufgaben",
+"en": "task · pl. die Aufgaben"
+},
+"pos": "noun",
+"w": "die Aufgabe",
+"p": "",
+"g": "f",
+"pl": "Aufgaben",
+"unit": null,
+"u": "",
+"q": 3279
+},
+{
+"word": "die Auflage",
+"m": {
+"es": "la edición, la tirada; la condición · pl. die Auflagen",
+"en": "edition; condition · pl. die Auflagen"
+},
+"pos": "noun",
+"w": "die Auflage",
+"p": "",
+"g": "f",
+"pl": "Auflagen",
+"unit": null,
+"u": "",
+"q": 3280
+},
+{
+"word": "die Auflösung",
+"m": {
+"es": "la disolución; la resolución · pl. die Auflösungen",
+"en": "dissolution; resolution · pl. die Auflösungen"
+},
+"pos": "noun",
+"w": "die Auflösung",
+"p": "",
+"g": "f",
+"pl": "Auflösungen",
+"unit": null,
+"u": "",
+"q": 3281
+},
+{
+"word": "der Aufstieg",
+"m": {
+"es": "el ascenso",
+"en": "rise, promotion"
+},
+"pos": "noun",
+"w": "der Aufstieg",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3282
+},
+{
+"word": "der Auftritt",
+"m": {
+"es": "la actuación · pl. die Auftritte",
+"en": "appearance, performance · pl. die Auftritte"
+},
+"pos": "noun",
+"w": "der Auftritt",
+"p": "",
+"g": "m",
+"pl": "Auftritte",
+"unit": null,
+"u": "",
+"q": 3283
+},
+{
+"word": "der Aufwand",
+"m": {
+"es": "el esfuerzo, el gasto",
+"en": "effort, expense"
+},
+"pos": "noun",
+"w": "der Aufwand",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3284
+},
+{
+"word": "der Ausbau",
+"m": {
+"es": "la ampliación",
+"en": "expansion"
+},
+"pos": "noun",
+"w": "der Ausbau",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3285
+},
+{
+"word": "ausdrücklich",
+"m": {
+"es": "expresamente",
+"en": "expressly"
+},
+"pos": "",
+"w": "ausdrücklich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3286
+},
+{
+"word": "sich auseinandersetzen mit",
+"m": {
+"es": "ocuparse a fondo de",
+"en": "to deal with, to examine"
+},
+"pos": "",
+"w": "sich auseinandersetzen mit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3287
+},
+{
+"word": "die Auseinandersetzung",
+"m": {
+"es": "la discusión, el conflicto · pl. die Auseinandersetzungen",
+"en": "argument, conflict · pl. die Auseinandersetzungen"
+},
+"pos": "noun",
+"w": "die Auseinandersetzung",
+"p": "",
+"g": "f",
+"pl": "Auseinandersetzungen",
+"unit": null,
+"u": "",
+"q": 3288
+},
+{
+"word": "ausführlich",
+"m": {
+"es": "detallado",
+"en": "detailed"
+},
+"pos": "",
+"w": "ausführlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3289
+},
+{
+"word": "die Ausführung",
+"m": {
+"es": "la ejecución; el modelo · pl. die Ausführungen",
+"en": "execution; version · pl. die Ausführungen"
+},
+"pos": "noun",
+"w": "die Ausführung",
+"p": "",
+"g": "f",
+"pl": "Ausführungen",
+"unit": null,
+"u": "",
+"q": 3290
+},
+{
+"word": "ausgerechnet",
+"m": {
+"es": "precisamente (con sorpresa)",
+"en": "of all things"
+},
+"pos": "",
+"w": "ausgerechnet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3291
+},
+{
+"word": "ausgewogen",
+"m": {
+"es": "equilibrado",
+"en": "balanced"
+},
+"pos": "verb",
+"w": "ausgewogen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3292
+},
+{
+"word": "der Ausgleich",
+"m": {
+"es": "la compensación, el equilibrio",
+"en": "balance, compensation"
+},
+"pos": "noun",
+"w": "der Ausgleich",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3293
+},
+{
+"word": "das Auslandssemester",
+"m": {
+"es": "el semestre en el extranjero · pl. die Auslandssemester",
+"en": "semester abroad · pl. die Auslandssemester"
+},
+"pos": "noun",
+"w": "das Auslandssemester",
+"p": "",
+"g": "n",
+"pl": "Auslandssemester",
+"unit": null,
+"u": "",
+"q": 3294
+},
+{
+"word": "ausprobieren",
+"m": {
+"es": "probar",
+"en": "to try out"
+},
+"pos": "verb",
+"w": "ausprobieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3295
+},
+{
+"word": "der Ausschuss",
+"m": {
+"es": "la comisión, el comité · pl. die Ausschüsse",
+"en": "committee · pl. die Ausschüsse"
+},
+"pos": "noun",
+"w": "der Ausschuss",
+"p": "",
+"g": "m",
+"pl": "Ausschüsse",
+"unit": null,
+"u": "",
+"q": 3296
+},
+{
+"word": "die Ausstattung",
+"m": {
+"es": "el equipamiento · pl. die Ausstattungen",
+"en": "equipment, furnishings · pl. die Ausstattungen"
+},
+"pos": "noun",
+"w": "die Ausstattung",
+"p": "",
+"g": "f",
+"pl": "Ausstattungen",
+"unit": null,
+"u": "",
+"q": 3297
+},
+{
+"word": "aussterben",
+"m": {
+"es": "extinguirse · stirbt aus, starb aus, ist ausgestorben",
+"en": "to die out · stirbt aus, starb aus, ist ausgestorben"
+},
+"pos": "verb",
+"w": "aussterben",
+"p": "",
+"pp": "stirbt aus, starb aus, ist ausgestorben",
+"unit": null,
+"u": "",
+"q": 3298
+},
+{
+"word": "der Ausstoß",
+"m": {
+"es": "la emisión",
+"en": "emission(s)"
+},
+"pos": "noun",
+"w": "der Ausstoß",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3299
+},
+{
+"word": "der Austausch",
+"m": {
+"es": "el intercambio",
+"en": "exchange"
+},
+"pos": "noun",
+"w": "der Austausch",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3300
+},
+{
+"word": "die Auswanderung",
+"m": {
+"es": "la emigración",
+"en": "emigration"
+},
+"pos": "noun",
+"w": "die Auswanderung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3301
+},
+{
+"word": "sich auswirken auf",
+"m": {
+"es": "repercutir en",
+"en": "to have an effect on"
+},
+"pos": "",
+"w": "sich auswirken auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3302
+},
+{
+"word": "die Auszeichnung",
+"m": {
+"es": "la distinción, el premio · pl. die Auszeichnungen",
+"en": "award, distinction · pl. die Auszeichnungen"
+},
+"pos": "noun",
+"w": "die Auszeichnung",
+"p": "",
+"g": "f",
+"pl": "Auszeichnungen",
+"unit": null,
+"u": "",
+"q": 3303
+},
+{
+"word": "der Auszubildende",
+"m": {
+"es": "el aprendiz · pl. die Auszubildenden",
+"en": "trainee · pl. die Auszubildenden"
+},
+"pos": "noun",
+"w": "der Auszubildende",
+"p": "",
+"g": "m",
+"pl": "Auszubildenden",
+"unit": null,
+"u": "",
+"q": 3304
+},
+{
+"word": "der Bachelor",
+"m": {
+"es": "el grado",
+"en": "bachelor's degree"
+},
+"pos": "noun",
+"w": "der Bachelor",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3305
+},
+{
+"word": "die Basis",
+"m": {
+"es": "la base · pl. die Basen",
+"en": "basis · pl. die Basen"
+},
+"pos": "noun",
+"w": "die Basis",
+"p": "",
+"g": "f",
+"pl": "Basen",
+"unit": null,
+"u": "",
+"q": 3306
+},
+{
+"word": "sich bedanken für",
+"m": {
+"es": "dar las gracias por",
+"en": "to thank for"
+},
+"pos": "",
+"w": "sich bedanken für",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3307
+},
+{
+"word": "die Bedenken",
+"m": {
+"es": "las dudas, los reparos · (solo plural)",
+"en": "concerns · (plural only)"
+},
+"pos": "noun",
+"w": "die Bedenken",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3308
+},
+{
+"word": "die Bedrohung",
+"m": {
+"es": "la amenaza · pl. die Bedrohungen",
+"en": "threat · pl. die Bedrohungen"
+},
+"pos": "noun",
+"w": "die Bedrohung",
+"p": "",
+"g": "f",
+"pl": "Bedrohungen",
+"unit": null,
+"u": "",
+"q": 3309
+},
+{
+"word": "die Bedürfnisse",
+"m": {
+"es": "las necesidades · (solo plural)",
+"en": "needs · (plural only)"
+},
+"pos": "noun",
+"w": "die Bedürfnisse",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3310
+},
+{
+"word": "der Befehl",
+"m": {
+"es": "la orden · pl. die Befehle",
+"en": "order, command · pl. die Befehle"
+},
+"pos": "noun",
+"w": "der Befehl",
+"p": "",
+"g": "m",
+"pl": "Befehle",
+"unit": null,
+"u": "",
+"q": 3311
+},
+{
+"word": "befreien",
+"m": {
+"es": "liberar",
+"en": "to free"
+},
+"pos": "verb",
+"w": "befreien",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3312
+},
+{
+"word": "befördern",
+"m": {
+"es": "ascender; transportar",
+"en": "to promote; to transport"
+},
+"pos": "verb",
+"w": "befördern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3313
+},
+{
+"word": "die Beförderung",
+"m": {
+"es": "el ascenso · pl. die Beförderungen",
+"en": "promotion · pl. die Beförderungen"
+},
+"pos": "noun",
+"w": "die Beförderung",
+"p": "",
+"g": "f",
+"pl": "Beförderungen",
+"unit": null,
+"u": "",
+"q": 3314
+},
+{
+"word": "die Begegnung",
+"m": {
+"es": "el encuentro · pl. die Begegnungen",
+"en": "encounter · pl. die Begegnungen"
+},
+"pos": "noun",
+"w": "die Begegnung",
+"p": "",
+"g": "f",
+"pl": "Begegnungen",
+"unit": null,
+"u": "",
+"q": 3315
+},
+{
+"word": "die Begeisterung",
+"m": {
+"es": "el entusiasmo",
+"en": "enthusiasm"
+},
+"pos": "noun",
+"w": "die Begeisterung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3316
+},
+{
+"word": "der Begriff",
+"m": {
+"es": "el concepto, el término · pl. die Begriffe",
+"en": "term, concept · pl. die Begriffe"
+},
+"pos": "noun",
+"w": "der Begriff",
+"p": "",
+"g": "m",
+"pl": "Begriffe",
+"unit": null,
+"u": "",
+"q": 3317
+},
+{
+"word": "die Behandlung",
+"m": {
+"es": "el tratamiento · pl. die Behandlungen",
+"en": "treatment · pl. die Behandlungen"
+},
+"pos": "noun",
+"w": "die Behandlung",
+"p": "",
+"g": "f",
+"pl": "Behandlungen",
+"unit": null,
+"u": "",
+"q": 3318
+},
+{
+"word": "die Behinderung",
+"m": {
+"es": "la discapacidad; el obstáculo · pl. die Behinderungen",
+"en": "disability; obstruction · pl. die Behinderungen"
+},
+"pos": "noun",
+"w": "die Behinderung",
+"p": "",
+"g": "f",
+"pl": "Behinderungen",
+"unit": null,
+"u": "",
+"q": 3319
+},
+{
+"word": "beitragen",
+"m": {
+"es": "contribuir · trägt bei, trug bei, hat beigetragen",
+"en": "to contribute · trägt bei, trug bei, hat beigetragen"
+},
+"pos": "verb",
+"w": "beitragen",
+"p": "",
+"pp": "trägt bei, trug bei, hat beigetragen",
+"unit": null,
+"u": "",
+"q": 3320
+},
+{
+"word": "bekämpfen",
+"m": {
+"es": "combatir",
+"en": "to fight against"
+},
+"pos": "verb",
+"w": "bekämpfen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3321
+},
+{
+"word": "belastbar",
+"m": {
+"es": "resistente (al estrés)",
+"en": "resilient"
+},
+"pos": "",
+"w": "belastbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3322
+},
+{
+"word": "belasten",
+"m": {
+"es": "cargar; contaminar",
+"en": "to burden; to pollute"
+},
+"pos": "verb",
+"w": "belasten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3323
+},
+{
+"word": "die Belastung",
+"m": {
+"es": "la carga, el estrés · pl. die Belastungen",
+"en": "burden, strain · pl. die Belastungen"
+},
+"pos": "noun",
+"w": "die Belastung",
+"p": "",
+"g": "f",
+"pl": "Belastungen",
+"unit": null,
+"u": "",
+"q": 3324
+},
+{
+"word": "belegen",
+"m": {
+"es": "demostrar; ocupar",
+"en": "to prove; to occupy"
+},
+"pos": "verb",
+"w": "belegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3325
+},
+{
+"word": "sich bemühen um",
+"m": {
+"es": "esforzarse por",
+"en": "to strive for"
+},
+"pos": "",
+"w": "sich bemühen um",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3326
+},
+{
+"word": "benutzerfreundlich",
+"m": {
+"es": "fácil de usar",
+"en": "user-friendly"
+},
+"pos": "",
+"w": "benutzerfreundlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3327
+},
+{
+"word": "die Benutzeroberfläche",
+"m": {
+"es": "la interfaz · pl. die Benutzeroberflächen",
+"en": "user interface · pl. die Benutzeroberflächen"
+},
+"pos": "noun",
+"w": "die Benutzeroberfläche",
+"p": "",
+"g": "f",
+"pl": "Benutzeroberflächen",
+"unit": null,
+"u": "",
+"q": 3328
+},
+{
+"word": "der Berater",
+"m": {
+"es": "el asesor · pl. die Berater",
+"en": "adviser · pl. die Berater"
+},
+"pos": "noun",
+"w": "der Berater",
+"p": "",
+"g": "m",
+"pl": "Berater",
+"unit": null,
+"u": "",
+"q": 3329
+},
+{
+"word": "berufen",
+"m": {
+"es": "nombrar · beruft, berief, hat berufen",
+"en": "to appoint · beruft, berief, hat berufen"
+},
+"pos": "verb",
+"w": "berufen",
+"p": "",
+"pp": "beruft, berief, hat berufen",
+"unit": null,
+"u": "",
+"q": 3330
+},
+{
+"word": "sich berufen auf",
+"m": {
+"es": "remitirse a",
+"en": "to refer to"
+},
+"pos": "",
+"w": "sich berufen auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3331
+},
+{
+"word": "die Berücksichtigung",
+"m": {
+"es": "la consideración",
+"en": "consideration"
+},
+"pos": "noun",
+"w": "die Berücksichtigung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3332
+},
+{
+"word": "Bescheid geben",
+"m": {
+"es": "avisar",
+"en": "to let know"
+},
+"pos": "",
+"w": "Bescheid geben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3333
+},
+{
+"word": "der Beschluss",
+"m": {
+"es": "la decisión, la resolución · pl. die Beschlüsse",
+"en": "decision, resolution · pl. die Beschlüsse"
+},
+"pos": "noun",
+"w": "der Beschluss",
+"p": "",
+"g": "m",
+"pl": "Beschlüsse",
+"unit": null,
+"u": "",
+"q": 3334
+},
+{
+"word": "die Beschreibung",
+"m": {
+"es": "la descripción · pl. die Beschreibungen",
+"en": "description · pl. die Beschreibungen"
+},
+"pos": "noun",
+"w": "die Beschreibung",
+"p": "",
+"g": "f",
+"pl": "Beschreibungen",
+"unit": null,
+"u": "",
+"q": 3335
+},
+{
+"word": "sich beschweren über",
+"m": {
+"es": "quejarse de",
+"en": "to complain about"
+},
+"pos": "",
+"w": "sich beschweren über",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3336
+},
+{
+"word": "sich beschäftigen mit",
+"m": {
+"es": "ocuparse de",
+"en": "to deal with"
+},
+"pos": "",
+"w": "sich beschäftigen mit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3337
+},
+{
+"word": "der Besitz",
+"m": {
+"es": "la posesión",
+"en": "possession"
+},
+"pos": "noun",
+"w": "der Besitz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3338
+},
+{
+"word": "besorgt",
+"m": {
+"es": "preocupado",
+"en": "worried"
+},
+"pos": "",
+"w": "besorgt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3339
+},
+{
+"word": "der Bestandteil",
+"m": {
+"es": "el componente · pl. die Bestandteile",
+"en": "component · pl. die Bestandteile"
+},
+"pos": "noun",
+"w": "der Bestandteil",
+"p": "",
+"g": "m",
+"pl": "Bestandteile",
+"unit": null,
+"u": "",
+"q": 3340
+},
+{
+"word": "bestehen auf",
+"m": {
+"es": "insistir en",
+"en": "to insist on"
+},
+"pos": "",
+"w": "bestehen auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3341
+},
+{
+"word": "bestehen aus",
+"m": {
+"es": "consistir en",
+"en": "to consist of"
+},
+"pos": "",
+"w": "bestehen aus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3342
+},
+{
+"word": "bestimmen",
+"m": {
+"es": "determinar",
+"en": "to determine"
+},
+"pos": "verb",
+"w": "bestimmen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3343
+},
+{
+"word": "die Bestimmung",
+"m": {
+"es": "la disposición; el destino · pl. die Bestimmungen",
+"en": "regulation; purpose · pl. die Bestimmungen"
+},
+"pos": "noun",
+"w": "die Bestimmung",
+"p": "",
+"g": "f",
+"pl": "Bestimmungen",
+"unit": null,
+"u": "",
+"q": 3344
+},
+{
+"word": "der Bestseller",
+"m": {
+"es": "el éxito de ventas · pl. die Bestseller",
+"en": "bestseller · pl. die Bestseller"
+},
+"pos": "noun",
+"w": "der Bestseller",
+"p": "",
+"g": "m",
+"pl": "Bestseller",
+"unit": null,
+"u": "",
+"q": 3345
+},
+{
+"word": "die Beteiligung",
+"m": {
+"es": "la participación · pl. die Beteiligungen",
+"en": "participation · pl. die Beteiligungen"
+},
+"pos": "noun",
+"w": "die Beteiligung",
+"p": "",
+"g": "f",
+"pl": "Beteiligungen",
+"unit": null,
+"u": "",
+"q": 3346
+},
+{
+"word": "betrachten",
+"m": {
+"es": "observar, considerar",
+"en": "to look at, to consider"
+},
+"pos": "verb",
+"w": "betrachten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3347
+},
+{
+"word": "betreiben",
+"m": {
+"es": "gestionar, practicar · betreibt, betrieb, hat betrieben",
+"en": "to run, to operate · betreibt, betrieb, hat betrieben"
+},
+"pos": "verb",
+"w": "betreiben",
+"p": "",
+"pp": "betreibt, betrieb, hat betrieben",
+"unit": null,
+"u": "",
+"q": 3348
+},
+{
+"word": "der Betreiber",
+"m": {
+"es": "el operador, el gestor · pl. die Betreiber",
+"en": "operator · pl. die Betreiber"
+},
+"pos": "noun",
+"w": "der Betreiber",
+"p": "",
+"g": "m",
+"pl": "Betreiber",
+"unit": null,
+"u": "",
+"q": 3349
+},
+{
+"word": "beurteilen",
+"m": {
+"es": "juzgar, evaluar",
+"en": "to judge, to assess"
+},
+"pos": "verb",
+"w": "beurteilen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3350
+},
+{
+"word": "bewahren",
+"m": {
+"es": "conservar",
+"en": "to preserve"
+},
+"pos": "verb",
+"w": "bewahren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3351
+},
+{
+"word": "der Bewegungsmangel",
+"m": {
+"es": "el sedentarismo",
+"en": "lack of exercise"
+},
+"pos": "noun",
+"w": "der Bewegungsmangel",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3352
+},
+{
+"word": "sich bewerben um",
+"m": {
+"es": "solicitar (un puesto)",
+"en": "to apply for"
+},
+"pos": "",
+"w": "sich bewerben um",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3353
+},
+{
+"word": "bewerten",
+"m": {
+"es": "evaluar",
+"en": "to evaluate"
+},
+"pos": "verb",
+"w": "bewerten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3354
+},
+{
+"word": "die Bewertung",
+"m": {
+"es": "la valoración · pl. die Bewertungen",
+"en": "assessment, rating · pl. die Bewertungen"
+},
+"pos": "noun",
+"w": "die Bewertung",
+"p": "",
+"g": "f",
+"pl": "Bewertungen",
+"unit": null,
+"u": "",
+"q": 3355
+},
+{
+"word": "das Bewusstsein",
+"m": {
+"es": "la conciencia",
+"en": "consciousness, awareness"
+},
+"pos": "noun",
+"w": "das Bewusstsein",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3356
+},
+{
+"word": "bezeichnen",
+"m": {
+"es": "denominar",
+"en": "to call, to describe"
+},
+"pos": "verb",
+"w": "bezeichnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3357
+},
+{
+"word": "beziehen",
+"m": {
+"es": "recibir; referir · bezieht, bezog, hat bezogen",
+"en": "to receive; to relate · bezieht, bezog, hat bezogen"
+},
+"pos": "verb",
+"w": "beziehen",
+"p": "",
+"pp": "bezieht, bezog, hat bezogen",
+"unit": null,
+"u": "",
+"q": 3358
+},
+{
+"word": "sich beziehen auf",
+"m": {
+"es": "referirse a",
+"en": "to refer to"
+},
+"pos": "",
+"w": "sich beziehen auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3359
+},
+{
+"word": "beziehungsweise",
+"m": {
+"es": "o bien, respectivamente",
+"en": "or, respectively"
+},
+"pos": "",
+"w": "beziehungsweise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3360
+},
+{
+"word": "der Bezirk",
+"m": {
+"es": "el distrito · pl. die Bezirke",
+"en": "district · pl. die Bezirke"
+},
+"pos": "noun",
+"w": "der Bezirk",
+"p": "",
+"g": "m",
+"pl": "Bezirke",
+"unit": null,
+"u": "",
+"q": 3361
+},
+{
+"word": "der Bezug",
+"m": {
+"es": "la relación, la referencia · pl. die Bezüge",
+"en": "reference, connection · pl. die Bezüge"
+},
+"pos": "noun",
+"w": "der Bezug",
+"p": "",
+"g": "m",
+"pl": "Bezüge",
+"unit": null,
+"u": "",
+"q": 3362
+},
+{
+"word": "bezüglich",
+"m": {
+"es": "respecto a",
+"en": "regarding"
+},
+"pos": "",
+"w": "bezüglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3363
+},
+{
+"word": "die Bilanz",
+"m": {
+"es": "el balance · pl. die Bilanzen",
+"en": "balance · pl. die Bilanzen"
+},
+"pos": "noun",
+"w": "die Bilanz",
+"p": "",
+"g": "f",
+"pl": "Bilanzen",
+"unit": null,
+"u": "",
+"q": 3364
+},
+{
+"word": "bilden",
+"m": {
+"es": "formar",
+"en": "to form"
+},
+"pos": "verb",
+"w": "bilden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3365
+},
+{
+"word": "sich bilden",
+"m": {
+"es": "formarse",
+"en": "to educate oneself"
+},
+"pos": "verb",
+"w": "sich bilden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3366
+},
+{
+"word": "bislang",
+"m": {
+"es": "hasta ahora",
+"en": "so far"
+},
+"pos": "",
+"w": "bislang",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3367
+},
+{
+"word": "der Blutdruck",
+"m": {
+"es": "la tensión arterial",
+"en": "blood pressure"
+},
+"pos": "noun",
+"w": "der Blutdruck",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3368
+},
+{
+"word": "der Botschafter",
+"m": {
+"es": "el embajador · pl. die Botschafter",
+"en": "ambassador · pl. die Botschafter"
+},
+"pos": "noun",
+"w": "der Botschafter",
+"p": "",
+"g": "m",
+"pl": "Botschafter",
+"unit": null,
+"u": "",
+"q": 3369
+},
+{
+"word": "die Branche",
+"m": {
+"es": "el sector · pl. die Branchen",
+"en": "industry, sector · pl. die Branchen"
+},
+"pos": "noun",
+"w": "die Branche",
+"p": "",
+"g": "f",
+"pl": "Branchen",
+"unit": null,
+"u": "",
+"q": 3370
+},
+{
+"word": "das Budget",
+"m": {
+"es": "el presupuesto · pl. die Budgets",
+"en": "budget · pl. die Budgets"
+},
+"pos": "noun",
+"w": "das Budget",
+"p": "",
+"g": "n",
+"pl": "Budgets",
+"unit": null,
+"u": "",
+"q": 3371
+},
+{
+"word": "der Bund",
+"m": {
+"es": "la federación",
+"en": "federation"
+},
+"pos": "noun",
+"w": "der Bund",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3372
+},
+{
+"word": "die Bundesregierung",
+"m": {
+"es": "el gobierno federal",
+"en": "federal government"
+},
+"pos": "noun",
+"w": "die Bundesregierung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3373
+},
+{
+"word": "die Bundesrepublik",
+"m": {
+"es": "la República Federal",
+"en": "Federal Republic"
+},
+"pos": "noun",
+"w": "die Bundesrepublik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3374
+},
+{
+"word": "der Bundestag",
+"m": {
+"es": "el Parlamento federal alemán",
+"en": "German federal parliament"
+},
+"pos": "noun",
+"w": "der Bundestag",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3375
+},
+{
+"word": "bundesweit",
+"m": {
+"es": "a nivel nacional (en Alemania)",
+"en": "nationwide"
+},
+"pos": "",
+"w": "bundesweit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3376
+},
+{
+"word": "das Burnout",
+"m": {
+"es": "el burnout, el agotamiento",
+"en": "burnout"
+},
+"pos": "noun",
+"w": "das Burnout",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3377
+},
+{
+"word": "die Börse",
+"m": {
+"es": "la bolsa · pl. die Börsen",
+"en": "stock exchange · pl. die Börsen"
+},
+"pos": "noun",
+"w": "die Börse",
+"p": "",
+"g": "f",
+"pl": "Börsen",
+"unit": null,
+"u": "",
+"q": 3378
+},
+{
+"word": "das Bündnis",
+"m": {
+"es": "la alianza · pl. die Bündnisse",
+"en": "alliance · pl. die Bündnisse"
+},
+"pos": "noun",
+"w": "das Bündnis",
+"p": "",
+"g": "n",
+"pl": "Bündnisse",
+"unit": null,
+"u": "",
+"q": 3379
+},
+{
+"word": "der Bürgermeister",
+"m": {
+"es": "el alcalde · pl. die Bürgermeister",
+"en": "mayor · pl. die Bürgermeister"
+},
+"pos": "noun",
+"w": "der Bürgermeister",
+"p": "",
+"g": "m",
+"pl": "Bürgermeister",
+"unit": null,
+"u": "",
+"q": 3380
+},
+{
+"word": "die Chancengleichheit",
+"m": {
+"es": "la igualdad de oportunidades",
+"en": "equal opportunities"
+},
+"pos": "noun",
+"w": "die Chancengleichheit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3381
+},
+{
+"word": "das Chaos",
+"m": {
+"es": "el caos",
+"en": "chaos"
+},
+"pos": "noun",
+"w": "das Chaos",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3382
+},
+{
+"word": "die Chemie",
+"m": {
+"es": "la química",
+"en": "chemistry"
+},
+"pos": "noun",
+"w": "die Chemie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3383
+},
+{
+"word": "chronisch",
+"m": {
+"es": "crónico",
+"en": "chronic"
+},
+"pos": "",
+"w": "chronisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3384
+},
+{
+"word": "die Cloud",
+"m": {
+"es": "la nube · pl. die Clouds",
+"en": "cloud · pl. die Clouds"
+},
+"pos": "noun",
+"w": "die Cloud",
+"p": "",
+"g": "f",
+"pl": "Clouds",
+"unit": null,
+"u": "",
+"q": 3385
+},
+{
+"word": "der Code",
+"m": {
+"es": "el código · pl. die Codes",
+"en": "code · pl. die Codes"
+},
+"pos": "noun",
+"w": "der Code",
+"p": "",
+"g": "m",
+"pl": "Codes",
+"unit": null,
+"u": "",
+"q": 3386
+},
+{
+"word": "dadurch dass",
+"m": {
+"es": "por el hecho de que",
+"en": "by the fact that"
+},
+"pos": "",
+"w": "dadurch dass",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3387
+},
+{
+"word": "dank",
+"m": {
+"es": "gracias a",
+"en": "thanks to"
+},
+"pos": "",
+"w": "dank",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3388
+},
+{
+"word": "die Dankbarkeit",
+"m": {
+"es": "la gratitud",
+"en": "gratitude"
+},
+"pos": "noun",
+"w": "die Dankbarkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3389
+},
+{
+"word": "daraufhin",
+"m": {
+"es": "a continuación, a raíz de ello",
+"en": "thereupon"
+},
+"pos": "verb",
+"w": "daraufhin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3390
+},
+{
+"word": "darlegen",
+"m": {
+"es": "exponer",
+"en": "to set out"
+},
+"pos": "verb",
+"w": "darlegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3391
+},
+{
+"word": "die Datenbank",
+"m": {
+"es": "la base de datos · pl. die Datenbanken",
+"en": "database · pl. die Datenbanken"
+},
+"pos": "noun",
+"w": "die Datenbank",
+"p": "",
+"g": "f",
+"pl": "Datenbanken",
+"unit": null,
+"u": "",
+"q": 3392
+},
+{
+"word": "der Datenschutz",
+"m": {
+"es": "la protección de datos",
+"en": "data protection"
+},
+"pos": "noun",
+"w": "der Datenschutz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3393
+},
+{
+"word": "dauerhaft",
+"m": {
+"es": "duradero",
+"en": "lasting"
+},
+"pos": "",
+"w": "dauerhaft",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3394
+},
+{
+"word": "die Debatte",
+"m": {
+"es": "el debate · pl. die Debatten",
+"en": "debate · pl. die Debatten"
+},
+"pos": "noun",
+"w": "die Debatte",
+"p": "",
+"g": "f",
+"pl": "Debatten",
+"unit": null,
+"u": "",
+"q": 3395
+},
+{
+"word": "die Definition",
+"m": {
+"es": "la definición · pl. die Definitionen",
+"en": "definition · pl. die Definitionen"
+},
+"pos": "noun",
+"w": "die Definition",
+"p": "",
+"g": "f",
+"pl": "Definitionen",
+"unit": null,
+"u": "",
+"q": 3396
+},
+{
+"word": "dementsprechend",
+"m": {
+"es": "en consecuencia",
+"en": "accordingly"
+},
+"pos": "",
+"w": "dementsprechend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3397
+},
+{
+"word": "demnach",
+"m": {
+"es": "según eso",
+"en": "accordingly"
+},
+"pos": "",
+"w": "demnach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3398
+},
+{
+"word": "demnächst",
+"m": {
+"es": "próximamente",
+"en": "shortly"
+},
+"pos": "",
+"w": "demnächst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3399
+},
+{
+"word": "die Demokratie",
+"m": {
+"es": "la democracia · pl. die Demokratien",
+"en": "democracy · pl. die Demokratien"
+},
+"pos": "noun",
+"w": "die Demokratie",
+"p": "",
+"g": "f",
+"pl": "Demokratien",
+"unit": null,
+"u": "",
+"q": 3400
+},
+{
+"word": "demokratisch",
+"m": {
+"es": "democrático",
+"en": "democratic"
+},
+"pos": "",
+"w": "demokratisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3401
+},
+{
+"word": "die Demonstration",
+"m": {
+"es": "la manifestación · pl. die Demonstrationen",
+"en": "demonstration · pl. die Demonstrationen"
+},
+"pos": "noun",
+"w": "die Demonstration",
+"p": "",
+"g": "f",
+"pl": "Demonstrationen",
+"unit": null,
+"u": "",
+"q": 3402
+},
+{
+"word": "demzufolge",
+"m": {
+"es": "por consiguiente",
+"en": "consequently"
+},
+"pos": "",
+"w": "demzufolge",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3403
+},
+{
+"word": "denkbar",
+"m": {
+"es": "concebible",
+"en": "conceivable"
+},
+"pos": "",
+"w": "denkbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3404
+},
+{
+"word": "dennoch",
+"m": {
+"es": "no obstante",
+"en": "nevertheless"
+},
+"pos": "",
+"w": "dennoch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3405
+},
+{
+"word": "derzeit",
+"m": {
+"es": "actualmente",
+"en": "currently"
+},
+"pos": "",
+"w": "derzeit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3406
+},
+{
+"word": "das Design",
+"m": {
+"es": "el diseño · pl. die Designs",
+"en": "design · pl. die Designs"
+},
+"pos": "noun",
+"w": "das Design",
+"p": "",
+"g": "n",
+"pl": "Designs",
+"unit": null,
+"u": "",
+"q": 3407
+},
+{
+"word": "die Diagnose",
+"m": {
+"es": "el diagnóstico · pl. die Diagnosen",
+"en": "diagnosis · pl. die Diagnosen"
+},
+"pos": "noun",
+"w": "die Diagnose",
+"p": "",
+"g": "f",
+"pl": "Diagnosen",
+"unit": null,
+"u": "",
+"q": 3408
+},
+{
+"word": "der Dichter",
+"m": {
+"es": "el poeta · pl. die Dichter",
+"en": "poet · pl. die Dichter"
+},
+"pos": "noun",
+"w": "der Dichter",
+"p": "",
+"g": "m",
+"pl": "Dichter",
+"unit": null,
+"u": "",
+"q": 3409
+},
+{
+"word": "die Digitalisierung",
+"m": {
+"es": "la digitalización",
+"en": "digitalisation"
+},
+"pos": "noun",
+"w": "die Digitalisierung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3410
+},
+{
+"word": "die Diktatur",
+"m": {
+"es": "la dictadura · pl. die Diktaturen",
+"en": "dictatorship · pl. die Diktaturen"
+},
+"pos": "noun",
+"w": "die Diktatur",
+"p": "",
+"g": "f",
+"pl": "Diktaturen",
+"unit": null,
+"u": "",
+"q": 3411
+},
+{
+"word": "die Disziplin",
+"m": {
+"es": "la disciplina · pl. die Disziplinen",
+"en": "discipline · pl. die Disziplinen"
+},
+"pos": "noun",
+"w": "die Disziplin",
+"p": "",
+"g": "f",
+"pl": "Disziplinen",
+"unit": null,
+"u": "",
+"q": 3412
+},
+{
+"word": "die Dokumentation",
+"m": {
+"es": "el documental; la documentación · pl. die Dokumentationen",
+"en": "documentary; documentation · pl. die Dokumentationen"
+},
+"pos": "noun",
+"w": "die Dokumentation",
+"p": "",
+"g": "f",
+"pl": "Dokumentationen",
+"unit": null,
+"u": "",
+"q": 3413
+},
+{
+"word": "das Drama",
+"m": {
+"es": "el drama · pl. die Dramen",
+"en": "drama · pl. die Dramen"
+},
+"pos": "noun",
+"w": "das Drama",
+"p": "",
+"g": "n",
+"pl": "Dramen",
+"unit": null,
+"u": "",
+"q": 3414
+},
+{
+"word": "das Drittel",
+"m": {
+"es": "el tercio · pl. die Drittel",
+"en": "third · pl. die Drittel"
+},
+"pos": "noun",
+"w": "das Drittel",
+"p": "",
+"g": "n",
+"pl": "Drittel",
+"unit": null,
+"u": "",
+"q": 3415
+},
+{
+"word": "drittens",
+"m": {
+"es": "en tercer lugar",
+"en": "thirdly"
+},
+"pos": "",
+"w": "drittens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3416
+},
+{
+"word": "durchaus",
+"m": {
+"es": "perfectamente, sin duda",
+"en": "quite, absolutely"
+},
+"pos": "",
+"w": "durchaus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3417
+},
+{
+"word": "durchfallen",
+"m": {
+"es": "suspender · fällt durch, fiel durch, ist durchgefallen",
+"en": "to fail (an exam) · fällt durch, fiel durch, ist durchgefallen"
+},
+"pos": "verb",
+"w": "durchfallen",
+"p": "",
+"pp": "fällt durch, fiel durch, ist durchgefallen",
+"unit": null,
+"u": "",
+"q": 3418
+},
+{
+"word": "durchsetzen",
+"m": {
+"es": "imponer, conseguir",
+"en": "to push through"
+},
+"pos": "verb",
+"w": "durchsetzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3419
+},
+{
+"word": "sich durchsetzen",
+"m": {
+"es": "imponerse",
+"en": "to prevail"
+},
+"pos": "verb",
+"w": "sich durchsetzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3420
+},
+{
+"word": "die Dürre",
+"m": {
+"es": "la sequía · pl. die Dürren",
+"en": "drought · pl. die Dürren"
+},
+"pos": "noun",
+"w": "die Dürre",
+"p": "",
+"g": "f",
+"pl": "Dürren",
+"unit": null,
+"u": "",
+"q": 3421
+},
+{
+"word": "die Ebene",
+"m": {
+"es": "el nivel; la llanura · pl. die Ebenen",
+"en": "level; plain · pl. die Ebenen"
+},
+"pos": "noun",
+"w": "die Ebene",
+"p": "",
+"g": "f",
+"pl": "Ebenen",
+"unit": null,
+"u": "",
+"q": 3422
+},
+{
+"word": "der Effekt",
+"m": {
+"es": "el efecto · pl. die Effekte",
+"en": "effect · pl. die Effekte"
+},
+"pos": "noun",
+"w": "der Effekt",
+"p": "",
+"g": "m",
+"pl": "Effekte",
+"unit": null,
+"u": "",
+"q": 3423
+},
+{
+"word": "die Ehre",
+"m": {
+"es": "el honor · pl. die Ehren",
+"en": "honour · pl. die Ehren"
+},
+"pos": "noun",
+"w": "die Ehre",
+"p": "",
+"g": "f",
+"pl": "Ehren",
+"unit": null,
+"u": "",
+"q": 3424
+},
+{
+"word": "das Ehrenamt",
+"m": {
+"es": "el voluntariado · pl. die Ehrenämter",
+"en": "voluntary work · pl. die Ehrenämter"
+},
+"pos": "noun",
+"w": "das Ehrenamt",
+"p": "",
+"g": "n",
+"pl": "Ehrenämter",
+"unit": null,
+"u": "",
+"q": 3425
+},
+{
+"word": "ehrenamtlich",
+"m": {
+"es": "voluntario (no remunerado)",
+"en": "voluntary"
+},
+"pos": "",
+"w": "ehrenamtlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3426
+},
+{
+"word": "die Eifersucht",
+"m": {
+"es": "los celos",
+"en": "jealousy"
+},
+"pos": "noun",
+"w": "die Eifersucht",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3427
+},
+{
+"word": "eifersüchtig",
+"m": {
+"es": "celoso",
+"en": "jealous"
+},
+"pos": "",
+"w": "eifersüchtig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3428
+},
+{
+"word": "der Eigentümer",
+"m": {
+"es": "el propietario · pl. die Eigentümer",
+"en": "owner · pl. die Eigentümer"
+},
+"pos": "noun",
+"w": "der Eigentümer",
+"p": "",
+"g": "m",
+"pl": "Eigentümer",
+"unit": null,
+"u": "",
+"q": 3429
+},
+{
+"word": "eine Frage stellen",
+"m": {
+"es": "hacer una pregunta",
+"en": "to ask a question"
+},
+"pos": "",
+"w": "eine Frage stellen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3430
+},
+{
+"word": "die Einheit",
+"m": {
+"es": "la unidad · pl. die Einheiten",
+"en": "unit, unity · pl. die Einheiten"
+},
+"pos": "noun",
+"w": "die Einheit",
+"p": "",
+"g": "f",
+"pl": "Einheiten",
+"unit": null,
+"u": "",
+"q": 3431
+},
+{
+"word": "die Einsamkeit",
+"m": {
+"es": "la soledad",
+"en": "loneliness"
+},
+"pos": "noun",
+"w": "die Einsamkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3432
+},
+{
+"word": "der Einsatz",
+"m": {
+"es": "el uso; el compromiso; la intervención · pl. die Einsätze",
+"en": "use; commitment; deployment · pl. die Einsätze"
+},
+"pos": "noun",
+"w": "der Einsatz",
+"p": "",
+"g": "m",
+"pl": "Einsätze",
+"unit": null,
+"u": "",
+"q": 3433
+},
+{
+"word": "die Einschaltquote",
+"m": {
+"es": "la cuota de pantalla · pl. die Einschaltquoten",
+"en": "viewing figures · pl. die Einschaltquoten"
+},
+"pos": "noun",
+"w": "die Einschaltquote",
+"p": "",
+"g": "f",
+"pl": "Einschaltquoten",
+"unit": null,
+"u": "",
+"q": 3434
+},
+{
+"word": "einschätzen",
+"m": {
+"es": "valorar, estimar",
+"en": "to assess"
+},
+"pos": "verb",
+"w": "einschätzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3435
+},
+{
+"word": "die Einschätzung",
+"m": {
+"es": "la valoración · pl. die Einschätzungen",
+"en": "assessment · pl. die Einschätzungen"
+},
+"pos": "noun",
+"w": "die Einschätzung",
+"p": "",
+"g": "f",
+"pl": "Einschätzungen",
+"unit": null,
+"u": "",
+"q": 3436
+},
+{
+"word": "sich einsetzen für",
+"m": {
+"es": "comprometerse con",
+"en": "to stand up for"
+},
+"pos": "",
+"w": "sich einsetzen für",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3437
+},
+{
+"word": "die Einstellung",
+"m": {
+"es": "la actitud; el ajuste; la contratación · pl. die Einstellungen",
+"en": "attitude; setting; hiring · pl. die Einstellungen"
+},
+"pos": "noun",
+"w": "die Einstellung",
+"p": "",
+"g": "f",
+"pl": "Einstellungen",
+"unit": null,
+"u": "",
+"q": 3438
+},
+{
+"word": "der Einstieg",
+"m": {
+"es": "la entrada, el inicio",
+"en": "entry, start"
+},
+"pos": "noun",
+"w": "der Einstieg",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3439
+},
+{
+"word": "der Eintrag",
+"m": {
+"es": "la entrada, la anotación · pl. die Einträge",
+"en": "entry · pl. die Einträge"
+},
+"pos": "noun",
+"w": "der Eintrag",
+"p": "",
+"g": "m",
+"pl": "Einträge",
+"unit": null,
+"u": "",
+"q": 3440
+},
+{
+"word": "die Einwanderung",
+"m": {
+"es": "la inmigración",
+"en": "immigration"
+},
+"pos": "noun",
+"w": "die Einwanderung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3441
+},
+{
+"word": "der Einzelfall",
+"m": {
+"es": "el caso aislado · pl. die Einzelfälle",
+"en": "individual case · pl. die Einzelfälle"
+},
+"pos": "noun",
+"w": "der Einzelfall",
+"p": "",
+"g": "m",
+"pl": "Einzelfälle",
+"unit": null,
+"u": "",
+"q": 3442
+},
+{
+"word": "das Element",
+"m": {
+"es": "el elemento · pl. die Elemente",
+"en": "element · pl. die Elemente"
+},
+"pos": "noun",
+"w": "das Element",
+"p": "",
+"g": "n",
+"pl": "Elemente",
+"unit": null,
+"u": "",
+"q": 3443
+},
+{
+"word": "die Elite",
+"m": {
+"es": "la élite · pl. die Eliten",
+"en": "elite · pl. die Eliten"
+},
+"pos": "noun",
+"w": "die Elite",
+"p": "",
+"g": "f",
+"pl": "Eliten",
+"unit": null,
+"u": "",
+"q": 3444
+},
+{
+"word": "die Emission",
+"m": {
+"es": "la emisión · pl. die Emissionen",
+"en": "emission · pl. die Emissionen"
+},
+"pos": "noun",
+"w": "die Emission",
+"p": "",
+"g": "f",
+"pl": "Emissionen",
+"unit": null,
+"u": "",
+"q": 3445
+},
+{
+"word": "emotional",
+"m": {
+"es": "emocional",
+"en": "emotional"
+},
+"pos": "",
+"w": "emotional",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3446
+},
+{
+"word": "die Empfehlung",
+"m": {
+"es": "la recomendación · pl. die Empfehlungen",
+"en": "recommendation · pl. die Empfehlungen"
+},
+"pos": "noun",
+"w": "die Empfehlung",
+"p": "",
+"g": "f",
+"pl": "Empfehlungen",
+"unit": null,
+"u": "",
+"q": 3447
+},
+{
+"word": "empfinden",
+"m": {
+"es": "sentir · empfindet, empfand, hat empfunden",
+"en": "to feel · empfindet, empfand, hat empfunden"
+},
+"pos": "verb",
+"w": "empfinden",
+"p": "",
+"pp": "empfindet, empfand, hat empfunden",
+"unit": null,
+"u": "",
+"q": 3448
+},
+{
+"word": "das Engagement",
+"m": {
+"es": "el compromiso · pl. die Engagements",
+"en": "commitment · pl. die Engagements"
+},
+"pos": "noun",
+"w": "das Engagement",
+"p": "",
+"g": "n",
+"pl": "Engagements",
+"unit": null,
+"u": "",
+"q": 3449
+},
+{
+"word": "sich engagieren",
+"m": {
+"es": "comprometerse",
+"en": "to get involved"
+},
+"pos": "verb",
+"w": "sich engagieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3450
+},
+{
+"word": "enorm",
+"m": {
+"es": "enorme",
+"en": "enormous"
+},
+"pos": "",
+"w": "enorm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3451
+},
+{
+"word": "die Entdeckung",
+"m": {
+"es": "el descubrimiento · pl. die Entdeckungen",
+"en": "discovery · pl. die Entdeckungen"
+},
+"pos": "noun",
+"w": "die Entdeckung",
+"p": "",
+"g": "f",
+"pl": "Entdeckungen",
+"unit": null,
+"u": "",
+"q": 3452
+},
+{
+"word": "entgegen",
+"m": {
+"es": "en contra de",
+"en": "contrary to"
+},
+"pos": "verb",
+"w": "entgegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3453
+},
+{
+"word": "entscheidend",
+"m": {
+"es": "decisivo",
+"en": "decisive"
+},
+"pos": "",
+"w": "entscheidend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3454
+},
+{
+"word": "entspannt",
+"m": {
+"es": "relajado",
+"en": "relaxed"
+},
+"pos": "",
+"w": "entspannt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3455
+},
+{
+"word": "entsprechen",
+"m": {
+"es": "corresponder",
+"en": "to correspond"
+},
+"pos": "",
+"w": "entsprechen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3456
+},
+{
+"word": "die Entstehung",
+"m": {
+"es": "el origen, la formación",
+"en": "origin, emergence"
+},
+"pos": "noun",
+"w": "die Entstehung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3457
+},
+{
+"word": "der Entwickler",
+"m": {
+"es": "el desarrollador · pl. die Entwickler",
+"en": "developer · pl. die Entwickler"
+},
+"pos": "noun",
+"w": "der Entwickler",
+"p": "",
+"g": "m",
+"pl": "Entwickler",
+"unit": null,
+"u": "",
+"q": 3458
+},
+{
+"word": "der Entwurf",
+"m": {
+"es": "el borrador, el proyecto · pl. die Entwürfe",
+"en": "draft, design · pl. die Entwürfe"
+},
+"pos": "noun",
+"w": "der Entwurf",
+"p": "",
+"g": "m",
+"pl": "Entwürfe",
+"unit": null,
+"u": "",
+"q": 3459
+},
+{
+"word": "das Erbe",
+"m": {
+"es": "la herencia",
+"en": "inheritance, heritage"
+},
+"pos": "noun",
+"w": "das Erbe",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3460
+},
+{
+"word": "die Erderwärmung",
+"m": {
+"es": "el calentamiento global",
+"en": "global warming"
+},
+"pos": "noun",
+"w": "die Erderwärmung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3461
+},
+{
+"word": "das Erdöl",
+"m": {
+"es": "el petróleo",
+"en": "crude oil"
+},
+"pos": "noun",
+"w": "das Erdöl",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3462
+},
+{
+"word": "erfolgen",
+"m": {
+"es": "efectuarse",
+"en": "to take place"
+},
+"pos": "verb",
+"w": "erfolgen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3463
+},
+{
+"word": "erforschen",
+"m": {
+"es": "investigar",
+"en": "to research"
+},
+"pos": "",
+"w": "erforschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3464
+},
+{
+"word": "ergeben",
+"m": {
+"es": "dar como resultado · ergibt, ergab, hat ergeben",
+"en": "to result in · ergibt, ergab, hat ergeben"
+},
+"pos": "verb",
+"w": "ergeben",
+"p": "",
+"pp": "ergibt, ergab, hat ergeben",
+"unit": null,
+"u": "",
+"q": 3465
+},
+{
+"word": "sich ergeben",
+"m": {
+"es": "resultar · ergibt, ergab, hat ergeben",
+"en": "to result · ergibt, ergab, hat ergeben"
+},
+"pos": "verb",
+"w": "sich ergeben",
+"p": "",
+"pp": "ergibt, ergab, hat ergeben",
+"unit": null,
+"u": "",
+"q": 3466
+},
+{
+"word": "erheben",
+"m": {
+"es": "cobrar; alzar · erhebt, erhob, hat erhoben",
+"en": "to levy; to raise · erhebt, erhob, hat erhoben"
+},
+"pos": "verb",
+"w": "erheben",
+"p": "",
+"pp": "erhebt, erhob, hat erhoben",
+"unit": null,
+"u": "",
+"q": 3467
+},
+{
+"word": "erheblich",
+"m": {
+"es": "considerable",
+"en": "considerable"
+},
+"pos": "",
+"w": "erheblich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3468
+},
+{
+"word": "erhältlich",
+"m": {
+"es": "disponible (a la venta)",
+"en": "available"
+},
+"pos": "",
+"w": "erhältlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3469
+},
+{
+"word": "die Erkenntnis",
+"m": {
+"es": "el conocimiento, la conclusión · pl. die Erkenntnisse",
+"en": "insight, finding · pl. die Erkenntnisse"
+},
+"pos": "noun",
+"w": "die Erkenntnis",
+"p": "",
+"g": "f",
+"pl": "Erkenntnisse",
+"unit": null,
+"u": "",
+"q": 3470
+},
+{
+"word": "die Erkrankung",
+"m": {
+"es": "la enfermedad · pl. die Erkrankungen",
+"en": "illness · pl. die Erkrankungen"
+},
+"pos": "noun",
+"w": "die Erkrankung",
+"p": "",
+"g": "f",
+"pl": "Erkrankungen",
+"unit": null,
+"u": "",
+"q": 3471
+},
+{
+"word": "sich erkundigen nach",
+"m": {
+"es": "informarse sobre",
+"en": "to enquire about"
+},
+"pos": "",
+"w": "sich erkundigen nach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3472
+},
+{
+"word": "erlangen",
+"m": {
+"es": "obtener",
+"en": "to obtain"
+},
+"pos": "verb",
+"w": "erlangen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3473
+},
+{
+"word": "die Erleichterung",
+"m": {
+"es": "el alivio",
+"en": "relief"
+},
+"pos": "noun",
+"w": "die Erleichterung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3474
+},
+{
+"word": "erläutern",
+"m": {
+"es": "explicar",
+"en": "to explain"
+},
+"pos": "verb",
+"w": "erläutern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3475
+},
+{
+"word": "ermitteln",
+"m": {
+"es": "investigar, averiguar",
+"en": "to investigate, to determine"
+},
+"pos": "verb",
+"w": "ermitteln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3476
+},
+{
+"word": "ermöglichen",
+"m": {
+"es": "posibilitar",
+"en": "to enable"
+},
+"pos": "",
+"w": "ermöglichen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3477
+},
+{
+"word": "erneuerbar",
+"m": {
+"es": "renovable",
+"en": "renewable"
+},
+"pos": "",
+"w": "erneuerbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3478
+},
+{
+"word": "die erneuerbaren Energien",
+"m": {
+"es": "las energías renovables · (solo plural)",
+"en": "renewable energy · (plural only)"
+},
+"pos": "noun",
+"w": "die erneuerbaren Energien",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3479
+},
+{
+"word": "erneut",
+"m": {
+"es": "de nuevo",
+"en": "again"
+},
+"pos": "",
+"w": "erneut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3480
+},
+{
+"word": "ernsthaft",
+"m": {
+"es": "serio",
+"en": "serious"
+},
+"pos": "",
+"w": "ernsthaft",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3481
+},
+{
+"word": "der Ersatz",
+"m": {
+"es": "el sustituto, el repuesto",
+"en": "replacement"
+},
+"pos": "noun",
+"w": "der Ersatz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3482
+},
+{
+"word": "ersetzen",
+"m": {
+"es": "sustituir",
+"en": "to replace"
+},
+"pos": "verb",
+"w": "ersetzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3483
+},
+{
+"word": "erstaunlich",
+"m": {
+"es": "asombroso",
+"en": "astonishing"
+},
+"pos": "",
+"w": "erstaunlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3484
+},
+{
+"word": "erstellen",
+"m": {
+"es": "elaborar",
+"en": "to create, to draw up"
+},
+"pos": "verb",
+"w": "erstellen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3485
+},
+{
+"word": "erstens",
+"m": {
+"es": "en primer lugar",
+"en": "firstly"
+},
+"pos": "",
+"w": "erstens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3486
+},
+{
+"word": "erstmals",
+"m": {
+"es": "por primera vez",
+"en": "for the first time"
+},
+"pos": "",
+"w": "erstmals",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3487
+},
+{
+"word": "ertragen",
+"m": {
+"es": "soportar · erträgt, ertrug, hat ertragen",
+"en": "to bear · erträgt, ertrug, hat ertragen"
+},
+"pos": "verb",
+"w": "ertragen",
+"p": "",
+"pp": "erträgt, ertrug, hat ertragen",
+"unit": null,
+"u": "",
+"q": 3488
+},
+{
+"word": "erwarten",
+"m": {
+"es": "esperar (algo)",
+"en": "to expect"
+},
+"pos": "verb",
+"w": "erwarten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3489
+},
+{
+"word": "erweitern",
+"m": {
+"es": "ampliar",
+"en": "to extend"
+},
+"pos": "verb",
+"w": "erweitern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3490
+},
+{
+"word": "die Erweiterung",
+"m": {
+"es": "la ampliación · pl. die Erweiterungen",
+"en": "extension · pl. die Erweiterungen"
+},
+"pos": "noun",
+"w": "die Erweiterung",
+"p": "",
+"g": "f",
+"pl": "Erweiterungen",
+"unit": null,
+"u": "",
+"q": 3491
+},
+{
+"word": "erwerben",
+"m": {
+"es": "adquirir · erwirbt, erwarb, hat erworben",
+"en": "to acquire · erwirbt, erwarb, hat erworben"
+},
+"pos": "verb",
+"w": "erwerben",
+"p": "",
+"pp": "erwirbt, erwarb, hat erworben",
+"unit": null,
+"u": "",
+"q": 3492
+},
+{
+"word": "erwähnen",
+"m": {
+"es": "mencionar",
+"en": "to mention"
+},
+"pos": "verb",
+"w": "erwähnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3493
+},
+{
+"word": "erziehen",
+"m": {
+"es": "educar, criar · erzieht, erzog, hat erzogen",
+"en": "to bring up · erzieht, erzog, hat erzogen"
+},
+"pos": "verb",
+"w": "erziehen",
+"p": "",
+"pp": "erzieht, erzog, hat erzogen",
+"unit": null,
+"u": "",
+"q": 3494
+},
+{
+"word": "die Erziehung",
+"m": {
+"es": "la educación (crianza)",
+"en": "upbringing"
+},
+"pos": "noun",
+"w": "die Erziehung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3495
+},
+{
+"word": "erzielen",
+"m": {
+"es": "lograr",
+"en": "to achieve"
+},
+"pos": "verb",
+"w": "erzielen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3496
+},
+{
+"word": "der Erzähler",
+"m": {
+"es": "el narrador · pl. die Erzähler",
+"en": "narrator · pl. die Erzähler"
+},
+"pos": "noun",
+"w": "der Erzähler",
+"p": "",
+"g": "m",
+"pl": "Erzähler",
+"unit": null,
+"u": "",
+"q": 3497
+},
+{
+"word": "die Erzählung",
+"m": {
+"es": "el relato · pl. die Erzählungen",
+"en": "story · pl. die Erzählungen"
+},
+"pos": "noun",
+"w": "die Erzählung",
+"p": "",
+"g": "f",
+"pl": "Erzählungen",
+"unit": null,
+"u": "",
+"q": 3498
+},
+{
+"word": "die Eröffnung",
+"m": {
+"es": "la inauguración · pl. die Eröffnungen",
+"en": "opening · pl. die Eröffnungen"
+},
+"pos": "noun",
+"w": "die Eröffnung",
+"p": "",
+"g": "f",
+"pl": "Eröffnungen",
+"unit": null,
+"u": "",
+"q": 3499
+},
+{
+"word": "es handelt sich um",
+"m": {
+"es": "se trata de",
+"en": "it is about"
+},
+"pos": "",
+"w": "es handelt sich um",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3500
+},
+{
+"word": "es sei denn",
+"m": {
+"es": "a no ser que",
+"en": "unless"
+},
+"pos": "",
+"w": "es sei denn",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3501
+},
+{
+"word": "die Ethik",
+"m": {
+"es": "la ética",
+"en": "ethics"
+},
+"pos": "noun",
+"w": "die Ethik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3502
+},
+{
+"word": "die Existenz",
+"m": {
+"es": "la existencia · pl. die Existenzen",
+"en": "existence · pl. die Existenzen"
+},
+"pos": "noun",
+"w": "die Existenz",
+"p": "",
+"g": "f",
+"pl": "Existenzen",
+"unit": null,
+"u": "",
+"q": 3503
+},
+{
+"word": "existieren",
+"m": {
+"es": "existir",
+"en": "to exist"
+},
+"pos": "verb",
+"w": "existieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3504
+},
+{
+"word": "das Experiment",
+"m": {
+"es": "el experimento · pl. die Experimente",
+"en": "experiment · pl. die Experimente"
+},
+"pos": "noun",
+"w": "das Experiment",
+"p": "",
+"g": "n",
+"pl": "Experimente",
+"unit": null,
+"u": "",
+"q": 3505
+},
+{
+"word": "exportieren",
+"m": {
+"es": "exportar",
+"en": "to export"
+},
+"pos": "verb",
+"w": "exportieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3506
+},
+{
+"word": "die Fachkraft",
+"m": {
+"es": "el trabajador cualificado · pl. die Fachkräfte",
+"en": "skilled worker · pl. die Fachkräfte"
+},
+"pos": "noun",
+"w": "die Fachkraft",
+"p": "",
+"g": "f",
+"pl": "Fachkräfte",
+"unit": null,
+"u": "",
+"q": 3507
+},
+{
+"word": "der Fachkräftemangel",
+"m": {
+"es": "la escasez de personal cualificado",
+"en": "skills shortage"
+},
+"pos": "noun",
+"w": "der Fachkräftemangel",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3508
+},
+{
+"word": "die Fake News",
+"m": {
+"es": "las noticias falsas · (solo plural)",
+"en": "fake news · (plural only)"
+},
+"pos": "noun",
+"w": "die Fake News",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3509
+},
+{
+"word": "die Fassung",
+"m": {
+"es": "la versión; la compostura · pl. die Fassungen",
+"en": "version; composure · pl. die Fassungen"
+},
+"pos": "noun",
+"w": "die Fassung",
+"p": "",
+"g": "f",
+"pl": "Fassungen",
+"unit": null,
+"u": "",
+"q": 3510
+},
+{
+"word": "das Fazit",
+"m": {
+"es": "la conclusión · pl. die Fazits",
+"en": "conclusion · pl. die Fazits"
+},
+"pos": "noun",
+"w": "das Fazit",
+"p": "",
+"g": "n",
+"pl": "Fazits",
+"unit": null,
+"u": "",
+"q": 3511
+},
+{
+"word": "der Feind",
+"m": {
+"es": "el enemigo · pl. die Feinde",
+"en": "enemy · pl. die Feinde"
+},
+"pos": "noun",
+"w": "der Feind",
+"p": "",
+"g": "m",
+"pl": "Feinde",
+"unit": null,
+"u": "",
+"q": 3512
+},
+{
+"word": "ferner",
+"m": {
+"es": "además",
+"en": "furthermore"
+},
+"pos": "",
+"w": "ferner",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3513
+},
+{
+"word": "die Finanzierung",
+"m": {
+"es": "la financiación · pl. die Finanzierungen",
+"en": "financing · pl. die Finanzierungen"
+},
+"pos": "noun",
+"w": "die Finanzierung",
+"p": "",
+"g": "f",
+"pl": "Finanzierungen",
+"unit": null,
+"u": "",
+"q": 3514
+},
+{
+"word": "der Flüchtling",
+"m": {
+"es": "el refugiado · pl. die Flüchtlinge",
+"en": "refugee · pl. die Flüchtlinge"
+},
+"pos": "noun",
+"w": "der Flüchtling",
+"p": "",
+"g": "m",
+"pl": "Flüchtlinge",
+"unit": null,
+"u": "",
+"q": 3515
+},
+{
+"word": "der Fokus",
+"m": {
+"es": "el enfoque",
+"en": "focus"
+},
+"pos": "noun",
+"w": "der Fokus",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3516
+},
+{
+"word": "folglich",
+"m": {
+"es": "por consiguiente",
+"en": "consequently"
+},
+"pos": "",
+"w": "folglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3517
+},
+{
+"word": "das Format",
+"m": {
+"es": "el formato · pl. die Formate",
+"en": "format · pl. die Formate"
+},
+"pos": "noun",
+"w": "das Format",
+"p": "",
+"g": "n",
+"pl": "Formate",
+"unit": null,
+"u": "",
+"q": 3518
+},
+{
+"word": "die Formel",
+"m": {
+"es": "la fórmula · pl. die Formeln",
+"en": "formula · pl. die Formeln"
+},
+"pos": "noun",
+"w": "die Formel",
+"p": "",
+"g": "f",
+"pl": "Formeln",
+"unit": null,
+"u": "",
+"q": 3519
+},
+{
+"word": "der Forscher",
+"m": {
+"es": "el investigador · pl. die Forscher",
+"en": "researcher · pl. die Forscher"
+},
+"pos": "noun",
+"w": "der Forscher",
+"p": "",
+"g": "m",
+"pl": "Forscher",
+"unit": null,
+"u": "",
+"q": 3520
+},
+{
+"word": "die Forscherin",
+"m": {
+"es": "la investigadora · pl. die Forscherinnen",
+"en": "researcher (female) · pl. die Forscherinnen"
+},
+"pos": "noun",
+"w": "die Forscherin",
+"p": "",
+"g": "f",
+"pl": "Forscherinnen",
+"unit": null,
+"u": "",
+"q": 3521
+},
+{
+"word": "fragwürdig",
+"m": {
+"es": "cuestionable",
+"en": "questionable"
+},
+"pos": "",
+"w": "fragwürdig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3522
+},
+{
+"word": "freilich",
+"m": {
+"es": "desde luego",
+"en": "of course"
+},
+"pos": "",
+"w": "freilich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3523
+},
+{
+"word": "fremdenfeindlich",
+"m": {
+"es": "xenófobo",
+"en": "xenophobic"
+},
+"pos": "",
+"w": "fremdenfeindlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3524
+},
+{
+"word": "friedlich",
+"m": {
+"es": "pacífico",
+"en": "peaceful"
+},
+"pos": "",
+"w": "friedlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3525
+},
+{
+"word": "die Funktion",
+"m": {
+"es": "la función · pl. die Funktionen",
+"en": "function · pl. die Funktionen"
+},
+"pos": "noun",
+"w": "die Funktion",
+"p": "",
+"g": "f",
+"pl": "Funktionen",
+"unit": null,
+"u": "",
+"q": 3526
+},
+{
+"word": "der Gebrauch",
+"m": {
+"es": "el uso",
+"en": "use"
+},
+"pos": "noun",
+"w": "der Gebrauch",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3527
+},
+{
+"word": "das Gedächtnis",
+"m": {
+"es": "la memoria",
+"en": "memory"
+},
+"pos": "noun",
+"w": "das Gedächtnis",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3528
+},
+{
+"word": "gefährdet",
+"m": {
+"es": "en peligro",
+"en": "at risk"
+},
+"pos": "",
+"w": "gefährdet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3529
+},
+{
+"word": "gegenseitig",
+"m": {
+"es": "mutuo",
+"en": "mutual"
+},
+"pos": "",
+"w": "gegenseitig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3530
+},
+{
+"word": "die Gegenwart",
+"m": {
+"es": "el presente",
+"en": "the present"
+},
+"pos": "noun",
+"w": "die Gegenwart",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3531
+},
+{
+"word": "die Gehaltserhöhung",
+"m": {
+"es": "el aumento de sueldo · pl. die Gehaltserhöhungen",
+"en": "pay rise · pl. die Gehaltserhöhungen"
+},
+"pos": "noun",
+"w": "die Gehaltserhöhung",
+"p": "",
+"g": "f",
+"pl": "Gehaltserhöhungen",
+"unit": null,
+"u": "",
+"q": 3532
+},
+{
+"word": "das Gehirn",
+"m": {
+"es": "el cerebro · pl. die Gehirne",
+"en": "brain · pl. die Gehirne"
+},
+"pos": "noun",
+"w": "das Gehirn",
+"p": "",
+"g": "n",
+"pl": "Gehirne",
+"unit": null,
+"u": "",
+"q": 3533
+},
+{
+"word": "die Gelassenheit",
+"m": {
+"es": "la serenidad",
+"en": "calmness"
+},
+"pos": "noun",
+"w": "die Gelassenheit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3534
+},
+{
+"word": "gelegentlich",
+"m": {
+"es": "ocasionalmente",
+"en": "occasionally"
+},
+"pos": "",
+"w": "gelegentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3535
+},
+{
+"word": "gelten als",
+"m": {
+"es": "considerarse",
+"en": "to be regarded as"
+},
+"pos": "",
+"w": "gelten als",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3536
+},
+{
+"word": "die Gemeinde",
+"m": {
+"es": "el municipio · pl. die Gemeinden",
+"en": "municipality · pl. die Gemeinden"
+},
+"pos": "noun",
+"w": "die Gemeinde",
+"p": "",
+"g": "f",
+"pl": "Gemeinden",
+"unit": null,
+"u": "",
+"q": 3537
+},
+{
+"word": "das Gemälde",
+"m": {
+"es": "el cuadro · pl. die Gemälde",
+"en": "painting · pl. die Gemälde"
+},
+"pos": "noun",
+"w": "das Gemälde",
+"p": "",
+"g": "n",
+"pl": "Gemälde",
+"unit": null,
+"u": "",
+"q": 3538
+},
+{
+"word": "die Genehmigung",
+"m": {
+"es": "el permiso, la autorización · pl. die Genehmigungen",
+"en": "permit · pl. die Genehmigungen"
+},
+"pos": "noun",
+"w": "die Genehmigung",
+"p": "",
+"g": "f",
+"pl": "Genehmigungen",
+"unit": null,
+"u": "",
+"q": 3539
+},
+{
+"word": "der Generationenkonflikt",
+"m": {
+"es": "el conflicto generacional · pl. die Generationenkonflikte",
+"en": "generation gap · pl. die Generationenkonflikte"
+},
+"pos": "noun",
+"w": "der Generationenkonflikt",
+"p": "",
+"g": "m",
+"pl": "Generationenkonflikte",
+"unit": null,
+"u": "",
+"q": 3540
+},
+{
+"word": "generell",
+"m": {
+"es": "en general",
+"en": "generally"
+},
+"pos": "",
+"w": "generell",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3541
+},
+{
+"word": "genial",
+"m": {
+"es": "genial",
+"en": "brilliant"
+},
+"pos": "",
+"w": "genial",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3542
+},
+{
+"word": "der Genuss",
+"m": {
+"es": "el disfrute, el placer · pl. die Genüsse",
+"en": "enjoyment · pl. die Genüsse"
+},
+"pos": "noun",
+"w": "der Genuss",
+"p": "",
+"g": "m",
+"pl": "Genüsse",
+"unit": null,
+"u": "",
+"q": 3543
+},
+{
+"word": "geradezu",
+"m": {
+"es": "casi, verdaderamente",
+"en": "almost, downright"
+},
+"pos": "",
+"w": "geradezu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3544
+},
+{
+"word": "die Gerechtigkeit",
+"m": {
+"es": "la justicia",
+"en": "justice"
+},
+"pos": "noun",
+"w": "die Gerechtigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3545
+},
+{
+"word": "der Geruch",
+"m": {
+"es": "el olor · pl. die Gerüche",
+"en": "smell · pl. die Gerüche"
+},
+"pos": "noun",
+"w": "der Geruch",
+"p": "",
+"g": "m",
+"pl": "Gerüche",
+"unit": null,
+"u": "",
+"q": 3546
+},
+{
+"word": "gescheitert",
+"m": {
+"es": "fracasado",
+"en": "failed"
+},
+"pos": "",
+"w": "gescheitert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3547
+},
+{
+"word": "geschweige denn",
+"m": {
+"es": "y mucho menos",
+"en": "let alone"
+},
+"pos": "",
+"w": "geschweige denn",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3548
+},
+{
+"word": "der Geschäftsführer",
+"m": {
+"es": "el gerente, el director general · pl. die Geschäftsführer",
+"en": "managing director · pl. die Geschäftsführer"
+},
+"pos": "noun",
+"w": "der Geschäftsführer",
+"p": "",
+"g": "m",
+"pl": "Geschäftsführer",
+"unit": null,
+"u": "",
+"q": 3549
+},
+{
+"word": "gesellschaftlich",
+"m": {
+"es": "social",
+"en": "social"
+},
+"pos": "",
+"w": "gesellschaftlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3550
+},
+{
+"word": "gesetzlich",
+"m": {
+"es": "legal",
+"en": "legal"
+},
+"pos": "",
+"w": "gesetzlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3551
+},
+{
+"word": "gestalten",
+"m": {
+"es": "diseñar, organizar",
+"en": "to design, to shape"
+},
+"pos": "verb",
+"w": "gestalten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3552
+},
+{
+"word": "die Gestaltung",
+"m": {
+"es": "el diseño, la configuración · pl. die Gestaltungen",
+"en": "design, shaping · pl. die Gestaltungen"
+},
+"pos": "noun",
+"w": "die Gestaltung",
+"p": "",
+"g": "f",
+"pl": "Gestaltungen",
+"unit": null,
+"u": "",
+"q": 3553
+},
+{
+"word": "das Gesundheitswesen",
+"m": {
+"es": "la sanidad",
+"en": "health care system"
+},
+"pos": "noun",
+"w": "das Gesundheitswesen",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3554
+},
+{
+"word": "der Gewinner",
+"m": {
+"es": "el ganador · pl. die Gewinner",
+"en": "winner · pl. die Gewinner"
+},
+"pos": "noun",
+"w": "der Gewinner",
+"p": "",
+"g": "m",
+"pl": "Gewinner",
+"unit": null,
+"u": "",
+"q": 3555
+},
+{
+"word": "sich gewöhnen an",
+"m": {
+"es": "acostumbrarse a",
+"en": "to get used to"
+},
+"pos": "",
+"w": "sich gewöhnen an",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3556
+},
+{
+"word": "gezielt",
+"m": {
+"es": "específico, con un objetivo",
+"en": "targeted"
+},
+"pos": "",
+"w": "gezielt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3557
+},
+{
+"word": "glaubwürdig",
+"m": {
+"es": "creíble",
+"en": "credible"
+},
+"pos": "",
+"w": "glaubwürdig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3558
+},
+{
+"word": "die Glaubwürdigkeit",
+"m": {
+"es": "la credibilidad",
+"en": "credibility"
+},
+"pos": "noun",
+"w": "die Glaubwürdigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3559
+},
+{
+"word": "die Gleichberechtigung",
+"m": {
+"es": "la igualdad de derechos",
+"en": "equal rights"
+},
+"pos": "noun",
+"w": "die Gleichberechtigung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3560
+},
+{
+"word": "die Gleitzeit",
+"m": {
+"es": "el horario flexible",
+"en": "flexitime"
+},
+"pos": "noun",
+"w": "die Gleitzeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3561
+},
+{
+"word": "global",
+"m": {
+"es": "global",
+"en": "global"
+},
+"pos": "",
+"w": "global",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3562
+},
+{
+"word": "die Globalisierung",
+"m": {
+"es": "la globalización",
+"en": "globalisation"
+},
+"pos": "noun",
+"w": "die Globalisierung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3563
+},
+{
+"word": "grob",
+"m": {
+"es": "grosero; aproximado",
+"en": "rough; approximate"
+},
+"pos": "",
+"w": "grob",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3564
+},
+{
+"word": "die Grundlage",
+"m": {
+"es": "la base, el fundamento · pl. die Grundlagen",
+"en": "basis, foundation · pl. die Grundlagen"
+},
+"pos": "noun",
+"w": "die Grundlage",
+"p": "",
+"g": "f",
+"pl": "Grundlagen",
+"unit": null,
+"u": "",
+"q": 3565
+},
+{
+"word": "grundsätzlich",
+"m": {
+"es": "por principio",
+"en": "fundamentally, in principle"
+},
+"pos": "",
+"w": "grundsätzlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3566
+},
+{
+"word": "die Gründung",
+"m": {
+"es": "la fundación · pl. die Gründungen",
+"en": "foundation · pl. die Gründungen"
+},
+"pos": "noun",
+"w": "die Gründung",
+"p": "",
+"g": "f",
+"pl": "Gründungen",
+"unit": null,
+"u": "",
+"q": 3567
+},
+{
+"word": "das Gutachten",
+"m": {
+"es": "el dictamen, el informe pericial · pl. die Gutachten",
+"en": "expert report · pl. die Gutachten"
+},
+"pos": "noun",
+"w": "das Gutachten",
+"p": "",
+"g": "n",
+"pl": "Gutachten",
+"unit": null,
+"u": "",
+"q": 3568
+},
+{
+"word": "die Haltung",
+"m": {
+"es": "la actitud; la postura · pl. die Haltungen",
+"en": "attitude; posture · pl. die Haltungen"
+},
+"pos": "noun",
+"w": "die Haltung",
+"p": "",
+"g": "f",
+"pl": "Haltungen",
+"unit": null,
+"u": "",
+"q": 3569
+},
+{
+"word": "handeln",
+"m": {
+"es": "actuar; comerciar",
+"en": "to act; to trade"
+},
+"pos": "verb",
+"w": "handeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3570
+},
+{
+"word": "die Handlung",
+"m": {
+"es": "la acción; el argumento · pl. die Handlungen",
+"en": "action; plot · pl. die Handlungen"
+},
+"pos": "noun",
+"w": "die Handlung",
+"p": "",
+"g": "f",
+"pl": "Handlungen",
+"unit": null,
+"u": "",
+"q": 3571
+},
+{
+"word": "das Handwerk",
+"m": {
+"es": "la artesanía, el oficio",
+"en": "craft, trade"
+},
+"pos": "noun",
+"w": "das Handwerk",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3572
+},
+{
+"word": "hauptsächlich",
+"m": {
+"es": "principalmente",
+"en": "mainly"
+},
+"pos": "",
+"w": "hauptsächlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3573
+},
+{
+"word": "die Hausarbeit",
+"m": {
+"es": "el trabajo (escrito) · pl. die Hausarbeiten",
+"en": "term paper · pl. die Hausarbeiten"
+},
+"pos": "noun",
+"w": "die Hausarbeit",
+"p": "",
+"g": "f",
+"pl": "Hausarbeiten",
+"unit": null,
+"u": "",
+"q": 3574
+},
+{
+"word": "heilen",
+"m": {
+"es": "curar",
+"en": "to heal"
+},
+"pos": "verb",
+"w": "heilen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3575
+},
+{
+"word": "der Helfer",
+"m": {
+"es": "el ayudante, el voluntario · pl. die Helfer",
+"en": "helper · pl. die Helfer"
+},
+"pos": "noun",
+"w": "der Helfer",
+"p": "",
+"g": "m",
+"pl": "Helfer",
+"unit": null,
+"u": "",
+"q": 3576
+},
+{
+"word": "herrlich",
+"m": {
+"es": "magnífico",
+"en": "wonderful"
+},
+"pos": "",
+"w": "herrlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3577
+},
+{
+"word": "die Herstellung",
+"m": {
+"es": "la fabricación",
+"en": "production"
+},
+"pos": "noun",
+"w": "die Herstellung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3578
+},
+{
+"word": "hervorheben",
+"m": {
+"es": "destacar · vorhebt her, vorhob her, hat hervorhoben",
+"en": "to emphasise · vorhebt her, vorhob her, hat hervorhoben"
+},
+"pos": "verb",
+"w": "hervorheben",
+"p": "",
+"pp": "vorhebt her, vorhob her, hat hervorhoben",
+"unit": null,
+"u": "",
+"q": 3579
+},
+{
+"word": "hervorragend",
+"m": {
+"es": "excelente",
+"en": "outstanding"
+},
+"pos": "",
+"w": "hervorragend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3580
+},
+{
+"word": "heutzutage",
+"m": {
+"es": "hoy en día",
+"en": "nowadays"
+},
+"pos": "",
+"w": "heutzutage",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3581
+},
+{
+"word": "Hilfe leisten",
+"m": {
+"es": "prestar ayuda",
+"en": "to give help"
+},
+"pos": "",
+"w": "Hilfe leisten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3582
+},
+{
+"word": "hilfreich",
+"m": {
+"es": "útil",
+"en": "helpful"
+},
+"pos": "",
+"w": "hilfreich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3583
+},
+{
+"word": "hingegen",
+"m": {
+"es": "en cambio",
+"en": "on the other hand"
+},
+"pos": "verb",
+"w": "hingegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3584
+},
+{
+"word": "die Hinsicht",
+"m": {
+"es": "el aspecto",
+"en": "respect"
+},
+"pos": "noun",
+"w": "die Hinsicht",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3585
+},
+{
+"word": "hinsichtlich",
+"m": {
+"es": "en cuanto a",
+"en": "with regard to"
+},
+"pos": "",
+"w": "hinsichtlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3586
+},
+{
+"word": "der Hintergrund",
+"m": {
+"es": "el trasfondo, el fondo · pl. die Hintergründe",
+"en": "background · pl. die Hintergründe"
+},
+"pos": "noun",
+"w": "der Hintergrund",
+"p": "",
+"g": "m",
+"pl": "Hintergründe",
+"unit": null,
+"u": "",
+"q": 3587
+},
+{
+"word": "die Hochschule",
+"m": {
+"es": "la universidad, la escuela superior · pl. die Hochschulen",
+"en": "university, college · pl. die Hochschulen"
+},
+"pos": "noun",
+"w": "die Hochschule",
+"p": "",
+"g": "f",
+"pl": "Hochschulen",
+"unit": null,
+"u": "",
+"q": 3588
+},
+{
+"word": "das Hochwasser",
+"m": {
+"es": "la crecida",
+"en": "flood"
+},
+"pos": "noun",
+"w": "das Hochwasser",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3589
+},
+{
+"word": "das Homeoffice",
+"m": {
+"es": "el teletrabajo",
+"en": "working from home"
+},
+"pos": "noun",
+"w": "das Homeoffice",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3590
+},
+{
+"word": "die Hypothese",
+"m": {
+"es": "la hipótesis · pl. die Hypothesen",
+"en": "hypothesis · pl. die Hypothesen"
+},
+"pos": "noun",
+"w": "die Hypothese",
+"p": "",
+"g": "f",
+"pl": "Hypothesen",
+"unit": null,
+"u": "",
+"q": 3591
+},
+{
+"word": "der Höhepunkt",
+"m": {
+"es": "el punto culminante · pl. die Höhepunkte",
+"en": "highlight, climax · pl. die Höhepunkte"
+},
+"pos": "noun",
+"w": "der Höhepunkt",
+"p": "",
+"g": "m",
+"pl": "Höhepunkte",
+"unit": null,
+"u": "",
+"q": 3592
+},
+{
+"word": "identifizieren",
+"m": {
+"es": "identificar",
+"en": "to identify"
+},
+"pos": "verb",
+"w": "identifizieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3593
+},
+{
+"word": "die Identität",
+"m": {
+"es": "la identidad · pl. die Identitäten",
+"en": "identity · pl. die Identitäten"
+},
+"pos": "noun",
+"w": "die Identität",
+"p": "",
+"g": "f",
+"pl": "Identitäten",
+"unit": null,
+"u": "",
+"q": 3594
+},
+{
+"word": "ignorieren",
+"m": {
+"es": "ignorar",
+"en": "to ignore"
+},
+"pos": "verb",
+"w": "ignorieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3595
+},
+{
+"word": "im Rahmen",
+"m": {
+"es": "en el marco de",
+"en": "within the framework of"
+},
+"pos": "",
+"w": "im Rahmen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3596
+},
+{
+"word": "im Vorfeld",
+"m": {
+"es": "de antemano",
+"en": "beforehand"
+},
+"pos": "",
+"w": "im Vorfeld",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3597
+},
+{
+"word": "das Image",
+"m": {
+"es": "la imagen (pública) · pl. die Images",
+"en": "image · pl. die Images"
+},
+"pos": "noun",
+"w": "das Image",
+"p": "",
+"g": "n",
+"pl": "Images",
+"unit": null,
+"u": "",
+"q": 3598
+},
+{
+"word": "immerhin",
+"m": {
+"es": "al menos, después de todo",
+"en": "at least, after all"
+},
+"pos": "verb",
+"w": "immerhin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3599
+},
+{
+"word": "das Immunsystem",
+"m": {
+"es": "el sistema inmunitario · pl. die Immunsysteme",
+"en": "immune system · pl. die Immunsysteme"
+},
+"pos": "noun",
+"w": "das Immunsystem",
+"p": "",
+"g": "n",
+"pl": "Immunsysteme",
+"unit": null,
+"u": "",
+"q": 3600
+},
+{
+"word": "der Impfstoff",
+"m": {
+"es": "la vacuna · pl. die Impfstoffe",
+"en": "vaccine · pl. die Impfstoffe"
+},
+"pos": "noun",
+"w": "der Impfstoff",
+"p": "",
+"g": "m",
+"pl": "Impfstoffe",
+"unit": null,
+"u": "",
+"q": 3601
+},
+{
+"word": "die Impfung",
+"m": {
+"es": "la vacunación · pl. die Impfungen",
+"en": "vaccination · pl. die Impfungen"
+},
+"pos": "noun",
+"w": "die Impfung",
+"p": "",
+"g": "f",
+"pl": "Impfungen",
+"unit": null,
+"u": "",
+"q": 3602
+},
+{
+"word": "importieren",
+"m": {
+"es": "importar",
+"en": "to import"
+},
+"pos": "verb",
+"w": "importieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3603
+},
+{
+"word": "in Bezug auf",
+"m": {
+"es": "con respecto a",
+"en": "with regard to"
+},
+"pos": "",
+"w": "in Bezug auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3604
+},
+{
+"word": "in dieser Hinsicht",
+"m": {
+"es": "en este sentido",
+"en": "in this respect"
+},
+"pos": "",
+"w": "in dieser Hinsicht",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3605
+},
+{
+"word": "die Inflation",
+"m": {
+"es": "la inflación",
+"en": "inflation"
+},
+"pos": "noun",
+"w": "die Inflation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3606
+},
+{
+"word": "infolgedessen",
+"m": {
+"es": "como consecuencia",
+"en": "as a result"
+},
+"pos": "verb",
+"w": "infolgedessen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3607
+},
+{
+"word": "die Informatik",
+"m": {
+"es": "la informática",
+"en": "computer science"
+},
+"pos": "noun",
+"w": "die Informatik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3608
+},
+{
+"word": "die Infrastruktur",
+"m": {
+"es": "la infraestructura · pl. die Infrastrukturen",
+"en": "infrastructure · pl. die Infrastrukturen"
+},
+"pos": "noun",
+"w": "die Infrastruktur",
+"p": "",
+"g": "f",
+"pl": "Infrastrukturen",
+"unit": null,
+"u": "",
+"q": 3609
+},
+{
+"word": "der Inhaber",
+"m": {
+"es": "el titular, el propietario · pl. die Inhaber",
+"en": "owner, holder · pl. die Inhaber"
+},
+"pos": "noun",
+"w": "der Inhaber",
+"p": "",
+"g": "m",
+"pl": "Inhaber",
+"unit": null,
+"u": "",
+"q": 3610
+},
+{
+"word": "die Initiative",
+"m": {
+"es": "la iniciativa · pl. die Initiativen",
+"en": "initiative · pl. die Initiativen"
+},
+"pos": "noun",
+"w": "die Initiative",
+"p": "",
+"g": "f",
+"pl": "Initiativen",
+"unit": null,
+"u": "",
+"q": 3611
+},
+{
+"word": "die Innenstadt",
+"m": {
+"es": "el centro de la ciudad · pl. die Innenstädte",
+"en": "city centre · pl. die Innenstädte"
+},
+"pos": "noun",
+"w": "die Innenstadt",
+"p": "",
+"g": "f",
+"pl": "Innenstädte",
+"unit": null,
+"u": "",
+"q": 3612
+},
+{
+"word": "insbesondere",
+"m": {
+"es": "en particular",
+"en": "in particular"
+},
+"pos": "",
+"w": "insbesondere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3613
+},
+{
+"word": "insofern",
+"m": {
+"es": "en la medida en que, en ese sentido",
+"en": "in that respect"
+},
+"pos": "verb",
+"w": "insofern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3614
+},
+{
+"word": "inszenieren",
+"m": {
+"es": "escenificar, dirigir",
+"en": "to stage"
+},
+"pos": "verb",
+"w": "inszenieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3615
+},
+{
+"word": "die Interpretation",
+"m": {
+"es": "la interpretación · pl. die Interpretationen",
+"en": "interpretation · pl. die Interpretationen"
+},
+"pos": "noun",
+"w": "die Interpretation",
+"p": "",
+"g": "f",
+"pl": "Interpretationen",
+"unit": null,
+"u": "",
+"q": 3616
+},
+{
+"word": "investieren",
+"m": {
+"es": "invertir",
+"en": "to invest"
+},
+"pos": "verb",
+"w": "investieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3617
+},
+{
+"word": "die Investition",
+"m": {
+"es": "la inversión · pl. die Investitionen",
+"en": "investment · pl. die Investitionen"
+},
+"pos": "noun",
+"w": "die Investition",
+"p": "",
+"g": "f",
+"pl": "Investitionen",
+"unit": null,
+"u": "",
+"q": 3618
+},
+{
+"word": "jahrelang",
+"m": {
+"es": "durante años",
+"en": "for years"
+},
+"pos": "",
+"w": "jahrelang",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3619
+},
+{
+"word": "je nachdem",
+"m": {
+"es": "según",
+"en": "depending on"
+},
+"pos": "",
+"w": "je nachdem",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3620
+},
+{
+"word": "jedenfalls",
+"m": {
+"es": "en todo caso",
+"en": "in any case"
+},
+"pos": "",
+"w": "jedenfalls",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3621
+},
+{
+"word": "die Justiz",
+"m": {
+"es": "la justicia (poder judicial)",
+"en": "judiciary"
+},
+"pos": "noun",
+"w": "die Justiz",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3622
+},
+{
+"word": "die Kampagne",
+"m": {
+"es": "la campaña · pl. die Kampagnen",
+"en": "campaign · pl. die Kampagnen"
+},
+"pos": "noun",
+"w": "die Kampagne",
+"p": "",
+"g": "f",
+"pl": "Kampagnen",
+"unit": null,
+"u": "",
+"q": 3623
+},
+{
+"word": "der Kanzler",
+"m": {
+"es": "el canciller · pl. die Kanzler",
+"en": "chancellor · pl. die Kanzler"
+},
+"pos": "noun",
+"w": "der Kanzler",
+"p": "",
+"g": "m",
+"pl": "Kanzler",
+"unit": null,
+"u": "",
+"q": 3624
+},
+{
+"word": "die Kanzlerin",
+"m": {
+"es": "la canciller · pl. die Kanzlerinnen",
+"en": "chancellor (female) · pl. die Kanzlerinnen"
+},
+"pos": "noun",
+"w": "die Kanzlerin",
+"p": "",
+"g": "f",
+"pl": "Kanzlerinnen",
+"unit": null,
+"u": "",
+"q": 3625
+},
+{
+"word": "das Kapital",
+"m": {
+"es": "el capital",
+"en": "capital"
+},
+"pos": "noun",
+"w": "das Kapital",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3626
+},
+{
+"word": "die Kategorie",
+"m": {
+"es": "la categoría · pl. die Kategorien",
+"en": "category · pl. die Kategorien"
+},
+"pos": "noun",
+"w": "die Kategorie",
+"p": "",
+"g": "f",
+"pl": "Kategorien",
+"unit": null,
+"u": "",
+"q": 3627
+},
+{
+"word": "kaum dass",
+"m": {
+"es": "apenas",
+"en": "no sooner"
+},
+"pos": "",
+"w": "kaum dass",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3628
+},
+{
+"word": "keineswegs",
+"m": {
+"es": "de ningún modo",
+"en": "by no means"
+},
+"pos": "",
+"w": "keineswegs",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3629
+},
+{
+"word": "die Kenntnis",
+"m": {
+"es": "el conocimiento · pl. die Kenntnisse",
+"en": "knowledge · pl. die Kenntnisse"
+},
+"pos": "noun",
+"w": "die Kenntnis",
+"p": "",
+"g": "f",
+"pl": "Kenntnisse",
+"unit": null,
+"u": "",
+"q": 3630
+},
+{
+"word": "der Kern",
+"m": {
+"es": "el núcleo · pl. die Kerne",
+"en": "core · pl. die Kerne"
+},
+"pos": "noun",
+"w": "der Kern",
+"p": "",
+"g": "m",
+"pl": "Kerne",
+"unit": null,
+"u": "",
+"q": 3631
+},
+{
+"word": "die Klage",
+"m": {
+"es": "la queja; la demanda · pl. die Klagen",
+"en": "complaint; lawsuit · pl. die Klagen"
+},
+"pos": "noun",
+"w": "die Klage",
+"p": "",
+"g": "f",
+"pl": "Klagen",
+"unit": null,
+"u": "",
+"q": 3632
+},
+{
+"word": "der Klassiker",
+"m": {
+"es": "el clásico · pl. die Klassiker",
+"en": "classic · pl. die Klassiker"
+},
+"pos": "noun",
+"w": "der Klassiker",
+"p": "",
+"g": "m",
+"pl": "Klassiker",
+"unit": null,
+"u": "",
+"q": 3633
+},
+{
+"word": "der Klimawandel",
+"m": {
+"es": "el cambio climático",
+"en": "climate change"
+},
+"pos": "noun",
+"w": "der Klimawandel",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3634
+},
+{
+"word": "die Koalition",
+"m": {
+"es": "la coalición · pl. die Koalitionen",
+"en": "coalition · pl. die Koalitionen"
+},
+"pos": "noun",
+"w": "die Koalition",
+"p": "",
+"g": "f",
+"pl": "Koalitionen",
+"unit": null,
+"u": "",
+"q": 3635
+},
+{
+"word": "die Kohle",
+"m": {
+"es": "el carbón",
+"en": "coal"
+},
+"pos": "noun",
+"w": "die Kohle",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3636
+},
+{
+"word": "das Kohlendioxid",
+"m": {
+"es": "el dióxido de carbono",
+"en": "carbon dioxide"
+},
+"pos": "noun",
+"w": "das Kohlendioxid",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3637
+},
+{
+"word": "die Kombination",
+"m": {
+"es": "la combinación · pl. die Kombinationen",
+"en": "combination · pl. die Kombinationen"
+},
+"pos": "noun",
+"w": "die Kombination",
+"p": "",
+"g": "f",
+"pl": "Kombinationen",
+"unit": null,
+"u": "",
+"q": 3638
+},
+{
+"word": "der Kommentar",
+"m": {
+"es": "el comentario · pl. die Kommentare",
+"en": "comment · pl. die Kommentare"
+},
+"pos": "noun",
+"w": "der Kommentar",
+"p": "",
+"g": "m",
+"pl": "Kommentare",
+"unit": null,
+"u": "",
+"q": 3639
+},
+{
+"word": "kommentieren",
+"m": {
+"es": "comentar",
+"en": "to comment on"
+},
+"pos": "verb",
+"w": "kommentieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3640
+},
+{
+"word": "die Kommission",
+"m": {
+"es": "la comisión · pl. die Kommissionen",
+"en": "commission · pl. die Kommissionen"
+},
+"pos": "noun",
+"w": "die Kommission",
+"p": "",
+"g": "f",
+"pl": "Kommissionen",
+"unit": null,
+"u": "",
+"q": 3641
+},
+{
+"word": "kompetent",
+"m": {
+"es": "competente",
+"en": "competent"
+},
+"pos": "",
+"w": "kompetent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3642
+},
+{
+"word": "die Kompetenz",
+"m": {
+"es": "la competencia, la capacidad · pl. die Kompetenzen",
+"en": "competence · pl. die Kompetenzen"
+},
+"pos": "noun",
+"w": "die Kompetenz",
+"p": "",
+"g": "f",
+"pl": "Kompetenzen",
+"unit": null,
+"u": "",
+"q": 3643
+},
+{
+"word": "komplex",
+"m": {
+"es": "complejo",
+"en": "complex"
+},
+"pos": "",
+"w": "komplex",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3644
+},
+{
+"word": "komponieren",
+"m": {
+"es": "componer",
+"en": "to compose"
+},
+"pos": "verb",
+"w": "komponieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3645
+},
+{
+"word": "konkret",
+"m": {
+"es": "concreto",
+"en": "concrete"
+},
+"pos": "",
+"w": "konkret",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3646
+},
+{
+"word": "der Konkurrent",
+"m": {
+"es": "el competidor · pl. die Konkurrenten",
+"en": "competitor · pl. die Konkurrenten"
+},
+"pos": "noun",
+"w": "der Konkurrent",
+"p": "",
+"g": "m",
+"pl": "Konkurrenten",
+"unit": null,
+"u": "",
+"q": 3647
+},
+{
+"word": "konsequent",
+"m": {
+"es": "coherente, consecuente",
+"en": "consistent"
+},
+"pos": "",
+"w": "konsequent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3648
+},
+{
+"word": "die Konsequenz",
+"m": {
+"es": "la consecuencia · pl. die Konsequenzen",
+"en": "consequence · pl. die Konsequenzen"
+},
+"pos": "noun",
+"w": "die Konsequenz",
+"p": "",
+"g": "f",
+"pl": "Konsequenzen",
+"unit": null,
+"u": "",
+"q": 3649
+},
+{
+"word": "konstant",
+"m": {
+"es": "constante",
+"en": "constant"
+},
+"pos": "",
+"w": "konstant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3650
+},
+{
+"word": "der Konsum",
+"m": {
+"es": "el consumo",
+"en": "consumption"
+},
+"pos": "noun",
+"w": "der Konsum",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3651
+},
+{
+"word": "der Kontext",
+"m": {
+"es": "el contexto · pl. die Kontexte",
+"en": "context · pl. die Kontexte"
+},
+"pos": "noun",
+"w": "der Kontext",
+"p": "",
+"g": "m",
+"pl": "Kontexte",
+"unit": null,
+"u": "",
+"q": 3652
+},
+{
+"word": "die Konzentration",
+"m": {
+"es": "la concentración · pl. die Konzentrationen",
+"en": "concentration · pl. die Konzentrationen"
+},
+"pos": "noun",
+"w": "die Konzentration",
+"p": "",
+"g": "f",
+"pl": "Konzentrationen",
+"unit": null,
+"u": "",
+"q": 3653
+},
+{
+"word": "das Konzept",
+"m": {
+"es": "el concepto, el plan · pl. die Konzepte",
+"en": "concept · pl. die Konzepte"
+},
+"pos": "noun",
+"w": "das Konzept",
+"p": "",
+"g": "n",
+"pl": "Konzepte",
+"unit": null,
+"u": "",
+"q": 3654
+},
+{
+"word": "der Konzern",
+"m": {
+"es": "el grupo empresarial · pl. die Konzerne",
+"en": "corporation, group · pl. die Konzerne"
+},
+"pos": "noun",
+"w": "der Konzern",
+"p": "",
+"g": "m",
+"pl": "Konzerne",
+"unit": null,
+"u": "",
+"q": 3655
+},
+{
+"word": "die Kooperation",
+"m": {
+"es": "la cooperación · pl. die Kooperationen",
+"en": "cooperation · pl. die Kooperationen"
+},
+"pos": "noun",
+"w": "die Kooperation",
+"p": "",
+"g": "f",
+"pl": "Kooperationen",
+"unit": null,
+"u": "",
+"q": 3656
+},
+{
+"word": "kostenpflichtig",
+"m": {
+"es": "de pago",
+"en": "subject to a charge"
+},
+"pos": "",
+"w": "kostenpflichtig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3657
+},
+{
+"word": "der Krebs",
+"m": {
+"es": "el cáncer",
+"en": "cancer"
+},
+"pos": "noun",
+"w": "der Krebs",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3658
+},
+{
+"word": "der Kritiker",
+"m": {
+"es": "el crítico · pl. die Kritiker",
+"en": "critic · pl. die Kritiker"
+},
+"pos": "noun",
+"w": "der Kritiker",
+"p": "",
+"g": "m",
+"pl": "Kritiker",
+"unit": null,
+"u": "",
+"q": 3659
+},
+{
+"word": "das Kulturerbe",
+"m": {
+"es": "el patrimonio cultural",
+"en": "cultural heritage"
+},
+"pos": "noun",
+"w": "das Kulturerbe",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3660
+},
+{
+"word": "die Kunstausstellung",
+"m": {
+"es": "la exposición de arte · pl. die Kunstausstellungen",
+"en": "art exhibition · pl. die Kunstausstellungen"
+},
+"pos": "noun",
+"w": "die Kunstausstellung",
+"p": "",
+"g": "f",
+"pl": "Kunstausstellungen",
+"unit": null,
+"u": "",
+"q": 3661
+},
+{
+"word": "kurzfristig",
+"m": {
+"es": "a corto plazo",
+"en": "short-term"
+},
+"pos": "",
+"w": "kurzfristig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3662
+},
+{
+"word": "körperlich",
+"m": {
+"es": "físico",
+"en": "physical"
+},
+"pos": "",
+"w": "körperlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3663
+},
+{
+"word": "sich kümmern um",
+"m": {
+"es": "ocuparse de",
+"en": "to look after"
+},
+"pos": "",
+"w": "sich kümmern um",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3664
+},
+{
+"word": "die Kündigungsfrist",
+"m": {
+"es": "el plazo de preaviso · pl. die Kündigungsfristen",
+"en": "notice period · pl. die Kündigungsfristen"
+},
+"pos": "noun",
+"w": "die Kündigungsfrist",
+"p": "",
+"g": "f",
+"pl": "Kündigungsfristen",
+"unit": null,
+"u": "",
+"q": 3665
+},
+{
+"word": "künftig",
+"m": {
+"es": "en el futuro",
+"en": "in future"
+},
+"pos": "",
+"w": "künftig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3666
+},
+{
+"word": "die künstliche Intelligenz",
+"m": {
+"es": "la inteligencia artificial",
+"en": "artificial intelligence"
+},
+"pos": "noun",
+"w": "die künstliche Intelligenz",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3667
+},
+{
+"word": "der Landtag",
+"m": {
+"es": "el parlamento regional · pl. die Landtage",
+"en": "state parliament · pl. die Landtage"
+},
+"pos": "noun",
+"w": "der Landtag",
+"p": "",
+"g": "m",
+"pl": "Landtage",
+"unit": null,
+"u": "",
+"q": 3668
+},
+{
+"word": "langfristig",
+"m": {
+"es": "a largo plazo",
+"en": "long-term"
+},
+"pos": "",
+"w": "langfristig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3669
+},
+{
+"word": "die Last",
+"m": {
+"es": "la carga · pl. die Lasten",
+"en": "burden · pl. die Lasten"
+},
+"pos": "noun",
+"w": "die Last",
+"p": "",
+"g": "f",
+"pl": "Lasten",
+"unit": null,
+"u": "",
+"q": 3670
+},
+{
+"word": "lebendig",
+"m": {
+"es": "vivo",
+"en": "lively, alive"
+},
+"pos": "",
+"w": "lebendig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3671
+},
+{
+"word": "die Lebenserwartung",
+"m": {
+"es": "la esperanza de vida",
+"en": "life expectancy"
+},
+"pos": "noun",
+"w": "die Lebenserwartung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3672
+},
+{
+"word": "lebenslanges Lernen",
+"m": {
+"es": "el aprendizaje permanente",
+"en": "lifelong learning"
+},
+"pos": "",
+"w": "lebenslanges Lernen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3673
+},
+{
+"word": "die Lebensqualität",
+"m": {
+"es": "la calidad de vida",
+"en": "quality of life"
+},
+"pos": "noun",
+"w": "die Lebensqualität",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3674
+},
+{
+"word": "der Lebensstandard",
+"m": {
+"es": "el nivel de vida",
+"en": "standard of living"
+},
+"pos": "noun",
+"w": "der Lebensstandard",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3675
+},
+{
+"word": "lediglich",
+"m": {
+"es": "únicamente",
+"en": "merely"
+},
+"pos": "",
+"w": "lediglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3676
+},
+{
+"word": "lehren",
+"m": {
+"es": "enseñar",
+"en": "to teach"
+},
+"pos": "verb",
+"w": "lehren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3677
+},
+{
+"word": "leiden unter",
+"m": {
+"es": "sufrir por",
+"en": "to suffer from"
+},
+"pos": "",
+"w": "leiden unter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3678
+},
+{
+"word": "die Leidenschaft",
+"m": {
+"es": "la pasión · pl. die Leidenschaften",
+"en": "passion · pl. die Leidenschaften"
+},
+"pos": "noun",
+"w": "die Leidenschaft",
+"p": "",
+"g": "f",
+"pl": "Leidenschaften",
+"unit": null,
+"u": "",
+"q": 3679
+},
+{
+"word": "letztlich",
+"m": {
+"es": "al fin y al cabo",
+"en": "ultimately"
+},
+"pos": "",
+"w": "letztlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3680
+},
+{
+"word": "der Lieferant",
+"m": {
+"es": "el proveedor · pl. die Lieferanten",
+"en": "supplier · pl. die Lieferanten"
+},
+"pos": "noun",
+"w": "der Lieferant",
+"p": "",
+"g": "m",
+"pl": "Lieferanten",
+"unit": null,
+"u": "",
+"q": 3681
+},
+{
+"word": "die Lieferkette",
+"m": {
+"es": "la cadena de suministro · pl. die Lieferketten",
+"en": "supply chain · pl. die Lieferketten"
+},
+"pos": "noun",
+"w": "die Lieferkette",
+"p": "",
+"g": "f",
+"pl": "Lieferketten",
+"unit": null,
+"u": "",
+"q": 3682
+},
+{
+"word": "liken",
+"m": {
+"es": "dar a «me gusta»",
+"en": "to like (online)"
+},
+"pos": "verb",
+"w": "liken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3683
+},
+{
+"word": "die Logik",
+"m": {
+"es": "la lógica",
+"en": "logic"
+},
+"pos": "noun",
+"w": "die Logik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3684
+},
+{
+"word": "der Luxus",
+"m": {
+"es": "el lujo",
+"en": "luxury"
+},
+"pos": "noun",
+"w": "der Luxus",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3685
+},
+{
+"word": "die Lyrik",
+"m": {
+"es": "la poesía lírica",
+"en": "poetry"
+},
+"pos": "noun",
+"w": "die Lyrik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3686
+},
+{
+"word": "die Malerei",
+"m": {
+"es": "la pintura",
+"en": "painting (art)"
+},
+"pos": "noun",
+"w": "die Malerei",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3687
+},
+{
+"word": "massiv",
+"m": {
+"es": "masivo",
+"en": "massive"
+},
+"pos": "",
+"w": "massiv",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3688
+},
+{
+"word": "der Master",
+"m": {
+"es": "el máster",
+"en": "master's degree"
+},
+"pos": "noun",
+"w": "der Master",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3689
+},
+{
+"word": "maßgeblich",
+"m": {
+"es": "determinante",
+"en": "decisive"
+},
+"pos": "",
+"w": "maßgeblich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3690
+},
+{
+"word": "mehrfach",
+"m": {
+"es": "varias veces",
+"en": "several times"
+},
+"pos": "",
+"w": "mehrfach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3691
+},
+{
+"word": "die Mehrsprachigkeit",
+"m": {
+"es": "el plurilingüismo",
+"en": "multilingualism"
+},
+"pos": "noun",
+"w": "die Mehrsprachigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3692
+},
+{
+"word": "die Menschenrechte",
+"m": {
+"es": "los derechos humanos · (solo plural)",
+"en": "human rights · (plural only)"
+},
+"pos": "noun",
+"w": "die Menschenrechte",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3693
+},
+{
+"word": "das Merkmal",
+"m": {
+"es": "el rasgo, la característica · pl. die Merkmale",
+"en": "feature · pl. die Merkmale"
+},
+"pos": "noun",
+"w": "das Merkmal",
+"p": "",
+"g": "n",
+"pl": "Merkmale",
+"unit": null,
+"u": "",
+"q": 3694
+},
+{
+"word": "das Militär",
+"m": {
+"es": "el ejército",
+"en": "military"
+},
+"pos": "noun",
+"w": "das Militär",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3695
+},
+{
+"word": "der Mindestlohn",
+"m": {
+"es": "el salario mínimo · pl. die Mindestlöhne",
+"en": "minimum wage · pl. die Mindestlöhne"
+},
+"pos": "noun",
+"w": "der Mindestlohn",
+"p": "",
+"g": "m",
+"pl": "Mindestlöhne",
+"unit": null,
+"u": "",
+"q": 3696
+},
+{
+"word": "die Ministerin",
+"m": {
+"es": "la ministra · pl. die Ministerinnen",
+"en": "minister (female) · pl. die Ministerinnen"
+},
+"pos": "noun",
+"w": "die Ministerin",
+"p": "",
+"g": "f",
+"pl": "Ministerinnen",
+"unit": null,
+"u": "",
+"q": 3697
+},
+{
+"word": "das Ministerium",
+"m": {
+"es": "el ministerio · pl. die Ministerien",
+"en": "ministry · pl. die Ministerien"
+},
+"pos": "noun",
+"w": "das Ministerium",
+"p": "",
+"g": "n",
+"pl": "Ministerien",
+"unit": null,
+"u": "",
+"q": 3698
+},
+{
+"word": "die Mischung",
+"m": {
+"es": "la mezcla · pl. die Mischungen",
+"en": "mixture · pl. die Mischungen"
+},
+"pos": "noun",
+"w": "die Mischung",
+"p": "",
+"g": "f",
+"pl": "Mischungen",
+"unit": null,
+"u": "",
+"q": 3699
+},
+{
+"word": "der Missbrauch",
+"m": {
+"es": "el abuso",
+"en": "abuse, misuse"
+},
+"pos": "noun",
+"w": "der Missbrauch",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3700
+},
+{
+"word": "die Mission",
+"m": {
+"es": "la misión · pl. die Missionen",
+"en": "mission · pl. die Missionen"
+},
+"pos": "noun",
+"w": "die Mission",
+"p": "",
+"g": "f",
+"pl": "Missionen",
+"unit": null,
+"u": "",
+"q": 3701
+},
+{
+"word": "mithilfe",
+"m": {
+"es": "con ayuda de",
+"en": "with the help of"
+},
+"pos": "",
+"w": "mithilfe",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3702
+},
+{
+"word": "das Mitleid",
+"m": {
+"es": "la compasión",
+"en": "pity"
+},
+"pos": "noun",
+"w": "das Mitleid",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3703
+},
+{
+"word": "das Mittelalter",
+"m": {
+"es": "la Edad Media",
+"en": "the Middle Ages"
+},
+"pos": "noun",
+"w": "das Mittelalter",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3704
+},
+{
+"word": "der Mittelpunkt",
+"m": {
+"es": "el centro · pl. die Mittelpunkte",
+"en": "centre · pl. die Mittelpunkte"
+},
+"pos": "noun",
+"w": "der Mittelpunkt",
+"p": "",
+"g": "m",
+"pl": "Mittelpunkte",
+"unit": null,
+"u": "",
+"q": 3705
+},
+{
+"word": "mittlere",
+"m": {
+"es": "medio",
+"en": "middle, average"
+},
+"pos": "",
+"w": "mittlere",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3706
+},
+{
+"word": "mitunter",
+"m": {
+"es": "a veces",
+"en": "at times"
+},
+"pos": "",
+"w": "mitunter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3707
+},
+{
+"word": "der Moderator",
+"m": {
+"es": "el presentador · pl. die Moderatoren",
+"en": "presenter · pl. die Moderatoren"
+},
+"pos": "noun",
+"w": "der Moderator",
+"p": "",
+"g": "m",
+"pl": "Moderatoren",
+"unit": null,
+"u": "",
+"q": 3708
+},
+{
+"word": "die Moderatorin",
+"m": {
+"es": "la presentadora · pl. die Moderatorinnen",
+"en": "presenter (female) · pl. die Moderatorinnen"
+},
+"pos": "noun",
+"w": "die Moderatorin",
+"p": "",
+"g": "f",
+"pl": "Moderatorinnen",
+"unit": null,
+"u": "",
+"q": 3709
+},
+{
+"word": "das Motiv",
+"m": {
+"es": "el motivo · pl. die Motive",
+"en": "motive, motif · pl. die Motive"
+},
+"pos": "noun",
+"w": "das Motiv",
+"p": "",
+"g": "n",
+"pl": "Motive",
+"unit": null,
+"u": "",
+"q": 3710
+},
+{
+"word": "die Motivation",
+"m": {
+"es": "la motivación",
+"en": "motivation"
+},
+"pos": "noun",
+"w": "die Motivation",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3711
+},
+{
+"word": "motiviert",
+"m": {
+"es": "motivado",
+"en": "motivated"
+},
+"pos": "",
+"w": "motiviert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3712
+},
+{
+"word": "das Motto",
+"m": {
+"es": "el lema · pl. die Mottos",
+"en": "motto · pl. die Mottos"
+},
+"pos": "noun",
+"w": "das Motto",
+"p": "",
+"g": "n",
+"pl": "Mottos",
+"unit": null,
+"u": "",
+"q": 3713
+},
+{
+"word": "multikulturell",
+"m": {
+"es": "multicultural",
+"en": "multicultural"
+},
+"pos": "",
+"w": "multikulturell",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3714
+},
+{
+"word": "das Muster",
+"m": {
+"es": "el modelo, el patrón · pl. die Muster",
+"en": "pattern, sample · pl. die Muster"
+},
+"pos": "noun",
+"w": "das Muster",
+"p": "",
+"g": "n",
+"pl": "Muster",
+"unit": null,
+"u": "",
+"q": 3715
+},
+{
+"word": "mächtig",
+"m": {
+"es": "poderoso",
+"en": "powerful"
+},
+"pos": "",
+"w": "mächtig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3716
+},
+{
+"word": "möglicherweise",
+"m": {
+"es": "posiblemente",
+"en": "possibly"
+},
+"pos": "",
+"w": "möglicherweise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3717
+},
+{
+"word": "die Mülltrennung",
+"m": {
+"es": "la separación de residuos",
+"en": "waste separation"
+},
+"pos": "noun",
+"w": "die Mülltrennung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3718
+},
+{
+"word": "der Nachfolger",
+"m": {
+"es": "el sucesor · pl. die Nachfolger",
+"en": "successor · pl. die Nachfolger"
+},
+"pos": "noun",
+"w": "der Nachfolger",
+"p": "",
+"g": "m",
+"pl": "Nachfolger",
+"unit": null,
+"u": "",
+"q": 3719
+},
+{
+"word": "nachhaltig",
+"m": {
+"es": "sostenible; duradero",
+"en": "sustainable; lasting"
+},
+"pos": "",
+"w": "nachhaltig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3720
+},
+{
+"word": "nachträglich",
+"m": {
+"es": "posterior, a posteriori",
+"en": "belated, subsequent"
+},
+"pos": "",
+"w": "nachträglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3721
+},
+{
+"word": "nachvollziehbar",
+"m": {
+"es": "comprensible",
+"en": "understandable"
+},
+"pos": "",
+"w": "nachvollziehbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3722
+},
+{
+"word": "der Nachweis",
+"m": {
+"es": "la prueba, el justificante · pl. die Nachweise",
+"en": "proof · pl. die Nachweise"
+},
+"pos": "noun",
+"w": "der Nachweis",
+"p": "",
+"g": "m",
+"pl": "Nachweise",
+"unit": null,
+"u": "",
+"q": 3723
+},
+{
+"word": "nachweisen",
+"m": {
+"es": "demostrar · weist nach, wies nach, hat nachgewiesen",
+"en": "to prove · weist nach, wies nach, hat nachgewiesen"
+},
+"pos": "verb",
+"w": "nachweisen",
+"p": "",
+"pp": "weist nach, wies nach, hat nachgewiesen",
+"unit": null,
+"u": "",
+"q": 3724
+},
+{
+"word": "die Nation",
+"m": {
+"es": "la nación · pl. die Nationen",
+"en": "nation · pl. die Nationen"
+},
+"pos": "noun",
+"w": "die Nation",
+"p": "",
+"g": "f",
+"pl": "Nationen",
+"unit": null,
+"u": "",
+"q": 3725
+},
+{
+"word": "die Naturkatastrophe",
+"m": {
+"es": "la catástrofe natural · pl. die Naturkatastrophen",
+"en": "natural disaster · pl. die Naturkatastrophen"
+},
+"pos": "noun",
+"w": "die Naturkatastrophe",
+"p": "",
+"g": "f",
+"pl": "Naturkatastrophen",
+"unit": null,
+"u": "",
+"q": 3726
+},
+{
+"word": "der Naturschutz",
+"m": {
+"es": "la protección de la naturaleza",
+"en": "nature conservation"
+},
+"pos": "noun",
+"w": "der Naturschutz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3727
+},
+{
+"word": "das Naturschutzgebiet",
+"m": {
+"es": "la reserva natural · pl. die Naturschutzgebiete",
+"en": "nature reserve · pl. die Naturschutzgebiete"
+},
+"pos": "noun",
+"w": "das Naturschutzgebiet",
+"p": "",
+"g": "n",
+"pl": "Naturschutzgebiete",
+"unit": null,
+"u": "",
+"q": 3728
+},
+{
+"word": "die Nebenwirkung",
+"m": {
+"es": "el efecto secundario · pl. die Nebenwirkungen",
+"en": "side effect · pl. die Nebenwirkungen"
+},
+"pos": "noun",
+"w": "die Nebenwirkung",
+"p": "",
+"g": "f",
+"pl": "Nebenwirkungen",
+"unit": null,
+"u": "",
+"q": 3729
+},
+{
+"word": "der Neid",
+"m": {
+"es": "la envidia",
+"en": "envy"
+},
+"pos": "noun",
+"w": "der Neid",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3730
+},
+{
+"word": "neigen zu",
+"m": {
+"es": "tender a",
+"en": "to tend to"
+},
+"pos": "",
+"w": "neigen zu",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3731
+},
+{
+"word": "die Neugier",
+"m": {
+"es": "la curiosidad",
+"en": "curiosity"
+},
+"pos": "noun",
+"w": "die Neugier",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3732
+},
+{
+"word": "die Niederlage",
+"m": {
+"es": "la derrota · pl. die Niederlagen",
+"en": "defeat · pl. die Niederlagen"
+},
+"pos": "noun",
+"w": "die Niederlage",
+"p": "",
+"g": "f",
+"pl": "Niederlagen",
+"unit": null,
+"u": "",
+"q": 3733
+},
+{
+"word": "das Niveau",
+"m": {
+"es": "el nivel · pl. die Niveaus",
+"en": "level · pl. die Niveaus"
+},
+"pos": "noun",
+"w": "das Niveau",
+"p": "",
+"g": "n",
+"pl": "Niveaus",
+"unit": null,
+"u": "",
+"q": 3734
+},
+{
+"word": "die Norm",
+"m": {
+"es": "la norma · pl. die Normen",
+"en": "norm, standard · pl. die Normen"
+},
+"pos": "noun",
+"w": "die Norm",
+"p": "",
+"g": "f",
+"pl": "Normen",
+"unit": null,
+"u": "",
+"q": 3735
+},
+{
+"word": "die Notwendigkeit",
+"m": {
+"es": "la necesidad · pl. die Notwendigkeiten",
+"en": "necessity · pl. die Notwendigkeiten"
+},
+"pos": "noun",
+"w": "die Notwendigkeit",
+"p": "",
+"g": "f",
+"pl": "Notwendigkeiten",
+"unit": null,
+"u": "",
+"q": 3736
+},
+{
+"word": "nunmehr",
+"m": {
+"es": "ahora",
+"en": "now"
+},
+"pos": "",
+"w": "nunmehr",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3737
+},
+{
+"word": "der Nutzer",
+"m": {
+"es": "el usuario · pl. die Nutzer",
+"en": "user · pl. die Nutzer"
+},
+"pos": "noun",
+"w": "der Nutzer",
+"p": "",
+"g": "m",
+"pl": "Nutzer",
+"unit": null,
+"u": "",
+"q": 3738
+},
+{
+"word": "die Nutzung",
+"m": {
+"es": "el uso",
+"en": "use"
+},
+"pos": "noun",
+"w": "die Nutzung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3739
+},
+{
+"word": "die Oberfläche",
+"m": {
+"es": "la superficie · pl. die Oberflächen",
+"en": "surface · pl. die Oberflächen"
+},
+"pos": "noun",
+"w": "die Oberfläche",
+"p": "",
+"g": "f",
+"pl": "Oberflächen",
+"unit": null,
+"u": "",
+"q": 3740
+},
+{
+"word": "oberhalb",
+"m": {
+"es": "por encima de",
+"en": "above"
+},
+"pos": "",
+"w": "oberhalb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3741
+},
+{
+"word": "das Objekt",
+"m": {
+"es": "el objeto · pl. die Objekte",
+"en": "object · pl. die Objekte"
+},
+"pos": "noun",
+"w": "das Objekt",
+"p": "",
+"g": "n",
+"pl": "Objekte",
+"unit": null,
+"u": "",
+"q": 3742
+},
+{
+"word": "objektiv",
+"m": {
+"es": "objetivo",
+"en": "objective"
+},
+"pos": "",
+"w": "objektiv",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3743
+},
+{
+"word": "offensichtlich",
+"m": {
+"es": "evidente",
+"en": "obvious"
+},
+"pos": "",
+"w": "offensichtlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3744
+},
+{
+"word": "oftmals",
+"m": {
+"es": "a menudo",
+"en": "often"
+},
+"pos": "",
+"w": "oftmals",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3745
+},
+{
+"word": "ohnehin",
+"m": {
+"es": "de todos modos",
+"en": "anyway"
+},
+"pos": "verb",
+"w": "ohnehin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3746
+},
+{
+"word": "die Opposition",
+"m": {
+"es": "la oposición · pl. die Oppositionen",
+"en": "opposition · pl. die Oppositionen"
+},
+"pos": "noun",
+"w": "die Opposition",
+"p": "",
+"g": "f",
+"pl": "Oppositionen",
+"unit": null,
+"u": "",
+"q": 3747
+},
+{
+"word": "die Option",
+"m": {
+"es": "la opción · pl. die Optionen",
+"en": "option · pl. die Optionen"
+},
+"pos": "noun",
+"w": "die Option",
+"p": "",
+"g": "f",
+"pl": "Optionen",
+"unit": null,
+"u": "",
+"q": 3748
+},
+{
+"word": "die Organisation",
+"m": {
+"es": "la organización · pl. die Organisationen",
+"en": "organisation · pl. die Organisationen"
+},
+"pos": "noun",
+"w": "die Organisation",
+"p": "",
+"g": "f",
+"pl": "Organisationen",
+"unit": null,
+"u": "",
+"q": 3749
+},
+{
+"word": "die Orientierung",
+"m": {
+"es": "la orientación",
+"en": "orientation"
+},
+"pos": "noun",
+"w": "die Orientierung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3750
+},
+{
+"word": "die Panik",
+"m": {
+"es": "el pánico",
+"en": "panic"
+},
+"pos": "noun",
+"w": "die Panik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3751
+},
+{
+"word": "das Parlament",
+"m": {
+"es": "el parlamento · pl. die Parlamente",
+"en": "parliament · pl. die Parlamente"
+},
+"pos": "noun",
+"w": "das Parlament",
+"p": "",
+"g": "n",
+"pl": "Parlamente",
+"unit": null,
+"u": "",
+"q": 3752
+},
+{
+"word": "die Partei",
+"m": {
+"es": "el partido · pl. die Parteien",
+"en": "party · pl. die Parteien"
+},
+"pos": "noun",
+"w": "die Partei",
+"p": "",
+"g": "f",
+"pl": "Parteien",
+"unit": null,
+"u": "",
+"q": 3753
+},
+{
+"word": "die Partnerschaft",
+"m": {
+"es": "la relación de pareja · pl. die Partnerschaften",
+"en": "partnership · pl. die Partnerschaften"
+},
+"pos": "noun",
+"w": "die Partnerschaft",
+"p": "",
+"g": "f",
+"pl": "Partnerschaften",
+"unit": null,
+"u": "",
+"q": 3754
+},
+{
+"word": "passend",
+"m": {
+"es": "adecuado",
+"en": "suitable"
+},
+"pos": "",
+"w": "passend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3755
+},
+{
+"word": "die Patchworkfamilie",
+"m": {
+"es": "la familia reconstituida · pl. die Patchworkfamilien",
+"en": "blended family · pl. die Patchworkfamilien"
+},
+"pos": "noun",
+"w": "die Patchworkfamilie",
+"p": "",
+"g": "f",
+"pl": "Patchworkfamilien",
+"unit": null,
+"u": "",
+"q": 3756
+},
+{
+"word": "die Perspektive",
+"m": {
+"es": "la perspectiva · pl. die Perspektiven",
+"en": "perspective · pl. die Perspektiven"
+},
+"pos": "noun",
+"w": "die Perspektive",
+"p": "",
+"g": "f",
+"pl": "Perspektiven",
+"unit": null,
+"u": "",
+"q": 3757
+},
+{
+"word": "die Persönlichkeit",
+"m": {
+"es": "la personalidad · pl. die Persönlichkeiten",
+"en": "personality · pl. die Persönlichkeiten"
+},
+"pos": "noun",
+"w": "die Persönlichkeit",
+"p": "",
+"g": "f",
+"pl": "Persönlichkeiten",
+"unit": null,
+"u": "",
+"q": 3758
+},
+{
+"word": "die Pflegekraft",
+"m": {
+"es": "el cuidador profesional · pl. die Pflegekräfte",
+"en": "care worker · pl. die Pflegekräfte"
+},
+"pos": "noun",
+"w": "die Pflegekraft",
+"p": "",
+"g": "f",
+"pl": "Pflegekräfte",
+"unit": null,
+"u": "",
+"q": 3759
+},
+{
+"word": "die Phase",
+"m": {
+"es": "la fase · pl. die Phasen",
+"en": "phase · pl. die Phasen"
+},
+"pos": "noun",
+"w": "die Phase",
+"p": "",
+"g": "f",
+"pl": "Phasen",
+"unit": null,
+"u": "",
+"q": 3760
+},
+{
+"word": "die Philosophie",
+"m": {
+"es": "la filosofía · pl. die Philosophien",
+"en": "philosophy · pl. die Philosophien"
+},
+"pos": "noun",
+"w": "die Philosophie",
+"p": "",
+"g": "f",
+"pl": "Philosophien",
+"unit": null,
+"u": "",
+"q": 3761
+},
+{
+"word": "die Physik",
+"m": {
+"es": "la física",
+"en": "physics"
+},
+"pos": "noun",
+"w": "die Physik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3762
+},
+{
+"word": "das Phänomen",
+"m": {
+"es": "el fenómeno · pl. die Phänomene",
+"en": "phenomenon · pl. die Phänomene"
+},
+"pos": "noun",
+"w": "das Phänomen",
+"p": "",
+"g": "n",
+"pl": "Phänomene",
+"unit": null,
+"u": "",
+"q": 3763
+},
+{
+"word": "der Plastikmüll",
+"m": {
+"es": "los residuos de plástico",
+"en": "plastic waste"
+},
+"pos": "noun",
+"w": "der Plastikmüll",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3764
+},
+{
+"word": "die Plattform",
+"m": {
+"es": "la plataforma · pl. die Plattformen",
+"en": "platform · pl. die Plattformen"
+},
+"pos": "noun",
+"w": "die Plattform",
+"p": "",
+"g": "f",
+"pl": "Plattformen",
+"unit": null,
+"u": "",
+"q": 3765
+},
+{
+"word": "die Position",
+"m": {
+"es": "la posición · pl. die Positionen",
+"en": "position · pl. die Positionen"
+},
+"pos": "noun",
+"w": "die Position",
+"p": "",
+"g": "f",
+"pl": "Positionen",
+"unit": null,
+"u": "",
+"q": 3766
+},
+{
+"word": "posten",
+"m": {
+"es": "publicar (en redes)",
+"en": "to post"
+},
+"pos": "verb",
+"w": "posten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3767
+},
+{
+"word": "die Premiere",
+"m": {
+"es": "el estreno · pl. die Premieren",
+"en": "premiere · pl. die Premieren"
+},
+"pos": "noun",
+"w": "die Premiere",
+"p": "",
+"g": "f",
+"pl": "Premieren",
+"unit": null,
+"u": "",
+"q": 3768
+},
+{
+"word": "die Pressefreiheit",
+"m": {
+"es": "la libertad de prensa",
+"en": "freedom of the press"
+},
+"pos": "noun",
+"w": "die Pressefreiheit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3769
+},
+{
+"word": "das Prinzip",
+"m": {
+"es": "el principio · pl. die Prinzipien",
+"en": "principle · pl. die Prinzipien"
+},
+"pos": "noun",
+"w": "das Prinzip",
+"p": "",
+"g": "n",
+"pl": "Prinzipien",
+"unit": null,
+"u": "",
+"q": 3770
+},
+{
+"word": "die Probe",
+"m": {
+"es": "la prueba; el ensayo · pl. die Proben",
+"en": "test; rehearsal · pl. die Proben"
+},
+"pos": "noun",
+"w": "die Probe",
+"p": "",
+"g": "f",
+"pl": "Proben",
+"unit": null,
+"u": "",
+"q": 3771
+},
+{
+"word": "die Probezeit",
+"m": {
+"es": "el período de prueba · pl. die Probezeiten",
+"en": "probation period · pl. die Probezeiten"
+},
+"pos": "noun",
+"w": "die Probezeit",
+"p": "",
+"g": "f",
+"pl": "Probezeiten",
+"unit": null,
+"u": "",
+"q": 3772
+},
+{
+"word": "problemlos",
+"m": {
+"es": "sin problemas",
+"en": "easily"
+},
+"pos": "",
+"w": "problemlos",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3773
+},
+{
+"word": "das Profil",
+"m": {
+"es": "el perfil · pl. die Profile",
+"en": "profile · pl. die Profile"
+},
+"pos": "noun",
+"w": "das Profil",
+"p": "",
+"g": "n",
+"pl": "Profile",
+"unit": null,
+"u": "",
+"q": 3774
+},
+{
+"word": "profitieren",
+"m": {
+"es": "beneficiarse",
+"en": "to benefit"
+},
+"pos": "verb",
+"w": "profitieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3775
+},
+{
+"word": "programmieren",
+"m": {
+"es": "programar",
+"en": "to program"
+},
+"pos": "verb",
+"w": "programmieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3776
+},
+{
+"word": "die Promotion",
+"m": {
+"es": "el doctorado · pl. die Promotionen",
+"en": "doctorate · pl. die Promotionen"
+},
+"pos": "noun",
+"w": "die Promotion",
+"p": "",
+"g": "f",
+"pl": "Promotionen",
+"unit": null,
+"u": "",
+"q": 3777
+},
+{
+"word": "die Propaganda",
+"m": {
+"es": "la propaganda",
+"en": "propaganda"
+},
+"pos": "noun",
+"w": "die Propaganda",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3778
+},
+{
+"word": "das Protokoll",
+"m": {
+"es": "el acta, el protocolo · pl. die Protokolle",
+"en": "minutes, record · pl. die Protokolle"
+},
+"pos": "noun",
+"w": "das Protokoll",
+"p": "",
+"g": "n",
+"pl": "Protokolle",
+"unit": null,
+"u": "",
+"q": 3779
+},
+{
+"word": "die Provinz",
+"m": {
+"es": "la provincia · pl. die Provinzen",
+"en": "province · pl. die Provinzen"
+},
+"pos": "noun",
+"w": "die Provinz",
+"p": "",
+"g": "f",
+"pl": "Provinzen",
+"unit": null,
+"u": "",
+"q": 3780
+},
+{
+"word": "das Prozent",
+"m": {
+"es": "el por ciento · pl. die Prozente",
+"en": "per cent · pl. die Prozente"
+},
+"pos": "noun",
+"w": "das Prozent",
+"p": "",
+"g": "n",
+"pl": "Prozente",
+"unit": null,
+"u": "",
+"q": 3781
+},
+{
+"word": "psychisch",
+"m": {
+"es": "psíquico",
+"en": "psychological"
+},
+"pos": "",
+"w": "psychisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3782
+},
+{
+"word": "die Psychologie",
+"m": {
+"es": "la psicología",
+"en": "psychology"
+},
+"pos": "noun",
+"w": "die Psychologie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3783
+},
+{
+"word": "qualifiziert",
+"m": {
+"es": "cualificado",
+"en": "qualified"
+},
+"pos": "",
+"w": "qualifiziert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3784
+},
+{
+"word": "quasi",
+"m": {
+"es": "prácticamente",
+"en": "more or less"
+},
+"pos": "",
+"w": "quasi",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3785
+},
+{
+"word": "der Rahmen",
+"m": {
+"es": "el marco · pl. die Rahmen",
+"en": "framework, frame · pl. die Rahmen"
+},
+"pos": "noun",
+"w": "der Rahmen",
+"p": "",
+"g": "m",
+"pl": "Rahmen",
+"unit": null,
+"u": "",
+"q": 3786
+},
+{
+"word": "der Rang",
+"m": {
+"es": "el rango · pl. die Ränge",
+"en": "rank · pl. die Ränge"
+},
+"pos": "noun",
+"w": "der Rang",
+"p": "",
+"g": "m",
+"pl": "Ränge",
+"unit": null,
+"u": "",
+"q": 3787
+},
+{
+"word": "rasch",
+"m": {
+"es": "rápido",
+"en": "quick"
+},
+"pos": "",
+"w": "rasch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3788
+},
+{
+"word": "recherchieren",
+"m": {
+"es": "investigar, documentarse",
+"en": "to research"
+},
+"pos": "verb",
+"w": "recherchieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3789
+},
+{
+"word": "recyceln",
+"m": {
+"es": "reciclar",
+"en": "to recycle"
+},
+"pos": "verb",
+"w": "recyceln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3790
+},
+{
+"word": "das Recycling",
+"m": {
+"es": "el reciclaje",
+"en": "recycling"
+},
+"pos": "noun",
+"w": "das Recycling",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3791
+},
+{
+"word": "die Redaktion",
+"m": {
+"es": "la redacción · pl. die Redaktionen",
+"en": "editorial office · pl. die Redaktionen"
+},
+"pos": "noun",
+"w": "die Redaktion",
+"p": "",
+"g": "f",
+"pl": "Redaktionen",
+"unit": null,
+"u": "",
+"q": 3792
+},
+{
+"word": "die Regelung",
+"m": {
+"es": "la regulación, la normativa · pl. die Regelungen",
+"en": "regulation · pl. die Regelungen"
+},
+"pos": "noun",
+"w": "die Regelung",
+"p": "",
+"g": "f",
+"pl": "Regelungen",
+"unit": null,
+"u": "",
+"q": 3793
+},
+{
+"word": "die Regie",
+"m": {
+"es": "la dirección (artística)",
+"en": "direction"
+},
+"pos": "noun",
+"w": "die Regie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3794
+},
+{
+"word": "regieren",
+"m": {
+"es": "gobernar",
+"en": "to govern"
+},
+"pos": "verb",
+"w": "regieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3795
+},
+{
+"word": "der Regisseur",
+"m": {
+"es": "el director (de cine, teatro) · pl. die Regisseure",
+"en": "director · pl. die Regisseure"
+},
+"pos": "noun",
+"w": "der Regisseur",
+"p": "",
+"g": "m",
+"pl": "Regisseure",
+"unit": null,
+"u": "",
+"q": 3796
+},
+{
+"word": "die Reichweite",
+"m": {
+"es": "el alcance · pl. die Reichweiten",
+"en": "range, reach · pl. die Reichweiten"
+},
+"pos": "noun",
+"w": "die Reichweite",
+"p": "",
+"g": "f",
+"pl": "Reichweiten",
+"unit": null,
+"u": "",
+"q": 3797
+},
+{
+"word": "reklamieren",
+"m": {
+"es": "reclamar",
+"en": "to complain (about goods)"
+},
+"pos": "verb",
+"w": "reklamieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3798
+},
+{
+"word": "religiös",
+"m": {
+"es": "religioso",
+"en": "religious"
+},
+"pos": "",
+"w": "religiös",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3799
+},
+{
+"word": "die Republik",
+"m": {
+"es": "la república · pl. die Republiken",
+"en": "republic · pl. die Republiken"
+},
+"pos": "noun",
+"w": "die Republik",
+"p": "",
+"g": "f",
+"pl": "Republiken",
+"unit": null,
+"u": "",
+"q": 3800
+},
+{
+"word": "die Ressource",
+"m": {
+"es": "el recurso · pl. die Ressourcen",
+"en": "resource · pl. die Ressourcen"
+},
+"pos": "noun",
+"w": "die Ressource",
+"p": "",
+"g": "f",
+"pl": "Ressourcen",
+"unit": null,
+"u": "",
+"q": 3801
+},
+{
+"word": "die Rettung",
+"m": {
+"es": "el rescate · pl. die Rettungen",
+"en": "rescue · pl. die Rettungen"
+},
+"pos": "noun",
+"w": "die Rettung",
+"p": "",
+"g": "f",
+"pl": "Rettungen",
+"unit": null,
+"u": "",
+"q": 3802
+},
+{
+"word": "die Revolution",
+"m": {
+"es": "la revolución · pl. die Revolutionen",
+"en": "revolution · pl. die Revolutionen"
+},
+"pos": "noun",
+"w": "die Revolution",
+"p": "",
+"g": "f",
+"pl": "Revolutionen",
+"unit": null,
+"u": "",
+"q": 3803
+},
+{
+"word": "richten",
+"m": {
+"es": "dirigir",
+"en": "to direct"
+},
+"pos": "verb",
+"w": "richten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3804
+},
+{
+"word": "sich richten nach",
+"m": {
+"es": "guiarse por",
+"en": "to go by"
+},
+"pos": "",
+"w": "sich richten nach",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3805
+},
+{
+"word": "der Roboter",
+"m": {
+"es": "el robot · pl. die Roboter",
+"en": "robot · pl. die Roboter"
+},
+"pos": "noun",
+"w": "der Roboter",
+"p": "",
+"g": "m",
+"pl": "Roboter",
+"unit": null,
+"u": "",
+"q": 3806
+},
+{
+"word": "der Rohstoff",
+"m": {
+"es": "la materia prima · pl. die Rohstoffe",
+"en": "raw material · pl. die Rohstoffe"
+},
+"pos": "noun",
+"w": "der Rohstoff",
+"p": "",
+"g": "m",
+"pl": "Rohstoffe",
+"unit": null,
+"u": "",
+"q": 3807
+},
+{
+"word": "der Rundfunk",
+"m": {
+"es": "la radiodifusión",
+"en": "broadcasting"
+},
+"pos": "noun",
+"w": "der Rundfunk",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3808
+},
+{
+"word": "der Rücktritt",
+"m": {
+"es": "la dimisión · pl. die Rücktritte",
+"en": "resignation · pl. die Rücktritte"
+},
+"pos": "noun",
+"w": "der Rücktritt",
+"p": "",
+"g": "m",
+"pl": "Rücktritte",
+"unit": null,
+"u": "",
+"q": 3809
+},
+{
+"word": "sachlich",
+"m": {
+"es": "objetivo, neutral",
+"en": "factual, objective"
+},
+"pos": "",
+"w": "sachlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3810
+},
+{
+"word": "die Sammlung",
+"m": {
+"es": "la colección · pl. die Sammlungen",
+"en": "collection · pl. die Sammlungen"
+},
+"pos": "noun",
+"w": "die Sammlung",
+"p": "",
+"g": "f",
+"pl": "Sammlungen",
+"unit": null,
+"u": "",
+"q": 3811
+},
+{
+"word": "die Scham",
+"m": {
+"es": "la vergüenza",
+"en": "shame"
+},
+"pos": "noun",
+"w": "die Scham",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3812
+},
+{
+"word": "scheinbar",
+"m": {
+"es": "aparentemente",
+"en": "seemingly"
+},
+"pos": "",
+"w": "scheinbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3813
+},
+{
+"word": "scheitern",
+"m": {
+"es": "fracasar",
+"en": "to fail"
+},
+"pos": "verb",
+"w": "scheitern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3814
+},
+{
+"word": "die Schicht",
+"m": {
+"es": "el turno; la capa · pl. die Schichten",
+"en": "shift; layer · pl. die Schichten"
+},
+"pos": "noun",
+"w": "die Schicht",
+"p": "",
+"g": "f",
+"pl": "Schichten",
+"unit": null,
+"u": "",
+"q": 3815
+},
+{
+"word": "das Schicksal",
+"m": {
+"es": "el destino · pl. die Schicksale",
+"en": "fate · pl. die Schicksale"
+},
+"pos": "noun",
+"w": "das Schicksal",
+"p": "",
+"g": "n",
+"pl": "Schicksale",
+"unit": null,
+"u": "",
+"q": 3816
+},
+{
+"word": "schildern",
+"m": {
+"es": "describir, relatar",
+"en": "to describe"
+},
+"pos": "verb",
+"w": "schildern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3817
+},
+{
+"word": "die Schlagzeile",
+"m": {
+"es": "el titular · pl. die Schlagzeilen",
+"en": "headline · pl. die Schlagzeilen"
+},
+"pos": "noun",
+"w": "die Schlagzeile",
+"p": "",
+"g": "f",
+"pl": "Schlagzeilen",
+"unit": null,
+"u": "",
+"q": 3818
+},
+{
+"word": "schlau",
+"m": {
+"es": "listo",
+"en": "clever"
+},
+"pos": "",
+"w": "schlau",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3819
+},
+{
+"word": "schlicht",
+"m": {
+"es": "simple",
+"en": "simple, plain"
+},
+"pos": "",
+"w": "schlicht",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3820
+},
+{
+"word": "der Schnitt",
+"m": {
+"es": "el corte; la media · pl. die Schnitte",
+"en": "cut; average · pl. die Schnitte"
+},
+"pos": "noun",
+"w": "der Schnitt",
+"p": "",
+"g": "m",
+"pl": "Schnitte",
+"unit": null,
+"u": "",
+"q": 3821
+},
+{
+"word": "schonen",
+"m": {
+"es": "cuidar, proteger",
+"en": "to protect, to spare"
+},
+"pos": "verb",
+"w": "schonen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3822
+},
+{
+"word": "schulden",
+"m": {
+"es": "deber (dinero)",
+"en": "to owe"
+},
+"pos": "verb",
+"w": "schulden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3823
+},
+{
+"word": "schwanken",
+"m": {
+"es": "oscilar",
+"en": "to fluctuate"
+},
+"pos": "verb",
+"w": "schwanken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3824
+},
+{
+"word": "der Schwerpunkt",
+"m": {
+"es": "el punto central, la prioridad · pl. die Schwerpunkte",
+"en": "focus, emphasis · pl. die Schwerpunkte"
+},
+"pos": "noun",
+"w": "der Schwerpunkt",
+"p": "",
+"g": "m",
+"pl": "Schwerpunkte",
+"unit": null,
+"u": "",
+"q": 3825
+},
+{
+"word": "seelisch",
+"m": {
+"es": "anímico, psíquico",
+"en": "mental, emotional"
+},
+"pos": "",
+"w": "seelisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3826
+},
+{
+"word": "die Sehnsucht",
+"m": {
+"es": "el anhelo, la nostalgia · pl. die Sehnsüchte",
+"en": "longing · pl. die Sehnsüchte"
+},
+"pos": "noun",
+"w": "die Sehnsucht",
+"p": "",
+"g": "f",
+"pl": "Sehnsüchte",
+"unit": null,
+"u": "",
+"q": 3827
+},
+{
+"word": "seitens",
+"m": {
+"es": "por parte de",
+"en": "on the part of"
+},
+"pos": "",
+"w": "seitens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3828
+},
+{
+"word": "seither",
+"m": {
+"es": "desde entonces",
+"en": "since then"
+},
+"pos": "",
+"w": "seither",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3829
+},
+{
+"word": "selbst wenn",
+"m": {
+"es": "incluso si",
+"en": "even if"
+},
+"pos": "",
+"w": "selbst wenn",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3830
+},
+{
+"word": "selbstbewusst",
+"m": {
+"es": "seguro de sí mismo",
+"en": "self-confident"
+},
+"pos": "",
+"w": "selbstbewusst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3831
+},
+{
+"word": "das Selbstbewusstsein",
+"m": {
+"es": "la seguridad en uno mismo",
+"en": "self-confidence"
+},
+"pos": "noun",
+"w": "das Selbstbewusstsein",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3832
+},
+{
+"word": "der Senat",
+"m": {
+"es": "el senado · pl. die Senate",
+"en": "senate · pl. die Senate"
+},
+"pos": "noun",
+"w": "der Senat",
+"p": "",
+"g": "m",
+"pl": "Senate",
+"unit": null,
+"u": "",
+"q": 3833
+},
+{
+"word": "senken",
+"m": {
+"es": "bajar, reducir",
+"en": "to lower"
+},
+"pos": "verb",
+"w": "senken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3834
+},
+{
+"word": "der Server",
+"m": {
+"es": "el servidor · pl. die Server",
+"en": "server · pl. die Server"
+},
+"pos": "noun",
+"w": "der Server",
+"p": "",
+"g": "m",
+"pl": "Server",
+"unit": null,
+"u": "",
+"q": 3835
+},
+{
+"word": "die Show",
+"m": {
+"es": "el espectáculo · pl. die Shows",
+"en": "show · pl. die Shows"
+},
+"pos": "noun",
+"w": "die Show",
+"p": "",
+"g": "f",
+"pl": "Shows",
+"unit": null,
+"u": "",
+"q": 3836
+},
+{
+"word": "sicherlich",
+"m": {
+"es": "seguramente",
+"en": "certainly"
+},
+"pos": "",
+"w": "sicherlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3837
+},
+{
+"word": "die Sicht",
+"m": {
+"es": "la vista; el punto de vista",
+"en": "view; point of view"
+},
+"pos": "noun",
+"w": "die Sicht",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3838
+},
+{
+"word": "das Signal",
+"m": {
+"es": "la señal · pl. die Signale",
+"en": "signal · pl. die Signale"
+},
+"pos": "noun",
+"w": "das Signal",
+"p": "",
+"g": "n",
+"pl": "Signale",
+"unit": null,
+"u": "",
+"q": 3839
+},
+{
+"word": "die Sitzung",
+"m": {
+"es": "la sesión, la reunión · pl. die Sitzungen",
+"en": "meeting, session · pl. die Sitzungen"
+},
+"pos": "noun",
+"w": "die Sitzung",
+"p": "",
+"g": "f",
+"pl": "Sitzungen",
+"unit": null,
+"u": "",
+"q": 3840
+},
+{
+"word": "der Skandal",
+"m": {
+"es": "el escándalo · pl. die Skandale",
+"en": "scandal · pl. die Skandale"
+},
+"pos": "noun",
+"w": "der Skandal",
+"p": "",
+"g": "m",
+"pl": "Skandale",
+"unit": null,
+"u": "",
+"q": 3841
+},
+{
+"word": "sofern",
+"m": {
+"es": "siempre que",
+"en": "provided that"
+},
+"pos": "verb",
+"w": "sofern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3842
+},
+{
+"word": "die Software",
+"m": {
+"es": "el software · pl. die Softwares",
+"en": "software · pl. die Softwares"
+},
+"pos": "noun",
+"w": "die Software",
+"p": "",
+"g": "f",
+"pl": "Softwares",
+"unit": null,
+"u": "",
+"q": 3843
+},
+{
+"word": "die Solarenergie",
+"m": {
+"es": "la energía solar",
+"en": "solar power"
+},
+"pos": "noun",
+"w": "die Solarenergie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3844
+},
+{
+"word": "die Solidarität",
+"m": {
+"es": "la solidaridad",
+"en": "solidarity"
+},
+"pos": "noun",
+"w": "die Solidarität",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3845
+},
+{
+"word": "somit",
+"m": {
+"es": "por tanto",
+"en": "thus"
+},
+"pos": "",
+"w": "somit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3846
+},
+{
+"word": "soweit",
+"m": {
+"es": "en la medida en que",
+"en": "as far as"
+},
+"pos": "",
+"w": "soweit",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3847
+},
+{
+"word": "sowie",
+"m": {
+"es": "así como",
+"en": "as well as"
+},
+"pos": "",
+"w": "sowie",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3848
+},
+{
+"word": "die sozialen Medien",
+"m": {
+"es": "las redes sociales · (solo plural)",
+"en": "social media · (plural only)"
+},
+"pos": "noun",
+"w": "die sozialen Medien",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3849
+},
+{
+"word": "die Spannung",
+"m": {
+"es": "la tensión; el suspense · pl. die Spannungen",
+"en": "tension; suspense · pl. die Spannungen"
+},
+"pos": "noun",
+"w": "die Spannung",
+"p": "",
+"g": "f",
+"pl": "Spannungen",
+"unit": null,
+"u": "",
+"q": 3850
+},
+{
+"word": "der Speicher",
+"m": {
+"es": "la memoria · pl. die Speicher",
+"en": "memory, storage · pl. die Speicher"
+},
+"pos": "noun",
+"w": "der Speicher",
+"p": "",
+"g": "m",
+"pl": "Speicher",
+"unit": null,
+"u": "",
+"q": 3851
+},
+{
+"word": "das Spektrum",
+"m": {
+"es": "el espectro, la gama · pl. die Spektren",
+"en": "spectrum, range · pl. die Spektren"
+},
+"pos": "noun",
+"w": "das Spektrum",
+"p": "",
+"g": "n",
+"pl": "Spektren",
+"unit": null,
+"u": "",
+"q": 3852
+},
+{
+"word": "spontan",
+"m": {
+"es": "espontáneo",
+"en": "spontaneous"
+},
+"pos": "verb",
+"w": "spontan",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3853
+},
+{
+"word": "der Staat",
+"m": {
+"es": "el Estado · pl. die Staaten",
+"en": "state · pl. die Staaten"
+},
+"pos": "noun",
+"w": "der Staat",
+"p": "",
+"g": "m",
+"pl": "Staaten",
+"unit": null,
+"u": "",
+"q": 3854
+},
+{
+"word": "die Staatsangehörigkeit",
+"m": {
+"es": "la nacionalidad · pl. die Staatsangehörigkeiten",
+"en": "nationality · pl. die Staatsangehörigkeiten"
+},
+"pos": "noun",
+"w": "die Staatsangehörigkeit",
+"p": "",
+"g": "f",
+"pl": "Staatsangehörigkeiten",
+"unit": null,
+"u": "",
+"q": 3855
+},
+{
+"word": "die Staatsanwaltschaft",
+"m": {
+"es": "la fiscalía",
+"en": "public prosecutor's office"
+},
+"pos": "noun",
+"w": "die Staatsanwaltschaft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3856
+},
+{
+"word": "stabil",
+"m": {
+"es": "estable",
+"en": "stable"
+},
+"pos": "",
+"w": "stabil",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3857
+},
+{
+"word": "die Staffel",
+"m": {
+"es": "la temporada (de una serie) · pl. die Staffeln",
+"en": "season (of a series) · pl. die Staffeln"
+},
+"pos": "noun",
+"w": "die Staffel",
+"p": "",
+"g": "f",
+"pl": "Staffeln",
+"unit": null,
+"u": "",
+"q": 3858
+},
+{
+"word": "der Standard",
+"m": {
+"es": "el estándar · pl. die Standards",
+"en": "standard · pl. die Standards"
+},
+"pos": "noun",
+"w": "der Standard",
+"p": "",
+"g": "m",
+"pl": "Standards",
+"unit": null,
+"u": "",
+"q": 3859
+},
+{
+"word": "der Standort",
+"m": {
+"es": "la ubicación, la sede · pl. die Standorte",
+"en": "location, site · pl. die Standorte"
+},
+"pos": "noun",
+"w": "der Standort",
+"p": "",
+"g": "m",
+"pl": "Standorte",
+"unit": null,
+"u": "",
+"q": 3860
+},
+{
+"word": "stattdessen",
+"m": {
+"es": "en su lugar",
+"en": "instead"
+},
+"pos": "verb",
+"w": "stattdessen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3861
+},
+{
+"word": "steigern",
+"m": {
+"es": "aumentar",
+"en": "to increase"
+},
+"pos": "verb",
+"w": "steigern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3862
+},
+{
+"word": "die Steigerung",
+"m": {
+"es": "el aumento · pl. die Steigerungen",
+"en": "increase · pl. die Steigerungen"
+},
+"pos": "noun",
+"w": "die Steigerung",
+"p": "",
+"g": "f",
+"pl": "Steigerungen",
+"unit": null,
+"u": "",
+"q": 3863
+},
+{
+"word": "die Stellung",
+"m": {
+"es": "la posición, el puesto · pl. die Stellungen",
+"en": "position · pl. die Stellungen"
+},
+"pos": "noun",
+"w": "die Stellung",
+"p": "",
+"g": "f",
+"pl": "Stellungen",
+"unit": null,
+"u": "",
+"q": 3864
+},
+{
+"word": "stets",
+"m": {
+"es": "siempre",
+"en": "always"
+},
+"pos": "",
+"w": "stets",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3865
+},
+{
+"word": "die Steuererklärung",
+"m": {
+"es": "la declaración de la renta · pl. die Steuererklärungen",
+"en": "tax return · pl. die Steuererklärungen"
+},
+"pos": "noun",
+"w": "die Steuererklärung",
+"p": "",
+"g": "f",
+"pl": "Steuererklärungen",
+"unit": null,
+"u": "",
+"q": 3866
+},
+{
+"word": "die Strategie",
+"m": {
+"es": "la estrategia · pl. die Strategien",
+"en": "strategy · pl. die Strategien"
+},
+"pos": "noun",
+"w": "die Strategie",
+"p": "",
+"g": "f",
+"pl": "Strategien",
+"unit": null,
+"u": "",
+"q": 3867
+},
+{
+"word": "die Struktur",
+"m": {
+"es": "la estructura · pl. die Strukturen",
+"en": "structure · pl. die Strukturen"
+},
+"pos": "noun",
+"w": "die Struktur",
+"p": "",
+"g": "f",
+"pl": "Strukturen",
+"unit": null,
+"u": "",
+"q": 3868
+},
+{
+"word": "das Studienfach",
+"m": {
+"es": "la carrera, la asignatura · pl. die Studienfächer",
+"en": "subject (of study) · pl. die Studienfächer"
+},
+"pos": "noun",
+"w": "das Studienfach",
+"p": "",
+"g": "n",
+"pl": "Studienfächer",
+"unit": null,
+"u": "",
+"q": 3869
+},
+{
+"word": "der Studiengang",
+"m": {
+"es": "la titulación, la carrera · pl. die Studiengänge",
+"en": "degree programme · pl. die Studiengänge"
+},
+"pos": "noun",
+"w": "der Studiengang",
+"p": "",
+"g": "m",
+"pl": "Studiengänge",
+"unit": null,
+"u": "",
+"q": 3870
+},
+{
+"word": "die Studiengebühr",
+"m": {
+"es": "la tasa universitaria · pl. die Studiengebühren",
+"en": "tuition fee · pl. die Studiengebühren"
+},
+"pos": "noun",
+"w": "die Studiengebühr",
+"p": "",
+"g": "f",
+"pl": "Studiengebühren",
+"unit": null,
+"u": "",
+"q": 3871
+},
+{
+"word": "die Stärke",
+"m": {
+"es": "la fuerza; el punto fuerte · pl. die Stärken",
+"en": "strength · pl. die Stärken"
+},
+"pos": "noun",
+"w": "die Stärke",
+"p": "",
+"g": "f",
+"pl": "Stärken",
+"unit": null,
+"u": "",
+"q": 3872
+},
+{
+"word": "stärken",
+"m": {
+"es": "fortalecer",
+"en": "to strengthen"
+},
+"pos": "verb",
+"w": "stärken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3873
+},
+{
+"word": "subjektiv",
+"m": {
+"es": "subjetivo",
+"en": "subjective"
+},
+"pos": "",
+"w": "subjektiv",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3874
+},
+{
+"word": "das Tagebuch",
+"m": {
+"es": "el diario · pl. die Tagebücher",
+"en": "diary · pl. die Tagebücher"
+},
+"pos": "noun",
+"w": "das Tagebuch",
+"p": "",
+"g": "n",
+"pl": "Tagebücher",
+"unit": null,
+"u": "",
+"q": 3875
+},
+{
+"word": "die Tagesordnung",
+"m": {
+"es": "el orden del día · pl. die Tagesordnungen",
+"en": "agenda · pl. die Tagesordnungen"
+},
+"pos": "noun",
+"w": "die Tagesordnung",
+"p": "",
+"g": "f",
+"pl": "Tagesordnungen",
+"unit": null,
+"u": "",
+"q": 3876
+},
+{
+"word": "der Tarifvertrag",
+"m": {
+"es": "el convenio colectivo · pl. die Tarifverträge",
+"en": "collective agreement · pl. die Tarifverträge"
+},
+"pos": "noun",
+"w": "der Tarifvertrag",
+"p": "",
+"g": "m",
+"pl": "Tarifverträge",
+"unit": null,
+"u": "",
+"q": 3877
+},
+{
+"word": "die Tendenz",
+"m": {
+"es": "la tendencia · pl. die Tendenzen",
+"en": "tendency · pl. die Tendenzen"
+},
+"pos": "noun",
+"w": "die Tendenz",
+"p": "",
+"g": "f",
+"pl": "Tendenzen",
+"unit": null,
+"u": "",
+"q": 3878
+},
+{
+"word": "die Theologie",
+"m": {
+"es": "la teología",
+"en": "theology"
+},
+"pos": "noun",
+"w": "die Theologie",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3879
+},
+{
+"word": "die Tierart",
+"m": {
+"es": "la especie animal · pl. die Tierarten",
+"en": "animal species · pl. die Tierarten"
+},
+"pos": "noun",
+"w": "die Tierart",
+"p": "",
+"g": "f",
+"pl": "Tierarten",
+"unit": null,
+"u": "",
+"q": 3880
+},
+{
+"word": "die Toleranz",
+"m": {
+"es": "la tolerancia",
+"en": "tolerance"
+},
+"pos": "noun",
+"w": "die Toleranz",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3881
+},
+{
+"word": "die Trauer",
+"m": {
+"es": "el luto, la tristeza",
+"en": "grief"
+},
+"pos": "noun",
+"w": "die Trauer",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3882
+},
+{
+"word": "der Treibhauseffekt",
+"m": {
+"es": "el efecto invernadero",
+"en": "greenhouse effect"
+},
+"pos": "noun",
+"w": "der Treibhauseffekt",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3883
+},
+{
+"word": "das Treibhausgas",
+"m": {
+"es": "el gas de efecto invernadero · pl. die Treibhausgase",
+"en": "greenhouse gas · pl. die Treibhausgase"
+},
+"pos": "noun",
+"w": "das Treibhausgas",
+"p": "",
+"g": "n",
+"pl": "Treibhausgase",
+"unit": null,
+"u": "",
+"q": 3884
+},
+{
+"word": "der Trend",
+"m": {
+"es": "la tendencia · pl. die Trends",
+"en": "trend · pl. die Trends"
+},
+"pos": "noun",
+"w": "der Trend",
+"p": "",
+"g": "m",
+"pl": "Trends",
+"unit": null,
+"u": "",
+"q": 3885
+},
+{
+"word": "tätig",
+"m": {
+"es": "activo; que trabaja (tätig sein als)",
+"en": "active; working"
+},
+"pos": "",
+"w": "tätig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3886
+},
+{
+"word": "um so mehr",
+"m": {
+"es": "tanto más",
+"en": "all the more"
+},
+"pos": "",
+"w": "um so mehr",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3887
+},
+{
+"word": "der Umfang",
+"m": {
+"es": "el volumen, la extensión · pl. die Umfänge",
+"en": "extent, scope · pl. die Umfänge"
+},
+"pos": "noun",
+"w": "der Umfang",
+"p": "",
+"g": "m",
+"pl": "Umfänge",
+"unit": null,
+"u": "",
+"q": 3888
+},
+{
+"word": "das Umfeld",
+"m": {
+"es": "el entorno",
+"en": "environment, surroundings"
+},
+"pos": "noun",
+"w": "das Umfeld",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3889
+},
+{
+"word": "der Umgang",
+"m": {
+"es": "el trato, el manejo",
+"en": "dealing with, handling"
+},
+"pos": "noun",
+"w": "der Umgang",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3890
+},
+{
+"word": "der Umsatz",
+"m": {
+"es": "la facturación · pl. die Umsätze",
+"en": "turnover, sales · pl. die Umsätze"
+},
+"pos": "noun",
+"w": "der Umsatz",
+"p": "",
+"g": "m",
+"pl": "Umsätze",
+"unit": null,
+"u": "",
+"q": 3891
+},
+{
+"word": "umstritten",
+"m": {
+"es": "controvertido",
+"en": "controversial"
+},
+"pos": "verb",
+"w": "umstritten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3892
+},
+{
+"word": "die Umstände",
+"m": {
+"es": "las circunstancias · (solo plural)",
+"en": "circumstances · (plural only)"
+},
+"pos": "noun",
+"w": "die Umstände",
+"p": "",
+"g": "pl",
+"unit": null,
+"u": "",
+"q": 3893
+},
+{
+"word": "umweltfreundlich",
+"m": {
+"es": "ecológico",
+"en": "environmentally friendly"
+},
+"pos": "",
+"w": "umweltfreundlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3894
+},
+{
+"word": "umweltschädlich",
+"m": {
+"es": "perjudicial para el medio ambiente",
+"en": "harmful to the environment"
+},
+"pos": "",
+"w": "umweltschädlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3895
+},
+{
+"word": "unabhängig",
+"m": {
+"es": "independiente",
+"en": "independent"
+},
+"pos": "",
+"w": "unabhängig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3896
+},
+{
+"word": "die Unabhängigkeit",
+"m": {
+"es": "la independencia",
+"en": "independence"
+},
+"pos": "noun",
+"w": "die Unabhängigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3897
+},
+{
+"word": "unangenehm",
+"m": {
+"es": "desagradable",
+"en": "unpleasant"
+},
+"pos": "",
+"w": "unangenehm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3898
+},
+{
+"word": "unendlich",
+"m": {
+"es": "infinito",
+"en": "infinite"
+},
+"pos": "",
+"w": "unendlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3899
+},
+{
+"word": "ungerecht",
+"m": {
+"es": "injusto",
+"en": "unfair"
+},
+"pos": "",
+"w": "ungerecht",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3900
+},
+{
+"word": "das Universum",
+"m": {
+"es": "el universo",
+"en": "universe"
+},
+"pos": "noun",
+"w": "das Universum",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3901
+},
+{
+"word": "unklar",
+"m": {
+"es": "poco claro",
+"en": "unclear"
+},
+"pos": "",
+"w": "unklar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3902
+},
+{
+"word": "unmittelbar",
+"m": {
+"es": "inmediato, directo",
+"en": "immediate, direct"
+},
+"pos": "",
+"w": "unmittelbar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3903
+},
+{
+"word": "unnötig",
+"m": {
+"es": "innecesario",
+"en": "unnecessary"
+},
+"pos": "",
+"w": "unnötig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3904
+},
+{
+"word": "das Unrecht",
+"m": {
+"es": "la injusticia",
+"en": "injustice"
+},
+"pos": "noun",
+"w": "das Unrecht",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3905
+},
+{
+"word": "unsicher",
+"m": {
+"es": "inseguro",
+"en": "uncertain, unsafe"
+},
+"pos": "",
+"w": "unsicher",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3906
+},
+{
+"word": "unterhalb",
+"m": {
+"es": "por debajo de",
+"en": "below"
+},
+"pos": "",
+"w": "unterhalb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3907
+},
+{
+"word": "das Unternehmen",
+"m": {
+"es": "la empresa · pl. die Unternehmen",
+"en": "company · pl. die Unternehmen"
+},
+"pos": "noun",
+"w": "das Unternehmen",
+"p": "",
+"g": "n",
+"pl": "Unternehmen",
+"unit": null,
+"u": "",
+"q": 3908
+},
+{
+"word": "das Update",
+"m": {
+"es": "la actualización · pl. die Updates",
+"en": "update · pl. die Updates"
+},
+"pos": "noun",
+"w": "das Update",
+"p": "",
+"g": "n",
+"pl": "Updates",
+"unit": null,
+"u": "",
+"q": 3909
+},
+{
+"word": "der Ursprung",
+"m": {
+"es": "el origen · pl. die Ursprünge",
+"en": "origin · pl. die Ursprünge"
+},
+"pos": "noun",
+"w": "der Ursprung",
+"p": "",
+"g": "m",
+"pl": "Ursprünge",
+"unit": null,
+"u": "",
+"q": 3910
+},
+{
+"word": "die Variante",
+"m": {
+"es": "la variante · pl. die Varianten",
+"en": "variant · pl. die Varianten"
+},
+"pos": "noun",
+"w": "die Variante",
+"p": "",
+"g": "f",
+"pl": "Varianten",
+"unit": null,
+"u": "",
+"q": 3911
+},
+{
+"word": "verabschieden",
+"m": {
+"es": "aprobar (una ley)",
+"en": "to pass (a law)"
+},
+"pos": "verb",
+"w": "verabschieden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3912
+},
+{
+"word": "sich verabschieden von",
+"m": {
+"es": "despedirse de",
+"en": "to say goodbye to"
+},
+"pos": "",
+"w": "sich verabschieden von",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3913
+},
+{
+"word": "veraltet",
+"m": {
+"es": "anticuado",
+"en": "outdated"
+},
+"pos": "",
+"w": "veraltet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3914
+},
+{
+"word": "der Verbraucher",
+"m": {
+"es": "el consumidor · pl. die Verbraucher",
+"en": "consumer · pl. die Verbraucher"
+},
+"pos": "noun",
+"w": "der Verbraucher",
+"p": "",
+"g": "m",
+"pl": "Verbraucher",
+"unit": null,
+"u": "",
+"q": 3915
+},
+{
+"word": "das Verbrechen",
+"m": {
+"es": "el delito, el crimen · pl. die Verbrechen",
+"en": "crime · pl. die Verbrechen"
+},
+"pos": "noun",
+"w": "das Verbrechen",
+"p": "",
+"g": "n",
+"pl": "Verbrechen",
+"unit": null,
+"u": "",
+"q": 3916
+},
+{
+"word": "verbreiten",
+"m": {
+"es": "difundir",
+"en": "to spread"
+},
+"pos": "verb",
+"w": "verbreiten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3917
+},
+{
+"word": "verbreitet",
+"m": {
+"es": "extendido",
+"en": "widespread"
+},
+"pos": "",
+"w": "verbreitet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3918
+},
+{
+"word": "die Verbreitung",
+"m": {
+"es": "la difusión",
+"en": "spread"
+},
+"pos": "noun",
+"w": "die Verbreitung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3919
+},
+{
+"word": "verdoppeln",
+"m": {
+"es": "duplicar",
+"en": "to double"
+},
+"pos": "verb",
+"w": "verdoppeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3920
+},
+{
+"word": "die Vereinbarkeit",
+"m": {
+"es": "la conciliación",
+"en": "compatibility (e.g. of work and family)"
+},
+"pos": "noun",
+"w": "die Vereinbarkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3921
+},
+{
+"word": "die Vereinbarung",
+"m": {
+"es": "el acuerdo · pl. die Vereinbarungen",
+"en": "agreement · pl. die Vereinbarungen"
+},
+"pos": "noun",
+"w": "die Vereinbarung",
+"p": "",
+"g": "f",
+"pl": "Vereinbarungen",
+"unit": null,
+"u": "",
+"q": 3922
+},
+{
+"word": "die Vereinigung",
+"m": {
+"es": "la asociación; la unificación · pl. die Vereinigungen",
+"en": "association; unification · pl. die Vereinigungen"
+},
+"pos": "noun",
+"w": "die Vereinigung",
+"p": "",
+"g": "f",
+"pl": "Vereinigungen",
+"unit": null,
+"u": "",
+"q": 3923
+},
+{
+"word": "das Verfahren",
+"m": {
+"es": "el procedimiento · pl. die Verfahren",
+"en": "procedure · pl. die Verfahren"
+},
+"pos": "noun",
+"w": "das Verfahren",
+"p": "",
+"g": "n",
+"pl": "Verfahren",
+"unit": null,
+"u": "",
+"q": 3924
+},
+{
+"word": "die Verfassung",
+"m": {
+"es": "la constitución; el estado (de ánimo) · pl. die Verfassungen",
+"en": "constitution; state · pl. die Verfassungen"
+},
+"pos": "noun",
+"w": "die Verfassung",
+"p": "",
+"g": "f",
+"pl": "Verfassungen",
+"unit": null,
+"u": "",
+"q": 3925
+},
+{
+"word": "verfolgen",
+"m": {
+"es": "perseguir; seguir",
+"en": "to pursue; to follow"
+},
+"pos": "verb",
+"w": "verfolgen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3926
+},
+{
+"word": "die Verfolgung",
+"m": {
+"es": "la persecución · pl. die Verfolgungen",
+"en": "persecution, pursuit · pl. die Verfolgungen"
+},
+"pos": "noun",
+"w": "die Verfolgung",
+"p": "",
+"g": "f",
+"pl": "Verfolgungen",
+"unit": null,
+"u": "",
+"q": 3927
+},
+{
+"word": "verfügen über",
+"m": {
+"es": "disponer de",
+"en": "to have at one's disposal"
+},
+"pos": "",
+"w": "verfügen über",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3928
+},
+{
+"word": "vergeben",
+"m": {
+"es": "adjudicar; perdonar · vergibt, vergab, hat vergeben",
+"en": "to award; to forgive · vergibt, vergab, hat vergeben"
+},
+"pos": "verb",
+"w": "vergeben",
+"p": "",
+"pp": "vergibt, vergab, hat vergeben",
+"unit": null,
+"u": "",
+"q": 3929
+},
+{
+"word": "vergleichsweise",
+"m": {
+"es": "comparativamente",
+"en": "comparatively"
+},
+"pos": "",
+"w": "vergleichsweise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3930
+},
+{
+"word": "verhandeln",
+"m": {
+"es": "negociar",
+"en": "to negotiate"
+},
+"pos": "verb",
+"w": "verhandeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3931
+},
+{
+"word": "sich verlassen auf",
+"m": {
+"es": "confiar en",
+"en": "to rely on"
+},
+"pos": "",
+"w": "sich verlassen auf",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3932
+},
+{
+"word": "der Verlauf",
+"m": {
+"es": "el transcurso, la evolución · pl. die Verläufe",
+"en": "course, progress · pl. die Verläufe"
+},
+"pos": "noun",
+"w": "der Verlauf",
+"p": "",
+"g": "m",
+"pl": "Verläufe",
+"unit": null,
+"u": "",
+"q": 3933
+},
+{
+"word": "vermitteln",
+"m": {
+"es": "mediar; transmitir",
+"en": "to mediate; to convey"
+},
+"pos": "verb",
+"w": "vermitteln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3934
+},
+{
+"word": "vermutlich",
+"m": {
+"es": "probablemente",
+"en": "presumably"
+},
+"pos": "",
+"w": "vermutlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3935
+},
+{
+"word": "die Vernunft",
+"m": {
+"es": "la razón, la sensatez",
+"en": "reason, good sense"
+},
+"pos": "noun",
+"w": "die Vernunft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3936
+},
+{
+"word": "die Verordnung",
+"m": {
+"es": "el reglamento, el decreto · pl. die Verordnungen",
+"en": "regulation, decree · pl. die Verordnungen"
+},
+"pos": "noun",
+"w": "die Verordnung",
+"p": "",
+"g": "f",
+"pl": "Verordnungen",
+"unit": null,
+"u": "",
+"q": 3937
+},
+{
+"word": "die Verpackung",
+"m": {
+"es": "el envase · pl. die Verpackungen",
+"en": "packaging · pl. die Verpackungen"
+},
+"pos": "noun",
+"w": "die Verpackung",
+"p": "",
+"g": "f",
+"pl": "Verpackungen",
+"unit": null,
+"u": "",
+"q": 3938
+},
+{
+"word": "die Verpflichtung",
+"m": {
+"es": "la obligación · pl. die Verpflichtungen",
+"en": "obligation, commitment · pl. die Verpflichtungen"
+},
+"pos": "noun",
+"w": "die Verpflichtung",
+"p": "",
+"g": "f",
+"pl": "Verpflichtungen",
+"unit": null,
+"u": "",
+"q": 3939
+},
+{
+"word": "verringern",
+"m": {
+"es": "reducir",
+"en": "to reduce"
+},
+"pos": "verb",
+"w": "verringern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3940
+},
+{
+"word": "die Verschmutzung",
+"m": {
+"es": "la contaminación",
+"en": "pollution"
+},
+"pos": "noun",
+"w": "die Verschmutzung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3941
+},
+{
+"word": "verschwenden",
+"m": {
+"es": "desperdiciar",
+"en": "to waste"
+},
+"pos": "verb",
+"w": "verschwenden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3942
+},
+{
+"word": "die Version",
+"m": {
+"es": "la versión · pl. die Versionen",
+"en": "version · pl. die Versionen"
+},
+"pos": "noun",
+"w": "die Version",
+"p": "",
+"g": "f",
+"pl": "Versionen",
+"unit": null,
+"u": "",
+"q": 3943
+},
+{
+"word": "die Versorgung",
+"m": {
+"es": "el abastecimiento, la atención",
+"en": "supply, care"
+},
+"pos": "noun",
+"w": "die Versorgung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3944
+},
+{
+"word": "verteidigen",
+"m": {
+"es": "defender",
+"en": "to defend"
+},
+"pos": "verb",
+"w": "verteidigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3945
+},
+{
+"word": "die Verteidigung",
+"m": {
+"es": "la defensa",
+"en": "defence"
+},
+"pos": "noun",
+"w": "die Verteidigung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3946
+},
+{
+"word": "die Verteilung",
+"m": {
+"es": "la distribución",
+"en": "distribution"
+},
+"pos": "noun",
+"w": "die Verteilung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3947
+},
+{
+"word": "vertiefen",
+"m": {
+"es": "profundizar",
+"en": "to deepen"
+},
+"pos": "verb",
+"w": "vertiefen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3948
+},
+{
+"word": "vertraut",
+"m": {
+"es": "familiar",
+"en": "familiar"
+},
+"pos": "",
+"w": "vertraut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3949
+},
+{
+"word": "verwirrt",
+"m": {
+"es": "confundido",
+"en": "confused"
+},
+"pos": "",
+"w": "verwirrt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3950
+},
+{
+"word": "der Verzicht",
+"m": {
+"es": "la renuncia",
+"en": "renunciation"
+},
+"pos": "noun",
+"w": "der Verzicht",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3951
+},
+{
+"word": "verzweifelt",
+"m": {
+"es": "desesperado",
+"en": "desperate"
+},
+"pos": "",
+"w": "verzweifelt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3952
+},
+{
+"word": "die Verzweiflung",
+"m": {
+"es": "la desesperación",
+"en": "despair"
+},
+"pos": "noun",
+"w": "die Verzweiflung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3953
+},
+{
+"word": "die Veröffentlichung",
+"m": {
+"es": "la publicación · pl. die Veröffentlichungen",
+"en": "publication · pl. die Veröffentlichungen"
+},
+"pos": "noun",
+"w": "die Veröffentlichung",
+"p": "",
+"g": "f",
+"pl": "Veröffentlichungen",
+"unit": null,
+"u": "",
+"q": 3954
+},
+{
+"word": "die Vielfalt",
+"m": {
+"es": "la diversidad",
+"en": "diversity"
+},
+"pos": "noun",
+"w": "die Vielfalt",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3955
+},
+{
+"word": "vielfältig",
+"m": {
+"es": "diverso",
+"en": "diverse"
+},
+"pos": "",
+"w": "vielfältig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3956
+},
+{
+"word": "vielmehr",
+"m": {
+"es": "más bien",
+"en": "rather"
+},
+"pos": "",
+"w": "vielmehr",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3957
+},
+{
+"word": "die Vielzahl",
+"m": {
+"es": "la multitud, el gran número",
+"en": "large number"
+},
+"pos": "noun",
+"w": "die Vielzahl",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3958
+},
+{
+"word": "der Virus",
+"m": {
+"es": "el virus",
+"en": "virus"
+},
+"pos": "noun",
+"w": "der Virus",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3959
+},
+{
+"word": "die Vision",
+"m": {
+"es": "la visión · pl. die Visionen",
+"en": "vision · pl. die Visionen"
+},
+"pos": "noun",
+"w": "die Vision",
+"p": "",
+"g": "f",
+"pl": "Visionen",
+"unit": null,
+"u": "",
+"q": 3960
+},
+{
+"word": "vollkommen",
+"m": {
+"es": "totalmente",
+"en": "completely"
+},
+"pos": "verb",
+"w": "vollkommen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3961
+},
+{
+"word": "vollständig",
+"m": {
+"es": "completo",
+"en": "complete"
+},
+"pos": "",
+"w": "vollständig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3962
+},
+{
+"word": "vorbeugen",
+"m": {
+"es": "prevenir",
+"en": "to prevent"
+},
+"pos": "verb",
+"w": "vorbeugen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3963
+},
+{
+"word": "das Vorbild",
+"m": {
+"es": "el modelo, el ejemplo · pl. die Vorbilder",
+"en": "role model · pl. die Vorbilder"
+},
+"pos": "noun",
+"w": "das Vorbild",
+"p": "",
+"g": "n",
+"pl": "Vorbilder",
+"unit": null,
+"u": "",
+"q": 3964
+},
+{
+"word": "der Vordergrund",
+"m": {
+"es": "el primer plano",
+"en": "foreground"
+},
+"pos": "noun",
+"w": "der Vordergrund",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3965
+},
+{
+"word": "vorerst",
+"m": {
+"es": "por ahora",
+"en": "for the time being"
+},
+"pos": "",
+"w": "vorerst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3966
+},
+{
+"word": "das Vorfeld",
+"m": {
+"es": "la fase previa",
+"en": "run-up"
+},
+"pos": "noun",
+"w": "das Vorfeld",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3967
+},
+{
+"word": "vorgehen",
+"m": {
+"es": "proceder; adelantar (reloj) · geht vor, ging vor, ist vorgegangen",
+"en": "to proceed; to be fast · geht vor, ging vor, ist vorgegangen"
+},
+"pos": "verb",
+"w": "vorgehen",
+"p": "",
+"pp": "geht vor, ging vor, ist vorgegangen",
+"unit": null,
+"u": "",
+"q": 3968
+},
+{
+"word": "der Vorgesetzte",
+"m": {
+"es": "el superior · pl. die Vorgesetzten",
+"en": "superior · pl. die Vorgesetzten"
+},
+"pos": "noun",
+"w": "der Vorgesetzte",
+"p": "",
+"g": "m",
+"pl": "Vorgesetzten",
+"unit": null,
+"u": "",
+"q": 3969
+},
+{
+"word": "der Vorgänger",
+"m": {
+"es": "el predecesor · pl. die Vorgänger",
+"en": "predecessor · pl. die Vorgänger"
+},
+"pos": "noun",
+"w": "der Vorgänger",
+"p": "",
+"g": "m",
+"pl": "Vorgänger",
+"unit": null,
+"u": "",
+"q": 3970
+},
+{
+"word": "vorhanden",
+"m": {
+"es": "existente, disponible",
+"en": "available, existing"
+},
+"pos": "verb",
+"w": "vorhanden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3971
+},
+{
+"word": "die Vorlage",
+"m": {
+"es": "el modelo; la presentación · pl. die Vorlagen",
+"en": "template; submission · pl. die Vorlagen"
+},
+"pos": "noun",
+"w": "die Vorlage",
+"p": "",
+"g": "f",
+"pl": "Vorlagen",
+"unit": null,
+"u": "",
+"q": 3972
+},
+{
+"word": "die Vorlesung",
+"m": {
+"es": "la clase magistral · pl. die Vorlesungen",
+"en": "lecture · pl. die Vorlesungen"
+},
+"pos": "noun",
+"w": "die Vorlesung",
+"p": "",
+"g": "f",
+"pl": "Vorlesungen",
+"unit": null,
+"u": "",
+"q": 3973
+},
+{
+"word": "vorliegen",
+"m": {
+"es": "existir, estar disponible · liegt vor, lag vor, hat vorgelegen",
+"en": "to be available, to exist · liegt vor, lag vor, hat vorgelegen"
+},
+"pos": "verb",
+"w": "vorliegen",
+"p": "",
+"pp": "liegt vor, lag vor, hat vorgelegen",
+"unit": null,
+"u": "",
+"q": 3974
+},
+{
+"word": "die Vorsorge",
+"m": {
+"es": "la prevención",
+"en": "prevention, check-up"
+},
+"pos": "noun",
+"w": "die Vorsorge",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3975
+},
+{
+"word": "das Vorurteil",
+"m": {
+"es": "el prejuicio · pl. die Vorurteile",
+"en": "prejudice · pl. die Vorurteile"
+},
+"pos": "noun",
+"w": "das Vorurteil",
+"p": "",
+"g": "n",
+"pl": "Vorurteile",
+"unit": null,
+"u": "",
+"q": 3976
+},
+{
+"word": "vorwiegend",
+"m": {
+"es": "predominantemente",
+"en": "mainly"
+},
+"pos": "",
+"w": "vorwiegend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3977
+},
+{
+"word": "das Wachstum",
+"m": {
+"es": "el crecimiento",
+"en": "growth"
+},
+"pos": "noun",
+"w": "das Wachstum",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 3978
+},
+{
+"word": "der Wahlkampf",
+"m": {
+"es": "la campaña electoral · pl. die Wahlkämpfe",
+"en": "election campaign · pl. die Wahlkämpfe"
+},
+"pos": "noun",
+"w": "der Wahlkampf",
+"p": "",
+"g": "m",
+"pl": "Wahlkämpfe",
+"unit": null,
+"u": "",
+"q": 3979
+},
+{
+"word": "die Wahrnehmung",
+"m": {
+"es": "la percepción · pl. die Wahrnehmungen",
+"en": "perception · pl. die Wahrnehmungen"
+},
+"pos": "noun",
+"w": "die Wahrnehmung",
+"p": "",
+"g": "f",
+"pl": "Wahrnehmungen",
+"unit": null,
+"u": "",
+"q": 3980
+},
+{
+"word": "die Wahrscheinlichkeit",
+"m": {
+"es": "la probabilidad · pl. die Wahrscheinlichkeiten",
+"en": "probability · pl. die Wahrscheinlichkeiten"
+},
+"pos": "noun",
+"w": "die Wahrscheinlichkeit",
+"p": "",
+"g": "f",
+"pl": "Wahrscheinlichkeiten",
+"unit": null,
+"u": "",
+"q": 3981
+},
+{
+"word": "der Waldbrand",
+"m": {
+"es": "el incendio forestal · pl. die Waldbrände",
+"en": "forest fire · pl. die Waldbrände"
+},
+"pos": "noun",
+"w": "der Waldbrand",
+"p": "",
+"g": "m",
+"pl": "Waldbrände",
+"unit": null,
+"u": "",
+"q": 3982
+},
+{
+"word": "der Wandel",
+"m": {
+"es": "el cambio",
+"en": "change"
+},
+"pos": "noun",
+"w": "der Wandel",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3983
+},
+{
+"word": "warnen vor",
+"m": {
+"es": "advertir de",
+"en": "to warn about"
+},
+"pos": "",
+"w": "warnen vor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3984
+},
+{
+"word": "die Website",
+"m": {
+"es": "el sitio web · pl. die Websites",
+"en": "website · pl. die Websites"
+},
+"pos": "noun",
+"w": "die Website",
+"p": "",
+"g": "f",
+"pl": "Websites",
+"unit": null,
+"u": "",
+"q": 3985
+},
+{
+"word": "die Wegwerfgesellschaft",
+"m": {
+"es": "la sociedad de usar y tirar",
+"en": "throwaway society"
+},
+"pos": "noun",
+"w": "die Wegwerfgesellschaft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 3986
+},
+{
+"word": "sich wehren",
+"m": {
+"es": "defenderse",
+"en": "to defend oneself"
+},
+"pos": "verb",
+"w": "sich wehren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3987
+},
+{
+"word": "die Weise",
+"m": {
+"es": "la manera · pl. die Weisen",
+"en": "way, manner · pl. die Weisen"
+},
+"pos": "noun",
+"w": "die Weise",
+"p": "",
+"g": "f",
+"pl": "Weisen",
+"unit": null,
+"u": "",
+"q": 3988
+},
+{
+"word": "sich weiterbilden",
+"m": {
+"es": "seguir formándose",
+"en": "to train further"
+},
+"pos": "verb",
+"w": "sich weiterbilden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3989
+},
+{
+"word": "weiterhin",
+"m": {
+"es": "además; seguir (haciendo)",
+"en": "furthermore; still"
+},
+"pos": "verb",
+"w": "weiterhin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3990
+},
+{
+"word": "weitgehend",
+"m": {
+"es": "en gran parte",
+"en": "largely"
+},
+"pos": "",
+"w": "weitgehend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3991
+},
+{
+"word": "die Welle",
+"m": {
+"es": "la ola · pl. die Wellen",
+"en": "wave · pl. die Wellen"
+},
+"pos": "noun",
+"w": "die Welle",
+"p": "",
+"g": "f",
+"pl": "Wellen",
+"unit": null,
+"u": "",
+"q": 3992
+},
+{
+"word": "werben",
+"m": {
+"es": "hacer publicidad · wirbt, warb, hat geworben",
+"en": "to advertise · wirbt, warb, hat geworben"
+},
+"pos": "verb",
+"w": "werben",
+"p": "",
+"pp": "wirbt, warb, hat geworben",
+"unit": null,
+"u": "",
+"q": 3993
+},
+{
+"word": "das Wesen",
+"m": {
+"es": "el ser; la esencia · pl. die Wesen",
+"en": "being; nature · pl. die Wesen"
+},
+"pos": "noun",
+"w": "das Wesen",
+"p": "",
+"g": "n",
+"pl": "Wesen",
+"unit": null,
+"u": "",
+"q": 3994
+},
+{
+"word": "wesentlich",
+"m": {
+"es": "esencial; considerablemente",
+"en": "essential; considerably"
+},
+"pos": "",
+"w": "wesentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3995
+},
+{
+"word": "widerlegen",
+"m": {
+"es": "refutar",
+"en": "to refute"
+},
+"pos": "verb",
+"w": "widerlegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3996
+},
+{
+"word": "der Widerstand",
+"m": {
+"es": "la resistencia · pl. die Widerstände",
+"en": "resistance · pl. die Widerstände"
+},
+"pos": "noun",
+"w": "der Widerstand",
+"p": "",
+"g": "m",
+"pl": "Widerstände",
+"unit": null,
+"u": "",
+"q": 3997
+},
+{
+"word": "wiederum",
+"m": {
+"es": "a su vez",
+"en": "in turn"
+},
+"pos": "",
+"w": "wiederum",
+"p": "",
+"unit": null,
+"u": "",
+"q": 3998
+},
+{
+"word": "der Wille",
+"m": {
+"es": "la voluntad",
+"en": "will"
+},
+"pos": "noun",
+"w": "der Wille",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 3999
+},
+{
+"word": "die Windkraft",
+"m": {
+"es": "la energía eólica",
+"en": "wind power"
+},
+"pos": "noun",
+"w": "die Windkraft",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4000
+},
+{
+"word": "wirtschaftlich",
+"m": {
+"es": "económico",
+"en": "economic"
+},
+"pos": "",
+"w": "wirtschaftlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4001
+},
+{
+"word": "wissenschaftlich",
+"m": {
+"es": "científico",
+"en": "scientific"
+},
+"pos": "",
+"w": "wissenschaftlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4002
+},
+{
+"word": "wobei",
+"m": {
+"es": "si bien; con lo cual",
+"en": "although; whereby"
+},
+"pos": "",
+"w": "wobei",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4003
+},
+{
+"word": "wohingegen",
+"m": {
+"es": "mientras que",
+"en": "whereas"
+},
+"pos": "verb",
+"w": "wohingegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4004
+},
+{
+"word": "die Wohngemeinschaft",
+"m": {
+"es": "el piso compartido · pl. die Wohngemeinschaften",
+"en": "shared flat · pl. die Wohngemeinschaften"
+},
+"pos": "noun",
+"w": "die Wohngemeinschaft",
+"p": "",
+"g": "f",
+"pl": "Wohngemeinschaften",
+"unit": null,
+"u": "",
+"q": 4005
+},
+{
+"word": "womöglich",
+"m": {
+"es": "posiblemente",
+"en": "possibly"
+},
+"pos": "",
+"w": "womöglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4006
+},
+{
+"word": "die Wut",
+"m": {
+"es": "la rabia",
+"en": "rage"
+},
+"pos": "noun",
+"w": "die Wut",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4007
+},
+{
+"word": "der Wähler",
+"m": {
+"es": "el votante · pl. die Wähler",
+"en": "voter · pl. die Wähler"
+},
+"pos": "noun",
+"w": "der Wähler",
+"p": "",
+"g": "m",
+"pl": "Wähler",
+"unit": null,
+"u": "",
+"q": 4008
+},
+{
+"word": "zeitgemäß",
+"m": {
+"es": "moderno, actual",
+"en": "contemporary"
+},
+"pos": "",
+"w": "zeitgemäß",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4009
+},
+{
+"word": "der Zeitraum",
+"m": {
+"es": "el período · pl. die Zeiträume",
+"en": "period of time · pl. die Zeiträume"
+},
+"pos": "noun",
+"w": "der Zeitraum",
+"p": "",
+"g": "m",
+"pl": "Zeiträume",
+"unit": null,
+"u": "",
+"q": 4010
+},
+{
+"word": "zeitweise",
+"m": {
+"es": "temporalmente",
+"en": "at times"
+},
+"pos": "",
+"w": "zeitweise",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4011
+},
+{
+"word": "die Zelle",
+"m": {
+"es": "la célula · pl. die Zellen",
+"en": "cell · pl. die Zellen"
+},
+"pos": "noun",
+"w": "die Zelle",
+"p": "",
+"g": "f",
+"pl": "Zellen",
+"unit": null,
+"u": "",
+"q": 4012
+},
+{
+"word": "die Zerstörung",
+"m": {
+"es": "la destrucción",
+"en": "destruction"
+},
+"pos": "noun",
+"w": "die Zerstörung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4013
+},
+{
+"word": "zudem",
+"m": {
+"es": "además",
+"en": "moreover"
+},
+"pos": "",
+"w": "zudem",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4014
+},
+{
+"word": "zugleich",
+"m": {
+"es": "al mismo tiempo",
+"en": "at the same time"
+},
+"pos": "",
+"w": "zugleich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4015
+},
+{
+"word": "der Zugriff",
+"m": {
+"es": "el acceso · pl. die Zugriffe",
+"en": "access · pl. die Zugriffe"
+},
+"pos": "noun",
+"w": "der Zugriff",
+"p": "",
+"g": "m",
+"pl": "Zugriffe",
+"unit": null,
+"u": "",
+"q": 4016
+},
+{
+"word": "zugunsten",
+"m": {
+"es": "a favor de",
+"en": "in favour of"
+},
+"pos": "verb",
+"w": "zugunsten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4017
+},
+{
+"word": "zulassen",
+"m": {
+"es": "permitir; admitir · lässt zu, ließ zu, hat zugelassen",
+"en": "to allow; to admit · lässt zu, ließ zu, hat zugelassen"
+},
+"pos": "verb",
+"w": "zulassen",
+"p": "",
+"pp": "lässt zu, ließ zu, hat zugelassen",
+"unit": null,
+"u": "",
+"q": 4018
+},
+{
+"word": "zumal",
+"m": {
+"es": "sobre todo porque",
+"en": "especially as"
+},
+"pos": "",
+"w": "zumal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4019
+},
+{
+"word": "zur Sprache bringen",
+"m": {
+"es": "sacar a relucir",
+"en": "to raise (a subject)"
+},
+"pos": "",
+"w": "zur Sprache bringen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4020
+},
+{
+"word": "die Zusammenfassung",
+"m": {
+"es": "el resumen · pl. die Zusammenfassungen",
+"en": "summary · pl. die Zusammenfassungen"
+},
+"pos": "noun",
+"w": "die Zusammenfassung",
+"p": "",
+"g": "f",
+"pl": "Zusammenfassungen",
+"unit": null,
+"u": "",
+"q": 4021
+},
+{
+"word": "zusammenhängen",
+"m": {
+"es": "estar relacionado · hängt zusammen, hing zusammen, hat zusammengehangen",
+"en": "to be connected · hängt zusammen, hing zusammen, hat zusammengehangen"
+},
+"pos": "verb",
+"w": "zusammenhängen",
+"p": "",
+"pp": "hängt zusammen, hing zusammen, hat zusammengehangen",
+"unit": null,
+"u": "",
+"q": 4022
+},
+{
+"word": "die Zuversicht",
+"m": {
+"es": "la confianza (en el futuro)",
+"en": "confidence"
+},
+"pos": "noun",
+"w": "die Zuversicht",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4023
+},
+{
+"word": "zwar … aber",
+"m": {
+"es": "si bien … pero",
+"en": "it's true … but"
+},
+"pos": "",
+"w": "zwar … aber",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4024
+},
+{
+"word": "zweifeln an",
+"m": {
+"es": "dudar de",
+"en": "to doubt"
+},
+"pos": "",
+"w": "zweifeln an",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4025
+},
+{
+"word": "zweitens",
+"m": {
+"es": "en segundo lugar",
+"en": "secondly"
+},
+"pos": "",
+"w": "zweitens",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4026
+},
+{
+"word": "der Ärger",
+"m": {
+"es": "el enfado; los problemas",
+"en": "anger; trouble"
+},
+"pos": "noun",
+"w": "der Ärger",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4027
+},
+{
+"word": "sich ärgern über",
+"m": {
+"es": "enfadarse por",
+"en": "to be annoyed about"
+},
+"pos": "",
+"w": "sich ärgern über",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4028
+},
+{
+"word": "äußern",
+"m": {
+"es": "expresar",
+"en": "to express"
+},
+"pos": "verb",
+"w": "äußern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4029
+},
+{
+"word": "der ökologische Fußabdruck",
+"m": {
+"es": "la huella ecológica",
+"en": "ecological footprint"
+},
+"pos": "noun",
+"w": "der ökologische Fußabdruck",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4030
+},
+{
+"word": "der Überblick",
+"m": {
+"es": "la visión de conjunto",
+"en": "overview"
+},
+"pos": "noun",
+"w": "der Überblick",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4031
+},
+{
+"word": "überdies",
+"m": {
+"es": "además",
+"en": "besides"
+},
+"pos": "",
+"w": "überdies",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4032
+},
+{
+"word": "der Übergang",
+"m": {
+"es": "la transición · pl. die Übergänge",
+"en": "transition · pl. die Übergänge"
+},
+"pos": "noun",
+"w": "der Übergang",
+"p": "",
+"g": "m",
+"pl": "Übergänge",
+"unit": null,
+"u": "",
+"q": 4033
+},
+{
+"word": "das Übergewicht",
+"m": {
+"es": "el sobrepeso",
+"en": "excess weight"
+},
+"pos": "noun",
+"w": "das Übergewicht",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4034
+},
+{
+"word": "überlassen",
+"m": {
+"es": "dejar (en manos de) · überlässt, überließ, hat überlassen",
+"en": "to leave (to) · überlässt, überließ, hat überlassen"
+},
+"pos": "verb",
+"w": "überlassen",
+"p": "",
+"pp": "überlässt, überließ, hat überlassen",
+"unit": null,
+"u": "",
+"q": 4035
+},
+{
+"word": "überleben",
+"m": {
+"es": "sobrevivir",
+"en": "to survive"
+},
+"pos": "verb",
+"w": "überleben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4036
+},
+{
+"word": "die Übernahme",
+"m": {
+"es": "la adquisición · pl. die Übernahmen",
+"en": "takeover · pl. die Übernahmen"
+},
+"pos": "noun",
+"w": "die Übernahme",
+"p": "",
+"g": "f",
+"pl": "Übernahmen",
+"unit": null,
+"u": "",
+"q": 4037
+},
+{
+"word": "überraschend",
+"m": {
+"es": "sorprendente",
+"en": "surprising"
+},
+"pos": "",
+"w": "überraschend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4038
+},
+{
+"word": "die Überschwemmung",
+"m": {
+"es": "la inundación · pl. die Überschwemmungen",
+"en": "flood · pl. die Überschwemmungen"
+},
+"pos": "noun",
+"w": "die Überschwemmung",
+"p": "",
+"g": "f",
+"pl": "Überschwemmungen",
+"unit": null,
+"u": "",
+"q": 4039
+},
+{
+"word": "die Übersicht",
+"m": {
+"es": "la visión general · pl. die Übersichten",
+"en": "overview · pl. die Übersichten"
+},
+"pos": "noun",
+"w": "die Übersicht",
+"p": "",
+"g": "f",
+"pl": "Übersichten",
+"unit": null,
+"u": "",
+"q": 4040
+},
+{
+"word": "übertragen",
+"m": {
+"es": "transmitir; traspasar · überträgt, übertrug, hat übertragen",
+"en": "to transmit; to transfer · überträgt, übertrug, hat übertragen"
+},
+"pos": "verb",
+"w": "übertragen",
+"p": "",
+"pp": "überträgt, übertrug, hat übertragen",
+"unit": null,
+"u": "",
+"q": 4041
+},
+{
+"word": "die Überwachung",
+"m": {
+"es": "la vigilancia",
+"en": "surveillance"
+},
+"pos": "noun",
+"w": "die Überwachung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4042
+},
+{
+"word": "überwiegen",
+"m": {
+"es": "predominar · überwiegt, überwog, hat überwogen",
+"en": "to predominate · überwiegt, überwog, hat überwogen"
+},
+"pos": "verb",
+"w": "überwiegen",
+"p": "",
+"pp": "überwiegt, überwog, hat überwogen",
+"unit": null,
+"u": "",
+"q": 4043
+},
+{
+"word": "überwiegend",
+"m": {
+"es": "predominantemente",
+"en": "predominantly"
+},
+"pos": "",
+"w": "überwiegend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4044
+},
+{
+"word": "überzeugend",
+"m": {
+"es": "convincente",
+"en": "convincing"
+},
+"pos": "",
+"w": "überzeugend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4045
+}
+]

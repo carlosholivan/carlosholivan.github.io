@@ -1,0 +1,4541 @@
+[
+{
+"word": "abgedroschen",
+"m": {
+"es": "trillado",
+"en": "hackneyed"
+},
+"pos": "",
+"w": "abgedroschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4670
+},
+{
+"word": "abhauen",
+"m": {
+"es": "largarse",
+"en": "to clear off"
+},
+"pos": "verb",
+"w": "abhauen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4671
+},
+{
+"word": "abstrus",
+"m": {
+"es": "abstruso",
+"en": "abstruse"
+},
+"pos": "",
+"w": "abstrus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4672
+},
+{
+"word": "der Abwart",
+"m": {
+"es": "el conserje (Suiza) · pl. die Abwarte",
+"en": "caretaker (Switzerland) · pl. die Abwarte"
+},
+"pos": "noun",
+"w": "der Abwart",
+"p": "",
+"g": "m",
+"pl": "Abwarte",
+"unit": null,
+"u": "",
+"q": 4673
+},
+{
+"word": "akribisch",
+"m": {
+"es": "meticuloso",
+"en": "meticulous"
+},
+"pos": "",
+"w": "akribisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4674
+},
+{
+"word": "alldieweil",
+"m": {
+"es": "mientras que",
+"en": "whilst"
+},
+"pos": "",
+"w": "alldieweil",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4675
+},
+{
+"word": "Alle Hebel in Bewegung setzen",
+"m": {
+"es": "mover cielo y tierra",
+"en": "to move heaven and earth"
+},
+"pos": "",
+"w": "Alle Hebel in Bewegung setzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4676
+},
+{
+"word": "Aller Anfang ist schwer",
+"m": {
+"es": "todo comienzo es difícil",
+"en": "every beginning is hard"
+},
+"pos": "",
+"w": "Aller Anfang ist schwer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4677
+},
+{
+"word": "alsbald",
+"m": {
+"es": "en breve",
+"en": "forthwith"
+},
+"pos": "",
+"w": "alsbald",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4678
+},
+{
+"word": "die Ambiguität",
+"m": {
+"es": "la ambigüedad",
+"en": "ambiguity"
+},
+"pos": "noun",
+"w": "die Ambiguität",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4679
+},
+{
+"word": "die Ambiguitätstoleranz",
+"m": {
+"es": "la tolerancia a la ambigüedad",
+"en": "tolerance of ambiguity"
+},
+"pos": "noun",
+"w": "die Ambiguitätstoleranz",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4680
+},
+{
+"word": "anheimstellen",
+"m": {
+"es": "dejar a criterio de",
+"en": "to leave to someone's discretion"
+},
+"pos": "verb",
+"w": "anheimstellen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4681
+},
+{
+"word": "anmaßend",
+"m": {
+"es": "arrogante",
+"en": "presumptuous"
+},
+"pos": "",
+"w": "anmaßend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4682
+},
+{
+"word": "die Anmut",
+"m": {
+"es": "la gracia",
+"en": "grace"
+},
+"pos": "noun",
+"w": "die Anmut",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4683
+},
+{
+"word": "anmuten",
+"m": {
+"es": "parecer",
+"en": "to seem"
+},
+"pos": "verb",
+"w": "anmuten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4684
+},
+{
+"word": "das Ansinnen",
+"m": {
+"es": "la pretensión · pl. die Ansinnen",
+"en": "demand, request · pl. die Ansinnen"
+},
+"pos": "noun",
+"w": "das Ansinnen",
+"p": "",
+"g": "n",
+"pl": "Ansinnen",
+"unit": null,
+"u": "",
+"q": 4685
+},
+{
+"word": "die Anspielung",
+"m": {
+"es": "la alusión · pl. die Anspielungen",
+"en": "allusion · pl. die Anspielungen"
+},
+"pos": "noun",
+"w": "die Anspielung",
+"p": "",
+"g": "f",
+"pl": "Anspielungen",
+"unit": null,
+"u": "",
+"q": 4686
+},
+{
+"word": "das Antlitz",
+"m": {
+"es": "el rostro (literario) · pl. die Antlitze",
+"en": "countenance · pl. die Antlitze"
+},
+"pos": "noun",
+"w": "das Antlitz",
+"p": "",
+"g": "n",
+"pl": "Antlitze",
+"unit": null,
+"u": "",
+"q": 4687
+},
+{
+"word": "Auf großem Fuß leben",
+"m": {
+"es": "vivir a lo grande",
+"en": "to live in grand style"
+},
+"pos": "",
+"w": "Auf großem Fuß leben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4688
+},
+{
+"word": "Auf Wolke sieben schweben",
+"m": {
+"es": "estar en una nube",
+"en": "to be on cloud nine"
+},
+"pos": "",
+"w": "Auf Wolke sieben schweben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4689
+},
+{
+"word": "die Augenwischerei",
+"m": {
+"es": "la tomadura de pelo",
+"en": "eyewash"
+},
+"pos": "noun",
+"w": "die Augenwischerei",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4690
+},
+{
+"word": "Aus allen Wolken fallen",
+"m": {
+"es": "quedarse de piedra",
+"en": "to be flabbergasted"
+},
+"pos": "",
+"w": "Aus allen Wolken fallen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4691
+},
+{
+"word": "der Bankomat",
+"m": {
+"es": "el cajero automático (Austria) · pl. die Bankomaten",
+"en": "cash machine (Austria) · pl. die Bankomaten"
+},
+"pos": "noun",
+"w": "der Bankomat",
+"p": "",
+"g": "m",
+"pl": "Bankomaten",
+"unit": null,
+"u": "",
+"q": 4692
+},
+{
+"word": "bedächtig",
+"m": {
+"es": "pausado",
+"en": "deliberate"
+},
+"pos": "",
+"w": "bedächtig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4693
+},
+{
+"word": "beflissen",
+"m": {
+"es": "solícito",
+"en": "eager"
+},
+"pos": "verb",
+"w": "beflissen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4694
+},
+{
+"word": "beherzigen",
+"m": {
+"es": "tomar en serio (un consejo)",
+"en": "to take to heart"
+},
+"pos": "verb",
+"w": "beherzigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4695
+},
+{
+"word": "behäbig",
+"m": {
+"es": "tranquilo, cachazudo",
+"en": "sedate"
+},
+"pos": "",
+"w": "behäbig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4696
+},
+{
+"word": "das Beisl",
+"m": {
+"es": "la taberna (Austria) · pl. die Beisln",
+"en": "pub (Austria) · pl. die Beisln"
+},
+"pos": "noun",
+"w": "das Beisl",
+"p": "",
+"g": "n",
+"pl": "Beisln",
+"unit": null,
+"u": "",
+"q": 4697
+},
+{
+"word": "bekunden",
+"m": {
+"es": "manifestar",
+"en": "to express"
+},
+"pos": "verb",
+"w": "bekunden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4698
+},
+{
+"word": "belangen",
+"m": {
+"es": "demandar",
+"en": "to prosecute"
+},
+"pos": "verb",
+"w": "belangen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4699
+},
+{
+"word": "beschaulich",
+"m": {
+"es": "contemplativo, apacible",
+"en": "tranquil"
+},
+"pos": "",
+"w": "beschaulich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4700
+},
+{
+"word": "beschwören",
+"m": {
+"es": "invocar; jurar · beschwört, beschwor, hat beschworen",
+"en": "to conjure; to swear · beschwört, beschwor, hat beschworen"
+},
+"pos": "verb",
+"w": "beschwören",
+"p": "",
+"pp": "beschwört, beschwor, hat beschworen",
+"unit": null,
+"u": "",
+"q": 4701
+},
+{
+"word": "der Besserwisser",
+"m": {
+"es": "el sabelotodo · pl. die Besserwisser",
+"en": "know-all · pl. die Besserwisser"
+},
+"pos": "noun",
+"w": "der Besserwisser",
+"p": "",
+"g": "m",
+"pl": "Besserwisser",
+"unit": null,
+"u": "",
+"q": 4702
+},
+{
+"word": "bezichtigen",
+"m": {
+"es": "acusar",
+"en": "to accuse"
+},
+"pos": "verb",
+"w": "bezichtigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4703
+},
+{
+"word": "das Billett",
+"m": {
+"es": "el billete (Suiza) · pl. die Billette",
+"en": "ticket (Switzerland) · pl. die Billette"
+},
+"pos": "noun",
+"w": "das Billett",
+"p": "",
+"g": "n",
+"pl": "Billette",
+"unit": null,
+"u": "",
+"q": 4704
+},
+{
+"word": "blasiert",
+"m": {
+"es": "presuntuoso",
+"en": "blasé"
+},
+"pos": "",
+"w": "blasiert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4705
+},
+{
+"word": "der Blödsinn",
+"m": {
+"es": "la tontería",
+"en": "rubbish, nonsense"
+},
+"pos": "noun",
+"w": "der Blödsinn",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4706
+},
+{
+"word": "borniert",
+"m": {
+"es": "estrecho de miras",
+"en": "narrow-minded"
+},
+"pos": "",
+"w": "borniert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4707
+},
+{
+"word": "das Brötli",
+"m": {
+"es": "el panecillo (Suiza) · pl. die Brötli",
+"en": "bread roll (Switzerland) · pl. die Brötli"
+},
+"pos": "noun",
+"w": "das Brötli",
+"p": "",
+"g": "n",
+"pl": "Brötli",
+"unit": null,
+"u": "",
+"q": 4708
+},
+{
+"word": "brüskieren",
+"m": {
+"es": "ofender",
+"en": "to snub"
+},
+"pos": "verb",
+"w": "brüskieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4709
+},
+{
+"word": "die Bude",
+"m": {
+"es": "el cuchitril; el piso (coloquial) · pl. die Buden",
+"en": "digs, pad (colloquial) · pl. die Buden"
+},
+"pos": "noun",
+"w": "die Bude",
+"p": "",
+"g": "f",
+"pl": "Buden",
+"unit": null,
+"u": "",
+"q": 4710
+},
+{
+"word": "der Coiffeur",
+"m": {
+"es": "el peluquero (Suiza) · pl. die Coiffeure",
+"en": "hairdresser (Switzerland) · pl. die Coiffeure"
+},
+"pos": "noun",
+"w": "der Coiffeur",
+"p": "",
+"g": "m",
+"pl": "Coiffeure",
+"unit": null,
+"u": "",
+"q": 4711
+},
+{
+"word": "das Couvert",
+"m": {
+"es": "el sobre (Suiza) · pl. die Couverts",
+"en": "envelope (Switzerland) · pl. die Couverts"
+},
+"pos": "noun",
+"w": "das Couvert",
+"p": "",
+"g": "n",
+"pl": "Couverts",
+"unit": null,
+"u": "",
+"q": 4712
+},
+{
+"word": "Das A und O",
+"m": {
+"es": "lo esencial",
+"en": "the be-all and end-all"
+},
+"pos": "",
+"w": "Das A und O",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4713
+},
+{
+"word": "Das Handtuch werfen",
+"m": {
+"es": "tirar la toalla",
+"en": "to throw in the towel"
+},
+"pos": "",
+"w": "Das Handtuch werfen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4714
+},
+{
+"word": "Das ist ein Katzensprung",
+"m": {
+"es": "está a un paso",
+"en": "it's a stone's throw"
+},
+"pos": "",
+"w": "Das ist ein Katzensprung",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4715
+},
+{
+"word": "Das kommt mir spanisch vor",
+"m": {
+"es": "esto me suena raro",
+"en": "that seems odd to me"
+},
+"pos": "",
+"w": "Das kommt mir spanisch vor",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4716
+},
+{
+"word": "Den Faden verlieren",
+"m": {
+"es": "perder el hilo",
+"en": "to lose the thread"
+},
+"pos": "",
+"w": "Den Faden verlieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4717
+},
+{
+"word": "Den Gürtel enger schnallen",
+"m": {
+"es": "apretarse el cinturón",
+"en": "to tighten one's belt"
+},
+"pos": "",
+"w": "Den Gürtel enger schnallen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4718
+},
+{
+"word": "Den Teufel an die Wand malen",
+"m": {
+"es": "ponerse en lo peor",
+"en": "to imagine the worst"
+},
+"pos": "",
+"w": "Den Teufel an die Wand malen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4719
+},
+{
+"word": "Der Apfel fällt nicht weit vom Stamm",
+"m": {
+"es": "de tal palo, tal astilla",
+"en": "like father, like son"
+},
+"pos": "",
+"w": "Der Apfel fällt nicht weit vom Stamm",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4720
+},
+{
+"word": "dereinst",
+"m": {
+"es": "algún día; antaño",
+"en": "one day; once"
+},
+"pos": "",
+"w": "dereinst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4721
+},
+{
+"word": "die Deutungshoheit",
+"m": {
+"es": "el control del relato",
+"en": "interpretive sovereignty"
+},
+"pos": "noun",
+"w": "die Deutungshoheit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4722
+},
+{
+"word": "Die Katze im Sack kaufen",
+"m": {
+"es": "comprar a ciegas",
+"en": "to buy a pig in a poke"
+},
+"pos": "",
+"w": "Die Katze im Sack kaufen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4723
+},
+{
+"word": "Die Kirche im Dorf lassen",
+"m": {
+"es": "no exagerar",
+"en": "not to get carried away"
+},
+"pos": "",
+"w": "Die Kirche im Dorf lassen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4724
+},
+{
+"word": "der Diskurs",
+"m": {
+"es": "el discurso · pl. die Diskurse",
+"en": "discourse · pl. die Diskurse"
+},
+"pos": "noun",
+"w": "der Diskurs",
+"p": "",
+"g": "m",
+"pl": "Diskurse",
+"unit": null,
+"u": "",
+"q": 4725
+},
+{
+"word": "der Dissens",
+"m": {
+"es": "el desacuerdo",
+"en": "disagreement"
+},
+"pos": "noun",
+"w": "der Dissens",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4726
+},
+{
+"word": "die Doppelmoral",
+"m": {
+"es": "la doble moral",
+"en": "double standard"
+},
+"pos": "noun",
+"w": "die Doppelmoral",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4727
+},
+{
+"word": "der Drahtesel",
+"m": {
+"es": "la bici (humorístico) · pl. die Drahtesel",
+"en": "bike (humorous) · pl. die Drahtesel"
+},
+"pos": "noun",
+"w": "der Drahtesel",
+"p": "",
+"g": "m",
+"pl": "Drahtesel",
+"unit": null,
+"u": "",
+"q": 4728
+},
+{
+"word": "dreist",
+"m": {
+"es": "descarado",
+"en": "brazen"
+},
+"pos": "",
+"w": "dreist",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4729
+},
+{
+"word": "die Effekthascherei",
+"m": {
+"es": "el sensacionalismo",
+"en": "showing off"
+},
+"pos": "noun",
+"w": "die Effekthascherei",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4730
+},
+{
+"word": "eigenwillig",
+"m": {
+"es": "peculiar",
+"en": "idiosyncratic"
+},
+"pos": "",
+"w": "eigenwillig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4731
+},
+{
+"word": "einstmals",
+"m": {
+"es": "antaño",
+"en": "once upon a time"
+},
+"pos": "",
+"w": "einstmals",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4732
+},
+{
+"word": "die Eitelkeit",
+"m": {
+"es": "la vanidad · pl. die Eitelkeiten",
+"en": "vanity · pl. die Eitelkeiten"
+},
+"pos": "noun",
+"w": "die Eitelkeit",
+"p": "",
+"g": "f",
+"pl": "Eitelkeiten",
+"unit": null,
+"u": "",
+"q": 4733
+},
+{
+"word": "Ende gut, alles gut",
+"m": {
+"es": "bien está lo que bien acaba",
+"en": "all's well that ends well"
+},
+"pos": "",
+"w": "Ende gut, alles gut",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4734
+},
+{
+"word": "erbaulich",
+"m": {
+"es": "edificante",
+"en": "edifying"
+},
+"pos": "",
+"w": "erbaulich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4735
+},
+{
+"word": "der Erdapfel",
+"m": {
+"es": "la patata (Austria) · pl. die Erdäpfel",
+"en": "potato (Austria) · pl. die Erdäpfel"
+},
+"pos": "noun",
+"w": "der Erdapfel",
+"p": "",
+"g": "m",
+"pl": "Erdäpfel",
+"unit": null,
+"u": "",
+"q": 4736
+},
+{
+"word": "erdreisten",
+"m": {
+"es": "atreverse (con descaro)",
+"en": "to have the audacity"
+},
+"pos": "verb",
+"w": "erdreisten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4737
+},
+{
+"word": "ereifern",
+"m": {
+"es": "acalorarse",
+"en": "to get excited"
+},
+"pos": "verb",
+"w": "ereifern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4738
+},
+{
+"word": "ergründen",
+"m": {
+"es": "indagar",
+"en": "to fathom"
+},
+"pos": "verb",
+"w": "ergründen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4739
+},
+{
+"word": "die Erhabenheit",
+"m": {
+"es": "la sublimidad",
+"en": "sublimity"
+},
+"pos": "noun",
+"w": "die Erhabenheit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4740
+},
+{
+"word": "erheischen",
+"m": {
+"es": "requerir (literario)",
+"en": "to demand"
+},
+"pos": "",
+"w": "erheischen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4741
+},
+{
+"word": "erlesen",
+"m": {
+"es": "selecto · erliest, erlas, hat erlesen",
+"en": "exquisite · erliest, erlas, hat erlesen"
+},
+"pos": "verb",
+"w": "erlesen",
+"p": "",
+"pp": "erliest, erlas, hat erlesen",
+"unit": null,
+"u": "",
+"q": 4742
+},
+{
+"word": "ermessen",
+"m": {
+"es": "calibrar · ermisst, ermaß, hat ermessen",
+"en": "to gauge · ermisst, ermaß, hat ermessen"
+},
+"pos": "verb",
+"w": "ermessen",
+"p": "",
+"pp": "ermisst, ermaß, hat ermessen",
+"unit": null,
+"u": "",
+"q": 4743
+},
+{
+"word": "erquicken",
+"m": {
+"es": "refrescar, reconfortar",
+"en": "to refresh"
+},
+"pos": "verb",
+"w": "erquicken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4744
+},
+{
+"word": "ersinnen",
+"m": {
+"es": "idear · ersinnt, ersann, hat ersonnen",
+"en": "to devise · ersinnt, ersann, hat ersonnen"
+},
+"pos": "verb",
+"w": "ersinnen",
+"p": "",
+"pp": "ersinnt, ersann, hat ersonnen",
+"unit": null,
+"u": "",
+"q": 4745
+},
+{
+"word": "Es ist noch kein Meister vom Himmel gefallen",
+"m": {
+"es": "nadie nace sabiendo",
+"en": "nobody is born an expert"
+},
+"pos": "",
+"w": "Es ist noch kein Meister vom Himmel gefallen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4746
+},
+{
+"word": "Etwas an die große Glocke hängen",
+"m": {
+"es": "pregonar algo",
+"en": "to shout something from the rooftops"
+},
+"pos": "",
+"w": "Etwas an die große Glocke hängen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4747
+},
+{
+"word": "Etwas auf dem Kerbholz haben",
+"m": {
+"es": "tener las manos manchadas",
+"en": "to have a record"
+},
+"pos": "",
+"w": "Etwas auf dem Kerbholz haben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4748
+},
+{
+"word": "Etwas für bare Münze nehmen",
+"m": {
+"es": "tomar algo al pie de la letra",
+"en": "to take something at face value"
+},
+"pos": "",
+"w": "Etwas für bare Münze nehmen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4749
+},
+{
+"word": "Etwas ist im Eimer",
+"m": {
+"es": "algo se ha ido al traste",
+"en": "something is ruined"
+},
+"pos": "",
+"w": "Etwas ist im Eimer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4750
+},
+{
+"word": "Etwas unter den Teppich kehren",
+"m": {
+"es": "ocultar algo",
+"en": "to sweep something under the carpet"
+},
+"pos": "",
+"w": "Etwas unter den Teppich kehren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4751
+},
+{
+"word": "Eulen nach Athen tragen",
+"m": {
+"es": "llevar leña al monte",
+"en": "to carry coals to Newcastle"
+},
+"pos": "",
+"w": "Eulen nach Athen tragen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4752
+},
+{
+"word": "der Euphemismus",
+"m": {
+"es": "el eufemismo · pl. die Euphemismen",
+"en": "euphemism · pl. die Euphemismen"
+},
+"pos": "noun",
+"w": "der Euphemismus",
+"p": "",
+"g": "m",
+"pl": "Euphemismen",
+"unit": null,
+"u": "",
+"q": 4753
+},
+{
+"word": "die Ewigkeit",
+"m": {
+"es": "la eternidad",
+"en": "eternity"
+},
+"pos": "noun",
+"w": "die Ewigkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4754
+},
+{
+"word": "fadenscheinig",
+"m": {
+"es": "poco convincente",
+"en": "flimsy"
+},
+"pos": "",
+"w": "fadenscheinig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4755
+},
+{
+"word": "das Faschierte",
+"m": {
+"es": "la carne picada (Austria)",
+"en": "minced meat (Austria)"
+},
+"pos": "noun",
+"w": "das Faschierte",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4756
+},
+{
+"word": "der Fauteuil",
+"m": {
+"es": "el sillón (Austria, Suiza) · pl. die Fauteuils",
+"en": "armchair (Austria, Switzerland) · pl. die Fauteuils"
+},
+"pos": "noun",
+"w": "der Fauteuil",
+"p": "",
+"g": "m",
+"pl": "Fauteuils",
+"unit": null,
+"u": "",
+"q": 4757
+},
+{
+"word": "die Fehde",
+"m": {
+"es": "la enemistad · pl. die Fehden",
+"en": "feud · pl. die Fehden"
+},
+"pos": "noun",
+"w": "die Fehde",
+"p": "",
+"g": "f",
+"pl": "Fehden",
+"unit": null,
+"u": "",
+"q": 4758
+},
+{
+"word": "feilschen",
+"m": {
+"es": "regatear",
+"en": "to haggle"
+},
+"pos": "",
+"w": "feilschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4759
+},
+{
+"word": "feinsinnig",
+"m": {
+"es": "sutil",
+"en": "subtle"
+},
+"pos": "",
+"w": "feinsinnig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4760
+},
+{
+"word": "das Fernweh",
+"m": {
+"es": "el ansia de viajar lejos",
+"en": "longing for faraway places"
+},
+"pos": "noun",
+"w": "das Fernweh",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4761
+},
+{
+"word": "das Fingerspitzengefühl",
+"m": {
+"es": "el tacto, la sensibilidad",
+"en": "tact, sure instinct"
+},
+"pos": "noun",
+"w": "das Fingerspitzengefühl",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4762
+},
+{
+"word": "der Fleischhauer",
+"m": {
+"es": "el carnicero (Austria) · pl. die Fleischhauer",
+"en": "butcher (Austria) · pl. die Fleischhauer"
+},
+"pos": "noun",
+"w": "der Fleischhauer",
+"p": "",
+"g": "m",
+"pl": "Fleischhauer",
+"unit": null,
+"u": "",
+"q": 4763
+},
+{
+"word": "die Floskel",
+"m": {
+"es": "la frase hecha · pl. die Floskeln",
+"en": "empty phrase · pl. die Floskeln"
+},
+"pos": "noun",
+"w": "die Floskel",
+"p": "",
+"g": "f",
+"pl": "Floskeln",
+"unit": null,
+"u": "",
+"q": 4764
+},
+{
+"word": "das Fremdschämen",
+"m": {
+"es": "la vergüenza ajena",
+"en": "vicarious embarrassment"
+},
+"pos": "noun",
+"w": "das Fremdschämen",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4765
+},
+{
+"word": "der Frevel",
+"m": {
+"es": "el sacrilegio",
+"en": "outrage, sacrilege"
+},
+"pos": "noun",
+"w": "der Frevel",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4766
+},
+{
+"word": "frohlocken",
+"m": {
+"es": "regocijarse",
+"en": "to rejoice"
+},
+"pos": "verb",
+"w": "frohlocken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4767
+},
+{
+"word": "der Führerausweis",
+"m": {
+"es": "el carné de conducir (Suiza) · pl. die Führerausweise",
+"en": "driving licence (Switzerland) · pl. die Führerausweise"
+},
+"pos": "noun",
+"w": "der Führerausweis",
+"p": "",
+"g": "m",
+"pl": "Führerausweise",
+"unit": null,
+"u": "",
+"q": 4768
+},
+{
+"word": "fürwahr",
+"m": {
+"es": "en verdad",
+"en": "verily"
+},
+"pos": "",
+"w": "fürwahr",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4769
+},
+{
+"word": "das Gebaren",
+"m": {
+"es": "el comportamiento",
+"en": "conduct"
+},
+"pos": "noun",
+"w": "das Gebaren",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4770
+},
+{
+"word": "gebieten",
+"m": {
+"es": "ordenar; exigir · gebietet, gebot, hat geboten",
+"en": "to command; to require · gebietet, gebot, hat geboten"
+},
+"pos": "verb",
+"w": "gebieten",
+"p": "",
+"pp": "gebietet, gebot, hat geboten",
+"unit": null,
+"u": "",
+"q": 4771
+},
+{
+"word": "gediegen",
+"m": {
+"es": "sólido, de calidad",
+"en": "solid, tasteful"
+},
+"pos": "verb",
+"w": "gediegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4772
+},
+{
+"word": "geflissentlich",
+"m": {
+"es": "deliberadamente",
+"en": "deliberately"
+},
+"pos": "",
+"w": "geflissentlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4773
+},
+{
+"word": "gehässig",
+"m": {
+"es": "malicioso",
+"en": "spiteful"
+},
+"pos": "",
+"w": "gehässig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4774
+},
+{
+"word": "geil",
+"m": {
+"es": "genial (vulgar, juvenil)",
+"en": "awesome (slang)"
+},
+"pos": "",
+"w": "geil",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4775
+},
+{
+"word": "gemächlich",
+"m": {
+"es": "sosegado",
+"en": "leisurely"
+},
+"pos": "",
+"w": "gemächlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4776
+},
+{
+"word": "das Gemüt",
+"m": {
+"es": "el ánimo, el carácter · pl. die Gemüter",
+"en": "mind, temperament · pl. die Gemüter"
+},
+"pos": "noun",
+"w": "das Gemüt",
+"p": "",
+"g": "n",
+"pl": "Gemüter",
+"unit": null,
+"u": "",
+"q": 4777
+},
+{
+"word": "die Gemütlichkeit",
+"m": {
+"es": "lo acogedor",
+"en": "cosiness"
+},
+"pos": "noun",
+"w": "die Gemütlichkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4778
+},
+{
+"word": "die Gemütsruhe",
+"m": {
+"es": "la calma",
+"en": "composure"
+},
+"pos": "noun",
+"w": "die Gemütsruhe",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4779
+},
+{
+"word": "die Gepflogenheit",
+"m": {
+"es": "la costumbre · pl. die Gepflogenheiten",
+"en": "custom · pl. die Gepflogenheiten"
+},
+"pos": "noun",
+"w": "die Gepflogenheit",
+"p": "",
+"g": "f",
+"pl": "Gepflogenheiten",
+"unit": null,
+"u": "",
+"q": 4780
+},
+{
+"word": "gereichen",
+"m": {
+"es": "redundar",
+"en": "to redound"
+},
+"pos": "",
+"w": "gereichen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4781
+},
+{
+"word": "geschwätzig",
+"m": {
+"es": "parlanchín",
+"en": "garrulous"
+},
+"pos": "",
+"w": "geschwätzig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4782
+},
+{
+"word": "gestelzt",
+"m": {
+"es": "afectado",
+"en": "stilted"
+},
+"pos": "",
+"w": "gestelzt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4783
+},
+{
+"word": "gewieft",
+"m": {
+"es": "astuto",
+"en": "shrewd"
+},
+"pos": "",
+"w": "gewieft",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4784
+},
+{
+"word": "geziemen",
+"m": {
+"es": "ser apropiado",
+"en": "to befit"
+},
+"pos": "verb",
+"w": "geziemen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4785
+},
+{
+"word": "die Glace",
+"m": {
+"es": "el helado (Suiza) · pl. die Glacen",
+"en": "ice cream (Switzerland) · pl. die Glacen"
+},
+"pos": "noun",
+"w": "die Glace",
+"p": "",
+"g": "f",
+"pl": "Glacen",
+"unit": null,
+"u": "",
+"q": 4786
+},
+{
+"word": "gleichsam",
+"m": {
+"es": "por así decir",
+"en": "as it were"
+},
+"pos": "",
+"w": "gleichsam",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4787
+},
+{
+"word": "die Gnade",
+"m": {
+"es": "la gracia, la clemencia",
+"en": "mercy, grace"
+},
+"pos": "noun",
+"w": "die Gnade",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4788
+},
+{
+"word": "der Gram",
+"m": {
+"es": "la pena",
+"en": "grief"
+},
+"pos": "noun",
+"w": "der Gram",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4789
+},
+{
+"word": "grillieren",
+"m": {
+"es": "asar a la parrilla (Suiza)",
+"en": "to grill (Switzerland)"
+},
+"pos": "verb",
+"w": "grillieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4790
+},
+{
+"word": "grüezi",
+"m": {
+"es": "hola (Suiza)",
+"en": "hello (Switzerland)"
+},
+"pos": "",
+"w": "grüezi",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4791
+},
+{
+"word": "grüß Gott",
+"m": {
+"es": "buenos días (sur de Alemania, Austria)",
+"en": "hello (southern Germany, Austria)"
+},
+"pos": "",
+"w": "grüß Gott",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4792
+},
+{
+"word": "Hals- und Beinbruch",
+"m": {
+"es": "¡mucha suerte!",
+"en": "break a leg"
+},
+"pos": "",
+"w": "Hals- und Beinbruch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4793
+},
+{
+"word": "hanebüchen",
+"m": {
+"es": "inaudito, absurdo",
+"en": "outrageous"
+},
+"pos": "",
+"w": "hanebüchen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4794
+},
+{
+"word": "der Hehl",
+"m": {
+"es": "(kein Hehl machen) no ocultar",
+"en": "(to make no secret of)"
+},
+"pos": "noun",
+"w": "der Hehl",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4795
+},
+{
+"word": "heikel",
+"m": {
+"es": "delicado",
+"en": "tricky"
+},
+"pos": "",
+"w": "heikel",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4796
+},
+{
+"word": "die Hetze",
+"m": {
+"es": "la incitación al odio",
+"en": "agitation, hate speech"
+},
+"pos": "noun",
+"w": "die Hetze",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4797
+},
+{
+"word": "heucheln",
+"m": {
+"es": "fingir",
+"en": "to feign"
+},
+"pos": "verb",
+"w": "heucheln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4798
+},
+{
+"word": "heuer",
+"m": {
+"es": "este año (Austria, sur de Alemania)",
+"en": "this year (Austria, southern Germany)"
+},
+"pos": "",
+"w": "heuer",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4799
+},
+{
+"word": "hinfort",
+"m": {
+"es": "en adelante",
+"en": "henceforth"
+},
+"pos": "",
+"w": "hinfort",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4800
+},
+{
+"word": "hintergründig",
+"m": {
+"es": "enigmático",
+"en": "cryptic"
+},
+"pos": "",
+"w": "hintergründig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4801
+},
+{
+"word": "die Huld",
+"m": {
+"es": "el favor, la gracia",
+"en": "grace, favour"
+},
+"pos": "noun",
+"w": "die Huld",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4802
+},
+{
+"word": "das Häferl",
+"m": {
+"es": "la taza (Austria) · pl. die Häferl",
+"en": "mug (Austria) · pl. die Häferl"
+},
+"pos": "noun",
+"w": "das Häferl",
+"p": "",
+"g": "n",
+"pl": "Häferl",
+"unit": null,
+"u": "",
+"q": 4803
+},
+{
+"word": "In den sauren Apfel beißen",
+"m": {
+"es": "tragarse el sapo",
+"en": "to bite the bullet"
+},
+"pos": "",
+"w": "In den sauren Apfel beißen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4804
+},
+{
+"word": "inbrünstig",
+"m": {
+"es": "ferviente",
+"en": "fervent"
+},
+"pos": "",
+"w": "inbrünstig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4805
+},
+{
+"word": "Ins kalte Wasser springen",
+"m": {
+"es": "lanzarse a lo desconocido",
+"en": "to jump in at the deep end"
+},
+"pos": "",
+"w": "Ins kalte Wasser springen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4806
+},
+{
+"word": "die Jause",
+"m": {
+"es": "la merienda (Austria) · pl. die Jausen",
+"en": "snack (Austria) · pl. die Jausen"
+},
+"pos": "noun",
+"w": "die Jause",
+"p": "",
+"g": "f",
+"pl": "Jausen",
+"unit": null,
+"u": "",
+"q": 4807
+},
+{
+"word": "Jemandem den Kopf waschen",
+"m": {
+"es": "echar una bronca a alguien",
+"en": "to give someone a dressing-down"
+},
+"pos": "",
+"w": "Jemandem den Kopf waschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4808
+},
+{
+"word": "Jemandem die kalte Schulter zeigen",
+"m": {
+"es": "dar la espalda a alguien",
+"en": "to give someone the cold shoulder"
+},
+"pos": "",
+"w": "Jemandem die kalte Schulter zeigen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4809
+},
+{
+"word": "Jemandem einen Bären aufbinden",
+"m": {
+"es": "tomar el pelo a alguien",
+"en": "to pull someone's leg"
+},
+"pos": "",
+"w": "Jemandem einen Bären aufbinden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4810
+},
+{
+"word": "Jemandem einen Korb geben",
+"m": {
+"es": "dar calabazas a alguien",
+"en": "to turn someone down"
+},
+"pos": "",
+"w": "Jemandem einen Korb geben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4811
+},
+{
+"word": "Jemandem Honig ums Maul schmieren",
+"m": {
+"es": "dorar la píldora a alguien",
+"en": "to butter someone up"
+},
+"pos": "",
+"w": "Jemandem Honig ums Maul schmieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4812
+},
+{
+"word": "Jemandem reinen Wein einschenken",
+"m": {
+"es": "decir a alguien la verdad sin rodeos",
+"en": "to tell someone the plain truth"
+},
+"pos": "",
+"w": "Jemandem reinen Wein einschenken",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4813
+},
+{
+"word": "Jemanden an der Nase herumführen",
+"m": {
+"es": "engañar a alguien",
+"en": "to lead someone up the garden path"
+},
+"pos": "",
+"w": "Jemanden an der Nase herumführen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4814
+},
+{
+"word": "das Jenseits",
+"m": {
+"es": "el más allá",
+"en": "the hereafter"
+},
+"pos": "noun",
+"w": "das Jenseits",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4815
+},
+{
+"word": "jobben",
+"m": {
+"es": "hacer trabajillos",
+"en": "to do odd jobs"
+},
+"pos": "verb",
+"w": "jobben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4816
+},
+{
+"word": "der Jänner",
+"m": {
+"es": "enero (Austria)",
+"en": "January (Austria)"
+},
+"pos": "noun",
+"w": "der Jänner",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4817
+},
+{
+"word": "das Kaffeehaus",
+"m": {
+"es": "el café vienés · pl. die Kaffeehäuser",
+"en": "coffee house (Vienna) · pl. die Kaffeehäuser"
+},
+"pos": "noun",
+"w": "das Kaffeehaus",
+"p": "",
+"g": "n",
+"pl": "Kaffeehäuser",
+"unit": null,
+"u": "",
+"q": 4818
+},
+{
+"word": "kapitulieren",
+"m": {
+"es": "capitular",
+"en": "to capitulate"
+},
+"pos": "verb",
+"w": "kapitulieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4819
+},
+{
+"word": "kauzig",
+"m": {
+"es": "excéntrico",
+"en": "odd"
+},
+"pos": "",
+"w": "kauzig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4820
+},
+{
+"word": "Kein Blatt vor den Mund nehmen",
+"m": {
+"es": "no tener pelos en la lengua",
+"en": "not to mince one's words"
+},
+"pos": "",
+"w": "Kein Blatt vor den Mund nehmen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4821
+},
+{
+"word": "keinesfalls",
+"m": {
+"es": "en ningún caso",
+"en": "in no case"
+},
+"pos": "",
+"w": "keinesfalls",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4822
+},
+{
+"word": "das Kipferl",
+"m": {
+"es": "el cruasán (Austria) · pl. die Kipferl",
+"en": "crescent roll (Austria) · pl. die Kipferl"
+},
+"pos": "noun",
+"w": "das Kipferl",
+"p": "",
+"g": "n",
+"pl": "Kipferl",
+"unit": null,
+"u": "",
+"q": 4823
+},
+{
+"word": "klauen",
+"m": {
+"es": "mangar, robar",
+"en": "to nick, to steal"
+},
+"pos": "verb",
+"w": "klauen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4824
+},
+{
+"word": "Kleider machen Leute",
+"m": {
+"es": "el hábito hace al monje",
+"en": "clothes make the man"
+},
+"pos": "",
+"w": "Kleider machen Leute",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4825
+},
+{
+"word": "kokettieren",
+"m": {
+"es": "coquetear",
+"en": "to flirt"
+},
+"pos": "verb",
+"w": "kokettieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4826
+},
+{
+"word": "die Konfitüre",
+"m": {
+"es": "la mermelada · pl. die Konfitüren",
+"en": "jam · pl. die Konfitüren"
+},
+"pos": "noun",
+"w": "die Konfitüre",
+"p": "",
+"g": "f",
+"pl": "Konfitüren",
+"unit": null,
+"u": "",
+"q": 4827
+},
+{
+"word": "der Konsens",
+"m": {
+"es": "el consenso · pl. die Konsense",
+"en": "consensus · pl. die Konsense"
+},
+"pos": "noun",
+"w": "der Konsens",
+"p": "",
+"g": "m",
+"pl": "Konsense",
+"unit": null,
+"u": "",
+"q": 4828
+},
+{
+"word": "der Krapfen",
+"m": {
+"es": "el berlinés (sur de Alemania, Austria) · pl. die Krapfen",
+"en": "doughnut (southern Germany, Austria) · pl. die Krapfen"
+},
+"pos": "noun",
+"w": "der Krapfen",
+"p": "",
+"g": "m",
+"pl": "Krapfen",
+"unit": null,
+"u": "",
+"q": 4829
+},
+{
+"word": "krass",
+"m": {
+"es": "brutal, alucinante",
+"en": "crazy, extreme"
+},
+"pos": "",
+"w": "krass",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4830
+},
+{
+"word": "der Kren",
+"m": {
+"es": "el rábano picante (Austria)",
+"en": "horseradish (Austria)"
+},
+"pos": "noun",
+"w": "der Kren",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4831
+},
+{
+"word": "der Kummerspeck",
+"m": {
+"es": "los kilos de más por la pena",
+"en": "weight gained from comfort eating"
+},
+"pos": "noun",
+"w": "der Kummerspeck",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4832
+},
+{
+"word": "der Kumpel",
+"m": {
+"es": "el colega · pl. die Kumpel",
+"en": "mate · pl. die Kumpel"
+},
+"pos": "noun",
+"w": "der Kumpel",
+"p": "",
+"g": "m",
+"pl": "Kumpel",
+"unit": null,
+"u": "",
+"q": 4833
+},
+{
+"word": "das Kuvert",
+"m": {
+"es": "el sobre (Austria) · pl. die Kuverts",
+"en": "envelope (Austria) · pl. die Kuverts"
+},
+"pos": "noun",
+"w": "das Kuvert",
+"p": "",
+"g": "n",
+"pl": "Kuverts",
+"unit": null,
+"u": "",
+"q": 4834
+},
+{
+"word": "labern",
+"m": {
+"es": "enrollarse, parlotear",
+"en": "to waffle"
+},
+"pos": "verb",
+"w": "labern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4835
+},
+{
+"word": "lapidar",
+"m": {
+"es": "lapidario",
+"en": "terse"
+},
+"pos": "",
+"w": "lapidar",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4836
+},
+{
+"word": "larmoyant",
+"m": {
+"es": "lacrimógeno",
+"en": "maudlin"
+},
+"pos": "",
+"w": "larmoyant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4837
+},
+{
+"word": "das Laster",
+"m": {
+"es": "el vicio · pl. die Laster",
+"en": "vice · pl. die Laster"
+},
+"pos": "noun",
+"w": "das Laster",
+"p": "",
+"g": "n",
+"pl": "Laster",
+"unit": null,
+"u": "",
+"q": 4838
+},
+{
+"word": "lauter",
+"m": {
+"es": "sincero, puro",
+"en": "sincere"
+},
+"pos": "",
+"w": "lauter",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4839
+},
+{
+"word": "lavieren",
+"m": {
+"es": "maniobrar",
+"en": "to manoeuvre"
+},
+"pos": "verb",
+"w": "lavieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4840
+},
+{
+"word": "leiwand",
+"m": {
+"es": "genial (Viena, coloquial)",
+"en": "great (Vienna, colloquial)"
+},
+"pos": "",
+"w": "leiwand",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4841
+},
+{
+"word": "leutselig",
+"m": {
+"es": "afable",
+"en": "affable"
+},
+"pos": "",
+"w": "leutselig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4842
+},
+{
+"word": "Lügen haben kurze Beine",
+"m": {
+"es": "antes se coge al mentiroso que al cojo",
+"en": "lies have short legs"
+},
+"pos": "",
+"w": "Lügen haben kurze Beine",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4843
+},
+{
+"word": "die Marille",
+"m": {
+"es": "el albaricoque (Austria) · pl. die Marillen",
+"en": "apricot (Austria) · pl. die Marillen"
+},
+"pos": "noun",
+"w": "die Marille",
+"p": "",
+"g": "f",
+"pl": "Marillen",
+"unit": null,
+"u": "",
+"q": 4844
+},
+{
+"word": "markant",
+"m": {
+"es": "marcado, llamativo",
+"en": "striking"
+},
+"pos": "",
+"w": "markant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4845
+},
+{
+"word": "die Matura",
+"m": {
+"es": "el bachillerato (Austria, Suiza)",
+"en": "school-leaving exam (Austria, Switzerland)"
+},
+"pos": "noun",
+"w": "die Matura",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4846
+},
+{
+"word": "meckern",
+"m": {
+"es": "refunfuñar",
+"en": "to moan"
+},
+"pos": "verb",
+"w": "meckern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4847
+},
+{
+"word": "die Melange",
+"m": {
+"es": "el café con leche (Viena) · pl. die Melangen",
+"en": "Viennese milky coffee · pl. die Melangen"
+},
+"pos": "noun",
+"w": "die Melange",
+"p": "",
+"g": "f",
+"pl": "Melangen",
+"unit": null,
+"u": "",
+"q": 4848
+},
+{
+"word": "merci vielmal",
+"m": {
+"es": "muchas gracias (Suiza)",
+"en": "thank you very much (Switzerland)"
+},
+"pos": "",
+"w": "merci vielmal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4849
+},
+{
+"word": "Mit dem falschen Fuß aufstehen",
+"m": {
+"es": "levantarse con el pie izquierdo",
+"en": "to get out of bed on the wrong side"
+},
+"pos": "",
+"w": "Mit dem falschen Fuß aufstehen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4850
+},
+{
+"word": "Mit jemandem ein Hühnchen rupfen",
+"m": {
+"es": "tener una cuenta pendiente con alguien",
+"en": "to have a bone to pick with someone"
+},
+"pos": "",
+"w": "Mit jemandem ein Hühnchen rupfen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4851
+},
+{
+"word": "mitnichten",
+"m": {
+"es": "de ninguna manera",
+"en": "by no means"
+},
+"pos": "verb",
+"w": "mitnichten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4852
+},
+{
+"word": "moin",
+"m": {
+"es": "hola (norte de Alemania)",
+"en": "hello (northern Germany)"
+},
+"pos": "verb",
+"w": "moin",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4853
+},
+{
+"word": "mondän",
+"m": {
+"es": "mundano",
+"en": "fashionable"
+},
+"pos": "verb",
+"w": "mondän",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4854
+},
+{
+"word": "monieren",
+"m": {
+"es": "criticar",
+"en": "to criticise"
+},
+"pos": "verb",
+"w": "monieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4855
+},
+{
+"word": "Morgenstund hat Gold im Mund",
+"m": {
+"es": "a quien madruga, Dios le ayuda",
+"en": "the early bird catches the worm"
+},
+"pos": "",
+"w": "Morgenstund hat Gold im Mund",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4856
+},
+{
+"word": "mutmaßen",
+"m": {
+"es": "conjeturar",
+"en": "to conjecture"
+},
+"pos": "verb",
+"w": "mutmaßen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4857
+},
+{
+"word": "die Muße",
+"m": {
+"es": "el ocio, el sosiego",
+"en": "leisure"
+},
+"pos": "noun",
+"w": "die Muße",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4858
+},
+{
+"word": "das Müesli",
+"m": {
+"es": "el muesli (Suiza)",
+"en": "muesli (Switzerland)"
+},
+"pos": "noun",
+"w": "das Müesli",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4859
+},
+{
+"word": "der Müßiggang",
+"m": {
+"es": "la ociosidad",
+"en": "idleness"
+},
+"pos": "noun",
+"w": "der Müßiggang",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4860
+},
+{
+"word": "das Narrativ",
+"m": {
+"es": "el relato · pl. die Narrative",
+"en": "narrative · pl. die Narrative"
+},
+"pos": "noun",
+"w": "das Narrativ",
+"p": "",
+"g": "n",
+"pl": "Narrative",
+"unit": null,
+"u": "",
+"q": 4861
+},
+{
+"word": "das Natel",
+"m": {
+"es": "el móvil (Suiza) · pl. die Natels",
+"en": "mobile phone (Switzerland) · pl. die Natels"
+},
+"pos": "noun",
+"w": "das Natel",
+"p": "",
+"g": "n",
+"pl": "Natels",
+"unit": null,
+"u": "",
+"q": 4862
+},
+{
+"word": "nebst",
+"m": {
+"es": "junto con",
+"en": "together with"
+},
+"pos": "",
+"w": "nebst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4863
+},
+{
+"word": "nonchalant",
+"m": {
+"es": "despreocupado",
+"en": "nonchalant"
+},
+"pos": "",
+"w": "nonchalant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4864
+},
+{
+"word": "die Nuance",
+"m": {
+"es": "el matiz · pl. die Nuancen",
+"en": "nuance · pl. die Nuancen"
+},
+"pos": "noun",
+"w": "die Nuance",
+"p": "",
+"g": "f",
+"pl": "Nuancen",
+"unit": null,
+"u": "",
+"q": 4865
+},
+{
+"word": "nörgeln",
+"m": {
+"es": "refunfuñar",
+"en": "to grumble"
+},
+"pos": "verb",
+"w": "nörgeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4866
+},
+{
+"word": "obliegen",
+"m": {
+"es": "incumbir",
+"en": "to be incumbent on"
+},
+"pos": "verb",
+"w": "obliegen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4867
+},
+{
+"word": "die Obrigkeit",
+"m": {
+"es": "la autoridad · pl. die Obrigkeiten",
+"en": "authorities · pl. die Obrigkeiten"
+},
+"pos": "noun",
+"w": "die Obrigkeit",
+"p": "",
+"g": "f",
+"pl": "Obrigkeiten",
+"unit": null,
+"u": "",
+"q": 4868
+},
+{
+"word": "obsolet",
+"m": {
+"es": "obsoleto",
+"en": "obsolete"
+},
+"pos": "",
+"w": "obsolet",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4869
+},
+{
+"word": "der Ohrwurm",
+"m": {
+"es": "la canción pegadiza · pl. die Ohrwürmer",
+"en": "earworm · pl. die Ohrwürmer"
+},
+"pos": "noun",
+"w": "der Ohrwurm",
+"p": "",
+"g": "m",
+"pl": "Ohrwürmer",
+"unit": null,
+"u": "",
+"q": 4870
+},
+{
+"word": "die Ordination",
+"m": {
+"es": "la consulta médica (Austria) · pl. die Ordinationen",
+"en": "doctor's surgery (Austria) · pl. die Ordinationen"
+},
+"pos": "noun",
+"w": "die Ordination",
+"p": "",
+"g": "f",
+"pl": "Ordinationen",
+"unit": null,
+"u": "",
+"q": 4871
+},
+{
+"word": "die Panikmache",
+"m": {
+"es": "el alarmismo",
+"en": "scaremongering"
+},
+"pos": "noun",
+"w": "die Panikmache",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4872
+},
+{
+"word": "der Paradeiser",
+"m": {
+"es": "el tomate (Austria) · pl. die Paradeiser",
+"en": "tomato (Austria) · pl. die Paradeiser"
+},
+"pos": "noun",
+"w": "der Paradeiser",
+"p": "",
+"g": "m",
+"pl": "Paradeiser",
+"unit": null,
+"u": "",
+"q": 4873
+},
+{
+"word": "der Paradigmenwechsel",
+"m": {
+"es": "el cambio de paradigma · pl. die Paradigmenwechsel",
+"en": "paradigm shift · pl. die Paradigmenwechsel"
+},
+"pos": "noun",
+"w": "der Paradigmenwechsel",
+"p": "",
+"g": "m",
+"pl": "Paradigmenwechsel",
+"unit": null,
+"u": "",
+"q": 4874
+},
+{
+"word": "parkieren",
+"m": {
+"es": "aparcar (Suiza)",
+"en": "to park (Switzerland)"
+},
+"pos": "verb",
+"w": "parkieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4875
+},
+{
+"word": "pedantisch",
+"m": {
+"es": "pedante",
+"en": "pedantic"
+},
+"pos": "",
+"w": "pedantisch",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4876
+},
+{
+"word": "die Pein",
+"m": {
+"es": "el tormento",
+"en": "torment"
+},
+"pos": "noun",
+"w": "die Pein",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4877
+},
+{
+"word": "pennen",
+"m": {
+"es": "sobar, dormir (coloquial)",
+"en": "to kip (colloquial)"
+},
+"pos": "verb",
+"w": "pennen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4878
+},
+{
+"word": "der Pensionist",
+"m": {
+"es": "el jubilado (Austria) · pl. die Pensionisten",
+"en": "pensioner (Austria) · pl. die Pensionisten"
+},
+"pos": "noun",
+"w": "der Pensionist",
+"p": "",
+"g": "m",
+"pl": "Pensionisten",
+"unit": null,
+"u": "",
+"q": 4879
+},
+{
+"word": "das Perron",
+"m": {
+"es": "el andén (Suiza) · pl. die Perrons",
+"en": "platform (Switzerland) · pl. die Perrons"
+},
+"pos": "noun",
+"w": "das Perron",
+"p": "",
+"g": "n",
+"pl": "Perrons",
+"unit": null,
+"u": "",
+"q": 4880
+},
+{
+"word": "der Pfannkuchen",
+"m": {
+"es": "el berlinés (Berlín); el crepe · pl. die Pfannkuchen",
+"en": "doughnut (Berlin); pancake · pl. die Pfannkuchen"
+},
+"pos": "noun",
+"w": "der Pfannkuchen",
+"p": "",
+"g": "m",
+"pl": "Pfannkuchen",
+"unit": null,
+"u": "",
+"q": 4881
+},
+{
+"word": "pikiert",
+"m": {
+"es": "ofendido",
+"en": "piqued"
+},
+"pos": "",
+"w": "pikiert",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4882
+},
+{
+"word": "die Pointe",
+"m": {
+"es": "el remate (de un chiste) · pl. die Pointen",
+"en": "punchline · pl. die Pointen"
+},
+"pos": "noun",
+"w": "die Pointe",
+"p": "",
+"g": "f",
+"pl": "Pointen",
+"unit": null,
+"u": "",
+"q": 4883
+},
+{
+"word": "die Polemik",
+"m": {
+"es": "la polémica",
+"en": "polemic"
+},
+"pos": "noun",
+"w": "die Polemik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4884
+},
+{
+"word": "das Poulet",
+"m": {
+"es": "el pollo (Suiza) · pl. die Poulets",
+"en": "chicken (Switzerland) · pl. die Poulets"
+},
+"pos": "noun",
+"w": "das Poulet",
+"p": "",
+"g": "n",
+"pl": "Poulets",
+"unit": null,
+"u": "",
+"q": 4885
+},
+{
+"word": "prahlen",
+"m": {
+"es": "fanfarronear",
+"en": "to boast"
+},
+"pos": "verb",
+"w": "prahlen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4886
+},
+{
+"word": "der Präzedenzfall",
+"m": {
+"es": "el precedente · pl. die Präzedenzfälle",
+"en": "precedent · pl. die Präzedenzfälle"
+},
+"pos": "noun",
+"w": "der Präzedenzfall",
+"p": "",
+"g": "m",
+"pl": "Präzedenzfälle",
+"unit": null,
+"u": "",
+"q": 4887
+},
+{
+"word": "der Pöstler",
+"m": {
+"es": "el cartero (Suiza) · pl. die Pöstler",
+"en": "postman (Switzerland) · pl. die Pöstler"
+},
+"pos": "noun",
+"w": "der Pöstler",
+"p": "",
+"g": "m",
+"pl": "Pöstler",
+"unit": null,
+"u": "",
+"q": 4888
+},
+{
+"word": "der Quatsch",
+"m": {
+"es": "la tontería",
+"en": "nonsense"
+},
+"pos": "noun",
+"w": "der Quatsch",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4889
+},
+{
+"word": "quatschen",
+"m": {
+"es": "charlar",
+"en": "to chat"
+},
+"pos": "",
+"w": "quatschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4890
+},
+{
+"word": "der Querdenker",
+"m": {
+"es": "el pensador original; el negacionista · pl. die Querdenker",
+"en": "lateral thinker; conspiracy theorist · pl. die Querdenker"
+},
+"pos": "noun",
+"w": "der Querdenker",
+"p": "",
+"g": "m",
+"pl": "Querdenker",
+"unit": null,
+"u": "",
+"q": 4891
+},
+{
+"word": "redlich",
+"m": {
+"es": "honrado",
+"en": "honest"
+},
+"pos": "",
+"w": "redlich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4892
+},
+{
+"word": "die Rhetorik",
+"m": {
+"es": "la retórica",
+"en": "rhetoric"
+},
+"pos": "noun",
+"w": "die Rhetorik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4893
+},
+{
+"word": "das Rüebli",
+"m": {
+"es": "la zanahoria (Suiza) · pl. die Rüebli",
+"en": "carrot (Switzerland) · pl. die Rüebli"
+},
+"pos": "noun",
+"w": "das Rüebli",
+"p": "",
+"g": "n",
+"pl": "Rüebli",
+"unit": null,
+"u": "",
+"q": 4894
+},
+{
+"word": "das Sackerl",
+"m": {
+"es": "la bolsa (Austria) · pl. die Sackerl",
+"en": "bag (Austria) · pl. die Sackerl"
+},
+"pos": "noun",
+"w": "das Sackerl",
+"p": "",
+"g": "n",
+"pl": "Sackerl",
+"unit": null,
+"u": "",
+"q": 4895
+},
+{
+"word": "salopp",
+"m": {
+"es": "desenfadado",
+"en": "casual"
+},
+"pos": "",
+"w": "salopp",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4896
+},
+{
+"word": "die Schieflage",
+"m": {
+"es": "el desequilibrio",
+"en": "imbalance"
+},
+"pos": "noun",
+"w": "die Schieflage",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4897
+},
+{
+"word": "das Schlagobers",
+"m": {
+"es": "la nata montada (Austria)",
+"en": "whipped cream (Austria)"
+},
+"pos": "noun",
+"w": "das Schlagobers",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4898
+},
+{
+"word": "schnöde",
+"m": {
+"es": "vil, despreciable",
+"en": "contemptible"
+},
+"pos": "",
+"w": "schnöde",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4899
+},
+{
+"word": "die Schrippe",
+"m": {
+"es": "el panecillo (Berlín) · pl. die Schrippen",
+"en": "bread roll (Berlin) · pl. die Schrippen"
+},
+"pos": "noun",
+"w": "die Schrippe",
+"p": "",
+"g": "f",
+"pl": "Schrippen",
+"unit": null,
+"u": "",
+"q": 4900
+},
+{
+"word": "schrullig",
+"m": {
+"es": "estrafalario",
+"en": "quirky"
+},
+"pos": "",
+"w": "schrullig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4901
+},
+{
+"word": "die Schularbeit",
+"m": {
+"es": "el examen escrito (Austria) · pl. die Schularbeiten",
+"en": "class test (Austria) · pl. die Schularbeiten"
+},
+"pos": "noun",
+"w": "die Schularbeit",
+"p": "",
+"g": "f",
+"pl": "Schularbeiten",
+"unit": null,
+"u": "",
+"q": 4902
+},
+{
+"word": "das Schwammerl",
+"m": {
+"es": "la seta (Austria) · pl. die Schwammerl",
+"en": "mushroom (Austria) · pl. die Schwammerl"
+},
+"pos": "noun",
+"w": "das Schwammerl",
+"p": "",
+"g": "n",
+"pl": "Schwammerl",
+"unit": null,
+"u": "",
+"q": 4903
+},
+{
+"word": "die Schwarzmalerei",
+"m": {
+"es": "el pesimismo exagerado",
+"en": "doom-mongering"
+},
+"pos": "noun",
+"w": "die Schwarzmalerei",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4904
+},
+{
+"word": "der Schweinehund",
+"m": {
+"es": "la pereza (der innere Schweinehund)",
+"en": "weaker self (laziness)"
+},
+"pos": "noun",
+"w": "der Schweinehund",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4905
+},
+{
+"word": "schwelgen",
+"m": {
+"es": "deleitarse",
+"en": "to indulge"
+},
+"pos": "verb",
+"w": "schwelgen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4906
+},
+{
+"word": "die Schwermut",
+"m": {
+"es": "la melancolía",
+"en": "melancholy"
+},
+"pos": "noun",
+"w": "die Schwermut",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4907
+},
+{
+"word": "das Schwyzerdütsch",
+"m": {
+"es": "el alemán suizo",
+"en": "Swiss German"
+},
+"pos": "noun",
+"w": "das Schwyzerdütsch",
+"p": "",
+"g": "n",
+"unit": null,
+"u": "",
+"q": 4908
+},
+{
+"word": "die Schönfärberei",
+"m": {
+"es": "el maquillaje de la realidad",
+"en": "whitewashing"
+},
+"pos": "noun",
+"w": "die Schönfärberei",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4909
+},
+{
+"word": "selbstgefällig",
+"m": {
+"es": "complaciente consigo mismo",
+"en": "smug"
+},
+"pos": "",
+"w": "selbstgefällig",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4910
+},
+{
+"word": "die Semmel",
+"m": {
+"es": "el panecillo (Austria, Baviera) · pl. die Semmeln",
+"en": "bread roll (Austria, Bavaria) · pl. die Semmeln"
+},
+"pos": "noun",
+"w": "die Semmel",
+"p": "",
+"g": "f",
+"pl": "Semmeln",
+"unit": null,
+"u": "",
+"q": 4911
+},
+{
+"word": "servus",
+"m": {
+"es": "hola; adiós (Austria, Baviera)",
+"en": "hello; bye (Austria, Bavaria)"
+},
+"pos": "",
+"w": "servus",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4912
+},
+{
+"word": "Sich die Haare raufen",
+"m": {
+"es": "tirarse de los pelos",
+"en": "to tear one's hair out"
+},
+"pos": "",
+"w": "Sich die Haare raufen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4913
+},
+{
+"word": "Sich ins eigene Fleisch schneiden",
+"m": {
+"es": "tirar piedras contra el propio tejado",
+"en": "to shoot oneself in the foot"
+},
+"pos": "",
+"w": "Sich ins eigene Fleisch schneiden",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4914
+},
+{
+"word": "Sich keinen Rat wissen",
+"m": {
+"es": "no saber qué hacer",
+"en": "to be at a loss"
+},
+"pos": "",
+"w": "Sich keinen Rat wissen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4915
+},
+{
+"word": "sinnieren",
+"m": {
+"es": "cavilar",
+"en": "to ponder"
+},
+"pos": "verb",
+"w": "sinnieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4916
+},
+{
+"word": "sintemal",
+"m": {
+"es": "puesto que (arcaico)",
+"en": "since (archaic)"
+},
+"pos": "",
+"w": "sintemal",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4917
+},
+{
+"word": "sogleich",
+"m": {
+"es": "enseguida",
+"en": "at once"
+},
+"pos": "",
+"w": "sogleich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4918
+},
+{
+"word": "sondieren",
+"m": {
+"es": "sondear",
+"en": "to sound out"
+},
+"pos": "verb",
+"w": "sondieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4919
+},
+{
+"word": "die Spaltung",
+"m": {
+"es": "la división · pl. die Spaltungen",
+"en": "division · pl. die Spaltungen"
+},
+"pos": "noun",
+"w": "die Spaltung",
+"p": "",
+"g": "f",
+"pl": "Spaltungen",
+"unit": null,
+"u": "",
+"q": 4920
+},
+{
+"word": "der Spießbürger",
+"m": {
+"es": "el burgués mediocre · pl. die Spießbürger",
+"en": "philistine · pl. die Spießbürger"
+},
+"pos": "noun",
+"w": "der Spießbürger",
+"p": "",
+"g": "m",
+"pl": "Spießbürger",
+"unit": null,
+"u": "",
+"q": 4921
+},
+{
+"word": "spröde",
+"m": {
+"es": "áspero, esquivo",
+"en": "brittle; aloof"
+},
+"pos": "",
+"w": "spröde",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4922
+},
+{
+"word": "der Stammtisch",
+"m": {
+"es": "la tertulia de bar · pl. die Stammtische",
+"en": "regulars' table · pl. die Stammtische"
+},
+"pos": "noun",
+"w": "der Stammtisch",
+"p": "",
+"g": "m",
+"pl": "Stammtische",
+"unit": null,
+"u": "",
+"q": 4923
+},
+{
+"word": "die Stammtischparole",
+"m": {
+"es": "el tópico de bar · pl. die Stammtischparolen",
+"en": "populist slogan · pl. die Stammtischparolen"
+},
+"pos": "noun",
+"w": "die Stammtischparole",
+"p": "",
+"g": "f",
+"pl": "Stammtischparolen",
+"unit": null,
+"u": "",
+"q": 4924
+},
+{
+"word": "Steter Tropfen höhlt den Stein",
+"m": {
+"es": "la gota horada la piedra",
+"en": "constant dripping wears away the stone"
+},
+"pos": "",
+"w": "Steter Tropfen höhlt den Stein",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4925
+},
+{
+"word": "die Stiege",
+"m": {
+"es": "la escalera (Austria) · pl. die Stiegen",
+"en": "stairs (Austria) · pl. die Stiegen"
+},
+"pos": "noun",
+"w": "die Stiege",
+"p": "",
+"g": "f",
+"pl": "Stiegen",
+"unit": null,
+"u": "",
+"q": 4926
+},
+{
+"word": "das Stiegenhaus",
+"m": {
+"es": "la escalera del edificio (Austria) · pl. die Stiegenhäuser",
+"en": "stairwell (Austria) · pl. die Stiegenhäuser"
+},
+"pos": "noun",
+"w": "das Stiegenhaus",
+"p": "",
+"g": "n",
+"pl": "Stiegenhäuser",
+"unit": null,
+"u": "",
+"q": 4927
+},
+{
+"word": "Stille Wasser sind tief",
+"m": {
+"es": "del agua mansa líbreme Dios",
+"en": "still waters run deep"
+},
+"pos": "",
+"w": "Stille Wasser sind tief",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4928
+},
+{
+"word": "stringent",
+"m": {
+"es": "riguroso",
+"en": "stringent"
+},
+"pos": "",
+"w": "stringent",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4929
+},
+{
+"word": "süffisant",
+"m": {
+"es": "burlón",
+"en": "smug, sardonic"
+},
+"pos": "",
+"w": "süffisant",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4930
+},
+{
+"word": "die Sünde",
+"m": {
+"es": "el pecado · pl. die Sünden",
+"en": "sin · pl. die Sünden"
+},
+"pos": "noun",
+"w": "die Sünde",
+"p": "",
+"g": "f",
+"pl": "Sünden",
+"unit": null,
+"u": "",
+"q": 4931
+},
+{
+"word": "der Sündenbock",
+"m": {
+"es": "el chivo expiatorio · pl. die Sündenböcke",
+"en": "scapegoat · pl. die Sündenböcke"
+},
+"pos": "noun",
+"w": "der Sündenbock",
+"p": "",
+"g": "m",
+"pl": "Sündenböcke",
+"unit": null,
+"u": "",
+"q": 4932
+},
+{
+"word": "tadeln",
+"m": {
+"es": "reprender",
+"en": "to reprimand"
+},
+"pos": "verb",
+"w": "tadeln",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4933
+},
+{
+"word": "taktieren",
+"m": {
+"es": "maniobrar",
+"en": "to manoeuvre"
+},
+"pos": "verb",
+"w": "taktieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4934
+},
+{
+"word": "der Teufelskreis",
+"m": {
+"es": "el círculo vicioso",
+"en": "vicious circle"
+},
+"pos": "noun",
+"w": "der Teufelskreis",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4935
+},
+{
+"word": "der Topfen",
+"m": {
+"es": "el requesón (Austria)",
+"en": "curd cheese (Austria)"
+},
+"pos": "noun",
+"w": "der Topfen",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4936
+},
+{
+"word": "die Torheit",
+"m": {
+"es": "la necedad · pl. die Torheiten",
+"en": "folly · pl. die Torheiten"
+},
+"pos": "noun",
+"w": "die Torheit",
+"p": "",
+"g": "f",
+"pl": "Torheiten",
+"unit": null,
+"u": "",
+"q": 4937
+},
+{
+"word": "die Torschlusspanik",
+"m": {
+"es": "el pánico a que sea demasiado tarde",
+"en": "fear of missing the boat"
+},
+"pos": "noun",
+"w": "die Torschlusspanik",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4938
+},
+{
+"word": "das Totschlagargument",
+"m": {
+"es": "el argumento que zanja · pl. die Totschlagargumente",
+"en": "knockout argument · pl. die Totschlagargumente"
+},
+"pos": "noun",
+"w": "das Totschlagargument",
+"p": "",
+"g": "n",
+"pl": "Totschlagargumente",
+"unit": null,
+"u": "",
+"q": 4939
+},
+{
+"word": "trachten",
+"m": {
+"es": "aspirar",
+"en": "to strive"
+},
+"pos": "verb",
+"w": "trachten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4940
+},
+{
+"word": "die Trafik",
+"m": {
+"es": "el estanco (Austria) · pl. die Trafiken",
+"en": "tobacconist's (Austria) · pl. die Trafiken"
+},
+"pos": "noun",
+"w": "die Trafik",
+"p": "",
+"g": "f",
+"pl": "Trafiken",
+"unit": null,
+"u": "",
+"q": 4941
+},
+{
+"word": "das Tram",
+"m": {
+"es": "el tranvía (Suiza) · pl. die Trams",
+"en": "tram (Switzerland) · pl. die Trams"
+},
+"pos": "noun",
+"w": "das Tram",
+"p": "",
+"g": "n",
+"pl": "Trams",
+"unit": null,
+"u": "",
+"q": 4942
+},
+{
+"word": "trefflich",
+"m": {
+"es": "excelente",
+"en": "excellent"
+},
+"pos": "",
+"w": "trefflich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4943
+},
+{
+"word": "das Trottoir",
+"m": {
+"es": "la acera (Suiza) · pl. die Trottoirs",
+"en": "pavement (Switzerland) · pl. die Trottoirs"
+},
+"pos": "noun",
+"w": "das Trottoir",
+"p": "",
+"g": "n",
+"pl": "Trottoirs",
+"unit": null,
+"u": "",
+"q": 4944
+},
+{
+"word": "tschö",
+"m": {
+"es": "adiós (coloquial, Renania)",
+"en": "bye (Rhineland)"
+},
+"pos": "",
+"w": "tschö",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4945
+},
+{
+"word": "die Tugend",
+"m": {
+"es": "la virtud · pl. die Tugenden",
+"en": "virtue · pl. die Tugenden"
+},
+"pos": "noun",
+"w": "die Tugend",
+"p": "",
+"g": "f",
+"pl": "Tugenden",
+"unit": null,
+"u": "",
+"q": 4946
+},
+{
+"word": "tumb",
+"m": {
+"es": "simplón",
+"en": "naive, dull"
+},
+"pos": "",
+"w": "tumb",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4947
+},
+{
+"word": "unbedarft",
+"m": {
+"es": "ingenuo",
+"en": "naive"
+},
+"pos": "",
+"w": "unbedarft",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4948
+},
+{
+"word": "unlängst",
+"m": {
+"es": "hace poco",
+"en": "recently"
+},
+"pos": "",
+"w": "unlängst",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4949
+},
+{
+"word": "Unter vier Augen",
+"m": {
+"es": "a solas, en privado",
+"en": "in private"
+},
+"pos": "",
+"w": "Unter vier Augen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4950
+},
+{
+"word": "das Unterfangen",
+"m": {
+"es": "la empresa (arriesgada) · pl. die Unterfangen",
+"en": "venture · pl. die Unterfangen"
+},
+"pos": "noun",
+"w": "das Unterfangen",
+"p": "",
+"g": "n",
+"pl": "Unterfangen",
+"unit": null,
+"u": "",
+"q": 4951
+},
+{
+"word": "unterminieren",
+"m": {
+"es": "socavar",
+"en": "to undermine"
+},
+"pos": "verb",
+"w": "unterminieren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4952
+},
+{
+"word": "der Unterton",
+"m": {
+"es": "el matiz, el trasfondo",
+"en": "undertone"
+},
+"pos": "noun",
+"w": "der Unterton",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4953
+},
+{
+"word": "unverfroren",
+"m": {
+"es": "descarado",
+"en": "brazen"
+},
+"pos": "verb",
+"w": "unverfroren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4954
+},
+{
+"word": "das Velo",
+"m": {
+"es": "la bicicleta (Suiza) · pl. die Velos",
+"en": "bicycle (Switzerland) · pl. die Velos"
+},
+"pos": "noun",
+"w": "das Velo",
+"p": "",
+"g": "n",
+"pl": "Velos",
+"unit": null,
+"u": "",
+"q": 4955
+},
+{
+"word": "verblümt",
+"m": {
+"es": "velado",
+"en": "veiled"
+},
+"pos": "",
+"w": "verblümt",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4956
+},
+{
+"word": "verbrämen",
+"m": {
+"es": "adornar, disfrazar",
+"en": "to dress up"
+},
+"pos": "verb",
+"w": "verbrämen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4957
+},
+{
+"word": "verbürgen",
+"m": {
+"es": "garantizar",
+"en": "to guarantee"
+},
+"pos": "verb",
+"w": "verbürgen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4958
+},
+{
+"word": "verfechten",
+"m": {
+"es": "defender",
+"en": "to advocate"
+},
+"pos": "verb",
+"w": "verfechten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4959
+},
+{
+"word": "vergällen",
+"m": {
+"es": "amargar",
+"en": "to spoil"
+},
+"pos": "verb",
+"w": "vergällen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4960
+},
+{
+"word": "die Vergänglichkeit",
+"m": {
+"es": "la fugacidad",
+"en": "transience"
+},
+"pos": "noun",
+"w": "die Vergänglichkeit",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4961
+},
+{
+"word": "verhalten",
+"m": {
+"es": "contenido · verhält, verhielt, hat verhalten",
+"en": "restrained · verhält, verhielt, hat verhalten"
+},
+"pos": "verb",
+"w": "verhalten",
+"p": "",
+"pp": "verhält, verhielt, hat verhalten",
+"unit": null,
+"u": "",
+"q": 4962
+},
+{
+"word": "verhehlen",
+"m": {
+"es": "ocultar",
+"en": "to conceal"
+},
+"pos": "verb",
+"w": "verhehlen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4963
+},
+{
+"word": "verklären",
+"m": {
+"es": "idealizar",
+"en": "to glorify"
+},
+"pos": "verb",
+"w": "verklären",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4964
+},
+{
+"word": "verschmähen",
+"m": {
+"es": "despreciar",
+"en": "to spurn"
+},
+"pos": "verb",
+"w": "verschmähen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4965
+},
+{
+"word": "verschroben",
+"m": {
+"es": "estrafalario",
+"en": "eccentric"
+},
+"pos": "verb",
+"w": "verschroben",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4966
+},
+{
+"word": "vertuschen",
+"m": {
+"es": "encubrir",
+"en": "to cover up"
+},
+"pos": "",
+"w": "vertuschen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4967
+},
+{
+"word": "verunglimpfen",
+"m": {
+"es": "denigrar",
+"en": "to denigrate"
+},
+"pos": "verb",
+"w": "verunglimpfen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4968
+},
+{
+"word": "verzagen",
+"m": {
+"es": "desanimarse",
+"en": "to lose heart"
+},
+"pos": "verb",
+"w": "verzagen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4969
+},
+{
+"word": "Viele Köche verderben den Brei",
+"m": {
+"es": "muchas manos en un plato…",
+"en": "too many cooks spoil the broth"
+},
+"pos": "",
+"w": "Viele Köche verderben den Brei",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4970
+},
+{
+"word": "die Volksverhetzung",
+"m": {
+"es": "la incitación al odio (delito)",
+"en": "incitement to hatred"
+},
+"pos": "noun",
+"w": "die Volksverhetzung",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4971
+},
+{
+"word": "vordem",
+"m": {
+"es": "antes",
+"en": "formerly"
+},
+"pos": "",
+"w": "vordem",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4972
+},
+{
+"word": "das Wagnis",
+"m": {
+"es": "el riesgo · pl. die Wagnisse",
+"en": "risk, venture · pl. die Wagnisse"
+},
+"pos": "noun",
+"w": "das Wagnis",
+"p": "",
+"g": "n",
+"pl": "Wagnisse",
+"unit": null,
+"u": "",
+"q": 4973
+},
+{
+"word": "walten",
+"m": {
+"es": "reinar, imperar",
+"en": "to prevail"
+},
+"pos": "verb",
+"w": "walten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4974
+},
+{
+"word": "die Wanderlust",
+"m": {
+"es": "las ganas de viajar",
+"en": "wanderlust"
+},
+"pos": "noun",
+"w": "die Wanderlust",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4975
+},
+{
+"word": "weltfremd",
+"m": {
+"es": "ajeno a la realidad",
+"en": "unworldly"
+},
+"pos": "",
+"w": "weltfremd",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4976
+},
+{
+"word": "der Weltschmerz",
+"m": {
+"es": "el dolor del mundo",
+"en": "world-weariness"
+},
+"pos": "noun",
+"w": "der Weltschmerz",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4977
+},
+{
+"word": "Wer A sagt, muss auch B sagen",
+"m": {
+"es": "lo que se empieza hay que acabarlo",
+"en": "in for a penny, in for a pound"
+},
+"pos": "",
+"w": "Wer A sagt, muss auch B sagen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4978
+},
+{
+"word": "Wie auf heißen Kohlen sitzen",
+"m": {
+"es": "estar en ascuas",
+"en": "to be on tenterhooks"
+},
+"pos": "",
+"w": "Wie auf heißen Kohlen sitzen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4979
+},
+{
+"word": "Wie die Faust aufs Auge passen",
+"m": {
+"es": "no pegar ni con cola; venir al pelo",
+"en": "to clash; to fit perfectly"
+},
+"pos": "",
+"w": "Wie die Faust aufs Auge passen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4980
+},
+{
+"word": "Wie ein Elefant im Porzellanladen",
+"m": {
+"es": "como un elefante en una cacharrería",
+"en": "like a bull in a china shop"
+},
+"pos": "",
+"w": "Wie ein Elefant im Porzellanladen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4981
+},
+{
+"word": "die Willkür",
+"m": {
+"es": "la arbitrariedad",
+"en": "arbitrariness"
+},
+"pos": "noun",
+"w": "die Willkür",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4982
+},
+{
+"word": "Wo ein Wille ist, ist auch ein Weg",
+"m": {
+"es": "querer es poder",
+"en": "where there's a will, there's a way"
+},
+"pos": "",
+"w": "Wo ein Wille ist, ist auch ein Weg",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4983
+},
+{
+"word": "wohlwollend",
+"m": {
+"es": "benévolo",
+"en": "benevolent"
+},
+"pos": "",
+"w": "wohlwollend",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4984
+},
+{
+"word": "die Wonne",
+"m": {
+"es": "el deleite",
+"en": "bliss"
+},
+"pos": "noun",
+"w": "die Wonne",
+"p": "",
+"g": "f",
+"unit": null,
+"u": "",
+"q": 4985
+},
+{
+"word": "das Wortspiel",
+"m": {
+"es": "el juego de palabras · pl. die Wortspiele",
+"en": "pun · pl. die Wortspiele"
+},
+"pos": "noun",
+"w": "das Wortspiel",
+"p": "",
+"g": "n",
+"pl": "Wortspiele",
+"unit": null,
+"u": "",
+"q": 4986
+},
+{
+"word": "der Wutbürger",
+"m": {
+"es": "el ciudadano indignado · pl. die Wutbürger",
+"en": "enraged citizen · pl. die Wutbürger"
+},
+"pos": "noun",
+"w": "der Wutbürger",
+"p": "",
+"g": "m",
+"pl": "Wutbürger",
+"unit": null,
+"u": "",
+"q": 4987
+},
+{
+"word": "wähnen",
+"m": {
+"es": "creer (erróneamente)",
+"en": "to believe wrongly"
+},
+"pos": "verb",
+"w": "wähnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4988
+},
+{
+"word": "zaudern",
+"m": {
+"es": "titubear",
+"en": "to hesitate"
+},
+"pos": "verb",
+"w": "zaudern",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4989
+},
+{
+"word": "zehren",
+"m": {
+"es": "consumir; vivir de",
+"en": "to consume; to live off"
+},
+"pos": "verb",
+"w": "zehren",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4990
+},
+{
+"word": "der Zeitgeist",
+"m": {
+"es": "el espíritu de la época",
+"en": "spirit of the age"
+},
+"pos": "noun",
+"w": "der Zeitgeist",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4991
+},
+{
+"word": "zerknirscht",
+"m": {
+"es": "arrepentido",
+"en": "contrite"
+},
+"pos": "",
+"w": "zerknirscht",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4992
+},
+{
+"word": "zerrütten",
+"m": {
+"es": "arruinar",
+"en": "to ruin"
+},
+"pos": "verb",
+"w": "zerrütten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4993
+},
+{
+"word": "der Zivilstand",
+"m": {
+"es": "el estado civil (Suiza)",
+"en": "marital status (Switzerland)"
+},
+"pos": "noun",
+"w": "der Zivilstand",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4994
+},
+{
+"word": "der Zvieri",
+"m": {
+"es": "la merienda (Suiza)",
+"en": "afternoon snack (Switzerland)"
+},
+"pos": "noun",
+"w": "der Zvieri",
+"p": "",
+"g": "m",
+"unit": null,
+"u": "",
+"q": 4995
+},
+{
+"word": "der Zwist",
+"m": {
+"es": "la disputa · pl. die Zwiste",
+"en": "dispute · pl. die Zwiste"
+},
+"pos": "noun",
+"w": "der Zwist",
+"p": "",
+"g": "m",
+"pl": "Zwiste",
+"unit": null,
+"u": "",
+"q": 4996
+},
+{
+"word": "die Zäsur",
+"m": {
+"es": "la cesura, el corte · pl. die Zäsuren",
+"en": "turning point · pl. die Zäsuren"
+},
+"pos": "noun",
+"w": "die Zäsur",
+"p": "",
+"g": "f",
+"pl": "Zäsuren",
+"unit": null,
+"u": "",
+"q": 4997
+},
+{
+"word": "zürnen",
+"m": {
+"es": "estar airado",
+"en": "to be angry"
+},
+"pos": "verb",
+"w": "zürnen",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4998
+},
+{
+"word": "überantworten",
+"m": {
+"es": "confiar, entregar",
+"en": "to hand over"
+},
+"pos": "verb",
+"w": "überantworten",
+"p": "",
+"unit": null,
+"u": "",
+"q": 4999
+},
+{
+"word": "überschwänglich",
+"m": {
+"es": "efusivo",
+"en": "effusive"
+},
+"pos": "",
+"w": "überschwänglich",
+"p": "",
+"unit": null,
+"u": "",
+"q": 5000
+},
+{
+"word": "Übung macht den Meister",
+"m": {
+"es": "la práctica hace al maestro",
+"en": "practice makes perfect"
+},
+"pos": "",
+"w": "Übung macht den Meister",
+"p": "",
+"unit": null,
+"u": "",
+"q": 5001
+}
+]
