@@ -1,3 +1,4 @@
+import '../tour.js?v=202611202230';
 import { tutorSettings } from '../tutor.js?v=202611202210';
 import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611201200';
 import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611201200';
@@ -91,6 +92,7 @@ register('settings', (el) => {
       </div>
       ${voiceSettings({ t, esc, G, voices: langVoices(), dvoice: deviceVoiceName(), recorded: REC })}
     </div>
+    <button class="btn btn-soft mb-16" onclick="window.__tour && window.__tour()">🧭 ${S.lang === 'es' ? 'Ver la guía de la app' : 'Show the app tour'}</button>
     ${tutorSettings()}
 
     <div class="card" style="padding:20px;margin-bottom:16px">

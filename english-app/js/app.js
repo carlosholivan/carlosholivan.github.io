@@ -2,21 +2,21 @@ import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611
 import { go } from './router.js?v=202611201200';
 import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611201200';
 
-import './views/home.js?v=202611202210';
-import './views/lesson.js?v=202611202210';
-import './views/review.js?v=202611202210';
-import './views/progress.js?v=202611202210';
-import './views/settings.js?v=202611202210';
-import './views/reference.js?v=202611202210';
-import './views/daily-review.js?v=202611202210';
-import './views/auth.js?v=202611202210';
-import './views/texts.js?v=202611202210';
-import './views/drills.js?v=202611202210';
-import './views/conj.js?v=202611202210';
-import './views/topics.js?v=202611202210';
-import './views/vocablist.js?v=202611202210';
-import './views/ranking.js?v=202611202210';
-import { enterApp } from './views/welcome.js?v=202611202210';
+import './views/home.js?v=202611202240';
+import './views/lesson.js?v=202611202240';
+import './views/review.js?v=202611202240';
+import './views/progress.js?v=202611202240';
+import './views/settings.js?v=202611202240';
+import './views/reference.js?v=202611202240';
+import './views/daily-review.js?v=202611202240';
+import './views/auth.js?v=202611202240';
+import './views/texts.js?v=202611202240';
+import './views/drills.js?v=202611202240';
+import './views/conj.js?v=202611202240';
+import './views/topics.js?v=202611202240';
+import './views/vocablist.js?v=202611202240';
+import './views/ranking.js?v=202611202240';
+import { enterApp } from './views/welcome.js?v=202611202240';
 import { applyPinyinPref } from './es.js?v=202611201200';
 
 if (S.dark) document.body.classList.add('dark');

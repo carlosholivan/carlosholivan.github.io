@@ -1,3 +1,4 @@
+import { needsTour, startTour } from '../tour.js?v=202611202230';
 import { S, update } from '../state.js?v=202611201200';
 import { register, go } from '../router.js?v=202611201200';
 import { t } from '../i18n.js?v=202611201200';
@@ -91,6 +92,7 @@ window.__saveName = () => {
 };
 
 register('welcome', async (el) => {
+  if (needsTour()) return startTour();   // first visit: the guided tour, which ends back here
   await pyReady;
   const returning = !!S.welcomed;
   const hello = `你好，${String(S.name).replace(/[<>&"']/g, '')}！`;
