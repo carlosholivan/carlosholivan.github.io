@@ -1,4 +1,4 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611201200';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611202200';
 import { S, completeUnit, completeSet, update } from '../state.js?v=202611201200';
 import { buildReview } from '../engine/review.js?v=202611201200';
 import { addCards } from '../engine/anki.js?v=202611201200';

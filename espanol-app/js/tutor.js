@@ -17,6 +17,9 @@ const TX = {
   explain: { es: 'Explícame', en: 'Explain', ja: '説明して', ko: '설명해 줘', zh: '讲解一下' },
   why: { es: '¿Por qué?', en: 'Why?', ja: 'なぜ？', ko: '왜?', zh: '为什么？' },
   askGrammar: { es: 'Pregunta tus dudas al tutor', en: 'Ask the tutor your questions', ja: 'チューターに質問する', ko: '튜터에게 질문하기', zh: '向辅导老师提问' },
+  slow: { es: 'La IA está tardando demasiado (puede que Google esté saturado). Vuelve a intentarlo en un momento.', en: 'The AI is taking too long (Google may be busy). Please try again in a moment.', ja: 'AI の応答に時間がかかりすぎています（Google が混雑している可能性があります）。少ししてからもう一度お試しください。', ko: 'AI 응답이 너무 오래 걸립니다(Google이 혼잡할 수 있어요). 잠시 후 다시 시도해 주세요.', zh: 'AI 响应时间过长（Google 可能比较繁忙）。请稍后再试。' },
+  net: { es: 'No se pudo conectar con la IA. Revisa tu conexión a internet y vuelve a intentarlo.', en: 'Could not reach the AI. Check your internet connection and try again.', ja: 'AI に接続できませんでした。インターネット接続を確認して、もう一度お試しください。', ko: 'AI에 연결하지 못했어요. 인터넷 연결을 확인하고 다시 시도해 주세요.', zh: '无法连接 AI。请检查网络连接后重试。' },
+  empty: { es: 'La IA no ha devuelto ninguna respuesta. Prueba a preguntarlo de otra forma.', en: 'The AI returned no answer. Try asking in a different way.', ja: 'AI から回答がありませんでした。聞き方を変えてみてください。', ko: 'AI가 답을 주지 않았어요. 다르게 질문해 보세요.', zh: 'AI 没有返回回答。换个方式提问试试。' },
   thinking: { es: 'Pensando…', en: 'Thinking…', ja: '考え中…', ko: '생각 중…', zh: '思考中…' },
   follow: { es: 'Pregunta algo más…', en: 'Ask something else…', ja: '続けて質問…', ko: '더 물어보기…', zh: '继续提问……' },
   send: { es: 'Enviar', en: 'Send', ja: '送信', ko: '보내기', zh: '发送' },
@@ -68,16 +71,33 @@ async function pickModel(key, fresh) {
   return m;
 }
 
-async function call(contents, retry = 2, forced = null) {
+// Recent Gemini models "think" before answering, which can take a minute or more: ask for little thinking.
+// Older models reject the option, so it is dropped if the API complains about it.
+const thinkCfg = m => /gemini-2\.5/.test(m) ? { thinkingBudget: /pro/.test(m) ? 128 : 0 } : ver(m) >= 3 ? { thinkingLevel: 'low' } : null;
+const fail = (k, status = 0) => { const e = new Error(tt(k)); e.status = status; return e; };
+
+async function call(contents, retry = 2, forced = null, noThink = false) {
   const key = tutorKey();
   const model = forced || await pickModel(key, retry < 2);
-  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
-    method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-    body: JSON.stringify({ contents, systemInstruction: { parts: [{ text: system() }] }, generationConfig: { temperature: 0.4, maxOutputTokens: 1500 } }),
-  });
-  const j = await r.json().catch(() => ({}));
+  const gen = { temperature: 0.4, maxOutputTokens: 4096 };
+  const tc = !noThink && thinkCfg(model);
+  if (tc) gen.thinkingConfig = tc;
+  // Never leave "Thinking…" on screen forever: give up after 60 s with a clear message.
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 60000);
+  let r, j;
+  try {
+    r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key }, signal: ctrl.signal,
+      body: JSON.stringify({ contents, systemInstruction: { parts: [{ text: system() }] }, generationConfig: gen }),
+    });
+    j = await r.json().catch(() => ({}));
+  } catch (e) {
+    throw fail(e && e.name === 'AbortError' ? 'slow' : 'net');
+  } finally { clearTimeout(timer); }
   if (!r.ok) {
     const msg = j.error?.message || '';
+    if (tc && r.status === 400 && /think/i.test(msg)) return call(contents, retry, model, true);
     // Retired or unknown model: remember it, follow Google's suggestion ("use models/…") or pick another one.
     if (retry > 0 && r.status !== 429 && (r.status === 404 || /model|no longer available|deprecated|not supported/i.test(msg))) {
       markBad(model); LS('gemini_tutor_model', null);
@@ -87,7 +107,12 @@ async function call(contents, retry = 2, forced = null) {
     }
     const e = new Error(msg || String(r.status)); e.status = r.status; throw e;
   }
-  return (j.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
+  const out = (j.candidates?.[0]?.content?.parts || []).filter(p => !p.thought).map(p => p.text || '').join('').trim();
+  if (!out) {
+    if (retry > 0 && !noThink) return call(contents, retry - 1, model, true);
+    throw fail('empty');
+  }
+  return out;
 }
 
 function system() {

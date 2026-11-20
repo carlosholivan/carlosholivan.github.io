@@ -1,4 +1,4 @@
-import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611201200';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611202200';
 import { S, update } from '../state.js?v=202611201200';
 import { register, go } from '../router.js?v=202611201200';
 import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611201200';
