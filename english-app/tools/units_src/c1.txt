@@ -34,7 +34,7 @@ match ¦ headstrong=testarudo; smug=engreído; wary=receloso; conscientious=conc
 === 2
 title: Little did she know ¦ Poco sabía ella
 desc: La inversión tras expresiones negativas y restrictivas para dar énfasis
-gram: Never / Rarely / Seldom + auxiliar + sujeto ¦ Not only… but also ¦ No sooner… than / Hardly… when ¦ Only then / Only after / Not until ¦ Little did…
+gram: Never / Rarely / Seldom + auxiliary + subject ¦ Not only… but also ¦ No sooner… than / Hardly… when ¦ Only then / Only after / Not until ¦ Little did…
 ref: c1-inversion
 words: seldom, rarely, scarcely, hardly, barely, little, notwithstanding, beforehand, thereby, startling, staggering, inexplicable, inexplicably, unprecedented, circumstance, profound, profoundly, dismay, astonish, realise, ordinarily, utterly, remotely, outset, under, account, condition, until, only
 intro:
@@ -128,7 +128,7 @@ match ¦ presumably=presumiblemente; allegedly=supuestamente; inevitable=inevita
 === 5
 title: Getting things done ¦ Encargar que te hagan las cosas
 desc: Pasiva avanzada y estructuras causativas
-gram: have/get sth done ¦ have sb do / get sb to do ¦ pasiva con verbos de opinión (is said to have) ¦ pasiva de infinitivo y gerundio (to be done, being done) ¦ need + -ing
+gram: have/get sth done ¦ have sb do / get sb to do ¦ passive with reporting verbs (is said to have) ¦ passive infinitive and gerund (to be done, being done) ¦ need + -ing
 ref: c1-passive-causative
 words: refurbish, refurbishment, renovate, repair, install, plumbing, plumber, carpenter, contractor, invoice, estimate, quote, deadline, specification, outsource, delegate, appliance, malfunction, maintenance, overhaul, inspect, inspection, decorate, plaster, premises, alleged, reportedly, rumour, persuade, convince
 intro:
@@ -159,7 +159,7 @@ match ¦ invoice=factura; contractor=contratista; overhaul=revisión a fondo; pr
 === 6
 title: Had I known ¦ De haberlo sabido
 desc: Condicionales avanzadas: inversión, alternativas a if y condicionales implícitas
-gram: Had / Should / Were + sujeto (inversión) ¦ provided / providing / as long as / on condition that ¦ but for / otherwise / supposing ¦ if it weren't for / if it hadn't been for
+gram: Had / Should / Were + subject (inversion) ¦ provided / providing / as long as / on condition that ¦ but for / otherwise / supposing ¦ if it weren't for / if it hadn't been for
 ref: c1-conditionals
 words: condition, provided, providing, supposing, otherwise, unless, assuming, regardless, hypothetical, scenario, consequence, outcome, alternatively, conditionally, eventuality, contingency, regret, hindsight, foresee, foresight, prevent, avert, fortunate, fortunately, luckily, disaster, crisis, risk, chance
 intro:
@@ -189,7 +189,7 @@ match ¦ hindsight=retrospectiva; avert=evitar; contingency=imprevisto; foresee=
 === 7
 title: Bringing it up ¦ Sacar el tema
 desc: Verbos frasales de nivel avanzado en contextos de trabajo y relaciones
-gram: phrasal verbs separables e inseparables ¦ phrasal verbs de tres partes (put up with, come up with) ¦ sustantivos derivados (breakdown, outcome, setback)
+gram: phrasal verbs separables e inseparables ¦ three-part phrasal verbs (put up with, come up with) ¦ nouns from phrasal verbs (breakdown, outcome, setback)
 ref: c1-phrasal-verbs
 words: bring up, come up with, put up with, look into, figure out, turn down, carry out, set up, break down, fall out, go through, get across, live up to, run into, back up, rule out, phase out, call off, put off, catch on, brush up on, iron out, play down, step down, sort out, take over, wind up, drop out, setback, outcome
 intro:
@@ -223,7 +223,7 @@ match ¦ rule out=descartar; step down=dimitir; phase out=eliminar gradualmente;
 === 8
 title: The implementation of the plan ¦ La puesta en marcha del plan
 desc: Nominalización y registro formal: pasar de un estilo verbal a uno nominal
-gram: nominalización (decide → decision; fail → failure) ¦ verbos de apoyo (make a decision, carry out an investigation) ¦ registro formal vs informal (obtain / get, commence / start)
+gram: nominalisation (decide → decision; fail → failure) ¦ support verbs (make a decision, carry out an investigation) ¦ formal vs informal register (obtain / get, commence / start)
 ref: c1-nominalisation
 words: implementation, implement, assessment, assess, reluctance, reluctant, endorsement, endorse, compliance, comply, retention, retain, elaboration, elaborate, scrutiny, scrutinise, provision, consultation, consult, inclusion, facilitation, facilitate, alleviate, commence, obtain, endeavour, subsequent, prior, register, formality
 intro:
@@ -286,7 +286,7 @@ match ¦ arguably=posiblemente; seemingly=aparentemente; virtually=prácticament
 === 10
 title: So do I, and neither does she ¦ Yo también, y ella tampoco
 desc: Elipsis y sustitución para evitar repeticiones
-gram: so / neither / nor + auxiliar ¦ so / not como sustitutos (I think so, I hope not) ¦ one / ones ¦ do so ¦ elipsis tras auxiliares y to (I'd love to)
+gram: so / neither / nor + auxiliary ¦ so / not as substitutes (I think so, I hope not) ¦ one / ones ¦ do so ¦ ellipsis after auxiliaries and to (I'd love to)
 ref: c1-ellipsis
 words: substitute, substitution, ellipsis, omit, omission, repetition, repetitive, redundant, concise, conciseness, cohesion, coherent, refer, reference, previous, aforementioned, latter, former, respectively, likewise, similarly, equally, neither, nor, either, suppose, afraid, hope, expect, guess
 intro:
@@ -316,7 +316,7 @@ match ¦ former=el primero; latter=el segundo; respectively=respectivamente; lik
 === 11
 title: Be that as it may ¦ Sea como fuere
 desc: Conectores avanzados de contraste, concesión, causa y consecuencia
-gram: albeit, whereas, whilst ¦ even so, nonetheless, nevertheless ¦ much as / adj. + as + sujeto + verbo (concesión) ¦ hence, thus, consequently ¦ given that, in view of, owing to
+gram: albeit, whereas, whilst ¦ even so, nonetheless, nevertheless ¦ much as / adj. + as + subject + verb (concession) ¦ hence, thus, consequently ¦ given that, in view of, owing to
 ref: c1-linkers
 words: albeit, whereas, whilst, nonetheless, nevertheless, notwithstanding, hence, thus, consequently, accordingly, therefore, furthermore, moreover, likewise, conversely, admittedly, regardless, irrespective, whereby, thereby, meanwhile, ultimately, overall, namely, incidentally, firstly, lastly
 intro:
@@ -347,7 +347,7 @@ match ¦ albeit=aunque; hence=de ahí; whereas=mientras que; admittedly=hay que 
 === 12
 title: Unbelievably uninspiring ¦ Increíblemente insulso
 desc: Formación de palabras avanzada: prefijos, sufijos y cambios de categoría
-gram: prefijos negativos y de grado (mis-, dis-, under-, over-, out-, counter-) ¦ sufijos (-hood, -ship, -ness, -ity, -ism, -ise, -en) ¦ adjetivos en -ive, -ous, -ible/-able
+gram: negative and degree prefixes (mis-, dis-, under-, over-, out-, counter-) ¦ sufijos (-hood, -ship, -ness, -ity, -ism, -ise, -en) ¦ adjectives in -ive, -ous, -ible/-able
 ref: c1-word-formation
 words: prefix, suffix, misplace, misinterpret, mislead, disqualify, underestimate, overestimate, outnumber, outgrow, outlive, counterproductive, counterpart, heighten, strengthen, broaden, deepen, widen, sharpen, apprenticeship, sponsorship, neighbourhood, likelihood, closeness, simplicity, versatility, uninspiring, unsustainable, inexcusable, recognisable
 intro:
@@ -377,7 +377,7 @@ match ¦ outlive=sobrevivir a; counterpart=homólogo; misplace=extraviar; broade
 === 13
 title: Safe and sound ¦ Sano y salvo
 desc: Colocaciones fuertes y binomios (pairs) del inglés
-gram: binomios fijos (pros and cons, by and large) ¦ colocaciones adjetivo + sustantivo (heavy traffic, strong coffee) ¦ verbo + sustantivo (pay attention, reach a verdict) ¦ adverbio + adjetivo (bitterly cold)
+gram: binomios fijos (pros and cons, by and large) ¦ adjective + noun collocations (heavy traffic, strong coffee) ¦ verb + noun (pay attention, reach a verdict) ¦ adverb + adjective (bitterly cold)
 ref: c1-collocations
 words: collocation, binomial, safe, sound, sick, tired, peace, quiet, trial, error, short, sweet, rough, ready, by, large, later, heavy, bitterly, highly, deeply
 intro:
@@ -412,7 +412,7 @@ match ¦ by and large=en general; odds and ends=cosas sueltas; trial and error=e
 === 14
 title: A blessing in disguise ¦ No hay mal que por bien no venga
 desc: Expresiones idiomáticas y lenguaje figurado frecuentes en C1
-gram: idioms de cuerpo, animales y colores ¦ expresiones con verbos comunes (get the hang of, take for granted) ¦ cuándo usarlos (registro informal)
+gram: idioms with body parts, animals and colours ¦ expressions with common verbs (get the hang of, take for granted) ¦ when to use them (informal register)
 ref: c1-idioms
 words: idiom, idiomatic, figurative, literal, blessing, disguise, bargain, cake, piece, hang, ice, break, nose, ear, tongue, heart, chest, shoulder, elbow, leg, toe, bush, beat, bucket, rain, cloud, bull
 intro:
@@ -448,7 +448,7 @@ match ¦ break the ice=romper el hielo; play it by ear=ir viendo; keep an eye on
 === 15
 title: Not that I mind ¦ No es que me importe
 desc: Recursos de énfasis y actitud: do enfático, adverbios de comentario, so/such, whatever/however
-gram: do / does / did enfático ¦ adverbios de comentario (frankly, admittedly, understandably) ¦ so + adj. / such (a) + adj. + sust. ¦ whatever / whoever / however ¦ not that…
+gram: emphatic do / does / did ¦ comment adverbs (frankly, admittedly, understandably) ¦ so + adj. / such (a) + adj. + sust. ¦ whatever / whoever / however ¦ not that…
 ref: c1-attitude
 words: frankly, honestly, admittedly, understandably, predictably, regrettably, surprisingly, interestingly, curiously, ironically, thankfully, hopefully, undoubtedly, evidently, obviously, clearly, naturally, whatever, whoever, however, wherever, whenever, attitude, stance, viewpoint, emphatic, insist, mind, matter
 intro:
@@ -479,7 +479,7 @@ match ¦ regrettably=lamentablemente; evidently=evidentemente; thankfully=por su
 === 16
 title: I'd rather you didn't ¦ Preferiría que no
 desc: Pasado irreal y deseos: would rather, it's time, as if, if only, wish
-gram: would rather + sujeto + pasado ¦ it's (high/about) time + pasado ¦ as if / as though ¦ wish / if only + pasado / pasado perfecto / would ¦ suppose / imagine + pasado
+gram: would rather + subject + past ¦ it's (high/about) time + pasado ¦ as if / as though ¦ wish / if only + pasado / pasado perfecto / would ¦ suppose / imagine + pasado
 ref: c1-unreal-past
 words: wish, regret, longing, yearn, nostalgia, nostalgic, reminisce, daydream, fantasy, imaginary, hypothetical, unrealistic, rather, suppose, imagine, pretend, behave, treat, act, preferably, ideally, hindsight, remorse, pity, shame, if only, high time, as if, as though
 intro:

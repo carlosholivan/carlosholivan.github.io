@@ -198,7 +198,7 @@ register('study-pick', async (el) => {
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.4s" onclick="window.__nav('vocab-list')">
       <span class="kbadge sm">V</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('Lista de vocabulario')}</div><div class="muted small">${t('vocabListHint')}</div></div>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('Vocabulary list')}</div><div class="muted small">${t('vocabListHint')}</div></div>
       <span class="muted">›</span>
     </button>
     <button class="btn-link muted small mt-16" onclick="window.__nav('home')">${t('goToMap')}</button>
