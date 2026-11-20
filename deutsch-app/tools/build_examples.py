@@ -1,22 +1,22 @@
 """Example sentences for the back of the vocabulary cards (data/<level>/examples.json).
 
-Sources, all from the course itself (so every sentence has its Spanish translation):
-  · grammar drills and lesson exercises: the completed sentence + its translation
-  · readings: sentences of a paragraph, paired with the translation's sentences when the counts match
+Sources, all from the course itself (so every sentence has its Spanish and English translation):
+  · lesson exercises and grammar drills: the completed sentence + its translations
+  · readings: sentences of a paragraph, paired with the translations' sentences when the counts match
 For every word: up to 2 sentences, shortest first, preferring sentences from its own level or below.
-Format: { word: [[sentence, {es}], ...] }   (a word also matches its inflected forms: -s, -e, -es, -ent, -ons, -é…)
+Format: { word: [[sentence, {es, en}], ...] }   (a word also matches its inflected forms: -e, -en, -er, -es, -t, -st…)
 """
 import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2']
-LANGS = ['es']
+LANGS = ['es', 'en']
 LEVELS = [l for l in LEVELS if (ROOT / 'data' / l / 'vocab.json').exists()]
-LET = 'A-Za-zÀ-ÖØ-öø-ÿŒœÆæ'
-WORD = re.compile(rf"[Aa]ujourd'hui|[{LET}]+(?:-[{LET}]+)*")
-ART = re.compile(r"^(le |la |les |l'|se |s')")
-ENDS = ['issons', 'issez', 'issent', 'aient', 'ions', 'iez', 'ons', 'ez', 'ent', 'ais', 'ait', 'ées', 'és', 'ée', 'é', 'es', 'e', 's', 'x', 'ues', 'ue', 'us', 'u', 'is', 'it', 'i', 'er', 'ir', 're']
+LET = 'A-Za-zÀ-ÖØ-öø-ÿ'
+WORD = re.compile(rf"[{LET}]+(?:-[{LET}]+)*")
+ART = re.compile(r"^(der |die |das |sich )")
+ENDS = ['ern', 'en', 'em', 'er', 'es', 'est', 'et', 'st', 'te', 'ten', 'tet', 'e', 'n', 's', 't']
 
 
 def stems(w):
@@ -31,24 +31,21 @@ def load(p):
     return json.loads(p.read_text(encoding='utf-8'))
 
 
-def split_es(p):  # French source sentences (name kept from the Spanish app)
+def split_es(p):  # German source sentences (name kept from the Spanish app)
     p = re.sub(r'\s+', ' ', p.strip())
-    parts = re.split(r'(?<=[.!?…"”»])\s+(?=[«"“A-ZÀ-ÖØ-Þ])', p)
+    parts = re.split(r'(?<=[.!?…"“”»])\s+(?=[„«"“A-ZÀ-ÖØ-Þ])', p)
     return [x.strip() for x in parts if x.strip()]
 
 
 def split_tr(p, lang):
     p = re.sub(r'\s+', ' ', (p or '').strip())
-    if lang == 'es':
-        parts = re.split(r'(?<=[.!?…»"”])\s+(?=[¿¡«"“(A-ZÁÉÍÓÚÑ])', p)
-    else:
-        parts = re.split(r'(?<=[。！？])\s*', p)
+    parts = re.split(r'(?<=[.!?…»"”])\s+(?=[¿¡«"“(A-ZÁÉÍÓÚÑ])', p)
     return [x.strip() for x in parts if x.strip()]
 
 
 def unquote(x):
     # a sentence cut out of a quotation keeps only one of its quote marks: drop the stray one
-    for a, b in (('"', '"'), ('“', '”'), ('«', '»')):
+    for a, b in (('„', '“'), ('"', '"'), ('“', '”'), ('«', '»')):
         if a == b and x.count(a) % 2:
             x = x.strip(a).strip()
         elif a != b and x.count(a) != x.count(b):
@@ -60,10 +57,13 @@ sentences = []   # (sentence, tr, level index)
 for li, lv in enumerate(LEVELS):
     for u in load(ROOT / 'data' / lv / 'units.json'):
         for e in u.get('exercises', []):
-            if e['type'] == 'fill' and e.get('tr', {}).get('es'):
-                sentences.append((e['sentence'].replace('___', e['blank']).replace(' ,', ','), {'es': e['tr']['es']}, li))
-            elif e['type'] in ('order', 'translate') and e.get('tr', {}).get('es'):
-                sentences.append((e['answer'], {'es': e['tr']['es']}, li))
+            if e['type'] == 'fill' and all(e.get('tr', {}).get(l) for l in LANGS):
+                sentences.append((e['sentence'].replace('___', e['blank']).replace(' ,', ','), {l: e['tr'][l] for l in LANGS}, li))
+            elif e['type'] in ('order', 'translate') and all(e.get('tr', {}).get(l) for l in LANGS) and e.get('answer'):
+                a = e['answer'].strip()
+                if a[-1:] not in '.!?':
+                    a += '?' if e['tr']['es'].rstrip().endswith('?') else '.'
+                sentences.append((a, {l: e['tr'][l] for l in LANGS}, li))
     for d in load(ROOT / 'data' / lv / 'drills.json'):
         for it in d.get('items', []):
             if not it.get('tr') or '___' not in it['q']:
@@ -88,8 +88,7 @@ for li, lv in enumerate(LEVELS):
 # index: lower-case word form -> sentence ids
 index = {}
 for si, (s, _, _) in enumerate(sentences):
-    for w in set(x.lower() for x in WORD.findall(s.replace('’', "'").replace("'", "' "))):
-        w = w.rstrip("'")
+    for w in set(x.lower() for x in WORD.findall(s)):
         index.setdefault(w, []).append(si)
         for base in stems(w) | {w}:
             index.setdefault('~' + base, []).append(si)
@@ -100,8 +99,8 @@ for li, lv in enumerate(LEVELS):
     for v in load(ROOT / 'data' / lv / 'vocab.json'):
         w = v['word']
         wb = ART.sub('', w.lower())
-        toks = [x.lower() for x in WORD.findall(wb.replace("'", "' "))]
-        toks = [t.rstrip("'") for t in toks]
+        wb = re.sub(r',.*$', '', wb)
+        toks = [x.lower() for x in WORD.findall(wb)]
         if not toks:
             continue
         cand = set(index.get(toks[0], []))

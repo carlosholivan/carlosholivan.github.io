@@ -1,5 +1,5 @@
 """Optional practice sets 2–7 for every lesson (data/<level>/extra.json), in the same format as the
-sibling apps: { "<unit>": { "sets": [[exercise…] ×6], "words": [[word…] ×6] } }.
+sibling apps (German: Spanish and English): { "<unit>": { "sets": [[exercise…] ×6], "words": [[word…] ×6] } }.
 
 Every set mixes: a matching board of unit words, "which sentence means…" (choose), gap fills from the
 level's grammar drills, gap fills of unit words in course sentences, and word-order sentences.
@@ -11,10 +11,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2']
-LANGS = ['es']
-WORD = re.compile(r"[A-Za-z]+(?:'[a-z]+)?")
-BUILD = {'es': 'Ordena: «{s}»'}
-WHICH = {'es': '¿Qué frase significa «{s}»?'}
+LANGS = ['es', 'en']
+BUILD = {'es': 'Ordena: «{s}»', 'en': 'Put in order: “{s}”'}
+WHICH = {'es': '¿Qué frase significa «{s}»?', 'en': 'Which sentence means “{s}”?'}
 
 load = lambda p: json.loads(p.read_text(encoding='utf-8'))
 exec(compile(open(ROOT / 'tools' / 'build_examples.py', encoding='utf-8').read().split('# index:')[0], 'ex', 'exec'))  # → sentences, split_es…
@@ -89,6 +88,7 @@ for li, lv in enumerate(LEVELS):
             short = [x for x in sents if 4 <= len(WORD.findall(x[0])) <= 8]
             if short:
                 s, trd, _ = short[(ui + k * 5) % len(short)]
+                s = re.sub(r'[.!?]+$', '', s.strip())
                 toks = s.split()
                 ex.append({'type': 'order', 'prompt': {l: BUILD[l].format(s=trd[l]) for l in LANGS},
                            'words': toks, 'answer': s})
