@@ -83,6 +83,11 @@ K2SET = set('wäre wärst wären wärt hätte hättest hätten hättet würde w�
             'gäben bräuchte bräuchten täte täten ließe ließen fände fänden bliebe blieben hielte läge lägen stünde stände sähe nähme nähmen hülfe'.split())
 
 
+K2LEM = {'wär': 'sein', 'hätt': 'haben', 'würd': 'werden', 'könnt': 'können', 'müsst': 'müssen', 'dürft': 'dürfen', 'sollt': 'sollen', 'wollt': 'wollen',
+         'möcht': 'mögen', 'wüsst': 'wissen', 'käm': 'kommen', 'ging': 'gehen', 'gäb': 'geben', 'bräucht': 'brauchen', 'tät': 'tun', 'ließ': 'lassen',
+         'fänd': 'finden', 'blieb': 'bleiben', 'hielt': 'halten', 'läg': 'liegen', 'stünd': 'stehen', 'ständ': 'stehen', 'säh': 'sehen', 'nähm': 'nehmen'}
+
+
 def load_forms(lemmas):
     js = f"""import('{(ROOT / 'js' / 'conj.js').as_uri()}').then(m => {{
       const out = {{}};
@@ -128,6 +133,11 @@ INF_OF = {}
 for f, lst in FORMS.items():
     for w, t, p in lst:
         INF_OF.setdefault(f, w)
+for f in K2SET:
+    for st, w in K2LEM.items():
+        if f.startswith(st):
+            INF_OF.setdefault(f, w)
+            FORMS.setdefault(f, []).append((w, 'k2', 0))
 
 UML = str.maketrans('äöü', 'aou')
 ENDINGS = ['', 'e', 'en', 'n', 'er', 'es', 's', 'em', 'ern', 'nen', 'ns', 'st', 'ste', 'sten', 'ster', 'stem', 'stes', 'est', 'este', 'esten',
@@ -162,6 +172,10 @@ def simple_gloss(k):
     for c in [INF_OF.get(k), PPS.get(k), zu_inf(k)] + stem_cands(k):
         if c and c != k and mean(c):
             return with_head(k, mean(c), HEAD.get(c, c))
+    for c in stem_cands(k):          # declined participles: gesparten → gespart → sparen
+        v = PPS.get(c)
+        if v and mean(v):
+            return with_head(k, mean(v), HEAD.get(v, v))
     return None
 
 
@@ -250,17 +264,24 @@ def finite_tense(tok, lem):
     if f in K2SET:
         return 'k2'
     start = tok.i == tok.sent.start or tok.doc[tok.i - 1].is_punct or tok.doc[tok.i - 1].text in ('und', 'bitte', 'Bitte', 'doch', 'mal')
-    end = tok.sent.text.rstrip(' “"»«„’)')[-1:]
+    rest = tok.doc.text[tok.idx:]
+    mm = re.search(r'[.!?]', rest)
+    end = mm.group(0) if mm else '.'
     nx = tok.doc[tok.i + 1] if tok.i + 1 < len(tok.doc) else None
     if start and nx is not None and nx.text == 'Sie' and end != '?' and f.endswith('en'):
         return 'imp'
-    if 'imp' in ts and start and not subj and end != '?':
-        if 'praes' not in ts or end == '!':
+    if ts == {'imp'}:
+        return 'imp'
+    if 'imp' in ts and not subj and end != '?':
+        if 'praes' not in ts or (start and end == '!'):
             return 'imp'
     if 'k1' in ts and 'praes' not in ts:
         return 'k1'
     if 'k1' in ts and 'praes' in ts:
         # habe / komme: Präsens with ich (or plural), Konjunktiv I with a 3rd-person subject
+        near = {tok.doc[j].text.lower() for j in (tok.i - 1, tok.i + 1) if 0 <= j < len(tok.doc)}
+        if 'ich' in near:
+            return 'praes'
         if subj and subj not in SEIN_PERS and not tok.morph.get('Number') == ['Plur']:
             return 'k1' if any(p == 2 for _, t, p in cands if t == 'k1') else 'praes'
         if subj in ('er', 'sie', 'es', 'man') and any(p == 2 for _, t, p in cands if t == 'k1'):
@@ -281,7 +302,9 @@ def verb_phrases(doc):
     for tok in doc:
         if tok.i in used:
             continue
-        lone_imp = tok.pos_ not in ('VERB', 'AUX') and tok.text[:1].isupper() and tok.i == tok.sent.start \
+        mm = re.search(r'[.!?]', tok.doc.text[tok.idx:])
+        lone_imp = tok.pos_ in ('ADV', 'X', 'PROPN', 'NOUN', 'ADJ') and tok.text[:1].isupper() and tok.i == tok.sent.start \
+            and tok.text.lower() not in ('bitte', 'danke', 'mein', 'miete', 'super') and mm and mm.group(0) == '!' \
             and any(t == 'imp' for _, t, _ in FORMS.get(tok.text.lower(), []))
         if lone_imp:
             lem = next(w for w, t, _ in FORMS[tok.text.lower()] if t == 'imp')
@@ -447,8 +470,9 @@ def build(lv):
             # parts of a hyphenated word (E-Mail, Baden-Württemberg) get the meaning of the whole word
             for hm in re.finditer(rf"[{LET}]+(?:-[{LET}]+)+", para):
                 whole = hm.group(0).lower()
-                m = mean(whole)
+                m = simple_gloss(whole)
                 if m:
+                    m = {'es': re.sub(r'^[^:]+: ', '', m['es']), 'en': re.sub(r'^[^:]+: ', '', m['en'])}
                     for part in whole.split('-'):
                         if part not in g or not mean(part):
                             g[part] = {'es': f'{HEAD.get(whole, whole)}: {m["es"]}', 'en': f'{HEAD.get(whole, whole)}: {m["en"]}'}
