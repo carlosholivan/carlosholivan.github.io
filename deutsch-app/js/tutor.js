@@ -126,6 +126,20 @@ ${READING} Use **bold** for key forms. Never invent facts about the text; if som
 const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>')
   .replace(/^\s*[-*•] (.*)\n?/gm, '<li>$1</li>').replace(/(<li>.*?<\/li>)+/g, m => `<ul>${m}</ul>`).replace(/\n{2,}/g, '<br><br>').replace(/\n/g, '<br>');
 
+// "Thinking…" with three dots that bounce in turn while the answer is on its way.
+function thinkingHTML() {
+  if (!document.getElementById('tutor-dots-css')) {
+    const st = document.createElement('style'); st.id = 'tutor-dots-css';
+    st.textContent = `.tutor-think{display:inline-flex;align-items:center;gap:10px;color:var(--muted,#888)}
+.tutor-dots{display:inline-flex;gap:5px}.tutor-dots i{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.35;animation:tutorDot 1.2s infinite ease-in-out}
+.tutor-dots i:nth-child(2){animation-delay:.15s}.tutor-dots i:nth-child(3){animation-delay:.3s}
+@keyframes tutorDot{0%,60%,100%{transform:translateY(0);opacity:.35}30%{transform:translateY(-6px);opacity:1}}
+@media (prefers-reduced-motion:reduce){.tutor-dots i{animation:none;opacity:.7}}`;
+    document.head.appendChild(st);
+  }
+  return `<span class="tutor-think" role="status"><span class="tutor-dots" aria-hidden="true"><i></i><i></i><i></i></span>${esc(tt('thinking'))}</span>`;
+}
+
 // Opens the tutor sheet: `ctx` (shown as a quote) + `question` (first message). The learner can keep asking.
 export function askTutor(question, ctx = '') {
   document.querySelectorAll('.tutor-sheet').forEach(x => x.remove());
@@ -150,7 +164,7 @@ export function askTutor(question, ctx = '') {
   const send = async (text, shown) => {
     contents.push({ role: 'user', parts: [{ text }] });
     if (shown) log.insertAdjacentHTML('beforeend', `<div class="tutor-q">${esc(shown)}</div>`);
-    const a = document.createElement('div'); a.className = 'tutor-a'; a.textContent = tt('thinking'); log.appendChild(a);
+    const a = document.createElement('div'); a.className = 'tutor-a'; a.innerHTML = thinkingHTML(); log.appendChild(a);
     a.scrollIntoView({ block: 'nearest' });
     try {
       const out = await call(contents);

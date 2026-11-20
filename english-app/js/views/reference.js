@@ -1,4 +1,4 @@
-import { tutorBtn } from '../tutor.js?v=202611202200';
+import { tutorBtn } from '../tutor.js?v=202611202210';
 import { S } from '../state.js?v=202611201200';
 import { register, go } from '../router.js?v=202611201200';
 import { loadGrammar, loadVocab } from '../data.js?v=202611201200';

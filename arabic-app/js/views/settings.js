@@ -1,4 +1,4 @@
-import { tutorSettings } from '../tutor.js?v=202611202200';
+import { tutorSettings } from '../tutor.js?v=202611202210';
 import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611201200';
 import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611201200';
 import { readAnki } from '../anki-import.js?v=202611201200';
