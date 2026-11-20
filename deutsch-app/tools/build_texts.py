@@ -183,6 +183,10 @@ def simple_gloss(k):
         v = PPS.get(c)
         if v and mean(v):
             return with_head(k, mean(v), HEAD.get(v, v))
+    for c in [k] + stem_cands(k):    # present participles: bellender → bellend → bellen
+        if c.endswith('end') and mean(c[:-1]):
+            v = c[:-1]
+            return with_head(k, mean(v), HEAD.get(v, v))
     return None
 
 
