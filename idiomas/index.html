@@ -13,12 +13,10 @@
     --serif: 'Hiragino Mincho ProN', 'Yu Mincho', 'Songti SC', 'Noto Serif CJK JP', Georgia, serif;
     --sans: -apple-system, 'SF Pro Text', system-ui, 'Hiragino Sans', 'PingFang SC', sans-serif;
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
+  html.dark {
       --bg: #16140f; --bg2: #1f1c16; --ink: #ece6db; --ink2: #9c9486; --line: #2c2820;
       --accent: #c9a86a; --accent2: #d8b97c; --soft: #221e17; --ok: #7faa8b;
       --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 28px rgba(0,0,0,.35);
-    }
   }
   * { box-sizing: border-box }
   body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased }
@@ -62,7 +60,7 @@
   .auth input:focus { outline: none; border-color: var(--accent) }
   .msg { display: none; padding: 10px 12px; border-radius: 10px; font-size: 14px; margin-bottom: 12px; background: #f6e3df; color: #9a3b2e }
   .msg.ok { background: #e3efe6; color: #2f6440 }
-  @media (prefers-color-scheme: dark) { .msg { background: #3a211c; color: #f0b3a7 } .msg.ok { background: #1d3324; color: #a8d4b4 } }
+  html.dark .msg { background: #3a211c; color: #f0b3a7 } html.dark .msg.ok { background: #1d3324; color: #a8d4b4 }
   .links { text-align: center; margin-top: 14px; font-size: 14px }
   .links a, a.lnk { color: var(--accent); cursor: pointer; text-decoration: none }
   .alt { text-align: center; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink2) }
@@ -74,6 +72,22 @@
 </head>
 <body>
 <div class="wrap" id="app"></div>
+<script>
+// Light by default; dark only when the learner turned dark mode on in one of the apps (Ajustes → Modo oscuro).
+(function () {
+  try {
+    var dark = localStorage.getItem('idiomas_dark');
+    if (dark === null) {
+      dark = '0';
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (/_state$/.test(k)) { try { if (JSON.parse(localStorage.getItem(k)).dark) dark = '1'; } catch (e) {} }
+      }
+    }
+    if (dark === '1') { document.documentElement.classList.add('dark'); document.querySelector('meta[name=theme-color]').setAttribute('content', '#16140f'); }
+  } catch (e) {}
+})();
+</script>
 <script type="module">
 // Hub for the language apps: the single place to sign in, then pick languages and see progress.
 // Each app keeps its own index.html, state and data; they share the sign-in because they live on the
@@ -235,6 +249,10 @@ async function signedIn() {
   const hub = cloud.hub && Array.isArray(cloud.hub.langs) ? cloud.hub.langs.filter(id => APPS.some(a => a.id === id)) : null;
   if (hub && hub.length) { chosen = hub; set(PREF, JSON.stringify(chosen)); }
   else if (chosen && chosen.length) saveChoice();
+  else {   // signed in before but never picked here: the languages with progress in the account are the choice
+    const had = APPS.filter(a => cloud[a.field] || started(a)).map(a => a.id);
+    if (had.length) { chosen = had; set(PREF, JSON.stringify(chosen)); saveChoice(); }
+  }
   if (next) return location.replace(next);
   flow();
 }
@@ -263,7 +281,13 @@ async function unitCounts(a) {
   return n;
 }
 
-function flow() { chosen && chosen.length ? dashboard() : picker(true); }
+function flow() {
+  if (!(chosen && chosen.length)) {   // languages already studied on this device count as chosen: no need to ask again
+    const had = APPS.filter(started).map(a => a.id);
+    if (had.length) { chosen = had; set(PREF, JSON.stringify(chosen)); saveChoice(); }
+  }
+  chosen && chosen.length ? dashboard() : picker(true);
+}
 
 function acctBar() {
   return user
@@ -302,7 +326,7 @@ function picker(first) {
 async function dashboard() {
   const list = APPS.filter(a => chosen.includes(a.id));
   $('#app').innerHTML = `${acctBar()}
-    <h1>Idiomas</h1>
+    <h1>¿Qué idioma quieres estudiar hoy?</h1>
     <div class="muted">Tu progreso en cada idioma. Toca uno para entrar.</div>
     <div class="sec">Estudiando</div>
     <div id="langs">${list.map(a => `<div class="card lang" id="l-${a.id}"><div class="lang-top"><span class="glyph">${esc(a.glyph)}</span>

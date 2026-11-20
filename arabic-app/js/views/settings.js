@@ -133,6 +133,7 @@ window.__togglePinyin = () => {
 
 window.__toggleDark = () => {
   S.dark = !S.dark;
+  try { localStorage.setItem('idiomas_dark', S.dark ? '1' : '0'); } catch (e) {}   // the /idiomas/ hub follows the same theme
   document.body.classList.toggle('dark', S.dark);
   update({ dark: S.dark });
   go('settings');
