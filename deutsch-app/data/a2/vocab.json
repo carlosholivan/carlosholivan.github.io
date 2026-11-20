@@ -1291,7 +1291,7 @@
 "es": "moderno",
 "en": "modern"
 },
-"pos": "verb",
+"pos": "",
 "w": "modern",
 "p": "",
 "unit": 6,
@@ -1345,7 +1345,7 @@
 "es": "cambiar (un artículo comprado)",
 "en": "to exchange (a purchase)"
 },
-"pos": "",
+"pos": "verb",
 "w": "umtauschen",
 "p": "",
 "unit": 7,
@@ -2030,7 +2030,7 @@
 "es": "borrar",
 "en": "to delete"
 },
-"pos": "",
+"pos": "verb",
 "w": "löschen",
 "p": "",
 "unit": 10,
@@ -2443,7 +2443,7 @@
 "es": "tímido",
 "en": "shy"
 },
-"pos": "verb",
+"pos": "",
 "w": "schüchtern",
 "p": "",
 "unit": 11,
@@ -2836,7 +2836,7 @@
 "es": "intentar",
 "en": "to try"
 },
-"pos": "",
+"pos": "verb",
 "w": "versuchen",
 "p": "",
 "unit": 12,
@@ -3240,7 +3240,7 @@
 "es": "seco",
 "en": "dry"
 },
-"pos": "verb",
+"pos": "",
 "w": "trocken",
 "p": "",
 "unit": 14,
@@ -3421,7 +3421,7 @@
 "es": "desear",
 "en": "to wish"
 },
-"pos": "",
+"pos": "verb",
 "w": "wünschen",
 "p": "",
 "unit": 15,
@@ -4052,7 +4052,7 @@
 "es": "pasado mañana",
 "en": "the day after tomorrow"
 },
-"pos": "verb",
+"pos": "",
 "w": "übermorgen",
 "p": "",
 "unit": 18,
@@ -4065,7 +4065,7 @@
 "es": "algún día",
 "en": "at some point"
 },
-"pos": "verb",
+"pos": "",
 "w": "irgendwann",
 "p": "",
 "unit": 18,
@@ -4145,7 +4145,7 @@
 "es": "alcanzar; localizar (a alguien)",
 "en": "to reach"
 },
-"pos": "",
+"pos": "verb",
 "w": "erreichen",
 "p": "",
 "unit": 18,
@@ -4337,12 +4337,13 @@
 {
 "word": "versprechen",
 "m": {
-"es": "prometer",
-"en": "to promise"
+"es": "prometer · verspricht, versprach, hat versprochen",
+"en": "to promise · verspricht, versprach, hat versprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "versprechen",
 "p": "",
+"pp": "verspricht, versprach, hat versprochen",
 "unit": 19,
 "u": "a2-19",
 "q": 1286
@@ -4689,7 +4690,7 @@
 "es": "abrir",
 "en": "to open"
 },
-"pos": "",
+"pos": "verb",
 "w": "aufmachen",
 "p": "",
 "unit": null,
@@ -4753,12 +4754,13 @@
 {
 "word": "aussprechen",
 "m": {
-"es": "pronunciar",
-"en": "to pronounce"
+"es": "pronunciar · spricht aus, sprach aus, hat ausgesprochen",
+"en": "to pronounce · spricht aus, sprach aus, hat ausgesprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "aussprechen",
 "p": "",
+"pp": "spricht aus, sprach aus, hat ausgesprochen",
 "unit": null,
 "u": "",
 "q": 1316
@@ -5422,7 +5424,7 @@
 "es": "por eso",
 "en": "that's why"
 },
-"pos": "verb",
+"pos": "",
 "w": "deswegen",
 "p": "",
 "unit": null,
@@ -5504,7 +5506,7 @@
 "es": "dentro",
 "en": "inside"
 },
-"pos": "verb",
+"pos": "",
 "w": "drinnen",
 "p": "",
 "unit": null,
@@ -5517,7 +5519,7 @@
 "es": "al otro lado",
 "en": "over there"
 },
-"pos": "verb",
+"pos": "",
 "w": "drüben",
 "p": "",
 "unit": null,
@@ -5599,7 +5601,7 @@
 "es": "propio",
 "en": "own"
 },
-"pos": "verb",
+"pos": "",
 "w": "eigen",
 "p": "",
 "unit": null,
@@ -5693,7 +5695,7 @@
 "es": "de acuerdo",
 "en": "agreed"
 },
-"pos": "verb",
+"pos": "",
 "w": "einverstanden",
 "p": "",
 "unit": null,
@@ -5706,7 +5708,7 @@
 "es": "individual, suelto",
 "en": "single, individual"
 },
-"pos": "verb",
+"pos": "",
 "w": "einzeln",
 "p": "",
 "unit": null,
@@ -6197,7 +6199,7 @@
 "es": "divorciado",
 "en": "divorced"
 },
-"pos": "verb",
+"pos": "",
 "w": "geschieden",
 "p": "",
 "unit": null,
@@ -6406,7 +6408,7 @@
 "es": "adentro (hacia aquí)",
 "en": "in"
 },
-"pos": "verb",
+"pos": "",
 "w": "herein",
 "p": "",
 "unit": null,
@@ -7323,7 +7325,7 @@
 "es": "al lado",
 "en": "next door"
 },
-"pos": "verb",
+"pos": "",
 "w": "nebenan",
 "p": "",
 "unit": null,
@@ -7501,7 +7503,7 @@
 "es": "abierto",
 "en": "open"
 },
-"pos": "verb",
+"pos": "",
 "w": "offen",
 "p": "",
 "unit": null,
@@ -8841,7 +8843,7 @@
 "es": "cambiar, intercambiar",
 "en": "to swap"
 },
-"pos": "",
+"pos": "verb",
 "w": "tauschen",
 "p": "",
 "unit": null,
@@ -9170,7 +9172,7 @@
 "es": "examinar, investigar",
 "en": "to examine"
 },
-"pos": "",
+"pos": "verb",
 "w": "untersuchen",
 "p": "",
 "unit": null,
@@ -9278,12 +9280,13 @@
 {
 "word": "vergleichen",
 "m": {
-"es": "comparar",
-"en": "to compare"
+"es": "comparar · vergleicht, verglich, hat verglichen",
+"en": "to compare · vergleicht, verglich, hat verglichen"
 },
-"pos": "",
+"pos": "verb",
 "w": "vergleichen",
 "p": "",
+"pp": "vergleicht, verglich, hat verglichen",
 "unit": null,
 "u": "",
 "q": 1639
@@ -9348,7 +9351,7 @@
 "es": "diferente, distinto",
 "en": "different"
 },
-"pos": "verb",
+"pos": "",
 "w": "verschieden",
 "p": "",
 "unit": null,
@@ -9606,7 +9609,7 @@
 "es": "por, a causa de",
 "en": "because of"
 },
-"pos": "verb",
+"pos": "",
 "w": "wegen",
 "p": "",
 "unit": null,
@@ -9881,7 +9884,7 @@
 "es": "cerrar",
 "en": "to close"
 },
-"pos": "",
+"pos": "verb",
 "w": "zumachen",
 "p": "",
 "unit": null,

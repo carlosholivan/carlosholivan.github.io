@@ -745,13 +745,12 @@
 {
 "word": "gelassen",
 "m": {
-"es": "tranquilo, sereno · gelässt, geließ, hat gelassen",
-"en": "calm · gelässt, geließ, hat gelassen"
+"es": "tranquilo, sereno",
+"en": "calm"
 },
-"pos": "verb",
+"pos": "",
 "w": "gelassen",
 "p": "",
-"pp": "gelässt, geließ, hat gelassen",
 "unit": 5,
 "u": "c1-5",
 "q": 4185
@@ -788,7 +787,7 @@
 "es": "fingir, simular",
 "en": "to feign"
 },
-"pos": "",
+"pos": "verb",
 "w": "vortäuschen",
 "p": "",
 "unit": 5,
@@ -2358,7 +2357,7 @@
 "es": "abierto (de mente)",
 "en": "open-minded"
 },
-"pos": "verb",
+"pos": "",
 "w": "aufgeschlossen",
 "p": "",
 "unit": null,
@@ -2698,7 +2697,7 @@
 "es": "reclamar; requerir",
 "en": "to claim; to require"
 },
-"pos": "",
+"pos": "verb",
 "w": "beanspruchen",
 "p": "",
 "unit": null,
@@ -2928,7 +2927,7 @@
 "es": "angustiado",
 "en": "uneasy"
 },
-"pos": "verb",
+"pos": "",
 "w": "beklommen",
 "p": "",
 "unit": null,
@@ -3048,13 +3047,12 @@
 {
 "word": "bescheiden",
 "m": {
-"es": "modesto · bescheidet, beschied, hat beschieden",
-"en": "modest · bescheidet, beschied, hat beschieden"
+"es": "modesto",
+"en": "modest"
 },
-"pos": "verb",
+"pos": "",
 "w": "bescheiden",
 "p": "",
-"pp": "bescheidet, beschied, hat beschieden",
 "unit": null,
 "u": "",
 "q": 4355
@@ -3293,7 +3291,7 @@
 "es": "de vez en cuando",
 "en": "occasionally"
 },
-"pos": "verb",
+"pos": "",
 "w": "bisweilen",
 "p": "",
 "unit": null,
@@ -3391,7 +3389,7 @@
 "es": "en cambio",
 "en": "on the other hand"
 },
-"pos": "verb",
+"pos": "",
 "w": "dahingegen",
 "p": "",
 "unit": null,
@@ -4605,7 +4603,7 @@
 "es": "en adelante",
 "en": "henceforth"
 },
-"pos": "verb",
+"pos": "",
 "w": "fortan",
 "p": "",
 "unit": null,
@@ -5536,7 +5534,7 @@
 "es": "en medio de",
 "en": "in the midst of"
 },
-"pos": "verb",
+"pos": "",
 "w": "inmitten",
 "p": "",
 "unit": null,
@@ -6388,7 +6386,7 @@
 "es": "por consiguiente",
 "en": "consequently"
 },
-"pos": "verb",
+"pos": "",
 "w": "mithin",
 "p": "",
 "unit": null,
@@ -7381,7 +7379,7 @@
 "es": "por excelencia",
 "en": "par excellence"
 },
-"pos": "verb",
+"pos": "",
 "w": "schlechthin",
 "p": "",
 "unit": null,
@@ -7500,7 +7498,7 @@
 "es": "seguro, soberano",
 "en": "confident, sovereign"
 },
-"pos": "verb",
+"pos": "",
 "w": "souverän",
 "p": "",
 "unit": null,
@@ -7527,7 +7525,7 @@
 "es": "por así decirlo",
 "en": "so to speak"
 },
-"pos": "verb",
+"pos": "",
 "w": "sozusagen",
 "p": "",
 "unit": null,
@@ -7913,7 +7911,7 @@
 "es": "indiscutible",
 "en": "undisputed"
 },
-"pos": "verb",
+"pos": "",
 "w": "unbestritten",
 "p": "",
 "unit": null,
@@ -8173,7 +8171,7 @@
 "es": "ilustrar",
 "en": "to illustrate"
 },
-"pos": "",
+"pos": "verb",
 "w": "veranschaulichen",
 "p": "",
 "unit": null,
@@ -8228,7 +8226,7 @@
 "es": "aclarar",
 "en": "to make clear"
 },
-"pos": "",
+"pos": "verb",
 "w": "verdeutlichen",
 "p": "",
 "unit": null,
@@ -8283,7 +8281,7 @@
 "es": "simplificar",
 "en": "to simplify"
 },
-"pos": "",
+"pos": "verb",
 "w": "vereinfachen",
 "p": "",
 "unit": null,
@@ -8510,7 +8508,7 @@
 "es": "reservado",
 "en": "reserved"
 },
-"pos": "verb",
+"pos": "",
 "w": "verschlossen",
 "p": "",
 "unit": null,
@@ -8605,7 +8603,7 @@
 "es": "realizar",
 "en": "to realise"
 },
-"pos": "",
+"pos": "verb",
 "w": "verwirklichen",
 "p": "",
 "unit": null,
@@ -9217,7 +9215,7 @@
 "es": "a costa de",
 "en": "at the expense of"
 },
-"pos": "verb",
+"pos": "",
 "w": "zulasten",
 "p": "",
 "unit": null,
@@ -9322,12 +9320,13 @@
 {
 "word": "zusprechen",
 "m": {
-"es": "conceder",
-"en": "to award"
+"es": "conceder · spricht zu, sprach zu, hat zugesprochen",
+"en": "to award · spricht zu, sprach zu, hat zugesprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "zusprechen",
 "p": "",
+"pp": "spricht zu, sprach zu, hat zugesprochen",
 "unit": null,
 "u": "",
 "q": 4810
@@ -9433,7 +9432,7 @@
 "es": "a veces",
 "en": "at times"
 },
-"pos": "verb",
+"pos": "",
 "w": "zuweilen",
 "p": "",
 "unit": null,

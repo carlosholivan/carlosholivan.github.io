@@ -135,7 +135,7 @@
 "es": "no",
 "en": "no"
 },
-"pos": "verb",
+"pos": "",
 "w": "nein",
 "p": "",
 "unit": 1,
@@ -431,12 +431,13 @@
 {
 "word": "sprechen",
 "m": {
-"es": "hablar",
-"en": "to speak"
+"es": "hablar · spricht, sprach, hat gesprochen",
+"en": "to speak · spricht, sprach, hat gesprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "sprechen",
 "p": "",
+"pp": "spricht, sprach, hat gesprochen",
 "unit": 2,
 "u": "a1-2",
 "q": 33
@@ -473,7 +474,7 @@
 "es": "en, dentro de",
 "en": "in, into"
 },
-"pos": "verb",
+"pos": "",
 "w": "in",
 "p": "",
 "unit": 2,
@@ -883,7 +884,7 @@
 "es": "siete",
 "en": "seven"
 },
-"pos": "verb",
+"pos": "",
 "w": "sieben",
 "p": "",
 "unit": 3,
@@ -909,7 +910,7 @@
 "es": "nueve",
 "en": "nine"
 },
-"pos": "verb",
+"pos": "",
 "w": "neun",
 "p": "",
 "unit": 3,
@@ -922,7 +923,7 @@
 "es": "diez",
 "en": "ten"
 },
-"pos": "verb",
+"pos": "",
 "w": "zehn",
 "p": "",
 "unit": 3,
@@ -1437,7 +1438,7 @@
 "es": "mi",
 "en": "my"
 },
-"pos": "verb",
+"pos": "",
 "w": "mein",
 "p": "",
 "unit": 4,
@@ -1450,7 +1451,7 @@
 "es": "tu (de ti)",
 "en": "your"
 },
-"pos": "verb",
+"pos": "",
 "w": "dein",
 "p": "",
 "unit": 4,
@@ -1641,7 +1642,7 @@
 "es": "un, uno",
 "en": "a, an, one"
 },
-"pos": "verb",
+"pos": "",
 "w": "ein",
 "p": "",
 "unit": 5,
@@ -1654,7 +1655,7 @@
 "es": "ningún, no (un)",
 "en": "no, not a"
 },
-"pos": "verb",
+"pos": "",
 "w": "kein",
 "p": "",
 "unit": 5,
@@ -2045,7 +2046,7 @@
 "es": "querría, me gustaría",
 "en": "would like"
 },
-"pos": "verb",
+"pos": "",
 "w": "möchten",
 "p": "",
 "unit": 6,
@@ -2564,7 +2565,7 @@
 "es": "necesitar",
 "en": "to need"
 },
-"pos": "",
+"pos": "verb",
 "w": "brauchen",
 "p": "",
 "unit": 7,
@@ -2867,7 +2868,7 @@
 "es": "juntos",
 "en": "together"
 },
-"pos": "verb",
+"pos": "",
 "w": "zusammen",
 "p": "",
 "unit": 7,
@@ -3103,7 +3104,7 @@
 "es": "cocinar; hervir",
 "en": "to cook; to boil"
 },
-"pos": "",
+"pos": "verb",
 "w": "kochen",
 "p": "",
 "unit": 8,
@@ -3258,7 +3259,7 @@
 "es": "luego, entonces",
 "en": "then"
 },
-"pos": "verb",
+"pos": "",
 "w": "dann",
 "p": "",
 "unit": 8,
@@ -3378,7 +3379,7 @@
 "es": "con gusto (gern + verbo = gustar hacer)",
 "en": "gladly (gern + verb = to like doing)"
 },
-"pos": "verb",
+"pos": "",
 "w": "gern",
 "p": "",
 "unit": 9,
@@ -4163,7 +4164,7 @@
 "es": "mañana",
 "en": "tomorrow"
 },
-"pos": "verb",
+"pos": "",
 "w": "morgen",
 "p": "",
 "unit": 10,
@@ -4176,7 +4177,7 @@
 "es": "ayer",
 "en": "yesterday"
 },
-"pos": "verb",
+"pos": "",
 "w": "gestern",
 "p": "",
 "unit": 10,
@@ -4189,7 +4190,7 @@
 "es": "cuándo",
 "en": "when"
 },
-"pos": "verb",
+"pos": "",
 "w": "wann",
 "p": "",
 "unit": 10,
@@ -4240,13 +4241,12 @@
 {
 "word": "können",
 "m": {
-"es": "poder; saber hacer · kann, konnte, hat gekonnt",
-"en": "can, to be able to · kann, konnte, hat gekonnt"
+"es": "poder; saber hacer",
+"en": "can, to be able to"
 },
-"pos": "verb",
+"pos": "",
 "w": "können",
 "p": "",
-"pp": "kann, konnte, hat gekonnt",
 "unit": 11,
 "u": "a1-11",
 "q": 305
@@ -4254,13 +4254,12 @@
 {
 "word": "müssen",
 "m": {
-"es": "tener que, deber · muss, musste, hat gemusst",
-"en": "must, to have to · muss, musste, hat gemusst"
+"es": "tener que, deber",
+"en": "must, to have to"
 },
-"pos": "verb",
+"pos": "",
 "w": "müssen",
 "p": "",
-"pp": "muss, musste, hat gemusst",
 "unit": 11,
 "u": "a1-11",
 "q": 306
@@ -4282,13 +4281,12 @@
 {
 "word": "dürfen",
 "m": {
-"es": "poder (tener permiso) · darf, durfte, hat gedurft",
-"en": "may, to be allowed to · darf, durfte, hat gedurft"
+"es": "poder (tener permiso)",
+"en": "may, to be allowed to"
 },
-"pos": "verb",
+"pos": "",
 "w": "dürfen",
 "p": "",
-"pp": "darf, durfte, hat gedurft",
 "unit": 11,
 "u": "a1-11",
 "q": 308
@@ -4296,13 +4294,12 @@
 {
 "word": "sollen",
 "m": {
-"es": "deber (por encargo) · soll, sollte, hat gesollt",
-"en": "should, to be supposed to · soll, sollte, hat gesollt"
+"es": "deber (por encargo)",
+"en": "should, to be supposed to"
 },
-"pos": "verb",
+"pos": "",
 "w": "sollen",
 "p": "",
-"pp": "soll, sollte, hat gesollt",
 "unit": 11,
 "u": "a1-11",
 "q": 309
@@ -4354,7 +4351,7 @@
 "es": "hacer",
 "en": "to do, to make"
 },
-"pos": "",
+"pos": "verb",
 "w": "machen",
 "p": "",
 "unit": 11,
@@ -4397,7 +4394,7 @@
 "es": "prohibido",
 "en": "forbidden"
 },
-"pos": "verb",
+"pos": "",
 "w": "verboten",
 "p": "",
 "unit": 11,
@@ -4410,7 +4407,7 @@
 "es": "fumar",
 "en": "to smoke"
 },
-"pos": "",
+"pos": "verb",
 "w": "rauchen",
 "p": "",
 "unit": 11,
@@ -4880,7 +4877,7 @@
 "es": "bonito",
 "en": "beautiful, nice"
 },
-"pos": "verb",
+"pos": "",
 "w": "schön",
 "p": "",
 "unit": 12,
@@ -4934,7 +4931,7 @@
 "es": "arriba",
 "en": "above, upstairs"
 },
-"pos": "verb",
+"pos": "",
 "w": "oben",
 "p": "",
 "unit": 12,
@@ -4947,7 +4944,7 @@
 "es": "abajo",
 "en": "below, downstairs"
 },
-"pos": "verb",
+"pos": "",
 "w": "unten",
 "p": "",
 "unit": 12,
@@ -5238,7 +5235,7 @@
 "es": "al lado de",
 "en": "next to"
 },
-"pos": "verb",
+"pos": "",
 "w": "neben",
 "p": "",
 "unit": 13,
@@ -5316,7 +5313,7 @@
 "es": "buscar",
 "en": "to look for"
 },
-"pos": "",
+"pos": "verb",
 "w": "suchen",
 "p": "",
 "unit": 13,
@@ -5559,7 +5556,7 @@
 "es": "de; desde",
 "en": "from, of"
 },
-"pos": "verb",
+"pos": "",
 "w": "von",
 "p": "",
 "unit": 14,
@@ -5989,7 +5986,7 @@
 "es": "verde",
 "en": "green"
 },
-"pos": "verb",
+"pos": "",
 "w": "grün",
 "p": "",
 "unit": 15,
@@ -6054,7 +6051,7 @@
 "es": "marrón",
 "en": "brown"
 },
-"pos": "verb",
+"pos": "",
 "w": "braun",
 "p": "",
 "unit": 15,
@@ -6133,7 +6130,7 @@
 "es": "lo, le (acusativo)",
 "en": "him"
 },
-"pos": "verb",
+"pos": "",
 "w": "ihn",
 "p": "",
 "unit": 15,
@@ -6945,7 +6942,7 @@
 "es": "fuera",
 "en": "outside"
 },
-"pos": "verb",
+"pos": "",
 "w": "draußen",
 "p": "",
 "unit": 17,
@@ -6971,7 +6968,7 @@
 "es": "visitar",
 "en": "to visit"
 },
-"pos": "",
+"pos": "verb",
 "w": "besuchen",
 "p": "",
 "unit": 18,
@@ -7024,7 +7021,7 @@
 "es": "anteayer",
 "en": "the day before yesterday"
 },
-"pos": "verb",
+"pos": "",
 "w": "vorgestern",
 "p": "",
 "unit": 18,
@@ -7037,7 +7034,7 @@
 "es": "ya",
 "en": "already"
 },
-"pos": "verb",
+"pos": "",
 "w": "schon",
 "p": "",
 "unit": 18,
@@ -7271,7 +7268,7 @@
 "es": "reservar (un viaje, un vuelo)",
 "en": "to book"
 },
-"pos": "",
+"pos": "verb",
 "w": "buchen",
 "p": "",
 "unit": 20,
@@ -7409,7 +7406,7 @@
 "es": "pues, es que; porque",
 "en": "because; then (in questions)"
 },
-"pos": "verb",
+"pos": "",
 "w": "denn",
 "p": "",
 "unit": 20,
@@ -7533,7 +7530,7 @@
 "es": "dieciocho",
 "en": "eighteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "achtzehn",
 "p": "",
 "unit": null,
@@ -7598,7 +7595,7 @@
 "es": "en, junto a; a (una pared, el mar)",
 "en": "at, on, by"
 },
-"pos": "verb",
+"pos": "",
 "w": "an",
 "p": "",
 "unit": null,
@@ -7707,7 +7704,7 @@
 "es": "encender (la luz, la tele)",
 "en": "to switch on"
 },
-"pos": "",
+"pos": "verb",
 "w": "anmachen",
 "p": "",
 "unit": null,
@@ -8088,7 +8085,7 @@
 "es": "apagar",
 "en": "to switch off"
 },
-"pos": "",
+"pos": "verb",
 "w": "ausmachen",
 "p": "",
 "unit": null,
@@ -8794,7 +8791,7 @@
 "es": "al lado",
 "en": "next to it"
 },
-"pos": "verb",
+"pos": "",
 "w": "daneben",
 "p": "",
 "unit": null,
@@ -9001,7 +8998,7 @@
 "es": "trece",
 "en": "thirteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "dreizehn",
 "p": "",
 "unit": null,
@@ -9083,7 +9080,7 @@
 "es": "ducharse",
 "en": "to have a shower"
 },
-"pos": "",
+"pos": "verb",
 "w": "sich duschen",
 "p": "",
 "unit": null,
@@ -9096,7 +9093,7 @@
 "es": "delgado; fino",
 "en": "thin"
 },
-"pos": "verb",
+"pos": "",
 "w": "dünn",
 "p": "",
 "unit": null,
@@ -9736,7 +9733,7 @@
 "es": "quince",
 "en": "fifteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "fünfzehn",
 "p": "",
 "unit": null,
@@ -9817,7 +9814,7 @@
 "es": "nacido",
 "en": "born"
 },
-"pos": "verb",
+"pos": "",
 "w": "geboren",
 "p": "",
 "unit": null,
@@ -9860,7 +9857,7 @@
 "es": "contra; hacia (hora aproximada)",
 "en": "against; around (time)"
 },
-"pos": "verb",
+"pos": "",
 "w": "gegen",
 "p": "",
 "unit": null,
@@ -9968,7 +9965,7 @@
 "es": "cerrado",
 "en": "closed"
 },
-"pos": "verb",
+"pos": "",
 "w": "geschlossen",
 "p": "",
 "unit": null,
@@ -9996,7 +9993,7 @@
 "es": "fallecido",
 "en": "died, deceased"
 },
-"pos": "verb",
+"pos": "",
 "w": "gestorben",
 "p": "",
 "unit": null,
@@ -10317,7 +10314,7 @@
 "es": "detrás",
 "en": "at the back"
 },
-"pos": "verb",
+"pos": "",
 "w": "hinten",
 "p": "",
 "unit": null,
@@ -10875,7 +10872,7 @@
 "es": "reír",
 "en": "to laugh"
 },
-"pos": "",
+"pos": "verb",
 "w": "lachen",
 "p": "",
 "unit": null,
@@ -11185,7 +11182,7 @@
 "es": "se, uno (impersonal)",
 "en": "one, you (impersonal)"
 },
-"pos": "verb",
+"pos": "",
 "w": "man",
 "p": "",
 "unit": null,
@@ -11326,7 +11323,7 @@
 "es": "participar",
 "en": "to take part, to join in"
 },
-"pos": "",
+"pos": "verb",
 "w": "mitmachen",
 "p": "",
 "unit": null,
@@ -11462,7 +11459,7 @@
 "es": "diecinueve",
 "en": "nineteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "neunzehn",
 "p": "",
 "unit": null,
@@ -11926,12 +11923,13 @@
 {
 "word": "riechen",
 "m": {
-"es": "oler",
-"en": "to smell"
+"es": "oler · riecht, roch, hat gerochen",
+"en": "to smell · riecht, roch, hat gerochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "riechen",
 "p": "",
+"pp": "riecht, roch, hat gerochen",
 "unit": null,
 "u": "",
 "q": 854
@@ -12245,7 +12243,7 @@
 "es": "dieciséis",
 "en": "sixteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "sechzehn",
 "p": "",
 "unit": null,
@@ -12328,7 +12326,7 @@
 "es": "rara vez",
 "en": "rarely"
 },
-"pos": "verb",
+"pos": "",
 "w": "selten",
 "p": "",
 "unit": null,
@@ -12354,7 +12352,7 @@
 "es": "diecisiete",
 "en": "seventeen"
 },
-"pos": "verb",
+"pos": "",
 "w": "siebzehn",
 "p": "",
 "unit": null,
@@ -12420,7 +12418,7 @@
 "es": "sino",
 "en": "but (rather)"
 },
-"pos": "verb",
+"pos": "",
 "w": "sondern",
 "p": "",
 "unit": null,
@@ -13075,7 +13073,7 @@
 "es": "catorce",
 "en": "fourteen"
 },
-"pos": "verb",
+"pos": "",
 "w": "vierzehn",
 "p": "",
 "unit": null,
@@ -13207,12 +13205,13 @@
 {
 "word": "sich waschen",
 "m": {
-"es": "lavarse",
-"en": "to wash (oneself)"
+"es": "lavarse · wäscht, wusch, hat gewaschen",
+"en": "to wash (oneself) · wäscht, wusch, hat gewaschen"
 },
-"pos": "",
+"pos": "verb",
 "w": "sich waschen",
 "p": "",
+"pp": "wäscht, wusch, hat gewaschen",
 "unit": null,
 "u": "",
 "q": 946
@@ -13220,12 +13219,13 @@
 {
 "word": "waschen",
 "m": {
-"es": "lavar",
-"en": "to wash"
+"es": "lavar · wäscht, wusch, hat gewaschen",
+"en": "to wash · wäscht, wusch, hat gewaschen"
 },
-"pos": "",
+"pos": "verb",
 "w": "waschen",
 "p": "",
+"pp": "wäscht, wusch, hat gewaschen",
 "unit": null,
 "u": "",
 "q": 947
@@ -13316,7 +13316,7 @@
 "es": "si; cuando",
 "en": "if; when"
 },
-"pos": "verb",
+"pos": "",
 "w": "wenn",
 "p": "",
 "unit": null,
@@ -13368,7 +13368,7 @@
 "es": "bienvenido",
 "en": "welcome"
 },
-"pos": "verb",
+"pos": "",
 "w": "willkommen",
 "p": "",
 "unit": null,
@@ -13410,7 +13410,7 @@
 "es": "adónde",
 "en": "where to"
 },
-"pos": "verb",
+"pos": "",
 "w": "wohin",
 "p": "",
 "unit": null,
@@ -13519,7 +13519,7 @@
 "es": "satisfecho, contento",
 "en": "satisfied, content"
 },
-"pos": "verb",
+"pos": "",
 "w": "zufrieden",
 "p": "",
 "unit": null,

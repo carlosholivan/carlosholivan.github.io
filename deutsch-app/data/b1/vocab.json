@@ -481,7 +481,7 @@
 "es": "despertarse",
 "en": "to wake up"
 },
-"pos": "",
+"pos": "verb",
 "w": "aufwachen",
 "p": "",
 "unit": 2,
@@ -973,7 +973,7 @@
 "es": "mezclar",
 "en": "to mix"
 },
-"pos": "",
+"pos": "verb",
 "w": "mischen",
 "p": "",
 "unit": 4,
@@ -1314,7 +1314,7 @@
 "es": "publicar",
 "en": "to publish"
 },
-"pos": "",
+"pos": "verb",
 "w": "veröffentlichen",
 "p": "",
 "unit": 5,
@@ -1947,7 +1947,7 @@
 "es": "de quién",
 "en": "whose"
 },
-"pos": "verb",
+"pos": "",
 "w": "wessen",
 "p": "",
 "unit": 8,
@@ -2399,7 +2399,7 @@
 "es": "en contra; en cambio",
 "en": "against it; on the other hand"
 },
-"pos": "verb",
+"pos": "",
 "w": "dagegen",
 "p": "",
 "unit": 10,
@@ -2465,12 +2465,13 @@
 {
 "word": "widersprechen",
 "m": {
-"es": "contradecir",
-"en": "to contradict"
+"es": "contradecir · widerspricht, widersprach, hat widersprochen",
+"en": "to contradict · widerspricht, widersprach, hat widersprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "widersprechen",
 "p": "",
+"pp": "widerspricht, widersprach, hat widersprochen",
 "unit": 10,
 "u": "b1-10",
 "q": 1868
@@ -2770,7 +2771,7 @@
 "es": "causar",
 "en": "to cause"
 },
-"pos": "",
+"pos": "verb",
 "w": "verursachen",
 "p": "",
 "unit": 11,
@@ -4000,7 +4001,7 @@
 "es": "algún, cualquier",
 "en": "some, any"
 },
-"pos": "verb",
+"pos": "",
 "w": "irgendein",
 "p": "",
 "unit": 18,
@@ -4532,7 +4533,7 @@
 "es": "acordar; quitar",
 "en": "to agree on; to remove"
 },
-"pos": "",
+"pos": "verb",
 "w": "abmachen",
 "p": "",
 "unit": null,
@@ -4667,12 +4668,13 @@
 {
 "word": "abwaschen",
 "m": {
-"es": "fregar",
-"en": "to wash up"
+"es": "fregar · wäscht ab, wusch ab, hat abgewaschen",
+"en": "to wash up · wäscht ab, wusch ab, hat abgewaschen"
 },
-"pos": "",
+"pos": "verb",
 "w": "abwaschen",
 "p": "",
+"pp": "wäscht ab, wusch ab, hat abgewaschen",
 "unit": null,
 "u": "",
 "q": 2028
@@ -4768,7 +4770,7 @@
 "es": "general",
 "en": "general"
 },
-"pos": "verb",
+"pos": "",
 "w": "allgemein",
 "p": "",
 "unit": null,
@@ -5042,12 +5044,13 @@
 {
 "word": "ansprechen",
 "m": {
-"es": "dirigirse a; tratar (un tema)",
-"en": "to address; to raise (a topic)"
+"es": "dirigirse a; tratar (un tema) · spricht an, sprach an, hat angesprochen",
+"en": "to address; to raise (a topic) · spricht an, sprach an, hat angesprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "ansprechen",
 "p": "",
+"pp": "spricht an, sprach an, hat angesprochen",
 "unit": null,
 "u": "",
 "q": 2055
@@ -5421,7 +5424,7 @@
 "es": "bastar",
 "en": "to be enough"
 },
-"pos": "",
+"pos": "verb",
 "w": "ausreichen",
 "p": "",
 "unit": null,
@@ -5530,7 +5533,7 @@
 "es": "escoger",
 "en": "to choose"
 },
-"pos": "",
+"pos": "verb",
 "w": "aussuchen",
 "p": "",
 "unit": null,
@@ -5573,7 +5576,7 @@
 "es": "fuera",
 "en": "outside"
 },
-"pos": "verb",
+"pos": "",
 "w": "außen",
 "p": "",
 "unit": null,
@@ -6204,12 +6207,13 @@
 {
 "word": "besprechen",
 "m": {
-"es": "hablar de, comentar",
-"en": "to discuss"
+"es": "hablar de, comentar · bespricht, besprach, hat besprochen",
+"en": "to discuss · bespricht, besprach, hat besprochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "besprechen",
 "p": "",
+"pp": "bespricht, besprach, hat besprochen",
 "unit": null,
 "u": "",
 "q": 2139
@@ -6347,7 +6351,7 @@
 "es": "borracho",
 "en": "drunk"
 },
-"pos": "verb",
+"pos": "",
 "w": "betrunken",
 "p": "",
 "unit": null,
@@ -6606,12 +6610,13 @@
 {
 "word": "brechen",
 "m": {
-"es": "romper",
-"en": "to break"
+"es": "romper · bricht, brach, hat gebrochen",
+"en": "to break · bricht, brach, hat gebrochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "brechen",
 "p": "",
+"pp": "bricht, brach, hat gebrochen",
 "unit": null,
 "u": "",
 "q": 2168
@@ -6872,7 +6877,7 @@
 "es": "allí, hacia allí",
 "en": "there (direction)"
 },
-"pos": "verb",
+"pos": "",
 "w": "dahin",
 "p": "",
 "unit": null,
@@ -7195,7 +7200,7 @@
 "es": "hacia allí",
 "en": "there (direction)"
 },
-"pos": "verb",
+"pos": "",
 "w": "dorthin",
 "p": "",
 "unit": null,
@@ -7346,7 +7351,7 @@
 "es": "justo, precisamente; llano",
 "en": "just; flat"
 },
-"pos": "verb",
+"pos": "",
 "w": "eben",
 "p": "",
 "unit": null,
@@ -7410,12 +7415,13 @@
 {
 "word": "einbrechen",
 "m": {
-"es": "entrar a robar",
-"en": "to break in"
+"es": "entrar a robar · bricht ein, brach ein, ist eingebrochen",
+"en": "to break in · bricht ein, brach ein, ist eingebrochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "einbrechen",
 "p": "",
+"pp": "bricht ein, brach ein, ist eingebrochen",
 "unit": null,
 "u": "",
 "q": 2225
@@ -8029,7 +8035,7 @@
 "es": "decepcionar",
 "en": "to disappoint"
 },
-"pos": "",
+"pos": "verb",
 "w": "enttäuschen",
 "p": "",
 "unit": null,
@@ -9440,7 +9446,7 @@
 "es": "usar",
 "en": "to use"
 },
-"pos": "",
+"pos": "verb",
 "w": "gebrauchen",
 "p": "",
 "unit": null,
@@ -10911,7 +10917,7 @@
 "es": "dentro",
 "en": "inside"
 },
-"pos": "verb",
+"pos": "",
 "w": "innen",
 "p": "",
 "unit": null,
@@ -11258,7 +11264,7 @@
 "es": "romper",
 "en": "to break"
 },
-"pos": "",
+"pos": "verb",
 "w": "kaputtmachen",
 "p": "",
 "unit": null,
@@ -12811,7 +12817,7 @@
 "es": "por mí (vale)",
 "en": "as far as I'm concerned"
 },
-"pos": "verb",
+"pos": "",
 "w": "meinetwegen",
 "p": "",
 "unit": null,
@@ -13065,7 +13071,7 @@
 "es": "en medio",
 "en": "in the middle"
 },
-"pos": "verb",
+"pos": "",
 "w": "mitten",
 "p": "",
 "unit": null,
@@ -13634,7 +13640,7 @@
 "es": "ahora",
 "en": "now"
 },
-"pos": "verb",
+"pos": "",
 "w": "nun",
 "p": "",
 "unit": null,
@@ -14705,7 +14711,7 @@
 "es": "bastar; alcanzar, pasar",
 "en": "to be enough; to pass"
 },
-"pos": "",
+"pos": "verb",
 "w": "reichen",
 "p": "",
 "unit": null,
@@ -14746,7 +14752,7 @@
 "es": "puro; limpio",
 "en": "pure; clean"
 },
-"pos": "verb",
+"pos": "",
 "w": "rein",
 "p": "",
 "unit": null,
@@ -16297,12 +16303,13 @@
 {
 "word": "stechen",
 "m": {
-"es": "picar, pinchar",
-"en": "to sting, to prick"
+"es": "picar, pinchar · sticht, stach, hat gestochen",
+"en": "to sting, to prick · sticht, stach, hat gestochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "stechen",
 "p": "",
+"pp": "sticht, stach, hat gestochen",
 "unit": null,
 "u": "",
 "q": 2854
@@ -17044,7 +17051,7 @@
 "es": "bucear",
 "en": "to dive"
 },
-"pos": "",
+"pos": "verb",
 "w": "tauchen",
 "p": "",
 "unit": null,
@@ -17680,7 +17687,7 @@
 "es": "empate; indeciso",
 "en": "draw; undecided"
 },
-"pos": "verb",
+"pos": "",
 "w": "unentschieden",
 "p": "",
 "unit": null,
@@ -17759,12 +17766,13 @@
 {
 "word": "unterbrechen",
 "m": {
-"es": "interrumpir",
-"en": "to interrupt"
+"es": "interrumpir · unterbricht, unterbrach, hat unterbrochen",
+"en": "to interrupt · unterbricht, unterbrach, hat unterbrochen"
 },
-"pos": "",
+"pos": "verb",
 "w": "unterbrechen",
 "p": "",
+"pp": "unterbricht, unterbrach, hat unterbrochen",
 "unit": null,
 "u": "",
 "q": 2957
@@ -17856,12 +17864,13 @@
 {
 "word": "unterstreichen",
 "m": {
-"es": "subrayar",
-"en": "to underline"
+"es": "subrayar · unterstreicht, unterstrich, hat unterstrichen",
+"en": "to underline · unterstreicht, unterstrich, hat unterstrichen"
 },
-"pos": "",
+"pos": "verb",
 "w": "unterstreichen",
 "p": "",
+"pp": "unterstreicht, unterstrich, hat unterstrichen",
 "unit": null,
 "u": "",
 "q": 2964
@@ -18057,7 +18066,7 @@
 "es": "consumir",
 "en": "to consume"
 },
-"pos": "",
+"pos": "verb",
 "w": "verbrauchen",
 "p": "",
 "unit": null,
@@ -18781,7 +18790,7 @@
 "es": "hace un rato",
 "en": "a moment ago"
 },
-"pos": "verb",
+"pos": "",
 "w": "vorhin",
 "p": "",
 "unit": null,
@@ -19374,7 +19383,7 @@
 "es": "precioso",
 "en": "beautiful"
 },
-"pos": "verb",
+"pos": "",
 "w": "wunderschön",
 "p": "",
 "unit": null,
@@ -20126,7 +20135,7 @@
 "es": "sorprender",
 "en": "to surprise"
 },
-"pos": "",
+"pos": "verb",
 "w": "überraschen",
 "p": "",
 "unit": null,
