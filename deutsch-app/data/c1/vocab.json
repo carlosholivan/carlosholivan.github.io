@@ -1,5 +1,1856 @@
 [
 {
+"word": "nachweislich",
+"m": {
+"es": "demostrable",
+"en": "demonstrably"
+},
+"pos": "",
+"w": "nachweislich",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4131
+},
+{
+"word": "mutmaßlich",
+"m": {
+"es": "presunto",
+"en": "alleged"
+},
+"pos": "",
+"w": "mutmaßlich",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4132
+},
+{
+"word": "allem Anschein nach",
+"m": {
+"es": "a todas luces",
+"en": "by all appearances"
+},
+"pos": "",
+"w": "allem Anschein nach",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4133
+},
+{
+"word": "die Indizien",
+"m": {
+"es": "los indicios · (solo plural)",
+"en": "circumstantial evidence · (plural only)"
+},
+"pos": "noun",
+"w": "die Indizien",
+"p": "",
+"g": "pl",
+"unit": 1,
+"u": "c1-1",
+"q": 4134
+},
+{
+"word": "das Indiz",
+"m": {
+"es": "el indicio · pl. die Indizien",
+"en": "piece of evidence · pl. die Indizien"
+},
+"pos": "noun",
+"w": "das Indiz",
+"p": "",
+"g": "n",
+"pl": "Indizien",
+"unit": 1,
+"u": "c1-1",
+"q": 4135
+},
+{
+"word": "verdächtigen",
+"m": {
+"es": "sospechar de",
+"en": "to suspect"
+},
+"pos": "verb",
+"w": "verdächtigen",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4136
+},
+{
+"word": "die Ermittlung",
+"m": {
+"es": "la investigación · pl. die Ermittlungen",
+"en": "investigation · pl. die Ermittlungen"
+},
+"pos": "noun",
+"w": "die Ermittlung",
+"p": "",
+"g": "f",
+"pl": "Ermittlungen",
+"unit": 1,
+"u": "c1-1",
+"q": 4137
+},
+{
+"word": "rekonstruieren",
+"m": {
+"es": "reconstruir",
+"en": "to reconstruct"
+},
+"pos": "verb",
+"w": "rekonstruieren",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4138
+},
+{
+"word": "schlussfolgern",
+"m": {
+"es": "concluir",
+"en": "to conclude"
+},
+"pos": "verb",
+"w": "schlussfolgern",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4139
+},
+{
+"word": "die Schlussfolgerung",
+"m": {
+"es": "la conclusión · pl. die Schlussfolgerungen",
+"en": "conclusion · pl. die Schlussfolgerungen"
+},
+"pos": "noun",
+"w": "die Schlussfolgerung",
+"p": "",
+"g": "f",
+"pl": "Schlussfolgerungen",
+"unit": 1,
+"u": "c1-1",
+"q": 4140
+},
+{
+"word": "der Rückschluss",
+"m": {
+"es": "la conclusión · pl. die Rückschlüsse",
+"en": "inference · pl. die Rückschlüsse"
+},
+"pos": "noun",
+"w": "der Rückschluss",
+"p": "",
+"g": "m",
+"pl": "Rückschlüsse",
+"unit": 1,
+"u": "c1-1",
+"q": 4141
+},
+{
+"word": "plausibel",
+"m": {
+"es": "plausible",
+"en": "plausible"
+},
+"pos": "",
+"w": "plausibel",
+"p": "",
+"unit": 1,
+"u": "c1-1",
+"q": 4142
+},
+{
+"word": "einräumen",
+"m": {
+"es": "conceder, admitir",
+"en": "to concede"
+},
+"pos": "verb",
+"w": "einräumen",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4143
+},
+{
+"word": "bestreiten",
+"m": {
+"es": "negar; costear · bestreitet, bestritt, hat bestritten",
+"en": "to deny; to finance · bestreitet, bestritt, hat bestritten"
+},
+"pos": "verb",
+"w": "bestreiten",
+"p": "",
+"pp": "bestreitet, bestritt, hat bestritten",
+"unit": 2,
+"u": "c1-2",
+"q": 4144
+},
+{
+"word": "beteuern",
+"m": {
+"es": "asegurar, jurar",
+"en": "to protest, to insist"
+},
+"pos": "verb",
+"w": "beteuern",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4145
+},
+{
+"word": "sich behaupten",
+"m": {
+"es": "imponerse",
+"en": "to assert oneself"
+},
+"pos": "verb",
+"w": "sich behaupten",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4146
+},
+{
+"word": "abstreiten",
+"m": {
+"es": "negar · streitet ab, stritt ab, hat abgestritten",
+"en": "to deny · streitet ab, stritt ab, hat abgestritten"
+},
+"pos": "verb",
+"w": "abstreiten",
+"p": "",
+"pp": "streitet ab, stritt ab, hat abgestritten",
+"unit": 2,
+"u": "c1-2",
+"q": 4147
+},
+{
+"word": "dementieren",
+"m": {
+"es": "desmentir",
+"en": "to deny officially"
+},
+"pos": "verb",
+"w": "dementieren",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4148
+},
+{
+"word": "bekräftigen",
+"m": {
+"es": "reafirmar",
+"en": "to reaffirm"
+},
+"pos": "verb",
+"w": "bekräftigen",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4149
+},
+{
+"word": "verlautbaren",
+"m": {
+"es": "hacer público",
+"en": "to announce officially"
+},
+"pos": "verb",
+"w": "verlautbaren",
+"p": "",
+"unit": 2,
+"u": "c1-2",
+"q": 4150
+},
+{
+"word": "das Dementi",
+"m": {
+"es": "el desmentido · pl. die Dementis",
+"en": "official denial · pl. die Dementis"
+},
+"pos": "noun",
+"w": "das Dementi",
+"p": "",
+"g": "n",
+"pl": "Dementis",
+"unit": 2,
+"u": "c1-2",
+"q": 4151
+},
+{
+"word": "die Sprecherin",
+"m": {
+"es": "la portavoz · pl. die Sprecherinnen",
+"en": "spokeswoman · pl. die Sprecherinnen"
+},
+"pos": "noun",
+"w": "die Sprecherin",
+"p": "",
+"g": "f",
+"pl": "Sprecherinnen",
+"unit": 2,
+"u": "c1-2",
+"q": 4152
+},
+{
+"word": "die Pressekonferenz",
+"m": {
+"es": "la rueda de prensa · pl. die Pressekonferenzen",
+"en": "press conference · pl. die Pressekonferenzen"
+},
+"pos": "noun",
+"w": "die Pressekonferenz",
+"p": "",
+"g": "f",
+"pl": "Pressekonferenzen",
+"unit": 2,
+"u": "c1-2",
+"q": 4153
+},
+{
+"word": "der Abgeordnete",
+"m": {
+"es": "el diputado · pl. die Abgeordneten",
+"en": "member of parliament · pl. die Abgeordneten"
+},
+"pos": "noun",
+"w": "der Abgeordnete",
+"p": "",
+"g": "m",
+"pl": "Abgeordneten",
+"unit": 2,
+"u": "c1-2",
+"q": 4154
+},
+{
+"word": "die Fraktion",
+"m": {
+"es": "el grupo parlamentario · pl. die Fraktionen",
+"en": "parliamentary group · pl. die Fraktionen"
+},
+"pos": "noun",
+"w": "die Fraktion",
+"p": "",
+"g": "f",
+"pl": "Fraktionen",
+"unit": 2,
+"u": "c1-2",
+"q": 4155
+},
+{
+"word": "die Rücktrittsforderung",
+"m": {
+"es": "la petición de dimisión · pl. die Rücktrittsforderungen",
+"en": "call for resignation · pl. die Rücktrittsforderungen"
+},
+"pos": "noun",
+"w": "die Rücktrittsforderung",
+"p": "",
+"g": "f",
+"pl": "Rücktrittsforderungen",
+"unit": 2,
+"u": "c1-2",
+"q": 4156
+},
+{
+"word": "erarbeiten",
+"m": {
+"es": "elaborar",
+"en": "to work out"
+},
+"pos": "verb",
+"w": "erarbeiten",
+"p": "",
+"unit": 3,
+"u": "c1-3",
+"q": 4157
+},
+{
+"word": "vorlegen",
+"m": {
+"es": "presentar",
+"en": "to present, to submit"
+},
+"pos": "verb",
+"w": "vorlegen",
+"p": "",
+"unit": 3,
+"u": "c1-3",
+"q": 4158
+},
+{
+"word": "die Novelle",
+"m": {
+"es": "la enmienda; la novela corta · pl. die Novellen",
+"en": "amendment; novella · pl. die Novellen"
+},
+"pos": "noun",
+"w": "die Novelle",
+"p": "",
+"g": "f",
+"pl": "Novellen",
+"unit": 3,
+"u": "c1-3",
+"q": 4159
+},
+{
+"word": "das Gremium",
+"m": {
+"es": "el órgano, el comité · pl. die Gremien",
+"en": "body, committee · pl. die Gremien"
+},
+"pos": "noun",
+"w": "das Gremium",
+"p": "",
+"g": "n",
+"pl": "Gremien",
+"unit": 3,
+"u": "c1-3",
+"q": 4160
+},
+{
+"word": "einberufen",
+"m": {
+"es": "convocar · beruft ein, berief ein, hat einberufen",
+"en": "to convene · beruft ein, berief ein, hat einberufen"
+},
+"pos": "verb",
+"w": "einberufen",
+"p": "",
+"pp": "beruft ein, berief ein, hat einberufen",
+"unit": 3,
+"u": "c1-3",
+"q": 4161
+},
+{
+"word": "tagen",
+"m": {
+"es": "reunirse, sesionar",
+"en": "to sit, to meet"
+},
+"pos": "verb",
+"w": "tagen",
+"p": "",
+"unit": 3,
+"u": "c1-3",
+"q": 4162
+},
+{
+"word": "die Tagung",
+"m": {
+"es": "el congreso, la jornada · pl. die Tagungen",
+"en": "conference · pl. die Tagungen"
+},
+"pos": "noun",
+"w": "die Tagung",
+"p": "",
+"g": "f",
+"pl": "Tagungen",
+"unit": 3,
+"u": "c1-3",
+"q": 4163
+},
+{
+"word": "anberaumen",
+"m": {
+"es": "fijar (una fecha)",
+"en": "to schedule"
+},
+"pos": "verb",
+"w": "anberaumen",
+"p": "",
+"unit": 3,
+"u": "c1-3",
+"q": 4164
+},
+{
+"word": "vorsehen",
+"m": {
+"es": "prever · sieht vor, sah vor, hat vorgesehen",
+"en": "to provide for, to plan · sieht vor, sah vor, hat vorgesehen"
+},
+"pos": "verb",
+"w": "vorsehen",
+"p": "",
+"pp": "sieht vor, sah vor, hat vorgesehen",
+"unit": 3,
+"u": "c1-3",
+"q": 4165
+},
+{
+"word": "die Verlängerung",
+"m": {
+"es": "la prórroga · pl. die Verlängerungen",
+"en": "extension · pl. die Verlängerungen"
+},
+"pos": "noun",
+"w": "die Verlängerung",
+"p": "",
+"g": "f",
+"pl": "Verlängerungen",
+"unit": 3,
+"u": "c1-3",
+"q": 4166
+},
+{
+"word": "zur Sprache kommen",
+"m": {
+"es": "salir a relucir",
+"en": "to be raised, to be discussed"
+},
+"pos": "",
+"w": "zur Sprache kommen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4167
+},
+{
+"word": "in Kraft treten",
+"m": {
+"es": "entrar en vigor",
+"en": "to come into force"
+},
+"pos": "",
+"w": "in Kraft treten",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4168
+},
+{
+"word": "zur Anwendung kommen",
+"m": {
+"es": "aplicarse",
+"en": "to be applied"
+},
+"pos": "",
+"w": "zur Anwendung kommen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4169
+},
+{
+"word": "unter Druck geraten",
+"m": {
+"es": "verse presionado",
+"en": "to come under pressure"
+},
+"pos": "",
+"w": "unter Druck geraten",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4170
+},
+{
+"word": "zum Abschluss bringen",
+"m": {
+"es": "concluir",
+"en": "to bring to a conclusion"
+},
+"pos": "",
+"w": "zum Abschluss bringen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4171
+},
+{
+"word": "zur Kenntnis nehmen",
+"m": {
+"es": "tomar nota",
+"en": "to take note"
+},
+"pos": "",
+"w": "zur Kenntnis nehmen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4172
+},
+{
+"word": "in Erwägung ziehen",
+"m": {
+"es": "considerar",
+"en": "to consider"
+},
+"pos": "",
+"w": "in Erwägung ziehen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4173
+},
+{
+"word": "außer Frage stehen",
+"m": {
+"es": "estar fuera de duda",
+"en": "to be beyond question"
+},
+"pos": "",
+"w": "außer Frage stehen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4174
+},
+{
+"word": "zur Debatte stehen",
+"m": {
+"es": "estar en discusión",
+"en": "to be under discussion"
+},
+"pos": "",
+"w": "zur Debatte stehen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4175
+},
+{
+"word": "Bilanz ziehen",
+"m": {
+"es": "hacer balance",
+"en": "to take stock"
+},
+"pos": "",
+"w": "Bilanz ziehen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4176
+},
+{
+"word": "Abhilfe schaffen",
+"m": {
+"es": "poner remedio",
+"en": "to remedy"
+},
+"pos": "",
+"w": "Abhilfe schaffen",
+"p": "",
+"unit": 4,
+"u": "c1-4",
+"q": 4177
+},
+{
+"word": "die Inkraftsetzung",
+"m": {
+"es": "la puesta en vigor · pl. die Inkraftsetzungen",
+"en": "enactment · pl. die Inkraftsetzungen"
+},
+"pos": "noun",
+"w": "die Inkraftsetzung",
+"p": "",
+"g": "f",
+"pl": "Inkraftsetzungen",
+"unit": 4,
+"u": "c1-4",
+"q": 4178
+},
+{
+"word": "die Gewährleistung",
+"m": {
+"es": "la garantía",
+"en": "warranty"
+},
+"pos": "noun",
+"w": "die Gewährleistung",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "c1-4",
+"q": 4179
+},
+{
+"word": "die Sicherstellung",
+"m": {
+"es": "la garantía, el aseguramiento · pl. die Sicherstellungen",
+"en": "safeguarding · pl. die Sicherstellungen"
+},
+"pos": "noun",
+"w": "die Sicherstellung",
+"p": "",
+"g": "f",
+"pl": "Sicherstellungen",
+"unit": 4,
+"u": "c1-4",
+"q": 4180
+},
+{
+"word": "die Einhaltung",
+"m": {
+"es": "el cumplimiento",
+"en": "compliance"
+},
+"pos": "noun",
+"w": "die Einhaltung",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "c1-4",
+"q": 4181
+},
+{
+"word": "die Nichtbeachtung",
+"m": {
+"es": "el incumplimiento",
+"en": "non-observance"
+},
+"pos": "noun",
+"w": "die Nichtbeachtung",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "c1-4",
+"q": 4182
+},
+{
+"word": "die Inanspruchnahme",
+"m": {
+"es": "el uso, la utilización",
+"en": "use, recourse to"
+},
+"pos": "noun",
+"w": "die Inanspruchnahme",
+"p": "",
+"g": "f",
+"unit": 4,
+"u": "c1-4",
+"q": 4183
+},
+{
+"word": "insoweit",
+"m": {
+"es": "en la medida en que",
+"en": "insofar as"
+},
+"pos": "",
+"w": "insoweit",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4184
+},
+{
+"word": "gelassen",
+"m": {
+"es": "tranquilo, sereno · gelässt, geließ, hat gelassen",
+"en": "calm · gelässt, geließ, hat gelassen"
+},
+"pos": "verb",
+"w": "gelassen",
+"p": "",
+"pp": "gelässt, geließ, hat gelassen",
+"unit": 5,
+"u": "c1-5",
+"q": 4185
+},
+{
+"word": "unbeirrt",
+"m": {
+"es": "impertérrito",
+"en": "unswerving"
+},
+"pos": "",
+"w": "unbeirrt",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4186
+},
+{
+"word": "scheinheilig",
+"m": {
+"es": "hipócrita",
+"en": "sanctimonious"
+},
+"pos": "",
+"w": "scheinheilig",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4187
+},
+{
+"word": "vortäuschen",
+"m": {
+"es": "fingir, simular",
+"en": "to feign"
+},
+"pos": "",
+"w": "vortäuschen",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4188
+},
+{
+"word": "heucheln",
+"m": {
+"es": "fingir, ser hipócrita",
+"en": "to feign, to be a hypocrite"
+},
+"pos": "verb",
+"w": "heucheln",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4189
+},
+{
+"word": "die Fassade",
+"m": {
+"es": "la fachada · pl. die Fassaden",
+"en": "facade · pl. die Fassaden"
+},
+"pos": "noun",
+"w": "die Fassade",
+"p": "",
+"g": "f",
+"pl": "Fassaden",
+"unit": 5,
+"u": "c1-5",
+"q": 4190
+},
+{
+"word": "der Anschein",
+"m": {
+"es": "la apariencia",
+"en": "appearance"
+},
+"pos": "noun",
+"w": "der Anschein",
+"p": "",
+"g": "m",
+"unit": 5,
+"u": "c1-5",
+"q": 4191
+},
+{
+"word": "sich verstellen",
+"m": {
+"es": "fingir, disimular",
+"en": "to pretend, to dissemble"
+},
+"pos": "verb",
+"w": "sich verstellen",
+"p": "",
+"unit": 5,
+"u": "c1-5",
+"q": 4192
+},
+{
+"word": "das Satzglied",
+"m": {
+"es": "el constituyente de la oración · pl. die Satzglieder",
+"en": "sentence element · pl. die Satzglieder"
+},
+"pos": "noun",
+"w": "das Satzglied",
+"p": "",
+"g": "n",
+"pl": "Satzglieder",
+"unit": 7,
+"u": "c1-7",
+"q": 4193
+},
+{
+"word": "die Ausklammerung",
+"m": {
+"es": "la extraposición · pl. die Ausklammerungen",
+"en": "extraposition · pl. die Ausklammerungen"
+},
+"pos": "noun",
+"w": "die Ausklammerung",
+"p": "",
+"g": "f",
+"pl": "Ausklammerungen",
+"unit": 7,
+"u": "c1-7",
+"q": 4194
+},
+{
+"word": "vorangestellt",
+"m": {
+"es": "antepuesto",
+"en": "preposed"
+},
+"pos": "",
+"w": "vorangestellt",
+"p": "",
+"unit": 7,
+"u": "c1-7",
+"q": 4195
+},
+{
+"word": "nachgestellt",
+"m": {
+"es": "pospuesto",
+"en": "postposed"
+},
+"pos": "",
+"w": "nachgestellt",
+"p": "",
+"unit": 7,
+"u": "c1-7",
+"q": 4196
+},
+{
+"word": "durchschauen",
+"m": {
+"es": "calar, ver a través",
+"en": "to see through"
+},
+"pos": "verb",
+"w": "durchschauen",
+"p": "",
+"unit": 8,
+"u": "c1-8",
+"q": 4197
+},
+{
+"word": "umfahren",
+"m": {
+"es": "rodear; derribar (separable) · fährt um, fuhr um, ist umgefahren",
+"en": "to drive round; to knock down (separable) · fährt um, fuhr um, ist umgefahren"
+},
+"pos": "verb",
+"w": "umfahren",
+"p": "",
+"pp": "fährt um, fuhr um, ist umgefahren",
+"unit": 8,
+"u": "c1-8",
+"q": 4198
+},
+{
+"word": "unterstellen",
+"m": {
+"es": "atribuir; suponer",
+"en": "to imply; to assume"
+},
+"pos": "verb",
+"w": "unterstellen",
+"p": "",
+"unit": 8,
+"u": "c1-8",
+"q": 4199
+},
+{
+"word": "übergehen",
+"m": {
+"es": "pasar por alto · geht über, ging über, hat übergegangen",
+"en": "to ignore, to pass over · geht über, ging über, hat übergegangen"
+},
+"pos": "verb",
+"w": "übergehen",
+"p": "",
+"pp": "geht über, ging über, hat übergegangen",
+"unit": 8,
+"u": "c1-8",
+"q": 4200
+},
+{
+"word": "widerstehen",
+"m": {
+"es": "resistir · widersteht, widerstand, hat widerstanden",
+"en": "to resist · widersteht, widerstand, hat widerstanden"
+},
+"pos": "verb",
+"w": "widerstehen",
+"p": "",
+"pp": "widersteht, widerstand, hat widerstanden",
+"unit": 8,
+"u": "c1-8",
+"q": 4201
+},
+{
+"word": "überziehen",
+"m": {
+"es": "sobrepasar; dejar en descubierto · zieht über, zog über, hat übergezogen",
+"en": "to overrun; to overdraw · zieht über, zog über, hat übergezogen"
+},
+"pos": "verb",
+"w": "überziehen",
+"p": "",
+"pp": "zieht über, zog über, hat übergezogen",
+"unit": 8,
+"u": "c1-8",
+"q": 4202
+},
+{
+"word": "umstellen",
+"m": {
+"es": "cambiar, reorganizar",
+"en": "to rearrange, to switch"
+},
+"pos": "verb",
+"w": "umstellen",
+"p": "",
+"unit": 8,
+"u": "c1-8",
+"q": 4203
+},
+{
+"word": "ungeachtet",
+"m": {
+"es": "sin tener en cuenta",
+"en": "regardless of"
+},
+"pos": "",
+"w": "ungeachtet",
+"p": "",
+"unit": 9,
+"u": "c1-9",
+"q": 4204
+},
+{
+"word": "demgegenüber",
+"m": {
+"es": "frente a ello",
+"en": "in contrast"
+},
+"pos": "",
+"w": "demgegenüber",
+"p": "",
+"unit": 9,
+"u": "c1-9",
+"q": 4205
+},
+{
+"word": "darüber hinaus",
+"m": {
+"es": "además",
+"en": "furthermore"
+},
+"pos": "",
+"w": "darüber hinaus",
+"p": "",
+"unit": 9,
+"u": "c1-9",
+"q": 4206
+},
+{
+"word": "unbezahlbar",
+"m": {
+"es": "impagable, inasequible",
+"en": "priceless, unaffordable"
+},
+"pos": "",
+"w": "unbezahlbar",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4207
+},
+{
+"word": "unverzeihlich",
+"m": {
+"es": "imperdonable",
+"en": "unforgivable"
+},
+"pos": "",
+"w": "unverzeihlich",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4208
+},
+{
+"word": "unübersehbar",
+"m": {
+"es": "evidente, inconfundible",
+"en": "unmistakable"
+},
+"pos": "",
+"w": "unübersehbar",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4209
+},
+{
+"word": "kinderleicht",
+"m": {
+"es": "facilísimo",
+"en": "dead easy"
+},
+"pos": "",
+"w": "kinderleicht",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4210
+},
+{
+"word": "todmüde",
+"m": {
+"es": "muerto de cansancio",
+"en": "dead tired"
+},
+"pos": "",
+"w": "todmüde",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4211
+},
+{
+"word": "stockdunkel",
+"m": {
+"es": "oscuro como boca de lobo",
+"en": "pitch-dark"
+},
+"pos": "",
+"w": "stockdunkel",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4212
+},
+{
+"word": "blitzschnell",
+"m": {
+"es": "rapidísimo",
+"en": "lightning-fast"
+},
+"pos": "",
+"w": "blitzschnell",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4213
+},
+{
+"word": "steinreich",
+"m": {
+"es": "riquísimo",
+"en": "filthy rich"
+},
+"pos": "",
+"w": "steinreich",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4214
+},
+{
+"word": "das Missverhältnis",
+"m": {
+"es": "la desproporción · pl. die Missverhältnisse",
+"en": "disproportion · pl. die Missverhältnisse"
+},
+"pos": "noun",
+"w": "das Missverhältnis",
+"p": "",
+"g": "n",
+"pl": "Missverhältnisse",
+"unit": 10,
+"u": "c1-10",
+"q": 4215
+},
+{
+"word": "missbilligen",
+"m": {
+"es": "desaprobar",
+"en": "to disapprove of"
+},
+"pos": "verb",
+"w": "missbilligen",
+"p": "",
+"unit": 10,
+"u": "c1-10",
+"q": 4216
+},
+{
+"word": "hiermit",
+"m": {
+"es": "por la presente",
+"en": "hereby"
+},
+"pos": "",
+"w": "hiermit",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4217
+},
+{
+"word": "im Hinblick auf",
+"m": {
+"es": "con vistas a",
+"en": "with regard to"
+},
+"pos": "",
+"w": "im Hinblick auf",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4218
+},
+{
+"word": "unter Bezugnahme auf",
+"m": {
+"es": "con referencia a",
+"en": "with reference to"
+},
+"pos": "",
+"w": "unter Bezugnahme auf",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4219
+},
+{
+"word": "gewähren",
+"m": {
+"es": "conceder",
+"en": "to grant"
+},
+"pos": "verb",
+"w": "gewähren",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4220
+},
+{
+"word": "erteilen",
+"m": {
+"es": "conceder, otorgar",
+"en": "to grant, to give"
+},
+"pos": "verb",
+"w": "erteilen",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4221
+},
+{
+"word": "der Bescheid",
+"m": {
+"es": "la notificación oficial · pl. die Bescheide",
+"en": "official notification · pl. die Bescheide"
+},
+"pos": "noun",
+"w": "der Bescheid",
+"p": "",
+"g": "m",
+"pl": "Bescheide",
+"unit": 11,
+"u": "c1-11",
+"q": 4222
+},
+{
+"word": "der Sachbearbeiter",
+"m": {
+"es": "el tramitador · pl. die Sachbearbeiter",
+"en": "case officer · pl. die Sachbearbeiter"
+},
+"pos": "noun",
+"w": "der Sachbearbeiter",
+"p": "",
+"g": "m",
+"pl": "Sachbearbeiter",
+"unit": 11,
+"u": "c1-11",
+"q": 4223
+},
+{
+"word": "das Aktenzeichen",
+"m": {
+"es": "el número de expediente · pl. die Aktenzeichen",
+"en": "file reference · pl. die Aktenzeichen"
+},
+"pos": "noun",
+"w": "das Aktenzeichen",
+"p": "",
+"g": "n",
+"pl": "Aktenzeichen",
+"unit": 11,
+"u": "c1-11",
+"q": 4224
+},
+{
+"word": "fristgerecht",
+"m": {
+"es": "en plazo",
+"en": "within the deadline"
+},
+"pos": "",
+"w": "fristgerecht",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4225
+},
+{
+"word": "beiliegend",
+"m": {
+"es": "adjunto",
+"en": "enclosed"
+},
+"pos": "",
+"w": "beiliegend",
+"p": "",
+"unit": 11,
+"u": "c1-11",
+"q": 4226
+},
+{
+"word": "die Redewendung",
+"m": {
+"es": "la expresión idiomática · pl. die Redewendungen",
+"en": "idiom · pl. die Redewendungen"
+},
+"pos": "noun",
+"w": "die Redewendung",
+"p": "",
+"g": "f",
+"pl": "Redewendungen",
+"unit": 12,
+"u": "c1-12",
+"q": 4227
+},
+{
+"word": "auf den Arm nehmen",
+"m": {
+"es": "tomar el pelo",
+"en": "to pull someone's leg"
+},
+"pos": "",
+"w": "auf den Arm nehmen",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4228
+},
+{
+"word": "die Nase voll haben",
+"m": {
+"es": "estar harto",
+"en": "to be fed up"
+},
+"pos": "noun",
+"w": "die Nase voll haben",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c1-12",
+"q": 4229
+},
+{
+"word": "einen Bären aufbinden",
+"m": {
+"es": "contar una trola",
+"en": "to spin a yarn"
+},
+"pos": "",
+"w": "einen Bären aufbinden",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4230
+},
+{
+"word": "die Katze im Sack kaufen",
+"m": {
+"es": "comprar a ciegas",
+"en": "to buy a pig in a poke"
+},
+"pos": "noun",
+"w": "die Katze im Sack kaufen",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c1-12",
+"q": 4231
+},
+{
+"word": "Tomaten auf den Augen haben",
+"m": {
+"es": "no ver lo evidente",
+"en": "to be blind to something"
+},
+"pos": "",
+"w": "Tomaten auf den Augen haben",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4232
+},
+{
+"word": "um den heißen Brei herumreden",
+"m": {
+"es": "andarse por las ramas",
+"en": "to beat about the bush"
+},
+"pos": "",
+"w": "um den heißen Brei herumreden",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4233
+},
+{
+"word": "ins Fettnäpfchen treten",
+"m": {
+"es": "meter la pata",
+"en": "to put one's foot in it"
+},
+"pos": "",
+"w": "ins Fettnäpfchen treten",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4234
+},
+{
+"word": "den Nagel auf den Kopf treffen",
+"m": {
+"es": "dar en el clavo",
+"en": "to hit the nail on the head"
+},
+"pos": "",
+"w": "den Nagel auf den Kopf treffen",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4235
+},
+{
+"word": "die Daumen drücken",
+"m": {
+"es": "cruzar los dedos",
+"en": "to keep one's fingers crossed"
+},
+"pos": "noun",
+"w": "die Daumen drücken",
+"p": "",
+"g": "f",
+"unit": 12,
+"u": "c1-12",
+"q": 4236
+},
+{
+"word": "auf dem Holzweg sein",
+"m": {
+"es": "estar equivocado",
+"en": "to be on the wrong track"
+},
+"pos": "",
+"w": "auf dem Holzweg sein",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4237
+},
+{
+"word": "Schwein haben",
+"m": {
+"es": "tener suerte",
+"en": "to be lucky"
+},
+"pos": "",
+"w": "Schwein haben",
+"p": "",
+"unit": 12,
+"u": "c1-12",
+"q": 4238
+},
+{
+"word": "unbestreitbar",
+"m": {
+"es": "indiscutible",
+"en": "undeniable"
+},
+"pos": "",
+"w": "unbestreitbar",
+"p": "",
+"unit": 13,
+"u": "c1-13",
+"q": 4239
+},
+{
+"word": "zutreffen",
+"m": {
+"es": "ser cierto, aplicarse · trifft zu, traf zu, hat zugetroffen",
+"en": "to be true, to apply · trifft zu, traf zu, hat zugetroffen"
+},
+"pos": "verb",
+"w": "zutreffen",
+"p": "",
+"pp": "trifft zu, traf zu, hat zugetroffen",
+"unit": 13,
+"u": "c1-13",
+"q": 4240
+},
+{
+"word": "entgegenhalten",
+"m": {
+"es": "objetar · hält entgegen, hielt entgegen, hat entgegengehalten",
+"en": "to counter · hält entgegen, hielt entgegen, hat entgegengehalten"
+},
+"pos": "verb",
+"w": "entgegenhalten",
+"p": "",
+"pp": "hält entgegen, hielt entgegen, hat entgegengehalten",
+"unit": 13,
+"u": "c1-13",
+"q": 4241
+},
+{
+"word": "einwenden",
+"m": {
+"es": "objetar",
+"en": "to object"
+},
+"pos": "verb",
+"w": "einwenden",
+"p": "",
+"unit": 13,
+"u": "c1-13",
+"q": 4242
+},
+{
+"word": "der Einwand",
+"m": {
+"es": "la objeción · pl. die Einwände",
+"en": "objection · pl. die Einwände"
+},
+"pos": "noun",
+"w": "der Einwand",
+"p": "",
+"g": "m",
+"pl": "Einwände",
+"unit": 13,
+"u": "c1-13",
+"q": 4243
+},
+{
+"word": "die Abwägung",
+"m": {
+"es": "la ponderación · pl. die Abwägungen",
+"en": "weighing up · pl. die Abwägungen"
+},
+"pos": "noun",
+"w": "die Abwägung",
+"p": "",
+"g": "f",
+"pl": "Abwägungen",
+"unit": 13,
+"u": "c1-13",
+"q": 4244
+},
+{
+"word": "stichhaltig",
+"m": {
+"es": "sólido",
+"en": "sound, valid"
+},
+"pos": "",
+"w": "stichhaltig",
+"p": "",
+"unit": 13,
+"u": "c1-13",
+"q": 4245
+},
+{
+"word": "die Gegenthese",
+"m": {
+"es": "la antítesis · pl. die Gegenthesen",
+"en": "counter-thesis · pl. die Gegenthesen"
+},
+"pos": "noun",
+"w": "die Gegenthese",
+"p": "",
+"g": "f",
+"pl": "Gegenthesen",
+"unit": 13,
+"u": "c1-13",
+"q": 4246
+},
+{
+"word": "untermauern",
+"m": {
+"es": "respaldar",
+"en": "to back up"
+},
+"pos": "verb",
+"w": "untermauern",
+"p": "",
+"unit": 13,
+"u": "c1-13",
+"q": 4247
+},
+{
+"word": "Ersteres",
+"m": {
+"es": "lo primero, el primero",
+"en": "the former"
+},
+"pos": "",
+"w": "Ersteres",
+"p": "",
+"unit": 14,
+"u": "c1-14",
+"q": 4248
+},
+{
+"word": "Letzteres",
+"m": {
+"es": "lo último, el último",
+"en": "the latter"
+},
+"pos": "",
+"w": "Letzteres",
+"p": "",
+"unit": 14,
+"u": "c1-14",
+"q": 4249
+},
+{
+"word": "Folgendes",
+"m": {
+"es": "lo siguiente",
+"en": "the following"
+},
+"pos": "",
+"w": "Folgendes",
+"p": "",
+"unit": 14,
+"u": "c1-14",
+"q": 4250
+},
+{
+"word": "im Anschluss daran",
+"m": {
+"es": "a continuación",
+"en": "following this"
+},
+"pos": "",
+"w": "im Anschluss daran",
+"p": "",
+"unit": 14,
+"u": "c1-14",
+"q": 4251
+},
+{
+"word": "verweisen",
+"m": {
+"es": "remitir · verweist, verwies, hat verwiesen",
+"en": "to refer · verweist, verwies, hat verwiesen"
+},
+"pos": "verb",
+"w": "verweisen",
+"p": "",
+"pp": "verweist, verwies, hat verwiesen",
+"unit": 14,
+"u": "c1-14",
+"q": 4252
+},
+{
+"word": "anknüpfen",
+"m": {
+"es": "enlazar, retomar",
+"en": "to link up"
+},
+"pos": "verb",
+"w": "anknüpfen",
+"p": "",
+"unit": 14,
+"u": "c1-14",
+"q": 4253
+},
+{
+"word": "genau genommen",
+"m": {
+"es": "en rigor",
+"en": "strictly speaking"
+},
+"pos": "",
+"w": "genau genommen",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4254
+},
+{
+"word": "offen gesagt",
+"m": {
+"es": "francamente",
+"en": "frankly"
+},
+"pos": "",
+"w": "offen gesagt",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4255
+},
+{
+"word": "abgesehen von",
+"m": {
+"es": "aparte de",
+"en": "apart from"
+},
+"pos": "",
+"w": "abgesehen von",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4256
+},
+{
+"word": "verglichen mit",
+"m": {
+"es": "en comparación con",
+"en": "compared with"
+},
+"pos": "",
+"w": "verglichen mit",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4257
+},
+{
+"word": "ausgehend von",
+"m": {
+"es": "partiendo de",
+"en": "starting from"
+},
+"pos": "",
+"w": "ausgehend von",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4258
+},
+{
+"word": "streng genommen",
+"m": {
+"es": "en sentido estricto",
+"en": "strictly speaking"
+},
+"pos": "",
+"w": "streng genommen",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4259
+},
+{
+"word": "kurz gesagt",
+"m": {
+"es": "en pocas palabras",
+"en": "in short"
+},
+"pos": "",
+"w": "kurz gesagt",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4260
+},
+{
+"word": "zusammengefasst",
+"m": {
+"es": "en resumen",
+"en": "in summary"
+},
+"pos": "",
+"w": "zusammengefasst",
+"p": "",
+"unit": 15,
+"u": "c1-15",
+"q": 4261
+},
+{
+"word": "das Schaubild",
+"m": {
+"es": "el gráfico · pl. die Schaubilder",
+"en": "chart · pl. die Schaubilder"
+},
+"pos": "noun",
+"w": "das Schaubild",
+"p": "",
+"g": "n",
+"pl": "Schaubilder",
+"unit": 16,
+"u": "c1-16",
+"q": 4262
+},
+{
+"word": "die Erhebung",
+"m": {
+"es": "la encuesta, el estudio · pl. die Erhebungen",
+"en": "survey · pl. die Erhebungen"
+},
+"pos": "noun",
+"w": "die Erhebung",
+"p": "",
+"g": "f",
+"pl": "Erhebungen",
+"unit": 16,
+"u": "c1-16",
+"q": 4263
+},
+{
+"word": "sich halbieren",
+"m": {
+"es": "reducirse a la mitad",
+"en": "to halve"
+},
+"pos": "verb",
+"w": "sich halbieren",
+"p": "",
+"unit": 16,
+"u": "c1-16",
+"q": 4264
+},
+{
+"word": "der Höchststand",
+"m": {
+"es": "el máximo · pl. die Höchststände",
+"en": "peak · pl. die Höchststände"
+},
+"pos": "noun",
+"w": "der Höchststand",
+"p": "",
+"g": "m",
+"pl": "Höchststände",
+"unit": 16,
+"u": "c1-16",
+"q": 4265
+},
+{
+"word": "der Tiefststand",
+"m": {
+"es": "el mínimo · pl. die Tiefststände",
+"en": "low · pl. die Tiefststände"
+},
+"pos": "noun",
+"w": "der Tiefststand",
+"p": "",
+"g": "m",
+"pl": "Tiefststände",
+"unit": 16,
+"u": "c1-16",
+"q": 4266
+},
+{
 "word": "sich abfinden mit",
 "m": {
 "es": "resignarse a",
@@ -10,7 +1861,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4046
+"q": 4267
 },
 {
 "word": "die Abfindung",
@@ -25,22 +1876,7 @@
 "pl": "Abfindungen",
 "unit": null,
 "u": "",
-"q": 4047
-},
-{
-"word": "der Abgeordnete",
-"m": {
-"es": "el diputado · pl. die Abgeordneten",
-"en": "member of parliament · pl. die Abgeordneten"
-},
-"pos": "noun",
-"w": "der Abgeordnete",
-"p": "",
-"g": "m",
-"pl": "Abgeordneten",
-"unit": null,
-"u": "",
-"q": 4048
+"q": 4268
 },
 {
 "word": "die Abhandlung",
@@ -55,7 +1891,7 @@
 "pl": "Abhandlungen",
 "unit": null,
 "u": "",
-"q": 4049
+"q": 4269
 },
 {
 "word": "sich abheben von",
@@ -68,20 +1904,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4050
-},
-{
-"word": "Abhilfe schaffen",
-"m": {
-"es": "poner remedio",
-"en": "to remedy"
-},
-"pos": "",
-"w": "Abhilfe schaffen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4051
+"q": 4270
 },
 {
 "word": "die Abneigung",
@@ -96,22 +1919,7 @@
 "pl": "Abneigungen",
 "unit": null,
 "u": "",
-"q": 4052
-},
-{
-"word": "der Absatz",
-"m": {
-"es": "las ventas; el párrafo; el tacón · pl. die Absätze",
-"en": "sales; paragraph; heel · pl. die Absätze"
-},
-"pos": "noun",
-"w": "der Absatz",
-"p": "",
-"g": "m",
-"pl": "Absätze",
-"unit": null,
-"u": "",
-"q": 4053
+"q": 4271
 },
 {
 "word": "abschrecken",
@@ -124,7 +1932,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4054
+"q": 4272
 },
 {
 "word": "der Abschwung",
@@ -138,22 +1946,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4055
-},
-{
-"word": "die Abwägung",
-"m": {
-"es": "la ponderación · pl. die Abwägungen",
-"en": "weighing up · pl. die Abwägungen"
-},
-"pos": "noun",
-"w": "die Abwägung",
-"p": "",
-"g": "f",
-"pl": "Abwägungen",
-"unit": null,
-"u": "",
-"q": 4056
+"q": 4273
 },
 {
 "word": "abzielen auf",
@@ -166,7 +1959,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4057
+"q": 4274
 },
 {
 "word": "abzüglich",
@@ -179,7 +1972,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4058
+"q": 4275
 },
 {
 "word": "ach so",
@@ -192,7 +1985,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4059
+"q": 4276
 },
 {
 "word": "die Achtsamkeit",
@@ -206,7 +1999,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4060
+"q": 4277
 },
 {
 "word": "allenfalls",
@@ -219,7 +2012,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4061
+"q": 4278
 },
 {
 "word": "alles in Butter",
@@ -232,7 +2025,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4062
+"q": 4279
 },
 {
 "word": "die Altersarmut",
@@ -246,7 +2039,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4063
+"q": 4280
 },
 {
 "word": "ambivalent",
@@ -259,7 +2052,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4064
+"q": 4281
 },
 {
 "word": "an Bedeutung gewinnen",
@@ -272,7 +2065,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4065
+"q": 4282
 },
 {
 "word": "an Bedeutung verlieren",
@@ -285,7 +2078,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4066
+"q": 4283
 },
 {
 "word": "an einem Strang ziehen",
@@ -298,7 +2091,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4067
+"q": 4284
 },
 {
 "word": "sich anbahnen",
@@ -311,7 +2104,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4068
+"q": 4285
 },
 {
 "word": "sich aneignen",
@@ -324,7 +2117,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4069
+"q": 4286
 },
 {
 "word": "der Angeklagte",
@@ -339,7 +2132,7 @@
 "pl": "Angeklagten",
 "unit": null,
 "u": "",
-"q": 4070
+"q": 4287
 },
 {
 "word": "die Anklage",
@@ -354,7 +2147,7 @@
 "pl": "Anklagen",
 "unit": null,
 "u": "",
-"q": 4071
+"q": 4288
 },
 {
 "word": "Anklang finden",
@@ -367,7 +2160,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4072
+"q": 4289
 },
 {
 "word": "anknüpfen an",
@@ -380,7 +2173,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4073
+"q": 4290
 },
 {
 "word": "anlässlich",
@@ -393,7 +2186,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4074
+"q": 4291
 },
 {
 "word": "sich anmaßen",
@@ -406,7 +2199,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4075
+"q": 4292
 },
 {
 "word": "annähernd",
@@ -419,7 +2212,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4076
+"q": 4293
 },
 {
 "word": "die Annäherung",
@@ -434,7 +2227,7 @@
 "pl": "Annäherungen",
 "unit": null,
 "u": "",
-"q": 4077
+"q": 4294
 },
 {
 "word": "anprangern",
@@ -447,7 +2240,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4078
+"q": 4295
 },
 {
 "word": "anregen",
@@ -460,7 +2253,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4079
+"q": 4296
 },
 {
 "word": "anschaulich",
@@ -473,7 +2266,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4080
+"q": 4297
 },
 {
 "word": "das Anschreiben",
@@ -488,7 +2281,7 @@
 "pl": "Anschreiben",
 "unit": null,
 "u": "",
-"q": 4081
+"q": 4298
 },
 {
 "word": "anstreben",
@@ -501,7 +2294,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4082
+"q": 4299
 },
 {
 "word": "die Anteilnahme",
@@ -515,7 +2308,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4083
+"q": 4300
 },
 {
 "word": "das Arbeitszeugnis",
@@ -530,7 +2323,7 @@
 "pl": "Arbeitszeugnisse",
 "unit": null,
 "u": "",
-"q": 4084
+"q": 4301
 },
 {
 "word": "der Artenschutz",
@@ -544,20 +2337,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4085
-},
-{
-"word": "auf dem Holzweg sein",
-"m": {
-"es": "estar equivocado",
-"en": "to be on the wrong track"
-},
-"pos": "",
-"w": "auf dem Holzweg sein",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4086
+"q": 4302
 },
 {
 "word": "auf der Hand liegen",
@@ -570,7 +2350,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4087
+"q": 4303
 },
 {
 "word": "aufgeschlossen",
@@ -583,7 +2363,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4088
+"q": 4304
 },
 {
 "word": "aufgreifen",
@@ -597,7 +2377,7 @@
 "pp": "greift auf, griff auf, hat aufgegriffen",
 "unit": null,
 "u": "",
-"q": 4089
+"q": 4305
 },
 {
 "word": "die Aufklärung",
@@ -611,7 +2391,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4090
+"q": 4306
 },
 {
 "word": "aufschlussreich",
@@ -624,7 +2404,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4091
+"q": 4307
 },
 {
 "word": "der Aufschwung",
@@ -638,7 +2418,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4092
+"q": 4308
 },
 {
 "word": "aufwerten",
@@ -651,7 +2431,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4093
+"q": 4309
 },
 {
 "word": "aufzeigen",
@@ -664,7 +2444,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4094
+"q": 4310
 },
 {
 "word": "aus diesem Grund",
@@ -677,7 +2457,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4095
+"q": 4311
 },
 {
 "word": "ausblenden",
@@ -690,7 +2470,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4096
+"q": 4312
 },
 {
 "word": "der Ausgangspunkt",
@@ -705,7 +2485,7 @@
 "pl": "Ausgangspunkte",
 "unit": null,
 "u": "",
-"q": 4097
+"q": 4313
 },
 {
 "word": "ausgehen von",
@@ -718,7 +2498,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4098
+"q": 4314
 },
 {
 "word": "ausgrenzen",
@@ -731,7 +2511,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4099
+"q": 4315
 },
 {
 "word": "die Ausgrenzung",
@@ -745,7 +2525,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4100
+"q": 4316
 },
 {
 "word": "auslösen",
@@ -758,7 +2538,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4101
+"q": 4317
 },
 {
 "word": "ausnahmslos",
@@ -771,7 +2551,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4102
+"q": 4318
 },
 {
 "word": "die Ausprägung",
@@ -786,7 +2566,7 @@
 "pl": "Ausprägungen",
 "unit": null,
 "u": "",
-"q": 4103
+"q": 4319
 },
 {
 "word": "die Aussagekraft",
@@ -800,7 +2580,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4104
+"q": 4320
 },
 {
 "word": "ausschlaggebend",
@@ -813,7 +2593,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4105
+"q": 4321
 },
 {
 "word": "ausschöpfen",
@@ -826,7 +2606,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4106
+"q": 4322
 },
 {
 "word": "die Auswirkung",
@@ -841,7 +2621,7 @@
 "pl": "Auswirkungen",
 "unit": null,
 "u": "",
-"q": 4107
+"q": 4323
 },
 {
 "word": "ausüben",
@@ -854,7 +2634,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4108
+"q": 4324
 },
 {
 "word": "die Automatisierung",
@@ -868,20 +2648,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4109
-},
-{
-"word": "außer Frage stehen",
-"m": {
-"es": "estar fuera de duda",
-"en": "to be beyond question"
-},
-"pos": "",
-"w": "außer Frage stehen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4110
+"q": 4325
 },
 {
 "word": "der Ballungsraum",
@@ -896,7 +2663,7 @@
 "pl": "Ballungsräume",
 "unit": null,
 "u": "",
-"q": 4111
+"q": 4326
 },
 {
 "word": "die Barrierefreiheit",
@@ -910,7 +2677,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4112
+"q": 4327
 },
 {
 "word": "beachtlich",
@@ -923,7 +2690,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4113
+"q": 4328
 },
 {
 "word": "beanspruchen",
@@ -936,7 +2703,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4114
+"q": 4329
 },
 {
 "word": "bedenklich",
@@ -949,7 +2716,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4115
+"q": 4330
 },
 {
 "word": "bedeutsam",
@@ -962,7 +2729,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4116
+"q": 4331
 },
 {
 "word": "bedingen",
@@ -975,7 +2742,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4117
+"q": 4332
 },
 {
 "word": "beeinträchtigen",
@@ -988,7 +2755,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4118
+"q": 4333
 },
 {
 "word": "befremdet",
@@ -1001,7 +2768,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4119
+"q": 4334
 },
 {
 "word": "befürchten",
@@ -1014,20 +2781,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4120
-},
-{
-"word": "befürworten",
-"m": {
-"es": "apoyar, defender",
-"en": "to advocate"
-},
-"pos": "verb",
-"w": "befürworten",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4121
+"q": 4335
 },
 {
 "word": "die Begebenheit",
@@ -1042,7 +2796,7 @@
 "pl": "Begebenheiten",
 "unit": null,
 "u": "",
-"q": 4122
+"q": 4336
 },
 {
 "word": "die Begleiterscheinung",
@@ -1057,7 +2811,7 @@
 "pl": "Begleiterscheinungen",
 "unit": null,
 "u": "",
-"q": 4123
+"q": 4337
 },
 {
 "word": "begünstigen",
@@ -1070,7 +2824,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4124
+"q": 4338
 },
 {
 "word": "die Beharrlichkeit",
@@ -1084,20 +2838,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4125
-},
-{
-"word": "sich behaupten",
-"m": {
-"es": "imponerse",
-"en": "to assert oneself"
-},
-"pos": "verb",
-"w": "sich behaupten",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4126
+"q": 4339
 },
 {
 "word": "beheben",
@@ -1111,7 +2852,7 @@
 "pp": "behebt, behob, hat behoben",
 "unit": null,
 "u": "",
-"q": 4127
+"q": 4340
 },
 {
 "word": "behutsam",
@@ -1124,7 +2865,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4128
+"q": 4341
 },
 {
 "word": "der Beifall",
@@ -1138,7 +2879,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4129
+"q": 4342
 },
 {
 "word": "das Beileid",
@@ -1152,7 +2893,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4130
+"q": 4343
 },
 {
 "word": "beimessen",
@@ -1166,7 +2907,7 @@
 "pp": "misst bei, maß bei, hat beigemessen",
 "unit": null,
 "u": "",
-"q": 4131
+"q": 4344
 },
 {
 "word": "beinhalten",
@@ -1179,7 +2920,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4132
+"q": 4345
 },
 {
 "word": "beklommen",
@@ -1192,7 +2933,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4133
+"q": 4346
 },
 {
 "word": "die Belastbarkeit",
@@ -1206,7 +2947,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4134
+"q": 4347
 },
 {
 "word": "die Belegschaft",
@@ -1221,7 +2962,7 @@
 "pl": "Belegschaften",
 "unit": null,
 "u": "",
-"q": 4135
+"q": 4348
 },
 {
 "word": "beliebig",
@@ -1234,7 +2975,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4136
+"q": 4349
 },
 {
 "word": "bemängeln",
@@ -1247,7 +2988,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4137
+"q": 4350
 },
 {
 "word": "benachteiligen",
@@ -1260,7 +3001,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4138
+"q": 4351
 },
 {
 "word": "die Benachteiligung",
@@ -1275,7 +3016,7 @@
 "pl": "Benachteiligungen",
 "unit": null,
 "u": "",
-"q": 4139
+"q": 4352
 },
 {
 "word": "berechtigt",
@@ -1288,7 +3029,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4140
+"q": 4353
 },
 {
 "word": "die Beschaffenheit",
@@ -1302,22 +3043,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4141
-},
-{
-"word": "der Bescheid",
-"m": {
-"es": "la notificación oficial · pl. die Bescheide",
-"en": "official notification · pl. die Bescheide"
-},
-"pos": "noun",
-"w": "der Bescheid",
-"p": "",
-"g": "m",
-"pl": "Bescheide",
-"unit": null,
-"u": "",
-"q": 4142
+"q": 4354
 },
 {
 "word": "bescheiden",
@@ -1331,7 +3057,7 @@
 "pp": "bescheidet, beschied, hat beschieden",
 "unit": null,
 "u": "",
-"q": 4143
+"q": 4355
 },
 {
 "word": "die Beschwerden",
@@ -1345,7 +3071,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 4144
+"q": 4356
 },
 {
 "word": "beschwichtigen",
@@ -1358,7 +3084,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4145
+"q": 4357
 },
 {
 "word": "beschönigen",
@@ -1371,7 +3097,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4146
+"q": 4358
 },
 {
 "word": "sich besinnen",
@@ -1385,7 +3111,7 @@
 "pp": "besinnt, besann, hat besonnen",
 "unit": null,
 "u": "",
-"q": 4147
+"q": 4359
 },
 {
 "word": "die Bestrebung",
@@ -1400,21 +3126,7 @@
 "pl": "Bestrebungen",
 "unit": null,
 "u": "",
-"q": 4148
-},
-{
-"word": "bestreiten",
-"m": {
-"es": "negar; costear · bestreitet, bestritt, hat bestritten",
-"en": "to deny; to finance · bestreitet, bestritt, hat bestritten"
-},
-"pos": "verb",
-"w": "bestreiten",
-"p": "",
-"pp": "bestreitet, bestritt, hat bestritten",
-"unit": null,
-"u": "",
-"q": 4149
+"q": 4360
 },
 {
 "word": "bestürzt",
@@ -1427,7 +3139,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4150
+"q": 4361
 },
 {
 "word": "betreffen",
@@ -1441,7 +3153,7 @@
 "pp": "betrifft, betraf, hat betroffen",
 "unit": null,
 "u": "",
-"q": 4151
+"q": 4362
 },
 {
 "word": "beträchtlich",
@@ -1454,7 +3166,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4152
+"q": 4363
 },
 {
 "word": "bewerkstelligen",
@@ -1467,7 +3179,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4153
+"q": 4364
 },
 {
 "word": "bewirken",
@@ -1480,7 +3192,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4154
+"q": 4365
 },
 {
 "word": "sich bewähren",
@@ -1493,7 +3205,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4155
+"q": 4366
 },
 {
 "word": "die Bewährung",
@@ -1507,20 +3219,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4156
-},
-{
-"word": "bewältigen",
-"m": {
-"es": "superar, hacer frente a",
-"en": "to cope with"
-},
-"pos": "verb",
-"w": "bewältigen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4157
+"q": 4367
 },
 {
 "word": "die Bewältigung",
@@ -1534,7 +3233,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4158
+"q": 4368
 },
 {
 "word": "Bezug nehmen auf",
@@ -1547,7 +3246,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4159
+"q": 4369
 },
 {
 "word": "bezwecken",
@@ -1560,7 +3259,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4160
+"q": 4370
 },
 {
 "word": "bezweifeln",
@@ -1573,20 +3272,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4161
-},
-{
-"word": "Bilanz ziehen",
-"m": {
-"es": "hacer balance",
-"en": "to take stock"
-},
-"pos": "",
-"w": "Bilanz ziehen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4162
+"q": 4371
 },
 {
 "word": "billigen",
@@ -1599,7 +3285,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4163
+"q": 4372
 },
 {
 "word": "bisweilen",
@@ -1612,7 +3298,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4164
+"q": 4373
 },
 {
 "word": "der Blickwinkel",
@@ -1627,7 +3313,7 @@
 "pl": "Blickwinkel",
 "unit": null,
 "u": "",
-"q": 4165
+"q": 4374
 },
 {
 "word": "das Bruttoinlandsprodukt",
@@ -1641,7 +3327,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4166
+"q": 4375
 },
 {
 "word": "die Bürgerbeteiligung",
@@ -1655,7 +3341,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4167
+"q": 4376
 },
 {
 "word": "die Bürokratie",
@@ -1669,7 +3355,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4168
+"q": 4377
 },
 {
 "word": "die CO2-Steuer",
@@ -1683,7 +3369,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4169
+"q": 4378
 },
 {
 "word": "die Cyberkriminalität",
@@ -1697,7 +3383,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4170
+"q": 4379
 },
 {
 "word": "dahingegen",
@@ -1710,7 +3396,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4171
+"q": 4380
 },
 {
 "word": "die Darlegung",
@@ -1725,7 +3411,7 @@
 "pl": "Darlegungen",
 "unit": null,
 "u": "",
-"q": 4172
+"q": 4381
 },
 {
 "word": "der Datenmissbrauch",
@@ -1739,21 +3425,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4173
-},
-{
-"word": "die Daumen drücken",
-"m": {
-"es": "cruzar los dedos",
-"en": "to keep one's fingers crossed"
-},
-"pos": "noun",
-"w": "die Daumen drücken",
-"p": "",
-"g": "f",
-"unit": null,
-"u": "",
-"q": 4174
+"q": 4382
 },
 {
 "word": "das Defizit",
@@ -1768,20 +3440,7 @@
 "pl": "Defizite",
 "unit": null,
 "u": "",
-"q": 4175
-},
-{
-"word": "demgegenüber",
-"m": {
-"es": "frente a ello",
-"en": "in contrast"
-},
-"pos": "",
-"w": "demgegenüber",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4176
+"q": 4383
 },
 {
 "word": "der demografische Wandel",
@@ -1795,7 +3454,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4177
+"q": 4384
 },
 {
 "word": "die Demut",
@@ -1809,7 +3468,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4178
+"q": 4385
 },
 {
 "word": "den Ausschlag geben",
@@ -1822,20 +3481,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4179
-},
-{
-"word": "den Nagel auf den Kopf treffen",
-"m": {
-"es": "dar en el clavo",
-"en": "to hit the nail on the head"
-},
-"pos": "",
-"w": "den Nagel auf den Kopf treffen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4180
+"q": 4386
 },
 {
 "word": "den Rahmen sprengen",
@@ -1848,7 +3494,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4181
+"q": 4387
 },
 {
 "word": "dessen ungeachtet",
@@ -1861,7 +3507,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4182
+"q": 4388
 },
 {
 "word": "die Deutung",
@@ -1876,7 +3522,7 @@
 "pl": "Deutungen",
 "unit": null,
 "u": "",
-"q": 4183
+"q": 4389
 },
 {
 "word": "diesseits",
@@ -1889,7 +3535,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4184
+"q": 4390
 },
 {
 "word": "diffamieren",
@@ -1902,7 +3548,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4185
+"q": 4391
 },
 {
 "word": "die Diskrepanz",
@@ -1917,7 +3563,7 @@
 "pl": "Diskrepanzen",
 "unit": null,
 "u": "",
-"q": 4186
+"q": 4392
 },
 {
 "word": "sich distanzieren",
@@ -1930,7 +3576,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4187
+"q": 4393
 },
 {
 "word": "dringlich",
@@ -1943,7 +3589,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4188
+"q": 4394
 },
 {
 "word": "dulden",
@@ -1956,7 +3602,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4189
+"q": 4395
 },
 {
 "word": "der Durchbruch",
@@ -1971,7 +3617,7 @@
 "pl": "Durchbrüche",
 "unit": null,
 "u": "",
-"q": 4190
+"q": 4396
 },
 {
 "word": "sich durchringen",
@@ -1985,7 +3631,7 @@
 "pp": "ringt durch, rang durch, hat durchgerungen",
 "unit": null,
 "u": "",
-"q": 4191
+"q": 4397
 },
 {
 "word": "die Durchsetzungsfähigkeit",
@@ -1999,7 +3645,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4192
+"q": 4398
 },
 {
 "word": "die Ehrenamtlichkeit",
@@ -2013,7 +3659,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4193
+"q": 4399
 },
 {
 "word": "das Ehrenwort",
@@ -2027,7 +3673,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4194
+"q": 4400
 },
 {
 "word": "die Ehrfurcht",
@@ -2041,7 +3687,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4195
+"q": 4401
 },
 {
 "word": "ehrgeizig",
@@ -2054,7 +3700,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4196
+"q": 4402
 },
 {
 "word": "die Eigeninitiative",
@@ -2068,22 +3714,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4197
-},
-{
-"word": "die Eigenschaft",
-"m": {
-"es": "la cualidad, la propiedad · pl. die Eigenschaften",
-"en": "quality, property · pl. die Eigenschaften"
-},
-"pos": "noun",
-"w": "die Eigenschaft",
-"p": "",
-"g": "f",
-"pl": "Eigenschaften",
-"unit": null,
-"u": "",
-"q": 4198
+"q": 4403
 },
 {
 "word": "eigensinnig",
@@ -2096,7 +3727,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4199
+"q": 4404
 },
 {
 "word": "eigenständig",
@@ -2109,7 +3740,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4200
+"q": 4405
 },
 {
 "word": "die Eigenverantwortung",
@@ -2123,7 +3754,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4201
+"q": 4406
 },
 {
 "word": "einbeziehen",
@@ -2137,7 +3768,7 @@
 "pp": "bezieht ein, bezog ein, hat einbezogen",
 "unit": null,
 "u": "",
-"q": 4202
+"q": 4407
 },
 {
 "word": "sich einbringen",
@@ -2151,7 +3782,7 @@
 "pp": "bringt ein, brachte ein, hat eingebracht",
 "unit": null,
 "u": "",
-"q": 4203
+"q": 4408
 },
 {
 "word": "die Einbuße",
@@ -2166,7 +3797,7 @@
 "pl": "Einbußen",
 "unit": null,
 "u": "",
-"q": 4204
+"q": 4409
 },
 {
 "word": "eindringlich",
@@ -2179,7 +3810,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4205
+"q": 4410
 },
 {
 "word": "eindrucksvoll",
@@ -2192,7 +3823,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4206
+"q": 4411
 },
 {
 "word": "eindämmen",
@@ -2205,7 +3836,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4207
+"q": 4412
 },
 {
 "word": "einerseits … andererseits",
@@ -2218,7 +3849,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4208
+"q": 4413
 },
 {
 "word": "einfühlsam",
@@ -2231,7 +3862,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4209
+"q": 4414
 },
 {
 "word": "eingehen auf",
@@ -2244,7 +3875,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4210
+"q": 4415
 },
 {
 "word": "eingreifen",
@@ -2258,7 +3889,7 @@
 "pp": "greift ein, griff ein, hat eingegriffen",
 "unit": null,
 "u": "",
-"q": 4211
+"q": 4416
 },
 {
 "word": "der Eingriff",
@@ -2273,21 +3904,7 @@
 "pl": "Eingriffe",
 "unit": null,
 "u": "",
-"q": 4212
-},
-{
-"word": "einhalten",
-"m": {
-"es": "cumplir, respetar · hält ein, hielt ein, hat eingehalten",
-"en": "to comply with · hält ein, hielt ein, hat eingehalten"
-},
-"pos": "verb",
-"w": "einhalten",
-"p": "",
-"pp": "hält ein, hielt ein, hat eingehalten",
-"unit": null,
-"u": "",
-"q": 4213
+"q": 4417
 },
 {
 "word": "sich einlassen auf",
@@ -2300,20 +3917,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4214
-},
-{
-"word": "einräumen",
-"m": {
-"es": "conceder, admitir",
-"en": "to concede"
-},
-"pos": "verb",
-"w": "einräumen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4215
+"q": 4418
 },
 {
 "word": "einschlägig",
@@ -2326,7 +3930,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4216
+"q": 4419
 },
 {
 "word": "einschränken",
@@ -2339,7 +3943,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4217
+"q": 4420
 },
 {
 "word": "einseitig",
@@ -2352,7 +3956,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4218
+"q": 4421
 },
 {
 "word": "die Einsicht",
@@ -2367,20 +3971,7 @@
 "pl": "Einsichten",
 "unit": null,
 "u": "",
-"q": 4219
-},
-{
-"word": "einwenden",
-"m": {
-"es": "objetar",
-"en": "to object"
-},
-"pos": "verb",
-"w": "einwenden",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4220
+"q": 4422
 },
 {
 "word": "das Elektroauto",
@@ -2395,7 +3986,7 @@
 "pl": "Elektroautos",
 "unit": null,
 "u": "",
-"q": 4221
+"q": 4423
 },
 {
 "word": "der Emissionshandel",
@@ -2409,7 +4000,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4222
+"q": 4424
 },
 {
 "word": "empfindlich",
@@ -2422,7 +4013,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4223
+"q": 4425
 },
 {
 "word": "empört",
@@ -2435,7 +4026,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4224
+"q": 4426
 },
 {
 "word": "die Energiewende",
@@ -2449,7 +4040,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4225
+"q": 4427
 },
 {
 "word": "der Engpass",
@@ -2464,7 +4055,7 @@
 "pl": "Engpässe",
 "unit": null,
 "u": "",
-"q": 4226
+"q": 4428
 },
 {
 "word": "sich entfalten",
@@ -2477,7 +4068,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4227
+"q": 4429
 },
 {
 "word": "entgegenwirken",
@@ -2490,7 +4081,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4228
+"q": 4430
 },
 {
 "word": "entkräften",
@@ -2503,7 +4094,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4229
+"q": 4431
 },
 {
 "word": "entlasten",
@@ -2516,7 +4107,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4230
+"q": 4432
 },
 {
 "word": "entschärfen",
@@ -2529,7 +4120,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4231
+"q": 4433
 },
 {
 "word": "die Epoche",
@@ -2544,7 +4135,7 @@
 "pl": "Epochen",
 "unit": null,
 "u": "",
-"q": 4232
+"q": 4434
 },
 {
 "word": "erachten",
@@ -2557,20 +4148,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4233
-},
-{
-"word": "erarbeiten",
-"m": {
-"es": "elaborar",
-"en": "to work out"
-},
-"pos": "verb",
-"w": "erarbeiten",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4234
+"q": 4435
 },
 {
 "word": "die Erderhitzung",
@@ -2584,7 +4162,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4235
+"q": 4436
 },
 {
 "word": "erfassen",
@@ -2597,7 +4175,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4236
+"q": 4437
 },
 {
 "word": "die Erinnerungskultur",
@@ -2611,35 +4189,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4237
-},
-{
-"word": "erleichtert",
-"m": {
-"es": "aliviado",
-"en": "relieved"
-},
-"pos": "",
-"w": "erleichtert",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4238
-},
-{
-"word": "die Ermittlung",
-"m": {
-"es": "la investigación · pl. die Ermittlungen",
-"en": "investigation · pl. die Ermittlungen"
-},
-"pos": "noun",
-"w": "die Ermittlung",
-"p": "",
-"g": "f",
-"pl": "Ermittlungen",
-"unit": null,
-"u": "",
-"q": 4239
+"q": 4438
 },
 {
 "word": "die Ernährungsweise",
@@ -2654,7 +4204,7 @@
 "pl": "Ernährungsweisen",
 "unit": null,
 "u": "",
-"q": 4240
+"q": 4439
 },
 {
 "word": "die Errungenschaft",
@@ -2669,7 +4219,7 @@
 "pl": "Errungenschaften",
 "unit": null,
 "u": "",
-"q": 4241
+"q": 4440
 },
 {
 "word": "erschließen",
@@ -2683,7 +4233,7 @@
 "pp": "erschließt, erschloss, hat erschlossen",
 "unit": null,
 "u": "",
-"q": 4242
+"q": 4441
 },
 {
 "word": "erschweren",
@@ -2696,7 +4246,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4243
+"q": 4442
 },
 {
 "word": "die Erschöpfung",
@@ -2710,7 +4260,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4244
+"q": 4443
 },
 {
 "word": "erweisen",
@@ -2724,7 +4274,7 @@
 "pp": "erweist, erwies, hat erwiesen",
 "unit": null,
 "u": "",
-"q": 4245
+"q": 4444
 },
 {
 "word": "sich erweisen als",
@@ -2737,7 +4287,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4246
+"q": 4445
 },
 {
 "word": "der Erzählstil",
@@ -2752,7 +4302,7 @@
 "pl": "Erzählstile",
 "unit": null,
 "u": "",
-"q": 4247
+"q": 4446
 },
 {
 "word": "erörtern",
@@ -2765,7 +4315,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4248
+"q": 4447
 },
 {
 "word": "die Erörterung",
@@ -2780,7 +4330,7 @@
 "pl": "Erörterungen",
 "unit": null,
 "u": "",
-"q": 4249
+"q": 4448
 },
 {
 "word": "sich erübrigen",
@@ -2793,7 +4343,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4250
+"q": 4449
 },
 {
 "word": "der Etat",
@@ -2808,7 +4358,7 @@
 "pl": "Etats",
 "unit": null,
 "u": "",
-"q": 4251
+"q": 4450
 },
 {
 "word": "die Ethikkommission",
@@ -2823,7 +4373,7 @@
 "pl": "Ethikkommissionen",
 "unit": null,
 "u": "",
-"q": 4252
+"q": 4451
 },
 {
 "word": "etwas auf den Punkt bringen",
@@ -2836,7 +4386,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4253
+"q": 4452
 },
 {
 "word": "etwas auf die lange Bank schieben",
@@ -2849,7 +4399,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4254
+"q": 4453
 },
 {
 "word": "etwas aus dem Ärmel schütteln",
@@ -2862,7 +4412,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4255
+"q": 4454
 },
 {
 "word": "etwas in die Wege leiten",
@@ -2875,7 +4425,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4256
+"q": 4455
 },
 {
 "word": "das Existenzminimum",
@@ -2889,7 +4439,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4257
+"q": 4456
 },
 {
 "word": "der Expressionismus",
@@ -2903,7 +4453,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4258
+"q": 4457
 },
 {
 "word": "der Fachbegriff",
@@ -2918,7 +4468,7 @@
 "pl": "Fachbegriffe",
 "unit": null,
 "u": "",
-"q": 4259
+"q": 4458
 },
 {
 "word": "die Fachsprache",
@@ -2933,7 +4483,7 @@
 "pl": "Fachsprachen",
 "unit": null,
 "u": "",
-"q": 4260
+"q": 4459
 },
 {
 "word": "fassungslos",
@@ -2946,7 +4496,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4261
+"q": 4460
 },
 {
 "word": "der Feinstaub",
@@ -2960,7 +4510,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4262
+"q": 4461
 },
 {
 "word": "sich festlegen",
@@ -2973,7 +4523,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4263
+"q": 4462
 },
 {
 "word": "der Feuilleton",
@@ -2988,7 +4538,7 @@
 "pl": "Feuilletons",
 "unit": null,
 "u": "",
-"q": 4264
+"q": 4463
 },
 {
 "word": "die Filterblase",
@@ -3003,7 +4553,7 @@
 "pl": "Filterblasen",
 "unit": null,
 "u": "",
-"q": 4265
+"q": 4464
 },
 {
 "word": "der Fleischkonsum",
@@ -3017,7 +4567,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4266
+"q": 4465
 },
 {
 "word": "die Folgeerscheinung",
@@ -3032,7 +4582,7 @@
 "pl": "Folgeerscheinungen",
 "unit": null,
 "u": "",
-"q": 4267
+"q": 4466
 },
 {
 "word": "die Forschungseinrichtung",
@@ -3047,7 +4597,7 @@
 "pl": "Forschungseinrichtungen",
 "unit": null,
 "u": "",
-"q": 4268
+"q": 4467
 },
 {
 "word": "fortan",
@@ -3060,22 +4610,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4269
-},
-{
-"word": "die Fraktion",
-"m": {
-"es": "el grupo parlamentario · pl. die Fraktionen",
-"en": "parliamentary group · pl. die Fraktionen"
-},
-"pos": "noun",
-"w": "die Fraktion",
-"p": "",
-"g": "f",
-"pl": "Fraktionen",
-"unit": null,
-"u": "",
-"q": 4270
+"q": 4468
 },
 {
 "word": "die Frauenquote",
@@ -3090,7 +4625,7 @@
 "pl": "Frauenquoten",
 "unit": null,
 "u": "",
-"q": 4271
+"q": 4469
 },
 {
 "word": "fundiert",
@@ -3103,7 +4638,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4272
+"q": 4470
 },
 {
 "word": "fungieren als",
@@ -3116,7 +4651,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4273
+"q": 4471
 },
 {
 "word": "die Fusion",
@@ -3131,7 +4666,7 @@
 "pl": "Fusionen",
 "unit": null,
 "u": "",
-"q": 4274
+"q": 4472
 },
 {
 "word": "sich fügen",
@@ -3144,7 +4679,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4275
+"q": 4473
 },
 {
 "word": "die Führungskraft",
@@ -3159,7 +4694,7 @@
 "pl": "Führungskräfte",
 "unit": null,
 "u": "",
-"q": 4276
+"q": 4474
 },
 {
 "word": "die Fürsorge",
@@ -3173,7 +4708,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4277
+"q": 4475
 },
 {
 "word": "die Gattung",
@@ -3188,7 +4723,7 @@
 "pl": "Gattungen",
 "unit": null,
 "u": "",
-"q": 4278
+"q": 4476
 },
 {
 "word": "die Geborgenheit",
@@ -3202,7 +4737,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4279
+"q": 4477
 },
 {
 "word": "gefährden",
@@ -3215,7 +4750,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4280
+"q": 4478
 },
 {
 "word": "die Gegebenheit",
@@ -3230,7 +4765,7 @@
 "pl": "Gegebenheiten",
 "unit": null,
 "u": "",
-"q": 4281
+"q": 4479
 },
 {
 "word": "Gehör finden",
@@ -3243,7 +4778,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4282
+"q": 4480
 },
 {
 "word": "geizig",
@@ -3256,21 +4791,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4283
-},
-{
-"word": "gelassen",
-"m": {
-"es": "tranquilo, sereno · gelässt, geließ, hat gelassen",
-"en": "calm · gelässt, geließ, hat gelassen"
-},
-"pos": "verb",
-"w": "gelassen",
-"p": "",
-"pp": "gelässt, geließ, hat gelassen",
-"unit": null,
-"u": "",
-"q": 4284
+"q": 4481
 },
 {
 "word": "geläufig",
@@ -3283,7 +4804,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4285
+"q": 4482
 },
 {
 "word": "die Genesung",
@@ -3297,7 +4818,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4286
+"q": 4483
 },
 {
 "word": "die Gentechnik",
@@ -3311,7 +4832,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4287
+"q": 4484
 },
 {
 "word": "die Gentrifizierung",
@@ -3325,7 +4846,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4288
+"q": 4485
 },
 {
 "word": "gerührt",
@@ -3338,7 +4859,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4289
+"q": 4486
 },
 {
 "word": "der Gesetzentwurf",
@@ -3353,7 +4874,7 @@
 "pl": "Gesetzentwürfe",
 "unit": null,
 "u": "",
-"q": 4290
+"q": 4487
 },
 {
 "word": "die Gesetzgebung",
@@ -3367,7 +4888,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4291
+"q": 4488
 },
 {
 "word": "gesetzt den Fall",
@@ -3380,7 +4901,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4292
+"q": 4489
 },
 {
 "word": "der Gesichtspunkt",
@@ -3395,7 +4916,7 @@
 "pl": "Gesichtspunkte",
 "unit": null,
 "u": "",
-"q": 4293
+"q": 4490
 },
 {
 "word": "die Gesinnung",
@@ -3410,7 +4931,7 @@
 "pl": "Gesinnungen",
 "unit": null,
 "u": "",
-"q": 4294
+"q": 4491
 },
 {
 "word": "die Gewaltenteilung",
@@ -3424,7 +4945,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4295
+"q": 4492
 },
 {
 "word": "gewiss",
@@ -3437,7 +4958,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4296
+"q": 4493
 },
 {
 "word": "gewissenhaft",
@@ -3450,7 +4971,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4297
+"q": 4494
 },
 {
 "word": "die Gewissenhaftigkeit",
@@ -3464,7 +4985,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4298
+"q": 4495
 },
 {
 "word": "gewissermaßen",
@@ -3477,20 +4998,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4299
-},
-{
-"word": "gewähren",
-"m": {
-"es": "conceder",
-"en": "to grant"
-},
-"pos": "verb",
-"w": "gewähren",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4300
+"q": 4496
 },
 {
 "word": "gewährleisten",
@@ -3503,21 +5011,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4301
-},
-{
-"word": "die Gewährleistung",
-"m": {
-"es": "la garantía",
-"en": "warranty"
-},
-"pos": "noun",
-"w": "die Gewährleistung",
-"p": "",
-"g": "f",
-"unit": null,
-"u": "",
-"q": 4302
+"q": 4497
 },
 {
 "word": "die Gleichgültigkeit",
@@ -3531,7 +5025,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4303
+"q": 4498
 },
 {
 "word": "die Gleichstellung",
@@ -3545,7 +5039,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4304
+"q": 4499
 },
 {
 "word": "gleichwohl",
@@ -3558,7 +5052,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4305
+"q": 4500
 },
 {
 "word": "die Gratwanderung",
@@ -3573,7 +5067,7 @@
 "pl": "Gratwanderungen",
 "unit": null,
 "u": "",
-"q": 4306
+"q": 4501
 },
 {
 "word": "gravierend",
@@ -3586,7 +5080,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4307
+"q": 4502
 },
 {
 "word": "der Groll",
@@ -3600,7 +5094,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4308
+"q": 4503
 },
 {
 "word": "großzügig",
@@ -3613,7 +5107,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4309
+"q": 4504
 },
 {
 "word": "das Grundeinkommen",
@@ -3627,7 +5121,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4310
+"q": 4505
 },
 {
 "word": "das Grundgesetz",
@@ -3641,7 +5135,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4311
+"q": 4506
 },
 {
 "word": "die Grundlagenforschung",
@@ -3655,7 +5149,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4312
+"q": 4507
 },
 {
 "word": "grundlegend",
@@ -3668,7 +5162,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4313
+"q": 4508
 },
 {
 "word": "die Grundsatzfrage",
@@ -3683,7 +5177,7 @@
 "pl": "Grundsatzfragen",
 "unit": null,
 "u": "",
-"q": 4314
+"q": 4509
 },
 {
 "word": "die Haft",
@@ -3697,7 +5191,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4315
+"q": 4510
 },
 {
 "word": "die Haftung",
@@ -3711,20 +5205,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4316
-},
-{
-"word": "halt",
-"m": {
-"es": "pues, simplemente",
-"en": "just, simply"
-},
-"pos": "",
-"w": "halt",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4317
+"q": 4511
 },
 {
 "word": "die Heilung",
@@ -3738,7 +5219,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4318
+"q": 4512
 },
 {
 "word": "hemmen",
@@ -3751,7 +5232,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4319
+"q": 4513
 },
 {
 "word": "die Herangehensweise",
@@ -3766,7 +5247,7 @@
 "pl": "Herangehensweisen",
 "unit": null,
 "u": "",
-"q": 4320
+"q": 4514
 },
 {
 "word": "heranziehen",
@@ -3780,7 +5261,7 @@
 "pp": "anzieht her, anzog her, hat heranzogen",
 "unit": null,
 "u": "",
-"q": 4321
+"q": 4515
 },
 {
 "word": "herausragend",
@@ -3793,7 +5274,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4322
+"q": 4516
 },
 {
 "word": "sich herausreden",
@@ -3806,7 +5287,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4323
+"q": 4517
 },
 {
 "word": "herausstellen",
@@ -3819,7 +5300,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4324
+"q": 4518
 },
 {
 "word": "sich herausstellen",
@@ -3832,7 +5313,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4325
+"q": 4519
 },
 {
 "word": "hilfsbereit",
@@ -3845,7 +5326,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4326
+"q": 4520
 },
 {
 "word": "die Hingabe",
@@ -3859,7 +5340,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4327
+"q": 4521
 },
 {
 "word": "hinreichend",
@@ -3872,7 +5353,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4328
+"q": 4522
 },
 {
 "word": "hinterfragen",
@@ -3885,7 +5366,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4329
+"q": 4523
 },
 {
 "word": "die Hinwendung",
@@ -3899,7 +5380,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4330
+"q": 4524
 },
 {
 "word": "der Hochmut",
@@ -3913,7 +5394,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4331
+"q": 4525
 },
 {
 "word": "die Häme",
@@ -3927,7 +5408,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4332
+"q": 4526
 },
 {
 "word": "ich verstehe nur Bahnhof",
@@ -3940,7 +5421,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4333
+"q": 4527
 },
 {
 "word": "der Ich-Erzähler",
@@ -3955,7 +5436,7 @@
 "pl": "Ich-Erzähler",
 "unit": null,
 "u": "",
-"q": 4334
+"q": 4528
 },
 {
 "word": "im Grunde",
@@ -3968,20 +5449,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4335
-},
-{
-"word": "im Hinblick auf",
-"m": {
-"es": "con vistas a",
-"en": "with regard to"
-},
-"pos": "",
-"w": "im Hinblick auf",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4336
+"q": 4529
 },
 {
 "word": "im Zuge",
@@ -3994,7 +5462,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4337
+"q": 4530
 },
 {
 "word": "im Zusammenhang mit",
@@ -4007,7 +5475,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4338
+"q": 4531
 },
 {
 "word": "in den Vordergrund rücken",
@@ -4020,7 +5488,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4339
+"q": 4532
 },
 {
 "word": "in der Regel",
@@ -4033,7 +5501,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4340
+"q": 4533
 },
 {
 "word": "in erster Linie",
@@ -4046,20 +5514,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4341
-},
-{
-"word": "in Erwägung ziehen",
-"m": {
-"es": "considerar",
-"en": "to consider"
-},
-"pos": "",
-"w": "in Erwägung ziehen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4342
+"q": 4534
 },
 {
 "word": "die Inklusion",
@@ -4073,7 +5528,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4343
+"q": 4535
 },
 {
 "word": "inmitten",
@@ -4086,7 +5541,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4344
+"q": 4536
 },
 {
 "word": "innehaben",
@@ -4099,20 +5554,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4345
-},
-{
-"word": "ins Fettnäpfchen treten",
-"m": {
-"es": "meter la pata",
-"en": "to put one's foot in it"
-},
-"pos": "",
-"w": "ins Fettnäpfchen treten",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4346
+"q": 4537
 },
 {
 "word": "ins Gewicht fallen",
@@ -4125,7 +5567,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4347
+"q": 4538
 },
 {
 "word": "insofern als",
@@ -4138,7 +5580,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4348
+"q": 4539
 },
 {
 "word": "die Insolvenz",
@@ -4153,7 +5595,7 @@
 "pl": "Insolvenzen",
 "unit": null,
 "u": "",
-"q": 4349
+"q": 4540
 },
 {
 "word": "die Inszenierung",
@@ -4168,7 +5610,7 @@
 "pl": "Inszenierungen",
 "unit": null,
 "u": "",
-"q": 4350
+"q": 4541
 },
 {
 "word": "inwiefern",
@@ -4181,7 +5623,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4351
+"q": 4542
 },
 {
 "word": "inwieweit",
@@ -4194,7 +5636,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4352
+"q": 4543
 },
 {
 "word": "die Ironie",
@@ -4208,7 +5650,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4353
+"q": 4544
 },
 {
 "word": "irreführend",
@@ -4221,7 +5663,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4354
+"q": 4545
 },
 {
 "word": "das ist nicht mein Bier",
@@ -4235,7 +5677,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4355
+"q": 4546
 },
 {
 "word": "jemandem auf die Nerven gehen",
@@ -4248,7 +5690,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4356
+"q": 4547
 },
 {
 "word": "jenseits",
@@ -4261,7 +5703,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4357
+"q": 4548
 },
 {
 "word": "die Kehrseite",
@@ -4276,7 +5718,7 @@
 "pl": "Kehrseiten",
 "unit": null,
 "u": "",
-"q": 4358
+"q": 4549
 },
 {
 "word": "die Kennzahl",
@@ -4291,7 +5733,7 @@
 "pl": "Kennzahlen",
 "unit": null,
 "u": "",
-"q": 4359
+"q": 4550
 },
 {
 "word": "die Klausel",
@@ -4306,7 +5748,7 @@
 "pl": "Klauseln",
 "unit": null,
 "u": "",
-"q": 4360
+"q": 4551
 },
 {
 "word": "die Klimaneutralität",
@@ -4320,7 +5762,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4361
+"q": 4552
 },
 {
 "word": "der Klimaschutz",
@@ -4334,7 +5776,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4362
+"q": 4553
 },
 {
 "word": "die Kluft",
@@ -4349,7 +5791,7 @@
 "pl": "Klüfte",
 "unit": null,
 "u": "",
-"q": 4363
+"q": 4554
 },
 {
 "word": "das Know-how",
@@ -4363,7 +5805,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4364
+"q": 4555
 },
 {
 "word": "der Kohleausstieg",
@@ -4377,7 +5819,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4365
+"q": 4556
 },
 {
 "word": "das Kompositum",
@@ -4392,7 +5834,7 @@
 "pl": "Komposita",
 "unit": null,
 "u": "",
-"q": 4366
+"q": 4557
 },
 {
 "word": "konfrontieren",
@@ -4405,7 +5847,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4367
+"q": 4558
 },
 {
 "word": "die Konjunktur",
@@ -4419,7 +5861,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4368
+"q": 4559
 },
 {
 "word": "der Konkurs",
@@ -4434,7 +5876,7 @@
 "pl": "Konkurse",
 "unit": null,
 "u": "",
-"q": 4369
+"q": 4560
 },
 {
 "word": "kontrovers",
@@ -4447,7 +5889,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4370
+"q": 4561
 },
 {
 "word": "die Korruption",
@@ -4461,7 +5903,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4371
+"q": 4562
 },
 {
 "word": "kraft",
@@ -4474,7 +5916,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4372
+"q": 4563
 },
 {
 "word": "die Kriminalität",
@@ -4488,7 +5930,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4373
+"q": 4564
 },
 {
 "word": "das Kriterium",
@@ -4503,7 +5945,7 @@
 "pl": "Kriterien",
 "unit": null,
 "u": "",
-"q": 4374
+"q": 4565
 },
 {
 "word": "die Kritikfähigkeit",
@@ -4517,7 +5959,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4375
+"q": 4566
 },
 {
 "word": "die Ladestation",
@@ -4532,7 +5974,7 @@
 "pl": "Ladestationen",
 "unit": null,
 "u": "",
-"q": 4376
+"q": 4567
 },
 {
 "word": "die Landflucht",
@@ -4546,7 +5988,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4377
+"q": 4568
 },
 {
 "word": "langwierig",
@@ -4559,7 +6001,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4378
+"q": 4569
 },
 {
 "word": "launisch",
@@ -4572,7 +6014,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4379
+"q": 4570
 },
 {
 "word": "die Lebensmittelverschwendung",
@@ -4586,7 +6028,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4380
+"q": 4571
 },
 {
 "word": "die Legislaturperiode",
@@ -4601,7 +6043,7 @@
 "pl": "Legislaturperioden",
 "unit": null,
 "u": "",
-"q": 4381
+"q": 4572
 },
 {
 "word": "das Leiden",
@@ -4616,7 +6058,7 @@
 "pl": "Leiden",
 "unit": null,
 "u": "",
-"q": 4382
+"q": 4573
 },
 {
 "word": "die Leitkultur",
@@ -4630,7 +6072,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4383
+"q": 4574
 },
 {
 "word": "das Leitmotiv",
@@ -4645,7 +6087,7 @@
 "pl": "Leitmotive",
 "unit": null,
 "u": "",
-"q": 4384
+"q": 4575
 },
 {
 "word": "letzten Endes",
@@ -4658,7 +6100,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4385
+"q": 4576
 },
 {
 "word": "der Lobbyismus",
@@ -4672,7 +6114,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4386
+"q": 4577
 },
 {
 "word": "die Lärmbelästigung",
@@ -4686,7 +6128,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4387
+"q": 4578
 },
 {
 "word": "mangelhaft",
@@ -4699,7 +6141,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4388
+"q": 4579
 },
 {
 "word": "mangels",
@@ -4712,7 +6154,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4389
+"q": 4580
 },
 {
 "word": "die Markteinführung",
@@ -4726,7 +6168,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4390
+"q": 4581
 },
 {
 "word": "die Massentierhaltung",
@@ -4740,7 +6182,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4391
+"q": 4582
 },
 {
 "word": "die Maxime",
@@ -4755,7 +6197,7 @@
 "pl": "Maximen",
 "unit": null,
 "u": "",
-"q": 4392
+"q": 4583
 },
 {
 "word": "maßgebend",
@@ -4768,7 +6210,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4393
+"q": 4584
 },
 {
 "word": "die Medienkompetenz",
@@ -4782,7 +6224,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4394
+"q": 4585
 },
 {
 "word": "mehrdeutig",
@@ -4795,7 +6237,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4395
+"q": 4586
 },
 {
 "word": "der Meilenstein",
@@ -4810,7 +6252,7 @@
 "pl": "Meilensteine",
 "unit": null,
 "u": "",
-"q": 4396
+"q": 4587
 },
 {
 "word": "die Meinungsfreiheit",
@@ -4824,7 +6266,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4397
+"q": 4588
 },
 {
 "word": "die Meinungsmache",
@@ -4838,7 +6280,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4398
+"q": 4589
 },
 {
 "word": "die Menschenwürde",
@@ -4852,7 +6294,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4399
+"q": 4590
 },
 {
 "word": "die Metapher",
@@ -4867,7 +6309,7 @@
 "pl": "Metaphern",
 "unit": null,
 "u": "",
-"q": 4400
+"q": 4591
 },
 {
 "word": "die Mietpreisbremse",
@@ -4881,7 +6323,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4401
+"q": 4592
 },
 {
 "word": "der Mietspiegel",
@@ -4896,7 +6338,7 @@
 "pl": "Mietspiegel",
 "unit": null,
 "u": "",
-"q": 4402
+"q": 4593
 },
 {
 "word": "mindern",
@@ -4909,20 +6351,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4403
-},
-{
-"word": "missbilligen",
-"m": {
-"es": "desaprobar",
-"en": "to disapprove of"
-},
-"pos": "verb",
-"w": "missbilligen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4404
+"q": 4594
 },
 {
 "word": "der Missstand",
@@ -4937,22 +6366,7 @@
 "pl": "Missstände",
 "unit": null,
 "u": "",
-"q": 4405
-},
-{
-"word": "das Missverhältnis",
-"m": {
-"es": "la desproporción · pl. die Missverhältnisse",
-"en": "disproportion · pl. die Missverhältnisse"
-},
-"pos": "noun",
-"w": "das Missverhältnis",
-"p": "",
-"g": "n",
-"pl": "Missverhältnisse",
-"unit": null,
-"u": "",
-"q": 4406
+"q": 4595
 },
 {
 "word": "die Mitbestimmung",
@@ -4966,7 +6380,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4407
+"q": 4596
 },
 {
 "word": "mithin",
@@ -4979,7 +6393,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4408
+"q": 4597
 },
 {
 "word": "mobilisieren",
@@ -4992,7 +6406,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4409
+"q": 4598
 },
 {
 "word": "die Mundart",
@@ -5007,7 +6421,7 @@
 "pl": "Mundarten",
 "unit": null,
 "u": "",
-"q": 4410
+"q": 4599
 },
 {
 "word": "die Mündigkeit",
@@ -5021,7 +6435,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4411
+"q": 4600
 },
 {
 "word": "na also",
@@ -5034,7 +6448,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4412
+"q": 4601
 },
 {
 "word": "nachahmen",
@@ -5047,7 +6461,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4413
+"q": 4602
 },
 {
 "word": "nachdrücklich",
@@ -5060,7 +6474,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4414
+"q": 4603
 },
 {
 "word": "nachgehen",
@@ -5074,7 +6488,7 @@
 "pp": "geht nach, ging nach, ist nachgegangen",
 "unit": null,
 "u": "",
-"q": 4415
+"q": 4604
 },
 {
 "word": "die Nachhaltigkeit",
@@ -5088,7 +6502,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4416
+"q": 4605
 },
 {
 "word": "die Nachkriegszeit",
@@ -5102,7 +6516,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4417
+"q": 4606
 },
 {
 "word": "nachtragend",
@@ -5115,7 +6529,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4418
+"q": 4607
 },
 {
 "word": "die Nachvollziehbarkeit",
@@ -5129,20 +6543,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4419
-},
-{
-"word": "nachweislich",
-"m": {
-"es": "demostrable",
-"en": "demonstrably"
-},
-"pos": "",
-"w": "nachweislich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4420
+"q": 4608
 },
 {
 "word": "naheliegend",
@@ -5155,7 +6556,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4421
+"q": 4609
 },
 {
 "word": "nahezu",
@@ -5168,7 +6569,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4422
+"q": 4610
 },
 {
 "word": "der Nahverkehr",
@@ -5182,7 +6583,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4423
+"q": 4611
 },
 {
 "word": "die Narkose",
@@ -5197,21 +6598,7 @@
 "pl": "Narkosen",
 "unit": null,
 "u": "",
-"q": 4424
-},
-{
-"word": "die Nase voll haben",
-"m": {
-"es": "estar harto",
-"en": "to be fed up"
-},
-"pos": "noun",
-"w": "die Nase voll haben",
-"p": "",
-"g": "f",
-"unit": null,
-"u": "",
-"q": 4425
+"q": 4612
 },
 {
 "word": "nicht zuletzt",
@@ -5224,7 +6611,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4426
+"q": 4613
 },
 {
 "word": "nichtsdestotrotz",
@@ -5237,7 +6624,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4427
+"q": 4614
 },
 {
 "word": "sich niederschlagen in",
@@ -5250,22 +6637,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4428
-},
-{
-"word": "die Novelle",
-"m": {
-"es": "la enmienda; la novela corta · pl. die Novellen",
-"en": "amendment; novella · pl. die Novellen"
-},
-"pos": "noun",
-"w": "die Novelle",
-"p": "",
-"g": "f",
-"pl": "Novellen",
-"unit": null,
-"u": "",
-"q": 4429
+"q": 4615
 },
 {
 "word": "der Nährboden",
@@ -5280,7 +6652,7 @@
 "pl": "Nährböden",
 "unit": null,
 "u": "",
-"q": 4430
+"q": 4616
 },
 {
 "word": "der Obdachlose",
@@ -5295,7 +6667,7 @@
 "pl": "Obdachlosen",
 "unit": null,
 "u": "",
-"q": 4431
+"q": 4617
 },
 {
 "word": "die Obdachlosigkeit",
@@ -5309,7 +6681,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4432
+"q": 4618
 },
 {
 "word": "obgleich",
@@ -5322,7 +6694,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4433
+"q": 4619
 },
 {
 "word": "ohnedies",
@@ -5335,7 +6707,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4434
+"q": 4620
 },
 {
 "word": "die Organspende",
@@ -5350,7 +6722,7 @@
 "pl": "Organspenden",
 "unit": null,
 "u": "",
-"q": 4435
+"q": 4621
 },
 {
 "word": "die Parodie",
@@ -5365,7 +6737,7 @@
 "pl": "Parodien",
 "unit": null,
 "u": "",
-"q": 4436
+"q": 4622
 },
 {
 "word": "der Pendler",
@@ -5380,7 +6752,7 @@
 "pl": "Pendler",
 "unit": null,
 "u": "",
-"q": 4437
+"q": 4623
 },
 {
 "word": "die Pendlerin",
@@ -5395,7 +6767,7 @@
 "pl": "Pendlerinnen",
 "unit": null,
 "u": "",
-"q": 4438
+"q": 4624
 },
 {
 "word": "die Personalabteilung",
@@ -5410,7 +6782,7 @@
 "pl": "Personalabteilungen",
 "unit": null,
 "u": "",
-"q": 4439
+"q": 4625
 },
 {
 "word": "das Pestizid",
@@ -5425,7 +6797,7 @@
 "pl": "Pestizide",
 "unit": null,
 "u": "",
-"q": 4440
+"q": 4626
 },
 {
 "word": "der Pflanzenschutz",
@@ -5439,7 +6811,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4441
+"q": 4627
 },
 {
 "word": "die Pflegebedürftigkeit",
@@ -5453,20 +6825,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4442
-},
-{
-"word": "plausibel",
-"m": {
-"es": "plausible",
-"en": "plausible"
-},
-"pos": "",
-"w": "plausibel",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4443
+"q": 4628
 },
 {
 "word": "plädieren für",
@@ -5479,7 +6838,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4444
+"q": 4629
 },
 {
 "word": "die Polarisierung",
@@ -5493,7 +6852,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4445
+"q": 4630
 },
 {
 "word": "der Populismus",
@@ -5507,7 +6866,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4446
+"q": 4631
 },
 {
 "word": "prekär",
@@ -5520,7 +6879,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4447
+"q": 4632
 },
 {
 "word": "die Privatsphäre",
@@ -5534,7 +6893,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4448
+"q": 4633
 },
 {
 "word": "provozieren",
@@ -5547,7 +6906,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4449
+"q": 4634
 },
 {
 "word": "prägnant",
@@ -5560,7 +6919,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4450
+"q": 4635
 },
 {
 "word": "die Prägung",
@@ -5575,7 +6934,7 @@
 "pl": "Prägungen",
 "unit": null,
 "u": "",
-"q": 4451
+"q": 4636
 },
 {
 "word": "die Prämisse",
@@ -5590,7 +6949,7 @@
 "pl": "Prämissen",
 "unit": null,
 "u": "",
-"q": 4452
+"q": 4637
 },
 {
 "word": "die Prävention",
@@ -5604,7 +6963,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4453
+"q": 4638
 },
 {
 "word": "der Quereinsteiger",
@@ -5619,7 +6978,7 @@
 "pl": "Quereinsteiger",
 "unit": null,
 "u": "",
-"q": 4454
+"q": 4639
 },
 {
 "word": "die Rahmenbedingungen",
@@ -5633,7 +6992,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 4455
+"q": 4640
 },
 {
 "word": "die Raumfahrt",
@@ -5647,7 +7006,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4456
+"q": 4641
 },
 {
 "word": "rechtfertigen",
@@ -5660,7 +7019,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4457
+"q": 4642
 },
 {
 "word": "der Rechtsanwalt",
@@ -5675,7 +7034,7 @@
 "pl": "Rechtsanwälte",
 "unit": null,
 "u": "",
-"q": 4458
+"q": 4643
 },
 {
 "word": "die Rechtsanwältin",
@@ -5690,7 +7049,7 @@
 "pl": "Rechtsanwältinnen",
 "unit": null,
 "u": "",
-"q": 4459
+"q": 4644
 },
 {
 "word": "der Rechtsextremismus",
@@ -5704,7 +7063,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4460
+"q": 4645
 },
 {
 "word": "der Rechtsstaat",
@@ -5719,22 +7078,7 @@
 "pl": "Rechtsstaaten",
 "unit": null,
 "u": "",
-"q": 4461
-},
-{
-"word": "die Redewendung",
-"m": {
-"es": "la expresión idiomática · pl. die Redewendungen",
-"en": "idiom · pl. die Redewendungen"
-},
-"pos": "noun",
-"w": "die Redewendung",
-"p": "",
-"g": "f",
-"pl": "Redewendungen",
-"unit": null,
-"u": "",
-"q": 4462
+"q": 4646
 },
 {
 "word": "redselig",
@@ -5747,7 +7091,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4463
+"q": 4647
 },
 {
 "word": "das Register",
@@ -5762,7 +7106,7 @@
 "pl": "Register",
 "unit": null,
 "u": "",
-"q": 4464
+"q": 4648
 },
 {
 "word": "relativieren",
@@ -5775,7 +7119,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4465
+"q": 4649
 },
 {
 "word": "die Rendite",
@@ -5790,7 +7134,7 @@
 "pl": "Renditen",
 "unit": null,
 "u": "",
-"q": 4466
+"q": 4650
 },
 {
 "word": "resigniert",
@@ -5803,7 +7147,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4467
+"q": 4651
 },
 {
 "word": "die Resilienz",
@@ -5817,7 +7161,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4468
+"q": 4652
 },
 {
 "word": "die Resozialisierung",
@@ -5831,7 +7175,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4469
+"q": 4653
 },
 {
 "word": "die Ressourcenschonung",
@@ -5845,7 +7189,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4470
+"q": 4654
 },
 {
 "word": "resultieren",
@@ -5858,7 +7202,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4471
+"q": 4655
 },
 {
 "word": "die Rezension",
@@ -5873,7 +7217,7 @@
 "pl": "Rezensionen",
 "unit": null,
 "u": "",
-"q": 4472
+"q": 4656
 },
 {
 "word": "die Rezession",
@@ -5888,7 +7232,7 @@
 "pl": "Rezessionen",
 "unit": null,
 "u": "",
-"q": 4473
+"q": 4657
 },
 {
 "word": "die Romantik",
@@ -5902,7 +7246,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4474
+"q": 4658
 },
 {
 "word": "die Rückblende",
@@ -5917,7 +7261,7 @@
 "pl": "Rückblenden",
 "unit": null,
 "u": "",
-"q": 4475
+"q": 4659
 },
 {
 "word": "der Rückschlag",
@@ -5932,22 +7276,7 @@
 "pl": "Rückschläge",
 "unit": null,
 "u": "",
-"q": 4476
-},
-{
-"word": "der Rückschluss",
-"m": {
-"es": "la conclusión · pl. die Rückschlüsse",
-"en": "inference · pl. die Rückschlüsse"
-},
-"pos": "noun",
-"w": "der Rückschluss",
-"p": "",
-"g": "m",
-"pl": "Rückschlüsse",
-"unit": null,
-"u": "",
-"q": 4477
+"q": 4660
 },
 {
 "word": "der Sachverhalt",
@@ -5962,7 +7291,7 @@
 "pl": "Sachverhalte",
 "unit": null,
 "u": "",
-"q": 4478
+"q": 4661
 },
 {
 "word": "saisonal",
@@ -5975,20 +7304,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4479
-},
-{
-"word": "sanieren",
-"m": {
-"es": "sanear, rehabilitar",
-"en": "to renovate, to restructure"
-},
-"pos": "verb",
-"w": "sanieren",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4480
+"q": 4662
 },
 {
 "word": "die Satire",
@@ -6003,7 +7319,7 @@
 "pl": "Satiren",
 "unit": null,
 "u": "",
-"q": 4481
+"q": 4663
 },
 {
 "word": "die Schadenfreude",
@@ -6017,7 +7333,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4482
+"q": 4664
 },
 {
 "word": "der Schadensersatz",
@@ -6031,7 +7347,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4483
+"q": 4665
 },
 {
 "word": "schlagfertig",
@@ -6044,7 +7360,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4484
+"q": 4666
 },
 {
 "word": "schlechterdings",
@@ -6057,7 +7373,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4485
+"q": 4667
 },
 {
 "word": "schlechthin",
@@ -6070,7 +7386,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4486
+"q": 4668
 },
 {
 "word": "schließlich und endlich",
@@ -6083,35 +7399,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4487
-},
-{
-"word": "schlussfolgern",
-"m": {
-"es": "concluir",
-"en": "to conclude"
-},
-"pos": "verb",
-"w": "schlussfolgern",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4488
-},
-{
-"word": "die Schlussfolgerung",
-"m": {
-"es": "la conclusión · pl. die Schlussfolgerungen",
-"en": "conclusion · pl. die Schlussfolgerungen"
-},
-"pos": "noun",
-"w": "die Schlussfolgerung",
-"p": "",
-"g": "f",
-"pl": "Schlussfolgerungen",
-"unit": null,
-"u": "",
-"q": 4489
+"q": 4669
 },
 {
 "word": "schlüssig",
@@ -6124,7 +7412,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4490
+"q": 4670
 },
 {
 "word": "schmälern",
@@ -6137,7 +7425,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4491
+"q": 4671
 },
 {
 "word": "schrittweise",
@@ -6150,20 +7438,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4492
-},
-{
-"word": "Schwein haben",
-"m": {
-"es": "tener suerte",
-"en": "to be lucky"
-},
-"pos": "",
-"w": "Schwein haben",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4493
+"q": 4672
 },
 {
 "word": "die Selbstbestimmung",
@@ -6177,7 +7452,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4494
+"q": 4673
 },
 {
 "word": "die Selbstständigkeit",
@@ -6191,7 +7466,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4495
+"q": 4674
 },
 {
 "word": "sinngemäß",
@@ -6204,7 +7479,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4496
+"q": 4675
 },
 {
 "word": "skeptisch",
@@ -6217,7 +7492,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4497
+"q": 4676
 },
 {
 "word": "souverän",
@@ -6230,7 +7505,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4498
+"q": 4677
 },
 {
 "word": "die Sozialhilfe",
@@ -6244,7 +7519,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4499
+"q": 4678
 },
 {
 "word": "sozusagen",
@@ -6257,7 +7532,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4500
+"q": 4679
 },
 {
 "word": "das Spannungsfeld",
@@ -6272,7 +7547,7 @@
 "pl": "Spannungsfelder",
 "unit": null,
 "u": "",
-"q": 4501
+"q": 4680
 },
 {
 "word": "spekulieren",
@@ -6285,22 +7560,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4502
-},
-{
-"word": "das Sprichwort",
-"m": {
-"es": "el refrán · pl. die Sprichwörter",
-"en": "proverb · pl. die Sprichwörter"
-},
-"pos": "noun",
-"w": "das Sprichwort",
-"p": "",
-"g": "n",
-"pl": "Sprichwörter",
-"unit": null,
-"u": "",
-"q": 4503
+"q": 4681
 },
 {
 "word": "stagnieren",
@@ -6313,7 +7573,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4504
+"q": 4682
 },
 {
 "word": "die Standardsprache",
@@ -6327,7 +7587,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4505
+"q": 4683
 },
 {
 "word": "standhalten",
@@ -6340,7 +7600,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4506
+"q": 4684
 },
 {
 "word": "das Start-up",
@@ -6355,7 +7615,7 @@
 "pl": "Start-ups",
 "unit": null,
 "u": "",
-"q": 4507
+"q": 4685
 },
 {
 "word": "der Stellenabbau",
@@ -6369,7 +7629,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4508
+"q": 4686
 },
 {
 "word": "stellenweise",
@@ -6382,7 +7642,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4509
+"q": 4687
 },
 {
 "word": "der Stellenwert",
@@ -6396,7 +7656,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4510
+"q": 4688
 },
 {
 "word": "die Sterbehilfe",
@@ -6410,20 +7670,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4511
-},
-{
-"word": "stichhaltig",
-"m": {
-"es": "sólido",
-"en": "sound, valid"
-},
-"pos": "",
-"w": "stichhaltig",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4512
+"q": 4689
 },
 {
 "word": "die Stichhaltigkeit",
@@ -6437,7 +7684,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4513
+"q": 4690
 },
 {
 "word": "taktlos",
@@ -6450,7 +7697,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4514
+"q": 4691
 },
 {
 "word": "taktvoll",
@@ -6463,7 +7710,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4515
+"q": 4692
 },
 {
 "word": "die Tarifverhandlung",
@@ -6478,7 +7725,7 @@
 "pl": "Tarifverhandlungen",
 "unit": null,
 "u": "",
-"q": 4516
+"q": 4693
 },
 {
 "word": "tarnen",
@@ -6491,7 +7738,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4517
+"q": 4694
 },
 {
 "word": "die Teamfähigkeit",
@@ -6505,7 +7752,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4518
+"q": 4695
 },
 {
 "word": "die Teilhabe",
@@ -6519,7 +7766,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4519
+"q": 4696
 },
 {
 "word": "das Tempolimit",
@@ -6534,7 +7781,7 @@
 "pl": "Tempolimits",
 "unit": null,
 "u": "",
-"q": 4520
+"q": 4697
 },
 {
 "word": "tendenziell",
@@ -6547,22 +7794,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4521
-},
-{
-"word": "die These",
-"m": {
-"es": "la tesis · pl. die Thesen",
-"en": "thesis · pl. die Thesen"
-},
-"pos": "noun",
-"w": "die These",
-"p": "",
-"g": "f",
-"pl": "Thesen",
-"unit": null,
-"u": "",
-"q": 4522
+"q": 4698
 },
 {
 "word": "tiefgreifend",
@@ -6575,20 +7807,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4523
-},
-{
-"word": "Tomaten auf den Augen haben",
-"m": {
-"es": "no ver lo evidente",
-"en": "to be blind to something"
-},
-"pos": "",
-"w": "Tomaten auf den Augen haben",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4524
+"q": 4699
 },
 {
 "word": "treffend",
@@ -6601,7 +7820,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4525
+"q": 4700
 },
 {
 "word": "der Trugschluss",
@@ -6616,20 +7835,7 @@
 "pl": "Trugschlüsse",
 "unit": null,
 "u": "",
-"q": 4526
-},
-{
-"word": "um den heißen Brei herumreden",
-"m": {
-"es": "andarse por las ramas",
-"en": "to beat about the bush"
-},
-"pos": "",
-"w": "um den heißen Brei herumreden",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4527
+"q": 4701
 },
 {
 "word": "die Umgangssprache",
@@ -6643,20 +7849,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4528
-},
-{
-"word": "umgehend",
-"m": {
-"es": "inmediatamente",
-"en": "immediately"
-},
-"pos": "",
-"w": "umgehend",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4529
+"q": 4702
 },
 {
 "word": "der Umkehrschluss",
@@ -6671,7 +7864,7 @@
 "pl": "Umkehrschlüsse",
 "unit": null,
 "u": "",
-"q": 4530
+"q": 4703
 },
 {
 "word": "die Umschreibung",
@@ -6686,7 +7879,7 @@
 "pl": "Umschreibungen",
 "unit": null,
 "u": "",
-"q": 4531
+"q": 4704
 },
 {
 "word": "unabdingbar",
@@ -6699,7 +7892,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4532
+"q": 4705
 },
 {
 "word": "unbeschadet",
@@ -6712,7 +7905,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4533
+"q": 4706
 },
 {
 "word": "unbestritten",
@@ -6725,7 +7918,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4534
+"q": 4707
 },
 {
 "word": "die Unbeständigkeit",
@@ -6739,7 +7932,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4535
+"q": 4708
 },
 {
 "word": "unentbehrlich",
@@ -6752,7 +7945,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4536
+"q": 4709
 },
 {
 "word": "unerlässlich",
@@ -6765,20 +7958,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4537
-},
-{
-"word": "ungeachtet",
-"m": {
-"es": "sin tener en cuenta",
-"en": "regardless of"
-},
-"pos": "",
-"w": "ungeachtet",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4538
+"q": 4710
 },
 {
 "word": "die Ungleichheit",
@@ -6793,7 +7973,7 @@
 "pl": "Ungleichheiten",
 "unit": null,
 "u": "",
-"q": 4539
+"q": 4711
 },
 {
 "word": "unter Umständen",
@@ -6806,7 +7986,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4540
+"q": 4712
 },
 {
 "word": "unterbinden",
@@ -6820,7 +8000,7 @@
 "pp": "bindet unter, band unter, hat untergebunden",
 "unit": null,
 "u": "",
-"q": 4541
+"q": 4713
 },
 {
 "word": "untergraben",
@@ -6834,7 +8014,7 @@
 "pp": "gräbt unter, grub unter, hat untergegraben",
 "unit": null,
 "u": "",
-"q": 4542
+"q": 4714
 },
 {
 "word": "unterliegen",
@@ -6848,7 +8028,7 @@
 "pp": "unterliegt, unterlag, hat unterlegen",
 "unit": null,
 "u": "",
-"q": 4543
+"q": 4715
 },
 {
 "word": "die Unternehmenskultur",
@@ -6862,20 +8042,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4544
-},
-{
-"word": "unterstellen",
-"m": {
-"es": "atribuir; suponer",
-"en": "to imply; to assume"
-},
-"pos": "verb",
-"w": "unterstellen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4545
+"q": 4716
 },
 {
 "word": "unumgänglich",
@@ -6888,7 +8055,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4546
+"q": 4717
 },
 {
 "word": "unverzüglich",
@@ -6901,7 +8068,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4547
+"q": 4718
 },
 {
 "word": "unweigerlich",
@@ -6914,7 +8081,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4548
+"q": 4719
 },
 {
 "word": "unzulänglich",
@@ -6927,7 +8094,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4549
+"q": 4720
 },
 {
 "word": "die Uraufführung",
@@ -6942,7 +8109,7 @@
 "pl": "Uraufführungen",
 "unit": null,
 "u": "",
-"q": 4550
+"q": 4721
 },
 {
 "word": "die Urbanisierung",
@@ -6956,7 +8123,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4551
+"q": 4722
 },
 {
 "word": "vage",
@@ -6969,7 +8136,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4552
+"q": 4723
 },
 {
 "word": "die Verabschiedung",
@@ -6983,7 +8150,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4553
+"q": 4724
 },
 {
 "word": "die Verallgemeinerung",
@@ -6998,7 +8165,7 @@
 "pl": "Verallgemeinerungen",
 "unit": null,
 "u": "",
-"q": 4554
+"q": 4725
 },
 {
 "word": "veranschaulichen",
@@ -7011,7 +8178,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4555
+"q": 4726
 },
 {
 "word": "das Verantwortungsbewusstsein",
@@ -7025,7 +8192,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4556
+"q": 4727
 },
 {
 "word": "verbindlich",
@@ -7038,7 +8205,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4557
+"q": 4728
 },
 {
 "word": "der Verbrennungsmotor",
@@ -7053,7 +8220,7 @@
 "pl": "Verbrennungsmotoren",
 "unit": null,
 "u": "",
-"q": 4558
+"q": 4729
 },
 {
 "word": "verdeutlichen",
@@ -7066,7 +8233,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4559
+"q": 4730
 },
 {
 "word": "verdrängen",
@@ -7079,7 +8246,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4560
+"q": 4731
 },
 {
 "word": "der Verdächtige",
@@ -7094,7 +8261,7 @@
 "pl": "Verdächtigen",
 "unit": null,
 "u": "",
-"q": 4561
+"q": 4732
 },
 {
 "word": "die Vereinbarkeit von Familie und Beruf",
@@ -7108,7 +8275,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4562
+"q": 4733
 },
 {
 "word": "vereinfachen",
@@ -7121,7 +8288,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4563
+"q": 4734
 },
 {
 "word": "die Vereinfachung",
@@ -7136,7 +8303,7 @@
 "pl": "Vereinfachungen",
 "unit": null,
 "u": "",
-"q": 4564
+"q": 4735
 },
 {
 "word": "verfassen",
@@ -7149,7 +8316,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4565
+"q": 4736
 },
 {
 "word": "die Vergangenheitsbewältigung",
@@ -7163,7 +8330,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4566
+"q": 4737
 },
 {
 "word": "vergegenwärtigen",
@@ -7176,7 +8343,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4567
+"q": 4738
 },
 {
 "word": "sich vergewissern",
@@ -7189,7 +8356,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4568
+"q": 4739
 },
 {
 "word": "verharmlosen",
@@ -7202,7 +8369,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4569
+"q": 4740
 },
 {
 "word": "verheerend",
@@ -7215,7 +8382,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4570
+"q": 4741
 },
 {
 "word": "verhängnisvoll",
@@ -7228,7 +8395,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4571
+"q": 4742
 },
 {
 "word": "die Verkehrswende",
@@ -7242,7 +8409,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4572
+"q": 4743
 },
 {
 "word": "verkraften",
@@ -7255,7 +8422,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4573
+"q": 4744
 },
 {
 "word": "verkörpern",
@@ -7268,7 +8435,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4574
+"q": 4745
 },
 {
 "word": "die Verlegenheit",
@@ -7282,7 +8449,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4575
+"q": 4746
 },
 {
 "word": "verleugnen",
@@ -7295,7 +8462,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4576
+"q": 4747
 },
 {
 "word": "vermarkten",
@@ -7308,7 +8475,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4577
+"q": 4748
 },
 {
 "word": "vernachlässigen",
@@ -7321,7 +8488,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4578
+"q": 4749
 },
 {
 "word": "die Vernetzung",
@@ -7335,7 +8502,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4579
+"q": 4750
 },
 {
 "word": "verschlossen",
@@ -7348,7 +8515,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4580
+"q": 4751
 },
 {
 "word": "die Verschwörungstheorie",
@@ -7363,7 +8530,7 @@
 "pl": "Verschwörungstheorien",
 "unit": null,
 "u": "",
-"q": 4581
+"q": 4752
 },
 {
 "word": "verschärfen",
@@ -7376,7 +8543,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4582
+"q": 4753
 },
 {
 "word": "sich verständigen",
@@ -7389,7 +8556,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4583
+"q": 4754
 },
 {
 "word": "der Vertrauensbruch",
@@ -7403,7 +8570,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4584
+"q": 4755
 },
 {
 "word": "verunsichert",
@@ -7416,7 +8583,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4585
+"q": 4756
 },
 {
 "word": "verwerfen",
@@ -7430,7 +8597,7 @@
 "pp": "verwirft, verwarf, hat verworfen",
 "unit": null,
 "u": "",
-"q": 4586
+"q": 4757
 },
 {
 "word": "verwirklichen",
@@ -7443,7 +8610,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4587
+"q": 4758
 },
 {
 "word": "verzerren",
@@ -7456,7 +8623,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4588
+"q": 4759
 },
 {
 "word": "vielschichtig",
@@ -7469,7 +8636,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4589
+"q": 4760
 },
 {
 "word": "die Volksabstimmung",
@@ -7484,7 +8651,7 @@
 "pl": "Volksabstimmungen",
 "unit": null,
 "u": "",
-"q": 4590
+"q": 4761
 },
 {
 "word": "die Vollmacht",
@@ -7499,7 +8666,7 @@
 "pl": "Vollmachten",
 "unit": null,
 "u": "",
-"q": 4591
+"q": 4762
 },
 {
 "word": "sich vollziehen",
@@ -7513,7 +8680,7 @@
 "pp": "vollzieht, vollzog, hat vollzogen",
 "unit": null,
 "u": "",
-"q": 4592
+"q": 4763
 },
 {
 "word": "von wegen",
@@ -7526,7 +8693,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4593
+"q": 4764
 },
 {
 "word": "vor diesem Hintergrund",
@@ -7539,7 +8706,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4594
+"q": 4765
 },
 {
 "word": "vorantreiben",
@@ -7553,20 +8720,7 @@
 "pp": "treibt voran, trieb voran, hat vorangetrieben",
 "unit": null,
 "u": "",
-"q": 4595
-},
-{
-"word": "vorausgesetzt",
-"m": {
-"es": "siempre que",
-"en": "provided"
-},
-"pos": "",
-"w": "vorausgesetzt",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4596
+"q": 4766
 },
 {
 "word": "die Voraussicht",
@@ -7580,7 +8734,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4597
+"q": 4767
 },
 {
 "word": "der Vorbehalt",
@@ -7595,7 +8749,7 @@
 "pl": "Vorbehalte",
 "unit": null,
 "u": "",
-"q": 4598
+"q": 4768
 },
 {
 "word": "die Vorgehensweise",
@@ -7610,7 +8764,7 @@
 "pl": "Vorgehensweisen",
 "unit": null,
 "u": "",
-"q": 4599
+"q": 4769
 },
 {
 "word": "vornehmlich",
@@ -7623,21 +8777,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4600
-},
-{
-"word": "vorwerfen",
-"m": {
-"es": "reprochar · wirft vor, warf vor, hat vorgeworfen",
-"en": "to reproach · wirft vor, warf vor, hat vorgeworfen"
-},
-"pos": "verb",
-"w": "vorwerfen",
-"p": "",
-"pp": "wirft vor, warf vor, hat vorgeworfen",
-"unit": null,
-"u": "",
-"q": 4601
+"q": 4770
 },
 {
 "word": "wahrnehmen",
@@ -7651,7 +8791,7 @@
 "pp": "nimmt wahr, nahm wahr, hat wahrgenommen",
 "unit": null,
 "u": "",
-"q": 4602
+"q": 4771
 },
 {
 "word": "die Wechselwirkung",
@@ -7666,7 +8806,7 @@
 "pl": "Wechselwirkungen",
 "unit": null,
 "u": "",
-"q": 4603
+"q": 4772
 },
 {
 "word": "die Wehmut",
@@ -7680,7 +8820,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4604
+"q": 4773
 },
 {
 "word": "die Weichen stellen",
@@ -7694,7 +8834,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4605
+"q": 4774
 },
 {
 "word": "die Weiterqualifizierung",
@@ -7708,7 +8848,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4606
+"q": 4775
 },
 {
 "word": "weitestgehend",
@@ -7721,7 +8861,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4607
+"q": 4776
 },
 {
 "word": "weitreichend",
@@ -7734,7 +8874,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4608
+"q": 4777
 },
 {
 "word": "die Wende",
@@ -7748,7 +8888,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4609
+"q": 4778
 },
 {
 "word": "der Wendepunkt",
@@ -7763,20 +8903,7 @@
 "pl": "Wendepunkte",
 "unit": null,
 "u": "",
-"q": 4610
-},
-{
-"word": "wenngleich",
-"m": {
-"es": "aunque",
-"en": "although"
-},
-"pos": "",
-"w": "wenngleich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4611
+"q": 4779
 },
 {
 "word": "die Wertschöpfung",
@@ -7790,7 +8917,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4612
+"q": 4780
 },
 {
 "word": "widerspiegeln",
@@ -7803,7 +8930,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4613
+"q": 4781
 },
 {
 "word": "widersprüchlich",
@@ -7816,7 +8943,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4614
+"q": 4782
 },
 {
 "word": "die Widersprüchlichkeit",
@@ -7830,7 +8957,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4615
+"q": 4783
 },
 {
 "word": "die Wiedervereinigung",
@@ -7844,7 +8971,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4616
+"q": 4784
 },
 {
 "word": "wiewohl",
@@ -7857,7 +8984,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4617
+"q": 4785
 },
 {
 "word": "wohlgemerkt",
@@ -7870,7 +8997,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4618
+"q": 4786
 },
 {
 "word": "die Wohnungsnot",
@@ -7884,7 +9011,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4619
+"q": 4787
 },
 {
 "word": "die Work-Life-Balance",
@@ -7898,7 +9025,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4620
+"q": 4788
 },
 {
 "word": "die Wortbildung",
@@ -7912,7 +9039,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4621
+"q": 4789
 },
 {
 "word": "die Wärmedämmung",
@@ -7926,7 +9053,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4622
+"q": 4790
 },
 {
 "word": "die Wärmepumpe",
@@ -7941,7 +9068,7 @@
 "pl": "Wärmepumpen",
 "unit": null,
 "u": "",
-"q": 4623
+"q": 4791
 },
 {
 "word": "die Würdigung",
@@ -7956,7 +9083,7 @@
 "pl": "Würdigungen",
 "unit": null,
 "u": "",
-"q": 4624
+"q": 4792
 },
 {
 "word": "die Zerrissenheit",
@@ -7970,7 +9097,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4625
+"q": 4793
 },
 {
 "word": "zielführend",
@@ -7983,7 +9110,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4626
+"q": 4794
 },
 {
 "word": "die Zielgruppe",
@@ -7998,7 +9125,7 @@
 "pl": "Zielgruppen",
 "unit": null,
 "u": "",
-"q": 4627
+"q": 4795
 },
 {
 "word": "der Zielkonflikt",
@@ -8013,7 +9140,7 @@
 "pl": "Zielkonflikte",
 "unit": null,
 "u": "",
-"q": 4628
+"q": 4796
 },
 {
 "word": "die Zielsetzung",
@@ -8028,7 +9155,7 @@
 "pl": "Zielsetzungen",
 "unit": null,
 "u": "",
-"q": 4629
+"q": 4797
 },
 {
 "word": "zielstrebig",
@@ -8041,7 +9168,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4630
+"q": 4798
 },
 {
 "word": "die Zivilcourage",
@@ -8055,7 +9182,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4631
+"q": 4799
 },
 {
 "word": "die Zivilgesellschaft",
@@ -8069,7 +9196,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4632
+"q": 4800
 },
 {
 "word": "zukunftsweisend",
@@ -8082,7 +9209,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4633
+"q": 4801
 },
 {
 "word": "zulasten",
@@ -8095,7 +9222,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4634
+"q": 4802
 },
 {
 "word": "zum einen … zum anderen",
@@ -8108,7 +9235,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4635
+"q": 4803
 },
 {
 "word": "die Zuneigung",
@@ -8122,33 +9249,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4636
-},
-{
-"word": "zur Debatte stehen",
-"m": {
-"es": "estar en discusión",
-"en": "to be under discussion"
-},
-"pos": "",
-"w": "zur Debatte stehen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4637
-},
-{
-"word": "zur Kenntnis nehmen",
-"m": {
-"es": "tomar nota",
-"en": "to take note"
-},
-"pos": "",
-"w": "zur Kenntnis nehmen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4638
+"q": 4804
 },
 {
 "word": "sich zurechtfinden",
@@ -8162,7 +9263,7 @@
 "pp": "findet zurecht, fand zurecht, hat zurechtgefunden",
 "unit": null,
 "u": "",
-"q": 4639
+"q": 4805
 },
 {
 "word": "zurückführen auf",
@@ -8175,7 +9276,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4640
+"q": 4806
 },
 {
 "word": "der Zusammenhalt",
@@ -8189,7 +9290,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4641
+"q": 4807
 },
 {
 "word": "zuschreiben",
@@ -8203,7 +9304,7 @@
 "pp": "schreibt zu, schrieb zu, hat zugeschrieben",
 "unit": null,
 "u": "",
-"q": 4642
+"q": 4808
 },
 {
 "word": "zuspitzen",
@@ -8216,7 +9317,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4643
+"q": 4809
 },
 {
 "word": "zusprechen",
@@ -8229,7 +9330,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4644
+"q": 4810
 },
 {
 "word": "zustande kommen",
@@ -8242,7 +9343,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4645
+"q": 4811
 },
 {
 "word": "die Zuständigkeit",
@@ -8257,7 +9358,7 @@
 "pl": "Zuständigkeiten",
 "unit": null,
 "u": "",
-"q": 4646
+"q": 4812
 },
 {
 "word": "zutreffend",
@@ -8270,7 +9371,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4647
+"q": 4813
 },
 {
 "word": "die Zuverlässigkeit",
@@ -8284,7 +9385,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4648
+"q": 4814
 },
 {
 "word": "zuversichtlich",
@@ -8297,7 +9398,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4649
+"q": 4815
 },
 {
 "word": "zuvörderst",
@@ -8310,7 +9411,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4650
+"q": 4816
 },
 {
 "word": "die Zuwanderung",
@@ -8324,7 +9425,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4651
+"q": 4817
 },
 {
 "word": "zuweilen",
@@ -8337,7 +9438,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4652
+"q": 4818
 },
 {
 "word": "zuzüglich",
@@ -8350,7 +9451,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4653
+"q": 4819
 },
 {
 "word": "zwangsläufig",
@@ -8363,20 +9464,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4654
-},
-{
-"word": "zwecks",
-"m": {
-"es": "con el fin de",
-"en": "for the purpose of"
-},
-"pos": "",
-"w": "zwecks",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4655
+"q": 4820
 },
 {
 "word": "zwei Fliegen mit einer Klappe schlagen",
@@ -8389,7 +9477,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4656
+"q": 4821
 },
 {
 "word": "der Zwiespalt",
@@ -8403,7 +9491,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4657
+"q": 4822
 },
 {
 "word": "zwiespältig",
@@ -8416,20 +9504,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4658
-},
-{
-"word": "zögern",
-"m": {
-"es": "vacilar",
-"en": "to hesitate"
-},
-"pos": "verb",
-"w": "zögern",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4659
+"q": 4823
 },
 {
 "word": "der Ökostrom",
@@ -8443,7 +9518,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4660
+"q": 4824
 },
 {
 "word": "die Überalterung",
@@ -8457,7 +9532,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4661
+"q": 4825
 },
 {
 "word": "überfordern",
@@ -8470,7 +9545,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4662
+"q": 4826
 },
 {
 "word": "die Überforderung",
@@ -8484,7 +9559,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4663
+"q": 4827
 },
 {
 "word": "überheblich",
@@ -8497,7 +9572,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4664
+"q": 4828
 },
 {
 "word": "die Überheblichkeit",
@@ -8511,7 +9586,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4665
+"q": 4829
 },
 {
 "word": "die Überlegung",
@@ -8526,7 +9601,7 @@
 "pl": "Überlegungen",
 "unit": null,
 "u": "",
-"q": 4666
+"q": 4830
 },
 {
 "word": "der Überschuss",
@@ -8541,7 +9616,7 @@
 "pl": "Überschüsse",
 "unit": null,
 "u": "",
-"q": 4667
+"q": 4831
 },
 {
 "word": "überwinden",
@@ -8555,7 +9630,7 @@
 "pp": "überwindet, überwand, hat überwunden",
 "unit": null,
 "u": "",
-"q": 4668
+"q": 4832
 },
 {
 "word": "überwältigend",
@@ -8568,6 +9643,6 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4669
+"q": 4833
 }
 ]

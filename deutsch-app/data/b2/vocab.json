@@ -1049,6 +1049,1727 @@
 "q": 3214
 },
 {
+"word": "vermutlich",
+"m": {
+"es": "probablemente",
+"en": "presumably"
+},
+"pos": "",
+"w": "vermutlich",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3215
+},
+{
+"word": "möglicherweise",
+"m": {
+"es": "posiblemente",
+"en": "possibly"
+},
+"pos": "",
+"w": "möglicherweise",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3216
+},
+{
+"word": "womöglich",
+"m": {
+"es": "posiblemente",
+"en": "possibly"
+},
+"pos": "",
+"w": "womöglich",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3217
+},
+{
+"word": "sicherlich",
+"m": {
+"es": "seguramente",
+"en": "certainly"
+},
+"pos": "",
+"w": "sicherlich",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3218
+},
+{
+"word": "zweifellos",
+"m": {
+"es": "sin duda",
+"en": "undoubtedly"
+},
+"pos": "",
+"w": "zweifellos",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3219
+},
+{
+"word": "anscheinend",
+"m": {
+"es": "al parecer",
+"en": "apparently"
+},
+"pos": "",
+"w": "anscheinend",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3220
+},
+{
+"word": "scheinbar",
+"m": {
+"es": "aparentemente",
+"en": "seemingly"
+},
+"pos": "",
+"w": "scheinbar",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3221
+},
+{
+"word": "die Vermutung",
+"m": {
+"es": "la suposición · pl. die Vermutungen",
+"en": "assumption, supposition · pl. die Vermutungen"
+},
+"pos": "noun",
+"w": "die Vermutung",
+"p": "",
+"g": "f",
+"pl": "Vermutungen",
+"unit": 7,
+"u": "b2-7",
+"q": 3222
+},
+{
+"word": "die Annahme",
+"m": {
+"es": "la suposición; la aceptación · pl. die Annahmen",
+"en": "assumption; acceptance · pl. die Annahmen"
+},
+"pos": "noun",
+"w": "die Annahme",
+"p": "",
+"g": "f",
+"pl": "Annahmen",
+"unit": 7,
+"u": "b2-7",
+"q": 3223
+},
+{
+"word": "das Gerücht",
+"m": {
+"es": "el rumor · pl. die Gerüchte",
+"en": "rumour · pl. die Gerüchte"
+},
+"pos": "noun",
+"w": "das Gerücht",
+"p": "",
+"g": "n",
+"pl": "Gerüchte",
+"unit": 7,
+"u": "b2-7",
+"q": 3224
+},
+{
+"word": "die Wahrscheinlichkeit",
+"m": {
+"es": "la probabilidad · pl. die Wahrscheinlichkeiten",
+"en": "probability · pl. die Wahrscheinlichkeiten"
+},
+"pos": "noun",
+"w": "die Wahrscheinlichkeit",
+"p": "",
+"g": "f",
+"pl": "Wahrscheinlichkeiten",
+"unit": 7,
+"u": "b2-7",
+"q": 3225
+},
+{
+"word": "unwahrscheinlich",
+"m": {
+"es": "improbable",
+"en": "unlikely"
+},
+"pos": "",
+"w": "unwahrscheinlich",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3226
+},
+{
+"word": "offensichtlich",
+"m": {
+"es": "evidente",
+"en": "obvious"
+},
+"pos": "",
+"w": "offensichtlich",
+"p": "",
+"unit": 7,
+"u": "b2-7",
+"q": 3227
+},
+{
+"word": "als wenn",
+"m": {
+"es": "como si",
+"en": "as if"
+},
+"pos": "",
+"w": "als wenn",
+"p": "",
+"unit": 8,
+"u": "b2-8",
+"q": 3228
+},
+{
+"word": "dadurch dass",
+"m": {
+"es": "por el hecho de que",
+"en": "by the fact that"
+},
+"pos": "",
+"w": "dadurch dass",
+"p": "",
+"unit": 8,
+"u": "b2-8",
+"q": 3229
+},
+{
+"word": "so tun als ob",
+"m": {
+"es": "hacer como si",
+"en": "to pretend"
+},
+"pos": "",
+"w": "so tun als ob",
+"p": "",
+"unit": 8,
+"u": "b2-8",
+"q": 3230
+},
+{
+"word": "die Art",
+"m": {
+"es": "el tipo; el modo · pl. die Arten",
+"en": "kind; way · pl. die Arten"
+},
+"pos": "noun",
+"w": "die Art",
+"p": "",
+"g": "f",
+"pl": "Arten",
+"unit": 8,
+"u": "b2-8",
+"q": 3231
+},
+{
+"word": "die Weise",
+"m": {
+"es": "la manera · pl. die Weisen",
+"en": "way, manner · pl. die Weisen"
+},
+"pos": "noun",
+"w": "die Weise",
+"p": "",
+"g": "f",
+"pl": "Weisen",
+"unit": 8,
+"u": "b2-8",
+"q": 3232
+},
+{
+"word": "auf diese Weise",
+"m": {
+"es": "de esta manera",
+"en": "in this way"
+},
+"pos": "",
+"w": "auf diese Weise",
+"p": "",
+"unit": 8,
+"u": "b2-8",
+"q": 3233
+},
+{
+"word": "der Trick",
+"m": {
+"es": "el truco · pl. die Tricks",
+"en": "trick · pl. die Tricks"
+},
+"pos": "noun",
+"w": "der Trick",
+"p": "",
+"g": "m",
+"pl": "Tricks",
+"unit": 8,
+"u": "b2-8",
+"q": 3234
+},
+{
+"word": "sofern",
+"m": {
+"es": "siempre que",
+"en": "provided that"
+},
+"pos": "verb",
+"w": "sofern",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3235
+},
+{
+"word": "vorausgesetzt",
+"m": {
+"es": "siempre que",
+"en": "provided that"
+},
+"pos": "",
+"w": "vorausgesetzt",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3236
+},
+{
+"word": "es sei denn",
+"m": {
+"es": "a no ser que",
+"en": "unless"
+},
+"pos": "",
+"w": "es sei denn",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3237
+},
+{
+"word": "auch wenn",
+"m": {
+"es": "aunque",
+"en": "even if"
+},
+"pos": "",
+"w": "auch wenn",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3238
+},
+{
+"word": "selbst wenn",
+"m": {
+"es": "incluso si",
+"en": "even if"
+},
+"pos": "",
+"w": "selbst wenn",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3239
+},
+{
+"word": "wenngleich",
+"m": {
+"es": "aunque (formal)",
+"en": "although"
+},
+"pos": "",
+"w": "wenngleich",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3240
+},
+{
+"word": "im Falle",
+"m": {
+"es": "en caso de",
+"en": "in case of"
+},
+"pos": "",
+"w": "im Falle",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3241
+},
+{
+"word": "unter der Bedingung",
+"m": {
+"es": "con la condición",
+"en": "on condition"
+},
+"pos": "",
+"w": "unter der Bedingung",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3242
+},
+{
+"word": "riskieren",
+"m": {
+"es": "arriesgar",
+"en": "to risk"
+},
+"pos": "verb",
+"w": "riskieren",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3243
+},
+{
+"word": "sicherheitshalber",
+"m": {
+"es": "por si acaso, por seguridad",
+"en": "to be on the safe side"
+},
+"pos": "",
+"w": "sicherheitshalber",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3244
+},
+{
+"word": "vorsichtshalber",
+"m": {
+"es": "por precaución",
+"en": "as a precaution"
+},
+"pos": "",
+"w": "vorsichtshalber",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3245
+},
+{
+"word": "ausnahmsweise",
+"m": {
+"es": "por esta vez, excepcionalmente",
+"en": "just this once"
+},
+"pos": "",
+"w": "ausnahmsweise",
+"p": "",
+"unit": 9,
+"u": "b2-9",
+"q": 3246
+},
+{
+"word": "wofür",
+"m": {
+"es": "para qué; por lo cual",
+"en": "what for; for which"
+},
+"pos": "",
+"w": "wofür",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3247
+},
+{
+"word": "womit",
+"m": {
+"es": "con qué; con lo cual",
+"en": "with what; with which"
+},
+"pos": "",
+"w": "womit",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3248
+},
+{
+"word": "wovon",
+"m": {
+"es": "de qué; de lo cual",
+"en": "of what; of which"
+},
+"pos": "verb",
+"w": "wovon",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3249
+},
+{
+"word": "woran",
+"m": {
+"es": "en qué; en lo cual",
+"en": "of what, on what"
+},
+"pos": "verb",
+"w": "woran",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3250
+},
+{
+"word": "vieles",
+"m": {
+"es": "muchas cosas",
+"en": "many things"
+},
+"pos": "",
+"w": "vieles",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3251
+},
+{
+"word": "manches",
+"m": {
+"es": "algunas cosas",
+"en": "some things"
+},
+"pos": "",
+"w": "manches",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3252
+},
+{
+"word": "das Einzige",
+"m": {
+"es": "lo único",
+"en": "the only thing"
+},
+"pos": "noun",
+"w": "das Einzige",
+"p": "",
+"g": "n",
+"unit": 10,
+"u": "b2-10",
+"q": 3253
+},
+{
+"word": "das Wichtigste",
+"m": {
+"es": "lo más importante",
+"en": "the most important thing"
+},
+"pos": "noun",
+"w": "das Wichtigste",
+"p": "",
+"g": "n",
+"unit": 10,
+"u": "b2-10",
+"q": 3254
+},
+{
+"word": "der Spruch",
+"m": {
+"es": "el dicho, la frase · pl. die Sprüche",
+"en": "saying · pl. die Sprüche"
+},
+"pos": "noun",
+"w": "der Spruch",
+"p": "",
+"g": "m",
+"pl": "Sprüche",
+"unit": 10,
+"u": "b2-10",
+"q": 3255
+},
+{
+"word": "das Sprichwort",
+"m": {
+"es": "el refrán · pl. die Sprichwörter",
+"en": "proverb · pl. die Sprichwörter"
+},
+"pos": "noun",
+"w": "das Sprichwort",
+"p": "",
+"g": "n",
+"pl": "Sprichwörter",
+"unit": 10,
+"u": "b2-10",
+"q": 3256
+},
+{
+"word": "die Lebensweisheit",
+"m": {
+"es": "la máxima, la sabiduría popular · pl. die Lebensweisheiten",
+"en": "maxim, piece of wisdom · pl. die Lebensweisheiten"
+},
+"pos": "noun",
+"w": "die Lebensweisheit",
+"p": "",
+"g": "f",
+"pl": "Lebensweisheiten",
+"unit": 10,
+"u": "b2-10",
+"q": 3257
+},
+{
+"word": "erstaunlich",
+"m": {
+"es": "asombroso",
+"en": "astonishing"
+},
+"pos": "",
+"w": "erstaunlich",
+"p": "",
+"unit": 10,
+"u": "b2-10",
+"q": 3258
+},
+{
+"word": "drohen",
+"m": {
+"es": "amenazar",
+"en": "to threaten"
+},
+"pos": "verb",
+"w": "drohen",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3259
+},
+{
+"word": "bedauern",
+"m": {
+"es": "lamentar",
+"en": "to regret"
+},
+"pos": "verb",
+"w": "bedauern",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3260
+},
+{
+"word": "leugnen",
+"m": {
+"es": "negar",
+"en": "to deny"
+},
+"pos": "verb",
+"w": "leugnen",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3261
+},
+{
+"word": "erleichtert",
+"m": {
+"es": "aliviado",
+"en": "relieved"
+},
+"pos": "",
+"w": "erleichtert",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3262
+},
+{
+"word": "die Ehre",
+"m": {
+"es": "el honor · pl. die Ehren",
+"en": "honour · pl. die Ehren"
+},
+"pos": "noun",
+"w": "die Ehre",
+"p": "",
+"g": "f",
+"pl": "Ehren",
+"unit": 11,
+"u": "b2-11",
+"q": 3263
+},
+{
+"word": "auszeichnen",
+"m": {
+"es": "premiar, distinguir",
+"en": "to award, to honour"
+},
+"pos": "verb",
+"w": "auszeichnen",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3264
+},
+{
+"word": "die Auszeichnung",
+"m": {
+"es": "la distinción, el premio · pl. die Auszeichnungen",
+"en": "award, distinction · pl. die Auszeichnungen"
+},
+"pos": "noun",
+"w": "die Auszeichnung",
+"p": "",
+"g": "f",
+"pl": "Auszeichnungen",
+"unit": 11,
+"u": "b2-11",
+"q": 3265
+},
+{
+"word": "ernennen",
+"m": {
+"es": "nombrar · ernennt, ernannte, hat ernannt",
+"en": "to appoint · ernennt, ernannte, hat ernannt"
+},
+"pos": "verb",
+"w": "ernennen",
+"p": "",
+"pp": "ernennt, ernannte, hat ernannt",
+"unit": 11,
+"u": "b2-11",
+"q": 3266
+},
+{
+"word": "befördern",
+"m": {
+"es": "ascender; transportar",
+"en": "to promote; to transport"
+},
+"pos": "verb",
+"w": "befördern",
+"p": "",
+"unit": 11,
+"u": "b2-11",
+"q": 3267
+},
+{
+"word": "angesichts",
+"m": {
+"es": "ante, en vista de",
+"en": "in view of"
+},
+"pos": "",
+"w": "angesichts",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3268
+},
+{
+"word": "anhand",
+"m": {
+"es": "a partir de, mediante",
+"en": "by means of"
+},
+"pos": "",
+"w": "anhand",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3269
+},
+{
+"word": "bezüglich",
+"m": {
+"es": "respecto a",
+"en": "regarding"
+},
+"pos": "",
+"w": "bezüglich",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3270
+},
+{
+"word": "hinsichtlich",
+"m": {
+"es": "en cuanto a",
+"en": "with regard to"
+},
+"pos": "",
+"w": "hinsichtlich",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3271
+},
+{
+"word": "mithilfe",
+"m": {
+"es": "con ayuda de",
+"en": "with the help of"
+},
+"pos": "",
+"w": "mithilfe",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3272
+},
+{
+"word": "zugunsten",
+"m": {
+"es": "a favor de",
+"en": "in favour of"
+},
+"pos": "verb",
+"w": "zugunsten",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3273
+},
+{
+"word": "seitens",
+"m": {
+"es": "por parte de",
+"en": "on the part of"
+},
+"pos": "",
+"w": "seitens",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3274
+},
+{
+"word": "entgegen",
+"m": {
+"es": "en contra de",
+"en": "contrary to"
+},
+"pos": "verb",
+"w": "entgegen",
+"p": "",
+"unit": 12,
+"u": "b2-12",
+"q": 3275
+},
+{
+"word": "die Anfrage",
+"m": {
+"es": "la consulta, la solicitud · pl. die Anfragen",
+"en": "enquiry · pl. die Anfragen"
+},
+"pos": "noun",
+"w": "die Anfrage",
+"p": "",
+"g": "f",
+"pl": "Anfragen",
+"unit": 12,
+"u": "b2-12",
+"q": 3276
+},
+{
+"word": "die Angaben",
+"m": {
+"es": "los datos, las indicaciones · (solo plural)",
+"en": "details, information · (plural only)"
+},
+"pos": "noun",
+"w": "die Angaben",
+"p": "",
+"g": "pl",
+"unit": 12,
+"u": "b2-12",
+"q": 3277
+},
+{
+"word": "die Vereinbarung",
+"m": {
+"es": "el acuerdo · pl. die Vereinbarungen",
+"en": "agreement · pl. die Vereinbarungen"
+},
+"pos": "noun",
+"w": "die Vereinbarung",
+"p": "",
+"g": "f",
+"pl": "Vereinbarungen",
+"unit": 12,
+"u": "b2-12",
+"q": 3278
+},
+{
+"word": "die Empfehlung",
+"m": {
+"es": "la recomendación · pl. die Empfehlungen",
+"en": "recommendation · pl. die Empfehlungen"
+},
+"pos": "noun",
+"w": "die Empfehlung",
+"p": "",
+"g": "f",
+"pl": "Empfehlungen",
+"unit": 12,
+"u": "b2-12",
+"q": 3279
+},
+{
+"word": "die Prognose",
+"m": {
+"es": "el pronóstico · pl. die Prognosen",
+"en": "forecast · pl. die Prognosen"
+},
+"pos": "noun",
+"w": "die Prognose",
+"p": "",
+"g": "f",
+"pl": "Prognosen",
+"unit": 12,
+"u": "b2-12",
+"q": 3280
+},
+{
+"word": "unabhängig",
+"m": {
+"es": "independiente",
+"en": "independent"
+},
+"pos": "",
+"w": "unabhängig",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3281
+},
+{
+"word": "unzufrieden",
+"m": {
+"es": "insatisfecho",
+"en": "dissatisfied"
+},
+"pos": "verb",
+"w": "unzufrieden",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3282
+},
+{
+"word": "überzeugt",
+"m": {
+"es": "convencido",
+"en": "convinced"
+},
+"pos": "",
+"w": "überzeugt",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3283
+},
+{
+"word": "neidisch",
+"m": {
+"es": "envidioso",
+"en": "envious"
+},
+"pos": "",
+"w": "neidisch",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3284
+},
+{
+"word": "eifersüchtig",
+"m": {
+"es": "celoso",
+"en": "jealous"
+},
+"pos": "",
+"w": "eifersüchtig",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3285
+},
+{
+"word": "verliebt",
+"m": {
+"es": "enamorado",
+"en": "in love"
+},
+"pos": "",
+"w": "verliebt",
+"p": "",
+"unit": 13,
+"u": "b2-13",
+"q": 3286
+},
+{
+"word": "das Argument",
+"m": {
+"es": "el argumento · pl. die Argumente",
+"en": "argument · pl. die Argumente"
+},
+"pos": "noun",
+"w": "das Argument",
+"p": "",
+"g": "n",
+"pl": "Argumente",
+"unit": 14,
+"u": "b2-14",
+"q": 3287
+},
+{
+"word": "argumentieren",
+"m": {
+"es": "argumentar",
+"en": "to argue"
+},
+"pos": "verb",
+"w": "argumentieren",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3288
+},
+{
+"word": "die These",
+"m": {
+"es": "la tesis · pl. die Thesen",
+"en": "thesis · pl. die Thesen"
+},
+"pos": "noun",
+"w": "die These",
+"p": "",
+"g": "f",
+"pl": "Thesen",
+"unit": 14,
+"u": "b2-14",
+"q": 3289
+},
+{
+"word": "die Ansicht",
+"m": {
+"es": "la opinión; la vista · pl. die Ansichten",
+"en": "opinion; view · pl. die Ansichten"
+},
+"pos": "noun",
+"w": "die Ansicht",
+"p": "",
+"g": "f",
+"pl": "Ansichten",
+"unit": 14,
+"u": "b2-14",
+"q": 3290
+},
+{
+"word": "die Auffassung",
+"m": {
+"es": "la opinión, la concepción · pl. die Auffassungen",
+"en": "view, opinion · pl. die Auffassungen"
+},
+"pos": "noun",
+"w": "die Auffassung",
+"p": "",
+"g": "f",
+"pl": "Auffassungen",
+"unit": 14,
+"u": "b2-14",
+"q": 3291
+},
+{
+"word": "überzeugend",
+"m": {
+"es": "convincente",
+"en": "convincing"
+},
+"pos": "",
+"w": "überzeugend",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3292
+},
+{
+"word": "abwägen",
+"m": {
+"es": "sopesar · wägt ab, wog ab, hat abgewogen",
+"en": "to weigh up · wägt ab, wog ab, hat abgewogen"
+},
+"pos": "verb",
+"w": "abwägen",
+"p": "",
+"pp": "wägt ab, wog ab, hat abgewogen",
+"unit": 14,
+"u": "b2-14",
+"q": 3293
+},
+{
+"word": "folglich",
+"m": {
+"es": "por consiguiente",
+"en": "consequently"
+},
+"pos": "",
+"w": "folglich",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3294
+},
+{
+"word": "demnach",
+"m": {
+"es": "según eso",
+"en": "accordingly"
+},
+"pos": "",
+"w": "demnach",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3295
+},
+{
+"word": "zusammenfassend",
+"m": {
+"es": "en resumen",
+"en": "to sum up"
+},
+"pos": "",
+"w": "zusammenfassend",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3296
+},
+{
+"word": "alles in allem",
+"m": {
+"es": "en conjunto",
+"en": "all in all"
+},
+"pos": "",
+"w": "alles in allem",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3297
+},
+{
+"word": "meiner Meinung nach",
+"m": {
+"es": "en mi opinión",
+"en": "in my opinion"
+},
+"pos": "",
+"w": "meiner Meinung nach",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3298
+},
+{
+"word": "befürworten",
+"m": {
+"es": "apoyar, defender",
+"en": "to support, to advocate"
+},
+"pos": "verb",
+"w": "befürworten",
+"p": "",
+"unit": 14,
+"u": "b2-14",
+"q": 3299
+},
+{
+"word": "bewohnen",
+"m": {
+"es": "habitar",
+"en": "to inhabit"
+},
+"pos": "verb",
+"w": "bewohnen",
+"p": "",
+"unit": 15,
+"u": "b2-15",
+"q": 3300
+},
+{
+"word": "besteigen",
+"m": {
+"es": "escalar, subir a · besteigt, bestieg, hat bestiegen",
+"en": "to climb, to board · besteigt, bestieg, hat bestiegen"
+},
+"pos": "verb",
+"w": "besteigen",
+"p": "",
+"pp": "besteigt, bestieg, hat bestiegen",
+"unit": 15,
+"u": "b2-15",
+"q": 3301
+},
+{
+"word": "bearbeiten",
+"m": {
+"es": "trabajar en, tramitar",
+"en": "to work on, to process"
+},
+"pos": "verb",
+"w": "bearbeiten",
+"p": "",
+"unit": 15,
+"u": "b2-15",
+"q": 3302
+},
+{
+"word": "verschlafen",
+"m": {
+"es": "quedarse dormido · verschläft, verschlief, hat verschlafen",
+"en": "to oversleep · verschläft, verschlief, hat verschlafen"
+},
+"pos": "verb",
+"w": "verschlafen",
+"p": "",
+"pp": "verschläft, verschlief, hat verschlafen",
+"unit": 15,
+"u": "b2-15",
+"q": 3303
+},
+{
+"word": "entkommen",
+"m": {
+"es": "escapar · entkommt, entkam, ist entkommen",
+"en": "to escape · entkommt, entkam, ist entkommen"
+},
+"pos": "verb",
+"w": "entkommen",
+"p": "",
+"pp": "entkommt, entkam, ist entkommen",
+"unit": 15,
+"u": "b2-15",
+"q": 3304
+},
+{
+"word": "zerbrechen",
+"m": {
+"es": "romper(se) en pedazos",
+"en": "to break (into pieces)"
+},
+"pos": "",
+"w": "zerbrechen",
+"p": "",
+"unit": 15,
+"u": "b2-15",
+"q": 3305
+},
+{
+"word": "zerreißen",
+"m": {
+"es": "romper (rasgando) · zerreißt, zerriss, hat zerrissen",
+"en": "to tear up · zerreißt, zerriss, hat zerrissen"
+},
+"pos": "verb",
+"w": "zerreißen",
+"p": "",
+"pp": "zerreißt, zerriss, hat zerrissen",
+"unit": 15,
+"u": "b2-15",
+"q": 3306
+},
+{
+"word": "es geht um",
+"m": {
+"es": "se trata de",
+"en": "it's about"
+},
+"pos": "",
+"w": "es geht um",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3307
+},
+{
+"word": "es handelt sich um",
+"m": {
+"es": "se trata de",
+"en": "it is about"
+},
+"pos": "",
+"w": "es handelt sich um",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3308
+},
+{
+"word": "es kommt darauf an",
+"m": {
+"es": "depende",
+"en": "it depends"
+},
+"pos": "",
+"w": "es kommt darauf an",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3309
+},
+{
+"word": "es lohnt sich",
+"m": {
+"es": "merece la pena",
+"en": "it's worth it"
+},
+"pos": "",
+"w": "es lohnt sich",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3310
+},
+{
+"word": "es fällt mir schwer",
+"m": {
+"es": "me cuesta",
+"en": "I find it hard"
+},
+"pos": "",
+"w": "es fällt mir schwer",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3311
+},
+{
+"word": "es fällt mir leicht",
+"m": {
+"es": "me resulta fácil",
+"en": "I find it easy"
+},
+"pos": "",
+"w": "es fällt mir leicht",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3312
+},
+{
+"word": "es tut mir leid",
+"m": {
+"es": "lo siento",
+"en": "I'm sorry"
+},
+"pos": "",
+"w": "es tut mir leid",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3313
+},
+{
+"word": "es klappt",
+"m": {
+"es": "sale bien",
+"en": "it works out"
+},
+"pos": "",
+"w": "es klappt",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3314
+},
+{
+"word": "es eilt",
+"m": {
+"es": "corre prisa",
+"en": "it's urgent"
+},
+"pos": "",
+"w": "es eilt",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3315
+},
+{
+"word": "es klingelt",
+"m": {
+"es": "llaman a la puerta, suena",
+"en": "the bell is ringing"
+},
+"pos": "",
+"w": "es klingelt",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3316
+},
+{
+"word": "es zieht",
+"m": {
+"es": "hay corriente",
+"en": "there's a draught"
+},
+"pos": "",
+"w": "es zieht",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3317
+},
+{
+"word": "es stimmt",
+"m": {
+"es": "es cierto",
+"en": "that's right"
+},
+"pos": "",
+"w": "es stimmt",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3318
+},
+{
+"word": "es liegt an",
+"m": {
+"es": "se debe a",
+"en": "it's due to"
+},
+"pos": "",
+"w": "es liegt an",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3319
+},
+{
+"word": "es hängt davon ab",
+"m": {
+"es": "depende de ello",
+"en": "it depends on it"
+},
+"pos": "",
+"w": "es hängt davon ab",
+"p": "",
+"unit": 16,
+"u": "b2-16",
+"q": 3320
+},
+{
+"word": "halt",
+"m": {
+"es": "pues, simplemente (partícula)",
+"en": "just, simply (particle)"
+},
+"pos": "",
+"w": "halt",
+"p": "",
+"unit": 17,
+"u": "b2-17",
+"q": 3321
+},
+{
+"word": "umgangssprachlich",
+"m": {
+"es": "coloquial",
+"en": "colloquial"
+},
+"pos": "",
+"w": "umgangssprachlich",
+"p": "",
+"unit": 17,
+"u": "b2-17",
+"q": 3322
+},
+{
+"word": "förmlich",
+"m": {
+"es": "formal",
+"en": "formal"
+},
+"pos": "",
+"w": "förmlich",
+"p": "",
+"unit": 17,
+"u": "b2-17",
+"q": 3323
+},
+{
+"word": "der Ton",
+"m": {
+"es": "el tono · pl. die Töne",
+"en": "tone · pl. die Töne"
+},
+"pos": "noun",
+"w": "der Ton",
+"p": "",
+"g": "m",
+"pl": "Töne",
+"unit": 17,
+"u": "b2-17",
+"q": 3324
+},
+{
+"word": "die Betonung",
+"m": {
+"es": "el acento, la entonación · pl. die Betonungen",
+"en": "stress, emphasis · pl. die Betonungen"
+},
+"pos": "noun",
+"w": "die Betonung",
+"p": "",
+"g": "f",
+"pl": "Betonungen",
+"unit": 17,
+"u": "b2-17",
+"q": 3325
+},
+{
+"word": "jener",
+"m": {
+"es": "aquel",
+"en": "that (one)"
+},
+"pos": "",
+"w": "jener",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3326
+},
+{
+"word": "ersterer",
+"m": {
+"es": "el primero (de dos)",
+"en": "the former"
+},
+"pos": "",
+"w": "ersterer",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3327
+},
+{
+"word": "letzterer",
+"m": {
+"es": "el último (de dos)",
+"en": "the latter"
+},
+"pos": "",
+"w": "letzterer",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3328
+},
+{
+"word": "dadurch",
+"m": {
+"es": "por eso, así",
+"en": "thereby, as a result"
+},
+"pos": "",
+"w": "dadurch",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3329
+},
+{
+"word": "darüber",
+"m": {
+"es": "sobre eso",
+"en": "about it"
+},
+"pos": "",
+"w": "darüber",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3330
+},
+{
+"word": "davon",
+"m": {
+"es": "de eso",
+"en": "of it"
+},
+"pos": "verb",
+"w": "davon",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3331
+},
+{
+"word": "hierbei",
+"m": {
+"es": "en este caso, al hacerlo",
+"en": "in doing so, here"
+},
+"pos": "",
+"w": "hierbei",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3332
+},
+{
+"word": "hierzu",
+"m": {
+"es": "a este respecto",
+"en": "in this regard"
+},
+"pos": "",
+"w": "hierzu",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3333
+},
+{
+"word": "zuvor",
+"m": {
+"es": "antes",
+"en": "before, previously"
+},
+"pos": "",
+"w": "zuvor",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3334
+},
+{
+"word": "anschließend",
+"m": {
+"es": "a continuación",
+"en": "afterwards"
+},
+"pos": "",
+"w": "anschließend",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3335
+},
+{
+"word": "daraufhin",
+"m": {
+"es": "a continuación, a raíz de ello",
+"en": "thereupon"
+},
+"pos": "verb",
+"w": "daraufhin",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3336
+},
+{
+"word": "im Folgenden",
+"m": {
+"es": "a continuación (en un texto)",
+"en": "below, in the following"
+},
+"pos": "",
+"w": "im Folgenden",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3337
+},
+{
+"word": "wie bereits erwähnt",
+"m": {
+"es": "como ya se ha mencionado",
+"en": "as already mentioned"
+},
+"pos": "",
+"w": "wie bereits erwähnt",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3338
+},
+{
+"word": "im Gegensatz dazu",
+"m": {
+"es": "en cambio",
+"en": "in contrast"
+},
+"pos": "",
+"w": "im Gegensatz dazu",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3339
+},
+{
+"word": "der Absatz",
+"m": {
+"es": "el párrafo; las ventas · pl. die Absätze",
+"en": "paragraph; sales · pl. die Absätze"
+},
+"pos": "noun",
+"w": "der Absatz",
+"p": "",
+"g": "m",
+"pl": "Absätze",
+"unit": 18,
+"u": "b2-18",
+"q": 3340
+},
+{
+"word": "die Gliederung",
+"m": {
+"es": "la estructura · pl. die Gliederungen",
+"en": "structure, outline · pl. die Gliederungen"
+},
+"pos": "noun",
+"w": "die Gliederung",
+"p": "",
+"g": "f",
+"pl": "Gliederungen",
+"unit": 18,
+"u": "b2-18",
+"q": 3341
+},
+{
+"word": "gliedern",
+"m": {
+"es": "estructurar",
+"en": "to structure"
+},
+"pos": "verb",
+"w": "gliedern",
+"p": "",
+"unit": 18,
+"u": "b2-18",
+"q": 3342
+},
+{
 "word": "abhängen von",
 "m": {
 "es": "depender de",
@@ -1059,7 +2780,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3215
+"q": 3343
 },
 {
 "word": "das Abkommen",
@@ -1074,7 +2795,7 @@
 "pl": "Abkommen",
 "unit": null,
 "u": "",
-"q": 3216
+"q": 3344
 },
 {
 "word": "Abschied nehmen",
@@ -1087,7 +2808,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3217
+"q": 3345
 },
 {
 "word": "die Abschlussarbeit",
@@ -1102,7 +2823,7 @@
 "pl": "Abschlussarbeiten",
 "unit": null,
 "u": "",
-"q": 3218
+"q": 3346
 },
 {
 "word": "der Abstand",
@@ -1117,7 +2838,7 @@
 "pl": "Abstände",
 "unit": null,
 "u": "",
-"q": 3219
+"q": 3347
 },
 {
 "word": "die Abstimmung",
@@ -1132,7 +2853,7 @@
 "pl": "Abstimmungen",
 "unit": null,
 "u": "",
-"q": 3220
+"q": 3348
 },
 {
 "word": "abwarten",
@@ -1145,7 +2866,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3221
+"q": 3349
 },
 {
 "word": "das Abwasser",
@@ -1160,7 +2881,7 @@
 "pl": "Abwässer",
 "unit": null,
 "u": "",
-"q": 3222
+"q": 3350
 },
 {
 "word": "abwechslungsreich",
@@ -1173,21 +2894,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3223
-},
-{
-"word": "abwägen",
-"m": {
-"es": "sopesar · wägt ab, wog ab, hat abgewogen",
-"en": "to weigh up · wägt ab, wog ab, hat abgewogen"
-},
-"pos": "verb",
-"w": "abwägen",
-"p": "",
-"pp": "wägt ab, wog ab, hat abgewogen",
-"unit": null,
-"u": "",
-"q": 3224
+"q": 3351
 },
 {
 "word": "die Agentur",
@@ -1202,7 +2909,7 @@
 "pl": "Agenturen",
 "unit": null,
 "u": "",
-"q": 3225
+"q": 3352
 },
 {
 "word": "die Akademie",
@@ -1217,7 +2924,7 @@
 "pl": "Akademien",
 "unit": null,
 "u": "",
-"q": 3226
+"q": 3353
 },
 {
 "word": "die Aktie",
@@ -1232,7 +2939,7 @@
 "pl": "Aktien",
 "unit": null,
 "u": "",
-"q": 3227
+"q": 3354
 },
 {
 "word": "das Album",
@@ -1247,7 +2954,7 @@
 "pl": "Alben",
 "unit": null,
 "u": "",
-"q": 3228
+"q": 3355
 },
 {
 "word": "der Algorithmus",
@@ -1262,7 +2969,7 @@
 "pl": "Algorithmen",
 "unit": null,
 "u": "",
-"q": 3229
+"q": 3356
 },
 {
 "word": "alleinerziehend",
@@ -1275,7 +2982,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3230
+"q": 3357
 },
 {
 "word": "die Allergie",
@@ -1290,7 +2997,7 @@
 "pl": "Allergien",
 "unit": null,
 "u": "",
-"q": 3231
+"q": 3358
 },
 {
 "word": "die Analyse",
@@ -1305,7 +3012,7 @@
 "pl": "Analysen",
 "unit": null,
 "u": "",
-"q": 3232
+"q": 3359
 },
 {
 "word": "die Anerkennung",
@@ -1319,22 +3026,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3233
-},
-{
-"word": "die Anfrage",
-"m": {
-"es": "la consulta, la solicitud · pl. die Anfragen",
-"en": "enquiry · pl. die Anfragen"
-},
-"pos": "noun",
-"w": "die Anfrage",
-"p": "",
-"g": "f",
-"pl": "Anfragen",
-"unit": null,
-"u": "",
-"q": 3234
+"q": 3360
 },
 {
 "word": "die Angelegenheit",
@@ -1349,7 +3041,7 @@
 "pl": "Angelegenheiten",
 "unit": null,
 "u": "",
-"q": 3235
+"q": 3361
 },
 {
 "word": "angemessen",
@@ -1363,20 +3055,7 @@
 "pp": "gemisst an, gemaß an, hat angemessen",
 "unit": null,
 "u": "",
-"q": 3236
-},
-{
-"word": "angesichts",
-"m": {
-"es": "ante, en vista de",
-"en": "in view of"
-},
-"pos": "",
-"w": "angesichts",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3237
+"q": 3362
 },
 {
 "word": "angewiesen auf",
@@ -1389,20 +3068,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3238
-},
-{
-"word": "anhand",
-"m": {
-"es": "a partir de, mediante",
-"en": "by means of"
-},
-"pos": "",
-"w": "anhand",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3239
+"q": 3363
 },
 {
 "word": "der Anhänger",
@@ -1417,7 +3083,7 @@
 "pl": "Anhänger",
 "unit": null,
 "u": "",
-"q": 3240
+"q": 3364
 },
 {
 "word": "der Anlass",
@@ -1432,7 +3098,7 @@
 "pl": "Anlässe",
 "unit": null,
 "u": "",
-"q": 3241
+"q": 3365
 },
 {
 "word": "anlegen",
@@ -1445,7 +3111,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3242
+"q": 3366
 },
 {
 "word": "das Anliegen",
@@ -1460,22 +3126,7 @@
 "pl": "Anliegen",
 "unit": null,
 "u": "",
-"q": 3243
-},
-{
-"word": "die Annahme",
-"m": {
-"es": "la suposición; la aceptación · pl. die Annahmen",
-"en": "assumption; acceptance · pl. die Annahmen"
-},
-"pos": "noun",
-"w": "die Annahme",
-"p": "",
-"g": "f",
-"pl": "Annahmen",
-"unit": null,
-"u": "",
-"q": 3244
+"q": 3367
 },
 {
 "word": "der Ansatz",
@@ -1490,20 +3141,7 @@
 "pl": "Ansätze",
 "unit": null,
 "u": "",
-"q": 3245
-},
-{
-"word": "anscheinend",
-"m": {
-"es": "al parecer",
-"en": "apparently"
-},
-"pos": "",
-"w": "anscheinend",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3246
+"q": 3368
 },
 {
 "word": "der Anschlag",
@@ -1518,22 +3156,7 @@
 "pl": "Anschläge",
 "unit": null,
 "u": "",
-"q": 3247
-},
-{
-"word": "die Ansicht",
-"m": {
-"es": "la opinión; la vista · pl. die Ansichten",
-"en": "opinion; view · pl. die Ansichten"
-},
-"pos": "noun",
-"w": "die Ansicht",
-"p": "",
-"g": "f",
-"pl": "Ansichten",
-"unit": null,
-"u": "",
-"q": 3248
+"q": 3369
 },
 {
 "word": "ansonsten",
@@ -1546,7 +3169,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3249
+"q": 3370
 },
 {
 "word": "anspruchsvoll",
@@ -1559,7 +3182,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3250
+"q": 3371
 },
 {
 "word": "ansteckend",
@@ -1572,7 +3195,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3251
+"q": 3372
 },
 {
 "word": "der Anstieg",
@@ -1586,7 +3209,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3252
+"q": 3373
 },
 {
 "word": "antreten",
@@ -1600,7 +3223,7 @@
 "pp": "tritt an, trat an, hat angetreten",
 "unit": null,
 "u": "",
-"q": 3253
+"q": 3374
 },
 {
 "word": "die Anwendung",
@@ -1615,7 +3238,7 @@
 "pl": "Anwendungen",
 "unit": null,
 "u": "",
-"q": 3254
+"q": 3375
 },
 {
 "word": "anzeigen",
@@ -1628,7 +3251,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3255
+"q": 3376
 },
 {
 "word": "appellieren",
@@ -1641,7 +3264,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3256
+"q": 3377
 },
 {
 "word": "das Arbeitslosengeld",
@@ -1655,7 +3278,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3257
+"q": 3378
 },
 {
 "word": "die Arbeitslosigkeit",
@@ -1669,7 +3292,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3258
+"q": 3379
 },
 {
 "word": "der Arbeitsmarkt",
@@ -1684,7 +3307,7 @@
 "pl": "Arbeitsmärkte",
 "unit": null,
 "u": "",
-"q": 3259
+"q": 3380
 },
 {
 "word": "die Architektur",
@@ -1698,7 +3321,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3260
+"q": 3381
 },
 {
 "word": "das Archiv",
@@ -1713,35 +3336,7 @@
 "pl": "Archive",
 "unit": null,
 "u": "",
-"q": 3261
-},
-{
-"word": "das Argument",
-"m": {
-"es": "el argumento · pl. die Argumente",
-"en": "argument · pl. die Argumente"
-},
-"pos": "noun",
-"w": "das Argument",
-"p": "",
-"g": "n",
-"pl": "Argumente",
-"unit": null,
-"u": "",
-"q": 3262
-},
-{
-"word": "argumentieren",
-"m": {
-"es": "argumentar",
-"en": "to argue"
-},
-"pos": "verb",
-"w": "argumentieren",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3263
+"q": 3382
 },
 {
 "word": "die Armee",
@@ -1756,7 +3351,7 @@
 "pl": "Armeen",
 "unit": null,
 "u": "",
-"q": 3264
+"q": 3383
 },
 {
 "word": "die Armut",
@@ -1770,22 +3365,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3265
-},
-{
-"word": "die Art",
-"m": {
-"es": "el tipo; el modo · pl. die Arten",
-"en": "kind; way · pl. die Arten"
-},
-"pos": "noun",
-"w": "die Art",
-"p": "",
-"g": "f",
-"pl": "Arten",
-"unit": null,
-"u": "",
-"q": 3266
+"q": 3384
 },
 {
 "word": "die Art und Weise",
@@ -1799,7 +3379,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3267
+"q": 3385
 },
 {
 "word": "die Artenvielfalt",
@@ -1813,7 +3393,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3268
+"q": 3386
 },
 {
 "word": "der Aspekt",
@@ -1828,7 +3408,7 @@
 "pl": "Aspekte",
 "unit": null,
 "u": "",
-"q": 3269
+"q": 3387
 },
 {
 "word": "das Asyl",
@@ -1842,7 +3422,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3270
+"q": 3388
 },
 {
 "word": "der Asylbewerber",
@@ -1857,7 +3437,7 @@
 "pl": "Asylbewerber",
 "unit": null,
 "u": "",
-"q": 3271
+"q": 3389
 },
 {
 "word": "die Atmosphäre",
@@ -1872,7 +3452,7 @@
 "pl": "Atmosphären",
 "unit": null,
 "u": "",
-"q": 3272
+"q": 3390
 },
 {
 "word": "die Atomkraft",
@@ -1886,7 +3466,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3273
+"q": 3391
 },
 {
 "word": "attraktiv",
@@ -1899,20 +3479,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3274
-},
-{
-"word": "auch wenn",
-"m": {
-"es": "aunque",
-"en": "even if"
-},
-"pos": "",
-"w": "auch wenn",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3275
+"q": 3392
 },
 {
 "word": "der Aufbau",
@@ -1926,7 +3493,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3276
+"q": 3393
 },
 {
 "word": "der Aufenthalt",
@@ -1941,22 +3508,7 @@
 "pl": "Aufenthalte",
 "unit": null,
 "u": "",
-"q": 3277
-},
-{
-"word": "die Auffassung",
-"m": {
-"es": "la opinión, la concepción · pl. die Auffassungen",
-"en": "view, opinion · pl. die Auffassungen"
-},
-"pos": "noun",
-"w": "die Auffassung",
-"p": "",
-"g": "f",
-"pl": "Auffassungen",
-"unit": null,
-"u": "",
-"q": 3278
+"q": 3394
 },
 {
 "word": "die Aufgabe",
@@ -1971,7 +3523,7 @@
 "pl": "Aufgaben",
 "unit": null,
 "u": "",
-"q": 3279
+"q": 3395
 },
 {
 "word": "die Auflage",
@@ -1986,7 +3538,7 @@
 "pl": "Auflagen",
 "unit": null,
 "u": "",
-"q": 3280
+"q": 3396
 },
 {
 "word": "die Auflösung",
@@ -2001,7 +3553,7 @@
 "pl": "Auflösungen",
 "unit": null,
 "u": "",
-"q": 3281
+"q": 3397
 },
 {
 "word": "der Aufstieg",
@@ -2015,7 +3567,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3282
+"q": 3398
 },
 {
 "word": "der Auftritt",
@@ -2030,7 +3582,7 @@
 "pl": "Auftritte",
 "unit": null,
 "u": "",
-"q": 3283
+"q": 3399
 },
 {
 "word": "der Aufwand",
@@ -2044,7 +3596,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3284
+"q": 3400
 },
 {
 "word": "der Ausbau",
@@ -2058,7 +3610,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3285
+"q": 3401
 },
 {
 "word": "ausdrücklich",
@@ -2071,7 +3623,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3286
+"q": 3402
 },
 {
 "word": "sich auseinandersetzen mit",
@@ -2084,7 +3636,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3287
+"q": 3403
 },
 {
 "word": "die Auseinandersetzung",
@@ -2099,7 +3651,7 @@
 "pl": "Auseinandersetzungen",
 "unit": null,
 "u": "",
-"q": 3288
+"q": 3404
 },
 {
 "word": "ausführlich",
@@ -2112,7 +3664,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3289
+"q": 3405
 },
 {
 "word": "die Ausführung",
@@ -2127,7 +3679,7 @@
 "pl": "Ausführungen",
 "unit": null,
 "u": "",
-"q": 3290
+"q": 3406
 },
 {
 "word": "ausgerechnet",
@@ -2140,7 +3692,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3291
+"q": 3407
 },
 {
 "word": "ausgewogen",
@@ -2153,7 +3705,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3292
+"q": 3408
 },
 {
 "word": "der Ausgleich",
@@ -2167,7 +3719,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3293
+"q": 3409
 },
 {
 "word": "das Auslandssemester",
@@ -2182,7 +3734,7 @@
 "pl": "Auslandssemester",
 "unit": null,
 "u": "",
-"q": 3294
+"q": 3410
 },
 {
 "word": "ausprobieren",
@@ -2195,7 +3747,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3295
+"q": 3411
 },
 {
 "word": "der Ausschuss",
@@ -2210,7 +3762,7 @@
 "pl": "Ausschüsse",
 "unit": null,
 "u": "",
-"q": 3296
+"q": 3412
 },
 {
 "word": "die Ausstattung",
@@ -2225,7 +3777,7 @@
 "pl": "Ausstattungen",
 "unit": null,
 "u": "",
-"q": 3297
+"q": 3413
 },
 {
 "word": "aussterben",
@@ -2239,7 +3791,7 @@
 "pp": "stirbt aus, starb aus, ist ausgestorben",
 "unit": null,
 "u": "",
-"q": 3298
+"q": 3414
 },
 {
 "word": "der Ausstoß",
@@ -2253,7 +3805,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3299
+"q": 3415
 },
 {
 "word": "der Austausch",
@@ -2267,7 +3819,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3300
+"q": 3416
 },
 {
 "word": "die Auswanderung",
@@ -2281,7 +3833,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3301
+"q": 3417
 },
 {
 "word": "sich auswirken auf",
@@ -2294,22 +3846,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3302
-},
-{
-"word": "die Auszeichnung",
-"m": {
-"es": "la distinción, el premio · pl. die Auszeichnungen",
-"en": "award, distinction · pl. die Auszeichnungen"
-},
-"pos": "noun",
-"w": "die Auszeichnung",
-"p": "",
-"g": "f",
-"pl": "Auszeichnungen",
-"unit": null,
-"u": "",
-"q": 3303
+"q": 3418
 },
 {
 "word": "der Auszubildende",
@@ -2324,7 +3861,7 @@
 "pl": "Auszubildenden",
 "unit": null,
 "u": "",
-"q": 3304
+"q": 3419
 },
 {
 "word": "der Bachelor",
@@ -2338,7 +3875,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3305
+"q": 3420
 },
 {
 "word": "die Basis",
@@ -2353,7 +3890,7 @@
 "pl": "Basen",
 "unit": null,
 "u": "",
-"q": 3306
+"q": 3421
 },
 {
 "word": "sich bedanken für",
@@ -2366,7 +3903,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3307
+"q": 3422
 },
 {
 "word": "die Bedenken",
@@ -2380,7 +3917,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3308
+"q": 3423
 },
 {
 "word": "die Bedrohung",
@@ -2395,7 +3932,7 @@
 "pl": "Bedrohungen",
 "unit": null,
 "u": "",
-"q": 3309
+"q": 3424
 },
 {
 "word": "die Bedürfnisse",
@@ -2409,7 +3946,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3310
+"q": 3425
 },
 {
 "word": "der Befehl",
@@ -2424,7 +3961,7 @@
 "pl": "Befehle",
 "unit": null,
 "u": "",
-"q": 3311
+"q": 3426
 },
 {
 "word": "befreien",
@@ -2437,20 +3974,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3312
-},
-{
-"word": "befördern",
-"m": {
-"es": "ascender; transportar",
-"en": "to promote; to transport"
-},
-"pos": "verb",
-"w": "befördern",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3313
+"q": 3427
 },
 {
 "word": "die Beförderung",
@@ -2465,7 +3989,7 @@
 "pl": "Beförderungen",
 "unit": null,
 "u": "",
-"q": 3314
+"q": 3428
 },
 {
 "word": "die Begegnung",
@@ -2480,7 +4004,7 @@
 "pl": "Begegnungen",
 "unit": null,
 "u": "",
-"q": 3315
+"q": 3429
 },
 {
 "word": "die Begeisterung",
@@ -2494,7 +4018,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3316
+"q": 3430
 },
 {
 "word": "der Begriff",
@@ -2509,7 +4033,7 @@
 "pl": "Begriffe",
 "unit": null,
 "u": "",
-"q": 3317
+"q": 3431
 },
 {
 "word": "die Behandlung",
@@ -2524,7 +4048,7 @@
 "pl": "Behandlungen",
 "unit": null,
 "u": "",
-"q": 3318
+"q": 3432
 },
 {
 "word": "die Behinderung",
@@ -2539,7 +4063,7 @@
 "pl": "Behinderungen",
 "unit": null,
 "u": "",
-"q": 3319
+"q": 3433
 },
 {
 "word": "beitragen",
@@ -2553,7 +4077,7 @@
 "pp": "trägt bei, trug bei, hat beigetragen",
 "unit": null,
 "u": "",
-"q": 3320
+"q": 3434
 },
 {
 "word": "bekämpfen",
@@ -2566,7 +4090,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3321
+"q": 3435
 },
 {
 "word": "belastbar",
@@ -2579,7 +4103,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3322
+"q": 3436
 },
 {
 "word": "belasten",
@@ -2592,7 +4116,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3323
+"q": 3437
 },
 {
 "word": "die Belastung",
@@ -2607,7 +4131,7 @@
 "pl": "Belastungen",
 "unit": null,
 "u": "",
-"q": 3324
+"q": 3438
 },
 {
 "word": "belegen",
@@ -2620,7 +4144,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3325
+"q": 3439
 },
 {
 "word": "sich bemühen um",
@@ -2633,7 +4157,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3326
+"q": 3440
 },
 {
 "word": "benutzerfreundlich",
@@ -2646,7 +4170,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3327
+"q": 3441
 },
 {
 "word": "die Benutzeroberfläche",
@@ -2661,7 +4185,7 @@
 "pl": "Benutzeroberflächen",
 "unit": null,
 "u": "",
-"q": 3328
+"q": 3442
 },
 {
 "word": "der Berater",
@@ -2676,7 +4200,7 @@
 "pl": "Berater",
 "unit": null,
 "u": "",
-"q": 3329
+"q": 3443
 },
 {
 "word": "berufen",
@@ -2690,7 +4214,7 @@
 "pp": "beruft, berief, hat berufen",
 "unit": null,
 "u": "",
-"q": 3330
+"q": 3444
 },
 {
 "word": "sich berufen auf",
@@ -2703,7 +4227,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3331
+"q": 3445
 },
 {
 "word": "die Berücksichtigung",
@@ -2717,7 +4241,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3332
+"q": 3446
 },
 {
 "word": "Bescheid geben",
@@ -2730,7 +4254,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3333
+"q": 3447
 },
 {
 "word": "der Beschluss",
@@ -2745,7 +4269,7 @@
 "pl": "Beschlüsse",
 "unit": null,
 "u": "",
-"q": 3334
+"q": 3448
 },
 {
 "word": "die Beschreibung",
@@ -2760,7 +4284,7 @@
 "pl": "Beschreibungen",
 "unit": null,
 "u": "",
-"q": 3335
+"q": 3449
 },
 {
 "word": "sich beschweren über",
@@ -2773,7 +4297,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3336
+"q": 3450
 },
 {
 "word": "sich beschäftigen mit",
@@ -2786,7 +4310,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3337
+"q": 3451
 },
 {
 "word": "der Besitz",
@@ -2800,7 +4324,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3338
+"q": 3452
 },
 {
 "word": "besorgt",
@@ -2813,7 +4337,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3339
+"q": 3453
 },
 {
 "word": "der Bestandteil",
@@ -2828,7 +4352,7 @@
 "pl": "Bestandteile",
 "unit": null,
 "u": "",
-"q": 3340
+"q": 3454
 },
 {
 "word": "bestehen auf",
@@ -2841,7 +4365,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3341
+"q": 3455
 },
 {
 "word": "bestehen aus",
@@ -2854,7 +4378,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3342
+"q": 3456
 },
 {
 "word": "bestimmen",
@@ -2867,7 +4391,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3343
+"q": 3457
 },
 {
 "word": "die Bestimmung",
@@ -2882,7 +4406,7 @@
 "pl": "Bestimmungen",
 "unit": null,
 "u": "",
-"q": 3344
+"q": 3458
 },
 {
 "word": "der Bestseller",
@@ -2897,7 +4421,7 @@
 "pl": "Bestseller",
 "unit": null,
 "u": "",
-"q": 3345
+"q": 3459
 },
 {
 "word": "die Beteiligung",
@@ -2912,7 +4436,7 @@
 "pl": "Beteiligungen",
 "unit": null,
 "u": "",
-"q": 3346
+"q": 3460
 },
 {
 "word": "betrachten",
@@ -2925,7 +4449,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3347
+"q": 3461
 },
 {
 "word": "betreiben",
@@ -2939,7 +4463,7 @@
 "pp": "betreibt, betrieb, hat betrieben",
 "unit": null,
 "u": "",
-"q": 3348
+"q": 3462
 },
 {
 "word": "der Betreiber",
@@ -2954,7 +4478,7 @@
 "pl": "Betreiber",
 "unit": null,
 "u": "",
-"q": 3349
+"q": 3463
 },
 {
 "word": "beurteilen",
@@ -2967,7 +4491,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3350
+"q": 3464
 },
 {
 "word": "bewahren",
@@ -2980,7 +4504,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3351
+"q": 3465
 },
 {
 "word": "der Bewegungsmangel",
@@ -2994,7 +4518,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3352
+"q": 3466
 },
 {
 "word": "sich bewerben um",
@@ -3007,7 +4531,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3353
+"q": 3467
 },
 {
 "word": "bewerten",
@@ -3020,7 +4544,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3354
+"q": 3468
 },
 {
 "word": "die Bewertung",
@@ -3035,7 +4559,7 @@
 "pl": "Bewertungen",
 "unit": null,
 "u": "",
-"q": 3355
+"q": 3469
 },
 {
 "word": "das Bewusstsein",
@@ -3049,7 +4573,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3356
+"q": 3470
 },
 {
 "word": "bezeichnen",
@@ -3062,7 +4586,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3357
+"q": 3471
 },
 {
 "word": "beziehen",
@@ -3076,7 +4600,7 @@
 "pp": "bezieht, bezog, hat bezogen",
 "unit": null,
 "u": "",
-"q": 3358
+"q": 3472
 },
 {
 "word": "sich beziehen auf",
@@ -3089,7 +4613,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3359
+"q": 3473
 },
 {
 "word": "beziehungsweise",
@@ -3102,7 +4626,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3360
+"q": 3474
 },
 {
 "word": "der Bezirk",
@@ -3117,7 +4641,7 @@
 "pl": "Bezirke",
 "unit": null,
 "u": "",
-"q": 3361
+"q": 3475
 },
 {
 "word": "der Bezug",
@@ -3132,20 +4656,7 @@
 "pl": "Bezüge",
 "unit": null,
 "u": "",
-"q": 3362
-},
-{
-"word": "bezüglich",
-"m": {
-"es": "respecto a",
-"en": "regarding"
-},
-"pos": "",
-"w": "bezüglich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3363
+"q": 3476
 },
 {
 "word": "die Bilanz",
@@ -3160,7 +4671,7 @@
 "pl": "Bilanzen",
 "unit": null,
 "u": "",
-"q": 3364
+"q": 3477
 },
 {
 "word": "bilden",
@@ -3173,7 +4684,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3365
+"q": 3478
 },
 {
 "word": "sich bilden",
@@ -3186,7 +4697,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3366
+"q": 3479
 },
 {
 "word": "bislang",
@@ -3199,7 +4710,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3367
+"q": 3480
 },
 {
 "word": "der Blutdruck",
@@ -3213,7 +4724,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3368
+"q": 3481
 },
 {
 "word": "der Botschafter",
@@ -3228,7 +4739,7 @@
 "pl": "Botschafter",
 "unit": null,
 "u": "",
-"q": 3369
+"q": 3482
 },
 {
 "word": "die Branche",
@@ -3243,7 +4754,7 @@
 "pl": "Branchen",
 "unit": null,
 "u": "",
-"q": 3370
+"q": 3483
 },
 {
 "word": "das Budget",
@@ -3258,7 +4769,7 @@
 "pl": "Budgets",
 "unit": null,
 "u": "",
-"q": 3371
+"q": 3484
 },
 {
 "word": "der Bund",
@@ -3272,7 +4783,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3372
+"q": 3485
 },
 {
 "word": "die Bundesregierung",
@@ -3286,7 +4797,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3373
+"q": 3486
 },
 {
 "word": "die Bundesrepublik",
@@ -3300,7 +4811,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3374
+"q": 3487
 },
 {
 "word": "der Bundestag",
@@ -3314,7 +4825,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3375
+"q": 3488
 },
 {
 "word": "bundesweit",
@@ -3327,7 +4838,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3376
+"q": 3489
 },
 {
 "word": "das Burnout",
@@ -3341,7 +4852,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3377
+"q": 3490
 },
 {
 "word": "die Börse",
@@ -3356,7 +4867,7 @@
 "pl": "Börsen",
 "unit": null,
 "u": "",
-"q": 3378
+"q": 3491
 },
 {
 "word": "das Bündnis",
@@ -3371,7 +4882,7 @@
 "pl": "Bündnisse",
 "unit": null,
 "u": "",
-"q": 3379
+"q": 3492
 },
 {
 "word": "der Bürgermeister",
@@ -3386,7 +4897,7 @@
 "pl": "Bürgermeister",
 "unit": null,
 "u": "",
-"q": 3380
+"q": 3493
 },
 {
 "word": "die Chancengleichheit",
@@ -3400,7 +4911,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3381
+"q": 3494
 },
 {
 "word": "das Chaos",
@@ -3414,7 +4925,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3382
+"q": 3495
 },
 {
 "word": "die Chemie",
@@ -3428,7 +4939,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3383
+"q": 3496
 },
 {
 "word": "chronisch",
@@ -3441,7 +4952,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3384
+"q": 3497
 },
 {
 "word": "die Cloud",
@@ -3456,7 +4967,7 @@
 "pl": "Clouds",
 "unit": null,
 "u": "",
-"q": 3385
+"q": 3498
 },
 {
 "word": "der Code",
@@ -3471,20 +4982,7 @@
 "pl": "Codes",
 "unit": null,
 "u": "",
-"q": 3386
-},
-{
-"word": "dadurch dass",
-"m": {
-"es": "por el hecho de que",
-"en": "by the fact that"
-},
-"pos": "",
-"w": "dadurch dass",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3387
+"q": 3499
 },
 {
 "word": "dank",
@@ -3497,7 +4995,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3388
+"q": 3500
 },
 {
 "word": "die Dankbarkeit",
@@ -3511,20 +5009,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3389
-},
-{
-"word": "daraufhin",
-"m": {
-"es": "a continuación, a raíz de ello",
-"en": "thereupon"
-},
-"pos": "verb",
-"w": "daraufhin",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3390
+"q": 3501
 },
 {
 "word": "darlegen",
@@ -3537,7 +5022,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3391
+"q": 3502
 },
 {
 "word": "die Datenbank",
@@ -3552,7 +5037,7 @@
 "pl": "Datenbanken",
 "unit": null,
 "u": "",
-"q": 3392
+"q": 3503
 },
 {
 "word": "der Datenschutz",
@@ -3566,7 +5051,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3393
+"q": 3504
 },
 {
 "word": "dauerhaft",
@@ -3579,7 +5064,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3394
+"q": 3505
 },
 {
 "word": "die Debatte",
@@ -3594,7 +5079,7 @@
 "pl": "Debatten",
 "unit": null,
 "u": "",
-"q": 3395
+"q": 3506
 },
 {
 "word": "die Definition",
@@ -3609,7 +5094,7 @@
 "pl": "Definitionen",
 "unit": null,
 "u": "",
-"q": 3396
+"q": 3507
 },
 {
 "word": "dementsprechend",
@@ -3622,20 +5107,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3397
-},
-{
-"word": "demnach",
-"m": {
-"es": "según eso",
-"en": "accordingly"
-},
-"pos": "",
-"w": "demnach",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3398
+"q": 3508
 },
 {
 "word": "demnächst",
@@ -3648,7 +5120,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3399
+"q": 3509
 },
 {
 "word": "die Demokratie",
@@ -3663,7 +5135,7 @@
 "pl": "Demokratien",
 "unit": null,
 "u": "",
-"q": 3400
+"q": 3510
 },
 {
 "word": "demokratisch",
@@ -3676,7 +5148,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3401
+"q": 3511
 },
 {
 "word": "die Demonstration",
@@ -3691,7 +5163,7 @@
 "pl": "Demonstrationen",
 "unit": null,
 "u": "",
-"q": 3402
+"q": 3512
 },
 {
 "word": "demzufolge",
@@ -3704,7 +5176,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3403
+"q": 3513
 },
 {
 "word": "denkbar",
@@ -3717,7 +5189,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3404
+"q": 3514
 },
 {
 "word": "dennoch",
@@ -3730,7 +5202,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3405
+"q": 3515
 },
 {
 "word": "derzeit",
@@ -3743,7 +5215,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3406
+"q": 3516
 },
 {
 "word": "das Design",
@@ -3758,7 +5230,7 @@
 "pl": "Designs",
 "unit": null,
 "u": "",
-"q": 3407
+"q": 3517
 },
 {
 "word": "die Diagnose",
@@ -3773,7 +5245,7 @@
 "pl": "Diagnosen",
 "unit": null,
 "u": "",
-"q": 3408
+"q": 3518
 },
 {
 "word": "der Dichter",
@@ -3788,7 +5260,7 @@
 "pl": "Dichter",
 "unit": null,
 "u": "",
-"q": 3409
+"q": 3519
 },
 {
 "word": "die Digitalisierung",
@@ -3802,7 +5274,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3410
+"q": 3520
 },
 {
 "word": "die Diktatur",
@@ -3817,7 +5289,7 @@
 "pl": "Diktaturen",
 "unit": null,
 "u": "",
-"q": 3411
+"q": 3521
 },
 {
 "word": "die Disziplin",
@@ -3832,7 +5304,7 @@
 "pl": "Disziplinen",
 "unit": null,
 "u": "",
-"q": 3412
+"q": 3522
 },
 {
 "word": "die Dokumentation",
@@ -3847,7 +5319,7 @@
 "pl": "Dokumentationen",
 "unit": null,
 "u": "",
-"q": 3413
+"q": 3523
 },
 {
 "word": "das Drama",
@@ -3862,7 +5334,7 @@
 "pl": "Dramen",
 "unit": null,
 "u": "",
-"q": 3414
+"q": 3524
 },
 {
 "word": "das Drittel",
@@ -3877,7 +5349,7 @@
 "pl": "Drittel",
 "unit": null,
 "u": "",
-"q": 3415
+"q": 3525
 },
 {
 "word": "drittens",
@@ -3890,7 +5362,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3416
+"q": 3526
 },
 {
 "word": "durchaus",
@@ -3903,7 +5375,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3417
+"q": 3527
 },
 {
 "word": "durchfallen",
@@ -3917,7 +5389,7 @@
 "pp": "fällt durch, fiel durch, ist durchgefallen",
 "unit": null,
 "u": "",
-"q": 3418
+"q": 3528
 },
 {
 "word": "durchsetzen",
@@ -3930,7 +5402,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3419
+"q": 3529
 },
 {
 "word": "sich durchsetzen",
@@ -3943,7 +5415,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3420
+"q": 3530
 },
 {
 "word": "die Dürre",
@@ -3958,7 +5430,7 @@
 "pl": "Dürren",
 "unit": null,
 "u": "",
-"q": 3421
+"q": 3531
 },
 {
 "word": "die Ebene",
@@ -3973,7 +5445,7 @@
 "pl": "Ebenen",
 "unit": null,
 "u": "",
-"q": 3422
+"q": 3532
 },
 {
 "word": "der Effekt",
@@ -3988,22 +5460,7 @@
 "pl": "Effekte",
 "unit": null,
 "u": "",
-"q": 3423
-},
-{
-"word": "die Ehre",
-"m": {
-"es": "el honor · pl. die Ehren",
-"en": "honour · pl. die Ehren"
-},
-"pos": "noun",
-"w": "die Ehre",
-"p": "",
-"g": "f",
-"pl": "Ehren",
-"unit": null,
-"u": "",
-"q": 3424
+"q": 3533
 },
 {
 "word": "das Ehrenamt",
@@ -4018,7 +5475,7 @@
 "pl": "Ehrenämter",
 "unit": null,
 "u": "",
-"q": 3425
+"q": 3534
 },
 {
 "word": "ehrenamtlich",
@@ -4031,7 +5488,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3426
+"q": 3535
 },
 {
 "word": "die Eifersucht",
@@ -4045,20 +5502,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3427
-},
-{
-"word": "eifersüchtig",
-"m": {
-"es": "celoso",
-"en": "jealous"
-},
-"pos": "",
-"w": "eifersüchtig",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3428
+"q": 3536
 },
 {
 "word": "der Eigentümer",
@@ -4073,7 +5517,7 @@
 "pl": "Eigentümer",
 "unit": null,
 "u": "",
-"q": 3429
+"q": 3537
 },
 {
 "word": "eine Frage stellen",
@@ -4086,7 +5530,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3430
+"q": 3538
 },
 {
 "word": "die Einheit",
@@ -4101,7 +5545,7 @@
 "pl": "Einheiten",
 "unit": null,
 "u": "",
-"q": 3431
+"q": 3539
 },
 {
 "word": "die Einsamkeit",
@@ -4115,7 +5559,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3432
+"q": 3540
 },
 {
 "word": "der Einsatz",
@@ -4130,7 +5574,7 @@
 "pl": "Einsätze",
 "unit": null,
 "u": "",
-"q": 3433
+"q": 3541
 },
 {
 "word": "die Einschaltquote",
@@ -4145,7 +5589,7 @@
 "pl": "Einschaltquoten",
 "unit": null,
 "u": "",
-"q": 3434
+"q": 3542
 },
 {
 "word": "einschätzen",
@@ -4158,7 +5602,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3435
+"q": 3543
 },
 {
 "word": "die Einschätzung",
@@ -4173,7 +5617,7 @@
 "pl": "Einschätzungen",
 "unit": null,
 "u": "",
-"q": 3436
+"q": 3544
 },
 {
 "word": "sich einsetzen für",
@@ -4186,7 +5630,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3437
+"q": 3545
 },
 {
 "word": "die Einstellung",
@@ -4201,7 +5645,7 @@
 "pl": "Einstellungen",
 "unit": null,
 "u": "",
-"q": 3438
+"q": 3546
 },
 {
 "word": "der Einstieg",
@@ -4215,7 +5659,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3439
+"q": 3547
 },
 {
 "word": "der Eintrag",
@@ -4230,7 +5674,7 @@
 "pl": "Einträge",
 "unit": null,
 "u": "",
-"q": 3440
+"q": 3548
 },
 {
 "word": "die Einwanderung",
@@ -4244,7 +5688,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3441
+"q": 3549
 },
 {
 "word": "der Einzelfall",
@@ -4259,7 +5703,7 @@
 "pl": "Einzelfälle",
 "unit": null,
 "u": "",
-"q": 3442
+"q": 3550
 },
 {
 "word": "das Element",
@@ -4274,7 +5718,7 @@
 "pl": "Elemente",
 "unit": null,
 "u": "",
-"q": 3443
+"q": 3551
 },
 {
 "word": "die Elite",
@@ -4289,7 +5733,7 @@
 "pl": "Eliten",
 "unit": null,
 "u": "",
-"q": 3444
+"q": 3552
 },
 {
 "word": "die Emission",
@@ -4304,7 +5748,7 @@
 "pl": "Emissionen",
 "unit": null,
 "u": "",
-"q": 3445
+"q": 3553
 },
 {
 "word": "emotional",
@@ -4317,22 +5761,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3446
-},
-{
-"word": "die Empfehlung",
-"m": {
-"es": "la recomendación · pl. die Empfehlungen",
-"en": "recommendation · pl. die Empfehlungen"
-},
-"pos": "noun",
-"w": "die Empfehlung",
-"p": "",
-"g": "f",
-"pl": "Empfehlungen",
-"unit": null,
-"u": "",
-"q": 3447
+"q": 3554
 },
 {
 "word": "empfinden",
@@ -4346,7 +5775,7 @@
 "pp": "empfindet, empfand, hat empfunden",
 "unit": null,
 "u": "",
-"q": 3448
+"q": 3555
 },
 {
 "word": "das Engagement",
@@ -4361,7 +5790,7 @@
 "pl": "Engagements",
 "unit": null,
 "u": "",
-"q": 3449
+"q": 3556
 },
 {
 "word": "sich engagieren",
@@ -4374,7 +5803,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3450
+"q": 3557
 },
 {
 "word": "enorm",
@@ -4387,7 +5816,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3451
+"q": 3558
 },
 {
 "word": "die Entdeckung",
@@ -4402,20 +5831,7 @@
 "pl": "Entdeckungen",
 "unit": null,
 "u": "",
-"q": 3452
-},
-{
-"word": "entgegen",
-"m": {
-"es": "en contra de",
-"en": "contrary to"
-},
-"pos": "verb",
-"w": "entgegen",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3453
+"q": 3559
 },
 {
 "word": "entscheidend",
@@ -4428,7 +5844,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3454
+"q": 3560
 },
 {
 "word": "entspannt",
@@ -4441,7 +5857,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3455
+"q": 3561
 },
 {
 "word": "entsprechen",
@@ -4454,7 +5870,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3456
+"q": 3562
 },
 {
 "word": "die Entstehung",
@@ -4468,7 +5884,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3457
+"q": 3563
 },
 {
 "word": "der Entwickler",
@@ -4483,7 +5899,7 @@
 "pl": "Entwickler",
 "unit": null,
 "u": "",
-"q": 3458
+"q": 3564
 },
 {
 "word": "der Entwurf",
@@ -4498,7 +5914,7 @@
 "pl": "Entwürfe",
 "unit": null,
 "u": "",
-"q": 3459
+"q": 3565
 },
 {
 "word": "das Erbe",
@@ -4512,7 +5928,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3460
+"q": 3566
 },
 {
 "word": "die Erderwärmung",
@@ -4526,7 +5942,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3461
+"q": 3567
 },
 {
 "word": "das Erdöl",
@@ -4540,7 +5956,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3462
+"q": 3568
 },
 {
 "word": "erfolgen",
@@ -4553,7 +5969,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3463
+"q": 3569
 },
 {
 "word": "erforschen",
@@ -4566,7 +5982,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3464
+"q": 3570
 },
 {
 "word": "ergeben",
@@ -4580,7 +5996,7 @@
 "pp": "ergibt, ergab, hat ergeben",
 "unit": null,
 "u": "",
-"q": 3465
+"q": 3571
 },
 {
 "word": "sich ergeben",
@@ -4594,7 +6010,7 @@
 "pp": "ergibt, ergab, hat ergeben",
 "unit": null,
 "u": "",
-"q": 3466
+"q": 3572
 },
 {
 "word": "erheben",
@@ -4608,7 +6024,7 @@
 "pp": "erhebt, erhob, hat erhoben",
 "unit": null,
 "u": "",
-"q": 3467
+"q": 3573
 },
 {
 "word": "erheblich",
@@ -4621,7 +6037,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3468
+"q": 3574
 },
 {
 "word": "erhältlich",
@@ -4634,7 +6050,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3469
+"q": 3575
 },
 {
 "word": "die Erkenntnis",
@@ -4649,7 +6065,7 @@
 "pl": "Erkenntnisse",
 "unit": null,
 "u": "",
-"q": 3470
+"q": 3576
 },
 {
 "word": "die Erkrankung",
@@ -4664,7 +6080,7 @@
 "pl": "Erkrankungen",
 "unit": null,
 "u": "",
-"q": 3471
+"q": 3577
 },
 {
 "word": "sich erkundigen nach",
@@ -4677,7 +6093,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3472
+"q": 3578
 },
 {
 "word": "erlangen",
@@ -4690,7 +6106,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3473
+"q": 3579
 },
 {
 "word": "die Erleichterung",
@@ -4704,7 +6120,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3474
+"q": 3580
 },
 {
 "word": "erläutern",
@@ -4717,7 +6133,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3475
+"q": 3581
 },
 {
 "word": "ermitteln",
@@ -4730,7 +6146,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3476
+"q": 3582
 },
 {
 "word": "ermöglichen",
@@ -4743,7 +6159,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3477
+"q": 3583
 },
 {
 "word": "erneuerbar",
@@ -4756,7 +6172,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3478
+"q": 3584
 },
 {
 "word": "die erneuerbaren Energien",
@@ -4770,7 +6186,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3479
+"q": 3585
 },
 {
 "word": "erneut",
@@ -4783,7 +6199,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3480
+"q": 3586
 },
 {
 "word": "ernsthaft",
@@ -4796,7 +6212,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3481
+"q": 3587
 },
 {
 "word": "der Ersatz",
@@ -4810,7 +6226,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3482
+"q": 3588
 },
 {
 "word": "ersetzen",
@@ -4823,20 +6239,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3483
-},
-{
-"word": "erstaunlich",
-"m": {
-"es": "asombroso",
-"en": "astonishing"
-},
-"pos": "",
-"w": "erstaunlich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3484
+"q": 3589
 },
 {
 "word": "erstellen",
@@ -4849,7 +6252,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3485
+"q": 3590
 },
 {
 "word": "erstens",
@@ -4862,7 +6265,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3486
+"q": 3591
 },
 {
 "word": "erstmals",
@@ -4875,7 +6278,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3487
+"q": 3592
 },
 {
 "word": "ertragen",
@@ -4889,7 +6292,7 @@
 "pp": "erträgt, ertrug, hat ertragen",
 "unit": null,
 "u": "",
-"q": 3488
+"q": 3593
 },
 {
 "word": "erwarten",
@@ -4902,7 +6305,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3489
+"q": 3594
 },
 {
 "word": "erweitern",
@@ -4915,7 +6318,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3490
+"q": 3595
 },
 {
 "word": "die Erweiterung",
@@ -4930,7 +6333,7 @@
 "pl": "Erweiterungen",
 "unit": null,
 "u": "",
-"q": 3491
+"q": 3596
 },
 {
 "word": "erwerben",
@@ -4944,7 +6347,7 @@
 "pp": "erwirbt, erwarb, hat erworben",
 "unit": null,
 "u": "",
-"q": 3492
+"q": 3597
 },
 {
 "word": "erwähnen",
@@ -4957,7 +6360,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3493
+"q": 3598
 },
 {
 "word": "erziehen",
@@ -4971,7 +6374,7 @@
 "pp": "erzieht, erzog, hat erzogen",
 "unit": null,
 "u": "",
-"q": 3494
+"q": 3599
 },
 {
 "word": "die Erziehung",
@@ -4985,7 +6388,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3495
+"q": 3600
 },
 {
 "word": "erzielen",
@@ -4998,7 +6401,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3496
+"q": 3601
 },
 {
 "word": "der Erzähler",
@@ -5013,7 +6416,7 @@
 "pl": "Erzähler",
 "unit": null,
 "u": "",
-"q": 3497
+"q": 3602
 },
 {
 "word": "die Erzählung",
@@ -5028,7 +6431,7 @@
 "pl": "Erzählungen",
 "unit": null,
 "u": "",
-"q": 3498
+"q": 3603
 },
 {
 "word": "die Eröffnung",
@@ -5043,33 +6446,7 @@
 "pl": "Eröffnungen",
 "unit": null,
 "u": "",
-"q": 3499
-},
-{
-"word": "es handelt sich um",
-"m": {
-"es": "se trata de",
-"en": "it is about"
-},
-"pos": "",
-"w": "es handelt sich um",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3500
-},
-{
-"word": "es sei denn",
-"m": {
-"es": "a no ser que",
-"en": "unless"
-},
-"pos": "",
-"w": "es sei denn",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3501
+"q": 3604
 },
 {
 "word": "die Ethik",
@@ -5083,7 +6460,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3502
+"q": 3605
 },
 {
 "word": "die Existenz",
@@ -5098,7 +6475,7 @@
 "pl": "Existenzen",
 "unit": null,
 "u": "",
-"q": 3503
+"q": 3606
 },
 {
 "word": "existieren",
@@ -5111,7 +6488,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3504
+"q": 3607
 },
 {
 "word": "das Experiment",
@@ -5126,7 +6503,7 @@
 "pl": "Experimente",
 "unit": null,
 "u": "",
-"q": 3505
+"q": 3608
 },
 {
 "word": "exportieren",
@@ -5139,7 +6516,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3506
+"q": 3609
 },
 {
 "word": "die Fachkraft",
@@ -5154,7 +6531,7 @@
 "pl": "Fachkräfte",
 "unit": null,
 "u": "",
-"q": 3507
+"q": 3610
 },
 {
 "word": "der Fachkräftemangel",
@@ -5168,7 +6545,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3508
+"q": 3611
 },
 {
 "word": "die Fake News",
@@ -5182,7 +6559,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3509
+"q": 3612
 },
 {
 "word": "die Fassung",
@@ -5197,7 +6574,7 @@
 "pl": "Fassungen",
 "unit": null,
 "u": "",
-"q": 3510
+"q": 3613
 },
 {
 "word": "das Fazit",
@@ -5212,7 +6589,7 @@
 "pl": "Fazits",
 "unit": null,
 "u": "",
-"q": 3511
+"q": 3614
 },
 {
 "word": "der Feind",
@@ -5227,7 +6604,7 @@
 "pl": "Feinde",
 "unit": null,
 "u": "",
-"q": 3512
+"q": 3615
 },
 {
 "word": "ferner",
@@ -5240,7 +6617,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3513
+"q": 3616
 },
 {
 "word": "die Finanzierung",
@@ -5255,7 +6632,7 @@
 "pl": "Finanzierungen",
 "unit": null,
 "u": "",
-"q": 3514
+"q": 3617
 },
 {
 "word": "der Flüchtling",
@@ -5270,7 +6647,7 @@
 "pl": "Flüchtlinge",
 "unit": null,
 "u": "",
-"q": 3515
+"q": 3618
 },
 {
 "word": "der Fokus",
@@ -5284,20 +6661,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3516
-},
-{
-"word": "folglich",
-"m": {
-"es": "por consiguiente",
-"en": "consequently"
-},
-"pos": "",
-"w": "folglich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3517
+"q": 3619
 },
 {
 "word": "das Format",
@@ -5312,7 +6676,7 @@
 "pl": "Formate",
 "unit": null,
 "u": "",
-"q": 3518
+"q": 3620
 },
 {
 "word": "die Formel",
@@ -5327,7 +6691,7 @@
 "pl": "Formeln",
 "unit": null,
 "u": "",
-"q": 3519
+"q": 3621
 },
 {
 "word": "der Forscher",
@@ -5342,7 +6706,7 @@
 "pl": "Forscher",
 "unit": null,
 "u": "",
-"q": 3520
+"q": 3622
 },
 {
 "word": "die Forscherin",
@@ -5357,7 +6721,7 @@
 "pl": "Forscherinnen",
 "unit": null,
 "u": "",
-"q": 3521
+"q": 3623
 },
 {
 "word": "fragwürdig",
@@ -5370,7 +6734,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3522
+"q": 3624
 },
 {
 "word": "freilich",
@@ -5383,7 +6747,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3523
+"q": 3625
 },
 {
 "word": "fremdenfeindlich",
@@ -5396,7 +6760,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3524
+"q": 3626
 },
 {
 "word": "friedlich",
@@ -5409,7 +6773,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3525
+"q": 3627
 },
 {
 "word": "die Funktion",
@@ -5424,7 +6788,7 @@
 "pl": "Funktionen",
 "unit": null,
 "u": "",
-"q": 3526
+"q": 3628
 },
 {
 "word": "der Gebrauch",
@@ -5438,7 +6802,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3527
+"q": 3629
 },
 {
 "word": "das Gedächtnis",
@@ -5452,7 +6816,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3528
+"q": 3630
 },
 {
 "word": "gefährdet",
@@ -5465,7 +6829,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3529
+"q": 3631
 },
 {
 "word": "gegenseitig",
@@ -5478,7 +6842,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3530
+"q": 3632
 },
 {
 "word": "die Gegenwart",
@@ -5492,7 +6856,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3531
+"q": 3633
 },
 {
 "word": "die Gehaltserhöhung",
@@ -5507,7 +6871,7 @@
 "pl": "Gehaltserhöhungen",
 "unit": null,
 "u": "",
-"q": 3532
+"q": 3634
 },
 {
 "word": "das Gehirn",
@@ -5522,7 +6886,7 @@
 "pl": "Gehirne",
 "unit": null,
 "u": "",
-"q": 3533
+"q": 3635
 },
 {
 "word": "die Gelassenheit",
@@ -5536,7 +6900,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3534
+"q": 3636
 },
 {
 "word": "gelegentlich",
@@ -5549,7 +6913,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3535
+"q": 3637
 },
 {
 "word": "gelten als",
@@ -5562,7 +6926,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3536
+"q": 3638
 },
 {
 "word": "die Gemeinde",
@@ -5577,7 +6941,7 @@
 "pl": "Gemeinden",
 "unit": null,
 "u": "",
-"q": 3537
+"q": 3639
 },
 {
 "word": "das Gemälde",
@@ -5592,7 +6956,7 @@
 "pl": "Gemälde",
 "unit": null,
 "u": "",
-"q": 3538
+"q": 3640
 },
 {
 "word": "die Genehmigung",
@@ -5607,7 +6971,7 @@
 "pl": "Genehmigungen",
 "unit": null,
 "u": "",
-"q": 3539
+"q": 3641
 },
 {
 "word": "der Generationenkonflikt",
@@ -5622,7 +6986,7 @@
 "pl": "Generationenkonflikte",
 "unit": null,
 "u": "",
-"q": 3540
+"q": 3642
 },
 {
 "word": "generell",
@@ -5635,7 +6999,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3541
+"q": 3643
 },
 {
 "word": "genial",
@@ -5648,7 +7012,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3542
+"q": 3644
 },
 {
 "word": "der Genuss",
@@ -5663,7 +7027,7 @@
 "pl": "Genüsse",
 "unit": null,
 "u": "",
-"q": 3543
+"q": 3645
 },
 {
 "word": "geradezu",
@@ -5676,7 +7040,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3544
+"q": 3646
 },
 {
 "word": "die Gerechtigkeit",
@@ -5690,7 +7054,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3545
+"q": 3647
 },
 {
 "word": "der Geruch",
@@ -5705,7 +7069,7 @@
 "pl": "Gerüche",
 "unit": null,
 "u": "",
-"q": 3546
+"q": 3648
 },
 {
 "word": "gescheitert",
@@ -5718,7 +7082,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3547
+"q": 3649
 },
 {
 "word": "geschweige denn",
@@ -5731,7 +7095,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3548
+"q": 3650
 },
 {
 "word": "der Geschäftsführer",
@@ -5746,7 +7110,7 @@
 "pl": "Geschäftsführer",
 "unit": null,
 "u": "",
-"q": 3549
+"q": 3651
 },
 {
 "word": "gesellschaftlich",
@@ -5759,7 +7123,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3550
+"q": 3652
 },
 {
 "word": "gesetzlich",
@@ -5772,7 +7136,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3551
+"q": 3653
 },
 {
 "word": "gestalten",
@@ -5785,7 +7149,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3552
+"q": 3654
 },
 {
 "word": "die Gestaltung",
@@ -5800,7 +7164,7 @@
 "pl": "Gestaltungen",
 "unit": null,
 "u": "",
-"q": 3553
+"q": 3655
 },
 {
 "word": "das Gesundheitswesen",
@@ -5814,7 +7178,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3554
+"q": 3656
 },
 {
 "word": "der Gewinner",
@@ -5829,7 +7193,7 @@
 "pl": "Gewinner",
 "unit": null,
 "u": "",
-"q": 3555
+"q": 3657
 },
 {
 "word": "sich gewöhnen an",
@@ -5842,7 +7206,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3556
+"q": 3658
 },
 {
 "word": "gezielt",
@@ -5855,7 +7219,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3557
+"q": 3659
 },
 {
 "word": "glaubwürdig",
@@ -5868,7 +7232,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3558
+"q": 3660
 },
 {
 "word": "die Glaubwürdigkeit",
@@ -5882,7 +7246,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3559
+"q": 3661
 },
 {
 "word": "die Gleichberechtigung",
@@ -5896,7 +7260,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3560
+"q": 3662
 },
 {
 "word": "die Gleitzeit",
@@ -5910,7 +7274,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3561
+"q": 3663
 },
 {
 "word": "global",
@@ -5923,7 +7287,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3562
+"q": 3664
 },
 {
 "word": "die Globalisierung",
@@ -5937,7 +7301,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3563
+"q": 3665
 },
 {
 "word": "grob",
@@ -5950,7 +7314,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3564
+"q": 3666
 },
 {
 "word": "die Grundlage",
@@ -5965,7 +7329,7 @@
 "pl": "Grundlagen",
 "unit": null,
 "u": "",
-"q": 3565
+"q": 3667
 },
 {
 "word": "grundsätzlich",
@@ -5978,7 +7342,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3566
+"q": 3668
 },
 {
 "word": "die Gründung",
@@ -5993,7 +7357,7 @@
 "pl": "Gründungen",
 "unit": null,
 "u": "",
-"q": 3567
+"q": 3669
 },
 {
 "word": "das Gutachten",
@@ -6008,7 +7372,7 @@
 "pl": "Gutachten",
 "unit": null,
 "u": "",
-"q": 3568
+"q": 3670
 },
 {
 "word": "die Haltung",
@@ -6023,7 +7387,7 @@
 "pl": "Haltungen",
 "unit": null,
 "u": "",
-"q": 3569
+"q": 3671
 },
 {
 "word": "handeln",
@@ -6036,7 +7400,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3570
+"q": 3672
 },
 {
 "word": "die Handlung",
@@ -6051,7 +7415,7 @@
 "pl": "Handlungen",
 "unit": null,
 "u": "",
-"q": 3571
+"q": 3673
 },
 {
 "word": "das Handwerk",
@@ -6065,7 +7429,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3572
+"q": 3674
 },
 {
 "word": "hauptsächlich",
@@ -6078,7 +7442,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3573
+"q": 3675
 },
 {
 "word": "die Hausarbeit",
@@ -6093,7 +7457,7 @@
 "pl": "Hausarbeiten",
 "unit": null,
 "u": "",
-"q": 3574
+"q": 3676
 },
 {
 "word": "heilen",
@@ -6106,7 +7470,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3575
+"q": 3677
 },
 {
 "word": "der Helfer",
@@ -6121,7 +7485,7 @@
 "pl": "Helfer",
 "unit": null,
 "u": "",
-"q": 3576
+"q": 3678
 },
 {
 "word": "herrlich",
@@ -6134,7 +7498,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3577
+"q": 3679
 },
 {
 "word": "die Herstellung",
@@ -6148,7 +7512,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3578
+"q": 3680
 },
 {
 "word": "hervorheben",
@@ -6162,7 +7526,7 @@
 "pp": "vorhebt her, vorhob her, hat hervorhoben",
 "unit": null,
 "u": "",
-"q": 3579
+"q": 3681
 },
 {
 "word": "hervorragend",
@@ -6175,7 +7539,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3580
+"q": 3682
 },
 {
 "word": "heutzutage",
@@ -6188,7 +7552,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3581
+"q": 3683
 },
 {
 "word": "Hilfe leisten",
@@ -6201,7 +7565,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3582
+"q": 3684
 },
 {
 "word": "hilfreich",
@@ -6214,7 +7578,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3583
+"q": 3685
 },
 {
 "word": "hingegen",
@@ -6227,7 +7591,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3584
+"q": 3686
 },
 {
 "word": "die Hinsicht",
@@ -6241,20 +7605,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3585
-},
-{
-"word": "hinsichtlich",
-"m": {
-"es": "en cuanto a",
-"en": "with regard to"
-},
-"pos": "",
-"w": "hinsichtlich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3586
+"q": 3687
 },
 {
 "word": "der Hintergrund",
@@ -6269,7 +7620,7 @@
 "pl": "Hintergründe",
 "unit": null,
 "u": "",
-"q": 3587
+"q": 3688
 },
 {
 "word": "die Hochschule",
@@ -6284,7 +7635,7 @@
 "pl": "Hochschulen",
 "unit": null,
 "u": "",
-"q": 3588
+"q": 3689
 },
 {
 "word": "das Hochwasser",
@@ -6298,7 +7649,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3589
+"q": 3690
 },
 {
 "word": "das Homeoffice",
@@ -6312,7 +7663,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3590
+"q": 3691
 },
 {
 "word": "die Hypothese",
@@ -6327,7 +7678,7 @@
 "pl": "Hypothesen",
 "unit": null,
 "u": "",
-"q": 3591
+"q": 3692
 },
 {
 "word": "der Höhepunkt",
@@ -6342,7 +7693,7 @@
 "pl": "Höhepunkte",
 "unit": null,
 "u": "",
-"q": 3592
+"q": 3693
 },
 {
 "word": "identifizieren",
@@ -6355,7 +7706,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3593
+"q": 3694
 },
 {
 "word": "die Identität",
@@ -6370,7 +7721,7 @@
 "pl": "Identitäten",
 "unit": null,
 "u": "",
-"q": 3594
+"q": 3695
 },
 {
 "word": "ignorieren",
@@ -6383,7 +7734,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3595
+"q": 3696
 },
 {
 "word": "im Rahmen",
@@ -6396,7 +7747,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3596
+"q": 3697
 },
 {
 "word": "im Vorfeld",
@@ -6409,7 +7760,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3597
+"q": 3698
 },
 {
 "word": "das Image",
@@ -6424,7 +7775,7 @@
 "pl": "Images",
 "unit": null,
 "u": "",
-"q": 3598
+"q": 3699
 },
 {
 "word": "immerhin",
@@ -6437,7 +7788,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3599
+"q": 3700
 },
 {
 "word": "das Immunsystem",
@@ -6452,7 +7803,7 @@
 "pl": "Immunsysteme",
 "unit": null,
 "u": "",
-"q": 3600
+"q": 3701
 },
 {
 "word": "der Impfstoff",
@@ -6467,7 +7818,7 @@
 "pl": "Impfstoffe",
 "unit": null,
 "u": "",
-"q": 3601
+"q": 3702
 },
 {
 "word": "die Impfung",
@@ -6482,7 +7833,7 @@
 "pl": "Impfungen",
 "unit": null,
 "u": "",
-"q": 3602
+"q": 3703
 },
 {
 "word": "importieren",
@@ -6495,7 +7846,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3603
+"q": 3704
 },
 {
 "word": "in Bezug auf",
@@ -6508,7 +7859,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3604
+"q": 3705
 },
 {
 "word": "in dieser Hinsicht",
@@ -6521,7 +7872,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3605
+"q": 3706
 },
 {
 "word": "die Inflation",
@@ -6535,7 +7886,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3606
+"q": 3707
 },
 {
 "word": "infolgedessen",
@@ -6548,7 +7899,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3607
+"q": 3708
 },
 {
 "word": "die Informatik",
@@ -6562,7 +7913,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3608
+"q": 3709
 },
 {
 "word": "die Infrastruktur",
@@ -6577,7 +7928,7 @@
 "pl": "Infrastrukturen",
 "unit": null,
 "u": "",
-"q": 3609
+"q": 3710
 },
 {
 "word": "der Inhaber",
@@ -6592,7 +7943,7 @@
 "pl": "Inhaber",
 "unit": null,
 "u": "",
-"q": 3610
+"q": 3711
 },
 {
 "word": "die Initiative",
@@ -6607,7 +7958,7 @@
 "pl": "Initiativen",
 "unit": null,
 "u": "",
-"q": 3611
+"q": 3712
 },
 {
 "word": "die Innenstadt",
@@ -6622,7 +7973,7 @@
 "pl": "Innenstädte",
 "unit": null,
 "u": "",
-"q": 3612
+"q": 3713
 },
 {
 "word": "insbesondere",
@@ -6635,7 +7986,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3613
+"q": 3714
 },
 {
 "word": "insofern",
@@ -6648,7 +7999,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3614
+"q": 3715
 },
 {
 "word": "inszenieren",
@@ -6661,7 +8012,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3615
+"q": 3716
 },
 {
 "word": "die Interpretation",
@@ -6676,7 +8027,7 @@
 "pl": "Interpretationen",
 "unit": null,
 "u": "",
-"q": 3616
+"q": 3717
 },
 {
 "word": "investieren",
@@ -6689,7 +8040,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3617
+"q": 3718
 },
 {
 "word": "die Investition",
@@ -6704,7 +8055,7 @@
 "pl": "Investitionen",
 "unit": null,
 "u": "",
-"q": 3618
+"q": 3719
 },
 {
 "word": "jahrelang",
@@ -6717,7 +8068,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3619
+"q": 3720
 },
 {
 "word": "je nachdem",
@@ -6730,7 +8081,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3620
+"q": 3721
 },
 {
 "word": "jedenfalls",
@@ -6743,7 +8094,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3621
+"q": 3722
 },
 {
 "word": "die Justiz",
@@ -6757,7 +8108,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3622
+"q": 3723
 },
 {
 "word": "die Kampagne",
@@ -6772,7 +8123,7 @@
 "pl": "Kampagnen",
 "unit": null,
 "u": "",
-"q": 3623
+"q": 3724
 },
 {
 "word": "der Kanzler",
@@ -6787,7 +8138,7 @@
 "pl": "Kanzler",
 "unit": null,
 "u": "",
-"q": 3624
+"q": 3725
 },
 {
 "word": "die Kanzlerin",
@@ -6802,7 +8153,7 @@
 "pl": "Kanzlerinnen",
 "unit": null,
 "u": "",
-"q": 3625
+"q": 3726
 },
 {
 "word": "das Kapital",
@@ -6816,7 +8167,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3626
+"q": 3727
 },
 {
 "word": "die Kategorie",
@@ -6831,7 +8182,7 @@
 "pl": "Kategorien",
 "unit": null,
 "u": "",
-"q": 3627
+"q": 3728
 },
 {
 "word": "kaum dass",
@@ -6844,7 +8195,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3628
+"q": 3729
 },
 {
 "word": "keineswegs",
@@ -6857,7 +8208,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3629
+"q": 3730
 },
 {
 "word": "die Kenntnis",
@@ -6872,7 +8223,7 @@
 "pl": "Kenntnisse",
 "unit": null,
 "u": "",
-"q": 3630
+"q": 3731
 },
 {
 "word": "der Kern",
@@ -6887,7 +8238,7 @@
 "pl": "Kerne",
 "unit": null,
 "u": "",
-"q": 3631
+"q": 3732
 },
 {
 "word": "die Klage",
@@ -6902,7 +8253,7 @@
 "pl": "Klagen",
 "unit": null,
 "u": "",
-"q": 3632
+"q": 3733
 },
 {
 "word": "der Klassiker",
@@ -6917,7 +8268,7 @@
 "pl": "Klassiker",
 "unit": null,
 "u": "",
-"q": 3633
+"q": 3734
 },
 {
 "word": "der Klimawandel",
@@ -6931,7 +8282,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3634
+"q": 3735
 },
 {
 "word": "die Koalition",
@@ -6946,7 +8297,7 @@
 "pl": "Koalitionen",
 "unit": null,
 "u": "",
-"q": 3635
+"q": 3736
 },
 {
 "word": "die Kohle",
@@ -6960,7 +8311,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3636
+"q": 3737
 },
 {
 "word": "das Kohlendioxid",
@@ -6974,7 +8325,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3637
+"q": 3738
 },
 {
 "word": "die Kombination",
@@ -6989,7 +8340,7 @@
 "pl": "Kombinationen",
 "unit": null,
 "u": "",
-"q": 3638
+"q": 3739
 },
 {
 "word": "der Kommentar",
@@ -7004,7 +8355,7 @@
 "pl": "Kommentare",
 "unit": null,
 "u": "",
-"q": 3639
+"q": 3740
 },
 {
 "word": "kommentieren",
@@ -7017,7 +8368,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3640
+"q": 3741
 },
 {
 "word": "die Kommission",
@@ -7032,7 +8383,7 @@
 "pl": "Kommissionen",
 "unit": null,
 "u": "",
-"q": 3641
+"q": 3742
 },
 {
 "word": "kompetent",
@@ -7045,7 +8396,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3642
+"q": 3743
 },
 {
 "word": "die Kompetenz",
@@ -7060,7 +8411,7 @@
 "pl": "Kompetenzen",
 "unit": null,
 "u": "",
-"q": 3643
+"q": 3744
 },
 {
 "word": "komplex",
@@ -7073,7 +8424,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3644
+"q": 3745
 },
 {
 "word": "komponieren",
@@ -7086,7 +8437,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3645
+"q": 3746
 },
 {
 "word": "konkret",
@@ -7099,7 +8450,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3646
+"q": 3747
 },
 {
 "word": "der Konkurrent",
@@ -7114,7 +8465,7 @@
 "pl": "Konkurrenten",
 "unit": null,
 "u": "",
-"q": 3647
+"q": 3748
 },
 {
 "word": "konsequent",
@@ -7127,7 +8478,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3648
+"q": 3749
 },
 {
 "word": "die Konsequenz",
@@ -7142,7 +8493,7 @@
 "pl": "Konsequenzen",
 "unit": null,
 "u": "",
-"q": 3649
+"q": 3750
 },
 {
 "word": "konstant",
@@ -7155,7 +8506,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3650
+"q": 3751
 },
 {
 "word": "der Konsum",
@@ -7169,7 +8520,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3651
+"q": 3752
 },
 {
 "word": "der Kontext",
@@ -7184,7 +8535,7 @@
 "pl": "Kontexte",
 "unit": null,
 "u": "",
-"q": 3652
+"q": 3753
 },
 {
 "word": "die Konzentration",
@@ -7199,7 +8550,7 @@
 "pl": "Konzentrationen",
 "unit": null,
 "u": "",
-"q": 3653
+"q": 3754
 },
 {
 "word": "das Konzept",
@@ -7214,7 +8565,7 @@
 "pl": "Konzepte",
 "unit": null,
 "u": "",
-"q": 3654
+"q": 3755
 },
 {
 "word": "der Konzern",
@@ -7229,7 +8580,7 @@
 "pl": "Konzerne",
 "unit": null,
 "u": "",
-"q": 3655
+"q": 3756
 },
 {
 "word": "die Kooperation",
@@ -7244,7 +8595,7 @@
 "pl": "Kooperationen",
 "unit": null,
 "u": "",
-"q": 3656
+"q": 3757
 },
 {
 "word": "kostenpflichtig",
@@ -7257,7 +8608,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3657
+"q": 3758
 },
 {
 "word": "der Krebs",
@@ -7271,7 +8622,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3658
+"q": 3759
 },
 {
 "word": "der Kritiker",
@@ -7286,7 +8637,7 @@
 "pl": "Kritiker",
 "unit": null,
 "u": "",
-"q": 3659
+"q": 3760
 },
 {
 "word": "das Kulturerbe",
@@ -7300,7 +8651,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3660
+"q": 3761
 },
 {
 "word": "die Kunstausstellung",
@@ -7315,7 +8666,7 @@
 "pl": "Kunstausstellungen",
 "unit": null,
 "u": "",
-"q": 3661
+"q": 3762
 },
 {
 "word": "kurzfristig",
@@ -7328,7 +8679,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3662
+"q": 3763
 },
 {
 "word": "körperlich",
@@ -7341,7 +8692,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3663
+"q": 3764
 },
 {
 "word": "sich kümmern um",
@@ -7354,7 +8705,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3664
+"q": 3765
 },
 {
 "word": "die Kündigungsfrist",
@@ -7369,7 +8720,7 @@
 "pl": "Kündigungsfristen",
 "unit": null,
 "u": "",
-"q": 3665
+"q": 3766
 },
 {
 "word": "künftig",
@@ -7382,7 +8733,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3666
+"q": 3767
 },
 {
 "word": "die künstliche Intelligenz",
@@ -7396,7 +8747,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3667
+"q": 3768
 },
 {
 "word": "der Landtag",
@@ -7411,7 +8762,7 @@
 "pl": "Landtage",
 "unit": null,
 "u": "",
-"q": 3668
+"q": 3769
 },
 {
 "word": "langfristig",
@@ -7424,7 +8775,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3669
+"q": 3770
 },
 {
 "word": "die Last",
@@ -7439,7 +8790,7 @@
 "pl": "Lasten",
 "unit": null,
 "u": "",
-"q": 3670
+"q": 3771
 },
 {
 "word": "lebendig",
@@ -7452,7 +8803,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3671
+"q": 3772
 },
 {
 "word": "die Lebenserwartung",
@@ -7466,7 +8817,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3672
+"q": 3773
 },
 {
 "word": "lebenslanges Lernen",
@@ -7479,7 +8830,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3673
+"q": 3774
 },
 {
 "word": "die Lebensqualität",
@@ -7493,7 +8844,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3674
+"q": 3775
 },
 {
 "word": "der Lebensstandard",
@@ -7507,7 +8858,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3675
+"q": 3776
 },
 {
 "word": "lediglich",
@@ -7520,7 +8871,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3676
+"q": 3777
 },
 {
 "word": "lehren",
@@ -7533,7 +8884,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3677
+"q": 3778
 },
 {
 "word": "leiden unter",
@@ -7546,7 +8897,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3678
+"q": 3779
 },
 {
 "word": "die Leidenschaft",
@@ -7561,7 +8912,7 @@
 "pl": "Leidenschaften",
 "unit": null,
 "u": "",
-"q": 3679
+"q": 3780
 },
 {
 "word": "letztlich",
@@ -7574,7 +8925,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3680
+"q": 3781
 },
 {
 "word": "der Lieferant",
@@ -7589,7 +8940,7 @@
 "pl": "Lieferanten",
 "unit": null,
 "u": "",
-"q": 3681
+"q": 3782
 },
 {
 "word": "die Lieferkette",
@@ -7604,7 +8955,7 @@
 "pl": "Lieferketten",
 "unit": null,
 "u": "",
-"q": 3682
+"q": 3783
 },
 {
 "word": "liken",
@@ -7617,7 +8968,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3683
+"q": 3784
 },
 {
 "word": "die Logik",
@@ -7631,7 +8982,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3684
+"q": 3785
 },
 {
 "word": "der Luxus",
@@ -7645,7 +8996,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3685
+"q": 3786
 },
 {
 "word": "die Lyrik",
@@ -7659,7 +9010,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3686
+"q": 3787
 },
 {
 "word": "die Malerei",
@@ -7673,7 +9024,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3687
+"q": 3788
 },
 {
 "word": "massiv",
@@ -7686,7 +9037,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3688
+"q": 3789
 },
 {
 "word": "der Master",
@@ -7700,7 +9051,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3689
+"q": 3790
 },
 {
 "word": "maßgeblich",
@@ -7713,7 +9064,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3690
+"q": 3791
 },
 {
 "word": "mehrfach",
@@ -7726,7 +9077,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3691
+"q": 3792
 },
 {
 "word": "die Mehrsprachigkeit",
@@ -7740,7 +9091,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3692
+"q": 3793
 },
 {
 "word": "die Menschenrechte",
@@ -7754,7 +9105,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3693
+"q": 3794
 },
 {
 "word": "das Merkmal",
@@ -7769,7 +9120,7 @@
 "pl": "Merkmale",
 "unit": null,
 "u": "",
-"q": 3694
+"q": 3795
 },
 {
 "word": "das Militär",
@@ -7783,7 +9134,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3695
+"q": 3796
 },
 {
 "word": "der Mindestlohn",
@@ -7798,7 +9149,7 @@
 "pl": "Mindestlöhne",
 "unit": null,
 "u": "",
-"q": 3696
+"q": 3797
 },
 {
 "word": "die Ministerin",
@@ -7813,7 +9164,7 @@
 "pl": "Ministerinnen",
 "unit": null,
 "u": "",
-"q": 3697
+"q": 3798
 },
 {
 "word": "das Ministerium",
@@ -7828,7 +9179,7 @@
 "pl": "Ministerien",
 "unit": null,
 "u": "",
-"q": 3698
+"q": 3799
 },
 {
 "word": "die Mischung",
@@ -7843,7 +9194,7 @@
 "pl": "Mischungen",
 "unit": null,
 "u": "",
-"q": 3699
+"q": 3800
 },
 {
 "word": "der Missbrauch",
@@ -7857,7 +9208,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3700
+"q": 3801
 },
 {
 "word": "die Mission",
@@ -7872,20 +9223,7 @@
 "pl": "Missionen",
 "unit": null,
 "u": "",
-"q": 3701
-},
-{
-"word": "mithilfe",
-"m": {
-"es": "con ayuda de",
-"en": "with the help of"
-},
-"pos": "",
-"w": "mithilfe",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3702
+"q": 3802
 },
 {
 "word": "das Mitleid",
@@ -7899,7 +9237,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3703
+"q": 3803
 },
 {
 "word": "das Mittelalter",
@@ -7913,7 +9251,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3704
+"q": 3804
 },
 {
 "word": "der Mittelpunkt",
@@ -7928,7 +9266,7 @@
 "pl": "Mittelpunkte",
 "unit": null,
 "u": "",
-"q": 3705
+"q": 3805
 },
 {
 "word": "mittlere",
@@ -7941,7 +9279,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3706
+"q": 3806
 },
 {
 "word": "mitunter",
@@ -7954,7 +9292,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3707
+"q": 3807
 },
 {
 "word": "der Moderator",
@@ -7969,7 +9307,7 @@
 "pl": "Moderatoren",
 "unit": null,
 "u": "",
-"q": 3708
+"q": 3808
 },
 {
 "word": "die Moderatorin",
@@ -7984,7 +9322,7 @@
 "pl": "Moderatorinnen",
 "unit": null,
 "u": "",
-"q": 3709
+"q": 3809
 },
 {
 "word": "das Motiv",
@@ -7999,7 +9337,7 @@
 "pl": "Motive",
 "unit": null,
 "u": "",
-"q": 3710
+"q": 3810
 },
 {
 "word": "die Motivation",
@@ -8013,7 +9351,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3711
+"q": 3811
 },
 {
 "word": "motiviert",
@@ -8026,7 +9364,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3712
+"q": 3812
 },
 {
 "word": "das Motto",
@@ -8041,7 +9379,7 @@
 "pl": "Mottos",
 "unit": null,
 "u": "",
-"q": 3713
+"q": 3813
 },
 {
 "word": "multikulturell",
@@ -8054,7 +9392,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3714
+"q": 3814
 },
 {
 "word": "das Muster",
@@ -8069,7 +9407,7 @@
 "pl": "Muster",
 "unit": null,
 "u": "",
-"q": 3715
+"q": 3815
 },
 {
 "word": "mächtig",
@@ -8082,20 +9420,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3716
-},
-{
-"word": "möglicherweise",
-"m": {
-"es": "posiblemente",
-"en": "possibly"
-},
-"pos": "",
-"w": "möglicherweise",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3717
+"q": 3816
 },
 {
 "word": "die Mülltrennung",
@@ -8109,7 +9434,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3718
+"q": 3817
 },
 {
 "word": "der Nachfolger",
@@ -8124,7 +9449,7 @@
 "pl": "Nachfolger",
 "unit": null,
 "u": "",
-"q": 3719
+"q": 3818
 },
 {
 "word": "nachhaltig",
@@ -8137,7 +9462,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3720
+"q": 3819
 },
 {
 "word": "nachträglich",
@@ -8150,7 +9475,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3721
+"q": 3820
 },
 {
 "word": "nachvollziehbar",
@@ -8163,7 +9488,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3722
+"q": 3821
 },
 {
 "word": "der Nachweis",
@@ -8178,7 +9503,7 @@
 "pl": "Nachweise",
 "unit": null,
 "u": "",
-"q": 3723
+"q": 3822
 },
 {
 "word": "nachweisen",
@@ -8192,7 +9517,7 @@
 "pp": "weist nach, wies nach, hat nachgewiesen",
 "unit": null,
 "u": "",
-"q": 3724
+"q": 3823
 },
 {
 "word": "die Nation",
@@ -8207,7 +9532,7 @@
 "pl": "Nationen",
 "unit": null,
 "u": "",
-"q": 3725
+"q": 3824
 },
 {
 "word": "die Naturkatastrophe",
@@ -8222,7 +9547,7 @@
 "pl": "Naturkatastrophen",
 "unit": null,
 "u": "",
-"q": 3726
+"q": 3825
 },
 {
 "word": "der Naturschutz",
@@ -8236,7 +9561,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3727
+"q": 3826
 },
 {
 "word": "das Naturschutzgebiet",
@@ -8251,7 +9576,7 @@
 "pl": "Naturschutzgebiete",
 "unit": null,
 "u": "",
-"q": 3728
+"q": 3827
 },
 {
 "word": "die Nebenwirkung",
@@ -8266,7 +9591,7 @@
 "pl": "Nebenwirkungen",
 "unit": null,
 "u": "",
-"q": 3729
+"q": 3828
 },
 {
 "word": "der Neid",
@@ -8280,7 +9605,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3730
+"q": 3829
 },
 {
 "word": "neigen zu",
@@ -8293,7 +9618,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3731
+"q": 3830
 },
 {
 "word": "die Neugier",
@@ -8307,7 +9632,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3732
+"q": 3831
 },
 {
 "word": "die Niederlage",
@@ -8322,7 +9647,7 @@
 "pl": "Niederlagen",
 "unit": null,
 "u": "",
-"q": 3733
+"q": 3832
 },
 {
 "word": "das Niveau",
@@ -8337,7 +9662,7 @@
 "pl": "Niveaus",
 "unit": null,
 "u": "",
-"q": 3734
+"q": 3833
 },
 {
 "word": "die Norm",
@@ -8352,7 +9677,7 @@
 "pl": "Normen",
 "unit": null,
 "u": "",
-"q": 3735
+"q": 3834
 },
 {
 "word": "die Notwendigkeit",
@@ -8367,7 +9692,7 @@
 "pl": "Notwendigkeiten",
 "unit": null,
 "u": "",
-"q": 3736
+"q": 3835
 },
 {
 "word": "nunmehr",
@@ -8380,7 +9705,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3737
+"q": 3836
 },
 {
 "word": "der Nutzer",
@@ -8395,7 +9720,7 @@
 "pl": "Nutzer",
 "unit": null,
 "u": "",
-"q": 3738
+"q": 3837
 },
 {
 "word": "die Nutzung",
@@ -8409,7 +9734,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3739
+"q": 3838
 },
 {
 "word": "die Oberfläche",
@@ -8424,7 +9749,7 @@
 "pl": "Oberflächen",
 "unit": null,
 "u": "",
-"q": 3740
+"q": 3839
 },
 {
 "word": "oberhalb",
@@ -8437,7 +9762,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3741
+"q": 3840
 },
 {
 "word": "das Objekt",
@@ -8452,7 +9777,7 @@
 "pl": "Objekte",
 "unit": null,
 "u": "",
-"q": 3742
+"q": 3841
 },
 {
 "word": "objektiv",
@@ -8465,20 +9790,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3743
-},
-{
-"word": "offensichtlich",
-"m": {
-"es": "evidente",
-"en": "obvious"
-},
-"pos": "",
-"w": "offensichtlich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3744
+"q": 3842
 },
 {
 "word": "oftmals",
@@ -8491,7 +9803,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3745
+"q": 3843
 },
 {
 "word": "ohnehin",
@@ -8504,7 +9816,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3746
+"q": 3844
 },
 {
 "word": "die Opposition",
@@ -8519,7 +9831,7 @@
 "pl": "Oppositionen",
 "unit": null,
 "u": "",
-"q": 3747
+"q": 3845
 },
 {
 "word": "die Option",
@@ -8534,7 +9846,7 @@
 "pl": "Optionen",
 "unit": null,
 "u": "",
-"q": 3748
+"q": 3846
 },
 {
 "word": "die Organisation",
@@ -8549,7 +9861,7 @@
 "pl": "Organisationen",
 "unit": null,
 "u": "",
-"q": 3749
+"q": 3847
 },
 {
 "word": "die Orientierung",
@@ -8563,7 +9875,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3750
+"q": 3848
 },
 {
 "word": "die Panik",
@@ -8577,7 +9889,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3751
+"q": 3849
 },
 {
 "word": "das Parlament",
@@ -8592,7 +9904,7 @@
 "pl": "Parlamente",
 "unit": null,
 "u": "",
-"q": 3752
+"q": 3850
 },
 {
 "word": "die Partei",
@@ -8607,7 +9919,7 @@
 "pl": "Parteien",
 "unit": null,
 "u": "",
-"q": 3753
+"q": 3851
 },
 {
 "word": "die Partnerschaft",
@@ -8622,7 +9934,7 @@
 "pl": "Partnerschaften",
 "unit": null,
 "u": "",
-"q": 3754
+"q": 3852
 },
 {
 "word": "passend",
@@ -8635,7 +9947,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3755
+"q": 3853
 },
 {
 "word": "die Patchworkfamilie",
@@ -8650,7 +9962,7 @@
 "pl": "Patchworkfamilien",
 "unit": null,
 "u": "",
-"q": 3756
+"q": 3854
 },
 {
 "word": "die Perspektive",
@@ -8665,7 +9977,7 @@
 "pl": "Perspektiven",
 "unit": null,
 "u": "",
-"q": 3757
+"q": 3855
 },
 {
 "word": "die Persönlichkeit",
@@ -8680,7 +9992,7 @@
 "pl": "Persönlichkeiten",
 "unit": null,
 "u": "",
-"q": 3758
+"q": 3856
 },
 {
 "word": "die Pflegekraft",
@@ -8695,7 +10007,7 @@
 "pl": "Pflegekräfte",
 "unit": null,
 "u": "",
-"q": 3759
+"q": 3857
 },
 {
 "word": "die Phase",
@@ -8710,7 +10022,7 @@
 "pl": "Phasen",
 "unit": null,
 "u": "",
-"q": 3760
+"q": 3858
 },
 {
 "word": "die Philosophie",
@@ -8725,7 +10037,7 @@
 "pl": "Philosophien",
 "unit": null,
 "u": "",
-"q": 3761
+"q": 3859
 },
 {
 "word": "die Physik",
@@ -8739,7 +10051,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3762
+"q": 3860
 },
 {
 "word": "das Phänomen",
@@ -8754,7 +10066,7 @@
 "pl": "Phänomene",
 "unit": null,
 "u": "",
-"q": 3763
+"q": 3861
 },
 {
 "word": "der Plastikmüll",
@@ -8768,7 +10080,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3764
+"q": 3862
 },
 {
 "word": "die Plattform",
@@ -8783,7 +10095,7 @@
 "pl": "Plattformen",
 "unit": null,
 "u": "",
-"q": 3765
+"q": 3863
 },
 {
 "word": "die Position",
@@ -8798,7 +10110,7 @@
 "pl": "Positionen",
 "unit": null,
 "u": "",
-"q": 3766
+"q": 3864
 },
 {
 "word": "posten",
@@ -8811,7 +10123,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3767
+"q": 3865
 },
 {
 "word": "die Premiere",
@@ -8826,7 +10138,7 @@
 "pl": "Premieren",
 "unit": null,
 "u": "",
-"q": 3768
+"q": 3866
 },
 {
 "word": "die Pressefreiheit",
@@ -8840,7 +10152,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3769
+"q": 3867
 },
 {
 "word": "das Prinzip",
@@ -8855,7 +10167,7 @@
 "pl": "Prinzipien",
 "unit": null,
 "u": "",
-"q": 3770
+"q": 3868
 },
 {
 "word": "die Probe",
@@ -8870,7 +10182,7 @@
 "pl": "Proben",
 "unit": null,
 "u": "",
-"q": 3771
+"q": 3869
 },
 {
 "word": "die Probezeit",
@@ -8885,7 +10197,7 @@
 "pl": "Probezeiten",
 "unit": null,
 "u": "",
-"q": 3772
+"q": 3870
 },
 {
 "word": "problemlos",
@@ -8898,7 +10210,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3773
+"q": 3871
 },
 {
 "word": "das Profil",
@@ -8913,7 +10225,7 @@
 "pl": "Profile",
 "unit": null,
 "u": "",
-"q": 3774
+"q": 3872
 },
 {
 "word": "profitieren",
@@ -8926,7 +10238,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3775
+"q": 3873
 },
 {
 "word": "programmieren",
@@ -8939,7 +10251,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3776
+"q": 3874
 },
 {
 "word": "die Promotion",
@@ -8954,7 +10266,7 @@
 "pl": "Promotionen",
 "unit": null,
 "u": "",
-"q": 3777
+"q": 3875
 },
 {
 "word": "die Propaganda",
@@ -8968,7 +10280,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3778
+"q": 3876
 },
 {
 "word": "das Protokoll",
@@ -8983,7 +10295,7 @@
 "pl": "Protokolle",
 "unit": null,
 "u": "",
-"q": 3779
+"q": 3877
 },
 {
 "word": "die Provinz",
@@ -8998,7 +10310,7 @@
 "pl": "Provinzen",
 "unit": null,
 "u": "",
-"q": 3780
+"q": 3878
 },
 {
 "word": "das Prozent",
@@ -9013,7 +10325,7 @@
 "pl": "Prozente",
 "unit": null,
 "u": "",
-"q": 3781
+"q": 3879
 },
 {
 "word": "psychisch",
@@ -9026,7 +10338,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3782
+"q": 3880
 },
 {
 "word": "die Psychologie",
@@ -9040,7 +10352,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3783
+"q": 3881
 },
 {
 "word": "qualifiziert",
@@ -9053,7 +10365,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3784
+"q": 3882
 },
 {
 "word": "quasi",
@@ -9066,7 +10378,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3785
+"q": 3883
 },
 {
 "word": "der Rahmen",
@@ -9081,7 +10393,7 @@
 "pl": "Rahmen",
 "unit": null,
 "u": "",
-"q": 3786
+"q": 3884
 },
 {
 "word": "der Rang",
@@ -9096,7 +10408,7 @@
 "pl": "Ränge",
 "unit": null,
 "u": "",
-"q": 3787
+"q": 3885
 },
 {
 "word": "rasch",
@@ -9109,7 +10421,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3788
+"q": 3886
 },
 {
 "word": "recherchieren",
@@ -9122,7 +10434,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3789
+"q": 3887
 },
 {
 "word": "recyceln",
@@ -9135,7 +10447,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3790
+"q": 3888
 },
 {
 "word": "das Recycling",
@@ -9149,7 +10461,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3791
+"q": 3889
 },
 {
 "word": "die Redaktion",
@@ -9164,7 +10476,7 @@
 "pl": "Redaktionen",
 "unit": null,
 "u": "",
-"q": 3792
+"q": 3890
 },
 {
 "word": "die Regelung",
@@ -9179,7 +10491,7 @@
 "pl": "Regelungen",
 "unit": null,
 "u": "",
-"q": 3793
+"q": 3891
 },
 {
 "word": "die Regie",
@@ -9193,7 +10505,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3794
+"q": 3892
 },
 {
 "word": "regieren",
@@ -9206,7 +10518,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3795
+"q": 3893
 },
 {
 "word": "der Regisseur",
@@ -9221,7 +10533,7 @@
 "pl": "Regisseure",
 "unit": null,
 "u": "",
-"q": 3796
+"q": 3894
 },
 {
 "word": "die Reichweite",
@@ -9236,7 +10548,7 @@
 "pl": "Reichweiten",
 "unit": null,
 "u": "",
-"q": 3797
+"q": 3895
 },
 {
 "word": "reklamieren",
@@ -9249,7 +10561,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3798
+"q": 3896
 },
 {
 "word": "religiös",
@@ -9262,7 +10574,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3799
+"q": 3897
 },
 {
 "word": "die Republik",
@@ -9277,7 +10589,7 @@
 "pl": "Republiken",
 "unit": null,
 "u": "",
-"q": 3800
+"q": 3898
 },
 {
 "word": "die Ressource",
@@ -9292,7 +10604,7 @@
 "pl": "Ressourcen",
 "unit": null,
 "u": "",
-"q": 3801
+"q": 3899
 },
 {
 "word": "die Rettung",
@@ -9307,7 +10619,7 @@
 "pl": "Rettungen",
 "unit": null,
 "u": "",
-"q": 3802
+"q": 3900
 },
 {
 "word": "die Revolution",
@@ -9322,7 +10634,7 @@
 "pl": "Revolutionen",
 "unit": null,
 "u": "",
-"q": 3803
+"q": 3901
 },
 {
 "word": "richten",
@@ -9335,7 +10647,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3804
+"q": 3902
 },
 {
 "word": "sich richten nach",
@@ -9348,7 +10660,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3805
+"q": 3903
 },
 {
 "word": "der Roboter",
@@ -9363,7 +10675,7 @@
 "pl": "Roboter",
 "unit": null,
 "u": "",
-"q": 3806
+"q": 3904
 },
 {
 "word": "der Rohstoff",
@@ -9378,7 +10690,7 @@
 "pl": "Rohstoffe",
 "unit": null,
 "u": "",
-"q": 3807
+"q": 3905
 },
 {
 "word": "der Rundfunk",
@@ -9392,7 +10704,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3808
+"q": 3906
 },
 {
 "word": "der Rücktritt",
@@ -9407,7 +10719,7 @@
 "pl": "Rücktritte",
 "unit": null,
 "u": "",
-"q": 3809
+"q": 3907
 },
 {
 "word": "sachlich",
@@ -9420,7 +10732,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3810
+"q": 3908
 },
 {
 "word": "die Sammlung",
@@ -9435,7 +10747,7 @@
 "pl": "Sammlungen",
 "unit": null,
 "u": "",
-"q": 3811
+"q": 3909
 },
 {
 "word": "die Scham",
@@ -9449,20 +10761,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3812
-},
-{
-"word": "scheinbar",
-"m": {
-"es": "aparentemente",
-"en": "seemingly"
-},
-"pos": "",
-"w": "scheinbar",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3813
+"q": 3910
 },
 {
 "word": "scheitern",
@@ -9475,7 +10774,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3814
+"q": 3911
 },
 {
 "word": "die Schicht",
@@ -9490,7 +10789,7 @@
 "pl": "Schichten",
 "unit": null,
 "u": "",
-"q": 3815
+"q": 3912
 },
 {
 "word": "das Schicksal",
@@ -9505,7 +10804,7 @@
 "pl": "Schicksale",
 "unit": null,
 "u": "",
-"q": 3816
+"q": 3913
 },
 {
 "word": "schildern",
@@ -9518,7 +10817,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3817
+"q": 3914
 },
 {
 "word": "die Schlagzeile",
@@ -9533,7 +10832,7 @@
 "pl": "Schlagzeilen",
 "unit": null,
 "u": "",
-"q": 3818
+"q": 3915
 },
 {
 "word": "schlau",
@@ -9546,7 +10845,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3819
+"q": 3916
 },
 {
 "word": "schlicht",
@@ -9559,7 +10858,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3820
+"q": 3917
 },
 {
 "word": "der Schnitt",
@@ -9574,7 +10873,7 @@
 "pl": "Schnitte",
 "unit": null,
 "u": "",
-"q": 3821
+"q": 3918
 },
 {
 "word": "schonen",
@@ -9587,7 +10886,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3822
+"q": 3919
 },
 {
 "word": "schulden",
@@ -9600,7 +10899,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3823
+"q": 3920
 },
 {
 "word": "schwanken",
@@ -9613,7 +10912,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3824
+"q": 3921
 },
 {
 "word": "der Schwerpunkt",
@@ -9628,7 +10927,7 @@
 "pl": "Schwerpunkte",
 "unit": null,
 "u": "",
-"q": 3825
+"q": 3922
 },
 {
 "word": "seelisch",
@@ -9641,7 +10940,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3826
+"q": 3923
 },
 {
 "word": "die Sehnsucht",
@@ -9656,20 +10955,7 @@
 "pl": "Sehnsüchte",
 "unit": null,
 "u": "",
-"q": 3827
-},
-{
-"word": "seitens",
-"m": {
-"es": "por parte de",
-"en": "on the part of"
-},
-"pos": "",
-"w": "seitens",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3828
+"q": 3924
 },
 {
 "word": "seither",
@@ -9682,20 +10968,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3829
-},
-{
-"word": "selbst wenn",
-"m": {
-"es": "incluso si",
-"en": "even if"
-},
-"pos": "",
-"w": "selbst wenn",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3830
+"q": 3925
 },
 {
 "word": "selbstbewusst",
@@ -9708,7 +10981,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3831
+"q": 3926
 },
 {
 "word": "das Selbstbewusstsein",
@@ -9722,7 +10995,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3832
+"q": 3927
 },
 {
 "word": "der Senat",
@@ -9737,7 +11010,7 @@
 "pl": "Senate",
 "unit": null,
 "u": "",
-"q": 3833
+"q": 3928
 },
 {
 "word": "senken",
@@ -9750,7 +11023,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3834
+"q": 3929
 },
 {
 "word": "der Server",
@@ -9765,7 +11038,7 @@
 "pl": "Server",
 "unit": null,
 "u": "",
-"q": 3835
+"q": 3930
 },
 {
 "word": "die Show",
@@ -9780,20 +11053,7 @@
 "pl": "Shows",
 "unit": null,
 "u": "",
-"q": 3836
-},
-{
-"word": "sicherlich",
-"m": {
-"es": "seguramente",
-"en": "certainly"
-},
-"pos": "",
-"w": "sicherlich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3837
+"q": 3931
 },
 {
 "word": "die Sicht",
@@ -9807,7 +11067,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3838
+"q": 3932
 },
 {
 "word": "das Signal",
@@ -9822,7 +11082,7 @@
 "pl": "Signale",
 "unit": null,
 "u": "",
-"q": 3839
+"q": 3933
 },
 {
 "word": "die Sitzung",
@@ -9837,7 +11097,7 @@
 "pl": "Sitzungen",
 "unit": null,
 "u": "",
-"q": 3840
+"q": 3934
 },
 {
 "word": "der Skandal",
@@ -9852,20 +11112,7 @@
 "pl": "Skandale",
 "unit": null,
 "u": "",
-"q": 3841
-},
-{
-"word": "sofern",
-"m": {
-"es": "siempre que",
-"en": "provided that"
-},
-"pos": "verb",
-"w": "sofern",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3842
+"q": 3935
 },
 {
 "word": "die Software",
@@ -9880,7 +11127,7 @@
 "pl": "Softwares",
 "unit": null,
 "u": "",
-"q": 3843
+"q": 3936
 },
 {
 "word": "die Solarenergie",
@@ -9894,7 +11141,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3844
+"q": 3937
 },
 {
 "word": "die Solidarität",
@@ -9908,7 +11155,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3845
+"q": 3938
 },
 {
 "word": "somit",
@@ -9921,7 +11168,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3846
+"q": 3939
 },
 {
 "word": "soweit",
@@ -9934,7 +11181,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3847
+"q": 3940
 },
 {
 "word": "sowie",
@@ -9947,7 +11194,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3848
+"q": 3941
 },
 {
 "word": "die sozialen Medien",
@@ -9961,7 +11208,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3849
+"q": 3942
 },
 {
 "word": "die Spannung",
@@ -9976,7 +11223,7 @@
 "pl": "Spannungen",
 "unit": null,
 "u": "",
-"q": 3850
+"q": 3943
 },
 {
 "word": "der Speicher",
@@ -9991,7 +11238,7 @@
 "pl": "Speicher",
 "unit": null,
 "u": "",
-"q": 3851
+"q": 3944
 },
 {
 "word": "das Spektrum",
@@ -10006,7 +11253,7 @@
 "pl": "Spektren",
 "unit": null,
 "u": "",
-"q": 3852
+"q": 3945
 },
 {
 "word": "spontan",
@@ -10019,7 +11266,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3853
+"q": 3946
 },
 {
 "word": "der Staat",
@@ -10034,7 +11281,7 @@
 "pl": "Staaten",
 "unit": null,
 "u": "",
-"q": 3854
+"q": 3947
 },
 {
 "word": "die Staatsangehörigkeit",
@@ -10049,7 +11296,7 @@
 "pl": "Staatsangehörigkeiten",
 "unit": null,
 "u": "",
-"q": 3855
+"q": 3948
 },
 {
 "word": "die Staatsanwaltschaft",
@@ -10063,7 +11310,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3856
+"q": 3949
 },
 {
 "word": "stabil",
@@ -10076,7 +11323,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3857
+"q": 3950
 },
 {
 "word": "die Staffel",
@@ -10091,7 +11338,7 @@
 "pl": "Staffeln",
 "unit": null,
 "u": "",
-"q": 3858
+"q": 3951
 },
 {
 "word": "der Standard",
@@ -10106,7 +11353,7 @@
 "pl": "Standards",
 "unit": null,
 "u": "",
-"q": 3859
+"q": 3952
 },
 {
 "word": "der Standort",
@@ -10121,7 +11368,7 @@
 "pl": "Standorte",
 "unit": null,
 "u": "",
-"q": 3860
+"q": 3953
 },
 {
 "word": "stattdessen",
@@ -10134,7 +11381,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3861
+"q": 3954
 },
 {
 "word": "steigern",
@@ -10147,7 +11394,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3862
+"q": 3955
 },
 {
 "word": "die Steigerung",
@@ -10162,7 +11409,7 @@
 "pl": "Steigerungen",
 "unit": null,
 "u": "",
-"q": 3863
+"q": 3956
 },
 {
 "word": "die Stellung",
@@ -10177,7 +11424,7 @@
 "pl": "Stellungen",
 "unit": null,
 "u": "",
-"q": 3864
+"q": 3957
 },
 {
 "word": "stets",
@@ -10190,7 +11437,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3865
+"q": 3958
 },
 {
 "word": "die Steuererklärung",
@@ -10205,7 +11452,7 @@
 "pl": "Steuererklärungen",
 "unit": null,
 "u": "",
-"q": 3866
+"q": 3959
 },
 {
 "word": "die Strategie",
@@ -10220,7 +11467,7 @@
 "pl": "Strategien",
 "unit": null,
 "u": "",
-"q": 3867
+"q": 3960
 },
 {
 "word": "die Struktur",
@@ -10235,7 +11482,7 @@
 "pl": "Strukturen",
 "unit": null,
 "u": "",
-"q": 3868
+"q": 3961
 },
 {
 "word": "das Studienfach",
@@ -10250,7 +11497,7 @@
 "pl": "Studienfächer",
 "unit": null,
 "u": "",
-"q": 3869
+"q": 3962
 },
 {
 "word": "der Studiengang",
@@ -10265,7 +11512,7 @@
 "pl": "Studiengänge",
 "unit": null,
 "u": "",
-"q": 3870
+"q": 3963
 },
 {
 "word": "die Studiengebühr",
@@ -10280,7 +11527,7 @@
 "pl": "Studiengebühren",
 "unit": null,
 "u": "",
-"q": 3871
+"q": 3964
 },
 {
 "word": "die Stärke",
@@ -10295,7 +11542,7 @@
 "pl": "Stärken",
 "unit": null,
 "u": "",
-"q": 3872
+"q": 3965
 },
 {
 "word": "stärken",
@@ -10308,7 +11555,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3873
+"q": 3966
 },
 {
 "word": "subjektiv",
@@ -10321,7 +11568,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3874
+"q": 3967
 },
 {
 "word": "das Tagebuch",
@@ -10336,7 +11583,7 @@
 "pl": "Tagebücher",
 "unit": null,
 "u": "",
-"q": 3875
+"q": 3968
 },
 {
 "word": "die Tagesordnung",
@@ -10351,7 +11598,7 @@
 "pl": "Tagesordnungen",
 "unit": null,
 "u": "",
-"q": 3876
+"q": 3969
 },
 {
 "word": "der Tarifvertrag",
@@ -10366,7 +11613,7 @@
 "pl": "Tarifverträge",
 "unit": null,
 "u": "",
-"q": 3877
+"q": 3970
 },
 {
 "word": "die Tendenz",
@@ -10381,7 +11628,7 @@
 "pl": "Tendenzen",
 "unit": null,
 "u": "",
-"q": 3878
+"q": 3971
 },
 {
 "word": "die Theologie",
@@ -10395,7 +11642,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3879
+"q": 3972
 },
 {
 "word": "die Tierart",
@@ -10410,7 +11657,7 @@
 "pl": "Tierarten",
 "unit": null,
 "u": "",
-"q": 3880
+"q": 3973
 },
 {
 "word": "die Toleranz",
@@ -10424,7 +11671,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3881
+"q": 3974
 },
 {
 "word": "die Trauer",
@@ -10438,7 +11685,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3882
+"q": 3975
 },
 {
 "word": "der Treibhauseffekt",
@@ -10452,7 +11699,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3883
+"q": 3976
 },
 {
 "word": "das Treibhausgas",
@@ -10467,7 +11714,7 @@
 "pl": "Treibhausgase",
 "unit": null,
 "u": "",
-"q": 3884
+"q": 3977
 },
 {
 "word": "der Trend",
@@ -10482,7 +11729,7 @@
 "pl": "Trends",
 "unit": null,
 "u": "",
-"q": 3885
+"q": 3978
 },
 {
 "word": "tätig",
@@ -10495,7 +11742,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3886
+"q": 3979
 },
 {
 "word": "um so mehr",
@@ -10508,7 +11755,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3887
+"q": 3980
 },
 {
 "word": "der Umfang",
@@ -10523,7 +11770,7 @@
 "pl": "Umfänge",
 "unit": null,
 "u": "",
-"q": 3888
+"q": 3981
 },
 {
 "word": "das Umfeld",
@@ -10537,7 +11784,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3889
+"q": 3982
 },
 {
 "word": "der Umgang",
@@ -10551,7 +11798,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3890
+"q": 3983
 },
 {
 "word": "der Umsatz",
@@ -10566,7 +11813,7 @@
 "pl": "Umsätze",
 "unit": null,
 "u": "",
-"q": 3891
+"q": 3984
 },
 {
 "word": "umstritten",
@@ -10579,7 +11826,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3892
+"q": 3985
 },
 {
 "word": "die Umstände",
@@ -10593,7 +11840,7 @@
 "g": "pl",
 "unit": null,
 "u": "",
-"q": 3893
+"q": 3986
 },
 {
 "word": "umweltfreundlich",
@@ -10606,7 +11853,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3894
+"q": 3987
 },
 {
 "word": "umweltschädlich",
@@ -10619,20 +11866,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3895
-},
-{
-"word": "unabhängig",
-"m": {
-"es": "independiente",
-"en": "independent"
-},
-"pos": "",
-"w": "unabhängig",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3896
+"q": 3988
 },
 {
 "word": "die Unabhängigkeit",
@@ -10646,7 +11880,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3897
+"q": 3989
 },
 {
 "word": "unangenehm",
@@ -10659,7 +11893,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3898
+"q": 3990
 },
 {
 "word": "unendlich",
@@ -10672,7 +11906,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3899
+"q": 3991
 },
 {
 "word": "ungerecht",
@@ -10685,7 +11919,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3900
+"q": 3992
 },
 {
 "word": "das Universum",
@@ -10699,7 +11933,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3901
+"q": 3993
 },
 {
 "word": "unklar",
@@ -10712,7 +11946,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3902
+"q": 3994
 },
 {
 "word": "unmittelbar",
@@ -10725,7 +11959,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3903
+"q": 3995
 },
 {
 "word": "unnötig",
@@ -10738,7 +11972,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3904
+"q": 3996
 },
 {
 "word": "das Unrecht",
@@ -10752,7 +11986,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3905
+"q": 3997
 },
 {
 "word": "unsicher",
@@ -10765,7 +11999,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3906
+"q": 3998
 },
 {
 "word": "unterhalb",
@@ -10778,7 +12012,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3907
+"q": 3999
 },
 {
 "word": "das Unternehmen",
@@ -10793,7 +12027,7 @@
 "pl": "Unternehmen",
 "unit": null,
 "u": "",
-"q": 3908
+"q": 4000
 },
 {
 "word": "das Update",
@@ -10808,7 +12042,7 @@
 "pl": "Updates",
 "unit": null,
 "u": "",
-"q": 3909
+"q": 4001
 },
 {
 "word": "der Ursprung",
@@ -10823,7 +12057,7 @@
 "pl": "Ursprünge",
 "unit": null,
 "u": "",
-"q": 3910
+"q": 4002
 },
 {
 "word": "die Variante",
@@ -10838,7 +12072,7 @@
 "pl": "Varianten",
 "unit": null,
 "u": "",
-"q": 3911
+"q": 4003
 },
 {
 "word": "verabschieden",
@@ -10851,7 +12085,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3912
+"q": 4004
 },
 {
 "word": "sich verabschieden von",
@@ -10864,7 +12098,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3913
+"q": 4005
 },
 {
 "word": "veraltet",
@@ -10877,7 +12111,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3914
+"q": 4006
 },
 {
 "word": "der Verbraucher",
@@ -10892,7 +12126,7 @@
 "pl": "Verbraucher",
 "unit": null,
 "u": "",
-"q": 3915
+"q": 4007
 },
 {
 "word": "das Verbrechen",
@@ -10907,7 +12141,7 @@
 "pl": "Verbrechen",
 "unit": null,
 "u": "",
-"q": 3916
+"q": 4008
 },
 {
 "word": "verbreiten",
@@ -10920,7 +12154,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3917
+"q": 4009
 },
 {
 "word": "verbreitet",
@@ -10933,7 +12167,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3918
+"q": 4010
 },
 {
 "word": "die Verbreitung",
@@ -10947,7 +12181,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3919
+"q": 4011
 },
 {
 "word": "verdoppeln",
@@ -10960,7 +12194,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3920
+"q": 4012
 },
 {
 "word": "die Vereinbarkeit",
@@ -10974,22 +12208,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3921
-},
-{
-"word": "die Vereinbarung",
-"m": {
-"es": "el acuerdo · pl. die Vereinbarungen",
-"en": "agreement · pl. die Vereinbarungen"
-},
-"pos": "noun",
-"w": "die Vereinbarung",
-"p": "",
-"g": "f",
-"pl": "Vereinbarungen",
-"unit": null,
-"u": "",
-"q": 3922
+"q": 4013
 },
 {
 "word": "die Vereinigung",
@@ -11004,7 +12223,7 @@
 "pl": "Vereinigungen",
 "unit": null,
 "u": "",
-"q": 3923
+"q": 4014
 },
 {
 "word": "das Verfahren",
@@ -11019,7 +12238,7 @@
 "pl": "Verfahren",
 "unit": null,
 "u": "",
-"q": 3924
+"q": 4015
 },
 {
 "word": "die Verfassung",
@@ -11034,7 +12253,7 @@
 "pl": "Verfassungen",
 "unit": null,
 "u": "",
-"q": 3925
+"q": 4016
 },
 {
 "word": "verfolgen",
@@ -11047,7 +12266,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3926
+"q": 4017
 },
 {
 "word": "die Verfolgung",
@@ -11062,7 +12281,7 @@
 "pl": "Verfolgungen",
 "unit": null,
 "u": "",
-"q": 3927
+"q": 4018
 },
 {
 "word": "verfügen über",
@@ -11075,7 +12294,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3928
+"q": 4019
 },
 {
 "word": "vergeben",
@@ -11089,7 +12308,7 @@
 "pp": "vergibt, vergab, hat vergeben",
 "unit": null,
 "u": "",
-"q": 3929
+"q": 4020
 },
 {
 "word": "vergleichsweise",
@@ -11102,7 +12321,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3930
+"q": 4021
 },
 {
 "word": "verhandeln",
@@ -11115,7 +12334,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3931
+"q": 4022
 },
 {
 "word": "sich verlassen auf",
@@ -11128,7 +12347,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3932
+"q": 4023
 },
 {
 "word": "der Verlauf",
@@ -11143,7 +12362,7 @@
 "pl": "Verläufe",
 "unit": null,
 "u": "",
-"q": 3933
+"q": 4024
 },
 {
 "word": "vermitteln",
@@ -11156,20 +12375,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3934
-},
-{
-"word": "vermutlich",
-"m": {
-"es": "probablemente",
-"en": "presumably"
-},
-"pos": "",
-"w": "vermutlich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 3935
+"q": 4025
 },
 {
 "word": "die Vernunft",
@@ -11183,7 +12389,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3936
+"q": 4026
 },
 {
 "word": "die Verordnung",
@@ -11198,7 +12404,7 @@
 "pl": "Verordnungen",
 "unit": null,
 "u": "",
-"q": 3937
+"q": 4027
 },
 {
 "word": "die Verpackung",
@@ -11213,7 +12419,7 @@
 "pl": "Verpackungen",
 "unit": null,
 "u": "",
-"q": 3938
+"q": 4028
 },
 {
 "word": "die Verpflichtung",
@@ -11228,7 +12434,7 @@
 "pl": "Verpflichtungen",
 "unit": null,
 "u": "",
-"q": 3939
+"q": 4029
 },
 {
 "word": "verringern",
@@ -11241,7 +12447,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3940
+"q": 4030
 },
 {
 "word": "die Verschmutzung",
@@ -11255,7 +12461,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3941
+"q": 4031
 },
 {
 "word": "verschwenden",
@@ -11268,7 +12474,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3942
+"q": 4032
 },
 {
 "word": "die Version",
@@ -11283,7 +12489,7 @@
 "pl": "Versionen",
 "unit": null,
 "u": "",
-"q": 3943
+"q": 4033
 },
 {
 "word": "die Versorgung",
@@ -11297,7 +12503,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3944
+"q": 4034
 },
 {
 "word": "verteidigen",
@@ -11310,7 +12516,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3945
+"q": 4035
 },
 {
 "word": "die Verteidigung",
@@ -11324,7 +12530,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3946
+"q": 4036
 },
 {
 "word": "die Verteilung",
@@ -11338,7 +12544,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3947
+"q": 4037
 },
 {
 "word": "vertiefen",
@@ -11351,7 +12557,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3948
+"q": 4038
 },
 {
 "word": "vertraut",
@@ -11364,7 +12570,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3949
+"q": 4039
 },
 {
 "word": "verwirrt",
@@ -11377,7 +12583,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3950
+"q": 4040
 },
 {
 "word": "der Verzicht",
@@ -11391,7 +12597,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3951
+"q": 4041
 },
 {
 "word": "verzweifelt",
@@ -11404,7 +12610,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3952
+"q": 4042
 },
 {
 "word": "die Verzweiflung",
@@ -11418,7 +12624,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3953
+"q": 4043
 },
 {
 "word": "die Veröffentlichung",
@@ -11433,7 +12639,7 @@
 "pl": "Veröffentlichungen",
 "unit": null,
 "u": "",
-"q": 3954
+"q": 4044
 },
 {
 "word": "die Vielfalt",
@@ -11447,7 +12653,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3955
+"q": 4045
 },
 {
 "word": "vielfältig",
@@ -11460,7 +12666,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3956
+"q": 4046
 },
 {
 "word": "vielmehr",
@@ -11473,7 +12679,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3957
+"q": 4047
 },
 {
 "word": "die Vielzahl",
@@ -11487,7 +12693,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3958
+"q": 4048
 },
 {
 "word": "der Virus",
@@ -11501,7 +12707,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3959
+"q": 4049
 },
 {
 "word": "die Vision",
@@ -11516,7 +12722,7 @@
 "pl": "Visionen",
 "unit": null,
 "u": "",
-"q": 3960
+"q": 4050
 },
 {
 "word": "vollkommen",
@@ -11529,7 +12735,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3961
+"q": 4051
 },
 {
 "word": "vollständig",
@@ -11542,7 +12748,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3962
+"q": 4052
 },
 {
 "word": "vorbeugen",
@@ -11555,7 +12761,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3963
+"q": 4053
 },
 {
 "word": "das Vorbild",
@@ -11570,7 +12776,7 @@
 "pl": "Vorbilder",
 "unit": null,
 "u": "",
-"q": 3964
+"q": 4054
 },
 {
 "word": "der Vordergrund",
@@ -11584,7 +12790,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3965
+"q": 4055
 },
 {
 "word": "vorerst",
@@ -11597,7 +12803,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3966
+"q": 4056
 },
 {
 "word": "das Vorfeld",
@@ -11611,7 +12817,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3967
+"q": 4057
 },
 {
 "word": "vorgehen",
@@ -11625,7 +12831,7 @@
 "pp": "geht vor, ging vor, ist vorgegangen",
 "unit": null,
 "u": "",
-"q": 3968
+"q": 4058
 },
 {
 "word": "der Vorgesetzte",
@@ -11640,7 +12846,7 @@
 "pl": "Vorgesetzten",
 "unit": null,
 "u": "",
-"q": 3969
+"q": 4059
 },
 {
 "word": "der Vorgänger",
@@ -11655,7 +12861,7 @@
 "pl": "Vorgänger",
 "unit": null,
 "u": "",
-"q": 3970
+"q": 4060
 },
 {
 "word": "vorhanden",
@@ -11668,7 +12874,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3971
+"q": 4061
 },
 {
 "word": "die Vorlage",
@@ -11683,7 +12889,7 @@
 "pl": "Vorlagen",
 "unit": null,
 "u": "",
-"q": 3972
+"q": 4062
 },
 {
 "word": "die Vorlesung",
@@ -11698,7 +12904,7 @@
 "pl": "Vorlesungen",
 "unit": null,
 "u": "",
-"q": 3973
+"q": 4063
 },
 {
 "word": "vorliegen",
@@ -11712,7 +12918,7 @@
 "pp": "liegt vor, lag vor, hat vorgelegen",
 "unit": null,
 "u": "",
-"q": 3974
+"q": 4064
 },
 {
 "word": "die Vorsorge",
@@ -11726,7 +12932,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3975
+"q": 4065
 },
 {
 "word": "das Vorurteil",
@@ -11741,7 +12947,7 @@
 "pl": "Vorurteile",
 "unit": null,
 "u": "",
-"q": 3976
+"q": 4066
 },
 {
 "word": "vorwiegend",
@@ -11754,7 +12960,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3977
+"q": 4067
 },
 {
 "word": "das Wachstum",
@@ -11768,7 +12974,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 3978
+"q": 4068
 },
 {
 "word": "der Wahlkampf",
@@ -11783,7 +12989,7 @@
 "pl": "Wahlkämpfe",
 "unit": null,
 "u": "",
-"q": 3979
+"q": 4069
 },
 {
 "word": "die Wahrnehmung",
@@ -11798,22 +13004,7 @@
 "pl": "Wahrnehmungen",
 "unit": null,
 "u": "",
-"q": 3980
-},
-{
-"word": "die Wahrscheinlichkeit",
-"m": {
-"es": "la probabilidad · pl. die Wahrscheinlichkeiten",
-"en": "probability · pl. die Wahrscheinlichkeiten"
-},
-"pos": "noun",
-"w": "die Wahrscheinlichkeit",
-"p": "",
-"g": "f",
-"pl": "Wahrscheinlichkeiten",
-"unit": null,
-"u": "",
-"q": 3981
+"q": 4070
 },
 {
 "word": "der Waldbrand",
@@ -11828,7 +13019,7 @@
 "pl": "Waldbrände",
 "unit": null,
 "u": "",
-"q": 3982
+"q": 4071
 },
 {
 "word": "der Wandel",
@@ -11842,7 +13033,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3983
+"q": 4072
 },
 {
 "word": "warnen vor",
@@ -11855,7 +13046,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3984
+"q": 4073
 },
 {
 "word": "die Website",
@@ -11870,7 +13061,7 @@
 "pl": "Websites",
 "unit": null,
 "u": "",
-"q": 3985
+"q": 4074
 },
 {
 "word": "die Wegwerfgesellschaft",
@@ -11884,7 +13075,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 3986
+"q": 4075
 },
 {
 "word": "sich wehren",
@@ -11897,22 +13088,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3987
-},
-{
-"word": "die Weise",
-"m": {
-"es": "la manera · pl. die Weisen",
-"en": "way, manner · pl. die Weisen"
-},
-"pos": "noun",
-"w": "die Weise",
-"p": "",
-"g": "f",
-"pl": "Weisen",
-"unit": null,
-"u": "",
-"q": 3988
+"q": 4076
 },
 {
 "word": "sich weiterbilden",
@@ -11925,7 +13101,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3989
+"q": 4077
 },
 {
 "word": "weiterhin",
@@ -11938,7 +13114,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3990
+"q": 4078
 },
 {
 "word": "weitgehend",
@@ -11951,7 +13127,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3991
+"q": 4079
 },
 {
 "word": "die Welle",
@@ -11966,7 +13142,7 @@
 "pl": "Wellen",
 "unit": null,
 "u": "",
-"q": 3992
+"q": 4080
 },
 {
 "word": "werben",
@@ -11980,7 +13156,7 @@
 "pp": "wirbt, warb, hat geworben",
 "unit": null,
 "u": "",
-"q": 3993
+"q": 4081
 },
 {
 "word": "das Wesen",
@@ -11995,7 +13171,7 @@
 "pl": "Wesen",
 "unit": null,
 "u": "",
-"q": 3994
+"q": 4082
 },
 {
 "word": "wesentlich",
@@ -12008,7 +13184,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3995
+"q": 4083
 },
 {
 "word": "widerlegen",
@@ -12021,7 +13197,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3996
+"q": 4084
 },
 {
 "word": "der Widerstand",
@@ -12036,7 +13212,7 @@
 "pl": "Widerstände",
 "unit": null,
 "u": "",
-"q": 3997
+"q": 4085
 },
 {
 "word": "wiederum",
@@ -12049,7 +13225,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 3998
+"q": 4086
 },
 {
 "word": "der Wille",
@@ -12063,7 +13239,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 3999
+"q": 4087
 },
 {
 "word": "die Windkraft",
@@ -12077,7 +13253,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4000
+"q": 4088
 },
 {
 "word": "wirtschaftlich",
@@ -12090,7 +13266,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4001
+"q": 4089
 },
 {
 "word": "wissenschaftlich",
@@ -12103,7 +13279,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4002
+"q": 4090
 },
 {
 "word": "wobei",
@@ -12116,7 +13292,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4003
+"q": 4091
 },
 {
 "word": "wohingegen",
@@ -12129,7 +13305,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4004
+"q": 4092
 },
 {
 "word": "die Wohngemeinschaft",
@@ -12144,20 +13320,7 @@
 "pl": "Wohngemeinschaften",
 "unit": null,
 "u": "",
-"q": 4005
-},
-{
-"word": "womöglich",
-"m": {
-"es": "posiblemente",
-"en": "possibly"
-},
-"pos": "",
-"w": "womöglich",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4006
+"q": 4093
 },
 {
 "word": "die Wut",
@@ -12171,7 +13334,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4007
+"q": 4094
 },
 {
 "word": "der Wähler",
@@ -12186,7 +13349,7 @@
 "pl": "Wähler",
 "unit": null,
 "u": "",
-"q": 4008
+"q": 4095
 },
 {
 "word": "zeitgemäß",
@@ -12199,7 +13362,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4009
+"q": 4096
 },
 {
 "word": "der Zeitraum",
@@ -12214,7 +13377,7 @@
 "pl": "Zeiträume",
 "unit": null,
 "u": "",
-"q": 4010
+"q": 4097
 },
 {
 "word": "zeitweise",
@@ -12227,7 +13390,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4011
+"q": 4098
 },
 {
 "word": "die Zelle",
@@ -12242,7 +13405,7 @@
 "pl": "Zellen",
 "unit": null,
 "u": "",
-"q": 4012
+"q": 4099
 },
 {
 "word": "die Zerstörung",
@@ -12256,7 +13419,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4013
+"q": 4100
 },
 {
 "word": "zudem",
@@ -12269,7 +13432,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4014
+"q": 4101
 },
 {
 "word": "zugleich",
@@ -12282,7 +13445,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4015
+"q": 4102
 },
 {
 "word": "der Zugriff",
@@ -12297,20 +13460,7 @@
 "pl": "Zugriffe",
 "unit": null,
 "u": "",
-"q": 4016
-},
-{
-"word": "zugunsten",
-"m": {
-"es": "a favor de",
-"en": "in favour of"
-},
-"pos": "verb",
-"w": "zugunsten",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4017
+"q": 4103
 },
 {
 "word": "zulassen",
@@ -12324,7 +13474,7 @@
 "pp": "lässt zu, ließ zu, hat zugelassen",
 "unit": null,
 "u": "",
-"q": 4018
+"q": 4104
 },
 {
 "word": "zumal",
@@ -12337,7 +13487,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4019
+"q": 4105
 },
 {
 "word": "zur Sprache bringen",
@@ -12350,7 +13500,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4020
+"q": 4106
 },
 {
 "word": "die Zusammenfassung",
@@ -12365,7 +13515,7 @@
 "pl": "Zusammenfassungen",
 "unit": null,
 "u": "",
-"q": 4021
+"q": 4107
 },
 {
 "word": "zusammenhängen",
@@ -12379,7 +13529,7 @@
 "pp": "hängt zusammen, hing zusammen, hat zusammengehangen",
 "unit": null,
 "u": "",
-"q": 4022
+"q": 4108
 },
 {
 "word": "die Zuversicht",
@@ -12393,7 +13543,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4023
+"q": 4109
 },
 {
 "word": "zwar … aber",
@@ -12406,7 +13556,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4024
+"q": 4110
 },
 {
 "word": "zweifeln an",
@@ -12419,7 +13569,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4025
+"q": 4111
 },
 {
 "word": "zweitens",
@@ -12432,7 +13582,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4026
+"q": 4112
 },
 {
 "word": "der Ärger",
@@ -12446,7 +13596,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4027
+"q": 4113
 },
 {
 "word": "sich ärgern über",
@@ -12459,7 +13609,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4028
+"q": 4114
 },
 {
 "word": "äußern",
@@ -12472,7 +13622,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4029
+"q": 4115
 },
 {
 "word": "der ökologische Fußabdruck",
@@ -12486,7 +13636,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4030
+"q": 4116
 },
 {
 "word": "der Überblick",
@@ -12500,7 +13650,7 @@
 "g": "m",
 "unit": null,
 "u": "",
-"q": 4031
+"q": 4117
 },
 {
 "word": "überdies",
@@ -12513,7 +13663,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4032
+"q": 4118
 },
 {
 "word": "der Übergang",
@@ -12528,7 +13678,7 @@
 "pl": "Übergänge",
 "unit": null,
 "u": "",
-"q": 4033
+"q": 4119
 },
 {
 "word": "das Übergewicht",
@@ -12542,7 +13692,7 @@
 "g": "n",
 "unit": null,
 "u": "",
-"q": 4034
+"q": 4120
 },
 {
 "word": "überlassen",
@@ -12556,7 +13706,7 @@
 "pp": "überlässt, überließ, hat überlassen",
 "unit": null,
 "u": "",
-"q": 4035
+"q": 4121
 },
 {
 "word": "überleben",
@@ -12569,7 +13719,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4036
+"q": 4122
 },
 {
 "word": "die Übernahme",
@@ -12584,7 +13734,7 @@
 "pl": "Übernahmen",
 "unit": null,
 "u": "",
-"q": 4037
+"q": 4123
 },
 {
 "word": "überraschend",
@@ -12597,7 +13747,7 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4038
+"q": 4124
 },
 {
 "word": "die Überschwemmung",
@@ -12612,7 +13762,7 @@
 "pl": "Überschwemmungen",
 "unit": null,
 "u": "",
-"q": 4039
+"q": 4125
 },
 {
 "word": "die Übersicht",
@@ -12627,7 +13777,7 @@
 "pl": "Übersichten",
 "unit": null,
 "u": "",
-"q": 4040
+"q": 4126
 },
 {
 "word": "übertragen",
@@ -12641,7 +13791,7 @@
 "pp": "überträgt, übertrug, hat übertragen",
 "unit": null,
 "u": "",
-"q": 4041
+"q": 4127
 },
 {
 "word": "die Überwachung",
@@ -12655,7 +13805,7 @@
 "g": "f",
 "unit": null,
 "u": "",
-"q": 4042
+"q": 4128
 },
 {
 "word": "überwiegen",
@@ -12669,7 +13819,7 @@
 "pp": "überwiegt, überwog, hat überwogen",
 "unit": null,
 "u": "",
-"q": 4043
+"q": 4129
 },
 {
 "word": "überwiegend",
@@ -12682,19 +13832,6 @@
 "p": "",
 "unit": null,
 "u": "",
-"q": 4044
-},
-{
-"word": "überzeugend",
-"m": {
-"es": "convincente",
-"en": "convincing"
-},
-"pos": "",
-"w": "überzeugend",
-"p": "",
-"unit": null,
-"u": "",
-"q": 4045
+"q": 4130
 }
 ]
