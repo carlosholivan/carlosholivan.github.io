@@ -56,6 +56,9 @@ if xp.exists():
                 raise SystemExit(f'extra_gloss: needs word | es | en: {line}')
             EXTRA[bare(parts[0])] = {'es': parts[1], 'en': parts[2]}
             HEAD.setdefault(bare(parts[0]), parts[0])
+SUFFIX = {}
+for _k in [k for k in EXTRA if k.startswith('-')]:
+    SUFFIX[_k[1:]] = EXTRA.pop(_k)
 PHRASES = sorted([k for k in list(VOC) + list(EXTRA) if len(WORD.findall(k)) > 1], key=len, reverse=True)
 FUNC = set("der die das den dem des ein eine einen einem einer eines und oder aber denn sondern ich du er sie es wir ihr man mich dich sich uns euch "
            "mir dir ihm ihn ihnen mein meine dein deine sein seine ihr ihre unser unsere euer eure in an auf aus bei mit nach von zu zum zur für um "
@@ -169,6 +172,10 @@ def simple_gloss(k):
     m = mean(k)
     if m:
         return with_head(k, m)
+    for suf, ms in SUFFIX.items():
+        for c in [k] + stem_cands(k):
+            if c == suf:
+                return {'es': ms['es'], 'en': ms['en']}
     for c in [INF_OF.get(k), PPS.get(k), zu_inf(k)] + stem_cands(k):
         if c and c != k and mean(c):
             return with_head(k, mean(c), HEAD.get(c, c))
@@ -176,6 +183,16 @@ def simple_gloss(k):
         v = PPS.get(c)
         if v and mean(v):
             return with_head(k, mean(v), HEAD.get(v, v))
+    return None
+
+
+def neg_gloss(k):
+    """unglücklich → un- + glücklich: no feliz."""
+    if k.startswith('un') and len(k) > 5:
+        m = simple_gloss(k[2:])
+        if m:
+            clean = lambda s: re.sub(r'^[^:]+: ', '', s).split(' · ')[0]
+            return {'es': f'un- + {k[2:]}: no {clean(m["es"])}', 'en': f'un- + {k[2:]}: not {clean(m["en"])}'}
     return None
 
 
@@ -208,7 +225,7 @@ def gloss_of(k, tok, lemma_override=None):
         lem = tok.lemma_.lower()
         if lem != k and mean(lem):
             return with_head(k, mean(lem), HEAD.get(lem, lem))
-    return compound_gloss(k)
+    return neg_gloss(k) or compound_gloss(k)
 
 
 # ── verb phrases ─────────────────────────────────────────────────────────
