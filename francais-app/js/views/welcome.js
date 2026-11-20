@@ -188,17 +188,17 @@ register('study-pick', async (el) => {
     </button>
     <button class="card study-opt" style="animation-delay:.32s" onclick="window.__go('review',{deck:'v'})">
       <span class="kbadge sm">T</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('Vocabulary cards')}</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('Cartes de vocabulaire')}</div><div class="muted small">${t('vocabReviewTr')}${deck.pending ? ` · <b style="color:var(--accent)">${deck.pending} ${t('cardsPending')}</b>` : ''}${deck.forgotten ? ` · <span style="color:var(--no)">${deck.forgotten} ${t('cardForgotten').toLowerCase()}</span>` : ''}</div></div>
       <span class="muted">›</span>
     </button>
     ${nFailed ? `<button class="card study-opt" style="animation-delay:.36s" onclick="window.__go('review', {mode:'failed'})">
       <span class="kbadge sm">✗</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('Mistakes review')}</div><div class="muted small">${t('failedReview')} · ${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('Revoir mes erreurs')}</div><div class="muted small">${t('failedReview')} · ${t('failedReviewTr')} · <b style="color:var(--no)">${nFailed}</b></div></div>
       <span class="muted">›</span>
     </button>` : ''}
     <button class="card study-opt" style="animation-delay:.4s" onclick="window.__nav('vocab-list')">
       <span class="kbadge sm">V</span>
-      <div class="grow" style="text-align:left"><div class="study-es">${zh('Lista de vocabulario')}</div><div class="muted small">${t('vocabListHint')}</div></div>
+      <div class="grow" style="text-align:left"><div class="study-es">${zh('Liste de vocabulaire')}</div><div class="muted small">${t('vocabListHint')}</div></div>
       <span class="muted">›</span>
     </button>
     <button class="btn-link muted small mt-16" onclick="window.__nav('home')">${t('goToMap')}</button>

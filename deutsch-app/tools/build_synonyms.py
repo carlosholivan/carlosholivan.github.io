@@ -1,5 +1,5 @@
 """Confusable words for the card backs: tools/synonym_notes.txt → data/<level>/synonyms.json.
-Line format:  word1 / word2 [/ …] = note (es)
+Line format:  word1 / word2 [/ …] = note (es) | note (en)
 Usage: python3 tools/build_synonyms.py
 """
 import json
@@ -28,7 +28,7 @@ for line in open(ROOT / 'tools' / 'synonym_notes.txt', encoding='utf8'):
         e = SYN[lvof[w]].setdefault(w, {'s': []})
         e['s'] = list(dict.fromkeys(e['s'] + [x for x in ok if x != w]))
         notes.setdefault(w, []).append(parts)
-        e['n'] = {'es': '\n'.join(n[0] for n in notes[w])}
+        e['n'] = {'es': '\n'.join(n[0] for n in notes[w]), 'en': '\n'.join(n[-1] for n in notes[w])}
 for lv in LV:
     (ROOT / 'data' / lv / 'synonyms.json').write_text(json.dumps(SYN[lv], ensure_ascii=False, separators=(',', ':')), encoding='utf8')
 print({lv: len(SYN[lv]) for lv in LV})

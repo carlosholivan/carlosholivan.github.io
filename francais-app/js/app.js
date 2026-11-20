@@ -16,7 +16,7 @@ import './views/conj.js?v=202611201200';
 import './views/topics.js?v=202611201200';
 import './views/vocablist.js?v=202611201200';
 import './views/ranking.js?v=202611201200';
-import { enterApp } from './views/welcome.js?v=202611201200';
+import { enterApp } from './views/welcome.js?v=202611202100';
 import { applyPinyinPref } from './es.js?v=202611201200';
 
 if (S.dark) document.body.classList.add('dark');

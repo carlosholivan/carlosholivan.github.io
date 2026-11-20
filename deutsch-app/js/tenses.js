@@ -84,4 +84,25 @@ export const NOTE_KINDS = {
 };
 
 // Reference topics [level, id] for each verb form / note kind; the most advanced one at or below the text level is used.
-export const REF_LINKS = {};
+export const REF_LINKS = {
+  'praes': [['a1', 'a1-present']], 'perf': [['a1', 'a1-perfekt'], ['a1', 'a1-perfekt-sein']], 'praet': [['a2', 'a2-praeteritum']],
+  'plusq': [['b1', 'b1-plusquamperfekt']], 'fut1': [['a2', 'a2-futur']], 'fut2': [['c1', 'c1-modal-vergangenheit']],
+  'k2': [['a2', 'a2-konjunktiv'], ['b1', 'b1-konjunktiv2'], ['b1', 'b1-konjunktiv2-vergangenheit']], 'k2v': [['b1', 'b1-konjunktiv2-vergangenheit']],
+  'k1': [['b2', 'b2-indirekte-rede'], ['c1', 'c1-redewiedergabe']], 'imp': [['a1', 'a1-stadt'], ['a1', 'a1-gesundheit']],
+  'modal': [['a1', 'a1-modal'], ['b1', 'b1-modalverben'], ['b2', 'b2-modal-subjektiv']],
+  'pas': [['b1', 'b1-passiv'], ['b1', 'b1-passiv-vergangenheit'], ['b2', 'b2-passiversatz']], 'zpas': [['b2', 'b2-zustandspassiv']], 'passive': [['b1', 'b1-passiv']],
+  'lassen': [['a2', 'a2-lassen']], 'zuinf': [['a2', 'a2-um-zu'], ['b1', 'b1-ohne-zu'], ['b2', 'b2-infinitiv']], 'inf': [['a1', 'a1-modal']],
+  'pp': [['a1', 'a1-perfekt']], 'p1': [['b1', 'b1-partizip-adjektiv']], 'participle': [['b1', 'b1-partizip-adjektiv'], ['b2', 'b2-partizipialattribut'], ['c1', 'c1-partizip-komplex']],
+  'case': [['a1', 'a1-akkusativ'], ['a1', 'a1-dativ'], ['a2', 'a2-dativ']], 'genitive': [['b1', 'b1-genitiv']], 'n-decl': [['b1', 'b1-n-deklination']],
+  'article': [['a1', 'a1-artikel']], 'adj': [['a2', 'a2-adjektiv-best'], ['a2', 'a2-adjektiv-unbest']], 'comparison': [['a2', 'a2-komparativ']],
+  'prep': [['a1', 'a1-dativ'], ['b2', 'b2-praep-formell']], 'twoway': [['a2', 'a2-wechselpraep']], 'prepverb': [['a2', 'a2-praepverben'], ['b2', 'b2-rektion']], 'da-wo': [['b1', 'b1-darauf-dass']],
+  'separable': [['a1', 'a1-trennbar'], ['c1', 'c1-trennbar-untrennbar']], 'reflexive': [['a2', 'a2-reflexiv'], ['b1', 'b1-reflexiv-dativ']],
+  'word-order': [['a2', 'a2-deshalb'], ['c1', 'c1-wortstellung']], 'subclause': [['a2', 'a2-weil-dass'], ['a2', 'a2-indirekte-fragen'], ['b1', 'b1-temporal']],
+  'relative': [['a2', 'a2-relativsatz'], ['b1', 'b1-relativ'], ['b2', 'b2-relativ-erweitert']], 'pronoun': [['b1', 'b1-pronomen'], ['a2', 'a2-indefinit']],
+  'conditional': [['b2', 'b2-konditional']], 'reported': [['b2', 'b2-indirekte-rede'], ['c1', 'c1-redewiedergabe']],
+  'linker': [['b1', 'b1-doppelkonnektoren'], ['b1', 'b1-kausal-final'], ['c1', 'c1-konnektoren']], 'negation': [['a1', 'a1-artikel'], ['a1', 'a1-gern']],
+  'nominal': [['b2', 'b2-nominalstil'], ['c1', 'c1-nominalstil']], 'fvg': [['b2', 'b2-nvv']], 'particle': [['b2', 'b2-partikeln'], ['c1', 'c1-modalpartikeln']],
+  'wordformation': [['b1', 'b1-wortbildung'], ['c1', 'c1-wortbildung'], ['c2', 'c2-wortschoepfung']], 'compound': [['b1', 'b1-wortbildung']],
+  'idiom': [['c1', 'c1-redewendungen'], ['c2', 'c2-sprichwoerter']], 'register': [['c2', 'c2-stilebenen']], 'variety': [['c2', 'c2-varietaeten']],
+  'false-friend': [['c2', 'c2-bedeutungsnuancen']], 'collocation': [['b2', 'b2-nvv']],
+};

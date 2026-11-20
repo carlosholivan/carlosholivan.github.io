@@ -1,10 +1,10 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611201200';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611202100';
 
 const STORAGE_KEY = 'deutsch_state';
 
 // Older versions may have left a level this app doesn't have.
 const LEVEL_IDS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
-export const UI_LANGS = ['es'];
+export const UI_LANGS = ['es', 'en'];
 function fixLevel(s) {
   if (!LEVEL_IDS.includes(s.level)) { s.level = 'a1'; s.unit = 1; }
   if (!UI_LANGS.includes(s.lang)) s.lang = guessLang();
@@ -19,7 +19,7 @@ function fixLevel(s) {
 }
 
 const DEFAULT_STATE = {
-  lang: 'es',        // user's language: Spanish only
+  lang: 'es',        // user's language: Spanish or English
   name: '',
   welcomed: false,
   texts: {},         // reading texts: {id: {q: best %, gaps: bool}}
