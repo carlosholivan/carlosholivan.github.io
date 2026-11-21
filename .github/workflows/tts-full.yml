@@ -1,0 +1,106 @@
+name: New voice for texts and sentences (Chatterbox)
+# Regenerates the audio of every reading paragraph and example sentence with Chatterbox Multilingual on CPU,
+# in ~4.5 h shards (20 runners in parallel). Each sentence is checked with Whisper; items that fail keep the
+# current audio. Start it by pushing to the branch tts-run (apps listed in .github/tts/run.json). Re-running
+# continues where it left off (data/audio/tts_v2.json lists the files that already have the new voice).
+on:
+  push:
+    branches: [tts-run]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: tts-full
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /*-app/tools/
+            /*-app/data/
+            !/*-app/data/audio/
+            /*-app/data/audio/tts_v2.json
+            /*-app/js/conj.js
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - id: p
+        run: |
+          APPS=$(python -c "import json;print(json.load(open('.github/tts/run.json'))['apps'])")
+          LIMIT=$(python -c "import json;print(json.load(open('.github/tts/run.json')).get('limit',0))")
+          echo "matrix=$(python .github/tts/plan.py $APPS $LIMIT)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shards
+          path: shards/
+  gen:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          sparse-checkout: .github
+      - uses: actions/download-artifact@v4
+        with:
+          name: shards
+          path: shards
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: |
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts==0.1.7 faster-whisper opencc-python-reimplemented
+      - run: python .github/tts/gen.py ${{ matrix.app }} ${{ matrix.shard }}
+        env:
+          TTS_MINUTES: '300'
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-${{ matrix.app }}-${{ matrix.shard }}
+          path: out/
+          if-no-files-found: ignore
+  commit:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /*-app/data/audio/tts_v2.json
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: out-*
+          path: out
+          merge-multiple: true
+      - run: |
+          python .github/tts/merge.py
+          for d in out/*-app; do [ -d "$d" ] && mkdir -p "${d#out/}" && cp -r "$d"/. "${d#out/}"/; done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -A -- '*-app/data/audio'
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "audio: new voice (Chatterbox) for texts and sentences"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin master && git push -q origin HEAD:master && break; sleep 20; done
+          gh workflow run pages.yml --ref master
+        env:
+          GH_TOKEN: ${{ github.token }}
