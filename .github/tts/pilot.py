@@ -22,12 +22,20 @@ except Exception as e:
 t1 = time.time()
 kw = dict(language_id=lang, exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
 if ref: kw['audio_prompt_path'] = ref
-wav = model.generate(text, **kw)
+# One sentence at a time (the model can drop the end of long inputs), joined with short pauses.
+import re
+parts = [x.strip() for x in re.split(r'(?<=[.!?。！？؟])\s*', text) if x.strip()]
+pause = torch.zeros(1, int(model.sr * 0.35))
+chunks = []
+for i, sent in enumerate(parts):
+    chunks.append(model.generate(sent, **kw))
+    if i < len(parts) - 1: chunks.append(pause)
+wav = torch.cat(chunks, dim=-1)
 gen = time.time() - t1
 torchaudio.save(f'/tmp/{lang}.wav', wav, model.sr)
 dur = wav.shape[-1] / model.sr
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f'/tmp/{lang}.wav', '-ac', '1', '-b:a', '64k', f'tts-pilot/{lang}.mp3'], check=True)
 info = {'lang': lang, 'chars': len(text), 'audio_s': round(dur, 1), 'compute_s': round(gen, 1), 'rtf': round(gen / dur, 2),
-        'load_s': round(load, 1), 'cpus': os.cpu_count(), 'ref': bool(ref)}
+        'load_s': round(load, 1), 'cpus': os.cpu_count(), 'ref': bool(ref), 'sentences': len(parts)}
 json.dump(info, open(f'tts-pilot/{lang}.json', 'w'))
 print(info)
