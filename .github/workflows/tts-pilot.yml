@@ -1,0 +1,46 @@
+name: TTS pilot (Chatterbox)
+on:
+  push:
+    branches: [tts-pilot-run]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [es, en, fr, de, zh, ja, ar]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: |
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts==0.1.7
+      - run: python .github/tts/pilot.py ${{ matrix.lang }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tts-${{ matrix.lang }}
+          path: tts-pilot/
+  publish:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+          merge-multiple: true
+      - run: |
+          git init -q pilot && cd pilot
+          mkdir tts-pilot && cp ../out/* tts-pilot/ 2>/dev/null || true
+          git config user.name "github-actions" && git config user.email "actions@github.com"
+          git checkout -q -b tts-pilot-out && git add -A && git commit -qm "TTS pilot results" || exit 0
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" tts-pilot-out
