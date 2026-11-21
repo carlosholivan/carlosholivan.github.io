@@ -48,7 +48,13 @@ def sentences(text):
             if cut < 10: break
             out.append(p[:cut + 1].strip()); p = p[cut + 1:].strip()
         if p: out.append(p)
-    return out
+    # Very short pieces ("Ja.", "Gut!") break the model's alignment check: glue them to a neighbour.
+    short = 4 if CJK else 14
+    merged = []
+    for p in out:
+        if merged and (len(p) < short or len(merged[-1]) < short): merged[-1] = merged[-1] + ' ' + p
+        else: merged.append(p)
+    return merged
 
 
 def norm(s):
@@ -95,8 +101,12 @@ for k, (text, fname) in enumerate(items):
         best = None
         for attempt in range(3):
             torch.manual_seed(1234 + attempt)
-            wav = tts.generate(sent, language_id=LANG, audio_prompt_path=ref, exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
             stats['tries'] += 1
+            try:
+                wav = tts.generate(sent, language_id=LANG, audio_prompt_path=ref, exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
+            except Exception as e:
+                print('generate error:', type(e).__name__, str(e)[:120], '|', sent[:60], flush=True)
+                continue
             passed, c = good(wav, sent)
             if passed: best = wav; break
         if best is None: ok = False; break
