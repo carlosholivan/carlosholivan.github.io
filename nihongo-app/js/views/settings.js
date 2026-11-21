@@ -1,17 +1,18 @@
-import { planSettings } from '../plan.js?v=202611211800';
-import '../tour.js?v=202611211800';
-import { tutorSettings } from '../tutor.js?v=202611211800';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611211800';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611211800';
-import { readAnki } from '../anki-import.js?v=202611211800';
-import { allVocab } from './review.js?v=202611211800';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611211800';
-import { esc } from '../ja.js?v=202611211800';
-import { register, go } from '../router.js?v=202611211800';
-import { bottomNav, header } from '../ui/components.js?v=202611211800';
-import { t } from '../i18n.js?v=202611211800';
-import { applyPinyinPref } from '../ja.js?v=202611211800';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611211800';
+import { reminderSettings } from '../reminders.js?v=202611211900';
+import { planSettings } from '../plan.js?v=202611211900';
+import '../tour.js?v=202611211900';
+import { tutorSettings } from '../tutor.js?v=202611211900';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611211900';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611211900';
+import { readAnki } from '../anki-import.js?v=202611211900';
+import { allVocab } from './review.js?v=202611211900';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611211900';
+import { esc } from '../ja.js?v=202611211900';
+import { register, go } from '../router.js?v=202611211900';
+import { bottomNav, header } from '../ui/components.js?v=202611211900';
+import { t } from '../i18n.js?v=202611211900';
+import { applyPinyinPref } from '../ja.js?v=202611211900';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611211900';
 
 let REC = false;
 hasRecorded().then(r => { REC = r; });
@@ -94,6 +95,7 @@ register('settings', (el) => {
       ${voiceSettings({ t, esc, G, voices: langVoices(), dvoice: deviceVoiceName(), recorded: REC })}
     </div>
     ${planSettings()}
+    ${reminderSettings()}
     <button class="btn btn-soft mb-16" onclick="window.__tour && window.__tour()">🧭 ${S.lang === 'es' ? 'Ver la guía de la app' : 'Show the app tour'}</button>
     ${tutorSettings()}
 

@@ -22,7 +22,7 @@ import {
   getDocs,
   getCountFromServer
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611211800';
+import firebaseConfig from './firebase-config.js?v=202611211900';
 
 let app = null;
 let auth = null;
@@ -152,4 +152,19 @@ async function unpackJSON(s) {
   if (s.startsWith('j:')) return JSON.parse(s.slice(2));
   const u = Uint8Array.from(atob(s.slice(2)), c => c.charCodeAt(0));
   return JSON.parse(await new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
+}
+
+
+// Daily reminder (shared by all the language apps of the account): users/{uid}.reminder — time, time zone,
+// language and the push tokens of each device. Read by the scheduled GitHub workflow that sends the reminders.
+export const firebaseApp = () => app;
+export async function loadReminder() {
+  if (!db || !currentUser || !isVerified()) return null;
+  const snap = await getDoc(doc(db, 'users', currentUser.uid));
+  return (snap.exists() && snap.data().reminder) || null;
+}
+export async function saveReminder(rem) {
+  if (!db || !currentUser) throw new Error('not-signed-in');
+  if (!isVerified()) throw new Error('email-not-verified');
+  await setDoc(doc(db, 'users', currentUser.uid), { reminder: JSON.parse(JSON.stringify(rem)) }, { mergeFields: ['reminder'] });
 }
