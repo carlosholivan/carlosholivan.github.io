@@ -1,16 +1,17 @@
-import '../tour.js?v=202611211700';
-import { tutorSettings } from '../tutor.js?v=202611211700';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611211700';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611211700';
-import { readAnki } from '../anki-import.js?v=202611211700';
-import { allVocab } from './review.js?v=202611211700';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611211700';
-import { esc } from '../zh.js?v=202611211700';
-import { register, go } from '../router.js?v=202611211700';
-import { bottomNav, header } from '../ui/components.js?v=202611211700';
-import { t } from '../i18n.js?v=202611211700';
-import { applyPinyinPref } from '../zh.js?v=202611211700';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611211700';
+import { planSettings } from '../plan.js?v=202611211800';
+import '../tour.js?v=202611211800';
+import { tutorSettings } from '../tutor.js?v=202611211800';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611211800';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611211800';
+import { readAnki } from '../anki-import.js?v=202611211800';
+import { allVocab } from './review.js?v=202611211800';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611211800';
+import { esc } from '../zh.js?v=202611211800';
+import { register, go } from '../router.js?v=202611211800';
+import { bottomNav, header } from '../ui/components.js?v=202611211800';
+import { t } from '../i18n.js?v=202611211800';
+import { applyPinyinPref } from '../zh.js?v=202611211800';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611211800';
 
 register('settings', (el) => {
   const langs = [
@@ -91,6 +92,7 @@ register('settings', (el) => {
       </div>
       ${voiceSettings({ t, esc, G, voices: null, dvoice: '' })}
     </div>
+    ${planSettings()}
     <button class="btn btn-soft mb-16" onclick="window.__tour && window.__tour()">🧭 ${S.lang === 'es' ? 'Ver la guía de la app' : 'Show the app tour'}</button>
     ${tutorSettings()}
 

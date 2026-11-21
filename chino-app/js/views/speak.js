@@ -2,13 +2,13 @@
 // the browser's speech recognition checks it), 3) guided role-play conversations with the Gemini tutor.
 // Sentences come from the level's example sentences (data/<level>/examples.json), which have recorded audio.
 // Same file in every app; the language comes from CFG.id.
-import { S, update } from '../state.js?v=202611211700';
-import { register } from '../router.js?v=202611211700';
-import { LEVELS, levelLabel } from '../levels.js?v=202611211700';
-import { header, bottomNav } from '../ui/components.js?v=202611211700';
-import { speak, stop } from '../audio.js?v=202611211700';
-import { CFG } from '../app-config.js?v=202611211700';
-import { chatGemini, tutorKey, errText } from '../tutor.js?v=202611211700';
+import { S, update } from '../state.js?v=202611211800';
+import { register } from '../router.js?v=202611211800';
+import { LEVELS, levelLabel } from '../levels.js?v=202611211800';
+import { header, bottomNav } from '../ui/components.js?v=202611211800';
+import { speak, stop } from '../audio.js?v=202611211800';
+import { CFG } from '../app-config.js?v=202611211800';
+import { chatGemini, tutorKey, errText } from '../tutor.js?v=202611211800';
 
 const APP = CFG.id;
 const LANG = { espanol: ['es-ES', 'Spanish'], english: ['en-GB', 'English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
@@ -148,12 +148,51 @@ function count(kind) {
 }
 
 // ---------- speech recognition ----------
-let rec = null;
+// In the browser: Web Speech API (Chrome, Safari). In the native app (Capacitor) the WebView has no Web Speech API,
+// so the plugin @capacitor-community/speech-recognition is used instead (the phone's own recognizer; see
+// idiomas/NATIVE_APP.md). Both return a list of alternatives for the last utterance.
+let rec = null, nativeStop = null;
+const NATIVE = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform() && window.Capacitor.Plugins && window.Capacitor.Plugins.SpeechRecognition) || null;
+const canListen = () => !!(NATIVE() || SR);
+function stopListening() { try { nativeStop ? nativeStop() : rec && rec.stop(); } catch (e) {} }
+function abortListening() { try { nativeStop ? nativeStop() : rec && rec.abort(); } catch (e) {} }
+
+async function listenNative(P, onInterim) {
+  const av = await P.available().catch(() => ({ available: false }));
+  if (!av || !av.available) throw new Error('nosr');
+  let perm = await P.checkPermissions().catch(() => ({}));
+  if (perm.speechRecognition !== 'granted') perm = await P.requestPermissions().catch(() => ({}));
+  if (perm.speechRecognition !== 'granted') throw new Error('not-allowed');
+  return new Promise((resolve, reject) => {
+    let matches = [], timer = null, done = false;
+    const finish = async () => {
+      if (done) return;
+      done = true; clearTimeout(timer); nativeStop = null;
+      try { await P.stop(); } catch (e) {}
+      try { await P.removeAllListeners(); } catch (e) {}
+      resolve(matches);
+    };
+    // iOS keeps listening until told to stop: stop after a short silence (or 10 s with nothing heard).
+    const quiet = ms => { clearTimeout(timer); timer = setTimeout(finish, ms); };
+    nativeStop = finish;
+    Promise.all([
+      P.addListener('partialResults', d => { if (d && d.matches && d.matches.length) { matches = d.matches; onInterim && onInterim(matches[0]); quiet(1600); } }),
+      P.addListener('listeningState', d => { if (d && d.status === 'stopped') setTimeout(finish, 400); }),
+    ]).then(() => {
+      quiet(10000);
+      return P.start({ language: LANG[0], maxResults: 4, partialResults: true, popup: false });
+    }).then(r => { if (r && r.matches && r.matches.length) { matches = r.matches; finish(); } })
+      .catch(e => { if (!done) { done = true; clearTimeout(timer); nativeStop = null; reject(new Error((e && e.message) || 'error')); } });
+  });
+}
+
 function listen(onInterim) {
+  stop();
+  abortListening();
+  const P = NATIVE();
+  if (P) return listenNative(P, onInterim);
   return new Promise((resolve, reject) => {
     if (!SR) return reject(new Error('nosr'));
-    stop();
-    try { rec && rec.abort(); } catch (e) {}
     rec = new SR();
     rec.lang = LANG[0];
     rec.interimResults = true;
@@ -199,7 +238,7 @@ function shell() {
 }
 window.__spLv = l => { level = l; stopAll(); round = null; chat = null; shell(); };
 window.__spTab = k => { tab = k; stopAll(); round = null; shell(); };
-function stopAll() { stop(); try { rec && rec.abort(); } catch (e) {} }
+function stopAll() { stop(); abortListening(); }
 const body = () => root.querySelector('#sp-body');
 
 // ---------- 1. dictation & 2. pronunciation share a 10-sentence round ----------
@@ -274,14 +313,14 @@ async function pronunciation(fresh) {
   const it = cur();
   body().innerHTML = `<div class="card sp-card">
     ${roundHead()}
-    ${SR ? `<div class="muted small mb-12">${tx('pronHint')}</div>` : `<div class="sp-warn mb-12">${tx('noSR')}</div>`}
+    ${canListen() ? `<div class="muted small mb-12">${tx('pronHint')}</div>` : `<div class="sp-warn mb-12">${tx('noSR')}</div>`}
     <div class="sp-say" lang="${LANG[0]}" dir="auto">${rubyHTML(it.s)}</div>
     ${trOf(it) ? `<div class="muted small mt-8">${esc(trOf(it))}</div>` : ''}
     <div class="flex gap-12 mt-16" style="justify-content:center;align-items:center">
       <button class="sp-play sm" onclick="window.__spSay()" title="${tx('listen')}">🔊</button>
-      <button class="sp-mic" id="sp-mic" onclick="window.__spMic()" ${SR ? '' : 'disabled'}>${micSVG}</button>
+      <button class="sp-mic" id="sp-mic" onclick="window.__spMic()" ${canListen() ? '' : 'disabled'}>${micSVG}</button>
     </div>
-    <div class="muted small mt-8" id="sp-live" style="text-align:center">${SR ? tx('tapMic') : ''}</div>
+    <div class="muted small mt-8" id="sp-live" style="text-align:center">${canListen() ? tx('tapMic') : ''}</div>
     <div id="sp-res"></div>
     <div class="flex gap-8 mt-12 sp-btns" id="sp-acts">
       <button class="btn btn-soft" onclick="window.__spNext(true)">${tx('skip')}</button>
@@ -291,7 +330,7 @@ async function pronunciation(fresh) {
 window.__spRetry = () => pronunciation();
 window.__spMic = async () => {
   const it = cur(), mic = body().querySelector('#sp-mic'), live = body().querySelector('#sp-live');
-  if (!mic || mic.classList.contains('on')) { try { rec && rec.stop(); } catch (e) {} return; }
+  if (!mic || mic.classList.contains('on')) { stopListening(); return; }
   mic.classList.add('on'); live.textContent = tx('listening');
   try {
     const alts = await listen(t => { live.textContent = t; });
@@ -429,7 +468,7 @@ function chatView() {
     <div class="muted small mb-12">🎯 ${tx('goal')}: ${esc(L(goal))}</div>
     <div class="sp-log" id="sp-log">${chat.msgs.map(bubble).join('')}${chat.busy ? `<div class="sp-b ai"><span class="muted">${tx('thinking')}</span></div>` : ''}</div>
     <div class="sp-compose">
-      <button class="sp-mic sm" id="sp-cmic" onclick="window.__spDictate()" ${SR ? '' : 'disabled'} title="${tx('tapMic')}">${micSVG}</button>
+      <button class="sp-mic sm" id="sp-cmic" onclick="window.__spDictate()" ${canListen() ? '' : 'disabled'} title="${tx('tapMic')}">${micSVG}</button>
       <textarea id="sp-msg" rows="1" lang="${LANG[0]}" dir="auto" placeholder="${tx('write')}"></textarea>
       <button class="btn btn-primary" onclick="window.__spSend()" ${chat.busy ? 'disabled' : ''}>${tx('send')}</button>
     </div>
@@ -462,7 +501,7 @@ window.__spSend = () => {
 };
 window.__spDictate = async () => {
   const b = body().querySelector('#sp-cmic'), ta = body().querySelector('#sp-msg'), err = body().querySelector('#sp-cerr');
-  if (b.classList.contains('on')) { try { rec && rec.stop(); } catch (e) {} return; }
+  if (b.classList.contains('on')) { stopListening(); return; }
   b.classList.add('on'); err.textContent = '';
   const before = ta.value ? ta.value + ' ' : '';
   try {

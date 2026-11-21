@@ -1,4 +1,5 @@
 let currentView = null;
+export const currentName = () => currentView && currentView.name;
 let viewStack = [];
 const app = document.getElementById('app');
 

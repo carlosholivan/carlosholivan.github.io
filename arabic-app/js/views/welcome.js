@@ -1,17 +1,18 @@
-import { needsTour, startTour } from '../tour.js?v=202611211700';
-import { S, update } from '../state.js?v=202611211700';
-import { register, go } from '../router.js?v=202611211700';
-import { t } from '../i18n.js?v=202611211700';
-import { speak } from '../audio.js?v=202611211700';
-import { deckStats } from '../engine/anki.js?v=202611211700';
-import { failedWords } from '../engine/srs.js?v=202611211700';
-import { allVocab } from './review.js?v=202611211700';
-import { loadUnits } from '../data.js?v=202611211700';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611211700';
-import { textsWithRecommendation } from './texts.js?v=202611211700';
-import { ruby, pyReady } from '../ar.js?v=202611211700';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611211700';
-import { mascot } from '../ui/mascot.js?v=202611211700';
+import { planBox } from '../plan.js?v=202611211800';
+import { needsTour, startTour } from '../tour.js?v=202611211800';
+import { S, update } from '../state.js?v=202611211800';
+import { register, go } from '../router.js?v=202611211800';
+import { t } from '../i18n.js?v=202611211800';
+import { speak } from '../audio.js?v=202611211800';
+import { deckStats } from '../engine/anki.js?v=202611211800';
+import { failedWords } from '../engine/srs.js?v=202611211800';
+import { allVocab } from './review.js?v=202611211800';
+import { loadUnits } from '../data.js?v=202611211800';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611211800';
+import { textsWithRecommendation } from './texts.js?v=202611211800';
+import { ruby, pyReady } from '../ar.js?v=202611211800';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611211800';
+import { mascot } from '../ui/mascot.js?v=202611211800';
 
 const zh = (s) => ruby(s);
 
@@ -162,6 +163,7 @@ register('study-pick', async (el) => {
   el.innerHTML = `<div class="fade study-pick">
     <div class="h1 mb-8">${zh('مَاذَا تَدْرُسُ اليَوْمَ؟')}</div>
     <div class="muted mb-16">${t('whatStudyToday')}</div>
+    ${planBox(num, rec)}
     ${info ? `<div class="away-info ${away ? 'warn' : ''} mb-12">${esc(info)}</div>` : ''}
     ${history ? `<button class="card study-opt review-opt ${away ? 'hot' : ''}" onclick="window.__startReview()">
       <span class="kbadge sm">م</span>
