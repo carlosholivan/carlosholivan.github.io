@@ -3,9 +3,12 @@
 //     scheduled GitHub workflow (.github/scripts/send_reminders.py) sends the reminder only on days the learner
 //     has not studied yet. Needs an account; on iPhone the app must be added to the Home Screen first.
 //  2. A repeating event in the phone's calendar (.ics), which works for everyone, even without an account.
-import { S, update } from './state.js?v=202611211900';
-import { CFG } from './app-config.js?v=202611211900';
-import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611211900';
+//  In the native app (Capacitor, Android / iPhone) the WebView has no web push: local notifications are scheduled on
+//  the phone itself instead (@capacitor-community / @capacitor/local-notifications; no account or server needed).
+//  The next 14 days are scheduled one by one, and today's is cancelled as soon as the learner studies.
+import { S, update } from './state.js?v=202611211930';
+import { CFG } from './app-config.js?v=202611211930';
+import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611211930';
 
 const FB = 'https://www.gstatic.com/firebasejs/12.16.0/';
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es)) || '';
@@ -33,6 +36,10 @@ const TX = {
   evTitle: { es: 'Estudiar {l} ({m} min)', en: 'Study {l} ({m} min)' },
   evBody: { es: 'Tu rato de {l}. Abre la app: {u}', en: 'Your {l} time. Open the app: {u}' },
   working: { es: 'Un momento…', en: 'One moment…' },
+  nTitle: { es: '¿Unos minutos de {l}? 💪', en: 'A few minutes of {l}? 💪' },
+  nBody: { es: 'Hoy aún no has estudiado. Un repaso rápido de tarjetas y listo.', en: 'You haven’t studied today yet. A quick card review is enough.' },
+  streakT: { es: '🔥 ¡No pierdas tu racha de {n} días!', en: '🔥 Keep your {n}-day streak!' },
+  nativeOn: { es: 'Notificaciones activadas en este móvil', en: 'Notifications on for this phone' },
 };
 const tx = (k, v = {}) => L(TX[k]).replace(/\{(\w)\}/g, (_, x) => v[x] ?? '');
 const pad = n => String(n).padStart(2, '0');
@@ -40,6 +47,40 @@ const hm = r => `${pad(r.h)}:${pad(r.m)}`;
 const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 const local = () => ({ on: false, h: 20, m: 0, ...(S.reminder || {}) });
+const LN = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()
+  && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications) || null;
+const dayStr = d => d.toLocaleDateString('sv');
+const studiedToday = () => !!(S.studyTime && S.studyTime.d === dayStr(new Date()) && S.studyTime.t >= 120);
+const BASE_ID = 7100;
+
+// Native: (re)schedule the daily reminder for the next 14 days, skipping today if already studied.
+async function nativeSchedule() {
+  const N = LN();
+  if (!N) return;
+  const r = local();
+  try {
+    const pending = await N.getPending().catch(() => ({ notifications: [] }));
+    const mine = (pending.notifications || []).filter(n => n.id >= BASE_ID && n.id < BASE_ID + 20).map(n => ({ id: n.id }));
+    if (mine.length) await N.cancel({ notifications: mine });
+    if (!r.on) return;
+    const now = new Date(), list = [];
+    for (let i = 0; i < 14; i++) {
+      const at = new Date(now.getFullYear(), now.getMonth(), now.getDate() + i, r.h, r.m, 0);
+      if (at <= now || (i === 0 && studiedToday())) continue;
+      const streak = S.streak || 0;
+      list.push({ id: BASE_ID + i, at,
+        title: i === 0 && streak >= 2 ? tx('streakT', { n: streak }) : tx('nTitle', { l: L(NAME) }), body: tx('nBody'),
+        schedule: { at, allowWhileIdle: true }, extra: { link: location.href } });
+    }
+    if (list.length) await N.schedule({ notifications: list.map(({ at, ...n }) => n) });
+  } catch (e) { console.warn('local notifications', e); }
+}
+let lastStudied = false;
+if (LN()) {
+  setTimeout(nativeSchedule, 3000);
+  // Studied today -> cancel today's reminder (checked every minute; the study time is counted in plan.js).
+  setInterval(() => { const s = studiedToday(); if (s && !lastStudied) nativeSchedule(); lastStudied = s; }, 60000);
+}
 
 export function reminderSettings() {
   css();
@@ -63,6 +104,13 @@ export function reminderSettings() {
 function pushBlock(r) {
   const box = document.getElementById('rem-push');
   if (!box) return;
+  if (LN()) {
+    box.innerHTML = r.on
+      ? `<div class="rem-on mb-8">✓ ${tx('nativeOn')} · ${hm(r)}</div>
+         <div class="flex gap-8"><button class="btn btn-soft" onclick="window.__remTest()">${tx('test')}</button><button class="btn btn-soft" onclick="window.__remOff()">${tx('off')}</button></div>`
+      : `<button class="btn btn-primary btn-block" onclick="window.__remPush()">🔔 ${tx('push')}</button>`;
+    return;
+  }
   const user = getUser();
   if (!user || !isVerified()) { box.innerHTML = `<div class="muted small">${tx('needAcc')}</div>`; return; }
   if (isIOS && !standalone()) { box.innerHTML = `<div class="rem-hint small">${tx('ios')}</div>`; return; }
@@ -104,11 +152,27 @@ async function store(patch) {
 window.__remTime = async v => {
   const [h, m] = v.split(':').map(Number);
   update({ reminder: { ...local(), h, m } });
+  if (LN()) { await nativeSchedule(); if (local().on) msg(tx('saved', { t: hm(local()) })); return; }
   if (!getUser() || !isVerified()) return;
   try { const r = await store({ h, m }); if (r.on) msg(tx('saved', { t: hm(r) })); } catch (e) { msg(e.message, true); }
 };
 window.__remPush = async () => {
   msg(tx('working'));
+  const N = LN();
+  if (N) {
+    try {
+      let p = await N.checkPermissions().catch(() => ({}));
+      if (p.display !== 'granted') p = await N.requestPermissions();
+      if (p.display !== 'granted') return msg(tx('denied'), true);
+      update({ reminder: { ...local(), on: true } });
+      await nativeSchedule();
+      // Keep the account copy too (time, language), so a future browser device uses the same time.
+      if (getUser() && isVerified()) store({ on: true }).catch(() => {});
+      msg(tx('saved', { t: hm(local()) }));
+      pushBlock(local());
+    } catch (e) { msg(String(e && e.message || e), true); }
+    return;
+  }
   try {
     const perm = await Notification.requestPermission();
     if (perm !== 'granted') return msg(tx('denied'), true);
@@ -125,10 +189,17 @@ window.__remPush = async () => {
   } catch (e) { msg(String(e && e.message || e), true); }
 };
 window.__remOff = async () => {
+  if (LN()) { update({ reminder: { ...local(), on: false } }); await nativeSchedule(); msg(tx('offOk')); return pushBlock(local()); }
   try { const r = await store({ on: false, dropToken: true }); localStorage.removeItem('rem_token'); msg(tx('offOk')); pushBlock(r); }
   catch (e) { msg(e.message, true); }
 };
 window.__remTest = async () => {
+  const N = LN();
+  if (N) {
+    try { await N.schedule({ notifications: [{ id: BASE_ID + 19, title: tx('testTitle'), body: tx('testBody', { l: L(NAME) }), schedule: { at: new Date(Date.now() + 3000) } }] }); }
+    catch (e) { msg(e.message, true); }
+    return;
+  }
   try {
     const reg = await swReg();
     await reg.showNotification(tx('testTitle'), { body: tx('testBody', { l: L(NAME) }), icon: new URL('icons/icon-192.png', location.href).href, data: { link: location.href } });

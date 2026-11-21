@@ -1,6 +1,6 @@
-import { icon } from './icons.js?v=202611211900';
-import { S } from '../state.js?v=202611211900';
-import { t } from '../i18n.js?v=202611211900';
+import { icon } from './icons.js?v=202611211930';
+import { S } from '../state.js?v=202611211930';
+import { t } from '../i18n.js?v=202611211930';
 
 export function bottomNav(active) {
   const items = [
