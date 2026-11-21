@@ -1,5 +1,5 @@
 // Japanese helpers (same interface as zh.js in the Chinese app): furigana ruby, readings, answer comparison.
-import { S } from './state.js?v=202611201200';
+import { S } from './state.js?v=202611211700';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

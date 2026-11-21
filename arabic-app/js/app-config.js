@@ -10,6 +10,7 @@ export const CFG = {
   // Home tools menu: [badge, i18n title key, i18n subtitle key, view]
   tools: [
     ['ن', 'texts', 'textsSub', 'texts'],
+    ['ح', 'speakNav', 'speakSub', 'speak'],
     ['ب', 'cardsNav', 'cardsSub', 'review'],
     ['ك', 'vocabList', 'vocabListSub', 'vocab-list'],
     ['م', 'topicsNav', 'topicsSub', 'topics'],

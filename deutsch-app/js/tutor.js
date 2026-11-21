@@ -2,8 +2,8 @@
 // The key lives only in this browser (localStorage, shared with the Gemini voice); requests go straight from the
 // browser to Google, so they never touch the app owner's account. Used by: texts (select text / tapped word),
 // lessons (why was my answer wrong?), grammar pages (free questions) and Settings (key + instructions).
-import { S } from './state.js?v=202611202100';
-import { go } from './router.js?v=202611202100';
+import { S } from './state.js?v=202611211700';
+import { go } from './router.js?v=202611211700';
 
 const LS = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { return null; } };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -76,7 +76,7 @@ async function pickModel(key, fresh) {
 const thinkCfg = m => /gemini-2\.5/.test(m) ? { thinkingBudget: /pro/.test(m) ? 128 : 0 } : ver(m) >= 3 ? { thinkingLevel: 'low' } : null;
 const fail = (k, status = 0) => { const e = new Error(tt(k)); e.status = status; return e; };
 
-async function call(contents, retry = 2, forced = null, noThink = false) {
+async function call(contents, retry = 2, forced = null, noThink = false, sys = null) {
   const key = tutorKey();
   const model = forced || await pickModel(key, retry < 2);
   const gen = { temperature: 0.4, maxOutputTokens: 4096 };
@@ -89,7 +89,7 @@ async function call(contents, retry = 2, forced = null, noThink = false) {
   try {
     r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
       method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key }, signal: ctrl.signal,
-      body: JSON.stringify({ contents, systemInstruction: { parts: [{ text: system() }] }, generationConfig: gen }),
+      body: JSON.stringify({ contents, systemInstruction: { parts: [{ text: sys || system() }] }, generationConfig: gen }),
     });
     j = await r.json().catch(() => ({}));
   } catch (e) {
@@ -97,19 +97,19 @@ async function call(contents, retry = 2, forced = null, noThink = false) {
   } finally { clearTimeout(timer); }
   if (!r.ok) {
     const msg = j.error?.message || '';
-    if (tc && r.status === 400 && /think/i.test(msg)) return call(contents, retry, model, true);
+    if (tc && r.status === 400 && /think/i.test(msg)) return call(contents, retry, model, true, sys);
     // Retired or unknown model: remember it, follow Google's suggestion ("use models/…") or pick another one.
     if (retry > 0 && r.status !== 429 && (r.status === 404 || /model|no longer available|deprecated|not supported/i.test(msg))) {
       markBad(model); LS('gemini_tutor_model', null);
       const sug = (msg.match(/models\/(gemini-[\w.-]*\w)/g) || []).map(x => x.slice(7)).find(x => x !== model && !badModels().includes(x));
       if (sug) LS('gemini_tutor_model', sug);
-      return call(contents, retry - 1, sug);
+      return call(contents, retry - 1, sug, false, sys);
     }
     const e = new Error(msg || String(r.status)); e.status = r.status; throw e;
   }
   const out = (j.candidates?.[0]?.content?.parts || []).filter(p => !p.thought).map(p => p.text || '').join('').trim();
   if (!out) {
-    if (retry > 0 && !noThink) return call(contents, retry - 1, model, true);
+    if (retry > 0 && !noThink) return call(contents, retry - 1, model, true, sys);
     throw fail('empty');
   }
   return out;
@@ -141,6 +141,10 @@ function thinkingHTML() {
 }
 
 // Opens the tutor sheet: `ctx` (shown as a quote) + `question` (first message). The learner can keep asking.
+// Free-form chat with Gemini and a custom system prompt (role-play conversations in the speaking practice).
+export const chatGemini = (contents, sys) => call(contents, 2, null, false, sys);
+export const errText = e => e && (e.status === 429 || /quota|exhausted/i.test(e.message || '')) ? tt('quota') : e && (e.status === 400 || e.status === 403) ? tt('bad') : (e && e.message) || '';
+
 export function askTutor(question, ctx = '') {
   document.querySelectorAll('.tutor-sheet').forEach(x => x.remove());
   const sh = document.createElement('div');

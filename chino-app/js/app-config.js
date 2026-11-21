@@ -10,6 +10,7 @@ export const CFG = {
   // Home tools menu: [badge, i18n title key, i18n subtitle key, view]
   tools: [
     ['课', 'texts', 'textsSub', 'texts'],
+    ['说', 'speakNav', 'speakSub', 'speak'],
     ['卡', 'cardsNav', 'cardsSub', 'review'],
     ['词', 'vocabList', 'vocabListSub', 'vocab-list'],
     ['类', 'topicsNav', 'topicsSub', 'topics'],

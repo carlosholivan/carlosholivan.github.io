@@ -1,11 +1,11 @@
 // Arabic conjugation reference: choose a verb, see every tense and person, participles and nombre verbal,
 // plus a quick quiz. window.__conj(tense) opens it from any grammar explanation (links built by tools/build_ar.py).
-import { register, go } from '../router.js?v=202611201200';
-import { header, bottomNav } from '../ui/components.js?v=202611201200';
-import { speak } from '../audio.js?v=202611201200';
-import { translit } from '../ar.js?v=202611201200';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611201200';
-import { S } from '../state.js?v=202611201200';
+import { register, go } from '../router.js?v=202611211700';
+import { header, bottomNav } from '../ui/components.js?v=202611211700';
+import { speak } from '../audio.js?v=202611211700';
+import { translit } from '../ar.js?v=202611211700';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participles } from '../conj.js?v=202611211700';
+import { S } from '../state.js?v=202611211700';
 // Spanish interface in Spanish; every other language gets English.
 const L = (es, en) => (S.lang === 'es' ? es : en);
 const ml = (o) => L(o.es, o.en || o.es);

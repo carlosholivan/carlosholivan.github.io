@@ -1,5 +1,7 @@
 // Strings for the shared Nihongo-style home and the character sheet / flashcard additions.
 export default {
+  speakNav:     { es: 'Hablar y escuchar', en: 'Speaking & listening', ja: '話す・聞く', ko: '말하기·듣기', zh: '听说练习' },
+  speakSub:     { es: 'dictado, pronunciación y conversación', en: 'dictation, pronunciation, conversation', ja: 'ディクテーション・発音・会話', ko: '받아쓰기·발음·회화', zh: '听写、发音和会话' },
   showEnMean:   { es: 'Mostrar también la traducción al inglés en tarjetas y listas', en: 'Also show the English translation on cards and lists', ja: 'カードとリストに英訳も表示', ko: '카드와 목록에 영어 번역도 표시' },
   hello:        { es: 'Hola', en: 'Hi', ja: 'こんにちは', ko: '안녕하세요' },
   mascotHi:     { es: '¡Hola! Soy Mochi', en: "Hi! I'm Mochi", ja: 'こんにちは、モチです', ko: '안녕! 나는 모치' },
