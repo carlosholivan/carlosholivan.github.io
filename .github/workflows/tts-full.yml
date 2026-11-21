@@ -29,7 +29,7 @@ jobs:
             /*-app/data/
             !/*-app/data/audio/
             /*-app/data/audio/tts_v2.json
-            /*-app/js/conj.js
+            /*-app/js/
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -97,7 +97,8 @@ jobs:
           for d in out/*-app; do [ -d "$d" ] && mkdir -p "${d#out/}" && cp -r "$d"/. "${d#out/}"/; done
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --sparse -A -- '*-app/data/audio'
+          if ! ls out/*-app >/dev/null 2>&1; then echo "no new audio"; exit 0; fi
+          git add --sparse -A -- $(ls -d *-app/data/audio)
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "audio: new voice (Chatterbox) for texts and sentences"
           for i in 1 2 3 4 5; do git pull -q --rebase origin master && git push -q origin HEAD:master && break; sleep 20; done

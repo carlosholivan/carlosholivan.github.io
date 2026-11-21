@@ -25,6 +25,14 @@ if LANG == 'zh':
 ref = None
 for ext in ('wav', 'flac', 'mp3'):
     if os.path.exists(f'.github/tts/voices/{LANG}.{ext}'): ref = f'.github/tts/voices/{LANG}.{ext}'
+# British English: Karen Savage (LibriVox, public domain), a 14 s excerpt after the LibriVox intro.
+if not ref and LANG == 'en':
+    try:
+        urllib.request.urlretrieve('https://archive.org/download/mansfield_park_1104_librivox/mansfield_park_01_austen_64kb.mp3', '/tmp/en_src.mp3')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '62', '-t', '14', '-i', '/tmp/en_src.mp3', '-ac', '1', '-ar', '24000', '/tmp/ref_en.wav'], check=True)
+        ref = '/tmp/ref_en.wav'
+    except Exception as e:
+        print('British reference not available, using the demo voice:', e)
 if not ref:
     DEMO = {'ar': 'ar_f/ar_prompts2.flac', 'de': 'de_f1.flac', 'en': 'en_f1.flac', 'es': 'es_f1.flac', 'fr': 'fr_f1.flac', 'ja': 'ja/ja_prompts1.flac', 'zh': 'zh_f2.flac'}
     ref = f'/tmp/ref_{LANG}.flac'
