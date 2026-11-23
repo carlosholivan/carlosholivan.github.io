@@ -1,16 +1,16 @@
-import { tutorBtn } from '../tutor.js?v=202611211930';
+import { tutorBtn } from '../tutor.js?v=202611231200';
 // Grammar reference: every unit's grammar explanation by HSK level, plus shortcuts to drills, vocab and pinyin.
-import { enLine, enInline } from '../en-gloss.js?v=202611211930';
-import { S, update } from '../state.js?v=202611211930';
-import { register, go } from '../router.js?v=202611211930';
-import { loadUnits } from '../data.js?v=202611211930';
-import { bottomNav, header } from '../ui/components.js?v=202611211930';
-import { t } from '../i18n.js?v=202611211930';
-import { levelChips, levelLabel } from '../levels.js?v=202611211930';
-import { speak } from '../audio.js?v=202611211930';
-import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611211930';
-import { allVocab } from './review.js?v=202611211930';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611211930';
+import { enLine, enInline } from '../en-gloss.js?v=202611231200';
+import { S, update } from '../state.js?v=202611231200';
+import { register, go } from '../router.js?v=202611231200';
+import { loadUnits } from '../data.js?v=202611231200';
+import { bottomNav, header } from '../ui/components.js?v=202611231200';
+import { t } from '../i18n.js?v=202611231200';
+import { levelChips, levelLabel } from '../levels.js?v=202611231200';
+import { speak } from '../audio.js?v=202611231200';
+import { ruby, pyReady, esc, mean, tonedPinyin, sylReady } from '../ja.js?v=202611231200';
+import { allVocab } from './review.js?v=202611231200';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611231200';
 // Grammar point names carry a few Spanish glosses in brackets; other users see them in English.
 const GNAME_EN = { estado: 'state', condicional: 'conditional', 'oído': 'hearsay', aunque: 'although', apariencia: 'appearance',
   'énfasis': 'emphasis', para: 'for', modo: 'manner', frecuencia: 'frequency', causa: 'cause', 'total／medio': 'total／means' };

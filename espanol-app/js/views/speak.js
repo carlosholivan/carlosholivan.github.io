@@ -2,13 +2,13 @@
 // the browser's speech recognition checks it), 3) guided role-play conversations with the Gemini tutor.
 // Sentences come from the level's example sentences (data/<level>/examples.json), which have recorded audio.
 // Same file in every app; the language comes from CFG.id.
-import { S, update } from '../state.js?v=202611211930';
-import { register } from '../router.js?v=202611211930';
-import { LEVELS, levelLabel } from '../levels.js?v=202611211930';
-import { header, bottomNav } from '../ui/components.js?v=202611211930';
-import { speak, stop } from '../audio.js?v=202611211930';
-import { CFG } from '../app-config.js?v=202611211930';
-import { chatGemini, tutorKey, errText } from '../tutor.js?v=202611211930';
+import { S, update } from '../state.js?v=202611231200';
+import { register } from '../router.js?v=202611231200';
+import { LEVELS, levelLabel } from '../levels.js?v=202611231200';
+import { header, bottomNav } from '../ui/components.js?v=202611231200';
+import { speak, stop } from '../audio.js?v=202611231200';
+import { CFG } from '../app-config.js?v=202611231200';
+import { chatGemini, tutorKey, errText } from '../tutor.js?v=202611231200';
 
 const APP = CFG.id;
 const LANG = { espanol: ['es-ES', 'Spanish'], english: ['en-GB', 'English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
@@ -32,6 +32,7 @@ const TX = {
   pronHint: { es: 'Lee la frase en voz alta. Pulsa el micrófono, habla y espera a que termine.', en: 'Read the sentence aloud. Tap the microphone, speak and wait for it to finish.' },
   tapMic: { es: 'Toca para hablar', en: 'Tap to speak' }, listening: { es: 'Te escucho…', en: 'Listening…' },
   heard: { es: 'He entendido', en: 'I heard' },
+  micStuck: { es: 'El micrófono no responde. Comprueba que esta web tiene permiso de micrófono, cierra otras apps que lo usen y vuelve a intentarlo. En iPhone usa Safari con Siri activado; en Android, Chrome.', en: 'The microphone isn’t responding. Check this site has microphone permission, close other apps using it and try again. On iPhone use Safari with Siri enabled; on Android, Chrome.' },
   noSR: { es: 'Tu navegador no tiene reconocimiento de voz. Usa Chrome (Android, ordenador) o Safari (iPhone, con Siri activado).', en: 'Your browser has no speech recognition. Use Chrome (Android, computer) or Safari (iPhone, with Siri enabled).' },
   micDenied: { es: 'No hay permiso para usar el micrófono. Actívalo en los ajustes del navegador para esta web.', en: 'No permission to use the microphone. Allow it in the browser settings for this site.' },
   noSpeech: { es: 'No he oído nada. Acércate al micrófono y vuelve a intentarlo.', en: 'I didn’t hear anything. Get closer to the microphone and try again.' },
@@ -151,11 +152,11 @@ function count(kind) {
 // In the browser: Web Speech API (Chrome, Safari). In the native app (Capacitor) the WebView has no Web Speech API,
 // so the plugin @capacitor-community/speech-recognition is used instead (the phone's own recognizer; see
 // idiomas/NATIVE_APP.md). Both return a list of alternatives for the last utterance.
-let rec = null, nativeStop = null;
+let rec = null, nativeStop = null, forceEnd = null;
 const NATIVE = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform() && window.Capacitor.Plugins && window.Capacitor.Plugins.SpeechRecognition) || null;
 const canListen = () => !!(NATIVE() || SR);
-function stopListening() { try { nativeStop ? nativeStop() : rec && rec.stop(); } catch (e) {} }
-function abortListening() { try { nativeStop ? nativeStop() : rec && rec.abort(); } catch (e) {} }
+function stopListening() { try { nativeStop ? nativeStop() : forceEnd ? forceEnd() : rec && rec.stop(); } catch (e) {} }
+function abortListening() { try { nativeStop ? nativeStop() : rec && rec.abort(); } catch (e) {} rec = null; forceEnd = null; }
 
 async function listenNative(P, onInterim) {
   const av = await P.available().catch(() => ({ available: false }));
@@ -191,26 +192,41 @@ function listen(onInterim) {
   abortListening();
   const P = NATIVE();
   if (P) return listenNative(P, onInterim);
+  // Some phones never fire the end events (the recognizer hangs): a watchdog always settles the promise, so the
+  // microphone button can never stay stuck. Listening lasts at most 15 s; tapping the button again ends it.
   return new Promise((resolve, reject) => {
     if (!SR) return reject(new Error('nosr'));
-    rec = new SR();
-    rec.lang = LANG[0];
-    rec.interimResults = true;
-    rec.maxAlternatives = 4;
-    rec.continuous = false;
-    let alts = [], last = '';
-    rec.onresult = e => {
-      const res = e.results[e.results.length - 1];
-      last = [...e.results].map(r => r[0].transcript).join(' ');
-      onInterim && onInterim(last);
-      if (res.isFinal) alts = [...res].map(a => a.transcript);
+    const r = rec = new SR();
+    r.lang = LANG[0];
+    r.interimResults = true;
+    r.maxAlternatives = 4;
+    r.continuous = false;
+    let alts = [], last = '', done = false, started = false;
+    const timers = [];
+    const finish = (err) => {
+      if (done) return;
+      done = true; timers.forEach(clearTimeout); forceEnd = null;
+      if (rec === r) rec = null;
+      try { r.abort(); } catch (e) {}
+      if (err && !alts.length && !last) reject(err); else resolve(alts.length ? alts : last ? [last] : []);
     };
-    rec.onerror = e => reject(new Error(e.error || 'error'));
-    rec.onend = () => resolve(alts.length ? alts : last ? [last] : []);
-    try { rec.start(); } catch (e) { reject(e); }
+    const soft = () => { try { r.stop(); } catch (e) {} timers.push(setTimeout(() => finish(), 1500)); };
+    forceEnd = soft;
+    r.onstart = () => { started = true; };
+    r.onresult = e => {
+      const res = e.results[e.results.length - 1];
+      last = [...e.results].map(x => x[0].transcript).join(' ');
+      onInterim && onInterim(last);
+      if (res.isFinal) { alts = [...res].map(a => a.transcript); timers.push(setTimeout(() => finish(), 800)); }
+    };
+    r.onerror = e => finish(new Error(e.error || 'error'));
+    r.onend = () => finish();
+    timers.push(setTimeout(() => { if (!started) finish(new Error('start-timeout')); }, 4000));
+    timers.push(setTimeout(soft, 15000));
+    try { r.start(); } catch (e) { finish(e); }
   });
 }
-const srError = e => e.message === 'nosr' ? tx('noSR') : /not-allowed|service-not-allowed|permission/i.test(e.message) ? tx('micDenied') : /no-speech|aborted/.test(e.message) ? tx('noSpeech') : esc(e.message);
+const srError = e => e.message === 'nosr' ? tx('noSR') : /not-allowed|service-not-allowed|permission/i.test(e.message) ? tx('micDenied') : /no-speech|aborted/.test(e.message) ? tx('noSpeech') : /start-timeout|audio-capture|network/.test(e.message) ? tx('micStuck') : esc(e.message);
 
 // ---------- view ----------
 let root = null;

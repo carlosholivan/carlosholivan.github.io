@@ -1,4 +1,4 @@
-import { S, save } from '../state.js?v=202611211930';
+import { S, save } from '../state.js?v=202611231200';
 
 export function recordAnswer(word, correct) {
   if (!S.vocab[word]) {
