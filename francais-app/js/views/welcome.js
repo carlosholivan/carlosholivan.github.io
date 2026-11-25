@@ -1,18 +1,18 @@
-import { planBox } from '../plan.js?v=202611260900';
-import { needsTour, startTour } from '../tour.js?v=202611260900';
-import { S, update } from '../state.js?v=202611260900';
-import { register, go } from '../router.js?v=202611260900';
-import { t } from '../i18n.js?v=202611260900';
-import { speak } from '../audio.js?v=202611260900';
-import { deckStats } from '../engine/anki.js?v=202611260900';
-import { failedWords } from '../engine/srs.js?v=202611260900';
-import { allVocab } from './review.js?v=202611260900';
-import { loadUnits } from '../data.js?v=202611260900';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611260900';
-import { textsWithRecommendation } from './texts.js?v=202611260900';
-import { ruby, pyReady } from '../es.js?v=202611260900';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611260900';
-import { mascot } from '../ui/mascot.js?v=202611260900';
+import { planBox } from '../plan.js?v=202611261000';
+import { needsTour, startTour } from '../tour.js?v=202611261000';
+import { S, update } from '../state.js?v=202611261000';
+import { register, go } from '../router.js?v=202611261000';
+import { t } from '../i18n.js?v=202611261000';
+import { speak } from '../audio.js?v=202611261000';
+import { deckStats } from '../engine/anki.js?v=202611261000';
+import { failedWords } from '../engine/srs.js?v=202611261000';
+import { allVocab } from './review.js?v=202611261000';
+import { loadUnits } from '../data.js?v=202611261000';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611261000';
+import { textsWithRecommendation } from './texts.js?v=202611261000';
+import { ruby, pyReady } from '../es.js?v=202611261000';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611261000';
+import { mascot } from '../ui/mascot.js?v=202611261000';
 
 const zh = (s) => ruby(s);
 

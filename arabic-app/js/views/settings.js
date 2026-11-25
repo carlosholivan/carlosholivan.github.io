@@ -1,18 +1,18 @@
-import { reminderSettings } from '../reminders.js?v=202611260900';
-import { planSettings } from '../plan.js?v=202611260900';
-import '../tour.js?v=202611260900';
-import { tutorSettings } from '../tutor.js?v=202611260900';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611260900';
-import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611260900';
-import { readAnki } from '../anki-import.js?v=202611260900';
-import { allVocab } from './review.js?v=202611260900';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611260900';
-import { esc } from '../ar.js?v=202611260900';
-import { register, go } from '../router.js?v=202611260900';
-import { bottomNav, header } from '../ui/components.js?v=202611260900';
-import { t } from '../i18n.js?v=202611260900';
-import { applyPinyinPref } from '../ar.js?v=202611260900';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611260900';
+import { reminderSettings } from '../reminders.js?v=202611261000';
+import { planSettings } from '../plan.js?v=202611261000';
+import '../tour.js?v=202611261000';
+import { tutorSettings } from '../tutor.js?v=202611261000';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611261000';
+import { speak, SPEEDS, speed, G, SAMPLE, langVoices, deviceVoiceName, setDeviceVoice, hasRecorded } from '../audio.js?v=202611261000';
+import { readAnki } from '../anki-import.js?v=202611261000';
+import { allVocab } from './review.js?v=202611261000';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611261000';
+import { esc } from '../ar.js?v=202611261000';
+import { register, go } from '../router.js?v=202611261000';
+import { bottomNav, header } from '../ui/components.js?v=202611261000';
+import { t } from '../i18n.js?v=202611261000';
+import { applyPinyinPref } from '../ar.js?v=202611261000';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611261000';
 
 let REC = false;
 hasRecorded().then(r => { REC = r; });
@@ -101,6 +101,7 @@ register('settings', (el) => {
     </div>
     ${planSettings()}
     ${reminderSettings()}
+    <button class="btn btn-soft mb-16" onclick="window.__musicToggle && window.__musicToggle(this)">🎹 ${S.lang === 'es' ? 'Música de piano en los menús' : 'Piano music in the menus'} ${!window.__musicOn || window.__musicOn() ? '✓' : '✗'}</button>
     <button class="btn btn-soft mb-16" onclick="window.__tour && window.__tour()">🧭 ${S.lang === 'es' ? 'Ver la guía de la app' : 'Show the app tour'}</button>
     ${tutorSettings()}
 

@@ -1,12 +1,12 @@
 // Leaderboard: points from learned vocabulary, learned grammar (completed lessons and sets) and the current streak.
-import { S, afterSync } from '../state.js?v=202611260900';
-import { register } from '../router.js?v=202611260900';
-import { bottomNav, header } from '../ui/components.js?v=202611260900';
-import { t } from '../i18n.js?v=202611260900';
-import { esc } from '../ar.js?v=202611260900';
-import { wordStatus } from '../engine/status.js?v=202611260900';
-import { allVocab } from './review.js?v=202611260900';
-import { getUser, isVerified, publishRank, loadRanking, rankPosition } from '../firebase-auth.js?v=202611260900';
+import { S, afterSync } from '../state.js?v=202611261000';
+import { register } from '../router.js?v=202611261000';
+import { bottomNav, header } from '../ui/components.js?v=202611261000';
+import { t } from '../i18n.js?v=202611261000';
+import { esc } from '../ar.js?v=202611261000';
+import { wordStatus } from '../engine/status.js?v=202611261000';
+import { allVocab } from './review.js?v=202611261000';
+import { getUser, isVerified, publishRank, loadRanking, rankPosition } from '../firebase-auth.js?v=202611261000';
 
 const WORD_PTS = { learning: 1, ghost: 1, review: 2, master: 4 };
 const LESSON_PTS = 25, SET_PTS = 5, STREAK_PTS = 10;
