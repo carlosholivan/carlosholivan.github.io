@@ -1,18 +1,18 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611260830';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611260830';
-import { buildReview } from '../engine/review.js?v=202611260830';
-import { addCards } from '../engine/anki.js?v=202611260830';
-import { register, go } from '../router.js?v=202611260830';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611260830';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611260830';
-import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611260830';
-import { recordAnswer } from '../engine/srs.js?v=202611260830';
-import { progressBar } from '../ui/components.js?v=202611260830';
-import { icon } from '../ui/icons.js?v=202611260830';
-import { t } from '../i18n.js?v=202611260830';
-import { speak, stop as stopAudio } from '../audio.js?v=202611260830';
-import { allHanzi } from './review.js?v=202611260830';
-import { wordSize } from '../chars.js?v=202611260830';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611260930';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611260930';
+import { buildReview } from '../engine/review.js?v=202611260930';
+import { addCards } from '../engine/anki.js?v=202611260930';
+import { register, go } from '../router.js?v=202611260930';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611260930';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611260930';
+import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611260930';
+import { recordAnswer } from '../engine/srs.js?v=202611260930';
+import { progressBar } from '../ui/components.js?v=202611260930';
+import { icon } from '../ui/icons.js?v=202611260930';
+import { t } from '../i18n.js?v=202611260930';
+import { speak, stop as stopAudio } from '../audio.js?v=202611260930';
+import { allHanzi } from './review.js?v=202611260930';
+import { wordSize } from '../chars.js?v=202611260930';
 
 const MAX_HEARTS = 5;
 
@@ -30,6 +30,8 @@ function zhAnswer(text) {
 }
 
 register('lesson', async (el, params) => {
+  // From story mode, finishing (or leaving) a lesson goes back to the story, which plays the closing scene.
+  window.__lessonDone = () => { stopAudio(); params.story ? go('story', { level: params.level, outro: String(params.unit) }) : go('home'); };
   await pyReady; await sylReady;
   const review = params.review ? await buildReview() : null;
   if (review && !review.queue.length) {
@@ -37,7 +39,7 @@ register('lesson', async (el, params) => {
       <div style="font-size:56px;margin-bottom:12px">🌱</div>
       <div class="h2 mb-8">${t('review')}</div>
       <div class="muted mb-16">${t('reviewEmpty')}</div>
-      <button class="btn" onclick="window.__nav('home')">${t('continue')}</button></div>`;
+      <button class="btn" onclick="window.__lessonDone()">${t('continue')}</button></div>`;
     return;
   }
   let unit = review
@@ -440,7 +442,7 @@ register('lesson', async (el, params) => {
     renderExercise();
   };
 
-  window.__quitLesson = () => { stopAudio(); go('home'); };
+  window.__quitLesson = () => { stopAudio(); params.story ? go('story', { level: params.level }) : go('home'); };
 
   window.__showHelp = () => {
     const vocabList = words.map(v =>
@@ -471,7 +473,7 @@ register('lesson', async (el, params) => {
       <div class="card" style="padding:20px;margin-bottom:20px">
         <div class="flex items-center justify-between"><span>${t('xpEarned')}</span><strong>+5</strong></div>
       </div>
-      <button class="btn" onclick="window.__nav('home')">${t('continue')}</button>
+      <button class="btn" onclick="window.__lessonDone()">${t('continue')}</button>
     </div>`;
   }
 
@@ -490,7 +492,7 @@ register('lesson', async (el, params) => {
         <div class="flex items-center justify-between"><span>${t('xpEarned')}</span><strong>+5</strong></div>
       </div>
       ${next ? `<button class="btn mb-12" onclick="window.__go('lesson',{level:'${params.level}',unit:${params.unit},set:${next}})">${t('nextSet')} (${next}/7) →</button>` : ''}
-      <button class="btn ${next ? 'btn-ghost' : ''}" onclick="window.__nav('home')">${t('continue')}</button>
+      <button class="btn ${next ? 'btn-ghost' : ''}" onclick="window.__lessonDone()">${t('continue')}</button>
     </div>`;
   }
 
@@ -514,7 +516,7 @@ register('lesson', async (el, params) => {
           <span>${t('xpEarned')}</span><strong>+10</strong>
         </div>
       </div>
-      <button class="btn" onclick="window.__nav('home')">${t('continue')}</button>
+      <button class="btn" onclick="window.__lessonDone()">${t('continue')}</button>
     </div>`;
   }
 
