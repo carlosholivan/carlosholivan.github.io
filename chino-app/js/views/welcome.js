@@ -1,18 +1,18 @@
-import { planBox } from '../plan.js?v=202611261000';
-import { needsTour, startTour } from '../tour.js?v=202611261000';
-import { S, update } from '../state.js?v=202611261000';
-import { register, go } from '../router.js?v=202611261000';
-import { t } from '../i18n.js?v=202611261000';
-import { speak } from '../audio.js?v=202611261000';
-import { deckStats } from '../engine/anki.js?v=202611261000';
-import { failedWords } from '../engine/srs.js?v=202611261000';
-import { allVocab } from './review.js?v=202611261000';
-import { loadUnits } from '../data.js?v=202611261000';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611261000';
-import { textsWithRecommendation } from './texts.js?v=202611261000';
-import { ruby, pyReady } from '../zh.js?v=202611261000';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611261000';
-import { mascot } from '../ui/mascot.js?v=202611261000';
+import { planBox } from '../plan.js?v=202611261100';
+import { needsTour, startTour } from '../tour.js?v=202611261100';
+import { S, update } from '../state.js?v=202611261100';
+import { register, go } from '../router.js?v=202611261100';
+import { t } from '../i18n.js?v=202611261100';
+import { speak } from '../audio.js?v=202611261100';
+import { deckStats } from '../engine/anki.js?v=202611261100';
+import { failedWords } from '../engine/srs.js?v=202611261100';
+import { allVocab } from './review.js?v=202611261100';
+import { loadUnits } from '../data.js?v=202611261100';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611261100';
+import { textsWithRecommendation } from './texts.js?v=202611261100';
+import { ruby, pyReady } from '../zh.js?v=202611261100';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611261100';
+import { mascot } from '../ui/mascot.js?v=202611261100';
 
 const zh = (s) => ruby(s);
 
@@ -63,7 +63,7 @@ window.__pickLevel = (level) => {
 
 function continueToApp() {
   clearTimeout(welcomeTimer);
-  go('study-pick');
+  go(S.mode === 'story' ? 'story' : 'study-pick');
 }
 
 register('name', async (el) => {
@@ -121,6 +121,16 @@ register('welcome', async (el) => {
 });
 
 window.__welcomeContinue = continueToApp;
+// Study mode (this screen) or story mode (the same lessons lived as a story).
+window.__setMode = m => { update({ mode: m }); if (m === 'story') go('story'); };
+if (!document.getElementById('mode-css')) {
+  const st = document.createElement('style'); st.id = 'mode-css';
+  st.textContent = `.mode-pick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+  .mode-card{display:flex;align-items:center;gap:8px;padding:12px;border-radius:16px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;cursor:pointer;position:relative}
+  .mode-card span{font-size:22px}.mode-card.on{border:2px solid var(--accent);background:var(--soft)}
+  .mode-card small{position:absolute;top:-8px;right:8px;background:#e8574a;color:#fff;border-radius:999px;padding:1px 8px;font-size:11px;font-weight:800}`;
+  document.head.appendChild(st);
+}
 
 // Message about the time since the last visit (null when it was today/yesterday).
 function awayLine() {
@@ -163,6 +173,10 @@ register('study-pick', async (el) => {
   el.innerHTML = `<div class="fade study-pick">
     <div class="h1 mb-8">${zh('你今天想学什么？')}</div>
     <div class="muted mb-16">${t('whatStudyToday')}</div>
+    <div class="mode-pick">
+      <button class="mode-card on" onclick="window.__setMode('study')"><span>📖</span><b>${S.lang === 'es' ? 'Modo estudio' : 'Study mode'}</b></button>
+      <button class="mode-card" onclick="window.__setMode('story')"><span>🗺️</span><b>${S.lang === 'es' ? 'Modo historia' : 'Story mode'}</b><small>${S.lang === 'es' ? 'Nuevo' : 'New'}</small></button>
+    </div>
     ${planBox(num, rec)}
     ${info ? `<div class="away-info ${away ? 'warn' : ''} mb-12">${esc(info)}</div>` : ''}
     ${history ? `<button class="card study-opt review-opt ${away ? 'hot' : ''}" onclick="window.__startReview()">
