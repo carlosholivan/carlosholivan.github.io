@@ -1,9 +1,9 @@
 // "Write a sentence with this word": on the back of a flashcard the learner writes their own sentence with the
 // word and the AI tutor (Gemini) checks it: verdict, corrected sentence, why, and a more natural version.
-import { S } from './state.js?v=202611261100';
-import { CFG } from './app-config.js?v=202611261100';
-import { levelLabel } from './levels.js?v=202611261100';
-import { chatGemini, tutorKey, errText } from './tutor.js?v=202611261100';
+import { S } from './state.js?v=202611260830';
+import { CFG } from './app-config.js?v=202611260830';
+import { levelLabel } from './levels.js?v=202611260830';
+import { chatGemini, tutorKey, errText, thinkingHTML } from './tutor.js?v=202611260830';
 
 const LANG = { espanol: ['es-ES', 'Spanish (from Spain)'], english: ['en-GB', 'British English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
   chino: ['zh-CN', 'Mandarin Chinese (simplified characters)'], nihongo: ['ja-JP', 'Japanese'], arabic: ['ar', 'Modern Standard Arabic'] }[CFG.id] || ['en', 'English'];
@@ -54,7 +54,7 @@ window.__wsCheck = async () => {
   const v = ta && ta.value.trim();
   if (!v) return;
   go.disabled = true;
-  out.innerHTML = `<div class="ws-res muted">${tx('thinking')}</div>`;
+  out.innerHTML = `<div class="ws-res muted">${thinkingHTML()}</div>`;
   const ui = UI_NAME();
   const sys = `You are a friendly, precise teacher of ${LANG[1]}. The learner (level ${levelLabel(S.level)}) practises the word "${cur.word}"${cur.meaning ? ` (meaning: ${cur.meaning})` : ''} by writing their own sentence with it.
 Check the sentence: grammar, spelling, word choice, and whether "${cur.word}" (or a correct form of it) is used with the right meaning and naturally.

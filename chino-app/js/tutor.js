@@ -2,8 +2,8 @@
 // The key lives only in this browser (localStorage, shared with the Gemini voice); requests go straight from the
 // browser to Google, so they never touch the app owner's account. Used by: texts (select text / tapped word),
 // lessons (why was my answer wrong?), grammar pages (free questions) and Settings (key + instructions).
-import { S } from './state.js?v=202611261100';
-import { go } from './router.js?v=202611261100';
+import { S } from './state.js?v=202611260830';
+import { go } from './router.js?v=202611260830';
 
 const LS = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { return null; } };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -127,7 +127,7 @@ const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\
   .replace(/^\s*[-*•] (.*)\n?/gm, '<li>$1</li>').replace(/(<li>.*?<\/li>)+/g, m => `<ul>${m}</ul>`).replace(/\n{2,}/g, '<br><br>').replace(/\n/g, '<br>');
 
 // "Thinking…" with three dots that bounce in turn while the answer is on its way.
-function thinkingHTML() {
+export function thinkingHTML() {
   if (!document.getElementById('tutor-dots-css')) {
     const st = document.createElement('style'); st.id = 'tutor-dots-css';
     st.textContent = `.tutor-think{display:inline-flex;align-items:center;gap:10px;color:var(--muted,#888)}

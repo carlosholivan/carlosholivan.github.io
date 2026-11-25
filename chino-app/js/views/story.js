@@ -3,13 +3,13 @@
 // "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
 // Art is provisional (portrait placeholders) until the illustrations are made.
-import { S, update } from '../state.js?v=202611261100';
-import { register, go } from '../router.js?v=202611261100';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261100';
-import { loadUnits } from '../data.js?v=202611261100';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611261100';
-import { speak, stop } from '../audio.js?v=202611261100';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611261100';
+import { S, update } from '../state.js?v=202611260830';
+import { register, go } from '../router.js?v=202611260830';
+import { LEVELS, levelLabel } from '../levels.js?v=202611260830';
+import { loadUnits } from '../data.js?v=202611260830';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611260830';
+import { speak, stop } from '../audio.js?v=202611260830';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611260830';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 const T = t => ruby(t);                       // target-language text (with pinyin / furigana when the app has it)

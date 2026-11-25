@@ -2,13 +2,13 @@
 // the browser's speech recognition checks it), 3) guided role-play conversations with the Gemini tutor.
 // Sentences come from the level's example sentences (data/<level>/examples.json), which have recorded audio.
 // Same file in every app; the language comes from CFG.id.
-import { S, update } from '../state.js?v=202611261000';
-import { register } from '../router.js?v=202611261000';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261000';
-import { header, bottomNav } from '../ui/components.js?v=202611261000';
-import { speak, stop } from '../audio.js?v=202611261000';
-import { CFG } from '../app-config.js?v=202611261000';
-import { chatGemini, tutorKey, errText } from '../tutor.js?v=202611261000';
+import { S, update } from '../state.js?v=202611260830';
+import { register } from '../router.js?v=202611260830';
+import { LEVELS, levelLabel } from '../levels.js?v=202611260830';
+import { header, bottomNav } from '../ui/components.js?v=202611260830';
+import { speak, stop } from '../audio.js?v=202611260830';
+import { CFG } from '../app-config.js?v=202611260830';
+import { chatGemini, tutorKey, errText, thinkingHTML } from '../tutor.js?v=202611260830';
 
 const APP = CFG.id;
 const LANG = { espanol: ['es-ES', 'Spanish'], english: ['en-GB', 'English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
@@ -482,7 +482,7 @@ function chatView() {
     <div class="flex items-center justify-between mb-8"><b>${ico} ${esc(L(title))}</b>
       <button class="btn btn-soft btn-small" onclick="window.__spEnd()">${tx('back')}</button></div>
     <div class="muted small mb-12">🎯 ${tx('goal')}: ${esc(L(goal))}</div>
-    <div class="sp-log" id="sp-log">${chat.msgs.map(bubble).join('')}${chat.busy ? `<div class="sp-b ai"><span class="muted">${tx('thinking')}</span></div>` : ''}</div>
+    <div class="sp-log" id="sp-log">${chat.msgs.map(bubble).join('')}${chat.busy ? `<div class="sp-b ai">${thinkingHTML()}</div>` : ''}</div>
     <div class="sp-compose">
       <button class="sp-mic sm" id="sp-cmic" onclick="window.__spDictate()" ${canListen() ? '' : 'disabled'} title="${tx('tapMic')}">${micSVG}</button>
       <textarea id="sp-msg" rows="1" lang="${LANG[0]}" dir="auto" placeholder="${tx('write')}"></textarea>
