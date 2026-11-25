@@ -1,17 +1,18 @@
 // Anki (SM-2) decks: vocabulary ('v') and characters ('h'). Forgotten and due cards first, then new ones.
-import { deckPie } from '../deck-pie.js?v=202611260800';
-import { S, update, touchStreak } from '../state.js?v=202611260800';
-import { register, go } from '../router.js?v=202611260800';
-import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611260800';
-import { LEVELS, levelLabel } from '../levels.js?v=202611260800';
-import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611260800';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611260800';
-import { speak } from '../audio.js?v=202611260800';
-import { t } from '../i18n.js?v=202611260800';
-import { failedWords, markFixed } from '../engine/srs.js?v=202611260800';
-import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611260800';
-import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../es.js?v=202611260800';
-import { charWord, hasChars, wordSize } from '../chars.js?v=202611260800';
+import { writeSentenceBox, showWriteSentence } from '../write-sentence.js?v=202611260900';
+import { deckPie } from '../deck-pie.js?v=202611260900';
+import { S, update, touchStreak } from '../state.js?v=202611260900';
+import { register, go } from '../router.js?v=202611260900';
+import { loadVocab, loadHanzi, loadUnits } from '../data.js?v=202611260900';
+import { LEVELS, levelLabel } from '../levels.js?v=202611260900';
+import { addCards, deckStats, buildQueue, answer, previewLabel, isForgotten, topUpNew, setKnown } from '../engine/anki.js?v=202611260900';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611260900';
+import { speak } from '../audio.js?v=202611260900';
+import { t } from '../i18n.js?v=202611260900';
+import { failedWords, markFixed } from '../engine/srs.js?v=202611260900';
+import { wordStatus, statusLegend, STATUS, isLearned } from '../engine/status.js?v=202611260900';
+import { esc, mean, tonedPinyin, ruby, pyReady, sylReady } from '../es.js?v=202611260900';
+import { charWord, hasChars, wordSize } from '../chars.js?v=202611260900';
 
 let vocabMap = null, hanziMap = null;
 export async function allVocab() {
@@ -146,7 +147,7 @@ function runFailed(el, vm) {
   function render() {
     if (!queue.length) return finish();
     const w = queue[0];
-    const v = vm.get(w) || { w, p: '', m: {} };
+    const v = vm.get(w) || { w, p: '', m: {} }; window.__wsMean = mean(v.m, lang);
     const sv = S.vocab[w] || {};
     const miss = sv.miss ?? Math.max(1, (sv.seen || 0) - (sv.correct || 0));
     el.innerHTML = `<div class="fade" style="padding-top:16px">
@@ -167,6 +168,7 @@ function runFailed(el, vm) {
         <button class="anki-btn again" onclick="window.__ankiRate(1)">${t('ankiAgain')}</button>
         <button class="anki-btn good" onclick="window.__ankiRate(3)">${t('iKnewIt')}</button>
       </div>
+      ${writeSentenceBox(w, window.__wsMean)}
       <div class="muted small center mt-12">${t('cardsLeft')}: ${queue.length}</div>
     </div>`;
   }
@@ -177,6 +179,7 @@ function runFailed(el, vm) {
     back.style.display = 'block'; fillExamples(back);
     document.getElementById('anki-hint').style.display = 'none';
     document.getElementById('anki-btns').style.visibility = 'visible';
+    showWriteSentence();
     speak(queue[0]);
   };
   window.__ankiRate = (r) => {
@@ -189,6 +192,7 @@ function runFailed(el, vm) {
   };
   window.__ankiKeys = (e) => {
     if (!document.getElementById('anki-card')) return document.removeEventListener('keydown', window.__ankiKeys);
+    if (e.target && e.target.closest && e.target.closest('textarea,input')) return;   // typing a sentence
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); window.__ankiShow(); }
     else if ((e.key === '1' || e.key === '2') && document.getElementById('anki-btns').style.visibility === 'visible') window.__ankiRate(e.key === '1' ? 1 : 3);
   };
@@ -376,7 +380,7 @@ async function reviewView(el, params = {}) {
       front = reverse ? `<div class="anki-mean">${esc(mean(h.m, lang))}</div><div class="muted small">${tonedPinyin(h.p || '')}</div>` : `<div class="anki-hz">${esc(w)}</div>`;
       backHtml = (reverse ? `<div class="anki-hz">${esc(w)}</div>` : '') + hanziBack(h, vm, lang);
     } else {
-      const v = vm.get(w) || { w, p: '', m: {} };
+      const v = vm.get(w) || { w, p: '', m: {} }; window.__wsMean = mean(v.m, lang);
       // New words show each character's meaning above it (tap → character sheet); seen words reveal it on the back.
       const isNew = card.s === 'new';
       const plain = `<div class="anki-hz word" style="--wsize:${wordSize(w)}px">${esc(w)}</div>`;
@@ -408,6 +412,7 @@ async function reviewView(el, params = {}) {
         ${[[1, 'again', t('ankiAgain')], [2, 'hard', t('ankiHard')], [3, 'good', t('ankiGood')], [4, 'easy', t('ankiEasy')]].map(([r, c, l]) =>
           `<button class="anki-btn ${c}" onclick="window.__ankiRate(${r})"><span class="ivl">${mode === 'extra' && r > 1 && card.s === 'review' ? '=' : previewLabel(card, r)}</span>${l}</button>`).join('')}
       </div>
+      ${d === 'v' ? writeSentenceBox(w, window.__wsMean) : ''}
       <div class="muted small center mt-12">${t('cardsLeft')}: ${queue.length + pending.length}</div>
     </div>`;
   }
@@ -419,6 +424,7 @@ async function reviewView(el, params = {}) {
     back.style.display = 'block'; fillExamples(back);
     document.getElementById('anki-hint').style.display = 'none';
     document.getElementById('anki-btns').style.visibility = 'visible';
+    showWriteSentence();
     const wordEl = document.getElementById('anki-word');
     if (wordEl && window.__ankiGloss) wordEl.innerHTML = window.__ankiGloss;
     speak(queue[0]);
@@ -455,6 +461,7 @@ async function reviewView(el, params = {}) {
   window.__flipDir = () => { update({ [revKey]: !S[revKey] }); go(self, { deck: d }); };
   window.__ankiKeys = (e) => {
     if (!document.getElementById('anki-card')) return document.removeEventListener('keydown', window.__ankiKeys);
+    if (e.target && e.target.closest && e.target.closest('textarea,input')) return;   // typing a sentence
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); window.__ankiShow(); }
     else if (['1', '2', '3', '4'].includes(e.key) && document.getElementById('anki-btns').style.visibility === 'visible') window.__ankiRate(+e.key);
   };
