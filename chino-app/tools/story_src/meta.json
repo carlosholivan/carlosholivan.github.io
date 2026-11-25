@@ -175,6 +175,18 @@
         "en": "Rival, later friend"
       },
       "color": "#8a5aa0"
+    },
+    "qian": {
+      "t": "钱大人",
+      "n": {
+        "es": "Ministro Qian",
+        "en": "Minister Qian"
+      },
+      "role": {
+        "es": "Ministro corrupto",
+        "en": "Corrupt minister"
+      },
+      "color": "#5a5a5a"
     }
   },
   "chapters": {
