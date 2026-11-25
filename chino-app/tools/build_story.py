@@ -15,6 +15,23 @@ import json, os, re, sys, glob
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+try:
+    import story_lang          # optional per-language hook: segs(text) -> ruby segments (e.g. Japanese furigana)
+except ImportError:
+    story_lang = None
+
+
+def add_segs(o):
+    """Attach precomputed ruby segments ('s') to every {'t': …} in the structure, when the language has a hook."""
+    if not story_lang: return
+    if isinstance(o, dict):
+        if isinstance(o.get('t'), str):
+            sg = story_lang.segs(o['t'])
+            if sg: o['s'] = sg
+        for v in o.values(): add_segs(v)
+    elif isinstance(o, list):
+        for v in o: add_segs(v)
 
 
 def tri(s):
@@ -63,10 +80,15 @@ def build(path):
         if b: b.pop('_part', None)
     if 'finale' in out: out['finale'] = out['finale']['intro']
     if 'intro' in out: out['intro'] = out['intro']['intro']
+    add_segs(out)
     os.makedirs(f'{ROOT}/data/story', exist_ok=True)
     json.dump(out, open(f'{ROOT}/data/story/{lv}.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))
     units = json.load(open(f'{ROOT}/data/{lv}/units.json', encoding='utf8'))
-    missing = [str(u['id']) for u in units if str(u['id']) not in out['units']]
+    covered = set(out['units'])
+    for k in out['units']:
+        m = re.fullmatch(r'(\d+)-(\d+)', k)
+        if m: covered |= {str(i) for i in range(int(m.group(1)), int(m.group(2)) + 1)}
+    missing = [str(u['id']) for u in units if str(u['id']) not in covered]
     print(f'{lv}: {len(out["units"])} scenes', f'(missing: {", ".join(missing)})' if missing else '')
 
 
@@ -74,4 +96,5 @@ if __name__ == '__main__':
     for p in sorted(glob.glob(f'{HERE}/story_src/*.txt')): build(p)
     meta = f'{HERE}/story_src/meta.json'
     if os.path.exists(meta):
-        json.dump(json.load(open(meta, encoding='utf8')), open(f'{ROOT}/data/story/meta.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))
+        m = json.load(open(meta, encoding='utf8')); add_segs(m)
+        json.dump(m, open(f'{ROOT}/data/story/meta.json', 'w', encoding='utf8'), ensure_ascii=False, separators=(',', ':'))

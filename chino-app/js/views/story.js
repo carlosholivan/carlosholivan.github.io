@@ -3,16 +3,20 @@
 // "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
 // Art is provisional (portrait placeholders) until the illustrations are made.
-import { S, update } from '../state.js?v=202611260830';
-import { register, go } from '../router.js?v=202611260830';
-import { LEVELS, levelLabel } from '../levels.js?v=202611260830';
-import { loadUnits } from '../data.js?v=202611260830';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611260830';
-import { speak, stop } from '../audio.js?v=202611260830';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611260830';
+import { CFG } from '../app-config.js?v=202611260900';
+import { S, update } from '../state.js?v=202611260900';
+import { register, go } from '../router.js?v=202611260900';
+import { LEVELS, levelLabel } from '../levels.js?v=202611260900';
+import { loadUnits } from '../data.js?v=202611260900';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611260900';
+import { speak, stop } from '../audio.js?v=202611260900';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611260900';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
-const T = t => ruby(t);                       // target-language text (with pinyin / furigana when the app has it)
+// Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
+// segments (Japanese furigana from MeCab, built by tools/build_story.py) when present.
+const T = (t, s) => ruby(t, s ? { segs: s } : {});
+const LG = { chino: 'zh', nihongo: 'ja', arabic: 'ar', espanol: 'es', english: 'en', francais: 'fr', deutsch: 'de' }[CFG.id] || 'en';
 const TX = {
   mode: { es: 'Modo historia', en: 'Story mode' }, study: { es: 'Modo estudio', en: 'Study mode' },
   chapter: { es: 'Capítulo', en: 'Chapter' }, lesson: { es: 'Lección', en: 'Lesson' },
@@ -27,7 +31,7 @@ const TX = {
   unlocked: { es: 'Desbloqueado', en: 'Unlocked' }, cont: { es: 'Continuar la historia', en: 'Continue the story' },
   life: { es: 'Tu historia', en: 'Your story' }, art: { es: 'Arte provisional', en: 'Provisional art' },
   soon: { es: 'Este capítulo se está escribiendo.', en: 'This chapter is being written.' },
-  finale: { es: 'Final del capítulo', en: 'Chapter finale' }, gift: { es: 'Regalo', en: 'Gift' },
+  finale: { es: 'Final del capítulo', en: 'Chapter finale' }, scene: { es: 'escena', en: 'scene' }, gift: { es: 'Regalo', en: 'Gift' },
 };
 const tx = k => L(TX[k]);
 
@@ -38,6 +42,20 @@ const chapter = async lv => cache[lv] || (cache[lv] = await fetch(`data/story/${
 const st = () => S.story || { friend: {}, seen: {}, choice: {} };
 const saveSt = patch => update({ story: { ...st(), ...patch } });
 const unitDone = (lv, u) => !!(S.completed || {})[`${lv}-${u}`];
+
+// The map's stops. A scene usually belongs to one lesson ("5"), but in levels with many lessons one scene can
+// cover a run of consecutive lessons ("7-12"): its mission is to finish all of them, in order.
+function nodesOf(units, ch) {
+  const keys = Object.keys((ch && ch.units) || {});
+  const keyOf = id => keys.find(k => k === String(id)) || keys.find(k => { const m = /^(\d+)-(\d+)$/.exec(k); return m && +id >= +m[1] && +id <= +m[2]; });
+  const out = [];
+  for (const u of units) {
+    const k = keyOf(u.id) || String(u.id), last = out[out.length - 1];
+    if (last && last.key === k) last.units.push(u); else out.push({ key: k, units: [u], sc: ch && ch.units[k] });
+  }
+  return out;
+}
+const nodeDone = n => n.units.every(u => unitDone(level, u.id));
 
 function levelOpen(lv, units) {
   const i = LEVELS.indexOf(lv), cur = LEVELS.indexOf(S.level);
@@ -54,12 +72,14 @@ register('story', async (el, params = {}) => {
   await Promise.all([pyReady, sylReady]);
   const m = await meta();
   level = params.level || level || (LEVELS.includes(S.level) ? S.level : LEVELS[0]);
-  if (params.outro) {               // back from a lesson: play its closing scene once
-    const ch = await chapter(level), sc = ch && ch.units[params.outro];
-    const key = `${level}-${params.outro}-o`;
-    if (sc && unitDone(level, params.outro) && !st().seen[key]) {
-      return player(sc.outro || [], { after: () => { saveSt({ seen: { ...st().seen, [key]: 1 } }); afterOutro(); } });
+  if (params.outro) {               // back from a lesson: play its closing scene once (when its whole run is done)
+    const ch = await chapter(level), units = await loadUnits(level);
+    const n = nodesOf(units, ch).find(x => x.units.some(u => String(u.id) === String(params.outro)));
+    const key = n && `${level}-${n.key}-o`;
+    if (n && n.sc && nodeDone(n) && !st().seen[key]) {
+      return player(n.sc.outro || [], { after: () => { saveSt({ seen: { ...st().seen, [key]: 1 } }); afterOutro(); } });
     }
+    if (n && n.units.length > 1 && !nodeDone(n)) return missionScreen(n);   // next lesson of the same episode
   }
   map(m);
 });
@@ -84,13 +104,15 @@ async function map(m) {
     return player(ch.intro, { after: () => { saveSt({ seen: { ...st().seen, [`${level}-intro`]: 1 } }); map(m); } });
   }
   const info = (m.chapters || {})[level] || {};
-  const cur = units.find(u => !unitDone(level, u.id));
-  const nodes = units.map((u, i) => {
-    const done = unitDone(level, u.id), isCur = cur && u.id === cur.id;
+  const ns = nodesOf(units, ch);
+  const cur = ns.find(n => !nodeDone(n));
+  const nodes = ns.map((n, i) => {
+    const done = nodeDone(n), isCur = n === cur;
     const state = done ? 'done' : isCur ? 'cur' : 'lock';
     const x = [50, 24, 50, 76][i % 4];
-    return `<div class="sm-node ${state}" style="left:${x}%;top:${i * 162 + 20}px" onclick="window.__smOpen('${u.id}')">
-      <span>${done ? '★' : isCur ? '▶' : '🔒'}</span><small>${i + 1}</small></div>`;
+    const part = n.units.length > 1 ? `<em>${n.units.filter(u => unitDone(level, u.id)).length}/${n.units.length}</em>` : '';
+    return `<div class="sm-node ${state}" style="left:${x}%;top:${i * 162 + 20}px" onclick="window.__smOpen('${n.key}')">
+      <span>${done ? '★' : isCur ? '▶' : '🔒'}</span><small>${i + 1}</small>${part}</div>`;
   });
   const bg = info.bg || ['#bfe7ff', '#a6dc78'];
   root.innerHTML = `<div class="fade sm">
@@ -101,20 +123,20 @@ async function map(m) {
     <div class="sm-levels">${LEVELS.map(l => `<button class="chip ${l === level ? 'on' : ''} ${levelOpen(l, allUnits) ? '' : 'locked'}" onclick="window.__smLevel('${l}')">${levelOpen(l, allUnits) ? '' : '🔒 '}${levelLabel(l)}</button>`).join('')}</div>
     <div class="sm-head card">
       <div class="small muted">${tx('chapter')} ${LEVELS.indexOf(level) + 1} · ${levelLabel(level)}</div>
-      <div class="sm-title">${info.t ? T(info.t) : ''}</div>
+      <div class="sm-title">${info.t ? T(info.t, info.s) : ''}</div>
       <div class="muted">${esc(L(info.n))}</div>
       ${ch ? '' : `<div class="small mt-8" style="color:var(--no)">${tx('soon')}</div>`}
     </div>
     <div class="sm-world" style="background:linear-gradient(${bg[0]}, ${bg[1]})">
-      <svg class="sm-path" viewBox="0 0 100 ${units.length * 18 + 10}" preserveAspectRatio="none">
-        <path d="${pathD(units.length)}" stroke="rgba(255,255,255,.8)" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
-        <path d="${pathD(units.length)}" stroke="rgba(0,0,0,.12)" stroke-width="3" fill="none" stroke-dasharray="2 12" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
+      <svg class="sm-path" viewBox="0 0 100 ${ns.length * 18 + 10}" preserveAspectRatio="none">
+        <path d="${pathD(ns.length)}" stroke="rgba(255,255,255,.8)" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+        <path d="${pathD(ns.length)}" stroke="rgba(0,0,0,.12)" stroke-width="3" fill="none" stroke-dasharray="2 12" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
       ${nodes.join('')}
-      <div class="sm-end" style="top:${units.length * 162 + 20}px">🏁 ${tx('finale')}</div>
+      <div class="sm-end" style="top:${ns.length * 162 + 20}px">🏁 ${tx('finale')}</div>
     </div>
     <div class="muted small center mt-8">🎨 ${tx('art')}</div>
   </div>${bottomNav('home')}`;
-  root.querySelector('.sm-world').style.height = `${units.length * 162 + 90}px`;
+  root.querySelector('.sm-world').style.height = `${ns.length * 162 + 90}px`;
   const c = root.querySelector('.sm-node.cur');
   if (c) setTimeout(() => c.scrollIntoView({ block: 'center', behavior: 'smooth' }), 150);
 }
@@ -132,37 +154,46 @@ window.__smLevel = async l => {
 window.__smStudy = () => { stop(); update({ mode: 'study' }); go('study-pick'); };
 
 // ---------- a lesson's scene ----------
-window.__smOpen = async id => {
-  const units = await loadUnits(level);
-  id = String(id);
-  const idx = units.findIndex(u => String(u.id) === id);
-  const done = unitDone(level, id);
-  const cur = units.find(u => !unitDone(level, u.id));
-  if (!done && (!cur || String(cur.id) !== id)) return toast(tx('locked'));
-  const ch = await chapter(level);
-  const sc = ch && ch.units[id];
-  const u = units[idx];
-  const missionCard = () => missionScreen(u, sc, done);
-  if (!sc) return missionCard();
-  const key = `${level}-${id}-i`;
-  player(sc.intro || [], { choice: sc.choice, choiceKey: `${level}-${id}`, after: () => { saveSt({ seen: { ...st().seen, [key]: 1 } }); missionCard(); } });
+window.__smOpen = async key => {
+  key = String(key);
+  const ch = await chapter(level), ns = nodesOf(await loadUnits(level), ch);
+  const n = ns.find(x => x.key === key);
+  if (!n) return;
+  const cur = ns.find(x => !nodeDone(x));
+  if (!nodeDone(n) && n !== cur) return toast(tx('locked'));
+  const seenKey = `${level}-${key}-i`;
+  // An episode of several lessons plays its opening scene once; afterwards it opens on the mission.
+  if (!n.sc || (n.units.length > 1 && st().seen[seenKey])) return missionScreen(n);
+  player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => { saveSt({ seen: { ...st().seen, [seenKey]: 1 } }); missionScreen(n); } });
 };
 
-function missionScreen(u, sc, done) {
+function missionScreen(n) {
   stop();
+  const sc = n.sc, done = nodeDone(n), multi = n.units.length > 1;
+  const next = n.units.find(u => !unitDone(level, u.id)) || n.units[0];
+  const list = multi ? `<div class="sm-ulist mt-12">${n.units.map(u => {
+    const d = unitDone(level, u.id), isNext = !done && u === next;
+    return `<button class="sm-urow ${d ? 'done' : isNext ? 'cur' : 'lock'}" ${d || isNext ? `onclick="window.__smLesson('${u.id}')"` : 'disabled'}>
+      <i>${d ? '✓' : isNext ? '▶' : '·'}</i><span>${tx('lesson')} ${esc(u.id)} · ${esc(L(u.title))}</span></button>`;
+  }).join('')}</div>` : `<div class="muted small mt-8">${tx('lesson')} ${esc(next.id)} · ${esc(L(next.title))}</div>`;
   root.innerHTML = `<div class="fade sm-mission">
     <div class="card sm-mcard">
       <div class="small" style="color:var(--accent);font-weight:800;letter-spacing:.06em">🎯 ${tx('mission').toUpperCase()}</div>
-      <div class="h3 mt-8">${esc(L(sc && sc.mission) || L(u.desc))}</div>
-      <div class="muted small mt-8">${tx('lesson')} ${esc(u.id)} · ${esc(L(u.title))}</div>
-      <button class="btn mt-16" onclick="window.__smLesson('${u.id}')">${done ? tx('again') : tx('start')} ▶</button>
-      ${done && sc && sc.outro ? `<button class="btn btn-ghost mt-8" onclick="window.__smOutro('${u.id}')">${tx('replay')}: ${tx('finale').toLowerCase()}</button>` : ''}
+      <div class="h3 mt-8">${esc(L(sc && sc.mission) || L(next.desc))}</div>
+      ${list}
+      <button class="btn mt-16" onclick="window.__smLesson('${next.id}')">${done ? tx('again') : multi && n.units.some(u => unitDone(level, u.id)) ? tx('cont') : tx('start')} ▶</button>
+      ${sc && multi ? `<button class="btn btn-ghost mt-8" onclick="window.__smScene('${n.key}')">${tx('replay')}: ${tx('scene')}</button>` : ''}
+      ${done && sc && sc.outro ? `<button class="btn btn-ghost mt-8" onclick="window.__smOutro('${n.key}')">${tx('replay')}: ${tx('finale').toLowerCase()}</button>` : ''}
       <button class="btn btn-ghost mt-8" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')}</button>
     </div>
   </div>`;
 }
 window.__smLesson = id => go('lesson', { level, unit: +id || id, story: true });
-window.__smOutro = async id => { const ch = await chapter(level); player(ch.units[id].outro || [], { after: () => map(META) }); };
+window.__smOutro = async key => { const ch = await chapter(level); player(ch.units[key].outro || [], { after: () => map(META) }); };
+window.__smScene = async key => {
+  const ch = await chapter(level), n = nodesOf(await loadUnits(level), ch).find(x => x.key === key);
+  player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => missionScreen(n) });
+};
 
 // ---------- scene player: one line at a time, tap to continue ----------
 function player(lines, opts = {}) {
@@ -179,8 +210,8 @@ function player(lines, opts = {}) {
       <div class="sp-top"><span class="chip">${tx('mode')}</span><span class="flex gap-8">${pyToggle()}<button class="chip" onclick="event.stopPropagation();window.__spSkip()">${tx('skip')} ⏭</button></span></div>
       <div class="sp-stage">${narr ? '' : portrait(ln.who, who)}</div>
       <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__spNext()">
-        ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${T(who.t || '')} ${esc(L(who.n))}</div>`}
-        <div class="sp-line" lang="zh">${T(ln.t)}</div>
+        ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${T(who.t || '', who.s)} ${esc(L(who.n))}</div>`}
+        <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
         <div class="sp-tr ${S.storyTr === false ? 'hide' : ''}">${esc(L(ln.tr))}</div>
         <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__spSay()">🔊</button>
           <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__spTr()">🌐 ${tx('tr')}</button>
@@ -195,10 +226,10 @@ function player(lines, opts = {}) {
       <div class="sp-top"><span class="chip">${tx('mode')}</span>${pyToggle()}</div>
       <div class="sp-box">
         <div class="small muted mb-8">💬 ${tx('choose')}</div>
-        ${c.q ? `<div class="sp-line">${T(c.q.t)}</div><div class="sp-tr">${esc(L(c.q.tr))}</div>` : ''}
+        ${c.q ? `<div class="sp-line">${T(c.q.t, c.q.s)}</div><div class="sp-tr">${esc(L(c.q.tr))}</div>` : ''}
       </div>
       <div class="sp-opts">${c.options.map((o, k) => `<button class="card sp-opt" onclick="window.__spPick(${k})">
-        <div class="sp-line" lang="zh">${T(o.t)}</div><div class="sp-tr">${esc(L(o.tr))}</div></button>`).join('')}</div></div>`;
+        <div class="sp-line" lang="${LG}">${T(o.t, o.s)}</div><div class="sp-tr">${esc(L(o.tr))}</div></button>`).join('')}</div></div>`;
   };
   window.__spNext = () => { i++; show(); };
   window.__spSkip = () => { i = queue.length; show(); };
@@ -216,7 +247,7 @@ function player(lines, opts = {}) {
 
 function portrait(id, who) {
   const c = who.color || '#9c7842';
-  return `<div class="pt" style="--c:${c}"><div class="pt-face">${T(who.t || '?').replace(/<rt>.*?<\/rt>/g, '')}</div><div class="pt-tag">${esc(L(who.role) || '')}</div></div>`;
+  return `<div class="pt" style="--c:${c}"><div class="pt-face">${T(who.t || '?', who.s).replace(/<rt>.*?<\/rt>/g, '')}</div><div class="pt-tag">${esc(L(who.role) || '')}</div></div>`;
 }
 
 // ---------- chapter reward ----------
@@ -226,10 +257,10 @@ async function reward() {
   stop();
   root.innerHTML = `<div class="fade sm-reward">
     <div class="center"><div class="small" style="font-weight:800;letter-spacing:.08em;color:#8b5e1a">${tx('done').toUpperCase()}</div>
-      <div class="h1 mt-8">${info.t ? T(info.t) : ''}</div><div style="font-size:40px;margin-top:6px">⭐⭐⭐</div></div>
+      <div class="h1 mt-8">${info.t ? T(info.t, info.s) : ''}</div><div style="font-size:40px;margin-top:6px">⭐⭐⭐</div></div>
     <div class="card sm-rrow"><div style="font-size:28px">💛</div><div><b>${tx('friends')}</b><div class="small muted">${Object.entries(s.friend || {}).map(([k, v]) => `${esc(L((m.cast[k] || {}).n) || k)} ${'♥'.repeat(Math.min(5, v))}`).join(' · ') || '—'}</div></div></div>
-    ${ch && ch.gift ? `<div class="card sm-rrow"><div style="font-size:28px">🎁</div><div><b>${tx('gift')}: ${T(ch.gift.t)}</b><div class="small muted">${esc(L(ch.gift.tr))}</div></div></div>` : ''}
-    ${ni ? `<div class="card sm-rrow"><div style="font-size:28px">🗺️</div><div><b>${tx('unlocked')}: ${T(ni.t)}</b><div class="small muted">${esc(L(ni.n))}</div></div></div>` : ''}
+    ${ch && ch.gift ? `<div class="card sm-rrow"><div style="font-size:28px">🎁</div><div><b>${tx('gift')}: ${T(ch.gift.t, ch.gift.s)}</b><div class="small muted">${esc(L(ch.gift.tr))}</div></div></div>` : ''}
+    ${ni ? `<div class="card sm-rrow"><div style="font-size:28px">🗺️</div><div><b>${tx('unlocked')}: ${T(ni.t, ni.s)}</b><div class="small muted">${esc(L(ni.n))}</div></div></div>` : ''}
     <button class="btn mt-16" onclick="window.__go('story',{level:'${next || level}'})">${tx('cont')} ▶</button>
   </div>`;
 }
@@ -247,7 +278,7 @@ window.__smLife = async () => {
     <div class="mt-16" style="display:grid;gap:9px">${LEVELS.map(l => {
       const c = (m.chapters || {})[l] || {}, us = allUnits[l] || [], d = us.filter(u => unitDone(l, u.id)).length;
       const cls = us.length && d === us.length ? 'on' : l === level ? 'cur' : levelOpen(l, allUnits) ? '' : 'lock';
-      return `<div class="tl ${cls}" onclick="window.__smLevel('${l}')"><span>${levelLabel(l)}</span><div><b>${c.t ? T(c.t) : ''}</b><small>${esc(L(c.n))}</small></div><i>${cls === 'on' ? '✓' : cls === 'lock' ? '🔒' : `${d}/${us.length}`}</i></div>`;
+      return `<div class="tl ${cls}" onclick="window.__smLevel('${l}')"><span>${levelLabel(l)}</span><div><b>${c.t ? T(c.t, c.s) : ''}</b><small>${esc(L(c.n))}</small></div><i>${cls === 'on' ? '✓' : cls === 'lock' ? '🔒' : `${d}/${us.length}`}</i></div>`;
     }).join('')}</div></div>`;
 };
 
@@ -270,6 +301,11 @@ function css() {
 .sm-node{position:absolute;transform:translateX(-50%);width:62px;height:62px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;
   color:#fff;font-weight:900;font-size:20px;box-shadow:0 6px 0 rgba(0,0,0,.18);cursor:pointer}
 .sm-node small{font-size:11px;opacity:.9;margin-top:-2px}
+.sm-node em{position:absolute;bottom:-20px;font-style:normal;font-size:11px;font-weight:800;background:rgba(0,0,0,.45);color:#fff;border-radius:999px;padding:1px 7px}
+.sm-ulist{display:flex;flex-direction:column;gap:6px;text-align:left;max-height:46vh;overflow:auto}
+.sm-urow{display:flex;gap:10px;align-items:center;padding:9px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;font-size:14px;cursor:pointer;text-align:left}
+.sm-urow i{font-style:normal;width:18px;text-align:center;font-weight:800}.sm-urow.done i{color:var(--ok)}
+.sm-urow.cur{border:2px solid var(--accent);background:var(--soft)}.sm-urow.lock{opacity:.5;cursor:default}
 .sm-node.done{background:#f2b632}.sm-node.cur{background:#5b8fd6;outline:6px solid rgba(255,255,255,.85);animation:smPulse 1.6s infinite}.sm-node.lock{background:#b9c2b0}
 @keyframes smPulse{50%{transform:translateX(-50%) scale(1.07)}}
 .sm-end{position:absolute;left:50%;transform:translateX(-50%);background:#e8574a;color:#fff;font-weight:800;padding:10px 16px;border-radius:999px;box-shadow:0 6px 0 rgba(0,0,0,.18)}
