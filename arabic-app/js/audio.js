@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611231200';
-import { gemini, playBlob } from './gemini-tts.js?v=202611231200';
+import { S } from './state.js?v=202611260800';
+import { gemini, playBlob } from './gemini-tts.js?v=202611260800';
 
 // Two engines:
 //  · device — the Arabic voice of the browser / OS. The best one available is picked automatically

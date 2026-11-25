@@ -1,5 +1,5 @@
-import { S } from '../state.js?v=202611231200';
-import { fold, tidy } from '../es.js?v=202611231200';
+import { S } from '../state.js?v=202611260800';
+import { fold, tidy } from '../es.js?v=202611260800';
 
 export function tr(obj, lang = S.lang) {
   if (!obj) return '';

@@ -1,6 +1,6 @@
-import { icon } from './icons.js?v=202611231200';
-import { S } from '../state.js?v=202611231200';
-import { t } from '../i18n.js?v=202611231200';
+import { icon } from './icons.js?v=202611260800';
+import { S, update } from '../state.js?v=202611260800';
+import { t } from '../i18n.js?v=202611260800';
 
 export function bottomNav(active) {
   const items = [
@@ -28,10 +28,21 @@ export function streakBadge() {
   return `<span class="streak">${icon('flame', 14, '#fff')} ${S.streak}</span>`;
 }
 
+// Reading aid (Pinyin) shown above the text: one switch in every screen's header, remembered for the whole app.
+export function pyToggle() {
+  const on = S.pinyin !== false;
+  return `<button class="chip py-toggle ${on ? 'on' : ''}" onclick="window.__pyGlobal()" aria-pressed="${on}" title="Pinyin">拼音 ${on ? '✓' : '✗'}</button>`;
+}
+window.__pyGlobal = () => {
+  update({ pinyin: S.pinyin === false });
+  document.body.classList.toggle('nopy', S.pinyin === false);
+  document.querySelectorAll('.py-toggle').forEach(b => { const on = S.pinyin !== false; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); b.textContent = '拼音 ' + (on ? '✓' : '✗'); });
+};
+
 export function header(title, showBack = false) {
   const backBtn = showBack ? `<button onclick="window.__back()" style="padding:8px">${icon('back', 20, 'var(--ink)')}</button>` : '';
   return `<div class="flex items-center justify-between" style="padding:16px 0 12px">
     <div class="flex items-center gap-12">${backBtn}<span class="h3">${title}</span></div>
-    ${streakBadge()}
+    <div class="flex items-center gap-8">${pyToggle()}${streakBadge()}</div>
   </div>`;
 }

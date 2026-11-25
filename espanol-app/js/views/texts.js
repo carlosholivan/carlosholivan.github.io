@@ -1,16 +1,16 @@
-import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611231200';
-import { S, update } from '../state.js?v=202611231200';
-import { register, go } from '../router.js?v=202611231200';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611231200';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611231200';
-import { isUnitDone } from '../state.js?v=202611231200';
-import { bottomNav, header } from '../ui/components.js?v=202611231200';
-import { t } from '../i18n.js?v=202611231200';
-import { levelChips, LEVELS } from '../levels.js?v=202611231200';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611231200';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611231200';
-import { addCards } from '../engine/anki.js?v=202611231200';
-import { allVocab } from './review.js?v=202611231200';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611260800';
+import { S, update } from '../state.js?v=202611260800';
+import { register, go } from '../router.js?v=202611260800';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611260800';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611260800';
+import { isUnitDone } from '../state.js?v=202611260800';
+import { bottomNav, header } from '../ui/components.js?v=202611260800';
+import { t } from '../i18n.js?v=202611260800';
+import { levelChips, LEVELS } from '../levels.js?v=202611260800';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611260800';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611260800';
+import { addCards } from '../engine/anki.js?v=202611260800';
+import { allVocab } from './review.js?v=202611260800';
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 

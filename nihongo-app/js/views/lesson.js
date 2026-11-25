@@ -1,18 +1,18 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611231200';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611231200';
-import { buildReview } from '../engine/review.js?v=202611231200';
-import { addCards } from '../engine/anki.js?v=202611231200';
-import { register, go } from '../router.js?v=202611231200';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611231200';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611231200';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611231200';
-import { recordAnswer } from '../engine/srs.js?v=202611231200';
-import { progressBar } from '../ui/components.js?v=202611231200';
-import { icon } from '../ui/icons.js?v=202611231200';
-import { t } from '../i18n.js?v=202611231200';
-import { speak, stop as stopAudio } from '../audio.js?v=202611231200';
-import { allHanzi } from './review.js?v=202611231200';
-import { charWord, hasChars } from '../chars.js?v=202611231200';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611260800';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611260800';
+import { buildReview } from '../engine/review.js?v=202611260800';
+import { addCards } from '../engine/anki.js?v=202611260800';
+import { register, go } from '../router.js?v=202611260800';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611260800';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611260800';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611260800';
+import { recordAnswer } from '../engine/srs.js?v=202611260800';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611260800';
+import { icon } from '../ui/icons.js?v=202611260800';
+import { t } from '../i18n.js?v=202611260800';
+import { speak, stop as stopAudio } from '../audio.js?v=202611260800';
+import { allHanzi } from './review.js?v=202611260800';
+import { charWord, hasChars } from '../chars.js?v=202611260800';
 
 const MAX_HEARTS = 5;
 
@@ -98,6 +98,7 @@ register('lesson', async (el, params) => {
     return `<div class="flex items-center gap-12 mb-12">
         <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
         <div class="grow"><span class="h3">${esc(title)}</span></div>
+        ${pyToggle()}
       </div>
       ${stepper(active)}`;
   }
@@ -180,6 +181,7 @@ register('lesson', async (el, params) => {
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
         <div class="grow">${progressBar(pct)}</div>
+        ${pyToggle()}
         <div class="flex items-center" style="gap:4px;font-weight:700">❤️ ${hearts}</div>
       </div>
       ${help}
