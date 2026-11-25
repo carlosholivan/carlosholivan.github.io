@@ -102,7 +102,32 @@
   addEventListener('pointerdown', unlock, { capture: true });
   addEventListener('keydown', unlock, { capture: true });
 
+  // A small switch on the menu screens themselves (besides the one in Settings).
+  let fab = null;
+  function fabSync() {
+    const show = inMenu();
+    if (!fab && show) {
+      fab = document.createElement('button');
+      fab.id = 'music-fab';
+      fab.setAttribute('aria-label', 'Música / Music');
+      fab.onclick = e => { e.stopPropagation(); window.__musicToggle(); };
+      const st = document.createElement('style');
+      st.textContent = `#music-fab{position:fixed;right:14px;bottom:86px;z-index:900;width:42px;height:42px;border-radius:50%;border:1px solid var(--line,#e5dfd5);
+        background:var(--bg2,#fff);color:var(--ink,#2b2722);box-shadow:0 4px 14px rgba(0,0,0,.12);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+        #music-fab.off{opacity:.55}
+        #music-fab.inline{position:static;box-shadow:none;width:40px;height:40px;margin:0 10px 0 auto}`;
+      document.head.appendChild(st);
+      document.body.appendChild(fab);
+    }
+    // On the home screen it sits next to the settings button; elsewhere it floats bottom-right.
+    const gear = show && document.querySelector('#app button[onclick*="settings"]');
+    if (fab && gear && fab.nextSibling !== gear) { gear.parentNode.insertBefore(fab, gear); fab.classList.add('inline'); }
+    else if (fab && !gear && fab.parentNode !== document.body) { document.body.appendChild(fab); fab.classList.remove('inline'); }
+    if (fab) { fab.style.display = show ? 'flex' : 'none'; fab.textContent = on() ? '🎵' : '🔇'; fab.classList.toggle('off', !on()); fab.title = on() ? 'Quitar música / Music off' : 'Poner música / Music on'; }
+  }
+
   function check() {
+    fabSync();
     const want = unlocked && on() && inMenu() && document.visibilityState === 'visible';
     if (want) start(); else stop(!inMenu());
   }
