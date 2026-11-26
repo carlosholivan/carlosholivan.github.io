@@ -12,6 +12,8 @@ for j in jobs:
         continue
     raw = urllib.request.urlopen(urllib.request.Request(j['url'], headers={'User-Agent': 'Mozilla/5.0'}), timeout=60).read()
     im = Image.open(io.BytesIO(raw)).convert('RGB')
+    os.makedirs('.github/art/preview', exist_ok=True)
+    pv = im.copy(); pv.thumbnail((900, 900)); pv.save(f".github/art/preview/{j['app']}-{j['id']}.jpg", quality=80)
     w, h = im.size
     # flood-fill the plain background from every border pixel (tolerant to soft gradients)
     a = np.asarray(im).astype(int)
