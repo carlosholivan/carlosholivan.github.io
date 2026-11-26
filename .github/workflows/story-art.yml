@@ -1,0 +1,23 @@
+name: story-art
+on:
+  push:
+    branches: [art-run]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: master }
+      - run: git checkout origin/art-run -- .github/art/jobs.json
+      - run: pip install -q pillow numpy
+      - run: python .github/art/process.py
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add '*-app/data/story/img'
+          git diff --cached --quiet || git commit -m "Story art: character portraits"
+          git push origin HEAD:master
+          gh workflow run pages.yml --ref master || true
+        env: { GH_TOKEN: "${{ github.token }}" }
