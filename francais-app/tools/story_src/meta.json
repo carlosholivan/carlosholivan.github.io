@@ -25,7 +25,11 @@
     "en": "Hero"
    },
    "color": "#4f86c6",
-   "img": "data/story/img/leon.webp"
+   "img": "data/story/img/leon.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "margot": {
    "t": "Margot",
@@ -38,7 +42,11 @@
     "en": "The neighbour's daughter"
    },
    "color": "#d9708f",
-   "img": "data/story/img/margot.webp"
+   "img": "data/story/img/margot.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "antoine": {
    "t": "Antoine",
@@ -51,7 +59,11 @@
     "en": "The notary's son"
    },
    "color": "#5b5f97",
-   "img": "data/story/img/antoine.webp"
+   "img": "data/story/img/antoine.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "zoe": {
    "t": "Zoé",
@@ -64,7 +76,11 @@
     "en": "The circus girl"
    },
    "color": "#e39b3b",
-   "img": "data/story/img/zoe.webp"
+   "img": "data/story/img/zoe.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "maman": {
    "t": "Maman",
@@ -76,7 +92,11 @@
     "es": "La madre de Léon",
     "en": "Léon's mother"
    },
-   "color": "#c98a6b"
+   "color": "#c98a6b",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "papa": {
    "t": "Papa",
@@ -88,7 +108,11 @@
     "es": "Viñador",
     "en": "Winegrower"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "memere": {
    "t": "Mémère",
@@ -101,7 +125,11 @@
     "en": "Village cook"
    },
    "color": "#9b8ab8",
-   "img": "data/story/img/memere.webp"
+   "img": "data/story/img/memere.webp",
+   "voice": {
+    "g": "f",
+    "age": "old"
+   }
   },
   "pompon": {
    "t": "Pompon",
@@ -113,7 +141,11 @@
     "es": "El gato",
     "en": "The cat"
    },
-   "color": "#b9874c"
+   "color": "#b9874c",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "rosalie": {
    "t": "Madame Rosalie",
@@ -125,7 +157,11 @@
     "es": "Cocinera de París",
     "en": "Paris cook"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "grimaud": {
    "t": "Monsieur Grimaud",
@@ -138,13 +174,21 @@
     "en": "Ruthless restaurateur"
    },
    "color": "#5a5a5a",
-   "img": "data/story/img/grimaud.webp"
+   "img": "data/story/img/grimaud.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "f",
+    "age": "adult"
    }
   }
  },

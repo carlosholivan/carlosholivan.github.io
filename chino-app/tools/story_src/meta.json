@@ -24,7 +24,11 @@
     "en": "Hero"
    },
    "color": "#4f86c6",
-   "img": "data/story/img/shan.webp"
+   "img": "data/story/img/shan.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "mei": {
    "t": "小梅",
@@ -37,7 +41,11 @@
     "en": "His best friend"
    },
    "color": "#d9667c",
-   "img": "data/story/img/mei.webp"
+   "img": "data/story/img/mei.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "ming": {
    "t": "阿明",
@@ -50,7 +58,11 @@
     "en": "Rival and friend"
    },
    "color": "#4c9a6a",
-   "img": "data/story/img/ming.webp"
+   "img": "data/story/img/ming.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "ma": {
    "t": "妈妈",
@@ -63,7 +75,11 @@
     "en": "Shan's mother"
    },
    "color": "#c98a3c",
-   "img": "data/story/img/ma.webp"
+   "img": "data/story/img/ma.webp",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "ba": {
    "t": "爸爸",
@@ -76,7 +92,11 @@
     "en": "Shan's father"
    },
    "color": "#8a6a4a",
-   "img": "data/story/img/ba.webp"
+   "img": "data/story/img/ba.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "ye": {
    "t": "爷爷",
@@ -89,7 +109,11 @@
     "en": "Grandpa Li"
    },
    "color": "#7a7a8c",
-   "img": "data/story/img/ye.webp"
+   "img": "data/story/img/ye.webp",
+   "voice": {
+    "g": "m",
+    "age": "old"
+   }
   },
   "niu": {
    "t": "牛牛",
@@ -102,7 +126,11 @@
     "en": "The calf"
    },
    "color": "#b8875a",
-   "img": "data/story/img/niu.webp"
+   "img": "data/story/img/niu.webp",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "zhang": {
    "t": "张老板",
@@ -115,7 +143,11 @@
     "en": "Merchant"
    },
    "color": "#a05a3c",
-   "img": "data/story/img/zhang.webp"
+   "img": "data/story/img/zhang.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "lin": {
    "t": "林先生",
@@ -128,7 +160,11 @@
     "en": "Scholar and teacher"
    },
    "color": "#5a6aa0",
-   "img": "data/story/img/lin.webp"
+   "img": "data/story/img/lin.webp",
+   "voice": {
+    "g": "m",
+    "age": "old"
+   }
   },
   "wang": {
    "t": "王大夫",
@@ -140,7 +176,11 @@
     "es": "Médica",
     "en": "Doctor"
    },
-   "color": "#6aa0a0"
+   "color": "#6aa0a0",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "zhao": {
    "t": "赵大人",
@@ -153,7 +193,11 @@
     "en": "Court minister"
    },
    "color": "#6a4a8a",
-   "img": "data/story/img/zhao.webp"
+   "img": "data/story/img/zhao.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "huang": {
    "t": "皇上",
@@ -166,13 +210,21 @@
     "en": "Emperor of the Jade River"
    },
    "color": "#c9a227",
-   "img": "data/story/img/huang.webp"
+   "img": "data/story/img/huang.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "f",
+    "age": "adult"
    }
   },
   "zhou": {
@@ -186,7 +238,11 @@
     "en": "Rival, later friend"
    },
    "color": "#8a5aa0",
-   "img": "data/story/img/zhou.webp"
+   "img": "data/story/img/zhou.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "qian": {
    "t": "钱大人",
@@ -199,7 +255,11 @@
     "en": "Corrupt minister"
    },
    "color": "#5a5a5a",
-   "img": "data/story/img/qian.webp"
+   "img": "data/story/img/qian.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   }
  },
  "chapters": {

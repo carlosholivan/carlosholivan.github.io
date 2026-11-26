@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611261733';
-import { gemini, playBlob } from './gemini-tts.js?v=202611261733';
+import { S } from './state.js?v=202611262115';
+import { gemini, playBlob } from './gemini-tts.js?v=202611262115';
 
 // Optional Gemini voice with the user's own key (gemini-tts.js). Falls back to the recordings.
 export const G = gemini('de', 'de-DE');
@@ -23,6 +23,22 @@ export function stop() {
   gtoken++;
   if (player) { player.pause(); player = null; }
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+}
+
+// Story mode: each character's own voice (data/audio/story.json, keyed "<who>|<text>"), else the usual voice.
+let storyIdx = null;
+const storyReady = fetch('data/audio/story.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(d => { storyIdx = d; });
+export function speakAs(who, text) {
+  if (!text || S.settings?.sound === false) return;
+  const go = () => {
+    const f = storyIdx && storyIdx[`${who}|${String(text).trim()}`];
+    if (!f || G.active) return speak(text);
+    stop();
+    player = new Audio(`data/audio/story/${f}`);
+    player.playbackRate = speed();
+    player.play().catch(() => speak(text));
+  };
+  storyIdx ? go() : storyReady.then(go);
 }
 
 export function speak(text) {

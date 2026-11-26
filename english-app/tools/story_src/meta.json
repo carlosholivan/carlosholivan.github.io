@@ -25,7 +25,11 @@
     "en": "Hero"
    },
    "color": "#4f86c6",
-   "img": "data/story/img/nell.webp"
+   "img": "data/story/img/nell.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "sam": {
    "t": "Sam",
@@ -38,7 +42,11 @@
     "en": "The fisherman's son"
    },
    "color": "#e39b3b",
-   "img": "data/story/img/sam.webp"
+   "img": "data/story/img/sam.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "priya": {
    "t": "Priya",
@@ -51,7 +59,11 @@
     "en": "The ship's doctor's daughter"
    },
    "color": "#c0634f",
-   "img": "data/story/img/priya.webp"
+   "img": "data/story/img/priya.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "henry": {
    "t": "Henry",
@@ -64,7 +76,11 @@
     "en": "The mill owner's son"
    },
    "color": "#5b5f97",
-   "img": "data/story/img/henry.webp"
+   "img": "data/story/img/henry.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "mum": {
    "t": "Mum",
@@ -76,7 +92,11 @@
     "es": "La madre de Nell",
     "en": "Nell's mother"
    },
-   "color": "#c98a6b"
+   "color": "#c98a6b",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "dad": {
    "t": "Dad",
@@ -88,7 +108,11 @@
     "es": "Farero",
     "en": "Lighthouse keeper"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "gran": {
    "t": "Gran",
@@ -101,7 +125,11 @@
     "en": "Storyteller"
    },
    "color": "#9b8ab8",
-   "img": "data/story/img/gran.webp"
+   "img": "data/story/img/gran.webp",
+   "voice": {
+    "g": "f",
+    "age": "old"
+   }
   },
   "biscuit": {
    "t": "Biscuit",
@@ -113,7 +141,11 @@
     "es": "El perro",
     "en": "The dog"
    },
-   "color": "#b9874c"
+   "color": "#b9874c",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "fenwick": {
    "t": "Mr Fenwick",
@@ -126,7 +158,11 @@
     "en": "Photographer"
    },
    "color": "#3f6b4f",
-   "img": "data/story/img/fenwick.webp"
+   "img": "data/story/img/fenwick.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "crane": {
    "t": "Mr Crane",
@@ -139,13 +175,21 @@
     "en": "Ruthless industrialist"
    },
    "color": "#5a5a5a",
-   "img": "data/story/img/crane.webp"
+   "img": "data/story/img/crane.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "f",
+    "age": "adult"
    }
   },
   "annie": {
@@ -158,7 +202,11 @@
     "es": "La niña de la fábrica",
     "en": "The mill girl"
    },
-   "color": "#7aa35a"
+   "color": "#7aa35a",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   }
  },
  "chapters": {

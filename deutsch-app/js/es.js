@@ -1,6 +1,6 @@
 // German text helpers (file name kept from the Spanish app). Same API as zh.js / ja.js / ar.js in the sibling
 // apps, so the shared views work unchanged: German needs no reading aid, so ruby() is plain escaped text and the pinyin helpers are no-ops.
-import { S } from './state.js?v=202611261733';
+import { S } from './state.js?v=202611262115';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

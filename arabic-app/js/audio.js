@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611261733';
-import { gemini, playBlob } from './gemini-tts.js?v=202611261733';
+import { S } from './state.js?v=202611262115';
+import { gemini, playBlob } from './gemini-tts.js?v=202611262115';
 
 // Two engines:
 //  · device — the Arabic voice of the browser / OS. The best one available is picked automatically
@@ -74,6 +74,22 @@ function recordedOrDevice(text, onend, my) {
     audio.play().catch(() => deviceSpeak(text, onend));
   };
   index ? go() : ready.then(go);
+}
+
+// Story mode: each character's own voice (data/audio/story.json, keyed "<who>|<text>"), else the usual voice.
+let storyIdx = null;
+const storyReady = fetch('data/audio/story.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(d => { storyIdx = d; });
+export function speakAs(who, text) {
+  if (!text || S.settings?.sound === false) return;
+  const go = () => {
+    const f = storyIdx && storyIdx[`${who}|${String(text).trim()}`];
+    if (!f || G.active) return speak(text);
+    stop();
+    audio = new Audio(`data/audio/story/${f}`);
+    audio.playbackRate = speed();
+    audio.play().catch(() => speak(text));
+  };
+  storyIdx ? go() : storyReady.then(go);
 }
 
 export function speak(text) {

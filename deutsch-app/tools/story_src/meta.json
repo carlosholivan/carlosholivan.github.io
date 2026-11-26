@@ -24,7 +24,11 @@
     "en": "Hero"
    },
    "color": "#4f86c6",
-   "img": "data/story/img/jonas.webp"
+   "img": "data/story/img/jonas.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "lena": {
    "t": "Lena",
@@ -37,7 +41,11 @@
     "en": "The doctor's daughter"
    },
    "color": "#d9708f",
-   "img": "data/story/img/lena.webp"
+   "img": "data/story/img/lena.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "karl": {
    "t": "Karl",
@@ -50,7 +58,11 @@
     "en": "The joker next door"
    },
    "color": "#e39b3b",
-   "img": "data/story/img/karl.webp"
+   "img": "data/story/img/karl.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "mehmet": {
    "t": "Mehmet",
@@ -63,7 +75,11 @@
     "en": "The boy from Istanbul"
    },
    "color": "#3f8f7a",
-   "img": "data/story/img/mehmet.webp"
+   "img": "data/story/img/mehmet.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "mutter": {
    "t": "Mutter",
@@ -75,7 +91,11 @@
     "es": "La madre de Jonas",
     "en": "Jonas's mother"
    },
-   "color": "#c98a6b"
+   "color": "#c98a6b",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "vater": {
    "t": "Vater",
@@ -87,7 +107,11 @@
     "es": "Carpintero",
     "en": "Carpenter"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "oma": {
    "t": "Oma",
@@ -100,7 +124,11 @@
     "en": "Storyteller"
    },
    "color": "#9b8ab8",
-   "img": "data/story/img/oma.webp"
+   "img": "data/story/img/oma.webp",
+   "voice": {
+    "g": "f",
+    "age": "old"
+   }
   },
   "struppi": {
    "t": "Struppi",
@@ -112,7 +140,11 @@
     "es": "El perro",
     "en": "The dog"
    },
-   "color": "#b9874c"
+   "color": "#b9874c",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "huber": {
    "t": "Meister Huber",
@@ -125,7 +157,11 @@
     "en": "Master carpenter"
    },
    "color": "#3f6b4f",
-   "img": "data/story/img/huber.webp"
+   "img": "data/story/img/huber.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "vogt": {
    "t": "Herr Vogt",
@@ -137,13 +173,21 @@
     "es": "Funcionario de la Stasi",
     "en": "Stasi officer"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "m",
+    "age": "adult"
    }
   }
  },

@@ -1,0 +1,49 @@
+name: Story voices (edge-tts)
+# Every line of the story mode read by a voice that fits the character (woman/man, child/adult/elder).
+# Runs when a story changes; only new or changed lines are generated (.github/tts/story_audio.py).
+on:
+  workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - "*/data/story/*.json"
+      - ".github/tts/story_audio.py"
+      - ".github/workflows/story-audio.yml"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: story-audio
+  cancel-in-progress: false
+jobs:
+  voices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /*-app/data/story/
+            /*-app/data/audio/story/
+            /*-app/data/audio/story.json
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q edge-tts
+      - run: command -v ffmpeg >/dev/null || for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq --fix-missing ffmpeg > /dev/null && break; sleep 20; done
+      - run: python .github/tts/story_audio.py chino nihongo arabic espanol english francais deutsch
+      - name: Compress to 16 kHz / 16 kbps
+        run: |
+          find . -path '*/data/audio/story/*.mp3' -newer .github/tts/story_audio.py -print0 | xargs -0 -P 8 -I{} sh -c 'ffmpeg -v error -y -i "{}" -ac 1 -ar 16000 -b:a 16k -map_metadata -1 "{}.tmp.mp3" && mv "{}.tmp.mp3" "{}"'
+      - name: Commit and redeploy
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- ':(glob)*-app/data/audio/story/**' ':(glob)*-app/data/audio/story.json'
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "audio: story voices"
+          git pull -q --rebase -X theirs origin master
+          git push -q origin HEAD:master
+          gh workflow run pages.yml --ref master

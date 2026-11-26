@@ -24,7 +24,11 @@
     "en": "Hero"
    },
    "color": "#4f86c6",
-   "img": "data/story/img/nur.webp"
+   "img": "data/story/img/nur.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "yusuf": {
    "t": "يُوسُف",
@@ -37,7 +41,11 @@
     "en": "The caravan boy"
    },
    "color": "#e39b3b",
-   "img": "data/story/img/yusuf.webp"
+   "img": "data/story/img/yusuf.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "layla": {
    "t": "لَيْلَى",
@@ -50,7 +58,11 @@
     "en": "The healer's daughter"
    },
    "color": "#d9708f",
-   "img": "data/story/img/layla.webp"
+   "img": "data/story/img/layla.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "ilyas": {
    "t": "إِلْيَاس",
@@ -63,7 +75,11 @@
     "en": "The scribe's son"
    },
    "color": "#5b5f97",
-   "img": "data/story/img/ilyas.webp"
+   "img": "data/story/img/ilyas.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "umm": {
    "t": "أُمِّي",
@@ -75,7 +91,11 @@
     "es": "La madre de Nur",
     "en": "Nur's mother"
    },
-   "color": "#c98a6b"
+   "color": "#c98a6b",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "ab": {
    "t": "أَبِي",
@@ -87,7 +107,11 @@
     "es": "Camellero",
     "en": "Camel driver"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "jadda": {
    "t": "جَدَّتِي",
@@ -100,7 +124,11 @@
     "en": "Storyteller"
    },
    "color": "#9b8ab8",
-   "img": "data/story/img/jadda.webp"
+   "img": "data/story/img/jadda.webp",
+   "voice": {
+    "g": "f",
+    "age": "old"
+   }
   },
   "barq": {
    "t": "بَرْق",
@@ -112,7 +140,11 @@
     "es": "El camello",
     "en": "The camel"
    },
-   "color": "#b9874c"
+   "color": "#b9874c",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "hakim": {
    "t": "الشَّيْخ حَكِيم",
@@ -125,7 +157,11 @@
     "en": "Scholar and teacher"
    },
    "color": "#3f6b4f",
-   "img": "data/story/img/hakim.webp"
+   "img": "data/story/img/hakim.webp",
+   "voice": {
+    "g": "m",
+    "age": "old"
+   }
   },
   "marwan": {
    "t": "مَرْوَان",
@@ -137,13 +173,21 @@
     "es": "Copista sin escrúpulos",
     "en": "Unscrupulous scribe"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "m",
+    "age": "adult"
    }
   }
  },

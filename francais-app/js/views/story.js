@@ -2,17 +2,16 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611261733';
-import { S, update, completeUnit } from '../state.js?v=202611261733';
-import { register, go } from '../router.js?v=202611261733';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261733';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261733';
-import { addCards } from '../engine/anki.js?v=202611261733';
-import { unitVocab } from '../engine/exercises.js?v=202611261733';
-import { bottomNav } from '../ui/components.js?v=202611261733';
-const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611261733';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261733';
+import { CFG } from '../app-config.js?v=202611262115';
+import { S, update, completeUnit } from '../state.js?v=202611262115';
+import { register, go } from '../router.js?v=202611262115';
+import { LEVELS, levelLabel } from '../levels.js?v=202611262115';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262115';
+import { addCards } from '../engine/anki.js?v=202611262115';
+import { unitVocab } from '../engine/exercises.js?v=202611262115';
+import { bottomNav } from '../ui/components.js?v=202611262115';
+import { speak, speakAs, stop } from '../audio.js?v=202611262115';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611262115';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -438,7 +437,7 @@ function player(lines, opts = {}) {
           <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__stTr()">🌐 ${tx('tr')}</button>
           <span class="grow"></span><span class="muted small">${tx('next')} ▸</span></div>
       </div></div>`;
-    speak(ln.t);
+    speakAs(ln.who, ln.t);
   };
   const choiceView = () => {
     chose = true;
@@ -455,7 +454,7 @@ function player(lines, opts = {}) {
   };
   window.__stNext = () => { i++; show(); };
   window.__stSkip = () => { i = queue.length; show(); };
-  window.__stSay = () => speak(queue[i] && queue[i].t);
+  window.__stSay = () => queue[i] && speakAs(queue[i].who, queue[i].t);
   window.__stTr = () => { update({ storyTr: S.storyTr === false }); show(); };
   window.__stPick = k => {
     const o = opts.choice.options[k];

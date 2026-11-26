@@ -1,5 +1,5 @@
-import { S } from '../state.js?v=202611261733';
-import { splitPinyin, toneOf, pinyinText, hira } from '../ar.js?v=202611261733';
+import { S } from '../state.js?v=202611262115';
+import { splitPinyin, toneOf, pinyinText, hira } from '../ar.js?v=202611262115';
 
 export function tr(obj, lang = S.lang) {
   if (!obj) return '';

@@ -24,7 +24,11 @@
     "en": "Hero"
    },
    "color": "#c0503f",
-   "img": "data/story/img/lucia.webp"
+   "img": "data/story/img/lucia.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "mateo": {
    "t": "Mateo",
@@ -37,7 +41,11 @@
     "en": "Shepherd boy"
    },
    "color": "#d08b3a",
-   "img": "data/story/img/mateo.webp"
+   "img": "data/story/img/mateo.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "ines": {
    "t": "Inés",
@@ -50,7 +58,11 @@
     "en": "The herbalist's daughter"
    },
    "color": "#3f8f7a",
-   "img": "data/story/img/ines.webp"
+   "img": "data/story/img/ines.webp",
+   "voice": {
+    "g": "f",
+    "age": "kid"
+   }
   },
   "diego": {
    "t": "Diego",
@@ -63,7 +75,11 @@
     "en": "The hidalgo's son"
    },
    "color": "#5b5f97",
-   "img": "data/story/img/diego.webp"
+   "img": "data/story/img/diego.webp",
+   "voice": {
+    "g": "m",
+    "age": "kid"
+   }
   },
   "madre": {
    "t": "Madre",
@@ -75,7 +91,11 @@
     "es": "La madre de Lucía",
     "en": "Lucía's mother"
    },
-   "color": "#c98a6b"
+   "color": "#c98a6b",
+   "voice": {
+    "g": "f",
+    "age": "adult"
+   }
   },
   "padre": {
    "t": "Padre",
@@ -87,7 +107,11 @@
     "es": "Molinero",
     "en": "Miller"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "abuelo": {
    "t": "Abuelo Tomás",
@@ -100,7 +124,11 @@
     "en": "Storyteller"
    },
    "color": "#9b8ab8",
-   "img": "data/story/img/abuelo.webp"
+   "img": "data/story/img/abuelo.webp",
+   "voice": {
+    "g": "m",
+    "age": "old"
+   }
   },
   "canelo": {
    "t": "Canelo",
@@ -112,7 +140,11 @@
     "es": "El perro",
     "en": "The dog"
    },
-   "color": "#b9874c"
+   "color": "#b9874c",
+   "voice": {
+    "g": "f",
+    "age": "pet"
+   }
   },
   "cosme": {
    "t": "Don Cosme",
@@ -125,7 +157,11 @@
     "en": "Toledo printer"
    },
    "color": "#3f6b4f",
-   "img": "data/story/img/cosme.webp"
+   "img": "data/story/img/cosme.webp",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "bermudez": {
    "t": "Bermúdez",
@@ -137,13 +173,21 @@
     "es": "Impresor pirata",
     "en": "Pirate printer"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "voice": {
+    "g": "m",
+    "age": "adult"
+   }
   },
   "narr": {
    "t": "",
    "n": {
     "es": "",
     "en": ""
+   },
+   "voice": {
+    "g": "m",
+    "age": "adult"
    }
   }
  },
