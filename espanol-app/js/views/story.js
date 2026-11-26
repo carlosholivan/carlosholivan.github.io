@@ -2,17 +2,17 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611261708';
-import { S, update, completeUnit } from '../state.js?v=202611261708';
-import { register, go } from '../router.js?v=202611261708';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261708';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261708';
-import { addCards } from '../engine/anki.js?v=202611261708';
-import { unitVocab } from '../engine/exercises.js?v=202611261708';
-import { bottomNav } from '../ui/components.js?v=202611261708';
+import { CFG } from '../app-config.js?v=202611261711';
+import { S, update, completeUnit } from '../state.js?v=202611261711';
+import { register, go } from '../router.js?v=202611261711';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261711';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261711';
+import { addCards } from '../engine/anki.js?v=202611261711';
+import { unitVocab } from '../engine/exercises.js?v=202611261711';
+import { bottomNav } from '../ui/components.js?v=202611261711';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611261708';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261708';
+import { speak, stop } from '../audio.js?v=202611261711';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261711';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -93,8 +93,12 @@ function sky() {
   const N = Math.round(Math.min(140, innerWidth * innerHeight / 9000));
   for (let k = 0; k < N; k++) flakes.push({ x: Math.random(), y: Math.random(), r: .5 + Math.random() * 1.6, v: .00025 + Math.random() * .0007, d: Math.random() * 6.28, o: .35 + Math.random() * .55 });
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let seen = false; const t0 = performance.now();   // the screen may still be loading: wait for it before deciding we left
   const tick = () => {
-    if (!document.querySelector('[data-sm]')) { c.remove(); document.body.classList.remove('sm-on'); removeEventListener('resize', size); return; }
+    const on = document.querySelector('[data-sm]');
+    if (on) seen = true;
+    if (!on && (seen || performance.now() - t0 > 8000)) { c.remove(); document.body.classList.remove('sm-on'); removeEventListener('resize', size); return; }
+    if (!on) { requestAnimationFrame(tick); return; }
     ctx.clearRect(0, 0, W, H);
     for (const f of flakes) {
       if (!reduce) { f.y += f.v; f.d += .01; f.x += Math.sin(f.d) * .0002; if (f.y > 1.02) { f.y = -.02; f.x = Math.random(); } }

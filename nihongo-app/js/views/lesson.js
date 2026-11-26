@@ -1,18 +1,18 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611261708';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611261708';
-import { buildReview } from '../engine/review.js?v=202611261708';
-import { addCards } from '../engine/anki.js?v=202611261708';
-import { register, go } from '../router.js?v=202611261708';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611261708';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611261708';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611261708';
-import { recordAnswer } from '../engine/srs.js?v=202611261708';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611261708';
-import { icon } from '../ui/icons.js?v=202611261708';
-import { t } from '../i18n.js?v=202611261708';
-import { speak, stop as stopAudio } from '../audio.js?v=202611261708';
-import { allHanzi } from './review.js?v=202611261708';
-import { charWord, hasChars } from '../chars.js?v=202611261708';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611261711';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611261711';
+import { buildReview } from '../engine/review.js?v=202611261711';
+import { addCards } from '../engine/anki.js?v=202611261711';
+import { register, go } from '../router.js?v=202611261711';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611261711';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611261711';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611261711';
+import { recordAnswer } from '../engine/srs.js?v=202611261711';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611261711';
+import { icon } from '../ui/icons.js?v=202611261711';
+import { t } from '../i18n.js?v=202611261711';
+import { speak, stop as stopAudio } from '../audio.js?v=202611261711';
+import { allHanzi } from './review.js?v=202611261711';
+import { charWord, hasChars } from '../chars.js?v=202611261711';
 
 const MAX_HEARTS = 5;
 
