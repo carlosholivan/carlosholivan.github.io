@@ -41,7 +41,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: pip install edge-tts && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install edge-tts && { command -v ffmpeg >/dev/null || for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq --fix-missing ffmpeg > /dev/null && break; sleep 20; done; }
       - name: Generate missing clips
         run: |
           for app in espanol-app english-app francais-app deutsch-app chino-app nihongo-app arabic-app; do

@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: command -v ffmpeg >/dev/null || for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq --fix-missing ffmpeg > /dev/null && break; sleep 20; done
       - run: |
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           pip install -q chatterbox-tts==0.1.7
