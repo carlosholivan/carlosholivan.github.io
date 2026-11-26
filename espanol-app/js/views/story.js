@@ -3,15 +3,15 @@
 // "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
 // Art is provisional (portrait placeholders) until the illustrations are made.
-import { CFG } from '../app-config.js?v=202611261300';
-import { S, update } from '../state.js?v=202611261300';
-import { register, go } from '../router.js?v=202611261300';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261300';
-import { loadUnits, loadVocab } from '../data.js?v=202611261300';
-import { bottomNav } from '../ui/components.js?v=202611261300';
+import { CFG } from '../app-config.js?v=202611261452';
+import { S, update } from '../state.js?v=202611261452';
+import { register, go } from '../router.js?v=202611261452';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261452';
+import { loadUnits, loadVocab } from '../data.js?v=202611261452';
+import { bottomNav } from '../ui/components.js?v=202611261452';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611261300';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261300';
+import { speak, stop } from '../audio.js?v=202611261452';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261452';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -284,7 +284,7 @@ function player(lines, opts = {}) {
       <div class="sp-stage"><div class="sp-moon" style="--a:${accent()[0]}"></div>${hills()}${narr ? '' : portrait(ln.who, who, prevWho !== ln.who)}</div>
       <div class="sp-prog"><i style="width:${Math.round(100 * (i + 1) / queue.length)}%"></i></div>
       <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__stNext()">
-        ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${T(who.t || '', who.s)} ${esc(L(who.n))}</div>`}
+        ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${who.t && who.t !== L(who.n) ? T(who.t, who.s) + ' ' : ''}${esc(L(who.n))}</div>`}
         <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
         <div class="sp-tr ${S.storyTr === false ? 'hide' : ''}">${esc(L(ln.tr))}</div>
         <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__stSay()">🔊</button>

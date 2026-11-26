@@ -1,27 +1,216 @@
 {
-  "title": {"es": "Árabe · La historia de Nur", "en": "Arabic · Nur's story"},
-  "subtitle": {"es": "De un oasis a la Casa de la Sabiduría", "en": "From an oasis to the House of Wisdom"},
-  "pitch": {"es": "Siglo IX. La hija de un camellero del oasis de Tadmur aprende las letras, cruza el desierto con una caravana y llega a Bagdad, donde los sabios traducen los libros del mundo. Lo que la lleva hasta allí son sus amigos.", "en": "9th century. A camel driver's daughter from the Tadmur oasis learns her letters, crosses the desert with a caravan and reaches Baghdad, where scholars translate the books of the world. What gets her there are her friends."},
-  "hero": "nur",
-  "cast": {
-    "nur": {"t": "نُور", "n": {"es": "Nur", "en": "Nur"}, "role": {"es": "Protagonista", "en": "Hero"}, "color": "#4f86c6"},
-    "yusuf": {"t": "يُوسُف", "n": {"es": "Yusuf", "en": "Yusuf"}, "role": {"es": "Chico de la caravana", "en": "The caravan boy"}, "color": "#e39b3b"},
-    "layla": {"t": "لَيْلَى", "n": {"es": "Layla", "en": "Layla"}, "role": {"es": "Hija de la curandera", "en": "The healer's daughter"}, "color": "#d9708f"},
-    "ilyas": {"t": "إِلْيَاس", "n": {"es": "Ilyas", "en": "Ilyas"}, "role": {"es": "Hijo del copista", "en": "The scribe's son"}, "color": "#5b5f97"},
-    "umm": {"t": "أُمِّي", "n": {"es": "Mamá", "en": "Mum"}, "role": {"es": "La madre de Nur", "en": "Nur's mother"}, "color": "#c98a6b"},
-    "ab": {"t": "أَبِي", "n": {"es": "Papá", "en": "Dad"}, "role": {"es": "Camellero", "en": "Camel driver"}, "color": "#8a6d4b"},
-    "jadda": {"t": "جَدَّتِي", "n": {"es": "Abuela", "en": "Grandma"}, "role": {"es": "Cuenta historias", "en": "Storyteller"}, "color": "#9b8ab8"},
-    "barq": {"t": "بَرْق", "n": {"es": "Barq", "en": "Barq"}, "role": {"es": "El camello", "en": "The camel"}, "color": "#b9874c"},
-    "hakim": {"t": "الشَّيْخ حَكِيم", "n": {"es": "Jeque Hakim", "en": "Sheikh Hakim"}, "role": {"es": "Sabio y maestro", "en": "Scholar and teacher"}, "color": "#3f6b4f"},
-    "marwan": {"t": "مَرْوَان", "n": {"es": "Marwán", "en": "Marwan"}, "role": {"es": "Copista sin escrúpulos", "en": "Unscrupulous scribe"}, "color": "#5a5a5a"},
-    "narr": {"t": "", "n": {"es": "", "en": ""}}
+ "title": {
+  "es": "Árabe · La historia de Nur",
+  "en": "Arabic · Nur's story"
+ },
+ "subtitle": {
+  "es": "De un oasis a la Casa de la Sabiduría",
+  "en": "From an oasis to the House of Wisdom"
+ },
+ "pitch": {
+  "es": "Siglo IX. La hija de un camellero del oasis de Tadmur aprende las letras, cruza el desierto con una caravana y llega a Bagdad, donde los sabios traducen los libros del mundo. Lo que la lleva hasta allí son sus amigos.",
+  "en": "9th century. A camel driver's daughter from the Tadmur oasis learns her letters, crosses the desert with a caravan and reaches Baghdad, where scholars translate the books of the world. What gets her there are her friends."
+ },
+ "hero": "nur",
+ "cast": {
+  "nur": {
+   "t": "نُور",
+   "n": {
+    "es": "Nur",
+    "en": "Nur"
+   },
+   "role": {
+    "es": "Protagonista",
+    "en": "Hero"
+   },
+   "color": "#4f86c6",
+   "img": "data/story/img/nur.webp"
   },
-  "chapters": {
-    "a1": {"t": "الفَصْلُ الأَوَّل · وَاحَةُ تَدْمُر", "n": {"es": "Una niña en el oasis: las letras, la familia y los primeros amigos.", "en": "A girl in the oasis: letters, family and the first friends."}, "bg": ["#ffe2b0", "#c9b07a"]},
-    "a2": {"t": "الفَصْلُ الثَّانِي · القَافِلَة", "n": {"es": "La caravana: el desierto, las ciudades y el camino a Bagdad.", "en": "The caravan: the desert, the cities and the road to Baghdad."}, "bg": ["#f4d9a0", "#d9a86b"]},
-    "b1": {"t": "الفَصْلُ الثَّالِث · بَغْدَاد", "n": {"es": "Aprendiz de copista en la Casa de la Sabiduría.", "en": "Apprentice copyist at the House of Wisdom."}, "bg": ["#d7e3f4", "#c9b98a"]},
-    "b2": {"t": "الفَصْلُ الرَّابِع · طَرِيقُ الحَرِير", "n": {"es": "Traducir el mundo: el mar, las estrellas y un ladrón de libros.", "en": "Translating the world: the sea, the stars and a book thief."}, "bg": ["#9fc1d9", "#d9c98a"]},
-    "c1": {"t": "الفَصْلُ الخَامِس · النَّهْر", "n": {"es": "La crecida del Tigris y los libros que hay que salvar.", "en": "The Tigris flood and the books that must be saved."}, "bg": ["#8fb3c8", "#a3b9a3"]},
-    "c2": {"t": "الخَاتِمَة · كِتَابُ الأَصْدِقَاء", "n": {"es": "El libro de toda una vida.", "en": "The book of a lifetime."}, "bg": ["#ffcf8a", "#e8a3a3"]}
+  "yusuf": {
+   "t": "يُوسُف",
+   "n": {
+    "es": "Yusuf",
+    "en": "Yusuf"
+   },
+   "role": {
+    "es": "Chico de la caravana",
+    "en": "The caravan boy"
+   },
+   "color": "#e39b3b",
+   "img": "data/story/img/yusuf.webp"
+  },
+  "layla": {
+   "t": "لَيْلَى",
+   "n": {
+    "es": "Layla",
+    "en": "Layla"
+   },
+   "role": {
+    "es": "Hija de la curandera",
+    "en": "The healer's daughter"
+   },
+   "color": "#d9708f",
+   "img": "data/story/img/layla.webp"
+  },
+  "ilyas": {
+   "t": "إِلْيَاس",
+   "n": {
+    "es": "Ilyas",
+    "en": "Ilyas"
+   },
+   "role": {
+    "es": "Hijo del copista",
+    "en": "The scribe's son"
+   },
+   "color": "#5b5f97",
+   "img": "data/story/img/ilyas.webp"
+  },
+  "umm": {
+   "t": "أُمِّي",
+   "n": {
+    "es": "Mamá",
+    "en": "Mum"
+   },
+   "role": {
+    "es": "La madre de Nur",
+    "en": "Nur's mother"
+   },
+   "color": "#c98a6b"
+  },
+  "ab": {
+   "t": "أَبِي",
+   "n": {
+    "es": "Papá",
+    "en": "Dad"
+   },
+   "role": {
+    "es": "Camellero",
+    "en": "Camel driver"
+   },
+   "color": "#8a6d4b"
+  },
+  "jadda": {
+   "t": "جَدَّتِي",
+   "n": {
+    "es": "Abuela",
+    "en": "Grandma"
+   },
+   "role": {
+    "es": "Cuenta historias",
+    "en": "Storyteller"
+   },
+   "color": "#9b8ab8"
+  },
+  "barq": {
+   "t": "بَرْق",
+   "n": {
+    "es": "Barq",
+    "en": "Barq"
+   },
+   "role": {
+    "es": "El camello",
+    "en": "The camel"
+   },
+   "color": "#b9874c"
+  },
+  "hakim": {
+   "t": "الشَّيْخ حَكِيم",
+   "n": {
+    "es": "Jeque Hakim",
+    "en": "Sheikh Hakim"
+   },
+   "role": {
+    "es": "Sabio y maestro",
+    "en": "Scholar and teacher"
+   },
+   "color": "#3f6b4f"
+  },
+  "marwan": {
+   "t": "مَرْوَان",
+   "n": {
+    "es": "Marwán",
+    "en": "Marwan"
+   },
+   "role": {
+    "es": "Copista sin escrúpulos",
+    "en": "Unscrupulous scribe"
+   },
+   "color": "#5a5a5a"
+  },
+  "narr": {
+   "t": "",
+   "n": {
+    "es": "",
+    "en": ""
+   }
   }
+ },
+ "chapters": {
+  "a1": {
+   "t": "الفَصْلُ الأَوَّل · وَاحَةُ تَدْمُر",
+   "n": {
+    "es": "Una niña en el oasis: las letras, la familia y los primeros amigos.",
+    "en": "A girl in the oasis: letters, family and the first friends."
+   },
+   "bg": [
+    "#ffe2b0",
+    "#c9b07a"
+   ]
+  },
+  "a2": {
+   "t": "الفَصْلُ الثَّانِي · القَافِلَة",
+   "n": {
+    "es": "La caravana: el desierto, las ciudades y el camino a Bagdad.",
+    "en": "The caravan: the desert, the cities and the road to Baghdad."
+   },
+   "bg": [
+    "#f4d9a0",
+    "#d9a86b"
+   ]
+  },
+  "b1": {
+   "t": "الفَصْلُ الثَّالِث · بَغْدَاد",
+   "n": {
+    "es": "Aprendiz de copista en la Casa de la Sabiduría.",
+    "en": "Apprentice copyist at the House of Wisdom."
+   },
+   "bg": [
+    "#d7e3f4",
+    "#c9b98a"
+   ]
+  },
+  "b2": {
+   "t": "الفَصْلُ الرَّابِع · طَرِيقُ الحَرِير",
+   "n": {
+    "es": "Traducir el mundo: el mar, las estrellas y un ladrón de libros.",
+    "en": "Translating the world: the sea, the stars and a book thief."
+   },
+   "bg": [
+    "#9fc1d9",
+    "#d9c98a"
+   ]
+  },
+  "c1": {
+   "t": "الفَصْلُ الخَامِس · النَّهْر",
+   "n": {
+    "es": "La crecida del Tigris y los libros que hay que salvar.",
+    "en": "The Tigris flood and the books that must be saved."
+   },
+   "bg": [
+    "#8fb3c8",
+    "#a3b9a3"
+   ]
+  },
+  "c2": {
+   "t": "الخَاتِمَة · كِتَابُ الأَصْدِقَاء",
+   "n": {
+    "es": "El libro de toda una vida.",
+    "en": "The book of a lifetime."
+   },
+   "bg": [
+    "#ffcf8a",
+    "#e8a3a3"
+   ]
+  }
+ }
 }

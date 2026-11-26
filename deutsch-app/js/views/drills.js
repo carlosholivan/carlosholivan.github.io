@@ -1,11 +1,11 @@
 // "Práctica de gramática": choose-the-correct-form drills per level and category.
-import { S, update } from '../state.js?v=202611261300';
-import { register, go } from '../router.js?v=202611261300';
-import { loadDrills } from '../data.js?v=202611261300';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611261300';
-import { t } from '../i18n.js?v=202611261300';
-import { levelChips } from '../levels.js?v=202611261300';
-import { speak, stop } from '../audio.js?v=202611261300';
+import { S, update } from '../state.js?v=202611261452';
+import { register, go } from '../router.js?v=202611261452';
+import { loadDrills } from '../data.js?v=202611261452';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611261452';
+import { t } from '../i18n.js?v=202611261452';
+import { levelChips } from '../levels.js?v=202611261452';
+import { speak, stop } from '../audio.js?v=202611261452';
 
 const ROUND = 10;
 const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -1,225 +1,229 @@
 {
-  "gloss": "es",
-  "title": {
-    "es": "Inglés · La historia de Nell",
-    "en": "English · Nell's story"
+ "gloss": "es",
+ "title": {
+  "es": "Inglés · La historia de Nell",
+  "en": "English · Nell's story"
+ },
+ "subtitle": {
+  "es": "Del faro de Cornualles al telégrafo del Atlántico",
+  "en": "From a Cornish lighthouse to the Atlantic telegraph"
+ },
+ "pitch": {
+  "es": "Gran Bretaña victoriana. La hija del farero de Cornualles aprende a capturar la luz con una cámara, vive el tren, la Gran Exposición, la guerra y el primer mensaje que cruza el océano. Lo que la guía no es la luz del faro: son sus amigos.",
+  "en": "Victorian Britain. A Cornish lighthouse keeper's daughter learns to catch light with a camera and lives through the railways, the Great Exhibition, war and the first message to cross the ocean. What guides her isn't the lighthouse beam: it's her friends."
+ },
+ "hero": "nell",
+ "cast": {
+  "nell": {
+   "t": "Nell",
+   "n": {
+    "es": "Nell",
+    "en": "Nell"
+   },
+   "role": {
+    "es": "Protagonista",
+    "en": "Hero"
+   },
+   "color": "#4f86c6",
+   "img": "data/story/img/nell.webp"
   },
-  "subtitle": {
-    "es": "Del faro de Cornualles al telégrafo del Atlántico",
-    "en": "From a Cornish lighthouse to the Atlantic telegraph"
+  "sam": {
+   "t": "Sam",
+   "n": {
+    "es": "Sam",
+    "en": "Sam"
+   },
+   "role": {
+    "es": "Hijo del pescador",
+    "en": "The fisherman's son"
+   },
+   "color": "#e39b3b",
+   "img": "data/story/img/sam.webp"
   },
-  "pitch": {
-    "es": "Gran Bretaña victoriana. La hija del farero de Cornualles aprende a capturar la luz con una cámara, vive el tren, la Gran Exposición, la guerra y el primer mensaje que cruza el océano. Lo que la guía no es la luz del faro: son sus amigos.",
-    "en": "Victorian Britain. A Cornish lighthouse keeper's daughter learns to catch light with a camera and lives through the railways, the Great Exhibition, war and the first message to cross the ocean. What guides her isn't the lighthouse beam: it's her friends."
+  "priya": {
+   "t": "Priya",
+   "n": {
+    "es": "Priya",
+    "en": "Priya"
+   },
+   "role": {
+    "es": "Hija del médico de barco",
+    "en": "The ship's doctor's daughter"
+   },
+   "color": "#c0634f",
+   "img": "data/story/img/priya.webp"
   },
-  "hero": "nell",
-  "cast": {
-    "nell": {
-      "t": "Nell",
-      "n": {
-        "es": "Nell",
-        "en": "Nell"
-      },
-      "role": {
-        "es": "Protagonista",
-        "en": "Hero"
-      },
-      "color": "#4f86c6"
-    },
-    "sam": {
-      "t": "Sam",
-      "n": {
-        "es": "Sam",
-        "en": "Sam"
-      },
-      "role": {
-        "es": "Hijo del pescador",
-        "en": "The fisherman's son"
-      },
-      "color": "#e39b3b"
-    },
-    "priya": {
-      "t": "Priya",
-      "n": {
-        "es": "Priya",
-        "en": "Priya"
-      },
-      "role": {
-        "es": "Hija del médico de barco",
-        "en": "The ship's doctor's daughter"
-      },
-      "color": "#c0634f"
-    },
-    "henry": {
-      "t": "Henry",
-      "n": {
-        "es": "Henry",
-        "en": "Henry"
-      },
-      "role": {
-        "es": "Hijo del dueño de la fábrica",
-        "en": "The mill owner's son"
-      },
-      "color": "#5b5f97"
-    },
-    "mum": {
-      "t": "Mum",
-      "n": {
-        "es": "Mamá",
-        "en": "Mum"
-      },
-      "role": {
-        "es": "La madre de Nell",
-        "en": "Nell's mother"
-      },
-      "color": "#c98a6b"
-    },
-    "dad": {
-      "t": "Dad",
-      "n": {
-        "es": "Papá",
-        "en": "Dad"
-      },
-      "role": {
-        "es": "Farero",
-        "en": "Lighthouse keeper"
-      },
-      "color": "#8a6d4b"
-    },
-    "gran": {
-      "t": "Gran",
-      "n": {
-        "es": "Abuela",
-        "en": "Gran"
-      },
-      "role": {
-        "es": "Cuenta historias",
-        "en": "Storyteller"
-      },
-      "color": "#9b8ab8"
-    },
-    "biscuit": {
-      "t": "Biscuit",
-      "n": {
-        "es": "Biscuit",
-        "en": "Biscuit"
-      },
-      "role": {
-        "es": "El perro",
-        "en": "The dog"
-      },
-      "color": "#b9874c"
-    },
-    "fenwick": {
-      "t": "Mr Fenwick",
-      "n": {
-        "es": "Sr. Fenwick",
-        "en": "Mr Fenwick"
-      },
-      "role": {
-        "es": "Fotógrafo",
-        "en": "Photographer"
-      },
-      "color": "#3f6b4f"
-    },
-    "crane": {
-      "t": "Mr Crane",
-      "n": {
-        "es": "Sr. Crane",
-        "en": "Mr Crane"
-      },
-      "role": {
-        "es": "Industrial sin escrúpulos",
-        "en": "Ruthless industrialist"
-      },
-      "color": "#5a5a5a"
-    },
-    "narr": {
-      "t": "",
-      "n": {
-        "es": "",
-        "en": ""
-      }
-    },
-    "annie": {
-      "t": "Annie",
-      "n": {
-        "es": "Annie",
-        "en": "Annie"
-      },
-      "role": {
-        "es": "La niña de la fábrica",
-        "en": "The mill girl"
-      },
-      "color": "#7aa35a"
-    }
+  "henry": {
+   "t": "Henry",
+   "n": {
+    "es": "Henry",
+    "en": "Henry"
+   },
+   "role": {
+    "es": "Hijo del dueño de la fábrica",
+    "en": "The mill owner's son"
+   },
+   "color": "#5b5f97",
+   "img": "data/story/img/henry.webp"
   },
-  "chapters": {
-    "a1": {
-      "t": "Chapter 1 · The Lighthouse",
-      "n": {
-        "es": "Una niña en un faro de Cornualles: familia, amigos y una caja mágica.",
-        "en": "A girl in a Cornish lighthouse: family, friends and a magic box."
-      },
-      "bg": [
-        "#bfe3ff",
-        "#9fc9a8"
-      ]
-    },
-    "a2": {
-      "t": "Chapter 2 · The Road to London",
-      "n": {
-        "es": "El tren, Londres y el estudio del señor Fenwick.",
-        "en": "The railway, London and Mr Fenwick's studio."
-      },
-      "bg": [
-        "#e6dcc8",
-        "#b9c98a"
-      ]
-    },
-    "b1": {
-      "t": "Chapter 3 · Light and Silver",
-      "n": {
-        "es": "Aprendiz de fotógrafa, la Gran Exposición y un rival poderoso.",
-        "en": "Apprentice photographer, the Great Exhibition and a powerful rival."
-      },
-      "bg": [
-        "#d7e3f4",
-        "#c9c3a8"
-      ]
-    },
-    "b2": {
-      "t": "Chapter 4 · War and Smoke",
-      "n": {
-        "es": "La guerra de Crimea, las fábricas y la verdad en una foto.",
-        "en": "The Crimean War, the mills and the truth in a photograph."
-      },
-      "bg": [
-        "#6b6f7f",
-        "#a39a8a"
-      ]
-    },
-    "c1": {
-      "t": "Chapter 5 · The Iron Ship",
-      "n": {
-        "es": "El gran barco de hierro, una huelga y una boda.",
-        "en": "The great iron ship, a strike and a wedding."
-      },
-      "bg": [
-        "#9fb3c8",
-        "#c9a3a3"
-      ]
-    },
-    "c2": {
-      "t": "Finale · A Message Across the Sea",
-      "n": {
-        "es": "1866: el cable del Atlántico y la última foto.",
-        "en": "1866: the Atlantic cable and the last photograph."
-      },
-      "bg": [
-        "#ffcf8a",
-        "#8fc1d9"
-      ]
-    }
+  "mum": {
+   "t": "Mum",
+   "n": {
+    "es": "Mamá",
+    "en": "Mum"
+   },
+   "role": {
+    "es": "La madre de Nell",
+    "en": "Nell's mother"
+   },
+   "color": "#c98a6b"
+  },
+  "dad": {
+   "t": "Dad",
+   "n": {
+    "es": "Papá",
+    "en": "Dad"
+   },
+   "role": {
+    "es": "Farero",
+    "en": "Lighthouse keeper"
+   },
+   "color": "#8a6d4b"
+  },
+  "gran": {
+   "t": "Gran",
+   "n": {
+    "es": "Abuela",
+    "en": "Gran"
+   },
+   "role": {
+    "es": "Cuenta historias",
+    "en": "Storyteller"
+   },
+   "color": "#9b8ab8"
+  },
+  "biscuit": {
+   "t": "Biscuit",
+   "n": {
+    "es": "Biscuit",
+    "en": "Biscuit"
+   },
+   "role": {
+    "es": "El perro",
+    "en": "The dog"
+   },
+   "color": "#b9874c"
+  },
+  "fenwick": {
+   "t": "Mr Fenwick",
+   "n": {
+    "es": "Sr. Fenwick",
+    "en": "Mr Fenwick"
+   },
+   "role": {
+    "es": "Fotógrafo",
+    "en": "Photographer"
+   },
+   "color": "#3f6b4f"
+  },
+  "crane": {
+   "t": "Mr Crane",
+   "n": {
+    "es": "Sr. Crane",
+    "en": "Mr Crane"
+   },
+   "role": {
+    "es": "Industrial sin escrúpulos",
+    "en": "Ruthless industrialist"
+   },
+   "color": "#5a5a5a"
+  },
+  "narr": {
+   "t": "",
+   "n": {
+    "es": "",
+    "en": ""
+   }
+  },
+  "annie": {
+   "t": "Annie",
+   "n": {
+    "es": "Annie",
+    "en": "Annie"
+   },
+   "role": {
+    "es": "La niña de la fábrica",
+    "en": "The mill girl"
+   },
+   "color": "#7aa35a"
   }
+ },
+ "chapters": {
+  "a1": {
+   "t": "Chapter 1 · The Lighthouse",
+   "n": {
+    "es": "Una niña en un faro de Cornualles: familia, amigos y una caja mágica.",
+    "en": "A girl in a Cornish lighthouse: family, friends and a magic box."
+   },
+   "bg": [
+    "#bfe3ff",
+    "#9fc9a8"
+   ]
+  },
+  "a2": {
+   "t": "Chapter 2 · The Road to London",
+   "n": {
+    "es": "El tren, Londres y el estudio del señor Fenwick.",
+    "en": "The railway, London and Mr Fenwick's studio."
+   },
+   "bg": [
+    "#e6dcc8",
+    "#b9c98a"
+   ]
+  },
+  "b1": {
+   "t": "Chapter 3 · Light and Silver",
+   "n": {
+    "es": "Aprendiz de fotógrafa, la Gran Exposición y un rival poderoso.",
+    "en": "Apprentice photographer, the Great Exhibition and a powerful rival."
+   },
+   "bg": [
+    "#d7e3f4",
+    "#c9c3a8"
+   ]
+  },
+  "b2": {
+   "t": "Chapter 4 · War and Smoke",
+   "n": {
+    "es": "La guerra de Crimea, las fábricas y la verdad en una foto.",
+    "en": "The Crimean War, the mills and the truth in a photograph."
+   },
+   "bg": [
+    "#6b6f7f",
+    "#a39a8a"
+   ]
+  },
+  "c1": {
+   "t": "Chapter 5 · The Iron Ship",
+   "n": {
+    "es": "El gran barco de hierro, una huelga y una boda.",
+    "en": "The great iron ship, a strike and a wedding."
+   },
+   "bg": [
+    "#9fb3c8",
+    "#c9a3a3"
+   ]
+  },
+  "c2": {
+   "t": "Finale · A Message Across the Sea",
+   "n": {
+    "es": "1866: el cable del Atlántico y la última foto.",
+    "en": "1866: the Atlantic cable and the last photograph."
+   },
+   "bg": [
+    "#ffcf8a",
+    "#8fc1d9"
+   ]
+  }
+ }
 }

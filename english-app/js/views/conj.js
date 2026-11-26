@@ -1,10 +1,10 @@
 // English verbs reference: the three forms of every irregular verb, every tense with every person, plus a quiz.
 // window.__conj(tense, verb) opens it from anywhere.
-import { register, go } from '../router.js?v=202611261300';
-import { header, bottomNav } from '../ui/components.js?v=202611261300';
-import { speak } from '../audio.js?v=202611261300';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participle, gerund, pastOf } from '../conj.js?v=202611261300';
-import { S } from '../state.js?v=202611261300';
+import { register, go } from '../router.js?v=202611261452';
+import { header, bottomNav } from '../ui/components.js?v=202611261452';
+import { speak } from '../audio.js?v=202611261452';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, participle, gerund, pastOf } from '../conj.js?v=202611261452';
+import { S } from '../state.js?v=202611261452';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const jsq = s => esc(s).replace(/&#39;/g, "\\'");
