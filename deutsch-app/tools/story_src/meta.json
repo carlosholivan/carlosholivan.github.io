@@ -1,0 +1,27 @@
+{
+  "title": {"es": "Alemán · La historia de Jonas", "en": "German · Jonas's story"},
+  "subtitle": {"es": "Una calle, un muro y cuatro amigos", "en": "One street, one wall and four friends"},
+  "pitch": {"es": "Berlín, 1955-1989. Un niño carpintero y sus amigos del otro lado de la calle crecen separados por un muro. Él recorre Alemania como oficial carpintero; ellos, la RDA. Las cartas cruzan la frontera durante 28 años. Hasta una noche de noviembre.", "en": "Berlin, 1955-1989. A carpenter's boy and his friends from across the street grow up divided by a wall. He travels Germany as a journeyman; they live in the GDR. Letters cross the border for 28 years. Until one November night."},
+  "hero": "jonas",
+  "cast": {
+    "jonas": {"t": "Jonas", "n": {"es": "Jonas", "en": "Jonas"}, "role": {"es": "Protagonista", "en": "Hero"}, "color": "#4f86c6"},
+    "lena": {"t": "Lena", "n": {"es": "Lena", "en": "Lena"}, "role": {"es": "Hija de la médica", "en": "The doctor's daughter"}, "color": "#d9708f"},
+    "karl": {"t": "Karl", "n": {"es": "Karl", "en": "Karl"}, "role": {"es": "El vecino bromista", "en": "The joker next door"}, "color": "#e39b3b"},
+    "mehmet": {"t": "Mehmet", "n": {"es": "Mehmet", "en": "Mehmet"}, "role": {"es": "El chico de Estambul", "en": "The boy from Istanbul"}, "color": "#3f8f7a"},
+    "mutter": {"t": "Mutter", "n": {"es": "Madre", "en": "Mum"}, "role": {"es": "La madre de Jonas", "en": "Jonas's mother"}, "color": "#c98a6b"},
+    "vater": {"t": "Vater", "n": {"es": "Padre", "en": "Dad"}, "role": {"es": "Carpintero", "en": "Carpenter"}, "color": "#8a6d4b"},
+    "oma": {"t": "Oma", "n": {"es": "Abuela", "en": "Grandma"}, "role": {"es": "Cuenta historias", "en": "Storyteller"}, "color": "#9b8ab8"},
+    "struppi": {"t": "Struppi", "n": {"es": "Struppi", "en": "Struppi"}, "role": {"es": "El perro", "en": "The dog"}, "color": "#b9874c"},
+    "huber": {"t": "Meister Huber", "n": {"es": "Maestro Huber", "en": "Master Huber"}, "role": {"es": "Maestro carpintero", "en": "Master carpenter"}, "color": "#3f6b4f"},
+    "vogt": {"t": "Herr Vogt", "n": {"es": "Señor Vogt", "en": "Mr Vogt"}, "role": {"es": "Funcionario de la Stasi", "en": "Stasi officer"}, "color": "#5a5a5a"},
+    "narr": {"t": "", "n": {"es": "", "en": ""}}
+  },
+  "chapters": {
+    "a1": {"t": "Kapitel 1 · Zwei Seiten einer Straße", "n": {"es": "1955: una calle de Berlín, dos lados y tres niños.", "en": "1955: a Berlin street, two sides and three children."}, "bg": ["#d9ecff", "#b9c98a"]},
+    "a2": {"t": "Kapitel 2 · Die Mauer", "n": {"es": "1961: una mañana de agosto, la calle se corta en dos.", "en": "1961: one August morning, the street is cut in two."}, "bg": ["#c8c8c8", "#a39a8a"]},
+    "b1": {"t": "Kapitel 3 · Auf der Walz", "n": {"es": "Tres años y un día de oficial carpintero por Alemania.", "en": "Three years and a day as a journeyman carpenter across Germany."}, "bg": ["#e6dcc8", "#9fc98a"]},
+    "b2": {"t": "Kapitel 4 · Briefe über die Mauer", "n": {"es": "Los años setenta: visitas, cartas vigiladas y un dilema.", "en": "The seventies: visits, watched letters and a dilemma."}, "bg": ["#9fb3c8", "#b9a8a8"]},
+    "c1": {"t": "Kapitel 5 · Der Herbst", "n": {"es": "1989: velas en Leipzig y un país que se mueve.", "en": "1989: candles in Leipzig and a country on the move."}, "bg": ["#e8b98a", "#a38a6b"]},
+    "c2": {"t": "Finale · Die Nacht", "n": {"es": "9 de noviembre de 1989… y después.", "en": "9 November 1989… and after."}, "bg": ["#2d3a5a", "#ffcf8a"]}
+  }
+}

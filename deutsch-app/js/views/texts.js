@@ -1,16 +1,16 @@
-import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611260830';
-import { S, update } from '../state.js?v=202611260830';
-import { register, go } from '../router.js?v=202611260830';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611260830';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611260830';
-import { isUnitDone } from '../state.js?v=202611260830';
-import { bottomNav, header } from '../ui/components.js?v=202611260830';
-import { t } from '../i18n.js?v=202611260830';
-import { levelChips, LEVELS } from '../levels.js?v=202611260830';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611260830';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611260830';
-import { addCards } from '../engine/anki.js?v=202611260830';
-import { allVocab } from './review.js?v=202611260830';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611260910';
+import { S, update } from '../state.js?v=202611260910';
+import { register, go } from '../router.js?v=202611260910';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611260910';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611260910';
+import { isUnitDone } from '../state.js?v=202611260910';
+import { bottomNav, header } from '../ui/components.js?v=202611260910';
+import { t } from '../i18n.js?v=202611260910';
+import { levelChips, LEVELS } from '../levels.js?v=202611260910';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611260910';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611260910';
+import { addCards } from '../engine/anki.js?v=202611260910';
+import { allVocab } from './review.js?v=202611260910';
 
 // German words (letters with umlauts and ß); "geht's" is geht + s.
 const WORD = /[A-Za-zÀ-ÖØ-öø-ÿ]+/g;
