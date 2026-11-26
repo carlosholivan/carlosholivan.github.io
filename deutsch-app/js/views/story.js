@@ -1,17 +1,18 @@
 // Story mode: the same lessons, in the same order, lived as a story. Each level is a chapter of the hero's life;
-// each lesson opens with a short scene (with a choice that changes the dialogue, never the content), becomes a
-// "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
+// each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
+// sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-// Art is provisional (portrait placeholders) until the illustrations are made.
-import { CFG } from '../app-config.js?v=202611261452';
-import { S, update } from '../state.js?v=202611261452';
-import { register, go } from '../router.js?v=202611261452';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261452';
-import { loadUnits, loadVocab } from '../data.js?v=202611261452';
-import { bottomNav } from '../ui/components.js?v=202611261452';
+import { CFG } from '../app-config.js?v=202611261708';
+import { S, update, completeUnit } from '../state.js?v=202611261708';
+import { register, go } from '../router.js?v=202611261708';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261708';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261708';
+import { addCards } from '../engine/anki.js?v=202611261708';
+import { unitVocab } from '../engine/exercises.js?v=202611261708';
+import { bottomNav } from '../ui/components.js?v=202611261708';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611261452';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261452';
+import { speak, stop } from '../audio.js?v=202611261708';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261708';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -34,7 +35,15 @@ const TX = {
   soon: { es: 'Este capítulo se está escribiendo.', en: 'This chapter is being written.' },
   finale: { es: 'Final del capítulo', en: 'Chapter finale' }, scene: { es: 'escena', en: 'scene' },
   words: { es: 'Palabras de esta escena', en: 'Words in this scene' }, wordsSub: { es: 'Repásalas antes de empezar: aparecen en el diálogo.', en: 'Review them first: they appear in the dialogue.' },
-  play: { es: 'Empezar la escena', en: 'Start the scene' }, gift: { es: 'Regalo', en: 'Gift' },
+  play: { es: 'Empezar la escena', en: 'Start the scene' },
+  trial: { es: 'Empezar el reto', en: 'Start the challenge' }, trialAgain: { es: 'Repetir el reto', en: 'Redo the challenge' },
+  dares: { es: 'te reta', en: 'challenges you' }, full: { es: 'Práctica completa en modo estudio', en: 'Full practice in study mode' },
+  good: { es: '¡Muy bien!', en: 'Well done!' }, bad: { es: 'Casi. La respuesta era:', en: 'Not quite. The answer was:' },
+  cont2: { es: 'Continuar', en: 'Continue' }, meaning: { es: '¿Qué significa?', en: 'What does it mean?' },
+  listen: { es: 'Escucha y elige', en: 'Listen and choose' }, order: { es: 'Ordena la frase', en: 'Put the sentence in order' },
+  fill: { es: 'Completa la frase', en: 'Fill in the blank' }, sayIt: { es: '¿Cómo se dice?', en: 'How do you say it?' },
+  pairs: { es: 'Une cada palabra con su significado', en: 'Match each word to its meaning' },
+  passed: { es: 'Reto superado', en: 'Challenge complete' }, check: { es: 'Comprobar', en: 'Check' }, gift: { es: 'Regalo', en: 'Gift' },
 };
 const tx = k => L(TX[k]);
 
@@ -201,7 +210,7 @@ window.__smOpen = async key => {
   const seenKey = `${level}-${key}-i`;
   // An episode of several lessons plays its opening scene once; afterwards it opens on the mission.
   if (!n.sc || (n.units.length > 1 && st().seen[seenKey])) return missionScreen(n);
-  const go2 = () => player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => { saveSt({ seen: { ...st().seen, [seenKey]: 1 } }); missionScreen(n); } });
+  const go2 = () => player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => { saveSt({ seen: { ...st().seen, [seenKey]: 1 } }); nodeDone(n) ? missionScreen(n) : trial(n); } });
   vocabScreen(sceneLines(n.sc), n.units.map(u => u.id), go2);
 };
 const sceneLines = sc => (sc.intro || []).concat(sc.choice ? [sc.choice.q || {}].concat(sc.choice.options || [], ...(sc.choice.options || []).map(o => o.reply || [])) : [], sc.outro || []);
@@ -245,7 +254,7 @@ function missionScreen(n) {
   const next = n.units.find(u => !unitDone(level, u.id)) || n.units[0];
   const list = multi ? `<div class="sm-ulist mt-12">${n.units.map(u => {
     const d = unitDone(level, u.id), isNext = !done && u === next;
-    return `<button class="sm-urow ${d ? 'done' : isNext ? 'cur' : 'lock'}" ${d || isNext ? `onclick="window.__smLesson('${u.id}')"` : 'disabled'}>
+    return `<button class="sm-urow ${d ? 'done' : isNext ? 'cur' : 'lock'}" ${d || isNext ? `onclick="window.__smTrial('${n.key}','${u.id}')"` : 'disabled'}>
       <i>${d ? '✓' : isNext ? '▶' : '·'}</i><span>${tx('lesson')} ${esc(u.id)} · ${esc(L(u.title))}</span></button>`;
   }).join('')}</div>` : `<div class="muted small mt-8">${tx('lesson')} ${esc(next.id)} · ${esc(L(next.title))}</div>`;
   root.innerHTML = `<div class="fade sm-mission" data-sm>
@@ -253,9 +262,10 @@ function missionScreen(n) {
       <div class="small" style="color:var(--accent);font-weight:800;letter-spacing:.06em">🎯 ${tx('mission').toUpperCase()}</div>
       <div class="h3 mt-8">${esc(L(sc && sc.mission) || L(next.desc))}</div>
       ${list}
-      <button class="btn mt-16" onclick="window.__smLesson('${next.id}')">${done ? tx('again') : multi && n.units.some(u => unitDone(level, u.id)) ? tx('cont') : tx('start')} ▶</button>
+      <button class="btn mt-16" onclick="window.__smTrial('${n.key}')">${done ? tx('trialAgain') : multi && n.units.some(u => unitDone(level, u.id)) ? tx('cont') : tx('trial')} ▶</button>
       ${sc && multi ? `<button class="btn btn-ghost mt-8" onclick="window.__smScene('${n.key}')">${tx('replay')}: ${tx('scene')}</button>` : ''}
       ${done && sc && sc.outro ? `<button class="btn btn-ghost mt-8" onclick="window.__smOutro('${n.key}')">${tx('replay')}: ${tx('finale').toLowerCase()}</button>` : ''}
+      <button class="btn btn-ghost mt-8" onclick="window.__smLesson('${next.id}')">📖 ${tx('full')}</button>
       <button class="btn btn-ghost mt-8" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')}</button>
     </div>
   </div>`;
@@ -266,6 +276,139 @@ window.__smScene = async key => {
   const ch = await chapter(level), n = nodesOf(await loadUnits(level), ch).find(x => x.key === key);
   player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => missionScreen(n) });
 };
+
+// ---------- the lesson inside the story: a friend sets its exercises as challenges, in the scene ----------
+window.__smTrial = async (key, from) => {
+  const ch = await chapter(level), n = nodesOf(await loadUnits(level), ch).find(x => x.key === String(key));
+  if (n) trial(n, from);
+};
+const shuf = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = x => String(x || '').replace(/[\s。．.!！?？,，、]/g, '').toLowerCase();
+// Who sets the challenges: the friend who talks most in this episode's scene (not the hero, not the narrator).
+function coach(n) {
+  const m = META || {}, hero = m.hero, cnt = {};
+  for (const l of n.sc ? sceneLines(n.sc) : []) if (l && l.who && l.who !== 'narr' && l.who !== hero && (m.cast || {})[l.who]) cnt[l.who] = (cnt[l.who] || 0) + 1;
+  const best = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a])[0];
+  return best || Object.keys(m.cast || {}).find(k => k !== hero && k !== 'narr') || hero;
+}
+// Up to 8 challenges per lesson, from its own exercises (plus two word checks), in a varied order.
+function challenges(unit, words, pool) {
+  const ex = unit.exercises || [], out = [];
+  const by = t => shuf(ex.filter(e => e.type === t));
+  const pairs = by('match')[0];
+  if (pairs) out.push({ k: 'match', pairs: shuf(pairs.pairs).slice(0, 4) });
+  const others = shuf(pool.filter(v => !words.some(w => w.word === v.word)));
+  for (const w of shuf(words).slice(0, pairs ? 1 : 2)) {
+    const opts = shuf([w].concat(shuf(words.filter(x => x !== w)).concat(others).slice(0, 3)));
+    out.push({ k: 'word', w, opts });
+  }
+  const trans = ex.filter(e => e.type === 'translate' || e.type === 'order');
+  const mix = [].concat(by('fill').slice(0, 2), by('choose').slice(0, 2), by('listen').slice(0, 1), by('order').slice(0, 1), by('translate').slice(0, 1));
+  for (const e of shuf(mix)) {
+    if (e.type === 'translate') {   // as a choice between this lesson's sentences (no typing inside the story)
+      const alt = shuf(trans.filter(x => x !== e).map(x => x.answer)).filter(a => norm(a) !== norm(e.answer)).slice(0, 2);
+      if (alt.length) out.push({ k: 'choose', prompt: e.prompt, opts: shuf([e.answer, ...alt]), ok: e.answer, py: e.py });
+    } else if (e.type === 'choose') out.push({ k: 'choose', prompt: e.prompt, opts: shuf(e.options), ok: e.correct, hint: e.hint });
+    else if (e.type === 'fill') out.push({ k: 'fill', e, opts: shuf(e.options) });
+    else if (e.type === 'listen') out.push({ k: 'listen', text: e.text, opts: shuf(e.options), ok: e.correct });
+    else if (e.type === 'order') out.push({ k: 'order', e, words: shuf(e.words) });
+    if (out.length >= 8) break;
+  }
+  return out.slice(0, 8);
+}
+async function trial(n, from) {
+  stop();
+  const m = META || await meta(), cid = coach(n), who = (m.cast || {})[cid] || {};
+  const pool = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
+  let todo = n.units.filter(u => !unitDone(level, u.id));
+  if (from) todo = n.units.slice(n.units.findIndex(u => String(u.id) === String(from)));
+  if (!todo.length) todo = n.units.slice();
+  let ui = 0, list = [], qi = 0, words = [];
+  const startUnit = async () => {
+    const unit = await loadUnit(level, todo[ui].id) || await loadUnit(level, String(todo[ui].id));
+    words = unit ? unitVocab(unit, pool) : [];
+    list = unit ? challenges(unit, words, pool) : []; qi = 0;
+    next();
+  };
+  const finishUnit = () => {
+    const u = todo[ui];
+    addCards(words.map(w => w.word), 'v');
+    completeUnit(level, u.id);
+    ui++;
+    frame(`<div class="tc-done">✨ ${tx('passed')} · ${tx('lesson')} ${esc(u.id)}</div>`, `<button class="btn" onclick="window.__tcGo()">${tx('cont2')} ▶</button>`, true);
+    window.__tcGo = () => { window.__tcGo = () => {}; ui < todo.length ? startUnit() : endNode(); };
+  };
+  const endNode = () => {
+    const key = `${level}-${n.key}-o`;
+    if (n.sc && nodeDone(n) && !st().seen[key]) return player(n.sc.outro || [], { after: () => { saveSt({ seen: { ...st().seen, [key]: 1 } }); afterOutro(); } });
+    afterOutro();
+  };
+  // The scene with the friend on stage; the challenge sits in the dialogue box.
+  const frame = (box, below, cheer) => {
+    root.innerHTML = `<div class="sp-scene tc" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">🎯 ${esc(L(who.n))} ${tx('dares')}</span><span class="flex gap-8">${pyToggle()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
+      <div class="sp-stage">${hills()}${portrait(cid, who, false).replace('class="pt ', `class="pt ${cheer ? 'cheer ' : ''}`)}</div>
+      <div class="sp-prog"><i style="width:${Math.min(100, Math.round(100 * (ui + qi / Math.max(1, list.length)) / todo.length))}%"></i></div>
+      <div class="sp-box tc-box">${box}</div>
+      ${below ? `<div class="tc-below">${below}</div>` : ''}</div>`;
+  };
+  const next = () => {
+    if (qi >= list.length) return finishUnit();
+    const c = list[qi];
+    window.__tcSay = t => speak(t);
+    if (c.k === 'word') {
+      speak(c.w.word);
+      frame(`<div class="tc-q">${tx('meaning')}</div><div class="sp-line tc-big" lang="${LG}" onclick="window.__tcSay(this.dataset.t)" data-t="${esc(c.w.word)}">${T(c.w.word)} <span class="tc-snd">🔊</span></div>`,
+        opts(c.opts.map(o => esc(L(o.m))), c.opts.indexOf(c.w), () => `${T(c.w.word)} = ${esc(L(c.w.m))}`));
+    } else if (c.k === 'choose') {
+      frame(`<div class="tc-q">${esc(L(c.prompt))}</div>`, opts(c.opts.map(o => `<span lang="${LG}">${T(o)}</span>`), c.opts.indexOf(c.ok), () => `<span lang="${LG}">${T(c.ok)}</span>${c.hint ? `<div class="muted small">${esc(L(c.hint))}</div>` : ''}`, c.ok));
+    } else if (c.k === 'listen') {
+      speak(c.text);
+      frame(`<div class="tc-q">${tx('listen')}</div><button class="chip tc-play" onclick="window.__tcSay(${JSON.stringify(c.text).replace(/"/g, '&quot;')})">🔊 ▶</button>`,
+        opts(c.opts.map(o => `<span lang="${LG}">${T(o)}</span>`), c.opts.indexOf(c.ok), () => `<span lang="${LG}">${T(c.ok)}</span>`, c.ok));
+    } else if (c.k === 'fill') {
+      const e = c.e, [a, b] = String(e.sentence).split('___');
+      frame(`<div class="tc-q">${tx('fill')}</div><div class="sp-line" lang="${LG}">${T(a || '')}<span class="tc-gap">＿＿</span>${T(b || '')}</div>${e.tr ? `<div class="sp-tr ${S.storyTr === false ? 'hide' : ''}">${esc(L(e.tr))}</div>` : ''}`,
+        opts(c.opts.map(o => `<span lang="${LG}">${T(o)}</span>`), c.opts.indexOf(e.blank), () => `<span lang="${LG}">${T(String(e.sentence).replace('___', e.blank))}</span>${e.hint ? `<div class="muted small">${esc(L(e.hint))}</div>` : ''}`, String(e.sentence).replace('___', e.blank)));
+    } else if (c.k === 'order') {
+      const e = c.e; let picked = [];
+      const draw = () => frame(`<div class="tc-q">${tx('order')}</div>${e.prompt ? `<div class="sp-tr">${esc(L(e.prompt))}</div>` : ''}
+          <div class="tc-ans" lang="${LG}">${picked.map((k, j) => `<button class="tc-tile on" onclick="window.__tcUn(${j})">${T(c.words[k])}</button>`).join('') || '<span class="muted">…</span>'}</div>`,
+        `<div class="tc-bank" lang="${LG}">${c.words.map((w, k) => picked.includes(k) ? `<span class="tc-tile ghost">${T(w)}</span>` : `<button class="tc-tile" onclick="window.__tcPk(${k})">${T(w)}</button>`).join('')}</div>
+         <button class="btn mt-12" ${picked.length === c.words.length ? '' : 'disabled'} onclick="window.__tcChk()">${tx('check')}</button>`);
+      window.__tcPk = k => { picked.push(k); draw(); };
+      window.__tcUn = j => { picked.splice(j, 1); draw(); };
+      window.__tcChk = () => { const ok = norm(picked.map(k => c.words[k]).join(LG === 'zh' || LG === 'ja' ? '' : ' ')) === norm(e.answer); result(ok, `<span lang="${LG}">${T(e.answer)}</span>`, e.answer); };
+      draw();
+    } else if (c.k === 'match') {
+      let sel = null; const done = new Set(), right = shuf(c.pairs.map((p, k) => k)); let miss = 0;
+      const draw = () => frame(`<div class="tc-q">${tx('pairs')}</div>`,
+        `<div class="tc-match"><div>${c.pairs.map((p, k) => `<button class="tc-tile ${done.has(k) ? 'ok' : sel === k ? 'on' : ''}" ${done.has(k) ? 'disabled' : ''} lang="${LG}" onclick="window.__tcL(${k})">${T(p[0])}</button>`).join('')}</div>
+          <div>${right.map(k => `<button class="tc-tile ${done.has(k) ? 'ok' : ''}" ${done.has(k) ? 'disabled' : ''} onclick="window.__tcR(${k})">${esc(L(c.pairs[k][1]))}</button>`).join('')}</div></div>`);
+      window.__tcL = k => { sel = k; speak(c.pairs[k][0]); draw(); };
+      window.__tcR = k => {
+        if (sel === null) return;
+        if (k === sel) { done.add(k); sel = null; if (done.size === c.pairs.length) return result(miss < 2, '', null); }
+        else { miss++; sel = null; }
+        draw();
+      };
+      draw();
+    }
+  };
+  // Multiple-choice buttons under the box.
+  const opts = (labels, okIdx, answer, say) => {
+    window.__tcPick = k => result(k === okIdx, answer(), say, k);
+    return `<div class="tc-opts">${labels.map((l, k) => `<button class="card tc-opt" onclick="window.__tcPick(${k})">${l}</button>`).join('')}</div>`;
+  };
+  const result = (ok, answerHtml, say) => {
+    if (say) speak(say);
+    if (!ok && !list[qi].again) list.push({ ...list[qi], again: 1 });
+    const box = ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${answerHtml}</div>`;
+    frame(box, `<button class="btn" onclick="window.__tcNext()">${tx('cont2')} ▶</button>`, ok);
+    window.__tcNext = () => { window.__tcNext = () => {}; qi++; next(); };
+  };
+  startUnit();
+}
 
 // ---------- scene player: one line at a time, tap to continue ----------
 function player(lines, opts = {}) {
@@ -371,6 +514,27 @@ function css() {
   const s = document.createElement('style');
   s.id = 'sm-css';
   s.textContent = `
+.tc .sp-stage{height:34vh;min-height:200px}
+.tc-box{max-height:none}
+.tc-q{font-size:13px;font-weight:800;letter-spacing:.04em;color:#ffd98a;text-transform:uppercase;margin-bottom:8px}
+.tc-big{font-size:34px;cursor:pointer}.tc-snd{font-size:16px;opacity:.7}
+.tc-gap{display:inline-block;min-width:2.4em;border-bottom:2px solid #ffd36b;margin:0 4px;color:#ffd36b;text-align:center}
+.tc-below{position:relative;z-index:3;padding:10px 16px 24px}
+.tc-opts{display:grid;gap:10px;padding:10px 16px 24px;position:relative;z-index:3}
+.tc-opt{background:rgba(255,255,255,.08) !important;border:1px solid rgba(255,255,255,.18) !important;color:#eef2ff !important;text-align:left;padding:14px 16px !important;font-size:17px;border-radius:16px !important;transition:transform .12s}
+.tc-opt:active{transform:scale(.97)}
+.tc-res{font-size:22px;font-weight:800}.tc-res.ok{color:#7ee2a0}.tc-res.no{color:#ffb4a8;font-size:16px}
+.tc-answer{font-size:20px;margin-top:6px}
+.tc-done{font-size:22px;font-weight:800;color:#ffd36b;text-align:center}
+.tc-play{font-size:20px;padding:10px 18px !important}
+.tc-ans{min-height:52px;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;padding:8px;border-radius:12px;background:rgba(0,0,0,.2)}
+.tc-bank{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.tc-tile{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#eef2ff;border-radius:12px;padding:9px 12px;font-size:17px;font-family:inherit}
+.tc-tile.on{background:#ffd36b;color:#1b2340;border-color:#ffd36b}.tc-tile.ghost{opacity:.25}
+.tc-tile.ok{background:rgba(126,226,160,.25);border-color:#7ee2a0;opacity:.6}
+.tc-match{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tc-match>div{display:grid;gap:8px;align-content:start}
+.pt.cheer .pt-art{animation:tcj .6s ease}
+@keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
 body.sm-on{background:radial-gradient(120% 80% at 50% -10%,#21376b 0%,#0f1d42 45%,#081128 100%) fixed !important;color:#eef2ff}
 body.sm-on #app,body.sm-on main,body.sm-on .page{background:transparent !important}
 #sm-sky{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:52}

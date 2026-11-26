@@ -22,7 +22,7 @@ import {
   getDocs,
   getCountFromServer
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611261500';
+import firebaseConfig from './firebase-config.js?v=202611261740';
 
 let app = null;
 let auth = null;
