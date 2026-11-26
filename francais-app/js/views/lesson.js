@@ -1,18 +1,18 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611262225';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611262225';
-import { buildReview } from '../engine/review.js?v=202611262225';
-import { addCards } from '../engine/anki.js?v=202611262225';
-import { register, go } from '../router.js?v=202611262225';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611262225';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611262225';
-import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611262225';
-import { recordAnswer } from '../engine/srs.js?v=202611262225';
-import { progressBar } from '../ui/components.js?v=202611262225';
-import { icon } from '../ui/icons.js?v=202611262225';
-import { t } from '../i18n.js?v=202611262225';
-import { speak, stop as stopAudio } from '../audio.js?v=202611262225';
-import { allHanzi } from './review.js?v=202611262225';
-import { wordSize } from '../chars.js?v=202611262225';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611262231';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611262231';
+import { buildReview } from '../engine/review.js?v=202611262231';
+import { addCards } from '../engine/anki.js?v=202611262231';
+import { register, go } from '../router.js?v=202611262231';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611262231';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611262231';
+import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611262231';
+import { recordAnswer } from '../engine/srs.js?v=202611262231';
+import { progressBar } from '../ui/components.js?v=202611262231';
+import { icon } from '../ui/icons.js?v=202611262231';
+import { t } from '../i18n.js?v=202611262231';
+import { speak, stop as stopAudio } from '../audio.js?v=202611262231';
+import { allHanzi } from './review.js?v=202611262231';
+import { wordSize } from '../chars.js?v=202611262231';
 
 const MAX_HEARTS = 5;
 

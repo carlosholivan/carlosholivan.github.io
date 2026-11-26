@@ -1,17 +1,17 @@
 // Characters per HSK level: grid, detail card with stroke-order animation and a writing quiz (Hanzi Writer).
-import { S, update } from '../state.js?v=202611262224';
-import { register } from '../router.js?v=202611262224';
-import { loadHanzi } from '../data.js?v=202611262224';
-import { levelChips, levelLabel } from '../levels.js?v=202611262224';
-import { addCards } from '../engine/anki.js?v=202611262224';
-import { bottomNav, header } from '../ui/components.js?v=202611262224';
-import { speak } from '../audio.js?v=202611262224';
-import { t } from '../i18n.js?v=202611262224';
-import { esc, mean, tonedPinyin, toneOf, sylReady } from '../zh.js?v=202611262224';
-import { allVocab, allHanzi, hanziExtra } from './review.js?v=202611262224';
-import { LEVELS } from '../levels.js?v=202611262224';
-import { icon } from '../ui/icons.js?v=202611262224';
-import { shortMean } from '../chars.js?v=202611262224';
+import { S, update } from '../state.js?v=202611262231';
+import { register } from '../router.js?v=202611262231';
+import { loadHanzi } from '../data.js?v=202611262231';
+import { levelChips, levelLabel } from '../levels.js?v=202611262231';
+import { addCards } from '../engine/anki.js?v=202611262231';
+import { bottomNav, header } from '../ui/components.js?v=202611262231';
+import { speak } from '../audio.js?v=202611262231';
+import { t } from '../i18n.js?v=202611262231';
+import { esc, mean, tonedPinyin, toneOf, sylReady } from '../zh.js?v=202611262231';
+import { allVocab, allHanzi, hanziExtra } from './review.js?v=202611262231';
+import { LEVELS } from '../levels.js?v=202611262231';
+import { icon } from '../ui/icons.js?v=202611262231';
+import { shortMean } from '../chars.js?v=202611262231';
 
 const PAGE = 120;
 

@@ -2,16 +2,16 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611262224';
-import { S, update, completeUnit } from '../state.js?v=202611262224';
-import { register, go } from '../router.js?v=202611262224';
-import { LEVELS, levelLabel } from '../levels.js?v=202611262224';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262224';
-import { addCards } from '../engine/anki.js?v=202611262224';
-import { unitVocab } from '../engine/exercises.js?v=202611262224';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611262224';
-import { speak, speakAs, stop } from '../audio.js?v=202611262224';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611262224';
+import { CFG } from '../app-config.js?v=202611262231';
+import { S, update, completeUnit } from '../state.js?v=202611262231';
+import { register, go } from '../router.js?v=202611262231';
+import { LEVELS, levelLabel } from '../levels.js?v=202611262231';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262231';
+import { addCards } from '../engine/anki.js?v=202611262231';
+import { unitVocab } from '../engine/exercises.js?v=202611262231';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611262231';
+import { speak, speakAs, stop } from '../audio.js?v=202611262231';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611262231';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -197,7 +197,7 @@ async function map(m) {
     flat.replaceWith(box);
     w3.mountWorld(box, {
       nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock' })),
-      accent: bg, heroStyle: m.hero3d,
+      accent: bg, heroStyle: m.hero3d, heroImg: ((m.cast || {})[m.hero] || {}).img,
       onOpen: key => window.__smOpen(key),
       onLocked: () => { const h = box.querySelector('.sm-hint'); h.textContent = '🔒 ' + tx('locked'); h.classList.add('on'); setTimeout(() => { h.textContent = tx('drag'); h.classList.remove('on'); }, 1800); },
     });

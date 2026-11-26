@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611262225';
-import { gemini, playBlob } from './gemini-tts.js?v=202611262225';
+import { S } from './state.js?v=202611262231';
+import { gemini, playBlob } from './gemini-tts.js?v=202611262231';
 
 // Two engines:
 //  · device — the Japanese voice of the browser / OS. The best one available is picked automatically

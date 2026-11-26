@@ -1,9 +1,9 @@
 // "Write a sentence with this word": on the back of a flashcard the learner writes their own sentence with the
 // word and the AI tutor (Gemini) checks it: verdict, corrected sentence, why, and a more natural version.
-import { S } from './state.js?v=202611262225';
-import { CFG } from './app-config.js?v=202611262225';
-import { levelLabel } from './levels.js?v=202611262225';
-import { chatGemini, tutorKey, errText, thinkingHTML } from './tutor.js?v=202611262225';
+import { S } from './state.js?v=202611262231';
+import { CFG } from './app-config.js?v=202611262231';
+import { levelLabel } from './levels.js?v=202611262231';
+import { chatGemini, tutorKey, errText, thinkingHTML } from './tutor.js?v=202611262231';
 
 const LANG = { espanol: ['es-ES', 'Spanish (from Spain)'], english: ['en-GB', 'British English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
   chino: ['zh-CN', 'Mandarin Chinese (simplified characters)'], nihongo: ['ja-JP', 'Japanese'], arabic: ['ar', 'Modern Standard Arabic'] }[CFG.id] || ['en', 'English'];

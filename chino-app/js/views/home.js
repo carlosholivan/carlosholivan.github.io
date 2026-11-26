@@ -1,14 +1,14 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611262224';
-import { register, go } from '../router.js?v=202611262224';
-import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611262224';
-import { bottomNav, progressBar } from '../ui/components.js?v=202611262224';
-import { icon } from '../ui/icons.js?v=202611262224';
-import { mascot } from '../ui/mascot.js?v=202611262224';
-import { t } from '../i18n.js?v=202611262224';
-import { LEVELS, levelLabel } from '../levels.js?v=202611262224';
-import { deckStats } from '../engine/anki.js?v=202611262224';
-import { isLearned } from '../engine/status.js?v=202611262224';
-import { CFG } from '../app-config.js?v=202611262224';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611262231';
+import { register, go } from '../router.js?v=202611262231';
+import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611262231';
+import { bottomNav, progressBar } from '../ui/components.js?v=202611262231';
+import { icon } from '../ui/icons.js?v=202611262231';
+import { mascot } from '../ui/mascot.js?v=202611262231';
+import { t } from '../i18n.js?v=202611262231';
+import { LEVELS, levelLabel } from '../levels.js?v=202611262231';
+import { deckStats } from '../engine/anki.js?v=202611262231';
+import { isLearned } from '../engine/status.js?v=202611262231';
+import { CFG } from '../app-config.js?v=202611262231';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
