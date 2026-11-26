@@ -6,9 +6,9 @@
 //  In the native app (Capacitor, Android / iPhone) the WebView has no web push: local notifications are scheduled on
 //  the phone itself instead (@capacitor-community / @capacitor/local-notifications; no account or server needed).
 //  The next 14 days are scheduled one by one, and today's is cancelled as soon as the learner studies.
-import { S, update } from './state.js?v=202611260910';
-import { CFG } from './app-config.js?v=202611260910';
-import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611260910';
+import { S, update } from './state.js?v=202611261240';
+import { CFG } from './app-config.js?v=202611261240';
+import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611261240';
 
 const FB = 'https://www.gstatic.com/firebasejs/12.16.0/';
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es)) || '';

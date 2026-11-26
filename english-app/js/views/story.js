@@ -3,15 +3,15 @@
 // "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
 // Art is provisional (portrait placeholders) until the illustrations are made.
-import { CFG } from '../app-config.js?v=202611260855';
-import { S, update } from '../state.js?v=202611260855';
-import { register, go } from '../router.js?v=202611260855';
-import { LEVELS, levelLabel } from '../levels.js?v=202611260855';
-import { loadUnits } from '../data.js?v=202611260855';
-import { bottomNav } from '../ui/components.js?v=202611260855';
+import { CFG } from '../app-config.js?v=202611261240';
+import { S, update } from '../state.js?v=202611261240';
+import { register, go } from '../router.js?v=202611261240';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261240';
+import { loadUnits } from '../data.js?v=202611261240';
+import { bottomNav } from '../ui/components.js?v=202611261240';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611260855';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611260855';
+import { speak, stop } from '../audio.js?v=202611261240';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261240';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -207,15 +207,15 @@ function player(lines, opts = {}) {
     }
     const ln = queue[i], who = (m.cast || {})[ln.who] || {};
     const narr = ln.who === 'narr';
-    root.innerHTML = `<div class="sp-scene" onclick="window.__spNext()">
-      <div class="sp-top"><span class="chip">${tx('mode')}</span><span class="flex gap-8">${pyToggle()}<button class="chip" onclick="event.stopPropagation();window.__spSkip()">${tx('skip')} ⏭</button></span></div>
+    root.innerHTML = `<div class="sp-scene" onclick="window.__stNext()">
+      <div class="sp-top"><span class="chip">${tx('mode')}</span><span class="flex gap-8">${pyToggle()}<button class="chip" onclick="event.stopPropagation();window.__stSkip()">${tx('skip')} ⏭</button></span></div>
       <div class="sp-stage">${narr ? '' : portrait(ln.who, who)}</div>
-      <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__spNext()">
+      <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__stNext()">
         ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${T(who.t || '', who.s)} ${esc(L(who.n))}</div>`}
         <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
         <div class="sp-tr ${S.storyTr === false ? 'hide' : ''}">${esc(L(ln.tr))}</div>
-        <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__spSay()">🔊</button>
-          <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__spTr()">🌐 ${tx('tr')}</button>
+        <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__stSay()">🔊</button>
+          <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__stTr()">🌐 ${tx('tr')}</button>
           <span class="grow"></span><span class="muted small">${tx('next')} ▸</span></div>
       </div></div>`;
     speak(ln.t);
@@ -229,14 +229,14 @@ function player(lines, opts = {}) {
         <div class="small muted mb-8">💬 ${tx('choose')}</div>
         ${c.q ? `<div class="sp-line">${T(c.q.t, c.q.s)}</div><div class="sp-tr">${esc(L(c.q.tr))}</div>` : ''}
       </div>
-      <div class="sp-opts">${c.options.map((o, k) => `<button class="card sp-opt" onclick="window.__spPick(${k})">
+      <div class="sp-opts">${c.options.map((o, k) => `<button class="card sp-opt" onclick="window.__stPick(${k})">
         <div class="sp-line" lang="${LG}">${T(o.t, o.s)}</div><div class="sp-tr">${esc(L(o.tr))}</div></button>`).join('')}</div></div>`;
   };
-  window.__spNext = () => { i++; show(); };
-  window.__spSkip = () => { i = queue.length; show(); };
-  window.__spSay = () => speak(queue[i] && queue[i].t);
-  window.__spTr = () => { update({ storyTr: S.storyTr === false }); show(); };
-  window.__spPick = k => {
+  window.__stNext = () => { i++; show(); };
+  window.__stSkip = () => { i = queue.length; show(); };
+  window.__stSay = () => speak(queue[i] && queue[i].t);
+  window.__stTr = () => { update({ storyTr: S.storyTr === false }); show(); };
+  window.__stPick = k => {
     const o = opts.choice.options[k];
     const s = st();
     saveSt({ choice: { ...s.choice, [opts.choiceKey]: k }, friend: o.f ? { ...s.friend, [o.f]: (s.friend[o.f] || 0) + 1 } : s.friend });
