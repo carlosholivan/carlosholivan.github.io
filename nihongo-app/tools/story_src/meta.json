@@ -87,7 +87,8 @@
     "es": "Alfarero",
     "en": "Potter"
    },
-   "color": "#8a6d4b"
+   "color": "#8a6d4b",
+   "img": "data/story/img/chichi.webp"
   },
   "baba": {
    "t": "おばあちゃん",
@@ -99,7 +100,8 @@
     "es": "Cuenta historias",
     "en": "Storyteller"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/baba.webp"
   },
   "tama": {
    "t": "タマ",
@@ -123,7 +125,8 @@
     "es": "Padre de Yuki",
     "en": "Yuki's father"
    },
-   "color": "#4f9a8a"
+   "color": "#4f9a8a",
+   "img": "data/story/img/isha.webp"
   },
   "okami": {
    "t": "女将",
@@ -135,7 +138,8 @@
     "es": "Posada del Tōkaidō",
     "en": "Tōkaidō inn"
    },
-   "color": "#c0634f"
+   "color": "#c0634f",
+   "img": "data/story/img/okami.webp"
   },
   "ryusai": {
    "t": "柳斎",
@@ -147,7 +151,8 @@
     "es": "Maestro de ukiyo-e",
     "en": "Ukiyo-e master"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "img": "data/story/img/ryusai.webp"
   },
   "kurokawa": {
    "t": "黒川",
@@ -159,7 +164,8 @@
     "es": "Comerciante sin escrúpulos",
     "en": "Unscrupulous merchant"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "img": "data/story/img/kurokawa.webp"
   },
   "narr": {
    "t": "",

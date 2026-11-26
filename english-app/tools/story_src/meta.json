@@ -100,7 +100,8 @@
     "es": "Cuenta historias",
     "en": "Storyteller"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/gran.webp"
   },
   "biscuit": {
    "t": "Biscuit",
@@ -124,7 +125,8 @@
     "es": "Fotógrafo",
     "en": "Photographer"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "img": "data/story/img/fenwick.webp"
   },
   "crane": {
    "t": "Mr Crane",
@@ -136,7 +138,8 @@
     "es": "Industrial sin escrúpulos",
     "en": "Ruthless industrialist"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "img": "data/story/img/crane.webp"
   },
   "narr": {
    "t": "",

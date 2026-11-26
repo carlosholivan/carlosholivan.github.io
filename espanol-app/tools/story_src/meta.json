@@ -99,7 +99,8 @@
     "es": "Cuenta historias",
     "en": "Storyteller"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/abuelo.webp"
   },
   "canelo": {
    "t": "Canelo",
@@ -123,7 +124,8 @@
     "es": "Impresor de Toledo",
     "en": "Toledo printer"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "img": "data/story/img/cosme.webp"
   },
   "bermudez": {
    "t": "Bermúdez",

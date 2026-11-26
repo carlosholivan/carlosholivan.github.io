@@ -99,7 +99,8 @@
     "es": "Cuenta historias",
     "en": "Storyteller"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/jadda.webp"
   },
   "barq": {
    "t": "بَرْق",
@@ -123,7 +124,8 @@
     "es": "Sabio y maestro",
     "en": "Scholar and teacher"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "img": "data/story/img/hakim.webp"
   },
   "marwan": {
    "t": "مَرْوَان",

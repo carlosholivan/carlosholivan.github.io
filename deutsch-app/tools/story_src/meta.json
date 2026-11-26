@@ -99,7 +99,8 @@
     "es": "Cuenta historias",
     "en": "Storyteller"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/oma.webp"
   },
   "struppi": {
    "t": "Struppi",
@@ -123,7 +124,8 @@
     "es": "Maestro carpintero",
     "en": "Master carpenter"
    },
-   "color": "#3f6b4f"
+   "color": "#3f6b4f",
+   "img": "data/story/img/huber.webp"
   },
   "vogt": {
    "t": "Herr Vogt",

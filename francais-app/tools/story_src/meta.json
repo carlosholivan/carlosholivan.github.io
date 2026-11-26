@@ -100,7 +100,8 @@
     "es": "Cocinera del pueblo",
     "en": "Village cook"
    },
-   "color": "#9b8ab8"
+   "color": "#9b8ab8",
+   "img": "data/story/img/memere.webp"
   },
   "pompon": {
    "t": "Pompon",
@@ -136,7 +137,8 @@
     "es": "Restaurador sin escrúpulos",
     "en": "Ruthless restaurateur"
    },
-   "color": "#5a5a5a"
+   "color": "#5a5a5a",
+   "img": "data/story/img/grimaud.webp"
   },
   "narr": {
    "t": "",
