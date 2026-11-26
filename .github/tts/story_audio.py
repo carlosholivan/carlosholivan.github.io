@@ -37,8 +37,9 @@ def assign(app, cast, voices, count, hero=None):
         c = cast[who].get('voice') or {'g': 'f', 'age': 'adult'}
         g, age = c['g'], c['age']
         pool = pools[g]
-        if age == 'kid':
-            pool = sorted(pool, key=lambda n: (not any(y in n for y in YOUNG)))
+        young = [n for n in pool if any(y in n for y in YOUNG)]
+        if age == 'kid': pool = young + [n for n in pool if n not in young]
+        elif len(young) < len(pool): pool = [n for n in pool if n not in young]   # child voices only for children
         key = (g, 'narr' if who == 'narr' else age)
         k = used.get(key, 0)
         used[key] = k + 1
