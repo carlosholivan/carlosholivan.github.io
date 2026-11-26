@@ -1,18 +1,18 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611261711';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611261711';
-import { buildReview } from '../engine/review.js?v=202611261711';
-import { addCards } from '../engine/anki.js?v=202611261711';
-import { register, go } from '../router.js?v=202611261711';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611261711';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611261711';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611261711';
-import { recordAnswer } from '../engine/srs.js?v=202611261711';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611261711';
-import { icon } from '../ui/icons.js?v=202611261711';
-import { t } from '../i18n.js?v=202611261711';
-import { speak, stop as stopAudio } from '../audio.js?v=202611261711';
-import { allHanzi } from './review.js?v=202611261711';
-import { charWord, hasChars } from '../chars.js?v=202611261711';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611261733';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611261733';
+import { buildReview } from '../engine/review.js?v=202611261733';
+import { addCards } from '../engine/anki.js?v=202611261733';
+import { register, go } from '../router.js?v=202611261733';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611261733';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611261733';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611261733';
+import { recordAnswer } from '../engine/srs.js?v=202611261733';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611261733';
+import { icon } from '../ui/icons.js?v=202611261733';
+import { t } from '../i18n.js?v=202611261733';
+import { speak, stop as stopAudio } from '../audio.js?v=202611261733';
+import { allHanzi } from './review.js?v=202611261733';
+import { charWord, hasChars } from '../chars.js?v=202611261733';
 
 const MAX_HEARTS = 5;
 
@@ -82,8 +82,8 @@ register('lesson', async (el, params) => {
 
   function stepper(active) {
     const steps = [
-      grammarHtml ? ['grammar', t('stepGrammar')] : null,
       words.length ? ['vocab', t('stepVocab')] : null,
+      grammarHtml ? ['grammar', t('stepGrammar')] : null,
       ['practice', t('stepPractice')],
     ].filter(Boolean);
     return `<div class="stepper">${steps.map(([id, label], i) =>
@@ -108,19 +108,21 @@ register('lesson', async (el, params) => {
   const unitTitle = tr(unit.title, lang);
 
   // ── Step 1: grammar ───────────────────────────────────────────
+  let grammarSeen = false;
   function renderGrammar() {
+    grammarSeen = true;
     window.__tutorTopic = `${unitTitle}: ${(unit.gnames || unit.grammar || []).join(', ')}`;
     el.innerHTML = `<div class="grammar-page fade">
       ${topBar(unitTitle, 'grammar')}
       <div class="grammar-section" onclick="window.__zhSpeak(event)">${grammarHtml}</div>
       <div class="mb-12">${tutorBtn(`window.__askAbout(window.__tutorTopic)`, 'askGrammar')}</div>
-      <button class="btn" onclick="window.__afterGrammar()">${words.length ? t('toVocab') : t('startExercises')}</button>
+      <button class="btn" onclick="window.__afterGrammar()">${t('startExercises')}</button>
     </div>`;
     window.scrollTo(0, 0);
   }
 
   window.__zhSpeak = (e) => { const z = e.target.closest('.zh'); if (z) speak(z.dataset.s || [...z.childNodes].map(n => n.nodeName === 'RUBY' ? n.firstChild.textContent : n.textContent).join('').trim()); };
-  window.__afterGrammar = () => words.length ? startVocab() : startPractice();
+  window.__afterGrammar = () => startPractice();
 
   // ── Step 2: vocabulary flashcards ─────────────────────────────
   function startVocab() {
@@ -160,6 +162,7 @@ register('lesson', async (el, params) => {
   window.__vocabGo = (i) => { vocabIdx = i; renderVocab(); };
   window.__vocabNext = () => {
     if (vocabIdx < words.length - 1) { vocabIdx++; renderVocab(); }
+    else if (grammarHtml && !grammarSeen) renderGrammar();
     else startPractice();
   };
 
@@ -528,7 +531,8 @@ register('lesson', async (el, params) => {
   const start = review || setNo > 1 ? 'practice' : params.start;
   if (start === 'practice') startPractice();
   else if (start === 'vocab' && words.length) startVocab();
-  else if (grammarHtml) renderGrammar();
+  // The words first (with audio: something to do from the first tap), then the grammar, then practice.
   else if (words.length) startVocab();
+  else if (grammarHtml) renderGrammar();
   else startPractice();
 });

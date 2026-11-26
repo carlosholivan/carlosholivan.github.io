@@ -2,17 +2,17 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611261711';
-import { S, update, completeUnit } from '../state.js?v=202611261711';
-import { register, go } from '../router.js?v=202611261711';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261711';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261711';
-import { addCards } from '../engine/anki.js?v=202611261711';
-import { unitVocab } from '../engine/exercises.js?v=202611261711';
-import { bottomNav } from '../ui/components.js?v=202611261711';
+import { CFG } from '../app-config.js?v=202611261733';
+import { S, update, completeUnit } from '../state.js?v=202611261733';
+import { register, go } from '../router.js?v=202611261733';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261733';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611261733';
+import { addCards } from '../engine/anki.js?v=202611261733';
+import { unitVocab } from '../engine/exercises.js?v=202611261733';
+import { bottomNav } from '../ui/components.js?v=202611261733';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, stop } from '../audio.js?v=202611261711';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261711';
+import { speak, stop } from '../audio.js?v=202611261733';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611261733';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -539,6 +539,7 @@ function css() {
 .tc-match{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tc-match>div{display:grid;gap:8px;align-content:start}
 .pt.cheer .pt-art{animation:tcj .6s ease}
 @keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
+body.sm-on #lang-switch{display:none}
 body.sm-on{background:radial-gradient(120% 80% at 50% -10%,#21376b 0%,#0f1d42 45%,#081128 100%) fixed !important;color:#eef2ff}
 body.sm-on #app,body.sm-on main,body.sm-on .page{background:transparent !important}
 #sm-sky{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:52}

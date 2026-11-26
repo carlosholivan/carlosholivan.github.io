@@ -272,7 +272,8 @@ function saveChoice() {
 
 onAuthStateChanged(auth, u => {
   user = u;
-  if (!u) { cloud = {}; return get(GUEST) === '1' ? flow() : authView('login'); }
+  // No sign-in wall: newcomers start straight away; the bar on top offers signing in to sync progress.
+  if (!u) { cloud = {}; if (get(GUEST) !== '1') { set(GUEST, '1'); if (next) return location.replace(next); } return flow(); }
   if (!isVerified(u)) return verifyView();
   signedIn();
 });
