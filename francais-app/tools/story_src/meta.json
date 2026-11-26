@@ -259,5 +259,15 @@
     "#e8a3a3"
    ]
   }
+ },
+ "hero3d": {
+  "style": "beret",
+  "hat": "#6b3d2a",
+  "hair": "#5a3a22",
+  "top": "#4f78b5",
+  "bottom": "#3b3a4a",
+  "accent": "#3d64a0",
+  "scarfNeck": "#c8423a",
+  "skin": "#f1c9a5"
  }
 }

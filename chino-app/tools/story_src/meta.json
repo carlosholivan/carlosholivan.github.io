@@ -340,5 +340,14 @@
     "#d9a441"
    ]
   }
+ },
+ "hero3d": {
+  "style": "topknot",
+  "top": "#6f8fae",
+  "bottom": "#4a4f5e",
+  "accent": "#c9503f",
+  "strawHat": true,
+  "hair": "#2a1d17",
+  "skin": "#f1c8a0"
  }
 }

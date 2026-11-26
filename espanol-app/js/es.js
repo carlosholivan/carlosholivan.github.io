@@ -1,6 +1,6 @@
 // Spanish text helpers. Same API as zh.js / ja.js / ar.js in the sibling apps, so the shared views work
 // unchanged: Spanish needs no reading aid, so ruby() is plain escaped text and the pinyin helpers are no-ops.
-import { S } from './state.js?v=202611262115';
+import { S } from './state.js?v=202611262225';
 
 export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

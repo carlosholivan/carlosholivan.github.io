@@ -258,5 +258,15 @@
     "#e8a3a3"
    ]
   }
+ },
+ "hero3d": {
+  "style": "scarf",
+  "hat": "#e8a33c",
+  "top": "#3d3f8f",
+  "skirt": "#3d3f8f",
+  "bottom": "#3d3f8f",
+  "accent": "#c0392b",
+  "skin": "#b7835a",
+  "bag": "#7a5230"
  }
 }

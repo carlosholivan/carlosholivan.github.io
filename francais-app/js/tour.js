@@ -1,7 +1,7 @@
 // First-run guided tour: one screen at a time, the place to look framed in black with an arrow,
 // "Next" / "Back" / "Skip". It runs once per app (and again from Settings) and ends on Mochi's welcome.
-import { S } from './state.js?v=202611262115';
-import { go } from './router.js?v=202611262115';
+import { S } from './state.js?v=202611262225';
+import { go } from './router.js?v=202611262225';
 
 const APP = (location.pathname.match(/([\w-]+)-app\//) || [])[1] || 'app';
 const DONE = `tour_done_${APP}`;

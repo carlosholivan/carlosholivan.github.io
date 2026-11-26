@@ -2,16 +2,16 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611262115';
-import { S, update, completeUnit } from '../state.js?v=202611262115';
-import { register, go } from '../router.js?v=202611262115';
-import { LEVELS, levelLabel } from '../levels.js?v=202611262115';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262115';
-import { addCards } from '../engine/anki.js?v=202611262115';
-import { unitVocab } from '../engine/exercises.js?v=202611262115';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611262115';
-import { speak, speakAs, stop } from '../audio.js?v=202611262115';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611262115';
+import { CFG } from '../app-config.js?v=202611262224';
+import { S, update, completeUnit } from '../state.js?v=202611262224';
+import { register, go } from '../router.js?v=202611262224';
+import { LEVELS, levelLabel } from '../levels.js?v=202611262224';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262224';
+import { addCards } from '../engine/anki.js?v=202611262224';
+import { unitVocab } from '../engine/exercises.js?v=202611262224';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611262224';
+import { speak, speakAs, stop } from '../audio.js?v=202611262224';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611262224';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -35,6 +35,7 @@ const TX = {
   finale: { es: 'Final del capítulo', en: 'Chapter finale' }, scene: { es: 'escena', en: 'scene' },
   words: { es: 'Palabras de esta escena', en: 'Words in this scene' }, wordsSub: { es: 'Repásalas antes de empezar: aparecen en el diálogo.', en: 'Review them first: they appear in the dialogue.' },
   play: { es: 'Empezar la escena', en: 'Start the scene' },
+  drag: { es: 'Desliza para recorrer el camino · toca un santuario', en: 'Drag to travel the path · tap a shrine' }, locked: { es: 'Completa antes el episodio anterior', en: 'Finish the previous episode first' },
   trial: { es: 'Empezar el reto', en: 'Start the challenge' }, trialAgain: { es: 'Repetir el reto', en: 'Redo the challenge' },
   dares: { es: 'te reta', en: 'challenges you' }, full: { es: 'Práctica completa en modo estudio', en: 'Full practice in study mode' },
   good: { es: '¡Muy bien!', en: 'Well done!' }, bad: { es: 'Casi. La respuesta era:', en: 'Not quite. The answer was:' },
@@ -186,9 +187,27 @@ async function map(m) {
     </div>
   </div>${bottomNav('home')}`;
   root.querySelector('.sm-world').style.height = `${ns.length * 162 + 90}px`;
+  // The 3D world (shared module in /idiomas/), with this 2D map as the fallback when WebGL is not available.
+  const flat = root.querySelector('.sm-world');
+  const w3 = await import('../../../idiomas/world3d.js').catch(() => null);
+  if (!flat.isConnected) return;                 // the screen changed while the 3D module was loading
+  if (w3 && w3.webgl() && S.story3d !== false) {
+    const box = document.createElement('div'); box.className = 'sm-world3d';
+    box.innerHTML = `<div class="sm-hint">${tx('drag')}</div><button class="chip sm-2d" onclick="window.__sm3d(false)">🗺️ 2D</button>`;
+    flat.replaceWith(box);
+    w3.mountWorld(box, {
+      nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock' })),
+      accent: bg, heroStyle: m.hero3d,
+      onOpen: key => window.__smOpen(key),
+      onLocked: () => { const h = box.querySelector('.sm-hint'); h.textContent = '🔒 ' + tx('locked'); h.classList.add('on'); setTimeout(() => { h.textContent = tx('drag'); h.classList.remove('on'); }, 1800); },
+    });
+    return;
+  }
+  if (w3 && w3.webgl()) root.querySelector('.sm-top .flex').insertAdjacentHTML('afterbegin', `<button class="chip" onclick="window.__sm3d(true)">🏔️ 3D</button>`);
   const c = root.querySelector('.sm-node.cur');
   if (c) setTimeout(() => c.scrollIntoView({ block: 'center', behavior: 'smooth' }), 150);
 }
+window.__sm3d = on => { update({ story3d: on }); map(META); };
 function pathD(n) {
   let d = 'M50 2';
   for (let i = 0; i < n; i++) d += ` L${[50, 24, 50, 76][i % 4]} ${i * 18 + 5.6}`;
@@ -539,6 +558,11 @@ function css() {
 .pt.cheer .pt-art{animation:tcj .6s ease}
 @keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
 body.sm-on #lang-switch{display:none}
+.sm-world3d{position:relative;height:calc(100vh - 360px);min-height:360px;margin:8px -16px 0;border-radius:22px 22px 0 0;overflow:hidden;background:#0f1d42}
+.sm-world3d canvas{display:block;width:100%;height:100%}
+.sm-hint{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:2;font-size:12px;color:#dfe6ff;background:rgba(10,16,40,.55);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px);white-space:nowrap;transition:background .2s}
+.sm-hint.on{background:rgba(160,60,60,.75)}
+.sm-2d{position:absolute;right:12px;top:12px;z-index:2}
 body.sm-on{background:radial-gradient(120% 80% at 50% -10%,#21376b 0%,#0f1d42 45%,#081128 100%) fixed !important;color:#eef2ff}
 body.sm-on #app,body.sm-on main,body.sm-on .page{background:transparent !important}
 #sm-sky{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:52}

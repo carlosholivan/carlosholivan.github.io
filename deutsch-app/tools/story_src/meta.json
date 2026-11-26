@@ -258,5 +258,15 @@
     "#ffcf8a"
    ]
   }
+ },
+ "hero3d": {
+  "style": "short",
+  "hair": "#e5c36a",
+  "top": "#7a6a3f",
+  "sleeve": "#f2efe6",
+  "bottom": "#4a5568",
+  "accent": "#6a5a35",
+  "bag": "#6b4a2e",
+  "skin": "#f5d5bd"
  }
 }

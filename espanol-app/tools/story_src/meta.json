@@ -258,5 +258,14 @@
     "#e8a3a3"
    ]
   }
+ },
+ "hero3d": {
+  "style": "curly",
+  "hair": "#3a2416",
+  "top": "#f3ede0",
+  "skirt": "#d19a32",
+  "bottom": "#d19a32",
+  "accent": "#f6f1e6",
+  "skin": "#e8b98f"
  }
 }

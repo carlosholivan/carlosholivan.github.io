@@ -276,5 +276,15 @@
     "#8fc1d9"
    ]
   }
+ },
+ "hero3d": {
+  "style": "braid",
+  "hair": "#c0602a",
+  "top": "#2c3e6b",
+  "skirt": "#2c3e6b",
+  "bottom": "#3a3550",
+  "accent": "#24345c",
+  "scarfNeck": "#c94a3f",
+  "skin": "#f5d3b8"
  }
 }

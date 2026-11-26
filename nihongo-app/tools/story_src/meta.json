@@ -283,5 +283,13 @@
     "#e8a3a3"
    ]
   }
+ },
+ "hero3d": {
+  "style": "messy",
+  "top": "#2f3f7a",
+  "bottom": "#2b2b3a",
+  "accent": "#e6c27a",
+  "hair": "#17141c",
+  "skin": "#f3cfaa"
  }
 }

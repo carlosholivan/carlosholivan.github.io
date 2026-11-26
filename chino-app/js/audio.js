@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611262115';
-import { gemini, playBlob } from './gemini-tts.js?v=202611262115';
+import { S } from './state.js?v=202611262224';
+import { gemini, playBlob } from './gemini-tts.js?v=202611262224';
 
 // Optional Gemini voice with the user's own key (gemini-tts.js) for everything but the isolated tone
 // syllables of the pronunciation drills (speakAsync), which keep the recordings. Falls back to them.
