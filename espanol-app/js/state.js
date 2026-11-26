@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611262231';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611262243';
 
 const STORAGE_KEY = 'español_state';   // same key as the first version of the app, so local progress is kept
 
@@ -134,6 +134,8 @@ export function mergeCloudState(cloudState) {
     const cd = cloudState[k], ld = S[k];
     if (cd && (!ld || cd.date > ld.date || (cd.date === ld.date && cd.n > ld.n))) merged[k] = cd;
   }
+  if (cloudState.rew && ((cloudState.rew.t || 0) > ((S.rew || {}).t || 0))) merged.rew = cloudState.rew;
+  if (cloudState.story && !S.story) merged.story = cloudState.story;
   merged.completed = { ...S.completed, ...(cloudState.completed || {}) };
   merged.sets = { ...(cloudState.sets || {}) };
   for (const [k, v] of Object.entries(S.sets || {})) merged.sets[k] = [...new Set([...(merged.sets[k] || []), ...v])].sort((a, b) => a - b);
@@ -181,7 +183,11 @@ function updateStreak() {
   const today = new Date().toISOString().slice(0, 10);
   if (S.lastDay === today) return;
   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  S.streak = (S.lastDay === yesterday) ? S.streak + 1 : 1;
+  const dayBefore = new Date(Date.now() - 2 * 86400000).toISOString().slice(0, 10);
+  // A streak shield (bought in the story shop) saves the streak when exactly one day was missed.
+  const shielded = S.lastDay === dayBefore && (S.rew?.shield || 0) > 0;
+  if (shielded) S.rew = { ...S.rew, shield: S.rew.shield - 1, t: Date.now() };
+  S.streak = (S.lastDay === yesterday || shielded) ? S.streak + 1 : 1;
   S.lastDay = today;
 }
 
