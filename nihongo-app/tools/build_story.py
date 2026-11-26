@@ -22,6 +22,10 @@ except ImportError:
     story_lang = None
 
 
+_meta = f'{HERE}/story_src/meta.json'
+GLOSS = (json.load(open(_meta, encoding='utf8')).get('gloss') if os.path.exists(_meta) else None) or 'en'   # language of "target | gloss" lines
+
+
 def add_segs(o):
     """Attach precomputed ruby segments ('s') to every {'t': …} in the structure, when the language has a hook."""
     if not story_lang: return
@@ -35,8 +39,10 @@ def add_segs(o):
 
 
 def tri(s):
+    """"target | es | en", or "target | gloss" (gloss language = meta.json "gloss", default en) when one translation is enough."""
     p = [x.strip() for x in s.split('|')]
-    if len(p) != 3: raise ValueError(f'expected "target | es | en": {s!r}')
+    if len(p) == 2: return p[0], {GLOSS: p[1]}
+    if len(p) != 3: raise ValueError(f'expected "target | es | en" (or "target | en"): {s!r}')
     return p[0], {'es': p[1], 'en': p[2]}
 
 
@@ -57,7 +63,8 @@ def build(path):
             s = line.strip()
             if s == '--': blk['_part'] = 'outro'; continue
             if s.startswith('mission:'):
-                es, en = [x.strip() for x in s[8:].split('|')]; blk['mission'] = {'es': es, 'en': en}; continue
+                mp = [x.strip() for x in s[8:].split('|')]
+                blk['mission'] = {'es': mp[0], 'en': mp[-1]}; continue
             if s.startswith('gift:'):
                 t, tr = tri(s[5:]); out['gift'] = {'t': t, 'tr': tr}; continue
             if s.startswith('?'):

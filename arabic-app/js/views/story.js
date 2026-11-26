@@ -3,14 +3,14 @@
 // "mission" that starts the normal lesson, and closes with a short scene when the lesson is completed.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
 // Art is provisional (portrait placeholders) until the illustrations are made.
-import { CFG } from '../app-config.js?v=202611261240';
-import { S, update } from '../state.js?v=202611261240';
-import { register, go } from '../router.js?v=202611261240';
-import { LEVELS, levelLabel } from '../levels.js?v=202611261240';
-import { loadUnits } from '../data.js?v=202611261240';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611261240';
-import { speak, stop } from '../audio.js?v=202611261240';
-import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611261240';
+import { CFG } from '../app-config.js?v=202611261300';
+import { S, update } from '../state.js?v=202611261300';
+import { register, go } from '../router.js?v=202611261300';
+import { LEVELS, levelLabel } from '../levels.js?v=202611261300';
+import { loadUnits, loadVocab } from '../data.js?v=202611261300';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611261300';
+import { speak, stop } from '../audio.js?v=202611261300';
+import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611261300';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -31,7 +31,9 @@ const TX = {
   unlocked: { es: 'Desbloqueado', en: 'Unlocked' }, cont: { es: 'Continuar la historia', en: 'Continue the story' },
   life: { es: 'Tu historia', en: 'Your story' }, art: { es: 'Arte provisional', en: 'Provisional art' },
   soon: { es: 'Este capítulo se está escribiendo.', en: 'This chapter is being written.' },
-  finale: { es: 'Final del capítulo', en: 'Chapter finale' }, scene: { es: 'escena', en: 'scene' }, gift: { es: 'Regalo', en: 'Gift' },
+  finale: { es: 'Final del capítulo', en: 'Chapter finale' }, scene: { es: 'escena', en: 'scene' },
+  words: { es: 'Palabras de esta escena', en: 'Words in this scene' }, wordsSub: { es: 'Repásalas antes de empezar: aparecen en el diálogo.', en: 'Review them first: they appear in the dialogue.' },
+  play: { es: 'Empezar la escena', en: 'Start the scene' }, gift: { es: 'Regalo', en: 'Gift' },
 };
 const tx = k => L(TX[k]);
 
@@ -65,9 +67,44 @@ function levelOpen(lv, units) {
 }
 
 let root = null, level = null;
+
+// ---------- the night sky: navy background with tiny falling snowflakes (canvas, stops when leaving the view) ----------
+function sky() {
+  document.body.classList.add('sm-on');
+  if (document.getElementById('sm-sky')) return;
+  const c = document.createElement('canvas');
+  c.id = 'sm-sky';
+  document.body.prepend(c);
+  const ctx = c.getContext('2d');
+  const dpr = Math.min(2, window.devicePixelRatio || 1);
+  let W = 0, H = 0, flakes = [];
+  const size = () => { W = c.width = innerWidth * dpr; H = c.height = innerHeight * dpr; };
+  size(); addEventListener('resize', size);
+  const N = Math.round(Math.min(140, innerWidth * innerHeight / 9000));
+  for (let k = 0; k < N; k++) flakes.push({ x: Math.random(), y: Math.random(), r: .5 + Math.random() * 1.6, v: .00025 + Math.random() * .0007, d: Math.random() * 6.28, o: .35 + Math.random() * .55 });
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const tick = () => {
+    if (!document.querySelector('[data-sm]')) { c.remove(); document.body.classList.remove('sm-on'); removeEventListener('resize', size); return; }
+    ctx.clearRect(0, 0, W, H);
+    for (const f of flakes) {
+      if (!reduce) { f.y += f.v; f.d += .01; f.x += Math.sin(f.d) * .0002; if (f.y > 1.02) { f.y = -.02; f.x = Math.random(); } }
+      ctx.globalAlpha = f.o; ctx.fillStyle = '#fff';
+      ctx.beginPath(); ctx.arc(f.x * W, f.y * H, f.r * dpr, 0, 6.29); ctx.fill();
+    }
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+// Chapter accent colours (from meta), used for glows and the landscape.
+const accent = () => (((META || {}).chapters || {})[level] || {}).bg || ['#7fb0ff', '#9fd0a0'];
+// Distant landscape silhouettes, tinted with the chapter colours.
+const hills = () => { const [a, b] = accent(); return `<svg class="sm-hills" viewBox="0 0 400 140" preserveAspectRatio="none">
+  <path d="M0 90 Q60 40 120 80 T240 70 T400 60 V140 H0Z" fill="${a}" opacity=".22"/>
+  <path d="M0 110 Q80 70 170 100 T320 95 T400 90 V140 H0Z" fill="${b}" opacity=".30"/>
+  <path d="M0 128 Q100 105 200 122 T400 118 V140 H0Z" fill="#0a1330" opacity=".9"/></svg>`; };
 register('story', async (el, params = {}) => {
   root = el;
-  css();
+  css(); sky();
   update({ mode: 'story' });
   await Promise.all([pyReady, sylReady]);
   const m = await meta();
@@ -101,7 +138,7 @@ async function map(m) {
   const units = allUnits[level] || [];
   const ch = await chapter(level);
   if (ch && ch.intro && ch.intro.length && !st().seen[`${level}-intro`]) {        // the chapter's opening scene, once
-    return player(ch.intro, { after: () => { saveSt({ seen: { ...st().seen, [`${level}-intro`]: 1 } }); map(m); } });
+    return vocabScreen(ch.intro, [units.length ? units[0].id : 1], () => player(ch.intro, { after: () => { saveSt({ seen: { ...st().seen, [`${level}-intro`]: 1 } }); map(m); } }));
   }
   const info = (m.chapters || {})[level] || {};
   const ns = nodesOf(units, ch);
@@ -115,7 +152,7 @@ async function map(m) {
       <span>${done ? '★' : isCur ? '▶' : '🔒'}</span><small>${i + 1}</small>${part}</div>`;
   });
   const bg = info.bg || ['#bfe7ff', '#a6dc78'];
-  root.innerHTML = `<div class="fade sm">
+  root.innerHTML = `<div class="fade sm" data-sm>
     <div class="sm-top">
       <button class="chip" onclick="window.__smStudy()">📖 ${tx('study')}</button>
       <div class="flex gap-8">${pyToggle()}<button class="chip" onclick="window.__smLife()">🧭 ${tx('life')}</button></div>
@@ -127,14 +164,13 @@ async function map(m) {
       <div class="muted">${esc(L(info.n))}</div>
       ${ch ? '' : `<div class="small mt-8" style="color:var(--no)">${tx('soon')}</div>`}
     </div>
-    <div class="sm-world" style="background:linear-gradient(${bg[0]}, ${bg[1]})">
+    <div class="sm-world" style="--a:${bg[0]};--b:${bg[1]}">
       <svg class="sm-path" viewBox="0 0 100 ${ns.length * 18 + 10}" preserveAspectRatio="none">
-        <path d="${pathD(ns.length)}" stroke="rgba(255,255,255,.8)" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
-        <path d="${pathD(ns.length)}" stroke="rgba(0,0,0,.12)" stroke-width="3" fill="none" stroke-dasharray="2 12" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
+        <path d="${pathD(ns.length)}" stroke="${bg[0]}" stroke-opacity=".18" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+        <path d="${pathD(ns.length)}" stroke="rgba(255,255,255,.55)" stroke-width="3" fill="none" stroke-dasharray="1 10" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
       ${nodes.join('')}
       <div class="sm-end" style="top:${ns.length * 162 + 20}px">🏁 ${tx('finale')}</div>
     </div>
-    <div class="muted small center mt-8">🎨 ${tx('art')}</div>
   </div>${bottomNav('home')}`;
   root.querySelector('.sm-world').style.height = `${ns.length * 162 + 90}px`;
   const c = root.querySelector('.sm-node.cur');
@@ -164,8 +200,43 @@ window.__smOpen = async key => {
   const seenKey = `${level}-${key}-i`;
   // An episode of several lessons plays its opening scene once; afterwards it opens on the mission.
   if (!n.sc || (n.units.length > 1 && st().seen[seenKey])) return missionScreen(n);
-  player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => { saveSt({ seen: { ...st().seen, [seenKey]: 1 } }); missionScreen(n); } });
+  const go2 = () => player(n.sc.intro || [], { choice: n.sc.choice, choiceKey: `${level}-${key}`, after: () => { saveSt({ seen: { ...st().seen, [seenKey]: 1 } }); missionScreen(n); } });
+  vocabScreen(sceneLines(n.sc), n.units.map(u => u.id), go2);
 };
+const sceneLines = sc => (sc.intro || []).concat(sc.choice ? [sc.choice.q || {}].concat(sc.choice.options || [], ...(sc.choice.options || []).map(o => o.reply || [])) : [], sc.outro || []);
+
+// ---------- vocabulary before a scene: the words of these lessons (and earlier ones) that appear in the dialogue ----------
+const VOC = {};
+const plain = t => String(t || '').normalize('NFC').replace(/[\u064B-\u0652\u0670]/g, '').toLowerCase();   // Arabic: ignore vowel marks
+async function vocabScreen(lines, unitIds, next) {
+  let list = [];
+  try {
+    const vocab = VOC[level] || (VOC[level] = await loadVocab(level));
+    const text = plain(lines.map(l => l && l.t).filter(Boolean).join(' \n '));
+    const latin = /^[a-zà-ÿäöüßœæ' -]+$/i;
+    const has = w => { const p = plain(w); if (!p || p.length < 2 && !/[\u3400-\u9fff]/.test(p)) return false;
+      return latin.test(p) ? new RegExp(`(^|[^a-zà-ÿäöüß])${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-zà-ÿäöüß]|$)`, 'i').test(text) : text.includes(p); };
+    const ids = unitIds.map(Number);
+    const maxU = Math.max(...ids);
+    const pool = vocab.filter(v => v.unit <= maxU);
+    const inScene = pool.filter(v => has(v.word || v.w));
+    inScene.sort((a, b) => (ids.includes(b.unit) - ids.includes(a.unit)) || (plain(b.word).length - plain(a.word).length));
+    const seen = new Set();
+    for (const v of inScene) { const k = plain(v.word); if (!seen.has(k)) { seen.add(k); list.push(v); } if (list.length >= 12) break; }
+  } catch (e) { list = []; }
+  if (!list.length) return next();
+  stop();
+  window.__stVoc = next;
+  window.__stWord = k => speak(list[k].word || list[k].w);
+  root.innerHTML = `<div class="fade sv" data-sm>
+    <div class="sv-head"><div class="sv-k">📖 ${tx('words')}</div><div class="sv-sub">${tx('wordsSub')}</div></div>
+    <div class="sv-grid">${list.map((v, k) => `<button class="sv-card" style="--i:${k}" onclick="window.__stWord(${k})">
+      <div class="sv-w" lang="${LG}">${T(v.word || v.w)}</div>
+      ${v.p && v.p !== (v.word || v.w) && LG !== 'zh' && LG !== 'ar' ? `<div class="sv-p">${esc(v.p)}</div>` : ''}
+      <div class="sv-m">${esc(L(v.m))}</div><span class="sv-a">🔊</span></button>`).join('')}</div>
+    <button class="btn sv-go" onclick="window.__stVoc()">${tx('play')} ▶</button>
+  </div>`;
+}
 
 function missionScreen(n) {
   stop();
@@ -176,7 +247,7 @@ function missionScreen(n) {
     return `<button class="sm-urow ${d ? 'done' : isNext ? 'cur' : 'lock'}" ${d || isNext ? `onclick="window.__smLesson('${u.id}')"` : 'disabled'}>
       <i>${d ? '✓' : isNext ? '▶' : '·'}</i><span>${tx('lesson')} ${esc(u.id)} · ${esc(L(u.title))}</span></button>`;
   }).join('')}</div>` : `<div class="muted small mt-8">${tx('lesson')} ${esc(next.id)} · ${esc(L(next.title))}</div>`;
-  root.innerHTML = `<div class="fade sm-mission">
+  root.innerHTML = `<div class="fade sm-mission" data-sm>
     <div class="card sm-mcard">
       <div class="small" style="color:var(--accent);font-weight:800;letter-spacing:.06em">🎯 ${tx('mission').toUpperCase()}</div>
       <div class="h3 mt-8">${esc(L(sc && sc.mission) || L(next.desc))}</div>
@@ -206,9 +277,11 @@ function player(lines, opts = {}) {
     }
     const ln = queue[i], who = (m.cast || {})[ln.who] || {};
     const narr = ln.who === 'narr';
-    root.innerHTML = `<div class="sp-scene" onclick="window.__stNext()">
-      <div class="sp-top"><span class="chip">${tx('mode')}</span><span class="flex gap-8">${pyToggle()}<button class="chip" onclick="event.stopPropagation();window.__stSkip()">${tx('skip')} ⏭</button></span></div>
-      <div class="sp-stage">${narr ? '' : portrait(ln.who, who)}</div>
+    const prevWho = i > 0 && queue[i - 1] && queue[i - 1].who;
+    root.innerHTML = `<div class="sp-scene" data-sm onclick="window.__stNext()">
+      <div class="sp-top"><span class="chip sp-chip">${tx('mode')}</span><span class="flex gap-8">${pyToggle()}<button class="chip sp-chip" onclick="event.stopPropagation();window.__stSkip()">${tx('skip')} ⏭</button></span></div>
+      <div class="sp-stage"><div class="sp-moon" style="--a:${accent()[0]}"></div>${hills()}${narr ? '' : portrait(ln.who, who, prevWho !== ln.who)}</div>
+      <div class="sp-prog"><i style="width:${Math.round(100 * (i + 1) / queue.length)}%"></i></div>
       <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__stNext()">
         ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${T(who.t || '', who.s)} ${esc(L(who.n))}</div>`}
         <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
@@ -222,8 +295,9 @@ function player(lines, opts = {}) {
   const choiceView = () => {
     chose = true;
     const c = opts.choice;
-    root.innerHTML = `<div class="sp-scene">
-      <div class="sp-top"><span class="chip">${tx('mode')}</span>${pyToggle()}</div>
+    root.innerHTML = `<div class="sp-scene" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">${tx('mode')}</span>${pyToggle()}</div>
+      <div class="sp-stage"><div class="sp-moon" style="--a:${accent()[0]}"></div>${hills()}</div>
       <div class="sp-box">
         <div class="small muted mb-8">💬 ${tx('choose')}</div>
         ${c.q ? `<div class="sp-line">${T(c.q.t, c.q.s)}</div><div class="sp-tr">${esc(L(c.q.tr))}</div>` : ''}
@@ -245,9 +319,12 @@ function player(lines, opts = {}) {
   show();
 }
 
-function portrait(id, who) {
+function portrait(id, who, enter) {
   const c = who.color || '#9c7842';
-  return `<div class="pt" style="--c:${c}"><div class="pt-face">${T(who.t || '?', who.s).replace(/<rt>.*?<\/rt>/g, '')}</div><div class="pt-tag">${esc(L(who.role) || '')}</div></div>`;
+  const sil = `<svg class="pt-sil" viewBox="0 0 120 140"><defs><linearGradient id="g${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c}"/><stop offset="1" stop-color="#0b1530"/></linearGradient></defs>
+    <circle cx="60" cy="46" r="26" fill="url(#g${id})"/><path d="M14 140 C16 98 36 80 60 80 C84 80 104 98 106 140Z" fill="url(#g${id})"/></svg>`;
+  const art = who.img ? `<img class="pt-img" src="${who.img}" alt="" onerror="this.replaceWith(document.createRange().createContextualFragment(this.dataset.sil))" data-sil='${sil.replace(/'/g, '&#39;')}'>` : sil;
+  return `<div class="pt ${enter ? 'enter' : ''}" style="--c:${c}"><div class="pt-glow"></div><div class="pt-art">${art}</div><div class="pt-tag">${esc(L(who.role) || '')}</div></div>`;
 }
 
 // ---------- chapter reward ----------
@@ -255,7 +332,7 @@ async function reward() {
   const m = await meta(), ch = await chapter(level), info = (m.chapters || {})[level] || {};
   const s = st(), next = LEVELS[LEVELS.indexOf(level) + 1], ni = next && (m.chapters || {})[next];
   stop();
-  root.innerHTML = `<div class="fade sm-reward">
+  root.innerHTML = `<div class="fade sm-reward" data-sm>
     <div class="center"><div class="small" style="font-weight:800;letter-spacing:.08em;color:#8b5e1a">${tx('done').toUpperCase()}</div>
       <div class="h1 mt-8">${info.t ? T(info.t, info.s) : ''}</div><div style="font-size:40px;margin-top:6px">⭐⭐⭐</div></div>
     <div class="card sm-rrow"><div style="font-size:28px">💛</div><div><b>${tx('friends')}</b><div class="small muted">${Object.entries(s.friend || {}).map(([k, v]) => `${esc(L((m.cast[k] || {}).n) || k)} ${'♥'.repeat(Math.min(5, v))}`).join(' · ') || '—'}</div></div></div>
@@ -270,7 +347,7 @@ window.__smLife = async () => {
   const m = await meta();
   const allUnits = {};
   await Promise.all(LEVELS.map(async x => { allUnits[x] = await loadUnits(x).catch(() => []); }));
-  root.innerHTML = `<div class="fade sm-life">
+  root.innerHTML = `<div class="fade sm-life" data-sm>
     <button class="chip" onclick="window.__go('story',{level:'${level}'})">← ${tx('toMap')}</button>
     <div class="small mt-16" style="opacity:.8;letter-spacing:.08em">${esc(L(m.title)).toUpperCase()}</div>
     <div class="h1 mt-4">${esc(L(m.subtitle))}</div>
@@ -293,44 +370,90 @@ function css() {
   const s = document.createElement('style');
   s.id = 'sm-css';
   s.textContent = `
+body.sm-on{background:radial-gradient(120% 80% at 50% -10%,#21376b 0%,#0f1d42 45%,#081128 100%) fixed !important;color:#eef2ff}
+body.sm-on #app,body.sm-on main,body.sm-on .page{background:transparent !important}
+#sm-sky{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:52}
+[data-sm]{position:relative;z-index:1}
+body.sm-on .bottom-nav,body.sm-on nav{z-index:20}
 .sm{padding-bottom:100px}.sm-top{display:flex;justify-content:space-between;align-items:center;padding:14px 0 8px}
-.sm-levels{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px}.sm-levels .chip{flex:none}.sm-levels .locked{opacity:.55}
-.sm-head{padding:14px 16px;margin:6px 0 12px}.sm-title{font-size:22px;font-weight:800;margin:4px 0}
-.sm-world{position:relative;border-radius:24px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(0,0,0,.04)}
-.sm-path{position:absolute;inset:0;width:100%;height:100%}
-.sm-node{position:absolute;transform:translateX(-50%);width:62px;height:62px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;
-  color:#fff;font-weight:900;font-size:20px;box-shadow:0 6px 0 rgba(0,0,0,.18);cursor:pointer}
+body.sm-on [data-sm] .chip,body.sm-on [data-sm] .chip *{color:#e8eeff !important}
+body.sm-on [data-sm] .chip{background:rgba(255,255,255,.08) !important;border:1px solid rgba(255,255,255,.18) !important;backdrop-filter:blur(6px)}
+body.sm-on [data-sm] .chip.on{background:#ffd36b !important;border-color:#ffd36b !important}body.sm-on [data-sm] .chip.on,body.sm-on [data-sm] .chip.on *{color:#1b2340 !important}
+[data-sm] .tr{color:#ffd98a !important;opacity:.9}[data-sm] .ar{color:inherit}
+.sm-levels{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px}.sm-levels .chip{flex:none}.sm-levels .locked{opacity:.5}
+.glass,.sm-head,.sm-mcard,.sm-rrow{background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.04)) !important;border:1px solid rgba(255,255,255,.16) !important;
+  box-shadow:0 20px 40px -18px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.18) !important;backdrop-filter:blur(10px);color:#eef2ff;border-radius:22px}
+.sm-head{padding:16px 18px;margin:6px 0 14px}.sm-title{font-size:23px;font-weight:800;margin:4px 0;letter-spacing:.01em}
+body.sm-on .muted{color:rgba(225,232,255,.68) !important}
+.sm-world{position:relative;border-radius:28px;overflow:hidden;perspective:900px;
+  background:radial-gradient(70% 40% at 50% 0%,color-mix(in srgb,var(--a) 30%,transparent),transparent),linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.01));
+  border:1px solid rgba(255,255,255,.1);box-shadow:inset 0 0 60px rgba(0,0,0,.35)}
+.sm-path{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 0 8px rgba(255,255,255,.25))}
+.sm-node{position:absolute;transform:translateX(-50%);width:66px;height:66px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#fff;font-weight:900;font-size:20px;cursor:pointer;transition:transform .2s}
+.sm-node::after{content:'';position:absolute;left:50%;bottom:-14px;width:54px;height:12px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(rgba(0,0,0,.45),transparent 70%)}
+.sm-node:hover{transform:translateX(-50%) translateY(-3px) scale(1.05)}
 .sm-node small{font-size:11px;opacity:.9;margin-top:-2px}
-.sm-node em{position:absolute;bottom:-20px;font-style:normal;font-size:11px;font-weight:800;background:rgba(0,0,0,.45);color:#fff;border-radius:999px;padding:1px 7px}
+.sm-node em{position:absolute;bottom:-26px;font-style:normal;font-size:11px;font-weight:800;background:rgba(10,18,45,.8);color:#fff;border-radius:999px;padding:1px 8px;border:1px solid rgba(255,255,255,.2)}
+.sm-node.done{background:radial-gradient(circle at 32% 28%,#fff6c8,#ffcc4d 38%,#c98a12 80%);box-shadow:0 0 18px rgba(255,204,77,.55),inset 0 -6px 10px rgba(0,0,0,.25);color:#5a3900}
+.sm-node.cur{background:radial-gradient(circle at 32% 28%,#e6f2ff,#7fb0ff 40%,#2f5fb8 85%);box-shadow:0 0 0 6px rgba(127,176,255,.25),0 0 30px rgba(127,176,255,.8),inset 0 -6px 10px rgba(0,0,0,.25);animation:smPulse 1.8s infinite}
+.sm-node.lock{background:radial-gradient(circle at 32% 28%,#8a93b5,#4a5478 55%,#2a3150);box-shadow:inset 0 -6px 10px rgba(0,0,0,.35);color:rgba(255,255,255,.7);font-size:16px}
+@keyframes smPulse{50%{transform:translateX(-50%) translateY(-4px) scale(1.06)}}
+.sm-end{position:absolute;left:50%;transform:translateX(-50%);background:linear-gradient(#ff8a6b,#d9453a);color:#fff;font-weight:800;padding:10px 18px;border-radius:999px;box-shadow:0 0 24px rgba(255,120,90,.5)}
 .sm-ulist{display:flex;flex-direction:column;gap:6px;text-align:left;max-height:46vh;overflow:auto}
-.sm-urow{display:flex;gap:10px;align-items:center;padding:9px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;font-size:14px;cursor:pointer;text-align:left}
-.sm-urow i{font-style:normal;width:18px;text-align:center;font-weight:800}.sm-urow.done i{color:var(--ok)}
-.sm-urow.cur{border:2px solid var(--accent);background:var(--soft)}.sm-urow.lock{opacity:.5;cursor:default}
-.sm-node.done{background:#f2b632}.sm-node.cur{background:#5b8fd6;outline:6px solid rgba(255,255,255,.85);animation:smPulse 1.6s infinite}.sm-node.lock{background:#b9c2b0}
-@keyframes smPulse{50%{transform:translateX(-50%) scale(1.07)}}
-.sm-end{position:absolute;left:50%;transform:translateX(-50%);background:#e8574a;color:#fff;font-weight:800;padding:10px 16px;border-radius:999px;box-shadow:0 6px 0 rgba(0,0,0,.18)}
-.sp-scene{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;background:linear-gradient(#ffcf99,#ffe9c7 55%,#a5d77a 55.2%,#86c262);max-width:520px;margin:0 auto;cursor:pointer}
-.sp-top{display:flex;justify-content:space-between;align-items:center;padding:14px 16px}
-.sp-stage{flex:1;display:flex;align-items:flex-end;justify-content:center;padding-bottom:10px}
-.pt{display:flex;flex-direction:column;align-items:center;gap:6px}
-.pt-face{width:150px;height:150px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,color-mix(in srgb,var(--c) 35%,#fff) 60%,var(--c));
-  display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.25);box-shadow:0 10px 24px rgba(0,0,0,.18),inset 0 -8px 0 rgba(0,0,0,.08)}
-.pt-tag{background:rgba(255,255,255,.85);border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;color:#5a4a3a}
-.sp-box{margin:0 14px 22px;background:#fff;border-radius:22px;padding:18px 16px 12px;box-shadow:0 6px 0 rgba(0,0,0,.08),0 14px 30px rgba(0,0,0,.15);position:relative;cursor:pointer;color:#2b2722}
-.sp-box.narr{background:#fffaf0;font-style:italic}
-.sp-name{position:absolute;top:-14px;left:16px;color:#fff;font-weight:800;border-radius:999px;padding:3px 12px;font-size:14px}
-.sp-name rt{display:none}
-.sp-line{font-size:23px;line-height:1.7}.sp-tr{color:#7a6f63;font-size:14px;margin-top:4px}.sp-tr.hide{display:none}
+.sm-urow{display:flex;gap:10px;align-items:center;padding:10px 12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:#eef2ff;font:inherit;font-size:14px;cursor:pointer;text-align:left}
+.sm-urow i{font-style:normal;width:18px;text-align:center;font-weight:800}.sm-urow.done i{color:#8fe3a0}
+.sm-urow.cur{border-color:#7fb0ff;background:rgba(127,176,255,.18);box-shadow:0 0 18px rgba(127,176,255,.35)}.sm-urow.lock{opacity:.45;cursor:default}
+.sm-mission{padding:40px 0}.sm-mcard{padding:24px}
+body.sm-on .btn-ghost{background:rgba(255,255,255,.06);color:#eef2ff;border:1px solid rgba(255,255,255,.18)}
+body.sm-on .btn:not(.btn-ghost){background:linear-gradient(#ffd877,#f0b237);color:#2a1d00;box-shadow:0 6px 0 #a8730f,0 14px 28px -8px rgba(240,178,55,.6)}
+/* vocabulary */
+.sv{padding:22px 0 110px}.sv-head{text-align:center;margin-bottom:16px}.sv-k{font-size:22px;font-weight:800}.sv-sub{opacity:.7;font-size:14px;margin-top:4px}
+.sv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;perspective:800px}
+.sv-card{position:relative;text-align:left;font:inherit;color:#eef2ff;cursor:pointer;padding:14px 14px 12px;border-radius:18px;
+  background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 16px 30px -16px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.2);transform:rotateX(8deg);animation:svIn .5s calc(var(--i)*45ms) both;transition:transform .25s}
+.sv-card:hover{transform:rotateX(0) translateY(-4px)}
+@keyframes svIn{from{opacity:0;transform:rotateX(40deg) translateY(16px)}}
+.sv-w{font-size:24px;font-weight:700;line-height:1.5}.sv-p{font-size:13px;opacity:.7}.sv-m{font-size:13.5px;opacity:.85;margin-top:4px}.sv-a{position:absolute;top:10px;right:12px;opacity:.6;font-size:13px}
+.sv-go{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);width:min(440px,88vw);z-index:5}
+/* scene player */
+.sp-scene{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;cursor:pointer;color:#eef2ff;padding:0 max(0px,calc((100vw - 560px)/2));
+  background:radial-gradient(120% 70% at 50% -10%,#24407a 0%,#11214a 45%,#081128 100%)}
+.sp-top{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;position:relative;z-index:3}
+.sp-stage{flex:1;position:relative;display:flex;align-items:flex-end;justify-content:center;perspective:900px;overflow:hidden}
+.sp-moon{position:absolute;top:8%;right:14%;width:86px;height:86px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#fffbe8,#ffe9a8 55%,transparent 72%);
+  box-shadow:0 0 60px 20px color-mix(in srgb,var(--a) 35%,transparent);opacity:.9}
+.sm-hills{position:absolute;left:0;right:0;bottom:0;width:100%;height:42%}
+.pt{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;margin-bottom:6px;transform-style:preserve-3d;animation:ptFloat 5s ease-in-out infinite}
+.pt.enter{animation:ptIn .45s cubic-bezier(.2,.9,.3,1.2) both,ptFloat 5s 0.45s ease-in-out infinite}
+@keyframes ptFloat{50%{transform:translateY(-6px) rotateY(3deg)}}
+@keyframes ptIn{from{opacity:0;transform:translateY(30px) rotateY(-25deg) scale(.92)}}
+.pt-glow{position:absolute;bottom:20px;width:230px;height:230px;border-radius:50%;background:radial-gradient(color-mix(in srgb,var(--c) 60%,transparent),transparent 68%);filter:blur(8px);opacity:.75;z-index:-1}
+.pt-art{width:min(250px,58vw);height:min(260px,36vh);display:flex;align-items:flex-end;justify-content:center;filter:drop-shadow(0 18px 22px rgba(0,0,0,.55))}
+.pt-img{max-width:100%;max-height:100%;object-fit:contain;-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.pt-sil{height:100%;opacity:.95}
+.pt-tag{background:rgba(10,18,45,.7);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:3px 12px;font-size:12px;font-weight:700;color:#dfe6ff;backdrop-filter:blur(6px)}
+.sp-prog{height:3px;margin:0 22px 18px;border-radius:3px;background:rgba(255,255,255,.12);overflow:hidden}.sp-prog i{display:block;height:100%;background:#ffd36b;transition:width .3s}
+.sp-box{margin:0 14px 22px;border-radius:24px;padding:20px 18px 12px;position:relative;cursor:pointer;color:#f2f5ff;z-index:3;
+  background:linear-gradient(165deg,rgba(28,44,92,.88),rgba(12,22,52,.92));border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 26px 50px -20px rgba(0,0,0,.8),inset 0 1px 0 rgba(255,255,255,.2);backdrop-filter:blur(12px);transform:perspective(800px) rotateX(2deg);animation:boxIn .35s both}
+@keyframes boxIn{from{opacity:.4;transform:perspective(800px) rotateX(14deg) translateY(10px)}}
+.sp-box.narr{background:linear-gradient(165deg,rgba(60,48,20,.85),rgba(28,22,12,.9));font-style:italic}
+.sp-name{position:absolute;top:-14px;left:18px;color:#fff;font-weight:800;border-radius:999px;padding:3px 14px;font-size:14px;box-shadow:0 6px 14px rgba(0,0,0,.35)}
+.sp-name rt,.sp-name .tr,.sp-name .rom,.sp-name small{display:none !important}.sp-name *{display:inline !important;font-size:inherit}
+.sp-line{font-size:23px;line-height:1.75}.sp-line rt{color:#ffd98a}.sp-tr{color:rgba(220,228,255,.72);font-size:14.5px;margin-top:6px}.sp-tr.hide{display:none}
 .sp-ctrl{display:flex;gap:8px;align-items:center;margin-top:10px}
-.sp-opts{display:grid;gap:10px;margin:0 14px 24px}.sp-opt{padding:12px 16px;text-align:left;border:2px solid transparent;cursor:pointer;font:inherit;color:#2b2722;background:#fff}
-.sp-opt:hover{border-color:#5b8fd6}
-.sm-mission{padding:40px 0}.sm-mcard{padding:22px}
-.sm-reward{padding:30px 4px 100px;display:grid;gap:12px}.sm-rrow{display:flex;gap:12px;align-items:center;padding:12px 16px}
-.sm-life{min-height:100vh;margin:0 -16px;padding:18px 20px 100px;background:linear-gradient(#1d2a4a,#3b4f7a 60%,#e8b86b);color:#fff}
-.sm-life .tl{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.12);border-radius:16px;padding:10px 12px;cursor:pointer}
+.sp-opts{display:grid;gap:10px;margin:0 14px 24px;position:relative;z-index:3}
+.sp-opt{padding:14px 16px;text-align:left;border:1px solid rgba(255,255,255,.18) !important;cursor:pointer;font:inherit;color:#f2f5ff !important;border-radius:18px !important;
+  background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.05)) !important;backdrop-filter:blur(8px);transition:transform .2s,box-shadow .2s}
+.sp-opt:hover{transform:translateY(-3px);box-shadow:0 0 0 2px #ffd36b,0 16px 30px -12px rgba(0,0,0,.7)}
+.sm-reward{padding:30px 4px 100px;display:grid;gap:12px}.sm-rrow{display:flex;gap:12px;align-items:center;padding:14px 16px}
+.sm-life{min-height:100vh;margin:0 -16px;padding:18px 20px 100px;color:#fff}
+.sm-life .tl{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:10px 12px;cursor:pointer}
 .sm-life .tl span{flex:none;width:58px;font-weight:800;font-size:12px;opacity:.85}.sm-life .tl div{flex:1}.sm-life .tl small{display:block;opacity:.75;font-size:12px}.sm-life .tl i{font-style:normal}
-.sm-life .tl.on{background:rgba(124,195,106,.35)}.sm-life .tl.cur{background:#fff;color:#2b2722;box-shadow:0 0 0 3px #ffd36b}.sm-life .tl.lock{opacity:.6}
+.sm-life .tl.on{background:rgba(124,195,106,.25)}.sm-life .tl.cur{background:rgba(255,211,107,.16);box-shadow:0 0 0 2px #ffd36b}.sm-life .tl.lock{opacity:.5}
 .sm-life rt{color:inherit;opacity:.8}
-.sm-toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:#2b2722;color:#fff;padding:10px 16px;border-radius:14px;z-index:100;max-width:86%;font-size:14px;text-align:center}`;
+.sm-toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:#ffd36b;color:#1b2340;font-weight:700;padding:10px 16px;border-radius:14px;z-index:100;max-width:86%;font-size:14px;text-align:center}`;
   document.head.appendChild(s);
 }

@@ -16,7 +16,7 @@ jobs:
       - run: python .github/art/process.py
       - run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"
-          git add '*-app/data/story/img' .github/art/preview
+          git add -A -- ':(glob)*-app/data/story/img/**' .github/art/preview
           git diff --cached --quiet || git commit -m "Story art: character portraits"
           git push origin HEAD:master
           gh workflow run pages.yml --ref master || true
