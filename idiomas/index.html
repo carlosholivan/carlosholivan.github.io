@@ -105,6 +105,8 @@ import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWith
   sendPasswordResetEmail, sendEmailVerification, reload } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js';
 import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
 import firebaseConfig from './firebase-config.js?v=1';
+import { worldMap, CSS as WM_CSS } from './worldmap.js?v=202611281710';
+document.head.insertAdjacentHTML('beforeend', `<style>${WM_CSS}</style>`);
 
 const APPS = [
   { id: 'english',  path: '../english-app/',  key: 'english_state',  field: 'english',  glyph: 'En', name: 'Inglés',  native: 'English',  levels: ['a1','a2','b1','b2','c1','c2'] },
@@ -315,6 +317,7 @@ function picker(first) {
   $('#app').innerHTML = `${acctBar()}
     <h1>${first ? '¿Qué idiomas estudias?' : 'Tus idiomas'}</h1>
     <div class="muted">Elige uno o varios. Podrás cambiarlo cuando quieras.</div>
+    <div id="wm"></div>
     <div class="pick">${APPS.map(a => `
       <button class="card ${sel.has(a.id) ? 'on' : ''}" data-id="${a.id}" aria-pressed="${sel.has(a.id)}">
         <span class="glyph">${esc(a.glyph)}</span>
@@ -324,11 +327,19 @@ function picker(first) {
     <button class="btn" id="ok" ${sel.size ? '' : 'disabled'}>Continuar</button>
     ${chosen && chosen.length ? '<button class="btn ghost" id="cancel" style="margin-top:10px">Cancelar</button>' : ''}`;
   bindAcct();
+  // the world map: tapping a language (on the map or in the list) shows where it is spoken and why learn it
+  let focus = null;
+  const sync = () => document.querySelectorAll('.pick button').forEach(b => { b.classList.toggle('on', sel.has(b.dataset.id)); b.setAttribute('aria-pressed', sel.has(b.dataset.id)); $('#ok').disabled = !sel.size; });
+  const toggle = id => { sel.has(id) ? sel.delete(id) : sel.add(id); sync(); };
+  const drawMap = () => worldMap($('#wm'), { ids: APPS.map(a => a.id), selected: sel, focus,
+    onFocus: id => { focus = id; drawMap(); },
+    onToggle: id => { toggle(id); drawMap(); } }).catch(() => {});
+  drawMap();
   document.querySelectorAll('.pick button').forEach(b => b.onclick = () => {
     const id = b.dataset.id;
-    sel.has(id) ? sel.delete(id) : sel.add(id);
-    b.classList.toggle('on', sel.has(id)); b.setAttribute('aria-pressed', sel.has(id));
-    $('#ok').disabled = !sel.size;
+    toggle(id);
+    focus = sel.has(id) ? id : (focus === id ? null : focus); drawMap();
+    if (sel.has(id)) $('#wm').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
   $('#ok').onclick = () => { chosen = APPS.map(a => a.id).filter(id => sel.has(id)); set(PREF, JSON.stringify(chosen)); saveChoice(); dashboard(); };
   if ($('#cancel')) $('#cancel').onclick = dashboard;

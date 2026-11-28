@@ -2,18 +2,18 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281705';
-import { S, update, completeUnit } from '../state.js?v=202611281705';
-import { register, go } from '../router.js?v=202611281705';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281705';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281705';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281705';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281705';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281705';
-import { unitVocab } from '../engine/exercises.js?v=202611281705';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611281705';
-import { speak, speakAs, stop } from '../audio.js?v=202611281705';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611281705';
+import { CFG } from '../app-config.js?v=202611281710';
+import { S, update, completeUnit } from '../state.js?v=202611281710';
+import { register, go } from '../router.js?v=202611281710';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281710';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281710';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281710';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281710';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281710';
+import { unitVocab } from '../engine/exercises.js?v=202611281710';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611281710';
+import { speak, speakAs, stop } from '../audio.js?v=202611281710';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611281710';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -239,7 +239,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611281705').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611281710').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';

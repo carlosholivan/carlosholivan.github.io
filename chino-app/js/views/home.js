@@ -1,14 +1,14 @@
-import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611281705';
-import { register, go } from '../router.js?v=202611281705';
-import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611281705';
-import { bottomNav, progressBar } from '../ui/components.js?v=202611281705';
-import { icon } from '../ui/icons.js?v=202611281705';
-import { mascot } from '../ui/mascot.js?v=202611281705';
-import { t } from '../i18n.js?v=202611281705';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281705';
-import { deckStats } from '../engine/anki.js?v=202611281705';
-import { isLearned } from '../engine/status.js?v=202611281705';
-import { CFG } from '../app-config.js?v=202611281705';
+import { S, isUnitDone, isUnitUnlocked, update } from '../state.js?v=202611281710';
+import { register, go } from '../router.js?v=202611281710';
+import { loadUnits, loadVocab, loadTexts, loadHanzi } from '../data.js?v=202611281710';
+import { bottomNav, progressBar } from '../ui/components.js?v=202611281710';
+import { icon } from '../ui/icons.js?v=202611281710';
+import { mascot } from '../ui/mascot.js?v=202611281710';
+import { t } from '../i18n.js?v=202611281710';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281710';
+import { deckStats } from '../engine/anki.js?v=202611281710';
+import { isLearned } from '../engine/status.js?v=202611281710';
+import { CFG } from '../app-config.js?v=202611281710';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -34,6 +34,9 @@ register('home', async (el) => {
       <div><div class="home-hi">${CFG.hello}</div><div class="h2">${esc(S.name || t('hello'))}</div></div>
       <button class="card icon-btn" onclick="window.__nav('settings')" aria-label="${t('settings')}">${icon('gear', 22)}</button>
     </div>
+
+    <button class="card story-cta" onclick="window.__setMode('story')" style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;margin-bottom:12px;padding:14px 16px;border:0;cursor:pointer;color:#fff;background:linear-gradient(120deg,#0f1d42,#2b4fa0 60%,#6b8cff);box-shadow:0 6px 18px rgba(43,79,160,.35)">
+      <span style="font-size:30px">🗺️</span><span class="grow"><b style="display:block;font-size:16px">${S.lang === 'en' ? 'Story mode' : 'Modo historia'}</b><small style="opacity:.85">${S.lang === 'en' ? 'Live your lessons as an adventure' : 'Vive tus lecciones como una aventura'}</small></span><span style="font-size:22px">›</span></button>
 
     <div class="card mascot-card">
       <div>${mascot(S.streak > 0 ? 'proud' : 'happy', 68)}</div>
