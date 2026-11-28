@@ -2,13 +2,13 @@
 // the browser's speech recognition checks it), 3) guided role-play conversations with the Gemini tutor.
 // Sentences come from the level's example sentences (data/<level>/examples.json), which have recorded audio.
 // Same file in every app; the language comes from CFG.id.
-import { S, update } from '../state.js?v=202611281102';
-import { register } from '../router.js?v=202611281102';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281102';
-import { header, bottomNav } from '../ui/components.js?v=202611281102';
-import { speak, stop } from '../audio.js?v=202611281102';
-import { CFG } from '../app-config.js?v=202611281102';
-import { chatGemini, tutorKey, errText, thinkingHTML } from '../tutor.js?v=202611281102';
+import { S, update } from '../state.js?v=202611281115';
+import { register } from '../router.js?v=202611281115';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281115';
+import { header, bottomNav } from '../ui/components.js?v=202611281115';
+import { speak, stop } from '../audio.js?v=202611281115';
+import { CFG } from '../app-config.js?v=202611281115';
+import { chatGemini, tutorKey, errText, thinkingHTML } from '../tutor.js?v=202611281115';
 
 const APP = CFG.id;
 const LANG = { espanol: ['es-ES', 'Spanish'], english: ['en-GB', 'English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],

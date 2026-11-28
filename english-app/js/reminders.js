@@ -6,9 +6,9 @@
 //  In the native app (Capacitor, Android / iPhone) the WebView has no web push: local notifications are scheduled on
 //  the phone itself instead (@capacitor-community / @capacitor/local-notifications; no account or server needed).
 //  The next 14 days are scheduled one by one, and today's is cancelled as soon as the learner studies.
-import { S, update } from './state.js?v=202611281102';
-import { CFG } from './app-config.js?v=202611281102';
-import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611281102';
+import { S, update } from './state.js?v=202611281115';
+import { CFG } from './app-config.js?v=202611281115';
+import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611281115';
 
 const FB = 'https://www.gstatic.com/firebasejs/12.16.0/';
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es)) || '';
@@ -75,6 +75,27 @@ async function nativeSchedule() {
     if (list.length) await N.schedule({ notifications: list.map(({ at, ...n }) => n) });
   } catch (e) { console.warn('local notifications', e); }
 }
+// Native: festivals of the country ("Today in Japan: Tanabata…"), at 10:00 on the day, for the next 30 days.
+async function cultureSchedule() {
+  const N = LN();
+  if (!N) return;
+  try {
+    const perm = await N.checkPermissions().catch(() => ({}));
+    if (perm.display && perm.display !== 'granted') return;
+    const { loadCulture, upcoming } = await import('../../idiomas/culture.js');
+    const c = await loadCulture(CFG.id);
+    const pending = await N.getPending().catch(() => ({ notifications: [] }));
+    const old = (pending.notifications || []).filter(n => n.id >= BASE_ID + 100 && n.id < BASE_ID + 200).map(n => ({ id: n.id }));
+    if (old.length) await N.cancel({ notifications: old });
+    const en = c && c.lang === 'en';
+    const list = upcoming(c, 30).map((d, k) => {
+      const at = new Date(d.at); at.setHours(10, 0, 0, 0);
+      return { id: BASE_ID + 100 + k, title: `🎎 ${en ? 'Today in' : 'Hoy en'} ${c.country}: ${d.n}`, body: d.t, schedule: { at, allowWhileIdle: true }, extra: { link: location.href }, _at: at };
+    }).filter(n => n._at > new Date()).map(({ _at, ...n }) => n);
+    if (list.length) await N.schedule({ notifications: list });
+  } catch (e) { console.warn('culture notifications', e); }
+}
+if (LN()) setTimeout(cultureSchedule, 5000);
 let lastStudied = false;
 if (LN()) {
   setTimeout(nativeSchedule, 3000);
