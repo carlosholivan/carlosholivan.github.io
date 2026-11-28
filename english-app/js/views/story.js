@@ -2,19 +2,19 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281724';
-import { S, update, completeUnit } from '../state.js?v=202611281724';
-import { register, go } from '../router.js?v=202611281724';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281724';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281724';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281724';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281724';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281724';
-import { unitVocab } from '../engine/exercises.js?v=202611281724';
-import { bottomNav } from '../ui/components.js?v=202611281724';
+import { CFG } from '../app-config.js?v=202611281751';
+import { S, update, completeUnit } from '../state.js?v=202611281751';
+import { register, go } from '../router.js?v=202611281751';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281751';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281751';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281751';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281751';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281751';
+import { unitVocab } from '../engine/exercises.js?v=202611281751';
+import { bottomNav } from '../ui/components.js?v=202611281751';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, speakAs, stop } from '../audio.js?v=202611281724';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281724';
+import { speak, speakAs, stop } from '../audio.js?v=202611281751';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281751';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -104,6 +104,17 @@ function lifeBonus(el) {
   addGems(n * 2);
   setTimeout(() => { sfx('win'); burst(el || null, 60, 1.6); if (n >= LIFE_MAX) shout(lt('perfect')); }, 200);
   return `<div class="lv-bonus">${lt('lifeBonus')}: ${LIFE[0].repeat(n)} → 💎 +${n * 2}</div>`;
+}
+// No lives left: starting something new opens the sheet (review to earn one, refill with gems, wait, or do free things).
+// Returns true when it blocked. Whatever is already under way can always be finished.
+async function gate(retry) {
+  if (lives() > 0) return false;
+  const lg = await import('../../../idiomas/lives.js?v=202611281751');
+  lg.showGate({ lang: S.lang, icon: LIFE[0], name: L(LIFE[1]), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
+    onPractice: async () => { const f = friends(META || await meta())[0]; f ? npcReview(f) : window.__go('review'); },
+    onRefill: () => { if (!refillLives()) return false; sfx('win'); shout(`${LIFE[0].repeat(LIFE_MAX)}`); retry && setTimeout(retry, 300); return true; },
+    onFree: () => window.__go('story', { level }), onClose: () => {} });
+  return true;
 }
 window.__lvWhy = () => { const md = root.querySelector('.w3-modal'); if (!md) return toast(lt('lifeWhy'));
   md.innerHTML = `<div class="w3-card"><div class="lv-big">${Array.from({ length: LIFE_MAX }, (_, k) => `<span class="${k < lives() ? '' : 'off'}">${LIFE[0]}</span>`).join('')}</div><h3>${esc(L(LIFE[1]))}</h3><p>${lt('lifeWhy')}</p><p class="small muted">${lives() >= LIFE_MAX ? lt('lifeFull') : lt('lifeNext', { m: Math.ceil(lifeIn() / 60000) })}</p><button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">OK</button></div>`; md.hidden = false; };
@@ -249,7 +260,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611281724').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611281751').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
@@ -416,9 +427,10 @@ async function npcReview(cid) {
 
 // ---------- "play with a friend": the word-pairs game (shared module /idiomas/wordmatch.js) ----------
 window.__wgPlay = async cid => {
+  if (await gate(() => window.__wgPlay(cid))) return;
   stop();
   const m = META || await meta(), who = (m.cast || {})[cid] || {};
-  const wm = await import('../../../idiomas/wordmatch.js?v=202611281724');
+  const wm = await import('../../../idiomas/wordmatch.js?v=202611281751');
   if (!document.getElementById('wg-css')) document.head.insertAdjacentHTML('beforeend', `<style id="wg-css">${wm.CSS}</style>`);
   // words: due for review first, then this level's (only short meanings fit on a tile)
   const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
@@ -503,6 +515,7 @@ window.__smOpen = async key => {
   if (!n) return;
   const cur = ns.find(x => !nodeDone(x));
   if (!nodeDone(n) && n !== cur) return toast(tx('locked'));
+  if (!nodeDone(n) && await gate(() => window.__smOpen(key))) return;
   const seenKey = `${level}-${key}-i`;
   // An episode of several lessons plays its opening scene once; afterwards it opens on the mission.
   if (!n.sc || (n.units.length > 1 && st().seen[seenKey])) return missionScreen(n);
@@ -576,6 +589,7 @@ window.__smScene = async key => {
 // ---------- the lesson inside the story: a friend sets its exercises as challenges, in the scene ----------
 window.__smTrial = async (key, from) => {
   const ch = await chapter(level), n = nodesOf(await loadUnits(level), ch).find(x => x.key === String(key));
+  if (n && !nodeDone(n) && await gate(() => window.__smTrial(key, from))) return;
   if (n) trial(n, from);
 };
 const shuf = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };

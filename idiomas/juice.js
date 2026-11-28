@@ -99,3 +99,11 @@ export function boo(el) { combo.bad(); sfx('bad'); pop(el, 'shake'); }
 
 // The lives of each language app: a local food.
 export const lifeOf = app => ({ nihongo: '🍙', chino: '🥟', arabe: '🧆', arabic: '🧆', espanol: '🥘', english: '🫖', francais: '🥐', deutsch: '🥨' }[app] || '❤️');
+
+// A life earned back by reviewing: celebrate it wherever the learner is.
+addEventListener('lifeearned', () => {
+  const app = (location.pathname.match(/\/(\w+)-app\//) || [])[1];
+  sfx('gem'); shout(`+1 ${lifeOf(app)}`);
+});
+export const lifeName = (app, lang) => ((({ nihongo: ['onigiris', 'onigiri'], chino: ['jiaozi', 'dumplings'], arabe: ['falafels', 'falafels'], arabic: ['falafels', 'falafels'],
+  espanol: ['paellas', 'paellas'], english: ['teteras', 'teapots'], francais: ['cruasanes', 'croissants'], deutsch: ['pretzels', 'pretzels'] })[app]) || ['vidas', 'lives'])[lang === 'en' ? 1 : 0];

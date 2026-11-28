@@ -8,7 +8,7 @@
 //   lang, friend: { name, img, color }, secs (90), rows (6), cols (5),
 //   tx: { pairs, time, combo, go, ready, tapWord, end } (labels), lifeChip(): html, onSay(t), onResult(key, ok),
 //   onMiss(el), onEnd({ pairs, score, stars, best, misses }) }
-import { cheer, sfx, burst, shout, floatUp, combo } from './juice.js?v=202611281724';
+import { cheer, sfx, burst, shout, floatUp, combo } from './juice.js?v=202611281751';
 
 const CANDY = [['#ff5c8a', '#ffb3c8'], ['#ffb020', '#ffe08a'], ['#29c98b', '#a6f0cf'], ['#3fa9f5', '#b4e0ff'], ['#9b6cff', '#d6c4ff'], ['#ff7a45', '#ffc8a8']];
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

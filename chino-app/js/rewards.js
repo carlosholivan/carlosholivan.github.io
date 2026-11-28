@@ -1,7 +1,7 @@
 // Rewards: gems earned by studying (every 2 XP = 1 gem, so lessons, reviews, texts and challenges all count),
 // a daily chest on the story map once you have studied that day, and a shop of looks for the hero (outfit, hat,
 // cape, companion) plus a streak shield that saves the streak on a missed day. Shared by every language app.
-import { S, update } from './state.js?v=202611281724';
+import { S, update } from './state.js?v=202611281751';
 
 const today = () => new Date().toISOString().slice(0, 10);
 export const R = () => {
@@ -79,3 +79,21 @@ export function loseLife() {
 export const lifeIn = () => { const r = R(); return lives() >= LIFE_MAX ? 0 : LIFE_MS - ((Date.now() - (r.lt || 0)) % LIFE_MS); };
 export const livesFullAt = () => { const r = R(), n = lives(); return n >= LIFE_MAX ? 0 : Date.now() + lifeIn() + (LIFE_MAX - n - 1) * LIFE_MS; };
 export function addGems(n) { const r = R(); r.bonus += n; put(r); return n; }
+
+// Out of lives: earn one back by reviewing (5 right answers in any review = +1), or refill them all with gems.
+export const REFILL_COST = 40;
+export const earned = () => R().earn || 0;
+export function earnTick() {
+  if (lives() >= LIFE_MAX) return false;
+  const r = R(); r.earn = (r.earn || 0) + 1;
+  const got = r.earn >= 5;
+  if (got) { r.earn = 0; r.lv = (r.lv == null ? LIFE_MAX : r.lv) + 1; }
+  put(r);
+  if (got) try { window.dispatchEvent(new CustomEvent('lifeearned')); } catch (e) {}
+  return got;
+}
+export function refillLives() {
+  if (gems() < REFILL_COST) return false;
+  const r = R(); r.spent += REFILL_COST; r.lv = LIFE_MAX; r.lt = Date.now(); r.earn = 0; put(r);
+  return true;
+}

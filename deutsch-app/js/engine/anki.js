@@ -2,7 +2,8 @@
 // Two decks: 'v' = vocabulary (S.cards[word]), 'h' = characters (S.hcards[char]).
 // card = { s: 'new'|'learn'|'review'|'relearn'|'known', step, due (ms), ivl (days), ef, reps, lapses, added, r (frequency rank) }
 // 'known' = marked as learned by the user: never shown.
-import { S, save } from '../state.js?v=202611281724';
+import { S, save } from '../state.js?v=202611281751';
+import { earnTick } from '../rewards.js?v=202611281751';
 
 const MIN = 60 * 1000, DAY = 86400000;
 const LEARN_STEPS = [1, 10];      // minutes
@@ -171,6 +172,7 @@ export function schedule(card, rating, now = Date.now()) {
 export function answer(word, rating, d = 'v') {
   const c = cards(d);
   if (!c[word]) return;
+  if (rating >= 3) earnTick();   // reviewing earns lives back (5 right answers = 1)
   if (c[word].s === 'new') {
     const day = dayOf(d);
     S[KEYS[d][1]] = { date: today(), n: (day.date === today() ? day.n : 0) + 1 };
