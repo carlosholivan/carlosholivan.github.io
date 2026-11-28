@@ -1,22 +1,22 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282113';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611282113';
-import { buildReview } from '../engine/review.js?v=202611282113';
-import { addCards } from '../engine/anki.js?v=202611282113';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282113';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282113';
-import { CFG as LCFG } from '../app-config.js?v=202611282113';
-import { conjExercises } from '../conjq.js?v=202611282113';
-import { register, go } from '../router.js?v=202611282113';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282113';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282113';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611282113';
-import { recordAnswer } from '../engine/srs.js?v=202611282113';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611282113';
-import { icon } from '../ui/icons.js?v=202611282113';
-import { t } from '../i18n.js?v=202611282113';
-import { speak, stop as stopAudio, SPEEDS, speed } from '../audio.js?v=202611282113';
-import { allHanzi } from './review.js?v=202611282113';
-import { charWord, hasChars } from '../chars.js?v=202611282113';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282202';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282202';
+import { buildReview } from '../engine/review.js?v=202611282202';
+import { addCards } from '../engine/anki.js?v=202611282202';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282202';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282202';
+import { CFG as LCFG } from '../app-config.js?v=202611282202';
+import { conjExercises } from '../conjq.js?v=202611282202';
+import { register, go } from '../router.js?v=202611282202';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282202';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282202';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611282202';
+import { recordAnswer } from '../engine/srs.js?v=202611282202';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611282202';
+import { icon } from '../ui/icons.js?v=202611282202';
+import { t } from '../i18n.js?v=202611282202';
+import { speak, stop as stopAudio, SPEEDS, speed } from '../audio.js?v=202611282202';
+import { allHanzi } from './review.js?v=202611282202';
+import { charWord, hasChars } from '../chars.js?v=202611282202';
 
 const MAX_HEARTS = 5;
 
@@ -50,7 +50,7 @@ register('lesson', async (el, params) => {
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611282113');
+    const lg = await import('../../../idiomas/lives.js?v=202611282202');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -422,6 +422,7 @@ register('lesson', async (el, params) => {
     if (prev.idx === idx) {
       btn.classList.add('correct');
       prev.btn.classList.add('correct');
+      sfx('ok', Math.min(8, matched.size + 1));
       matched.add(idx);
       recordAnswer(ex.pairs[idx].left, true);
       if (matched.size === ex.pairs.length) {
@@ -437,6 +438,7 @@ register('lesson', async (el, params) => {
       mistakes++;
       btn.classList.add('wrong');
       prev.btn.classList.add('wrong');
+      sfx('bad');
       setTimeout(() => { btn.classList.remove('wrong'); prev.btn.classList.remove('wrong'); }, 600);
     }
   };
@@ -450,7 +452,9 @@ register('lesson', async (el, params) => {
       const b = document.querySelector('.exercise-option.wrong') || document.querySelector('.exercise-option.correct') || document.getElementById('feedback');
       const candyOn = localStorage.getItem('idiomas_candy') === '1';
       document.body.classList.toggle('candy', candyOn);
-      if (isCorrect) candyOn ? cheer(b) : sfx('ok', combo.good()); else candyOn ? boo(b) : (combo.bad(), sfx('bad'));
+      // sounds and combos as in story mode (confetti too with the colours switch)
+      if (isCorrect) { if (candyOn) cheer(b); else { const n = combo.good(); sfx('ok', n); if (n >= 3) shout(n >= 10 ? `🔥 x${n}!` : `Combo x${n}!`); } }
+      else candyOn ? boo(b) : (combo.bad(), sfx('bad'));
       if (!isCorrect && lives() > 0) { loseLife(); const c = document.querySelector('.lv-chip'); if (c) { c.textContent = `${lifeOf(LCFG.id)} ${lives()}`; floatUp(`-1 ${lifeOf(LCFG.id)}`, c, '#ff8fa3'); } }
     }, 0);
     if (isCorrect) {

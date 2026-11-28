@@ -1,11 +1,11 @@
 // Home-screen widgets of the installed app: this file hands the streak and the next review words to the widgets,
 // and applies the answers given on the widget ("I know it" / "Again") to the flashcard deck.
 // Only does anything inside the Android app (Capacitor + Preferences plugin); in the browser it is inert.
-import { S } from './state.js?v=202611282113';
-import { CFG } from './app-config.js?v=202611282113';
-import { buildQueue, answer } from './engine/anki.js?v=202611282113';
-import { LEVELS } from './levels.js?v=202611282113';
-import { loadVocab } from './data.js?v=202611282113';
+import { S } from './state.js?v=202611282202';
+import { CFG } from './app-config.js?v=202611282202';
+import { buildQueue, answer } from './engine/anki.js?v=202611282202';
+import { LEVELS } from './levels.js?v=202611282202';
+import { loadVocab } from './data.js?v=202611282202';
 
 const NAMES = { chino: '中文 · Chino', nihongo: '日本語 · Japonés', arabic: 'العربية · Árabe', espanol: 'Español', english: 'English · Inglés', francais: 'Français · Francés', deutsch: 'Deutsch · Alemán' };
 const prefs = () => { const C = window.Capacitor; return C && C.isNativePlatform && C.isNativePlatform() && ((C.Plugins && C.Plugins.Preferences) || (C.registerPlugin && (C.Plugins.Preferences = C.registerPlugin('Preferences')))); };
