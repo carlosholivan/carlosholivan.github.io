@@ -1,0 +1,86 @@
+# Character voices v2: one designed voice per character (Qwen3-TTS VoiceDesign, Apache-2.0), every story line read
+# with it (Qwen3-TTS Base for zh/ja/es/en/fr/de, Chatterbox Multilingual, MIT, for Arabic), each clip checked with
+# speech recognition (faster-whisper) before it replaces the old one. Free CPU runners; run by hand.
+name: voices-v2
+on: workflow_dispatch
+permissions: { contents: write }
+jobs:
+  voices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy: { fail-fast: false, matrix: { app: [chino, nihongo, arabic, espanol, english, francais, deutsch] } }
+    steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: ".github/tts\n${{ matrix.app }}-app/data/story" }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q qwen-tts soundfile
+      - run: cd .github/tts/v2 && python voices.py ${{ matrix.app }}
+      - uses: actions/upload-artifact@v4
+        with: { name: 'refs-${{ matrix.app }}', path: '.github/tts/v2/refs/${{ matrix.app }}' }
+  gen:
+    needs: voices
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { app: chino, shard: 0, n: 4 }
+          - { app: chino, shard: 1, n: 4 }
+          - { app: chino, shard: 2, n: 4 }
+          - { app: chino, shard: 3, n: 4 }
+          - { app: nihongo, shard: 0, n: 4 }
+          - { app: nihongo, shard: 1, n: 4 }
+          - { app: nihongo, shard: 2, n: 4 }
+          - { app: nihongo, shard: 3, n: 4 }
+          - { app: arabic, shard: 0, n: 6 }
+          - { app: arabic, shard: 1, n: 6 }
+          - { app: arabic, shard: 2, n: 6 }
+          - { app: arabic, shard: 3, n: 6 }
+          - { app: arabic, shard: 4, n: 6 }
+          - { app: arabic, shard: 5, n: 6 }
+          - { app: espanol, shard: 0, n: 3 }
+          - { app: espanol, shard: 1, n: 3 }
+          - { app: espanol, shard: 2, n: 3 }
+          - { app: english, shard: 0, n: 3 }
+          - { app: english, shard: 1, n: 3 }
+          - { app: english, shard: 2, n: 3 }
+          - { app: francais, shard: 0, n: 3 }
+          - { app: francais, shard: 1, n: 3 }
+          - { app: francais, shard: 2, n: 3 }
+          - { app: deutsch, shard: 0, n: 3 }
+          - { app: deutsch, shard: 1, n: 3 }
+          - { app: deutsch, shard: 2, n: 3 }
+    steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: ".github/tts\n${{ matrix.app }}-app/data/story" }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - uses: actions/download-artifact@v4
+        with: { name: 'refs-${{ matrix.app }}', path: '.github/tts/v2/refs/${{ matrix.app }}' }
+      - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - if: matrix.app != 'arabic'
+        run: pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q qwen-tts soundfile faster-whisper
+      - if: matrix.app == 'arabic'
+        run: pip install -q chatterbox-tts soundfile faster-whisper
+      - run: cd .github/tts/v2 && python gen.py ${{ matrix.app }} ${{ matrix.shard }} ${{ matrix.n }}
+      - uses: actions/upload-artifact@v4
+        with: { name: 'out-${{ matrix.app }}-${{ matrix.shard }}', path: '.github/tts/v2/out/${{ matrix.app }}' }
+  merge:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'refs-*', path: refs-all }
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'out-*', path: out-all }
+      - run: |
+          for d in refs-all/refs-*; do a=${d#refs-all/refs-}; mkdir -p .github/tts/v2/refs/$a; cp -r $d/* .github/tts/v2/refs/$a/; done
+          for d in out-all/out-*; do a=$(basename $d | sed -E 's/^out-(.*)-[0-9]+$/\1/'); mkdir -p .github/tts/v2/out/$a; cp -r $d/* .github/tts/v2/out/$a/; done
+          cd .github/tts/v2 && python3 merge.py
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/tts/v2/refs */data/audio && git commit -qm "Character voices v2 (Qwen3-TTS / Chatterbox, checked with speech recognition)" && git pull -q --rebase && git push -q || echo nothing
