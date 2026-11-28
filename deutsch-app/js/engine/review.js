@@ -1,9 +1,9 @@
 // Builds a mixed review lesson: weak words + failed grammar drills + the last studied units.
-import { S } from '../state.js?v=202611281751';
-import { loadUnit, loadVocab, loadDrills } from '../data.js?v=202611281751';
-import { generateExercises, unitVocab, shuffle, tr } from './exercises.js?v=202611281751';
-import { getWordLevel } from './mastery.js?v=202611281751';
-import { LEVELS as ORDER } from '../levels.js?v=202611281751';
+import { S } from '../state.js?v=202611281825';
+import { loadUnit, loadVocab, loadDrills } from '../data.js?v=202611281825';
+import { generateExercises, unitVocab, shuffle, tr } from './exercises.js?v=202611281825';
+import { getWordLevel } from './mastery.js?v=202611281825';
+import { LEVELS as ORDER } from '../levels.js?v=202611281825';
 const MAX = 15;
 
 function recentUnits() {
