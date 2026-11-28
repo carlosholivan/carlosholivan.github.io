@@ -318,6 +318,28 @@ export function mountWorld(el, opt) {
     chest = { g: c, lid, glow, open: false, t: 0 }; pick.push(c);
   }
 
+  // villagers: the hero's friends stand by the path; the ones with words to review have a "!" over their head
+  const PAL = ['#c9503f', '#3f7fbf', '#7a5aa8', '#d19a32', '#3f8f6a', '#b0476e', '#5a6b8a'];
+  const npcs = [];
+  (opt.npcs || []).forEach((n, k) => {
+    const h = [...n.id].reduce((a2, ch) => a2 + ch.charCodeAt(0), 0);
+    const st = n.style || { style: n.g === 'f' ? (h % 2 ? 'braid' : 'curly') : (h % 2 ? 'short' : 'messy'), top: PAL[h % PAL.length], bottom: '#3b3a4a',
+      skirt: n.g === 'f' ? PAL[(h + 3) % PAL.length] : null, hair: ['#2a1d17', '#5a3a22', '#c0602a', '#17141c'][h % 4], accent: '#e6c27a', skin: ['#f2c9a0', '#e8b98f', '#c99a6e', '#f5d5bd'][h % 4] };
+    const v = hero(st, {});
+    const ti = Math.max(-.4, [cur - .12, cur - .02, cur - .75][k] ?? cur - 1 - k * .5), p = at(ti), d = dirAt(ti), side = new THREE.Vector3(-d.z, 0, d.x), sg = k % 2 ? 1 : -1;
+    const x = p.x + side.x * 1.6 * sg, z = p.z + side.z * 1.6 * sg;
+    v.position.set(x, groundY(x, z), z); v.rotation.y = Math.atan2(-side.x * sg, -side.z * sg);
+    v.traverse(o => { if (o.isMesh) o.userData.npc = n.id; });
+    scene.add(v); pick.push(v);
+    let mark = null;
+    if (n.due) {
+      mark = new THREE.Sprite(new THREE.SpriteMaterial({ map: canvasTex(128, 128, c2 => { c2.fillStyle = '#ffd36b'; c2.strokeStyle = '#4a2a00'; c2.lineWidth = 8;
+        c2.beginPath(); c2.arc(64, 58, 46, 0, 7); c2.fill(); c2.stroke(); c2.fillStyle = '#4a2a00'; c2.font = 'bold 70px Georgia'; c2.textAlign = 'center'; c2.textBaseline = 'middle'; c2.fillText('!', 64, 62); }), depthWrite: false }));
+      mark.scale.set(.8, .8, 1); mark.userData.npc = n.id; scene.add(mark); pick.push(mark);
+    }
+    npcs.push({ v, mark, base: v.position.clone() });
+  });
+
   // the hero (just before the current shrine) and the companion
   const me = hero(heroStyle, wear);
   let heroT = cur - .35, heroGoal = heroT;
@@ -345,6 +367,7 @@ export function mountWorld(el, opt) {
     const hit = ray.intersectObjects(pick, true)[0];
     if (!hit) return;
     if (hit.object.userData.chest && chest && !chest.open) { chest.open = true; opt.onChest && opt.onChest(); return; }
+    if (hit.object.userData.npc) { opt.onNpc && opt.onNpc(hit.object.userData.npc); return; }
     const i = hit.object.userData.i;
     if (i === undefined) return;
     if (nodes[i].state === 'lock') { opt.onLocked && opt.onLocked(i); return; }
@@ -420,6 +443,10 @@ export function mountWorld(el, opt) {
       if (chest.open && chest.t < 1) { chest.t = Math.min(1, chest.t + dt * 1.5); chest.lid.rotation.x = -chest.t * 1.9; chest.glow.intensity = 6 + chest.t * 20; }
       else if (!chest.open) chest.glow.intensity = 4 + Math.sin(t * 3) * 2;
       else chest.glow.intensity *= .97;
+    }
+    for (const n of npcs) {
+      n.v.userData.body.position.y = Math.sin(t * 2 + n.base.x) * .02;
+      if (n.mark) n.mark.position.set(n.base.x, n.base.y + 2.25 + Math.sin(t * 3) * .1, n.base.z);
     }
     minimap(p, Math.atan2(fwd.x, -fwd.z));
     composer.render();

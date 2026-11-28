@@ -2,17 +2,17 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611262243';
-import { S, update, completeUnit } from '../state.js?v=202611262243';
-import { register, go } from '../router.js?v=202611262243';
-import { LEVELS, levelLabel } from '../levels.js?v=202611262243';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611262243';
-import { addCards } from '../engine/anki.js?v=202611262243';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear } from '../rewards.js?v=202611262243';
-import { unitVocab } from '../engine/exercises.js?v=202611262243';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611262243';
-import { speak, speakAs, stop } from '../audio.js?v=202611262243';
-import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611262243';
+import { CFG } from '../app-config.js?v=202611281102';
+import { S, update, completeUnit } from '../state.js?v=202611281102';
+import { register, go } from '../router.js?v=202611281102';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281102';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281102';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281102';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear } from '../rewards.js?v=202611281102';
+import { unitVocab } from '../engine/exercises.js?v=202611281102';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611281102';
+import { speak, speakAs, stop } from '../audio.js?v=202611281102';
+import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611281102';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -40,6 +40,7 @@ const TX = {
   chestOk: { es: '¡cofre diario abierto!', en: 'daily chest opened!' }, chestHint: { es: 'Estudia hoy y abre el cofre junto al santuario', en: 'Study today to open the chest by the shrine' },
   buyIt: { es: 'Comprar', en: 'Buy' }, wearIt: { es: 'Ponerse', en: 'Wear' }, wearing: { es: 'Puesto', en: 'Wearing' }, takeOff: { es: 'Quitar', en: 'Take off' }, have: { es: 'Tienes', en: 'You have' },
   slots: { es: { outfit: 'Trajes', hat: 'Sombreros', cape: 'Capas', pet: 'Compañeros', shield: 'Racha' }, en: { outfit: 'Outfits', hat: 'Hats', cape: 'Capes', pet: 'Companions', shield: 'Streak' } },
+  rv: { es: 'repasa contigo', en: 'reviews with you' }, rvDone: { es: '¡Repaso hecho! Vuelve mañana: tus amigos tendrán más palabras.', en: 'Review done! Come back tomorrow: your friends will have more words.' }, rvNone: { es: 'Hoy no hay palabras pendientes. ¡Repasemos unas cuantas igualmente!', en: 'No words due today. Let\'s review a few anyway!' },
   drag: { es: 'Desliza hacia arriba para caminar · toca un santuario', en: 'Swipe up to walk · tap a shrine' }, locked: { es: 'Completa antes el episodio anterior', en: 'Finish the previous episode first' },
   trial: { es: 'Empezar el reto', en: 'Start the challenge' }, trialAgain: { es: 'Repetir el reto', en: 'Redo the challenge' },
   dares: { es: 'te reta', en: 'challenges you' }, full: { es: 'Práctica completa en modo estudio', en: 'Full practice in study mode' },
@@ -209,6 +210,8 @@ async function map(m) {
       nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock' })),
       accent: bg, heroStyle: m.hero3d, wear: rew().wear || {}, chest: chestReady(),
       onOpen: key => window.__smOpen(key),
+      npcs: friends(m).map(id => ({ id, g: (((m.cast || {})[id] || {}).voice || {}).g, style: ((m.cast || {})[id] || {}).hero3d, due: dueCount() > 0 })),
+      onNpc: id => npcReview(id),
       onLocked: () => hint('🔒 ' + tx('locked'), 1800, true),
       onChest: () => { const n = openChest(); box.querySelector('.w3-gems').textContent = gems(); hint(`🎁 +${n} 💎 · ${tx('chestOk')}`, 3200); },
     });
@@ -219,6 +222,63 @@ async function map(m) {
   const c = root.querySelector('.sm-node.cur');
   if (c) setTimeout(() => c.scrollIntoView({ block: 'center', behavior: 'smooth' }), 150);
 }
+// ---------- villagers who help you review: the hero's friends stand by the path in the 3D world ----------
+const dueCount = () => buildQueue('v', 50, Date.now(), null, 'due').length;
+function friends(m) {
+  const cnt = {};
+  for (const lv of Object.values(cache)) for (const sc of Object.values((lv && lv.units) || {})) for (const l of sceneLines(sc)) if (l && l.who) cnt[l.who] = (cnt[l.who] || 0) + 1;
+  return Object.keys(m.cast || {}).filter(k => k !== m.hero && k !== 'narr' && ((m.cast[k].voice || {}).age !== 'pet'))
+    .sort((a, b) => (cnt[b] || 0) - (cnt[a] || 0)).slice(0, 3);
+}
+let ALLV = null;
+async function allVocab() {
+  if (ALLV) return ALLV;
+  ALLV = new Map();
+  for (const lv of LEVELS) { try { for (const w of await loadVocab(lv)) if (!ALLV.has(w.word)) ALLV.set(w.word, w); } catch (e) {} }
+  return ALLV;
+}
+async function npcReview(cid) {
+  stop();
+  const m = META || await meta(), who = (m.cast || {})[cid] || {};
+  let words = buildQueue('v', 8, Date.now(), null, 'due'), none = !words.length;
+  if (none) words = buildQueue('v', 6, Date.now(), null, 'extra');
+  // this level's words first (fast); the other levels only if a word to review is not in it
+  const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
+  let V = new Map(here.map(w => [w.word, w]));
+  if (words.some(w => !V.has(w))) V = await allVocab();
+  const pool = here.length > 8 ? here : [...V.values()];
+  const list = words.map(w => V.get(w)).filter(Boolean).map(w => ({ w, opts: shuf([w, ...shuf(pool.filter(x => x.word !== w.word)).slice(0, 3)]) }));
+  let qi = 0, ok = 0;
+  const frame = (box, below, cheer) => {
+    root.innerHTML = `<div class="sp-scene tc" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">💬 ${esc(L(who.n))} ${tx('rv')}</span><button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></div>
+      <div class="sp-stage">${hills()}${portrait(cid, who, false).replace('class="pt ', `class="pt ${cheer ? 'cheer ' : ''}`)}</div>
+      <div class="sp-prog"><i style="width:${Math.round(100 * qi / Math.max(1, list.length))}%"></i></div>
+      <div class="sp-box tc-box">${box}</div>${below ? `<div class="tc-below">${below}</div>` : ''}</div>`;
+  };
+  const next = () => {
+    if (qi >= list.length) {
+      frame(`<div class="tc-done">✨ ${ok}/${list.length} · 💎 +${Math.floor(ok / 2) + 2}</div><p class="sp-tr" style="text-align:center">${tx('rvDone')}</p>`,
+        `<button class="btn" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')} ▶</button>`, true);
+      update({ xp: (S.xp || 0) + ok + 4 });
+      return;
+    }
+    const c = list[qi];
+    speak(c.w.word);
+    window.__tcSay = t => speak(t);
+    frame(`${none && qi === 0 ? `<div class="sp-tr">${tx('rvNone')}</div>` : ''}<div class="tc-q">${tx('meaning')}</div><div class="sp-line tc-big" lang="${LG}" onclick="window.__tcSay(this.dataset.t)" data-t="${esc(c.w.word)}">${T(c.w.word)} <span class="tc-snd">🔊</span></div>`,
+      `<div class="tc-opts">${c.opts.map((o, k) => `<button class="card tc-opt" onclick="window.__rvPick(${k})">${esc(L(o.m))}</button>`).join('')}</div>`);
+    window.__rvPick = k => {
+      const good = c.opts[k] === c.w;
+      answer(c.w.word, good ? 3 : 1); if (good) ok++;
+      frame(good ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${T(c.w.word)} = ${esc(L(c.w.m))}</div>`,
+        `<button class="btn" onclick="window.__rvNext()">${tx('cont2')} ▶</button>`, good);
+      window.__rvNext = () => { window.__rvNext = () => {}; qi++; next(); };
+    };
+  };
+  next();
+}
+
 // ---------- the shop: looks for the hero, bought with gems ----------
 window.__smShop = async () => {
   const m = META || await meta(), r = rew(), lang = S.lang === 'en' ? 'en' : 'es';
@@ -592,7 +652,7 @@ function css() {
 .tc-match{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tc-match>div{display:grid;gap:8px;align-content:start}
 .pt.cheer .pt-art{animation:tcj .6s ease}
 @keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
-body.sm-on #lang-switch{display:none}
+body.sm-on #lang-switch,body.sm-on .bottomnav{display:none !important}
 body.sm-3d #sm-sky{display:none}
 .w3-hud{position:absolute;left:10px;right:10px;top:10px;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;pointer-events:none}
 .w3-hud>*{pointer-events:auto}
@@ -611,7 +671,7 @@ body.sm-3d #sm-sky{display:none}
 .sh-item.on{border-color:#ffd36b;background:rgba(255,211,107,.12)}
 .sh-ic{font-size:22px}.sh-n{flex:1;font-size:15px}
 .btn-sm{padding:7px 12px !important;font-size:13px !important;min-height:0 !important}
-.sm-world3d{position:relative;height:calc(100vh - 360px);min-height:360px;margin:8px -16px 0;border-radius:22px 22px 0 0;overflow:hidden;background:#0f1d42}
+.sm-world3d{position:relative;height:calc(100vh - 270px);min-height:380px;margin:8px -16px 0;border-radius:22px 22px 0 0;overflow:hidden;background:#0f1d42}
 .sm-world3d canvas{display:block;width:100%;height:100%}
 .sm-hint{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:2;font-size:12px;color:#dfe6ff;background:rgba(10,16,40,.55);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px);white-space:nowrap;transition:background .2s}
 .sm-hint.on{background:rgba(160,60,60,.75)}
@@ -621,7 +681,7 @@ body.sm-on #app,body.sm-on main,body.sm-on .page{background:transparent !importa
 #sm-sky{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:52}
 [data-sm]{position:relative;z-index:1}
 body.sm-on .bottom-nav,body.sm-on nav{z-index:20}
-.sm{padding-bottom:100px}.sm-top{display:flex;justify-content:space-between;align-items:center;padding:14px 0 8px}
+[data-sm].sm{padding-bottom:28px}.sm-top{display:flex;justify-content:space-between;align-items:center;padding:14px 0 8px}
 body.sm-on [data-sm] .chip,body.sm-on [data-sm] .chip *{color:#e8eeff !important}
 body.sm-on [data-sm] .chip{background:rgba(255,255,255,.08) !important;border:1px solid rgba(255,255,255,.18) !important;backdrop-filter:blur(6px)}
 body.sm-on [data-sm] .chip.on{background:#ffd36b !important;border-color:#ffd36b !important}body.sm-on [data-sm] .chip.on,body.sm-on [data-sm] .chip.on *{color:#1b2340 !important}
