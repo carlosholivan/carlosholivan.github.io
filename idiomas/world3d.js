@@ -28,6 +28,17 @@ function inked(geo, mat, k = 1.05) {
   return g;
 }
 const canvasTex = (w, h, draw) => { const c = document.createElement('canvas'); c.width = w; c.height = h; draw(c.getContext('2d')); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; };
+// Photographic textures (Poly Haven, CC0) in assets/tex: colour, normal and roughness at 512 px.
+const TL = new THREE.TextureLoader(), TEXC = {};
+const tex = (id, kind = 'd', rep = 1) => {
+  const key = `${id}_${kind}_${rep}`;
+  if (TEXC[key]) return TEXC[key];
+  const t = TL.load(new URL(`./assets/tex/${id}_${kind}.jpg`, import.meta.url).href);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(rep, rep); t.anisotropy = 4;
+  if (kind === 'd') t.colorSpace = THREE.SRGBColorSpace;
+  return (TEXC[key] = t);
+};
+const pbr = (id, color = '#ffffff', rep = 1, extra = {}) => new THREE.MeshStandardMaterial({ color, map: tex(id, 'd', rep), normalMap: tex(id, 'n', rep), roughnessMap: tex(id, 'r', rep), roughness: 1, ...extra });
 
 // ---------- the hero: adventurer proportions (not chibi), coloured per language, wearing the shop items ----------
 export const OUTFITS = {
@@ -209,6 +220,8 @@ export function mountWorld(el, opt) {
       const a = Rc() * 6.28; cg.position.set(Math.cos(a) * 230, 80 + Rc() * 40, Math.sin(a) * 230); cg.lookAt(0, cg.position.y, 0); sky.add(cg);
     }
   }
+  { const pm = new THREE.PMREMGenerator(renderer), es = new THREE.Scene(); es.add(sky.clone());
+    scene.environment = pm.fromScene(es, .03).texture; scene.environmentIntensity = .35 + day * .35; pm.dispose(); }
   const hemi = new THREE.HemisphereLight(mix('#3a4a8a', '#cfe6ff', day), mix('#101820', '#5a6b3a', day), .35 + day * .8);
   scene.add(hemi);
   const sun = new THREE.DirectionalLight(day > .3 ? mix('#ffb36b', '#fff1d2', Math.min(1, day * 1.4 - dusk * .6)) : new THREE.Color('#b9c8ff'), day > .3 ? 1 + day * 1.6 : .7);
@@ -263,48 +276,65 @@ export function mountWorld(el, opt) {
 
   const seg = Math.min(220, Math.round(S / 1.1));
   const gg = new THREE.PlaneGeometry(S + 60, S + 60, seg, seg); gg.rotateX(-Math.PI / 2);
-  const pos = gg.attributes.position, cols = [];
-  const gA = new THREE.Color(SEA.grass[0]), gB = new THREE.Color(SEA.grass[1]), dirt = new THREE.Color(desert ? '#c9a46a' : T0.season === 'winter' ? '#cfc2b0' : '#b08a5a');
-  const rock = new THREE.Color(T0.season === 'winter' && !desert ? '#f2f5fb' : '#8a7f6e'), rockD = new THREE.Color('#6d6456'), stoneC = new THREE.Color('#c9c1b0'), sand = new THREE.Color('#d9c79a');
+  // Terrain painted with four photographic textures, blended per vertex: ground (grass, snow or sand by season and
+  // biome), dirt on the roads, cobbles in the town squares, rock on the high slopes.
+  const pos = gg.attributes.position, splat = [], tint = [];
+  const gA = new THREE.Color(SEA.grass[0]), gB = new THREE.Color(SEA.grass[1]);
+  const sm = (a0, b0, x) => { const t = Math.min(1, Math.max(0, (x - a0) / (b0 - a0))); return t * t * (3 - 2 * t); };
+  const winter = T0.season === 'winter' && !desert;
   for (let k = 0; k < pos.count; k++) {
     const x = pos.getX(k), z = pos.getZ(k), h = Hf(x, z), rd = segDist(x, z), pd = plazaDist(x, z);
     pos.setY(k, h);
-    let c;
-    if (pd < 5.5) c = stoneC.clone().offsetHSL(0, 0, (R() - .5) * .05);
-    else if (rd < 1.7) c = dirt.clone().offsetHSL(0, 0, (R() - .5) * .05);
-    else if (h < -.15) c = sand.clone();
-    else if (h > 5) c = (R() < .5 ? rock : rockD).clone();
-    else c = gA.clone().lerp(gB, .5 + Math.sin(x * .2 + z * .13) * .4).offsetHSL(0, 0, (R() - .5) * .04);
-    cols.push(c.r, c.g, c.b);
+    const wc = 1 - sm(4.6, 6.4, pd), wd = (1 - sm(1.3, 2.5, rd)) * (1 - wc) + sm(-.05, -.35, h) * (1 - wc) * .9;
+    const wr = sm(3.6, 6.2, h) * (1 - wc) * (1 - wd), wb = Math.max(0, 1 - wc - wd - wr);
+    splat.push(wb, wd, wc, wr);
+    const g = winter || desert ? new THREE.Color('#ffffff') : gA.clone().lerp(gB, .5 + Math.sin(x * .2 + z * .13) * .4).multiplyScalar(1.75);
+    tint.push(g.r, g.g, g.b);
   }
-  gg.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
+  gg.setAttribute('splat', new THREE.Float32BufferAttribute(splat, 4));
+  gg.setAttribute('tint', new THREE.Float32BufferAttribute(tint, 3));
   gg.computeVertexNormals();
-  const grain = canvasTex(256, 256, x => { const R2 = rng(3); x.fillStyle = '#ededed'; x.fillRect(0, 0, 256, 256); for (let k = 0; k < 7000; k++) { const v = 215 + R2() * 40 | 0; x.fillStyle = `rgb(${v},${v},${v})`; x.fillRect(R2() * 256, R2() * 256, 1, 2 + R2() * 3); } });
-  grain.wrapS = grain.wrapT = THREE.RepeatWrapping; grain.repeat.set(S / 5, S / 5);
-  const ground = new THREE.Mesh(gg, new THREE.MeshStandardMaterial({ vertexColors: true, map: grain, roughness: .95 }));
+  const baseId = desert ? 'coast_sand_01' : winter ? 'snow_02' : 'leafy_grass';
+  const gm = new THREE.MeshStandardMaterial({ roughness: .95, color: '#ffffff' });
+  gm.onBeforeCompile = sh => {
+    Object.assign(sh.uniforms, { tB: { value: tex(baseId) }, tD: { value: tex(desert ? 'coast_sand_01' : 'dirt_floor') }, tC: { value: tex('cobblestone_floor_04') }, tR: { value: tex(winter ? 'snow_02' : 'rock_face_03') } });
+    sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nattribute vec4 splat; attribute vec3 tint; varying vec4 vSp; varying vec3 vTi; varying vec2 vW;')
+      .replace('#include <begin_vertex>', '#include <begin_vertex>\nvSp = splat; vTi = tint; vW = (modelMatrix * vec4(position, 1.)).xz;');
+    sh.fragmentShader = sh.fragmentShader.replace('#include <common>', '#include <common>\nuniform sampler2D tB, tD, tC, tR; varying vec4 vSp; varying vec3 vTi; varying vec2 vW;')
+      .replace('#include <map_fragment>', `
+        vec2 u1 = vW / 3.5, u2 = vW / 2.2;
+        vec3 cB = texture2D(tB, u1).rgb * vTi, cB2 = texture2D(tB, vW / 17.).rgb * vTi;
+        cB = mix(cB, cB2, .35);
+        vec3 col = cB * vSp.x + texture2D(tD, u2).rgb * vSp.y + texture2D(tC, vW / 3.).rgb * vSp.z + texture2D(tR, vW / 6.).rgb * vSp.w;
+        diffuseColor.rgb *= col;`);
+  };
+  const ground = new THREE.Mesh(gg, gm);
   ground.receiveShadow = true; scene.add(ground);
-  const water = new THREE.Mesh(new THREE.PlaneGeometry(S + 60, S + 60), new THREE.MeshStandardMaterial({ color: day > .4 ? '#2a6fb0' : '#10284f', roughness: .12, metalness: .6, transparent: true, opacity: .88 }));
+  const water = new THREE.Mesh(new THREE.PlaneGeometry(S + 60, S + 60), new THREE.MeshStandardMaterial({ color: day > .4 ? '#245f96' : '#0c2246', roughness: .06, metalness: .85, normalMap: tex('snow_02', 'n', 40), normalScale: new THREE.Vector2(.25, .25), transparent: true, opacity: .9 }));
   water.rotation.x = -Math.PI / 2; water.position.y = -.4; scene.add(water);
 
   // ----- trees, as instanced meshes (hundreds, cheap) -----
   const spots = [];
   for (let k = 0; k < S * S / 20; k++) {
     const x = (R() - .5) * (S + 20), z = (R() - .5) * (S + 20);
-    if (segDist(x, z) < 3.4 || plazaDist(x, z) < 9 || Hf(x, z) < -.1 || Hf(x, z) > 9) continue;
+    if (segDist(x, z) < 3.4 || plazaDist(x, z) < 15 || Hf(x, z) < -.1 || Hf(x, z) > 9) continue;
     spots.push([x, z, R(), .8 + R() * .8]);
   }
   const dummy = new THREE.Object3D();
   const inst = (geo, mat, list, f) => { const m = new THREE.InstancedMesh(geo, mat, Math.max(1, list.length)); m.count = list.length; list.forEach((s, k) => { f(s, dummy); dummy.updateMatrix(); m.setMatrixAt(k, dummy.matrix); }); m.castShadow = true; m.receiveShadow = true; scene.add(m); return m; };
   const broad = spots.filter(s => s[2] < (desert ? .45 : .6)), pines = desert ? [] : spots.filter(s => s[2] >= .6 && s[2] < .88), bushes = spots.filter(s => s[2] >= .88);
-  const trunkM = std('#6b4a2e');
+  const trunkM = pbr('weathered_brown_planks', '#6b5040', 1);
   inst(new THREE.CylinderGeometry(.22, .34, desert ? 4.2 : 2.2, 7), trunkM, broad, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + (desert ? 2.1 : 1.1) * s[3], s[1]); d.scale.setScalar(s[3]); d.rotation.set(0, 0, desert ? .12 : 0); });
-  const crownCols = SEA.crowns.map(c => toon(c));
+  const crownCols = SEA.crowns.map(c => new THREE.MeshStandardMaterial({ color: new THREE.Color(c).multiplyScalar(1.9), map: tex('leafy_grass', 'd', 2), normalMap: tex('leafy_grass', 'n', 2), roughness: .9 }));
   crownCols.forEach((mat, ci) => {
     const mine = broad.filter((s, k) => k % crownCols.length === ci);
-    if (desert) inst(new THREE.ConeGeometry(1.6, .5, 7), mat, mine, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + 4.3 * s[3], s[1]); d.scale.setScalar(s[3]); d.rotation.set(Math.PI, s[2] * 9, 0); });
+    if (desert) {      // palm: a fan of long drooping fronds
+      const fg = new THREE.BoxGeometry(.42, .04, 2.4); fg.translate(0, 0, 1.15);
+      for (let f = 0; f < 7; f++) inst(fg, mat, mine, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + 4.25 * s[3], s[1]); d.scale.setScalar(s[3]); d.rotation.set(0, 0, 0); d.rotateY(f / 7 * Math.PI * 2 + s[2] * 9); d.rotateX(.45 + (f % 2) * .2); });
+    }
     else inst(new THREE.IcosahedronGeometry(1.45, 1), mat, mine, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + 3 * s[3], s[1]); d.scale.set(s[3], s[3] * .85, s[3]); d.rotation.set(0, s[2] * 9, 0); });
   });
-  const pineM = toon(SEA.pine), pineSnow = toon('#ffffff');
+  const pineM = new THREE.MeshStandardMaterial({ color: new THREE.Color(SEA.pine).multiplyScalar(1.9), map: tex('leafy_grass', 'd', 2), normalMap: tex('leafy_grass', 'n', 2), roughness: .9 }), pineSnow = pbr('snow_02', '#ffffff', 1);
   for (let j = 0; j < 3; j++) {
     inst(new THREE.ConeGeometry(1.3 - j * .32, 1.6, 9), pineM, pines, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + (1.3 + j * .85) * s[3], s[1]); d.scale.setScalar(s[3]); d.rotation.set(0, 0, 0); });
     if (T0.season === 'winter' && !desert) inst(new THREE.ConeGeometry((1.3 - j * .32) * .55, .55, 9), pineSnow, pines, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + (1.75 + j * .85) * s[3], s[1]); d.scale.setScalar(s[3]); });
@@ -312,10 +342,34 @@ export function mountWorld(el, opt) {
   inst(new THREE.CylinderGeometry(.14, .2, 1, 6), trunkM, pines, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + .5 * s[3], s[1]); d.scale.setScalar(s[3]); });
   inst(new THREE.IcosahedronGeometry(.7, 1), toon(SEA.crowns[SEA.crowns.length - 1]), bushes, (s, d) => { d.position.set(s[0], groundY(s[0], s[1]) + .3, s[1]); d.scale.set(1.3 * s[3], .7 * s[3], s[3]); });
 
+  // ----- grass blades swaying in the wind, around the hero (rebuilt when the hero walks far) -----
+  let grass = null, grassAt = null, grassT = { value: 0 };
+  if (!(T0.season === 'winter' && !desert)) {
+    const NB = desert ? 2500 : 9000, bg = new THREE.PlaneGeometry(.08, .5, 1, 3); bg.translate(0, .25, 0);
+    const bp = bg.attributes.position; for (let k = 0; k < bp.count; k++) bp.setX(k, bp.getX(k) * (1 - bp.getY(k) / .55));
+    const bm = new THREE.MeshLambertMaterial({ side: THREE.DoubleSide });
+    bm.onBeforeCompile = sh => { sh.uniforms.uT = grassT;
+      sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nuniform float uT;')
+        .replace('#include <begin_vertex>', '#include <begin_vertex>\nvec2 ip = vec2(instanceMatrix[3][0], instanceMatrix[3][2]); float hh = position.y * 2.; transformed.x += sin(uT * 1.8 + ip.x * .45 + ip.y * .3) * hh * hh * .07; transformed.z += cos(uT * 1.3 + ip.x * .2) * hh * hh * .04;'); };
+    grass = new THREE.InstancedMesh(bg, bm, NB); grass.receiveShadow = true; scene.add(grass);
+    const cA = new THREE.Color(desert ? '#b8a06a' : SEA.grass[0]).multiplyScalar(.95), cB2 = new THREE.Color(desert ? '#d8c088' : SEA.grass[1]).multiplyScalar(1.15);
+    grassAt = (cx, cz) => {
+      const GR = rng(Math.floor(cx) * 31 + Math.floor(cz)), d0 = new THREE.Object3D(); let n = 0;
+      for (let k = 0; k < NB * 1.6 && n < NB; k++) {
+        const a = GR() * Math.PI * 2, r = Math.sqrt(GR()) * 26, x = cx + Math.cos(a) * r, z = cz + Math.sin(a) * r, h = Hf(x, z);
+        if (h < -.1 || h > 3.8 || segDist(x, z) < 1.7 || plazaDist(x, z) < 6) continue;
+        d0.position.set(x, h, z); d0.rotation.set((GR() - .5) * .3, GR() * 6.3, 0); d0.scale.setScalar(.7 + GR() * .9); d0.updateMatrix();
+        grass.setMatrixAt(n, d0.matrix); grass.setColorAt(n, cA.clone().lerp(cB2, GR())); n++;
+      }
+      grass.count = n; grass.instanceMatrix.needsUpdate = true; if (grass.instanceColor) grass.instanceColor.needsUpdate = true;
+      grass.userData.c = [cx, cz];
+    };
+  }
+
   // ----- buildings in the style of the country -----
-  const wallM = std(arch === 'arab' ? '#f1e6cf' : arch === 'asia' ? '#efe6d6' : '#efe3c8');
-  const roofM = std(arch === 'asia' ? '#4a4f5c' : arch === 'arab' ? '#e8dcc4' : new THREE.Color(accent[0]).lerp(new THREE.Color('#a0402e'), .65));
-  const woodM = std('#7a5634'), stone = std('#b9b2a2', { flatShading: true }), grey = std('#8a8e99', { flatShading: true });
+  const wallM = arch === 'europe' ? pbr('plastered_stone_wall', '#f3ead8', 1) : pbr('white_plaster_02', arch === 'arab' ? '#f6ead2' : '#f1e8d8', 1);
+  const roofM = arch === 'asia' ? pbr('grey_roof_tiles_02', '#8a90a0', 2) : arch === 'arab' ? pbr('white_plaster_02', '#efe2c8', 1) : pbr('clay_roof_tiles_02', '#ffffff', 2);
+  const woodM = pbr('weathered_brown_planks', '#ffffff', 1), stone = pbr('stone_wall', '#ffffff', 1), grey = pbr('stone_wall', '#8a8e99', 1);
   const glowM = new THREE.MeshBasicMaterial({ color: lit ? new THREE.Color('#ffc85c').multiplyScalar(2.2) : new THREE.Color('#6a4a2a'), toneMapped: !lit });
   const lanterns = [];
   function house(x, z, rot, k = 1) {
@@ -451,6 +505,7 @@ export function mountWorld(el, opt) {
   const heroPos = new THREE.Vector3(cp.x, 0, cp.y + 6.5);
   heroPos.y = groundY(heroPos.x, heroPos.z);
   me.position.copy(heroPos); scene.add(me);
+  if (grassAt) grassAt(heroPos.x, heroPos.z);
   const pet = wear.pet ? companion(wear.pet) : null;
   if (pet) { pet.position.copy(heroPos).add(new THREE.Vector3(1, 0, 1)); scene.add(pet); }
   // a soft light that follows the hero at night
@@ -551,6 +606,7 @@ export function mountWorld(el, opt) {
     limbs.ll.rotation.x = sw; limbs.lr.rotation.x = -sw; limbs.al.rotation.x = -sw * .7; limbs.ar.rotation.x = sw * .7;
     body.position.y = walking ? Math.abs(Math.sin(t * 12)) * .08 : Math.sin(t * 2) * .02;
     heroLight.position.set(heroPos.x, heroPos.y + 3, heroPos.z);
+    if (grass) { grassT.value = t; const gc = grass.userData.c; if (Math.hypot(heroPos.x - gc[0], heroPos.z - gc[1]) > 12) grassAt(heroPos.x, heroPos.z); }
     if (pet) {
       const bx = heroPos.x - Math.sin(face) * 1.3 + Math.cos(face) * .9, bz = heroPos.z - Math.cos(face) * 1.3 - Math.sin(face) * .9;
       pet.position.x += (bx - pet.position.x) * .08; pet.position.z += (bz - pet.position.z) * .08;
