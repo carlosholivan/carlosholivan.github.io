@@ -79,7 +79,7 @@
 </head>
 <body>
 <div class="wrap" id="app"></div>
-<p class="muted small" style="text-align:center;margin:0 0 32px"><a href="privacidad.html" style="color:inherit">Privacidad · Privacy</a></p>
+<p class="muted small" style="text-align:center;margin:0 0 32px"><a href="#" onclick="event.preventDefault();import('./guide.js?v=202611282130').then(m => m.showGuide())" style="color:inherit">Guía</a> · <a href="privacidad.html" style="color:inherit">Privacidad · Privacy</a></p>
 <script>
 // Light by default; dark only when the learner turned dark mode on in one of the apps (Ajustes → Modo oscuro).
 (function () {
@@ -105,6 +105,7 @@ import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWith
   sendPasswordResetEmail, sendEmailVerification, reload } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js';
 import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
 import firebaseConfig from './firebase-config.js?v=1';
+import { showGuide, guideSeen } from './guide.js?v=202611282130';
 import { worldMap, CSS as WM_CSS } from './worldmap.js?v=202611281710';
 document.head.insertAdjacentHTML('beforeend', `<style>${WM_CSS}</style>`);
 
@@ -299,6 +300,8 @@ function flow() {
     const had = APPS.filter(started).map(a => a.id);
     if (had.length) { chosen = had; set(PREF, JSON.stringify(chosen)); saveChoice(); }
   }
+  // the welcome guide comes first, once, before choosing languages
+  if (!(chosen && chosen.length) && !guideSeen()) return showGuide(() => picker(true));
   chosen && chosen.length ? dashboard() : picker(true);
 }
 

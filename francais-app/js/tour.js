@@ -1,7 +1,7 @@
 // First-run guided tour: one screen at a time, the place to look framed in black with an arrow,
 // "Next" / "Back" / "Skip". It runs once per app (and again from Settings) and ends on Mochi's welcome.
-import { S } from './state.js?v=202611282031';
-import { go } from './router.js?v=202611282031';
+import { S } from './state.js?v=202611282039';
+import { go } from './router.js?v=202611282039';
 
 const APP = (location.pathname.match(/([\w-]+)-app\//) || [])[1] || 'app';
 const DONE = `tour_done_${APP}`;
@@ -23,6 +23,12 @@ const STEPS = [
   { view: 'study-pick', sel: '.study-pick .study-opt:not(.review-opt)', text: {
     es: 'Cada vez que entras empiezas aquí: <b>¿Qué quieres aprender hoy?</b> Elige gramática, vocabulario, práctica o una lectura de tu lección actual.',
     en: 'Every time you come in you start here: <b>What do you want to learn today?</b> Pick grammar, vocabulary, practice or a reading from your current lesson.' } },
+  { view: 'study-pick', sel: '.mode-card:nth-child(2)', text: {
+    es: '<b>Modo historia</b>: las mismas lecciones vividas como una aventura. Un mapa de la región con pueblos, un templo al final de cada nivel, amigos que repasan y juegan contigo (parejas, escribir caracteres, verbos) y palabras de la cultura del país. También lo abres desde el botón 🗺️ de Inicio.',
+    en: '<b>Story mode</b>: the same lessons lived as an adventure. A map of the region with towns, a temple at the end of each level, friends who review and play with you (pairs, writing characters, verbs) and words from the country\u2019s culture. You can also open it from the 🗺️ button on Home.' } },
+  { text: {
+    es: '<b>En las lecciones</b>: cada fallo cuesta una vida (🍙 onigiri, 🥨 pretzel…). Sin vidas no empiezas una lección nueva, pero repasando las recuperas. Hay <b>dictados</b> con la velocidad que elijas, ejercicios de <b>conjugación</b>, el botón 🌐 para ver u ocultar la traducción y <b>«¿Por qué?»</b> para que la IA te explique cada fallo.',
+    en: '<b>In the lessons</b>: each mistake costs a life (🍙 onigiri, 🥨 pretzel…). Without lives you cannot start a new lesson, but reviewing earns them back. There are <b>dictations</b> at the speed you choose, <b>conjugation</b> exercises, the 🌐 button to show or hide translations and <b>“Why?”</b> so the AI explains each mistake.' } },
   { view: 'study-pick', sel: '.study-pick .btn-link', text: {
     es: '¿Prefieres ir directo a tus lecciones? Toca <b>este texto al final de la página</b> y te saltas esta pantalla.',
     en: 'Prefer to go straight to your lessons? Tap <b>this text at the bottom of the page</b> to skip this screen.' } },
@@ -51,7 +57,7 @@ const STEPS = [
     es: 'Para <b>volver atrás</b>, toca la flecha de arriba a la izquierda.',
     en: 'To <b>go back</b>, tap the arrow at the top left.' } },
   { view: 'settings', sel: '#tutor-settings', text: {
-    es: '<b>Tutor IA (Gemini)</b>: pega aquí tu clave gratuita de Google (los pasos están explicados). Después podrás seleccionar una frase, tocar una palabra o pulsar <b>«¿Por qué?»</b> al fallar un ejercicio, y la IA te lo explica.',
+    es: '<b>Tutor IA (Gemini)</b>: pega aquí tu clave gratuita de Google (los pasos están explicados). Después podrás seleccionar una frase, tocar una palabra o pulsar <b>«¿Por qué?»</b> al fallar un ejercicio, y la IA te lo explica. En Ajustes también eliges <b>sonidos</b>, <b>colores</b>, el <b>tema noche estrellada</b> y la velocidad de la voz.',
     en: '<b>AI tutor (Gemini)</b>: paste your free Google key here (the steps are explained). Then you can select a sentence, tap a word or press <b>“Why?”</b> when you get an exercise wrong, and the AI explains it.' } },
   { view: 'settings', sel: '.bottomnav', text: {
     es: 'Con la <b>barra de abajo</b> vas a cada sección: inicio, gramática, textos, repaso, ranking, progreso y ajustes.',
