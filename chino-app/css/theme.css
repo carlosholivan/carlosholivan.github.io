@@ -168,3 +168,6 @@ body.candy .exercise-option:not(.correct):not(.wrong):not(.selected):nth-of-type
 body.candy .exercise-option:not(.correct):not(.wrong):not(.selected):nth-of-type(4n+4) { border-color: #b7e3ff; border-bottom-color: #3aa8e0 }
 body.candy .exercise-option.correct { background: linear-gradient(#ecfff5, #c8f5de) !important; border-color: #3ddc97 !important; border-bottom-color: #1fa56b !important; box-shadow: 0 0 0 4px rgba(61,220,151,.25) }
 body.candy .exercise-option.wrong { background: linear-gradient(#fff1f3, #ffd6dd) !important; border-color: #ff6b81 !important; border-bottom-color: #d63a52 !important }
+
+/* the 🌐 button in lessons hides the translation of exercise sentences */
+body.notr .ex-tr { display: none }

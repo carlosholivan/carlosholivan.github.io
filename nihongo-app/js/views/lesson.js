@@ -1,21 +1,21 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281839';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611281839';
-import { buildReview } from '../engine/review.js?v=202611281839';
-import { addCards } from '../engine/anki.js?v=202611281839';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281839';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611281839';
-import { CFG as LCFG } from '../app-config.js?v=202611281839';
-import { register, go } from '../router.js?v=202611281839';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281839';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281839';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611281839';
-import { recordAnswer } from '../engine/srs.js?v=202611281839';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611281839';
-import { icon } from '../ui/icons.js?v=202611281839';
-import { t } from '../i18n.js?v=202611281839';
-import { speak, stop as stopAudio } from '../audio.js?v=202611281839';
-import { allHanzi } from './review.js?v=202611281839';
-import { charWord, hasChars } from '../chars.js?v=202611281839';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282014';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282014';
+import { buildReview } from '../engine/review.js?v=202611282014';
+import { addCards } from '../engine/anki.js?v=202611282014';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282014';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282014';
+import { CFG as LCFG } from '../app-config.js?v=202611282014';
+import { register, go } from '../router.js?v=202611282014';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282014';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282014';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611282014';
+import { recordAnswer } from '../engine/srs.js?v=202611282014';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611282014';
+import { icon } from '../ui/icons.js?v=202611282014';
+import { t } from '../i18n.js?v=202611282014';
+import { speak, stop as stopAudio } from '../audio.js?v=202611282014';
+import { allHanzi } from './review.js?v=202611282014';
+import { charWord, hasChars } from '../chars.js?v=202611282014';
 
 const MAX_HEARTS = 5;
 
@@ -34,14 +34,22 @@ function zhAnswer(text, py) {
   return /[\u3400-\u9fff]/.test(text) ? ruby(text, py ? { py } : {}) : esc(text);
 }
 
+// Show or hide the translation of the exercise sentences (remembered).
+window.__trGlobal = () => {
+  update({ showTr: S.showTr === false });
+  document.body.classList.toggle('notr', S.showTr === false);
+  document.querySelectorAll('.tr-toggle').forEach(b => { b.classList.toggle('on', S.showTr !== false); b.textContent = '🌐 ' + (S.showTr === false ? '✗' : '✓'); });
+};
+
 register('lesson', async (el, params) => {
   // From story mode, finishing (or leaving) a lesson goes back to the story, which plays the closing scene.
   window.__lessonDone = () => { stopAudio(); params.story ? go('story', { level: params.level, outro: String(params.unit) }) : go('home'); };
   await pyReady; await sylReady;
+  document.body.classList.toggle('notr', S.showTr === false);
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611281839');
+    const lg = await import('../../../idiomas/lives.js?v=202611282014');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -199,6 +207,7 @@ register('lesson', async (el, params) => {
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
         <div class="grow">${progressBar(pct)}</div>
+        <button style="padding:4px 10px" class="chip tr-toggle ${S.showTr === false ? '' : 'on'}" onclick="window.__trGlobal()" title="${S.lang === 'en' ? 'Translation' : 'Traducción'}">🌐 ${S.showTr === false ? '✗' : '✓'}</button>
         ${pyToggle()}
         <div class="flex items-center lv-chip" style="gap:4px;font-weight:700">${lifeOf(LCFG.id)} ${lives()}</div>
       </div>
@@ -225,14 +234,14 @@ register('lesson', async (el, params) => {
 
   function optionsHtml(ex, handler) {
     return `<div id="options">${ex.options.map((opt, i) =>
-      `<button class="exercise-option ${ex.kind === 'tone' ? 'py-opt' : /[\u3400-\u9fff]/.test(opt) ? 'zh-opt' : ''}" onclick="window.${handler}(${i})">${ex.kind === 'tone' ? tonedPinyin(opt) : esc(opt)}</button>`).join('')}</div>`;
+      `<button class="exercise-option ${ex.kind === 'tone' ? 'py-opt' : /[\u3400-\u9fff]/.test(opt) ? 'zh-opt' : ''}" onclick="window.${handler}(${i})">${ex.kind === 'tone' ? tonedPinyin(opt) : /[\u3040-\u30ff\u3400-\u9fff\u0600-\u06ff]/.test(opt) ? ruby(opt) : esc(opt)}</button>`).join('')}</div>`;
   }
 
   function renderByType(ex) {
     switch (ex.type) {
       case 'choose':
         return `<div class="slideup">${hintOf(ex)}
-          <div class="h3 mb-16">${ex.promptKey === 'whatMeans' || ex.promptKey === 'whichPinyin' ? t(ex.promptKey + 'Q') + `<div class="zh-prompt">${esc(ex.promptArg)}</div>` : promptOf(ex)}${ex.speak && ex.kind !== 'tone' ? ` <button onclick="window.__speak()" style="font-size:18px">🔊</button>` : ''}</div>
+          <div class="h3 mb-16">${ex.promptKey === 'whatMeans' || ex.promptKey === 'whichPinyin' ? t(ex.promptKey + 'Q') + `<div class="zh-prompt">${ruby(ex.promptArg)}</div>` : promptOf(ex)}${ex.speak && ex.kind !== 'tone' ? ` <button onclick="window.__speak()" style="font-size:18px">🔊</button>` : ''}</div>
           ${optionsHtml(ex, '__choose')}<div id="feedback"></div></div>`;
       case 'listen':
         return `<div class="slideup">
@@ -250,8 +259,8 @@ register('lesson', async (el, params) => {
         const parts = ex.sentence.split('___');
         return `<div class="slideup">${hintOf(ex)}
           <div class="card" style="padding:20px;margin-bottom:16px;font-size:22px;line-height:1.8">
-            <span class="zh">${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}</span>
-            ${ex.trans ? `<div class="muted small mt-8" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
+            <span class="zh">${ruby(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${ruby(parts[1] || '')}</span>
+            ${ex.trans ? `<div class="muted small mt-8 ex-tr" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
           </div>
           ${optionsHtml(ex, '__fillChoose')}<div id="feedback"></div></div>`;
       }
@@ -260,7 +269,7 @@ register('lesson', async (el, params) => {
           <div class="h3 mb-16">${promptOf(ex)}</div>
           <div class="sentence-area" id="sentence-area"></div>
           <div class="wordbank">${ex.words.map((w, i) =>
-            `<button class="wordchip" id="wc-${i}" onclick="window.__pickWord(${i})">${esc(w)}</button>`).join('')}</div>
+            `<button class="wordchip" id="wc-${i}" onclick="window.__pickWord(${i})">${ruby(w)}</button>`).join('')}</div>
           <button class="btn mt-16" id="check-btn" onclick="window.__checkOrder()">${t('check')}</button>
           <div id="feedback" class="mt-12"></div></div>`;
       case 'match': {

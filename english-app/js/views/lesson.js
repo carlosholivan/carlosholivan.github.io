@@ -1,21 +1,21 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281839';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611281839';
-import { buildReview } from '../engine/review.js?v=202611281839';
-import { addCards } from '../engine/anki.js?v=202611281839';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281839';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611281839';
-import { CFG as LCFG } from '../app-config.js?v=202611281839';
-import { register, go } from '../router.js?v=202611281839';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281839';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281839';
-import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611281839';
-import { recordAnswer } from '../engine/srs.js?v=202611281839';
-import { progressBar } from '../ui/components.js?v=202611281839';
-import { icon } from '../ui/icons.js?v=202611281839';
-import { t } from '../i18n.js?v=202611281839';
-import { speak, stop as stopAudio } from '../audio.js?v=202611281839';
-import { allHanzi } from './review.js?v=202611281839';
-import { wordSize } from '../chars.js?v=202611281839';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282014';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282014';
+import { buildReview } from '../engine/review.js?v=202611282014';
+import { addCards } from '../engine/anki.js?v=202611282014';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282014';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282014';
+import { CFG as LCFG } from '../app-config.js?v=202611282014';
+import { register, go } from '../router.js?v=202611282014';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282014';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282014';
+import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611282014';
+import { recordAnswer } from '../engine/srs.js?v=202611282014';
+import { progressBar } from '../ui/components.js?v=202611282014';
+import { icon } from '../ui/icons.js?v=202611282014';
+import { t } from '../i18n.js?v=202611282014';
+import { speak, stop as stopAudio } from '../audio.js?v=202611282014';
+import { allHanzi } from './review.js?v=202611282014';
+import { wordSize } from '../chars.js?v=202611282014';
 
 const MAX_HEARTS = 5;
 
@@ -32,14 +32,22 @@ function zhAnswer(text) {
   return `<span class="es">${esc(text)}</span>`;
 }
 
+// Show or hide the translation of the exercise sentences (remembered).
+window.__trGlobal = () => {
+  update({ showTr: S.showTr === false });
+  document.body.classList.toggle('notr', S.showTr === false);
+  document.querySelectorAll('.tr-toggle').forEach(b => { b.classList.toggle('on', S.showTr !== false); b.textContent = '🌐 ' + (S.showTr === false ? '✗' : '✓'); });
+};
+
 register('lesson', async (el, params) => {
   // From story mode, finishing (or leaving) a lesson goes back to the story, which plays the closing scene.
   window.__lessonDone = () => { stopAudio(); params.story ? go('story', { level: params.level, outro: String(params.unit) }) : go('home'); };
   await pyReady; await sylReady;
+  document.body.classList.toggle('notr', S.showTr === false);
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611281839');
+    const lg = await import('../../../idiomas/lives.js?v=202611282014');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -195,6 +203,7 @@ register('lesson', async (el, params) => {
       <div class="flex items-center gap-12 mb-12">
         <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
         <div class="grow">${progressBar(pct)}</div>
+        <button style="padding:4px 10px" class="chip tr-toggle ${S.showTr === false ? '' : 'on'}" onclick="window.__trGlobal()" title="${S.lang === 'en' ? 'Translation' : 'Traducción'}">🌐 ${S.showTr === false ? '✗' : '✓'}</button>
         <div class="flex items-center lv-chip" style="gap:4px;font-weight:700">${lifeOf(LCFG.id)} ${lives()}</div>
       </div>
       ${help}
@@ -245,7 +254,7 @@ register('lesson', async (el, params) => {
         return `<div class="slideup">${hintOf(ex)}
           <div class="card" style="padding:20px;margin-bottom:16px;font-size:19px;line-height:1.7">
             <span class="es">${esc(parts[0])}<span class="blank" id="blank-slot">&nbsp;</span>${esc(parts[1] || '')}</span>
-            ${ex.trans ? `<div class="muted small mt-8" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
+            ${ex.trans ? `<div class="muted small mt-8 ex-tr" style="font-size:14px">${esc(ex.trans)}</div>` : ''}
           </div>
           ${optionsHtml(ex, '__fillChoose')}<div id="feedback"></div></div>`;
       }

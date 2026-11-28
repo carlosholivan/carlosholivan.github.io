@@ -2,18 +2,18 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281839';
-import { S, update, completeUnit } from '../state.js?v=202611281839';
-import { register, go } from '../router.js?v=202611281839';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281839';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281839';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281839';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281839';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281839';
-import { unitVocab } from '../engine/exercises.js?v=202611281839';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611281839';
-import { speak, speakAs, stop } from '../audio.js?v=202611281839';
-import { ruby, pyReady, sylReady, esc } from '../ja.js?v=202611281839';
+import { CFG } from '../app-config.js?v=202611282014';
+import { S, update, completeUnit } from '../state.js?v=202611282014';
+import { register, go } from '../router.js?v=202611282014';
+import { LEVELS, levelLabel } from '../levels.js?v=202611282014';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611282014';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611282014';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282014';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611282014';
+import { unitVocab } from '../engine/exercises.js?v=202611282014';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611282014';
+import { speak, speakAs, stop } from '../audio.js?v=202611282014';
+import { ruby, pyReady, sylReady, esc } from '../ja.js?v=202611282014';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -108,7 +108,7 @@ function lifeBonus(el) {
 // Returns true when it blocked. Whatever is already under way can always be finished.
 async function gate(retry) {
   if (lives() > 0) return false;
-  const lg = await import('../../../idiomas/lives.js?v=202611281839');
+  const lg = await import('../../../idiomas/lives.js?v=202611282014');
   lg.showGate({ lang: S.lang, icon: LIFE[0], name: L(LIFE[1]), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
     onPractice: async () => { const f = friends(META || await meta())[0]; f ? npcReview(f) : window.__go('review'); },
     onRefill: () => { if (!refillLives()) return false; sfx('win'); shout(`${LIFE[0].repeat(LIFE_MAX)}`); retry && setTimeout(retry, 300); return true; },
@@ -296,7 +296,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611281839').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611282014').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
@@ -472,7 +472,7 @@ window.__wgPlay = async cid => {
   if (await gate(() => window.__wgPlay(cid))) return;
   stop();
   const m = META || await meta(), who = (m.cast || {})[cid] || {};
-  const wm = await import('../../../idiomas/wordmatch.js?v=202611281839');
+  const wm = await import('../../../idiomas/wordmatch.js?v=202611282014');
   if (!document.getElementById('wg-css')) document.head.insertAdjacentHTML('beforeend', `<style id="wg-css">${wm.CSS}</style>`);
   // words: due for review first, then this level's (only short meanings fit on a tile)
   const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
