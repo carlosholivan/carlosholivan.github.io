@@ -1,22 +1,22 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282039';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611282039';
-import { buildReview } from '../engine/review.js?v=202611282039';
-import { addCards } from '../engine/anki.js?v=202611282039';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282039';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282039';
-import { CFG as LCFG } from '../app-config.js?v=202611282039';
-import { conjExercises } from '../conjq.js?v=202611282039';
-import { register, go } from '../router.js?v=202611282039';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282039';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282039';
-import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611282039';
-import { recordAnswer } from '../engine/srs.js?v=202611282039';
-import { progressBar } from '../ui/components.js?v=202611282039';
-import { icon } from '../ui/icons.js?v=202611282039';
-import { t } from '../i18n.js?v=202611282039';
-import { speak, stop as stopAudio, SPEEDS, speed } from '../audio.js?v=202611282039';
-import { allHanzi } from './review.js?v=202611282039';
-import { wordSize } from '../chars.js?v=202611282039';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282046';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282046';
+import { buildReview } from '../engine/review.js?v=202611282046';
+import { addCards } from '../engine/anki.js?v=202611282046';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282046';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282046';
+import { CFG as LCFG } from '../app-config.js?v=202611282046';
+import { conjExercises } from '../conjq.js?v=202611282046';
+import { register, go } from '../router.js?v=202611282046';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282046';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282046';
+import { ruby, pyReady, sylReady, fold } from '../es.js?v=202611282046';
+import { recordAnswer } from '../engine/srs.js?v=202611282046';
+import { progressBar } from '../ui/components.js?v=202611282046';
+import { icon } from '../ui/icons.js?v=202611282046';
+import { t } from '../i18n.js?v=202611282046';
+import { speak, stop as stopAudio, SPEEDS, speed } from '../audio.js?v=202611282046';
+import { allHanzi } from './review.js?v=202611282046';
+import { wordSize } from '../chars.js?v=202611282046';
 
 const MAX_HEARTS = 5;
 
@@ -48,7 +48,7 @@ register('lesson', async (el, params) => {
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611282039');
+    const lg = await import('../../../idiomas/lives.js?v=202611282046');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
