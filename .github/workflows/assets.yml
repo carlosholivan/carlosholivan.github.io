@@ -1,0 +1,36 @@
+name: 3D assets (Poly Haven, CC0)
+# probe: list what Poly Haven offers.  fetch: download the chosen textures/models (.github/art/assets.json),
+# shrink them for phones and commit them to idiomas/assets/.
+on:
+  workflow_dispatch:
+    inputs:
+      step: { description: "probe or fetch", default: "probe" }
+  push:
+    branches: ["art-run"]
+permissions:
+  contents: write
+  actions: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: master, sparse-checkout: ".github" }
+      - name: Take the job files from the art-run branch
+        run: git fetch -q origin art-run --depth 1 && git checkout FETCH_HEAD -- .github/art || true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pillow
+      - run: python .github/art/probe.py
+      - name: Fetch
+        run: test -f .github/art/fetch.py && python .github/art/fetch.py || echo "no fetch list"
+      - name: Commit
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git sparse-checkout disable || true
+          git add -A .github/art/polyhaven.json idiomas/assets 2>/dev/null || git add -A .github/art/polyhaven.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "assets: Poly Haven (CC0)"
+          git pull -q --rebase origin master && git push -q origin HEAD:master
+          gh workflow run pages.yml --ref master || true
