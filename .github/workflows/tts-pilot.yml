@@ -1,46 +1,35 @@
-name: TTS pilot (Chatterbox)
-on:
-  push:
-    branches: [tts-pilot-run]
-  workflow_dispatch:
-permissions:
-  contents: write
+# Pilot of open-source TTS for the story characters: Qwen3-TTS (Apache-2.0) designs one synthetic voice per character
+# and reads lines with it; Chatterbox Multilingual (MIT) reads the same lines cloned from that voice. Runs on the free
+# CPU runners and uploads the clips as an artifact to compare by ear. Run by hand (workflow_dispatch).
+name: tts-pilot
+on: workflow_dispatch
 jobs:
-  gen:
+  qwen:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-    strategy:
-      fail-fast: false
-      matrix:
-        lang: [es, en, fr, de, zh, ja, ar]
+    timeout-minutes: 300
+    defaults: { run: { working-directory: .github/tts/pilot } }
     steps:
       - uses: actions/checkout@v4
-        with:
-          sparse-checkout: .github
+        with: { sparse-checkout: ".github/tts/pilot" }
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: command -v ffmpeg >/dev/null || for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq --fix-missing ffmpeg > /dev/null && break; sleep 20; done
-      - run: |
-          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
-          pip install -q chatterbox-tts==0.1.7
-      - run: python .github/tts/pilot.py ${{ matrix.lang }}
+        with: { python-version: '3.11' }
+      - run: pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install -q qwen-tts soundfile
+      - run: python qwen.py
       - uses: actions/upload-artifact@v4
-        with:
-          name: tts-${{ matrix.lang }}
-          path: tts-pilot/
-  publish:
-    needs: gen
-    if: always()
+        with: { name: qwen, path: .github/tts/pilot/out }
+  chatterbox:
+    needs: qwen
     runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults: { run: { working-directory: .github/tts/pilot } }
     steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: ".github/tts/pilot" }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
       - uses: actions/download-artifact@v4
-        with:
-          path: out
-          merge-multiple: true
-      - run: |
-          git init -q pilot && cd pilot
-          mkdir tts-pilot && cp ../out/* tts-pilot/ 2>/dev/null || true
-          git config user.name "github-actions" && git config user.email "actions@github.com"
-          git checkout -q -b tts-pilot-out && git add -A && git commit -qm "TTS pilot results" || exit 0
-          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" tts-pilot-out
+        with: { name: qwen, path: .github/tts/pilot/out }
+      - run: pip install -q chatterbox-tts
+      - run: python chatter.py
+      - uses: actions/upload-artifact@v4
+        with: { name: pilot-audio, path: .github/tts/pilot/out }

@@ -1,0 +1,168 @@
+[
+ {
+  "app": "nihongo",
+  "who": "haru",
+  "lang": "ja",
+  "qlang": "Japanese",
+  "ref_text": "いや、隼人の彫りは、僕の線より強い。僕一人じゃ、こうはならない。",
+  "instruct": "a 10-year-old boy, bright, curious and lively. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "雪ちゃんの薬草の本の絵も、全部、僕たちの作品だよ。",
+   "にせものを売られるのは耐えがたい。でも、怒るだけでは、また同じことの繰り返しだ。",
+   "いっしょに復習しよう！",
+   "いいね！"
+  ]
+ },
+ {
+  "app": "nihongo",
+  "who": "yuki",
+  "lang": "ja",
+  "qlang": "Japanese",
+  "ref_text": "生きているからこそ、できることがあるのよ。医者として、私はそう信じている。",
+  "instruct": "a 10-year-old girl, bright, cheerful and sweet. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "新しい政府が、医者の試験を始めるの。でも……女は受けられないんですって。",
+   "文句を言うだけでは何も変わらない。たとえ何年かかっても、扉を開けてみせる。",
+   "いっしょに復習しよう！",
+   "いいね！"
+  ]
+ },
+ {
+  "app": "nihongo",
+  "who": "baba",
+  "lang": "ja",
+  "qlang": "Japanese",
+  "ref_text": "春……来てくれたのね。ほら、今年の柿は甘いですよ。",
+  "instruct": "an elderly woman around 75, soft, slow and kind, a storyteller. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "まあ、しわだらけのおばあさんを？……ふふ、きれいに描いてね。",
+   "昔々、ある村に、絵の好きな男の子がいました。……その子にはね、いい友達がいたの。",
+   "いっしょに復習しよう！",
+   "いいね！"
+  ]
+ },
+ {
+  "app": "deutsch",
+  "who": "jonas",
+  "lang": "de",
+  "qlang": "German",
+  "ref_text": "Ich heiße Jonas. Und du?",
+  "instruct": "a 10-year-old boy, bright, curious and lively. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "Was kostet das Brot?",
+   "Ich will aber Tischler werden, nicht Mathematiker!",
+   "Lass uns wiederholen!",
+   "Sehr gut!"
+  ]
+ },
+ {
+  "app": "deutsch",
+  "who": "lena",
+  "lang": "de",
+  "qlang": "German",
+  "ref_text": "Hallo! Wie heißt du?",
+  "instruct": "a 10-year-old girl, bright, cheerful and sweet. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "Ich komme aus Leipzig. Aber jetzt wohne ich hier.",
+   "Genau. Nur eine Straße.",
+   "Lass uns wiederholen!",
+   "Sehr gut!"
+  ]
+ },
+ {
+  "app": "deutsch",
+  "who": "oma",
+  "lang": "de",
+  "qlang": "German",
+  "ref_text": "Esst, Kinder, esst! Ihr seid alle zu dünn.",
+  "instruct": "an elderly woman around 75, soft, slow and kind, a storyteller. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "Hühnersuppe! Die beste Medizin. Lenas Mutter sagt das auch.",
+   "Ich warte. Ich bin zäh wie Eichenholz. Das weißt du.",
+   "Lass uns wiederholen!",
+   "Sehr gut!"
+  ]
+ },
+ {
+  "app": "arabic",
+  "who": "nur",
+  "lang": "ar",
+  "qlang": null,
+  "ref_text": "ن… و… ر. نُور! هٰذَا اسْمِي!",
+  "instruct": "a 10-year-old girl, bright, cheerful and sweet. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "هٰذَا كِتَابٌ. وَتِلْكَ صُورَةٌ. كَيْفَ حَالُكِ يَا لَيْلَى؟",
+   "مِنْ فَضْلِكَ، أَيْنَ دُكَّانُ الوَرَّاقِ؟",
+   "هَيّا نُراجِعْ!",
+   "أَحْسَنْتَ!"
+  ]
+ },
+ {
+  "app": "arabic",
+  "who": "yusuf",
+  "lang": "ar",
+  "qlang": null,
+  "ref_text": "السَّلَامُ عَلَيْكُمْ! مَنْ أَنْتِ؟",
+  "instruct": "a 10-year-old boy, bright, curious and lively. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "أَنَا يُوسُف. أَنَا مِنْ مِصْرَ. أَنَا مَعَ القَافِلَةِ.",
+   "نَعَمْ، أَنَا مِصْرِيٌّ. وَأَنْتِ سُورِيَّةٌ؟",
+   "هَيّا نُراجِعْ!",
+   "أَحْسَنْتَ!"
+  ]
+ },
+ {
+  "app": "arabic",
+  "who": "jadda",
+  "lang": "ar",
+  "qlang": null,
+  "ref_text": "",
+  "instruct": "an elderly woman around 75, soft, slow and kind, a storyteller. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "هَيّا نُراجِعْ!",
+   "أَحْسَنْتَ!"
+  ]
+ },
+ {
+  "app": "chino",
+  "who": "shan",
+  "lang": "zh",
+  "qlang": "Chinese",
+  "ref_text": "是！我们是好朋友！",
+  "instruct": "a 10-year-old boy, bright, curious and lively. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "他不是医生。他是老师！",
+   "这是我的书！那是爸爸的杯子。",
+   "我们来复习吧！",
+   "很好！"
+  ]
+ },
+ {
+  "app": "chino",
+  "who": "mei",
+  "lang": "zh",
+  "qlang": "Chinese",
+  "ref_text": "你好！你叫什么名字？",
+  "instruct": "a 10-year-old girl, bright, cheerful and sweet. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "小山，谢谢你！再见！",
+   "我叫小梅。我们是朋友吗？",
+   "我们来复习吧！",
+   "很好！"
+  ]
+ },
+ {
+  "app": "chino",
+  "who": "ye",
+  "lang": "zh",
+  "qlang": "Chinese",
+  "ref_text": "小山，你看！这是小牛。",
+  "instruct": "an elderly man around 75, slow, wise and friendly. Natural, expressive storytelling voice, clear studio recording, moderate pace.",
+  "lines": [
+   "它今天零岁！哈哈。小山，你今年几岁？",
+   "八岁！你是大孩子了。",
+   "我们来复习吧！",
+   "很好！"
+  ]
+ }
+]
