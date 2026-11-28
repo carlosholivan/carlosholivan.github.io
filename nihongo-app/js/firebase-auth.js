@@ -26,7 +26,7 @@ import {
   getCountFromServer,
   deleteDoc
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611282102';
+import firebaseConfig from './firebase-config.js?v=202611282108';
 
 let app = null;
 let auth = null;

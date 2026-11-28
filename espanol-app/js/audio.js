@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611282102';
-import { gemini, playBlob } from './gemini-tts.js?v=202611282102';
+import { S } from './state.js?v=202611282108';
+import { gemini, playBlob } from './gemini-tts.js?v=202611282108';
 
 // Optional Gemini voice with the user's own key (gemini-tts.js). Falls back to the recordings.
 export const G = gemini('es', 'es-ES');

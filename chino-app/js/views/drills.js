@@ -1,12 +1,12 @@
 // Grammar practice (语法练习): choose-the-correct-form drills per level and category.
-import { S, update } from '../state.js?v=202611282102';
-import { register, go } from '../router.js?v=202611282102';
-import { loadDrills } from '../data.js?v=202611282102';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611282102';
-import { t } from '../i18n.js?v=202611282102';
-import { levelChips } from '../levels.js?v=202611282102';
-import { speak, stop } from '../audio.js?v=202611282102';
-import { ruby, pyReady, tonedPinyin } from '../zh.js?v=202611282102';
+import { S, update } from '../state.js?v=202611282108';
+import { register, go } from '../router.js?v=202611282108';
+import { loadDrills } from '../data.js?v=202611282108';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611282108';
+import { t } from '../i18n.js?v=202611282108';
+import { levelChips } from '../levels.js?v=202611282108';
+import { speak, stop } from '../audio.js?v=202611282108';
+import { ruby, pyReady, tonedPinyin } from '../zh.js?v=202611282108';
 
 const ROUND = 10;
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
