@@ -1,21 +1,21 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281825';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611281825';
-import { buildReview } from '../engine/review.js?v=202611281825';
-import { addCards } from '../engine/anki.js?v=202611281825';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281825';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName } from '../../../idiomas/juice.js?v=202611281825';
-import { CFG as LCFG } from '../app-config.js?v=202611281825';
-import { register, go } from '../router.js?v=202611281825';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281825';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281825';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611281825';
-import { recordAnswer } from '../engine/srs.js?v=202611281825';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611281825';
-import { icon } from '../ui/icons.js?v=202611281825';
-import { t } from '../i18n.js?v=202611281825';
-import { speak, stop as stopAudio } from '../audio.js?v=202611281825';
-import { allHanzi } from './review.js?v=202611281825';
-import { charWord, hasChars } from '../chars.js?v=202611281825';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281839';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611281839';
+import { buildReview } from '../engine/review.js?v=202611281839';
+import { addCards } from '../engine/anki.js?v=202611281839';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281839';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611281839';
+import { CFG as LCFG } from '../app-config.js?v=202611281839';
+import { register, go } from '../router.js?v=202611281839';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281839';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281839';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611281839';
+import { recordAnswer } from '../engine/srs.js?v=202611281839';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611281839';
+import { icon } from '../ui/icons.js?v=202611281839';
+import { t } from '../i18n.js?v=202611281839';
+import { speak, stop as stopAudio } from '../audio.js?v=202611281839';
+import { allHanzi } from './review.js?v=202611281839';
+import { charWord, hasChars } from '../chars.js?v=202611281839';
 
 const MAX_HEARTS = 5;
 
@@ -38,9 +38,10 @@ register('lesson', async (el, params) => {
   // From story mode, finishing (or leaving) a lesson goes back to the story, which plays the closing scene.
   window.__lessonDone = () => { stopAudio(); params.story ? go('story', { level: params.level, outro: String(params.unit) }) : go('home'); };
   await pyReady; await sylReady;
+  document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611281825');
+    const lg = await import('../../../idiomas/lives.js?v=202611281839');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -422,6 +423,9 @@ register('lesson', async (el, params) => {
     // Lives: a wrong answer costs one (a lesson already started can always be finished).
     setTimeout(() => {
       const b = document.querySelector('.exercise-option.wrong') || document.querySelector('.exercise-option.correct') || document.getElementById('feedback');
+      const candyOn = localStorage.getItem('idiomas_candy') === '1';
+      document.body.classList.toggle('candy', candyOn);
+      if (isCorrect) candyOn ? cheer(b) : sfx('ok', combo.good()); else candyOn ? boo(b) : (combo.bad(), sfx('bad'));
       if (!isCorrect && lives() > 0) { loseLife(); const c = document.querySelector('.lv-chip'); if (c) { c.textContent = `${lifeOf(LCFG.id)} ${lives()}`; floatUp(`-1 ${lifeOf(LCFG.id)}`, c, '#ff8fa3'); } }
     }, 0);
     if (isCorrect) {

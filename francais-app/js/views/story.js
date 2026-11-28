@@ -2,19 +2,19 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281825';
-import { S, update, completeUnit } from '../state.js?v=202611281825';
-import { register, go } from '../router.js?v=202611281825';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281825';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281825';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281825';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281825';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281825';
-import { unitVocab } from '../engine/exercises.js?v=202611281825';
-import { bottomNav } from '../ui/components.js?v=202611281825';
+import { CFG } from '../app-config.js?v=202611281839';
+import { S, update, completeUnit } from '../state.js?v=202611281839';
+import { register, go } from '../router.js?v=202611281839';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281839';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281839';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281839';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611281839';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281839';
+import { unitVocab } from '../engine/exercises.js?v=202611281839';
+import { bottomNav } from '../ui/components.js?v=202611281839';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, speakAs, stop } from '../audio.js?v=202611281825';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281825';
+import { speak, speakAs, stop } from '../audio.js?v=202611281839';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281839';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -109,7 +109,7 @@ function lifeBonus(el) {
 // Returns true when it blocked. Whatever is already under way can always be finished.
 async function gate(retry) {
   if (lives() > 0) return false;
-  const lg = await import('../../../idiomas/lives.js?v=202611281825');
+  const lg = await import('../../../idiomas/lives.js?v=202611281839');
   lg.showGate({ lang: S.lang, icon: LIFE[0], name: L(LIFE[1]), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
     onPractice: async () => { const f = friends(META || await meta())[0]; f ? npcReview(f) : window.__go('review'); },
     onRefill: () => { if (!refillLives()) return false; sfx('win'); shout(`${LIFE[0].repeat(LIFE_MAX)}`); retry && setTimeout(retry, 300); return true; },
@@ -120,6 +120,43 @@ window.__lvWhy = () => { const md = root.querySelector('.w3-modal'); if (!md) re
   md.innerHTML = `<div class="w3-card"><div class="lv-big">${Array.from({ length: LIFE_MAX }, (_, k) => `<span class="${k < lives() ? '' : 'off'}">${LIFE[0]}</span>`).join('')}</div><h3>${esc(L(LIFE[1]))}</h3><p>${lt('lifeWhy')}</p><p class="small muted">${lives() >= LIFE_MAX ? lt('lifeFull') : lt('lifeNext', { m: Math.ceil(lifeIn() / 60000) })}</p><button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">OK</button></div>`; md.hidden = false; };
 
 let META = null;
+// The country's culture (shared /idiomas/culture/<app>.json): festivals, places, figures and words with no translation.
+let CU = null;
+const loadCU = async () => CU || (CU = await import('../../../idiomas/culture.js').then(c => c.loadCulture(CFG.id)).catch(() => null));
+const plainCW = t => String(t || '').normalize('NFC').replace(/[\u064B-\u0652\u0670\u0640]/g, '');
+// Culture words said in a line (onigiri, souq, tapas…): longest first, whole words in alphabetic languages.
+function cultureHits(text) {
+  const ws = (CU && CU.words) || [], t = plainCW(text), out = [];
+  ws.map((w, k) => [w, k]).sort((a, b) => b[0].w.length - a[0].w.length).forEach(([w, k]) => {
+    const p = plainCW(w.w);
+    const hit = /^[a-zà-ÿ ]+$/i.test(p) ? new RegExp(`(^|[^a-zà-ÿ])${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-zà-ÿ]|$)`, 'i').test(t) : t.includes(p);
+    if (hit && !out.some(j => plainCW(ws[j].w).includes(p))) out.push(k);
+  });
+  return out;
+}
+const CWT = { tag: { es: 'Palabra sin traducción', en: 'A word with no translation' }, found: { es: 'Palabras de cultura descubiertas: {n}', en: 'Culture words discovered: {n}' } };
+// underline the culture words inside a rendered line (where furigana does not split them)
+function underline(el, hits) {
+  if (!el || !hits.length) return;
+  const ws = hits.map(k => [k, plainCW(CU.words[k].w)]);
+  const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodes = [];
+  while (walk.nextNode()) if (!walk.currentNode.parentElement.closest('rt')) nodes.push(walk.currentNode);
+  for (const n of nodes) {
+    const txt = n.nodeValue, low = plainCW(txt).toLowerCase();
+    const found = ws.map(([k, w]) => [k, low.indexOf(w.toLowerCase()), w.length]).filter(x => x[1] >= 0 && plainCW(txt) === txt).sort((a, b) => a[1] - b[1])[0];
+    if (!found) continue;
+    const [k, i, len] = found, u = document.createElement('u');
+    u.className = 'cw-u'; u.dataset.k = k; u.textContent = txt.slice(i, i + len);
+    u.onclick = e => { e.stopPropagation(); window.__cw(k); };
+    const rest = n.splitText(i); rest.nodeValue = rest.nodeValue.slice(len); n.parentNode.insertBefore(u, rest);
+  }
+}
+window.__cw = k => {
+  const w = CU && CU.words[k], box = root && root.querySelector('.cw-box'); if (!w || !box) return;
+  const isNew = readFact(`${CFG.id}-cw-${w.w}`);
+  box.innerHTML = `<b>📜 ${esc(w.w)}</b> <span class="cw-n">${esc(w.n)}</span><p>${esc(w.t)}</p>${isNew ? '<small>💎 +3</small>' : ''}`; box.hidden = false;
+  if (isNew) { sfx('gem'); floatUp('+3 💎', box); }
+};
 const cache = {};
 const meta = async () => META || (META = await fetch('data/story/meta.json').then(r => r.json()));
 const chapter = async lv => cache[lv] || (cache[lv] = await fetch(`data/story/${lv}.json`).then(r => r.ok ? r.json() : null).catch(() => null));
@@ -192,7 +229,7 @@ register('story', async (el, params = {}) => {
   root = el;
   css(); sky();
   update({ mode: 'story' });
-  await Promise.all([pyReady, sylReady]);
+  await Promise.all([pyReady, sylReady, loadCU()]);
   const m = await meta();
   level = params.level || level || (LEVELS.includes(S.level) ? S.level : LEVELS[0]);
   if (params.outro) {               // back from a lesson: play its closing scene once (when its whole run is done)
@@ -260,7 +297,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611281825').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611281839').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
@@ -286,7 +323,7 @@ async function map(m) {
   const out = mp.regionMap({
     W, arch: ARCH, app: CFG.id, biome: /^arab/.test(CFG.id) ? 'desert' : null, seed: lvI + 3, season: time.season, phase: time.phase,
     nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock', sub: n.units.length > 1 ? `${n.units.filter(u => unitDone(level, u.id)).length}/${n.units.length}` : '' })),
-    friends: friendList, chest: chestReady(), gym: allDone ? 'won' : 'lock',
+    friends: friendList, chest: chestReady(), gym: allDone ? 'won' : 'lock', signIcon: i => ['📜', '🔤', '👤'][Math.floor(i / 3) % 3],
     hero: { img: hero.img, hat: icon(wr.hat), pet: icon(wr.pet) },
   });
   const sc = box.querySelector('.mp-scroll');
@@ -336,8 +373,14 @@ async function map(m) {
   };
   window.__mpSign = i => {
     if (ns[i] && !nodeDone(ns[i]) && ns[i] !== cur) return hint('🔒 ' + tx('locked'), 1800, true);
-    if (cu && (cu.figures || []).length && i % 6 === 5) {
-      const k = Math.floor(i / 6) % cu.figures.length, fg = cu.figures[k], isNew = readFact(`${CFG.id}-fig-${k}`);
+    const kind = Math.floor(i / 3) % 3;          // 0 fact · 1 a word with no translation · 2 a historical figure
+    if (kind === 1 && cu && (cu.words || []).length) {
+      const k = (Math.floor(i / 9) + lvI * 3) % cu.words.length, w = cu.words[k], isNew = readFact(`${CFG.id}-cw-${w.w}`);
+      modal(`<div class="w3-k">🔤 ${L(CWT.tag)}</div><h3 lang="${LG}">${esc(w.w)}</h3><p class="small muted">${esc(w.n)}</p><p class="w3-fact">${esc(w.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${L(CWT.found).replace('{n}', Object.keys(rew().read || {}).filter(x => x.startsWith(CFG.id + '-cw-')).length)}</p>`);
+      return setGems();
+    }
+    if (cu && (cu.figures || []).length && kind === 2) {
+      const k = (Math.floor(i / 9) + lvI * 2) % cu.figures.length, fg = cu.figures[k], isNew = readFact(`${CFG.id}-fig-${k}`);
       modal(`<div class="w3-k">👤 ${tx('whoWas')}</div><h3>${esc(fg.n)}</h3><p class="small muted">${esc(fg.y)}</p><p class="w3-fact">${esc(fg.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
       return setGems();
     }
@@ -370,7 +413,7 @@ function friends(m) {
   const cnt = {};
   for (const lv of Object.values(cache)) for (const sc of Object.values((lv && lv.units) || {})) for (const l of sceneLines(sc)) if (l && l.who) cnt[l.who] = (cnt[l.who] || 0) + 1;
   return Object.keys(m.cast || {}).filter(k => k !== m.hero && k !== 'narr' && ((m.cast[k].voice || {}).age !== 'pet'))
-    .sort((a, b) => (!!m.cast[b].img - !!m.cast[a].img) || (cnt[b] || 0) - (cnt[a] || 0)).slice(0, 3);
+    .sort((a, b) => (!!m.cast[b].img - !!m.cast[a].img) || (cnt[b] || 0) - (cnt[a] || 0)).slice(0, 6);
 }
 let ALLV = null;
 async function allVocab() {
@@ -430,7 +473,7 @@ window.__wgPlay = async cid => {
   if (await gate(() => window.__wgPlay(cid))) return;
   stop();
   const m = META || await meta(), who = (m.cast || {})[cid] || {};
-  const wm = await import('../../../idiomas/wordmatch.js?v=202611281825');
+  const wm = await import('../../../idiomas/wordmatch.js?v=202611281839');
   if (!document.getElementById('wg-css')) document.head.insertAdjacentHTML('beforeend', `<style id="wg-css">${wm.CSS}</style>`);
   // words: due for review first, then this level's (only short meanings fit on a tile)
   const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
@@ -439,8 +482,14 @@ window.__wgPlay = async cid => {
   if (due.some(w => !V.has(w))) V = await allVocab();
   const pick = [], seen = new Set();
   const add = w => { if (!w || seen.has(w.word) || pick.length >= 40) return; const mm = String(L(w.m) || '').split(/[;,/(·]/)[0].trim(); if (!mm || mm.length > 22) return; seen.add(w.word); pick.push({ key: w.word, t: w.word, sub: w.p && w.p !== w.word ? w.p : '', m: mm }); };
+  // following the learner's progress: words due for review, then words of the lessons already done, then the
+  // current lesson's; only if that is not enough, the next most frequent words of the level
+  const doneU = new Set(Object.keys(S.completed || {}).filter(k => k.startsWith(level + '-')).map(k => k.slice(level.length + 1)));
+  const units = await loadUnits(level), curU = String((units.find(u => !doneU.has(String(u.id))) || {}).id || '');
   due.forEach(w => add(V.get(w)));
-  shuf(here.slice()).forEach(add);
+  shuf(here.filter(w => doneU.has(String(w.unit)))).forEach(add);
+  here.filter(w => String(w.unit) === curU).forEach(add);
+  if (pick.length < 15) here.slice().sort((a, b) => (a.q || 1e9) - (b.q || 1e9)).forEach(add);
   root.innerHTML = `<div class="sp-scene wg-scene" data-sm><div class="sp-top"><button class="chip sp-chip" onclick="window.__wgQuit()">✕</button><span class="chip sp-chip">🎮 ${esc(L(who.n))}</span></div><div class="wg-host"></div><div class="w3-modal" hidden></div></div>`;
   const game = wm.playMatch(root.querySelector('.wg-host'), {
     words: pick, lang: LG, cols: /^(zh|ja|ar)$/.test(LG) ? 5 : 4, rows: /^(zh|ja|ar)$/.test(LG) ? 6 : 7, friend: { name: L(who.n), img: who.img, color: who.color },
@@ -776,10 +825,12 @@ function player(lines, opts = {}) {
         ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${who.t && who.t !== L(who.n) ? T(who.t, who.s) + ' ' : ''}${esc(L(who.n))}</div>`}
         <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
         <div class="sp-tr ${S.storyTr === false && !(i in done) ? 'hide' : ''}">${esc(L(ln.tr))}</div>
+        ${(() => { const h = cultureHits(ln.t); return h.length ? `<div class="cw-row">${h.map(k => `<button class="cw-chip" onclick="event.stopPropagation();window.__cw(${k})">📜 ${esc(CU.words[k].w)} · ${esc(CU.words[k].n)}</button>`).join('')}</div><div class="cw-box" hidden onclick="event.stopPropagation()"></div>` : ''; })()}
         <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__stSay()">🔊</button>
           <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__stTr()">🌐 ${tx('tr')}</button>
           <span class="grow"></span><span class="muted small">${tx('next')} ▸</span></div>
       </div></div>`;
+    underline(root.querySelector('.sp-box .sp-line'), cultureHits(ln.t));
     speakAs(ln.who, ln.t);
   };
   const quizView = () => {
@@ -913,6 +964,9 @@ function css() {
 body.sm-on #lang-switch,body.sm-on .bottomnav{display:none !important}
 body.sm-3d #sm-sky{display:none}
 .sp-q{font-size:13px;color:#ffd36b}
+.cw-u{text-decoration:underline wavy #ffd36b;text-underline-offset:5px;text-decoration-thickness:2px;cursor:help}
+.cw-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.cw-chip{border:1px solid rgba(255,211,107,.55);background:rgba(255,211,107,.14);color:#ffe3a0;border-radius:999px;padding:4px 10px;font:700 12.5px system-ui;cursor:pointer}
+.cw-box{margin-top:8px;background:rgba(255,211,107,.12);border-left:3px solid #ffd36b;border-radius:10px;padding:8px 10px;font-size:14px;color:#fff3d6}.cw-box p{margin:4px 0 0;line-height:1.45}.cw-n{opacity:.75;font-style:italic}.cw-box small{color:#ffd36b;font-weight:800}
 .wg-scene{padding:12px 16px 30px}.wg-host{padding:0 14px}.wg-scene .sp-top{margin-bottom:10px}
 .fr-img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:4px solid #ffd36b;display:block;margin:0 auto 6px;background:#24407a}
 .fr-play{width:100%;font-size:17px;background:linear-gradient(90deg,#ff4d6d,#ffb703) !important;border:0 !important;color:#fff !important;box-shadow:0 6px 18px rgba(255,120,80,.45);margin-top:6px}

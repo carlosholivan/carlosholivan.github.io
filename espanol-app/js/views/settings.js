@@ -1,18 +1,18 @@
-import { reminderSettings } from '../reminders.js?v=202611281825';
-import { planSettings } from '../plan.js?v=202611281825';
-import '../tour.js?v=202611281825';
-import { tutorSettings } from '../tutor.js?v=202611281825';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611281825';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611281825';
-import { readAnki } from '../anki-import.js?v=202611281825';
-import { allVocab } from './review.js?v=202611281825';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611281825';
-import { esc } from '../es.js?v=202611281825';
-import { register, go } from '../router.js?v=202611281825';
-import { bottomNav, header } from '../ui/components.js?v=202611281825';
-import { t } from '../i18n.js?v=202611281825';
-import { applyPinyinPref } from '../es.js?v=202611281825';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611281825';
+import { reminderSettings } from '../reminders.js?v=202611281839';
+import { planSettings } from '../plan.js?v=202611281839';
+import '../tour.js?v=202611281839';
+import { tutorSettings } from '../tutor.js?v=202611281839';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611281839';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611281839';
+import { readAnki } from '../anki-import.js?v=202611281839';
+import { allVocab } from './review.js?v=202611281839';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611281839';
+import { esc } from '../es.js?v=202611281839';
+import { register, go } from '../router.js?v=202611281839';
+import { bottomNav, header } from '../ui/components.js?v=202611281839';
+import { t } from '../i18n.js?v=202611281839';
+import { applyPinyinPref } from '../es.js?v=202611281839';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611281839';
 
 register('settings', (el) => {
   const langs = [
@@ -67,13 +67,17 @@ register('settings', (el) => {
         <span>${t('darkMode')}</span>
         <div class="toggle ${S.dark ? 'on' : ''}" onclick="window.__toggleDark()"></div>
       </div>
+      <div class="flex items-center justify-between mt-16">
+        <span>${S.lang === 'en' ? 'Colours and confetti in exercises' : 'Colores y confeti en los ejercicios'}</span>
+        <div class="toggle ${localStorage.getItem('idiomas_candy') === '1' ? 'on' : ''}" onclick="window.__toggleCandy()"></div>
+      </div>
     </div>
 
     <div class="card" style="padding:20px;margin-bottom:16px">
       <div class="h3 mb-16">${t('sound')}</div>
       <div class="flex items-center justify-between">
         <span>${t('soundFx')}</span>
-        <div class="toggle ${S.settings.sound ? 'on' : ''}" onclick="window.__toggleSound()"></div>
+        <div class="toggle ${localStorage.getItem('idiomas_sfx') !== '0' ? 'on' : ''}" onclick="window.__toggleSound()"></div>
       </div>
       <div class="mt-16">
         <div class="mb-8">${t('audioSpeed')}</div>
@@ -126,8 +130,16 @@ window.__toggleDark = () => {
   go('settings');
 };
 
+window.__toggleCandy = () => {
+  try { localStorage.setItem('idiomas_candy', localStorage.getItem('idiomas_candy') === '1' ? '0' : '1'); } catch (e) {}
+  document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
+  go('settings');
+};
+
 window.__toggleSound = () => {
-  S.settings.sound = !S.settings.sound;
+  // one switch for every app's sound effects (right / wrong / combos), shared through localStorage
+  try { localStorage.setItem('idiomas_sfx', localStorage.getItem('idiomas_sfx') === '0' ? '1' : '0'); } catch (e) {}
+  S.settings.sound = localStorage.getItem('idiomas_sfx') !== '0';
   update({ settings: S.settings });
   go('settings');
 };

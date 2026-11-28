@@ -184,15 +184,17 @@ export function regionMap(o) {
   // where friends, signposts and the chest stand (decided first so trees leave room for them)
   const side = i => (P[i][0] > W / 2 ? -1 : 1);
   const friendAt = [], spots = [];
-  (o.friends || []).forEach((fr, k) => {
-    const i = Math.min(P.length - 1, Math.max(0, (curI < 0 ? P.length - 1 : curI) + [-1, 1, 2][k]));
-    if (i < 0 || !P[i]) return;
-    const y = P[i][1] + GAP / 2 + (k === 0 ? -6 : 6), mx = (P[i][0] + (P[i + 1] || P[i])[0]) / 2;
+  // friends wait along the whole road (one every few towns, taking turns), so there is always someone to review with
+  const fl = o.friends || [];
+  if (fl.length) for (let i = 1, k = 0; i < Math.max(2, P.length); i += 3, k++) {
+    const ii = Math.min(P.length - 1, i), fr = fl[k % fl.length];
+    if (!P[ii]) break;
+    const y = P[ii][1] + GAP / 2, mx = (P[ii][0] + (P[ii + 1] || P[ii])[0]) / 2;
     const cand = [mx - 80, mx + 80, W * .2, W * .8].map(x => Math.min(W - 34, Math.max(34, x)));
     const far = x => Math.min(...P.map(([a, b]) => Math.hypot(a - x, b - y)), ...spots.map(([a, b]) => Math.hypot(a - x, b - y)), ...samples.map(([a, b]) => Math.hypot(a - x, b - y) + 22));
     const x = cand.sort((a, b) => far(b) - far(a))[0];
-    friendAt.push({ ...fr, x, y }); spots.push([x, y, 34]);
-  });
+    friendAt.push({ ...fr, x, y, cid: `${fr.id}-${k}` }); spots.push([x, y, 34]);
+  }
   const signAt = nodes.map((n, i) => i % 3 === 2 && P[i] ? { i, x: Math.min(W - 24, Math.max(24, P[i][0] + side(i) * 54)), y: P[i][1] - 6, lock: n.state === 'lock' } : null).filter(Boolean);
   signAt.forEach(s => spots.push([s.x, s.y, 26]));
   const chestAt = { x: Math.min(W - 28, Math.max(28, W / 2 + 62)), y: gateY + 34 };
@@ -249,7 +251,7 @@ export function regionMap(o) {
   });
   things.push([templeY, `<g class="mp-temple" onclick="window.__mpGym()">${temple(arch, W / 2, templeY, o.gym === 'won')}<rect x="${W / 2 - 60}" y="${templeY - 100}" width="120" height="104" fill="transparent"/></g>`]);
   // signposts and the chest
-  signAt.forEach(s2 => things.push([s2.y, `<g class="mp-sign" onclick="window.__mpSign(${s2.i})" opacity="${s2.lock ? .5 : 1}"><path d="M${f(s2.x)} ${f(s2.y)} v-18" stroke="#7a5534" stroke-width="2.4"/><rect x="${f(s2.x - 14)}" y="${f(s2.y - 30)}" width="28" height="17" rx="3" fill="#c99b5c" stroke="#8a6a43"/><text x="${f(s2.x)}" y="${f(s2.y - 17.5)}" text-anchor="middle" font-size="11">${s2.i % 6 === 5 ? '👤' : '📜'}</text><rect x="${f(s2.x - 18)}" y="${f(s2.y - 34)}" width="36" height="38" fill="transparent"/></g>`]));
+  signAt.forEach(s2 => things.push([s2.y, `<g class="mp-sign" onclick="window.__mpSign(${s2.i})" opacity="${s2.lock ? .5 : 1}"><path d="M${f(s2.x)} ${f(s2.y)} v-18" stroke="#7a5534" stroke-width="2.4"/><rect x="${f(s2.x - 14)}" y="${f(s2.y - 30)}" width="28" height="17" rx="3" fill="#c99b5c" stroke="#8a6a43"/><text x="${f(s2.x)}" y="${f(s2.y - 17.5)}" text-anchor="middle" font-size="11">${o.signIcon ? o.signIcon(s2.i) : s2.i % 6 === 5 ? '👤' : '📜'}</text><rect x="${f(s2.x - 18)}" y="${f(s2.y - 34)}" width="36" height="38" fill="transparent"/></g>`]));
   things.push([chestAt.y, `<g class="mp-chest ${o.chest ? 'ready' : ''}" onclick="window.__mpChest()"><ellipse cx="${chestAt.x + 2}" cy="${chestAt.y}" rx="14" ry="3.5" fill="rgba(0,0,0,.18)"/><rect x="${chestAt.x - 12}" y="${chestAt.y - 14}" width="24" height="14" rx="2" fill="${o.chest ? '#b5793a' : '#9d8f80'}"/><path d="M${chestAt.x - 12} ${chestAt.y - 14} Q${chestAt.x} ${chestAt.y - 25} ${chestAt.x + 12} ${chestAt.y - 14}Z" fill="${o.chest ? '#8c5524' : '#7f7366'}"/><rect x="${chestAt.x - 2.5}" y="${chestAt.y - 12}" width="5" height="6" fill="#f2c94c"/>${o.chest ? `<text x="${chestAt.x + 13}" y="${chestAt.y - 20}" font-size="12">✨</text>` : ''}<rect x="${chestAt.x - 18}" y="${chestAt.y - 30}" width="36" height="34" fill="transparent"/></g>`]);
   things.sort((a, b) => a[0] - b[0]);
   g += things.map(t => t[1]).join('');
@@ -271,7 +273,7 @@ export function regionMap(o) {
     g += `<g class="mp-friend" onclick="window.__mpFriend('${escX(fr.id)}')"><ellipse cx="${f(fr.x + 2)}" cy="${f(fr.y + 21)}" rx="16" ry="4" fill="rgba(0,0,0,.2)"/>
       <circle cx="${f(fr.x)}" cy="${f(fr.y)}" r="21" fill="${fr.color || '#9c7842'}" stroke="#fff" stroke-width="3"/>
       <text x="${f(fr.x)}" y="${f(fr.y + 6)}" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">${escX(String(fr.name || '?').slice(0, 1))}</text>
-      ${fr.img ? `<image href="${escX(fr.img)}" x="${f(fr.x - 19)}" y="${f(fr.y - 19)}" width="38" height="38" clip-path="url(#mpC-${escX(fr.id)})" preserveAspectRatio="xMidYMin slice"/>` : ''}
+      ${fr.img ? `<image href="${escX(fr.img)}" x="${f(fr.x - 19)}" y="${f(fr.y - 19)}" width="38" height="38" clip-path="url(#mpC-${escX(fr.cid)})" preserveAspectRatio="xMidYMin slice"/>` : ''}
       <text x="${f(fr.x)}" y="${f(fr.y + 36)}" text-anchor="middle" font-size="11" font-weight="800" fill="#fff" stroke="rgba(20,28,60,.85)" stroke-width="3.5" paint-order="stroke">${escX(fr.name)}</text>
       <g class="mp-bub"><circle cx="${f(fr.x + 17)}" cy="${f(fr.y - 17)}" r="10" fill="${fr.due ? '#ff5a5a' : '#fff'}" stroke="#fff" stroke-width="2"/><text x="${f(fr.x + 17)}" y="${f(fr.y - 13.2)}" text-anchor="middle" font-size="${fr.due ? 10 : 10}" font-weight="800" fill="${fr.due ? '#fff' : '#333'}">${fr.due ? Math.min(99, fr.due) : '💬'}</text></g></g>`;
   });
@@ -286,7 +288,7 @@ export function regionMap(o) {
     <radialGradient id="mpLamp"><stop offset="0" stop-color="#ffd46b" stop-opacity=".55"/><stop offset="1" stop-color="#ffd46b" stop-opacity="0"/></radialGradient>
     <radialGradient id="mpGold"><stop offset="0" stop-color="#ffe9a0" stop-opacity=".8"/><stop offset="1" stop-color="#ffe9a0" stop-opacity="0"/></radialGradient>
     <filter id="mpGrey"><feColorMatrix type="saturate" values=".15"/></filter>
-    ${friendAt.map(fr => cp(fr.id, fr.x, fr.y, 18.5)).join('')}${curI >= 0 ? cp('hero', P[curI][0], P[curI][1] - 76, 17.5) : ''}</defs>`;
+    ${friendAt.map(fr => cp(fr.cid, fr.x, fr.y, 18.5)).join('')}${curI >= 0 ? cp('hero', P[curI][0], P[curI][1] - 76, 17.5) : ''}</defs>`;
   const svg = `<svg class="mp-svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">${defs}${skyBand(W, SKY, { phase }, arch, r, season)}${g}</svg>`;
   return { svg, H, curY: curI >= 0 ? P[curI][1] : (nodes.length ? P[P.length - 1][1] : 0) };
 }

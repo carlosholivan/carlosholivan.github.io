@@ -1,10 +1,10 @@
 // French conjugation reference: choose a verb, see every tense with every person, plus a quick quiz.
 // window.__conj(tense, verb) opens it from anywhere.
-import { register, go } from '../router.js?v=202611281825';
-import { header, bottomNav } from '../ui/components.js?v=202611281825';
-import { speak } from '../audio.js?v=202611281825';
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, withSubject, participle, gerund, auxOf } from '../conj.js?v=202611281825';
-import { S } from '../state.js?v=202611281825';
+import { register, go } from '../router.js?v=202611281839';
+import { header, bottomNav } from '../ui/components.js?v=202611281839';
+import { speak } from '../audio.js?v=202611281839';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate, withSubject, participle, gerund, auxOf } from '../conj.js?v=202611281839';
+import { S } from '../state.js?v=202611281839';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const jsq = s => esc(s).replace(/&#39;/g, "\\'");
