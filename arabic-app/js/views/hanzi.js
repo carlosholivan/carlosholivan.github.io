@@ -1,15 +1,15 @@
 // Arabic alphabet: grid of letters, letter sheet (name, sound, the four positional forms, words that use it).
-import { S, update } from '../state.js?v=202611282029';
-import { register } from '../router.js?v=202611282029';
-import { loadHanzi } from '../data.js?v=202611282029';
-import { levelLabel, LEVELS } from '../levels.js?v=202611282029';
-import { addCards } from '../engine/anki.js?v=202611282029';
-import { bottomNav, header } from '../ui/components.js?v=202611282029';
-import { speak } from '../audio.js?v=202611282029';
-import { t } from '../i18n.js?v=202611282029';
-import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611282029';
-import { allVocab, allHanzi } from './review.js?v=202611282029';
-import { writeSteps, formAt, NONJOIN, T as WT, tt } from '../arwrite.js?v=202611282029';
+import { S, update } from '../state.js?v=202611282031';
+import { register } from '../router.js?v=202611282031';
+import { loadHanzi } from '../data.js?v=202611282031';
+import { levelLabel, LEVELS } from '../levels.js?v=202611282031';
+import { addCards } from '../engine/anki.js?v=202611282031';
+import { bottomNav, header } from '../ui/components.js?v=202611282031';
+import { speak } from '../audio.js?v=202611282031';
+import { t } from '../i18n.js?v=202611282031';
+import { esc, mean, ruby, strip, translit } from '../ar.js?v=202611282031';
+import { allVocab, allHanzi } from './review.js?v=202611282031';
+import { writeSteps, formAt, NONJOIN, T as WT, tt } from '../arwrite.js?v=202611282031';
 
 const POS = () => WT.pos[S.lang] || WT.pos.en;
 

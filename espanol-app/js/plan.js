@@ -1,10 +1,10 @@
 // Daily study plan. The learner chooses "the app guides me" (a checklist for today sized to 15, 30 or 60 minutes)
 // or "I study what I want" (just a daily time goal). Study time is measured while the app is open and in use,
 // per screen, so each task ticks itself off when enough time has been spent on it (cards also when none are due).
-import { S, update } from './state.js?v=202611282029';
-import { currentName, render } from './router.js?v=202611282029';
-import { deckStats } from './engine/anki.js?v=202611282029';
-import { tutorKey } from './tutor.js?v=202611282029';
+import { S, update } from './state.js?v=202611282031';
+import { currentName, render } from './router.js?v=202611282031';
+import { deckStats } from './engine/anki.js?v=202611282031';
+import { tutorKey } from './tutor.js?v=202611282031';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es)) || '';
 const day = () => new Date().toLocaleDateString('sv');   // local YYYY-MM-DD

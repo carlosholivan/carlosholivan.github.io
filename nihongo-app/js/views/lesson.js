@@ -1,22 +1,22 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282029';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611282029';
-import { buildReview } from '../engine/review.js?v=202611282029';
-import { addCards } from '../engine/anki.js?v=202611282029';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282029';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282029';
-import { CFG as LCFG } from '../app-config.js?v=202611282029';
-import { conjExercises } from '../conjq.js?v=202611282029';
-import { register, go } from '../router.js?v=202611282029';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282029';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282029';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611282029';
-import { recordAnswer } from '../engine/srs.js?v=202611282029';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611282029';
-import { icon } from '../ui/icons.js?v=202611282029';
-import { t } from '../i18n.js?v=202611282029';
-import { speak, stop as stopAudio } from '../audio.js?v=202611282029';
-import { allHanzi } from './review.js?v=202611282029';
-import { charWord, hasChars } from '../chars.js?v=202611282029';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282031';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282031';
+import { buildReview } from '../engine/review.js?v=202611282031';
+import { addCards } from '../engine/anki.js?v=202611282031';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282031';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282031';
+import { CFG as LCFG } from '../app-config.js?v=202611282031';
+import { conjExercises } from '../conjq.js?v=202611282031';
+import { register, go } from '../router.js?v=202611282031';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282031';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282031';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ja.js?v=202611282031';
+import { recordAnswer } from '../engine/srs.js?v=202611282031';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611282031';
+import { icon } from '../ui/icons.js?v=202611282031';
+import { t } from '../i18n.js?v=202611282031';
+import { speak, stop as stopAudio, SPEEDS, speed } from '../audio.js?v=202611282031';
+import { allHanzi } from './review.js?v=202611282031';
+import { charWord, hasChars } from '../chars.js?v=202611282031';
 
 const MAX_HEARTS = 5;
 
@@ -50,7 +50,7 @@ register('lesson', async (el, params) => {
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611282029');
+    const lg = await import('../../../idiomas/lives.js?v=202611282031');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -95,6 +95,13 @@ register('lesson', async (el, params) => {
 
   function resetPractice() {
     queue = review ? review.queue.map(e => ({ ...e })) : generateExercises(unit, words, levelVocab);
+    // dictation · two dictations mixed in: listen to a sentence of the lesson (at the speed you choose) and build it with the words
+    if (!review) {
+      const src = queue.filter(e => e.type === 'order' && e.answer).slice(0, 2);
+      const dl = src.map(e => { const sent = e.type === 'fill' ? e.sentence.replace('___', e.blank) : e.answer;
+        return { ...e, dict: true, prompt: S.lang === 'en' ? '🎧 Put in order what you hear' : '🎧 Ordena lo que oyes', text: sent, hint: '' }; });
+      dl.forEach((d, k) => queue.splice(Math.min(queue.length, Math.floor(queue.length * (k + 1) / 3)), 0, d));
+    }
     // verbs of the lesson (or common ones) conjugated: one to choose among look-alikes, one to type
     if (!review) { const cj = conjExercises(params.level, words, 2); if (cj.length) queue.splice(Math.max(1, queue.length - 2), 0, ...cj); }
     total = queue.length;
@@ -219,7 +226,7 @@ register('lesson', async (el, params) => {
       ${review && !ex.retry && ex.src ? `<div class="review-src small mb-8">${{ weak: '🧠 ' + t('srcWeak'), drill: '🎯 ' + t('srcDrill'), recent: '🕘 ' + t('srcRecent') }[ex.src]}</div>` : ''}
       <div id="exercise-area">${renderByType(ex)}</div>
     </div>`;
-    if (ex.type === 'listen') setTimeout(() => speak(ex.text), 300);
+    if (ex.type === 'listen' || ex.dict) setTimeout(() => speak(ex.text), 300);
     if (ex.type === 'translate') {
       const input = document.getElementById('answer-input');
       input.focus();
@@ -232,8 +239,14 @@ register('lesson', async (el, params) => {
   }
 
   function hintOf(ex) {
-    return ex.hint ? `<div class="muted small mb-8">${esc(ex.hint)}</div>` : '';
+    return (ex.hint ? `<div class="muted small mb-8">${esc(ex.hint)}</div>` : '') + (ex.dict ? dictBar() : '');
   }
+  // dictation: play again, and the voice speed (same setting as in the texts)
+  function dictBar() {
+    return `<div class="flex items-center gap-8 mb-12" style="flex-wrap:wrap"><button class="card listen-btn" style="width:64px;height:64px;font-size:26px;margin:0" onclick="window.__speak()">🔊</button>
+      <div class="flex gap-8" id="dict-rate" style="flex-wrap:wrap">${SPEEDS.map(r => `<button class="chip ${speed() === r ? 'on' : ''}" onclick="window.__dictRate(${r})">×${r}</button>`).join('')}</div></div>`;
+  }
+  window.__dictRate = r => { S.settings.rate = r; update({ settings: S.settings }); document.querySelectorAll('#dict-rate .chip').forEach(b => b.classList.toggle('on', b.textContent === '×' + r)); window.__speak(); };
 
   function optionsHtml(ex, handler) {
     return `<div id="options">${ex.options.map((opt, i) =>

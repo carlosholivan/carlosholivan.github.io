@@ -1,14 +1,14 @@
 // Vocabulary by theme (category › subcategory; themes follow the Instituto Cervantes curriculum), across every level, with learning status and quick study.
-import { S, update } from '../state.js?v=202611282029';
-import { register, go, render } from '../router.js?v=202611282029';
-import { LEVELS, levelLabel } from '../levels.js?v=202611282029';
-import { setKnown, addCards } from '../engine/anki.js?v=202611282029';
-import { bottomNav, header, progressBar } from '../ui/components.js?v=202611282029';
-import { speak } from '../audio.js?v=202611282029';
-import { t } from '../i18n.js?v=202611282029';
-import { esc, mean, tonedPinyin, sylReady } from '../es.js?v=202611282029';
-import { allVocab } from './review.js?v=202611282029';
-import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611282029';
+import { S, update } from '../state.js?v=202611282031';
+import { register, go, render } from '../router.js?v=202611282031';
+import { LEVELS, levelLabel } from '../levels.js?v=202611282031';
+import { setKnown, addCards } from '../engine/anki.js?v=202611282031';
+import { bottomNav, header, progressBar } from '../ui/components.js?v=202611282031';
+import { speak } from '../audio.js?v=202611282031';
+import { t } from '../i18n.js?v=202611282031';
+import { esc, mean, tonedPinyin, sylReady } from '../es.js?v=202611282031';
+import { allVocab } from './review.js?v=202611282031';
+import { wordStatus, STATUS, statusLegend, isLearned } from '../engine/status.js?v=202611282031';
 
 let topics = null;
 let lvFilter = 'all';
@@ -16,7 +16,7 @@ const label = o => o[S.lang] || o.en;
 const learned = isLearned;
 
 async function load() {
-  if (!topics) topics = await fetch('data/topics.json?v=202611282029').then(r => r.json());
+  if (!topics) topics = await fetch('data/topics.json?v=202611282031').then(r => r.json());
   return topics;
 }
 // Words of a subcategory as [level, word], filtered by the selected level.

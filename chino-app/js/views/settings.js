@@ -1,18 +1,18 @@
-import { reminderSettings } from '../reminders.js?v=202611282029';
-import { planSettings } from '../plan.js?v=202611282029';
-import '../tour.js?v=202611282029';
-import { tutorSettings } from '../tutor.js?v=202611282029';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611282029';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611282029';
-import { readAnki } from '../anki-import.js?v=202611282029';
-import { allVocab } from './review.js?v=202611282029';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611282029';
-import { esc } from '../zh.js?v=202611282029';
-import { register, go } from '../router.js?v=202611282029';
-import { bottomNav, header } from '../ui/components.js?v=202611282029';
-import { t } from '../i18n.js?v=202611282029';
-import { applyPinyinPref } from '../zh.js?v=202611282029';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611282029';
+import { reminderSettings } from '../reminders.js?v=202611282031';
+import { planSettings } from '../plan.js?v=202611282031';
+import '../tour.js?v=202611282031';
+import { tutorSettings } from '../tutor.js?v=202611282031';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611282031';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611282031';
+import { readAnki } from '../anki-import.js?v=202611282031';
+import { allVocab } from './review.js?v=202611282031';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611282031';
+import { esc } from '../zh.js?v=202611282031';
+import { register, go } from '../router.js?v=202611282031';
+import { bottomNav, header } from '../ui/components.js?v=202611282031';
+import { t } from '../i18n.js?v=202611282031';
+import { applyPinyinPref } from '../zh.js?v=202611282031';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611282031';
 
 register('settings', (el) => {
   const langs = [
@@ -81,6 +81,10 @@ register('settings', (el) => {
         <div class="toggle ${S.dark ? 'on' : ''}" onclick="window.__toggleDark()"></div>
       </div>
       <div class="flex items-center justify-between mt-16">
+        <span>${S.lang === 'en' ? 'Starry night theme' : 'Tema noche estrellada'} ❄️</span>
+        <div class="toggle ${localStorage.getItem('idiomas_night') === '1' ? 'on' : ''}" onclick="window.__toggleNight()"></div>
+      </div>
+      <div class="flex items-center justify-between mt-16">
         <span>${S.lang === 'en' ? 'Colours and confetti in exercises' : 'Colores y confeti en los ejercicios'}</span>
         <div class="toggle ${localStorage.getItem('idiomas_candy') === '1' ? 'on' : ''}" onclick="window.__toggleCandy()"></div>
       </div>
@@ -144,6 +148,8 @@ window.__toggleDark = () => {
   update({ dark: S.dark });
   go('settings');
 };
+
+window.__toggleNight = async () => { (await import('../../../idiomas/night.js?v=202611282031')).toggleNight(); go('settings'); };
 
 window.__toggleCandy = () => {
   try { localStorage.setItem('idiomas_candy', localStorage.getItem('idiomas_candy') === '1' ? '0' : '1'); } catch (e) {}
