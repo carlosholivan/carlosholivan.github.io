@@ -19,3 +19,9 @@ export function upcoming(c, days = 7, now = new Date()) {
 export const today = c => upcoming(c, 0)[0] || null;
 // The fact for a town on a given day: changes every day, different in each town.
 export const factFor = (c, i, now = new Date()) => (c && c.facts && c.facts.length) ? { k: (i * 7 + Math.floor(now / 86400000)) % c.facts.length, t: c.facts[(i * 7 + Math.floor(now / 86400000)) % c.facts.length] } : null;
+
+// Country map (SVG paths made from Natural Earth via world-atlas): { w, h, box: [lon0, lat0, lon1, lat1], c, k, main, other }.
+const maps = {};
+export const loadMap = app => maps[app] || (maps[app] = fetch(new URL(`./culture/maps/${app}.json`, import.meta.url)).then(r => (r.ok ? r.json() : null)).catch(() => null));
+export const project = (m, [lat, lon]) => [(lon - m.box[0]) * m.c * m.k, (m.box[3] - lat) * m.k];
+export const inMap = (m, [lat, lon]) => lon >= m.box[0] && lon <= m.box[2] && lat >= m.box[1] && lat <= m.box[3];

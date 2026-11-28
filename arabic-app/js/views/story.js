@@ -2,17 +2,17 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281115';
-import { S, update, completeUnit } from '../state.js?v=202611281115';
-import { register, go } from '../router.js?v=202611281115';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281115';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281115';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281115';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281115';
-import { unitVocab } from '../engine/exercises.js?v=202611281115';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611281115';
-import { speak, speakAs, stop } from '../audio.js?v=202611281115';
-import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611281115';
+import { CFG } from '../app-config.js?v=202611281122';
+import { S, update, completeUnit } from '../state.js?v=202611281122';
+import { register, go } from '../router.js?v=202611281122';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281122';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281122';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281122';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281122';
+import { unitVocab } from '../engine/exercises.js?v=202611281122';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611281122';
+import { speak, speakAs, stop } from '../audio.js?v=202611281122';
+import { ruby, pyReady, sylReady, esc } from '../ar.js?v=202611281122';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -41,6 +41,8 @@ const TX = {
   buyIt: { es: 'Comprar', en: 'Buy' }, wearIt: { es: 'Ponerse', en: 'Wear' }, wearing: { es: 'Puesto', en: 'Wearing' }, takeOff: { es: 'Quitar', en: 'Take off' }, have: { es: 'Tienes', en: 'You have' },
   slots: { es: { outfit: 'Trajes', hat: 'Sombreros', cape: 'Capas', pet: 'Compañeros', shield: 'Racha' }, en: { outfit: 'Outfits', hat: 'Hats', cape: 'Capes', pet: 'Companions', shield: 'Streak' } },
   rv: { es: 'repasa contigo', en: 'reviews with you' }, rvDone: { es: '¡Repaso hecho! Vuelve mañana: tus amigos tendrán más palabras.', en: 'Review done! Come back tomorrow: your friends will have more words.' }, rvNone: { es: 'Hoy no hay palabras pendientes. ¡Repasemos unas cuantas igualmente!', en: 'No words due today. Let\'s review a few anyway!' },
+  map: { es: 'Mapa', en: 'Map' }, food: { es: 'Comida típica', en: 'Typical food' }, custom: { es: 'Costumbre', en: 'Custom' }, manners: { es: 'Educado y no educado', en: 'Polite and rude' }, dialect: { es: 'Cómo se habla', en: 'How people speak' },
+  tapPlace: { es: 'Toca un lugar del mapa para conocerlo.', en: 'Tap a place on the map to learn about it.' }, figures: { es: 'Personajes históricos', en: 'Historical figures' }, whoWas: { es: '¿Quién fue…?', en: 'Who was…?' },
   todayIn: { es: 'Hoy en', en: 'Today in' }, tomorrowIn: { es: 'Mañana en', en: 'Tomorrow in' }, soonIn: { es: 'En {n} días en', en: 'In {n} days in' }, approx: { es: 'Fecha aproximada: depende del calendario lunar.', en: 'Approximate date: it depends on the lunar calendar.' },
   didYou: { es: '¿Sabías que…?', en: 'Did you know…?' }, factsN: { es: 'Curiosidades descubiertas: {n}', en: 'Facts discovered: {n}' },
   gymLocked: { es: 'El templo se abre cuando completes todos los pueblos de esta región', en: 'The temple opens when you finish every town in this region' },
@@ -207,7 +209,9 @@ async function map(m) {
     box.innerHTML = `<div class="w3-hud">
         <div class="w3-me">${hero.img ? `<img src="${hero.img}" alt="">` : ''}<div><b>${esc(L(hero.n))}</b><span>🔥 ${S.streak || 0} · 💎 <i class="w3-gems">${gems()}</i></span></div></div>
         <button class="chip w3-shop" onclick="window.__smShop()">🛍️ ${tx('shop')}</button></div>
-      <button class="w3-fest" hidden onclick="window.__smFest()"></button><div class="w3-modal" hidden></div>
+      <button class="w3-fest" hidden onclick="window.__smFest()"></button>
+      <div class="w3-geo"><button class="chip w3-place" hidden onclick="window.__smPlace()"></button><button class="chip w3-mapb" hidden onclick="window.__smMap()">🗺️ ${tx('map')}</button></div>
+      <div class="w3-modal" hidden></div>
       <div class="sm-hint">${tx('drag')}</div><button class="chip sm-2d" onclick="window.__sm3d(false)">🗺️ 2D</button>`;
     flat.replaceWith(box);
     const hint = (t2, ms = 2200, bad) => { const h = box.querySelector('.sm-hint'); h.textContent = t2; h.classList.toggle('on', !!bad); h.classList.toggle('gold', !bad); setTimeout(() => { h.textContent = tx('drag'); h.classList.remove('on', 'gold'); }, ms); };
@@ -216,6 +220,29 @@ async function map(m) {
     const cult = await import('../../../idiomas/culture.js').then(x => x).catch(() => null);
     const cu = cult ? await cult.loadCulture(CFG.id) : null;
     const modal = (html) => { const md = box.querySelector('.w3-modal'); md.innerHTML = `<div class="w3-card">${html}<button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">${tx('cont2')}</button></div>`; md.hidden = false; };
+    // geography: this level's region is one place of the country; the map shows them all
+    const lvI = LEVELS.indexOf(level), places = (cu && cu.places) || [], here = places.length ? places[lvI % places.length] : null;
+    const placeCard = pl => `<div class="w3-k">📍 ${esc(cu.country)}</div><h3>${esc(pl.n)}</h3><p>${esc(pl.d)}</p>
+      <p><b>🍜 ${tx('food')}:</b> ${esc(pl.food)}</p><p><b>🎎 ${tx('custom')}:</b> ${esc(pl.cos)}</p><p><b>🙇 ${tx('manners')}:</b> ${esc(pl.eti)}</p><p><b>🗣️ ${tx('dialect')}:</b> ${esc(pl.dia)}</p>`;
+    if (here) {
+      const pb = box.querySelector('.w3-place'); pb.textContent = '📍 ' + here.n; pb.hidden = false;
+      window.__smPlace = () => modal(placeCard(here));
+    }
+    if (places.length) {
+      box.querySelector('.w3-mapb').hidden = false;
+      window.__smMap = async () => {
+        const mp = await cult.loadMap(CFG.id);
+        const dot = (pl, k) => { if (!mp || !cult.inMap(mp, pl.ll)) return ''; const [x, y] = cult.project(mp, pl.ll), st = k === lvI ? 'cur' : k < lvI ? 'done' : '';
+          return `<g class="w3-dot ${st}" onclick="window.__smMapPick(${k})"><circle cx="${x}" cy="${y}" r="${k === lvI ? 13 : 10}"/><text x="${x}" y="${y - 16}">${esc(pl.n.split(' (')[0])}</text></g>`; };
+        const far = places.map((pl, k) => [pl, k]).filter(([pl]) => mp && !cult.inMap(mp, pl.ll));
+        modal(`<div class="w3-k">🗺️ ${esc(cu.country)}</div>
+          ${mp ? `<svg class="w3-svg" viewBox="0 0 ${mp.w} ${mp.h}"><g class="o">${mp.other.map(d => `<path d="${d}"/>`).join('')}</g><g class="m">${mp.main.map(d => `<path d="${d}"/>`).join('')}</g>${places.map(dot).join('')}</svg>` : ''}
+          ${far.length ? `<div class="w3-far">${far.map(([pl, k]) => `<button class="chip" onclick="window.__smMapPick(${k})">🌍 ${esc(pl.n)}</button>`).join('')}</div>` : ''}
+          <div class="w3-pick small muted">${tx('tapPlace')}</div>
+          ${(cu.figures || []).length ? `<div class="w3-k" style="margin-top:12px">👤 ${tx('figures')}</div>${cu.figures.map(f => `<details class="w3-fig"><summary><b>${esc(f.n)}</b> <span class="muted small">${esc(f.y)}</span></summary><p>${esc(f.t)}</p></details>`).join('')}` : ''}`);
+        window.__smMapPick = k => { const el2 = box.querySelector('.w3-pick'); el2.classList.remove('small', 'muted'); el2.innerHTML = placeCard(places[k]); el2.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
+      };
+    }
     if (cu) {
       const NOW = window.__w3time ? new Date(window.__w3time) : new Date();
       const up = cult.upcoming(cu, 7, NOW), f = up[0];
@@ -238,7 +265,14 @@ async function map(m) {
         modal(`<div class="w3-medal">🏅</div><h3>${tx('medal').replace('{l}', esc(levelLabel(level)))}</h3><p>${nx ? tx('nextRegion').replace('{l}', esc(levelLabel(nx))) : tx('allRegions')}</p>${nx ? `<button class="btn" onclick="window.__go('story',{level:'${nx}'})">${esc(levelLabel(nx))} ▶</button>` : ''}`);
       },
       onFact: i => {
-        const f = cult && cu ? cult.factFor(cu, i, window.__w3time ? new Date(window.__w3time) : new Date()) : null;
+        const now2 = window.__w3time ? new Date(window.__w3time) : new Date();
+        if (cu && (cu.figures || []).length && i % 3 === 2) {
+          const k = (i + Math.floor(now2 / 86400000)) % cu.figures.length, fg = cu.figures[k], isNew = readFact(`${CFG.id}-fig-${k}`);
+          modal(`<div class="w3-k">👤 ${tx('whoWas')}</div><h3>${esc(fg.n)}</h3><p class="small muted">${esc(fg.y)}</p><p class="w3-fact">${esc(fg.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
+          const g3 = box.querySelector('.w3-gems'); if (g3) g3.textContent = gems();
+          return;
+        }
+        const f = cult && cu ? cult.factFor(cu, i, now2) : null;
         if (!f) return;
         const isNew = readFact(`${CFG.id}-${f.k}`);
         modal(`<div class="w3-k">📜 ${tx('didYou')}</div><p class="w3-fact">${esc(f.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
@@ -689,12 +723,23 @@ function css() {
 @keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
 body.sm-on #lang-switch,body.sm-on .bottomnav{display:none !important}
 body.sm-3d #sm-sky{display:none}
+.w3-geo{position:absolute;right:10px;top:108px;z-index:2;display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.w3-geo .chip,.w3-geo .chip *{background:rgba(15,29,66,.62) !important;color:#fff !important;border-color:rgba(255,255,255,.3) !important}
+.sm-world3d .sm-2d{top:auto !important;bottom:52px !important;right:10px !important}
+.w3-card{max-height:86%;overflow:auto;text-align:left}.w3-card>.btn{width:100%}
+.w3-svg{width:100%;height:auto;border-radius:14px;background:#cfe6f5;margin:6px 0}
+.w3-svg .o path{fill:#ece5d6;stroke:#c9bfa9;stroke-width:1}.w3-svg .m path{fill:#bfe0a8;stroke:#6f9a5a;stroke-width:1.5}
+.w3-dot{cursor:pointer}.w3-dot circle{fill:#9aa1b3;stroke:#fff;stroke-width:3}.w3-dot.done circle{fill:#e6b84a}.w3-dot.cur circle{fill:#3d7dff;animation:w3p 1.4s infinite}
+.w3-dot text{font:700 18px system-ui;fill:#2b2340;text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:4px}
+@keyframes w3p{50%{stroke-width:9px}}
+.w3-far{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}body.sm-on [data-sm] .w3-card .chip,body.sm-on [data-sm] .w3-card .chip *{background:#f1e8d8 !important;color:#2b2340 !important;border-color:#e0d3bd !important}.w3-fig summary{text-align:left}
+.w3-fig{border-top:1px solid #eadfcd;padding:8px 0}.w3-fig summary{cursor:pointer}.w3-fig p{margin:6px 0 0}
 .w3-fest{position:absolute;left:10px;right:10px;top:64px;z-index:2;text-align:left;border:0;border-radius:14px;padding:8px 12px;font:600 13px system-ui;color:#3b2a00;background:linear-gradient(90deg,#ffe08a,#ffc96b);box-shadow:0 4px 14px rgba(0,0,0,.25);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .w3-modal{position:absolute;inset:0;z-index:5;display:grid;place-items:center;background:rgba(8,12,30,.45);padding:18px}.w3-modal[hidden]{display:none}
 .w3-card{max-width:340px;background:#fffaf2;color:#2b2340;border-radius:22px;padding:18px 18px 14px;box-shadow:0 16px 40px rgba(0,0,0,.35);text-align:center}
 .w3-card h3{margin:6px 0 8px;font-size:20px}.w3-card p{margin:0 0 6px;line-height:1.45;text-align:left}
 .w3-k{font-weight:800;color:#9c7842;font-size:13px;letter-spacing:.04em}.w3-fact{font-size:16px}.w3-medal{font-size:64px;line-height:1}
-body.sm-on .w3-card .muted{color:#8a7c6c !important}
+body.sm-on [data-sm] .w3-card .muted{color:#8a7c6c !important}
 .w3-hud{position:absolute;left:10px;right:10px;top:10px;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;pointer-events:none}
 .w3-hud>*{pointer-events:auto}
 .w3-me{display:flex;gap:8px;align-items:center;background:rgba(15,29,66,.62);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 12px 4px 4px;color:#fff}
