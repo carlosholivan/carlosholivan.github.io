@@ -1,7 +1,7 @@
 // Conjugation exercises for the lessons: a verb of the lesson (or a common one), a person and a tense of this
 // level, to choose among look-alike forms (other persons, other tenses, the same form with a wrong accent) or to type.
-import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate } from './conj.js?v=202611282108';
-import { S } from './state.js?v=202611282108';
+import { VERBS, PERSONS, IMP_PERSONS, TENSES, conjugate } from './conj.js?v=202611282113';
+import { S } from './state.js?v=202611282113';
 
 const BY_LEVEL = { a1: ['pres'], a2: ['pres', 'pc', 'imparf', 'fut'], b1: ['pc', 'imparf', 'fut', 'cond', 'pqp'], b2: ['imparf', 'cond', 'pqp', 'subj', 'imp'], c1: ['subj', 'cond', 'condp', 'pqp'], c2: ['subj', 'condp', 'ps', 'pqp'] };
 const EASY_P = null;

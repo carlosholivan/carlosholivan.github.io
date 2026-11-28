@@ -1,18 +1,18 @@
-import { reminderSettings } from '../reminders.js?v=202611282108';
-import { planSettings } from '../plan.js?v=202611282108';
-import '../tour.js?v=202611282108';
-import { tutorSettings } from '../tutor.js?v=202611282108';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611282108';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611282108';
-import { readAnki } from '../anki-import.js?v=202611282108';
-import { allVocab } from './review.js?v=202611282108';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611282108';
-import { esc } from '../es.js?v=202611282108';
-import { register, go } from '../router.js?v=202611282108';
-import { bottomNav, header } from '../ui/components.js?v=202611282108';
-import { t } from '../i18n.js?v=202611282108';
-import { applyPinyinPref } from '../es.js?v=202611282108';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611282108';
+import { reminderSettings } from '../reminders.js?v=202611282113';
+import { planSettings } from '../plan.js?v=202611282113';
+import '../tour.js?v=202611282113';
+import { tutorSettings } from '../tutor.js?v=202611282113';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611282113';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611282113';
+import { readAnki } from '../anki-import.js?v=202611282113';
+import { allVocab } from './review.js?v=202611282113';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611282113';
+import { esc } from '../es.js?v=202611282113';
+import { register, go } from '../router.js?v=202611282113';
+import { bottomNav, header } from '../ui/components.js?v=202611282113';
+import { t } from '../i18n.js?v=202611282113';
+import { applyPinyinPref } from '../es.js?v=202611282113';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611282113';
 
 register('settings', (el) => {
   const langs = [
@@ -125,7 +125,7 @@ window.__toggleDark = () => {
   go('settings');
 };
 
-window.__toggleNight = async () => { (await import('../../../idiomas/night.js?v=202611282108')).toggleNight(); go('settings'); };
+window.__toggleNight = async () => { (await import('../../../idiomas/night.js?v=202611282113')).toggleNight(); go('settings'); };
 
 window.__toggleCandy = () => {
   try { localStorage.setItem('idiomas_candy', localStorage.getItem('idiomas_candy') === '1' ? '0' : '1'); } catch (e) {}

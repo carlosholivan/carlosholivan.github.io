@@ -2,13 +2,13 @@
 // the browser's speech recognition checks it), 3) guided role-play conversations with the Gemini tutor.
 // Sentences come from the level's example sentences (data/<level>/examples.json), which have recorded audio.
 // Same file in every app; the language comes from CFG.id.
-import { S, update } from '../state.js?v=202611282108';
-import { register } from '../router.js?v=202611282108';
-import { LEVELS, levelLabel } from '../levels.js?v=202611282108';
-import { header, bottomNav } from '../ui/components.js?v=202611282108';
-import { speak, stop } from '../audio.js?v=202611282108';
-import { CFG } from '../app-config.js?v=202611282108';
-import { chatGemini, tutorKey, errText, thinkingHTML } from '../tutor.js?v=202611282108';
+import { S, update } from '../state.js?v=202611282113';
+import { register } from '../router.js?v=202611282113';
+import { LEVELS, levelLabel } from '../levels.js?v=202611282113';
+import { header, bottomNav } from '../ui/components.js?v=202611282113';
+import { speak, stop } from '../audio.js?v=202611282113';
+import { CFG } from '../app-config.js?v=202611282113';
+import { chatGemini, tutorKey, errText, thinkingHTML } from '../tutor.js?v=202611282113';
 
 const APP = CFG.id;
 const LANG = { espanol: ['es-ES', 'Spanish'], english: ['en-GB', 'English'], francais: ['fr-FR', 'French'], deutsch: ['de-DE', 'German'],
@@ -153,7 +153,7 @@ function count(kind) {
 // so the plugin @capacitor-community/speech-recognition is used instead (the phone's own recognizer; see
 // idiomas/NATIVE_APP.md). Both return a list of alternatives for the last utterance.
 let rec = null, nativeStop = null, forceEnd = null;
-const NATIVE = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform() && window.Capacitor.Plugins && window.Capacitor.Plugins.SpeechRecognition) || null;
+const NATIVE = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform() && (window.Capacitor.Plugins && window.Capacitor.Plugins.SpeechRecognition || window.Capacitor.registerPlugin && (window.Capacitor.Plugins.SpeechRecognition = window.Capacitor.registerPlugin('SpeechRecognition')))) || null;
 const canListen = () => !!(NATIVE() || SR);
 function stopListening() { try { nativeStop ? nativeStop() : forceEnd ? forceEnd() : rec && rec.stop(); } catch (e) {} }
 function abortListening() { try { nativeStop ? nativeStop() : rec && rec.abort(); } catch (e) {} rec = null; forceEnd = null; }

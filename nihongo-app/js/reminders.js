@@ -6,9 +6,9 @@
 //  In the native app (Capacitor, Android / iPhone) the WebView has no web push: local notifications are scheduled on
 //  the phone itself instead (@capacitor-community / @capacitor/local-notifications; no account or server needed).
 //  The next 14 days are scheduled one by one, and today's is cancelled as soon as the learner studies.
-import { S, update } from './state.js?v=202611282108';
-import { CFG } from './app-config.js?v=202611282108';
-import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611282108';
+import { S, update } from './state.js?v=202611282113';
+import { CFG } from './app-config.js?v=202611282113';
+import { getUser, isVerified, loadReminder, saveReminder, firebaseApp } from './firebase-auth.js?v=202611282113';
 
 const FB = 'https://www.gstatic.com/firebasejs/12.16.0/';
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es)) || '';
@@ -48,7 +48,7 @@ const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platfor
 const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 const local = () => ({ on: false, h: 20, m: 0, ...(S.reminder || {}) });
 const LN = () => (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()
-  && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications) || null;
+  && (window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications || window.Capacitor.registerPlugin && (window.Capacitor.Plugins.LocalNotifications = window.Capacitor.registerPlugin('LocalNotifications')))) || null;
 const dayStr = d => d.toLocaleDateString('sv');
 const studiedToday = () => !!(S.studyTime && S.studyTime.d === dayStr(new Date()) && S.studyTime.t >= 120);
 const BASE_ID = 7100;
