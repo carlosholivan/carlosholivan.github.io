@@ -1,18 +1,21 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281200';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611281200';
-import { buildReview } from '../engine/review.js?v=202611281200';
-import { addCards } from '../engine/anki.js?v=202611281200';
-import { register, go } from '../router.js?v=202611281200';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281200';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281200';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611281200';
-import { recordAnswer } from '../engine/srs.js?v=202611281200';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611281200';
-import { icon } from '../ui/icons.js?v=202611281200';
-import { t } from '../i18n.js?v=202611281200';
-import { speak, stop as stopAudio } from '../audio.js?v=202611281200';
-import { allHanzi } from './review.js?v=202611281200';
-import { charWord, hasChars } from '../chars.js?v=202611281200';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611281705';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611281705';
+import { buildReview } from '../engine/review.js?v=202611281705';
+import { addCards } from '../engine/anki.js?v=202611281705';
+import { lives, loseLife, addGems, lifeIn } from '../rewards.js?v=202611281705';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf } from '../../../idiomas/juice.js?v=202611281705';
+import { CFG as LCFG } from '../app-config.js?v=202611281705';
+import { register, go } from '../router.js?v=202611281705';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611281705';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611281705';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../zh.js?v=202611281705';
+import { recordAnswer } from '../engine/srs.js?v=202611281705';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611281705';
+import { icon } from '../ui/icons.js?v=202611281705';
+import { t } from '../i18n.js?v=202611281705';
+import { speak, stop as stopAudio } from '../audio.js?v=202611281705';
+import { allHanzi } from './review.js?v=202611281705';
+import { charWord, hasChars } from '../chars.js?v=202611281705';
 
 const MAX_HEARTS = 5;
 
@@ -187,7 +190,7 @@ register('lesson', async (el, params) => {
         <button onclick="window.__quitLesson()" style="padding:4px">${icon('back', 20, 'var(--ink2)')}</button>
         <div class="grow">${progressBar(pct)}</div>
         ${pyToggle()}
-        <div class="flex items-center" style="gap:4px;font-weight:700">❤️ ${hearts}</div>
+        <div class="flex items-center lv-chip" style="gap:4px;font-weight:700">${lifeOf(LCFG.id)} ${lives()}</div>
       </div>
       ${help}
       ${ex.retry ? `<div class="muted small mb-8">🔁 ${t('retryNow')}</div>` : ''}
@@ -407,6 +410,12 @@ register('lesson', async (el, params) => {
     const ex = current();
     // Only vocabulary words count as "seen" (not whole sentences or translations).
     if (srsKey && (ex.vocab || vocabSet.has(srsKey))) recordAnswer(srsKey, isCorrect);
+    // Juice and lives: confetti and a rising chime for right answers; a wrong one costs a life (never blocks).
+    setTimeout(() => {
+      const b = document.querySelector('.exercise-option.wrong') || document.querySelector('.exercise-option.correct') || document.getElementById('feedback');
+      if (isCorrect) cheer(b);
+      else { boo(b); if (lives() > 0) { loseLife(); const c = document.querySelector('.lv-chip'); if (c) { c.textContent = `${lifeOf(LCFG.id)} ${lives()}`; floatUp(`-1 ${lifeOf(LCFG.id)}`, c, '#ff8fa3'); } } }
+    }, 0);
     if (isCorrect) {
       solved++;
       if (!ex.retry) firstTryCorrect++;
@@ -426,13 +435,7 @@ register('lesson', async (el, params) => {
     </div>
     <button class="btn mt-12 ${isCorrect ? 'btn-ok' : ''}" id="next-btn" onclick="window.__next(${isCorrect})">${t('continue')}</button>`;
 
-    if (hearts <= 0) {
-      fb.innerHTML += `<div class="muted small center mt-8">${t('noLives')}</div>`;
-      document.getElementById('next-btn').remove();
-      setTimeout(startPractice, 1800);
-    } else {
-      document.getElementById('next-btn').focus();
-    }
+    document.getElementById('next-btn').focus();
   }
 
   function resetExerciseState() {
@@ -516,6 +519,8 @@ register('lesson', async (el, params) => {
 
     el.innerHTML = `<div class="fade center" style="padding-top:60px">
       <div style="font-size:60px;margin-bottom:16px">${'⭐'.repeat(stars)}</div>
+      ${(() => { const n = lives(); if (!n) return `<div class="muted small mb-8">${lifeOf(LCFG.id)} 0 · +1 / ${Math.ceil(lifeIn() / 60000)} min</div>`; addGems(n * 2); setTimeout(() => { sfx('win'); burst(null, 60, 1.6); if (n >= 5) shout('⭐ ' + (S.lang === 'en' ? 'Perfect!' : '¡Perfecto!')); }, 300);
+        return `<div class="lv-bonus mb-16" style="display:inline-block;font-weight:800;color:#3b2a00;background:linear-gradient(90deg,#ffe08a,#ffc96b);border-radius:12px;padding:8px 14px">${lifeOf(LCFG.id).repeat(n)} → 💎 +${n * 2}</div>`; })()}
       <div class="h1 mb-8">${t('completed')}</div>
       <div class="muted mb-16">${firstTryCorrect}/${total} ${t('correctCount')} · ${mistakes} ${t('mistakes')}</div>
       <div class="card" style="padding:20px;margin-bottom:20px">

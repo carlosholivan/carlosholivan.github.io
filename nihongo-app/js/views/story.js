@@ -2,17 +2,18 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281200';
-import { S, update, completeUnit } from '../state.js?v=202611281200';
-import { register, go } from '../router.js?v=202611281200';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281200';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281200';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281200';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281200';
-import { unitVocab } from '../engine/exercises.js?v=202611281200';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611281200';
-import { speak, speakAs, stop } from '../audio.js?v=202611281200';
-import { ruby, pyReady, sylReady, esc } from '../ja.js?v=202611281200';
+import { CFG } from '../app-config.js?v=202611281705';
+import { S, update, completeUnit } from '../state.js?v=202611281705';
+import { register, go } from '../router.js?v=202611281705';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281705';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281705';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281705';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281705';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281705';
+import { unitVocab } from '../engine/exercises.js?v=202611281705';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611281705';
+import { speak, speakAs, stop } from '../audio.js?v=202611281705';
+import { ruby, pyReady, sylReady, esc } from '../ja.js?v=202611281705';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -55,9 +56,47 @@ const TX = {
   listen: { es: 'Escucha y elige', en: 'Listen and choose' }, order: { es: 'Ordena la frase', en: 'Put the sentence in order' },
   fill: { es: 'Completa la frase', en: 'Fill in the blank' }, sayIt: { es: '¿Cómo se dice?', en: 'How do you say it?' },
   pairs: { es: 'Une cada palabra con su significado', en: 'Match each word to its meaning' },
+  whatSaid: { es: '¿Qué ha dicho {n}?', en: 'What did {n} say?' }, whatReply: { es: '¿Qué le respondes?', en: 'What do you answer?' },
+  understood: { es: 'frases entendidas', en: 'lines understood' }, qGood: { es: '¡Lo has entendido!', en: 'You got it!' }, qBad: { es: 'Era esta:', en: 'It was this one:' },
   passed: { es: 'Reto superado', en: 'Challenge complete' }, check: { es: 'Comprobar', en: 'Check' }, gift: { es: 'Regalo', en: 'Gift' },
 };
 const tx = k => L(TX[k]);
+
+// ---------- lives: a local food per language. Missing answers costs one; having none never blocks playing ----------
+const LIFE = { nihongo: ['🍙', { es: 'onigiris', en: 'onigiri' }], chino: ['🥟', { es: 'jiaozi', en: 'dumplings' }], arabe: ['🧆', { es: 'falafels', en: 'falafels' }],
+  arabic: ['🧆', { es: 'falafels', en: 'falafels' }], espanol: ['🥘', { es: 'paellas', en: 'paellas' }], english: ['🫖', { es: 'teteras', en: 'teapots' }],
+  francais: ['🥐', { es: 'cruasanes', en: 'croissants' }], deutsch: ['🥨', { es: 'pretzels', en: 'pretzels' }] }[CFG.id] || ['❤️', { es: 'vidas', en: 'lives' }];
+const LTX = {
+  lifeWhy: { es: 'Cada fallo cuesta {i}. Se recupera uno cada 20 minutos. Sin {n} puedes seguir jugando igual, pero cada reto que termines con {n} te da 💎 extra: 2 por cada {i} que te quede.', en: 'Each mistake costs one {i}. One comes back every 20 minutes. Without {n} you can still play, but every challenge you finish with {n} pays extra 💎: 2 for each {i} left.' },
+  lifeNext: { es: '+1 en {m} min', en: '+1 in {m} min' }, lifeFull: { es: '¡Llenos!', en: 'Full!' },
+  lifeBonus: { es: 'Bonus por tus {n}', en: 'Bonus for your {n}' }, lifeNone: { es: 'Sin {n} no hay bonus esta vez: vuelven en {m} min.', en: 'No {n}, no bonus this time: they come back in {m} min.' },
+  lifeNote: { es: '¡Tus {n} están llenos! {i} Vuelve y gana el bonus de 💎.', en: 'Your {n} are full! {i} Come back for the 💎 bonus.' }, perfect: { es: '¡Perfecto!', en: 'Perfect!' },
+};
+const lt = (k, o = {}) => L(LTX[k]).replace(/\{i\}/g, LIFE[0]).replace(/\{n\}/g, L(LIFE[1])).replace(/\{m\}/g, o.m == null ? '' : o.m);
+const lifeChip = () => `<span class="chip sp-chip lv-chip">${LIFE[0]} ${lives()}</span>`;
+const lifeRow = () => `<button class="lv-row" onclick="window.__lvWhy()">${Array.from({ length: LIFE_MAX }, (_, k) => `<span class="${k < lives() ? '' : 'off'}">${LIFE[0]}</span>`).join('')}<small>${lives() >= LIFE_MAX ? lt('lifeFull') : lt('lifeNext', { m: Math.ceil(lifeIn() / 60000) })}</small></button>`;
+// Losing one: it flies off the chip, and on the phone a notification is set for when they are all back.
+function miss(el) {
+  boo(el);
+  if (lives() <= 0) return;
+  loseLife();
+  const chip = root && root.querySelector('.lv-chip');
+  if (chip) { chip.textContent = `${LIFE[0]} ${lives()}`; floatUp(`-1 ${LIFE[0]}`, chip, '#ff8fa3'); }
+  sfx('life');
+  const N = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform() && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications;
+  const at = livesFullAt();
+  if (N && at) N.schedule({ notifications: [{ id: 7400, title: `${LIFE[0]} ${lt('lifeFull')}`, body: lt('lifeNote'), schedule: { at: new Date(at), allowWhileIdle: true } }] }).catch(() => {});
+}
+// End of a challenge: 2 gems for every life left, with fanfare.
+function lifeBonus(el) {
+  const n = lives();
+  if (n <= 0) return `<div class="lv-bonus off">${lt('lifeNone', { m: Math.ceil(lifeIn() / 60000) })}</div>`;
+  addGems(n * 2);
+  setTimeout(() => { sfx('win'); burst(el || null, 60, 1.6); if (n >= LIFE_MAX) shout(lt('perfect')); }, 200);
+  return `<div class="lv-bonus">${lt('lifeBonus')}: ${LIFE[0].repeat(n)} → 💎 +${n * 2}</div>`;
+}
+window.__lvWhy = () => { const md = root.querySelector('.w3-modal'); if (!md) return toast(lt('lifeWhy'));
+  md.innerHTML = `<div class="w3-card"><div class="lv-big">${Array.from({ length: LIFE_MAX }, (_, k) => `<span class="${k < lives() ? '' : 'off'}">${LIFE[0]}</span>`).join('')}</div><h3>${esc(L(LIFE[1]))}</h3><p>${lt('lifeWhy')}</p><p class="small muted">${lives() >= LIFE_MAX ? lt('lifeFull') : lt('lifeNext', { m: Math.ceil(lifeIn() / 60000) })}</p><button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">OK</button></div>`; md.hidden = false; };
 
 let META = null;
 const cache = {};
@@ -198,98 +237,99 @@ async function map(m) {
       <div class="sm-end" style="top:${ns.length * 162 + 20}px">🏁 ${tx('finale')}</div>
     </div>
   </div>${bottomNav('home')}`;
-  root.querySelector('.sm-world').style.height = `${ns.length * 162 + 90}px`;
-  // The 3D world (shared module in /idiomas/), with this 2D map as the fallback when WebGL is not available.
+  // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const w3 = await import('../../../idiomas/world3d.js').catch(() => null);
-  if (!flat.isConnected) return;                 // the screen changed while the 3D module was loading
-  if (w3 && w3.webgl() && S.story3d !== false) {
-    const box = document.createElement('div'); box.className = 'sm-world3d';
-    const hero = (m.cast || {})[m.hero] || {};
-    box.innerHTML = `<div class="w3-hud">
-        <div class="w3-me">${hero.img ? `<img src="${hero.img}" alt="">` : ''}<div><b>${esc(L(hero.n))}</b><span>🔥 ${S.streak || 0} · 💎 <i class="w3-gems">${gems()}</i></span></div></div>
-        <button class="chip w3-shop" onclick="window.__smShop()">🛍️ ${tx('shop')}</button></div>
-      <button class="w3-fest" hidden onclick="window.__smFest()"></button>
-      <div class="w3-geo"><button class="chip w3-place" hidden onclick="window.__smPlace()"></button><button class="chip w3-mapb" hidden onclick="window.__smMap()">🗺️ ${tx('map')}</button></div>
-      <div class="w3-modal" hidden></div>
-      <div class="sm-hint">${tx('drag')}</div><button class="chip sm-2d" onclick="window.__sm3d(false)">🗺️ 2D</button>`;
-    flat.replaceWith(box);
-    const hint = (t2, ms = 2200, bad) => { const h = box.querySelector('.sm-hint'); h.textContent = t2; h.classList.toggle('on', !!bad); h.classList.toggle('gold', !bad); setTimeout(() => { h.textContent = tx('drag'); h.classList.remove('on', 'gold'); }, ms); };
-    const ARCH = { chino: 'asia', nihongo: 'asia', arabe: 'arab', arabic: 'arab' }[CFG.id] || 'europe';
-    const allDone = ns.length && ns.every(nodeDone);
-    const cult = await import('../../../idiomas/culture.js').then(x => x).catch(() => null);
-    const cu = cult ? await cult.loadCulture(CFG.id) : null;
-    const modal = (html) => { const md = box.querySelector('.w3-modal'); md.innerHTML = `<div class="w3-card">${html}<button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">${tx('cont2')}</button></div>`; md.hidden = false; };
-    // geography: this level's region is one place of the country; the map shows them all
-    const lvI = LEVELS.indexOf(level), places = (cu && cu.places) || [], here = places.length ? places[lvI % places.length] : null;
-    const placeCard = pl => `<div class="w3-k">📍 ${esc(cu.country)}</div><h3>${esc(pl.n)}</h3><p>${esc(pl.d)}</p>
-      <p><b>🍜 ${tx('food')}:</b> ${esc(pl.food)}</p><p><b>🎎 ${tx('custom')}:</b> ${esc(pl.cos)}</p><p><b>🙇 ${tx('manners')}:</b> ${esc(pl.eti)}</p><p><b>🗣️ ${tx('dialect')}:</b> ${esc(pl.dia)}</p>`;
-    if (here) {
-      const pb = box.querySelector('.w3-place'); pb.textContent = '📍 ' + here.n; pb.hidden = false;
-      window.__smPlace = () => modal(placeCard(here));
+  const mp = await import('../../../idiomas/map2d.js?v=202611281705').catch(() => null);
+  if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
+  const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
+  const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
+  const ARCH = { chino: 'asia', nihongo: 'asia', arabe: 'arab', arabic: 'arab' }[CFG.id] || 'europe';
+  const allDone = ns.length && ns.every(nodeDone);
+  const cult = await import('../../../idiomas/culture.js').catch(() => null);
+  const cu = cult ? await cult.loadCulture(CFG.id).catch(() => null) : null;
+  const lvI = LEVELS.indexOf(level), places = (cu && cu.places) || [], here = places.length ? places[lvI % places.length] : null;
+  const due = dueCount();
+  const box = document.createElement('div'); box.className = `mp mp-${time.season} mp-${time.phase}`;
+  box.innerHTML = `<div class="mp-top"><div class="mp-hud">
+      <div class="w3-me">${hero.img ? `<span class="mp-av" style="--c:${OUTFIT[wr.outfit] || '#24407a'}"><img src="${hero.img}" alt="">${wr.hat ? `<i>${icon(wr.hat)}</i>` : ''}${wr.pet ? `<u>${icon(wr.pet)}</u>` : ''}</span>` : ''}<div><b>${esc(L(hero.n))}</b><span>🔥 ${S.streak || 0} · 💎 <i class="w3-gems">${gems()}</i></span></div></div>
+      <button class="chip w3-shop" onclick="window.__smShop()">🛍️ ${tx('shop')}</button></div>
+    <div class="mp-chips">${lifeRow()}
+      ${here ? `<button class="chip" onclick="window.__smPlace()">📍 ${esc(here.n)}</button>` : ''}${places.length ? `<button class="chip" onclick="window.__smMap()">🗺️ ${tx('map')}</button>` : ''}</div></div>
+    <button class="mp-fest" hidden onclick="window.__smFest()"></button>
+    <div class="mp-scroll"><div class="mp-fx"></div></div>
+    <div class="sm-hint mp-hint"></div>
+    <div class="w3-modal" hidden></div>`;
+  flat.replaceWith(box);
+  const W = Math.min(520, box.clientWidth || 380);
+  const friendList = friends(m).map(id => { const c = (m.cast || {})[id] || {}; return { id, img: c.img, name: L(c.n), color: c.color, due }; });
+  const out = mp.regionMap({
+    W, arch: ARCH, app: CFG.id, biome: /^arab/.test(CFG.id) ? 'desert' : null, seed: lvI + 3, season: time.season, phase: time.phase,
+    nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock', sub: n.units.length > 1 ? `${n.units.filter(u => unitDone(level, u.id)).length}/${n.units.length}` : '' })),
+    friends: friendList, chest: chestReady(), gym: allDone ? 'won' : 'lock',
+    hero: { img: hero.img, hat: icon(wr.hat), pet: icon(wr.pet) },
+  });
+  const sc = box.querySelector('.mp-scroll');
+  sc.insertAdjacentHTML('beforeend', out.svg);
+  fx(box.querySelector('.mp-fx'), time, /^arab/.test(CFG.id));
+  const hint = (t2, ms = 2200, bad) => { const h = box.querySelector('.mp-hint'); h.textContent = t2; h.classList.toggle('on', !!bad); h.classList.add('show'); clearTimeout(hint.t); hint.t = setTimeout(() => h.classList.remove('show', 'on'), ms); };
+  const modal = html => { const md = box.querySelector('.w3-modal'); md.innerHTML = `<div class="w3-card">${html}<button class="btn mt-12" onclick="this.closest('.w3-modal').hidden=true">${tx('cont2')}</button></div>`; md.hidden = false; };
+  const placeCard = pl => `<div class="w3-k">📍 ${esc(cu.country)}</div><h3>${esc(pl.n)}</h3><p>${esc(pl.d)}</p>
+    <p><b>🍜 ${tx('food')}:</b> ${esc(pl.food)}</p><p><b>🎎 ${tx('custom')}:</b> ${esc(pl.cos)}</p><p><b>🙇 ${tx('manners')}:</b> ${esc(pl.eti)}</p><p><b>🗣️ ${tx('dialect')}:</b> ${esc(pl.dia)}</p>`;
+  if (here) window.__smPlace = () => modal(placeCard(here));
+  if (places.length) window.__smMap = async () => {
+    const mpp = await cult.loadMap(CFG.id);
+    const dot = (pl, k) => { if (!mpp || !cult.inMap(mpp, pl.ll)) return ''; const [x, y] = cult.project(mpp, pl.ll), st2 = k === lvI ? 'cur' : k < lvI ? 'done' : '';
+      return `<g class="w3-dot ${st2}" onclick="window.__smMapPick(${k})"><circle cx="${x}" cy="${y}" r="${k === lvI ? 13 : 10}"/><text x="${x}" y="${y - 16}">${esc(pl.n.split(' (')[0])}</text></g>`; };
+    const far = places.map((pl, k) => [pl, k]).filter(([pl]) => mpp && !cult.inMap(mpp, pl.ll));
+    modal(`<div class="w3-k">🗺️ ${esc(cu.country)}</div>
+      ${mpp ? `<svg class="w3-svg" viewBox="0 0 ${mpp.w} ${mpp.h}"><g class="o">${mpp.other.map(d => `<path d="${d}"/>`).join('')}</g><g class="m">${mpp.main.map(d => `<path d="${d}"/>`).join('')}</g>${places.map(dot).join('')}</svg>` : ''}
+      ${far.length ? `<div class="w3-far">${far.map(([pl, k]) => `<button class="chip" onclick="window.__smMapPick(${k})">🌍 ${esc(pl.n)}</button>`).join('')}</div>` : ''}
+      <div class="w3-pick small muted">${tx('tapPlace')}</div>
+      ${(cu.figures || []).length ? `<div class="w3-k" style="margin-top:12px">👤 ${tx('figures')}</div>${cu.figures.map(fg => `<details class="w3-fig"><summary><b>${esc(fg.n)}</b> <span class="muted small">${esc(fg.y)}</span></summary><p>${esc(fg.t)}</p></details>`).join('')}` : ''}`);
+    window.__smMapPick = k => { const el2 = box.querySelector('.w3-pick'); el2.classList.remove('small', 'muted'); el2.innerHTML = placeCard(places[k]); el2.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
+  };
+  if (cu) {
+    const f = cult.upcoming(cu, 7, NOW)[0];
+    if (f) {
+      const b2 = box.querySelector('.mp-fest');
+      const when = f.in === 0 ? tx('todayIn') : f.in === 1 ? tx('tomorrowIn') : tx('soonIn').replace('{n}', f.in);
+      b2.textContent = `🎎 ${when} ${cu.country}: ${f.n}`; b2.hidden = false;
+      window.__smFest = () => modal(`<div class="w3-k">🎎 ${when} ${esc(cu.country)}</div><h3>${esc(f.n)}</h3><p>${esc(f.t)}</p>${f.approx ? `<p class="small muted">${tx('approx')}</p>` : ''}`);
     }
-    if (places.length) {
-      box.querySelector('.w3-mapb').hidden = false;
-      window.__smMap = async () => {
-        const mp = await cult.loadMap(CFG.id);
-        const dot = (pl, k) => { if (!mp || !cult.inMap(mp, pl.ll)) return ''; const [x, y] = cult.project(mp, pl.ll), st = k === lvI ? 'cur' : k < lvI ? 'done' : '';
-          return `<g class="w3-dot ${st}" onclick="window.__smMapPick(${k})"><circle cx="${x}" cy="${y}" r="${k === lvI ? 13 : 10}"/><text x="${x}" y="${y - 16}">${esc(pl.n.split(' (')[0])}</text></g>`; };
-        const far = places.map((pl, k) => [pl, k]).filter(([pl]) => mp && !cult.inMap(mp, pl.ll));
-        modal(`<div class="w3-k">🗺️ ${esc(cu.country)}</div>
-          ${mp ? `<svg class="w3-svg" viewBox="0 0 ${mp.w} ${mp.h}"><g class="o">${mp.other.map(d => `<path d="${d}"/>`).join('')}</g><g class="m">${mp.main.map(d => `<path d="${d}"/>`).join('')}</g>${places.map(dot).join('')}</svg>` : ''}
-          ${far.length ? `<div class="w3-far">${far.map(([pl, k]) => `<button class="chip" onclick="window.__smMapPick(${k})">🌍 ${esc(pl.n)}</button>`).join('')}</div>` : ''}
-          <div class="w3-pick small muted">${tx('tapPlace')}</div>
-          ${(cu.figures || []).length ? `<div class="w3-k" style="margin-top:12px">👤 ${tx('figures')}</div>${cu.figures.map(f => `<details class="w3-fig"><summary><b>${esc(f.n)}</b> <span class="muted small">${esc(f.y)}</span></summary><p>${esc(f.t)}</p></details>`).join('')}` : ''}`);
-        window.__smMapPick = k => { const el2 = box.querySelector('.w3-pick'); el2.classList.remove('small', 'muted'); el2.innerHTML = placeCard(places[k]); el2.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
-      };
-    }
-    if (cu) {
-      const NOW = window.__w3time ? new Date(window.__w3time) : new Date();
-      const up = cult.upcoming(cu, 7, NOW), f = up[0];
-      if (f) {
-        const b2 = box.querySelector('.w3-fest');
-        const when = f.in === 0 ? tx('todayIn') : f.in === 1 ? tx('tomorrowIn') : tx('soonIn').replace('{n}', f.in);
-        b2.textContent = `🎎 ${when} ${cu.country}: ${f.n}`; b2.hidden = false;
-        window.__smFest = () => modal(`<div class="w3-k">🎎 ${when} ${esc(cu.country)}</div><h3>${esc(f.n)}</h3><p>${esc(f.t)}</p>${f.approx ? `<p class="small muted">${tx('approx')}</p>` : ''}`);
-      }
-    }
-    w3.mountWorld(box, {
-      nodes: ns.map(n => ({ key: n.key, state: nodeDone(n) ? 'done' : n === cur ? 'cur' : 'lock' })),
-      accent: bg, heroStyle: m.hero3d, wear: rew().wear || {}, chest: chestReady(),
-      arch: ARCH, biome: /^arab/.test(CFG.id) ? 'desert' : null, seed: LEVELS.indexOf(level) + 3,
-      time: window.__w3time ? w3.sceneTime(new Date(window.__w3time)) : undefined,
-      gym: allDone ? 'won' : 'lock',
-      onGym: () => {
-        const i = LEVELS.indexOf(level), nx = LEVELS[i + 1];
-        if (!allDone) return hint('🏯 ' + tx('gymLocked'), 2600, true);
-        modal(`<div class="w3-medal">🏅</div><h3>${tx('medal').replace('{l}', esc(levelLabel(level)))}</h3><p>${nx ? tx('nextRegion').replace('{l}', esc(levelLabel(nx))) : tx('allRegions')}</p>${nx ? `<button class="btn" onclick="window.__go('story',{level:'${nx}'})">${esc(levelLabel(nx))} ▶</button>` : ''}`);
-      },
-      onFact: i => {
-        const now2 = window.__w3time ? new Date(window.__w3time) : new Date();
-        if (cu && (cu.figures || []).length && i % 3 === 2) {
-          const k = (i + Math.floor(now2 / 86400000)) % cu.figures.length, fg = cu.figures[k], isNew = readFact(`${CFG.id}-fig-${k}`);
-          modal(`<div class="w3-k">👤 ${tx('whoWas')}</div><h3>${esc(fg.n)}</h3><p class="small muted">${esc(fg.y)}</p><p class="w3-fact">${esc(fg.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
-          const g3 = box.querySelector('.w3-gems'); if (g3) g3.textContent = gems();
-          return;
-        }
-        const f = cult && cu ? cult.factFor(cu, i, now2) : null;
-        if (!f) return;
-        const isNew = readFact(`${CFG.id}-${f.k}`);
-        modal(`<div class="w3-k">📜 ${tx('didYou')}</div><p class="w3-fact">${esc(f.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
-        const g2 = box.querySelector('.w3-gems'); if (g2) g2.textContent = gems();
-      },
-      onOpen: key => window.__smOpen(key),
-      npcs: friends(m).map(id => ({ id, g: (((m.cast || {})[id] || {}).voice || {}).g, style: ((m.cast || {})[id] || {}).hero3d, due: dueCount() > 0 })),
-      onNpc: id => npcReview(id),
-      onLocked: () => hint('🔒 ' + tx('locked'), 1800, true),
-      onChest: () => { const n = openChest(); box.querySelector('.w3-gems').textContent = gems(); hint(`🎁 +${n} 💎 · ${tx('chestOk')}`, 3200); },
-    });
-    if (!chestReady() && S.lastDay !== new Date().toISOString().slice(0, 10)) setTimeout(() => box.isConnected && hint('🎁 ' + tx('chestHint'), 3500), 1200);
-    return;
   }
-  if (w3 && w3.webgl()) root.querySelector('.sm-top .flex').insertAdjacentHTML('afterbegin', `<button class="chip" onclick="window.__sm3d(true)">🏔️ 3D</button>`);
-  const c = root.querySelector('.sm-node.cur');
-  if (c) setTimeout(() => c.scrollIntoView({ block: 'center', behavior: 'smooth' }), 150);
+  const setGems = () => { const g2 = box.querySelector('.w3-gems'); if (g2) g2.textContent = gems(); };
+  window.__mpNode = key => window.__smOpen(key);
+  window.__mpFriend = id => npcReview(id);
+  window.__mpChest = () => { if (!chestReady()) return hint('🎁 ' + tx('chestHint'), 2800, true); const n = openChest(); setGems(); hint(`🎁 +${n} 💎 · ${tx('chestOk')}`, 3200); const c = box.querySelector('.mp-chest'); if (c) c.classList.remove('ready'); };
+  window.__mpGym = () => {
+    const nx = LEVELS[lvI + 1];
+    if (!allDone) return hint('🏯 ' + tx('gymLocked'), 2800, true);
+    modal(`<div class="w3-medal">🏅</div><h3>${tx('medal').replace('{l}', esc(levelLabel(level)))}</h3><p>${nx ? tx('nextRegion').replace('{l}', esc(levelLabel(nx))) : tx('allRegions')}</p>${nx ? `<button class="btn" onclick="window.__go('story',{level:'${nx}'})">${esc(levelLabel(nx))} ▶</button>` : ''}`);
+  };
+  window.__mpSign = i => {
+    if (ns[i] && !nodeDone(ns[i]) && ns[i] !== cur) return hint('🔒 ' + tx('locked'), 1800, true);
+    if (cu && (cu.figures || []).length && i % 6 === 5) {
+      const k = Math.floor(i / 6) % cu.figures.length, fg = cu.figures[k], isNew = readFact(`${CFG.id}-fig-${k}`);
+      modal(`<div class="w3-k">👤 ${tx('whoWas')}</div><h3>${esc(fg.n)}</h3><p class="small muted">${esc(fg.y)}</p><p class="w3-fact">${esc(fg.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
+      return setGems();
+    }
+    const f = cult && cu ? cult.factFor(cu, lvI * 40 + i, NOW) : null;
+    if (!f) return;
+    const isNew = readFact(`${CFG.id}-${f.k}`);
+    modal(`<div class="w3-k">📜 ${tx('didYou')}</div><p class="w3-fact">${esc(f.t)}</p><p class="small muted">${isNew ? '💎 +3 · ' : ''}${tx('factsN').replace('{n}', factsRead())}</p>`);
+    setGems();
+  };
+  setTimeout(() => { if (box.isConnected) window.scrollTo({ top: Math.max(0, sc.getBoundingClientRect().top + scrollY + out.curY - innerHeight * .55), behavior: 'smooth' }); }, 250);
+}
+// Outfit colours, shown as the ring around the hero's portrait.
+const OUTFIT = { green: '#3f9a4a', crimson: '#b8323a', night: '#2a2f6e', snow: '#cfe6f5' };
+// Falling petals, leaves or snow, and fireflies on summer nights: a few CSS-animated specks over the map.
+function fx(el, t, desert) {
+  if (!el || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const kind = t.phase === 'night' && t.season !== 'winter' ? 'fly' : desert ? (t.season === 'winter' ? '' : 'dust') : { spring: 'petal', autumn: 'leaf', winter: 'snow', summer: 'bfly' }[t.season];
+  if (!kind) return;
+  const n = kind === 'snow' ? 26 : kind === 'bfly' ? 4 : 14;
+  el.innerHTML = Array.from({ length: n }, (_, k) => `<i class="fx-${kind}" style="left:${(k * 37 + 11) % 100}%;animation-delay:${-(k * 1.7) % 12}s;animation-duration:${9 + (k * 7) % 8}s;--s:${.7 + (k % 5) * .12}"></i>`).join('');
 }
 // A character's pitch for words they have no recording of (the app's recordings use a woman's voice).
 const toneOf = id => { const v = ((((META || {}).cast || {})[id] || {}).voice) || {}; if (v.age === 'pet') return 1.15;
@@ -302,7 +342,7 @@ function friends(m) {
   const cnt = {};
   for (const lv of Object.values(cache)) for (const sc of Object.values((lv && lv.units) || {})) for (const l of sceneLines(sc)) if (l && l.who) cnt[l.who] = (cnt[l.who] || 0) + 1;
   return Object.keys(m.cast || {}).filter(k => k !== m.hero && k !== 'narr' && ((m.cast[k].voice || {}).age !== 'pet'))
-    .sort((a, b) => (cnt[b] || 0) - (cnt[a] || 0)).slice(0, 3);
+    .sort((a, b) => (!!m.cast[b].img - !!m.cast[a].img) || (cnt[b] || 0) - (cnt[a] || 0)).slice(0, 3);
 }
 let ALLV = null;
 async function allVocab() {
@@ -325,14 +365,14 @@ async function npcReview(cid) {
   let qi = 0, ok = 0;
   const frame = (box, below, cheer) => {
     root.innerHTML = `<div class="sp-scene tc" data-sm>
-      <div class="sp-top"><span class="chip sp-chip">💬 ${esc(L(who.n))} ${tx('rv')}</span><button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></div>
+      <div class="sp-top"><span class="chip sp-chip">💬 ${esc(L(who.n))} ${tx('rv')}</span><span class="flex gap-8">${lifeChip()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
       <div class="sp-stage">${hills()}${portrait(cid, who, false).replace('class="pt ', `class="pt ${cheer ? 'cheer ' : ''}`)}</div>
       <div class="sp-prog"><i style="width:${Math.round(100 * qi / Math.max(1, list.length))}%"></i></div>
       <div class="sp-box tc-box">${box}</div>${below ? `<div class="tc-below">${below}</div>` : ''}</div>`;
   };
   const next = () => {
     if (qi >= list.length) {
-      frame(`<div class="tc-done">✨ ${ok}/${list.length} · 💎 +${Math.floor(ok / 2) + 2}</div><p class="sp-tr" style="text-align:center">${tx('rvDone')}</p>`,
+      frame(`<div class="tc-done">✨ ${ok}/${list.length} · 💎 +${Math.floor(ok / 2) + 2}</div>${lifeBonus()}<p class="sp-tr" style="text-align:center">${tx('rvDone')}</p>`,
         `<button class="btn" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')} ▶</button>`, true);
       update({ xp: (S.xp || 0) + ok + 4 });
       coachSay(cid, 4);
@@ -350,6 +390,7 @@ async function npcReview(cid) {
       coachSay(cid, good ? 1 + (qi % 2) : 3);
       frame(good ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${T(c.w.word)} = ${esc(L(c.w.m))}</div>`,
         `<button class="btn" onclick="window.__rvNext()">${tx('cont2')} ▶</button>`, good);
+      const res = root.querySelector('.tc-res'); good ? cheer(res) : miss(res);
       window.__rvNext = () => { window.__rvNext = () => {}; qi++; next(); };
     };
   };
@@ -373,13 +414,12 @@ window.__smShop = async () => {
     <p class="small muted sh-why">${tx('gemsWhy')}</p>
     ${slots.map(sl => `<div class="sh-h">${tx('slots')[sl]}</div>${SHOP.filter(i => i.slot === sl).map(card).join('')}`).join('')}
   </div>${bottomNav('home')}`;
-  const w3 = await import('../../../idiomas/world3d.js').catch(() => null);
+  const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
   const st2 = root.querySelector('.sh-stage');
-  if (w3 && w3.webgl() && st2) w3.previewHero(st2, m.hero3d, rew().wear || {});
+  if (st2) st2.innerHTML = `<div class="sh-av ${wr.cape ? 'cape-' + wr.cape : ''}" style="--c:${OUTFIT[wr.outfit] || '#24407a'}">${hero.img ? `<img src="${hero.img}" alt="">` : ''}${wr.hat ? `<i>${icon(wr.hat)}</i>` : ''}${wr.pet ? `<u>${icon(wr.pet)}</u>` : ''}</div><b>${esc(L(hero.n))}</b>`;
 };
 window.__shBuy = id => { if (buy(id)) window.__smShop(); };
 window.__shWear = (slot, id) => { wear(slot, id); window.__smShop(); };
-window.__sm3d = on => { update({ story3d: on }); map(META); };
 function pathD(n) {
   let d = 'M50 2';
   for (let i = 0; i < n; i++) d += ` L${[50, 24, 50, 76][i % 4]} ${i * 18 + 5.6}`;
@@ -529,7 +569,7 @@ async function trial(n, from) {
     addCards(words.map(w => w.word), 'v');
     completeUnit(level, u.id);
     ui++;
-    frame(`<div class="tc-done">✨ ${tx('passed')} · ${tx('lesson')} ${esc(u.id)}</div>`, `<button class="btn" onclick="window.__tcGo()">${tx('cont2')} ▶</button>`, true);
+    frame(`<div class="tc-done">✨ ${tx('passed')} · ${tx('lesson')} ${esc(u.id)}</div>${lifeBonus()}`, `<button class="btn" onclick="window.__tcGo()">${tx('cont2')} ▶</button>`, true);
     window.__tcGo = () => { window.__tcGo = () => {}; ui < todo.length ? startUnit() : endNode(); };
   };
   const endNode = () => {
@@ -540,7 +580,7 @@ async function trial(n, from) {
   // The scene with the friend on stage; the challenge sits in the dialogue box.
   const frame = (box, below, cheer) => {
     root.innerHTML = `<div class="sp-scene tc" data-sm>
-      <div class="sp-top"><span class="chip sp-chip">🎯 ${esc(L(who.n))} ${tx('dares')}</span><span class="flex gap-8">${pyToggle()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
+      <div class="sp-top"><span class="chip sp-chip">🎯 ${esc(L(who.n))} ${tx('dares')}</span><span class="flex gap-8">${lifeChip()}${pyToggle()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
       <div class="sp-stage">${hills()}${portrait(cid, who, false).replace('class="pt ', `class="pt ${cheer ? 'cheer ' : ''}`)}</div>
       <div class="sp-prog"><i style="width:${Math.min(100, Math.round(100 * (ui + qi / Math.max(1, list.length)) / todo.length))}%"></i></div>
       <div class="sp-box tc-box">${box}</div>
@@ -599,20 +639,56 @@ async function trial(n, from) {
     if (!ok && !list[qi].again) list.push({ ...list[qi], again: 1 });
     const box = ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${answerHtml}</div>`;
     frame(box, `<button class="btn" onclick="window.__tcNext()">${tx('cont2')} ▶</button>`, ok);
+    const res = root.querySelector('.tc-res'); ok ? cheer(res) : miss(res);
     window.__tcNext = () => { window.__tcNext = () => {}; qi++; next(); };
   };
   startUnit();
 }
 
 // ---------- scene player: one line at a time, tap to continue ----------
+// Understanding is the game: every few lines the scene stops and asks what a character just said (pick its meaning)
+// or what the hero answers (pick the right line in the language). Wrong answers just show the right one.
+function quizPool() {
+  const out = [];
+  for (const ch of Object.values(cache)) {
+    if (!ch) continue;
+    (ch.intro || []).concat(ch.finale || [], ...Object.values(ch.units || {}).map(sceneLines)).forEach(l => { if (l && l.t && l.tr && l.who !== 'narr') out.push(l); });
+  }
+  return out;
+}
+const hashS = t => { let h = 0; for (const c of String(t)) h = (h * 31 + c.codePointAt(0)) | 0; return (h >>> 0).toString(36); };
+const shuffle = a => { for (let k = a.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [a[k], a[j]] = [a[j], a[k]]; } return a; };
+function quizPlan(lines, hero) {
+  const pool = quizPool(), plan = {};
+  let gap = 2;
+  lines.forEach((ln, k) => {
+    gap++;
+    if (gap < 3 || !ln || ln.who === 'narr' || !ln.t || !L(ln.tr)) return;
+    const reply = ln.who === hero;
+    if (reply && (!lines[k - 1] || lines[k - 1].who === hero || lines[k - 1].who === 'narr')) return;
+    const near = (arr, key) => arr.filter((x, j, all) => all.findIndex(y => key(y) === key(x)) === j)
+      .sort((a, b) => Math.abs(key(a).length - key(ln).length) - Math.abs(key(b).length - key(ln).length)).slice(0, 10);
+    const others = reply ? near(pool.filter(x => x.who === hero && x.t !== ln.t), x => x.t) : near(pool.filter(x => L(x.tr) !== L(ln.tr)), x => L(x.tr));
+    if (others.length < 2) return;
+    plan[k] = { reply, opts: shuffle([ln, ...shuffle(others).slice(0, 2)]) };
+    gap = 0;
+  });
+  return plan;
+}
+
 function player(lines, opts = {}) {
   const m = META || {};
   let i = 0, queue = lines.slice(), chose = false;
+  const plan = opts.quiz === false ? {} : quizPlan(lines, m.hero), done = {};
+  let qOk = 0, qN = 0;
   const show = () => {
     if (i >= queue.length) {
       if (opts.choice && !chose) return choiceView();
-      stop(); return opts.after && opts.after();
+      stop();
+      if (qN) toast(`💬 ${qOk}/${qN} ${tx('understood')}`);
+      return opts.after && opts.after();
     }
+    if (plan[i] && queue[i] === lines[i] && !(i in done)) return quizView();
     const ln = queue[i], who = (m.cast || {})[ln.who] || {};
     const narr = ln.who === 'narr';
     const prevWho = i > 0 && queue[i - 1] && queue[i - 1].who;
@@ -623,12 +699,41 @@ function player(lines, opts = {}) {
       <div class="sp-box ${narr ? 'narr' : ''}" onclick="event.stopPropagation();window.__stNext()">
         ${narr ? '' : `<div class="sp-name" style="background:${who.color || 'var(--accent)'}">${who.t && who.t !== L(who.n) ? T(who.t, who.s) + ' ' : ''}${esc(L(who.n))}</div>`}
         <div class="sp-line" lang="${LG}">${T(ln.t, ln.s)}</div>
-        <div class="sp-tr ${S.storyTr === false ? 'hide' : ''}">${esc(L(ln.tr))}</div>
+        <div class="sp-tr ${S.storyTr === false && !(i in done) ? 'hide' : ''}">${esc(L(ln.tr))}</div>
         <div class="sp-ctrl"><button class="chip" onclick="event.stopPropagation();window.__stSay()">🔊</button>
           <button class="chip ${S.storyTr === false ? '' : 'on'}" onclick="event.stopPropagation();window.__stTr()">🌐 ${tx('tr')}</button>
           <span class="grow"></span><span class="muted small">${tx('next')} ▸</span></div>
       </div></div>`;
     speakAs(ln.who, ln.t);
+  };
+  const quizView = () => {
+    const ln = queue[i], q = plan[i], who = (m.cast || {})[ln.who] || {}, prev = queue[i - 1], pw = prev && (m.cast || {})[prev.who] || {};
+    const asker = q.reply ? prev : ln, aw = q.reply ? pw : who;
+    root.innerHTML = `<div class="sp-scene" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">${tx('mode')}</span><span class="flex gap-8">${lifeChip()}${pyToggle()}<button class="chip sp-chip" onclick="window.__stSkip()">${tx('skip')} ⏭</button></span></div>
+      <div class="sp-stage"><div class="sp-moon" style="--a:${accent()[0]}"></div>${hills()}${portrait(asker.who, aw, false)}</div>
+      <div class="sp-prog"><i style="width:${Math.round(100 * (i + 1) / queue.length)}%"></i></div>
+      <div class="sp-box">
+        <div class="sp-name" style="background:${aw.color || 'var(--accent)'}">${esc(L(aw.n))}</div>
+        <div class="sp-line" lang="${LG}">${T(asker.t, asker.s)}</div>
+        ${q.reply && S.storyTr !== false ? `<div class="sp-tr">${esc(L(asker.tr))}</div>` : ''}
+        <div class="sp-ctrl"><button class="chip" onclick="window.__stSay()">🔊</button><span class="grow"></span><b class="sp-q">💬 ${q.reply ? tx('whatReply') : tx('whatSaid').replace('{n}', esc(L(aw.n)))}</b></div>
+      </div>
+      <div class="sp-opts">${q.opts.map((o, k) => `<button class="card sp-opt sp-qo" onclick="window.__stQ(${k})">${q.reply ? `<div class="sp-line" lang="${LG}">${T(o.t, o.s)}</div>` : `<div class="sp-mean">${esc(L(o.tr))}</div>`}</button>`).join('')}</div></div>`;
+    speakAs(asker.who, asker.t);
+  };
+  window.__stQ = k => {
+    const q = plan[i], ln = queue[i]; if (!q || i in done) return;
+    const ok = q.opts[k] === ln, btns = root.querySelectorAll('.sp-qo');
+    done[i] = ok; qN++; if (ok) qOk++;
+    btns.forEach((b, j) => { b.disabled = true; if (q.opts[j] === ln) b.classList.add('ok'); else if (j === k) b.classList.add('bad'); });
+    const gem = ok && readFact(`${CFG.id}-q-${hashS(ln.who + '|' + ln.t)}`);
+    ok ? cheer(btns[k]) : miss(btns[k]);
+    if (gem) setTimeout(() => { sfx('gem'); floatUp('+3 💎', btns[k]); }, 250);
+    const box = root.querySelector('.sp-box');
+    box.insertAdjacentHTML('beforeend', `<div class="sp-verdict ${ok ? 'ok' : 'bad'}">${ok ? `✓ ${tx('qGood')}${gem ? ' · 💎 +3' : ''}` : `${tx('qBad')} <b>${q.reply ? '' : esc(L(ln.tr))}</b>`}</div>`);
+    if (q.reply || !ok) speakAs(ln.who, ln.t);
+    setTimeout(() => { if (done[i] === ok && root.querySelector('.sp-qo')) show(); }, ok ? 1300 : 2600);
   };
   const choiceView = () => {
     chose = true;
@@ -644,7 +749,7 @@ function player(lines, opts = {}) {
         <div class="sp-line" lang="${LG}">${T(o.t, o.s)}</div><div class="sp-tr">${esc(L(o.tr))}</div></button>`).join('')}</div></div>`;
   };
   window.__stNext = () => { i++; show(); };
-  window.__stSkip = () => { i = queue.length; show(); };
+  window.__stSkip = () => { i = queue.length; qN = 0; show(); };
   window.__stSay = () => queue[i] && speakAs(queue[i].who, queue[i].t);
   window.__stTr = () => { update({ storyTr: S.storyTr === false }); show(); };
   window.__stPick = k => {
@@ -731,9 +836,63 @@ function css() {
 @keyframes tcj{0%,100%{transform:translateY(0)}35%{transform:translateY(-18px) scale(1.03)}60%{transform:translateY(0)}80%{transform:translateY(-6px)}}
 body.sm-on #lang-switch,body.sm-on .bottomnav{display:none !important}
 body.sm-3d #sm-sky{display:none}
-.w3-geo{position:absolute;right:10px;top:108px;z-index:2;display:flex;flex-direction:column;gap:6px;align-items:flex-end}
-.w3-geo .chip,.w3-geo .chip *{background:rgba(15,29,66,.62) !important;color:#fff !important;border-color:rgba(255,255,255,.3) !important}
-.sm-world3d .sm-2d{top:auto !important;bottom:52px !important;right:10px !important}
+.sp-q{font-size:13px;color:#ffd36b}
+.tc-opt,.sp-qo{border-bottom-width:4px !important}
+.tc-opt:nth-child(4n+1),.sp-qo:nth-child(4n+1){background:linear-gradient(135deg,rgba(255,77,109,.30),rgba(255,143,171,.12)) !important;border-color:rgba(255,143,171,.6) !important}
+.tc-opt:nth-child(4n+2),.sp-qo:nth-child(4n+2){background:linear-gradient(135deg,rgba(255,183,3,.30),rgba(255,214,10,.12)) !important;border-color:rgba(255,200,60,.6) !important}
+.tc-opt:nth-child(4n+3),.sp-qo:nth-child(4n+3){background:linear-gradient(135deg,rgba(61,220,151,.28),rgba(6,214,160,.1)) !important;border-color:rgba(61,220,151,.6) !important}
+.tc-opt:nth-child(4n+4),.sp-qo:nth-child(4n+4){background:linear-gradient(135deg,rgba(76,201,240,.3),rgba(179,136,255,.14)) !important;border-color:rgba(120,190,255,.6) !important}
+.tc-opt:active,.sp-qo:active{transform:translateY(2px) scale(.99)}
+.sp-opts .sp-qo.ok{outline:3px solid #3ddc97;background:linear-gradient(135deg,rgba(61,220,151,.55),rgba(61,220,151,.25)) !important;box-shadow:0 0 24px rgba(61,220,151,.5)}.sp-opts .sp-qo.bad{outline:3px solid #ff6b81;background:rgba(255,107,129,.3) !important;opacity:.85}
+.lv-row{display:flex;align-items:center;gap:2px;border:0;cursor:pointer;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:3px 10px 3px 6px;font-size:17px;line-height:1}
+.lv-row span.off,.lv-big span.off{filter:grayscale(1);opacity:.35}.lv-row small{font-size:11px;color:#fff;margin-left:6px;font-weight:700}
+.lv-big{font-size:34px;letter-spacing:2px}
+.lv-chip{white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
+.lv-bonus{margin:8px auto 0;text-align:center;font-weight:800;font-size:15px;color:#3b2a00;background:linear-gradient(90deg,#ffe08a,#ffc96b);border-radius:12px;padding:8px 12px;box-shadow:0 4px 14px rgba(255,190,80,.4)}
+.lv-bonus.off{background:rgba(255,255,255,.12);color:#dfe6ff;box-shadow:none;font-weight:600;font-size:13px}
+.tc-res.ok{background:linear-gradient(90deg,#3ddc97,#4cc9f0);-webkit-background-clip:text;background-clip:text;color:transparent !important;font-size:26px !important;font-weight:900 !important}
+.sp-mean{font-size:15px;line-height:1.35;text-align:left}
+
+.sp-verdict{margin-top:8px;font-size:13px;font-weight:700;padding:6px 10px;border-radius:10px}.sp-verdict.ok{background:rgba(62,207,122,.18);color:#bff5d6}.sp-verdict.bad{background:rgba(255,107,107,.18);color:#ffd0d0}
+.mp{position:relative;margin:10px -16px 0}
+.mp-top{position:sticky;top:0;z-index:4;background:linear-gradient(#0f1d42 90%,rgba(15,29,66,0));padding-bottom:4px}
+.mp-hud{display:flex;justify-content:space-between;align-items:center;padding:10px 12px 6px}
+.mp-chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px 8px}
+.mp-chips .chip{font-size:12px;padding:5px 10px}
+.mp-chips .chip,.mp-chips .chip *{background:rgba(255,255,255,.12) !important;color:#fff !important;border-color:rgba(255,255,255,.28) !important}
+.mp-fest[hidden]{display:none}.mp-fest{display:block;width:calc(100% - 24px);margin:0 12px 10px;text-align:left;border:0;border-radius:14px;padding:9px 12px;font:650 13px system-ui;color:#3b2a00;background:linear-gradient(90deg,#ffe08a,#ffc96b);box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer}
+.mp-scroll{position:relative;border-radius:26px 26px 0 0;overflow:hidden;box-shadow:0 -6px 30px rgba(0,0,0,.35)}
+.mp-svg{display:block;width:100%;height:auto}
+.mp-svg .mp-town,.mp-svg .mp-lbl,.mp-svg .mp-friend,.mp-svg .mp-sign,.mp-svg .mp-chest,.mp-svg .mp-temple,.mp-svg .mp-me{cursor:pointer}
+.mp-svg .mp-town.lock{cursor:default}
+.mp-glow{animation:mpGlow 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes mpGlow{50%{opacity:.35;transform:scale(1.15)}}
+.mp-me{animation:mpBob 1.6s ease-in-out infinite}
+@keyframes mpBob{50%{transform:translateY(-5px)}}
+.mp-friend .mp-bub{animation:mpBob 2.2s ease-in-out infinite}
+.mp-chest.ready{animation:mpWig 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes mpWig{0%,80%,100%{transform:rotate(0)}85%{transform:rotate(-6deg)}90%{transform:rotate(6deg)}95%{transform:rotate(-3deg)}}
+.mp-fx{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
+.mp-fx i{position:absolute;top:-20px;display:block;animation:fxFall linear infinite}
+.fx-petal{width:9px;height:6px;border-radius:70% 0 70% 0;background:#ffc2d9;opacity:.9}
+.fx-leaf{width:10px;height:7px;border-radius:80% 0 80% 0;background:#e58a3a;opacity:.9}
+.fx-snow{width:5px;height:5px;border-radius:50%;background:#fff;opacity:.9;box-shadow:0 0 4px rgba(255,255,255,.8)}
+.fx-dust{width:3px;height:3px;border-radius:50%;background:#fff3d0;opacity:.5}
+.fx-fly{width:4px;height:4px;border-radius:50%;background:#fff6a0;box-shadow:0 0 8px 3px rgba(255,240,120,.7);animation-name:fxFly !important}
+.fx-bfly{width:12px;height:9px;background:radial-gradient(circle at 30% 50%,#ffd35a 45%,transparent 50%),radial-gradient(circle at 70% 50%,#ffb347 45%,transparent 50%);animation-name:fxBfly !important}
+@keyframes fxFall{0%{transform:translate(0,0) rotate(0) scale(var(--s))}50%{transform:translate(30px,50vh) rotate(200deg) scale(var(--s))}100%{transform:translate(-10px,100vh) rotate(400deg) scale(var(--s))}}
+@keyframes fxFly{0%{transform:translate(0,30vh);opacity:0}20%{opacity:1}50%{transform:translate(40px,45vh)}80%{opacity:1}100%{transform:translate(-20px,60vh);opacity:0}}
+@keyframes fxBfly{0%{transform:translate(0,25vh) scaleX(1)}25%{transform:translate(60px,30vh) scaleX(.3)}50%{transform:translate(120px,22vh) scaleX(1)}75%{transform:translate(60px,35vh) scaleX(.3)}100%{transform:translate(0,25vh) scaleX(1)}}
+.mp-hint{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);z-index:20;opacity:0;pointer-events:none;transition:all .25s;background:rgba(10,16,40,.85);color:#fff;font-size:13px;white-space:normal;max-width:86vw;text-align:center}
+.mp-hint.show{opacity:1;transform:translate(-50%,0)}.mp-hint.on{background:rgba(160,60,60,.92)}
+.mp .w3-modal{position:fixed}
+.mp-av,.sh-av{position:relative;display:inline-block}
+.mp-av img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:3px solid var(--c);background:#24407a;display:block}
+.mp-av i,.sh-av i{position:absolute;left:-6px;top:-10px;font-style:normal;font-size:18px}.mp-av u,.sh-av u{position:absolute;right:-8px;bottom:-4px;text-decoration:none;font-size:16px}
+.sh-stage{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;height:200px;color:#fff}
+.sh-av img{width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:6px solid var(--c);background:#24407a;display:block;box-shadow:0 0 30px rgba(255,211,107,.35)}
+.sh-av i{font-size:40px;left:-10px;top:-22px}.sh-av u{font-size:38px;right:-24px;bottom:-6px}
+.sh-av.cape-red img{box-shadow:0 0 0 10px #c0392b,0 0 30px rgba(255,211,107,.35)}.sh-av.cape-blue img{box-shadow:0 0 0 10px #2e6fb5,0 0 30px rgba(255,211,107,.35)}
 .w3-card{max-height:86%;overflow:auto;text-align:left}.w3-card>.btn{width:100%}
 .w3-svg{width:100%;height:auto;border-radius:14px;background:#cfe6f5;margin:6px 0}
 .w3-svg .o path{fill:#ece5d6;stroke:#c9bfa9;stroke-width:1}.w3-svg .m path{fill:#bfe0a8;stroke:#6f9a5a;stroke-width:1.5}
@@ -742,31 +901,23 @@ body.sm-3d #sm-sky{display:none}
 @keyframes w3p{50%{stroke-width:9px}}
 .w3-far{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}body.sm-on [data-sm] .w3-card .chip,body.sm-on [data-sm] .w3-card .chip *{background:#f1e8d8 !important;color:#2b2340 !important;border-color:#e0d3bd !important}.w3-fig summary{text-align:left}
 .w3-fig{border-top:1px solid #eadfcd;padding:8px 0}.w3-fig summary{cursor:pointer}.w3-fig p{margin:6px 0 0}
-.w3-fest{position:absolute;left:10px;right:10px;top:64px;z-index:2;text-align:left;border:0;border-radius:14px;padding:8px 12px;font:600 13px system-ui;color:#3b2a00;background:linear-gradient(90deg,#ffe08a,#ffc96b);box-shadow:0 4px 14px rgba(0,0,0,.25);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .w3-modal{position:absolute;inset:0;z-index:5;display:grid;place-items:center;background:rgba(8,12,30,.45);padding:18px}.w3-modal[hidden]{display:none}
 .w3-card{max-width:340px;background:#fffaf2;color:#2b2340;border-radius:22px;padding:18px 18px 14px;box-shadow:0 16px 40px rgba(0,0,0,.35);text-align:center}
 .w3-card h3{margin:6px 0 8px;font-size:20px}.w3-card p{margin:0 0 6px;line-height:1.45;text-align:left}
 .w3-k{font-weight:800;color:#9c7842;font-size:13px;letter-spacing:.04em}.w3-fact{font-size:16px}.w3-medal{font-size:64px;line-height:1}
 body.sm-on [data-sm] .w3-card .muted{color:#8a7c6c !important}
-.w3-hud{position:absolute;left:10px;right:10px;top:10px;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;pointer-events:none}
-.w3-hud>*{pointer-events:auto}
 .w3-me{display:flex;gap:8px;align-items:center;background:rgba(15,29,66,.62);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 12px 4px 4px;color:#fff}
 .w3-me img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:2px solid #ffd36b;background:#24407a}
 .w3-me b{display:block;font-size:13px}.w3-me span{font-size:12px;opacity:.95}.w3-me i{font-style:normal}
 .w3-shop,.w3-shop *{background:rgba(15,29,66,.62) !important;color:#fff !important}
-.sm-world3d .sm-2d{top:108px;right:10px;bottom:auto;background:rgba(15,29,66,.62) !important;color:#fff !important}
-.sm-world3d canvas.w3-map{position:absolute;left:10px;bottom:52px;width:96px;height:96px;z-index:2;pointer-events:none;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
 .sm-hint.gold{background:rgba(180,130,20,.85)}
 .sh-stage{height:260px;margin:4px -16px 0;background:radial-gradient(60% 60% at 50% 60%,rgba(255,211,107,.18),transparent)}
-.sh-stage canvas{display:block;width:100%;height:100%}
 .sh-why{color:#c9d3f0;text-align:center;margin:0 8px 6px}
 .sh-h{margin:14px 4px 6px;font-weight:800;color:#ffd98a;font-size:13px;letter-spacing:.05em;text-transform:uppercase}
 .sh-item{display:flex;align-items:center;gap:10px;padding:10px 12px;margin-bottom:8px;border-radius:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:#eef2ff}
 .sh-item.on{border-color:#ffd36b;background:rgba(255,211,107,.12)}
 .sh-ic{font-size:22px}.sh-n{flex:1;font-size:15px}
 .btn-sm{padding:7px 12px !important;font-size:13px !important;min-height:0 !important}
-.sm-world3d{position:relative;height:calc(100vh - 250px);min-height:440px;margin:8px -16px 0;border-radius:22px 22px 0 0;overflow:hidden;background:#0f1d42}
-.sm-world3d canvas{display:block;width:100%;height:100%}
 .sm-hint{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:2;font-size:12px;color:#dfe6ff;background:rgba(10,16,40,.55);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px);white-space:nowrap;transition:background .2s}
 .sm-hint.on{background:rgba(160,60,60,.75)}
 .sm-2d{position:absolute;right:12px;top:12px;z-index:2}

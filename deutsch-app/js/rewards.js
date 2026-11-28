@@ -1,7 +1,7 @@
 // Rewards: gems earned by studying (every 2 XP = 1 gem, so lessons, reviews, texts and challenges all count),
 // a daily chest on the story map once you have studied that day, and a shop of looks for the hero (outfit, hat,
 // cape, companion) plus a streak shield that saves the streak on a missed day. Shared by every language app.
-import { S, update } from './state.js?v=202611281200';
+import { S, update } from './state.js?v=202611281705';
 
 const today = () => new Date().toISOString().slice(0, 10);
 export const R = () => {
@@ -62,3 +62,20 @@ export function readFact(k) {
   return true;
 }
 export const factsRead = () => Object.keys(R().read || {}).length;
+
+// Lives (themed per language: onigiri in Japanese, dumplings in Chinese…). A wrong answer costs one and they come
+// back one every 20 minutes. Running out never stops you from studying: you keep playing, you only miss the bonus
+// gems that a challenge pays for every life you still have at the end.
+export const LIFE_MAX = 5, LIFE_MS = 20 * 60000;
+const gained = r => r.lv == null ? 0 : Math.floor((Date.now() - (r.lt || 0)) / LIFE_MS);
+export function lives() { const r = R(); return r.lv == null ? LIFE_MAX : Math.min(LIFE_MAX, r.lv + gained(r)); }
+export function loseLife() {
+  const r = R(), n = lives();
+  if (n <= 0) return 0;
+  r.lt = n >= LIFE_MAX ? Date.now() : (r.lt || Date.now()) + gained(r) * LIFE_MS;   // keep the part of the 20 minutes already waited
+  r.lv = n - 1; put(r);
+  return r.lv;
+}
+export const lifeIn = () => { const r = R(); return lives() >= LIFE_MAX ? 0 : LIFE_MS - ((Date.now() - (r.lt || 0)) % LIFE_MS); };
+export const livesFullAt = () => { const r = R(), n = lives(); return n >= LIFE_MAX ? 0 : Date.now() + lifeIn() + (LIFE_MAX - n - 1) * LIFE_MS; };
+export function addGems(n) { const r = R(); r.bonus += n; put(r); return n; }

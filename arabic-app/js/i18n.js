@@ -1,7 +1,7 @@
-import { S } from './state.js?v=202611281200';
-import EXTRA from './i18n-extra.js?v=202611281200';
-import UI from './i18n-ui.js?v=202611281200';
-import JA from './i18n-ar.js?v=202611281200';
+import { S } from './state.js?v=202611281705';
+import EXTRA from './i18n-extra.js?v=202611281705';
+import UI from './i18n-ui.js?v=202611281705';
+import JA from './i18n-ar.js?v=202611281705';
 
 const T = {
   // Navigation
