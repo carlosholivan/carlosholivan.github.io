@@ -1,6 +1,6 @@
 // How to write each Arabic letter (steps, in the order a native writer draws it) and how it joins with others.
 // Used by the letter sheet (views/hanzi.js).
-import { S } from './state.js?v=202611282054';
+import { S } from './state.js?v=202611282102';
 
 const L = o => (o && (o[S.lang] || o.en || o.es)) || '';
 

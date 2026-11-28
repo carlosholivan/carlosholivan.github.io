@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611282054';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611282102';
 
 const STORAGE_KEY = 'nihongo_state';
 

@@ -1,12 +1,12 @@
-import { S, save } from '../state.js?v=202611282054';
-import { register, go } from '../router.js?v=202611282054';
-import { loadVocab } from '../data.js?v=202611282054';
-import { LEVELS as CEFR } from '../levels.js?v=202611282054';
-import { getDailyReviewWords, markDailyReviewShown, LEVELS, getWordLevel } from '../engine/mastery.js?v=202611282054';
-import { recordAnswer } from '../engine/srs.js?v=202611282054';
-import { progressBar } from '../ui/components.js?v=202611282054';
-import { icon } from '../ui/icons.js?v=202611282054';
-import { t } from '../i18n.js?v=202611282054';
+import { S, save } from '../state.js?v=202611282102';
+import { register, go } from '../router.js?v=202611282102';
+import { loadVocab } from '../data.js?v=202611282102';
+import { LEVELS as CEFR } from '../levels.js?v=202611282102';
+import { getDailyReviewWords, markDailyReviewShown, LEVELS, getWordLevel } from '../engine/mastery.js?v=202611282102';
+import { recordAnswer } from '../engine/srs.js?v=202611282102';
+import { progressBar } from '../ui/components.js?v=202611282102';
+import { icon } from '../ui/icons.js?v=202611282102';
+import { t } from '../i18n.js?v=202611282102';
 
 register('daily-review', async (el) => {
   const due = getDailyReviewWords(10);
