@@ -2,17 +2,17 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281122';
-import { S, update, completeUnit } from '../state.js?v=202611281122';
-import { register, go } from '../router.js?v=202611281122';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281122';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281122';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281122';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281122';
-import { unitVocab } from '../engine/exercises.js?v=202611281122';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611281122';
-import { speak, speakAs, stop } from '../audio.js?v=202611281122';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611281122';
+import { CFG } from '../app-config.js?v=202611281149';
+import { S, update, completeUnit } from '../state.js?v=202611281149';
+import { register, go } from '../router.js?v=202611281149';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281149';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281149';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281149';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281149';
+import { unitVocab } from '../engine/exercises.js?v=202611281149';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611281149';
+import { speak, speakAs, stop } from '../audio.js?v=202611281149';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611281149';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -291,6 +291,11 @@ async function map(m) {
   const c = root.querySelector('.sm-node.cur');
   if (c) setTimeout(() => c.scrollIntoView({ block: 'center', behavior: 'smooth' }), 150);
 }
+// A character's pitch for words they have no recording of (the app's recordings use a woman's voice).
+const toneOf = id => { const v = ((((META || {}).cast || {})[id] || {}).voice) || {}; if (v.age === 'pet') return 1.15;
+  return v.g === 'm' ? ({ kid: .93, old: .78 }[v.age] || .82) : ({ kid: 1.07, old: .94 }[v.age] || 1); };
+const coachSay = (id, k) => { const c = (META || {}).coach || []; if (c[k]) speakAs(id, c[k]); };
+
 // ---------- villagers who help you review: the hero's friends stand by the path in the 3D world ----------
 const dueCount = () => buildQueue('v', 50, Date.now(), null, 'due').length;
 function friends(m) {
@@ -330,16 +335,19 @@ async function npcReview(cid) {
       frame(`<div class="tc-done">✨ ${ok}/${list.length} · 💎 +${Math.floor(ok / 2) + 2}</div><p class="sp-tr" style="text-align:center">${tx('rvDone')}</p>`,
         `<button class="btn" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')} ▶</button>`, true);
       update({ xp: (S.xp || 0) + ok + 4 });
+      coachSay(cid, 4);
       return;
     }
     const c = list[qi];
-    speak(c.w.word);
-    window.__tcSay = t => speak(t);
+    if (qi === 0) { coachSay(cid, 0); setTimeout(() => list[qi] === c && speakAs(cid, c.w.word, toneOf(cid)), 1700); }
+    else speakAs(cid, c.w.word, toneOf(cid));
+    window.__tcSay = t => speakAs(cid, t, toneOf(cid));
     frame(`${none && qi === 0 ? `<div class="sp-tr">${tx('rvNone')}</div>` : ''}<div class="tc-q">${tx('meaning')}</div><div class="sp-line tc-big" lang="${LG}" onclick="window.__tcSay(this.dataset.t)" data-t="${esc(c.w.word)}">${T(c.w.word)} <span class="tc-snd">🔊</span></div>`,
       `<div class="tc-opts">${c.opts.map((o, k) => `<button class="card tc-opt" onclick="window.__rvPick(${k})">${esc(L(o.m))}</button>`).join('')}</div>`);
     window.__rvPick = k => {
       const good = c.opts[k] === c.w;
       answer(c.w.word, good ? 3 : 1); if (good) ok++;
+      coachSay(cid, good ? 1 + (qi % 2) : 3);
       frame(good ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${T(c.w.word)} = ${esc(L(c.w.m))}</div>`,
         `<button class="btn" onclick="window.__rvNext()">${tx('cont2')} ▶</button>`, good);
       window.__rvNext = () => { window.__rvNext = () => {}; qi++; next(); };
@@ -541,15 +549,15 @@ async function trial(n, from) {
   const next = () => {
     if (qi >= list.length) return finishUnit();
     const c = list[qi];
-    window.__tcSay = t => speak(t);
+    window.__tcSay = t => speakAs(cid, t, toneOf(cid));
     if (c.k === 'word') {
-      speak(c.w.word);
+      speakAs(cid, c.w.word, toneOf(cid));
       frame(`<div class="tc-q">${tx('meaning')}</div><div class="sp-line tc-big" lang="${LG}" onclick="window.__tcSay(this.dataset.t)" data-t="${esc(c.w.word)}">${T(c.w.word)} <span class="tc-snd">🔊</span></div>`,
         opts(c.opts.map(o => esc(L(o.m))), c.opts.indexOf(c.w), () => `${T(c.w.word)} = ${esc(L(c.w.m))}`));
     } else if (c.k === 'choose') {
       frame(`<div class="tc-q">${esc(L(c.prompt))}</div>`, opts(c.opts.map(o => `<span lang="${LG}">${T(o)}</span>`), c.opts.indexOf(c.ok), () => `<span lang="${LG}">${T(c.ok)}</span>${c.hint ? `<div class="muted small">${esc(L(c.hint))}</div>` : ''}`, c.ok));
     } else if (c.k === 'listen') {
-      speak(c.text);
+      speakAs(cid, c.text, toneOf(cid));
       frame(`<div class="tc-q">${tx('listen')}</div><button class="chip tc-play" onclick="window.__tcSay(${JSON.stringify(c.text).replace(/"/g, '&quot;')})">🔊 ▶</button>`,
         opts(c.opts.map(o => `<span lang="${LG}">${T(o)}</span>`), c.opts.indexOf(c.ok), () => `<span lang="${LG}">${T(c.ok)}</span>`, c.ok));
     } else if (c.k === 'fill') {
@@ -571,7 +579,7 @@ async function trial(n, from) {
       const draw = () => frame(`<div class="tc-q">${tx('pairs')}</div>`,
         `<div class="tc-match"><div>${c.pairs.map((p, k) => `<button class="tc-tile ${done.has(k) ? 'ok' : sel === k ? 'on' : ''}" ${done.has(k) ? 'disabled' : ''} lang="${LG}" onclick="window.__tcL(${k})">${T(p[0])}</button>`).join('')}</div>
           <div>${right.map(k => `<button class="tc-tile ${done.has(k) ? 'ok' : ''}" ${done.has(k) ? 'disabled' : ''} onclick="window.__tcR(${k})">${esc(L(c.pairs[k][1]))}</button>`).join('')}</div></div>`);
-      window.__tcL = k => { sel = k; speak(c.pairs[k][0]); draw(); };
+      window.__tcL = k => { sel = k; speakAs(cid, c.pairs[k][0], toneOf(cid)); draw(); };
       window.__tcR = k => {
         if (sel === null) return;
         if (k === sel) { done.add(k); sel = null; if (done.size === c.pairs.length) return result(miss < 2, '', null); }
@@ -587,7 +595,7 @@ async function trial(n, from) {
     return `<div class="tc-opts">${labels.map((l, k) => `<button class="card tc-opt" onclick="window.__tcPick(${k})">${l}</button>`).join('')}</div>`;
   };
   const result = (ok, answerHtml, say) => {
-    if (say) speak(say);
+    if (ok) coachSay(cid, 1 + (qi % 2)); else if (say) speakAs(cid, say, toneOf(cid)); else coachSay(cid, 3);
     if (!ok && !list[qi].again) list.push({ ...list[qi], again: 1 });
     const box = ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${answerHtml}</div>`;
     frame(box, `<button class="btn" onclick="window.__tcNext()">${tx('cont2')} ▶</button>`, ok);

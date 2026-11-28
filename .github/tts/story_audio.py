@@ -24,6 +24,11 @@ def lines(app):
             for v in x: walk(v)
     for f in glob.glob(f'{app}-app/data/story/*.json'):
         if not f.endswith('meta.json'): walk(json.load(open(f, encoding='utf8')))
+    # the short phrases every character says when reviewing with you ("Let's review!", "Well done!"…)
+    meta = json.load(open(f'{app}-app/data/story/meta.json', encoding='utf8'))
+    for who, c in meta.get('cast', {}).items():
+        if who != 'narr' and (c.get('voice') or {}).get('age') != 'pet':
+            for t in meta.get('coach', []): out.add((who, t))
     return sorted(out)
 
 

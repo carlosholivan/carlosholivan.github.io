@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611281122';
-import { gemini, playBlob } from './gemini-tts.js?v=202611281122';
+import { S } from './state.js?v=202611281149';
+import { gemini, playBlob } from './gemini-tts.js?v=202611281149';
 
 // Optional Gemini voice with the user's own key (gemini-tts.js). Falls back to the recordings.
 export const G = gemini('es', 'es-ES');
@@ -28,11 +28,13 @@ export function stop() {
 // Story mode: each character's own voice (data/audio/story.json, keyed "<who>|<text>"), else the usual voice.
 let storyIdx = null;
 const storyReady = fetch('data/audio/story.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(d => { storyIdx = d; });
-export function speakAs(who, text) {
+// A character's own pitch for words they have no recording of (kids higher, men and elders lower).
+let tone = 1;
+export function speakAs(who, text, k = 1) {
   if (!text || S.settings?.sound === false) return;
   const go = () => {
     const f = storyIdx && storyIdx[`${who}|${String(text).trim()}`];
-    if (!f || G.active) return speak(text);
+    if (!f || G.active) { tone = k; return speak(text); }
     stop();
     player = new Audio(`data/audio/story/${f}`);
     player.playbackRate = speed();
@@ -62,6 +64,8 @@ function playRecorded(key) {
     if (file) {
       player = new Audio(`data/audio/${file}`);
       player.playbackRate = speed();
+      if (tone !== 1) { player.preservesPitch = false; player.playbackRate = speed() * tone; }
+      tone = 1;
       player.play().catch(() => {});
     } else {
       speakWithBrowser(key);

@@ -1,5 +1,5 @@
-import { S } from './state.js?v=202611281122';
-import { gemini, playBlob } from './gemini-tts.js?v=202611281122';
+import { S } from './state.js?v=202611281149';
+import { gemini, playBlob } from './gemini-tts.js?v=202611281149';
 
 // Two engines:
 //  · device — the Arabic voice of the browser / OS. The best one available is picked automatically
@@ -70,6 +70,8 @@ function recordedOrDevice(text, onend, my) {
     if (!file) return deviceSpeak(text, onend);
     audio = new Audio(`data/audio/${file}`);
     audio.playbackRate = speed();
+    if (tone !== 1) { audio.preservesPitch = false; audio.playbackRate = speed() * tone; }
+    tone = 1;
     if (onend) audio.onended = audio.onerror = onend;
     audio.play().catch(() => deviceSpeak(text, onend));
   };
@@ -79,11 +81,13 @@ function recordedOrDevice(text, onend, my) {
 // Story mode: each character's own voice (data/audio/story.json, keyed "<who>|<text>"), else the usual voice.
 let storyIdx = null;
 const storyReady = fetch('data/audio/story.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(d => { storyIdx = d; });
-export function speakAs(who, text) {
+// A character's own pitch for words they have no recording of (kids higher, men and elders lower).
+let tone = 1;
+export function speakAs(who, text, k = 1) {
   if (!text || S.settings?.sound === false) return;
   const go = () => {
     const f = storyIdx && storyIdx[`${who}|${String(text).trim()}`];
-    if (!f || G.active) return speak(text);
+    if (!f || G.active) { tone = k; return speak(text); }
     stop();
     audio = new Audio(`data/audio/story/${f}`);
     audio.playbackRate = speed();
