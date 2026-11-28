@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q pillow
-      - run: python .github/art/probe.py
+      - run: test -f .github/art/fetch.py || python .github/art/probe.py
       - name: Fetch
         run: test -f .github/art/fetch.py && python .github/art/fetch.py || echo "no fetch list"
       - name: Commit
@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git sparse-checkout disable || true
-          git add -A .github/art/polyhaven.json idiomas/assets 2>/dev/null || git add -A .github/art/polyhaven.json
+          git add -A idiomas/assets
           git diff --cached --quiet && exit 0
           git commit -q -m "assets: Poly Haven (CC0)"
           git pull -q --rebase origin master && git push -q origin HEAD:master
