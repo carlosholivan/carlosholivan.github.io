@@ -1,18 +1,18 @@
-import { planBox } from '../plan.js?v=202611282046';
-import { needsTour, startTour } from '../tour.js?v=202611282046';
-import { S, update } from '../state.js?v=202611282046';
-import { register, go } from '../router.js?v=202611282046';
-import { t } from '../i18n.js?v=202611282046';
-import { speak } from '../audio.js?v=202611282046';
-import { deckStats } from '../engine/anki.js?v=202611282046';
-import { failedWords } from '../engine/srs.js?v=202611282046';
-import { allVocab } from './review.js?v=202611282046';
-import { loadUnits } from '../data.js?v=202611282046';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611282046';
-import { textsWithRecommendation } from './texts.js?v=202611282046';
-import { ruby, pyReady } from '../es.js?v=202611282046';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611282046';
-import { mascot } from '../ui/mascot.js?v=202611282046';
+import { planBox } from '../plan.js?v=202611282054';
+import { needsTour, startTour } from '../tour.js?v=202611282054';
+import { S, update } from '../state.js?v=202611282054';
+import { register, go } from '../router.js?v=202611282054';
+import { t } from '../i18n.js?v=202611282054';
+import { speak } from '../audio.js?v=202611282054';
+import { deckStats } from '../engine/anki.js?v=202611282054';
+import { failedWords } from '../engine/srs.js?v=202611282054';
+import { allVocab } from './review.js?v=202611282054';
+import { loadUnits } from '../data.js?v=202611282054';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611282054';
+import { textsWithRecommendation } from './texts.js?v=202611282054';
+import { ruby, pyReady } from '../es.js?v=202611282054';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611282054';
+import { mascot } from '../ui/mascot.js?v=202611282054';
 
 const zh = (s) => ruby(s);
 
@@ -56,6 +56,27 @@ register('level-pick', async (el) => {
   speak("Wie gut ist dein Deutsch?");
 });
 
+// How to learn: study mode or story mode, chosen once at the start (and changeable at any time; same progress).
+const MODES = {
+  es: { h: '¿Cómo quieres aprender?', sub: 'Puedes cambiar entre los dos modos cuando quieras: <b>el progreso es el mismo en ambos</b>.',
+    study: ['Modo estudio', 'Lecciones con gramática, vocabulario, ejercicios, dictados y lecturas.', 'Recomendado si quieres preparar un examen oficial de nivel o estudiar de forma constante.'],
+    story: ['Modo historia', 'Las mismas lecciones vividas como una aventura, con personajes, un mapa del país, juegos y cultura.', 'Recomendado para un estudio más relajado y ameno, sin compromiso.'] },
+  en: { h: 'How do you want to learn?', sub: 'You can switch between both modes at any time: <b>your progress is shared</b>.',
+    study: ['Study mode', 'Lessons with grammar, vocabulary, exercises, dictations and readings.', 'Recommended if you are preparing an official level exam or want steady study.'],
+    story: ['Story mode', 'The same lessons lived as an adventure, with characters, a map of the country, games and culture.', 'Recommended for a more relaxed and fun way to learn, with no pressure.'] },
+};
+register('mode-pick', async (el) => {
+  const M = MODES[S.lang === 'es' ? 'es' : 'en'];
+  const card = (id, ic, [t1, d, rec]) => `<button class="card mp-card ${id}" onclick="window.__pickMode('${id}')"><span class="mp-ic">${ic}</span>
+    <div class="grow" style="text-align:left"><b>${t1}</b><div class="small" style="margin:4px 0">${d}</div><div class="small mp-rec">⭐ ${rec}</div></div></button>`;
+  el.innerHTML = `<div class="fade" style="padding-top:28px"><div class="h1 mb-8">${M.h}</div>
+    ${card('study', '📖', M.study)}${card('story', '🗺️', M.story)}
+    <div class="muted small mt-12" style="text-align:center">🔄 ${M.sub}</div></div>
+    <style>.mp-card{display:flex;gap:14px;align-items:flex-start;width:100%;padding:18px;margin-top:14px;border:2px solid var(--line);border-radius:20px;text-align:left;cursor:pointer}
+    .mp-card b{font-size:19px}.mp-ic{font-size:34px}.mp-rec{color:var(--accent);font-weight:700}.mp-card.story{background:linear-gradient(135deg,#0f1d42,#2b4fa0);color:#fff;border-color:#2b4fa0}.mp-card.story .mp-rec{color:#ffd36b}</style>`;
+});
+window.__pickMode = m => { update({ mode: m, modeChosen: true }); go(m === 'story' ? 'story' : 'study-pick'); };
+
 window.__pickLevel = (level) => {
   update({ level, unit: 1, levelChosen: true });
   go('welcome');
@@ -63,6 +84,7 @@ window.__pickLevel = (level) => {
 
 function continueToApp() {
   clearTimeout(welcomeTimer);
+  if (!S.modeChosen) return go('mode-pick');           // first time: choose how to learn
   go(S.mode === 'story' ? 'story' : 'study-pick');
 }
 
@@ -129,7 +151,7 @@ if (!document.getElementById('mode-css')) {
   const st = document.createElement('style'); st.id = 'mode-css';
   st.textContent = `.mode-pick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
   .mode-card{display:flex;align-items:center;gap:8px;padding:12px;border-radius:16px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;cursor:pointer;position:relative}
-  .mode-card span{font-size:22px}.mode-card.on{border:2px solid var(--accent);background:var(--soft)}
+  .mode-card span{font-size:22px}.mc-sub{display:block;font-style:normal;font-weight:500;font-size:11.5px;color:var(--ink2);margin-top:2px;text-align:left}.mode-card.on{border:2px solid var(--accent);background:var(--soft)}
   .mode-card small{position:absolute;top:-8px;right:8px;background:#e8574a;color:#fff;border-radius:999px;padding:1px 8px;font-size:11px;font-weight:800}`;
   document.head.appendChild(st);
 }
@@ -176,8 +198,8 @@ register('study-pick', async (el) => {
     <div class="h1 mb-8">${zh('Was möchtest du heute lernen?')}</div>
     <div class="muted mb-16">${t('whatStudyToday')}</div>
     <div class="mode-pick">
-      <button class="mode-card on" onclick="window.__setMode('study')"><span>📖</span><b>${S.lang === 'es' ? 'Modo estudio' : 'Study mode'}</b></button>
-      <button class="mode-card" onclick="window.__setMode('story')"><span>🗺️</span><b>${S.lang === 'es' ? 'Modo historia' : 'Story mode'}</b><small>${S.lang === 'es' ? 'Nuevo' : 'New'}</small></button>
+      <button class="mode-card on" onclick="window.__setMode('study')"><span>📖</span><b>${S.lang === 'es' ? 'Modo estudio' : 'Study mode'}<em class="mc-sub">${S.lang === 'es' ? 'Para preparar exámenes de nivel' : 'To prepare level exams'}</em></b></button>
+      <button class="mode-card" onclick="window.__setMode('story')"><span>🗺️</span><b>${S.lang === 'es' ? 'Modo historia' : 'Story mode'}<em class="mc-sub">${S.lang === 'es' ? 'Más relajado y ameno' : 'Relaxed and fun'}</em></b><small>${S.lang === 'es' ? 'Nuevo' : 'New'}</small></button>
     </div>
     ${planBox(num, rec)}
     ${info ? `<div class="away-info ${away ? 'warn' : ''} mb-12">${esc(info)}</div>` : ''}

@@ -1,7 +1,7 @@
 // Rewards: gems earned by studying (every 2 XP = 1 gem, so lessons, reviews, texts and challenges all count),
 // a daily chest on the story map once you have studied that day, and a shop of looks for the hero (outfit, hat,
 // cape, companion) plus a streak shield that saves the streak on a missed day. Shared by every language app.
-import { S, update } from './state.js?v=202611282046';
+import { S, update } from './state.js?v=202611282054';
 
 const today = () => new Date().toISOString().slice(0, 10);
 export const R = () => {

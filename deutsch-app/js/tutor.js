@@ -2,8 +2,8 @@
 // The key lives only in this browser (localStorage, shared with the Gemini voice); requests go straight from the
 // browser to Google, so they never touch the app owner's account. Used by: texts (select text / tapped word),
 // lessons (why was my answer wrong?), grammar pages (free questions) and Settings (key + instructions).
-import { S } from './state.js?v=202611282046';
-import { go } from './router.js?v=202611282046';
+import { S } from './state.js?v=202611282054';
+import { go } from './router.js?v=202611282054';
 
 const LS = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { return null; } };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

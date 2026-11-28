@@ -3,6 +3,9 @@
 // animated with the Web Animations API, and sounds are generated with Web Audio. Respects reduced motion and the
 // sound switch (localStorage idiomas_sfx = '0' turns sounds off).
 
+import { autoIcons } from './icons.js?v=202611282200';
+autoIcons();   // gems and lives drawn in the app's style, not as system emoji
+
 const CANDY = ['#ff4d6d', '#ffb703', '#3ddc97', '#4cc9f0', '#b388ff', '#ff8fab', '#ffd60a', '#06d6a0'];
 const calm = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 let ctx = null;

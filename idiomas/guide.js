@@ -28,6 +28,7 @@ export const guideSeen = () => { try { return localStorage.getItem('idiomas_guid
 
 export function showGuide(done) {
   let i = 0;
+  const sp = document.getElementById('splash'); if (sp) sp.remove();
   if (!document.getElementById('gd-css')) document.head.insertAdjacentHTML('beforeend', `<style id="gd-css">${CSS}</style>`);
   const d = document.createElement('div'); d.className = 'gd';
   document.body.appendChild(d);
