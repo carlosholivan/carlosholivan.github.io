@@ -1,16 +1,16 @@
-import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611281710';
-import { S, update } from '../state.js?v=202611281710';
-import { register, go } from '../router.js?v=202611281710';
-import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611281710';
-import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611281710';
-import { isUnitDone } from '../state.js?v=202611281710';
-import { bottomNav, header } from '../ui/components.js?v=202611281710';
-import { t } from '../i18n.js?v=202611281710';
-import { levelChips, LEVELS } from '../levels.js?v=202611281710';
-import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611281710';
-import { wordStatus, statusLegend } from '../engine/status.js?v=202611281710';
-import { addCards } from '../engine/anki.js?v=202611281710';
-import { allVocab } from './review.js?v=202611281710';
+import { wireSelection, explainSelection, sentenceOf, wordOf, tutorBtn } from '../tutor.js?v=202611281724';
+import { S, update } from '../state.js?v=202611281724';
+import { register, go } from '../router.js?v=202611281724';
+import { loadTexts, loadUnits, loadGrammar } from '../data.js?v=202611281724';
+import { TENSES, PERSONS, NOTE_KINDS, REF_LINKS } from '../tenses.js?v=202611281724';
+import { isUnitDone } from '../state.js?v=202611281724';
+import { bottomNav, header } from '../ui/components.js?v=202611281724';
+import { t } from '../i18n.js?v=202611281724';
+import { levelChips, LEVELS } from '../levels.js?v=202611281724';
+import { speak, stop, SPEEDS, speed } from '../audio.js?v=202611281724';
+import { wordStatus, statusLegend } from '../engine/status.js?v=202611281724';
+import { addCards } from '../engine/anki.js?v=202611281724';
+import { allVocab } from './review.js?v=202611281724';
 
 // French words; an elided article or pronoun (l', j', qu') is a word of its own, aujourd'hui is one word.
 const WORD = /[Aa]ujourd['’]hui|[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’](?=[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]))?/g;

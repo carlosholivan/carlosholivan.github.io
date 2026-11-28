@@ -2,19 +2,19 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281710';
-import { S, update, completeUnit } from '../state.js?v=202611281710';
-import { register, go } from '../router.js?v=202611281710';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281710';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281710';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281710';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281710';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281710';
-import { unitVocab } from '../engine/exercises.js?v=202611281710';
-import { bottomNav } from '../ui/components.js?v=202611281710';
+import { CFG } from '../app-config.js?v=202611281724';
+import { S, update, completeUnit } from '../state.js?v=202611281724';
+import { register, go } from '../router.js?v=202611281724';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281724';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281724';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281724';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX } from '../rewards.js?v=202611281724';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611281724';
+import { unitVocab } from '../engine/exercises.js?v=202611281724';
+import { bottomNav } from '../ui/components.js?v=202611281724';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, speakAs, stop } from '../audio.js?v=202611281710';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281710';
+import { speak, speakAs, stop } from '../audio.js?v=202611281724';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281724';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -62,6 +62,15 @@ const TX = {
   passed: { es: 'Reto superado', en: 'Challenge complete' }, check: { es: 'Comprobar', en: 'Check' }, gift: { es: 'Regalo', en: 'Gift' },
 };
 const tx = k => L(TX[k]);
+const GTX = {
+  play: { es: 'Jugar con {n}', en: 'Play with {n}' }, review: { es: 'Repasar con {n}', en: 'Review with {n}' },
+  playSub: { es: 'Une cada palabra con su significado antes de que se acabe el tiempo. Cuenta como repaso.', en: 'Match each word with its meaning before time runs out. It counts as review.' },
+  pairs: { es: 'Parejas', en: 'Pairs' }, time: { es: 'Tiempo', en: 'Time' }, go: { es: '¡A jugar!', en: 'Play!' },
+  ready: { es: 'Toca una palabra y luego su significado. ¡Encadena aciertos para hacer combos!', en: 'Tap a word, then its meaning. Chain right answers for combos!' },
+  tapWord: { es: '¡Encuentra las parejas!', en: 'Find the pairs!' }, again: { es: 'Otra partida', en: 'Play again' },
+  best: { es: 'Mejor combo', en: 'Best combo' }, record: { es: '¡Nuevo récord!', en: 'New record!' }, learnt: { es: 'palabras repasadas', en: 'words reviewed' },
+};
+const gx = (k, n = '') => L(GTX[k]).replace('{n}', n);
 
 // ---------- lives: a local food per language. Missing answers costs one; having none never blocks playing ----------
 const LIFE = { nihongo: ['🍙', { es: 'onigiris', en: 'onigiri' }], chino: ['🥟', { es: 'jiaozi', en: 'dumplings' }], arabe: ['🧆', { es: 'falafels', en: 'falafels' }],
@@ -240,7 +249,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611281710').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611281724').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
@@ -300,7 +309,14 @@ async function map(m) {
   }
   const setGems = () => { const g2 = box.querySelector('.w3-gems'); if (g2) g2.textContent = gems(); };
   window.__mpNode = key => window.__smOpen(key);
-  window.__mpFriend = id => npcReview(id);
+  window.__mpFriend = id => {
+    const c = (m.cast || {})[id] || {}, nm = esc(L(c.n));
+    modal(`${c.img ? `<img class="fr-img" src="${c.img}" alt="">` : ''}<h3>${nm}</h3>
+      <button class="btn fr-play" onclick="this.closest('.w3-modal').hidden=true;window.__wgPlay('${id}')">🎮 ${gx('play', nm)}</button>
+      <p class="small muted" style="text-align:center">${gx('playSub')}</p>
+      <button class="btn btn-ghost fr-rv" onclick="this.closest('.w3-modal').hidden=true;window.__mpReview('${id}')">💬 ${gx('review', nm)}${due ? ` · ${due}` : ''}</button>`);
+  };
+  window.__mpReview = id => npcReview(id);
   window.__mpChest = () => { if (!chestReady()) return hint('🎁 ' + tx('chestHint'), 2800, true); const n = openChest(); setGems(); hint(`🎁 +${n} 💎 · ${tx('chestOk')}`, 3200); const c = box.querySelector('.mp-chest'); if (c) c.classList.remove('ready'); };
   window.__mpGym = () => {
     const nx = LEVELS[lvI + 1];
@@ -396,6 +412,51 @@ async function npcReview(cid) {
     };
   };
   next();
+}
+
+// ---------- "play with a friend": the word-pairs game (shared module /idiomas/wordmatch.js) ----------
+window.__wgPlay = async cid => {
+  stop();
+  const m = META || await meta(), who = (m.cast || {})[cid] || {};
+  const wm = await import('../../../idiomas/wordmatch.js?v=202611281724');
+  if (!document.getElementById('wg-css')) document.head.insertAdjacentHTML('beforeend', `<style id="wg-css">${wm.CSS}</style>`);
+  // words: due for review first, then this level's (only short meanings fit on a tile)
+  const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
+  let V = new Map(here.map(w => [w.word, w]));
+  const due = buildQueue('v', 30, Date.now(), null, 'due');
+  if (due.some(w => !V.has(w))) V = await allVocab();
+  const pick = [], seen = new Set();
+  const add = w => { if (!w || seen.has(w.word) || pick.length >= 40) return; const mm = String(L(w.m) || '').split(/[;,/(·]/)[0].trim(); if (!mm || mm.length > 22) return; seen.add(w.word); pick.push({ key: w.word, t: w.word, sub: w.p && w.p !== w.word ? w.p : '', m: mm }); };
+  due.forEach(w => add(V.get(w)));
+  shuf(here.slice()).forEach(add);
+  root.innerHTML = `<div class="sp-scene wg-scene" data-sm><div class="sp-top"><button class="chip sp-chip" onclick="window.__wgQuit()">✕</button><span class="chip sp-chip">🎮 ${esc(L(who.n))}</span></div><div class="wg-host"></div><div class="w3-modal" hidden></div></div>`;
+  const game = wm.playMatch(root.querySelector('.wg-host'), {
+    words: pick, lang: LG, cols: /^(zh|ja|ar)$/.test(LG) ? 5 : 4, rows: /^(zh|ja|ar)$/.test(LG) ? 6 : 7, friend: { name: L(who.n), img: who.img, color: who.color },
+    tx: { pairs: gx('pairs'), time: gx('time'), go: gx('go'), ready: gx('ready'), tapWord: gx('tapWord') },
+    lifeChip, onSay: t => speakAs(cid, t, toneOf(cid)),
+    onResult: (key, ok) => answer(key, ok ? 3 : 1),
+    onMiss: el => miss(el),
+    onEnd: r => wgEnd(cid, who, r, pick.length),
+  });
+  window.__wgQuit = () => { game.stop(); window.__go('story', { level }); };
+};
+function wgEnd(cid, who, r, n) {
+  const rec = (rew().wgBest || 0), isRec = r.score > rec;
+  if (isRec) { const x = rew(); x.wgBest = r.score; update({ rew: { ...x, t: Date.now() } }); }
+  const g = Math.floor(r.pairs / 2) + r.stars * 3;
+  addGems(g); update({ xp: (S.xp || 0) + r.pairs });
+  coachSay(cid, r.stars >= 2 ? 4 : r.stars ? 1 : 3);
+  root.querySelector('.wg-host').innerHTML = `<div class="wg-end">
+    ${who.img ? `<img class="fr-img" src="${who.img}" alt="">` : ''}
+    <div class="wg-stars">${[0, 1, 2].map(k => `<span class="${k < r.stars ? 'on' : ''}" style="animation-delay:${.2 + k * .25}s">★</span>`).join('')}</div>
+    ${isRec ? `<div class="wg-rec">🏆 ${gx('record')}</div>` : ''}
+    <div class="wg-big">${r.score}</div>
+    <div class="wg-row"><span>🧩 ${r.pairs} ${gx('pairs').toLowerCase()}</span><span>🔥 ${gx('best')} x${r.best}</span><span>💎 +${g}</span></div>
+    <p class="small" style="opacity:.8;text-align:center">${r.pairs} ${gx('learnt')}</p>
+    ${lifeBonus()}
+    <button class="btn mt-12" onclick="window.__wgPlay('${cid}')">🎮 ${gx('again')}</button>
+    <button class="btn btn-ghost mt-8" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')}</button></div>`;
+  if (r.stars) setTimeout(() => { sfx('win'); burst(null, 70, 1.7); }, 300);
 }
 
 // ---------- the shop: looks for the hero, bought with gems ----------
@@ -838,6 +899,17 @@ function css() {
 body.sm-on #lang-switch,body.sm-on .bottomnav{display:none !important}
 body.sm-3d #sm-sky{display:none}
 .sp-q{font-size:13px;color:#ffd36b}
+.wg-scene{padding:12px 16px 30px}.wg-host{padding:0 14px}.wg-scene .sp-top{margin-bottom:10px}
+.fr-img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:4px solid #ffd36b;display:block;margin:0 auto 6px;background:#24407a}
+.fr-play{width:100%;font-size:17px;background:linear-gradient(90deg,#ff4d6d,#ffb703) !important;border:0 !important;color:#fff !important;box-shadow:0 6px 18px rgba(255,120,80,.45);margin-top:6px}
+body.sm-on [data-sm] .w3-card .fr-rv{width:100%;margin-top:4px;color:#2b2340 !important;background:#f3eadb !important;border:1px solid #e0d3bd !important}
+.wg-end{text-align:center;padding:16px 4px;color:#fff}.wg-end .btn{width:100%}
+.wg-stars{font-size:54px;letter-spacing:6px;line-height:1;margin:6px 0}.wg-stars span{color:rgba(255,255,255,.18);display:inline-block}
+.wg-stars span.on{color:#ffd36b;text-shadow:0 0 18px rgba(255,211,107,.8);animation:wgStar .5s backwards cubic-bezier(.3,1.6,.5,1)}
+@keyframes wgStar{from{transform:scale(0) rotate(-90deg)}}
+.wg-big{font-size:52px;font-weight:900;background:linear-gradient(90deg,#ffd36b,#ff8fab,#b388ff,#4cc9f0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wg-rec{display:inline-block;background:linear-gradient(90deg,#ffe08a,#ffc96b);color:#3b2a00;font-weight:800;border-radius:999px;padding:4px 14px;margin-bottom:4px}
+.wg-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:8px 0}.wg-row span{background:rgba(255,255,255,.1);border-radius:999px;padding:5px 12px;font-weight:700;font-size:14px}
 .tc-opt,.sp-qo{border-bottom-width:4px !important}
 .tc-opt:nth-child(4n+1),.sp-qo:nth-child(4n+1){background:linear-gradient(135deg,rgba(255,77,109,.30),rgba(255,143,171,.12)) !important;border-color:rgba(255,143,171,.6) !important}
 .tc-opt:nth-child(4n+2),.sp-qo:nth-child(4n+2){background:linear-gradient(135deg,rgba(255,183,3,.30),rgba(255,214,10,.12)) !important;border-color:rgba(255,200,60,.6) !important}

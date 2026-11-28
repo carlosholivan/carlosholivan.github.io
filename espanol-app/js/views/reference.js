@@ -1,16 +1,16 @@
-import { tutorBtn } from '../tutor.js?v=202611281710';
-import { S } from '../state.js?v=202611281710';
-import { register, go } from '../router.js?v=202611281710';
-import { loadGrammar, loadVocab } from '../data.js?v=202611281710';
-import { bottomNav, header } from '../ui/components.js?v=202611281710';
-import { icon } from '../ui/icons.js?v=202611281710';
-import { t } from '../i18n.js?v=202611281710';
-import { levelChips } from '../levels.js?v=202611281710';
-import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611281710';
-import { allVocab } from './review.js?v=202611281710';
-import { levelLabel } from '../levels.js?v=202611281710';
+import { tutorBtn } from '../tutor.js?v=202611281724';
+import { S } from '../state.js?v=202611281724';
+import { register, go } from '../router.js?v=202611281724';
+import { loadGrammar, loadVocab } from '../data.js?v=202611281724';
+import { bottomNav, header } from '../ui/components.js?v=202611281724';
+import { icon } from '../ui/icons.js?v=202611281724';
+import { t } from '../i18n.js?v=202611281724';
+import { levelChips } from '../levels.js?v=202611281724';
+import { wordStatus, statusLegend, STATUS } from '../engine/status.js?v=202611281724';
+import { allVocab } from './review.js?v=202611281724';
+import { levelLabel } from '../levels.js?v=202611281724';
 const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-window.__refSpeak = (w) => import('../audio.js?v=202611281710').then(a => a.speak(w));
+window.__refSpeak = (w) => import('../audio.js?v=202611281724').then(a => a.speak(w));
 
 register('reference', async (el) => {
   el.innerHTML = `<div class="fade">
