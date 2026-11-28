@@ -1,6 +1,6 @@
-import { S } from './state.js?v=202611281149';
-import EXTRA from './i18n-extra.js?v=202611281149';
-import UI from './i18n-ui.js?v=202611281149';
+import { S } from './state.js?v=202611281200';
+import EXTRA from './i18n-extra.js?v=202611281200';
+import UI from './i18n-ui.js?v=202611281200';
 
 const T = {
   // Navigation
@@ -226,6 +226,10 @@ const T = {
   enterEmail:   { es: 'Escribe primero tu correo', en: 'Enter your email first', ja: 'まずメールを入力してください', ko: '먼저 이메일을 입력하세요' },
   resetSent:    { es: '¡Correo para restablecer la contraseña enviado!', en: 'Password reset email sent!', ja: 'パスワードリセットメール送信済み！', ko: '비밀번호 재설정 메일을 보냈습니다!' },
   logout:       { es: 'Cerrar sesión', en: 'Log out', ja: 'ログアウト', ko: '로그아웃' },
+  deleteAcc:    { es: 'Eliminar mi cuenta', en: 'Delete my account', ja: 'アカウントを削除', ko: '계정 삭제', zh: '删除我的账户' },
+  deleteAccQ:   { es: '¿Eliminar tu cuenta y todo tu progreso guardado en la nube de todas las apps? No se puede deshacer. Escribe tu contraseña para confirmar:', en: 'Delete your account and all progress saved in the cloud for every app? This cannot be undone. Type your password to confirm:', ja: 'アカウントと全アプリのクラウド上の進捗を削除しますか？元に戻せません。確認のためパスワードを入力してください:', ko: '계정과 모든 앱의 클라우드 진행 상황을 삭제할까요? 되돌릴 수 없습니다. 확인을 위해 비밀번호를 입력하세요:', zh: '删除你的账户以及所有应用在云端保存的进度？此操作无法撤销。请输入密码确认：' },
+  deleteAccDone:{ es: 'Tu cuenta se ha eliminado.', en: 'Your account has been deleted.', ja: 'アカウントを削除しました。', ko: '계정이 삭제되었습니다.', zh: '你的账户已删除。' },
+  deleteAccErr: { es: 'No se pudo eliminar (¿contraseña correcta?).', en: 'Could not delete it (is the password right?).', ja: '削除できませんでした（パスワードは正しいですか？）。', ko: '삭제하지 못했습니다 (비밀번호가 맞나요?).', zh: '无法删除（密码正确吗？）。' },
   loggedInAs:   { es: 'Sesión iniciada como', en: 'Logged in as', ja: 'ログイン中：', ko: '로그인 계정:' },
   account:      { es: 'Cuenta', en: 'Account', ja: 'アカウント', ko: '계정' },
   synced:       { es: 'Progreso sincronizado en la nube', en: 'Progress synced to cloud', ja: '進捗はクラウドに同期済み', ko: '진도가 클라우드에 동기화됨' },

@@ -1,18 +1,18 @@
-import { reminderSettings } from '../reminders.js?v=202611281149';
-import { planSettings } from '../plan.js?v=202611281149';
-import '../tour.js?v=202611281149';
-import { tutorSettings } from '../tutor.js?v=202611281149';
-import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611281149';
-import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611281149';
-import { readAnki } from '../anki-import.js?v=202611281149';
-import { allVocab } from './review.js?v=202611281149';
-import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611281149';
-import { esc } from '../es.js?v=202611281149';
-import { register, go } from '../router.js?v=202611281149';
-import { bottomNav, header } from '../ui/components.js?v=202611281149';
-import { t } from '../i18n.js?v=202611281149';
-import { applyPinyinPref } from '../es.js?v=202611281149';
-import { isConfigured, getUser, logoutUser, loadStateFromCloud } from '../firebase-auth.js?v=202611281149';
+import { reminderSettings } from '../reminders.js?v=202611281200';
+import { planSettings } from '../plan.js?v=202611281200';
+import '../tour.js?v=202611281200';
+import { tutorSettings } from '../tutor.js?v=202611281200';
+import { S, update, reset, flushCloud, syncInfo } from '../state.js?v=202611281200';
+import { speak, SPEEDS, speed, G, SAMPLE } from '../audio.js?v=202611281200';
+import { readAnki } from '../anki-import.js?v=202611281200';
+import { allVocab } from './review.js?v=202611281200';
+import { voiceSettings, wireVoiceSettings } from '../voice-settings.js?v=202611281200';
+import { esc } from '../es.js?v=202611281200';
+import { register, go } from '../router.js?v=202611281200';
+import { bottomNav, header } from '../ui/components.js?v=202611281200';
+import { t } from '../i18n.js?v=202611281200';
+import { applyPinyinPref } from '../es.js?v=202611281200';
+import { isConfigured, getUser, logoutUser, loadStateFromCloud, deleteAccount } from '../firebase-auth.js?v=202611281200';
 
 register('settings', (el) => {
   const langs = [
@@ -29,6 +29,7 @@ register('settings', (el) => {
         <div class="small mb-12" id="sync-status">${syncLine()}</div>
         <button class="btn btn-soft btn-small mb-12" onclick="window.__syncNow(this)">☁️ ${t('syncNow')}</button>
         <button class="btn btn-ghost" onclick="window.__logout()">${t('logout')}</button>
+        <button class="btn btn-ghost small mt-12" style="display:block;color:#c0392b" onclick="window.__deleteAcc()">🗑️ ${t('deleteAcc')}</button>
       ` : `
         <div class="muted small mb-12">${t('continueWithout')}</div>
         <button class="btn btn-primary" style="width:100%" onclick="window.__goAuth()">${t('login')} / ${t('createAccount')}</button>
@@ -156,6 +157,17 @@ window.__syncNow = async (btn) => {
   } catch (e) { syncInfo.err = e.code || e.message; }
   if (el) el.innerHTML = syncLine() + extra;
   btn.disabled = false;
+};
+
+window.__deleteAcc = async () => {
+  const pw = prompt(t('deleteAccQ'));
+  if (pw === null) return;
+  try {
+    await deleteAccount(pw);
+    reset();
+    alert(t('deleteAccDone'));
+    location.reload();
+  } catch (e) { alert(t('deleteAccErr') + ' ' + (e.code || '')); }
 };
 
 window.__logout = async () => {

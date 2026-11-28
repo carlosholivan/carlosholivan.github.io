@@ -7,7 +7,10 @@ import {
   onAuthStateChanged,
   sendPasswordResetEmail,
   sendEmailVerification,
-  reload
+  reload,
+  deleteUser,
+  reauthenticateWithCredential,
+  EmailAuthProvider
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js';
 import {
   getFirestore,
@@ -20,9 +23,10 @@ import {
   limit,
   where,
   getDocs,
-  getCountFromServer
+  getCountFromServer,
+  deleteDoc
 } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js';
-import firebaseConfig from './firebase-config.js?v=202611281149';
+import firebaseConfig from './firebase-config.js?v=202611281200';
 
 let app = null;
 let auth = null;
@@ -167,4 +171,18 @@ export async function saveReminder(rem) {
   if (!db || !currentUser) throw new Error('not-signed-in');
   if (!isVerified()) throw new Error('email-not-verified');
   await setDoc(doc(db, 'users', currentUser.uid), { reminder: JSON.parse(JSON.stringify(rem)) }, { mergeFields: ['reminder'] });
+}
+
+// Deletes the account and everything stored about it in every language app (progress, rankings, reminders).
+// Google Play requires that users can do this from inside the app. Asks for the password again first.
+const RANKS = ['ranking_chino', 'ranking_nihongo', 'ranking_arabe', 'ranking_espanol', 'ranking_english', 'ranking_francais', 'ranking_deutsch'];
+export async function deleteAccount(password) {
+  if (!currentUser) throw new Error('not-signed-in');
+  if (currentUser.providerData.some(p => p.providerId === 'password'))
+    await reauthenticateWithCredential(currentUser, EmailAuthProvider.credential(currentUser.email, password || ''));
+  const uid = currentUser.uid;
+  for (const r of RANKS) { try { await deleteDoc(doc(db, r, uid)); } catch (e) {} }
+  try { await deleteDoc(doc(db, 'users', uid)); } catch (e) {}
+  await deleteUser(currentUser);
+  currentUser = null;
 }

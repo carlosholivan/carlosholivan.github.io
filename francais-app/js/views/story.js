@@ -2,18 +2,18 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611281149';
-import { S, update, completeUnit } from '../state.js?v=202611281149';
-import { register, go } from '../router.js?v=202611281149';
-import { LEVELS, levelLabel } from '../levels.js?v=202611281149';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281149';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281149';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281149';
-import { unitVocab } from '../engine/exercises.js?v=202611281149';
-import { bottomNav } from '../ui/components.js?v=202611281149';
+import { CFG } from '../app-config.js?v=202611281200';
+import { S, update, completeUnit } from '../state.js?v=202611281200';
+import { register, go } from '../router.js?v=202611281200';
+import { LEVELS, levelLabel } from '../levels.js?v=202611281200';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611281200';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611281200';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead } from '../rewards.js?v=202611281200';
+import { unitVocab } from '../engine/exercises.js?v=202611281200';
+import { bottomNav } from '../ui/components.js?v=202611281200';
 const pyToggle = () => '';   // no furigana/pinyin in this language
-import { speak, speakAs, stop } from '../audio.js?v=202611281149';
-import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281149';
+import { speak, speakAs, stop } from '../audio.js?v=202611281200';
+import { ruby, pyReady, sylReady, esc } from '../es.js?v=202611281200';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
