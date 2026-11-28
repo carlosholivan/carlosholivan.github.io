@@ -1,8 +1,8 @@
 // Conjugation exercises for the lessons: a verb of the lesson (or a common one) and a form of this level, to choose
 // among look-alikes (its other forms, and the form a learner gets by putting the verb in the wrong group) or to type
 // (kana or kanji both count).
-import { QUIZ_VERBS, FORM, conjugate } from './conj.js?v=202611282202';
-import { S } from './state.js?v=202611282202';
+import { QUIZ_VERBS, FORM, conjugate } from './conj.js?v=202611282250';
+import { S } from './state.js?v=202611282250';
 
 const BY_LEVEL = { n5: ['masu', 'nai', 'te', 'ta'], n4: ['te', 'ta', 'nai', 'vol', 'pot', 'ba', 'tara'], n3: ['pot', 'ba', 'tara', 'pas', 'imp', 'vol'],
   n2: ['pas', 'caus', 'pot', 'imp', 'ba'], n1: ['pas', 'caus', 'pot', 'imp', 'ba'] };

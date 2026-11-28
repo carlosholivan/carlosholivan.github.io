@@ -1,18 +1,18 @@
-import { planBox } from '../plan.js?v=202611282202';
-import { needsTour, startTour } from '../tour.js?v=202611282202';
-import { S, update } from '../state.js?v=202611282202';
-import { register, go } from '../router.js?v=202611282202';
-import { t } from '../i18n.js?v=202611282202';
-import { speak } from '../audio.js?v=202611282202';
-import { deckStats } from '../engine/anki.js?v=202611282202';
-import { failedWords } from '../engine/srs.js?v=202611282202';
-import { allVocab } from './review.js?v=202611282202';
-import { loadUnits } from '../data.js?v=202611282202';
-import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611282202';
-import { textsWithRecommendation } from './texts.js?v=202611282202';
-import { ruby, pyReady } from '../ar.js?v=202611282202';
-import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611282202';
-import { mascot } from '../ui/mascot.js?v=202611282202';
+import { planBox } from '../plan.js?v=202611282250';
+import { needsTour, startTour } from '../tour.js?v=202611282250';
+import { S, update } from '../state.js?v=202611282250';
+import { register, go } from '../router.js?v=202611282250';
+import { t } from '../i18n.js?v=202611282250';
+import { speak } from '../audio.js?v=202611282250';
+import { deckStats } from '../engine/anki.js?v=202611282250';
+import { failedWords } from '../engine/srs.js?v=202611282250';
+import { allVocab } from './review.js?v=202611282250';
+import { loadUnits } from '../data.js?v=202611282250';
+import { isUnitDone, hasHistory, touchActive, daysAway } from '../state.js?v=202611282250';
+import { textsWithRecommendation } from './texts.js?v=202611282250';
+import { ruby, pyReady } from '../ar.js?v=202611282250';
+import { LEVELS, levelLabel, LEVEL_NAME } from '../levels.js?v=202611282250';
+import { mascot } from '../ui/mascot.js?v=202611282250';
 
 const zh = (s) => ruby(s);
 
@@ -126,13 +126,19 @@ register('welcome', async (el) => {
     `<span class="wl" style="animation-delay:${0.35 + i * 0.05}s">${c === ' ' ? '&nbsp;' : esc(c)}</span>`).join('');
   const lineDelay = 0.35 + hello.length * 0.05 + 0.2;
 
-  el.innerHTML = `<div class="welcome" onclick="window.__welcomeContinue()">
-    <div class="welcome-bubbles"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-    <div class="welcome-wave">${mascot('cheer', 110)}</div>
-    <div class="welcome-hello">${letters}</div>
+  // same look as the start-up screen (navy sky, Mochi, the three dots), with the greeting
+  el.innerHTML = `<style>.welcome.wl-splash{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;
+      background:radial-gradient(120% 80% at 50% 0%,#2b4fa0,#0b1638 70%);color:#fff}
+    .wl-splash .wl-mochi{width:112px;height:112px;margin-bottom:14px;animation:spB 1.1s ease-in-out infinite;filter:drop-shadow(0 10px 18px rgba(0,0,0,.35))}
+    .wl-splash .welcome-hello{color:#fff}.wl-splash .welcome-line{color:#ffd36b}.wl-splash .welcome-tr{color:#dfe6ff !important;opacity:.95}.wl-splash .welcome-tap{color:#a9b6dc !important;margin-top:10px}
+    .wl-splash .wl-dots i{display:inline-block;width:8px;height:8px;margin:18px 4px 0;border-radius:50%;background:#ffd36b;animation:spD 1s infinite}.wl-splash .wl-dots i:nth-child(2){animation-delay:.15s}.wl-splash .wl-dots i:nth-child(3){animation-delay:.3s}
+    @keyframes spB{50%{transform:translateY(-10px) scale(1.04,.97)}}@keyframes spD{50%{opacity:.25;transform:translateY(-4px)}}</style>
+  <div class="welcome wl-splash" onclick="window.__welcomeContinue()">
+    <img class="wl-mochi" src="../idiomas/assets/mochi.webp" alt="">
+    <div class="welcome-hello" style="white-space:nowrap;font-size:${Math.min(36, Math.floor(340 / Math.max(6, [...hello].length)))}px">${letters}</div>
     <div class="welcome-line" style="animation-delay:${lineDelay}s">${line}</div>
     <div class="welcome-tr muted" style="animation-delay:${lineDelay + 0.3}s">${esc(away ? away.tr : t(returning ? 'welcomeBackTr' : 'niceToMeetTr').replace('{n}', S.name))}</div>
-    <div class="welcome-bar"><div style="animation-duration:${WELCOME_MS}ms"></div></div>
+    <div class="wl-dots"><i></i><i></i><i></i></div>
     <div class="welcome-tap muted small">${t('tapToContinue')}</div>
   </div>`;
 
