@@ -1,21 +1,22 @@
-import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282014';
-import { S, completeUnit, completeSet, update } from '../state.js?v=202611282014';
-import { buildReview } from '../engine/review.js?v=202611282014';
-import { addCards } from '../engine/anki.js?v=202611282014';
-import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282014';
-import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282014';
-import { CFG as LCFG } from '../app-config.js?v=202611282014';
-import { register, go } from '../router.js?v=202611282014';
-import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282014';
-import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282014';
-import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611282014';
-import { recordAnswer } from '../engine/srs.js?v=202611282014';
-import { progressBar, pyToggle } from '../ui/components.js?v=202611282014';
-import { icon } from '../ui/icons.js?v=202611282014';
-import { t } from '../i18n.js?v=202611282014';
-import { speak, stop as stopAudio } from '../audio.js?v=202611282014';
-import { allHanzi } from './review.js?v=202611282014';
-import { charWord, hasChars } from '../chars.js?v=202611282014';
+import { explainMistake, taskOf, plain, tutorBtn } from '../tutor.js?v=202611282029';
+import { S, completeUnit, completeSet, update } from '../state.js?v=202611282029';
+import { buildReview } from '../engine/review.js?v=202611282029';
+import { addCards } from '../engine/anki.js?v=202611282029';
+import { lives, loseLife, addGems, lifeIn, gems, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282029';
+import { cheer, boo, sfx, burst, shout, floatUp, lifeOf, lifeName, combo } from '../../../idiomas/juice.js?v=202611282029';
+import { CFG as LCFG } from '../app-config.js?v=202611282029';
+import { conjExercises } from '../conjq.js?v=202611282029';
+import { register, go } from '../router.js?v=202611282029';
+import { loadUnit, loadVocab, loadExtra } from '../data.js?v=202611282029';
+import { generateExercises, unitVocab, reshuffle, tr, checkTyped } from '../engine/exercises.js?v=202611282029';
+import { tonedPinyin, ruby, pyReady, sylReady } from '../ar.js?v=202611282029';
+import { recordAnswer } from '../engine/srs.js?v=202611282029';
+import { progressBar, pyToggle } from '../ui/components.js?v=202611282029';
+import { icon } from '../ui/icons.js?v=202611282029';
+import { t } from '../i18n.js?v=202611282029';
+import { speak, stop as stopAudio } from '../audio.js?v=202611282029';
+import { allHanzi } from './review.js?v=202611282029';
+import { charWord, hasChars } from '../chars.js?v=202611282029';
 
 const MAX_HEARTS = 5;
 
@@ -49,7 +50,7 @@ register('lesson', async (el, params) => {
   document.body.classList.toggle('candy', localStorage.getItem('idiomas_candy') === '1');
   // No lives left: a NEW lesson waits (review to earn one, refill with gems, or wait); finished ones can be redone.
   if (!params.review && lives() <= 0 && !(S.completed || {})[`${params.level}-${params.unit}`]) {
-    const lg = await import('../../../idiomas/lives.js?v=202611282014');
+    const lg = await import('../../../idiomas/lives.js?v=202611282029');
     el.innerHTML = '<div class="fade" style="padding:40px 0;text-align:center;font-size:48px">' + lifeOf(LCFG.id) + '</div>';
     lg.showGate({ lang: S.lang, icon: lifeOf(LCFG.id), name: lifeName(LCFG.id, S.lang), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
       onPractice: () => go('review'), onRefill: () => { if (!refillLives()) return false; sfx('win'); setTimeout(() => go('lesson', params), 300); return true; },
@@ -94,6 +95,8 @@ register('lesson', async (el, params) => {
 
   function resetPractice() {
     queue = review ? review.queue.map(e => ({ ...e })) : generateExercises(unit, words, levelVocab);
+    // verbs of the lesson (or common ones) conjugated: one to choose among look-alikes, one to type
+    if (!review) { const cj = conjExercises(params.level, words, 2); if (cj.length) queue.splice(Math.max(1, queue.length - 2), 0, ...cj); }
     total = queue.length;
     solved = 0;
     hearts = MAX_HEARTS;
@@ -251,7 +254,7 @@ register('lesson', async (el, params) => {
       case 'translate':
         return `<div class="slideup">${hintOf(ex)}
           <div class="h3 mb-16">${promptOf(ex)}</div>
-          <input type="text" id="answer-input" lang="ja" placeholder="${t('typeZh')}" autocomplete="off" autocapitalize="off" spellcheck="false" style="margin-bottom:8px">
+          <input type="text" id="answer-input" lang="ja" placeholder="${ex.conj ? (S.lang === 'en' ? 'Type the form' : 'Escribe la forma') : t('typeZh')}" autocomplete="off" autocapitalize="off" spellcheck="false" style="margin-bottom:8px">
           <div class="muted small mb-12">${t('typeZhHelp')}</div>
           <button class="btn" id="check-btn" onclick="window.__checkTranslate()">${t('check')}</button>
           <div id="feedback" class="mt-12"></div></div>`;

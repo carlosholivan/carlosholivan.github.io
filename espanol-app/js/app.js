@@ -1,34 +1,34 @@
-import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611282014';
-import { go } from './router.js?v=202611282014';
-import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611282014';
+import { S, mergeCloudState, reset, save, cloudError } from './state.js?v=202611282029';
+import { go } from './router.js?v=202611282029';
+import { initFirebase, isConfigured, onAuthChange, loadStateFromCloud, saveStateToCloud, isVerified } from './firebase-auth.js?v=202611282029';
 
-import './views/home.js?v=202611282014';
-import './views/lesson.js?v=202611282014';
-import './views/story.js?v=202611282014';
-import './views/review.js?v=202611282014';
-import './views/progress.js?v=202611282014';
-import './views/settings.js?v=202611282014';
-import './views/reference.js?v=202611282014';
-import './views/daily-review.js?v=202611282014';
-import './views/auth.js?v=202611282014';
-import './views/texts.js?v=202611282014';
-import './views/drills.js?v=202611282014';
-import './views/conj.js?v=202611282014';
-import './views/topics.js?v=202611282014';
-import './views/speak.js?v=202611282014';
-import './plan.js?v=202611282014';
-import './views/vocablist.js?v=202611282014';
-import './views/ranking.js?v=202611282014';
-import { enterApp } from './views/welcome.js?v=202611282014';
-import { applyPinyinPref } from './es.js?v=202611282014';
+import './views/home.js?v=202611282029';
+import './views/lesson.js?v=202611282029';
+import './views/story.js?v=202611282029';
+import './views/review.js?v=202611282029';
+import './views/progress.js?v=202611282029';
+import './views/settings.js?v=202611282029';
+import './views/reference.js?v=202611282029';
+import './views/daily-review.js?v=202611282029';
+import './views/auth.js?v=202611282029';
+import './views/texts.js?v=202611282029';
+import './views/drills.js?v=202611282029';
+import './views/conj.js?v=202611282029';
+import './views/topics.js?v=202611282029';
+import './views/speak.js?v=202611282029';
+import './plan.js?v=202611282029';
+import './views/vocablist.js?v=202611282029';
+import './views/ranking.js?v=202611282029';
+import { enterApp } from './views/welcome.js?v=202611282029';
+import { applyPinyinPref } from './es.js?v=202611282029';
 
 if (S.dark) document.body.classList.add('dark');
 applyPinyinPref();
 window.__go = (v, p) => go(v, p);
-window.__sylPlay = (c) => import('./audio.js?v=202611282014').then(a => a.speak(c));
+window.__sylPlay = (c) => import('./audio.js?v=202611282029').then(a => a.speak(c));
 
 window.__nav = (view, params) => go(view, params || {});
-window.__back = () => { import('./router.js?v=202611282014').then(r => r.back()); };
+window.__back = () => { import('./router.js?v=202611282029').then(r => r.back()); };
 
 // Loads and merges the account's progress. Local progress from a different account is discarded first.
 window.__signedIn = async (user) => {

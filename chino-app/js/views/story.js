@@ -2,18 +2,19 @@
 // each lesson opens with a short scene (with a choice that changes the dialogue, never the content), then a friend
 // sets the lesson's exercises as challenges inside the scene (no jump to study mode), and a short scene closes it.
 // Data: data/story/meta.json (cast, chapters) and data/story/<level>.json (built from tools/story_src/).
-import { CFG } from '../app-config.js?v=202611282014';
-import { S, update, completeUnit } from '../state.js?v=202611282014';
-import { register, go } from '../router.js?v=202611282014';
-import { LEVELS, levelLabel } from '../levels.js?v=202611282014';
-import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611282014';
-import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611282014';
-import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282014';
-import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611282014';
-import { unitVocab } from '../engine/exercises.js?v=202611282014';
-import { bottomNav, pyToggle } from '../ui/components.js?v=202611282014';
-import { speak, speakAs, stop } from '../audio.js?v=202611282014';
-import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611282014';
+import { CFG } from '../app-config.js?v=202611282029';
+import { S, update, completeUnit } from '../state.js?v=202611282029';
+import { register, go } from '../router.js?v=202611282029';
+import { LEVELS, levelLabel } from '../levels.js?v=202611282029';
+import { loadUnits, loadVocab, loadUnit } from '../data.js?v=202611282029';
+import { addCards, buildQueue, answer } from '../engine/anki.js?v=202611282029';
+import { R as rew, gems, chestReady, openChest, SHOP, buy, wear, readFact, factsRead, lives, loseLife, lifeIn, livesFullAt, addGems, LIFE_MAX, earned, refillLives, REFILL_COST } from '../rewards.js?v=202611282029';
+import { cheer, boo, sfx, burst, shout, floatUp } from '../../../idiomas/juice.js?v=202611282029';
+import { unitVocab } from '../engine/exercises.js?v=202611282029';
+import { bottomNav, pyToggle } from '../ui/components.js?v=202611282029';
+import { speak, speakAs, stop } from '../audio.js?v=202611282029';
+import { ruby, pyReady, sylReady, esc } from '../zh.js?v=202611282029';
+import { explainMistake, tutorBtn, plain as tplain } from '../tutor.js?v=202611282029';
 
 const L = o => (o && (o[S.lang] || (S.lang === 'es' ? o.es : o.en) || o.es || o.en)) || '';
 // Target-language text, with pinyin / furigana / transliteration when the app has it. `s` = precomputed ruby
@@ -68,8 +69,15 @@ const GTX = {
   ready: { es: 'Toca una palabra y luego su significado. ¡Encadena aciertos para hacer combos!', en: 'Tap a word, then its meaning. Chain right answers for combos!' },
   tapWord: { es: '¡Encuentra las parejas!', en: 'Find the pairs!' }, again: { es: 'Otra partida', en: 'Play again' },
   best: { es: 'Mejor combo', en: 'Best combo' }, record: { es: '¡Nuevo récord!', en: 'New record!' }, learnt: { es: 'palabras repasadas', en: 'words reviewed' },
+  write: { es: 'Escribir con {n}', en: 'Write with {n}' }, writeSub: { es: 'Dibuja los caracteres que faltan, trazo a trazo.', en: 'Draw the missing characters, stroke by stroke.' },
+  verbs: { es: 'Verbos con {n}', en: 'Verbs with {n}' }, verbsSub: { es: 'Conjuga los verbos de tus lecciones: elige o escribe la forma.', en: 'Conjugate the verbs of your lessons: choose or type the form.' },
+  drawIt: { es: 'Dibuja el carácter que falta', en: 'Draw the missing character' }, hint: { es: 'Pista', en: 'Hint' }, show: { es: 'Ver cómo se escribe', en: 'Show me' },
+  strokesOk: { es: '¡Trazos perfectos!', en: 'Perfect strokes!' }, mistakesN: { es: '{n} fallos', en: '{n} mistakes' }, check: { es: 'Comprobar', en: 'Check' },
 };
 const gx = (k, n = '') => L(GTX[k]).replace('{n}', n);
+// conjugation exercises exist in every app whose language conjugates verbs (not Chinese)
+let CONJ = null, HAS_CONJ = false;
+import('../conjq.js?v=202611282029').then(m => { CONJ = m; HAS_CONJ = true; }).catch(() => {});
 
 // ---------- lives: a local food per language. Missing answers costs one; having none never blocks playing ----------
 const LIFE = { nihongo: ['🍙', { es: 'onigiris', en: 'onigiri' }], chino: ['🥟', { es: 'jiaozi', en: 'dumplings' }], arabe: ['🧆', { es: 'falafels', en: 'falafels' }],
@@ -108,7 +116,7 @@ function lifeBonus(el) {
 // Returns true when it blocked. Whatever is already under way can always be finished.
 async function gate(retry) {
   if (lives() > 0) return false;
-  const lg = await import('../../../idiomas/lives.js?v=202611282014');
+  const lg = await import('../../../idiomas/lives.js?v=202611282029');
   lg.showGate({ lang: S.lang, icon: LIFE[0], name: L(LIFE[1]), minutes: Math.ceil(lifeIn() / 60000), gems: gems(), cost: REFILL_COST, earned: earned(),
     onPractice: async () => { const f = friends(META || await meta())[0]; f ? npcReview(f) : window.__go('review'); },
     onRefill: () => { if (!refillLives()) return false; sfx('win'); shout(`${LIFE[0].repeat(LIFE_MAX)}`); retry && setTimeout(retry, 300); return true; },
@@ -296,7 +304,7 @@ async function map(m) {
   </div>${bottomNav('home')}`;
   // The region map (shared module in /idiomas/): towns along a road, friends who review with you, facts, the temple.
   const flat = root.querySelector('.sm-world');
-  const mp = await import('../../../idiomas/map2d.js?v=202611282014').catch(() => null);
+  const mp = await import('../../../idiomas/map2d.js?v=202611282029').catch(() => null);
   if (!flat.isConnected || !mp) { flat.style.height = `${ns.length * 162 + 90}px`; return; }
   const NOW = window.__w3time ? new Date(window.__w3time) : new Date(), time = mp.sceneTime(NOW);
   const hero = (m.cast || {})[m.hero] || {}, wr = rew().wear || {}, icon = id => (SHOP.find(x => x.id === id) || {}).icon || '';
@@ -361,6 +369,8 @@ async function map(m) {
     modal(`${c.img ? `<img class="fr-img" src="${c.img}" alt="">` : ''}<h3>${nm}</h3>
       <button class="btn fr-play" onclick="this.closest('.w3-modal').hidden=true;window.__wgPlay('${id}')">🎮 ${gx('play', nm)}</button>
       <p class="small muted" style="text-align:center">${gx('playSub')}</p>
+      ${window.HanziWriter ? `<button class="btn fr-game fr-w" onclick="this.closest('.w3-modal').hidden=true;window.__wrPlay('${id}')">✍️ ${gx('write', nm)}</button>` : ''}
+      ${HAS_CONJ ? `<button class="btn fr-game fr-v" onclick="this.closest('.w3-modal').hidden=true;window.__vbPlay('${id}')">🔤 ${gx('verbs', nm)}</button>` : ''}
       <button class="btn btn-ghost fr-rv" onclick="this.closest('.w3-modal').hidden=true;window.__mpReview('${id}')">💬 ${gx('review', nm)}${due ? ` · ${due}` : ''}</button>`);
   };
   window.__mpReview = id => npcReview(id);
@@ -458,7 +468,8 @@ async function npcReview(cid) {
       const good = c.opts[k] === c.w;
       answer(c.w.word, good ? 3 : 1); if (good) ok++;
       coachSay(cid, good ? 1 + (qi % 2) : 3);
-      frame(good ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${T(c.w.word)} = ${esc(L(c.w.m))}</div>`,
+      window.__stWhy = () => explainMistake(`${tx('meaning')} ${c.w.word}`, L(c.w.m), L(c.opts[k].m));
+      frame(good ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${T(c.w.word)} = ${esc(L(c.w.m))}</div><div class="mt-8">${tutorBtn('window.__stWhy()', 'why')}</div>`,
         `<button class="btn" onclick="window.__rvNext()">${tx('cont2')} ▶</button>`, good);
       const res = root.querySelector('.tc-res'); good ? cheer(res) : miss(res);
       window.__rvNext = () => { window.__rvNext = () => {}; qi++; next(); };
@@ -472,7 +483,7 @@ window.__wgPlay = async cid => {
   if (await gate(() => window.__wgPlay(cid))) return;
   stop();
   const m = META || await meta(), who = (m.cast || {})[cid] || {};
-  const wm = await import('../../../idiomas/wordmatch.js?v=202611282014');
+  const wm = await import('../../../idiomas/wordmatch.js?v=202611282029');
   if (!document.getElementById('wg-css')) document.head.insertAdjacentHTML('beforeend', `<style id="wg-css">${wm.CSS}</style>`);
   // words: due for review first, then this level's (only short meanings fit on a tile)
   const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
@@ -500,6 +511,122 @@ window.__wgPlay = async cid => {
   });
   window.__wgQuit = () => { game.stop(); window.__go('story', { level }); };
 };
+// ---------- "write with a friend": draw the missing character of words you know (Hanzi Writer, stroke by stroke) ----------
+window.__wrPlay = async cid => {
+  if (await gate(() => window.__wrPlay(cid))) return;
+  stop();
+  const m = META || await meta(), who = (m.cast || {})[cid] || {};
+  const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
+  const doneU = new Set(Object.keys(S.completed || {}).filter(k => k.startsWith(level + '-')).map(k => k.slice(level.length + 1)));
+  const known = here.filter(w => doneU.has(String(w.unit))), pool = shuf(known.length >= 6 ? known : here.slice(0, 80));
+  const items = [], used = new Set();
+  for (const w of pool) {
+    const cs = [...String(w.word)].filter(c => /[\u4e00-\u9fff]/.test(c) && !used.has(c));
+    if (!cs.length) continue;
+    const c = cs[Math.floor(Math.random() * cs.length)]; used.add(c); items.push({ w, c });
+    if (items.length >= 6) break;
+  }
+  let qi = 0, good = 0, writer = null;
+  const end = () => {
+    const stars = good >= 6 ? 3 : good >= 4 ? 2 : good >= 2 ? 1 : 0, g = good + stars * 2;
+    addGems(g); update({ xp: (S.xp || 0) + good * 2 }); coachSay(cid, stars >= 2 ? 4 : 3);
+    root.innerHTML = `<div class="sp-scene wg-scene" data-sm><div class="wg-end">${who.img ? `<img class="fr-img" src="${who.img}" alt="">` : ''}
+      <div class="wg-stars">${[0, 1, 2].map(k => `<span class="${k < stars ? 'on' : ''}" style="animation-delay:${.2 + k * .25}s">★</span>`).join('')}</div>
+      <div class="wg-big">${good}/${items.length}</div><div class="wg-row"><span>✍️ ${items.map(x => x.c).join(' ')}</span><span>💎 +${g}</span></div>${lifeBonus()}
+      <button class="btn mt-12" onclick="window.__wrPlay('${cid}')">✍️ ${gx('again')}</button><button class="btn btn-ghost mt-8" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')}</button></div></div>`;
+    if (stars) setTimeout(() => { sfx('win'); burst(null, 70, 1.7); }, 300);
+  };
+  const next = () => {
+    if (qi >= items.length) return end();
+    const { w, c } = items[qi], word = String(w.word), blank = word.replace(c, '□');
+    root.innerHTML = `<div class="sp-scene tc" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">✍️ ${esc(L(who.n))}</span><span class="flex gap-8">${lifeChip()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
+      <div class="sp-prog"><i style="width:${Math.round(100 * qi / items.length)}%"></i></div>
+      <div class="sp-box tc-box"><div class="tc-q">${gx('drawIt')}</div>
+        <div class="sp-line tc-big" lang="${LG}">${esc(blank)} <span class="tc-snd" onclick="window.__wrSay()">🔊</span></div>
+        <div class="sp-tr">${esc(w.p || w.r || '')} · ${esc(L(w.m))}</div>
+        <div class="wr-pad"><div id="wr-writer"></div></div>
+        <div class="flex gap-8" style="justify-content:center"><button class="chip" onclick="window.__wrHint()">💡 ${gx('hint')}</button><button class="chip" onclick="window.__wrShow()">👀 ${gx('show')}</button></div>
+        <div class="wr-res"></div></div></div>`;
+    window.__wrSay = () => speakAs(cid, word, toneOf(cid));
+    window.__wrSay();
+    const dark = true, misses = { n: 0 };
+    writer = window.HanziWriter.create('wr-writer', c, { width: 230, height: 230, padding: 10, showOutline: false, showCharacter: false,
+      strokeColor: '#ffffff', outlineColor: 'rgba(255,255,255,.18)', drawingColor: '#ffd36b', highlightColor: '#4cc9f0', drawingWidth: 22,
+      charDataLoader: (ch, ok, fail) => fetch(`data/strokes/${ch}.json`).then(r => { if (!r.ok) throw 0; return r.json(); }).then(ok).catch(() => { fail(); qi++; next(); }) });
+    writer.quiz({ showHintAfterMisses: 3, onMistake: () => { misses.n++; sfx('bad'); },
+      onCorrectStroke: () => sfx('ok', 1),
+      onComplete: r => {
+        const ok = r.totalMistakes <= 2;
+        try { addCards([c], 'h'); answer(c, ok ? 3 : 1, 'h'); } catch (e) {}
+        if (ok) { good++; cheer(root.querySelector('.wr-pad')); } else miss(root.querySelector('.wr-pad'));
+        root.querySelector('.wr-res').innerHTML = `<div class="tc-res ${ok ? 'ok' : 'no'}">${ok && !r.totalMistakes ? '✓ ' + gx('strokesOk') : gx('mistakesN').replace('{n}', r.totalMistakes)}</div><button class="btn mt-8" onclick="window.__wrNext()">${tx('cont2')} ▶</button>`;
+        window.__wrSay();
+      } });
+    window.__wrHint = () => writer && writer.showOutline();
+    window.__wrShow = () => { if (!writer) return; writer.cancelQuiz(); writer.showCharacter(); writer.animateCharacter({ onComplete: () => { miss(root.querySelector('.wr-pad')); root.querySelector('.wr-res').innerHTML = `<button class="btn mt-8" onclick="window.__wrNext()">${tx('cont2')} ▶</button>`; } }); };
+    window.__wrNext = () => { qi++; next(); };
+  };
+  if (!items.length) return window.__go('story', { level });
+  next();
+};
+
+// ---------- "verbs with a friend": quick conjugation round (choose among look-alikes or type) ----------
+window.__vbPlay = async cid => {
+  if (!CONJ) return;
+  if (await gate(() => window.__vbPlay(cid))) return;
+  stop();
+  const m = META || await meta(), who = (m.cast || {})[cid] || {};
+  const here = VOC[level] || (VOC[level] = await loadVocab(level).catch(() => []));
+  const doneU = new Set(Object.keys(S.completed || {}).filter(k => k.startsWith(level + '-')).map(k => k.slice(level.length + 1)));
+  const list = CONJ.conjExercises(level, here.filter(w => doneU.has(String(w.unit))), 8);
+  let qi = 0, good = 0;
+  const end = () => {
+    const stars = good >= list.length ? 3 : good >= list.length * .7 ? 2 : good >= list.length * .4 ? 1 : 0, g = good + stars * 2;
+    addGems(g); update({ xp: (S.xp || 0) + good * 2 }); coachSay(cid, stars >= 2 ? 4 : 3);
+    root.innerHTML = `<div class="sp-scene wg-scene" data-sm><div class="wg-end">${who.img ? `<img class="fr-img" src="${who.img}" alt="">` : ''}
+      <div class="wg-stars">${[0, 1, 2].map(k => `<span class="${k < stars ? 'on' : ''}" style="animation-delay:${.2 + k * .25}s">★</span>`).join('')}</div>
+      <div class="wg-big">${good}/${list.length}</div><div class="wg-row"><span>🔤 ${gx('verbs', '').replace(/\s*$/, '')}</span><span>💎 +${g}</span></div>${lifeBonus()}
+      <button class="btn mt-12" onclick="window.__vbPlay('${cid}')">🔤 ${gx('again')}</button><button class="btn btn-ghost mt-8" onclick="window.__go('story',{level:'${level}'})">${tx('toMap')}</button></div></div>`;
+    if (stars) setTimeout(() => { sfx('win'); burst(null, 70, 1.7); }, 300);
+  };
+  const frame = (box, below) => {
+    root.innerHTML = `<div class="sp-scene tc" data-sm>
+      <div class="sp-top"><span class="chip sp-chip">🔤 ${esc(L(who.n))}</span><span class="flex gap-8">${lifeChip()}<button class="chip sp-chip" onclick="window.__go('story',{level:'${level}'})">✕</button></span></div>
+      <div class="sp-stage">${hills()}${portrait(cid, who, false)}</div>
+      <div class="sp-prog"><i style="width:${Math.round(100 * qi / Math.max(1, list.length))}%"></i></div>
+      <div class="sp-box tc-box">${box}</div>${below ? `<div class="tc-below">${below}</div>` : ''}</div>`;
+  };
+  const done = (ok, ex, mine) => {
+    if (ok) good++;
+    const right = ex.correct || ex.answer;
+    speakAs(cid, right, toneOf(cid));
+    window.__stWhy = () => explainMistake(ex.prompt, right, mine);
+    frame(`<div class="tc-q">${esc(ex.hint || '')}</div><div class="sp-line" style="font-size:18px">${esc(ex.prompt)}</div>${ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer" lang="${LG}">${esc(right)}</div><div class="mt-8">${tutorBtn('window.__stWhy()', 'why')}</div>`}`,
+      `<button class="btn" onclick="window.__vbNext()">${tx('cont2')} ▶</button>`);
+    const res = root.querySelector('.tc-res'); ok ? cheer(res) : miss(res);
+  };
+  window.__vbNext = () => { qi++; next(); };
+  const next = () => {
+    if (qi >= list.length) return end();
+    const ex = list[qi];
+    if (ex.type === 'choose') {
+      frame(`<div class="tc-q">${esc(ex.hint || '')}</div><div class="sp-line" style="font-size:18px">${esc(ex.prompt)}</div>`,
+        `<div class="tc-opts">${ex.options.map((o, k) => `<button class="card tc-opt" lang="${LG}" onclick="window.__vbPick(${k})">${esc(o)}</button>`).join('')}</div>`);
+      window.__vbPick = k => done(ex.options[k] === ex.correct, ex, ex.options[k]);
+    } else {
+      frame(`<div class="tc-q">${esc(ex.hint || '')}</div><div class="sp-line" style="font-size:18px">${esc(ex.prompt)}</div>
+        <input id="vb-in" class="vb-in" lang="${LG}" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${S.lang === 'en' ? 'Type the form' : 'Escribe la forma'}">`,
+        `<button class="btn" onclick="window.__vbCheck()">${gx('check')}</button>`);
+      const inp = root.querySelector('#vb-in'); inp.focus(); inp.onkeydown = e => { if (e.key === 'Enter') window.__vbCheck(); };
+      const tidy = x => String(x || '').trim().toLowerCase().replace(/\s+/g, ' ').normalize('NFC');
+      window.__vbCheck = () => { const v = inp.value; if (!v.trim()) return; done((ex.accept || [ex.answer]).some(a => tidy(a) === tidy(v)), ex, v); };
+    }
+  };
+  if (!list.length) return window.__go('story', { level });
+  next();
+};
+
 function wgEnd(cid, who, r, n) {
   const rec = (rew().wgBest || 0), isRec = r.score > rec;
   if (isRec) { const x = rew(); x.wgBest = r.score; update({ rew: { ...x, t: Date.now() } }); }
@@ -755,13 +882,16 @@ async function trial(n, from) {
   };
   // Multiple-choice buttons under the box.
   const opts = (labels, okIdx, answer, say) => {
-    window.__tcPick = k => result(k === okIdx, answer(), say, k);
+    window.__tcPick = k => { const b = root.querySelectorAll('.tc-opt')[k]; if (b) b.classList.add('picked'); result(k === okIdx, answer(), say, k); };
     return `<div class="tc-opts">${labels.map((l, k) => `<button class="card tc-opt" onclick="window.__tcPick(${k})">${l}</button>`).join('')}</div>`;
   };
   const result = (ok, answerHtml, say) => {
     if (ok) coachSay(cid, 1 + (qi % 2)); else if (say) speakAs(cid, say, toneOf(cid)); else coachSay(cid, 3);
     if (!ok && !list[qi].again) list.push({ ...list[qi], again: 1 });
-    const box = ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${answerHtml}</div>`;
+    // the AI tutor explains any mistake (task as shown on screen, the right answer and the learner's)
+    const task = tplain((root.querySelector('.tc-box') || {}).innerHTML || ''), mine = tplain(((root.querySelector('.tc-opt.picked') || root.querySelector('#tc-in') || {}).innerHTML) || (root.querySelector('#tc-in') || {}).value || '');
+    window.__stWhy = () => explainMistake(task, tplain(answerHtml), mine);
+    const box = ok ? `<div class="tc-res ok">✓ ${tx('good')}</div>` : `<div class="tc-res no">${tx('bad')}</div><div class="tc-answer">${answerHtml}</div><div class="mt-8">${tutorBtn('window.__stWhy()', 'why')}</div>`;
     frame(box, `<button class="btn" onclick="window.__tcNext()">${tx('cont2')} ▶</button>`, ok);
     const res = root.querySelector('.tc-res'); ok ? cheer(res) : miss(res);
     window.__tcNext = () => { window.__tcNext = () => {}; qi++; next(); };
@@ -857,9 +987,13 @@ function player(lines, opts = {}) {
     ok ? cheer(btns[k]) : miss(btns[k]);
     if (gem) setTimeout(() => { sfx('gem'); floatUp('+3 💎', btns[k]); }, 250);
     const box = root.querySelector('.sp-box');
-    box.insertAdjacentHTML('beforeend', `<div class="sp-verdict ${ok ? 'ok' : 'bad'}">${ok ? `✓ ${tx('qGood')}${gem ? ' · 💎 +3' : ''}` : `${tx('qBad')} <b>${q.reply ? '' : esc(L(ln.tr))}</b>`}</div>`);
+    const prevLn = queue[i - 1];
+    window.__stWhy = () => explainMistake(q.reply ? `${prevLn ? prevLn.t : ''}\n${tx('whatReply')}` : `${ln.t}\n${tx('whatSaid').replace('{n}', '')}`, q.reply ? ln.t : L(ln.tr), q.reply ? q.opts[k].t : L(q.opts[k].tr));
+    box.insertAdjacentHTML('beforeend', `<div class="sp-verdict ${ok ? 'ok' : 'bad'}">${ok ? `✓ ${tx('qGood')}${gem ? ' · 💎 +3' : ''}` : `${tx('qBad')} <b>${q.reply ? '' : esc(L(ln.tr))}</b> ${tutorBtn('window.__stWhy()', 'why')}`}</div>`);
     if (q.reply || !ok) speakAs(ln.who, ln.t);
-    setTimeout(() => { if (done[i] === ok && root.querySelector('.sp-qo')) show(); }, ok ? 1300 : 2600);
+    if (ok) setTimeout(() => { if (done[i] === ok && root.querySelector('.sp-qo')) show(); }, 1300);
+    else root.querySelector('.sp-opts').insertAdjacentHTML('afterend', `<button class="btn sp-qnext" onclick="window.__stNext2()">${tx('cont2')} ▶</button>`);
+    window.__stNext2 = () => show();
   };
   const choiceView = () => {
     chose = true;
@@ -969,6 +1103,9 @@ body.sm-3d #sm-sky{display:none}
 .wg-scene{padding:12px 16px 30px}.wg-host{padding:0 14px}.wg-scene .sp-top{margin-bottom:10px}
 .fr-img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:4px solid #ffd36b;display:block;margin:0 auto 6px;background:#24407a}
 .fr-play{width:100%;font-size:17px;background:linear-gradient(90deg,#ff4d6d,#ffb703) !important;border:0 !important;color:#fff !important;box-shadow:0 6px 18px rgba(255,120,80,.45);margin-top:6px}
+body.sm-on [data-sm] .w3-card .fr-game{width:100%;margin-top:6px;border:0 !important;color:#fff !important}.fr-w{background:linear-gradient(90deg,#3ddc97,#4cc9f0) !important}.fr-v{background:linear-gradient(90deg,#b388ff,#ff8fab) !important}
+.wr-pad{width:234px;height:234px;margin:10px auto;border-radius:18px;background:repeating-linear-gradient(0deg,transparent 0 114px,rgba(255,255,255,.12) 114px 116px,transparent 116px 234px),repeating-linear-gradient(90deg,transparent 0 114px,rgba(255,255,255,.12) 114px 116px,transparent 116px 234px),rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.2)}
+.vb-in{width:100%;margin-top:12px;font-size:20px;padding:12px 14px;border-radius:14px;border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff}
 body.sm-on [data-sm] .w3-card .fr-rv{width:100%;margin-top:4px;color:#2b2340 !important;background:#f3eadb !important;border:1px solid #e0d3bd !important}
 .wg-end{text-align:center;padding:16px 4px;color:#fff}.wg-end .btn{width:100%}
 .wg-stars{font-size:54px;letter-spacing:6px;line-height:1;margin:6px 0}.wg-stars span{color:rgba(255,255,255,.18);display:inline-block}

@@ -1,4 +1,4 @@
-import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611282014';
+import { isConfigured, saveStateToCloud } from './firebase-auth.js?v=202611282029';
 
 const STORAGE_KEY = 'chino_state';
 
