@@ -1,0 +1,19 @@
+# Publishes the clips of a tts-pilot run as a listening page at /idiomas/tts-pilot/ (run by hand with the run id).
+name: tts-pilot-page
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: { description: 'tts-pilot run id', required: true }
+permissions: { contents: write, actions: read }
+jobs:
+  page:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: pilot-audio, path: .github/tts/pilot/out, run-id: '${{ inputs.run_id }}', github-token: '${{ github.token }}' }
+      - run: sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: cd .github/tts/pilot && python3 page.py
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add idiomas/tts-pilot && git commit -qm "TTS pilot: listening page" && git pull -q --rebase && git push -q
